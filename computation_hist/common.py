@@ -59,7 +59,7 @@ def get_google_sheet(spreadsheet_id, sheet_name, return_type='dataframe'):
     Note: To run this function, you need to have copied the google_credentials.json from the
     general slack channel into the google_credentials folder. When you run the script for the
     first time, it will create a token.json in the google_credentials folder that is specific to
-    you.
+    you. PLEASE RUN FROM __name__ == '__main__'. RUNNING FROM DOCTEST WILL FAIL THE FIRST TIME.
 
     Returns either a pandas dataframe...
     >>> df = get_google_sheet('1LU05c0lTSTQ9IY3RS4eDcyvq5HNBMx6mbuMJe6TX-ZA', '2_verzuh')
@@ -109,6 +109,8 @@ def get_google_sheet(spreadsheet_id, sheet_name, return_type='dataframe'):
 
 
 if __name__ == '__main__':
+
+    df = get_google_sheet('1LU05c0lTSTQ9IY3RS4eDcyvq5HNBMx6mbuMJe6TX-ZA', '2_verzuh')
     from dh_testers.testRunner import main_test
     main_test(import_plus_relative=True)  # this allows for relative calls in the import.
 

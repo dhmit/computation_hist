@@ -122,5 +122,5 @@ computation_hist/scratch.py
 *~*
 
 # Google credentials
-# computation_hist/data/google_credentials/google_credentials.json
-# computation_hist/data/google_credentials/token.json
+computation_hist/data/google_credentials/google_credentials.json
+computation_hist/data/google_credentials/token.json
