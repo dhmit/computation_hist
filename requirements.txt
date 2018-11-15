@@ -1,0 +1,12 @@
+dh_testers
+google-api-python-client
+ipython
+matplotlib
+more-itertools
+nltk
+numpy
+oauth2client
+pandas
+requests
+scipy
+seaborn
