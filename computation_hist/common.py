@@ -1,6 +1,7 @@
 import gzip
 import os
 import pickle
+import sys
 from pathlib import Path
 
 import pandas as pd
@@ -62,13 +63,13 @@ def get_google_sheet(spreadsheet_id, sheet_name, return_type='dataframe'):
     you. PLEASE RUN FROM __name__ == '__main__'. RUNNING FROM DOCTEST WILL FAIL THE FIRST TIME.
 
     Returns either a pandas dataframe...
-    >>> df = get_google_sheet('1LU05c0lTSTQ9IY3RS4eDcyvq5HNBMx6mbuMJe6TX-ZA', '2_verzuh')
+    >>> df = get_google_sheet('1LU05c0lTSTQ9IY3RS4eDcyvq5HNBMx6mbuMJe6TX-ZA', 'metadata')
     >>> df['author'][0]
     'Corbato, F. J.'
 
     ... or a list of dicts
     >>> list_of_dicts = get_google_sheet('1LU05c0lTSTQ9IY3RS4eDcyvq5HNBMx6mbuMJe6TX-ZA',
-    ...                                  '2_verzuh', return_type='list_of_dicts')
+    ...                                  'metadata', return_type='list_of_dicts')
     >>> list_of_dicts[0]['author'], list_of_dicts[0]['title']
     ('Corbato, F. J.', 'Requisition for materials for Audio Monitor of 704 Computer')
 
@@ -82,20 +83,36 @@ def get_google_sheet(spreadsheet_id, sheet_name, return_type='dataframe'):
         raise ValueError('return_type has to be (pandas) "dataframe" or "list_of_dicts" but not '
                          '{return_type}.')
 
+    credentials_path = Path(Path.home(), 'google_credentials')
+    credentials_json_path = Path(credentials_path, 'google_credentials.json')
+    token_json_path = Path(credentials_path, 'token.json')
+
+    # Check if credentials file exists (which is used to create the local token.json)
+    if not credentials_json_path.is_file():
+        raise FileNotFoundError('Could not find google credentials. Please make sure to copy the '
+                                'google_credentials.json from the #archivedocs slack channel to '
+                                f'{credentials_json_path}')
+
+    # If local credentials have not been created and the script is run from a doctest, raise error.
+    # The doctest doesn't allow a user to authenticate via google and get the required token.json
+    if not token_json_path.is_file() and hasattr(sys.modules['__main__'], 'DocTestRunner'):
+        raise EnvironmentError("Cannot obtain token.json while running in a doctest. "
+                               "Please run from __name__=='__main__' and follow the "
+                               "automatically generated link to authenticate.")
+
+    # Load credentials and set up Sheets API
     scopes = 'https://www.googleapis.com/auth/spreadsheets.readonly'
-    # Setup the Sheets API
-    store = file.Storage(Path(BASE_PATH, 'data', 'google_credentials', 'token.json'))
+    store = file.Storage(token_json_path)
     creds = store.get()
     if not creds or creds.invalid:
-        flow = client.flow_from_clientsecrets(Path(BASE_PATH, 'data', 'google_credentials',
-                                                   'google_credentials.json'), scopes)
+        # if run from within doctest, raise an error--
+        flow = client.flow_from_clientsecrets(credentials_json_path, scopes)
         creds = tools.run_flow(flow, store)
     service = build('sheets', 'v4', http=creds.authorize(Http()))
 
-    # Call the Sheets API
+    # Download gsheet and turn into dataframe
     gsheet = service.spreadsheets().values().get(spreadsheetId=spreadsheet_id,
                                                  range=sheet_name).execute()
-
     values = gsheet.get('values', [])
     df = pd.DataFrame(values)
     # Turn first row into header
@@ -110,7 +127,7 @@ def get_google_sheet(spreadsheet_id, sheet_name, return_type='dataframe'):
 
 if __name__ == '__main__':
 
-    df = get_google_sheet('1LU05c0lTSTQ9IY3RS4eDcyvq5HNBMx6mbuMJe6TX-ZA', '2_verzuh')
+    df = get_google_sheet('1LU05c0lTSTQ9IY3RS4eDcyvq5HNBMx6mbuMJe6TX-ZA', 'metadata')
     from dh_testers.testRunner import main_test
     main_test(import_plus_relative=True)  # this allows for relative calls in the import.
 
