@@ -52,10 +52,11 @@ def load_pickle(filename):
     return obj
 
 
-def get_google_sheet(spreadsheet_id, sheet_name, return_type='dataframe'):
+
+def get_metadata_google_sheet(return_type='dataframe'):
+
     """
-    Loads a google sheet by the spreadsheet_id and the sheet name
-    It will be primarily used to load the metadata from google sheets
+    Loads the metadata from google sheets
 
     Note: To run this function, you need to have copied the google_credentials.json from the
     general slack channel into the google_credentials folder. When you run the script for the
@@ -63,13 +64,12 @@ def get_google_sheet(spreadsheet_id, sheet_name, return_type='dataframe'):
     you. PLEASE RUN FROM __name__ == '__main__'. RUNNING FROM DOCTEST WILL FAIL THE FIRST TIME.
 
     Returns either a pandas dataframe...
-    >>> df = get_google_sheet('1LU05c0lTSTQ9IY3RS4eDcyvq5HNBMx6mbuMJe6TX-ZA', 'metadata')
+    >>> df = get_metadata_google_sheet()
     >>> df['author'][0]
     'Corbato, F. J.'
 
     ... or a list of dicts
-    >>> list_of_dicts = get_google_sheet('1LU05c0lTSTQ9IY3RS4eDcyvq5HNBMx6mbuMJe6TX-ZA',
-    ...                                  'metadata', return_type='list_of_dicts')
+    >>> list_of_dicts = get_metadata_google_sheet(return_type='list_of_dicts')
     >>> list_of_dicts[0]['author'], list_of_dicts[0]['title']
     ('Corbato, F. J.', 'Requisition for materials for Audio Monitor of 704 Computer')
 
@@ -82,6 +82,10 @@ def get_google_sheet(spreadsheet_id, sheet_name, return_type='dataframe'):
     if return_type not in ['dataframe', 'list_of_dicts']:
         raise ValueError('return_type has to be (pandas) "dataframe" or "list_of_dicts" but not '
                          '{return_type}.')
+
+
+    spreadsheet_id = '1LU05c0lTSTQ9IY3RS4eDcyvq5HNBMx6mbuMJe6TX-ZA'
+    sheet_name = 'metadata'
 
     credentials_path = Path(Path.home(), 'google_credentials')
     credentials_json_path = Path(credentials_path, 'google_credentials.json')
@@ -115,9 +119,10 @@ def get_google_sheet(spreadsheet_id, sheet_name, return_type='dataframe'):
                                                  range=sheet_name).execute()
     values = gsheet.get('values', [])
     df = pd.DataFrame(values)
+
+
     # Turn first row into header
     df = df.rename(columns=df.iloc[0]).drop(df.index[0])
-    df = df.reset_index()
 
     if return_type == 'dataframe':
         return df
@@ -127,7 +132,7 @@ def get_google_sheet(spreadsheet_id, sheet_name, return_type='dataframe'):
 
 if __name__ == '__main__':
 
-    df = get_google_sheet('1LU05c0lTSTQ9IY3RS4eDcyvq5HNBMx6mbuMJe6TX-ZA', 'metadata')
-    from dh_testers.testRunner import main_test
-    main_test(import_plus_relative=True)  # this allows for relative calls in the import.
+    df = get_metadata_google_sheet()
+#    from dh_testers.testRunner import main_test
+#    main_test(import_plus_relative=True)  # this allows for relative calls in the import.
 
