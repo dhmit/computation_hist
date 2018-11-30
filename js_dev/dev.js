@@ -12,6 +12,17 @@ function not_all() {
     $zeros.html('1');
 }
 
+function move_digits() {
+    const $digits = $('.binary_digit');
+    $digits.css('position', 'relative');
+    $digits.animate(
+        { top: '200px', fontSize: '300%' },
+        { duration: 2000, complete: function() { alert('hello!'); } }
+    );
+}
+
+
+
 function start() {
     $('#not_operation').on('click', not_all);
 }
