@@ -112,15 +112,25 @@ venv.bak/
 .pydevproject
 
 # Scratch File
-computation_hist/scratch.py
+gender_novels/scratch.py
 
+# Gutenberg module things
+gender_novels/apicache-py3/
+gender_novels/throttle.ctrl
+
+# Stanford NLP Jar files
+gender_novels/analysis/assets/stanford-parser.jar
+gender_novels/analysis/assets/stanford-parser-3.9.1-models.jar
+
+# Corpus generator testing
+gender_novels/test_corpus/
+gender_novels/corpora/test_books_30/
+
+# The gutenberg corpus will be downloaded and initialized as a whole outside of version control.
+gender_novels/corpora/gutenberg/texts
 
 # Line profiler files
 *.lprof
 
 # Weird temp files
 *~*
-
-# Google credentials
-computation_hist/data/google_credentials/google_credentials.json
-computation_hist/data/google_credentials/token.json
