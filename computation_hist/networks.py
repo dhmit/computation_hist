@@ -1,117 +1,126 @@
-from collections import Counter
-
 import matplotlib.pyplot as plt
-import networkx as nx
 
 from computation_hist.common import get_metadata_google_sheet
+from computation_hist.document import Document
 
 
-# Work with 1_ProjectProposalContract Materials_1
-# https://s3-us-west-2.amazonaws.com/computation-hist/scans/project_proposal_contract.pdf
+class Network:
+    """
+    The network class currently provides a skeleton to do social network analysis. It is meant
+    to be expanded and all of the current functions can be modified or deleted.
 
+    It currently creates a directed network (i.e. the same node pair can have two edges, one where
+    they are
 
-def create_network_graph():
+    >>> network = Network()
+    >>> network
+    Network with 43 nodes and 56 edges
 
-    metadata = get_metadata_google_sheet(return_type='list_of_dicts')
+    # The network has a dict of nodes that map from a person to a Node object
+    >>> node = network.nodes['Morse, Philip M.']
+    >>> print(f'{node}. Number of documents authored by node: {len(node)}')
+    Node: Morse, Philip M.. Number of documents authored by node: 4
 
-    nodes = set()
-    edges = set()
+    # Similarly, it has a dict of edges that map from an (author, recipient) tuple to an Edge object
+    >>> edge = list(network.edges.values())[0]
+    >>> print(f'{edge}. Number documents for this edge: {len(edge)}')
+    Edge. Author: Corbato, F. J.. Recipient: Verzuh, F. M.. Number documents for this edge: 1
 
-    for document_metadata in metadata:
+    # The main purpose for this class for the time being is to visualize the network arising from
+    # the metadata (for some reason, this doctest passes)
+    >>> network.visualize_network(no_nodes=20)
+    """
 
-        author = document_metadata['author']
-        recipients = document_metadata['recipients']
-        nodes.add(author)
-        if recipients not in [None, 'None']:
-            nodes.add(recipients)
-            edges.add((author, recipients))
+    def __init__(self, return_empty_network=False):
 
-    G = nx.Graph()
-    for node in nodes:
-        G.add_node(node)
-    for edge in edges:
-        G.add_edge(edge[0], edge[1])
-
-    print(nx.info(G))
-
-    nx.draw_circular(G)
-    plt.show()
-
-def create_network_graph_weighted():
-
-    metadata = get_metadata_google_sheet('list_of_dicts')
-
-    nodes = Counter()
-    edges = Counter()
-
-    for document_metadata in metadata:
-        author = document_metadata['author']
-        recipients = document_metadata['recipients']
-        nodes[author] += 1
-        if recipients not in [None, 'None']:
-            nodes[recipients] += 1
-            edges[(author, recipients)] += 1
-
-    G = nx.Graph()
-    for node in nodes:
-        weight = nodes[node]
-        G.add_node(node, weight=weight)
-    for edge in edges:
-        weight = edges[edge]
-        G.add_edge(edge[0], edge[1], weight=weight)
-
-    labels = {node: node for node in nodes}
-
-    print(nx.info(G))
-    print(nodes.values())
-
-    nx.draw_circular(G,
-                     labels=labels,
-                     node_size=[i * 100 for i in nodes.values()],
-                     width=[i for i in edges.values()]
-    )
-
-    plt.show()
-
-
-
-
-class Network():
-
-    def __init__(self):
-
+        # nodes and edges are dicts that map from node_name to a Node object
+        # and from (edge_author, edge_recipient) to an Edge object.
+        # there's probably a better way of storing this data
         self.nodes = {}
         self.edges = {}
 
-        df = get_metadata()
-        for document_metadata in df.iterrows():
+        # initialize network using the available metadata
+        if not return_empty_network:
+            metadata = get_metadata_google_sheet(return_type='list_of_dicts')
+            for document_metadata in metadata:
+                self._add_document_to_network(document_metadata)
 
-            document_metadata = document_metadata[1]
+    def __repr__(self):
+        return f'Network with {len(self.nodes)} nodes and {len(self.edges)} edges'
 
-            document = Document(document_metadata)
+    def _add_document_to_network(self, document_metadata):
+        """
+        Adds one document to the network
 
-            # add the new document to the author node
-            print(document.author)
-            if document.author not in self.nodes:
-                self.nodes[document.author] = Node(document.author)
-            self.nodes[document.author].add_document(document)
+        >>> network = Network(return_empty_network=True)
+        >>> metadata = {'box': 2, 'foldername_short': 'verzuh', 'doc_id': 1,
+        ...            'filename': '2_verzuh_1', 'author': 'Corbato, F. J.', 'title': 'n/a',
+        ...             'date': '1957-11-21', 'text': 'Sample text...', 'recipients': 'Morse'}
+        >>> network._add_document_to_network(metadata)
+        >>> network
+        Network with 2 nodes and 1 edges
 
-            if document_metadata['recipients'] not in [None, 'None']:
-                self._add_edge(document)
+        """
 
-    def _add_edge(self, document):
+        document_metadata['text'] = ''
+        document = Document(document_metadata)
 
-        author = document.author
-        recipient = document.recipients
-        for name in [author, recipient]:
-            if not name in self.nodes:
-                self.nodes[name] = Node(name)
-        if not (author, recipient) in self.edges:
-            self.edges[(author, recipient)] = Edge(author, recipient)
-        self.edges[(author, recipient)].add_document(document)
+        # add the new document to the author node
+        if document.author not in self.nodes:
+            self.nodes[document.author] = Node(document.author)
+        self.nodes[document.author].add_document(document)
+
+        # if the document has recipients, add them as nodes if necessary and add all of the edges
+        if document.recipients:
+            author = document.author
+            recipients = document.recipients
+            for name in recipients:
+                if not name in self.nodes:
+                    self.nodes[name] = Node(name)
+            for recipient in recipients:
+                if (author, recipient) not in self.edges:
+                    author_node = self.nodes[author]
+                    recipient_node = self.nodes[recipient]
+                    self.edges[(author, recipient)] = Edge(author_node, recipient_node)
+                self.edges[(author, recipient)].add_document(document)
 
 
-class Node():
+    def visualize_network(self, no_nodes=20):
+        """
+        Visualizes the network as a circular graph that includes up to no_nodes nodes.
+        TODO: Add more configuration options (different layouts, colors, node and edge selections)
+
+        # use the no_nodes param to define how many nodes to show
+        >>> network = Network()
+        >>> network.visualize_network(no_nodes=20)
+
+        """
+
+        import networkx as nx
+        graph = nx.Graph()
+        # include top no_nodes that authored most documents.
+        included_nodes = [node for node in sorted(self.nodes.values(),
+                                                  key=lambda x: len(x), reverse=True)][:no_nodes]
+        for node in included_nodes:
+            graph.add_node(node.name, weight=len(node))
+        for edge in self.edges.values():
+            if edge.author in included_nodes and edge.recipient in included_nodes:
+                graph.add_edge(edge.author.name, edge.recipient.name, weight=len(edge))
+        labels = {node.name: node.name for node in included_nodes}
+
+        nx.draw_circular(graph,
+                         labels=labels,
+                         node_size = [len(node) * 100 for node in self.nodes.values()],
+                         width=[len(edge) for edge in self.edges.values()]
+                         )
+        plt.show()
+
+
+class Node:
+    """
+    Class to store nodes for the Network class. Each node consists of a name and a list of documents
+
+    """
 
     def __init__(self, name):
         self.name = name
@@ -134,15 +143,21 @@ class Node():
         self.documents.append(document)
 
 
-class Edge():
+class Edge:
+    """
+    Class to store edges for the Network class.
+    Each Edge consists of an author Node, a recipient Node, and a list of documents exchanged
+    between them.
 
-    def __init__(self, author, recipient):
+    """
+
+    def __init__(self, author: Node, recipient: Node):
         self.author = author
         self.recipient = recipient
         self.documents = []
 
     def __repr__(self):
-        return f"Edge. Author: {self.author}. Recipient: {self.recipient}"
+        return f"Edge. Author: {self.author.name}. Recipient: {self.recipient.name}"
 
     def __eq__(self, other):
 
@@ -159,26 +174,6 @@ class Edge():
         self.documents.append(document)
 
 
-
-class Document():
-
-    def __init__(self, document_metadata):
-        self.date = document_metadata['date']
-        self.doc_type = document_metadata['type']
-        self.author = document_metadata['author']
-        self.title = document_metadata['title']
-        self.filename = document_metadata['filename']
-
-        if document_metadata['recipients'] == 'None':
-            self.recipients = None
-        else:
-            self.recipients = document_metadata['recipients']
-
-
-
-
-
 if __name__ == '__main__':
-
-    create_network_graph_weighted()
-
+    n = Network()
+    n.visualize_network()

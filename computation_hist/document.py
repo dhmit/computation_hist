@@ -92,3 +92,14 @@ class Document():
                 err = "Could not find the novel text file "
                 err += "at the expected location ({file_path})."
                 raise FileNotFoundError(err)
+
+        # split and merge recipients and cced into one list
+        if hasattr(self, 'recipients') and self.recipients is not None:
+            self.recipients = [recipient.strip() for recipient in self.recipients.split(';')]
+            if hasattr(self, 'cced'):
+                self.recipients += [recipient.strip() for recipient in self.cced.split(';')]
+        else:
+            self.recipients = None
+
+    def __repr__(self):
+        return f'Document. Author: {self.author}. Title: {self.title}'
