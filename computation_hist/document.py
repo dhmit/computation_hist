@@ -1,11 +1,66 @@
+import re
 from pathlib import Path
+
+import pandas as pd
 
 from computation_hist.common import BASE_PATH
 
 
-class Document():
+class DocumentCollection():
     """
-    The document loads and holds the metadata and text fore one archival document
+    The DocumentCollection class holds a collection of documents and can load, as an example,
+    the sample documents from one folder.
+    For the time being, the purpose of this class is to get the Django group a starting point to
+    being work with databases and fulltext search.
+
+    # to load the sample collection, initialize with collection='sample_collection'
+    >>> sample_collection = DocumentCollection(collection='sample_collection')
+    >>> print(f"Sample collection has {len(sample_collection.documents)} documents.")
+    Sample collection has 11 documents.
+
+    # Each document in the collection is a Document type with all the metadata including the full
+    # text. See the documentation for the Document class on how to use it.
+    >>> first_doc = sample_collection.documents[0]
+    >>> first_doc
+    Document. Author: Corbato, F. J.. Title: Requisition for materials for Audio Monitor of 704 Computer
+
+    >>> first_doc.text.split()[:10]
+    ['/~', 't', 'ht~', 'F.', 'J.', 'Corbato', 'M.', 'November', '21,', '1957']
+
+    """
+
+    def __init__(self, collection='sample_collection'):
+
+        self.documents = []
+
+        if collection not in ['full_collection', 'sample_collection', 'empty']:
+            raise ValueError(f'DocumentCollection can only be initialized with collection param '
+                             f'set to "full_collection" (loads all documents from the archives), '
+                             f'"sample_collection" (loads a collection of 13 sample documents), '
+                             f'and "empty" (loads an empty collection). You used collection='
+                             f'{collection}.')
+
+        # TODO: Implement loading of the full collection of documents, that is: load the metadata
+        # TODO: from the google sheet and import all documents
+        if collection == 'full_collection':
+            pass
+
+        elif collection == 'sample_collection':
+            sample_docs_path = Path(BASE_PATH, 'data', 'sample_docs')
+            metadata = pd.read_csv(Path(sample_docs_path, 'verzuh_metadata.csv')).to_dict('records')
+            for doc_metadata in metadata:
+
+                doc_metadata['pdf_path'] = Path(sample_docs_path,
+                                                f'{doc_metadata["filename"]}.pdf')
+                doc_metadata['txt_path'] = Path(sample_docs_path,
+                                                f'{doc_metadata["filename"]}.txt')
+                doc = Document(doc_metadata)
+                self.documents.append(doc)
+
+
+class Document:
+    """
+    The Document class loads and holds the metadata and text fore one archival document
     Currently, it is only a stub for further development
 
     TODO: This may not be needed as a class but might get ported to a Django model.
@@ -23,11 +78,10 @@ class Document():
 
         :param document_metadata_dict: dict or None
         :param load_sample_doc: True to load the sample document. Default: False
-        :param load_text: True to load the text, False skips loading the text. Default: True
 
         Note: You can set the document text by passing a 'text' key
         >>> metadata = {'box': 2, 'foldername_short': 'verzuh', 'doc_id': 1,
-        ...             'filename': '2_verzuh_1', 'author': 'Corbato, F. J.', 'title': 'n/a',
+        ...             'filename': '3_32_verzuh_1', 'author': 'Corbato, F. J.', 'title': 'n/a',
         ...             'date': '1957-11-21', 'text': 'Sample text...'}
         >>> doc = Document(metadata)
         >>> doc.text
@@ -57,8 +111,8 @@ class Document():
                     'title': 'Requisition for materials for Audio Monitor of 704 Computer',
                     'date': '1957-11-21', 'type': 'letter', 'recipients': 'Verzuh, F. M.',
                     'notes': 'None',
-                    'pdf_path': Path(BASE_PATH, 'data', 'sample_docs', '2_verzuh_1.pdf'),
-                    'txt_path': Path(BASE_PATH, 'data', 'sample_docs', '2_verzuh_1.txt'),
+                    'pdf_path': Path(BASE_PATH, 'data', 'sample_docs', '3_32_verzuh_1.pdf'),
+                    'txt_path': Path(BASE_PATH, 'data', 'sample_docs', '3_32_verzuh_1.txt'),
                 }
 
         if not hasattr(document_metadata_dict, 'items'):
@@ -73,10 +127,16 @@ class Document():
                 raise ValueError(f'document_metadata_dict must have an entry for "{key}". Full ',
                                  f'metadata: {document_metadata_dict}')
 
-        # TODO: Check date format (YYYY-MM-DD)
-
         for key in document_metadata_dict:
             setattr(self, key, document_metadata_dict[key])
+
+        # check date formatting
+        if self.date == 'None':
+            self.date = None
+        else:
+            if not re.match(r'19\d{2}-\d{2}-\d{2}', self.date):
+                raise ValueError('Invalid date format. Please enter the date in the metadata as '
+                                 f'YYYY-MM-DD. The set date is {self.date}.')
 
         # Load text if it wasn't passed as a metadata key
         if not hasattr(self, 'text'):
@@ -103,3 +163,7 @@ class Document():
 
     def __repr__(self):
         return f'Document. Author: {self.author}. Title: {self.title}'
+
+
+if __name__ == '__main__':
+    col = DocumentCollection(collection='sample_collection')
