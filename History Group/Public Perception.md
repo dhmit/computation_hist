@@ -1,4 +1,4 @@
-# Public Perspeption
+# Public Perception
 History of Computation at MIT, 1950-62
 
 Finding articles writen by people detatched from the field proved difficult as knowledge of 
