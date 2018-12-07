@@ -105,9 +105,12 @@ venv.bak/
 
 # Pycharm project settings
 .idea
+.idea/
+.idea/*
 
 # OSX DS_Store
 .DS_store
+.DS_Store
 .project
 .pydevproject
 
