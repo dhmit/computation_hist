@@ -1,4 +1,5 @@
 dh_testers
+django>=2.1
 google-api-python-client
 ipython
 matplotlib
