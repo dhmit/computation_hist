@@ -1,0 +1,16 @@
+BODY {
+    margin-left: 20px;
+}
+
+.binary_digit {
+    font-size: 200%;
+    display: inline-block;
+}
+
+.highlighted {
+    background-color:deepskyblue;
+}
+
+.highlighted_2 {
+    background-color: green;
+}
