@@ -8,7 +8,7 @@ for (number in no_to_operation) {
     operation_to_no[(no_to_operation[number]).name] = number;
 }
 
-general_memory = Array(32767).fill(0);
+general_memory = Array(8192).fill(0);
 accumulator = 0;
 mq_register = 0;
 storage_register = 0;
