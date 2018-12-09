@@ -137,3 +137,5 @@ gender_novels/corpora/gutenberg/texts
 
 # Weird temp files
 *~*
+.idea/misc.xml
+.idea/computation_hist.iml
