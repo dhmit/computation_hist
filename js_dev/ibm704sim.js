@@ -1,4 +1,7 @@
-// storage of numbers is currently wrong
+// storage of numbers is currently only fixed point and doesn't have negative numbers
+// also there are no index registers or Type A functions.  Or most of the Type B functions
+// basically most of the computer is missing
+// TODO: figure out how to use modules or sharing scripts or something like that in Javascript?
 
 const newline_regex = /\r\n|[\n\v\f\r\x85\u2028\u2029]/;
 
@@ -122,7 +125,38 @@ function update() {
     $("#accumulator").html(convert_to_binary(accumulator, 38));
 }
 
+function store_instruction_register(instruction) {
+    result = "";
+    instruction = convert_to_binary(instruction, 36);
+    result += instruction[0];
+    result += instruction.substring(3, 12);
+    for (let i = 0; i <= 18 - result.length; i++) {
+        result += "1";
+    }
+    instructionregister = parseInt(result, 2);
+}
+
+function step() {
+    instruction = general_memory[ilc];
+    if (instruction == 0) {
+        return;
+    }
+    store_instruction_register(instruction);
+    address = get_address(instruction);
+    storage_register = general_memory[address];
+    operation = get_operation(instruction);
+    operation(address);
+    code_line++;
+    update();
+    ilc++;
+}
+
 function start() {
+    $('#step_button').on('click', step);
+
+    general_memory[3] = 12;
+    general_memory[4] = 30;
+
     const code = $(".symbolic_code");
     const code_innerHTML = Array(code.length);
     for (let i = 0; i < num_code_lines; i++) {
