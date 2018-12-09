@@ -103,8 +103,84 @@ function run() {
 
 function convert_to_binary(number, digits) {
     result = number.toString(2);
-    for (let i = 0; i < digits+1 - result.length; i++) {
+    length = result.length;
+    for (let i = 0; i < digits - length; i++) {
         result = "0" + result;
+    }
+    return result.toString();
+}
+
+const no_to_operation_str = {0o601: "STO", 0: "HTR", 0o500: "CLA", 0o400: "ADD", 0b110: "TNX"};
+
+function binary_to_instruction_a(binary_rep) {
+    for (let i = 0; i < 36 - binary_rep.length; i++) {
+        binary_rep = "0" + binary_rep;
+    }
+    prefix_bits = binary_rep.substring(0,3);
+    prefix = no_to_operation_str[parseInt(prefix_bits, 2)];
+    if(prefix == undefined || prefix == "HTR") {
+        return "Operation not found"
+    }
+    result = prefix;
+    address_bits = binary_rep.substr(-15);
+    result += " " + parseInt(address_bits, 2).toString();
+    tag_bits = binary_rep.substring(18,21);
+    result += ", " + parseInt(tag_bits, 2).toString();
+    decrement_bits = binary_rep.substring(3, 18);
+    decrement = parseInt(decrement_bits, 2);
+    result += decrement.toString();
+    result += ", " + decrement.toString();
+    return result;
+}
+
+function binary_to_instruction_b(binary_rep) {
+    for (let i = 0; i < 36 - binary_rep.length; i++) {
+        binary_rep = "0" + binary_rep;
+    }
+    operation_bits = binary_rep.substring(0, 12);
+    operation_number = parseInt(operation_bits, 2);
+    var operation;
+    operation = no_to_operation_str[operation_number];
+    if (operation == undefined) {
+        return "Operation not found"
+    }
+    result = operation;
+    address_bits = binary_rep.substr(-15);
+    result += " " + parseInt(address_bits, 2).toString();
+    tag_bits = binary_rep.substring(18,21);
+    if (tag_bits != "000") {
+        result += ", " + parseInt(tag_bits, 2).toString();
+    }
+    return result;
+}
+
+function binary_to_fixed_point(binary_rep) {
+    var positive;
+    if (binary_rep.length == 36) {
+        positive = binary_rep[0] == "0";
+        binary_rep = binary_rep.substring(1);
+    } else {
+        positive = true;
+    }
+    result = parseInt(binary_rep, 2).toString();
+    if (!positive) {
+        result = -result;
+    }
+    return result.toString();
+}
+
+function binary_to_floating_point(binary_rep) {
+    for (let i = 0; i < 36 - binary_rep.length; i++) {
+        binary_rep = "0" + binary_rep;
+    }
+    fraction_bits = binary_rep.substring(9,36);
+    fraction = parseInt(fraction_bits, 2)/Math.pow(2, 27);
+    characteristic_bits = binary_rep.substring(1, 9);
+    characteristic = parseInt(characteristic_bits, 2);
+    exponent = characteristic - 128;
+    result = fraction*Math.pow(2,exponent);
+    if (binary_rep[0] == 1) {
+        result = -result;
     }
     return result.toString();
 }
@@ -118,6 +194,31 @@ function update() {
     for (let i = 0; i < general_memory_display; i++) {
         general_memory_html[i].innerHTML = convert_to_binary(general_memory[i], 36);
     }
+    // const general_memory_0 = $('#general_memory0');
+    // general_memory_0.tooltip({title: binary_to_instruction_a(general_memory_0.html())});
+    // const general_memory_1 = $('#general_memory1');
+    // general_memory_1.tooltip({title: binary_to_instruction_a(general_memory_1.html())});
+    // const general_memory_2 = $('#general_memory2');
+    // general_memory_2.tooltip({title: binary_to_instruction_a(general_memory_2.html())});
+    // const general_memory_3 = $('#general_memory3');
+    // general_memory_3.tooltip({title: binary_to_fixed_point(general_memory_3.html())});
+    // const general_memory_4 = $('#general_memory4');
+    // general_memory_4.tooltip({title: binary_to_fixed_point(general_memory_4.html())});
+    // const general_memory_5 = $('#general_memory5');
+    // general_memory_5.tooltip({title: binary_to_fixed_point(general_memory_5.html())});
+
+    general_memory_0 = $('#general_memory0')[0];
+    general_memory_0.title = binary_to_instruction_b(general_memory_0.innerHTML);
+    general_memory_1 = $('#general_memory1')[0];
+    general_memory_1.title = binary_to_instruction_b(general_memory_1.innerHTML);
+    general_memory_2 = $('#general_memory2')[0];
+    general_memory_2.title = binary_to_instruction_b(general_memory_2.innerHTML);
+    general_memory_3 = $('#general_memory3')[0];
+    general_memory_3.title = binary_to_fixed_point(general_memory_3.innerHTML);
+    general_memory_4 = $('#general_memory4')[0];
+    general_memory_4.title = binary_to_fixed_point(general_memory_4.innerHTML);
+    general_memory_5 = $('#general_memory5')[0];
+    general_memory_5.title = binary_to_fixed_point(general_memory_5.innerHTML);
 
     $("#instruction_location_counter").html(convert_to_binary(ilc, 13));
     $("#instruction_register").html(convert_to_binary(instructionregister, 18));
@@ -130,7 +231,8 @@ function store_instruction_register(instruction) {
     instruction = convert_to_binary(instruction, 36);
     result += instruction[0];
     result += instruction.substring(3, 12);
-    for (let i = 0; i <= 18 - result.length; i++) {
+    length = result.length;
+    for (let i = 0; i <= 18 - length; i++) {
         result += "1";
     }
     instructionregister = parseInt(result, 2);
