@@ -15,6 +15,11 @@ storage_register = 0;
 instructionregister = 0;
 ilc = 0;
 
+const num_code_lines = 3;
+const general_memory_display = 7;
+code_line = 0;
+permanent_halt = false;
+
 
 function get_address(word) {
     binary_rep = word.toString(2);
@@ -34,6 +39,7 @@ function STO(address) {
 }
 
 function HTR(address) {
+    permanent_halt = true;
     return 1;
 }
 
@@ -45,9 +51,7 @@ function ADD(address) {
     accumulator += storage_register;
 }
 
-function assemble() {
-    code = document.getElementById("codeBox").value;
-    code_lines = code.split(newline_regex);
+function assemble(code_lines) {
     register = 0;
     for (line_no in code_lines) {
         line = code_lines[line_no];
@@ -64,6 +68,9 @@ function assemble_line(operation, address, register) {
 }
 
 function run() {
+    code = document.getElementById("codeBox").value;
+    code_lines = code.split(newline_regex);
+    assemble(code_lines);
     general_memory[10] = 11; // assign register 10 value of 11
     general_memory[11] = 14; // assign register 11 value of 14
     // general_memory[0] = Math.pow(2,24)*0o500 + 10; // CLA 10
@@ -90,5 +97,41 @@ function run() {
     }
     return general_memory[12]; // should be 25
 }
+
+function convert_to_binary(number, digits) {
+    result = number.toString(2);
+    for (let i = 0; i < digits+1 - result.length; i++) {
+        result = "0" + result;
+    }
+    return result.toString();
+}
+
+function update() {
+    const code_html = $(".symbolic_code");
+    code_html.removeClass("highlighted");
+    code_html[code_line].className += " highlighted";
+
+    const general_memory_html = $(".general_memory");
+    for (let i = 0; i < general_memory_display; i++) {
+        general_memory_html[i].innerHTML = convert_to_binary(general_memory[i], 36);
+    }
+
+    $("#instruction_location_counter").html(convert_to_binary(ilc, 13));
+    $("#instruction_register").html(convert_to_binary(instructionregister, 18));
+    $("#storage_register").html(convert_to_binary(storage_register, 36));
+    $("#accumulator").html(convert_to_binary(accumulator, 38));
+}
+
+function start() {
+    const code = $(".symbolic_code");
+    const code_innerHTML = Array(code.length);
+    for (let i = 0; i < num_code_lines; i++) {
+        code_innerHTML[i] = code[i].innerHTML;
+    }
+    assemble(code_innerHTML);
+    update();
+}
+
+$(document).ready(start);
 
 
