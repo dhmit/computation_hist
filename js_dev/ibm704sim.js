@@ -249,8 +249,8 @@ function step() {
     operation = get_operation(instruction);
     operation(address);
     code_line++;
-    update();
     ilc++;
+    update();
 }
 
 function start() {
