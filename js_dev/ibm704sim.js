@@ -10,6 +10,8 @@ const operation_to_no = {};
 for (number in no_to_operation) {
     operation_to_no[(no_to_operation[number]).name] = number;
 }
+const no_to_operation_a_str = {0b110: "TNX"};
+const no_to_operation_b_str = {0o601: "STO", 0o000: "HTR", 0o500: "CLA", 0o400: "ADD"};
 
 general_memory = Array(8192).fill(0);
 accumulator = 0;
@@ -23,13 +25,24 @@ const general_memory_display = 7;
 code_line = 0;
 permanent_halt = false;
 
-
+/**
+ * Returns the address that an instruction is directed at.
+ *
+ * @param   {number}    word    Numerical value of instruction to extract address from.
+ * @returns {number} Address that instruction is directed at.
+ */
 function get_address(word) {
     binary_rep = word.toString(2);
     str_address = binary_rep.substr(-15);
     return parseInt(str_address, 2);
 }
 
+/**
+ * Returns the operation of a Type B instruction.
+ *
+ * @param   {number}    word    Numerical value of instruction to extract operation from.
+ * @returns {function} Function corresponding to the operation contained in instruction.
+ */
 function get_operation(word) { //TODO: handle Type A instructions
     binary_rep = word.toString(2);
     str_operation = binary_rep.substring(0, binary_rep.length-24);
@@ -37,23 +50,64 @@ function get_operation(word) { //TODO: handle Type A instructions
     return no_to_operation[operation_number];
 }
 
+/**
+ * Emulates the IBM 704 STO operation.
+ *
+ * Stores the value of the accumulator into the register with specified address.
+ *
+ * @param {number}  address     Address to store value to.
+ */
 function STO(address) {
     general_memory[address] = accumulator;
 }
 
+/**
+ * Emulates the IBM 704 HTR operation.
+ *
+ * Indicates the computer to halt.
+ *
+ * @param {number} address      Required for Type B instruction.
+ * @returns {number} Returns 1 to indicate halt.
+ */
 function HTR(address) {
     permanent_halt = true;
     return 1;
 }
 
+/**
+ * Emulates the IBM 704 CLA operation.
+ *
+ * Replaces the value of the accumulator with the value of the storage register (which should be
+ * the value of the register with the indicated address).
+ *
+ * @param {number}  address     The address of the value to put into the accumulator (not
+ * actually used).
+ */
 function CLA(address) {
     accumulator = storage_register;
 }
 
+/**
+ * Emulates the IBM 704 ADD operation.
+ *
+ * Adds the value of the storage register (which should be the value at address) to the
+ * accumulator as if it were a fixed point number.  Note: does not handle negative numbers properly
+ * right now.
+ *
+ * @param {number} address      The address of the value to add to the accumulator.
+ */
 function ADD(address) {
     accumulator += storage_register;
 }
 
+/**
+ * Converts an array of strings that contain lines of SHARE assembly into numerical code that is
+ * placed in general memory.
+ *
+ * Currently missing most operations and all pseudo-operations, and doesn't handle tags.
+ *
+ * @param {Array} code_lines    Array of lines of code.
+ */
 function assemble(code_lines) {
     register = 0;
     for (line_no in code_lines) {
@@ -66,10 +120,23 @@ function assemble(code_lines) {
     }
 }
 
+/**
+ * Stores an instruction into general memory as a number.
+ *
+ * @param {string} operation    String name of operation.
+ * @param {number} address      Address that instruction is directed at.
+ * @param {number} register     Address that instruction should be stored in.
+ */
 function assemble_line(operation, address, register) {
     general_memory[register] = Math.pow(2,24)*operation_to_no[operation] + address;
 }
 
+/**
+ * Runs code placed into the textbox of ibm704sim.html with register 10 holding numerical
+ * value of 11 and register 11 holding numerical value of 14, and returns value of register 12.
+ *
+ * @returns {number}    The value of register 12.
+ */
 function run() {
     code = document.getElementById("codeBox").value;
     code_lines = code.split(newline_regex);
@@ -101,6 +168,14 @@ function run() {
     return general_memory[12]; // should be 25
 }
 
+/**
+ * Returns a string binary representation of a number with leading zeros to achieve a certain
+ * number of digits.
+ *
+ * @param {number} number   The number to be converted.
+ * @param {number} digits   Number of digits that resulting binary representation should have.
+ * @returns {string}    Binary representation with specified number of digits.
+ */
 function convert_to_binary(number, digits) {
     result = number.toString(2);
     length = result.length;
@@ -110,9 +185,15 @@ function convert_to_binary(number, digits) {
     return result.toString();
 }
 
-const no_to_operation_a_str = {0b110: "TNX"};
-const no_to_operation_b_str = {0o601: "STO", 0o000: "HTR", 0o500: "CLA", 0o400: "ADD"};
-
+/**
+ * Returns a string that holds the SHARE assembly notation for a Type A instruction of a binary
+ * representation of a number.
+ *
+ * If it fails returns "Operation not found".
+ *
+ * @param {string} binary_rep   The binary representation of a Type A instruction.
+ * @returns {string}    SHARE assembly notation for the Type A instruction.
+ */
 function binary_to_instruction_a(binary_rep) {
     for (let i = 0; i < 36 - binary_rep.length; i++) {
         binary_rep = "0" + binary_rep;
@@ -134,6 +215,15 @@ function binary_to_instruction_a(binary_rep) {
     return result;
 }
 
+/**
+ * Returns a string that holds the SHARE assembly notation for a Type B instruction of a binary
+ * representation of a number.
+ *
+ * If it fails returns "Operation not found".
+ *
+ * @param {string} binary_rep   The binary representation of a Type B instruction.
+ * @returns {string}    SHARE assembly notation for the Type B instruction.
+ */
 function binary_to_instruction_b(binary_rep) {
     for (let i = 0; i < 36 - binary_rep.length; i++) {
         binary_rep = "0" + binary_rep;
@@ -155,6 +245,14 @@ function binary_to_instruction_b(binary_rep) {
     return result;
 }
 
+/**
+ * Converts a string binary representation of an IBM 704 word to a string decimal representation
+ * of that word interpreted as a fixed point number.
+ *
+ *
+ * @param {string} binary_rep   The binary representation of an IBM 704 word.
+ * @returns {string}    Decimal representation of that word interpreted as a fixed-point number.
+ */
 function binary_to_fixed_point(binary_rep) {
     var positive;
     if (binary_rep.length == 36) {
@@ -170,6 +268,15 @@ function binary_to_fixed_point(binary_rep) {
     return result.toString();
 }
 
+/**
+ * Converts a string binary representation of an IBM 704 word to a string decimal representation
+ * of that word interpreted as a floating point number.
+ *
+ *
+ * @param {string} binary_rep   The binary representation of an IBM 704 word.
+ * @returns {string}    Decimal representation of that word interpreted as a floating-point
+ * number.
+ */
 function binary_to_floating_point(binary_rep) {
     for (let i = 0; i < 36 - binary_rep.length; i++) {
         binary_rep = "0" + binary_rep;
@@ -186,6 +293,9 @@ function binary_to_floating_point(binary_rep) {
     return result.toString();
 }
 
+/**
+ * Updates page to highlight correct line of code and display correct memory values.
+ */
 function update() {
     const code_html = $(".symbolic_code");
     code_html.removeClass("highlighted");
@@ -227,6 +337,13 @@ function update() {
     $("#accumulator").html(convert_to_binary(accumulator, 38));
 }
 
+/**
+ * Stores Type B instruction into the instruction register in the way the IBM 704 does it.
+ *
+ * Does not handle Type A, input-output, shifting, or sense instructions.
+ *
+ * @param {number}  instruction     Instruction to be stored in instruction register.
+ */
 function store_instruction_register(instruction) {
     result = "";
     instruction = convert_to_binary(instruction, 36);
@@ -239,6 +356,9 @@ function store_instruction_register(instruction) {
     instructionregister = parseInt(result, 2);
 }
 
+/**
+ * Steps through a single line of code indicated by the instruction location counter.
+ */
 function step() {
     instruction = general_memory[ilc];
     if (instruction == 0) {
@@ -254,6 +374,10 @@ function step() {
     update();
 }
 
+/**
+ * Initializes ibm704_assembly_addition.html, including initializing register 3 of general memory to
+ * 12 and register 4 of general memory to 30, and storing the set program into memory.  
+ */
 function start() {
     $('#step_button').on('click', step);
 
