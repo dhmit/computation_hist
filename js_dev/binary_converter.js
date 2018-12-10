@@ -30,7 +30,7 @@ function binary_to_instruction_b(binary_rep) {
     var operation;
     operation = no_to_operation_str[operation_number];
     if (operation == undefined) {
-        return "Operation not found"
+        return "Operation not found";
     }
     result = operation;
     address_bits = binary_rep.substr(-15);
