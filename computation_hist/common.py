@@ -2,6 +2,9 @@ import gzip
 import os
 import pickle
 import sys
+import pdf2image
+import PyPDF2
+import pytesseract
 from pathlib import Path
 
 import pandas as pd
@@ -130,9 +133,127 @@ def get_metadata_google_sheet(return_type='dataframe'):
         return df.to_dict('records')
 
 
+
+def make_searchable(input_file, output_file=None):
+    """
+    This function takes in the file path to a document and return a searchable pdf
+    using Tesseract through the pytesseract module
+
+    *WARNING* Once a file is passed through this method while output_file=None, it will be
+    overwritten with the Tesseract searchable PDF.
+
+    Example to avoid creating files:
+
+                # External PDF called test.pdf
+                make_searchable(path/to/test.pdf, 'output_name')
+
+    :param input_file: the filepath to be converted
+    :param output_file: the file name that you wish to save the document under (without extensions)
+    :return: output_file
+    """
+
+    # Keeps track of output filepath, and creates an empty list for creating new fileapaths
+    if output_file is None:
+        output_file = input_file.split('.pdf')[0]
+    else:
+        path_list = input_file.split('/')
+        file_path = ""
+        for i in range(len(path_list) - 1):
+            file_path += path_list[i] + '/'
+
+        output_file = file_path + output_file.split('.pdf')[0]
+
+    file_paths = []
+
+    # Converts pdf into a list of PIL files
+    image = pdf2image.convert_from_path(input_file)
+
+    # Converts the PPM files into binaries and saves them in a list, along with the filepaths
+    pages = []
+    for i in range(len(image)):
+        single_page = pytesseract.image_to_pdf_or_hocr(image[i], extension='pdf')
+        pages.append(single_page)
+        file_paths.append(output_file + '_' + str(i) + '.pdf')
+
+    # Creates dummy pdf documents that will be merged
+    for i, page in enumerate(pages):
+        with open(file_paths[i], 'wb') as f:
+            f.write(page)
+
+    # Merges the pdf files in python
+    merger = PyPDF2.PdfFileMerger()
+
+    for path in file_paths:
+        merger.append(path)
+
+    # Writes the merged file into one document and then deletes dummy files
+    merger.write(output_file + '.pdf')
+    for path in file_paths:
+        os.remove(path)
+
+    return output_file
+
+
+def make_text(input_file, output_file=None):
+    """
+    This method takes in the filepath to a PDF and creates a text file using pytesseract.
+
+    Example to avoid creating files:
+
+                # External PDF called test.pdf
+                make_text(path/to/test.pdf, 'output_name')
+
+    :param input_file: filepath to document
+    :param output_file: file name to save the document as (without extensions)
+    :return: output_file
+    """
+
+    # Creates output filepath
+    if output_file is None:
+        output_file = input_file.split('.pdf')[0] + '.txt'
+    else:
+        path = input_file.split('/')
+        file_path = ''
+        for i in range(len(path) - 1):
+            file_path += path[i] + '/'
+
+        output_file = file_path + output_file + '.txt'
+
+    # Converts PDF to PIL files
+    image = pdf2image.convert_from_path(input_file)
+    text = ''
+
+    # Extracts text and writes to output path
+    for i in range(len(image)):
+        text += pytesseract.image_to_string(image[i]) + '\n\n\n'
+
+    with open(output_file, 'w') as f:
+        f.write(text)
+
+    return output_file
+
+def generate_ocr(input_file, output_file=None):
+    """
+    This method calls both make_readable and make_text to enable generating a searchable pdf and
+    text document in one line of code.
+
+    Example to avoid creating files:
+
+                # External PDF called test.pdf
+                generate_ocr(path/to/test.pdf, 'output_name')
+
+    :param input_file: filepath to document
+    :param output_file: file name to save the document as (without extensions)
+    :return: dictionary with filepaths for 'pdf' and 'text'
+    """
+
+    return {'pdf': make_searchable(input_file, output_file), 'text': make_text(input_file, output_file)}
+
+
 if __name__ == '__main__':
 
-    df = get_metadata_google_sheet()
+#    df = get_metadata_google_sheet()
 #    from dh_testers.testRunner import main_test
 #    main_test(import_plus_relative=True)  # this allows for relative calls in the import.
+     generate_ocr("data/sample_docs/test.pdf")
 
