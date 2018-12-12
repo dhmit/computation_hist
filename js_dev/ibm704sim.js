@@ -357,6 +357,34 @@ function store_instruction_register(instruction) {
 }
 
 /**
+ * Stores a fixed point number into the indicated address in general memory.
+ *
+ * @param {number} number       Number to be stored.
+ * @param {number} register     Address where number is to be stored.
+ */
+function store_fixed_point_number(number, register) {
+    if (number < 0) {
+        sign_bit = "1";
+    } else {
+        sign_bit = "0";
+    }
+    unsigned_binary_rep = convert_to_binary(Math.abs(number), 35);
+    binary_rep = sign_bit + unsigned_binary_rep;
+    general_memory[register] = parseInt(binary_rep, 2);
+}
+
+/**
+ * Returns the proper interpretation of a fixed point number from the indicated address.
+ *
+ * @param {number} register     Address where number is stored.
+ * @returns {number}    Value of word at the address, interpreted as fixed point.
+ */
+function get_fixed_point_number(register) {
+    binary_rep = general_memory[register].toString(2);
+    return parseInt(binary_to_fixed_point(binary_rep));
+}
+
+/**
  * Steps through a single line of code indicated by the instruction location counter.
  */
 function step() {
@@ -376,7 +404,7 @@ function step() {
 
 /**
  * Initializes ibm704_assembly_addition.html, including initializing register 3 of general memory to
- * 12 and register 4 of general memory to 30, and storing the set program into memory.  
+ * 12 and register 4 of general memory to 30, and storing the set program into memory.
  */
 function start() {
     $('#step_button').on('click', step);
