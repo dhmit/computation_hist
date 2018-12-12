@@ -17,6 +17,12 @@ def person(request, person_id):
     return render(request, 'person.html', {'person_obj': person_obj})
     # return HttpResponse(response)
 
+def doc(request, doc_id):
+    doc_obj = get_object_or_404(Document, pk=doc_id)
+    response = f"You're looking at {doc_obj.title} by {doc_obj.author}"
+    #return render(request, 'doc.html', {'doc_obj': person_obj})
+    return HttpResponse(response)
+
 
 
 def document(request, document_id):
