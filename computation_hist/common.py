@@ -149,26 +149,22 @@ def make_searchable(input_file, output_file=None):
 
     :param input_file: the filepath to be converted
     :param output_file: the file name that you wish to save the document under (without extensions)
-    :return: output_file
+    :return: output_file directory
     """
 
-    # Keeps track of output filepath, and creates an empty list for creating new fileapaths
+    # Keeps track of output filepath, and creates an empty list for creating dummy filepaths
     if output_file is None:
         output_file = input_file.split('.pdf')[0]
     else:
-        path_list = input_file.split('/')
-        file_path = ""
-        for i in range(len(path_list) - 1):
-            file_path += path_list[i] + '/'
-
-        output_file = file_path + output_file.split('.pdf')[0]
+        file_path = os.path.dirname(input_file)
+        output_file = os.path.join(file_path, output_file.split('.pdf')[0])
 
     file_paths = []
 
     # Converts pdf into a list of PIL files
-    image = pdf2image.convert_from_path(input_file)
+    image = pdf2image.convert_from_path(input_file, fmt='jpg')
 
-    # Converts the PPM files into binaries and saves them in a list, along with the filepaths
+    # Converts the PIL files into binaries and saves them in a list, along with the filepaths
     pages = []
     for i in range(len(image)):
         single_page = pytesseract.image_to_pdf_or_hocr(image[i], extension='pdf')
@@ -182,7 +178,6 @@ def make_searchable(input_file, output_file=None):
 
     # Merges the pdf files in python
     merger = PyPDF2.PdfFileMerger()
-
     for path in file_paths:
         merger.append(path)
 
@@ -191,7 +186,7 @@ def make_searchable(input_file, output_file=None):
     for path in file_paths:
         os.remove(path)
 
-    return output_file
+    return output_file + '.pdf'
 
 
 def make_text(input_file, output_file=None):
@@ -205,22 +200,18 @@ def make_text(input_file, output_file=None):
 
     :param input_file: filepath to document
     :param output_file: file name to save the document as (without extensions)
-    :return: output_file
+    :return: output_file directory
     """
 
     # Creates output filepath
     if output_file is None:
         output_file = input_file.split('.pdf')[0] + '.txt'
     else:
-        path = input_file.split('/')
-        file_path = ''
-        for i in range(len(path) - 1):
-            file_path += path[i] + '/'
-
-        output_file = file_path + output_file + '.txt'
+        file_path = os.path.dirname(input_file)
+        output_file = os.path.join(file_path, output_file + '.txt')
 
     # Converts PDF to PIL files
-    image = pdf2image.convert_from_path(input_file)
+    image = pdf2image.convert_from_path(input_file, fmt='jpg')
     text = ''
 
     # Extracts text and writes to output path
@@ -231,6 +222,7 @@ def make_text(input_file, output_file=None):
         f.write(text)
 
     return output_file
+
 
 def generate_ocr(input_file, output_file=None):
     """
@@ -255,5 +247,5 @@ if __name__ == '__main__':
 #    df = get_metadata_google_sheet()
 #    from dh_testers.testRunner import main_test
 #    main_test(import_plus_relative=True)  # this allows for relative calls in the import.
-     generate_ocr("data/sample_docs/test.pdf")
+     make_searchable("data/sample_docs/3_32_verzuh_9.pdf", "test")
 
