@@ -261,7 +261,7 @@ function binary_to_fixed_point(binary_rep) {
     } else {
         positive = true;
     }
-    result = parseInt(binary_rep, 2).toString();
+    result = parseInt(binary_rep, 2);
     if (!positive) {
         result = -result;
     }
@@ -331,10 +331,20 @@ function update() {
     general_memory_5 = $('#general_memory5')[0];
     general_memory_5.title = binary_to_fixed_point(general_memory_5.innerHTML);
 
-    $("#instruction_location_counter").html(convert_to_binary(ilc, 13));
+
+    instruction_location_counter_element = $("#instruction_location_counter")[0];
+    instruction_location_counter_element.innerHTML = convert_to_binary(ilc, 38);
+    instruction_location_counter_element.title = binary_to_fixed_point(instruction_location_counter_element.innerHTML);
+
     $("#instruction_register").html(convert_to_binary(instructionregister, 18));
-    $("#storage_register").html(convert_to_binary(storage_register, 36));
-    $("#accumulator").html(convert_to_binary(accumulator, 38));
+
+    storage_register_element = $("#storage_register")[0];
+    storage_register_element.innerHTML = convert_to_binary(storage_register, 38);
+    storage_register_element.title = binary_to_fixed_point(storage_register_element.innerHTML);
+    
+    accumulator_element = $("#accumulator")[0];
+    accumulator_element.innerHTML = convert_to_binary(accumulator, 38);
+    accumulator_element.title = binary_to_fixed_point(accumulator_element.innerHTML);
 }
 
 /**
@@ -380,8 +390,46 @@ function store_fixed_point_number(number, register) {
  * @returns {number}    Value of word at the address, interpreted as fixed point.
  */
 function get_fixed_point_number(register) {
-    binary_rep = general_memory[register].toString(2);
+    binary_rep = convert_to_binary(general_memory[register], 36);
     return parseInt(binary_to_fixed_point(binary_rep));
+}
+
+/**
+ * Stores a number in floating-point format into the indicated address in general memory.
+ *
+ * @param {number}  number      Number to be stored.
+ * @param {number}  register    Address where number is to be stored.
+ */
+function store_floating_point_number(number, register) {
+    if (number < 0) {
+        sign_bit = "1";
+    } else {
+        sign_bit = "0";
+    }
+    binary_rep = sign_bit;
+    number = Math.abs(number);
+    exponent = Math.floor(Math.log2(number)) + 1;
+    characteristic = exponent + 128;
+    binary_rep += convert_to_binary(characteristic, 8);
+    magnitude = number / Math.pow(2, exponent);
+    magnitude_binary = (magnitude.toString(2)).substring(2,29);
+    length = magnitude_binary.length
+    for (let i = 0; i < 27 - length; i++) {
+        magnitude_binary = magnitude_binary + "0";
+    }
+    binary_rep += magnitude_binary;
+    general_memory[register] = parseInt(binary_rep, 2);
+}
+
+/**
+ * Returns the proper interpretation of a floating-point number from the indicated address.
+ *
+ * @param {number} register     Address where number is stored.
+ * @returns {number}    Value of word at the address, interpreted as floating point.
+ */
+function get_floating_point_number(register) {
+    binary_rep = convert_to_binary(general_memory[register], 36);
+    return parseFloat(binary_to_floating_point(binary_rep));
 }
 
 /**
