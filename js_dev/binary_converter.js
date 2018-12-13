@@ -50,7 +50,7 @@ function binary_to_fixed_point(binary_rep) {
     } else {
         positive = true;
     }
-    result = parseInt(binary_rep, 2).toString();
+    result = parseInt(binary_rep, 2);
     if (!positive) {
         result = -result;
     }
@@ -62,7 +62,7 @@ function binary_to_floating_point(binary_rep) {
         binary_rep = "0" + binary_rep;
     }
     fraction_bits = binary_rep.substring(9,36);
-    fraction = parseInt(fraction_bits, 2)/Math.pow(2, 27);
+    fraction = parseInt(fraction_bits, 2) / Math.pow(2, 27);
     characteristic_bits = binary_rep.substring(1, 9);
     characteristic = parseInt(characteristic_bits, 2);
     exponent = characteristic - 128;

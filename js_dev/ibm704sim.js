@@ -341,7 +341,7 @@ function update() {
     storage_register_element = $("#storage_register")[0];
     storage_register_element.innerHTML = convert_to_binary(storage_register, 38);
     storage_register_element.title = binary_to_fixed_point(storage_register_element.innerHTML);
-    
+
     accumulator_element = $("#accumulator")[0];
     accumulator_element.innerHTML = convert_to_binary(accumulator, 38);
     accumulator_element.title = binary_to_fixed_point(accumulator_element.innerHTML);
