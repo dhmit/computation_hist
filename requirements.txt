@@ -8,8 +8,9 @@ nltk
 numpy
 oauth2client
 pandas
+pdf2image
+PyPDF2
 requests
 scipy
 seaborn
 pytesseract
-Wand

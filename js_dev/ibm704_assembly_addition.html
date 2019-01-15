@@ -1,0 +1,53 @@
+<html>
+<head>
+    <title>Addition Simulator</title>
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+          crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="ibm704.css"/>
+    <script src="ibm704sim.js"></script>
+    <!--<script src = "binary_converter.js"></script>-->
+</head>
+<body>
+<!--<h1>Hello!</h1>-->
+<!--<textarea cols='60' rows='8' id = "codeBox"></textarea>-->
+<div class="jumbotron text-center">
+    <h1>Addition on the IBM 704</h1>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4">
+            <h3>Code</h3>
+            <p class="symbolic_code" id = "symbolic_code0">CLA 3</p>
+            <p class="symbolic_code" id = "symbolic_code1">ADD 4</p>
+            <p class="symbolic_code" id = "symbolic_code2">STO 5</p>
+            <p class="symbolic_code" id = "symbolic_code3">HTR</p>
+        </div>
+        <div class="col-sm-4">
+            <h3>General Memory</h3>
+            <p>0: <span class="general_memory" id="general_memory0"></span></p>
+            <p>1: <span class="general_memory" id="general_memory1"></span></p>
+            <p>2: <span class="general_memory" id="general_memory2"></span></p>
+            <p>3: <span class="general_memory" id="general_memory3"></span></p>
+            <p>4: <span class="general_memory" id="general_memory4"></span></p>
+            <p>5: <span class="general_memory" id="general_memory5"></span></p>
+            <p>6: <span class="general_memory" id="general_memory6"></span></p>
+        </div>
+        <div class="col-sm-4 other_registers">
+            <h3>Other Registers: </h3>
+            <p>Instruction Location Counter: <span id="instruction_location_counter"></span></p>
+            <p>Instruction Register: <span id="instruction_register"></span></p>
+            <p>Storage Register: <span id="storage_register"></span></p>
+            <p>Accumulator: <span id="accumulator"></span></p>
+        </div>
+    </div>
+    <button id="step_button">Step</button>
+</div>
+</body>
+</html>

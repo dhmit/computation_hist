@@ -1,0 +1,8 @@
+The military history timeline uses an open source tool called TimelineJS.
+I chose to use this tool because it already has a nice presentation and allows for easy edits on 
+a spreadsheet. However, if we want to make changes that are not on the spreadsheet, it also 
+allows for that. More infomation can be found at:
+http://timeline.knightlab.com/docs/overriding-styles.html
+
+This is the link to the google spreadsheet that connects to the timeline:
+https://docs.google.com/spreadsheets/d/14DasN7kEbTXla1kuZW5NvV1cQv9whmgeclx9hQkMJJs/edit#gid=0

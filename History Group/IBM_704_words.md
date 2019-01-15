@@ -73,7 +73,7 @@ Similarly to a fixed point number, the first bit of the word in a floating point
   If the sign bit is `1`, then the 
 number is negative, and if it is `0`, the number is positive.  
 
-A floating point number is represented as `B×2`
+A floating point number is represented as `B×2ᵇ`
 
 Bits 9 - 35 represent the 
 magnitude of `B`, with the binary point to the left of bit 9, and are called the 
