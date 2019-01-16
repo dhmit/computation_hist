@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Person</title>
+
+
+<body>
+
+<h1>
+    You're looking at {{person_obj.first}} {{person_obj.last}}
+    {{two}}
+
+</h1>
+{% for item in document_objs %}
+
+<a href = "/dj_comp_hist/doc/{{item.pk}}"> The title of the book is {{item}}</a>
+<br>
+
+{% endfor %}
+
+
+
+
+
+
+
+
+</body>
+</html>
