@@ -45,11 +45,10 @@ class Document(models.Model):
 
     def __str__(self):
         if self.title and self.author:
-            return self.title + " " + self.author
+            return self.title
         elif self.title:
             return self.title
-        elif self.author:
-            return str(self.author)
+
         else:
             return "No title or author"
 
