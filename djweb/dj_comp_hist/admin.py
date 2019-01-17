@@ -10,6 +10,5 @@ admin.site.register(Organization)
 admin.site.register(Box)
 admin.site.register(Folder)
 admin.site.register(Page)
-admin.site.register(Image)
 admin.site.register(Text)
 
