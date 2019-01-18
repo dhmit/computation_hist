@@ -58,7 +58,7 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='document',
             name='date',
-            field=models.CharField(default=None, max_length=191),
+            field=models.CharField(default='1900-01-01', max_length=191),
             preserve_default=False,
         ),
         migrations.AddField(
@@ -69,7 +69,7 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='document',
             name='type',
-            field=models.CharField(default=None, max_length=191),
+            field=models.CharField(default='Unknown', max_length=191),
             preserve_default=False,
         ),
         migrations.RemoveField(

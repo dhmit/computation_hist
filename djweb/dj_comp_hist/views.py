@@ -15,7 +15,6 @@ def person(request, person_id):
     person_obj = get_object_or_404(Person, pk=person_id)
     document_objs = person_obj.author.all()
 
-
     x = render(request, 'person.html', {'person_obj': person_obj, 'document_objs': document_objs,
                                         'length': len(document_objs)})
     print("******************")
