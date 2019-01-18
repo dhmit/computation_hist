@@ -70,12 +70,14 @@ class Text(models.Model):
 def check_generate(model, key, value):
     if model.objects.filter(**{key: value}):
         existed = True
+        new_item = model.objects.filter(**{key: value})
+
     else:
         new_item = model(**{key: value})
         existed = False
 
-    return existed, new_item
 
+    return existed, new_item
 
 def populate_from_metadata(file_name):
     with open(file_name) as file:
@@ -84,6 +86,8 @@ def populate_from_metadata(file_name):
             new_doc = Document(number_of_pages=int(line['last_page']) - int(line['first_page']) + 1,
                                title=line['title'],
                                type=line['doc_type'])
+            print("*******************************************************")
+            print(new_doc)
 
             #---------------------DATE-----------------------------------------------
             if line['date'] != '' and line['date'][0] != '1':
@@ -95,13 +99,17 @@ def populate_from_metadata(file_name):
 
             # ---------------------Folder-----------------------------------------------
             #matching_folder = Folder.objects.filter(name=line['foldername_short'])
-            folder = check_generate(Folder, "name" ,line['foldername_short'])[1]
+            new_folder = check_generate(Folder, "name" ,line['foldername_short'])[1]
             if check_generate(Folder, "name" ,line['foldername_short'])[0]:
                 new_doc.folder = folder
             else:
-                box = check_generate(Box, "number" , line['Box'])[1]
+                box = check_generate(Box, "number" , line['box'])[1]
+                box.save()
                 folder.Box = box
                 folder.full = line['foldername_full']
+            new_doc.save()
+            new_doc.folder = folder
+            new_doc.save()
 
             # ------------------------------------------------------------------------
 
