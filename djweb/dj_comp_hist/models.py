@@ -66,10 +66,7 @@ class Text(models.Model):
 def populate_from_metadata(file_name):
     with open(file_name) as file:
         csv_file = csv.DictReader(file)
-        i=0
         for line in csv_file:
-            i += 1
-            print(i)
             new_doc = Document(number_of_pages=int(line['last_page']) - int(line['first_page']) + 1,
                                title=line['title'],
                                type=line['doc_type'])
@@ -77,9 +74,30 @@ def populate_from_metadata(file_name):
                 new_doc.date = '1900-01-01'
             else:
                 new_doc.date = line['date']
-            filter_folder = Folder.objects.filter(name=line['foldername_short'])
-            print(filter_folder)
-            print(line['foldername_short'])
             if Folder.objects.filter(name=line['foldername_short']):
                 new_doc.Folder = line['foldername_short']
+            else:
+                if Box.objects.filter(number=int(line['box'])):
+                    new_folder_1 = Folder(name=line['foldername_short'], full=line[
+                        'foldername_full'],
+                           box=int(line['box']))
+                    new_doc.Folder = new_folder_1
+                else:
+                    new_box = Box(int(line['box']))
+                    new_folder_2 = Folder(name=line['foldername_short'], full=line[
+                        'foldername_full'],
+                           box=new_box)
+                    new_doc.Folder = new_folder_2
+            auth_split = line['author'].split('; ')
+#            if len(auth_split) == 1 and len(auth_split[0].split(', ')) == 1:
+#                if
+
+#                else:
+
+#            else:
+#                for auth in auth_split:
+#                    auth_current = auth.split(', ')
+#                    if Person.objects.filter(last=auth_current[0]):
+#                        new_doc =
+
     return
