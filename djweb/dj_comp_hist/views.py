@@ -1,7 +1,6 @@
 from django.shortcuts import render, get_object_or_404
 from .models import Person, Document
 
-
 # Create your views here.
 
 from django.http import HttpResponse
@@ -29,8 +28,3 @@ def doc(request, doc_id):
     response = f"You're looking at {doc_obj.title} by {doc_obj.author.first().first} {doc_obj.author.first().last}"
     # return render(request, 'doc.html', {'doc_obj': person_obj})
     return HttpResponse(response)
-
-
-
-def document(request, document_id):
-    pass
