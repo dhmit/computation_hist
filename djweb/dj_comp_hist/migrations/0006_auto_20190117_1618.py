@@ -17,13 +17,13 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='folder',
             name='full',
-            field=models.CharField(default=None, max_length=191),
+            field=models.CharField(default='Unknown', max_length=191),
             preserve_default=False,
         ),
         migrations.AddField(
             model_name='page',
             name='file_name',
-            field=models.CharField(default=None, max_length=191),
+            field=models.CharField(default='Unknown', max_length=191),
             preserve_default=False,
         ),
         migrations.DeleteModel(

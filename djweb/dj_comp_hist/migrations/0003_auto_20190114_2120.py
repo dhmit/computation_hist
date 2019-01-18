@@ -21,7 +21,8 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='document',
             name='folder',
-            field=models.ForeignKey(default=None, on_delete=django.db.models.deletion.CASCADE, to='dj_comp_hist.Folder'),
+            field=models.ForeignKey(default=1, on_delete=django.db.models.deletion.CASCADE,
+                                    to='dj_comp_hist.Folder'),
             preserve_default=False,
         ),
     ]
