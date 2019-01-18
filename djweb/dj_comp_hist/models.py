@@ -63,6 +63,17 @@ class Page(models.Model):
 class Text(models.Model):
     page = models.OneToOneField(Page, on_delete=models.SET(None))
 
+
+def check_generate(model, key, value):
+    if model.objects.filter(**{key: value}):
+        existed = True
+    else:
+        new_item = model(**{key: value})
+        existed = False
+
+    return existed, new_item
+
+
 def populate_from_metadata(file_name):
     with open(file_name) as file:
         csv_file = csv.DictReader(file)
@@ -70,34 +81,57 @@ def populate_from_metadata(file_name):
             new_doc = Document(number_of_pages=int(line['last_page']) - int(line['first_page']) + 1,
                                title=line['title'],
                                type=line['doc_type'])
+
+            #---------------------DATE-----------------------------------------------
             if line['date'] != '' and line['date'][0] != '1':
                 new_doc.date = '1900-01-01'
             else:
                 new_doc.date = line['date']
-            if Folder.objects.filter(name=line['foldername_short']):
-                new_doc.Folder = line['foldername_short']
+
+            #------------------------------------------------------------------------
+
+            # ---------------------Folder-----------------------------------------------
+            #matching_folder = Folder.objects.filter(name=line['foldername_short'])
+            folder = check_generate(Folder, "name" ,line['foldername_short'])[1]
+            if check_generate(Folder, "name" ,line['foldername_short'])[0]:
+                new_doc.folder = folder
             else:
-                if Box.objects.filter(number=int(line['box'])):
-                    new_folder_1 = Folder(name=line['foldername_short'], full=line[
-                        'foldername_full'],
-                           box=int(line['box']))
-                    new_doc.Folder = new_folder_1
-                else:
-                    new_box = Box(int(line['box']))
-                    new_folder_2 = Folder(name=line['foldername_short'], full=line[
-                        'foldername_full'],
-                           box=new_box)
-                    new_doc.Folder = new_folder_2
-            auth_split = line['author'].split('; ')
-#            if len(auth_split) == 1 and len(auth_split[0].split(', ')) == 1:
-#                if
+                box = check_generate(Box, "number" , line['Box'])[1]
+                folder.Box = box
+                folder.full = line['foldername_full']
 
-#                else:
+            # ------------------------------------------------------------------------
 
-#            else:
-#                for auth in auth_split:
-#                    auth_current = auth.split(', ')
-#                    if Person.objects.filter(last=auth_current[0]):
-#                        new_doc =
+
+            #-----------------------Author--------------------------------------------
+
+
+
+            #auth_split = line['author'].split('; ')
+
+            #            if len(auth_split) == 1 and len(auth_split[0].split(', ')) == 1:
+            #                if
+
+            #                else:
+
+            #            else:
+            #                for auth in auth_split:
+            #                    auth_current = auth.split(', ')
+            #                    if Person.objects.filter(last=auth_current[0]):
+            #                        new_doc =
+
+
+                # if Box.objects.filter(number=int(line['box'])):
+                #     new_folder_1 = Folder(name=line['foldername_short'], full=line[
+                #         'foldername_full'],
+                #            box=int(line['box']))
+                #     new_doc.folder = new_folder_1
+                # else:
+                #     new_box = Box(int(line['box']))
+                #     new_folder_2 = Folder(name=line['foldername_short'], full=line[
+                #         'foldername_full'],
+                #            box=new_box)
+                #     new_doc.folder = new_folder_2
+
 
     return
