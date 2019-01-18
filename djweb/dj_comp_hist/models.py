@@ -40,7 +40,7 @@ class Document(models.Model):
     author_organization = models.ManyToManyField(Organization,
                                                  related_name='author_organization', blank=True)
     folder = models.ForeignKey(Folder, on_delete=models.CASCADE)
-    title = models.CharField(max_length=191, blank=True)
+    title = models.CharField(max_length=191)
     type = models.CharField(max_length = 191, blank=True)
     # TODO: turn type into choices- note that choices needs to be able to grow
     number_of_pages = models.IntegerField(default=1)
@@ -64,7 +64,7 @@ class Page(models.Model):
 
 
 class Text(models.Model):
-    page = models.OneToOneField(Page, on_delete=models.SET(None))
+    page = models.OneToOneField(Page, on_delete=models.SET(None), blank=True)
 
 def populate_from_metadata(file_name):
     with open(file_name) as file:
