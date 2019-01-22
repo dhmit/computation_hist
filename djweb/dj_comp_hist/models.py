@@ -45,8 +45,8 @@ class Folder(models.Model):
     full = models.CharField(max_length=191)
     number = models.IntegerField(default=0)
 
-    # def __str__(self):
-    #     return self.full
+    def __str__(self):
+        return self.full
 
 
 class Document(models.Model):
@@ -137,40 +137,32 @@ def populate_from_metadata(file_name):
                 print(new_folder.full, new_folder.box, new_box)
             new_folder.save()
             new_doc.folder = new_folder
-            new_doc.save()
 
             # ------------------------------------------------------------------------
 
 
             # -----------------------Author--------------------------------------------
 
+            #Creates list of authors
+            auth_split = line['author'].split('; ')
+            #Checks if it is an organization
+            if len(auth_split) == 1 and len(auth_split[0].split(', ')) == 1:
+                org_exist,new_org = check_generate(Organization, "name", auth_split[0])
+                if not org_exist:
+                    new_org.save()
+                new_doc.author_organization.add(new_org)
+            else:
+                for auth in range(len(auth_split)):
+                    auth_current = auth_split[auth].split(', ')
+                    auth_exist,new_auth = check_generate(Person, "last", auth_current[0])
+                    #TODO change check_generate to have more than one key for people with the
+                    # same last name
+                    if not auth_exist:
+                        new_auth.first = auth_current[1]
+                        new_auth.save()
+                    new_doc.author_person.add(new_auth)
 
-
-            #auth_split = line['author'].split('; ')
-
-            #            if len(auth_split) == 1 and len(auth_split[0].split(', ')) == 1:
-            #                if
-
-            #                else:
-
-            #            else:
-            #                for auth in auth_split:
-            #                    auth_current = auth.split(', ')
-            #                    if Person.objects.filter(last=auth_current[0]):
-            #                        new_doc =
-
-
-                # if Box.objects.filter(number=int(line['box'])):
-                #     new_folder_1 = Folder(name=line['foldername_short'], full=line[
-                #         'foldername_full'],
-                #            box=int(line['box']))
-                #     new_doc.folder = new_folder_1
-                # else:
-                #     new_box = Box(int(line['box']))
-                #     new_folder_2 = Folder(name=line['foldername_short'], full=line[
-                #         'foldername_full'],
-                #            box=new_box)
-                #     new_doc.folder = new_folder_2
+            new_doc.save()
 
 
     return
