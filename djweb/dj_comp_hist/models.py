@@ -6,10 +6,20 @@ import csv
 
 class Organization(models.Model):
     location = models.CharField(max_length=191, blank=True)
+    name = models.CharField(max_length=191, blank=True)
+
+    def __str__(self):
+        if self.name:
+            return self.name
+        else:
+            return "No name"
 
 
 class Box(models.Model):
     number = models.IntegerField(default=0)
+
+    def __str__(self):
+        return self.number
 
 
 class Person(models.Model):
@@ -33,6 +43,10 @@ class Folder(models.Model):
     box = models.ForeignKey(Box, on_delete=models.CASCADE)
     full = models.CharField(max_length=191)
     number = models.IntegerField(default=0)
+
+    def __str__(self):
+        return self.full
+
 
 
 class Document(models.Model):
@@ -62,6 +76,9 @@ class Page(models.Model):
     page_number = models.IntegerField(default=0)
     file_name = models.CharField(max_length=191)
 
+    def __str__(self):
+        return "Page " + self.page_number + " of " + self.document
+
 
 class Text(models.Model):
     page = models.OneToOneField(Page, on_delete=models.SET(None), blank=True)
@@ -76,8 +93,8 @@ def check_generate(model, key, value):
         new_item = model(**{key: value})
         existed = False
 
-
     return existed, new_item
+
 
 def populate_from_metadata(file_name):
     with open(file_name) as file:
