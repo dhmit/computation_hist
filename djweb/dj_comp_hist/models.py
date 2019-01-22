@@ -31,6 +31,7 @@ class Person(models.Model):
         if self.last and self.first:
             return self.last + ' ' + self.first[0]
         elif self.last :
+        elif self.last:
             return self.last
         elif self.first:
             return self.first
@@ -48,14 +49,13 @@ class Folder(models.Model):
     #     return self.full
 
 
-
 class Document(models.Model):
     author_person = models.ManyToManyField(Person, related_name='author_person', blank=True)
     author_organization = models.ManyToManyField(Organization,
                                                  related_name='author_organization', blank=True)
     folder = models.ForeignKey(Folder, on_delete=models.CASCADE)
     title = models.CharField(max_length=191)
-    type = models.CharField(max_length = 191, blank=True)
+    type = models.CharField(max_length=191, blank=True)
     # TODO: turn type into choices- note that choices needs to be able to grow
     number_of_pages = models.IntegerField(default=1)
     date = models.DateField(auto_now_add=False, auto_now=False, blank=True)
@@ -77,7 +77,7 @@ class Page(models.Model):
     file_name = models.CharField(max_length=191)
 
     def __str__(self):
-        return "Page " + self.page_number + " of " + self.document
+        return "Page " + str(self.page_number) + " of " + str(self.document)
 
 
 class Text(models.Model):
@@ -111,16 +111,16 @@ def populate_from_metadata(file_name):
             print("*******************************************************")
             print(new_doc)
 
-            #---------------------DATE-----------------------------------------------
-            if line['date'] != '' and line['date'][0] != '1':
+            # ---------------------DATE-----------------------------------------------
+            if line['date'] == '' or line['date'][0] != '1':
                 new_doc.date = '1900-01-01'
             else:
                 new_doc.date = line['date']
 
-            #------------------------------------------------------------------------
+            # ------------------------------------------------------------------------
 
             # ---------------------Folder-----------------------------------------------
-            #matching_folder = Folder.objects.filter(name=line['foldername_short'])
+            # matching_folder = Folder.objects.filter(name=line['foldername_short'])
             print('AOSJDPOPONPONPODVNPONDOPFPOAJFOPASJDOPASJOPDJOPASD')
             print(line['foldername_short'])
             folder_exist,new_folder = check_generate(Folder, "name" ,line['foldername_short'])
@@ -142,7 +142,7 @@ def populate_from_metadata(file_name):
             # ------------------------------------------------------------------------
 
 
-            #-----------------------Author--------------------------------------------
+            # -----------------------Author--------------------------------------------
 
 
 
