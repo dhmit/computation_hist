@@ -101,14 +101,15 @@ def populate_from_metadata(file_name):
             #matching_folder = Folder.objects.filter(name=line['foldername_short'])
             new_folder = check_generate(Folder, "name" ,line['foldername_short'])[1]
             if check_generate(Folder, "name" ,line['foldername_short'])[0]:
-                new_doc.folder = folder
+                new_doc.folder = new_folder
             else:
-                box = check_generate(Box, "number" , line['box'])[1]
+                box = check_generate(Box, "number" , line['box'])[1][0]
+                print(box)
                 box.save()
-                folder.Box = box
-                folder.full = line['foldername_full']
+                new_folder.Box = box
+                new_folder.full = line['foldername_full']
             new_doc.save()
-            new_doc.folder = folder
+            new_doc.folder = new_folder
             new_doc.save()
 
             # ------------------------------------------------------------------------
