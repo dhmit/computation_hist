@@ -19,7 +19,7 @@ class Box(models.Model):
     number = models.IntegerField(default=0)
 
     def __str__(self):
-        return self.number
+        return str(self.number)
 
 
 class Person(models.Model):
@@ -44,8 +44,8 @@ class Folder(models.Model):
     full = models.CharField(max_length=191)
     number = models.IntegerField(default=0)
 
-    def __str__(self):
-        return self.full
+    # def __str__(self):
+    #     return self.full
 
 
 
@@ -85,14 +85,19 @@ class Text(models.Model):
 
 
 def check_generate(model, key, value):
+    # print('key,value')
+    # print(key,value)
+    # print('exist or not')
+    # print(model.objects.filter(**{key: value}))
     if model.objects.filter(**{key: value}):
         existed = True
-        new_item = model.objects.filter(**{key: value})
+        new_item = model.objects.get(**{key: value})
 
     else:
         new_item = model(**{key: value})
         existed = False
-
+    # print('tupletupletupletupletupletupletupletupletupletupletupletupletupletupletupletupletuple')
+    # print(existed,new_item)
     return existed, new_item
 
 
@@ -116,16 +121,21 @@ def populate_from_metadata(file_name):
 
             # ---------------------Folder-----------------------------------------------
             #matching_folder = Folder.objects.filter(name=line['foldername_short'])
-            new_folder = check_generate(Folder, "name" ,line['foldername_short'])[1]
-            if check_generate(Folder, "name" ,line['foldername_short'])[0]:
-                new_doc.folder = new_folder
-            else:
-                box = check_generate(Box, "number" , line['box'])[1][0]
-                print(box)
-                box.save()
-                new_folder.Box = box
+            print('AOSJDPOPONPONPODVNPONDOPFPOAJFOPASJDOPASJOPDJOPASD')
+            print(line['foldername_short'])
+            folder_exist,new_folder = check_generate(Folder, "name" ,line['foldername_short'])
+            print('ENSIOFOISNOPDSNFPONAOPFNAPOSDJOAPSDJPOASJDOPASJDOPJASDPOJASPODJAPOSD')
+            print(new_folder)
+            if not folder_exist:
+                box_exist,new_box = check_generate(Box, "number" , line['box'])
+                print('ASDOIASNDOIANSDIONDVOINSDIOVNSDIONFAPSODPOASDNPAOSDASDOPNAPSD')
+                print(new_box)
+
+                new_box.save()
+                new_folder.box = new_box
                 new_folder.full = line['foldername_full']
-            new_doc.save()
+                print(new_folder.full, new_folder.box, new_box)
+            new_folder.save()
             new_doc.folder = new_folder
             new_doc.save()
 
