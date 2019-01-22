@@ -44,8 +44,8 @@ class Folder(models.Model):
     full = models.CharField(max_length=191)
     number = models.IntegerField(default=0)
 
-    # def __str__(self):
-    #     return self.full
+    def __str__(self):
+        return self.full
 
 
 
