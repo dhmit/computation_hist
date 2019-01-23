@@ -124,28 +124,28 @@ def populate_from_metadata(file_name):
             new_doc.folder = new_folder
 
             # ------------------------------------------------------------------------
-            #
-            #
-            # # -----------------------Author--------------------------------------------
-            #
-            # #Creates list of authors
-            # auth_split = line['author'].split('; ')
-            # #Checks if it is an organization
-            # if len(auth_split) == 1 and len(auth_split[0].split(', ')) == 1:
-            #     org_exist,new_org = check_generate(Organization, "name", auth_split[0])
-            #     if not org_exist:
-            #         new_org.save()
-            #     new_doc.author_organization.add(new_org)
-            # else:
-            #     for auth in range(len(auth_split)):
-            #         auth_current = auth_split[auth].split(', ')
-            #         auth_exist,new_auth = check_generate(Person, "last", auth_current[0])
-            #         #TODO change check_generate to have more than one key for people with the
-            #         #same last name
-            #         if not auth_exist:
-            #             new_auth.first = auth_current[1]
-            #             new_auth.save()
-            #         new_doc.author_person.add(new_auth)
+
+
+            # -----------------------Author--------------------------------------------
+
+            #Creates list of authors
+            auth_split = line['author'].split('; ')
+            #Checks if it is an organization
+            if len(auth_split) == 1 and len(auth_split[0].split(', ')) == 1:
+                org_exist,new_org = check_generate(Organization, "name", auth_split[0])
+                if not org_exist:
+                    new_org.save()
+                new_doc.author_organization.add(new_org)
+            else:
+                for auth in range(len(auth_split)):
+                    auth_current = auth_split[auth].split(', ')
+                    auth_exist,new_auth = check_generate(Person, "last", auth_current[0])
+                    #TODO change check_generate to have more than one key for people with the
+                    #same last name
+                    if not auth_exist:
+                        new_auth.first = auth_current[1]
+                        new_auth.save()
+                    new_doc.author_person.add(new_auth)
 
             new_doc.save()
 
