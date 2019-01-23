@@ -30,7 +30,7 @@ class Person(models.Model):
     def __str__(self):
         if self.last and self.first:
             return self.last + ' ' + self.first[0]
-        elif self.last :
+        elif self.last:
             return self.last
         elif self.first:
             return self.first
@@ -47,6 +47,8 @@ class Folder(models.Model):
     def __str__(self):
         return self.full
 
+    def __repr__(self):
+        return 'Folder' + self.name + ' ' + self.number
 
 
 class Document(models.Model):
@@ -55,7 +57,7 @@ class Document(models.Model):
                                                  related_name='author_organization', blank=True)
     folder = models.ForeignKey(Folder, on_delete=models.CASCADE)
     title = models.CharField(max_length=191)
-    type = models.CharField(max_length = 191, blank=True)
+    type = models.CharField(max_length=191, blank=True)
     # TODO: turn type into choices- note that choices needs to be able to grow
     number_of_pages = models.IntegerField(default=1)
     date = models.DateField(auto_now_add=False, auto_now=False, blank=True)
@@ -77,7 +79,7 @@ class Page(models.Model):
     file_name = models.CharField(max_length=191)
 
     def __str__(self):
-        return "Page " + self.page_number + " of " + self.document
+        return "Page " + str(self.page_number) + " of " + str(self.document)
 
 
 class Text(models.Model):
@@ -85,10 +87,6 @@ class Text(models.Model):
 
 
 def check_generate(model, key, value):
-    # print('key,value')
-    # print(key,value)
-    # print('exist or not')
-    # print(model.objects.filter(**{key: value}))
     if model.objects.filter(**{key: value}):
         existed = True
         new_item = model.objects.get(**{key: value})
@@ -96,8 +94,6 @@ def check_generate(model, key, value):
     else:
         new_item = model(**{key: value})
         existed = False
-    # print('tupletupletupletupletupletupletupletupletupletupletupletupletupletupletupletupletuple')
-    # print(existed,new_item)
     return existed, new_item
 
 
@@ -108,69 +104,50 @@ def populate_from_metadata(file_name):
             new_doc = Document(number_of_pages=int(line['last_page']) - int(line['first_page']) + 1,
                                title=line['title'],
                                type=line['doc_type'])
-            print("*******************************************************")
-            print(new_doc)
 
-            #---------------------DATE-----------------------------------------------
-            if line['date'] != '' and line['date'][0] != '1':
+            # ---------------------DATE-----------------------------------------------
+            if line['date'] == '' or line['date'][0] != '1':
                 new_doc.date = '1900-01-01'
             else:
                 new_doc.date = line['date']
 
-            #------------------------------------------------------------------------
+            # ------------------------------------------------------------------------
 
             # ---------------------Folder-----------------------------------------------
-            #matching_folder = Folder.objects.filter(name=line['foldername_short'])
-            print('AOSJDPOPONPONPODVNPONDOPFPOAJFOPASJDOPASJOPDJOPASD')
-            print(line['foldername_short'])
             folder_exist,new_folder = check_generate(Folder, "name" ,line['foldername_short'])
-            print('ENSIOFOISNOPDSNFPONAOPFNAPOSDJOAPSDJPOASJDOPASJDOPJASDPOJASPODJAPOSD')
-            print(new_folder)
             if not folder_exist:
                 box_exist,new_box = check_generate(Box, "number" , line['box'])
-                print('ASDOIASNDOIANSDIONDVOINSDIOVNSDIONFAPSODPOASDNPAOSDASDOPNAPSD')
-                print(new_box)
-
                 new_box.save()
                 new_folder.box = new_box
                 new_folder.full = line['foldername_full']
-                print(new_folder.full, new_folder.box, new_box)
             new_folder.save()
             new_doc.folder = new_folder
-            new_doc.save()
 
             # ------------------------------------------------------------------------
+            #
+            #
+            # # -----------------------Author--------------------------------------------
+            #
+            # #Creates list of authors
+            # auth_split = line['author'].split('; ')
+            # #Checks if it is an organization
+            # if len(auth_split) == 1 and len(auth_split[0].split(', ')) == 1:
+            #     org_exist,new_org = check_generate(Organization, "name", auth_split[0])
+            #     if not org_exist:
+            #         new_org.save()
+            #     new_doc.author_organization.add(new_org)
+            # else:
+            #     for auth in range(len(auth_split)):
+            #         auth_current = auth_split[auth].split(', ')
+            #         auth_exist,new_auth = check_generate(Person, "last", auth_current[0])
+            #         #TODO change check_generate to have more than one key for people with the
+            #         #same last name
+            #         if not auth_exist:
+            #             new_auth.first = auth_current[1]
+            #             new_auth.save()
+            #         new_doc.author_person.add(new_auth)
 
-
-            #-----------------------Author--------------------------------------------
-
-
-
-            #auth_split = line['author'].split('; ')
-
-            #            if len(auth_split) == 1 and len(auth_split[0].split(', ')) == 1:
-            #                if
-
-            #                else:
-
-            #            else:
-            #                for auth in auth_split:
-            #                    auth_current = auth.split(', ')
-            #                    if Person.objects.filter(last=auth_current[0]):
-            #                        new_doc =
-
-
-                # if Box.objects.filter(number=int(line['box'])):
-                #     new_folder_1 = Folder(name=line['foldername_short'], full=line[
-                #         'foldername_full'],
-                #            box=int(line['box']))
-                #     new_doc.folder = new_folder_1
-                # else:
-                #     new_box = Box(int(line['box']))
-                #     new_folder_2 = Folder(name=line['foldername_short'], full=line[
-                #         'foldername_full'],
-                #            box=new_box)
-                #     new_doc.folder = new_folder_2
+            new_doc.save()
 
 
     return
