@@ -14,12 +14,22 @@ class Organization(models.Model):
         else:
             return "No name"
 
+    def __repr__(self):
+        if self.name:
+            return f"<Organization {self.name}>"
+        else:
+            return f"<Organization without a name>"
+
+
 
 class Box(models.Model):
     number = models.IntegerField(default=0)
 
     def __str__(self):
         return str(self.number)
+
+    def __repr__(self):
+        return f"<Box {self.number}>"
 
 
 class Person(models.Model):
@@ -29,13 +39,25 @@ class Person(models.Model):
 
     def __str__(self):
         if self.last and self.first:
+
             return self.last + ' ' + self.first[0]
+
         elif self.last:
             return self.last
         elif self.first:
             return self.first
         else:
             return "No name"
+
+    def __repr__(self):
+        if self.last and self.first:
+            return f"<Person {self.last}, {str(self.first)[0]}>"
+        elif self.last:
+            return f"<Person {self.last}>"
+        elif self.first:
+            return f"<Person {self.first}>"
+        else:
+            return f"<Person without a name>"
 
 
 class Folder(models.Model):
@@ -48,7 +70,7 @@ class Folder(models.Model):
         return self.full
 
     def __repr__(self):
-        return 'Folder' + self.name + ' ' + self.number
+        return f"<Folder {self.full} - {self.number}>"
 
 
 class Document(models.Model):
@@ -65,12 +87,15 @@ class Document(models.Model):
     recipient_organization = models.ManyToManyField(Organization,
                                                     related_name='recipient_organization',
                                                     blank=True)
+    cced_person = models.ManyToManyField(Person, related_name='cced_person', blank=True)
+    cced_organization = models.ManyToManyField(Organization, related_name='cced_organization',
+                                               blank=True)
 
     def __str__(self):
-        if self.title:
-            return self.title
-        else:
-            return "No title"
+        return self.title
+
+    def __repr__(self):
+        return f"<Document {self.title}>"
 
 
 class Page(models.Model):
@@ -80,6 +105,9 @@ class Page(models.Model):
 
     def __str__(self):
         return "Page " + str(self.page_number) + " of " + str(self.document)
+
+    def __repr__(self):
+        return f"<Page {self.page_number} of {self.document}"
 
 
 class Text(models.Model):
@@ -135,6 +163,7 @@ def populate_from_metadata(file_name):
                 org_exist,new_org = check_generate(Organization, "name", auth_split[0])
                 if not org_exist:
                     new_org.save()
+                new_org.save()
                 new_doc.author_organization.add(new_org)
             else:
                 for auth in range(len(auth_split)):
@@ -146,6 +175,46 @@ def populate_from_metadata(file_name):
                         new_auth.first = auth_current[1]
                         new_auth.save()
                     new_doc.author_person.add(new_auth)
+                    # same last name
+                    if not auth_exist:
+                        new_auth.first = auth_current[1]
+                    new_auth.save()
+                    new_doc.author_person.add(new_auth)
+
+
+            # -----------------------Recipient----------------------------------------
+
+            recp_split = line['recipients'].split('; ')
+            for recp in range(len(recp_split)):
+                recp_current = recp_split[recp].split(', ')
+                if '/' in recp_current[0]:
+                    #TODO make if statement more specific to find organizations
+                    recp_exist,new_recp = check_generate(Organization, "name", recp)
+                    new_recp.save()
+                    new_doc.recipient_organization.add(new_recp)
+                else:
+                    recp_exist,new_recp = check_generate(Person, "last", recp_current[0])
+                    if not recp_exist:
+                        new_recp.first = recp_current[1]
+                    new_recp.save()
+                    new_doc.recipient_person.add(new_recp)
+
+            #-------------------------cced-------------------------------------------
+
+            cced_split = line['cced'].split('; ')
+            for cced in range(len(cced_split)):
+                cced_current = cced_split[cced].split(', ')
+                if '/' in cced_current[0]:
+                    #TODO make if statement more specific to find organizations
+                    cced_exist,new_cced = check_generate(Organization, "name", cced)
+                    new_cced.save()
+                    new_doc.recipient_organization.add(new_cced)
+                else:
+                    cced_exist,new_cced = check_generate(Person, "last", cced_current[0])
+                    if not cced_exist:
+                        new_cced.first = cced_current[1]
+                    new_cced.save()
+                    new_doc.recipient_person.add(new_cced)
 
             new_doc.save()
 
