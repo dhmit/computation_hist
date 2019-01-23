@@ -39,7 +39,7 @@ class Person(models.Model):
 
     def __str__(self):
         if self.last and self.first:
-            return self.last + ' ' + self.first[0]
+            return str(self.last) + ' ' + str(self.first)[0]
         elif self.last:
             return self.last
         elif self.first:
@@ -53,7 +53,7 @@ class Person(models.Model):
         elif self.last:
             return f"<Person {self.last}>"
         elif self.first:
-            return f"<Person {self.first>"
+            return f"<Person {self.first}>"
         else:
             return f"<Person without a name>"
 
@@ -68,7 +68,7 @@ class Folder(models.Model):
         return self.full
 
     def __repr__(self):
-        return 'Folder' + self.name + ' ' + self.number
+        return f"<Folder {self.full} - {self.number}>"
 
 
 class Document(models.Model):
@@ -87,10 +87,7 @@ class Document(models.Model):
                                                     blank=True)
 
     def __str__(self):
-        if self.title:
-            return self.title
-        else:
-            return "No title"
+        return self.title
 
     def __repr__(self):
         return f"<Document {self.title}>"
