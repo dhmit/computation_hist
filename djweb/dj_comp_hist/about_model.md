@@ -1,6 +1,9 @@
 #Information about the models
 
 ##For Data entry
+allways use unknown lowercase where unknown is to be used
+
+
 **Box** required
 
 **Folder-number** required
@@ -32,6 +35,7 @@
 **doc_type** if unknown write "unknown"
 
 **recipients** 
+
 1.If there is an organization do not use any ; or , 
 2.If someone doesn't have a first name enter 'unknown' as first - e.g. "Boal, unknown"
 3.If someone doesn't have a surname enter second name as unknown - e.g. "unknown, Elena"
