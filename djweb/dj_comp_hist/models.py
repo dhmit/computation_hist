@@ -14,12 +14,22 @@ class Organization(models.Model):
         else:
             return "No name"
 
+    def __repr__(self):
+        if self.name:
+            return f"<Organization {self.name}>"
+        else:
+            return f"<Organization without a name>"
+
+
 
 class Box(models.Model):
     number = models.IntegerField(default=0)
 
     def __str__(self):
         return str(self.number)
+
+    def __repr__(self):
+        return f"<Box {self.number}>"
 
 
 class Person(models.Model):
@@ -37,6 +47,16 @@ class Person(models.Model):
             return self.first
         else:
             return "No name"
+
+    def __repr__(self):
+        if self.last and self.first:
+            return f"<Person {self.last}, {str(self.first)[0]}>"
+        elif self.last:
+            return f"<Person {self.last}>"
+        elif self.first:
+            return f"<Person {self.first>"
+        else:
+            return f"<Person without a name>"
 
 
 class Folder(models.Model):
@@ -70,6 +90,9 @@ class Document(models.Model):
         else:
             return "No title"
 
+    def __repr__(self):
+        return f"<Document {self.title}>"
+
 
 class Page(models.Model):
     document = models.ForeignKey(Document, on_delete=models.CASCADE)
@@ -78,6 +101,9 @@ class Page(models.Model):
 
     def __str__(self):
         return "Page " + str(self.page_number) + " of " + str(self.document)
+
+    def __repr__(self):
+        return f"<Page {self.page_number} of {self.document}"
 
 
 class Text(models.Model):
