@@ -125,6 +125,12 @@ def check_generate(model, key, value):
         existed = False
     return existed, new_item
 
+def check_person_known(person):
+    if person.first == "unknown":
+        person.first = None
+    if person.last == "unknown":
+        person.first = None
+    return person
 
 def populate_from_metadata(file_name):
     with open(file_name) as file:
@@ -134,9 +140,7 @@ def populate_from_metadata(file_name):
                                title=line['title'], type=line['doc_type'], notes=line['notes'])
 
             # ---------------------DATE-----------------------------------------------
-            if line['date'] == '' or line['date'][0] != '1':
-                new_doc.date = '1900-01-01'
-            else:
+            if line['date'] != '' or line['date'][0] = '1':
                 new_doc.date = line['date']
 
             # ------------------------------------------------------------------------
