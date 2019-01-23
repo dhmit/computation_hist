@@ -90,6 +90,7 @@ class Document(models.Model):
     cced_person = models.ManyToManyField(Person, related_name='cced_person', blank=True)
     cced_organization = models.ManyToManyField(Organization, related_name='cced_organization',
                                                blank=True)
+    notes = models.CharField(max_length=191, blank=True)
 
     def __str__(self):
         return self.title
@@ -130,8 +131,7 @@ def populate_from_metadata(file_name):
         csv_file = csv.DictReader(file)
         for line in csv_file:
             new_doc = Document(number_of_pages=int(line['last_page']) - int(line['first_page']) + 1,
-                               title=line['title'],
-                               type=line['doc_type'])
+                               title=line['title'], type=line['doc_type'], notes=line['notes'])
 
             # ---------------------DATE-----------------------------------------------
             if line['date'] == '' or line['date'][0] != '1':
