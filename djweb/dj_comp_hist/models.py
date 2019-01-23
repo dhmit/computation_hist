@@ -162,7 +162,7 @@ def populate_from_metadata(file_name):
             if len(auth_split) == 1 and len(auth_split[0].split(', ')) == 1:
                 org_exist,new_org = check_generate(Organization, "name", auth_split[0])
                 new_org.save()
-                new_doc.author_organization.add(new_org)
+                new_doc.author_organization.add(Organization.objects.get(name=auth_split[0]))
             else:
                 for auth in range(len(auth_split)):
                     auth_current = auth_split[auth].split(', ')
@@ -172,7 +172,7 @@ def populate_from_metadata(file_name):
                     if not auth_exist:
                         new_auth.first = auth_current[1]
                     new_auth.save()
-                    new_doc.author_person.add(new_auth)
+                    new_doc.author_person.add(Person.objects.get(last=auth_current[0]))
 
 
             # -----------------------Recipient----------------------------------------
@@ -184,13 +184,13 @@ def populate_from_metadata(file_name):
                     #TODO make if statement more specific to find organizations
                     recp_exist,new_recp = check_generate(Organization, "name", recp)
                     new_recp.save()
-                    new_doc.recipient_organization.add(new_recp)
+                    new_doc.recipient_organization.add(Organization.objects.get(name=recp))
                 else:
                     recp_exist,new_recp = check_generate(Person, "last", recp_current[0])
                     if not recp_exist:
                         new_recp.first = recp_current[1]
                     new_recp.save()
-                    new_doc.recipient_person.add(new_recp)
+                    new_doc.recipient_person.add(Person.objects.get(last=recp_current[0]))
 
             #-------------------------cced-------------------------------------------
 
@@ -201,13 +201,13 @@ def populate_from_metadata(file_name):
                     #TODO make if statement more specific to find organizations
                     cced_exist,new_cced = check_generate(Organization, "name", cced)
                     new_cced.save()
-                    new_doc.recipient_organization.add(new_cced)
+                    new_doc.recipient_organization.add(Organization.objects.get(name=cced))
                 else:
                     cced_exist,new_cced = check_generate(Person, "last", cced_current[0])
                     if not cced_exist:
                         new_cced.first = cced_current[1]
                     new_cced.save()
-                    new_doc.recipient_person.add(new_cced)
+                    new_doc.recipient_person.add(Person.objects.get(last=cced_current[0]))
 
             new_doc.save()
 
