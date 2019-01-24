@@ -11,4 +11,5 @@ urlpatterns = [
     path('org/<int:org_id', views.organization, name='organization'),
 
     # Todo: Slugify at a much later time?
+    #path('list/<model>', views.list, name='list')
 ]

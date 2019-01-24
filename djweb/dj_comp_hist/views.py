@@ -12,8 +12,10 @@ def index(request):
 
 def person(request, person_id):
     person_obj = get_object_or_404(Person, pk=person_id)
-    document_objs = person_obj.author_person.all()
-    x = render(request, 'person.html', {'person_obj': person_obj, 'document_objs': document_objs, 'length': len(document_objs)})
+    document_written_objs = person_obj.author_person.all()
+    document_received_objs = person_obj.recipient_person.all()
+    x = render(request, 'person.html', {'person_obj': person_obj, 'document_written_objs':
+        document_written_objs, 'document_received_objs': document_received_objs,})
     return x
 
 
@@ -29,3 +31,24 @@ def box(request, box_id):
     folder_objs = box_obj.folder_set.all()
     return render(request, 'box.html', {'box_obj': box_obj, 'folder_objs': folder_objs, 'length': len(folder_objs)})
 
+
+def folder(request, folder_id):
+    folder_obj = get_object_or_404(Folder, pk=folder_id)
+    document_objs = folder_obj.document_set.all()
+    response = render(request, 'folder.html', {'folder_obj': folder_obj, 'document_objs':
+        document_objs})
+    return response
+
+
+def organization(request, org_id):
+    org_obj = get_object_or_404(Organization, pk=org_id)
+    document_objs = org_obj.author_organization.all()
+    response = render(request, 'organization.html', {'org_obj': org_obj, 'document_objs':
+        document_objs})
+    return response
+
+
+# def list(request, model):
+#     model_objs = get_list_or_404(model)
+#     response = render(request, 'list.html', {'model_objs': model_objs, 'model': model})
+#     return response
