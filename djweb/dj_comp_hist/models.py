@@ -188,6 +188,7 @@ def populate_from_metadata(file_name):
                 box_exist,new_box = check_generate(Box, "number" , line['box'])
                 new_box.save()
                 new_folder.box = new_box
+                new_folder.number = line['folder_number']
                 new_folder.full = line['foldername_full']
             new_folder.save()
             new_doc.folder = new_folder
