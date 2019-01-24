@@ -60,6 +60,11 @@ class Person(models.Model):
         else:
             return f"<Person without a name>"
 
+    @property
+    def fullname(self):
+        return self.first + "_" + self.last
+
+
 
 class Folder(models.Model):
     name = models.CharField(max_length=191)
@@ -83,7 +88,7 @@ class Document(models.Model):
     type = models.CharField(max_length=191, blank=True)
     # TODO: turn type into choices- note that choices needs to be able to grow
     number_of_pages = models.IntegerField(default=1)
-    date = models.DateField(auto_now_add=False, auto_now=False, blank=True)
+    date = models.DateField(auto_now_add=False, auto_now=False, blank=True, null=True)
     recipient_person = models.ManyToManyField(Person, related_name='recipient_person', blank=True)
     recipient_organization = models.ManyToManyField(Organization,
                                                     related_name='recipient_organization',
@@ -128,9 +133,9 @@ def check_generate(model, key, value):
 
 def check_person_known(person):
     if person.first == "unknown":
-        person.first = None
+        person.first = ""
     if person.last == "unknown":
-        person.first = None
+        person.last = ""
     return person
 
 
@@ -148,14 +153,16 @@ def interpret_person_organization(field, item_organization, item_person, new_doc
         else:
             item_current = person_or_organization.split(', ')
             item_exist, new_item = check_generate(Person, "last", item_current[0])
-            check_person_known(item_current)
+            check_person_known(new_item)
             # TODO change check_generate to have more than one key for people with the
             # same last name
+            print("item" , item_current[1])
             if not item_exist:
                 new_item.first = item_current[1]
+            print("new" , new_item)
             new_item.save()
             bound_attr = getattr(new_doc, item_person)
-            bound_attr.add(Person.objects.get(last=item_current[0]))
+            bound_attr.add(new_item)
 
 
 def populate_from_metadata(file_name):
@@ -166,8 +173,12 @@ def populate_from_metadata(file_name):
                                title=line['title'], type=line['doc_type'], notes=line['notes'])
 
             # ---------------------DATE-----------------------------------------------
-            if line['date'] != '' or line['date'][0] == '1':
+            print("i try" + line['date'])
+            if line['date'] != '' and line['date'][0] == '1':
                 new_doc.date = line['date']
+                print("saved " + line['date'])
+            else:
+                print("unsaved")
 
             # ------------------------------------------------------------------------
 
@@ -177,12 +188,14 @@ def populate_from_metadata(file_name):
                 box_exist,new_box = check_generate(Box, "number" , line['box'])
                 new_box.save()
                 new_folder.box = new_box
+                new_folder.number = line['folder_number']
                 new_folder.full = line['foldername_full']
             new_folder.save()
             new_doc.folder = new_folder
             new_doc.save()
 
             # -----------------------Author, Recipient,cced--------------------------
+            print(" ****" + line['author'])
             interpret_person_organization(line['author'], "author_organization", "author_person", new_doc)
             interpret_person_organization(line['recipients'], "recipient_organization",
                                           "recipient_person",

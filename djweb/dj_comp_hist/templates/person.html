@@ -9,19 +9,44 @@
 
 <h1>
     You're looking at {{person_obj.first}} {{person_obj.last}}
-    {{two}}
+
 
 </h1>
-{% for item in document_objs %}
+{% if document_written_objs|length != 0 %}
+{{person_obj.first}} {{person_obj.last}} wrote some files
+<br>
 
-<a href = "/dj_comp_hist/doc/{{item.pk}}"> The title of the book is {{item}}</a>
+{% for item in document_written_objs %}
+
+<a href = "/dj_comp_hist/doc/{{item.pk}}">  {{item}}</a>
+<br>
+
+{% endfor %}
+
+{% endif %}
+
+{% if document_received_objs|length != 0 %}
+
+{{person_obj.first}} {{person_obj.last}} received some files
+<br>
+
+{% for item in document_received_objs %}
+
+<a href = "/dj_comp_hist/doc/{{item.pk}}">  {{item}}</a>
 <br>
 
 {% endfor %}
 
 
 
+{% endif %}
 
+{% if person_obj.organization.get|length != 0%}
+
+<a href = "/dj_comp_hist/organization/{{item.pk}}">  {{item}}</a>
+<br>
+
+{% endif %}
 
 
 
