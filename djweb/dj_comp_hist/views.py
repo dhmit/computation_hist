@@ -1,5 +1,5 @@
 from django.shortcuts import render, get_object_or_404
-from .models import Person, Document
+from .models import Person, Document, Box
 
 # Create your views here.
 
@@ -22,3 +22,10 @@ def doc(request, doc_id):
     response = f"You're looking at {doc_obj.title} by {doc_obj.author_person.first().first} {doc_obj.author_person.first().last}"
     # return render(request, 'doc.html', {'doc_obj': person_obj})
     return HttpResponse(response)
+
+
+def box(request, box_id):
+    box_obj = get_object_or_404(Box, pk=box_id)
+    folder_objs = box_obj.folder_set.all()
+    return render(request, 'box.html', {'box_obj': box_obj, 'folder_objs': folder_objs, 'length': len(folder_objs)})
+
