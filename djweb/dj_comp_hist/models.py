@@ -1,4 +1,5 @@
 from django.db import models
+from django.db.models.signals import post_save
 import csv
 
 # Create your models here.
@@ -125,6 +126,37 @@ def check_generate(model, key, value):
         existed = False
     return existed, new_item
 
+def check_person_known(person):
+    if person.first == "unknown":
+        person.first = None
+    if person.last == "unknown":
+        person.first = None
+    return person
+
+
+def interpret_person_organization(field, item_organization, item_person, new_doc):
+    #Creates list of authors
+    field_split = field.split('; ')
+    #Checks if it is an organizatio
+
+    for person_or_organization in field_split:
+        if len(person_or_organization.split(', ')) == 1:
+            org_exist, new_org = check_generate(Organization, "name", field_split[0])
+            new_org.save()
+            bound_attr = getattr(new_doc, item_organization)
+            bound_attr.add(Organization.objects.get(name=field_split[0]))
+        else:
+            item_current = person_or_organization.split(', ')
+            item_exist, new_item = check_generate(Person, "last", item_current[0])
+            check_person_known(item_current)
+            # TODO change check_generate to have more than one key for people with the
+            # same last name
+            if not item_exist:
+                new_item.first = item_current[1]
+            new_item.save()
+            bound_attr = getattr(new_doc, item_person)
+            bound_attr.add(Person.objects.get(last=item_current[0]))
+
 
 def populate_from_metadata(file_name):
     with open(file_name) as file:
@@ -134,14 +166,12 @@ def populate_from_metadata(file_name):
                                title=line['title'], type=line['doc_type'], notes=line['notes'])
 
             # ---------------------DATE-----------------------------------------------
-            if line['date'] == '' or line['date'][0] != '1':
-                new_doc.date = '1900-01-01'
-            else:
+            if line['date'] != '' or line['date'][0] == '1':
                 new_doc.date = line['date']
 
             # ------------------------------------------------------------------------
 
-            # ---------------------Folder-----------------------------------------------
+            # ---------------------Folder---------------------------------------------
             folder_exist,new_folder = check_generate(Folder, "name" ,line['foldername_short'])
             if not folder_exist:
                 box_exist,new_box = check_generate(Box, "number" , line['box'])
@@ -150,9 +180,15 @@ def populate_from_metadata(file_name):
                 new_folder.full = line['foldername_full']
             new_folder.save()
             new_doc.folder = new_folder
+            new_doc.save()
 
-            # ------------------------------------------------------------------------
-
+            # -----------------------Author, Recipient,cced--------------------------
+            interpret_person_organization(line['author'], "author_organization", "author_person", new_doc)
+            interpret_person_organization(line['recipients'], "recipient_organization",
+                                          "recipient_person",
+                                          new_doc)
+            interpret_person_organization(line['cced'], "cced_organization", "cced_person",
+                                          new_doc)
 
             # -----------------------Author--------------------------------------------
 
@@ -216,7 +252,27 @@ def populate_from_metadata(file_name):
                     new_cced.save()
                     new_doc.recipient_person.add(Person.objects.get(last=cced_current[0]))
 
+
             new_doc.save()
 
+            # ------------------------pages,
+            for i in range(1, new_doc.number_of_pages+1):
+                new_page = Page(document = new_doc, file_name = line['filename'], page_number = i)
+                new_page.save()
 
-    return
+            print(new_doc)
+            print(new_doc.author_person, new_doc.author_organization)
+
+
+
+
+        return
+"""
+@reciever(post_save, sender=Document)
+
+def create_pages(sender, instance, created, **kwargs):
+    for i in range(1, instance.number_of_pages + 1):
+        new_page = Page(document=instance, file_name=line['filename'], page_number=i)
+        new_page.save(
+
+"""
