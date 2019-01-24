@@ -12,8 +12,10 @@ def index(request):
 
 def person(request, person_id):
     person_obj = get_object_or_404(Person, pk=person_id)
-    document_objs = person_obj.author_person.all()
-    x = render(request, 'person.html', {'person_obj': person_obj, 'document_objs': document_objs, 'length': len(document_objs)})
+    document_written_objs = person_obj.author_person.all()
+    document_received_objs = person_obj.recipient_person.all()
+    x = render(request, 'person.html', {'person_obj': person_obj, 'document_written_objs':
+        document_written_objs, 'document_received_objs': document_received_objs,})
     return x
 
 
