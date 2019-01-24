@@ -148,7 +148,7 @@ def interpret_person_organization(field, item_organization, item_person, new_doc
         else:
             item_current = person_or_organization.split(', ')
             item_exist, new_item = check_generate(Person, "last", item_current[0])
-            check_person_known(item_current)
+            check_person_known(new_item)
             # TODO change check_generate to have more than one key for people with the
             # same last name
             if not item_exist:
