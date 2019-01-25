@@ -22,10 +22,18 @@ def person(request, person_id):
 
 def doc(request, doc_id):
     doc_obj = get_object_or_404(Document, pk=doc_id)
-    response = f"You're looking at {doc_obj.title} by {doc_obj.author_person.first().first} {doc_obj.author_person.first().last}"
-    # return render(request, 'doc.jinja2', {'doc_obj': person_obj})
-    return HttpResponse(response)
-
+    author_person_objs = doc_obj.author_person.all()
+    author_organization_objs = doc_obj.author_organization.all()
+    recipient_person_objs = doc_obj.recipient_person.all()
+    recipient_organization_objs = doc_obj.recipient_organization.all()
+    cced_person_objs = doc_obj.cced_person.all()
+    cced_organization_objs = doc_obj.cced_organization.all()
+    return render(request, 'doc.jinja2', {'doc_obj': doc_obj, 'author_person_objs':
+        author_person_objs, 'author_organization_objs': author_organization_objs,
+                                        'recipient_person_objs': recipient_person_objs,
+                                        'recipient_orgaization_objs':
+                                            recipient_organization_objs, 'cced_person_objs':
+                                            cced_person_objs, 'cced_organization_objs': cced_organization_objs})
 
 def box(request, box_id):
     box_obj = get_object_or_404(Box, pk=box_id)
