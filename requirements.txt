@@ -1,7 +1,9 @@
 dh_testers
 django>=2.1
+django_jinja>=2.4.1
 google-api-python-client
 ipython
+jinja2-django-tags
 matplotlib
 more-itertools
 nltk
