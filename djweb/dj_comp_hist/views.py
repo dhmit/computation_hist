@@ -28,7 +28,7 @@ def doc(request, doc_id):
     recipient_organization_objs = doc_obj.recipient_organization.all()
     cced_person_objs = doc_obj.cced_person.all()
     cced_organization_objs = doc_obj.cced_organization.all()
-    return render(request, 'doc.html', {'doc_obj': doc_obj, 'author_person_objs':
+    return render(request, 'doc.jinja2', {'doc_obj': doc_obj, 'author_person_objs':
         author_person_objs, 'author_organization_objs': author_organization_objs,
                                         'recipient_person_objs': recipient_person_objs,
                                         'recipient_orgaization_objs':
