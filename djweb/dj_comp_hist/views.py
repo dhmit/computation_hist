@@ -51,15 +51,12 @@ def organization(request, org_id):
 def list(request, model_str):
     if model_str == "organization":
         model = Organization
-        print('model is',model)
     elif model_str == "person":
         model = Person
-        print('model is', model)
     elif model_str == "folder":
         model = Folder
-        print('model is', model)
-    else:
-        model = "404"
+    elif model_str == "box":
+        model = Box
     model_objs = get_list_or_404(model)
     response = render(request, 'list.html', {'model_objs': model_objs, 'model_str': model_str})
     return response

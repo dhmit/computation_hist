@@ -3,13 +3,11 @@
 {% block title %} Person {% endblock %}
 
 {% block self %}
+{% endblock %}
+{% block table %}
 <h1>
     You're looking at {{person_obj.first}} {{person_obj.last}}
-
 </h1>
-{% endblock %}
-
-{% block table %}
 
 {% if document_written_objs|length != 0 %}
 {{person_obj.first}} {{person_obj.last}} wrote some files
