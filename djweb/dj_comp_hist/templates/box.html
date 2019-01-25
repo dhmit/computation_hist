@@ -9,9 +9,24 @@
 
 {% block table %}
 
-{% for item in folder_objs %}
-<a href = "/dj_comp_hist/folder/{{item.pk}}"> The name of the folder is {{item.full}}</a>
-<br>
-{% endfor %}
+<table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Folder Name</th>
+      <th scope="col">Link</th>
+    </tr>
+  </thead>
+  <tbody>
+  {% for item in folder_objs %}
+    <tr>
+      <th scope="row">{{ forloop.counter }} </th>
+      <td>{{item.full}}</td>
+        <td><a href = "/dj_comp_hist/folder/{{item.pk}}">Link</a></td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+
 
 {% endblock %}
