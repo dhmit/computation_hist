@@ -9,10 +9,23 @@
 {% endblock %}
 
 {% block table %}
-
-{% for item in document_objs %}
-<p>The name of this document is <a href = "/dj_comp_hist/doc/{{item.pk}}">{{item}}</a></p>
-<br>
-{% endfor %}
+<table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Document Name</th>
+      <th scope="col">Link</th>
+    </tr>
+  </thead>
+  <tbody>
+  {% for item in document_objs %}
+    <tr>
+      <th scope="row">{{ forloop.counter }} </th>
+      <td>{{item}}</td>
+        <td><a href = "/dj_comp_hist/doc/{{item.pk}}">Link</a></td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
 
 {% endblock %}

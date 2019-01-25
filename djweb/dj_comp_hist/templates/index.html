@@ -1,15 +1,23 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Homepage</title>
-</head>
-<body>
+{% extends "base.html" %}
+
+{% block title %} Person {% endblock %}
+
+{% block self %}
+
+{% endblock %}
+
+{% block table %}
+
 <h1>Hello, world. You're at Computation History project.</h1>
+
 <a href = "/dj_comp_hist/list/person">People</a>
 <br>
-<a href = "/dj_comp_hist/list/folder">Folder</a>
+<a href = "/dj_comp_hist/list/folder">Folders</a>
 <br>
-<a href = "/dj_comp_hist/list/organization">Organization</a>
+<a href = "/dj_comp_hist/list/organization">Organizations</a>
+<br>
+<a href = "/dj_comp_hist/list/box">Boxes</a>
+{% endblock %}
+
 </body>
 </html>

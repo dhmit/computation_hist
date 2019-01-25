@@ -1,0 +1,18 @@
+
+{% extends "base.jinja2" %}
+
+{% block title %} Folder {% endblock %}
+
+{% block self %}
+<h1>You're looking at folder: {{folder_obj.full}}</h1>
+<h2>Folder number {{folder_obj.number}}</h2>
+{% endblock %}
+
+{% block table %}
+
+{% for item in document_objs %}
+<p>The name of this document is <a href = "/dj_comp_hist/doc/{{item.pk}}">{{item}}</a></p>
+<br>
+{% endfor %}
+
+{% endblock %}

@@ -1,0 +1,25 @@
+
+{% extends "base.html" %}
+
+{% block title %} Document {% endblock %}
+
+{% block self %}
+
+<h1>You're looking at {{doc_obj}}</h1>
+
+{% endblock %}
+
+{% block table %}
+
+{% if author_person_objs |length != 0 %}
+{{doc_obj}} was written by
+<br>
+{% for item in author_person_objs %}
+<a href = "/dj_comp_hist/person/{{item.pk}}">  {{item}}</a>
+<br>
+{% endfor %}
+{% endif %}
+
+
+
+{% endblock %}

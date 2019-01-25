@@ -1,0 +1,56 @@
+{% extends "base.jinja2" %}
+
+{% block title %} Person {% endblock %}
+
+{% block self %}
+{% endblock %}
+
+{% block table %}
+<h1>
+    You're looking at {{person_obj.first}} {{person_obj.last}}
+
+</h1>
+
+{% if len(document_written_objs) != 0 %}
+    {{person_obj.first}} {{person_obj.last}} wrote some files
+    <br>
+    {% for item in document_written_objs %}
+        <a href = "/dj_comp_hist/doc/{{item.pk}}">  {{item}}</a>
+        <br>
+    {% endfor %}
+{% endif %}
+
+{% if len(document_received_objs) != 0 %}
+    {{person_obj.first}} {{person_obj.last}} received some files
+    <br>
+    {% for item in document_received_objs %}
+        <a href = "/dj_comp_hist/doc/{{item.pk}}">  {{item}}</a>
+        <br>
+    {% endfor %}
+{% endif %}
+{% if len(document_cced_objs) != 0 %}
+    {{person_obj.first}} {{person_obj.last}} was cced on some files
+    <br/>
+    {% for item in document_cced_objs %}
+        <a href = "/dj_comp_hist/doc/{{item.pk}}">  {{item}}</a>
+        <br/>
+    {% endfor %}
+{% endif %}
+
+
+{% if len(person_obj.organization.all()) != 0%}
+    <a href = "/dj_comp_hist/organization/{{item.pk}}">  {{item}}</a>
+    <br>
+{% endif %}
+
+{% endblock %}
+
+
+
+
+
+
+
+
+</body>
+</html>
