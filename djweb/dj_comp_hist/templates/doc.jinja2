@@ -1,0 +1,62 @@
+
+{% extends "base.jinja2" %}
+
+{% block title %} Document {% endblock %}
+
+{% block self %}
+
+<h1>You're looking at {{doc_obj}}</h1>
+
+{% endblock %}
+
+{% block table %}
+
+{% if len(author_person_objs) != 0 or len(author_organization_objs) != 0 %}
+{{doc_obj}} was written by
+<br>
+    {% if len(author_person_objs) != 0 %}
+        {% for item in author_person_objs %}
+            <a href = "/dj_comp_hist/person/{{item.pk}}">  {{item}}</a>
+        {% endfor %}
+    {% endif %}
+    {% if len(author_organization_objs) != 0 %}
+      {% for item in author_organization_objs %}
+          <a href = "/dj_comp_hist/organization/{{item.pk}}">  {{item}}</a>
+      {% endfor %}
+    {% endif %}
+<br>
+{% endif %}
+
+    {% if len(recipient_person_objs) != 0 or len(recipient_organization_objs) != 0 %}
+{{doc_obj}} was received by
+<br>
+    {% if len(recipient_person_objs) != 0 %}
+        {% for item in recipient_person_objs %}
+            <a href = "/dj_comp_hist/person/{{item.pk}}">  {{item}}</a>
+        {% endfor %}
+    {% endif %}
+    {% if len(recipient_organization_objs) != 0 %}
+      {% for item in recipient_organization_objs %}
+          <a href = "/dj_comp_hist/organization/{{item.pk}}">  {{item}}</a>
+      {% endfor %}
+    {% endif %}
+<br>
+{% endif %}
+
+    {% if len(cced_person_objs) != 0 or len(cced_organization_objs) != 0 %}
+{{doc_obj}} was cced to
+<br>
+    {% if len(cced_person_objs) != 0 %}
+        {% for item in cced_person_objs %}
+            <a href = "/dj_comp_hist/person/{{item.pk}}">  {{item}}</a>
+        {% endfor %}
+    {% endif %}
+    {% if len(cced_organization_objs) != 0 %}
+      {% for item in cced_organization_objs %}
+          <a href = "/dj_comp_hist/organization/{{item.pk}}">  {{item}}</a>
+      {% endfor %}
+    {% endif %}
+<br>
+    {% endif %}
+
+{% endblock %}
