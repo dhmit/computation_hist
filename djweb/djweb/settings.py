@@ -11,6 +11,10 @@ https://docs.djangoproject.com/en/2.1/ref/settings/
 """
 
 import os
+from django_jinja.builtins import DEFAULT_EXTENSIONS
+
+from .jinja_utils import collect_jinja2_functions
+
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -31,13 +35,20 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'dj_comp_hist.apps.DjCompHistConfig',
+    # core django
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    # 3rd party apps
+    'django_jinja',  # we use Jinja2 templates, not pure django.
+    'django_jinja.contrib._humanize',
+
+    # out apps
+    'dj_comp_hist.apps.DjCompHistConfig',
 ]
 
 MIDDLEWARE = [
@@ -54,6 +65,27 @@ ROOT_URLCONF = 'djweb.urls'
 
 TEMPLATES = [
     {
+        'BACKEND': 'django_jinja.backend.Jinja2',
+        'DIRS': [],
+        'APP_DIRS': True,
+        "OPTIONS": {
+            'trim_blocks': True,
+            'autoescape': True,
+            'lstrip_blocks': True,
+            'match_extension': '.jinja2',
+            "context_processors": [
+                "django.template.context_processors.debug",
+                "django.template.context_processors.static",
+                "django.contrib.messages.context_processors.messages",
+            ],
+            "extensions": DEFAULT_EXTENSIONS + [
+                'jdj_tags.extensions.DjangoStatic',  # this emulates the {% static %} tag
+                'jdj_tags.extensions.DjangoUrl',  # this emulates the {% url %} tag
+                'jdj_tags.extensions.DjangoCsrf',  # this emulates the {% csrf_token %} tag
+            ],
+        }
+    },
+    {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [],
         'APP_DIRS': True,
@@ -67,6 +99,14 @@ TEMPLATES = [
         },
     },
 ]
+
+DEFAULT_JINJA2_TEMPLATE_EXTENSION = ".jinja2"
+JINJA2_ENVIRONMENT_OPTIONS = {
+    'trim_blocks': True,
+    'autoescape': True,
+    'lstrip_blocks': True
+}
+JINJA2_FILTERS = collect_jinja2_functions()  # gets functions and filters
 
 WSGI_APPLICATION = 'djweb.wsgi.application'
 

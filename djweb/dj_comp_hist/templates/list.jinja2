@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{model_str}} list</title>
+</head>
+<body>
+<h1>You're looking at {{model_str}}s</h1>
+
+{% for item in model_objs %}
+
+<p>The name of this {{model_str}} is
+    <a href = "/dj_comp_hist/{{model_str}}/{{item.pk}}">{{item}}</a></p>
+<br>
+{% endfor %}
+</body>
+</html>

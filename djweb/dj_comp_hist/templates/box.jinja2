@@ -1,0 +1,17 @@
+
+{% extends "base.jinja2" %}
+
+{% block title %} Box {% endblock %}
+
+{% block self %}
+<h1>You're looking at box number {{box_obj.number}}</h1>
+{% endblock %}
+
+{% block table %}
+
+{% for item in folder_objs %}
+<a href = "/dj_comp_hist/folder/{{item.pk}}"> The name of the folder is {{item.full}}</a>
+<br>
+{% endfor %}
+
+{% endblock %}
