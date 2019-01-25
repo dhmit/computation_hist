@@ -14,8 +14,9 @@ def person(request, person_id):
     person_obj = get_object_or_404(Person, pk=person_id)
     document_written_objs = person_obj.author_person.all()
     document_received_objs = person_obj.recipient_person.all()
+    document_cced_objs = person_obj.cced_person.all()
     x = render(request, 'person.html', {'person_obj': person_obj, 'document_written_objs':
-        document_written_objs, 'document_received_objs': document_received_objs,})
+        document_written_objs, 'document_received_objs': document_received_objs, 'document_cced_objs': document_cced_objs})
     return x
 
 
@@ -29,7 +30,7 @@ def doc(request, doc_id):
 def box(request, box_id):
     box_obj = get_object_or_404(Box, pk=box_id)
     folder_objs = box_obj.folder_set.all()
-    return render(request, 'box.html', {'box_obj': box_obj, 'folder_objs': folder_objs, 'length': len(folder_objs)})
+    return render(request, 'box.html', {'box_obj': box_obj, 'folder_objs': folder_objs})
 
 
 def folder(request, folder_id):
