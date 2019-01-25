@@ -1,5 +1,5 @@
-from django.shortcuts import render, get_object_or_404
-from .models import Person, Document, Box
+from django.shortcuts import render, get_object_or_404, get_list_or_404
+from .models import Person, Document, Box, Folder, Organization
 
 # Create your views here.
 
@@ -7,15 +7,16 @@ from django.http import HttpResponse
 
 
 def index(request):
-    return HttpResponse("Hello, world. You're at Computation History project.")
+    return render(request, 'index.html')
 
 
 def person(request, person_id):
     person_obj = get_object_or_404(Person, pk=person_id)
     document_written_objs = person_obj.author_person.all()
     document_received_objs = person_obj.recipient_person.all()
+    document_cced_objs = person_obj.cced_person.all()
     x = render(request, 'person.html', {'person_obj': person_obj, 'document_written_objs':
-        document_written_objs, 'document_received_objs': document_received_objs,})
+        document_written_objs, 'document_received_objs': document_received_objs, 'document_cced_objs': document_cced_objs})
     return x
 
 
@@ -29,7 +30,7 @@ def doc(request, doc_id):
 def box(request, box_id):
     box_obj = get_object_or_404(Box, pk=box_id)
     folder_objs = box_obj.folder_set.all()
-    return render(request, 'box.html', {'box_obj': box_obj, 'folder_objs': folder_objs, 'length': len(folder_objs)})
+    return render(request, 'box.html', {'box_obj': box_obj, 'folder_objs': folder_objs})
 
 
 def folder(request, folder_id):
@@ -48,7 +49,15 @@ def organization(request, org_id):
     return response
 
 
-# def list(request, model):
-#     model_objs = get_list_or_404(model)
-#     response = render(request, 'list.html', {'model_objs': model_objs, 'model': model})
-#     return response
+def list(request, model_str):
+    if model_str == "organization":
+        model = Organization
+    elif model_str == "person":
+        model = Person
+    elif model_str == "folder":
+        model = Folder
+    elif model_str == "box":
+        model = Box
+    model_objs = get_list_or_404(model)
+    response = render(request, 'list.html', {'model_objs': model_objs, 'model_str': model_str})
+    return response
