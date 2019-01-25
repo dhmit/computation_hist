@@ -24,7 +24,7 @@ allways use unknown lowercase where unknown is to be used
 
 **title**required
 
-**date** if unknown write none
+**date** if unknown write nothing
 
 **first_page** required
 
@@ -47,7 +47,7 @@ allways use unknown lowercase where unknown is to be used
 3.If someone doesn't have a surname enter second name as unknown - e.g. "unknown, Elena"
 4.If someone has name is not known at all enter unknown 
 
-**notes** max character 191
+**notes** max character 191 - leave blank don't write none
 
 ##Box
 Has a number 
