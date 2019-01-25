@@ -8,8 +8,8 @@
 {% block table %}
 <h1>You're looking at every {{model_str}}</h1>
 {% for item in model_objs %}
-    <a href = "/dj_comp_hist/{{model_str}}/{{item.pk}}">{{item}}</a>
-    <br>
+<a href = "/dj_comp_hist/{{model_str}}/{{item.pk}}">{{item}}</a>
+<br>
 {% endfor %}
 {% endblock %}
 
