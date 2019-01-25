@@ -26,6 +26,14 @@
 <br>
 {% endfor %}
 {% endif %}
+{% if document_cced_objs|length != 0 %}
+{{person_obj.first}} {{person_obj.last}} was cced on some files
+<br/>
+{% for item in document_cced_objs %}
+<a href = "/dj_comp_hist/doc/{{item.pk}}">  {{item}}</a>
+<br/>
+{% endfor %}
+{% endif %}
 {% if person_obj.organization.get|length != 0%}
 <a href = "/dj_comp_hist/organization/{{item.pk}}">  {{item}}</a>
 <br>
