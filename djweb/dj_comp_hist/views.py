@@ -1,5 +1,5 @@
-from django.shortcuts import render, get_object_or_404
-from .models import Person, Document, Box
+from django.shortcuts import render, get_object_or_404, get_list_or_404
+from .models import Person, Document, Box, Folder, Organization
 
 # Create your views here.
 
@@ -7,7 +7,7 @@ from django.http import HttpResponse
 
 
 def index(request):
-    return HttpResponse("Hello, world. You're at Computation History project.")
+    return render(request, 'index.html')
 
 
 def person(request, person_id):
@@ -48,7 +48,18 @@ def organization(request, org_id):
     return response
 
 
-# def list(request, model):
-#     model_objs = get_list_or_404(model)
-#     response = render(request, 'list.html', {'model_objs': model_objs, 'model': model})
-#     return response
+def list(request, model_str):
+    if model_str == "organization":
+        model = Organization
+        print('model is',model)
+    elif model_str == "person":
+        model = Person
+        print('model is', model)
+    elif model_str == "folder":
+        model = Folder
+        print('model is', model)
+    else:
+        model = "404"
+    model_objs = get_list_or_404(model)
+    response = render(request, 'list.html', {'model_objs': model_objs, 'model_str': model_str})
+    return response
