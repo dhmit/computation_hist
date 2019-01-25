@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Folder</title>
+</head>
+
+<body>
+<h1>You're looking at folder: {{folder_obj.full}}</h1>
+<h2>Folder number {{folder_obj.number}}</h2>
+
+{% for item in document_objs %}
+
+<p>The name of this document is <a href = "/dj_comp_hist/doc/{{item.pk}}">{{item}}</a></p>
+<br>
+{% endfor %}
+
+</body>
+</html>
