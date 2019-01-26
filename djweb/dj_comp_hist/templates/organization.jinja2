@@ -1,13 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Organization</title>
-</head>
-<body>
+{% extends "base.html" %}
+
+{% block title %}Organization{% endblock %}
+
+{% block self %}
 <h1>You're looking at organization: {{org_obj.name}}</h1>
+{% endblock %}
+
+{% block table %}
+
 {% for item in document_objs %}
 <p>The name of this document is <a href = "/dj_comp_hist/doc/{{item.pk}}">{{item}}</a></p>
 {% endfor %}
-</body>
-</html>
+
+{% endblock %}
