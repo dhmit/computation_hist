@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+
+{% block title %} Person {% endblock %}
+
+{% block self %}
+{% endblock %}
+
+{% block table %}
+    {% if people_objs %}
+        <h1>People that match your search</h1>
+        {% for item in people_objs %}
+            <a href="/dj_comp_hist/person/{{ item.pk }}">{{ item.last }} {{ item.first }}</a>
+            <br>
+        {% endfor %}
+    {% else %}
+        <h1> No people match your search</h1>
+    {% endif %}
+    {% if document_objs %}
+        <h1>Documents that match your search</h1>
+        {% for item in document_objs %}
+            <a href="/dj_comp_hist/doc/{{ item.pk }}">{{ item.title }}</a>
+            <br>
+        {% endfor %}
+    {% else %}
+        <h1> No documents match your search</h1>
+    {% endif %}
+    {% if folder_objs %}
+        <h1>Folders that match your search</h1>
+        {% for item in folder_objs %}
+            <a href="/dj_comp_hist/folder/{{ item.pk }}">{{ item.full }}</a>
+            <br>
+        {% endfor %}
+    {% else %}
+        <h1> No Folders match your search</h1>
+    {% endif %}
+
+{% endblock %}
+
+</body>
+</html>
