@@ -1,5 +1,6 @@
 from django.db import models
 from django.db.models.signals import  post_save
+from pdf2image import convert_from_path
 import csv
 
 # Create your models here.
@@ -65,7 +66,6 @@ class Person(models.Model):
         return self.first + "_" + self.last
 
 
-
 class Folder(models.Model):
     name = models.CharField(max_length=191)
     box = models.ForeignKey(Box, on_delete=models.CASCADE)
@@ -88,6 +88,8 @@ class Document(models.Model):
     type = models.CharField(max_length=191, blank=True)
     # TODO: turn type into choices- note that choices needs to be able to grow
     number_of_pages = models.IntegerField(default=1)
+    first_page = models.IntegerField(default=0)
+    last_page = models.IntegerField(default=0)
     date = models.DateField(auto_now_add=False, auto_now=False, blank=True, null=True)
     recipient_person = models.ManyToManyField(Person, related_name='recipient_person', blank=True)
     recipient_organization = models.ManyToManyField(Organization,
@@ -97,6 +99,7 @@ class Document(models.Model):
     cced_organization = models.ManyToManyField(Organization, related_name='cced_organization',
                                                blank=True)
     notes = models.CharField(max_length=191, blank=True)
+    file_name = models.CharField(max_length=191, blank=True)
 
     def __str__(self):
         return self.title
@@ -108,7 +111,7 @@ class Document(models.Model):
 class Page(models.Model):
     document = models.ForeignKey(Document, on_delete=models.CASCADE)
     page_number = models.IntegerField(default=0)
-    file_name = models.CharField(max_length=191)
+    image_path = models.CharField(max_length=191)
 
     def __str__(self):
         return "Page " + str(self.page_number) + " of " + str(self.document)
@@ -142,7 +145,7 @@ def check_person_known(person):
 def interpret_person_organization(field, item_organization, item_person, new_doc):
     #Creates list of authors
     field_split = field.split('; ')
-    #Checks if it is an organizatio
+    #Checks if it is an organization
 
     for person_or_organization in field_split:
         if len(person_or_organization.split(', ')) == 1:
@@ -170,15 +173,13 @@ def populate_from_metadata(file_name):
         csv_file = csv.DictReader(file)
         for line in csv_file:
             new_doc = Document(number_of_pages=int(line['last_page']) - int(line['first_page']) + 1,
-                               title=line['title'], type=line['doc_type'], notes=line['notes'])
+                               title=line['title'], type=line['doc_type'], notes=line['notes'],
+                               first_page=line['first_page'], last_page=line['last_page'],
+                               file_name=line['filename'])
 
             # ---------------------DATE-----------------------------------------------
-            print("i try" + line['date'])
             if line['date'] != '' and line['date'][0] == '1':
                 new_doc.date = line['date']
-                print("saved " + line['date'])
-            else:
-                print("unsaved")
 
             # ------------------------------------------------------------------------
 
@@ -190,6 +191,7 @@ def populate_from_metadata(file_name):
                 new_folder.box = new_box
                 new_folder.number = line['folder_number']
                 new_folder.full = line['foldername_full']
+                new_folder.file_name = line['filename']
             new_folder.save()
             new_doc.folder = new_folder
             new_doc.save()
@@ -203,19 +205,7 @@ def populate_from_metadata(file_name):
             interpret_person_organization(line['cced'], "cced_organization", "cced_person",
                                           new_doc)
 
-
             new_doc.save()
-
-            # ------------------------pages,
-            for i in range(1, new_doc.number_of_pages+1):
-                new_page = Page(document = new_doc, file_name = line['filename'], page_number = i)
-                new_page.save()
-
-            print(new_doc)
-            print(new_doc.author_person, new_doc.author_organization)
-
-
-
 
         return
 """
@@ -227,3 +217,39 @@ def create_pages(sender, instance, created, **kwargs):
         new_page.save(
 
 """
+
+
+def pdf_to_image_split(pdf_path, image_directory, folder_name):
+    pages = convert_from_path(pdf_path)
+    images_in_pdf = []
+
+    for page in range(len(pages)):
+        page_path = image_directory + folder_name + '_' + str(page + 1) + '.png'
+        pages[page].save(page_path, 'PNG')
+        images_in_pdf.append((page_path, page+1))
+
+    return images_in_pdf
+
+
+def page_image_to_doc(folder_name, images_in_pdf):
+    folder = Folder.objects.get(name=folder_name)
+    documents_unsort = folder.document_set.all()
+    documents_sort = sorted(documents_unsort, key=lambda x: x.first_page)
+    document_place = 0
+
+    for page in images_in_pdf:
+        if documents_sort[document_place].first_page <= page[1] <= documents_sort[\
+                document_place].last_page:
+            page_obj = Page(document=documents_sort[document_place], page_number=page[1],
+                            image_path=page[0])
+            page_obj.save()
+        elif documents_sort[document_place+1].first_page <= page[1] <= documents_sort[\
+                document_place+1].last_page:
+            document_place += 1
+            page_obj = Page(document=documents_sort[document_place], page_number=page[1],
+                            image_path=page[0])
+            page_obj.save()
+        else:
+            # This means that the page isn't associated with a document
+            continue
+    return
