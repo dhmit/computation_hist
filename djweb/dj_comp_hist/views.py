@@ -78,7 +78,7 @@ def search_results(request):
 
     people_objs = Person.objects.filter(last__contains=input)
     document_objs = Document.objects.filter(title__contains=input)
-    folder_objs=Folder.objects.filter(full__contains=input)
+    folder_objs = Folder.objects.filter(full__contains=input)
     response = render(request, 'search_results.jinja2', {'people_objs': people_objs,
                                                          'document_objs': document_objs,
                                                          'folder_objs': folder_objs})
