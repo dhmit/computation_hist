@@ -1,5 +1,6 @@
 from django.shortcuts import render, get_object_or_404, get_list_or_404
 from .models import Person, Document, Box, Folder, Organization
+from django.template import loader,Context
 
 # Create your views here.
 
@@ -69,3 +70,12 @@ def list(request, model_str):
     model_objs = get_list_or_404(model)
     response = render(request, 'list.jinja2', {'model_objs': model_objs, 'model_str': model_str})
     return response
+
+def search(request):
+    query = request.POST['usr_query']
+    print("QUERY: ")
+    print(query)
+    t = loader.get_template('/earch.jinja2')
+    c = {'query': query}
+
+    return HttpResponse(t.render(c))
