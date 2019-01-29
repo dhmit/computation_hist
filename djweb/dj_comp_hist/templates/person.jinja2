@@ -11,7 +11,7 @@
 {% block table %}
 
     {% if len(document_written_objs) != 0 %}
-        {{ person_obj.first }} {{ person_obj.last }} wrote some files
+        <h3>{{ person_obj.first }} {{ person_obj.last }} wrote some files</h3>
         <br>
         <table class="table">
             <thead class="thead-dark">
@@ -24,7 +24,7 @@
             <tbody>
             {% for item in document_written_objs %}
                 <tr>
-                    <th scope="row">{{ item.id }} </th>
+                    <th scope="row">{{ loop.index }} </th>
                     <td>{{ item }}</td>
                     <td><a href="/dj_comp_hist/doc/{{ item.pk }}">Link</a></td>
                 </tr>
@@ -34,7 +34,7 @@
     {% endif %}
 
     {% if len(document_received_objs) != 0 %}
-        {{ person_obj.first }} {{ person_obj.last }} received some files
+        <h3>{{ person_obj.first }} {{ person_obj.last }} received some files</h3>
         <br>
         <table class="table">
             <thead class="thead-light">
@@ -57,7 +57,7 @@
     {% endif %}
 
     {% if len(document_cced_objs) != 0 %}
-        {{ person_obj.first }} {{ person_obj.last }} was cced on some files
+        <h3>{{ person_obj.first }} {{ person_obj.last }} was cced on some files</h3>
         <br>
         <table class="table">
             <thead class="thead-dark">
