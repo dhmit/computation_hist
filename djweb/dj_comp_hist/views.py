@@ -79,3 +79,16 @@ def search(request):
     c = {'query': query}
 
     return HttpResponse(t.render(c))
+
+def search_results(request):
+    #key
+
+    input = request.GET['q']
+
+    people_objs = Person.objects.filter(last__contains=input)
+    document_objs = Document.objects.filter(title__contains=input)
+    folder_objs = Folder.objects.filter(full__contains=input)
+    response = render(request, 'search_results.jinja2', {'people_objs': people_objs,
+                                                         'document_objs': document_objs,
+                                                         'folder_objs': folder_objs})
+    return response
