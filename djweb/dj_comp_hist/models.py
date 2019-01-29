@@ -235,11 +235,8 @@ def page_image_to_doc(folder_name, pdf_path, image_directory):
     documents_sort = sorted(documents_unsort, key=lambda x: x.first_page)
     document_place = 0
     page_num = 1
-    print(images_in_pdf)
-    print(documents_sort)
 
     for page in images_in_pdf:
-        print(documents_sort[document_place])
         if documents_sort[document_place].first_page <= page[1] <= documents_sort[\
                 document_place].last_page:
             # this means that this is the same document as last page
