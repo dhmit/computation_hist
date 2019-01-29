@@ -1,6 +1,7 @@
 from django.shortcuts import render, get_object_or_404, get_list_or_404
 from .models import Person, Document, Box, Folder, Organization
 from django.template import loader,Context
+from django.db.models import Q
 
 # Create your views here.
 
@@ -83,12 +84,16 @@ def search(request):
 def search_results(request):
     #key
 
-    input = request.GET['q']
+    user_input = request.GET['q']
 
-    people_objs = Person.objects.filter(last__contains=input)
-    document_objs = Document.objects.filter(title__contains=input)
-    folder_objs = Folder.objects.filter(full__contains=input)
+    people_objs = Person.objects.filter(Q(last__contains=user_input) | Q(
+        first__contains=user_input))
+    document_objs = Document.objects.filter(title__contains=user_input)
+    folder_objs = Folder.objects.filter(full__contains=user_input)
+    organization_objs = Organization.objects.filter(Q(name__contains=user_input)|Q(
+        location__contains=user_input))
     response = render(request, 'search_results.jinja2', {'people_objs': people_objs,
                                                          'document_objs': document_objs,
-                                                         'folder_objs': folder_objs})
+                                                         'folder_objs': folder_objs,
+                                                         'organization_objs': organization_objs})
     return response
