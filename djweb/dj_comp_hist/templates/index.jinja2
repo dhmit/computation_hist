@@ -3,21 +3,24 @@
 {% block title %} Index {% endblock %}
 
 {% block self %}
-
+    <h1>Hello, world. You're at the Computation History Project.</h1>
+    <br><br>
 {% endblock %}
 
 {% block table %}
-
-<h1>Hello, world. You're at Computation History project.</h1>
-
-<a href = "/dj_comp_hist/list/person">People</a>
-<br>
-<a href = "/dj_comp_hist/list/folder">Folders</a>
-<br>
-<a href = "/dj_comp_hist/list/organization">Organizations</a>
-<br>
-<a href = "/dj_comp_hist/list/box">Boxes</a>
+    Unsure of what you're looking for? Browse through our datasets.
+    <div class="list-group">
+        <a href="/dj_comp_hist/list/person" class="list-group-item list-group-item-action">
+            <h2>People</h2>
+        </a>
+        <a href="/dj_comp_hist/list/folder" class="list-group-item list-group-item-action">
+            <h2>Folder</h2>
+        </a>
+        <a href="/dj_comp_hist/list/organization" class="list-group-item list-group-item-action">
+            <h2>Organization</h2>
+        </a>
+        <a href="/dj_comp_hist/list/box" class="list-group-item list-group-item-action">
+            <h2>Box</h2>
+        </a>
+    </div>
 {% endblock %}
-
-</body>
-</html>
