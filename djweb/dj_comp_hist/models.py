@@ -159,10 +159,8 @@ def interpret_person_organization(field, item_organization, item_person, new_doc
             check_person_known(new_item)
             # TODO change check_generate to have more than one key for people with the
             # same last name
-            print("item" , item_current[1])
             if not item_exist:
                 new_item.first = item_current[1]
-            print("new" , new_item)
             new_item.save()
             bound_attr = getattr(new_doc, item_person)
             bound_attr.add(new_item)
@@ -197,7 +195,6 @@ def populate_from_metadata(file_name):
             new_doc.save()
 
             # -----------------------Author, Recipient,cced--------------------------
-            print(" ****" + line['author'])
             interpret_person_organization(line['author'], "author_organization", "author_person", new_doc)
             interpret_person_organization(line['recipients'], "recipient_organization",
                                           "recipient_person",
@@ -231,22 +228,28 @@ def pdf_to_image_split(pdf_path, image_directory, folder_name):
     return images_in_pdf
 
 
-def page_image_to_doc(folder_name, images_in_pdf):
+def page_image_to_doc(folder_name, pdf_path, image_directory):
+    images_in_pdf = pdf_to_image_split(pdf_path, image_directory, folder_name)
     folder = Folder.objects.get(name=folder_name)
     documents_unsort = folder.document_set.all()
     documents_sort = sorted(documents_unsort, key=lambda x: x.first_page)
     document_place = 0
+    page_num = 1
 
     for page in images_in_pdf:
         if documents_sort[document_place].first_page <= page[1] <= documents_sort[\
                 document_place].last_page:
-            page_obj = Page(document=documents_sort[document_place], page_number=page[1],
+            # this means that this is the same document as last page
+            page_num += 1
+            page_obj = Page(document=documents_sort[document_place], page_number=page_num,
                             image_path=page[0])
             page_obj.save()
         elif documents_sort[document_place+1].first_page <= page[1] <= documents_sort[\
                 document_place+1].last_page:
+            # this means this is a new document
             document_place += 1
-            page_obj = Page(document=documents_sort[document_place], page_number=page[1],
+            page_num = 1
+            page_obj = Page(document=documents_sort[document_place], page_number=page_num,
                             image_path=page[0])
             page_obj.save()
         else:
