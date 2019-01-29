@@ -33,6 +33,16 @@
     {% else %}
         <h1> No Folders match your search</h1>
     {% endif %}
+    {% if organization_objs %}
+        <h1>Organizations that match your search</h1>
+        {% for item in organization_objs %}
+            <a href="/dj_comp_hist/organization/{{ item.pk }}">{{ item.name }}</a>
+            <br>
+        {% endfor %}
+    {% else %}
+        <h1> No organization match your search</h1>
+    {% endif %}
+
 
 {% endblock %}
 
