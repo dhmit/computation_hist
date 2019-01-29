@@ -20,7 +20,7 @@
   <tbody>
   {% for item in folder_objs %}
     <tr>
-      <th scope="row">{{ forloop.counter }} </th>
+      <th scope="row">{{ loop.index }} </th>
       <td>{{item.full}}</td>
         <td><a href = "/dj_comp_hist/folder/{{item.pk}}">Link</a></td>
     </tr>

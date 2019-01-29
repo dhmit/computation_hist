@@ -3,15 +3,18 @@
 {% block title %} Person {% endblock %}
 
 {% block self %}
+    <h1>You're looking at every {{ model_str }}</h1>
 {% endblock %}
 
 {% block table %}
-<h1>You're looking at every {{model_str}}</h1>
-{% for item in model_objs %}
-<a href = "/dj_comp_hist/{{model_str}}/{{item.pk}}">{{item}}</a>
-<br>
-{% endfor %}
-{% endblock %}
+    <br>
+    {% for item in model_objs %}
+        <div class="list-group">
+            <a href="/dj_comp_hist/{{ model_str }}/{{ item.pk }}"
+               class="list-group-item list-group-item-action">
+                {{ item }}
+            </a>
+        </div>
+    {% endfor %}
 
-</body>
-</html>
+{% endblock %}
