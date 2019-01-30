@@ -10,10 +10,10 @@
 
 {% block table %}
 
-    {% if len(author_person_objs) != 0 or len(author_organization_objs) != 0 %}
+    {% if author_person_objs or author_organization_objs %}
         <h3>{{ doc_obj }} was written by</h3>
         <br>
-        {% if len(author_person_objs) != 0 %}
+        {% if author_person_objs %}
             <table class="table">
                 <thead class="thead-dark">
                 <tr>
@@ -34,7 +34,7 @@
             </table>
         {% endif %}
         <br>
-        {% if len(author_organization_objs) != 0 %}
+        {% if author_organization_objs %}
             <table class="table">
                 <thead class="thead-dark">
                 <tr>
@@ -57,10 +57,10 @@
         <br>
     {% endif %}
 
-    {% if len(recipient_person_objs) != 0 or len(recipient_organization_objs) != 0 %}
+    {% if recipient_person_objs or  recipient_organization_objs%}
         <h3>{{ doc_obj }} was received by</h3>
         <br>
-        {% if len(recipient_person_objs) != 0 %}
+        {% if recipient_person_objs %}
             <table class="table">
                 <thead class="thead-dark">
                 <tr>
@@ -81,7 +81,7 @@
             </table>
         {% endif %}
         <br>
-        {% if len(recipient_organization_objs) != 0 %}
+        {% if recipient_organization_objs %}
             <table class="table">
                 <thead class="thead-dark">
                 <tr>
@@ -104,10 +104,10 @@
         <br>
     {% endif %}
 
-    {% if len(cced_person_objs) != 0 or len(cced_organization_objs) != 0 %}
+    {% if cced_person_objs or cced_organization_objs != 0 %}
         <h3>{{ doc_obj }} was cced to</h3>
         <br>
-        {% if len(cced_person_objs) != 0 %}
+        {% if cced_person_objs %}
             <table class="table">
                 <thead class="thead-dark">
                 <tr>
@@ -128,7 +128,7 @@
             </table>
         {% endif %}
         <br>
-        {% if len(cced_organization_objs) != 0 %}
+        {% if cced_organization_objs %}
             <table class="table">
                 <thead class="thead-dark">
                 <tr>
