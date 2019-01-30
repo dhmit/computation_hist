@@ -1,4 +1,5 @@
 from django.db import models
+from django.db.models.signals import post_save
 from django.db.models.signals import  post_save
 from pdf2image import convert_from_path
 import csv
@@ -64,6 +65,7 @@ class Person(models.Model):
     @property
     def fullname(self):
         return self.first + "_" + self.last
+
 
 
 class Folder(models.Model):
@@ -201,6 +203,69 @@ def populate_from_metadata(file_name):
                                           new_doc)
             interpret_person_organization(line['cced'], "cced_organization", "cced_person",
                                           new_doc)
+
+
+            # -----------------------Author--------------------------------------------
+
+            #Creates list of authors
+            auth_split = line['author'].split('; ')
+            #Checks if it is an organization
+            if len(auth_split) == 1 and len(auth_split[0].split(', ')) == 1:
+                org_exist,new_org = check_generate(Organization, "name", auth_split[0])
+                if not org_exist:
+                    new_org.save()
+                new_org.save()
+                new_doc.author_organization.add(Organization.objects.get(name=auth_split[0]))
+            else:
+                for auth in range(len(auth_split)):
+                    auth_current = auth_split[auth].split(', ')
+                    auth_exist,new_auth = check_generate(Person, "last", auth_current[0])
+                    #TODO change check_generate to have more than one key for people with the
+                    #same last name
+                    if not auth_exist:
+                        new_auth.first = auth_current[1]
+                        new_auth.save()
+                    new_doc.author_person.add(new_auth)
+                    # same last name
+                    if not auth_exist:
+                        new_auth.first = auth_current[1]
+                    new_auth.save()
+                    new_doc.author_person.add(Person.objects.get(last=auth_current[0]))
+
+
+            # -----------------------Recipient----------------------------------------
+
+            recp_split = line['recipients'].split('; ')
+            for recp in range(len(recp_split)):
+                recp_current = recp_split[recp].split(', ')
+                if '/' in recp_current[0]:
+                    #TODO make if statement more specific to find organizations
+                    recp_exist,new_recp = check_generate(Organization, "name", recp)
+                    new_recp.save()
+                    new_doc.recipient_organization.add(Organization.objects.get(name=recp))
+                else:
+                    recp_exist,new_recp = check_generate(Person, "last", recp_current[0])
+                    if not recp_exist:
+                        new_recp.first = recp_current[1]
+                    new_recp.save()
+                    new_doc.recipient_person.add(Person.objects.get(last=recp_current[0]))
+
+            #-------------------------cced-------------------------------------------
+
+            cced_split = line['cced'].split('; ')
+            for cced in range(len(cced_split)):
+                cced_current = cced_split[cced].split(', ')
+                if '/' in cced_current[0]:
+                    #TODO make if statement more specific to find organizations
+                    cced_exist,new_cced = check_generate(Organization, "name", cced)
+                    new_cced.save()
+                    new_doc.recipient_organization.add(Organization.objects.get(name=cced))
+                else:
+                    cced_exist,new_cced = check_generate(Person, "last", cced_current[0])
+                    if not cced_exist:
+                        new_cced.first = cced_current[1]
+                    new_cced.save()
+                    new_doc.recipient_person.add(Person.objects.get(last=cced_current[0]))
 
             new_doc.save()
 
