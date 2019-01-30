@@ -305,10 +305,10 @@ def page_image_to_doc(folder_name, pdf_path, image_directory):
         if documents_sort[document_place].first_page <= page[1] <= documents_sort[\
                 document_place].last_page:
             # this means that this is the same document as last page
-            page_num += 1
             page_obj = Page(document=documents_sort[document_place], page_number=page_num,
                             image_path=page[0])
             page_obj.save()
+            page_num += 1
         elif documents_sort[document_place+1].first_page <= page[1] <= documents_sort[\
                 document_place+1].last_page:
             # this means this is a new document
@@ -317,7 +317,8 @@ def page_image_to_doc(folder_name, pdf_path, image_directory):
             page_obj = Page(document=documents_sort[document_place], page_number=page_num,
                             image_path=page[0])
             page_obj.save()
+            page_num += 1
         else:
             # This means that the page isn't associated with a document
-            continue
+            pass
     return
