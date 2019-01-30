@@ -3,13 +3,80 @@
 {% block title %}Organization{% endblock %}
 
 {% block self %}
-<h1>You're looking at organization: {{org_obj.name}}</h1>
+    <h1>
+        You're looking at {{org_obj}}
+    </h1>
 {% endblock %}
 
 {% block table %}
 
-{% for item in document_objs %}
-<p>The name of this document is <a href = "/dj_comp_hist/doc/{{item.pk}}">{{item}}</a></p>
-{% endfor %}
+    {% if document_written_objs %}
+        <h3>{{ org_obj }} wrote some files</h3>
+        <br>
+        <table class="table">
+            <thead class="thead-dark">
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Document Name</th>
+                <th scope="col">Link</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for item in document_written_objs %}
+                <tr>
+                    <th scope="row">{{ loop.index }} </th>
+                    <td>{{ item }}</td>
+                    <td><a href="/dj_comp_hist/doc/{{ item.pk }}">Link</a></td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    {% endif %}
+
+    {% if document_received_objs %}
+        <h3>{{ org_obj }} received some files</h3>
+        <br>
+        <table class="table">
+            <thead class="thead-dark">
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Document Name</th>
+                <th scope="col">Link</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for item in document_received_objs %}
+                <tr>
+                    <th scope="row">{{ item.id }} </th>
+                    <td>{{ item }}</td>
+                    <td><a href="/dj_comp_hist/doc/{{ item.pk }}">Link</a></td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    {% endif %}
+
+    {% if document_cced_objs %}
+        <h3>{{ org_obj }} was cced on some files</h3>
+        <br>
+        <table class="table">
+            <thead class="thead-dark">
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Document Name</th>
+                <th scope="col">Link</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for item in document_cced_objs %}
+                <tr>
+                    <th scope="row">{{ item.id }} </th>
+                    <td>{{ item }}</td>
+                    <td><a href="/dj_comp_hist/doc/{{ item.pk }}">Link</a></td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    {% endif %}
 
 {% endblock %}
