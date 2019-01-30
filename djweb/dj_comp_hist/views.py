@@ -1,5 +1,5 @@
 from django.shortcuts import render, get_object_or_404, get_list_or_404
-from .models import Person, Document, Box, Folder, Organization
+from .models import Person, Document, Box, Folder, Organization, Page
 from django.template import loader,Context
 from django.db.models import Q
 
@@ -30,12 +30,14 @@ def doc(request, doc_id):
     recipient_organization_objs = doc_obj.recipient_organization.all()
     cced_person_objs = doc_obj.cced_person.all()
     cced_organization_objs = doc_obj.cced_organization.all()
+    page_objs = doc_obj.page_set.all()
     return render(request, 'doc.jinja2', {'doc_obj': doc_obj, 'author_person_objs':
         author_person_objs, 'author_organization_objs': author_organization_objs,
                                         'recipient_person_objs': recipient_person_objs,
                                         'recipient_orgaization_objs':
                                             recipient_organization_objs, 'cced_person_objs':
-                                            cced_person_objs, 'cced_organization_objs': cced_organization_objs})
+                                            cced_person_objs, 'cced_organization_objs':
+                                              cced_organization_objs, 'page_objs': page_objs})
 
 def box(request, box_id):
     box_obj = get_object_or_404(Box, pk=box_id)
@@ -58,6 +60,13 @@ def organization(request, org_id):
         document_objs})
     return response
 
+
+def page(request, page_id):
+    page_obj = get_object_or_404(Page, pk=page_id)
+    image_obj = page_obj.image_path
+    document_obj = page_obj.document
+    response = render(request, 'page.jinja2', {'page_obj': page_obj, 'image_obj': image_obj, 'document_obj':document_obj})
+    return response
 
 def list(request, model_str):
     if model_str == "organization":
@@ -104,3 +113,5 @@ def search_results(request):
                                                          'folder_objs': folder_objs,
                                                          'organization_objs': organization_objs})
     return response
+
+

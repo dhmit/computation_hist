@@ -151,4 +151,24 @@
         <br>
     {% endif %}
 
+    {% if page_objs %}
+        <h3>{{ doc_obj }} has {{ len(page_objs) }} pages</h3>
+        <table class="table"
+               <thread class="thead-dark">
+               <th>
+                   <th scope="col">Page number</th>
+                   <th scope="col">Link</th>
+               </tr>
+               </thread>
+                <tbody>
+                {% for page in page_objs %}
+                    <tr>
+                        <th scope="row">{{ page.page_number }}</th>
+                        <td><a href="/dj_comp_hist/page/{{ page.pk }}">Link</a> </td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+        </table>
+    {% endif %}
+
 {% endblock %}
