@@ -73,6 +73,13 @@ def list(request, model_str):
 
 
 def search_results(request):
+    """
+    Searches database to check whether user input is contained within person's first/last name,
+    document title, folder full name, organization name or location.
+
+    :param request:
+    :return:
+    """
     #key
 
     user_input = request.GET['q']
