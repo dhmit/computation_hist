@@ -1,6 +1,6 @@
 from django.shortcuts import render, get_object_or_404, get_list_or_404
 from .models import Person, Document, Box, Folder, Organization, Page
-from django.template import loader,Context
+from django.template import loader, Context
 from django.db.models import Q
 
 # Create your views here.
@@ -38,6 +38,7 @@ def doc(request, doc_id):
                                             recipient_organization_objs, 'cced_person_objs':
                                             cced_person_objs, 'cced_organization_objs':
                                               cced_organization_objs, 'page_objs': page_objs})
+
 
 def box(request, box_id):
     box_obj = get_object_or_404(Box, pk=box_id)
