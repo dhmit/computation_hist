@@ -10,7 +10,9 @@
 
 {% block table %}
 
-    <img src= {{ page_obj.image_path }}/>
+    {% if page_obj.image_path %}
+    <img src= '{{ page_obj.image_path.url }}' height="600">
+    {% endif %}
     <br>
     Go to <a href="/dj_comp_hist/doc/{{ document_obj.pk }}">{{ document_obj }}</a>
 
