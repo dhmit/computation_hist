@@ -113,7 +113,7 @@ class Document(models.Model):
 class Page(models.Model):
     document = models.ForeignKey(Document, on_delete=models.CASCADE)
     page_number = models.IntegerField(default=0)
-    image_path = models.CharField(max_length=191)
+    image_path = models.ImageField(blank=True)
 
     def __str__(self):
         return "Page " + str(self.page_number) + " of " + str(self.document)
@@ -207,15 +207,6 @@ def populate_from_metadata(file_name):
             new_doc.save()
 
         return
-"""
-@reciever(post_save, sender=Document)
-
-def create_pages(sender, instance, created, **kwargs):
-    for i in range(1, instance.number_of_pages + 1):
-        new_page = Page(document=instance, file_name=line['filename'], page_number=i)
-        new_page.save(
-
-"""
 
 
 def pdf_to_image_split(pdf_path, image_directory, folder_name):
@@ -242,8 +233,8 @@ def page_image_to_doc(folder_name, pdf_path, image_directory):
         if documents_sort[document_place].first_page <= page[1] <= documents_sort[\
                 document_place].last_page:
             # this means that this is the same document as last page
-            page_obj = Page(document=documents_sort[document_place], page_number=page_num,
-                            image_path=page[0])
+            page_obj = Page(document=documents_sort[document_place], page_number=page_num)
+            page_obj.image_path.name = folder_name + '_' + str(page[1]) + '.png'
             page_obj.save()
             page_num += 1
         elif documents_sort[document_place+1].first_page <= page[1] <= documents_sort[\
@@ -251,8 +242,8 @@ def page_image_to_doc(folder_name, pdf_path, image_directory):
             # this means this is a new document
             document_place += 1
             page_num = 1
-            page_obj = Page(document=documents_sort[document_place], page_number=page_num,
-                            image_path=page[0])
+            page_obj = Page(document=documents_sort[document_place], page_number=page_num)
+            page_obj.image_path.name = folder_name + '_' + str(page[1]) + '.png'
             page_obj.save()
             page_num += 1
         else:
