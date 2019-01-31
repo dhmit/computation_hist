@@ -114,7 +114,8 @@ def search_results(request):
     response = render(request, 'search_results.jinja2', {'people_objs': people_objs,
                                                          'document_objs': document_objs,
                                                          'folder_objs': folder_objs,
-                                                         'organization_objs': organization_objs})
+                                                         'organization_objs': organization_objs,
+                                                         'query': user_input})
     return response
 
 
