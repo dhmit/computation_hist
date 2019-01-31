@@ -1,6 +1,6 @@
 {% extends "base.jinja2" %}
 
-{% block title %} Person {% endblock %}
+{% block title %} {{person_obj.first}} {{ person_obj.last }} {% endblock %}
 
 {% block self %}
     <h1>
@@ -37,7 +37,7 @@
         <h3>{{ person_obj.first }} {{ person_obj.last }} received some files</h3>
         <br>
         <table class="table">
-            <thead class="thead-light">
+            <thead class="thead-dark">
             <tr>
                 <th scope="col">#</th>
                 <th scope="col">Document Name</th>

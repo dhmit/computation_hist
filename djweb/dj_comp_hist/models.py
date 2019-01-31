@@ -113,7 +113,7 @@ class Document(models.Model):
 class Page(models.Model):
     document = models.ForeignKey(Document, on_delete=models.CASCADE)
     page_number = models.IntegerField(default=0)
-    image_path = models.CharField(max_length=191)
+    image_path = models.ImageField(blank=True)
 
     def __str__(self):
         return "Page " + str(self.page_number) + " of " + str(self.document)
@@ -204,81 +204,9 @@ def populate_from_metadata(file_name):
             interpret_person_organization(line['cced'], "cced_organization", "cced_person",
                                           new_doc)
 
-
-            # -----------------------Author--------------------------------------------
-
-            #Creates list of authors
-            auth_split = line['author'].split('; ')
-            #Checks if it is an organization
-            if len(auth_split) == 1 and len(auth_split[0].split(', ')) == 1:
-                org_exist,new_org = check_generate(Organization, "name", auth_split[0])
-                if not org_exist:
-                    new_org.save()
-                new_org.save()
-                new_doc.author_organization.add(Organization.objects.get(name=auth_split[0]))
-            else:
-                for auth in range(len(auth_split)):
-                    auth_current = auth_split[auth].split(', ')
-                    auth_exist,new_auth = check_generate(Person, "last", auth_current[0])
-                    #TODO change check_generate to have more than one key for people with the
-                    #same last name
-                    if not auth_exist:
-                        new_auth.first = auth_current[1]
-                        new_auth.save()
-                    new_doc.author_person.add(new_auth)
-                    # same last name
-                    if not auth_exist:
-                        new_auth.first = auth_current[1]
-                    new_auth.save()
-                    new_doc.author_person.add(Person.objects.get(last=auth_current[0]))
-
-
-            # -----------------------Recipient----------------------------------------
-
-            recp_split = line['recipients'].split('; ')
-            for recp in range(len(recp_split)):
-                recp_current = recp_split[recp].split(', ')
-                if '/' in recp_current[0]:
-                    #TODO make if statement more specific to find organizations
-                    recp_exist,new_recp = check_generate(Organization, "name", recp)
-                    new_recp.save()
-                    new_doc.recipient_organization.add(Organization.objects.get(name=recp))
-                else:
-                    recp_exist,new_recp = check_generate(Person, "last", recp_current[0])
-                    if not recp_exist:
-                        new_recp.first = recp_current[1]
-                    new_recp.save()
-                    new_doc.recipient_person.add(Person.objects.get(last=recp_current[0]))
-
-            #-------------------------cced-------------------------------------------
-
-            cced_split = line['cced'].split('; ')
-            for cced in range(len(cced_split)):
-                cced_current = cced_split[cced].split(', ')
-                if '/' in cced_current[0]:
-                    #TODO make if statement more specific to find organizations
-                    cced_exist,new_cced = check_generate(Organization, "name", cced)
-                    new_cced.save()
-                    new_doc.recipient_organization.add(Organization.objects.get(name=cced))
-                else:
-                    cced_exist,new_cced = check_generate(Person, "last", cced_current[0])
-                    if not cced_exist:
-                        new_cced.first = cced_current[1]
-                    new_cced.save()
-                    new_doc.recipient_person.add(Person.objects.get(last=cced_current[0]))
-
             new_doc.save()
 
         return
-"""
-@reciever(post_save, sender=Document)
-
-def create_pages(sender, instance, created, **kwargs):
-    for i in range(1, instance.number_of_pages + 1):
-        new_page = Page(document=instance, file_name=line['filename'], page_number=i)
-        new_page.save(
-
-"""
 
 
 def pdf_to_image_split(pdf_path, image_directory, folder_name):
@@ -305,8 +233,8 @@ def page_image_to_doc(folder_name, pdf_path, image_directory):
         if documents_sort[document_place].first_page <= page[1] <= documents_sort[\
                 document_place].last_page:
             # this means that this is the same document as last page
-            page_obj = Page(document=documents_sort[document_place], page_number=page_num,
-                            image_path=page[0])
+            page_obj = Page(document=documents_sort[document_place], page_number=page_num)
+            page_obj.image_path.name = folder_name + '_' + str(page[1]) + '.png'
             page_obj.save()
             page_num += 1
         elif documents_sort[document_place+1].first_page <= page[1] <= documents_sort[\
@@ -314,8 +242,8 @@ def page_image_to_doc(folder_name, pdf_path, image_directory):
             # this means this is a new document
             document_place += 1
             page_num = 1
-            page_obj = Page(document=documents_sort[document_place], page_number=page_num,
-                            image_path=page[0])
+            page_obj = Page(document=documents_sort[document_place], page_number=page_num)
+            page_obj.image_path.name = folder_name + '_' + str(page[1]) + '.png'
             page_obj.save()
             page_num += 1
         else:

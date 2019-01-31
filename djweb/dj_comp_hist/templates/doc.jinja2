@@ -1,6 +1,6 @@
 {% extends "base.jinja2" %}
 
-{% block title %} Document {% endblock %}
+{% block title %} {{ doc_obj }} {% endblock %}
 
 {% block self %}
 
@@ -48,7 +48,7 @@
                     <tr>
                         <th scope="row">{{ loop.index }} </th>
                         <td>{{ item }}</td>
-                        <td><a href="/dj_comp_hist/person/{{ item.pk }}">Link</a></td>
+                        <td><a href="/dj_comp_hist/organization/{{ item.pk }}">Link</a></td>
                     </tr>
                 {% endfor %}
                 </tbody>
@@ -95,7 +95,7 @@
                     <tr>
                         <th scope="row">{{ loop.index }} </th>
                         <td>{{ item }}</td>
-                        <td><a href="/dj_comp_hist/person/{{ item.pk }}">Link</a></td>
+                        <td><a href="/dj_comp_hist/organization/{{ item.pk }}">Link</a></td>
                     </tr>
                 {% endfor %}
                 </tbody>
@@ -142,7 +142,7 @@
                     <tr>
                         <th scope="row">{{ loop.index }} </th>
                         <td>{{ item }}</td>
-                        <td><a href="/dj_comp_hist/person/{{ item.pk }}">Link</a></td>
+                        <td><a href="/dj_comp_hist/organization/{{ item.pk }}">Link</a></td>
                     </tr>
                 {% endfor %}
                 </tbody>
@@ -152,14 +152,14 @@
     {% endif %}
 
     {% if page_objs %}
-        <h3>{{ doc_obj }} has {{ len(page_objs) }} pages</h3>
-        <table class="table"
-               <thread class="thead-dark">
-               <th>
+        <h3>{{ doc_obj }} has {{ len(page_objs) }} page(s)</h3>
+        <table class="table">
+               <thead class="thead-dark">
+               <tr>
                    <th scope="col">Page number</th>
                    <th scope="col">Link</th>
                </tr>
-               </thread>
+               </thead>
                 <tbody>
                 {% for page in page_objs %}
                     <tr>
