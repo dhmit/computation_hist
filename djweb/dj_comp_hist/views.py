@@ -55,9 +55,12 @@ def folder(request, folder_id):
 
 def organization(request, org_id):
     org_obj = get_object_or_404(Organization, pk=org_id)
-    document_objs = org_obj.author_organization.all()
-    response = render(request, 'organization.jinja2', {'org_obj': org_obj, 'document_objs':
-        document_objs})
+    document_written_objs = org_obj.author_organization.all()
+    document_received_objs = org_obj.recipient_organization.all()
+    document_cced_objs = org_obj.cced_organization.all()
+    response = render(request, 'organization.jinja2', {'org_obj': org_obj, 'document_written_objs':
+        document_written_objs, 'document_received_objs': document_received_objs,
+                                                       'document_cced_objs': document_cced_objs})
     return response
 
 
