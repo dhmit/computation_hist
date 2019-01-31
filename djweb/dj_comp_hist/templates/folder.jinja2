@@ -1,7 +1,7 @@
 
 {% extends "base.jinja2" %}
 
-{% block title %} Folder {% endblock %}
+{% block title %} {{ folder_obj.full }} {% endblock %}
 
 {% block self %}
 <h1>You're looking at folder: {{folder_obj.full}}</h1>

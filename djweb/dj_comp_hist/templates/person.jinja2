@@ -1,6 +1,6 @@
 {% extends "base.jinja2" %}
 
-{% block title %} Person {% endblock %}
+{% block title %} {{person_obj.first}} {{ person_obj.last }} {% endblock %}
 
 {% block self %}
     <h1>
