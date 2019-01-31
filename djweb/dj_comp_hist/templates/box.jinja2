@@ -1,7 +1,7 @@
 
 {% extends "base.jinja2" %}
 
-{% block title %} Box {% endblock %}
+{% block title %} Box {{ box_obj.number }} {% endblock %}
 
 {% block self %}
 <h1>You're looking at box number {{box_obj.number}}</h1>
