@@ -67,9 +67,8 @@ def organization(request, org_id):
 
 def page(request, page_id):
     page_obj = get_object_or_404(Page, pk=page_id)
-    image_obj = page_obj.image_path
     document_obj = page_obj.document
-    response = render(request, 'page.jinja2', {'page_obj': page_obj, 'image_obj': image_obj, 'document_obj':document_obj})
+    response = render(request, 'page.jinja2', {'page_obj': page_obj, 'document_obj':document_obj})
     return response
 
 def list(request, model_str):
