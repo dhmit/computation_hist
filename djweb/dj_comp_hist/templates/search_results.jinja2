@@ -1,9 +1,18 @@
 {% extends "base.jinja2" %}
 
-{% block title %} Searches for: {{ query }} {% endblock %}
+{% block title %}
+    Searches for: {{ query }} {% endblock %}
 
-{% block self %} Searches for: {{ query }} {% endblock %}
-
+{% block self %}
+    <style>
+        a.anchor{
+            top:-70px;
+            display:block;
+            position:relative;
+            visibility:hidden
+        }
+    </style>
+    Searches for: {{ query }} {% endblock %}
 {% block table %}
     {% set searches = False %}
     <a style="margin-right: 5px;" href="#people" class="active">People</a>
@@ -12,7 +21,7 @@
     <a style="margin-right: 5px;" href="#org">Organizations</a>
     {% if people_objs %}
         {% set searches = True %}
-        <h1 id="people"></h1>
+        <a class="anchor" id="people"></a>
         <h3>People that match your search</h3>
         {% for item in people_objs %}
             <a href="/dj_comp_hist/person/{{ item.pk }}">{{ item.last }} {{ item.first }}</a>
@@ -21,8 +30,8 @@
     {% endif %}
     {% if document_objs %}
         {% set searches = True %}
-        <h1 id="doc"></h1>
-        <h3>Documents that match your search</h3>
+        <a class="anchor" id="doc"></a>
+        <h3 id="document_search_anchor">Documents that match your search</h3>
         {% for item in document_objs %}
             <a href="/dj_comp_hist/doc/{{ item.pk }}">{{ item.title }}</a>
             <br>
@@ -30,7 +39,7 @@
     {% endif %}
     {% if folder_objs %}
         {% set searches = True %}
-        <h1 id="folder"></h1>
+        <a class="anchor" id="folder"></a>
         <h3>Folders that match your search</h3>
         {% for item in folder_objs %}
             <a href="/dj_comp_hist/folder/{{ item.pk }}">{{ item.full }}</a>
@@ -39,7 +48,7 @@
     {% endif %}
     {% if organization_objs %}
         {% set searches = True %}
-        <h1 id="org"></h1>
+        <a class="anchor" id="org"></a>
         <h3>Organizations that match your search</h3>
         {% for item in organization_objs %}
             <a href="/dj_comp_hist/organization/{{ item.pk }}">{{ item.name }}</a>
