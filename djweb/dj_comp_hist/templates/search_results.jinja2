@@ -2,12 +2,17 @@
 
 {% block title %} Searches for: {{ query }} {% endblock %}
 
-{% block self %}
-{% endblock %}
+{% block self %} Searches for: {{ query }} {% endblock %}
 
 {% block table %}
-    <h1>Search Results for: {{ query }}</h1>
+    {% set searches = False %}
+    <a style="margin-right: 5px;" href="#people" class="active">People</a>
+    <a style="margin-right: 5px;" href="#doc">Documents</a>
+    <a style="margin-right: 5px;" href="#folder">Folders</a>
+    <a style="margin-right: 5px;" href="#org">Organizations</a>
     {% if people_objs %}
+        {% set searches = True %}
+        <h1 id="people"></h1>
         <h3>People that match your search</h3>
         {% for item in people_objs %}
             <a href="/dj_comp_hist/person/{{ item.pk }}">{{ item.last }} {{ item.first }}</a>
@@ -15,6 +20,8 @@
         {% endfor %}
     {% endif %}
     {% if document_objs %}
+        {% set searches = True %}
+        <h1 id="doc"></h1>
         <h3>Documents that match your search</h3>
         {% for item in document_objs %}
             <a href="/dj_comp_hist/doc/{{ item.pk }}">{{ item.title }}</a>
@@ -22,6 +29,8 @@
         {% endfor %}
     {% endif %}
     {% if folder_objs %}
+        {% set searches = True %}
+        <h1 id="folder"></h1>
         <h3>Folders that match your search</h3>
         {% for item in folder_objs %}
             <a href="/dj_comp_hist/folder/{{ item.pk }}">{{ item.full }}</a>
@@ -29,15 +38,15 @@
         {% endfor %}
     {% endif %}
     {% if organization_objs %}
+        {% set searches = True %}
+        <h1 id="org"></h1>
         <h3>Organizations that match your search</h3>
         {% for item in organization_objs %}
             <a href="/dj_comp_hist/organization/{{ item.pk }}">{{ item.name }}</a>
             <br>
         {% endfor %}
     {% endif %}
-
-
+    {% if not searches %}
+        <h3>No results found</h3>
+    {% endif %}
 {% endblock %}
-
-</body>
-</html>
