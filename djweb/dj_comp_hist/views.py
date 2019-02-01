@@ -72,12 +72,12 @@ def page(request, page_id):
         next_page_number = page_obj.page_number + 1
         next_page = Page.objects.get(document=document_obj, page_number=next_page_number)
     except:
-        next_page = page_obj
+        next_page = None
     try:
         previous_page_number = page_obj.page_number - 1
         previous_page = Page.objects.get(document=document_obj, page_number=previous_page_number)
     except:
-        previous_page = page_obj
+        previous_page = None
     response = render(request, 'page.jinja2', {'page_obj': page_obj, 'document_obj':document_obj,
                                                'next_page': next_page, 'previous_page':
                                                    previous_page})
