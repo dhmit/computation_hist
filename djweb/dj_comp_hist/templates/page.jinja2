@@ -17,14 +17,12 @@
     Go to <a href="/dj_comp_hist/doc/{{ document_obj.pk }}">{{ document_obj }}</a>
     {% if document_obj.number_of_pages > 1%}
         {% if page_obj.page_number > 1 %}
-            {% set last_page_pk = page_obj.pk - 1 %}
             <br>
-            <a href="/dj_comp_hist/page/{{ last_page_pk }}">Previous Page</a>
+            <a href="/dj_comp_hist/page/{{ previous_page.pk }}">Previous Page</a>
         {% endif %}
         {%  if page_obj.page_number < document_obj.number_of_pages%}
-            {% set next_page_pk = page_obj.pk + 1 %}
             <br>
-            <a href="/dj_comp_hist/page/{{ next_page_pk }}">Next Page</a>
+            <a href="/dj_comp_hist/page/{{ next_page.pk }}">Next Page</a>
         {% endif %}
     {% endif %}
 
