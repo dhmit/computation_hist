@@ -127,6 +127,7 @@ class Text(models.Model):
 
 
 def check_generate(model, key, value):
+    # Checks if a certain object in a model exists and then generates it if it does not.
     if model.objects.filter(**{key: value}):
         existed = True
         new_item = model.objects.get(**{key: value})
@@ -136,7 +137,10 @@ def check_generate(model, key, value):
         existed = False
     return existed, new_item
 
+
 def check_person_known(person):
+    # This function checks whether this person or organization has unknown apart of their name in
+    # the metadata and the attributes that name to an empty string.
     if person.first == "unknown":
         person.first = ""
     if person.last == "unknown":
@@ -145,9 +149,9 @@ def check_person_known(person):
 
 
 def interpret_person_organization(field, item_organization, item_person, new_doc):
-    #Creates list of authors
+    # Adds people and organizations as an author, recipient, or cced. Utilizes check_generata to
+    # make the process easier.
     field_split = field.split('; ')
-    #Checks if it is an organization
 
     for person_or_organization in field_split:
         if len(person_or_organization.split(', ')) == 1:
@@ -169,6 +173,13 @@ def interpret_person_organization(field, item_organization, item_person, new_doc
 
 
 def populate_from_metadata(file_name):
+    # This function takes the location of the csv metadata file (for example:
+    # C:\Documents\metadata.csv) and makes objects according to the models above.
+    # TODO create test cases
+    # populate_from_metadata(r"C:\Documents\metadata.csv") would return nothing, but the database
+    # would be populated with the metadata.
+    # The 'r' in front of the file location isn't necessary but can help to prevent strange errors.
+    # Utilizes interpret_organization_person to add authors, recipients, and cced.
     with open(file_name) as file:
         csv_file = csv.DictReader(file)
         for line in csv_file:
@@ -210,6 +221,10 @@ def populate_from_metadata(file_name):
 
 
 def pdf_to_image_split(pdf_path, image_directory, folder_name):
+    # Splits a each page of a pdf into an image.
+    # pdf_path is the location of pdf (C:\Documents\rockefeller.pdf)
+    # image_directory is the location of image folder (C:\Documents\png_pages\)
+    # folder_name is the names of the object of the folder(rockefeller)
     pages = convert_from_path(pdf_path)
     images_in_pdf = []
 
@@ -222,6 +237,15 @@ def pdf_to_image_split(pdf_path, image_directory, folder_name):
 
 
 def page_image_to_doc(folder_name, pdf_path, image_directory):
+    # Utilizes pdf_to_image_split in order to create images of Pages from a pdf, create Page
+    # objects, and assign those page objects to Document.
+    # Splits a each page of a pdf into an image.
+    # pdf_path is the location of pdf (C:\Documents\rockefeller.pdf)
+    # image_directory is the location of image folder (C:\Documents\png_pages\)
+    # folder_name is the names of the object of the folder(rockefeller)
+    # Example: page_image_to_doc('rockefeller', 'C:\Documents\1_08_raw_rockefeller.pdf',
+    # 'C:\Documents\png_pages\') returns images of Pages in png_pages directory and Page objects
+    # of each page.
     images_in_pdf = pdf_to_image_split(pdf_path, image_directory, folder_name)
     folder = Folder.objects.get(name=folder_name)
     documents_unsort = folder.document_set.all()

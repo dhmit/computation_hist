@@ -162,4 +162,4 @@ STATIC_URL = '/static/'
 
 MEDIA_URL = '/media/'
 
-MEDIA_ROOT = os.path.join(BASE_DIR, 'png_pages')
+MEDIA_ROOT = BASE_DIR + '/dj_comp_hist/png_pages/'
