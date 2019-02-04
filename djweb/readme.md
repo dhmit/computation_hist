@@ -30,6 +30,6 @@ python ./manage.py createsuperuser
 python ./manage.py runserver
 ```
 
-Now, you can access either the website itself at [http://127.0.0.1:8000/dj_comp_hist/]().
+Now, you can access either the website itself at [http://127.0.0.1:8000/dj_comp_hist/](http://127.0.0.1:8000/dj_comp_hist/).
 
-Or you can go into the admin interface at [http://127.0.0.1:8000/admin/]().
+Or you can go into the admin interface at [http://127.0.0.1:8000/admin/](http://127.0.0.1:8000/admin/).
