@@ -1,4 +1,4 @@
-# Setting up a new Developer environment within MIT DH Lab
+### Setting up a new Developer environment within MIT DH Lab
 
 1. Get Python (python.org) -- 
 you will need Python 3.6 or 3.7
@@ -26,6 +26,17 @@ email
     - Setup virtual environment
     - Install requirements (click on install requirements button)
     
-Continuing Members
+### Continuing Members
 
-1. 
+We're moving from a model where everyone has a fork of the main 
+repository to one where we work with different branches on the main
+repository. (The following instructions are weird)
+
+1. Post a hello in the general slack channel including your 
+github user name
+
+1. Delete the folder that contains your computation_hist repository
+
+1. Github Desktop will ask you if you want to clone or remove the repo. Select remove.
+
+1. Add the dhmit/computation_hist repo on Github Desktop
