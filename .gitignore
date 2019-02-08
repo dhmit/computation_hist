@@ -139,3 +139,5 @@ gender_novels/corpora/gutenberg/texts
 *~*
 .idea/misc.xml
 .idea/computation_hist.iml
+
+computation_hist/scratch.py
