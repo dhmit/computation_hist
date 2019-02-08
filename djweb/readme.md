@@ -9,11 +9,6 @@ on the bottom left side.
 You know you're in the right directory if running `ls` returns (among others) `requirements.txt` and 
 `setup.py`.
 
-Then run:
-```
-pip install -r requirements.txt
-```
-
 #### Move to django directory and apply migrations
 ```
 cd djweb
