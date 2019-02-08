@@ -21,8 +21,13 @@ python manage.py createsuperuser
 ```
 
 #### Populate Database With Metadata
+
+Open up a django shell
 ```
 python manage.py shell
+```
+In the django shell, run the following commands.
+```
 from dj_comp_hist.models import populate_from_metadata
 populate_from_metadata()
 ```
