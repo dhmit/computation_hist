@@ -24,7 +24,6 @@ class Organization(models.Model):
             return f"<Organization without a name>"
 
 
-
 class Box(models.Model):
     number = models.IntegerField(default=0)
 
@@ -172,14 +171,23 @@ def interpret_person_organization(field, item_organization, item_person, new_doc
             bound_attr.add(new_item)
 
 
-def populate_from_metadata(file_name):
-    # This function takes the location of the csv metadata file (for example:
-    # C:\Documents\metadata.csv) and makes objects according to the models above.
-    # TODO create test cases
-    # populate_from_metadata(r"C:\Documents\metadata.csv") would return nothing, but the database
-    # would be populated with the metadata.
-    # The 'r' in front of the file location isn't necessary but can help to prevent strange errors.
-    # Utilizes interpret_organization_person to add authors, recipients, and cced.
+def populate_from_metadata(file_name='metadata.csv'):
+    '''
+    :param file_name: is a path to a csv file (relative or actual)
+    :return: populates the django database, but returns nothing
+
+    how to run:
+    open up terminal (with virtual environment):
+    > py manage.py shell
+
+    in shell:
+    > from dj_comp_hist import models
+    > from models import populate_from_metadata
+    > populate_from_metadata('metadata.csv')
+
+    The 'r' in front of the file location isn't necessary but can help to prevent strange errors.
+    Utilizes interpret_organization_person to add authors, recipients, and cced.
+    '''
     with open(file_name) as file:
         csv_file = csv.DictReader(file)
         for line in csv_file:
