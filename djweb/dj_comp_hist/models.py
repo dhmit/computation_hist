@@ -3,6 +3,8 @@ from django.db.models.signals import post_save
 from django.db.models.signals import  post_save
 from pdf2image import convert_from_path
 import csv
+import os
+from pathlib import Path
 
 # Create your models here.
 
@@ -171,23 +173,27 @@ def interpret_person_organization(field, item_organization, item_person, new_doc
             bound_attr.add(new_item)
 
 
-def populate_from_metadata(file_name='metadata.csv'):
+def populate_from_metadata(file_name=None):
     '''
     :param file_name: is a path to a csv file (relative or actual)
     :return: populates the django database, but returns nothing
 
     how to run:
     open up terminal (with virtual environment):
-    > py manage.py shell
+    > cd djweb
+    > python manage.py shell
 
     in shell:
-    > from dj_comp_hist import models
-    > from models import populate_from_metadata
-    > populate_from_metadata('metadata.csv')
+    > from dj_comp_hist.models import populate_from_metadata
+    > populate_from_metadata('./dj_comp_hist/metadata.csv')
 
     The 'r' in front of the file location isn't necessary but can help to prevent strange errors.
     Utilizes interpret_organization_person to add authors, recipients, and cced.
     '''
+
+    if file_name is None:
+        file_name = Path(os.path.abspath(os.path.dirname(__file__)), 'metadata.csv')
+
     with open(file_name) as file:
         csv_file = csv.DictReader(file)
         for line in csv_file:
