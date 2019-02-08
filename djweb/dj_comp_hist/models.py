@@ -178,12 +178,12 @@ def populate_from_metadata(file_name='metadata.csv'):
 
     how to run:
     open up terminal (with virtual environment):
-    > py manage.py shell
+    > cd djweb
+    > python manage.py shell
 
     in shell:
-    > from dj_comp_hist import models
-    > from models import populate_from_metadata
-    > populate_from_metadata('metadata.csv')
+    > from dj_comp_hist.models import populate_from_metadata
+    > populate_from_metadata('./dj_comp_hist/metadata.csv')
 
     The 'r' in front of the file location isn't necessary but can help to prevent strange errors.
     Utilizes interpret_organization_person to add authors, recipients, and cced.
