@@ -35,7 +35,6 @@ def create_sub_folders(path_to_boxes=path_to_boxes, foldername_short='rockefelle
     :return:
     """
 
-
     box = str(Folder.objects.get(name=foldername_short).box) # note this is a string
 
     # Note: you don't need to use joinpath. You can just join the parts of a path together like
@@ -46,14 +45,14 @@ def create_sub_folders(path_to_boxes=path_to_boxes, foldername_short='rockefelle
     # where necessary.
     root.mkdir(parents=True, exist_ok=True)
     path_folder_pdf = Path(root, foldername_short)
-    path_folder_pdf.mkdir(parents=True, exist_ok=True)
+    path_folder_pdf.mkdir(exist_ok=True)
     associated_documents = Folder.objects.get(name=foldername_short).document_set.all()
     split_folder_to_doc(path_folder_pdf, associated_documents, foldername_short)
 
     for doc in Folder.objects.get(name=foldername_short).document_set.all():
-        Path(root, "doc_" + str(doc.id)).mkdir()
+        Path(root, "doc_" + str(doc.id)).mkdir(exist_ok=True)
         for i in range(1,doc.number_of_pages+1):
-            Path(root, "doc_" + str(doc.id), "page_"+str(i)).mkdir()
+            Path(root, "doc_" + str(doc.id), "page_"+str(i)).mkdir(exist_ok=True)
 
 
 def split_doc_to_page(pdf_path, folder_name):
