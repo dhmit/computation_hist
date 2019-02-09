@@ -26,6 +26,77 @@ code_line = 0;
 permanent_halt = false;
 
 /**
+ * A class representing a fixed-width word in the IBM 704.
+ */
+class Word {
+    /**
+     * Constructor that sets the length and contents of the word.
+     *
+     * @param           contents    The contents of the word.
+     * @param {number}  length      The length of the word in bits.
+     */
+    constructor(contents, length) {
+        this.length = length;
+        this.update_contents(contents);
+    }
+
+    /**
+     * Adds zeroes to the beginning of a string until it reaches the length of this word's instance.
+     *
+     * @param   {string}  binary_rep   String of 1's and 0's.
+     * @returns {string}               String binary_rep with leading zeroes to be of length
+     * this.length.
+     */
+    pad_zeroes(binary_rep) {
+        for (let i = 0; i < this.length - binary_rep.length; i++) {
+            binary_rep = "0" + binary_rep;
+        }
+        return binary_rep;
+    }
+
+    /**
+     * Function that sets the contents of the word.
+     *
+     * @param           contents    The contents that the word should be set to.
+     */
+    update_contents(contents) {
+        if (typeof contents === "number") {
+            contents = convert_to_binary(contents, length);
+        }
+        if (typeof contents === "string") {
+            if (contents.length > length) {
+                throw "Word has more than " + length + " bits!";
+            }
+            if (isNaN(parseInt(contents, 2))) {
+                throw "String contains characters aside from 1 and 0!";
+            }
+            this.contents = this.pad_zeroes(contents);
+        } else {
+            throw "Contents must be of type number or string!";
+        }
+    }
+
+    /**
+     * Returns string representation of word.
+     *
+     * @returns {string}   String representing contents of word.
+     */
+    toString() {
+        return this.contents.slice(0);
+    }
+
+    /**
+     * Returns numerical value corresponding to the contents of the word interpreted as a
+     * literal binary number.
+     *
+     * @returns {number}   Literal numerical value of contents of word.
+     */
+    valueOf() {
+        return parseInt(this.contents, 2);
+    }
+}
+
+/**
  * Returns the address that an instruction is directed at.
  *
  * @param   {number}    word    Numerical value of instruction to extract address from.
