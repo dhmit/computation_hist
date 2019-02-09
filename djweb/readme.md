@@ -12,13 +12,28 @@ You know you're in the right directory if running `ls` returns (among others) `r
 #### Move to django directory and apply migrations
 ```
 cd djweb
-python ./manage.py migrate
+python manage.py migrate
 ```
 
 #### Create a super user to access the admin interface
 ```
-python ./manage.py createsuperuser
+python manage.py createsuperuser
 ```
+
+#### Populate Database With Metadata
+
+Open up a django shell
+```
+python manage.py shell
+```
+In the django shell, run the following commands.
+```
+from dj_comp_hist.models import populate_from_metadata
+populate_from_metadata()
+```
+Unless you are populating from a metadata that is different from metadata.csv, do not pass in a 
+parameter (the function will assume the path to metadata.csv as default)
+
 
 #### Run the development server
 ```
@@ -28,24 +43,3 @@ python ./manage.py runserver
 Now, you can access either the website itself at [http://127.0.0.1:8000/dj_comp_hist/](http://127.0.0.1:8000/dj_comp_hist/).
 
 Or you can go into the admin interface at [http://127.0.0.1:8000/admin/](http://127.0.0.1:8000/admin/).
-
-###How To Populate Database With Metadata
-If you have not migrated yet, do that first.
-####Begin by running the server.
-```
-python manage.py shell
-```
-####Import a file located in dj_comp_hist.
-```
-from dj_comp_hist import models
-```
-####From the models that we just imported, import the function populate_from_metadata.
-```
-from dj_comp_hist.models import populate_from_metadata
-```
-####Now it's time to use the function!
-Unless you are populating from a metadata that is different from metadata.csv, do not pass in a 
-parameter (the function will assume the path to metadata.csv as default)
-```
-populate_from_metadata()
-```

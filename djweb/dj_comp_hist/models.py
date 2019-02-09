@@ -185,14 +185,14 @@ def populate_from_metadata(file_name=None):
 
     in shell:
     > from dj_comp_hist.models import populate_from_metadata
-    > populate_from_metadata('./dj_comp_hist/metadata.csv')
+    > populate_from_metadata()
 
     The 'r' in front of the file location isn't necessary but can help to prevent strange errors.
     Utilizes interpret_organization_person to add authors, recipients, and cced.
     '''
 
     if file_name is None:
-        file_name = Path(os.path.abspath(os.path.dirname(__file__)), 'metadata.csv')
+        file_name = Path(os.path.abspath(os.path.dirname(__file__)), 'metadata_jan24.csv')
 
     with open(file_name) as file:
         csv_file = csv.DictReader(file)

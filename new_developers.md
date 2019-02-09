@@ -26,6 +26,8 @@ email
     - Setup virtual environment
     - Install requirements (click on install requirements button)
     
+1. [Setup Django](https://github.com/dhmit/computation_hist/tree/master/djweb) 
+   
 ### Continuing Members
 
 We're moving from a model where everyone has a fork of the main 
