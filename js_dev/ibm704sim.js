@@ -5,13 +5,21 @@
 
 const newline_regex = /\r\n|[\n\v\f\r\x85\u2028\u2029]/;
 
-const no_to_operation = {0o601: STO, 0: HTR, 0o500: CLA, 0o400: ADD, 0b110: TNX};
-const operation_to_no = {};
-for (number in no_to_operation) {
-    operation_to_no[(no_to_operation[number]).name] = number;
+const no_to_operation_b = {0o601: STO, 0: HTR, 0o500: CLA, 0o400: ADD};
+const no_to_operation_a = {0b110: TNX};
+const operation_b_to_no = {};
+const operation_a_to_no = {};
+const no_to_operation_a_str = {};
+const no_to_operation_b_str = {};
+for (number in no_to_operation_b) {
+    operation_b_to_no[(no_to_operation_b[number]).name] = number;
+    no_to_operation_b_str[number] = (no_to_operation_b[number]).name;
+
 }
-const no_to_operation_a_str = {0b110: "TNX"};
-const no_to_operation_b_str = {0o601: "STO", 0o000: "HTR", 0o500: "CLA", 0o400: "ADD"};
+for (number in no_to_operation_a) {
+    operation_a_to_no[(no_to_operation_a[number]).name] = number;
+    no_to_operation_a_str[number] = (no_to_operation_a[number]).name;
+}
 
 general_memory = Array(8192).fill(0);
 accumulator = 0;
@@ -57,9 +65,10 @@ class Word {
     }
 
     /**
-     * Function that sets the contents of the word.
+     * Function that sets the contents of the word. Unlike the store functions, no processing of
+     * the bits is done.
      *
-     * @param           contents    The contents that the word should be set to.
+     * @param {string/number} contents    The contents that the word should be set to.
      */
     update_contents(contents) {
         if (typeof contents === "number") {
@@ -187,10 +196,33 @@ class General_Word extends Word {
      *
      * @returns {function}  Function corresponding to the operation contained in instruction.
      */
-    get_operation(word) { //TODO: handle Type A instructions
-        let str_operation = this.contents.substring(0, binary_rep.length-24);
+    get_operation_b() {
+        let str_operation = this.contents.substring(0, this.contents.length-24);
         operation_number = parseInt(str_operation, 2)
-        return no_to_operation[operation_number];
+        return no_to_operation_b[operation_number];
+    }
+
+    /**
+     * Returns the operation of a Type A instruction.
+     *
+     * @returns {function}  Function corresponding to the operation contained in instruction.
+     */
+    get_operation_a() {
+        let prefix_bits = this.contents.substring(0,3);
+        return no_to_operation_a[parseInt(prefix_bits, 2)];
+    }
+
+    /**
+     * Returns the operation of an instruction.
+     *
+     * @returns {function}  Function corresponding to the operation contained in instruction.
+     */
+    get_operation() {
+        if (this.contents[1] === "0" && this.contents[2] === "0") {
+            return this.get_operation_a();
+        } else {
+            return this.get_operation_b();
+        }
     }
 
     /**
@@ -201,10 +233,10 @@ class General_Word extends Word {
      *
      * @returns {string}    SHARE assembly notation for the Type A instruction.
      */
-    binary_to_instruction_a_string() {
+    instruction_a_str() {
         let binary_rep = word.contents;
         let prefix_bits = binary_rep.substring(0,3);
-        prefix = no_to_operation_a_str[parseInt(prefix_bits, 2)];
+        let prefix = no_to_operation_a_str[parseInt(prefix_bits, 2)];
         if (prefix === undefined || prefix === "HTR") {
             throw "Operation not found";
         }
@@ -218,6 +250,133 @@ class General_Word extends Word {
         result += decrement.toString();
         result += ", " + decrement.toString();
         return result;
+    }
+
+    /**
+     * Returns a string that holds the SHARE assembly notation for a Type B instruction of a binary
+     * representation of a number.
+     *
+     * If it fails throws "Operation not found".
+     *
+     * @returns {string}    SHARE assembly notation for the Type B instruction.
+     */
+    instruction_b_str() {
+        let operation_bits = this.contents.substring(0, 12);
+        let operation_number = parseInt(operation_bits, 2);
+        var operation;
+        operation = no_to_operation_b_str[operation_number];
+        if (operation === undefined) {
+            throw "Operation not found";
+        }
+        let result = operation;
+        address_bits = this.contents.substr(-15);
+        result += " " + parseInt(address_bits, 2).toString();
+        tag_bits = this.contents.substring(18,21);
+        if (tag_bits !== "000") {
+            result += ", " + parseInt(tag_bits, 2).toString();
+        }
+        return result;
+    }
+
+    /**
+     * Returns numerical value of word interpreted as fixed point number. Note that the IBM 704
+     * doesn't actually keep track of where the decimal (binary?) point is in memory, leaving
+     * the interpretation of the number to the programmer.  This function assumes the dot to be
+     * at the very left of the number. For more information on how the IBM 704 stores numbers,
+     * check the Markdown in the History Group folder.
+     *
+     * @returns {number}    Numerical value of word interpreted as a fixed-point number.
+     */
+    get fixed_point() { // getter and setter is sort of like a union in C
+        let binary_rep = this.contents;
+        var positive;
+        if (binary_rep.length === 36) {
+            positive = binary_rep[0] === "0";
+            binary_rep = binary_rep.substring(1);
+        } else {
+            positive = true;
+        }
+        result = parseInt(binary_rep, 2);
+        if (!positive) {
+            result = -result;
+        }
+        return result;
+    }
+
+    /**
+     * Converts a string binary representation of an IBM 704 word to a string decimal representation
+     * of that word interpreted as a floating point number.  For more information on how the IBM 704
+     * stores numbers, check the Markdown in the History Group folder.
+     *
+     * @returns {number}    Numerical value representation of word interpreted as floating-point
+     * number.
+     */
+    get floating_point() {
+        let binary_rep = this.contents;
+        let fraction_bits = binary_rep.substring(9,36);
+        let fraction = parseInt(fraction_bits, 2) / Math.pow(2, 27);
+        characteristic_bits = binary_rep.substring(1, 9);
+        characteristic = parseInt(characteristic_bits, 2);
+        let exponent = characteristic - 128;
+        let result = fraction*Math.pow(2,exponent);
+        if (binary_rep[0] === 1) {
+            result = -result;
+        }
+        return result;
+    }
+
+    /**
+     * Stores a fixed point number into the word.
+     *
+     * @param {number} number       Number to be stored.
+     */
+    set fixed_point(number) {
+        var sign_bit = "";
+        if (number < 0) {
+            sign_bit = "1";
+        } else {
+            sign_bit = "0";
+        }
+        unsigned_binary_rep = convert_to_binary(Math.abs(number), 35);
+        binary_rep = sign_bit + unsigned_binary_rep;
+        this.update_contents(binary_rep);
+    }
+
+    /**
+     * Stores a number in floating-point format into the indicated address in general memory.
+     *
+     * @param {number}  number      Number to be stored.
+     */
+    set floating_point(number) {
+        var sign_bit;
+        if (number < 0) {
+            sign_bit = "1";
+        } else {
+            sign_bit = "0";
+        }
+        let binary_rep = sign_bit;
+        number = Math.abs(number);
+        exponent = Math.floor(Math.log2(number)) + 1;
+        characteristic = exponent + 128;
+        binary_rep += convert_to_binary(characteristic, 8);
+        let magnitude = number / Math.pow(2, exponent);
+        magnitude_binary = (magnitude.toString(2)).substring(2,29);
+        length = magnitude_binary.length;
+        for (let i = 0; i < 27 - length; i++) {
+            magnitude_binary = magnitude_binary + "0";
+        }
+        binary_rep += magnitude_binary;
+        this.update_contents(binary_rep);
+    }
+
+    /**
+     * Stores an instruction into general memory as a number.
+     *
+     * @param {string} operation    String name of operation.
+     * @param {number} address      Address that instruction is directed at.
+     */
+    store_operation_b(operation, address) {
+        this.update_contents(Math.pow(2,24)*operation_to_no[operation] + address);
     }
 }
 
@@ -300,17 +459,6 @@ function assemble(code_lines) {
 }
 
 /**
- * Stores an instruction into general memory as a number.
- *
- * @param {string} operation    String name of operation.
- * @param {number} address      Address that instruction is directed at.
- * @param {number} register     Address that instruction should be stored in.
- */
-function assemble_line(operation, address, register) {
-    general_memory[register] = Math.pow(2,24)*operation_to_no[operation] + address;
-}
-
-/**
  * Runs code placed into the textbox of ibm704sim.html with register 10 holding numerical
  * value of 11 and register 11 holding numerical value of 14, and returns value of register 12.
  *
@@ -360,85 +508,6 @@ function convert_to_binary(number, digits) {
     length = result.length;
     for (let i = 0; i < digits - length; i++) {
         result = "0" + result;
-    }
-    return result.toString();
-}
-
-/**
- * Returns a string that holds the SHARE assembly notation for a Type B instruction of a binary
- * representation of a number.
- *
- * If it fails returns "Operation not found".
- *
- * @param {string} binary_rep   The binary representation of a Type B instruction.
- * @returns {string}    SHARE assembly notation for the Type B instruction.
- */
-function binary_to_instruction_b(binary_rep) {
-    original_length = binary_rep.length;
-    for (let i = 0; i < 36 - original_length; i++) {
-        binary_rep = "0" + binary_rep;
-    }
-    operation_bits = binary_rep.substring(0, 12);
-    operation_number = parseInt(operation_bits, 2);
-    var operation;
-    operation = no_to_operation_b_str[operation_number];
-    if (operation == undefined) {
-        return "Operation not found"
-    }
-    result = operation;
-    address_bits = binary_rep.substr(-15);
-    result += " " + parseInt(address_bits, 2).toString();
-    tag_bits = binary_rep.substring(18,21);
-    if (tag_bits != "000") {
-        result += ", " + parseInt(tag_bits, 2).toString();
-    }
-    return result;
-}
-
-/**
- * Converts a string binary representation of an IBM 704 word to a string decimal representation
- * of that word interpreted as a fixed point number.
- *
- *
- * @param {string} binary_rep   The binary representation of an IBM 704 word.
- * @returns {string}    Decimal representation of that word interpreted as a fixed-point number.
- */
-function binary_to_fixed_point(binary_rep) {
-    var positive;
-    if (binary_rep.length == 36) {
-        positive = binary_rep[0] == "0";
-        binary_rep = binary_rep.substring(1);
-    } else {
-        positive = true;
-    }
-    result = parseInt(binary_rep, 2);
-    if (!positive) {
-        result = -result;
-    }
-    return result.toString();
-}
-
-/**
- * Converts a string binary representation of an IBM 704 word to a string decimal representation
- * of that word interpreted as a floating point number.
- *
- *
- * @param {string} binary_rep   The binary representation of an IBM 704 word.
- * @returns {string}    Decimal representation of that word interpreted as a floating-point
- * number.
- */
-function binary_to_floating_point(binary_rep) {
-    for (let i = 0; i < 36 - binary_rep.length; i++) {
-        binary_rep = "0" + binary_rep;
-    }
-    fraction_bits = binary_rep.substring(9,36);
-    fraction = parseInt(fraction_bits, 2) / Math.pow(2, 27);
-    characteristic_bits = binary_rep.substring(1, 9);
-    characteristic = parseInt(characteristic_bits, 2);
-    exponent = characteristic - 128;
-    result = fraction*Math.pow(2,exponent);
-    if (binary_rep[0] == 1) {
-        result = -result;
     }
     return result.toString();
 }
