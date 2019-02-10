@@ -5,7 +5,7 @@
 
 const newline_regex = /\r\n|[\n\v\f\r\x85\u2028\u2029]/;
 
-const no_to_operation = {0o601: STO, 0: HTR, 0o500: CLA, 0o400: ADD};
+const no_to_operation = {0o601: STO, 0: HTR, 0o500: CLA, 0o400: ADD, 0b110: TNX};
 const operation_to_no = {};
 for (number in no_to_operation) {
     operation_to_no[(no_to_operation[number]).name] = number;
@@ -32,8 +32,8 @@ class Word {
     /**
      * Constructor that sets the length and contents of the word.
      *
-     * @param           contents    The contents of the word.
-     * @param {number}  length      The length of the word in bits.
+     * @param {string/number}   contents    The contents of the word.
+     * @param {number}          length      The length of the word in bits.
      */
     constructor(contents, length) {
         this.length = length;
@@ -88,17 +88,22 @@ class Word {
     }
 
     /**
-     * Performs binary addition between two words.  Note that overflowing bits will simply be
-     * discarded.
+     * Performs binary addition between two words. Note that overflowing bits will simply be
+     * discarded. This function is also unsuitable for simply adding fixed-point or
+     * floating-point numbers, as their literal binary values are not the same as their actual
+     * values.
      *
-     * @param   {Word}  word1       First addend.
-     * @param   {Word}  word2       Second addend.
-     * @returns {Word}              Sum.
-     * length.
+     * @param   {Word/string}  word1       First addend.
+     * @param   {Word/string}  word2       Second addend.
+     * @returns {string}                   Sum.
      */
-    static add(word1, word2) {
-        word1 = word1.contents;
-        word2 = word2.contents;
+    static binary_add(word1, word2) {
+        if (typeof word1 === "object") {
+            word1 = word1.contents;
+        }
+        if (typeof word2 === "object") {
+            word2 = word2.contents;
+        }
         var sum = "";
 
         var carry_1 = false;
@@ -152,28 +157,68 @@ class Word {
 }
 
 /**
- * Returns the address that an instruction is directed at.
- *
- * @param   {number}    word    Numerical value of instruction to extract address from.
- * @returns {number} Address that instruction is directed at.
+ * A class representing a word in general memory in the IBM 704, all of which were 36 bits. Note
+ * that the computer has no way of determining whether a word is an instruction or a number, and
+ * making sure that the word is interpreted correctly is the job of the programmer.
  */
-function get_address(word) {
-    binary_rep = word.toString(2);
-    str_address = binary_rep.substr(-15);
-    return parseInt(str_address, 2);
-}
+class General_Word extends Word {
 
-/**
- * Returns the operation of a Type B instruction.
- *
- * @param   {number}    word    Numerical value of instruction to extract operation from.
- * @returns {function} Function corresponding to the operation contained in instruction.
- */
-function get_operation(word) { //TODO: handle Type A instructions
-    binary_rep = word.toString(2);
-    str_operation = binary_rep.substring(0, binary_rep.length-24);
-    operation_number = parseInt(str_operation, 2)
-    return no_to_operation[operation_number];
+    /**
+     * Constructor that sets the length and contents of the word.
+     *
+     * @param {string/number}   contents    The contents of the word.
+     */
+    constructor(contents) {
+        super(contents, 36);
+    }
+
+    /**
+     * Returns the address that this word's instruction is directed at.
+     *
+     * @returns {number}    Address that instruction is directed at.
+     */
+    get_address() {
+        let str_address = this.contents.substr(-15);
+        return parseInt(str_address, 2);
+    }
+
+    /**
+     * Returns the operation of a Type B instruction.
+     *
+     * @returns {function}  Function corresponding to the operation contained in instruction.
+     */
+    get_operation(word) { //TODO: handle Type A instructions
+        let str_operation = this.contents.substring(0, binary_rep.length-24);
+        operation_number = parseInt(str_operation, 2)
+        return no_to_operation[operation_number];
+    }
+
+    /**
+     * Returns a string that holds the SHARE assembly notation for a Type A instruction of a binary
+     * representation of a number.
+     *
+     * If it fails throws "Operation not found".
+     *
+     * @returns {string}    SHARE assembly notation for the Type A instruction.
+     */
+    binary_to_instruction_a_string() {
+        let binary_rep = word.contents;
+        let prefix_bits = binary_rep.substring(0,3);
+        prefix = no_to_operation_a_str[parseInt(prefix_bits, 2)];
+        if (prefix === undefined || prefix === "HTR") {
+            throw "Operation not found";
+        }
+        let result = prefix;
+        let address_bits = binary_rep.substr(-15);
+        result += " " + parseInt(address_bits, 2).toString();
+        tag_bits = binary_rep.substring(18,21);
+        result += ", " + parseInt(tag_bits, 2).toString();
+        decrement_bits = binary_rep.substring(3, 18);
+        decrement = parseInt(decrement_bits, 2);
+        result += decrement.toString();
+        result += ", " + decrement.toString();
+        return result;
+    }
 }
 
 /**
@@ -224,6 +269,14 @@ function CLA(address) {
  */
 function ADD(address) {
     accumulator += storage_register;
+}
+
+/**
+ * A dummy function for testing.
+ *
+ */
+function TNX(a, b, c) {
+    console.log("TNX called");
 }
 
 /**
@@ -312,36 +365,6 @@ function convert_to_binary(number, digits) {
 }
 
 /**
- * Returns a string that holds the SHARE assembly notation for a Type A instruction of a binary
- * representation of a number.
- *
- * If it fails returns "Operation not found".
- *
- * @param {string} binary_rep   The binary representation of a Type A instruction.
- * @returns {string}    SHARE assembly notation for the Type A instruction.
- */
-function binary_to_instruction_a(binary_rep) {
-    for (let i = 0; i < 36 - binary_rep.length; i++) {
-        binary_rep = "0" + binary_rep;
-    }
-    prefix_bits = binary_rep.substring(0,3);
-    prefix = no_to_operation_a_str[parseInt(prefix_bits, 2)];
-    if(prefix == undefined || prefix == "HTR") {
-        return "Operation not found";
-    }
-    result = prefix;
-    address_bits = binary_rep.substr(-15);
-    result += " " + parseInt(address_bits, 2).toString();
-    tag_bits = binary_rep.substring(18,21);
-    result += ", " + parseInt(tag_bits, 2).toString();
-    decrement_bits = binary_rep.substring(3, 18);
-    decrement = parseInt(decrement_bits, 2);
-    result += decrement.toString();
-    result += ", " + decrement.toString();
-    return result;
-}
-
-/**
  * Returns a string that holds the SHARE assembly notation for a Type B instruction of a binary
  * representation of a number.
  *
@@ -351,7 +374,8 @@ function binary_to_instruction_a(binary_rep) {
  * @returns {string}    SHARE assembly notation for the Type B instruction.
  */
 function binary_to_instruction_b(binary_rep) {
-    for (let i = 0; i < 36 - binary_rep.length; i++) {
+    original_length = binary_rep.length;
+    for (let i = 0; i < 36 - original_length; i++) {
         binary_rep = "0" + binary_rep;
     }
     operation_bits = binary_rep.substring(0, 12);
