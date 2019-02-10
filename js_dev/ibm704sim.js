@@ -44,11 +44,13 @@ class Word {
      * Adds zeroes to the beginning of a string until it reaches the length of this word's instance.
      *
      * @param   {string}  binary_rep   String of 1's and 0's.
-     * @returns {string}               String binary_rep with leading zeroes to be of length
-     * this.length.
+     * @param   {number}  length       Desired length of string.
+     * @returns {string}               String binary_rep with leading zeroes to be of desired
+     * length.
      */
-    pad_zeroes(binary_rep) {
-        for (let i = 0; i < this.length - binary_rep.length; i++) {
+    static pad_zeroes(binary_rep, length) {
+        var original_length = binary_rep.length;
+        for (let i = 0; i < length - original_length; i++) {
             binary_rep = "0" + binary_rep;
         }
         return binary_rep;
@@ -61,19 +63,72 @@ class Word {
      */
     update_contents(contents) {
         if (typeof contents === "number") {
-            contents = convert_to_binary(contents, length);
+            contents = convert_to_binary(contents, this.length);
         }
         if (typeof contents === "string") {
-            if (contents.length > length) {
-                throw "Word has more than " + length + " bits!";
-            }
             if (isNaN(parseInt(contents, 2))) {
                 throw "String contains characters aside from 1 and 0!";
+            } else if (contents.length > this.length) {
+                console.log("Word has more than " + this.length + " bits.  Value will be" +
+                    " truncated.");
+                this.contents = contents.slice(-36);
+            } else {
+                this.contents = Word.pad_zeroes(contents, this.length);
             }
-            this.contents = this.pad_zeroes(contents);
         } else {
             throw "Contents must be of type number or string!";
         }
+    }
+
+    /**
+     * Clears contents, replacing all bits with 0.
+     */
+    clear() {
+        this.update_contents(0);
+    }
+
+    /**
+     * Performs binary addition between two words.  Note that overflowing bits will simply be
+     * discarded.
+     *
+     * @param   {Word}  word1       First addend.
+     * @param   {Word}  word2       Second addend.
+     * @returns {Word}              Sum.
+     * length.
+     */
+    static add(word1, word2) {
+        word1 = word1.contents;
+        word2 = word2.contents;
+        var sum = "";
+
+        var carry_1 = false;
+        for (let i = 0; i < Math.min(word1.length, word2.length); i++) {
+            let index_1 = word1.length - 1 - i;
+            let index_2 = word2.length - 1 - i;
+            if (word1[index_1] === word2[index_2]) {
+                if (carry_1) {
+                    sum = "1" + sum;
+                } else {
+                    sum = "0" + sum;
+                }
+                carry_1 = word1[index_1] === "1";
+            } else {
+                if (carry_1) {
+                    sum = "0" + sum;
+                    carry_1 = true;
+                } else {
+                    sum = "1" + sum;
+                    carry_1 = false;
+                }
+            }
+        }
+
+        if (word1.length < word2.length) {
+            sum = word2.slice(word1.length) + sum;
+        } else {
+            sum = word1.slice(word2.length) + sum;
+        }
+        return sum;
     }
 
     /**
