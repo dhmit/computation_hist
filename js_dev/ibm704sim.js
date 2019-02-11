@@ -65,8 +65,8 @@ class Word {
     }
 
     /**
-     * Function that sets the contents of the word. Unlike the store functions, no processing of
-     * the bits is done.
+     * Function that sets the contents of the word. Unlike the getter or setter functions, no
+     * processing of bits is done.
      *
      * @param {string/number} contents    The contents that the word should be set to.
      */
@@ -162,6 +162,92 @@ class Word {
      */
     valueOf() {
         return parseInt(this.contents, 2);
+    }
+}
+
+/**
+ * Class to represent an instruction.  This is basically a struct.
+ */
+class Instruction {
+    /**
+     * Constructor to produce an instruction with given operation, address, and tag.
+     *
+     * @param {function}        operation
+     * @param {number}          address
+     * @param {number/string}   tag
+     */
+    constructor(operation, address, tag) {
+        this.operation = operation;
+        this.address = address;
+        if (typeof tag === "undefined") {
+            this.tag = 0;
+        } else if (typeof tag === "string") {
+            switch(tag) {
+                case "A":
+                    this.tag = 0b001;
+                    break;
+                case "B":
+                    this.tag = 0b010;
+                    break;
+                case "C":
+                    this.tag = 0b100;
+                    break;
+            }
+        } else {
+            this.tag = tag;
+        }
+    }
+}
+
+/**
+ * A class representing a Type B instruction.
+ */
+class Instruction_B extends Instruction {
+    /**
+     * Returns a string representation of the instruction, in form OPERATION address, tag.  Note
+     * that displayed numbers are in decimal.
+     *
+     * @returns {string}    String representation of instruction.
+     */
+    toString() {
+        let address_str = this.address.toString();
+        if (tag) {
+            let tag_str = this.tag.toString();
+            return this.operation.name + " " + address_str + ", " + tag_str;
+        } else {
+            return this.operation.name + " " + address_str;
+        }
+    }
+}
+
+/**
+ * A class representing a Type A instruction.
+ */
+class Instruction_A extends Instruction {
+    /**
+     * Constructor to produce an instruction with given operation, address, and tag.
+     *
+     * @param {function}        operation
+     * @param {number}          address
+     * @param {number/string}   tag
+     * @param {number}          decrement
+     */
+    constructor(operation, address, tag, decrement) {
+        super(operation, address, tag);
+        this.decrement = decrement;
+    }
+
+    /**
+     * Returns a string representation of the instruction, in form OPERATION address, tag,
+     * decrement. Note that displayed numbers are in decimal.
+     *
+     * @returns {string}    String representation of instruction.
+     */
+    toString() {
+        let address_str = this.address.toString();
+        let tag_str = this.tag.toString();
+        let decrement_str = this.decrement.toString();
+        return this.operation.name + " " + address_str + ", " + tag_str + ", " + decrement_str;
     }
 }
 
@@ -370,12 +456,12 @@ class General_Word extends Word {
     }
 
     /**
-     * Stores an instruction into general memory as a number.
+     * Stores a Type B instruction into the word.
      *
      * @param {string} operation    String name of operation.
      * @param {number} address      Address that instruction is directed at.
      */
-    store_operation_b(operation, address) {
+    set instruction_b(operation, address) {
         this.update_contents(Math.pow(2,24)*operation_to_no[operation] + address);
     }
 }
