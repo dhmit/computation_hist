@@ -206,8 +206,6 @@ def populate_from_metadata(file_name=None):
             if line['date'] != '' and line['date'][0] == '1':
                 new_doc.date = line['date']
 
-            # ------------------------------------------------------------------------
-
             # ---------------------Folder---------------------------------------------
             folder_exist,new_folder = check_generate(Folder, "name" ,line['foldername_short'])
             if not folder_exist:
@@ -235,10 +233,12 @@ def populate_from_metadata(file_name=None):
 
 
 def pdf_to_image_split(pdf_path, image_directory, folder_name):
-    # Splits a each page of a pdf into an image.
-    # pdf_path is the location of pdf (C:\Documents\rockefeller.pdf)
-    # image_directory is the location of image folder (C:\Documents\png_pages\)
-    # folder_name is the names of the object of the folder(rockefeller)
+    """
+    Splits a each page of a pdf into an image.
+    pdf_path is the location of pdf (C:\Documents\rockefeller.pdf)
+    image_directory is the location of image folder (C:\Documents\png_pages\)
+    folder_name is the names of the object of the folder(rockefeller)
+    """
     pages = convert_from_path(pdf_path)
     images_in_pdf = []
 
@@ -251,15 +251,17 @@ def pdf_to_image_split(pdf_path, image_directory, folder_name):
 
 
 def page_image_to_doc(folder_name, pdf_path, image_directory):
-    # Utilizes pdf_to_image_split in order to create images of Pages from a pdf, create Page
-    # objects, and assign those page objects to Document.
-    # Splits a each page of a pdf into an image.
-    # pdf_path is the location of pdf (C:\Documents\rockefeller.pdf)
-    # image_directory is the location of image folder (C:\Documents\png_pages\)
-    # folder_name is the names of the object of the folder(rockefeller)
-    # Example: page_image_to_doc('rockefeller', 'C:\Documents\1_08_raw_rockefeller.pdf',
-    # 'C:\Documents\png_pages\') returns images of Pages in png_pages directory and Page objects
-    # of each page.
+    """
+    Utilizes pdf_to_image_split in order to create images of Pages from a pdf, create Page
+    objects, and assign those page objects to Document.
+    Splits a each page of a pdf into an image.
+    pdf_path is the location of pdf (C:\Documents\rockefeller.pdf)
+    image_directory is the location of image folder (C:\Documents\png_pages\)
+    folder_name is the names of the object of the folder(rockefeller)
+    Example: page_image_to_doc('rockefeller', 'C:\Documents\1_08_raw_rockefeller.pdf',
+    'C:\Documents\png_pages\') returns images of Pages in png_pages directory and Page objects
+    of each page.
+    """
     images_in_pdf = pdf_to_image_split(pdf_path, image_directory, folder_name)
     folder = Folder.objects.get(name=folder_name)
     documents_unsort = folder.document_set.all()
