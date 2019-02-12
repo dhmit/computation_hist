@@ -11,12 +11,12 @@ const operation_b_to_no = {};
 const operation_a_to_no = {};
 const no_to_operation_a_str = {};
 const no_to_operation_b_str = {};
-for (number in no_to_operation_b) {
+for (let number in no_to_operation_b) {
     operation_b_to_no[(no_to_operation_b[number]).name] = number;
     no_to_operation_b_str[number] = (no_to_operation_b[number]).name;
 
 }
-for (number in no_to_operation_a) {
+for (let number in no_to_operation_a) {
     operation_a_to_no[(no_to_operation_a[number]).name] = number;
     no_to_operation_a_str[number] = (no_to_operation_a[number]).name;
 }
@@ -40,10 +40,10 @@ class Word {
     /**
      * Constructor that sets the length and contents of the word.
      *
-     * @param {string/number}   contents    The contents of the word.
-     * @param {number}          length      The length of the word in bits.
+     * @param {string/number/Word}   contents    The contents of the word.
+     * @param {number}               length      The length of the word in bits.
      */
-    constructor(contents, length) {
+    constructor(contents = 0, length) {
         this.length = length;
         this.update_contents(contents);
     }
@@ -57,7 +57,7 @@ class Word {
      * length.
      */
     static pad_zeroes(binary_rep, length) {
-        var original_length = binary_rep.length;
+        let original_length = binary_rep.length;
         for (let i = 0; i < length - original_length; i++) {
             binary_rep = "0" + binary_rep;
         }
@@ -65,12 +65,15 @@ class Word {
     }
 
     /**
-     * Function that sets the contents of the word. Unlike the getter or setter functions, no
-     * processing of bits is done.
+     * Function that sets the contents of the word. If binary representation is larger than can
+     * be held in the word, bits will be truncated starting from the left.
      *
-     * @param {string/number} contents    The contents that the word should be set to.
+     * @param {string/number/Word} contents    The contents that the word should be set to.
      */
     update_contents(contents) {
+        if (typeof contents === "object") {
+            contents = contents.contents;
+        }
         if (typeof contents === "number") {
             contents = convert_to_binary(contents, this.length);
         }
@@ -80,7 +83,7 @@ class Word {
             } else if (contents.length > this.length) {
                 console.log("Word has more than " + this.length + " bits.  Value will be" +
                     " truncated.");
-                this.contents = contents.slice(-36);
+                this.contents = contents.slice(this.length);
             } else {
                 this.contents = Word.pad_zeroes(contents, this.length);
             }
@@ -97,10 +100,10 @@ class Word {
     }
 
     /**
-     * Performs binary addition between two words. Note that overflowing bits will simply be
-     * discarded. This function is also unsuitable for simply adding fixed-point or
-     * floating-point numbers, as their literal binary values are not the same as their actual
-     * values.
+     * Performs binary addition between two words. The resulting string has the length of the
+     * longer word.  Note that overflowing bits will simply be discarded. This function is also
+     * unsuitable for simply adding fixed-point or floating-point numbers, as their literal
+     * binary values are not the same as their actual values.
      *
      * @param   {Word/string}  word1       First addend.
      * @param   {Word/string}  word2       Second addend.
@@ -146,6 +149,67 @@ class Word {
     }
 
     /**
+     * Performs a bitwise AND operation between two words. The resulting string has the length
+     * of the longer word.
+     *
+     * @param   {Word/string}  word1       First word.
+     * @param   {Word/string}  word2       Second word.
+     * @returns {string}                   Result of bitwise AND.
+     */
+    static binary_and(word1, word2) {
+        if (typeof word1 === "object") {
+            word1 = word1.contents;
+        }
+        if (typeof word2 === "object") {
+            word2 = word2.contents;
+        }
+        let result = "";
+        for (let i = 0; i < Math.min(word1.length, word2.length); i++) {
+            let index_1 = word1.length - 1 - i;
+            let index_2 = word2.length - 1 - i;
+            if (word1[index_1] === "1" && word2[index_2] === "1") {
+                result = "1" + result;
+            } else {
+                result = "0" + result;
+            }
+        }
+        return Word.pad_zeroes(result, Math.max(word1.length, word2.length));
+    }
+
+    /**
+     * Performs a bitwise OR operation between two words. The resulting string has the length
+     * of the longer word.
+     *
+     * @param   {Word/string}  word1       First word.
+     * @param   {Word/string}  word2       Second word.
+     * @returns {string}                   Result of bitwise OR.
+     */
+    static binary_or(word1, word2) {
+        if (typeof word1 === "object") {
+            word1 = word1.contents;
+        }
+        if (typeof word2 === "object") {
+            word2 = word2.contents;
+        }
+        let result = "";
+        for (let i = 0; i < Math.min(word1.length, word2.length); i++) {
+            let index_1 = word1.length - 1 - i;
+            let index_2 = word2.length - 1 - i;
+            if (word1[index_1] === "0" && word2[index_2] === "0") {
+                result = "0" + result;
+            } else {
+                result = "1" + result;
+            }
+        }
+        if (word1.length < word2.length) {
+            result = word2.slice(word1.length) + result;
+        } else {
+            result = word1.slice(word2.length) + result;
+        }
+        return result;
+    }
+
+    /**
      * Returns string representation of word.
      *
      * @returns {string}   String representing contents of word.
@@ -176,12 +240,10 @@ class Instruction {
      * @param {number}          address
      * @param {number/string}   tag
      */
-    constructor(operation, address, tag) {
+    constructor(operation, address, tag = 0) {
         this.operation = operation;
         this.address = address;
-        if (typeof tag === "undefined") {
-            this.tag = 0;
-        } else if (typeof tag === "string") {
+        if (typeof tag === "string") {
             switch(tag) {
                 case "A":
                     this.tag = 0b001;
@@ -211,7 +273,7 @@ class Instruction_B extends Instruction {
      */
     toString() {
         let address_str = this.address.toString();
-        if (tag) {
+        if (this.tag) {
             let tag_str = this.tag.toString();
             return this.operation.name + " " + address_str + ", " + tag_str;
         } else {
@@ -283,8 +345,8 @@ class General_Word extends Word {
      * @returns {function}  Function corresponding to the operation contained in instruction.
      */
     get_operation_b() {
-        let str_operation = this.contents.substring(0, this.contents.length-24);
-        operation_number = parseInt(str_operation, 2)
+        let str_operation = this.contents.substring(0, 12);
+        let operation_number = parseInt(str_operation, 2);
         return no_to_operation_b[operation_number];
     }
 
@@ -312,6 +374,46 @@ class General_Word extends Word {
     }
 
     /**
+     * Gets the tag from the word's instruction.  Note that the tag is located in the same bits
+     * in both type A and type B instructions.
+     *
+     * @returns {number}    Tag of the instruction if word is interpreted as instruction.
+     */
+    get_tag() {
+        let tag = this.contents.substring(18, 21);
+        return parseInt(tag, 2);
+    }
+
+    /**
+     * Store Type B instruction into the word.
+     *
+     * @param {Instruction_B}   instruction     Instruction to be stored in word.
+     */
+    set instruction_b(instruction) {
+        this.update_contents(Math.pow(2, 24) * operation_b_to_no[instruction.operation.name] + Math.pow(2, 15)*instruction.tag + instruction.address);
+    }
+
+    /**
+     * Return Instruction_B object based on interpretation of word as Type B operation.
+     *
+     * @returns {Instruction_B}     Word as Type B operation.
+     */
+    get instruction_b() {
+        return new Instruction_B(this.get_operation_b(), this.get_address(), this.get_tag());
+    }
+
+    /**
+     * Stores a Type B instruction into the word.
+     *
+     * @param {string} operation    String name of operation.
+     * @param {number} address      Address that instruction is directed at.
+     * @param {number} tag          Tag of operation (optional).
+     */
+    store_instruction_b(operation, address, tag = 0) {
+        this.instruction_b = new Instruction_B(eval(operation), address, tag);
+    }
+
+    /**
      * Returns a string that holds the SHARE assembly notation for a Type A instruction of a binary
      * representation of a number.
      *
@@ -320,7 +422,7 @@ class General_Word extends Word {
      * @returns {string}    SHARE assembly notation for the Type A instruction.
      */
     instruction_a_str() {
-        let binary_rep = word.contents;
+        let binary_rep = this.contents;
         let prefix_bits = binary_rep.substring(0,3);
         let prefix = no_to_operation_a_str[parseInt(prefix_bits, 2)];
         if (prefix === undefined || prefix === "HTR") {
@@ -329,38 +431,12 @@ class General_Word extends Word {
         let result = prefix;
         let address_bits = binary_rep.substr(-15);
         result += " " + parseInt(address_bits, 2).toString();
-        tag_bits = binary_rep.substring(18,21);
+        let tag_bits = binary_rep.substring(18,21);
         result += ", " + parseInt(tag_bits, 2).toString();
-        decrement_bits = binary_rep.substring(3, 18);
-        decrement = parseInt(decrement_bits, 2);
+        let decrement_bits = binary_rep.substring(3, 18);
+        let decrement = parseInt(decrement_bits, 2);
         result += decrement.toString();
         result += ", " + decrement.toString();
-        return result;
-    }
-
-    /**
-     * Returns a string that holds the SHARE assembly notation for a Type B instruction of a binary
-     * representation of a number.
-     *
-     * If it fails throws "Operation not found".
-     *
-     * @returns {string}    SHARE assembly notation for the Type B instruction.
-     */
-    instruction_b_str() {
-        let operation_bits = this.contents.substring(0, 12);
-        let operation_number = parseInt(operation_bits, 2);
-        var operation;
-        operation = no_to_operation_b_str[operation_number];
-        if (operation === undefined) {
-            throw "Operation not found";
-        }
-        let result = operation;
-        address_bits = this.contents.substr(-15);
-        result += " " + parseInt(address_bits, 2).toString();
-        tag_bits = this.contents.substring(18,21);
-        if (tag_bits !== "000") {
-            result += ", " + parseInt(tag_bits, 2).toString();
-        }
         return result;
     }
 
@@ -382,7 +458,7 @@ class General_Word extends Word {
         } else {
             positive = true;
         }
-        result = parseInt(binary_rep, 2);
+        let result = parseInt(binary_rep, 2);
         if (!positive) {
             result = -result;
         }
@@ -401,8 +477,8 @@ class General_Word extends Word {
         let binary_rep = this.contents;
         let fraction_bits = binary_rep.substring(9,36);
         let fraction = parseInt(fraction_bits, 2) / Math.pow(2, 27);
-        characteristic_bits = binary_rep.substring(1, 9);
-        characteristic = parseInt(characteristic_bits, 2);
+        let characteristic_bits = binary_rep.substring(1, 9);
+        let characteristic = parseInt(characteristic_bits, 2);
         let exponent = characteristic - 128;
         let result = fraction*Math.pow(2,exponent);
         if (binary_rep[0] === 1) {
@@ -423,8 +499,8 @@ class General_Word extends Word {
         } else {
             sign_bit = "0";
         }
-        unsigned_binary_rep = convert_to_binary(Math.abs(number), 35);
-        binary_rep = sign_bit + unsigned_binary_rep;
+        let unsigned_binary_rep = convert_to_binary(Math.abs(number), 35);
+        let binary_rep = sign_bit + unsigned_binary_rep;
         this.update_contents(binary_rep);
     }
 
@@ -442,27 +518,17 @@ class General_Word extends Word {
         }
         let binary_rep = sign_bit;
         number = Math.abs(number);
-        exponent = Math.floor(Math.log2(number)) + 1;
-        characteristic = exponent + 128;
+        let exponent = Math.floor(Math.log2(number)) + 1;
+        let characteristic = exponent + 128;
         binary_rep += convert_to_binary(characteristic, 8);
         let magnitude = number / Math.pow(2, exponent);
-        magnitude_binary = (magnitude.toString(2)).substring(2,29);
+        let magnitude_binary = (magnitude.toString(2)).substring(2,29);
         length = magnitude_binary.length;
         for (let i = 0; i < 27 - length; i++) {
             magnitude_binary = magnitude_binary + "0";
         }
         binary_rep += magnitude_binary;
         this.update_contents(binary_rep);
-    }
-
-    /**
-     * Stores a Type B instruction into the word.
-     *
-     * @param {string} operation    String name of operation.
-     * @param {number} address      Address that instruction is directed at.
-     */
-    set instruction_b(operation, address) {
-        this.update_contents(Math.pow(2,24)*operation_to_no[operation] + address);
     }
 }
 
@@ -533,12 +599,12 @@ function TNX(a, b, c) {
  * @param {Array} code_lines    Array of lines of code.
  */
 function assemble(code_lines) {
-    register = 0;
-    for (line_no in code_lines) {
-        line = code_lines[line_no];
+    let register = 0;
+    for (let line_no in code_lines) {
+        let line = code_lines[line_no];
         console.log(line);
-        operation = line.substring(0,3);
-        address = parseInt(line.substring(3, 6));
+        let operation = line.substring(0,3);
+        let address = parseInt(line.substring(3, 6));
         assemble_line(operation, address, register);
         register++;
     }
