@@ -1,24 +1,115 @@
+import urllib.request
+import shutil
+import sys
 import os
-from pathlib import Path, PurePath
+from pathlib import Path, PurePath, PurePosixPath
 from django.db import models
 from computation_hist.common import make_searchable_pdf
-import sys
+
 from PyPDF2 import PdfFileWriter, PdfFileReader
 from pdf2image import convert_from_path
 
 
-base_path = Path(os.path.abspath(os.path.dirname(__file__)))
-
-# SR: I think it's better to just move sort_pdfs.py to djweb so we don't have to deal with sys path
-# insert
-#sys.path.insert(0, PurePath.joinpath(base_path.parent, "djweb"))
-
-from dj_comp_hist.models import Person, Document, Box, Folder, Organization, Page
-path_to_boxes = Path(base_path.parent,"computation_hist","data","web_test_set")
+DJWEB_PATH = Path(os.path.abspath(os.path.dirname(__file__)))
+DATA_BASE_PATH = Path(DJWEB_PATH.parent,"computation_hist","data","processed_pdfs")
 
 
+def download_raw_folder_pdf_from_aws(box:int, folder:int, foldername:str):
+    '''
+    Downloads a raw (not yet ocred) pdf file from amazon aws and stores it in the proper folder
+    relative to DATA_BASE_PATH
 
-def create_sub_folders(path_to_boxes=path_to_boxes, foldername_short='rockefeller'):
+    :return: Path
+    '''
+
+    rel_path = get_file_path(box, folder, foldername, file_type='raw_pdf', include_base_path=False)
+    abs_path = Path(DATA_BASE_PATH, rel_path)
+
+    # SR: I was worried about using str(Path) on Windows systems, hence the awkward "/".join()
+    url = f'https://s3.amazonaws.com/comp-hist/docs/{"/".join(rel_path.parts)}'
+
+    with urllib.request.urlopen(url) as response:
+        abs_path.parent.mkdir(parents=True, exist_ok=True)
+        with open(abs_path, 'wb') as pdf_file:
+            shutil.copyfileobj(response, pdf_file)
+
+    return abs_path
+
+
+def get_file_path(box: int, folder: int, foldername_short:str, file_type:str,
+                  doc_id:int = None, page_id:int = None, include_base_path=True):
+    """
+    Returns the path to a page, doc, or folder file based on box, folder, name, filetype, docid
+
+    Note: will return a Posix or Windows path depending on the OS. Below, all paths are cast
+    to PurePosixPath to make doctests pass on all systems.
+
+    raw_pdf:
+    >>> p = get_file_path(1, 8, 'rockefeller', file_type='raw_pdf',
+    ... include_base_path=False)
+    >>> PurePosixPath(p)
+    PurePosixPath('1_8_rockefeller/raw_pdf/1_8_rockefeller_raw.pdf')
+
+    document ocr text file (document txt/pdf returned when a doc_id is included but no page_id)
+    >>> p = get_file_path(1, 8, 'rockefeller', file_type='txt', doc_id=4,
+    ... include_base_path=False)
+    >>> PurePosixPath(p)
+    PurePosixPath('1_8_rockefeller/docs/4/1_8_rockefeller_4.txt')
+
+    page png (page path returned when both doc_id and page_id are included
+    >>> p = get_file_path(1, 8, 'rockefeller', file_type='txt', doc_id=4, page_id=20,
+    ... include_base_path=False)
+    >>> PurePosixPath(p)
+    PurePosixPath('1_8_rockefeller/docs/4/pages/20/1_8_rockefeller_4_20.txt')
+
+    By default, the path includes the base path of the data directory.
+    (No doctest as the result changes from system to system)
+    > get_file_path(1, 8, 'rockefeller', file_type='txt', doc_id=4, page_id=20,
+    ... include_base_path=True)
+    PosixPath('/home/code/computation_hist/computation_hist/data/web_test_set/1_8_rockefeller/docs/4/pages/20/1_8_rockefeller_4_20.txt')
+
+    :param box: int
+    :param folder: int
+    :param foldername_short: str
+    :param doc_type: pdf, txt, png, or raw_pdf
+    :param doc_id: int
+    :param page_id: int
+    :return: Path
+    """
+
+    if not file_type in ['pdf', 'txt', 'png', 'raw_pdf']:
+        raise ValueError(f'doc_type has to be pdf, txt, png, or raw_pdf but not {file_type}.')
+
+    if file_type == 'raw_pdf' and (doc_id or page_id):
+        raise ValueError(f'doc_type raw_pdf returns the path to the un-ocred folder pdf. However, '
+                         f'you also passed in a doc or page id. raw ids for pages or docs are not'
+                         f'available.')
+
+    if page_id and not doc_id:
+        raise ValueError(f'Can only load a page_id if a doc_id was also provided. Doc_id: {doc_id}')
+
+    full_folder_name = f'{box}_{folder}_{foldername_short}'
+
+    if file_type == 'raw_pdf':
+        path = Path(full_folder_name, 'raw_pdf', f'{full_folder_name}_raw.pdf')
+
+    elif doc_id and not page_id:
+        path = Path(full_folder_name, 'docs', str(doc_id),
+                    f'{full_folder_name}_{doc_id}.{file_type}')
+
+    else:
+        path = Path(full_folder_name, 'docs', str(doc_id), 'pages', str(page_id),
+                    f'{full_folder_name}_{doc_id}_{page_id}.{file_type}')
+
+    if include_base_path:
+        path = Path(DATA_BASE_PATH, path)
+
+    return path
+
+
+def create_sub_folders(path_to_boxes=DATA_BASE_PATH, foldername_short='rockefeller'):
+
+
     """
     To run this code :
     sys.path
@@ -34,6 +125,9 @@ def create_sub_folders(path_to_boxes=path_to_boxes, foldername_short='rockefelle
 
     :return:
     """
+
+
+    from dj_comp_hist.models import Person, Document, Box, Folder, Organization, Page
 
     box = str(Folder.objects.get(name=foldername_short).box) # note this is a string
 
@@ -94,4 +188,7 @@ def split_folder_to_doc(pdf_path, associated_documents, folder_name):
        split_doc_to_page(pdf_path, folder_name)
 
 if __name__ == '__main__':
-    create_sub_folders()
+#    create_sub_folders()
+
+    download_raw_folder_pdf_from_aws(2, 1, 'digital_comp_to_social_problems')
+    pass
