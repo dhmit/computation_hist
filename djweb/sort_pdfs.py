@@ -1,4 +1,4 @@
-import urllib.request
+import urllib.request, urllib.error
 import shutil
 import sys
 import os
@@ -28,10 +28,15 @@ def download_raw_folder_pdf_from_aws(box:int, folder:int, foldername:str):
     # SR: I was worried about using str(Path) on Windows systems, hence the awkward "/".join()
     url = f'https://s3.amazonaws.com/comp-hist/docs/{"/".join(rel_path.parts)}'
 
-    with urllib.request.urlopen(url) as response:
-        abs_path.parent.mkdir(parents=True, exist_ok=True)
-        with open(abs_path, 'wb') as pdf_file:
-            shutil.copyfileobj(response, pdf_file)
+    try:
+        with urllib.request.urlopen(url) as response:
+            abs_path.parent.mkdir(parents=True, exist_ok=True)
+            with open(abs_path, 'wb') as pdf_file:
+                shutil.copyfileobj(response, pdf_file)
+    except urllib.error.HTTPError:
+        raise(FileNotFoundError(f'{url} is not available from our AWS bucket. For a list of '
+                                     f'available files, see aws_available_files.md in the '
+                                     f'computation_hist/data directory.'))
 
     return abs_path
 
@@ -71,7 +76,7 @@ def get_file_path(box: int, folder: int, foldername_short:str, file_type:str,
     :param box: int
     :param folder: int
     :param foldername_short: str
-    :param doc_type: pdf, txt, png, or raw_pdf
+    :param doc_type: 'pdf', 'txt', 'png', or 'raw_pdf'
     :param doc_id: int
     :param page_id: int
     :return: Path
