@@ -316,7 +316,8 @@ class Instruction_A extends Instruction {
 /**
  * A class representing a word in general memory in the IBM 704, all of which were 36 bits. Note
  * that the computer has no way of determining whether a word is an instruction or a number, and
- * making sure that the word is interpreted correctly is the job of the programmer.
+ * making sure that the word is interpreted correctly is the job of the programmer. However, the
+ * computer can determine if an instruction is Type A or B by looking at the first three bits.
  */
 class General_Word extends Word {
 
@@ -329,12 +330,16 @@ class General_Word extends Word {
         super(contents, 36);
     }
 
+    is_typeB() {
+        return this.contents[1] === "0" && this.contents[2] === "0";
+    }
+
     /**
      * Returns the address that this word's instruction is directed at.
      *
      * @returns {number}    Address that instruction is directed at.
      */
-    get_address() {
+    get address() {
         let str_address = this.contents.substr(-15);
         return parseInt(str_address, 2);
     }
@@ -344,7 +349,7 @@ class General_Word extends Word {
      *
      * @returns {function}  Function corresponding to the operation contained in instruction.
      */
-    get_operation_b() {
+    get operation_b() {
         let str_operation = this.contents.substring(0, 12);
         let operation_number = parseInt(str_operation, 2);
         return no_to_operation_b[operation_number];
@@ -355,7 +360,7 @@ class General_Word extends Word {
      *
      * @returns {function}  Function corresponding to the operation contained in instruction.
      */
-    get_operation_a() {
+    get operation_a() {
         let prefix_bits = this.contents.substring(0,3);
         return no_to_operation_a[parseInt(prefix_bits, 2)];
     }
@@ -365,11 +370,11 @@ class General_Word extends Word {
      *
      * @returns {function}  Function corresponding to the operation contained in instruction.
      */
-    get_operation() {
-        if (this.contents[1] === "0" && this.contents[2] === "0") {
-            return this.get_operation_a();
+    get operation() {
+        if (this.is_typeB()) {
+            return this.operation_b();
         } else {
-            return this.get_operation_b();
+            return this.operation_a();
         }
     }
 
@@ -379,9 +384,19 @@ class General_Word extends Word {
      *
      * @returns {number}    Tag of the instruction if word is interpreted as instruction.
      */
-    get_tag() {
+    get tag() {
         let tag = this.contents.substring(18, 21);
         return parseInt(tag, 2);
+    }
+
+    /**
+     * Gets the decrement from the word as interpreted as Type B instruction.
+     *
+     * @returns {number}
+     */
+    get decrement() {
+        let decrement = this.contents.substring(3, 18);
+        return parseInt(decrement, 2);
     }
 
     /**
@@ -396,10 +411,10 @@ class General_Word extends Word {
     /**
      * Return Instruction_B object based on interpretation of word as Type B operation.
      *
-     * @returns {Instruction_B}     Word as Type B operation.
+     * @returns {Instruction_B}     Word as Type B instruction.
      */
     get instruction_b() {
-        return new Instruction_B(this.get_operation_b(), this.get_address(), this.get_tag());
+        return new Instruction_B(this.operation_b, this.address, this.tag);
     }
 
     /**
@@ -407,37 +422,41 @@ class General_Word extends Word {
      *
      * @param {string} operation    String name of operation.
      * @param {number} address      Address that instruction is directed at.
-     * @param {number} tag          Tag of operation (optional).
+     * @param {number} tag          Tag of instruction (optional).
      */
     store_instruction_b(operation, address, tag = 0) {
         this.instruction_b = new Instruction_B(eval(operation), address, tag);
     }
 
     /**
-     * Returns a string that holds the SHARE assembly notation for a Type A instruction of a binary
-     * representation of a number.
+     * Return Instruction_A object based on interpretation of word as Type A operation.
      *
-     * If it fails throws "Operation not found".
-     *
-     * @returns {string}    SHARE assembly notation for the Type A instruction.
+     * @returns {Instruction_A}     Word as Type A instruction.
      */
-    instruction_a_str() {
-        let binary_rep = this.contents;
-        let prefix_bits = binary_rep.substring(0,3);
-        let prefix = no_to_operation_a_str[parseInt(prefix_bits, 2)];
-        if (prefix === undefined || prefix === "HTR") {
-            throw "Operation not found";
-        }
-        let result = prefix;
-        let address_bits = binary_rep.substr(-15);
-        result += " " + parseInt(address_bits, 2).toString();
-        let tag_bits = binary_rep.substring(18,21);
-        result += ", " + parseInt(tag_bits, 2).toString();
-        let decrement_bits = binary_rep.substring(3, 18);
-        let decrement = parseInt(decrement_bits, 2);
-        result += decrement.toString();
-        result += ", " + decrement.toString();
-        return result;
+    get instruction_a() {
+        return new Instruction_A(this.operation_a, this.address, this.tag, this.decrement);
+    }
+
+    /**
+     * Store Type A instruction into the word.
+     *
+     * @param {Instruction_A}   instruction     Instruction to be stored in word.
+     */
+    set instruction_a(instruction) {
+        this.update_contents(Math.pow(2, 33) * operation_a_to_no[instruction.operation.name] + Math.pow(2, 18)*instruction.decrement +
+            Math.pow(2, 15)*instruction.tag + instruction.address);
+    }
+
+    /**
+     * Stores a Type A instruction into the word.
+     *
+     * @param {string} operation    String name of operation.
+     * @param {number} address      Address that instruction is directed at.
+     * @param {number} tag          Tag of instruction.
+     * @param {number} decrement    Decrement of instruction.
+     */
+    store_instruction_a(operation, address, tag, decrement) {
+        this.instruction_a = new Instruction_A(eval(operation), address, tag, decrement);
     }
 
     /**
