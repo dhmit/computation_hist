@@ -83,7 +83,7 @@ class Word {
             } else if (contents.length > this.length) {
                 console.log("Word has more than " + this.length + " bits.  Value will be" +
                     " truncated.");
-                this.contents = contents.slice(this.length);
+                this.contents = contents.slice(contents.length - this.length);
             } else {
                 this.contents = Word.pad_zeroes(contents, this.length);
             }
@@ -460,6 +460,32 @@ class General_Word extends Word {
     }
 
     /**
+     * Get Instruction object corresponding to word.
+     *
+     * @returns {Instruction}   Instruction stored in word.
+     */
+    get instruction() {
+        if (this.is_typeB()) {
+            return this.instruction_b;
+        } else {
+            return this.instruction_a;
+        }
+    }
+
+    /**
+     * Store instruction in word.
+     *
+     * @param {Instruction} instruction
+     */
+    set instruction(instruction) {
+        if (typeof instruction.decrement === "undefined") {
+            this.instruction_b = instruction;
+        } else {
+            this.instruction_a = instruction;
+        }
+    }
+
+    /**
      * Returns numerical value of word interpreted as fixed point number. Note that the IBM 704
      * doesn't actually keep track of where the decimal (binary?) point is in memory, leaving
      * the interpretation of the number to the programmer.  This function assumes the dot to be
@@ -524,7 +550,7 @@ class General_Word extends Word {
     }
 
     /**
-     * Stores a number in floating-point format into the indicated address in general memory.
+     * Stores a number in floating-point format into the word.
      *
      * @param {number}  number      Number to be stored.
      */
@@ -550,6 +576,80 @@ class General_Word extends Word {
         this.update_contents(binary_rep);
     }
 }
+
+/**
+ * Class representing the accumulator on the IBM 704.  The accumulator consists of 38 bits: a
+ * sign, two overflow bits called Q and P, and the 36 bits that hold the actual numerical value.
+ * The property of the accumulator that is important is that it does arithmetic; to add two
+ * numbers together, one must first store one number to the accumulator, and then add the other,
+ * upon which the accumulator will contain their sum.  You cannot simply add two words together.
+ * The accumulator is also used in floating point operations, but this is more complicated.
+ */
+class Accumulator extends Word {
+    /**
+     * Constructor for Accumulator object.
+     */
+    constructor() {
+        super(0, 38);
+    }
+
+    /**
+     * Get value of number stored in accumulator, interpreted as fixed point.  Note that the Q
+     * and P bits are not considered part of this value.  When storing from the accumulator to a
+     * word in the general memory, the Q and P bits should not be included.
+     *
+     * @returns {number}    Value of fixed-point accumulator.
+     */
+    get fixed_point() {
+        let positive = this.contents[Accumulator.Sign] === "0";
+        let result = parseInt(this.contents.slice(3), 2);
+        if (!positive) {
+            result = -result;
+        }
+        return result;
+    }
+
+    /**
+     * Set value of accumulator to some number.  Note that while the P and Q bits will be
+     * updated to indicate overflow, they won't be copied back into the general memory if you
+     * call STO.
+     *
+     * @param {number}  number  Value to be stored in accumulator.
+     */
+    set fixed_point(number) {
+        let sign_bit = "";
+        if (number < 0) {
+            sign_bit = "1";
+        } else {
+            sign_bit = "0";
+        }
+        let unsigned_binary_rep = convert_to_binary(Math.abs(number), 37);
+        unsigned_binary_rep = unsigned_binary_rep.slice(Math.max(unsigned_binary_rep.length - 37, 0));
+        let binary_rep = sign_bit + unsigned_binary_rep;
+        this.update_contents(binary_rep);
+    }
+
+    /**
+     * Returns true if the Q bit is 1.
+     *
+     * @returns {boolean}   Q bit.
+     */
+    get q() {
+        return this.contents[Accumulator.Q] === "1";
+    }
+
+    /**
+     * Returns true if the P bit is 1.
+     *
+     * @returns {boolean}   P bit.
+     */
+    get p() {
+        return this.contents[Accumulator.P] === "1";
+    }
+}
+Accumulator.Sign = 0;
+Accumulator.Q = 1;
+Accumulator.P = 2;
 
 /**
  * Emulates the IBM 704 STO operation.
