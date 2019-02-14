@@ -197,37 +197,40 @@ def populate_from_metadata(file_name=None):
     with open(file_name) as file:
         csv_file = csv.DictReader(file)
         for line in csv_file:
-            new_doc = Document(number_of_pages=int(line['last_page']) - int(line['first_page']) + 1,
-                               title=line['title'], type=line['doc_type'], notes=line['notes'],
-                               first_page=line['first_page'], last_page=line['last_page'],
-                               file_name=line['filename'])
+            if Document.objects.filter(filename=line['filename']):
+                pass
+            else:
+                new_doc = Document(number_of_pages=int(line['last_page']) - int(line['first_page']) + 1,
+                                   title=line['title'], type=line['doc_type'], notes=line['notes'],
+                                   first_page=line['first_page'], last_page=line['last_page'],
+                                   file_name=line['filename'])
 
-            # ---------------------DATE-----------------------------------------------
-            if line['date'] != '' and line['date'][0] == '1':
-                new_doc.date = line['date']
+                # ---------------------DATE-----------------------------------------------
+                if line['date'] != '' and line['date'][0] == '1':
+                    new_doc.date = line['date']
 
-            # ---------------------Folder---------------------------------------------
-            folder_exist,new_folder = check_generate(Folder, "name" ,line['foldername_short'])
-            if not folder_exist:
-                box_exist,new_box = check_generate(Box, "number" , line['box'])
-                new_box.save()
-                new_folder.box = new_box
-                new_folder.number = line['folder_number']
-                new_folder.full = line['foldername_full']
-                new_folder.file_name = line['filename']
-            new_folder.save()
-            new_doc.folder = new_folder
-            new_doc.save()
+                # ---------------------Folder---------------------------------------------
+                folder_exist,new_folder = check_generate(Folder, "name" ,line['foldername_short'])
+                if not folder_exist:
+                    box_exist,new_box = check_generate(Box, "number" , line['box'])
+                    new_box.save()
+                    new_folder.box = new_box
+                    new_folder.number = line['folder_number']
+                    new_folder.full = line['foldername_full']
+                    new_folder.file_name = line['filename']
+                new_folder.save()
+                new_doc.folder = new_folder
+                new_doc.save()
 
-            # -----------------------Author, Recipient,cced--------------------------
-            interpret_person_organization(line['author'], "author_organization", "author_person", new_doc)
-            interpret_person_organization(line['recipients'], "recipient_organization",
-                                          "recipient_person",
-                                          new_doc)
-            interpret_person_organization(line['cced'], "cced_organization", "cced_person",
-                                          new_doc)
+                # -----------------------Author, Recipient,cced--------------------------
+                interpret_person_organization(line['author'], "author_organization", "author_person", new_doc)
+                interpret_person_organization(line['recipients'], "recipient_organization",
+                                              "recipient_person",
+                                              new_doc)
+                interpret_person_organization(line['cced'], "cced_organization", "cced_person",
+                                              new_doc)
 
-            new_doc.save()
+                new_doc.save()
 
         return
 
@@ -290,3 +293,23 @@ def page_image_to_doc(folder_name, pdf_path, image_directory):
             # This means that the page isn't associated with a document
             pass
     return
+
+
+def check_page_nums():
+    """
+    The metadata has a common error where some first_page and last_page values are not set
+    properly. This function should run through and check all page numbers to make sure they are
+    correct. It will return a list of filenames where there is an incorrect page number.
+    :return:
+    """
+    errors = []
+    folders = Folder.objects.order_by('box', 'number')
+    for each_folder in folders:
+        documents = Document.objects.filter(folder=each_folder.full).order_by('last_page')
+        for each_document in range(len(documents)):
+            if each_document + 1 == len(documents):
+                pass
+            else:
+                if documents[each_document+1].first_page - documents[each_document].last_page != 1:
+                    errors.append(documents[each_document].file_name)
+    return errors
