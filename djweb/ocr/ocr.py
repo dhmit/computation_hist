@@ -93,6 +93,6 @@ def ocr_pdf(input_pdf_path, return_type='text', output_pdf_path=None):
 
 
 if __name__ == '__main__':
-    input_pdf_path = Path('..', 'computation_hist', 'data', 'sample_docs', '3_32_verzuh_1.pdf')
-    output_pdf_path = Path('..', 'computation_hist', 'data', 'sample_docs', '3_32_verzuh_1_ocr.pdf')
+    input_pdf_path = Path('..', 'computation_hist', 'data', 'sample_docs', '3_32_verzuh_3.pdf')
+    output_pdf_path = Path('..', 'computation_hist', 'data', 'sample_docs', '3_32_verzuh_3_ocr.pdf')
     o = ocr_pdf(input_pdf_path, return_type='pdf', output_pdf_path=output_pdf_path)
