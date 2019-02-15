@@ -1,11 +1,4 @@
-# USAGE
-# python correct_skew.py --image images/neg_28.png
-
-# import the necessary packages
-# https://stackoverflow.com/questions/37011291/python-wand-image-is-not-recognized/41772062#41772062
-# ^^^^^ This is important for getting Wand to work properly
 import numpy as np
-import argparse
 import cv2
 
 
@@ -23,7 +16,7 @@ cv2.imshow('before', gray)
 # threshold the image, setting all foreground pixels to
 # 255 and all background pixels to 0
 thresh = cv2.threshold(gray, 0, 10,
-	cv2.THRESH_BINARY | cv2.THRESH_OTSU)[1]
+                       cv2.THRESH_BINARY | cv2.THRESH_OTSU)[1]
 
 # grab the (x, y) coordinates of all pixel values that
 # are greater than zero, then use these coordinates to
@@ -37,29 +30,19 @@ angle = cv2.minAreaRect(coords)[-1]
 # returned angle trends to 0 -- in this special case we
 # need to add 90 degrees to the angle
 if angle < -45:
-	angle = -(90 + angle)
+    angle = -(90 + angle)
 
 # otherwise, just take the inverse of the angle to make
 # it positive
 else:
-	angle = -angle
+    angle = -angle
 
 # rotate the image to deskew it
 (h, w) = image.shape[:2]
 center = (w // 2, h // 2)
 M = cv2.getRotationMatrix2D(center, angle, 1.0)
 rotated = cv2.warpAffine(image, M, (w, h),
-	flags=cv2.INTER_CUBIC, borderMode=cv2.BORDER_REPLICATE)
+                         flags=cv2.INTER_CUBIC, borderMode=cv2.BORDER_REPLICATE)
 
 # save rotated image
 cv2.imwrite('rotated.jpg', rotated)
-
-# draw the correction angle on the image so we can validate it
-cv2.putText(rotated, "Angle: {:.2f} degrees".format(angle),
-	(10, 30), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 255), 2)
-
-# show the output image
-print("[INFO] angle: {:.3f}".format(angle))
-cv2.imshow("Input", image)
-cv2.imshow("Rotated", rotated)
-cv2.waitKey(0)
