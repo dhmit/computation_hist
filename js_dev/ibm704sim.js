@@ -21,8 +21,6 @@ for (let number in no_to_operation_a) {
     no_to_operation_a_str[number] = (no_to_operation_a[number]).name;
 }
 
-const computer = new IBM_704(8192);
-
 const num_code_lines = 3;
 const general_memory_display = 7;
 code_line = 0;
@@ -865,14 +863,11 @@ class IBM_704 {
         let instruction;
         if (instruction_word.is_typeB()) {
             instruction = instruction_word.instruction_b;
-            if (instruction.operation(instruction.address) === 1) {
-                this.halt = true;
-            } // TODO: implement functionality of tags and effective address modification
+            instruction.operation(instruction.address); // TODO: implement functionality of tags
+            // and effective address modification
         } else {
             instruction = instruction_word.instruction_a;
-            if (instruction.operation(instruction.address, instruction.tag, instruction.decrement)) {
-                this.halt = true;
-            }
+            instruction.operation(instruction.address, instruction.tag, instruction.decrement);
         }
     }
 
@@ -894,7 +889,7 @@ class IBM_704 {
  * @param {number}  address     Address to store value to.
  */
 function STO(address) {
-    general_memory[address] = accumulator;
+    computer.general_memory[address].update_contents(computer.accumulator);
 }
 
 /**
@@ -903,11 +898,9 @@ function STO(address) {
  * Indicates the computer to halt.
  *
  * @param {number} address      Required for Type B instruction.
- * @returns {number} Returns 1 to indicate halt.
  */
 function HTR(address) {
-    permanent_halt = true;
-    return 1;
+    computer.halt = true;
 }
 
 /**
@@ -920,7 +913,8 @@ function HTR(address) {
  * actually used).
  */
 function CLA(address) {
-    accumulator = storage_register;
+    computer.accumulator.clear();
+    computer.accumulator.update_contents(computer.storage_register);
 }
 
 /**
@@ -933,7 +927,8 @@ function CLA(address) {
  * @param {number} address      The address of the value to add to the accumulator.
  */
 function ADD(address) {
-    accumulator += storage_register;
+    let sum = computer.accumulator.fixed_point + computer.general_memory[address].fixed_point;
+    computer.accumulator.update_contents(sum);
 }
 
 /**
@@ -943,6 +938,8 @@ function ADD(address) {
 function TNX(a, b, c) {
     console.log("TNX called");
 }
+
+const computer = new IBM_704(8192); // this is the IBM 704
 
 /**
  * Converts an array of strings that contain lines of SHARE assembly into numerical code that is
@@ -962,6 +959,17 @@ function assemble(code_lines) {
         assemble_line(operation, address, register);
         register++;
     }
+}
+
+/**
+ * Stores an instruction into general memory as a number.
+ *
+ * @param {string} operation    String name of operation.
+ * @param {number} address      Address that instruction is directed at.
+ * @param {number} register     Address that instruction should be stored in.
+ */
+function assemble_line(operation, address, register) {
+    computer.general_memory[register].instruction_b = new Instruction_B(eval(operation), address);
 }
 
 /**
@@ -1011,7 +1019,7 @@ function update() {
 
     const general_memory_html = $(".general_memory");
     for (let i = 0; i < general_memory_display; i++) {
-        general_memory_html[i].innerHTML = convert_to_binary(general_memory[i], 36);
+        general_memory_html[i].innerHTML = computer.general_memory[i].toString();
     }
     // const general_memory_0 = $('#general_memory0');
     // general_memory_0.tooltip({title: binary_to_instruction_a(general_memory_0.html())});
@@ -1027,32 +1035,32 @@ function update() {
     // general_memory_5.tooltip({title: binary_to_fixed_point(general_memory_5.html())});
 
     general_memory_0 = $('#general_memory0')[0];
-    general_memory_0.title = binary_to_instruction_b(general_memory_0.innerHTML);
+    general_memory_0.title = computer.general_memory[0].instruction_b.toString();
     general_memory_1 = $('#general_memory1')[0];
-    general_memory_1.title = binary_to_instruction_b(general_memory_1.innerHTML);
+    general_memory_1.title = computer.general_memory[1].instruction_b.toString();
     general_memory_2 = $('#general_memory2')[0];
-    general_memory_2.title = binary_to_instruction_b(general_memory_2.innerHTML);
+    general_memory_2.title = computer.general_memory[2].instruction_b.toString();
     general_memory_3 = $('#general_memory3')[0];
-    general_memory_3.title = binary_to_fixed_point(general_memory_3.innerHTML);
+    general_memory_3.title = computer.general_memory[3].fixed_point;
     general_memory_4 = $('#general_memory4')[0];
-    general_memory_4.title = binary_to_fixed_point(general_memory_4.innerHTML);
+    general_memory_4.title = computer.general_memory[4].fixed_point;
     general_memory_5 = $('#general_memory5')[0];
-    general_memory_5.title = binary_to_fixed_point(general_memory_5.innerHTML);
+    general_memory_5.title = computer.general_memory[5].fixed_point;
 
 
     instruction_location_counter_element = $("#instruction_location_counter")[0];
-    instruction_location_counter_element.innerHTML = convert_to_binary(ilc, 38);
-    instruction_location_counter_element.title = binary_to_fixed_point(instruction_location_counter_element.innerHTML);
+    instruction_location_counter_element.innerHTML = computer.ilc.toString();
+    instruction_location_counter_element.title = computer.ilc.valueOf();
 
-    $("#instruction_register").html(convert_to_binary(instructionregister, 18));
+    $("#instruction_register").html(computer.instruction_register.toString());
 
     storage_register_element = $("#storage_register")[0];
-    storage_register_element.innerHTML = convert_to_binary(storage_register, 38);
-    storage_register_element.title = binary_to_fixed_point(storage_register_element.innerHTML);
+    storage_register_element.innerHTML = computer.storage_register.toString();
+    storage_register_element.title = (new General_Word(computer.storage_register)).fixed_point;
 
     accumulator_element = $("#accumulator")[0];
-    accumulator_element.innerHTML = convert_to_binary(accumulator, 38);
-    accumulator_element.title = binary_to_fixed_point(accumulator_element.innerHTML);
+    accumulator_element.innerHTML = computer.accumulator.toString();
+    accumulator_element.title = computer.accumulator.fixed_point;
 }
 
 /**
@@ -1144,18 +1152,11 @@ function get_floating_point_number(register) {
  * Steps through a single line of code indicated by the instruction location counter.
  */
 function step() {
-    instruction = general_memory[ilc];
-    if (instruction == 0) {
-        return;
+    if (!computer.halt) {
+        computer.step();
+        code_line++;
+        update();
     }
-    store_instruction_register(instruction);
-    address = get_address(instruction);
-    storage_register = general_memory[address];
-    operation = get_operation(instruction);
-    operation(address);
-    code_line++;
-    ilc++;
-    update();
 }
 
 /**
@@ -1165,8 +1166,8 @@ function step() {
 function start() {
     $('#step_button').on('click', step);
 
-    general_memory[3] = 12;
-    general_memory[4] = 30;
+    computer.general_memory[3].fixed_point = 12;
+    computer.general_memory[4].fixed_point = 30;
 
     const code = $(".symbolic_code");
     const code_innerHTML = Array(code.length);
