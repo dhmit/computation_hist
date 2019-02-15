@@ -17,12 +17,16 @@ allways use unknown lowercase where unknown is to be used
 **filename** required
 
 **author**
-1.If there is an organization do not use any ; or , 
-2.If someone doesn't have a first name enter 'unknown' as first - e.g. "Boal, unknown"
-3.If someone doesn't have a surname enter second name as unknown - e.g. "unknown, Elena"
-4.If someone has name is not known at all enter unknown 
+1. Author name is inputted as Last (Suffix), First M.
+1. If there is more than one author, separate them by ;
+1. If there is an organization do not use any ; or , in the name
+1. If there are letterheads indicating an organization, ex: Naval War College, please include 
+that organization in the author field
+1. If someone doesn't have a first name enter 'unknown' as first - e.g. "Boal, unknown"
+1. If someone doesn't have a surname enter second name as unknown - e.g. "unknown, Elena"
+1. If someone has name is not known at all enter unknown 
 
-**title**required
+**title** required
 
 **date** if unknown write nothing
 
@@ -36,16 +40,18 @@ allways use unknown lowercase where unknown is to be used
 
 **recipients** 
 
-1.If there is an organization do not use any ; or , 
-2.If someone doesn't have a first name enter 'unknown' as first - e.g. "Boal, unknown"
-3.If someone doesn't have a surname enter second name as unknown - e.g. "unknown, Elena"
-4.If someone has name is not known at all enter unknown 
+1. Name is listed as Last (Suffix.), First M.
+1. Separate multiple recipients by semicolon.
+1. If there is an organization do not use any ; or , in the name
+1. If someone doesn't have a first name enter 'unknown' as first - e.g. "Boal, unknown"
+1. If someone doesn't have a surname enter second name as unknown - e.g. "unknown, Elena"
+1. If someone has name is not known at all enter unknown 
 
 **cced**
-1.If there is an organization do not use any ; or , 
-2.If someone doesn't have a first name enter 'unknown' as first - e.g. "Boal, unknown"
-3.If someone doesn't have a surname enter second name as unknown - e.g. "unknown, Elena"
-4.If someone has name is not known at all enter unknown 
+1. If there is an organization do not use any ; or , 
+1. If someone doesn't have a first name enter 'unknown' as first - e.g. "Boal, unknown"
+1. If someone doesn't have a surname enter second name as unknown - e.g. "unknown, Elena"
+1. If someone has name is not known at all enter unknown 
 
 **notes** max character 191 - leave blank don't write none
 
@@ -68,9 +74,9 @@ If the first number isn't '19' the date is not recorded
 
 ##Author
 1. Looks for ; in field 
-2. If there is no colon then there is one name 
-3. If there is no comma it interprets it as an organisation
-4. Initials are interpreted as one first name
+1. If there is no semi-colon then there is one name 
+1. If there is no comma it interprets it as an organisation
+1. Initials are interpreted as one first name
 
 
 
@@ -79,7 +85,7 @@ takes the filename as a string
 page number
 
 
-##3Organization 
+###Organization 
 Must have a name
 Doesn't need a Location
 
