@@ -21,17 +21,11 @@ for (let number in no_to_operation_a) {
     no_to_operation_a_str[number] = (no_to_operation_a[number]).name;
 }
 
-general_memory = Array(8192).fill(0);
-accumulator = 0;
-mq_register = 0;
-storage_register = 0;
-instructionregister = 0;
-ilc = 0;
+const computer = new IBM_704(8192);
 
 const num_code_lines = 3;
 const general_memory_display = 7;
 code_line = 0;
-permanent_halt = false;
 
 /**
  * Function to create a new string with the character at index replaced by a new character.
@@ -834,7 +828,7 @@ class IBM_704 {
      *
      * @param {number} size     Number of words in general memory.
      */
-    constructor(size) {
+    constructor(size = 8192) {
         this.general_memory = new Array(size);
         for (let i = 0; i < size; i++) {
             this.general_memory[i] = new General_Word(0);
@@ -856,6 +850,39 @@ class IBM_704 {
         this.trap_mode = false;
         this.sense_switches = new Array(6).fill(false);
         this.sense_lights = new Array(4).fill(false);
+
+        this.halt = false;
+    }
+
+    /**
+     * Step through a single instruction.
+     */
+    step() {
+        let instruction_word = this.general_memory[this.ilc.valueOf()];
+        this.instruction_register.store_instruction(instruction_word);
+        this.ilc.increment();
+        this.storage_register.update_contents(this.general_memory[instruction_word.address]);
+        let instruction;
+        if (instruction_word.is_typeB()) {
+            instruction = instruction_word.instruction_b;
+            if (instruction.operation(instruction.address) === 1) {
+                this.halt = true;
+            } // TODO: implement functionality of tags and effective address modification
+        } else {
+            instruction = instruction_word.instruction_a;
+            if (instruction.operation(instruction.address, instruction.tag, instruction.decrement)) {
+                this.halt = true;
+            }
+        }
+    }
+
+    /**
+     * Run the computer.
+     */
+    run() {
+        while (!this.halt) {
+            step();
+        }
     }
 }
 
