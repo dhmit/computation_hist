@@ -47,6 +47,23 @@ function replaceAt(original_string, index, replacement) {
 }
 
 /**
+ * Returns a string binary representation of a number with leading zeros to achieve a certain
+ * number of digits.
+ *
+ * @param {number} number   The number to be converted.
+ * @param {number} digits   Number of digits that resulting binary representation should have.
+ * @returns {string}    Binary representation with specified number of digits.
+ */
+function convert_to_binary(number, digits) {
+    result = number.toString(2);
+    length = result.length;
+    for (let i = 0; i < digits - length; i++) {
+        result = "0" + result;
+    }
+    return result.toString();
+}
+
+/**
  * A class representing a fixed-width word in the IBM 704.
  */
 class Word {
@@ -758,6 +775,56 @@ class Instruction_Register extends Word {
 }
 
 /**
+ * Class that represents the instruction location register of the IBM 704.  Analogous to the
+ * program counter in modern computers, it basically keeps track of the address of the
+ * instructions being executed.  In all operations except Halt and Transfer, if the IBM 704
+ * stops, the instruction location register should point to the address of the last instruction
+ * executed+1.  Value is literal, so valueOf and updateContents can be used to get and set the
+ * contents.
+ */
+class Instruction_Location_Register extends Word {
+    /**
+     * Constructor for instruction location register that starts at address origin.
+     *
+     * @param {number} origin   Starting location of instruction location register.
+     */
+    constructor(origin = 0) {
+        super(origin, 13);
+    }
+
+    /**
+     * Increases the instruction location register by value.  Note that the ILC can overflow and
+     * go back to zero.
+     *
+     * @param {number} value    The amount that the instruction location register increases by.
+     */
+    skip(value) {
+        this.update_contents(this.valueOf() + value);
+    }
+
+    /**
+     * Increment the instruction location register by 1.
+     */
+    increment() {
+        this.skip(1);
+    }
+}
+
+/**
+ * Class representing an index register.  Documentation forthcoming.
+ */
+class Index_Register extends Word {
+    /**
+     * Constructor that sets the length and contents of the index register.
+     *
+     * @param {string/number/Word}   contents    The contents of the index register.
+     */
+    constructor(contents) {
+        super(contents, 13);
+    }
+}
+
+/**
  * Emulates the IBM 704 STO operation.
  *
  * Stores the value of the accumulator into the register with specified address.
@@ -870,23 +937,6 @@ function run() {
         }
     }
     return general_memory[12]; // should be 25
-}
-
-/**
- * Returns a string binary representation of a number with leading zeros to achieve a certain
- * number of digits.
- *
- * @param {number} number   The number to be converted.
- * @param {number} digits   Number of digits that resulting binary representation should have.
- * @returns {string}    Binary representation with specified number of digits.
- */
-function convert_to_binary(number, digits) {
-    result = number.toString(2);
-    length = result.length;
-    for (let i = 0; i < digits - length; i++) {
-        result = "0" + result;
-    }
-    return result.toString();
 }
 
 /**
