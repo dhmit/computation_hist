@@ -7,8 +7,9 @@ def contribution_counter(metadata="metadata.csv"):
     last element is the number of contributions. The list is ordered with the
     person who has contributed the most appearing first.\
 
-    >>> contribution_counter("dummy_metadata.csv")
-    [('stephan', 79), ('assel', 12), ('mingfei', 11), ('samantha', 11), ('elsa', 11), ('carol', 10), ('kate', 5), ('myke', 3), ('dina', 1), ('howard', 1), ('elena', 1), ('felix', 1), ('emily', 1), ('ife', 1), ('sophia', 1), ('isaac', 1), ('keith', 1), ('charlotte', 1), ('kelsey', 1), ('shobhita', 1), ('maritza', 1), ('', 1)]
+    No actual doctest because the result will change regularly
+    > contribution_counter("metadata.csv")
+    [('stephan', 79), ('assel', 12), ('mingfei', 11), ('samantha', 11)...]
 
     :return: list
     """
