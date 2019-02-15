@@ -34,6 +34,19 @@ code_line = 0;
 permanent_halt = false;
 
 /**
+ * Function to create a new string with the character at index replaced by a new character.
+ *
+ * @param   {string} original_string     The original string.
+ * @param   {number} index               The index at which to start replacing characters.
+ * @param   {string} replacement         The character that should replace those in the original
+ * string.
+ * @returns {string}                     A new string with the characters replaced.
+ */
+function replaceAt(original_string, index, replacement) {
+    return original_string.substr(0, index) + replacement+ original_string.substr(index + replacement.length);
+}
+
+/**
  * A class representing a fixed-width word in the IBM 704.
  */
 class Word {
@@ -650,6 +663,99 @@ class Accumulator extends Word {
 Accumulator.Sign = 0;
 Accumulator.Q = 1;
 Accumulator.P = 2;
+
+/**
+ * Class that represents the Multipler-Quotient register.  The MQ register is used for
+ * multiplying and division, and also for floating point operations.  More on this later when I
+ * figure out how it actually works.
+ */
+class MQ_Register extends Word { // currently just a dummy class
+    /**
+     * Constructor for MQ Register.
+     */
+    constructor() {
+        super(0, 36);
+    }
+}
+
+/**
+ * Class that represents the storage register.  If for example ADD 134 is called, the word at
+ * 134 is copied into the storage register before being added to the accumulator.  The
+ * programmer usually doesn't have to worry about it because its function is abstracted away.
+ */
+class Storage_Register extends Word {
+    /**
+     * Constructor for storage register.
+     */
+    constructor() {
+        super(0, 36);
+    }
+}
+
+/**
+ * Class that represents the instruction register.  Before an instruction is executed, it is
+ * copied into the instruction register, albeit in a bit convoluted manner.
+ */
+class Instruction_Register extends Word {
+    /**
+     * Constructor for instruction register class.
+     */
+    constructor() {
+        super(0, 18);
+    }
+
+    /**
+     * Stores Type B instruction into the instruction register in the way the IBM 704 does it.
+     *
+     * Does not handle Type A, input-output, shifting, or sense instructions.
+     *
+     * @param {string/Word}  word     Instruction to be stored in instruction register.
+     */
+    store_instruction_b(word) {
+        let result = "";
+        let instruction;
+        if (typeof word === "object") {
+            instruction = word.contents;
+        } else {
+            instruction = word;
+        }
+        result += instruction[0];
+        result += instruction.substring(3, 12);
+        length = result.length;
+        for (let i = 0; i <= 18 - length; i++) {
+            result += "1";
+        }
+        this.update_contents(result);
+    }
+
+    /**
+     * Stores Type A instruction into instruction register.
+     *
+     * @param {Word/string} word    Word holding instruction to be stored.
+     */
+    store_instruction_a(word) {
+        let result = convert_to_binary(0, 18);
+        if (typeof word === "object") {
+            word = word.contents;
+        }
+        result = replaceAt(result, 0, word[0]);
+        result = replaceAt(result, 8, word.substring(1,3));
+        this.update_contents(result);
+    }
+
+    /**
+     * Stores instruction into instruction register.
+     *
+     * @param {Word} word
+     */
+    store_instruction(word) {
+        if (word.is_typeB()) {
+            this.store_instruction_b(word);
+        } else {
+            this.store_instruction_a(word);
+        }
+    }
+}
 
 /**
  * Emulates the IBM 704 STO operation.
