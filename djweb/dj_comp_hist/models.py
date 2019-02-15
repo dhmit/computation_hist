@@ -1,10 +1,9 @@
 from django.db import models
-from django.db.models.signals import post_save
-from django.db.models.signals import  post_save
 from pdf2image import convert_from_path
 import csv
 import os
-from pathlib import Path
+from pathlib import Path, PurePosixPath
+from .common import get_file_path
 
 # Create your models here.
 
@@ -110,6 +109,16 @@ class Document(models.Model):
     def __repr__(self):
         return f"<Document {self.title}>"
 
+    @property
+    def doc_id(self):
+        id_num = []
+        for char in reversed(range(len(self.file_name))):
+            if char != "_":
+                id_num.append(char)
+            else:
+                break
+        return int(''.join(reversed((id_num))))
+
 
 class Page(models.Model):
     document = models.ForeignKey(Document, on_delete=models.CASCADE)
@@ -122,6 +131,13 @@ class Page(models.Model):
     def __repr__(self):
         return f"<Page {self.page_number} of {self.document}"
 
+    @property
+    def png_url(self):
+        png_path = get_file_path(self.document.folder.box.number, self.document.folder.number,
+                                 self.document.folder.name, file_type='png', 
+                                 doc_id=self.document.doc_id, page_id=int(self.page_number),
+                                 include_base_path=False, aws_file=True)
+        return png_path
 
 class Text(models.Model):
     page = models.OneToOneField(Page, on_delete=models.SET(None), blank=True)
