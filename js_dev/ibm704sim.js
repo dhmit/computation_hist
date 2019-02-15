@@ -825,6 +825,41 @@ class Index_Register extends Word {
 }
 
 /**
+ * Class that represents an IBM 704.  The one at MIT I believe has 8192 words of general memory,
+ * but this implementation lets you make it smaller if you don't need it.
+ */
+class IBM_704 {
+    /**
+     * Constructor for IBM 704.
+     *
+     * @param {number} size     Number of words in general memory.
+     */
+    constructor(size) {
+        this.general_memory = new Array(size);
+        for (let i = 0; i < size; i++) {
+            this.general_memory[i] = new General_Word(0);
+        }
+        this.accumulator = new Accumulator();
+        this.mq_register = new MQ_Register();
+        this.storage_register = new Storage_Register();
+        this.instruction_register = new Instruction_Register();
+        this.ilc = new Instruction_Location_Register();
+        this.index_a = new Index_Register(0);
+        this.index_b = new Index_Register(0);
+        this.index_c = new Index_Register(0);
+
+        // Indicator light
+        this.ac_overflow = false; // goes on if a 1 passes into the P bit of the accumulator
+        this.mq_overflow = false; // goes on if floating point operation is outside range 000-255
+        this.divide_check = false;
+        this.tape_check = false;
+        this.trap_mode = false;
+        this.sense_switches = new Array(6).fill(false);
+        this.sense_lights = new Array(4).fill(false);
+    }
+}
+
+/**
  * Emulates the IBM 704 STO operation.
  *
  * Stores the value of the accumulator into the register with specified address.
