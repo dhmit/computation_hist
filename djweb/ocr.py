@@ -96,9 +96,16 @@ def ocr_pdf(input_pdf_path, return_type='text', output_pdf_path=None):
 
 def correct_skew(filepath):
     """
+    This function attempts to rotate images so that the text appears straight. This is primarily
+    a helper method for make_searchable_pdf, but can be used for other purposes.
 
-    :param filepath:
-    :return:
+    It takes an image saved to the disk (at filepath) and overwrites it with the rotated image.
+
+    Because of the fact that this alters a save file of a picture, there is no doctest for it.
+
+
+    :param filepath: str or Path, filepath to be rotated
+    :return: None
     """
 
     # load the image from disk
