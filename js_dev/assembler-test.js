@@ -1,5 +1,6 @@
 const computer = new IBM_704();
-code_line = 0;
+var code_line = 0;
+const newline_regex = /\r\n|[\n\v\f\r\x85\u2028\u2029]/;
 
 /**
  * Runs code placed into the textbox of ibm704sim.html with register 10 holding numerical

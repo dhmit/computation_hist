@@ -1,9 +1,5 @@
-// storage of numbers is currently only fixed point and doesn't have negative numbers
-// also there are no index registers or Type A functions.  Or most of the Type B functions
+// there are no index registers or Type A functions.  Or most of the Type B functions
 // basically most of the computer is missing
-// TODO: figure out how to use modules or sharing scripts or something like that in Javascript?
-
-const newline_regex = /\r\n|[\n\v\f\r\x85\u2028\u2029]/;
 
 const no_to_operation_b = {0o601: STO, 0: HTR, 0o500: CLA, 0o400: ADD};
 const no_to_operation_a = {0b110: TNX};
