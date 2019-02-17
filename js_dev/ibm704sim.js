@@ -863,11 +863,11 @@ class IBM_704 {
         let instruction;
         if (instruction_word.is_typeB()) {
             instruction = instruction_word.instruction_b;
-            instruction.operation(instruction.address); // TODO: implement functionality of tags
-            // and effective address modification
+            instruction.operation(this, instruction.address); // TODO: implement functionality of
+            // tags and effective address modification
         } else {
             instruction = instruction_word.instruction_a;
-            instruction.operation(instruction.address, instruction.tag, instruction.decrement);
+            instruction.operation(this, instruction.address, instruction.tag, instruction.decrement);
         }
     }
 
@@ -887,8 +887,9 @@ class IBM_704 {
  * Stores the value of the accumulator into the register with specified address.
  *
  * @param {number}  address     Address to store value to.
+ * @param {IBM_704} computer    Machine to execute instruction on.
  */
-function STO(address) {
+function STO(computer, address) {
     computer.general_memory[address].update_contents(computer.accumulator);
 }
 
@@ -898,8 +899,9 @@ function STO(address) {
  * Indicates the computer to halt.
  *
  * @param {number} address      Required for Type B instruction.
+ * @param {IBM_704} computer    Machine to execute instruction on.
  */
-function HTR(address) {
+function HTR(computer, address) {
     computer.halt = true;
 }
 
@@ -911,8 +913,9 @@ function HTR(address) {
  *
  * @param {number}  address     The address of the value to put into the accumulator (not
  * actually used).
+ * @param {IBM_704} computer    Machine to execute instruction on.
  */
-function CLA(address) {
+function CLA(computer, address) {
     computer.accumulator.clear();
     computer.accumulator.update_contents(computer.storage_register);
 }
@@ -924,18 +927,23 @@ function CLA(address) {
  * accumulator as if it were a fixed point number.  Note: does not handle negative numbers properly
  * right now.
  *
- * @param {number} address      The address of the value to add to the accumulator.
+ * @param {number}  address      The address of the value to add to the accumulator.
+ * @param {IBM_704} computer     Machine to execute instruction on.
  */
-function ADD(address) {
+function ADD(computer, address) {
     let sum = computer.accumulator.fixed_point + computer.general_memory[address].fixed_point;
     computer.accumulator.update_contents(sum);
 }
 
 /**
- * A dummy function for testing.
+ * A dummy function for testing Type A instructions.
  *
+ * @param computer
+ * @param address
+ * @param tag
+ * @param decrement
  */
-function TNX(a, b, c) {
+function TNX(computer, address, tag, decrement) {
     console.log("TNX called");
 }
 
