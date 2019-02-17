@@ -1,4 +1,7 @@
 const computer = new IBM_704(7); // this is the IBM 704
+const num_code_lines = 3;
+const general_memory_display = 7;
+code_line = 0;
 
 /**
  * Updates page to highlight correct line of code and display correct memory values.
@@ -46,7 +49,7 @@ function update() {
  * Steps through a single line of code indicated by the instruction location counter.
  */
 function step() {
-    if (!computer.halt) {
+    if (code_line < num_code_lines && !computer.halt) {
         computer.step();
         code_line++;
         update();
@@ -60,8 +63,8 @@ function step() {
 function start() {
     $('#step_button').on('click', step);
 
-    computer.general_memory[3].fixed_point = 12;
-    computer.general_memory[4].fixed_point = 30;
+    computer.general_memory[4].fixed_point = 12;
+    computer.general_memory[5].fixed_point = 30;
 
     const code = $(".symbolic_code");
     const code_innerHTML = Array(code.length);

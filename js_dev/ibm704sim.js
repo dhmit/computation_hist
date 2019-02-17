@@ -21,10 +21,6 @@ for (let number in no_to_operation_a) {
     no_to_operation_a_str[number] = (no_to_operation_a[number]).name;
 }
 
-const num_code_lines = 3;
-const general_memory_display = 7;
-code_line = 0;
-
 /**
  * Function to create a new string with the character at index replaced by a new character.
  *
@@ -876,7 +872,7 @@ class IBM_704 {
      */
     run() {
         while (!this.halt) {
-            step();
+            this.step();
         }
     }
 
@@ -965,8 +961,7 @@ function CLA(computer, address) {
  * @param {IBM_704} computer     Machine to execute instruction on.
  */
 function ADD(computer, address) {
-    let sum = computer.accumulator.fixed_point + computer.general_memory[address].fixed_point;
-    computer.accumulator.update_contents(sum);
+    computer.accumulator.fixed_point += computer.general_memory[address].fixed_point;
 }
 
 /**
@@ -979,127 +974,4 @@ function ADD(computer, address) {
  */
 function TNX(computer, address, tag, decrement) {
     console.log("TNX called");
-}
-
-/**
- * Runs code placed into the textbox of ibm704sim.html with register 10 holding numerical
- * value of 11 and register 11 holding numerical value of 14, and returns value of register 12.
- *
- * @returns {number}    The value of register 12.
- */
-function run() {
-    code = document.getElementById("codeBox").value;
-    code_lines = code.split(newline_regex);
-    assemble(code_lines);
-    general_memory[10] = 11; // assign register 10 value of 11
-    general_memory[11] = 14; // assign register 11 value of 14
-    // general_memory[0] = Math.pow(2,24)*0o500 + 10; // CLA 10
-    // general_memory[1] = Math.pow(2,24)*0o400 + 11; // ADD 11
-    // general_memory[2] = Math.pow(2,24)*0o601 + 12; // STO 12
-
-    // Why does javascript have only 32-bit numbers, but can do computation to 2^64?
-    // Why does the IBM 704 have 36-bit words? Why does this have to make my life harder?
-    // general_memory[0] = (0o500 << 24) | 10; // CLA 10
-    // general_memory[1] = (0o400 << 24) | 11; // ADD 11
-    // general_memory[2] = (0o601 << 24) | 12; // STO 12
-
-    for (ilc = 0; ilc < 8192; ilc++) {
-        instructionregister = general_memory[ilc];
-        if (instructionregister == 0) {
-            break;
-        }
-        address = get_address(instructionregister);
-        storage_register = general_memory[address];
-        operation = get_operation(instructionregister);
-        if (operation(address) == 1) {
-            break;
-        }
-    }
-    return general_memory[12]; // should be 25
-}
-
-
-/**
- * Stores Type B instruction into the instruction register in the way the IBM 704 does it.
- *
- * Does not handle Type A, input-output, shifting, or sense instructions.
- *
- * @param {number}  instruction     Instruction to be stored in instruction register.
- */
-function store_instruction_register(instruction) {
-    result = "";
-    instruction = convert_to_binary(instruction, 36);
-    result += instruction[0];
-    result += instruction.substring(3, 12);
-    length = result.length;
-    for (let i = 0; i <= 18 - length; i++) {
-        result += "1";
-    }
-    instructionregister = parseInt(result, 2);
-}
-
-/**
- * Stores a fixed point number into the indicated address in general memory.
- *
- * @param {number} number       Number to be stored.
- * @param {number} register     Address where number is to be stored.
- */
-function store_fixed_point_number(number, register) {
-    if (number < 0) {
-        sign_bit = "1";
-    } else {
-        sign_bit = "0";
-    }
-    unsigned_binary_rep = convert_to_binary(Math.abs(number), 35);
-    binary_rep = sign_bit + unsigned_binary_rep;
-    general_memory[register] = parseInt(binary_rep, 2);
-}
-
-/**
- * Returns the proper interpretation of a fixed point number from the indicated address.
- *
- * @param {number} register     Address where number is stored.
- * @returns {number}    Value of word at the address, interpreted as fixed point.
- */
-function get_fixed_point_number(register) {
-    binary_rep = convert_to_binary(general_memory[register], 36);
-    return parseInt(binary_to_fixed_point(binary_rep));
-}
-
-/**
- * Stores a number in floating-point format into the indicated address in general memory.
- *
- * @param {number}  number      Number to be stored.
- * @param {number}  register    Address where number is to be stored.
- */
-function store_floating_point_number(number, register) {
-    if (number < 0) {
-        sign_bit = "1";
-    } else {
-        sign_bit = "0";
-    }
-    binary_rep = sign_bit;
-    number = Math.abs(number);
-    exponent = Math.floor(Math.log2(number)) + 1;
-    characteristic = exponent + 128;
-    binary_rep += convert_to_binary(characteristic, 8);
-    magnitude = number / Math.pow(2, exponent);
-    magnitude_binary = (magnitude.toString(2)).substring(2,29);
-    length = magnitude_binary.length
-    for (let i = 0; i < 27 - length; i++) {
-        magnitude_binary = magnitude_binary + "0";
-    }
-    binary_rep += magnitude_binary;
-    general_memory[register] = parseInt(binary_rep, 2);
-}
-
-/**
- * Returns the proper interpretation of a floating-point number from the indicated address.
- *
- * @param {number} register     Address where number is stored.
- * @returns {number}    Value of word at the address, interpreted as floating point.
- */
-function get_floating_point_number(register) {
-    binary_rep = convert_to_binary(general_memory[register], 36);
-    return parseFloat(binary_to_floating_point(binary_rep));
 }
