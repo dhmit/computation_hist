@@ -879,6 +879,40 @@ class IBM_704 {
             step();
         }
     }
+
+    /**
+     * Converts an array of strings that contain lines of SHARE assembly into numerical code that is
+     * placed in general memory.
+     *
+     * Currently missing most operations, including all Type A operations and pseudo-operations, and
+     * doesn't handle tags.
+     *
+     * @param {number} origin        Where to start storing the program.
+     * @param {Array}  code_lines    Array of lines of code.
+     */
+    assemble(origin, code_lines) {
+        let register = origin;
+        for (let line_no in code_lines) {
+            let line = code_lines[line_no];
+            console.log(line);
+            let operation = line.substring(0,3);
+            let address = parseInt(line.substring(3, 6));
+            this.assemble_line(operation, address, register);
+            register++;
+        }
+    }
+
+    /**
+     * Stores an instruction into general memory as a number.  Currently doesn't handle Type A
+     * operations or tags.
+     *
+     * @param {string} operation    String name of operation.
+     * @param {number} address      Address that instruction is directed at.
+     * @param {number} register     Address that instruction should be stored in.
+     */
+    assemble_line(operation, address, register) {
+        this.general_memory[register].instruction_b = new Instruction_B(eval(operation), address);
+    }
 }
 
 /**
@@ -947,39 +981,6 @@ function TNX(computer, address, tag, decrement) {
     console.log("TNX called");
 }
 
-const computer = new IBM_704(8192); // this is the IBM 704
-
-/**
- * Converts an array of strings that contain lines of SHARE assembly into numerical code that is
- * placed in general memory.
- *
- * Currently missing most operations and all pseudo-operations, and doesn't handle tags.
- *
- * @param {Array} code_lines    Array of lines of code.
- */
-function assemble(code_lines) {
-    let register = 0;
-    for (let line_no in code_lines) {
-        let line = code_lines[line_no];
-        console.log(line);
-        let operation = line.substring(0,3);
-        let address = parseInt(line.substring(3, 6));
-        assemble_line(operation, address, register);
-        register++;
-    }
-}
-
-/**
- * Stores an instruction into general memory as a number.
- *
- * @param {string} operation    String name of operation.
- * @param {number} address      Address that instruction is directed at.
- * @param {number} register     Address that instruction should be stored in.
- */
-function assemble_line(operation, address, register) {
-    computer.general_memory[register].instruction_b = new Instruction_B(eval(operation), address);
-}
-
 /**
  * Runs code placed into the textbox of ibm704sim.html with register 10 holding numerical
  * value of 11 and register 11 holding numerical value of 14, and returns value of register 12.
@@ -1017,59 +1018,6 @@ function run() {
     return general_memory[12]; // should be 25
 }
 
-/**
- * Updates page to highlight correct line of code and display correct memory values.
- */
-function update() {
-    const code_html = $(".symbolic_code");
-    code_html.removeClass("highlighted");
-    code_html[code_line].className += " highlighted";
-
-    const general_memory_html = $(".general_memory");
-    for (let i = 0; i < general_memory_display; i++) {
-        general_memory_html[i].innerHTML = computer.general_memory[i].toString();
-    }
-    // const general_memory_0 = $('#general_memory0');
-    // general_memory_0.tooltip({title: binary_to_instruction_a(general_memory_0.html())});
-    // const general_memory_1 = $('#general_memory1');
-    // general_memory_1.tooltip({title: binary_to_instruction_a(general_memory_1.html())});
-    // const general_memory_2 = $('#general_memory2');
-    // general_memory_2.tooltip({title: binary_to_instruction_a(general_memory_2.html())});
-    // const general_memory_3 = $('#general_memory3');
-    // general_memory_3.tooltip({title: binary_to_fixed_point(general_memory_3.html())});
-    // const general_memory_4 = $('#general_memory4');
-    // general_memory_4.tooltip({title: binary_to_fixed_point(general_memory_4.html())});
-    // const general_memory_5 = $('#general_memory5');
-    // general_memory_5.tooltip({title: binary_to_fixed_point(general_memory_5.html())});
-
-    general_memory_0 = $('#general_memory0')[0];
-    general_memory_0.title = computer.general_memory[0].instruction_b.toString();
-    general_memory_1 = $('#general_memory1')[0];
-    general_memory_1.title = computer.general_memory[1].instruction_b.toString();
-    general_memory_2 = $('#general_memory2')[0];
-    general_memory_2.title = computer.general_memory[2].instruction_b.toString();
-    general_memory_3 = $('#general_memory3')[0];
-    general_memory_3.title = computer.general_memory[3].fixed_point;
-    general_memory_4 = $('#general_memory4')[0];
-    general_memory_4.title = computer.general_memory[4].fixed_point;
-    general_memory_5 = $('#general_memory5')[0];
-    general_memory_5.title = computer.general_memory[5].fixed_point;
-
-
-    instruction_location_counter_element = $("#instruction_location_counter")[0];
-    instruction_location_counter_element.innerHTML = computer.ilc.toString();
-    instruction_location_counter_element.title = computer.ilc.valueOf();
-
-    $("#instruction_register").html(computer.instruction_register.toString());
-
-    storage_register_element = $("#storage_register")[0];
-    storage_register_element.innerHTML = computer.storage_register.toString();
-    storage_register_element.title = (new General_Word(computer.storage_register)).fixed_point;
-
-    accumulator_element = $("#accumulator")[0];
-    accumulator_element.innerHTML = computer.accumulator.toString();
-    accumulator_element.title = computer.accumulator.fixed_point;
-}
 
 /**
  * Stores Type B instruction into the instruction register in the way the IBM 704 does it.
@@ -1155,37 +1103,3 @@ function get_floating_point_number(register) {
     binary_rep = convert_to_binary(general_memory[register], 36);
     return parseFloat(binary_to_floating_point(binary_rep));
 }
-
-/**
- * Steps through a single line of code indicated by the instruction location counter.
- */
-function step() {
-    if (!computer.halt) {
-        computer.step();
-        code_line++;
-        update();
-    }
-}
-
-/**
- * Initializes ibm704_assembly_addition.html, including initializing register 3 of general memory to
- * 12 and register 4 of general memory to 30, and storing the set program into memory.
- */
-function start() {
-    $('#step_button').on('click', step);
-
-    computer.general_memory[3].fixed_point = 12;
-    computer.general_memory[4].fixed_point = 30;
-
-    const code = $(".symbolic_code");
-    const code_innerHTML = Array(code.length);
-    for (let i = 0; i < num_code_lines; i++) {
-        code_innerHTML[i] = code[i].innerHTML;
-    }
-    assemble(code_innerHTML);
-    update();
-}
-
-$(document).ready(start);
-
-
