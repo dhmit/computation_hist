@@ -10,7 +10,6 @@ const no_to_operation_b_str = {};
 for (let number in no_to_operation_b) {
     operation_b_to_no[(no_to_operation_b[number]).name] = number;
     no_to_operation_b_str[number] = (no_to_operation_b[number]).name;
-
 }
 for (let number in no_to_operation_a) {
     operation_a_to_no[(no_to_operation_a[number]).name] = number;
