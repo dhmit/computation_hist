@@ -1,9 +1,7 @@
-import urllib.request, urllib.error
-import shutil
-import sys
 import os
-from pathlib import Path, PurePath, PurePosixPath
-from django.db import models
+from pathlib import Path, PurePosixPath
+from .models import Document, Page
+from django.db.models.signals import post_save
 
 
 DJWEB_PATH = Path(os.path.abspath(os.path.dirname(__file__)))
@@ -73,7 +71,16 @@ def get_file_path(box: int, folder: int, foldername_short:str, file_type:str,
         path = Path(DATA_BASE_PATH, path)
 
     if aws_file:
-        path = Path("https://s3.amazonaws.com/comp-hist/docs/2_1_digital_comp_to_social_problems" \
-                 "/docs/", path)
+        path = Path("https://s3.amazonaws.com/comp-hist/docs/", path)
 
     return path
+
+
+def create_pages(sender, instance, **kwargs):
+    if instance.last_page != 0:
+        for i in range(1, instance.number_of_pages +1):
+            new_page = Page(document=instance, page_number=i)
+            new_page.save()
+
+
+post_save.connect(create_pages, sender=Document)

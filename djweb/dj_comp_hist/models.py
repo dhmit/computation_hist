@@ -2,7 +2,7 @@ from django.db import models
 from pdf2image import convert_from_path
 import csv
 import os
-from pathlib import Path, PurePosixPath
+from pathlib import Path
 from .common import get_file_path
 
 # Create your models here.
@@ -112,18 +112,18 @@ class Document(models.Model):
     @property
     def doc_id(self):
         id_num = []
-        for char in reversed(range(len(self.file_name))):
-            if char != "_":
-                id_num.append(char)
+        file = str(self.file_name)
+        for char in reversed(range(len(file))):
+            if file[char] != "_":
+                id_num.append(file[char])
             else:
                 break
-        return int(''.join(reversed((id_num))))
+        return int(''.join(reversed(id_num)))
 
 
 class Page(models.Model):
     document = models.ForeignKey(Document, on_delete=models.CASCADE)
     page_number = models.IntegerField(default=0)
-    image_path = models.ImageField(blank=True)
 
     def __str__(self):
         return "Page " + str(self.page_number) + " of " + str(self.document)
