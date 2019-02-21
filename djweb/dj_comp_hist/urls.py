@@ -12,6 +12,6 @@ urlpatterns = [
     path('search/$', views.search, name='search'),
     path('search_results/', views.search_results, name='search_results'),
     # Todo: Slugify at a much later time?
-    path('list/<str:model_str>', views.list, name='list'),
+    path('list/<str:model_str>', views.list_obj, name='list'),
     path('page/<int:page_id>', views.page, name='page')
 ]

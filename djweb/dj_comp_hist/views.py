@@ -1,6 +1,6 @@
 from django.shortcuts import render, get_object_or_404, get_list_or_404
 from .models import Person, Document, Box, Folder, Organization, Page
-from django.template import loader, Context
+from django.template import loader
 from django.db.models import Q
 
 # Create your views here.
@@ -17,9 +17,13 @@ def person(request, person_id):
     document_written_objs = person_obj.author_person.all()
     document_received_objs = person_obj.recipient_person.all()
     document_cced_objs = person_obj.cced_person.all()
-    x = render(request, 'person.jinja2', {'person_obj': person_obj, 'document_written_objs':
-        document_written_objs, 'document_received_objs': document_received_objs, 'document_cced_objs': document_cced_objs})
-    return x
+    obj_dict = {
+        'person_obj': person_obj,
+        'document_written_objs': document_written_objs,
+        'document_received_objs': document_received_objs,
+        'document_cced_objs': document_cced_objs
+    }
+    return render(request, 'person.jinja2', obj_dict)
 
 
 def doc(request, doc_id):
@@ -31,26 +35,37 @@ def doc(request, doc_id):
     cced_person_objs = doc_obj.cced_person.all()
     cced_organization_objs = doc_obj.cced_organization.all()
     page_objs = doc_obj.page_set.all()
-    return render(request, 'doc.jinja2', {'doc_obj': doc_obj, 'author_person_objs':
-        author_person_objs, 'author_organization_objs': author_organization_objs,
-                                        'recipient_person_objs': recipient_person_objs,
-                                        'recipient_orgaization_objs':
-                                            recipient_organization_objs, 'cced_person_objs':
-                                            cced_person_objs, 'cced_organization_objs':
-                                              cced_organization_objs, 'page_objs': page_objs})
+    obj_dict = {
+        'doc_obj': doc_obj,
+        'author_person_objs': author_person_objs,
+        'author_organization_objs': author_organization_objs,
+        'recipient_person_objs': recipient_person_objs,
+        'recipient_orgaization_objs': recipient_organization_objs,
+        'cced_person_objs': cced_person_objs,
+        'cced_organization_objs': cced_organization_objs,
+        'page_objs': page_objs
+    }
+    return render(request, 'doc.jinja2', obj_dict)
 
 
 def box(request, box_id):
     box_obj = get_object_or_404(Box, pk=box_id)
     folder_objs = box_obj.folder_set.all()
-    return render(request, 'box.jinja2', {'box_obj': box_obj, 'folder_objs': folder_objs})
+    obj_dict = {
+        'box_obj': box_obj,
+        'folder_objs': folder_objs
+    }
+    return render(request, 'box.jinja2', obj_dict)
 
 
 def folder(request, folder_id):
     folder_obj = get_object_or_404(Folder, pk=folder_id)
     document_objs = folder_obj.document_set.all()
-    response = render(request, 'folder.jinja2', {'folder_obj': folder_obj, 'document_objs':
-        document_objs})
+    obj_dict = {
+        'folder_obj': folder_obj,
+        'document_objs': document_objs
+    }
+    response = render(request, 'folder.jinja2', obj_dict)
     return response
 
 
@@ -59,9 +74,13 @@ def organization(request, org_id):
     document_written_objs = org_obj.author_organization.all()
     document_received_objs = org_obj.recipient_organization.all()
     document_cced_objs = org_obj.cced_organization.all()
-    response = render(request, 'organization.jinja2', {'org_obj': org_obj, 'document_written_objs':
-        document_written_objs, 'document_received_objs': document_received_objs,
-                                                       'document_cced_objs': document_cced_objs})
+    obj_dict = {
+        'org_obj': org_obj,
+        'document_written_objs': document_written_objs,
+        'document_received_objs': document_received_objs,
+        'document_cced_objs': document_cced_objs
+    }
+    response = render(request, 'organization.jinja2', obj_dict)
     return response
 
 
@@ -71,20 +90,24 @@ def page(request, page_id):
     try:
         next_page_number = page_obj.page_number + 1
         next_page = Page.objects.get(document=document_obj, page_number=next_page_number)
-    except:
+    except: # TODO: figure out type of exception
         next_page = None
     try:
         previous_page_number = page_obj.page_number - 1
         previous_page = Page.objects.get(document=document_obj, page_number=previous_page_number)
-    except:
+    except: # TODO: figure out type of exception
         previous_page = None
-    response = render(request, 'page.jinja2', {'page_obj': page_obj, 'document_obj':document_obj,
-                                               'next_page': next_page, 'previous_page':
-                                                   previous_page})
+    obj_dict = {
+        'page_obj': page_obj,
+        'document_obj':document_obj,
+        'next_page': next_page,
+        'previous_page': previous_page
+    }
+    response = render(request, 'page.jinja2', obj_dict)
     return response
 
 
-def list(request, model_str):
+def list_obj(request, model_str):
     if model_str == "organization":
         model = Organization
     elif model_str == "person":
@@ -93,11 +116,24 @@ def list(request, model_str):
         model = Folder
     elif model_str == "box":
         model = Box
+    else:
+        raise ValueError("Cannot display this model. Can only display organization, person, "
+                         "folder, or box")
     model_objs = get_list_or_404(model)
-    response = render(request, 'list.jinja2', {'model_objs': model_objs, 'model_str': model_str})
+    obj_dict = {
+        'model_objs': model_objs,
+        'model_str': model_str
+    }
+    response = render(request, 'list.jinja2', obj_dict)
     return response
 
+
 def search(request):
+    '''
+    # TODO make docstring that explains how search_results and search are different
+    :param request:
+    :return:
+    '''
     query = request.POST['usr_query']
     print("QUERY: ")
     print(query)
@@ -105,6 +141,7 @@ def search(request):
     c = {'query': query}
 
     return HttpResponse(t.render(c))
+
 
 def search_results(request):
     """
