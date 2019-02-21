@@ -79,9 +79,13 @@ def page(request, page_id):
         previous_page = Page.objects.get(document=document_obj, page_number=previous_page_number)
     except:
         previous_page = None
-    response = render(request, 'page.jinja2', {'page_obj': page_obj, 'document_obj':document_obj,
-                                               'next_page': next_page, 'previous_page':
-                                                   previous_page, 'png_url_amz': png_url_amz})
+    obj_dict = {
+        'page_obj': page_obj,
+        'document_obj': document_obj,
+        'next_page': next_page,
+        'previous_page': previous_page
+    }
+    response = render(request, 'page.jinja2', obj_dict)
     return response
 
 
