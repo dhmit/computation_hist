@@ -818,6 +818,7 @@ class IBM_704 {
      * @param {number} size     Number of words in general memory.
      */
     constructor(size = 8192) {
+        this.size = size;
         this.general_memory = new Array(size);
         for (let i = 0; i < size; i++) {
             this.general_memory[i] = new General_Word(0);
