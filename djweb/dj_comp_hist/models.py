@@ -323,5 +323,3 @@ def page_image_to_doc(folder_name, pdf_path, image_directory):
             # This means that the page isn't associated with a document
             pass
     return
-
-
