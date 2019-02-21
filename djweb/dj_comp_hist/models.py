@@ -1,6 +1,6 @@
 from django.db import models
-# from django.db.models.signals import post_save
-# from django.db.models.signals import  post_save
+from django.db.models.signals import post_save
+from django.db.models.signals import  post_save
 from pdf2image import convert_from_path
 import csv
 import os
@@ -150,7 +150,7 @@ def check_person_known(person):
 
 
 def interpret_person_organization(field, item_organization, item_person, new_doc):
-    # Adds people and organizations as an author, recipient, or CC'ed. Utilizes check_generate to
+    # Adds people and organizations as an author, recipient, or cced. Utilizes check_generata to
     # make the process easier.
     field_split = field.split('; ')
 
@@ -174,7 +174,7 @@ def interpret_person_organization(field, item_organization, item_person, new_doc
 
 
 def populate_from_metadata(file_name=None):
-    """
+    '''
     :param file_name: is a path to a csv file (relative or actual)
     :return: populates the django database, but returns nothing
 
@@ -189,7 +189,7 @@ def populate_from_metadata(file_name=None):
 
     The 'r' in front of the file location isn't necessary but can help to prevent strange errors.
     Utilizes interpret_organization_person to add authors, recipients, and cced.
-    """
+    '''
 
     if file_name is None:
         file_name = Path(os.path.abspath(os.path.dirname(__file__)), 'metadata_jan24.csv')
@@ -197,15 +197,10 @@ def populate_from_metadata(file_name=None):
     with open(file_name) as file:
         csv_file = csv.DictReader(file)
         for line in csv_file:
-            number_of_pages = int(line['last_page']) - int(line['first_page']) + 1
-            new_doc = Document(number_of_pages=number_of_pages,
-                               title=line['title'],
-                               type=line['doc_type'],
-                               notes=line['notes'],
-                               first_page=line['first_page'],  # should this be an int?
-                               last_page=line['last_page'],
-                               file_name=line['filename']
-                               )
+            new_doc = Document(number_of_pages=int(line['last_page']) - int(line['first_page']) + 1,
+                               title=line['title'], type=line['doc_type'], notes=line['notes'],
+                               first_page=line['first_page'], last_page=line['last_page'],
+                               file_name=line['filename'])
 
             # ---------------------DATE-----------------------------------------------
             if line['date'] != '' and line['date'][0] == '1':
@@ -214,9 +209,9 @@ def populate_from_metadata(file_name=None):
             # ------------------------------------------------------------------------
 
             # ---------------------Folder---------------------------------------------
-            folder_exist, new_folder = check_generate(Folder, "name", line['foldername_short'])
+            folder_exist,new_folder = check_generate(Folder, "name" ,line['foldername_short'])
             if not folder_exist:
-                box_exist, new_box = check_generate(Box, "number", line['box'])
+                box_exist,new_box = check_generate(Box, "number" , line['box'])
                 new_box.save()
                 new_folder.box = new_box
                 new_folder.number = line['folder_number']
@@ -227,21 +222,12 @@ def populate_from_metadata(file_name=None):
             new_doc.save()
 
             # -----------------------Author, Recipient,cced--------------------------
-            interpret_person_organization(line['author'],
-                                          "author_organization",
-                                          "author_person",
-                                          new_doc
-                                          )
-            interpret_person_organization(line['recipients'],
-                                          "recipient_organization",
+            interpret_person_organization(line['author'], "author_organization", "author_person", new_doc)
+            interpret_person_organization(line['recipients'], "recipient_organization",
                                           "recipient_person",
-                                          new_doc
-                                          )
-            interpret_person_organization(line['cced'],
-                                          "cced_organization",
-                                          "cced_person",
-                                          new_doc
-                                          )
+                                          new_doc)
+            interpret_person_organization(line['cced'], "cced_organization", "cced_person",
+                                          new_doc)
 
             new_doc.save()
 
@@ -282,20 +268,19 @@ def page_image_to_doc(folder_name, pdf_path, image_directory):
     page_num = 1
 
     for page in images_in_pdf:
-        current_document = documents_sort[document_place]
-        next_document = documents_sort[document_place + 1]
-        if current_document.first_page <= page[1] <= current_document.last_page:
+        if documents_sort[document_place].first_page <= page[1] <= documents_sort[\
+                document_place].last_page:
             # this means that this is the same document as last page
-            page_obj = Page(document=current_document, page_number=page_num)
+            page_obj = Page(document=documents_sort[document_place], page_number=page_num)
             page_obj.image_path.name = folder_name + '_' + str(page[1]) + '.png'
             page_obj.save()
             page_num += 1
-        elif next_document.first_page <= page[1] <= next_document.last_page:
+        elif documents_sort[document_place+1].first_page <= page[1] <= documents_sort[\
+                document_place+1].last_page:
             # this means this is a new document
-
             document_place += 1
             page_num = 1
-            page_obj = Page(document=next_document, page_number=page_num)
+            page_obj = Page(document=documents_sort[document_place], page_number=page_num)
             page_obj.image_path.name = folder_name + '_' + str(page[1]) + '.png'
             page_obj.save()
             page_num += 1

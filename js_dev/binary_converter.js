@@ -58,8 +58,7 @@ function binary_to_fixed_point(binary_rep) {
 }
 
 function binary_to_floating_point(binary_rep) {
-    original_length = binary_rep.length;
-    for (let i = 0; i < 36 - original_length; i++) {
+    for (let i = 0; i < 36 - binary_rep.length; i++) {
         binary_rep = "0" + binary_rep;
     }
     fraction_bits = binary_rep.substring(9,36);
