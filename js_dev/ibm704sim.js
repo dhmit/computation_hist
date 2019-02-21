@@ -819,29 +819,7 @@ class IBM_704 {
      */
     constructor(size = 8192) {
         this.size = size;
-        this.general_memory = new Array(size);
-        for (let i = 0; i < size; i++) {
-            this.general_memory[i] = new General_Word(0);
-        }
-        this.accumulator = new Accumulator();
-        this.mq_register = new MQ_Register();
-        this.storage_register = new Storage_Register();
-        this.instruction_register = new Instruction_Register();
-        this.ilc = new Instruction_Location_Register();
-        this.index_a = new Index_Register(0);
-        this.index_b = new Index_Register(0);
-        this.index_c = new Index_Register(0);
-
-        // Indicator light
-        this.ac_overflow = false; // goes on if a 1 passes into the P bit of the accumulator
-        this.mq_overflow = false; // goes on if floating point operation is outside range 000-255
-        this.divide_check = false;
-        this.tape_check = false;
-        this.trap_mode = false;
-        this.sense_switches = new Array(6).fill(false);
-        this.sense_lights = new Array(4).fill(false);
-
-        this.halt = false;
+        this.clear();
     }
 
     /**
@@ -870,6 +848,35 @@ class IBM_704 {
         while (!this.halt) {
             this.step();
         }
+    }
+
+    /**
+     * Resets the IBM 704 so all registers are 0.
+     */
+    clear() {
+        this.general_memory = new Array(this.size);
+        for (let i = 0; i < this.size; i++) {
+            this.general_memory[i] = new General_Word(0);
+        }
+        this.accumulator = new Accumulator();
+        this.mq_register = new MQ_Register();
+        this.storage_register = new Storage_Register();
+        this.instruction_register = new Instruction_Register();
+        this.ilc = new Instruction_Location_Register();
+        this.index_a = new Index_Register(0);
+        this.index_b = new Index_Register(0);
+        this.index_c = new Index_Register(0);
+
+        // Indicator light
+        this.ac_overflow = false; // goes on if a 1 passes into the P bit of the accumulator
+        this.mq_overflow = false; // goes on if floating point operation is outside range 000-255
+        this.divide_check = false;
+        this.tape_check = false;
+        this.trap_mode = false;
+        this.sense_switches = new Array(6).fill(false);
+        this.sense_lights = new Array(4).fill(false);
+
+        this.halt = false;
     }
 
     /**

@@ -57,21 +57,6 @@ function update() {
         general_memory_html[i].title += "\r\nFloating Point: " + computer.general_memory[i].floating_point;
     }
 
-    // general_memory_0 = $('#general_memory0')[0];
-    // general_memory_0.title = computer.general_memory[0].instruction_b.toString();
-    // general_memory_0.title += "\r\n" + computer.general_memory[0].fixed_point;
-    // general_memory_1 = $('#general_memory1')[0];
-    // general_memory_1.title = computer.general_memory[1].instruction_b.toString();
-    // general_memory_2 = $('#general_memory2')[0];
-    // general_memory_2.title = computer.general_memory[2].instruction_b.toString();
-    // general_memory_3 = $('#general_memory3')[0];
-    // general_memory_3.title = computer.general_memory[3].fixed_point;
-    // general_memory_4 = $('#general_memory4')[0];
-    // general_memory_4.title = computer.general_memory[4].fixed_point;
-    // general_memory_5 = $('#general_memory5')[0];
-    // general_memory_5.title = computer.general_memory[5].fixed_point;
-
-
     instruction_location_counter_element = $("#instruction_location_counter")[0];
     instruction_location_counter_element.innerHTML = computer.ilc.toString();
     instruction_location_counter_element.title = computer.ilc.valueOf();
@@ -85,6 +70,11 @@ function update() {
     accumulator_element = $("#accumulator")[0];
     accumulator_element.innerHTML = computer.accumulator.toString();
     accumulator_element.title = computer.accumulator.fixed_point;
+}
+
+function clear() {
+    computer.clear();
+    update();
 }
 
 function start() {
