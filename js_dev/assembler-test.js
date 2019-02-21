@@ -90,8 +90,8 @@ function update() {
 function start() {
     $('#run_button').on('click', run);
 
-    // computer.general_memory[4].fixed_point = 12;
-    // computer.general_memory[5].fixed_point = 30;
+    computer.general_memory[4].fixed_point = 12;
+    computer.general_memory[5].fixed_point = 30;
 
     create_memory_display();
     expand_text_area("code_box");
