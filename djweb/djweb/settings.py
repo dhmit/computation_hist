@@ -66,7 +66,7 @@ ROOT_URLCONF = 'djweb.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django_jinja.backend.Jinja2',
-        'DIRS': [],
+        'DIRS': [(os.path.join(BASE_DIR, 'templates'))],
         'APP_DIRS': True,
         "OPTIONS": {
             'trim_blocks': True,
