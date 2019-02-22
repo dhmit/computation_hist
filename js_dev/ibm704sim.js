@@ -1,7 +1,7 @@
 // there are no index registers or Type A functions.  Or most of the Type B functions
 // basically most of the computer is missing
 
-const no_to_operation_b = {0o601: STO, 0: HTR, 0o500: CLA, 0o400: ADD};
+const no_to_operation_b = {0o601: STO, 0: HTR, 0o500: CLA, 0o400: ADD, 0o402: SUB, 0o040: SBM}; //Change num later
 const no_to_operation_a = {0b110: TNX};
 const operation_b_to_no = {};
 const operation_a_to_no = {};
@@ -967,6 +967,10 @@ function ADD(computer, address) {
     computer.accumulator.fixed_point += computer.general_memory[address].fixed_point;
 }
 
+function SUB(computer, address) {
+    computer.accumulator.fixed_point = computer.accumulator.fixed_point - computer.general_memory[address].fixed_point;
+}
+
 /**
  * A dummy function for testing Type A instructions.
  *
@@ -977,4 +981,8 @@ function ADD(computer, address) {
  */
 function TNX(computer, address, tag, decrement) {
     console.log("TNX called");
+}
+
+function SBM(computer, address) {
+    computer.accumulator.fixed_point = computer.accumulator.fixed_point - Math.abs(computer.general_memory[address].fixed_point);
 }
