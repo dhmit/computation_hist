@@ -1,24 +1,49 @@
+import urllib.request, urllib.error
+import shutil
+import sys
 import os
-from pathlib import Path, PurePath
+from pathlib import Path, PurePath, PurePosixPath
 from django.db import models
 from computation_hist.common import make_searchable_pdf
-import sys
+
 from PyPDF2 import PdfFileWriter, PdfFileReader
 from pdf2image import convert_from_path
 
 
-base_path = Path(os.path.abspath(os.path.dirname(__file__)))
-
-# SR: I think it's better to just move sort_pdfs.py to djweb so we don't have to deal with sys path
-# insert
-#sys.path.insert(0, PurePath.joinpath(base_path.parent, "djweb"))
-
-from dj_comp_hist.models import Person, Document, Box, Folder, Organization, Page
-path_to_boxes = Path(base_path.parent,"computation_hist","data","web_test_set")
+DJWEB_PATH = Path(os.path.abspath(os.path.dirname(__file__)))
+DATA_BASE_PATH = Path(DJWEB_PATH.parent,"computation_hist","data","processed_pdfs")
 
 
+def download_raw_folder_pdf_from_aws(box:int, folder:int, foldername:str):
+    '''
+    Downloads a raw (not yet ocred) pdf file from amazon aws and stores it in the proper folder
+    relative to DATA_BASE_PATH
 
-def create_sub_folders(path_to_boxes=path_to_boxes, foldername_short='rockefeller'):
+    :return: Path
+    '''
+
+    rel_path = get_file_path(box, folder, foldername, file_type='raw_pdf', include_base_path=False)
+    abs_path = Path(DATA_BASE_PATH, rel_path)
+
+    # SR: I was worried about using str(Path) on Windows systems, hence the awkward "/".join()
+    url = f'https://s3.amazonaws.com/comp-hist/docs/{"/".join(rel_path.parts)}'
+
+    try:
+        with urllib.request.urlopen(url) as response:
+            abs_path.parent.mkdir(parents=True, exist_ok=True)
+            with open(abs_path, 'wb') as pdf_file:
+                shutil.copyfileobj(response, pdf_file)
+    except urllib.error.HTTPError:
+        raise(FileNotFoundError(f'{url} is not available from our AWS bucket. For a list of '
+                                     f'available files, see aws_available_files.md in the '
+                                     f'computation_hist/data directory.'))
+
+    return abs_path
+
+
+def create_sub_folders(path_to_boxes=DATA_BASE_PATH, foldername_short='rockefeller'):
+
+
     """
     To run this code :
     sys.path
@@ -34,6 +59,9 @@ def create_sub_folders(path_to_boxes=path_to_boxes, foldername_short='rockefelle
 
     :return:
     """
+
+
+    from dj_comp_hist.models import Person, Document, Box, Folder, Organization, Page
 
     box = str(Folder.objects.get(name=foldername_short).box) # note this is a string
 
@@ -94,4 +122,7 @@ def split_folder_to_doc(pdf_path, associated_documents, folder_name):
        split_doc_to_page(pdf_path, folder_name)
 
 if __name__ == '__main__':
-    create_sub_folders()
+#    create_sub_folders()
+
+    download_raw_folder_pdf_from_aws(2, 1, 'digital_comp_to_social_problems')
+    pass
