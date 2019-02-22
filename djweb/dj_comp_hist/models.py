@@ -138,7 +138,7 @@ class Page(models.Model):
         png_path = get_file_path(self.document.folder.box.number, self.document.folder.number,
                                  self.document.folder.name, file_type='png', 
                                  doc_id=self.document.doc_id, page_id=int(self.page_number),
-                                 include_base_path=False, aws_file=True)
+                                 path_type='aws')
         return png_path
 
 class Text(models.Model):
