@@ -11,6 +11,7 @@ numpy
 oauth2client
 pandas
 pdf2image
+pylint
 PyPDF2
 requests
 scipy

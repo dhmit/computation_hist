@@ -168,7 +168,7 @@ def check_person_known(person):
 
 
 def interpret_person_organization(field, item_organization, item_person, new_doc):
-    # Adds people and organizations as an author, recipient, or cced. Utilizes check_generata to
+    # Adds people and organizations as an author, recipient, or CC'ed. Utilizes check_generate to
     # make the process easier.
     field_split = field.split('; ')
 
@@ -192,7 +192,7 @@ def interpret_person_organization(field, item_organization, item_person, new_doc
 
 
 def populate_from_metadata(file_name=None):
-    '''
+    """
     :param file_name: is a path to a csv file (relative or actual)
     :return: populates the django database, but returns nothing
 
@@ -207,7 +207,7 @@ def populate_from_metadata(file_name=None):
 
     The 'r' in front of the file location isn't necessary but can help to prevent strange errors.
     Utilizes interpret_organization_person to add authors, recipients, and cced.
-    '''
+    """
 
     if file_name is None:
         file_name = Path(os.path.abspath(os.path.dirname(__file__)), 'metadata_jan24.csv')
@@ -303,19 +303,20 @@ def page_image_to_doc(folder_name, pdf_path, image_directory):
     page_num = 1
 
     for page in images_in_pdf:
-        if documents_sort[document_place].first_page <= page[1] <= documents_sort[\
-                document_place].last_page:
+        current_document = documents_sort[document_place]
+        next_document = documents_sort[document_place + 1]
+        if current_document.first_page <= page[1] <= current_document.last_page:
             # this means that this is the same document as last page
-            page_obj = Page(document=documents_sort[document_place], page_number=page_num)
+            page_obj = Page(document=current_document, page_number=page_num)
             page_obj.image_path.name = folder_name + '_' + str(page[1]) + '.png'
             page_obj.save()
             page_num += 1
-        elif documents_sort[document_place+1].first_page <= page[1] <= documents_sort[\
-                document_place+1].last_page:
+        elif next_document.first_page <= page[1] <= next_document.last_page:
             # this means this is a new document
+
             document_place += 1
             page_num = 1
-            page_obj = Page(document=documents_sort[document_place], page_number=page_num)
+            page_obj = Page(document=next_document, page_number=page_num)
             page_obj.image_path.name = folder_name + '_' + str(page[1]) + '.png'
             page_obj.save()
             page_num += 1
