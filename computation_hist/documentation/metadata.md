@@ -10,20 +10,20 @@ Please enter the metadata to the
 [metadata google sheet.](https://docs.google.com/spreadsheets/d/1LU05c0lTSTQ9IY3RS4eDcyvq5HNBMx6mbuMJe6TX-ZA/edit?usp=sharing)
 
 The [scanned documents](https://drive.google.com/drive/u/0/folders/13YcKYIsK2vv_zXwnGECTnNgAvKizu4PL) 
-are on google drive. Note: you might have to request access to them.
+are on google drive. Note: you might have to request access from one of the staff members.
 
 Note: Each incoming pdf is pre-processed by Elena Boal. The name of the file can be used to extract
 information. For example:
 
-1_02_raw_project_proposal_contract.pdf means:
+1_2_project_proposal_contract_raw.pdf means:
 
 1 -> Box
 
 02 -> Folder number 
 
-raw -> the pdf has not been ocred (otherwise it would say "ocr")
-
 project_propsoal_contract -> short foldername
+
+raw -> the pdf has not been ocred (otherwise it would say "ocr")
 
 ## General Rules
 
@@ -250,4 +250,4 @@ the document. This is the place to discuss if a title was properly assigned, if 
  
  ## Final Note
  If you have further questions or comments about adding the metadata, please contact our metadata
-  specialist Carol or Stephan.
+  specialist Carol or a staff member.
