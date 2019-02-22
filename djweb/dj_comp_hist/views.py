@@ -108,7 +108,8 @@ def page(request, page_id):
         'page_obj': page_obj,
         'document_obj': document_obj,
         'next_page': next_page,
-        'previous_page': previous_page
+        'previous_page': previous_page,
+        'png_url_amz': png_url_amz,
     }
     response = render(request, 'page.jinja2', obj_dict)
     return response
