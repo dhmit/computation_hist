@@ -12,8 +12,64 @@
             visibility:hidden
         }
     </style>
-    Searches for: {{ query }} {% endblock %}
+    Searches for: {{ query }}
+{% endblock %}
 {% block table %}
+    Need a more advanced search?
+    <form>
+        Look for documents in boxes (check all if unsure):
+        <br>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="checkBox1"
+                   name="checkBox1" value="1">
+            <label class="form-check-label" for="checkBox1">1</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="checkBox2"
+                   name="checkBox2" value=1>
+            <label class="form-check-label" for="checkBox2">2</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="checkBox3"
+                   name="checkBox3" value=1>
+            <label class="form-check-label" for="checkBox3">3</label>
+        </div>
+    <br>
+        <label for="inputAuthor" class="col-sm-2 col-form-label">Authored by: (leave blank
+            if unsure)</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" name="author" id="inputAuthor">
+        </div>
+        <label for="inputReceiver" class="col-sm-2 col-form-label">Received by: (leave blank
+            if unsure)</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" name="receiver" id="inputReceiver">
+        </div>
+    <br>
+        <div class="form-group">
+            <label for="multipleSelect"> Document Type, if known: </label>
+            <select multiple class="form-control" id="multipleSelect" name="doc_type">
+                {% for type in doc_type %}
+                <option>{{ type }}</option>
+                {% endfor %}
+            </select>
+        </div>
+    <br>
+        Filter by number of pages: <b>1</b> <input id="ex2" type="slider" class="span2" value=""
+                                                   data-provide="slider"
+                                                     data-slider-min="1" data-slider-max="25"
+                                                     data-slider-step="1"
+                                                     data-slider-value="[250,450]"/>  <b>25</b>
+    <br>
+        Filter by year range: <b>1945</b> <input id="ex3" type="slider" class="span2" value=""
+                                                 data-provide="slider"
+                                                     data-slider-min="1945" data-slider-max="1965"
+                                                     data-slider-step="1"
+                                                     data-slider-value="[250,450]"/>  <b>1965</b>
+    <br><br>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
     {% set searches = False %}
     <a style="margin-right: 5px;" href="#people" class="active">People</a>
     <a style="margin-right: 5px;" href="#doc">Documents</a>
