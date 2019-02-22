@@ -122,7 +122,7 @@ def correct_skew(filepath):
 
     # threshold the image, setting all foreground pixels to
     # 255 and all background pixels to 0
-    thresh = cv2.threshold(gray, 0, 10,
+    thresh = cv2.threshold(gray, 0, 255,
                            cv2.THRESH_BINARY | cv2.THRESH_OTSU)[1]
 
     # grab the (x, y) coordinates of all pixel values that
@@ -199,6 +199,7 @@ def fix_pil(doc):
 
 if __name__ == '__main__':
     input_pdf_path = Path('..', 'computation_hist', 'data', 'sample_docs',
-                          'skew_test.pdf')
-    output_pdf_path = Path('..', 'computation_hist', 'data', 'sample_docs', 'skew_test_out.pdf')
+                          '2_01_raw_digital_comp_to_social_problems.pdf')
+    output_pdf_path = Path('..', 'computation_hist', 'data', 'sample_docs',
+                           'skew_test_out.pdf')
     o = ocr_pdf(input_pdf_path, return_type='pdf', output_pdf_path=output_pdf_path)
