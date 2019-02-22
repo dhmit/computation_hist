@@ -93,6 +93,7 @@ def organization(request, org_id):
 def page(request, page_id):
     page_obj = get_object_or_404(Page, pk=page_id)
     document_obj = page_obj.document
+    png_url_amz = page_obj.png_url
     try:
         next_page_number = page_obj.page_number + 1
         next_page = Page.objects.get(document=document_obj, page_number=next_page_number)
