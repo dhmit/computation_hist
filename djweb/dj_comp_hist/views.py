@@ -134,22 +134,6 @@ def list_obj(request, model_str):
     return response
 
 
-def search(request):
-    """
-    # TODO make docstring that explains how search_results and search are different
-    :param request:
-    :return:
-    """
-    query = request.POST['usr_query']
-    print("QUERY: ")
-    print(query)
-    t = loader.get_template('/earch.jinja2')
-    c = {'query': query}
-
-    return HttpResponse(t.render(c))
-
-
-
 def search_results(request):
     """
     Searches database to check whether user input is contained within person's first/last name,
