@@ -27,6 +27,12 @@ def person(request, person_id):
 
 
 def doc(request, doc_id):
+    """
+    Puts a document on the screen
+    :param request:
+    :param doc_id:
+    :return:
+    """
     doc_obj = get_object_or_404(Document, pk=doc_id)
     author_person_objs = doc_obj.author_person.all()
     author_organization_objs = doc_obj.author_organization.all()
@@ -87,21 +93,23 @@ def organization(request, org_id):
 def page(request, page_id):
     page_obj = get_object_or_404(Page, pk=page_id)
     document_obj = page_obj.document
+    png_url_amz = page_obj.png_url
     try:
         next_page_number = page_obj.page_number + 1
         next_page = Page.objects.get(document=document_obj, page_number=next_page_number)
-    except: # TODO: figure out type of exception
+    except:  # TODO: figure out type of exception
         next_page = None
     try:
         previous_page_number = page_obj.page_number - 1
         previous_page = Page.objects.get(document=document_obj, page_number=previous_page_number)
-    except: # TODO: figure out type of exception
+    except:  # TODO: figure out type of exception
         previous_page = None
     obj_dict = {
         'page_obj': page_obj,
-        'document_obj':document_obj,
+        'document_obj': document_obj,
         'next_page': next_page,
-        'previous_page': previous_page
+        'previous_page': previous_page,
+        'png_url_amz': png_url_amz,
     }
     response = render(request, 'page.jinja2', obj_dict)
     return response
@@ -122,25 +130,10 @@ def list_obj(request, model_str):
     model_objs = get_list_or_404(model)
     obj_dict = {
         'model_objs': model_objs,
-        'model_str': model_str
+        'model_str': model_str,
     }
     response = render(request, 'list.jinja2', obj_dict)
     return response
-
-
-def search(request):
-    '''
-    # TODO make docstring that explains how search_results and search are different
-    :param request:
-    :return:
-    '''
-    query = request.POST['usr_query']
-    print("QUERY: ")
-    print(query)
-    t = loader.get_template('/earch.jinja2')
-    c = {'query': query}
-
-    return HttpResponse(t.render(c))
 
 
 def search_results(request):
@@ -161,11 +154,14 @@ def search_results(request):
     folder_objs = Folder.objects.filter(full__contains=user_input)
     organization_objs = Organization.objects.filter(Q(name__contains=user_input)|Q(
         location__contains=user_input))
-    response = render(request, 'search_results.jinja2', {'people_objs': people_objs,
-                                                         'document_objs': document_objs,
-                                                         'folder_objs': folder_objs,
-                                                         'organization_objs': organization_objs,
-                                                         'query': user_input})
+    obj_dict = {
+        'people_objs': people_objs,
+        'document_objs': document_objs,
+        'folder_objs': folder_objs,
+        'organization_objs': organization_objs,
+        'query': user_input,
+    }
+    response = render(request, 'search_results.jinja2', obj_dict)
     return response
 
 
