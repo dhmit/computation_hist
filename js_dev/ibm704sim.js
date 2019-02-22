@@ -683,12 +683,12 @@ class MQ_Register extends Word { // currently just a dummy class
  * 134 is copied into the storage register before being added to the accumulator.  The
  * programmer usually doesn't have to worry about it because its function is abstracted away.
  */
-class Storage_Register extends Word {
+class Storage_Register extends General_Word {
     /**
      * Constructor for storage register.
      */
     constructor() {
-        super(0, 36);
+        super(0);
     }
 }
 
