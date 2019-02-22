@@ -69,6 +69,7 @@ class Person(models.Model):
         return self.first + "_" + self.last
 
 
+
 class Folder(models.Model):
     name = models.CharField(max_length=191)
     box = models.ForeignKey(Box, on_delete=models.CASCADE)
