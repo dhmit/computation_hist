@@ -4,6 +4,7 @@ import pytesseract
 from pathlib import Path
 import numpy as np
 import cv2
+from PIL import Image
 
 
 def ocr_pdf(input_pdf_path, return_type='text', output_pdf_path=None):
@@ -54,7 +55,10 @@ def ocr_pdf(input_pdf_path, return_type='text', output_pdf_path=None):
             raise ValueError('output_pdf path should end in ".pdf"')
 
     # Converts pdf into a list of PIL files
-    images = pdf2image.convert_from_path(input_pdf_path, fmt='jpg')
+    skewed = pdf2image.convert_from_path(input_pdf_path, fmt='jpg')
+
+    # Deskews images
+    images = fix_pil(skewed)
 
     # Extracts text and returns string if return_type='str'
     if return_type == 'text':
@@ -64,7 +68,7 @@ def ocr_pdf(input_pdf_path, return_type='text', output_pdf_path=None):
         return text
 
     elif return_type == 'pdf':
-        output_file_name = output_pdf_path.stem  # pdf name without file extension, e.g.'3_32_verzuh'
+        output_file_name = output_pdf_path.stem  # pdf name without file extension
         output_pdf_path.parent.mkdir(parents=True, exist_ok=True)
 
         file_paths = []
@@ -96,15 +100,13 @@ def ocr_pdf(input_pdf_path, return_type='text', output_pdf_path=None):
 
 def correct_skew(filepath):
     """
-    This function attempts to rotate images so that the text appears straight. This is primarily
-    a helper method for make_searchable_pdf, but can be used for other purposes.
+    Reads a saved image with text and rotates the image such that the text is level.
 
-    It takes an image saved to the disk (at filepath) and overwrites it with the rotated image.
+    The image in question will be overridden, use with caution.
 
-    Because of the fact that this alters a save file of a picture, there is no doctest for it.
+    Because this function deals strictly with images, there are no doctests.
 
-
-    :param filepath: str or Path, filepath to be rotated
+    :param filepath: filepath to image to be rotated
     :return: None
     """
 
@@ -146,14 +148,57 @@ def correct_skew(filepath):
     (h, w) = image.shape[:2]
     center = (w // 2, h // 2)
     M = cv2.getRotationMatrix2D(center, angle, 1.0)
-    rotated = cv2.warpAffine(image, M, (w, h),
-                             flags=cv2.INTER_CUBIC, borderMode=cv2.BORDER_REPLICATE)
+    rotated = cv2.warpAffine(image,
+                             M,
+                             (w, h),
+                             flags=cv2.INTER_CUBIC,
+                             borderMode=cv2.BORDER_REPLICATE
+                             )
 
     # save rotated image
     cv2.imwrite(filepath, rotated)
 
 
+def fix_pil(doc):
+    """
+    Takes in a list of PIL files that need to be deskewed and returns the images in PIL format
+
+    Because this function deals strictly with images, there are no doctests.
+
+    :param doc: list of PIL files
+    :return: list of PIL files
+    """
+
+    # Saves images to disk for reformatting
+    filepaths = []
+    count = 0
+    for image in doc:
+        filepaths.append(
+            Path('..', 'computation_hist', 'data', 'sample_docs', 'doc_save' + str(count) + '.jpg')
+        )
+        with open(filepaths[count], 'wb') as pic:
+            image.save(pic)
+        count += 1
+
+    # Deskew image
+    for page in filepaths:
+        correct_skew(str(page))
+
+    # Read images for return
+    pages = []
+    for page in filepaths:
+        with open(page, 'rb') as _:
+            pages.append(Image.open(page))
+
+    # Delete images from disk
+    for path in filepaths:
+        path.unlink()
+
+    return pages
+
+
 if __name__ == '__main__':
-    input_pdf_path = Path('..', 'computation_hist', 'data', 'sample_docs', '3_32_verzuh_3.pdf')
-    output_pdf_path = Path('..', 'computation_hist', 'data', 'sample_docs', '3_32_verzuh_3_ocr.pdf')
+    input_pdf_path = Path('..', 'computation_hist', 'data', 'sample_docs',
+                          'skew_test.pdf')
+    output_pdf_path = Path('..', 'computation_hist', 'data', 'sample_docs', 'skew_test_out.pdf')
     o = ocr_pdf(input_pdf_path, return_type='pdf', output_pdf_path=output_pdf_path)
