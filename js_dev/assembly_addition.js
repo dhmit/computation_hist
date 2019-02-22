@@ -28,6 +28,8 @@ function update() {
     general_memory_4.title = computer.general_memory[4].fixed_point;
     general_memory_5 = $('#general_memory5')[0];
     general_memory_5.title = computer.general_memory[5].fixed_point;
+    general_memory_6 = $('#general_memory6')[0];
+    general_memory_6.title = computer.general_memory[6].fixed_point;
 
 
     instruction_location_counter_element = $("#instruction_location_counter")[0];
