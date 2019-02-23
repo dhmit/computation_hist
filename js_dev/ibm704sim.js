@@ -967,6 +967,17 @@ function ADD(computer, address) {
     computer.accumulator.fixed_point += computer.general_memory[address].fixed_point;
 }
 
+/**
+ * Emulates the IMB 704 SUB operation.
+ *
+ * Subtracts the value of the storage register to the accumulator as if it were a
+ * fixed point number.
+ *
+ * @param computer
+ * @param address
+ * @constructor
+ */
+
 function SUB(computer, address) {
     computer.accumulator.fixed_point = computer.accumulator.fixed_point - computer.general_memory[address].fixed_point;
 }
@@ -983,6 +994,16 @@ function TNX(computer, address, tag, decrement) {
     console.log("TNX called");
 }
 
+/**
+ * Emulates the IMB 704 SBM operation.
+ *
+ * Subtracts the magnitude of the storage register from the accumulator as if it were a
+ * fixed number point.
+ * 
+ * @param computer
+ * @param address
+ * @constructor
+ */
 function SBM(computer, address) {
     computer.accumulator.fixed_point = computer.accumulator.fixed_point - Math.abs(computer.general_memory[address].fixed_point);
 }
