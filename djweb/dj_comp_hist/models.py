@@ -1,8 +1,11 @@
 from django.db import models
-from django.db.models.signals import post_save
-from django.db.models.signals import  post_save
+# from django.db.models.signals import post_save
+# from django.db.models.signals import  post_save
 from pdf2image import convert_from_path
 import csv
+import os
+from pathlib import Path
+from .common import get_file_path
 
 # Create your models here.
 
@@ -22,7 +25,6 @@ class Organization(models.Model):
             return f"<Organization {self.name}>"
         else:
             return f"<Organization without a name>"
-
 
 
 class Box(models.Model):
@@ -109,11 +111,21 @@ class Document(models.Model):
     def __repr__(self):
         return f"<Document {self.title}>"
 
+    @property
+    def doc_id(self):
+        id_num = []
+        file = str(self.file_name)
+        for char in reversed(range(len(file))):
+            if file[char] != "_":
+                id_num.append(file[char])
+            else:
+                break
+        return int(''.join(reversed(id_num)))
+
 
 class Page(models.Model):
     document = models.ForeignKey(Document, on_delete=models.CASCADE)
     page_number = models.IntegerField(default=0)
-    image_path = models.ImageField(blank=True)
 
     def __str__(self):
         return "Page " + str(self.page_number) + " of " + str(self.document)
@@ -121,6 +133,13 @@ class Page(models.Model):
     def __repr__(self):
         return f"<Page {self.page_number} of {self.document}"
 
+    @property
+    def png_url(self):
+        png_path = get_file_path(self.document.folder.box.number, self.document.folder.number,
+                                 self.document.folder.name, file_type='png', 
+                                 doc_id=self.document.doc_id, page_id=int(self.page_number),
+                                 path_type='aws')
+        return png_path
 
 class Text(models.Model):
     page = models.OneToOneField(Page, on_delete=models.SET(None), blank=True)
@@ -149,7 +168,7 @@ def check_person_known(person):
 
 
 def interpret_person_organization(field, item_organization, item_person, new_doc):
-    # Adds people and organizations as an author, recipient, or cced. Utilizes check_generata to
+    # Adds people and organizations as an author, recipient, or CC'ed. Utilizes check_generate to
     # make the process easier.
     field_split = field.split('; ')
 
@@ -170,107 +189,3 @@ def interpret_person_organization(field, item_organization, item_person, new_doc
             new_item.save()
             bound_attr = getattr(new_doc, item_person)
             bound_attr.add(new_item)
-
-
-def populate_from_metadata(file_name):
-    # This function takes the location of the csv metadata file (for example:
-    # C:\Documents\metadata.csv) and makes objects according to the models above.
-    # TODO create test cases
-    # populate_from_metadata(r"C:\Documents\metadata.csv") would return nothing, but the database
-    # would be populated with the metadata.
-    # The 'r' in front of the file location isn't necessary but can help to prevent strange errors.
-    # Utilizes interpret_organization_person to add authors, recipients, and cced.
-    with open(file_name) as file:
-        csv_file = csv.DictReader(file)
-        for line in csv_file:
-            new_doc = Document(number_of_pages=int(line['last_page']) - int(line['first_page']) + 1,
-                               title=line['title'], type=line['doc_type'], notes=line['notes'],
-                               first_page=line['first_page'], last_page=line['last_page'],
-                               file_name=line['filename'])
-
-            # ---------------------DATE-----------------------------------------------
-            if line['date'] != '' and line['date'][0] == '1':
-                new_doc.date = line['date']
-
-            # ------------------------------------------------------------------------
-
-            # ---------------------Folder---------------------------------------------
-            folder_exist,new_folder = check_generate(Folder, "name" ,line['foldername_short'])
-            if not folder_exist:
-                box_exist,new_box = check_generate(Box, "number" , line['box'])
-                new_box.save()
-                new_folder.box = new_box
-                new_folder.number = line['folder_number']
-                new_folder.full = line['foldername_full']
-                new_folder.file_name = line['filename']
-            new_folder.save()
-            new_doc.folder = new_folder
-            new_doc.save()
-
-            # -----------------------Author, Recipient,cced--------------------------
-            interpret_person_organization(line['author'], "author_organization", "author_person", new_doc)
-            interpret_person_organization(line['recipients'], "recipient_organization",
-                                          "recipient_person",
-                                          new_doc)
-            interpret_person_organization(line['cced'], "cced_organization", "cced_person",
-                                          new_doc)
-
-            new_doc.save()
-
-        return
-
-
-def pdf_to_image_split(pdf_path, image_directory, folder_name):
-    # Splits a each page of a pdf into an image.
-    # pdf_path is the location of pdf (C:\Documents\rockefeller.pdf)
-    # image_directory is the location of image folder (C:\Documents\png_pages\)
-    # folder_name is the names of the object of the folder(rockefeller)
-    pages = convert_from_path(pdf_path)
-    images_in_pdf = []
-
-    for page in range(len(pages)):
-        page_path = image_directory + folder_name + '_' + str(page + 1) + '.png'
-        pages[page].save(page_path, 'PNG')
-        images_in_pdf.append((page_path, page+1))
-
-    return images_in_pdf
-
-
-def page_image_to_doc(folder_name, pdf_path, image_directory):
-    # Utilizes pdf_to_image_split in order to create images of Pages from a pdf, create Page
-    # objects, and assign those page objects to Document.
-    # Splits a each page of a pdf into an image.
-    # pdf_path is the location of pdf (C:\Documents\rockefeller.pdf)
-    # image_directory is the location of image folder (C:\Documents\png_pages\)
-    # folder_name is the names of the object of the folder(rockefeller)
-    # Example: page_image_to_doc('rockefeller', 'C:\Documents\1_08_raw_rockefeller.pdf',
-    # 'C:\Documents\png_pages\') returns images of Pages in png_pages directory and Page objects
-    # of each page.
-    images_in_pdf = pdf_to_image_split(pdf_path, image_directory, folder_name)
-    folder = Folder.objects.get(name=folder_name)
-    documents_unsort = folder.document_set.all()
-    documents_sort = sorted(documents_unsort, key=lambda x: x.first_page)
-    document_place = 0
-    page_num = 1
-
-    for page in images_in_pdf:
-        if documents_sort[document_place].first_page <= page[1] <= documents_sort[\
-                document_place].last_page:
-            # this means that this is the same document as last page
-            page_obj = Page(document=documents_sort[document_place], page_number=page_num)
-            page_obj.image_path.name = folder_name + '_' + str(page[1]) + '.png'
-            page_obj.save()
-            page_num += 1
-        elif documents_sort[document_place+1].first_page <= page[1] <= documents_sort[\
-                document_place+1].last_page:
-            # this means this is a new document
-            document_place += 1
-            page_num = 1
-            page_obj = Page(document=documents_sort[document_place], page_number=page_num)
-            page_obj.image_path.name = folder_name + '_' + str(page[1]) + '.png'
-            page_obj.save()
-            page_num += 1
-        else:
-            # This means that the page isn't associated with a document
-            pass
-    return
