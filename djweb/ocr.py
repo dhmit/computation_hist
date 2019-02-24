@@ -116,13 +116,18 @@ def correct_skew(filepath):
     # convert the image to grayscale and flip the foreground
     # and background to ensure foreground is now "white" and
     # the background is "black"
-    gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+    height, width, _ = image.shape
+    gray = image[int(height / 8):int(7 * height / 8), int(width / 8):int(7 * width / 8)]
+    gray = cv2.copyMakeBorder(gray, top=200, bottom=200, right=200, left=200,
+                                borderType=cv2.BORDER_CONSTANT,
+                                value=[230, 230, 230])
+    gray = cv2.cvtColor(gray, cv2.COLOR_BGR2GRAY)
     gray = cv2.bitwise_not(gray)
-    cv2.imshow('before', gray)
+    cv2.imwrite(filepath + '1.jpg', gray)
 
     # threshold the image, setting all foreground pixels to
     # 255 and all background pixels to 0
-    thresh = cv2.threshold(gray, 0, 255,
+    thresh = cv2.threshold(gray, 127, 255,
                            cv2.THRESH_BINARY | cv2.THRESH_OTSU)[1]
 
     # grab the (x, y) coordinates of all pixel values that
@@ -131,6 +136,9 @@ def correct_skew(filepath):
     # coordinates
     coords = np.column_stack(np.where(thresh > 0))
     angle = cv2.minAreaRect(coords)[-1]
+    print(height, width)
+    print(coords)
+    print(cv2.minAreaRect(coords))
 
     # the `cv2.minAreaRect` function returns values in the
     # range [-90, 0); as the rectangle rotates clockwise the
@@ -143,6 +151,8 @@ def correct_skew(filepath):
     # it positive
     else:
         angle = -angle
+
+    print(angle)
 
     # rotate the image to deskew it
     (h, w) = image.shape[:2]
@@ -199,7 +209,7 @@ def fix_pil(doc):
 
 if __name__ == '__main__':
     input_pdf_path = Path('..', 'computation_hist', 'data', 'sample_docs',
-                          '2_01_raw_digital_comp_to_social_problems.pdf')
+                                'skew_test_real.pdf')
     output_pdf_path = Path('..', 'computation_hist', 'data', 'sample_docs',
                            'skew_test_out.pdf')
     o = ocr_pdf(input_pdf_path, return_type='pdf', output_pdf_path=output_pdf_path)
