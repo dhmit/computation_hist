@@ -8,4 +8,4 @@ def test(request):
 
 def simulation(request):
     obj_dict = {}
-    return render(request, 'general_assembler.jinja2', obj_dict)
+    return render(request, 'assembly_addition.jinja2', obj_dict)

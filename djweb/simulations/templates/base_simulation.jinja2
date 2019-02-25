@@ -1,33 +1,34 @@
 {% extends "base.jinja2" %}
 
 {% block table %}
-<div class="container">
-    <div class="row">
-        <div class="col-sm-3">
-            <h3>Code</h3>
-            {% block code %}
-            {% endblock %}
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
+                <h3>Code</h3>
+                {% block code %}
+                {% endblock %}
+            </div>
+            <div class="col-sm-6 pre-scrollable" id="general_memory_div">
+                <h3>General Memory</h3>
+            </div>
+            <div class="col-sm-3 other_registers">
+                <h3>Other Registers: </h3>
+                <p>Instruction Location Counter: <span id="instruction_location_counter"></span></p>
+                <p>Instruction Register: <span id="instruction_register"></span></p>
+                <p>Storage Register: <span id="storage_register"></span></p>
+                <p>Accumulator: <span id="accumulator"></span></p>
+                <br />
+            </div>
         </div>
-        <div class="col-sm-6 pre-scrollable" id="general_memory_div">
-            <h3>General Memory</h3>
-        </div>
-        <div class="col-sm-3 other_registers">
-            <h3>Other Registers: </h3>
-            <p>Instruction Location Counter: <span id="instruction_location_counter"></span></p>
-            <p>Instruction Register: <span id="instruction_register"></span></p>
-            <p>Storage Register: <span id="storage_register"></span></p>
-            <p>Accumulator: <span id="accumulator"></span></p>
-            <br />
-        </div>
+        <button id="assemble_button">Assemble</button>
+        <button id="step_button">Step</button>
+        <button id="run_button">Run</button>
+        <button id="clear_button">Clear</button>
     </div>
-    <button id="assemble_button">Assemble</button>
-    <button id="step_button">Step</button>
-    <button id="run_button">Run</button>
-    <button id="clear_button">Clear</button>
-</div>
-{% endblock %}
+    {% endblock %}
 
 {% block scripts %}
-<script src="{{ static('js/ibm704sim.js')}}"></script>
-<script src="{{ static('js/base_simulation.js')}}"></script>
+    <script src="{{ static('js/ibm704sim.js')}}"></script>
+    {% block specific_script %}{% endblock %}
+    <script src="{{ static('js/base_simulation.js')}}"></script>
 {% endblock %}

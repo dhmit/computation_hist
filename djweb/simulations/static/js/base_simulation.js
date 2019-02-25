@@ -1,10 +1,31 @@
-const computer = new IBM_704();
+const computer = new IBM_704(computer_size);
+code_line = 0;
+
+/**
+ * Assembles code from code box into program which is placed in computer.
+ */
+function assemble() {
+    if (typeof(GENERAL_ASSEMBLER) !== "undefined") {
+        code = document.getElementById("code_box").value;
+        code_lines = code.split(newline_regex);
+        computer.assemble(0, code_lines);
+    } else {
+        const code = $(".symbolic_code");
+        const code_innerHTML = Array(code.length);
+        for (let i = 0; i < num_code_lines; i++) {
+            code_innerHTML[i] = code[i].innerHTML;
+        }
+        computer.assemble(0, code_innerHTML);
+    }
+    update();
+}
 
 /**
  * Cause the computer to advance one step.
  */
 function step() {
     computer.step();
+    code_line++;
     update();
 }
 
@@ -44,6 +65,14 @@ function create_memory_display() {
  * Update the display of the computer's memory.
  */
 function update() {
+    const code_html = $(".symbolic_code");
+    if (code_html.length !== 0) {
+        for (let line = 0; line < num_code_lines; line++) {
+            code_html[line].style.backgroundColor = "white";
+        }
+        code_html[code_line].style.backgroundColor = "deepskyblue";
+    }
+
     const general_memory_html = $(".general_memory");
     for (let i = 0; i < computer.size; i++) {
         general_memory_html[i].innerHTML = computer.general_memory[i].toString();
@@ -66,7 +95,7 @@ function update() {
 
     accumulator_element = $("#accumulator")[0];
     accumulator_element.innerHTML = computer.accumulator.toString();
-    accumulator_element.title = computer.accumulator.fixed_point;
+    accumulator_element.title = "Fixed Point: " + computer.accumulator.fixed_point;
 }
 
 /**
@@ -78,11 +107,14 @@ function clear() {
 }
 
 /**
- * Sets up page when loaded.
+ * Sets up general elements of page when loaded.
  */
 function general_start() {
     $('#run_button').on('click', run);
     $('#clear_button').on('click', clear);
     $('#assemble_button').on('click', assemble);
     $('#step_button').on('click', step);
+    create_memory_display();
 }
+
+$(document).ready(start);
