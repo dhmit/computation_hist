@@ -1,29 +1,4 @@
 const computer = new IBM_704();
-const newline_regex = /\r\n|[\n\v\f\r\x85\u2028\u2029]/;
-
-/**
- * Attaches an event listener to a textarea that allows it to dynamically resize as you type in it.
- * From https://stackoverflow.com/questions/37629860/automatically-resizing-textarea-in-bootstrap.
- *
- * @param {string} id   Id of textarea to attach event listener to.
- */
-function expand_text_area(id) {
-    document.getElementById(id).addEventListener('keyup', function() {
-        this.style.overflow = 'hidden';
-        this.style.height = 0;
-        this.style.height = this.scrollHeight + 'px';
-    }, false);
-}
-
-/**
- * Assembles code from code box into program which is placed in computer.
- */
-function assemble() {
-    code = document.getElementById("code_box").value;
-    code_lines = code.split(newline_regex);
-    computer.assemble(0, code_lines);
-    update();
-}
 
 /**
  * Cause the computer to advance one step.
@@ -45,7 +20,7 @@ function run() {
     // computer.general_memory[11].fixed_point = 14; // assign register 11 value of 14
     computer.run();
     update();
-    return computer.general_memory[12].fixed_point; // should be 25
+    // return computer.general_memory[12].fixed_point; // should be 25
 }
 
 /**
@@ -105,19 +80,9 @@ function clear() {
 /**
  * Sets up page when loaded.
  */
-function start() {
+function general_start() {
     $('#run_button').on('click', run);
     $('#clear_button').on('click', clear);
     $('#assemble_button').on('click', assemble);
     $('#step_button').on('click', step);
-
-
-    computer.general_memory[4].fixed_point = 12;
-    computer.general_memory[5].fixed_point = 30;
-
-    create_memory_display();
-    expand_text_area("code_box");
-    update();
 }
-
-$(document).ready(start);

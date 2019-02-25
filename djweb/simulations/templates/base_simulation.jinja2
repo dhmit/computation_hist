@@ -1,17 +1,12 @@
 {% extends "base.jinja2" %}
 
-{% block title %}IBM 704 Assembler{% endblock %}
-
-{% block self %}IBM 704 Assembler{% endblock %}
-
 {% block table %}
 <div class="container">
     <div class="row">
         <div class="col-sm-3">
             <h3>Code</h3>
-            <textarea class="form-control" id="code_box" spellcheck="false"
-                      placeholder="Code here!"></textarea>
-            <br />
+            {% block code %}
+            {% endblock %}
         </div>
         <div class="col-sm-6 pre-scrollable" id="general_memory_div">
             <h3>General Memory</h3>
@@ -34,5 +29,5 @@
 
 {% block scripts %}
 <script src="{{ static('js/ibm704sim.js')}}"></script>
-<script src="{{ static('js/assembler-test.js')}}"></script>
+<script src="{{ static('js/base_simulation.js')}}"></script>
 {% endblock %}
