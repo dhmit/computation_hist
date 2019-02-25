@@ -37,6 +37,7 @@ parameter (the function will assume the path to metadata.csv as default)
 
 #### Run the development server
 ```
+quit
 python ./manage.py runserver
 ```
 
