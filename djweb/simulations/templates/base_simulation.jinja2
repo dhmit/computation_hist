@@ -1,6 +1,7 @@
 {% extends "base.jinja2" %}
 
 {% block table %}
+    {% block extra_stuff_at_top %}{% endblock %}
     <div class="container">
         <div class="row">
             <div class="col-sm-3">
@@ -29,6 +30,6 @@
 
 {% block scripts %}
     <script src="{{ static('js/ibm704sim.js')}}"></script>
-    {% block specific_script %}{% endblock %}
+    <script src="{{ script_name }}"></script>
     <script src="{{ static('js/base_simulation.js')}}"></script>
 {% endblock %}

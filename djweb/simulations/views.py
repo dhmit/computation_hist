@@ -8,8 +8,8 @@ def test(request):
 
 
 def simulation(request, simulation):
-    # simulation_obj = get_object_or_404(Simulation, pk=simulation)
     obj_dict = {
-        # "simulation-name": simulation_obj,
+        "simulation_name": simulation,
+        "script_name": "/static/js/" + simulation + ".js",
     }
     return render(request, simulation + '.jinja2', obj_dict)
