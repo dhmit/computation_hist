@@ -47,8 +47,9 @@ INSTALLED_APPS = [
     'django_jinja',  # we use Jinja2 templates, not pure django.
     'django_jinja.contrib._humanize',
 
-    # out apps
+    # our apps
     'dj_comp_hist.apps.DjCompHistConfig',
+    'simulations.apps.SimulationsConfig',
 ]
 
 MIDDLEWARE = [
