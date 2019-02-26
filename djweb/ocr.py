@@ -116,19 +116,15 @@ def correct_skew(filepath):
     # convert the image to grayscale and flip the foreground
     # and background to ensure foreground is now "white" and
     # the background is "black"
-    height, width, _ = image.shape
-    gray = image[int(height / 8):int(7 * height / 8), int(width / 8):int(7 * width / 8)]
-    gray = cv2.copyMakeBorder(gray, top=200, bottom=200, right=200, left=200,
-                                borderType=cv2.BORDER_CONSTANT,
-                                value=[230, 230, 230])
-    gray = cv2.cvtColor(gray, cv2.COLOR_BGR2GRAY)
+
+    gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
     gray = cv2.bitwise_not(gray)
-    cv2.imwrite(filepath + '1.jpg', gray)
 
     # threshold the image, setting all foreground pixels to
     # 255 and all background pixels to 0
     thresh = cv2.threshold(gray, 127, 255,
                            cv2.THRESH_BINARY | cv2.THRESH_OTSU)[1]
+    cv2.imwrite(filepath + '_thresh.jpg', thresh)
 
     # grab the (x, y) coordinates of all pixel values that
     # are greater than zero, then use these coordinates to
@@ -136,9 +132,6 @@ def correct_skew(filepath):
     # coordinates
     coords = np.column_stack(np.where(thresh > 0))
     angle = cv2.minAreaRect(coords)[-1]
-    print(height, width)
-    print(coords)
-    print(cv2.minAreaRect(coords))
 
     # the `cv2.minAreaRect` function returns values in the
     # range [-90, 0); as the rectangle rotates clockwise the
@@ -151,6 +144,35 @@ def correct_skew(filepath):
     # it positive
     else:
         angle = -angle
+
+    # if angle == 0, there has been a problem and we should try another method
+    if int(angle) == 0.0 or angle == -0.0:
+        height, width, channels = image.shape
+
+        boundary = [20, 20, 20]
+
+        # convert all pixels that are almost black to white to imitate page
+        for x in range(0, width):
+            for y in range(0, height):
+                channels_xy = image[y, x]
+                if all(channels_xy < boundary):
+                    image[y, x] = [255,255,255]
+
+        gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+        gray = cv2.bitwise_not(gray)
+
+        # threshold the new image, setting all foreground pixels to
+        # 255 and all background pixels to 0
+        thresh = cv2.threshold(gray, 127, 255,
+                               cv2.THRESH_BINARY | cv2.THRESH_OTSU)[1]
+        cv2.imwrite(filepath + '_thresh.jpg', thresh)
+
+        # grab the (x, y) coordinates of all pixel values that
+        # are greater than zero, then use these coordinates to
+        # compute a rotated bounding box that contains all
+        # coordinates
+        coords = np.column_stack(np.where(thresh > 0))
+        angle = cv2.minAreaRect(coords)[-1]
 
     print(angle)
 
