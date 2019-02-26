@@ -16,7 +16,11 @@
 {% endblock %}
 {% block table %}
     Need a more advanced search?
-    <form>
+    <div class="row">
+    <div class="col-lg-3 col-md-3 col-sm-6">
+    </div>
+    <div class="col-lg-6 col-lg-offset-2 col-md-6 col-md-offset-2 col-sm-12 col-sm-offset-4">
+    <form action="/dj_comp_hist/advanced_search">
         Look for documents in boxes (check all if unsure):
         <br>
         <div class="form-check form-check-inline">
@@ -35,12 +39,12 @@
             <label class="form-check-label" for="checkBox3">3</label>
         </div>
     <br>
-        <label for="inputAuthor" class="col-sm-2 col-form-label">Authored by: (leave blank
+        <label for="inputAuthor" class="col-sm-10 col-form-label">Authored by: (leave blank
             if unsure)</label>
         <div class="col-sm-10">
             <input type="text" class="form-control" name="author" id="inputAuthor">
         </div>
-        <label for="inputReceiver" class="col-sm-2 col-form-label">Received by: (leave blank
+        <label for="inputReceiver" class="col-sm-10 col-form-label">Received by: (leave blank
             if unsure)</label>
         <div class="col-sm-10">
             <input type="text" class="form-control" name="receiver" id="inputReceiver">
@@ -50,25 +54,27 @@
             <label for="multipleSelect"> Document Type, if known: </label>
             <select multiple class="form-control" id="multipleSelect" name="doc_type">
                 {% for type in doc_type %}
-                <option>{{ type }}</option>
+                    <option>{{ type }}</option>
                 {% endfor %}
             </select>
         </div>
     <br>
-        Filter by number of pages: <b>1</b> <input id="ex2" type="slider" class="span2" value=""
-                                                   data-provide="slider"
-                                                     data-slider-min="1" data-slider-max="25"
-                                                     data-slider-step="1"
-                                                     data-slider-value="[250,450]"/>  <b>25</b>
+        Filter by number of pages: <input name="minPages" type="text" value="1"
+                                          style="width:25px">  to <input name="maxPages"
+                                                                        style="width:25px"
+                                                                        type="text"  value="30">
     <br>
-        Filter by year range: <b>1945</b> <input id="ex3" type="slider" class="span2" value=""
-                                                 data-provide="slider"
-                                                     data-slider-min="1945" data-slider-max="1965"
-                                                     data-slider-step="1"
-                                                     data-slider-value="[250,450]"/>  <b>1965</b>
+        Filter by year: <input name="minYear" type="text" value="1945"
+                                          style="width:50px"> to <input name="minYear" type="text"
+                                                                       value="1950"
+                                                                       style="width:50px">
     <br><br>
         <button type="submit" class="btn btn-primary">Submit</button>
     </form>
+    </div>
+    </div>
+    <br>
+    <br>
 
     {% set searches = False %}
     <a style="margin-right: 5px;" href="#people" class="active">People</a>
@@ -115,3 +121,6 @@
         <h3>No results found</h3>
     {% endif %}
 {% endblock %}
+
+{%  block footer %}
+{%  endblock %}

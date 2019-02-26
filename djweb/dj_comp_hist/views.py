@@ -144,3 +144,4 @@ def advanced_search(request):
     :param request:
     :return:
     """
+    return HttpResponse("work in progress")
