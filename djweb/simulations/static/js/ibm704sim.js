@@ -274,13 +274,15 @@ class Instruction {
         }
     }
 
+    /**
+     * Returns whether this instruction's operations is one of the indexable operations.
+     *
+     * @returns {boolean}   Whether operation is indexable.
+     */
     indexable() {
-        if (this.operation.name in non_indexable) {
-            return false
-        } else {
-            return true
-        }
+        return !(this.operation.name in non_indexable);
     }
+
 }
 
 /**
@@ -904,8 +906,7 @@ class IBM_704 {
      * Converts an array of strings that contain lines of SHARE assembly into numerical code that is
      * placed in general memory.
      *
-     * Currently missing most operations, including all Type A operations and pseudo-operations, and
-     * doesn't handle tags.
+     * Currently missing most operations, including all Type A operations and pseudo-operations.
      *
      * @param {number} origin        Where to start storing the program.
      * @param {Array}  code_lines    Array of lines of code.
@@ -916,8 +917,23 @@ class IBM_704 {
             let line = code_lines[line_no];
             console.log(line);
             let operation = line.substring(0,3);
-            let address = parseInt(line.substring(3, 6));
-            this.assemble_line(operation, address, register);
+            let rest_of_line = line.substring(3);
+            let numbers = rest_of_line.split(",");
+            if (numbers[2] !== undefined) {
+                let decrement = parseInt(numbers[2]);
+                let tag = parseInt(numbers[1]);
+                let address = parseInt(numbers[0]);
+                this.assemble_line(register, operation, address, tag, decrement);
+            } else if (numbers[1] !== undefined) {
+                let tag = parseInt(numbers[1]);
+                let address = parseInt(numbers[0]);
+                this.assemble_line(register, operation, address, tag);
+            } else if (numbers[0] !== undefined) {
+                let address = parseInt(numbers[0]);
+                this.assemble_line(register, operation, address);
+            } else {
+                this.assemble_line(register, operation);
+            }
             register++;
         }
     }
@@ -926,12 +942,20 @@ class IBM_704 {
      * Stores an instruction into general memory as a number.  Currently doesn't handle Type A
      * operations or tags.
      *
+     * @param {number} register     Address that instruction should be stored in.
      * @param {string} operation    String name of operation.
      * @param {number} address      Address that instruction is directed at.
-     * @param {number} register     Address that instruction should be stored in.
+     * @param {number} tag          Tag of instruction.
+     * @param {number} decrement    Decrement of instruction.
      */
-    assemble_line(operation, address, register) {
-        this.general_memory[register].instruction_b = new Instruction_B(eval(operation), address);
+    assemble_line(register, operation, address=0, tag=0, decrement=0) {
+        if (operation in operation_b_to_no) {
+            this.general_memory[register].instruction_b = new Instruction_B(eval(operation), address, tag);
+        } else if (operation in operation_a_to_no) {
+            this.general_memory[register].instruction_a = new Instruction_A(eval(operation), address, tag, decrement);
+        } else {
+            throw "Undefined operation!";
+        }
     }
 }
 
@@ -952,10 +976,9 @@ function STO(computer, address) {
  *
  * Indicates the computer to halt.
  *
- * @param {number} address      Required for Type B instruction.
  * @param {IBM_704} computer    Machine to execute instruction on.
  */
-function HTR(computer, address) {
+function HTR(computer) {
     computer.halt = true;
 }
 
