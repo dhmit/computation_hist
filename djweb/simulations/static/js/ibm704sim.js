@@ -15,6 +15,7 @@ for (let number in no_to_operation_a) {
     operation_a_to_no[(no_to_operation_a[number]).name] = number;
     no_to_operation_a_str[number] = (no_to_operation_a[number]).name;
 }
+const non_indexable = {"TIX": 0, "TNX": 0, "TXH": 0, "TXL": 0, "TXI": 0, "TSX":0, "LXA":0, "LXD":0, "SXD":0, "PXD":0, "PAX":0, "PDX":0};
 
 /**
  * Function to create a new string with the character at index replaced by a new character.
@@ -270,6 +271,14 @@ class Instruction {
             }
         } else {
             this.tag = tag;
+        }
+    }
+
+    indexable() {
+        if (this.operation.name in non_indexable) {
+            return false
+        } else {
+            return true
         }
     }
 }
@@ -829,15 +838,27 @@ class IBM_704 {
         let instruction_word = this.general_memory[this.ilc.valueOf()];
         this.instruction_register.store_instruction(instruction_word);
         this.ilc.increment();
-        this.storage_register.update_contents(this.general_memory[instruction_word.address]);
-        let instruction;
+        let effective_address = instruction_word.address;
+        let instruction = instruction_word.instruction;
+        if (instruction.indexable()) {
+            let tag_str = convert_to_binary(instruction.tag,3);
+            if (tag_str[0] === "1") {
+                effective_address -= this.index_c.valueOf();
+            }
+            if (tag_str[1] === "1") {
+                effective_address -= this.index_b.valueOf();
+            }
+            if (tag_str[2] === "1") {
+                effective_address -= this.index_a.valueOf();
+            }
+        }
+        this.storage_register.update_contents(this.general_memory[effective_address]);
         if (instruction_word.is_typeB()) {
             instruction = instruction_word.instruction_b;
-            instruction.operation(this, instruction.address); // TODO: implement functionality of
-            // tags and effective address modification
+            instruction.operation(this, effective_address, instruction.tag);
         } else {
             instruction = instruction_word.instruction_a;
-            instruction.operation(this, instruction.address, instruction.tag, instruction.decrement);
+            instruction.operation(this, effective_address, instruction.tag, instruction.decrement);
         }
     }
 
