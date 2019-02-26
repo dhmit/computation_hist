@@ -154,7 +154,13 @@ def search_results(request):
     folder_objs = Folder.objects.filter(full__contains=user_input)
     organization_objs = Organization.objects.filter(Q(name__contains=user_input)|Q(
         location__contains=user_input))
+    doc_type = ["minutes","memo","proposal","letter","receipt","contract","notice","memo draft",
+                "addendum","change order","form","report","invoice","list",
+                "routing sheet","application","note","press release","floor plan","program",
+                "pamphlet","payroll sheet","time record","summary","table","telegram", "unknown"]
+    doc_type.sort()
     obj_dict = {
+        'doc_type': doc_type,
         'people_objs': people_objs,
         'document_objs': document_objs,
         'folder_objs': folder_objs,
@@ -165,3 +171,10 @@ def search_results(request):
     return response
 
 
+def advanced_search(request):
+    """
+    Searches database based on specific search queries and parameters given by user.
+    :param request:
+    :return:
+    """
+    return HttpResponse("work in progress")
