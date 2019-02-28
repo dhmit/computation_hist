@@ -115,7 +115,6 @@ def page(request, page_id):
 
 
 def list_obj(request, model_str):
-
     if model_str == "organization":
         model = Organization
     elif model_str == "person":
