@@ -115,24 +115,30 @@ def page(request, page_id):
 
 
 def list_obj(request, model_str):
-    attribute = ''
+
     if model_str == "organization":
         model = Organization
-        attribute = 'name'
     elif model_str == "person":
         model = Person
-        attribute = 'last'
     elif model_str == "folder":
         model = Folder
-        attribute = 'full'
     elif model_str == "box":
         model = Box
-        attribute = 'number'
     else:
         raise ValueError("Cannot display this model. Can only display organization, person, "
-                         "folder, or box")
+                         "folder, or box.")
     model_objs = get_list_or_404(model)
-    model_objs.sort(key=lambda x: x.attribute, reverse=True)
+    if model_str == "organization":
+        model_objs.sort(key=lambda x: x.name)
+    elif model_str == "person":
+        model_objs.sort(key=lambda x: x.last)
+    elif model_str == "folder":
+        model_objs.sort(key=lambda x: x.full)
+    elif model_str == "box":
+        model_objs.sort(key=lambda x: x.number)
+    else:
+        raise ValueError("Cannot sort this list. Can only sort organization, person, folder, "
+                         "or box.")
     obj_dict = {
         'model_objs': model_objs,
         'model_str': model_str,
