@@ -1,27 +1,22 @@
-const computer = new IBM_704();
-const newline_regex = /\r\n|[\n\v\f\r\x85\u2028\u2029]/;
-
-/**
- * Attaches an event listener to a textarea that allows it to dynamically resize as you type in it.
- * From https://stackoverflow.com/questions/37629860/automatically-resizing-textarea-in-bootstrap.
- *
- * @param {string} id   Id of textarea to attach event listener to.
- */
-function expand_text_area(id) {
-    document.getElementById(id).addEventListener('keyup', function() {
-        this.style.overflow = 'hidden';
-        this.style.height = 0;
-        this.style.height = this.scrollHeight + 'px';
-    }, false);
-}
+const computer = new IBM_704(computer_size);
+code_line = 0;
 
 /**
  * Assembles code from code box into program which is placed in computer.
  */
 function assemble() {
-    code = document.getElementById("code_box").value;
-    code_lines = code.split(newline_regex);
-    computer.assemble(0, code_lines);
+    if (typeof(GENERAL_ASSEMBLER) !== "undefined") {
+        code = document.getElementById("code_box").value;
+        code_lines = code.split(newline_regex);
+        computer.assemble(0, code_lines);
+    } else {
+        const code = $(".symbolic_code");
+        const code_innerHTML = Array(code.length);
+        for (let i = 0; i < num_code_lines; i++) {
+            code_innerHTML[i] = code[i].innerHTML;
+        }
+        computer.assemble(0, code_innerHTML);
+    }
     update();
 }
 
@@ -30,6 +25,7 @@ function assemble() {
  */
 function step() {
     computer.step();
+    code_line++;
     update();
 }
 
@@ -45,7 +41,7 @@ function run() {
     // computer.general_memory[11].fixed_point = 14; // assign register 11 value of 14
     computer.run();
     update();
-    return computer.general_memory[12].fixed_point; // should be 25
+    // return computer.general_memory[12].fixed_point; // should be 25
 }
 
 /**
@@ -69,6 +65,14 @@ function create_memory_display() {
  * Update the display of the computer's memory.
  */
 function update() {
+    const code_html = $(".symbolic_code");
+    if (code_html.length !== 0) {
+        for (let line = 0; line < num_code_lines; line++) {
+            code_html[line].style.backgroundColor = "white";
+        }
+        code_html[code_line].style.backgroundColor = "deepskyblue";
+    }
+
     const general_memory_html = $(".general_memory");
     for (let i = 0; i < computer.size; i++) {
         general_memory_html[i].innerHTML = computer.general_memory[i].toString();
@@ -91,7 +95,7 @@ function update() {
 
     accumulator_element = $("#accumulator")[0];
     accumulator_element.innerHTML = computer.accumulator.toString();
-    accumulator_element.title = computer.accumulator.fixed_point;
+    accumulator_element.title = "Fixed Point: " + computer.accumulator.fixed_point;
 }
 
 /**
@@ -103,21 +107,14 @@ function clear() {
 }
 
 /**
- * Sets up page when loaded.
+ * Sets up general elements of page when loaded.
  */
-function start() {
+function general_start() {
     $('#run_button').on('click', run);
     $('#clear_button').on('click', clear);
     $('#assemble_button').on('click', assemble);
     $('#step_button').on('click', step);
-
-
-    computer.general_memory[4].fixed_point = 12;
-    computer.general_memory[5].fixed_point = 30;
-
     create_memory_display();
-    expand_text_area("code_box");
-    update();
 }
 
 $(document).ready(start);

@@ -923,7 +923,7 @@ class IBM_704 {
  * @param {IBM_704} computer    Machine to execute instruction on.
  */
 function STO(computer, address) {
-    computer.general_memory[address].update_contents(computer.accumulator);
+    computer.general_memory[address].fixed_point = computer.accumulator.fixed_point;
 }
 
 /**

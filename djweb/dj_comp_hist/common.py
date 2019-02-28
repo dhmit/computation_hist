@@ -84,13 +84,3 @@ def get_file_path(box: int, folder: int, foldername_short:str, file_type:str,
         raise NotImplementedError('Only path_type relative, absolute, and aws are implemented.')
 
 
-#from .models import Document, Page
-#from django.db.models.signals import post_save
-
-#def create_pages(sender, instance, **kwargs):
-#    if instance.last_page != 0:
-#        for i in range(1, instance.number_of_pages +1):
-#            new_page = Page(document=instance, page_number=i)
-#            new_page.save()
-
-#post_save.connect(create_pages, sender=Document)

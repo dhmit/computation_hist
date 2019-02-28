@@ -1,0 +1,15 @@
+{% extends "base_simulation.jinja2" %}
+
+{% block title %}IBM 704 Assembler{% endblock %}
+
+{% block self %}IBM 704 Assembler{% endblock %}
+
+{% block code %}
+    <textarea class="form-control" id="code_box" spellcheck="false"
+                      placeholder="Code here!"></textarea>
+    <br />
+{% endblock %}
+
+{% block specific_script %}
+    <script src="{{ static('js/general_assembler.js')}}"></script>
+{% endblock %}
