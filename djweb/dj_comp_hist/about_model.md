@@ -60,7 +60,9 @@ Has a number
 
 
 ##Folder
-Folder names is currently coded assuming all names are unique. The folder name is the column 
+1. Folder name is the same name of the pdf file, **excluding** the raw and one of the connecting 
+underscores. Ex: the foldername_short for "1_05_raw_morse_corr.pdf" should be "morse_corr".
+1. Folder names is currently coded assuming all names are unique. The folder name is the column 
 'foldername_short' in the csv
 
 
