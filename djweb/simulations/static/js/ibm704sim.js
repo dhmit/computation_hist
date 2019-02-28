@@ -1,7 +1,8 @@
 // there are no index registers or Type A functions.  Or most of the Type B functions
 // basically most of the computer is missing
 
-const no_to_operation_b = {0o601: STO, 0: HTR, 0o500: CLA, 0o400: ADD};
+const no_to_operation_b = {0o601: STO, 0o000: HTR, 0o500: CLA, 0o400: ADD}; // if number is
+// negative, put a 4 in the beginning: e.g. -0o345 will become 0o4345
 const no_to_operation_a = {0b110: TNX};
 const operation_b_to_no = {};
 const operation_a_to_no = {};
