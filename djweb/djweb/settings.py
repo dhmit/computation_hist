@@ -47,8 +47,9 @@ INSTALLED_APPS = [
     'django_jinja',  # we use Jinja2 templates, not pure django.
     'django_jinja.contrib._humanize',
 
-    # out apps
+    # our apps
     'dj_comp_hist.apps.DjCompHistConfig',
+    'simulations.apps.SimulationsConfig',
 ]
 
 MIDDLEWARE = [
@@ -66,7 +67,7 @@ ROOT_URLCONF = 'djweb.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django_jinja.backend.Jinja2',
-        'DIRS': [],
+        'DIRS': [(os.path.join(BASE_DIR, 'templates'))],
         'APP_DIRS': True,
         "OPTIONS": {
             'trim_blocks': True,
@@ -156,10 +157,8 @@ USE_TZ = True
 
 
 # Static files (CSS, JavaScript, Images)
-# https://docs.djangoproject.com/en/2.1/howto/static-files/
+# https://docs.djangoproject.com/en/2.1/howto/static-files/ # These instructions do not work
 
 STATIC_URL = '/static/'
 
 MEDIA_URL = '/media/'
-
-MEDIA_ROOT = BASE_DIR + '/dj_comp_hist/png_pages/'

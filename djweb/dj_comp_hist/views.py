@@ -2,7 +2,6 @@ from django.shortcuts import render, get_object_or_404, get_list_or_404
 from .models import Person, Document, Box, Folder, Organization, Page
 from django.template import loader
 from django.db.models import Q
-import flex
 
 # Create your views here.
 
@@ -94,6 +93,7 @@ def organization(request, org_id):
 def page(request, page_id):
     page_obj = get_object_or_404(Page, pk=page_id)
     document_obj = page_obj.document
+    png_url_amz = page_obj.png_url
     try:
         next_page_number = page_obj.page_number + 1
         next_page = Page.objects.get(document=document_obj, page_number=next_page_number)
@@ -108,7 +108,8 @@ def page(request, page_id):
         'page_obj': page_obj,
         'document_obj': document_obj,
         'next_page': next_page,
-        'previous_page': previous_page
+        'previous_page': previous_page,
+        'png_url_amz': png_url_amz,
     }
     response = render(request, 'page.jinja2', obj_dict)
     return response
@@ -125,19 +126,8 @@ def list_obj(request, model_str):
         model = Box
     else:
         raise ValueError("Cannot display this model. Can only display organization, person, "
-                         "folder, or box.")
+                         "folder, or box")
     model_objs = get_list_or_404(model)
-    if model_str == "organization":
-        model_objs.sort(key=lambda x: x.name)
-    elif model_str == "person":
-        model_objs.sort(key=lambda x: x.last)
-    elif model_str == "folder":
-        model_objs.sort(key=lambda x: x.full)
-    elif model_str == "box":
-        model_objs.sort(key=lambda x: x.number)
-    else:
-        raise ValueError("Cannot sort this list. Can only sort organization, person, folder, "
-                         "or box.")
     obj_dict = {
         'model_objs': model_objs,
         'model_str': model_str,
@@ -164,7 +154,13 @@ def search_results(request):
     folder_objs = Folder.objects.filter(full__contains=user_input)
     organization_objs = Organization.objects.filter(Q(name__contains=user_input)|Q(
         location__contains=user_input))
+    doc_type = ["minutes","memo","proposal","letter","receipt","contract","notice","memo draft",
+                "addendum","change order","form","report","invoice","list",
+                "routing sheet","application","note","press release","floor plan","program",
+                "pamphlet","payroll sheet","time record","summary","table","telegram", "unknown"]
+    doc_type.sort()
     obj_dict = {
+        'doc_type': doc_type,
         'people_objs': people_objs,
         'document_objs': document_objs,
         'folder_objs': folder_objs,
@@ -175,11 +171,10 @@ def search_results(request):
     return response
 
 
-# def flex_container():
-#     """something about what a flex container is"""
-#     schema =
-#
-
-
-
-
+def advanced_search(request):
+    """
+    Searches database based on specific search queries and parameters given by user.
+    :param request:
+    :return:
+    """
+    return HttpResponse("work in progress")

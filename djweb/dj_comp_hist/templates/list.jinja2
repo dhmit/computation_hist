@@ -19,15 +19,8 @@
     <h1>You're looking at every {{ model_str }}</h1>
 {% endblock %}
 
-<div class="flex-container">
-    <div>1</div>
-    <div>2</div>
-    <div>3</div>
-</div>
-
 {% block table %}
     <br>
-
     {% for item in model_objs %}
         <div class="list-group">
             <a href="/dj_comp_hist/{{ model_str }}/{{ item.pk }}"
