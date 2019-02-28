@@ -1,7 +1,7 @@
 // there are no index registers or Type A functions.  Or most of the Type B functions
 // basically most of the computer is missing
 
-const no_to_operation_b = {0o601: STO, 0: HTR, 0o500: CLA, 0o400: ADD, 0o402: SUB, 0o040: SBM}; //Change num later
+const no_to_operation_b = {0o601: STO, 0: HTR, 0o500: CLA, 0o400: ADD, 0o402: SUB, 0o040: SBM, 0o401: ADM}; //Change num later
 const no_to_operation_a = {0b110: TNX};
 const operation_b_to_no = {};
 const operation_a_to_no = {};
@@ -973,8 +973,8 @@ function ADD(computer, address) {
  * Subtracts the value of the storage register to the accumulator as if it were a
  * fixed point number.
  *
- * @param computer
- * @param address
+ * @param {IMB_704} computer    Machine to execute instruction on
+ * @param {number}  address     The address of the value to subtract from the accumulator
  * @constructor
  */
 
@@ -999,11 +999,25 @@ function TNX(computer, address, tag, decrement) {
  *
  * Subtracts the magnitude of the storage register from the accumulator as if it were a
  * fixed number point.
- * 
- * @param computer
- * @param address
+ *
+ * @param {IBM_704} computer    Machine to execute instruction on
+ * @param {number}  address     The address of the value to add to the accumulator
  * @constructor
  */
 function SBM(computer, address) {
     computer.accumulator.fixed_point = computer.accumulator.fixed_point - Math.abs(computer.general_memory[address].fixed_point);
+}
+
+/**
+ * Emulates the IMB 704 ADM operation
+ *
+ * Add the magnitude of the storage register form the accumulator as if it were a
+ * fixed number point
+ *
+ * @param {IMB_704} computer    Machine to execute instruction on
+ * @param {number}  address     The address of the value to add to the accumulator
+ * @constructor
+ */
+function ADM(computer, address) {
+    computer.accumulator.fixed_point = computer.accumulator.fixed_point + Math.abs(computer.general_memory[address].fixed_point);
 }
