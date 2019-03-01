@@ -10,3 +10,12 @@
     <p class="symbolic_code" id = "symbolic_code2">STO 6</p>
     <p class="symbolic_code" id = "symbolic_code3">HTR</p>
 {% endblock %}
+
+{% block description %}
+    Here's what's happening here:
+    <b>CLA 4: </b> Clears the accumulator and stores the value at address 4 (which you'll see if you mouseover is 12) into the accumulator.
+    <b>ADD 5: </b> Adds the value at address 5 (30) to the accumulator.
+    <b>STO 6: </b> Stores the value of the accumulator into the register at address 6.
+    <b>HTR: </b> Tells the computer to stop.
+    If you run this, you'll see that register 6 has a fixed point value of 42.  The answer to life, the universe, and everything.  Everything as it should be.
+{% endblock %}
