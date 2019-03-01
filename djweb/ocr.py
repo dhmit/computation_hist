@@ -5,10 +5,11 @@ from pathlib import Path
 import numpy as np
 import cv2
 from PIL import Image
+from scipy.ndimage import interpolation as inter
 
 
 def ocr_pdf(input_pdf_path, return_type='text', output_pdf_path=None):
-    '''
+    """
     OCRs a pdf using Tesseract through the pytesseract module
 
     This function either returns the text of the pdf as a string (return_type='str') or it
@@ -35,7 +36,7 @@ def ocr_pdf(input_pdf_path, return_type='text', output_pdf_path=None):
     :param return_type: str, 'text' or 'pdf'
     :param output_pdf_path:
     :return: str or None
-    '''
+    """
 
     # Turn string paths into Path objects if necessary
     if isinstance(input_pdf_path, str):
@@ -58,7 +59,7 @@ def ocr_pdf(input_pdf_path, return_type='text', output_pdf_path=None):
     skewed = pdf2image.convert_from_path(input_pdf_path, fmt='jpg')
 
     # Deskews images
-    images = fix_pil(skewed)
+    images = fix_pil(skewed, input_pdf_path)
 
     # Extracts text and returns string if return_type='str'
     if return_type == 'text':
@@ -110,73 +111,34 @@ def correct_skew(filepath):
     :return: None
     """
 
-    # load the image from disk
-    image = cv2.imread(filepath)
+    img = Image.open(filepath)
 
-    # convert the image to grayscale and flip the foreground
-    # and background to ensure foreground is now "white" and
-    # the background is "black"
+    # convert to binary
+    wd, ht = img.size
+    pix = np.array(img.convert('1').getdata(), np.uint8)
+    bin_img = 1 - (pix.reshape((ht, wd)) / 255.0)
 
-    gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
-    gray = cv2.bitwise_not(gray)
+    # evaluates how 'good' the rotation is
+    def find_score(arr, test_angle):
+        data = inter.rotate(arr, test_angle, reshape=False, order=0)
+        hist = np.sum(data, axis=1)
+        score = np.sum((hist[1:] - hist[:-1]) ** 2)
+        return hist, score
 
-    # threshold the image, setting all foreground pixels to
-    # 255 and all background pixels to 0
-    thresh = cv2.threshold(gray, 127, 255,
-                           cv2.THRESH_BINARY | cv2.THRESH_OTSU)[1]
-    cv2.imwrite(filepath + '_thresh.jpg', thresh)
+    # Rotates the image through a series of trials, and keeps the best
+    delta = 1
+    limit = 5
+    angles = np.arange(-limit, limit + delta, delta)
+    scores = []
+    for angle in angles:
+        hist, score = find_score(bin_img, angle)
+        scores.append(score)
 
-    # grab the (x, y) coordinates of all pixel values that
-    # are greater than zero, then use these coordinates to
-    # compute a rotated bounding box that contains all
-    # coordinates
-    coords = np.column_stack(np.where(thresh > 0))
-    angle = cv2.minAreaRect(coords)[-1]
-
-    # the `cv2.minAreaRect` function returns values in the
-    # range [-90, 0); as the rectangle rotates clockwise the
-    # returned angle trends to 0 -- in this special case we
-    # need to add 90 degrees to the angle
-    if angle < -45:
-        angle = -(90 + angle)
-
-    # otherwise, just take the inverse of the angle to make
-    # it positive
-    else:
-        angle = -angle
-
-    # if angle == 0, there has been a problem and we should try another method
-    if int(angle) == 0.0 or angle == -0.0:
-        height, width, channels = image.shape
-
-        boundary = [20, 20, 20]
-
-        # convert all pixels that are almost black to white to imitate page
-        for x in range(0, width):
-            for y in range(0, height):
-                channels_xy = image[y, x]
-                if all(channels_xy < boundary):
-                    image[y, x] = [255,255,255]
-
-        gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
-        gray = cv2.bitwise_not(gray)
-
-        # threshold the new image, setting all foreground pixels to
-        # 255 and all background pixels to 0
-        thresh = cv2.threshold(gray, 127, 255,
-                               cv2.THRESH_BINARY | cv2.THRESH_OTSU)[1]
-        cv2.imwrite(filepath + '_thresh.jpg', thresh)
-
-        # grab the (x, y) coordinates of all pixel values that
-        # are greater than zero, then use these coordinates to
-        # compute a rotated bounding box that contains all
-        # coordinates
-        coords = np.column_stack(np.where(thresh > 0))
-        angle = cv2.minAreaRect(coords)[-1]
-
-    print(angle)
+    best_score = max(scores)
+    angle = angles[scores.index(best_score)]
 
     # rotate the image to deskew it
+    image = cv2.imread(filepath)
     (h, w) = image.shape[:2]
     center = (w // 2, h // 2)
     M = cv2.getRotationMatrix2D(center, angle, 1.0)
@@ -191,13 +153,14 @@ def correct_skew(filepath):
     cv2.imwrite(filepath, rotated)
 
 
-def fix_pil(doc):
+def fix_pil(doc, doc_path):
     """
     Takes in a list of PIL files that need to be deskewed and returns the images in PIL format
 
     Because this function deals strictly with images, there are no doctests.
 
     :param doc: list of PIL files
+    :param doc_path: Path for temporary files to be stored
     :return: list of PIL files
     """
 
