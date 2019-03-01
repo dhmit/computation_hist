@@ -1,6 +1,7 @@
 import urllib.request, urllib.error
 import shutil
 import sys
+from IPython import embed
 import os
 from pathlib import Path, PurePath, PurePosixPath
 from django.db import models
@@ -15,7 +16,6 @@ from pdf2image import convert_from_path
 DJWEB_PATH = Path(os.path.abspath(os.path.dirname(__file__)))
 DATA_BASE_PATH = Path(DJWEB_PATH.parent,"computation_hist","data","processed_pdfs")
 
-from IPython import embed; embed()
 
 
 def main_function(test_run=True):
@@ -24,15 +24,17 @@ def main_function(test_run=True):
     folder_list = Folder.objects.all()
 
     if test_run:
-        folder_list = folder_list[:2]
+        folder_list = folder_list[:1]
 
     print(folder_list)
 
     for current_folder in folder_list:
-        box = current_folder.box
+        box_id = current_folder.box.number
+        folder_id = current_folder.number
         foldername_short = current_folder.name
         # place it in the correct folder creating it if neccessary
-        path_to_folder = download_raw_folder_pdf_from_aws(box, current_folder, foldername_short)
+
+        path_to_folder = download_raw_folder_pdf_from_aws(box_id, folder_id, foldername_short)
         # for each folder - split into documents, for each document - split the document into pages
         #TODO: is this the correct name of the PDF
         split_folder_to_doc(path_to_folder, path_to_folder, foldername_short)
