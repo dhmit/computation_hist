@@ -194,7 +194,7 @@ def fix_pil(doc, doc_path):
 
 if __name__ == '__main__':
     input_pdf_path = Path('..', 'computation_hist', 'data', 'sample_docs',
-                                'skew_test_real.pdf')
+                                '3_32_verzuh_4.pdf')
     output_pdf_path = Path('..', 'computation_hist', 'data', 'sample_docs',
                            'skew_test_out.pdf')
     o = ocr_pdf(input_pdf_path, return_type='pdf', output_pdf_path=output_pdf_path)
