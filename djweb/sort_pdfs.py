@@ -5,14 +5,17 @@ import os
 from pathlib import Path, PurePath, PurePosixPath
 from django.db import models
 #from computation_hist.common import make_searchable_pdf
-from .dj_comp_hist.models import Folder
-from .dj_comp_hist.common import get_file_path
+from dj_comp_hist.models import Folder
+from dj_comp_hist.common import get_file_path
 from PyPDF2 import PdfFileWriter, PdfFileReader
 from pdf2image import convert_from_path
 
 
+
 DJWEB_PATH = Path(os.path.abspath(os.path.dirname(__file__)))
 DATA_BASE_PATH = Path(DJWEB_PATH.parent,"computation_hist","data","processed_pdfs")
+
+from IPython import embed; embed()
 
 
 def main_function():
