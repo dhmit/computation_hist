@@ -13,3 +13,7 @@ def simulation(request, simulation):
         "script_name": "/static/js/" + simulation + ".js",
     }
     return render(request, simulation + '.jinja2', obj_dict)
+
+
+def index_sim(request):
+    return render(request, 'index_sim.jinja2')
