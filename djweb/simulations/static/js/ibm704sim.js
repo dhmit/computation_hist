@@ -1,8 +1,17 @@
 // there are no index registers or Type A functions.  Or most of the Type B functions
 // basically most of the computer is missing
+// if number is negative, put a 4 in the beginning: e.g. -0o345 will become 0o4345
+const no_to_operation_b = {
+    0o601: STO,
+    0o000: HTR,
+    0o500: CLA,
+    0o400: ADD,
+    0o402: SUB,
+    0o4400: SBM,
+    0o401: ADM,
+    0o534: LXA,
+};
 
-const no_to_operation_b = {0o601: STO, 0o000: HTR, 0o500: CLA, 0o400: ADD, 0o402: SUB, 0o4400: SBM, 0o401: ADM}; // if number is
-// negative, put a 4 in the beginning: e.g. -0o345 will become 0o4345
 const no_to_operation_a = {0b110: TNX};
 const operation_b_to_no = {};
 const operation_a_to_no = {};
@@ -958,6 +967,24 @@ class IBM_704 {
             throw "Undefined operation!";
         }
     }
+
+    /**
+     * Returns the correct index register for the computer given a tag.
+     *
+     * @param {number} tag          The tag.
+     * @returns {Index_Register}    The appropriate index register.
+     */
+    get_tag(tag) {
+        let index_register;
+        if (tag === 1) {
+            index_register = computer.index_a;
+        } else if (tag === 2) {
+            index_register = computer.index_b
+        } else if (tag === 4) {
+            index_register = computer.index_c;
+        }
+        return index_register;
+    }
 }
 
 /**
@@ -1054,15 +1081,31 @@ function SBM(computer, address) {
 }
 
 /**
- * Emulates the IMB 704 ADM operation
+ * Emulates the IBM 704 ADM operation
  *
- * Add the magnitude of the storage register form the accumulator as if it were a
- * fixed number point
+ * Add the magnitude of the storage register from the accumulator as if it were a
+ * fixed point number.
  *
- * @param {IBM_704} computer    Machine to execute instruction on
- * @param {number}  address     The address of the value to add to the accumulator
+ * @param {IBM_704} computer    Machine to execute instruction on.
+ * @param {number}  address     The address of the value to add to the accumulator.
  * @constructor
  */
 function ADM(computer, address) {
     computer.accumulator.fixed_point = computer.accumulator.fixed_point + Math.abs(computer.general_memory[address].fixed_point);
+}
+
+/**
+ * Emulates the IBM 704 LXA operation.
+ *
+ * Stores the address of the word at the specified address
+ *
+ * @param {IBM_704} computer    Machine to execute instruction on.
+ * @param {number}  address     Address of register to extract address from.
+ * @param {number}  tag         Specifies the index register to be changed.
+ * @constructor
+ */
+function LXA(computer, address, tag) {
+    let index_register = computer.get_tag(tag);
+    let address_to_store = computer.storage_register.address;
+    index_register.update_contents(address_to_store);
 }
