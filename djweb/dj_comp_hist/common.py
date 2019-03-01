@@ -2,8 +2,7 @@ import os
 from pathlib import Path, PurePosixPath
 
 DJWEB_PATH = Path(os.path.abspath(os.path.dirname(__file__)))
-DATA_BASE_PATH = Path(DJWEB_PATH.parent,"computation_hist","data","processed_pdfs")
-
+DATA_BASE_PATH = Path(DJWEB_PATH.parent.parent,"computation_hist","data","processed_pdfs")
 
 def get_file_path(box: int, folder: int, foldername_short:str, file_type:str,
                   doc_id:int = None, page_id:int = None, path_type='relative'):
@@ -21,6 +20,10 @@ def get_file_path(box: int, folder: int, foldername_short:str, file_type:str,
     >>> p = get_file_path(1, 8, 'rockefeller', file_type='txt', doc_id=4)
     >>> PurePosixPath(p)
     PurePosixPath('1_8_rockefeller/docs/4/1_8_rockefeller_4.txt')
+
+    >>> p = get_file_path(1, 8, 'rockefeller', file_type='pdf', doc_id=4)
+    >>> PurePosixPath(p)
+    PurePosixPath('1_8_rockefeller/docs/4/1_8_rockefeller_4.pdf')
 
     page png (page path returned when both doc_id and page_id are included
     >>> p = get_file_path(1, 8, 'rockefeller', file_type='txt', doc_id=4, page_id=20)
@@ -40,7 +43,7 @@ def get_file_path(box: int, folder: int, foldername_short:str, file_type:str,
     :param box: int
     :param folder: int
     :param foldername_short: str
-    :param doc_type: 'pdf', 'txt', 'png', or 'raw_pdf'
+    :param doc_type: 'pdf', 'txt', 'png', or 'raw_pdf' raw_pdf is the un-ocred folder-level pdf
     :param doc_id: int
     :param page_id: int
     :param path_type: 'relative', 'absolute', or 'aws'
@@ -63,7 +66,7 @@ def get_file_path(box: int, folder: int, foldername_short:str, file_type:str,
 
     full_folder_name = f'{box}_{folder}_{foldername_short}'
 
-    if file_type == 'raw_pdf':
+    if file_type == 'raw_pdf' :
         path = Path(full_folder_name, 'raw_pdf', f'{full_folder_name}_raw.pdf')
 
     elif doc_id and not page_id:
