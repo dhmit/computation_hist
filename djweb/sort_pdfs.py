@@ -5,8 +5,8 @@ import os
 from pathlib import Path, PurePath, PurePosixPath
 from django.db import models
 #from computation_hist.common import make_searchable_pdf
-sys.path.insert(0, '/Users/ifeademolu-odeneye/Documents/GitHub/computation_hist/computation_hist')
 from .dj_comp_hist.models import Folder
+from .dj_comp_hist.common import get_file_path
 from PyPDF2 import PdfFileWriter, PdfFileReader
 from pdf2image import convert_from_path
 
@@ -22,13 +22,14 @@ def main_function():
         box = current_folder.box
         folder = current_folder.folder
         foldername = current_folder.foldername_short
-    # place it in the correct folder creating it if neccessary
-    path_to_folder = download_raw_folder_pdf_from_aws(box, folder, foldername)
-    # for each folder - split into documents, for each document - split the document into pages
-    foldername_short = foldername
-    #TODO: establish difference between foldernam_short and foldername
-    pdf_path = Path(path_to_folder,foldername + ".pdf") #TODO: is this the correct name of the PDF
-    split_folder_to_doc(path_to_folder, pdf_path, foldername_short)
+        # place it in the correct folder creating it if neccessary
+        path_to_folder = download_raw_folder_pdf_from_aws(box, folder, foldername)
+        # for each folder - split into documents, for each document - split the document into pages
+        foldername_short = foldername
+        #TODO: establish difference between foldernam_short and foldername
+        pdf_path = Path(path_to_folder,foldername + ".pdf")
+        #TODO: is this the correct name of the PDF
+        split_folder_to_doc(path_to_folder, pdf_path, foldername_short)
 
 def download_raw_folder_pdf_from_aws(box:int, folder:int, foldername:str):
     '''
