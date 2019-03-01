@@ -17,24 +17,27 @@ from ocr import ocr_pdf
 
 
 def main_function(test_run=True):
-    # ----- go through each folder in the database
-        # right now we are setting box,folder,foldername
+    """
+    Iterates over all Folder Objects, downloads the folder pdf from aws and stores it in its
+    designated directory.
+    Split the folder into documents and store those in their respective directory
+        within the split_folder_to_doc(...) split each doc into pages and store in directory
+    :param test_run:
+    :return:
+    """
     folder_list = Folder.objects.all()
-
     if test_run:
         folder_list = folder_list[:1]
-
-    print(folder_list)
-
     for current_folder in folder_list:
+        # set values based on folder being processed
         box_id = current_folder.box.number
         folder_id = current_folder.number
         foldername_short = current_folder.name
-        # place it in the correct folder creating it if neccessary
-
+        # download the folder from aws and store it in the designated directory (creating it if
+        # necessary
         folder_pdf_path = download_raw_folder_pdf_from_aws(box_id, folder_id, foldername_short)
-        # for each folder - split into documents, for each document - split the document into pages
-        #TODO: is this the correct name of the PDF
+        # split the folder into docs and store it in the correct directory
+        # within the function doc's are split to pages
         split_folder_to_doc(folder_pdf_path, foldername_short, box_id, folder_id)
 
 
