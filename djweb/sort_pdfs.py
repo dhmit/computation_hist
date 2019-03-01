@@ -5,6 +5,7 @@ import os
 from pathlib import Path, PurePath, PurePosixPath
 from django.db import models
 from computation_hist.common import make_searchable_pdf
+from .dj_comp_hist.models import Person, Document, Box, Folder, Organization, Page
 
 from PyPDF2 import PdfFileWriter, PdfFileReader
 from pdf2image import convert_from_path
@@ -21,13 +22,10 @@ def download_raw_folder_pdf_from_aws(box:int, folder:int, foldername:str):
 
     :return: Path
     '''
-
     rel_path = get_file_path(box, folder, foldername, file_type='raw_pdf', include_base_path=False)
     abs_path = Path(DATA_BASE_PATH, rel_path)
-
     # SR: I was worried about using str(Path) on Windows systems, hence the awkward "/".join()
     url = f'https://s3.amazonaws.com/comp-hist/docs/{"/".join(rel_path.parts)}'
-
     try:
         with urllib.request.urlopen(url) as response:
             abs_path.parent.mkdir(parents=True, exist_ok=True)
@@ -37,12 +35,10 @@ def download_raw_folder_pdf_from_aws(box:int, folder:int, foldername:str):
         raise(FileNotFoundError(f'{url} is not available from our AWS bucket. For a list of '
                                      f'available files, see aws_available_files.md in the '
                                      f'computation_hist/data directory.'))
-
     return abs_path
 
 
 def create_sub_folders(path_to_boxes=DATA_BASE_PATH, foldername_short='rockefeller'):
-
 
     """
     To run this code :
@@ -61,7 +57,7 @@ def create_sub_folders(path_to_boxes=DATA_BASE_PATH, foldername_short='rockefell
     """
 
 
-    from dj_comp_hist.models import Person, Document, Box, Folder, Organization, Page
+
 
     box = str(Folder.objects.get(name=foldername_short).box) # note this is a string
 
