@@ -15,6 +15,7 @@ const no_to_operation_b = {
 
 const no_to_operation_a = {
     0b110: TNX,
+    0b010: TIX,
     0b000: PZE, // hack for pseudoinstruction PZE
 };
 const operation_b_to_no = {};
@@ -992,6 +993,8 @@ class IBM_704 {
     }
 }
 
+// Type B operations
+
 /**
  * Emulates the IBM 704 STO operation.
  *
@@ -1060,18 +1063,6 @@ function SUB(computer, address) {
 }
 
 /**
- * A dummy function for testing Type A instructions.
- *
- * @param computer
- * @param address
- * @param tag
- * @param decrement
- */
-function TNX(computer, address, tag, decrement) {
-    console.log("TNX called");
-}
-
-/**
  * Emulates the IMB 704 SBM operation.
  *
  * Subtracts the magnitude of the storage register from the accumulator as if it were a
@@ -1111,4 +1102,34 @@ function LXA(computer, address, tag) {
     let index_register = computer.get_tag(tag);
     let address_to_store = computer.storage_register.address;
     index_register.update_contents(address_to_store);
+}
+
+// Type A operations
+
+/**
+ * A dummy function for testing Type A instructions.
+ *
+ * @param computer
+ * @param address
+ * @param tag
+ * @param decrement
+ */
+function TNX(computer, address, tag, decrement) {
+    console.log("TNX called");
+}
+
+/**
+ * A dummy function for testing Type A instructions.
+ *
+ * @param computer
+ * @param address
+ * @param tag
+ * @param decrement
+ */
+function TIX(computer, address, tag, decrement) {
+    let index_register = computer.get_tag(tag);
+    if (index_register.valueOf() > decrement) {
+        index_register.update_contents(index_register.valueOf() - decrement);
+        computer.ilc.update_contents(address);
+    }
 }
