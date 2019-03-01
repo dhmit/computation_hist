@@ -28,7 +28,7 @@ python manage.py shell
 ```
 In the django shell, run the following commands.
 ```
-from dj_comp_hist.models import populate_from_metadata
+from dj_comp_hist.metadata_parser import populate_from_metadata
 populate_from_metadata()
 ```
 Unless you are populating from a metadata that is different from metadata.csv, do not pass in a 
