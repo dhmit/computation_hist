@@ -968,7 +968,7 @@ function ADD(computer, address) {
 }
 
 /**
- * Emulates the IMB 704 SUB operation.
+ * Emulates the IBM 704 SUB operation.
  *
  * Subtracts the value of the storage register to the accumulator as if it were a
  * fixed point number.
@@ -995,7 +995,7 @@ function TNX(computer, address, tag, decrement) {
 }
 
 /**
- * Emulates the IMB 704 SBM operation.
+ * Emulates the IBM 704 SBM operation.
  *
  * Subtracts the magnitude of the storage register from the accumulator as if it were a
  * fixed number point.
@@ -1005,19 +1005,26 @@ function TNX(computer, address, tag, decrement) {
  * @constructor
  */
 function SBM(computer, address) {
-    computer.accumulator.fixed_point = computer.accumulator.fixed_point - Math.abs(computer.general_memory[address].fixed_point);
+    computer.accumulator.fixed_point
+        = computer.accumulator.fixed_point - Math.abs(computer.general_memory[address].fixed_point);
 }
 
 /**
- * Emulates the IMB 704 ADM operation
+ * Emulates the IBM 704 ADM operation.
  *
  * Add the magnitude of the storage register form the accumulator as if it were a
- * fixed number point
+ * fixed number point.
  *
  * @param {IBM_704} computer    Machine to execute instruction on
  * @param {number}  address     The address of the value to add to the accumulator
  * @constructor
  */
 function ADM(computer, address) {
-    computer.accumulator.fixed_point = computer.accumulator.fixed_point + Math.abs(computer.general_memory[address].fixed_point);
+    computer.accumulator.fixed_point
+        = computer.accumulator.fixed_point + Math.abs(computer.general_memory[address].fixed_point);
 }
+
+
+
+
+
