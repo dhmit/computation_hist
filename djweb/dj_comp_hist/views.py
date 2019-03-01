@@ -157,7 +157,7 @@ def search_results(request):
     doc_type = ["minutes","memo","proposal","letter","receipt","contract","notice","memo draft",
                 "addendum","change order","form","report","invoice","list",
                 "routing sheet","application","note","press release","floor plan","program",
-                "pamphlet","payroll sheet","time record","summary","table","telegram", "unknown"]
+                "pamphlet","payroll sheet","time record","summary","table","telegram"]
     doc_type.sort()
     obj_dict = {
         'doc_type': doc_type,
@@ -177,4 +177,69 @@ def advanced_search(request):
     :param request:
     :return:
     """
-    return HttpResponse("work in progress")
+    boxes = []
+    if "checkBox1" in request.GET:
+        boxes.append(1)
+    if "checkBox2" in request.GET:
+        boxes.append(2)
+    if "checkBox3" in request.GET:
+        boxes.append(3)
+    if len(boxes) == 2:
+        doc_objs = Document.objects.filter(Q(folder__box__number=boxes[0]) |
+                                           Q(folder__box__number=boxes[1]))
+    elif len(boxes) == 1:
+        doc_objs = Document.objects.filter(folder__box__number=boxes[0])
+    else:
+        doc_objs = Document.objects
+
+    try:
+        author = request.GET['author']
+        if author != "Unknown":
+            author = author.split(" ")
+            doc_objs = doc_objs.filter(Q(author_person__first__icontains=author[0]) |
+                                       Q(author_person__last__icontains=author[0]) |
+                                       Q(author_organization__name__icontains=author[0]))
+    except:
+        print("Error getting author name")
+
+    try:
+        recipient = request.GET['receiver']
+        if recipient != "Unknown":
+            recipient = recipient.split(" ")
+            doc_objs = doc_objs.filter(Q(recipient_person__first__icontains=recipient[0]) |
+                                       Q(recipient_person__last__icontains=recipient[0]) |
+                                       Q(recipient_organization__name__icontains=recipient[0]))
+    except:
+        print('Error getting recipient name')
+
+    try:
+        doc_types = request.GET['doc_type']
+        if isinstance(doc_types , list) and 'unknown' not in doc_types:
+            queries = [Q(type__icontains=t) for t in doc_types]
+            print(queries)
+            query = queries.pop()
+            for item in queries:
+                query |= item
+        elif doc_types != 'unknown':
+            query = Q(type__icontains=doc_types)
+        doc_objs = doc_objs.filter(query)
+    except:
+        print('Error getting doc types')
+
+    try:
+        pages = [int(request.GET['minPages']), int(request.GET['maxPages'])]
+        doc_objs = doc_objs.filter(Q(number_of_pages__gte=pages[0]) &
+                        Q(number_of_pages__lte=pages[1]))
+    except:
+        print('Error getting pages')
+
+    try:
+        years = [int(request.GET['minYear']), int(request.GET['maxYear'])]
+        doc_objs = doc_objs.filter(Q(date__year__gte=years[0]) &
+                                   Q(date__year__lte=years[1]))
+    except:
+        print('Error getting min and max years')
+
+    print(request)
+
+    return render(request,'list.jinja2', {'model_str': 'doc', 'model_objs': doc_objs})
