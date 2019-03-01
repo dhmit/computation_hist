@@ -28,22 +28,24 @@ def main_function(test_run=True):
         foldername_short = current_folder.name
         # place it in the correct folder creating it if neccessary
 
-        path_to_folder = download_raw_folder_pdf_from_aws(box_id, folder_id, foldername_short)
-        print(path_to_folder)
+        folder_pdf_path = download_raw_folder_pdf_from_aws(box_id, folder_id, foldername_short)
         # for each folder - split into documents, for each document - split the document into pages
         #TODO: is this the correct name of the PDF
-        split_folder_to_doc(path_to_folder.parent.parent, path_to_folder, foldername_short, box_id,
-                            folder_id)
+        split_folder_to_doc(folder_pdf_path, foldername_short, box_id, folder_id)
+
 
 def download_raw_folder_pdf_from_aws(box:int, folder:int, foldername:str):
     '''
     Downloads a raw (not yet ocred) pdf file from amazon aws and stores it in the proper folder
-    relative to DATA_BASE_PATH
+    relative to DATA_BASE_PATH from dj_comp_hist.common
 
     :return: Path
     '''
     rel_path = get_file_path(box, folder, foldername, file_type='raw_pdf')
     abs_path = Path(DATA_BASE_PATH, rel_path)
+    if abs_path.exists():
+        print(f'PDF {rel_path} already downloaded. Skipping download')
+        return abs_path
     # SR: I was worried about using str(Path) on Windows systems, hence the awkward "/".join()
     url = f'https://s3.amazonaws.com/comp-hist/docs/{"/".join(rel_path.parts)}'
     try:
@@ -82,45 +84,51 @@ def create_sub_directories(path_to_folder, foldername_short='rockefeller'):
     pass
 
 
-def split_doc_to_page(pdf_path, foldername_short, box_no, folder_no, doc_no):
-   print("********************")
-   # ------------------to be changed next line
-   print(pdf_path)
-   pages = convert_from_path(pdf_path)
+def split_doc_to_page(doc_pdf_path, foldername_short, box_no, folder_no, doc_no):
 
-   for page in range(1, len(pages)+1):
-       x = get_file_path(box_no, folder_no, foldername_short, file_type='png', doc_id=doc_no,
-                         page_id=page, path_type='absolute')
-       x.parent.mkdir(parents=True, exist_ok=True)
-       print(x)
-       pages[page-1].save(x, 'PNG')#saves page to the directory
+    """
+    Given a path to a document pdf_path, this function extracts all of the pages as png files.
+
+    :param pdf_path:
+    :param foldername_short:
+    :param box_no:
+    :param folder_no:
+    :param doc_no:
+    :return:
+    """
+
+    print(doc_pdf_path)
+    pages = convert_from_path(doc_pdf_path)
+
+    for page in range(1, len(pages)+1):
+        page_file_path = get_file_path(box_no, folder_no, foldername_short, file_type='png',
+                                 doc_id=doc_no, page_id=page, path_type='absolute')
+        page_file_path.parent.mkdir(parents=True, exist_ok=True)
+        pages[page-1].save(page_file_path, 'PNG')#saves page to the directory
 
 
-def split_folder_to_doc(folder_location,pdf_path, foldername_short, box, folderno):
+def split_folder_to_doc(folder_pdf_path, foldername_short, box_id, folder_id):
     """
 
     :param pdf_path: the path up to the folder containing the pdfs
     :param associated_documents:
     :return:
     """
-    start_pages = []
+
     associated_documents = Folder.objects.get(name=foldername_short).document_set.all()
-    for single_doc in associated_documents:
-        start_pages.append(single_doc.first_page)
-        list.sort(start_pages)
-    folder_pdf = PdfFileReader(open(pdf_path, "rb"))
+    folder_pdf = PdfFileReader(open(folder_pdf_path, "rb"))
     for doc in associated_documents:
-        get_file_path(box, folderno, foldername_short, file_type='pdf', doc_id=doc.id,
-                      path_type='absolute'
-                      ).parent.mkdir(parents=True, exist_ok=True)
-        #if not os.path.exists(PurePath.joinpath(pdf_location, "doc_" + str(doc.id))):
-        #    Path.mkdir(PurePath.joinpath(pdf_path, "doc_" + str(doc.id)))
+        doc_file_path = get_file_path(box_id, folder_id, foldername_short, file_type='pdf',
+                                      doc_id=doc.doc_id, path_type='absolute')
+        doc_file_path.parent.mkdir(parents=True, exist_ok=True)
+
         output = PdfFileWriter()
-        for i in range(doc.first_page, doc.last_page):
+        for i in range(doc.first_page - 1, doc.last_page):
             output.addPage(folder_pdf.getPage(i))
-        with open("doc" + str(doc.id) + ".pdf", "wb") as outputStream:
+        with open(doc_file_path, "wb") as outputStream:
             output.write(outputStream)
-        split_doc_to_page(pdf_path, foldername_short, box, folderno, doc.id)
+
+        split_doc_to_page(doc_file_path, foldername_short, box_id, folder_id, doc.doc_id)
 
 if __name__ == '__main__':
     download_raw_folder_pdf_from_aws(2, 1, 'digital_comp_to_social_problems')
