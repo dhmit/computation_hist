@@ -1,5 +1,6 @@
-// there are no index registers or Type A functions.  Or most of the Type B functions
-// basically most of the computer is missing
+const PZE = HTR; // hack for pseudoinstruction PZE, which lets you store in an address, tag, and
+// decrement without an operation
+
 // if number is negative, put a 4 in the beginning: e.g. -0o345 will become 0o4345
 const no_to_operation_b = {
     0o601: STO,
@@ -12,7 +13,10 @@ const no_to_operation_b = {
     0o534: LXA,
 };
 
-const no_to_operation_a = {0b110: TNX};
+const no_to_operation_a = {
+    0b110: TNX,
+    0b000: PZE, // hack for pseudoinstruction PZE
+};
 const operation_b_to_no = {};
 const operation_a_to_no = {};
 const no_to_operation_a_str = {};
@@ -25,6 +29,7 @@ for (let number in no_to_operation_a) {
     operation_a_to_no[(no_to_operation_a[number]).name] = number;
     no_to_operation_a_str[number] = (no_to_operation_a[number]).name;
 }
+operation_a_to_no["PZE"] = 0b000; // hack for pseudoinstruction PZE
 const non_indexable = {"TIX": 0, "TNX": 0, "TXH": 0, "TXL": 0, "TXI": 0, "TSX":0, "LXA":0, "LXD":0, "SXD":0, "PXD":0, "PAX":0, "PDX":0};
 
 /**
@@ -1088,7 +1093,6 @@ function SBM(computer, address) {
  *
  * @param {IBM_704} computer    Machine to execute instruction on.
  * @param {number}  address     The address of the value to add to the accumulator.
- * @constructor
  */
 function ADM(computer, address) {
     computer.accumulator.fixed_point = computer.accumulator.fixed_point + Math.abs(computer.general_memory[address].fixed_point);
@@ -1102,7 +1106,6 @@ function ADM(computer, address) {
  * @param {IBM_704} computer    Machine to execute instruction on.
  * @param {number}  address     Address of register to extract address from.
  * @param {number}  tag         Specifies the index register to be changed.
- * @constructor
  */
 function LXA(computer, address, tag) {
     let index_register = computer.get_tag(tag);

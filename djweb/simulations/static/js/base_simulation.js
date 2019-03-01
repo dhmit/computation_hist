@@ -90,7 +90,8 @@ function update() {
 
     storage_register_element = $("#storage_register")[0];
     storage_register_element.innerHTML = computer.storage_register.toString();
-    storage_register_element.title = "Fixed Point: " + computer.storage_register.fixed_point;
+    storage_register_element.title = "Instruction: " + computer.storage_register.instruction.toString();
+    storage_register_element.title += "\r\nFixed Point: " + computer.storage_register.fixed_point;
     storage_register_element.title += "\r\nFloating Point: " + computer.storage_register.floating_point;
 
     accumulator_element = $("#accumulator")[0];
