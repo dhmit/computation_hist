@@ -26,6 +26,8 @@ def main_function(test_run=True):
     if test_run:
         folder_list = folder_list[:2]
 
+    print(folder_list)
+
     for current_folder in folder_list:
         box = current_folder.box
         foldername_short = current_folder.name
@@ -42,7 +44,7 @@ def download_raw_folder_pdf_from_aws(box:int, folder:int, foldername:str):
 
     :return: Path
     '''
-    rel_path = get_file_path(box, folder, foldername, file_type='raw_pdf', include_base_path=False)
+    rel_path = get_file_path(box, folder, foldername, file_type='raw_pdf')
     abs_path = Path(DATA_BASE_PATH, rel_path)
     # SR: I was worried about using str(Path) on Windows systems, hence the awkward "/".join()
     url = f'https://s3.amazonaws.com/comp-hist/docs/{"/".join(rel_path.parts)}'
