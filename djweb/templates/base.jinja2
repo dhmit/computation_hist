@@ -25,21 +25,26 @@
 
         <div class="navbar-collapse collapse" id="navbarsExampleDefault" style="">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="/dj_comp_hist/">Home
-                        <span class="sr-only">(current)</span></a>
+{#                <li class="nav-item active">#}
+{#                    <a class="nav-link" href="/dj_comp_hist/">Archives#}
+{#                        <span class="sr-only">(current)</span></a>#}
+{#                </li>#}
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="/dj_comp_hist/" id="navbarDropdown"
+                       role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Archives
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item"
+                           href="/dj_comp_hist/list/person">
+                            <span class="dropdown-link">People</span>People</a>
+                        <a class="dropdown-item" href="/dj_comp_hist/list/folder">Folders</a>
+                        <a class="dropdown-item"
+                           href="/dj_comp_hist/list/organization">Organizations</a>
+                    </div>
                 </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="/dj_comp_hist/list/person">People</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="/dj_comp_hist/list/box">Boxes</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="/dj_comp_hist/list/folder">Folders</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="/dj_comp_hist/list/organization">Organizations</a>
+                 <li class="nav-item active">
+                    <a class="nav-link" href="/simulations">Simulations</a>
                 </li>
 
             </ul>
