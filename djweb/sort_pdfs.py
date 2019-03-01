@@ -4,9 +4,9 @@ import sys
 import os
 from pathlib import Path, PurePath, PurePosixPath
 from django.db import models
-from computation_hist.common import make_searchable_pdf
-from .dj_comp_hist.models import Person, Document, Box, Folder, Organization, Page
-
+#from computation_hist.common import make_searchable_pdf
+sys.path.insert(0, '/Users/ifeademolu-odeneye/Documents/GitHub/computation_hist/computation_hist')
+from .dj_comp_hist.models import Folder
 from PyPDF2 import PdfFileWriter, PdfFileReader
 from pdf2image import convert_from_path
 
@@ -14,6 +14,21 @@ from pdf2image import convert_from_path
 DJWEB_PATH = Path(os.path.abspath(os.path.dirname(__file__)))
 DATA_BASE_PATH = Path(DJWEB_PATH.parent,"computation_hist","data","processed_pdfs")
 
+
+def main_function():
+    # ----- go through each folder in the database
+        # right now we are setting box,folder,foldername
+    for current_folder in Folder.objects.all():
+        box = current_folder.box
+        folder = current_folder.folder
+        foldername = current_folder.foldername_short
+    # place it in the correct folder creating it if neccessary
+    path_to_folder = download_raw_folder_pdf_from_aws(box, folder, foldername)
+    # for each folder - split into documents, for each document - split the document into pages
+    foldername_short = foldername
+    #TODO: establish difference between foldernam_short and foldername
+    pdf_path = Path(path_to_folder,foldername + ".pdf") #TODO: is this the correct name of the PDF
+    split_folder_to_doc(path_to_folder, pdf_path, foldername_short)
 
 def download_raw_folder_pdf_from_aws(box:int, folder:int, foldername:str):
     '''
@@ -38,11 +53,15 @@ def download_raw_folder_pdf_from_aws(box:int, folder:int, foldername:str):
     return abs_path
 
 
-def create_sub_folders(path_to_boxes=DATA_BASE_PATH, foldername_short='rockefeller'):
-
+def create_sub_directories(path_to_folder, foldername_short='rockefeller'):
     """
+    take in a folder, split into documents, as you split into documents, take the document and
+    split into pages
+    for each folder - split into documents, for each document - split the document into page
+
     To run this code :
     sys.path
+    import sys
     sys.path.insert(0, '/Users/ifeademolu-odeneye/Documents/GitHub/computation_hist
     /computation_hist') - replace with your file path
     import dj_comp_hist
@@ -55,28 +74,7 @@ def create_sub_folders(path_to_boxes=DATA_BASE_PATH, foldername_short='rockefell
 
     :return:
     """
-
-
-
-
-    box = str(Folder.objects.get(name=foldername_short).box) # note this is a string
-
-    # Note: you don't need to use joinpath. You can just join the parts of a path together like
-    # this.
-    root = Path(path_to_boxes,  box)
-
-    # the command below will create the directory if it doesn't exist as well as any parent folders
-    # where necessary.
-    root.mkdir(parents=True, exist_ok=True)
-    path_folder_pdf = Path(root, foldername_short)
-    path_folder_pdf.mkdir(exist_ok=True)
-    associated_documents = Folder.objects.get(name=foldername_short).document_set.all()
-    split_folder_to_doc(path_folder_pdf, associated_documents, foldername_short)
-
-    for doc in Folder.objects.get(name=foldername_short).document_set.all():
-        Path(root, "doc_" + str(doc.id)).mkdir(exist_ok=True)
-        for i in range(1,doc.number_of_pages+1):
-            Path(root, "doc_" + str(doc.id), "page_"+str(i)).mkdir(exist_ok=True)
+    pass
 
 
 def split_doc_to_page(pdf_path, folder_name):
@@ -92,33 +90,30 @@ def split_doc_to_page(pdf_path, folder_name):
        pages[page-1].save(page_path, 'PNG')#saves page to the directory
 
 
-def split_folder_to_doc(pdf_path, associated_documents, folder_name):
-   """
+def split_folder_to_doc(pdf_location,pdf_path, foldername_short):
+    """
 
-   :param pdf_path: the path up to the folder containing the pdfs
-   :param associated_documents:
-   :return:
-   """
-   #splits the folder pdfs
-   start_pages = []
-   pdf_location = PurePath.joinpath(pdf_path, "1_08_raw_rockefeller.pdf")
-   for single_doc in associated_documents:
-       start_pages.append(single_doc.first_page)
-       list.sort(start_pages)
-   folder_pdf = PdfFileReader(open(pdf_location, "rb"))
-   for doc in associated_documents:
-       if not os.path.exists(PurePath.joinpath(pdf_path, "doc_" + str(doc.id))):
-           Path.mkdir(PurePath.joinpath(pdf_path, "doc_" + str(doc.id)))
-       output = PdfFileWriter()
-       for i in range(doc.first_page,doc.last_page):
-           output.addPage(folder_pdf.getPage(i))
-       with open("doc" + str(doc.id) + ".pdf", "wb") as outputStream:
-           output.write(outputStream)
+    :param pdf_path: the path up to the folder containing the pdfs
+    :param associated_documents:
+    :return:
+    """
 
-       split_doc_to_page(pdf_path, folder_name)
+    start_pages = []
+    associated_documents = Folder.objects.get(name=foldername_short).document_set.all()
+    for single_doc in associated_documents:
+        start_pages.append(single_doc.first_page)
+        list.sort(start_pages)
+    folder_pdf = PdfFileReader(open(pdf_path, "rb"))
+    for doc in associated_documents:
+        if not os.path.exists(PurePath.joinpath(pdf_location, "doc_" + str(doc.id))):
+            Path.mkdir(PurePath.joinpath(pdf_path, "doc_" + str(doc.id)))
+        output = PdfFileWriter()
+        for i in range(doc.first_page, doc.last_page):
+            output.addPage(folder_pdf.getPage(i))
+        with open("doc" + str(doc.id) + ".pdf", "wb") as outputStream:
+            output.write(outputStream)
+        split_doc_to_page(pdf_path, foldername_short)
 
 if __name__ == '__main__':
-#    create_sub_folders()
-
     download_raw_folder_pdf_from_aws(2, 1, 'digital_comp_to_social_problems')
     pass

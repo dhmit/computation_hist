@@ -189,3 +189,4 @@ def interpret_person_organization(field, item_organization, item_person, new_doc
             new_item.save()
             bound_attr = getattr(new_doc, item_person)
             bound_attr.add(new_item)
+
