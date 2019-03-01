@@ -11,6 +11,10 @@ from dj_comp_hist.common import get_file_path, DATA_BASE_PATH
 from PyPDF2 import PdfFileWriter, PdfFileReader
 from pdf2image import convert_from_path
 
+import pytesseract
+
+from ocr import ocr_pdf
+
 
 def main_function(test_run=True):
     # ----- go through each folder in the database
@@ -101,10 +105,15 @@ def split_doc_to_page(doc_pdf_path, foldername_short, box_no, folder_no, doc_no)
     pages = convert_from_path(doc_pdf_path)
 
     for page in range(1, len(pages)+1):
-        page_file_path = get_file_path(box_no, folder_no, foldername_short, file_type='png',
+        page_png_file_path = get_file_path(box_no, folder_no, foldername_short, file_type='png',
                                  doc_id=doc_no, page_id=page, path_type='absolute')
-        page_file_path.parent.mkdir(parents=True, exist_ok=True)
-        pages[page-1].save(page_file_path, 'PNG')#saves page to the directory
+        page_txt_file_path = get_file_path(box_no, folder_no, foldername_short, file_type='txt',
+                                 doc_id=doc_no, page_id=page, path_type='absolute')
+        page_png_file_path.parent.mkdir(parents=True, exist_ok=True)
+        pages[page-1].save(page_png_file_path, 'PNG')
+        with open(page_txt_file_path, 'w') as out:
+            text = pytesseract.image_to_string(pages[page - 1])
+            out.write(text)
 
 
 def split_folder_to_doc(folder_pdf_path, foldername_short, box_id, folder_id):
@@ -118,17 +127,26 @@ def split_folder_to_doc(folder_pdf_path, foldername_short, box_id, folder_id):
     associated_documents = Folder.objects.get(name=foldername_short).document_set.all()
     folder_pdf = PdfFileReader(open(folder_pdf_path, "rb"))
     for doc in associated_documents:
-        doc_file_path = get_file_path(box_id, folder_id, foldername_short, file_type='pdf',
+        doc_pdf_file_path = get_file_path(box_id, folder_id, foldername_short, file_type='pdf',
                                       doc_id=doc.doc_id, path_type='absolute')
-        doc_file_path.parent.mkdir(parents=True, exist_ok=True)
+        doc_pdf_file_path.parent.mkdir(parents=True, exist_ok=True)
 
         output = PdfFileWriter()
         for i in range(doc.first_page - 1, doc.last_page):
             output.addPage(folder_pdf.getPage(i))
-        with open(doc_file_path, "wb") as outputStream:
+        with open(doc_pdf_file_path, "wb") as outputStream:
             output.write(outputStream)
 
-        split_doc_to_page(doc_file_path, foldername_short, box_id, folder_id, doc.doc_id)
+        # ocr the new doc pdf
+        ocr_pdf(input_pdf_path=doc_pdf_file_path, output_pdf_path=doc_pdf_file_path)
+        # ... and create a txt file of the ocr
+        doc_txt_file_path = get_file_path(box_id, folder_id, foldername_short, file_type='txt',
+                                      doc_id=doc.doc_id, path_type='absolute')
+        ocr_text = ocr_pdf(input_pdf_path=doc_pdf_file_path, return_type='text')
+        with open(doc_txt_file_path, 'w') as out:
+            out.write(ocr_text)
+
+        split_doc_to_page(doc_pdf_file_path, foldername_short, box_id, folder_id, doc.doc_id)
 
 if __name__ == '__main__':
     download_raw_folder_pdf_from_aws(2, 1, 'digital_comp_to_social_problems')
