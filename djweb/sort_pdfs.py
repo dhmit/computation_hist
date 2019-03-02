@@ -1,17 +1,13 @@
-import urllib.request, urllib.error
+import urllib.request
+import urllib.error
 import shutil
-import sys
-from IPython import embed
-import os
-from pathlib import Path, PurePath, PurePosixPath
+from pathlib import Path
 from django.db import models
 from dj_comp_hist.models import Folder
 from dj_comp_hist.common import get_file_path, DATA_BASE_PATH
 from PyPDF2 import PdfFileWriter, PdfFileReader
 from pdf2image import convert_from_path
-
 import pytesseract
-
 from ocr import ocr_pdf
 
 
@@ -25,7 +21,7 @@ def main_function(test_run=True):
     :return:
     """
     folder_list = Folder.objects.all()
-    #Allows us to test the function
+    # Allows us to test the function
     if test_run:
         folder_list = folder_list[:1]
     for current_folder in folder_list:
@@ -41,7 +37,7 @@ def main_function(test_run=True):
         split_folder_to_doc(folder_pdf_path, foldername_short, box_id, folder_id)
 
 
-def download_raw_folder_pdf_from_aws(box_no:int, folder_no:int, foldername_short:str):
+def download_raw_folder_pdf_from_aws(box_no: int, folder_no: int, foldername_short: str):
     """
     Downloads a raw (not yet ocred) pdf file from amazon aws and stores it in the proper folder
     relative to DATA_BASE_PATH from dj_comp_hist.common
@@ -71,7 +67,8 @@ def download_raw_folder_pdf_from_aws(box_no:int, folder_no:int, foldername_short
     return abs_path
 
 
-def split_doc_to_page(doc_pdf_path, foldername_short, box_no, folder_no, doc_no):
+def split_doc_to_page(doc_pdf_path, foldername_short: str, box_no: int, folder_no: int,
+                      doc_no: int):
     """
     split each document into pages and save it's png file and stores it
     root/folder/docs/doc_id:int/pages/page_id:int
@@ -121,7 +118,7 @@ def split_folder_to_doc(folder_pdf_path, foldername_short, box_no, folder_no):
         # create the path to the place the doc_pdf should be stored
         doc_pdf_file_path = get_file_path(box_no, folder_no, foldername_short, file_type='pdf',
                                           doc_id=doc.doc_id, path_type='absolute')
-        # make all the necessary parents directoried of the doc_pdf
+        # make all the necessary parents directories of the doc_pdf
         doc_pdf_file_path.parent.mkdir(parents=True, exist_ok=True)
         output = PdfFileWriter()
         # iterate over the pages in the docs page range and save them to doc_pdf_file_path
