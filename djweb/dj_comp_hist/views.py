@@ -27,6 +27,12 @@ def person(request, person_id):
 
 
 def doc(request, doc_id):
+    """
+    Puts a document on the screen
+    :param request:
+    :param doc_id:
+    :return:
+    """
     doc_obj = get_object_or_404(Document, pk=doc_id)
     author_person_objs = doc_obj.author_person.all()
     author_organization_objs = doc_obj.author_organization.all()
@@ -87,60 +93,56 @@ def organization(request, org_id):
 def page(request, page_id):
     page_obj = get_object_or_404(Page, pk=page_id)
     document_obj = page_obj.document
+    png_url_amz = page_obj.png_url
     try:
         next_page_number = page_obj.page_number + 1
         next_page = Page.objects.get(document=document_obj, page_number=next_page_number)
-    except: # TODO: figure out type of exception
+    except:  # TODO: figure out type of exception
         next_page = None
     try:
         previous_page_number = page_obj.page_number - 1
         previous_page = Page.objects.get(document=document_obj, page_number=previous_page_number)
-    except: # TODO: figure out type of exception
+    except:  # TODO: figure out type of exception
         previous_page = None
     obj_dict = {
         'page_obj': page_obj,
-        'document_obj':document_obj,
+        'document_obj': document_obj,
         'next_page': next_page,
-        'previous_page': previous_page
+        'previous_page': previous_page,
+        'png_url_amz': png_url_amz,
     }
     response = render(request, 'page.jinja2', obj_dict)
     return response
 
 
 def list_obj(request, model_str):
+    '''
+    Displays sorted list of Organizations, People, Folders, or Boxes
+    :param request:
+    :param model_str:
+    :return:
+    '''
     if model_str == "organization":
-        model = Organization
+        model_objs = get_list_or_404(Organization)
+        model_objs.sort(key=lambda x: x.name)
     elif model_str == "person":
-        model = Person
+        model_objs = get_list_or_404(Person)
+        model_objs.sort(key=lambda x: x.last)
     elif model_str == "folder":
-        model = Folder
+        model_objs = get_list_or_404(Folder)
+        model_objs.sort(key=lambda x: x.full)
     elif model_str == "box":
-        model = Box
+        model_objs = get_list_or_404(Box)
+        model_objs.sort(key=lambda x: x.number)
     else:
         raise ValueError("Cannot display this model. Can only display organization, person, "
                          "folder, or box")
-    model_objs = get_list_or_404(model)
     obj_dict = {
         'model_objs': model_objs,
-        'model_str': model_str
+        'model_str': model_str,
     }
     response = render(request, 'list.jinja2', obj_dict)
     return response
-
-
-def search(request):
-    '''
-    # TODO make docstring that explains how search_results and search are different
-    :param request:
-    :return:
-    '''
-    query = request.POST['usr_query']
-    print("QUERY: ")
-    print(query)
-    t = loader.get_template('/earch.jinja2')
-    c = {'query': query}
-
-    return HttpResponse(t.render(c))
 
 
 def search_results(request):
@@ -151,7 +153,7 @@ def search_results(request):
     :param request:
     :return:
     """
-    #key
+    # key
 
     user_input = request.GET['q']
 
@@ -161,11 +163,28 @@ def search_results(request):
     folder_objs = Folder.objects.filter(full__contains=user_input)
     organization_objs = Organization.objects.filter(Q(name__contains=user_input)|Q(
         location__contains=user_input))
-    response = render(request, 'search_results.jinja2', {'people_objs': people_objs,
-                                                         'document_objs': document_objs,
-                                                         'folder_objs': folder_objs,
-                                                         'organization_objs': organization_objs,
-                                                         'query': user_input})
+    doc_type = ["minutes", "memo", "proposal", "letter", "receipt", "contract", "notice",
+                "memo draft", "addendum", "change order", "form", "report", "invoice", "list",
+                "routing sheet", "application", "note", "press release", "floor plan", "program",
+                "pamphlet", "payroll sheet", "time record", "summary", "table", "telegram",
+                "unknown"]
+    doc_type.sort()
+    obj_dict = {
+        'doc_type': doc_type,
+        'people_objs': people_objs,
+        'document_objs': document_objs,
+        'folder_objs': folder_objs,
+        'organization_objs': organization_objs,
+        'query': user_input,
+    }
+    response = render(request, 'search_results.jinja2', obj_dict)
     return response
 
 
+def advanced_search(request):
+    """
+    Searches database based on specific search queries and parameters given by user.
+    :param request:
+    :return:
+    """
+    return HttpResponse("work in progress")

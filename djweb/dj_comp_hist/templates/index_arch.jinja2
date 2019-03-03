@@ -1,0 +1,26 @@
+{% extends "base.jinja2" %}
+
+{% block title %} Computational History {% endblock %}
+
+{% block self %}
+    <h1>Welcome to the Archives of the MIT Computation Center.</h1>
+    <br><br>
+{% endblock %}
+
+{% block table %}
+    Unsure of what you're looking for? Browse through our datasets.
+    <div class="list-group">
+        <a href="/dj_comp_hist/list/person" class="list-group-item list-group-item-action">
+            <h2>People</h2>
+        </a>
+        <a href="/dj_comp_hist/list/folder" class="list-group-item list-group-item-action">
+            <h2>Folders</h2>
+        </a>
+        <a href="/dj_comp_hist/list/organization" class="list-group-item list-group-item-action">
+            <h2>Organizations</h2>
+        </a>
+        <a href="/dj_comp_hist/list/box" class="list-group-item list-group-item-action">
+            <h2>Boxes</h2>
+        </a>
+    </div>
+{% endblock %}
