@@ -127,7 +127,8 @@ def split_folder_to_doc(folder_pdf_path, foldername_short, box_no, folder_no):
         with open(doc_pdf_file_path, "wb") as outputStream:
             output.write(outputStream)
         # ocr the new doc pdf
-        ocr_pdf(input_pdf_path=doc_pdf_file_path, output_pdf_path=doc_pdf_file_path)
+        ocr_pdf(input_pdf_path=doc_pdf_file_path, output_pdf_path=doc_pdf_file_path,
+                return_type='pdf')
         # ... and create a txt file of the ocr
         doc_txt_file_path = get_file_path(box_no, folder_no, foldername_short, file_type='txt',
                                           doc_id=doc.doc_id, path_type='absolute')
