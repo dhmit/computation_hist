@@ -1,5 +1,5 @@
 const computer = new IBM_704(computer_size);
-code_line = 0;
+
 
 /**
  * Assembles code from code box into program which is placed in computer.
@@ -25,7 +25,6 @@ function assemble() {
  */
 function step() {
     computer.step();
-    code_line++;
     update();
 }
 
@@ -67,6 +66,7 @@ function create_memory_display() {
 function update() {
     const code_html = $(".symbolic_code");
     if (code_html.length !== 0) {
+        code_line = Math.min(computer.ilc.valueOf(), num_code_lines-1);
         for (let line = 0; line < num_code_lines; line++) {
             code_html[line].style.backgroundColor = "white";
         }
@@ -84,18 +84,31 @@ function update() {
 
     instruction_location_counter_element = $("#instruction_location_counter")[0];
     instruction_location_counter_element.innerHTML = computer.ilc.toString();
-    instruction_location_counter_element.title = computer.ilc.valueOf();
+    instruction_location_counter_element.title = "Location: " + computer.ilc.valueOf();
 
     $("#instruction_register").html(computer.instruction_register.toString());
 
     storage_register_element = $("#storage_register")[0];
     storage_register_element.innerHTML = computer.storage_register.toString();
-    storage_register_element.title = "Fixed Point: " + computer.storage_register.fixed_point;
+    storage_register_element.title = "Instruction: " + computer.storage_register.instruction.toString();
+    storage_register_element.title += "\r\nFixed Point: " + computer.storage_register.fixed_point;
     storage_register_element.title += "\r\nFloating Point: " + computer.storage_register.floating_point;
 
     accumulator_element = $("#accumulator")[0];
     accumulator_element.innerHTML = computer.accumulator.toString();
     accumulator_element.title = "Fixed Point: " + computer.accumulator.fixed_point;
+    
+    index_a_element = $("#index_a")[0];
+    index_a_element.innerHTML = computer.index_a.toString();
+    index_a_element.title = "Value: " + computer.index_a.valueOf();
+    
+    index_b_element = $("#index_b")[0];
+    index_b_element.innerHTML = computer.index_b.toString();
+    index_b_element.title = "Value: " + computer.index_b.valueOf();
+    
+    index_c_element = $("#index_c")[0];
+    index_c_element.innerHTML = computer.index_c.toString();
+    index_c_element.title = "Value: " + computer.index_c.valueOf();
 }
 
 /**
