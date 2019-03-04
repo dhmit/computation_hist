@@ -1,7 +1,8 @@
 // there are no index registers or Type A functions.  Or most of the Type B functions
 // basically most of the computer is missing
 
-const no_to_operation_b = {0o601: STO, 0: HTR, 0o500: CLA, 0o400: ADD, 0o402: SUB, 0o4400: SBM, 0o401: ADM}; //Change num later
+const no_to_operation_b = {0o601: STO, 0: HTR, 0o500: CLA, 0o400: ADD, 0o402: SUB, 0o4400: SBM, 0o401: ADM,
+    0o502: CLS}; //Change num later
 const no_to_operation_a = {0b110: TNX};
 const operation_b_to_no = {};
 const operation_a_to_no = {};
@@ -951,6 +952,21 @@ function HTR(computer, address) {
 function CLA(computer, address) {
     computer.accumulator.clear();
     computer.accumulator.update_contents(computer.storage_register);
+}
+
+/**
+ * Emulates the IBM 704 CLS operation.
+ *
+ * Replaces the value of the accumulator with the negative value of the storage register (which should be
+ * the value of the register with the indicated address).
+ *
+ * @param {number}  address     The address of the value to put into the accumulator (not
+ * actually used).
+ * @param {IBM_704} computer    Machine to execute instruction on.
+ */
+function CLS(computer, address) {
+    computer.accumulator.clear();
+    computer.accumulator.update_contents(-computer.storage_register);
 }
 
 /**
