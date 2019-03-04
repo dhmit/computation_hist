@@ -1,5 +1,5 @@
 const computer = new IBM_704(computer_size);
-code_line = 0;
+
 
 /**
  * Assembles code from code box into program which is placed in computer.
@@ -25,7 +25,6 @@ function assemble() {
  */
 function step() {
     computer.step();
-    code_line++;
     update();
 }
 
@@ -67,6 +66,7 @@ function create_memory_display() {
 function update() {
     const code_html = $(".symbolic_code");
     if (code_html.length !== 0) {
+        code_line = Math.min(computer.ilc.valueOf(), num_code_lines-1);
         for (let line = 0; line < num_code_lines; line++) {
             code_html[line].style.backgroundColor = "white";
         }
