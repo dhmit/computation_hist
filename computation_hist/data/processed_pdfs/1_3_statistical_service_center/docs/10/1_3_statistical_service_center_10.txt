@@ -1,0 +1,221 @@
+CED]???
+
+F. M} Virzuh
+R. 7-306
+
+November 21, 1952
+
+Professor G. S. Brown
+Head, Dept. of Elec. Eng.
+Room 4-202
+
+Dear Professor Brown:
+
+As indicated in my letter or November 5, 1952,
+1 am now enclosing a revised description of the content
+of the proposed subject entitled Computation %% Punched—
+Csrd Methods. 1 would like to reocmmen at is sublect
+be offered during the Fall Term 1953.
+
+At the present time the Office of Statistical
+Services does have a complete representation of IBM ma-
+chines. In particular, the present availability of the
+Card Programmed Calculator together with its general-
+purpose plugboards enables one to set up problems in a
+short time. Specifically, the instructions for a problem
+may be written in less than an hour. Therefore this unit
+is a most effective educational device. Furthermore, the
+grant of a gratis installation consisting of an 024 Key
+Punch, an 082 Electronic Sorter, and an 402 Tabulator will
+permit extensive laboratory use of such machines on an
+individual student basis.
+
+Very truly yours,
+
+F. M. Verzuh
+V:T
+
+P. S. I am also enclosing an outline of the content of the
+above subject.
+
+Enclosures (2)
+
+véC: Prof. P. M. Morse
+
+
+6.539 Con@o@no’d :élEhods 6(8)
+
+lst Term Elective 3-2-4
+Prerequisite M22»
+Instructor in Charge - Vcrouh
+
+A study of punched-card equipment with emphasis on
+its aﬁplication to statistical rcsctrch and scientific
+computation. The principles and application of the fol-
+lowing machines are treated: cord punch, vorifier; '7 7
+interpreter, sorter, collator, reproducer; accounting
+machine, cardntypt,'modela 602A and 604 calculators, and
+the card-programmed calculator. Mathematical procedures
+include evaluation of higher-order differences, interpola—
+tion, solution of simultaneous equations, inversion of
+matrices, extraction of square roota, evaluation of roots
+of polynomials, solution of differential and integral
+equations, and the performance of statistical and educa-
+
+tional research. Actual use of the machines is made by the
+student.
+
+Nov ‘21 ‘952
+
+
+©©PY
+
+Outline 2; the Content 3; the Subject Entitled
+
+ 
+
+Key Punch and
+
+COMPUTATION EX PUNCHED-CARD METHODS
+
+Verifying Machine:
+
+A.
+
+1. IBM card ~ effective utilization of available
+space, field designation - coding - prlnclplu
+of operation.
+
+2. Actual use of the following machines:
+
+024, 026, and 031
+3. Ancillary features: duplication, skip bar,
+tabular lnserts, printing, verifying and
+interpretation.
+E. Sorter
+1. Electrical principle of operation.
+2. Numeric and alphabetic sorting.
+3. Additional features: card counting device,
+group sorting device, sorting suppression device.
+C. Collator (077)
+1. Functional operations of matching, merging,
+selection and comparison.
+2. Description of selector and sequence unit.
+D. Reproducer (513)
+
+l.
+
+Funct
+
+summary punchl
+
+punch blank column detecti
+
+ional operations of reprod
+
+uclng, gang punching,
+
+ng, mark sensing, comparison and double
+
+on are discussed.
+
+/
+
+
+‘- . .
+
+ 
+
+ 
+
+-2, _
+Z. InQaQ clalllltligof machine as
+
+evidenced by the physical construction and loca-
+
+tion of various units.
+E. Tabulating Equipment
+1. Functional capabilities: listing, group indica-
+tion, addition, subtraction, comparison, selec-
+tion, automatic control and summary punching.
+2. Program control device on the 405 as used on 4th
+differencing and interpolation.
+F. 602A Calculator
+1. Functional capabilities: +, —, x, a, programming,
+selection, negative balance indication, shifting,
+2. Description of following components: reading
+brushes, pilot selectors, coselectors, counters,
+storage units, program relays, control panel,
+digit selectors.
+5. Timing chart and card cycle diagrams.
+4. Preparation of planning charts and wiring diagrams
+for the following:
+a) A + B = T
+b) A - E = P
+c) A3820
+d) Frequency distribution computations
+6) Solution of linear algebraic equations and
+inversion of matrices.
+5. Detailed discussion of the principles of:
+a) Multiplication
+
+b) Division
+
+
+C» ()3 Y
+
+6. Discussion of use of pilot selectors for sign
+
+control
+
+(iA.)-<im=tp
+
+” 604 Calculator
+
+lonal description of the calculator and its
+
+1. Funct
+
+capacity.
+
+2. Timing chart and machine cycle charts.
+
+3. Planning charts and wiring diagrams for
+
+a) (”primate
+b) vim-(rant?
+c) (iA):(ta)=’$o
+
+d) Quotient expansion
+
+ 
+
+4. Checking features
+
+a) DPBC. ZT, NB, etc.
+
+b) Marginal testing using voltage variations.
+
+H. Carvarogrammed Calculator
+
+1. Functional capabilities of the CPC.
+
+2. Block diagram of the CPC.
+
+3. Machine unit characteristics.
+4. Discussion of operational procedure for use of
+
+the e—clgit floating—decimal board.
+
+a) instruction card design.
+
+b) Detail card design.
+
+arts required for
+
+5. Discussion of planning ch
+the solution of a boundary value problem on the CPC.
+
+NOV 2‘ 1‘ £952
+
+

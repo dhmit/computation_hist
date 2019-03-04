@@ -1,0 +1,48 @@
+Since our enlarged computer installation is still in its initial
+stages, a substantial amount of time is currently available. We plan to
+operate on a 3—shift basis as quickly as possible, and are therefore
+naturally interested in allocating computer time on a long—term, or large—
+block basis wherever that may be feasible. Where such possibilities exist,
+we are prepared to negotiate a commitment on our part to supply specified
+amounts of computer time during specified periods. We are not yet in a
+position to quote an hourly computer rate, but can promise that it will be
+relatively low.
+
+As you will realize, our new computer will be able to handle a great
+variety of calculations. The existence of a large number of 701; routines
+for commonly used sub-calculations, as well as some complete programs for
+standardized problems, greatly reduces programing time in most cases.
+
+For example, a complete set of codes are in operation for handling Linear
+Programming problems up to as large as 255 restraint equations in any
+number of unknowns. The only preparation that is necessary f or the machine
+is to keypunch the input data. Incidentally, the present staff has wide
+experience in this type of calculation.
+
+Vallocate 70/; programs are not alreacbr available, we shall be glad to
+work out with you the most practicable method of adapting your problem to
+the machine. One of the goals of the machine programing staff is to
+build a library of routines which will facilitate handling of a variety
+of problems, and you will find them attentive to your particular require—
+ments.
+
+If you foresee long- or short—term computer requirements during the
+coming year, and find you may need to meet them on a contract basis, we
+should appreciate hearing from you.
+
+The facilities of the Council have a high security clearance.
+
+Incidentally, as a practical consideration, it is worth mentioning
+that our Research. Center is not more than 10 minutes ride from the National
+Airport, and about 5 minutes from the new Marriott Motel, the largest and
+most modern in the country. Moreover, we have arrangements with the airlines
+to have any mail or packages delivered to the airport at flight—time. Such
+material coﬂd also be picked up immediately at destination. In many
+instances, this would make it possible for us to receive data in the morning,
+complete the computations, and forward the results in the course of a single
+
+day.
+S incerely yours ,
+
+Herbert W. Robinson
+President

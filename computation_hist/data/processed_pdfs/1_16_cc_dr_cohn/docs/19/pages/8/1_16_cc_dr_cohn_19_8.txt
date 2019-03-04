@@ -1,0 +1,123 @@
+HARVEY col-IN.
+
+414
+, _. ' less than the sum
+
+. the distanqe iZ PM!“ i ls . . iz\0
+
+theimheI Emil; This justiﬁes the relation (12b). DMdh‘g (123) i
+
++ oer» .. '
+
+(12b) we obtain the ﬁnal estimate
+
+(12) A2(1 + A)’3((lvm + 1)-2
+<i—zq,.+n. i =/i 249i < (2+A)=(a....+1)?.
+
+by
+
+9 Behavior of theta functions near irrational singularities. We lets
+b u. irrational number whose continued l'raetion has bounded partial
+e a
+
+‘ 0 fl int-enumerame
+quotients Sltl numbers 9 are 10“ i to 1m
+
+measure Zero, containing a ‘ V I ‘ I
+0 function sztz) Since some. 01 the Singularities of
+
+s series oecur at real quadratir numbers, but We can
+
+ll real quadratic. irrationals among others. lie
+
+were interested in t
+individual terms of it
+just as well carry out the analys1s tor the largei class of Numbers l'eferred
+
+to above. ‘ 4 , , . . 1 . 1
+We consider a hem function ol iiiiite or inﬁnite legiee, \Vltlmli: poles,
+
+and of order lll. l'in er the change of variable z’ = (1/2 —— q’)/(_ qnz + Pu),
+where p’p,,——— q’qn = 1, we obtain: f(z) = f(z’) (_ (1M + [h.)'2'".. lf z
+approaches 9 in a Stolz neighborhood of slope less than A and it 9 has
+bounded partial qno ients. then (—7 q,,z + /i,.)2,.\ u.-. 0) where 1 belongs
+to pu/q“, This follows from inequality (12). From inequality (11) we see
+that Sz’ lies within certain bounds making ftz’) = 0(1), it 2 belongs to fin/q".
+Thus f(z) =0(z—9)”” for theta functions of order m and without poles.
+
+If we know tha ftz) has no zeros as well as no poles, we could write
+f(z’) X 1, in the above paragraph, whence f(z) x (z i i9)"". Applying these
+results to G3,,.(z), ( heta functions without poles and of order 2m), we find:
+
+ 
+
+(13) Gym) = 0(z # 9W“. ~12 2’
+and
+(13a) (this) X (279)'”.
+
+where 9 is an irrational number with hounded partial quotients. and 2+9
+in a Stolz neighborhood.
+
+10. Characterization of a real number by the corresponding Sing“-
+larity. We shall see in the eoneluding paragraphs to what ext?!” the
+behaviors at real singularities determine the singularity and the lillm‘t‘on‘
+First we shall see that the behavior near irrationals with hounded partial
+quotients is seldom better than a largo 0 (‘<lll\lillltill. In J’ni‘t the (‘Sﬂmﬁtiun
+
+(13‘) ran not he iiiipl‘m’ed to the type (lila) lIiilMs‘ m : (i.
+
+ 
+
+(From elementary considerations this ‘
+
+converge to 6). For the roof .
+if" z 6 + {flu-2: Which belong to in/q". ofrﬁilgsiftiieorem, consider the points-
+hounded partial quotients, the images A,” of A'Hiurnigis
+2' , (p’z - q’)/(— 9111 + Pu), Where p,,p’_ {lug/=1“ the llansforination
+zontal strip @ by (11), with A taken as (say) Unity, I; ‘Iﬂl lie in a bori.
+point of this theorem, let p be the smallest radius for ZWIls the Dreassigned
+circles about 2*, t 17 z i 2,. . , 11011 the 11mm) of
+
+whole strip (1. Then if we draw
+
+of points would have
+
+over inﬁnitely manv
+
+  
+
+u a continuously moving
+continuously, the non-
+sweep out a sector at 9,
+
+point 2= 9 +15% V > 0, then as 1, approaches zero
+euclidean circles of radius p about this moving point
+owing to the invariance of non~euclidean distance under ho '
+
+moth t -
+formation of the z-plane about 6. e ‘C “3‘15
+
+. Q.E. D.
+Thus can not replace <13) by aroma—ow mess "i=6
+
+since otherwise, as noted in 5, Gm(z) has zeros. In fact, if 6 has bounded
+partial quotients, we can have f(z) X (2—0)'2'" in any Stolz neighborhood
+
+of 0 if and only if f(z) is without zeros and poles. which, as noted in 5,
+means that the following holds:
+
+(14) f(1)=Giz(Z)“eXM(J(Z))i
+where g(w) is an entire function of iv and k is an integer.
+
+We can supplement the last result by noting that ii Poincare theta
+iuiietion f(z) can behave x (z — 9)”, 3 real. as z—>0 in any arbitrary Stolz
+neighborhood only if 9 is rational and f(z) is of degree zero or 6 is irrational
+\i'itli bounded partial quotients and f(z) is of the form given in equation
+[14) above. The proof of this last statement is somewhat tedious, involving
+the examination of a number of special cases It will be omitted as it
+l'rquires no new methods. What we do is let 2 approach 0vertieally and
+Show that if 6 does not fall into one of the above categories, then the values
+taken by the theta l’unetion niust vary too widely to permit surh an asymptotic
+l‘Ghavior.
+
+These last results are in contrast with a result of Wintner [’7], who

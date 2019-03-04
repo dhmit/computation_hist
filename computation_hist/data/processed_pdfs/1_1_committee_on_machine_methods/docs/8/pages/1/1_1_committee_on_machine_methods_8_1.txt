@@ -1,0 +1,46 @@
+Minutes of the Eighth ﬂeeting
+of the
+Committee on Machine Methods of Computation
+
+Jenuary 17, 1951
+
+grsggs 2xgsent: H. E. Boyd. 0. b. Draper 3. Laning C. Lin
+2 Pc M. Morse and E. ﬁeissher ’ ’
+
+The Committee met with Dr. Draper and his group to discuss
+possible relationships, particularly concerning the differential
+analyzer. First, we asked the opinion of this group concerning
+possible courses in machine techniques. Draper indicated that
+there might be between 15 and 30 men available each year for
+training and for courses in this field. He indicated that a
+basic course with prerequisite M351 and M352 would be needed,
+and that, in addition, special courses on various types of
+machines would be useful. This discussion will be of uelp to
+the Committee in its further study of the problem.
+
+The Committee went on to discuss the problem of the dif-
+ferential analyzer. Dr. Draper's group took over the analyzer
+
+' the first of July. For the first two months the machine was
+
+down Doing overhauled. During October end November it worked
+almost full time on problems for Draper's project. At present
+there is available a certain amount of time for outside work,
+and the project would welcome suggestions from the Committee
+as to the type of work it could end should take on. It was
+pointed out that for the machine to be in operating condition
+requires a staff of eme Byersons -- one technician, one
+machinist and three programming staff —- and that these people,
+with their salaries and with the necessary overhead charges,
+cost about $30,000 a year. However, for those times when the
+machine is not in full use some of the staff can be taken over
+to work on other parts of Draper's project so that in a con-
+tinuing program the cost per year would be somewhat less than
+the $30,000. The indications were that Draper's project could
+continue to use about forty percent of the differential ene-
+lyzer's time almost indefinitely and that about fifty percent
+of the analyzer's time might be available for other work“
+
+In answer to a query, Draper stated that he felt the
+project would probably prefer to continue to control the difc
+ferential analyzer for at least one more year, and that, in the

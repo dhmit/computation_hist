@@ -1,0 +1,54 @@
+Reprinted from
+QUARTERLY or APPLIED MATHEMATICS
+Vol. XI, No. 1, April, 1953
+
+TWO NEW NON—LINEARIZED CONICAL FLOWS*
+
+BY
+J. Hi GIESE (Ballistic Research Laboratories, Aberdeen Proving] Ground, Md.)
+AND HﬁH’MLWayne University)
+
+1. Introduction. A steady compressible non-viscous ﬂow is conical if it contains a.
+vertex P, such that on evely half line through P the velocity components, pressure,
+density, and entropy are constant. Various linearized conical ﬂows have been discussed
+by numerous authors. However, only three examples of non—linearized conical potential
+ﬂow ﬁelds are known to exist mathematically: Prandtl—Meyer ﬂow around an edge [4]1
+with or Without sweep; Taylor-Maccoll ﬂow about a non-yawing circular cone [5] ; and
+an axisymmetric ﬂow through a convergent nozzle discussed by Busemann [1]. In this
+paper the construction of two new examples will be considered. Both contain two regions
+of swept Prandtl-\Ieyer ﬂow. In the ﬁrst, the boundary has been chosen to prevent
+them from interacting, and the hodograph is one-dimensional. From it can be obtained
+a ﬂow, with attached plane shock, over an object resembling an airplane with a swept-
+forward wing of positive dihedral and with a thick ﬁn, In the second, the boundary has
+been chosen to permit interaction and the hodograph is two-dimensional. It was studied
+originally in the hodograph space by one of the authors [2]. In the present treatment, the
+need to consider possible difﬁculties in constructing the ﬂow ﬁeld from a knowledge of
+the hodograph has been avoided by conﬁning the discussion to the physical space. It
+should also be remarked that in both examples the second order partial differential
+equation for conical potential ﬂow is of mixed type.
+
+A pair of these examples could conceivably be used to study a particular, atypical
+case of wing~body interference. Numerical results can easily be calculated, if necessary,
+with the aid of a characteristics table and by means of standard techniques for numerical
+integration of ordinary differential equations and numerical solution of characteristic
+initial value problems for second order hyperbolic partial differential equations in two
+independent variables.
+
+2. Fundamental Ideas. The velocity potential function of a steady irrotational
+non—viscous isentropic ﬂow satisﬁes
+
+(aQSH — u.u,)82¢/6.r. 6x, = 0 (2.1)
+where .1),- (t‘ = 1, 2, 3) are rectangular coordinates,
+u.» = Law/ax. (2.2)
+is the velocity component parallel to the x;-axis in units of the maximum speed of ﬂow,
+a2 = 1/2(“/ — 1X1 * 14.11,) = 1/2(7 — 1)(1 — (13) (2.3)
+
+is the square of the velocity of sound, Kronecker’s delta 6,, = 1(0) ii i = (#) j, and the
+convention has been adopted that repeated indices imply summation over their range.
+If g2 = u.u.- > a2, the flow is supersonic, and there exist real characteristic surfaces,
+which are envelopes of the Mach cones
+
+[ua(m’¥ — 1.912 = ((12 - awe". - mm — x.) (24)
+
+‘Received April 17. 1952.
+‘Numbers in brackets designate references listed at the end of the paper.

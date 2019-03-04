@@ -1,0 +1,46 @@
+e I-IN.
+416 HARVEY 0
+
+showed (essentially) that at almost any point G12(z) has a limit along some
+path of approach and in fact these paths of approach can even he made to
+lie in a Stolz neighborhood of preassigned arbitrarily small width. VVlHtIlg-y
+demonstrated this property for the Dedekind y-ﬁmction," which has a well—
+known expansion into powers of exp 27172, and Whose behavior as a function . ,
+
+can therefore he analyzed in the light of the behavior of the expansion 1 ' I 1 ”we.
+
+ 
+
+coefficients. ‘
+At any rate it is now apparent that the dlophantine nature of a singu.
+
+larity of a theta function governs to a great extent the asymptotic behavior
+at the singularity, and even the function itself.
+
+HARVARD UNIVERSITY, l ,
+
+BIBLIOGRAPHY.
+
+ 
+
+[1] L. Fort, “ A geometrical proof of a theorem of Hnrwitz," Proceedings of the Edin—
+burgh Mathematical Society, vol. 3 (1917), pp. 59-65.
+[2] R. Fueter, l’arlesmtgen iihcr die xinguldren Madam mid die komplexe Multipli- ,
+kation der clliptischen Funk-Hone", vol. 1, Leipzig-Berlin, 1924, p. 29.
+[3] G. H. Hardy nnd J. E. Littlewood, “ Some problems in diophantine approximation
+II," Acta Mathematica, vol. 37 (1914), p. 230.
+[4] J. F. Koksmn, “ Diophnntische Approximatinnen,” Ergcbnisse dcr Muthnmatt'k mid
+iln'er Grcnzgebietc, vol. 4, Berlin, 1936, Chapter IX, 2. ,
+[5] 0. Perron, Die Lehre van den Keﬂcnbriiehen, Leipzig, 1913, Chapter II.
+[6] H. Poincare, “Functions modnlnires et functions Fuchsiennes,” whores, vol. 11,
+Paris, 1916, pp. 592-618.
+[7] A. Wintner, “ A property of the elliptic modular net,” Duke Mathematical Journal,
+vol. 12 (1945), pp. 451-454.
+
+ 
+
+(PI—(5,5!
+
+ 
+
+“ The proportionality of Gntz) and 71(2)” was noted in 5 above.

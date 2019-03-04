@@ -1,0 +1,64 @@
+/,
+
+w
+1'0: Professor P. I. Horse
+. m: P. l. Vermin
+DAB: February 15, 1958
+
+SUBJECT: Iaterial for National Science Foundation Proposal
+
+W
+
+In accordance with our discussions regarding the proposal to list,
+I am enclosing the following information.
+
+Inchine lemt 93 the 3.1.1:. mutation Center
+
+The ILLT. Computation Center will have a Type 704 Electronic
+
+Data Processing llachine with the following machine complement:
+
+12 magnetic tape units, 2 magnetic cons storage units containing a
+
+total of 3,000 words, 1 magnetic drum unit containing 4,000 words
+
+of storage, the usual gn-line punched card reader, alphabetic printer,
+
+and punched card recorder as well as the 3 gig-line magnetic tape
+
+controlled printer, magnetic tape controlled card punch, and punched
+
+card—to-magnetic tape converter, respectively. Total machine
+
+complement net monthly- rental is slightly over $45,000. In addition
+
+to the 704, there will be 1_o auxiliary punched card machines including
+. card punches, collators, sorters, reproducers, interpreters, and the
+
+Type 407 Accounting Machine. The aggregate machine rental is in
+excess of $ 50,000 per month.
+
+ 
+
+ 
+
+me Type 704 EDPII unit is one of the fastest large—scale
+commercial computers available today. Since the ILLT. installation
+will be but one of many in the field, techniques, programs, and
+numerical procedures developed for this machine will be of universal use.
+
+Biographical Information
+
+Dr. F. I. Verzuh, Director of Statistical Services, has been
+connected with the operation of MJJr. computational work since 1940.
+In this capacity he has had considerable experience with the utilization
+of various analog computing equipment —- differential analyzers, etc.,
+
+as well as a complete line of digital machines ranging iron the Inn
+Type 601 through the Type 704.
+
+He received a 3.5. degree in Electrical Engineering Iron the
+University of Denver in 1940, a 10.3. degree in Electrical Engineering
+
+from M.I.’1‘. in 1946, and a Son. degree in Electrical Engineering from
+ILLT. in 1952.

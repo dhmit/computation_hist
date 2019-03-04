@@ -1,0 +1,29 @@
+should be investigated separately, in close collabora-
+tion with specialists in the social sciences. The grants requested
+of NSF and ONE will not support the detailed theoretical study and
+
+ 
+
+ 
+
+Center's staff in devising new techniques, in adapting known tech—
+
+Possible Directions for Research - It is not possible at present
+to enumera e in etail the directions this investigation of computer
+is
+
+techniques will take. Several prom ing leads have already aroused
+interest, however:
+
+1. A basic investigation of the machine techniques for
+computation in the general field of linear programming--dynamic
+programming—~input—output analysis, which promises to be of con-
+siderable importance in economics and in operations research. The
+economics departments at both Harvard and M.I.T. are interested
+in applying such techniques to their work. Professor Orcutt at
+
+appears likely that new programs, planned to utilize the considerably
+greater high-speed storage of the new machine, can greatly improve
+the speed of solution. It is likely that fundamental improvements
+
+in techniques of solution of these problems will also prove valuable

@@ -1,0 +1,38 @@
+Memo to: Professor P. Morse
+From: Herb Teager
+
+Time Sharing Project:
+
+MIT's computational needs are clearly growing. This
+growth is occuring both in the direction of expanding the
+scope and complexity of current areas of computer applica—
+tion, and in the direction of opening up entirely new areas
+of application. In addition, there is an ever present re—
+quirement of making a computer more easy to use and access—
+able; and minimizing the turnover time between problem for—
+mulation and answer. It is the overall purpose of the time—
+sharing project to apply new techniques, hardware and sys—
+tems for the resolution of these apparently conflicting re-
+quirements. The basic approach of the project is to apply
+multiprogramming (time sharing) techniques to a large com-
+puter.
+
+If we first consider the present areas of computer ap—
+plication, the larger problems are taxing the 704 computer
+in several respects. First, is the requirement for longer
+running times in blocks. Second, there is an increasing use
+of programs wherein human decision is an important part of
+the overall man—machine system. Since human decision can be
+
+"quite slow in comparison to that of a machine, such usage
+can result in a very low utilization of machine time.
+
+Future areas of application are moving in the direction
+of widespread usage of the computer as a direct aid for edu—
+cation, larger and longer problems in simulation and optima—
+tion, and real—time data processing. Each user would, of
+course, like to have the full capacity of a very large sys—
+tem at his immediate beck and call. This is clearly im—
+possible in terms of their conflicting requirements for
+large blocks of machine time, with perhaps a fairly small
+duty cycle of machine time required within that block,
