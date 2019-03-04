@@ -935,24 +935,31 @@ class IBM_704 {
             let operation = line.substring(0,3);
             let rest_of_line = line.substring(3);
             let numbers = rest_of_line.split(",");
-            if (operation === "ORG") { // ORG pseudo instruction lets you program to different location
+            if (operation === "ORG") { // ORG pseudoinstruction lets you program to different location
                 register = parseInt(numbers[0]);
                 continue;
-            }
-            if (numbers[2] !== undefined) {
-                let decrement = parseInt(numbers[2]);
-                let tag = parseInt(numbers[1]);
-                let address = parseInt(numbers[0]);
-                this.assemble_line(register, operation, address, tag, decrement);
-            } else if (numbers[1] !== undefined) {
-                let tag = parseInt(numbers[1]);
-                let address = parseInt(numbers[0]);
-                this.assemble_line(register, operation, address, tag);
-            } else if (numbers[0] !== undefined) {
-                let address = parseInt(numbers[0]);
-                this.assemble_line(register, operation, address);
+            } else if (operation === "DEC") { // DEC psuedoinstruction lets you program fixed and floating point numbers
+                if (numbers[0].includes(".")) {
+                    this.general_memory[register].floating_point = parseInt(numbers[0]);
+                } else {
+                    this.general_memory[register].fixed_point = parseInt(numbers[0]);
+                }
             } else {
-                this.assemble_line(register, operation);
+                if (numbers[2] !== undefined) {
+                    let decrement = parseInt(numbers[2]);
+                    let tag = parseInt(numbers[1]);
+                    let address = parseInt(numbers[0]);
+                    this.assemble_line(register, operation, address, tag, decrement);
+                } else if (numbers[1] !== undefined) {
+                    let tag = parseInt(numbers[1]);
+                    let address = parseInt(numbers[0]);
+                    this.assemble_line(register, operation, address, tag);
+                } else if (numbers[0] !== undefined) {
+                    let address = parseInt(numbers[0]);
+                    this.assemble_line(register, operation, address);
+                } else {
+                    this.assemble_line(register, operation);
+                }
             }
             register++;
         }
