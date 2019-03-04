@@ -935,6 +935,10 @@ class IBM_704 {
             let operation = line.substring(0,3);
             let rest_of_line = line.substring(3);
             let numbers = rest_of_line.split(",");
+            if (operation === "ORG") { // ORG pseudo instruction lets you program to different location
+                register = parseInt(numbers[0]);
+                continue;
+            }
             if (numbers[2] !== undefined) {
                 let decrement = parseInt(numbers[2]);
                 let tag = parseInt(numbers[1]);
