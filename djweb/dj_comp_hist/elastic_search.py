@@ -1,9 +1,7 @@
 from elasticsearch import Elasticsearch
 from IPython import embed
 
-
 ES_URL = 'https://search-cc-hist-pclno2kchnjcohcayb2n7g3eha.us-west-2.es.amazonaws.com/'
-
 
 class ESearch():
 
@@ -68,16 +66,40 @@ class ESearch():
     def search(self):
 
         query = {
-            'from': 5,
-            'size': 20,
-            'query': {
-                'match': {
-                    'text': 'ibm'
+            # number of documents to return
+            "size": 10,
+            # Offset (for pagination)
+            "from": 0,
+            # Sorting
+            "sort": {"date": {"order": "asc"}},
+            # Don't return full text (but all other metadata)
+            "_source": {
+                "excludes": ["text"]
+            },
+
+            # main query
+            "query": {
+                "match": {
+                    "text": {
+                        "query": "science"
+                    }
                 }
             },
-            'highlight':{
-                'fields': {
-                    'text': {}
+
+            # return text passages that include the query term
+            "highlight": {
+                "fields": {
+                    "text": {}
+                }
+            },
+
+            # return document counts by year (which can be used for a histogram)
+            "aggs": {
+                "dates": {
+                    "date_histogram": {
+                        "field": "date",
+                        "interval": "year"
+                    }
                 }
             }
         }
@@ -90,4 +112,3 @@ class ESearch():
         print(f'No hits: {results["hits"]["total"]}.')
 
         embed()
-#            embed()
