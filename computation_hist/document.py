@@ -3,7 +3,7 @@ from pathlib import Path
 
 import pandas as pd
 
-from computation_hist.common import BASE_PATH
+from common import BASE_PATH
 
 
 class DocumentCollection():

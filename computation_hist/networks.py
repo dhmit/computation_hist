@@ -1,7 +1,8 @@
 import matplotlib.pyplot as plt
 
-from computation_hist.common import get_metadata_google_sheet
-from computation_hist.document import Document
+# from common import get_metadata_google_sheet
+from document import Document
+import csv
 
 
 class Network:
@@ -41,9 +42,13 @@ class Network:
 
         # initialize network using the available metadata
         if not return_empty_network:
-            metadata = get_metadata_google_sheet(return_type='list_of_dicts')
-            for document_metadata in metadata:
-                self._add_document_to_network(document_metadata)
+            # metadata = get_metadata_google_sheet(return_type='list_of_dicts')
+
+            # For debugging purposes
+            with open('computation_hist/data/sample_docs/verzuh_metadata.csv', 'r') as file:  #
+                metadata = csv.DictReader(file)
+                for document_metadata in metadata:
+                    self._add_document_to_network(document_metadata)
 
     def __repr__(self):
         return f'Network with {len(self.nodes)} nodes and {len(self.edges)} edges'
