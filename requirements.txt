@@ -19,3 +19,4 @@ seaborn
 pytesseract
 opencv-contrib-python
 Pillow
+elasticsearch
