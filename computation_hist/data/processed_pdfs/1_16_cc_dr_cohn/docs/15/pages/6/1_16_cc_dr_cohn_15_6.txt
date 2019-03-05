@@ -1,0 +1,130 @@
+HARVEY COHN'
+828
+
+a - an inteaer which represents the ﬁeld discriminant
+A. Is a he index of the sub-lattice (01. mOdule)
+of the ﬁeld. Of course A is invariam
+
+columns. Here . t t
+multiplied by fl) where 7 represen s
+of integers in the ring of all integers
+under change of basis.
+
+' where sub
+In the usual notation,
+I ' ' c ' mean
+the norm and discriminant oi the vector A —— (11,, u_, M) by s of
+
+(s. 2) den = [<ar—a2><“2*%)<aa“‘ >12-
+
+.scripts denote conjugates, we denote
+
+(8. 1) N01) : angers;
+01 1 (1(1) 0 only if a.=a.=as =raﬁonal numb“, While NM) =0
+ear y I = '
+
+1 if a a —a3 :0 Furthermore when A is an algebraic integer, N
+on y I : 2 - '
+
+‘ d d are natural integers. , V
+d" We shall next show that when A is bounded (and > 0) the norms of at
+
+least three of the four algebraic integers P, Q, R, S are bounded (< (A/3)a)
+while the discriminants of all twelve fractions of the type P/Q = (pi/(11.) are
+likewise restricted to a ﬁnite set of rational fractions (whose numerators go
+from 1 to [(A/3)“] and whose denominators go from 1 to |.(A/3)18])_
+
+The above conclusions follow from the expansion of A in (4.1) along
+(say) columns R and S using, each time, the minors of 1’ and Q.
+
+—- A = (”in — (Zipall'a + (13.4]: — Q3P1)l'2 + (P293 — (12170117
+
+(8'3) lA (M2 9117083 : (13st 93%)32 l (P291 (hp-'93"
+
+ 
+
+ 
+
+Now take either the upper or the lower lines of (8. 3) according as (1;qu — qlpz)
+is negative or positive. (Note that piqj—pJ-q; 7g 0 for 17%] by the rational
+independence of P and Q.) In (say) the ﬁrst case, reference to system
+(4. 22) reveals that ~A is the sum of three negative quantities. abbreviated
+t, + 12 + £3, whence easily,
+
+(8.4) (NW: | titzfa l = l N(R)l ' l G(P:Q)IJ
+
+where GEU’. Q) = (M2 ~ grammar — MOW/:93 — qnvsV- Since G203: Q)
+is a rational integer, it follows that one columnJ R, of the chosen pair H, S.
+has bounded norm. By repeating the argument we see that some three of
+the column vectors (say) P, Q,Ii’. have bounded norm (as indicated above).
+Likewise, regardless of whether I? 01' S has the bounded norm,
+
+<8. 5) are c) = N‘(Q)Il(P/O) = mom/P);
+
+hence any of the twelve fractions of the type P/Q has. from (8‘ 4): a dis—
+criminant restricted to the set of values indicated above.
+
+9. Completion of ﬁniteness proof. l'sing the, previous information let
+us suppose that fixed values of ATP/R). N(Q/R), [KP/II). «(P/11’). (HP/(2).
+
+A PERIODIC ALGORITHM FOR CUBI
+
+C FORMS.
+
+ids/R) are given as rational 829
+a ﬁnite set. We next see the
+values.
+
+To see this we Write P/R : (
+5/13: (—l—ui—v;
+
+numbers ‘91,. i
+t the“ P/R and
+
+) by virtue of (4 21)
+
+uiuzus = 91,. . 71,112713 = g2)
+(U1 * “2)(“2 * “3X11: — 14,):
+(9-1) (111 * ”2X02 ‘ “00% ~71 —
+
+(til/1),
+
+ 
+
+‘ = : Vga.
+This constitutes six equations in
+no more than 35 - 6 - 2" solutions vi. There are either
+UK The latter possi—
+
+'Clude, but if there were inﬁnitely many
+
+solutions for some 9- (all as 0) it
+‘ . , would b ' . .
+dimensronal manifold in terms of t: ill/”3:511:25; :0 paiametme a one
+. “)w.
+
+calculate from (9. 1) the order of ma
+onitude '
+that this possibility leads to a contr o 5 m t 01 ”16 u, a
+
+New knowing that the values of
+
+[Ii/7‘1: Qi/l‘i 311d Si/"i (= “1—— Pi/7'I * 9/”)
+
+are ﬁnite in number we. can complete the proof. For then the 3 X 4 matrices
+qt belong to only a ﬁnite number of proportionality classes. But since the
+number of values ot plpgp3 (=N(P)) is limited, there must also he a ﬁnite
+
+number of strict proportionality classes. Finallv (see 4) we have a bound
+on the number of forms *I>. ~
+
+Neighbors and Chains.
+
+10. Deﬁnition of neighbors. Our definition of neighbors will be given
+as a definition of neighboring reducer] 3 X 4 matrices (is. but it can be carried
+0VOI‘ t0 the corresponding ternary or quaternary forms (P. Since the order
+of the column vectors P, 0. If, S is ﬁxed by the array of signs, we need only
+5“PM." the. “ parabolic ” generator of the chain. In fact we take the simplest
+Ones consistent with condition (4‘ 21), namely those of the tire
+
+(10-1) (ls—My (1)91: 090+]: n—m. S—>S—P)

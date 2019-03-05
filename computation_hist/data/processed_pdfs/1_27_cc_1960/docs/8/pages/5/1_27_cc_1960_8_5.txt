@@ -1,0 +1,41 @@
+H.I.T. computation Growth Page 5.
+
+Molecular Quantum Mechanics-hr, n. Barnett
+Dr. Barnett is attempting to predict through molecular
+
+quantum mechanics the chemical and physical behavior of
+gases and fuels. To handle even a simple case, involving a
+molecule of 5-6 atoms with, on the order or, 20 electrons
+would require about 50 hours of 70% time. The basic reasons
+for this order of time requirement is that the potential
+functions are highly specialized and complex, which in ma-
+chine terms requires a large amount or storage, easy access
+and very fast computation.
+Crystalogggphio Data Reduction—Dr. N. Barnett
+
+Dr. Barnett is attempting to enable physical chemists
+to infer molecular structure from orystalographic data. The
+problem again requires large processing requirements because
+it is essentially an iterative process, requiring for each
+of the many possible molecular configurations, the computa-
+tion of electron densities that would correspond to the data.
+Since even the electron density computations are involved,
+and there are a large number of molecular struotures with a
+given set of atoms, the time requirements are clearly beyond
+the 704.
+Solid State Physios~Dr. h. Barnett
+
+To predict the electrical and mechanical properties of
+a metal or alloy from energy level considerations requires on
+the order of 15 hours. Since there is no limit to the num—
+ber of possible alloy combinations, this class of problems
+alone can clearly keep a very large machine occupied full time.
+Mechanical Translation—Dr. Yngve
+
+Until recently, Dr. Yngve‘s group has been occupied large—
+ly with development of a programming language for linguistics.
+The large scale usage of this language in solving research
+problems in translation have yet to be felt by the Center.
+As of today, even a moderate amount of translation (which re—
+quires much relatively immediate random access to a large
+dictionary and consideration of contextual meanings) would

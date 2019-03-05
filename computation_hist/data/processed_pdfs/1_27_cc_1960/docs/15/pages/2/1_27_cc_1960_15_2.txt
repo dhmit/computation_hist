@@ -1,0 +1,22 @@
+Time—Shared Usage of Com uters
+___________________ __ E
+
+A second approach is to make computers easier to use by simultaneous
+computer time-sharing by several users. The complexities of such
+
+systems are largely unexplored but advantages are exciting. Typical
+applications might be several real-time program testing stations, each
+with a private debugging console, thus giving a programmer time to
+think on his feet without wasting valuable machine time. Such stations
+could of course be located remotely in various departments at M.I.T
+or even, in principle, at the New England colleges. Finally, special
+demonstration consoles would be available in lecture halls for man-
+
+regular courses.
+
+Present Status
+
+As mentioned above, the number of users from M.I.T. are currently
+saturating the allotted time and any reasonable projection indicates a
+
+November 13, 1959

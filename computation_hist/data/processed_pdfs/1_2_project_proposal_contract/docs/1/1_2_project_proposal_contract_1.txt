@@ -1,0 +1,68 @@
+._—_5
+MASSACHUSETTS INSTITUTE OF TECHNOLOGY
+Department of Physics
+MEMORANDUM
+To: N. M. Sage
+From: Prof. Philip M. Morse Date: 2/20/51
+
+Subject: Proposal for Research and Training Project in Applied
+
+Mathematics, using large-scale Computing Equipment,
+particularly Whirlwind.
+
+Whirlwind Project has now reached a stage of development
+where its potentialities can be utilized, together with the other
+computing equipment at Technology, in a coordinated research and
+training program, of the sort anticipated by ONR during its
+several years of support of the Project. Both the Institute and
+the Navy are vitally interested in the use of large—scale com—
+puting devices for the solution of scientific and engineering
+problems, and for the promotion of training for students inter—
+
+ested in this field.
+
+Of course a part of the time of Whirlwind will be used
+for the solution of a special Air Force problem, and it is ex—
+pected that the Air Force will contribute an appreciable part of
+the support of the Whirlwind Project, for the development of
+equipment and methods for the solution of this problem. Neverthe—
+less, approximately half the working time of the machine itself
+
+will be available for the fundamental program, mentioned above and
+
+outlined below.
+
+
+ently created Genter for
+Machine Computation. The interdepartmental Advisory Committee to
+
+. . “a
+this Center proVides a broad representation ofﬂvariousscientific,
+
+l.
+
+, and
+aid to the research being carried on by MIT faculty and students.
+3. A partial support of the maintenance of the WW computer.
+
+4.
+
+It is understood that details of the program, which is
+necessarily evolutionary in character, will be worked out from
+
+time to time with the Scientific Officer of the ONE.
+
+It is contemplated that $300,000 per annum for a period
+
+of at least two years will be required to get this program under
+
+way. Detail of the budget is as follows:
+
+
+-3-
+Item 1 $100,000
+Item 2 100,000
+Item 3 50,000
+Item 4 50,000
+
+

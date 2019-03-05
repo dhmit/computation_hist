@@ -1,0 +1,49 @@
+Reprinted from Tu): AMERICAN JOURNAL. OF PHYSIOLOGY
+Vol. 183, No. 3, December “155
+I’riulcd in. UilS-A.
+
+Rmdlan! electrical dipole moment 0/ [117g Ixeurl. C, V.
+NELSON AND H. H. HEch. Dept, of Medicine,
+Univ. of Utah College of Medicine, Salt Lake City
+Since the double-layer electrolytic tank has no bound-
+
+ary error, equations applying to inﬁnite two»dimen-
+sional media can be used. Perfused frog hearts were
+placed in the center of this tank. If the resultant dipole
+of the heart, M, makes an angle 0’ with the + X axis,
+the potential Vi at a distance n along this axis is given
+by
+
+V] = M cos 9’
+
+21min
+
+ 
+
+(I)
+
+where k = conductivity, (1 = depth of liquid.
+The potential V; at a distance I; along the positive Y
+axis is
+
+_. M cos (90" g 0') M sin 9’
+
+ 
+
+V — =
+2 21.12.17, may, (2)
+Dividing 2 by I gives
+Vn»
+t 9' = —'
+an Vin L3)
+
+The value of 5’ is substituted in 1 or 2 to ﬁnd M. M and
+9’ were found as a function of time during the ventricu»
+lar complex for bullirog and leopard frog hearts. With
+the anatomical heart axis along the 0" line, 6’ varied
+between the limits —40° to +7o°. The order of magni-
+tude of M max in the ‘frontal’ plane was 80 u A-cm for
+the bullirog and 6 M A-cm for the leopard frogl As pre—
+viously reported, M max = 1000 » Avcm for the human
+heart (horizontal plane). (Supported by U. S. Public
+Health Service Research Grant.)

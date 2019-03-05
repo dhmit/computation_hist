@@ -1,0 +1,249 @@
+COMMITTEE ON MACHINE METHODS OF COMPUTATION
+
+Minut ' of the Nintg Meeting
+
+..a§@mic Year '51—"52
+
+  
+   
+
+Persons Present: Caldwell» J. W. Fortester,
+Hildebrand, C. Lin, P. M. Morse, and
+
+.«3 i a 511$ I" ,
+
+ 
+
+   
+
+Sq
+F.
+E,
+
+ 
+
+The actiO" zn applications for next yéar“s assistant—
+Ehipa was reviewsd. Morse reported that Ruth Seiwatz and R. D.
+Haun had turned down offers" The Committee approved appointing
+John D‘ Little. (Since the Committee Meeting, loo Sartori has
+been awarded a National Science Foundation fellowship for next
+year and is consequently ralinquishing his half—time assistant—
+ship.) Lin reportea that H. Giant: haé accepted , which com—
+pleted the Mathematics recommendations fur next year for the
+present. The appointlents made and accepted for next year
+are consequently: mioal Engineering — J. F. O'Donnell;
+Mathematics ~ N. J. licks, P. Fox, A. Balaton, H. Glantz,
+R. L. Martino, and D" G. Aronson; Physics — S. In Rubinow,
+F. J. Corbato, M. C” :owstoin, A. Tannin, A0 Duran; M. Reten—
+berg, J. L: Uretskyﬁ L. Cambolio, and J. D. Little.
+
+ 
+
+   
+
+  
+
+Three temporary appointments for the summer were
+discussed nnd approved. Professor Henry Wallman, now in Sweden,
+wishes to return to M.I.T. for three months this summer for work
+partly with the Electrical Engineering Department and partly with
+the Mathematics Department” It was suggested and approved by the
+Committee that the Noonino ”rojoot contribute toward his salary
+for the summe? and vo_uest fessor Mailman to work with tho
+project for part of his tins hers, thus giving the project the
+benefit of his sxpsria as i this fioido The two other appoint~
+ments worn concerned with 1 Zoom bstwson the W? rlwiné group
+and workers in other maohin projects“ elor has
+been at the Universi of Illinois, coninr‘ heir oom~
+puter project. It V so gestoa and app ”To Wheeler
+be invited here for one summer to 1 arm . ooing and
+to tell us his expo: A si: or liaisc the active
+computer group in C .igsﬂ England} will ' . .‘ed by ap—
+pointing Mr. Eric M- '- Profossor Wilkes
+
+, first aﬂsistsr‘
+of Cambridge Univor , f0? th this summer.
+
+  
+
+ 
+
+   
+       
+  
+ 
+  
+
+ 
+   
+ 
+   
+  
+
+In
+
+:-
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+  
+  
+
+ 
+
+ 
+
+dobynné reported on a proposed course
+0 be Fiven next year in the fall term.
+’9’ n for this Goo—term course,
+
+The Committee
+approoriate for
+this sort was nseded.
+
+on Numerioni
+
+Suggested cat
+entitled ”Humor
+agreed that the suit
+such a course and thﬁv
+
+ 
+   
+   
+
+ 
+
+is aposndeﬂ.
+
+
+-2-
+
+Professors Reissner and Lin were requested to carry this opinion
+back to the Mathematics Department and to suggest that the Mathe—
+matics Department discuss such a course to be given by Professor
+Hildebrand next fall. ‘
+
+There was also discussion concerning a second term
+continuation of this proposed course. Professor Hildebrand had
+not gotten far along in his planning and was not at all sure that
+he would be ready tc '*e a second term next year. After some
+discussion with the Committee, however, he outlined a tentative
+catalogue description for a possible second—term course, “Numerical
+Analysis II“, This also is appendede It was suggested and agreed
+that further discussion concerning this second—term course should
+take place before any final action is taken; for example, it is
+not clear how this suggested second term may overlap a possible
+second—term course suggested by Dr. Grosch of the Whirlwind Pro-
+Ject.
+
+ 
+
+Caldwell pointed out that the Kopal project at present
+being run by Dr. Jacchia has a number of items owned by the
+Center of Analysis, among them being a number of desk computing
+machines. He suggested that these be checked over before the
+Jacchia project moved to Harvard and that these machines might be
+made available for whatever laboratory course was to go along with
+the course in Humer‘ 1 Analysis. Mr. Frank Verzuh, subsequent to
+this meeting, sent cw r the inventory with Jacchia, and has supplied
+Morse with a list 0: the machines available. (1 Monroe, 8 Merchants,
+and 1_National Cash I ister Differencing Machine). Verzuh has been
+asked to take care ' his equipment for the time being until a
+decision on the lab re cry ”1 come to. There is also a library of
+tables and texts on =tmputing which will be held for future disposi-
+tion.
+
+  
+ 
+
+   
+
+ 
+
+ 
+
+The next resting is to be held on April 16, at 3 p.m.
+Further discussion Oi future courses in this field, and a possible
+discussion of problems in Geophysics or Metallurgy may he on the
+agenda.
+
+ 
+
+ 
+
+1. ’ ' II$§V§§KW
+PhiliXiM. Norse
+Chairman
+
+Meeting Date‘
+(Dictated:
+
+  
+
+”D
+
+
+Suggested catalog description :9; first cougsg: Numerical Analzsis I:
+
+Theory and practice in polynomial approximation,
+interpolation, numerical éifferertiation, numerical integration,
+and approximate solution of ordizary differential equations,
+including error analysis, with particular emphasis on methods
+adaptable to digital computing machines. Prerequisite: M351
+
+Tentative ﬁescriptiop g: oossible second couggg: Eggggigal Analysis I :
+
+   
+
+Selecteﬁ t ”cs relative to applications of finite—
+differenco methods, i related methods, to partial differential
+equations, especially to second—order equations of elliptic,
+parabolic, and hyperbolic type, with particular emphasis on
+
+problems of convergence, stability, and error estimation.
+Prerequisite: NA I, M39
+
+Topics suitable for incluqinnwinm§ecggﬂ coorsg:
+
+Inversion of matrices of high
+iterative methods of various typos)v C
+difference methods applieﬁ to elliptic
+error estimatss; use
+net; numerical mothoﬁs
+orthogonal fume *
+equation approxm
+equations. Conv
+connection with 1
+"Hosts. Carlo“ or
+
+   
+    
+  
+   
+    
+
+(cohvsrgenoe of
+nee of iterative
+ntial equations;
+"unotions on a
+use of
+”cranes-
+lic
+
+ 
+
+      
+
+r and qua
+Is and use
+tations.
+
+

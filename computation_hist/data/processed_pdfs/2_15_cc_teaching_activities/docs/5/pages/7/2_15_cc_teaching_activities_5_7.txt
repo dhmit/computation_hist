@@ -1,0 +1,69 @@
+\\\
+
+ 
+
+ 
+
+II.
+
+III.
+
+IV.
+
+VI.
+
+VII .
+
+ 
+
+Proble- No. 2 - Design of Punched Card System to Handle
+
+Business Data Processing Work at the Eastern Joint Computer
+Conference
+
+This problem teaches the inportnnce of overall flow
+charts , the design of suitable ma card layout toms ,‘ the
+preparation of accurate instructions for machine operating .
+personnel, end the estimation of the personnel and machine tine
+required to handle 'the registration for 2,000 attendees at the
+
+conference .
+
+Problem No. 3 - The solution a: a First Order Differential
+Equation on the Type 650 magnetic Drum Calculator
+
+The student is} given a block diner-on or a 650 program --
+used to solves}: ordinnry "differential equation using tour-thu-
+order Runae-Kutta touuiae. As part of the assignment, the -
+student prepares the actual coding of the 650 pm using
+basic language, prepares '5 test solution for this program,
+computes a few check points, debugs his progran on the 650,
+and finally carries out the solution 01’ this problem on the
+machine. After completing this particular experiment, the
+student has a. very intiute knowledge 01' the 650 machine.
+
+Solution of an Ordinary Differential Equation on the 650
+
+The student solves the identical problem stated in the
+preceding section using the Card Programmed Calculator. This
+teaches them the diﬂerence between the internally-stored program
+features of the 550 and the card-progressed characteristics of
+the Card Programmed Calculator.
+
+Evaluation of the Roots of a 98 degree Polynomial
+
+A 650 program using the N0?! systen was. prepared which
+evaluates the roots of the polynomial using Hitchcock's method.
+
+Computation of the Actuarial Life Insurance Tables
+
+Since a high degree 01 accuracy in this computation was
+needed , the basic 650 language was modified to per-tom 20~digit
+arithmetic in the solution of this problem.
+
+Inversion of matrices using Modified Elimination Procedure
+
+A basic 650 program was prepared which automatically
+includes a pivotal-condensation" technique. This program
+correctly handles matrices which have zero elements on the
+main diagonal.

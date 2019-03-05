@@ -1,0 +1,95 @@
+Reprinted lrom FEDERATION Pnoczanmm
+Voli H. No. 1, Much. 1955
+Prime! in (LEA.
+
+348. Investigation of horizontal components
+of heart-vector by means or circunifcrenlinl
+chest lends at mid-ventricular level. C. V.
+NELsoN AND HANS H. HEcn'r. Dept. of Medi-
+cine, Univ. of Utah College of Medicine, Salt
+Lake City,
+
+By means of comparative studies between three-
+dimensional and two dimensional (Jr I’hysi‘ol.
+116: 151’, 1952) electrolytic tank models of the
+human thorax, it has been shown that if the verti-
+cal angle a lies within the range :30“, the distri—
+bution of potential around the boun ry of the
+ﬂat (‘two dimensional’) tank is very similar to the
+distribution of potential around the deep (‘three
+dimensional’) tank at the level of the dipole
+center. Measurements in two—dimensional models
+can, therefore, provide information about the
+horizontal component of the heurt-vecton In
+addition to model experiments, Circumferential
+chest leads were taken at mid~ventriculor level
+of several normal and abnormal subjects using a
+plastic belt holding 23 electrodes. The vertical
+angle a was computed from bipolar limb leads.
+For those cases in which a lay in the range i30°
+with the horizontal plane. the potential distribu-
+tion around the chest was plotted for various
+instants of time It was found that for the human
+subjects the horizontal component corresponded
+to a single dipole at some times; at other times,
+two or more effective dipoles were evident, By
+comparing these measurements with results on the
+model, it was possible to determine the horizontal
+angle. The method provides a check on calculi»
+tions of this vector quantity derived from con-
+ventional surface electrocardiograms. (Supported
+by the Life Insurance Research Fund and the
+American Heart Assn)
+
+
+Reprinted From Tu): AMERICAN JOURNAL OF Plu’emLoGi‘
+Vol. 183, No. 3, Dmmbor i055
+Printed in. HAS-A.
+
+Resultant electrical dipole moment of frog Ixearl. C, V.
+NELSON AND H. K HECHT. Dept, of Medicine,
+Univi of Utah College of Medicine, Salt Lake City.
+Since the double-layer electrolytic tank has no hound-
+
+ary error, equations applying to inﬁnite two»dimen-
+sional media can be used, Perfused frog hearts were
+placed in the center of this tank, If the resultant dipole
+of the heart, M, makes an angle 9’ with the + X axis,
+the potential V; at a distance 71 along this axis is given
+by
+
+V] = M cos 0’
+
+21min
+
+ 
+
+(I)
+
+where k = conductivity, (1 = depth of liquid.
+The potential V; at a distance I, along the positive Y
+axis is
+
+_ M cos (90“ e 0') M sin 0’
+
+ 
+
+V — =
+2 “de, 21rkdrz (2)
+Dividing 2 by I gives
+Vin
+t 9' = ——'
+an Vin G)
+
+The value of H’ is substituted in 1 or 2 to ﬁnd M. M and
+9’ were found as a function of time during the ventricu»
+lar complex for hullirog and leopard frog hearts With
+the anatomical heart axis along the 0" line, 9’ varied
+between the limits —40° to +7o°. The order of magni-
+tude of M max in the ‘frontal‘ plane was Sou A-cm for
+the bulllrog and 6 n A~cm for the leopard frog As pre~
+viously reported, M max = 1000 u A»cm for the human
+heart (horizontal plane). (Supported by U, S. Public
+Health Service Research Grant.)
+
+

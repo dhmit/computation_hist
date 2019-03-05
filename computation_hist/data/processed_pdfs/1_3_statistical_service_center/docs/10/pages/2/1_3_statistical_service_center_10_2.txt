@@ -1,0 +1,28 @@
+6. 539 Con@@ OQM Pd %Ehods 6(8)
+
+lst Term Elective 3-2-4
+Prerequisite M227
+Instructor in Sheree Voreuh
+
+A study of punched—card equipment with emphasis on
+its application to statistical rosesrch and scientific
+computation. The principles and application of the fol-
+lowing machines are treated: card punch, verifier,
+interpreter, sorter, collator, reproducer, aCCounting
+
+machine, cardutypc,'models 602A and 604 calculators, and
+
+the card-programmed calculator. Mathematical procedures
+
+include evaluation of higher-order differences, interpola—
+tion, solution of simultaneous equations, inversion of
+matrices, extraction of square roots, evaluation of root:
+of polynomials, solution of differential and integral
+
+equations, and the performance of statistical and educa-
+tional research. L
+
+Actual use of the machines is made by the
+student.
+
+NOV gl,\952

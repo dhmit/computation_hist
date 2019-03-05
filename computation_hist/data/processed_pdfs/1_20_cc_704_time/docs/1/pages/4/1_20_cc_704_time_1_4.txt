@@ -1,0 +1,55 @@
+ll.
+12.
+13.
+
+14.
+
+15.
+
+16.
+
+‘CCF—Z
+
+ 
+
+Does the programmer(s) intend to prepare the input cards?
+
+________________________
+If the answer to 8 or 9 is no,
+
+what plans have you?
+
+_____________________________
+(Ordinarily, programming and card punching have to be done by the programmer. If
+
+, special arrangements have to be made.)
+
+When will program testing probably start?
+
+For cataloging purposes, how would you index this problem? For example, mathema-
+
+tics, logic, game, etc. If this is a mathematical problem, specify type(s) such
+as integration, partial differential equations, matrix theory, etc.
+
+ 
+
+ 
+
+If this is a mathematical problem, specify numerical methods used, such as
+Gauss' quadrature method, difference equations, Crout, etc.
+
+On one or two additional sheets write sections A, B, and C as follows:
+
+Section A: A one-paragraph abstract of Section B and C.
+
+Section B: Complete description of problem background which should give com—
+
+Section C: Description of numerical and computer techniques to be used
+
+nent, the number of significant figures accuracy required at
+various stages of the calculation and the ranges and values of
+the quantities involved in sufficient detail so that program
+complexity may be estimated. In addition, indicate how you
+
+plan to test the programs and whether you have test cases
+available.
