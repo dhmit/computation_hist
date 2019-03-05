@@ -83,6 +83,7 @@ class Folder(models.Model):
         return f"<Folder {self.full} - {self.number}>"
 
 
+
 class Document(models.Model):
     author_person = models.ManyToManyField(Person, related_name='author_person', blank=True)
     author_organization = models.ManyToManyField(Organization,
@@ -103,7 +104,7 @@ class Document(models.Model):
     cced_organization = models.ManyToManyField(Organization, related_name='cced_organization',
                                                blank=True)
     notes = models.CharField(max_length=191, blank=True)
-    file_name = models.CharField(max_length=191, blank=True)
+    file_name = models.CharField(max_length=191, blank=True, unique=True)
 
     def __str__(self):
         return self.title

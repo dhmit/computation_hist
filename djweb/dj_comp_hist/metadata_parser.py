@@ -27,17 +27,20 @@ def populate_from_metadata(file_name=None):
         count_added = 0
         count_skipped = 0
         for line_id, line in enumerate(csv_file):
-            document_metadata_complete = True
-            for attr in ['box', 'folder_number', 'doc_id', 'filename', 'author', 'title',
-                         'first_page', 'last_page']:
-                if not line[attr]:
-                    print(f'WARNING: Line {line_id+1} is incomplete. Line {line}.')
-                    document_metadata_complete = False
-                    count_skipped += 1
-                    break
-            if document_metadata_complete:
-                add_one_document(line)
-                count_added += 1
+            try:
+                document_metadata_complete = True
+                for attr in ['box', 'folder_number', 'doc_id', 'filename', 'author', 'title',
+                             'first_page', 'last_page']:
+                    if not line[attr]:
+                        print(f'WARNING: Line {line_id+1} is incomplete. Line {line}.')
+                        document_metadata_complete = False
+                        count_skipped += 1
+                        break
+                if document_metadata_complete:
+                    add_one_document(line)
+                    count_added += 1
+            except:
+                print(f"Uncaught error with line {line_id}: {line}")
 
     print(f'Added {count_added} documents from {file_name}. Skipped {count_skipped} documents '
           f'because of incomplete metadata.')
