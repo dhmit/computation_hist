@@ -598,7 +598,10 @@ class General_Word extends Word {
     }
 
     /**
-     * Stores a number in floating-point format into the word.
+     * Stores a number in floating-point format into the word.  The number will always be normalized,
+     * which means that the fraction will be between 1/2 and 1.
+     *
+     * Note: You cannot set a floating point number to 0.
      *
      * @param {number}  number      Number to be stored.
      */
@@ -682,6 +685,28 @@ class Accumulator extends Word {
     }
 
     /**
+     * Converts a string binary representation of an IBM 704 word to a string decimal representation
+     * of that word interpreted as a floating point number.  For more information on how the IBM 704
+     * stores numbers, check the Markdown in the History Group folder.
+     *
+     * @returns {number}    Numerical value representation of word interpreted as floating-point
+     * number.
+     */
+    get floating_point() {
+        let binary_rep = this.contents;
+        let fraction_bits = binary_rep.substring(11,38);
+        let fraction = parseInt(fraction_bits, 2) / Math.pow(2, 27);
+        let characteristic_bits = binary_rep.substring(3, 11);
+        let characteristic = parseInt(characteristic_bits, 2);
+        let exponent = characteristic - 128;
+        let result = fraction*Math.pow(2,exponent);
+        if (binary_rep[0] === "1") {
+            result = -result;
+        }
+        return result;
+    }
+
+    /**
      * Returns true if the Q bit is 1.
      *
      * @returns {boolean}   Q bit.
@@ -697,6 +722,20 @@ class Accumulator extends Word {
      */
     get p() {
         return this.contents[Accumulator.P] === "1";
+    }
+
+    /**
+     * Properly stores a general word into the accumulator, with correct sign and bits 1-35 but
+     * ignoring the P and Q bits.
+     *
+     * @param {General_Word} word   Word to be stored.
+     */
+    store_general_word(word) {
+        let new_contents = "";
+        new_contents += word.contents[0];
+        new_contents += this.contents[1] + this.contents[2];
+        new_contents += word.contents.substring(1);
+        this.update_contents(new_contents);
     }
 }
 Accumulator.Sign = 0;
@@ -1045,6 +1084,8 @@ class IBM_704 {
 }
 
 // Type B operations
+// Note: the computer.storage_register should always be the same value as computer.general_memory[address],
+// so the two are interchangeable.
 
 /**
  * Emulates the IBM 704 STO operation.
@@ -1081,7 +1122,7 @@ function HTR(computer) {
  */
 function CLA(computer, address) {
     computer.accumulator.clear();
-    computer.accumulator.update_contents(computer.storage_register);
+    computer.accumulator.store_general_word(computer.storage_register);
 }
 
 /**
