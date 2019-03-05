@@ -1,0 +1,129 @@
+Minutes of the Eighth Meeting
+of the
+Committee on Machine Methods of Computation
+
+Jenuary 17, 1951
+
+gzsgns zxgsent: H. E. Boyd. C. b. Draper H. Laning C. Lin
+2 P° M. horse and E. heissner 3 ’
+
+The Committee met with Dr. Draper and his group to discuss
+possible relationships, particularly concerning the differential
+analyzer. First, we asked the opinion of this group concerning
+possible courses in machine techniques. Draper indicated that
+there might be between 15 and 30 men available each year for
+training and for courses in this field. He indicated that a
+basic course with prerequisite M351 and M352 would be needed,
+and that, in addition, special courses on various types of
+machines would be useful. This discussion will be of uelp to
+the Committee in its further study of the problem.
+
+The Committee went on to discuss the problem of the dif-
+ferential analyzer. Dr. Draper's group took over the analyzer
+
+‘ the first of July. For the first two months the machine was
+
+down oeing overhauled. During October and November it worked
+almost full time on problems for Draper's project. At present
+there is available a certain amount of time for outside work,
+and the project would welcome suggestions from the Committee
+as to the type of work it could and should take on. It was
+pointed out that for the machine to be in operating condition
+requires a staff of abut Byersons -- one technician, one
+machinist and three programming staff —‘ and that these people,
+with their salaries and with the necessary overhead charges,
+cost about $30,000 a year. However, for those times when the
+machine is not in full use some of the staff can be taken over
+to work on other parts of Draper‘s proJect so that in a con—
+tinuing program the cost per year would be somewhat less then
+the $30,000. The indications were that Draper's project could
+continue to use about forty percent of the differential ene-
+lyzer's time almost indefinitely and that about fifty percent
+of the analyzer's time might be available for other work“
+
+In answer to a query, Draper stated that he felt the
+project would probably prefer to continue to control the dif-
+ferential analyser for at least one more year, and that, in the
+
+
+Minutes of the Eighth Meeting of the
+Committee on Machine ﬁethods of Computation —2-
+
+ensuing interim between now and the first of July 1952, he felt
+they could make arrangements so that the extra fifty percent of
+the analyzer's time would be made available to the Institute
+and to other projects with the assistance and advice of the Com-
+mittee. It was felt that precedents could be set up conce
+those projects for which transfer of funds was needed and those
+researches wnich could be given the use or the machine without
+charge. It was suggested that we work these precedents up
+mutually as the examples came along. This general proposal
+seemed quite satisfactory to the Committee, and Morse indicated
+that he would mention this discussion to Dr. Stratton, empha—
+sizing, however, that Draper had not reached a final decision
+concerning these questions.
+
+' In answer to another query, Laning and Draper felt that
+Verzuh could be relieved of his responsibilities concerning the
+differential analyser this next term. They felt it was wise to
+give Verzuh time to get his doctor's thesis under Way, and felt
+that the Spring Term of this year might be the best time to do
+so. ,
+
+Morse mentioned a possible commercial use for the differ-
+ential analyzer which had come to the attention of Professor
+Den Hartog. Arrangements were made to confer with the repre-
+sentatives of this company to see whether the project was one
+meriting work on the machine.
+
+Morse reported a coming meeting at Princeton concerned with
+training for the use of computing machines. He asked that the
+members of the Committee make suggestions on possible subjects
+for discussion at this meeting. The thesis proposal of Salzer
+was discussed. It was agreed that horse would write to Brown,
+saying that the Committee recommended Salzer's thesis be a u
+proved by the Electrical Engineering Department, and that gopal,
+being on the thesis committee, would keep in touch with the _
+work. The Committee also discussed the proposal for a labora«
+tory course in digital computers to be given this coming term
+by Mr. Adams° It was agreed that Morse should write the Elec—
+trical Engineering Department recommending that this course be
+given as a special problem course this coming term, the possi-
+bility for permanent course number being taken up later.
+
+The next meeting of the Committee will be some time the
+first week of the second term. It was agreed that the Com-
+
+
+es of the Eighth Meeting of the
+~' ‘. f Computation =3—
+
+Minut ‘
+thee on Macmine
+
+. Commi
+
+51) know
+
+(extension 8
+d be 5,832
+
+Deininger
+the time can].
+
+0 that
+
+\
+\\{‘§\\me
+P111 NA. Morse,
+Chaim:
+
+HOLE-if}. let Buss
+
+mittee meme-:73
+labia hours are 5
+
+what their avai
+up .
+
+

@@ -1,0 +1,73 @@
+HARVEY COHN
+
+300
+_x exp ur, where )l, a are new constants: If we simply let a —> 0 we ﬁnd that the
+previous values of H(r) yield the specral cases H(r) = _)\()\ + 1)/(7' + ”)2
+and H (r) = —)r respectively. . . .
+
+In these special casesy we can perform the limitlng process (of commune)
+and ﬁnd that when H (r) = —)\ exp Mr, (7) becomes
+(8) Rev, y; r’, y’) = J.,(2u*)
+where v = —>\lt—2 (exp in — exp tar) (BXp uy - eXp uyr). If in (6) ,1 A 0’
+
+we ﬁnd that for H(r) = —)\()\ + 1)/(r + W, (7) still yields the Riemann rm.
+tion but V is replaced by its limit — (a f I') (y _ y')/(x + y + u) (1’ + y! + y).
+Likewise (8) yields the Riemann functlon for H (r) = —)x when u is replaced by
+
+its limit — Mac — x’)(y — 2/).
+
+Thus the Riemann function is found in closed form when H (r) is the rather
+versatile function —)\(>\ + 1)H2/Sinh2 #(T + P)-
+
+4. Riemann‘s Fourier integral expression. Perhaps a more promising method
+of ﬁnding Riemann functions is one mentioned by Riemann, By Changing
+the variables of (1) to r = a + y and s = ac — y and separating the new variables,
+Riemann solved a class of boundary value problems by means of a Foul-1y
+superposition. On comparing this solution with the one that would have been
+obtained by using the Riemann function, Riemann [6; 179—181] arrived at a
+heuristic result which we new state in the following form:
+
+If we let
+
+(9) 12* = 1 [7 exp ik(s — s’)W(r,7'/; k) dk
+
+‘ll' . 7a:
+whore WU, r’; k) is deﬁned by the ordinary diﬂcrcntial equation
+
+dZW/dr2 + [k2 + H(r)]W = 0
+(10)
+W = 0, (UV/dr = l at 1’ =1"
+
+,
+
+than, aha/tying to the-old variables, we ﬁnd 15* satisﬁes the relation
+
+(11) 1x” = tisgntr - I’) + Sena - y’)lR(I,y;1"vl/>-
+
+_ We can express 11' in terms of well-known functions only in a few cases, for
+instance where H(r) = —)\ or ‘Mk + l)_"rl, In these cases W takes the values
+(12:0 sine ~ on? — iii/(k: — A)?
+
+and
+
+(12h) any“): lmlm‘w i- ; 79111-qu k l r')],
+
+respectively. Further development of the theory of differential equations may
+make enough functions “known" to permit 11' to be expressible in closed form
+
+ 
+
+.th since
+Kx
+
+2i ihere
+
+This denl
+it abs;
+ﬁlllcl], i
+1m}.
+
+‘Ve lie.
+“Erin
+
+llil

@@ -1,0 +1,112 @@
+VEY COHN
+346 HAR
+
+- ' ‘ ce for instance, the maximum-minimum principle can be
+2253333311113 ’Green‘s function to show that the proximity of the
+boundaries must provide an estimate for the proxrmity of the interim
+mapping- The fact that the (apprornmately) ﬁxed pomt, 1, lies on
+the boundary causes no trouble, Since we should apply the approxima.
+
+tions in any case not to :D. and 31/ b“ to: say, 5: and 5H,) which
+
+are formed by reﬂecting each fundamental domain about its boundary
+arcs often enough to obtain larger domains in relation to Which
+
+‘D, and :D,’ would be interiori
+
+6. Order of magnitude. From the value of 71 in equation (15)
+it follows that for z in 5,
+(17) 1P = 2 + 007).
+
+Using the power-series expansion of the logarithm, we ﬁnd that it is
+approximated by f + 0(n§°). Thus equation (17) leads to
+
+(18) §+ 007?“) = z + 0(71),
+and from this,
+(19) (r — 2W = 0(6),
+
+which is ac“) as e —+ 0.
+
+Now from (19) the limit (6), deﬁning P(z), must exist at least
+for a subsequence of e. The uniqueness of the limit will follow,
+later, from the fact that we are dealing with a regular function, P(z),
+completely characterized by certain transformation equations (21*)
+and (22*) (below), together with the estimate (from (19)),
+
+(20) P(Z) = 0(23)
+
+asz—>iao inﬁll.
+
+7. Transformation equations. From the deﬁnition of {,(z) in
+§ 2, it follows immediately that
+
+(21) (J—l/z) = #l/K'JZl
+To obtain the linear transformation representing {(2 + 1), we note
+
+that, in Figure 2, 2T = z + 1 must map the arc w’ﬁ’ onto «43. Thus
+we ﬁnd
+
+(r.(z +1) — mm: — B) (m) — new — B’)
+
+(22) .
+(r42 + 1) — 5X6 — w) ((42) + 3’)<13’ — w’)
+
+ 
+
+ 
+
+ 
+
+MODULAR FUNCTIONS 347
+Next, using the values given in §5 together with equations (6) and
+
+(16), we obtain in a straightforward manner f
+terms in 1;: mm the ﬁrst-order
+
+(21*) P(—1/z) = P(z)/z’,
+(22*) Po + 1) = Po) + 3; + 32 — i.
+More generally, by this technique we see that
+(23) P (02 + b) = P(z) + q(z)
+ta + d (cz + d)2 ’
+
+where (1(2) is a quadratic polynomial. (Here 2 d 2 '
+sentially az'm/aé at e = 0.) q( )/(cz + ) ls es-
+
+8. Final identiﬁcation of the perturbation function. Here armed
+with equations (20), (21 *), and (22*), we can establish the exhansion
+(10). Let the right-hand side of (10) be denoted by 3(2). It can be
+formally veriﬁed that 3(2) satisﬁes properties (20), (21*), and (22*).
+Thus, letting U(z) = P(z) — S(z), we ﬁnd
+
+(24) U(—l/Z) = U(z)/z2
+(25) U(z + l) = U(z)
+(26) [1(2) = 0(23) as z—vioo,
+
+and, in addition, U(z) is regular when Im z > 0.
+
+Now we assert that such a U(z) is identically zero. For since
+the function 42(2) = U(2)J’(z) is invariant under the modular group,
+by conditions (24) and (25), it is a single~valued function of J (2).
+Furthermore, by condition (26), 4>(z) is not ‘large enough" to be
+anything but linear, i.e., ¢(z) = pJ(z) + a, for constants p and 17.
+Finally, the constants p, a both vanish since ¢(z) = 0 at z : i and
+z = % + ix/§/2, This establishes the expansion (10) (which is,
+however, most naturally derived by the heuristic method of §3).
+
+BIBLIOGRAPHY
+
+1, DEDEKIND, R. Sohrez'ben an Harm Earnhardt ﬁber die Theorie der ellipti-
+schen Modulfunktioneni Ges. Mathi Werke, I, 174-201. Brann-
+
+schweig, 1930.
+
+      
+
+' 1 :n-m‘m'
+
+. _ gram". 0
+r "gang-"V, '
+.n mm"
+
+'5",
+m.“

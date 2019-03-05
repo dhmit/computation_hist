@@ -1,0 +1,29 @@
+SCHOOL OF INDUSTRIAL MANAGEMENT
+
+ESTABLISHED UNDER A GRANT FROM 50 MEMORIAL DRIVE
+THE ALFRED P. sLoAN FOUNDATION‘ INC. CAMBRIDGE 39. MASSACHUSETTS
+
+June 13, 1958
+
+MEMORANDUM TO: Professor Philip M. Morse
+Room 6-107
+
+FROM: Jay W. Forrester
+
+SUBJECT: Senior gommteg ngxamgr
+
+We are in need of a senior computer programmer who
+is familiar with the design and usage of generalized programs,
+assenbly programs, and such things on computers. Richard Bennett
+is leaving us, and we need someone to take his place who has
+both technical ability and the personality to fit into the
+position as intermediary between our problems and the Computation
+Center. We need to design new computing routines especially
+suited to our industrial and economic simulation work.
+
+If you have any suggestions, I would appreciate hearing
+of them. I will be here on July 7, 8, 9, and 10 and after July 28.
+
+JWFIKDB
+cc Prof. Dean Arden
+Dr. Frank Verzuh

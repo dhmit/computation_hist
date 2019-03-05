@@ -1,0 +1,308 @@
+Pa The Applicaggn g; gigital Computers
+to Social and Operational Problems;
+
+Opportunities and Needs
+
+ 
+
+Environment and New Facilities - M.I.T. has long been in the fore-
+front in Ehe‘dEVEISpment of computing eQuipment and in developing
+ways whereby this equipment can help solve problems in a wide
+variety of fields. In the mid—30's Vbnnever Bush built here the
+first differential analyzer and several faculty members, in various
+departments, used it to solve problems in engineering, mathematics;
+and physics, which could not otherwise be solved. In the past
+
+four years Whirlwind I, one of the first truly high-speed digital.‘
+computers to get into operation, has been made available for more
+than 1/3 of its time for the solution of general scientific prob-
+lems. Problems from many fields, sponsored by members of all the
+different departments at the Institute, have been put on the
+machine. The programming research staff of Whirlwind has gained
+experience in adapting the computer to this variety of problems
+
+and the faculty at the Institute has begun to learn, by actual
+doing, the ways in which the computer can help them solve their
+problems.
+
+Beginning in 1957, the computing facilities at M.I.T.
+will be enlarged and reorganized into a Computation Center, to be
+devoted entirely to unclassified scientific research and education.
+I.B.M. is donating one of its new 70b computers with double the
+usual storage units and with appropriate auxiliary equipment, and
+will provide for the maintenance of the equipment; the Center will
+be housed in the new K. T. Compton Laboratory Building according
+to a reement with I.B.M., the equipment will be used ten hours a
+day on the "midnight shift") by I.B.M., will be available up to
+seven hours a day to faculty members from other colleges in New
+England and the remainder of the time (seven plus hours) will be
+available for use by students and staff of M.I.T. for basic re-
+search. The programming research staff, at present working with
+Whirlwind, will be transferred to the Center, to serve as a nucleus
+for planning machine use and for developing new techniques of
+machine application.
+
+Nature of the Research - Exploitation to the full of the potenti-
+alities of a new piece of equipment can most effectively be accom-
+plished by an advance on two fronts: the solving of specific problems
+and the development of techniques. In the case of computing machines,
+research workers in many fields should learn machine programming
+techniques and then proceed to use the machine to help them solve
+their own problems. In many cases they can develop the programs
+
+they will need for their work, but in some crucial cases they will
+need the help of those persons interested primarily in machine
+operation, who are interested more in developing machine techniques
+than in solving individual problems.
+
+This division of labor has been necessary in many other
+scientific advances. The recent great progress in nuclear physics
+
+
+-2-
+
+has come as well from the men interested in experimental techniques,
+who spend their time trying to get more out of the cyclotrons they
+have and building new and better cyclotrons, as from those who are u
+primarily interested in measuring nuclear cross sections and finding
+new particles. Even in theoretical physics one needs the analysts,
+who improve mathematical techniques, as well as the physicists
+proper, who use the techniques to devise new theories. Research
+into techniques does not usually have the glamour which research
+
+on Specific problems has, but in really new fields of investigation
+the basic techniques often must be worked out before the specific
+problems can begin to be attacked.
+
+Research into techniques of using digital computers is
+particularly important now, for the potentialities of the new
+machines are not well understood by others, who would be benefited
+by its help. For this reason we are hoping to enlarge our program-
+ming research group when the I.B.M. machine gets here, so that, in
+addition to helping the problem-solvers program their computations,
+the group can spend some time devising really new tricks. Some of
+this research should be into the possibilities of devising new modi-
+fications of input andkoutput equipment so that, for example, the
+results of some experiment can be fed directly into the machine for
+detailed analysis, or so that the calculations performed by the
+machine can be fed directly to a high-speed typesetter, in each
+case eliminating one or more time-consuming and inaccurate human
+interventions.
+
+We are requesting NSF and ONR for help in developing
+such techniques of particular use in adapting the computer to re-
+search in the physical sciences. Some of the work prOposed includes:
+
+1. Devising, writing up, and correlating a library of
+programs for solving standard problems, to facilitate the use of
+the machine by workers in the physical sciences.
+
+2. Investigating basic programming logic, how it can be
+expressed in mathematical terms and how much of it can be carried
+out by the machine itself.
+
+3. Development of input equipment and techniques which
+can connect the machine directly to the experiment, and output
+equipment which can display results in a more concise and under-
+standable form.
+
+In this way the Computation Center can cooperate in an
+active way with the various groups, at M.I.T. and at other New
+England colleges, which are carrying on research in the physical
+sciences.
+
+
+-3-
+
+4§g 53; Parallel Develo ment in the Social Sciences — The work
+
+we have proposed for support by NSF—aﬁa_ONK Is to be primarily for
+applications in the physical sciences. But the potentialities of
+machine computers in the social sciences and in operations research
+has equal or greater promise. In economics, in management problems,
+in some aspects of psychology and in other fields, the data is
+large in quantity, often requiring much statistical processing
+
+and special display before its purport can be understood. Many
+mathematical techniques, now being developed for these subjects,
+require tremendous amounts of computation before they can.be
+applied to specific problems. Although the appropriate machine
+techniques and the special input-output equipment have not been
+investigated very completely, it is already char that they will
+often differ considerably from those devised for the physical
+sciences and should be investigated separately, in close collabora-
+tion with specialists in the social sciences. The grants requested
+of NSF and ONE will not support the detailed theoretical study and
+special equipment development which this research will require.
+
+It is, therefore, appropriate and desirable that a re-
+quest be made for a separate grant for the development of machine
+techniques useful for these fields. We now have, at M.I.T. and
+in the neighboring colleges already planning to use the Computation
+Center, a variety of specialists in the social sciences, who would
+be interested in collaborating with the staff of the Center in
+developing such techniques} Funds for the support of specific
+studies, in particular fields, can and should be requested and
+granted separately. But there is need to support the work of the
+Center's staff in devising new techniques, in adapting known tech—
+niques to new fields and in helping social scientists effectively
+to utilize digital computers in their studies.
+
+Possible Directions for Research - It is not possible at present
+
+to enumerate in detail—the directions this investigation of computer
+techniques will take. Several promising leads have already aroused
+interest, however:
+
+1. A basic investigation of the machine techniques for
+computation in the general field of linear programming--dynamic
+programming—-input-output analysis, which promises to be of con-
+siderable importance in economics and in operations research. The
+economics departments at both Harvard and M.I.T. are interested
+in applying such techniques to their work. Professor Orcutt at
+Harvard and Professor Solow at M.I.T. are on Advisory Committees
+to the Computation Center and will cooperate in this work. The
+computations are quite difficult for present equipment but it
+appears likely that new programs, planned to utilize the considerably
+greater high-speed storage of the new machine, can greatly improve
+the speed of solution. It is likely that fundamental improvements
+in techniques of solution of these problems will also prove valuable
+
+‘ég
+
+
+A -u-
+
+in devising algorithms for the solution of roblems f
+theory, also of potential importance in these areas.0 game
+
+at M.I.T. A project in machine translation has already been set
+up, under the direction of Professor Locke of the Language Depart-
+ment. As it develops, it will need the help of machine programming
+specialists and will need the use of a machine to test its ideas.
+The translation project is already supported by the Rockefeller
+Foundation, but parallel work by the Computation Center on tech-
+niques for rapid access to large—quantity data would help this work
+as well as others. For example, a study of the use and operation
+of the M.I.T. libraries was begun last year. At present, the study
+is concerned with the ways the library is being used at present,
+but it is expected to move on to the consideration of possible im-
+provement of library operation and extension of its use as a re-
+search tool in science and engineering. One promising direction
+
+of investigation is in the application of machine techniques to
+library inventoryins, cataloguing, and record-keeping. A1though_
+special-purpose machines will probably be required in the end, many
+ideas and procedures can be developed and checked out on the general-
+purpose machine at the Center with the addition, perhaps, of some
+specially built input and output equipment. The staff of the M.I.T.
+Library is interested in this work, and will contribute its knowl-
+edge to its progress.
+
+3. A digital computer can be used as an integral part
+of many experiments in the social sciences. It can be used to
+simulate certain operational situations and thus to provide data
+rapidly and under controlled conditions. For example, automobile
+traffic distributes itself through the streets of a town according
+to some minimization principle, on the average. It should be
+possible to simulate this flow on the computer, trying different
+assumptions as to the effective "street resistances" and measuring
+the resulting flow under various traffic stresses to see how closely
+the results check with measurements made in the Boston streets by
+the Traffic Study Group already in operation in the Civil Engineering
+Department at M.I.T. Tactical situations in warfare are already
+being studied by "gaming techniques" at Rand and in other military
+operations research groups. Similar tactical problems in various
+fields of the social sciences can also be studied by simplifying
+the situation down to some sort of "game,“ with more or less com»
+licated rules, which can be played by groups of investigators, to
+see what are the consequences of various strategies. If the 'games"
+are to correspond, even distantly, to some actual social situation,
+the rules must be quite complicated and the scoring will require
+a great deal of statistical computation. It has been found that
+only by the use of computing machines can the scoring be speeded
+up sufficiently so that enough games can be run through to provide
+
+
+. Hun):
+
+Imam.- nr luv-la-
+‘z‘oupn. 'l‘m: um: ul‘ :1 prop-Hy [:1
+would provide auch
+
+experimqmm with a pun-[TIN nml
+
+contrulHnu, uni) hlmly’lJni Ln... tum-I
+psychology In new) ma ’Jlul’) awry In upm-
+
+wrunmmuu inn/Han at. ”.1 ’I’
+cave/1:1 an.“
+
+”umhm lp-uhulmau"
+
+un Mun h-huwlm
+wgramml numputu
+iluallnln mumm
+
+tun-nu In mmlul
+an! Inhm «M. hm
+
+and mm; Hm
+
+    
+ 
+  
+ 
+     
+    
+  
+ 
+
+.I‘
+
+0: bum/1:;
+
+man a! n9,
+lkh'zlal’J,
+
+41/) y In. L
+
+Mu L i ’0’",
+in ’Jﬂyu’A/x 15M”; 11.11.!1 q l i H.
+M." 2'. ‘21.: gnaw.“ autumn, mt, Imm-
+' "mafaicz 2‘7,- rnﬂ 9. 'Irl- LIA 114mg in
+v2 . . r I '
+
+      
+
+. avid It'll/I a (In I 7/4”“
+1.9..th lw hm MA‘II‘I mm";
+..
+
+Whit/I
+
+ 
+
+ 
+
+II
+run/2 IA' in ”We" ~01 m;
+'. 3.“,«11 all: 2/, :,-./’I, MQ‘IA‘A’v mm”.
+
+V g. :, f'bx'tc". f; ‘1’, ~.. .11.,
+
+7* ~ ‘ " "It’ﬁ, («51¢ .» -.,,, «,1 . /
+:—‘ j: ,, ,"1’ "w ,‘1/« l""‘
+‘ .,.bl‘.;4'u~1'L/. 'q ’, z. 1,7 ,, , ,.
+t..;'7."'. 5’! a U’rw,’ «”31 1. .. .a,
+. _,. { /.
+.Alh’. ﬁz”.:4‘l :1, 91:4 ’[A’/,I’I<,
+
+. :z' 'A///.. I :
+217;; , :IA n14; '
+Jrue 31', 1.7.144
+
+1;”
+,,
+
+

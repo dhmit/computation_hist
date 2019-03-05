@@ -1,0 +1,58 @@
+A135):
+/
+
+Name and hddress of Institution: Massachusetts Institute of
+’ , Technology, Cambridge )9, Mass.
+
+Title 9; Proposed Research: Research on Digital Computer Operation
+and Utilization--Inves iga on n o
+
+the patterns of operation of—Electronic digital computers and the
+methods whereby they can be used in mathematical and experimental
+research; including studies of numerical analysis and machine pro-
+gramming methods, investigation of the possibilities of the complete
+mechanization of the sequence of recording, processing, analysis
+and presentation of experimental data and the working out of such
+specific applications of machine techniques to problems in science,
+engineering, and administration as will clarify the basic research
+and suggest new points of view.
+
+ 
+
+Desired Starting Date: July 1, 1956
+
+Time Period: Three years, with a reassessment during the fall of»
+195§ to determine whether further support is advisable.
+
+Pro osed Research; Background Information: We are organizing what
+should Be one of the mos ruitPuI centers for research related to
+the use of electronic computers in this country. IBM is contributing
+one of its 70h machines, maintained and equipped with appropriate
+auxiliary equipment. IBM and MIT are providing the building, part
+of the new Compton Laboratory, and MIT is contributing some of the
+staff from its departments of mathematics, electrical engineering,
+physics, and industrial management. The machine will be available,
+35 or more hours a week, free of machine time charge, to MIT staff
+and students for non-classified and non—routine research. MIT '
+research in the Center will be coordinated by the Institute Machine
+Computation Committee (see Appendix A for names).
+
+In addition, the Center will be available, up to 35 hours
+a week, on the same basis, to other colleges in New England. Already
+23 institutions have indicated their interest in participating and
+have appointed faculty members to be their Institutional Representa-
+tive (list of participating colleges and representatives given in
+Appendix A). These representatives will coordinate the research
+done on the machine by students and staff of their institution.
+IBM is providing some funds for stipends for graduate students who
+wish to learn machine use by helping with some of this research.
+
+In this atmosphere and with these facilities, there is an
+unparalleled opportunity to do important and basic research in all
+phases of the use of digital computers in science, engineering,
+and business. A central research group, supervised by faculty
+members and staffed by workers picked from the graduate students
+of MIT and other colleges, working closely with persons from the
+other colleges, will help coordinate the work of the Center and
+will carry on research of their own in machine logic, in techniques
+of machine computation, and in Specific applications of machine

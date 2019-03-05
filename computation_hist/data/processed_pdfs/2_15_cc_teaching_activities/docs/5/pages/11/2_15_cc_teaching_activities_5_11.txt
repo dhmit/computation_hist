@@ -1,0 +1,63 @@
+data. In addition to the solution as scientific computing and business
+processing problems, a. number of. classroom lectures were devoted to the
+consideration and evaluation of the relative merits of the many mercislly-
+available electronic data processing systems. Specifically, this was achieved
+by 3 Study of lG'reyresentntive intermediate-gene di'un computers, and seven
+of the large-scale systeus -- BIZIAC, Datmtio 1000, EBA 1103, In: 704,
+
+m 705: 38513013, and DRIVAC, respectively. Since many of the students were
+entering various large business, industrial, and government concerns, it was
+mortant that they have some knowledge at acne o! the relative merits of the
+individual systene. Finally, several lectures were devoted to the Ial 704
+
+Calculator which will be installed in the LLT. Conputstion Center in the
+nest future.
+
+Sum; 33 Student Enroll-cut statistics
+
+ 
+
+ 
+
+, A detailed description or the course content of the subjects
+listed in the introduction is given in the LLT. Catalogue.
+
+An indication o: the interest in ”chine computation my be
+obtained by considering the renewing enrollment in each of these subjects
+during the academic you 1955—4956:
+
+No . Students
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+£5351. Home . Fall Sgring Total.
+2.215 Hethods otjngineering Analysis 18 0 18
+6.25 Machine-Aided Analysis I 106 47 153
+6.535 Digital Computer Coding and Logic 0 91 97
+6.538 Electronic Computational Lab. 0 26 ‘26
+6.54 Pulsed-Data System ' 0 60 60
+6.567 Switching Circuits 48 0 48
+6.568 Switching Circuits 0 30 30
+15.542 Management Intonation Systems 0 22 , 32
+M39 Methods of Applied Mathematics 130 123 253
+M411 Numerical Analysis 45 0 45
+15412 Numerical Analysis 0 16 16
+J Total 347 421 768
+
+It is apparent from the above list that the total attendance in these 11 subjects
+was 768 students. This does not mean, however, that there were 763 individuals
+involved since many of the students took a. number 02‘ the above subjects, thus the
+actual number of individuals exposed to machine computation is considerably less.
+
+F. El. Verzu‘n
+June 32, 1956

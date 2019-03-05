@@ -1,0 +1,56 @@
+OFFICE OF
+
+To
+
+ 
+
+(INTER-DEPARTMENTAL)
+
+MASSACHUSETTS INSTITUTE OF TECHNOLOGY
+CAMBRIDGE, MASS.
+
+F. C. Helwig March 28, 195'?
+
+Berta Building ¢
+0/
+Professor P. M. Morse /.,
+
+Room 6-107
+
+/‘/-\
+SUBJECT: PAPERS TO BE PRESENTED AT FORTHCOMING- GM Ie‘ ING
+
+We have just received word from J'. Wegstein (NBS)
+that the following papers have been accepted for presentation
+at the .Tune ACM meeting in Houston.
+
+ 
+
+(l) MIT's Post—Mortem Routine for the IBM 704.
+
+ 
+
+(2) A Proposed Algebraic Compiler for the LET—IBM 704. H; ‘
+
+‘A‘Jegstein has proposed that the latter paper be given
+as part of a panel discussion entitled Efficient Operation of
+Computers in Code Checking and Commutation" to be held on Friday,
+June 21, 1957. An outline of the panel discussion follows:
+
+Morning Session
+
+(1) General Motors Input—Output System (Richtman)
+(2) 1103A System (Cook—Boeing)
+(5) ILLIAC System (Muller)
+Afternoon Session
+(1) Generalized Programing and LARK (Bolt—Rem. Band)
+(2) FORTRAN (Backus—IBM)
+(5) MIT (Helwig)
+
+Papers are to be 20 minutes in length. A discussion
+period of 10 minutes will follow each paper.
+
+FCHm
+cc: F. Li. Vermh
+
+

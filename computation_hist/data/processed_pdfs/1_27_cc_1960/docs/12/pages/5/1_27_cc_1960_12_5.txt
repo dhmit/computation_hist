@@ -1,0 +1,50 @@
+‘
+
+Page 5.
+
+Memo
+
+(1) Requirements for classroom use,
+equipment, either direct handwritten ot t
+
+tions of a particular field).
+
+centering about devices that will have the appearance of a
+
+normal blackboard or drafting table. The handwriting analy—
+
+sis programming is being carried on as part of thesis work,
+that problem presentation from formulae input will develop
+
+irom the present ”macrodirective” work of the MIT Solid
+State Physics group. As has been indicated, the remote dis—
+
+type equipment used to project ticker tape quotations in
+brokerage houses. Other possibilities include the develop-
+ment of a self—terminating scope display that could use
+Projection Television type of equipment
+
+o
+
+ 
+
+(2) Requirements for normal remote console use: In this
+
+put~output data rates and the type of equipment that can meet
+these objectives. For the present, it appears that any one
+of a number of typewriter types with additional pushbuttons
+for special purposes will suffice. These are for the most
+part presently available.
+
+(3) Definition of the overall system: Analysis is being
+carried out to determine the necessary configuration of the
+overall system., This work is still largely only in qualita—
+tive terms.
+
+(A) Formulation of the overall programming system: In
+this area, with the exception of small pieces of the problem,
+such as the Linking Loader and the FMIS system, very little
+has been done. It is expected that a much greater rate of
+progress will become available as the system configuration,
+
+manpower, and funding are more firmly established.

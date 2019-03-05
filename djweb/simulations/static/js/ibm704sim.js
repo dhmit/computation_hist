@@ -1,8 +1,23 @@
-// there are no index registers or Type A functions.  Or most of the Type B functions
-// basically most of the computer is missing
+const PZE = HTR; // hack for pseudoinstruction PZE, which lets you store in an address, tag, and
+// decrement without an operation
 
-const no_to_operation_b = {0o601: STO, 0: HTR, 0o500: CLA, 0o400: ADD, 0o402: SUB, 0o4400: SBM, 0o401: ADM}; //Change num later
-const no_to_operation_a = {0b110: TNX};
+// if number is negative, put a 4 in the beginning: e.g. -0o345 will become 0o4345
+const no_to_operation_b = {
+    0o601: STO,
+    0o000: HTR,
+    0o500: CLA,
+    0o400: ADD,
+    0o402: SUB,
+    0o4400: SBM,
+    0o401: ADM,
+    0o534: LXA,
+};
+
+const no_to_operation_a = {
+    0b110: TNX,
+    0b010: TIX,
+    0b000: PZE, // hack for pseudoinstruction PZE
+};
 const operation_b_to_no = {};
 const operation_a_to_no = {};
 const no_to_operation_a_str = {};
@@ -15,6 +30,8 @@ for (let number in no_to_operation_a) {
     operation_a_to_no[(no_to_operation_a[number]).name] = number;
     no_to_operation_a_str[number] = (no_to_operation_a[number]).name;
 }
+operation_a_to_no["PZE"] = 0b000; // hack for pseudoinstruction PZE
+const non_indexable = {"TIX": 0, "TNX": 0, "TXH": 0, "TXL": 0, "TXI": 0, "TSX":0, "LXA":0, "LXD":0, "SXD":0, "PXD":0, "PAX":0, "PDX":0};
 
 /**
  * Function to create a new string with the character at index replaced by a new character.
@@ -272,6 +289,16 @@ class Instruction {
             this.tag = tag;
         }
     }
+
+    /**
+     * Returns whether this instruction's operations is one of the indexable operations.
+     *
+     * @returns {boolean}   Whether operation is indexable.
+     */
+    indexable() {
+        return !(this.operation.name in non_indexable);
+    }
+
 }
 
 /**
@@ -829,15 +856,27 @@ class IBM_704 {
         let instruction_word = this.general_memory[this.ilc.valueOf()];
         this.instruction_register.store_instruction(instruction_word);
         this.ilc.increment();
-        this.storage_register.update_contents(this.general_memory[instruction_word.address]);
-        let instruction;
+        let effective_address = instruction_word.address;
+        let instruction = instruction_word.instruction;
+        if (instruction.indexable()) {
+            let tag_str = convert_to_binary(instruction.tag,3);
+            if (tag_str[0] === "1") {
+                effective_address -= this.index_c.valueOf();
+            }
+            if (tag_str[1] === "1") {
+                effective_address -= this.index_b.valueOf();
+            }
+            if (tag_str[2] === "1") {
+                effective_address -= this.index_a.valueOf();
+            }
+        }
+        this.storage_register.update_contents(this.general_memory[effective_address]);
         if (instruction_word.is_typeB()) {
             instruction = instruction_word.instruction_b;
-            instruction.operation(this, instruction.address); // TODO: implement functionality of
-            // tags and effective address modification
+            instruction.operation(this, effective_address, instruction.tag);
         } else {
             instruction = instruction_word.instruction_a;
-            instruction.operation(this, instruction.address, instruction.tag, instruction.decrement);
+            instruction.operation(this, effective_address, instruction.tag, instruction.decrement);
         }
     }
 
@@ -883,8 +922,7 @@ class IBM_704 {
      * Converts an array of strings that contain lines of SHARE assembly into numerical code that is
      * placed in general memory.
      *
-     * Currently missing most operations, including all Type A operations and pseudo-operations, and
-     * doesn't handle tags.
+     * Currently missing most operations, including all Type A operations and pseudo-operations.
      *
      * @param {number} origin        Where to start storing the program.
      * @param {Array}  code_lines    Array of lines of code.
@@ -895,8 +933,23 @@ class IBM_704 {
             let line = code_lines[line_no];
             console.log(line);
             let operation = line.substring(0,3);
-            let address = parseInt(line.substring(3, 6));
-            this.assemble_line(operation, address, register);
+            let rest_of_line = line.substring(3);
+            let numbers = rest_of_line.split(",");
+            if (numbers[2] !== undefined) {
+                let decrement = parseInt(numbers[2]);
+                let tag = parseInt(numbers[1]);
+                let address = parseInt(numbers[0]);
+                this.assemble_line(register, operation, address, tag, decrement);
+            } else if (numbers[1] !== undefined) {
+                let tag = parseInt(numbers[1]);
+                let address = parseInt(numbers[0]);
+                this.assemble_line(register, operation, address, tag);
+            } else if (numbers[0] !== undefined) {
+                let address = parseInt(numbers[0]);
+                this.assemble_line(register, operation, address);
+            } else {
+                this.assemble_line(register, operation);
+            }
             register++;
         }
     }
@@ -905,14 +958,42 @@ class IBM_704 {
      * Stores an instruction into general memory as a number.  Currently doesn't handle Type A
      * operations or tags.
      *
+     * @param {number} register     Address that instruction should be stored in.
      * @param {string} operation    String name of operation.
      * @param {number} address      Address that instruction is directed at.
-     * @param {number} register     Address that instruction should be stored in.
+     * @param {number} tag          Tag of instruction.
+     * @param {number} decrement    Decrement of instruction.
      */
-    assemble_line(operation, address, register) {
-        this.general_memory[register].instruction_b = new Instruction_B(eval(operation), address);
+    assemble_line(register, operation, address=0, tag=0, decrement=0) {
+        if (operation in operation_b_to_no) {
+            this.general_memory[register].instruction_b = new Instruction_B(eval(operation), address, tag);
+        } else if (operation in operation_a_to_no) {
+            this.general_memory[register].instruction_a = new Instruction_A(eval(operation), address, tag, decrement);
+        } else {
+            throw "Undefined operation!";
+        }
+    }
+
+    /**
+     * Returns the correct index register for the computer given a tag.
+     *
+     * @param {number} tag          The tag.
+     * @returns {Index_Register}    The appropriate index register.
+     */
+    get_tag(tag) {
+        let index_register;
+        if (tag === 1) {
+            index_register = computer.index_a;
+        } else if (tag === 2) {
+            index_register = computer.index_b
+        } else if (tag === 4) {
+            index_register = computer.index_c;
+        }
+        return index_register;
     }
 }
+
+// Type B operations
 
 /**
  * Emulates the IBM 704 STO operation.
@@ -931,10 +1012,9 @@ function STO(computer, address) {
  *
  * Indicates the computer to halt.
  *
- * @param {number} address      Required for Type B instruction.
  * @param {IBM_704} computer    Machine to execute instruction on.
  */
-function HTR(computer, address) {
+function HTR(computer) {
     computer.halt = true;
 }
 
@@ -983,18 +1063,6 @@ function SUB(computer, address) {
 }
 
 /**
- * A dummy function for testing Type A instructions.
- *
- * @param computer
- * @param address
- * @param tag
- * @param decrement
- */
-function TNX(computer, address, tag, decrement) {
-    console.log("TNX called");
-}
-
-/**
  * Emulates the IMB 704 SBM operation.
  *
  * Subtracts the magnitude of the storage register from the accumulator as if it were a
@@ -1009,15 +1077,59 @@ function SBM(computer, address) {
 }
 
 /**
- * Emulates the IMB 704 ADM operation
+ * Emulates the IBM 704 ADM operation
  *
- * Add the magnitude of the storage register form the accumulator as if it were a
- * fixed number point
+ * Add the magnitude of the storage register from the accumulator as if it were a
+ * fixed point number.
  *
- * @param {IBM_704} computer    Machine to execute instruction on
- * @param {number}  address     The address of the value to add to the accumulator
- * @constructor
+ * @param {IBM_704} computer    Machine to execute instruction on.
+ * @param {number}  address     The address of the value to add to the accumulator.
  */
 function ADM(computer, address) {
     computer.accumulator.fixed_point = computer.accumulator.fixed_point + Math.abs(computer.general_memory[address].fixed_point);
+}
+
+/**
+ * Emulates the IBM 704 LXA operation.
+ *
+ * Stores the address of the word at the specified address
+ *
+ * @param {IBM_704} computer    Machine to execute instruction on.
+ * @param {number}  address     Address of register to extract address from.
+ * @param {number}  tag         Specifies the index register to be changed.
+ */
+function LXA(computer, address, tag) {
+    let index_register = computer.get_tag(tag);
+    let address_to_store = computer.storage_register.address;
+    index_register.update_contents(address_to_store);
+}
+
+// Type A operations
+
+/**
+ * A dummy function for testing Type A instructions.
+ *
+ * @param computer
+ * @param address
+ * @param tag
+ * @param decrement
+ */
+function TNX(computer, address, tag, decrement) {
+    console.log("TNX called");
+}
+
+/**
+ * A dummy function for testing Type A instructions.
+ *
+ * @param computer
+ * @param address
+ * @param tag
+ * @param decrement
+ */
+function TIX(computer, address, tag, decrement) {
+    let index_register = computer.get_tag(tag);
+    if (index_register.valueOf() > decrement) {
+        index_register.update_contents(index_register.valueOf() - decrement);
+        computer.ilc.update_contents(address);
+    }
 }
