@@ -1,0 +1,86 @@
+THE UNIVERSITY OF CHICAGO
+CHICAGO 37-ILLINOIS
+
+DEPARTMENT OF PHYSICS
+
+2 January 19 5'7
+
+Dr. Philip M. Morse
+
+Department of Physics
+Massachusetts Institute of Technology
+Cambridge 39, Massachusetts
+
+Dear Phil:
+
+Thank you very much for your extremely quick reply, and
+for the additional ten hours of free time. On the strength of this,
+Mr. Merryman will very shortly return to M.I.T. to continue
+testing and to compute some exchange integrals.
+
+l (E understand that Whirlwind would be retired and that
+you would go on to IBM 704. The development of the exchange integrals
+program on Whirlwind went very slowly, which we regret, but the
+program appears now at last to be operable, though checking and
+improvements are still needed. Thus computations of particular
+integral values should be relatively routine, and barring unforeseen
+difficulties I think it is realistic to expect that the integral values
+we need could be run through relatively soon, before Whirlwind is
+retired. As soon as feasible, we plan to prepare an exchange
+integrals program for another machine, but this is expected to take
+a year or two, eepee-ia—l-lry in View of the fact that radical improve—
+ments on the present program can and should be made. (We feel it
+would be pretty much a waste of effort to merely recode the present
+program for another machine, since this recoding would be more
+than a trivial operation.) But since for our NSF program we very
+badly need values of exchange integrals now , it seems worth while
+to use the Whirlwind code now, while we can, for the computation of a
+number of them. We think we need a minimum of 60 hours for this,
+but this depends on how long it takes per integral, which at present
+looks like about 2 minutes on the average, but we hope it may go
+faster.
+
+With the foregoing background (of course there are many
+further details), may I ask the following questions?
+
+
+2 January 1957
+
+   
+
+(1) Suppose the cost of the time used can be provided; would
+on nﬂict 1/111. 0316: needs i.f "-1 ecould and did use 32 hours, or 00
+
+ 
+
+r‘
+
+‘s,b7 June!
+
+(2) I have an OIIR contract, and they have, I think, a benevolent
+interest in our computations. Would there be any objections on your
+cart, an jﬂf I enoulci see if t_h__ey would provide for free time for us on
+
+Whi' rl Hind?
+(3) Looking ahead, do you have an opinion as to whether we
+
+could if necessary later get tune from PrOJect Lincoln, Where I
+understand Whirlwind will go? Of course, as mentioned above, we
+plan as soon as feasible to develop a new and better program.
+
+(4) If we go ahead with buying time from Whirlwind, do we
+need some kind of formal business arrangement?
+
+Many thanks again for your kindness.
+Sincerely,
+
+WARM
+
+\ R. S. Mulliken
+
+ 
+
+RSMzhl
+CC: I. C. Slater
+
+

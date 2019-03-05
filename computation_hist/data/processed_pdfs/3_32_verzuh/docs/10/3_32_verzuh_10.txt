@@ -1,0 +1,1255 @@
+.n
+
+ 
+
+l/
+
+MBIIORANDUM ﬂ THE M.I.T. DIFFERENTIAL ANALYZER
+
+ 
+
+ 
+
+ 
+
+by
+
+F. M. Vermh
+
+November 10 p 1954
+
+
+1.0
+2.0
+3.0
+4.0
+5.0
+
+0.0
+
+1.0
+8.0
+
+ 
+
+Introduction....................
+
+Tm I; .mmtrlblltlon of tho Bechtellor Diffortnti.“ All!!!"
+
+-.....
+
+aistorical Wound of the anemone:- Inﬂuential Analyser .
+Inn-mutation “bow-story Utilization of the RM. . . . . . . .
+
+Survey of the Application of tho Dittormtisl Amino:- . . . . .
+Disposition of the Dittnentisi minor . . . . . . . . . . . . . .
+
+.
+
+5.1 Purdue mica-guy Negotiations, . . . .. . . . . . . .' . .
+
+mu 1:: m Beam! Exmus Imus-god by PM“. Dhaka-sit:
+5.2 Othor Existitutional Emu-lions . . . . . .. . . .
+
+5.3 mm. Romrch Projects. . . . . . . .
+
+5.4 Expenses Incurred in the l-ovsl of the RM .
+TABLE 1111: Total Cost 0: mm the m.
+Disposition of the ”Min. Shop. . . . . . . .
+
+.....
+
+.
+
+o
+
+n
+s
+DOOUQOﬁLI-lﬁg
+
+.-
+O
+
+..10
+..1!
+
+Tm IV: m Shop Eqnimt Return“ to Instmmtation Mborstoryll
+8.1 lschine Shop Equip-ant hasten-ed to Electrical Engineering. . . . 12
+TABLE V: RDA lachine Shop lqlipmt Transfer!“ to new 10-481 . . 12
+
+........13
+
+Institute Spoon Rouloution. . . . . . . . . .
+
+Ethnography.-. .. ,. . .. . . . . ..
+
+........13
+
+-4.
+
+.‘.1g
+
+
+Ilium-ennui on the ILLT. Differential Anslyner
+
+ 
+
+ 
+
+ 
+
+1 . 0 Imam-now
+
+This nsnorandu is prepared with tee objectives in ﬁnd. rirst.
+
+, a brief historical background of the Rockefeller Differential Analyser
+(RDA) is presented together with specific cements pertaining to the
+develop-ant period and pertinent factors associated with its operation
+during the past twelve years. Second, the recent di-antlinz and
+disposition of the and is described in me detail. In the discussion
+of the above itus, frequent reference will he ends to several nuns-ands
+which have been prepared on the whine during the past decade.
+
+1 think it is inportant that the locheieller Research roundatien
+be properly inforaed of the disposition of the Differential Analyser
+since they were so helpful with financial contributions during its "
+fen-native years.
+
+2.0 man-axon museum 3 13 3mm: Damn-rm. mm
+
+ 
+
+ 
+
+The original design and develop-out of the Differential Analyser
+was initiated early in 1936, and several of the basic features of the
+sschine were deter-lined at that tile. Specifically, the design of the
+servo-echnnin: syst- which weansed to interconnect the conponsnts of
+the aachine was developed during that period. This is aenticned sisply
+to indicste that during recent years nose of the neintenance probleas
+associated with the RDA were occasioned by the particular serve-echani-s
+which were nployed. These were vintage 1936, and as such. were not .
+coapetitive with postri‘orld Ier ll serwc-echanin design.
+
+The original Center of Analysis was for-ally organised by Professor 3. a.
+Caldwell in Jnly. 1939 with the aid of a grant of $30,000 fro- the Carnegie
+Foundation. During its only, fol-native years, the Center existed largely
+on grants froa the Rockefeller Foundation, Electrical lngineering Depart-rent.
+and other sources: and it was not until 1942 that the RDA was finally placed
+into operation. Beginning at that tine, the RDA provided a source of
+financial revenue which assisted in the {emulation of a self—supporting
+regine.
+
+During 1941, the activities of the Center (under the direction of
+B. Taylor) were expanded to include a large battery of desk calculators
+and associated personnel who were well advanced in the use of numerical
+analysin techniques. At that ties. the Center contained 3 principal types
+of facilities:
+
+1. The Differential Analyst facility consisting of 2 uchines:
+a) the original G—Integrator Differential Analyser,
+
+h) The new Rockefeller ls-lntegrator llectrmechsnical
+Differential Analyser.
+
+
+3. The ma Punched-Card Section,
+
+3. The Hand Coupntin‘ Group (which oaployed desk calculatora
+for computational pun-poles).
+
+During the war yearn 1942-45, the at'aff of the Center waa increaaed
+to ‘approxiaately 50 people. Because of the large voluae of war-tile.
+coaputational activity (3-ahift operation. etc.), thia aelf supporting
+type of operation resulted in the creation of a financial reaerve fund
+of over $40,000. '
+
+. Profeeaor S. H. Caldwell returned fra hie me min-ant in 1945
+and again aeeuaed hie for-er position as active Director of the Center.
+The poet-ear years 1946-47 had a mutating effect on the prewiouelr
+aontioned financial reeorwe. The eolue of coaputational work woe aharply
+curtailed during thie period, but the operating staff of the Center wan
+not aaterially reduced. Aa a consequence, the two-year period 1948-49
+mo wary trying yeare frat the financial atondpoint; and during thie
+period. the II Group and the Band Cuputing Group were separated frn the
+center.
+
+In larch, 1948, I. ll. Versuh wne placed in charge of the punched-
+card am. After a period of reorganization it appeared that the loea
+of one of the principal clienta of tho Ill aervicea, the A. 1). Little
+Coapany, would create a eerioue operating deficit in the pinched-card
+aoction. Aa n molt, a deciaion was node to diacontinue the pinched-card
+section, and a letter terminating the exieting 13! machine rental contract
+waa aent to the In Corp. in May, 1949. Fortunately, nr. Strattou learned
+of the situation in tine to prevent dissolution of the “up. and at hie
+direction, the 1m punched-card facility was reactivated on July 1, 1949. and
+the group began operation an o aeparate coaputing facility under n.1.c.
+eponaorahip. Finally, on July 1. 1950, the Adainiatratiun not up the In!
+group as on Adainietrative Office - the Office of Statistical Servieea.
+
+It alao hecane apparent that the original e—lntegrator Differential
+Analyzer wao no longer required at IJJ. , and coneequently it waa pre-
+sented to Wayne Univeraity in July, 1949 where it in still in operation.
+Early in 1949 the Differential Analyser Group (the laat remaining aection
+of the Center of Analysis) was about to he dissolved hecnuae of financial
+difficulties. Fortunately. in June, 1949, a contract was initiated with the
+u. 8. Air Force: which provided tho necessary financial neoietance needed
+to continue its operation. In July. 1949, 1!. II. Veranh was alao placed in
+in charge of the am group and one faced with the prohlu of hiring a new
+operating staff. (The former group of Hansen. .3. L. c. 132, n. Hora-h,
+G. Kunatedt, M. Costa, etc. had been released.)
+
+A new operating staff consisting of honors. J. I. ﬂu, and E. *8.
+Groaniaon were hired and trained, and the new NBA group consiating of
+Profuse:- Caldwell, Messrs. ll. Forbes, L. S. Front, J. 1:. Gone, II. I.
+Groaaiaon, J. I. ﬂan. F. n. Vornuh and Iliaeen 3. Collins. s. Conway, and
+B. Tana experienced an effective year which resulted in the following major
+additions to the RDA:
+
+
+1. Three now ionr-ebeit unite were constructed which inoroaoed
+mmccmityotmmnysssJ
+
+a. The design and mtion of two antenatic curve follower.
+one oupleted. and the“ were need an input anitn on tho RIM.a
+
+3. Il‘ho design and construction of the Vector Unit was oonpleted.
+Thin unit increased the functional capabilities of tho BBL:
+
+mitional detaile oi the work periorned during thin period under
+Air Iorce Contact are given in the My Report: which were onl-itted
+on part of thin work}: ,
+
+'rho otfioiel terninetion data of the Air Force Contract wee
+W :0. 1950. However, it becane apparent prior to July 1, 1950 that
+the operation of the Difierential Analner would again be in financial dit-
+tionlty. Counmtly, the Institute decided to clone down the Differential
+MM on of June 30, 1950. Again the operating eteif woe releaeed. and
+the I. I. neperhent per-nontly covered all mponeibility tor the Diﬂerential
+Analner. m nochine woe about to be mapped when Dr. Drape, Director o! the
+lumtetion Laboratory expreleed intereet in ite possible operation. ' 'hen
+be learned that it only ooet npproxinately $25,000 a year to operate the
+facility, ho indintod that the Instruentation 'Laboratory would earl-o full
+responsibility for all RM operation on noon on the exioting Air Force Contract
+wao cupleted.
+
+At thin tine. it wa- roalixed that the principal maggot“ work on
+tho Alc contract was confined to the operational ate“ and not to the m
+lachine Shop. Consequently. the responsibilities of the RDA Shop were trana—
+Ierred to tho lnotruhntation Laboratory on Jilly l, 1950.6 In thia nonmr,
+tho thorotory was able to utilize tho service- or the 3 Instrument Intern
+and all of the shop racilitieo for the production of gyro and other delicate
+nechani-o for the Laboratory.
+
+min; the renoining three nonths of the [me contract. nanotly Joly-
+Bept-her. 1950, the operating stat! of the RDA was engaged in the conpletion
+or work requested by wright Field, the preparation oi final technical reports
+required mac:- this contract, and the cnplotion of outstanding Center of
+Analysis connitnents requiring the me of. the RDA. Hence. it was not} until
+October 1, 1950 that the Instrumentation Laboratory nomad tho reoponoihility
+of the operation of the entire RDA facilitz.
+
+At this time. 3‘. E5. Verso): agreed to supervise the operation or the RDA
+for the Inotn-entotion Laboratory. Since the Electrical Engineering Depart-
+Ient staff assigned to this project had hemreaasignod to other projects within
+the I. B. Depot-mat, effectiva July I, 1950, (Professor 3. E. Caldwell. J.
+
+I. Ben. and H. P. Grossmon), it again became necessary to hire a now operating
+staff. Two new man (Messrs. I. Ptoifer and R. Frodrickson) wore hired and
+trained in the techniques or the 12m operation, and in eevceral nontho they
+were able to effectively utilize the RDA for the solution of Inntrnnentation
+Laboratory prawns.
+
+ 
+
+l. Pleeoc refer to the Bibliography for the List of Referencen.
+
+
+3. 0 Immune “DJ—ALEX UTILIZATION 01‘ m RDA
+
+ 
+
+The Instrulentetion Laboratory expressed s desire to ensue the res-
+ponsihility tor IDA Operation in order that it night ceny on design end
+.oelihretion stuiies for new couputing sights and e-unitiou which were under
+current investigation in the Lehorstory. Further-ore, cert-in Instr-entetion
+Laboratory contractual co—itnents were concerned with the denim-out o! is—
+
+proved oouputin; sights, and the solution of associated hineeetic equations
+required the use of the RDA.
+
+'i‘he hhoretory felt that the RDA was unique in its deuonstreted cspehility
+tor handling prohieee of that type. It was: he numbered that st that tile
+(1950) the statue of present-day large-scale oc-puters was not where it is st
+
+the present tine, and as e reeult, these oelihretion studies could be carried
+out sore diectively on the mic; machine.
+
+As it turned out, this was e not fortunate decision on the pert o! the
+lnstmentetion Lshoretory since it resulted in the design of new lead couputing
+lights which were used lost effectively in propeller end Jet cachet over Korea.
+
+in this regurd. the Diiterentiel Anelyzer eguin node a host valueble contribution
+to the war effort.
+
+In the ueentine. however, there were continuous runhliuga in the becmoulld
+concerning the renewal and disposition of the RDA. It was clearly realised thst
+this uschine was indeed u very old computing eachine by existing standards. As
+
+a result, lute in 1952. iuprwed types or digital computing nachines were obtained
+(an, etc.) end certein prohieus formerly solved on the Analyzer were treas—
+
+M__. tori-ed to the digital unchinee. Qurinx this period u deter-iced effort was nude
+
+ 
+
+to diluete the porter-Luce a: the Analyzer both on en economic and ehxineeriﬁc“- '
+hesis. As the perfoz-usuce of the Whirlwind Computer iuproved and lore inter—
+pretive subroutines. conversion prop-ens, floating decinl subroutines, etc. were
+lads nvailehle, it home increasingly apparent that a larger and larger portion
+of the work done on the Diﬂorentill Analyzer could he handled on the digital
+equipent. Furthermore, as the EDA increased in ago its uintemoe costs
+naturslly increased. and since the digital iacilities had deﬁnitely beau-e part
+
+of the ILLT. computational Most“, it beam apparent that serious consideretion
+should he given-to the removal 01 the RDA. '
+
+4.0 SURVEY ‘3‘ TBS APPLICATION OF THE DIFFERENTIAL ANALYZER
+
+ 
+
+ 
+
+In retrospect, it is of interest to point out sous of the principal
+contributions made by the Annlyzer during its 12—year life at 5.1.1. It
+uust he reneahered, of. course, that its early applications were strongly in—
+fluenced by World War II. Smigicallyv the machine was completed in 1942. and
+since the applications during the period 1942—1945 were almost entirely of e
+
+uiliterz, character. the following types of probleaa were solved (in none cases
+thousands of tines):
+
+
+1) Evaluation of ballistic tables,
+2) Guided aissile stability and perforaance studies,
+3) Lead cupnting sight calibration studies,
+4) Studies of aircraft propeller perforaance equations,
+5) Study of the design characteristics of suhnarinea, torpedoe,
+
+and other underwater craft.
+6) Study of the design of cat-aerate eeploying the hydrofoil principle.
+1) Study of the operations research problea dealing with subarine warfare.
+a) Study, design and performance of antisircraft nieeiles such as like. etc.
+
+ 
+
+As a latterd fact, the contributions ends by the Analyzer were considered
+to be sufficiently inportant that the Navy nepnrhent issued the Naval Ordnance
+Developent Award in recognition of the work perforaed by the Differential Analysers
+and associated cuputing staff.
+
+in addition to such studies, the Analyzer was used to design new types of
+lead coaputinz sights, tracking systue. aircraft cmponent design, etc. This type
+of activity was carried on by the Inetrnaentation Laboratory during the years
+1950-1954.
+
+It is evident fro- the above partial list of problem: that the Analyser was
+priurily need for the solution of nilitnry problus. however, there were a
+nnaher of industrial problems-solved on this aoohine. for exanple:
+
+1) Study of the performance of a annex-charge,
+
+2) Study of circuit solution of electrical networks,
+
+3) Analysis of the dynsaic perforaance of servmechsnisaa.
+
+_ 4) Studies associated with heat flow problus.
+
+5) study of a problu in enayae kinetics, '
+
+6) Studies of the atmospheric oscillation of the upper atlosphere,
+
+1) Studies of' n homdary vslue problen associa‘tedeith the design of
+an ultra centrifuge,
+
+In addition to the above industrial problems. the aachine was used to a
+
+liaited extent for the solution of acadenic probleae arising in ILLT. thesis
+research. For ample,
+
+1) Investigation of aircraft performance and control.
+
+2) Investigation of the performance of aagnetic relay circuits,
+
+3) Investigation of the stability of zyroscopes,
+
+4) investigation of the orbit of dynaaically-loaded Journal bearings,
+5) Investigation of statistically—loaded machine bearings.
+
+6) Study of magnetic amplifiers,
+
+1) Investigation of the rolling characteristics of ship lodele.
+
+a) Study of 11.1.1. servonechaniens,
+
+9) Study of differentiation with ele‘ents of the Differential Analyser,
+10) Investigation of Schrodinger-H Have Equation.
+ll) Bonneville power load allocation study.
+
+It is evident from the above list of prohlens solved on the Differential
+Analyzer that it was used predominantly for military and D, I. c. sponsored
+
+
+resesroh. As s utter of feet, this no true to such sn extent thst the
+nechine did mt contribute ss effectively to the scedenic research procre-
+
+ss it night hswe done hsd it not been opersted on s selfésupportnng hssis.
+Speciiieslly. I helire the operstion of s Inchine cuputing isnility of this
+type should be sponsored in such e stone:- that the iinsncisl revenue for its
+utilisation not he the print-y wncorn.‘ The Anslyner was slwsys opersted under
+s sell-supporting hesis, end this of necessity united its spplieetion to groups
+who hsd sdeulnte Issue to pay for its use. A better plsn,ot course, is one in
+which the Administrstion would provide sdequste iinnmcisl support to pernitthe
+operstion of these iscilities for edocstionsl tteininc slut resenrch.
+
+preposition g E lam-rm mun
+
+ 
+
+ 
+
+'l‘hestudies concerned with the possible utilization of the dizitel sschines
+such es the CPC end Ihi-rlwind. hsd progressed to such s stege that on Pehrusry
+l, 1954 the Institute decided thst the Different“: Analyser should be closed
+
+_ effective July 1, 1.954. Hence, in Fehrunryj'. the present operstiu stuff wee
+
+notiﬁed of this decision in order that they night sshe other srrsngesents for
+
+persousl soploynent. As e result, the operstion of the niiierrentisl Anslyser
+wss terninsted on June 30, 1954.
+
+During the spring end Inner nonths s certain snount o! negotistin; wss
+carried on with various lducstionsl Institutions concerning the possible 'dis-
+position of the eschine. Only the ”following Universities:
+
+s) Northwestern University, Ivsnston, Illinois.
+h) Purdue University, msyette,‘,lndisns.
+
+c) University of Pittsburgh. Pittsburgh. Pa. ,
+d) The University of Connecticut. Starts, Conn.
+
+expressed s serious interest in the possible utilisation of portions of this
+sschine. After several visits by representatives. etc. . it was nutuslly speed
+thst Purdue University would tshe the major portion 01 the nechine. The running
+Universities expressed an interest in only s mil part of the m.
+
+Once it bees-e sppsrcnt that the RDA was not to he ruovod sud reinetslled
+es s conplete working unit st some other location, plans were rspidly tornnlsted
+for its ectusl renovsl. Specificsliy, euly in September, Dr. strstton srrenged
+for en ILLT. sppropristion of $5000 (Operating Account 1979.431) to carer the
+cost of raoving end disaantling oi the RDA. On August 17, 1954, Prof, G. 5..
+Brown oriicielly notified various embers of the ILLT. faulty or the decision
+to r-eve the RDA and naked then to express their interest in posoible use or
+Isohine conponentn. Therefore, in spproxinstely six weeks n definite decision
+wss ssde roger-ding the diatribution of the Analyzer. On October '4, s crew of
+5 technicians begsn to dismantle the RDA.
+
+Table 1 contains the males of sister Institutions, various 11.2.1“. proJacts.
+and the type end amount or am equipment which they received. Roughly speekingv
+
+Purdue University was given one-third of the RDA and other groups received the
+rest.
+
+
+mm;
+
+-73-
+
+DISTRIBUTION 21‘: THE ROCKEFEHER DIFFERENTIAL ANALYZER
+
+  
+
+Purdue Universitz
+
+ 
+
+Univ. E Connecticut
+
+ 
+
+Museum o_i‘ Science
+
+ 
+
+Franklin Institute
+
+Grsghic Arte Research
+oundation
+
+Elec. £953. Degt.
+
+ 
+
+ 
+
+ 
+
+ 
+
+Prof. Geldnecher
+
+Prof. J. I... C. LBf
+
+ 
+
+Prof. S. H: Caldwell
+
+Prof» 5. He Caldwell
+
+     
+     
+      
+ 
+   
+   
+   
+   
+ 
+   
+    
+
+     
+
+Integrator. Setting Mechanism.
+Servo Panel a associated equip.,
+Independent Variable Control _
+Circuit
+
+behaft Adding Units e Servos
+Output Table :1: Serve Panels
+Digit-Decade Differential-
+Ccmntere A: Sawmchanisme
+
+Main Power Supply. Oscillatorﬁtc
+
+ﬁ-mlﬁk‘”l4
+
+Integrator. Setting Mechanism
+Setting Mechanism Relays
+5-Sheft Differential
+Miscellaneous Relays
+
+ 
+
+Integrator 5: Setting lbchsnim
+Four-Shaft Unit
+
+J
+- J
+J
+J
+
+3.811331: Unit 1
+Western Electric Relays 452
+Multieontacter s 10
+
+New Automatic Electric Relays
+Used Western Electric Relays
+
+Crossbar Switches (10 vert.6 pt) 10
+" " (20 vex-LG pt) 5
+Multicontactcrs l'I
+
+
+Elec. 255' M.
+
+Elec. mag. Degt.
+
+ 
+
+Bloc. 255. Degt.
+
+ 
+
+Servo Laboretcﬂ
+
+Feedback Control Lab.
+
+ 
+
+222E _¥_An&1 515 £211»
+
+Eleo. E5. Degt.
+
+ 
+
+ 
+    
+
+Individual V Equipment Received Quen.
+
+Prof. T. F. Jones
+
+     
+ 
+   
+     
+
+Integrator an Setting Mechanism
+Decade Differential
+Counters
+
+Tape reeding ”chenill-
+
+     
+  
+ 
+
+ 
+
+_.._...______—__ ___—~—_______..——._ -...—___
+
+  
+    
+    
+      
+   
+   
+ 
+    
+ 
+      
+     
+   
+   
+ 
+    
+
+  
+
+Western Electric Relay-
+cronsbar Switchee(10 vert,6 pt)
+" " (20 vertA pt)
+mltioonteotore (60 pt)
+Stepping Switches
+Motor Gena-etc:- Set:
+25 hp Induction Motor
+481' Generator
+260v Generator
+Main Power Control Panel
+
+Prof. D. A. Huffman 118
+
+HHHH «mam
+
+  
+   
+  
+
+  
+
+ 
+
+  
+    
+ 
+     
+    
+ 
+   
+  
+
+ 
+    
+
+ 
+
+     
+       
+   
+       
+ 
+
+Prof. E. H. Bcehne Western Electric Holey. 70
+Crossbar 1
+Multiocntecta' e 3
+Mr. H. M. Tenger Western Electric Relays 258
+Crossbars (10 vert, 3 pt) 8
+Crossbars (20 vert. 4 pt) 6
+Prof. G. Newton Input Tables 2
+Mr. J. Ward Vector Units 2
+Prof. P. E. Smith Function Units 4
+Decede Differmtinle 2
+Dr. N. Seii‘ert 4
+Prof. c. E. Tucker Westwn Electric Relays 690
+crossbar Switches (10 vert,6 pt) 20
+Multiconteotors 60
+Motors 12
+22 gauge Telephone Wire.
+3200 ft. reels (cclor coded) as
+Mr. H. E. Laurence Digit Decade Differentials 6
+
+
+Instrmentation Lab.
+
+Flight Control Lab.
+
+ 
+
+Acoustl cs Lab .
+
+ 
+
+Naval SuErsonic Lab.
+
+ 
+
+Rocket Research Soo. Mr. B. Wozniak
+
+ 
+
+Tech Model Railroad Mr. W. J. Eccles
+
+ 
+
+ 
+
+  
+
+Mr. G. L. Emerich
+
+ 
+  
+
+ 
+  
+
+Western Electric Relays
+Crossbars
+
+Multiconteotors (10 verb.)
+Terminal Block‘s
+
+Servo Panels
+Relay Control Panels
+Digit Decade Differential
+
+Tape Punch Unit
+Tape Reading Mechani-
+Rolls of 76 m. Paper Tape
+
+Digit Decade Differential
+Servo Panels
+Multicontaotors (60 pt.)
+Crossbars (4 pt.)
+Western Els otrio Relays
+
+Western Electric Relays
+Dunno Power Relays
+Multicontactar 3
+Terminal Blocks
+
+Panel Lights to Sockets
+Misc. Wiring and Panels
+
+W. E. Type U Relays
+
+Mounting relay strips
+Multicontactars
+
+Terminal Blocks
+
+slaw Release 24v relays
+Telephone Jack Strips & Switches
+Misc. Couponszts
+
+        
+       
+   
+    
+  
+
+    
+ 
+     
+   
+     
+ 
+
+950
+
+
+-75..
+
+Equipment Received Quan.
+
+G. E. Transformer 37.5mm
+zaoo/nsv single ,6
+
+G. E. Transformr 8511”.
+2300/1157 Single 16
+
+G. E. Trmfomer IOKVA
+2300/250/115v Single :5
+5 hp Motor and Compreuer
+O-S Cubicle
+
+5 hp 230v Motor
+
+$15,000 Preclpnron ind uncut“
+oquipont I
+
+     
+     
+     
+   
+     
+ 
+  
+
+ 
+   
+  
+
+Group Individual
+
+Building and Power
+
+   
+
+Mr. J. Barraford
+
+
+5.1 mm WIVES!“ WHTIONS
+
+ 
+
+The Division at Engineering Sciences et Purdue Univoreity egreed to
+supply the necessery unpower to dimntle the couponents in which they were
+interested. or course. they sllo agreed to ye, sll cents eeloeisted with the
+trsnnportetion of Mid equinent to Lafayette, lndinnn. Aeoordinxly, Profes-
+eors Geld-och”, Anderson end It. Coon arrived at the Institute on October 7
+to usist with this work. In spptoxinstely one week their portion of the
+ssohine bed been die-untied end suitshly packed on! noted for mile: ship-
+sent to Xndisnn.
+
+In connection with the work performed for Mus University. Professor
+Gelbseher requested the expenditure o!:.oertsin labou- nnd neteriel expenses.
+rol- ens-pie, the enie'ries of electric“ technicians. carpenters. steel cutters,
+cost a! labor, etc., were expenus which we're suthorined with the definite
+nnderetending that Purdue University would reimburse ILL'I‘. Tehle l! oentsins
+
+s hu-eeﬂown 01 this type of expense snd indicates the multitude of the invoice
+($923.42) which hes been onh-itted to Purdue for psyeent.
+
+TM 11
+
+     
+      
+ 
+
+RDA mu. nuns-1mm BY PM!!! mumsm
+
+   
+
+llectricsl Technioisns Totel
+
+CIIIIind, Joe $ 92.12
+600.. John 46 83 178.41
+
+   
+    
+       
+ 
+
+   
+
+ny, niohnrd 13 4 38.00
+Sou-s. Jsch 10 21.90
+Sin-n. A1 35 58.10
+
+     
+ 
+   
+   
+
+$386.53
+
+1202'
+
+Inge: 56 24 345. 51
+Stock and llnterials no. 98
+
+ 
+
+Steel Workers
+
+Inge- 0
+
+ 
+
+ 
+
+MAL m 174 81
+
+
+5.3
+
+In penning, it ney be well to eention thet the entire DA wee die-antled
+and largely reeoved iron the praises during a two-week period covering October
+4 - 16 inclusive. A later section oi this report contains a. detailed etatnent
+regarding the cost of theentire diaeentling and renovel operetion.
+
+Purdue University intends to utilise their portion oi the and for educational
+treining end reeeerch. end as such, they hope to have their nachine inetelled
+end in operetion et the beginning of the spring eeeeeter. In this connection,
+it in well to enphesine that although the physical nechine cmponenta heve been
+delivered to Ben-due, it in still necessery to provide thee with adequate circuit,
+eechine coeponent, etc. wiring diegrene which will enable thee to reusable the
+eechine properly. 'Ihie neens that wiring diegreee, etc. .have yet to be photo-
+etated and releesed to than for their use.
+
+in addition to the run iecilitios. Purdue is procuring e fairly large
+instelletion otelectronic analogue equiwent. In feet, ”0,000 worth of Good-
+year equip-out hes been ordered. The Purdue Statisticel Division (which operates
+a eoderete-eixe punched-card instelletion) hes recently received en intermediate
+eiee digital cuputesr in: the Connolideted lugineering coupeny. Professor
+Geld-echer node the following etetuent ebeut their plans: ". . . Purdue does
+not intend to rﬁein behind in the rapidly-expending field of anelog and digitel
+
+coeputetion. . . It is evident thet the University bee e rather enbitions long-
+renge plan.
+
+arm INSTITUTIONAL WATIOFS
+
+ 
+
+ 
+
+In eddition to the nia- contribution to Purdue University, the University
+of Connecticut, IIrhe Franklin Institute (Philadelphia), .the lluseI- of Science
+(Boston), the Graphic Arts Reeoerch Foundation (Ca-bridge) received various
+coaponents iru the m which will he need winerily for educetionel training,
+teeching. and research. Since severe]. o1 these groups ere nuns-e, certain
+choice portione of the Anelyner were releeeed to the. in order thnt they night
+
+serve es cherecteristic nuseu pieces iilustreting the ntete of art prevalent
+on the RDA.
+
+in addition to the ebove—eentioned educationel institutions, e considerable
+amount of neehine coeponents, notably vecuuu tubes, resistors. relays, etc. were
+donated to Bel-out High School. This equipent is to be used as pert oi the
+Vocationel Training Progra- in radio and electronics which is being preeented
+at the high school level. This contribution should achieve a very useful educa-
+tional purpose.
+
+I.I.T. RESEARCH moms
+
+ 
+
+It is also evident from Table l thet e umber of l.I.'r. projects have
+received cmponente iron the RDA. In oertein cuss. e.g. , Dynalic Anelysil
+Control l'ebm-atm-y (DACL), Flight Control laborntory (ran), Servo-menin-
+laboratory (me), Acoustics Lehoretory. etc. , the coeponents will be incor-
+porated into other conputing nachinee. In other ceses, the equipment will be
+used for graduate thesis research. This in largely true for all the equip-out
+releeeed to various neebers of the Electrical end Aeronautic“ Engineering
+Projects.
+
+
+5.4
+
+ 
+
+   
+
+ 
+
+-10-
+
+In eddition to the ILLT. ecedenic projects. e certain am of xeleye
+end ninccr ”chine couponente were released to severe! etndent orgeninetione:
+the Rocket noun-ch Society. The Tech Iodel Beilroed, etc.
+
+mmxmgmmwnwmnm
+
+ 
+
+Table 1!! contain- e deteiled hreekdown of the nI-her of waking hem-e,
+hourly retee. etc. for the personnel on well ee other expeneel which hnve been
+incurred on the RDA under Account No. 1979.41. lhen one considers one of the
+origin! eetiutee which were nude concerning the can of the ml of the
+m, the mount $2638.69 in indeed e relatively seen nu.
+
+It not he understood thnt uperetione of this type naturally require
+coneidereble tine of cert-in ehinietretive peremel which; at conree, do not
+directly~ eppeer ee expenee 1m in the ebove Teble Ill. ﬁne. the above-
+lentioned cent of RDA run! in elightly nielending.
+
+um III
+
+.... .-..__....._..._...m»..-..~ ..—..............
+
+mmmmwxmmm
+
+Home Bulb
+:33. Owes-tine Tote!
+
+Ilectricnl Techniciene
+
+Geuield, Jo. 80 29.25 38.2.80
+Gooe . John 198 155.25 944 . 40
+Kay, Bichu‘cl 70.62 141.24
+Sou-l. Jock 80 175.20
+Sl-I, A1 10! 186.94 $1690.58
+
+3345 . 51
+Stock end Materiel!) 118 . 98
+
+Steel Workers
+
+Inge:
+
+amnion
+
+liecelleneone
+
+ 
+
+Telephone, felon-ear, Interiele 50.00‘
+
+MAL mm. 0081' 32838.59
+Lone Purdue Expenses 928.42
+
+mm l.l.’!'. COST $1715.17
+
+iteti-eted coet
+
+
+-11-.
+6.0 DISMITION OF THE RDA “MEIR! SHOP
+
+ 
+
+'hen the lnntn-entntion Laboratory stopped using the RM on July 1, 1954,
+it we no longer Maury to ninuin the nchine shop in 1 402 for EDA lair:
+tunnce. Accordingly, an or the equipent in the RDA mp. ehich lad been
+purehued during the 4-year intern! that Intrmtntion 1..th opernted
+the ehop (1950—1954), was returned to the tutu-negation 1.3mm,
+
+Table IV contain- 1 lietof the «nix-eat vhich n: returned to Ir. 1‘.
+J. Ryan, property officer, on July 1, 1954.
+
+WIV
+
+., m wu—--vv~s’l\‘re~‘~4n‘r
+
+RDA SHOP INHIBIT RETURNED '1‘0 INSTRMNTATION uncanny
+
+Descrigtion
+
+4 Drawer leul Letter File
+Linley Verticnl lining Inchine coeplete
+with Itnndn-d equipment including cri-
+
+terion boring head with adapter and 6
+conetn
+
+Floor—type Pan 783-3
+Nichole Dividing Bend (Berinl #A-1536) 733—4
+Nichols Swivel-bane Vine 783-5
+16" Desk-type Fan 183-6
+liner Cooler 822-3516
+llnrchnnt Calculntor 4.3062
+lint-chant calculator 822-287
+In! Typewriter 7139—110
+
+IBM Typewriter 822-3673
+
+
+-12-
+
+At e conference held on Key 24, 1354. attended by Professor c. Flee,
+been Ben-inn end P. Verzuh. the disposition of the capitol (code. neehines,
+stock end neteriels. etc. eveileble in the RDA whine shop wee eon-idered.
+It was decided thet the m shop equip-eat wen to he mm to loo- 10-481
+when-e it will he temtiveted on I shop to he need in connection with the c.-
+petetioeel setivities which here been recently transferred to Building 10.
+‘Proteeeor G. B. Brown expects to use e nechinist tru the llectricel Incineering
+shop to mine the new shop.
+
+- Not ell e! the equipent eveilehie in the RDA Shop hen been noted to
+Boon 10—481. For ample. en Allen Drill Press model no. 2) wes given to Ir.
+lsllenhech of the Physics Shop moon 8—014) It the direction or been Eel-risen.
+
+Tehle V conteins e list of the principel pieces of enehine shop eqnipent
+which were moved to not. 10-481 on N31 15, 1954. In eddition to theee cepitel
+goods. I considerehle mount of eetsl etoch end neteriele ($1485) wss elso
+trowel-red et thet tine. The entire tecilities of e 3-Illl shop (working benches.
+netsl cehinete, tools, equipnent, etc.) were eloo trensferred inteet to the new eree.
+
+     
+     
+   
+   
+   
+   
+   
+   
+      
+ 
+   
+   
+   
+   
+   
+   
+   
+   
+ 
+    
+ 
+
+ 
+
+Tm v
+mm name Show mamma- mxsmmm T0 now 10—481
+lodel Pun-chele
+Descrigtion lo.
+Vsn Noreen mung mm. 12
+South Bend Lethe 181A
+
+3/4 hp. 3 phnne, 220v Iota:
+Iotor control unit
+
+Collct drew her. center teat
+
+6" 4-an independent chuck
+
+5" S-Jew univeteel chuck
+
+#2 Everedo boring her holder
+
+3 boring here
+
+1/2" Jacobs drill chuck end arbor
+
+Pratt & mime] Lethe
+sun-kc Lethe no")
+Johnson Cut off bend sew
+Dunore Grinders
+Walker Turner Drill Prea-
+Floor-type Drill Press
+Bench Hester Punch Press
+Reed Surface Grinder
+letel Cabinets
+
+Complete line of nnxiliery equipent
+for ehove
+
+
+7.0
+
+8.0
+
+ins-rum 8PM M110]!
+
+ 
+
+ 
+
+The renoval e! the am will naturally serve to release a nunhor 0! bays
+of space in Building '1. Speciﬁcally, 2450 sq. ft. of spoco hove been released
+as a result of the reaoval of the RDA The following breakdown indicates the
+space involved:
+
+ 
+
+8:! Area (5. 11:.)
+7-303 (3) 700
+7-30! (4) 1‘00
+3-339 (1) 850
+2450
+
+l. s latter of fact, the aacbine shop vhich Ionsny occupied the two bays
+in 7—303 has already been transierred to Ron 10—481 end the two bays in
+7-309 are currently occupiod by tho Mucational council.
+
+The mining 5 boys of space (1750 sq. it.) are to be occupied by the
+Architecture Departuent. The receipt of this 2500 sq. it. of space should
+
+> certainly help to slleviste their space require-en“.
+
+mus ION
+
+This l-orsndun contains sons of the facts associated with the r—ovsl oi
+the RDA. A brie! description oi the historical background or the aaehino, a
+
+survey of its applicstions, and disposition of various cuponcnts are described
+in considersble detail.
+
+A breakdown of the expenses incurred in this operation isgiven. and it
+is of interest to note that only $2838. so was required to renovo this "200- -ton
+giant" Iran. the 11.1.7. preaisos. Perhaps of equal interest is the root that it
+only required tie-nan deys lover s 2-week period) to acoosplish this removal
+
+it is hoped that this report contains sufficient information to properly
+acknowledge the finsncisl "stance received iron the Rocktellor Research
+roundstion. Further-ore, it should serve on 3 record of the disposition of the
+equip-out contained on the nachine. in this regard. it is perhaps well to non-
+tion that an entire poser plant facilities notably, power trensi'orners. s aotor
+generator set. an air compressor, a precipitron unit, etc. . have boa given to
+Buildings and Power for other ll. 1‘. use.
+
+In closing. it is evident that the RDA has served u very useful purpose
+in the institute. However, like all things, it hsd s linited lite and certsinly
+had becue obsolete by existing standards of the large—scale conputing equip-out.
+It is therefore only proper that it should be removed end that other nodern
+conputing oquipaent be installed to serve in its place.
+
+F. u. Versuh
+Nova-her l. 1954
+
+
+BIBLIWRAPBY
+
+ 
+
+Bo amt on the l'om-~Shnrt Adder Un_1_t, Jun-r1 9.1950.
+
+ 
+
+ 
+
+2.0 Grunt-an, H. P. A_n_ Mutt-nut: Curve rollover to:- El: ncctro-Qchunul
+Diltuontul A1312”, I. 8. Thou.- 1n Bloch-1M1
+Engineering. 50pm 1950.
+
+3.0 Vmuh. F. I. my: on t__ho Voctar Unit Guava-lion Mien,
+8011th 1950.
+
+ 
+
+ 
+
+ 
+
+4.0 Vonuh. I. ll. am; Boat o_f_ Contex- out m1!“- Activittu on
+Alc Con____tr__nct dun-15 mica —ﬂ 1,1919-lJoo.31I 1M9.
+
+ 
+
+5.0 Vmuh. I'. ll. 8.”! ME— 0: Ccn____t__or o_1_ All-121' Activities Ester-pd
+1—0:- th. A3: utu-1.1 c__:-___nnd dur15__ tho Ported Jun ml
+
+1, —19—56 — 8.21:.” 30,1950
+
+ 
+
+   
+
+6.0 cudnn. 3. ll. Honor-mil- cmmggg'l‘rnnuor g! RDA 1.2 1th. Inch-mutton
+Laban-“orb Jul! 22I 1950.
+
+

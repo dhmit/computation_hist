@@ -1,0 +1,59 @@
+-3-
+
+gggg £93 Parallel Development in the Social Sciences - The work
+
+we have proposed for support by'NSF_an IE‘EE“E€ primarily for
+applications in the physical sciences. But the potentialities of
+machine computers in the social sciences and in operations research
+has equal or greater promise. In economics, in management problems,
+in some aspects of psychology and in other fields, the data is
+large in quantity, often requiring much statistical processing
+
+and special display before its purport can be understood. Many
+mathematical techniques, now being developed for these subjects,
+require tremendous amounts of computation before they can.be
+applied to specific problems. Although the appropriate machine
+techniques and the special input—output equipment have not been
+investigated very completely, it is already char that they will
+often differ considerably from those devised for the physical
+sciences and should be investigated separately, in close collabora-
+tion with specialists in the social sciences. The grants requested
+of NSF and ONR will not support the detailed theoretical study and
+special equipment development which this research will require.
+
+It is, therefore, appropriate and desirable that a re-
+quest be made for a separate grant for the development of machine
+techniques useful for these fields. We now have, at M.I.T. and
+in the neighboring colleges already planning to use the Computation
+Center, a variety of specialists in the social sciences, who would
+be interested in collaborating with the staff of the Center in
+developing such techniques} Funds for the support of specific
+studies, in particular fields, can and should be requested and
+granted separately. But there is need to support the work of the
+Center's staff in devising new techniques, in adapting known tech-
+
+niques to new fields and in helping social scientists effectively
+to utilize digital computers in their studies.
+
+Possible Directions for Research - It is not possible at present
+to enumerate in detail the directions this investigation of computer
+
+techniques will take. Several promising leads have already aroused ‘ﬁ'
+
+interest, however:
+
+1. A basic investigation of the machine techniques for
+computation in the general field of linear programming—~dynamic
+programming—uinput—output analysis, which promises to be of con-
+siderable importance in economics and in operations research. The
+economics departments at both Harvard and M.I.T. are interested
+in applying such techniques to their work. Professor Orcutt at
+Harvard and Professor Solow at M.I.T. are on Advisory Committees
+to the Computation Center and will cooperate in this work. The
+computations are quite difficult for present equipment but it
+appears likely that new programs, planned to utilize the considerably
+greater high-speed storage of the new machine, can greatly improve
+the speed of Solution. It is likely that fundamental improvements
+in techniques of solution of these problems will also prove valuable
+
+i

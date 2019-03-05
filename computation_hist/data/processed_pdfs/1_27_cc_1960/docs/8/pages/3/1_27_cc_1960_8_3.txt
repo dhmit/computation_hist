@@ -1,0 +1,41 @@
+M.I.T. Computation Growth Page 3.
+
+courses were taught as senior and graduate electives. This
+
+year, for the first time, over 200 freshmen are being taught
+programming. The impact of this and similar groups is
+
+bound to be felt in an increased number or users in the next
+few years.
+
+Before extrapolating out into what H.I.T's needs will
+be, let us take a closer look at the major users as of to-
+day: In general, these people are using advanced program-
+ming systems, such as LISP (for symbolic manipulation),
+DYNAMO (for industrial dynamics), COHIT (for language trans-
+lation) and FORTRAN (for mathematical computation) rather
+than basic machine codes such as SAP. These programming sys-
+tems were explicitly designed to make problem statement and
+programming far simpler, by placing most or the detailed
+coding responsibility upon the machine. As a result, people
+are attempting more ambitious (and time consuming from a
+machine point or view) projects, The exploitation of these
+systems is, in general, in its infancy.
+
+Not only are time requirements growing, as can be seen
+from a typical set or problem growth curves on Figure (h),
+but in many cases, the capacity or the 704 is no longer suf-
+ficient to handle certain classes or problems, even with an
+immoderate amount of running time.
+
+The reasons for this become clearer if we take a closer
+look at the types of research problems of current interest.
+These problems seem to fall in the following general areas:
+(a) Nonlinear partial differential equation problems with
+more accuracy required in a finer mesh of volumn cells; (b)
+Simulation problems involving more variables and parametric
+variations; (c) Generalized language translation problems
+involving large vocabularies and contextual meanings; (d)
+Simulation of intelligent behavior, problem solving, theorum
+proving, pattern recognition, analysis; (e) Man-machine in—
+teraction; (f) Large scale data reduction; (3) Optimization.

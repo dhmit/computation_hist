@@ -18,8 +18,7 @@ function expand_text_area(id) {
 
 function start() {
     general_start();
-    computer.general_memory[4].fixed_point = 12;
-    computer.general_memory[5].fixed_point = 30;
+    computer.general_memory[101].fixed_point = 1;
     expand_text_area("code_box");
     update();
 }

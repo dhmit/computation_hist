@@ -1,0 +1,61 @@
+STABLE LATTICES
+PART 11
+
+HARVEY com
+
+10. Introductlon t? Part 11- The 'most interesting cases of stable lattices,
+introduced in an earlier volume of this Journal (12), were the (algebraic) mod-
+ules of stable norm, or modules whose ratio of minimum absolute nmrzero
+norm to lattice determinant (1e, to the square root of module-discriminant)
+is a local maXimum for small variations of the basis. We soon found that these
+modules were perhaps more numerous than we should have desired if we were
+interested only in ﬁnding an absolute maximum. Nevertheless stable lattices
+acquire a certain amount of intrinsic interest once we reach the stage where the
+wm‘inuau: variable concept of “neighborhood of a lattice” leads to algebraic
+criteria of stability. In both these respects the situation displays some similarity
+to the more classical subject of extremal (quadratic) forms (2). 1
+
+If the module in question is the module of all integers (i.e., the so-called
+integer-module) of a Zola/1y real ﬁeld of degree n, then the criterion of stability
+depends on the relative signs of the conjugates of the units. This is a specializa»
+tion, (weaker when n > 3), of the classical concept of “(maximum) signature
+rank 2"," used by \Veber (13) for instance. We shall merely show, as a signiﬁcant
+illustration, that the integer-module of the totally real ﬁeld KN : R (cos 21r/1V),
+over the rationals R, has stable norm (except for a few small N).
+
+If we consider ﬁelds that are not totally real, the classical problem of signature
+rank becomes vacuous for the imaginary (conjugate) ﬁelds while the stability
+criterion that we use becomes more complicated. We shall, however, demon-
+strate a reﬁnement of the “unit star” method of Part I (12; p. 265), to obtain a
+criterion that can be readily used to test more general modules. We shall carry
+this through the cubic case.
+
+The big difﬁculty arises when “too many” roots of unity occur. We shall,
+therefore, consider as a ﬁnal example the integer—module of the cyclotomic
+ﬁeld It"V : R(exp 27i/N). This module turns out to have a stable norm if and
+only if N is square-free. This result, which essentially uses the presence or ab-
+
+sence of a normal basis for KN, should further attest to the algebraic aspect of
+stability.
+
+ 
+
+11. A totally—real illustration. If we specialize somewhat to inn-gur-
+inodules of a totally real normal ﬁeld K, then the criterion of stability (of the
+
+Received September 29, 1953. Presented in the American Mathematical Society September
+2, 15152. Research sponsored by the Ofﬁce of Ordnance Research, [7.5. Anny, under conrraci
+DA—ZILUl8»ORD712332. . . _
+
+The bibliographical items and section headings are numbered consecutively With items in
+Part I, otherwise referred to us (12).
+
+ 
+
+ 
+
+26.3
+
+'uiun‘a'v‘v
+
+qq

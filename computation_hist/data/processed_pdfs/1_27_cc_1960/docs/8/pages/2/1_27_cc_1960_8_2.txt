@@ -1,0 +1,39 @@
+I.I.T. Computation Growth Page 2.
+
+into this time, but the New England Colleges, starting from a
+much lower initial usage have all but tilled their half of
+the machine as well. v
+
+Before we explore our future computational requirements,
+it is extremely important to closely examine the causes for
+the growth in usage. Figure (1) illustrates that h.I.T's
+usage has steadily grown until it has effectively plstesued
+on the total time available to it. The corresponding curve
+for New England Colleges, Figure (2), has followed a similar
+pattern. but with a smaller growth rate. A much more illu-
+minating picture is seen if we note that for the past two
+years, M.I.T. has had an almost constant number or users,
+about 200 or them, in the sense of active problems. Over the
+same period, h.I.T's use or machine time has continuously
+risen until it is new at saturation; An analysis of the dis-
+tribution of problems sizes for the period January-June 1959.
+Figure (3), shows that the large bulk or users are taking
+small amounts of total time for their computation and are
+thus aooouting for only a small percentage of the total load.
+The bulk of machine time is going to “larger" users who oom—
+prise a small percentage corresponding to the total number of
+users. The major growth in machine usage is thus due to the
+larger users (who, in general, correspond to M.I.T. research
+groups rather than thesis users) who are requiring increas-
+ingly large amounts of time for their work. They are also
+the hardest hit by curtailments in time.
+
+One possible explanation for the relatively small num—
+ber of users (out of the total M.I.T. population) is that as
+of yet, only a small percentage of the M.I.T. Faculty are
+directly availing themselves of the computer. As more and
+better programming languages, in the sense of being more ef-—
+ficient and closer to the language of a specific field, are
+devised, faculty participation is bound to improve particu-
+larly in departments where the impact of computers has yet
+to be felt. Further, until recently, computer programming

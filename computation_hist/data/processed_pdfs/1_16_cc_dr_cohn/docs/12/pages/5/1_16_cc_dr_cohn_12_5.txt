@@ -1,0 +1,140 @@
+. COHN
+HARVEY STABLE LATTIcEs
+
+270
+. 12 265) We use the further set [V] to represent the projections Thus any linear relationship among VeCtors of th 271
+properties( .p. (1 < h < . relati0n5h1P§ among vectors in the indiViduai set e set {w} Will i
+of {W}. R! ,[Ziiil = {Vim \ \ 1 + dim[l,j])‘ we saw earlier, are triVial, by Choice of {U} for 5 [Will 0r in mp}? Such
+- ' 5 sm L; w ‘
+(14.5) R2 [ml] .1 {Vin (l < k < 1 + 25). Now the existence of Q + 1 [30 't' I all enough. éclgss
+‘ _ . _ . ' ‘ . Si lve y d ‘ - .
+Th rguments used will be qUite general (e.g., the values of the dimensionalities l 2(1 + dimllyjl) + (25 + 1) vectors [W] ETSEtdWCtors, chosen f
+ea ' . ' < r to
+are oi no importance?tile z m (1 < k 4 1 + 25) so that the 25 + 1 Projectioil ‘ ﬂagginaitrilispinﬂiigi :36: Lnaiiractice the difﬁcultie:inb::(i,a>bg.:nerai coniiixtii‘:
+. hose 3 . .- - , . V ' iamost lIi
+F‘rsmfanc :et [Vin are (Sum POS‘C‘VeIY dependent 0" @2) while the ‘ bibliography failed to list the work of giftiiiigliie‘ (Regreﬁaiiizyﬂiieseoﬂ
+0 0W (10 ' Llr earlier
+
+. ‘3 Th‘ b l .
+ent (In the larger space 6 )‘ ‘5 can 6 done by who seem to have used Similar c , )
+
+, . - . Onvexit ' and St . .
+0f §13 (ﬁber), smeebt'it‘e pfope‘r chPlCe.0f the The method of approxmating Drojectionsys arguments, '“ a differeiiimt2 05)
+h vector 9 Win 3T 1 rariy C 05.6 in direction units (5), seems to have not been used i ? natiira] With Dirichl ’ context
+{WES while some one [1,1] proiection of one previously.) etstheory of
+uch larger than this projection of all the other
+
+vectors of the
+vectors iwih ‘
+the approxima“
+mm {or each 12
+to the corresPO“
+
+are indePenCl
+on technique
+will render eaC
+ding vector in
+
+n be made m 15. Quadratic and cubic
+ca modules. The questim
+
+of Stabilit -
+
+ctorof lWlZs . , - (k)
+Icectors of my)” By this double contrﬁionefnéllle 312262; “(11mg kt: 1.+ 2:). real module has already been answered in P y in a t
+we preserve the positive dependence 0 . e s h 23 W .1 0i:2 aving the modules the answer becomes extreme! . art I (12' p. 269), For Orally
+tion remain Valid for t e 5% i ii: m @ . OnCe these We carry the investigation only as hr 21y mVOIgvm as the degree 7: Complex
+s S n = , increases
+
+hem ﬁxed for the remainder of the proof, Startin . 4
+. _ g With quadratic (Complex)
+mod
+Then for this E we can choose units UM"), ﬁrst of all that the norm assume its mininiililitiisiY we :nd that Stability req ‘
+at t ree ( uxres
+
+their negatives)Y lying on a circle with Center at the o:'Q+T1) values (and
+igin. his shows
+the
+
+lattice to be equivalent under rota ‘ .
+only stable quadratic (complex) m011u1:;0:,et:i:;e befitzlateral lattice. Thus the
+ﬁxid iiiwge’ and Q is the m of all integers, in R(exypt29i7/ri30dule 99’ when; p is a
+n l - . 7r .
+we now Show that for 6 small enough the PRU-mm? property is-valid, or that ,= 1' : file):7}:y:u;::dm::1iéﬁ'mm one real and ma complix canju ale
+any arbitrary (say) unit vector T of 6f] has? Pos‘tlverJECth“ 0'1 one or i iuch modules have stable n l icated earlier WithOUt mef (12 p 569): (n = 3'
+more vectors of the total set {W}. For if T lies wholly in the 6” projection, i the order D of 5m 11 orms. To see this we start with the obs i'lhai all
+the positive dependence of {Vim is sufﬁcient. On the other hand if T has a i real nor is any powei—as fone fundamental unit w = (M. W2, 10;) Neorvatmn' that
+non-zero projection in some other space 66mm then for 6 small enough some ﬁeld are rational Th? 102 real, Since the only real numbers in a co; 7102 IS “(it
+. 15 shows that the argument of 702 is incommiriiiucrggj:
+
+positive depen
+U25“ are chosen we keep t l
+ssi n a positive ang e e. . ~ .
+Next we a g that {V} L; are still positively dependent (for
+
+<1 s 1+ dimllijDv such . . .
+(lch [i ii) in the smaller space @d'mli'n the {W} "7 are linearly l“deparldent
+ea ' time, each vector of the set {W} 1,, is to make
+
+'n the larger space 6". At the same .
+ian angle <5 with the corresponding vector oi the set {V} L /~ This can be done,
+as in the preceding paragraph by the apprOXimation technique of §13 (above),
+
+ 
+
+Mun,“ '
+
+ 
+
+fﬁciently close in direction to an element of [V1 Ml,
+
+element of {W} i, , (being su
+must have a positive projection on T. By compactness, a single 5 should achieve
+
+this uniformly for all directions of T.
+We next show that for 5 small enough, the independence property is valid,
+
+or any Q vectors of the set [Wl are linearly independent. Consider ﬁrst the
+projection vectors lVl. Clearly any linear relationship among vectors in [VI
+must be decomposable into the sum of linear relationships among vectors of the
+individual sets {Vli,,and [V]2, (lying wholly in the corresponding projections
+@“‘"‘["’i and '5“). Now by continuity this will be true for vectors sufﬁciently
+close in direction to the vectors of IV}. The {W} 1.; immediately meet this
+condition when t is small enough (by our choice of the units U). The [Win
+will also meet this condition if at the same time that we make 5 small we stretch
+each of the 2: coordinates in 6“ to inﬁnity sufﬁciently slowly so as not to min
+the approximation 0i lwl L} to {V} i4. This will accentuate the 6“ prOiectiO”
+0f theﬁxed VECWS llei and (effectively) permit them to approximate [Vin
+
+with 21F and therefor '
+, e the direction f
+$1, $2, , ,_ a s o the complex vectors ”' —
+“gimme SE32 l: Zei‘f‘eiijheae dense mod 21r. Thus for every :2ny iiiiini— 0i
+Rim, each in twoidimeas t 6 same norm while the projections Ri i[z] R2 Tl?
+direction, thus estab“Sl’linnSitiImal space, are everywhere dense with respeci U;
+.. g ie ositi e ' ' '
+“will“, conﬁguration see (7) ) p v span and stability. (For an illustrative
+he criteria are dominated by the occurrence of units and
+
+combinations of ‘
+
+the subject of théiniLts whose arguments are commensurable with 2n. Here
+
+WEShall, hon/ever g'omctry of numbers must await more results in algebraY
+, give such a case as the ﬁnal illustration. '
+
+16' CyClotom'
+ic
+module in KN ﬁeld.
+
+"19 arizurneni
+(itnoﬁng the
+
+\Ve conclude b' - ' " ‘
+
+= R . ‘ _ 3' [)lOVll’lg the stabchly of the integer
+
+s of (flax: 2.?1/ N) 1f and only if N is squarevfree. Here we note that
+
+Conjugqtcmts u are commensui'able with Zr (14, p. 334). In fact,
+‘ ’Compiex Of It by 17, we ﬁnd u/ﬁ is always a root of unity

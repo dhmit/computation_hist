@@ -1,0 +1,50 @@
+Page 4.
+
+been connected to the 704, and
+hat allows the 704 to be time
+ise has been achieved between the Auto—
+
+  
+ 
+
+and a variety of users. Among the
+
+have been successfully time—shared
+
+l sharing has been proved feasible. (2) Several auxil—
+lary devices have been added to the 704 in order to test out
+their feasibility. Among these are a so called "Alarm Clock"
+which in the larger system will aid in accounting, prorating
+of time, and preventing a single program from monopolizing
+time. Among the others is a ”Light Pen" which can convert
+a scope into a drafting board for entering curves and fi-
+gures, and a paper tape reader which will allow data reduc-
+tion problems to be time shared. (3) An overall programming
+system for the time sharing called FMIS has been developed
+and is being used. This programming system while being de—
+
+ 
+
+veloped largely to serve as a means of communication be—
+tween programmer at a typewriter and his program, has also,
+in addition, proved that programs can coexist in memory with—
+out mutual interference, without the need of either a change
+in the logical construction of a machine, or by recourse to
+normal time consuming fully interpretive running of programs.
+The system, in addition, has broad applicability to the gen—
+eral problem of using the computer as an aid for on—line
+program testing (debugging).
+
+The largest, non technical problem faced by the project
+is to secure sufficient funding and staffing to carry out its
+program. Work is being carried out in laying out the overall
+
+ 
+
+research and development program necessary to achieve the
+system capabilities desired.
+
+With the present manpower and facilities at the disposal
+of the project, work is being carried out in the following
+
+(1,7,3.
