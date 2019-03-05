@@ -3,6 +3,9 @@ from IPython import embed
 
 ES_URL = 'https://search-cc-hist-pclno2kchnjcohcayb2n7g3eha.us-west-2.es.amazonaws.com/'
 
+# Experiment with Postman POST requests: https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop//%40
+
+
 class ESearch():
 
     def __init__(self, connection_type='local'):
