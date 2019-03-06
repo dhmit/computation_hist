@@ -707,6 +707,36 @@ class Accumulator extends Word {
     }
 
     /**
+     * Stores a number in floating-point format into the word.  The number will always be normalized,
+     * which means that the fraction will be between 1/2 and 1.
+     *
+     * Note: You cannot set a floating point number to 0.
+     *
+     * @param {number}  number      Number to be stored.
+     */
+    set floating_point(number) {
+        var sign_bit;
+        if (number < 0) {
+            sign_bit = "1";
+        } else {
+            sign_bit = "0";
+        }
+        let binary_rep = sign_bit;
+        number = Math.abs(number);
+        let exponent = Math.floor(Math.log2(number)) + 1;
+        let characteristic = exponent + 128;
+        binary_rep += convert_to_binary(characteristic, 10).substring(0,10);
+        let magnitude = number / Math.pow(2, exponent);
+        let magnitude_binary = (magnitude.toString(2)).substring(2,29);
+        length = magnitude_binary.length;
+        for (let i = 0; i < 27 - length; i++) {
+            magnitude_binary = magnitude_binary + "0";
+        }
+        binary_rep += magnitude_binary;
+        this.update_contents(binary_rep);
+    }
+
+    /**
      * Returns true if the Q bit is 1.
      *
      * @returns {boolean}   Q bit.
@@ -747,12 +777,12 @@ Accumulator.P = 2;
  * multiplying and division, and also for floating point operations.  More on this later when I
  * figure out how it actually works.
  */
-class MQ_Register extends Word { // currently just a dummy class
+class MQ_Register extends General_Word { // currently just a dummy class
     /**
      * Constructor for MQ Register.
      */
     constructor() {
-        super(0, 36);
+        super(0);
     }
 }
 
@@ -787,7 +817,7 @@ class Instruction_Register extends Word {
      *
      * Does not handle Type A, input-output, shifting, or sense instructions.
      *
-     * @param {string/Word}  word     Instruction to be stored in instruction register.
+     * @param {string/General_Word}  word     Instruction to be stored in instruction register.
      */
     store_instruction_b(word) {
         let result = "";
@@ -809,7 +839,7 @@ class Instruction_Register extends Word {
     /**
      * Stores Type A instruction into instruction register.
      *
-     * @param {Word/string} word    Word holding instruction to be stored.
+     * @param {General_Word/string} word    Word holding instruction to be stored.
      */
     store_instruction_a(word) {
         let result = convert_to_binary(0, 18);
@@ -824,7 +854,7 @@ class Instruction_Register extends Word {
     /**
      * Stores instruction into instruction register.
      *
-     * @param {Word} word
+     * @param {General_Word} word
      */
     store_instruction(word) {
         if (word.is_typeB()) {
