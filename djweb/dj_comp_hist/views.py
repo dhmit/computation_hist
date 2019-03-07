@@ -8,8 +8,8 @@ from django.db.models import Q
 from django.http import HttpResponse
 
 
-def index_arch(request):
-    return render(request, 'index_arch.jinja2')
+def index(request):
+    return render(request, 'index.jinja2')
 
 
 def person(request, person_id):
