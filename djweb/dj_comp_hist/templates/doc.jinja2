@@ -4,60 +4,43 @@
 
 {% block self %}
 
-    <h1>{{ doc_obj }}</h1>
+    <h1>You're looking at {{ doc_obj }}</h1>
 
 {% endblock %}
 
 {% block table %}
 
     {% if author_person_objs or author_organization_objs %}
-
+        <h3>{{ doc_obj }} was written by</h3>
         <br>
         {% if author_person_objs %}
             <table class="table">
                 <thead class="thead-dark">
-                <!--first row-->
                 <tr>
-                    <th scope="col">Written by:</th>
-                    <th scope="col">Recieved by:</th>
-                    <th scope="col">CC'ed to:</th>
+                    <th scope="col">#</th>
+                    <th scope="col">Author Name</th>
+                    <th scope="col">Link</th>
                 </tr>
                 </thead>
                 <tbody>
-                <!--second row. Contains author 1, recipient 1, cc'ed 1-->
-                <!--author-->
                 {% for item in author_person_objs %}
                     <tr>
-                        <td style ="text-align: center"><a href="/dj_comp_hist/person/{{ item.pk }}">{{ item }}</a></td>
-                        <td>
-                            {%if recipient_person_objs or  recipient_organization_objs%}
-                                {% if recipient_person_objs %}
-                                    {% for item in recipient_person_objs %}
-
-                                            <a href="/dj_comp_hist/person/{{ item.pk }}">{{ item }}</a>
-
-                                    {% endfor %}
-                                {% endif %}
-                            {% endif %}
-                        </td>
+                        <th scope="row">{{ loop.index }} </th>
+                        <td>{{ item }}</td>
+                        <td><a href="/dj_comp_hist/person/{{ item.pk }}">Link</a></td>
                     </tr>
                 {% endfor %}
-                <!--recipient-->
-
-    {% endif %}
                 </tbody>
             </table>
-
+        {% endif %}
         <br>
         {% if author_organization_objs %}
             <table class="table">
                 <thead class="thead-dark">
                 <tr>
-
-                    <th scope="col">Written by:</th>
-                    <th scope="col">Recieved by:</th>
-                    <th scope="col">CC'ed to:</th>
-
+                    <th scope="col">#</th>
+                    <th scope="col">Authoring Organization</th>
+                    <th scope="col">Link</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -65,13 +48,9 @@
                     <tr>
                         <th scope="row">{{ loop.index }} </th>
                         <td>{{ item }}</td>
-                        <td><a href="/dj_comp_hist/organization/{{ item.pk }}">{{ item }}</a></td>
+                        <td><a href="/dj_comp_hist/organization/{{ item.pk }}">Link</a></td>
                     </tr>
                 {% endfor %}
-                    <tr>
-
-                    </tr>
-
                 </tbody>
             </table>
         {% endif %}
