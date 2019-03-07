@@ -32,7 +32,7 @@ class Network:
     >>> network.visualize_network(no_nodes=20)
     """
 
-    def __init__(self, return_empty_network=False):
+    def __init__(self, return_empty_network=False, debug=False):
 
         # nodes and edges are dicts that map from node_name to a Node object
         # and from (edge_author, edge_recipient) to an Edge object.
@@ -42,13 +42,16 @@ class Network:
 
         # initialize network using the available metadata
         if not return_empty_network:
-            # metadata = get_metadata_google_sheet(return_type='list_of_dicts')
 
             # For debugging purposes
-            with open('computation_hist/data/sample_docs/verzuh_metadata.csv', 'r') as file:  #
-                metadata = csv.DictReader(file)
-                for document_metadata in metadata:
-                    self._add_document_to_network(document_metadata)
+            if debug:
+                with open('computation_hist/data/sample_docs/verzuh_metadata.csv', 'r') as file:  #
+                    metadata = csv.DictReader(file)
+                    for document_metadata in metadata:
+                        self._add_document_to_network(document_metadata)
+            else:
+                metadata = get_metadata_google_sheet(return_type='list_of_dicts')
+                self._add_document_to_network(metadata)
 
     def __repr__(self):
         return f'Network with {len(self.nodes)} nodes and {len(self.edges)} edges'
@@ -180,5 +183,5 @@ class Edge:
 
 
 if __name__ == '__main__':
-    n = Network()
+    n = Network(debug=True)
     n.visualize_network()
