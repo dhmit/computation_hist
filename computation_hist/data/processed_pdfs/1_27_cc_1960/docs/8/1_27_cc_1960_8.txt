@@ -1,0 +1,472 @@
+COH!UTATION GENTBR
+. Massachusetts Institute of Technology
+
+January 15, 1960
+
+M.I.T. Computation Growth '
+by
+Professor Herbert H. Teaser
+
+M.I.T's needs for computation have already outgrown the
+available capacity of the 704. The underlying causes for
+this disparity giVe every reason to expect that the situation
+will worsen at an increasing rate in the future. The outward
+manifestations of the situation are threefold: first, a queue
+of programmers awaiting a chance to run their problems on the
+70“ has developed with a one to two day waiting time for
+short runs; second, longer, more ambitious problems requiring
+five to six hours of straight running time cannot be easily
+fitted into the tight schedule and are thus discouraged;
+thirdly, in an attempt to minimize the lengthening queue
+which adversely affects programmer productivity as well asto
+equitably divide up a fixed amount of machine time among re—
+quests which are as of now approximately 30 per cent above
+available time, the center has resorted to a system of pri—
+orities and percentage cutbacks in time allocations. That
+this is not healthy cannot be denied, but there appears to
+be no long range solution other than to provide more computa-
+tional capacity, both through improved equipment and more
+efficient programming systems.
+
+The available time of the M.I.T. Computation Center must,
+of course, be shared with the other New England Colleges, wits
+one shift of machine time nominally assigned to the other Uni—
+versities. In the past, M.I.T. has been able to "spill over"
+
+
+l.I.T. Computation Growth Page 2.
+
+into this time, but the New England colleges, starting from a
+much lower initial usage have all but tilled their half of
+the machine as well. .
+
+Before we explore our future computational requirements,
+it is extremely important to closely examine the causes for
+the growth in usage. Figure (1) illustrates that H.I.T's
+usage has steadily grown until it has effectively plateaued
+on the total time available to it. The corresponding curve
+for New England Colleges, Figure (2), has followed a similar
+pattern, but with a smaller growth rate. A much more illu-
+minating picture is seen if we note that for the past two
+years, H.I.T. has had an almost constant number of users,
+about 200 or them, in the sense or active problems. Over the
+same period, 5.1.T's use or machine time has continuously
+risen until it is new at saturation: An analysis or the dis-
+tribution of problems sizes for the period January-June 1959.
+Figure (3), shows that the large bulk or users are taking
+small amounts of total time for their computation and are
+thus acccuting for only a small percentage of the total load.
+The bulk of machine time is going to "larger" users who oom—
+prise a small percentage corresponding to the total number of
+users. The major growth in machine usage is thus due to the
+larger users (who, in general, correspond to M.I.T. research
+groups rather than thesis users) who are requiring increas-
+ingly large amounts of time for their work. They are also
+the hardest hit by curtailments in time.
+
+One possible explanation for the relatively small num—
+ber of users (out of the total M.I.T. population) is that as
+of yet, only a small percentage of the M.I.T. Faculty are
+directly availing themselves of the computer. As more and
+better programming languages, in the sense of being more ef-—
+ficient and closer to the language of a specific field, are
+devised, faculty participation is bound to improve particu-
+larly in departments where the impact of computers has yet
+to be felt. Further, until recently, computer programming
+
+
+M.I.T. Computation Growth Page 3.
+
+courses were taught as senior and graduate electives. This
+year, for the first time, over 200 freshmen are being taught
+programming. The impact or this and similar groups is
+
+bound to be felt in an increased number or users in the next
+few years.
+
+Before extrapolating out into what H.I.T's needs will
+be, let us take a closer look at the major users as of to-
+day: In general, these people are using advanced program—
+ming systems, such as LISP (for symbolic manipulation),
+DYNAMO (for industrial dynamics), OOHIT (for language trans-
+lation) and FORTRAN (for mathematical computation) rather
+than basic machine codes such as SAP. These programming sys-
+tems were explicitly designed to make problem statement and
+programming far simpler, by placing most of the detailed
+coding responsibility upon the machine. As a result, people
+are attempting more ambitious (and time consuming from a
+machine point or view) projects, The exploitation or these
+systems is, in general, in its infancy.
+
+Not only are time requirements growing, as can be seen
+from a typical set of problem growth curves on Figure (h),
+but in many cases, the capacity or the 70h is no longer suf-
+ficient to handle certain classes or problems, even with an
+immoderate amount of running time.
+
+The reasons for this become clearer if we take a closer
+look at the types of research problems of current interest.
+These problems seem to fall in the following general areas:
+(a) Nonlinear partial differential equation problems with
+more accuracy required in a finer mesh of volumn cells; (b)
+Simulation problems involving more variables and parametric
+variations; (c) Generalized language translation problems
+involving large vocabularies and contextual meanings; (d)
+Simulation of intelligent behavior, problem solving, theorum
+proving, pattern recognition, analysis; (e) Man~machine in—
+teraction; (f) Large scale data reduction; (3) Optimization.
+
+
+M.I.'.l‘. computation Growth Page 1!.
+
+All of these seemingly disparate areas have very much
+in common. First of all, they no longer are primarily com—
+putational in nature. In general, they all have a 128!
+large information processing and retrieval aspect. That is
+to say that they all require almost s. random access to a
+huge amount of information and spend much time in reorganiz—
+ing that information. The penalty for lesser access times
+and smaller core memory is an inordinate cost in machine
+time. Secondly, these areas are all pointing in the direc-
+tion of not only computing an answer, but in repeating the
+process many times in order to gain a best answer and
+eventually toward gaining an insight into why it is the best
+answer. Clearly, a large number of small machines cannot
+answer this need. What is needed is a very large capacity,
+high speed computer that has large information processing
+capabilities and can be time shared, 1. c. multiprogramed
+such as a stretch class computer. the stretch has not only
+far greater memory and computational speed than a 704, but
+in addition, is a far more efficient information processor
+than the 70k which was designed to handle only numbers, and
+is quite poor at finding, or rearranging information.
+
+Let us examine a. few of the research areas that are
+currently hampered, and whose future growth is out of the
+question unless the general capacity that we have discussed
+is provided.
+leather Forecasting-Professor Charnez
+
+Weather prediction for a hemisphere of earth, using a
+very rough model takes on the order of 21% hours of 70“ time
+for a 24 hour prediction. The reason for this is that the
+model must take into account topographical features, heat
+balances, moisture contents, etc. at many many points, both
+at and above the earth's surface. Long range forecasting is
+thus clearly impossible on the 7014. As a result, progress
+in this area must remain slow until a faster machine is
+available.
+
+
+H.I.T. computation Growth Page 5.
+
+Molecular Quantum Mechanics-Dr. u. Barnett
+Dr. Barnett is attempting to predict through molecular
+
+quantum mechanics the chemical and vhysical behavior of
+gases and fuels. To handle even a simple case, involving a
+molecule of 5-6 atoms with, on the order or, 20 electrons
+would require about 50 hours of 70h time. The basic reasons
+for this order or time requirement is that the potential
+functions are highly specialized and complex, which in ma—
+chine terms requires a large amount or storage, easy access
+and very fast computation.
+Crystalogggghio Data Reduction~nr. K. Barnett
+
+Dr. Barnett is attempting to enable physical chemists
+to infer molecular structure from orystalographio data. The
+problem again requires large processing requirements because
+it is essentially an iterative process, requiring for each
+of the many possible molecular configurations, the computa—
+tion of electron densities that would correspond to the data.
+Since even the electron density computations are involved,
+and there are a large number of molecular structures with a
+given set of atoms, the time requirements are clearly beyond
+the 704.
+Solid State Physics—Dr. M. Barnett
+
+wo predict the electrical and mechanical properties of
+a metal or alloy from energy level considerations requires on
+the order of 15 hours. Since there is no limit to the num-
+ber of possible alloy combinations, this class or problems
+alone can clearly keep a very large machine occupied full time.
+Mechanical Translation—Dr. Yngve
+
+Until recently, Dr. Yngve‘s group has been occupied large-
+ly with development of a programming language for linguistics.
+The large scale usage of this language in solving research
+problems in translation have yet to be felt by the Center.
+As of today, even a moderate amount of translation (which re—
+quires mueh relatively immediate random access to a large
+dictionary and consideration of contextual meanings) would
+
+
+M.I.T. computation Growth Page 6.
+
+be beyond the availability or time on the 70“. Translation
+with a very large dictionary would. in addition, tax the
+Toh's capabilities. Dr. Yngve has not as yet been hampered
+seriously other than in the sense or slow programming pro-
+gress due to the existence of the queue.
+
+§zmbolio Manipulation (Artificial Intelligence Proieot-Dr‘s
+
+h. Minsyz and J. McCarthy
+Dr's Minsky and McCarthy have developed a language for
+
+dealing with logical and same type problems which as of yet
+are primarily symbolic (as opposed to numeric) in character.
+They are now engaged in applying this language to a large
+class of problem solving situations, reanging from chess to
+the proof or theorums. One characteristic of such problems
+is that they tend to require an exhaustive search through a
+large number of possibilities.
+
+The main hope in such problems is that the machine can
+either by itself or with on-line human assistance develop a
+rule of thumb (or heuristic) to short out the exhaustive
+search and trial procedure. This class of problems requires
+very fast information processing, combined with as large a
+random access memory as is possible to apply their tech—
+niques to any sizeable problem clearly can require up to
+weeks of 704 time.
+
+Experimental Physics Data Reduction-Dr. D. Caldwell
+
+Dr. Caldwell's work on determining the characteristics
+of hyperons (Lambda, D, Pi, Mu, etc.) involves the detection
+and computation of certain types of traJeotories from among
+10-100,ooo photographs or high bubble chamber tracks.
+
+This problem not only involves a large amount of data,
+but has strong requirements for the machine to recognize
+characteristic patterns. This type or process (although once
+the pattern is recognized the computation is small) can again
+severely tax the 704 facilities.
+
+
+———’f
+
+14.13:. computation Growth Page 7.
+
+Machine Design H Enter-negle- noes
+
+'Hr. Ross is attempting to use a human-eompnter system operat-
+ing in real time for optimum design. This'type or program not
+only requires a huge amount or program to match the machine
+
+to a human, but has a strong requirement for searching for
+optima and communicating back and forth. A problem with this
+much or a requirement for both speed and in:ermation capacity
+cannot at present is successfully time shared on the 70h. In
+addition to the large blocks or time required, no other useful
+work can be done by the 701; while the humenudeoieion is gov-
+erning. ‘ ' ' ' ‘
+
+Machine Ihiggigg-Dr'e logger, BarnettI at. al. .
+
+Many separate individuals and groups, not tied in with
+
+the Artificial Intelligence Project are working on problems
+
+of Pattern Recognition, Machine Induction and Analysis, and
+Problem Solving by Machine. Although the approaches are
+widely different, they all share a common requirement for
+high speed, large immediate access memories, and large auti-
+liary storage requirements which make them relatively in-
+efficient and non feasible on a 704.
+
+Industrial EXE§E1°51 0.3., EconometricsI etc.-Dr's Pugh,
+
+BarnettI et. a1.
+Problems of Nonlinear Programming, Scheduling, and
+
+Industrial Dynamics are becoming larger, and consequently re-
+quiring almost an order of magnitude increase in speed and
+capacity. Problems of Parametric Variation and "insight" by
+requiring many fold iterations of already long procedures are
+bound to make the situation even worse.
+Time Shari Pro ect classroom and Remote Com uter Us 3 For
+Education and Research-Dr. H. Teager
+
+It is clear that the need for computation is growing
+and spreading out at M.I.T. Its use as a classroom ad—
+Junct, while as yet unproved, has definite possibilities.
+
+
+M.I.T. Computation Growth Page 8-
+
+The large problems described, as well as the smaller but
+more numerous problems should not be preempted from the com-
+puter because of compsttng time requirements of very large
+users, including cn-line users. These requirements, when
+combined with the need to minimize the waiting time to
+actually state and run a. problem on a computer dictate that
+a large machine, capable of tine—sharing or multiprogramming
+be available. It further dictates that this machine must
+have a very large immediate and backup random access storage,
+in order to successfully keep many simultaneous customers
+content with a fraction of its capabilities.
+
+Our present research in time sharing on the 70“ shows
+that a machine can be successfully used in this fashion, and
+that the requirements for extension to a full blown system
+with a large number or specialized input output devices at
+remore locations point in the direction of a stretch class
+computer. A large number of small computers are not equiva-
+lent both in the sense of having less capacity available to
+the user and in the sense of the cost of computation.
+
+
+gﬂflg J
+all"; u
+Edi/Ill 4 A
+all/l; u
+rill/lllllll 3
+gig J
+Ell/1 N
+Ell/1 o
+rill/IA. s
+if” A
+rill/lg a
+gig, a
+Ear/1%;
+gill/AC. A
+7/47? u
+ﬁzzy/J ..
+gar/dz?" J
+2/ n
+VII/I47. N
+gill/J 0
+
+3A
+
+0 0
+
+1959
+
+ 
+
+HOURS
+
+ 
+
+ 
+
+ 
+
+USAGE 1§_HOURS
+
+1958
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+I.I.T. MONTHLY
+
+ 
+
+N. E. COLLEGES MONTHLY USAGE IN
+
+1957
+
+20
+15
+10
+5
+200
+150
+100
+50
+
+T
+
+ 
+
+ 
+
+in Hours
+
+age
+
+ 
+
+Table 1. 704 Us
+
+
+£7; 0/0342:
+,occodvrzé 4,;
+
+MM .41 Juan
+
+Percentage of Ulorl
+
+     
+
+A n
+J, g .A
+Size of Problem "‘
+
+2174/“? /a/r [Qt r/do
+
+   
+
+'ﬂza’w 3
+
+$05184er 4/ 7r ’/
+4/4“: b} 445“” 4/.“
+
+s :2“ "é'""?i“”’
+
+J: $ J, A
+
+N 9) RI v
+ww- fw ‘m;
+
+ 
+
+so ,___~,,_V 7777777 . .. _,_«_. . 7-
+Z/E/hgu/xud 0/ way/m
+Away? zit) f‘rv’z‘pﬂn/ 5/44.
+3 20
+3-1
+9
+a l
+1"
+A 5
+D .-
+i 1
+u I
+° 2
+0 10‘;
+3’ ‘2
+...
+a ‘
+o ,
+O K
+I!
+a 9
+i
+i
+0L2;- ,
+\
+.14 I
+o 3
+
+ 
+
+Size of Problem
+
+ 
+
+53% (54'; '
+1.1% {1‘ #52:: By
+
+

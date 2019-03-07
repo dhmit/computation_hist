@@ -1,0 +1,43 @@
+C©PY
+
+October 17, 1957
+
+Dr. Joachim Ueyl
+Office of Naval Research
+Washington 25, D. C
+
+Dear Joe:
+
+Last time I saw you, you said that, if there
+were any mathematics research, which would be done using
+our new IBM 704 here and which needed a. modest amount or
+support, you would be interested in hearing about it and
+you might be able to support it.
+
+The enclosed proposal, by Prof. Kemeny of ‘ ,
+Dartmouth, appears to me to be of this sort. Prof. 1-
+McCarthy, one of the ova-workers mentioned in the pro- ‘
+pcsal, is here at the Computation Center on leave from
+Dartmouth, to get thoroughly acquainted with the machine
+and with our staff, so if the proposal is supported, he
+could do the actual machine testing here. The planning
+and the logical analysis could be done at Dartmouth.
+
+ 
+
+I don't know whether recent budget cuts mean
+you can't support new work or not. If your hands
+are tied, mail this ack to me soon, so I can try other
+sources. If you still have some freedom and are inter—
+ested, I suggest you write directly to Prof. Kemeny for
+further details.
+
+Yours ,
+
+Philip M . Morse
+Director
+
+PMMxLWH
+cc: Prof . McCarthy
+
+

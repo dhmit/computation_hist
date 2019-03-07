@@ -1,0 +1,59 @@
+Extension of NS? 029% Page 6
+
+Enclosure 3, continued
+
+card-punching, testing and running of their problems. We
+estimate $50,000 a year can come from payments from other
+
+grojects for the programing service described, leaving about
+70,000 a year to be obtained from other sources.
+
+The Rockefeller Foundation has granted the computation
+Center about $100,000 for three years, beginning July 1, 1957,
+for the support of a staff to investigate applications of
+digital computers in the social sciences. Thus only about
+$35,000 a yearis needed to complete the support of the center
+staff, enough to support that part or the staff concentrating on
+the physical science aspects of the activity. In order to get
+our plans well under way, this grant should be continued for
+about three years (as' with the Rockefeller grant), after which
+
+the program should be re—evaluated to determine needs beyond
+that date. ~
+
+Wm - Mylo Initial Qirections of Investigation
+
+1. Investigation of Structure and Syntax of input languages;
+
+the possibilities of coding directly in mathematical, logical or
+business language. ~
+
+2. Development of routines capable of translating from
+algebraic notation to computer code and vice versa, including
+
+possibly automatic selection of numerical techniques and auto-
+matic error analysis.
+
+3. Development of numerical analytic techniques particu-
+larly suitable for use by digital computers; such as more
+general expansions, truncated Chebyshev polynomial sums for
+simulating standard functions by a common block of instructions
+but small separate blocks of coefficients and cycle counters and
+methods of automatic determination of best grid spacing, by trial
+plus Richardson extrapolation or other means.
+
+4. Investigation of Monte Carlo techniques for large
+problems.
+
+5. Extension and/or improvement of present techniques for
+communication between machine and operator and for the more
+flexible control of machine operation, including possible
+improvements in inputooutput equipment.
+
+6. Experimental analysis and control using data trans-
+mitted directly between computer and experiment.
+
+7. Investigation of microprogramming and other methods for
+increasing the flexibility of computer design. The possibility
+of inclusion of a very flexible control unit in a large-scale
+computer which would permit ready alteration of an order code.

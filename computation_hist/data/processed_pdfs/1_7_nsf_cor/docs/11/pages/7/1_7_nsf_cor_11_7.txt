@@ -1,0 +1,55 @@
+Extension of NSF 029% Page 7
+Enclosure 3, Continued
+
+8. Investigation of techniques for intercommunication
+between computers, including the possibility of cycles different
+in length or kind running simltaneously with frequent comparison,
+e.g., several single-accumlator computers with eomn memory,and
+the behavior of a computer with mlti 1e accumulators. Some of
+these properties can be simulated on a 70‘; by utilization of
+additional drums and magnetic core banks.
+
+9. Computer estimation of problem time. In linear problems,
+estimations of bounds of certain functionals, and thence conver-
+gence criteria for terminating iteration, or switching to a
+different iteration.
+
+Facilities:
+
+The MIT Computation Center will have a. Type 70': Electronic
+Data Processing Machine with the folloling machine complement:
+12 magnetic tape units, 2 magnetic core storage units containing
+a total of 8,000 words, 1 magnetic drum unit containing 4,000
+words of storage, the usual on-line punched card reader, alpha-
+betic printer, and punched card recorder as well as the 3 offoline
+magnetic-tape-controlled printer, magnetic-tape-controlled
+punch, and punched card-to-magnetic tape converter, respectively.
+In addition to the 701! there will be 10 auxiliary punched card
+machines including card punches, collators, sorter-s, reproducers,
+interpreters, and the Type no; Accounting Machine. The aggregate
+macgge rental, in excess of 50,000 per month, will be donated
+by .
+
+The Type 70‘} EDPM unit is one of the fastest large-scale
+commercial computers available today. Since. the MIT installation
+will be but one of many in the field, techniques, programs, and
+numerical procedures developed for this machine will be of use
+to others having access to 704 equipment.
+
+ 
+
+Princi a1 Investi ator to be Professor Philip M. Morse,
+Director of the Computation Center. He has been in contact with
+computing problems during his career in theoretical physics since
+1930, and with the use of computing equipment since the first
+Bush differential analyzer was available at MIT in 1936. He got
+his Ph.D. in physics at Princeton in 1929 and has been at MIT since
+1931, with occasional leaves of absence. His publications include
+the books "Quantum Mechanics" (with E. U. Condon') 1930, "Vibration
+and Sound" 1936“ "Methods of Operations Research' (with G. E.
+Kimball) 1950, Methods of Theoretical Physics" (with Herman
+Feshbach) 1953, and "Queuing, Inventory and Phintenance" 1957,
+and about a hundred Journal articles, many of which give results
+obtained from machine amputation. For further biographic details
+see "Who's Who". Only a fraction of his salary will be charged to
+the Project.

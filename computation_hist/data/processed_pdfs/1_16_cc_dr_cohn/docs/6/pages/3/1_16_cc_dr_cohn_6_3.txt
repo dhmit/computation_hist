@@ -1,0 +1,46 @@
+HARVEY COHN
+298
+
+the Riemann function is a function of four variables, 130;, y; :c’, 2/), deﬁned by
+the system
+(a) 673/01 6;; = —I{(1; + y)R
+
+(2) (b) It = 1 when r =, a" 01- y = yr.
+We shall assume for convenience that H(r)_ is regular and real for 7. real, and
+that ac and y are real in all cases under eonsrderation.
+
+To prove the existence of R by iteration, we rewrite the System (2) as the
+single equation
+
+(3) R(:c,y;:r’,]/) = 1 — H Ito, ,y. ;r’,y')z{<.r. +y,) (11-, d1,
+
+where B(x, y) is the rectangle formed by the horizontal and vertical lines through
+' (x, y) and (z’, y’). By continual substitution of the right member into itsglf‘
+we obtain the formal iterated series
+
+Rte Luna 2/) = 1 - fl Htri + y.) 111‘. ﬂy.
+
+onum
+
+fl H(I_’+y2)d.rzdy2—~-.
+- 21m to
+This series is seen to be convergent and to represent a solution to (3). Equation
+(3), or system (2), also has a unique solution, or otherwise expressed, any solution
+to the homogeneous form of (3), with the term I deleted, would vanish identi-
+Cally.
+
+These statements are made because the iteration process will motivate the
+rest of the paper.
+
+3. More general illustration of a Riemann function. We saw that the
+iterated series (4) for R begins with the terms 1 7 [V + where
+U = J‘J‘aomlﬂl‘. + y.) div, dyx . Now U obviously equals zero when a: = I'
+01‘ y = y'. Thus since It is also a constant for these values of :L' or y, we might
+try to see if the Riemann function has the form R((‘; r’, y’). Substituting this
+new value of R into equation (25,) we ﬁnd that the Riemann function actually
+can be written in this form if and only if (alﬂar) (al' 61/)H" is expressible as
+full; .1". 1/). Then (2) becomes
+
+(_) l (£1) ((131? "dl.'3)f(['; .1", 1/) + (IR/(ll. + If : 0
+0
+(17) 13(0; 2.”, y’) = l.

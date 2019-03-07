@@ -141,3 +141,8 @@ gender_novels/corpora/gutenberg/texts
 .idea/computation_hist.iml
 
 computation_hist/scratch.py
+
+# ignore files in processed_pdfs (they will be uploaded to was and don't need to be synced)
+# except txt files
+computation_hist/data/processed_pdfs/**/*.pdf
+computation_hist/data/processed_pdfs/**/*.png

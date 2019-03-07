@@ -1,0 +1,60 @@
+STABLE LATTICES
+
+HARVEY COHN
+
+1, Introduction. The . consideration of relative extreme to corres 0nd
+to the absolute extremum which is the critical lattice has been going on for Isjome
+time- As far back as 1873, Korkine and Zolotareff [6] Worked with the ellipsoid
+in hyperspace (i.e., with quadratic forms), and later Minkowski [8] worked
+with a general convex body in two or three dimensions. They showed how to ﬁnd
+critical lattices by selection from among a ﬁnite number of relative extrema.
+They were aided by the long»recognized premise that only a ﬁnite number of
+lattice points can enter into consideration [1] when one deals with l
+“admissible to convex bodies."
+
+In the realm of the more general star body, such as that involved in the
+product of homogeneous forms, there is no ﬁniteness principle of equal scope.
+Mahler [71 has, however, developed a local property for the critical lattices
+established by Davenport [3; 4]. by using ”bounded reducibility.”
+
+We shall develop a similar property which we shall call stability and we shall
+extend it to a large class of lattices for star bodies. We shall do this by introducing
+:1 formalism of pam‘tively dependent differentials. Then as an illustration, we shall
+give a condition for stability of the norm in an algebraic module (a condition
+which can be considerably simpliﬁed by the use of units in the Dedekind order [5]).
+
+attices
+
+2. Critical lattices. A lattice Q, in 71-space, is determined by a n X 71
+matrix (aw) of (say) positive determinant Haw”, the points of the lattice being
+denoted by the vectors X with components
+
+a
+
+(2.1) xi: Zaumj (i=l,2,..i,n)
+1:!
+
+corresponding to the integral n-tuple (rm) 2 (m1, r . . . m"). A real continuously
+
+differentiable function, ¢(X), homogeneous of positive degree h in its variables,
+is deﬁned in the space The locus l‘l’l = 1 is the boundary of the star body
+under consideration. Then we consider the function deﬁned by
+
+(2.2) mm) = ¢<x>/Han3l “"-
+
+For each lattice 33, an inﬁmum of F is deﬁned over (m1). excluding the origin 0‘
+Course. Call it M03). Let the values ANY) have a ﬁnite supremum Mar‘Now‘lf a
+lattice 9“ exists for which AMY“) = Mm 11‘0" 9" l5 (“Hal a "mall lattice. lhus
+
+ 
+
+ 
+
+(23' me) = inf mm :7)! (m1) ¢ 0
+\
+
+Received December 17, 1951 and in revised form Feliraury 15, 1952, PI'eSEiitcdltoltlISc
+American l\'l1\tl\eltlalit‘al Society February 24, IDS]. Research currently Sponsored by tie .. .
+Arm? Oﬁ‘ice of Ordnance Reseach.
+
+Zti l

@@ -1,0 +1,57 @@
+-2r
+
+ 
+
+but its expansion will be hampered by the limitations of access
+to the 701+y as will be discussed later°
+
+The use of the machine by the other colleges has expanded
+
+rapidly until nearly a full shift is now occupied with their work
+
+including their class exercises). But this use tends to be self»
+limiting for, as soon as a college faculty begins fully to apprec»
+iate the possibilities in education and research of computers, the
+pressure builds up for a machine of their own on their own campusa
+By now at least eight of the cooperating institutions have machines
+of their own» These are smaller machines, of the 650 type, (with
+some larger machines projected), so these institutions still come
+to the Center to use the 70k for their bigger Jobs; but it does
+mean that the use of the Center by the other new.Eng1and colleges
+will tend to level off to a reasonable load (about one shift, it
+now appears) rather than growing continuously, as the MIT usage is
+doingo This result, of course, is in accord with our conviction
+that computers should be as prevalent as chemistry laboratories.
+
+In contrast, the MIT use of the 704 for research into new
+applications has grown so that now we are not able to satisfy all
+requests for machine time for such work, let alone routine proJect
+calculations of the "production-run" type (important as these often
+are) even when we encroach on the third machine shift, which has
+heretofore been reserved for IBM use. In addition to the research
+in solid—state theory, in meteorology and oceanography, which now
+depend completely on machine computation and could already use more
+time than we can allot them, there are a number of research projects
+which are basic to the development of new uses for computers, and,
+indeed, to the development of computers themselves, which are already
+handicapped by shortage of machine time and limitation of 704
+capacitiesa To mention a few:
+
+Pro ramming Develo ment. The Center staff has already
+ed 5 E
+
+develop an automa ic opera or routine which is being adopted by
+other 70» users. More general assembly programs; such as the
+Linking Segment Subprogram Loader; which combines Fortrani SAP ard
+other special codes; COMIT, which enables the 704 to be used on
+language translation problems; and LISP, which enables the machine
+to handle non=numerical logic? such as algebraic and other symbolic
+manipulation» are being developed and tested. The work at MIT in
+this fieldp since Whirlwind daysg is well known.
+
+Timeusharing Techniques. We already have a typewriter
+connected to t g w ich works on a timeusharing basis with our
+regular operator routine, so new programs can be debugged at the
+same time that regular computations are being carried out on other
+problems? for examplee The 70# cannot effectively accommodate more
+than one or two such satelite channels” but the Center staff is now

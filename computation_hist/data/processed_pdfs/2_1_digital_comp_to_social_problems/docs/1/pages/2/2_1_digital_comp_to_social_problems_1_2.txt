@@ -1,0 +1,51 @@
+-2-
+
+has come as well from the men interested in experimental techniques,
+who spend their time trying to get more out of the cyclotrons they
+have and building new and better cyclotrons, as from those who are u
+primarily interested in measuring nuclear cross-sections and finding
+new particles. Even in theoretical physics one needs the analysts,
+who improve mathematical techniques, as well as the physicists
+proper, who use the techniques to devise new theories. Research
+into techniques does not usually have the glamour which research
+
+on specific problems has, but in really new fields of investigation
+the basic techniques often must be worked out before the specific
+problems can begin to be attacked.
+
+Research into techniques of using digital computers is
+particularly important now, for the potentialities of the new
+machines are not well understood by others, who would be benefited
+by its help. For this reason we are hoping to enlarge our program-
+ming research group when the I.B.M. machine gets here, so that, in
+addition to helping the problem-solvers program their computations,
+the group can spend some time devising really new tricks. Some of
+this research should be into the possibilities of devising new modi—
+fications of input and_output equipment so that, for example, the
+results of some experiment can be fed directly into the machine for
+detailed analysis, or so that the calculations performed by the
+machine can be fed directly to a high-speed typesetter, in each
+case eliminating one or more time-consuming and inaccurate human
+interventions.
+
+We are requesting NSF and ONR for help in developing
+such techniques of particular use in adapting the computer to re-
+search in the physical sciences. Some of the work proposed includes:
+
+1. Devising, writing up, and correlating a library of
+programs for solving standard problems, to facilitate the use of
+the machine by workers in the physical sciences.
+
+2. Investigating basic programming logic, how it can be
+expressed in mathematical terms and how much of it can be carried
+out by the machine itself.
+
+3. Development of input equipment and techniques which
+can connect the machine directly to the experiment, and output
+equipment which can display results in a more concise and under-
+standable form.
+
+In this way the Computation Center can cooperate in an
+active way with the various groups, at M.I.T. and at other New
+England colleges, which are carrying on research in the physical
+sciences.

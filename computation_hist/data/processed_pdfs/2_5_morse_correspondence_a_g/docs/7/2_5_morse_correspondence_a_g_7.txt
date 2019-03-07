@@ -1,0 +1,86 @@
+PERSONNEL RESEARCH LABORATORY
+
+AIR FORCE PERSONNEL AND TRAINING RESEARCH CENTER
+
+AIR RESEARCH and DEVELOPMENT COMMAND
+Poi! Om:- Box I557
+
+Lazklond A" Force Ban Sen Amonlo, Tun:
+
+7 _ my 1956
+
+Dr. Philip M. Morse
+
+Professor of Physics
+
+Phasachusetts Institute of Technology
+Cambridge, Ihssachuaetts
+
+Dear Dr. Morse:
+
+For some time this Center has been interested in the
+application of certain mathematical and statistical models,
+such as game theory, to the problems of personnel utiliza—
+tion in the military service. We are concerned with a
+variety of problems which may be attacked with the use of
+certain of these models.
+
+1 An example of the sort of problem which we have in
+mind is one of minimizing the cost of training Air Force
+technicians. There are available psychological tests
+
+which give a good indication of a man's probable success in
+technical school training. r«l'hese tests give differential
+predictions for different kinds of training with concomitant
+different probabilities of success. With these probabilities
+and with good estimates of the cost to train men in each of
+the several specialties, it is hoped that a minimizing pro-
+cedure might be used to indicate the most economical way of
+assigning individuals to technical training, while at the
+same time taking a minimum risk of not meeting the Air Force
+requirements.
+
+w are also interested in the application of general
+purpose computers to the problems of personnel utilization,
+particularly the solutions of mathematical models which might
+be appropriate for personnel classification and training, es-
+pecially methods of managing very large masses of data, which
+considered separately have little predictive value, but which
+considered as a whole, permit good estimates of future per-
+
+formance .
+
+
+Dr. Philip M. Morse 2
+
+ 
+
+I would appreciate it very much if you would write me in-
+dicating whether or not you would be interested in being con-
+sidered as a prospective bidder on a contract with our organiza-
+tion to study either or both of the problems described above,
+attempting, if possible, to develop practical solutions which
+would be some improvement over methods now employed. It you
+are interested, it would be appreciated if you would tell me
+
+briefly about the personnel and facilities available in your
+organization.
+
+In addition, I would be happy to review any proposals for
+contract research in related areas in which your staff is par-
+ticularly interested and able.
+
+This letter should not be regarded as a contract pro-
+posal; it is intended as an inquiry about interest in and
+capability for handling certain research problems for this
+organization.
+
+Sincerely,
+
+(M. {was
+
+JMszdh ' ohn M. Ieiman
+ief, Statistical Methodology
+and Analysis Branch
+
+

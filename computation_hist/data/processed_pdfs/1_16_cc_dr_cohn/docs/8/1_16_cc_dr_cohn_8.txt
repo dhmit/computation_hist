@@ -1,0 +1,140 @@
+LECTURES ON FUNCTIONS OF A COMPLEX VARIABLE
+The University of Michigan Press
+
+Contents
+
+G. T. Whybum. Introductory t logical analysis
+
+D. C. Spencer. Potential theory and almost»oomplex manifolds
+L. V. Ahlfors. Remarks on Riemann surfaces
+
+Zeev Nehari. Univalent functions and linear differential equations
+Rolf Nevanlinna. Countability of a Riemann surface
+
+Rolf Nevanlinna. Polygonal representation of Riemann surfaces
+Shizuo Kakutani. Rings of analytic functions
+
+Marcel Brelot. Topologies on the boundary and harmonic measure
+Marcel Brelot. Topology of R. S. Martin and Green lines
+
+James Jenkins and Marston Morse. Conjugate nets on an open Riemann
+surface
+
+W. K. Hayman. The growth of entire and subharmonic functions
+
+W. K. Hayman. Uniformly normal families
+
+Lipman Bets. Local theory of pseudoanalytic functions
+
+Leo Sario. Functionals on Riemann surfaces
+
+Leo Sario. Positive harmonic functions
+
+P. C. Rosenbloom. Distribution of zeros of polynomials
+
+P. C. Rosenbloom and S. E. Warschawski. Approximation by polynomials
+Makoto Ohtsuka. Boundary components of abstract Riemann surfaces
+
+H. L. Royden. Conformal deformat n
+
+Salomon Boclmer. Functions in one complex variable as viewed from the
+theory of functions in several variables
+
+Avron Douglis. Function-theoretic properties of certain elliptic systems of
+ﬁrst-order linear equations
+
+Harvey Cohn. Modular functions deﬁned by perturbation mappings
+
+H. J. Bremermann. Holomorphic continuation of the kernel function and the
+Bergman metric in several complex variables
+
+J. L. Ullman. Regularity criteria in potential theory
+Walter Rudin. Analytic functions of class H p
+
+Harold S. Shapiro. Applirai s of normed linear spaces to functionetheoretic
+ext emal problems
+
+Walter Baum. A topological pr cm originating in the theory of Riemann
+surfaces
+
+R. C. Buck. Expansion theorems for analytic funct s, I
+Jacob Korevaar. Entire fum‘tions a limits of polynomials
+Wilfred Kaplan. Curve families and Riemann surfaces
+
+C. J. Titus. The image of the bounr ry under a local homeomor
+
+
+Reprinted from the
+BULLETIN or rm AMERICAN MATHEMATICAL SOCIETY
+Vol. 61, No. 3, pp. 240-241
+May, 1955
+
+Geometric tier Zahlen. By 0. H. Keller. Enzyklopadie der mathe-
+matischen Wissenschaften mit Einschluss ihrer Anwendungen,
+Vol. 12, No. 11, Part 1114 2d ed. Leipzig, Teubner, 1954. 84 pp.
+8.80 DM.
+
+The title Geametn'e der Zahlen was introduced by Minkowski over
+half a century ago. Its subject matter has naturally expanded
+greatly, particularly in the last twenty years, and the author com-
+mendably presents a more modern account of the subject. The aim of
+the Enzyklopa'die is “to ﬁnd a middle road between the . . . historical
+presentation and the . . . systematic presentation." The reviewer’s
+impression is that the work tends to be more systematic than his-
+torical, but the few isolated remarks that follow can in no way detract
+from the debt owed to the author for his pioneering compilation.
+
+One major pre—Minkowskian development is the study of the min-
+ima of quadratic forms in 11 variables, elegantly interpreted as the
+densest lattice packing of equal spheres in 71 dimensions. The dis-
+covery, essentially, that the symmetric tetrahedral packing (with
+n+1 mutually tangent spheres) is no longer densest when n = 4 is one
+of the earliest indications that n-dimensional “Euclidean geometry”
+would depend on n with “number-theoretic” irregularity. Strangely
+enough, the footnote reference to this result (footnote 184a) does
+not refer to its discovery (by Korkine and Zolatareﬂ in 1872) but
+
+
+1955] BOOK REVIEWS 241
+
+rather to a series of papers starting in 1948. The footnotes catch up
+in the long run, if the reader uses his powers of deduction. But more
+diﬁ‘icult is the deduction that the aforementioned result led to the
+development of extremal methods and polyhedron packings.
+
+The Minkowskian synthesis (i.e., the packing of space with general
+convex bodies), certainly receives due attention, although a sense of
+continuity with earlier work, particularly with that of Hermite, is not
+made apparent. Likewise the contact between the geometry of num-
+bers and algebraic number theory seems lost in the mass of details
+again. The reviewer refers to the contact occurring when the alge—
+braist had to work with inequalities not only to ﬁnd bounds on norms
+but even to prove the discriminant theorem, which implies the fol-
+lowing: “Every irreducible monic polynomial of degree at least two
+and with integral coefﬁcients contains a repeated (polynomial) factor
+modulo some prime.” Conversely in the last twenty years (owing
+largely to the inﬂuence of Mordell, Davenport, and Mahler), the in-
+tense desire for unimprovable bounds in algebraic number theory
+caused the replacement of the convex body by the more general star
+body. One contrast in presentation that the reader will immediately
+note is that while the older methods (Minkowskian and earlier) are
+often presented with enough detail (diagrams, tables, etc.) to excite
+the non-specialist, the methods developed in the last twenty years
+are given in little detail, with emphasis instead on lists of deﬁnitions,
+theorems, and conjectures, and with a valuable bibliography drawn
+up for 1951. Incidentally, a more modern bibliographical format
+(alphabetically arranged, and containing the titles of the papers)
+probably would be more useful.
+
+The chapter titles are as follows: A. Convex bodies. B. Star bodies.
+C. Linear forms. D. Minima of homogeneous forms. E. Inhomogene—
+ous forms. F. Quadratic deﬁnite forms. G. Continued fractions. H.
+Algebraic numbers. I, Partitions and lattice point ﬁgures. The re-
+viewer feels that the inclusion of the last chapter is hardly justiﬁed
+by the historical continuity presented, but that otherwise the titles
+suggest that the geometry of numbers still would not be beyond
+Minkowski‘s recognition.
+
+HARVEY CoHN
+
+

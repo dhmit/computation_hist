@@ -116,18 +116,27 @@ def page(request, page_id):
 
 
 def list_obj(request, model_str):
+    '''
+    Displays sorted list of Organizations, People, Folders, or Boxes
+    :param request:
+    :param model_str:
+    :return:
+    '''
     if model_str == "organization":
-        model = Organization
+        model_objs = get_list_or_404(Organization)
+        model_objs.sort(key=lambda x: x.name)
     elif model_str == "person":
-        model = Person
+        model_objs = get_list_or_404(Person)
+        model_objs.sort(key=lambda x: x.last)
     elif model_str == "folder":
-        model = Folder
+        model_objs = get_list_or_404(Folder)
+        model_objs.sort(key=lambda x: x.full)
     elif model_str == "box":
-        model = Box
+        model_objs = get_list_or_404(Box)
+        model_objs.sort(key=lambda x: x.number)
     else:
         raise ValueError("Cannot display this model. Can only display organization, person, "
                          "folder, or box")
-    model_objs = get_list_or_404(model)
     obj_dict = {
         'model_objs': model_objs,
         'model_str': model_str,
@@ -144,7 +153,7 @@ def search_results(request):
     :param request:
     :return:
     """
-    #key
+    # key
 
     user_input = request.GET['q']
 
@@ -154,7 +163,14 @@ def search_results(request):
     folder_objs = Folder.objects.filter(full__contains=user_input)
     organization_objs = Organization.objects.filter(Q(name__contains=user_input)|Q(
         location__contains=user_input))
+    doc_type = ["minutes", "memo", "proposal", "letter", "receipt", "contract", "notice",
+                "memo draft", "addendum", "change order", "form", "report", "invoice", "list",
+                "routing sheet", "application", "note", "press release", "floor plan", "program",
+                "pamphlet", "payroll sheet", "time record", "summary", "table", "telegram",
+                "unknown"]
+    doc_type.sort()
     obj_dict = {
+        'doc_type': doc_type,
         'people_objs': people_objs,
         'document_objs': document_objs,
         'folder_objs': folder_objs,
@@ -169,3 +185,10 @@ def browse(request):
 
 
 
+def advanced_search(request):
+    """
+    Searches database based on specific search queries and parameters given by user.
+    :param request:
+    :return:
+    """
+    return HttpResponse("work in progress")

@@ -1,0 +1,38 @@
+_
+
+(Page 2, Ltr. Mulliken to Morse, dtd 26 Dec 56)
+
+especially since part of what is available will probably be needed
+for computations elsewhere. We do also have free computer time
+
+at Wright Field which can be used for machine computations on other
+types of integrals and for other computations necessary in our
+molecular calculations, but unfortunately it is not practicable to
+transfer the Whirlwind exchange integrals code there.
+
+In brief, we would like to request for use between now and about
+June 1, (l) confirmation of free time of about 10 hours which we
+hope still remains from our previous allotment; the time so used
+can be Justified, I believe, in terms of John Slater's interest
+
+in perfecting the existing code and increasing its speed; (2) an
+additional 60 hours, for which we can make a contribution up to
+
+$7,660 or perhaps $8,000.
+
+To the extent that you can accelerate your reply to our request
+we shall be deeply grateful.
+
+With best wishes for the New Year,
+
+Sincerely,
+
+WW
+
+R. S. Mulliken
+
+ 
+
+cc: Prof. J. C. Slater
+
+RSled

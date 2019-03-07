@@ -1,0 +1,97 @@
+/
+
+ 
+  
+  
+
+Computation APPLICATION FORM FOR COMPUTER USAGE Page 1 of 2
+MIT
+Center (To be submitted to Institutional Representative or
+
+MIT Department Representative. Please type)
+
+1. Applicant:
+
+Name, Title, Dept., and Institution:
+_________________________________
+
+Address:
+Phone Nb.:
+____________*____________________________
+
+K
+
+2. Problem Title:
+3. Programmer(s): (if applicant, write ”applicant"- append supplementary
+
+,
+sheet if necessary)
+
+(Not to be filled
+in by applicant)
+
+Prob. No.
+________
+
+Programmer's No.
+
+   
+  
+   
+ 
+  
+  
+  
+     
+  
+
+Init. Date:
+
+__.________________
+Term. Date:
+
+a. Name, title, and programming experience on high speed machines:
+
+Address:
+
+ 
+
+ 
+
+Inst.Rep. or MIT
+Dept. Head Approval:
+
+ 
+
+._________________
+Comp. Center
+Approval:
+
+__________________
+Comp. Center
+Estimates:
+
+ 
+
+ 
+
+5 Address:
+Phone No.‘
+
+.__________________
+f 4. Sponsor: (e.g.. faculty advisor, thesis supervisor, project leader,
+etc.)
+
+Name and title:
+
+5. Signature of Sponsor signifying approval of this work:
+
+ 
+
+6. What is the purpose of this work? (e.g., educational, faculty
+
+research, thesis (specify); if supported research project, give
+contract number:
+
+Total Mach. Time
+Used:
