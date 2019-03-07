@@ -40,6 +40,7 @@ const INVALID_UPDATE_CONTENTS_TYPE = "Contents must be of type number or string!
 const INVALID_REGISTER_EXCEPTION = "Tried to program to invalid register!";
 const FIXED_OVERFLOW_EXCEPTION = "Fixed point number too large!";
 const FLOAT_OVERFLOW_EXCEPTION = "Floating point number too large!";
+const NAN_EXCEPTION = "Expected number!";
 
 /**
  * Function to create a new string with the character at index replaced by a new character.
@@ -942,9 +943,9 @@ class IBM_704 {
     assemble(origin, code_lines) {
         let register = origin;
         for (let line_no in code_lines) {
-            if (register >= this.size || register < 0) {
+            if (isNaN(register) || register >= this.size || register < 0) {
                 alert("Error: Tried to program to invalid register on line "
-                + (parseInt(line_no)+1) + "!  Register must be between 0 and " + (this.size-1) + ".");
+                + (parseInt(line_no)+1) + "!  Register must be integer between 0 and " + (this.size-1) + ".");
                 throw INVALID_REGISTER_EXCEPTION;
             }
             let line = code_lines[line_no];
@@ -997,6 +998,8 @@ class IBM_704 {
                 catch(err) {
                     if (err === UNDEFINED_OPERATION_EXCEPTION) {
                         alert("Error: Undefined operation in line " + (parseInt(line_no)+1) + "!");
+                    } else if (err === NAN_EXCEPTION) {
+                        alert("Error: Invalid number in line " + (parseInt(line_no)+1) + "!");
                     }
                     throw err;
                 }
@@ -1016,6 +1019,9 @@ class IBM_704 {
      * @param {number} decrement    Decrement of instruction.
      */
     assemble_line(register, operation, address=0, tag=0, decrement=0) {
+        if (isNaN(address) || isNaN(tag) || isNaN(decrement)) {
+            throw NAN_EXCEPTION;
+        }
         if (operation in operation_b_to_no) {
             this.general_memory[register].instruction_b = new Instruction_B(eval(operation), address, tag);
         } else if (operation in operation_a_to_no) {
