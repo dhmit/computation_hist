@@ -9,7 +9,7 @@ from django.http import HttpResponse
 
 
 def index(request):
-    return render(request, 'index.jinja2')
+    return render(request, 'index_arch.jinja2')
 
 
 def person(request, person_id):
