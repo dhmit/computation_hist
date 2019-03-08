@@ -1,26 +1,19 @@
+<!--This is the base page. I want to take the links to the data off of this page and create a data tab that will
+bring people to a webpage that looks like this one currently does. I'm thinking of taking the other tabs off and
+having them all exist under browse. Then, I'd put tabs for other parts of the project, such as the simulations. I
+don't know how to make a new page or change the way these links are set up, though-->
+
+
+
+
+
 {% extends "base.jinja2" %}
 
-{% block title %} Computational History {% endblock %}
+
+{% block title %} Home Page {% endblock %}
 
 {% block self %}
     <h1>Welcome to the Archives of the MIT Computation Center.</h1>
     <br><br>
 {% endblock %}
 
-{% block table %}
-    Unsure of what you're looking for? Browse through our datasets.
-    <div class="list-group">
-        <a href="/dj_comp_hist/list/person" class="list-group-item list-group-item-action">
-            <h2>People</h2>
-        </a>
-        <a href="/dj_comp_hist/list/folder" class="list-group-item list-group-item-action">
-            <h2>Folders</h2>
-        </a>
-        <a href="/dj_comp_hist/list/organization" class="list-group-item list-group-item-action">
-            <h2>Organizations</h2>
-        </a>
-        <a href="/dj_comp_hist/list/box" class="list-group-item list-group-item-action">
-            <h2>Boxes</h2>
-        </a>
-    </div>
-{% endblock %}
