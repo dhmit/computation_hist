@@ -11,6 +11,7 @@ const no_to_operation_b = {
     0o4400: SBM,
     0o401: ADM,
     0o534: LXA,
+    0o300: FAD,
 };
 
 const no_to_operation_a = {
