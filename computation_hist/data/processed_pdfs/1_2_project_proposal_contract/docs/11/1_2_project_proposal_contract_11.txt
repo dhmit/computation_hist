@@ -1,0 +1,201 @@
+MASSACHUSETTS INSTITUTE OF TECHNOLOGY
+DIVISION OF INDUSTRIAL co'oPERATIoN
+CAMBRIDGE 39. MASS‘
+
+January 23, 1956' .
+
+OFFICE Mﬂclhgtum
+office of Naval Research
+#95 summer Street
+Boston, Massachusetts
+
+Reference: Contract Nﬁori—06001
+
+Dear air:
+
+The Massachusetts Institute of Technology submits
+herewith a'revised proposal for extension of the reference contract
+to June 30, 1957 at an additional estimated cost of $20,960.00.
+
+We understand that this proposal has been the subject of discus—
+sions between Professor P. M. Morse of MIT and hr. A. J. ties
+
+of ONE—MIT, Dr. Carl F. Nukenhsupt of ONRpBoston, and Dr. F. J.
+Weyl of ONRuWashington.
+
+There follows a sﬁmmary of expenditures and funds
+remaining on the two projects, Whirlwind Operation and Machine
+Methods of Computation, which are currently active under the
+reference contract:
+
+Project #62uﬁ (Whirlwind Operation) has an unexpended
+balance of $97,000 as or November 30, 1955. The current expend—
+itures are approximately $10,000 per month. The'avarage “income"
+received for Whirlwind usage is approximately $3,000 per month —-
+a net expenditure of $7,000'psr month. If it is assumed that the
+present level of income ($3.000 per month) is maintained during
+the nineteen—month period December 1, 1955'to June 30, 1957, a
+minimum amount” assuming some tapering off, of $119,000 will be
+required during this periodn
+
+However, for the purpose of establishin an estimate or
+unexpended funds on this project as of June 30, 195 . it is esti-
+mated that a higher level of income will exist during the remaining
+seven months. This may sverage'something above $b,000 a month. On
+this basis we estimate that $57,000 or the $97,000 mentioned above
+will remain unexpended as of June 30, 1956. An additional factor
+affecting the budget shown on page 4 is the eStimsted Computer
+Income for the oneoyear period ending June 30, 1957. For this period
+only $18,000 in Computer Income has been estimated. This is in—
+fluenced by two factors: one being an expected tapering-off of the
+use of the Whirlwind machine by other projects, and secondly the
+expected beginning of operations under the IBM Type 704 machine.
+
+Project #6 1 (Machine Methods of computation) has an
+unexpended balance of ,000 as cf November 30, 1955. The current
+expenditures are approximately $7,000 per month. If it is assumed
+that the present expenditures remain constant, there will be a balance
+of approximately $22,000 on June 30, 1956. In accordance with our
+present'plans'for terminating the ONE support of this project on
+June 30, 1956, there will be certain additional costs extimated at
+$7,000 associated with the closing out of this project including such
+
+
+office of Naval Research January 23, 1956
+
+Reference: Contract N50r1—06001 DIG—#6345, #6915
+
+items as the preparation of summary reports on the program of
+Machine Methods of computation.
+
+This summary is based on estimates prepared by Prof—
+essor P. M. Morseo
+
+tional funds~—to finance the conversion of existing Whirlwind
+programs to Type 704 programs.
+
+1. Research in methods of numerical analysis and
+the formulation of scientific problems for machine
+
+solution, together with the training or personnel
+in these methods.
+
+It is anticipated that a separate project will be set
+up to handle the Type 70@ utilization within the MIT Computation
+Center, and a separate request to the ONR for support of this work
+will be made in the near future. In this respect certain
+experienced programmers could be made available for transfer to
+this new task as of January 1, 1957. This anticipated transfer
+has been taken into account in the budget proposed for Project #6314150
+
+The foregoing proposal does not * e into consideration
+termination costs which may be associated xi 1 the close out of
+this contract end the poesible disposition of the Whirlwind Computer.
+It is proposed to delay the submittal of any budget for this matter
+
+until such time as disposition of the Whirlwind Computer is
+determiner?!o
+
+i.
+
+
+Office of Naval Research January 23, 1956
+Reference: Contract N5or1—06001 DIG—#63ﬂj, #6915
+
+The estimated budget for the period July 1, 1956 to
+June 30, 1957 is attached herewith as page #.
+
+o
+
+Very truly yours,
+
+L. E. Beckiey
+Assistant Director
+
+LEB/dmb
+In quintuplicata
+cc: ONE/Boston
+ONE/MIT
+ONE/Wash., Adv. co: Mr. F. A. Giroux
+Dr. G. F. F103
+Profn P. M. Morse
+Dr. F. Mn Verzuh
+
+
+-#-
+
+Estimated Budget rgr DIG Projegtg ézﬁﬁ and 62;:
+
+(Fiscal Period July 1, 1956 - June 30, 1957)
+
+Salaries and wages
+
+Administrative Supervision
+Technical Supervision
+
+2 Research Assistants 0 $3,000
+
+@ Mathematicians @ $6v000 (6 mos.)
+
+2 Analysts and Programmers 9 $5,000
+
+2 Secretaries
+
+   
+
+L Camputsr Operators
+
+l Phwtn Labo Assistanﬁ
+
+Overhead - Estimated at #0%
+Travel
+
+Materials and Services
+_____.___.u_‘_____.____
+
+Reports anﬂ atﬁer closing out costs
+To“ Projecﬁ 09)
+
+Estimated Unexpended funds in 6345 ~ $57;OOO
+Estimated Unexpended funds in 6915 — 22;OOO
+
+Estimated Computer Income - _;8;OOO
+
+Minimum Amounﬁ to be Requested of
+ONE fqr 1956m1957.
+
+ 
+
+IIIIIiI‘I » ,
+
+$ 5,500
+3,000
+6,000
+
+12,000
+
+10,000
+6,500
+
+12g000
+
+13,200
+3,200
+
+$ 71,000
+28,560
+5,000
+6,000
+
+ 
+
+$110,960
+
+7n000
+$117,960
+
+$ 220000
+
+. D e a o . . a . . . . . . . $ 20,960
+
+

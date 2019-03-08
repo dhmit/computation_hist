@@ -1,0 +1,83 @@
+3, the
+al “ill
+be is
+urine:
+wen he
+were.
+igiii.
+
+the and
+ions by
+e trace
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+1953] TWO NON-LINEARIZED CONICAL FLOWS 107
+
+of the leading edges. The traces of the boundary and shock wave have been shown
+mainly to clarify the preceding example. They really have no immediate bearing on the
+interaction example, since it will be necessary to consider the possibility of having to
+reduce the amount of expansion and the extents of the interacting simple waves. The
+
+Y
+
+I
+
+L Simple Wave R Simple wave
+
+    
+
+Umlorm Flow Uizn
+
+p’Une W1“e
+
+ 
+
+Unliorm Flow UH
+5,. EL Plane Shock
+
+Unilarm Flaw Ulu
+
+Figure 5 Trace of Tentative Flow by Z'tl
+
+boundary will actually be constructed later. The essential point is that the discussion
+starts from simple waves in which all 0 the straight characteristics pass through the
+centers ER or E1, .
+
+In Fig. 4 the simple waves have not eguu to interact so the boundary need not be
+altered for z < 0. In Fig, 5 they begin to inﬂuence each other along the characteristics
+AB,z and A3,, , shown in a magniﬁed view in Fig. 6. Since the type of (2.11) is hyperbolic
+
+ 
+
+L Cenmed Simple Wave R “mm“ Sim?" m"
+I Unilorm Flow Ulc
+
+    
+ 
+
+Univovm Flow
+UVIL
+
+    
+    
+  
+
+ 
+
+L Nun-centered
+Simvle Wave
+
+Uniform
+R Non-centered
+Simple Wave
+
+Figure 6 Interaciion of Simple Waves

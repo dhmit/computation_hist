@@ -1,0 +1,122 @@
+MAINE MEDICAL CENTER
+
+22 EHAMHALL STREET. PORTLAND. MAINE
+
+JoHN c. BARKER. DIRECTOR Dec. 29, 1958
+
+Prof. Philip M. Morse
+
+Physics Dept.
+
+Massachusetts Institute of Technology
+Cambridge, Mass.
+
+Dear Prof. Morse:
+
+This is in reference to my telephone call with regard to the possibility of using
+the M.I.T. computer for our project in electrocardiology. I am quite sure that
+there will be no difficulty in obtaining collaboration with one of the Maine
+colleges for this project. In the meantime, I thought I would explain the problem
+to you.
+
+In my opinion the closest model b the human thorax with a geometry that can be
+worked with mathematics is the finite elliptical cylinder. The boundary of the
+cylinder would be completely insulated including the top and bottom surfaces. I
+have in my laboratory an electrolytic tank in the form of an elliptical cylinder
+with which I have done some model measurements with an artificial dipole energized
+by hOO cycle AG current to simulate the heart. With this I have measured potentials
+around the boundary of the tank for many spatial dipole angles. This method, al-
+though fairly rapid, is subject to certain errors such as the difficulty of setting
+up accurately an artificial dipole in space. It is very difficult to know pre-
+cisely the spatial angle of the dipole and to keep the pole separation exactly the
+same for all angles. Another source of error would be instrumental. Our best
+accuracy in measuring instruments is only about 5%. If the equation for a source
+and sink or dipole in an elliptical cylinder is derived, however, the solution to
+the equation ought to be accurate within 1%, I should think. For a thorough study
+of the potential distribution one would want to do as many of the following things
+as possible:
+
+a) potential distribution on the boundary and in the interior of the
+cylinder for a given dipole orientation.
+
+b) Same as (a) for a sufficient number of dipole angles to cover all
+possible angles with interpolation.
+
+c) The effect of changes in the location of the dipole. Many distri-
+butions would have to be found to obtain general results.
+
+d) Same as above for elliptical cross—sections of various eccentri-
+cities.
+
+e) Evidence has accumulated that one should use two separate dipoles,
+that is, in the left and right ventricles, for an adequate physical
+model of the heart generator. Studies should therefore be carried
+out with two independent dipoles in the elliptical cylinder.
+Superposition of the fields would of course apply to this situation.
+
+
+Pg. 2
+
+I have obtained Volume I of your book "Methods of Theoretical Physics“ and have
+Volume II on order. The subject matter of these volumes is extremely interesting
+to me as it flts 1“ very closely with my own work. I am enclosing, for your infor-
+mation, a collection of my reprints. You will notice in the one entitled "Human
+Thorax Potential" on pg. lOBh that I have given an equation for the potential at
+any point in an ellipse. As far as I know, this solution is not available else-
+where. The singularities at the foci and the line between the foci do not appear.
+As a matter of fact, I sent the complete solution sometime ago to the Journal of
+Applied Physics, but the manuscript was rejected. Since the reviewer of the manu-
+script obviously was not familiar with the field (he stated, for example, that
+"source and sink" were not proper scientific terms), I did not bother to resubmit
+the manuscript. Probably the most important publication is one for which I have
+no more reprints. This is the one by Gabor-Nelson entitled "Determination of the
+Resultant Dipole of the Heart From Measurements on the Body Surface" and appeared
+in the Journal of Applied Physics, Vol. 25, pg. h13, 195b- This shows that it is
+possible to obtain the resultant dipole moment of any system of sources and sinks
+inside a volume conductor from potential measurements on the outer boundary.
+
+In deriving the equations for the potential due to an arbitrary dipole in an ellip-
+tical cylinder I should like to start with a more general solution. This would be
+for a dipole in a cylinder having one value of conductivity surrounded by an in—
+finite medium of a different conductivity. In this solution I would set the
+arbitrary constants so that potential is defined to be equal to zero at infinity.
+
+I would then let the resistance of the surrounding medium increase to infinity and
+find the limiting equation. This would then give the potential inside the insula—
+ted cylinder with respect to a zero at infinity. The question of zero potential
+
+is one that has plagued electrocardiologists for many years and many arguments
+
+have appeared as to what is zero potential. I have used the above method for a
+circle and I am planning to send a publication to the journal "Circulation Research"
+in which this method of defining the zero of potential for a bounded conductor is
+proposed. I would greatly appreciate your opinion as to this method. I realize,
+
+of course, that one can always add an arbitrary constant to a potential distribu—
+tion, but I should think that the arbitrary constant could be defined in this manner.
+I would also appreciate your opinion as to the possibility of deriving an equation
+for the dipole in the cylinder immersed in the medium of a different conductivity.
+
+Incidently, I am a graduate of M.I.T. and took your course #805 in which, as I re—
+call, I received a "C". Subsequently I received my Ph.D. at the University of
+London and concentrated in electrocardiology and potential theory. There are a
+great many techniques, ideas and methods in physics and engineering which can and
+should be applied to problems of electrocardiology and electrophysiology in general.
+In view of the fact that heart disease is now the chief cause of deaths, much more
+work should be done in applying these concepts to biological problems.
+
+I will write to you again when I have a definite arrangement with a Maine college.
+In the meantime, I would very much appreciate any suggestions which might occur to
+you.
+
+Sincerely yours,
+
+WWW
+
+CVN/b Clifford v. Nelson, Ph.D.
+enc. Director, Basic Cardiovascular
+Research
+
+i_______--IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
+
+

@@ -1,0 +1,106 @@
+iv COHN
+HARVD STABLE LATTICES
+
+269
+
+’5’ 268 .
+if il‘t criterion for complex modples- G325? g; (th: complex Case, For Some purposes it will be neCeSSary to VisualiZe 11
+J4 13. Stab lyreater generality by‘considérll‘g af ill h a ove) any (non. parts written out as Q cartesian coordinates of a there“ and imaging“-
+? We return to gdule n (”at necessarily conélstlng 01 a dtz e mtegers 0f "1 ﬁeld). projections (Ed'ml’vﬂ and (2‘3“. Thus we may intr da Cartesian space 60 with
+degenerate) mof 9)? are algebraicintegerszmth r rea an s complex conjugates: and with it length and angle. Furthermore any :n uce a (real) Scalar Product
+The elements0 2, = x; , (j = 1,2, , . . ,7) imbedded (in the natural way) in 6:3 by Setting :th the pf°lections may be
+21 = x; ‘l' 1:56;“ (J = r + 1, . . , ”+in remaining coordinates equal to zero. Thus we may 5 er‘ dlmllJ] Or Q _ 2:
+(13.1) 21+; = x1 ‘— “61+“ ' R[z] and any one of its projectionsY Rlvle] or R2 MD a of the angle be‘EWeen
+The signiﬁcance Of the s”bspaces is then derived from
+
+= n conjugate - .
+r + 25 Let any 10 (#0) be given. The” a 2‘ ”f 9914111 norm exists for idhliihftlllgﬁlqg fact
+i is arbiL
+
+. f
+making a total 0 function
+t enorm (gauge) I, . d. [I I . .
+modules for h , + x2 ) . . _ 063““ + x?” )l mrily dose in ihrec ion ‘to “"y'P’eGSSigned thl Majestic” R! [Z l T ‘
+ix}. I Ix, (“'1 7+5 5 i take 11 = Zﬂu w ere u ‘5 a unit 0f 3 the order of 93?, so chosen u(b 0.5.86 th‘sv
+Theorem on units (12, Pi 269)), that lup/uql has the largest order 0}; Elrichletl’s
+agnitu e
+
+5. Then we are interested in Stable
+
+n — 1) generally complex COmPOHents;
+
+. f Q = n( . I
+We consider the vector 0 . lor the clmice of sub-scripts p = 1 q = j (P
+— = i ' ' ‘ ' ’ v 9 < 7 .
+
+(132) R11] ‘ i . . yZl/Z/v . . .) (id 1, 2. . . . , 1n 1 75]). arbitrarily close in argument to a Poxitipe real njmgérangﬁo that 144/14] lies
+Then the criterion for stability is that the set off veCItOIFS lRlll Positively Span criterion will) be a more complicated version of the ”unit star” motif]; Sign”),
+‘ h as zvaries over the set 0 mm u e e Emcnts 0f minimum (12Y p. 260 i (which dealt entirely with on -d‘ ' . 0 .0 'artl
+
+memo Q It is as follows: e lmensional [Id] PrOJECtmns)‘
+
+a space of di
+non-zero abs
+using 20 real compon
+the totally real case, th
+iFﬁcult that we must es
+
+olute norm. This criterion was established earlier (12' p. 266),
+ents, but the present form will prove simpler to use. As in
+e ﬁnding of Q + 1 positively dependent vectors Rm is
+tablish a new criterion relating to projections of RlZ].
+be expressed in terms of n(n — 1) real coordinates
+
+The necessary and sufﬁcient condition that th
+. e module Sm hag} .
+that for z a variable element of minimum absolute nonzero normei: $2117: norm is
+1 him: Ri,,[z] or Rhlz] each positively span a space of dim[l,j] or 23 meg)?”
+107145.
+
+50d . . . . .
+The necessity is immediate SlllCe a projection of a set of vectors positivel
+Y
+
+ 
+
+ 
+
+Now every vector RlZlCa‘l h f 11 , . t' T l l .
+'f we break the vector up into t e o OWIHg prOJCC “m5: ‘1'“: any Pair oi ‘ spanning a space mUSt neceSSanly positively Span the ro'e t' '
+ldistinct ﬁelds chosen from the ﬁrst I + s conjugate ﬁelds (conjugate complex ~ proof is the difﬁcult one. P J C Inn. The suﬁctency
+repetitions being excluded). For every SHCh Pall‘i denoted 13‘ unequal SUbSCTlPtS
+1,]‘(9 + S),3 projection is determined. SpeClﬁCally for l, J both real, there are l. 14. Sufficiency proof of stability criterion. We let 1 be a general element
+70 _ 1) projections 01?}? of minimum absolute non-zero norm and we assume as our h oth 5'
+(1331) lell = (22/20, that for certain values of 2, namely I yp e 15'
+for l, j both complex, there are s(s — 1) projections 14.1 (A) “’ ~
+(1332) R [z] — (z /z z /z) ( ) 2"” z" (1 < h <1+ dimmi. 1s k < 1+ 2i).
+
+. 1.1 — 1 1i 1+: J the sets of projection vect ‘ '
+ors v ,
+for l,j mixed (i.e,, one real and the other complex), there are 27: projections ( i } conSlStmg Of the SUbsetS
+I!)
+(13.33) lez] = (am). (142) RM“! = {Vim (1<Iz<1~dim[l.jl).
+
+V . . ~ ‘ () ¥
+l\ow, clearly, the prOJECthnS of type (13.31) are of real dimenSion one; the Rhlzil _ Win (1 < Iz < 1 + 25),
+projections of type (13.32) and (13.33) having two and one complex components, are positively de ’ ' '
+
+. . . ‘ pendent, The ob ect t '
+are of real dimenSion [our and two respectively. We write this as dim [l,]]=1,4i lUl 0f the order 8 the vectors {JWI 1:033:2er giatch‘eoruimit’erly “059“ um“
+and 2 respectively. If we were to sum the number of coordinates, we should ﬁnd in) , g _ 5 5e 5
+it accounts for ( > (14.3) R[Z,.,] = iwlm (1 < h < 1 + dimllij'lh
+
+77—1-1 53—14 .= _2 .
+
+mod, T ,. + < . ) +2” 2 Q 5 p . Rlli‘s’ = lWli. magi-‘25),
+
+4 r mates, he remaining 2: coordinates are accounted for by a Slnf-Zle prOJBC' POSitively span the l ' ‘1
+
+tion called the 2s’ projection, ( rea cartesmn space 9 ' where
+
+13. 14.4
+
+l 34) M2] = (zi/W . . . . W) l 2t: = 2%; U272. ll? = 22*: it
+
+of . Th ' . ‘ ‘
+s complex components and of (real) dimension 25. e pos1tive span Will be established by means of the projection and independence

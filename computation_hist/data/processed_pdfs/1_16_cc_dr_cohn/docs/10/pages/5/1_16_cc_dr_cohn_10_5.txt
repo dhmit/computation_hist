@@ -1,0 +1,208 @@
+HARVEY GOHN-
+
+910 em of 8 (above) asserts that the system may
+
+duced basis elements to within (scalar) proper.
+9 enables us to choose these constants
+
+Thus the ﬁniteness theor
+
+nite number of re
+
+have only ’1 ﬂ The argument in
+
+tionality constants.
+
+as units. ith the classiﬁcation into neighbor
+
+denote, for example, (SEQ), then
+in which the product of the second
+equals at (here a,)_
+
+(111302) to
+types. is one
+
+a neighbor of type :fithe neighbor operation (9. g, as - a2),‘ ‘
+third elemeu s btai n another very curious kind of result
+
+to 0
+bles uS product of any two reduced elements
+
+and ‘
+The new notation ena . .The sum or
+that we mention in Passlfodules in Q‘ is equal to reduced elements belonging
+nging to two the operation and elements).
+otation will be for dealing With units
+
+<l’17 4’: halo .
+to a third module ( h depends on
+
+ose in usmg the n
+e by H3559 [8] for a somewhat
+
+Our main purp .
+(Compare the hypercomplex notation us
+different analysis of cubic units).
+
+ex units. Now we shall designate the units E = (9i, 0:, eg)
+as multipliers in 9t. What We do is Select
+- . . S is 3) ao'rees in sign with oi (assuming
+
+t > for which ”(My (1 ) a x
+
+the iibfiidcoilglpositive as before). Then the product ﬂjE denotes the hyper—
+e plex unit correspondi w to E and for any reduced basis element ¢ of gm,
+
+uD i
+E yields another reduced basis element. This process would
+scalar) mu
+
+21. Hypercompl . .
+of D that are not totally pos1tive
+
+com
+the product ¢nn
+reduce to ordinary (
+
+negative . ,
+Now let Q5 be the (abelian) group oi all hypercomplex units so deﬁned,
+
+Let (no he the sub-group of totally positive units. Then the nature of the
+quotient group (35/650 is uniquely determined by r the signature rank, i. e,
+the number of different arrays of signs that can be achieved by the scalar
+
+ltiplication for E totally positive or totally
+
+units (of positive and negative norms). Then for
+
+87 [0113“), agE“), «SEW, 1] ,
+(21.1) r= 4, @/@D= [ail/‘00, 1],
+
+2, [1].
+
+Note that by the eigenvalue discussion in 14 (above), only these hyper-
+
+complex units can emerge from proportionalities of reduced basis elements
+
+under interchange of columns with rows preserved.
+
+22. Mixing of rows. (‘onsiiler two reduced basis elements 4> and 95*
+of ‘ll. We are now concerned with proportionalitios of one row of 4) With
+another row of ¢*, accompanied by the necessary permutation of columns
+
+ 
+
+A PERI C
+ODIC ALGORITHM FOR CUBI FORM
+S H
+‘ I t p . 911
+F01 Instance, a (decewingly trivial)
+
+of 11 (above), Where the ﬁrst row is
+under cyclic permutation oi": P Q
+i J
+
+illustration is provided b
+
+proportional to the second (with ratio 1)
+
+. R. Such r - .
+occur only for Q abelian since otherwise In /q1};0‘iil:)lr::::1ht(y ejidently could
+say qz*/T:* only
+
+when both ratios (belonging to co '
+. nJugate ﬁ 1 ' '
+to the basis property. Actually we can so: d3) are rational, m contradiction
+
+y¢=¢*=¢n
+
+.
+’lHnonEM. Two reduced basis elements
+
+each proportional (with some permutation
+modulo Elli is equivalent to a normal module
+
+of Elli can have different rows of
+of columns) if and only if the
+
+Proof. Suppose such a r ‘ -
+
+row of (35* is (say) 76) times thfﬁiggljéjvuﬁigif rows exists.
+whore kl is an element of the (abelian) ﬁeld
+an ir rows 0 4; (with rearran
+
+an of a
+are basrs elements of the same module. But by a welLkac at ‘1’ and (Pa:
+Hilbert [‘9],‘ lo), having norm 1, will be the ratio of corn tn0“17u theorem'ot
+(by multiplication with a rational integer) can be choiefi: 19: ements, WhICh
+a = iI/lz where T = (in, t2, t3) is in n and has positive nornie lira Thus
+and ¢r*a¢T are for some i (0 S is 3), reduced basis elements-of s::t::n¢;i;
+
+corresponding to SIRT=§R Now 92 is e '
+. a l - '
+The converse is immediate. Q. E. D, si y the normal module required.
+
+‘ Then the second
+With rearrangement of columns)
+
+.9. Likewise the third and ﬁrst
+0 be h; and It; times the second
+
+r C(tirmLLARY. A single reduced basis element ‘1’ of EU? will have one row
+tpthorgopal toonother row (with permutation of columns) if and only if
+mo u e EU? is equivalent to a module 92 with a normal basis that further-
+
+more consis S of L0 conjugo as of an elem l I 0 h I 9 710 771
+t t] t en P ' '
+/ .1} I h t 0 92 With p sttw 7 and
+
+10% The preceding proof applies except that we display the basis element by
+of lijng Q and R be conjugates of P and letting S be the negative of the trace
+[ﬂ 1The theorem and corollary are (strictly) more restrictive. i. e, not all
+;v):}ian modules are normal, nor are all normal modules equivalcnt to one
+1 1 a normal basis, nor must the normal basis have the desired Sign on its,
+norm and trace.
+{3 101;: a ﬁnal remark note that in both the theorem and corollary the order
+b 0 .1 is the same as that of 92 and therefore a normal module in 9. Hence
+Y a Well known Mirikowskian technique (see [8]): it £0110“ that funda—
+
+ 
+  
+ 
+   
+  
+  
+  
+ 
+  
+ 
+ 
+  
+  
+  
+  
+   
+  
+  
+ 
+  
+  
+  
+  
+   
+
+ 
+
+ 
+  
+  
+  
+
+  
+
+,. uw,‘ , ,ﬂ.‘ ,
+Iv ﬁlln'vtrf'lv'lv'n'l'ﬂﬂ.
+rppphhuxhjng,
+
+'9‘ "$138." I
+.

@@ -17,3 +17,5 @@ requests
 scipy
 seaborn
 pytesseract
+opencv-contrib-python
+Pillow

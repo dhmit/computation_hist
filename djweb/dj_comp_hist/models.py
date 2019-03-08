@@ -103,7 +103,7 @@ class Document(models.Model):
     cced_organization = models.ManyToManyField(Organization, related_name='cced_organization',
                                                blank=True)
     notes = models.CharField(max_length=191, blank=True)
-    file_name = models.CharField(max_length=191, blank=True)
+    file_name = models.CharField(max_length=191, blank=True, unique=True)
 
     def __str__(self):
         return self.title
@@ -189,3 +189,4 @@ def interpret_person_organization(field, item_organization, item_person, new_doc
             new_item.save()
             bound_attr = getattr(new_doc, item_person)
             bound_attr.add(new_item)
+

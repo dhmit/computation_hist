@@ -1,0 +1,146 @@
+HARVEY 00“”
+
+tive) is a linear-fractional substitutim]
+s nega
+
+.- . (and it A where
+
+"half z-plane, i.e.y z —i z
+A = ((1112 + dial/(dull + an).
+2 army The ﬁxed-point(s) f0}. the Sub.
+’ ' t of the equation 2 = z .
+.5 (13121332355 [(13 p. 478] we take as Our funda.
+ll-esta 15
+
+'linear) quadrilateral whose opposite sides
+
+me a doma the z p ﬁne a 1 'V1 .
+thedil‘nl" - l R: ”([0 iven l) matures r and Bi he [0 r
+[it 1 i . y generating substitu 1 ns g‘ y‘ - il4 (I r Til ‘
+in) it" I s . a adrilateial are (leterminei as ﬁxed 0 its of
+' ‘ u e a 1 Cor
+'ert) S of inch (1 p t
+
+. .. be made into arcs of geo.
+. 'des however, («in _ .
+‘ b 1°“)' The $1 ’ a - ,he real axrs, as shown in
+mutato‘rS, (8:13: arid straight lines perperid; “1111"“; (:termines the word struc.
+desirs, 1.0., (‘ f (lament/a om ‘
+Of the un -, ' unentatlon.
+Figure 1. The geogiiizm interests us is the actual matrix Iepi es
+ture of the group ~ '
+
+   
+
+Arvol'ding to a we
+
+3. Specializing assumptions
+
+estrictions I
+
+We now make the follown‘g r lateral fll‘idamental domain are rational.
+
+(i) The vertices of the quadri
+
+. . ' ' tegers. .. .
+.. ~‘ I ments are iational 1n , . ' ~ - ,
+(iii) rilllmatlsheiile show that these assumll‘iIons determine a speuhr‘ matrix
+In nr, “'9
+
+oo
+00
+
+ 
+
+  
+
+ma ooAB = no“ 00 A
+
+    
+ 
+
+Fin. 1. z-plane
+
+ 
+
+   
+
+ 
+
+MAnKorr’s MINIMAL FORMS 3
+
+representation of 9, (to w
+and scalar factors of — 1).
+from the ﬁxed-points of cer
+an additional class of anal
+lished, not by continued f
+
+ithin integral unimodular similarity transformations, - 3
+In Part II we shall Show how Markoﬁ’s forms come
+tam generating matrices of 9. In Part III we develop
+
+ogous forms whose minimal properties are best estab—
+rartions, but by this new method.
+
+I. REPRESENTATION or Tm: Gnorr
+
+4. Commutator
+We first perform an integral unimodular
+(rational) vertex of the quadrilateral funda
+
+site sides identiﬁed by the matrices A and
+vertices, we ﬁnd
+
+similarity transformation so that one
+mental domain goes to co , with oppo-
+B, as in Figure 1. Hence labelling all
+
+(41) 00” < mm : 00,!!! < 00/1.
+
+Thus no is a ﬁxed-point of the commutator B’IA’IB
+to integers in §3 (above) we write tentatively
+
+l 7.711_ :l:1k _
+(4,2) BABA—(O i1)~L
+
+A, and from the restriction
+
+for some integer In and some choice of :l: sign, We immediately see that only the
+
+minus sign can occur: For we write out the lower left—hand elements of the
+matrix equation
+
+BA = ABL
+
+ 
+        
+       
+     
+   
+       
+
+and we obtain
+
+(4.3) (b21011 + Imam) : $01211)“ + (19'
+
+ 
+
+1)
+according to the sign in L. 011 the other hand, from Figure I,
+‘thidn + [1220121)(02111n + unbeﬂliI
+(4.4) = (00A _ mAli)(wlh| _ my) > 0 QED.
+
+We shall later see that It must be $6, (except in Part 111).
+
+6. Change of generators
+
+To gain more information about the representation of 9, we select the simplest
+possible generators. It is more (convenient at times to use a triple of generators,
+[4 B C] where A and B are the previously mentioned pair and (7 is defined by
+A v , , .
+the ﬁrst of the following relations:
+
+1130:”, g —l In) [1'=<1 0>‘
+(5.1) {CBA = K) K — < 0 -1 , 0 1
+
+Formally speaking, the same relations (51) would l)(‘ satisﬁed (identically)

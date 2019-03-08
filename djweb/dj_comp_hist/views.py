@@ -181,6 +181,10 @@ def search_results(request):
     response = render(request, 'search_results.jinja2', obj_dict)
     return response
 
+def browse(request):
+    return( render(request, 'browse.jinja2'))
+
+
 
 def advanced_search(request):
     """

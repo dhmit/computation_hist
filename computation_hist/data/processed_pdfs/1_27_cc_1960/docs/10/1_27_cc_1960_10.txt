@@ -1,0 +1,362 @@
+Memorandum to
+
+ 
+
+From P.m.morse, Director E. I. T. Computation Center.
+
+Subject: Replacement of 704 by a 7090.
+
+Back’round - In June, 1957, somewhat less than three years
+ago, wJ§O4 was installed at the Computation Center by IRE, under
+a special agreement whereby IBM maintains the equipment, contri—
+butes toward amortizing the additions to the Compton Laboratory
+which house the Center and supports a number of research asso—
+ciates who assist users of the machine, and EIT staffs and oper-
+ates the Center for the use of HIT and other cooperating New
+England colleges and universities. The primary purpose of the
+arrangement is to enable students anﬂ faculty of these instit—
+utions to learn how to use high—speed conputing machines, so that
+the next generation of scientists, engineers and industrial exec-
+utives will be familiar with machine capabilities -- in other
+words the primary purpose is to demonstrate that such machines
+are as important a @art of the educational equipment of a modern
+college as are chemistry laboratories, for example. A secondary
+purpose is to foster research in the use of computing machines,
+particularly in those fields of application which have not yet
+been explored or exploited fully.
+
+To this end, priority on 704 tine has been accorded to
+regular class use by courses in machine programming and applicau
+
+ 
+
+tions, to students using the na .esis research
+
+and to research projects inveso
+
+ 
+
+new techniques a?nachine
+
+use. Particular attention h 5 been given to making it easy for
+
+(7]
+
+a
+the out~of~town users: rail service? special scheduline durin'
+a
+
+U
+“or those who cannot come to Come
+
+ 
+   
+   
+
+grown r:
+
+  
+
+.JF‘JJI'B 7.7 '
+
+which use
+
+
+7 —2_
+
+special coding courses which are given by the Center staff during
+each term and summer. A number of other oollegeu bring some of
+their classes in for one or more laboratory sessions. Class use
+will expand further, but its expansion will be hall‘gered bfy the
+limitations of access to the 704-, as will be discussed later.
+
+The use of the machine by the other colleges has expanded
+rapidly until nearly a full shift is now occupied with their work
+(including their class exercises). But this use tense to be self-
+limiting for, as soon as a college faculty begins fully to apprec—
+iate the possibilities in education and research of computers, the
+pressure builds up for a machine of their own on their own campus.
+By now at least ei@t oi‘ the cooperating institutions laws so nos 5 ~
+of their own. These are smaller machines, of the 650 twat “3’8" M4722”
+these instituions still come to the Center to use the 701! for their
+bigger jobs; but it does mean that the use of the Center W the
+other New England. colleges will tend to level off to a reelenable
+load (about one shift, it now appears) rather than growing :ontin-
+uously, as the HIT usage is doing. This result, of course? is in
+accord with. our conviction that computers should be as prevatgnt
+as chemistry laboratories. ‘
+
+In contrast, the MIT use of the 704 for research into law
+
+ 
+
+ 
+
+applications has grown so that new we are not able to satisfy ll
+
+H
+{9
+51.:
+3:".
+(D
+a)
+d
+(D
+H)
+o
+H
+B
+o
+['3‘
+{—1-
+5:;
+m
+or
+u...
+is
+(D
+H:
+o
+"3
+m
+(j
+0
+L?
+z!
+o
+‘3‘
+PT'
+u
+H
+(a
+
+a '1: alone routine proact
+calculations of the"production-run" type (important as these often
+
+ 
+
+are) even visa to encroach on the third machine shift, which
+has Leretofore been reserved. for 1131:"; use. In addition to the 3;
+research in solid-wstate theory, in meteorology and oceanography,
+
+wich not depenrl completely on machine computation and could
+
+    
+
+oped. an a:
+
+7.013- 15:39,. such as the
+
+
+loader, which combines Fortran, SAP and other special codes; COLIT,
+which enables the ?04 to be used on language translation problems;
+and LISP, which enables the machine to handle non-cnaeetatiesel
+logic, such as algebraic and other symbolic manipulation, are
+being developed and tested. The work at RIT in this field, since
+ﬁhirlwind days, is well known.
+
+Tine—sharing Technigues: we already have a typewriter connected
+to the 704, which works on a time—sharing basis with our regular
+operator routine, so new programs can be debugged at the same time
+that regular computations are being carried out on other problems,
+for example. The 704 cannot effectively accomodate more than one
+or two such sa telite channels, but the Center staff is now at work
+on t%%)design and programming required to provide a 7090 with 6/0
+to as such "substation consoles" of various effective speeds and
+capacities, which can be placed at appropriate places around LIT,
+some perhaps in class rooms. Leuﬂal
+
+ggchime-guideg Education: Computers can, of course, aid in
+
+ 
+
+grading examinations and do other clerical tasks incidental to
+
+large classes. But computers also can be programmed to carry out
+some of the detailed question—andwanswer interchange whicu occurs
+in recitation sections. The Center staff is now working wtth the
+Language Depa
+
+t
+through some of the phases of learning a new language, and LEG
+
+ 
+
+discussing the peas
+of mathematical manipulation by machine. Here the machine v1u.d
+‘ pose questions for the student to ansner and, o"
+emcee s, would
+
+‘ To avoid intolc*
+
+ 
+
+ 
+
+ 
+
+ 
+
+  
+
+eétéo
+
+
+”'4 -
+
+G can go on to the next step and
+n in turn. On the 704 this would,
+require the exclusive use of t e machine, though only a fraction
+of the 704 speed would be used; obviously again, time-sharing
+techniques are needed.
+
+the experiment or the so
+
+.3
+
+n"
+:1:
+
+io
+request the next corputatio
+
+D
+
+{'3‘
+
+These, and many other programs now in progress, such as
+the character-recognition studies ~ 1 m ", , the research
+on economic forecasting and on operational behavior using large-
+soale simulation techniques, should be of particular interest to
+IBh, for they have direct bearing on the progress of computer
+design and utilization. They represent the sort of cooperative
+research between experts in different fields which MIT does so
+eficctively, and they involve the combination of research and
+education for which HIT is pro—eminent. This work deserves
+support by IBM, in addition to the educational activities which
+are already being supagigegqu the present contribution of the 704.
+They can most effectivelyh y the installation of a 7090, replacing
+the 70#, in the near future; MIT will then be able to provide
+the staff and ancillary equigment to push ahead with dispatch.
+Because of the "inter~connoctedness“ of much of this research,
+
+J
+|.
+
+it can best be carried out (perhaps it can only be carried out)
+in the atmosphere of mutual cooperation and exchange of infora
+nation provided by the Computation Cater.
+
+Outlook for
+
+ 
+ 
+   
+
+only a part of
+
+utions,
+
+     
+ 
+
+.- 4
+Center. Obviour ity.qf ” r
+
+Mob/4428:;
+C ﬁar=lea0'
+
+   
+
+“-c
+
+  
+  
+  
+
+  
+
+ 
+ 
+
+close
+
+
+other new directions, which involve machine use (meteorology,
+nuclear reactor design ani the like) should be supborted by the
+
+Center by grants of some time only while they are in the formative
+stage, before they have been shown to be so obviously-practical
+that they can ask for financial support,for further computation,
+in their own right. By the time they have developed their pro-
+grams and their special techniques of machine use, and are ready
+to,exploit these methods by long "production runs", they should be
+in a position to obtain financing to run these computations on
+
+one of the several other similar machines which are or will be
+
+in operation in the vicinity.
+
+Even with this sort of limitation on the use of the Center
+facilities, the demands on the Center will grow. But the growth,
+if thus limited, will, we believe, be a manageable one, in keeping
+with what could be implemented by the cooperative effort of IBM
+and MIT. A 7090 within the year would not delay most of the work
+outlined above too seriousl . And, as outlined below, it would
+be able to handle them for several years, while plane are made
+for the next step. On the other hand, if a 7090 cannot be provided
+soon, several of the projects mentioned above will have to termin—
+ate or else will have to use other machines, which would inev-
+itably mean the dissipation of the Center's usefulness in
+coordinating this sort of research.
+
+It is not intended that the Center should have a monopoly
+of all computing around all; this would be unrealistic and, as
+
+indicated above, impossible. But it must play an active role in
+
+ 
+ 
+
+ 
+
+5
+
+supporting and insti _ting research into new applications if it
+
+is to continue to be the focus of new ideas and of exciting
+
+ch will attract, train and inspire the new generation
+dine experts. ' ')
+
+ 
+ 
+ 
+   
+
+Details of
+
+
+and the related program
+pests of the reseazch can
+\0 is installed.
+
+worL of the cooperating
+
+ 
+
+achine-use
+
+7‘1 be possible for IBZT,
+.lize the think shift in
+270L113. taper off,
+utlinel abcve
+3 (plus Baum-days) -
+the »,,I‘;‘ clasw-
+and .the new--
+time. HIT woul:
+in addition. to the
+
+u\
+
+
