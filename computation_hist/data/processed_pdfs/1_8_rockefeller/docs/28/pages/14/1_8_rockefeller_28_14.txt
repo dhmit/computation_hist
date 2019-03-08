@@ -1,0 +1,32 @@
+' m” may gamut of coca caches... .-
+
+ 
+
+nm s.1 1‘.- tosputation center will have its '
+
+ 
+
+permanent quarters on the M. I. '1‘. campus in the new Carl '1'. '
+Compton Laboratory, which is scheduled for completion about
+March 1957. In this building the Center will occupy >
+1 integrated parts at the basement. first tloor and second ‘,
+floor. This area him have office space tor-the research
+staff, technicians, research assistants and associates,
+besides ‘room for the computational equipment used by the
+Centsr. V I
+The computing equipment of the Center, which
+will be furnished by the 1.3.x. Corporation, villprimsrily
+consist of a 70k computer and the related peripheral
+equipment. This machine is an up-to-date, fast, general-purpose
+electronic digital computer. The basic machine code
+includes over 80 instructions, including those for arithmetic
+operations with floating—point numbers. The basic operating
+time is 24 microseconds for most instructions, with a normal
+maximum of 2&0 microseconds. The 70% to be installed will
+have a magnetic core memory with a storage capacity or
+8192 words, each word containing 36 binary digits. (The
+storage capacity will be increased to 32,768 registers in
+1958.) The computer will also have, as an additional
+storage device, a magnetic drum with a 8192 word capacity.
+
+As with most modern computers, magnetic tape is used both

@@ -1,0 +1,57 @@
+©©PY
+
+Outline 2; the Content g; the Subject Entitled
+
+CCMPUTATION g1 PUNCHED-CARD METHODS
+
+Verifying Machine:
+
+A. Key Punch and
+utilization of available
+
+1. 18M card - effective
+
+field designation - coding - principle
+
+ 
+
+space,
+
+of operation.
+
+2. Actual use of the £011
+
+024, 026, and 031
+
+Ancillary features:
+
+owing machines:
+
+duplication, skip bar,
+
+3.
+tabular inserts, printing, verifying and
+interpretation.
+B. Sorter
+1. Electrical principle of operation.
+2. Numeric and alphabetic sorting.
+3. Additional features: card counting device,
+group sorting device, sorting suppression device.
+C. Collator (077)
+1. Functional operations of matching, merging,
+selection and comparison.
+2. Description of selector and sequence unit.
+D. Reproducer (513)
+
+l.
+
+summary punching,
+
+punch blank column detecti
+
+ducing, gang punching,
+
+mark sensing, comparison and double
+
+on are discussed.
+/

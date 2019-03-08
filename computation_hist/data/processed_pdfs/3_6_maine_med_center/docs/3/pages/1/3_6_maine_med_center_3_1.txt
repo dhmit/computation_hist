@@ -1,0 +1,55 @@
+MAINE MEDICAL CENTER
+
+22 ERAMHALL STREET. PORTLAND. MAINE
+
+JOHN c.5AeKsn.DInEc1-on Dec. 29, 1958
+
+Prof. Philip M. Morse
+
+Physics Dept.
+
+Massachusetts Institute of Technology
+Cambridge, Mass.
+
+Dear Prof. Morse:
+
+This is in reference to my telephone call with regard to the possibility of using
+the M.I.T. computer for our project in electrocardiology. I am quite sure that
+there will be no difficulty in obtaining collaboration with one of the Maine
+colleges for this project. In the meantime, I thought I would explain the problem
+to you.
+
+In my opinion the closest model b the human thorax with a geometry that can be
+worked with mathematics is the finite elliptical cylinder. The boundary of the
+cylinder would be completely insulated including the top and bottom surfaces. I
+have in my laboratory an electrolytic tank in the font of an elliptical cylinder
+with which I have done some model measurements with an artificial dipole energized
+by hOO cycle AC current to simulate the heart. With this I have measured potentials
+around the boundary of the tank for many spatial dipole angles. This method, al-
+though fairly rapid, is subject to certain errors such as the difficulty of setting
+up accurately an artificial dipole in space. It is very difficult to know pre-
+cisely the spatial angle of the dipole and to keep the pole separation exactly the
+same for all angles. Another source of error would be instrumental. Our best
+accuracy in measuring instruments is only about 5%. If the equation for a source
+and sink or dipole in an elliptical cylinder is derived, however, the solution to
+the equation ought to be accurate within 1%, I should think. For a thorough study
+of the potential distribution one would want to do as many of the following things
+as possible:
+
+a) potential distribution on the boundary and in the interior of the
+cylinder for a given dipole orientation.
+
+b) Same as (a) for a sufficient number of dipole angles to cover all
+possible angles with interpolation.
+
+c) The effect of changes in the location of the dipole. Many distri-
+butions would have to be found to obtain general results.
+
+d) Same as above for elliptical cross—sections of various eccentri—
+cities.
+
+e) Evidence has accumulated that one should use two separate dipoles,
+that is, in the left and right ventricles, for an adequate physical
+model of the heart generator. Studies should therefore be carried
+out with two independent dipoles in the elliptical cylinder.
+Superposition of the fields would of course apply to this situation.

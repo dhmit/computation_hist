@@ -1,0 +1,120 @@
+K————
+
+“—" To: Professor P. M. Morse
+From: herbert Teaser
+
+Subject: Integration of Remote Console - Time Shared 7090 System
+Operation into MD I. T‘s Educational Facilities
+
+1. Bacgggcund:
+As'part of our general preparation for the 7090 system, we
+
+have been actively exploring the use of time - shared multipro-
+gramming, with one or many input-output devices connected.v We
+have successfully demonstrated with our flsxowriter project that
+time - sharing is a feasable method of running and testing pro-
+grams. ,
+
+As M. I. T. explores more deeply the problems of teaching and
+research, computers are certain to have more applicability as a
+teaching and research tool. This need will be fulfilled either by
+providing a large number of relatively slow, limited capability com—
+puting systems spread throughout classrooms and departments of the
+Institute; through time - shared usage of a large, fast, and versa-
+tile system such as the 7090, or perhaps via a combination of both°
+
+Based upon available information, the Committee assigned to
+study this problem; namely, F. J. Corbato, J. McCarthy, and H. M.
+Tagger, recommend quite strongly that the possibility of a remote-
+COnsole time shared 7090 system be broached withappropriate cathoritiss at ax
+early date, as an area deserving support improvement of teaching
+facilities_and techniques“
+
+2° Specifications for the Proposed System:
+
+At present, we are distinctly handicapped with respect to a
+detailed understanding of the 7090 lo is and constructionp* Lack-
+ing such information, it is extremely difficult to express feasa-
+bility in terms of cost, or any other terms other than "We know how
+to do it and We feel it will be a better solution than a multitude
+of small machines"a
+
+Basically, the system would be comprised of a 7090, several
+disc files, 5 — 10 remote inquiry stations similar to the 7070
+system stations (electric typewriters and some push buttons) , and
+sufficient channels and electronic hardware to make the system work“
+Some of the lemote Lecture Hall stations would, in addition, be
+equipped with self maintaining scope - displays and light pens.
+
+s This is a policy matter that we feel should be broached at a high
+level with IBM 3n seenriug their cooperationo
+
+
+-2-
+_ so each user of a remote console, the 7090 system would appear to
+
+be a slower running machine, but he would have available to him any
+of the powerful programming and diagnostic systems now in use, as
+well as a large central filing system for his own programs and discs.
+
+Problems or program safety“ and accounting can be presently. solved
+with known techniques.;
+
+3». Problems to be studied and Solved:
+1. Hardware - As has been previously stated, not enough is pre-
+sently known about the 7090 design to give definite specifications
+for what is needed. However, there are several "Must'I items that
+can best be provided through IBM that can (by their lack) invali-
+date this as a reusable system. The lack of these- items is not
+too probable if IBM cooperation is achieved at a high level on the
+basis of the novelty, and general applicability of the system.
+A) Disc files - A must item. Our prior specs for a 7090 system
+do not include discs since IBM has not announced them for the
+7090. They have, however, equipped a sister machine, the 7070,
+with low speed dzscs. These will be invaluable in providing
+random access to programs and programming systems to all con—
+current users.,
+B) Remote Inquiry Stations - Another must item. Such inquiry
+stations should be wire connected to the 7090 in order to mini-
+mize both cost and maintenance. Although flezowriters could be
+used, we would be far better off in using the remote inquiry
+stations that IBM uses with the 7070 system, or possibly with
+their 305 system.
+0) Guard or Bounding; Registers - A definite highly desirable
+item} In time shared usage, the problem of program compete-
+bility becomes of paramount interest. Lacking such registers,
+the solutions to compatibility will either limit the overall
+speed of the system ( as in our flexo monitor - interpretive
+system where speed drops by some )40 ) or else the flexibility
+of the system by restricting the programmer to completely safe,
+and foolproof program systems; IBM has developed such registers
+for their "stretch" system, but it would be highly unlikely that
+
+ 
+
+  
+
+s Preventing unwanted modification to other programs concurrently in
+memoryo
+
+m- But presently unlikely on the 7090 due to cost:
+
+
+-3. '
+
+they could be available on the 7090 without IBM cooperation.
+
+D) Alarm (nooksa Self Maintainigg Scope Displays;I etc. - Such
+items are desirable, but can be designed with available talent
+
+exclusive of IBM.
+
+11. Conclusions and Recommendations:
+
+It is therefore recommended that the system be broached with.
+appropriate authorities at an early date, and further that high
+level representation be made to IBM to assure cooperation.
+
+Herbert H. Teaser
+
+

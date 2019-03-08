@@ -1,0 +1,58 @@
+N. l
+
+IN REPLY
+REFER To:
+
+T-7
+
+UNIVERSITY OF CALIFORNIA
+L05 ALAMOS SCIENTIFIC LABORATORY
+(CONTRACT W-74OS-ENG-36)
+
+P. 0. Box 1665
+Los ALAMOS. NEW MEXICO
+
+May 11*, 1957
+
+Professor P. M. Morse
+Massachusetts Institute of Technology
+Cambridge, Massachusetts
+
+Dear P .M.M. :
+
+I trust you finally got home from Washington. My plane just made it
+to Laguardia as the weather closed in.
+
+The Clebsh-Gordan picture looks rather grim. Say 1 and l' are to be
+combined to give L. Then for given magnetic quantum numbers m and m'
+as well as for a given 1 and 1‘ there are a total of
+
+(1+l') —!m+m'l+1
+
+possible L‘s. This expression must be summed on m:lmls l, and m':
+lm‘lg l‘, and then summed on 1 and 1' from Zero to some maximum value
+which we wish to include in the table.
+
+The leading term in the resultant sum goes as l5 (sob). A fractional
+coefficient in front of this term can be gainedmg§ taking account of
+
+the various symmetries of the C.—G.'s but this is immediately obliterated
+as soon as you include half—integer angular momenta.
+
+. : 9
+Did I hear somebody say lmax 30.
+Nick sends his warmest regards.
+
+Sincerely,
+
+MW
+Manuel Rotenberg
+
+.___—_—_nﬂ
+
+Mﬁ;pae
+
+P.S. There exists a ”Numerical Table of the C.—G. Coefficients" by
+Albert Simon, Oak Ridge: ORNL-lYlB, up to l=l'=j/2. This seems
+good enough for most problems feasible without a high speed
+computer.

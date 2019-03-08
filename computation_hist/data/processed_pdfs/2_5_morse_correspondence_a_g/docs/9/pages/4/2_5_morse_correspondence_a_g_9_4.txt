@@ -1,0 +1,109 @@
+PROBLEMS IN MECHANIZING THE SEARCH
+IN EXAMINING PATENT APPLICATIONS
+
+Introduction
+
+During the short time that the Office of
+Research and Development has existed in
+the U. S. Patent Office, it has become
+abundantly clear that the complexity and
+enormity of the problems to be solved in
+mechanizing the searching of patent ap—
+plications is not appreciated by many
+working in the related field of informa—
+tion retrieval. Much of the time of this
+staff is taken in repeatedly explaining
+these problems. This paper, therefore,
+will portray some of the many details and
+complexities which occur in the search—
+ing process and outline some of the mani~
+fold and interrelated problems that are
+being considered in our research into
+methods for, and means of, solving these
+problems.
+
+The patentability search is the first
+step in the examination process, which
+process constitutes the determination of
+whether a patent should be granted on a
+patent application. The requirement that
+examinations be conducted is embodied
+in law and constitutes a fundamental
+characteristic of the operation of the
+Patent Office. Examination of patent
+applications involves examining printed
+publications for disclosures of similar
+structures, methods, compounds, compo»
+sitions, etc. which may have been dis—
+closed in the past and evaluating the
+similarities and differences between this
+recorded knowledge and the alleged in—
+vention for which a patent is sought.
+
+In order to understand the analysis which
+follows, one should be aware that patents
+are not granted on ideas. An alleged in:
+ventor who wishes to apply for a patent
+must disclose and describe at least one
+preferred embodiment of his idea in a
+patent application. And, if the nature of
+the alleged invention admits of illustra—
+tion, drawings are required illustrating
+
+ 
+
+5
+
+the detailed structure of the embodiment(s)
+which he has elected to disclose.
+
+Broad Statement of
+Problem
+
+An excellent statement of these mani—
+fold problems in their broadestaspect, and
+of cogent reasons for the necessity of a
+solution to them through automation, was
+contained in the report of the “Bush Com—
+mittee," (l) which stated in part:
+
+Our patent system . is based on a
+simple but wise philosophy. The grant ofa U. S.
+patent gives the inventor a temporary exclusive
+right in return for a full disclosure of his idea.
+Creative thinkers are thus provided with a solid
+incentive for the development of the new and im-
+proved. Simultaneously, the disclosure of the
+invention stimulates further and constant ad-
+vancement. In effect, each novel idea becomes a
+“seed" from which a flourishing tree of practi-
+cal knowledge can grow.
+
+Thus the files of the Patent Office comprisea
+veritable treasure house of information upon
+which much of our industrial progress has been
+based, including ideas whose significance may
+not be realized for years after the disclosures.
+They give today a clear indication of the present
+thinking of the most ingenious minds in the
+country as to where we will be five years or
+more in the future.
+
+The patent system plays a major part in the
+creation of new products and processes. These
+appear every year and stimulate the establish-
+ment of new companies to produce them. How-
+ever, the individual inventor or smallbusiness-
+man is severely handicapped if he must wait
+several years for his patent to issue or if he
+must operate for a period of years, in uncer-
+tainty as to the possible appearance of a con—
+flicting patent. If valid patents cannot beobtained
+with reasonable dispatch, inventors are dis»
+couraged and small businesses are without the
+modest protection which enables them to enter
+the field in competition with the larger, well
+established firms. Yet it is the efforts of in»
+ventors and the continuous advent of small
+firms that keeps our economy flexible and free
+of stagnation.

@@ -1,0 +1,33 @@
+Draft
+
+ 
+
+The Linking Segment System, F. J. Corbato; J. McCarthy
+
+In future operation of the Center a situation is con-
+templated in which there are a variety of programming languages
+in use including SCAT, FORTRAN, LISP and others which may be
+developed for various purposes. Programmers may wish to usea
+togetherg routines éiaéi have been written in one or more of these
+languages. Routines will be stored on tape or disc files and
+should be callable into arbitrary memory locations by loaders and
+linkable to new routines through the symbolic names of programs,
+data arrays and parameter values. In a time sharing mode of
+operation it should be possible to remove from core memory a
+routine that has been waiting too long for typewriter input and
+bring it back later when it is needed; but possibly to a different
+location, since its old place may be taken.
+
+Of the presently available systems}SQUOZE and the FORTRAN
+II BSS system come the dosest to meeting the requirements. However,
+their deficiencies will not be discussed here.
+
+To improve the above situation a new program form has been
+developed that is especially suitable as compiler output. Sub—
+programs in this form are called Linking Segment Subprogram (LSS).
+The principle innovations of LLS are:
+
+l. Selective retention of symbolic information from
+the source subprograﬂbut with the bulk of the text in relocatable
+
+binary.

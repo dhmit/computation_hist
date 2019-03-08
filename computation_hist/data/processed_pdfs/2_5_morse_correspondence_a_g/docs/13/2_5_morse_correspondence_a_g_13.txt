@@ -1,0 +1,109 @@
+ﬂ
+
+ 
+
+Approximations for Digital Computers
+
+§,Jr. . 13h rimnla 51m: - Laniimi, Hmknii
+
+ 
+
+Corii lids!
+
+Note—l7
+
+APPROXIMATION NEWSLETTER
+(Late edition—-very)
+
+After a long hiatus, we finally present
+another installment of our cartoon strip
+adventures.
+
+The Converging 2 Method {Part V}
+
+Let us glance back at the Part IV install—
+ment. We finished there with a deviation
+decreasing cycle in which the greatest
+error of approximation was reduced to
+6:.558. In the initial portion of the next
+cycle, deviations of magnitude (.356)(.65):
+.304 are imposed at i=l and 1:2, with the
+result given in (2) after 'Compute Error
+Data.’ Here .395>.558 and this cycle turns
+out to be a 'p Increasing Cycle' as indi—
+cated in (5).
+
+ 
+
+The calculation
+
+(1) 129—332: .925
+
+takes place.
+
+the next cycle thru use of p=.925 becomes
+evident in (4). Note that (.358)(.925)=.551
+and that .5517.507h As a result .351 is
+imposed at i=1 and .507 is imposed at 122.
+Because of the situation achieved in
+
+memory B in (4), the control now shifts to
+deviations i=0 and i=1 as pictured in (5).
+
+This is the situation that we have been
+trying to achieve; nothing now stands in
+the way of successful convergence.
+
+
+Approximations for Digital Computers
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+    
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+p=.85
+The Converging p
+Method
+(PortV)
+(I)
+r
+p inczreosing Cycle
+p: 85*925
+(3) $4)
+5:352
+One More
+Time
+L
+(6)
+
+

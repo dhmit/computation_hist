@@ -1,0 +1,47 @@
+Minutes of the Eighteenth Meeting
+of the
+Committee on Machine Methods of Computation
+June 7, 1951
+
+gagsgg Present: R. R. Everett, Z. Kopal, C. Lin, P. M. Morse,
+> and E. Reissue:
+
+Morse announced that the next meeting of the Committee would
+be in Dr. Stratton's office 10:00 A. 1., Wednesday, the 20th of
+June. The agenda at that meeting will be a discussion of future
+plans for the ORR contract and for activities in the general field
+of computing machines for next year. Morse suggested that Pro—
+fessor Martin be asked to come to the meeting to discuss possible
+Mathematics Department plans.
+
+Reissner brought up a new applicant for a part—time assistant-
+ship in the machine field for next year -- Mr. B. F. Handy. He
+recommended that the Committee approve this appointment, and, after
+discussing'the candidate‘s qualifications, the Committee did
+so approve. It was to be left to Mr. Everett and Professor
+Reissner to see Mr. Handy and to decide as to whether Handy's ap-
+pointment as a half-time assistant should start about July first
+or whether Handy should be employed as a full-time DIG staff member
+on the Whirlwind Project for the summer, going on the half-time
+Math. Department appointment at the beginning of the Fall Term.
+Reﬁssner is to notify Morse's office as to which decision has been
+ma e.
+
+Morse reported that Verzuh had completed his Math. minor
+program by obtaining a grade of C in D1139. He said that Verzuh
+feels he will be ready for his general examination about the fif—
+teenth of July. He asked Kopal to notify Professor Wiesner that
+Veranh's examination is coming up this summer so that a proper ‘
+date could be set for the oral part of this examination. Morse
+will write a note to Professor Martin, requesting the Math. De-
+partment to supply a written part on the appropriate subjects in
+mathematics to be taken before the oral. The oral part will be
+on selected topics in electrical engineering and on computing
+machine operation and computational methods“
+
+The next meeting of the Committee will be on June 20, as
+
+mentioned above.
+Philip M- orse, MK
+
+Chairman

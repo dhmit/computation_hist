@@ -1,0 +1,145 @@
+HARVEY COHN
+
+272 or negative power of (§=)exp21ri/N' ln
+
+- in fee of K” over R.
+15:22:30“ 4’ N). 5 n, :ifhiecgase where N his 3 Square factor, say P2! f0r P 21 Prime
+
+First we dispose 1 (=2: + 1) proleCtIOn vectors R23[u] for n + 1 Units ul-
+a set of vectors can never.be positively dependent.
+31 show ’5 ‘nates of Rhlu] (see equation (13.34)) are the co .
+tive power of f. Thus if we Write out any n +n.
+(n/p) + 1 of them belong to the Same resid 1
+linearly dependent (with rational Coefﬁcient:
+ct that the CyClotomic equation of degree n, deﬁning l”, i;
+. n of degree n/p in (a, Hence, by coniugates, a linear (rational)
+io proper subset of any n + 1 vectors R1411], “eluding
+
+a positive this
+
+KN hence
+
+jugates of so a ﬁnd that some
+are therefore
+
+' ' dependence- ‘ - ence ne es ‘
+F in now on. we assume N is square free. h c sarily odd (and greater
+r0
+
+3 f convenience). We build the positive dependence from the relaticm
+than 0"
+
+5““ — MN) = o
+(16.1) .21 .
+the n(=¢(N)) residue classes relatively prime to N, and
+will??? 31:30:?“ inversion function. We then take the 25 + 1 units (of Which
+u 15
+
+. ' ‘ ‘ d):
+n ugate is indicate a
+one to J “on = {a i(N+1) (k = Ivan-.11),
+(162) “(‘M = 1 if “(Ni = -1.
+I =(1—f)" lfp(N)=+1y
+
+(sincel ._ g is a unit now if and only if N is no prime power). We further see
+
+that
+
+aim/11(5) = (a: (k = 1.2. . ..,n),
+(16.3) uiﬁlvﬁin“) = __ MN),
+and hence from (16.1)
+
+n+1
+
+(16.4) L; R2.[u‘“] = 0.
+
+16.4) asserts positive span in the ”2:" projection on ‘
+[um] are proportional to the relation
+
+1y a trivial relationship among
+to the contrary, that the
+
+' ce we
+Now equation (
+
+know that all linear relations among R25
+(16.4). Otherwise expressed, we assert there is on
+the R,,[u“"] if [2 takes the values 1 < k g n. Assume,
+system
+
+" H. ‘g.
+(16.5) zany =0 1g)“ l
+
+k=1
+. . A
+has a real non-trivial solution in Ak. Then a relation must eXist wheretiﬁt;
+belong to KN and (Say) A; = 1. By applying the Gal0is group Ofefe: Thus
+2 .
+
+(16.5) we derive a system in which the At are rational and not a1
+
+ 
+
+ 
+
+   
+   
+  
+  
+  
+ 
+  
+ 
+ 
+ 
+ 
+  
+  
+
+STABLE LATTIcEs
+relationship (1615) contradicts the fact that f and . . 273
+NH”) provide a. (normal) basis of KN. (Th‘ Its conjugates {11. (k = 1
+i4, p- 351) when N is prime; when N is com . .
+product ﬁeld decomposmon extends the result).
+Having disposed of the “25" Projectiim, w
+
+- e must sh
+jections, (see equation (1332) above). are positive]y SPaEhVEdthM '
+“mg Of §11 (above), we can reduce the Problem to the followin:s m
+
+the
+
+el 5 be any non-identical automor hirm N 4
+L P of K over the rationals, distinct from
+
+. ' ’ h
+
+1" F 1' thenn ﬁg: 3”?) 1d )7. (1 g h < 5) Can be found for which 1h
+
+RSM) = (u‘ )/u( ) , u< l/u< )8) are poxilively dependent. HereS' fﬁﬂe vectorr
+transformation: 15 giVen by the
+
+(16.6) Sit—H" (giN)=1.g¥:hl(modN).
+
+Then we can take as the ﬁve units a”) = 5v, {—1, (a, g.“ 1 res e t' l
+
+is chosen as a function of g in such a manner that R50.) Eire P0551365], where a
+The speciﬁc details are tedious and are omitted as they have no bey ,ependent.
+square-free nature of N but rather depend on the “Small ga ” t aging on the
+used to determine Mi in §11. p YP°0 argument
+
+REFERENCES
+
+10. C. Carathéodory, chr den Variabilila'lsberei ' ' ~
+math Pam-m0, 32 (1911)! 216' ch tier Fourier schen Konstanlen, Rand. Circ.
+H. H. Cohn, Note on ﬁeld; of rmall discriminant, Proci Amer. Math. Soc, 3 (1952) 713—714
+12. , Stable laiiizex, Can. J. MathY 5 (1953), 261—270. Y I
+13. H. Hasse, Uber die Klasxcnzuhl abelsclier Zahlkarper (Berlin, 1952), 26—30.
+14. D. Hilbert, T/iearie deraigebraixchen Zahlkarper,Jahresberichtderdeutschen Mathematiker-
+Vereinigung, 4 (1894), 177—546.
+15. E. (Slgelll;tl, Bedingt konvergente Reihen und kanmce Syiieme, J1 reine angew, Math, 144
+14 , 15.
+
+ 
+
+WWW University
