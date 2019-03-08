@@ -20,7 +20,6 @@
     <div class="col-lg-3 col-md-3 col-sm-6">
     </div>
     <div class="col-lg-6 col-lg-offset-2 col-md-6 col-md-offset-2 col-sm-12 col-sm-offset-4">
-    <form action="/dj_comp_hist/advanced_search">
         Look for documents in boxes (check all if unsure):
         <br>
         <div class="form-check form-check-inline">
@@ -56,7 +55,7 @@
                 <br>
                 CTRL + click for Windows, Command + click for Mac
             </label>
-            <select multiple class="form-control" id="multipleSelect" name="doc_type">
+            <select multiple="multiple" class="form-control" id="multipleSelect" name="doc_type">
                 <option selected>unknown</option>
                 {% for type in doc_type %}
                     <option>{{ type }}</option>
@@ -64,18 +63,19 @@
             </select>
         </div>
     <br>
-        Filter by number of pages: <input name="minPages" type="text" value="1"
+        Filter by number of pages: <input name="minPages" type="text" value="1" id="minPages"
                                           style="width:25px">  to <input name="maxPages"
-                                                                        style="width:25px"
-                                                                        type="text"  value="30">
+                                                                         id="maxPages"
+                                                                         style="width:25px"
+                                                                         type="text"  value="30">
     <br>
-        Filter by year: <input name="minYear" type="text" value="1945"
+        Filter by year: <input name="minYear" type="text" value="1945" id="minYear"
                                           style="width:50px"> to <input name="maxYear" type="text"
-                                                                       value="1970"
-                                                                       style="width:50px">
+                                                                        id="maxYear"
+                                                                        value="1970"
+                                                                        style="width:50px">
     <br><br>
-        <button type="submit" class="btn btn-primary">Submit</button>
-    </form>
+        <button type="button" id="button" class="btn btn-primary">Submit</button>
     </div>
     </div>
     <br>
@@ -128,4 +128,29 @@
 {% endblock %}
 
 {%  block footer %}
+    <script>
+    document.getElementById('button').onclick = function() {
+        alert("button was clicked");
+        var multiSelect = $('#multipleSelect').val();
+        var url = "/dj_comp_hist/advanced_search/?";
+        if (document.getElementById('checkBox1').checked){
+            url += "checkBox1=1&";
+        }
+        if (document.getElementById('checkBox2').checked){
+            url += "checkBox2=2&";
+        }
+        if (document.getElementById('checkBox3').checked){
+            url += "checkBox3=3&";
+        }
+        url += "author=" + $('#inputAuthor').val() + "&";
+        url += "author=" + $('#inputReceiver').val() + "&";
+        url += "doc_type=[" + multiSelect.toString() + "]&";
+        url += "minPages=" + $('#minPages').val() + "&";
+        url += "maxPages=" + $('#maxPages').val() + "&";
+        url += "minYear=" + $('#minYear').val() + "&";
+        url += "maxYear=" + $('#maxYear').val();
+        window.location.href = url;
+        return;
+    }​
+    </script>
 {%  endblock %}

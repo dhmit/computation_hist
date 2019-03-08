@@ -2,6 +2,7 @@ from django.shortcuts import render, get_object_or_404, get_list_or_404
 from .models import Person, Document, Box, Folder, Organization, Page
 from django.template import loader
 from django.db.models import Q
+import json
 
 # Create your views here.
 
@@ -225,7 +226,7 @@ def advanced_search(request):
     except:
         print('Error getting recipient name')
     try:
-        doc_types = request.GET['doc_type']
+        doc_types = json.load(request.GET['doc_type'])
         print(doc_types)
         if isinstance(doc_types, list) and 'unknown' not in doc_types:
             queries = [Q(type__icontains=t) for t in doc_types]
