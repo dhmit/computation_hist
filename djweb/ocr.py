@@ -55,6 +55,10 @@ def ocr_pdf(input_pdf_path, return_type='text', output_pdf_path=None):
         if not output_pdf_path.parts[-1].endswith('.pdf'):
             raise ValueError('output_pdf path should end in ".pdf"')
 
+    if return_type == 'text' and output_pdf_path:
+        raise ValueError('return_type is text but an output_pdf_path was also specified. Most '
+                         'likely, you want to use return_type="pdf"')
+
     # Converts pdf into a list of PIL files
     skewed = pdf2image.convert_from_path(input_pdf_path, fmt='jpg')
 
