@@ -194,6 +194,7 @@ def advanced_search(request):
     :return:
     """
     boxes = []
+    print(request.GET['doc_type'])
     if "checkBox1" in request.GET:
         boxes.append(1)
     if "checkBox2" in request.GET:
@@ -226,7 +227,7 @@ def advanced_search(request):
     except:
         print('Error getting recipient name')
     try:
-        doc_types = json.load(request.GET['doc_type'])
+        doc_types = request.GET['doc_type'].split(',')
         print(doc_types)
         if isinstance(doc_types, list) and 'unknown' not in doc_types:
             queries = [Q(type__icontains=t) for t in doc_types]

@@ -51,12 +51,12 @@
     <br>
         <div class="form-group">
             <label for="multipleSelect">
-                Document Type, if known:
+                Document Type, if known (select unknown if not):
                 <br>
                 CTRL + click for Windows, Command + click for Mac
             </label>
             <select multiple="multiple" class="form-control" id="multipleSelect" name="doc_type">
-                <option selected>unknown</option>
+                <option>unknown</option>
                 {% for type in doc_type %}
                     <option>{{ type }}</option>
                 {% endfor %}
@@ -130,7 +130,6 @@
 {%  block footer %}
     <script>
     document.getElementById('button').onclick = function() {
-        alert("button was clicked");
         var multiSelect = $('#multipleSelect').val();
         var url = "/dj_comp_hist/advanced_search/?";
         if (document.getElementById('checkBox1').checked){
@@ -143,14 +142,13 @@
             url += "checkBox3=3&";
         }
         url += "author=" + $('#inputAuthor').val() + "&";
-        url += "author=" + $('#inputReceiver').val() + "&";
-        url += "doc_type=[" + multiSelect.toString() + "]&";
+        url += "receiver=" + $('#inputReceiver').val() + "&";
+        url += "doc_type=" + multiSelect.toString() + "&";
         url += "minPages=" + $('#minPages').val() + "&";
         url += "maxPages=" + $('#maxPages').val() + "&";
         url += "minYear=" + $('#minYear').val() + "&";
         url += "maxYear=" + $('#maxYear').val();
         window.location.href = url;
-        return;
-    }​
+        return;}
     </script>
 {%  endblock %}
