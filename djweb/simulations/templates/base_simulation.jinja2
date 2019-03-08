@@ -8,9 +8,12 @@
                 <h3>Code</h3>
                 {% block code %}
                 {% endblock %}
+            <br />
             </div>
-            <div class="col-sm-6 pre-scrollable" id="general_memory_div">
+            <div class="col-sm-6">
                 <h3>General Memory</h3>
+                <div class="pre-scrollable" id="general_memory_div"></div>
+                <br />
             </div>
             <div class="col-sm-3 other_registers">
                 <h3>Other Registers: </h3>
@@ -24,10 +27,12 @@
                 <br />
             </div>
         </div>
-        <button id="assemble_button">Assemble</button>
-        <button id="step_button">Step</button>
-        <button id="run_button">Run</button>
-        <button id="clear_button">Clear</button>
+        <div class = "col-sm-12">
+            <button id="assemble_button">Assemble</button>
+            <button id="step_button">Step</button>
+            <button id="run_button">Run</button>
+            <button id="clear_button">Clear</button>
+        </div>
     </div>
     <br />
     <div class = "jumbotron text-left">{% block description %}{% endblock %}</div>

@@ -7,9 +7,11 @@
 {% block code %}
     <textarea class="form-control" id="code_box" spellcheck="false"
                       placeholder="Code here!"></textarea>
-    <br />
 {% endblock %}
 
-{% block specific_script %}
-    <script src="{{ static('js/general_assembler.js')}}"></script>
+{% block description %}
+<p>This is your space to play around with whatever code you want to write with the operations we have.
+    It's just like the real thing, except there are no punch cards.  And you can type instead of writing.
+And we actually check your syntax.  And no bugs can crawl into the computer.  But aside from that,
+it's just like the real thing!</p>
 {% endblock %}
