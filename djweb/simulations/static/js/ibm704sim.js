@@ -948,7 +948,9 @@ class IBM_704 {
         for (let line_no in code_lines) {
             let line = code_lines[line_no];
             console.log(line);
-            
+            if (!line.replace(/\s/g, '').length) {
+              continue;
+            }
             if (isNaN(register) || register >= this.size || register < 0) {
                 alert("Error: Tried to program to invalid register " + register + "on line "
                     + (parseInt(line_no) + 1) + "!  Register must be integer between 0 and " + (this.size - 1) + ".");
