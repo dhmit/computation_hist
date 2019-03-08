@@ -1267,6 +1267,17 @@ function LXA(computer, address, tag) {
     index_register.update_contents(address_to_store);
 }
 
+/**
+ * Emulates the IBM 704 FAD operation.
+ *
+ * Adds the floating point value of word at specified address to the accumulator, and stores the result
+ * in floating point in the accumulator and the MQ register so that the MQ register contains floating
+ * point error.  This process involved a complex series of bit manipulations, so this implementation
+ * which uses Javascript to get around all that might be off by a couple bits.
+ *
+ * @param {IBM_704} computer    Machine to execute instruction on.
+ * @param {number}  address     Address of word to be added.
+ */
 function FAD(computer, address) {
     let sum = computer.general_memory[address].floating_point + computer.accumulator.floating_point;
     if (sum === 0) {
