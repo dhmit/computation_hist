@@ -1,0 +1,163 @@
+HARVEY 001”-
+
+28 . . . .
+8 enel‘ which represents the hold discriminant
+c:
+
+nts the index of the sub-lattice (or module)
+evers ot the ﬁeld. of course A is invariant
+o
+
+1 ’ 1 int
+columns. Here A is at
+
+“’ v - i' ‘ rese
+multiplied by 1', \iheie ] 19p1 M
+of integers in the ring of a
+i basis.
+under chanve o . . ~
+In theousual notation “110}?! sub 4 (a
+norm and discriminant of the vector A _. h
+C
+
+(32) dtd) = [(04" dexﬂuiduxaxi'a )12,
+
+—scripts denote conjugates: we denote
+a2, a“) by means of
+
+th
+
+(8.1) Ntd) :1 (Mania;
+
+yifn.=a=ﬂs ' . . V
+hermore when A is an algebraic Integer) A
+
+= rational number, While N(A) = 0
+
+Clearly th
+
+only it (n t
+
+, . l in overs,
+
+and [hm] :lltiieit 1:110: that when A is bounded (and > 0) the norms of at
+
+t‘ n - ~ V . ., _
+
+'t (her; of the four algebraic integers P, Q: R: 5 ML hounded t< (A/ 3)‘)
+
+hill the discriminants of all twelve fractions of the type P/Q = (pi/(1i) are
+
+H19. restricted to a ﬁnite set of rational fractions (whose numerator-s g0
+
+' ’lSC '1 ' 7 ,.
+
+[1:21 to [(A/3)5] and Whose denominators go from 1 to [ (A/JVE‘I).
+
+1" The above conclusions follow from the expansion of A in (4.]) along
+
+(my) columns R and S using, each time, the minors of I’ and Q.
+
+—A =(p,ql;qﬁ32)1'u ‘i’ ([1:th " 4317!)“ ’t‘ (1}:{13 ’ (121)07'17
+(8‘ 3) + A = (piqg— 9117983 + (Ps‘Ii — (131032 ‘t’ (P294: ’ ’Izl‘il-“i-
+
+Now take either the upper or the lower lines of (8. 3) according as (1’19: ; twig)
+is negative or positive. (Note that piqj—quisé 0 for isi/zj hy the rational
+independence of P and Q.) In (say) the ﬁrst case, reterenee to system
+(4‘22) reveals that ——A is the sum of three negative quantities :thhrmnited
+
+I| + i2 + 133, whence easily,
+(8.4) (Li/3P:lt,t:t3l=l]\"(lf)|-l G(P,O)t.
+
+where Gill“, 0) = (1nq.-— q1p2)”(1oq. - qainana f quilt)“. Sinec SW; (at
+1' it i .
+
+is a rational integer, it follows that one column7 If, at the chosen pat ,
+see that some three 0t
+
+).
+
+has bounded norin. By repeating the argument we
+the column vectors (say) P, Q,R have hounded norin (as indicated ahow
+Likewise7 regardless of whether R or S has the hounded nm'nn
+
+(8‘ 5) Gil” 0) = rumor/0) = revue/P);
+
+hence any of the twelve fractions of the type P/Q hi”- from (8‘ M’ a dis-
+criminant restricted to the set of Values indicated ahm'e.
+
+9. Completion of ﬁniteness proof. l'sinfj the previous information 11‘
+
+us suppose that ﬁxed rallies 0t TWP/[fl NtQ,"].’). {HP/Id). t/W [it '1‘!) W»
+
+ 
+
+ans/Ir) are gr
+
+a! ﬁnite set.
+
+rallies.
+To see
+S/Ii’ == (; 1
+
+This consti
+
+ 
+
+ 
+
+no more t
+bility is slit
+solutions f
+dimension
+calculate f
+that this pt
+
+Now
+
+are finite
+t) belong
+number 4
+number
+011 the n
+
+10.
+tlS a deﬁ
+over to
+0t the c
+
+“llpl 11V
+ones Cu
+
+(10.1)
+
+ 
+
+A lattice in
+thr . ‘ ,
+.‘c ) p n 66 d‘mensmn .
+l , r2 . are. together With whal‘space Will) be called re
+
+duced if i
+
+1i (j = 1, 2, 3% . ts basis VeCtoi-s
+
+ed ' - ' i
+can be deﬁned. If .quateinury torms 11272.net" (7' ~
+be shown there ar -
+
+and the‘neighbor conce "
+tures. Finding the stru- '
+
+s8forms connected like . 1' ‘b p = 49’ the
+. en 0. ‘OrD = 81
+
+Orms res ect' - .
+urn out to correspond to abelizm geld: ely. Structures with
+
+s, (if/course, leads to nnities of the ﬁeld Md the periodicity
+
+lVAYNE UNIVERSITY,
+DETROIT, Alla-1., U. S, A.
+
+Of the structure

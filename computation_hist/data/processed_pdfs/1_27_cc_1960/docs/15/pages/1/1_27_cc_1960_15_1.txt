@@ -1,0 +1,40 @@
+Computation Center Usage and Needs
+
+ 
+
+ 
+
+The purposes of the Computation Center are: education in modern
+computation and research in techniques of programming which make computers
+easier to use. These two purposes are important since graduate students
+who have used the Center frequently go on to research, business, or
+teaching positions where their computer insight is influential; faculty
+members who use the Center are, of course, in a key position to
+inject the advanced computer procedures which they have acquired in
+their courses.
+
+Programming Systems
+
+To further education and the closely allied research it is
+important that computers are made easier to use then they presently
+are. Up to now these improvements have been made by the Center staff
+preparing efficient utility programs for general use; in particular
+symbolic post-mortem programs, an automatic operator program, and many
+special utility programs for Fortran programs. An inevitable consequence
+of these programming system improvements is that they raise the number
+of potential users of the computer and hence the over—all demand on
+the computer facilities. Today M.I.T. essentially uses all of its
+one shift of IBM 704 time and the New England colleges are using more
+and more of their shift. In addition, many users have become convinced
+that computer techniques are the proper procedure for their field and
+would like to use the computer in larger amounts of time than they are
+presently able to do. These include typically real—time metarology
+predictions, simulation studies of business models and involved cal-
+culations arising in theoretical solid-state and molecular physics.
+
+For the relatively new application of symbolic manipulations,
+there have been two other systems developed. The Center staff
+has prepared a Special compiler-interpreter system called COMIT which
+is primaﬁly for linguistic studies. The second system consists of
+the LISP language developed by Professor McCarthy and is a quite
+different programming system. It has a mathematical logical approach

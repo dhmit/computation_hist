@@ -1,0 +1,58 @@
+108 J. H. GIESE AND H. COHN [V0]. XI, No. 1
+
+at A, the characteristics actually extend some distance beyond A as shown. In the
+simple waves u,x and w are known on A3,, and AB l, . Hence <1> and alt/6X... are known
+by (2.9). The characteristic initial value problem for (2.11) with these initial data will
+have a unique solution in some sufﬁciently small characteristic quadrilateral ABRC’BL ,
+where C may be assumed to be on the Y—axis. Since the initial data are symmetrical
+with respect to the Y-axis, so is <1). Extend <I> beyond BRC’ as the velocity potential of a
+conical simple wave. In general, the corresponding straight characteristics will not be
+centered. However, if the double wave ABRCBL is kept small enough, their envelope
+and intersections can be kept arbitrarily close to E I, , well beyond the boundary to be
+constructed later. Between the two simple waves in X > 0 there falls a region of uniform
+ﬂow with the velocity mm of BR . Extend the deﬁnition of <I> symmetrically with respect
+to the Y—axis. Finally, between the two non-centered simple waves there falls a region
+of uniform ﬂow with the velocity ux3 of C’.
+
+It remains to choose a boundary in z > 0. First let U0 , U2" , UH , and U denote
+the points where rays from (0, 0, 0) parallel to 21.0 , u.” , It.” , and um intersect z = 1.
+Let G ”on, starting from the right edge of the right hand non—centered simple wave, be
+on the line ERUM . Then um, is tangent to the corresponding plane through the origin.
+Let FRGR be an integral curve of the equation dX/(u —— wX) = dY/(v — wY) of conical
+stream sheets. The ﬁnal part of the boundary in X > 0 consists of the segment FRUa
+which corresponds to a plane to which u. is tangent. Extend the boundary symmetrically
+into X < 0.
+
+Note that near Us (2.11) is of elliptic type.
+
+It is interesting to observe that an alternation of double waves. simple waves, and
+regions of uniform ﬂow similar to that in Fig. 6 also appears in an intersection of simple
+waves which occurs when uniform plane supersonic ﬂow expands into an inﬁnite sector.
+This is shown schematically in Fig. 7.
+
+ 
+
+Figure 7 Schematic Representation
+of Interaction of Plane Simple
+Waves in Divergent Channel
+
+REFERENCES
+
+1. A. Busemann, Die uchsmsi/mmelrischc keyelfge Uberschallstro'mimg. Luftfahrtforschung, 19, 1377144
+(1942).
+
+2. H. Colin, Intcr'arlimt of simple waves, Bull. Am. )lnth. $00., 55, 48 (1949).
+
+3. J. H, Giese, Compressible flows with degenerate hadographs, Quart. Appl. Math. 9, 237-246 (1951).
+
+4. Th. Meyer, chr :u'citlimensinmzle Bewcgungsvorgdage in einem Gas, das mil Uberschallgeschu'indigkcit
+slriiml, For-schungsheit 62 VDI, 31*57 (1908).
+
+. G. 1. Taylor and J. W. Mnccoll, The air pressure on a cone moving at high spwds, Proc. Roy. Soc. A,
+139. 278*311 (19331.
+
+in
+
+i
+
+>

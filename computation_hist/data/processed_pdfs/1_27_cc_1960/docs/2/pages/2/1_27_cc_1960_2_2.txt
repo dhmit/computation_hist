@@ -1,0 +1,43 @@
+-2“
+
+but its expansion will be hampered by the limitations of access
+to the 7oﬂy as will be discussed later.
+
+The use of the machine by the other colleges has expanded
+rapidly until nearly a full shift is now occupied with their work
+(including their class exercises). But this use tends to be selfa
+limiting for, as soon as a college faculty begins fully to apprec-
+iate the possibilities in education and research or computers, the
+
+of their own° These are smaller machines,9 of the 650 type, (with
+some larger machines projected), so these institutions still come
+to the Center to use the 70b for their bigger‘Jobs; but it does
+mean that the use of the Center by the other New.England colleges
+will tend to level off to a reasonable load (about one shift, it
+now appears) rather than growing continuously, as the‘MIT usage is
+doing. This result, of course, is in accord with our conviction
+that computers should be as prevalent as chemistry laboratories,
+
+depend completely on machine computation and could already use more
+time than we can allot them, there are a number of research projects
+which are basic to the development of new uses for computers, and,
+indeed, to the development of computers themselves, which are already
+handicapped by shortage of machine time and limitation of 70%
+capacitieso To mention a few:
+
+Pro rammin Develo ment. The Center staff has already
+developEdﬂan automatic operator routine which is being adopted by
+other 70% userso More general assembly programs; such as the
+Linking Segment Subprogram Loaderﬁ which combines Fortran, SAP atd
+other special codes; GOMITE which enables the 704 to be used on
+language translation problems; and LISPE which enables the machine
+to handle nonenumerical logicg such as algebraic and other symbolic
+manipulationg are being developed and tested. The work at MIT in
+this fieldg since Whirlwind daysg is well known°
+
+Zimeasharing Techni ues° We already have a typewriter
+connects to t e l a which works on a timeosharing basis with our
+
+same time that‘regular computations are being carried out on other
+problemsﬂ for exampleo The 704 cannot effectively accommodate more
+than one or two such satelite channelsg but the Center staff is now

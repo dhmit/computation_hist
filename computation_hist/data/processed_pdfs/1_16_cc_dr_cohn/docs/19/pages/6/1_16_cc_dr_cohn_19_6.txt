@@ -1,0 +1,146 @@
+HARVEY COIIN. I
+i
+410 ‘
+
+Fm = 2 (op/q + d + 091+i0p2)""‘. ‘
+vp-dqséo
+It is majorized by its series of absolute values,
+9 2 -77
+WE [(01J + dq+ 0M)" + (vqu) ] '-
+: Since (p, q) = 1’ cp + dq takes
+be rouped as follows
+Now the terms maﬁntegir n for a family of values (a, d) of the form
+0“ ”Ch non-dzemd — p where (on, d») is a special solution to up + dq=n
+d: cn_+ 3'qu :ie bonditi’on 0 S 0,. < q, and .u takes on all integral Values
+e ermine '
+We may now take our major-ant as follows.
+
+Irwl gr” ”2' "2 <[n+piqzo~+ on/m"
+
+n; m u=~ a:
+
++ [P2920L "i’ cn/q)]2}"",
+
+(9a)
+
+here nséO. . —
+W We consider the summation on n for M ﬁxed. The quantity An_n
+
+' - -— hich
+diiference Anne— A4. — 7c + p;q(c,,.;, on), w
+”(a + cn/q) has the
+di—iifpefs from Ic by less than 1}, if P192 < i, as we shall now suppose. Hence
+the sum
+
+sx=q2m s E [({nI—im (pzqwrm
+
+:4, Pa
+majorizes the sum in (9a) except for those terms of (9a) where, for
+given a, n takes on such a value as to make |Ani < 1}. But clearly, it
+
+SO; Iqu(a+6n/q)i > int—t and qu’(/L+ on/q) > lee/P: |(| n | —t)-
+Adding this contribution to S, we get
+
+WI < w i i m n | —r)2+ (pzqwrm
+
+":7 an “h an
+
+(9b)
+
+ 
+
++ qr =2 (I n l— armor/poem. :
+
+Now the ﬁrst part of the right hand side of (9b), or 8,, can be majorized
+by an inﬁnite integral if we observe that the summation on p. is of the
+
+type 24%»), where (1)01.) decreases monotonically as ]n[ increases. Thus,
+
+adding a term to take care of ¢(0), we obtain the estimate
+
+S) S 92", g
+
+1|:—ua .
+
+[:m n I —s)2 + (Puq2a)2]'”dp + 2W": (l u l new";
+
+and. changing the variable of integration, we obtain
+
+‘thl S (12”'P:"q‘2 2 {(i 17 ‘ —:})2}""er
+
+u:- a:
+
++ 4””(‘2 + (Mm—2”.) - i (y n l new.
+
+n:— us
+
+Since we are in a Stolz n -
+
+ratio ’PZ/Pl [ 2A, hence Fm h 0(Pe)‘l 0 Z\p//q )(== PI + 1P2) ~>0 the
+\p q —1 w
+F ”1(2) = 2mg , ence ﬁnally
+(9) 2 q 5(2 )(kp/ _2
+9) m+0(1\p/q)1
+
+(The error term will shortly be improved
+As in the case of the identically vanish
+04(1), the singularities of individual terms d
+
+of the series. In general, we shall have to :ellot always reﬂect th
+modular functions to describe b
+
+to 0(1).)
+i such as
+
+Shallior at singularities
+7. Use of modular functions: >
+
+. ational sin . . _
+a theta function F(z) with or without Balm-mes.
+
+. poles
+
+Then as 2 —> p/q, a rational number (i111 m and degree T.
+
+01” neighborhood,
+(‘ ‘ P/q)“.
+
+erms), in a St
+HZ) ~ 0.7(2 _p/q)~zm exp Zm‘rq-z
+
+Here the constant 0., is kloq~2mexp~21rirp’q‘l
+krn=1jmf(z)exp21ri7‘z as 32—) no. J
+The proof of this result is quite simple.
+
+Where 117/51 (
+
+We write
+
+7/: (Piz ‘Q’)/(‘ qz + 17) Where-pp’_qq’=1‘
+
+nei hborho . '
+= (m— qz+ mm, then m) = —2m)z_gp/q)_2:;l(z,)§°w 31“
+follows from the asymptotic expression for f(z’)
++ q“(— qz + II)“-
+
+We observe that the error is 0(exp[~ 2m‘q“(
+approaches zero faster than any power of (z—p/q). Thus, for instance
+Puma), which is of order m and degree 0, can be estimated with principal
+term as in equation (9) but with error term 0(1).
+
+We might add in conclusion that to a certain extent the behavior
+characterizes the theta function. For, if a theta function satisﬁes the
+relation f(z) x (z —— p/q)”, for 3 real, as zap/q in a Stolz neighborhood,
+then f(z) is of degree 0 and s = ~2m, where m is the order of f(z). This
+would follow immediately if We knew that f(z) was of ﬁnite degree, since
+then only the degree zero would permit of a behavior which is a power of
+(imp/q). To see that f(z) is of ﬁnite degree, note that a wide enough
+Stolz neighborhood about [I/q becomes, in the i—plsne, a region wide enough
+to inelude the inﬁnite portion of any vertical strip of width 1‘ Thus, how-
+“"91' 351’ may approach so, f(z’) is smaller than some power of (2—p/q),
+
+09 HZ’)
+The theorem
+combined with z’ = __ Pig"
+
+z—P/q)—1]), which
