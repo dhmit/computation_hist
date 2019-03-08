@@ -1268,7 +1268,7 @@ function LXA(computer, address, tag) {
 }
 
 /**
- * Emulates the IBM 704 FAD operation.
+ * Emulates the IBM 704 Floating Add (FAD) operation.
  *
  * Adds the floating point value of word at specified address to the accumulator, and stores the result
  * in floating point in the accumulator and the MQ register so that the MQ register contains floating
