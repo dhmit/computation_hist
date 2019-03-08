@@ -610,6 +610,21 @@ class General_Word extends Word {
      * @param {number}  number      Number to be stored.
      */
     set floating_point(number) {
+        let exponent = Math.floor(Math.log2(Math.abs(number))) + 1;
+        let characteristic = exponent + 128;
+        this.store_floating_point(number, Math.max(characteristic,0));
+    }
+
+    /**
+     * Stores a number in floating-point format into the word with a specific characteristic.  Generally,
+     * using the floating_point function is preferred because the word will be normalized.  Note: You
+     * cannot set a floating point number to 0.
+     *
+     * @param {number} number           Number to be stored.
+     * @param {number} characteristic   Characteristic of floating point number when stored.  (Check MD
+     * for more info.)
+     */
+    store_floating_point(number, characteristic) {
         var sign_bit;
         if (number < 0) {
             sign_bit = "1";
@@ -618,8 +633,7 @@ class General_Word extends Word {
         }
         let binary_rep = sign_bit;
         number = Math.abs(number);
-        let exponent = Math.floor(Math.log2(number)) + 1;
-        let characteristic = exponent + 128;
+        let exponent = characteristic - 128;
         binary_rep += convert_to_binary(characteristic, 8);
         let magnitude = number / Math.pow(2, exponent);
         let magnitude_binary = (magnitude.toString(2)).substring(2,29);
@@ -963,6 +977,9 @@ class IBM_704 {
             instruction = instruction_word.instruction_a;
             instruction.operation(this, effective_address, instruction.tag, instruction.decrement);
         }
+        if (this.accumulator.p) {
+            this.ac_overflow = true;
+        }
     }
 
     /**
@@ -1247,6 +1264,25 @@ function LXA(computer, address, tag) {
     let index_register = computer.get_tag(tag);
     let address_to_store = computer.storage_register.address;
     index_register.update_contents(address_to_store);
+}
+
+function FAD(computer, address) {
+    let sum = computer.general_memory[address].floating_point + computer.accumulator.floating_point;
+    if (sum === 0) {
+        computer.accumulator.fixed_point = 0;
+        computer.mq_register.fixed_point = 0;
+    } else {
+        computer.accumulator.floating_point = sum;
+        // the point of this is to get the floating point inaccuracy.  Of course, JavaScript has its own floating point issues...
+        if (computer.accumulator.floating_point !== 0) {
+            let remainder = result - computer.accumulator.floating_point;
+            let exponent = Math.floor(Math.log2(Math.abs(sum))) + 1;
+            let characteristic = exponent + 128 - 27;
+            computer.mq_register.store_floating_point(remainder, characteristic);
+        } else {
+            computer.mq_register.store_floating_point(sum, 0);
+        }
+    }
 }
 
 // Type A operations
