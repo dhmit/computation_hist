@@ -194,7 +194,6 @@ def advanced_search(request):
     :return:
     """
     boxes = []
-    print(request.GET['doc_type'])
     if "checkBox1" in request.GET:
         boxes.append(1)
     if "checkBox2" in request.GET:
