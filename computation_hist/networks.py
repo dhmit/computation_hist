@@ -83,7 +83,7 @@ class Network:
             author = document.author
             recipients = document.recipients
             for name in recipients:
-                if not name in self.nodes:
+                if name not in self.nodes:
                     self.nodes[name] = Node(name)
             for recipient in recipients:
                 if (author, recipient) not in self.edges:
@@ -91,7 +91,6 @@ class Network:
                     recipient_node = self.nodes[recipient]
                     self.edges[(author, recipient)] = Edge(author_node, recipient_node)
                 self.edges[(author, recipient)].add_document(document)
-
 
     def visualize_network(self, no_nodes=20):
         """
@@ -118,7 +117,7 @@ class Network:
 
         nx.draw_circular(graph,
                          labels=labels,
-                         node_size = [len(node) * 100 for node in self.nodes.values()],
+                         node_size=[len(node) * 100 for node in self.nodes.values()],
                          width=[len(edge) for edge in self.edges.values()]
                          )
         plt.show()
@@ -184,4 +183,11 @@ class Edge:
 
 if __name__ == '__main__':
     n = Network(debug=True)
+    for i in n.nodes:
+        print(n.nodes[i], len(n.nodes[i]))
+
+    for i in n.edges:
+        print(n.edges[i], len(n.edges[i]))
+
+    print('Number of Nodes:', len(n.nodes))
     n.visualize_network()
