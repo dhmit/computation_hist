@@ -10,12 +10,12 @@ don't know how to make a new page or change the way these links are set up, thou
     h1 {
        font-family: monospace; /* Web-safe typewriter-like font */
        overflow: hidden; /* Ensures the content is not revealed until the animation */
-       border-right: .15em solid blue; /* The typwriter cursor */
+
        white-space: nowrap; /* Keeps the content on a single line */
        margin: 0 auto; /* Gives that scrolling effect as the typing happens */
        letter-spacing: .05em; /* Adjust as needed */
        animation:
-           typing 2s steps(30, end),
+           typing 5s steps(30, end),
            blinking-cursor .5s step-end infinite;
    }
 
@@ -40,7 +40,7 @@ don't know how to make a new page or change the way these links are set up, thou
     <body>
     {% block self %}
 
-        <h1><tt>Welcome to the Archives of the MIT Computation Center.</tt></h1>
+        <h1><tt>Welcome to the Archives of the MIT Computation Center</tt></h1>
 
 
 
