@@ -71,6 +71,7 @@ def add_doc(graph, doc_meta):
             else:
                 graph.edges[author, recip]['weight'] += 1
 
+    # If the list of recipients is empty, use 'None' as the recipient
     else:
         if 'None' not in graph:
             graph.add_node('None', weight=1)
@@ -78,9 +79,7 @@ def add_doc(graph, doc_meta):
         if (author, 'None') not in graph.edges:
             graph.add_edge(author, 'None', weight=1)
         else:
-            old_weight = graph.nodes[author]['None']['weight']
-            graph.remove_edge(author, 'None')
-            graph.add_edge(author, 'None', weight=old_weight + 1)
+            graph.edges[author, 'None']['weight'] += 1
 
 
 if __name__ == '__main__':
@@ -91,4 +90,3 @@ if __name__ == '__main__':
                      width=[edge[2] for edge in g.edges.data('weight')]
                      )
     plt.show()
-
