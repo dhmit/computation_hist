@@ -85,6 +85,10 @@ def add_doc(graph, doc_meta):
 
 if __name__ == '__main__':
     g = make_graph(debug=True)
-    nx.draw_circular(g, with_labels=True)
+    nx.draw_circular(g,
+                     with_labels=True,
+                     node_size=[node[1] * 100 for node in g.nodes.data('weight')],
+                     width=[edge[2] for edge in g.edges.data('weight')]
+                     )
     plt.show()
 
