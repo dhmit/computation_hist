@@ -1,12 +1,11 @@
 from django.shortcuts import render, get_object_or_404, get_list_or_404
 from .models import Person, Document, Box, Folder, Organization, Page
-from django.template import loader
+# from django.template import loader
 from django.db.models import Q
-import json
+# import json
 
-# Create your views here.
 
-from django.http import HttpResponse
+# from django.http import HttpResponse
 
 
 def index(request):
@@ -117,12 +116,12 @@ def page(request, page_id):
 
 
 def list_obj(request, model_str):
-    '''
+    """
     Displays sorted list of Organizations, People, Folders, or Boxes
     :param request:
     :param model_str:
     :return:
-    '''
+    """
     if model_str == "organization":
         model_objs = get_list_or_404(Organization)
         model_objs.sort(key=lambda x: x.name)
@@ -175,18 +174,20 @@ def search_results(request):
     response = render(request, 'search_results.jinja2', obj_dict)
     return response
 
+
 def browse(request):
-    return( render(request, 'browse.jinja2'))
+    return render(request, 'browse.jinja2')
 
 
 def search(request):
+    query = request.GET['q']
     doc_type = ["minutes", "memo", "proposal", "letter", "receipt", "contract", "notice",
                 "memo draft",
                 "addendum", "change order", "form", "report", "invoice", "list",
                 "routing sheet", "application", "note", "press release", "floor plan", "program",
                 "pamphlet", "payroll sheet", "time record", "summary", "table", "telegram"]
     doc_type.sort()
-    return( render(request,"search.jinja2", {"doc_type":doc_type}))
+    return render(request, "search.jinja2", {"doc_type": doc_type, 'input': query})
 
 
 def advanced_search(request):
@@ -244,7 +245,7 @@ def advanced_search(request):
     try:
         pages = [int(request.GET['minPages']), int(request.GET['maxPages'])]
         doc_objs = doc_objs.filter(Q(number_of_pages__gte=pages[0]) &
-                        Q(number_of_pages__lte=pages[1]))
+                                   Q(number_of_pages__lte=pages[1]))
     except:
         print('Error getting pages')
 
@@ -257,4 +258,4 @@ def advanced_search(request):
 
     print(request)
 
-    return render(request,'list.jinja2', {'model_str': 'doc', 'model_objs': doc_objs})
+    return render(request, 'list.jinja2', {'model_str': 'doc', 'model_objs': doc_objs})
