@@ -15,19 +15,29 @@
 {% endblock %}
 
 {% block description %}
-    This example is similar to the .<br />
-    <b>PZE 5: </b> This is an example of what's called a psuedoinstruction.  A psuedoinstruction doesn't correspond to an actual instruction the computer can do.
-    PZE 5 means that we basically program a blank instruction with an address of 5.  This is useful because...<br />
-    <b>LXA 5, 1: </b> This means load the word at address 5 (which corresponds to PZE 5 as the fifth
-    line of code) and store its address into the index register corresponding to 1, which is index register A.<br />
-    <b>CLA 7: </b> Just stores the value at address 7 into the accumulator.<br />
-    <b>ADD 7: </b> And then add the value at address 7 to the accumulator.<br />
-    <b>STO 7: </b> And then store the value of the accumulator to address 7.  Nothing too fancy here.  But then...<br />
-    <b>TIX 2, 1, 1: </b> This instruction has four parts, the operation, the address, a tag corresponding to the index register 1 (A), and the last number, the decrement.  What will happen is that
-    the computer will compare the value of index register A to the decrement.  If the index register is greater than the decrement, then we subtract the decrement from the index register and jump
-    to the specified address, otherwise we continue.  Do you see how this works?  The first time we reach this instruction, the index register is 5, so we subtract 1 to get 4 and jump back to the
-    instruction at address 2, which is ADD 7.  Then the next time the index register will be 4... then 3... then 2... then 1... and then the program will be done running.  You can see this if you
-    step through the program.  At the end, register 7 should have a value of 2^5, 32, from repeated adding.  <br />
-    This is maybe not the best way to compute powers of 2, but it's sufficient for this
-    demonstration.<br />
+    This example is similar to the previous addition example, but there are a few new things.<br />
+    <br />
+    You'll notice at the end we have some psuedoinstructions.  <br />
+    <b>ORG 10 </b>tells us to start programming from register 10, while <b>DEC</b> means to store a
+    number at the location.  The effect of this is that we have register 10 holding -2.54 and register 11 holding 6.98.
+    This is how numbers would actually be loaded into memory (rather than having them magically appear as before).<br />
+    <br />
+    You'll also notice that we use the <b>FAD</b> operation instead of the <b>ADD</b> operation.  This
+    tells the computer to interpret the words as floating point numbers rather than fixed point numbers.
+    The concept of floating point numbers is similar to that of scientific notation, storing a magnitude and
+    an exponent into the word rather than its literal value.  The ability to natively use the floating
+    point numbers on the IBM 704 was a huge selling point; before then, you had to manually keep track
+    of where your imaginary binary point was in your fixed point number.<br />
+    <br />
+    There is a downside to the convenience of floating point, and it is lack of precision in floating
+    point numbers.  You'll notice that after running this program, the accumulator is not exactly 4.44
+    but something like 4.439999.  In this case, the problem is that it's not possible to represent 2.54
+    or 6.98 in a finite number of binary digits, so inevitably some rounding occurs.  You can see another
+    example of this if you pop open your Javascript console and type in 1+10000000000000000.  Modern
+    computers today still use floating point, and you'll see that the 1 just disappears, because there
+    aren't enough bits in the magnitude of the larger number to accommodate the small change.  To help
+    with this, the FAD operation also stores a result into the MQ register so that the sum of the accumulator
+    and the MQ register provide a better approximation of the answer (basically the MQ register just acts
+    as extra bits for precision), but apparently this was not often used, the precision of the accumulator being enough for
+    most purposes.<br />
 {% endblock %}
