@@ -33,6 +33,18 @@ for (let number in no_to_operation_a) {
 operation_a_to_no["PZE"] = 0b000; // hack for pseudoinstruction PZE
 const non_indexable = {"TIX": 0, "TNX": 0, "TXH": 0, "TXL": 0, "TXI": 0, "TSX":0, "LXA":0, "LXD":0, "SXD":0, "PXD":0, "PAX":0, "PDX":0};
 
+// Exceptions
+const UNDEFINED_OPERATION_EXCEPTION = "Undefined operation!";
+const INVALID_BINARY_NUMBER_EXCEPTION = "String contains characters aside from 1 and 0!";
+const INVALID_UPDATE_CONTENTS_TYPE = "Contents must be of type number or string!";
+const INVALID_REGISTER_EXCEPTION = "Tried to program to invalid register!";
+const FIXED_OVERFLOW_EXCEPTION = "Fixed point number too large!";
+const FLOAT_OVERFLOW_EXCEPTION = "Floating point number too large!";
+const NAN_EXCEPTION = "Expected number, but it was me, Dio!";
+const INVALID_INSTRUCTION_EXCEPTION = "Cannot parse instruction!";
+
+const regex_line_parser = new RegExp('^([A-Z]+)\\s*(.*)');
+
 /**
  * Function to create a new string with the character at index replaced by a new character.
  *
@@ -109,7 +121,7 @@ class Word {
         }
         if (typeof contents === "string") {
             if (isNaN(parseInt(contents, 2))) {
-                throw "String contains characters aside from 1 and 0!";
+                throw INVALID_BINARY_NUMBER_EXCEPTION;
             } else if (contents.length > this.length) {
                 console.log("Word has more than " + this.length + " bits.  Value will be" +
                     " truncated.");
@@ -118,7 +130,7 @@ class Word {
                 this.contents = Word.pad_zeroes(contents, this.length);
             }
         } else {
-            throw "Contents must be of type number or string!";
+            throw INVALID_UPDATE_CONTENTS_TYPE;
         }
     }
 
@@ -566,7 +578,7 @@ class General_Word extends Word {
         let characteristic = parseInt(characteristic_bits, 2);
         let exponent = characteristic - 128;
         let result = fraction*Math.pow(2,exponent);
-        if (binary_rep[0] === 1) {
+        if (binary_rep[0] === "1") {
             result = -result;
         }
         return result;
@@ -616,6 +628,10 @@ class General_Word extends Word {
         this.update_contents(binary_rep);
     }
 }
+
+let max_word = new General_Word("011111111111111111111111111111111111");
+const MAX_FIXED_POINT = max_word.fixed_point;
+const MAX_FLOATING_POINT = max_word.floating_point;
 
 /**
  * Class representing the accumulator on the IBM 704.  The accumulator consists of 38 bits: a
@@ -932,23 +948,78 @@ class IBM_704 {
         for (let line_no in code_lines) {
             let line = code_lines[line_no];
             console.log(line);
-            let operation = line.substring(0,3);
-            let rest_of_line = line.substring(3);
+            if (!line.replace(/\s/g, '').length) {
+              continue;
+            }
+            if (isNaN(register) || register >= this.size || register < 0) {
+                alert("Error: Tried to program to invalid register " + register + "on line "
+                    + (parseInt(line_no) + 1) + "!  Register must be integer between 0 and " + (this.size - 1) + ".");
+                throw INVALID_REGISTER_EXCEPTION;
+            }
+            let parsed_command = regex_line_parser.exec(line);
+            if (parsed_command === null) { //if parsed command is null, throw error, not a valid command.
+                alert("Error: Cannot parse instruction on line" + (parseInt(line_no) + 1) + ".");
+                throw INVALID_INSTRUCTION_EXCEPTION;
+            }
+            let operation = parsed_command[1];
+            let rest_of_line = parsed_command[2];
             let numbers = rest_of_line.split(",");
-            if (numbers[2] !== undefined) {
-                let decrement = parseInt(numbers[2]);
-                let tag = parseInt(numbers[1]);
-                let address = parseInt(numbers[0]);
-                this.assemble_line(register, operation, address, tag, decrement);
-            } else if (numbers[1] !== undefined) {
-                let tag = parseInt(numbers[1]);
-                let address = parseInt(numbers[0]);
-                this.assemble_line(register, operation, address, tag);
-            } else if (numbers[0] !== undefined) {
-                let address = parseInt(numbers[0]);
-                this.assemble_line(register, operation, address);
-            } else {
-                this.assemble_line(register, operation);
+            try {
+                if (operation === "ORG") { // ORG pseudoinstruction lets you program to different location
+                    register = Number(numbers[0]);
+                    if (isNaN(register)) {
+                        throw NAN_EXCEPTION;
+                    }
+                    continue;
+                } else if (operation === "DEC") { // DEC psuedoinstruction lets you program fixed and floating point numbers
+                    let number = Number(numbers[0]);
+                    if (isNaN(number)) {
+                        throw NAN_EXCEPTION;
+                    }
+                    if (numbers[0].includes(".")) {
+                        if (number > MAX_FLOATING_POINT || number < -MAX_FLOATING_POINT) {
+                            alert("Error: Floating point value " + number + " at line " + (Number(line_no) + 1)
+                                + " is too large! Floating point numbers must be between " + MAX_FLOATING_POINT +
+                                " and " + -(MAX_FLOATING_POINT) + "."
+                            );
+                            throw FLOAT_OVERFLOW_EXCEPTION;
+                        }
+                        this.general_memory[register].floating_point = number;
+                    } else {
+                        if (number > MAX_FIXED_POINT || number < -MAX_FIXED_POINT) {
+                            alert("Error: Fixed point value " + number + " at line " + (Number(line_no) + 1)
+                                + " is too large! Fixed point numbers must be between " + MAX_FIXED_POINT +
+                                " and " + -(MAX_FIXED_POINT) + "."
+                            );
+                            throw FIXED_OVERFLOW_EXCEPTION;
+                        }
+                        this.general_memory[register].fixed_point = number;
+                    }
+                } else {
+                    if (numbers[2] !== undefined) {
+                        let decrement = Number(numbers[2]);
+                        let tag = Number(numbers[1]);
+                        let address = Number(numbers[0]);
+                        this.assemble_line(register, operation, address, tag, decrement);
+                    } else if (numbers[1] !== undefined) {
+                        let tag = Number(numbers[1]);
+                        let address = Number(numbers[0]);
+                        this.assemble_line(register, operation, address, tag);
+                    } else if (numbers[0] !== "") {
+                        let address = Number(numbers[0]);
+                        this.assemble_line(register, operation, address);
+                    } else {
+                        this.assemble_line(register, operation);
+                    }
+                }
+            }
+            catch (err) {
+                if (err === UNDEFINED_OPERATION_EXCEPTION) {
+                    alert("Error: Undefined operation in line " + (parseInt(line_no) + 1) + "!");
+                } else if (err === NAN_EXCEPTION) {
+                    alert("Error: Invalid number in line " + (parseInt(line_no) + 1) + "!");
+                }
+                throw err;
             }
             register++;
         }
@@ -965,12 +1036,15 @@ class IBM_704 {
      * @param {number} decrement    Decrement of instruction.
      */
     assemble_line(register, operation, address=0, tag=0, decrement=0) {
+        if (isNaN(address) || isNaN(tag) || isNaN(decrement)) {
+            throw NAN_EXCEPTION;
+        }
         if (operation in operation_b_to_no) {
             this.general_memory[register].instruction_b = new Instruction_B(eval(operation), address, tag);
         } else if (operation in operation_a_to_no) {
             this.general_memory[register].instruction_a = new Instruction_A(eval(operation), address, tag, decrement);
         } else {
-            throw "Undefined operation!";
+            throw UNDEFINED_OPERATION_EXCEPTION;
         }
     }
 
