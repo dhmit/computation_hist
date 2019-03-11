@@ -71,6 +71,7 @@ function update() {
     }
 
     const general_memory_html = $(".general_memory");
+    let next_instruction_address = computer.general_memory[computer.ilc.valueOf()].instruction.address;
     for (let i = 0; i < computer.size; i++) {
         general_memory_html[i].innerHTML = computer.general_memory[i].toString();
         general_memory_html[i].title = "Instruction: " +
@@ -79,6 +80,8 @@ function update() {
         general_memory_html[i].title += "\r\nFloating Point: " + computer.general_memory[i].floating_point;
         if (i === computer.ilc.valueOf() && !computer.halt) {
             general_memory_html[i].style.backgroundColor = "deepskyblue";
+        } else if (i === next_instruction_address && !computer.halt) {
+            general_memory_html[i].style.backgroundColor = "#ff0066";
         } else {
             general_memory_html[i].style.backgroundColor = "transparent";
         }
