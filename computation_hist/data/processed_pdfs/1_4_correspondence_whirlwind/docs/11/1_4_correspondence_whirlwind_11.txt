@@ -1,0 +1,618 @@
+SC IENTI 1‘
+
+(’3 a 81:. eff Member“ Project on Machine Methods of Computation}
+
+Sue L‘teiin ng of Electrons from Gases
+
+AS
+._e
+
+mission Cross Section of Absox hing Sphereg Spherical
+l and Home}. Functions
+
+‘01; En {Hydro Thermal Power System; Calculus of Variations
+
+ 
+ 
+
+"I?“ C "In,u l Struc’cure‘s Fourier Series Summation
+
+ 
+
+ 
+
+1.06 (J: .41? Seismic Project
+‘0’? f3: Fourier Transform Evaluate
+138 Cu ‘1: Tnter- prehive Program
+
+       
+
+Jr Gunsigbt Calibration: 8th Order Diiferentiel ch
+
+4kg 1"? Evaluation
+
+ 
+
+iFou‘e."ier Analysis:=Autocorr-e la tion Problem
+i
+:12 _ gLaw]. rep/"3 Method of Factor Analysis; Characteristic Vectors
+“modified?
+5
+3
+6‘
+
+IC 2}. ENGINEERlI‘ F3 AE’PLlGA'I‘lOI‘JS HtUBLﬂ/Ab‘
+
+Pagel of 8 p
+
+wwm_MMre.MN-_m. «M... A.“
+
+ 
+ 
+
+ 
+
+ 
+
+.i
+5
+Originator 35' _. Comm
+i~ A
+Staff DCL 1455'»
+AJMLoeb MIT Chem Dept lagej’a
+JoLnUi‘eteky MET Physics £2253 £1135)
+Joanohnson 1:253 'fg-gegj
+
+i
+,
+t
+i
+E
+i
+i
+g .
+E
+3
+3
+I
+§
+I
+2'
+i
+i
+f:
+E
+a
+3
+
+MIT Meteorology Dept
+
+   
+
+ 
+
+'))
+
+S Simpson 33.2953
+JET 0501.155. Ge
+
+DﬂHRoms Servo Labw 1425’).
+J HaLanJH’ 155.35”,
+
+ 
+
+   
+
+To Pitcher
+Instrumentation Leo»;
+
+E; a J fray
+i Instrumentation Lab”
+
+ 
+
+ 
+
+iF 14 Lord
+3E6 Testing 5
+
+Research 139}; ,
+
+ 
+
+ 
+
+ 
+
+ 
+
+‘
+
+
+n
+
+Vqu
+
+
+nun;
+
+ 
+
+ 
+
+ 
+
+' n: OTTE
+
+ 
+
+v
+i
+
+
+. t
+
+ 
+
+_ ‘
+
+M .,, ,
+
+_,V H _ m.
+
+, , i
+L
+
+ 
+
+Jllb
+
+i
+
+>41Ll
+
+A h
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+ 
+
+  
+
+ 
+
+ 
+
+ 
+
+nta
+
+1me
+
+Exper
+
+from
+
+;
+
+ 
+
+ 
+
+an
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+inve-
+
+ 
+
+ 
+
+ 
+
+time
+
+R
+
+1‘58
+
+
+. n1 (4 '5pr t Da ta
+
+
+in
+
+  
+
+ 
+
+  
+
+ 
+
+ 
+
+‘5. v ‘ w _
+
+a “ ‘ E
+g ,
+
+i ’7 ‘
+
+|
+
+
+‘ , r. .7 . .. . ‘7 1M.
+‘ r I
+<5 ‘ ."maiiou of lu’begrals for Diatomic Molecules
+' ? cm 03. " uplez: and Relaxation Methods in I."
+A , ., ‘ ~ - gm ,7‘ .
+
+ocity and
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+4.1.1 ,.
+
+
+Llr 30 ‘15
+
+ 
+
+lJ H Bennew.
+1 ﬂex L- Em
+
+   
+
+ 
+
+m may :‘r’e are}: biOn
+
+ 
+
+ 
+
+" 1“ ‘ Energy L94 in a Spheroidal Potential
+
+Utility Stack Prices
+
+23‘4- A 0 Atom ic Integrals
+
+  
+
+ 
+
+5
+F
+E
+I
+l
+5
+235 B. 3 Eigenvalues for a Spheroidal Square Well 1
+3 r
+h , l
+236 Cu i Transient Response of Aircraft Structures to Aerodynanic l v Schmit 11—}:55
+é Heating ' Aero-elastic Lab 1
+237 C. E; Autocorrelation Function of Submitted Data D. Goldenberg ‘1-3=55
+I: Instrumentation Lab 5‘
+a
+238 8:. : Self-consistent Calculation of Nuclear Mass Density :4 Rotenberg {1—h=55
+rhysics De; )1.
+239 C... ‘ Guidance and “antral JH.L-aning,, or", 195-55
+Instrumentation Lab ‘
+214-0 A. Number Distribution of Electrons and Photons in Cascade B. riankin IL: 10-55
+Math Dept 1|
+2'41 80 Transients in Distillation Columns S.H.Davis, Jrc !1=lO-=55
+Chem. Eng. 1
+
+ 
+
+ 
+
+ 
+
+__#
+
+
+' & ENGINE-BRILNG A)
+
+    
+  
+  
+    
+     
+
+‘LJEA‘ILLONS EinBLEﬂJS
+
+(‘*‘ a Staff Memb :- Project on Machine Methods of
+
+9
+
+(‘0
+
+ 
+
+ 
+
+   
+
+ 
+
+7.03, h z0ptical Properties of Thin Metal Films gAcLhLoeb BIT Chem Dr
+7 .m
+iSca‘btering of Electrons from. Gases JoLgUretsky I'LLT
+
+ATS in I . lssion Cross Section of Absorbing Sphere; Spherical JﬁnJoimson f
+Bessel and Hamel Functions MIT meteorology Der;
+
+LLDQ Dr Hydro Thermal Power System; Calculus of Variations
+
+   
+
+     
+
+2.05 (3 Structure: Fourier Series Summation
+:
+LL06 0—. gvi
+MIT Geolrr‘é Gen '
+‘07 C: ﬁz'T'Jiass Servo Lab.
+
+   
+
+a
+i
+Mi" Seismic Project 15‘ Simpson
+E
+i
+z
+I
+£
+2
+§
+c
+S
+I
+
+_F'ourie)‘- 1‘xnalysis-==Autocorrelation Problem
+
+ 
+
+   
+
+ 
+
+ley“s .i'iethod uf Factor Analysis; Characteristic Vectors
+' ,modified)
+
+i
+h
+I
+a.
+3
+1‘
+
+
+
+
+
+
+
+
+LYN?!"
+
+ 
+
+E?
+
+1,
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+   
+
+’om Em
+
+ 
+
+Ft.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+.1
+
+
+nu.
+
+  
+
+f1 5. L a
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+(.
+
+
+.n. Cm Hx'nngﬂn‘
+
+'1 p 'nvn,,,+.u
+
+-J g.~,u‘_u;
+
+dr:
+
+   
+
+ 
+
+ 
+
+ 
+
+3
+
+
+c; Moleml
+
+ 
+
+  
+
+_ mods in Linear-
+
+ 
+
+\ \
+
+
+Eigenwalueg for a Epheroidal Square Well
+Transient Response of Aircvaft Structures to Aerodynanlc
+ﬁeaiing
+
+Autocorrelution Function of Eubmiﬁted Data
+Selfoconsistent Calculation of Nuclear Mass Density
+Guidance and uontrol
+
+Number Distribution of EUsactr‘ons and Photons in qucaée
+
+Transients in Distillafion Colunms
+
+ 
+
+ 
+
+ 
+
+ 
+
+   
+
+>JhHouaHi
+‘lnstrumen
+
+)" r
+
+ 
+
+ 
+
+(ion Lab
+
+

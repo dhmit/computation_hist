@@ -1,0 +1,48 @@
+Minutes of Meeting of Committee
+- ‘ on
+Machine methods of Computation
+
+November 22, 1950
+
+WEE mm: H. Feshbach, J. w. Forrester, Z. Kopal, C. Lin,
+. P. M. Morse and E. Reissner
+
+Morse explained that the official directive for the Com-
+mittee had not yet been promulgated, but that it should be ex-
+peCted in a short time. In the meantime, there were many ques-
+tions which could be discussed and on which decisions would be
+needed shortly. Several topics were brought up.
+
+The first was the question of the supervision of various
+graduate students. Four of these - Salzer, Hemm, Verzuh and
+Dolansky (?) - have already completed their general doctor's
+examination in the Electrical Engineering Department and are
+ready to go on with thesis research. It was indicated that the
+Electrical Engineering Department might ask this Committee to
+suggest supervisory committees for these men. Three students -
+Carrus, Fox and Booton - have not yet taken their general ex-
+aminations. The Committee in this case might be asked to sug-
+gest appropriate examination topics for this general examina-
+tion. It was felt that such a general examination would be in
+the nature of removing a few specialized subjects from either
+the Electrical Engineering examination or the Mathematics ex—
+amination, and adding some subjects more connected with com-
+putation. In other words, it was felt that most of the students
+should have a basic background of either Electrical Engineering
+or Mathematics (or perhaps Physics), but that they would not
+need to be examined on some Specialized brancnes (sucn as power
+engineering), and that in its place would oe put some material
+more appropriate for the machine computer. It was decided to
+discuss this question of the examination in more detail at the
+next meeting.
+
+The question of courses to be offered at m.1.r. in this
+subject was also discussed. It was felt better to postpone
+detailed discussion of this point until the Committee had be~
+come more clear on its opinion concerning the preliminary exe
+amination. The question of a possible Summer Session on
+Machine Computation was also brought up.
+
+. ikﬂhrvund
+Ph M. MorsefN
+Chairman

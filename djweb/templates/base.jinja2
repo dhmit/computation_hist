@@ -14,7 +14,7 @@
 
     <link href="https://getbootstrap.com/docs/4.2/examples/starter-template/starter-template.css" rel="stylesheet">
 </head>
-<body>
+<body style = "background-color: bisque; font-family: 'Book Antiqua'">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <a class="navbar-brand" href="/dj_comp_hist/">Computational History</a>
         <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
@@ -25,23 +25,33 @@
 
         <div class="navbar-collapse collapse" id="navbarsExampleDefault" style="">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="/dj_comp_hist/">Home
-                        <span class="sr-only">(current)</span></a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#"
+                       id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                       aria-expanded="false">
+                        Archives
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item"
+                           href="/dj_comp_hist/browse"><span
+                                class="dropdown-link">Browse</span></a>
+                        <a class="dropdown-item"
+                           href="/dj_comp_hist/list/person"><span
+                                class="dropdown-link">People</span></a>
+                        <a class="dropdown-item"
+                           href="/dj_comp_hist/list/folder"><span
+                                class="dropdown-link">Folders</span></a>
+                        <a class="dropdown-item"
+                           href="/dj_comp_hist/list/organization"><span
+                                class="dropdown-link">Organizations</span></a>
+                    </div>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="/dj_comp_hist/list/person">People</a>
+                    <a class="nav-link" href="/simulations">Simulations</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="/dj_comp_hist/list/box">Boxes</a>
+                    <a class="nav-link" href="/dj_comp_hist/search_results">Advanced Search</a>
                 </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="/dj_comp_hist/list/folder">Folders</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="/dj_comp_hist/list/organization">Organizations</a>
-                </li>
-
             </ul>
             <form class="form-inline my-2 my-lg-0" action="/dj_comp_hist/search_results">
                 <input class="form-control mr-sm-2" type="text"
@@ -52,26 +62,28 @@
         </div>
     </nav>
 
-    <main role="main" class="container">
+<main role="main" class="container">
 
-        <div class="starter-template">
-            <h1>{% block self %} {% endblock %}</h1>
-            <p class="lead">
+    <div class="starter-template">
+        <h1>{% block self %} {% endblock %}</h1>
+        <p class="lead">
 
-                {% block table %}
-                {% endblock %}
-            </p>
-        </div>
+            {% block table %}
+            {% endblock %}
+        </p>
+    </div>
 
-    </main>
+</main>
 
 
         <!-- js -->
     {% block footer %}
     {% endblock %}
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
     {%  block scripts %}{% endblock %}
 </body>
 </html>

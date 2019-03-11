@@ -1,0 +1,108 @@
+Minutes of Meeting of Committee
+on
+Machine Methods of Computation
+
+November 29, 1950
+
+ﬂapper; Present: H. Feshbach, J. W. Forrester, Z. Kopal,
+P. M. Morse and E. heissner
+
+Professors Kopal and Forrester presented the Committee
+with the general subjects which are included in the Electrical
+Engineering general doctor's examination. They come under
+nine general headings:
+
+Circuit Theory
+
+Power Machinery
+Magnetic Circuits
+Engineering Electronics
+VT Circuits
+
+Electrical Measurements
+Transmission Lines
+Basic Physics I
+
+Basic Physics 11
+
+QWQC‘Ut-bWNI-J
+
+After considerable discussion the Committee felt that probably
+a man taking a doctor’s degree in the E. E. Department, with
+specialization in computing macnines, should be required to
+pass an examination in the majority of these subJects, but
+that perhaps one—third of them could be dropped and in their
+place more material on Mathematics and Theoretical Physics
+could be required. It was suggested tentatively that power
+machinery and electrical measurements might be dropped, and
+that in their place questions could be asked on differential
+equations, complex variables, algebra and numerical analysis,
+corresponding to about the length and depth of the questions
+on the two omitted subjects. In addition, it was felt that
+Basic Physics II could be somewhat remodeled to include more
+of Theoretical Physics, particularly of electromagnetic theory
+than is given to most of the E. E. candidates. It was felt
+that the Committee should discuss this with Professor Brown
+
+at its next meeting, if Professor Brown were able to attend.
+
+The Committee then went on to discuss the four E. E.
+doctor's candidates who have already taken their qualifying
+examinations and are beginning, or are about to begin, their
+thesis research. It was reported that Mr. Salzer already has
+a supervisory committee consisting of Professors Kopal, hazen
+and Linvillt, This was felt to be an appropriate committee
+and there was no suggestion to make any change here. In the
+
+
+minutes of Meeting of Committee
+on Machine Methods of Computation —2-
+November 29, 1950
+
+other three cases - Hamm, Verzuh and Dolanshy - it was felt
+that we should talk the matter of specific appointments for
+supervisory committees over with Professor Brown at the next
+meeting.
+
+It was suggested that the qualifying examination in
+Mathematics be examined,in the same way that the Electrical
+Engineering examination was discussed,at the next meeting of
+this Committee. Consequently, the subject of the qualifying
+examination for persons coming in to this field from the
+Mathematics Department is to be the first subject of dis-
+cussion at the meeting on December 6. It is hoped that Pro-
+
+fessor Brown can come in to discuss the E. E. questions after
+ten o'clock.
+
+Another subject for future discussion is the question of
+a Summer Symposium. Mr. Forrester reported that, in his
+opinion, this coming Summer would be a little too early to
+put on a full-fledged Summer schedule on machine computation.
+0n the other hand, it was felt that there was a possibility
+that a one~, two—, or three-day session or symposium on the
+subject could be held. Since this does not require the
+elaborate preparation which a full-fledged Summer Session re-
+quires, it was decided that we should not reacu a decision at
+this meeting but should bring it up from time to time in the
+next several months. It was also decided that the question of
+the courses on machine computation, wnich are given at present
+at the Institute and the possibilities of other courses Which
+should be given, would be taxen up in the near future, perhaps
+at the December 13th meeting. Another subject of considerable
+importance which would have to be taken up at that time or
+later will be the listing of the various computing machines
+at present operating and under construction at the Institute,
+and a survey of their availability for training and general
+research use. This sort of survey will be necessary before
+general policy on this question can be discussedv
+
+The next meetin of the Committee will be at 9130,
+December 6, in Room -lO9.
+
+i » .‘k k
+Pﬁh.§mep\\
+
+Chairman
+
+

@@ -1,0 +1,46 @@
+9.
+10.
+
+ll.
+12.
+13.
+
+14.
+
+15.
+
+16.
+
+CCF-Z
+
+Does the programmer(s) intend to prepare the input cards?
+_______________________
+
+If the answer to 8 or 9 is no, what plans have you?
+_________________________
+(Ordinarily, programming and card punching have to be done by the programmer. If
+assistance is needed from the Center, special arrangements have to be made.)
+Estimate of machine hours to complete production runs from tested program:
+__________
+For cataloging purposes, how would you index this problem? For example, mathema-
+tics, logic, game, etc. If this is a mathematical problem, specify type(s) such
+
+as integration, partial differential equations, matrix theory, etc.
+
+If this is a mathematical problem, specify numerical methods used, such as
+
+Gauss' quadrature method, difference equations, Crout, etc.
+
+On one or two additional sheets write sections A, B, and C as follows:
+
+Section A: A one-paragraph abstract of Section B and C.
+
+Section B: Complete description of problem background which should give com-
+
+field of research. Give references to earlier or relateu work and
+indicate relation to this work.
+
+Section C: Description of numerical and computer techniques to be used, and
+justification of their adequacy or indication of how adequacy is
+to be determined. This description should include, when perti-
+nent, the number of significant figures accuracy required at

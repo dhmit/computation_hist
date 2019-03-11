@@ -1,0 +1,58 @@
+XXII. Solution of the Inventory Control Problem on the 650 Calculator
+
+A basic 650 program was prepared for a salitied inventory
+control problen. Specifically, the program was designed to
+handle any umber of stock-numbered items up to 34.per-day items.
+The pron-an was united to control and reporting of customer
+products only. No attenpt was nade to control the conponent parts
+for the itens. Sinilarly, no attenpt was node to report the raw
+nateria‘l requirements.
+
+XXIII. Study of Brokerage Accounting
+
+A basic 650 prom was prepared for calculating the items
+appearing in the transaction statement of a custoner's brokerage
+account. The tollowinz itens were included in this study:
+
+1. Co-ercial postage and insurance,
+2. Federal transfer taxes,
+
+, 3. State transier taxes,
+4. s.t.c. tees.
+
+Naturally a pregrsn or this type cannot be all inclusive and a
+number or simplifying assumptions had to be nude to effect the
+solution of the progran in a reasonable amount of tine.
+
+A consideration of the above list reveals that a wide variety ox
+problems were considered. It lust be emphasized that the latter group of
+subjects were perform on a "torn paper" basis. That is, these studies
+were performed on an individual basis, and elaborate reports were prepared
+describing the problen statement, the actual 650 program, the results obtained,
+
+and a. emery and evaluation of the paper. Although the term paper was expected
+to require 30-40 hours or hens and laboratory work, the actual time put in by
+
+the students varied enormously. For exalple, this tine ranged iron 30 hours
+to 360 hours, respectively. In the latter case, students intend to use this
+topic as a basis for their master's theses during succeeding term. '
+
+ 
+
+It is apparent ﬁrm the above course description that an attempt was
+made to cover both scientific coaputing and electronic data. processing in the
+subject. This can indeed be done, particularly when individual tern papers
+are assigned. However, as tine goes on it may be advisable to separate this
+
+subject into two distinct subjects, one dealing solely with scientific computing
+and the other with business data processing.
+
+This subject was taught by Dr. F. El. Vcrzuh, Director, office of
+Statistical Services. There were 26 students enrolled in Subject 6.538 during
+the Spring Term 1956 of which there W316 12 Electrical Engineering students,
+4 Chemical Engineering students, one Geophysics student , 3 Economics students,
+2 Business Administration students, and 4 Hatheraatics students, respectively.
+This was the first time students were able to use the 650 Calculator as part of
+their laboratory work. Judging by the large number of this group - 12 students --
+who are now using the machine for the solution of their thesis problems, it
+appears that the subject was highly successful.

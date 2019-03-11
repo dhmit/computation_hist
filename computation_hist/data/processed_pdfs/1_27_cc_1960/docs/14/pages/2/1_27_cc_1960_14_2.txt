@@ -1,0 +1,26 @@
+-2-
+
+between the COMIT system and other small programs.
+The COMIT system has been decoupled from any particular
+
+operating system (e.g. Automatic Operator Program) and may be used
+as a separate system itself. The current modes of use and initiation
+include:
+
+1) Call from on-line card reader for compilation
+
+and/or interpretation
+2) Call from tape for compilations and/hr interpretation
+3) Call from within the MIT Automatic Operator Program
+
+for compilation and/or interpretation.
+
+A programmer's reference manual is forthcoming which includes
+
+details of system operation and operating instructions for machine
+
+operators.
+
+K. Hansen
+M. Kannel
+K. Knowlton

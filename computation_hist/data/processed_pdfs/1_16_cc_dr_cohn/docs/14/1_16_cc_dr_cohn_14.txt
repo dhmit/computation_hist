@@ -1,0 +1,153 @@
+7- ~ , W" comm H. , ~ « s
+1952
+
+PROC. AMER. MATH. soc.
+(Vol‘ 3) pp 713—714
+
+   
+
+NOTE ON FIELDS OF SMALL
+DISCRIMINANT
+
+{w
+HARVEY COHN
+
+ 
+
+ 
+
+   
+
+Reprinted from the
+Pnocmnmcs or THE AMERICAN MATHEMATICAL SOCIETY
+W1. 3, No‘ 5, pp. 713-714
+October, 1952
+
+
+NOTE ON FIELDS OF SMALL DISCRIMINANT
+
+HARVEY COHN‘
+
+The problem of ﬁnding totally real ﬁelds of any degree and small
+discriminant is of interest, aside from intrinsic reasons, because of its
+connection with critical lattices for the product of the coordinates.
+The ground-work, however, seems to be largely unexplored. This is
+probably illustrated by a somewhat persistent conjecture [41’ that
+for totally real ﬁelds of degree (g—1)/2, where g is a prime >3, the
+smallest discriminant is g‘"—3’”, achieved for R (cos 21r/ g), where R is
+the ﬁeld of rational numbers. (This islthe maximal real sub-ﬁeld in
+the ﬁeld of the gth roots of unity.) This conjecture was often made im-
+plicitly even before its veriﬁcation [l] by Davenport for g=7 (the
+case g=5 having been trivial). We disprove this for these g, such as
+13, 37, etc.,for which (g+1)/2 is also prime. We use relative quadratic
+ﬁelds built on base ﬁelds of small discriminant, a device used previ-
+ously by Mayer [3] in his work on biquadratic ﬁelds.
+
+The counterexamples are constructed by adjoining to the totally
+real base-ﬁeld k the quantity a‘”, where n is a totally pasitive integer
+in k which is not a perfect square; we call k(p‘”) =K. Next we consider
+the prime ideal p dividing the odd rational prime p and the prime ideal
+q dividing 2, in the ground-ﬁeld k. Then according to the well known
+methods of Hilbert [2] the discriminant D. of K, and the discriminant
+d, of k, are related by D =d2N(b) where N(b) is the norm (over R)
+of the rehztive discriminant 29. Assuming for convenience that d is
+add, we have 31:63“ where © is the product of all p and q that di-
+vide (a) to an odd power, and I is the product of all q for which
+the congruence “EU mod q’“ is unsolvable for I an integer in k,
+with e equal to the exponent of the power to which q divides (a). In
+the cases worked out fully (below) it will prove advantageous to
+choose it relatively prime to 2 and such that the congruence paf‘
+mod 4 is solvable, for then I: (1).
+
+We take for the base-ﬁeld k=R(cos 21r/l), of degree (l—1)/2,
+where l is a prime >5. For this ﬁeld d=l“—3W.
+
+(i) First we take ,u=5. Since (5) is unramiﬁed and ,uEl mod 4,
+then b=(a) and N(b) =5”‘””. Therefore K“) =R(cos 21r/l, 5‘”) de-
+
+ﬁnes a totally real ﬁeld of degree 1—1 with discriminant D“)
+=ll—35(l—l)l2'
+
+Presented to the society, December 28, 1951; received by the editors January 15,
+1952.
+
+‘ Research currently sponsored by the U. 5. Army 0.0.R.
+
+’ Numbers in brackets are items cited in the bibliography at the end.
+
+713
+
+
+714 HARVEY com!
+
+(ii) Secondly we take [I
+d 4, then,
+
+and It (2 cos 1r/l)’ mo '
+._ _ (2): 3 2—2 cos 21r/l))1”) is a tot
+—3“ 1ml. Therefore K R“ ( (2) l—lsU—DIZ. ally Teal
+
+ﬁeld of degree 1-1 with discriminant . .
+Now whenever 21—1 (called g earlier) Is a prime, as Well as IV the
+
+totally real ﬁelds K“) (when l=7) and K”) (when I: 19) 31: 37, - - .)
+malls! discriminants than the ConjECtured
+
+of degree 1-1 provi e s . .
+ﬁeldv R(cos 27r/(Zl—1)), of discriminant (21—1)“2 and degree l~1'
+ﬁeld Km provides the smallest discriminané
+
+In fact when —-7 the ‘
+for a quadratic extension of the indicated base-ﬁeld (althoUgh the de
+
+tails of this last step can
+outline of Hilbert’s methods).
+
+BIBLIOGRAPHY
+
+1. H. Davenport, 0n the product of time homogeneous linear farms. 111 PM.
+
+London Math. Soc. vol. 45 (1939) pp. 98—125.
+2. D. Hilbert, ”be! die Theorie do: iclalivquadmtisthm Zahllziirpcrs Math A
+. . ml.
+
+vol. 51, pp. 1—127.
+3. . Mayer, Die absquI-lzleimlen Diskriminmzien def biquadmlixchen Zahlkmg,
+
+Sitzungsberichte der Akademie der Wissenschaften Wien Abt. IIa vol 138 (1929) p
+' P
+
+733-742.
+4. C. L, Siege], Geometry of numbers, mimeographed lecture notes New York‘
+
+University, 1946, Chap. IX, p. 14.
+
+be omitted as they fall within the earlier:
+
+WAYNE UNIVERSITY
+
+ 
+
+=3(2——2 cos 21r/l). Since (3) is unramiﬁed :
+once more, b = (u), and Nlﬁ)‘
+
+ 
+
+Pr
+r
+1‘35”
+
+a
+r
+
+ 
+
+an.
+n- '
+r.- c?
+
+  
+
+1LT
+
+

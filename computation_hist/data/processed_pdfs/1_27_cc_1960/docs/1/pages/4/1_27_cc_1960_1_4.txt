@@ -1,0 +1,52 @@
+-ha
+
+should be of particular interest to IBM, for they have direct
+bearing on the progress of computer design and utilization. They
+represent the sort of cooperative research between experts in
+different fields which MIT does so effectively, and they involve
+the combination or research and education for which MIT is pre»
+eminent. This work deserves support by IBM, in addition to the
+educational activities which are already being supported by the
+present contribution of the 70k. They can most effectively be
+supported by the installation of a 7090, replacing the 704, in
+the near future; MIT will then be able to provide the ancillary
+equipment to ush ahead with dispatch. Because of the "inter-
+connectedness' of much of this research it can best be carried
+out (perhaps it can only be carried outs in the atmosphere of
+mutual cooperation and exchange of information provided by the
+Computation Center.
+
+Outlook for the Future: The activities mentioned above
+are only a part of the researchy at MIT and at the associated
+institutions; which desires to use the facilities of the Computation
+Center. Obviously no single computing machine can be itself satisfy
+indefinitely the continually growing demands from the New England
+educational institutions, for all their research and educational
+computer needs. However the facilities of the Center need not,
+and probably should noty satisfy all the demands. A much more
+realistic task would be to concentrate on 1) the educational tasks»
+which will be supplemental to the onecampus small machines for the
+other New England colleges and which, for the MIT class needss can
+be improved in efficiency by timeosharing techniques; 2) on thesis
+research and 3) on Just those aspects of research which advance the
+design2a programming and utility of the computer in new fields.
+Research programs in other new directions, which involve machine
+use (meteorology; nuclear reactor design and the like) should only
+be supported by the Center by grants of time while they are in the
+formative stageg before they are far enough along to be able to
+ask for financial supports for further computation, in their own
+righto By the time they have developed their programs and their
+special techniques of machine use; and are ready to exploit these
+methods by long "production runs'}9 they should be in a position to
+obtain financing to make these runs on one of the several other
+similar machines which are or wi 1 be in operation in the vicinity:
+
+Even with this sort of limitation on the uaeibf the Center
+facilitiesg the demands on the Center will growl But the growthg
+if thus limitedg cang we believe; he handled by the pooperative
+effort of IBM and MITo A 7090 within the year would\not delay most
+of the work,outlined above,tQsteriouslyu Andy as outlined belong
+it would be able to handle than for several years; n ile plans are
+made for the next stepc 0n the other handy if a 709 cannot be
+
+‘ 4

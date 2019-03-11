@@ -1,0 +1,27 @@
+In carrying out this procedure we use a belt containing 20 chlorided
+silver electrodes, each 1 cm in diameter. The belt is fastened around the sub-
+jecth' chest at a given horizontal level, and the electrocardiograms taken. We
+use dual-beam oscilloscope display and a Grass camera, so have adequate sensitivity,
+resolution, and frequency response in the records. A standard lead, such as limb
+lead 11, is taken simultaneously with each chest lead. If 5 different levels are
+measured, we end up with 100 records. It is then necessary to choose a certain in-
+stant of time, such as that corresponding to the peak of the R wave of the standard
+lead, and to measure the deflections from all the records at this time. From these
+data, the curves are plotted and the integrations performed. This process gives
+values of Mx and My for one instant of time. We then have to choose other points
+on the standard lead and repeat the whole process in order to get a complete pic-
+ture of Mx and My during the cardiac cycle. The situation is actually even worse
+than this, because there will be slight differences between successive electrocar-
+diograms from the same lead, and one should take the average of 3 readings for
+greater accuracy.
+
+We are also using the method to determine the heart-vector of animal
+hearts suspended in a spherical plastic chamber. A rabbit heart, for example, is
+suspended in the sphere on the end of a perfusion cannula. Electrodes are mounted
+on the inner surface Of the sphere at 300 intervals. The sphere is also filled with
+fluid, and the entire assembly is immersed in another lucite chamber which has pro-
+vision for circulating fluid for temperature control. By measuring electrocardiograms
+from all 62 electrodes, we can find the three-dimensional heart-vector in magnitude
+and angle. By using the 2nd moment, and taking another surface integration, the
+
+location of the resultant dipole can also be found.

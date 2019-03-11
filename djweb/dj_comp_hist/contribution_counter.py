@@ -1,5 +1,6 @@
 import csv
 
+
 def contribution_counter(metadata="metadata.csv"):
     """
     This function returns a list of people who have contributed metadata.
@@ -15,12 +16,20 @@ def contribution_counter(metadata="metadata.csv"):
     """
     number_contributions = {}
 
+    not_a_member = ["shobhita", "kelsey", "charlotte", "assel",
+                    "elsa", "kate", "howard",
+                    "emily", "sophia", "isaac",
+                    ""]
     with open(metadata) as csvfile:
         reader = csv.DictReader(csvfile)
         for row in reader:
-            person = row["metadata_added_by"]
+            person = row["metadata_added_by"].lower()
             if person not in number_contributions.keys():
                 number_contributions[person] = 1
-            else:
+            elif person:
                 number_contributions[person] += 1
+    for not_member in not_a_member:
+        if not_member in number_contributions:
+            del number_contributions[not_member]
+
     return sorted(number_contributions.items(), key=lambda kv: -kv[1])

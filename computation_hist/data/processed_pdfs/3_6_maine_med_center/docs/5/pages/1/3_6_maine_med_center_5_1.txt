@@ -1,0 +1,118 @@
+Reprinted from
+"Proceedings of The New England Cardiovascular Society, 1957—58”.
+
+FURTHER STUDIES ON THE EFFECT OF THE INTRACARDIAC BLOOD
+ON THE ELECTROCARDIOGRAM
+
+C. V. NELSON, Ph.D.,* M. CHATTERJEE, M.D., and E. T. ANGELAKOS, PhD.
+
+ 
+
+From the Cardiac Research Laboratory, Maine Medical Center, Portland, Maine, and the Physiology Dept,
+Boston University Medical School, Boston, Mass.
+
+In the theory of the electrocardiogram, the heart is
+assumed to act like a current generator immersed in
+a homogeneous conductive medium. The concept of a
+homogeneous medium has been subject to criticism.
+Many studies have been made, for example, of the pos-
+sible effect of the lungs. Although published ﬁgures for
+the electrical resistivity of the lungs vary widely, model
+studies have shown that even if the lungs had a resis-
+tivity four times that of the other tissues, the maximum
+error in any surface potential would not be more than
+20%. Another factor which might invalidate the homO<
+geneous medium idea is the presence of the blood in the
+heart chambers. The electrical resistivity of whole blood
+is much lower than that of muscle and other thorax
+tissues. According to Schwan and Kay,1 the ratio is
+only 1/10. This ratio is considerably lower than that
+reported by other workers; usual values are one to four
+or ﬁve. The effect of a highly conducting mass near a
+current dipole can be studied most simply by means of
+the method of electrical images.2 Brody3 showed that
+the ettect of a spherical cavity ﬁlled with blood would
+be to increase the ﬁeld potentials if the dipole axis is
+normal to the sphere (radial dipole), or to decrease the
+potentials if the dipole is tangential to the sphere.
+
+Previously reported experiments‘ with an artiﬁcial
+dipole within the ventricular cavity indicated that the
+effect of the “shunting” action of intracardiac blood was
+to reduce the electrocardiographic potentials by about
+25%. In the experiments reported here, we have placed
+the dipole inside or across the myocardium in an effort
+to reproduce physiologic conditions more closely. Two
+approaches have been made: (a) Electrodes were in-
+serted in the myocardium of exposed live dog hearts in
+situ, and subthreshold stimuli were applied. The stimu»
+lus signal was recorded during systole and diastole, in
+order to see if the changing blood volume caused a varia-
+tion in amplitude. (The difference was only about 10%.
+This small dill‘erence was possibly due to the relatively
+large residual blood volume.) (b) The hearts were
+removed, and after the inllow and outﬂow vessels were
+cannulated, they were placed in a tank modeled after
+the human thorax. The tank was ﬁlled with saline of
+
+ 
+
+ablishetl Investigator of the \Int'llCiul Heart \ssmizition.
+. project supported by giants lrom the Maine and \ .:
+chusctts Heart Associations and by Grant No. [I 2590 of the
+USPHS.
+
+T
+
+   
+
+resistivity 1000 ohm-cm. Saline of the same resistivity
+was perfused through the heart, followed by a solution
+having the resistivity of whole blood. The deflections
+produced by the artiﬁcial dipole in the two cases were
+compared. In addition, the effect on the dipole of a
+metal sphere in the tank was tested.
+
+Figure 1 shows the results of an experiment in which
+two platinum disk electrodes were sutured on the epi-
+cardium of the right ventricle of a heart immersed in
+
+FIGURE 1
+
+w=
+Doe I:
+mm vmmt: 5mm Eucraunrs
+mum...“ um:-
+I: m—
+
+ 
+
+ 
+
+ 
+
+' In ~20 .zo
+Dim~u~cn
+
+ 
+
+the tank. The curves show the distribution of potential
+around the wall of the tank at mid-ventricular level, as
+measured by a series of dis (5 permanently mounted in
+the tank wall. $45.7 cm corresponds to the center of
+the back, and zero cm corresponds to the center of the
+front wall (mid-sternal line). The ettect of the low-
+resistivity ﬂuid is to reduce the amplitude of the poten-
+tials all around the wall. The tabular insert shows that
+unipolar and bipolar limb leads are also reduced. Be—
+cause of this more or less uniform reduction, the angle
+a is virtually unchanged. (a, deﬁned as the angle
+between the spatial vector and the horizontal plane, is
+used in preference to an, the Einthoven angle, since
+all components of the vector are thereby taken into
+accountF‘)
+
+Figure 2 is for a similar experiment with a trans-
+mural dipole in the left ventricle, where the estimated
+angle of the dipole with the myocardial wall was 70°.
+The effect of the low-resistivity tluid is now to increase

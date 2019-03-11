@@ -1,0 +1,56 @@
+Reprinted from the
+PROCEEDINGS or THE AMERICAN MATHEMATICAL Socrmv
+Vol. 5, NOT 3, pp. 476—477
+June, 1954
+
+THE DENSITY OF ABELIAN CUBIC FIELDS
+HARVEY coaN‘
+
+In the following note we show that the abelian cubic ﬁelds are rare
+in relation to all cubic ﬁelds over the rationals. This is no surprise
+since an irreducible cubic equation generates an abelian ﬁeld if and
+only if the coefﬁcients of the equation are subject to a certain restric—
+tion (that the discriminant of the equation be a perfect square). To
+express this rareness in analytic form we arrange the ﬁelds in order
+of increasing ﬁeld-discriminant and we deﬁne
+
+N405) =number of abelian cubic ﬁelds of (positive) discriminant
+éx, and
+
+N(x)=number of (abelian and non-abelian) cubic ﬁelds of dis-
+criminant éx in absolute value.
+
+Then we show by means of a “zeta-function discussion” that
+(1) NA(x) ~ (115/18)x1”. as x.» on,
+
+where c is given in formula (8) below. This result complements un-
+published results kindly communicated by Davenport. to the effect
+that N(x)=0(x), and by Heilbronn, to the effect that N(x)>clx
+(even with the restriction that the ﬁelds be totally real).
+
+It can be shown by classﬁeld theory [1]2 that abelian cubic ﬁelds
+of discriminantf2 are enumerated as follows: There is a single ﬁeld
+with f=9 or f=ga and there are for 921 exactly 2' ﬁelds with f
+:51» - ~ - q, or f=9q1 ~ - - q” where the q.- are distinct primes El
+(mod 6). (These ﬁelds are in fact subﬁelds of the ﬁeld of the fth roots
+of unity.) Thus,
+
+(2) NA(x) = U(x1”)/2 + U(x‘”/9) — 1/2
+where
+(3) My) = g «M
+
+and u(n) is, in turn, described by the generating function:
+
+so
+
+(4) ' ¢(s) =H(1 + 2r) = Z won-a
+
+1
+
+Presented to the Society, April 25, 1953: received by the editors April 22, 1953.
+‘ Research sponsored by the U. S. Army Ofﬁce of Ordnance Research, under con-
+tract DA-ZO-OlSeORD-12332.
+
+’ Numbers in brackets are items cited in the bibliography at the end.
+
+476

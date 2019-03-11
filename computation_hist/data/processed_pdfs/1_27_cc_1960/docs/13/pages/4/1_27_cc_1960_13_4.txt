@@ -1,0 +1,20 @@
+'\
+
+debugged. This version of a loaden which should be completed in
+the Spring, will operate entirely in core memory.
+
+In addition, a post—editor program is being programmed for
+operation on FORTRAN II output. It will editxthe binary output
+tape and three BCD output files into LLS form such that:
+
+1. COMMON statements can be set or modified at load time,
+
+and extensive recompilations due to COMMON statement changes
+
+should be unnecessary.
+
+2. With some constraints, dimensions of arrays, in COMMON
+
+can be made symbolic. This feature will be of great benefit,
+
+for example, with matrix subprograms.

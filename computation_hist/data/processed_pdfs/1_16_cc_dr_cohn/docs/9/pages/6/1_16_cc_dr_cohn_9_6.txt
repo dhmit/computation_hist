@@ -1,0 +1,130 @@
+HARVEY COHN
+
+1 —1 on: 3 —l
+(11), M n, 0 <1 0,
+
+. ' to system (51) ,
+and k g —6 pronde a solution, the same matrices, labelled differently, While
+
+If we try ’5 = ’ . . . ,9 ative divisors of (i, we ﬁnd it impossiblet
+if we try any other 1310:3283: ilntigml matrix elements, The details, running
+e the trace equa can be omitted- We have assumed the traces to be Dosi-
+e last case. can occur in two (out of three) generators of a triple
+V8 traces lar factor of — l. A zero trace, 011mg
+
+‘nto account by a sea , - —
+3“: “linkilb:otuildeiinly occur for all three generators, (see 0,1,”,th (0.0)), [ML
+ot er an ,
+
+. _ r to h pothesis.
+ing to an “helm“ €153: 256.;3ngzgeilmiiie )the desired matrix representation (3 to
+'Thus the genellaunimodulal' similarity transformation and to within a scalar
+“:lthm an 1 “$15” enerating matrices, such as DUMP, are seen, by recursion, to
+Sigri factor, t1 65,059 traces that equal three times a Markoff number, These
+achieziiggac y an to lead to Markoff’s forms.
+geiie'
+
+mak
+parallel to th .
+Live, but negati
+
+II. IDENTIFICATION WITH MARKor‘F’s FORMS
+
+7. The form associated with a matrix
+
+tout with the notation of §2 above, ie, with AY B’ I .. 1
+matrices. We deﬁne a form associated with
+f the corresponding linear transformation,
+
+In this section, we star .
+denoting arbitrary real, unimodular
+A from the ﬁxed-point equation 0
+
+(2.2) Thus,
+(71)
+
+(Note that A and —A lea
+points). It is easy to verify that
+
+em, y) = anal + ((122 — (hoary - any?
+
+d to different forms, although they have the same fixed
+
+(72) errata y) = duct", .11"),
+where, in accordance with an earlier notation,
+
+3:" = bna: + buy
+
+y" = one + boy
+
+(7‘3) (biibzs — bub?! = +ll~
+
+The discriminant of the form (In is
+
+(7.4) (an — mg + 4mg, = —4 + @(AY.
+
+The form can also be written as follows:
+
+(75) 041%(1, y) = w.2 + y1 + @(A)yw where w = (1211' - any-
+Thus we deﬁne
+
+(71’) 013 = (at + will, ,
+
+ 
+
+ 
+
+MARK ’
+en‘s MINIMAL FORMS
+
+(assuming an # 0), and we ﬁnd that, {0%ng the t 7
+. .. no- ‘ -
+y" = w, w' = y” = —y, with won 1” 83'3“}!!! (7,3),
+(7.7) F = (an
+0’“ —all '
+Thus)
+(7-8) Whit: V) = V2 + (1/)? + @00ny
+and
+(79) manta”, 11F) = y" + or)” — 65(21)ny
+
+8. Final identiﬁcation
+We now restrict the meaning of A, B to any two int
+satisfying the property: o
+(8-1) B"A"BA = K,
+
+gral unimodular matrices
+
+. , (Where k = “6)
+From the discussion of §()', ((‘quation 6.3), '
+
+(8-?) an = Eco/a: a).
+
+Thus since an —a»:; (mod (I) and a1 —
+
+' .. 11122 = 1 (mod (12), b th ' "
+trace and determinant respectively), we ﬁnd that the lvaliieyof :*de§;lfiilod ‘Of
+(/15) is an integer and the forms in equation (78) and (7 9) are 12 ' 118 l“
+the usual arithmetic, sense. i ’ equwa M In
+
+To make use of the commutator property (8.1), we note that
+
+(8.3) [fl/1]; : AK" = (‘W 6‘1““?
+—a-;1 Sam—G22 Y
+and we obtain from it the form
+(84) Wird-T, y) = —[(lzi$2 + ((122 — 011)???) — (112712] + 61121-711 " Gall-’12-
+Hence,
+
+(8.5) (“ﬁlm—dag LII) = —a2.<1>,1{x, 1/) + 26M)ny
+
+= —ﬂ2i¢A($F, NF)-
+llius it follows that the four forms
+
+(8'6) ill/2 + (yFlgl :2 CHM/.11"
+
+:10: Zliﬁglll‘yent (FYIOliellluS used the matrix I" in precisely this way lint he did
+her from talt C formstlrom the simple commutator relationship, or for that mat—
+Now F in li.\c(l»p01nts of matrices). .
+the min' rOlicnius showed from the cquivalence of these four forms that an. is
+the s Hymn“ ”f (batik l/l, (compare §12 iiclow), This value exceeds one-third
+
+quaie root of the discriminant 94131 - 4, hence, by either a continued-

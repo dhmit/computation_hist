@@ -1,0 +1,128 @@
+s
+ANNALI or MATHEMATIG
+
+Val.51,No.3,MIy, 1950
+
+CRITICAL LATTICES IN
+KI’ ECTURES 0N
+MINKOWS Sriiiivivrcrmc (I E I” + In I")”"
+
+BY Hsnvnr Conu‘
+(Received January 10, 1949)
+1. Introduction
+
+. . ' f the minimum constant 0,, for Which
+t 1115 a discusswn f) .
+' ' the En-Pline will necessarily hazel/Ewe pornts no further apart
+each [attic-e It; use of the metric (I E l? ‘l' l ’1 l ) 1 P > 1’. where A 15.13116 (Eu-
+than cm 1n 956 1 parallebgmm of the lattice. Our mam rem”
+
+ta ,
+clidean) area of the fundamen 21/P(1 — rpli/ (1 + 7m, where 7'12 Is the root
+
+' 5: C = - . .
+is that-f; P 8;???)5‘1215 signiﬁcance lies in the fact that it veriﬁes, in part,
+of r, = 1’ '
+
+some conjectures of Minkowski, other parts of which have been recently dis.
+vaed‘ . is of a eneral theorem on convex bodies
+
+Miukowslg [2] $11026: tolile 31mm areagof the simple inﬁnity of parallelo:
+that c, = 6,, gheiewliich lies at the origin and the other three vertices of which
+I' u: ,3: e chive? El? + l ,, l? = 1. Turning his attention to the inscribed paral-
+Iglograms, Minkowski ﬁrst conjectured, in effect, that the minimum and num-
+mum areas would occur at the symmetric posmons, i.e., when the parallelogram
+has a vertex on the E - (or n -) axis or on the hue 5.: 7/ (or E = — n). We
+shall prove tbjs conjecture to be false, (see 4), for certain small ranges of p and
+to be true, (see 5), for suﬂiciently large values of p. MlnkOWSkl went on to make
+the second conjecture that the minimum parallelogram will have a vertex on the
+lineE = 1; (m5 = — 1]) when p > 2, while it will have a vertex on the E—(or
+11 -) axis whenZ > p > 1. MordeH [3] veriﬁed both these conjectures in the case
+p = 4, while Davis [1] disproved the second conjecture for values of p sufﬁ-
+ciently close to 1 and 2.
+
+We shall also consider the question of when the symmetric parallelogram
+provide relative maxima and minima, since this matter has bearing on the con-
+jectures when p is not large, and, in particular, it provides our proof that the
+optima (and the critical lattices associated with them) do not necessarily pm-
+take 0f the ObVlOUS symmetries of the metric. This, of course, contradicts Min-
+kowski’s ﬁrst conjecture. Our main result, however, is a proof of Minkowski’s
+ﬁrst and second conjectures when p is sufﬁciently large.’
+
+This brief article con
+
+2. Formulation of the problem
+
+We describe the family 0i inscribed parallelograms as follows: We use the
+symmetries of the problem so that the parallelogram will have vertices (El, 171)
+w 7") in the ﬁYSt quadrant or on the 2: axis, a third vertex
+
+‘ Presented to the American
+
+Math ' - d February
+26, 1949. The author wishes to a ematxcal Society December 31, 1948 an
+
+cknowledge the advice of C, S. Davis.
+734
+
+MINKOWSKIS CONJECTURES 0N CRITICAL LATTIC
+ES
+
+1), and the fourth vertex, of course, at the on
+A = $1712 + 22711 , where 21 > .5? 2 0, ,7, g 0
+
+(£1 - £2)? + (771 + 172)” =1. Now if we letq
+such that :7 3 r i 0, we have (5,,
+
+t‘ 52 x 772) = (‘0 + 1713—1“), “(1 + Jeri/12).};
+
+(1) Ap(‘r, <7) = (o + r)(1 + aﬂ)~llp(1 + 1,3,“),
+subject to the side condition
+
+(2) [<1 + 7'3“” ~ (1 + a”)‘“‘°l" +[
+
+Then differentiating, we ﬁnd that, ex
+at 0, the extrema of A satisfy
+
+[(1 + er“? — (1 + w)““"]”“w—‘(1 _ ”no + 05—”.
++ T ‘1“ — 0"”er + r")““"i + [1(1+ .o‘“?
++ 0(1 + up)_”"]""1[(1v_ Til—loXl + 0}?)‘1/11‘
+“ (1 ‘ ‘77—‘00 + 7p)“1/zr] = 0.
+
+Thus, in principle, all of Minkowski’s conjectures can be resolved by solving
+
+equations (2) and (3) Simultaneously for u and ‘r as functions of p. We shall
+ultimately do this, but only for p sufficiently large.
+
+In the meantime, we take note of the two
+7=0,o' = apandr = 79,17 =1,where
+
+(4) a, = (2" — 1)”
+72 + 1 = 2(1 — To".
+
+We ﬁrst verify that if the base of the parallelogram is rotated from one of these
+positions to the other, then each position, within symmetries, uill be assumed by
+one of the three vertices lying on the curve I i l” + l 1] l" = 1. In fact, the base clearly
+takes all slopes between 0 and 1,, , the opposite vertex takes all slopes between
+— c1, and - 1 while the included vertex takes all'slopes between up and 1/7,. 3
+By symmetry, these slopes cover all values between 0 and 1. Hence it is no
+fundamental restriction to conﬁne a to the interval V, g a i 1, (01' 10 make the
+Corresponding restriction 0 g ‘r g 1,, . As for thc size of these intervals, when p
+goes from 1 to w, (7,, goes from 1 to 2, while 7 goes from % to 0, At the same
+time, from simple convexity properties, A,,(o, 7) increases monotonically in p for
+ﬁXcdo and 1 with A1(r, a) E %, A20? (7)5 g 3, and Aw(.-, a) E 1, for all a and 1.
+
+3. Relative sizes of symmetry parallelograms
+
+If we substitute 1' = 0 and -r = 7-1,, we obtain the following areas correspond-
+ing to Parallelograms whose base is a line of symmetry of the curve
+iElp‘l‘ lﬂlp = 1:
+
+1(1 + 713““? + V(1 + aJ)>l/pJp =
+
+(3)
+
+  
+ 
+
+symmetric positions as given by
