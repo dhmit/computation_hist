@@ -11,4 +11,3 @@ function start() {
     computer.general_memory[7].fixed_point = 1;
     update();
 }
-

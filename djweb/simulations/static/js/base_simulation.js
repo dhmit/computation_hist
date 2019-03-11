@@ -12,7 +12,7 @@ function assemble() {
     } else {
         const code = $(".symbolic_code");
         const code_innerHTML = Array(code.length);
-        for (let i = 0; i < num_code_lines; i++) {
+        for (let i = 0; i < code.length; i++) {
             code_innerHTML[i] = code[i].innerHTML;
         }
         computer.assemble(0, code_innerHTML);
@@ -24,8 +24,10 @@ function assemble() {
  * Cause the computer to advance one step.
  */
 function step() {
-    computer.step();
-    update();
+    if (!computer.halt) {
+        computer.step();
+        update();
+    }
 }
 
 /**
