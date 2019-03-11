@@ -97,6 +97,12 @@ function update() {
     accumulator_element = $("#accumulator")[0];
     accumulator_element.innerHTML = computer.accumulator.toString();
     accumulator_element.title = "Fixed Point: " + computer.accumulator.fixed_point;
+    accumulator_element.title += "\r\nFloating Point: " + computer.accumulator.floating_point;
+    
+    mq_register_element = $("#mq_register")[0];
+    mq_register_element.innerHTML = computer.mq_register.toString();
+    mq_register_element.title = "Fixed Point: " + computer.mq_register.fixed_point;
+    mq_register_element.title += "\r\nFloating Point: " + computer.mq_register.floating_point;
     
     index_a_element = $("#index_a")[0];
     index_a_element.innerHTML = computer.index_a.toString();
