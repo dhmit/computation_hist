@@ -264,6 +264,7 @@ def advanced_search(request):
     except:
         print('Error getting min and max years')
 
-    print(request)
+
+    # print(request)
 
     return render(request, 'list.jinja2', {'model_str': 'doc', 'model_objs': doc_objs})
