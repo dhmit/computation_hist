@@ -2,7 +2,7 @@ const computer = new IBM_704(computer_size);
 
 
 /**
- * Assembles code from code box into program which is placed in computer.
+ * Assembles code into program which is placed in computer.
  */
 function assemble() {
     if (typeof(GENERAL_ASSEMBLER) !== "undefined") {
@@ -31,18 +31,13 @@ function step() {
 }
 
 /**
- * Runs code placed into the textbox of ibm704sim.html with register 10 holding numerical
- * value of 11 and register 11 holding numerical value of 14, and returns value of register 12.
+ * Runs code for demo.
  *
- * @returns {number}    The value of register 12.
  */
 function run() {
     assemble();
-    // computer.general_memory[10].fixed_point = 11; // assign register 10 value of 11
-    // computer.general_memory[11].fixed_point = 14; // assign register 11 value of 14
     computer.run();
     update();
-    // return computer.general_memory[12].fixed_point; // should be 25
 }
 
 /**
@@ -82,6 +77,11 @@ function update() {
             computer.general_memory[i].instruction.toString();
         general_memory_html[i].title += "\r\nFixed Point: " + computer.general_memory[i].fixed_point;
         general_memory_html[i].title += "\r\nFloating Point: " + computer.general_memory[i].floating_point;
+        if (i === computer.ilc.valueOf() && !computer.halt) {
+            general_memory_html[i].style.backgroundColor = "deepskyblue";
+        } else {
+            general_memory_html[i].style.backgroundColor = "transparent";
+        }
     }
 
     instruction_location_counter_element = $("#instruction_location_counter")[0];
