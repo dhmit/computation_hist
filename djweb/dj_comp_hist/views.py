@@ -187,7 +187,7 @@ def search(request):
                 "routing sheet", "application", "note", "press release", "floor plan", "program",
                 "pamphlet", "payroll sheet", "time record", "summary", "table", "telegram"]
     doc_type.sort()
-    return render(request, "search.jinja2", {"doc_type": doc_type, 'input': query})
+    return render(request, "search.jinja2", {"doc_type": doc_type, 'query': query})
 
 
 def advanced_search(request):
@@ -210,6 +210,14 @@ def advanced_search(request):
         doc_objs = Document.objects.filter(folder__box__number=boxes[0])
     else:
         doc_objs = Document.objects
+    # TODO: try to fix up below filter to be more accurate
+    try:
+        title = request.GET['title']
+        if title != "":
+            doc_objs = doc_objs.filter(Q(title__icontains=title))
+    except:
+        print("Error getting document title")
+
     try:
         author = request.GET['author']
         if author != "":

@@ -36,6 +36,18 @@
             <label class="form-check-label" for="checkBox3">3</label>
         </div>
     <br>
+        <label for="docTitle" class="col-sm-10 col-form-label">Title of document (leave
+            blank if unsure)</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" name="title" id="docTitle" value= "{{ query
+                }}" >
+        </div>
+        <label for="docContents" class="col-sm-10 col-form-label">Phrases to search for
+            (leave blank if N/A)</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" name="contents" id="docContents">
+        </div>
+
         <label for="inputAuthor" class="col-sm-10 col-form-label">Authored by: (leave blank
             if unsure)</label>
         <div class="col-sm-10">
@@ -93,6 +105,8 @@
         if (document.getElementById('checkBox3').checked){
             url += "checkBox3=3&";
         }
+        url += "title=" + $('#docTitle').val() + "&";
+        url += "contents=" + $('#docContents').val() + "&";
         url += "author=" + $('#inputAuthor').val() + "&";
         url += "receiver=" + $('#inputReceiver').val() + "&";
         url += "doc_type=" + multiSelect.toString() + "&";
