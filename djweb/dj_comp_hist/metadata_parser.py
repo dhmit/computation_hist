@@ -30,26 +30,25 @@ def populate_from_metadata(file_name=None):
         count_skipped = 0
         count_invalid = 0
         for line_id, line in enumerate(csv_file):
+            # Skip empty lines
+            if "".join(line.values()) == '':
+                continue
 
-            try:
-                # Skip empty lines
-                if "".join(line.values()) == '':
-                    continue
-
-                document_metadata_complete = True
-                for attr in ['box', 'folder_number', 'doc_id', 'filename', 'author', 'title',
-                             'first_page', 'last_page']:
-                    if not line[attr]:
-                        print(f'WARNING: Line {line_id+1} is incomplete. Line {line}.')
-                        document_metadata_complete = False
-                        count_skipped += 1
-                        break
-                if document_metadata_complete:
+            document_metadata_complete = True
+            for attr in ['box', 'folder_number', 'doc_id', 'filename', 'author', 'title',
+                         'first_page', 'last_page']:
+                if not line[attr]:
+                    print(f'WARNING: Line {line_id+1} is incomplete. Line {line}.')
+                    document_metadata_complete = False
+                    count_skipped += 1
+                    break
+            if document_metadata_complete:
+                try:
                     add_one_document(line)
                     count_added += 1
-            except ValidationError as e:
-                count_invalid += 1
-                print(f'{e}. Line: {line}.')
+                except ValidationError as e:
+                    count_invalid += 1
+                    print(f'{e}. Line: {line}.')
 
 
     print(f'Added {count_added} documents from {file_name}. Skipped {count_skipped} documents '
