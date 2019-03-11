@@ -1,4 +1,5 @@
 const computer = new IBM_704(computer_size);
+var highlighting = true;
 
 
 /**
@@ -67,7 +68,9 @@ function update() {
         for (let line = 0; line < num_code_lines; line++) {
             code_html[line].style.backgroundColor = "white";
         }
-        code_html[code_line].style.backgroundColor = "deepskyblue";
+        if (highlighting) {
+            code_html[code_line].style.backgroundColor = "deepskyblue";
+        }
     }
 
     const general_memory_html = $(".general_memory");
@@ -78,10 +81,14 @@ function update() {
             computer.general_memory[i].instruction.toString();
         general_memory_html[i].title += "\r\nFixed Point: " + computer.general_memory[i].fixed_point;
         general_memory_html[i].title += "\r\nFloating Point: " + computer.general_memory[i].floating_point;
-        if (i === computer.ilc.valueOf() && !computer.halt) {
-            general_memory_html[i].style.backgroundColor = "deepskyblue";
-        } else if (i === next_instruction_address && !computer.halt) {
-            general_memory_html[i].style.backgroundColor = "#ff0066";
+        if (highlighting) {
+            if (i === computer.ilc.valueOf() && !computer.halt) {
+                general_memory_html[i].style.backgroundColor = "deepskyblue";
+            } else if (i === next_instruction_address && !computer.halt) {
+                general_memory_html[i].style.backgroundColor = "#ff0066";
+            } else {
+                general_memory_html[i].style.backgroundColor = "transparent";
+            }
         } else {
             general_memory_html[i].style.backgroundColor = "transparent";
         }
@@ -138,6 +145,8 @@ function general_start() {
     $('#clear_button').on('click', clear);
     $('#assemble_button').on('click', assemble);
     $('#step_button').on('click', step);
+    $('#highlight_button').on('click', function() { highlighting = !highlighting; update(); });
+
     create_memory_display();
 }
 
