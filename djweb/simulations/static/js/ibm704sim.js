@@ -11,6 +11,7 @@ const no_to_operation_b = {
     0o4400: SBM,
     0o401: ADM,
     0o534: LXA,
+    0o300: FAD,
 };
 
 const no_to_operation_a = {
@@ -32,6 +33,18 @@ for (let number in no_to_operation_a) {
 }
 operation_a_to_no["PZE"] = 0b000; // hack for pseudoinstruction PZE
 const non_indexable = {"TIX": 0, "TNX": 0, "TXH": 0, "TXL": 0, "TXI": 0, "TSX":0, "LXA":0, "LXD":0, "SXD":0, "PXD":0, "PAX":0, "PDX":0};
+
+// Exceptions
+const UNDEFINED_OPERATION_EXCEPTION = "Undefined operation!";
+const INVALID_BINARY_NUMBER_EXCEPTION = "String contains characters aside from 1 and 0!";
+const INVALID_UPDATE_CONTENTS_TYPE = "Contents must be of type number or string!";
+const INVALID_REGISTER_EXCEPTION = "Tried to program to invalid register!";
+const FIXED_OVERFLOW_EXCEPTION = "Fixed point number too large!";
+const FLOAT_OVERFLOW_EXCEPTION = "Floating point number too large!";
+const NAN_EXCEPTION = "Expected number, but it was me, Dio!";
+const INVALID_INSTRUCTION_EXCEPTION = "Cannot parse instruction!";
+
+const regex_line_parser = new RegExp('^([A-Z]+)\\s*(.*)');
 
 /**
  * Function to create a new string with the character at index replaced by a new character.
@@ -109,7 +122,7 @@ class Word {
         }
         if (typeof contents === "string") {
             if (isNaN(parseInt(contents, 2))) {
-                throw "String contains characters aside from 1 and 0!";
+                throw INVALID_BINARY_NUMBER_EXCEPTION;
             } else if (contents.length > this.length) {
                 console.log("Word has more than " + this.length + " bits.  Value will be" +
                     " truncated.");
@@ -118,7 +131,7 @@ class Word {
                 this.contents = Word.pad_zeroes(contents, this.length);
             }
         } else {
-            throw "Contents must be of type number or string!";
+            throw INVALID_UPDATE_CONTENTS_TYPE;
         }
     }
 
@@ -566,7 +579,7 @@ class General_Word extends Word {
         let characteristic = parseInt(characteristic_bits, 2);
         let exponent = characteristic - 128;
         let result = fraction*Math.pow(2,exponent);
-        if (binary_rep[0] === 1) {
+        if (binary_rep[0] === "1") {
             result = -result;
         }
         return result;
@@ -590,11 +603,29 @@ class General_Word extends Word {
     }
 
     /**
-     * Stores a number in floating-point format into the word.
+     * Stores a number in floating-point format into the word.  The number will always be normalized,
+     * which means that the fraction will be between 1/2 and 1.
+     *
+     * Note: You cannot set a floating point number to 0.
      *
      * @param {number}  number      Number to be stored.
      */
     set floating_point(number) {
+        let exponent = Math.floor(Math.log2(Math.abs(number))) + 1;
+        let characteristic = exponent + 128;
+        this.store_floating_point(number, Math.max(characteristic,0));
+    }
+
+    /**
+     * Stores a number in floating-point format into the word with a specific characteristic.  Generally,
+     * using the floating_point function is preferred because the word will be normalized.  Note: You
+     * cannot set a floating point number to 0.
+     *
+     * @param {number} number           Number to be stored.
+     * @param {number} characteristic   Characteristic of floating point number when stored.  (Check MD
+     * for more info.)
+     */
+    store_floating_point(number, characteristic) {
         var sign_bit;
         if (number < 0) {
             sign_bit = "1";
@@ -603,8 +634,7 @@ class General_Word extends Word {
         }
         let binary_rep = sign_bit;
         number = Math.abs(number);
-        let exponent = Math.floor(Math.log2(number)) + 1;
-        let characteristic = exponent + 128;
+        let exponent = characteristic - 128;
         binary_rep += convert_to_binary(characteristic, 8);
         let magnitude = number / Math.pow(2, exponent);
         let magnitude_binary = (magnitude.toString(2)).substring(2,29);
@@ -616,6 +646,10 @@ class General_Word extends Word {
         this.update_contents(binary_rep);
     }
 }
+
+let max_word = new General_Word("011111111111111111111111111111111111");
+const MAX_FIXED_POINT = max_word.fixed_point;
+const MAX_FLOATING_POINT = max_word.floating_point;
 
 /**
  * Class representing the accumulator on the IBM 704.  The accumulator consists of 38 bits: a
@@ -670,6 +704,58 @@ class Accumulator extends Word {
     }
 
     /**
+     * Converts a string binary representation of an IBM 704 word to a string decimal representation
+     * of that word interpreted as a floating point number.  For more information on how the IBM 704
+     * stores numbers, check the Markdown in the History Group folder.
+     *
+     * @returns {number}    Numerical value representation of word interpreted as floating-point
+     * number.
+     */
+    get floating_point() {
+        let binary_rep = this.contents;
+        let fraction_bits = binary_rep.substring(11,38);
+        let fraction = parseInt(fraction_bits, 2) / Math.pow(2, 27);
+        let characteristic_bits = binary_rep.substring(3, 11);
+        let characteristic = parseInt(characteristic_bits, 2);
+        let exponent = characteristic - 128;
+        let result = fraction*Math.pow(2,exponent);
+        if (binary_rep[0] === "1") {
+            result = -result;
+        }
+        return result;
+    }
+
+    /**
+     * Stores a number in floating-point format into the word.  The number will always be normalized,
+     * which means that the fraction will be between 1/2 and 1.
+     *
+     * Note: You cannot set a floating point number to 0.
+     *
+     * @param {number}  number      Number to be stored.
+     */
+    set floating_point(number) {
+        var sign_bit;
+        if (number < 0) {
+            sign_bit = "1";
+        } else {
+            sign_bit = "0";
+        }
+        let binary_rep = sign_bit;
+        number = Math.abs(number);
+        let exponent = Math.floor(Math.log2(number)) + 1;
+        let characteristic = exponent + 128;
+        binary_rep += convert_to_binary(characteristic, 10).substring(0,10);
+        let magnitude = number / Math.pow(2, exponent);
+        let magnitude_binary = (magnitude.toString(2)).substring(2,29);
+        length = magnitude_binary.length;
+        for (let i = 0; i < 27 - length; i++) {
+            magnitude_binary = magnitude_binary + "0";
+        }
+        binary_rep += magnitude_binary;
+        this.update_contents(binary_rep);
+    }
+
+    /**
      * Returns true if the Q bit is 1.
      *
      * @returns {boolean}   Q bit.
@@ -686,6 +772,20 @@ class Accumulator extends Word {
     get p() {
         return this.contents[Accumulator.P] === "1";
     }
+
+    /**
+     * Properly stores a general word into the accumulator, with correct sign and bits 1-35 but
+     * ignoring the P and Q bits.
+     *
+     * @param {General_Word} word   Word to be stored.
+     */
+    store_general_word(word) {
+        let new_contents = "";
+        new_contents += word.contents[0];
+        new_contents += this.contents[1] + this.contents[2];
+        new_contents += word.contents.substring(1);
+        this.update_contents(new_contents);
+    }
 }
 Accumulator.Sign = 0;
 Accumulator.Q = 1;
@@ -696,12 +796,12 @@ Accumulator.P = 2;
  * multiplying and division, and also for floating point operations.  More on this later when I
  * figure out how it actually works.
  */
-class MQ_Register extends Word { // currently just a dummy class
+class MQ_Register extends General_Word { // currently just a dummy class
     /**
      * Constructor for MQ Register.
      */
     constructor() {
-        super(0, 36);
+        super(0);
     }
 }
 
@@ -736,7 +836,7 @@ class Instruction_Register extends Word {
      *
      * Does not handle Type A, input-output, shifting, or sense instructions.
      *
-     * @param {string/Word}  word     Instruction to be stored in instruction register.
+     * @param {string/General_Word}  word     Instruction to be stored in instruction register.
      */
     store_instruction_b(word) {
         let result = "";
@@ -758,7 +858,7 @@ class Instruction_Register extends Word {
     /**
      * Stores Type A instruction into instruction register.
      *
-     * @param {Word/string} word    Word holding instruction to be stored.
+     * @param {General_Word/string} word    Word holding instruction to be stored.
      */
     store_instruction_a(word) {
         let result = convert_to_binary(0, 18);
@@ -773,7 +873,7 @@ class Instruction_Register extends Word {
     /**
      * Stores instruction into instruction register.
      *
-     * @param {Word} word
+     * @param {General_Word} word
      */
     store_instruction(word) {
         if (word.is_typeB()) {
@@ -878,6 +978,9 @@ class IBM_704 {
             instruction = instruction_word.instruction_a;
             instruction.operation(this, effective_address, instruction.tag, instruction.decrement);
         }
+        if (this.accumulator.p) {
+            this.ac_overflow = true;
+        }
     }
 
     /**
@@ -932,23 +1035,78 @@ class IBM_704 {
         for (let line_no in code_lines) {
             let line = code_lines[line_no];
             console.log(line);
-            let operation = line.substring(0,3);
-            let rest_of_line = line.substring(3);
+            if (!line.replace(/\s/g, '').length) {
+              continue;
+            }
+            if (isNaN(register) || register >= this.size || register < 0) {
+                alert("Error: Tried to program to invalid register " + register + "on line "
+                    + (parseInt(line_no) + 1) + "!  Register must be integer between 0 and " + (this.size - 1) + ".");
+                throw INVALID_REGISTER_EXCEPTION;
+            }
+            let parsed_command = regex_line_parser.exec(line);
+            if (parsed_command === null) { //if parsed command is null, throw error, not a valid command.
+                alert("Error: Cannot parse instruction on line" + (parseInt(line_no) + 1) + ".");
+                throw INVALID_INSTRUCTION_EXCEPTION;
+            }
+            let operation = parsed_command[1];
+            let rest_of_line = parsed_command[2];
             let numbers = rest_of_line.split(",");
-            if (numbers[2] !== undefined) {
-                let decrement = parseInt(numbers[2]);
-                let tag = parseInt(numbers[1]);
-                let address = parseInt(numbers[0]);
-                this.assemble_line(register, operation, address, tag, decrement);
-            } else if (numbers[1] !== undefined) {
-                let tag = parseInt(numbers[1]);
-                let address = parseInt(numbers[0]);
-                this.assemble_line(register, operation, address, tag);
-            } else if (numbers[0] !== undefined) {
-                let address = parseInt(numbers[0]);
-                this.assemble_line(register, operation, address);
-            } else {
-                this.assemble_line(register, operation);
+            try {
+                if (operation === "ORG") { // ORG pseudoinstruction lets you program to different location
+                    register = Number(numbers[0]);
+                    if (isNaN(register)) {
+                        throw NAN_EXCEPTION;
+                    }
+                    continue;
+                } else if (operation === "DEC") { // DEC psuedoinstruction lets you program fixed and floating point numbers
+                    let number = Number(numbers[0]);
+                    if (isNaN(number)) {
+                        throw NAN_EXCEPTION;
+                    }
+                    if (numbers[0].includes(".")) {
+                        if (number > MAX_FLOATING_POINT || number < -MAX_FLOATING_POINT) {
+                            alert("Error: Floating point value " + number + " at line " + (Number(line_no) + 1)
+                                + " is too large! Floating point numbers must be between " + MAX_FLOATING_POINT +
+                                " and " + -(MAX_FLOATING_POINT) + "."
+                            );
+                            throw FLOAT_OVERFLOW_EXCEPTION;
+                        }
+                        this.general_memory[register].floating_point = number;
+                    } else {
+                        if (number > MAX_FIXED_POINT || number < -MAX_FIXED_POINT) {
+                            alert("Error: Fixed point value " + number + " at line " + (Number(line_no) + 1)
+                                + " is too large! Fixed point numbers must be between " + MAX_FIXED_POINT +
+                                " and " + -(MAX_FIXED_POINT) + "."
+                            );
+                            throw FIXED_OVERFLOW_EXCEPTION;
+                        }
+                        this.general_memory[register].fixed_point = number;
+                    }
+                } else {
+                    if (numbers[2] !== undefined) {
+                        let decrement = Number(numbers[2]);
+                        let tag = Number(numbers[1]);
+                        let address = Number(numbers[0]);
+                        this.assemble_line(register, operation, address, tag, decrement);
+                    } else if (numbers[1] !== undefined) {
+                        let tag = Number(numbers[1]);
+                        let address = Number(numbers[0]);
+                        this.assemble_line(register, operation, address, tag);
+                    } else if (numbers[0] !== "") {
+                        let address = Number(numbers[0]);
+                        this.assemble_line(register, operation, address);
+                    } else {
+                        this.assemble_line(register, operation);
+                    }
+                }
+            }
+            catch (err) {
+                if (err === UNDEFINED_OPERATION_EXCEPTION) {
+                    alert("Error: Undefined operation in line " + (parseInt(line_no) + 1) + "!");
+                } else if (err === NAN_EXCEPTION) {
+                    alert("Error: Invalid number in line " + (parseInt(line_no) + 1) + "!");
+                }
+                throw err;
             }
             register++;
         }
@@ -965,12 +1123,15 @@ class IBM_704 {
      * @param {number} decrement    Decrement of instruction.
      */
     assemble_line(register, operation, address=0, tag=0, decrement=0) {
+        if (isNaN(address) || isNaN(tag) || isNaN(decrement)) {
+            throw NAN_EXCEPTION;
+        }
         if (operation in operation_b_to_no) {
             this.general_memory[register].instruction_b = new Instruction_B(eval(operation), address, tag);
         } else if (operation in operation_a_to_no) {
             this.general_memory[register].instruction_a = new Instruction_A(eval(operation), address, tag, decrement);
         } else {
-            throw "Undefined operation!";
+            throw UNDEFINED_OPERATION_EXCEPTION;
         }
     }
 
@@ -994,6 +1155,8 @@ class IBM_704 {
 }
 
 // Type B operations
+// Note: the computer.storage_register should always be the same value as computer.general_memory[address],
+// so the two are interchangeable.
 
 /**
  * Emulates the IBM 704 STO operation.
@@ -1030,7 +1193,7 @@ function HTR(computer) {
  */
 function CLA(computer, address) {
     computer.accumulator.clear();
-    computer.accumulator.update_contents(computer.storage_register);
+    computer.accumulator.store_general_word(computer.storage_register);
 }
 
 /**
@@ -1119,6 +1282,36 @@ function LXA(computer, address, tag) {
     let index_register = computer.get_tag(tag);
     let address_to_store = computer.storage_register.address;
     index_register.update_contents(address_to_store);
+}
+
+/**
+ * Emulates the IBM 704 Floating Add (FAD) operation.
+ *
+ * Adds the floating point value of word at specified address to the accumulator, and stores the result
+ * in floating point in the accumulator and the MQ register so that the MQ register contains floating
+ * point error.  This process involved a complex series of bit manipulations, so this implementation
+ * which uses Javascript to get around all that might be off by a couple bits.
+ *
+ * @param {IBM_704} computer    Machine to execute instruction on.
+ * @param {number}  address     Address of word to be added.
+ */
+function FAD(computer, address) {
+    let sum = computer.general_memory[address].floating_point + computer.accumulator.floating_point;
+    if (sum === 0) {
+        computer.accumulator.fixed_point = 0;
+        computer.mq_register.fixed_point = 0;
+    } else {
+        computer.accumulator.floating_point = sum;
+        // the point of this is to get the floating point inaccuracy.  Of course, JavaScript has its own floating point issues...
+        if (computer.accumulator.floating_point !== 0) {
+            let remainder = result - computer.accumulator.floating_point;
+            let exponent = Math.floor(Math.log2(Math.abs(sum))) + 1;
+            let characteristic = exponent + 128 - 27;
+            computer.mq_register.store_floating_point(remainder, characteristic);
+        } else {
+            computer.mq_register.store_floating_point(sum, 0);
+        }
+    }
 }
 
 // Type A operations

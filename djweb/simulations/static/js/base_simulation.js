@@ -1,8 +1,9 @@
 const computer = new IBM_704(computer_size);
+var highlighting = true;
 
 
 /**
- * Assembles code from code box into program which is placed in computer.
+ * Assembles code into program which is placed in computer.
  */
 function assemble() {
     if (typeof(GENERAL_ASSEMBLER) !== "undefined") {
@@ -12,7 +13,7 @@ function assemble() {
     } else {
         const code = $(".symbolic_code");
         const code_innerHTML = Array(code.length);
-        for (let i = 0; i < num_code_lines; i++) {
+        for (let i = 0; i < code.length; i++) {
             code_innerHTML[i] = code[i].innerHTML;
         }
         computer.assemble(0, code_innerHTML);
@@ -24,23 +25,20 @@ function assemble() {
  * Cause the computer to advance one step.
  */
 function step() {
-    computer.step();
-    update();
+    if (!computer.halt) {
+        computer.step();
+        update();
+    }
 }
 
 /**
- * Runs code placed into the textbox of ibm704sim.html with register 10 holding numerical
- * value of 11 and register 11 holding numerical value of 14, and returns value of register 12.
+ * Runs code for demo.
  *
- * @returns {number}    The value of register 12.
  */
 function run() {
     assemble();
-    // computer.general_memory[10].fixed_point = 11; // assign register 10 value of 11
-    // computer.general_memory[11].fixed_point = 14; // assign register 11 value of 14
     computer.run();
     update();
-    // return computer.general_memory[12].fixed_point; // should be 25
 }
 
 /**
@@ -70,16 +68,30 @@ function update() {
         for (let line = 0; line < num_code_lines; line++) {
             code_html[line].style.backgroundColor = "white";
         }
-        code_html[code_line].style.backgroundColor = "deepskyblue";
+        if (highlighting) {
+            code_html[code_line].style.backgroundColor = "deepskyblue";
+        }
     }
 
     const general_memory_html = $(".general_memory");
+    let next_instruction_address = computer.general_memory[computer.ilc.valueOf()].instruction.address;
     for (let i = 0; i < computer.size; i++) {
         general_memory_html[i].innerHTML = computer.general_memory[i].toString();
         general_memory_html[i].title = "Instruction: " +
             computer.general_memory[i].instruction.toString();
         general_memory_html[i].title += "\r\nFixed Point: " + computer.general_memory[i].fixed_point;
         general_memory_html[i].title += "\r\nFloating Point: " + computer.general_memory[i].floating_point;
+        if (highlighting) {
+            if (i === computer.ilc.valueOf() && !computer.halt) {
+                general_memory_html[i].style.backgroundColor = "deepskyblue";
+            } else if (i === next_instruction_address && !computer.halt) {
+                general_memory_html[i].style.backgroundColor = "#ff0066";
+            } else {
+                general_memory_html[i].style.backgroundColor = "transparent";
+            }
+        } else {
+            general_memory_html[i].style.backgroundColor = "transparent";
+        }
     }
 
     instruction_location_counter_element = $("#instruction_location_counter")[0];
@@ -97,6 +109,12 @@ function update() {
     accumulator_element = $("#accumulator")[0];
     accumulator_element.innerHTML = computer.accumulator.toString();
     accumulator_element.title = "Fixed Point: " + computer.accumulator.fixed_point;
+    accumulator_element.title += "\r\nFloating Point: " + computer.accumulator.floating_point;
+    
+    mq_register_element = $("#mq_register")[0];
+    mq_register_element.innerHTML = computer.mq_register.toString();
+    mq_register_element.title = "Fixed Point: " + computer.mq_register.fixed_point;
+    mq_register_element.title += "\r\nFloating Point: " + computer.mq_register.floating_point;
     
     index_a_element = $("#index_a")[0];
     index_a_element.innerHTML = computer.index_a.toString();
@@ -127,6 +145,8 @@ function general_start() {
     $('#clear_button').on('click', clear);
     $('#assemble_button').on('click', assemble);
     $('#step_button').on('click', step);
+    $('#highlight_button').on('click', function() { highlighting = !highlighting; update(); });
+
     create_memory_display();
 }
 

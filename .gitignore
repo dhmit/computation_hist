@@ -146,3 +146,6 @@ computation_hist/scratch.py
 # except txt files
 computation_hist/data/processed_pdfs/**/*.pdf
 computation_hist/data/processed_pdfs/**/*.png
+
+node_modules/
+package-lock.json
