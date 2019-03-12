@@ -12,6 +12,7 @@ const no_to_operation_b = {
     0o401: ADM,
     0o534: LXA,
     0o300: FAD,
+    0o560: LDQ,
 };
 
 const no_to_operation_a = {
@@ -1144,11 +1145,11 @@ class IBM_704 {
     get_tag(tag) {
         let index_register;
         if (tag === 1) {
-            index_register = computer.index_a;
+            index_register = this.index_a;
         } else if (tag === 2) {
-            index_register = computer.index_b
+            index_register = this.index_b
         } else if (tag === 4) {
-            index_register = computer.index_c;
+            index_register = this.index_c;
         }
         return index_register;
     }
@@ -1295,6 +1296,17 @@ function FAD(computer, address) {
             computer.mq_register.store_floating_point(sum, 0);
         }
     }
+}
+
+/**
+ * Emulates the IBM 704 Load MQ (LDQ) operation.
+ *
+ * Stores the value of the storage register into the Multiplier-Quotient Register.
+ *
+ * @param {IBM_704} computer    Machine to execute instruction on.
+ */
+function LDQ(computer) {
+    computer.mq_register.update_contents(computer.storage_register);
 }
 
 // Type A operations
