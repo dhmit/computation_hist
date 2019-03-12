@@ -4,6 +4,8 @@ import matplotlib.pyplot as plt
 from document import Document
 import csv
 import networkx as nx
+import plotly
+import plotly.graph_objs as go
 
 # This is a file for testing to see if the class system in networks.py can be updated with a more
 # linear setup through networkx
@@ -82,11 +84,24 @@ def add_doc(graph, doc_meta):
             graph.edges[author, 'None']['weight'] += 1
 
 
-if __name__ == '__main__':
-    g = make_graph(debug=True)
-    nx.draw_circular(g,
+def basic_draw(graph):
+    """
+    This provides a very simple network graph through matplotlib, ideal for speed but not
+    necessarily very pretty
+
+    :param graph: networkx Graph object
+    :return: None
+    """
+    nx.draw_circular(graph,
                      with_labels=True,
                      node_size=[node[1] * 100 for node in g.nodes.data('weight')],
                      width=[edge[2] for edge in g.edges.data('weight')]
                      )
     plt.show()
+
+
+if __name__ == '__main__':
+    g = make_graph(debug=True)
+    basic_draw(g)
+
+
