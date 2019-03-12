@@ -6,19 +6,26 @@ var highlighting = true;
  * Assembles code into program which is placed in computer.
  */
 function assemble() {
-    if (typeof(GENERAL_ASSEMBLER) !== "undefined") {
-        code = document.getElementById("code_box").value;
-        code_lines = code.split(newline_regex);
-        computer.assemble(0, code_lines);
-    } else {
-        const code = $(".symbolic_code");
-        const code_innerHTML = Array(code.length);
-        for (let i = 0; i < code.length; i++) {
-            code_innerHTML[i] = code[i].innerHTML;
-        }
-        computer.assemble(0, code_innerHTML);
+    if (typeof GENERAL_ASSEMBLER !== "undefined") {
+        clear();
     }
-    update();
+    try {
+        if (typeof(GENERAL_ASSEMBLER) !== "undefined") {
+            code = document.getElementById("code_box").value;
+            code_lines = code.split(newline_regex);
+            computer.assemble(0, code_lines);
+        } else {
+            const code = $(".symbolic_code");
+            const code_innerHTML = Array(code.length);
+            for (let i = 0; i < code.length; i++) {
+                code_innerHTML[i] = code[i].innerHTML;
+            }
+            computer.assemble(0, code_innerHTML);
+        }
+        update();
+    } catch (err) {
+        clear();
+    }
 }
 
 /**
