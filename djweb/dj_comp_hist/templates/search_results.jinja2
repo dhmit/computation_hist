@@ -15,65 +15,7 @@
     Searches for: {{ query }}
 {% endblock %}
 {% block table %}
-    Need a more advanced search?
-    <div class="row">
-    <div class="col-lg-3 col-md-3 col-sm-6">
-    </div>
-    <div class="col-lg-6 col-lg-offset-2 col-md-6 col-md-offset-2 col-sm-12 col-sm-offset-4">
-    <form action="/dj_comp_hist/advanced_search">
-        Look for documents in boxes (check all if unsure):
-        <br>
-        <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="checkBox1"
-                   name="checkBox1" value="1">
-            <label class="form-check-label" for="checkBox1">1</label>
-        </div>
-        <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="checkBox2"
-                   name="checkBox2" value=1>
-            <label class="form-check-label" for="checkBox2">2</label>
-        </div>
-        <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="checkBox3"
-                   name="checkBox3" value=1>
-            <label class="form-check-label" for="checkBox3">3</label>
-        </div>
-    <br>
-        <label for="inputAuthor" class="col-sm-10 col-form-label">Authored by: (leave blank
-            if unsure)</label>
-        <div class="col-sm-10">
-            <input type="text" class="form-control" name="author" id="inputAuthor">
-        </div>
-        <label for="inputReceiver" class="col-sm-10 col-form-label">Received by: (leave blank
-            if unsure)</label>
-        <div class="col-sm-10">
-            <input type="text" class="form-control" name="receiver" id="inputReceiver">
-        </div>
-    <br>
-        <div class="form-group">
-            <label for="multipleSelect"> Document Type, if known: </label>
-            <select multiple class="form-control" id="multipleSelect" name="doc_type">
-                {% for type in doc_type %}
-                    <option>{{ type }}</option>
-                {% endfor %}
-            </select>
-        </div>
-    <br>
-        Filter by number of pages: <input name="minPages" type="text" value="1"
-                                          style="width:25px">  to <input name="maxPages"
-                                                                        style="width:25px"
-                                                                        type="text"  value="30">
-    <br>
-        Filter by year: <input name="minYear" type="text" value="1945"
-                                          style="width:50px"> to <input name="minYear" type="text"
-                                                                       value="1950"
-                                                                       style="width:50px">
-    <br><br>
-        <button type="submit" class="btn btn-primary">Submit</button>
-    </form>
-    </div>
-    </div>
-    <br>
+    Need a more <a href="/dj_comp_hist/search/?q={{ query }}">advanced search?</a>
     <br>
 
     {% set searches = False %}
@@ -122,5 +64,3 @@
     {% endif %}
 {% endblock %}
 
-{%  block footer %}
-{%  endblock %}

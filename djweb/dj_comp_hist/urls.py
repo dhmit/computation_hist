@@ -10,6 +10,7 @@ urlpatterns = [
     path('folder/<int:folder_id>', views.folder, name='folder'),
     path('organization/<int:org_id>', views.organization, name='organization'),
     path('search_results/', views.search_results, name='search_results'),
+    path('search/', views.search, name='search'),
     path('advanced_search/', views.advanced_search, name='advanced_search'),
     # Todo: Slugify at a much later time?
     path('list/<str:model_str>', views.list_obj, name='list'),
