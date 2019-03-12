@@ -31,10 +31,13 @@ def main_function(test_run=True):
         foldername_short = current_folder.name
         # download the folder from aws and store it in the designated directory (creating it if
         # necessary
-        folder_pdf_path = download_raw_folder_pdf_from_aws(box_id, folder_id, foldername_short)
-        # split the folder into docs and store it in the correct directory
-        # within the function doc's are split to pages
-        split_folder_to_doc(folder_pdf_path, foldername_short, box_id, folder_id)
+        try:
+            folder_pdf_path = download_raw_folder_pdf_from_aws(box_id, folder_id, foldername_short)
+            # split the folder into docs and store it in the correct directory
+            # within the function doc's are split to pages
+            split_folder_to_doc(folder_pdf_path, foldername_short, box_id, folder_id)
+        except FileNotFoundError as e:
+            print(e)
 
 
 def download_raw_folder_pdf_from_aws(box_no: int, folder_no: int, foldername_short: str):
