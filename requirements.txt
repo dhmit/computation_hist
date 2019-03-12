@@ -12,6 +12,7 @@ numpy
 oauth2client
 pandas
 pdf2image
+plotly
 pylint
 PyPDF2
 requests
