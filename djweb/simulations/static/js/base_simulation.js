@@ -93,6 +93,8 @@ function update() {
                 general_memory_html[i].style.backgroundColor = "deepskyblue";
             } else if (i === next_instruction_address && !computer.halt) {
                 general_memory_html[i].style.backgroundColor = "#ff0066";
+            } else if (typeof highlighted_registers !== "undefined" && highlighted_registers.includes(i)) {
+                general_memory_html[i].style.backgroundColor = "mediumseagreen";
             } else {
                 general_memory_html[i].style.backgroundColor = "transparent";
             }
