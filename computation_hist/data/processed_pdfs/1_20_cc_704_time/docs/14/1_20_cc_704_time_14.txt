@@ -1,64 +1,52 @@
-ﬂ calm-mum can-n
+|
 
- 
+MIT COMPUTATION CENTER
 
- 
-
-IIIIIChUIOttI lultltutc of Technology
+Kassachusetts Institute of Technology
 2/7/57
 
-QUESTION!" 05' scam "BAG! 0? 104 emu-rm TIES
-
-lane of Person
+QUESTIONNAIRE ON SCHEDULED USAGE OF 704 COMPUTER TIME
 
  
 
-Dept . or Group
+1, Name of Person
 
  
 
-ll'r’Roon No. Tel No.
+Dept. or Group
 
  
 
-1
-
-Estimated 704 Machine hours usage per month
-
- 
-
-Average ﬂax. Hours V ; Avg. Kin. Hours
-
-l
-
-Estimated dollar éxnenditures per Ionth S
-
- 
-
-Estimated need for programing assistance _ hrs/month
-
- 
-
-Estimated expenditure for " " $
-
-Finns of year of peak computing load
+MIT*Room No, Tel No.
 
  
 
  
 
+2, Estimated 704 Machine hours usage per month
+
+Average Max, Hours ; Avg, Min, Hours
+
+3. Estimated dollar expenditures per month $
+
+4, Estimated need for programming assistance hrs/month
+
  
 
-Comments :
+5. Estimated expenditure for " y $
+
+6. Time of year of peak computing load
+
+7. Comments:
 
  
 
-——————-——————_——_——______—_~
-W...
-W
+EE ————— —————————————— EE —— i ———————————————————————— A —— — — ————————————————————————
+ee ——————————————————————————————————————— ———————————————————————————— i ————— ee —— a
+EE — EE ——————— ——————————————————————————————————————————————————
 
-————————~—_._—__.~_—____
+EE —————————— A —————————————————————————————————————
 
-€Please return to F. M. Verzuh, Room 200-205)
+(Please return to F., M, Verzuh, Room 20C-206)
 
 

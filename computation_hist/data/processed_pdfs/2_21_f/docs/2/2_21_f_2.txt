@@ -1,5 +1,5 @@
-Richard E. Pikes
-38200 Duval
+Richard E. Fikes
+3820C Duval
 Austin, Texas 78751
 
 January 13, 1964
@@ -8,50 +8,93 @@ Computation Center Director
 Massachusetts Institute of Technology
 Cambridge, Massachusetts
 
-De r sir:
+Pesr -sir:
 
 I am interested in entering the M.I.T. graduate school in
-Septemer, 1964, and I would like to request information as
-to the availability of part time jositions at your installa-
+September, 1964, and I would like to request information as
+to the availability of part time vositions at your installa-
 tion and financial help to graduate students in the computer
-sciences. I would also be in crested in the possibility of
+sciences. I would also be interested in the possibility of
 full time work this summer.
 
-I have a Bachelor of Arts degree in mathematics from The
-University of Texas. I am participzti in an information
-proceSiing ; aduate trogrem under the directors, u of Dr.
-Robert K. Lindsay, Assistsnt Professor of Psycholog,, as a
-first 3r graduate student at Texas. I have studied in the
-sr is pattern recognition, game—playi 9 machines, simula—
-tion of neural nets, theore;—provixg machines, probl solving,
-learning, ' formatio
+I have a Bachelor of Arts degree 1n mathematics from The
 
- 
+University of Texas. I am participating in an ‘information
+processing graduate program under the directorship of Dr.
+Robert K. Lindsay, Assistant Professor of Psychology, as a
+first year graduate student at Texas. I have studied in the
+areas of pattern recognition, came-playing machines, simula-
+tion of neural nets, theorem-proving machines, problem solving,
+learning, information retrieval, mechanical translation of
+natural languages, simulation of cognitive processes, symbolic
+logic, and linguistics. My programming experience in these
+areas includes work with IPL-V and participation in o current
+project to create and implement a new lisT processing language.
 
-       
+2
 
- 
- 
-  
+smmer at the Univer-
+held that position
 
- 
- 
+0
 
-to
+TI am currently employed as a systems Prog
+sity of “fexas Computation Center and ha
+>t an average of twenty-five hours Per
+months, My job has included work in VE
+cuages on both the CDC 1604 and the CDC
+he field
 
- 
+MD
 
-     
-        
+pod
+ri
+HH
+oO
 
-      
+3
 
-r»trieval, meoh3;ical tr31317
-natLral lan “es, simulation of cognitive p
+m
 
- 
+=
+ct
+(0)
+Mm
+pe
++
 
-currently e:;_ 1
-Cf T€X_Q Comp
+\
+
+0)
+FS
+
+— bk (DD OD
+<
+Ul
+~
+b—~
+@
+U
+KS
+A%)
+=
+a
+=
+as
+F
+}
+
+60 computers. I
+
+have directly participated in the field testing of EDEYs
+
+COOP Monitor system for the 1604 and, currently, Fortran-63.
+
+My job has also t1ncluded teaching programming, writing progranm-—
+ming information publications, and writing programs f'or the
+
+U. T. Computation Center library.
+
+Thank you for your time; I will be looking forward to your
 
 

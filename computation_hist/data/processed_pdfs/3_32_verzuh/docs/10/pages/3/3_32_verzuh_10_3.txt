@@ -1,63 +1,58 @@
-lie-ordain: on the 11.1.1. Differentinl Anelyner
+l ; . liemorendum on the ll.i.'l‘. Differential Analyzer
 
- 
+1.0 INTRODUCTION
 
- 
+| This memorandum is prepared with two objectives im mind. First,
 
- 
+‘ : & brief historical background of the Rockefeller Differential Analyzer
+(RDA) iz presented together with specific comments pertaining to the
 
-r
+‘ | development period and pertinent factors associated with its operation
+during the past twelve years. Second, the recent dismantling and
+disposition of the RDA is described in some detail. In the discussion
 
-l . 0 Imam-non
+" - of the above items, frequent reference will be made to several memoranda
+which have been prepared on the machine during the past decade.
 
-This nae-erudi- is prepared with two objectives in ﬁnd. rirst.
+‘ I think it is importamt that the Rockefeller Research Foundation
+| | be properly informed of the disposition of the Differential Analyzer
 
-, e brie! hietoricel background of the Rockefeller Differential Anelyner
-(M) is presented together with epecific cments perteinin‘ to the
-develop-eat period and pertinent fectors usocieted with its operation
-during the pest twelve years. Second, the recent di-entlinc and
-dispolition of the am is described in me detail. In the discussion
-of the shove ital, frequent reference will he nude to several lune-end:
-which have been prepared on the Iaehine during the pest decede.
+since they were so helpful with financial contributions dm-tu its -
+‘ formative years.
 
-I think it is inportant thet the Rockefeller Beeeerch roundetien
-be properly infer-ed of the disposition of the Differential Anelyner
-niece they were so helpful vith fimnciel contributione during its "
-fen-native years.
+I 2.0 HISTORICAL BACKGROUND OF THE ROCKEFELLER DIFFERENTIAL ANALYZER
 
-2.0 HIS'I'ClCAl-I BACKGROUND 2 E menu-nun human-rm. mm
+, - ‘The original design and development of the Differential Analyzmer
+was initiated early in 1936, and several of the basic features of the
 
- 
+[ machine were determined at that time. Specifically, the design of the
+servomechanism system which wegused to interconmnect the components of
 
- 
+| the machine was developed during that pericd. This is mentioned simply
+to indicate that during recent years some of the maintenance problems
 
-The original design and develop-ant of the Differentiel Analyser
-wes initisted early in 1936, and several of the henic feature. of the
-nachine were deter-med at that tine. Specifically, the design of the
-servo-echnniu eyst. which weaneed to interconnect the couponents of
-the nechine wne developed during that period. Thin ie eentioned silply
-to indicete that during recent yeere sole of the neintenence problems
-unocieted with the RM were occseioned by the pnrticuler servnechenisle
-which were .ployed. These were vintege 1936, end as such. were not .
-eupetitive with poet-World Ier ll umechani- design.
+' associated with the RDA were occasioned by the particular servomechanisas
+vhich were employed. Thess were vintage 1936, end as such, were not
 
-The original Center of Annlyeie wen for-elly organized by Profesaor 8. H.
-Caldwell in July. 1939 with the aid of e grant of $30,000 fro- the Cernegie
-Foundation. During its early, foreetive peers, the Center existed lergely
-on pants fro- the Rockefeller Fomdntion, Electrical lngineering Depart-ent.
-and other sources; end it was not until 1942 that the am was finelly plsced
-into oped-stion. Beginning et that tine, the RDA provided a source of
-financial revenue which assisted in the for-ulation of e alt—supporting
-rogue.
+| competitive with post-World War II servomechanism design.
 
-During 1941. the activities of the Center (under the direction of
-R. Teylor) were expended to include a large battery of desk ealcnletore
-and seeoeieted pereonnel who were well advanced in the nee of nuericel
-analysis technique. At that tine. the Center centeined 3 principel types
+The original Center of Analysis was formally organized by Professor 8. H.
+Celdwell in July, 1839 with the aid of & grant of $30,000 from the Carnegie
+Foundation. During its early, formative years, the Center existed largely
+on grants from the Rockefeller Foundation, Electrical Engineering Department,
+and other sources; and it was not until 1842 that the RDA was finally placed
+into operation. Begimning at that time, the RDA provided a source of
+financial revenue which assisted in the formulation of & self-supporting
+regime.
+
+During 1941, the activities of the Center (under the direction of
+R. Taylor) were expanded to include & large battery of desk calculators
+and associated personnel who were well advanced in the use of numerical
+analysis techniques. At that time, the Center contained 3 principal types
 of facilities:
 
-1. The Differential Anelner facility coneisting of 2 whines:
-s) The originnl G—lntegretor Differential Analyser,
+1. The Differential Analyser facility consisting of 2 machines:
+a) The original 6-Integrator Differential Amalyser,
 
-h) The new Rockefeller ls-lntegrntor Electrueehanicel
-Differential Annlyner.
+b) The new Rockefeller 18-Integrator Electromechanical
+Differantial Analymer.

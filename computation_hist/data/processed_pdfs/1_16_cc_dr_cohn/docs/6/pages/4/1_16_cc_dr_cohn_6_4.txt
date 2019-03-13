@@ -1,56 +1,48 @@
 RIEMANN FUNCTION 299
 
 We observe that (5) is an ordinary differential equation of second order with
-only one initial condition. This, however, is natural since (5a) has onlv one
-solution regular at U = 0. For if we were to expand both U and far; i/ 1/)
-into powers of (I — x’) and (y — y’), we should find that they each begin ivith
-the term (1 —— x’) (y — y’)H(.r’ + y’), whencef(U; 1", y’) = U + aw, y’)L72 +
+only one initial condition. This, however, is natural since (5a) has only one
+solution regular al; U = 0. For if we were to expand both U and U .’Lv", y')
+into powers of (z — 2’) and (y — y’), we should find that they each begin with
+the term (z — %) (y — ¥")H(2' + '), whence f(U; 2/, y') = U + a(2’, y')U* +
 
-Thus at U : 0, equation (5a) has both characteristic exponents zero,
-which implies that (5a) has a solution R, regular and equal to unity at (7 = 0
-and a solution It2 with a logarithmic singularity at U = 0. Thus {5) uniquelv
-determines a Riemann function R = R. (U; .1", y’) V
+Thus at U = 0, equation (5a) has both characteristic exponents zero,
+which implies that (5a) has a solution R, regular and equal to unity at U = 0
+and a solution R, with a logarithmic singularity at U = 0. Thus (5) uniquely
+determines a Riemann function R = R,(U; 2/, ). .
 
 Unfortunately only very few cases are covered by this artifice. The condition
-that the Jacobian of (GU/61‘) (BU/61011" and l' with respect to a: and y vanish
-can be regarded as an identity in I’ and y’ for any given a: and y This identity
+that the Jacobian of (U/dx) (dU/dy)H™" and U with respect to x and y vanish
+can be regarded as an identity in 2" and y’ for any given x and y. This identity
 in turn leads to an ordinary differential equation if we develop H into power
-series about the point 7' = .L‘ + y. Then the identity implies the vanishing of
-an inﬁnite series in the variables x’, y’ with coefficients expressible in terms of
-H(r) and its derivatives Since the coefficients of such a series must vanish,
-we obtain an ordinary differential equation for [1(7‘), namely
+series about the point » = & + y. Then the identity implies the vanishing of
+an infinite series in the variables 2/, ¥ with coefficients expressible in terms of
+H(r) and its derivatives. Since the coefficients of such a series must v Anish.
+we obtain an ordinary differential equation for H(r), namely
 
-d/rlr[H"dzH/d7‘2 — 3/2(dl'lI/Hdr)2] : 0,
-
- 
-
+d/dr[H 'd°H /dr* — 3/2(dH/Hdr)’] = 0,
 which has as its general solution
-(6) H(r) = —)\()\ + Uni/sinh2 Mr + u)
-
-where h, n, v are constants This is the value of H(r) for which we shall derive
-
+(6) H(r) = —A(\ + Dpu /sinh® u(r 4+ »)
+where A\, u, v are constants. This is the value of H(r) for which we shall derive
 a Riemann function via (5).
-In obtaining the Riemann function corresponding to the value of H(r) given
 
-in (G), we ﬁnd that
-l' = —)\()\ + I) log (1 + V),
+In obtaining the Riemann function corresponding to the value of H(7) given
+in (6), we find that
+
+U= = XA+ 1)log(1+ V),
 where
 
-sinh [4(1‘ — .v’) sinh “(y — 1/)
+sinh u(x — 2’) sinh u(y — %)
+sinh u(x + v + v) sinh u(2” 4 l’/_, + v)
 
-V = — ——————.
-sinh u(:r + y + u) sinh #0“ + y_’ + y)
+In terms of V equation (5) becomes
 
-In terms of 1" equation (5) becomes
+( V(1 = V)d®R/AV* + (1 — 2V)dR/dAV + ANA + DR = 0
 
-[ V(I — V)d3R/'<ll"" + (1 7 mum/(1V + m + 01:) : 0
-
-I? = l at l' = 0,
-
+R =1 at V =0,
 and its solution, a hypergeometric function, is the Riemann function corre-
-sponding to H(r) in ((3), namely,
+sponding to H(r) in (6), namely,
+(7) R(z,y;2’',y) = F(1 + A, —X; 1; V).
 
-(7) RLL‘, 31;.1", y’) = ["(1 + >\, —)x; l; V),
-
-The form of 11(7‘) in (6) is seen to have a few simpler limiting cases. First
-Of Ell, we Can change >\ to h exp u and let v A» on, obtaining in the limit [1(7) =
+The form of H(r) in (6) is seen to have a few simpler limiting cases. First
+of all, we can change A to A exp » and let » — «, obtaining in the limit H(r) =

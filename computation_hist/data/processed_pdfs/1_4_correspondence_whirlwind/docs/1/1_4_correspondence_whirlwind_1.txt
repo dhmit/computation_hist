@@ -1,75 +1,204 @@
-CHIC
+Iv
+f i acl
+| .
+
+Date of
+Request
+
+29 0 54
+
+29 0 5h
+1NS54
+
+1N54
+
+8 N 54
+10 N 54
+
+12 BK 54
+16 N 54
+17 RB 54
+18 § 54
+23 N 54
 
  
 
-CHEI‘P AWNOE
+ 
 
-7 Date of Proposed Endorsed , Problem Time Time
-, Request By By Description u _ Nos. Requested Allotted
-1 W
-29 0 5h LVozoff PJLHurley Analysis of surface electrical measurements in terms of 123 7 hrs 7 hrs
-Geology Geol. é subsurface distributions of conductive materials
-and Geophysics
-Geophysics Dispersion in surface wave trains 212 6.5 hrs 6.5 hrs
-29 0 5h 1'1.ng J. Kaye Heat transfer for supersonic flow of air in 'a tube 199 15-20 hrs 15 hours;
-Hech.3ng. Hech.En¢.
-l R 5b J .H.Luning Jr same Algebraic translation routines: an interpretive program 108
-Instrumentation Lab. 15 min/wk 5 hour§ ..
-J. Stark Servo response to a cosine pulse 211
-Instrument . Lab .
-l I? 5‘! G. Koster J.C.Slater Tight Binding Balculations in crystals 1757
-555:!!! Physics ‘
-M. Saffren J.C.Slater An augmeﬂed plane wave method as. applied to sodium 19“ a,
-$53.41”! ' .'
-A. Heckler J.G.Slater Study of the ammonia molecule 201 ;- 5 hrs/wk 55 hours
-338:)? "
-A. Heckler J .c .Slater Electron lattice interaction in solids 205 I
-585:!!! ‘
-R. Nesbet J .6 .Slater Tmnsformation of integrals for diatomic molecules 21$ ,
-SM ‘
-8 N 5” 8.1).Gavril A.E.Shapiro The aerothermopressor 120 80 hours 30 hours
-Mech. Eng. neoh. Eng.
-10 H 5“ _ I. Shulman R.L.Bisplinghofr Helicopter rotor stability 222 2 hrs 2 hrs
-Acre-elastic Aero. Eng.
-Lab.
-12 N 5‘5 Decantpbell F.J.Epplim Determination of phase shifts from experimental crosa— 162 5 hrs 5 hrs
-Lab for Ruclaer Science sections
-16 N Eh T.P.Goodmn J .B.Reswick Industrial process control studies 213 2 hours 2 hours
-HechJEng. Hech.Eng.
-17 3} 5h R.G.Hills P.M.Horse Croesoorrelation of blast furnace input—output data 180 2 hours 2 hours
-Elect . Eng . Physics
-18 E 5‘; L. Sax-tori PJLHorse Neutron-deuteron scattering 225 5 hours 5 hours
+Proposed
+By
+K.Vozoff
+Geology
+
+and
+Geophysics
+
+T.Y.Toong
+Mech.Eng.
+
+Endorsed
+By
+
+P.M Hurley
+Geol. &
+Geophysics
+
+Jd. Kaye
+Mech.Eng.
+
+J. H.Laning Jr same
+Instrumentation Lab.
+
+¥M. Rotenberg
+
+CHMMC
+
+CREDIT ALLOWANCE
+
+Description
+
+Analysis of surface electrical measurements in terms of
+subsurface distributions of conductive materials
+
+Dispersion in surface wave trains
+Heat transfer for supersonic flow &f air in a tube
+
+Algebraic transletion routines: an interpretive program
+
+J. Stark Servo response to z ccsine pulse
+
+Instrument.Lab.
+
+G. Koster J.C.Slater Tight Binding @éalculations in crystals
+
+SS&HT Physics
+
+M. Saffren J.C.Slater An augmehfied plane wave method as applied to sodium
+SS&MT gl
+
+A, Meckler J.C.8later Study of the ammonia molecule
+
+SS&MT /
+
+A. Meckler J.C.Slater Electron lattice interaction in solids
+
+SS&ENMT :
+
+R. Nesbet J.C.Slater Transformation of integrals for diatomic molecules
+SS&MT
+
+B.D.CGavril A .H.Shapiro The aerothermopressor
+
+Mech. Eng. Mech. Eng.
+XY, Shulman R.L.Bisplinghoff Helicopter rotor stability
+
+Aero-elastic Aero. Eng.
+
+Lab;
+
+B.Campbell F.J.Eppling Determination of phase shifts from experimental cross-
+Lab for Nuclear Science sections
+
+T.P.Goodman J.B.Reswick Industrial process control studies
+
+Mech.Eng. Mech.Eng. |
+
+R.G.Mills P.M. Morse Crosscorrelation of blast furnace input-output data
+Elect.Eng. Physics
+
+L. Sartori P.M .Morse Neutron-deuteron scattering
+
 Physics Physics
-23 ﬂ 51L J. Uretsky
-A. Tomkin PJ'Ll'iorse Coulomb Wave Functions 122 20 hours 20 hours
-L. Samori Physics
-E. Rotenberg
 
+J. Oretsky
 
-23 E 54 A. Tubis
-CHHC
+A. Temkin P.M.Horse Coulomb Wave Functions
 
-29 ll 54 A.T.L1ng
-cm:
+L, Sa¥tori Physics
 
- 
+Problem Time
+
+Nos.
+
+123
+
+212
+199
+108
+211
+i
+194
+201 -
+205 |
+218 |
+120
+
+222
+
+162
+213
+180
+
+225
+
+122
+
+Requested
+
+7 hrs
+
+6.5 hrs
+
+15-20 hrs
+
+15 min/wk
+
+5 hrs/wk
+
+80 hours
+
+2 hrs
+
+5 hrs
+2 hours
+2 hours
+
+5 hours
+
+20 hours
+
+Time
+Allotted
+
+7 hrs
+
+6.5 hrs
+
+15 hours:
+
+5 hours.
+
+55 hours
+
+30 hours
+
+2 hrs
+
+5 brs
+2 hours
+2 hours
+
+5 hours
+
+20 hours
+
 
 Credit Allowance continued
 
-P.H.Horse Variation-perturbation of atomic wave function and energies 21?
+23 N 54 A. Tubis P.M.Morse Variation-perturbation of atomic wave function and energies 217 30 min 30 min
+CMMC Physics :
+29 N 54 A.T.Ling S.H.Crandall Evaluation of explicit and implicit difference formulas for 228 1 hour 1 hour
 
-Physics .
-S.H.Crandall Evaluation of explicit and implicit difference formulas for 228
-Mech. Eng. the diffusion equation
-
-30 min
-
-1 hour
-
- 
-
-30 min
-
-1 hour
+CMMC Mech. Eng. the diffusion equation
 
 

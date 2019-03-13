@@ -1,19 +1,24 @@
+NN
+v
+
+*
+
+Draft
+
 COMPUTATION CENTER
 Massachusetts Institute of Technology
-
 Cambridge 39, Massachusetts
 
-£04 5/ ”“7
-
 Memorandum to Users of the MIT Computation Center 704.
-Subject: Limitation on Computing Time
 
-The requests for time on the 704 have been increasing steadily
+Sub ject: Limitation on Computing Time
+
+The requests for time on the TO4 have been increasing steadily
 for the past two years. Already the schedule is close enough to
 saturation that processing delays occur at times of peak demand. It
 is apparent that this spring the requested machine time will total
-more than the time alloted to M.I.T. on the Center's 70”. According
-to the agreement with IBM two shifts are available for educational—
+more than the time alloted to M.I.T. on the Center's 704. According
+to the agreement with IBM two shifts are available for educational-
 research computing, one shift for M.I.T., the other for the other
 New England colleges. Until recently the other colleges have not used
 all their shift, so that M.I.T. has had more than a single shift available.
@@ -21,23 +26,23 @@ But the time used by the other colleges has increased, so that this year
 nearly all its time is filled and there is less for M.I.T.
 
 The Center has endeavored to accommodate for the increased load
-by running one Saturday a month (used primarily by the other colleges,
-theAreleaseg week—day time being used by M. I. T. ) and by encroaching on
+by Sone one Saturday a month (used primarily by the other colleges,
+the reieastd week-day time being used by M.I.T.) and by encroaching on
 the third (IBM) shift when processing delays rose to longer than 24
-hours. We hope to run two Saturdays 3 month this spring and to encroach
+hours. We hope to run two Saturdays a month this spring and to encpvoach
 on the third shift from time to time but, even then, requested time
 
 will exceed time available for M.I.T.
 
 Computing time can be delay-limited or it can be limited in
-advance by imposing quotas. The Center believes it is more appropriate
-
+advance by imposing quotas. The Center believes it 1s more appropriate
 to impose quotas. Hereafter problems requiring machine time will be
 
 classified as follows:
 
-, .mw [kw/w ‘ A , . l’
-A. For use in (in x “'A‘YL Agivncmn “1%Q‘
+C oVL ANN ss
+
+A. For. use 1n : SH nek
 
    
 
@@ -45,8 +50,10 @@ B. Problems which directly or incidentally develop new
 programs or techniques which will be useful to other
 machine users.
 
-C . Otherﬁ IVA/Avitwvz .
+c. Otherg Pall,
 
+
+=a
 
 If requested time for M.I.T. problems, per quarter, is larger
 than the estimated time available, allowed times will be reduced
@@ -58,15 +65,15 @@ applications in early in the spring. It should also be noted that
 requests for additional time, over that allowed at the beginning of
 the quarter, probably cannot be granted.
 
-In this way the Center hopes to keep the weekly computing load
+In this way the Center hopes to keep The weekly computing load
 from being so great as to cause long processing delays. It will not
 cure the fact that M.I.T. has already outgrown the computing equipment
-it now has. we at the Center will be glad to hear suggestions as to
+1t now has. We at the Center will be glad to hear suggestions as to
 how we can get the equivalent of three or more 704's in the near future!
 
 Philip M. Morse
 Director
 
-PMM:RM
+PMM: RM
 
 

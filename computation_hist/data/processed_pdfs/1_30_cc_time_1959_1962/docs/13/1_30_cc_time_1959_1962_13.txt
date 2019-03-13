@@ -1,100 +1,80 @@
-P tab, No‘
-uh.
+Prob. No. Lab
+1038 OR
+1133 LNS
+1143 LNS
+1150 LNS
+1151 LNS
+1157 LNS
+1160 LNS
+1174 RLE
+1175 LNS
+1176 LNS
+LET RLE
+1178 RLE
 
-1038
-1133
-111.13
-1130
-11:31
-11.37
-1110
-11 E70}
-1175
-11 1’6
-11377
-1178
+Laboratory
+a ES
+Hours Employed
 
-Lax oratory
-_, M,
-
-Ho: , rs Em; loyed
-
-Boa: gs Us e d
-Cami; Icing
-Owe mead
+Hours Used
+Computing
+Overhead
 Sick Leave
-Vaca "sinus
-Clas ses
+Vacations
+Classes
 
-'1' stal
+Total
 
-Hows Not Used
-Ho: rs 0V fawn
+Hours Not Used
 
- 
+Hours Overdrawn
 
-  
+Cunulative Hours Not Used
+Curulative Hours Cverdrawn
 
-s. .‘lati:
+Lat User
 
-La:
-_;
+RL} T. Weiss
 
-1 E
-USE
-1M.
+LNG S. Westreich
+LNCS R. Scharenberg
+Lab Hours
 
-LN“
-RLE‘
+LRS 39.25
 
-Lab
-
-0R
-INS
-LNS
-
-LNS
-INS
-
-RLB
-LNS
-LWS
-RLE
-
-ati 5 Hausa Vat Used
-, Hours {verdrabm
-
-Use:
-
-To Weiss
-S. Westteich
-R. Scharenberg
-
- 
+RLF 7.5
 
 Joint Computing Group
+Time Record
+October, 1960
 
-Time
+Requested by
 
-Record
-
-October" 1960
-
-Reguested 22
 H. Galliher
-I... Delves
-A. Tubis
-W. Buechner
-J. Linsley
-G. Schappett
-C. Yang 3 HI:
-H“ Hirsch
-C.‘ shakin
-R, Freeman
-1'. Weiss
-J. Hetshfield
+Delves
+Tubis
+Buechner
+Linsley
+Schappert
+Yang - Hn
+Hirsch
+Shakin
+Freeman
+Weiss
+Hershfield
+
+AOI D Sy E>
+A On iy hela gal g arg hiive
+
+“
+
+Ct 3
+®
+
 Time Distribution
-3‘2 2‘3
+BE uy
+
+RLE INS
 320 488
 90 527
 48 100
@@ -106,83 +86,48 @@ Time Distribution
 145
 507
 2177
-LG? - 30
 
-Time Record
+IGP ~ 30 Time Record
 
-Hours
-__
-
-7.5
-14. 75
-24.5
-
-'se 32 Laboratories
-
-T0231 Hours
-m
-
-l17995
-449u25
-
+ER ERS. Sy
 Hours
 
-111 Oct.
+7.5 7.5
 
-76
+14.75 48.0
 
-170
-10
+24,5 422.5
 
-160
-76
-20
-56
-48
-14
-56
+Use By Laboratories
 
-00090 O
+Total Hours
+SELLE a CRRA Wen ET.
 
-O
+1179.5
+449.25
+
+Hours
+
+in Oct.
+
+Coo oo Oo
+
+Q
 
 454
 
 Total Hours
-*—
-
-7
-8
-2
-
-.
-UIOUA
-
-4
-42
-
-Total
-Hours
-
-2587
-779
-1247
-206
-335
-387
-288
-52
-127
-4-8
-14
-56
+CTS SRE YT SR ry
 
 OR
 
 80
+
 76
+
 10
-92
+
+02
 
 12
 1216

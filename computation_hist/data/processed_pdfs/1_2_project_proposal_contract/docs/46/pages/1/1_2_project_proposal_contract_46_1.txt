@@ -1,46 +1,41 @@
-1,.31 ‘ Page 1 of 4
+I-31 ‘ Page 1 of 4
 
-MASSAGEISE‘I‘TS INSTITUTE OF TECHNOLOGY
-
+MASSACHUSETTS INSTITUTE OF TECHNOLOGY
 Department of Physics
 
-MFMORANIXJM
+MEMORANDUM
 
-To: Mr. N. McL. Sage
-From: Professor Philip M. Morse
+Tos Mr. N. McL. Sage
+Froms Professor Philip M. Morse
+Dates November 29, 1951
 
-Date: November 29, 1951
-
-Subject: Contract “5011. 06001, Task Order I 3
+Subject: Contract N5ori 06001, Task Order I;
 Proposal for extension beyond current expiration
 date for the period 1 July 1953 through 30 June 1954
 
-we propose to continue work on the subject contract as
-restated in Amendment 13 for an additional year covering the period
-1 July 1953 through 30 June 1951.. The work will consist of a coor-
-dinated research program in applied mathenatics utilizing facilities in
-the Center for Machine Computation including the Whirlwind computer in
-
+We propose to continue work on the subject contract as
+restated in .Amendment 13 for an additional year covering the period
+1 July 1953 through 30 June 1954. The work will consist of a coor-
+dinated research program in applied mathematics utilizing facilities in
+the Center for Machine Computation including the Whirlwind Computer in
 the Digital Computer Laboratory. The work will include but not neces-
 sarily be limited to the following:
 
 (1) research in methods of numerical analysis and the
-fornmlation of scientific problems for machine solution, to—
+formulation of scientific problems for machine solution, to-
 gether with the training of personnel in these methods;
 
-(2) mpport of the scientific and engineering applica-
+(2) support of the scientific end engineering applica~
 tions group of Project Whirlwind so as to make the computer
 useful and available for the above research and
 
 (3) partial support of the maintenance of the Whirlwind
 Computer and research into digital computing machine components
-
-including a. continuation of research being carried on in mag—
-netic memory devices.
+including & continuation of research being carried on in mag-
+netic memory devices. ~
 
 The Air Force is making a large contribution to the support
 and extension of facilities of the Whirlwind Computer. Its use will
-be shared by the Air Force and ONE. It is understood that details of
-
+be shared by the Air Force and ONR. It is understood that details of
 the program here proposed will be worked out from time to time with the
 technical officer.

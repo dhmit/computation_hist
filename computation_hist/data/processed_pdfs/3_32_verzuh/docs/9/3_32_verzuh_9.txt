@@ -1,60 +1,124 @@
-<3:::i 3::jira 1;
-Yuma 2! , 1952
+OTE
+| ember 21, 1952
 
-To: Prof. R. E. Scott
+To: Prof, R, E,. Scott
+From: F, M, Verzuh
 
-From: F. M. Verzuh
+Subject: Proposed Undergraduate Subject on Computation
 
-SubJect: Proposed Undergraduate Subject on Computation
+I
+SEE See TEEN EEE See SRR ER Gee BRR GR ees ee ER WERE RR WE WW — Wn — mn wp Wm W— WO A Wow —_— Wy ————— —
 
-At the recent meeting on November 19, attended by
-c. w. Adam, R. E. Scott. and F. M. Varxuh, it was decided
-that each ofxs would submit a brief description of the
-probable content of the portion of the subject which they
-would present. I am therefore attaching a descrfption of
+| At the recent meeting on November 19, attended by
+C. Ww. Adems, R, E. Scott and F. M. Verzuh, it was decided ]
 
-the punched-card portion. \1
+that each of us would submit a brief description of the
 
-F. M. V.
+| probable content of the portion of the subject which they
+| would present, 1 am therefore attaching a description of
 
-x
-CC: lérof. P. M. Morse
-Prof. G. S. Brown
+| the punched-card portion. |
+
+/
+CC 3 frof. P, M, Morse
+Prof. G, SS, Brown
+
+| | Fo M. V.
+|
 
 
-landlln
+landlin
+
+  
 
  
 
-A study of punched-card equipment with specific
+A study of punched~card equipment with specific
+
+ 
+
+ 
 
 emphasis on the principle of operation as well as the
 
  
 
-effective application.
+ 
+
+ 
+
+ 
+
+effective application,
+
+ 
+
+ 
+
 The following outline summarizes the functional
+
+ 
+
+ 
+
 capabilities which will be covered on each machine:
+
+ 
+
 Key Punch: Coding, key punching, printing, verifying,
+
+ 
+
+ 
+
 and the interpretation of data into punched
 
-cards.
-Sorter: Card counting, numeric and alphabetic sorting.
-Coliltor: Matching, merging, selection and comparison.
-Reproducer: Gang punching, summary punching, reproducing i
+ 
 
-and comparison.
+cards.
+
+ 
+
+ 
+
+Sorter: Card counting, numeric and alphabetic sorting.
+
+ 
+
+ 
+
+ 
+
+Collator: Matching, merging, selection and comparison,
+
+ 
+
+Reproducer: Gang punching, summary punching, reproducing
+
+ 
+
+ 
+
+ 
+
+and comparison,
+
+ 
+
+ 
+
+ 
 
  
 
 Tabulator: Listing, group indication, printing, addi-
 tion, subtraction, selection and automatic
-control.
+contrel,
 
-Calculators: +, —, x, f, programming, selection,
-shifting operations by solmion of the some
+Calculators: +, =, x, +, programming, selection,
+shifting operations by scltion of the same
 problem on each of the 602A, 604 and Card-
 
-Programmed Calculators.
+Programmed Calculators,
 
 

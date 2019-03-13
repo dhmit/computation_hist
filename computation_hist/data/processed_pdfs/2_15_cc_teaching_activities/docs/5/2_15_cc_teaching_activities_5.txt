@@ -1,577 +1,555 @@
-MIMIC CGAPUTATIONAL TRAINING PROGRAM
+ACADEMIC COMPUTATIONAL TRAINING PROGRAM
 
-F- M. Verzuh
+F. M, Verzuh
 June 22, 1956
 
 
-TABLE gamma
+TABLE OF CONTENTS
 
- 
+Introduction. « « ¢ ¢ os oo « 2 2 ¢ 0 o ¢ = oo & oo
+HMachine-Aided Analysis ~ 6.25 . . « « « « ¢ a o« »
+Introduction to Digital Computer Coding and Logic
+Electronic Computational barat 6.8538 . +
 
-Introduction.......................
-whine-Aidedmlyaie-e.35. . . . . . . . . . . . . .
-Introduction to Digital Computer Coding and Logic - 6.535
-Electronic Computational Laboratory‘- 6.588 . . . . . . .
+Summary of Student Enrollment Statistics. . + «
 
-Summary of Student Enmllnent Statistics. . . . . . . . .
-
-my.
-. . l
-. . 1
-. . 2
-. . 3
-. . 9
+Page
+EE |
+Sak
+Tira
+. 3
+es. Y
 
 
-Mimic CWATIONAL TRAINING FEOGBAE!
-
- 
-
-I
-.
+ACADEMIC COMPUTATIONAL TRAINING PROGRAM
 
 introduction
 
- 
-
 There are a number of graduate subjects in automatic computation,
-numerical analysis, and new electronic data processing, oﬂered at ILLT.
+numerical analysis, and now electronic data processing, offered at HM.I.T.
 The present list of subjects directly related to machine computation includes
 the following:
 
- 
+Subj . Description Units Year Instructor
+6.25 Machine =-Aided Analysis 3-6 4 Linvill
+6.535 Digital Computer Coding 52
 
- 
+and Logic 3 ~6 G Arden
+6.538 Electronic Computational FL 1 a Vosiah
 
-Subg- . Descrigtion Units Year Instructor
-6.25 Machine -Aided Analysis 3 - 6 4 Linvill
-6.535 Digital Computer Coding _
-and Logic 3 6 G Arden
-6.538 Electronic computational _ _
-‘ Laboratory 3 l 5 G Verzuh
-6.54 Pulsed-Data. Systems 3 - G G Linvill
-6.567 Switching Circuits 3 ~ I. - 6 ' G Caldwell
-6.568 Switching Circuits 3 - 1 - 6 G Caldwell
-2.215 Methods of Engineering _
-‘. Analysis 3 9 G Crsndnll
-15.542 Hensgenent Information Systens 3 - 6 6 Gregory
-1539 nethods of Applied Mathematics 3 - 9 G Hildebrand
-H411 Numerical Analysis 3 - 2 — 7 G Hildebrand
-. H412 Numerical Analysis 3 - 2 - 7 G Hildebrand
+Laboratory
+6.54 Pulsed-Data Systems 3-6 G Linvill
+6.567 Switching Circuits 3~1-~-6 G Caldwell
+6.568 Switching Circuits 3-1-8 (¢} Caldwell
+2.215 Methods of Engineering x
 
-It is apparent from the above list that these subjects are grader-Lingual!
-Graduate A subjects - which indicates that this subject is primarily for
+Aeiveia 3-9 G Crandall
+15.542 Management Information Systems 3 - 6 G Gregory
+M39 Methods of Applied Mathematics 3 ~ © G Hildebrand
+Mail Numerical Analysis 3-23-17 G Hildebrand
+M412 Numerical Analysis 3-2-7 G Hildebrand
+
+It is spparent from the above list that these subjecis are predominantly
+Graduate A subjects -- which indicates that this subject is primarily for
 graduate students. However, it is perfectly possible for undergraduate
-students in their senior year to take these subjects as an elective.
 
-Eachine-Aided Analzsis - 6.25
+students in their senior year to teke these subjects as an elective.
 
- 
+Machine-Aided Analysis - 6,25
 
-Subject 6.25 ~- Hachine-Aided Analysis —- was offered for the first
-time dosing the full term 1953-1954. This subject differs from other
+Subject 6.25 ~-- Machine-Aided Analysis -- was offered for the Zirst
+time during the fall term 1253-1954. This subject differs from other
 computational subjects in the following respects:
 
 
-1. It is a. iourth-yecr elective subject designed for the
+1. It is a fourth-year elective subject designed for the
 undergraduate,
 
 2. It is a survey subject which covers numerical analysis,
-analog mutation, and digital oonputntien,
+analog computation, and digital computation,
 
-3. It pavides the student with s general knmedge 0! sons
-of the nunerical methods acessury to: whine wutetien.
+3. It provides the student with a ganeral knowledge of some
+of the numerical metheds necessary for machine computation.
 
-Adaittedly, such a survey subject cannot be all inclusive, and becanse of
+Admittedly, such a survey subject camnot be all inclusive, and because of
 
-the lax-gs enrollment, it is he longer possible to provide ﬂue student with
+the large enrollment, it is no longer possible io provide the student with
 actual physical contact with any computer.
 
-Since 1953 this subject has turned cut to be increasingly popular.
-As a matter of fact, it is new effered both full and spring terns. ma
-attendance is quite high. here were 106 students in 6.25 during the
-Fall Tex-s 1955, and 47 students during the Spring Term 1956. This subject
-offered at the undergraduate level enables students to decide whether they
+Since 1853 this subject has turned out to be increasingly popular.
+As a matter of fact, it is now offered both fall and spring terms, Tho
+attendance is quite high. There were 106 students in 6,25 during the
+Fell Term 1958, and 47 students during the Spring Term 1956. This subject
+offered at the undergraduaie level enables students to decide whether they
 are interested in taking additional subjects in this area, and if they are,
-there are 10 graduate subjects in which they any enroll.
+there are 10 graduate subjects in which they may enroll.
 
- 
+Introduction to Digital Computer Coding and Logic - 6.535
 
-Introduction 2 Digital cmuter EM Eng Logic - 6.535
+This subject was, as usual, again offered during the Spring Term 1856,
+and there were 97 students envolled. As a result, it wes necessary to divide
+the subject into two sectiens taught by D. Arden and P. Helwig, respectively.
 
-This subject was, as usual, again offered during the Spring Tern 1956,
-and there were 97 students enrolled. As a. result, it was necessary to divide
-the subject into two sections taught by D. Arden and P. Helwig, respectively.
-
- 
-
-Because of the large enroll-ant in this subject, no attespt was made
-to make actual use of any computer. As a matter of fact, the usual detailed
+Because of the large enrollment in this subject, no attempt was made
+tc make actual use of any computer, As a matter of fact, the usual detailed
 coding for the Whirlwind Computer was not presented, and students were not
-allowed to use the conputer because of the large size of the group. Since the
+allowed to use the computer because of the large size of the group. Since the
 departure of Professor Adams, the content of the course has been changed
-somewhat, and during the spring tern considerable emphasis has been devoted
-
+somewhat, and during the spring term considerable emphasis has been devoted
 to a study of the logical design of the internal system aspects of several
-large coaputers -- Whirlwind, None, 831, etc.
+large computers ~- Whirlwind, NORC, IDl, etc,
 
 
-Electronic aﬂutational laboratory - 6.538
+Ge
 
-The subject matter offered in 6.538 since 1M7 provided the student
+Electronic Computational Laboratory ~ 6.5338
 
-with two basic types of netsrinl.
-
-Speciﬁcally, sons 80% 01 the laboratory
-
-work was devoted to a study of electronic circuit components by actual
-laboratory work on the following experiments:
+The subject matter offered in 6.538 since 1947 provided the student
+with two basic types of material. Specifically, some 80% of the laboratory
+work was devoted to 2 study of electronic circuit Sospoumnte by actual
+laboratory work on the following ezperiments:
 
 I.
 
 II.
 
+iI.
+
+iv.
+
+Vi.
+
+Vii.
+
+VIIX.
+
+iz.
+
+Time Measurement Equipment and Study of Synchroscopes and
+Oscilloscopes
+
+Pulse Generating Equipment
+
+An experiment on blocking oscillators, delay-line pulse
+
+generators, sharpening and squaring circuits, and ringing
+circuits.
+
+Bistable Circuits and Flip Flops
+
+An experiment covering various flip-flop circuits
+including Thyratron, single-iube pentode circuits, Eccles-
+Jordan circuits, high-speed pentede circuits, and
+
+transistorized flip flops.
+
+Electronic Counters and Counting Circuits
+An experiment covering Thyratron counters, binary
+
+decade counters, screen-coupled counters, biquinary counters,
+
+respectively.
+
+Coincidence Circuits and Gate Circuits
+
+An experiment comsidering various types of ecoilncidence
+circuits: diodes, triodes, pentodes, and Other muUiple
+coincidence devices.
+
+Design of Bistable Circuits
+
+A project=type of experiment in which the student disien
+(on paper) a £1ip flop to meet certain operating conditions,
+and tests his design by actual construction of the £lip flop,
+and testing its performance in the laboratory.
+
+Magnetic Recording of Pulsed Informetion
+
+An experiment on magnetic recording in which the magnetic
+material, head, recording frequency, pulse amplitude, tape
+velocity, are varied and the resulting performance evaiuated.
+
+Time Pulse Distributor
+
+An experiment studying vacuum tubes and diodes as control
+elements by pulse distribution of volisge signals.
+
+Square-Hysteresis~Loop Magnetic Storage Elements
+
+An experiment on the use of magnetic cores as a storage
+medla, number of turns on various windings, current amplitude
+of recording and sensing tuims, are used as parsmeters.
+
+
+od om
+
+Detailed information rogazding the above nine experiments was given
+to the students by means of a written set of notes (230 pages) which were
+written as reference notes znd experiment notes, respectively. In sdditien to
+‘the above nine experiments, twe laboratory experiments were devoted to the use
+of punched card equipment. Specifically, one on the card punch, sorter, and
+fabuletor, and the second on the Card Programmed Calculator, respectively. The
+class lectures were primarily devoted to a discussion of basic construction of
+digital computers, and their use in the solution of scientific computations
+encountered in the solution of simultaneous algebraic equations, inversion of
+matrices, solution of ordinary differential equations, etc.
+
+Bececuse of the availability of the Type 650 Magnetic Drum Calculator,
+it was decided that the subject content of 6.538 should be revised considerably.
+Accordingly, during the Spring Term 1956 all of the above-mentioned electronic
+experiments were deleted from the subject content and the subject was devoted
+entirely to the application and use of digitel computing equipment. The
+students were taught the basic principles of digital computers by performing
+experiments on card punches, sorters, accounting machines, the Card Programmed
+Calculator, and the Type 650 Magnetic Drum Cslculator. The principle emphasis
+was actuslly devoted to a study of the use of the 650 machine in the solution
+of "scientific and business data processing problems”.
+
+Students were taught to program the CH0 by tT familiar with
+the basic 650 language. After the basic language was understood, they were
+taught the "following interpretive systems:
+
+1. MITSS MIT Selective System
+2. MITIIAC FLOATING DECIMAL Interpretive-mnemonic coding (1600)
+
+3. NOPI Fixed and Floating Interpretive-numeric coding (600)
+4, SOAP Symbolic Optimal Assembly Program
+
+5. FLIMSY Floating Interpretive Matrix System (815)
+
+G6. BIL Fixed and Floating Interpretive-numeric coding (1000)
+
+It is obvious that the students were not able to become completely familiar with
+2ll of the above systems. All students instructed now understand the 650
+langusge, MITSS, and MITILAC. However, only certain students became familiar.
+with each of the other systems Ey upon their particular interest.
+
+The following list of homevoris Ee experiments were persormed during
+this subject:
+
+i. Problem 1 - Laboratory use of the Type 026 Card Punch and
+Type 082 Sorter
+
+The student spends two hours in the laboratory using the
+cayd punch and sorter to prepare and sort several hundred
+iB8 punched cards, thus insuring complete familiarity with
+these two machines. :
+
+
+il.
+
 III.
 
-IV .
+Iv.
 
 VI.
 
 VII.
 
-V111.
-
-IX.
-
-Tine Measurement Equipment and study of Synchroscopes and
-Oscilloscopes
-
-Pulse Generating Equinox“:
-
-An expedient on blocking oscillators, delay-line pulse
-
-generators, sharpening and sdunringvcireuits, and ringing
-circuits.
-
-Bistable Circuits and Flip Flops
-
-vAn exporilsnt covering various flip-ﬂop circuits
-ineludinz Thyratron, single-tube pentode circuits, Eccles-
-Jordnn circuits, Ina-speed pentode circuits, and
-
-trnnsisterized flip flops.
-
-Electronic Counters and Counting Circuits
-
-An- experiment covering Thyrstron counters, binary
-decade counters, screen-coupled counters, biquinary counters,
-respectively.
-
-Coincidence Circuits and Gate Circuits
-
-An experiment considering various types of coincidence
-circuits: diodes, triodes, pentodes, and other multiple
-coincidence devices. -
-
-Design or Bistsble Circuits
-
-A projectetype oi experiment in which the student designs
-(on paper) ‘a' ﬂip £1015 to meet certain operating conditions,
-and tests his design by actual construction of the flip flop,
-and testing its performance in the laboratory.
-
-Magnetic Recording of Pulsed Information
-
-An superment on magnetic recording in which the moanetic
-material, head, recording frequency, pulse amplitude, tape
-velocity, are varied and the resulting'perfomnce evaluated.
-
-Tine Pulse Distributor
-
-An experiment studying vacuum tubes and diodes as control
-elements by pulse distribution of voltage signals.
-
-Square—Kys’teresis-Loop Haguetic Storage Elements
-
-An experiment on the use of mimetic cores as a storage
-media, nunber of turns on various windings, current owlitude
-of recording and sensing turns, are used as parameters.
-
-
-\e
-
-.4-
-
-Detniled intonation regarding the above nine experiments was given
-to the students by nouns or a written set of notes (230 pages) which were
-critter: as reference notes and experieent notes, respectively. In addition to
-the obese nine ewes-ileum, tee lnborctery expel-innate were devoted to the use
-of punched cord equip-out. Speciﬁcally, one on the cord punch, sorter, and
-tabuletcr, and the second on the Card Program Calculator, respectively. The
-class lectures were prienrily devoted to a discussion a! basic construction of
-digital colputers, and their use in the solution of scientiﬁc amputations
-encountered in the solution 01 similtnnoous algebraic equations, inversion of
-matrices, solution or ordinary mterentisl equations, etc.
-
-Because of the sviildbility of the Type 650 Iagnetic Drum Calculator,
-it was decided thnt the subject content 02 6.538 should be revised considerably.
-Accordingly, during the Spring Tea 1956 all of the sbove-nentioned electronic
-experiments were deleted from the subject content and the subject was devoted
-entirely to the application and use of digital computing equipment. The
-students were taught the bseic principles of digital computers by performing
-experiments on card punches, setters, accounting machines, the Card Programmed
-Calculator, and the Type 650 Hsgnetic Drum Calculator. The principle emphasis
-was actually devoted to a study of the use of the 650 machine in the solution
-of "scientific and business data processing problems".
-
-Students were taught to progre- the 550 by becoming familiar with
-the basic 650 language. Aitcr the basic language was understood, they were
-taught the following interpretive systems:
-
-1. mass MIT Selective System
-2. Ill'i‘lm FLOATING mom Interpretive-mnemonic coding. (1600)
-
-3; N091 Fixed end Floating Interpretive-nuaric coding (600)
-4. ‘ SOAP Symbolic Optimal Assembly Program
-
-5. FLESY Floating Interpretive Matrix System (815)
-
-6. m Fixed and Fleeting Interpretive-numeric coding (1000)
-
-It is obvious that the students were not able to become completely familiar with
-all 01’ the above systems. All students instructed now understand the 650
-language, names, and MITILAG. However, only certain students become familiar
-with each of the other systems depending upon their particular interest.:
-
-The following list of homework and experiments were performed during
-this subject:
-
-1. Problem 1 — Laborstory use of the Type 026 Card Punch and
-Type 082 Sorter
-
-The student spends two hours in the laboratory using the -
-card punch and sorter to prepare and sort several hundred
-3BR punched cards, thus insuring complete familiarity with
-these two machines. ‘
-
-
-II.
-
-III.
-
-IV .
-
-VI.
-
-VII .
-
  
 
-Problel No. 2 « Design of Punched Card System to Handle
-
+Problem No. 2 - Design of Punched Card System to Handle
 Business Data Processing Work at the Eastern Joint Computer
 Conference
 
-This problem teaches the inpertanco of overall ﬂow
-charts , the design of suitable 1m cord layout forms , the
-preparation of accurate instructions for machine operating ‘
-personnel, and the estimation of the personnel and machine tine
+This problem teaches the importance of overall flow
+charts ; the design of suitable IEM card layout forms, the
+preparation of accurate instructions for machine operating
+personnel, and the estimation of the personnel and machine time
 
-, required to handle the registration for 2, 000 attendees at the
+. required to handle the registration for 2,000 attendees at the
 
-conference .
+conference.
 
-Problen No. 3 - The Solution of a First Order Differential
-Equation on the Type 650 liagnetic Drum Calculator
+Problem No. 3 - The Solution of a First Order Differential
+Equation on the Type 650 Magnetic Drum Calculator
 
-The student is given a. block diagra- of a 650 program -'
-used to solve-en ordinary jdifferehtinl equation using {earths
-order Runge-Kutta fonulne. As part of the sssignnent, the -
-student prepares the actual coding oi' the 650 program using
+The student is given a block diagram of a 650 program -
+used to solve an ordinary differential equation using fourthe
+order Runge~Kutta formulae. As part of the assignment, the -
+student prepares the actual coding of the 650 program using
 basic language, prepares a test solution for this program,
-computes a few check points, debugs his program: on the 650,
-and finally carries out the solution of this woman on the
-machine. After conpleting this particular experiment, the
-student has a very intilnte knowledge at the 650 machine.
+computes a few check points, debugs his program on the 650,
+and finally carries out the solution of this problem on the
+machine. After completing this particular experiment, the
+student has a very intimate knowledge of the 850 machine.
 
 Solution of an Ordinary Differential Equation on the 650
 
 The student solves the identical problem stated in the
-preceding section using the Card Progrmed Calculator. This
-teaches then the difference between the internally-stored program
-features of the 650 and the card—progressed characteristics of
+preceding section using the Card Programmed Calculator. This
+teaches them the difference between the internally-stored program
+features of the 650 and the card-programmed characteristics of
 the Card Programmed Calculator.
 
-Evaluation of the Roots of a 98 degree Polynomial
+Evalugtion of the Roots of a 98 degree Polynomial
 
-A 650 progran using the N0?! systen enslprepared which
-evaluates the roots of the polynomial using Hitchcock's loathed.
+A 650 program using the NOPI system was prepared which
+evaluates the roots of the polynomial using Hitchcock's method.
 
-Conputation e: the Actuarial Life Insurance Tables
+Computation of the Actuarial Life Insurance Tables
 
-Since a high degree at accuracy in this computation was
-needed, the bas_____i_c 650 language was modified to perform 20-digit
-arithnetic in the solution of this problem.
-
-Inversion of Matrices using nodified Elimination Procedure
-
-A basic 650 program was prepared which automatically
-includes a pivotal-condensation" technique. This program
-correctly handles matrices which have zero elements on the
-main diagonal.
-
-
-VIII.
-
-XI.
-
-3“ 1
-
-XIII.
-
-XIV .
+Since a high degree 0f accuracy in this computation was
+needed, the basic 650 language was modified to perform 20-digit
+arithmetic in the solution of this problem.
 
  
 
-Calculation of Nuclear Transformations nod Radioactive Decay
+Inversion of Matrices using Modified Elimination Procedure
 
-_ A HITILAC program was prepared which computes the number
-of stone present in the nth chain neither in the simultaneous
-transformation by nuclear reaction in radioactive decay of a
-given target nuclide in a given neutron flux' at any tine.
+A basic 650 program was prepared which automatically
+includes a 'pivotal-condensation' technique. This program
+correctly handles matrices which have zero elements on the
+Bein diagonal.
 
-Computation of Interest Calculations for Savings Banks.-
 
-A basic GEO-program was prepared which outanaticslly
-handles any of the six different methods for per-toning interest
+VIII,
+
+XI.
+
+X1f.
+
+XIII.
+
+Xiv,
+
+ 
+
+w=
+
+Calculation of Nuclear Transformations -and Radioactive Decay
+
+A MITILAC program was prepared whick computes the number
+of atoms present in the nth chain member in the simultaneous
+transformation by nuclear reaction in radioactive decay of 2
+given target nuclide in a given neutron flux at any time.
+
+Computation of Interest Calculations for Savings Banks.
+
+A basie 650 ‘program was proparad which automatically
+handles any any of the six different methods for performing interest
 calculations arising in the savings bank.
 
-Computation of Bivarisste‘ frequency Distributions on the 650
+Computation of Bivariate Frequency Distributions on the 850
 
-A basic 650 progre- wes prepared which conputes the
-bivsriete frequency distribution by corresponding class intervals
-(for various parameters) , and also computes certain statistics
-obtained iron the sbove-nentioned distribution. An eiiective
-hotbed of storage allocation is employed which employs a. neat
-trick tor obtaining the desired arguments and functions in en
-internally-stored. table of values.
+A basic 650 program was prepared which computes the
+bivariate freguency distribution by corresponding class intervals
+(for various parameters), and also computes certain statistics
+obtained from the above-mentioned distribution. An effective
 
-Study 91 _.pptinun Progressing on. the 650 Calculator
+method of storage allocation is employed which employs 2 neat
 
-A ba__s__ic 650 program was prepared which studied various
-methods tor —_e£i’ectin¢ sell-optimum data storage on the dru-
-A conpaot decimal systen for word storage and selection using
-the ten branch instructions (33]) 1 - 10, respectively).
+trick for obtaining the desired arguments and functions in an
+internally-stored table of values.
 
-Solvent Extraction of Hotels ‘
+Study of Optimum Programing on the 650 Calonlator
 
-A basic 650 program was prepared ior computing the
+A besic 650 program was prepared which studied various
+methods for “for effecting semi~optinmum data storage on the drum,
+A compact decimal system for word storage and selection using
+the ten branch imstyuctions (BRD 3 ~- 10, respectively).
+
+Solvent Extraction of Hetals
+
+A basic 650 program was prepared for computing the :
 distribution coefficients of zircon and hafnium in the aqueous
 and organic phases.
 
 Solution of the Heat Flow Equation
 
-A basic 650 program was prepared for the solution 033 a
-partial ditferential equation describing the heat flow problem
-using several different boundary conditions.
+A basic 650 program was prepared for the solution of a
+partial differential equation describing the heat flow problea
+
+using several different boundary conditions,
 
 Iterative Method for Solving Simultaneous Equations on the 650
 A basic 650 program was prepared which evaluates the
 
-convergence rate, accuracy, and solution tine using Craig's
+convergence rate, accuracy, and solution time using Craig's
 
 method, Conjugate Gradient method, and Lanczos's method,
-respectively.
+rogpectively.
 
 650 Solution of the Vertical Resistivity Problem
 
-A mess program was prepared for the solution of the integral
+A MITSS program was prepared for the solution of the integral
 equation arising in geophysical prospecting.
 
 
 XVI.
 
-XVII.
+XVii.
 
-XVIII .
+XVIII.
 
-XIX.
+XiX.
 
-XXi .
+XXX.
 
  
 
-Preliminary Analysis of an Inventory Control Systen
+Preliminary Anglysis of an Inventory Control System
 
-A non-mehine study of the my problens arising in a.
+A non-machine study of the many problems arising in a
 systems study of the overall inventory control problem.
-Detailed description is given of the nature of transactions
-involved, considerations involving volume or data, rate of
-infomstinn flow, need for rearrangement of co-putational
+Detailed description is given of the nsture of transactions
+involved, comsiderations involving volume of data, rate of
+information flow, need for rearrangement of computational
 procedure, study of the effects of errors, breakdown, and
-interruptions, and finally a consideration of problea areas
-of interest to manage-ant to provide better overall control.
+interruptions, and finally a consideration of problem areas
+of interest to management to provide better overall control.
 
-Solution of 3 Payroll Problem on the 650 Calculator
+Solution of a Payroll Problem on the G50 Calculator
 
-A basic 650 prozm was prepared for a hypothetical
+A basic 650 progrmm was prepared for a hypothetical
 payroll involving 200 employees. The study included a
 consideration of piece-work as well as the regular payroll
-in which employees switch back and iorth several tines each»
-day. the usual items such as, regular psy, overtine pay, bond
-deduction, hospitalization, incone tux, union dues, credit
-union, Continuity chest and other miscellaneous deductions, were
+in which employees switch back and forth several times each.
+day. Th? usual items such as, regular pay, overtime pay, bond
+deduction, hospitalization, income tax, union dues, credit
+union, Community Chest end other miscellaneous deductions, were
 included.
 
-Hitchcock's Kethod for Evaluating the Roots of a Polynomial“
+Hitchcock's Method for Svaluating the Roots of a Polynomial
 
-A basic 656 program was prepared for evaluating the roots
-of a polynomial. Particular emphasis was given to s con-
-sideration of polynonisln which cannot be handled by this method.
+A basic 650 program was prepared for evaluating the roots
+of a polynomial, Particular emphasis was given To a con-
+sideration of polynomials which cannot be handied by this method.
 
- 
-
-study of Series-Pmllel Switching Functions
+Study of Series-Parallel Switching Functions
 
 A basic 650 program was prepared for evaluating the
-switching functions or six or fewer variables. The program
-employed is a nodification of the McCluskey Quins reduction
-procedure by means of. which the preliminary inplicsnts and
-minimum sun ferns oi the switching iunctions were obtained.
-The solutions of 86 dirterent problems were performed during
+switching functions of six or fewer variables. The program
+employed is a modification of the McCluskey Quine reduction
+procedure by means of which the preliminary implicants and
+pinimur sum forms of the switching functions were obtained.
+The solutions of 86 different problems were performed during
 the course of this study.
 
 Solution of Spheriodal Antennae Equation Using the 650
 
-A NOPI program was prepared 20:- the solution of. this”
-equation using Hilne'e predictor-corrector formulae.
+A NOPI program was prepared for the solution of this
+equation using Milne's predictoxr-corxrector formulae.
 
-650 Solution of the Production scheduling Problem
+650 Solution of the Production Scheduling Problem
 
-A MITSS program was prepared tor the solution of this
+A MITSS program was prepared for the solution of this
 problem which determined production curves which minimize costs
-for a single arbitrary sales forecast. Graphicnl results were
+for a single arbitrary sales forecast. Graphical results were
 obtained which related the sensitivity of the solutions for
 various system parameters using a quadratic production cost
-function.
+function,
 
 
-2311. Solution of the Inventory Control Problem on the 650 Calculator
+Se
 
-A basic 650 program was prepared for s siglitied inventory
+Solution ef the Inventory Control Problem on the 650 Calculator
+
+A basic 650 program was prepared for a simplified inventory
 control problem. Specifically, the program was designed to
-handle any number of stock-numbered itels up to 34-per-day iteus.
-The program was united to cmtrol and reporting of customer
-products only. No nttenpt was node to control the conponent parts
-for the items. Similarly, no attempt was node to report the raw
-Interial require-ants.
+handle any number of stock-numbered items up to 34-per-day iteas.
+The program was limited to control and reporting of customer
+products only. No attempt was made to control the component parts
+for the items, Similarly, no attempt was made to report the raw
+material requirements.
 
-XXIII. Study at Brokerage Accounting
+ZXI1I.
 
-A basic 650 program was prepared for calculating the itels
+XXXII. Study of Brokerage Accounting
+
+A basic 650 program was prepared for calculating the items
 appearing in the transaction statement of a customer's brokerage
-account. The following itens were included in this study:
+account, The following items were included in this study:
 
-1. Co-ercisl postage end insurance,
-2. federal transfer taxes,
+1, Commercial postage and insurance,
+2. Federal transfer taxes, |
 
-, 3. State transfer taxes,
-4. 8.3.0. tees.
+3. State transfer taxes,
+4. S.E.C. fees.
 
-Naturally a program of this type cannot be all inclusive and a
-nunber of simplifying assumptions bad to be made to attest the
-solution of the progra- in a reasonable amount of tine.
+Naturally a program of this type cannot be gll inclusive and a
+number of simplifying assumptions had to be made to effect the
+solution of the program in a reasonable amount of time.
 
 A consideration of the above list reveals that a wide variety of
-problems were considered. It oust be emphasized that the latter group of
-subjects were performed on a "ter- paper" basis. That is, these studies
-were performed on an individual basis, and elaborate reports were prepared
-describing the problon statement, the actual 650 program, the results obtained,
-and a smary and evaluation of the paper. Although the term paper was expected
-to require 30—40 hours oi home and laboratory work, the actual tins put in by
-the students varied enormously. For oxalple, this tine ranged iron 30 hours
+problems were considered. It must be emphasized that the latter group of
+subjects were performed on a "term paper’ basis. That is, these studies
+were performed on an individual basis, and elabarate reports were prepared
+describing the problem statement, the actual 650 program, the results obtained,
+and a summary and evaluation of the paper. Although the term paper was expected
+to require 30-40 hours of home and laboratory work, the actual time put in by
+the students varied enormously. For example, this time ranged from 30 hours
 to 360 hours, respectively. In the latter case, students intend to use this
-topic as a basis for their master's theses during succeeding terns. ‘
+topic as a basis for their master's theses during succeeding terms, :
 
-It is apparent ﬁrm .the above course description that an attempt was
-made to cover both scientific cosputing and electronic data processing in the
-subject. This can indeed be done, particularly when individual tors papers
-are assigned. However, as tine goes on it my be advisable to separate this
+It is appavent from the above course description that an attempt was
+made to cover both scientific computing and electronic deta processiag in the
+subject. This can indeed be dome, particularly when individual term papers
+ave assigned. However, as time goes on it may be advisable to separate this
 subject into two distinct subjects, one dealing solely with scientific computing
-and the other with business data processing.
+and the other with business date processing.
 
-This subject was taught by Dr. E. El. Vcrzuh, Director, Otficc of
-statistical Services. There were 26 students enrolled in Subject 6.538 during
-the Spring Terr. 1956 of which there were 12 Electrical Engineering students,
+This subject was taught by Dr. F. HM. Verzuh, Director, Office of
+Statistical Services. There were 26 students enrolled in Subject 6.538 during
+the Spring Term 1956 of which there we: 12 Electrical Engineering students,
 4 Chemical Engineering students, one Geophysics student, 3 Economics students,
 2 Business Administration students, and 4 Mathematics students, respectively.
 This was the first time students were able to use the 650 Calculator as part of
-their laboratory work. Judging by the large number of this group —- 12 students ~-
-who are now using the machine for the solution of. their thesis problems, it
-appears that the subject was highly successful.
+their laboratory work. Judging by the large number of this group -~ 12 studenis =-
+who are now using the machine for the solution of their thesis problems, it
+appears that the subject was highly successiul.
 
 
-data. In addition to the solution 033 scientific computing and business
-Pr°°°551n8 problems, a number of classroom lectures were devoted to the
-consideration and evaluation of the relative merits of the many canescisily-
-available electronic data processing systens. Specifically, this was achieved
-by 3 Study of 16-representntive intermediate-seize dm computers, and seven
-of the large-scale systeus -- BIZHAC, Datmtic 1000, EBA 1103 , me 704,
-m 705: Mycon, and UNIVAc, respectively. Since my of the students were
+—Q=
+
+Sa in addition to the solution of scientific computing and business
+processing problems, a number of classroom lectures were devoted to the
+consideration and evaluation of the relstive merits of the many commexciglly-
+available electronic data processing systems. Specifically, this was achieved
+by a study of 16 representative intermediate-size drum computers, and seven
+of the large-scale systems -- BIZMAC, Datamatic 1000, ERA 1103, IBM 704,
+IBM 703, Raycom, and UNIVAC, respectively. Since many of the students were
 entering various large business, industrial, and government concerns, it was
-important that they have some knowledge of 80.3 c! the relative merits of the
-individual systems. Finally, several lectures were devoted to the In 704
+important that they have some knowledge of some of the relative merits of the
+individual systems. Finally, several lectures were devoted to the IBM 704
 
-Calculator which will be installed in the LLT. Comtstion Center in the
-nest future.
+Calculator which will be installed in the M.I.T. Computation Centex in the
+near future.
 
-Sum; 93 Student Enroll-ant statistics
+Summary of Student Enrollment Statistics
 
- 
+: A detailed description of the course content of the subjects
+listed in the introduction is given in the M,I.T. Catalogue.
 
- 
+An indication of the interest in machine ccmputation may be
+obtained by considering the following enrollment in each of these subjects
+during the academic year 1255~1036:
 
-, A detailed description of the course content 01 the subjects
-listed in the introduction is given in the LLT. Catalogue.
-
-An indication of the interest in ”chino computation my be
-obtained by considering the relieving enrollment in each of these subjects
-during the ncsdenic you 1955-4956:
-
-No . Students
+= ; No. Students
+Subj. Name Pall Spring Total
 
  
 
- 
-
- 
-
- 
-
- 
-
- 
-
-£251. Home ' Fall Saring Total
-2.215 nethods otjngineering Analysis is 0 18
-6.25 Mine-Aided Analysis I 106 47 153
-6.535 Digital Conputer Coding and Logic 0 97 97
-6.538 Electronic Computational Lab. 0 26 ‘26
-6.54 Pulsed-Data Systems ' 0 60 so
-6.567 Switching Circuits 48 0 48
+2.215 Methods of Engineering Analysis 18 0 18
+6.25  Machine-Aided Analysis 106 a7 153
+6.935 Digital Computer Coding and Logic 0 o7 87
+6.538 Electronic Computational Lab. 0 26 26
+6.54 Pulsed=-Data Systems : 0 60 60
+6.867 Switching Circuits 48 0 48
 6.568 Switching Circuits 0 30 30
-15.542 Managenent Information Systems 0 22 > 22
-M39 Methods of Applied mathematics 130 123 253
-M411 Numerical Analysis 45 0 45
-M412 Numerical Analysis 0 16 16
-J Total 347 421 768
+15.542 Management Information Systems 0 22 22
+M39 Methods of Applied Mathematics 130 123 253
+Mall Numerical Analysis 45 0 45
+M412 Numerical Analysis 0 FLEE __ 16
 
-It is apparent from the above list that the total attendance in these 11 subjects
-was 768 students. This does not mean, however, that there were 768 individuals
-involved since many of the students took s number or: the above subjects, thus the
-actual number of individuals exposed to machine computation is considerably less.
+- Total 347 421 768
 
-F. El. Verzu‘n
-June 33, 1956
+it is apparent from the above list that the total sttendance in these 1ll subjects
+was 768 students. This does nei mean, hoWever, that there were 768 individuals
+involved since many of the students tock a number of the above subjects, thus the
+actual number of individugs exposed te machine cemputation is considerably less.
+
+F. MM. Verzuh
+June 22, 1956
 
 

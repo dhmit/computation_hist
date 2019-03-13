@@ -1,158 +1,140 @@
-.
+JOINT COMPUTING GROUP
 
- 
-
-/‘ JOINT COMPUI‘ING GROUP
 TIME RECORD
 AUGUST 1960
-October 28.. 1960
+October 28, 1960
 Hours Total
-Prob No. Lab Reggested by £®§Eﬂ Hours
-1088 OR H. Galliher 52 2367
-1133 ms 1.” Delves 2 777
+Prob No, Lab Requested by in August Hours
+1088 OR H, Galliher 52 2367
+1133 LNS L. Delves 2 777
 1137 LNS W. Turchinetz 3 439
-1143 ms A“ Tubis 124 907
-1151 LNS j. Linsley 24 330
-1160 LNS Cu Yang Hu 40 204
-1162 ms Kn Li 12 20
-1163 LNS Ho Fishbach ‘ 63 179
-1164 RLE L. Johnson ‘ 1 3
-1165 LNS J. Ovetbeck 46 61
-1167 RLB S’. Frankenthal 38 52
-1168 LNS J» Duffield 122 122
-1169 RLE K» Jordan 40 40
-1170 RLE A. Bers 80 80
-1171 R113 Ra Briggs 4 4
-1172 RLE R. ”(20111011311 58 58
-1173 RLE C Robinson 6 6
-1174 RLE HP Hirsch 8 8
-Time Disttibution
-——-—_.__._.,
-222m 11.5 RE §§ .915
-Hours aaployed 552 460 O 92
+1143 LNS A. Tubis 124 907
+1151 LNS Jo. Linsley 24 330
+1160 LNS C. Yang Hu 40 204
+1162 LNS Ko Li 12 20
+1163 LNS H. Fishbach 63 179
+1164 RLE L. Johnson : 1 3
+1165 LNS J. Overbeck 46 61
+1167 RLE S. Frankenthal 38 52
+1168 LNS J. Duffield 122 122
+1169 RLE K. Jordan 40 40
+1170 RLE A, Bers 80 80
+1171 RLE R. Briggs 4 4
+1172 RLE R, McCullough. 58 58
+1173 RLE C. Robinson 6 6
+1174 RLE H. Hirsch 8 8
+Time Distribution
+A Se ee a
+Laboratory RLE LNS SS OR
+Hours Employed 552 460 0 02
 Hours Used
-Computing 235 436: 0 52
+Computing 235 436 0 52
 Overhead 54 37 0 6
-sickeLeave 8 2 0 2
-Vacations 96 156 O 12
-Classes 8 O 0 0
+Sick-Leave 8 2 0 2
+Vacations 06 156 0 12
+Classes 8 0 0 0
 TOTAL 401 631 0 72
-Hours not used 151 O 20
-Hon rs Overd rawn 1‘71
+Hours not used 151 0 20
+Hours Overdrawn 171
 Cumulative Hours Not Used 169 454 1324
-Cumulative Rents Overdrat-m 1947
 
+Cumulative Heurs Cverdrawn 1047
 
-Mb
 
 RLE
-LTIC
+LNC
 RLE
-LNS
-LES
-REE
-[NS
-R15
 LNS
 LNS
 RLE
+LNS
+RLE
+LNS
+LNS
+RLE
 
-92.6;
-
-, F tanken’chal 1
-Yang~Hu
-
-‘ J ohns rm
+User
+Frankenthall
+Yang-Hu
+Johnson
 Deutch
 Westreich
-Be :5
+Bers
 Duffield
 Jordan
-
-Scha :enbe 3g
-. Lutz
+Schagzenberg
+Lutz
 McCullogh
 
-o
+Cc
 
-g
+Cc
 
-wee
+® © ©
 
-{Enﬂél—¢?Nzr‘ﬁfﬂ
+Ho A“ DPDNEICOR
 
-:7
-0
+-3
+°
 
 TOTAL
 
-LGP a 30 TIME RECORD
+ 
+
+LGP - 30 TIME RECORD
 
 Hours
+EE es Tre
 
- 
-
-20925
-13MS
-12‘0
-37 5
-23V7S
-8 5
-18p5
-4075
-60°75
-~5
-6“25
-
-Total
-Houxs
-
- 
-
-20‘25
-1995
-45n75
-152u0
-23975
-8u5
-1805
+20.25
+13.3
+12.0
+Xf
+23.75
+8.5
+18.5
 4.75
-38505
-65"5
+60.75
+eS)
 6.25
 
-206ﬁ25
+Total
 
- 
+Hours
 
-Use bx Laboratories
+20.25
+19.5
+45.75
+
+152.0
+
+23.75
+8.5
+
+18,5
+4.75
+
+385.5
+
+65.5
+6.25
+
+206,25
+
+Use by Laboratories
 
 Lab
-
 LNS
-
 RLE
 
-noun
-
-Hours
-
- 
-
-154u25
-51a75
-
-24
-
- 
+Doun
 
 Total
-Hours
+Hours Hours
+154.25 1105.25
 
- 
+De TS 407.25
 
-1105.25
-
-407u25
+24
 
 

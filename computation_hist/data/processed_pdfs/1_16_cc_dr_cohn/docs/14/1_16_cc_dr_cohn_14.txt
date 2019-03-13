@@ -1,153 +1,398 @@
-7- ~ , W" comm H. , ~ « s
+TY We a a a TE LT a a 2 rT Ba eT Be TE DI Ta ae SI Lor AR SC TING SOD TT Ir re
+
+Py ESTO COHN, Hi
 1952
 
-PROC. AMER. MATH. soc.
-(Vol‘ 3) pp 713—714
-
-   
+PROC. AMER. MATH. SOC.
+(Vol. 3) pp. 713-714
 
 NOTE ON FIELDS OF SMALL
 DISCRIMINANT
 
-{w
+BY
 HARVEY COHN
 
- 
-
- 
-
-   
-
 Reprinted from the
-Pnocmnmcs or THE AMERICAN MATHEMATICAL SOCIETY
-W1. 3, No‘ 5, pp. 713-714
+PROCEEDINGS OF THE AMERICAN MATHEMATICAL SOCIETY
+Vol. 3, No. 5, pp. 713-714
 October, 1952
 
 
 NOTE ON FIELDS OF SMALL DISCRIMINANT
 
-HARVEY COHN‘
+HARVEY COHN!
 
-The problem of ﬁnding totally real ﬁelds of any degree and small
+The problem of finding totally real fields of any degree and small
 discriminant is of interest, aside from intrinsic reasons, because of its
 connection with critical lattices for the product of the coordinates.
 The ground-work, however, seems to be largely unexplored. This is
-probably illustrated by a somewhat persistent conjecture [41’ that
-for totally real ﬁelds of degree (g—1)/2, where g is a prime >3, the
-smallest discriminant is g‘"—3’”, achieved for R (cos 21r/ g), where R is
-the ﬁeld of rational numbers. (This islthe maximal real sub-ﬁeld in
-the ﬁeld of the gth roots of unity.) This conjecture was often made im-
-plicitly even before its veriﬁcation [l] by Davenport for g=7 (the
-case g=5 having been trivial). We disprove this for these g, such as
-13, 37, etc.,for which (g+1)/2 is also prime. We use relative quadratic
-ﬁelds built on base ﬁelds of small discriminant, a device used previ-
-ously by Mayer [3] in his work on biquadratic ﬁelds.
+probably illustrated by a somewhat persistent conjecture [4]* that
+for totally real fields of degree (g—1)/2, where g is a prime >3, the
+smallest discriminant 1s g@=>!2, achieved for R (cos 2m/g), where R is
+the field of rational numbers. (This is the maximal real sub-field in
+the field of the gth roots of unity.) This conjecture was often made im-
+plicitly even before its verification [1] by Davenport for g=7 (the
+case g=>5 having been trivial). We disprove this for those g, such as
+13, 37, etc., for which (g+1)/2 is also prime. We use relative quadratic
+fields built on base fields of small discriminant, a device used previ-
+ously by Mayer [3] in his work on biquadratic fields.
 
 The counterexamples are constructed by adjoining to the totally
-real base-ﬁeld k the quantity a‘”, where n is a totally pasitive integer
-in k which is not a perfect square; we call k(p‘”) =K. Next we consider
+real base-field k the quantity u'/%, where u is a totally positive integer
+in £2 which is not a perfect square; we call 2(u'/?) = K. Next we consider
 the prime ideal p dividing the odd rational prime p and the prime ideal
-q dividing 2, in the ground-ﬁeld k. Then according to the well known
-methods of Hilbert [2] the discriminant D. of K, and the discriminant
-d, of k, are related by D =d2N(b) where N(b) is the norm (over R)
-of the rehztive discriminant 29. Assuming for convenience that d is
-add, we have 31:63“ where © is the product of all p and q that di-
-vide (a) to an odd power, and I is the product of all q for which
-the congruence “EU mod q’“ is unsolvable for I an integer in k,
-with e equal to the exponent of the power to which q divides (a). In
+q dividing 2, in the ground-field 2. Then according to the well known
+methods of Hilbert [2] the discriminant D, of K, and the discriminant
+d, of k, are related by D =d?N(d) where N(b) is the norm (over R)
+of the relative discriminant d. Assuming for convenience that d is
+odd, we have d=&%? where © is the product of all p and q that di-
+vide (1) to an odd power, and T is the product of all q for which
+the congruence p={? mod q*** is unsolvable for { an integer in &,
+with e equal to the exponent of the power to which q divides (x). In
 the cases worked out fully (below) it will prove advantageous to
-choose it relatively prime to 2 and such that the congruence paf‘
-mod 4 is solvable, for then I: (1).
+choose pu relatively prime to 2 and such that the congruence p={?*
+mod 4 is solvable, for then T=(1).
 
-We take for the base-ﬁeld k=R(cos 21r/l), of degree (l—1)/2,
-where l is a prime >5. For this ﬁeld d=l“—3W.
+We take for the base-field 2=R(cos 2w/l), of degree (I—1)/2,
+where / is a prime > 35. For this field d=1(9/2,
 
-(i) First we take ,u=5. Since (5) is unramiﬁed and ,uEl mod 4,
-then b=(a) and N(b) =5”‘””. Therefore K“) =R(cos 21r/l, 5‘”) de-
+(i) First we take u=35. Since (5) is unramified and p=1 mod 4,
+then d= (ux) and N(d) =5%V/2, Therefore KV =R(cos 2m/l, 5''?) de-
 
-ﬁnes a totally real ﬁeld of degree 1—1 with discriminant D“)
-=ll—35(l—l)l2'
+fines a totally real field of degree !—1 with discriminant D®
+= Ji-35(1—1)/2,
 
 Presented to the society, December 28, 1951; received by the editors January 15,
 1952.
 
-‘ Research currently sponsored by the U. 5. Army 0.0.R.
+1 Research currently sponsored by the U. S. Army O.0.R.
 
-’ Numbers in brackets are items cited in the bibliography at the end.
+2 Numbers in brackets are items cited in the bibliography at the end.
 
 713
 
 
-714 HARVEY com!
+RVEY COHN
+714 HA
 
-(ii) Secondly we take [I
-d 4, then,
+® =
+— 30-172], Therefore K™% =
+field of degree J—1 with discriminant
 
-and It (2 cos 1r/l)’ mo '
-._ _ (2): 3 2—2 cos 21r/l))1”) is a tot
-—3“ 1ml. Therefore K R“ ( (2) l—lsU—DIZ. ally Teal
+arli
+Now whenever 2/—1 (called £ ad K® (when /=19, 31, 37, .. i
 
-ﬁeld of degree 1-1 with discriminant . .
-Now whenever 21—1 (called g earlier) Is a prime, as Well as IV the
+=7 |
+totally real fields KZ Si as than the conjectyre
 
-totally real ﬁelds K“) (when l=7) and K”) (when I: 19) 31: 37, - - .)
-malls! discriminants than the ConjECtured
+of degree /—1 provide smaller ant (2/—1)""? and degree /—1
 
-of degree 1-1 provi e s . .
-ﬁeldv R(cos 27r/(Zl—1)), of discriminant (21—1)“2 and degree l~1'
-ﬁeld Km provides the smallest discriminané
+= f discrimin ogre
+fer Roofers Eo be KW provides the smallest discriminaps
+n fact w =
 
-In fact when —-7 the ‘
-for a quadratic extension of the indicated base-ﬁeld (althoUgh the de
+: og base-field (although the do.
+ic extension of the indicated lth ol
+— of se ee can be omitted as they fall within the earlier.
 
-tails of this last step can
 outline of Hilbert’s methods).
-
 BIBLIOGRAPHY
 
-1. H. Davenport, 0n the product of time homogeneous linear farms. 111 PM.
+1. H Davenport On the product of three homogeneous linear forms. III, Prog
 
-London Math. Soc. vol. 45 (1939) pp. 98—125.
-2. D. Hilbert, ”be! die Theorie do: iclalivquadmtisthm Zahllziirpcrs Math A
-. . ml.
+th. Soc. vol. 45 (1939) pp. 98-125. : | |
+Load pt Uber die Theorie des relativquadratischen Zahlkorpers, Math, Ann,
 
-vol. 51, pp. 1—127.
-3. . Mayer, Die absquI-lzleimlen Diskriminmzien def biquadmlixchen Zahlkmg,
+. 51, pp. 1-127. : : |
+2 . Mer Die absolut-kleinsten Diskriminanten der biquadratischen Zahlkirpe,
 
-Sitzungsberichte der Akademie der Wissenschaften Wien Abt. IIa vol 138 (1929) p
-' P
+Sitzungsberichte der Akademie der Wissenschaften Wien Abt. Ila vol. 138 (1929) op.
 
 733-742.
-4. C. L, Siege], Geometry of numbers, mimeographed lecture notes New York‘
+4. C. L. Siegel, Geometry of numbers, mimeographed lecture notes, New York:
 
 University, 1946, Chap. IX, p. 14.
 
-be omitted as they fall within the earlier:
+(2) = JI-230-D/2,
+
+<7
+ra
+
+a
+
+= po]
+
+CAT
+ALATA aT
+
+5h
+
+Xo
+Lo uf = -~
+>=
+
+1
+1
+20
+Te
+
+CU
+-— —,
+$7
+Cebes
+2
+7 >
+PLS ese
+Sn
+1
+
+bo
+
+EL -—
+o
+7 :
+BF & or
+A
+ES
+
+=
+LA
+
+Cs
+
+——
+>
+
+ot
+=
+
+3
+--
+
+-
+Cn ot
+Cad
+
+TL
+
+tt
+
+PADS ad
 
 WAYNE UNIVERSITY
 
+Sale!
+U1 4)
+
+=a
+¢
+
+hd a
+tlslyiviie
+
+Aa
+aa
+
+y
+CAEN TVNT LI 0 iv ie vo
+
+af al ala lars as ivara sided:
+Aa Da Ian
+
+pa Taga fa alata al:
+
+¥ Fa re
+
+CHINES
+
+ 
+ 
+ 
  
 
-=3(2——2 cos 21r/l). Since (3) is unramiﬁed :
-once more, b = (u), and Nlﬁ)‘
+Cy
+- .
 
  
 
-Pr
-r
-1‘35”
+“
+a
+Y-
+
+> prom SY XG oi To
+Bs AS TCT 3. "BY Sw
+
+. Since (3) is unramif |
+3 _3(2—2 cos 2/1) ed
+(@) Seconds SY 2 then, ones Tote, 5 = (4): and [i
+and p=(2 cos 7/ R((3(2—2 cos 2w/1))*?) 1s a totally rey)
+
+er) is a prime, as well as J, th.
+
+ 
+
+ 
+ 
+
+J
+
+     
+     
+     
+   
+  
+   
+      
+     
+
+CX
+»
+Crs
+
+>
 
 a
-r
+~
+
+Soa.
+St
+>.
+
+A
+
+3
+=
+
+>
+
+; SEE ERNE
+2 ns g . SORT ~e » -.
+. aN \ - = S
+
+     
+  
+  
+  
+  
+ 
+   
+
+  
+ 
+   
+   
+  
+  
+  
 
  
 
-an.
-n- '
-r.- c?
+rds y IIa
+"4
+i ih
+ay fois |
+sss 7 ol
+114 'e! ey io f
+Je i elels
+if 7 ‘] : ur,
+firyee s, or |
+1h 0 3 elo
+4 50 vio?
+Ida (14 fat
+wee Teles i
+Ted) ’
+seNnNn0c
+122 000008018 ly
+I lala letats 00
+Ile le Te) / i
+Te ata lala oh i »
+(ti
+oy are, ee
+al ? 4
+al, atets or.
+Ties irl ’ HI |
+I's’
+svi, ony v
+17.0 dl 4 ¥ Vv
+essa, (ot
+WN lddddle 4 oe! Ea |
+Msi 7s AT
+Td als) A AT
+alas hr! My
+HAnOH00 ta Tin et
+rd LOGO pr with
+0 ay ala le i $e
+Liv
+pian
+ine
+2AM
+heyy d
+
+pe
+-
+|
+LT 5
+Ls
+
+Lr , }
+Las
 
   
 
-1LT
+a£
+
+Fw
+
+L »
+Es
+L*
+
+ 
+   
+
+vt
+a
+
+nt ry
+
+Te
+
+Lx
+LY
+
+op
+
+  
+ 
+
+ 
+
+Lr
+
+  
+
+Lr
+LY
+oF
+
+ 
+ 
+
+Fr.
+eel
+
+es
+
+  
+
+ 
+
+5
+
+ 
+
+ 
+
+Tr
 
 

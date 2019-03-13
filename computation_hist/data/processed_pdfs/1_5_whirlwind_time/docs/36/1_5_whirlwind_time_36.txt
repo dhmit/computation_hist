@@ -1,38 +1,38 @@
-MASSACHUSETTS INSTITUTE OF TECHNOLOSY
-
-DEPARTMENT OF ELECTRICAL ENGINEERING
-‘ DIGITAL COMPUTER LABORATORY - .
-2n MASSACHUSETTS AVENUE : . ,,
-CAMBRIDGE as MAss'AcI-IUSETTS ‘ ,
+FRR MASSACHUSETTS INSTITUTE OF TECHNOLOGY.
+5 iL PE DEPARTMENT OF ‘ELECTRICAL ENGINEERING
+23 “DIGITAL COMPUTER LABORATORY :
+521 MASSACHUSETTS AVENUE Ce Porn Shek
+CAMBRIDGE 39, MASSACHUSETTS =~ = =
 
   
- 
 
-GORDON s. Enown. rAbuL-ry ADVISOR . . . .. _ . _
--an. FORREETER. mnzcron - ' " A, *’ ‘ “ Eiusauéuﬁ ELIoT 4-33I’I'
+‘GORDON S. BROWN, FACULTY ADVISOR HT a A
 
-Raina] R. EVERETT. Assocun: DIRECTOR ' . f _ . . . D- I. (1-6845
-i-umus FAHNESTOCK. EXECUTIVE orncs'a . - . . ; ». * . .
+5 os
 
-In: a. us:
+~~ JAY W._FORRESTER. DIRECTOR. oe A : SIAR Bh me Re TT TELEPHONE ELIOT, 4-3311 CH
 
-Is. Man I. it...
+ROBERT R. EVERETT. ASSOCIATE DIRECTOR ~~ ~~ =a oo = CRNA : hE oh D.1.C.-6845
 
-41 a” In,“ . ' - '
-III-tea. humon- I. ., . .
-Dua- It”
+AAT "HARRIS FAHNESTOCK, EXECUTIVE OFFICER : Be
 
-, l h". bun «tint-tad to and“ nix- «mat
-with no line.- 0! main. ti... on the mam I can“:
-Inch 'II I!“ to “not. your work Mr problll 857,
-Human a! land-alt lmr.
+‘May 31, 1956 5
 
-Inward: .
+Mr. Alan I. Green
+47 Joy Btreet 7
 
-I. l. Vol-ml
-"an:
+‘Boston, Massachusetts
+Dear Bir:
 
-no P. l. lam
-Llama;
+i © 1 have been Ros 00 Gunde 7ies mensist
+with 20 minutes of machine time on the Whirlwind I computer
+which was used to complete your work ain rou 357,
+Propagation of Round-off Error, |
+
+FF, M, Vergzuh
+PNV:mmt
+
+cc P, NM, Norse
+~ Le T, Brock
 
 

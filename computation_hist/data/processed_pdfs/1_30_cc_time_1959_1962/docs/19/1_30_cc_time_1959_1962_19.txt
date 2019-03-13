@@ -1,91 +1,100 @@
+EE =r = or we, To op TT 7 72 +
+
+ 
+
 TIME RECORD
-AFRIL 1960
-Prob“ Noo Egg Reguested b1
-1083 RLE E. Baghdady
-1088 (R H“ Gallihzr
-1120 LNS Ry Euang
-1133 LES L, De1ves
-1137 LES H. Turchinetz
-1138 RLE Kc Rowland
-1141 LNS R. Freeman
-1143 LNS Ao Tubia
-1147 RLE ﬂ. Stroke
-1168 RLE J. Coccoli
-1150 135 H. Buechner
-1151 LNS J. Linaley
-1153 KL! T, Bigier
-1154 RLE Pe Bro:
+APRIL, 1560
+Prob. Ho. tab Requested by
+1083 RLE E, Baghdady
+1088 oR H. CGalliher
+1120 LNS EK. Huang
+1133 LNS L, Delves
+1137 LHS W. Turchinetz
+1138 RLE K, Nomland
+1141 LNS R, Freeman
+1143 LNS A. Tubis
+1147 RLE H. Stroke
+1148 RLE J. Coccoli
+1150 INS W. Buechner
+1131 LNS J. Linsley
+1153 RLE T. Higier
+1154 RLE P. Brot
 TIME DISTRIBUTION
-Laboratorx 5E; LES
-ﬂours Employad ago 250
+Laboratory RLE LYS
+Hours Employed 480 240
 Hours Used
 Computing 261 295
 Overhead 34 24
-Sic; Leave 12 40
+Sick Leave 12 4&0
 Vacation 36 0
 Classes 12 0
 Total 375 359
-Hours Eat Used 105
-Eaurn ﬁverézuzm 119
-Cumulative Eours Eat UﬂGG
-Cumulative ﬂours Overdzaw: 661 1100
-LGP - 30 Time Recggg
+Hours Not Used 105
+Hours (verdrawn 119
+Cumulative Hours Net Used
+Cumulative Hours Overdrawn 661 1100
+LGP ~- 30 Time Record
 Total
-Egg Egg; ﬂours Enurs
-LES Schatcnberg 9805 21600
-LES , Deana 3105 323_0
-LES “ Lat: 7:5 7 5
-{NS ?1ezs ZUO 2 O
-Ems Dcutch 1710 9190
-ELE a Yhiele 31,5 3115
-ELE 23,0 ZSQO
-ELK 3:0 800
-EL? 9 5 27AO
-ELE 11:3 24)5
+Lab User Houre Hours
+LHS R., Scharenberg 928.5 216.0
+LHS P. Demos 31:5 323.0
+LHS H. Lute aD 7.5
+LNS 1. Pless 2.0 2-0
+LYS M., Deutch 17.0 91.0
+RLE A. Thiele 31.5 31D
+RLE T. Higier 23.90 23.0
+ERLE 2. Brot 3.0 8,0
+RLE H. Stroke 9.5 27.0
+BRLE S. Coccoli 11.5 2¢.,5
 
- 
+JOINT COMPUTING GROUP
 
-—_————
+ho
+La
+wn
 
-JOINT CQHPUTIHG GROUP
-
- 
-
-1;. L1; 1
-
-n
-L?
-In
-b
-
-July 25, 1960
+J
 
 Hours
-Lg_Ap;11
+
+in April
+
 1
 59
 16
 88
-AB
+LH8
 20
-I.
-6.5
-BO
+
+G&G
+65
+80
 60
 14
 60
+
 108
+
 12
-§@
-0 80
-0 59
-0 7
-0 O
-0 O
-0 0
-0 66
-D 14
-454 1307
+
+oO
+
+> OO0O000O
+
+&54
+
+El
+
+wv
+COO~NY
+
+66
+
+14
+
+307
+
+July 25, 1960
 
 Total
 Hours
@@ -97,36 +106,30 @@ Hours
 336
 136
 96
-539
+239
 272
 206
-59
+39
 156
 131
 31
 
 Use by Laboratories
 
-1.42
+Lab
 
-LMS 1
-
-(A
-
--1
-
-R13
+LS
 
 Hours
-6 ’
-
-8°
 
 otal
 ours
 
-655,0
+-
+TT
 
-15955
+55.0
+
+159.5
 
 

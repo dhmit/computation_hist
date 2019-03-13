@@ -1,112 +1,200 @@
-VEY COHN
-346 HAR
+R Ce s
 
-- ' ‘ ce for instance, the maximum-minimum principle can be
-2253333311113 ’Green‘s function to show that the proximity of the
-boundaries must provide an estimate for the proxrmity of the interim
-mapping- The fact that the (apprornmately) ﬁxed pomt, 1, lies on
-the boundary causes no trouble, Since we should apply the approxima.
+ 
 
-tions in any case not to :D. and 31/ b“ to: say, 5: and 5H,) which
+ 
 
-are formed by reﬂecting each fundamental domain about its boundary
-arcs often enough to obtain larger domains in relation to Which
+RVEY COHN
+346 HA
 
-‘D, and :D,’ would be interiori
+since, for instance, the maximum-minimum prineciple can be
+he Green’s function to show that the proximity of the
+ovide an estimate for the proximity of the interior
+t that the (approximately) fixed point, ¢, lies on
+the boundary causes no trouble, sinc,e we should apply the a_I_)_p,I‘OXinga-
+tions in any case not 0 De and O, but to, say, D. anfi D,/, which
+are formed by reflecting each fundamental df)ma.l.n about.lts bounde.uy
+ares often enough to obtain larger domains in relation to which
 
-6. Order of magnitude. From the value of 71 in equation (15)
-it follows that for z in 5,
-(17) 1P = 2 + 007).
+D, and D, would be interior.
+6. Order of magnitude. From the value of n in equation (16)
+it follows that for 2 in D,
 
-Using the power-series expansion of the logarithm, we ﬁnd that it is
-approximated by f + 0(n§°). Thus equation (17) leads to
+(17)
 
-(18) §+ 007?“) = z + 0(71),
+Using the power-
+approximated by § +
+
+to jUStify )
+applied t0 t
+boundaries must pPr
+
+mapping. The fac
+
+Y =z + 0(n).
+
+series expansion of the logarithm, we find that ¢ is
+O(5¢"). Thus equation (17) leads to
+
+(18) ¢ + 0(nt*) = 2 + O(n),
 and from this,
-(19) (r — 2W = 0(6),
+(19) & — 2)/¢ = 0(),
 
-which is ac“) as e —+ 0.
+which is 0(z°) as ¢ — 0.
 
-Now from (19) the limit (6), deﬁning P(z), must exist at least
+Now from (19) the limit (6), defining P(z), must exist at least
 for a subsequence of e. The uniqueness of the limit will follow,
-later, from the fact that we are dealing with a regular function, P(z),
-completely characterized by certain transformation equations (21*)
+later, from the fact that we are dealing with a regular function, P(2),
+completely characterized by certain transformation equations (21%)
 and (22*) (below), together with the estimate (from (19)),
 
-(20) P(Z) = 0(23)
+(20) P(z) = 0(2)
 
-asz—>iao inﬁll.
+asz — 1% 1In D, .
 
-7. Transformation equations. From the deﬁnition of {,(z) in
+7. Transformation equations. From the definition of ¢.(2) in
 § 2, it follows immediately that
 
-(21) (J—l/z) = #l/K'JZl
-To obtain the linear transformation representing {(2 + 1), we note
+To obtain the linear transformation representing {(z + 1), we note
+that, in Figure 2, 2" = z + 1 must map the arc '8’ onto 8. Thus
+we find
 
-that, in Figure 2, 2T = z + 1 must map the arc w’ﬁ’ onto «43. Thus
-we ﬁnd
+Glet+D) —0)B =B _ (o) — B = F)
 
-(r.(z +1) — mm: — B) (m) — new — B’)
-
-(22) .
-(r42 + 1) — 5X6 — w) ((42) + 3’)<13’ — w’)
-
- 
-
- 
+22 -
+= (tlz+1) —B)B —w) (tl2) + BIE — o)
 
  
 
 MODULAR FUNCTIONS 347
-Next, using the values given in §5 together with equations (6) and
 
-(16), we obtain in a straightforward manner f
-terms in 1;: mm the ﬁrst-order
+Next, using th.e v.alues givc.an in §5 together with equations (6) and
+(16), we obtain in a straightforward manner from the first-
+terms in 7:
 
-(21*) P(—1/z) = P(z)/z’,
-(22*) Po + 1) = Po) + 3; + 32 — i.
+(21%) P(—1/z2)
+(22%) Pz + 1)
+
+order
+
+P(2)/7,
+P(2) + 32" + 3z — 3.
 More generally, by this technique we see that
-(23) P (02 + b) = P(z) + q(z)
-ta + d (cz + d)2 ’
 
-where (1(2) is a quadratic polynomial. (Here 2 d 2 '
-sentially az'm/aé at e = 0.) q( )/(cz + ) ls es-
+az + b\ _ P(2) + q(2)
+(23) P (cz - d) s
 
-8. Final identiﬁcation of the perturbation function. Here armed
-with equations (20), (21 *), and (22*), we can establish the exhansion
-(10). Let the right-hand side of (10) be denoted by 3(2). It can be
-formally veriﬁed that 3(2) satisﬁes properties (20), (21*), and (22*).
-Thus, letting U(z) = P(z) — S(z), we ﬁnd
+where ¢(z) is a quadratic polynomial. (Here q(z)/(cz + D e
+sentially 32"“/a¢€" at ¢ = 0.)
 
-(24) U(—l/Z) = U(z)/z2
-(25) U(z + l) = U(z)
-(26) [1(2) = 0(23) as z—vioo,
+8. Final identification of the perturbation function. Here, armed
+with equations (20), (21*), and (22*), we can establish the expansion
+(10). Let the right-hand side of (10) be denoted by S(z). It can be
+formally verified that S(z) satisfies properties (20), (21*), and (22%).
+Thus, letting U(z) = P(z) — S(z), we find
+
+(24) U(—1/2) = U(z)/7’
+(25) Uz +1) = Ue)
+(26) U(Z) = 0(23) as z— 1o,
 
 and, in addition, U(z) is regular when Im z > 0.
 
 Now we assert that such a U(z) is identically zero. For since
-the function 42(2) = U(2)J’(z) is invariant under the modular group,
-by conditions (24) and (25), it is a single~valued function of J (2).
-Furthermore, by condition (26), 4>(z) is not ‘large enough" to be
-anything but linear, i.e., ¢(z) = pJ(z) + a, for constants p and 17.
-Finally, the constants p, a both vanish since ¢(z) = 0 at z : i and
-z = % + ix/§/2, This establishes the expansion (10) (which is,
-however, most naturally derived by the heuristic method of §3).
+the function ¢(z) = U(z)J’(z) is invariant under the modular group,
+by conditions (24) and (25), it is a single-valued function of J (2).
+Furthermore, by condition (26), ¢(z) is not ‘large enough” to be
+anything but linear, i.e., ¢(z) = pJ(2) + o, for constants p and o.
+Finally, the constants p, ¢ both vanish since ¢(z) = 0 at z = ¢ and
+z = 1 + 44/3/2. This establishes the expansion (10) (which is,
+however, most naturally derived by the heuristic method of § 3).
 
 BIBLIOGRAPHY
 
-1, DEDEKIND, R. Sohrez'ben an Harm Earnhardt ﬁber die Theorie der ellipti-
-schen Modulfunktioneni Ges. Mathi Werke, I, 174-201. Brann-
+1. DepEKIND, R. Schreiben an Herrn Borchardt uber die Theorie der ellipti-
+schen Modulfunktionen. Ges. Math. Werke, I, 174-201. Braun-
 
 schweig, 1930.
 
-      
+ 
 
-' 1 :n-m‘m'
+Ui
 
-. _ gram". 0
-r "gang-"V, '
-.n mm"
+  
+ 
 
-'5",
-m.“
+. 4
+~
+ol
+.
+T 24
+
+ 
+
+)
+SIS
+.
+e
+-
+2344+
+
+5
+S
+
+»
+Sl
+
+-
+=%
+-
+
+——t
+
+L
+5
+
+......
+
+T S LIty
+RELTECcELoes
+
+LS rz = s
+‘fff_'i:_f.-' & -
+
+-~ -~
+.
+ST
+-
+rrere
+T e oSt Tl
+o 8581,
+
+2
+L
+A
+-
+
+wlivi v
+
+i i
+L €LLs
+
+1
+"t:)
+
+.
+e
+
+..
+reEsy.
+r I
+
+743
+.
+
+Wl [
+.....
+Y sl
+,,,,,,,
+,,,,,
+................
+............

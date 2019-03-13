@@ -1,65 +1,45 @@
-‘ émcmsm ORDERS
+. PURCHASE! ORDERS * Has also requested credit allowance
 
  
 
-Date Projech or Purchase Amount
-Received From For Account No. Problem Nos. Order No. $
-‘ 9 5 511 Dr. J.T.Farrer same 195 2020 $1500
-‘ Hassﬂemﬂospitals
-30 5 51+ Mr. D. Arenberg same For Contract 216 667-19 at $250/hr
-A.U1trason10 Lab AF 30(602)o§77
-28 0 5’4 G.J.Hudson,Puf. J.H.Eurxyon 132 DIG F 9109“ $1,563
-Agent Servo Lab
-Servo Lab
-2151+ T.F.Malone sane V DIG 5.2071; 155 $6.250
-Meteorology " ' .
-3 N 5‘! C.M.Pickett G.W.Johnson DDEC 7270 203 DIG F 85353 $1,588
-Put. Agent cmc 3' .
-Civil Eng. i
-‘ ’. o
-5 N 51; J.H.Laning Jr same 4 108 DIG F 90952 $3.125
-Instrumentation ' o
-8 R 5b J.H.Laning Jr same 108 DIG F 90953 $3,125
-‘8 H 5“ 8. Simpson same éursar's Account 106 Requisition
-V Gaol & Geophysics 27490 B 20795 $107592
-' a n 511 0.J.Hudson p1 11.1.2013: me 7138 " 126 Die F 91163 $9.375
-i Servo Lab Servo Lab ' ' ~
-12 R 5b J.H.Austin G. Arnaaon DIC 6hh1 22h DIG R 1639h9 EST $1.500
-Metmlogy Meteorology i
-‘ 15 x 5,; J. Kaye T.I.Toong bio 61:18 199* DIG F 61308 $500
-Mech. Eng. Hech. Eng. ..
-L 22 N 5h V.P.Starr R. Pfeffer 13:36 7228 226 DIC F 891429 $1562.50
-,1 Meteorology Meteorology ;
-Die 1271? 2 DIG F 838140 at $250/hr
-30 N 511 J .K.Bonnev1_lle same ; 9 29
-Friction and "
-‘ Wear Lab
+ 
 
-’ Has also requested credit allowance
+ 
 
-Time
-6 hours
+" Date 2 | Project or Purchase Amount
+Received From For Account No, Problem Nos. Order No. $ Time
+98554 Dr, J,T.Farrar same 195 2020 $1500 6 hours
+: MassMemHospitals
+30 8 54 Mr. D. Arenberg same For Contract 216 667-19 at $250/hr  X hours
+A,Ultrasonic Lab AF 30(602)-577
+28 0 54 G.J.Hudson,Puf. J.H.Runyon hy 132 DIC F 91094 $1,563 15 min/wk
+Agent Servo Lab 5
+Servo Lab ;
+2 N54  T.F.Malone same DIC 5-7074 155 $6,250 1 hr/uk
+Meteorology | ; ve
+3 N 54%  C.M.Pickett C.W.Johnson  DIC-7270 203 DIC F 85353 $1,588 15 min/wk
+Pur. Agent CcMMC ws,
+| Civil Eng. z
+5 N54 J.H.Laning Jr = same : 108 DIC F 90952 $3,125 30 min/wk
+~~ Instrumentation | : =
+8 N 54 J.H.Laning Jr same ok gi 108 DIC F 90953 $3,125 30 min/wk
+8 N 54 S. Simpson same Bursar's.Acdount 106 Requisition
+Geol & Geophysics 2490 B 20795 $3,076.92 30 min/wk
+8 N54 G.J.Hudson PA  D.T.Ross DIC 7138 126 DIC F 91163 $9,375 90 min/uk
+Servo Lab Servo Lab pit :
+12 B 54  J.M.Austin G. Arnason DIC 6441 224 DIC R 163949 EST $1,500 EST 6 hours
+~ Metegrology Meteorology 2 |
+| 1s'§ sy J. Kaye 7.Y.Toong nic 6418 199* DIC F 61308 $500 2 hours
+| ‘Mech. Eng. Mech. Eng. «
+22 N54 V.P.Starr R. Pfeffer DIC 7228 226 DIC F 89429 $1562.50 15 minfwk
+J Meteorology Meteorology -
+1 DIC 1-7175 229 DIC F 83840 at $250/hr X hours
 
-X hours
+30 N 54 J,M.Bonneville same
+Friction and
+Wear Lab
 
-15 min/wk
-
-1 hr/wk
-
-15 min/wk
-30 min/wk
-30 min/wk
-
-30 min/wk
-
-9O min/wk
-
-EST 6 hours ‘
-
-2 hours
-
-15 min/wk
-
-X hours
+Sd
+»
 
 

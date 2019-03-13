@@ -1,43 +1,44 @@
-C©PY
+COPY
 
-Memorandum To: Professor 0.3. Brown
-From: Dr. A.L. Loeh
+Memorandum Tog: Professor G.S. Brown
 
-Subject: Appointment of PJI. Museum to the 1.3.8.8. 7007 Project
-to Apply the 11m 70!. to the Problem of Electrophoresis
+ 
+
+From: Dr, A.L. Loeb
+
+Subject: Appointment of P.M. Wiersema to the D.S.R. 7007 Project
+to Apply the IBM 704 to the Problem of Electrophoresis
 
 Date: 19 October 1956
 
-kl. Vienna is a graduate student in Professor J. Th. 6. Overbeek's
+PN. Wiersema is a graduate student in Professor J. Th. G. Overbeek's
 Laboratory at the University of Utrecht, working on the phenomenon of
-colloid eleetrophoresis. The first phase of the computations will be
-completed by the end of 1956, having been programmed and coded for. and run
-on the mu computer in Amsterdam, part1 ally under the supervision of
-LL. Loch. The subsequent phase or the calculations requires a machine
-considerably more sophisticated then the ARM. and it is proposed that
-the IBM 704. to be installed at 11.1.15. be applied to the problem
+colloid ele¢trophoresis. The first phase of the computations will be
+completed by the end of 1956, having been programmed and coded for, and run
+offi the ARRA computer in Amsterdam, partifally under the supervision of
+A.L. Loeb. The subsequent phase of the calculations requires e machine
+considerably more sophisticated then the ARRA, and it is proposed that
+the IBM 704, to be installed at M.I.T., be applied to the problem.
 
-Viersena will take his Doctor's qualifying examinations in
-December 1956. and will continue on the electrophoresis problem for his
-doctoral thesis with Professor Overbeek, who has enthusiastically endorsed
-Wiemema's spending a year at M.I.‘1‘. to acquaint himself with the IBM '70].
-computer. Professor Horse has indicated that computer time will he reads
-available for the project. Since ﬂier-sens does not need academic credits
-from H.145. a straight D.S.R. appoint-at would appear most logical.
+Wierseme will take his Doctor's qualifying examinations in
+December 1956, and will continue on the electrophoresis problem for his
+doctoral thesis with Professor Overbeek, who has enthusiastically endoreed
+Wiersema's spending a year at M.I.T. to acquaint himself with the IBM 704
+computer. Professor Morse has indicated that computer time will be made
+available for the project. Since Wiersema does not need academic credits
+from M.I.T., a straight D.S.R. appointment would appear most logical.
 Lincoln Personnel has not offered any objection to having a foreign
-citieen on 0.5.8. 7007 as long as the work is performed outside the
-Lincoln Laboratory. LL. Loch is very glad to supervise and participate
-in this research, which is of great fundamental interest. and recomends
-Vial-sens as a very capable and conscientious worker.
+citizen on D.S.R. 7007 as long as the work is performed outside the
+Lincoln Laboratory. A.L. Loeb is very glad to supervise snd participate
+in this research, which is of great fundamental interest, and recommends
+Wiersema as a very capable and conscientious worker.
 
  
 
- 
+A.L. Loeb
 
-LL. Loeb
-
-cc: Professor P.M. Morse
-Professor EM. Fletcher
+ces Professor P.M. Morse
+Professor E.W. Fletcher
 
 ALL/cf
 

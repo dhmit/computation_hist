@@ -1,56 +1,39 @@
-@ (3 FY
+CORX
 
-Discussion of use of pilot selectors
-
-6.
-
+6. Discussion of use of pilot selectors for sign
 control
-(JEA) Wimstp
-
-” 604 Calculator
-
-ionai description of the calculator and its
-
-1. Funct
-
+(ta) s (Ep)==P
+G, 604 Calculator
+1. Functional description of the calculator and its
 capacity.
+»  Timing chart and machine cycle charis.
+3, Planning charts and wiring diagrams for
+a) (L A) + (£ B)= s ¢
+p) (£a)  (=B)=
 
-2. Timing chart and machine cycle charts.
+¢) (EA)z2(sB)=
 
-3. Planning charts and wiring diagrams for
-a) (tp.)+(ia)atc
-n) (imwisw‘lp
-c) (imuiawto
+t+
 
+P
+
+i+
+
+Q
 d) Quotient expansion
-
- 
-
-4. Checking features
-
-a) DPBC. ZT, NB, etc.
-
-b) Marginal testing using voltage variations.
-
-H. Card—Programmed Calculator
-
+4, Checking features
+a) DPBC, 2T, NB, etc.
+p) Marginal testing using veltage yariations.
+Hs Car d=Programmed Calculator
 1. Functional capabilities of the CPC.
-
 2. Block diagram of the CPC.
+3., Machine unit characteristics.
+4, Discussion of operational procedure for use of
+the B=-digit floating~dec1ma1 poard.
+a) Instruction card design.
+p) Detail card design.
+5§, Discussion of planning charts required for
 
-Machine unit characteristics.
+the solution of 2 poundary value problem on the CFC.
 
-4. DiscuSEion of operational procedure for use of
-
-the 6—Cigit floating—decimal board.
-
-a) instruction card design.
-
-b) Detail card design.
-
-required for
-
-5. Discussion of planning chp arts
-the solution of a boundary value problem on the CFC.
-
-NOV I" 1‘ 1952
+NOV 21 1952

@@ -1,30 +1,32 @@
 THE SUPPORT OF MACHINE PROGRAMMING STAFF
 FOR THE UTILIZATION OF
-EIECTRONIC COMPUTERS IN SOCIAL SCIENCE
+ELECTRONIC COMPUTERS IN SOCIAL SCIENCE
 
 The Facility and Its Potentialities
-
- 
 
 The high-speed computing facility, to be installed by
 IBM at the new Computation Center at MIT will be the largest and
 most flexible facility in this country to be devoted exclusively
-to unclassified research and education. IBM will contribute more,
-than a fifth of a million a year in its support for maintenance a“
+to unclassified research and education. IBM will contribute more
+than a fifth of a million a year in its support for maintenance
 and operation. What is needed, in addition, to make this an out-
 standing center for the investigation of digital computer
 ‘potentialities in all branches of scientific research, is about
 $100,000 a year for the support of a research staff, which can
 work with scientists in various fields to develop new and more
-effective techniques of machine utilization.
+effective techniques of machine utilization. |
+
+— —
+
+ 
 
 Arrangements have been made for all the colleges in New
 England to participate in the use of the machines, and IBM has set
 up funds for Assistantships to enable graduate students, at MIT
 and at the participating colleges, to spend time at the Center
 learning to use the equipment. This Center and these arrangements
-represent potentialities for new developments in social and
-physical science of great and unexplored importance. H
+represent potentialities for new developments in soclal and
+physical science of great and unexplored importance.
 
  
 
@@ -32,16 +34,20 @@ There will be no charge for machine time made to students
 or faculty of the participating institutions. Maintenance and the
 routine aspects of operation will be taken care of by IBM, so that
 those who know how to use such equipment can use it, without cost,
-up to the fourteen hours a day during which the machine will be
-available at first. A number of problems in economics are going 1
+up to the fourteen hours a day during which the machine willl be
+available at first. A number of problems in economics are going
 to be put on the machine by Professor Solow of MIT and by Professor
-Oroutt of Harvard and, as other research workers in the social
+Orcutt of Harvard and, as other research workers in the social
 sciences learn how to use the equipment, other problems will be
-brought to the Center. i
+brought to the Center.
 
-The Inportance of Team Research
+ 
 
-But an instrumentslity, by itself, cannot produce new
+ 
+
+The Importance of Team Research
+
+But an instrumentality, by itself, cannot produce new
 research. To make the important advances which are possible with
 a computer of the speed and flexibility of this, one needs a team
 of research people, some of whom know the machine and some of whom
@@ -53,7 +59,7 @@ sure how, so that, between them, they can translate the "gleam in
 the eye" into new and important results.
 
 
-In the long run, the various social scientists in New
+In the long run, the various soclal scientists in New
 England will probably learn enough about machine operation to be
 able to make the machine useful to them. But it takes time to
 learn to program a machine of this size, and research workers in
@@ -63,17 +69,17 @@ have more than a casual knowledge of the electronic details of its
 operation. This combination of knowledge, of a social science and
 of a computer, will probably be developed in our next generation
 of research workers. But if we want to get started using computers
-in social science 231, we will have to use a team: a man who knows
+in social science now, we will have to use a team: a man who knows
 the field plus a man who knows the machine.
 
-Need for a Research Staff in Machine Utilizationl_an
-:ﬁgreaient In the Team
+Need for a Research Staff in Machine Ufilization, an
+ingredient in the Team
 
-This last ingredient is the part which is left out of
+This last ingredient 1s the part which 1s left out of
 the contribution which IBM has made to the Computation Center. To
 put the Center at the forefront of research, we must have a full-
-time staff of enthusiastic machine-specialists, to teach prospective
-users how to make the machine do its tricks and to Join with
+time staff of enthuslastic machine specialists, to teach prospective
+users how to make the machine do its tricks and to join with
 research workers who come with a "gleam in their eye", forming
 teams which can utilize to the fullest the computer's capabilities
 in research. This staff will be hard, but not impossible, to
@@ -85,12 +91,10 @@ pating institutions to pick from and we have already begun to make
 contact with those students who are interested in machine utiliza-
 tion. There are about two dozen IBM research assistants appointed
 for this year. We should be able to pick from the best of these a
-few who would like to stay on for two or three years more, after
-they have obtained their advanced degrees in engineering, mathe-
+few who would like toc stay on for two or three years more, after
+they have obtained thelr advanced degrees in engineering, mathe-
 matics or science, to be a part of our research staff, potential
-members of research teams. -
-
- 
+members of research teams. :
 
 Budget for the Social Sciences
 
@@ -98,7 +102,7 @@ To make up a staff which could handle the social science
 problems as well as the physical science ones would need another
 four or five good men, research men plus the technicians to back
 them up, plus a small budget for travel and incidental supplies
-and equipment, approximately 535,000 a year for three years. It
+and equipment, approximately £35,000 a year for three years. It
 would take about three years to get rolling and the developments
 should be reviewed at the end of three years, to see where to go
 next. Such a staff should be more important during the beginning
@@ -111,19 +115,19 @@ and with its own budget, which can include partial support for the
 continuing staff of the Center. So, eventually, the Center could
 
 
-be financed indirectly by contributions from each proJect which
+be financed indirectly by contributions from each project which
 uses it, if this were considered to be the most desirable way of
-keeping it going. At present, however, support by contributions
+Keeping it going. At present, however, support by contributions
 from established research projects can support only about a third
-or the $100,000 needed, which would leave unsupported the most
+of the 100,000 needed, which would leave unsupported the most
 fruitful research of all, the unknown results which are sure to
 come when a machine expert of the Center staff works together with
-the economist, psychologist or sociologist on the faculty of one
+the economist, psychologist or soclologist on the faculty of one
 of our participating colleges who comes to the Center with only a.
 "gleam in his eye".
 
 Possible Initial Directions for Investigation
-_______._______________________________
+EE —————————————
 
 As indicated, we cannot write down in any detail the
 directions which this research effort will take, as the various
@@ -132,8 +136,8 @@ areas which we feel should be investigated, which are certain to
 produce results of immediate interest and which, in addition,
 should provide hints as to still more important applications.
 
-A. One of these is the deeper investigation of machine
-logic itself. A computer of the complexity of the 70“ is too big
+A. One of these 1s the d¢eper investigation of machine
+logic itself. A computer of the complexity of the 704 is too big
 to be able to see immediately how it can "think". Most machines
 are now programmed to do ordinary arithmetic, a few programs have
 been devised to make the machine obey the rules of Boolean logic
@@ -145,16 +149,10 @@ and genetics each have patterns of thought which do not exactly
 duplicate those of physics. Fundamental research is needed to
 work out programs, rules of thought for the machine, which corres-
 pond more closely to these other patterns. With a machine of the
-flexibility and storage capacity of the 70”, such research is
+flexibillty and storage capacity of the 704, such research is
 worth while. It will have to be tackled, at the beginning, by
 teams of experts in the field of interest, together with mathe-
-matical logicians who know machine operation.
-
- 
-
- 
-
-JLI
+matical logliclans who know machine operation.
 
 B. Another general line of attack is in the field of
 the storage and rapid access to information, such as is needed in
@@ -168,70 +166,75 @@ tation Center will have a storage capacity of this size. Some of
 the proposed schemes should be tried out, and others developed, by
 members of the Center staff working with persons familiar with the
 information and its uses. For example, a project in machine
+
 translation has already been set up under the direction of Professor
 Locke of the Language Department. As it develops, it will need the
+
 help of machine programming specialists and will need the use of a
 machine to test its ideas. The translation project is already
 supported by the Rockefeller Foundation, but parallel work by the
-Computation Center on techniques for rapid access to largeequantity
+
+Computation Center on techniques for rapid access to large-=guantity
 
 
 data would help this work as well as others. Another promising
 direction of investigation is in the application of machine tech-
-n1Ques to library inventorying, cataloging and record-keeping.
-AlthOUgh special-purpose machines will probably be required in the
+niques to library inventorying, cataloging and record-keeping.
+Although special-purpose machines will probably be required in the
 end, many ideas and procedures can be developed and checked out on
 the general-purpose machine at the Center with the addition, per-
 haps, of some specially built input and output equipment. The
-staff or the MIT Library is interested in this work and will con-
+staff of the MIT Library is interested in this work and will con-
 tribute its knowledge to its progress.
 
 C. Perhaps the most promising line of advance, in part
 because the least investigated up till now, is in the field of
 social science experiments, where the computer can be used as
 recorder, scorer and referee. Tactical situations in warfare are
-already being studied by "gaming techniques" at Band and in other
+already being studied by "gaming techniques" at Rand and in other
 military operations research groups. Similar problems in various
 fields of the social sciences can also be studied by simplifying
-the situation down to some sort of "game”, with more or less com-
+The situation down to some sort of "game", with more or less com-
 plicated rules, which can be played by groups of investigators, to
 see what the consequences are of various strategies. If the "games"
-are to correspond, even distantly, to some actual social situation,
+are to correspond, even distantly, to some actual social gituation,
 the rules must be quite complicated and the scoring will require a
 great deal of statistical computation. It has been found that only
 by the use of computing machines can the scoring be speeded up
 sufficiently so that enough games can be run through to provide
 an over-all grasp of the situation under study. Such "gaming
-techniques" are closely related to the experiments of Bavelas on
-the behavior of task-oriented groups. The use of a properly pro~
+techniques” are closely related to the experiments of Bavelas on
+the behavior of task-oriented groups. The use of a properly pro-
 grammed computer would provide such experiments with a powerful
 and flexible means of changing, controlling, and analyzing these
 experiments in social psychology. In this field we could work in
 close collaboration with the Center for International Studies at
 MIT and with the psychology departments in several other colleges.
 
-Sgggested Guidance for the Research
+Suggested Guidance for the Research
 
 The research activities of the Computation Center are
-guided and coordinated by an Advisory Committee consisting of
+guided and cocrdinated by an Advisory Committee consisting of
 representatives from each of the participating colleges,each
 chosen by the president of his college. This Committee provides
 over-all policy guidance in all activities. But to guide the work
 in social science outlined above, we will need another, more spe-
-cialized group. If financial support for this activity is forth-
-coming, about six topoflight social scientists from the participating
-institutions will be invited to Join a special advisory committee,
+cialized group. If financlal support for this activity is forth-
+coming, about six top-flight social scientists from the participating
+institutions will be invited to Jolin a special advisory committee,
 to talk over possible lines of research with the Center staff, to
 help find those social scientists with "gleams in their eyes" re-
 garding machine utilization in their field, to help arrange the
-formation of teams for the pursuit of the suggested research and
-to advise on relative priorities, if and when there is more work
-to be done than there is machine time available.
+formation of teams for the pursult of the suggested research and
+to advise on relative priorities, if and when there 1s more work
+to be done than there is machine time avallable.
 
-iiiiiiiiiii_________—__--nun-IIIIIIIIIIIIIIIIIIII
+CL heme SE
 
 
-Emianlema ﬁerﬁgrmgl‘aad Budget
+Equipment, Personnel and Budget
+
+ 
 
 The suggested budget for three years is tentative and is
 more dependent on our ability to hire one or two more experts in
@@ -248,7 +251,7 @@ and, if the work is in the social sciences, would be chargeable
 to the proposed grant. Some of the experiments in "gaming" will
 require special input or output equipment. Therefore it may turn
 out that less than $35,000 will be spent the first year, more than
-335,000 the second. The important point, however, is that because
+835,000 the second. The important point, however, is that because
 of the presence of the equipment of the Center, supported by IBM,
 the majority of the budget of this grant can be spent on salaries
 for people directly carrying out the research outlined in this
@@ -257,7 +260,7 @@ proposal.
 The staff can begin to be assembled this spring, but
 expenditures would probably not reach full rate until the summer
 of 1957. Consequently, the grant could officially start March or
-April 1957, or could start as late as June, it some earlier
+April 1957, or could start as late as June, if some earlier
 expenditures could be charged against the grant at that time.
 
 

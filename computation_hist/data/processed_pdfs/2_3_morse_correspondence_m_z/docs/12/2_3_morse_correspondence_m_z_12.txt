@@ -1,40 +1,53 @@
-{Deoembsrw‘ésgﬁlg‘ﬁé} ’7 ‘
+fre 40 $0 ¥- TE ee Pe
+- ER RP FR AE CT NB
+HE
 
-v Dr. Ens. Mnlliken
+SN
 
-. ' Department of *Physies »
-The University of Chicago
-Chicago 37. Illinois
+‘December 28, 195%
 
-Dear Bohr . V . V . _.
+Dre ReoSe Mulllken  . - ay
 
-. I believe Itold you when I last saw you or our 'plans
-to retire Whirlwind. .31: you are not aware or them, they may ~
-change your plans somewhat. We are getting a new computer,“
-IBM 70h, some time this spring. It will be supported by IBM ,
-instead of b the Na'vy and therefore arrangements to have prob-
-lems run on he machine will be different. and will have to be
-ronegotisted. In fact, it is not certain that we are to be
-allowed to do problems forany group outside of M.I.'l‘. and the
+Department of Physies = -
+
+~~ The University of Chicago
+Chicago 37, Illinois =
+
+~ Dear Bob:
+
+I believe I told you when I last saw you of our plans
+to retire Whirlwind. If you are not aware of them, they may ~~
+change your plans somewhat. We are getting a new computer, an
+IBM 704, some time this spring. It will be supported by IBM .
+instead of by the Navy and therefore arrangements to have prob-
+lems run on the machine will be different and will have to be.
+renegotiated. In fact, it is net certain that we are to be
+allowed to do problems for any group outside of M.I.T. and the
 New England college family for which the machine is installed.
-it the end or June 1957, therefore. we are relinquishing all
-part in Whirlwind operation and will turn it back to the Navy
-for whatever use. they may decide. Consequently, all work which '
-is to be done on Whirlwind must be finished by the end or June.
-1957. Any work in the future would have to be done on the 701i
-and would be subject to different rules, probably more stringent
-with regard to outside participation.
 
-Part or our difficulty is that the Navy has finally
-got tired or supporting Whirlwind; not that I blame them, for
+At the end of June 1957, therefore, we are relinquishing all
+
+ 
+
+part in Whirlwind operation and will turn it back to the Navy
+
+for whatever use they may decide. Consequently, all work whieh
+
+is to be done on Whirlwind must be finished by the end of June,
+1957. Any work in the future would have tc be done on the 704
+and would be subject to different rules, probably more stringent
+with regard to outside participation. |
+
+Part of our difficulty is that the Navy has finally
+got tired of supporting Whirlwind; not that I blame them, for
 it has been an expensive operation. Even for this spring they
 are insisting that we get financial contribution from users.
-The agreed-on rate is $250.00 per hour. In the case of hr.
+The agreed-on rate is $250.00 per hour. In the case of Mr.
 Merryman, therefore, we can allow him the additional ten hours
-you mention free, but any further use or Whirlwind would have
+you mention free, but any further use of Whirlwind would have
 to be paid for at the regular rate. You mention that you had
 about $8,000. This would pay for 32 additional hours on the
-machine. Judging from your present rate 01' use, I doubt
+machine. Judging from your present rate of use, 1 doubt
 whether you would use as much as 32 hours before the middle of
 June. I hope, however, that you will get enought done so that
 your work on reprogramming will not have been in vain.
@@ -42,12 +55,11 @@ your work on reprogramming will not have been in vain.
 Please let me know your thoughts on the changed
 situation I have outlined above.
 
-Yours ,
+Yours,
 
 Philip M. Morse
-PM 2 lwh
-
-cc: Dr. Verzuh
+PMM 3: lwh
+ces Dr. Verzuh
 Prof. Slater
 
 

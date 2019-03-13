@@ -1,207 +1,1666 @@
-‘ » . Rep Med fruit: the ' .
-31'7me op TEE’AMEEXCA‘N MA! mmmxcmﬁmmv
-‘“ ,Vol. 52, No. 12,919. 150112-1043 '
-December, 1946
+SOME DIOPHANTINE ASPECTS OF MODULAR FUNCTIONS
+I. ESSENTIAL SINGULARITIES
+
+BY
+HARVEY COHN
+
+[Reprinted from American Journal of Mathematics, Vol, LXXT, No. 2, April, 1949.]
 
 
-NOTE ON ALMOST-ALGEBRAIC NUMBERS
+By Harvey Conn,
 
-HARVEY COHN‘
+nS
+
+. r y < : > < Lu . . .
+
+I. Introduction. I'he moduylg, 8TOUD 1s a natypg) variant inyelyeq
+basic Properties
+
+of real numbers T are preserved under the transformations of the modulgy
+§roup: a’ — (az b)/ (cx + d), where a b, ¢, d are Integers satisfying the
+relation ad — pe — 1. To cite 3 few of thege Properties, we might mention
+the rationality of 4 ang the boundedness of the parti] quotients in the simple
+
+in many problems in diophantine approximatioy. Some very
+
+contmued fraction for z,
+
+Although any real function of the reg] variable gz, Imvariant under the
+transformations of the modular group, is either constant or totally discon-
+tinuous, there gre functions of 4 complex variable T, analytic in the upper
+half plane, anq Possessing the desired invariance, Aside from the constant
+function, these So-called modular functions all have essntial singularities on
+the real axis. Our problem is then that of investigating the influence of the
+diophantine character of 4 real number z op the essential singularity of
+certain modulay functions at 4.
+
+Hardy ang Littlewood [3], [4]: carried out such ap investigation for
+the purpose of setting bounds op certain exponentig] Sums (given by the
+Jacobi thetq functions on thejy boundary circle) by studying thege functions
+near the singularity In question. Conversely, Wintner [7] analyzed the
+behavior of the Dedekind 5-function by considering the coefficients in its
+Power serjes expansion, Although we present a discussion of the singularities
+of certain modular functions as related to the singularities of the terms of
+the infinite series fépresenting them. our objectives will be primarily in the
+realm of function theory, since we shall, for instance, demonstrate function-
+theoreticg] Properties in the large on the basis of the behavior of modular
+functiong near singularities.
+eeu Ty
+
+* Received April 21. 1948; revised November 20, 1948: presented to the American
+Mathematica) Society, June 19, 1948. Based on the author’s doctoral dissertation
+
+(Harvg rd, 1948).
+
+' Numbers in brackets refer to bibliography at the end of the article,
+
+403
+
+
+SOME DIOPHANTINE ASPECTS OF MODULAR FUNCTIONS,
+
+  
+ 
+  
+  
+
+   
+ 
+
+  
+ 
+ 
+
+405
+As we shall note later on, this behavior is also, in a sense, characteristic of
+3 i 8
+| 404 os the particular modular functions, the Poi. this type of irrational.
+Bo tline. We choose d by the property It should be pointed out, however, that the term by term analysis by
+gsr 9. Ou po defined DY + d)™f (2) uess at the behavior near essential singularities can not always
+g iw yy w, | ’ — > 1 e : . . .
+AAI caré theta fun (a+ b)/ (cz + d)) = (cz hia which - ar True, we can justify the term by term analysis with
+OR Aaa a : 1 theta functig readily : 2
+A | (1) f( lizes the behavior of Jacobi ; ns. be d to the rational singularities of F,nm(2), but we shall not even attempt
+Aver : 1Z = : Tr ; : oR .
+HET oath which genera int some well known results o omcearg [6), rega by term analysis to explain how Gam (2) can vanish identically, as
+Sim : > i as our starting pol t section paar hen m =2?,3,4,5,or7. We shall, therefore, have to rely on
+RR u 5 ex : : wher Cat ; : : :
+ae esti ERE sha , we summarize in the 1 terest us because they have the advantag, of it does theoretical as well as analytic methods, expressing Poincaré theta
+rane HAE iC ions in an ion-the Sr .
+ARR wi Poincaré theta functions ries whose individual terms often Suggest function in terms of the better known elliptic modular function J (2).
+pan ro ined as infinite se : e can take the Rig functions in : F d Gum(z) are just
+RRR AGES IAG ATIE taine : tance, w Sen 1t lying to (2) an 2m J
+pi being easly obi jal singularities. es ; We shall see that the results apply g 2m blish
+AE : i TE at essential sin ial cases of results for general theta functions, which we shall esta is
+RR : d)-2m specia that the asymptotic behavior, to a certain
+OA eT tein series, = > (cz + lv. We shall also see :
+aa prea y: Fon(2) (e,d)7(0,0) presently desoribe the fonction haiti singularity.
+“1 HIT ah (343 ih Ye! + . an
+rns all integer pairs except : : ot ‘Boma
+ARN where (c,d) runs Sd . aré theta function in which each pe tern 3. Preliminary results on theta functions. We TE colle oi
+nA This is a Poin : At such a pop : incaré theta functions. ese results
+taht ely HEN ev . = 9 18 ) nt 2 == P/q. y e of Poincaré t eta Iu
+SRRRRARIAR CLI integer ; 1 at one rational pol ? 3 Stolz nei hhor results on the convergenc - 3 t equences of such results.
+HATER becomes singular only J/g) if 2 approaches p/q In a SL ither proved in the literature or are immediate cons q Gi Ee
+pasaaitis like (z—p/q re characterized by thi either d in 1 is generated by the substitu
+aC F.u(z) behaves furthermore, are c dular group defined in g a h
+AAAI 2 Rational points, The mo d tal domain 9D consisting of the
+AST 2 ; amentat dom
+THER hood? at p/g Il see in subsequent paragraphs. Jol r—>z41and 2——1/z. It has a fun the inequalities | z | > 1 and
+aris behavior, as we shall s in the behavior of modular functions at z=§ ion ®* of the upper half plane defined by the q dl Acciraing
+i Leen? h ontinued fraction expansion possess [fie | < 3, together with the boundary points of ®* identi of se
+: ose C : z 25 Every point z o
+al number w der a sum of the : 1 and z—>—1/2. Every p
+: where Van 1d find it natural to conside formations z =z 4 ; i
+v : nd 1t na : to the two transform to a single point
+A in ial quotients, we wou ; 11 forms equi 2 : dulo the modular group, to
+i 7 vy. bounded partial q ation goes over a eq 1 is equivalent, modulo : d
+RRA ary Yio, { ML 0 -2m where the summ Oo upper half Pp ane x : at infinit being a boun ary
+iN Gy type 2(4z me ’ e, to a given indefinite form. This, too, ma in the fundamental domain ©. (The ar Ys
+f, PIV ANIL) +7 ‘14 '. l / * the classica Sens 3 par it ries ave h 1f lane. ;
+4 nt, In : f its se : er halt p
+ie a, modal os : uredly hare point, is excluded from : ie = function, with Dedekind, as the function
+genera : d SUR tH nals which ass f the elliptic modular ’ that
+: atic irrationals, : We define : he whole z-plane so
+: : at certain real quadr oa al in onto the w :
+mi fi with bounded (in fact with ultimately per oa 5 J(2) which maps the fundamental ga 0. The mapping function,
+continue ractions ; h conglomerate : d oT 11 + 1 = {). :
+; e more g =1, an . n the
+quotients. We shall single out for special attention t Jil) =%, dg: th he of the fundamental domain, will do
+: . e i} em | 1 .
+SZ : J(z) by virtue o : trivle zero at z =
+Poincaré theta function, t z=1, and will have a trip
+: value unity twice at z =1, ; Bave dika
+2 d)z +b)? = Gom(2), i : : se will behav
+4 (3) ua, fal 20: 0) As Jz becomes infinite, J (2) likewi
+ILA -be= 2 lar group. . ia +)
++ "nt . Se decker = «© . o ns » 1n the modu - a ex 4miz — .
+3 Hs oe where the summation extends over all “ substitutio ee (exsist Sac El a
+. III Oley »e ve ad o . . 1 mbers é whose continu \ 4 P
+ed es This function behaves at rea] irrational nu 9 in a Stolz nH t be immediately inferred from
+2% TA 3 : : 37 S mn no e
+re have partial quotients like 0(z—8)-*m as 2 Approactie ig = (z—0)™" The exact value of ko, namely 1/1728, can
+ony ree 1 18 £
+ane borhood. Tn fact when m — 6, and only then, the behavior is ><
+Be Ge
+
+n ourselves only
+the shape of the fundamental domain, but we shall concer
+ne 8 :
+
+Ea is invariant
+its definition, J (2) 18
+with the more evident fact that k, 50. From its :
+Am * A Stolz neighborhood of
+
+e with
+* - . he z-plan
+
+» In the present context, is a region of t
+
+ih is 0 as a boundary point and co
+
+. HIB III IN
+
+    
+     
+
+: x ed
+single-valu
+: n that any o
+» further show
+where : It can be fu
+—6|>M der the modular group.
+SE ‘m y/|@ under th 5
+ntained in a sector of the form
+¢ * HANI A > 0. tant or
+Arp bs y hes a cons
+Tn ros * We write f(z) ~9(2) or (2) X g(2), when f(2)/g (2) approac
+3 ST ene remains bounded away from 0 apd j
+
+g let ne ’ gn wr! )
+
+4! 7 ¢ ’ ’ “4 4 / oh
+
+. .
+nfinity, respectively.
+
+‘Y
+
+7% ff
+Ji fs fate
+7 fo ls Jans b tA Gn
+ary
+
+1 HE f,07 ’
+4 fav, ”
+J11e dt lt eid’) 000
+¢’ Lerten, y 1
+’
+
+oh
+» y
+
+ew!
+’ ’
+oe et
+
+’ ’
+0 00, 070d ee die a oT,
+¢ Vr eld’ es
+
+sve
+Fy
+
+
+he
+lA art Be nd oe Ft WS
+————
+
+ee
+x
+-
+-
+
+nal
 
  
+
+ 
+
+ 
+
+HARVEY COHN.
+
+406 © the modular group, is a single-valued functig,
+
+. ariant unde
+function of 2, invariant
+
+SN d as a single-valued functjqy f
+of J(2)- ; tion 18 define : (2)
+A Poincare theta ee of a finite number of poles, ang Satisfyin
+regular in P with the a (1). We call m the aiitler of the Poincarg thet
+the transformation oo «« of order 1, and f(2)J7(2)™ is a SIngle-valyyg
+function. Thus J'(2) £ it is known that f(z) has no singularitj,
+
+ticular, -
+itt § pits easily follows that the only poles of f( 2) J (2)n
+in the upper hall Pat
+
+an be easily ace
+
+f J’(z), and these c Y accountyg
+: d by the zeros ©
+
+are those induce
+
+_ Thus we can write a
+g | ta) =F ("I (A) ToT (2) —1)™P (I (2),
+(4
+
+where P(w)
+
+ntire function of w. Suitable values of m, and mn, ol
+is an e -
+ven in the following table [6 +599] :
+
+$i my, = m/2 My =m /§
+m= 0 (mod 6) Ws (m—1)/2 (m —1)/6
+: (2m —1)/3 m/?2 (m —2)/6
+; om/3 (m—1)/2  (m—3)
+: Sys m2 (m—4)/6
+5 (2m —1)/3 (m—1)/2 (m —35)/6
+
+The Poincaré theta functions, having the period 1, can always be
+expanded into a Laurent series in exp 2mz valid for Jz positive and larg.
+In some cases the series is finite in one direction so that
+
+f(2) = (exp— 2mirz) (Ko + ky exp 2miz + + - +),
+
+where k'o 5 0 and 7 is an integer. (This occurs, for instance, when f(z) is
+bounded as ¥z— 0.) Then we say f(z) is of degree r. Thus if f(z) has
+no poles the function P(w) introduced in equation (4) is a polynomid of
+degree 7 + m,, where m, is given in the above table. For other function
+theoretical aspects of theta functions, too numerous to recall here, we refer
+to Poincaré’s papers. We are principally interested in the tables jus
+presented.
+
+4. Preliminary results on theta series. We are now ready to consid
+
+» . . . - I I
+some examples of theta functions expressed as infinite series. We consid
+the series,
+
+Te ——
+
+* The integer m, wil] be explained- presently,
+
+SOME DIOPHANTINE ASPECTS op MODULAR FUNCTION
+S.
+
+407
+
+(2) Fami( 2) mmc 03 iio 2 d)-2m
+
+(e,d)#(0,0)
+and
+Phas $0000 TR (Ph mle poe CME
+
+where m = 2 and the first and second Sums are over g]) integer sets that
+satisfy the conditions stated under the Summation, Ip either cage ijt 4
+apparent that we are dealing with g theta function jf We can assume absolute
+convergence, since a rearrangement of terms shows that (1) is satisfieq by
+Fan (2) and Om (2).
+
+In a region ®, bounded away from the p
+finite projection on the real axis, Fon (2) conver
+by well known estimates.
+
+If, in the series for ®,,(z) as given in equation (5), we sum first over
+
+all 6, 0 satistymg a= (mod.c) and b= pg(zols), i pH being
+fixed, then we obtain
+
+eal axis and having only a
+ges absolutely ang uniformly,
+
+(5a) Om (2) — S25 (cz 5 d)-2m m cot 7 (w + (az ~ b)/(cz oe d)),
+
+ad-be=1
+
+where the asterisk means that a and » run independently over complete sets
+of residues modulo ¢. We now assume once and for al] that 30 = 0; thus
+we avoid poles. The series (5) with appropriate grouping of terms, or series
+(52), converges absolutely and uniformly in the region ® mentioned above,
+
+If we differentiate the series (5) term by term we obtain a series in
+which the convergence is now absolute and uniform, without grouping of
+terms, in the region ®. Thus we define
+
+(6) Gem (2,0) = — (d/dw)*m-1@,,,(z) /(2m — 1)!
+= 2 (czo+ az + do + hi)eds:
+ad-be=1
+
+Since Gonz, z) 1s precisely (f..(z), we see how to obtain the latter theta
+series from @,,,(z).
+
+3. Non-vanishing of theta functions. We are now faced with the by
+10 means trivial problem of deciding if our theta series vanish identically.
+Without such a decision, the problem of asymptotic behavior may be
+meaningless, |
+
+The case of Fp (2) is easily disposed of. If z approaches infinity along
+the imaginary axis, by the uniformity of convergence of its series, Fp (2)
+must approach the part of its sum consisting of constant terms,. which makes
+
+
+enn N.
+
+408
+
    
+
+reich Pal) is not identically zero for any intege,
+enc am
+. = n).
+for a limit of R¢(2
+y m = 2. s written in the form (5a). By the uniformity
+') . . ~
+i Next consider Om (2) & let 7 become infinite along a line parallel to
+ay ’ . -
+hy A we can :
+flit Heiikate of convergence Cr £nd that @um(z) approaches — ®mi, (since only th,
+| 154 LA) rs of Lai } Hg, . s 1 n . : J
+d {i bl MIS MA ne Avil Nu : the imaginary axis e 0 Se 0 d 2 + il then remain 1n (5a) yi But
+! He (OH ’ INN AR : Ltd : — ’ >
+i bss terms with a==%1, 0 or P is a constant when @,n(2) is express
+Hvav aA Th Fivs vito RRMA k : =
+NTA HR now, in expansion (4), fu lar function for m = 2,3,4,5 or 7. The sap,
+NTR ste there e ATA Sete AI R ‘nti mo u . .
+nan in terms of the elliptic : comparing the values at infinity, we fig
+Se SA TAT : ence
+{TATTLE EA pnt wh wl (2m) ) : .
+| Bie @am (2) == inlna tive with respect to o must be identically zero.
+; ASAIN its der1v
+i SAT depend on w, and J d @on(z), for these small values of m,
+i Ss A in particular so are Gam(2 ©) 80d UzmiZ);
+; NOARRARAAMIAI PEE bo dependence on © of @um(2) for all other values of m,
+[ AAT hee: ei) ’ \ % Wy t © pe en e 3 &
+Te To see P : ion into powers of exp 27iz and exp ni,
+atatards A En Sn vielen ly . yg of this function mn Pp y
+Tener ATT consider the expansion : 615]
+£590 +1: 0h Aha atin wee . ; J]:
+AAACN which leads to the following formula [6;
+Je Lhe Tvs ony al ey ‘ =1 y y
+T0208 mI, 1 4¢(2m)) = X Ani exp 2m (nz 4 ko
+nT — @un (2) (4rd) — Fon (2 ) (4 (2m) n,k=1 )
+EAT Tita tira el ol ey y-
+Aaa aa +7 AA 0 ” 3
+m-}p-1 4 (n c
+, (7) A nye = Oni: + (—) mm 2 (n/k) ¢ J 2m ( ( ) / )
+c=
+. ’
++ exp 2ri(ka + na’) /c.
+
+aa’=1(c) :
+
+Here 8, is the Kronecker symbol, and J,m-,(2) 1s the Bessel function of
+indicated order. As noted by Poipcaré, when m =2,3,4,5 or 7, each Ay
+is zero, which leads to some rather remarkable identities. We are more
+directly concerned with showing that 4,,540 if m — 6 or m = 8, whence
+none of the derivatives of ®,,(2) with respect to » are identically zero. To
+see this, we need only estimate the Bessel functions occurring in (7) to show
+that, when n =k =1, the second term in the expression for A, is much
+less than 8, (=1). It is sufficient, for our purposes, to know that the
+exponential sum in (7) is less than ¢. The tedious details of the estimations
+
+ 
+  
+
+vee nanvees can be omitted, since they simply consist of taking enough terms of the power
+
+A ngage sate Series for J 2n-1(2) about the origin, so that the remaining terms in the
+
+i fri : nn ® Renton will constitute an alternating series. We find that two terms suffice
+| i ; Fi RAE mm this case. We easily make the estimate Ap = 14 (—)™2nd sms (41)
+a Tr of Is tan OL Furthermore, Jy, (4) — 291 +, Ju)
+
+2 (rather close to (27)7), and J, (4r) < .05 when m=8.
+This finally establishes the dependence on « of ®,,u for m — 6 and m =8.
+
+The non-vanishing
+: ¢ ushing of these A; even shows that in Gon (2, ©) the leading
+€IM exp 27i{2 + w) has a non-zero coefficient.
+
+  
+
+» fr ’
+
+‘
+
+tial vt, 0, 0, 0,9, 0,7,
+
+‘A aN
+
+FEE, ’ '
+
+‘ f v /
+
+I A al, 0h Folele?
+C0 iat st t,o ts V5)
+$9000 0 0 058% 0}
+
+WY fy fal,
+
+’
+' f.9 PTET) .
+Ain
+f
+MN df
+
+SOME DIOPHANTINE ASPECTS op MODULAR FUNCTIONS
+
+409
+Collecting the results of the ahoye calc
+
+ulatio :
+of order m and degree 0 for m => 2, while Smeind that F 2m (2) 1s
+
+Gam (2) is of order 9
+ie m and of
+degree — 2 for m=6, or m =8. The €Xpansions in (4) become a
+
+(8a) Fam (2) re J (2)"T (2) (J (2) — 1)=m(J (z)m + ke,
+
+J (Z)mat
++ OE ~~ nil) . RE(”m) (— Rai) =m
+
+and, by symmetry,
+
+(8b) Gom(2, 0) = J (2) (2) (J (2) DE ple (J(2))
+
+HJ (0) (0) Mo (J (0) — 1)™P yyy (J (w))
+
+where Pu,-1 is & polynomial of indicated degree. Setting v — 2, we find for
+m=6 and m = 8
+B)  Gam(e) = [7 (2)" (2) (J (2) — 1) mB, (J (0).
+
+The expression for (1;(z) in the equation (8c) is of some interest since
+it is proportional to the square of J’(2)8J (2)™(J (2) —1)-3, which in turn
+is proportional to the twenty-fourth power of 7(2), the Dedekind n-function.
+To see the last statement, we combine the result [2], J(2) = Fy(2)%n(2) 2/1728
+with the expansion for F;(z) in equation (8a).
+
+We see from the table in the last section that only Poincaré theta
+functions of order 0, == 6, += 12,- - +, can be devoid of zeros and poles.
+It is also clear that G;,(2)%* is such a function when k is an integer. Thus
+the theta function f(z) has mo zeros or poles if and only if F(z) = Gy,(2)%
+exp g(J(2z)), where g(w) 1s an entire function of w. Hence among functions
+of finite degree, the only theta functions devoid of zeros and poles are Gy, (2)
+times a constant.
+
+-
+nl
+-—.
+te
+-
+
+44.
+
+L
+a
+-
+-—
+A.
+
+6. Asymptotic behavior and term by term estimation. The function
+Fon(z) = 3 (cz + d)*™, m = 2, has the advantage of permitting a term by
+term analysis of its behavior at rational points. Specifically, let z approach
+p/q in a Stolz neighborhood, or let z— p/q = ps + ip. where p, and p, are
+real, p, > 0, | po/p1 | = A, (a parameter of slope of the Stolz neighborhood), \
+and p,% + p.2— 0. We break up F,.(z) into two parts, one part F* con-
+taining just those terms which become infinite at z = p/q, and another part
+F®) consisting of the remaining terms.
+
+Then FM is the summation restricted to those terms where ¢/d =— ¢/p,
+or FN) = (2 — p/q)*mRq™*"¢ (2m). ;
+
+Tt remains to estimate the terms where ¢/d == — q/p. Setting z2=p/q
+
++ p1 + tps, we find
+
+11
+
+res
+
+ors
+Les
+a
+
+Led
+Ld
+ras
+
+~
+AA
+
+rr
+
+(reer
+
+N
+
+Cl
+
+;
+
+Co
+Ce
+> a
+
+Sees re Fut
+2 - Loot
+cose
+
+er
+LIL? —
+
+Lo La
+
+x
+
+ps
+dL rs
+AEE oS
+
+"
+Cree.
+if filer
+La TALS T = hs
+yy Li
+
+’
+Ll 23
+Teron
+rs
+
++s
+:
+
+{ds
+
+LL
+
+(1
+Pe
+
+sq Ea
+ERE,
+Cee
+
+»
+7
+ed
+Le ross
+id 40
+
+TT a
+
+
+a
+- i.
+- —
+a...
+
+-
+-
+
+- -
+as
+
+&
+»
+
+gh A
+Era
+a
+
+~~
+~~
+
+--
+
+-
+-~
+
+=,
+~
+
+<n.
+
+Sw
+~~
+h Sas
+
+nn
+A
+ano
+
+a
+~
+
+BN
+Pease
+
+ 
+
+  
+
+FE
+
+ 
   
  
 
-1. Introduction. According to a theorem, of J. Liouville,2 if 9 is
-an algebraic number of degree n, then any approximation by ra—
-tionals, p/q, is of such‘a nature that
+-
 
-(1) 19 — 9/4! e 129‘”
+Sammon»
+- am
 
-for a positive constant k. Liouville constructed his transcendental
-numbers as the limit of special sequences of rationals, p/g, which
-violated condition (1) regardless of the values of k and n, as q—Nn.
-Thus Liouville constructed almost-rational numbers.
+Pe + ¢-
 
-E. Maillet3 likewise found a lower bound for 9—11 where now 9 is
-approximated by the quadratic numbers, a. He then violated his
-lower bound by substituting for 0 the value of an almost periodic
-simple continued fraction and for a a quadratic number, namely a
-periodic simple continued fraction that 9 almost represented. Thus
-he constructed an almost-quadratic transcendental.
+. TEA Ss raw
+-
 
-It is an elementary matter to ﬁnd a lower bound for 0—01, where
-we now approximate 6 by an algebraic number not necessarily ra-
-tional or quadratic. We could then try several departures. We could,
-for example, try to construct almost-cubic or almost-biquadratic
-transcendentals.‘ On the other hand, we could use a diagonal method,
-that is, we could consider the limit of a rapidly converging sequence
-of algebraic numbers whose degree becomes indeﬁnite. For example,
-a root of a power series with rational coefﬁcients is the limit of a se-
-quence of (algebraic) roots of the partial sums, and the speed of con-
-vergence is regulated by the remainder. If the remainder is too small
-we ﬁnd that the root of our power series can be approximated too
-closely by algebraic numbers of varying degrees, namely the roots of
+-
+
+-
+
+-
+
+ee
+-
+»
+-
 
  
-         
+
+>.
+
+i‘
+f
+i!
+{
+Y
+!
+at
+{
+
+ 
+    
   
+    
    
+
+o_o P- - .
+
+tr eA rs
+AA EAE A
+Fr tw Ev os
+
+-
+"~
+-
+-
+.
+=
+-
+-
+-
+-
+«
+-
+-
+-
+. ~"
+-~
+-
+—
++
+-
+*
+-
+>e
+-
+-
+ —
+~
+h -
+=
+-
+-
+
+ay
+
       
+ 
 
-Received by the editors June 13, 1946.
+if erry
++52 \
+lr # f ev eh “
+Ne fa sieve re
+?) ANDY
+A fl " » ’ by ¢
+by
+Pp
 
-1Written at the Navy Port Director Unit, Yokosuka, Japan, March 1946. The
-author wishes to acknowledge the advice of Professors C. L. Siege! and B. P. Gill.
-
-7 J. Liouville, Sui ties classes ”a: mndue: dc: guanmé: dent la velour n‘ul ni algi-
-brigue m' mems réduch'ble a des irrationalles algébriques, J. Math. Pure: Appl. Vol. 15
-(1851).
-
-' E. MailletI Théon'e dc: nombres transcendent: a! dc: propriém arithmtlique: dz:
-functions, Paris, Gauthier»Villars, 1906, chap. 7.
-
-‘ For instance, E. Maillet, op. cit., pp. 22, 100, considers certain “rapidly converg-
-ing” power series with rational coeﬁﬁcients and algebraic values of the argument. The
-value of such a series is shown to be almost algebraic when regarded as the limit of the
-algebraic partial sums (which lie in the ﬁeld generated by the argument and therefore
-are of no higher degree than the argument).
-
-1042
-
-
-ALMOST-ALGEBRAIC NUMBERS 1043
-
-the partial sums. Thus the root of our power series must be transcen-
-dental By this method we can obtain some transcendental numbers
-
-which seem to have previously escaped notice.
-
-2 Approximation of a ﬁxed algebraic number by an arbitrary alge-
-braic number. We let 0 be aﬁxed algebraic number of degree n Whose
-denominator is tn, that is, 9 satisﬁes the equation With integral co-
-
-effielents “on + h n_, + . . ‘ + In = 0-
-
-We consider a the root of an arbitrary polynomial with integral coefﬁ-
-
-crents M95) ___ fax” +f1xm—l + . . . +13...
-Denoting maxlfgl by A [(1306)], we shall measure the closeness of a
-
-to 0 by the smallness of M0) in terms of A [4:(x) ].
-
-Now setting 60:) =foxm+fitox’"—1+ - , . +fot3', we ﬁnd «12(0) can be
-written as ﬁlm/[3", where toll is an algebraic integer. Thus if we multi.
-ply¢(9) by its conjugates, we obtain
-
-(2) HM) = {Hanoi/:52 Mitten/tn”.
-
-where M[¢(0)] is an integer. If ¢(0)7S0, then the same inequality
-holds for the conjugates of 0 and thus
-
-(3) When]! a 1.
-For any conjugate of 0, we ﬁnd easily
-(4) I ¢(9’) I s A Main”.
-
-where T, is a constant determined by 6.
-Hence if ¢(0);£0, we obtain from (2), (3), and (4)
-
-n—l yum—1)»...
-lawn a 1/{<A[¢(x)]> T1 tn
-In short, ifﬂ is algebraic of degree n, then for an arbitrary polyno-
-
-mial ¢(x) of degree in with integral coeﬁcients no greater than A [¢(x)]
-in ubxalule value,
-
-(5) | 42(9) | i
-
-=Oor
-
-"—1 m
-a 1/{(A [os(x)]) T2 l.
-where 7'; depends only on 9. We should note in passing that if ¢(x)
-= —P+qx, then (5) is Liouville's theorem.
-
-. 3. Construction of transcendentals. We shall construct a power se-
-“95 fixl=<lnx‘"+u.x“+azx"+ . - . (age), where a; are rational
-fractions h/Sr (710). and e; are increasing integral exponents. For sim-
-
-*7”,
-
-1044 HARVEY COHN
-
-[December
-
-pIicity set do =1l Let tn.(ac) be the hth partial sum (up to and including
-the exponent eh). Then of the coefﬁcients a.- in ”(x) let g. be the
-maximum [CHI (gal) and let (1,. be the least common multiple of
-the denominators S; in mix). Then if as h—> co, eh.“ is of a higher order
-of inﬁnity" than eh, log gi. and log a'h, we ﬁnd that 0(x) is transcen-
-dental for all algebraic x within its circle of convergence, except x=0.
-To see this, let or take the algebraic value 6 of degree n within a
-circle of convergence of radius p. We suppose E(a) to be an arbitrary
-polynomial of degree I: with integral coefﬁcients of which the greatest
-has the absolute value A [143(0)]. Then we wish to show E(a'(0)) #0.
-First we write E(U(x)) as partial sum and remainder
-
-130100)) = E0300) + Ri(x).
-
-Now ¢§(x) =dhE(0'i(x)) is a polynomial of degree kc}. with integral
-coefﬁcients. It's maximum coefﬁcient A [¢i(x)] easily satisﬁes the con-
-dition
-
-A [we] s at ZAl («>102 + 1)};
-
-(-0
-
-”A
-
-dee + 1M [E(a>J<h + 1)}:
-
-since any coefﬁcient in the polynomial ¢h(x) is less than the value this
-polynomial assumes when we replace each a.- by g and set x=1.
-
-Furthermore, since E(o') has only a limited number of roots,
-E(cr;.(9)) can not vanish for all h. For, when h changes to h+1, (7;.(0)
-changes by aMitJ‘H‘, which approaches zero ash approaches inﬁnity,
-although this term never vanishes, 0:0 having been excluded. Thus
-by (5), for an inﬁnity of values of h,
-
-k k k —n ~l —k¢
-Inmate»! a {dive + 1M [Elam + 1) a} ‘ T2 ‘
-But since 71 can not exceed 2” (or even eh), we can simplify the last
-inequnlity and obtain
-__n* — u» U: —r.
-(6) lammm ; [1,. If 1 T: l .
-where T; depends only on 9 and on Ehr) as a polynomial in a'.
-On the other hand Rh(0)=E(«r(9))—E(a’h(9)) and, by elementary
-Considerations,
-
-(7) We)! < m in) — “(an s T5: wow/<1 — 9/»)1
-
-where T5 is determined by 0(x) and E(a), independently of h.
+»-
 
  
 
-‘5 If we have two quantities 1t and 11 each depending on h we say u is of a higher
-order of inﬁnity than 1/ if u/v—vw with he
+-
+RP.
+
+.
+~
+
+  
+
+vo, 0 07
+
+   
+
+CALLA
+, a)
+y wr a
+
+r
+wy Yr
+A hier
+
+Fo — 3 (op/q+ d+ ops + icp)"
+
+cp-dg7#0
+
+It is majoriz
+
+on ea
+
+HARVEY COHN.
+
+ed by its series of absolute values,
+
+gn 3 [(cp + dg + pq) * + (cgpe)*]™
+Now the terms may be grouped as follows: Since (p,q) =1, cp + dg takes
+ch non-zero integer n for a family of values (c,d) of the for
+
+¢ = Cy + pg, d = dn — pp, Where (Cn, d») is a special solution to cp + dg =
+determined by the condition 0 = ca < ¢, and p takes on all integral values
+
+We may now take our majorant as follows:
+
+(92). | F®| =g™ > 3 {([n + prg® (pn + ¢n/q)]?
+
+n=-% p==%o
+
++ [p20 (ne + cn/q) 1%},
+
+where n50.
+
+We consider the summation on n for u fixed. The quantity 4, =n
++ p1¢*(n + ¢n/q) has the difference Anaz— An =F + p1q (Cn — cn), which
+differs from k by less than 4, if p,¢* < 3, as we shall now suppose.
+
+the sum
+
+Si=gm 3 3 [In] — + (eg)?
+
+n=-9 p=—o
+
+majorizes the sum in (9a) except for those terms of (9a) where, for
+given pu, n takes on such a value as to make | 4,| < 3. But clearly, if
+
+$0, | pug* (rt en/Q)| > [n|—3 and pog®(n + ea/q) > | po/po|[(| n | —1).
+
+Adding this contribution to S; we get
+
+(9b)  |F®
+
+ 
+
+Now the first part of the right hand side of (9b), or §,, can be majorized
+by an infinite integral if we observe that the summation on p is of the
+
+type 2 ¢(n), where ¢ (x) decreases monotonically as | © | increases. Thus
+
+adding a term to take care of ¢(0), we obtain the estimate
+
+8: = => n|—3)2 + (pgp) *] dp + 2q2m > (| n|—3%)2";
+
+and. changing the vari
+
+<g" 3 3 [n= + (pghu)]
++ = (| n — 3)-2m (p2/p1) 2".
+
+able of integration, we obtain
+
+| F®| << esq? 3 {(| n — 3)2}-mg,
+
+TER (p/p) =) - 2 (In| —3)-2m.
+
+ 
+
+   
+ 
+
+Since we are in g Stolz ne;
+ratio | p2/p1 = A, hence Fe 0(p )-1 & —Pp/q (= pr +i )
+
+2 P2 -() the
+
+» Whence finally
+
+(9) Fom(2) — 7" (2m) (2
+Ee UT + O(z
+| —p/q),
+
+(The error term will shortly be jp
+
+As in the case of the ; Ser Proved t, 0(1).)
+@, (2), the singularities of individyg] term
+of the series. In general, we gpg) haye ;
+modular functions to describe behavior. La 0e
+Ingularitieg,
+
+7. Use of modular functj,
+
+x nS: rational «:
+
+a theta function F(z) with op wig, tional Singularities, -
+
+out
+Then as z — p/q, a rational numpe, i Poles ang of order
+
+Here the constant C, is K oq-2m exp —
+¥o=1im f (2) exp 2nirz ag 32 — oo.
+The proof of this result ig quite simple
+
+rir 7", where pp =1 (mod ¢), ang
+
+We write
+Zim (pz — gq") J(— 9z + p) Where: pp’ — gor 1
+Then J2'—> 0 as z— p/ ¢ In a Stoly neighborhood
+
+Now since f(z)
+
+mw) Z— P/q)7f (2)
++ The th
+or f(z’) combined with a
+
+SIEM —q + p)*=, then fe) =»
+follows from the asymptotic expression f
+i Gl ly
+
+We observe that the error is
+
+=
+approaches zero faster than any oe a oe /9)7] ); uh
+Fon(2), which 1s of order m and degree 0, can he tr 5 ou
+term 2 In one (9) but with error term o(1). ete
+¢ might add in conclusion t in ex
+
+characterizes the theta function, a oth gi ti or
+relation f (2) = (z2—p/q), for s real, as z — p/q in a Stolz nw
+then f(2) is of degree 0 and s — — Rm, where m is the order of f(z) This
+would follow immediately if we knew that f(z) was of finite legos since
+then only the degree zero would permit of a behavior which is a Se of
+%2 ¢ = that f(z) is of finite degree, note that a wide enough
+: aes ; is about p/q becomes, in the Z-plane, a region wide enough
+rh € Infinite portion of any vertical strip of width 1. Thus, how-
+
+v¢ May approach oo, f(z’) is smaller than some power of (z2—p/q),
+
+411
+
+3
+
+TELL EAT Ee s
+
++
+1117 -
+
+3
+See
+,
+
+AAAS
+
+131
+
+LE
+
+&
+
+1
+
+J
+\
+a
+1)
+i
+~
+WA
+
+LTT
+Lot
+751!
+
+re
+
+Les
+
+2
+
+”
+Lg ist
+Lhe
 
 
-ALMOST»ALGEBRAIC NUMBERS 1045
+if
+1
 
-1946]
+re
 
-By our condition on the order of magnitude of 21.“, it follows from
-(6) and (7) that for some h, IE(o'(6))[ g [E(a-;.(9))I — IRA(9)| >0; and
-a'(0) can not satisfy the algebraic equation E07) =0. QED.
+ 
 
-A simple method of satisfying the conditions on a’(x) is to take
-zr.(x)=1+x“+x“+ - - - +x’”+ - - , , Ix. <1. Then v.(x) and x are
-not both algebraic unless x=0, and indeed, the values of x (#0) for
-which an(x) is algebraic are some instances of the type of transcen<
-dentals under discussion. '
+HARVEY COHN.
 
-New You Cm
+412 5 ;
+turn, is smaller than exp —=2mz. This proves that f(z) yg
+which, n ;
+
+be of finite degree:
+
+. of the neighborhood of an irrational Number, my
+8. Be which served as a deus ex machina in the Previous Sectig
+riable,
+
+change of va can be applied to the irrational singularities with
+
+on rational singularities,
+
+slight modifications.”
+
+. int 18 the . . .
+Our a cual a few elementary properties of irrational yyy,
+es |
+
+in Perron [4]. The expansion of § int, 4 simple
+. found, e. gs 11
+which can be
+
+fraction is written as 6= (ao, a1," - *, ay," 1) We dengt,
+continued - by pn/gs, the convergents. A connection between th,
+ty ly NASR
+
+f the convergents and the degree of accuracy of the approxi.
+
+simple continued fraction for gp irTationg)
+
+number 6.
+
+(ao, ty ;
+
+1 0
+denominators one |
+mation of by pa/qn 18 g1Ven by
+
+) tna < (—)"gn* (0 — pn/ qn) < (Gna + 1),
+(10a n+1
+
+d the growth of the denominators of the convergents is estimated by
+and the
+
+(10b) Unit < @nsr/ qn < @nax + 1.
+
+We are now ready for our major definition: We say that the complex
+oe : belong to the convergent pn/qn of the irrational number § when
+na
+
+rar < AZ= Qn
+
+THEOREM. If we let the Stolz neighborhood at 6 be of slope =), i.e,
+if we let it lie within the angular region Jz = A | Re ( +=) , then under
+the transformation 2 = (p'z2— q') /(— qnz + pn), (Pup) — 0g =): i ju
+that a number z belonging to pn/qn with respect to 6 goes into a number :
+
+whose imaginary part can be estimated by
+(11) (ana +1) (RFA) /A > J > 2a,., (Ani 1)72 exp — 2/A
+
+Proof. Let us first observe that the set of points belonging to pd
+and lying in the Stolz neighborhood has a mon-euclidean diameter of 2
+than 2/X + 210g qu.1/qn. To see this, connect any two points of the reg
+by a path consisting of two segments, one horizontal (of wie
+length < { da/y =2/A) and one vertical (of non-euclidean length = f ay’y
+= 210g qn.1/qn). »
+
+Next perform the transformation 2’ — (p'z—q") /(— quz + Pn).
+—— =
+
+IAT se of Hardy
+* The methods presented in Sections 8 and 9 are a generalization of those o
+and Littlewood [3].
+
+SOME DIOPHANTINE ASPEQT
+
+8 OF ;
+OF Mopyr,p FUNCTIONS
+
+least one pont belonging to Pn/qy must i
+
+For, as previously noted, 6 — pu/g, aoe Le in
+
+drawn tangent to the reg] axis x Pix
+
+contain in its interior some po
+
+whose Imaginary part lies between Gn
+
+Ford circle (which we sha denote,
+
+goes into the portion of the Z"-plane with S
+We can now prove the sec
+
+ond inequality
+point 2’; above the line 4 :
+
+; 3a,., exclud
+. ov sf y
+the line 32" = A, if we choose Small eng
+
+of the non-euclidean diameter of the
+hence the boundedness of tj, 7
+
+dons
+
+dy/y =2/\ + 2 log @ne1/Qn. This exc
+h
+
+in (11),
+
+The Presence of ,
+eS the prege
+
+fice of a pojnt below
+ue of the boundedn egg
+S belonging +,
+& 10 p,/g, and
+We neeq only take such that
+
+in question. Thus we may take h gg 1
+
+. . 2 (g 7 nsy ) 2 EXD —=¢ he
+the inequality in question When we pote i 2 Es ini leads to
+"/ In+1 Any, 1),
+
+To obtain the first inequality ip (11) we fipgt construct i
+about pn/qn so small that it excludes all points of the Stol ls
+The circle of radius A(R 4 a) | 6— pa/g, il fe Z neighborhooq.
+For this circle is determineg by the condition that jte 5
+exactly touches one of the lines 4
+the smaller circle
+
+eeds the 10n-euclidegn diametep
+
+treumscribed square
+=\|z—¢ |. This circle clearly containg
+
+Conran ((@nsy i=l) (RS A) /X), of radius A(R A) (er 1)~1g,~2,
+
+But since no points of the Stolz neighborhood Jje inside this circ
+
+that in the 2’-plane no ; oes 1 : le, it follows
+ne z'- > NO Images lie on or above the line
+
+32" = (2 4A) (ty, + 1) (2), Q.E. D. tn
+
+\ » + 1a x tq r Ry . “yo. Ie irre
+We conclude this section by observing that under the previous conditions, aa,
+2 belonging to Pn/qn and lying in a Stoly neighborhood of § of slope no less
+
+than A, the quantities z — 0, — gunz + Pn, ete. are interrelated. First of al]
+(12a) (@nir + 1)-2¢,2 < |2—0] < (1+ 2)g,=.
+
+This follows from the relations S32 Gn 32 = gn? and | Re (2—46),
+= Likewin
+
+0) A(T 4 0) Yay D2 < | 2—pu/gn | < (2 +N) gu
+
+For the distance from Pn/ qn to the nearest of the two lines y==xA(z—4)
+SA | 0— p./q, INE A?)7%, which exceeds A(1 +A)7'¢n* (ann — 1)". On
+
+ 
+
+. at
+Sara
+
+=
+
+2
+
+pa,
+: nei ee on
+Sone
+4 Li eh ~
+An
+\
+i
+ei
+A
+ky
+;
+\
+
+
+1
+
+£5
+
+Seas
+<5
+
+tts
+Cre.
+
+Cx tr
+(rez
+55
+
+orl
+Lx:
+
+eS
+
+ot
+es
+TELL
+esa
+
+i
+ron
+
+hg 4
+
+ral ods
+
+ 
+
++a
+
+£2
+
+4 x
+
+ 
+
+YT
+
+HARVEY COHN.
+414 |
+the distance 2 — pn/qn | is less than the sum lr
+This justifies the relation (12b). Dividing (12)
+final estimate
+
+ 
+
+the other hand,
+4 6— p/n]
+(12h), we obtain the
+
+(12) A2(1 + A) 2 (nn + 1) |
+<< | — 24x + Pn | 2/| z—0 | =< (? Sis A)2 (ny + 13)
+
+y
+
+functions near irrational singularities. We Jt 4
+
+Behavior of theta : mers
+g whose continued fraction has bounded parti
+
+be an irrational number
+uotients. Such numbers 6 are known to form a non-enumerable get of
+q ;
+
+ure zero containing all real quadratic irrationals among others, We
+measur ’ : : : 5
+vere interested In the function Gam(2z) since some of the singularities of
+wer :
+
+dividual terms of its series occur at real quadratic numbers, but we can
+individual terms 5 §
+
+ust as well carry out the analysis for the larger class of numbers referred
+
+to above. ose h
+» Egil pe >» . = n - 8 y
+We consider a theta function of finite or infinite degree, without poles,
+
+and of order m. Under the change of variable z= (p'z2—q") /(— quz + pn),
+where p'pn— ¢'qgn=1, We obtain: f(z) =f(2") (— qnz + Pn)" If 2
+approaches 6 In a Stolz neighborhood of slope less than A and if 4 has
+bounded partial quotients, then (— quz + pn)? (2— 0) where z belongs
+to pa/qs. This follows from inequality (12). From inequality (11) we see
+that 7 lies within certain bounds making f(z") = 0(1), if z belongs to pu/qu.
+Thus f(z) = 0(z— 6) for theta functions of order m and without poles.
+
+If we know that f(z) has no zeros as well as no poles, we could write
+f(z) x 1, in the above paragraph, whence f(z) x (z—0)™. Applying these
+results to (,m (2), (theta functions without poles and of order 2m), we find:
+
+(13) Gom(2) = O(z— 6)", m = 2,
+and
+(13a) G12(2) XX (2— 0),
+
+where 6 is an irrational number with bounded partial quotients, and z— 10
+in a Stolz neighborhood.
+
+10. Characterization of a real number by the corresponding sing
+larity. We shall see in the concluding paragraphs to what extent a
+behaviors at real singularities determine the singularity and the function.
+First we shall see that the behavior near irrationals with bounded partial
+quotients is seldom better than a large O estimation.: In fact the estimation
+
+(13) can not he improved to the type (13a) unless m = 6.
+
+ 
+
+  
+  
+  
+ 
+
+TAT
+TL.
+
+SOME DIOPHANTI
+
+2
+=
+=
+wm
+ac)
+=
+QQ
+=
+w
+oO
+=
+=
+oO
+oo
+(=
+|
+Te
+
+  
+
+ 
+
+oe. -
+
+a gg
+of vw
+
+THEOREM. If 6 is an irrationg] nm
+
+9
+
+  
+
+ 
+
+       
+ 
+
+   
+
+ 
+
+ 
+
+4 to infinity with IRE I a SA
+not tend 1 : i wh n, then gq sufficiently wide Stoly pe Gutta sie eee]
+a1 7 njnite ; : ne . (uratasatatisasntels ads acto shorn poly
+will include 1 Y many pownts equvalent undp the '9hborhood at g a A
+, ular ar aa asda lade ee (143 ep TATA Th FH
+preassigned pownt of the uppe half plane modular group to q ni Rate she) yoy bails
+7 aaa anne vn er lel
+8 Wha hhianhh fatale natin hin ny
+From elementary considerati : Gana ale TIA Ss HT PO eA
+( erations this infinityde Fa dadnanaaantin nnn vil
+; FOTO L { g 0 01nts > = Stadia eel etel viele
+to converge to 0). Yor the proof of thiy ype. i fils Lave Sen Aan
+| -2 . . J * ih
+4, = 0 + ign” which belong to Pn/Gn. Then ’ Ider the points 0 in
+
+1 1 if (ys ; .
+hounded partial quotients, the images 17. 1 TUS over inf
+
+t= (p'2— 4) /(— @nz + pn), where pnp’ — g
+zontal strip @ by (11), with A taken as a) n
+point of this theorem, let p be the smallest
+circles about z*,2* £1,242...
+
+nitely many
+2 under the transformation
+q =1, will lie ip a hori-
+unity. If z* ig the
+radius for vw
+OI non-euclide
+
+whole strip €. Then if we draw about be P iE
+radius p, we should still be able to include thege cil i of Hig digean
+Stolz neighborhood. In fact, if we take instead ok a sufficiently wide
+
+Preassigned
+hich the union of
+
+dius p covers the
+
+-
+-
+
+—
+
+-» ~~
+-
+
+-
+
+   
+   
+
+     
+
+5 n a continuous] - He nein / SAS BIIN, y/ » ) J
+int z=0 + tn, 7 > 0, then as 5 approach TOI ee
+40 : ; 7 approaches zero continuously, the non- A rn he HE AB
+euclidean circles of radius p about this moving point A IT AI DATTA
+
+n BIEN ; L sweep out a sector at 9, eens EAT oh ’ ATI ov
+owing to the Imvariance of non-euclidean distance under homothetic trans i 7
+formation of the z-plane about 6. Q.ED
+
+4
+
+Thus we can not replace (13) by Gam(2) >= (2—0)"2 unless m — @
+since otherwise, as noted in 5, G5, (2) has zeros. In fact, if @ has hed
+
+partial quotients, we can have f(2) x (z— )-2 in any Stolz neighborhood
+
+of 6 if and only if f(z) is without zeros and poles, which, as noted in 5
+means that the following holds:
+
+>
+
+lr vay
+
+10 a¥s%s7aTe"
+
+(14) f(2) = Gra(2)¥exp g(J (2),
+
+where g(w) 1s an entire function of w and k is an integer. Hees
+
+tidlans
+
+We can supplement the last result by noting that a Poincaré theta
+function f(z) can behave >= (z— 6), s real, as z— 6 in any arbitrary Stolz
+neighborhood only if 6 is rational and f(z) is of degree zero or § is irrational
+- . o : , : Hart Ite
+with bounded partial quotients and f(z) is of the form given in equation Ss
+
+Ls
+LT
+
+(14) above. The proof of this last statement is somewhat tedious, involving
+the examination of a number of special cases. It will be omitted as it
+equires no new methods. What we do is let z approach § vertically and
+show that if @ does not fall into one of the above categories, then the values
+taken by the theta function must vary too widely to permit such an asymptotic
+behavior,
+
+HE
+x
+.
+Cr
+
+3
+Eee
+v
+
+LL.
+L
+
+»
+.
+
+: : , lintner [7], who
+These last results are in contrast with a result of Wintner [7]
+
+
+416 HARVEY COHN.
+showed (essentially) that at almost any point Gi.(z) has a limit along some
+path of approach and in fact these paths of approach can even be made t
+lie in a Stolz neighborhood of preassigned arbitrarily small width. Wintpe,
+demonstrated this property for the Dedekind n-function,® which has a wel]-
+known expansion into powers of exp 2miz, and whose behavior as a function
+can therefore be analyzed in the light of the behavior of the expansion
+coefficients. ]
+
+At any rate it is now apparent that the diophantine nature of a singu-
+larity of a theta function governs to a great extent the asymptotic behavior
+at the singularity, and even the function itself.
+
+HARVARD UNIVERSITY.
+
+ 
+
+BIBLIOGRAPHY.
+
+ 
+
+[1] L. Ford, “ A geometrical proof of a theorem of Hurwitz,” Proceedings of the Edin-
+burgh Mathematical Society, vol. 35 (1917), pp. 59-65.
+
+[2] R. Fueter, Vorlesungen iiber die singuldren Moduln und die komplewe Multipli-
+kation der elliptischen Funktionen, vol. 1, Leipzig-Berlin, 1924, p. 29.
+
+[3] G. H. Hardy and J. E. Littlewood, “ Some problems in diophantine approximation
+11,” Acta Mathematica, vol. 37 (1914), p. 230.
+
+[4] J. F. Koksma, “ Diophantische Approximationen,” Ergebnisse der Mathematik und
+ihrer Grenzgebiete, vol. 4, Berlin, 1936, Chapter IX, 2.
+
+[5] O. Perron, Die Lehre von den Kettenbriichen, Leipzig, 1913, Chapter II.
+
+[6] H. Poincaré, “ Fonctions modulaires et fonctions Fuchsiennes,” (FHuwvres, vol. II,
+Paris, 1916, pp. 592-618.
+
+[7] A. Wintner, “ A property of the elliptic modular net,” Duke Mathematical Journal,
+
+vol. 12 (1945), pp. 451-454.
+
+ 
+
+® The proportionality of Gy,(z) and 7(2)*® was noted in 5 above.
+
+ 
+
+Fea
+
+AT
+tad 1ia%s
+Talatfer
+4 !
+
+i Sn
+
+Tre
+
+Tr
+tre
+Ea
+ax,
+
+—
+2
+-
+-
+po
+LN hs ~T
+
+1
+
+~
+Fay
+
+SX
+TERS
+
+TeSETTea
+SEs :
+EY LY yt
+
+Sepsis
+° _
+LT Cat
+
+TERE
+SR
+
+"vy
+See
+= Pe
+aE
+
+"x
+rr
+
+Ly
+Tes
+LY oa
+
+Bo
+Pag
+
+- Cs Lt
+Cr Ter
+1
+
+MWA
+ay rnnth rn 3)
+MAA OGONNNS 7
+Aaa hhfatalate fat Aaa AAA 72 7m
+"Talat nie DRT hey SAI
+W An ANNAN tn ith ry rieeh
+O00 NM MOON Ne
+
+Wa
+
+WE a a ha a ly! h ;
+
+} AA AAR ARTI aaah aan
+
+tania a a rrr vi nto) vl ol oll ool)
+a la aa A WL Inn ta ta ra py wi ty we ell
+
+Ce OINA00000000 GAGA AANA
+
+irs MAAN MW NN r Se
+
+OAD GOON y
+OO OOO WM MM MM NNN
+| fatal IOI Aaa i
+4's! irr nine WAGON MOO ii
+eral, DOONAN NING
+Fale Ca¥ 0a fa ln Fa Za Tu Tn Ya Ti Ua 1 10 0 PAR 20% Moe
+on IATA AS viet Hal Ail aR,
+) ' Tele ls 2 alata aa taal) 0
+Aes I MAMAN WANN
+Te aa a Ta a Ta tr a RA .
+Md 00 F222 Nal Shs po
+ol 117 hh nt SOOM We
+01a 010 TA Ta Da Ri WN he
+a a Da A TAs A A
+SOM SOMO M3 ibe ly
+LY) y 2 a PA NAN ‘
+(M1 Fi Na Dr Tr
+
+a
+Ss
+-
+
+-
+
+a 2
+SES
+=e
+,-
+
+-
+
+a
+85
+
+S55
+
+-
+
+Sa
+a
+SEE
+
+\ 27s ’
+MAROON
+{ ATAAATASA TATA 10 AT ol wie]
+3 ate 1a a Ca Tata ta ata ta 4 1a Ph PA LS Dh uel
+ela Va Vatatatalalalatalal 2 0 AI
+Ce Ca a lala Vala la als alata ate tt
+
+--
+»
+oo.
+tas)
+
+Su
+-
+os
+
+-——
+
+Ea
+
+»
+
+(Yr aT;
+WOOO 00M
+
+JA a a aa fa a a 1
+ANA, i Ys Y WIND
+4 Ia fa la isa sata a Ta!
+bg VA 4 b
+'y Uae lets
+
+SR
+
+Lo wo
+a
+
+=r
+LS 5
+
+a»
+Per
 
 

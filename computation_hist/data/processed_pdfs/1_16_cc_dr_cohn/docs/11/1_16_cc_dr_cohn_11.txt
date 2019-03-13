@@ -1,112 +1,110 @@
 Reprinted from the
-PROCEEDINGS on THE AMERICAN MATHEMATICAL Socrmv
-Vol. 5, No. 3, pp. 476—477
+PROCEEDINGS OF THE AMERICAN MATHEMATICAL SOCIETY
+Vol. 5, No. 3, pp. 476-477
 June, 1954
 
 THE DENSITY OF ABELIAN CUBIC FIELDS
-HARVEY com:l
+HARVEY COHN!
 
-In the following note we show that the abelian cubic ﬁelds are rare
-in relation to all cubic ﬁelds over the rationals. This is no surprise
-since an irreducible cubic equation generates an abelian ﬁeld if and
-only if the coefﬁcients of the equation are subject to a certain restric—
+In the following note we show that the abelian cubic fields are rare
+in relation to all cubic fields over the rationals. This is no surprise
+since an irreducible cubic equation generates an abelian field if and
+only if the coefficients of the equation are subject to a certain restric-
 tion (that the discriminant of the equation be a perfect square). To
-express this rareness in analytic form we arrange the ﬁelds in order
-of increasing ﬁeld—discriminant and we deﬁne
+express this rareness in analytic form we arrange the fields in order
+of increasing field-discriminant and we define
 
-NA(x) =number of abelian cubic ﬁelds of (positive) discriminant
-éx, and
+N(x) =number of abelian cubic fields of (positive) discriminant
+<x, and
 
-N(x)=number of (abelian and non-abelian) cubic ﬁelds of dis«
-criminant éx in absolute value.
+N(x) =number of (abelian and non-abelian) cubic fields of dis-
+criminant <x in absolute value.
 
 Then we show by means of a “zeta-function discussion” that
-(1) NA(x)~(115/18)x1”, as x~> on,
+(1) Na(x) ~ (11¢/18)x1/2, as x — ©,
 
-where c is given in formula (8) below. This result complements un-
+where ¢ is given in formula (8) below. This result complements un-
 published results kindly communicated by Davenport, to the effect
-that N(x)=0(x), and by Heilbronn, to the effect that N(x)>clx
-(even with the restriction that the ﬁelds be totally real).
+that N(x) =0(x), and by Heilbronn, to the effect that N(x) >cx
+(even with the restriction that the fields be totally real).
 
-It can be shown by class—ﬁeld theory [1]2 that abelian cubic ﬁelds
-of discriminantﬂ are enumerated as follows: There is a single ﬁeld
-with f=9 or f=ga and there are for 921 exactly 2’ ﬁelds with f
-=qo - ~ - q, or f=9q1 ~ - - q“ where the q.- are distinct primes El
-(mod 6). (These ﬁelds are in fact subﬁelds of the ﬁeld of the fth roots
+It can be shown by class-field theory [1]? that abelian cubic fields
+of discriminant f? are enumerated as follows: There is a single field
+with f=9 or f=¢q, and there are for »=1 exactly 2’ fields with f
+=¢go*--¢qyor f=9¢ + + + ¢,, where the ¢; are distinct primes =1
+(mod 6). (These fields are in fact subfields of the field of the fth roots
 of unity.) Thus,
 
-(2) NA(1) = U(x1”)/2 + U(x‘”/9) — 1/2
+(2) Na(x) = U(2'%)/2 + U(x'/%2/9) — 1/2
 where
-(3) My) = g «M
+3) Uy) = 2 u(n)
 
-and u(n) is, in turn, described by the generating function:
+and #(n) is, in turn, described by the generating function:
 
-so
+0
 
-(4) ' 45(5) =H<1 + 2r) = Z wan-a
-
-1
+@) 0) =TI0 + 200) = > sin
 
 Presented to the Society, April 25, 1953; received by the editors April 22, 1953.
-‘ Research sponsored by the U. S. Army Ofﬁce of Ordnance Research, under con-
-tract DA-ZO-OIS‘ORD-12332.
 
-‘ Numbers in brackets are items cited in the bibliography at the end.
+! Research sponsored by the U. S. Army Office of Ordnance Research, under con-
+tract DA-20-018-ORD-12332.
+
+* Numbers in brackets are items cited in the bibliography at the end.
 
 476
 
 
-THE DENSITY or ABELIAN CUBIC FIELDS 477
+THE DENSITY OF ABELIAN CUBIC FIELDS 477
 
-deﬁned (at ﬁrst) for Re :>1, where q are the primes El (mod 6).
-To estimate U(y) we introduce the primes 75—1 (mod 6) and
+defined (at first) for Re s>1, where ¢ are the primes =1 (mod 6).
+To estimate U(y) we introduce the primes r=—1 (mod 6) and
 start with the identity:
 
-HI<1+ 2r')(1— r')’}Hl1 - r"! _
-11(1 — «Ir->110 — r0110 — q“)H(1 + r')
+Hs) = = Tlewledu oil sal) = :
+[Ha — IIa = II — 911A + 79)
 
-We note that each product of “curly brackets," Hf - ~ - I, is ab-
-solutely convergent for at least Re s> 1/2, while
+We note that each product of “curly brackets,” [[{ --- }, is ab-
+solutely convergent for at least Re s>1/2, while
 
-(6) [II(1— q--)1'I(1 — r-)]-‘ = r<:)(1 — 2--)(I — 3--).
+© [IIa = g9IIa =r] =o — 2-)(1 — 3).
 
-Moreover.
+Moreover,
 
- 
+(5)
 
-(5) MS)
+(1) Les) = 3 (=3/mym— = (1 + 22) [I1Q = ¢9 II + 9]
 
-(7) Lo) = f:(—3/n)n-'= (1+ 2-')-‘[H(1 — q--)H(1 + r')J-'
+is a convergent series for Re s>0, with the special value L(1) =x3-%/2
+by Dirichlet’s formula for quadratic class number [2, p. 373]. Hence
+from the known behavior of {(s), it follows that the difference ¢(s)
+—c/(s—1) is analytic at s=1, where (using {(2) =7?/6) we easily
+find
 
-is a convergent series for Re s>0, with the special value L(1) =1r3"”
-by Dirichlet's formula for quadratic class number [2, p. 373]. Hence
-from the known behavior of ((5), it follows that the difference ¢(s)
-—c/(s—l) is analytic at 3:1, where (using f(2)=1r‘/6) we easily
-ﬁnd
+dn (@+2(@g—-1 _
+2m qq +1)
 
-IIZ _
-(8) c=3_H(q+2)(q 1)=_28
-
-2r M + 1)
-As before, q are the primes El(mod 6). Now from the behavior of
-¢(s) at x =1, together with the behavior of {‘(x) in the critical strip, we
+As before, ¢ are the primes =1(mod 6). Now from the behavior of
+¢(s) at s=1, together with the behavior of {(s) in the critical strip, we
 can show that
 
-(9) U(y)~cy (as y—> so).
+(8) .28
 
-We omit the details since Landau's Handbuch presents them not only
-for the prime number theorem [3, pp. 180—193] but also for a prob-
-lem even involving a similar generating function [3. pp. 649—660].
-Formula (1) ﬁnally follows through the use of formula (2). Q.E.D.
+9) U(y) ~cy (as y — =),
+
+We omit the details since Landau’s Handbuch presents them not only
+for the prime number theorem [3, pp. 180-193] but also for a prob-
+lem even involving a similar generating function [3, pp. 649-660].
+Formula (1) finally follows through the use of formula (2). Q.E.D.
 
 BIBLIOGRAPHY
 
-l. H. Hasse, Arithmm'sche Bestimmung mm Grundzinhm and Klassmzahl in
-rylzlischzn, kubirchen and bs'guadmlischm Zahlkiirpem, Berlin. 1950, p. 10.
+1. H. Hasse, Arithmetische Bestimmung von Grundeinheit und Klassenzahl in
+zyklischen, kubischen und biquadratischen Zahlkorpern, Berlin, 1950, p. 10.
 
-2. , Varlzstmgen ﬁber Zahlenlhearie, Berlin, 1950.
+2. , Vorlesungen iiber Zahlentheorie, Berlin, 1950,
 
-3. E. Landau, Handbuch der Lzhn mm dz! Vtrleihmg dc! Primzahlm, New York,
+3. E. Landau, Handbuch der Lehre von der Verteilung der Primzahlen, New York,
 1953.
 
  

@@ -1,51 +1,53 @@
-Minutes of Meeting of'Committee
-' ‘ on
-Machine methods of Computation
+= mm ——
 
+Minutes of Mesting of Committee
+
+on
+Machine #ethods of Computation
 November 22, 1950
 
-WE: 335m: B. Feshbach, J. w. Forrester, Z. Kopal, C. Lin,
-. P. M. Morse and E. Reissner
+Members Present: H. Feshbach, J. W. Forrester, Z. Kopel, C. Lin,
+: P. M. Morse znd KE. Kelssner
 
 Morse explained that the official directive for the Com-
 mittee had not yet been promulgated, but that it should be ex-
-peCted in a short time. In the meantime, there were many ques-
+pected in a short time. In the meantime, there were many ques-
 tions which could be discussed and on which decisions would be
 needed shortly. Several topics were brought up.
 
 The first was the question of the supervision of various
-graduate students. Four of these - Salzer, Bamm, Verzuh and
-Dolansky (?) - have already completed their general doctor's
-examination in the Electrical Engineering Department and are
-ready to go on with thesis research. It was indicated that the
+graduzte students. Four of these - Salzer, Hamm, Verzuh and
+Dolzansky (?) - have already completed their general doctor's
+examination in the Electrical Engineering Department and ere
+ready to go on with thesls research. It was indicated thst the
 Electrical Engineering Department might ask this Committee to
 suggest supervisory committees for these men. Three students -
-Carrus, Fox and Booton - have not yet taken their general ex—
+Carrus, Fox and Booton - have not yet taken thelr general ex-
 aminations. The Committee in this case might be asked to sug-
-gest appropriate examination topics for this general examina-
+gest appropriate examination topics for tais general examina-
 tion. It was felt that such a general examination would be in
-the nature of removing a few specialized subjects from either
-the Electrical Engineering examination or the Mathematics ex-
+the nature of removing & few specialized subjects {rom either
+the Electricel lngineering examination or tne Mathematics ex-
 amination, and adding some subjects more connected with com-
-putation. In other words, it was felt that most of the students
-should have a basic background of either Electrical Engineering
+putation. In other words, it wes felt taut most of the students
+should nave a basic background of either blectrical Engineering
 or Mathematics (or perhaps Physics), but that they would not
-need to be examined on some Specialized branches (sucn as power
-engineering), and that in its place would he put some material
-more appropriate for the macnine computer. it was decided to
-discuss this question of the examination in more detail at the
+need to be examined on some specialized obrencues {(sucn as power
+engineering), and that in its place would be put some material
+more appropriate for the macnine computer. It was decided to
+discuss this question of the exuawinetlion in more detuil at tue
 next meeting.
 
-The question of courses to he offered at m.1.r. in this
-subject was also discussed. it was felt better to postpone
-detailed discussion of this point until the Committee had bee
-come more clear on its opinion concerning the preliminary eXe
-amination. The question of a possible Summer Session on
-Machine Computation was also brought up.
+The question of courses to be offered at W.l.T. in this
+subject was also discussed. I1t wes felt better To postpone
+detailed discussion of this point until the Committee had be-
+come more clear on its opinion concerning ting preliminary ex-
+amination. The question of & possible Summer Session on
+Mecinine Computation was &lso brought up.
 
-WiMr
-m M. mm‘
+WM
 
+Ph M. Morse,
 Chairman
 
 

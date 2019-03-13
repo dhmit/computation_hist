@@ -1,62 +1,67 @@
-1'0: Proteasor P. I. Horse
-m: 1‘. ll. Versuh
-DAB: February 15, 1958
+TO: Professor P. M. Morse
+FROM: F. M, Verzuh
+DATE: February 15, 1956
 
-SHOT: Iaterial for National Science Foundation Proposal
+SUBJECT: Material for National Science Foundation Proposal
 
-W
+A ——— ———————————————
 
-In accordance with our discussions regarding the proposal to 3131',
-I an enclosing the following information.
+In accordance with our discussions regarding the proposal to NSF,
+enclosing the following information.
 
-Inchine mlment 9i 93 11.1.1'. mutnticn Center
+Machine Complement of the M.I.T. Computation Center
 
-no ILL'l'. Computation Center will have a Type 704 Electronic
-Data Processing Inchine with the tollcwing machine complement:
-12 magnetic tape units, 2 magnetic cons storage units containing a
+The M.I.T. Computation Center will have a Type 704 Electronic
+
+~ Data Processing Machine with the following machine complement:
+
+12 magnetic tape units, 2 magnetic CORE storage units containing a
 total of 8,000 words, 1 magnetic drum unit containing 4,000 words
-of storage, the usual 3-11“ punched card reader, alphabetic printer,
-and punched card recorder as well as the 3 gig-line magnetic tape
+
+of storage, the usual on-line punched card reader, alphabetic printer ’
+and punched card recorder as well as the 3 off-line magnetic tape
+
 controlled printer, magnetic tape controlled card punch, and punched
-card-tomagnetic tape converter, respectively. Total machine
-complement net monthly» rental is slightly over $45,000. In addition
-to the 704, there will be 1_o auxiliary punched card machines including
-card punches, collators, sortera, reproducere, interpreters, and the
+card-to-magnetic tape converter, respectively. Total machine
 
+ 
+
+“complement net monthly. rental is slightly over $45,000. In addition
+
+to the 704, there will be 10 auxiliary punched card machines including
+card punches, collators, sorters, reproducers, interpreters , and the
 Type 407 Accounting Machine. The aggregate machine rental is in
-excess of $ 50,000 per month.
+excess of § 50,000 per month.
 
- 
-
- 
-
-'me Type 704 ED!!! unit is one of the fastest large-scale
-commercial computers available today. Since the 11.1.1 installation
-will be but one of many in the field, techniques, programs, and
-numerical procedures developed for this machine will be 0: universal use.
+The Type 704 EDPM unit is one of the fastest large-scale
+commercial computers available today. Since the M.I.T. installation
+will be but one of many in the field, techniques s Programs, and
+numerical procedures developed for this machine will be of universal use.
 
 Biographical Information
 
-Dr. F. u. Verzuh, Director of Statistical Services, has been
-connected with the operation of M.l.'r. computational work since 1940.
+Dr. F. M. Verzuh, Director of Statistical Services, has been
+connected with the operation of M.I.T. computational work since 1940.
 In this capacity he has had considerable experience with the utilization
 of various analog computing equipment -- differential analyzers, etc.,
-
-as well as a comlete line of digital machines ranging from the IBM
+as well as a complete line of digital machines ranging from the IBM
 Type 601 through the Type 704.
 
-lie received a 3.5. degree in Electrical Engineering iron the
-University of Denver in 1940, a 11.3. degree in Electrical Engineering
+He received a B.S. degree in Electrical Engineering from the
+University of Denver in 1940, a M.S. degree in Electrical Engineering
+from M.X.T. in 1946, and a ScD. degree in Electrical Engineering from
+M.I.T., in 1952,
 
-from ILLT. in 1946, and a Son. degree in Electrical Engineering :frcm
-LLT. in 1952.
 
+i
 
-uted for various branches
-of the armed services. In July, 1955 he was placed in charge of the
-
-operation of the Whirlwind Computer -- the high—speed machine currently-
-used for scientific research at the Institute. Assn, several research
-projects are being conducted using this computer as a basic tool.
+In the 0ffice of Statistical Services he is concerned with the
+utilization of IBEm punched cayd equipment to fulfill the need of the
+M.I.T. educational and research projects. In thig connection a
+number of research contracts have been ©xecuted for various branches
+of the armed services. In July, 1955 he was Placed in charge of the
+operation of the Whirlwind Computer -- the high-speed machine currently
+used for scientific research at the Institute, Again, several research
+projects are being conducted using this Computer as a basic tool.
 
 

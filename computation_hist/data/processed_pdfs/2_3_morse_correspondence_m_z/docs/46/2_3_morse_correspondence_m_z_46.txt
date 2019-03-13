@@ -10,20 +10,20 @@ New York 17, New York
 Dear Pen:
 
 In accordance with our telephone conversation I am
-sending you a copy of a portion of our proposal to the Rocke—
+sending you a copy of a portion of our proposal to the Rocke-
 feller Foundation for a grant in aid of research into the use
-of high—speed digital computers in social science. This grant
+of high-speed digltal computers in soclal sclence. This grant
 has been approved and a sum of about $100,000 has been set
 aside for a period of three years beginning next June. The
-machine should be here and installed in the new Compton labora-
+machine should be here and installed in the new Compton Labora-
 tories by March, so that by next summer we should be well under
-way in the various aspects of research. I believe there are
+way in the varlous aspects of research. I believe there are
 exéiting new things we can find and I feel strongly that the
 social sciences are an extremely promising field for machine
 utilization. Perhaps some of the suggestions I set forth in
-the enclosed memo will arouse a responsive chord.
+the enclosed memo will arouse a regponsive chord.
 
-I have suggested to the Rockefeller people that I
+I have suggested to the Rockefeller people that 1
 would set up an Advisory Committee to help me plan the research
 under this grant. The Committee should be small enough to be
 wieldy (six or seven) and preferably should be senior research
@@ -36,13 +36,13 @@ Millikan, and I will talk to Fred Mosteller, but I should
 appreciate getting suggestions also from you as to possible
 members for this Advisory Committee. As our plans for this
 research develop, You may be interested in keeping in touch
-with them; likewise, we would certainly welcome learning of
+with them; likewilse, we would certainly welcome learning of
 other activities in the field of machine utilization in the
 social sciences. Perhaps next summer or fall some, not too
 large, conference could be organized here for the purpose of
 discussing research in this field.
 
-Best holiday greetings. I would appreciate your
+Best holiday greetings. I would appreclate your
 comments when you have the time.
 
 Yours,
@@ -50,7 +50,7 @@ Philip M. Morse, Director
 
 M.I.T. Computation Center
 
-PMMzLWH
+PMM : I.WH
 Enclosure
 
 

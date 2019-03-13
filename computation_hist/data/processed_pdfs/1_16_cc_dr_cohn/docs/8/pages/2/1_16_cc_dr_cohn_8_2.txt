@@ -1,29 +1,29 @@
 Reprinted from the
-BULLETIN or rm: AMERICAN MATHEMATICAL SOCIETY
+BULLETIN OF THE AMERICAN MATHEMATICAL SOCIETY
 Vol. 61, No. 3, pp. 240-241
 May, 1955
 
-Geometric der Zahlen. By 0. H. Keller. Enzyklopﬁdie der mathe-
+Geometrie der Zahlen. By O. H. Keller. Enzyklopidie der mathe-
 matischen Wissenschaften mit Einschluss ihrer Anwendungen,
-Vol. 12, No. 11, Part III. 2d ed. Leipzig, Teubner, 1954. 84 pp.
+Vol. I3, No. 11, Part III. 2d ed. Leipzig, Teubner, 1954. 84 pp.
 8.80 DM.
 
-The title Geometric der Zahlen was introduced by Minkowski over
+The title Geometrie der Zahlen was introduced by Minkowski over
 half a century ago. Its subject matter has naturally expanded
 greatly, particularly in the last twenty years, and the author com-
 mendably presents a more modern account of the subject. The aim of
-the Enzyklopa'die is “to ﬁnd a middle road between the . . . historical
-presentation and the . . . systematic presentation." The reviewer’s
+the Enzyklopddie is “to find a middle road between the . . . historical
+presentation and the ... systematic presentation.” The reviewer’s
 impression is that the work tends to be more systematic than his-
 torical, but the few isolated remarks that follow can in no way detract
 from the debt owed to the author for his pioneering compilation.
 
-One major pre—Minkowskian development is the study of the min-
-ima of quadratic forms in n variables, elegantly interpreted as the
-densest lattice packing of equal spheres in 71 dimensions. The dis-
+One major pre-Minkowskian development is the study of the min-
+ima of quadratic forms in # variables, elegantly interpreted as the
+densest lattice packing of equal spheres in # dimensions. The dis-
 covery, essentially, that the symmetric tetrahedral packing (with
-n+1 mutually tangent spheres) is no longer densest when n = 4 is one
-of the earliest indications that n-dimensional “Euclidean geometry”
-would depend on n with “number-theoretic” irregularity. Strangely
+n-+1 mutually tangent spheres) is no longer densest when 7 =4 is one
+of the earliest indications that #-dimensional “Euclidean geometry”
+would depend on 7 with “number-theoretic” irregularity. Strangely
 enough, the footnote reference to this result (footnote 184a) does
-not refer to its discovery (by Korkine and Zolatareﬂ in 1872) but
+not refer to its discovery (by Korkine and Zolatareff in 1872) but

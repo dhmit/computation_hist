@@ -1,0 +1,36 @@
+Jack D, Porter, Barta 113 February 14, 1955
+
+To: Dr. F, L. Foster, Director
+Division of Industrial Cooperation
+5«105 |
+
+Dear Dr. Foster:
+
+Since Professor Adams has gone on leave of absence for a year,
+I have undertaken to answer your letter of 7 February concerning the
+billing for 21 luncheons for "ERA, et al" on 18 January 1955.
+
+The Digital Computer Laboratory (DIC 6345) and the Servomech.
+
+of various laboratories that are developing routines to be used with
+Remington Rand's 1103 computer (also called, Univac Scientific).
+
+The immediate objective of the MIT conference was to discuss
+a routine being developed at the Digital Computer Laboratory that will |
+enable the Servo Lab to prepare tapes on Whirlwind I for the 1103, This
+work may lead to a proposal for a DIC contract with Remington Rand that
+will facilitate our study of a "universal" code; that is, a code that
+can be applied to different computers.
+
+Please let me know if I ean be of any further assistance.
+
+Very truly yours,
+
+Jack D, Porter, Head
+Scientific and Engineering
+Computation Group
+
+JDP: mm
+cc P.M, Morse
+
+

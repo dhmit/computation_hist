@@ -1,39 +1,39 @@
-September 24. 1956
+September 24, 1956
 
 Prof. Frank M. Verzuh
 
-ZOO-206
+20C-206
 
 Massachusetts Institute of Technology
-77 Massachusetts Avenue
+77 Massachusetlis Avenue
 
-Cambridge. Massachusetts
+Cambridge, Massachusetts
 
-Dear Prof . Ve rank:
+Dear Prof. Verzuh:
 
-1 am listing below the punch card machines which we are furnish-
+I am listing below the punch card machines which we are furnish-
 ing in connection with the 704 installation. With each machine I am listing
-any special features it will have as well as the number 0! control panels of
+any special features it will have as well as the number of control panels of
 the manual or fixed setup type or the dual purpose type.
 
 Machine Fixed Control Manual Control Dual
-Tﬂe Panels Panels Purgose
-077 Standard 6 4
-519 Standard 1 0
+Type Panels Panels Purpose
+077 Standard 6 <4
+519 Standard 10
 407 FORTRAN Printing Arrangement 10
 552 Standard 8 2
 024 )
-026 ) .
-06 6 ) FOR TRAN Key Top and Punching
+026 i ;
+066 FORTRAN Key Top and Punching
 068 ) Arrangement
 082 Sorter - Additional Feature is the Auxiliary
 Card Counter
 010 Standard
-Yours very truly.
-' . ”(mus-41% V\»'u«~.(’(r
+Yours very truly,
+( > | Te Son < L/ = 5 C)
 G. Truman Hunter
-GTH/jeh Educational Co-ordlnator
+GTH/ jeh Educational Co-ordinator
 
-cc: Prof. P. M. Morse”:
+cc: Prof. P. M. Morse
 
 

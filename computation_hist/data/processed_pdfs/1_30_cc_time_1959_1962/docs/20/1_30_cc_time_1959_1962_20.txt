@@ -1,203 +1,66 @@
-Prob, E0.
+JOINT COMPUTING GROUP
+TINE RRCOID
+MARCH 1960
 
-793
-1083
-
-105k
-1057
-1088
-1120
-1133
-1137
-
-1139
-11h}
-
-11u6
-11u7
-1138
-11kg
-1150
-1151
-1152
-115
-
-115
-
-1155
-
-Laboratory
-
-Hours Employed
-
-Hours Used
-Commuting
-Overhesd
-Sick Leave
-Vacation
-01:: sees
-
-Total
-
-Hours Not Used
-Hours Overdrmm
-
-Cumulative Hours Not Used
-Cumulative Hours Ova-drawn
-
- 
-
-1a}:
-
-LES
-RLE
-RLE
-RLE
-
-0R
-LNS
-LNS
-LES
-LES
-INS
-HIE
-RLE
-RLE
-RLE
-LES
-LNS
-RLE
-RLE
-RLE
-RLE
-
-TIME T410031)
-
-$1203 1960
-
-JOINT COE’EPUTING GROUP
-
-April 18. 1960
+April 18, 1960
 
 Hours Total
-Reouested 131 In March Hours
-H. Feshbach 16 uhzs
-E. Baghdady 28 167
-V5 Yngve 52 263k
-L, Mower 1; 361
-H: Galliher 25 1997
-X. Huang 8 656
-I... Delvea 38 635
-\L Turchinetz 30 253
-3. Mark 1M 9M
-A“ Tub1s 106 368
-so Bekefi he 97
-3., Stroke 1’40 52
-J; Coccoli 131 15
-W.) Grant ‘47 12
-w: Buechner 16 29
-J; Linaley 96 96
-a. White 18 18
-T. Eigier 23 23
-Pa Brat 19 19
-s. Frankenthal 2 2
+Prob, No, Lab Requested by In March Hours
+798 LNS H, Feghbach 16 L428
+10873 RLE E. Baghdady 28 167
+1084 RLE V. Yngve 52 2674
+1087 RLE L. Mower 4 361
+1088 OR H. Galliher 25 1997
+1120 LES K, Huang 8 656
+1133 LES 1. Delves 28 635
+1137 LES ¥. Turchinesz 30 2h8
+1139 LNS H, Merk 14 9h
+1143 LNS A, Tubis 106 368
+1146 RLE G. Bekefi 42 97
+1147 RLE H, Stroke 140 52
+1148 RLE J, Coccoli 1731 15
+1149 RLE W. Grant u7 12
+1150 LES W. Buechner 16 29
+1151 LES J. Linsley 96 96
+1152 RLE R, White 18 18
+115 ARLE T, Higler 23 23
+115 RLE P, Brot 19 19
+1155 RLE S, Frankenthal e 2
 TIME DISTRIBUTION
+Laboratory RLE LNS SS CC OR
+Houre Employed 568 270 0 28 90
+Hours Used
+Computing 506 32L 0 0 25
+Overhead 26 0 L 6
+Sick Leave 0 0 0 0 0
+Vacation 4 0 0 0 0
+Classes 11 0 0 0 0
+Total 557 36M 0 ly 31
+Hours Not Uged 11 2 59
+Hourg Overdrawn 9
+Cumulative Hours Not Used L5l 1293
 
-EEE Eﬂé §§ £2 23
-
-565 270 0 28 90
-
-506 32k 0 o 25
-
-36 Mo 0 h 6
-
-0 o o o 0
-
-u o o o o
-
-11 o 0 o o
-
-557 361» 0 1+ 31
-
-11 2h 59
-
-9h
-ugh 1293
-
-766 981 0
+Cunmtlative Hours Overdrawn 766 981 0
 
 
-R Schp renberg
-P. Demo 5
+Di
 
-E. Mark
+IGP - 30 Time Record
 
-C- , B eke f1
+Uger Hours In Totel Hours Use by laboratories
+EER March
 
-FL. 8 t ro'uca
+Lab Hours In Totel
+R. Scharenberg 55. 117.5 March Hours
+P, Demos 11% 291.5
+H., Mark 6.5 15.5
+G, Bekefi ee 37»
+H. Stroke 17.5 17.5 INS 174% 498.5
+P, Brot 5 5 RLE 66 81
+J, Coccolil 13 13
+W. Grant $5 5.5
+R. White 3 5
 
-Pg Brat
-
-J ,, Co cco 1 1
-
-k1,, Grant
-
-Hr Whita
-
-Tasting Den‘onatrzdion
-
- 
-
-LG? ~ 7‘0 _‘1‘1me Record
-
-Hours In
-M: rain
-
-55.
-113
-
-6:5
-22
-176
-
-1
-
-wmum
-, .
-‘J‘l
-
-\ﬁ‘l
-
-_2.‘
-
-'V‘otpl Wong;
-
-117:6
-291y5
-1515
-37;
-1795
-5‘
-13
-5
-3
-
-M2
-
-[7‘
-,
-u‘
-
-1 SI S
-HIE
-
-Use b1 Lnbors tories
-
-Hours In Totpl
-
-March Hours
-
-17h§ M98,3
-66 81
+Testing Demonstration § 42
 
 

@@ -1,136 +1,52 @@
-CHARGE: IIC mono-r 71”
-Att: not. I. I.
+OFFICE OF STATISTICAL SERVICES
+Massachusetts Institute of Technology
 
-f\
+CHARGE: PIC PROJECT 7135 Date: 4-13-88
+Att: Prof. P. M. Morse
 
-mu
+Pi
+
+CREDIT: Statistical Services 2935 Account
+
+EE  ——————————— ———— ————————— ——————————— ———————————————
+
+—————————————————————————————————————————————————————— ——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+
+For services of punched-card equipment and personnel during period
+March 1 through March 31 , 1988 (Library Project - G. Bush)
 
 MACHINE CHARGE
 
-Key Punch 1.00
+ 
 
-Verifier 10.00
-
-Interpreter
-
-Reproducer
-
-Tabulator
-
-Sorter
-
-Collator
-
-604 Calculator
-
-CPO Calculator 2.00
-0.20
-
+Key Punch 1.00 hours at § ¢.s0 /hr. $ o.s80
+Verifier 19.00 hours at § o.80 /hr. § 5.70
+Interpreter hours at $ /hr. $
+Reproducer hours at § fhe, $
+Tabulator hours at § /hr. $
+Sorter hours at § /hr. $
+Collator hours at § /hr. $
+604 Calculator hours at § /hr. $
+CPC Calculator 2.00 hours at § 7.80 /hr. $ 15.00
+0.25 hour at n.ec.
+$sn.20
 LABOR CHARGE
-
-5.00
-30.00
-1.00
-
+8.00 hours at § 3,08 /hr. § 5.28
+20.00 hours at § 31.38 /hr. § 27.60
+1.00 hours at § 2.31 /hr. § a.m
+hours at $ /hr. $
+hours at § /hx, $
+hours at § IH, $
+35.16
+Plus 10% $ 3.852 Tone
 MATERIEL CHARGE
-
-Cards, Plain manila
-Striped manila
-Solid color
-
- 
-
-TOTAL
-
- 
-
- 
-
-OFFICE OF STATISTICAL SERVICES
-
-Massachuseﬁs Insﬁfuie of Technology
-
-It'll.
-
-hours
-hours
-hours
-hours
-hours
-hours
-hours
-hours
-hours
-
-Date” 4-13-55
-
-Statistical Services 2955 Account
-
-, 1955 .
-
-0.59 /hr-
-0.30 /hr-
-/hr.
-/hr.
-/hr.
-/hr.
-/hr.
-/hr.
-
-7.50 /hr-
-
-D:
-H
-ﬁﬁﬁﬁﬁﬁﬁﬂig
-
-hour at 3.0.
-
-hours
-hours
-hours
-hours
-hours
-hours
-
-4.000
-
-3 1.05 /hr-
-II 1.30 /hr-
-at II 1.31 /hr-
-$ /hr.
-$ /hr.
-$ /hr.
-
-Plus 10%
-
-Plus 10%
-
- 
-
-For services of punched-card equipment and personnel during period
-Intel 1 through ma :1
-
-(Library !roJoet - a. lack)
-
-ho:
-a o
-
-ﬁﬁgﬁﬁﬂﬁﬁéﬁ
-
-15.00
-
-0.83
-31.60
-3.81
-
-#49933
-
-T
-
-35.10
-
+Cards, Plain manila at $ /M $
+Striped manila 4,000 at § 1.24 /M $ @.98
+Solid color at § /M $
 4.96
 
-$65.34
+| Plus 10% 80 ? 5.48
+
+TOTAL $65.34
 
 

@@ -4,62 +4,62 @@ OF CRITICAL LATTICES
 BY
 HARVEY COHN
 
-Reprinted (mm the
-PROCEEDINGS or THE AMERICAN MATHEMATICAL SOCIETY
-Vol. 2, No, 4, pp. 547549
+Reprinted from the
+PROCEEDINGS OF THE AMERICAN MATHEMATICAL SOCIETY
+Vol. 2, No. 4, pp. 547-549
 August, 1951
 
 
 ON THE FINITE DETERMINATION OF CRITICAL LATTICES
-HARVEY com:1
+HARVEY COHN!
 
 1. Introduction. We are concerned here with the determination of
-critical lattices with respect to a given ﬁnite convex body K contaiu~
-ing the origin and symmetric to it. According to the usual terminol-
-ogy, a critical lattice is a K—admissible lattice of minimal determinant,
-while a K—admissible lattice is one all of whose points, except the
-origin, lie on or outside K. it is not hard to show [5, p. 13]2 that a
-critical lattice exists for every such K.
+critical lattices with respect to a given finite convex body K contain-
+ing the origin and symmetric to it. According to the usual termino-
+ogy, a critical lattice is a K-admissible lattice of minimal determinant,
 
-In d-dimensional space a lattice is determined by (12 real variables or
-d vectors af, 04;, - - - , 11;. If K is deﬁned by a gauge function, in
-vector form @(x;) g 1, then the problem is to minimize the de»
-terminant of the of subject to the inﬁnitude of side conditions
+‘while a K-admissible lattice is one all of whose points, except the
+origin, lie on or outside K. It is not hard to show [5, p. 13]? that a
+critical lattice exists for every such XK.
 
-(1) 4)(1>.aI+ Pack; + - - - + m7.) a 1
+In d-dimensional space a lattice is determined by d2 real variables or
+d vectors af, az, - - -, a;. If K is defined by a gauge function, in
+vector form ®(x;) <1, then the problem is to minimize the de-
+terminant of the a; subject to the infinitude of side conditions
 
-where (Pi) runs through all integer sets except the origin. Now, as
+(1) (pros + paca + + + + + paay) > 1
+
+where (p;) runs through all integer sets except the origin. Now, as
 mentioned earlier it is possible to show the existence of a critical
 lattice of positive determinant, in fact, by the use of a compactness
 argument. We shall show, however, by means of a theorem in the
-companion paper [1 ], that the inﬁnite set (1) can be reduced to a
-ﬁnite set whose number of inequalities depends only on d. Thus, for
+companion paper [1], that the infinite set (1) can be reduced to a
+finite set whose number of inequalities depends only on d. Thus, for
 instance, we are assured that when K is bounded by algebraic sur-
 faces, then among the (possibly continuous) set of critical lattices, a
 lattice with an algebraic basis can be found.
 
 Results such as these are implied in the classical reduction theory
 of quadratic forms and of star bodies [2]. Indeed, Minkowski [3, pp.
-51, 101] solved the problem for convex bodies explicitly when (i=2
+51, 101] solved the problem for convex bodies explicitly when d =2
 and 3, giving the most economical set of inequalities. The sets given
 here will be far from economical, but the methods will be compari-
 tively simple and geometrically intuitive.
 
-2. Finite bases lemma. Let wf, 0);, - - - ,0); be a set of d independent
-vector: on the surface of the ﬁnite rymmetiic convex body K, and belong-
-ing to a K admissible lattice. Then the lattice her a basix from the follow-
-ing ﬁnite set:
+2. Finite bases lemma. Let w;, wy, * wg bea sel of d independent
+vectors on the surface of the finite symmetric convex body K, and belong-
+ing to a K-admissible lattice. Then the lattice has a basis from the follow-
+ing finite set:
 
  
 
 Presented to the Society, November 25, 1950; received by the editors August 30,
 1950.
 
-‘ The author wishes to acknowledge the helpful advice of Mr. C. A. Rogers and of a
+! The author wishes to acknowledge the helpful advice of Mr. C. A. Rogers and of a
 referee.
 
-‘ Numbers in brackets refer to the bibliography at the curl of the paper.
-
+2 Numbers in brackets refer to the bibliography at the end of the paper.
 547
 
 
@@ -71,112 +71,115 @@ HARVEY COHN
 
  
 
+548 [August
+byw
+9) — : )
+a
+= bay baws
+2 = 17 ?
+
+bay b azws baawa
+Gp tf ——T—— + cv |
+yap + + * Aq a9 > Qq aq
+
  
 
-548 iAugusr ‘
-- b11011
-(11/: ~—"‘ I
-01
-‘ bglur 1122!»:
-92 = i
-(9) (nag 112
-. )
-balm; 5.12012 budwa
-Qil S + _# I I - V I
-[1,112 - - . ad (12“"14l (1.2
+where the a; and bi; are integers satisfying the conditions:
 
-where the a; and be are integers satisfying the cand-z'liom:
-
-1 —l
-(2%) 1;L.>l), bk». =1, ibL-l/dl: ' ' ‘ ”Ii g 3‘ ‘71 y
-and ‘
-(2b) (”Mu-(111% d1.
+l=;
+(2a) ay > 0, bir 1 1% | bri/ a. . we ar | < = a
+and =
+(2b) 00s + + ag < dl.
 
 This result is due to Minkowski [4, p. 189]; we therefore simply
 note some special aspects of the lemma which tie in with familiar
 results. In case there are more than d vectors (and their negatives)
-on the surface, let us choose (of) so as to produce a minimal positive
+on the surface, let us choose (w;") so as to produce a minimal positive
 determinant. Then for d=2 the basis can always be chosen as
-(of, mg) itself, while for d=3 it can be chosen as (0)}, mg, w;) or
-(norm; (wf+w;+w;)/2), as was known to Minkowski [3, p. 101]. If
-K is specialized to an ellipsoid, then for r1§3 only the basis (an)
-will occur,
+(wr, wy) itself, while for d=3 it can be chosen as (w;, w,, w;) or
+(wr, wg, (wy +w; +w;)/2), as was known to Minkowski [3, p. 101]. If
+K is specialized to an ellipsoid, then for d £3 only the basis (w;)
+will occur.
 
-3. Reduction to ﬁniteness. In the search [or critical lattices, we
-ﬁrst restrict the K-aclmissible lattices to the subclass having 4 inde-
+3. Reduction to finiteness. In the search for critical lattices, we
+first restrict the K-admissible lattices to the subclass having d inde-
 pendent vectors on the surface of K. This is no restriction since every
-K—admissible lattice can be contracted to a K—admissible lattice with
-the further property. We then let (0):) be such a set old independent
-vectors. By the ﬁnite bases lemma, the lattice has as its basis a set
-(9;) chosen from among the ﬁnite collection in (2).
+K-admissible lattice can be contracted to a K-admissible lattice with
+the further property. We then let (w;") be such a set of d independent
+vectors. By the finite bases lemma, the lattice has as its basis a set
+(2) chosen from among the finite collection in (2).
 
 Then the conditions (1), subsidiary to the minimizing of the de-
-terminant of the 9“, can be rewritten as <I>( 21>; 9321, where (Pi)
+terminant of the Qf, can be rewritten as ®( 2p: 7) 21, where (3)
 are still all integral lattice points, not the origin and where equality
-is achieved when the argument of <1) is one of the vectors a.
-= Z‘-l (ls-9;, from (2). Now the convex body K determinesawnjugalt
-convex body K0 in the p-space by means of the inequality in the pr:
-‘1’( 2%- 9:)s1. Furthermore Kn contains the 2“-hedron determined
-by the vectors :(;;,,Y 0, 0V . . ‘.0). i012]. (£22, 0_ . . . r 0), - . -,
+is achieved when the argument of ® is one of the vectors w.
+= Dat a:;Q;, from (2). Now the convex body K determines a conjugate
+convex body Kj in the p-space by means of the inequality in the pi:
+®( Dp; {)') =1. Furthermore K, contains the 2¢-hedron determined
+by the vectors + (ay, 0, 0, - - - ~0), £ (ay as, 0 - 0); =
 
-U“ ,_.-»
+’
 
-19511 ON THE FINITE DETERMINATION OF CRITICAL LATl‘lCES 549
-ion}, 11.12, Ma, - - ~ , add). But these 2“-hedr
+\
+
+ 
+
+se =p
+
+ 
+
+151] ON THE FINITE DETERMINATION OF CRITICAL LATTICES 549
++ (@ay, Gaz, Qas, * * +, aaa). But these 29-hedra are finite in number
 one for each basis, and they contain the origin and hence a hyper-
-sphere of radius pd, depending on d alone. To be more speciﬁc, using
-the estimates au - - . ada<dl and £1ij Iaiii for k>j (an easy conse-
-quence of (221)), we ﬁnd that for instance pigd"”(dl)-W. Hence
-by the main theorem of the companion paper [1], I; will contain no
+sphere of radius ps, depending on d alone. To be more specific, using
+the estimates ay - - - aa <d! and ¢;;2 lass] for > (an easy conse-
+quence of (2a)), we find that for instance Pa2d=12(d!)~%2, Hence
+by the main theorem of the companion paper [1], & will contain no
 p-integral lattice points, other than the origin, in its interior if it
-fails to contain those in a hypersphere of radius Cdpd‘('l"”_
+fails to contain those in a hypersphere of radius Capg—(d-D,
 
 Thus the system of inequalities (1) can now be replaced by the
-ﬁnite collection of the ﬁnite systems (one system for each basis)
+finite collection of the finite systems (one system for each basis)
 
-I:
-q’( 2 0“:SZ;> = 1i 1
+k
+o( De oath) = 1
 
-{—1
-
-a are ﬁnite in number,
-
-“A
+i=]
 
 k
 
-"A
+IA
+IA
 
-41.
+d,
 (1a)
 
-1
-dy< E 17:95) g 1, for 0 < (2 pi)“ < Cairn—WM” (p,- integral).
+> 2.1/2 —
+o > pt) = 1, for0 < (D090) < Caps 77 (9: integral).
 
-{—1
+te]
 
-In principle, 01 course, we select the basis whose system gives the
+In principle, of course, we select the basis whose system gives the
 smallest determinant; and in each system we would have had to
 
 change some inequalities to equality and to ignore many more.
-
-When d>3, however, there seems to be no easy way to determine a
+When d> 3, however, there seems to be no easy way to determine a
 minimal system.
 
 BIBLIOGRAPHY
 
-1. Harvey Cohn, 0n ﬁniteness conditions far a convex body, Proceedings of the
+1. Harvey Cohn, On finiteness conditions for a convex body, Proceedings of the
 American Mathematical Society vol. 2 (1951) pp. 544-546.
 
-2. K. Mahler, On lattice points in n-dimmxionnl star bmiies, Proc. Roy. Soc.
-London. Ser. A v0]. I87 (1946) pp. 151—187.
+2. K. Mahler, On lattice points in n-dimensional star bodies, Proc. Roy. Soc.
+London. Ser. A vol. 187 (1946) pp. 151-187.
 
-3. H . Minkowski, Diophanlirche Appraximatimim, Leipzig, 1907.
+3. H. Minkowski, Diophantische Approximationen, Leipzig, 1907.
 
-4. , Geometric der Zahlen, Leipzig, 1910.
+4, , Geomelrie der Zahlen, Leipzig, 1910. :
 
-5. H. Weyl, C. L. Siegel, and K. Mahler, Geometry of numbers, mimeographell
-Seminar notes, Princeton, 1949.
+5. H. Weyl, C. L. Siegel, and K. Mahler, Geomelry of numbers, mimeographed
+seminar notes, Princeton, 1949,
 
  
 

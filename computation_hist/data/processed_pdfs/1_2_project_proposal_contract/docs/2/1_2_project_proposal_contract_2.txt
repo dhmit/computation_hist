@@ -1,89 +1,89 @@
-\‘lq
+~~ MASSACHUSETTS INSTITUTE OF. TECHNOLOGY
+Department of Physics
 
-mmmmms INSIITUTE momma!
+a xk 5 f - ) , % : =
+MEMORANDUM :
+- : . § ¥ - » 3 : x3 5 i i i — 3 = =
 
-Departuonﬁ of Physla; J
+Tos N, M, Bage
 
-_ WW“?! “.1
+Froms Prof. Philip M. Morse Blues Dates 2/20/51
 
-TO: N. M. Sago ' ' ' " ‘z' ' ’
+Bubjacty Proposal for Research Sid Shade Project in Applied
 
-Dates) 2/20/51
+Mathematics, using large-scale Computing Equipment,
+particularly Whirlwind,
 
-Subject: Proposal/for Research apd_Tralqlng Project in Applied
-Mathematics, using large-souls Computing Equipment,
-particulgrly Whirlwind.
-
-Froma_ Prof. Phlllp M. Morse
-
-Whirlvipd Projoct has now reached a sooge or development
-where its potentlalitles_can be utilized, together with the other
-computing egulpoent at Technology, in a coordinated regegrch and
-training program, of the sort anticlpateﬁ by ONerurlng its
-several years of support of one Project. Both the Institute and
-the Haﬁy are vitally interested in the use of largevscals comp
-puting ﬂevices {or the solution of scientific and engineering
-problems, and for the promotion of training for students inter-
-
-ested in_thls field.
+Whirling Project has now Tanti a stage of : development
+where its potentialities can be utilized, together with the other
+computing equipment at Technology, in a Goordinated research and
+training program, of the sort anticipated by ORR during its
+several years of support of the Project, Beth the Institute and
+the Navy are vitally interested in the use of large-scale com=
+puting devices for the solution of scientific and engineering
+problems, and far the promotion of training for students inter-
+ested in this field,
 
 Of course a part of the time of Whirlwind will be used
-for tho solution of a special Air Force problam, and it is ex—
-pected that the Air Force will conxribute an appreciable part of
+for the solution of a special Air Force problem, and it is exw
+pected that the Air Force will contribute an appreciable part of
 the support of the Whirlwind Project, for the development of
-equipment and methods for the solution of this problem. Heverthe-
-less, approximately half the working time of the machine itself
-will be available for the Fundamental grogram, mentioned above and
+equipment and methods for the solution of this problem, Neverthe-
+less, approximately half the working time of the maehine itself
+will be available for the fundamental program, mentioned above and
 
 outlined below.
 
 
-«2.
-
-Since a research and training programjmust be closely
-linked w1th other acuity activities, it 510 proposed that “7K
-supervisilﬁ‘ggmjgggr 3M2: by the recently created Gunter for
-
-A
-Machine Computation. The interdepartmental Advisory Committee to
-this Center provides a broad representation of various nianttflo,
-onginoermg and tralnmg aotivitlu likely to be involved.
-
-The progrlm which OER nlsht wish to support can be divided
-into four sections: I
-
-1. Research in methods of numerical analysis and the formu-
-lation of aclentlfio problems for machine solution, together with
-support of training or students in these methods.
-
-2. Support of the scientific and engineering applications
-group previously roferred to with Project Vhlrlwind so a: to make
-the WV computer useful and available for the above research, and
-old to the research being carried on by MIT faculty and students.
-
-3. A partial support of the maintenance of the UV computer.
-
-4. Research on an investigation of digital computing machine
-components.
-
-It is understood that details of the program, which is
-
-necessarily evolutionary in character, will be worked out from
-
-time to time with the Scientific Officer of the ORR.
-
-It is contemplated that $300,000 per annum for a parlod
-of at least two yeors will be required to get this program under
-
-way. Detail of the budget is as follows:
+-d-
 
  
 
-w-
+Since 4 research and training Program must be closely
+Siihai A pr aculty activities, it is proposed ‘that ww 1,
 
-As: Mufﬁn"-
+“pb i BAAN
+en by the recently ereated Senter for
+
+sSupervisio
+Machine aie The interdepartmental Advisory Committee to
+this Center provides a broad representation of various xientifioc,
+engineering and training activities likely to be involved,
+The program which ONR might wish to support can be divided
+
+into four sections: |
+
+1. Research in methods of numerical analysis and the formu~
+lation of scientific problems for machine solution, together with
+support of training of students in these methods,
+
+2s Support of the scientific and engineering applications
+group previously referred to with Project Whirlwind so as to make
+the WW computer useful and available for the above research, and
+aid to the Feseara being carried on by MIT fagulty and students,
+
+3« A partial support of the maintenance of the WW computer,
+
+4« Research on an investigation of digital computing machine
+
+components,
+
+It 1s understood that details of the program, which is
+necessarily evolutionary in character, will be worked out from
+
+time to time with the oclentific Officer of the OER,
+
+It 1s contemplated that $300,000 per annum for a period
+of at least two years will be required to get this program under
+way. Detail of the budget is as followss
 
 
+“3e
 
+7 $100,000 :
+pd
+me
+
+50,000 kd
 
 

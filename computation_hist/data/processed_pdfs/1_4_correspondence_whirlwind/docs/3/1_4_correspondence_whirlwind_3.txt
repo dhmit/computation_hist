@@ -1,179 +1,177 @@
 DEPARTMENT OF THE NAVY
-OFFICE or NAVAL RESEARCH
-WASHINGTON 25. D. c. m up“ um 10
+: OFFICE OF NAVAL RESEARCH
+WASHINGTON 25, D. C. NRE To
+ONR:430:FJW: jl
+Ser
 
-ONR:I.30:FJW:11
-
-Ser ,
 18619
 
-Professor P. M. Morse O. mm;
+Professor P, M, Morse «8 JUL 19%;
 Department of Physics
 
-Mass. Institute of Technology
+Mass, Institute of Technology
 
 Cambridge, Massachusetts
 
 Dear Professor Morse:
 
 Ever since our conference early in May, the problems of ONR's Whirlwind
-Program, as they emerged at that time, have been very much on my mind. By
-now, a number of ideas are beginning to crystallize which I should like to
-set down in order to get your reaction and cements.
+Program, as they emerged at that time, have been very much on my mind, By
+now, a number of ideas are beginning to crystallize which T should like to
+set down in order to get your reaction and comments,
 
 In the first place, I should like to recommend a drastic reduction, put into
-effect in the course of the next few months, as regards charges to our con-
+effect in the course of the next few months, as regards charges to our con=-
 tract for assistance and consultation furnished to current and prospective
-users of the machine. A fraction of a single person's time, and perhaps
-that even distributed over several people, should be enough. To an
+users of the machine, A fraction of a single person's time, and perhaps
+
+that even distributed over severel people, should be enough, To an
 imaginative young scientist with original ideas in his own field of interest,
--e.nd it is only this type of person which our contract should preeminently
-serve to support, —a sizeable amount of such guidance and consulting work
-must be rather deadening. Presumably MIT's academic budget could be tapped,
+——and it is only this type of person which our contract should preeminently
+serve to support, =a sizeable amount of such guidance and consulting work
+must be rather deadening, Presumably MIT's academic budget could be tapped,
 beginning as of this fall, to defray the cost of giving the periodic short
-wan-son programing and coding if past experience has shown it to be
-particularly helpful and effective. Beyond this, the user, especially if
+@urseon programming and coding if past experience has shown it to be
+particularly helpful and effective, Beyond this, the user, especially if
 engaged in academic rather than assigned research, might well be left to do
-most of the work himself, —making use of established regular courses and of
-the available literature and manuals. It is probably true that he would then
-have to spend somewhat longer on preparing his problem, partly by havhg to
+most of the work himself, —-making use of esteblished regular courses and of
+the available literature and msnuals, It is probably true that he would then
+have to spend somewhat longer on preparing his problem, partly by having to
 learn more about machine operation, partly by wasting more time in debugging
-his program. I think it would be unfortunate to consider this a reduction of
+his program, I think it would be unfortunate to consider this a reduction of
 efficiency in the use of research personnel, such a concept of efficiency
-being really not appropriate to an academic institution. The recommended
-arrangement might also have a beneficial effect as regards machine accessibil-
+being really not appropriate to an academic institution, The recommended
+arrangement might also have a beneficial effect as regards machine accessibil=-
 ity, favoring those with really consuming interests in the field over those
-with the big, so—called urgent problems.
+with the big, so-called urgent problems,
 
 Hand in hand with this reduction in the help, extended to machine users as
-part of the ONE program, I should like to recommend that charges be made for
+part of the ONR program, I should like to recommend that charges be made for
 the use of the machine on problems arising from projects which MIT is
 undertaking mainly at the convenience of industrial concerns or Government
-agencies. I think that the Committee on Machine Computations should be in a
+agencies, I think that the Committee on Machine Computations should be in a
 position to decide, in the case of problems having their origin in sponsored
-research, when to recommend. that such a charge be levied and when not.
-Large—scale machines on other campuses are earning annually from $330,000 to
-more than $50,000 in this fashion. These funds can then be used to hire
+research, when to recommend that such a charge be levied and when not,
+Lerge-scale machines on other campuses are earning annually from $30,000 to
+more than $50,000 in this fashion, These funds can then be used to hire
 
 
-0NR:430:FJW: 51
+ONR:430:FJWs j1
 
-'1861!
-«an
+18618
+8 mm
 
 personnel for the purpose of consulting with and helping such service users in
-preparing and running their problems. In this way they will get their money's
-worth, coming to the machine —-as they generally do,not because they want to
-
+prepering and running their problems, In this way They will get their money's
+worth, coming to the machine --as they generally dognot because they want to
 but because they have to, and being interested therefore in getting their re-
-sults with aslittle bother to themselves as possible. At the same time the
+sults with as little bother to themselves as possible, At the same time the
 
-positions thus created would make good Jobs for less gifted students, training
-them to become solid computer technicians.
+positions thus created would make good jobs for less gifted students, training
+them to become solid computer technicians,
 
-Professor P. M. Morse
+Professor P, M, Morse
 
 A third and somewhat more long-range recommendation would be that of upgrading
 the qualifications for the research assistantships allocated by the Committee
-on Machine Computations. Since the commitments for the academic year 1954-1955
-are already firm, this would effect only the selections made for the year
-following. The field of computer applications is rapidly ceasing to be so
+on Machine Computations, Since the commitments for the academic year 1954-1955
+are already firm, this would affect only the selections made for the year
+following, The field of computer applications is rapidly ceasing to be so
 unknown and of such novelty as to require special inducements in order to
-attract graduate students during their beginning years. I should like to pro-
-pose that the holders of these research assistantships during the year 1955—1956
-he of such a caliber that they can reasonably be expected to have produced a
+attract graduate students during their beginning years, I should like to pro-
+pose that the holders of these research assistantships during the year 1955-1956
+be of such a caliber that they can reasonably be expected to have produced a
 substantial research paper for publication by the end of the year. In case the
-body of advanced graduate students on hand at ME provides an insufficient
-number of such candidates, it might be possible and should definitely be worth—
-while to go beyond the MIT campus in the selection of incumbents. There must
+body of advanced graduate students on hand at MIT provides an insufficient
+number of such candidates, it might be possible and should definitely be worth-
+while to go beyond the MIT campus in the selection of incumbents, There must
 be a growing number of outstanding young researchers on less well equipped
 campuses, whose work is forcing them to take an even more substantial interest
-in the applications of high—speed computers. Even so we should anticipate
+in the applications of high-speed computers, Even so we should anticipate
 
-that the total number of awards will be smaller than for the coming year.
+that the total number of awards will be smaller than for the coming year,
 
-My fourth recomendation, finally, is of even longer range. If, in the long
+My fourth recommendation, finally, is of even longer range. If, in the long
 run, MIT's Digital Computer Laboratory is to compete, as far as the scientific
 substance of its work is concerned, with what is being done even now and will
 certainly be done in the near future by other university centers in the high-
 speed computing field, currently being established at a number of places, it
-seems to me inevitable that the staff of the Laboratory must acquire a strong
+seems To me inevitable that the staff of the Laboratory must acquire a strong
 faculty core, representing both the engineering and the mathematical aspects of
-its activity and relating its program closely to the corresponding depart-
-ments. These faculty members would be concerned with the academic training and
-research program, made possible by the facilities of the Ilaboratory, and all
-but nominal fractions of their salaries would come from MIT. This would give
+its activity and relating its program closely to the corresponding depart
+ments, These faculty members would be concerned with the academic training and
+research program, made possible by the facilities of the Leboratory, and all
+but nominal fractions of their salaries would come from MIT, This would give
 them, materially as well as in their thinking, the independence from Government
 and other contracts which is necessary to have them establish an imaginative
-and original program with assured long-range objectives. Such an arrangement
+and original program with assured long-range objectives, Such an arrangement
 would unquestionably lead to undertakings in whose sponsorship the Office of
-Naval Research would gladly continue to participate.
+Naval Research would gladly continue to particinate,
 
-If these, or not too different, recommendations are considered to furnish
-reasonable guide lines for the future of the Digital Computer laboratory, the
-
+If these, or not too different, recormendations are considered to furnish
+reasonable guide lines for the future of the Digital Computer Laboratory, the
 following disposition of the funds available under our contract appears to be
-indicated.
+indicated,
 
 
-0m:430§FJW:jl
+ONR:430:FJW: j1
 
-Professor P. M. Morse 1861’
-#0 II!
-(a) W
+Professor P, M, Morse 18618
 
-Codi‘rg, etc: This work appears currently to be a. lively concern of Professor
-Adams' group, is of good quality, and is being followed with considerable inter-
-est in computer circles generally. We shall be glad, therefore, to continue its
-support at apprmdnately its present level (which we understand to be about
+      
 
-five full-time people headed by Dr. Combelic) through 30 J1me 1956, but
-probably not beyond that date.
+Coding, ete: This work appears currently to be a lively concern of Professor
+Adams’ group, is of good quality, and is being followed with considerable inter-
+est in computer circles generally, We shall be glad, therefore, to continue its
+support at aporoximately its present level (which we understand to be about
+five full-time people headed by Dr, Combelic) through 30 June 1956, but
+probably not beyond that date,
 
-(b) T 3 Adv s as tive chine e s inPro
-Assisting Then 1,2, or Doig Iheir Coding: As soon as possible, and preferably
-by the beginning of the second tom of the coming academic year, charges to
-our contract for this activity should be reduced to a nominal amount of, I
-should suggest, not more than $10,000 per year. Those of the persons, in the
-past primarily engaged in this letter activity, who are interested and
-capable of carrying on original research in numerigg; msf, might be re—
-tained under the contract, provided that most of their time say two-thirds or
-more) is dedicated to such research under whatever faculty supervision is
-considered appropriate. Again, we shallbe glad to provide this support through
+(b) T snd Advis ospective Machine Users in
+ting Then or Do ir Coding: As soon es possible, and preferably
 
+by the beginning of the second term of the coming academic year, charges to
+
+our contract for this activity should be reduced to a nominal amount of, 1
+should suggest, not more than $10,000 per year, Those of the persons, in the
+past primarily engaged in this latter activity, who are interested and
+
+capable of carrying on original research in numericel eh might be re-
+tained under the contract, provided that most of their time (say two-thirds or
+more) ig dedicated to such research under whatever faculty supervision is
+considered appropriate, Again, we shall be glad to provide this support through
 30 June 1956 and shall be interested in discussing its continuation beyond that
-date at the appropriate time.
+date at the appropriate time,
 
-(c) Ehe Research Assigtggt‘ship ﬁogggm Ede:- the Qomnittee on ﬂow
-Commitgtions: For the academic year 1955-1956, the award of these assistantships
-should be restricted to candidates who can be expected to produce a. publishable
+(¢) The Research Assistantship Program under the Committee on Machine
+Computationss For the academic year 1955-1956, the award of these assistantships
+should be restricted to candidates who can be expected to produce a publishable
 piece of substantial research during their tenure, involving a sizeable effort
-of non-routine automatic computation. It does not, however, need to be re—
-stricted to advanced graduate students at hand on the MIT campus at the time.
-Even so, a. substantial reduction in level is anticipated. Continuation of our
-
+of non-routine automatic computation, It does not, however, need to be re-
+stricted to advanced graduate students at hand on the MIT campus at the time,
+Even so, a substantial reduction in level is anticipated. Continuation of our
 support for such an activity beyond 30 June 1956 would again be made to depend
-on the way things work out.
+on the way things work out,
 
 According to the figures which formed the basis of our discussions back in May,
-the unexpended balance under our contract as of 30 June 1954 was $410,000.00.
+the unexpended balance under our contract as of 30 June 1954 was $410,000,00,
 Rough estimates indicate that this should be, if anything, more than adequate
-to operate the project under the proposed plan through 30 June 1956. In case,
+to operate the project under the proposed plan through 30 June 1956, In case,
 however, an additional, certainly modest, amount should be required for this
-purpose, we shall very likely be able to provide it.
+purpose, we shall very likely be able to provide it,
 
-The principal factor on which we would want to base the consideration of con-
+The principal factor on which we would want to base the consideration of con
 tinuing our support beyond 30 June 1956 is the establishment of a central core
-of faculty members as part of the Digital Computer Laboratory's staff, charged
-with developing and conducting a strong academic program. Any arrangements for
-future support would have to wait, therefore, for the plans of such a famﬁty
-core of staff members.
+of faculty members as part of the Digital Computer Laboratoryt!s staff, charged
+with developing and conducting a strong academic program, Any arrangements for
+future support would have to wait, therefore, for the plans of such a faculty
+core of staff members,
 
-. MIT F. JOACHm mm, Directo
-gggéoggx" Adams, Mathematical Sciences
+MIT F, JOACHIM WEYL, Directg
+So = Mathematical Sciences
 
-Sincerely yours, 4/ .
-Copy to: l - me 3/6
+Sincerely yours, Ie
+Copy to: [le EC  — 7 <
 vision
 
 

@@ -1,59 +1,53 @@
-»
-
+SA
 Minutes of the Twelfth Meeting
 of the
 Committee on Machine Methods of Computation
+March 7, 1951
+Persons Present: R. R. Everett, H. Feshbach, Z. Kopal, C. Lin
+and P. Me Morse : !
 
-March '7, 1951
-
-Pezgggg gggggm a. R. EV rett Ii. Feshbach z. Kopal’ c. Lin
-and P. M? Morse ’ ’
-
-The Committee approved the recomendations of the Physics
+The Committee approved the recommendations of the Physics
 Department that
-F. J. Corbeto
+F. J. Corbato
 
-M. C. Newstein
+M, C. Newsteln
+G. Spelsman
+IL. 8S. Frishkopf
 
-G. Speisman
-1.. S. Frishkopf
-
-be appointed half—time Research Assistants in Applied Mathe-
+be appointed half-time Research Assistants in Applied Mathe-
 matics and Machine Computation for next year (Corbato beginning
-June). Mathematics and Electrical Mineering candidates will
+June). Mathematics and Electrical Engineering candidates will
 be reported on next week.
 
-Horse reported that Kopal's ONE contract for next year has
+& Horse reported that Kopal!s ONR contract for next year has
 been approved and will be supervised by Jacchia.
 
 Kopal reported that the Electrical Engineering Department
 wished to hear the Committee's opinion on the continuing of
-Uelsl'man's course in machine coding next year (Welshman has
+Welshman's course in machine coding next year (Welshman has
 left the Whirlwind project). The Committee felt that such a
-course is an important one and that it should be continued. Per—
-haps Adams of the whirlwind project could give it next year.
+course is an important one and that it should be continued. Per-
+haps Adans of the Whirlwind project could zive it next year.
+
+ 
 
 Morse reported that the Industrial Liaison Office (Mr.
-Bevans) desired to fix the program and date of the proposed Con-
-ference on the use of Largeoscale Computers in Industry. The
-first week in May appeared to be a good time. Subsequent talk
-with Mr. Bevans indicated that Wednesday—Thursday, May 2—3,
+Bavans) desired to fix the program and date of the proposed Con-
+ference on the use of Large-scale Computers in Industry. The
+first week in May eppeared to be a good time. Subsequent talk
+with Mr. Bevans indicated that Wednesday-Thursday, May 2-3;
 would be the best days. The proposal is to have Morse, Verzuh
 and Adams talk the first morning on the general question of
-machines, what they were and how they could be useda Wednesday
+machines, what they were and how they could be used. Wednesday
 afternoon could be spent in hearing about the DA and visiting
 it and Thursday morning could be spent hearing about and seeing
-whirlwind (though this order could be reversed). Bevans would
+Whirlwind (though this order could be reversed). Bevans would
 
-"Tl
 
-—m
-
-n
-
+2
 
 Minutes of the Twelfth Meeting of the
-committee on Machine Methods 0: Computation -2—
+Committee on Machine Methods of Computation A
 
 like to have short abstracts of each talk, to put in the
 program. The Committee will have to reach final decisions
@@ -61,8 +55,8 @@ on this program next week.
 
 The next meeting of the Committee will be Wednesday morn-
 
-ing, March 14, at 10:00 11.14.
-Puniﬁ. Morse,
+ing, March 14, at 10:00 A.M.
+Philip. orse,
 
 Chairman
 

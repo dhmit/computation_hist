@@ -1,192 +1,154 @@
-/
+mt rm pw my Rs BT TW ST pf NRTA LES we te a nk Pg WN SI Tr © © TT CI ENT Te eae IN RA NI
+» ' < AZ
 
-Computation APPLICATION FORM FOR COMPUTER USAGE
+ 
 
-    
-     
-  
-  
-      
+| Computation APPLICATION FORM FOR COMPUTER USAGE Page 1 of 2
+MIT
 
-‘ Page 1 of 2
-‘ MIT
 Center (To be submitted to Institutional Representative or
-
 MIT Department Representative. Please type)
 
-   
-
-  
-    
-   
-   
- 
-  
-
-1.
-
-  
-
-Applicant:
-
-    
-
-(Not to be filled
-in by applicant)
-
  
 
-Name, Title, Dept., and Institution:
-
- 
-
+: 1. Applicant: (Not to be filled
+| Name, Title, Dept., and Institution: in by applicant)
 Prob. No.
+
+ 
+
 Programmer's No.
+
+ 
+
 Address:
 
 Phone No.:
 
-   
-     
-   
-  
-  
-
-2. Problem Title:
-
-   
+2, Problem Title:
+i] Init, Date:
 
  
 
  
-
-Init. Date:
 
 3. Programmer(s): (if applicant, write "applicant"; append supplementary
-sheet if necessary)
+sheet if necessary) Term. Date:
 
-  
-  
+a, Name, title, and programming experience on high speed machines:
 
-    
- 
-  
-     
-   
-
-Term. Date:
-
-a. Name, title, and programming experience on high speed machines:
-
-  
-
-Inst.Rep. or MIT
+Inst.Rep., or MIT
 Dept. Head Approval:
+
+ 
+
+ 
 
 Address:
 
-    
-  
  
 
-Comp. Center
-Approval:
+| Comp. Center
 
-  
-
-Phone No.:
+Phone No.: | Approval:
 
  
 
-       
- 
-     
-     
-   
-    
-   
-  
-      
-     
-        
-   
-   
-
- 
+at Tl i raion Fi eit Bnei fons Bd Wid
 
 b. Name, title, and programming experience on high speed machines:
 
-Comp. Center
+|
+
+i Comp, Center
+
+ 
+
+ 
+
+ 
+
 Estimates:
+| Address:
+| Phone No,:
+4. Sponsor: (e.g., faculty advisor, thesis supervisor, project leader,
+ete.) | Publications:
 
-Phone N0.:
-
-Sponsor: (e.g., faculty advisor, thesis supervisor, project leader,
-
-etc.) 'Publications:
-Name and title: ‘
-
- 
-
-Signature of Sponsor signifying approval of this work:
+Name and title:
 
  
 
-What is the purpose of this work? (e.g., educational, faculty
-research, thesis (specify); if supported research project, give
+5. Signature of Sponsor signifying approval of this work: |
+
+|
+
+ 
+
+6. What is the purpose of this work? (e.g., educational, faculty |
+research, thesis (specify); if supported research project, give |
 contract number:
 
- 
-
- 
-
-Do you intend to publish the results and if so where? (e.g., thesis,
+| Total Mach, Time
+| Used:
+7. Do you intend to publish the results and if so where? (e.g., thesis, |
 name of progress report, etc.)
 
-Does the programmer(s) intend to do all the programming?
-
-
-9- D095 the programmer(s) intend to prepare the input cards?
+ 
 
  
 
-10. If the answer to 8 or 9 is no, what plans have Yo“?
+ 
+
+8. Does the programmer(s) intend to do all the programming?
+
+CCF-2 | |
+
+
+10,
+
+13
+12,
+L3%
+
+14,
 
  
 
-  
  
+
+Page 2
+
+Does the programmer(s) intend to prepare the input cards?
+If the answer to 8 or 9 is no, what plans have you?
+
+EE ——————————————————————————————————————— ————————————————————————————————————————————————————————————————————————— =~
 
 (Ordinarily, programming and card punching have to be done by the programmer. If
 assistance is needed from the Center, special arrangements have to be made.)
 
-11. When will program testing probably start?
-
-12. Estimate of machine hours required for testing program:
+When will program testing probably start?
 
  
 
-13. Estimate of machine hours to complete production runs from tested program:
+Estimate of machine hours required for testing program:
+
+Estimate of machine hours to complete production runs from tested program:
 
  
 
- 
-
-14. For cataloging purposes, how would you index this problem? For example, mathema—
+For cataloging purposes, how would you index this problem? For example, mathema-
 tics, logic, game, etc. If this is a mathematical problem, specify type(s) such
 as integration, partial differential equations, matrix theory, etc.
 
  
 
- 
-
-15. If this is a mathematical problem, specify numerical methods used, such as
-Gauss' quadrature methodI difference equations, Crout, etc.
+If this is a mathematical problem, specify numerical methods used, such as
+Gauss' quadrature method, difference equations, Crout, etc.
 
  
 
-16. On one or two additional sheets write sections A, B, and C as follows:
-Section A: A one—paragraph abstract of Section B and C.
+On one or two additional sheets write sections A, B, and C as follows:
+Section A: A one-paragraph abstract of Section B and C.
 
 Section B: Complete description of problem background which should give com-
 plete picture to someone well acquainted with the relevent
@@ -194,368 +156,414 @@ field of research. Give references to earlier or relateu work and
 indicate relation to this work.
 
 Section C: Description of numerical and computer techniques to be used, and
-Justification of their adequacy or indication of how adequacy is
+justification of their adequacy or indication of how adequacy is
 to be determined. This description should include, when perti-
 nent, the number of significant figures accuracy required at
 various stages of the calculation and the ranges and values of
 the quantities involved in sufficient detail so that program
 complexity may be estimated. In addition, indicate how you
 plan to test the programs and whether you have test cases
-available.
-
-CCF—Z
+available,
 
 
-Computation APPLICATION FORM FOR COMPUTER USAGE Page 1 of 2
+Computation APPLICATION FORM FOR COMPUTER USAGE
 MIT
 Center (To be submitted to Institutional Representative or
+MIT Department Representative, Please type)
+1. ‘Applicant:
 
-MIT Department Representative. Please type)
+Name, Title, Dept., and Institution:
 
-      
-   
-   
-   
- 
- 
-  
-  
-     
- 
-     
- 
-     
-     
-     
- 
-   
-   
-   
+EEE —————————————————————————————————————————————————————————————
+EEE ———————————————————————————————————————————————————————————————
 
-Applicant: (Not to be filled
-
-Name, Title, Dept., and Institution: in by applicant)
-
-Prob. No.
-
-Programmer's No.
 Address:
-_________a__._._____.____________________________________
+EE ———————————————————————————————————————————————————————————————————————————————————————————————————————————
 Phone No.:
 
  
 
-2. Problem Title:
+ 
 
-———-——.—_—_—_——__
+Problem Title:
 
-Init. Date:
+EE ——————————————————————————————————————————————————————————————————
 
-  
-
-_______________________________.__________________________________
-3. Programmer(s): (if applicant, write ”applicant"; append supplementary
-
-sheet if necessary) Term. Date:
+ad He Se NR eet de See ee Bali Sa ie Ys
+Programmer(s): (if applicant, write "applicant"; append supplementary
+sheet if necessary)
 
 a. Name, title, and programming experience on high speed machines:
 
-Inst.Rep. or MIT
-Dept. Head Approval:
+EEE ——————————————————————————————————————————————————————————————————————————————
 
-M
-
-H
+EE —— EE ————————————————————————————————————
 
 Address:
-__._________________________________________________
+ee cat at ee ah oo oT Ly
 
 Phone No.:
 
-———_——_
+'b. Name, title, and programming experience on high speed machines:
 
-.b. Name, title, and programming experience on high speed machines:
+ 
+
+EE ———————————————————— ————————————————————————————————————————e eet eee eee
+
+Address:
+
+Phone No.,:
+
+ 
+
+ 
+
+Sponsor: (e.g., faculty advisor, thesis supervisor, project leader,
+
+etc.)
+
+Name and title:
+Signature of Sponsor signifying approval of this work:
+eS te ee et RN SE SER i Be A eS AF DS ed
+What is the purpose of this work? (e.g., educational, faculty
+research, thesis (specify); if supported research project, give
+contract number:
+ee etme a i SS oii i le ys Ein Ll i a et ai
+i nse db me Pa ol omit ol wh Te
+
+Do you intend to publish the results and if so where? (e.g., thesis,
+name of progress report, etc.)
+
+EE
+EE ———————————————————————————————————————————————ete eee SS ————et ee
+
+Does the programmer(s) intend to do all the programming?
+
+'CCF-2
+
+ 
+
+TNS LTT
+
+  
+
+Page 1 of 2
+
+(Not to be filled
+in by applicant)
+
+Prob. No.
+
+Programmer's No,
+
+ 
+
+ 
+
+ 
+
+Init, Date:
+
+ 
+
+Term, Date:
+
+Inst.Rep., or MIT
+
+Dept. Head Approval:
+
+ 
 
 Comp. Center
 Approval:
 
  
 
-M Comp. Center
+| Comp, Center
+
+EE ————————— eee tee eet |
+EE ————————————————————————————————————————————————————————————— |
+
+Estimates:
 
  
 
  
 
-{Estimatesz
-Address:
-Phone No.:
-Sponsor: (e.g., faculty advisor, thesis supervisor, project leader,
-etc.) :Publications:
+| Publications:
 
-Name and title:
+EE —————————————————————————————————————————————————————————————— \
 
  
 
-Signature of Sponsor signifying approval of this work:
-
- 
-
-What is the purpose of this work? (e.g., educational, faculty
-
-research, thesis (specify); if supported research project, give
-contract number:
-
-Total Mach. Time
+Total Mach, Time
 Used:
 
+
+11,
+12,
+13.
+
+14.
+
+15.
+
+16,
+
  
 
-Do you intend to publish the results and if so where? (e.g., thesis,
-name of progress report, etc.)
-
  
 
+If the answer to 8 or 9 is no, what plans have you?
+
  
-
-Does the programmer(s) intend to do all the programming?
-
-CCF—Z
-
-
-10. If the answer to 8 or 9 is no, what plans have you?
 
  
 
 (Ordinarily, programming and card punching have to be done by the programmer. If
 assistance is needed from the Center, special arrangements have to be made.)
 
-11. When will program testing probably start?
-12. Estimate of machine hours required for testing program:
-
-13. Estimate of machine hours to complete production runs from tested program:
+When will program testing probably start?
 
  
 
+Estimate of machine hours required for testing program:
+
+Estimate of machine hours to complete production runs from tested program:
+
  
 
-14. For cataloging purposes, how would you index this problem? For example, mathema—
+For cataloging purposes, how would you index this problem? For example, mathema-
 tics, logic, game, etc. If this is a mathematical problem, specify type(s) such
 as integration, partial differential equations, matrix theory, etc.
 
  
 
-15. If this is a mathematical problem, specify numerical methods used, such as
-Gauss' quadrature method, difference equations, Crout, etc.
+If this is a mathematical problem, specify numerical methods used, such as
+Gauss' quadrature method, difference equations, Crout, etc,
 
  
 
-16. On one or two additional sheets write sections A, B, and C as follows:
+On one or two additional sheets write sections A, B, and C as follows:
 Section A: A one-paragraph abstract of Section B and C.
 
 Section B: Complete description of problem background which should give com-
-plete picture to someone well acquainted with the releVent
-
-field of research. Give references to earlier or reiateu work and
+plete picture to someone well acquainted with the relevent
+field of research. Give references to earlier or relateu work and
 indicate relation to this work.
 
 Section C: Description of numerical and computer techniques to be used, and
 justification of their adequacy or indication of how adequacy is
-to be determined. This description should include, when perti—
-nent, the number of significant figures accuracy required at
-various stages of the calculation and the ranges and values of
-the quantities involved in sufficient detail so that program
-complexity may be estimated. In addition, indicate how you
-
-plan to test the programs and whether you have test cases
-available.
-
-‘ CCF-Z
-
-
--mputat10n APPLICATION FORM FOR COMPUTER USAGE Page 1 of 2
-
-MIT
-Center (To be submitted to Institutional Representative or
-MIT Department Representative. Please type)
-1. Applicant: (Not to be filled
-
-_ . in b a licant
-Name, Title, Dept., and Institution: y pp )
-
- 
-
-Prob. No.
-
-_______________________.__________.._______________________._
-Programmer's No.
-
--————_—_._._._——___—
-
-Address:
-
-Phone No.:
-
- 
-
- 
-
- 
-
- 
-
-2. Problem Title:
-
- 
-
- 
-
-lnit. Date:
-______________________________________________________________
-3. Programmer(s): (if applicant, write ”applicant"; append supplementary
-sheet if necessary) Term. Date:
-
-a. Name, title. and programming experience on high speed machines:
-
- 
-
-Inst.Rep. or MIT
-Dept. Head Approval:
-______________________________________________________________________
-
-Address:
-______..____________________________________________.______
-
-Phone No.:
-
-b. Name, title, and programming experience on high speed machines:
-
- 
-
-‘Comp. Center
-Approval:
-
- 
-
- 
-
-m Comp. Center
-
-lEstimates:
-—--——---—~—--—-——-———--———-————-—-—-—————-———-—-——————-,
-Address: ‘
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-_________________________________________________ ,
-Phone No.:
-4. Sponsor: (e.g., faculty advisor, thesis supervisor, project leader, I
-etc.) fPublications:
-Name and title: L
-___________________________________________________.______
-5. Signature of Sponsor signifying approval of this work: ‘
-6. What is the purpose of this work? (e.g., educational, faculty é
-research, thesis (specify); if supported research project, give '
-contract number:
-\
-‘Total Mach. Time
-Used:
-
- 
-
- 
-
-7. Do you intend to publish the results and if so where? (e.g., thesis,
-name of progress report, etc.)
-
- 
-
- 
-
-H!
-
-8. Does the programmer(s) intend to do all the programming?
-
-CCF—2
-
-
-Q
-.4,
-.,
-.
-
-,9
-
-Page 2
-
-9. Does the programmer(s) intend to prepare the input cards?
-
-10. If the answer to 8 or 9 is no, what plans have you?
-
-(Ordinarily, programming and card punching have to be done by the programmer. If
-assistance is needed from the Center, special arrangements have to be made.)
-
-11. When will program testing probably start?
-
- 
-
-12. Estimate of machine hours required for testing program:
-
- 
-
- 
-
-13. Estimate of machine hours to complete production runs from tested program:
-
- 
-
- 
-
-14. For cataloging purposes, how would you index this problem? For example, mathema-
-tics, logic, game, etc. If this is a mathematical problem, specify type(s) such
-as integration, partial differential equations, matrix theory, etc.
-
- 
-
-15. If this is a mathematical problem, specify numerical methods used, such as
-Gauss' quadrature method, difference equations, Crout, etc.
-
- 
-
-16. On one or two additional sheets write sections A, B, and C as follows:
-Section A: A one—paragraph abstract of Section B and C.
-
-Section B: Complete description of problem background which should give com-
-plete picture to someone well acquainted with the relevent
-field of research. Give references to earlier or related work and
-indicate relation to this work.
-
-Section C: Description of numerical and computer techniques to be used, and
-Justification of their adequacy or indication of how adequacy is
 to be determined. This description should include, when perti-
 nent, the number of significant figures accuracy required at
 various stages of the calculation and the ranges and values of
 the quantities involved in sufficient detail so that program
 complexity may be estimated. In addition, indicate how you
-plan to test the programs and whether you have test cases
-available.
 
-CCF—Z
+plan to test the programs and whether you have test cases
+available,
+
+
+ad
+
+1.
+
+2,
+
+3.
+
+  
+
+F<
+
+ee ae E Es | -——— BET Re TN eA 3 5S ate - L- a IESE = Tet, > TY “ary A TR TTT oN Ee %
+’ re a Vie TEC = ons = 5 : " . Fr
+
+>
+
+¥
+-
+
+pmputation APPLICATION FORM FOR COMPUTER USAGE
+
+MIT
+Center (To be submitted to Institutional Representative or
+
+MIT Department Representative, Please type)
+
+Applicant:
+Name, Title, Dept., and Institution:
+
+ 
+
+EE ——————————————————————————————————————————————————————————————
+
+A ————————————————————————————————————————————————————————————
+
+Address:
+Ee ——————————  ———————————————————————————————————————————————————————
+
+Phone No.:
+
+ 
+
+Problem Title:
+
+EE —
+
+—_—
+
+Page 1 of 2
+
+(Not to be filled
+in by applicant)
+
+Prob. No.
+
+Programmer's No,
+
+ 
+
+ 
+
+ 
+
+Init, Date:
+
+Ee ——
+
+Programmer(s): (if applicant, write "applicant"; append supplementary
+sheet if necessary)
+
+a. Name, title, and programming experience on high speed machines:
+
+EE —————————————————————————————————————————————————————————————————————————————————————
+
+EE ———————————————————————————————————— ———————————————————————————————————————————————
+
+Address:
+ne ph me es 8 ia is eins ps illo
+
+Phone No.,:
+
+b. Name, title, and programming experience on high speed machines:
+
+ 
+
+EE ——————————————————————————————————————————————————————————————————————————————————————————
+
+EE ———————— ————————————————————————————————————————————————————————————————————————
+
+Address:
+ee Gil rut idl por
+
+Phone No.:
+
+ 
+
+ 
+
+Sponsor: (e.g., faculty advisor, thesis supervisor, project leader,
+etc,)
+
+Name and title:
+
+ 
+
+Term, Date:
+
+Inst.Rep, or MIT
+Dept. Head Approval:
+
+ 
+
+Comp. Center
+Approval:
+
+t Comp, Center
+| Estimates:
+
+ 
+
+ 
+
+ 
+
+| Publications:
+
+!
+
+EE ——————————————————————————————————————————————————————————————————————— !
+
+Signature of Sponsor signifying approval of this work:
+
+Ts
+What is the purpose of this work? (e.g., educational, faculty
+research, thesis (specify); if supported research project, give
+contract number:
+
+eet ee eee eee eee tee ee ei le
+
+Ry CN ee ay
+
+Do you intend to publish the results and if so where? (e.g., thesis,
+name of progress report, etc.)
+timer Ta ST ee ee nn ai he aa ie i a
+
+Does the programmer(s) intend to do all the programming?
+
+CCF-2
+
+:
+
+T
+
+ 
+
+i Total Mach. Time
+Used:
+
+
+9 Does the programmer(s) intend to prepare the input cards?
+
+10, If the answer to 8 or 9 is no, what plans have you?
+
+SEC ol Sean cE CRS it tems a ete
+(Ordinarily, programming and card punching have to be done by the programmer. If
+assistance is needed from the Center, special arrangements have to be made.)
+
+11. When will program testing probably start?
+
+12, Estimate of machine hours required for testing program:
+
+13. Estimate of machine hours to complete production runs from tested program:
+
+14, For cataloging purposes, how would you index this problem? For example, mathema-
+tics, logic, game, etc. If this is a mathematical problem, specify type(s) such
+as integration, partial differential equations, matrix theory, etc.
+
+15, If this is a mathematical problem, specify numerical methods used, such as
+Gauss' quadrature method, difference equations, Crout, etc,
+
+16. On one or two additional sheets write sections A, B, and C as follows:
+
+Section A: A one-paragraph abstract of Section B and C.
+
+Section B: Complete description of problem background which should give com-
+plete picture to someone well acquainted with the relevent
+field of research. Give references to earlier or relateu work and
+indicate relation to this work.
+
+Section C: Description of numerical and computer techniques to be used, and
+justification of their adequacy or indication of how adequacy is
+to be determined. This description should include, when perti-
+nent, the number of significant figures accuracy required at
+various stages of the calculation and the ranges and values of
+the quantities involved in sufficient detail so that program
+complexity may be estimated, In addition, indicate how you
+plan to test the programs and whether you have test cases
+available,
+
+CCF-2
 
 

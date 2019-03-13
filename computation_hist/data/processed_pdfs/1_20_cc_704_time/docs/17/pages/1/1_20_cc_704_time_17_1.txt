@@ -1,6 +1,35 @@
-————
+T gt e T e T B T e T T S L T ey
 
-Goapmtatioz
+Computation
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+MIT 794 PERFORMANCE REQUEST & RESULT SHEET
+Center
+Problem Ne. Date Sabmitted by
+Approved by Phoze Address 5
+(schedualer) (if results are to be mailcd)
+
+O 8hort Rer (5 mim.or less) UProgrammer must be preseat O Program stop automatically on:
+4 1 (appointment necessary) (1) in reg. {oct.)
+(lLong Rua Fin. (2) ia reg. (oct.)
+[l Preductiorn Rum min,. (Stop manwally after ain, (3) in reg. (oct.)
+
+ 
+
+Auxiliary Equipment Required |80c.Bdore Usjl Results(filled im by operators)
 
  
 
@@ -14,33 +43,24 @@ Goapmtatioz
 
  
 
-  
  
+
  
-  
+
+ 
    
 
- 
+    
 
-KIT 79% PERFORMANCE REQUEST 8:. RESET SHEET
-Canter
-Problem No. Date Suinitted by
-Approved by Phone Address __
-(scheduler) (if results are to be waned)
-W
-UBhort Ban (5 m. or loasNZlProenmer not be present 0 Program stop automatically on:
-. . (annulment locum) (1)___ in re». (oct. )
-Um Run an. (2) :21 reg. (not)
-UProdnction Bun I“. 051191: usually after I18. (3) #11: reg. (oct.)
-W
-Auxiliary Bquimt acquired ﬁrmware 3le Resultsunlod in by operators?)
-DD“. Pruitt: No. Line. In
-0011-. Punch No. Cord! Inc
-USeope a Ho. Prams INST.
+  
 
  
 
-Ell-guide Top.
+ 
+
+ 
+
+  
 
  
 
@@ -52,32 +72,13 @@ Ell-guide Top.
 
  
 
-noel no. Unit No. Umtmtic stop
-V ‘ ,, ———“— Limaual stop after min. of
-_._._____._ counter. "‘
-~ Cements:
-Output ‘ it -..t a.
+ 
 
  
 
  
 
  
- 
-
- 
-
-don: » cm
-prnu- Gathers:
-an;
-
-. Uothar
-
-Porfomnce Instructions
-
- 
-
-l
 
  
 
@@ -89,30 +90,26 @@ l
 
  
 
-W
-
- 
-
-. MW”—
-
-Post—Mortem instruction:
-
- 
-
- 
-
+[(JDir. Printer No. Lines MQ
+()Dir. Puach Fo. Cards PR
+OSeope & Ho, Frames e | "imer,
+Oiagretic Tape
+Reel FRo. Urnit No. O Automatic stop
+TR e {l Momual etop after mim, of
+e computer, o
+- Commpents:
+mtmt ' 1t 0. 7:0!'_‘
+delayed (IR
+primter Uothers
+delayed UM
+puneck Ucther ‘
+Performance Imnstructions
+Pogt-Hortemn Instructiond
+N S R e LT e e Mol B B R dar oo e s sl e o e et e L e B
 Started
-Completed
+Coampletad
 Started
 
  
 
- 
-
- 
-
- 
-
- 
-
-Gomyletad
+Coapletad

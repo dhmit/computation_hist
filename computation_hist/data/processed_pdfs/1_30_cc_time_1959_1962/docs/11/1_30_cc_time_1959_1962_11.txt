@@ -1,93 +1,95 @@
-'1
+—
 
-' Joint Comgutmg Groug
+Joint Computing Group
 
-Time Recatd January 31, 1961
+Time Record January 31, 1961
 
-December a 19 60
-
- 
+December, 1960
 
  
 
  
-
- 
-
- 
-      
- 
-
- 
-
-    
 
  
 
 Hours in Total
-Prob. No. L . Reguested 3! Dec . Hours
-1088 OR B. Gallihez 94 2797
-1143 ms A. Tubis 142 1554
-1150 ms W. Buschner 17 275
-1151 ms J. Linaley 13 348 7
+Prob. No. Lab. Requested By Dec, Hours
+1088 OR H. CGalliher 94 2797
+1143 LNS A. Tubis 142 1554
+1150 LNS W. Buechner 17 275
+1151 LNS J. Lingley 13 348
 1157 LNS A. Schappert 123 606
-1160 LNS C . Yang-Bu 62 391:
-1163 HIS H. Feahbach 31 210
-1175 ms C . Sharkin 41 231
-11 76 LNS R. Fret-1mm: 156 364
-1178 RLE J . Hershfield 22 160
-1180 KL): R . Kyhl 7 37
-1181 LNS E . Lab 31 39
-1182 RLE S . Piacsek 33 33
-1183 KHZ S . Levine 4-6 46
-11399 Disgriiaution
-Label-12:93:; ELLE. L.N.S. 5.8. 0.12.
-Hours Employed 312 5156 0 78
-108 616 0 94
-20 69 0 5
-0 3 0 3
-o o o 1 o
-15 4 O A
-To :1]: 138 692 O 106
-Hours Eiot Used 171+
-Hourn Overdtm‘ra 1156 28
-Cumul ' ve Noun; ﬁat Used 8612 455:. 1141
-2463
-Lab . 29-281 Hm
-LNS 1' . 5 . i5 19 . 75
-L115 E . ' 3
-L113 )1. 162 . 5
-LNS E}, . 89 . 75
-'IJ'YS L. ich 80.25
-LES E1. Feahbach 33.75
-[3.1.13 5. LUV-"“9 13.75 13.75
-RLE E . Kyhl l . 25 18 .5
-Total 71 , ' -
+1160 INS C. Yang-Hu 62 394
+1163 LNS H. Feshbach 31 210
+1175 LNS C. Sharkin 41 231
+1176 LNS R. Freeman 156 364
+1178 RLE J. Hershfield 22 160
+1180 RLE BR. Kyhl 7 37
+1181 LNS E. Loh 31 39
+1182 RLE S. Placsek 33 33
+1183 RLE S. Levine 40 46
+Time Distribution
+Laboratory R.L.E. L.N.S. S.8. O.R,
+Hours Employed 312 346 0 78
+Hours Uged
+Computing 108 616 0 924
+Overhead 20 69 0 >
+Sick Leave Oo 3 0 3
+Vacation 0 0 0 1 0
+Clagges 10 &b O 4
+Total 138 692 0 106
+Hours Not Used 174
+Hours Overdrawn 146 28
+Cumulative Hours Not Used 868 454 1141
+Cumulative Hours Overdrawn 2463
+LCP-30 Time Record
+Lab. User Hours Total Hours
+LLNS I. Pless DelS5 19.75
+LNS FE. 0h 26 32
+LYS M. Deutsch 7.25 162.5
+LNS HH. Lutz 1:35 82.75
+"LNS S. Westreich ol 80.25
+LNS BH. Feshbach 4.75 33.75
+RLE &. Levine 13.75 13.75
+RLE R. Kyhl 1.25 18.5
+
+ 
+
+Total
+
+~J
+ta
 
 
-Act :11
+Act IIT
 
 Maintenance
 
  
 
-Joint Comguting Grow)
+Hours
 
-Time Regcozd
+67.0
+17.25
 
-December a 19 60
+Joint Computing Gzoun
+ra ts STIs ¢ won eee He
 
-Cent. Eggs; 2.
+Time Recoxd
+
+December, 1960
+
+Cont. Page 2.
 
 22.25
 
 8
 
-mgﬂiﬂgratorieo
+Use By Laboratories
 
-Hours Totalggggg
-67 . 0 121m . 5
+Total Hours
+1246.5
 
-17.25 466.5
+466.5
 
 

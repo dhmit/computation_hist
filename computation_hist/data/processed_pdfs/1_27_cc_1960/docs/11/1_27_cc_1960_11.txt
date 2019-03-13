@@ -1,80 +1,71 @@
-.»0“£ mrqufwy
+\_
+{ N No)
 
-96 M
+Suggestions to memorandum re replacement of 704
 
-page 1,
-
-page 2,
-
-page 3:
-
-page 3:
-
-page 4,
-
- 
-
- 
-
-Suggestions to memorandum re replacement of 19%
-
-par. 1, line 10: from "computing machines," to
+page 1, par. 1, line 10: from "computing machines," to
 "computing machines effectively, .." (Teager)
 
-line 12: instead of "familiar with” use
-".able to exploit..." (Teager)
-last line: change ”...linking" to ,
-”..linking segment subprogram" (Corbato)
-end of second par. Insert (Teager)
+line 12: instead of "familiar with" use
 
-K
+" able to exploit..." (Teager)
 
-par 3,
+page 2, last line: change ‘i... linking" to :
+",.linking segment subprogram" (Corbato)
 
-par 2,
+page 3, end of second par. Insert (Teager)
 
 ". The advantage of such a technique is
 
 that it opens up the very vast, and unexplored,
-area of man—machine partnernship in communication
+area of man-machine partnernship in communication
 and decision in real time, without any penalty in
+
 machine efficiency or capability. These techniques
+
 will, by making a computer far more accessible and
 communicative, not only open up new research areas
+
 as indicated below, but in addition, will sub-
 stantially improve the process of producing and
-checking computer programs."
+Sim A computer programs."
 
-"..The ultimate goal is to make the fastest (Corbato)
+"_ .The ultimate goal is to make the fastest
 and most sophisticated computer as accessible and
-convenient to a person debugging a program as, say,
+
+(Corbato)
+
+convenient to a person debugging a program as, Say,
 
 a telephone booth would be. This revolutionary
-change from present—day operational technique will
+
+change from present-day operational technique will
+
 greatly enhance the attractiveness of large computers
 since many programs will be debugged and run in only
 
 a few days or weeks instead of the typical months
 required now."
 
-line 2: instead of .."grading examinations and..."
+page 3, par 3, line 2: instead of .."grading examinations ands:
 
-change to read "...grading examinations, scheduling
+change to read "...grading examingfions, scheduling
 classrooms, classes, and students, and”
 
-(Teager)
-
-line 14: to read "..and ancillary equipment.." (Teager)
+page 4, par 2, line 14: to read "..and ancillary equipment. ."
 
 General comment by Teager:
 
-Well put — I would only add one point: - it may well turn
-out to be necessary to make minor modifications to the 7090
-itself.
+Well put - I would only add one point: - 1t may well turn
+out. to be necessary to make minor modifications to the T7090
 
-We, of course, would do whatever engineering was necessar ,
-with feedback to IBM people (to their advantage, perhap51§
+(Teager)
 
-Should the groundwork for this be laid at this point?
+(Teager)
+
+itself. Should the groundwork for this be laid at this point?
+
+We, of course, would do whatever engineering was necessary,
+with feedback to IBM people (to their advantage, se
 
 

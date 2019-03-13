@@ -1,20 +1,11 @@
-mama;
-To 82153:»... , Comments
-
-MAR 2 7 ‘35?
-
- 
-
 ROUTING SHEET
 
-W111 recipients please check off their names, make appro-
-priate comments, and send the material on to the next person on
+Will recipients please check off their names, make appro-
+priatz comments, and send the material on to the next person on
 
 the list. Will the last on the list please return it to me.
 
-P. M. Morse, Room 6-109, ext. 857
-
-Claw ?
+Ee. c
 
  
 
@@ -22,58 +13,65 @@ Claw ?
 
  
 
-E. M. YERZUH
+RECEIVES |
+To 3 Fl , Comments
+MAR 2 7 1957 | \ = : =
+On INCWVAWLA OAT La AQ uD bh od Weehiv wl.
+F, M. VERZUH | \
 
  
 
-To ﬁr®\§.w , C‘M‘Ejr’el’s‘as
+To Comments
+
+EE a ————— aera
+PE Ter Tr Ir TIT Sai at i fe SR ETE TE LE Te Ei BCS TT Ta SE CG SR CSAS Ste
 
  
 
- 
+i ——— es ———————————————————
+EE —  ——————————————— i — ————————
 
- 
-
-To , Comments
+To s Comments
+ee Se 7 0 on. FT as. se Are ee es ema ms SSS a RT
 
 
 INTERNATIONAL BUSINESS MACHINES CORPORATION
 
 APPLIED SCIENCE RESEARCH
 
-67a MASSACHUSEYTS sznue CAMER‘DGE as. MASSACNUSSTTS KIRKLAND 7»2140
+678 MASSACHUSETTS AVENUE CAMBRIDGE 39, MASSACHUSETTS KIRKLAND 7-2440
 
 March 22, 1957
 
 Dr. Philip Morse
 
 Director, Computation Center
-Building 6— 109
+Building 6-109
 
 Massachusetts Institute of Technology
 Cambridge 39, Massachusetts
 
-Dear Dr. Morse:
+Dear Dr, Morse:
 
 The purpose of this letter is to set down on paper some of the
 thoughts expressed and decisions reached in past meetings with Dr. Verzuh
-and Dr. Arden. The attached table is the final schedule drafted and mutually
-approved last month. It is based on three—shift operation. The machine
+and Dr, Arden. The attached table is the final schedule drafted and mutually
+approved last month. It is based on three-shift operation. The machine
 times of MIT and the other New England schools are lumped together as
 UNIV, with the implicit understanding that this time is to be distributed
-equitably between the two groups on a share—desirable—hours basis. One
-morning and one late evening period of 3. 5 hours duration each enable
+equitably between the two groups on a share-desirable-hours basis. One
+morning and one late evening period of 3.5 hours duration each enable
 them to make lengthy production runs. ASR designates the IBM Applied
 Science Research usage, while PM represents the approximate time anti-
 cipated for preventive maintenance.
 
 During the early weeks of the installation, it appears likely that the
-work load will be modest enough to permit two- shift operation. In this event,
+work load will be modest enough to permit two-shift operation. In this event,
 our suggestion would be to suspend machine usage at midnight and pool the
-ASR time with the time allotted as above to the New England schools. Under
+ASR time with the time allotted as above to the New England schools. Under lo :
 this plan, 6 hours are retained by MIT, 3 hours are conservatively reserved
 
-for preventive maintenance, and the remaining 7. 5 hours are shared by the
+for preventive maintenance, and the remaining 7.5 hours are shared by the
 other two groups.
 
 It has been agreed that two 704 operators will be employed for each
@@ -82,22 +80,20 @@ working on the first two shifts are to be hired by MIT through IBM funds,
 while the two operators for the last shift are part of the Applied Science
 Research staff. The two sets of MIT operators will work from 8:30 a.m.
 
-‘D \
-WORLD HEADQUARTERS 590 MAD‘SON AVEENf/utﬁ 5vonx 22,N.Y.,TELEPHONE PLAZA 3-l900
+IR]
 
- 
+=
+I
+A
+WORLD HEADQUARTERS: S590 MADISON AV ee) Ew von 22, N. Y., TELEPHONE PLAZA 3-1900
 
--____—_—
 
-
-Dr. Philip Morse _2_
-
-March 22, 1957
+Dr. Philip Morse - March 22, 1957
 
 to 11:30 p.m. The ASR operators will work from 11:00 p.m. to 7:45 a.m.,
-thus covering a portion of the UNIV machine time. This permits the MIT
+thus covering a portion of the UNIV machine time, This permits the MIT
 operators to leave before midnight and make their transportation connections.
-For the preliminary two— shift operation, it is suggested that the first shift
+For the preliminary two-shift operation, it is suggested that the first shift
 
 be manned by MIT operators and the second shift by ASR operators, so that
 full MIT employment can be postponed for the time being.
@@ -114,27 +110,18 @@ operation of the MIT Computation Center.
 
 Very truly yours,
 
-W/Q/yé‘y
+P20 _Krnt en
 
 Martin Greenberger
 
-, gram
-
-. F. Blackburn
-
- 
-
-  
-   
- 
-
-Mszn
+77 dis F. Blackburn
+MG:jn
 Attachment
 
 cc Dr. Dean Arden
 Dr. C. R. DeCarlo
 Dr. Mel Shader
-Mr. D. T. Spaulding
+Mr. D. T, Spaulding
 Dr. Frank Verzuh
 
 
@@ -144,11 +131,11 @@ UNIV
 
 ASR
 
-U NIV
+UNIV
 
 ASR
 
-U NIV
+UNIV
 
 ASR
 
@@ -160,49 +147,51 @@ UNIV
 
 ASR
 
-7:30 -
+Te 30 =
 
 9:30 -
 
 1:00 -
 
-2:00 —
+2:00 -
 
 4:00 -
 
 5:00 -
 
-6:30 —
+6:30 -
 
-7:30 -
+1:30 -
 
-9:00 —
+9:00 -
 
 10:00 -
 
 1:30 -
 
-T otals
+Totals
 
 9:30 a.m.
-1:00 p.m.
+1:00 psa
 2:00 p.m.
 4:00 p.m.
-5:00 p.111.
+5:00 p.m.
 6:30 p.m.
-7:30 p.m.
+1:30 p.m.
 9:00 p.m.
 10:00 p.m.
-1:30 a..m.
+1:30 a.m.
 
-7:30 a.m.
+1:30 a.m:
 
- 
+UNIV
 
-1.5
+Jo)
 
-3.5
+12.0
 
-12.0 3 9
+PM
+
+ASR
 
 

@@ -1,53 +1,63 @@
-‘
+TREIP REPORT
 
-TRIP REPORT
+Plgce Visited: I. B. M. Corporation
 
-9 Place Visited: I. B. M. Corporation
-9 590 Madison Avenue
-New York 22, New York Tel: Plaza 3-1900
+590 Madison Avenue
+New York 22, New York Tel: Plaza 3-1200
 
-Date g Visit: 'Tuesday, July M, 1956
+Date of Visit: Tuesday, July 24, 1956
 
-Visited £1: E. l. Verzuh
+Vigited By: F. M., Verzuh
+
 Individuals Contacted:
-M
-S. Labate, Bolt, Beranek, and Newman c. C. Kurd, Director, EDPM
-F. Guns, Skidmore, Owings annex-rill D. Pendery, New Products Div.
-S. Haber, Skidmore, Wings 8.- Merrill B. Oldfield, Data Processing Center
-G. Palmeros, 315!” and Henna-33y w. Heising, New Products Div.
-P. Hunter, IBM Real Estate Division E. Kopley, Educational Dept.
 
-, I. C. Amisted, EDIE Engineering
-R. Riley, EDP“ Sales
+S.
+¥.
+S.
+G.
+P.
+; .
+R.
+G.
 
-G. ’1'. Hunter, Educational Representative
-GALE. Peterson, 11. I. T.
+Labate, Bolt, Beranek, and Newman C. €, Hurd, Director, LEDPM
 
-& &&&&&&&&&
+Gans, Skidmore, Owings & Merrill D. Pendery, New Products Div.
+Heber, Skidmore, Owings & Merrill B. Oldfield, Data Processing Center
+Palmeros, Syska and Hennessey W. Heising, New Products Div.
+Hunter, IBM Real Estate Division E. Eopley, Bducational Dept,
 
-J. .0 Introduction
-a.“
+C. Armisted, EDPM Engineoring
 
-The prime purpose of this meeting was to determine the final machine
-. ' ”mm tygliation. .jqadditign‘, however, during the course
+Riley, EDPM Sales
+7. Hunter, Educational Representative
 
-‘ of the" day, a numﬁei' of separate meetings we're. Heir! ‘covéi'ing the foll'ﬁiﬁé‘iiéﬁé: V
+C.M.F, Peterson, M. I. T.
 
- 
+E L& EEEE
 
- 
+1.0 Introduction
+
+The prime purpose of this meeting was tb determine the final machine
+
+@ oo loyout for the 704 imstallation. In addition, however, during the course
+“ "0f "thd day, a number of sepavate meetings were held coveéring the following itéms:
 
 1. Measurements of noise on the 704 machine,
+2. BSpace layout of the Computation Center,
 
-3. Real estate requirements -- furniture, at 31, for the
+3. Real estate requirements -~ furniture, et al, for the
 Computation Center,
 
-Arrangement £0? the visit to the 704 in Poughlzeepsie,
-
- 
-
-W'Discussio’né eith‘Tﬁ'e‘Wew Products Division,-
+4. Arrangement for the visit to the 704 in Poughkeepsie,
+5. ‘Discussions Witk te“New Producis Division Fi
 
 6. Discussion of the 704 training course.
 
-. Labate spent Monday, July 23 making noise measurements in the 704
+Details regavding the discussions are presented in succeeding sections.
+
+2.0 Acoustical Measurcmencs on the 704 Ianstallation
+
+G AL e TS s T S
+
+Mr. Labate spent Monday, July 23 making noise measurements in the 704

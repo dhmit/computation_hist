@@ -1,86 +1,72 @@
-©©D£
+CQPRPY
 
 November 21, 1952
 
- 
+as Eo L, Harder
 
-Mr. E. L. Harder
-
-Member, Computers Committee
-A. I. E. E.
+Member , Computers Committee
+A, 1s Boe BE,
 
 Westinghouse Electric Corporation
 East Pittsburgh, Pennsylvania
 
-Dear Mr. Harder:
+Dear Mr, Harder:
 
-Enclosed you will find an abstract or the
-paper which I am to
+Enclosed you will find an abstract of the
 
-present at the A.I.E.E. Winter
-Meeting.
+Paper which I am to present at the A.1.E.E, Winter
+Meeting,
 
 Please advise me of the details of this
-
-meeting as soon as your program has been formulated.
+meeting as soon as your program has been formulated,
 
 Very truly yours,
 
-P. M, Verzuh
-Director
+F, M. Verzuh
+
+“Director
 V:T
 
 Enclosure
 
 
-Solution 2: Boundary-Value Problems 25
+Solution of Boundary~Value Problems on
 
-Automatic Computing Eggipment
+Automatic Computing Equipment
 
 by
-Dr. Frank M. Verzuh
+Dr. Frank M, Verzuh
 
-w
+ABSTRACT
 
 This paper is primarily concerned with the solution
-of boundary—value problems by means of automatic computin
+of boundary-valiue problems by means of automatic computing
 equipment (both analogue and digital). Specifically, in
-
 addition to the familiar desk calculator, the following
-digital computers were used in this stud i
-
-y the type 602A
+digital computers were used in this study: the type 602A
 Electromechanical Calculator, the type 604 Electronic
-
-Calculator, the Card—Programmed Calculator, and the M.I.T.
-Whirlwind Computer. The enlogue studies were obtained by
-use of the M.l.T. Rockefeller Differential Analyzer.
+Calculator, the Card~Programmed Calculator, and the M,1.,T.
+Yhirlwind Computer, The anlogue studies were obtained by
+use of the M,I.T. Rockefeller Differential Analyzer,
 
 This study is primarily concerned with the solution
 of ordinary differential equations in which certain
-
 boundary conditions are specified at two or more values
-of the independent variable.
-
-Such problems are generally
-called boundaryovalue problems.
-
-It is clearly evident
+of the independent variable, Such problems are generally
+called boundary-value problems, It is clearly evident
 that the solution of such problems is inherently more
-
 difficult than the solution of initial-value problems in
-which all conditions are specified at one point. The
+which all conditions are specified at one point, The
 particular problems studies are further complicated by the
 fact that their solutions are required over an infinite
-range which contains regions of nonranalyticity.
+range which contains regions of nonsanalyticity.
 
 A computational philosophy is presented which emphasizes
 that a machine must be evaluated on a firm engineering and
-
-economic basis-—e basis which must include the entire
-computational procedure. An evaluation to given of the
+econdtmic basis~-a basis which must include the entire
+computational procedure, An evaluation is given of the
 
 relative advantages and limitations of the five computers
-used in this study.
+used in this study. |
 
 

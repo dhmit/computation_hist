@@ -2,13 +2,23 @@ Draft
 
  
 
-The Linking Segment System, F. J. Corbato; J. McCarthy
+The Linking Segment System, F. J. Corbato, J. McCarthy
 
 In future operation of the Center a situation is con-
 templated in which there are a variety of programming languages
 in use including SCAT, FORTRAN, LISP and others which may be
-developed for various purposes. Programmers may wish to usea
-togetherg routines ﬁﬁééi have been written in one or more of these
+
+developed for various purposes. Programmers may wish to use py
+
+od
+
+Se
+
+ 
+    
+ 
+
+togethery routines have been written in one or more of these
 languages. Routines will be stored on tape or disc files and
 should be callable into arbitrary memory locations by loaders and
 linkable to new routines through the symbolic names of programs,
@@ -18,22 +28,25 @@ routine that has been waiting too long for typewriter input and
 bring it back later when it is needed; but possibly to a different
 location, since its old place may be taken.
 
-Of the presently available systems)SQUOZE and the FORTRAN
-II BSS system come the dosest to meeting the requirements. However,
+Of the presently available systems ,SQUOZE and the FORTRAN
+II BSS system come the closest to meeting the requirements. However,
 their deficiencies will not be discussed here.
 
 To improve the above situation a new program form has been
 developed that is especially suitable as compiler output. Sub-
-programs in this form are called Linking Segment Subprogram (LSS).
+programs in this form are called Linking Segment Subprogram (ESS):
 The principle innovations of LLS are:
 
-1. Selective retention of symbolic information from
-the source subprograﬂbut with the bulk of the text in relocatable
+l. Selective retention of symbolic information from
+
+the source subprogrambut with the bulk of the text in relocatable
+
+ 
 
 binary.
 
 
--2-
+0
 
 2. A feature for grouping subprograms into packages
 such that the package has the same external simplicity as a
@@ -41,101 +54,94 @@ single subprogram. This process can lead to arbitrarily deep
 nests of groups.
 
 In particular a LLS program is a relocatable binary program
-with three tables,in front of the program, that contain the symbolic
+with three tables, in front of the program, that contain the symbolic
 information necessary for linkage, array storage allocation, and
 parameter determination at loading time. These tables are called
 
 the USE table, the DEFINITION table, and the ARRAY table.
 
 1. The USE table
-
- 
-
 The USE table contains a list of entries, each of which
 consists of a symbolic expression together with a list of the
 fields in the program where the value of the expression is to be
-Substituted. For example, a matrix inversion program may contain
-an entry stating that the value of the symbolic expression A+N*N
-is to be inserted in the address fields of locations 97l, 975, and
+substituted. For example, a matrix inversion program may contain
+an entry stating that the value of the symbolic expression A+NXN
+is to be inserted in the address fields of locations 971, 9735, and
 1024 of the routine relative to its beginning in memory. The
 amount of arithmetic allowable in the symbolic expression is subject
 to various degrees of ambition, but the address arithmetic of SAP
 is adequate for a start with possibly the Boolean arithmetic of
-SCAT as an immediate successor. More extreme is a LISP—like recursive
+SCAT as an immediate successor. More extreme is a LISP-like recursive
 expression.
-
 2. The DEFINITION table
-
- 
-
 The DEFINITION table is a list of pairs. The first entry in
 each pair is a symbol and the second entry is a symbolic expression
 
 which defines the value of the symbol. The location of the beginning
 
 
--3-
-of the routine has the symbolic name "." so that locations within
+-5—
+of The routine has the symbolic name "." so that locations within
 
 the program can be defined relative to that point by expressions
 
-like "0+95"
+like "O0+93"
 
-Q. The ARRAY table
-
- 
-
- 
+_3. The ARRAY table
 
 Each entry in the ARRAY table is a pair consisting of the
 name of an array used by the program and a symbolic expression
 defining the length of the block reserved for the array. The
 conventions will be adopted that the symbolic value of the name of
 the array will correspond to the location of either the first or
-the last-plus—one register in analogy to the BSS and BES pseudo-
+the last-plus-one register in analogy to the BSS and BES pseudo-
 operations of SAP.
 
 There are two useful features when combining a group of
-subprograms into a Subprogram. The first feature is the convenience
-of naming and marking the boundaries of the Subprogram. The
-second feature is the ability to alter symbol names to that a
+subprograms into a subprogram. The first feature is the convenience
+of maming and marking the boundaries of the Subprogram. The
+second feature is the ability to alter symbol names $0 that a
 collection of subprograms can compatibly form a single program.
-
 Both of these features are introduced by grouping LLS. Thus an
 
 initial group card of the form
 
-a GRP b,c,... F, u/v, ...y/Z
+a GRE bye, EB, UM, v..Y/z
 
 and
 a EGR
 
 as an end group card cause the program enclosed between them to a
-group named a. The symbols b, c, ...,f have the same meaning
-outside the group as inside it. The symbols u, ...,y are the names
+group named a. The symbols b, ¢, ...,f have the same meaning
+outside the group as inside it. The symbols U, ...,y are the names
 
-that outside the group correSpond to the symbols v, ...,2 inside the
+that outside the group correspond to the symbols v, ...,z inside the
 
 
-u
+€s
 
-debugged. This version of a loaden which should be completed in
-the spring, will operate entirely in core memory.
+ 
 
-In addition, a post—editor program is being programmed for
-operation on FORTRAN II output. It will editkthe binary output
+one or more subgroups. Groups may be nested to any depth according
+
+to the usual rules for parentheses.
+
+debugged. This version of ga loader, which Should be Completed in
+The Spring, will operate entirely in core memory,
+
+In addition, a post-editor program is being programmed for
+Operation on FORTRAN IT output. It will editcthe binary output
 tape and three BCD output files into LLS form such that:
 
-1. COMMON statements can be set or modified at load time,
+1. COMMON Statements can pe Set or modified at load time,
 
 and extensive recompilations due to COMMON statement changes
 
 should be unnecessary.
 
 2. With some constraints, dimensions of arrays, in COMMON
+can be made Symbolic. This feature will pe of great benefit,
 
-can be made symbolic. This feature will be of great benefit
-
-for example, with matrix subprograms.
+for example, with matrix Subprograms.
 
 

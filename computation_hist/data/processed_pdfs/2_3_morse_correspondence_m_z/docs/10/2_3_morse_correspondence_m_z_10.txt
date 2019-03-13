@@ -1,6 +1,6 @@
 January 16, 1957
 
-Memo to: R. s. Mulliken, Univ. of Chicago
+Memo to: R. S. Mulliken, Unilv. of Chicago
 From: F. M. Verzuh, MIT Computation Center
 
 Subject: Procedure re Purchase Orders on Whirlwind Time
@@ -17,21 +17,21 @@ Division of Sponsored Research
 
 Cambridge 39, Massachusetts
 
-Attention: Roger Webber, Room 5—105
+Attention: Roger Webber, Room 5-105
 
 The purchase order should read as follows:
 
 For computational services of the Whirlwind
-Computer at a rate of $250 per hour
+Computer at a rate of F250 per hour
 
 Of course the amount will vary with the number of hours desired.
 I believe you have indicated a desire for 32 hours, which means
-a total of $8,000. In this connection I want to emphasize that
+a total of $8,000. In this connection I want to émphaslze that
 this work on the Whirlwind machine should be completed in large
 part prior to March, as indicated by Professor Morse.
 
 The Division of Sponsored Research office indicated,
-however; that they would prefer a purchase order which does not
+however, that they would prefer a purchase order which does not
 include special patent clauses, etc. Merely a purchase order by
 the University of Chicago to M.I.T. for the above work would be
 the appropriate form.

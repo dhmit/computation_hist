@@ -1,33 +1,21 @@
-Gillan-tun
-ll‘l’ APPLICATIOE FORM FOR comm USAGE
-Center (to be .1:th to Institutional Rap. or HIT Dept. Rep. 1!:
-duplicato: place types)
-1. Anna-t: (Not to baa filled
+APPLICATION FORM FOR COMPUTER USAGE
+(to be submitted to Imstitutional Rep. or MIT Dept. Rep. im
+duplicate: please type.)
 
-IMO, 'ﬂuo, Dept. all Institution:
+ 
+
+i
+
+1. Applicant: Not to he filled
+
+Name, Title, Dept. and Imstitution: in by applicant)
+Prob .No.
 
  
 
  
 
-Mandamus.
-
- 
-
-W
-
-m1- nth:
-
- 
-
- 
-
- 
-
-Drum“): (11 ”plies-t, "its "applicant"; nppud supplmntary
-abut 1! mm)
-
-s. In. and Title bran-11¢ experience on high Ipood menus):
+Address and Phone Ne. Programeor's No,
 
  
 
@@ -35,80 +23,7 @@ s. In. and Title bran-11¢ experience on high Ipood menus):
 
  
 
-mmudPMeno.
-
- 
-
- 
-
-b. Run and Title (experience on his): speed minim):
-
- 
-
-Adams and Phone 36.
-
- 
-
- 
-
-Sponsor: (0.x. thesis adviser, faculty supervisor, project leader,
-etc.)
-
-Ham and Title
-
- 
-
-Suntan af Sponsor signifying appml of this work:
-
- 
-
-What 19 the purpose «I: this worm (egg. educational, faculty
-
-much, thesis (speciﬁy); if supported reﬂux-ch project. give cea-
-tract so.
-
- 
-
-Do you intend to publish the means and if no more? (6.8. thesizs,
-MI. 0! progress report, otc.)_
-
- 
-
-in by applicant)
-Prob . lb .
-
-Pmrmr'a No.
-
- 
-
-I
-
-hit . Date :
-
- 
-
- 
-
-Ton. mte:
-
- 
-
-nut .Bnp .Apprwgl :
-
-————-——- Cup . Center
-
-Annual :
-
- 
-
- 
-
-Coup. Center
-Kati-men :
-
-L...
-
-Publ lest sow :
+2. Problem Title:
 
  
 
@@ -116,67 +31,122 @@ Publ lest sow :
 
  
 
-'E’otal Mach” Tim
-Used:
+3. Programmer(s): (if applicant, write "applicant'; append supplementary |Imit. Date:
+sheet if mecessary)
 
-
-50 Does the pmgranmoﬁs) intent! to do all the programming?
-
- 
-
-ﬂea-"mmmmu
-
-9- D095 1"” pmmmneﬂs) intend to pmpars: the input cards?
-
-10. It the answer to 8 or 9 is no, what plans have you?
+a. Name and Title (programmiag experieace on high spoed machines):
 
  
 
-M-
-
-(Ordinarily, program
-assistance is needed
-
- 
-
-as and card punching have to be none by the programmer. If
-from the Center, Special arrangements have to be made)
-
-11., When will pmgrsm testing probably start?
+Term, Date:
 
  
 
  
 
-12D Estimate of machine hours required for testing program:
-
- 
-
-15. Estimate of madzine hours to produce results from program
-
-14. For inﬂating purpose, how would you categorize the Iroblem?
-
  
 
  
 
-15. On one or two edﬂitionsl sheets write sections A, B, and c as follows:
-Section A: A one-psrsgmph abstract of Section B and 0.
+Address amd Phone No. Ingt .Rep . Approval ;
+
+ 
+
+ 
+
+b. Name and Title (experience on high speed mechines):
+
+ 
+
+Address and Phone No,
+
+ 
+
+ 
+
+4. Spomsor: (e.g. thesis advisor, faculty supervisor, project leader,
+ete, )
+
+Name and Title
+
+ 
+
+5. Signsture of Sponsor signifying approval of this work:
+
+ 
+
+6. What ig the purpose of this work? (e.g. educatismal, faculty
+research, thesis (specify); if supported research project, give coa-
+
+ 
+
+PLT —— tm
+
+tract Ro.
+
+ 
+
+Cb
+
+Ee a Bn FHT ne ow
+
+7. Do you intend to publish the resulte and if so where? (e.g. thesis, pony Mach. ‘Time
+name of progress roport, ote.) Used:
+
+
+g. Does the programmer(s) intend to do all the programming?
+
+ 
+
+9. Does the programmer(s) intend to prepare the input cards?
+
+10. If the answer to 8 or 9 is no, what plans have you?
+
+ 
+
+BE ie en te a ee SSR ST 2 le Cel NCR a en
+(Ordinarily, programmi
+
+ng and card punechi
+assistance ig nesded p ng have to be aone by tha PEOgTrammar. If
+
+from the Center, special arrangements have to be made)
+11, When will program testing probably start?
+12,
+
+ 
+
+ 
+
+Estimate of machine hours required for testing programs:
+
+ 
+
+13. Estimate of machine hours to produce results from program
+
+ 
+
+14, For indexing purpose, how would you categorize the rxoblem?
+
+ 
+
+15: On one or two additional sheets write sections A, B, and C as follows:
+Section A: A one-paragraph abstract of Section B and C,
 
 Section B: Complete description of problem background which should
-give complete picture to someone well aquaintod with the
-relevant field or research. Give references to earlier
-or related work and indicate relation to this work.
+give complete picture to someone well aqueinted with the
+relevant field of research. Give references to sarliexr
+ox related work and indicate relation to this work.
 
-Section 0:; Description of numerical and computer techniques to be
+Section Cz Description of numerical and computer techniques to bs
 used, and justification of their adequacy or indication
 of how adequacy is to be determined. This description
-should include, when pertinent, the number of signticant
-figures accuracy required at various stages or the colon:-
-lotion and the ranges and values of the quantities in:-
-volved in sufficient detail so that program complexity
-may be estimated. In audition, indicate how you plan to
-test the program and whether you have test cases
-available.
+should include, when pertinent, the number of significant
+Tigures accuracy required at various gtages of the calcu-
+lation and the ranges and values of the quentitiss ine
+volved in sufficient detall so that progrem complexity
+nay be estimated, In addition, indicate how you plan to
+test the programs and whether you have test cases
+available,
 
 

@@ -1,14 +1,51 @@
-Page 7.
+I ——
 
-water system operat-
-ﬁun km or program not
-to latch the machine
+M.I.T. Computation Growth Page 7.
 
-. In
-required. no other useful
+Machine Design By Computer-Douglas Ross
 
-cm hm‘dooluen 1- gov-
+Mr. Ross is attempting to use a human-toupnter system operat-
+ing in real time for optimum design. This type of program not
+only requires a huge amount of program to mateh the machine
+to a human, but has a strong requirement for searching for
+optima and communlicating back and forth. A problem with this
+much of & requirement for both speed and information capacity
+cannot at present be successfully time shared on the 704. 1In
+addition to the large bloeks of time required, no other usefil
+work can be-dono by the 70# while thowhnnnnwdoctlion is gov-
+erning.
 
-ax-ge blocks are“.
-work can be don. by the 704 while
-grains. ' ' ' '
+Machine Thinking-Dr's Teager, Barnote, et, al.
+
+Many separate individuals and groups, not tied in with
+the Artificilal Intelligence Project are working on problems
+of Pattern Recognition, Machine Induetion and Analysis, and
+
+Problem Solving by Machine. Although the approaches are
+widely different, they all share a common requirement for
+high speed, large immediate access memories, and large auxi-
+liary storage requirements which make them relatively in-
+efficient and non feasible on a T704.
+
+Industrial Dynamics, O.R., Econometries, ete.-Dr's Pugh,
+
+Barnett, et. al.
+Problems of Nonlinear Programming, Scheduling, and
+
+Industrial Dynamics are beconing larger, and consequently re-
+quiring almost an order of magnitude increase in speed and
+capaclity. Problems of Parametric Variation and "insight" by
+requiring many fold lterations of already long procedures are
+bound to make the situation even worse.
+
+Time Sharl Project (Classroom and Remote Computer Usage For
+
+ 
+
+ 
+
+Education and Research-Dr. H. Teager
+It is clear that the need for computation is growing
+
+and spreading out at M.I.T. Its use as a classroom ad-
+Junct, while as yet unproved, has definite possibilities.

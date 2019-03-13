@@ -1,7 +1,13 @@
-/ COMPUTATION CENTER
+A
 
-MASSACHUSETTS INSTITUTE OF TECHNOLOGY
-CAMBRIDGE 59, MASSACHUSETTS
+ 
+
+<< Tv © ©
+
+COMPUTATION CENTER
+
+MASSACHUSETTS INSTITUTE QF TEE BNO LOGY
+CAMBRIDGE 39, MASSACHUSETTS
 
 March 7, 1960
 
@@ -12,26 +18,24 @@ Representative
 
 IBM Corporation
 
-#25 Park Avenue
+425 Park Avenue
 
 New York 22, New York
 
 Dear Mr. Kearns:
 
-I an replying to a portion of your letter of January 12
+I am replying to a portion of your letter of January 12
 which was sent to Professor Morse. In particular, you
 indicated that you were interested in information regarding
-advanced degrees in the field of electronic data processing.
+advanced degrees in the fleld of electronic data processing.
 
 At MIT advanced degrees are only awarded within the
 established departments and at present there is none which is
 exclusively related to computational techniques. However, most
-or the major departments and schools such as the School of
+of the ma jor departments and schools such as the School of
 Industrial Management, the departments of Mathematics, Physics,
 and Electrical Engineering have one or more professors who are
 interested in computational problems.
-
--<-eoo
 
 Naturally, problems of electronic data processing with
 reference to business problems are primarily of interest to
@@ -40,25 +44,18 @@ wishes to work toward an advanced degree, he must first be
 admitted to one of the departments. Persons in the School of
 Industrial Management who might be interested in data processing
 problems of various types are Professors Forrester, Gregory and
-
 Durand. Further information should be obtained by writing to
 the department.
 
-I hope the above is of some assistance.
+I hope the above 1s of some assistance.
 
 Sincerely,
 
 F. J. Corbato
-Assistant to the Director
+Agsistant to the Director
 IBM Research Appointment Program
 FJC:RM
-cc: Dean Johnson, 8.1.M.
+ce: Dean Johnson, S.I.M.
 Professor Morse
-
- 
-
-Ill
-
-‘11
 
 

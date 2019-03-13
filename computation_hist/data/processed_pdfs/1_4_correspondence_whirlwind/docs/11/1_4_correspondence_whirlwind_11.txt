@@ -1,122 +1,6 @@
-SC IENTI 1‘
+SCIENTIFIC & ENGINEERING APPLICATIONS PROBLENS
 
-(’3 a 81:. eff Member“ Project on Machine Methods of Computation}
-
-Sue L‘teiin ng of Electrons from Gases
-
-AS
-._e
-
-mission Cross Section of Absox hing Sphereg Spherical
-l and Home}. Functions
-
-‘01; En {Hydro Thermal Power System; Calculus of Variations
-
- 
- 
-
-"I?“ C "In,u l Struc’cure‘s Fourier Series Summation
-
- 
-
- 
-
-1.06 (J: .41? Seismic Project
-‘0’? f3: Fourier Transform Evaluate
-138 Cu ‘1: Tnter- prehive Program
-
-       
-
-Jr Gunsigbt Calibration: 8th Order Diiferentiel ch
-
-4kg 1"? Evaluation
-
- 
-
-iFou‘e."ier Analysis:=Autocorr-e la tion Problem
-i
-:12 _ gLaw]. rep/"3 Method of Factor Analysis; Characteristic Vectors
-“modified?
-5
-3
-6‘
-
-IC 2}. ENGINEERlI‘ F3 AE’PLlGA'I‘lOI‘JS HtUBLﬂ/Ab‘
-
-Pagel of 8 p
-
-wwm_MMre.MN-_m. «M... A.“
-
- 
- 
-
- 
-
- 
-
-.i
-5
-Originator 35' _. Comm
-i~ A
-Staff DCL 1455'»
-AJMLoeb MIT Chem Dept lagej’a
-JoLnUi‘eteky MET Physics £2253 £1135)
-Joanohnson 1:253 'fg-gegj
-
-i
-,
-t
-i
-E
-i
-i
-g .
-E
-3
-3
-I
-§
-I
-2'
-i
-i
-f:
-E
-a
-3
-
-MIT Meteorology Dept
-
-   
-
- 
-
-'))
-
-S Simpson 33.2953
-JET 0501.155. Ge
-
-DﬂHRoms Servo Labw 1425’).
-J HaLanJH’ 155.35”,
-
- 
-
-   
-
-To Pitcher
-Instrumentation Leo»;
-
-E; a J fray
-i Instrumentation Lab”
-
- 
-
- 
-
-iF 14 Lord
-3E6 Testing 5
-
-Research 139}; ,
+(* -' Staff Member, Project on Machine Methods of Computation)
 
  
 
@@ -125,16 +9,16 @@ Research 139}; ,
  
 
  
+
+DCL=L5 Page 1 of § pages
+Sent namEntons CL eee mee Sa Te meen] a UE Pa ht TS io lh a pore i Rr DST =e
 
 ‘
+i . * - 2
+Started = Completed
+2
 
-
-n
-
-Vqu
-
-
-nun;
+Ter eo ey »
 
  
 
@@ -142,46 +26,719 @@ nun;
 
  
 
-' n: OTTE
+SW as We ag © ESET TASTE Beh STIL Shelon MA 0 CR Bea RSET
 
  
 
+ 
+
+. v ~
+100 Comprehensive System of Service Routines Staff DCL | 12-53
+- - a i - 2 5
+01 GC Optica Properties of Thin Metal Films A.L.Loeb MIT Chem Dept ieee
+TNS 3 fo 3 ry a 1 “yl MT Phx IGS i =2:85% ~ li £9
+102 B. Scatlering of Electrons from Gases J.L.Uretsky MIT Physics es 2 -14=57
+7”
+103 D. Teal ion Cross Section of Absorbing Sphere; Spherical J.C .dohnson {| 1=2=53  3=20=53
+(Bess el and Hankel Functions MIT Meteorology Dept
+i
+: SREY : Tin sy 5
+104 D, Hydro Thermal Power System; Calculus of Variations P, Schweitzer MIT EE Dept | 1-2-53 6-27-53
+:
+v
+i . = - ps ~ ab. ~~ 1 Pe a2 =
+105 C. {Crystal Structure: Fourier Series Summation | 5.0.Abrahans = Lab. for | 1=2=53 1=23-553
+ji Insulation Research :
+| |
+; : She ad Ie EE (=
+106 C. {MLIT Seismic Project |S. Simpson | 1-2 53
+| MIT Geol.& Geophysics
+: : |
+3 ~
+107 C. (a) Autocorrelation and (b) Fourier Transform, Evaluate D.T.Rass Servo Lab. | 1=2=53 |
+{ Integrals i | |
+|
+108 GC. lan Interpretive Program J H.Laning, Jr. Epis
+Instrumentation Lab. | |
+/ 3
+ie TRE Fors rrr erry leo cq 5_20=5%
+109 0. Fighter Gunsight Calibration, 8th Order Differential Eq. M.H Hellman : Pesca ii a=2 oh
+& | Instrumentation Lab. :
+# ; Fas 2.573 2.16=53 :
+110 GC. {Mk, 47 Evaluation I'. Pitcher | 1-2-53 2-16-53 |
+: Instrumentation Lab. |
+| | |
+oy ow. ~ os Ere SEE 's Ps 3
+111 GC, Fourier Analysis=<=Autocorrelation Problem E.Jd.Frey fr=c=al  Spskesa0 so)
+| Instrumentation Lab,
+|
+: a 3 Pal Aa {
+112 C. {Lawley's Method of Factor Analysis; Characteristic Vectors F,M.Lord 1=2-53 1=24=54 |
+I modified) | Ed. Testing Service i
+Research Department ; |
+\ { { i
+|
+|
+! i
+> i i
+
+ 
+
+ut
+
+No
+
+CO
+
+O
+
+\)
+
+wd
+
+un
+
+ON
+LJ
+
+oo
+~~
+
+Un
+~2
+
+J
+
+Lt =~
+oe
+
+-
+
+J
+
+Ln
+
+-
+
+i
+3
+
+3
+4
+
+
+
+
+
+ee
+
+ 
+
+)
+%
+\
+-
+n 0
+2 -
+i or
+“
+A
+"=
+0
+- {
+- ~~
+
+our
+
+~
+
+yr
+
+na
+
+~~
+
+CUnceuviol
+
+= |
+
+Yee
+
+-
+
+ 
+
+Pp at
+
+Ve
+
+oo
+vw OA
+
+» Lo
+ON
+
+. ee
+
+-~s)
+
+ 
+
+ 
+
+——————
+
+a
+
+\
+{
++ |
+! Nn
+-
+— {
+- )
+-t
+Y J
+s h ve 4
+’
+4 ri
+\
+B =
+
+~ 4
+
+EE et hd
+
+rr
+
+ad it
+
+i
+
+GE
+
+be be um &
+
+3
+
+i
+
+I PE
+
+’
+>
+© QO @©
+in -— hn
+= (ig “i
+»" A -~
+“= ' J
+r } ny rr
+rey wl - —
+3’ ¢ ~~
+% rei .-
+a) “2 rt =
+— Wee = -
+0 . -’
+@® — — 1
+— Cre,
+-
+~~ &Y -
+= ~-- a :
++o oF J oo)
+r=
+0 $= AY ~~
+© “ — -
+= So OU bt
+n ~
+QL eo Qo
+== or
+Oo, - =’ ~
+~~ rey
+
+ 
+
+~
+1) ™
+fd rn
+&)
+~ 4 ool
+i= ~~ A
+& {g =
+P “y or }
+oO oJ f bd
+yd J! -
+~ [8 or = wa
+-e -
+i (VU —
+d a os
+et] £9 MN .
+iS QO ) =
+x
+{ > l
+: s
+a 4) - -—
+v »
+od 3 3 ~t
+O ~
+re
+J, 3 =
+r ’ = '
+> viet
+Cl CS
+~y mn \
+. - . SN
+"i Ie .
+-—t : — =
+- "" oa
+> i 1 =
+’
+-— { )
+hy ‘
+~~ i Ae !
+~ [1 — -
+A u 3 ’
+{ )
+og ‘ ’ C
+gia { \
+8} 1 i
+. . »!
+S } o } Nl
+- > - - ~-1
+a - ee -—
+, = o! ) =
+A —y
+\J )
+f .
+
+
+’ \ ’ )
+\ J
+) |
+J ) \
+— aa . - 2a we - -
+: Pp :
+), 7 : : ) :
+a ’ ’ :
+- ] ’ & 2 :
+- od ©
+{ > } N y [
+ji : h L i :
+Ri ee +) Et a {
+| | ( 4 - r - ) ’ ;
+9 ! D i - r ‘ -
+4 : - 1 | 0 [ : .
+3 ' - - 1 vq ; $ ‘ Oy )
+i ,- ~ 4 b : WL -
+! : : - Sy i : - > y
+- = o- r 5-8 t - B ol
+i Tr < v < 4 - { - = |= i >
+] bi: { 1 ~ J -3 - ) Pe od ~ - (4 D
+. 5 { r— - 0 "~ d 1 SR ! - { o -
+: id ! 3 ) ri G 3
+“ ~ - . J 3 = J “ar . L i. nv ‘J
+) s ¢ ’ \ | 3 — - ) - oY
+: De > ~~ » -’ NS { i = - } ~
+{ { . . : vp p 2
+| i= d - - 3 QQ - ) on of 0 : Jd 2 a 1) C
+} 2 ° = rn > c ; : os z Te = :
+LAE) i oy Te ot ry <I . ir . J] = A <a Sa oC a ) ot 3 J -
+: Ed ‘ : = ) o > 3
+3 fone) J
+I PRTIGET WW LTE AE ITTE TRIN RIT CRA Ar) cami SERRE ER SM VT AL TTY ME i EIT 0 TE Be STR) WATE. 4 TB ww ET PW AT. BCT a ND eI I IR 1) PEATE NIL SAT WS SEEN RARE IY Te -—T AT TR Po RLY RRA Be RE aT LE
+'
+| i
+! ~
+oO
+: L a
+0 + co :
+i «p= i)
+= oe 2 8d
+- OO & £S
+i 4 — ~~ y
+i " ° ‘U 5 3 orf
+{ ‘u Cy Oo 0 "= a
+A fo —y » i
+2 bd + 0 ety « 5
+oles and » £2? :
+\ " 3 40 3S ~ 2
+3 1 ol A . 5
+, mM ore] ~ ge 0 ' 1
+~ ” r~ -y
+; : = Q £3 () co
+o ® or QO * ot
+Sra : y % ey
+’ “0 0 Ts . al =
+: i . - a J ’
+! | 44 “rd \ © ord oO
+2 0 U = oJ Se wrt od
+{ l he 5 = (6) =3 2 > .
+| J ~ E+ D = 0, ® +
+{ ™ wl — 3
+» my = © JL 2 ay rm A Q
+{ Q He => © 4) es 5
+3d +) 00 : ~ > =
+: es - 0 ~~ r= = § =
+§ a Q el ee oO O = o>
+® = 0, HCE O u)
+’ = LA s - << e - - »
+' Se ’ rs DO = ~~ pr J OO
+. - I~ *
+; © J i, ri +> xd J : A 5 «0
+i { 4 ori = —t |! ~4 0 “= {) r=
+J { ° ( ~ a b. 3 < 8 ~ < .
+i \ 4 vi ~ D No 23 E 3 > + £ 0 Sy
+\ ~ 3 . = 4 - .
+3 ~~ v Ci C- pe? 0 oN O LC L == = ape $3 J) »)
+x | O O n = £ eo @ Oo) ~ ®
+i rt - : 2) pe = ’ 8
+i . Q =i > 0 9 co a 7 1 tl - 4)
+; = . - =D vl 0 = 2 = Oo or OQ cg
+~ - ” y y oe ~~
+: 1 [94] ~ Uy J Al 1) O oi Cc oO =
+: 3 ~ go £) ¢ < : 1) ! 5 : =
+Ee 5 = OT oh ae 0 SENT eS od
+i : ! ri 1 O = “ri AS 4 ry “4-3 L Se
+3 ' . Aug . - oo \ :
+- = ~ A > ne e C Gi wo 0) Db ®
+- ~ ) ™ 3 -~ v “+ ft ™ T -
+§ ‘ . . aed ofr £ < ’ - LS \
+: Oo Q Tas oO Oo oO ge od 0 oD = Ty -) = =
+| 2 - : - . f ~ ’ - Pp r - p-) i { 7 —— ol
+) hes > Q q y 4 ~~ ~ ho oe [ Ft ”~g =
+! r $ ’ - - Pr _ . 3 ” —--
+| r~ © r—~{ r~f 9 2 Q 2 0 a TE 4-2 or od ; E
+\ ¢ (ram | — fl ee a =] \ &
+Q ~ TJ eS 0) a 0) 0 54 . ee te nC a 7p =
+C - Dor bo oO Oo = 0 U C) O 7 se 4 D 49
+3 3 - " 3 -~ : { om § -
+i 4 3 ori dy rs : (n Se Y 1 ot +3 rd Sa “a - o 4 QO &)
+- ) .- A -y > ’ . 4 i § .
+‘ ry / rs © mm O al ay G-4 LD ™ fe Po! 0 &
+| oO orf r—! Q ~ O 3 of 0 or CO © = = A ~ ~ oR
+. —_— \ “ L-~ - y - - >
+| ; £0 Fr 0, oL 0 wn Cis > QO : - , 0 Q ® 2
+= wT oS » Uy = in Oo U3 tn Eo Ps = 4) $= ~
+. 1) ~ « pin 0 1 - H
+( ; 8! ( @ ; o a x . es St -v = oO S = 8.
+: i ( - = > g < - 0) mn i-- eo ch bo =~ 0)
+» -— — - — ~ oy < -— -
+- ; 0 - C wv 0 ey oo c ~~ or "
+~ . = £2 { = Je -
+Vr : 8 : or ; i O eA @ ¢
+oy : -r - ho C ' 4 > “J ou) \
+. Cl - 3 i I~ : 1 ig a = ~ i ’ ¢
+= - — > 1} od) =) | p> i 1h Eo
+: f ¢ ¢ 3 A -
+- - i ‘ - > : El ro a 3
+’ : ) | : : + Mm rd © @
+: - = + "o oy = or +r R >
+‘ - WV : ) -’ >t i I x ~ = & of al O
+! ) 3 ) { @ -— oft - J re - \/ #
+; . " : ' _~
+{ 3 : io 1 bq fies . - T Ye BE ~
+. 1) C 1 x 4 = dd — pes
+' . ~ . . » Pole ve = » ~ T ’ > i - ~ " EP ATA Se eA Be, TRA Ge ABS Tb a BOA TRH TEC > IIT FR aL ard A eee Tak
+. 5 - $y “4 ) ~~ y rr"
+y ; ; La
+g g
+
+
+Pe 28
+S54
+
+WS
+
+vat
+
+re 21
+
+BE RT SC rg Pe en. “ES Prt CA A 5 i Ws ws”
+(aval om
+-
+
+ 
+
+0 o )
+Pp
+A £ ) NS (5
+5 —
+|
+BY —— I —_ - Ba Beer —
+g
+\
+"
+i
+'
+3
+|
+-
+5
+'
+§
+‘
+{
+! :
+I 3
+|
+»” ] fn
+. \
+\ wr -
+i
+J b
+| ’ »
+) ¢ "
+: o E
+Y |= =
+.
+’ ri
+f -
+’ ny
+) y
+: ’
+“ ) -
+|
+fi
+y oH
 v
 i
-
-
-. t
+pag '
+TY »
+{
+: 3 1
+3 u .
+. - {
+. ¢ .
+: od
+“
+3 p~- f
+» wl 1
+! '
+i r
+3 ’
+|
+’ »
+} .\ -
+5 - -
+| ad I~
+3 . .
+2 i )
+: -
+= ss
+. { ) !
+) C
+J ‘ey =
+J) -
+! -
+} U
+} -
+1
+§ y!
+‘ 0 e -d
+1 . :
+| f
+}
+“ -
+he =
+| i L -{
+1
+d ~~ \/ 1 K *
+i bq ’ Md \
+—
+4 ! J -,
+: \
+\ = [
+3 -
+¢ ‘ :
+\ o . wet
+\ y 1
+- il)
+’ = ’
+J ©
+) Po 1
+ag J
+A . TJX Ww ALL LT .
+i
+: -
+.
+\ oe
+™ oe
+| i “.
+)
+. - -
 
  
 
-_ ‘
+ 
 
-M .,, ,
+bal
 
-_,V H _ m.
+A ea
+vol
 
-, , i
-L
+on
+-
+AA
+2
+
+Is
+|
+»
+or.
+
+ie
+~
 
  
 
-Jllb
+ 
+
+pe
+
+3 ~~ J
+
+2 Xo @ ot~d ~~ O
+
+\ C= = ~ CG
+
+- OJ = Le “i J
+’ LA to~t ’
+
+ 
+ 
+ 
+
+~
+P=
+
+a  ——————— —————. _
+
+ 
+
+ 
+
+ 
+
+-
+
+\ . —
+~ puef -~
+® -
+. po \ -—
+“2 ( U
+1 pd
+~ ”
+/ t
+. ’
+'
+‘ re -
+a : .
+oo] 3
+i 3 ~
+’ -
+.
+{ . : . -
+y f
+po \ re 3
+. TL dn " > PRT RIS » wT . 4 "7
+> 5
+! }
+( F v po
+.
+- [—
+
+ 
+
+bes
+
+ 
+
+A AER w——
+
+ 
+
+ 
+
+.o
+
+RE oT
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+SE wa —————
+
+ 
 
 i
+1
 
->41Ll
+--
+au
 
-A h
+»
+
+{~
+
+a
+
+ 
+
+ 
+
+-
+’
+
+ 
+
+> Q a 1 .
+
+-
+
+[® CY
+ALC
 
  
 
  
 
  
+
  
 
  
+
+~
+
+hides. Meike Ta
+
+-
+
  
+
+ 
+
+wan
+
+
+BE HE TG Ta NTI BATTIR C TEET ll BA al. Gh PR B53 ad Th XY WEBS A - LE TEL MSL BART FF Lael
+
+ 
+
+oe
+
+~~
+Ne
+
+Py
 
   
 
@@ -191,99 +748,155 @@ A h
 
  
 
-nta
+wy .
 
-1me
+~ 1
+sok S38 AL
 
-Exper
+0
+Oi
 
-from
+   
 
+  
+
+]
+v1
+vy
+
+e
+1
+-
+
+          
+        
+
+o
+Po
+
+on
+l2a4drsTice
+
+Ul
+
+
+i
+$
+3 { aa WP a ile uh —- he on a Bs 2 A> Sn < a : = lasso :
+G Transformation of Integrals for Diatomic Molecules | BR. Nesocy 11
+! 3 -
+: | 5S&MT
+5 3 “ a TAY oy CN OS an] ar 3 pp hrs f A ~ - tw 0 : 1) 7 A wrt : ,
+| Comparison of Simplex and Relaxation Methods in I.ineax D.N:.Arden J.
+3 Dear mrrraymiI No : IX:
+( { tow | ~~ yt 4 ' ° - ” —~ se yl y ™ J cen i y pe py py
+’ “ be - rf 1A - ~~ a 1 4 2 VV de
+221 Course 6.25, 1954 1l=1:
+
+222 ' Helicopter Rotor Stability { Y1 Shulman 1i=12=78
+
+   
+
+fobvis 3 Sd da oh - ~ — WN
+. ae 3
+{ Aeroelastic Lab
+223 { Investigation of Turbulent Flow F. Ralchlen
+TY. Bl “ . = » : I
+3 &Y —4i J = 5 Alclliid dea WJ
+Fars ; ™ 3 5 - de se 4 -, . ot 1 pt oc 9 br . - g 5 : ’ 1 : \ ~ YT
+24 C. § Computetions of ‘uhe fields of vertical Wwelocity ard t G, Arnason 17.178
+. 2 arc VIlr DY : v 35 2 ar 2 ~ sop] LL A )!
+{ horizontel divergsnce | Meteorology Lept
+]
+
+
+i VS. "tS :
+i ~ q
+: i
+J Re 2 Srl 4 aN Ria 2 3. tly ten. ml NS We er se Tn De i
+cl LLL clie Vorticity f£i€e1Q 111 LWT General virculiaviolll LJ LEZ
+| Meteorolof
+t
+12 7
+ICKLINE | MM. 1r00S
+: E We adsense
+' LG unem. LIE i
+\ i
+l
+i ™ - . ye I) * rr . . . . - 9 {
+| ®valustion of Difference Diffusion Equation | A.T.Ling
+p -~ aA NS S- < he he we LA AL he SAN lia %a a NTA - - wort ade ds my
+| CMMC Mech. Eng
+| |
+; OT - : , » g 2 — - > « = i
+229 D., {| RotTatl Contact »eal | J.M. Bonneville l
+Lo RITES
+| Mech. BENf |
+| | |
+| lc | ;
+v ~~ \ ry = ST * od pb p- . - -s BN AA YSIS YY a yy 4 Te *.7 T ~ rms - 9 ~ 0 i
+30 wr i B31 LUEC Res PULloC vO Bla SU Loads (Ve ® JU OTUIo WL | eh)
+| CMMC Civil $& Sanitary Eng. |
+:
 ;
+hn Re Ee py aa Las ey ld Vi ol - }
+A | neactor aula way rreventlion | Mo Troost | Ll 4
+: | CMC Chem. Eng
+i
+i — cE = A . - v > . : ” sto { . §
+i Energy Levels 1n a Spheroidal Potential K. Gottiriea | 12=3=54
+(ab. for Nuclear Science |
+!
+:
+SETAE Sl = |
+33 C. | Utilivy Stock Prices D. Duranc | 12-8-54
+CQ -Y Ff Tw
+Schl. 0 1D0gyst lanagement
+fi !
+: {
+234 A, | Atomic Integrals | R, Nesbet | 12-16-54
+SS&MT |
+235 B, | Eigenvalues for 2 Spheroidal Square Well
+
+J, Uretsky 12-17-54
+Physics Dept
+
+L. Schmit
+Aero-elastic Lab |
+
+D. Goldenberg
+
+Transient fesponse of aireraft Structures to Aerodynamic
+neating
+
+TE —————
+
+Autocorrelation Function of Submitted Data
 
  
 
- 
-
-an
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-inve-
-
- 
-
- 
-
- 
-
-time
-
-R
-
-1‘58
-
-
-. n1 (4 '5pr t Da ta
-
-
-in
-
-  
-
- 
-
-  
-
- 
-
- 
-
-‘5. v ‘ w _
-
-a “ ‘ E
-g ,
-
-i ’7 ‘
+| Instrumentation Lab
 
 |
+238 B, | Self-consistent Calculation of Nuclear Mass Density i. Rotenberg {1=8=55
+Physics Dept |
+|
+|
+
+-———
+
+239 C. Guidance and Vontrol J. H.Laning, Jr.
+Instrumentation Lab
+540 A. | Number Distribution of Electrons and Photons in Cascade B. Rankin
+Math Dept
+241 B, | Transients in Distillation Columns §. H.Davis, dr.
+Chem. BEng.
 
 
-‘ , r. .7 . .. . ‘7 1M.
-‘ r I
-<5 ‘ ."maiiou of lu’begrals for Diatomic Molecules
-' ? cm 03. " uplez: and Relaxation Methods in I."
-A , ., ‘ ~ - gm ,7‘ .
+SCIENTIFIC & ENGINEERING APPLICATIONS PiUBLEMS
+(* = Staff Member, Project on Machine Methods of Computation)
 
-ocity and
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
+DEL=15
 
  
 
@@ -291,66 +904,100 @@ ocity and
 
  
 
- 
+Pam Ee
 
- 
+{(moitiea)
 
- 
+J =
+Qu 3
 
- 
+. testing Service
+nesear Gh Depart Lment
 
-4.1.1 ,.
-
-
-Llr 30 ‘15
-
- 
-
-lJ H Bennew.
-1 ﬂex L- Em
-
-   
-
- 
-
-m may :‘r’e are}: biOn
-
- 
-
- 
-
-" 1“ ‘ Energy L94 in a Spheroidal Potential
-
-Utility Stack Prices
-
-23‘4- A 0 Atom ic Integrals
-
-  
-
- 
-
-5
-F
-E
-I
+PE, Br rl a S— nT A, ETI Ci Pm, TS BB 3 IEW, AM—— 5 ——— —— CT —— Tt SA DC — TE ———— al i HG
+| |
+3
+No {Problem Title Originator started
+aod Pee Ow ieee SAS SASSER SS ———— eee 18 — BA IE. A Pee AA em. ve ——— — -
+» :
+100. Comprehensive System of Service Routines Staff DCL
+-
+103. CG. [5 Properties of Thin Metal Films A.L.Loeb MIT Chem Dept |
+DiS of Be 3 bo OE | 2
+1028. Scattering of Electrons from Gases J.L.Uretsky MIT Physics =
+f
+vi : Nr Ye a :
+L035 De = Transmission Cross Section of Absorbing Sphere; Spher ‘ical J.C.Johnson | 1=2
+Bessel and Hankel Functions | it Meteorology Dept
+| | LS all
+104 D, {Hydro Thermal Power System; Calculus of Variations P, Schweitzer MLT BEE Dept [1=2=23
+:
+4 : 2 1 - - » “a 2 1 ~~ { -
+105 C, {Crystal Structure: Fourier Series Summation S.C. Abrahams = Lab, tor j 1=2
+Insulation Research ;
+{ i
+106 C. lz Seismic Project S, Simpson { 1-
+| MIT Geol.& Geonhysics i
 l
-5
-235 B. 3 Eigenvalues for a Spheroidal Square Well 1
-3 r
-h , l
-236 Cu i Transient Response of Aircraft Structures to Aerodynanic l v Schmit 11—}:55
-é Heating ' Aero-elastic Lab 1
-237 C. E; Autocorrelation Function of Submitted Data D. Goldenberg ‘1-3=55
-I: Instrumentation Lab 5‘
-a
-238 8:. : Self-consistent Calculation of Nuclear Mass Density :4 Rotenberg {1—h=55
-rhysics De; )1.
-239 C... ‘ Guidance and “antral JH.L-aning,, or", 195-55
-Instrumentation Lab ‘
-214-0 A. Number Distribution of Electrons and Photons in Cascade B. riankin IL: 10-55
-Math Dept 1|
-2'41 80 Transients in Distillation Columns S.H.Davis, Jrc !1=lO-=55
-Chem. Eng. 1
+1, : —-— a ™ J T.}
+107 C. t{a) Autocorrelation and (b) Fourier Transform, Evaluate .T.Ross Servo Lab. |
+| integrals :
+: |
+108 C. {An Interpretive Program | 3.1 Laning, Jr. |
+| eet Lab. i
+TNC : 3 $ r™~ - . 1 se - » x . TT - 3
+109 C., [Fighter Gunsight Calibration, 8th Order Differential Ege | MH. Bellman {l=
+i Instrumentation Lab. :
+: :
+130°C, ik. 47 Evaluation | T. Pitcher i 1
+i |apspruncntacaon Lab :
+3
+| |
+LAL Go Fourier Analysis==Autocorrelation Problem E.d Frey { L=
+Instrumentation Lab.
+|
+112 GC, awley's Method of Factor Analysis; Characteristic Vectors F, M,Lord | 1-2-
+t
+
+jr mus SPATS ELLEN OT HR WORT La WE IN I TIARA
+
+ws A | SALTY EA EAT TW i SA TEE LL MG Fe
+
+ed
+0
+ND
+0
+
+\n
+
+
+
+
+
+oy
+{
+r-
+f=
+!
+~~ y
+{
+~~
+’
+= y
+n )
+Y
+.~
+
+.
+
+a ens
+
+ 
+ 
+
+ 
+
+ 
 
  
 
@@ -358,261 +1005,569 @@ Chem. Eng. 1
 
  
 
-__#
+ 
 
+ 
 
-' & ENGINE-BRILNG A)
+ 
 
-    
-  
-  
-    
-     
+ 
 
-‘LJEA‘ILLONS EinBLEﬂJS
+ 
 
-(‘*‘ a Staff Memb :- Project on Machine Methods of
+ 
 
+ 
+
+ 
+
+ron
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+vb
+wr’
+
+ 
+
+ 
+
+ 
+
+i
 9
 
-(‘0
+4
 
  
 
  
 
-   
+ 
+
+2 —
+
+
+——  ———
+
+—-
+
+-
+
+-
+
+<
+(
+J
+0
+(
+\’
+'
+r
+~
+\
+'
+"Sr
+- nw.
+.
+oN
+|
+|
+)
+
+Vaal
+
+i
+Ss
+=
+~
+bs
+Yo
+
+ol. iS
+
+oT =r
+
+1 {
+—
+
+me
+Jia O
+
+4 1
 
  
 
-7.03, h z0ptical Properties of Thin Metal Films gAcLhLoeb BIT Chem Dr
-7 .m
-iSca‘btering of Electrons from. Gases JoLgUretsky I'LLT
+Q
 
-ATS in I . lssion Cross Section of Absorbing Sphere; Spherical JﬁnJoimson f
-Bessel and Hamel Functions MIT meteorology Der;
+ 
 
-LLDQ Dr Hydro Thermal Power System; Calculus of Variations
+oa
 
-   
+~~
 
-     
+1D whe RL TAC LL -
 
-2.05 (3 Structure: Fourier Series Summation
-:
-LL06 0—. gvi
-MIT Geolrr‘é Gen '
-‘07 C: ﬁz'T'Jiass Servo Lab.
+(n nl
+og ,
 
-   
+§ ©
+. 218
+oO =
+»
+| ge
+oe
+¢)
+a) Q
+- »
+3 i
+42
+. ~~
+2 | —~
+©)
+ul a
+O ft
+¢
+~4
+> { —
+= : it
+1
+) ) 1
+al
+~
+
+IN EL
 
 a
+
+10
+EE
+
+-
+
 i
-Mi" Seismic Project 15‘ Simpson
-E
+UN we
+
+-
+.
+
+ 
+
+wv Jd
+
+
+STRANI es gen 28 adnan Se — « = = &
+- ae CARE AE a Ee SE CIR ND SA TAR SEAN E 2 : i
+{ )
+} f ) §
+y \ : vo , hate via a i wv =
+ra - I © mn Sat gl el as { ,
+r ‘ & oo S \ ALY » ~~ ~ — v be .
+" a . ’
+! v
+- ¥ oy 3 ™ ov’ 2% < ® =
+} ’ a a 4 ' - ’
+gS 2s YTS OO : ~ [os : s pe 2% aie
+{ - - - ‘ 2 2 \ 1 - i ad = | 2a od
+- ! a Ne J 4 3
+& 5 or od
+:
+:
+5 $ :
+5
+- . 3
+: { ay - 1 . ~ - 4 nen) re - a
+y AT ’ ’ Fie 4 y ToT AY Sey BURA f S39 .
 i
-z
-I
-£
+. - - w bj ~ 3S ‘ - h -
+A
+i
+»
+.
+1 y ’ . rr ™ 1 i
+3 : £ /~ oat - *
+- i Wolf AOS LEI J J
+’
+‘
+:
+: . 4 i < HE
+’ - d by sv > p - ! oy We Ty : ~ 4
+' t ) - } - [is "_, 34 ’
+re - - - ~ - - - ple liO lis To | 0 IRFoN | 4 U¥RO did 17 § 2
+Co i 3
+:
+,
+i J
+- i : ”
+fa a. - ¢ -
+y ~~ v - ¥ ~ 1 y
+' Sy - i= .
+> td
+5
+- - y - ¢
+. ) ’ , 4 . Ll - - > -
+’ { { i he hl ! 3 - 1
+|
+L . r
+Pa } - .
+’ 1 ) ¢ \ TY i v
+5
+i
+. - r -
+I { - - ef »
+. . - re ’ rs 5 1 WL LAl A Noi ve ww Ll
+5 o | 1 -
+: ~
+Fo - - =
+. ~ NR . -
+1 Ae od Soe cn bo rr ™ e 3
+i - al 1f pv .
+L
+3 { i —~ fr '
+3 i ~ Ls 1 A i 7
+L . - J 4
+>
+Poe £0 s :
+8 ~ / = wmivm " 'rananmn
+- 5 LS Sy AN ai -
+ERIS 7 Cad Sonan )
+’ «111 ! § yigse
+8
+u i '
+»
+a Nig a ; :
+1 mad A lad LA 1d add
+f i 4 vr A ~ res neds,
+5 x aad - wala Ga St VAL ts ‘
+- . 3 .
+/ pa i - ler e J
+ § ra IY as - ’ 4
+\ »
+‘ — - \ i
+dicelsis Lalit
+:
+’ $
+. yy 3 -
+’ - yg . 2
+i
+- - ’ y
+: i
+5 . :
+9 J Fe
+5
+
+
+Jd A
+3 ‘
+’
+™
+\ ! -
+- > - » re - . » - » -
+¢
+)
+- : \
+u :
+QO . . :
+yt Cc {0 :
+- 4 - } - ; 5
+1 { s ( hs
+! ( : - . :
+= re g d
+— = + Ul { y ¥ {
+ey — -
+O jEek » - \ - ~t
+1 = pry 0 )
+A 4 hed 1 ~ J .
+- te B -
+- ’ . > : :
+3 y E ; ; ) 1 E : )
+5 PR na Sis ; ® | 1 ; C { | ’
+Eh 22 HG = ~ : he
+I - be ~ : ~ - c = Fe vi 2 u
+¢ on Te 0 a a - : : :
+3 a “= - 3 (is 3D "= C & on { L y > ’
+! ~ os — “ HN (Ly w— ad a |g) Q r ny e ( i
+A - “. ATP \ “ - - Rat = = . = > :
+Ph J ot 4 ad 1 1 a \ ~
+= . = ; 2 [ESS LE
+a — 7p 5 <a Aa Sud fey "3 . _¢ ! E
+. . 9 ) 188 =1 y
+~ DS CD) CD r : L of Lo lL
+> - ~ - -— ~ (rT = wot . { —— I «t y [x = y 8
+fe ee ER (er ~- ~ y — AL) oT — i [ERY : =» a
+— tag ot fod ae fed - fad p=. ‘ X :
+=  - «eo SERN. or LE aw FL -—
+» ~ To aT —-- 197 WE me - WTAE UNE DR EAI NAVA POSLIP SF ww - —
+EE nd ” EL — te wad oT TT cma Ne Sw lid T. da »~ .
+STAT = a BT? 22 tl A me € TE 1 OM oh asd B® SAREE Le AMES LALLA I
 2
-§
-c
-S
-I
+-—
+fat
+J
+0
+. OJ
+4
+> " r=
+c 3 4)
+) LL = ;
+e ~~ = 2
+- v
+r oo 3
+~~ — «
+Nay -—f
+OO — Q On
+- - rN GU \ — +42
+- u. a — 5 Q ¢ ;
+} “ = Xe 1
+J : 0 4 Wr
+’ — £ : :
+\ ” Cf od
+‘ m 4) 3 1
+4 ro y — C
+J . < . o™ = it
+ad wn = oO CY 9
+> -— ¢ —
+$e —- = Ce Ged
+0, qd ( ) =
+pao ’ Bi 0 )
+Poe A ——
+' — eo > i a eS
+¢ a i) 1 WN
+) O x - - 4 |
+~ Sd : 7 o ye eS
+— \ i . [3 aid
+Ee a q © -- rd in
+= O ! 5 N=
+- r *q 0 i 1 :
+: : i OO) eed = 0
+C 2 ov == ” ™ 5 0 -
+- ~ - ~~ 3 .
+— — CY n wn UU) go “ CES
+© 0 x (’c O oA =
+1 3
+‘ \
 
-_F'ourie)‘- 1‘xnalysis-==Autocorrelation Problem
+3
+.
+
+Py
+
+il
+
+: | DB ¥ = - @ = 4
+5 \ ”
 
  
 
-   
-
- 
-
-ley“s .i'iethod uf Factor Analysis; Characteristic Vectors
-' ,modified)
-
+~ ‘.
+\) - 1 ord 4 m™ 1) So
+> - 3 :
+Nr y :
+v > : =
+od nN )
+- L s
+. « Pa
+. ip Lo
+> —.
+- Te oN x
+bed 9
+& n, 4
+- >
+w/ v1 4
+» - ¢ -
+‘v OQ 4%] a
+y -
 i
-h
-I
-a.
-3
-1‘
+T fr Cid (x)
+- - dh ™
+) ( v 1 nd
+5
+“ +)
+= = ~ - 5 -—
+i 3 - .
+(0) J <a ) >
+a ) { ns
+! ' “ J \
+1 ae
+c ~ yf y
+x J
+i .
+a | . ’
+'
+v '
+{
+/
+-
+{
+n)
+- {
+p-
+U :
+¢
+~~
+ry ~
+Tu \
+SWE. -
+9
 
 
-
-
-
-
-
-
-LYN?!"
-
- 
-
-E?
-
-1,
-
- 
-
- 
-
- 
-
- 
-
- 
-
-   
-
-’om Em
-
- 
-
-Ft.
+a
 
  
 
- 
+-~ 3 -
+roy 2 Cy nN _"
+fF .ras oi é
+1 -" a “4
+A allo / iia | LOL
+
+‘
+oy NPT TTIPITT TY
+2° -
+. - ~
+™1
+om’ ~ ad -
+3 ( ) 3 yo S/R £3 +L
+
+Helicopter Rot
+
+> 2 8
+{ = ~ hy 2 on Se .
+\ TY 17 eo o) [, 0
+
+pa ¥V Nod Vp of wie NA
 
  
 
- 
+Molecul:
+
+ation FE
+
+Pr
+2)
+
+Se
+
+AA
+
+-—
+
+Rami 1 =
+I'L e2C1) 11 JEL
+c
+~-
+>
+So. Baw
+fs
+b wr 2 wn 1 a
+alnl; oe
+’
+.
+Ee 1 £ | i
+CA} .
+51. i r'
+3! v 2 N- 2
+AV oo - bo) -
+QOp Wim
+atc AA,
+~ a7 2 -
+IB "1 ANY rio C—-
+AM eodV gid Ada
+\y *
+13.1
+: -
+-
+}
+.
+T Qh imam
+1 A ) \ 1 J
+.
+\ YY
+1 ’ { / -
+)
+j
+“© — MALLY AACS A
+( *
+\T APN Si }
+.
+nn = 5 "I ) ’
+vMEerCenr'o D
+-— .
 
  
 
- 
+‘Ad
 
  
 
- 
-
-.1
+Ld
 
 
-nu.
+~~
 
-  
-
-f1 5. L a
-
- 
- 
+“TT ere eT TT
 
  
 
- 
+Eigenvalues for a Spheroidal Square Well
+
+Transient fesponse of Aircraft Structures to Aerodynzaic
+neating
+
+Autocorrelation Function of Submitted Data
+
+Self-consistent Calculation of Nuclear Mass Density
+
+Guidance and “ontrol
+
+Number Distribution of Electrons and Photons in Cascade
+
+Transients in Distillation Columns
 
  
 
- 
+i r
+
+Tr ¥
+lath Dept
 
  
 
- 
+T1955
+Fad
 
- 
+CLs LA
+Lt Cl 1M J & GC
 
- 
+| Aero=elastic
 
- 
+Goldenber
 
- 
+J
+Oo
+-
+MD
+Sed
+badd
+v0
+=
+"
 
- 
+J
 
- 
+”-
+~
+v
 
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-(.
-
-
-.n. Cm Hx'nngﬂn‘
-
-'1 p 'nvn,,,+.u
-
--J g.~,u‘_u;
-
-dr:
-
-   
-
- 
-
- 
-
- 
-
-3
-
-
-c; Moleml
-
- 
-
-  
-
-_ mods in Linear-
-
- 
-
-\ \
-
-
-Eigenwalueg for a Epheroidal Square Well
-Transient Response of Aircvaft Structures to Aerodynanlc
-ﬁeaiing
-
-Autocorrelution Function of Eubmiﬁted Data
-Selfoconsistent Calculation of Nuclear Mass Density
-Guidance and uontrol
-
-Number Distribution of EUsactr‘ons and Photons in qucaée
-
-Transients in Distillafion Colunms
-
- 
-
- 
-
- 
-
- 
-
-   
-
->JhHouaHi
-‘lnstrumen
-
-)" r
-
- 
-
- 
-
-(ion Lab
+H. Davis, Jr.
+m, bing,
 
 

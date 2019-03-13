@@ -1,191 +1,209 @@
-(Q @P
+er
+Rs © gmoiiTed A Ee ama
+> - * —- BE TE TT TR
+$e. 2 5 n “=  — p= ——
+< Uh... —= rn cm
+Yo R. Teg nm ——,
+” & $l a Rr TRESS ’
+§ - tu - red =
+~— ! a.
+a
 
-Wrtght Air Fevelopmsnt Center
-ﬁright-Pattcrscn Air Fare: EGIC
+wright Alr revelopment Center
+¥right-Patierscn Alr Force Base
 
-Diytm, Ohio
-Attx Lt. Col. 5‘ g. Heggx, USA? swﬁgal
+payten, Ohio
+Att: Lt. Col. He Co HERLY, USAF (WCRR)
 
-Subjae‘: gnn‘rnc% Ara: 616 —128
-ggpcndivutc ‘ er ﬁg. 8—468 53-;
+Sub ject: ontrack Ar3s(sie)=128
+cxpenditure er Wo. R=466 BR-1
 
-rear Coluncl Henryl
+nt  ——C— ri ena SAS
 
-Kevnnbor 25. 1952
+- he
+.
 
-This lcxtcr it to Inform you that thc fallawtng
-rtport:
-“ﬁoluilon or ﬂounaary-Vhlue Prub1¢ms an
-Automatic sampuung Equipment.
-covering thc work of the quarterly paricd ending August 51,
-he {allcwlng nearest:
+Rg
+_z Soe . "
 
-1952 Is being mailcd preptld to t
+hi
 
-AF 909 50
+November 25, 1952
 
-Servlet Arts Bldg. 256
-Hrsghtvvlttarucn hit Fore. ﬁasa
-ﬁaytan. Ghio
+Cra
 
-Attn: WCRR.
+ 
 
-I lnformcd Er. b. P. Little during the sarly part
-on this ccnlract would mat
+  
 
-of the summer that the activity
+rear Celonel Henryl
 
-be initiated in full voluma on June l, 1952 because a! the
-persurnal precuremant problem. This, in part, explains the
-delay in tha submissios of this first quartarly r23crl.
+This latter {8 to inform you that the following
 
-The other reason I! simply that there are over 300 pages
+a
+|
+|
+|
+|
+|
+|
+|
+[
+|
+|
+|
+|
+|
+|
+{
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
 
-in the rmport and its preparation was an exceedingly time-
-can$um1ng task. ﬁt any rate, one reproducible (a transparent
-azalic§ and faur copies are being submitted under separate
+report:
+"solution of foundery-Value Problems OR
+Automatic Computing £qulpment”
+covering the work af the quarterly period ending August 31,
+10582 is being mailed prepaid to the following adceress:
 
-COVST -
+AF 908 80
 
-l Hish to emphasiza that only a partlon of the werk
+service Area Blog, 258
 
-regresvnted by this report wag performed uaing funds cf this
-Contract. Egacificelly, this thesis ragtesents several years‘
+dricght-Fattersoen Air Force oase
 
-work, and it is owly the fina; stages of it which were aerfermed
+rayten, Ohio
+
+Attn: WORK,
+
+i informed Ur, E. Po Little during the eerly part
+of the summer that the activity on this contract woulé not
+pe initiated in full volume on June 1, 1832 because of the
+personnel procurene nt problems This, in pert, explains the
+delay in the submission of this first guarterly report.
+The other reason 18 simply that there are over 300 pages
+
+ir the report and ils preparation was an exceedingly timew
+consuming task, At any rate, one reproducible (a transparant
+cgalid) and four coples are being submitted under separete
+
+Cover »
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+|] wish te emphasize that only a portien of the work
+represented hy this report was performed ssing funds of this
+contract. ¢pecificelly, this thesis recresents several years'
+work, and it is only the final stages of it which were performed
+
 during this quarterly period.
 
 
-j T 7; (
-
-fiquﬁ pa» ovember 25, 1952
-\_/4 ‘
-
-Attached yam will find an abstract of tLis thesis
-r~ art which All! give you an séva at its content. i hope
-this rill be helpful in you.
-
-L‘.Colcnel H
+Lt.Colonel H
 
  
 
-in ecucluslan, I wish t5 state that tb: succeeding
-prccreas reports will Hot be as tardy as thig cne. ﬁpcclfi-
-cally, uuarterly nencrt ﬁe. 2 is ta *9 tubmittea t‘ the
-wrintzr an Eecember lst, and yea should receiva it as seen
-as the succseding publication technicalities will permit.
+Eo en pabd 2) ovember £5, 1952
 
-Very truly yours.
+Attached you will find an abstract of this thesis
+repert which will give you an idea of its content. I hepe
+this will be helpful to you,
 
-3. %. Varzuh
-{tractor
-V=T
+in conclusion, I wish to stale that the succeeding
+progress reports will not be as tardy as this one. Specifie
+cally, Luarterly Report Fe, 2 Is tc »¢ submitted to the
+printer on December 1st, and you should receive it as soon
+as the succesding publication technicalities will permit,
 
-LC: ndm. mffice £wALC)
-5:. k. F. Littln
-brFref. P. %. Worse (M11)
+Very truly vours,
+
+virector
+
+vil
+
+(Cs Adm, Office (WALC)
+ir. Eo. Fo Little
+VProf, P, ¥, Morse (M17)
 
 
-v .5
-1 m
-. tr ;
-1 M W 11 E;
-‘ 1
-This report is primariiy caneernud with the solution 1
-of boundary-value prmhlsma by means of automntie ceaputing
+wr WE )(
 
-equipment (bath unalaguc and élgltal). 3peclflcally, la
+This report is primarily concerned with the solution
+of uoundary-value preblems by means of autcmetice computing
+equipment (both enalogue and digital), Specifically, in
+addition to the familiar desk calculator, the fellewing
+digital computers were used in this study: the type 602A
+Electromechanical Calculator, the type 604 Electronic
+Calculator, the Card Frogrammed Talculator, and the M,I1.T,
+ihirlwind Computer, The anfilogue studies were obtained by
+uga of the M,1.T. Rockefeller Differential Analyzer,
 
-addition in the familiar dilk calculator, the follewina
+This study is primarily concerned with the sclution
+of ordinary differentisl equations in which certain boundary
+conditions are specified at two or more values of the
+Independent variaple, Such problems are generally called
+boundary-value problems, It is clearly evident that the
+solution of such problems is inherently mere difficult than
+the solution of initialevalue problems in which 211 conde
+tions are specified at one point, The particular problems
+studied are further complicated by the fact that their
+solutions are required over an infinite range which cone
+tains regions of nen-gnalyticity.
 
-1
+A computational philosophy is presented which empha-
+sizes that a machine wust Le evaluated on & firm engineering
+and economic basige-a basis which must include the entire
+cemputetional procedure, An evaluation is given of the.
+relative advantages and limitations of the five computers
+used In thls study. A fair svaluation must include the
 
-1
+time for: problem preparation, numericel analysis,
+programming, coding, machine setup, machine solution,
+checking, and se forth, The accuracy and cest of 8 particu
+lar sciution must also ve Included,
 
-1
+This report else illustrates the manner in which the
+techniques for solving simultanecus linear slgebralc szqua-
+tions are apnlied tec the seluticn of the boundary value
+proclem, A detalled description of the entire compute
 
-1
+tional procedure characteristic to each cesputer is aiven
+in an associated Appendix,
 
-1 digit-1 computtrs were usld in this study: the typ: ﬁGZA
-1 Electromechanical (alcalator, the typc 504 Elsctranlc
-1
+Fo. i, Verguh
+November 25, 1952
 
-1
+i gs. A ee
 
-1
+wf adel]
 
-1
-
-1
-
-1
-
-Calculator, the Curd Programmed ﬁaleulator, and the M.X.T.
-
-khirlwiné Computar. Th3 Inﬁleguc studies aura ahtaxncd by
-uaa of the §.I.T. Rockeflller ﬂittcrentiaz Anniyzct.
-
-Th1. study 15 primnrily ¢en¢crand with tau solution
-
-or ardsnnry sirtarcntial cqunticn: in which certain boundnr
-‘ candttioa. tr. tycclrtoé at w
-
-5 3 er meg: values 0! tbs
-Indapcnnunt vtrinbzt. Such problcas are
-
-1 1 guntrally called
-1 boundary-Vila: vrnblcnn.
-
-1 1
-
-1
-
-1
-
-It is axenrxy evident that thl
-solution of such problem: is inhercntl
-
-y mar. difficult than
-tn. solntxsn er instlagovttue problem: In which all candim
-
-{ions urn specif c 0 ans point. In. particulnr yrabloa;
-
-studlcd Ara fnrther ccnplicataﬁ hy t»: fict that their
-
-aalutlans Ira rcqulrcd avcr tn inttnjto rang. which :un*
-tllns region: a! nea-snllyticl‘y.
-
- 
-
-,
-h canyutAtlennl phlleﬁephy is prancntnd which tmpht- A
-1 also: thlt : muchsao must he cv‘luatnd an a firm engineering
-tad cannons: hlnlgc-c busts whieh must {helmet the ntire
-1 camputatlonnl praceauro. ﬁn evaluntxon is givtn of :55.
-1' relut1Vt :dvnatngtu and limit-tings of the fivu computers
-11 usyn in this study. A tugr mvnluttlen must £nc£ud¢ the
-1 tin: for: problaa pvcpnratiaa, aquarium! annlyslu,
-1 programming. coding, mnehlnq Iatnp, machine solution.
-1
-
-1 chucking, ans ma forth. The ﬁccurtcy and coal at I purtxcuo
-.1 In: naiution mutt I180 be :ncludud.
-
- 
-
-.1va : -c»~ -
-
- 
-
-L1 This report clue illustratua tn: ﬁlﬂnaf in which the
-1 ttchniquca for calving slauxtnnaaus linear algebrutc equa-
-'1 tics: are npnlizc ta thn solution at the beundnrymvaluc
-preblcm. A actutlcd deteription a: tan «ntlr¢ campatl-
-
-(inns! proccdurt eharlcterlutie la mtch computer 1: glvun
-in an associatcd Appendix.
-
-F. a. Veranh
-Novcmher 25, 1952
+’ Lr
+cr atheist pH IRE WEEE
 
 

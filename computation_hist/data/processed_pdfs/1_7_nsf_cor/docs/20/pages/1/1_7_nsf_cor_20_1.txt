@@ -1,64 +1,53 @@
-/,
+TO: Professor P. M. Morse
+FROM: ¥F. M, Verzuh
+DATE: February 15, 1956
 
-w
-1'0: Professor P. I. Horse
-. m: P. l. Vermin
-DAB: February 15, 1958
+SUBJECT: Material for National Science Foundation Proposal
 
-SUBJECT: Iaterial for National Science Foundation Proposal
+mm
 
-W
+In accordance with our discussions regarding the proposal to NSF,
+enclosing the following information.
 
-In accordance with our discussions regarding the proposal to list,
-I am enclosing the following information.
+Hachine Complement of the M.I.T. Computation Center
 
-Inchine lemt 93 the 3.1.1:. mutation Center
+The M.I.T. Computation Center will have a Type 704 Electronic
 
-The ILLT. Computation Center will have a Type 704 Electronic
+- Data Processing Machine with the following machine complement:
 
-Data Processing llachine with the following machine complement:
+12 magnetic tape units, 2 magnetic CORE storage units containing a
+total of 8,000 words, 1 magnetic drum unit containing 4,000 words
 
-12 magnetic tape units, 2 magnetic cons storage units containing a
-
-total of 3,000 words, 1 magnetic drum unit containing 4,000 words
-
-of storage, the usual gn-line punched card reader, alphabetic printer,
-
-and punched card recorder as well as the 3 gig-line magnetic tape
+of storage, the usual on-line punched card reader, alphabetic printer ’
+and punched caxrd recorder as well as the 3 off-line magnetic tape
 
 controlled printer, magnetic tape controlled card punch, and punched
-
-card—to-magnetic tape converter, respectively. Total machine
-
-complement net monthly- rental is slightly over $45,000. In addition
-
-to the 704, there will be 1_o auxiliary punched card machines including
-. card punches, collators, sorters, reproducers, interpreters, and the
-
-Type 407 Accounting Machine. The aggregate machine rental is in
-excess of $ 50,000 per month.
+card-to-magnetic tape converter, respectively. Total machine
 
  
 
- 
+“complement net monthly- rental is slightly over $45,000. In addition
 
-me Type 704 EDPII unit is one of the fastest large—scale
-commercial computers available today. Since the ILLT. installation
-will be but one of many in the field, techniques, programs, and
+to the 704, there will be 10 auxiliary punched card machines including
+card punches, collators, sorters, reproducers, interpreters s and the
+Type 407 Accounting Machine. The aggregate machine vrental is in
+excess of § 50,000 per month.
+
+The Type 704 EDPM unit is one of the fastest large-scale
+comnercial computers available today. Since the M.I.T. installation
+will be but one of many in the field, techniques s Drograms, and
 numerical procedures developed for this machine will be of universal use.
 
 Biographical Information
 
-Dr. F. I. Verzuh, Director of Statistical Services, has been
-connected with the operation of MJJr. computational work since 1940.
+Dr. F. M. Verzuh, Director of Statistical Services, has been
+connected with the operation of M.I.T. computational work since 1940.
 In this capacity he has had considerable experience with the utilization
-of various analog computing equipment —- differential analyzers, etc.,
-
-as well as a complete line of digital machines ranging iron the Inn
+of various analog computing equipment -- differential analyzers, etc.,
+as well as a complete line of digital machines ranging fyom the IBM
 Type 601 through the Type 704.
 
-He received a 3.5. degree in Electrical Engineering Iron the
-University of Denver in 1940, a 10.3. degree in Electrical Engineering
-
-from M.I.’1‘. in 1946, and a Son. degree in Electrical Engineering from
-ILLT. in 1952.
+He received a B.S. degree in Electrical Engineering from the
+University of Denver in 1540 s> & M.S. degree in Electrical Engineering
+from M.XI.T. in 1946, and a ScD. degree in Electrical Engineering fLrom
+M.I.T. in 1952,

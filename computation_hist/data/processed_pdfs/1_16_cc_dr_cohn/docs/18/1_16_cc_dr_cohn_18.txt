@@ -1,308 +1,743 @@
 MINKOWSKI’S CONJECTURES ON CRITICAL LATTICES IN
-THE METRIC (l 51" + In 1")“
+THE METRIC (|¢[” + [7 [)"
 
-By HARVEY Com!
+By Harvey CoHN
 
-Amum 0v Munmmcs
-Vol.51, No. 3, May, 1950
+ANNALS OF MATHEMATICS
+Vol. 51, No. 3, May, 1950
 
-Made in United Stales of America
+Made in United States of America
 
 
-ANNALI or MATHEMATICS
-
-Val. 51, No. 3, my, 1950
-
-CRITICAL LATTICES IN
-. n ECTURES 0N
-MINKOWSKI Sig-l; ivrarRIc (I E I” + l r W"
-
-Bx Hanvax Conu‘
-(Received January 10, 1949)
-1. Introduction
-
-. . . - ~ taut c for Mr
-
-- ‘ ' a dlSCuSSlon of the minimum cons p lch
-This bflef Wig]: 2:31:13: will necessarily hazel/two pornts no further apart
-eaCh lattice It: sense of the metric (I E l” + l nl ) , p > 1, where A 15.13118 (Eu-
-than cpA m 8 1 parallelogram of the lattice. Our main rem“;
-
-clidean) area 0‘ “.19 “Tang”: 2W0 — 7,)9/ (1 + rp)‘, where r» is the root
-is that for P ”ﬂicwmfyymlts, signiﬁcance lies in the fact that it veriﬁes, in part,
-in: ionljectuzrhs of hllinkowski, other parts of which have been recently dis.
-ProVFd- ski [2] showed on the basis of a general theorem on convex bodies,
-thxlfkiwéj’ Where 5,, is the minimum area of the simple inﬁnity of parallelg.
-
-amspoﬂe vertex of which lies at the origin and the other three verticcs of which
-lie on the curve i Z [a + l r l” = 1, Turning his attention to theiinscnbed paral—
-lelograms, Minkowski ﬁrst conjectured, in effect, that the minimum and mum-
-mam areas would occur at the symmetric positions, 1.e., when the parallelogram
-has a vertex on the E - (or 77 -) axis or on the line 5‘: 7, (orE = — n). We
-shall prove thjs conjecture to be false, (see 4), for certain small ranges of p and
-to be true, (see 5), for suﬂiciently large values of p. Minkowski went on to make
-the second conjecture that the minimum parallelogram will have a vertex on the
-lineE = 1; (ME = — 1]) when p > 2, while it will have a vertex on the E-(or
-17 -) axis when2 > p > 1. Mordell [3] veriﬁed both these conjectures in the case
-p = 4, while Davis [1] disproved the second conjecture for values of p sufﬁ-
-ciently close to 1 and 2.
-
-We shall also consider the question of when the symmetric parallelogram
-provide relative maxima and minima, since this matter has bearing on the con-
-jectures when p is not large, and, in particular, it provides our proof that the
-optima (and the critical lattices associated with them) do not necessarily pm-
-take 0f the ObVlOUS symmetn'es of the metric. This, of course, contradicts Min-
-kowski’s ﬁrst conjecture. Our main result, however, is a proof of Minkowski’s
-ﬁrst and second conjectures when p is sufﬁciently large.’
-
-2. Formulation of the problem
-
-We describe the family 0f inscribed parallelograms as follows: We use the
-:unetnes of the problem so that the parallelogram will have vertices (En ’71)
-W 7”) m the ﬁﬁt quadrant or on the 2: axis, a third vertﬁx
-
-‘ i
-26 1&35?ﬁed to the {51118110811 Mathematical Society December 31, 1948 and February
-' ~ e author Wishes to acknowledge the advice of C. S. Davis.
-
-734
-
-: (all threel '
-1)Y and the fourth vertex, of Course, at the yin? on the curve
-
-A = $1712 + E2711 , where Er > £2 a 01 711 2
-
-(£1 - £2)? + (m + 172)” =1. Now if we let; $32713 051,1:- "f
-such that o' g ‘r a 0, we have (51, m) = ((1 + 7"};‘511’1
-(_ £2, 7”) = (_(1 + Firm, “(1 + a”)‘”")- Hence our pro
+” 4d a
+SAY Jeo
++ ATA oy \
+nA Salas
+aaa ara my
+LAY ACTA TRA, WeTars
+wo » AAT
+ye CAA EA >
+a4 Fate al sala
+aIasan
 
    
 
-ve slope parameters
-, 7(1 + 7’)‘””) and
-blem is to minimize
-(1) Mr, a) = (a + r>(1 + a’)“’”(1 + W” d
+le
+-
+-
 
+* 4
+
+SL
+> ea
+~
+-
+
+-a
+-
+-
+-
+-
+= -
+Tan
+-
+-
+et la
+NE
+
+   
+
+Casa
+ee BESSW
+~~
+N -
+
+- a.
+-
+en
+
+   
+
+a
+wa
+»n
+SAL
+-
+-~
+.
+<
+-
+- «
+eat
+*
+
+  
+
+alte
+
+PI
+ey
+
+- wy
+
+an
+
+-
+
+"
+-
+
+. &
+~~
+
+~
+-
+a“
+-
+-
+-
+
+renner ee
+
+-
+
+  
+   
+ 
+ 
+ 
+ 
+ 
+  
+   
+    
+ 
+ 
+ 
+ 
+  
+ 
+   
+
+v
+) 4
+Vata 7
+Piro Ta")
+
+fas
+
+"
+fatatst.?
+Aaia’a
+
+he, [lars vi raninite > *
+
+LL ONGRBBANNS
+
+al. T,
+|
+
+4,
+aa a2 asta?)
+AA 2 TaN)
+fala tea tatty iv lite \
+
+wR,
+
+  
+
+)
+|
+‘ ly '
+r
+ah ole yh
+rl nn yn .
+oy ’, HRY
+1 4 v lote
+’ AAT A he nT
+f fi 1%’ bole Pi% Vi
+‘ . "WN » '
+[Ad 2% +" aA, "AeA
+ig Aan ann
+» . w
+’ qt flv H% 4 retet nitty nr
+¥ A AAAS NN pi nD
+' Ho alta li Tey
+. + hots [IOS
+ih \ Vi ann, nnd
+‘ v
+rh 4H J SSIS NMIRN
+hy A statafeir tele] phlei,
+rf 2h ‘ ol. ’ ’ A vt
+ur £4 ¢ a oY Pole,
+a! A hi nh, n
+v “i el "" hole a0 r of ¥
+| A ‘ 2% 0, "1, oS MHA
+' J Poles a hs Alastata tee oe
+3 ¥ AAA "0 on" * ‘v
+i ‘ aap Ada naan ty \ Ye
+v ‘ “Wha Me wh ’ y Te
+Ae A Tatitate? Ala ML oh
+Ay rt, '
+' ‘ 9 ‘ ’ "
+3 ‘
+’
+
+    
+    
+
+   
+   
+ 
+ 
+   
+
+ 
+
+EMATICB
+ANNALS OF MATH
+Vol. 51, No. 3, May, 1950
+
+'s CONJECTURES ON CRITICAL LATTICES IN
+MINKOWSKI THE METRIC (|¢17 + [7 [")
+
+By HARVEY CounN*
+(Received January 10, 1949)
+1. Introduction
+
+ussion of the minimum constant c,, for whjg
+
+: ill necessarily have two points no further apg.
+each lattice In pes Ei (ef +12)" p> hy here dig the (Bu.
+than ¢,A’ in the sen damental parallelogram of the tice. Our main result
+clidean) area of es te c= 221 — 7,)}/(1 + 7,)}, where 7, is the root
+is that for p suffic Its significance lies in the fact that it verifies, in part,
+of 24+ 1=2(1— 1s Ei other parts of which have been recently djs.
+
+This brief article contains a disc
+
+some conjectures of M
+
+prog ski [2] showed, on the basis of a general theorem on convex bodies,
+ow :
+
+—~ ; ini area of the simple infinity of parallelo-
+that ¢, = 7 i ie Fo ori and the other three vertices of which
+fee So ler P| n° = 1. Turning his attention to the inscribed paral-
+we © Minkowski first conjectured, in effect, that the minimum and mag;-
+mum areas would occur at the symmetric positions, i.e., when the parallelogram
+has a vertex on the £ - (or 5 -) axis or on the line £0 (or § = — 5). We
+shall prove this conjecture to be false, (see 4), for certain small ranges of p and
+to be true, (see b), for sufficiently large values of p. Minkowski went on to make
+the second conjecture that the minimum parallelogram will have a vertex on the
+line = 9 (or § = — 1) when p > 2, while it will have a vertex on the & - (or
+n-) axis when 2 > p > 1. Mordell [3] verified both these conjectures in the case
+p = 4, while Davis [1] disproved the second conjecture for values of p suffi-
+ciently close to 1 and 2.
+
+We shall also consider the question of when the symmetric parallelograms
+provide relative maxima and minima, since this matter has bearing on the con-
+Jectures when p is not large, and, in particular, it provides our proof that the
+optima (and the critical lattices associated with them) do not necessarily par-
+take of the obvious symmetries of the metric. This, of course, contradicts Min-
+
+kowski’s first conjecture. Qur main result, however, is a proof of Minkowski’s
+first and second conjectures when p is sufficiently large.’
+
+2. Formulation of the problem
+We describe the family of inscribed
+Symmetries of the problem so tha
+
+and (¢ — £2, m + nm) in the fi
+
+ed to the American Mathematica] Society December 31, 1948 and February
+€ author wishes to ackn
+
+owledge the advice of C. S. Davis.
+734
+
+parallelograms as follows: We use the
+b the parallelogram will have vertices (¢1, mn)
+1st quadrant or on the z axis, a third vertex
+
+* Present
+26, 1949. Th
+
+  
+
+MINKOWSKIS CONJECTURES ON CRITICAL LATTICE
+S
+
+(all three lying on the curve [£[P 4 |, I=
+
+e, at the ori in. ;
+A = Em + Lm, where § > ¢, > On 8. Thus the greg jg
+
+—
+—
+
+2 0, ne > (). £P PT
+(B — &)" + (m+ 79)” =1. Now if we let ¢ anil be Sha
+igh 1128 ¢ & 7 2 0, we have (6, ikebial enon fs yi
+7 an
+
+(—fgam)k = (= +2)" oq +0952). Hence our problem is tq minimiz
+1) Aer 0) =/o + DA yng HE? |
 subject to the side condition
-(2) [(1 + r")'“" ~ (1 + a”>‘“‘“1" + [To + fry»
 
-Then differentiating, we ﬁnd that, ex
-at 0, the extrema of A satisfy
+@ [A+2)77"— 0+ 2p
 
-[(1 + W“? — (1 + v”>““’1”“[ar—‘(i _ ”no + Wu,
-1" 7’40 — o"_lr)(1 + r”)""’] + [1“ + TP)—1Ip
-+ “(1 + v">‘””l""‘[(1, — 7"“v)(1 + germ
-~ (1 — 6’“r)(1 + 7”)““PJ = 0.
+Then differentiating, we find that, except perhaps for th i
+at 0, the extrema of A satisfy € one-sided extremum
 
-Thus, in principle, all of Minkowski’s Conjectures can be resolved by solving
+r+) or 4 Pa
 
-equations (2) and (3) Simultaneously for a and ‘r as functions of pi We shall
-ultimately do this, but only for p sufﬁciently large
+[(1 + Ck pa (1 — oO) PA ie 7) (1 + oP) Vp
 
-In the meantime, we take note of the two s
-1:0,:7 = opandr = 7,,,u =1,where
++ AT = FE 7) + [11 4 2)
++ oll + NPA ~ a 4 py
+— (l= PER RE
 
-up = (2n _ Din!
-7; + 1 = 2(1 — n)".
-
-We ﬁrst vcrify that if the base of the parallelogram is rotated from one of thesc
-positions to the other, then each position, within symmetries, uill be assumed by
-one of the three vertiees lying on the curve I i l" + j r] l" = 1. In fact, the base clearly
-takes all slopes between 0 and 1,, , the opposite vertex takes all slopes between
-— up and ~ 1 while the included vertex takes all slopes between up and 1/7,. 3
-By symmetry, these slopes cover all values between 0 and 1‘ Hence it is no
-fundamental restriction to conﬁne tr to the interval 17,, g 0‘ g 1, (or to make the
-Corresponding restriction 0 g r g 1,, . As for the sizc of these intervals, when p
-goes from 1 to so, a,, goes from 1 to 2, while 7 goes from t to 0, At the same
-time, from simple convexity properties, A,,(a, 7') increases monotonically in p for
-ﬁxede and r with A1(7—, a) E %, A20, (7)5 t 3, and Aw(7: U) E 1v for all 5 and 7'
-
-3. Relative sizes of symmetry parallelograms
-
-If We substitute 1' = 0 and -r = 7,, , we obtain the following areas correspond-
-mg ‘30 Parallelograms whose base is a line of symmetry of the curve
-iEip+ in!” = 1:
+Thus, in principle, all of Minkowski’s conjectures c
+equations (2) and (3) simultaneously for o
+ultimately do this, but only for p sufficiently
+In the meantime, we take note of the tw
+7=0,0 = 0pand r = Tp, 0 = 1, where
 
 (3)
 
-ymmetric positions as given by
+an be resolved by solving
+
+and 7 as functions of p. We shall
+large.
+
+0 symmetric positions as given by
+
+op = (2° — 1)
+73 +1 = 2(1 — Tp)
 
 (4)
 
+We first verify that if the base of the parallelogram is rotated from one of these
+positions to the other, then each position, within symmetries, will be assumed by
+one of the three vertices lying on the curve |£[" + | 7° = 1. In fact, the base clearly
+takes all slopes between 0 and 7p , the opposite vertex takes all slopes between
+— 0p and — 1 while the included vertex takes all slopes between o, and 1/7, .
+By symmetry, these slopes cover all values between 0 and 1. Hence it is no
+fundamental restriction to confine ¢ to the interval gp = 0 2 1, (or to make the
+corresponding restriction 0 < r < 7,. As for the size of these intervals, when p
+goes from 1 to «, ¢, goes from 1 to 2, while = goes from 3 to 0. At the same
+time, from simple convexity properties, A,(s, 7) increases monotonically in p for
+fixed ¢ and r with A(r, 0) = 4, Ay(7, o)= 34/3, and A4(7, ¢) = 1, for all ¢ and 7.
 
+3. Relative sizes of symmetry parallelograms
+
+: : : ing areas correspond-
+If we substitute + = 0 and r = 7, , we obtain the ne p
+Ig to parallelograms whose base is a line of symmetry of the curv
+
+EP + | 9]? = 1:
+
+ 
+
+eer
+Le 1s
+pores
+
+» \
+s
+LZ
+
+Ls
+Tee fer
+or Tote Si ris G
+
+5s
+SEC Tos 82
+
+Lg
+
+wy Ls
+Fis
+ye
+
+xr £
+
+ALT aes
+ALE I
+Fs Lr
+
+
+EE PER Er Er TRE LEAL
+rrr FP Ta A ry Aa) PR EN IP Sed
+ELE EE IF 2 Sie =
+SSSA YS ay tl aad SZ ETP IFLA RES B
+
+S2¥a REET, SLL 2 ra
+
+Sass ts ALTE) EE ST sy
+3 TE : A DE Tr Err 3
+: - X55
+
+TT ER ENT 5X5 ry
+see A330 +s EE ET ras
+Ee FERRITE TS
+
+3333
+
+ 
+
+     
+      
+   
+
+ 
+
+—_—
+—
+
+\
 v
+' —~ QD —
+7 be £59385 38 QS < les = hs
+MRE SEE wo | 3 £Y a,
+QR 05° x cry = YU ~ 80 n> LT Bb
+dol edn 5 Be sgl ER al = | a
+kN > nog RE cE 3 & Saal a ol — I I ~ &
+~~ 3 QC nn npn 5 = A ~~ = | ig a
+Q ~0 5+ dD © Q oS 80 © res SL
+SLO oe ° Zi Le = — o ed —
+REA EES =i Sud to + a
+Sag gs HB © Ben has oS | hes |
+~~ firsts 9 a] A g [ERE
+TRI elie Je = | ES |
+A Sins |
+Lo Ss A |
+~~ 3 =
+& © ON 2 5 Be nla
+= o
+a
 
-“Ix
+elog23/9
+v9]
+log e/2 |
 
-_:
+V3
 
+log 3 — 2/3
+§ conjectures for p large
+
+1
+
+TN —
+
+1
+
+»(0, 0p) and A
+Pp
+1
+T~ —
+
+1 — log (2 +
+y € > 0, and for
+1)). For p
+ve
+th
+TN —
+po?
+pa?
+pa?
+>
+2vH
+
+equation (2)
+
+Ap(7, y
+
+, 18 a relat
+exp k/2 — exp — k/2
+T ~~
+
+thl <¢ <
+Asymptotic form of
+2(rp — 7) ~ (0 — 1)
+
+re log (1 + exp — k)
+
+1008 wl
+
+plo, — a) — k
+< ®©
+
+2—¢
+~~
+
+y € > 0, both A
+
+B, ~ 3E
+4
+
+whence, for p = 1 4
+
+MINKOWSKIS CONJECTURES ON CRITICAL LATTICES
+
+6. Proof of Minkowski’
+
+Value of «
+Ik
+
+oc—k
+Jee
+0p — a —0()
+
+plop — 0) >
+0<
+
+OS
+I
+~~
+—
+S
+ISH
+
+ple — 1) > k
+
+0. << kiiion
+ec —1)—0
+
+    
  
 
-HARVEY COX-IN
+value for which 4,(0, o,)
+III | p(c — 1) =» «
 
-736 .
-(5) no, t.) = an, “5““)
-(6) A4... 1) = 4"”(1 + rad/<1 ' T») ‘(E + ’7 = 0)
+greater one, A,(7,, 1)
+is a relative minimu
 
-h e and 1 are deﬁned by equation (4). Now, expanding these quantities
-w er :7, 7
+ima, and likewise for p
+and (3) has no solut
 
-aboutp=1,p=2,andp= w,weﬁnd
-
- 
-
-.1;(1+2elog2+o(e’)) ................. p=1+E
-3 ‘ 25—6 2) .......... = 2 +
-(53) rpm, 11,) = 4/;(1+ 1—2101; 27 + 0(a) p e
-1 + 0(p'3) ............................ p large
-and
-é(1+2]0g;—6+0(ez)> .................... 1,1:chE
-3 ‘1 i+0m> ...... 70:24?6
-(6a) A,(r,,1)= 11+50g(2+\/§)W
-i 1 — 10:: 2 + 0(p‘3) ........................ 1) large.
-
-Hence A,(0, 5) > A,(1, , 1) for p slightly greater than 1 and for p slightly less
-than 2, while, on the other hand, A,(r,, l) > AF(0, up) for p slightly greater
-than 2. (This is essentially Davis’ method of disproof of Minkowski’s second
-conjecture for p near 1 and 2.) If we let 1) become very large, Ap(0, a,,) > A, (r, ,1),
-once again, agreeing with Minkowski’s second conjecture. (Davrs located a
-crossing point, where A,(0, e,,) = Ap(r,, , 1) near p = 2.5725.) Hence to prove
-bath M tnkowski’s conjectures for 1) large we need only show that no optima occur in
-A,(r, IT) for «1 inside the open interval 1 < e < a, , and 1 determined by equation
-
-(2).
-4. Relative extrema
-
-We digress for a moment to consider whether the symmetric extrema are rela-
-tive maxima or minima. This process will reveal inherent complications in the
-function A,(1, :7), which will justify our restricting ourselves to 71 large. We
-develop the following power series expansions:
-
-7'12” — 2)
-2,,(29 _ “1/12
-
-72((‘17 + 3)2" — 2)
-W + 0(72), P > 2:
-
-+ ow), 2 > 1) >1.
-(7) MW) = a2? — I)” +
-
- 
-
-<8) Mm) = ﬁjjfjfp) (1 + 3.4:: — 1): + at — 1>’>.
-
-where4B»(1 — 7.3“)“(1 + 7,)(1 + .g-1 = Tia-2 ”—3 _ (p _ mi,” +
-
-212—1 _ 2 —2 _ _ PM
-I"? + <1» 2»: + (p — 2H + m: ‘ — (p — 1H" — m + 1.
-
- 
-
-MINKOWSKIS CONJECTURES 0N CRITICAL LAT'I‘
-ICES
-
-In particular, 737
-
-10g3—2/3
-W: p=1+.
-31"” 5': lo
-—_ 1_ 8(2+\/§)
-4 W1 p=2+.
-loge/2,
-
-”(0’ '7’) and AW!” 1) Provide relative min-
-
-e > 0 and for 11 near 2 5725
-i . , th '
-= Ap(“:v: 1)). For I) = 2 + s, ( e apprommate
-
-whence, for p = 1 + e, e > 0, both A
-ima, and likewise for p = 2 — e,
-value for which A,(0, up)
-greater one, Ap(1,, 1), i
-
-is a relative minimum. Hence in the former cases
-,
-
+In particular,
 proved right now.
 
-5. Proof of Minkowski’s con
+Case
+1
+II
 
-jectures for p large
-We have only to show that for 17 large enough the system of equations (2)
+1Ca
 
-and (3) has no solutions with 1 < :7 < D" , (and n, > 1- > 0)_ Now assume the
+5 — “+
+
+ZEN AN 8 hs = ~
+
+Q = .—_— A ori
+
+5 t= 1a : = .
+
+Hs lL] 3 ~ N & 2 & =
+2 '»
+
+= = iE [PES 2 A
+
+& ~ & = aN
+> ~ Sees 8
+
+P=24¢
+.p large
+
+3p—3
+
+2.5725.) Hence to prove
+P
+
+ir oz), p> 2,
+
+— pr
+—@—- D2? — pr, + 1.
+
+7+0@).
++ o(7?),
+
+ill reveal inherent compl
+ur restricting ourselves to p large. We
+
+ 
+
+defined by equation (4). Now, expanding these quantit
+are de
+
+    
+  
+
+  
+   
+
+                 
+       
+   
+
+               
 
  
 
  
 
- 
+     
+
+1
+-
+dag =28.858 =
+= 5 = ©
+~~ 3 O ge] 5 -
+> 2 oy = = S S ®
+re 0 ~~ oN
+= a0 Z a S QO Ia
+80 Pat oq 2 g > a3
+aa age 4 Nw)
+gE SS & So
+IE =e QO =
+a © 3 Qs —
+wn . »
+or 4 Si = o
+"~~
+: - Ho 2 S © |
+x SNe” DV or
+o ed = SH eS = QD 3) b
+. og OO r~ <q © [5 ~= =
+: 3 — ~~ > Qo
+C= - = -—
+— 0 ©
+~ . b oyu ~ S
+o L a
+w vie ES ad BS >, | '
+: be cede g 2S % Shp TT Eee
+| Z . ’ Oo IS” [+b] oe |
+* <Q ™ ~~ ~~ a
+pa x q.2 © St © OO oN | a
+y— mm . : — ed S a = & & + hi a ~ | rt ot
+» : on : = arnt = nn |= ox 5 i$
+a ~— : . SAN os @ 8 Hons \V ® © = aN =, NR
+Z a oS © i °c H SNE He oS +a II &a
+= os ~N ~~ Ie dq et | AQ
+= : ~~ r= : [=T4] Q DO S b 5} wn | ao —
+= +4 So a Oh Lv = HN | | ae
+Pm -
+w Oo od 2 wh ] = oO. (a _&
+— = = nl S | a ATS nS > Se Qo Patt ot Sw “
+- .
+a = 8 © AlN A sb Bl ago SiGe SEEN = an
+= aH 0 Clie +
+BR Cd Sat i 2 © FS EAE BE Se @hbaiEien Bal Te) Ln
+| QQ lew - o Is
+< a] -H — y— —_— -n QO 2 x EYE Oty Ee a —
+. A a
+m CH w |] 80 w 1S + Sg SB = I 98 SER SY 8.5 g Ee = oN I
+|: © —~ — + a 2. — QS -S Zo — a - toa
+— — ~~ © = A — => bb w= SQ .=5 + — = ~— ~~
+A | w IH Ea “aol ¢ ~~ SD SEE 2 z =e Ur
+© -~ IN — SX N , = & 3 PRS = ! + H ~ EB a= 8
+Sle Soh iS Te ESRI RT fe 8 gg 3 gq dd & 1
+- -
+er ABE ie Ne = 9B FR SS a 8H wo = hea
+<1 . a)
+~—r —{ ri a — o ~~ = ye oN ~~ | ~
+< 8 ea — 13 — = 2 0 S A Ei ~ bo AR —~
+yf —— —— = 8 8.8 ¢ 3 SH <2 ies 2 ana
+[+5] 2 T= =
+: I I Ngo 88% oo & 5 w °= I i)
+a — “a Sal I=Y x ees S ‘eS Yu O a <1
+SO & x S §.2 ku 88° B 3X o = ZS
+-
+- .- - yr ated on o- = QQ = = - =
+a ~ A Oo — = o S 3 ~~ < ~ = AQ |
+oO = Sti  . 22 oT oo "5a ar
+[=] ~—r — 8 BB Nr 3 e > one = a <M
+a ~ & 1 Bows ONS SR < o =
+5 a 5 a NAN BIg o 8.3.2 21
+QQ -— - QO L ®_
+oo LQ wn ~ ob) OQ ca
+© + ge HieniR rd eile a 2 = © Tv
+Ee —~ TR g 8 2 og 2 3.9 r~ EF BN
+LC © 3 = 3 SC ee ET ie ao Boo ~ ~
+© ~ ~~ Oo = © an OS 0c o.49L +3
+Rv © FQ 3 & ~ er
+Nr — -
+= EES Inds A ERA
+= ~~ t 24 ado te > x FRAME ES a 3 Sree —-— = Sa ES EE REY EEE FEET VE
+a = - Ea - =a Lok SN 5 B £23 > asks L Ls al2nILs sissy x - TL Sy FET ZEI IIT 2 To — FS
+Pre SENET Pi iiioisiiastes Er a iets tet Sarena eis Sa w= ee CE
+- - - ee > su - FST" X RT —~ -~ a a - Ka — Te rr - wn - -- a
+Raia See i ee 0S PS CTI Ase ene le Tee ree, CEILS lea EEE” SRR RRR
+ed I hah hts a ee res
+ar ~ Ld LL FEE EE EEE RTL = = al a Sr Bx ee x = Pe = 3S I Ey AE yy re a tal FFE
+AEN A ray Ferra ou Dr E32 EE a >. oe '- — “ R a
+ll Fria x — EA > Re NTT TSA >» > - =~ Sn - - > To - a ~ * - CE eT -
+Slo TS
+be ras o> EEE SERRE TS Ne a Pe a =
+- ay Se raed EE a a a NR asset
+- ne rey Nea e > ay - a. we Tae -~ - » 5
+oy oS as EE ores a a a tv we ats
+a , So. SS a >) >. SS ee. rt > SS - > ey a. - RE a 3 r yy em se OTR Sh
+- nN » - - - a ES EEE
+Ts ee =
+ht) = FON >a See. a PAN are a at ee a. 2 SMP e AN ea : PD re Sh -
+> na ey aa cat Ses SS A a eA a aes Tet we
+- > es SA a a ET eT Sy “aes Ty rel Ot A CC OCCOURN UCC > -
+CET. Pa Py eRe a a > Sat. re aA a Tt PA a re hr -
+Se a Tm, ~~ BCE CE RS CT a ah wee
+-- fas shun rT. an ay Atay ae Ate EE Ta
+Tr aaa
+a We te ro er "Pn SEE TE eT a Ee LN
+. « aN SR SS SSS =
+RT I NESS
+of oa N Nee. a - an ’ - pr a
+<n x -~ Te CT A CC > — > - 3 = 0S -~ Se - . cS - -— x —
+a - pe - NR EE “a - a a. . - Ee -———
+Tr ees SE SSC St CTS SRRR CNA R re SASSER < o> riiamameaaa di ae
+a Sar et SY a eT a ye it ~ Retreats —~ = So = a
+Se a SAN Ss EN nS
 
  
 
- 
+i A ) IN “
+Nw eS dd me ? —
+Ara PD ar
+FNS OP ea TE ~~ r=
+ester Ts rae ee See a
+i i a, re C—
 
- 
+     
 
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-Case Value of .1 Asymptotic form of Asymptotic value of Lhm.
-equation (2) of equation (3)
-I M" _1)"0 2(11, — 7') "’ (0' — 1) “ (a - 1) log 0/2
-H W — ”“0 W m) _1[10E<1+ exp -1.)
-O < In < co p p exp — k
-— log (1 + exp 10]
-HI p(i7—l)—)oo ~l ~(U—l)
-(a — I) —> O 7 1;”
-IV «7—»k ~ 1 —(1—l//c)
-1 < k < 2 T 17.?
-V o, — 0' —>0 ~ 1 7 i
-7.7(a, — o) —> no 7 ﬁx;
-VI p(0,,—47)—>k Nexpk/Z—exp—k/Z —%+%exp—k
-0 < k < on T 527
-VII p07,, _ .7) _> 0 .7. — a — no. — v)
-T N ' 2y-H '
+- reo — 8 . 0 AS
+NN Sas ~ S<
+oy as - E . EB
+_- = PO.
 
 
-,
-738 HARVEY com
+HARVEY COHN
 
-en a subsequence of values of p exists which tends to inﬁnit
+738
 
-and which permits equations (2) and (3) to be satisﬁed by a 0' and T lying insidy
-the open intervals just mentioned. We ﬁnd it convenient to select a, Still ﬁne:
-subsequence for which the values of (7 ﬁt the description of one of the cases listed
-in the adjoining table. By referring each case to equation (2), we f ind the asym »
-totic relationship thereby implied between a and .—. These results are listed :1
+result to be false. Then a subsequence of values of p exists which tends to infinit
+and which permits equations (2) and (3) to be satisfied by a ¢ and lying Se
+the open intervals just mentioned. We find it convenient to select a still a
+subsequence for which the values of ¢ fit the description of one of the cases listed
+in the adjoining table. By referring each case to equation (2), we find the asymp-
+totic relationship thereby implied between o and r. These results are listed &
 the next column of the table. Now using this information, we can calculate the
-asymptotic value of the left hand member of equation (3), (which Supposedly
+asymptotic value of the left hand member of equation (3), (which supposedly
+holds). But these values, listed in the last column, are easily seen to be nop.
+hence the proof by contradiction is complete.
 
-holds). But these values, listed in the last column, are easily seen to be non.
-
-vanishing, hence the proof by contradiction is complete.
-
-result to be false. Th
-
+vanishing,
 BIBLIOGRAPHY
-1. DAVIS, C. 8., Note an a conjecture by Minkowski, J. London Math. Soc. 23 (1943) 172_
-175. 1
-2. MINKostI, H., Diophuntische Approximationeu, (Berlin, Teubner, 1907) pp. 51—8
-3. MoRnnLL, L. J., Lattice points in the region | Ax‘ + By‘ l § 1, London Math Soc ‘16
+1. Davis, C. S., Note on a conjecture by Minkowskz, J. London Math. Soc. 23 (1948), 172
+175. Ny
 
-(1941), 152—6.
+9. Mingowskl, H., Diophantische Approximationen, (Berlin, Teubner, 1907), pp. 51-8
+3. MorpELL, L. J., Lattice points in the region | Az* + By* | = 1, London Math. Soe 16
+
+(1941), 152-6.
 
 WAYNE UNIVERSITY
 

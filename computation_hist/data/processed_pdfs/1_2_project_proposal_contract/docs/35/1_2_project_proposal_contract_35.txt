@@ -1,116 +1,113 @@
-”gt”? A
+MASSACHUSETTS INSTITUTE OF TECHNOLOGY
+co DIVISION OF INDUSTRIAL COOPERATION
+CAMBRIDGE 39, MASS. ’ :
+
+April 16, 1954
+
+© oewieE OF THE DIRECTOR | DIC-#7019
+
+ki
+) Commander
+Wright Alr Development Usnier /
+Wright-Patterson Air Foree Base /
+Ohio /
+
+Attention: Lt. @. R. Thompson, WCECR
+| Reference: Oontrest AF 33(616)~-128 ~
+1 Dear Bix:
+
+In accerdance with reeent discussions between WADC and MIT
+technical personmel, there le forwarded herewith a revieed proposal
+for & 12 months! extensien of The reference contrast starting
+January 1, 1958, witheut additional funds. Thie proposal supersedes
+sur proposal forwarded by letter dated March 10, 1958.
+
+It is recomménded that the proposed research progres eR-
+sles of the following studies and investigations:
+
+1. A study of bouadary-value and eigeavalue problems whish
+are frequently encountered in the solution of ordimary
+differential equations. The proposed study will eem-
+glider msthods of solution amenable for sclutiomr by
+aeens of the differential analyzer, the REA, and ether
+digital machines.
+
+9. Ap investigation of the feasibility of solving integral
+equations efficisntly by means of eomputing equipment.
+
+9. An javestigation of the solution of certain types ef
+glgebraie equations (¢.g.,; the solution of simul taneous
+equations wilh 41i-conditioned matrices, evaluation of
+sheracteristias roots of matriess, 6%...) by means of
+available somputing equipment.
+
+&. A study of the variavion determination of simply ans
+1ytie wave TuNSTiONE;] for use ia the calsculatiom of
+{onization potentials, multiplet separations, radiation
+intensities, and other properties of atoms eontalming
+is, 28 and 2p elegirons.
+
+he Gontragtor shall contimue to submit quarterly progress
+reports and WADO ¥ashni cal Reports on the above work.
 
  
 
  
 
-Hmcnum INSTITUTE OF TECHNOLOGY
-DIVIIION or moutrlmu. coérgvun'lou
-cmlnmcx is. run.
-
-lyril 16, 195k
-
-' ‘ 121647019
-
-mwmm
-
-Gonnsndor
-[right Air stslopnons Goats:
-Irighs—Psttorson Air torso loss
-
-Ohio
-Lttontios: L8. 0. I.-!hoipson, veto:
-Istsronss: contrsot A! 33(616)-128 +
-
-\«‘/
-
-Door lit:
-
-In socordsnoo with rossnt discussions hotvosn IADG sad I1!
-toohnicsl psrsonnsl, thorn 1s forwardsd herewith s rovisol propossl
-for s 12 nonths' oxtonsion of tho rsfsronos oonﬁrsot stsrting
-January 1, 1955, without siditlonsl funds. this pragossl suporsodss
-our propossl rokurdod by lotto: dated larch 10, 195 .
-
-It is rsoo-nsnds& that tho proposod rossarah presto: eon»
-sis? of tho following studios Ind investigations:
-
-1‘ A study of boundary—vsluo Ind oigssvsluo problsns which
-are :rsquanﬁly enaanntorsd in tho solution or ord$lnry
-differential equations. the proposod study will ooh»
-side? Istbpas of solution snonnbls for solution by
-Icons of the diffsreutisl snnlyzsr, tho Ella, All other
-
-ﬁlgital Iﬂﬁhiﬁﬂﬂo
-
-2. Ag gavawtigotiom or the roasibility of solving intsgrsl
-equations offleiantly by Icons of oo-puting oquipuout.
-
-3. A: iavomtigatgon a? ﬁho salutzon of certain typos or
-ul‘sbrsio squmtinng is.g., tho soiuﬁion of silultnmsons
-@quations wiﬁm 111~aeadiﬁionod latrines; evaluation of
-dhhr$m$0fimtlm ruwxa of natriaosy wﬁs.,.) by Islam a!
-
-mvail&blo aoupmﬁiag @quiyﬂent.
-
-%# A gaudy of tho variaﬁion ﬁetéfninstian a? silply an.»
-lytza wavw fnmaﬁiomt; for new in the calculation of
-iomlmgtian pctsnﬁiaia, nultipiot soporssiols, rsliatzan
-intmnaﬁtiaar mnﬁ aﬁhsr propor‘ias of atoms oomtaﬁning
-is, in mnﬁ 2p slaoﬁrousa
-
-fha mantrmmmo? ahsll continue to sublit qusrterly progress
-riporﬁs aaﬂ ﬁgﬁﬂ %aﬂhniaal asports on the Above work.
+= en ————————
 
 
-Edy, Vibe - 2 _ April 16, 1953
+TO: Cdr, WADC -2 = April 16, 195k
 
-Thu principal inventigiiﬁr sf this DWGEPII will be Profou-
-BOP Whoa Em cﬁmﬁg% 1@ being aiia; and tun grnmp
+he principal investigator of this program will be Profes-
+ser P. MM. Morse, for whom ne charge 18 being made; and the group
+Will be direst ted by br. ¥., MH, Vorzuh.
 
-   
-  
+it is understood that the Government shall furnish sush
+late, information end equipment as may be neseéssary in the perferm-
+58% of ¥hla WoOrR.
 
-Hg i V®Eimﬂ_
+The estimated budget required to conduet this researash
+program for a twelve~momnth period beginning January 1, 1954 is as
+
+= Lh ES on =A Be . . a N gab
+galeries and Wages® $ 9,066
+
+: p as wl wed » a =
+Overhead &%t 30.7% of above 3,303
+
+Berviese Ghargses Tor Eigh-8peed
+= } on n a ne" d Jy >
+Computing Equipmen® 2,800
+
+Seeretarial and Administrative Charges 600
+
+Sateriale, Forms and Publisation Charges coo
+
+Pravel, Telephons and other Direet Charges EL 500
 
  
 
-  
+POFAL FOR A "WELVE-MOWTH PERIOD $16,563
 
-”is: raqmirea ta cen¢uaﬁ than rgmeuruh
-:momih pariad beginning gwﬁﬂﬂfj 1, 195% in am
+“Phe item for Belaries end Wages includes the part-time gexrvieces
+o¥X Toar (4) profedslonal GRE LASETXS | TAs part-time services of four
+] operating persornsel, and the part-time
+g 3 SR@ S6oretas ¥*Y. The exaet Aumber of Dart-ti me PErscnRel
 
- 
+sey vary, depemding upen the degrees of participation.
 
- 
+fads
 
- 
-    
-  
-  
+& (HM SEpervligory &i
 
- 
+ml (a SST YY
+a (tg NG
 
-8 9mm
-3u3¢3
-gyms
+Very truly yours,
 
-‘V GhAFgag 6©O
+Ld
 
-bgiasaian Uhargaw 80$
-
-i~&m®i -ww mnﬂ azhay Bireai Shargss w: 506
-.3 mm wmma PWGB 816,303
-
-un—suu
-
-   
- 
-
-wxmat number of pa tine p'?~wmﬁﬂl
-
-£agrssb a? parﬁloipgt ﬂan
-
-Very tfuly ya&rﬂL
+PCY & ERLE
 
 

@@ -2,23 +2,22 @@ December 7, 1956
 
 Dr. Harvey Cohn
 Department of Mathematics
-
 Washington University
-St. Louis, Missouri
+
+St. Louis, Missourl
 
 Dear Harvey:
 
 Thanks for your letter. I think we'd be
 interested in your compiler for 650, if you are going
 to write it up. We are getting along with ours for
-the 704. If you come east, we'd be glad to talk it
+the 704, If you come east, we'd be glad to talk it
 
 over.
 
 Don't forget to let us know about bright
 youngsters. If they are interested in going on for
 an advanced degree, with specialization in computer
-
 use, we have assistantships.
 
 Yours,
@@ -26,6 +25,6 @@ Yours,
 Philip M. Morse, Director
 M.I.T. Computation Center
 
-PMMzLWH
+PMM : LWH
 
 

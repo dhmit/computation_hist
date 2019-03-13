@@ -1,232 +1,223 @@
-COMPUI'ATION CENTER
+COMPUTATION CENTER
 Massachusetts Institute of Technology
 Cambridge 39, Massachusetts
 
 Date: February 10, 1960
 
-Memorandum to: Dr. c. R. DeCarlo, Assistant General Manager,
+Memorandum to: Dr. C. R. DeCarlo, Assistant General Manager,
+Data Systems Division, IBM Corporation
 
-Data Systems Division, IBM Corporation /
-From: Philip Mo Morseg Director, MIT Computation Center
-Subject: Replacement of 70” by a 7090
+From: Philip M. Morse, Director, MIT Computation Center
+Sub ject: Replacement of TOL by a T7090
 
-Back round: In June, 1957. somewhat less than three years
+Back : In June, 1957, somewhat less than three years
+ago, an was installed at the Computation Center by IBM,
 
-ago, an Tﬁﬁ $53 was installed at the Computation Center by IBMa
-
-under a special agreement whereby IBM maintains the equipments
+under a special agreement whereby IBM maintains the equipment,
 contributes toward amortizing the additions to the Compton Laboratory
 which house the Center and supports a number of research assistants
 
-and associates who assist users of the machine” and MIT provides
+and assoclates who assist users of the machine, and MIT provides
 
 the staff and operates the Center for the use of MIT and other
 cooperating New England colleges and universities. The primary
 
 purpose of the arrangement is to enable students and faculty of
 
-these institutions to learn how to use highnspeed computing machines
-effectivelyg so that the next generation of scientists, engineers
+these institutions to learn how to use high-speed computing machines
+effectively, so that the next generation of scientists, engineers
 
-and industrial executives will be able to exploit machine capabilities aw
-in other wordsy the primary purpose is to demonstrate that such
+and industrial executives will be able to exploit machine capabilities =-
+in other words, the primary purpose is to demonstrate that such
 
 machines are as important a part of the educational equipment of a
-modern college as are chemistry laboratories8 for exampleq A
+modern college as are chemistry laboratories, for example.
 
-secondary purpose is to foster research in the use of computing machinesy
+secondary purpose is to foster research in the use of computing machines,
 particularly in those fields of application which have not yet been
-explored or exploited fully°
+explored or exploited fully.
 
-To this ends priority on 70“ time has been accorded to
-regular class use by courses in machine programming and applications9
+To this end, priority on 704 time has been accorded to
+regular class use by courses in machine programming and applications,
 to students using the machine in their thesis research and to
-research projects investigating new techniques of machine use“
-Particular attention has been given to making it easy for the out»
-oratown users: mail service} special scheduling during visits and
-
+research projects investigating new techniques of machine use.
+Particular attention has been given to making it easy for the out-
+of -town users: wail service, special scheduling during visits and
 Saturday operation for those who cannot come to Cambridge during
-week days°
+week days.
 
 Present Situation: This program has been outstandingly
-success?ﬁT?”EEhce the present memoranduma Class use of the 704
+successiul: hence che present memorandum. Class use of the 704
 has grown rapidly; at MIT there is now a freshman course in machine
-usep four upperaclass and a number of graduate courses which use
-time on the machineg in addition to the Sequence of special coding
-courses which are given by the Center staff during each term and
-summer“ A number of other colleges bring some of their classes in
-for one or more laboratory sessionso Class use will expand further;
+use, four upper-class and a number of graduate courses which use
+time on the machine, in addition to the sequence of special coding
+courses which are glven by the Center staff during each term and
+summer. A number of other colleges bring some of thelr classes in
+for one or more laboratory sessions. Class use will expand further,
 
 
-‘2?
+Pw
 
- 
-
-but its expansion will be hampered by the limitations or access
-to the Yet, as will be discussed later.
+but ite expansion will be hampered by the limitations of access
+to the 704, as will be discussed later.
 
 The use of the machine by the other colleges has expanded
+rapidly until nearly a full shift is now occupled with their work
+(including their class exercises). But this use tends to be self-
+limiting for, as soon as g college faculty begins fully to apprec-
+late the possibilities in education and research of computers, the |
 
-rapidly until nearly a full shift is now occupied with their work
-
-including their class exercises). But this use tends to be self»
-limiting for, as soon as a college faculty begins fully to apprecu
-late the possibilities in education and research of computers, the
-pressure builds up for a machine of their own on their own campus,
-By now at least eight of the cooperating institutions have machines
-of their own, These are smaller machines, of the 650 type, (with
-some larger machines projected), so these institutions still come
-to the Center to use the 70k for their bigger Jobs; but it does
-mean that the use of the Center by the other ﬂevangland colleges
+of their own. These are smaller machines, of the 650 type, (with
+Some larger machines projected), so these Institutions still come
+to the Center to use the 704 for their bigger "jobs; but it does
+mean that the use of the Center by the other New England colleges
 will tend to level off to a reasonable load (about one shift, it
-now appears) rather than growing continuously, as the MIT usage is
-doing, This result, of course, is in accord with our conviction
+now appears) rather than growing continuously, as the MIT usage 1s
+doing. This result, of course, is in accord with our conviction
 that computers should be as prevalent as chemistry laboratories.
 
-In contrast, the MIT use of the 704 for research into new
-applications has grown so that now we are not able to satisfy all
-requests for machine time for such work, let alone routine proJect
-calculations of the "production-run" type (important as these often
+requests for machine time for such work, let alone routine pro ject
+calculations of the "production-run® type (important as these often
 are) even when we encroach on the third machine shift, which has
 heretofore been reserved for IBM use. In addition to the research
-in solid—state theory, in meteorology and oceanography, which now
+in solid-state theory, in meteorology and oceanography, which now
 depend completely on machine computation and could already use more
 time than we can allot them, there are a number of research projects
 which are basic to the development of new uses for computers, and,
-indeed, to the development of computers themselves, which are already
-handicapped by shortage of machine time and limitation of 70#
-capacities, To mention a few:
 
-Programmin Develo ment. The Center staff has already
-develops an automa ic opera or routine which is being adopted by
-other 70h users, More general assembly programs; such as the
-Linking Segment Subprogram Loader, which combines Fortran, SAP and
-other special codes; COMIT, which enables the 70h to be used on
-language translation problems; and LISP, which enables the machine
-to handle nonanumerical logic, such as algebraic and other symbolic
+Programming Development. The Center staff has already
+developed an automatic operator routine which is being adopted by
+other 704 users. More general assembly programs; such as the
+Linking Segment Subprogram Loader, which combines Fortran, SAP amd
+other special codes; COMIT, which enables the 704 to be used on
+language translation problems: and LISP, which enables the machine
+to handle non-numericail logic, such as algebraic and other symbolic
 manipulation, are being developed and tested. The work at MIT in
-this field, since Whirlwind days, is well known.
+this field, Since Whirlwind days, is well known.
 
-Timeasharing Techni ues° We already have a typewriter
-connected to the—75H, which works on a timeusharing basis with our
-regular operator routine, so new programs can be debugged at the
-same time that regular computations are being carried out on other
-problems, for example. The 704 cannot effectively accommodate more
-than one or two such satelite channels, but the Center staff is now
+Time-sharing Techniques. We already have a typewriter
+connected to the 704, which works on a time-sharing basis with our
+
+problems, for example. The 70% cannot effectively accommodate more
+than one or two such satelite chammels, but the Center staff is now
 
 
-a}-
+=D=
 
-at work on the design and programming required to provide a 7090
-with 10 to 30 such 'substation consoles" or various effective speeds
-and capacities. which can be placed at appropriate places around MIT.
+at work on the design and programming required to provide a T7090
+with 10 to 30 such "substation consoles" of various effective speeds
+and capacities, which can be placed at appropriate places around MIT,
 some perhaps in classrooms. The ultimate goal is to make the fastest
 and most sophisticated computer as accessible and convenient to a
 person working with it as a dial telephone is. This development will
-'not only open up new research areas. as indicated later, but also
+‘not only open up new research areas, as indicated later, but also
 will substantially simplify and expedite the process of producing
 
 and debugging new programs. We believe all large machines will
-eventually use timeesharing techniques in order to achieve their
-ultimate capabilities; thus the research new begun at the Center
+eventually use time-sharing techniques in order to achieve thelr
+ultimate capabllities; thus the research now begun at the Center
 will be of general benefit to the development of the computer field.
 
-yachine-guided Education. Computers can, of course, aid in
+Machine-guided Education. Computers can, of course, aid in
 grading examinations, scheduling classrooms and students and do
 other clerical tasks incidental to large classes. But computers
-also can be programmed to carry out some of the detailed question»
-anduanswer interchange which occurs in recitation sections. The
+also can be programmed to carry out some of the detalled guestion-
+and-answey interchange which occurs in recitation sections. The
 Center staff is now working with the Language Department at MIT
-to program the 70k to guide a student through some of the phases
+to program the TOI to guide a student through some of the phases
 of learning a new language, and are discussing the possibilities
 of training students in the details of mathematical manipulation by
 machine. Here the machine would pose questions for the student to
-answer and, on the basis of the answers. would go on to other
-questions. as in a recitation section. To avoid intolerable cone
-gestion at the main input console (and also waste of computer time).
-several students must be able to work with the machine simultaneously.
+answer and, on the basis of the answers, would go on to other
+questions, as in a recitation section. To avoid intolerable con-
+gestion at the main input console (and also waste of computer time),
+several students must be able to work with the machine simultaneously,
 sharing machine time with regular computation. Therefore further
 development of this research will shortly require a flexibility the
-704 lacks but the 7090 does possess. Potentially. the use of com»
-puters will help to solve the problem of giving individualized
-training in the sciences at all levels2 without excessive demands
-on thc' time of able teachers.
+704 lacks but the 7090 does possess. Potentially, the use of com-
+puters will help to solve the problem of giving individuvalized
+training in the sciences at all levels, without excessive demands
+on the time of able teachers.
 
-Machineescientist Coo erative Research §Sggerggz. In
-addition to the examples ﬂusg mentionedD there are many other research
+Machine-scientist Cooperative Regearch (Synergy) . in
+
+addition vo the examples Just mentioned, there are many other research
 programs which can only progress effectively if the machine is
+
 able to carry out calculations on immediate demand and display the
 result or feed it back immediately into the experiment, so the
 experiment or the scientist can go on to the next step and request
-the next computation in turn. 0n the 70k this would require the
-exclusive use of the machine. though only a fraction of the 70%
-speed would be used; obviously again. timensharing techniques are
+
+the next computation in turn. On the 704 this would require the
+exclusive use of the machine, though only a fraction of the TOY
+
+speed would be used; obvicusly again, time-sharing techniques are
 needed.
 
-These. and many other programs now in progress. such as the
-charactererecognition studies. the research on economic forecasting
-and on operational behavior using largewscale simulation techniques.
+These, and many other programs now in progress, such as the
+character-recognition studies, the research on economic forecasting
+and on cperational behavior using large-scale simulation techniques,
 
 
--na
+eh
 
 should be of particular interest to IBM, for they have direct
 bearing on the progress of computer design and utilization. They
 represent the sort of cooperative research between experts in
 different fields which MIT does so effectively, and they involve
-the combination of research and education for which MIT is pre»
+the combination of research and education for which MIT is pre-
 eminent. This work deserves support by IBM, in addition to the
 educational activities which are already being supported by the
-present contribution of the 70k. They can most effectively be
-supported by the installation of a 7090, replacing the 70%, in
+present contribution of the 704. They can most effectively be
+supported by the installation of a T7090, replacing the 704, in
 the near future; MIT will then be able to provide the ancillary
-equipment to push ahead with dispatch. Because of the “inter-
-conhectedness' of much of this research it can best be carried
-out (perhaps it can only be carried outs in the atmosphere of
+equipment to push ahead with dispatch. Because of the "inter-
+connectedness" of much of this research, it can best be carried
+out (perhaps it can only be carried out) in the atmosphere of
 mutual cooperation and exchange of information provided by the
 Computation Center.
 
 Outlook for the Future: The activities mentioned above
-are only a part of the research, at MIT and at the associated .
-institutionsE which desires to use the facilities of the Computation
-Center. obviously no single computing machine can be itself satisfy
-indefinitely the continually grdwing demands from the New England
+are only a part of the research, at MIT and at the associated :
+institutions, which desires to use the facilities of the Computation
+Center. Obviously no single computing machine can be itself satisfy
+indefinitely the continually growing demands from the New England
 educational institutions, for all their research and educational
-computer needs. However the facilities of the Center need nota
-and probably should noty satisfy all the demands; A much more
-realistic task would be to concentrate on 1) the educational tasksp
-which will be supplemental to the onwcampus small machines for the
-other New England colleges and which, for the MIT class needsg can
-be improved in efficiency by timeesharing techniques; 2) on thesis
-research and 3) on Just those aspects of research which advance the
-designp programming and utility of the computer in new fields.
+computer needs. However the facilities of the Center need not,
+and probably should not, satisfy all the demands. A much more
+realistic task would be to concentrate on 1) the educational tasks,
+which will be supplemental to the on-campus small machines for the
+other New England colleges and which, for the MIT class needs, can
+be improved in efficiency by time-sharing techniques; 2) on thesis
+researc and 3) on Just those aspects of research which advance the
+design, programming and utility of the computer in new fields.
 Research programs in other new directions, which involve machine
-use (meteorology; nuclear reactor design and the like) should only
+use (metrology, nuclear reactor design and the like) should only
 be supported by the Center by grants of time while they are in the
-formative stages before they are far enough along to be able to
-ask for financial supportF for further computation, in their own
-rightu By the time they have developed their programs and their
+formative stage, before they are far enough along to be able to
+ask for financial support, for further computation, in their own
+right. By the time they have developed their programs and their
 special techniques of machine use, and are ready to exploit these
-methods by long "production runs'}9 they should be in a position to
-obtain financing to make these runs on one of the several other
-similar machines which are or wi 1 be in operation in the vicinityo
+methods by long “production runs'l, they should be in a position to
+obtain financing to make These runs on one of the several other
+similar machines which are or will be in operation in the vicinity.
 
-Even with this sort of limitation on the useibf the Center
-facilitiesg the demands on the Center will growv But the growth,
-if thus limitedD sang we believe; he handled by the pooperative
-effort of IBM and MITe A 7090 within the year would\not delay most
-of the work,outlined above,tooyseriouslya And,7 as outlined belowy
-it would be able to handle them for several years, w ile plans are
-made for the next stepc 0n the other handy if a 709 cannot be
+Even with this sort of limitation on the use 'of the Center
+facilities, the demands on the Center will grow. But the growth,
+if thus limited, can, we believe, be handled by the ‘cooperative
+effort of IBM and MIT. A 7090 within the year would not delay most
+of the work outlined above, K too, seriously. And, as outlined below,
+it would be able to handle them for several years, wihiile plans are
+made for the next step. On the other hand, if a 7090 cannot be
 
-‘ 4
+nw HM
 
 
-“,5“
+==
 
-provided soon; several of the proJects mentioned above will have
-to terminate or else will have to use other machinesa which would
-inevitably mean the dissipation of the Centerﬂs usefulness in
+provided soon, several of the projects mentioned above will have
+to terminate or else will have to use other machines, which would
+inevitably mean the dissipation of the Center's usefulness in
 coordinating this sort of research.
 
 It is not intended that the Center should have a monopoly
@@ -237,41 +228,41 @@ is to continue to be the focus of new ideas and of exciting activity
 which will attract, train and inspire the new generation of
 machine experts.
 
-Pro osal: It is proposed that some time during the summer
-or fall of I966 a 7090 be substituted for the present 70%. Details
+Proposal: It is proposed that some time during the summer
+or fall of 1000 a 7090 be substituted for the present TO4. Details
 of the specific equipment to be included are already under dis-
 cussion with IBM staff. Several data synchronizer channels should
 be included, and a disk memory, in addition to a variety of input-
 output equipment. In the meantime the Center staff will be preparing
-pilot models of the substationp timeasharing consoles, and the
+pilot models of the substation, time-sharing consoles, and the
 related program modifications so that the time-sharing aspects of
-the research can start as soon as possible after the 7090 is
+the research can start as soon as possible after the T7090 is
 installed. The Center staff will of course continue its close
-cooperation with the various IBM research groupsy so the design
+cooperation with the various IBM research groups, 80 the design
 implications of the time-sharing developments will be available to
 these groups as the work progresses, and so that minor changes in
-the 7090, to improve substation effectiveness“ can be made with
-expedition and mutual understanding, either before or after the 7090
+the 7090, to improve substation effectiveness, can be made with
+expedition and mutual understanding, either before or after the T090
 is delivered.
 
-The total load on the 7090, the work of the cooperating
-institutions, the class and thesis use and the machine=use research
-discussed aboveP would initially use more than one shift of machine
-time3 but probably would not use more than two shifts for the first
-year. Consequently it would be possible for IBM» during the first
-year of operation; to utilize the third shift in a manner similar
+The total load on the T7090, the work of the cooperating
+institutions, the class and thesis use and the machine-=use research
+discussed above, would initially use more than one shift of machine
+time, but probably would not use more than two shifts for the first
+year. Consequently it would be possible for IBM, during the first
+year of operation, to utilize the third shift in a manner similar
 to what was done on the 704 during its first year of operation.
 
-It is likely that this IBM usage would taper offy as it did with
-the 70kg so that as the program outlined above expands, it could
+It is likely that this IBM usage would taper off, as it did with
+the 704, so that as the program outlined above expands, it could
 eventually use all three shifts (plus Saturdays); the New England
 colleges taking up to one shift, the MIT classroom and thesis work
-taking up to another shiftg and the newaapplications research takixg
-up the rest of the time. MIT would supply the operating and
-programming staffs in addition to the management and coordination
+taking up to another shift, and the new-applications research taki g
+up the rest of the tiwe. MIT would supply the operating and
+programming staff, in addition to the management and coordination
 with other colleges; IBM would supply maintenance, amortization of
-building spacey support of the research assistantship program and
-reimbursement of MITVs expenses in the cooperative program.v as it
-does at present with the 70%.
+building space, support of the research assistantship program and
+reimbursement of MIT's expenses in the cooperative program, as it
+does at present with the TOL.
 
 

@@ -4,912 +4,1316 @@ BY
 HARVEY COHN
 
 Reprinted from American Journal of Mathematics, Vol. LXXVI, No. 4,
-October, 1954, pages 904-914.
+October, 1954, pages 904-914,
 
 
-A PERIODIC ALGORITHM FOR CUBIC FORMS II.*
+A PERIODIC ALGORITHM FOR CUBIC FORMS II
 
-By HARVEY Conn.
+   
+
+(16.1) ¢=[P,Q,R,83].
+
+IC ALGORIIEIM EOR se we shall classify the 24 neighbor possibilities ( explained in 10 above) into E
+
+three types depending on the partition of the symbols serving as second and =
+third element in the neighbor operation:
+
+0)
+pRB rer 5;
+
+A PERIOD
+
+wp - pa nET ne
+A
+
+   
+
+By HARVEY CoHN.
+
+r
+
+ol 4 a
+
+= pi i
+
+-~
+he
+- 4
++7
 
  
 
-15 Introduction to Part II. In this continuation of our discusgiOn
+ 
 
-of a cubic sign-discrimination algorithm, introduced in an earlier VOIHme of
+: = P,S or Q,R ,8 or : C0 PY ES
 
-this JOURNAL [7], we shall turn our attention to the computation of units.
+15. Introduction to Part II. In this continuation of our discussion : I ~ : 2 S or P,R R,8 or P,Q R 1: 1s BA
+CL. ae ssoosion gloorithm, introduced in an earlier vo) \GP5); (RU) (PQS), (PR) (PRS), (RPQ) 45 PY Et
 
-First of all we shall show (leaning once more on the Minkowgkizm
-algorithm) that all units are discoverable by the “neighbor PTOCess” of
-Part 1 [7]’ pp. 829-833. In so doing we must restrict our lattice to a module
-9)? of preferably (but not necessarily) all integers in a totally real cubic ﬁeld
-5?. The ﬁeld 5? need not be abelian but the module Wt must be DOD-singular
-(i. e., of dimension three over the rationals). The units would then lie in Q
-the order of the module 311?.
+bic sign-discrimination aigoTILILL volume of 9 RPS), (SQR) RQS A a] FR
 
-Secondly we shall consider the manner in which the units should be
-written. As we observed in [7], p. 833 certain 3 X 4 matrices are PTOPOr-
+of a cubic sig (16.2) (RPS), (SQR (ROS), (SPR) (QRS), (SPQ) 37 34
+
+this JourNAL [7], we shall turn our attention to the computation of Units. Coa as
+First of all we shall show (leaning once more on the Minkowskiay, | ( lL QP)
+
+orithm) that all units are discoverable by the “neighbor process” of (QSR), (SQP)
+
+p. 820-833. In so doing we must restrict our lattice to a mody]e LEMMA. Every reduced matrix ¢ has either one or two (reduced)
+
+neighbors of each type.
+
+(QSP), (PEQ)
+(RSP), (SEQ)
+
+(PSQ), (EP)
+(RSQ), (SRP)
+alg
+
+Part I [7], Pp
+9M of preferably (but not necessarily) all integers in a totally real cubic fie]g
+
+@. The field ® need not be abelian but the module MM must be non-singular
+(i. e., of dimension three over the rationals). The units would then lie ip 9
+
+the order of the module 2.
+
+Outline of Proof. We must consider the subdivision into cases as deter-
+mined by the relative magnitudes of each row: (|p|, | ql, |r], |s]),
+
+(compare 11). There are actually twenty-four different cases (to within
+elementary interchanges of rows and columns and changes of sign in rows).
+The details are omitted in the interests of brevity we simply remark that
+this method was used in the (weaker) statement made earlier [7], p. 830
+that there are from three to six neighbors.
+
+Secondly we shall consider the manner in which the units should phe
+written. As we observed in [7], p. 833 certain 3 XX 4 matrices are propor-
 tional only under certain rearrangements of rows and columns. This makes
-it desirable to have a hypercornplex notation, which also brings out normal
+it desirable to have a hypercomplex notation, which also brings out normal
 symmetries of the matrices.
 
-In comparing our modiﬁed algorithm with its Minkowskian Progenitor-
+In comparing our modified algorithm with its Minkowskian progenitor
 we start with the realization that what we are doing is refining the algebraic
-properties of the algorithm at the expense of the geometric properties, but
-the algebraic simpliﬁcations make numerical work 1 more feasible while the
-geometric complications make themselves felt only in existence type proofs
-which are disposed of here. This dichotomy is illustrated in the geometric
 
-and algebraic portions of the present work.
-Existence of Units.
+Tat
 
-of 416.ID Types of neighbors. We consider a reduced matrix 4, in the sensc
-(a are) consisting of four column vectors which we shall write as
+oe
+hd
+
+ECL NY
+. S- SESSA
+
+&
+
+rd
+Pr
+5)
+2
+: -
+Cs
+< SE
+on
+
+el
+55: 0%
+£32
+
+-
+Fe
+COLES
+. a.
+-
+“ 220?
+
+17. Occurrence of independent units. The units deduced from the
+Minkowskian algorithm were ‘controllable ” in the sense that if we take a
+
+CE hi
+LLL EL -
+. es =< es
+
+SE
+
+~~
+
+> ~ > or
+STEEL
 
  
 
-‘R 'v . . ,. .
-ecerrcd February a, 1904. Research sponsored by the U. S. Arniv Oiﬁce hf
+properties of the algorithm at the expense of the geometric properties, hut
+the algebraic simplifications make numerical work * more feasible while the
+geometric complications make themselves felt only in existence type proofs
+which are disposed of here. This dichotomy is illustrated in the geometric
+and algebraic portions of the present work.
 
-Ordn.
+Existence of Units.
 
-grunts: Etienne}; urrder Contract No. DAVZUVols-ORDJZMZ, The sections and hihrin.
+: 16. Types of neighbors. We consider a reduced matrix in the sense
+of 4 (above) consisting of four column vectors which we shall write as
 
-“Part I" of the Pratefiltniiinitred mm‘mvely with those in item [7] which formed
-‘The present method £11,; Errata f0" Pfll't I are appended to the present paper.
+ 
 
-Dr. snii Gum ““2 Programmed for the EDVAC at Aberdeen, Hat, by
+* Received February 5, 19
+
+4. Res ! S S r 5 | ~ - r n
+Ordnance Research under Cont earch sponsored by the U. 8. Army Office of
+
+graphical refernces ar ract No. DA-20-018-ORD-12332. The sections and biblio-
+“Part T” of the fk] consecutively with those in item [7] which formed
+
+1 The on Rg Errata for Part TI are appended to the present paper.
+Dr. Saul Gorn, 18 being programmed for the EDVAC at Aberdeen, Md., by
 
 904
 
- 
-
- 
-
-A pnnronro ALGORITHM FOR conic norms II 905
-
- 
- 
- 
- 
-  
-  
-  
-  
-   
- 
- 
- 
- 
-   
-    
- 
- 
- 
-  
- 
-  
-  
-  
- 
-  
-  
-  
-  
-  
-
-(16.1) ¢= [P, Q.R,S}.
-
-We shall classify the 24 neighbor possibilities (explained in 10 above) into
-
-three types depending on the partition of the symbols serving as second and
-third element in the neighbor operation:
-
-Type 1 Type 2 Type 3
-P,S0r QR Q,SorP,R R,SorP,Q
-(OPS): (P073) (PQS); (QPR) (PBS), (RPQ)
-(16.2) (RPS); (SQR) (RQS); (SP1?) (QRS): (SP0)
-
-(QSPL(PRQ)
-(RSPh<SRo>
-
-(Psot<ocrr
-(Rsot<SRP>
-
-(P315), (RQP)
-(95R); (SQP)
-
-LEMMA. Erory reduced metric; ¢ has either one or two (reduced)
-neighbors of each type.
-
-Outline of Proof. We must consider the subdivision into cases as deter-
-mined by the relative magnitudes of each row: (i p11, l (14 t, 1r, ), l s; l),
-(compare 11) There are actually twenty-four diiferent cases (to within
-elementary interchanges of rows and columns and changes of sign in rows).
-The details are omitted in the interests of brevity we simply remark that
-this method was used in the (weaker) statement made earlier ['7], p. 830
-that there are from three to six neighbors.
-
-17. Occurrence of independent units. The units deduced from the
-)Iinkowskian algorithm were “controllable” in the sense that if we take a
 succession of neighbors to one Minkowskian triple by “lowering the same
-face” (say a.) each time we would obtain a unit whose xi conjugate is less «
+face” (say a;) each time we would obtain a unit whose z; conjugate is less
 than unity and whose other conjugates are greater than unity in absolute
-value. If units are formed corresponding to two different a, they are inde-
+value. If units ave formed corresponding to two different zi they are inde-
 pendent by the classical argument of Dirichlet.
 
-The same thing can he done here, except that the
-*0 il'i bHIOngs to none of the vectors in the quadruple (16.1), e.g.,
-
-happen that the maximum of l p, |, t I]. l. l r1 l, l s, i cannot. be decreased
+The same thing can be done here, except that the “ face’
+to @; belongs to nome of the vectors in the quadruple (16. 5B
+happen that the maximum of |p: || |; [72s | 8 cAINDS be dened
 through any neighbor operation. We need to use other quantities namely
 
-(17.1) M37151), 1 Sis 3,
-
-“ face ” corresponding
+> corresponding
 it can
 
-where in”) are the components of U”):
-(172) [7(1):], + S. IV<3>=Q+S, U(3)=R+S.
+=:1=3
+(17.1) hy = wl, :
+where 4,() are the components of U™:
 
-n ' . ' . 2
-(The hi are positive if we. suppress the “ i" m the left hand Side of (4 2)
+(17.2) TO =P OO = 8, Ni =Er
+
+”» f (4.22
+(The h; are positive if we suppress the © ==" In the left hand side of ( )
 
 as we now do for convenience).
 
 
-HARVEY (JOHN.
+HARVEY COHN.
 
-900 ”on 0f typo i decreases h; while it mopeds“
-bor opera . .
+ 
 
-h two h,- (7%4»).
+900 i decreases hi while it increases
 
-. r to note t at the 013mm
+nin type
+or operation of WPS
+Lemma. 4 ned he other (wo hy (j 71)
 
-ﬁ‘ v - bundant symmetry 11. t
+es the same) t
 
-S“ 1095 by?!the ‘7“); P1 + 5,) into 5) (< hi) While it changes
-pa 1 cha gesp}:(> ha) and. leaves it; (___— 4,2 + 33) Unchau ed‘
-+ 53 ‘ 3
+ 
 
-A neig
-LEMMA. .
-(or leaves the some) the other
+A PERIODIC ALGORITHM FOR CUBIQ FORMS 11
+4 .
 
-Proof. It
-tion (Ql’S) of ty ‘
-h3 (=13. + 33) into 73
+907
+where (under restrictions (4. 21) and (4 R2))
 
-a (a) Um) is not Minkowskian since it
-Q'E'D' t'le (Um’U . . . .
-We Mtg thiill iii; blipindex 2 but it is a kind of invariant” for the
-- - a
-determines a S“ by equation (4. 21).
+(18. 4) fi(a,b) =i + ap, + bq.
 
-quadruple (16'1)
-Thus by virtue 0
+SUAS Sra lelr
+Ih! Vala lal ttre la
+Jal
+liv ate
+Eppa
+WINE Tele
 
-' lent.
-mined which are indepenc
+Ii
 
-t1 ﬁniteness theorem of 8 (above) units are deter.
-18
-f (Compare [3]: P- 444)-
+5
+yy
 
-onsider next how an arbitrary unit in Q,
+sileln
 
-11 units. 0 -
-e of a positive norm for convenience), can be
+alent *
 
-(taken with
-If we form the product
+ga lin "a
+/
 
-13, Occurrenc
-s (o), 9-3133)’
-our algorithm.
+(or leav abundant symmetry to note that the opera- fi
+erv 5 5 3 ] 2 < t 1 3 a ar oo
 
-¢E z [PE QE, RE, SE]
+Proof. It suffices by the © = Te 5,) into 8 (< hi) while it changes It 18 = : > is 2 SE Sl to show (by representing the xe fo
+tion (Q pS) of type 1 changes ’ i ho3iein Sl cuves hs (— 1 $3) un changed, mequs = = = ap Lea ly) that if the relations (18. 3) hold i (@ A
+= + g,) into 7s + 53— Ps then a and b are not both of the same sign, while the inequalities (18. 3) s - i
+Vg Ta : : A : ith (a enlace r (n a “D 9) holc ¥
+ E.D. og, g®, U®) is not Minkowskian since i ee (2) ee by (4,0 + sgna) or (a+ sgn b,b). (Here sgn 0 — 0) 5
+icy note that the triple (U7 ¢ it is a kind of “invariant” for the Thus Lemma 18.1 follows by descent, Q.E.D. gn =0). 8
 
-f vectors lying in 5173 (by deﬁnition of D), and
-e sublattice spanned by of] has determinant equal
-of E). By a rearrangement of columns (vectors)
-ther reduced quadruple. Therefore all we need
-cted by a chain of neighbor operations (as
+-
+-
+=r
 
-namely E
-discovered by
+e of index 2 bu
+
+a.
+- »
+
+es a sub-lattic
+
+determin Pera 21) Lemma 18.2. To any reduced quadruple (or | Fin Rit
+
+- equation ( g : ; : pie (or to one connected NS
+
+quadruple daly aniteness theorem of 8 (above) units are deter- by a chain of neighbors) there corresponds at least one a on
+vir ng I yi
+
+a
+
+Thus by (Compare [3], P: 444). skian basis.
+
+: . nt.
+mined which are independe mT tof |
+cr ik 1e proof of this lemma wi ; : ATR A
+aC onsider next how an arbitrary unit in 9, p will be deferred to the next section; (sec Lana
+Occurrence of all units: al es od Lemma 19. 3 below). dh 1)
+rs ), (taken with positive norm for convenience), can be AT
+— es 3 > = LIL AAT pains
+el J Er Taals (e1; 22 0 uct LEM M/ x d an 4 7 AT . wed nirafatete fs SATATATAVA
+nam ) SN orth: If we form the prod | \ 18.3. Any two neighboring Minkowskian bases each overlap ANTE
+discovered by 8 overlapping reduced quadruples. |
+
+—
+£8,
+
+of = [PE, QL, RE, SE]
+
+of vectors lying in PM (by definition of 9), and
+cublattice spanned by ¢F has determinant equal
+
+Lh
+ys
+
+CE
+oo
+
+ala
+
+Aue ll Alp ta Tiss
+
+Por a ra ala lala td
+ha oa ie
+
+<
+
+SCL
 
 (18.1)
 
-We obtain a quadruple o
-spanning EU? again (Since th
-to that of <1: times the norm
-in oil we therefore obtain ano
-show is that 4: and ¢E are conne
+we obtain a quadruple
+ng IM again (since the
 
-in 12 above).
+a
+-~
+-
+-
 
-We intro .
-pics or quadruples, etc, With two or more c
-
-duce the term overlapping to describe two Sets of vectors such as
-
-ommon elements.
-tri
-
-LEMMA 18 1. Two overlapping quadruples can be connected by means
-
-of neighbor operations.
-Outline of proof. Let the two overlapping quadruples be ‘l’mo and a)“
-(for integral a, b) where
-em = [P, Q, RM), Slam]
-
-(18' 2) RM) =1: + aP + W, 5"“) = S - ELP ' 59-
-
-Now the requirement that W17 be reduced leads to three sign conditions on
-Bi”) and SW) (=—R— (a—l— 1)P— (b + 1)Q). Thus
-
- 
-
- 
-
-f1(a M 1)<0 f1(d.b)<0
-(13-3) f2(ﬂ--1.b+1)<0 Mob) <0
-lulﬂ+1ab“1) <0 famil’) >07
-
- 
-
- 
-
-A PERIODIC ALGORITHM r011 CUBIC nouns n 907
-‘Vherp (under restrictions (4. 21) and (4.22))
-,
-
-(18,4) filthb) =7it‘i‘aPi-I-bqi.
-
-It is thcu a tcdious but elementary matter to show (by
-
-inequalities (18.3) graphically) that if the l‘clat
-then a and b arc not both of the same sign, while the inequalities (18 3) hell
-W“ (m 7’) ”WW by (“= b + Sena) or (n+sgnb, b), (Herc .....'0_ at
-Thus Lemma 18.1 follows by descent. Q, E, D. ”a w )-
-
-. representing the six
-ions (18. 3) hold for (a, b)
-
-LuMMA 18. 2. To any reduced quadruple (
-by a chain of neighbors) thoro corresponds at leu
-shiau basis.
-
-or lo ooo connoclcd with it
-st one overlapping Minkow—
-
-The proof of this lemma will be deferred to the nex
-
-1: section; (See
-Lemma 19. 3 below).
-
-LEMMA 18. 3. Any two neighboring Minhoroskinn bases each overlap
-overlapping reduced guadruplcs.
-
-For it is the naturc of Minkowski’s neighbor concept, [3], that any two
-neighboring triples overlap; but by the theorem in 5 these triples are con-
+For it is the nature of Minkowski’s neighbor concept, [3], that any two
+neighboring triples overlap; but by the theorem in 5 these triples ar
 tained (discounting sign) in a reduced quadruple if they are bases.
 
-Now we use the further information that any two Minkowskian triplcs
-are connected by the h‘linkowski neighbor process. The proof is based on a
-topological argument suggested by Minkowslri (and proved in [‘2]. p. 3-19).
-Since every degenerate Minkowskian triple has nondegcneratc triples (i. 0..
-basis triples) as neighbors, it takes very little eil'ort to deduce from the same
-proof that any two Minkowskian bases are connected by a chain of )Iinkowskian
+ALS
+-
+-
+
+333
+Tu
+xe
+
+€ con-
+
+os
+a
+
+2
+
+A
+x:
+~
+: :
+- = <
+
+1
+\
+\
+\
+\
+i]
+
+hs .
+
+Gly v, bedi aialy “Sy spannl » Nn ement of columns (vectors) alanat tat ri enn nnn
+
+HR RI ARAAGARAR AL 7 . of F). By a rearrangeme 3 bo Ca : : AI ns an
+
+yr RAE AR BEE to that of ¢ times the norm q ) i d quadruple Mheretore allie meri Now we use the further information that any two Minkowskian triples | hii eA i 0
+i ; : : : Te 2 = ; : : . POO he 2A] a
+i i in 4 We (heraigrat Tat 8 ted by a chain of neighbor operations (as are connected by the Minkowski neighbor process. The proof is based on a ; al ef elenaeh
+\ ¥ ; onnecte DO . A : : Ae PALAti nit !
+
+show is that ¢ and ¢F are C topological argument suggested by Minkowski (and proved in [2], p. 342). RL
+
+ul Y,
+
+J
+
+Since every degenerate Minkowskian triple has non-degenerate triples (i. e.,
+basis triples) as neighbors, it takes very little effort to deduce from the same
+proof that any two Minkowskian bases are connected by a chain of Minkowskian
 bases as neighbors. Hence the lemmas yield the following result and with it
-the “discovcrability” of all units:
+the “ discoverability ” of all units:
 
-THEOREM. Any two reduced guadruplos can be connected by a chain of
-neighboring (reduced) quadruplcs.
+Ce: i in 12 above). : : 0
 
-19. Proximity of algorithms. In Scction 5 (above) we showed that
-”91'." Minlrowskian basis is part of a rcduocd quadruple, which manna in
-('iii‘i‘t, that every Illrnlrorosl'imz lriplo overlaps a rozlucod quadruplr. The
-“converse” seems to be ialsc, indicating that there are “more” reduced
-«nuidruplcs than Minkowskian triples in some sense perhaps analogous to the
-Sense that the quadratic algorithm we introduced in 2 (above), pmscssing
-“ modianis “ in addition to regular convorgents of the simple continued frac-
-tion contains “more ” rcduvod triples (see Section 25 below). Lemma 18. 2
+i Jl 3 Ww Pel the term overlapping to describe two sets of vectors such as
+og -
 
+with two or more common elements.
 
-HARVEY (JOHN-
+¥
+»
+1
+1
+i
+¥
+\
+’
+'
 
-  
- 
- 
-  
- 
- 
-  
-  
- 
- 
- 
-  
- 
-  
- 
-  
-  
- 
-  
- 
- 
-  
- 
- 
- 
- 
- 
- 
-  
-  
-  
- 
-  
-   
+Te
+at
 
-908
-S we can comfortably approach a converse to the
+triples or quadruples, etc.,
 
-seems to be as close a
+Aletta ie
 
-theorem in 5-
-To get at the
+Lemyma 18.1. Two overlapping quadruples can be connected by means
 
-uadruple in whic
-q bsalute value f”
+of neighbor operations.
+Outline of proof. Let the two overlapping quadruples be do, and ¢q,
 
-|r¢l<min|P$h|9iblsih
-Here we would call R the small
+(for integral a, b) where
+Pap == [P; 0, R(@?), Sad)]
+R@Y) — R + aP + b0Q,
+Now the requirement that ¢,,5 be reduced leads to three sign conditions on
+R@® and §@» (=—R— (a +1)P— (b+ 1)@). Thus
+file+1,0+1) <0 fi(a,b) <0
+(18.3) fale+ 1,041) <0 f.(a,b) <0
+fala+ 1,041) <0 fa(a,b) > 0,
 
-we deﬁne a mediant quadruple to be a reduced
-5 in each of its three components the
+THEOREM. Any two reduced quadruples can be connected by a chain of
+neighboring (reduced) quadruples.
 
-tors of the quadruple. Thus if (say)
+19. Proximity of algorithms. In Section 5 (above) we showed that
+every Minkowskian basis is part of a reduced quadruple, which means, in
+effect, that every Minkowskian triple overlaps a reduced quadruple. The
+“converse ” seems to be false, indicating that there are “more” reduced
+quadruples than Minkowskian triples in some sense perhaps analogous to the
+sense that the quadratic algorithm we introduced in 2 (above), possessing
+“mediants ” in addition to regular convergents of the simple continued frac-
+tion contains “more ” reduced triples (see Section 25 below). Lemma 18.2
 
-diﬂiculty .
-h one vector achieve
-1' all four vac
-
-minimum 41 _
-1 S i S 3)
-
-(19.1)
-
-then [17, Q, 113,5] is
-”“507” 11 a set of vectors ('5 limiting if each (non-zero) vector achieves an
-We 081 in some frcoiuponent not exceeding that of a vector of 6,
-ue 0d of admissible bodies if a set of limiting
-
-kian meth . .
-t three vectors none of which can be omitted from 6
-
-perty) then a Minkowskian triple can be chosen
-ts of two vectors none of which can be Omitted
-nkowskian triple can be chosen that over-
-
-a mediant quadruple.
-
-absolute Va
-Then by the Minkows
-
-vectors contains at leas
-(without loss of limiting pro
-from the set (5. If 6 consrs .
-from 6 (without loss) then a Ml
-
-laps 6' druples are undesirable because they do not have two
-
-New mediant qua
-vectors that serve as a limiting set (by virtue of the fact that the small vector
-
-can be omitted without loss of limiting property). Hence we must use
-
-LEMMA 19.1. No complete chain of reduced neighboring quadruplgs
-
-can consist entirely of mediants.
-
-Suppose R is the small vector of a mediant 4:. Then any
-
-Proof.
-“in the middle” is valid. Take in particular
-
-neighbor operation with R
-(PBS): We can apply the neighbor operation only a limited number of
-times} e. g.,
-
-(19- 2) ¢(PRS)¢’(PRS)¢”' ' We”);
-
-(since the operation decreases p1(> 0) by Ir, l each time). Now if qsl")
-is still a mediant, the small vector must be Q (because it is no longer "R”
-and yet 1): and [sg| now exceed In I). We therefore apply (PQS) as
-long as possible until we obtain a ¢(’"")- This process must terminate since
-the operations (PQS) and (PBS) each decrease p1 (> 0) by l qu 01‘ l’tl
-each time. Q. E. D.
-
-We are now ready to handle the non-mediant quadruples. We are again
-confronted with a multitude of special cases that would be tedious to give in
-detail. We therefore ﬁrst make use of limiting sets.
-
- 
-
- 
-
-LEMMA 1.9. 2. For any reduced quadruple the twenty-six vectors for‘mid
-
- 
-
-A PERIODIC ALGORITHM non CUBIC FORMS Ir 9
-. 09
-
-from the following and their WWW/es- are a limiting set~
-
-rattles, P—Q, P_1,~;, p_s 0—12 9 s R s
-, , _’ _)
-
-P+S, Q+s, n+3.
-Proof Letv=ap+b0+m SinceV=<b~oo+o—a)e_as
-
-by (4' 21)? we “m assume (1,12, 6 are not all of the same Sign We theref
-' Ore
-
-can select a component 7' for which 11 =
-the result. Q. E. D. I ’1 lapil + l 1791 l + I ”I l- Hence
-
-(19. 3)
-
-. I‘lFlMMA 19. 3. If a reduced quadruple is not a mediant then it-contains
-a limiting set of two vectors (and therefore overlaps a Minkowslcian basis)
-
-Outline of proof. An actual listing of the twenty-four different t
-of ¢ according to the relative magnitudes of the rows (see 16) would shit
-that only two types are mediants. The remaining twenty-two} types reveal
-limiting sets on inspection, but the amount of space required to handle the
-inequalities in writing is almost prohibitive. It should be clear however that
-Lemma 19. 2 expresses the problem in ﬁnite terms. ' I
-
-Hypercomplex Notation and Normal Symmetries.
-
-20. Reduction redeﬁned. The distinguishing algebraic features of our
-present algorithm can best be brought out by considering the hypercomplex
-system %[ over the module SD} generated by the introduction of elements
-(animus, 1) that form the four-group:
-
-(20.1) are:1(=a0),a;uj=ajai:ab 1Si¢j¢k£3i
-
-Then each 3 X 4 matrix (1) can be written in the form
-
-(20- 2) 4»: Pa. + oaz +Raa + s1.
-
-1“ the 5339th SW the “ scalars " are elements of 9}? for which each conjugate
-multiplies (row by row) the 3 X 4 matrix 95. Thus if 93? were an order, ‘1
-would he an “algebra”
-
-NOW the element <1; of ill will be called a reduced basis of 9.)? (see 4 above)
-ill any llli'l‘o oi the quantities I’. Q 13. S form a basis of ill? and (sec (-l. 21))
-ill ‘t‘ EGO-s to (J by the mapping of 9[ that brings each a; into 1 and if ((-on»
-tinuinfr to suppress tho “ i " on the left of (4. ’23)). each .i'. conjugate of
-P- (J. 1?. S agrees in sign with Xi ol' a,.a_..a.x,1 respectively. where the ,‘(i
-hurncti'i‘s of the tourrgsi'oulv, lixs‘d
-
- 
-
-(5:1 n 3) arc the ihrownon principal o
-m that Mm) = 1.
-
-12
+(18.2) Sa?) — § — aP — BQ.
 
 
-HARVEY 001“-
+RVEY COHN. |
+5 A PERIODIC ALGORITHM FOR CUBIG FORMS II
 
-f 8 (above) asserts that the system may
-em :d basis elements to within (scalar) proper.
-”m numb” of ”due , 9 enables us to choose these constants
-
- 
- 
- 
- 
- 
- 
- 
+    
   
   
- 
- 
- 
- 
-  
- 
-  
-  
- 
-  
- 
- 
-  
- 
- 
- 
- 
- 
- 
- 
- 
-  
- 
- 
- 
   
 
-. ﬁts in with the classiﬁcation into neighbor
-plex notatlo a) to denote, for example: (SRQ), then
+908 M5
+909 WN
 
-(111a i: one in which the product of the second
-atiou (e. g” a: a a2), equals (1; (here «1.).
-other very curious kind of result
-any two reduced elements
+bly approach a converse to : : deli
 
-as units.
-The hypercom
+ems to be as close as we cal comfortably app the from the following and their negatives. are 4 limiting set oy
+se : : i
+theorem 10 5. define a mediant quadruple to be a reduceq | P,Q, R, 8, P—0; P-=p a
+: we deine > by, Pe S, Pe adel
 
-types. If we use the symbol
-a neighbor of type r (1
-and third elements ottil 5 us to o
-The new notation enab e
+or achieves 1 €ac
 
-. . . he su
-that We mention m Passmg 'diiles in o is equal
-4n 4” belonging to two Elsiepends on the operation and elements).
+four vectors of the quadruple. Thus if (say) P48, Q+8, R + 3.
 
-, _ .
+Proof. Let V—=aP + bQ + ¢R. Since Vv
+by (4.21), we can assume a, b, ¢ ar Pet
 
-to a third "While ( in using the notation will be for dealing With units
-Our main Engliimplex notation use by Hasse [s] fox. :1 SOmewhat
-Compare the y . p ,
+quadruple in which one vect
+mAnymaunm absolute value for all
 
-different analysis of cubic units)
+| <min [pels [gels
 
-11
+TN —
+La
 
-e DEighbor opel‘
-btain an
+=(b—a)0 + (¢c—a)R —aS
 
-or product of
-m to reduced elements belonging
+re
 
-ow we shall designate the units E= (e,, e2. as)
-as multipliers in 92L What we do is select
+=<
 
-' < is 3), agrees in sign with oi (assumjug
-' which ”(oi), (1 _.
-the charactei X! for
+wv
+-
 
-' ,t 111? denotes the hyper.
-~' 'v f ‘e . Then the produc 1 ‘
-the norm 0f E pebm‘e as EetzlE) and for any reduced baSis element a, of 3m,
+ 
 
-plex “nit cogeSPSZEIEEOther reduced basis element. This process would
-, yl
+(19. 1) : e not all of the same sion. W [vol
+. . mediant quadruple. Here we would call B the small can select a component j for which |v; | = | ap, | 4- |b ) ae fa
 
-scalar) multiplication for E totally positive or totally
+®+hen [P, QB; g] 18:8 the result. Q. E.D. ; 91+ | ers |. Hence He
+Spector. a A % r . : oe
 
-21. Hypercomplex units. N
+"vecto il 5 set of vectors & limiting if each (non-zero) vector achieves an LEMMA 19.3. If a reduced quadruple i ; 1
 
-of S.) that are not totally positive
+We eats : onent not exceeding that of a vector of & pe 4 “pte 1s mot a mediant then it contains 4
 
-(30111
-the product 4"!"
-reduce to oi'dinaTy (
+absolute value 1D SOME ;-comp ro = ES a limiting set of two vectors (and therefore overlaps a Minkowski its
 
-negatiiy: let (55 be the (abeliau) group of all hypercomplex units so deﬁned.
-0 .
+the Minkowskian method of admissible bodies if a set of limiting Munkowskian basis). HE
 
-(i) be the sub-"1‘0“? of totally positive units. Then the nature of'the
-Latt' K)t wup 65/630 is uniquely determined by r the Signature ronlc, Lei,
-30:11:“; of different arrays of signs that can be achieved by the scalar
+7 th . . | : = Sls Mild
 
-9
+i by fe three vectors Done of which can be omitted from & | Outline of proof. An actual listing of the twenty-four different types AiTht
 
-units (of positive and negative normsl Then for
+7 REE . . . rl Z oi a r » (viele
 
-8 [a1E(1), agEizl. «SEW, 1],
-(21-1) r= 4,@/®o= [HEW 1],
+ps loss of limiting property) then a Minkowskian triple can be chosen of ¢ according to the relative magnitudes of the rows (see 16), would show ie
+
+a the set ©. If © consists of two vectors none of which can be omitted Sat ony two types are mediants. The remaining twenty-two types reveal fi ls 2% 5
+
+oe & (without loss) then a Minkowskian triple can be chosen that over- limiting sets on inspection, but the amount of space required to handle the ee
+
+: Sn ea a NSA 1 AA) 2 AAA
+
+i= = inequalities in writing is almost prohibitive. It should be clear however that i Aare ns
+
+: Tie mediant quadruples are undesirable because they do not have two Lemma 19.2 expresses the problem in finite terms. FRR Ria nis) ii
+
+vectors that serve as a limiting set (by virtue of the fact that the small vector i : cr
+
+can be omitted without loss of limiting property). Hence we must use Hypercomplex Notation and Normal Symmetries. se
+
+5 - . 3 Siro
+
+Lema 19.1. No complete chain of reduced neighboring quadruples 20. Reduction redefined. The distinguishing’ algebraic features of our ; be
+
+an consist entirely of mediants. present algorithm can best be brought out by considering the hypercomplex fEscps ea Fo
+
+Gi: Droit Suppose B18 the small vector of a mediant ¢. Then any system 9 over the module I generated by the introduction of elements Gis
+
+alia A le . . * . . y ¢ i b - o J ve
+AE 3 AA aA neighbor operation with B “in the middle ” is valid. Take in particular 6102, 05, 1) that form thos cureroun: sn
+iri 3 Tait * . . . | 0 viv
+RR (PRS): We can apply the neighbor operation only a limited number of (0.1) a’ =1(=a,), aa; = aja, = ay, I =St=£y=L=3. Ga
+
+imes, e. g. : er SH,
+
+times, e. g, > Then each 3 X 4 matrix ¢ can be written in the form 39%:
+
+(19.2) #(PRS)§ (PRS) + ~ 4, je
+
+20. 2 ¢ = Pa, + Qa, + Ra, + SI. EE
+
+(since the operation decreases py (> 0) by | 7, | each time). Now if ¢™ : : ’ 5
+
+is still a mediant, the small vector must be Q (because it is no longer «pp» In the system 9 the “scalars” are elements of IM for which each conjugate 5) i
+
+and yet |p | and | s,| now exceed 7 |). We therefore apply (PQS) as multiplies (row by row) the 3 X 4 matrix ¢. Thus if DM were an order, A | ei: AAA dh
+
+long as possible until we obtain a ¢™™. This process must terminate since Moud: be an “algebra.” 3 in
+
+the operations (PQS) and (PRS) each decrease py (> 0) by | gu | or || 3 Now the element & of 9 will be called a reduced basis of Mt (see 4 above)
+
+each time. Q.E.D. if any three of the quantities P, Q, RB, S form a basis of 9 and (see (4.21) ) ee
+
+We are now ready to handle the non-mediant quadruples. We are again if ¢ goes to 0 by the mapping of that brings each a; into 1 and if (con- earn gen
+
+- E <a tinuine Q eae the © ’» of 2 fA 99) y r: CONINOE - ari Alot oi
+
+confronted with a multitude of special cases that would be tedious to give In wh 15 suppress the “ = ” on the left of (4.22)), - glia oon RERter of lature ht
+
+detail. We therefore first make use of limiting sets P,Q,R,S agrees in sign with x; of a, @, aj 1 respectively, where the x: fale] elas
+
+8 : (1=1,2,3) are the three-non principal characters of the four-group, fixed et
+
+LEMMA 19.2. For any reduced quadruple the twenty-six vectors formed So that y;(a;) = 1. id
+
+.
+NTL
+
+vin, WY
+
+FF wo. d »
+
+ 
+
+rd
+
+
+HARVEY COHN.
+
+= hove) asserts that the system may
+ments to within (scalar) propor-
+
+s us to choose these constants
+
+teness theor
+
+mber of red
+The argumen
+
+Thus the fini
+have only @ finite Mt
+
+uced basis ele
+tin 9 enable
+
+tionality constants.
+as units.  ofation fts in with the classification into neighbor
+The hypercomplex (1a;a2) to denote, for example, (SRQ), then
+
+If we use oo 1) is one in which the product of the second
+e 1 (her El?
+
+¢ the neighbor operation (e.g, Gs" @2); equals a; (here a,).
+io to obtain another very curious kind of result
+. The sum OF product of any two reduced elements
+ot LH in 18 equal to reduced elements belonging
+¢1; P2 elie aiith depends on the operation and elements).
+to fia = ; ose in using the notation will be for dealing with units.
+I alex notation use by Hasse [8] for a somewhat
+(Compare ata,
+different analysis of cubic units).
+
+types.
+a neighbor of typ
+
+hird olements 0
+
+and t
+The new notation ena |
+in passin
+
+that we mention 1
+two mo
+
+Now we shall designate the units F = (e,, e,, e;)
+multipliers in 9. What we do is select
+; < 3), agrees in sign with e; (assuming
+
+21. Hypercomplex units.
+
+of © that are not totally positive as
+
+the character xj for which x;(a@), (1 =1
+the norm of I positive as before). Then the product a; denotes the hyper-
+
+i and for any reduced hasis element ¢ of M,
+ee rv d basis element. This process would
+to ordinary r E totally positive or totally
+
+t corresponding to E
+E yields another reduce
+(scalar) multiplication fo
+negative.
+
+Now let ® be the (abelian) group of all hypercomplex units so defined.
+Let ®, be the sub-group of totally positive units. Then the nature of the
+quotient group ®/®, 1s uniquely determined by r the signature rank, i.e.,
+the number of different arrays of signs that can be achieved by the scalar
+
+units (of positive and negative norms). Then for
+8, [a B®, a,E®, a, B®, 1],
+(21.1) r—A4 46/6, =< [aE",1],
 
 2, [1].
 
-Note that by the eigenvalue discussion in 14 (above), only these hyper-
+Note that by the eigenvalue discussion in 14 (above),
+rge from proportionalities of reduced basis elements
 
-complex units can emerge from proportionalities of reduced basis elements
+only these hyper-
 
+complex units can eme
 under interchange of columns with rows preserved.
 
-22. Mixing of rows. Consider two reduced basis elements 4> and 9V
+99. Mixing of rows. Consider two reduced basis elements ¢ and ¢°
 
-of ii. We are now concerned with proportionalitics of one l'OW of 47 “”th
+of 91. We are now concerned with proportionalities of one Tow of ¢ with
 
-> . V . . , umns.
-another row of 45*, accompanied by the necessary permutation of col
+another row of ¢*, accompanied by the necessary permutation of columns.
 
- 
+A PERIODIC ALGORITHM FoR CUBIC FORMS 11
+For instance, a (deceivingly trivial) illust |
+of 11 (above), where the first row js pro y
+under cyclic permutation of P, Q, R. x
+occur only for & abelian since other
+when both ratios (belonging to conj
+to the basis property. Actually we
 
-  
-   
-   
-   
-    
- 
-   
+ation is provided by ¢ — 4
+tional to the em r
+5 ch Proportionality evidently
+18e py/q, could equal (say) g,*/
+ugate fields) are rational in 5 ;
+can say more: :
 
-A PERIODIC ALGORITHM FOR some rooms H
-- 911
-F01- instance, a (deceivingly trivial)
+could
+* only
+ntradiction
 
-of 11 (above), where the ﬁrst row is
-under cyclic permutation of P, Q,
-occur only for Q abelian since othe
-when both ratios (belonging to con
-to the basis property. Actually w
+aE 1 4 ° =~
 
-illustration is provided b
+THEOREM. Two reduced basis elements of M ¢
+each proportional (with some permutation of col CS
+module 2 is equivalent to a normal module HS
 
-Rproportional to the second (with ratio 1)
-. .‘ Such proportionality evidently could
-iWise pi/ql could equal (say) q2*/r..* only
+£ different rows of
+) if and only if the
 
-Jugate ﬁelds) are rational, in contradiction
-e can say more:
+Proof. Suppose such a proportional ; :
+row of ¢ 1s (say) k, times i oo a 4 a
+where k, is an element of the (bel a Soh of columns),
+rows ox ¢* (by using conjugates) are seen % be k fn oe third and first
+and third rows of ¢ (with rearrangement of EA ga times the second
+is an element of & with norm N(K) —1 hes 2 e - i (ky, ks, ks)
+are basis elements of the same module. But by a ey at ¢ and ¢*
+Sn [9], k,, having norm 1, will be the ratio of Ea
+(by multiplication with a rational integer) can be chosen to lie = “i pr
+= = cl i where o = (ts, tay £3) is in © and has positive norm. Se -
 
-Y¢=¢*=¢n
+¢*a;T" are for some © (0 <1 = 3), reduced basis elements of system oT
 
-THEOREM. Two reduced basis elements
-each proportional (with some permutation
-module 1113 is equivalent to a, normal module.
-
-of Elli can have different rows of
-of columns) if and only if the
-
-Proof. Suppose such a proportionality of rows exists.
-row of ¢* is (say) 7c, times the ﬁrst row of :35 (
-whore k1 is an element of tho (
+corresponding to MT =N. Now N is eas
+: asil :
+Dhabeonyersieis. initadistore GA HAT) ily the normal module required.
 
 Then the second
-. with rearrangement of columns)
-‘ , abelian) ﬁeld St. Likewise the third and ﬁrst
-rows of (V (by using conjugates) are seen to be h; and k3 times the second
 
-and third rows of (1) (with rearrangement of columns)‘ Thus K = (k, ha 1: )
-is an element of 51‘ with norm N(K) = 1 by virtue of the fact that oyanud ;*
-are basis elements of the same module. But by a well-known theorem of
-Hilbert [9], h), having norm 1, will be the ratio of conjugate elements, which
-(by multiplication With a rational integer) can be chosen to lie in 9. Thus
-kx : ill/l2 where T = (ti, t2, la) is in \D and has positive norm. Hence ¢aiT
-and ¢*a¢T are for some i (0 E ii 3), reduced basis elements of system SIT
+2 = A single reduced basis element ¢ of M will have one row
+i por iE Leni row (with permutation of columns) if and only if
+ge u 2 5 “Te to @ module | with a normal basis that further-
 
-corresponding to EMT =9}. Now 92 is easily the normal module required.
-The converse is immediate. Q. E. D.
+ore consists of the conjugates of an element I 1 it =
+evative Grate. f nt P of | with positive norm and
 
-     
-    
- 
-  
-  
- 
- 
-   
-   
-   
- 
-   
- 
-  
+be oy preceding proof applies except that we display the basis element by
+. Ps 2 and R be conjugates of P and letting § be the negative of the trace
+: theorem and corollary are (strictly) more restrictive, i.e., not all
+ag modules are normal, nor are all normal modules equivalent to one
+i :
 
-55!!
-
-)4»
-
-r
-
-, rt
-5:25:55:
-
-COROLLARY. A single reduced basis element 4: of EU? will have one row
-proportional to another row (with permutation of columns) if and only if
-the module SUE is equivalent to a module 92 with a normal basis that further-
-
-more consists of the conjugates of an element F of 92 with positive norm and
-negative ‘lroce.
-
-:
-r
-S.
-"S
-
-n r
-ﬁg
-c
-:5
-pr
-It:
-
-4 c
-
-The preceding proof applies except that we display the basis element by
-letting Q and R be conjugates of P and letting S be the negative of the trace
-of P.
-
-The theorem and corollary are (strictly) more restrictive, i. e, not all
-abelian modules are normal, nor are all normal modules equivalent to one
-with a normal basis, nor must the normal basis have the desired Sign on its
+1 a normal basis, nor must the normal basis have the desired sign on its
 norm and trace.
+> = : final remark note that in both the theorem and corollary the order
+3 of M is the same as that of N and therefore a normal module in &. Hence
+y a well known Minkowskian technique (see [8]), it follows that funda-
 
-As a ﬁnal remark note that in both the theorem and corollary the order
-D of SUE is the some as that of SR and therefore a normal module in S2“. Hence
-by a well known Minkowskian technique (see [8]), it follows that funda—
+  
+    
 
-r
+ 
+    
+     
+ 
 
-:5
+    
+
+To
+
+-
+
+  
+
+SE
+
+’
+. rrr,
+Ialytatatataried
+J RAHN
+(als? i sets ta?
+pialelnlats tate
+glee wlolatleth : ;
+Is salatatalalats iN
+eintatatstatatstavielo]ole]ele! :
+ats tatetgtnelel ofall ol oiilstst,)
+. Attn pt St NO Aytalo]
+{ alla tativeviilelelolotol st FA
+' 22870 nn " §
+I sale lafadatety? edelelel oot oN)
+ry atativdonodot ot sa a ata la ii iy oy
+vies! At
+oe alla ia? + vie) oA EAA AT PA .
+AAS aisle 7s % he ol elvisiely i
+vy Gad Sagan nie evil)
+PM Air 5 ’ 0! iN
+[Ley elaine ) y 7 "
+AA y ?
+Aan
+he )
+
+>
+
+ROR POPU
+AAAAND
+avs
+
+Lady
+
+=
+re
+tw»
+fee iiThery
+
+rr Tent
+
+»
+
+/,
+LW AGO,
+MAW MN 1520" )
+
+ATL h
+armies v!
+els ”
+
+>.
+
+xy
+=
+XA ry
+rr (a > K
+FTL TSX
+
+(x
+Ce
+y
+
+Le
+
+f=
+
+2x
+FLTLE
+
+2
+
+ALY,
+
+Cy
+=
+Ex
+
+ed
+rs
+
+ss
+< -
+-
+
+-
+-
+-*
+-
+|
+A LTR
+-
+TTA
+Fo a
+
+re
+
+=
+
+  
+
+dD
+ise.
+OA gitar tin
+Wiliam
+{? Wh uiith ets
+ry SON MOM
+1%
+
+(eS vo) Tey fy
+
+tae te
+
+q eV av
+
+Jott lat less oii0 0
+1 Yovd sted ley MN
+{igellyy SAC
+
+’ ’
+av
+sop IV Jer Y
+
+foe
+Fo ew nie
+pf Wr”
+
+ree me
 
 
-HARVEY (JOHN.
+CS We
+
+wr A
+Rn 2 aN
+v ¢ . 2)
+Vo hy +4
+1
+A "a A
+:
+ASAT IS 3 b
+oi . Vy 5
++ - Sh wot)
+Wh
+AA
+A ade
+noi ww
+“hh
+A
+
+wy
+ar
+AN
+y
+
+AT
+. N
+yuh
+3
+
+¢
+27
+TAA
+
+ 
+
+HARVEY COHN.
 
 912
-njugates of a single unit. Thus the
+Thus the
 
-- be taken as two co
-mentil um: 1:157:3th above) may equal only 2 or 8 (but never 4).
-signs ure 1'
+r 8 (but never 4).
 
-We can now enlaru'e our (abelian)
-is {0111) operator. ‘ . a
-23. Use 023:; Egon-Ethan“ one in the followmg manner: Consider
-Zyplemg‘rmlplifihip operator for‘ our abeltan ﬁeld K (so that Z3 = 1); Then
-tie a 0
+en as two conjugates of a single unit.
 
-(23 1) Hz (P1:P21P3)Z: ( E’Pwi’lt
-sign pattern requires that a permutation
+can be tak
+oa may equal only 2 0
 
-serving the
-f 1319 on of columns as follows:
+] units of
+mental u (of ol iow)
 
-Now the necessity 0 .
-by a permutati
+signature rank 7
 
-of rows be balanced
+group operator. We can now enlarge our (abelian)
+a non-abelian one in the following manner: Consider
 
-(23 2) ¢Z= (Rm + (PM + (elm + (szu,
+© for our abelian field K (so that Z® =1), Then
 
-utator rules
+93. Use of Galois
 
-Formally, then, We derive the coinm
-aaZ=Za,, 1‘Z=Z. 1.
+hypercomplex system tO
+7 the Galois group operato
+(23.1) pz — (po Pr PE = (2s Ps» P1)-
+serving the sign pattern requires that a permutation
+rmutation of columns as follows:
 
-(23. 3)
-Thus the juxtaposition of symbols 1’3 (where 0 S is 2 and 8' belongs to
-the four—group), will have meaning as a (right) operator on 4> and Will m
-fact be isomorphic to the alternating group on four elements.
++ (PZ) + (Q2)a: + (SD)1,
 
-Now if we consider a module equivalent to a normal module, then {01-
-every hypercomplex unit ail} (0 S j S 3), (of 21 above) We have three units
-belonging to the new hypercomplex system, namely‘ Z’ajE (0 S t S 2). In
+Now the neecssity of pre
+e balanced by a P®
 
-of hypercomplex units in the enlarged system is
+¢ the commutator rules
 
-this manner the group 65* . ‘ .
-determined from the group (310 of totally posrtive units as follows (compare
+of rows b
 
+(23.2)
+
+Formally, then, We derw
+(23.3) a,Z = Zas, a.Z = Za, a2 —Z2a, 1-Z— 7-1
+
+Thus the juxtaposition of symbols Z'g (where 0 =¢=2 and g belongs to
+es will have meaning as a (right) operator on ¢ and will in
+
+fact be isomorphic to the Jlternating group on four elements.
+
+Now if we consider a module equivalent to a normal module, then for
+EF (0<j=3), (of 21 above) we have three units
+
+every hypercomplex unit a; | |
+ir to the new hypercomplex system, namely Zta;E (0=t=2). In
+this manner the group &* of hypercomplex units in the enlarged system is
+
+determined from the group ®, of totally positive units as follows (compare
 (21.1)):
 
-ml = 1'13: “22 _=' la”
+8  ([1,Z,2°] X [a:F, a.PZ, a, BZ", 1]
+r=1y 6/0: | [17.2] [1].
 
-3 [1, z, Z2] >< [a,E, «1,112, new, 1]
-(2“) ’=l2’@*/@°= i [1.2.221 x [1]-
+Note that for » — 8 the fundamental units are shown as conjugates of a
+4 does not occur, in accordance with the conclusion
 
-Note that for r: 8 the fundamental units are shown as conjugates of a
-single unit while r=4 does not occur, in accordance with the conclusion
-of 22 above. In this way we obtain a group 65* whose multiplication rules
+(23. 4)
+
+single unit while r=
+of 92 above. In this way we obtain a group ®* whose multiplication rules
 
 can be given as follows:
-(23. 5) (Z’ajE) (ZuakE’) = Z'WaiE'"
-where E”= (EZ")E’ and a;=a,,Z‘“a,Z“.
+
+(23.5) (Ztail) (Z'a ll’) = Ztvva, I"
+
+where B” = (EZ*)E’ and a; = a Z tal".
 
 Now, the only possible proportionalities that mix rows are those coming
-from the group 65*, i. 9., based on units, for the cube of any element of (3*
-is an element of 65, hence based on a scalar unit. (See section 21).
+from the group *, i.e., based on units, for the cube of any element of ©*
+is an element of @, hence based on a scalar unit. (See section 21).
 
  
 
-A PERIODIC ALGORITHM FOR CUBIC FORMS 11
-. 913
+A PERIODIC ALGORITHM FOR CUBIC FORMS II 91
+; 3
 
-24. Degenerate quaternary forms. 0n the basis of the last three so
-c.
+24. Degencraie quaternary forms. On the basis of the last three se
+tions we are in a position to discuss the quaternary f ee
+: dn y form corresponding to
 
-tions we are in a position to discuss the u
-4’ namely q ﬁtemary form COTTesponding to
+(24.1) ® = IL(mipi + Magi + mgr; + mys,), 1<i<3
 
-(24.1) <1> = HUVhPi + "1294+ mm + mm),
+Several different ® can correspond to a single ¢ under permutation of the
+(m}), according to the signature rank » of the units in the order bY)
 
-Several diﬁerent <I> can correspond to a single ¢ under permutation of th
-(7”,), according to the signature rank r of the units in the order Q 9
-
-Case I: 2)? not equivalent to a normal module. Here 7: 2 4 or 8 and
-J ,
-
-every (I) is one of a set of r/z (i-e» T/Z diﬁerent “points” in the “chain”
+Case I: IM not equivalent to a normal module. Here r— 2.4. or 8 and
+every ® is one of a set of 7/2 (i.e., r/2 different points ” in the “chain”
 diagrams of 12).
 
-Case II: SUB equivalent to a. normal module. Here r=n2 or 8 and
-every <1> is one of a set of 37/2 except when the 95 is proportional (row by row)
-to one in which three of the quantities P, Q,R,S are conjugates. (In the
-exceptional case (I) is one of a set of r/2 again).
+Case IT: MM equivalent to a normal module. Here r=2 or 8 and
+every ® is one of a set of 37/2 except when the ¢ is proportional (row by row)
+to one in which three of the quantities P,Q, BR, § are conjugates. (In the
+exceptional case ® is one of a set of r/2 again). |
 
-In the table [7, p. 832] we ﬁnd evidence of some of these cases for
-r= 8. Case I corresponds to A2 = 148, while Case 11 (or its exception)
+In the table [7, p. 832] we find evidence of some of these cases for
+r=28. (Case I corresponds to A®=148, while Case II (or its exception)
 corresponds to the proportionality classes that occur by twelves (or by fours).
-Note that the module for A2 = 196 is neither an ideal nor normal, yet the
-correspondence “ by fours” means it must be proportional to a normal
+Note that the module for A? = 196 is neither an ideal nor normal, yet the
+correspondence “by fours” means it must be proportional to a normal
 module (with even a normal basis). The numerical work is being carried
 much further than in Part I, but it will be the subject of a separate report.
 
-25. Concluding remarks. In Part I, Section 2, a modiﬁed quadratic
+95. Concluding remarks. In Part I, Section 2, a modified quadratic
 simple continued fraction algorithm was outlined. It turns out to be more
-conventional than ﬁrst thought, in fact it is equivalent to the continued
+conventional than first thought, in fact it is equivalent to the continued
+
 fraction algorithm with the “ mediant ” fractions thrown in. The geometrical
-Construction given in 2 can be seen to be a variation of Smith’s construction
+
+* . . - . . he . .
+construction given in 2 can be seen to be a variation of Smith’s construction
+
 [10].
-
 In Part III, the concluding portion, we shall treat the algorithm as a
-means of discovering “ small norms ” (analogously with the Pell Equation).
 
-Errata for Part I (i. e., [7]).
+means of discovering “small norms” (analogously with the Pell Equation).
 
-Page 828 line 7, a should read a,
-line 18, [3,11, should read [M]:
-830 line 16, ——— 1.25 should read 1.25
+Errata for Part I (i.e. [7]).
 
+Page 828 line 7, a should read a;
+line 18, pg: should read P14:
+830 line 16, — 1.25 should read 1.25
 
-914 4 HARVEY COHN.
+Lae
+9
+A
+J :
+oY RS
+> ™ ~
 
-832 line 4, —p’[= B] should read *P
-
-833 lines 340, by twelves should read by at most twelvg
-by fours should read by at most fours S
-
-WAYNE UNIVERSITY.
-
-BIBLIOGRAPHY.
+  
+     
 
  
 
-[G] G. Bullig, “ Ein periodisches Verfahren zur Berechnuug eines Systems von G
-einheiten in den total reclen kubischen K6rperu.” Abhandlungen Tund‘
-Mathematischm Seminar dcr Hanseschen Universitdb, vol 12 “18 am
+’ ,
+eatat 0
+.
 
-1). 369. ( 938),
+TO
 
-[7] H. 001m, “A periodic algorithm for cubic forms,” this JOURNALI vol. 74 (195
-pp. 821-833. 2),
+ 
+ 
+ 
+ 
+ 
 
-[a] H. Hasse, n Die Einheitsgruppe in cinem total reeleu nicht zyklischen kubis 1‘
-Zahlkérper und in zugehiirigen hikubischen Normalkérpem,” ArchivedEm
-Mathematik, vol. 1, 1945/9, pp. 42-46. 9’
+Yr ey
+v
+ay
 
-[9] D. Hilbert, “Die Theorie der algebraischen Znhlkérper, Jahresbenicht der
-deutschen mathematikm Vereinigung, v01, 4, 1894/5, p, 271.
+1.
+tn
 
-n
+“Xv r=
 
-[10] J. F. Koksma, “Diophautisehe Approximationeu,” Ergebnisse der Mathematik
-und ihrer Grenzgebiete, v01. 4, Berlin, 1936, p. 38.
+ 
+
+   
+    
+
+de
+
+2 uu
+Et.
+
+1 -
+
+0? 0 e's s/s’s
+
+ 
+
+ha
+
+   
+
+er
+
+_ &7
+--
+x
+iy
+
+ 
+ 
+ 
+  
+
+ 
+
+ 
+
+ 
+
+ea
+»
+»
+-»
+»
+»
+
+vr
+POS Pt
+£T
+L
+
+£5
+
+Ye.
+-
+
+NEES
+
+       
+
+3X
+
+x
+>
+£8
+ry «
+
+LY.
+» o
+
+ae
+re Fa Px
+
+Lr AS,
+
+WILKE
+
+Lary
+ie]
+rr Ly
+
+Ll
+
+Tx ro
+Trai
+LOLs c ro "
+
+a
+Tr
+
+
+EHRs Ts
+hy J
+
+ER Tt aa? yt
+
+: %
+Ta WTR ral
+
+4
+
+> Tt 4 .
+aE 3
+ri
+
+3ea sede Cae Larrea
+a a
+~ PE i & ES ER x) <2 ::
+
+SE 353305 823025530 33
+Bd er rT TE I Yin
+
+bY fast A FT TS = >
+
+      
+
+Se ITNT
+eriEan dy:
+
+-
+
+ 
+
+ 
+
+va
+. Saco TL .
+5 . 7 TE
+5 13 551 Std
+eer
+
+FL0%S
+
+SSS
+
+EEN - Ea
+
+ASCs -—
+20%
+
+ 
+
+a.
+
+ 
+
+Taree Ll
+ww
+Pa
+
+ 
+
+Ae
+%
+
+PN
+
+te
+z
+SLE.
+
+“eh
+
+ 
+
+2
+de Ei
+SINE —_— 2 S =
+
+gies > wn en EY
+5 = = = Ss = S
+con —~ ES 2 =
+© 3C 35 : 3
+
+aes Ru ey 2
+> © rm : g Fy
+@ ? © ci S58
+2 B37 38 5h
+PT » 2S 3 =: :
+i | ;
+Bg 2 3 7 i ey
++ ks \
+fe 19% z 5 g ae 0
+0 Og &» 2 = 2 ¥ 3
+fei 2 8
+
+= FES Fg” Hw a
+
++ 2 = 5 = = = Ci
+
+3: EEE m5 SES
+
+| 2 gS 8 0 n = o
+> M = de hg Py Bee
+
+ou 2 ® S H 85s S535 4
+
+| = > PER o eo 2 g 8 A=
+
+job) = ~ © @ Gt + “4 a 2 3 8 =
+
+Ha ao! 5 ot 3378
+
+Zz LQ rg HH «i NZ Ny —_ 849% 8
+- — fle] = 2855 2
+
+(@) os oo ¥ 4 5 ! Bo Be
+
+Oo ri — ~= ro) q8o S
+
+3 = a8 = hg er Ew
+
+pH < "0 = oo 22H 88 8
+
+= 98 Z Wes 3 Sot
+
+wl E=irn MA Do eh = 2 2 2g 8
+
+LE : Ba bs BE on Rie
+
+< Kg © 3 ns § B Ea ER ES
+
+= BB 2° ry 9 9° BF 3%
+
+Ly 25 2 2 828 28° ay BF
+
+fo = Ss = A" FAS
+
+- .— m= 9 G
+
+| = BG 8 2 os faR i Bi
+- NQF =
+< ®© zu Bibs Sg fgi- is
+- wd — BoB aecos 08 Ba
+Lv QO 0 T AS Rem. ° SF £3 %3
+
+= 2 : + : -
+
+2 = = 2 LE :
+
+EE B&B $e A Ag g 2 |
+
+on = 5 : / 2 4
+
+i 2 = oO as] :
+¥ : i td A -
+; ES es ~~
+a) E = :
+- =H : : i
+i © = ® S
+4 —
+=H
+—
+[ap]
 
 

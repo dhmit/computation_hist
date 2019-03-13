@@ -1,21 +1,17 @@
-Q
-
- 
-
 COMMITTEE ON MACHINE METHODS OF COMPUTATION
 
 Minutes of the First Meetin
-Icademic Year '52-'53
+Academic Year '52-'53%
 
-Persons Present: c. w. Adams, 8. H. Caldwell, H. Peshbach,
-J. w. Forrester, C. C. Lin, P. M. Morse,
+ 
+
+Persons Present: C. W. Adams, S. H. Caldwell, H. Feshbach,
+J. W. Forrester, C. C. Lin, P. M. Morse,
 and E. Reissner
 
-The Committee considered the case of S. H. Sidney in the
-
-.Civil Engineering Department, who was suggested for an assistant—
-
-ship. Not enough detail as to the applicant's ability. in the
+The Committee considered the case of S. H., Sidney in the
+Civil Engineering Department, who was suggested for an assistant-
+ship. Not enough detail as to the applicant's ability, in Che
 form of an application or letters of recommendation, was at hand
 for the Committee to come to a final decision. The discussion was
 put off until our next meeting, the week of September 29.
@@ -23,53 +19,58 @@ put off until our next meeting, the week of September 29.
 Morse reported that Messers. Martino, Storey, and Caldwell
 will not be appointed for the coming year, which leaves some funds
 available for one or two additional appointments for the coming
-year. Morse also reported that ONE had requested the Project to
-support the work of Dr. W. Albertson as Scientific Adviser to the
-Naval War College. This question_is in the hands of Strstton and
+year. lorse also reported that ONR had requested the Project to
+support the work of Dr. W. Albertson as Scientific Advisor to the
+Naval War College. This question i8 in the hands of Stratton and
 Killian for policy decision; Morse will report their decision.
 
-ONR has agreed that the arrangement will. in any case, be of one
-year's duration and that additional funds to make up the cost will
-be provided if necessary. -
+ONR has agreed that the arrangement will, in any case, be of one
+&® year's duration and that additional funds to make up the cost will
+be provided if necessary.
 
 Forrester and Adams reported on the allocation of time
 on Whirlwind for the coming year and requested the Committee's help
 in determining priorities. About half the machine time will be
-used by Project Lincoln; of the remaining half, l/h of the time will
-be needed for Adams"s group for program development and specialized
+used by Project Lincoln; of the remaining half, 1/4 of the time will
+be needed for Adams's group for program development and specialized
 training (about 30 hours per month). Forrester suggested that the
 remaining 90 hours per month be divided roughly as follows:
 
-Longarange Commitments ---------- 20 hrs. per month
+Long-range Commitments --cevece--- 20 hrs. per month
 Machine Computation Fellows ----- 10 hrs. per month
 Other Educational Activities
 (including thesis work) --------- 29 hrs. per month
 Short-range academic and
-D10 work --------------------- lo hrs. per month
-Work requested by ONE ----------- 5 hrs. per month
-Industrial (1L0) problems ------- 6 hrs. per month
-Unassigned ---------------------- 10 hrs. per month
-TOTAL 95 Hr . per month
+DIC work —--ecccccccccawcccccea 10 hrs. per menth
+Work requested by ONR --cccecce-o-- 5 hrs. per month
+Industrial (ILO) problems ------- 6 hrs. per month
+Unag@signed -----cccccccccccccccaa 10 hra. per month
+TOTAL 90 hrs. per month
+
+-—
 
 This general allocation seemed reasonable to the Committee.
 After some discussion it was agreed that the Project should go very
-slow in taking on long—range commitments and that less than 10 or
+slow in taking on long-range commitments and that less than 10 or
 the proposed 20 hours per month should be allocated now.
 
+®
 
-It was agreed that it wanld be of help for Adams to
-circulate short descriptiana of the variaua research Jobs done
-by Whirlwind to the Cammittee, far poasible comments and criticisms.
+
+-2-
+
+It was agreed that it would be of help for Adams to
+circulate short descriptions of the various research Jobs done
+by Whirlwind to the Committee, for possible comments and eriticiams.
 
 The next meeting will be at an appropriate time during
+the week of September 29.
 
-the week mf September 299
-MM
-Philip . Morse
+SRN eves
+Philip™M. Morse
 
 Chairman
-
-8—26-52 Fleeting)
-9-2-52 Minutes typed)
+8-26-52 (Meeting)
+9-2-52 (Minutes typed)
 
 

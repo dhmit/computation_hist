@@ -1,72 +1,73 @@
 COMMITTEE ON MACHINE METHODS OF COMPUTATION
-u as f e t Meet
-Academic Year '51-’52
+utes of the th Meet 4
+Academic Year 151-352
 
-gersogs Present: S. H. Caldwell, H. Feshbach, J. W. Forrester,
-0. Lin, P. M. Morse, E. Reissner, D. P. Shoe-
+Persons Present: 8S. II. Caldwell, H. Feshbach, J. W. Forrester,
+C. Lin, P. M. Morse, E. Reissner, D. P. Shoe-
 maker, V. P. Starr
 
-Morse reported that a proposal for continuation of the
-joint Whirlwind—part~time-assistant program had been sent in to
-ONE, as requested. This was a formality to insure continuation
-of the project for a further year. Morse also reported that the
-First Quarterly Report was about ready for distribution, and re-
+joint Whirlwind-part-time-assistant program had been sent in to
+
+ONR, as requested. This was a formality to insure continuation |
+of the project for a further year. Morse also reported that the |
+First Quarterly Report was about ready for distribution, ana re-
 minded the Committee that the individual reports for the second
-quarter were due the middle of December. Forrester reported that
+quarter were due the middle of December. Forrester reported that |
 a number of the assistants were already working at Whirlwind.
 
-_Professor Shoemaker, who has recently come to the
+Morse reported that a proposal for continuation of the
+
+Professor Shoemaker, who has recently come to the
 Chemistry Department from CalTech and is to study crystal struc-
-ture by x~ray technique, discussed the needs in his research of
-computing facilities. He stated that the procedure at CalTech in
-Pauling's group was to use IBM equipment in building up the
-Fourier series, giving the electron density in a given crystal
+ture by x-ray technique, discussed the needs in his research of
+computing facilities. He stated that the procedure at CalTech in |
+Pauling's group was to use IBM equipment in buildin; up the |
+Fourier series, giving the electron density in a given crystal |
 structure. A discussion ensued regarding the possibility of
 using Whirlwind for the same types of calculation. Forrester men-
-tmmdw&MLS.QAMMMmofWﬁmwrwnmmﬂwimub
+tioned that Mr. S. C. Abrahams, of Professor von Hippel's Insula-
 tion Laboratory, was discussing the same problem with the staff
 of Whirlwind and suggested that Professor Shoemaker attend these
-conferences. An invitation was also given to-Professor Shoemaker
+conferences. An invitation was also glven to. Professor Shoemaker
 to attend the weekly seminars on Machine Methods.
 
 Professor Starr outlined two problems of present and
 future interest in the Meteorology Department. One was a matter
 of integrating total flow and temperature conditions across a sur-
 face perpendicular to the earth and parallel with a longitude
-circle. In this case, a great deal of data had to be amassed and
+circle. In this case, a great deal of data haa to be amassed and
 integrations have been carried on by use of IBM equipment. Another
-problem of possible future interest is the integration of differ-
+problem of possible fubure interest is the integration of differ-
 ential equations for mass flow of the atmosphere, eventually to
-determine the staoility of various rotational motions. These
+determine the stapllity of various rotational motions. These
 equations are fundamentally non-linear and might be averaged to
-be considered as a twoadimensional problem. It was agreed that
+be considered as a two-dimensional problem. It was agreed that
 this problem probably would need some digital machine for solu-
-
 tion in the investigation. The particular machine most appropriate
 was left to the future.
 
-1/ l
+EE og ~ tn
 
 
--2-
+De
 
 It was pointed out to Professors Shoemaker and Starr that
 assistantships in this general field were available and that if
 either of them had a good graduate student who is interested in ap-
 plying machine methods to the problems in which they were interest-
-
 ed, it was possible these students should apply for such an as-
 sistantship.
 
-The next meeting of the Committee will be Wednesday,
+The next meeting of the Committee will be Vednesday,
 January 9. Morse will attempt to have a representative from the
-Chemical Engineering and the Civil Engineering Departments present
-to discuss some of their problems.
 
-Philip . M
+Chemical Engineering and the Civil Engineering Departments present
+to discuss some of their problems. |
+
+Pri1ioW. ane
 
 Chairman
 
-12—5-51
+12-5=51
 
 

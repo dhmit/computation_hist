@@ -3,24 +3,24 @@ PERSONNEL RESEARCH LABORATORY
 AIR FORCE PERSONNEL AND TRAINING RESEARCH CENTER
 
 AIR RESEARCH and DEVELOPMENT COMMAND
-Post Ofﬁce Box I57]
+Post Office Box 1557
 
-Locklond Air Force Base Sen Antonio, Texas
+Lockland Air Force Base San Antonio, Texas
 
-7 WW 1956‘
+T MAY 1956
 
 Dr. Philip M. Morse
 
 Professor of Physics
 
 Massachusetts Institute of Technology
-Cambridge, lbssachueetts
+Cambridge, Massachusetts
 
 Dear Dr. Morse:
 
 For some time this Center has been interested in the
 application of certain mathematical and statistical models,
-such as game theory, to the problems of personnel utilize-
+such as game theory, to the problems of personnel utiliza-
 tion in the military service. We are concerned with a
 variety of problems which may be attacked with the use of
 certain of these models.
@@ -31,22 +31,19 @@ technicians. There are available psychological tests
 which give a good indication of a man's probable success in
 technical school training. These tests give differential
 predictions for different kinds of training with concomitant
-different probabilities of success. With these probabilities
+different probebilities of success. With these probabilities
 and with good estimates of the cost to train men in each of
-the several specialties, it is hoped that a minimizing pro-
-ccdure might be used to indicate the most economical way of
+the several specislties, it is hoped that a minimizing pro-
+cedure might be used to indicate the most economical way of
 assigning individuals to technical training, while at the
 same time taking a minimum risk of not meeting the Air Force
-requirements.
+requirements,
 
 We are also interested in the application of general
 purpose computers to the problems of personnel utilization,
 particularly the solutions of mathematical models which might
-
 be appropriate for personnel classification and training, es-
-pecially methods of managing very large masses of data, which
-
+pecially methods of managing very large masses of date, which
 considered separately have little predictive value, but which
-considered as a whole, Permit good estimates of future per-
-
-f ormance .
+considered as & whole, permit good estimates of future per-
+formance.
