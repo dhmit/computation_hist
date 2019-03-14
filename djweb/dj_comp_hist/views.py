@@ -140,6 +140,7 @@ def list_obj(request, model_str):
     obj_dict = {
         'model_objs': model_objs,
         'model_str': model_str,
+        'instant_obs': len(model_objs)
     }
     response = render(request, 'list.jinja2', obj_dict)
     return response
@@ -264,6 +265,7 @@ def advanced_search(request):
     except:
         print('Error getting min and max years')
 
-    print(request)
+    number_of_objs = len(doc_objs)
 
-    return render(request, 'list.jinja2', {'model_str': 'doc', 'model_objs': doc_objs})
+    return render(request, 'list.jinja2', {'model_str': 'doc', 'model_objs': doc_objs,
+                                           'instant_obs': number_of_objs})
