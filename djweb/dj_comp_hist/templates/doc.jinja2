@@ -1,10 +1,35 @@
+
+<head>
+    <style>
+        .sidenav{
+            height: 100%;
+            width: 12%;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            right: 0;
+            background-color: aliceblue;
+            overflow-x: hidden;
+            padding-top: 20px;
+        }
+
+        @media (max-width: 950px) {
+            .sidenav {
+                position: relative;
+                bottom:21%;
+                width:100%;
+                margin-bottom: 20%;
+            }
+}
+    </style>
+</head>
 {% extends "base.jinja2" %}
 
 {% block title %} {{ doc_obj }} {% endblock %}
 
 {% block self %}
 
-    <h1>You're looking at {{ doc_obj }}</h1>
+    <h1>{{ doc_obj }}</h1>
 
 {% endblock %}
 
@@ -13,175 +38,131 @@
       <div class="d-flex mb-3 flex-wrap">
         <div class="p-2 flex-fill ">
             <iframe src=https:/s3.amazonaws.com/comp-hist/docs/1_2_project_proposal_contract/docs/35/1_2_project_proposal_contract_35.pdf
-                    width="100%" height="500px" >
-        </iframe>
+                    width="88%" height="100%" >
+            </iframe>
         </div>
-        <div class="p-2 flex-fill ">
+        <div class="sidenav">
+
+
+
+
+            
             {% if author_person_objs or author_organization_objs %}
-        <h3>{{ doc_obj }} was written by</h3>
-        <br>
-        {% if author_person_objs %}
-            <table class="table">
-                <thead class="thead-dark">
-                <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">Author Name</th>
-                    <th scope="col">Link</th>
-                </tr>
-                </thead>
-                <tbody>
-                {% for item in author_person_objs %}
-                    <tr>
-                        <th scope="row">{{ loop.index }} </th>
-                        <td>{{ item }}</td>
-                        <td><a href="/dj_comp_hist/person/{{ item.pk }}">Link</a></td>
-                    </tr>
-                {% endfor %}
-                </tbody>
-            </table>
-        {% endif %}
-        <br>
+            <p>Written by:</p>
+            {% if author_person_objs %}
+                <table class="table">
 
-        <br>
-        {% if author_organization_objs %}
-            <table class="table">
-                <thead class="thead-dark">
-                <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">Authoring Organization</th>
-                    <th scope="col">Link</th>
-                </tr>
-                </thead>
-                <tbody>
-                {% for item in author_organization_objs %}
-                    <tr>
-                        <th scope="row">{{ loop.index }} </th>
-                        <td>{{ item }}</td>
-                        <td><a href="/dj_comp_hist/organization/{{ item.pk }}">Link</a></td>
-                    </tr>
-                {% endfor %}
-                </tbody>
-            </table>
-        {% endif %}
-        <br>
-    {% endif %}
+                    <tbody>
+                    {% for item in author_person_objs %}
 
-    {% if recipient_person_objs or  recipient_organization_objs%}
-        <h3>{{ doc_obj }} was received by</h3>
-        <br>
-        {% if recipient_person_objs %}
-            <table class="table">
-                <thead class="thead-dark">
-                <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">Recipient Name</th>
-                    <th scope="col">Link</th>
-                </tr>
-                </thead>
-                <tbody>
-                {% for item in recipient_person_objs %}
-                    <tr>
-                        <th scope="row">{{ loop.index }} </th>
-                        <td>{{ item }}</td>
-                        <td><a href="/dj_comp_hist/person/{{ item.pk }}">Link</a></td>
-                    </tr>
-                {% endfor %}
-                </tbody>
-            </table>
-        {% endif %}
-        <br>
-        {% if recipient_organization_objs %}
-            <table class="table">
-                <thead class="thead-dark">
-                <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">Recipient Organization</th>
-                    <th scope="col">Link</th>
-                </tr>
-                </thead>
-                <tbody>
-                {% for item in recipient_organization_objs %}
-                    <tr>
-                        <th scope="row">{{ loop.index }} </th>
-                        <td>{{ item }}</td>
-                        <td><a href="/dj_comp_hist/organization/{{ item.pk }}">Link</a></td>
-                    </tr>
-                {% endfor %}
-                </tbody>
-            </table>
-        {% endif %}
-        <br>
-    {% endif %}
+                        <tr>
+                            <td><a href="/dj_comp_hist/person/{{ item.pk }}">{{ item }}</a></td>
+                        </tr>
+                    {% endfor %}
+                    </tbody>
+                </table>
+            {% endif %}
 
-    {% if cced_person_objs or cced_organization_objs %}
-        <h3>{{ doc_obj }} was cced to</h3>
-        <br>
-        {% if cced_person_objs %}
-            <table class="table">
-                <thead class="thead-dark">
-                <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">CC'ed Name</th>
-                    <th scope="col">Link</th>
-                </tr>
-                </thead>
-                <tbody>
-                {% for item in cced_person_objs %}
-                    <tr>
-                        <th scope="row">{{ loop.index }} </th>
-                        <td>{{ item }}</td>
-                        <td><a href="/dj_comp_hist/person/{{ item.pk }}">Link</a></td>
-                    </tr>
-                {% endfor %}
-                </tbody>
-            </table>
-        {% endif %}
-        <br>
-        {% if cced_organization_objs %}
-            <table class="table">
-                <thead class="thead-dark">
-                <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">CC'ed Organization</th>
-                    <th scope="col">Link</th>
-                </tr>
-                </thead>
-                <tbody>
-                {% for item in cced_organization_objs %}
-                    <tr>
-                        <th scope="row">{{ loop.index }} </th>
-                        <td>{{ item }}</td>
-                        <td><a href="/dj_comp_hist/organization/{{ item.pk }}">Link</a></td>
-                    </tr>
-                {% endfor %}
-                </tbody>
-            </table>
-        {% endif %}
-        <br>
-    {% endif %}
+            {% if author_organization_objs %}
+                <table class="table">
 
-    {% if page_objs %}
-        <h3>{{ doc_obj }} has {{ len(page_objs) }} page(s)</h3>
-        <table class="table">
-               <thead class="thead-dark">
-               <tr>
-                   <th scope="col">Page number</th>
-                   <th scope="col">Link</th>
-               </tr>
-               </thead>
-                <tbody>
-                {% for page in page_objs %}
-                    <tr>
-                        <th scope="row">{{ page.page_number }}</th>
+                    <tbody>
+                    {% for item in author_organization_objs %}
+                        <tr>
+                            <td><a href="/dj_comp_hist/organization/{{ item.pk }}">{{ item }}</a></td>
+                        </tr>
+                    {% endfor %}
+                    </tbody>
+                </table>
+            {% endif %}
+
+        {% endif %}
+
+        {% if recipient_person_objs or  recipient_organization_objs%}
+            <p>Recipient</p>
+            {% if recipient_person_objs %}
+                <table class="table">
+
+                    <tbody>
+                    {% for item in recipient_person_objs %}
+                        <tr>
+
+                            <td><a href="/dj_comp_hist/person/{{ item.pk }}">{{ item }}</a></td>
+                        </tr>
+                    {% endfor %}
+                    </tbody>
+               </table>
+            {% endif %}
+
+           {% if recipient_organization_objs %}
+                <table class="table">
+                    <tbody>
+                    {% for item in recipient_organization_objs %}
+                        <tr>
+
+
+                          <td><a href="/dj_comp_hist/organization/{{ item.pk }}">{{ item }}</a></td>
+                         </tr>
+                    {% endfor %}
+                    </tbody>
+                </table>
+            {% endif %}
+
+        {% endif %}
+
+        {% if cced_person_objs or cced_organization_objs %}
+            <p>Cced to</p>
+
+            {% if cced_person_objs %}
+                <table class="table">
+
+                    <tbody>
+                    {% for item in cced_person_objs %}
+                        <tr>
+
+
+                           <td><a href="/dj_comp_hist/person/{{ item.pk }}">{{ item }}</a></td>
+                        </tr>
+                    {% endfor %}
+                    </tbody>
+                </table>
+            {% endif %}
+
+             {% if cced_organization_objs %}
+                <table class="table">
+
+                    <tbody>
+                    {% for item in cced_organization_objs %}
+                        <tr>
+
+
+                            <td><a href="/dj_comp_hist/organization/{{ item.pk }}">{{ item }}</a></td>
+                        </tr>
+                    {% endfor %}
+                    </tbody>
+                 </table>
+            {% endif %}
+
+        {% endif %}
+
+        {% if page_objs %}
+            <p>{{ len(page_objs) }} page(s)</p>
+            <table class="table">
+
+                    <tbody>
+                    {% for page in page_objs %}
+                        <tr>
+
+                            <td><a href="/dj_comp_hist/page/{{ page.pk }}">{{ page.page_number}}</a> </td>
+                        </tr>
+                    {% endfor %}
+                    </tbody>
+             </table>
+        {% endif %}
                         <td><a href="/dj_comp_hist/page/{{ page.pk }}">Link</a> </td>
-                    </tr>
-                {% endfor %}
-                </tbody>
-        </table>
-    {% endif %}
 
+          </div>
+          </div>
         </div>
-      </div>
-    </div>
 
 {% endblock %}
