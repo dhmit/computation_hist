@@ -1,7 +1,11 @@
 import os
 import csv
+import sqlite3
 from pathlib import Path
 from .models import *
+from django.db import IntegrityError
+from django.core.exceptions import ValidationError
+from .common import DJWEB_PATH
 
 
 def populate_from_metadata(file_name=None):
@@ -26,7 +30,12 @@ def populate_from_metadata(file_name=None):
         csv_file = csv.DictReader(file)
         count_added = 0
         count_skipped = 0
+        count_invalid = 0
         for line_id, line in enumerate(csv_file):
+            # Skip empty lines
+            if "".join(line.values()) == '':
+                continue
+
             document_metadata_complete = True
             for attr in ['box', 'folder_number', 'doc_id', 'filename', 'author', 'title',
                          'first_page', 'last_page']:
@@ -36,12 +45,23 @@ def populate_from_metadata(file_name=None):
                     count_skipped += 1
                     break
             if document_metadata_complete:
-                add_one_document(line)
-                count_added += 1
+                try:
+                    add_one_document(line)
+                    count_added += 1
+                except ValidationError as e:
+                    count_invalid += 1
+                    print(f'{e}. Line: {line}.')
 
     print(f'Added {count_added} documents from {file_name}. Skipped {count_skipped} documents '
-          f'because of incomplete metadata.')
+          f'because of incomplete metadata. Invalid: {count_invalid}')
 
+    db = sqlite3.connect(f"{Path(DJWEB_PATH.parent, 'db.sqlite3')}")
+    cursor = db.cursor()
+    cursor.execute('create virtual table doc_fts using FTS4(id, title, text);')
+    cursor.execute('''INSERT INTO doc_fts(id, title, text) 
+                                                SELECT id, title, text 
+                                                FROM dj_comp_hist_document;''')
+    db.commit()
 
 def add_one_document(csv_line):
     """
@@ -71,6 +91,16 @@ def add_one_document(csv_line):
                        file_name=csv_line['filename']
                        )
 
+    txt_path = get_file_path(box=int(csv_line['box']), folder=int(csv_line['folder_number']),
+                             foldername_short=csv_line['foldername_short'],
+                             doc_id=csv_line['doc_id'], path_type='absolute', file_type='txt')
+    try:
+        with open(txt_path, 'r') as f:
+            new_doc.text = f.read()
+    except FileNotFoundError:
+        print(f'skipped {txt_path}')
+        new_doc.text = ''
+
     # ---------------------DATE-----------------------------------------------
     if csv_line['date'] != '' and csv_line['date'][0] == '1':
         new_doc.date = csv_line['date']
@@ -88,27 +118,31 @@ def add_one_document(csv_line):
         new_folder.file_name = csv_line['filename']
     new_folder.save()
     new_doc.folder = new_folder
-    new_doc.save()
 
-    # -----------------------Author, Recipient,cced--------------------------
-    interpret_person_organization(csv_line['author'],
-                                  "author_organization",
-                                  "author_person",
-                                  new_doc
-                                  )
-    interpret_person_organization(csv_line['recipients'],
-                                  "recipient_organization",
-                                  "recipient_person",
-                                  new_doc
-                                  )
-    interpret_person_organization(csv_line['cced'],
-                                  "cced_organization",
-                                  "cced_person",
-                                  new_doc
-                                  )
 
-    new_doc.save()
-
+    # This would be better with create_or_update so that changed values get updated.
+    # Not super important, though, as flushing the db will also update the values
+    try:
+        new_doc.save()
+        # -----------------------Author, Recipient,cced--------------------------
+        interpret_person_organization(csv_line['author'],
+                                      "author_organization",
+                                      "author_person",
+                                      new_doc
+                                      )
+        interpret_person_organization(csv_line['recipients'],
+                                      "recipient_organization",
+                                      "recipient_person",
+                                      new_doc
+                                      )
+        interpret_person_organization(csv_line['cced'],
+                                      "cced_organization",
+                                      "cced_person",
+                                      new_doc
+                                      )
+        new_doc.save()
+    except IntegrityError:
+        pass
 
 
 def pdf_to_image_split(pdf_path, image_directory, folder_name):
