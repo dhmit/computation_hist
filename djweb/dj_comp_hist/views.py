@@ -2,7 +2,8 @@ from django.shortcuts import render, get_object_or_404, get_list_or_404
 from .models import Person, Document, Box, Folder, Organization, Page
 # from django.template import loader
 from django.db.models import Q
-# import json
+from dj_comp_hist.common import get_file_path
+
 
 
 # from django.http import HttpResponse
@@ -36,11 +37,6 @@ def doc(request, doc_id):
     doc_obj = get_object_or_404(Document, pk=doc_id)
     author_person_objs = doc_obj.author_person.all()
     author_organization_objs = doc_obj.author_organization.all()
-    try:
-        if author_organization_objs[0].name == 'unknown':
-            author_organization_objs = None
-    except:
-        pass
     recipient_person_objs = doc_obj.recipient_person.all()
     recipient_organization_objs = doc_obj.recipient_organization.all()
     try:
@@ -56,6 +52,10 @@ def doc(request, doc_id):
     except:
         pass
     page_objs = doc_obj.page_set.all()
+    doc_pdf_url = str(get_file_path(doc_obj.folder.box.number, doc_obj.folder.number,
+                                    doc_obj.folder.name , file_type='pdf', path_type='aws',
+                                    doc_id=doc_obj.doc_id))
+    print(doc_pdf_url)
     obj_dict = {
         'doc_obj': doc_obj,
         'author_person_objs': author_person_objs,
@@ -64,7 +64,8 @@ def doc(request, doc_id):
         'recipient_orgaization_objs': recipient_organization_objs,
         'cced_person_objs': cced_person_objs,
         'cced_organization_objs': cced_organization_objs,
-        'page_objs': page_objs
+        'page_objs': page_objs,
+        'doc_pdf_url': doc_pdf_url,
     }
     return render(request, 'doc.jinja2', obj_dict)
 

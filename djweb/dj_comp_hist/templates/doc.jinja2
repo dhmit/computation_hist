@@ -9,7 +9,9 @@
 {% endblock %}
 
 {% block table %}
-
+    <iframe src={{ doc_pdf_url }}
+                width="100%" height="500px" >
+    </iframe>
     {% if author_person_objs or author_organization_objs %}
         <h3>{{ doc_obj }} was written by</h3>
         <br>
@@ -34,6 +36,8 @@
             </table>
         {% endif %}
         <br>
+
+        <br>
         {% if author_organization_objs %}
             <table class="table">
                 <thead class="thead-dark">
@@ -57,7 +61,7 @@
         <br>
     {% endif %}
 
-    {% if recipient_person_objs or  recipient_organization_objs %}
+    {% if recipient_person_objs or  recipient_organization_objs%}
         <h3>{{ doc_obj }} was received by</h3>
         <br>
         {% if recipient_person_objs %}
