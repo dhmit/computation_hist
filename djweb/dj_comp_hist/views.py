@@ -39,11 +39,21 @@ def doc(request, doc_id):
     author_organization_objs = doc_obj.author_organization.all()
     recipient_person_objs = doc_obj.recipient_person.all()
     recipient_organization_objs = doc_obj.recipient_organization.all()
+    try:
+        if recipient_organization_objs[0].name == 'unknown':
+            recipient_organization_objs = None
+    except:
+        pass
     cced_person_objs = doc_obj.cced_person.all()
     cced_organization_objs = doc_obj.cced_organization.all()
+    try:
+        if cced_organization_objs[0].name == 'unknown':
+            cced_organization_objs = None
+    except:
+        pass
     page_objs = doc_obj.page_set.all()
     doc_pdf_url = str(get_file_path(doc_obj.folder.box.number, doc_obj.folder.number,
-                                doc_obj.folder.name , file_type='pdf', path_type='aws',
+                                    doc_obj.folder.name , file_type='pdf', path_type='aws',
                                     doc_id=doc_obj.doc_id))
     print(doc_pdf_url)
     obj_dict = {
