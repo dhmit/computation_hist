@@ -44,6 +44,7 @@ const FIXED_OVERFLOW_EXCEPTION = "Fixed point number too large!";
 const FLOAT_OVERFLOW_EXCEPTION = "Floating point number too large!";
 const NAN_EXCEPTION = "Expected number, but it was me, Dio!";
 const INVALID_INSTRUCTION_EXCEPTION = "Cannot parse instruction!";
+const INVALID_INSTRUCTION_RUNTIME = "Cannot run instruction!";
 
 const regex_line_parser = new RegExp('^([A-Z]+)\\s*(.*)');
 
@@ -905,7 +906,6 @@ class Instruction_Register extends Word {
             if (this.contents[0] === "1") {
                 opcode += 0o4000;
             }
-            console.log(opcode);
             let operation = no_to_operation_b_str[opcode];
             if (typeof operation === "undefined") {
                 return "Unrecognized operation"
@@ -1005,9 +1005,19 @@ class IBM_704 {
         this.storage_register.update_contents(this.general_memory[effective_address]);
         if (instruction_word.is_typeB()) {
             instruction = instruction_word.instruction_b;
+            if (typeof instruction.operation === "undefined") {
+                alert("Halting on unrecognized operation!");
+                this.halt = true;
+                throw INVALID_INSTRUCTION_RUNTIME;
+            }
             instruction.operation(this, effective_address, instruction.tag);
         } else {
             instruction = instruction_word.instruction_a;
+            if (typeof instruction.operation === "undefined") {
+                alert("Halting on unrecognized operation!");
+                this.halt = true;
+                throw INVALID_INSTRUCTION_RUNTIME;
+            }
             instruction.operation(this, effective_address, instruction.tag, instruction.decrement);
         }
         if (this.accumulator.p) {
