@@ -11,7 +11,7 @@ import plotly.graph_objs as go
 # linear setup through networkx
 
 
-def make_graph(debug=False):
+def make_graph(max_nodes=None, debug=False):
     """
     Takes in a metadata sheet from Google Drive and makes a networkx graph of the data, with authors
     as nodes and correspondence as the edges.
@@ -22,12 +22,14 @@ def make_graph(debug=False):
     :param debug:
     :return: networkx graph object
     """
+    # if (max_nodes is not None) or (not isinstance(max_nodes, int)):
+    #     raise ValueError(f'max_nodes must be None or int, not {type(max_nodes)}')
 
     graph = nx.DiGraph()
 
     # For debugging purposes
     if debug:
-        with open('computation_hist/data/sample_docs/verzuh_metadata.csv', 'r') as file:  #
+        with open('computation_hist/data/sample_docs/test.csv', 'r') as file:  #
             metadata = csv.DictReader(file)
             for document_metadata in metadata:
                 add_doc(graph, document_metadata)
@@ -37,7 +39,8 @@ def make_graph(debug=False):
         metadata = get_metadata_google_sheet(return_type='list_of_dicts')
         add_doc(graph, metadata)
 
-    return graph
+    if max_nodes is None:
+        return graph
 
 
 def add_doc(graph, doc_meta):
@@ -53,7 +56,8 @@ def add_doc(graph, doc_meta):
     doc = Document(doc_meta)
     author = doc.author
     recipients = doc.recipients
-    recipients.remove('None')
+    if 'None' in recipients:
+        recipients.remove('None')
 
     # Adds author to the graph or increases the weight of the node
     if author not in graph:
