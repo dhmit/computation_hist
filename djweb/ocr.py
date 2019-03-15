@@ -15,6 +15,9 @@ def ocr_pdf(input_pdf_path, return_type='text', output_pdf_path=None):
     This function either returns the text of the pdf as a string (return_type='str') or it
     stores an ocred pdf in the output_pdf_path (return_type='str')
 
+    NOTE: Requires tesseract 4 and the english language model (eng.traineddata from
+    https://github.com/tesseract-ocr/tessdata)
+
     # return_type='text' returns the text of the pdf
     >>> input_pdf_path = Path('..', 'computation_hist', 'data', 'sample_docs', '3_32_verzuh_1.pdf')
     >>> text = ocr_pdf(input_pdf_path, return_type='text')
@@ -69,7 +72,8 @@ def ocr_pdf(input_pdf_path, return_type='text', output_pdf_path=None):
     if return_type == 'text':
         text = ''
         for i in range(len(images)):
-            text += pytesseract.image_to_string(images[i]) + '\n\n\n'
+            text += pytesseract.image_to_string(images[i], lang='eng',
+                                                config='--oem 1') + '\n\n\n'
         return text
 
     elif return_type == 'pdf':
@@ -81,7 +85,8 @@ def ocr_pdf(input_pdf_path, return_type='text', output_pdf_path=None):
         # Converts the PIL files into binaries and saves them in a list, along with the filepaths
         pages = []
         for i in range(len(images)):
-            single_page = pytesseract.image_to_pdf_or_hocr(images[i], extension='pdf')
+            single_page = pytesseract.image_to_pdf_or_hocr(images[i], extension='pdf', lang='eng',
+                                                           config='--oem 1')
             pages.append(single_page)
             file_paths.append(
                 Path(output_pdf_path.parent, output_file_name + '_' + str(i) + '.pdf')
