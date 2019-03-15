@@ -830,12 +830,12 @@ class Instruction_Register extends Word {
      */
     constructor() {
         super(0, 18);
+        this.is_typeA = false;
     }
 
     /**
      * Stores Type B instruction into the instruction register in the way the IBM 704 does it.
      *
-     * Does not handle Type A, input-output, shifting, or sense instructions.
      *
      * @param {string/General_Word}  word     Instruction to be stored in instruction register.
      */
@@ -850,10 +850,11 @@ class Instruction_Register extends Word {
         result += instruction[0];
         result += instruction.substring(3, 12);
         length = result.length;
-        for (let i = 0; i <= 18 - length; i++) {
+        for (let i = 0; i < 18 - length; i++) {
             result += "1";
         }
         this.update_contents(result);
+        this.is_typeA = false;
     }
 
     /**
@@ -869,18 +870,48 @@ class Instruction_Register extends Word {
         result = replaceAt(result, 0, word[0]);
         result = replaceAt(result, 8, word.substring(1,3));
         this.update_contents(result);
+        this.is_typeA = true;
     }
 
     /**
-     * Stores instruction into instruction register.
+     * Stores instruction into instruction register. Does not handle input-output, shifting, or sense instructions.
      *
-     * @param {General_Word} word
+     * @param {General_Word} word   Word to be stored into instruction register.
      */
     store_instruction(word) {
         if (word.is_typeB()) {
             this.store_instruction_b(word);
         } else {
             this.store_instruction_a(word);
+        }
+    }
+
+    /**
+     * Returns string with the name of the operation held in the instruction register.
+     *
+     * @returns {string}    String corresponding to name of operation in instruction register.
+     */
+    get_instruction_str() {
+        if (this.is_typeA) {
+            let opcode = this.contents[0] + this.contents[8] + this.contents[9];
+            let operation = no_to_operation_a_str[parseInt(opcode, 2)];
+            if (typeof operation === "undefined") {
+                return "Unrecognized operation"
+            } else {
+                return operation;
+            }
+        } else {
+            let opcode = parseInt(this.contents.substring(1, 10), 2);
+            if (this.contents[0] === "1") {
+                opcode += 0o4000;
+            }
+            console.log(opcode);
+            let operation = no_to_operation_b_str[opcode];
+            if (typeof operation === "undefined") {
+                return "Unrecognized operation"
+            } else {
+                return operation;
+            }
         }
     }
 }

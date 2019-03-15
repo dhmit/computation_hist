@@ -107,7 +107,8 @@ function update() {
     instruction_location_counter_element.innerHTML = computer.ilc.toString();
     instruction_location_counter_element.title = "Location: " + computer.ilc.valueOf();
 
-    $("#instruction_register").html(computer.instruction_register.toString());
+    $("#instruction_register")[0].innerHTML = computer.instruction_register.toString();
+    $("#instruction_register")[0].title = "Operation: " + computer.instruction_register.get_instruction_str();
 
     storage_register_element = $("#storage_register")[0];
     storage_register_element.innerHTML = computer.storage_register.toString();
