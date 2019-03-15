@@ -178,6 +178,35 @@ def search_results(request):
 def browse(request):
     return render(request, 'browse.jinja2')
 
+def generate_search_facets(doc_objs):
+    from collections import Counter
+    counter_authors=Counter()
+    counter_dates=Counter()
+    counter_author_organizations=Counter()
+    counter_recipients=Counter()
+    counter_recipient_organizations=Counter()
+    counter_cc=Counter()
+    for doc in doc_objs.all():
+        counter_dates[doc.date.year]=+1
+        for author in doc.author_person.all():
+            counter_authors[author.fullname]=+1
+        for organization in doc.author_organization.all():
+            counter_author_organizations[organization.name]=+1
+        for recipient in doc.recipient_person.all() :
+            counter_recipients[recipient.fullname]=+1
+        for organization in doc.recipient_organization.all():
+            counter_recipient_organizations[organization.name]=+1
+        for cc in doc.cced_person.all():
+            counter_cc[cc.fullname]=+1
+        ##cced organization
+    print(counter_authors)
+    dict_facets={"authors":counter_authors.most_common(10), #10 most common ones
+                 "recipients":counter_recipients.most_common(10),
+                 "years":counter_dates.most_common(10),
+                 "author organizations":counter_author_organizations.most_common(10),
+                 "recipient organizations":counter_recipient_organizations.most_common(10),
+                 "cced":counter_cc.most_common(10)}
+    print(dict_facets)
 
 def search(request):
     query = request.GET['q']
@@ -265,5 +294,6 @@ def advanced_search(request):
         print('Error getting min and max years')
 
     print(request)
-
+    #generate the facets for the search
+    facets=generate_search_facets(doc_objs)
     return render(request, 'list.jinja2', {'model_str': 'doc', 'model_objs': doc_objs})
