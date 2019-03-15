@@ -2,7 +2,7 @@ from django.shortcuts import render, get_object_or_404, get_list_or_404
 from .models import Person, Document, Box, Folder, Organization, Page
 # from django.template import loader
 from django.db.models import Q
-from dj_comp_hist.common import get_file_path
+from .common import get_file_path
 
 
 
