@@ -1,4 +1,5 @@
 import matplotlib.pyplot as plt
+import operator
 
 # from common import get_metadata_google_sheet
 from document import Document
@@ -22,8 +23,8 @@ def make_graph(max_nodes=None, debug=False):
     :param debug:
     :return: networkx graph object
     """
-    # if (max_nodes is not None) or (not isinstance(max_nodes, int)):
-    #     raise ValueError(f'max_nodes must be None or int, not {type(max_nodes)}')
+    if isinstance(max_nodes, type(int)):
+        raise ValueError(f'max_nodes must be None or int, not {type(max_nodes)}')
 
     graph = nx.DiGraph()
 
@@ -41,6 +42,13 @@ def make_graph(max_nodes=None, debug=False):
 
     if max_nodes is None:
         return graph
+    else:
+        removed_nodes = list(graph.nodes(data='weight'))
+        removed_nodes.sort(key=operator.itemgetter(1))
+        removed_nodes = removed_nodes[:-20]
+        names = [node[0] for node in removed_nodes]
+        graph.remove_nodes_from(names)
+        return graph
 
 
 def add_doc(graph, doc_meta):
@@ -56,8 +64,21 @@ def add_doc(graph, doc_meta):
     doc = Document(doc_meta)
     author = doc.author
     recipients = doc.recipients
+    if author is '':
+        author = 'None'
+    # if author is 'Morse, Philip' or 'Morse, P. M.':
+    #     author = 'Morse, Philip M.'
+
     if 'None' in recipients:
         recipients.remove('None')
+    if '' in recipients:
+        recipients.remove('')
+    # if 'Morse, Philip' in recipients:
+    #     recipients.remove('Morse, Philip')
+    #     recipients.append('Morse, Philip M.')
+    # if 'Morse, P. M.' in recipients:
+    #     recipients.remove('Morse, P. M.')
+    #     recipients.append('Morse, Philip M.')
 
     # Adds author to the graph or increases the weight of the node
     if author not in graph:
@@ -98,14 +119,23 @@ def basic_draw(graph):
     """
     nx.draw_circular(graph,
                      with_labels=True,
+                     font_size=10,
+                     font_color='b',
+                     font_shadow='w',
                      node_size=[node[1] * 100 for node in g.nodes.data('weight')],
-                     width=[edge[2] for edge in g.edges.data('weight')]
+                     width=[edge[2] // 4 for edge in g.edges.data('weight')]
                      )
     plt.show()
 
 
 if __name__ == '__main__':
-    g = make_graph(debug=True)
+    g = make_graph(debug=True, max_nodes=20)
+    # for recip in sorted(g.nodes, reverse=True):
+    #     print("'" + str(recip) + "'")
+    undirected = nx.Graph(g)
+    # basic_draw(undirected)
     basic_draw(g)
+
+
 
 
