@@ -96,7 +96,7 @@ def add_one_document(csv_line):
                              foldername_short=csv_line['foldername_short'],
                              doc_id=csv_line['doc_id'], path_type='absolute', file_type='txt')
     try:
-        with open(txt_path, 'r') as f:
+        with open(txt_path, 'r', encoding='utf8') as f:
             new_doc.text = f.read()
     except FileNotFoundError:
         print(f'skipped {txt_path}')
