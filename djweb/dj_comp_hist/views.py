@@ -235,6 +235,14 @@ def advanced_search(request):
         print("Error getting document title")
 
     try:
+        phrase = request.GET['contents']
+        if phrase != '':
+            doc_objs = Document.objects.raw(f'SELECT * from doc_fts WHERE text MATCH "{phrase}"')
+
+    except:
+        print("Error getting phrase")
+
+    try:
         author = request.GET['author']
         if author != "":
             author = author.split(" ")
