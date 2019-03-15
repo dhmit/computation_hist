@@ -36,25 +36,10 @@ def doc(request, doc_id):
     doc_obj = get_object_or_404(Document, pk=doc_id)
     author_person_objs = doc_obj.author_person.all()
     author_organization_objs = doc_obj.author_organization.all()
-    try:
-        if author_organization_objs[0].name == 'unknown':
-            author_organization_objs = None
-    except:
-        pass
     recipient_person_objs = doc_obj.recipient_person.all()
     recipient_organization_objs = doc_obj.recipient_organization.all()
-    try:
-        if recipient_organization_objs[0].name == 'unknown':
-            recipient_organization_objs = 0
-    except:
-        pass
     cced_person_objs = doc_obj.cced_person.all()
     cced_organization_objs = doc_obj.cced_organization.all()
-    try:
-        if cced_organization_objs[0].name == 'unknown':
-            cced_organization_objs = 0
-    except:
-        pass
     page_objs = doc_obj.page_set.all()
     obj_dict = {
         'doc_obj': doc_obj,
