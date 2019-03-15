@@ -45,14 +45,14 @@ def doc(request, doc_id):
     recipient_organization_objs = doc_obj.recipient_organization.all()
     try:
         if recipient_organization_objs[0].name == 'unknown':
-            recipient_organization_objs = 0
+            recipient_organization_objs = None
     except:
         pass
     cced_person_objs = doc_obj.cced_person.all()
     cced_organization_objs = doc_obj.cced_organization.all()
     try:
         if cced_organization_objs[0].name == 'unknown':
-            cced_organization_objs = 0
+            cced_organization_objs = None
     except:
         pass
     page_objs = doc_obj.page_set.all()
