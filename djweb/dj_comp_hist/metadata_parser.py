@@ -83,6 +83,16 @@ def add_one_document(csv_line):
                        file_name=csv_line['filename']
                        )
 
+    txt_path = get_file_path(box=int(csv_line['box']), folder=int(csv_line['folder_number']),
+                             foldername_short=csv_line['foldername_short'],
+                             doc_id=csv_line['doc_id'], path_type='absolute', file_type='txt')
+    try:
+        with open(txt_path, 'r') as f:
+            new_doc.text = f.read()
+    except FileNotFoundError:
+        print(f'skipped {txt_path}')
+        new_doc.text = ''
+
     # ---------------------DATE-----------------------------------------------
     if csv_line['date'] != '' and csv_line['date'][0] == '1':
         new_doc.date = csv_line['date']
