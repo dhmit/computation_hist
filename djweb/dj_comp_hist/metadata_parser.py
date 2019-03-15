@@ -1,9 +1,11 @@
 import os
 import csv
+import sqlite3
 from pathlib import Path
 from .models import *
 from django.db import IntegrityError
 from django.core.exceptions import ValidationError
+from .common import DJWEB_PATH
 
 
 def populate_from_metadata(file_name=None):
@@ -54,6 +56,13 @@ def populate_from_metadata(file_name=None):
     print(f'Added {count_added} documents from {file_name}. Skipped {count_skipped} documents '
           f'because of incomplete metadata. Invalid: {count_invalid}')
 
+    db = sqlite3.connect(Path(DJWEB_PATH.parent, 'db.sqlite3'))
+    cursor = db.cursor()
+    cursor.execute('create virtual table doc_fts using FTS4(id, title, text);')
+    cursor.execute('''INSERT INTO doc_fts(id, title, text) 
+                                                SELECT id, title, text 
+                                                FROM dj_comp_hist_document;''')
+    db.commit()
 
 def add_one_document(csv_line):
     """
@@ -82,6 +91,16 @@ def add_one_document(csv_line):
                        last_page=csv_line['last_page'],
                        file_name=csv_line['filename']
                        )
+
+    txt_path = get_file_path(box=int(csv_line['box']), folder=int(csv_line['folder_number']),
+                             foldername_short=csv_line['foldername_short'],
+                             doc_id=csv_line['doc_id'], path_type='absolute', file_type='txt')
+    try:
+        with open(txt_path, 'r') as f:
+            new_doc.text = f.read()
+    except FileNotFoundError:
+        print(f'skipped {txt_path}')
+        new_doc.text = ''
 
     # ---------------------DATE-----------------------------------------------
     if csv_line['date'] != '' and csv_line['date'][0] == '1':

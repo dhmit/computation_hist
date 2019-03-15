@@ -15,10 +15,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import include, path
-from django.conf import settings
-from django.conf.urls.static import static
+from .non_built_func import redirect_view
 
 urlpatterns = [
+    path('', redirect_view),
     path('dj_comp_hist/', include('dj_comp_hist.urls')),
     path('simulations/', include('simulations.urls')),
     path('admin/', admin.site.urls),
