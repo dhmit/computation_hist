@@ -1,5 +1,5 @@
 const computer_size = 8;
-const num_code_lines = 6;
+const num_code_lines = 5;
 
 /**
  * Initializes looping_with_tix.jinja2, including initializing register 3 of general memory to
@@ -11,4 +11,3 @@ function start() {
     computer.general_memory[7].fixed_point = 1;
     update();
 }
-
