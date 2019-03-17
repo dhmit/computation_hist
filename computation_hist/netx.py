@@ -1,5 +1,6 @@
 import matplotlib.pyplot as plt
 import operator
+import math, random
 
 # from common import get_metadata_google_sheet
 from document import Document
@@ -8,16 +9,13 @@ import networkx as nx
 import plotly
 import plotly.graph_objs as go
 
-# This is a file for testing to see if the class system in networks.py can be updated with a more
-# linear setup through networkx
-
 
 def make_graph(max_nodes=None, debug=False):
     """
     Takes in a metadata sheet from Google Drive and makes a networkx graph of the data, with authors
     as nodes and correspondence as the edges. Declaring max_nodes as an int n will return a Graph
     object with only the n-th largest nodes.
-    
+
     >>> g = make_graph(debug=True)
     >>> len(g.nodes())
     11
@@ -70,19 +68,10 @@ def add_doc(graph, doc_meta):
     recipients = doc.recipients
     if author is '':
         author = 'None'
-    # if author is 'Morse, Philip' or 'Morse, P. M.':
-    #     author = 'Morse, Philip M.'
-
     if 'None' in recipients:
         recipients.remove('None')
     if '' in recipients:
         recipients.remove('')
-    # if 'Morse, Philip' in recipients:
-    #     recipients.remove('Morse, Philip')
-    #     recipients.append('Morse, Philip M.')
-    # if 'Morse, P. M.' in recipients:
-    #     recipients.remove('Morse, P. M.')
-    #     recipients.append('Morse, Philip M.')
 
     # Adds author to the graph or increases the weight of the node
     if author not in graph:
@@ -96,6 +85,8 @@ def add_doc(graph, doc_meta):
             if recip not in graph:
                 graph.add_node(recip, weight=1)
 
+            graph.nodes[author]['weight'] += 1
+
             if (author, recip) not in graph.edges:
                 graph.add_edge(author, recip, weight=1)
 
@@ -107,39 +98,121 @@ def add_doc(graph, doc_meta):
         if 'None' not in graph:
             graph.add_node('None', weight=1)
 
+        graph.nodes['None']['weight'] += 1
+
         if (author, 'None') not in graph.edges:
             graph.add_edge(author, 'None', weight=1)
         else:
             graph.edges[author, 'None']['weight'] += 1
 
 
-def basic_draw(graph):
+def basic_draw(graph, directed=True):
     """
     This provides a very simple network graph through matplotlib, ideal for speed but not
-    necessarily very pretty
+    necessarily very pretty.
 
     :param graph: networkx Graph object
+    :param directed: Boolean
     :return: None
     """
-    nx.draw_circular(graph,
+
+    if directed:
+        g = graph
+    else:
+        g = nx.Graph(graph)
+
+    nx.draw_circular(g,
                      with_labels=True,
                      font_size=10,
                      font_color='b',
                      font_shadow='w',
-                     node_size=[node[1] * 100 for node in g.nodes.data('weight')],
-                     width=[edge[2] // 4 for edge in g.edges.data('weight')]
+                     node_size=[node[1] * 10 for node in g.nodes.data('weight')],
+                     width=[max(edge[2] // 4, 1) for edge in g.edges.data('weight')]
                      )
     plt.show()
 
 
+def fancy_network(g):
+    """
+    Draws a prettier network graph using Plotly. Note that this does not support directed graphs
+    and displays a constant edge width.
+
+    :param g: Networkx Graph object
+    :return: None
+    """
+
+    # Set up the nodes in a circle
+    angle_inc = 2*math.pi/len(g.nodes)
+    theta = 0
+    for node in g.nodes:
+        x = math.cos(theta)
+        y = math.sin(theta)
+        g.nodes[node]['pos'] = (x, y)
+        theta += angle_inc
+
+    edge_trace = go.Scatter(
+        x=[],
+        y=[],
+        line=dict(width=1, color='#888'),
+        hoverinfo='none',
+        mode='lines'
+        )
+
+    for edge in g.edges():
+        x0, y0 = g.node[edge[0]]['pos']
+        x1, y1 = g.node[edge[1]]['pos']
+        edge_trace['x'] += tuple([x0, x1, None])
+        edge_trace['y'] += tuple([y0, y1, None])
+
+    node_trace = go.Scatter(
+        x=[],
+        y=[],
+        text=[],
+        mode='markers',
+        hoverinfo='text',
+        marker=dict(
+            showscale=True,
+            colorscale='Bluered',
+            reversescale=True,
+            color=[],
+            size=[],
+            colorbar=dict(
+                thickness=15,
+                title='Letters Sent/Received',
+                xanchor='left',
+                titleside='right'
+            ),
+            line=dict(width=2)))
+
+    for node in g.nodes():
+        x, y = g.node[node]['pos']
+        node_trace['x'] += tuple([x])
+        node_trace['y'] += tuple([y])
+
+    # colors nodes based on weight
+    for node in g.nodes:
+        node_trace['marker']['color'] += tuple([g.nodes[node]['weight']])
+        node_trace['marker']['size'] += tuple([max(g.nodes[node]['weight'] // 4, 30)])
+        node_info = node + '<br># of letters: ' + str(g.nodes[node]['weight'])
+        node_trace['text'] += tuple([node_info])
+
+    fig = go.Figure(data=[edge_trace, node_trace],
+                    layout=go.Layout(
+                        title='<br>Network Graph from Metadata',
+                        titlefont=dict(size=16),
+                        showlegend=False,
+                        hovermode='closest',
+                        margin=dict(b=20, l=5, r=5, t=40),
+                        annotations=[dict(
+                            showarrow=True,
+                            xref="paper", yref="paper",
+                            x=0.005, y=-0.002)],
+                        xaxis=dict(showgrid=False, zeroline=False, showticklabels=False),
+                        yaxis=dict(showgrid=False, zeroline=False, showticklabels=False)))
+
+    plotly.offline.plot(fig, filename='computation_hist/data/network.html')
+
+
 if __name__ == '__main__':
-    g = make_graph(debug=True, max_nodes=10)
-    # for recip in sorted(g.nodes, reverse=True):
-    #     print("'" + str(recip) + "'")
-    undirected = nx.Graph(g)
-    # basic_draw(undirected)
-    basic_draw(g)
-
-
-
-
+    graph = make_graph(debug=True, max_nodes=40)
+    fancy_network(graph)
