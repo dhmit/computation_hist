@@ -15,12 +15,15 @@ import plotly.graph_objs as go
 def make_graph(max_nodes=None, debug=False):
     """
     Takes in a metadata sheet from Google Drive and makes a networkx graph of the data, with authors
-    as nodes and correspondence as the edges.
+    as nodes and correspondence as the edges. Declaring max_nodes as an int n will return a Graph
+    object with only the n-th largest nodes
     >>> g = make_graph(debug=True)
     >>> len(g.nodes())
     11
 
-    :param debug:
+
+    :param max_nodes: int or None
+    :param debug: Boolean
     :return: networkx graph object
     """
     if isinstance(max_nodes, type(int)):
@@ -45,7 +48,7 @@ def make_graph(max_nodes=None, debug=False):
     else:
         removed_nodes = list(graph.nodes(data='weight'))
         removed_nodes.sort(key=operator.itemgetter(1))
-        removed_nodes = removed_nodes[:-20]
+        removed_nodes = removed_nodes[:-max_nodes]
         names = [node[0] for node in removed_nodes]
         graph.remove_nodes_from(names)
         return graph
@@ -129,7 +132,7 @@ def basic_draw(graph):
 
 
 if __name__ == '__main__':
-    g = make_graph(debug=True, max_nodes=20)
+    g = make_graph(debug=True, max_nodes=10)
     # for recip in sorted(g.nodes, reverse=True):
     #     print("'" + str(recip) + "'")
     undirected = nx.Graph(g)
