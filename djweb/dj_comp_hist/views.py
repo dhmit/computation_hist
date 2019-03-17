@@ -179,13 +179,22 @@ def browse(request):
     return render(request, 'browse.jinja2')
 
 def generate_search_facets(doc_objs):
+    """
+    Creates a dictionary with dictionaries of each facet of the given parameter. Each of the facet dictionaries contain
+    keys that are the top 10 most common instances of that given facet and values that signify the number of
+    occurrences of that specific instance.
+
+    :param doc_objs:
+    :return: dict_facets
+    """
     from collections import Counter
     counter_authors=Counter()
     counter_dates=Counter()
     counter_author_organizations=Counter()
     counter_recipients=Counter()
     counter_recipient_organizations=Counter()
-    counter_cc=Counter()
+    counter_cceds=Counter()
+    counter_cced_organizations=Counter()
     for doc in doc_objs.all():
         counter_dates[doc.date.year]=+1
         for author in doc.author_person.all():
@@ -197,17 +206,18 @@ def generate_search_facets(doc_objs):
         for organization in doc.recipient_organization.all():
             counter_recipient_organizations[organization.name]=+1
         for cc in doc.cced_person.all():
-            counter_cc[cc.fullname]=+1
-        ##cced organization
-    print(counter_authors)
-    dict_facets={"authors":counter_authors.most_common(10), #10 most common ones
-                 "recipients":counter_recipients.most_common(10),
-                 "years":counter_dates.most_common(10),
-                 "author organizations":counter_author_organizations.most_common(10),
-                 "recipient organizations":counter_recipient_organizations.most_common(10),
-                 "cced":counter_cc.most_common(10)}
-    print(dict_facets)
-
+            counter_cceds[cc.fullname]=+1
+        for organization in doc.cced_organization.all():
+            counter_cced_organizations[organization.name]=+1
+    dict_facets={"authors":dict(counter_authors.most_common(10)),
+                 "author organizations": dict(counter_author_organizations.most_common(10)),
+                 "recipients":dict(counter_recipients.most_common(10)),
+                 "recipient organizations": dict(counter_recipient_organizations.most_common(10)),
+                 "cceds":dict(counter_cceds.most_common(10)),
+                 "cced organizations":dict(counter_cced_organizations.most_common(10)),
+                 "years": dict(counter_dates.most_common(10)),
+                 }
+    return dict_facets
 def search(request):
     query = request.GET['q']
     doc_type = ["minutes", "memo", "proposal", "letter", "receipt", "contract", "notice",
@@ -217,7 +227,6 @@ def search(request):
                 "pamphlet", "payroll sheet", "time record", "summary", "table", "telegram"]
     doc_type.sort()
     return render(request, "search.jinja2", {"doc_type": doc_type, 'query': query})
-
 
 def advanced_search(request):
     """
@@ -294,6 +303,5 @@ def advanced_search(request):
         print('Error getting min and max years')
 
     print(request)
-    #generate the facets for the search
     facets=generate_search_facets(doc_objs)
     return render(request, 'list.jinja2', {'model_str': 'doc', 'model_objs': doc_objs})
