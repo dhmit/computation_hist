@@ -16,7 +16,8 @@ def make_graph(max_nodes=None, debug=False):
     """
     Takes in a metadata sheet from Google Drive and makes a networkx graph of the data, with authors
     as nodes and correspondence as the edges. Declaring max_nodes as an int n will return a Graph
-    object with only the n-th largest nodes
+    object with only the n-th largest nodes.
+    
     >>> g = make_graph(debug=True)
     >>> len(g.nodes())
     11
