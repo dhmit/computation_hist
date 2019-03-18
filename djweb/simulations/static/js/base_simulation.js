@@ -1,5 +1,11 @@
 const computer = new IBM_704(computer_size);
 var highlighting = true;
+const DISPLAY_TYPE = {
+  INSTRUCTION: "Instruction",
+  FIXED_POINT: "Fixed point",
+  FLOATING_POINT: "Floating point",
+  BINARY: undefined,
+};
 
 
 /**
