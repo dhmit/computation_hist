@@ -104,6 +104,7 @@ class Document(models.Model):
                                                blank=True)
     notes = models.CharField(max_length=191, blank=True)
     file_name = models.CharField(max_length=191, blank=True, unique=True)
+    text = models.TextField(blank=True)
 
     def __str__(self):
         return self.title
