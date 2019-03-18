@@ -1,33 +1,33 @@
-: a TRA
-"3 = IER .
-5d Seg Nee
-: “ ’”, C - ) AY .
-~ » of . 3 nS ? =
-: = ’ Ml -~ 2 :
-- ee bet — rp - re
-- > » _ . A -
-. 1 : vie, ~
-. - - =~" Hose rT = er = .
-" \ - —- = or -
-3B . N 2
-2 ~ > . 3
-*. = : -— -w
+ig : ek RR
+"3 = oA aly .
+dh Seth
+. “ ’”, M - , AY ‘
+- » of " 3 ~ J -
+5 = ‘ Lo -~ 2 :
+-~ - ht rt Cp - Fs
+- > " _ . An =
+- a : vie, -
+. ” - ~" Tweet = ey = :
+- h . - =  -
+3 . < 2
+2 ~ > - 2
+& = : - —
 :
 . 7 -
-J? »
+3 v
 .
 
 MASSACHUSETTS. INSTITUTE OF TECHNOLOGY
-a tie ETN eA Sn DEPARTMENT OF ELECTRICAL ENGINEERING aan
-Fo Vp SR 9, Teptn lie DISITAL, ‘COMPUTER HR re & Sn
-OBR Sede lh TL a 21 MASSACHUSETTS AVENUE 5 EE RE (Ras
-ey SE RL LTE Ee TRAE ER pe CAMBRIDGE 39, MASSACHUSETTS
-: 4 GORDON S. Brows. FACULTY ADVISOR yp =, Se TET
-: ROBERT R. ‘EVERETT, ASSOCIATE DIRECTOR A a Vee A Te ae Trea TEE D. I. cos
+CE te Aa Th ew i DEPARTMENT OF ELECTRICAL ENGINEERING a
+pe EE Py Yo KR stn lie DisiTAL: ‘COMPUTER CE Ca & 5
+0 BS Sade eh el an 21 MASSACHUSETTS AVENUE = ha cia
+mR LY OE TREE pe CAMBRIDGE 39, MASSACHUSETTS
+4 GORDON S. Brows. FACULTY ADVISOR = Se Tet a ;
+: ROBERT R. EVERETT, ASSOCIATE DIRECTOR TA VR a Te a Train TLE D. I. C8345
 
-SY HARRIS FAHNESTOCK. EXECUTIVE OFFICER '
+an HARRIS FAHNESTOCK. EXECUTIVE OFFICER '
 
-«ed Te
+a A
 
 Massachusetts Institute ot  Toshactony
 
@@ -35,36 +35,37 @@ Massachusetts Institute ot  Toshactony
 
 Dear Bir:
 
-EE Cp a a Sele VINE BOF :
-ee  rotiat 1 Lampeter Soe soe wid
-problem 337, Nonlinear WE _——— in Elastic Shell
+Fie Son senile Ge orelY Jour SOURS YIYE DIY 8
+oT have Bem anthaniaed to CE Se fo: vou Ader
+problem 337, Honlineax Pritereutia) Byuataous in Elastic Shell =
 Theory.
 
-You uight be interested to Kn EP gince your ai
+You uight be interested to xno bat gince your pEditen
 began, you have used (as of June 3) 430.8 minutes of computer time.
-12 you hed been charged at the regular rate of $250/hour, the total
-sige gharyed to your Bovount would Mere Bete 4,408.90 Rg
+: 12 you hed been charged at the regular rate of $350/hour, the total
 
-Sincerely b
+smount charged to your ascount would Rave bon §1,332.95. Rg
+
+Sincerely ;
 
 FF. M, Verzuh
 
  
 
-FMV sunt
-ce vP. NM. ¥orse
+FHV samt
+ce vP. NM, ¥orse
 L. T. Brock
 
  
 
-JAY W. FORRESTER. DIRECTOR £3 4 NE © ie Ral ha Sa Se hh iri REELS  TeLerHONE ELIOT 4- 33m vr
+JAY W. FORRESTER. DIRECTOR £3 i VE ER a Saks it EEK J  TeLerHONE ELIOT 4- asm a
 
-3 LT : EEE v5 -
-. " offen 5 - 59 >
-2 J \ . * rl i ’ 8 ‘s ga - i
-i Boon S368 oT > = . : bi = > :
-’ ; . : ’
-. ‘ . g CATS ;
-v > : a
+. Te : SERED vv -
+. " oon . " 9 >
+a s \ 5 . "ie i ' J ‘a Se “ i
+Boon 3-365 = . = - : or = = . J
+, ; . : ’
+a ‘ . " ATS &
+” > : q
 
 

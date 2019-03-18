@@ -8,7 +8,7 @@ From: F. J. Corbatd, Associate Director
 
 Subject: Summary of 709 Computer Usage During the
 15-Week Period, September 15 through
-December 31, 1960
+December 31, 1960 :
 
 In this last operating period, the 709 computer at the Computation Center
 was used by persons from 15 of MIT's 20 departments and three of the interdepart-
@@ -18,7 +18,7 @@ problems originating at MIT used 435 hours of computer time. In addition, 81
 problems from other New England Universities used 141 hours.
 
 The number of MIT courses which now make use of the 709 in at least part
-of their lab work has increased to 14 and this usage represents 17% of the
+of their lab work has increased te 14 and this usage represents 17% of the
 available computer time. Table III of this report and its accompanying charts
 shows that theses are also an important source of work and, in particular, theses
 on the doctoral level alone amount to 20% of the computer usage.
@@ -54,7 +54,7 @@ additional breakdown by number of problems is represented in these charts.
 INSTALIATION OF THE 709
 
 The installation of the 709 was begun July 5th and the computer was made
-available, on 2 part-time schedule, on September 6th. The first four or five
+available, on 28 part-time schedule, on September 6th. The first four or five
 weeks of this installation period were spent in renovating the computer room
 itself. The air-conditioning duct work layout needed extensive modification, new
 electrical service was installed and the steel plates which make up the false floor
@@ -62,7 +62,7 @@ had to be removed, reworked and replaced. Finally, after installation of the new
 computer, the air-fiow im the room had to be re-balanced. The difficulties, expense
 and delay occasioned by these modifications point out the advantages of recent
 innovations in the design of computer installations; it is intended to use some of
-these new techniques in the 7020 installation in January, 1962,
+these new techniques in the 7020 installation in January, 1962.
 
 SUMMARY OF OPERATIONS
 
@@ -123,10 +123,10 @@ TOTALS
 Sept.
 8.59
 2.81
-Bel
+3.T1
 
 1.57
-5.53
+5.55
 2.12
 
 Oct.
@@ -139,7 +139,7 @@ TT 56
 3.24
 28.62
 
-1D
+o ID
 2.07
 
 103.48
@@ -148,8 +148,10 @@ TT 56
 
 18.12
 1.0
-1b 12
+
+36.92
 5
+
 1.58
 
  
@@ -176,13 +178,13 @@ Dec.
 
 96.83
 
-C90
+2-32
 12.87
 
 L.62
 39.96
 
-4.12
+I.12
 164.89
 
  
@@ -195,7 +197,7 @@ L.62
 
  
 
-52.15
+he «.15
 
 217.04
 
@@ -203,7 +205,7 @@ Total
 
 218.16
 
-4.79
+54.79
 37.24
 
 12.17
@@ -215,7 +217,7 @@ Total
 
 435.08
 
-77.51
+71.51
 6.26
 47.49
 1.14
@@ -264,9 +266,9 @@ GROUP
 
 MIT | To-date
 
-Voge Sept. Oct. Nov. Dec. Total Total
+Ra Sept. Oct. Nov. Dec. Total Total
 
-MIT DSR Projects al: 30.26 38,00 42.79 118.16 118.16
+MIT DSR Projects 7.1% 30.26 38,00 42.79 118.16 118.16
 
 Government or other TT 7.05 7-95 10.57 26.34 26.34
 
@@ -274,14 +276,14 @@ Grant-in-Aid .85 4,82 6.00 6.02 17.69 17.69
 
 MIT Computation Center
 
-Support 1.40 5.50 16.87 17.06 “40.84 40.84
+Support 1.40 5.31 16.87 17.06 “30.84 40.84
 
 Unsupported 14.70 55.84% 73.06 88.45 232.05 232.05
 Group Totals 24.83 103.48 1431.88 164.89 435,08 435,08
 
 N.E. Universities
 
-Government or other .85 3.23 gi 8.18 132.97 11.97
+Government or other .85 3.23 0 4.18 11.97 11.97
 
 Grant-in-Aid 1.58 . 359 .95 5.14 14.06 14,06
 
@@ -290,7 +292,7 @@ Group Totals 7.80 38.30 43.17 52.15 141.42 141.42
 TOTALS 32.63 141.78 185.05 217.04 576.50 576.50
 
 
-TABLE III
+TABLE IIX
 
 Summary of 709 Usage According to Primary Purpose
 
@@ -412,7 +414,7 @@ Total
 
 82.58
 
-12-23
+75.33
 138.70
 
  
@@ -553,7 +555,7 @@ Total _
 672.34
 
 
-————TT
+——
 
 M.I.T. USAGE
 
@@ -582,12 +584,12 @@ Academic Status of Applicant
    
 
 50
-Ta eV uy
+Ta eV Vy
 
  
 
 MIT
-Dsk Stat
+Dok Stat
 
    
  
@@ -595,7 +597,7 @@ Dsk Stat
 
   
 
-G reduvale
+G reduale
 StudenTs
 
   

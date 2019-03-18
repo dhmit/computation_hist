@@ -1,52 +1,52 @@
-x | Tq i | DCL=35-1
+Co | 1 i | DOL=35-1
 
 PURCHASE ORDERS * Has also requested credit allowance
 Date Project or | Purchase Amount
-Recelved From = = For Account No. Problem Nos Order No, ead ie me
-3S 54 Dr, J.T.Farrar same 195 2020 $1560 = 6 hours
-HasslMemncspitals
-30 S 5% Mr. D, Arenberg same For Contract 216 667-19 at $250/hr  X hours
-A Ultrasonic Lab. AF30(602)=577
-28 0 5%  G.J.Hudson,Pur.  J.H.Runyen 132 DIC F 91094 $1,563 15 minfuk
+Repoived Fyom =~ For Account No. Problem Nos Créer No, ti a ERIN
+35 58 Dr, J.T.Farrar same 195 | 2020 $1560 = 6 hours
+HasslMemnucspitals
+30 S 5% Mr. D. Arenberg same For Contract 216 667-19 at $250/hr  X hours
+A Ultrasonic Lab. AF30(602)=5877
+28 0 5%  G.J.Hudsonm,Pur.  J.H.Runyen 132 DIC F 91094 $1,563 15 minfuk
 Agent Serve Lab
 Servo Lab
-2 N54 T.F.Malone same DIC 5=7074 155 $6,250 1 hr/uk
-Medorology
-3 N 5% C.M. Pickett C.W.Johnson DIC 7270 203,230,252 DIC F 85353 $1,588 15 minfwk
-Pur. Agent CHMG :
+2 N54 TF Malone same DIC 5=7074 155 $6,250 1 hr/fuk
+Meborology
+3 N 54% C.M.Pickelt C.W.Johnson RIC 7270 203,230,252 DIC F 85353 $1,588 15 minfuk
+Pur. Agent CHMG
 Civil Eng.
-5 N58  J.HLaning,Jdr, same 108%,211,237 DIC F 90952 $3:125 30 minfwk
-Instrumentation 239 , 24h
+5 N54 JH. Laning, Jr. same 108%,211,237 DIC F 90952 $3:125 30 minfwk
+Instrumentation 239, 24h
 5 N 54 J.B, Leaning, Jr, same 108* DIC F 90953 $3,125 30 min/wuk
 Instrumentation
-5 N 58 S. Simpson szme Burear‘s Account 106 Requisition $3,076.92 30 minjfuk
-Geol .&Ceophysics 2420 B 20795 :
-8 N 54 Gad Hudson, Pa D.T.Ross DIC 7138 126 DIC F 91163 $9,375 80 min/wlk
-Servo Lab gervo Lab :
-12 N58 dM, Austin G. Arnason DIC Ghhy 224 DIC R 163949 EST $1,500 EST 6 hours
+5 N 58 S. Simpson same Bursar's Account 106 Requisition $3,076.92 30 minful
+Geol .&Ceophysics 2u20 B 20795 :
+8 N 54 Gad Hudson, Pa D.T.Ross DIC 7138 126 DIC F 91163 $9,375 80 min/wik
+Servo Lab gervoe Lab :
+12 N58 dM, Austin G. Arnason DIC Gaby 224 DIC R 163949 EST £1,500 EST 6 hours
 Meteorology Meteorology
-15 H 54 J Kaye T.Y .Toong DIC 6418 199% DIC F €1308 $500 2 hours
+15 H 54 J Kaye T.¥ Toong DIC 6418 100% DIC F £1308 $500 2 hours
 
-Mech.Eng, Meech, Eng,
+Mech.Eng., Mech, Eng,
 
 
 22 N 5&
 
-30 N 54
+30 N S54
 
 30 N 54%
 
 2D 54
 
-7D 5h
+7D 54
 
-15 D 54
+i5 D 54
 
-13 J 55
+13 4 55
 
 21 J 55
 
-1 J 55
+A J 55
 
 2F 55
 
@@ -57,15 +57,15 @@ J M.Bonneville
 Friction and
 Wear Lab
 
-4.5 .RichardsonJr.
+4.5 .Richardsondr.
 Aeroelastic lab.
 
 J.T Morgan
 
 ~ DACL
 
-B.A ,¥allace
-Weather Radar
+B.A.,¥allace
+feather Radar
 Research
 
 D. Durand
@@ -81,7 +81,7 @@ G.P. Wadsworth
 A .S .Richardson,Jdr.
 
 Aeroelastic Lab
-See P.0.30N54
+See P.0.30N5L
 
 D.A.C.Lab.
 
@@ -115,16 +115,16 @@ same
 
 same
 
-J .G.Bryan
+J .G. Bryan
 
-Aeroslastic
+Aeroglastic
 Lab,
 
 K. Kavanagh
 
 DIC 5-7099
 
-Bursar sect
+Bursar® siect
 2187
 
 DIC 7218
@@ -156,14 +156,14 @@ DIC F 83840
 
 - DIC F 93453
 
-DIC F 9k2u
+DIC F 92)
 
 DIC F 85537
 
 Requisition
 B 16910
 
-Bic ¥ 08375
+Bit ¥ e8375
 
 DIC 85316
 
@@ -201,7 +201,7 @@ DCL=35-1
 
 I hours
 
-1 hr/wk
+1 hrfwk
 
 72 minutes
 

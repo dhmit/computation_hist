@@ -1,21 +1,21 @@
-\_
+NN
 { N No)
 
-Suggestions to memorandum re replacement of 704
+Suggestions to memorandum re replacement of TOA
 
 page 1, par. 1, line 10: from "computing machines," to
 "computing machines effectively, .." (Teager)
 
 line 12: instead of "familiar with" use
 
-" able to exploit..." (Teager)
+"_ able to exploit..." (Teager)
 
-page 2, last line: change ‘i... linking" to :
+page 2, last line: change Y...1inking" to
 ",.linking segment subprogram" (Corbato)
 
 page 3, end of second par. Insert (Teager)
 
-". The advantage of such a technique is
+"., The advantage of such a technique is
 
 that it opens up the very vast, and unexplored,
 area of man-machine partnernship in communication
@@ -28,7 +28,7 @@ communicative, not only open up new research areas
 
 as indicated below, but in addition, will sub-
 stantially improve the process of producing and
-Sim A computer programs."
+Sa computer programs."
 
 "_ .The ultimate goal is to make the fastest
 and most sophisticated computer as accessible and
@@ -47,7 +47,7 @@ since many programs will be debugged and run in only
 a few days or weeks instead of the typical months
 required now."
 
-page 3, par 3, line 2: instead of .."grading examinations ands:
+page 3, par 3, line 2: instead of .."grading examinations and. .n"
 
 change to read "...grading examingfions, scheduling
 classrooms, classes, and students, and”
@@ -66,6 +66,6 @@ out. to be necessary to make minor modifications to the T7090
 itself. Should the groundwork for this be laid at this point?
 
 We, of course, would do whatever engineering was necessary,
-with feedback to IBM people (to their advantage, se
+with feedback to IBM people (to their advantage, nay
 
 

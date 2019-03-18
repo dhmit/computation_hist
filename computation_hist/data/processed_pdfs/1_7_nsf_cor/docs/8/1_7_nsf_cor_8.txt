@@ -5,7 +5,7 @@ Proposal
 
 Although our IBM 704 is now delivered and is in storage at
 MIT, delay in completion of the building to house it has delayed
-commencement of the project financed by NSP grant NSP G2940. As
+commencement of the project financed by NSP grant NSP G2040. As
 a result, it is estimated that only about $8,000 will have been
 spent by June 30, 1957. Staff members, which were to have been
 transferred to this project, have been continued on the Whirlwind
@@ -15,7 +15,7 @@ continued until June 30, 1958, with an additional grant of only
 $13,000, so that in the full year of full operation, July 1957 to
 June 1958, we can operate at the rate of $35,000 a year, as
 estimated in last year's forecast. Estimated detalls of budget
-are appended, together with excerpts from the original preopesal.
+are appended, together with excerpts from the original proposal.
 
 Progress to Date
 
@@ -27,10 +27,10 @@ developed, and tested out on borrowed 704 time, a much more
 flexible assembly program than at present available has been
 begun, ready for active coding when our 704 is in operation.
 Discussions have been begun with a view to investigating the
-incorporation of a flexible ocutput equipment utilizing the
+incorporation of a flexible cutput equipment utilizing the
 photographic "linotype" equipment called Photon. Many programs
 of importance in physics and engineering have been, or are being
-translated from Whirlwind language to 704 language, such as the
+translated from Whirlwind language to TO4 language, such as the
 work of the Solid State Theory Group under Prof. J. C. Slater
 and the large-shower calculations of Prof. Bruno Rossi. The
 meteorology group under Prof. Charney, recently moved here from
@@ -40,7 +40,7 @@ require the advice and help of our staff to program their various
 calculations. We wlll be assisting the Harvard Observatory staff
 in calculating satellite orbits in preparation for, and during,
 the IGY satellite "shoots". Dr. S. Ulam of Los Alamos, who has
-been a Visiting Fellow to the Center this year, has been assisting
+been a Vielting Fellow to the Center this year, has been assisting
 us develop "Monte Carle” techniques. Prof. John MeCarthy of the
 Dartmouth Mathematics Department (one of the New England colleges
 participating in our program) will be here next year and will be
@@ -55,7 +55,7 @@ groups, at the 23 participating colleges, are planning further
 work.
 
 
-Extension of NSF G2940 : Page 2
+Extension of NSP G2940 : Page 2
 
 Plans for Next Year
 
@@ -69,7 +69,7 @@ staff members for a year or two. It is certain that most of the
 ~ research subjects outlined in our original proposal to NSF will
 be begun this coming year; it can be expected that the NSF portion
 of support for this work will reach the yearly rate of $35,000
-as indicated earlier, and it 1s expected that this yearly rate
+as indicated earlier, and it is expected that this yearly rate
 will continue at about the same level for several further years,
 as was forecast in our original proposal (see Enclosure B).
 
@@ -79,14 +79,14 @@ June 30, 1958, with additional funds of $13,000,
 Signed
 
 \
-a Morse, bos
+ad Morse, a .,
 
 M.I.T. Computation Center
 Prineipa: Investigator
 
 Approved
 
-~ Carl F., Ploe
+" Carl F., Ploe
 Assistant Chancellor
 
 ~ Dr. ¥. L. Foster, Director
@@ -94,10 +94,10 @@ Division of Sponsored Research
 
 Enclosures A and B
 
-Dat ; :
+Dat : :
 
 
-Extension of NSF (2940
+Extension of NSF G2940
 
 Salaries
 
@@ -137,17 +137,17 @@ Total Yearly Budget
 Less Estimated Balance of Funds under
 Grant NSF G2040 as of July 1, 1957
 
-Additional Funds requested for 1957-58
+Additional Punds requested for 1957-58
 
  
 
 1,000
-5,000
+3,000
 
 8,000
 6,000
 5,000
-5,000
+3,000
 
  
 
@@ -174,7 +174,7 @@ Additional Funds requested for 1957-58
 12,960
 
 
-axtension of NSF G2940 Page 4
+axtension of NSF G2040 Page 4
 
 ENCLOSURE B
 
@@ -203,7 +203,7 @@ Desired Starting Date: September 1, 1956,
 Time Period: Three years, with a reassessment during the fall of
 1959 to determine whether further support is advisable.
 
-TL  — —————— i Sty i".
+Ea ———D es ———
 
 We are organizing what should be one of the most fruitful
 centers for research related to the use ef electronic computers
@@ -242,7 +242,7 @@ of MIT and other colleges, working closely with persons from the
 other colleges, will help coordinate the work of the Center and
 will carry on research of their own in machine logic, in tech=-
 niques of machine computation, and in specific applications of
-machine operatien to experimental and theoretical problems, thus
+machine operation to experimental and theoretical problems, thus
 appreclably broadening the range of applicability of computers
 in the physical and social sciences and in engineering. :
 
@@ -251,7 +251,7 @@ the research of this central research group. The group's work
 will, in part, provide an expanding basis of knowledge of numeri-
 cal analysis and programming techniques, which can be used by the
 cther participants at the Center and will, in part, break ground
-in new fields of mathematical logic and methods of data processing
+in new flelds of mathematical logic and methods of data processing
 
 which will be needed in the application of digital computers to
 new tasks.
@@ -261,7 +261,7 @@ already assembled at the Institute. Part of it is the group which
 developed Whirlwind I programming; others are in various depart-
 ments of the Institute. From time to time, some of the staff of
 the participating colleges will join it for a semester or a year,
-on leave from their institution, to work full time at the Center.
+on leave from thelr institution, to work full time at the Center.
 
 IBM and the Institute will contribute about a half million
 dollars a year to provide the equipment, building, maintenance and
@@ -278,11 +278,11 @@ the Computation Center.
 Part of these additional funds ean be obtained from some
 of the research projects which will use the facilities of the
 Center. Although the use of the machine itself will not be
-chargeable, most users willl need advice from the Center staff as
+chargeable, most users wlll need advice from the Center staff as
 to preparing their pregrams, will need help in detailed coding
 and will prefer to have our staff carry out many of the actual
 runs on the computer. This will add to the duties of the staff,
-and part of the additional cost will be charged to those projects
+and part of the additional cost will be charged to those prejects
 which can afford this extra service. Those students and faculty
 members who cannot afford to pay for this help will be able to
 use the machine, but will be expected to do their own coding,
@@ -296,7 +296,7 @@ card-punching, testing and running of their problems. We
 
 estimate $50,000 a year can come from payments from other
 
-oe for the programming service described, leaving about
+adh for the programming service described, leaving about
 70,000 a year to be obtained from other sources.
 
 The Rockefeller Foundation has granted the Computation
@@ -309,7 +309,7 @@ the physical science aspects of the activity. In order to get
 cur plans well under way, this grant should be continued for
 about three years (as with the Rockefeller grant), after which
 the program should be re-evaluated to determine needs beyond
-that date 0 s
+that date o »
 
 Proposed Research - Possible Initial Directions of Investigation
 
@@ -338,11 +338,11 @@ communication between machine and operator and for the more
 flexible control of machine operation, ineluding possible
 improvements in input-output equipment.
 
-6. Experimental analysis and control using data trans
+6. Experimental analysis and control using data trans-
 mitted directly between computer and experiment.
 
 7. Investigation of micreprogramming and other methods for
-increasing the flexibility of computer design. The possibility
+increasing the flexlbllity of computer design. The possibility
 of inclusion of a very flexible control unit in a large-scale
 computer which would permit ready alteration of an order code.
 
@@ -361,9 +361,9 @@ additional drums and magnetic core banks.
 9. Computer estimation of problem time. In linear problems,
 estimations of bounds of certain functionals, and thence conver-
 gence criteria for terminating iteration, or switching to a
-different iteration. | | :
+different iteration. | |
 
-Facilities:
+Pacilities:
 
 The MIT Computation Center will have a Type 704 Electronic
 Data Processing Machine with the following machine complements
@@ -371,33 +371,33 @@ Data Processing Machine with the following machine complements
 a total of 8,000 words, 1 magnetic drum unit containing %,000
 words of storage, the usual on-line punched card reader, alpha-
 betic printer, and punched card recorder as well as the 3 off-line
-magnetic-tape-controlled printer, magnetic-tape-controlled card
+magnetic-tape-controlled printer, magnetie-tape-controlled card
 punch, and punched card-to-magnetic tape converter, respectively.
 In addition to the 704 there will be 10 auxiliary punched card
 machines including card punches, collators, sorters, reproducers,
 interpreters, and the Type 407 Accounting Machine. The aggregate
-machine rental, in excess of $50,000 per month, will be donated
+er rental, in excess of $50,000 per month, will be donated
 by °
 
-The Type 704 EDPM unit 1s one of the fastest large-scale
+The Type 704 EDPM unit is one of the fastest large-scale
 commercial computers available today. Since the MIT installation
 will be but one of many in the field, techniques, programs, and
 numerical procedures developed for this machine will be of use
-to others having access to 704 equipment.
+to others having access to 704 equipment. |
 
 Personnel - Supervisory and Administrative Personnel Associated
 with the Project:
 
 Principal Investigator to be Professor Philip M. Morse,
 Director of the Computation Center. He has been in contact with
-computing problems during his career in theoretical physics singe
+computing problems during his career in theoretical physics since
 1930, and with the use of computing equipment since the first
 Bush differential analyzer was available at MIT in 1936. He got
 his Ph.D. in physics at Princeton in 1929 and has been at MIT since
 1931, with occasional leaves of absence. His publications include
-the books "Quantum Mechanics" (with E. U. Condon) 1930, "Vibration
+the books "Quantum Mechanics” (with E. U. Condon) 1930, "Vibration
 and Sound" 1936, "Methods of Operations Research" (with G. E.
-Kimball) 1950, "Methods of Theoretical Physies" (with Herman
+Kimball) 1950, "Methods of Theoretical Physics" (with Herman
 Feshbach) 1953, and "Queuing, Inventory and Maintenance" 1957,
 and about a hundred journal articles, many of which give results
 obtained from machine computation. For further biographic details
@@ -414,9 +414,9 @@ Director of Statistical Services at MIT since 1946, he has been
 connected with the operation of MIT computational work since 1940.
 In this capaeity he has hag considerable experience with the :
 utilization of various analogue computing equipment - differential
-analyzers, etc., as well as a complete line of or machines
+analyzers, etc., as well as a complete line of Agteat machines
 ranging from the IBM Type 601 through the Type 704. He received
-& B.S. degree in Electrical Engineering from the University of
+a B.S. degree in Electrical Engineering from the University of
 Denver in 1940, a M.S. degree in Electrical Engineering from MIT
 in 1946, and a Se.D. degree in Electrical Engineering from MIT in
 1952. None of his salary will be charged to the Project.
@@ -433,7 +433,7 @@ charged to the project.
 Dean N. Arden, who has been a member of the Whirlwind Pro-
 gramming Research Group for three years, has been head of the
 group since July 1955 and will head the programming research group
-in the new Computation Center. He obtained his B.S. in Electrical
+in the new Computation Center. He obtained his B.S. in Electrieal
 Engineering at Michigan, spent four years doing graduate work in
 Mathematics at Purdue and is, at present, finishing his doctor's
 thesis in Mathematics. He has had extensive experience in the use
@@ -464,7 +464,7 @@ Extension of NSF G2940 Page 9
 
 Enclosure B, Continued
 
-Personnel - Full-Time Members of the Project:
+Personnel - Full-Time Members of the Projects
 
 These will include some former members of the Whirlwind
 programming research group, such as Frank Helwig and Sheldon

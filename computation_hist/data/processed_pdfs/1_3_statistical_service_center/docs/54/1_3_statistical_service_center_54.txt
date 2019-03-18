@@ -1,68 +1,66 @@
-sa ‘Accounting Officer
+en Accounting Officer
 November ©, 1953
 
 Distribution:
 
-Pr. FP. L. Foster
+Pr. PF. L. Foster
 Prof. P. MM. Morse
 Mr, H. A. Bawyer, Jr.
 Dr. W. W. Seifert
-Mr, B. Whitman
+Mr. B. Whitman
 
 Pr. F. ¥M. Verzuh
 
 
-GJeotber a8, 1953
+Geotber 26, 1953
 
-TO: Bs Fo L, Foster
-Prof. Fo. M. Morse
-Mr. Jeo A, Little
+TO: Pre. Fo L. Foster
+Prof. Fs M. Morse
+Mr. Jo A, Little
 
-SUBJECT: Meeting on CFC Rate Structure for Fiseal 53-54
+SUBJECT: Meeting on CFC Rate Structure for Fiscal 53-54
 
-&
-50
-
+on
+5
 “~'L
+AL
 
-oh A
+re " RENEW YL NR
+v (HE vy 3 A !
 
-es # RENEW ——Y NRT
-v Cl vy 5 £7 !
-
-The purpose of this mamorandus Ly. to sresent a rate
+The purpose of this memorandum 18. to sresent a rate
 structure for the Card Programmed Calculator which evolved
-88 & consequence of our meeting on October 22, 19253, It
+8s & consequence of our meeting on October RZ, 192453, It
 is proposed that this rate structure be effective for the
-period July 1, 1953 until fur ther nesien,
+period July 1, 1953 until fur ther notice,
 
-Although a number of dpersting clans were di scuseed,
-the following recommendations were made at this Nea, |
+Although a number of operating clans were discussed,
+the following recommendations were made at this Resting!
 
 1.) The monthly machine rental charges for the CPC
-(Including two 941 units, and two auxiliary
+{including two 941 units, and two auxiliary
 machines) is $2400, This figure is the primary
 shift charge and it includes a 20% educational
 discount granted by the 18M Corporation.
 
-2.) The monthly coet of $2400 is to be recovered by
+Z.) The monthly coei of $2400 is to be recovered by
 assessing a charge ef $15 per hour for each hour
-"of scheduled machine use. (it is believed that
+"of scheduled machine use, (It is believed that
 a charge for scheduled hours will minimize the
-"lost ¥ CPC wachine time and, hence, increase
+“lost ¥ CPC pachine time and, hence, increase
 overall operating efficiency).
 
 3.) The method of cost z2llecation is Intended to
 assess CFC malntenance costs to the particular
-user scheduled te use the machine &i the lize
+user scheduled te use ihe machine &i the (lize
 it "breaks down", Operaticnal experience during
-Lhe past 10 months reveals thet as much as R8
-hours per month msy be required for TEST, SERVICE,
-and PREVENTATIVE Maintenance of the CFC,
+Lhe past 10 months reveals thet aes much as RE
+hours per month may be required for TEST SERVICE,
+and PREVENTATIVE Maintenance of the CFC.
 
-8) Net average DAYSFIFT hours = 160-28 = 132 hes o/month
-b) Minimum No, of usage hours required to recover
-cost = 160 hrs./month, i.e. 160 hr, x $15 = §2400,
+8) Net average DAYSFIFT hours = 160-28 = 132 hrs of month
+b) Minimum Mo, of usage hours required to recover
+cost = 160 hrs./month, i.e. 160 hr, x $15 = $2400,
 
 
 October 26, 1983
@@ -70,92 +68,92 @@ October 26, 1983
   
  
 
-ential clients
- WEFRLY MTL
+entisl clients
+_.. WEFRLY MTL
 
  
 
-Instrumentation Leb. Ta °° °° ‘26 34 150
+Instrumentation Leb. 14 ~~ °° 20 34 150
 
  
 
-ZL oat Control Lab. 14 14 68
-DACL 4 4 18
-Siatigiianl Agrviges , 8 pois ag pe SB 42
-AFC | : od Bd lar i
-dt Lait Giro a eo pee {
+F1ight Control Lab, 14 14 68
+DACL 4 #4 18
+Statistica) Serviges 8 dR SiaadDe 42
+AFC | : Ry 73 Tor hail |
+IR ational Seif Ee — A TBLLY Ey {
 
-> To Sapa: 0¢7) 180(?) Tees)
+= T58. Salis. 0¢7) 180(?) T8852)
 
-RE Maximum number of AVAILABLE machine hours
+53) Maximum number of AVAILABLE machine hours
 
-8) DAY SHIFTi= = 8:30AM - 5PM ¥ 42 hrs./week
+8) DAY SHIFTi= = 8:30AM - SPM ¥ 42 hrs./week
 
-b) NIGHT ZEIPT = S300PH -11°PM |
+b) NIGHT ZEIPT = S300PH -11°M |
 Sat, = 095,5100PM-11PM ¥ 44 hrs./weck
 
-¢) OTHER SHIFTS 82 hrs./week (Max)
+¢) OTHER SHIFTS 82 brs./vweek (Max)
 
-6.) EDUCATICNAL Research
+6.) EDUCATIONAL Research
 
-| Prof, Horse emphasized the need for available (PC tine
+| Prof, Horse emphasized the need Tor avallable (PC tine
 for educelional purposes, For example, the fellowingt
-a) 8,25 Mechire-alid Analysis « Senior subject
-Ta Electronic Digetal Computation « Graduate Sud fest
-ec) 18,
+a) 8,25 Mechire-ald Analysis « Senior subject
+ot ig Electronic Digital Computation « Graduate subject
+c) 18,
 
 e) Thesis Research
-are specdfic subjects which demeénd CPC machine time. Unfore
-tunately, clients in these categories do HOT have Necessary
+are spefdfic subjects which demand CPC machine time. Unfore
+tunately, clients in these categories do HOT have necessary
 funds ts pay the §15 per hour machine charge.
 
 1t was recormended that the above subjects and clients
-be allowed use of the CPC free of charge subject to the
+be allowed use of the CFC free of charge subject to the
 following restrictions
 
-8) Approval for machine use is to be determined by
+a8) Approval for machine use is to be determined by
 recommendations received from the Machire Computation
-Committee and Fe 1 Verzuh,
+Committee and Fe 3 Verzuh,
 
 b) Educational Research of this type employing the CPC
-should preferably be performed at night whenever possible,
+should preferably be performed at night whenever possible.
 
 7.) Scheduling of CPC Machine Time
 
 A schedule of CPC machine usage will be prepared each
-Friday for the forthcoming week. The principal users of tre
-CPC (sectivn 4) will be given preferential treatment as far
-as TAYSHIFT hours are concerned, However, the z2ssignment of
+Friday for the forthcoming week. The principal ussrs of thre
+CPC (sectiun 4) will be given preferential treatment as fap
+as TAYEHIFT hours are concerned, However, the zssignment of
 
 
-Memorandum ( ( (5) \ October 26, 1653
+Memorandum ( ((® (=) \ October 26, 1653
 
-Eh Loe time after SPM will be performed with due regard to
+Rach1ge time after 5PM will be performed with due regard to
 item 6; end, in particular, an effort will be made to accome
-edate cther paying clients whe are nct regular customers,
-Furthermere, it must be understood that reguler customers are
-not to be allowed exclusive use ’» the 0
+edate other paying clients whe are nct regular customers,
+Furthermore, it must be understocd that reguler customers are
+not to be allowed exclusive use of the EPC
 
-8,) Operating Personnel
+8.) Operating Personnel
 
  
 
-Turing the past fiscal fry Ms C, Connors and F, B,
-Van Wyk were carried on the period, ef the Air Force Contract
+Turing the past fiscal parted, Me. Co, Connors and F, 8B,
+Van Wyk were carried on the period, of the Air Force Contract
 {DIC B-7019) and acted as coerdinators for CPC Self-Service
 
-operation, During the present fisesl period, provision wilt
+operation, During the present fisesl period, provision will
 
 be made for paying the salaries of two persons from the
-Cperations Resssrch Contract and these individuble vill ye
-trained te act as coordinators, vw
+Cperations Resssrch Contract and these individusls wil) pe
+trained te act as coordinators, ye
 
-However, She proposed mode of night shift o;eration
+However, the proposed mode of night shift o;eration
 
  ¢emands thet a competent individual with 1B background be
 
 hired to act as coordinator during the night shift. As yet,
-this man is pot available,
+this man ie pot available,
 
 9.) Self-Service Operational Methods
 
@@ -163,29 +161,29 @@ During the past 10 menths, the staff of the Office of
 Statistical Services have compiled a group of Five (8)
 different general purpose control pénels to permit more effec
 tive use of the CFC on & self-service basis, Correspondingly,
-five different cperational manualst S«10, S«11, S=«12Z, E13,
-and S~14 have been writlen and crinted for general elreulation,
+five different operational manualst S«10, S«11, S=12Z, E13,
+and S~14 have been writlen and .rinted for general elrculation,
 The avallability of these control panels and ssseciated
-Manuals is largely respensible for the current mode of effec
+Manuals is largely respensible for the current mode of effecw
 tive SELF-SERVICE CPC operation,
 
-Furthermore, & second set of Board Wo. I has been
-prepared to peranit use cof other CPC machines in the Boston
-area, if the need should arise,
+Furthermore, & second set of Board Wo. 1 has been
+prepared to pernlt use of other CPC machines in the Boston
+area, i! the need should arise.
 
 10} Furchase orders aud Billing Procedures
 
-8) Regular clients must submit purchase orders covering
+a) Regular clients must submit purchase orders covering
 intended CPC usage in an amount determined by the
-new rate of £185 per mechine hour,
+new rate of £15 per machine hour,
 
-b) Non-Regulér clients will submit purchase orders
-covering intended usage &t the same rate of $15 per
+b) Non-Regular cilents will submit purchase orders
+covering intended usage &t the same rate of $18 per
 hour, unless they fulfill the requirements of item €
 atove,
 
-¢) Bill will pe rendered each menth at 2 rate of $15 ver
-hear for each scheduled and/cr used hour of CPC time,
+¢) Bill will pe rendered each menth at & rate of $15 ver
+hour for each scheduled and/or used nour of CPC time,
 
 11) Notice of termination of use of CFC facility
 
@@ -196,22 +194,22 @@ Memorandum
 
         
 
-1D 2h October 28, 10s
-the IBM Corporatio on, Fe eTessar t the regular clients
-notify the Office of StatisTTcal Fer
+1D 2Y- October 28, 1058
+the IBM Corporatio orn, Is eTessar t the regular clients
+notify the Office of StatisTTeaT Ter
 
-cal Services in re an at is
+cai Services in ling at deast
 S months before they discontinue use of the CFC
 
  
 
 Fe BM, Versuh
-1 an
+1 S/26/5%
 
-Dh. alg eg ry Poppin Thu
-ie de WIT Condnl sale a a
-wo + CRC hin ie Add £25
+Dh. alg rn TBS Poprsntn Tha
+las Sv ie WIT Condtul Bosal. Plat 3
+oe + CPC dir oe Adee £25
 
-Se
+on
 
 

@@ -1,10 +1,10 @@
 MASSACHUSETTS INSTITUTE OF TECHNOLOGY
 
-Memo to.
-he Lo he preonel dhaft of The
+Memo to.=Z.
+Ji Lo he preondl draft of The
 
-= 4 we deen Sing oy 7
-a: ol ALR rd Ata Ts c platy JUL ye Aie on
+fr 4 we den Ari tar 7
+a ol ALR AD HAL a TT Cc mlety JUL zr Ae ot
 
 
 May 2, 1961
@@ -13,10 +13,10 @@ RPQ E 072901
 SPECIFICATIONS FOR A MULTYPROGRAMMING PACKAGE FOR THE 7090 SYSTEM
 
 This feature performs two (2) relatively independent functions
-for the 7030 which are required for efficient multiprogramning
+for the T0390 which are required for efficient multiprograuwing
 or time-sharing of the system. They are: sutomatic relocation
-and variable bounds memory protecticn., Both functions are
-provided without extending the execution time of any 7030
+and variable bounds memory protection. Both functions are
+provided without extending the execution time of any T7030
 instruction.
 
 1. AUTOMATIC RELOCATION
@@ -35,16 +35,16 @@ Two instructions are provided:
 
 Execution of this instruction will place bits 21-27
 of ¥ into the relocation register and enter the
-"relocation mode. The instruction is indexable and
+"relocation mode. The ingtruction is indexable and
 indirectly addressable. Relocation will not take
-piace untill the Instruction following the SRM has been
+place untll the Instruction following the SRM hag been
 executed. Also, no I/0 traps can occur between SRM and
 the instruction following. * Execution of any trap
 will take the CPU out of the relocation mode, If the
 CPU is in the relocation mode; a) all traps will inhibit
-1/0 traps until restored or enabled, aml b) execution
+1/0 traps until restored or enabled, aml Db) execution
 of the interval timer traps (RPQ E89340) will store a
-19 in position 17 of location 6.
+‘19 in position 17 of location 6.
 
 2) Store Relocation Indicators V
 
@@ -54,14 +54,14 @@ mode, a "1" will be stored in position "1" of ¥Y. The
 instruction is indexable and indirectly addressable.
 
 
-Ll
+"IT.
 
 VARIABLE BZUNDS MEMORY PROTECTION
-A = ES St V5 BUI BE Ere oe tele dinero
+EP CP — AT A ———— i  ————————
 
-Two preristers are provided, designated the Lower and
+Two reristers are provided, designated the Lower and
 
-Uppe- Registers, When in the protection mode, any ¢Py
+Upper Registers. When in the protection mode, any CPU
 
 c-°rated memory address, including "1" cycles, 1s compared
 
@@ -75,7 +75,7 @@ actual (unrelocated) value of the instruction counter
 in location 32 ang transferring control to location 33,
 The execution of the instruction causing the trap is
 blocked. In addition, execution of any trap will take
-the CPU out of both the protection ang relocation mode,
+the CPU out of both the protection and relocation mode,
 leaving the contents of the registers unchanged.
 
 Two instructions are provided:
@@ -87,9 +87,9 @@ Execution of this instruction will place bits 3-9
 and 21-27 of Y into the Upper and Lower register,
 respectively. In addition, the CPU is placed in the
 protection mode. The protect mode, however, does not
-become effective until after the instruction following
-Che SPM has been executed. In addition, no I/0 traps
-Hay occur between the SPM and the instruction following. *
+become effective until after the instruetion following
+the SPM has been executed. In addition, no I/0 traps
+may occur between the SPM and the instruction following. *
 The instruction is indexable and indirectly addressable.
 
 2) Store Protection Indicators Y
@@ -99,7 +99,7 @@ Execution of this instruction will place the contents
 of the Upper and Lower Registers in positions 3-9 and
 21-27 of ¥, respectively. If in the Protection Mode,
 
-a2 "1" will be stored in position 2 of ¥Y. The instruction
+a "1" will be stored in position 2 of ¥Y. The instruction
 is indexable and indirectly addressable.
 
 Trapp ng
@@ -112,16 +112,16 @@ Set Protect Mode
 Set Relocation Mode
 
 ENB, RCT, RDC, RICH, LCH. TEFn TRCn,
-RUN, SDN. “Alo Wer: BSF, BSR, ‘RW, °
+RUN, SDN: “Alo WEF: BSF, BSR, ‘RW, °
 ADS, WRS, 1-0 Sense, RTT, EOT. BOT,
 ECTM, ESNT, YOT, LTM.
 
 
-II. Trapping (continued)
+IX. Trapping (continued)
 
 - Transfer type instructions that violate the bounds as
 such are not trapped. However, as mentioned above, all
-"1" cycles are checked so a trap will occur on the first
+"1" cycles are checked So a trap will occur on the first
 instruction after a transfer that violates the bounds.
 
 A "1" is put into position 17 of location 32 when this

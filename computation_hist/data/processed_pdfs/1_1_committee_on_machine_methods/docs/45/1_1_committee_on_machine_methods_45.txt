@@ -2,9 +2,9 @@ COMMITTEE ON MACHINE METHODS OF COMPUTATION
 Minutes of the Sixth Meeting
 February 11, 1954
 
-Persons Present: C. S. Draper; J. W. Forrester, F. B. Hildebrand,
+Persons Present: C. S. Draper, J. W. Forrester, F. B. Hildebrand,
 J. A. Hrones, J. H. Laning, Jr., C. C. Lin,
-W. McKay, P. M. Morse, W. W., Seifert
+W. McKay, P. M. Morse, W. W. Seifert
 
 Morse brought up to Draper, McKay and Laning the gues-
 tion of the future of large computing machines at the Institute,
@@ -15,7 +15,7 @@ pensive machine installations by the Institute. Draper said that
 aeronautical engineers now had to be conversant with machine tech-
 niques, that airplane manufacturers were using large machines in
 increasing numbers and they expected the men they hire to know
-how To use them. The sort of training that was needed was about
+how to use them. The sort of training that was needed was about
 3 or 4 weeks for each of 50 undergraduates, during which time
 each student should have some chance to operate the machine him-
 self. Acquaintance with a digital machine was as necessary as
@@ -26,7 +26,7 @@ the departmental courses, in their opinion.
 
 Additicnal machine time was needed for graduate student
 and staff research. This would need as big a machine as could be
-made available. It was not clear, however, how big 2 machine
+made available. It was not clear, however, how big a machine
 would be needed for the undergraduate training, but they felt it
 should be at least as fast as the card program calculator and
 probably faster, to give the students the experience of programming
@@ -43,7 +43,7 @@ tion. The Committee approved this suggestion.
 The next meeting of the Committee will be at 3:00 p.m.
 
 on Wednesday, March 10.
-Nes : a
+os . i seri
 
 Chairman
 

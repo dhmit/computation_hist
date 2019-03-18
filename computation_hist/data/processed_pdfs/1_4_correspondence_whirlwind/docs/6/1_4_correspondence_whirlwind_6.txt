@@ -4,7 +4,7 @@ FROM:
 
 DATE:
 
-SUBJECT ¢
+SUBJECT 2
 
  
 
@@ -16,7 +16,7 @@ Professor P. M. Morse
 ¥. Ms Verzuh
 January 27, 1956
 
-ONR Usage of the WW1 Computer During the 6-Month Period
+ONR Usage of the WWL Computer During the 6-Month Period
 
 July 1, «= December 3l, 1958
 
@@ -26,50 +26,50 @@ July 1, «= December 3l, 1958
 
  
 
-ay LW SAAT AL dE,
+mayen ame EE
 
-s
+~
 
 In accordance with our budget discussions with Mr. Fs G. Weyl, ONR,
-ave prepared a 6-month summary of ONR usage of WWi. The attached
+ave prspared a 6-month summary of ONR usage of WWi. The attached
 
 Ih
-: 4-pege table contains a breakdown of WW1 usage on the project basis.
+: &-page table contains a breakdown of WW1 usage on the project basis.
 
-During this 6~-month interval, ONR's "free time"™ usage of Wl
+During this 6~-month interval, ONR's "free time" usage of Wl
 breaks down es follows:
 
  
 
-‘8, Machine Computetion Committee 24,708.63
-bo Solid State and Molecular Theory (Slater) 29,082,74
+‘8. Machine Computation Committee 24,708.63
+bo. Solid State and Molecular Theory (Slater) 29,082,74
 Co Miscellaneous projects 21,232,112
 
 875,083.49
 
 The total machine usage during this &Gmonth period for this type of
-work ig 18,006.6 minutes, or approximately 300 hours.
+work is 18,008.56 minutes, or approximately 300 hours.
 
-I think the informetion contaeinad in the following table, such as
-problem number, titls, programmer, W.Il.T. Depertment, supsrvisor,
-DIC contract number, ONR contrach., minutes used, and “free time" dollar
+I think the informetion conteinad in the following table, such as
+problem number, titls, programmer, W.Il.T. Depertment, supsrvisor, ;
+DIC contract number, ONR contrach., minutes used, snd “free time" dollar
 value, should give Mr. Weyl all ths information he needs for budget
-discussionse
+discussions.
 
-A consideration of the attached statistics reveals several ltems
+A consideration of the abtbached statistics reveals several ltems
 which are worthy of mention. - Specifically, some of the thesis research
 is quite expensive as illustrated in the case of Jack Uretsky's
-problem 236 in which he has spent $13,925 during a 6-month period. As
+problem 235 in which he has spent $13,925 during a 6-month period. AS
 - matter of fact, he has spent $18,132.70 on this problsm since
 November, 1954, Similarly, B. Campbell has spent $12,834. on problem 245
 during this 6=-month period, and $15,865.35 since November, 18564,
-Likewise, Mr. K. Bryan has spent $1,870 during the past six months and
+Likewise, Mr. K. Bryan has spent $1,870 during the pest six months and
 a total of $19,941.60 since November, 1954, I think The G-month expenditure.
-of Slater's group == $29,092.74 is a fair indication of the efforts of"
-his groupe Furthermore, his group has spent $47,944.25 since
+of Slater's group == $29,092.74 is a fair indication of the efforts of”
+his group. Furthermore, his group has spent $47,944.25 since |
 
 
-“a
+Dm
 
 November, 1954 on this group of problems. There are other problems
 which have been completed prior to June 30, 1954. All of this
@@ -77,7 +77,7 @@ indicates that we must exercise a tighter financial control on
 
 some of these projects since there must be some maximum smount we
 can properly spend on a thesiss I am looking forward Ho discussing
-this matter with you at our next meeting,
+this matter with you at our next meeting.
 
  
 
@@ -94,31 +94,31 @@ Miscellaneous Problems 5,095.3
 CRAND TOTAL 18,006.6
 
 TOTAL AMOUNT
-$21,708.63
+$211,708.63
 $29,092. Th
 
 $21,232,12
 
-$5,940.75
+$45,940.75
 
 
 fiL°260°62
 
-6L°T4ST
+6L°TSST
 89°912
 
 50°9€8°9
-89°LLece
+89°LL2%e
 61°T90°¢E
 
 2G°C0E 2
 
-8€°692°2
+S€°692°2
 2° Eon
-01° 20%
-LL°E6T
+01° 28%
+LL E6T
 £€°L60°¢E
-L6°€0g°e
+L6°€0g°2
 
 LL°€52
 enfep JBTTOd
@@ -129,238 +129,239 @@ enfep JBTTOd
 
  
 
-L°T86% SIVL0L
+L°T86% SIVLOL
 
-f°2l6 9990 THOS £999
+f°2lf 9990 THOS £999
 0°25 958L0 TIOSN £4989
-0°IN9’T 998.0 TIOGN £589
-9°91s 9S58L0 TI04N £4989
-L°YEL 998L0 TIOSH £589
-8°255 948.0 TIOSH €589
-9°iis 9580 TIOSH £4389
-€°0L6 9990 TI0GN £589
-Leh 9S98L0 TIOSH £489
-5°91 958L0 FIOSN £489
-€€hL 9580 TaoSN £589
-6°2L9 95040 TION £489
-6°09 9S8L0 TXOGH £589
-pes J0eajuo) WNO 9oBIqUO) OIC
+0°INO’T 998.0 TIOGN £589
+9°9Ms 958L0 TI04N £4989
+L°HEL 948L0 TIOSH £589
+8°2ss 948.0 TIOSH €589
+9°iis 958.0 TIOSH £989
+€°0L6 9990 TIOGN £589
+Loh 9S98L0 TIOSH £589
+a°9% 958.0 TIOSN £489
+€€hl 9580 TaOSN £589
+6°2L9 95040 TION £409
+6°09 9S8L0 FXOGH £589
+pes 30eajuo) WNO 9oBXqUO) OIC
 SO9NUTH
 
-G61 sequedeq TE « Ang T
+GG6T sequedey If « Ang T
 
  
 
-J9787Q
+J878TQ
 
-JIS9FLS
+JS9FLS
 
-J048LS
+JO048LS
 
-209818
+209878
 
-I898TS
+A898 S
 
-<S9BLS
+“SRLS
 
-J89ETS
+IBY
 
 20481
 
-4318S
+4378S
 
 £998TS
 
-J39818
+J3981S
 
-22981
+Z898TQ
 
-139818
-
-°L
-
-ue
-
-4 y
-
-ok
-
-p
-
-dv
-
-oh
-
-oa
+329918
 
 i
 
-wf
+°F
 
-4B
+*p
 
-#5
+=f
 
-“P
+°p
 
-TOSTAISANG
+i
 
-pueTacH °v
+pL
+
+t
+
+*T
+
+*f
+
+*f
+
+i
+
+*f
+
+IOSTAISANG
+
+PpueTacH °V
 (s9Tefyd)
 UoTTV 1
-(saTsiyd)
-%eqseell °Y
+(saTeiyd)
+
+%eqsell °Y
 (8018444)
-WIBIIES °‘H
+WIBIIBS ‘H
 
-(eoTsfu)
-o%eqdac) “4d
+(eoTefuy)
+oeqac) “J
 
-(so1efyg)
+(so1sfyg)
 
 ueuefeydy °H
-(sot84ug)
-uBEaRI] °Yy
-10380 °D
-(89784yd)
+(eotedug)
+uBEaRx] °y
+10380Y °D
+(80784yd)
 POCH °f
-(e078)
-9eq8a °Y
-(sotsdyd)
-a8qsef i
+(e018)
+99q8a *Y
+(sotsfyd)
+asqsef i
 (sot84d)
 uIagyes °H
-(soTehud)
+(sotehud)
 o3eqro) °f °d
 (soTsAy)
-uoswWmoP Hd
-IOTNOSH °V
+uosW[oP “Hd
+IOTNOOH °V
 
-SUMTER FOI]
+ISUNTRIZ0I]
 
 T8984X0 SPTIOTUD
-mresenod eIndut Dur ern]
+mTaseno] eIndut Dur ern]
 
 S3TNOSTOW puw
-SWO}Y UT 8299179 ATL TARZTJIBTOL
-SHOTAoIMT SABM 2TUOLY
-18384310
-umTHOIYS 03 perrdde €8 pouRel MJY
-H TI SODTIDAY
+SUO}Y UT 8399179 ATI TARZTJILTOL
+SHOTAOUMT SABM 2TUOLY
+T83843ID
+umTHOIYS 03 perrdde €8 pOURSW MJY
+H TI SOpPTIDAY
 
-OTIORBTIP JO STAT AJIaud
+OPHORBTIP JO STAT AJIsud
 
-STBAISUT
-JETNOSTOU JI02U0=083 JO UOTIBNTBAN
+STRAISUT
+JETNOSTOU JI02U0=083 JO UOTHBNTBAN
 
-SOPTJIDAY OTWO3BTP JO STaAS] AZasuy
-UCIT Peialusd
+SOPTJIPAY OTWOIBTP JO STaAS] AZasuy
+UCIT Peieluod
 =fpoq pus =90mJ 0% PITIEAR SB MJY
 
 STBI33UT OTWOAY
 
-goTnoSToUW OTWOLBTP
+goTnoSToW OTWOLBTP
 
-J0J S8TBIZONUT JO UOTABULIOISUB.ILY,
+J0J STBIZONUT JO UOTABULIOISUB.ILY,
 umtpos 04 petrdds
 
-88 DOyjaul SABA sued pelusilbdne uy
+88 DOyjaul SAB eusyd polusilbdne uy
 
 eqtudexd ur spusg L3xsUF
 
-fi TT) - » T ae Ta
-BATQIO0 JETNOSTOW USGS TSU00-FT 38
+fi Ta) - » T -r ch
+BATQI0 JRTNOSTOW USGS TSU0d-FT 38
 
  
 
-TTL
+STATL
 
-dnoxp ALIosy] JeTNOSTON B €382G PTIOS
+dnoxp Azosy] JeTnISTOW B 2382§ PTIOS
 
  
 
-HTS LIED THHOSNOdS
+HTS LIED THHOSNOdLS
 
 
-9 Ho. > ne 0% FIVIOL
+9 HOLL > ne 0% FIViOL
 
 eN
 oN
 Ww
 
-( so18Lu4) 1ToM oI8nbg TEPTOIS
-60°02) 0°ClT T0090 T2046) 4x o8I0d * foonsy ey emg
-a°02zl Xi 0090 TAOGH GT69 98I0{ “4 £83821 °p J0J SUOTIOUNJUSI TH » enTeAuad] HY
-801844) BNeTONN TEP rodat
+( so18fu4) TToM oI8nbg TEPTOIS
+60°02) 0°CLT T0090 T2046) 4x o8I0d * faon sy or TOT Bo tie BES to var
+a°0zl LT 0090 TAOGH GT69 98I0{ “4 £83821 °p JOJ SUOTIOUNJUSS TH » enTeAuad] HI
+s80T8ild) BNeTONN TEP rods
 
-2 (827
-aN" 06 L°T2 T0090 TLOGH G149 @8IoH *d Lqeq01p °
+Ti (827
+aN" 06 Ad ¥ / T0090 TLOGH G149 @8JoH *d L£qeq01p °
 ¢
 
 oO
-92 T0090 TI05H G169 ~~ ©8aoH °d L838
+92 T0090 TI05H G169 ~~ ©8aoH °d L938
 
-(80184d) 183 TIeudg JO ABIIy TEBTLEdQ ©
-k “ cr v @ = « 8 - - 2. Se x - : - - ~ v - - _»™
-60° GET T N"2Le [0090 TION SL69 810 °d UBTYSEIRITY “KW WOXIY BAAEBM JO JUTISN1BOS STATITTN N*{4
-(so184dgd
-i * Co O00 TOOOO0 T \ + Dah GL 3
-"6° g9t 97495 [0090 TXOGN G169 @8JIOK °d UPua], °vV usdAX( WCIF SUTISNIBIC NHOT
-(80T84Yd) fn Tsua( Sse IeeTonN
-gil a2 {ie T0090 FOG S169 es8JOl “d dxoqusnoy “HW JO UOTIBTNOTE) JUSLSTSUCI=F[ST NH{
-(s0T8iy]) [TSM oJenbg
-y 6c wheels aa 5. RE J SHEER BIL Th Se RE a
-He 626 £1 Gg TNE"E LO090 fJIOGN 9169 BJO °*d Asroaf) of IBPTOIaYAS 8 JOJ SONTRAUSS TY NE St
-ovr TShtre ©
-la har & ( "utouy ue a) |
-49° MoT °T L" 592 [0090 TJIOGN GL69 e8JOl °d 48001], °K uoTQURA3I] Aefieuny JL0208B2Y NOE
-(eo18fug)
-LLL" 2 £"L9S T0090 FAOGN S169 @8JOH °d TI03IBG 1 3UuTJI92280Q uocIjne(=tuoIine)  N
-(807184) gopdJdeus B® UOTIoUNJ 2ABM
-per 04 - - : = : i ARTE
-QZ" TL" 9°02 T0090 T- JOGN GL69 e8JON °d sTaqnl °v =0TIO3Y JO UOTIBGINGJIDJ UOTIELIBA
-JI020) °Y BTIPS PeJofeT=T3Tni SSABM
-QZ ONT [GE £0090 TION G169 esIo °d (ydoep BF Tos®D) OTUSTOS JOY Sean) UOTBIdSTI  N
+(801841d) 182 TIsydg JO ABIIy TEBTIEdQ ©
+i “ cr 2 LL « 8 - a i : - & . - o% y . - _
+60° GET T N"2Le [0090 TIOSN GL69 O8I0H °d UBTYSEARITY “NW WOXY BAAEBM JO JUTISN1BOS STATITTN Nd
+(so184igd
+td Co O00 TOOOO0 T § v WT > GL E
+6" got 9° 495 [0090 TXLOGN G169 @8JIOl °d UP ua], °V UsdAX( WCIF SUTISTIBIS NHOT
+(80T84Ud) fn Tsua( Sse IeeTonN
+HLL a {ie T0090 FOG S169 e8JOl “d dxoqusnoy “HW JO UOTIRTNOTE) JUSLSTSUCI=F[ST NH{
+(s0T8iy]) [TSM eJenbg
+y dcr rd ee "oN, - mr J a ean a eae at x Ly St ome
+He G26 £1 Gg TEE [0090 fJIOGN 9169 BJO °d Asroaf) Pp TBPTOIaYAS 8 JOJ SONTRAUSS TY NE St
+svt Ther ©
+la har © ( "uTouy ue a) |
+49° MoT °T L" 592 [0090 TJIOGHN GL69 08J0l °d 48001], °K uoTQURA3IJ Aefieuny JL0208B2Y NOE
+= (eo18fug)
+Le“LNL" 2 £ "LOS T0090 FAOGN S169 @8JO0H °d TI03IBG 1 3UTJI92280Q uocIjne(=tuoIine) N
+(80784) gopdJdeus ® UOTIoUNJ 2ABM
+etry €or a4 ” = : ~ : vi BOT ERIN Sel. GOTABTY
+92°" Q°N)2 T0090 T- JOGN GL69 e8JON °d sTaqnl °v =0 TOY JO UOTIBGINGJIDJ UOTIELIBA
+JI020 °Y BTPo} PeJofeT=T3Tni SSABM
+QZ ONT [GE £0090 TXOGN G169 esIo °d (ydoep BF Tos®D) OUSTOS J0Y SAIN) UOTBIASTI  N
 
-(soTedlyd)
+(soTedld)
 
-G6" aen 5°COT T0090 TJIOGN GT 69 e8JON “d ups, °v SOT oun @A®BM QUEOTIOY
+G6" aeN 5°C0OT TO090 TJIOGN GT 69 e8JON “d ups, °v SLOT oun @ABM QUEOTIOY
 
 "Aw aN
 
-et —— —— —————A i SS —t aS . .- © waz a Ft re ret TAT A daar, TFT IY SFRCSTTIALD
-ald Enero ow
+——————— ———— — » “ es aad PETIOLES TED IST
+"al Eyepegn ew tp
 
-enTepA Jay Tod PO) 9.01 QUOD MND 9.08. 0 107) | 0 NT I08TAJOdNG JUN I30I] STRATE
-PRU TH
-GGAT JOquedo(] TE wa Crap T @933 amo) UOTE ganduio) SUTUIER
+enTepA Jay Tod PO) 9.01 QUOD UND 2.08. X00 107) | 0 NT I08TAJOdNG JUN IIOI] STRATE
+JOO TH
+GGAT JOquede(] TE “ rap T @0337uIQ) UOTE 8anduio) SUTUIER
 
-§ HED re PTY a BE Brin eS Te We SET TD
+| ERD PEE TY es i i Ii
 
-HNL TIOTY0 QHUOSNOLS
+HINT LL TITY GHUOSNOLS
 
 |
 t
 |
 
-SL EE
+EC
 
-Cy
+EEE
 
 
-gt 2€2te
+gr 2€2te
 §9°90¢€
 29° 605
 g0°ct
 6'1°098
 
-gl neg at
+gl neEgcer
 €9°12s
 
-55°28S
+S5°28S
 
 89° 555
-61°25
+6°25
 
 96°0.8°T
 
@@ -368,18 +369,18 @@ gl neg at
 
 T0°S0T
 
-Sue] JBTLO0 DOSQi SSMU 3084qU0) UNO 39BI3U0) OI( JOSTAISANS
+SnTBA JBLLO0 DOSQi SSATNUTH 3084qU0) UNO 39B43U0) OI( JOSTAISANS
 
-€°560°¢
+€°560°S
 o°tl
 €°22L
 4°902
 T°080°¢
-6°492T
+6°42T
 8°6ET
 
-f1°ceT
-L°52t
+f1°¢CeT
+L°52T
 
 0° 6'fi
 
@@ -387,18 +388,18 @@ L°52t
 
 g°5¢
 
-(T00=920-uN)
+(T00=920=-uN)
 908.0 TXOGH
-( LoO=6£0~uN)
-T8680 TIO0GN
+( LoO=6£0=~uN)
+T88L0 TIOGN
 ( L00=6€0=-uK)
 T8820 TIOGN
 (T00=920~=uN)
-008.0 TMOSH
-(T00=920-uN)
-908.0 T-I0GN
+008.0 MOSH
+(T00=020-uN)
+908.0 TI08N
 
-{T00=280~4uN)
+{T00=280~4N)
 10820 TI0GN
 
 (L09=6T0=UN)
@@ -407,8 +408,8 @@ T8820 TIOGN
 { 820~T90=-uK)
 L68L0 TXogN
 
-(T00-920-4N)
-908.0 T-IO0SN
+(T00=920-4N)
+909.0 T-I0SN
 
 (20T=200-uN)
 £8820 TIOGN
@@ -416,12 +417,12 @@ L68L0 TXogN
 (€12=L60-UN)
 
 gLLO TIOGN
-(60€-STO=UN)
+(60€-GTO=UN)
 6€8L0 TIOGN
 
-CTU meTsTerT=s
+A —— a
 
-STIVIOL
+SIVIOL
 
 E79
 
@@ -429,7 +430,7 @@ T9
 
 £589
 
-69El
+65El
 9
 
 20l=9
@@ -438,114 +439,114 @@ T9
 
 1899
 
-GG6T Jequede( TE = Auf T
+GG6T Jequeds( TE = Ange T
 
-suagqoxd Tre uo LEO-gO=UN °ON eJueiozey 39BIjucy
+suagqoxd TT® uo LE0-giO=UN °ON eJusiojzey 39BIjucy
 
  
 
 (Tog xeerony)
 
-T8S0y 9 °*d  TIOMT®) °a
+T8S0Y 9 *d  TIOMPT®) °a
 
-(eo pBuAPOIPAH)
+(eo BuAPOIPAH)
 
-Yoddy ‘ag X0TAe} °Q
+yoddy ‘ag 074} °Q
 
 (43anTTeqeK)
 
 quesp °N UBID[UON °D
 
-(sotedyq)
+(soTedyq)
 
-sows °I °d HIE °D
+sows °% °d 3IETD °D
 
-JdoysTep °A (soradyd)
-yoequsei °H  Treqdus) °g
+JdoysTep °A (soradlyd)
+yoequsei °H  Treqduws) °g
 
-(£3o70x0028})
+(£3070x0028})
 
-UoYSnoH °H JTIOM °M
+UoUSnoH °H JTIOM °M
 
 (sorsiud)
 
 (o3somy *aTun)
 
-IBIS °P °P ‘usmmlixey °d
-(Surzssutdug
+I89BLS °P °P ‘usmmlizey °d
+(Surzssutduy
 
-Teo TUBYOO})
+Teo TUBYOO}K)
 
 eds) °f  Juool °% °J
-(sotTsdyd) Treqdue) °g
+(sotsdyd) Treqdue) °g
 Jdoxstep °A duprddy °J
 
-(4301 0300%0K)
+(43oT0300%0K)
 
 uoquSnoH °H usd °)
 (Sutaeautdug
 
-Y3ToTPeM °X Te0TUBY S|)
-oxTdeyg "Y = UOSYITIT °Y
+Y3TOTPBM °X Teo TUBY2S|)
+oxTdeyg "Y = UOSNITIA °V
 
 ("utdug “uey))
 
-STIIBH °7 Geol °d °V
+STIIBH ° Geol °d °V
 ZOUNIRIB OX
 
-JWIL JITHED CIYOSHOIS
+JWIL JI0HED CIYOSHOIS
 
 sydexdojoug
-Joqueys prot) Jo ersfieuy
+Joqueyy) prot) Jo srsfieuy
 
-we) 3uppeicusy aAsy Lisl frog
+we) 3uppeiousy easy Lisl frog
 
 1881g SEITUTRLS UT UOTIRULIOISUBL],
 OTSUINIBH SUF JO UOTYBTRII0)
 
 S38 Joholg JTg Jo sTsiysuy
 
-SUOT308Bey uoIINSN Jo Liocayy,
-oouesIoAN]
+SUOT308Bey uoIINSY Jo Liocayy,
+oouesIeAN]
 
-[BUCS TION PUB A4TOOTSA TROTIION
-JO SPTOTJ syq JO uoTysinduo)
+TBIUOSTIOH PUB L4TOOTSA TBROTIION
+JO SPIOTJ sy} JO uoTysinduo)
 
-STe3 Tq) JI9%BTg
+Sel Tq) 198g
 
-Te9y uesmjed sTevIdsqu] e3ueloxy
+Te9y uesnjed STvIdsquU] e3ueloxy
 
-8qny ® JO UOTIeY SoURIIUH
+8qny ® JO UOTIoY SouCIIuH
 ouyg UY MOT oTqriseexduio)
 
-fpeoqg ® Jo Jode] Liepuncy JeRUTWE]
+fpeoqg ® Jo Jed] Liepuncy JRUTWE]
 
-SUOTL080=8801) TEQUSUTISAXS WOXJ
-SIFTS ©88yd JO UOTIBUPLIa}L(
+SUOTL080=5801) TEeQUSUTISAXS WOXJ
+SIT HIS ©58yd JO UOTIBUPLIa}L(
 
-4A3oToq8urry) dFadoudy
+4A3o7oq8urry) SFadoudy
 
 SWESJ1S SBD
 £9 TOOTOA=YI TH ong ered]
 
-«Y3TH 0jUT uopoafur Je98M JO
-5300773 OWWBUA(] PUR OTWBRUAPOULISY],
+«YBTH 03UT uopoafur Jae JO
+8300773 Osu] puR OTWBRUAPOUIGY],
 
 SUTTd
 
-T®38H uTyy Jo setatedorg [eoTado
+T®38H UTyy Jo setgtedors [eoado
 
  
 
 OTT
 
-SWATQOIJ SNOSUBTTOOSTH
+SWATQOJIJ SNOSUBTTOOSTH
 
  
 
 HEZE
 NTT
-1492
+na9l2
 NELZ
 
 NSS
@@ -561,6 +562,6 @@ NSST
 
 NOZL
 
-NT10T
+NOT
 
 

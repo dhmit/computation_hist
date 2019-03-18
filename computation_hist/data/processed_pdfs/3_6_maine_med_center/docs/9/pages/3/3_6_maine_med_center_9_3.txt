@@ -1,510 +1,266 @@
-—-———""’ﬁ
-
 EDITORIAL
 
-23-1
+234
+nourishment rises ceaselessly into the branches
+and leaves of present day labors.
 
-ceaselessly into the branches
+Haxs H. HECHT
 
-ent day labors.
-HA. H. HECH'I‘
+APPENDIX
 
- 
-
-nourishment r'
-and leaves of pr ..
-
- 
-
- 
-
-APrnanx
-
-Excerpt from Silvanus 1’. Thompson: The Life
-of William Thomson, Baron Kelvin of L
-London, Mai-.\Iillan, 1910, vol. 1, p. 151» .
-
+Excerpt from Silvanus P. Thompson: The L_nfe
+of William Thomson, Baron Kelvin of L:u;gf.
+London, MacMillan, 1910, vol. 1, p. 15]—1:)():
 The doctrine of electric images, several times
-
-mentioned, seems to have been in Thomson’s mind
+mentioned, seems to have been in T homson’s {11111(1
 before he left Cambridge; but it developed itself
-with surpr' ing rapidity during his sojourn in Pai ,
-and shortlv after his return to Cambridge he coin-
-lllllllit‘utedi it to Liouville in three letters, the sub-
-stance of which was printed in the Journal de
-mathematiqiies in October 18-15 and June 18th.
-This method, which even now is not adequately
-appreciated, is so elegant, and so fruitful in its
+with surprising rapidity during his sojo.urn in Paris,
+and shortly after his return to Cambridge he com-
+municated it to Liouville in three letters, the sub-
+stance of which was printed in the Journul’(l'e
+mathematiques in October 1845 and June 1846.
+This method, which even now is not .:u‘lquu.te?ly
+appreciated, is so elegant, and so frmtfpl in its
 applications, that it merits some attention from
 the scientific reader. It furnishes a most cogent
 illustration of the value of that which has been
-aptly termed the cro -fertilization of the sciences,
-the value of introduc g into one branch of science
-the concepts that hay ‘ 'isen in another. To explain
-the concept of electi images, it may he well to
-begin with a concrete and familiar c .e of optical
-images. Every one knows that if a candle is placed
-in front of an ordinary plane inir the image of
-it, Seen by looking into the mirror, is, as it were,
-another candle of equal size and hrightn with the
-first. 'I uated apparently exactly as far behind the
-ini or s the ieal candle is in front. In fact, if the
-mirror were to he removed from its frame, and a
+aptly termed the cross-fertilization of the S(rie.nces,
+the value of introducing into one branch of science
+the concepts that have arisen in another. To explain
+the concept of electric images, it may be \\'e]l. to
+begin with a concrete and familiar case of optical
+images. Every one knows that if a candle 1s placed
+in front of an ordinary plane mirror, the image of
+it, seen by looking into the mirror, is, as it were,
+another candle of equal size and brightness with the
+first, situated apparently exactly as far behind the
+mirror as the real candle is in front. In fact, if the
+mirror were to be removed from its frame, and a
 second candle set in the position where the image
-prev " appeared, the amount of illumination
-i'eccii ed at any given point in front of the mirror
+previously appeared, the amount of illumination
+received at any given point in front of the mirror
 from the two candles would be identical with the
 amount received from the one candle and its image.
 The limitations of the frame would prevent the
-image, or the substituted candle from be g seen
-from ev ' direction, If the ii >r be conceived to
-he indeﬁnitely evtenderl, and i frame to he iii-
-finitely wide and high, these limi ations would be
+image, or the substituted candle, from being seen
+from every direction. If the mirror be conceived to
+be indefinitely extended, and its frame to be in-
+finitely wide and high, these limitations would be
 removed. If, instead of a plane mirror, a spherical
-mirror or silver half were substituted, the image of
-a candle I iced in front will appear to he a smaller
-candle situated now within the spherical surface,
+mirror or silver ball were substituted, the image of
+a candle placed in front will appear to be a smaller
+andle situated now within the spherical surface,
 and at a distance behind the silvered face not equal
-to the distance of the candle in front, but mar-er to
+to the distance of the candle in front, but nearer to
 the face. The apparent size and distance of this
-image can be calculated by easy geometrical “110;;
-and again it will he true that if the mirror be re
+image can be calculated by easy geometrical rules:
+and again it will be true that if the mirror be re-
 moved, and there be substituted an equivalent
-smaller candle in the place where the image up.
-pc. 'ed, the illumination at any point in front will
-remain unaltered by such sul itution.
-
-.\‘ow, consider a small in. ilated conducting
-
+smaller candle in the place where the Image ap-
+peared, the illumination at any point in front will
+remain unaltered by such substitution.
+Now, consider a small insulated conducting
 body, such as a small metal sphere, charged with
 
-  
-
- 
-
-.) i.
-
-   
-
-     
-
-   
-
- 
-
-   
-
- 
-
- 
-
- 
-
- 
-
-   
-
- 
-  
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-positive electricity. If placed in the middle of a
-large empty room it‘will proJcct its influence into
-tie space around it in radial straight lines, acting
-as though the electric charge upon it were concen.
+positive electricity. If .plzu'efl' in the middle of a
+Jarge empty room lt.\\'lll ]).l’().](;‘(‘tv fts 111ﬁuonce ll.lt.o
+the space around it in radial Stl‘:llg!lt lines, acting
+as though the electric charge upon 1t were concen-
 trated at its centre. Now suppose a very large sheet
-upper, or some other good conductor of elec.
-tr' , to be pl (1 at the Side, of the charged
-sphoit, at a short 1 race from i It can he Shown
-hat, for all points of the space in front of this
-sheet, the sheet acts as an electric inir ; the
-effects in this region being the same as if, i the
-ab nce of the sheet, there had been a second
-2d sphere placed exactly as far behind the
-s met as the actual sphere in front of it. But there
-is this curious pccllliai ' that in order to procure
-an equivalent effect this image splici-e’ would have
-to he charged with an equal quantity of ncgolz'cc
-eectricity. The ‘image’ of 'i positive charge is a
-negative one, and vice ve a. If we suppose the
-siect removed and the ‘image' replaced by a small
-:ctlial sphere. negatively electrified to an equal
-teg‘rce, the ' ace between and around the spheres
-will be trave ed by a system of curved lines of
-eectric force emanating from one and terminating
+of copper, or some other g()o(l. (~nn<l.uvtm' of elec-
+tricity, to be placed at the mfle of the charged
+sphere at a short distance from 1t. 'It an be shown
+that, for all points of the space in front of this
+sheet, the sheet acts as an electric mirror; the
+offects in this region being the same as if, in the
+absence of the sheet, there had been a second
+charged sphere placed exactly as far behind the
+sheet as the actual sphere is in front of it. But there
+is this curious peculiarity, that in order to procure
+an equivalent effect this ‘image spher_'e’ would have
+to be charged with an equal quantity of negative
+electricity. The ‘image’ of a positive charge is a
+negut‘i\'eyone, and vice versa. If we suppose the
+sheet removed and the ‘image’ replaced by a small
+actual sphere, negatively electrified to an equal
+degree, the space between and around the spheres
+will be traversed by a system of curved lines of
+electric force emanating from one and terminating
 at the other. If we remove the second sphere and
-replace the sheet, the lines of fort . in front, emanat—
-ing from the positive sphere, will still cur\ round
-exactly as before until the reach the sheet. The
-s ieet will, in fact, receive (by induction) a negative
-(
-
-s
-
-t
-
-of
-
- 
-
- 
-      
-
-   
-
- 
-
- 
- 
-
- 
-
-    
-
-   
-
- 
-
- 
-
- 
-
-   
-
- 
-
- 
-
- 
-  
-
- 
-
-,. ; and this charge will be distributed over its
-u ice at ording to a certain law, the density of
-ie charge being strongest at the point of the
+replace the sheet, the lines of force in front, emanat-
+ing from the positive sphere, will still curve round
+exactly as before until they reach the sheet. The
+sheet will, in fact, receive (by induction) a negative
+charge: and this charge will be distributed over its
+surface according to a certain law, the density of
+the charge being strongest at the point of the
 surface nearest to the sphere, and weaker over the
-surface outw: ds from this center. This use illus-
-trates not merely the conception of electi images,
+surface outwards from this center. This case illus-
+trates not merely the conception of electric images,
 but also the much more refined conception which
 Thomson had arrived at in 1842 (and Green before
 him) of the replacing of an electrified body or point
 by an electric charge distributed over a surface in
-such a w s to he in equilibrium. If, to take
-another c so, the pos ive electric point charge is
-placed in front of a argc uninsulateil metal sphere.
+such a way as to be in equilibrium. If, to take
+another case, the positive electric point charge 1s
+placed in front of a large uninsulated metal sphere,
 to act as a spherical mirror, there will again be an
-electric ‘iinage’ formed within the sphere, and this
+electric ‘image’ formed within the sphere, and this
 ‘image’ will be negative; but its distance behind
-the reflectim surface will not be equal to the dis—
+the reflective surface will not be equal to the dis-
 tance of the electric ‘object’ in front; and though
 simple rules can be given for finding the position
-and magnitude of the electric ‘iinage’, thcsc rul :
+and magnitude of the electric ‘image’, these rules
 differ from those for the finding of the conjugate
-images in opt' .\n c cal image is. then, an
-cloctrificd point, or _stem of points, on one side
+images in optics. An electrical image is, then, an
+electrified point, or system of points, on one side
 of a surface, which would produce on the other
-side of that su ' e the same electii if action which
-the actual electi ication of that surface really does
-produce. The method of images can bc extended to
-many applications. For instance, if an elcctrificd
-point i~ situated betwecn two parallcl conducting
-sheets, not only will it generate a prim: 'y ‘image'
+side of that surface the same electiical action which
+the actual electrification of that surface really does
+produce. The method of images can be extended to
+many applications. For instance, if an electrified
+point is situated between two parallel conducting
+sheets, not only will it generate a primary ‘image’
 
  
 
- 
+EDITORTAT,
 
-   
-   
-
-   
-
- 
-
-   
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-EDITORIAL
-
-in each sheet, but each primary iin
-a set'mitlul image of if 1f iIi the
-these will generate tor y images,
-inﬁnite row, exactly as a luminous
-tween two mutually facing iniiror' The re" lt'
-eleﬂtl l'stributions can be calculated hsu lug
-Superposition of the distributions equivaleht tife
-the ‘ CSsivc, members of the s ' i 0
-9193 ed point is placed anywhere between t‘
-indefinitely extended planes that meet one an: th-
-like the two leaves of a sheet of paper there) i'eli
-be a number of images symmetrical i itu'tte‘ll'f
-the angle botwcon the planes is 90° or 60° in l 1.
-integral fraction of 3(i(1°. This, ' Thomson poin‘ltml
-out. is the, analogue of the optical tov called tlm
-krleidoacotc. 1“urthcr, if two electrified sober}e
-that are not small are brought near to one a'niotheerS
-reacting on one another’s ch: go so that the dis:
-ti'ihution of charges over the .pheres is distorted
-out of uniformity, the distribution of the Chartres
-and the resulting force of attraction or repulsion
-can be calculated by considering the whole effect
-as a succession of images that are superposed on
+in each sheet, but each primary img
+o secondary 1mage of itself in the other sheet
+these will generate tertiary images, and so m; ; e
+infinite row, exactly as a luminouyg poinf :
+tween two mutually facing mirrors.
+electric distributions can he ‘aleulated by th
+superpositiqn of the distributions equi(vale‘nt te
+the successive members of the series. Again, if :
+electrified pomt 1s placed anywhere betwee’n ta'n
+indefinitely C.Tten(le(l planes that meet one anoﬂ:::-
+like the two leaves of a sheet of paper o
+be a number of images s‘\’mmetr}(-:lll)l?’sﬁ;}:;ie:lw‘]:!
+the angie between the planes is 90° op go° ovr .ml.
+integral fraction of 360°. This, ag Thomson poin‘te.‘l
+out, is the analogue of the optical toy called th(
+keleidoscope. Further, if two electrif;ie(;lr sn)[v,e,-eg
+that are not small are brought near to one an‘()thel:
+reacting on one another’s charges so that the (li@j
+tribution of charges over the spheres is (l,’stort(;(l
+out of uniformity, the distribution of the char"és
+and the resulting force of attraction or l'epuls;(m
+can be calculated by considering the whole efi‘ect
+as a succession of images that are superpose oix
 one another.
 
-age will generate
-other sheet, and
-and so on in an
-point does he
+ge will genergyte
 
-   
-
- 
-
- 
- 
-
-   
-
-'ies. .\guin, if an
-
- 
-
- 
-
-     
+an
+. does be-
+The l'esulting
 
 REFERENCES
 
- 
+LPranck, M.: Ueber die Potentialdifferenz
+zwischen zwei verdiinnten Losungen biniirer
+Electrolyte. Ann. d. Phys. u. Chem., Neue
+Folge, 40: 561, 1890.
 
-‘PLANUK, .\f.: Iieher die Potentialdifterenz
-zwischen zwei \"ei'rliiiiiit<>ii Lo'sungen biiiarer
-Electrolyte. Ami. d. 1’1 u. (‘liem., Veiie
-Folge, 40: 5m, 1890.
+*HeLmuOLTZ, vON H.: Ueber einige Gesetze
+der Vertheilung elektrischer Strome in Kér-
+perlichen Leitern, mit Anwendung auf die
+thier-elektrischen Versuche. Ann. d. Phys. u.
+Chem. 89: 211, 353, 1853.
 
-2HiaLiiHoi/i‘., vox 11.: Fiber einige Gesetze
-der Vertheihing eleli ier Strome in Kor-
-perlichen Leitern, init .\nwendung auf die
-thierrelelttrischen \ ucho. .\nn. d. Phys. u.
-Chem 89: 211, :.i._ is a. '
+‘Taomson, W. (Lord Kelvin): Reprints of
+Papers on Electrostatics and Magnetism.
+Ed. 2, London, MacMillan, 1884.
 
-“Ti-ionsux, \\'. (Lord Kel n): Reprints of
-Papers on Electrostatits and Magnetism.
-,Ed. 2, London, .\IacIIillaii, 1834.
+*WiLson, F. N., Jounsron, F. D., RosENBAUM,
+F. F., Eruanger, H. Kossmann, C. E,
+Hecnr, H. H., Corrim, N., pE OLIVEIRA, M.,
+Scarst, R. Barkwee, P. S.: The precordial
+electrocardiogram. Am. Heart J. 27: 19, 1944.
 
-‘Wnsov, l". N, Jonxs'ros', 11‘. 1)., [to men,
-F. ., l‘lltl._»\NGl:}lt, H, Kosswn. ‘, C 13.,
-linear, ll. H., (‘o'rinii, N DE ()LIVl-IIHA, \I.,
-Sca 1t. Bwiiiti‘r, P. : The pr ordiiil
-
-. electi'orariliogiam. .\ni. Heart J. 27: it], 1944,
-
-°BA\'LEY, It. 11.: On certain applications of
-modern oloctrot.irdiographic theory to the
+*BayLey, R. H.: On certain applications of
+modern electrocardiographic theory to the
 interpretation of electrocardiograms which
-indicate myocardial disoasc. :\m. Heart J.
+indicate myocardial disease. Am. Heart g
+26: 769, 1943
 
-769, 19-13.
-
-.N. .l,: lClelttrobiologic. Die W ‘en—
-
-schaft .\‘annnluiig naturu ,nschafthclier
-
- 
-
-   
-
-  
-
- 
-
-  
- 
- 
- 
-
- 
-   
-
- 
-
-     
-
- 
-  
-       
-
- 
+*BERNSTREIN, J.- [Slektrobiologie. Die Wissen-
+schaft.  Sammlung naturwissenschaftlicher
 
 235
+und mat} .
+athematischer \ ;
+Braunschwaie 1 - onographien, 2
+T W ()OD::’::‘I}\\I?IL: Vieweg ang Son, 19i§3Heft‘°
+PEERSON ’ I.{‘»\.’ ECHT, H. H. anp (,-'HR-ISTO—
+action  potenti 1‘. Membrane resting an
+fibers of the fl{LS of single cardiac muscle
+> 1'00' \'ent " ' i ‘. )
+; 164: 307 1951 ticle. Am. J. Physiol.
+"Drarer, M, {
+resting and g
+an ntracelly]:
+4, 1951,
 
-I _ .
-Iigili.:llui:]i;i(f:llli‘ein.atis‘clierMonograpliien 9-1 Heft
-A V l .0] , v- . l t I - I I
-‘“(NJ1)HYJ1€\',L.’T\. film: and Son. 1912-
+" Horrmay ) and Q :
+potelx-:thi‘zl l?-{);‘ .i;]ntnd'thucxu.\'(;: E. E.: Cellular
+I Phcs A mammalian hearts, Am,
 
-mmwm R 7‘ ‘, H. H. .\Nn (‘iinis'i'o-
-. . . Membrane resting and
+ome ) 31(;’. 170: 357, 1952.
 
-:1 ion ' . ‘
-potentials of Single cardiac muscle
+. \IO;‘T’ :1;] H., EYR{NG, H. axp Porrssar,
+pe \Tle. Kinetic Basis of Molecular
+chaptﬁ-. lll,e“ York, Wiley and Sons, 1954,
 
-fibers of the f' r '
-164:307, 195110;; \Ontl'lcle. .\ni. J. Physio].
+1 WILSON v
+‘;ll"i:‘,o.\f%eﬁl. l\of .-\;? B:A..\'Lla\", R.' H.: The elec-
+e Q)hm;'- ;3.\( entnc.(hp()]e n a ho-
 
-“ Damian, .\f. H.
+s :l', Tical conducting medium. Cip-
 
- 
+. \[C;‘(‘l ;IOll 1: 84, 1950.
 
-  
+. :fjarP(Jlli‘J(,)lel{].)ll.i&oN Dl I OlH\NO\’ F'-D': Ele("-t -
+rclographic  leads. Circulation 8: 534,
 
-AND Wen)
+x “Ili):)(i\} QF:‘ 21.\'}:), {9[68, 1‘954. ;
 
-  
- 
+PL% b Ll ¢ ‘:&CLI?()D, A. G. AND BARKER,
 
-. . . 4 8.: (I ‘ '.
-
-xile‘stiiililgtzl:iirlll action poten l recorileduiiiiffi
-' ce u: ' ‘ '
-
-74,1951‘ n electiode. J. Physio]. 115:
-
-n
-Herman, B. F. and SUCKLiNo, E. E. Cellular
-
-potentia: ’ - -
-m J, Pli)’siiil.ni7ii];tm;3t7"iii-133mm" hearts. .\ni.
-. , . .
-
-Joif, N1 1“ H-i EWING, II. \‘n l’oLiss n
-A,. .1.. The Kinetic B i
-Biology. New York “ﬁlasis of V.\Iolecul
-chapter 11. , my and boast
-
-‘1 1‘ Iii-NUS, F. N. AND BAYL
-for field of an excentr
-mogenous spherical con
-
-)2 culation 1: 84, 1950.
-
-MCFl-ilf, R. aND JoHV‘s‘roN, F. 1).: Electro
-caidiograplnc lea Circulation 8‘ 554
-1953; 9: 255, 868, 1954. ' '
-
-‘3 ll'iLsON, F. N., M
-P. S; The (I
-and of injury displayed by he:
-and other excitable ’ i
-Press, Univeisity of Mic
+- S.: The distribution of currents of action
+and of injury displayed by heart muscle
+and other excitable tissues. Univ. ,\Ii_vh.
+Press, University of Michigan Studies. Scien-
 tific Series 10: 1933.
 
-“CRANK, \V. H. .\ND new, 11.: A stlldv of
-the electric field "ounding active heart
+“Cram, W. H. axp CanrIELD, R.: A study of
+the electric field surrounding active heart
 muscle. Heart 14: 71, 1927.
 
-..0N, C. V.: The effectof the ﬁnite bound: v
-on potential distributions in volume my
-ductois. Circulation Research 3: 236, I” ,
+' NELsoN, C. V.: The effect of the finite boundary
+on potential distributions in volume con-
+ductors. Circulation Research 3: 236, 1955.
 
-1“ Bou'I'Hiiovn, .I. it, Cur: iv, E. C. .\Nl) hIA HE,
-R.: .\n electrolytic tank for the ineasiircment
-of stcad' fate response, t' 'iellt respon
-and allie’l properties of iietwoi s
-llng. 96: l 3, 19451.
+1 Booruroyp, A. R., CHERRY, E. C. AND MAaKAR,
+R.: An electrolytic tank for the measurement
+of steady-state response, transient response,
+and allied properties of networks. J. Inst. Elec.
+Eng. 96: 163, 1949.
 
-‘7 I’m "r, R. D. AND Vitaxcn, 11.: The iinine‘li-
-ate electrocanIiographi effects of ril't‘ullh
+17 Prurrt, R. D. AND VALENCIA, F.: The immedi-
+ate electrocardiographic effects of circum-
+scribed myocardial injuries. Am. Heart J., 32:
+977, 1946.
 
-'hcil myocardial injuries. .\iu, Heart J., 32:
+18 Hreks, W. M.: On the motion of two spheres in
+a fluid. Tr. Roy. Soc. 171: 455, 1880.
 
-, 194a
-
-\. \f,: 0n the motion of two splicrcs in
-
-a ﬂuid. Tr. Ro Soc, 171: " INSO.
-
-sov, R,L.. lll)(i1“|tllt. \' ginibus l’uer—
-
- 
-
- 
-
-   
-
- 
-
-   
-
-I’, R. II.: The elec-
-ic dipole in a hoe
-ducting medium. (‘ir-
-
- 
-  
-     
-
-t muscle
-I'nii .\1i i,
-
-gun Studi
-
- 
-
-   
-
- 
-
-    
-
-my
-
- 
-
-   
-
-      
-
-. J. Inst. liloc,
-
- 
-
- 
-
- 
-  
-
- 
-
-    
-
- 
-
-‘0 Si
-is'pic and other l‘apcis. New York, Scrihiicr,
+19 SrevENSoON, R. L.: El Dorado. Virginibus Puer-
+isque and other Papers. New York, Scribner,
 1907, p. 170.
+
+t..‘\ND Wemman, §.. Cardiac
+.mn potentials recorded with
+ir electrode, J Physiol. 115:

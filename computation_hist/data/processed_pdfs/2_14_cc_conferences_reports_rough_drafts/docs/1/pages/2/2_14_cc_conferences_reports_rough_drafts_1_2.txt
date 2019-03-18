@@ -1,0 +1,42 @@
+THE EDUCATIONAL CONCEPT OF COMPUTERS AS A NEW TOOL
+
+Introduction
+
+Each year there is an increasingly large number of analog and
+digital computers availlable for general use. Since these computers command
+the attention of more pecple each year, the need for introducing the
+principles of computers as & new tcool in Science and Engineering curricula
+is correspondingly increased. However, the best methed for acquainting the
+student with this new teol is not as evident.
+
+- Eech of us has learned at some time or other that the slide rule is
+a very useful aid to the college student. As & matter of fact, some people
+still consider & slide rule to be an indispensible aid in their work. I am
+certain that all of us were pleased to learn how much more rapidly and accu-
+rately we could effect multiplication, division and transcendemtal operations
+with a slide rule. The following question naturally arises: When should we
+teach students the use of the slide rule? Obviously, if it is too soom in
+their educational training, they may never learrn to multiply or divide. Based
+on your individual personal experience, each of you can answsr the question
+concerning the slide rule.
+
+The next question which naturally arises is: - When and how should
+we teach students the principles of computers? Again, each of you has an
+answver to this guestion. cgrtainly. all the answers will not be the same --
+although they may be equally correct. M.I.T.'s answer to this question is
+illustrated in Figure 1 which liste the graduate subjects offered im the field
+of automatic computation.
+
+The purpose of this paper is not to describe the entire package of
+subjects, but rather, to discuss the undergraduate subject: MACHINE-AIDED
+ANALYSIS. In this subject a determined effort is made to portray computers
+in their true light -- not as mythical brains, but as an effective tool to be
+
+used by the undergraduste in his particular field both in school and leter in
+industry.
+
+Need for Undergraduate Computer Training
+The first packege of graduaste subjects in computation was offered
+
+at M.I.T. in 1847. Although these subjects were most effective, it soon
+became apparent that they hed one general defect: they were graduate subjects

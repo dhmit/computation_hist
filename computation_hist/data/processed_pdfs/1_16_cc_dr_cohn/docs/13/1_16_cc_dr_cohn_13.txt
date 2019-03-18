@@ -12,43 +12,43 @@ Reprinted from
 Canadian Journal of Mathematics
 
 
-Jaze] /
-(Hea neats ld
-AAA Cal -
-a AAR OOS |
-Ja ratera leis KIA ATT vA STABLE LATT
-A AaTle yO fh AACS “ "y Wo &
+Jase] /
+(Hear a ts ld
+AAA vag -
+a TART AIRY faTar aviv |
+RANI HMMM vA STABLE LATT
+Ale yO oh AIA “ "ye AW &
 AR ICES
-A 2's A ROR TICATE SAYA a vn TAM, eNO
-Natalee )a 1 . Saver AOA TETA rw A ATI is
-AER EE HARVEY COHN
-ries eee
-inti RS
-‘ 9 oleh Ww sy elo \ ARTS ) . 3 .
-pRsoaaatananI 1. Introduction. The, consideration of relative extrema to correspond
-n SET rar wtp AEA 3 * 3 : Sr. : 3 :
-iA to the absolute extremum which is the critical lattice has been going on for some
-v re tera Thos th rr MANN . : — et er : - 3 =
-BRRARRARAAANIR time. As far back as 1873, Korkine and Zolotareff [6] worked with the ellipsoid
-AOR HIG ARNI 2 . . 2 z 2
-(hrs in hyperspace (i.e., with quadratic forms), and later Minkowski [8] worked
+aA 2's HMMA MI SNS
+Natalee /a P a Saved ARTETA Tv AAS is
+AE EE HARVEY COHN
+rie
+iat  AIS
+‘ I oe OY AY ely A AO ) . ¥ .
+ARARATATI 1. Introduction. The, consideration of relative extrema to correspond
+n RAIMI AA 3 * 4 . or : : :
+AN to the absolute extremum which is the critical lattice has been going on for some
+v re raha ty rr MAR . : rs Z ~~ ona . - 2 2
+rT time. As far back as 1873, Korkine and Zolotareff [6] worked with the ellipsoid
+ASI MIO ARNI a . . . : : :
+fri ITs in hyperspace (i.e., with quadratic forms), and later Minkowski [8] worked
 Ann, vith a general convex body in two or three dimensions. They showed how to find
-Ae BAA Pe : 4 : :
-TAA critical lattices by selection from among a finite number of relative extrema.
-HMB #y 0/0 pd . 170 ico . .
-IARI | They were aided by the long-recognized premise that only a finite number of
-M5 110s, mele li oh ivy : ° » SaaS x .
-ror el A lattice points can enter into consideration [1] when one deals with lattices
-i! je T0183 o hv by . Toe 2d
-A Be “admissible to convex bodies.
-a eth EAA TELA | In the realm of the more general star body, such as that involved in the
-a sis |
+Ane SAAT HE : “ , : :
+ee A critical lattices by selection from among a finite number of relative extrema.
+pater y #0 od IAD : 170 1co - .
+ante | They were aided by the long-recognized premise that only a finite number of
+MH tie lh mele li A My ; . . aa 5 .
+HRA ORIGII lattice points can enter into consideration [1] when one deals with lattices
+‘vl ps Jade oh by . toc
+SA “admissible to convex bodies.
+eth Et nr EL oA | In the realm of the more general star body, such as that involved in the
+a oie |
 
-tharst ely!
+tater ely!
 
-ABRHIIIAS AIA product of homogeneous forms, there is no finiteness principle of equal scope.
+Ae tA Br nN product of homogeneous forms, there is no finiteness principle of equal scope.
 
-ata | Mahler [7] has, however, developed- a local property for the critical lattices
+A | Mahler [7] has, however, developed: a local property for the critical lattices
 established by Davenport [3; 4], by using “bounded reducibility.”
 
 We shall develop a similar property which we shall call stability and we shall
@@ -63,24 +63,24 @@ which can be considerably simplified by the use of units in the Dedekind order [
 
  
 
-ey
+es
 
-Fo
-Fo
+F554
+ot
 
 3
 be
-as
+one
 
-to
+bt 2
 22)
-pa
-Rall
+pe
+eT
 
--cr
-[os
+-c
+Te
 
-ot +
+5 +
 
 2. Critical lattices. A lattice ¥, in n-space, 1s determined by a n X n
 matrix (a) of (say) positive determinant | a; Al, the points of the lattice being
@@ -88,15 +88,15 @@ denoted by the vectors Xx with components
 
  
 
-(2.1) Xt = > am; (£=,2 ccm)
+(2.1) X= d am, G=1,2,...,M)
 Jj=1
 
 corresponding to the integral n-tuple (m,) = (my, ...,m,). A real continuously
 differentiable function, ¢ (x), homogeneous of positive degree k in its variables,
-is defined in the space. The locus |¢| = 1 is the boundary of the star body
+is defined in the space. The locus |¢| — 1 is the boundary of the star body
 under consideration. Then we consider the function defined by
 
-(2.2) F(m;R) = ¢(x)/|lasyl|"™
+2.2) F(m;R) = ¢(x)/|lasyl|"™
 F
 
 is defined over (m,), excluding the origin of
@@ -110,21 +110,21 @@ For each lattice €, an infimum of
  
    
 
-. le Ee ag m M,. Now if a
-hit course. Call it M(R). Let the values M(¥) have a finite supremu - * dy
-wit tala ) ta . - - . : - } S Y; ns > e ritica sled 1CE.
-isa isredi fins STII lattice 2, exists for which M (Rs) = M,, then €, is called a ¢ :
+. a eT m M,. Now if a
+ras course. Call it M(R). Let the values M(¥) have a finite supremu : . Hd
+wit tala ) ta . - . . - : . Y; AY 9 : ritica ri 1CE.
+aaa iaredi fs SIL lattice €, exists for which M (Rs) = M,, then €, is called a ¢ ;
 
-23) M(@®) = inf |F(m, 9) (mle
+23) M@®) = inf |F(m, 9) (ny #0
 
 —
 
  
 
-. x ew 15 1052. Presented to the
-Received December 17, 1951 and in revised form Febraury ors . ER TS
+‘ : ev 15 1052. Presented to the
+Received December 17, 1951 and in revised form Febraury De . el brthellS
 
-rs Zak Nh eons y 5
+pags Le  SDOTS y S.
 American Mathematical Society February 24, 1951. Research currently spor
 
 Army Office of Ordnance Reseach.
@@ -146,27 +146,27 @@ HARV 263
  
      
 
-20) o :
-962 where 81 18 I ee delta. oie A #0, system (3.4) must be equivalent
-M(Q) = Sup MQ). to system (3: )- ote, however, that system (3.4) does not contain a, or ms ®
-oad Mo = 0 Q explicitly, and indeed the dimension can be determined as the r if La
-. . - . (k) . a ank ot the
-(2:4) ‘11 be presently defined using the otal simples nt XQ matrix of R;;® where j, [ takes on 7? indices and takes on Q indices
-4 lattices Q* wi 1) typeof relative maximum to replace the (absolute) finite or infinite. ,
-The e ¢ general) . mula Since, conversely, the system (3.4) leads to the system (3.11), the differential
-BA ather a last 10 : : att; : EL) ials
-PI ee required 17 cr tials. First of all let us consider the function p depend essentially only on the lattice points x®,
-aE ¢ : :ferentials. (x) : sie) : : :
-hipaa tte 3. Dimension of dii€ If it refers tO the n-tuple ms ’ oh nie or infinite 4. Free dimension. Now if our set of (m,®) took on all integral n-tuples
-HI ote defined in formula (£2: Ei called F® (= F (m;®, &)) for short. Now ye (except the origin), a dimension would be defined for these d| F ®|, [ts value will
-ARAN a od by then it ie ding to differentials da; around a fixed lattice be called the free dimension of the fixed lattice (a,;) with respect to the function
-: HERE S “oias a a fixed in this process. Thus a total differentiy ¢(x). We shall now see that the free dimension depends only on ¢ and not on the
-i the (mj) OF (ms) re e are excluding lattices where M(R) = 0, the i
+10) : :
+962 where 81 18 2 ae delta. plane A # 0, system (3.4) must be equivalent
+M(Q) = SUP MQ). to system (3: )-. ote, however, that system (3.4) does not contain a, or .®
+and Mo = 0 Q explicitly, and indeed the dimension can be determined as the r 4 Sa
+. . : . (k) : ons ank ot the
+(24) ‘11 be presently defined using the ee simplest nt XQ matrix of R;;® where j, I takes on 7? indices and takes on Q indices
+Jp lattices Q* wi D typeof relative maximum to replace the (absolute) finite or infinite. ,
+Tat e ¢ general) ? mula Since, conversely, the system (3.4) leads to the system (3.11), the differential
+NA ather a last 10 ; ; : atti ttt ials
+So Se required 1° tials. First of all let us consider the function p depend essentially only on the lattice points x®,
+rE € ; :ferentialS. (x) : i : : :
+fia ER 3. Dimension of dii€ If it refers tO the n-tuple ms ) oe fine Or infinite 4. Free dimension. Now if our set of (m,®) took on all integral n-tuples
+HI pt defined in formula (£2: oe called F® (= F (m;®, &)) for short. Now ye (except the origin), a dimension would be defined for these d| F ®)|, [ts value will
+HREREA ee od by then it nl ding to differentials da; around a fixed lattice be called the free dimension of the fixed lattice (a,;) with respect to the function
+: HR S a vi iT fixed in this process. Thus a total differenti ¢(x). We shall now see that the free dimension depends only on ¢ and not on the
+Rs the (mj) OF (m,) re e are excluding lattices where M(R) = 0, the or
 
-nce W : o>
-| FO) is defined. (SINCE creates 10 difficulties.) First of all the definition of free dimension would not change if the (m,®)
+ince W : is
+| FO) is defined. (SINCE creates NO difficulties.) First of all the definition of free dimension would not change if the (m ,®)
 
--
+»
 ’
 '
 
@@ -180,67 +180,67 @@ nce W : o>
 
  
 
-LOG SIMS ISSN 3
-AAT Sete ANE value sign : 2 Zc 4 = | a
-a i Thies e of the absolute oe he set (finite or infinite) of differentials d| Fo) ook of all real values (except the origin) Torso Foie a)
-HH ne : ane * THe issate Ae nn : S g x o a : ;
-WAR We now define dee subset of ¢q differentials are linearly independent of the system R;® becomes any greater if the (m ,®) are real iastead of oteoral
-' OANA oT ANTS : ) : e : 3 | j : ra ;
-RRR is of dimension d if a = differentials. In particular, the set of ¢ + 1 differentials | Suppose a certain ¢ X ¢ minor of R;,® is non-vanishing for a real set of (m,®)
-phe iv ri, . : 2 z . X : : ]
-: AAI and provide a basis fora 1 1) is of dimension g if and only if the values of 4® | By homogeneity this depends on the # — 1 ratios of the » components of each
-ah YY)
-Is = 1.20 | IR ; : :
-Ni d|F®| (k 1,2. (x ) (i 1:2, 5501) 3 but certainly any such ratios can be approximated
-Ih for which ES ® 0 arbitrarily closely by ratios from 7 components of integral lattice points. This t i
-: , Mea = is a simple consequence of the Dirichlet boxing-in principle. Hence this same ee
-ve 7 AA WAAL AN : hn 3.1 1 ; J ; re : z ; 5 i
-2 i: A ( sroportional to the components of a sing g X ¢ minor will be non vanishing for an integral set of (m;®).
-1) Sy
+AGT Ahn .
+AAA Sede AYRE value sign . : & 3 ] | Hm
+RHRARARREAIAA i Thies e of the absolute Eo he set (finite or infinite) of differentials d| Fo) rook on all real values (except the origin). To hs Ea Bm
+RH nh : ane t tetris cates Ae nn { S : a . . : ;
+WA We now define is subset of q differentials are linearly independent of the system R,® becomes any greater if the (m ,®) are real instead of ieaeal
+' MMMM oH ; : . e ; 3 ; | j ; 71 :
+AT is of dimension d if a differentials. In particular, the set of ¢ + 1 differentials | Suppose a certain ¢ X ¢ minor of R;,® is non-vanishing for a real set of (m,®)
+MMII . 1 2 ; . | : 2 : j
+: AAAI and provide a basis fora 1 1) is of dimension g if and only if the values of 4® | By homogeneity this depends on the # — 1 ratios of the » components of each
+ahr ¥Y)
+A 21,2004 | NL : ! ; )
+1 d|F®| (k 1,2. (x ) (i 1,2, 2057) ; but certainly any such ratios can be approximated
+Ih for which él @ 0 arbitrarily closely by ratios from 7 components of integral lattice points. This t i
+: N AZ Ur” = is a simple consequence of the Dirichlet boxing-in principle. Hence this same Eee
+I 7 Tey) AAT MN : hn 3.1 1 ; > J x z : ; i
+y i: AOE, ( sroportional to the components of a sing g X ¢ minor will be non vanishing for an integral set of (m;®).
+J oF
 
-~
+pe
 
-Tey
+MO
 Wa
-ala) ve
+ala) Vay
 
 Thus in determining the free dimension from system (3.4) we may regard
-R;® asa function of the free variables xX no longer subjected to membership
+R;® asa function of the free variables x no longer subjected to membership
 
-A, RAAT dares 3 iy : y i e.
-i RAR are a set of dimension one (i-€
-ing ny
+A, INE a ; . i e.
+i RAR are a set of dimension one (i.€
+ivan
 Tals, 1 I
 
-nan non-zero Vector Ad) ulation of dimension. We write the sun
+nan non-zero Vector Ad. ulation of dimension. We write the sun
 
-ats g nv 2 . . : )
-ed Ey We next consider the actual calc in a lattice. The coefficients A®, for instance, can be taken as polynomials in g
-wh > AW d|F®| = 0 ¢® when ¢ is a rational function, by virtue of the fact that a polynomial in AR i
-(3.11) (%) the A® must be independent gn several variables vanishes for all values of the variables only when it vanishes Hi NS
-f indices. Clearly the m identically. The free dimension will be denoted by Q. RARARA Ee
-over some finite Set © for i : : Cn dn HE
-: bing the F®, but in terms of the aj for mstance, Our only general information about ¢ is that it is homogeneous; hence in piri Ci
-coordinates describing yg : ge Ar BES
-3| F® ih formula (2.2) one of the variables a; can be cancelled out, making F dependent AR
-(Kk) =o 1 <5,78M0 ; F7
-’ on only n2 — 1 of them. In a corresponding way, from formula (3.4), gi
+ats 8 nny : . . : $
+ed HY We next consider the actual calc in a lattice. The coefficients A®, for instance, can be taken as polynomials in ?
+wh > AW d|F®| = 0 ¢® when ¢ is a rational function, by virtue of the fact that a polynomial in HA i
+(3.11) 5 the A® must be independent ol te several variables vanishes for all values of the variables only when it vanishes a NS
+f indices. Clearly the m identically. The free dimension will be denoted by Q. finan Ey
+over some finite Set © : , for i : : 2 A TE
+bing the F®, but in terms of the a,j for mstance, Our only general information about ¢ is that it is homogeneous; hence in pire CT
+coordinates describing yg ge Ar ER
+3| Fo i formula (2.2) one of the variables a; can be cancelled out, making F dependent A
+(kK) l =0 1 <,5€0 ; TI
+’ on only n2 — 1 of them. In a corresponding way, from formula (3.4), i
 
-Fe (3.2) ®) aa i; f ol
-mo Ra t some fix (x)
+na (3.2) ®) aa i; f ol
+aA an : t some fix (x)
 
-PE where the partial derivatives, as agreed earlier, abe evaluated aE anit > Ruy“ 6;=0
+PE where the partial derivatives, as agreed earlier, ae evaluated ors fol 3. R,¥5,,=0
 
-58 Li] bilgi ga)/ate where the x" were given i ZH Z
+Be But F= $O)/At where the x were given in tom Z
 
-2 1) (with my =m®) and A = lla il, assumed positive for convenience by Euler's theorem on homogeneous functions. Hence, clearly, 0 <nt—1.
+2 1) (with my =m®) and A = lla il, assumed positive for convenience by Euler's theorem on homogeneous functions. Hence, clearly, Q<n— 1
 : From the theory of implicit functions it follows that the free dimension 1s
 
-RCA
-a 5
+ARC aA
+A
 
-27551)
--
+AN,
+v
 
  
   
@@ -250,71 +250,71 @@ a 5
 
  
 
-|
-4 Now TY : E } k
-: a|F®| Af dle] ®  B.- m1] ®| gt the minimum number of variables, on which the various F® really depend as
-) —hmn 1 ame oi . .
+J
+/ Now He : : z k
+i a|F®| Al dle] w P.-w m1] CIP the minimum number of variables, on which the various F® really depend as
+) —hmn 1 en “ie .
 
-ie 2 (3.3) am A ax, mi —a ¢ the ay; vary, the (m;®) remaining fixed. (See equation (3.2).) (
-i 3 t (¥
-fe y , . (Kk) s |X ). o k =
-, / ” where a! means the cofactor of a;; in the matrix (a;;) and ¢ mestgs a 5. Stable lattices. We first define a set of vectors (g®} k=1,2,...,
-An 2 : pe Thus we can take system (3.2), multiply by a, and sum over %, O Q + 1) to be positively dependent if all the linear relations
-Anh [ots HOR RAIA ge :
-Nata e ade TE re rei + substitution of the result in (3.3 ye (CR
-RAR AAR an ats 82h (5.1) >, AMg F=i0
-rR EE 25 5B 4® R,® =0 (%)
-a tateae RN IAA AR RS Fe. 9 : ) ns
-a a (3.4) (k) 0) 1 gy h&m are such that, A® = og Ao®. where Ae® is a set of Q + 1 positive Sid
+i 2 (3.3) A ax 0 mi 5 ¢ the ay; vary, the (m;®) remaining fixed. (See equation (3.2).) (
+i 8 t (¥
+fe : . (kK) s ¢\X ). : k = ;
+a, / ” where a! means the cofactor of a;; in the matrix (a;;) and ¢ wens iis a 5. Stable lattices. We first define a set of vectors (g® k=12...,
+ht 2 : ee Thus we can take system (3.2), multiply by a, and sum over %, O | Q + 1) to be positively dependent if all the linear relations
+A {ols siedmi pm rH :
+ata fe ade I rab rei substitution of the result in (3.3 yo. (&
+AARARAIAAR an ts 55, (5.1) YAP = 0
+re EE Re Y 4® R,® iD (%)
+arate RA RAIA RRS = 1h : } ves
+a (3.4) (k) @ 1 gh are such that, A® = g AP, where A,® is a set of Q RR 1 positive A
 
-: HEE R.® = Ao], w _ hy p® 16, and ¢ is scalar. This definition is affine-invariant and it can be realized only 1
-nlL rE a= FO) Xi - jl
-» ws ¥) j
+: FEES RP = alo] w _ By p® 16, and ¢ is scalar. This definition is affine-invariant and it can be realized only 1
+nlL yr wn = ax 0 Xi an jl
+» es ¥) j
 
 Nese
 
-»
+"
 
-apy!
+eae yt
 
-ree.
+2S.
 
-> . =
-“Xt reo
+> " —
+ree
 
 *
-Aa
+sr
 
      
 
-»
-Tye
+>»
+oxy.
 »
 ve
-(Ree.
+Ree.
 
 
 HARVEY COHN
 
-264 eo
-dimension O- An equivalent definition 1s Lat an arbitrayy
-the set of ees or onal space determined by the {8®1 will have 5
-¢ the
+264 Ra ;
+dimension O- An equivalent definition 1s hat an arbitrayy
+the set of wots a onal space determined by the {8®1 will have 5
+i ¢ the
 vector in ©%
 
 tion (in the sense of any ordinary scalar product) on at least
-Hiv jectio
+Hv jectio
 positive proj
 
-oi function ¢ to have th
-one 8“. ‘or definition. Assume the : e free
-We now come tO the mae (a*:)) is called stable with respect to ¢ if 0 +1
+vi function ¢ to have th
+one 8“. ‘or definition. Assume the ; e free
+We now come tO the mayor (a*:)) is called stable with respect to ¢ if 0 +1
 
 - * =
-dimension Q. A lattice & =
+dimension Q. A lattice L =
 n-tuples (m®) exist such t
 
-(5.2) | F(m®, en) = M(¥*) > 0
+(5.2) | F(m®, en) = M(2*) > 0
 J.
 
 and
@@ -332,61 +332,61 @@ the implicit function theorem select n? = ( 4.
 
 STABLE LATTICES
 265
-over Q + 1 vectors satisfying the further condition (5.3
-nie criterion of stability by referring it to the ag :
-Ls ing the condition (5.2).
+. cover Q + 1 vectors satisfying the further condition (5.3
+pi criterion of stability by referring it to the ag
+ing the condition (5.2).
 
-a finite or infinite set of vectors {w} determine
-5 in which unit basis vectors and any ordinary scalar product are introduced
+Se finite or infinite set of vectors {w} determine
+2 in which unit basis vectors and any ordinary scalar product are introduced
 Then the set (w} is said to positively span this space if it hag both the (projection
-very arbitrary vector of ©9 has a posit; ER jection)
+very arbitrary vector of ©9 has a posit; eo jection)
 property that e | nd J Positive projection on at least
-ane vector Of [in the undepen en property that every Q vectors of {w]
+ane vector Of fwhund the (fudepen LL property that every Q vectors of {w)
 re linearly independent. (The properties are easily seen to be affine-invariant
-Now every set of Q + 1 positively dependent vectors wi Positively span it
-ace ©. (See §5.) Conversely, every set of vectors {W) that positively spans 4,
+Now every set of Q + 1 positively dependent vectors wil Positively span it
+ace ©. (See §5.) Conversely, every set of vectors {w) that positively spans 4,
 space 89 contains Q + 1 vectors which are positively dependent. To see this, note
 that the set (w] determines a set of end-points of the various vectors, whose
 
 ). We shall sim-
-gregate of gj vectors
+gregate of vectors
 
-4 Space © of dimen-
+2 Space &9 of @ dimen-
 
 $
 
 S
 €
 
-onvex closure, a polytope PB in °°, contains the origin by the projection pro-
-2 perty. (The set {w} may be considered as a finite set by the compactness of the
+onvex closure, a polytope PB in 2, contains the origin by the projection pro-
+> perty. (The set {w} may be considered as a finite set by the compactness of the
 
-biy.--s0@ Clee Co hypersphere in ©9.) But the polytope B can then be reduced to a single simplex
+bi. 0@ Clee Co ; hypersphere in ©¢.) But the polytope B can then be reduced to a single simplex
 ¢ to the ayy and such that the |[F®| actually depend of 0 + 1 vertices which contains the origin, if we merely triangulate B,
 
-(ie. | F®| /dc; = 0), for all A LAETC n-tuples (m®), ducing no new vertices and recalling that the triangulating hyperplanes w
+(ie. | F®| /dc; = 0), for all HON-2810 n-tuples (m®), ducing no new vertices and recalling that the triangulating hyperplanes w
 Having found such variables, we describe the
 
 ighborhood of b*;, ¢*; (the variables
 
-5
+=
 
 Linas 3
 IAs Arti
-Teer afr s
+(Ad Eada
 
-5
+3
 
 variables
 
 RA
-o Ie
-ILCs er
+2 o,
+ILCT esd
 Lo
 
-aoe
+Noe
 
-2
+*
 
 intro-
 
@@ -395,70 +395,69 @@ contain the origin (by the independence property). These Q + 1 vertices of
 course determine the positively dependent vectors.
 
 The applications that follow (see §9) will stem from the following result:
-| Let the (infinite) set of vectors {Vv} of &9 contain vectors arbitrarily close in
+| Let the (infinite) set of vectors {Vv} of &% contain vectors arbitrarily close in
 "direction to 2Q vectors consisting of Q basis vectors and their negatives. We
 
 shall call this latter configuration a unit star. (Compare the “eutactic star’ of
 Coxeter [2, p. 401].) Suppose that a subsequence of {v} can be selected which
-comes increasingly close in direction to any designated one of the 2Q vectors
+comes increasingly close in direction to any designated one of the 20 vectors
 
 functionally equivalen
-(locally) on the b; only,
+(locally) on the b, only,
 
-PIRRRRBRARAC | integral or even real (see §4).
-jis § rn ; ; oh F® locally in terms of just the b4, In the ne
+PINRRRRRRARAC | integral or even real (see §4).
+jis i A ; : fs F® Jocally in terms of just the b4, In the ne
 
-corresponding to @*1y)- We define .
-arpa \ 4
-(5.4) 1? — | = (= (b; — b*1) )
+corresponding to @*yy)- We define ;
+Sarak} 2
+(5.4) |? — | = (= (b; — b*y) )
 
 as the distance between lattices (corresponding to the local coordinate system).
-Then if a lattice €* = (a*y)) 1s stable with respect to the function ¢ of free
+Then if a lattice &* = (a*¢)) 1s stable with respect to the function ¢ of free
 
-ne
+Le
 
-LCS a
-Fae
-[34 CoITe
+Troe
+El
+[SLCoITe
 
-—— Cy 5
+—— Ca
 
 Sh
-13
+4
 
-SEP eLe2
+Seite?
 Crawl
 as
 
 Lr
 
-bts
+LL 3
 Fe
+Er
 
-Pr
-
-Lg
+Ls
 4
 
-Lr
+Cres
 
 Tr.
 
-* -
-LACES
+=: =
+LATE
 
-=
-
- 
+4
 
  
 
-dimension Q, then an ¢ > 0 and an 7 > 0 exist together with Q 4+ 1 #n-tuples
-m®) (k=1,2,...,0+1) such that
+ 
 
-(52) | [Fm ®, 9) = M (2)
+dimension Q, then an ¢ > 0 and an 7 > 0 exist together with Q + 1 #n-tuples
+m®) k=12...,0+1) such that
+
+(5.2) | [Fm ®, 9) = M(2*)
 and
-(5.31) [Fm®, 9] < |Fom®, ¥)| — 9/2 — ¢*|
+(5.31) [Fm®, 9] < |Fom®, ¥)| — 9/2 — 2*|
 
 for some index k depending on £ providing only that |2 — *| < e.
 
@@ -466,15 +465,15 @@ Conversely, if a lattice has these properties for some ¢, 7 and Q + 1 n-tuples
 as described, then the lattice is stable.
 
 This is the type of property that Mahler [7] established for certain cases
-where his theory of “bounded reducibility”’ applies. The property is an easy
+where his theory of “bounded reducibility’”’ applies. The property is an easy
 consequence of the definition of stability given above. As a simple corollary
-we note that when £* is stable, then for some positive ¢, 7, and all 2 — e¥| <6
-we have M(¥) < M(2*) — | — |,
+we note that when £* is stable, then for some positive ¢, 7, and all 2 — | <6
+we have M(¥) < M(2*) — 2 — |,
 
 Thus, in a sense, M(¥*) is a local maximum by virtue of the Q + 1 specific
 lattice points for which the value is assumed.
 
-0. Positive span. Now there are often infinitely many vectors of a lattic¢
+0. Positive span. Now there are often infinitely many vectors of a lattice
 
 satisfying condition (5.2) for stability. Hence it would seem precarious to expec
 
@@ -486,7 +485,7 @@ positively dependent vectors.
 
 To see this, first note that the projection property is easy to obtain from the
 unit star. To establish the independence property we select as our subset of
-\V} the sequence of vectors chosen by the following inductive procedure:
+V} the sequence of vectors chosen by the following inductive procedure:
 The vectors are to come increasingly close to the 2Q vectors of the unit star in
 “me order (without coinciding). Furthermore each vector is selected to be
 nearly independent of the set consisting of earlier chosen vectors (if any)
@@ -496,250 +495,249 @@ Of the sequence may be chosen.
 
 I. Stability of the norm in a module. Probably the most investigated
 
-MON Oh eee. : . le.
-; ve star body is that given by ¢(X) = %1%3.- -
-Nl >
+NON CONTE t. le.
+: oy star body is that given by ¢(X) = 1X2. -
+ll >
 
 . x, and the most impor-
 
-atti i 3 Atrix in (2.1) namely
-attices for it are those for which each row of the matrix i (2.1)
+atti Ft atrix in (2.1) namely
+attices for it are those for which each row of the matrix in (2.1)
 
 
 HARVEY COHN
 
 of n basis numbers of a (non-singula
 
-.. The x is the i conjugate of a a
-m. The minimum absolute value 0
+2. The x. is the i conjugate of a ol
+mn. The minimum absolute value vy
 chieved for some X and is denoted by
 
-, is the i conjugate of a set
+., is the i conjugate of a set
 totally real field of degree
-the module and ¢ 1S the nor
+the module and ¢ 18 the nor
 
-(when (xq) # (0)), 1s of course actually 2
-am (Mm) > 0
+(when (x) # (0), 1s of course actually 2
+am (MM) > 0
 Now for this
 
 j=1.Thus Qt 2 ¢
 given in §4. The condition fo
 
-x® of the module JM 15 SKC t
-fe Cm x® = + MD)
-! and the sét of vectors indexed by k and with n(n — 1) components
-RE) Gji=1,2...,m1%j)
-n—1) dimensions.
-gates and 2s complex conjugates (7 + 2s =n)
+x® of the module JM 15 SUC t
+fe mx? = £ MO)
 
-¢, from (3.4), Rj, jie [©] %:®/ %5 when 7 7 I, and 0 when
+! and the set of vectors indexed by k and with n(n — 1) components
+aS.) Gji=12...,m1%j)
+n—1) dimensions.
+gates and 2s complex conjugates (r + 2s =n)
+
+¢, from (3.4), Rj, Bie [©] *:®/ Dl when j 7 I, and 0 when
 he free dimension, snn— 1) according to either of two reasons
 y stability of the norm 1s simply that some set of vectors
 
-72) (- -
+72) (. -
 
 positively spans space of n(?
 If the field has 7 real conju
 ceed similarly, writing
 Zj = Xj
-(7.3) 2; xX; + 1X 54s
-Zips = X57 1X 4-51
+(7.3) 2; x; + 1X 54s
+Zs = X17 1X 4-51
 
 -
 -
--
--
+.
+.
 
-tom
-Sener
+to
+Eres
 
 then we pro
-(7 — 1 Zein)
+(7 — 1,2,...,1)
 
-GG=r+1,...,r+5),
+G=r+1,...,7+5)
 
 STABLE LATTICES
 
 The lattice basis is involved by means of the relations
 
-es a11Q21 = A, Q1209 = C,
+% ai1 a2 = a, Q1209 = C,
 8. an G22 + az a1 = b, d = A’
 
 Following §7, we would restrict ourselves to :
 
-the norm function in a quadratic module, Lo a = Sbore Bona to
-erfect square. (Actually this would follow automaticall 5 ap. dx fora
-conditions (5.2) and (5.3).) At any rate we assume ® L 5 the stability
-0+1= 3 integer couples (my ®, my®) (k=1,2,3) Slatable le let
-minimum value M, that is, ES geeun ox which |F |
+the norm function in a quadratic module, pa tm to
+erfect square. (Actually this would follow automaticall 7 ies nota
+conditions (5.2) and (5.3).) At any rate we assume ® : Th the stability
+0+1= 3 integer couples (m,®, my®) (k=1,2,3) Se 7d lot
+minimum value M, that is, 2,8) occar: for which |F |
 
-F® = PM = 0,
+F® — PM 7 0,
 
-Jssumes its
+assumes its
 
 8.3)
 
 Then we consider the vector space spanned by the vectors of two components
 
-G, 0h) = (1,2), 21).
+G,h) = (1,2), 21).
 
 (® = £1).
 
-8.4) R;® = [P(x /x,*
+8.4) R22 = |o®: 2/2,"
 
 [n particular we look for relations of the type
 
 3
-(8.5) 2 ACR” 1a 0,
+8.5) 2 ACR” RS 0,
 
 valid for both of the above choices of (j,1). But by virtue of relation (8.3),
-or 11® x,® = d2Me®, 1t follows that relations of the type (8.5) are the same as
+or x1 ® x2.® = d*Me®, 1t follows that relations of the type (8.5) are the same as
 
 the following conditions for stability:
 
-52s fo, = =
+, A
 Ao
 
 -
 
 jugates of a number 2 in the field. Then the norm is
 
-—
+_—
 
 where , represents the 7 con
 
 2 2 2
-Sx, Kris) oo» (Xr4s41 T Xr+2s)
+x (rr Kops) » +» (X7rst1 + Xot2s)
 
-and the lattice (or module MM) is this time determined by the 7? different real
+and the lattice (or module IM) is this time determined by the 7? different real
 and imaginary components of the matrix a; Then a repetition of the earlier
 elds the same Q and the convenient new condition for stability of
-®) of the module IM is such that
+®) of the module IN is such that
 
 3
 
-(8.6) OE AOW® = 0,
+(8.6) Sy AOW® = 0,
 
 k=1
 
-gL
-Fr
-Sd
+oy
+Cr
+SE
 
-£
+rs
 
-¢* (x) =X1..
+¢* (X) =X1..
 
-"et
-rrr
-" 9 ~~ v
+et
+RLCCT oR
+” N -~
 -
 
-RRC
-rE
+Ae
+55
 
 7
 
-Pr Jar
+pr pr rs
 
 tree
 
-where W® = ® ((x,®)2, (x2®)?) is a vector of two components.
+where W® = ® ((x,®)2, (x2*)?) is a vector of two components.
 It is well known that the critical lattice for ¢ = X1%2 belongs to the form
 
-BTN Bm, #2), = i mad = (my — Boma) (m1 — 0’ m2)
+BT) Dyer, es) = ml Wr mal = (my — Boma) (m1 — 0 m2)
 
-where 6g, 80 = 3( — 1 + Ab), d = 5. For the corresponding lattice, M (2) =
+where 6, 00 = 3( — 1 1 7/5), d = 5. For the corresponding lattice, M (2) =
 1/4/5, in the notation of (2.3). To verify that this Qo is stable we make the
-choice, by trial and error: (m1®, ms®) = (1,0), ©, 1), (1,1) for k= 1,23,
+choice, by trial and error: (m1®, ms®) = (1,0), ©, 1), (1,1) for & = 1,23,
 respectively. Here
 
 ®
 
 ; : kK) (k) ’
-x _ mi = ma, Xs" —r gy m2
+x) _ mi? = ms, Xs’ =n gy m2
 
 f+ x
 
-Le"
-rss
+Lr
+Sy
 it
 
-» nr
+" nr
 
 calculation y
 the norm as simply that some set of vectors Z
 
-(7.11) normz® = + M'(M),
+(7.11) normz® = £ M'(M),
 
 »
 
 ad
 
-ATT
-oy f F =
+LAT
+oy y F =
 Ltr
 
-E>
-y
+>
+7
 
 Ixy
-ts
-773
+Ls
+rv
 
-Le
+Tt
 
 n — 1) components:
 
-Ts
+Es
+LY
+1
+LT
 
-ry
-A
-2
-
-and the set of vectors, indexed by k and given by the following 2n(
-ao) (R525, 32/27, 0) (d5=1,2,. atl
-()asti(3)
+and the set of vectors, indexed by k and given by the following 2m (
+a2)  (...R2®E2,.32506%,..) j= 1,2 ro TEER
+(yi (3)
 
 positively spans a space of n(n — 1) dimensions.
 
-€ = — . n
-Of these 9n(n — 1) components, some may vanish and others may be repeated i 3
-with or without change of sign. Taking this into account wW¢ find the total, If
+€ = = . A
+Of these 9n(n — 1) components, some may vanish and others may be repeated E 1
+with or without change of sign. Taking this into account wWe¢ find the total, If
 
-Ee:
+Ee
+SE
+rs EEC
 
-ERE
+ZL Tr
+55<
 
-& Te
-CLs Tr
-xe
+rE
+feet
 
-SEs
-rie
+rey
+rv
 
-Fey
-ry vo
+8.6), (4, A, AD) =
 
-8.6), (A, A, A®) =
-
-the equations in ( :
-_ ultimately d|F¢ )|) are
+the equations in (
+_ ultimately dF )|) are
 
 It is now easy to verify that from
-the three wW® (o
+the three W® (o
 
 o(1,3,1), for a scalar o, whence it will
 it wi
 
-general, is still Q = n(n — 1) essentially distinct Hon-vanishing components
+general, is still Q = n(n — 1) essentially distinct hon-vanishing components
 attices can be give
 9. (Compar®
 btain:
 
-Hae A simple illustration of stable |
-e en efinite form ¢ = x, x, of free dimension Q =
-panding ¢ = ®(m,, my), in the notation of (2.1) and (2.2) we ©
+oo Delis fa A simple illustration of stable 1
+> it efinite form ¢ = x, x, of free dimension Q =
+panding ¢ = ®(m,, my), in the notation of (2.1) and (2.2) we O
 
 F = ®(my, ms) /d,
 
@@ -747,67 +745,67 @@ F = ®(my, ms) /d,
 $(m,, Ms)
 
 2 °
-amy” + bmy ms + cma, d=
+amy” + bmy ms + cma, d =
 
 n
 
-os pt — dac >
+_- pt — dac> 0
 
 the results of §9,
 
 stability. From
-®) is actually necessary
+(®) is actually necessary
 
-positively dependent. This establishes
+bositively dependent. This establishes
 turn out that the presence of both positive and negative ¢
 and sufficient. The result can be expressed as follows:
 
 er which an indefinite irreducible quadratic
 
-; Let a be the smallest positive numb : : responding
-orm with integral coefficients represents in absolute value. Then the COMTERE=2""=
+; Let " be the smallest positive numb : : ponding
+orm with integral coefficients represents i absolute value. Then ine COTTesp=i=="s
 
 lattice is stable if and only if the form represents both + m and —
 
 
 HARVEY COHN
-268
+268 :
 : .7)) to be stable with respect to ¢
 : lattice Lo (of (8
 In showing the
 
 §
 howed according tO
-which MQ < 1/V/5 TE we ask a
+which MQ < 1/5 TEwe ask a
 
-ood under change ©
+ood under change 0
 
-lath Ee a= 0), 1 >0>0>¢
+lath P= nine 0— 0) 1 >0>0>¢
 8 /
-(8.8) ms Hered and 6’ represent the two degrees
-p- ere X1 = eh Boi We now go back to the proof of stability of ®), and ye
-- of freedom of t ®) and the corresponding (%1®, £,®) for k=1,23
+(8.8) a and 0’ represent the two degrees
+hs ere X1 = WoT Wl We now go back to the proof of stability of ®), and ye
+- of freedom ol t ®) and the corresponding (1®, x,®) for k=1,23
 
 ®
 use the same (m1 M2
 
 Then clearly,
-9 — 6 > V5
+0 —0 > V5
 
-> —\/5 60’,
-6—0 > \5(1—0)1-—2¢),
+> —\/5 60,
+o—0 > 501-631 -2¢),
 
-and by drawing the 66’ plane we see that east = . re right-hand
-inequalities will hold at every point of the region rs ite @
+and by drawing the 66’ plane we see that 2 leas oe he nae right-hand
+inequalities will hold at every point of the region po Spe] a
 rather ample neighbourhood of the critical values 6s, 6 0)- ut every lattice
 is equivalent under change of basis to one lying in this neighbourhood, by an
 extension of Gauss’s criterion for reduction, 1.e., that one root and the negative
 reciprocal of its conjugate lie between 0 and 1. Thus the lattice ¥, is critical.
 
-If we turn our attention to the definite form ¢ = x," + x52 we find that ¢
+If we turn our attention to the definite form ¢ = x," + x2 we find that ¢
 is stable only for the critical (equilateral) lattice, in which case ¢ is proportional
 under rotation, to the norm function of the integers in the field of the cube roots
-of unity. For the larger problem of ¢ = x:2 +... + x,% analogous types of
+of unity. For the larger problem of ¢ = x:2 + ... + x,% analogous types of
 extrema have been developed [6; 9; 2] manifesting themselves largely in the
 coefficients of the expanded form. (The reader is referred to [2] for recent develop-
 ments as well as a sizable bibliography.) The present paper, however, will
@@ -819,30 +817,30 @@ metic of a field.
 
 9. Application of units of the order. The module I determines [5] another
 (non-singular) module O, called its order, which consists of all algebraic integers
-v (in the corresponding field) such that vit lies in IM. For instance, if IM were
+v (in the corresponding field) such that vit lies in IMM. For instance, if IM were
 the module of all integers in a field (called an integer-module for short), then we
 should have © = IM and the minimizing x (or z) satisfying equations (7.1)
 (or (7.2) would be the units. In any case, O is also a ring with unity, and
-according to the classical theory it contains 7» + 5s — | fundamental units
+according to the classical theory it contains 7 + s — | fundamental units
 We shall denote any unit by u (with conjugates #;). Thus for every solution X
 (orz) to (7.1) (or (7.11)) another one is of the type xu (or zu). We shall now use
 
 these units to make the vectors R follow a unit star. (See $6.)
 
-. . at X,
+. . =X X,
 5 that a neighbourhood of Lo in lattice space exists i;
 bout the size of this neighbourhood we find
-Judes all lattices, provided we take into account hi
-f basis. In other words, &; is the cl
+Judes all lattices, provided we take into account “hin
+f basis. In other words, &; is the i
 
 STABLE LATTICES
 
-For instance we start by assuming IN to be t 5
-on the (j, ) component of R, whose sign agrees with x,/x - We concentrate
-qndamental units, we can choose a variable unit u + = : = 37.) By using
+For instance we start by assuming IN to be t 3
+on the (4 ) component of R, whose sign agrees with x, /x oo We concentrate
+qundamental units, we can choose a variable unit u i 5 : 37.) By using
 
 at o
-components %q/ yp (» # g), the fixed component i/uyis posit; thie
+components %q/ up (» # g), the fixed component i/uyis posit; the
 order of magnitude than any other. This guar tive and of greater
 0, that for the new minimal vector xu, the property,
 e in direction to
@@ -850,20 +848,20 @@ e in direction to
 otally re
 
 clos
-(0, ee » 0, Sgn x;/x,, 0, oe .» 0),
+(0, ee 0, Sgn x;/x,, 0, *. .» 0),
 
-the “sgn” being at the (4, /) component, We can
+the “sgn” being at the (j, /) component, We can
 condition on the variable u, we can have each u
 different order of magnitude. This will guarantee
 the vectors R can not then all lie on a finite set of hyperplanes th
 
-origin (as the components are now of different orders of Sit a =
-positive span is established provided the “sgn” can be made 5% oy i
-i positive and
+origin (as the components are now of different orders of Sie So gis
+positive span is established provided the “sgn” can be made > iy fe
+he positive and
 
 go further, Along with the Jast
 o/ Uy approaching 0 or o with 4
-the independence property, i.e.
+the independence property, ie.,
 
 The norm in a totally real module is therefore stable
 x of minimal absolute norm ( 7 0) are such that, for
@@ -873,7 +871,7 @@ if and only if the numbers
 any two different conjugate
 me X and negative for others.
 
-As an immediate consequence of this criterion, the integer-module of a req!
+As an immediate consequence of this criterion, the integer-module of a rea!
 quadratic field is stable if and only if there is a unit of norm —1. The integer-
 module of a totally real cubic field is stable if and only if the units display all
 possible 2% arrays of sign among their conjugates. For instance the totally real
@@ -882,7 +880,7 @@ property, as we see by using as units conjugates of this generating element.
 Hence the field in question is stable [7].
 
 [n the case of modules which are not totally real it is harder to find a criterion
-as elegant as the last one, because uu | = |tq/ 0, not only when j and / refer
+as elegant as the last one, because uu | = |tg/ 0, not only when j and / refer
 to the same fields (respectively) as do p and g, but also when they refer to
 conjugate complex fields. Thus it is not so easy to accentuate just one component
 of R. But since we are interested in the real or imaginary components of u,/u,
@@ -896,8 +894,8 @@ enough requires no special properties of that field!
 Concluding in a simpler vein, we can see that if an integer-module 1s not
 totally real, but nevertheless has as units only totally real numbers (or even
 bure imaginary numbers) then it can not be stable, as the number of distinct
-10n-zero components in (7.21) will fall short of the desired total, Q = n(n i “
-by at least s. Thus, once more, the complex quadratic fields do not Have ta =
+10n-zero components in (7.21) will fall short of the desired total, Q = n(n = 2
+by at least s. Thus, once more, the complex quadratic fields do not have sta
 Nteger-modules, except when the field is that of the cube roots ol unity.
 
   
@@ -905,12 +903,12 @@ Nteger-modules, except when the field is that of the cube roots ol unity.
  
 
 -
-=
+-
 
  
 
 - wo.
--—
+-——
 
     
  
@@ -918,29 +916,29 @@ Nteger-modules, except when the field is that of the cube roots ol unity.
 
   
 
-LA
-> -
+fv.
+—
 
  
 
  
 
-yo.
-ww.
+vw
+WO —
+=
+
+ 
+
+rs
+
+ 
+ 
+
 -
-
- 
-
-re
-
- 
- 
-
+ry
+—
 -
-ty
-Ss
 -
-~
 
    
 
@@ -948,15 +946,15 @@ Ss
     
   
 
--
+i
 
-Lott
-Lt
+ete
+LL
 2x
 
-th fe
+2 fe
 
-a
+“a
 
 -
 
@@ -965,17 +963,17 @@ a
  
  
 
-B
+-
 -
 
-ERY wa”
+EY ¥
 
   
 
 \ NO
 
-i 7 ie
-i '4 100% ;
+i 7 tie
+i 4 1 ;
 
 {
 }
@@ -983,35 +981,35 @@ i '4 100% ;
 4
 i
 
-st! ‘
-MALT
+i! v
+Lafevar,y
 
-ANaY,v 0 tee
+Aa, ve time
 
 ’
-22 AT AY)
-Bhd 2s
-fe pret nF
+Po At AY)
+a hy
+fe pret vb
 
-Shree eT
+NASI AAI A
 
-' K
-oalirtiy
+' 4
+ality
 ’ »
-7) / ’
-tielelvlwleivin)?
-) r
+y7) / ’
+tielelvleleirin?
+) ’
 
-"vel
+el
 
-’ ’ oY
-o! 000 0lel ele wwii"),
-
- 
+’ ’ el
+ot ivi lelel lel wwii,
 
  
 
-» ov."
+ 
+
+w ov"
 
 
 270
@@ -1031,7 +1029,7 @@ On the product of
 On the product of three homogeneous linear forms III, P
 
 45 (1939), 98-125. , Proc. London Math. Soc
-chlet, Vorlesungen tbe 2
+chlet, Vorlesungen tbe Gi
 G. Zolotareff, S
 
 3. H. Davenport,
@@ -1049,7 +1047,7 @@ Voronoi, Recherch
 
 Wayne University
 
-P:
+P.
 A.
 7. K. Mahler, Lattice poi
 H
@@ -1071,7 +1069,7 @@ of development.
 REFERENCES
 
 1e delerminalion of critical lattices, Proc. Amer. Math. S
-* . 20C., 2 (1951)
+* . O0C., 2 (1951)
 Can. J. Math, 3 (1951), 391-441. |
 
 treme forms,
@@ -1083,9 +1081,9 @@ th.
 
 » Zahlentheorie (Braunschweig, 1894), 505 ff
 ur les formes quadratiques positives, Math Ann 11 (
-52 “ 1877)
+i “ 1877)
 
-nis in n-dimensional star bodies 11, Pro :
+nts in n-dimensional star bodies 11, Pro i
 ’ c. Koninklijke N
 e
 
@@ -1097,19 +1095,19 @@ n Wetenschap
 hantische Approx
 
 es sur les paralléloédres primitifs, J. Rein
-y Je e Angew. Math
-: + 134 (1908)
+» Je e Angew. Math
+: - 134 (1908)
 
  
 
 i
-i
+:
 |
 
 ae
 .
 
-7
+v
 
 NO
 
@@ -1117,49 +1115,50 @@ falafel ls 2
 
 HO
 
-is'e
+is'n
 
-1
+a
 
-1a '
-i aay
+1a :
+vt slats
 
 als
-Yale ’ 7s " "
+Yale ’ i] MO \ "
 
 ahntihihhhnn
 
-nnn
-fete gf
+ahhh
+aa
 wire v1
-3.30
-“a's?
-IR
+
+AA
+“ae?
+evi!
 
  
 
-33
+3x
 
-Tr
+Poel
 
-rg
+CE a
 
-SK
+3
 a
 -
 
 ~
 
 Fv.
-oo gh
-er Y
+ar.
+eT
 
-Csi
+Pe
 
-- 9 XL Es
-x eT Wwe, or
+- " X15 a
+5 oT wy, or
 
->
+Lr
 Tris
 
 

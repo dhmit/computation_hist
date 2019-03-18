@@ -10,8 +10,8 @@ MIT CARD HANDLING REQUISITION
 Ceuter
 Programmer Date
 Office Phone Address
-(if mailing is necessayy)
-Problem No, Programmer®s No, Deck No,
+(If mailing is necessary)
+Problem No. Programmer®s No, Deck No,
 
  
 
@@ -22,7 +22,7 @@ Problem No, Programmer®s No, Deck No,
  
    
 
-0 To be filed i) To be listed Cl To be corrceted
+0 To be filed £5 To be listed ul To be corrceted
 {] To be punched
 
 System Used [| Share [] Other
@@ -63,7 +63,7 @@ Listed by
 
  
 
-Pxoofyroad by
+Pooofyoad by
 
  
 
@@ -72,11 +72,11 @@ Corrzated by
  
 
 Checked by
-RE A EB A Wl lr YU SN ETN IN ES Ag Alea NV Srl WP (YS ws. © ig A.
+RE A EW ro US EA TW IN ET A AT Siren ST A Sl WP W,  . . N  F
 
-Deck filed by
+Deck £ilsd by
 
-LETT NOTE a Sl MBG IIE IR T LIE A TE INS TRIE It RS MA CI ENR a RRR a TRARY
+I TI GEO CIR CL CR A TE A TER ES RR SU CI ER Ta ARE CS TRAY
 
  
 

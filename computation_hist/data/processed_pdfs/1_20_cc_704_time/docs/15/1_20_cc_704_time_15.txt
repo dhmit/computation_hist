@@ -6,10 +6,10 @@ duplicate: please type.)
 
 i
 
-1. Applicant: Not to he filled
+1. Applicant: iNot to he filled
 
 Name, Title, Dept. and Imstitution: in by applicant)
-Prob .No.
+Prob .Neo.
 
  
 
@@ -31,10 +31,10 @@ Address and Phone Ne. Programeor's No,
 
  
 
-3. Programmer(s): (if applicant, write "applicant'; append supplementary |Imit. Date:
+3. Programmer(s): (if applicant, write "applicamt'; appemd supplementary |Imit. Date:
 sheet if mecessary)
 
-a. Name and Title (programmiag experieace on high spoed machines):
+a. Name and Title programmiag experieace on high spoed machines):
 
  
 
@@ -48,13 +48,13 @@ Term, Date:
 
  
 
-Address amd Phone No. Ingt .Rep . Approval ;
+Address amd Phene No. Ingt .Rep . Approval ;
 
  
 
  
 
-b. Name and Title (experience on high speed mechines):
+b. Name and Title (expericnce on high speed mechines):
 
  
 
@@ -80,17 +80,17 @@ research, thesis (specify); if supported research project, give coa-
 
  
 
-PLT —— tm
+a ————
 
 tract Ro.
 
  
 
-Cb
+a ————
 
-Ee a Bn FHT ne ow
+EA BBE BGT ctr amr SW
 
-7. Do you intend to publish the resulte and if so where? (e.g. thesis, pony Mach. ‘Time
+7. Do you intend to publish the resulte and if so where? (e.g. thesis, pw. inv Mach Time
 name of progress roport, ote.) Used:
 
 
@@ -104,13 +104,13 @@ g. Does the programmer(s) intend to do all the programming?
 
  
 
-BE ie en te a ee SSR ST 2 le Cel NCR a en
+a a near SA enero SE
 (Ordinarily, programmi
 
 ng and card punechi
-assistance ig nesded p ng have to be aone by tha PEOgTrammar. If
+assistance ig nesded Pp ng have to be aone by the PEOSTOmmaT, if
 
-from the Center, special arrangements have to be made)
+from the Center, special arrangements have to be mada)
 11, When will program testing probably start?
 12,
 
@@ -126,7 +126,7 @@ Estimate of machine hours required for testing programs:
 
  
 
-14, For indexing purpose, how would you categorize the rxoblem?
+14, For indexing purpose, how would you categorize the rroblem?
 
  
 
@@ -135,17 +135,17 @@ Section A: A one-paragraph abstract of Section B and C,
 
 Section B: Complete description of problem background which should
 give complete picture to someone well aqueinted with the
-relevant field of research. Give references to sarliexr
+relevant field of research. Give references to sarlier
 ox related work and indicate relation to this work.
 
-Section Cz Description of numerical and computer techniques to bs
+Section C: Description of numerical and computer techniques to bs
 used, and justification of their adequacy or indication
 of how adequacy is to be determined. This description
 should include, when pertinent, the number of significant
-Tigures accuracy required at various gtages of the calcu-
-lation and the ranges and values of the quentitiss ine
+figures accuracy required at various gtages of the calcu=-
+lation and the ranges and values of the quentities ine
 volved in sufficient detall so that progrem complexity
-nay be estimated, In addition, indicate how you plan to
+may be estimated, In addition, indicate how you pian to
 test the programs and whether you have test cases
 available,
 

@@ -2,7 +2,7 @@ I. Summa of Independent erations
 
 Assuming that Project Lincoln withdraws completely from the Barta
 Building, the following represents a composite estimate of the cost to
-maintain a one shift (40 hour/week) operation of WWI. At the present
+maintain a one shift (40 hour/week) operation of WWI, At the present
 
 time, the ONR Group is being assigned an average of about 40 hours/week
 on WWI.
@@ -31,9 +31,9 @@ Engineers 2 at 6500 13,000
 Clerks 1 at 3600 3,600
 33,400
 Operation
-Secretaries “¥ 3,000
+Secretaries =X 3,000
 Mathematicians 2% 16,000
-Programmers b 22,000
+Programmers by 22,000
 Operators 2 6,600
 47,600
 Tape Room and Flexowriters
@@ -54,7 +54,7 @@ Secretary and Clerk 1
 
 Purchasing
 Adm, Asst, 1
-Clerk gy
+Clerk 1
 Maintenance
 
  
@@ -70,7 +70,7 @@ Janitors and Matrons
 
 Janitors 3 at 2,900 (under 6595)
 
-Matron at 2,700
+Matron lat 2,700
 
 7,000
 3,400
@@ -99,13 +99,13 @@ Detail
 
 
 July, 1953 26.00
-i aa
+IE a_i
 
 September 35.00
 October 108.00
-RoEEmMber = <5 en
+Royember: «=~ = ewes
 
-December Be
+December ————
 
 January, 1954 370.00
 February 987.00

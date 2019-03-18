@@ -1,4 +1,4 @@
-IEEE 0g |i
+EE —TT “OE 11a
 
  
 
@@ -6,7 +6,7 @@ Room 20C-D6
 
 November 29, 1956
 
-Dr, G, T, Hunter
+Dr, G, T, Bunter
 
 I, B, M, Corporation
 
@@ -24,7 +24,7 @@ It is my understanding that there may be time available for
 this purpose either at Poughkeepsie or the New York 704, I would
 appreciate your checking the availability of machine time and setting
 up a schedule which may be used for the testing of programs which we have
-prepared for the Computation Center, 1 beliwe the schedule of machine time
+prepared for the Computation Center, I beliwe the schedule of machine time
 should be set up in blocks of one hour intervals in order to obtain maximum
 utilization of machine time, or whatever other procedure has proven to be
 most efficient in light of experience in testing programs,
@@ -41,7 +41,7 @@ F. M, Verzuh
 Assistant Director
 Computation Center
 
-FMV:nb i
+FMV:nb :
 cc: Prof, P, M, Morse “7
 
 

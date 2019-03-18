@@ -1,15 +1,15 @@
 though our IBM 704 is now delivered and is in storage at
-ay EB Stem of the building to house it has [eave
+ay BD aa.Te of the building to house it has getayed
 commencement of the project financed by NSF grant NSF G2940.
 
-11 estimated that only about $8,000 will have ha
+11 estimated that only about $8,000 will have Xy
 Staff members, which were to have been
-sf'errec 5 1 © nued on the Whirlwind
+sferrec A 1 © nued on the Whirlwind
 ject until the change-over, and most of them will not be trans-
 
 rred until summer. It is therefore proposed that the project be
 ;inued until June 30, 1958, with an additional grant of only
-Br so that in the full year of full operation, July 1957 to
+SEL so that in the full year of full operation, July 1957 to
 
 1958, we can operate at the rate of $35,000 a year, as
 estimated in last year's forecas¢. Estimated details of budget
@@ -26,8 +26,8 @@ are appended, together with excerpts from the original proposal.
          
    
 
-on the SEE sae of She inna sogmmah has gone Sarma
-as rapidly as is posiible without the 704 being in, running condi-
+on the = of Shesioroponed Posen has gone Fornani
+as rapidly as is possible without the 704 being in, running condi-
 A complete utility and a post-mortem program have been
 
  
@@ -37,11 +37,11 @@ A complete utility and a post-mortem program have been
  
  
 
-jeveloped, and tested out on borrowed 704 time, a much more
+developed, and tested out on borrowed 704 time, a much more
 ible assembly program than at present avallable has been
 ready for active coding when our 704 is in operation.
-x ons have been begun with a view to investigating the
-7 rg of a flexible output equipment utilizing the
+——_ ons have been begun with a view to investigating the
+= EO of a flexible output equipment utilizing the
 photographic "linotype" equipment called Photon. Many programs
 of importance in physics and engineering have been, or are being
 translated from Whirlwind language to 7O4 language, such as the
@@ -53,7 +53,7 @@ planning to use a substantial amount of machine time, and will
 | require the advice and help of our staff to program their various
 calculations. We will be assisting the Harvard Observatory staff
 in calculating satellite orbits in preparation for, and during,
-the IGY s8tellite "shoots". Dr. S. Ulam of Los Alamos, who has
+the IGY sétellite "shoots". Dr. S. Ulam of Los Alamos, who has
 been a Visiting Fellow to the Center this year, has been assisting
 us develop "Monte Carlo" techniques. Prof. John MeCarthy of the
 Dartmouth Mathematics Department (one of the New England colleges
@@ -61,57 +61,57 @@ participating in our program) will be here next year and will be
 interested in developing machine logic and in further investiga-
 tions of the behavior of "automata" by means of simulation pro-
 grams. The staff of the MIT library 1s interested in exploring
-the possibilities of storing and recovering A — by
+the possibilities of storing and recovering information by
 machine methods and a project in the MIT Language Department on
-machine translation, supported the Rockefeller Poundetiun.
-expects to use our equipment to ol their ideas. Other
-GR. at the 23 participating colleges, are planning further .
+machine translation, supported the Rockefeller Fo,
+expects to use our equipment to I thelr ideas. Other
+gEapS: at the 23 participating colleges, are planning further = .
 work.
 
 
-T n- Tor - Or . pa? PNP Vind Ta oe . - ? Th 2 v ¥ 3 i | s Je ge
-. . : 5 “dn?
-i
-Ww iss
-oo
+Y K DE rr y- N . a PN VP Rats Fo re . - } oh 2 ’ ¥ i i | . J gm
+- . “ 5 red
+|
+A
+Lae
 ‘x
 2
 .
-: . SHES ?
-> ,- vo fe ram PY —— ..- -- . m——-. -—
-= we
-wy
-a
-ed
+, . SHE :
+> ,- ve de o- —— ..-- -- — -—
+da we
+=)
+un
+want
 oo
 3
-~~
+ry
 i
-a
+ny
 
  
 
-prasy
-best
-| oo
+pansy
+bed
+Pa
 
  
 
-| \ HORS oem w
+| 0 hele . a e— wv
 
-! & » { . . a vols : h-
+i ! - ~ ; { . . - eis : i
 
 -—
 ’
 .
 
-th, Sh Sp Ph SP Pn 5S. Br iding Boh meet a oh Sed $i Aes fbn Bea BA mina Sema Sen SES Se DE vt
+—— A Sy. tihng ok eth oh ee hes Sake ha BE Lm AERA Et eT A
 
 
 Extension of NSF G2940 Page 3
 
 1,000
-34000
+3,000
 
 8,000
 6,000
@@ -135,7 +135,7 @@ Overheat at 15 percent of Total 4,560
 
   
 
-54,960
+34,960
 
 Less Estimated Balance of Funds under
 Grant NSF G2940 as of July 1, 1957 22,000
@@ -146,9 +146,9 @@ Additional Funds requested for 1957-58 12,960
 
  
 
-WA BBD. a Are Ve aon
+A A hy At bu We i
 
-be
+he
 
 
 ENCLOSURE B
@@ -188,7 +188,7 @@ Time Period: Three years, with a reassessment during the fall of
 Proposed Research - Background Information:
 
 We are organizing what should be one of the most fruitful
-centers for research related to the use of electronic computers
+centers for research related to the use of electronic computers.
 in this country. IBM is contributing one of its 704 machines,
 maintained and equipped with appropriate auxiliary equipment.
 IBM and MIT are providing the building, part of the new Compton
@@ -212,17 +212,17 @@ some of this research.
 
  
 
-CAT roa ANE € ils Ti Silin I 02s Aa. > a a at AAR EAE tb Fda hh LAE pet ap ns ed IN hE
-' 8 : -
+& dial at cia RAN € i TA rilicn I Si Ar. Sa a atte ARE tly Falah LE pe pin i 0 1
+a 8 3 -
 
-A Nels in ctl $0 0 0 AS Btn A
+0 Ns oe i a Ft TO i BA Dt A
 
-wn ary who dt)
+aden ol dry it)
 
-A “ Coa A,
+A “i Coa Aly
 
 
-—— A —  ———— tp GT sw 4 BW
+—— i —— A 4
 
 Extension of NSF G2940 Page 5
 
@@ -254,24 +254,24 @@ will, in part, provide an expanding basis of knowledge of numbri-
 cal analysis and programming techniques, which can be used by the
 other participants at the Center and will, in part, break ground
 in new fields of mathematical logic and methods of data processing
-—_— will be needed in the application of digital computers to
-new tasks. |
+Which will be needed in the application of digital computers to
+new tasks.
 
 Most of the senior staff for such a research group is
 already assembled at the Institute. Part of it is the group which
-developed Whirlwind I programming; others are in various depart -
+developed Whirlwind I programming; others are in various depart-
 ments of the Institute. From time to time, some of the staff of
 the participating colleges will join it for a semester or a year,
 on leave from their institution, to work full time at the Center.
 
-IBM-and the Institute will contribute about a half million
+IBM -and the Institute will contribute about a half million
 dollars a year to provide the equipment, building, maintenance and
 operating staff of the Center. We believe that a contribution of
 about $120,000 a year will support the activities of the central
 research group, which will energize and take the lead in the
 research carried on at the Computation Center by students and
 staff of MIT and the particppating colleges. We list later in
-thls proposal some of the specific research projects we are pre-
+this proposal some of the specific research projects we are pre-
 pared to start on. Other projects will develop naturally from
 these and from the problems encountered by the other workers at
 the Computation Center.
@@ -284,15 +284,15 @@ to preparing thelr programs, will need help in detailed coding
 and will prefer to have our staff carry out many of the actual
 runs on the computer. This will add to the duties of the staff,
 and part of the additional cost will be charged to those projects
-which can afford this extra service. Those students and faculty
+which can afford thls extra service. Those students and faculty
 members who cannot afford to pay for this help will be able to
 
 ‘use the machine, but will be expecté@&d to do their own coding,
 
-AT Ba tpt as Es POA Sel wagribrsind ot 187
+AT tthe a is OO Seb anid at 183
 
 
-Extension of NSF G2940 i Page 6
+Extension of NSF G2940 a Page 6
 
 Enclosure B, Continued
 
@@ -316,7 +316,7 @@ support of a staff to investigate applications of
 
 igital computers in the social sciences. Thus only about
 
-535,000 a year is needed to complete the support of the Center
+35,000 a year is needed to complete the support of the Center
 
 staff, enough to support that part of the staff concentrating on
 
@@ -339,7 +339,7 @@ rogram should be re-evaluated to determine needs beyond
 
 1. Investigation of Structure and Syntax of input languages;
 the possibilities of coding directly in mathematical, logical or
-business language. ;
+business language. f
 
 2. Development of routines capable of translating from
 algebraic notation to computer code and vice versa, including
@@ -370,27 +370,23 @@ increasing the flexibility of computer design. The posbibility
 of inclusion of a very flexible control unit in a large-scale
 computer which would permit ready alteration of an order code.
 
-a Ss
-S12 p ACERT be
-: CASI
-. - ”
-ry Ek co = pF — gad bey a \ = -
-Rg A erst . ‘ wen inden iS idl i in re. -~ i + a =; g - =
+pa A
+Si pA CET RTA be
+: CA SL
+- - -
+e h tad Cc “ — ga  - ™ ky .
+Al J peal ‘ i a ln SS, CD i i Ly, Fm = tr Ee = 4 co BE
 
  
 
-a :
-MIAMSCOOAAT INA:
-7 SE ASAS MALAY [Ar LANA e
+A :
+IiamalAa ls ITA:
+> 3-432 8 AIA f {ALANA e
 
-a
-Vera ¢
+——
+Yes.
 
-TR WE SUT ITER
-
- 
-
- 
+TS ETT TERT
 
  
 
@@ -412,7 +408,11 @@ TR WE SUT ITER
 
  
 
-~~
+ 
+
+ 
+
+A
 
 
 Extension of NSF G2940 Page 7
@@ -464,7 +464,7 @@ interpreters, and the Type 407 Accounting Machine. The aggregat
 machine rental, in excess of $50,000 per month, will be donated
 by IBM.
 
-The Type TO4 EDPM unit is one of the fastest large-scald
+The Type TO4 EDPM unit is one of the fastest large-scala
 commercial computers available today. Sincé& the MIT installation
 will be but one of many in the field, techniques, programs, and
 numerical procedures developed for this machine will be of use
@@ -491,7 +491,7 @@ obtained from machine computation. For further biographic details
 see "Who's Who". Only a fraction of his salary will be charged to
 the Project.
 
-“os wa
+“se.
 
 
 Extension of NSF G2940 Page 8
@@ -506,7 +506,7 @@ connected with the operation of MIT computational work since 1940.
 In this capacity he has had considerable experience with the
 utilization of various analogue computing equipment - differential
 analyzers, ete., as well as a complete line of digital machines
-ranging from the IBM Type 601 through the Type 704. He received
+ranging from the IBM Type 601 through the Type 704. He recelved
 a B.S. degree in Electrical Engineering from the University of
 Denver in 1940, a M.S. degree in Electrical Engineering from MIT
 in 1946, and a Sc.D. degree in Electrical Engineering from MIT in
@@ -534,12 +534,12 @@ Engineering at Michigan, spent four years doling graduate work in
 Mathematics at Purdue and is, at present, finishing his doctor's
 thesis in Mathematics. He has had extensive experience in the use
 of analogue computers, with conventional IBM equipment and with
-Whirlwind I. . Hifrsetaoy oflhibesahargewiid bhecBRxpgedtto the
-Project. 0 hoch 0 o.
+Whirlwind I. . Hifrsetaoy oflhibesahargewiid bhecBRzpgedtto the
+Project. * oc on o.
 
 Dr. F. J. Corbatd, whose primary responsibility will be the
 administration and supervision of the IBM research assistantship
-and associlateship program of the 23 New England colleges at the
+and assoclateship program of the 23 New England colleges at the
 Center, will also carry out research and do consulting on research
 problems, especlally in the physical sciences. He received a B.S.
 in Physics from the California Institute of Technology in 1950 and
@@ -550,15 +550,15 @@ the Center. Part of his salary will be charged to the Project.
 
 In addition, the members of the MIT Machine Computation
 Committee and of the Computation Center's Advisory Committee on
-the cooperative program of the Center will be available for
+the cooperative program of the Center will be availlable for
 advice and cooperation. From time to time, if one of them can
 supervise a part of the Project, part of his salary may be
 charged to the Project.
 
 
-ils. 4 Aa EE A
-.
+ahs a 8
+oo
 
-ate!
+wd
 
 

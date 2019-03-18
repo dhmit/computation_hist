@@ -2,7 +2,7 @@ Prob. No. Lab.
 
 1133 LNS
 1143 LNS
-1150 LVS
+1150 LNS
 1157 LNs
 1160 LES
 1176 LS
@@ -35,7 +35,7 @@ Hours Not Used
 
 Hours Overdrawn
 
-Cumulative Hours llot Used
+Cumulative Hours liot Used
 Cumulative Hours Overdrawn
 
 Joint Computing Group
@@ -64,50 +64,50 @@ E. Loh
 J. Coccoli
 
 M. Strandberg
-P, Penfield
+P., Penfield
 A. Bers
 
 J. Cochran
 
 P. Chorney
 
-G. Guttrich
-G. Gerstein
+GC. Guttrich
+G. Cerstein
 
 Time Distribution
 RLE
 
 352
 
-$43
+443
 27
 
 352
 
 120
 1175
-0
+3
 
 August 30, 1961
 
 Hours in May
 
-Lis
+LS
 
 616
 
-538
+3538
 26
 
 271
 
-45
+&5
 
 032
 
 3
 161
-320
+30
 40
 68
 176
@@ -119,9 +119,9 @@ Lis
 
 o [4
 
-Coo oCco
+COO Co
 
-o
+=
 
 Total Hours
 784
@@ -148,7 +148,7 @@ oouwugo
 
 1403
 
-f&
+f2
 
 
 Lab.
@@ -158,14 +158,14 @@ Total
 User
 
 E.
-Ii.
+i.
 D.
 P.
 J.
 J.
 P-
 R.
-G.
+GC.
 
 Loh
 Pless
@@ -175,7 +175,7 @@ Cochran
 Coccoli
 Chorney
 Kyhl
-Gerstein
+Geratein
 
 Joint Computing Group
 Time Record
@@ -201,7 +201,7 @@ Hours Total Hours Use by Laboratories
 
 4.75 23.25
 
-17.25 17.29
+17.25 17.25
 167.25
 
 

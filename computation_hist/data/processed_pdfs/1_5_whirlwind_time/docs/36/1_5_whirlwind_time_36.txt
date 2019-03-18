@@ -1,20 +1,20 @@
-FRR MASSACHUSETTS INSTITUTE OF TECHNOLOGY.
-5 iL PE DEPARTMENT OF ‘ELECTRICAL ENGINEERING
-23 “DIGITAL COMPUTER LABORATORY :
-521 MASSACHUSETTS AVENUE Ce Porn Shek
+ea MASSACHUSETTS INSTITUTE OF TECHNOLOGY.
+0 A Lp PLE DEPARTMENT OF ‘ELECTRICAL ENGINEERING
+23 DIGITAL COMPUTER LABORATORY
+211 MASSACHUSETTS AVENUE Sy Fa he
 CAMBRIDGE 39, MASSACHUSETTS =~ = =
 
   
 
-‘GORDON S. BROWN, FACULTY ADVISOR HT a A
+GORDON S. BROWN. FACULTY ADVISOR Hr Ty a pe
 
-5 os
+RE
 
-~~ JAY W._FORRESTER. DIRECTOR. oe A : SIAR Bh me Re TT TELEPHONE ELIOT, 4-3311 CH
+~~ JAY W.FORRESTER. DIRECTOR. ve WE a : SIRT Bh sR a TET UTLERHONE ELIOT 4-311 CH
 
-ROBERT R. EVERETT. ASSOCIATE DIRECTOR ~~ ~~ =a oo = CRNA : hE oh D.1.C.-6845
+ROBERT R. EVERETT. ASSOCIATE DIRECTOR ~~ =a . i SERRE J D.1.C.-6843
 
-AAT "HARRIS FAHNESTOCK, EXECUTIVE OFFICER : Be
+Rr "HARRIS FAHNESTOCK, EXECUTIVE OFFICER : B32
 
 ‘May 31, 1956 5
 
@@ -24,15 +24,15 @@ Mr. Alan I. Green
 ‘Boston, Massachusetts
 Dear Bir:
 
-i © 1 have been Ros 00 Gunde 7ies mensist
+i“ © I have been sitiorized to arodit. yusr sceount
 with 20 minutes of machine time on the Whirlwind I computer
-which was used to complete your work ain rou 357,
+which was used to complete your work under robles 357,
 Propagation of Round-off Error, |
 
-FF, M, Vergzuh
+F, M, Verzuh
 PNV:mmt
 
-cc P, NM, Norse
-~ Le T, Brock
+cc P., NM, Norse
+~ Ls T, Brock
 
 

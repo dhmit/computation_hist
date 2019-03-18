@@ -1,11 +1,11 @@
-6345
+63408
 April 26, 1958
 
-Hr. Joseph B, Walsh
+Hr. Joseph B., Walsh
 Room 1-321
 Massachusetts Institute of Technology
 
-Dear Sir:
+Dear Sir;
 
 I been authorized to credit your account
 with 1 hour of machine time on the Whirlwind I computer
@@ -14,13 +14,13 @@ propagation of fatigue cracks, and necessitates the
 solution of a Volterra integral equation,
 
 If you find that you need more time, it will
-be necessary to subnit a mew request.
+be necessary to subunit a mew request.
 
 Sincerely,
 
 ry, MN, Yerzuh
 
-FHV .mmt
+FHV :.mmt
 ¢c Prof, 8.H.Crandall
 Prof. P.M Norse
 L.T.Brock

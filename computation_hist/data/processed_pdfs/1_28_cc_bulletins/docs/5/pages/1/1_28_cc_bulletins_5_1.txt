@@ -1,0 +1,52 @@
+COMPUTATION CENTER
+Massachusetts Institute of Technology
+Cambridge 39, Massachusetts
+
+BULLETIN
+
+No. 23
+July 16, 1962
+
+SUGGESTION
+
+The Center suggests that you file these BULLETINS as
+informal supplements to your Procedures Handbook.
+
+PROGRAMMING COURSE
+
+There will be a one week programming course given by
+the Computation Center during the period September 4 through
+September 8, Classes will meet from 9:00 a.m. to 5:00 p.m.
+each day at the Computation Center with morning lectures
+and afternoon laboratory use of the computer.
+
+The course presentation will not assume any previous
+computer experience. Emphasis will be primarily on
+programming with the FORTRAN compiler language, but the use
+of the FAP Assembler Language and the MAD compiler will also
+be included. The 7090 Monitor System which allows flexible
+and automatic operation of the computer will be described,
+In addition, the procedures and conventions of the Center
+will be reviewed. Participants will have the opportunity
+to run programs they have written during the course.
+
+Additional information and application forms may be
+obtained from MIT Department Headquarters, New England
+Institutional Representatives or from Miss Sandra Parrella
+at the Computation Center, Room 26-142.
+
+COMPUTATION CENTER MEMORANDA
+
+ 
+
+The following CC memos of general interest have been
+released since the last BULLETIN. Copies may be obtained
+in Room 26-142.
+
+CC-174-1 Description of a FAP Version of XSIMECF,
+
+XDETRMF. An update of the write-up of
+the subprogram to solve a set of
+simultaneous equations and evaluate a
+
+determinant.

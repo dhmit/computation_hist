@@ -18,7 +18,7 @@ vices which have been considered for the 704.
 
 I have now been informed that the instruction Back Space Fileis
 still being engineered and we do not have any estimate of when it will be
-available for installation. The instruction for Modification of Read- Write
+available for installation. The instruction for Modification of Read-Write
 Check is still under discussion as a result of the last Share meeting and there
 is no definite decision on the availability of this. The two modifications for
 Overflow Indicators and Floating Point Trap have been revised in terms of a
@@ -37,10 +37,10 @@ MIT in April,
 
 Sincerely yours,
 
-= = AAA ALA
+a5 Ee CAAA ANAA AA
 
 G. Truman Hunter
-GTH/ jeh \
+GTH/ jeh
 
 cc: Prof. P. M. Morse ,
 

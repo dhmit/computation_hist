@@ -3,15 +3,15 @@
 December 6, 1954
 
 Mr. Marius Troost
-Building 4 Room 111 :
+Building 4 Room 111 ;
 Massachusetts Institute of Technology
 
 Dear Sir:
 
-I have been authorized to credit your account
+I hzve been authorized to credit your account
 with 2 hours of machine time on the Whirlwind I computer
 to enable you to initiate a study of the influence of
-geometric design parameters on the critical mass,ete.
+geometric design parameters on the critical mass, ete.
 in connection with ¥IT's new nuclear resctor,
 
 If you find that you need more time, it will

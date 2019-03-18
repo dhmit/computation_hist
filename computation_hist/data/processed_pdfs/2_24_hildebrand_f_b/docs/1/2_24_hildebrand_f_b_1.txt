@@ -3,7 +3,7 @@
 MASSACHUSETTS INSTITUTE OF TECHNOLOGY
 CAMBRIDGE 39, MASSACHUSETTS
 
-oFfFIcEoFr F. M, Verzuh
+oFfFiIcEoF F. M, Verzuh
 
  
 
@@ -29,16 +29,16 @@ into two parts. The first contains the machines which were paid
 for with Center of Analysis funds from monies which were earned
 while the Center was operating on a selfsupporting basis. It
 should furthermore be emphasized that these machines were not
-purchased either as part of a DIC contract or departmental ap-
+purchased either as part of a DIC contract or departmental ap=-
 propriation, but rather from the profits earned by the Center of
-Analysis,
+Analysis.
 
 The second group consists of calculators which were
 procured under DIC Project no. 6112 to be used for a particular
 task. These machines are not therefore MIT property and, ac-
 cording to Mr. Rogers (who is in charge of DIC property), they
 are transferable to Harvard on the new contract which has
-recently been issued to Dr. Jacchia's group. I am merely in-
+recently been issued to Dr. Jacchia's group. 1 am merely in-
 cluding the second group for the sake of the record.
 
 It should be noted that these machines currently carry
@@ -55,9 +55,9 @@ shall report to you about later,
 
 Sincerely yours,
 
-| 7 m. a
+J m. onc
 
-«MM, Verzuh
+« M. Verzuh
 
 
 I.
@@ -110,14 +110,14 @@ CA-15
 CA-16
 
 NPG-1
-NPG-2
+NPG=-2
 NPG=-3
 NPG-4
 NPG=5
 NPG-6
 NPG=-7
 NPG-8
-NPG=©
+NPG=-©
 NPG-10
 NPG-11
 NPG-1R%
@@ -125,7 +125,7 @@ NPG=-13
 
 Serial No.
 
-- 295439
++ R95439
 
 542688
 166805
@@ -145,7 +145,7 @@ Serial No.
 180147
 128423
 180131
-349296" ©
+349296"
 126484
 180138
 349228"
@@ -161,7 +161,7 @@ Type of Mach.
 
 3000 mach.
 
-l10-place
+10-place
 8-place
 10-place
 10-place
@@ -181,7 +181,7 @@ Date
 9-21-42
 12-4-42
 12-4=-42
-12-4-42
+1R=-4-42
 5-10-45
 5-10-45
 5-10-45
@@ -193,18 +193,18 @@ Total
 
 of NCR machine)
 
-3000 mach.
+3000 mache.
 
 10-place
 10-place
 
 10=-place
 10-place
-10-place
+l10-place
 10-place
 
 10-place
-10-place
+10=-place
 
 l10-place
 
@@ -212,10 +212,10 @@ under DIC project 6112 etc.
 
 R-4-44
 
-33%
+33
 These machines are no longer here but were turned-in on new
 
-Monromatic machines.
+Monromatic machines,
 
 Ce
 
@@ -225,7 +225,7 @@ Purchase
 Price
 $595.00
 Gratis"
-$692.50
+$622.50
 $546 .00
 $692.50
 $692.50
@@ -235,7 +235,7 @@ $546.00
 
 $546.00
 
-$5402 . 50
+$5402 .50
 1815.25"
 
 $7217.75

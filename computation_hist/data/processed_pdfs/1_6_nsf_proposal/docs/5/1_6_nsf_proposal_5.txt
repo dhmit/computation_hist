@@ -1,12 +1,12 @@
 NATIONAL SCIENCE FOUNDATION
-: WASHINGTON 25,D.C. =
+WASHINGTON 25,D.C.
 
-© February 28, 1956
+© February 28, 2956
 
-Mr. L. E. Beckley :
-Assistant Director =
+Mr. L. E. Beckley
+Assistant Director 3
 Massachusetts Institute of Technology
-‘Cambridge 39, Massachusetts 2
+‘Cambridge 39, Massachusetts :
 
 Dear Mr. Beckley:
 
@@ -20,7 +20,7 @@ Tt is requested that this copy be signed as mentioned on
 page 6 of the enclosed Guide for the Submission of Research
 
 Proposals and returned to this office for regular proces=-
-sing. So rT |
+sing. = LEE, |
 
 Sincerely,
 

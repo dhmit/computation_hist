@@ -1,5 +1,5 @@
-Office of Supt, Bldg. and Power
-Room 24-117, M, I, T,
+Office of Supt, Bldg, and Power
+Room 24-117, HM, I, T,
 
 Att: Miss Olson
 
@@ -26,8 +26,8 @@ Room No,
 
 26-054
 
-26-1338
-26-157
+26-133
+20-157
 
 Key No,
 
@@ -49,7 +49,7 @@ Key No,
 
 26-1355
 
-26-089
+26-0869
 26-047
 
 Name
@@ -114,7 +114,7 @@ Staff
 
 Employee
 
-Snployee
+Smployee
 Employee
 
 Staff
@@ -129,12 +129,12 @@ Employee
 
 June 24, 1957 page 2
 
-Room No, Key No, Name Present Rank
+Room Wo, Key No, Name Present Rank
 26-161 26-07 Abrahams, P, W, Staff
 Hershenov, J, Staff
 Weinitechki, H, Staff
 26-163 26-22 Hansen, K, F, Staff
-Honech, H, C, Stats
+Honech, H, C, Staff
 Troost, M, Staff
 26-165 26-41 Jones, M, HM, Staff
 Ness, N, F, Staff

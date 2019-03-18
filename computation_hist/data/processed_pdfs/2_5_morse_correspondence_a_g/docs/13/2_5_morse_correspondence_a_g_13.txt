@@ -1,7 +1,7 @@
-White IT ale. on
+ide IT aale En
 
-; Corwnlp let, y
-Approximations for Digital Computers .
+: Corl le\y, y
+Approximations for Digital Computers “
 
 Cecil Hastings, Jr. * 136 Kuuala Street *  Lanikai, Hawaii
 
@@ -19,27 +19,27 @@ The Converging Pp Method (Part V)
 Let us glance back at the Part IV install-
 ment. We finished there with a deviation
 decreasing cycle in which the greatest
-error of approximation was reduced to
+érror of approximation was reduced to
 €=.558. In the initial portion of the next
 cycle, deviations of magnitude (.358)(.85)=
-«504 are imposed at i=1 and i=2, with the
-result given in (2) after "Compute Error
-Data.,' Here «295%.358 and this cycle turns
+. 504 are imposed at i=1 and i=2, with the
+result given in (2) after 'Compute Error
+Data.' Here «295%.358 and this cycle turns
 out to be a 'p Increasing Cycle' as indi-
 cated in (3).
 
 The calculation
 
-@) pR= CONE
+(1) pi= =Le200 ops
 
 takes place.
 
 The more delicate touch that is applied in
 the next cycle thru use of p=.925 becomes
 evident in (4). Note that (.358)(.925)=,33]
-and that .3317.307., as a result .3%31 is
-imposed at i=] and .507 is imposed at 1=2,
-Because of the situation achieved in
+and that .3317,3207, as a result .331 is
+imposed at i=] and .507 is imposed at i=2,
+Because of the situation achieved in ;
 memory B in (4), the control now shifts to
 deviations i=0 and i=] as Pictured in (5),
 
@@ -58,7 +58,7 @@ Approximations for Digital Computers
 The Converging p
 Method
 
-eee eee.
+——————
 
 (Part V)
 

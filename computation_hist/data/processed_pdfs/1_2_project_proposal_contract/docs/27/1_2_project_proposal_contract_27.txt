@@ -7,8 +7,8 @@ J. D. Porter
 TO: Dr. F. L. Foster
 Room 5-105 ... .~-
 
-SUBJECT: Continuation of Contract N50ori06001 (D.I.C. 6345 and
-6915) beyond current expiration date for the period
+SUBJECT: Continuation of Contract N5ori06001 (D.I.C. 6345 and
+6915) beyond current expiration date for the pericd
 1 July 1955 through 30 June 1956
 
 REFERENCE: O.N.R. Contract N50ri06001
@@ -24,26 +24,26 @@ more is needed for this part of the work. |
 
 Project 6345 (Wwl operation) will have an increased
 pudget next year of about $160,000, caused by the considerable
-inerease in the use of WW1l for pure research, by groups in all
+inerease in the use of WWl for pure research, by groups in all
 Departments of the Institute. The increased cost of this increase
 in aid to research work will be borne by instituting a system of
 charges for machine time to those non-0.N.R. projects at M.I.T.
 which can afford to help, in accordance with a procedure which has
 been approved by O.N.R. It is estimated that the "income" from
-these charges will be about §60,000 next year. In addition, about
+these charges will be about $60,000 next year. In addition, about
 370,000 will be left unexpended, of funds already allocated to
-5345, by 30 June 1955. ‘this leaves $30,000 to be rcquested in
+5345, by 30 June 1955. ‘this leaves $30,000 to be requested in
 new funds. The details of the combined budget for the two projects
 
-nen) 2 AE Amt ACANT  ~ Ren Re IA ER Al Ss MT ~ RX) Joh
-pzing vn K30YlU0CUL die S1iVil CL vais sav paps sic vamn Crlci'e
+nen) 2 ATE: And AAMNMNT  ~ 8 ery Ra 7 hn Yon RTH rmeg ra ee A ra al pot 1 ME ~ RR) i
+mioing UD AoC LOU. dae S1iVih CL vais sav paps ssiv vamn Crlcie
 
-8 i= Ln :
-for the two projects 1
+a i= . :
+for the two proJests 1
 
-tneludes ©
+ioclivdes
 
-ew —-
+a —
 
  
 
@@ -55,31 +55,31 @@ a —
 
 1. Research in methods of numerical analysis and the
 formulation of scientific problems for machine
-solution, together with the tralnlng of pcrscancl
-in these methodad.
+solution, together with the tralnlng of pcrscnncl
+in these methods.
 
-~’
-¢
+od
+ts
 
 2. Support of the scientific and engineering applications
 group of Project "whirlwind® so as to make the computer
 useful and available for the above research.
 
 
-as Estimated BUDOET
+Ea Estimated BUDOET
 Salaries and Wages
 
  
 
-=O.
+=D
 
-for D.I.C. 6345 and 6915 — ———————
+for D.I.C. 6345 ana 69185 ——————
 
  
 
-Administrative Supervision 7 6,350
-Technical Supervision, Professor 1/3 time 3,000
-20 Research Assistants and Associates at an THEE
+Administrative Supervision : 2 6,350
+Technical Supervision, Professor 1/4 time 3,000
+20 Research Assistants and Associates at an ee
 average salary of $2,400 48,000
 - T Mathematicians at $6,000
 (Analysts and Programmers) | 42,000
@@ -93,7 +93,7 @@ Travel 5,000
 Materials and Services
 including replacement computer parts,
 office supplies, reports, telephone, etc. 25,000
-i a Ny EE ee 229,710_ -
+oT a i, ee me tm om i De SR 229,T710_ -
 Estimated unexpended funds 140,000
 Estimated "income" from machine charges ~ _60,000
 200,000

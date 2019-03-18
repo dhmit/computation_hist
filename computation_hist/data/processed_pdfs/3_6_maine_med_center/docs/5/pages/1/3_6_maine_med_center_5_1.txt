@@ -1,14 +1,12 @@
 Reprinted from
-"Proceedings of The New England Cardiovascular Society, 1957—58”.
+“Proceedings of The New England Cardiovascular Society, 1 957 I8
 
 FURTHER STUDIES ON THE EFFECT OF THE INTRACARDIAC BLOOD
 ON THE ELECTROCARDIOGRAM
 
-C. V. NELSON, Ph.D.,* M. CHATTERJEE, M.D., and E. T. ANGELAKOS, PhD.
+C. V. NELSON, Ph.D.* M. CHATTER]JEE, M.D,, and E. T. ANGELAKOS, Ph.D.
 
- 
-
-From the Cardiac Research Laboratory, Maine Medical Center, Portland, Maine, and the Physiology Dept,
+From the Cardiac Research Laboratory, Maine Medical Center, Portland, Maine, and the Physiology Dept.,
 Boston University Medical School, Boston, Mass.
 
 In the theory of the electrocardiogram, the heart is
@@ -16,60 +14,54 @@ assumed to act like a current generator immersed in
 a homogeneous conductive medium. The concept of a
 homogeneous medium has been subject to criticism.
 Many studies have been made, for example, of the pos-
-sible effect of the lungs. Although published ﬁgures for
+sible effect of the lungs. Although published figures for
 the electrical resistivity of the lungs vary widely, model
 studies have shown that even if the lungs had a resis-
 tivity four times that of the other tissues, the maximum
 error in any surface potential would not be more than
-20%. Another factor which might invalidate the homO<
+20%. Another factor which might invalidate the homo-
 geneous medium idea is the presence of the blood in the
 heart chambers. The electrical resistivity of whole blood
 is much lower than that of muscle and other thorax
-tissues. According to Schwan and Kay,1 the ratio is
+tissues. According to Schwan and Kay,! the ratio is
 only 1/10. This ratio is considerably lower than that
-reported by other workers; usual values are one to four
-or ﬁve. The effect of a highly conducting mass near a
+reported by other workers ; usual values are one to four
+or five. The effect of a highly conducting mass near a
 current dipole can be studied most simply by means of
-the method of electrical images.2 Brody3 showed that
-the ettect of a spherical cavity ﬁlled with blood would
-be to increase the ﬁeld potentials if the dipole axis is
+the method of electrical images.? Brody® showed that
+the effect of a spherical cavity filled with blood would
+be to increase the field potentials if the dipole axis is
 normal to the sphere (radial dipole), or to decrease the
 potentials if the dipole is tangential to the sphere.
 
-Previously reported experiments‘ with an artiﬁcial
+Previously reported experiments* with an artificial
 dipole within the ventricular cavity indicated that the
-effect of the “shunting” action of intracardiac blood was
+effect of the “shunting’ action of intracardiac blood was
 to reduce the electrocardiographic potentials by about
 25%. In the experiments reported here, we have placed
 the dipole inside or across the myocardium in an effort
 to reproduce physiologic conditions more closely. Two
 approaches have been made: (a) Electrodes were in-
 serted in the myocardium of exposed live dog hearts in
-situ, and subthreshold stimuli were applied. The stimu»
+situ, and subthreshold stimuli were applied. The stimu-
 lus signal was recorded during systole and diastole, in
 order to see if the changing blood volume caused a varia-
 tion in amplitude. (The difference was only about 10%.
-This small dill‘erence was possibly due to the relatively
+This small difference was possibly due to the relatively
 large residual blood volume.) (b) The hearts were
-removed, and after the inllow and outﬂow vessels were
+removed, and after the inflow and outflow vessels were
 cannulated, they were placed in a tank modeled after
-the human thorax. The tank was ﬁlled with saline of
+the human thorax. The tank was filled with saline of
 
- 
-
-ablishetl Investigator of the \Int'llCiul Heart \ssmizition.
-. project supported by giants lrom the Maine and \ .:
-chusctts Heart Associations and by Grant No. [I 2590 of the
-USPHS.
-
-T
-
-   
+*Established Investigator of the American Heart Association.
+This project wpportul by grants from the Maine and Massa-
+c,husctts Heart Associations and by Grant No. H-2590 of the
+USPH
 
 resistivity 1000 ohm-cm. Saline of the same resistivity
 was perfused through the heart, followed by a solution
 having the resistivity of whole blood. The deflections
-produced by the artiﬁcial dipole in the two cases were
+produced by the artificial dipole in the two cases were
 compared. In addition, the effect on the dipole of a
 metal sphere in the tank was tested.
 
@@ -77,42 +69,38 @@ Figure 1 shows the results of an experiment in which
 two platinum disk electrodes were sutured on the epi-
 cardium of the right ventricle of a heart immersed in
 
-FIGURE 1
+FIGcure 1
 
-w=
-Doe I:
-mm vmmt: 5mm Eucraunrs
-mum...“ um:-
-I: m—
+Dos#IZ
+RIGHT VENTRICLE SurFace ELECTRODES
+(TancewTiaL Dirowr) +
+L =970 ——
+, s If‘ L
 
- 
+oz 0°, B:-150"
 
- 
-
- 
-
-' In ~20 .zo
-Dim~u~cn
+WHo 20 +30
+\ Distamce -CM
 
  
 
 the tank. The curves show the distribution of potential
 around the wall of the tank at mid-ventricular level, as
-measured by a series of dis (5 permanently mounted in
-the tank wall. $45.7 cm corresponds to the center of
+measured by a series of disks permanently mounted in
+the tank wall. ==45.7 cm corresponds to the center of
 the back, and zero cm corresponds to the center of the
-front wall (mid-sternal line). The ettect of the low-
-resistivity ﬂuid is to reduce the amplitude of the poten-
+front wall (mid-sternal line). The effect of the low-
+resistivity fluid is to reduce the amplitude of the poten-
 tials all around the wall. The tabular insert shows that
-unipolar and bipolar limb leads are also reduced. Be—
+unipolar and bipolar limb leads are also reduced. Be-
 cause of this more or less uniform reduction, the angle
-a is virtually unchanged. (a, deﬁned as the angle
+a 1s virtually unchanged. (a, defined as the angle
 between the spatial vector and the horizontal plane, is
-used in preference to an, the Einthoven angle, since
+used in preference to @ the Einthoven angle, since
 all components of the vector are thereby taken into
-accountF‘)
+account.”)
 
 Figure 2 is for a similar experiment with a trans-
 mural dipole in the left ventricle, where the estimated
 angle of the dipole with the myocardial wall was 70°.
-The effect of the low-resistivity tluid is now to increase
+The effect of the low-resistivity fluid is now to increase

@@ -1,20 +1,20 @@
-Prob. Ho. iab.
+Prob. IO. iab.
 
-798 18S
+798 INS
 108k RIE
 1087 RLE
-1088 OR
-13120 INS
+1088 oR
+1320 INS
 1133 INS
 1i35 RIE
-1137 ims
+1137 ifs
 1138 RIE
 1139 INS
 iby ITS
 ike RIE
 1143 1S
-1ikh Is
-13k5 Ns
+11kh Ins
+13k5 INS
 1146 RLS
 
 igboratory
@@ -23,7 +23,7 @@ Hows Employed
 Hours Used
 
 Canputing
-Cverhead
+Overhead
 Sick leave
 Vacation
 Clesces
@@ -34,7 +34,7 @@ Bours lloc Used
 Hours Overdramm
 
 Cumnlative Hours Not Used
-Cumlative Bours COverdravn
+Cumlative Bours Overdravn
 
 Requested by
 
@@ -50,7 +50,7 @@ L. Delves
 
 A. Helgesson
 WW. Turchinetz
-X. Fomlend
+XK. Fomlend
 
 H. Mark
 
@@ -71,8 +71,8 @@ RIE INS SS
 25 25 0
 c2 0 0
 0 20 0
-8 1 C
-281 Sih 0
+8 x o
+281 Shh 0
 273 0
 292
 
@@ -106,8 +106,8 @@ LO
 8
 2
 
-ge |8
+£ |8
 
-EB [hoou®
+B lhoowd
 
 

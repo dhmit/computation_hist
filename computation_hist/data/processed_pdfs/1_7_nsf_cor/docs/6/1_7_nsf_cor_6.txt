@@ -17,7 +17,7 @@ sent to NSF by DSR April 9, 1957, extending it for two more
 years.
 
 
-Extension of NSFG2940 to June 30, 1960 Page 2
+Extension of NSFPG2040 to June 30, 1960 Page 2
 
 Signed
 
@@ -28,7 +28,7 @@ Principal Investigator
 
 Approved
 
-Carli ¥. Floe
+Carli F., Floe
 Assistant Chancellor
 
 Dr. P. L. Foster, Director
@@ -73,7 +73,7 @@ Publication Costs _2,500
 
 Total Costs (2 years) 61,000
 
-Overhead at 15 percent of Total 0,150
+Overhead at 15 percent of Total 0.150
 
 Total Budget for the 2 years July 1958 to June 1960 $ 70,150
 

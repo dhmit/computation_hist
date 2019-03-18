@@ -1,5 +1,5 @@
 JOINT COMPUTING GROUP
-TINE RRCOID
+TINE RRCOD
 MARCH 1960
 
 April 18, 1960
@@ -11,11 +11,11 @@ Prob, No, Lab Requested by In March Hours
 1084 RLE V. Yngve 52 2674
 1087 RLE L. Mower 4 361
 1088 OR H. Galliher 25 1997
-1120 LES K, Huang 8 656
+1120 LES XK. Huang 8 656
 1133 LES 1. Delves 28 635
-1137 LES ¥. Turchinesz 30 2h8
-1139 LNS H, Merk 14 9h
-1143 LNS A, Tubis 106 368
+1137 LES ¥. Turchinesz 30 258
+1139 LNS H, Merk 14 9k
+1143 LNS A. Tubis 106 368
 1146 RLE G. Bekefi 42 97
 1147 RLE H, Stroke 140 52
 1148 RLE J, Coccoli 1731 15
@@ -32,35 +32,35 @@ Houre Employed 568 270 0 28 90
 Hours Used
 Computing 506 32L 0 0 25
 Overhead 26 0 L 6
-Sick Leave 0 0 0 0 0
+Sick Leaves 0 0 0 0 0
 Vacation 4 0 0 0 0
-Classes 11 0 0 0 0
-Total 557 36M 0 ly 31
-Hours Not Uged 11 2 59
+Clagses 11 0 0 0 0
+Total 557 364 0 Y 31
+Hours Not Uged 11 24 59
 Hourg Overdrawn 9
-Cumulative Hours Not Used L5l 1293
+Cumulative Hours Not Used Lsl 1293
 
-Cunmtlative Hours Overdrawn 766 981 0
+Cuntlative Hours Overdrawn 766 981 0
 
 
-Di
+Dre
 
-IGP - 30 Time Record
+LGP - 30 Time Record
 
 Uger Hours In Totel Hours Use by laboratories
-EER March
+ET March
 
 Lab Hours In Totel
-R. Scharenberg 55. 117.5 March Hours
+R. Scharenberg HS. 117.5 March Hours
 P, Demos 11% 291.5
 H., Mark 6.5 15.5
-G, Bekefi ee 37»
-H. Stroke 17.5 17.5 INS 174% 498.5
+G, Bekefi ee 37.
+H. Stroke 17.5 17.5 INS 17u% 498.5
 P, Brot 5 5 RLE 66 81
-J, Coccolil 13 13
-W. Grant $5 5.5
-R. White 3 5
+J. Coccoli 13 13
+W. Grant R.5 5.5
+R. White 3 3
 
-Testing Demonstration § 42
+Testing Demonstration § uo
 
 

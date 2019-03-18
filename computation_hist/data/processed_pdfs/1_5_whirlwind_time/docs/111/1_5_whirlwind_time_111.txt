@@ -1,16 +1,16 @@
 6348
 November 2, 1965
 
-Mr. Anthony Turane, Jr.
+Mr. Anthony Turane, Jr,
 
 Building 12 Room 096
 
-iassachusetts Institute of Technology
+ilassaohusetts Institute of Technology
 Dear 3irs
 
 I have been authorized to eredit your account
 with 10 hours of machine time on the Whirlwind I computer
-for work on problem 2900, Heat Transfer in Turbulent Flow.
+for work on problem 280, Heat Transfer in Turbulent Flow.
 I understand that this problem is now completed,
 
 Sincerely,

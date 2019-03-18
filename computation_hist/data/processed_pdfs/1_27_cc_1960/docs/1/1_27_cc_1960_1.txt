@@ -24,7 +24,7 @@ cooperating New England colleges and universities. The primary
 
 purpose of the arrangement is to enable students and faculty of
 
-these institutions to learn how to use high-speed computing machines
+these institutions to learn how v0 use high-speed computing machines
 effectively, so that the next generation of scientists, engineers
 
 and industrial executives will be able to exploit machine capabilities =-
@@ -59,12 +59,12 @@ for one or more laboratory sessions. Class use will expand further,
 Pw
 
 but ite expansion will be hampered by the limitations of access
-to the 704, as will be discussed later.
+to the 704, as will be discussed later,
 
 The use of the machine by the other colleges has expanded
 rapidly until nearly a full shift is now occupled with their work
 (including their class exercises). But this use tends to be self-
-limiting for, as soon as g college faculty begins fully to apprec-
+limiting for, as soon as a college faculty begins fully to apprec-
 late the possibilities in education and research of computers, the |
 
 of their own. These are smaller machines, of the 650 type, (with
@@ -89,7 +89,7 @@ Programming Development. The Center staff has already
 developed an automatic operator routine which is being adopted by
 other 704 users. More general assembly programs; such as the
 Linking Segment Subprogram Loader, which combines Fortran, SAP amd
-other special codes; COMIT, which enables the 704 to be used on
+other special codes; COMIT, which enables the TO4 to be used on
 language translation problems: and LISP, which enables the machine
 to handle non-numericail logic, such as algebraic and other symbolic
 manipulation, are being developed and tested. The work at MIT in
@@ -121,7 +121,7 @@ will be of general benefit to the development of the computer field.
 Machine-guided Education. Computers can, of course, aid in
 grading examinations, scheduling classrooms and students and do
 other clerical tasks incidental to large classes. But computers
-also can be programmed to carry out some of the detalled guestion-
+also can be programmed to carry out some of the detalled gquestion-
 and-answey interchange which occurs in recitation sections. The
 Center staff is now working with the Language Department at MIT
 to program the TOI to guide a student through some of the phases
@@ -136,15 +136,15 @@ sharing machine time with regular computation. Therefore further
 development of this research will shortly require a flexibility the
 704 lacks but the 7090 does possess. Potentially, the use of com-
 puters will help to solve the problem of giving individuvalized
-training in the sciences at all levels, without excessive demands
+training in the sciences at all levels; without excessive demands
 on the time of able teachers.
 
-Machine-scientist Cooperative Regearch (Synergy) . in
+Machine-scientist Cooperatlie Regearch (Synergy) . in
 
 addition vo the examples Just mentioned, there are many other research
 programs which can only progress effectively if the machine is
 
-able to carry out calculations on immediate demand and display the
+able to carry out calculations on immedlate demand and display the
 result or feed it back immediately into the experiment, so the
 experiment or the scientist can go on to the next step and request
 
@@ -159,7 +159,7 @@ character-recognition studies, the research on economic forecasting
 and on cperational behavior using large-scale simulation techniques,
 
 
-eh
+Ha
 
 should be of particular interest to IBM, for they have direct
 bearing on the progress of computer design and utilization. They
@@ -169,12 +169,12 @@ the combination of research and education for which MIT is pre-
 eminent. This work deserves support by IBM, in addition to the
 educational activities which are already being supported by the
 present contribution of the 704. They can most effectively be
-supported by the installation of a T7090, replacing the 704, in
+supported by the installation of a T090, replacing the 704, in
 the near future; MIT will then be able to provide the ancillary
-equipment to push ahead with dispatch. Because of the "inter-
-connectedness" of much of this research, it can best be carried
-out (perhaps it can only be carried out) in the atmosphere of
-mutual cooperation and exchange of information provided by the
+equipment to push ahead with dispatch. Because of the "inter
+connectedness” of much of this research, it can best be carried
+out (perhaps it can only be carried out} in the atmosphere of
+mitual cooperation and exchange of information provided by the
 Computation Center.
 
 Outlook for the Future: The activities mentioned above
@@ -190,7 +190,7 @@ which will be supplemental to the on-campus small machines for the
 other New England colleges and which, for the MIT class needs, can
 be improved in efficiency by time-sharing techniques; 2) on thesis
 researc and 3) on Just those aspects of research which advance the
-design, programming and utility of the computer in new fields.
+design, programming and utility of The computer in new fields.
 Research programs in other new directions, which involve machine
 use (metrology, nuclear reactor design and the like) should only
 be supported by the Center by grants of time while they are in the
@@ -203,17 +203,17 @@ obtain financing to make These runs on one of the several other
 similar machines which are or will be in operation in the vicinity.
 
 Even with this sort of limitation on the use 'of the Center
-facilities, the demands on the Center will grow. But the growth,
+facilities, the demands on the Center will grow. But The growth,
 if thus limited, can, we believe, be handled by the ‘cooperative
-effort of IBM and MIT. A 7090 within the year would not delay most
-of the work outlined above, K too, seriously. And, as outlined below,
-it would be able to handle them for several years, wihiile plans are
-made for the next step. On the other hand, if a 7090 cannot be
+effort of IBM and MIT. A T7090 within the year would not delay most
+of the work outlined above, too, Seriously. And, as outlined below,
+it would be able to handle them for several years, while plans are
+made for the next step. On the other hand, if a T0990 cannot be
 
 nw HM
 
 
-==
+=5=
 
 provided soon, several of the projects mentioned above will have
 to terminate or else will have to use other machines, which would
@@ -229,7 +229,7 @@ which will attract, train and inspire the new generation of
 machine experts.
 
 Proposal: It is proposed that some time during the summer
-or fall of 1000 a 7090 be substituted for the present TO4. Details
+or fall or 1000 a 7090 be substituted for the present 704. Details
 of the specific equipment to be included are already under dis-
 cussion with IBM staff. Several data synchronizer channels should
 be included, and a disk memory, in addition to a variety of input-
@@ -239,7 +239,7 @@ related program modifications so that the time-sharing aspects of
 the research can start as soon as possible after the T7090 is
 installed. The Center staff will of course continue its close
 cooperation with the various IBM research groups, 80 the design
-implications of the time-sharing developments will be available to
+implications of the time-sharing developments wlll be avallable to
 these groups as the work progresses, and so that minor changes in
 the 7090, to improve substation effectiveness, can be made with
 expedition and mutual understanding, either before or after the T090

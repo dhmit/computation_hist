@@ -1,5 +1,5 @@
 ‘Application for for a , Grant for the
-i. Support of Machine Programming Staff Staff for the Utilization of
+i... Support of Machine Programming Staff Staff for the Utilization of
 Electronic Computers in Social Science
 
 The Facility and its Potentlalities
@@ -11,7 +11,7 @@ to unclassified research and education. IBM will contribute more
 than a fifth-efsa million a year in its support for maintenance
 and operation. What is needed, in addition, to make this an
 outstanding center for the investigation of digital computer
-potentialities in all branches of scientific research, is about
+potentialities in all branches of scientific research, ls about
 £100,000 a year for the support of a research staff, which can
 work with scientists in various fields to develop new and more
 effective techniques of machine utilization.
@@ -26,7 +26,7 @@ completed by February 1957. Details #f the installation and of
 arrangements with the participating colleges are given in Enclosures
 
 B and C to this proposal. This Center and these arrangements <
-Se pEaRt potentialities for new developments in social and physical
+repiegent potentialities for new developments in social and physical
 science of great and unexplored importance.
 
 There will be no charge, for machine time, made to students
@@ -34,7 +34,7 @@ There will be no charge, for machine time, made to students
 or faculty of the participating institutions. Maintenance and the
 
 
-De |
+-2e |
 routine aspects of operation will be taken care of by IBM, so that
 those who know how to use such equipment can use. it, without cost,
 up to the 14 hours a day during which the machine will be avall-
@@ -45,8 +45,8 @@ sciences learn how to use the equipment, other problems will be
 brought to the Center.
 The Importance of Team Research
 
-Put an instrumentality, by itself, cannot produce new
-research. To make the important advances, which are possible
+But an instrumentality, by itself, cannot produce new
+research. To make the important advances; which are possible
 with a computer of the speed and flexibility of this, one needs a
 team of research people, some of whom know the machine and some
 of whom know the research field. To get exciting new possibilities
@@ -98,21 +98,21 @@ members of research teams.
 
 Budget for the Social Sciences
 
-To make up a staff which could handle the soclal sclence
+To make up a staff which could handle the social sclence
 
 problems as well as the physical science ones would need another
 
 
-| oe 4
+| = Ha
 four or five good men, research men : plus the technicians to back
 them up, plus a small budget for travel and incidental supplies
 and eéguipment, approximately £35,000 a year for three years. It
 
- GtLlt Like skid ENeae years to get rolling and the developments
+would take about three years to get rolling and the developments
 
 should be reviewed at the end of three years, to see where to go
 next. Such a staff should be more important during the beginning
-stages of the utilization of electronic computers, when the SES
+stages of the utilization of electronic computers, when the probs
 lems are not too clearly formulated and when nelther partner in
 
 the team knows the others plans and ideas. Later, when some of
@@ -122,10 +122,10 @@ research can be split up into projects, each with a definite goal
 and with its own budget, which can include partial support for
 the continuing staff of the Center. So, eventually, the Center
 could be financed indirectly by contributions from each project
-which uses it, if this were considered to be the most desirable
+which uses if, 1f this were considered to be the most desirable
 way of keeping it going. At present, however, support by contribu-
 tions from established research projects can only support about a
-third of the £100,000 needed, which would leave unsupported the
+third of the $100,000 needed, which would leave unsupported the
 most frultful research of all, the unknown results which are sure
 to come when a machine expert of the Center staff works together
 with the economist, psychologist or sociologist, on the faculty
@@ -140,13 +140,13 @@ directions which this research effort will take, as the various
 teams are formed and begin to interact. There are several general
 
 
-be
+bm
 areas which we feel should be investigated, which are certain to
 produce results of immediate interest and which, in addition,
 
 should provide hints as to still more important applications.
 
-To A. One of these is the deeper 4dnvestigation of machine
+Eo A. One of these is the deeper 4dnvestigation of machine
 logic itself. A computer of the complexity of the 704 1s too big
 to be able to see immediately how it can "think." Most machines |
 are now programmed to do ordinary arithmetic, a few programs have
@@ -163,27 +163,27 @@ work out programs, rules of thought for the machine, which correspond
 more closely to these other patterns. With a machine of the
 flexibility and storage capacity of the 70%, such research is worth
 while. It will have to be tackled, at the beginning, by teams of
-experts in the field of interest, together with mathematical
+experts in the field of interest, together with mathematical |
 logicians who know machine operation.
 
 B. Another general line of attack 1s fhe field of the
 storage and rapid access to information, such as is needed in the
 problems of language translation and historical research, for
-example. Several schemes of ctding of information, sc that it can
-be found quickly and Sally: have been devised on paper, but the
+example. Several schemes of coding of information, sc that it can
+be found quickly and ezaily, have been devised on paper, but the
 "pugs" in such schemes will only become apparent when masses of
 information, of the order of several hundred thousand ltems, are
 
 to be ordered and sorted out. The new installation at the
 
 
-«de
-Computation Center will rave & storage capacity of this size. Sone
+oo
+Computation Center will rave & storage capacity of this size. Some
 of the proposed schemes should be tried out, and others developed,
 by members of the Center staff working with persons familiar with
 the information and its uses. For example, a project in machine
 translation has already been set up, ‘under ‘the direction of
-Professor. Locke of the Language Department. v As 1t develops sit
+Professor. Locke of the Language Department. . As 1t develops it
 will need the help of machine programming specialists and will
 need the use of a machine to test its ideas. The translation
 project 1s already supported by the Rockefeller Foundation, but
@@ -209,23 +209,23 @@ military operations research groups. Similar problems in vavious
 flelds of the social sciences can also be studied by simplifying
 
 
-Tw
+«T=
 
 the situation down to some sort of "game," with more or less
-complicated rules, which can be played by. groups of ahxestigators,
+complicated rules, which can be played by. groups of investigators,
 
-“to gee what are the consequences of ‘warious strategies. if the
+“to gee what are the consequences of ‘various strategies. if the
 
-"games" are to correspond, e even distantly, to some actual social
+"games" are to correspond, even distantly, to some actual social
 situation, the rules must be quite complicated and the scoring
-will require s great deal of statistical computation. It has
-been found that only by the use of comput ing machines Su the
+will require a great deal of statistical computation. It has
+been found that only by the use of comput ing machines aun the
 scoring be speeded up sufficiently so that enough games can be
 rin through to provide an overall grasp of the situation under
 study. Such "gaming techniques" are closely related to the
 experiments of Bavelas on the behavior of task-oriented groups.
 The use of a properly programmed computer would provide such
-experiments with a powerful and flexlble means of changing,
+experiments with a powerful and flexible means of changing,
 ‘controlling, and analyzing these experiments in social psychology.
 In this field we could work in close collaboration with the
 "Center for International Studies at KIT and with the psychology
@@ -244,8 +244,8 @@ forthcoming, about six top-flight social scientists from the
 participating institutions will be invited to join a special advisory
 
 
--8=
-committee, to talk over possible Lines of research with the Center
+B=
+committee, to talk over possible 1ines of research with the Center
 staff, to help find those social scientists with "gleams in their
 eye” regarding machine utilization in their field, to help arrange
 the formation of teams for the pursuit of the suggested research and
@@ -261,11 +261,11 @@ i installed in the Computation Center by February or March 1957,
 
 and the arrangements with other colleges in New England. The
 suggested budget, for three years, is tentative and is more
-dependent on our ability to hive one or two more experts in
+dependent on our ability to hire one or two more experts in
 computer programming than on the amount of work to be done. If
 
 we can find more men of the right sort, more work can be done.
-During the calendar year 1957 we may rot be able to find more
+During the calendar year 1957 we may not be able to find more
 
 than one senior man, one or two post-doctoral fellows and a couple
 of technical assistants. By the fall of 1957 we may be able to
@@ -274,34 +274,34 @@ to spend appreciable fractions of their time at the Center, works
 ing on some of the problems mentioned earlier. A suitable fraction
 of thelr salaries should be carried by the research funds of the
 Center and, if the work is in the social sciences, would be charge-
-able to the proposed grant. Some of the experiments in "gaming"
+able vo the proposed grant. Some of the experiments in "gaming"
 will require special input or-ufput equipment. Therefore, it may
-turn out that less than £35,000 wlll be spent the first year; more
+turn out that less than £35,000 willl be spent the first year; more
 than £35,000 the second. The important point, however, is that be-
 
 cause of the presence of the equipment of the Center, supported by
 
 
-«Ye |
+«Ge |
 
 IBM, the majority of the budget of this grant can be spent on
 salaries for people directly carrying out the research outlined in
-‘this proposal. Fa 0, | 0 ka
+‘this proposal. LE 0; | i Naa
 
 The staff can begin to be assembled this spring, but
 expenditures would probably not reach full rate until the summer
 of 1957. Consequently, the grant could officially start March or
 April 1957, or could start as late as June, if some earlier eXe
-penditures could be charged against the grant at that time.
+pendltures could be charged against the grant at that time.
 
 
-APPENDIX A se
+APPENDIX A Sa
 Estimated Budget per Year.
 Salary, senior scientist (1 full-time man, or two
 faculty members, half time) 9,000
 
 Salary, junior scientist (one full time research
-associate) | 7,000
+associate) | | 7,000
 
 Salaries, two technicians (coders or electronics
 
@@ -310,34 +310,34 @@ Equipment 1,000
 Travel 500
 Miscellaneous, Publication of reports, ete. 500
 
-Overhead, 20 per cent 7,200
-Total, per year #36,000
+Overhead, 20 per cent 1,200
+Total, per year F36,000
 
 For three years $108, 000
 
 
-5 AY cl
+3 AA cl
 
  
 
  
 
-The WIT. Computation Center has | been recently
+The WIT. Computation Center has been recently
 
-et established for the purpose of promoting academic research
-"in the New England area with modern elestronic digital
+he established for the purpose of promoting acadenio research -
+“in the New England area with modern elestronic digital
 
 computing machines. As such the Center will make available
 to New England Colleges research facilities which have been
 heretofore denied because of the large financial and stare
 
-obligations required for modern computer operation. To i
+obligations required for modern computer operation. To i.
 
 implement the operation of the Center, the IBM Corporation
 
 is installing a high-speed model 704 computer along with
 an extensive set of peripheral machines required for Sy
-proper usage. These machines will be. operated by the 0%
+proper usage. These machines will be. operated by the 0
 Center and will be at its disposal (with the exception of
 one-third of the 704 computing time which has been temporarily
 retained by the IBM Corporation because of the current
@@ -354,35 +354,35 @@ of about a dozen technicians required for the effective
 operation of the computer. The latter will include two
 
 
-er ea card punch operators
+en two card punch operators
 
-Ges computer operators) jone pair for each shift of persion. 5 : Eo rh
+er computer operators, jone pair for each shift of pension. 3 2 eo aD
 
-‘Besides Ah “technicians, the Center will have a |
+‘Besides She technicians, the Center will have a |
 
-research staff of from six to twelve persons. ‘who will be
+research staff of from six to twelve persons. who will be
 
  
 
-5 ‘partially supported by a National Selence Foundation grant. %
+5 ‘partially supported by a National Selence Foundation grant. :
 “This staff will work in part on the problems of making
-| wodern computers more powerful and easy to use, (e.g
+| wodern computers more powerful and easy to use, (eg
 utility programs, special function generation, compiler
-prograus), and will also explore | the undef ned region of
-new computer applications.
+prograus), and will also explore | the undef ined region of
+néw computer applications.
 
-In order that all the New England Seite can
-take an active role in the Center, the IBM Corporation is also |
+In order that all the New England Gollezss can
+“take an active role in the Center, the IBM Corporation is also |
 supporting : an assistantship program, There are at present.
 
 35 research assistants and associates in this program;
 graduate students and faculty members of the participating
-New England Colleges. The ma jor Sareaee of the program is
-to promote broad academic familiarity with sodérm computer
+New England Colleges. The major purpose of the program is
+to promote broad academic familiarity with wodern computer
 techniques and applications. The individual assistants
 
 and associates will do research in their respective
-specialties, with the general SeLEhEith that the work should
+specialties, with the general criterion that the work should
 lead to results of publishable significance. This aspect of
 the program will be supervised at the Center by a full-time
 research Associate.
@@ -397,16 +397,16 @@ faculties of the other New England Colleges. The members
 of these Two groups also act as supervisors over the activities
 
 
-ik the research assistants and. assostates at the respective
+or the research assistants and. assostates at the respective
 
-5 Ao. or schools.
+“1 mma or schools.
 
 The facilities of the Center will be avaiable. to
-any. person from MI. 7, or the New England Colleges. “Ngsts
+any. person from MI. 7, or the New England Colleges. “Requests:
 
-for computing time will be submitted to the M, L: T. dopartnental
+for computing time will be submitted to the M, x: T. dopartnental
 
-© representive or the Institutional Representative ‘at the
+~~ representive or the Institutional Representative at the
 
 respective schools. Pinal approval of computing time requests A
 
@@ -418,38 +418,38 @@ will be. made by the Computation Center staff. ALL computation
 
 preparation (e.e. ‘programming, analysis, card punching) will
 
-Ne on a serve-yourself basis, with the research staff at the
-© Genter available for extra help only by special arrangement.
-Tu = All computational work involving. the use of the
+be on a serve-yourself basis, with the research staff at the
+© Center available for extra help only by special arrangement.
+Tu Br All computational work 1nvolving the use of the
 Center will be periodically summarized in a report to be
 published semi-annually. The Center also conducts a weekly
 geminar on topics related to computers. In addition, computer
 
 time for student problems will be made available to those
 
-| departments and colleges with aonroun whisk Seish the use
+| departments and colleges with courses whieh teach the use
 
 of modern computing machines.
 
 
-| The MIT ‘computation Center will have its ;
-peraanent quarters on the M. I.T Campus. in the new ‘carl T.
+; | The MIT ‘computation Center will have its ;
+pernanent quarters on the M. I.T. Campus. in the new ‘carl T.
 Compton Laboratory, which is scheduled for completion about
-March 1957. In this building the ‘Center will occupy
+March 1957. In this building the ‘Center will ‘occupy
 integrated parts of the basement, first floor and second
-floor. This area will have office space for the research
-staff, technicians, research assistants and associates,
-| besides room for the computational equipment used by the
-Center. Nira
+floor, This area will have office space for the research
+~ staff, technle¢lans, research assistants and associates,
+| besides room for the computational equipment used by the |
+Center. | Was
 
-ST. Re compubing equipment of the Center, which
+Sir. he computing equipment of the Center, which
 «111 be furnished by the I.B.M. Corporation, will primarily
 consist of a 704 computer and the related peripheral
 equipment. This machine 1s an up-to-date, fast, general-purpose
 electronic digital computer. The basic machine code
 includes over 80 instructions, including those for arithmetic
 operations with floating-point numbers. The basic operating
-time 4s 24 microseconds for most instructions, with a normal
+time 4s 24 wicroseconds for most instructions, with a normal
 maximum of 240 microseconds. The 704 to be installed will
 have a magnetic core memory with a storage capacity of
 8192 words, each word containing 36 binary digits. (The
@@ -457,17 +457,17 @@ storage capacity will be increased to 32,768 registers in
 1958.) The computer will also have, as an additional
 storage device, a magnetic drum with a 8192 word capacity.
 
-Az with most modern computers, magnetic tape 1s used both
+Az with most modern computers, magnetic tape is used both
 
 
-for additional storage and for taput-output requirements. oe
+for additional storage snd for taput-output requirements. 0
 
-oe he. installation will have 13 tape units, (at most 10 under fi
+ha he. installation will have 13 tape units, (at most 10 under Fa
 
-computer sontrol), each unit storing up to a maximum of
+computer control), each unit storing up to a maximum of
 900, 000 words.
-: eT addition to the magnetic tape nite, the |
-| input-output equipment which will ve under direct computer |
+Ym addition to the magnetic tape units, the |
+| input-output equipment which will be under direct computer |
 control will be a punched card reader, a 1ine-by-1ine printer,
 a card punch, and a photographic oscilloscope unit. In
 addition there will be units, not attached to the computer
@@ -475,19 +475,19 @@ directly, for recording card information on magnetic tape
 and for reading information from magnetic tape and printing
 or punching cards. Finally, for ecard preparation purposes,
 there will be the usual assortment of standard IBM accounting
-machines, including key punches, printer, reproduder, sorter,
+machines, including key punches, printer, reproducer, sorter,
 ete. |
 
 As a further feature the installation will also
 include a punched card tranceiver which is a device for
 transmitting or receiving punched card information via
 telephone lines to remote punched card centers similarly
-equiped with a tranceiver unit.
+equiped with a trancelver unit.
 
 An additional computer output device planned
 for the near future, will be a Photon machine to be
 
-provided by the Photon Incorporated. adn so
+provided by the Photon Incorporated. a
 machine, designed as a high-quality photographic replacement
 for periodical and book type-setting, will offer the oppor-
 tunity of transcribing computer results directly into better-
@@ -497,11 +497,11 @@ Because of the possibility of bullt-in self-checking, the
 process can be made completely error-free. The Photon machine
 
 
-therefore should Play a vital role in the publication of %
+therefore should Play 2 vital role in the publication of %
 
-i numerical ‘tables or similar problems where perfect publication i
+numerical ‘tables or similar problems where perfect publication i
 
-Egy accuracy is required. Other specialized input and output devises
-are to be added as 5. they are developed and as the need arises.
+fs accuracy is required, Other specialized input and output devises
+are to be added as S. they are developed and as the need arises.
 
 

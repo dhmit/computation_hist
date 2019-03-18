@@ -1,0 +1,48 @@
+of the relationship of computing to traditional mathematics seemed to cause some
+of the problems For example there was a feeling that there was not sufficient
+understanding or recognition of numerical anslysis which invoived sxperimental
+technigues vsing a computer rather than theoretical analysis It was even ques~
+tioned by one pansl mmember as to whether the relationsghip of computer science to
+other fields such as linguistics was not as close as to the pure mathematical dis-~
+ciplines
+
+Several suggestions were made to improve the understanding of computer
+science TFirst a comaputing ceanter staff with representatives from different
+academic arsas might help spread the understanding of thie field At one university
+this was accompanied by offering & apecial series of lectures on applications to
+certain disciplines A second group of suggestions dealt with sloppy computer
+housekeeping operation and sloppy documentation of distributed programs which
+tend te discredit the field of ressarch itself. The proceedings of the Harvard
+Switching Symposium of 1957 was given as an example of a responsible publication
+There was a general feeling that the way to establish computer science was to do
+creditable research deeds not words, that computer science was becoming recoge
+nized and that we need not have a chip on our shoulder.
+
+Three specific recommendations were put on record by the pansl as impor~
+tant contributions to solving this problem:
+
+1. THE CENTER SHOULD RESERVE STAFF TIME COMPUTING TIME, AND
+BUDGETARY SUPPORT SPECIFICALLY FOR DOING COMPUTING RESEARCH
+AND SUPPORTING COMPUTING RESEARCH BY OTHERS IN REMOTE AREAS
+BUT WHICH WERE STILL PERTINENT TO THIS FIELD~ (IT WAS POINTED
+OUT THAT THIS ACTIVITY DOKES NOT APPLY TO THE SMALL COMPUTING
+CENTERS AS DEFINED ELSEWHERE IN THIS REPORT IN THE PANEL ON
+BUDGET AND ADMINISTRATION).
+
+2 THE CENTER SHOULD DE IDENTIFIED AS A RESEARCH ORGANIZATION
+RATHER THAN A SERVICE ORGANIZATION. { AT ONZ UNIVERSITY A
+SEPARATE ORGANIZATION IS RESPONSIBLE FOR THIE ACTIVITY.)
+
+3. EDITORIAL STANDARDE OF A HIGHER QUALITY WERE RECOMMENDED
+FOR PAPERS SUBMITTED TO JOURNALS, AND SIMILARLY HIGHER SELF=-
+IMPOSED ETANDARDS FOR PAPERS PRESENTED BY UNIVERSITY STAFF
+AT COMPUTER MEETINGS, THIS SUCGGESTION WAS ALSO INTENDED TO
+APPLY TO THE INTERCHANGE OF COMPUTER PROGRAMS AND REPORTS,
+
+1. What T 8 of Activities The Organization Of Thege Can Be uely Iden~
+tified And Developed With Academice Standards So That The © er Science Rew
+gearch ¥ill Not Be Considered A Subordinate Function?
+
+Gradually throughout the sessions, certain topics were identified by various
+panel members with computer science, Although no extended discussion or classi-
+fication of these followed, those topics frequently mentioned included:

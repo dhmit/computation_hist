@@ -1,0 +1,51 @@
+o
+
+provided soon, several of the projects mentioned above will have
+to terminate or else will have to use other machines, which would
+inevitably mean the dissipation of the Center's usefulness in
+coordinating this sort of research.
+
+It is not intended that the Center should have a monopoly
+of all computing around MIT; this would be unrealistic and, as
+indicated above, impossible. But it must play an active role in
+supporting and instigating research into new applications if it
+is to continue to be the focus of new ideas and of exciting activity
+which will attract, train and inspire the new generation of
+machine experts.
+
+Proposal: It is proposed that some time during the summer
+or fall of 1000 a 7090 be substituted for the present TO4. Details
+of the specific equipment to be included are already under dis-
+cussion with IBM staff. Several data synchronizer channels should
+be included, and a disk memory, in addition to a variety of input-
+output equipment. In the meantime tThe Center staff will be preparing
+pilot models of the substation, time-sharing conscoles, and the
+related program modifications 80 that the time-sharing aspects of
+the research can start as soon as possible after the 7090 is
+installed. The Center staff will of course continue its close
+cooperation with the various IBM research groups, sSo the design
+implications of the time-sharing developments will be available to
+these groups as the work progresses, and so that minor changes in
+the 7090, to improve substation effectiveness, can be made with
+expedition and mutual understanding, either before or after the 7090
+is delivered.
+
+The total locad on the T090, the work of the cooperating
+institutions, the class and thesis use and the machine-use research
+discussed above, would initially use more than one shift of machine
+time, but probably would not use more than two shifts for the first
+year. Consequently it would be possible for IBM, during the first
+year of operation, to utilize the third shift in a manner similar
+to what was done on the 704 during its first year of operation.
+
+It is likely that this IBM usage would taper off, as it did with
+the 704, so that as the program outlined above expands, it could
+eventually use all three shifts (plus Saturdays): the New England
+colleges taking up to one shift, the MIT classroom and thesis work
+taking up to another shift, and the new-applications research taking
+up the rest of the time. MIT would supply the operating and
+programming staff, in addition to the management and coordination
+with other colleges; IBM would supply maintenance, amortization of
+bullding space, support of the research assistantship program and
+reimbursement of MIT's expenses in the cooperative program, as it
+does at present with the TO04.

@@ -7,9 +7,9 @@ Although our IBM 704 is now delivered and is in storage at
 MIT, delay in completion of the building to house it has delayed
 commencement of the project financed by NSP grant NSF G2940. As
 a result, it is estimated that only about $8,000 will have been
-spent by June 30, 1957, Staff members, which were to have been
+spent by June 30, 1957. Staff members, which were to have been
 transferred to this project, have been continued on the Whirlwind
-project until the change-over, and most of them will not be trans-
+project until the change-over, and most of them wlll not be trans-
 ferred until summer. It is therefore proposed that the project be
 continued until June 30, 1958, with an additional grant of only
 $13,000, so that in the full year of full operation, July 1957 to
@@ -21,14 +21,14 @@ Progress to Date
 
 Although the NSF funds have not been used to any extent, work
 on the first aspects of the proposed research has gone forward
-as rapidly as is possible without the TO4 being in running condi-
+as rapidly as is possible without the TO4 being in running condl-
 tion. A complete utility and a post-mortem program have been
-developed, and tested out on borrowed 704 time, a much more
+developed, and tested out on borrowed 7O4 time, a much more
 flexible assembly program than at present avallable has been
 begun, ready for active ceding when our 704 is in operation.
 Discussions have been begun with a view to investigating the
 incorporation of a flexible output equipment utilizing the
-photographic "linotype"” equipment called Photon. Many programs
+photographic "linotype" equipment called Photon. Many programs
 of importance in physics and engineering have been, or are being
 translated from Whirlwind language to 704 language, such as the
 work of the Solid State Theory Group under Prof. J. C. Slater
@@ -38,7 +38,7 @@ Princeton where their work was initiated by Von Neumann, 1s
 planning to use a substantial amount of machine time, and will
 require the advice and help of our staff to program their various
 calculations. We will be assisting the Harvard Observatory staff
-in calculating satellite orbits in preparation for, and during,
+in ealculating satellite orbits in preparation for, and during,
 the IGY satellite "shoots". Dr. S. Ulam of Los Alamos, who has
 been a Visiting Fellow to the Center this year, has been assisting
 us develop "Monte Carle” techniques. Prof. John MeCarthy of the
@@ -50,7 +50,7 @@ grams. The staff of the MIT library is interested in exploring
 the possibilities of storing and recovering information by
 machine methods and a2 project in the MIT Language Department on
 machine translation, supported by the Rockefeller Foundation,
-expects to use our equipment to test out their ideas. Other
+expects to use our equipment to test out thelr ideas. Other
 groups, at the 23 participating colleges, are planning further
 Work.
 
@@ -60,14 +60,14 @@ Extension of NSF G2040 Page 2
 Plans for Next Year
 
 All of these projects, and more, will stretch the capabilities
-and energies of the Computation Center staff. - We expect to add
+and energies of the Computation Center staff. : We expect to add
 two more senior staff members this summer and hope to persuade two
 men now completing their Doctor's degrees to stay on as junior
 staff members for a year or two. It is certain that most of the
 . research subjects outlined in our original proposal to NSP will
 be begun this coming year; it can be expected that the NSF portion
 of support for this work will reach the yearly rate of $35,000
-88 indicated earlier, and it is expected that this yearly rate
+a8 indicated earlier, and it is expected that this yearly rate
 will continue at about the same level for several further years,
 as was forecast in our original proposal (see Enclosure B).
 
@@ -79,25 +79,25 @@ Signed
 “ 1
 
 \
-Philip\M, Morse, Directo
+Philip Morse, Directo
 M.I.T. Computation Center
 
-Princips: Investigator
+Princirs: Investigator
 Approved
 
-"Carl F., Floe
+"Carl F. Floe
 Assistant Chancellor
 
-~ Dr. F. L. Foster, Director
+~ Dr, F. L. Foster, Director
 Division of Sponsored Research
 
 Enclosures A and B
 
-a er  ——— AMET)
-———— — — + ——— — Date —-
+—— I ——————— ——— AAT)
+—————— ——— —————— Date a
 
 
-Extension of NSF G2940 Page 3
+Extension of NSF 82940 Page 3
 
  
 
@@ -110,11 +110,11 @@ Other Faculty Members (1/3 of $9,000) 3,000
 Salaries of Full-Time Staff
 1 Senior Investigator 8,000
 1 Junior Investigator 6,000
-1 Technician (eemputer, programmer) 5,000
+1 Technician (computer, programmer) 5, 000
 1 Secretary-Typist 3,000
 Total Salaries 26,000
 
-Permanent Equipment (desk te) peaial
+Permanent Equipment (desk SO ees, Spsvlal
 
  
 
@@ -131,14 +131,14 @@ Overheat at 15 percent of Total 4,560
 Total Yearly Budget 34,960
 
 Less Estimated Balance of Funds under
-Grant NSF (2040 as of July 1, 1957 22,000
+Grant NSF G2040 as of July 1, 1957 22,000
 
  
 
 Additional Punds requested for 1957-58 12,960
 
 
-Wr tg Tr 3
+CG aE
 
 Extension of NSP G2940 Page 4
 
@@ -148,11 +148,11 @@ Excerpts from Original Proposal for Funds
 (modified to bring it up to date)
 
 Name and Address of Institutions
-ee et a wees en TE 0. A ec ee : ¢
+A et eee ee EE 0 ee 4 ‘
 Massachusetts Institute of Technology, Cambridge 39, Mass.
 
 Title of Proposed Research:
-sso TT TI9POSed hesearchn:
+S=2et YC TIUPOSCU hesearcn:
 Research on Digital Computer Operation and Utilization
 
 Investigation into the patterns of operation of electronic
@@ -163,7 +163,7 @@ of the possibilities of the complete mechanization of the sequence
 of recording, processing, analysis and presentation of experi-
 mental data and the working out of such speeifie applications of
 machine techniques to problems in selence, engineering, and
-administration as will clarify the basie research and suggest new
+administration as will clarify the basie research and suggeat new
 points of view.
 
 Desired Starting Date: September 1, 1956.
@@ -176,9 +176,9 @@ Proposed Research - Background Information:
 We are organizing what should be one of the most fruitful
 centers for research related to the use ef electronic computers
 in this country. IBM is contributing one of its 704 machines,
-malntained and equipped with appropriate auxiliary equipment.
+maintained and equipped with appropriate auxiliary equipment.
 IBM and MIT are providing the building, part of the new Compton
-Laborato®y, and MIT is contributing some of the staff from its
+laborato®y, and MIT is contributing some of the staff from its
 departments of mathematics, electrical engineering, physics, and
 industrial management. The machine will be available, 35 or more
 hours a week, free of machine time charge, to MIT staff and
@@ -186,7 +186,7 @@ students for non-claszified and non-routine research, MIT
 research in the Center will be coordinated by the Institute
 Machine Computation Committee.
 
-In addition, the Center will be available, up to 35 hours
+In addition, the Center will be avallable, up to 35 hours
 & week, on the same basis, to other colleges in New England.
 Already 23 institutions have indicated their interest in parti-
 elpating and have appointed faculty members to be their Insti-
@@ -196,27 +196,27 @@ institution. IBM is providing some funds for stipends for
 graduate students who wish to learn machine use by helping with
 some of this research.
 
-te pee a ———
+pr pn —————
 
 
-Extension of NSF G2940 Page 5
+Extension of NSP G2940 Page 5
 Enclosure B, Continued
 
-In this atmosphere and with these facilities, there 1s an
+In this atmosphere and with these facilities, there is an
 unparalleled opportunity to do important and basic research in
 all phases of the use of digital computers in science, engineering,
 and business. A central research group, supervised by faculty
 members and staffed by workers picked from the graduate students
 of MIT and other colleges, working closely with persons from the
 other colleges, will help coordinate the work of the Center and
-will carry on research of their own in machine logic, in tech=-
+will carry on research of their own in machine logic, in tech=-=
 niques of machine computation, and in specific applications of
 machine operation to experimental and theoretical problems, thus
 appreciably broadening the range of applicability of computer
 in the physical and social sciences and in engineering. :
 
 It is appropriate for government agencies to help support
-the research of this central research group. The group’s work
+the research of this central research group. The group's work
 will, in part, provide an expanding basis of knowledge of numeri-
 cal analysis and programming techniques, which can be used by the
 other participants at the Center and will, in part, break ground
@@ -229,7 +229,7 @@ already assembled at the Institute. Part of it is the group which
 developed Whirlwind I programming; others are in various depart-
 ments of the Institute. From time to time, some of the staff of
 the participating colleges will join it for a semester or a year,
-on leave from thelr institution, to work full time at the Center.
+on leave from thelr institutlon, to work full time at the Center.
 
 IBM and the Institute will contribute about a half million
 dollars a year to provide the equipment, building, maintenance and
@@ -240,7 +240,7 @@ research carried on at the Computation Center by students and
 staff of MIT and the participating colleges. We list later in
 this proposal some of the specific research projects we are pre-
 pared to start on. Other projects will develop naturally from
-these and from the problems encountered by the other workers at .
+these and from the problems encountered by the other workers at
 the Computation Center.
 
 Part of these additional funds ean be obtained from some
@@ -248,12 +248,12 @@ of the research projects which will use the facilities of the
 Center. Although the use of the machine itself will not be
 chargeable, most users will need advice from the Center staff as
 to preparing their programs, will need help in detailed coding
-and will prefer tc have our staff carry out many of the actual
+and will prefer tec have our staff carry out many of the actual
 runs on the computer. This will add to the duties of the staff,
 and part of the additional cost will be charged to those projects
 which can afford this extra service. Those students and faculty
 members who cannot afford to pay for this help will be able to
-use the machine, but will be expected to do their own coding,
+use the machine, but will be expected to do thelr own coding,
 
  
 
@@ -278,13 +278,13 @@ staff, enough to support that part of the staff concentrating on
 the physical science aspects of the activity. In order to get
 our plans well under way, thls grant should be continued for
 about three years (as with the Rockefeller grant), after which
-ras program should be re-evaluated to determine needs beyond
-t t date. ‘
+Phe program should be re-evaluated to determine needs beyond
+t t date. .
 
 Proposed Research - Possible Initial Directions of Investigation
 
 1. Investigation of Structure and Syntax of input languages;
-the possibllities of coding directly in mathematical, logical or
+the possibilities of coding directly in mathematical, logical or
 business language.
 
 |
@@ -332,7 +332,7 @@ the behavior of a computer with multiple accumlators. Some of
 these properties can be simulated on a 704 by utilization of
 additional drums and magnetic core banks.
 
-9. Computer estimation of problem time. In linear problems,
+9. Computer estimation of problem time. In linear problens,
 estimations of bounds of certain functionals, and thence conver.
 gence criteria for terminating iteration, or switching to a
 different iteration.
@@ -344,13 +344,13 @@ Data Processing Machine with the following machine complements
 12 magnetic tape units, 2 magnetic core storage units containing
 a total of 8,000 words, 1 magnetic drum unit containing #,000
 words of storage, the usual on-line punched card reader, alpha-
-betic printer, and punched card recorder as well as the 3 off-1ine
+betic printer, and punched card recorder as well as the 3 off-line
 magnetic-tape-controlled printer, magnetic-tape-controlled card
 punch, and punched card-to-magnetic tape converter, respectively.
 In addition to the 704 there will be 10 auxiliary punched card
 machines including card punches, collators, sorters, reproducers,
 interpreters, and the Type 407 Accounting Machine. The aggregate
-machine rental, in excess of $50,000 per month, will be donated
+gig rental, in excess of $50,000 per month, will be donated
 by °
 
 The Type 704 EDPM unit is one of the fastest large-scale
@@ -370,9 +370,9 @@ Bush differential analyzer was available at MIT in 1936. He got
 his Ph.D. in physics at Princeton in 1920 and has been at MIT since
 1931, with occasional leaves of absence. His publications include
 the books "Quantum Mechanics" (with E. U. Condon) 1930, "Vibration
-and Sound” 1936, "Methods of Operations Research" (with G. E.
+and Sound” 1936, "Methods of Operations Researeh" (with G. E.
 Kimball) 1950, "Methods of Theoretical Physics" (with Herman
-Feshbach) 1953, and "Queuing, Inventory and Maintenance" 1957,
+FPeshbach) 1953, and "Queuing, Inventory and Maintenance" 1957,
 and about a hundred journal articles, many of which give results
 obtained from machine computation. For further biographic detalls
 see "Who's Who". Only a fraction of his salary will be charged to
@@ -427,7 +427,7 @@ and numerical analysis at MIT and is now a Research Associate at
 the Center. Part of his salary will be charged to the Project.
 
 In addition, the members of the MIT Machine Computation
-Committee and of the Computation Center's Advisory Coomittee on
+Committee and of the Computation Center's Advisory Conmittee on
 the cooperative program of the Center will be avallable for
 advice and cooperation. From time to time, if one of them can
 supervise a part of the Project, part of his salary may be

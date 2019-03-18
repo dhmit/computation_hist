@@ -1,0 +1,51 @@
+April 13, 1959
+
+Academician 5. A. Lebedev, Director
+Computation Center
+
+Academy of Sciences
+
+Moscow
+
+U. S. S. R.
+
+Dear Academician Lebedev:
+
+Since last September I have, as you can see, become Director of the Research
+Computation Center at the University of North Carolina at Chapel Hill,. We
+will have as our computer to use the Univac 1105, an equipment similar to
+
+the two which are now being used by the Bureau of Census in Washingtion to
+process the 1960 U, 5. Census., It has over 8, 000 words of magnetic core
+storage, 32,000 words of drum storage, and 17 Uniservo tape units,
+
+We plan to have a Summer Conference on Frontier Research in Digital
+Computers from August 17-28 here in Chapel Hill, similar to the one held
+last year in Ann Arbor. I am enclosing a copy of the announcement. After
+this, the Association for Computing Machinery is to have its National Meeting
+in Cambridge, Massachusetts, September 1, 2, and 3.
+
+I have written invitations to Dr. Ershov and Professor Kantorovich, copies
+
+of which are enclosed, inviting them to give each a series of ten lectures at
+
+the Conference, in the same fashion that your colleagues did last year at
+
+Ann Arbor, under a similar agreement. After these lectures, Professor Perlis
+and I would be pleased to have them go with us to Cambridge.
+
+Unfortunately our conference here, because we, like Moscow State University,
+do not have an electrical engineering curriculum here, but rather at Raleigh,
+
+28 miles away, is not planned to have courses aimed at the design and con-
+struction of actual hardware. I do not feel able therefore to invite any lecturers
+from your group on circuitry or design. However, if you yourself, for example,
+should be interested in coming and giving one or more lectures on the general
+structure of digital computers in the Soviet Union, we would be very pleased.
+
+These lectures, of course, are based as beiore on the agreements on exchange
+of persons between the U. 8. A. and U. 5. 5. R., and we would expect that a
+similar invitation would be issued to a corresponding number of U. 5. computer
+scientists to visit your establishments and lecture to your or similar groups.
+
+I have talked to Bea Mittman of Armour Research Foundation in Chicago, who

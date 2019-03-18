@@ -1,4 +1,4 @@
--< "UO ©
+-< "UO &
 
  
 
@@ -6,9 +6,9 @@
 
 COMPUTATION CENTER
 
-MASSACHUSETTS INSTITUTE" OF TEGHNOOLOGY
+MASSACHUSETTS INSTITUTE OF TECHNOLOGY
 
-CAMBRIDGE 3 9, MA SIS:A CGH US BT TS
+CAMBRIDGE 3 9, MASSACHUSETTS
 
 March 9, 1960
 
@@ -16,7 +16,7 @@ Mr, E. C. Johnson
 
 Computer Development Department
 Bendix Aviation Corporation
-Southrield Twp., Michigan
+Southfield Twp., Michigan
 
 Dear Mr. Johnson:
 Regarding your letter of December 14, 1959,
@@ -26,7 +26,7 @@ available in written form.
 
 Sincerely yours,
 
-John McCarthy
+John MeCarthy
 Asst. Professor of
 Communications Sclences
 

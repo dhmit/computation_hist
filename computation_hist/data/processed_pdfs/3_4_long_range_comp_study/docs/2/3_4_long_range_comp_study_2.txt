@@ -1,6 +1,6 @@
 April 26, 1261
 
-MEMORANDUM FOR DR. FLOE
+MEMORANDUM FOR DR, PLOE
 
 With the letter of March 30, 1961, signed
 by Professors Fano, Morse and myself, we enclosed a
@@ -28,10 +28,10 @@ a group of about twenty-to-thirty people at M,I.T., who
 have a deep interest in and appreciation of these problems.
 I would also suggest that other copies of the report be
 put on file in the RLE headquarters for distribution upon
-request, I have made these statements clear to as many
+request. I have made these statements clear to as many
 of the original study group as I could find, and I think
 they understand them very clearly, and to some extent go
-along with them,
+along with them.
 
 The above statements are strictly my own and
 not those of Professors Fano, Morse or Wiesner. I believe
@@ -78,14 +78,14 @@ Professor Marvin L. Minsky
 Computation Center, RLE, Math, Department
 Professor Norman A. Phillips
 Meteorology Department
-Alexander L., Pugh, III
+Alexander L. Pugh, III
 Industrial Dynamics Group
-Douglas T, Ross
+Douglas T. Ross
 Electronics Systems Laboratory
 Professor Herbert Teager (Chairman)
 Computation Center, RLE and EE Department
 Professor Victor H. Yngve
-Depaytment of Modern Languages and RLE
+Department of Modern Languages and RLE
 
 I am also enclosing a written Transcript of a
 conversation I had with Professor Charney during the
@@ -103,19 +103,19 @@ Enclosures
 
 
 Transcript of conversation held between Dr. Hill
-and Professor Charney during M.l.T. Centennial
+"and Professor Charney during M.l.T. Centennial
 
  
 
-Hill; How big a computer could you use, all by
+Hill: How big a computer could you use, all by
 yourself, twenty-four hours a day, to
 pursue meteorological problems? Assume
 that you have all the operational help
-vou need.
+you need.
 
 CHARNEY: I probably could use a 7030 if : I wanted
 to devote all of my time to it - which
-I do not. I would like about cone hour
+I do not, I would like about cone hour
 per day on a 7090 for everyday use and
 indefinite time on a Stretch Type
 occasionally.
@@ -135,6 +135,6 @@ years.
 AGH: bl
 
 cc: Profs. Fano and rse
-Dr, Wiesner
+Dr, Wiessner
 
 

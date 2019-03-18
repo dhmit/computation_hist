@@ -1,10 +1,10 @@
 ~~" MASSACHUSETTS INSTITUTE OF TECHNOLOGY
 
-Memo 0 M, Mowe I ES
-0 fie, 0d gi» TEED
-\ WNL oe = fs
+Memo 0 M, Mowe I
+0 fie, 0d gir + TE Chige
+"\ Toni Tr a fs
 
-SC sg Ort Hn Lg E~-% Eo
+I sgh Ort Hn eg E-% w
 
  
 
@@ -21,9 +21,9 @@ as well as for a given 1 and 1' there are a total of
 
 (1+1') [men + 4
 
-possible L's. This expression must be summed on m: jm[< 1, and m':
+possible L's. This expression must be summed on m: |m{€ 1, and m':
 [m'] 1', and then summed on 1 and 1' from zero to some maximum value
-which we wish to include in the table.
+which we ’ wish to include in the table.
 
 The leading term in the resultant sum goes as 1° (sob). A fractional
 coefficient in front of this term can be gained by taking account of
@@ -31,18 +31,18 @@ coefficient in front of this term can be gained by taking account of
 the various symmetries of the C.-G.'s but this is immediately obliterated
 as soon as you include half-integer angular momenta.
 
-2 = ~
-Did I hear somebody say Lx 30%
+: = 5
+Did I hear somebody say Yn 30?
 Nick sends his warmest regards.
 
 Sincerely,
 
 Manny
 Manuel Rotenberg
-EPA MEPS SEAT TA,
+EEA PESTS EATAR A,
 MR:pae
 P.S. There exists a "Numerical Table of the C.-G. Coefficients" by
-Albert Simon, Oak Ridge: ORNL-1718, up to 1=1'=9/2. This seems
+Albert Simon, Oak Ridge: ORNL-1718, up to 1l=1'=9/2. This seems
 good enough for most problems feasible without a high speed
 computer.
 

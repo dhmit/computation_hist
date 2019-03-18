@@ -1,7 +1,7 @@
-NN
+NN.
 v
 
-*
+* a
 
 Draft
 
@@ -9,7 +9,7 @@ COMPUTATION CENTER
 Massachusetts Institute of Technology
 Cambridge 39, Massachusetts
 
-Memorandum to Users of the MIT Computation Center 704.
+Memorandum to Users of the MIT Computation Center TO4.
 
 Sub ject: Limitation on Computing Time
 
@@ -26,7 +26,7 @@ But the time used by the other colleges has increased, so that this year
 nearly all its time is filled and there is less for M.I.T.
 
 The Center has endeavored to accommodate for the increased load
-by Sone one Saturday a month (used primarily by the other colleges,
+bY SSUNE one Saturday a month (used primarily by the other colleges,
 the reieastd week-day time being used by M.I.T.) and by encroaching on
 the third (IBM) shift when processing delays rose to longer than 24
 hours. We hope to run two Saturdays a month this spring and to encpvoach
@@ -40,9 +40,9 @@ to impose quotas. Hereafter problems requiring machine time will be
 
 classified as follows:
 
-C oVL ANN ss
+C oVL ANA Xo
 
-A. For. use 1n : SH nek
+A. TFor use 1n : tl Aon wil
 
    
 
@@ -50,10 +50,10 @@ B. Problems which directly or incidentally develop new
 programs or techniques which will be useful to other
 machine users.
 
-c. Otherg Pall,
+c. Otherg Prllfww
 
 
-=a
+—-D
 
 If requested time for M.I.T. problems, per quarter, is larger
 than the estimated time available, allowed times will be reduced
@@ -68,7 +68,7 @@ the quarter, probably cannot be granted.
 In this way the Center hopes to keep The weekly computing load
 from being so great as to cause long processing delays. It will not
 cure the fact that M.I.T. has already outgrown the computing equipment
-1t now has. We at the Center will be glad to hear suggestions as to
+it now has. We at the Center will be glad to hear suggestions as to
 how we can get the equivalent of three or more 704's in the near future!
 
 Philip M. Morse

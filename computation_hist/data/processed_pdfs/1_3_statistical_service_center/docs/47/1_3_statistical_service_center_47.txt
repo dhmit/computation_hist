@@ -1,4 +1,4 @@
-DIC 698156
+DIC 68156
 
 MACHINE CHARGE
 
@@ -32,7 +32,7 @@ CREDIT:
 46475
 
 8475
-0450
+0.50
 50.50
 
 Cards, Plain manila
@@ -61,7 +61,7 @@ hours
 hours
 
 jo CHARGE: Machine Computation Committee
-p Att: Prof. Horse
+EF Att: Prof. Horse
 
 Statistical Services 2935 Account
 
@@ -97,11 +97,11 @@ Massachusetts Institute of Technology
 
 /hr.
 /hr.
-/hre.
+/hr.
 
 0440 /hr.
 
-HEH HAH HF
+HEH HAH EHH HF
 
 $ 18.00 /hr.
 $
@@ -118,26 +118,26 @@ Plus 10%
 /M
 JM
 
-HEH FH
+HH FH
 
 Plus 10%
 
 for.
-/hr.-:
-/hT a
+/hr.:
+/hT.
 
-3 fhe
+2 /hr.t
 
-PLP LBP BBR LL
+PLP LEP PBR LL
 
-28 thy,
+Be "JOT.
 
 1.10 /hr.
 
 ‘Date: November 17, 1954
 
 For services of punched-card equipment and personnel during period |
-October 1 through ogtober 81» 19854 - (177-1; Madelung Functions)
+October 1 through ogtober 81» 1984 « (177-1; Madelung Functions)
 
 «30
 

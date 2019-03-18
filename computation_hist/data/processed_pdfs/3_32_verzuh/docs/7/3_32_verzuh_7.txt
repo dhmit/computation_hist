@@ -1,46 +1,46 @@
-er
-Rs © gmoiiTed A Ee ama
-> - * —- BE TE TT TR
-$e. 2 5 n “=  — p= ——
-< Uh... —= rn cm
-Yo R. Teg nm ——,
-” & $l a Rr TRESS ’
-§ - tu - red =
-~— ! a.
+a
+W)C pmo sr cp ce Er
+>= - * a — PR TT RL TT TR
+oo. 2 5 A a  — ge —co—
+A Gk. FS i mgt TT — rc
+Yo Re A mT pp en,
+» , £ wl a RR TT TRE r= y
+§ -. “ - PEA a
+uh i ~
 a
 
 wright Alr revelopment Center
 ¥right-Patierscn Alr Force Base
 
 payten, Ohio
-Att: Lt. Col. He Co HERLY, USAF (WCRR)
+Att: Lie. Col. He S$. BERDY, USAF {WCRR)
 
-Sub ject: ontrack Ar3s(sie)=128
-cxpenditure er Wo. R=466 BR-1
+Sub ject: Contract Ar3si(sie)=128
+expenditure SEE Nc. R=466 BR=-1
 
-nt  ——C— ri ena SAS
+a  ———— A ee
 
-- he
+Fhe
 .
 
-Rg
-_z Soe . "
+a
+E LS, . .
 
 hi
 
 November 25, 1952
 
-Cra
+Wp wn
 
  
 
   
 
-rear Celonel Henryl
+rear Colonel Henryl
 
-This latter {8 to inform you that the following
+This latter {a to inform you that the following
 
-a
+ag
 |
 |
 |
@@ -55,7 +55,7 @@ a
 |
 |
 |
-{
+|
 |
 |
 |
@@ -73,32 +73,32 @@ a
 
 report:
 "solution of foundery-Value Problems OR
-Automatic Computing £qulpment”
+Automatic Computing £quipment”
 covering the work af the quarterly period ending August 31,
-10582 is being mailed prepaid to the following adceress:
+1082 is being mailed prepaid to the following aderess:
 
-AF 908 80
+AF 908 850
 
-service Area Blog, 258
+service Area Blog, 458
 
-dricght-Fattersoen Air Force oase
+drichte-Fattarson Air Force oase
 
-rayten, Ohio
+payten, Ohio
 
-Attn: WORK,
+Attn: WORK.
 
-i informed Ur, E. Po Little during the eerly part
+i informed Ur, E. Po Little dering the early part
 of the summer that the activity on this contract woulé not
-pe initiated in full volume on June 1, 1832 because of the
+pe initiated in full volume on June 1, 1852 because of the
 personnel procurene nt problems This, in pert, explains the
-delay in the submission of this first guarterly report.
-The other reason 18 simply that there are over 300 pages
+delay in the submission of this first guarterly repofi.
+The other reason 18 gimply that there are over 300 pages
 
-ir the report and ils preparation was an exceedingly timew
-consuming task, At any rate, one reproducible (a transparant
-cgalid) and four coples are being submitted under separete
+ip the report and ils preparation was an exceedingly time=
+consuming task, At sny rate, One reproducible (a transparasnt
+szalicd) and four coples are being submitted under separete
 
-Cover »
+COverT »
 
 |
 |
@@ -117,10 +117,10 @@ Cover »
 |
 |
 
-|] wish te emphasize that only a portien of the work
-represented hy this report was performed ssing funds of this
-contract. ¢pecificelly, this thesis recresents several years'
-work, and it is only the final stages of it which were performed
+1] wish te emphasize that only a portion af the work
+represented hy this report was performed assing funds of this
+contract. ¢pecificelly, this thesis represents several years'
+work, and it is only the final siages of it which were performed
 
 during this quarterly period.
 
@@ -129,17 +129,17 @@ Lt.Colonel H
 
  
 
-Eo en pabd 2) ovember £5, 1952
+en papd 2) ovember £5, 1852
 
 Attached you will find an abstract of this thesis
-repert which will give you an idea of its content. I hepe
+reperi which will give you an idea of its content. I hope
 this will be helpful to you,
 
 in conclusion, I wish to stale that the succeeding
-progress reports will not be as tardy as this one. Specifie
-cally, Luarterly Report Fe, 2 Is tc »¢ submitted to the
+progress reports will not be as tardy as this one. Specifie-
+cally, (uarterly Report Feo, 2 is toc de submitted to the
 printer on December 1st, and you should receive it as soon
-as the succesding publication technicalities will permit,
+as the succesding publication technicalities will permit.
 
 Very truly vours,
 
@@ -147,63 +147,63 @@ virector
 
 vil
 
-(Cs Adm, Office (WALC)
-ir. Eo. Fo Little
-VProf, P, ¥, Morse (M17)
+(Cs Adm, Office [(WALC)
+ir. E. Fo Little
+vProf, P, ¥, Horse (M17)
 
 
 wr WE )(
 
 This report is primarily concerned with the solution
-of uoundary-value preblems by means of autcmetice computing
-equipment (both enalogue and digital), Specifically, in
-addition to the familiar desk calculator, the fellewing
-digital computers were used in this study: the type 602A
-Electromechanical Calculator, the type 604 Electronic
-Calculator, the Card Frogrammed Talculator, and the M,I1.T,
-ihirlwind Computer, The anfilogue studies were obtained by
-uga of the M,1.T. Rockefeller Differential Analyzer,
+of uoundary-value preblems by means of autcometic computing
+equipment {both enalogue and digital), Specifically, in
+oddition to the familiar desk calculator, the felloewing
+digital computers were used in this studyd the type 602A
+Electromechanicael Calculator, the type 604 Electronic
+Calculator, the Card Frogrammed Tslculater, and the M,I.T,
+ihirlwind Computer. The anfilogue studies were obhlained by
+uga of the M,1.T. Rockefeller Differential Analyzer.
 
-This study is primarily concerned with the sclution
+This study is primarily concerned with the scolution
 of ordinary differentisl equations in which certain boundary
 conditions are specified at two or more values of the
-Independent variaple, Such problems are generally called
-boundary-value problems, It is clearly evident that the
-solution of such problems is inherently mere difficult than
+Independent variable, Such problems are generally called
+boundary-value problems, it is clearly evident that the
+solution of such problems is inherently more difficult than
 the solution of initialevalue problems in which 211 conde
-tions are specified at one point, The particular problems
+tions are specified at one point, The particulsr problems
 studied are further complicated by the fact that their
 solutions are required over an infinite range which cone
-tains regions of nen-gnalyticity.
+tains regions of nen-gnajyticity.
 
 A computational philosophy is presented which empha-
-sizes that a machine wust Le evaluated on & firm engineering
-and economic basige-a basis which must include the entire
-cemputetional procedure, An evaluation is given of the.
+sizes thal a machine must Le evaluated on & firm engineering
+and economic basigse~-a basis which must include the entire
+computetional procedure, An evaluation is given of the.
 relative advantages and limitations of the five computers
-used In thls study. A fair svaluation must include the
+used In this study. A fair svaluvation must include the
 
-time for: problem preparation, numericel analysis,
+time for: problem preparation, numerical analysis,
 programming, coding, machine setup, machine solution,
-checking, and se forth, The accuracy and cest of 8 particu
+checking, and so forth. The accuracy and cest of 8 particu
 lar sciution must also ve Included,
 
 This report else illustrates the manner in which the
-techniques for solving simultanecus linear slgebralc szqua-
-tions are apnlied tec the seluticn of the boundary value
-proclem, A detalled description of the entire compute
+techniques for solving simultanecus linear slgebralc zquaw
+tions are apnrlied te the soluticn of the boundary value
+problem, A detalled description of the entire computa
 
-tional procedure characteristic to each cesputer is aiven
-in an associated Appendix,
+tional procedure characteristic to each cesputer fs aiven
+in &n associated Appendix,
 
-Fo. i, Verguh
+Fo. BM, Verguh
 November 25, 1952
 
-i gs. A ee
+He ———————
 
-wf adel]
+apes]
 
-’ Lr
-cr atheist pH IRE WEEE
+’ *i
+or abasic sib CHIE NEE NEE
 
 

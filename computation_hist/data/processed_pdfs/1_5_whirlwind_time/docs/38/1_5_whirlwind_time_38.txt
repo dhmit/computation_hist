@@ -2,11 +2,11 @@ May 31, 1956
 
 Mr. Robert A, Nelson
 : Building C-230
-2 Lincoln Laboratory
+U2 Lincoln Laboratory
 
  
 
-Dear Sir:
+Deas Sir:
 
 I have been authorized to credit your account
 with 15 hours of machine time on the Whirlwind I computer
@@ -16,9 +16,9 @@ if you find that you need more time, it will be
 necessary to submit 2 new request.
 
 Sincerely,
-P. MH, Verzuh
-FMV: mnt
-cc P, ¥, Morse
+P. M, Verzuh
+FMV: mut
+cc P, MB, Morse
 L.T.Bowck
 
 L. Peterson

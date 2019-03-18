@@ -1,21 +1,21 @@
-b : » . ‘o
-y > as
-> 4 . . »
-5 : * - -
-i ” S
+; : » » ‘o
+y Bos
+: d ‘ » »
+> : . - -
+i ” :
 
-He. Janes 0. Kelso
-Room 3-208
-hI, Te
+‘Hr. James G.. Kelso
+Room 3-208 |
+MN. 1, 7.
 
-Doar ur. Kelso:
+Doar Mr. Kelso:
 
-The purpose of this letter is to Jafein: you that
+The purpose of this letter is to Anforn you that
 Mr. Arnold Siegel, research associate in the MIT Computation Center,
 has been given a full-time leave without pay for the two-month
 period August 11 - Océober 10, respectively. I would appreciate it
-if you would make necessary arrangements to stop PR of his salary
-: Sarnios this two-month period.
+if you would make necessary arrangements to stop pagsent of his salary
+; during this two-month period.
 
 Mr, Siegel is leaving on his four-week vacation beginning
 Tuesday, July 10. I would appreciate it if his vacation check covering
@@ -27,8 +27,8 @@ Sincerely yours,
 F. M. Verzuh
 Assistant Director
 
- FMV:nb 5
-ce: P. MM, Morse
+ FMV:nb Af
+ce: P. MM. Morse
 
 A, Siegel
 

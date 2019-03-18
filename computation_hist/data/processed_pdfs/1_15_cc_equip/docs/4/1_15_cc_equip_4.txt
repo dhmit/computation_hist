@@ -1,8 +1,8 @@
-June 17, 1957
+June 17, 1857
 
-Mr, J. F., Blackburn
+Mr, J. F. Blackburn
 
-2: Bs Mo Corporation
+i. B. M, Corporation
 363 Third Street
 Cambridge, Massachusetts
 
@@ -11,7 +11,7 @@ Dear Jack:
 The purpose of this letter is to give you official written
 indication of the termination notice concerning the equipment currently
 rented by the Office of Statistical Services on your account number
-55610-07 ~~ the 07 account, Dr, Hunter indicated that IBM would
+55610-07 -- the 07 account, Dr, Hunter indicated that IBM would
 terminate its program of supporting sixty per cent (60%) of the G50
 installation on June 30, 1957, In accordance with our discussions with
 Mr. Cusick, Assistant MIT Treasurer, this is to inform you that MIT
@@ -23,54 +23,54 @@ needs additional time to remove the equipment, I am therefore extending
 the termination date to July 5, 1957 -- realizing you do need additional
 time to temove this equipment from the premises.
 
-‘To be specific about the machine types involved, I would like
-the following Hac¢iiines removed from MIT:
+‘To be gpecific about the machine types involved, I would like
+the following Hac¢liines removed from MIT:
 
 Type No. Serial Na. Title
 
-024 29258 Key Punch
+024 292568 Bey Punch
 
 082 24322 Electronic Sorter
 
-402 19649 Alph, Accounting Machine
+402 19649 Alph., Accounting Machine
 514 18014 Reproducing Punch
 
 533 10146 Read Punch Unit
 
-650 10146 Magnetic Drum EDPM
+850 10146 Magnetic Drum EDPM
 
 655 10146 Power Unit
 
 
--
--
+=
+“
 
  
 
   
 
-Mr. J. F. Blackburn -2- June 17, 1957
+Mr. J. F. Blackburn 2 June 17, 1957
 
 That is, all of the machines in the 07 account are to be removed with
 the exception of the Interpreter Type No. 552-16965. This machine is
-to be transferred to the 05 account which is to be used for the
-performance of work for the administrative offices, Mr, Rose should
+tc be transferred to the 05 account which is to be used for the
+performance of work for the administrative offices. Mr. Rose should
 make out the necessary changes in our invoices so that beginning
 July 1 the interpreter appears on the 05 account.
 
-I am writing you a separate letter concerning the educational
-requirements of 650 time which will have to be arranged with the gare
-IBM Corporation for the theses which are currently under way.
+I am writing you a separate letter concerning the educationdl
+requirements of 650 time which will have to be arranged with the rhe
+10M Corporation for the theses which are currently under way.
 
 Sincerely yours,
 
-F, M, Verzuh
+F, M. Verzuh
 Assistant Director
 MIT Computation Center
 
 FMV:nb
 
-cc: P, v. Cusick
+CC: P, VY. Cusick
 C. F. Floe
 P, M, Morse
 

@@ -1,4 +1,4 @@
-WooeaN BEA =,
+WO REA 3
 
 January 18, 1960
 
@@ -10,7 +10,7 @@ International Business Machines Corporation
 
 New York 22, New York
 
-Dear Myr, Kearns:
+Dear Myr. Kearns:
 
 Frofessor Morse asked me to answer your letter to him
 of January 12.
@@ -27,7 +27,7 @@ Sincerely yours,
 Herbert P, Galliher
 Assistant Director
 HPG:afs
-Yncl. (2)
+Encl. {2}
 ce: Proi. Morse - Kearns was interested in information about
 degrees in data processing as well. Ihave
 only answered his question about operations

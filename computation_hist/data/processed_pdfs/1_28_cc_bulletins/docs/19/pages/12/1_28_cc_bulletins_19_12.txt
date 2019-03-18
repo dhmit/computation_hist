@@ -1,0 +1,124 @@
+2,30
+
+ 
+
+ 
+
+ 
+
+ 
+
+2-15 CC-75-1
+
+three sub-decks and we write the sequence
+SAP M100-5-1
+PMD
+PMD M100-5-1*01
+
+This would cause the untitled post-mortem deck to be associated with the
+
+decks, SAP M100-5-1*%00 and SAP M100-5-1%02, and PMD M100-5-1%*01 to be
+
+associated with SAP M100-5-1%01
+
+Logging During Translation Time
+
+The translation phase will record all direction cards which it
+encounters on the following devices:
+(1) The on-line printer - this gives the computer operator
+a step-by-step record of the run in real time,
+(2) The PRINTER OUTPUT TAPE - this allows the user to infer
+the sequence of BCD output obtained during translation time,
+The user may suppress the logging of a particular direction
+card on the PRINTER OUTPUT TAPE by punching any non-blank Hollerith charac-
+
+ter somewhere in its location field,
+
+ 
+
+3.1
+
+ 
+
+ 
+
+cc-75-1
+3-1
+3. The Operation Phasge
+
+General Description
+-——-———__—__——
+
+0p tion time is initiated Whenever the tranSlation phase read
+S
+
+one of the following direction cards from the RUN
+
+INPUT TAPE:
+CLR CLEAR CORE MEMORY
+RIP - READ IN PROGRAM
+RI1IU READ 1IN PROGRAM, UNCONDITIONALLY
+
+The direction card which initiates the operation phase is also the first
+direction card interpreted during operation time
+A complete list of direction cards which may legally occur
+
+during operation time follows:
+
+CLR CLEAR CORE MEMORY
+
+RES RESET MACHINE CONDITIONS
+
+RIP READ IN PROGRAM
+
+RIU READ IN PROGRAM, UNCONDITIONALLY
+BGN 'BEGIN OPERATION
+
+TER TERMINATE RUN
+
+xpM  EXECUTE POST-MORTEM (MIPMRL)
+
+DS1 EXECUTE POST-MORTEM (NYDS1)
+
+CON CONTINUE OPERATION
+
+SIR INSTRUCTIONS TO COMPUTER OPERATOR
+DPR [NSTRUCTIONS TO OFF-LINE PRINTER OPERATOR
+SWD TEST FOR SWITCHES DOWN
+
+RDY TEST FOR TAPES READY
+
+REM REMARKS
+
+f the operation phase are to operate
+
+The primary functions O =
+n time and to take post-mortems.
+
+Programs assembled during translatio
+
+tion cards' The
+former is done under the control of HEE epd P n jtle which 18 iden-
+: 1d. a deck titie€
+RIP card must contain, in its variable field, As RIP
+
+g translation time.
+
+les are entered sequen-
+
+tical to the title of a deck assembledthudn
+PUT TAPE thes€ tit
+
+When a BGN card 1
+ory and program e
+
+e field of the BG
+
+grams
+
+cards are read from the RUN IN s read the listed pro
+
+tially into a LIST OF TITLES. peration pegins at
+are brought in sequence to core€ mem N card.
+
+the address specified in the variabl

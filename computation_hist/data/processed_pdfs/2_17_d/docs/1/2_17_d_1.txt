@@ -7,7 +7,7 @@ Room 26-505
 
 Professor P. M. Morse
 26-142
-M.1.T:
+M.I.T.
 
 Dear Phil:
 
@@ -46,7 +46,7 @@ you believe that the Computing Center is or will be in a position to satisfy the
 Laboratory's computational needs, as outlined above, iu the near future.
 
 Sincerely,
-9,
+=
 
 P. T. Demos
 Director

@@ -1,16 +1,16 @@
-SA
+S
 Minutes of the Twelfth Meeting
 of the
 Committee on Machine Methods of Computation
 March 7, 1951
 Persons Present: R. R. Everett, H. Feshbach, Z. Kopal, C. Lin
-and P. Me Morse : !
+and P. Me Morse ? ?
 
 The Committee approved the recommendations of the Physics
 Department that
 F. J. Corbato
 
-M, C. Newsteln
+M., C. Newsteln
 G. Spelsman
 IL. 8S. Frishkopf
 
@@ -19,7 +19,7 @@ matics and Machine Computation for next year (Corbato beginning
 June). Mathematics and Electrical Engineering candidates will
 be reported on next week.
 
-& Horse reported that Kopal!s ONR contract for next year has
+& IHorse reported that Kopal!s ONR contract for next year has
 been approved and will be supervised by Jacchia.
 
 Kopal reported that the Electrical Engineering Department
@@ -27,7 +27,7 @@ wished to hear the Committee's opinion on the continuing of
 Welshman's course in machine coding next year (Welshman has
 left the Whirlwind project). The Committee felt that such a
 course is an important one and that it should be continued. Per-
-haps Adans of the Whirlwind project could zive it next year.
+haps Adams of the Whirlwind project could zive it next year.
 
  
 
@@ -47,7 +47,7 @@ Whirlwind (though this order could be reversed). Bevans would
 2
 
 Minutes of the Twelfth Meeting of the
-Committee on Machine Methods of Computation A
+Committee on Machine Methods of Computation —2=
 
 like to have short abstracts of each talk, to put in the
 program. The Committee will have to reach final decisions
@@ -56,7 +56,7 @@ on this program next week.
 The next meeting of the Committee will be Wednesday morn-
 
 ing, March 14, at 10:00 A.M.
-Philip. orse,
+Philip). orse,
 
 Chairman
 

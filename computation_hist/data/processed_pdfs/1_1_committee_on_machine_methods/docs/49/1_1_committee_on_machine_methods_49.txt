@@ -4,9 +4,9 @@ COMMITTEE ON MACHINE METHODS OF COMPUTATION
 Minutes of the Ninth Meeting
 April 28, 1954
 
-Persons Present: C. W. Adams, S., H. Caldwell, H. Feshbsach,
+Persons Present: C. W. Adams, S. H. Caldwell, H. PFeshbsach,
 F. B. Hildebrand, C. C. Lin, P. M. Morse,
-W. W. Seifert, FP. M. Verzuh
+W. W. Seifert, P. M. Verzuh
 
 The first draft of the memorandum to the Adminis-
 tration on Requirements for Electronic Computing Equipment
@@ -21,7 +21,7 @@ cussions.
  
 
 The machine seminars, held this year every other
-week, were discussed. It was suggested that ey have been
+week, were discussed. It was suggested that tel have been
 trying to cover too much ground and to interest too wide an
 audience, and that this is the reason for the large fluctua-
 tions in attendance. It was suggested that we start, next
@@ -32,7 +32,7 @@ be desirable but not a primary consideration.
 
 Lin reported that Williams is not accepting the
 offer tendered him. Feshbach is investigating one other pos- .
-sibility (Purkis) and will report back in a week. oe
+sibility (Purkis) and will report back in a week. ee
 
 There is to be a meeting with Dr. J. Weyl of ONR
 on Friday, May 7, at 1:30 p.m. to discuss the future of the

@@ -1,8 +1,8 @@
-Jack D, Porter, Barta 113 February 14, 1955
+Jack D. Porter, Barta 113 February 14, 1955
 
 To: Dr. F, L. Foster, Director
 Division of Industrial Cooperation
-5«105 |
+5«105
 
 Dear Dr. Foster:
 
@@ -15,7 +15,7 @@ The Digital Computer Laboratory (DIC 6345) and the Servomech.
 of various laboratories that are developing routines to be used with
 Remington Rand's 1103 computer (also called, Univac Scientific).
 
-The immediate objective of the MIT conference was to discuss
+: The immediate objective of the MIT conference was to discuss
 a routine being developed at the Digital Computer Laboratory that will |
 enable the Servo Lab to prepare tapes on Whirlwind I for the 1103, This
 work may lead to a proposal for a DIC contract with Remington Rand that

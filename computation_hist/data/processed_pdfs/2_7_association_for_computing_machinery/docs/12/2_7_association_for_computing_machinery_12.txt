@@ -1,16 +1,16 @@
-= "UO © O&O
+= "UO &© OO
 
 COMPUTATION CENTER
 
-MEAS SACHUSETTS: ENSTITUTE: ©F: TEC HNOEDGY
+MASSACHUSETTS: INSTITUTE OF TECHNOLOGY
 CAMBRIDGE 39, MASSACHUSETTS
 
 April 29, 1960
 
-Professor Hao —
+Professor Hao nt
 
 Bell Telephone Laboratories
-Murray Hill, New Jerscy
+Murray Hill, New Jersey
 
 Dear Professor Wang:
 
@@ -21,20 +21,20 @@ at your option plus travel expenses from and to
 New Jersey. Marvin Minsky and I and a number of our
 students are much interested in theorem proving by
 machine, and we all hope that you will be able to
-come, A private office can be arranged as you re-
+come. A private office can be arranged as you re-
 quested.
 
 I have started on a new version of your predi-
 
 cate calculus algorithm about which I expect to
-write you in detail later.
+wrlte you in detail later.
 
 Best regards,
 
 John McCarthy
 
 JMcC: MBW
-cc: Professor P. M, Morse /
-Dr, F. J. Corbato
+cc: Professor P. M. Morse /
+Dr. F. J. Corbato
 
 

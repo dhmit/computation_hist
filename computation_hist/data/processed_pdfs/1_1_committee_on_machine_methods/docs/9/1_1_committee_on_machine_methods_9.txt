@@ -13,34 +13,34 @@ conference for industrial executives on the possibilities for
 the use of large computing machines in industrial research.
 They had suggested a day-and-a-half conference, the first half
 day being a general discussion of types of machines and their
-spheres of usefulness; a second half day, a discussion of
+spheres of usefulness; a second hzlf day, a discussion of
 analogue computers and a visit to the differential analyzers
 anc. a third hall day, a discussion of large digital computers
 anc a visit to Whirlwind. Forrester brouzht up the question as
 to whether this was not overlapping the similar conference on
-nev communication technicgues to be run by Professor Fano of the
+nev communication techniques to be run by Professor Fano of the
 Electrical Engineering Department. Forrester will talk to
 Bevans and see whether this overlap 1s large or not. If the
 overlap 1s not large, we can schedule the conference this
 spring, perhaps on April 30 and May 1; if the overlap is large,
-the su gestion would be to wait until next fall.
+the su gestion would De to wait until next fall.
 
 The Committee discussed the program of the seminar to be
 held Wednesday afternoons. Professor Aliis will talk this
-week and perhaps continue next week. A Professor T., Jones, of
-the Electrical Engineering Department, is proposing a thesis
+week and perhaps continue next week. A Professor T, Jones, of
+the Electrical Engineering Department; is proposing a thesis
 on the efficiency and accuracy of large-scale analozue com-
 puters. It was suggested that he could talk on this proposal
 perhaps on February 14th or 21st, and at the same time the
-seminar could visit the amalogue computer of Hall. Professor
+seminer could visit the amalogue computer of Hall. Professor
 Kopal will talk to Jones and see about the arrangements. Morse
 suggested that Professor Buerger, of the Geolozy Department,
 could report on a proposal for a spacial machine to analyze
-x-ray data. This perhaps could be scheduled for February 21st
+x-ray data, This perhaps could be scheduled for February 21st
 or 28th. Mr. Rels is to finish his calculations on turbulence
 in the near future and Lin suggested that he could report on
-this either February 28th or March 7th. Kopal'!s problem in
-astrophysics 1s being worked on at present, using the "Reach",
+this elther February 28th or March 7th. Kopal's problem in
+astrophysics is being worked on at present, using the "Reach,
 The results of this work could be reported about March 14th.
 It 1s requested that other suggestions for future seminar pro-
 grams be sent in to Morse in the near future.
@@ -49,7 +49,7 @@ grams be sent in to Morse in the near future.
 Minutes of the Ninth Meeting of the
 Committees on Machine Methods of Computation ; —2=
 
-It was reported that Dr. H., H, Goldstein, of the Institute
+It was reported that Dr. H, H, Goldstein, of the Institute
 for Advanced Study, Princeton, will give talks on Monday and
 Tuesday, March 5th and 6th, on mathematical problems related
 to machines. This will be announced by the Mathematics Depart-
@@ -72,7 +72,7 @@ for the support of the group under Adams working on scientific
 and engineering applications of Whirlwind, and that the re-
 mainder of the money be available, under the control of the
 Comittee, to support fundamental research which needs the use
-of computing machines. Part of thls support would be in ap-
+of computing machines. Part of this support would be in p=
 pointing half-time research assistants to carry out research
 programs in this field. This would mean that there would be
 avallable, beginning next year, between eight and fifteen re-
@@ -80,15 +80,15 @@ search assistantships which could be appointed by either the
 Electrical Engineering, the Mathematics or the Physics Depart-
 ment. They would be half-time appointments. These men would
 then be assigned to the supervision of the Committee for work
-in This general field. Socize of them would then be assigned to
+in This general field. Sociie of them would then be assigned to
 work on problems for Whirlwind, and some of them to other prob=-
-lems involving machines here at the Institute, Forrester and
+lems involving machines here at the Institute. Forrester and
 Moree are to meet this week to draw up a tentative task order
 for this program and to submit it to Stratton next Monday, the
 12th, for him to take to Washington. Kopal pointed out that he
-has appointed half-time research assistants on some of his
+has appointed hslf-time research assistants on some of his
 programs and that he would like to have these appointments also
-handled in the same manmer with Committee coznizance over the
+handled in the same marnmer with Committes coznizance over the
 appointments. Forrester indicated that there might be one or
 two additional appointments from some of his other programs.
 
@@ -101,12 +101,12 @@ announcement of the availability of these research assistant-
 ships for next year to send to a selected list of mathematics
 departments, physics departments and other interested sources
 of graduate students. Morse is to work up a tentative announce-
-ment, is to talk with the heads of the three departments ine
+ment, is to talk with the heads of the three departments in-
 volved and will report progress at the next meeting. The next
 meeting of the Committee will be at ten o'clock Wednesday,
 
 February 14.
-Ne a
+Ns ere i
 
 Chairman
 

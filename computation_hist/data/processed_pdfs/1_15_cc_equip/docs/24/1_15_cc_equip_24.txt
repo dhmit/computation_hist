@@ -1,4 +1,4 @@
-io
+2
 
  
 
@@ -6,65 +6,64 @@ io
 
  
 
-> a - re > Ek iy Tar RE Si ed hs
-Eo oo - - Pr eT LW Ee —_ JE A aT I a ~ a = PN SA a ER SY FRET tee
-ARS SARC aes mA a RT, + ave “Fe? bite == i I, 2 AE T Sy =) = as pr hay ER Pe =, - a WL een
-. Pe 2 - Pe 5 > - = — - a RT TE sw
+: Br - Re id Re — Pa t na TE 2 hs
+Eo -, a - .- TT RT oy Po RT aT SE a Ee a ve a ay SX FE
+2.5 ERIC Ts a a “Fs! “ph == hE EM, a AST Ny =) a pr Th RN =, = aT We ney
+. Pe 3 - Pe 5 - - - - - gee TE sm
 
 Reem 20C-206
 
 September 19, 1956
 
-Pr. G. T. Hunter
+Dr. G. T. Hunter
 
-i. B, M, Cerperation
+i. B, , Cerperation
 363 Third Street
 Cambridge, Massachusetts
 
 Dear Truman:
 
-ia accerdance with yeur request of September 9 cemcerring
-the need for cemtrel pamels for the 704 machine im the M,I.T. Computation
+in accerdance with yeur request of September 9 cemcerring
+the need for cemtrel pamels for the 704 machine im the M,.I.T. Computation
 Center, I believe the following preliminary request should be made:
 
 Machine Fixed Centrel anual Centrel
 
 Type Panels Panels
 077 6 4
-519 6 2,
+519 6 4
 407 6 4
 552 8 2
 711 38 2
 714 8 2
 716 8 2
-717 8 2
+717 8 a
 721 8 2
 722 8 2
 
-As we discussed at our cenferemce on September 18, we can
+As we discussed at our cenferemnce on September 18, we can
 adjust eur erder in accordance with experience realized in the Center
-as time goes eon.
+as time goes en.
 
 
-Dr. G. T. Huater -3= September 19, 19356
+Dr, G. T. Huater -3= September 19, 19356
 
 You will recall eur discussiems with Mr. Walter Beuriecieus
-at Poughkeepsie in which we asked him fer his suggestiemns regarding
+at Poughkeepsie in which we asked him fer his suggestiems regarding
 compatible requirements =~ I shall leave it te you te inferm us ef
-IBM's requirements im this area as time gees en,
+IBM's requirements im this area as time goes on,
 
-Sincerely yours,
+Sincerely yours;
 
-F., M, Verzuh
+F, BH, Verzuh
 Director
 
-FMvV:ab
+FMV:ab
 
-ce: P, BM, Merse
+ce: P. MK, Merse
 
  
 
-|
-i
+]
 
 

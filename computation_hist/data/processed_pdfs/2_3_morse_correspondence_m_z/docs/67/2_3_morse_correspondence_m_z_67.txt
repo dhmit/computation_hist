@@ -1,22 +1,22 @@
-: REGIE FUN ds iia
+! REGIE FU pds iia
 
-isl AL i
-ELECTRIC CORPORATIO vl KHD GOVERNMENTAL RELATIORS
+Viel EAL 4
+ELECTRIC CORPORATIO T AND GOVERNMENTAL RELATIOHS
 
-We S { 1 ngh ousc [VIE PRESOENT FOR IRUSTRAL |
-
- 
+We S { 1 ngh ousc [Vi PRESBE FIR RUSTE |
 
  
 
-| File-—— es
-5 PHONE: LIBERTY 20600
-Admiral Edward Tis Cochrane 10 HIGH ST.. BOSTON 10. MASS
+ 
+
+{ File.———— =
+a PHONE: LIBERTY 20600
+Admiral Edward Le Cochrane 10 HIGH ST.. BOSTON 10. MASS
 Vice President for Industrial &
 Governmental Relations July 13, 1956
 
 Massachusetts Institute of Technology
-77 Massachusetts-Avenue
+77 Massachusetts: Avenue
 Cambridge 39, Massachusetts
 
 IBM 704 Computer
@@ -44,10 +44,10 @@ We will appreciate your transmitting this announcement to
 the other personnel in your organization that might be in-
 
 terested in the use of our computer.
-AV C
+JW C
 
-2)
-C. He Bouchard, Sales Engineer e |)
+2
+C. He Bouchard, Sales Engineer pe |)
 dm
 
 YOU CAN BE SURE ... IF wsWestinghouse

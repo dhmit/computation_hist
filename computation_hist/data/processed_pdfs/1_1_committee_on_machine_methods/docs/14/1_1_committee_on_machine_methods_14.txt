@@ -1,4 +1,4 @@
-pe
+ge
 
  
 
@@ -11,24 +11,25 @@ Committee on Machine Methods of Computation
 March 21, 1951
 
 I ersong Present: R. R. Everett, H. Feshbach, Z. Kopal, C. Lin,
-on P. M. Morse, and E. Reissner
+= P. M. Morse, and E. Reissner
 
 Morse reported that DIC has approved definite (rather than
 tentative) appointments of assistantships in Applied Mathematics
-¢nd Machine Computation; they feel the contract is near enough
+¢nd Machine Computation; they feel the contract 1s near enough
 completion to warrant this. Morse also pointed out that, for the
-first round of appointments, each Departuent could figure on a
-iptal of about $310,000, to be split as it saw fit (five half-time
+first round of appointments, ecch Deparituent could figure on a
+iptal of about $10,000, to be split as it saw fit (five half-time
 
-¢t $2000 each, or four full-time at $2500 each, etc.) .
+¢t $2000 each, or four full-time at $2500 each, ett.)
 
 Kopal presented applications for assistantships fors
-¥W. K. Taylor, Malcolm Frazier, S. Yamamura, D, C. Leigh
+¥. K. Taylor, Malcolm Frazier, S. Yamamura, D, C. Leigh
 
-The Conmittee suggests that the Electrical Engineering Department
+The Committee suggests that the Electrical Engineering Department
 ¢ ppoint Taylor as Assistant in Applied Mathematics and Machine
-(Computation, if he is interested in such an appointment, that
-Frazier also be appointed if the Department definitely felt he
+
+( ouputation, if he is interested in such an appointment, that
+Frazier also be appointed If the Department definitely felt he
 vas up to their standard for other like appointments and that ac-
 tion be postponed on the other two, to see what other applica-
 iilons come in.
@@ -36,21 +37,21 @@ iilons come in.
 Morse presented the application of L. Sartori (already here
 zs graduate student in Physics), recommended that the application
 be held until we see what other applications come in. Three let-
-ters from mathematicians, inguiring about the assistantships were
-turned over to Reissner and Lin to find the wishes of their De-
+ters from mathematicians, inguirlng about the assistantships were
+turned over to Keissner and Lin to find the wishes of thelr De-
 rartment. In one case (2 post-doctoral man) Lin was to get more
 tacksround from the man, to turn over to Whirlwind for considera-
-tion for his suitability for Adams? group.
+tion for his suitability for Adams?! group.
 
 There was a little discussion concerning the administracion
 ¢f these assistantships. Students in each department would be
 s zpervised by the two Committee members from that Department and
-would be assigned a specific task from the beginning, thouzh it
-i 3 understood that progress will not be rapid for the first-year
+would be assigned a specific task from the beginning, though it
+i353 understood that progress will not be rapid for the firsi-year
 wan, since they will be learning the field. Each student must be
 
 
->
+’
 
 s4nutes of the Fourteenth Meeting of the
 somnittee on Machine Methods of Computation -2=

@@ -1,11 +1,11 @@
-x x = 3 i % 3
+. x as . ie x 3
 
  
 
  
 
 PROPOSAL FOR EXTENSION OF NSP GRANT No. NSFG2940
-= 222 0I0N OF NSP GRANT No. NSFPG2940
+=" 222A OI0N OF NSP GRANT No. NSFPG2940
 to June 30, 1960
 
 In recent discussions with NSF staff it was suggested
@@ -39,7 +39,7 @@ Principal Investigator
 
 Approved
 
-Carl FF. Moe
+Carl FF. Woe
 Assistant Chancellor
 
 Dr. F. L. Poster, Director
@@ -47,9 +47,9 @@ Divi sion of Sponsored Research
 
 Enclosure A
 
-a meabateraeey aan
+Te
 
-3
+a
 f
 
 

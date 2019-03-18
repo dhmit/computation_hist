@@ -1,0 +1,135 @@
+FEBRUARY 1, 1954
+
+VOL. 37, NO. 2
+
+JOURNAL
+of the
+
+American Ceramic Society
+
+PART Il
+
+; Copyright 1954, by The American Ceramic Society
+
+TABLE OF CONTENTS
+
+VOLUME 37, NUMBER 2 FEBRUARY 1, 1954
+
+ 
+
+ 
+
+Journal of The American Ceramic Society (Part Il) \
+
+14. Thermal Conductivity: I, Concepts of Measurement and Factors Affecting Thermal
+Conductivity: of Ceramic Materials. ...« . hieis st o i e 67-72
+
+By W. D. Kingery and M. C. McQuarrie
+
+Thermal Conductivity: | Concepts of Measurement
+and Factors Affecting Thermal Conductivity
+of Ceramic Materials
+
+by W. D. KINGERY and M. C. McQUARRIE
+
+l) C’lse ()1 I l()late \SI)llGIO](].; e avSmcleliolioNeR{e e/ e el e e oo ra\ s & ie . . . . . . . {'3 !
+\3 C(la] < - . . e e/ le. .0 e slielee;'e s 0 I
+
+By Milton Adams and A. L. Loeb
+
+ 
+
+'hermal Conductivity
+
+By Malcolm McQuarrie
+
+VIII, A Theory of Thermal
+
+By Arthur L. Loeb
+
+Conductivity
+
+rials [
+of Porous Mate-
+
+.....
+
+Porosity ral Pure Oxide M
+
+By W. D. Kingery, J. Francl, R, L. Col
+
+le, and T Vasilos
+
+96-99
+
+......... 107-110
+
+sion. Data at temperatures up to 2000°C. have now become
+of practical interest. The desirability of employing higher
+temperature levels in heat engines is that the maximum effi-
+ciency possible is greatly increased, but in order to design
+such engines, accurate data regarding the thermal properties
+of construction materials are necessary at elevated tempera-
+tures. Refractory oxides, borides, carbides, nitrides, and sul-
+
+fides, for example, are potentially promising materials for such
+
+The investigations reported herein are part of a program
+of research undertaken at the Massachusetts Inslitule of
+Technology, Cambridge, Mass. For more detailed informa-
+tion about the program and about those conducting the inves-
+tigalions, see opposite p. 110, this issue.
+
+W
+otel
+& 16.  Thermal Conductivity - III, Prolate S 1 : ,
+BeO, MgO, ThO», and ZrO,. . ... .. I ).h.e.r.o,l(,]al Envelope Method; Data for Al Oy, The laws of heat flow and methods of measuring quently a study of the factors affecting the thermal conduc-
+, S R e e 74-79 thermal condu(:.tivity are (.:onsid.e.red. T.he .ef- tivity of refractory materials and the measurement of ther-
+J fects of crystalline nature, impurities, lattice im- mal conductivities at elevated temperatures has been under-
+perfections, grain boundaries, porosity, mix- taken. The factors which are believed to affect the thermal
+17. Thermal Conductivity: TV Koparatis forD oo tures,.and temperature on tl.lermal.conduct.ivity conductivity of refractory .maten'als and the extent of the
+Comparative Method - bata o _\YI Oetgrmmmg I'hermal Conductivity by a are discussed. Th(?re are insufficient reliable present knowledge concerning these factors are reviewed in
+) y Al203, BeO, and MgO. .. . . .. ; S0-84 data to assess quantitatively the effect of most of this paper.
+By J. Francl and W. D. Kingery gt these factors at present, particularly for elevated
+- Lemperatures. II. Laws of Heat Flow
+
+184 B hcrma} Conductivity: V, High-Temperature Method : dI : Heat may be thought of as the kinetic energy of motion
+nesia, and Beryllia from 1000° to 1800°C... .. and Results for Alumina, Mag- I. Introduction (translational, rotational, or vibrational) of ions or molecules.
+By Ml o En RS SR e e S4-88 THE property of thermal conductivity is of importance Although this concept of heat does not lend itself to quantita-
+in the application of refractory materials since in many tive manipulation as well as does that of thermodynamics
+cases the ability to conduct heat or not to conduct heat (where heat is defined as the amount of energy required to
+19, Thermal Conductivity: V] Determinat; 3 =2 is one of the primary functions of the refractory. The ther- raise the temperature of a standard substance a definite
+velope and Cylinder I\'Iéth()ds, | .l'lld 1on of (,(mductn«'lty of Al,O, by Spherical En- mal conduc'tivit_v determines the }mat flow throggh a refrac- amount), it should aid gr.eatl_\' in unders'tanding the phenom-
+By W. D. Kin i o S et S et B i e St SR o N ) 88-90 tory for a given temperature gradient, or determxfles the tem- ena of heat transfer. Itis us.uul to consider t]lrcc methods of
+J S gery $ perature gradient obtained when a fixed heat flow is employed. heat transfer: (1) conduction, (2) convection, and (3) ra-
+In addition, the thermal conductivity is known to have a diation. In any given actual case of the transfer of heat, two
+20. Thermal Conductivitv- S i great efjfecl.. on the thermal spalling resi..stance a.nd on other or perl}aps all three of thesc. mclhn(?s. may be operative. It
+S ALO B0 l N Analysis of Variation of Conduchii e e properties important to .thf.e use of ceramic matc.nals. is possible, however, to devise conditions wh.crc the amount
+3 NROQEMEQ e e e e b y with I‘cmp(‘rature I'he temperature-use limits of special refractories have been of heat transferred by one of these methods is much greater
+............................ 91-95 sharply raised by the advent of atomic power and jet propul- than that transferred by the others and then study this case
+
+as an example of transfer by that method alone.
+
+In conduction, energy (heat) is transferred by the mecha-
+nism of interaction between two particles (e.g., ions and mole-
+cules), one with a greater amount of energy and the other
+with a lesser amount of energy, in such a way that some energy
+is passed from one to the other. In the case of a gas, one
+molecule may strike another molecule with less kinetic energy
+and impart some of its energy to the second molecule. In
+
+22.  Thermal Conductivitv - ~ .
+== Cﬂndulctttil\\'iltt{t > IX, Experimental Investigation of Effect of Porac: i service, but few data are available for the thermal properties the case of a solid, an atom with a certain amount of vibra-
+| S R e e R R s B 'Tosity on Ther- of these materials, especially at elevated temperatures. tional energy will tend to transmit some of this energy to a
+By J. Francl and W DTG T pery i e e 99-107 In addition to a usefulness in atomic energy and jet pro- neighboring ion with less energy through the bond connecting
+) pulsion, thermal data are required for design purposes in the them. In convection, heat is transferred by the actual move-
+93. ‘Thermal Conaistiity s T application of refractories of a more usual nature. Conse- ment of purticles with a given energy to an@hcr part of the
+y: , Data for Seve system where the particles have less energy on the average.
+
+This means of heat movement is effective only in the case of
+fluids. Convection is not considered in this investigation.
+[n radiation, heat is transferred by the emission or absorption
+of radiant energy between particles or surfaces. Since ra-
+diant-heat transfer enters into this investigation as an extra-
+neous effect, it will be necessary to discuss it briefly in a quan-
+titative fashion.

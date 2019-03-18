@@ -4,8 +4,8 @@ Problem No. Laboratory
 798 LNS
 819 CMM
 852 JCS
-888 ICs
-206 5 RLE
+888 ICS
+206 RLE
 910 RLE
 916 LNS
 917 LINS
@@ -42,7 +42,7 @@ August 1956
 
 Requested by
 
-F. Eppling
+EF. Eppling
 L. Sartori
 H. Feshbach
 P. Morse
@@ -50,7 +50,7 @@ P. Morse
 T. Schultz
 L. Allen
 
-MoEOUBE ies cornssanemnss,
+M. Ie a
 
 A. Bers
 
@@ -66,14 +66,14 @@ M. Cenillo
 Time Distribution
 
 RLE
-92 599
+92 539
 8 321
 2 6
 0 16
 0 128
 0 80
 10 951
-82 &
+82 4
 
 386
 1303
@@ -86,7 +86,7 @@ August
 223
 2
 305
-Ga ROD
+CaO
 112
 83
 8
@@ -99,7 +99,7 @@ LNS CS
 6 2
 4 0
 0 12
-0 Af)
+0 40
 156 361
 304
 269

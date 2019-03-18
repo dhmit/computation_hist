@@ -8,7 +8,7 @@ F. B. Hildebrand, P. M. Morse,
 B. Rankin, F. M. Verzuh
 
 The meeting took place in Forrester's office at
-Lincoln Laboratory.
+Lincoln Laboratory. ;
 
 ; Forrester showed the Committee some of the work
 

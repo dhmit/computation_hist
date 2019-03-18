@@ -1,13 +1,13 @@
-Fae Me. | Ver zuh
+Fe Me Ver zuh
 R., 7-306
 
 November 21, 1952
 
 Professor G, S. Brown
 Head, Dept. of Elec. Eng.
-Room 4-202
+Room 4«202
 
-Dear Professor Brown?
+Dear Professor Brown:
 
 As Indicated in my letter of November 5, 1952,
 I am now enclosing a revised description of the content
@@ -30,26 +30,26 @@ individual student basis,
 
 Very truly yours,
 
-F. M, Verzuh
+F. M., Verzuh
 ViT
 
-P, S. I am also enclosing an outline of the content of the
+P. S., I am also enclosing an outline of the content of the
 above subject.
 
-Enclosures (2)
+Enclosures (R)
 
-CC t Prof. P, M. Morse
+CC t Prof. P. M. Morse
 
 
-6.539 colds Ee =
+6.539 cols De =
 
  
 
 d ve G(B)
 
-lst Term Elective S=lwd
-Prerequisite Pie M22
-Instructor in Charge ~~ Verzuh
+lst Term Elective S=l=d
+Prerequisite ive M22
+Instructor in Charge -Verzuh
 
 A study of punched~card equipment with emphasis on
 its application to statistical research and scientific
@@ -58,7 +58,7 @@ lowing machines are treated: card punch, verifier,
 interpreter, sorter, collator, reproducer, accounting
 machine, cardatype, models 602A and 604 calculators, and
 the card-programmed calculator, Mathematical procedures
-include evaluation of higher-order differences, interpolae
+include evaluation of higher-order differences, interpola=
 tion, solution of simultaneous equations, inversion of
 matrices, extraction of square roots, evaluation of roots
 of polynomials, solution of differential and integral
@@ -66,24 +66,24 @@ equations, and the performance of statistical and educa-
 tional research, Actual use of the machines is made by the
 student. |
 
-Twas _ 3
+S—Es-HS or 3
 
-BREE
+EE le est.
 
-Nov 21 1952
+nov 21 1952
 
-| ——
+ —— di
 
 
 COPY
 
 Outline of the Content of the Subject Entitled
 
-COMPUTATION BY PUNCHED=CARD METHODS
+COMPUTATION BY PUNCHED-CARD METHODS
 
 A, Key Punch and Verifying Machines
 
-{., 1BM card = effective utilization of available
+1. 1BM card = effective utilization of available
 space, field designation = coding = principle
 of operation.
 
@@ -102,10 +102,10 @@ B, Sorter
 2. Numeric and alphabetic sorting.
 3, Additional features: card counting device,
 group sorting device, sorting suppression device.
-c., Collator (077)
-it. Functicnal operations of matching, merging,
+c, Collator (077)
+{., Functional operations of matching, merging,
 selection and comparison.
-2. pescription of selector and sequence unite
+2  pescription of selector and sequence unit.
 D. Reproducer (513)
 1. Functional operations of reproducing, gang punching,
 
@@ -114,30 +114,30 @@ summary punching, mark sensing, comparison and double
 punch plank column detection are discussed.
 
 
-a)
+e
+
+La
+
+ 
 
 Le
 
  
 
-Ze
-
  
 
  
 
- 
-
--lw
-wore) SN machine as
+lw ;
+deen) Jie machine as
 
 evidenced by the physical construction and loca-
 
-tion of various units,
+tion of various units.
 
 Tabulating Equipment
 
-l,
+1,
 
 Functional capabilities: listing, group indica=
 tion, addition, subtraction, comparison, selec=
@@ -145,20 +145,20 @@ tion, automatic control and summary punching.
 
 Program control device on the 403 as used on 4th
 
-differencing and interpolation,
+differencing and interpclation,
 
 602A Calculator
 
-1.
+1,
 
-Se
+S.
 
-Functional capabilities: +, -y X, %, programming,
+Functional capabilities: +, =; X, %, programming,
 selection, negative balance indication, shifting,
 Description of follewing components: reading
-brushes, pilcet selectors, coselectors, counters,
+brushes, pilet selectors, coselectors, counters,
 storage units, program relays, control panel,
-digit selectors,
+digit selectors.
 Timing chart and card cycle diagrams,
 Preparation of planning charts and wiring diagrams
 for the following:
@@ -167,13 +167,13 @@ a) A+ B=T
 
 b) A +» B= Pp
 
-c) AesB=(Q
+€c) AeB=(Q
 
 d) Frequency distribution computations
 
 e) Solution of linear algebraic equations and
 
-inversion of matrices,
+inversion of matrices.
 
 Detailed discussion of the principles of:
 
@@ -182,22 +182,22 @@ a) Multiplication
 b) Division
 
 
-COPY
+CORY
 
-6. Discussion of use of pilot selectors for sign
+&. Discussion of use of pilot selectors for sign
 control
-(ta) (Ep) ==P
+tay Ep ==p
 G. 604 Calculator
 1. Functional description of the calculator and its
 capacity.
->» Timing chart and machine cycle charis.
+» Timing chart and machine cycle charis.
 3, Planning charts and wiring diagrams for
-a) (= A)» (!p) = te
-p) (Ea) (8) =
+a} (LA) (f B) = tc
+py (a) (tm) =
 
-c) (EA)2(cB)=
+¢) (a) z(tp)=
 
-$¥
+$+
 
 P
 
@@ -208,14 +208,14 @@ d) Quotient expansion
 4, Checking features
 a) DPBC, 2T, NB, etc.
 p) Marginal testing using veltage variations.
-Hs Car d=Programmed Calculator
+H. Car d=Programmed Calculator
 1. Functional capabilities of the CPC.
 2. Block diagram of the CPC.
 3. Machine unit characteristics.
 4, Discussion of operational procedure for use of
-the B=-digit floating~decimal board.
+the B=-digit floating=decimal board.
 a) Instruction card design.
-») Detail card design.
+b) Detail card design.
 5, Discussion of planning charts required for
 
 the solution of 2 poundary value problem on the CFC.

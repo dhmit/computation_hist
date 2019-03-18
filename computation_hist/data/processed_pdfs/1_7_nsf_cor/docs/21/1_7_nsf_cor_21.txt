@@ -1,4 +1,4 @@
-— ’
+-— : ’
 
 To: Deans, Department Heads, and Members of the Committee
 on Machine Computation
@@ -51,7 +51,7 @@ cations for admission to the course should be in my hands before
 May 1.
 
 
-29=
+De
 
 6. I will be glad to give further details.
 

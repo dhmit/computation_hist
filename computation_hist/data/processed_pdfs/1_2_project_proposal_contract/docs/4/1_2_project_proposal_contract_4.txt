@@ -1,4 +1,4 @@
-L~25 : | Page 1 of 4
+L~25 : Page 1 of 4
 
 MASSACHUSETTS INSTITUTE OF TECHNOLOGY
 Department of Physics
@@ -7,7 +7,7 @@ MEMORANDUM
 
 Tos Mr. No. McL. Sage
 
-From; ~ Professor Phillp HM. Morse
+Froms ~ Professor Phillp HM. Morse
 
 Dates Febmary 20, 1951
 
@@ -21,35 +21,35 @@ Vhirlwvind Project has now reached a stage of development
  
 
 where its potentialities can be utilizad, together with the other
-computing equipment at anhnol bey, in a coordinated research and
+computing equipment at weernoloaT, in a coordinated research and
 training program, of the sort anticipated by ONR during its several
 years of support of the Project. Both the Institute and the Navy ere
 vitally interested in the use of large-scale computing devices for the
-solution of scientific and iainesrine prcblems, and for the promoticn
-of training for students interested in this field. |
+solution of scientific and Sinai prcblems, and for the promoticn
+of training for students interested in this field, |
 Of course a part of the time of Whirlwind will be used for
-the solution of a special Air Force problem, and i% 1s expected that
+the solution of a special Air Force problem, and i% is expected that
 the Air Force will contribute an appreciable part of the support of
 the Whirlwind Project, for the development of equipment snd methods
-for the solution of this problem. Nevertheless, approximately half
+for the solution of this problem. Nevertheless, approximately balf
 the working time of the machine itself will be avallable for the funda-
 
 mental program, mentioned above and outlined below.
 
 
-L=25 | | Pags 2
+L=25 | Pagas 2
 
-Since a research and {reining program mist be closely linked with
+Since a research and training program mist be clogely linked with
 other faculty activities, it is proposed that supervision of thig pari: of
 the progrem be undertaken by the recently created Center for Machine Compu
 tation. The interdepartmental Advisory Commitiee to this Center provides
 a broad representation of the various scientific, engineering and training
-activities likely to bs involved. | |
+activities likely to be involved. | |
 
 The program which ONR might wish to support can be divided ino
 four sections::
 
-1. Research in methods of numerical analysis and the forrm-
+1. Research in methods of numerical analysis and the forrmu-
 lation of scientific problems for machine solution, together with support
 of training of students in these methods.
 
@@ -58,12 +58,12 @@ group previously referred to with Project Whirlwind so as to make the
 WW computer useful and available for the above research, and an aid to
 the research being carried on by MIT faculty and students.
 
-3. A partial support of the maintenance of the WW computer,
+3. A partial support of the maintenance of the WW computer.
 
 4+ Ressarch on and investigation of digital computing machine
 components.
 
-It is understood thet details of the program, which is neces
+It is understood thal details of the program, which is neces
 sarily evolutionary in character, will be worked cut from time to time with
 the Scientific Officer of the ONR.
 
@@ -74,7 +74,7 @@ of the budget is as follows:
 Item 1 £100,000
 Item 2 100,000
 Item 3 50,000
-Ttem 4 50,000
+Item 4 50,000
 
 The detalled budget for each of the items may run approximately
 
@@ -83,11 +83,11 @@ as followss
 
 I-25
 
-Item 1 - Research and Training in Fumerieal Analysis
+Item J - Research and Training in Numerical Analysis
 
 Technical Supervisiony 1/3 Prof. Salary
 
-16 Research Agsocilstes (some part tims)
+16 Research Agsocletes (some part tims)
 @ average salary $3,000
 
 Other galeries and wages (sscretarial and
@@ -104,16 +104,16 @@ equipment other then ¥W
 
  
 
-§ 3,200
+S 3,200
 
 48,000
 6.000
 
-$57,200
+857,200
 
 24,000
 
-481 , 200
+483,200
 5,000
 
 2,500
@@ -130,13 +130,13 @@ of Whirlwind
 
  
 
-Ingineere or mathematicians © §5,200
-Résearch Apgociates © $3,600
+Ingineere or mathematicians © 85,200
+Régearch Apgociates © $3,600
 Research Assistants © $2.400
 Part-time Students © average $1,200
-Computers © £3,000
+Computers @ £3,000
 
-AY AFG LON COWL REN
+AY. CANYON Ov. NEAR
 
 Secretaries © $2,200
 
@@ -150,13 +150,13 @@ $26,000
 7,200
 
 14,400
-73200
+T5200
 6,000
-45400
+4,400
 
 $65,200
 
-21400
+w2L400
 $92,600
 5,000
 
@@ -171,44 +171,44 @@ L-25
 
 1/2
 
-0 NERY
+I. AY NY Cert
 
 Senior Engineer $ 3,600
 Engineers © $5,200 10,400
 Research Associate 3,600
-Research fesistants © $2,400 | 4.4800
+Research Assistants © $2,400 | 4.4800
 Technicians @ 83 $500 7,000
 Secretary 2,200
 $31,600
 
 MIT overhead © 429 13,200
-$44,800
+44.,800
 
 Materials and Services C0
 
-liem 3 - Partie) Suorvort of Maintenance of Whirlwind
-EE A hn ct Reon acetate remem ct wt o ocs 4 a
+Liem 3 - Partie) Support of Maintenance of Whirlwind
+EE nt en eta rm mptct at  oc 4 ———
 
  
 
 Engineers @ $5,200 a 7,800
 Research Assistants ® $2,400 4.4800
-Technicians @ $3,500 14,000
+Techniclans © $3,500 14,000
 Clerk | 22500
-: $293,100
+: $29,100
 
 MIT overhead © 424 12,200
 © $41,300
 
 Materials and services including
 & share of replacement parts and
-storage tubes 2
+storage tubes =
 
 $49,300
 
 __8.000
 
-Iter 4 —- Research on Computing Machine Components
+Iter 4 - Research on Computing Machine Components
 
 $49,800
 

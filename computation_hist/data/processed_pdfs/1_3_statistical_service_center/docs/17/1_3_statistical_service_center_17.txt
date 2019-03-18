@@ -1,14 +1,14 @@
 OFFICE OF STATISTICAL SERVICES
 
-Reports Issued from July 1, 1949 «» June 30, 1850
+Reports Issued from July 1, 1949 =» June 30, 1850
 
 1) Verzuh, Frank Mo
-"Deionization Measurements of Grid-controlled Thyratrons”
-MoI.T. Research Laboratory of Elablrouies Tech. Rept. No. 101
+"Deionization Measurements of Grid-controlled Thyretrons”
+MoI.T. Research Laboratory of Blsotronics Tech. Rept. No. 101
 March 8, 1949
 
 2) Verzuh, Frank M.
-"The Solution of Simultaneous Liresr Equations with the Aid of
+"The Solution of Simultaneous Lizesr Equations with the Aid of
 the 602 Calculeting Punch"
 Reprinted from MATHEMATICAL TABLES AND OTHER AIDS TO
 COMPUTATION III, Number 27, July, 1949
@@ -16,8 +16,8 @@ COMPUTATION III, Number 27, July, 1949
 Reports Issued under Air Materiel Commend Contract
 DIC Project 6686
 
-1) Verzuh, Frank M. and Hem, J. M
-"Report on Electric Linsar Accelerator Problem
+1) Verzuh, Frank M. and Ham, J. M
+"Report on Electric Linsar Accelerator Problem"
 Center of Analysis Report
 January, 1950
 
@@ -26,14 +26,14 @@ January, 1950
 Center of Analysis Report
 January 3, 1950
 
-3) Verzuh, F. Me.
+3) Verzuh, F. Meo
 "Report on 4-Shaft Adder Unit"
 Center of Analysis Report
 January 9, 19560
 
 4) Verzuh, Fe. Mo and Ham, J. Ms
 "Report on the Research Program Associated with the Servomechanisms
-Used on the M.I.T., Differential Analyzer"
+Used on the M.I.T., Differential Analyzer®
 Center of Analysis Repord
 January 9, 1950
 
@@ -60,7 +60,7 @@ Ham, Js Me
 
 =e
 
-"Report on Servo Research in the MIT Mechanical Differentiel Analyzer™
+"Report on Servo Research in the MIT Mechanical Differentiel Analyzer"
 
 Center of Analysis Report
 August, 1950
@@ -70,12 +70,12 @@ Ham, Jeo Me
 Center of Analysis Report
 August, 1950
 
-Verzuh, Fo Me and Frost, Lo Ee
+Verzuh, Fo Me and Frost, Le Ee
 "Report on the Vector Conversion Device®
 Center of Analysis Report
 September 30, 1950
 
-Verzuh, Fa Me n
+Verzuh, Fa Mo i]
 "Investigation of the Schrodinger Wave Equation"
 Center of Analysis Report
 September 30, 1950
@@ -108,42 +108,42 @@ September 30, 1950
 
 OFFICE OF STATISTICAL SERVICES
 
-=3a
-List of Reports Issued from July l, 19562 = June 30, 1953
+ale
+List of Reports Issued from duly 1, 1952 = June 30, 1953
 Verzuh, Frank Mo
 
-“Solution of Boundary Value Problems on Aiton tin Computing Equipment"
+“Solution of Boundary Value Problems on fbemetie Computing Equipment"
 
 MIT Statistical Services Report S<1 (295 pages)
 “August 22, 1952
 
-Verzuh, Frank Me | _
+Verzuh, Frank Me | ne
 
 "Description of the M.I.T. General Purpose Control Panels for
 the Model II Card Programmed Calculator"
 
 MIT Stetisticel Services Report S=10 (43 pages)
-December 15, 1962
+December 15, 19562
 
 Verzuh, Frank M.
 
 "M.I.To CPC Board Noo III = A 12-Digit Fixed-Decimal Board"
-MIT Statistical Services Report S-12 (16 pages)  - 7
+MIT Statistical Services Report S-12 (16 peges)  -
 June 12, 1853
 
 Verzuh, Frank Me
 
-"Description of the M.I.T. Board Noes V = A 13=Digit Floating=
+"Description of the M.I.T. Board Noe. V = A 13=«Digit Floating=
 Decimal Board"
 
-MIT Statistical Services Report S=14 (17 pages)
+MIT Statistical Services Report S-14 (17 pages)
 June 26, 1963
 
-List of Reports Tssued from July 1, 19563 = June 30, 1954
+List of Reports Tssued from July 1, 19563 = June 350, 1954
 
 Verzuh, Frank M.
 
-"M.I.Te General Purpose Control Panel Board IV for Model II CPC"
+"M.I.Te General Purpose Control Panel Board IV for Model II CPC®
 MIT Statistical Services Report S-13 (32 pages)
 September 30, 19563
 
@@ -153,35 +153,35 @@ Verzuh, Frank Me
 MIT Statistical Services Report (20 pages)
 October 30, 1953
 
-Verzuh, Frank Mo,
+Verzuh, Frank Mo.
 
 “Solution of Boundery-Value Problems on Automatic Computing Equipment”
 
 AIEE (Communications and Electronics) 10, ppe 813-821, January 1954
-Verzuh, Frank M,
+Verzuh, Frank Me
 
 "Digital Computer Solubion of Scheduled Air Traffic" (12 pages)
 
 Peper presented at AIEE North Eastern District Meeting, May 6, 1954
-Verzuh, Frank M,
+Verzuh, Frank M.
 
 "The Educational Concept of Computers as a New Tool" (8 pages)
 
 Proceedings of Conference on Training Personnel for the Computing
-Machine Field, June 23, 18954
+Machine Field, June 23, 1954
 
 Verzuh, Frank M.
 
 "Electronic Computer Laboratory: Theory end Experiments" (231 pages)
-July 30, 19564
+July 30, 1964
 
 
 2)
 
-oN
+WV
 ~~
 
-He
+H>
 Sa”
 
 wd
@@ -189,9 +189,9 @@ wd
 OFFICE OF STATISTICAL SERVICES
 
 List of Reports Issued from July 1, 1964 = June 30, 1955
-TOT ENA roan Ss rey Ey seen) - EE
+ET MA Ey sein) " Ee EE
 
-——
+—_—
 
 verzuh, Frank M.
 "Application of Orthogonal Polynomials to Curve Fitting on
@@ -205,7 +205,7 @@ Programmed Calculator"
 IIT Statistical Services Report $=17 (37 pages)
 November 29, 1954
 
-verzuh, Frank Mo.
+Verzuh, Frank Mo.
 
 "Study of Electromagnetic Propagation in the Ionosphere"
 MIT Statistical Services Report S=18 (43 pages)
@@ -214,19 +214,19 @@ December 31, 1954
 Verzuh, Frank M.
 "Characteristics of IBM Electronic Data Processing Machines"
 MIT Statistical Services Report S-19 (15 p ages)
-January 13, 19565
+January 13, 195685
 
 Verzuh, Frank M.
 "Characteristics of Small Magnetic Drum Calculators”
 MIT Statistical Services Report S=20 (12 pages)
 February 15, 1955
 
-a - < eq
-Operation of Decent eae “omputers?
+» " . |
+Operation of Decent EES] 1284 Somes)
 JTL
 
-AT ga ye EA 10 paces)
-MIT ces Report S«21 (10 pages]
+AT ar Rarrmde Q 10 Paces)
+MIT ces Report S«21 (10 pages)
 
 atistical Sex
 
@@ -234,10 +234,10 @@ atistical Sex
 
 19565
 
-a a wn eh ey A = al l coven  - | 1 2 1) ~ Dey mm ASS Oo Cures ‘n
+i wn eh ey We NE] 4 l coven V - = 1 2 1) ~ Dar SSS Oo Cor ren be
 
-LE LSCLOCE OL aX ge =S( ale nLlecuronic lata Process LIE YS Gems
-A Ce ~. - 35% — ry q yO) / po A \
-Glstical Services Report ce (15 Pages
+LE ALSCGLOCE Of aX ge =S( ale pLlegcuronic ava Process LIE QS Gams
+A pl. = Cn ~ LR - Do q yy / r ~ \
+GlstGilcal Services Report ce (156 Pages
 
 

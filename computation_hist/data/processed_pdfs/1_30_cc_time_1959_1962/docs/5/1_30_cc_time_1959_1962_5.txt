@@ -1,10 +1,10 @@
-Prob. Bo.
+Prob. bdo.
 
 Lab.
 1064 RLE
 1088 OR
 1143 LNS
-1150 LMS
+1150 LAS
 1157 LNS
 1160 LS
 1176 LHS
@@ -17,7 +17,7 @@ RLE
 LMS
 RLE
 LNS
-L¥S
+LES
 RLE
 RLE
 
@@ -92,7 +92,7 @@ August 30, 1961
 Heurs in June
 
 60
-b
+&
 179
 24
 16
@@ -102,12 +102,12 @@ b
 28
 15
 
-576 0
+376 0
 
 602
 
-Qo
-o OCOO0O
+o
+o OCOOO
 
 159
 
@@ -135,7 +135,7 @@ Total Hours
 
 119
 
-32
+a2
 
 259
 
@@ -154,7 +154,7 @@ OR
 
 88
 
-woo ond
+wooo oS
 
 13
 
@@ -212,13 +212,13 @@ Total Hours
 14.25
 33.5
 17.75
-&5.75
+£5.75
 
 1.75
 
-TR
+A gna Wl, Tain
 
-a
+Mie li i
 
 Use by Laboratories
 

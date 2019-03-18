@@ -1,5 +1,5 @@
 “ MASSACHUSETTS INSTITUTE OF TECHNOLOGY
-+ = OFFICE OF THE CHANCELLOR
+Li a OFFICE OF THE CHANCELLOR
 
 November 8, 1956
 
@@ -12,7 +12,7 @@ New York 20, N.Y.
 
 Dear Dr. Buchanan:
 
-Professor Philip MN. Morse, Director of our
+Professor Philip M. Morse, Director of our
 
 Computation Center, has forwarded an application
 to you for a grant in support of a machine
@@ -21,7 +21,7 @@ utilization of electronic computers in the social
 sciences,
 
 The budget calls for an expenditure of $98,400
-over a period of three years. 1 have reviewed
+over a period of three years. I have reviewed
 the proposed program, and would like to express
 my whole-hearted endorsement of Professor Morse's
 request. |

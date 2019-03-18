@@ -2,10 +2,10 @@ INTEROFFICE MEMORANDUM
 To: Professor Philip M. Morse
 From: Dr. Arthur IL. Loeb
 
-SUBJECT: Electophoresis Problem on the IBM-70L Computer
+SUBJECT: Electophoresis Problem on the IBM=70L Computer
 
 Last summer we discussed the possibility of running a
-problem in electrophoresis of colloid particles on the IBM=70) onan
+problem in electrophoresis of colloid particles on the IBM=70l CODY,
 I started on a machine analysis of this problem during my leave of absence
 from M.I.T., spent at the University of Utrecht, in the Netherlands,
 When we last talked about this, I proposed bringing my assistant at Utrecht,
@@ -20,9 +20,9 @@ Fw Vv
 
 “4/2
 
-TS Ty
-Ho Ww Vu cl, 70 g T, me |
+Ne ey
+Ho ww Vu cin, To 4 T, me |
 
-- 9
+- §
 
 

@@ -1,0 +1,57 @@
+Newd = = TRIP REPORT
+
+TO: No Dr. M. A. Shader FROM: Cambridge MIT CC
+EN TE te ig ey |
+PLACE VISITED! — Boston University DATE: November 22, 1957
+
+PERSON SEEN: Prof. John Alman, Director of the
+Computation Laboratory at
+Boston University :
+
+The purpose of thie call was to discuss with Prof. Alman his present
+program on the 650 and also the plans of Boston University for utilizing
+the MIT Computation Center, Prof. Alman said that the 650 was being
+kept reasonably busy with student and faculty research and training.
+
+The laboratory is operative several evenings per week. He said that
+Prof. Scheid had approximately 40 students enrolled in his Numerical
+Analysis Course. The laboratory work of the Numerical Analysis Course
+involves using the 650 computer and the laboratory portion of the course
+is handled by the staff of the Computation Laboratory. At present, Prof.
+Alman said, the evening programming course was underway. This course
+is attended by approximately 60 students in three sections. The cour se
+is essentially a 650 programming course and is taught by Mr. Lawrence
+Belsky of the computing laboratory staff.
+
+Prof. Alman stated that at the present time all research and training
+problems that appeared to be occurring at Boston University could be
+adequately handled in the 650 computation laboratory. He expressed the
+opinion that as long as problems could be sclved on the 650 that it should
+be used for this purpose rather than making use of the 704 at MIT.
+However, two people including Mr. Belsky from BU attended the 704
+programining course in August of this year and are in position toc program
+problems for the 704.when the need arises.
+
+I planned to see Prof, Scheid also on this call but was unable to see him
+today. I intend to make a call again in the near future and discuss the
+question with him.
+
+By carbon copy of this, I am asking Dr. Corbato to place Prof. Alman
+on the mailing list for notification of the Tuesday afternoon meeting at the
+Computation Center at which seminar speakers are present.
+
+Ng.
+
+N J. F. Blackburn
+JFB/jeh
+cc: Prof. P. M. Morse, T
+
+Dr. ¥., J. Corbato, MIT
+
+Dr. M. A. Shader, White Plains
+
+ir, W. F. McClelland, Eastern Regional
+
+Mr. W, T. Hamlen, Cambridge
+
+

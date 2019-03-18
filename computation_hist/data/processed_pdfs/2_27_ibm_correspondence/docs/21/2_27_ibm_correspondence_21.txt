@@ -8,7 +8,7 @@ New York 22, N. Y,
 
 Dear Manny:
 
-| I am enclosing a short note on the modification of the IBM 704
+I am enclosing a short note on the modification of the IBM 704
 which we would like to put into effect, The memo indicates some of the
 many interesting applications which can be worked on if the modification
 can be done, We had thought originally of making the machine modification
@@ -19,10 +19,10 @@ the 704 customers upon appropriate payment,
 
 I should think that the standard IBM modificéition would be the
 desirable way of making this change but the standard IBM price is out of
-our reach, I hesitate to ask DeCarlo's division to O0.K., the donation
+our reach, I hesitate to ask DeCarlo's division to 0.KE., the donation
 since it is more for research than it is for purely educational uses (if
 you can ever separate these two), At any rate, if you feel this would be
-2 desirable thing, for us to have your support of our request, through
+a2 desirable thing, for us to have your support of our request, through
 Shader to DeCarlo, it would be welcomed, The reason we feel urgent about
 it is that a couple of the researchers who would like to use this device
 are Ph,D, theses and, if we have no hope of making the modification soon,

@@ -1,8 +1,8 @@
 DEPARTMENT OF THE NAVY
-"OFFICE OF NAVAL RESEARCH :
+"OFFICE OF NAVAL RESEARCH
 WASHINGTON 25, D. C. IN REPLY REFER TO
 
-ONR:1j32 setm
+ONR:1i32 setm
 Ser
 
  
@@ -17,7 +17,7 @@ We are pleased to advise you that your request of 25 March
 1957 for a no-cost extension through 30 Jume 1958 of
 Contract NSori 6001 has been approved by the Mathematics
 Branch of this Office and forwarded to our Contract
-Division for negotiation, You may expect to hear from a
+Division for negotiation. You may expect to hear from a
 representative of that Division in the near future,
 
 Sincerely yours,
@@ -27,12 +27,12 @@ ARTHUR GRAD
 Head, Mathematics Branch
 By direction of
 
-Chief of Maval Research
+Chief of Naval Research
 
  
 
 Copy to:
-“=e ooo =mProfey Philip M, Horse
+=e oon mmProfs Philip Me Horse
 ~ OlR/Boston
 
 

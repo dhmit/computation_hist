@@ -1,45 +1,45 @@
 Ee MASSACHUSETTS INSTITUTE OF TECHNOLOGY. i :
 
-A , DEPARTMENT OF. ELECTRICAL "ENGINEERING SPE = a
-Te A A PHAN Dr DIGITAL COMPUTER LABORATORY AIR RE Ee
-Pe RN a mT tix 211 MASSACHUSETTS AVENUE A ee
+A: a DEPARTMENT ‘OF ELECTRICAL "ENGINEERING SOEs = ay
+AT TAN De DIGITAL COMPUTER LABORATORY ALR Cpe Ee
+Ber mS tx 211 MASSACHUSETTS AVENUE = og
 
-RRR] Dw gan i © CAMBRIDGE 39. MASSACHUSETTS 4
+Pra LY he REE * CAMBRIDGE 39. MASSACHUSETTS 4
 
-eh GORDON S. BROWN. FACULTY. ADVISOR Re 5 Eo 3
+rl GORDON S. BROWN. FACULTY. ADVISOR a 5 Eo . 3
 
-JAY We FORRESTER. DIRECTOR © =... = Ve Rn al SpA 2 ge fo UY ; Rate ety gi TELEPHONE etior a 33n 3
-ROBERT R. EVERETT, ASSOCIATE. DIRECTOR | 9.4 Ee t . Na .D. 1. C.- 6348
-HARRIS ANpRInSK EXECUTIVE OFFICER. : : : a
+JAY We FORRESTER. DIRECTOR © =: = Vy hE A rr ef EY ; a wr dS i TELEPHONE etior a 33n 3
+ROBERT R. EVERETT, ASSOCIATE. DIRECTOR | Go , Ee 2 y i ah : DD. 1. C.- 6348
+“HARRIS FAUNESTOCI, EXECUTIVE OFFICER. : : S oR
 
-’ 3 . % v
-v . : ACS ’ : - . , .
-<a 2 ) . . dl ye v1
-. 5 Va “5 v Pm « R . 2% "i Rr P E ; hm >
-“ 5 » ¢ BR —. . Nhe. x 2 Ly
-La . : 5 . > x < ’ , ¥ hig. ne 3 Te . CL
-RCS © ah = J 2 . i : = AR NS y
-ok : 4 \ Cao See :
-: 3g ; : 4 s . F3r NY ve ’
-5 g cy : ’ \ oy .
-¢ . - ., - 3 . Ae on
-we : : ) Lat : x '%:
-Eo =Y- : : : 8 : : 4 SEA
-. . . »
+’ 3 - vv v
+N . : . vA ’ : - . , .
+x . ; . . ere gd ar
+. . “ry Yea ; . . YR "0 5 RP : B ; hm >
+‘ . , gS a . Xe iw. A 2 “od
+SN . 3 5 - . x i ’ , 4 le, a 4 7% .
+JS Rg = J : . i : RN ¥
+ok . % . REY SA pr :
+bg ’ . 4 : ‘i Car AN va ¥
+3 ; oy : ’ . oy \
+¢ . : ., - c . ar =
+we : : ) ce] : \ ‘as
+a TY: : : : : : 8 84 SEA
+« - 1 r
 
-5 ‘Brace B. Landry
+of ‘Bruce B. Landry
 Roos 1-250 ;
-Massachusetts Institute of Technology
+Massachusetts 1mstitute of Technology
 
 55 ‘pear Sirs
-Sh TES 1 have been’ wh thet tad to Sredis your account
-| ‘with 30 atuites of machine time on the Whirlwind I Gouputer
+ok TE 1 have been’ anthorized to Siudit your account
+| ‘with 30 alnites of machine time on the Whirlwind I computer
 
-for work under problema 378, Biuptore of a ie ay Concrete
-Building to Dynamic Lending.
+for work under problem 378, Regponse of a Sinsle Stosy Concrete
+Building to Dynamic Loading,
 
-If you find that you need nore tims, it will be
-necessary to gens a new LE. OR
+If you find that you seed nore tims, it will be
+necessary to Sybait a new  Tequest, ow
 
 Sincerely,
 
@@ -49,7 +49,7 @@ Sincerely,
 
  
 
-~FEV:mmt |
+-FEV:mmt |
 cc Prof. Hansen
 Prof, Morse
 L. T. Brock

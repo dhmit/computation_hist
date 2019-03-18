@@ -36,7 +36,7 @@ the LISP language developed by Professor McCarthy and is a quite
 different programming system. It has a mathematical logical approach
 
 
-So,
+0
 
 and promises to be a valuable tool in the study of artificial
 intelligence and heuristic programs. Although both systems will be
@@ -67,10 +67,10 @@ if they can get over certain speed thresholds. The replacement of
 the 704 by the 7090 should serve to barely keep pace with these demands.
 Secondly, as a practical matter the various time-sharing developments
 are not at all easy on the 704 and are much more feasible with the
-circuitry and design of the 7090 computer.
+circuitry and design of the T7090 computer.
 
-J Corbato
+P.O J, Corbato
 
-November 1%, 1959
+November 13%, 1959
 
 

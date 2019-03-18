@@ -7,13 +7,13 @@ December 22, 1958
 Professor Philip M. Morse, Director
 Computation Center
 
-Massachusetts Institute of Technology i ns
+Massachusetts Institute of Technology SRNR | A
 
 Cambridge 39, ilassachusetts
 Dear Professor Morse:
 
 I have posted your letter of December 10 in our laboratory
-here and announced it to my students. As I wrote you, I am also
+here and announced it to my students. As I wrote you, 1 am also
 looking for persons with the characteristics you describe for our
 new staff at Chapel Hill.
 
@@ -23,7 +23,7 @@ this might interest him. You may also hear from other students
 in my class.
 
 If in turn, you know of any students who would like to get )
-Ph.l's in computer oriented mathematics aimed at artificial intel-
+Ph.li's in computer oriented mathematics aimed at artificial intel-
 ligence, language translation, or numerical analysis, I would be
 pleased to hear from them at Chapel Hill. J
 
@@ -33,12 +33,12 @@ pleased to hear from them at Chapel Hill. J
 
 Sincerely yours,
 
-Joho A) (oN J
+Joho A. (oN J
 
 /
 
 /
-(John W. Carr III
+[John W. Carr III
 
 JWC/eks
 

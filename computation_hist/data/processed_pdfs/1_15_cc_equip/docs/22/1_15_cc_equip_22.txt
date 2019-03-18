@@ -18,22 +18,22 @@ the manual or fixed setup type or the dual purpose type.
 
 Machine Fixed Control Manual Control Dual
 Type Panels Panels Purpose
-077 Standard 6 <4
+077 Standard 6 4
 519 Standard 10
 407 FORTRAN Printing Arrangement 10
 552 Standard 8 2
 024 )
-026 i ;
+026 } :
 066 FORTRAN Key Top and Punching
 068 ) Arrangement
 082 Sorter - Additional Feature is the Auxiliary
 Card Counter
 010 Standard
 Yours very truly,
-( > | Te Son < L/ = 5 C)
+( 3 | Le PE < }/ es = 0)
 G. Truman Hunter
 GTH/ jeh Educational Co-ordinator
 
-cc: Prof. P. M. Morse
+cc: Prof. P. M. Morse“
 
 

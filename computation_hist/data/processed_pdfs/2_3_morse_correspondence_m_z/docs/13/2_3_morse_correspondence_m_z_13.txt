@@ -1,4 +1,4 @@
-/ THE UNITVERSITY OF CHICAGO
+/ THE UNIVERSITY OF CHICAGO
 CHICAGO 37 » ILLINOIS
 
 DEPARTMENT OF PHYSICS
@@ -17,10 +17,10 @@ Dear Professor Morse,
 Our work im developing a code for use with the Whirlwind for computing
 the 2-center Interelectronic repulsion exchange integrals
 
-fe AT JET) e%/r Xa' (2) Xp! (3) dvydv,
+EEE Ta e%/r Xa' (2) Xp (3) dv,adv,
 has reached the point where these integrals can now be accurately
 computed for probably any combination of 1- and 2-quantum atomic
-orbitals x, xt, x¥t, xy" (a and b are the 3 centers). The work during
+orbitals x, Xx', x'', x(a and b are the 3 centers). The work during
 recent months has been in the hands of Mr. Philip Merryman. He is
 now here, but will be ready shortly to return to M.I.T. wheee we hope
 
@@ -34,9 +34,9 @@ in the complete range of parameter values.. Also, a minor revision
 
 of the code should be made to take advantage of the increased fast
 
-memory now avalilable- it is estimated that this will reduce the time
+memory now avallable- it is estimated that this will reduce the time
 
-fo compute an integral by at least 30 percent. I think we have used
+to compute an integral by at least 30 percent. I think we have used
 about 25 hours of the total time of 35 hours which you so kindly
 
 granted us. If the remaining 10 hours is still available we believe
@@ -48,10 +48,10 @@ actual computation of particular values of integrals to be used in
 determirly best LCAO-MO wave functions, and properties derivable there-
 from, £ér a series of diatomic molecules (first Li,, Ben, Co, No,
 
-Op, Fp or some of these; and AH, where A is a FAPRE Pow atom; then
+Op, Fp or some of these; and AH, where A is a first-rou atom; then
 BeO, LiF, and other heteropolars). The indicated calculations are
 part of our program under a grant from the National Science Founda -
-tion. A conservative estimate of the running time needed to [hotain
+tion. A conservative estimate of the running time needed to [botain
 the exchange integrals needed for the most important molecules on
 
 the above #program is 60 additional hours on Whirlwind.
@@ -59,12 +59,12 @@ the above #program is 60 additional hours on Whirlwind.
 Professor Roothaan and I would like therefore to make a request for
 up to 60 hours of Whirlwind time between now and about June 1 for
 computing values of specific integrals. Some of our specific
-values will probably be useful to John Slater too, and will of
-course be avallable to him. In view of the relatively large amount
+values willl probably be useful to John Slater too, and will of
+course be availlable to him. In view of the relatively large amount
 of time involved, we would feel that we should contribute as much
 as possible To the cost. Our National Science Foundation grantg
 includes about $25,000 for computer time, but this is for a three-
-year period, so we ought not to use more than $8,000 this year,
+year perlod, so we ought not to use more than $8,000 this year,
 
 
 (Page 2, Ltr. Mulliken to Morse, dtd 26 Dec 56)
@@ -80,10 +80,10 @@ transfer the Whirlwind exchange integrals code there.
 In brief, we would like to request for use between now and about
 June 1, (1) confirmation of free Time of about 10 hours which we
 hope still remains from our previous allotment; the time so used
-can be justified, I believe, in terms of John Slater's interest
+can be justified, I believe, in terms of John Slatert!s interest
 in perfecting the existing code and increasing its speed; (2) an
 additional 60 hours, for which we can make a contribution up to
-$7,600 or perhaps $8,000.
+$7,000 or perhaps $8,000.
 
 To the extent that you can accelerate your reply to our request
 we shall be deeply grateful.
@@ -92,11 +92,11 @@ With best wishes for the New Year,
 
 Sincerely,
 
-Toba Nl life.
+Tobe Nollife.
 
 R. S. Mulliken
 
-ces Prat. I. BL Slater
+ect Prof. J. CO. Slater
 
 RSM:1d
 

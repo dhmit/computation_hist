@@ -1,16 +1,16 @@
-eR r= TR ER. TET TEPr Nr eer Ye EER IR LW GEC Te, Ge RE eR Se a
+ev Es Te Ee ETT AREA RO REIT ET CSO TL We SRE wl WIT pe a TT
 
  
 
-AY MASSACHUSETTS INSTITUTE OF TECHNOLOGY
-DIVISION OF INDUSTRIAL COOPERATION
+ro MASSACHUSETTS INSTITUTE OF TECHNOLOGY
+; DIVISION OF INDUSTRIAL COOPERATION
 CAMBRIDGE 39. MASS.
 
-. Pag >»
+. Na v
 N. McL. SAGE
 DIRECTOR
 
-Tet November 23, 1951
+LET OR November 23, 1951
 
 ASSISTANT TO THE DIRECTOR
 
@@ -23,53 +23,53 @@ ASSISTANT FISCAL OFFICER
 M. S. STEVENS
 ASSISTANT
 
-Commanding General |
-sir Regerrch znd Development Command
+Commanding General
+sir Recerrch znd Development Command
 P. 0. Box 1395
 
 Baltizore 3, Maryland
 
-A%%: RDMPE/C.C, Fruder/sg
+A%%:  RDMPE/C.O. Fruder/sg
 
  
 
-Dear Sir:
+Uear Sir:
 
-Ve referred your proposel of Cctober 17 #92708 %o :
-Prof. P. M. Morse, who is VUhelrmen of The MIT Committee
+ve referred your proposel of Cectober 17 #92708 %o 3
+Prof. P. M. Morse, who is Vheirmen of the MIT Committee
 cn Machine Methods of Computation,
 
-bt yn TRIES AL SRSA TES Re
+Ls TRIER CTE ENE
 
  
 
  
 
 The Institute presently has in operation, supported
-by the Air Force, a Differential Analyser, a REAC, end the
-“hirlwind Digital Computer (to which the Navy also contri-
-butes.) Ve have also an ONR progrsm conducted by Frof.
+by the Alr Force, a Differential Analyser, a REAC, end the
+“hirlwind Digital Computer (to which the lavy also coniri-
+butes.) Ve have also an ONR program conducted by Frof.
 
-" Morse and some of his colleagues.
+"Morse and some of his colleagues.
 
-Because of the undoubted overlap between what we
-aré now doing, end what you wish done under “Statement of
-vork", we believe it would be advisable to have Lr. Horse
+Becsuse of the undoubted overlap between what we
+ere now doing, and what you wish done under “Statement of
+vork", we believe it would be advisable to have Lr, Horse
 talk with Lt. Col. H. C. Henry &né to Dr, Skinner who, we
 understand, is senior civilien in ARDC, end would be par-
 ticularly interested in thle ares.
 
-hegcause of the numbers of people involved and the
+hegause of the numbers of people involved and the
 complexity of the problem I think it woulc be advisable
 1f the suggested meeting could be held at the Institute
-where the equipment and personnel can be essily assembled.
+where the equipment and personnel can be esslly assembled.
 
 Very truly yours,
 
-NMS: MDH MN, Mel. Sage
+NMG 1 HDA N. Mgl.. Sage
 In duplicate
 
-ee: Lt. Col, Henry, WCRR
+ec: Lt. Col. Henry, ¥YCRR
 Prof. P. M. Morse, MIT
 
 
@@ -77,7 +77,7 @@ _ Room 6-109
 
 November 7, 1951
 
-Mr. NH, MeL. Sage
+Mr. Hi MeL. Sage
 
 ~~ Dear Nat:
 
@@ -85,14 +85,14 @@ The enclosed request for a proposal from ARDC for
 research in the use of computing machines has received very
 considerable attention from several members of the Physics
 Department. It is a problem which is of considerable inter-
-est to several of us, in fact it is a problem very similar =.
+est to several of us, in fact it is a problem very similar =
 in its scope to part of the task-order in the OHR-Whirlwind
 contract. It is this similarity, as a matter of fact, which
-~ has led to our hesitation. a a
+- has led to our hesitation. 2 A
 
 We are already doing part of the work outlined in
-this reguesty we are anxious to do the rest. But we feel
-it might be better to dc this work under ons combined con-
+this reguestj we are anxious to do the rest. Dut we feel
+it might be better to do this work under ons combined con-
 tract instead of trying to serve two masters, so to speak.
 Since we have no need of additional funds this year to carry
 on, we can afford to wait until some one from ARDC comes up
@@ -101,7 +101,7 @@ done. I would like to have a chance to talk to Dr. Skinner
 who, I believe, is the senior civilian in ARDC, about our
 plans for the use of the big machines at Tech, for research
 and for training. If this can be arranged, please let ne
-Know. |
+KNOW. |
 
 Yours, .
 

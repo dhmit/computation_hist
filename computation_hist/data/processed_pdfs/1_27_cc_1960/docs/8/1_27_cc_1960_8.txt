@@ -1,4 +1,4 @@
-[ERE a A a TE
+RE EE
 
 COMPUTATION CENTER |
 ‘Massachusetts Institute of Technology
@@ -6,13 +6,13 @@ COMPUTATION CENTER |
 January 15, 1960
 
 M.I.T. Computation Growth
-AL by :
+Pi by ;
 Professor Herbert M. Teager
 
 M.1.T's needs for computation have already outgrown the
 available capacity of the 704. The underlying causes for
 this disparity give every reason to expect that the situation
-will worsen at an increasing rate in the future. The outward
+will worsen at an inereasing rate in the future. The outward
 manifestations of the situation are threefold: first, a queue
 of programmers awaiting a chance to run their problems on the
 TO4 has developed with a one to two day waiting time for
@@ -42,7 +42,7 @@ into this time, but the New England Colleges, starting from a
 much lower initial usage have all but filled their half of
 the machine as well.
 
-Before we explore our future ARABS SD LIS Sauvilibiaihs,
+Before we explore our future SOUpIaLLORaY rewviteients,
 it is extremely important to closely examine the causes for
 the growth in usage. Figure (1) illustrates that M.I.T's
 usage has steadily grown until it has effectively plateaued
@@ -57,14 +57,14 @@ risen until it is now at saturation. An analysis of the dis-
 tribution of problems sizes for the period January-June 1959,
 Figure (3), shows that the large bulk of users are taking
 small amounts of total time for their computation and are
-thus aceouting for only a small percentage of the total load.
+thus acceouting for only a small percentage of the total load.
 The bulk of machine time is going to "larger" users who com-
 prise a small percentage corresponding to the total number of
 users. The major growth in machine usage is thus due to the
 larger users (who, in general, correspond to M.I.T. research
 groups rather than thesis users) who are requiring increas-
-ingly large amounts of time for their work. They are also
-the hardest hit by curtallments in time.
+ingly large amounts of time for thelr work. They are also
+the hardest hit by curtaillments in time.
 
 One possible explanation for the relatively small num-
 ber of users (out of the total M.I.T. population) is that as
@@ -140,7 +140,7 @@ such as a stretch class computer. The stretch has not only
 far greater memory and computational speed than a TO4, but
 in addition, is a far more efficient information processor
 than the 704 which was designed to handle only numbers, and
-1s quite poor at finding, or rearranging information.
+is quite poor at finding, or rearranging information.
 
 Let us examine a few of the research areas that are
 currently hampered, and whose future growth is out of the
@@ -149,13 +149,13 @@ is provided.
 
 Weather Forecas ting-Professor Charney
 
-Weather prediction for a hemlsphere of earth, using a
-very rough model takes on the order of 24 hours of TO4 time
+Weather prediction for a hemisphere of earth, using a
+very rough model takes on the order of ol hours of TOY time
 for a 24 hour prediction. The reason for this is that the
 model must take into account topographical features, heat
 balances, moisture contents, etc. at many many points, both
 at and above the earth's surface. Long range forecasting is
-ghus clearly impossible on the TOA. As a result, progress
+ghus clearly impossible on the TO4. As a result, progress
 in this area must remain slow until a faster machine is
 avallable.
 
@@ -172,7 +172,7 @@ would require about 50 hours of TO4 time. The basic reasons
 for this order of time requirement 1s that the potential
 functions are highly specialized and complex, which in ma-
 chine terms requires a large amount of storage, easy access
-and very fast computation. be
+and very fast computation. es
 Crystalographic Data Reduction-Dr. M. Barnett
 
 Dr. Barnett is attempting to enable physical chemlsts
@@ -192,11 +192,11 @@ a metal or alloy from energy level considerations requires on
 the order of 15 hours. Since there is no limit to the num-
 ber of possible alloy combinations, thls class of problems
 alone can clearly keep a very large machine occupled full time.
-Mechanical Translation-Dr. ¥Yngve
+Mechanical Translatlion-Dr. ¥Yngve
 
 Until recently, Dr. ¥ngve's group has been occupled large-
 ly with development of a programming language for linguistics.
-The large scale usage of thls language in solving research
+The large scale usage of this language in solving research
 problems in translation have yet to be felt by the Center.
 As of today, even a moderate amount of translation (which re-
 quires much relatively immediate random access to a large
@@ -207,7 +207,7 @@ M.I.T. Computation Growth Page 6.
 
 be beyond the availability of time on the 704. Translation
 with a very large dictionary would, in addition, tax the
-TO4's capabilities. Dr. Yngve has not as yet been hampered
+TO4's capabilities. Dr. ¥Yngve has not as yet been hampered
 seriously other than in the sense of slow programming pro-
 gress due to the existence of the queue,
 
@@ -224,26 +224,26 @@ the proof of theorums. One characteristic of such problems
 large number of possibilities.
 
 ‘The main hope in such problems is that the machine can
-elther by itself or with on-line human assistance develop a
+elther by 1ltself or with on-line human assistance develop a
 rule of thumb (or heuristic) to short cut the exhaustive
 search and trial procedure. This class of problems requires
 very fast information processing, combined with as large a
 random access memory as 1s possible to apply their tech-
-niques €o any sizeable problem clearly can require up to
+niques C0 any sizeable problem clearly can require up to
 weeks of TO4 time.
 
 Experlmental Physics Data Reduction-Dr. D. Caldwell
 
-Dir. Caldwell's work on determining the characteristics
+Dire Caldwell's work on determining the characteristics
 of hyperons (Lambda, D, Pi, Mu, ete.) involves the detection
 and computation of certain types of trajectories from among
 10-100,000 photographs of high bubble chamber tracks.
 
 This problem not only involves a large amount of data,
-but has strong requirements for the machine to recognize
+but has strong requlrements for the machine to recognize
 characteristic patterns. This type of process (although once
 the pattern is recognized the computation is small) ean again
-severely tax the 704 facilities.
+severely tax the T04 facilities.
 
 
 I —
@@ -261,10 +261,10 @@ optima and communicating back and forth. A problem with this
 much of a requirement for both speed and information capacity
 cannot at present be successfully time shared on the 704. In
 addition to the large blocks of time required, no other useful
-work can be done by the Toh while SpAAEI cet Sutin is gov-
-erning. aR
+work can be done by the Toh while Whe Human cdes sion is gov-
+erning. Fett
 
-Machine Thinking-Dr's Teager, BarRabe;: et. al.
+Machine Thinking-Dr's Teager, BAHAY; et. al.
 
 Many separate individuals and groups, not tied in with
 
@@ -277,7 +277,7 @@ high speed, large immediate access memories, and large auxi-
 liary storage requirements which make them relatively in-
 efficient and non feasible on a 704.
 
-Industrial Dynamics, O.R., Econometrics, ete.-Dr's Pugh,
+Industrial Dynamics, O.R., Econometrics, etec.-Dr's Pugh,
 
 Barnett, et. al.
 Problems of Nonlinear Programming, Scheduling, and
@@ -307,12 +307,12 @@ M.I.T. Computation Growth Page O.
 The large problems described, as well as the smaller but
 more numerous problems should not be preempted from the com-
 puter because of compete¢ng time requirements of very large
-users, including on-lin<¢ users. These requirements, when
+users, including on-line¢ users. These requirements, when
 combined wlth the need to minimize the waiting time to
 actually state and run a probiem on a computer dictate that
-a large machine, capable of time-sharing ar mulilprogrammning
-be available. It further dictates that this machine must
-have a very large immediate and backup random access storage,
+a large machine, capable of time-sharing er mulilprogrammning
+be avallable. It further dictates that this machine must
+have a very large lmmedliate and backup random access storage,
 in order to successfully keep many simultaneous customers
 content with a fraction of its capabilities.
 
@@ -326,11 +326,11 @@ lent both in the sense of having less capacity available to
 the user and in the sense of the cost of computation.
 
 
-ROO SNE RNAS
-mm =
-mR «
+RS SS ON NS
+NNAANAANA RU NNNANNN
+mma «
 
-ARON 2
+RY
 
 1959
 
@@ -338,13 +338,13 @@ USAGE IN HOURS
 
  
 
-mt
+—
 
  
 
  
 
-M.I.T, MONTHLY
+M.I.,T, MONTHLY
 
  
 
@@ -385,20 +385,21 @@ Table 1. 704 U
 |
 |
 |
+|
 $
 
-a
+NR
 -
-d
+&
 -
 
-pre I
+pre J
 
-¥:
-21s truss vrron’ oF APP
-oaks Ls Arsicn 32 c
+4
+21s tous vrron’ oF y APP
+aes Ly Aorsicne Ide
 ™M
->
+&
 ™
 
  
@@ -409,22 +410,22 @@ oaks Ls Arsicn 32 c
 
 Size of Probl
 
-#4 of wage
+#4 oF wage
 
  
 
    
 
-ACConsr Ar Less
+ALCosr Hr less
 
 7. A
 
-Be eT at
-a : 2 >» 3 ee
+Be es aT er
+“a : > J ee
 
-. : - Lan 2
+- . > aN 2
 
-A ot pipet .
+PRP RS .
 
  
 
@@ -434,48 +435,48 @@ A ot pipet .
 
  
 
--
-sJI98) JO @8evjusdied
+~
+sJI98() JO @8evjusdied
 
 7
 
-¥55
+955
 
 FIN - Jew
 
 J
 -
->
+2:
 
 9/77 ror pettre
 
-a ——— a ——————— —. . ——— ———— — ——— ——— ——  — ————  ————
+a  — ——— i —— a ——— —. . —— ———— — ——— ——— ——— ———— ———————— Yo ————
 
-——————
+————————
 
-— rt —
+rr —
 
-a —
+————————
 
-Ary irr <<
+Aru sre &“
 
-24 of Us
+24 of UsA
 
-vé&
+pé&
 £ Users
 
 Ja
 
-Frogfeny S7ee
+Frogfeny S7ée
 
-Ss 5 1557 dS DO / WR AAC
-£5
+Ss 5 1557 1d DO / WR AAC
+“5
 
-3 ge
+GL
 
-— —— a —— a ——
+— 3.  ——————— 1 — — ———  —_
 
-Wy] SUIYOEN JO a¥evjluediag
+Wy] SUIYOEN JO af¥ejusdiag
 
  
 
@@ -486,6 +487,6 @@ Size of Problem
 +
 
 $a
-a Loge mand 20
+a Lo gomugild I
 
 

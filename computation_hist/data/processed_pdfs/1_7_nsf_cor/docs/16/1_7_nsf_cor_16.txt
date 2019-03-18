@@ -34,13 +34,13 @@ of the new Compton Laboratory, and MIT is contributing some of the
 staff from its departments of mathematics, electrical engineering,
 physics, and industrial management. The machine will be available,
 35 or more hours a week, free of machine time charge, to MIT staff
-and students for non-classified and non-routine research. MIT |
+and students for non-classified and non-routine research. MIT
 research in the Center wlll be coordinated by the Institute Machine
 Computation Committee (see Appendix A for names).
 
 In addition, the Center will be available, up to 35 hours
 a week, on the same basis, to other colleges in New England. Already
-25 institutions have indicated their interest in participating and
+25 inatitutions have indicated thelr interest in participating and
 have appointed faculty members to be their Institutional Representa-
 tive (list of participatihg colleges and representatives given in
 Appendix A). These representatives will coordinate the research
@@ -61,7 +61,7 @@ of machine computation, and in specific applications of machine
 1
 
 
-Du
+De
 
 operation to experimental and theoretical problems, thus appreciably
 broadening the range of applicability of computers in the physical
@@ -76,7 +76,7 @@ fields of mathematical logic and methods of data processing which
 will be needed in the application of digital computers to new tasks.
 
 Most of the senior staff for such a research group is
-already assembled at the Institute. Part of it is the group which
+already assembled at the Institute. Part of it 18 the group which
 developed Whirlwind I programming; others are in various departments
 of the Institute. From time to time, some of the staff of the
 participating colleges would Join it for a semester or a year, on
@@ -101,7 +101,7 @@ Whirlwind computing research group can be supported by the present
 ONR contract until December 1956, but a few new staff members must
 be brought in in September in order to get ready for the new machine
 installation. We estimate that a total budget of 60,000 would
-suffice for the next academic year, $90,000 for 1957-58 and 100,000
+suffice for the next academic year, $90,000 for 1957-58 and $100,000
 for 1958-59. Details are given later in this proposal. At the
 beginning of 1959 the program should be re-evaluated to determine
 needs beyond that time.
@@ -112,10 +112,10 @@ from both agencles, an equal gharzs from each. We believe the work
 can be divided so that ceparate contracts can be written. Some of
 the proposed taske would be different, though some of the broader
 
-‘fields of investig tion would overlap. We would hope that we could
+‘fields of Investig tion would overlap. We would hope that we could
 
 
--H-
+eo
 
 put out a combined progress report. In some published papers,
 credit could be given to one organization alone; in others, credit
@@ -124,7 +124,7 @@ but since most of the expense would be for salaries, little for
 permanent equipment, this could be done. It probably would be
 necessary to have the usual government overhead for both contracts.
 
-The proposed budget asked of each agency for 1956-57 1s
+The proposed budget asked of each agency for 1956-57 is
 given below. The corresponding amounts for the following two years |
 
 would be g45,000 for 1957-58 and $50,000 for 1958-59, as indicated
@@ -138,8 +138,8 @@ logical or business language.
 
 2. Development of routines capable of translating from
 algebraic notation to computer code and vice versa, including
-possibly automatic selection of numerical techniques and automatic |
-error analysis. N
+possibly automatic selection of numerical techniques and automatic !
+error analysis. s
 
 3, Development of numerical analytic techniques particu-
 larly suitable for use by digital computers; such as more general
@@ -149,16 +149,16 @@ separate blocks of coefficients and cycle counters and methods of
 automatic determination of best grid spacing, by trial plus
 Richardson extrapolation or other means.
 
-Ii, Investigation of Monte Carlo techniques for large
+It, Investigation of Monte Carlo techniques for large
 problems.
 
-5. Extension and/or improvement of present techniques
+5, Extension and/or improvement of present techniques
 for communication between machine and operator and for the more
 flexible control of machine operation, including possible improve-
 ments in input-output equipment.
 
 
-TT
+ale
 
 6. Experimental analysis and control using data
 transmitted directly between computer and experiment.
@@ -166,12 +166,12 @@ transmitted directly between computer and experiment.
 T. Investigation of microprogramming and other methods
 for Increasing the flexibility of computer design. The possibility
 of inclusion of a very flexible control unit in a large-scale
-computer which would permit ready alteration of an order code.
+computer which would permit ready alteration of an order code,
 
 8. Investigation of techniques for intercommunication :
-between computers, including the possibllity of cycles different ©
+between computers, including the possibllity of cycles different -
 in length or kind running simultaneously with frequent comparison,
-e.g. several single-accumulator computers with common memory ang .
+e.8. Several single-accumulator computers with common memory ang .
 the behavior of a computer with multiple accumulators. Some of
 these properties can be simulated on a 70% by utilization of addi-
 tional drums and magnetic core banks.
@@ -182,7 +182,7 @@ convergence criteria for terminating iteration, or switching to a
 different iteration.
 
 
-He
+oe
 
 Facilities: The MIT Computation Center will have a Type 704
 
@@ -201,7 +201,7 @@ IBM.
 
 The Type 704 EDPM unit is one of the fastest large-scale
 commercial computers available today. Since the MIT installation -
-will be but one of many in the fleld, techniques, programs, and +2
+will be but one of many in the fleld, techniques, programs, and =
 numerical procedures developed for this machine Will be of use to
 others having access to 704 equipment.
 
@@ -224,9 +224,9 @@ details, see "Who's Who." Only a fraction of his salary will be
 charged to the Project.
 
 Professor F. B., Hildebrand has been teaching and conducting
-research in numerical analysis in the Mathematics Department at MIT
-Since 1938. He got his Ph.D. in Mathematics from MIT in 1940. He
-18 the author of three texts: "Advanced Calculus for Engineers"
+research ln numerical analysis in the Mathematics Department at MIT
+since 1938. He got his Ph.D. in Mathematics from MIT in 1940. He
+18 the author of three texts: "Advanced Calculus for Engineers”
 (1949), "Methods of Applied Mathematics" (1952) and "Introduction
 to Numerical Analysis" (1956) as well as a number of articles in
 various research journals. Only a fraction of his salary will be
@@ -234,10 +234,10 @@ charged to the Project.
 
 Dean N. Arden, who has been a member of the Whirlwind
 Programming Research Group for three years, has been head of the
-group since July 1S55 and who will head the programming research
+group since July 1855 and who will head the programming research
 
 
-«b=
+oT
 
 group in the new Computation Center. He obtained his B.S. in
 Electrical Engineering at Michigan, spent four years doing graduate
@@ -250,7 +250,7 @@ and with Whirlwind I. His salary will be charged to the Project.
 Frank M. Verzuh, who will be assistant director for
 operations of the new Center, will also assist the Project. As
 Director of Statistical Services at MIT since 1946, he has been
-connected with the operation of MIT computational work since 1940,
+connected with the operation of MIT computational work since 1940.
 In this capacity he has had considerable experience with the
 utilization of various analogue computing equipment--differential
 analyzers, etc., as well as a complete line of digital machines
@@ -267,7 +267,7 @@ available for advice and cooperation. From time to time, if one
 of them can supervise a part of the Project, part of his salary may
 be charged to the Project.
 
-| GT SAT LS es ay ww PE el Bs PRT iT wt a Rae ES. SY y-——
+Bera] ere Ee Ar —S———,—,k A TE et ———
 
 These will include some former members of the Whirlwind
 programming research group, such as Frank Helwlg and Sheldon Best,
@@ -277,7 +277,7 @@ full time, after they have finished thelr graduate work and relinquished
 their assistantships.
 
 
-==
+fe
 Budget for 1956-1957
 
 ~ (ONR and NSF combined, 1/2 to be charged to each)
@@ -289,14 +289,14 @@ Principal Investigator (8 per cent of
 $12,500) 3 2,000
 
 Other Faculty Members
-(1/3 of 9,000 and 1/3 of £7,500) 5,500
+(1/3 of $9,000 and 1/3 of 27,500) 5,500
 
 Salaries of Full-time Stafr
 3 Senior Investigators (at £7,500) 22,500
 
 2 Junior Investigators (at £6,000) 12,000
 
-1 Secretary-Typist (at $3,000) 3,000
+1 Secretary-Typist (at £3,000) 3,000
 
 1 Technician (computer, programmer) 5,000
 Total Salary 350, 000
@@ -317,7 +317,7 @@ Total Yearly Budget $80,000
 (see note on next page)
 
 
-Lg
+Ge
 
 Since the staff will be acquired in 1956, some of them
 being transferred from other projects between July and December
@@ -347,7 +347,7 @@ Prof. Samuel H. Caldwell Electrical Engineering
 Prof. Herman Feshbach Physics
 
 Dr. Jay W. Forrester Electrical Engineering
-Prof. Francis B. Hildebrand Mathematics :
+Prof. Francis B. Hildebrand Mathematics
 Prof. Chia-Chlao Lin Mathematics
 
 Prof. James B. Reswick Mechanical Engineering
@@ -372,20 +372,20 @@ Northeastern University, Prof. Martin W. Essigmann, Head, Dept. of E.E.
 Tufts University, Dean Leonard C. Mead, Graduate School
 
 Univ. of Connecticut, Prof. Ralph J. Kochenberger, Dept. of Engineering
-Univs.of Maine, Dean Ashley S. Campbell, College of Technology
+Unive .of Maine, Dean Ashley S. Campbell, College of Technology
 
 Univ. of Mass., Prof. John H. Karlson, Dept. of Elec. Eng.
 
 Univ. of N. H., Prof. Robert B. Davis, Dept. of Mathematics
 
-Univ. of R. I., ProfsTHebert—HNeyer; Depo 0 ee
-Tniv. of Vermont, Prof. Ivan R. Hershner, Chairman, Dept. of Math.
+Univ. of R. 1... Profr—rhebers—Heyeroepor ¢ Sermebiileide ine Dine
+Taiv. of Vermont, Prof. Ivan R. Hershner, Chairman, Dept. of Math.
 Wellesley College, Prof. Janet Guernsey, Dept. of Physics
 Wesleyan University, Prof. Hing Tong, Dept. of Mathematics
 Williams College, Prof. Donald E. Richmond, Chairman, Dept. of Math.
 Worcester Polytechnic Inst,, Prof. Richard N. Cobb, Dept. of Math.
-Yale University, Prof. A. J. J. van Woerkum, Dept. of Astronomy
+vale University, Prof. A. J. J. van Woerkum, Dept. of Astronomy
 
-TE 0 ite ute By of Gp: Go
+STE 0 ile uber Bg of Gp: Go
 
 

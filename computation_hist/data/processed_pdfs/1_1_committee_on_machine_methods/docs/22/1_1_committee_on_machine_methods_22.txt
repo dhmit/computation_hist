@@ -1,5 +1,5 @@
-COMMITTEE ON MACHINE METHODS OF COMPUTATION
-utes of the th Meet 4
+COMMITTEE ON MACHINE METHODS QF COMPUTATION
+utes of the th Meet }
 Academic Year 151-352
 
 Persons Present: 8S. II. Caldwell, H. Feshbach, J. W. Forrester,
@@ -32,28 +32,28 @@ conferences. An invitation was also glven to. Professor Shoemaker
 to attend the weekly seminars on Machine Methods.
 
 Professor Starr outlined two problems of present and
-future interest in the Meteorology Department. One was a matter
+future interest in the Meteorology Department. One was a mater
 of integrating total flow and temperature conditions across a sur-
 face perpendicular to the earth and parallel with a longitude
 circle. In this case, a great deal of data haa to be amassed and
 integrations have been carried on by use of IBM equipment. Another
-problem of possible fubure interest is the integration of differ-
+problem of possible future interest is the integration of differ-
 ential equations for mass flow of the atmosphere, eventually to
-determine the stapllity of various rotational motions. These
+determine the staopllity of various rotational motions. These
 equations are fundamentally non-linear and might be averaged to
 be considered as a two-dimensional problem. It was agreed that
 this problem probably would need some digital machine for solu-
 tion in the investigation. The particular machine most appropriate
 was left to the future.
 
-EE og ~ tn
+QE op et — =
 
 
-De
+Dw
 
 It was pointed out to Professors Shoemaker and Starr that
 assistantships in this general field were available and that if
-either of them had a good graduate student who is interested in ap-
+either of them had a good graduate student who is interested in ap=-
 plying machine methods to the problems in which they were interest-
 ed, it was possible these students should apply for such an as-
 sistantship.
@@ -62,9 +62,9 @@ The next meeting of the Committee will be Vednesday,
 January 9. Morse will attempt to have a representative from the
 
 Chemical Engineering and the Civil Engineering Departments present
-to discuss some of their problems. |
+to discuss some of their problems. ; |
 
-Pri1ioW. ane
+PRi11i ow. os
 
 Chairman
 

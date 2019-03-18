@@ -7,10 +7,10 @@ Boston 15, Massachusetts
 
 Dear Dr. Knowles:
 
-AEC SE It is with a great deal of pleasure that I enclose our check
+AE SE It is with a great deal of pleasure that I enclose our check
 for $3, 000.00 representing the first semester portion of the stipends
 ~ for the IBM Research Associates and Assistants recently appointed
-for the 1959-60 school year in connection with the M.I.T.
+for the 1959-60 school year in connection with the MIT.
 Computation Center. A detailed description of the appointments is
 
 | The increasing use of the IBM 704 Computer at M.I.T. by
@@ -19,8 +19,8 @@ tool has been very encouraging to IBM, and we are delighted that
 Northeastern is having an active part in it as represented by these
 
 research appointments.
-~ ~ Si cerely, 8,
-4 Li yf:
+~~ ~ Si cerely, 8,
+4 Li. oy ff:
 
 M. Loren Bullock
 
@@ -31,6 +31,6 @@ cc: Professor Martin W. Essigmann
 Northeastern University
 
 Professor Philip M. Morse, Director/
-M.I.T, Computation Center
+M.I.T., Computation Center
 
 

@@ -1,4 +1,4 @@
-EEE EEE
+EEE EE
 
 MASSACHUSETTS INSTITUTE OF TECHNOLOGY
 DIVISION OF INDUSTRIAL COOPERATION
@@ -33,6 +33,6 @@ Assistant Director
 LEB/dmb
 Enclosure: In duplicate
 
-coc: Dr, P, M. Morse
+ce: Dr, P., M. Morse
 
 

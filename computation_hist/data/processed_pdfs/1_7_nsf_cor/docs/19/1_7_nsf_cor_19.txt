@@ -1,5 +1,5 @@
 Professor P. M. Morse
-F. MM, Verzuh
+F. M. Verzuh
 February 15, 1956
 
 Material for National Science Foundation Proposal
@@ -26,7 +26,7 @@ complement net monthly. rental is slightly over $45,000. In addition
 to the 704, there will be 10 auxiliary punched card machines including
 card punches, collators, sorters, reproducers, interpreters, and the
 Type 407 Accounting Machine. The aggregate machine rental is in
-excess of § 50,000 per month,
+excess of $§ 50,000 per month,
 
  
 
@@ -41,7 +41,7 @@ Pr, F. M. Verzuh, Director of Statistical Services, has been
 connected with the operation of M.I.T. computational work since 1940,
 In this capacity he has had considerable experience with the utilization
 of various analog computing equipment -- differential analyzers, eic.,
-as well as a complete line of digital Baohines ranging from the IBM
+as well as a complete line of digital REChings ranging from the IBM
 Type 601 through the Type 704.
 
 He received a B.S. degree in Electrical Engineering from the
@@ -50,7 +50,7 @@ from M.I.T. in 1946, and a ScD. degree in Electrical Engineering from
 M.I.T. in 1952.
 
 
--
+Dm
 
 In the Office of Statistical Services he is concerned with the
 utilization of IBM punched card equipment to fulfill the need of the

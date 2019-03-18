@@ -1,4 +1,4 @@
-- Wig ¢ alk Ty TOE ea NC RE, CR a Se AS 1 AT PANST T = ETE oi ER RE ~ —_ EZ BT — —
+- FF TONER SEE Tea Rt Ri TL ee ee i SETI TT A Ae ST == BRETT -— TT —— TR ~~ _— Wn or —-— — )
 
  
 
@@ -26,7 +26,7 @@ academic purposes,
 The purpose of this letter is to determine whether there is
 any opportunity for the MIT Compuintion Center to enjoy this privilege?
 Specifically, we are expecting our 704 the latter part of February,
-1957; however, we are currently preparing a number of post-mortem
+18957; however, we are currently preparing a number of post-mortem
 programs and other compiler-type routines which we would like very much
 to be able to test out on the Lynn machine -- assuming it is available
 on a gratis basis,
@@ -40,7 +40,7 @@ F, M, Verzuh
 Assistant Director
 MIT Computation Center
 
-FMV: nb $4
+FMV: nb
 
 oo
 

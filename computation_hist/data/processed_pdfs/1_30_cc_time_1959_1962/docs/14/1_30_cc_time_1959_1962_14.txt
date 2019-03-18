@@ -33,7 +33,7 @@ Cumulative Hours Cverdrawn
 Lab User
 
 LNS J. Duffield
-LNS Zz. Westreich
+LNS Z. Westreich
 LNS M, Deutsch
 
 RLE L. Johnson
@@ -61,11 +61,11 @@ Requested by
 
 H.
 (A.
-5
+Y.
 P,
 Ge
 Ce
-J
+3
 As
 Re
 H.
@@ -111,24 +111,24 @@ Hours
 
 Wn
 
-3
+2
 
 ¢
 
 fet
-HW oo
-© <
-mann
+HW oO
+© <Q
+mmhanpn
 wi
 
 nN
-Wwhsa
-5 c
+Wwha
+2 ¢
 
 ©
 
-oo ©
-ND Gin
+oO 0
+Dain
 Wn
 
 Total Hours
@@ -186,7 +186,7 @@ Hours
 124
 42
 32
-7
+71
 
 Use by Laboratories
 
@@ -203,6 +203,6 @@ Hours Hours
 
 34.5
 
-441,75
+441.75
 
 

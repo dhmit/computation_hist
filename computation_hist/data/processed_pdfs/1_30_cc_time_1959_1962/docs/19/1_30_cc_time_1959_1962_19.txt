@@ -1,16 +1,16 @@
-EE =r = or we, To op TT 7 72 +
+CE CH HM TEE Re Tm = 8 © a 4
 
  
 
 TIME RECORD
-APRIL, 1560
-Prob. Ho. tab Requested by
+APRIL 1560
+Prob. Ho. Lab Requested by
 1083 RLE E, Baghdady
-1088 oR H. CGalliher
+1088 RR H. CGalliher
 1120 LNS EK. Huang
-1133 LNS L, Delves
-1137 LHS W. Turchinetz
-1138 RLE K, Nomland
+1133 LNS 1, Delves
+1137 LNS WwW. Turchinetz
+1138 RLE K. Nomland
 1141 LNS R, Freeman
 1143 LNS A. Tubis
 1147 RLE H. Stroke
@@ -20,8 +20,8 @@ Prob. Ho. tab Requested by
 1153 RLE T. Higier
 1154 RLE P. Brot
 TIME DISTRIBUTION
-Laboratory RLE LYS
-Hours Employed 480 240
+Labozatory RLE LYS
+Hours Employed 430 240
 Hours Used
 Computing 261 295
 Overhead 34 24
@@ -29,28 +29,28 @@ Sick Leave 12 4&0
 Vacation 36 0
 Classes 12 0
 Total 375 359
-Hours Not Used 105
-Hours (verdrawn 119
+Bours Not Used 105
+Hours Overdrawn 119
 Cumulative Hours Net Used
-Cumulative Hours Overdrawn 661 1100
+Cumulative Hours Overdrawn G61 1100
 LGP ~- 30 Time Record
 Total
-Lab User Houre Hours
-LHS R., Scharenberg 928.5 216.0
-LHS P. Demos 31:5 323.0
-LHS H. Lute aD 7.5
+Lab User Hours Hours
+LHS R. Scharenberg 928.3 216.0
+LHS P. Demos 31.5 323.0
+LHS H. Lutz 7:5 7.5
 LNS 1. Pless 2.0 2-0
-LYS M., Deutch 17.0 91.0
-RLE A. Thiele 31.5 31D
-RLE T. Higier 23.90 23.0
-ERLE 2. Brot 3.0 8,0
-RLE H. Stroke 9.5 27.0
-BRLE S. Coccoli 11.5 2¢.,5
+LHS M., Deutch 17.0 91.0
+RLE A. Thiele 31.5 31.5
+BLE T. Higiler 23.90 23.0
+RLE 2. Brot 3.0 8,0
+RLE gH. Stroke 2.5 27.0
+RLE S. Coccoli 11.5 2G.,5
 
 JOINT COMPUTING GROUP
 
-ho
-La
+hd
+La)
 wn
 
 J
@@ -63,10 +63,10 @@ in April
 59
 16
 88
-LH8
+48
 20
 
-G&G
+4
 65
 80
 60
@@ -77,16 +77,16 @@ G&G
 
 12
 
-oO
+-
 
-> OO0O000O
+= OO0O000O
 
 &54
 
-El
+I
 
 wv
-COO~NY
+COO NY
 
 66
 
@@ -123,12 +123,12 @@ LS
 Hours
 
 otal
-ours
+Our 6
 
 -
-TT
+TE ETT
 
-55.0
+655.0
 
 159.5
 

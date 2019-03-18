@@ -1,12 +1,12 @@
 MARKET 7-8109 |
-> A =
-==
-=z =
+> A 2
+4
+Zz <
 
 A SYMBOL OF
 
-werent NATIONAL ANALYSTS, INC. |
-Ee a es res ade a a RT RE |
+were stnen NATIONAL ANALYSTS, INC. |
+ee a Ne a es |
 
 PENNA. |
 |
@@ -20,11 +20,11 @@ Philip M. Morse, Director
 M.I.T. Computation Center
 
 |
-i
+|
 Massachusetts Institute of Technology
 Cambridge 39, Mass.
 
-|
+bi
 Dear Dr. Morse,
 
 |
@@ -51,7 +51,7 @@ cuss computers with you.
 
 Sincerely,
 
-= 2a gen
+& a 2a gen
 
 Ezra Glaser
 

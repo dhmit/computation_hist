@@ -7,7 +7,7 @@ Post Office Box 1557
 
 Lockland Air Force Base San Antonio, Texas
 
-7 ~ MAY 1956
+7 MAY 1956
 
 Dr. Philip M. Morse
 
@@ -37,7 +37,7 @@ the several specislties, it is hoped that a minimizing pro-
 cedure might be used to indicate the most economical way of
 assigning individuals to technical training, while at the
 same time taking a minimum risk of not meeting the Air Force
-requirements,
+requirements.
 
 We are also interested in the application of general
 purpose computers to the problems of personnel utilization,

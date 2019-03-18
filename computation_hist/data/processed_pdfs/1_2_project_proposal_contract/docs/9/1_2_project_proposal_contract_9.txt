@@ -6,25 +6,25 @@ WASHINGTON 25; D, C,
 
  
 
-CONTRACT NUMBER: N5ori-60 | ONR:610:FAG: gc
+CONTRACT NUMBER: N5ori-60 ONR:610:FAG: ge
 AMENDMENT NUMBER: 17  N50ri-60
-Massachusetts Institute of Technology Ap Ei i
+Massachusetts Institute of Technology Ap En 32)
 
 Cambridge 39, Massachusetts
 
 In accordance with current statutory and departmental requirements; Contract NSori-60
 as amended; is bereby further amended by deleting specified Sections and by adding
-the following new Sections which ghell be effective with respect to task orders and
+the following new Sections which shell be effective with respect to task orders and
 task order amendments executed thereunder as of a date on or after the date of this
 amendment; and; with respect to said task orders and amendments thereto, the Nondis-
 crimination in Employment, Patent Rights, Notice and Assistance Regarding Patent
 Infringement, Filing of Patent Applications and Authorization and Consent sections
-set forth below shall supersede sections 18, 19 and 20, 30, 35 and 37, respectively,
+set forth below shall supersede sections 18, 19 and 20, 30, 35 and 37; respectively,
 of said contract. Any references to said superseded sections wherever contained in
 sald contract and the task orders thereunder shall be deemed to refer, instead, to
 the appropriate section set forth below insofar as said task orders and amendments
 thereto executed as of a date on or after the date of this amendment are concerned;
-provided, however, that nome of the following sections and deletions hereunder shall
+provided, however, that none of the following sections and deletions hereunder shall
 be construed to affect any rights of the Government or the Contractor heretofore
 established.
 
@@ -54,7 +54,7 @@ standard comercial supplies or raw materials.
 
 
 _NTRACT NUMBER: N5ori-60
-AMENDMENT NUMBER: nT
+AMENDMENT NUMBER: A7
 
 " SECTION 40. PATENT RIGHTS
 
@@ -72,16 +72,16 @@ that the term 'Subject Invention' shall not include any invention which
 is specifically identified and listed in the Schedule for the purpose of
 excluding it from the license granted by this clause.
 
-(i1) The term 'Technical Personnel' means any person employed
+(ii) The term 'Technical Personnel' means any person employed
 by or working under contract with the Contractor (other than a subcontractor
 whose responsibilities with respect to rights accruing to the Government
 in inventions arising under subcontracts are set forth in paragraphs (g),
-(n), and (1) of this clause) who, by reason of the nature of his duties in
+(nh), and (1) of this clause) who, by reason of the nature of his duties in
 connection with the performance of this contract, would reasonably be
 expected to make inventions.
 
 (iii) The terms 'subcontract' and 'subcontractor' mean any
-subcontract or subcontractor of the Contractor, and any lower-tier subcon-
+subcontract or subcontractor of the Contractor, and any lower-tier subcon=-
 tract or subcontractor under this contract.
 
 "(b) The Contractor agrees to and does hereby grant to the Govern-
@@ -117,7 +117,7 @@ than a Subject Invention.
 _ promptly after conception or first actual reduction to practice of each
 Subject Invention which reasonably appears to_be patentable;
 
-(i1) Certify to the Contracting Officer not less often than
+(ii) Certify to the Contracting Officer not less often than
 every twelve months, commencing with the date of this contract, whether
 or not any Subject Inventions were conceived or first actually reduced to
 practice during the preceding twelve months; and
@@ -141,7 +141,7 @@ Contractor shall so notify the Contracting Officer at the earliest practicable
 date and in any event not later than eight months after first publication,
 public use or sale;
 
-(i1) In the event the Contractor specifies that it has not
+(ii) In the event the Contractor specifies that it has not
 filed and will not file (or having specified that it will file, thereafter
 notifies the Contracting Officer to the contrary), (A) inform the Contracting
 Officer in writing at the earliest practicable date of any publication of
@@ -161,7 +161,7 @@ that part of the Contractor's business to which the Subject Invention pertains.
 "(£) If the Contractor fails to deliver to the Contracting
 Officer the certificates required by paragraph (c) (ii) of this clause
 or fails to furnish the written disclosures for all Subject Inventions
-required by paragraph (c¢) (i) of this clause shown to be due in accordance
+required by paragraph (c) (i) of this clause shown to be due in accordance
 with any certificate delivered under paragraph (c) (ii), there shall be
 withheld from payment untill the Contractor shall have corrected such
 failures either (i) ten percent (10%) of the amount of this contract, as
@@ -248,14 +248,14 @@ automatically terminate and the rights and obligations of the parties
 shall be governed by the provisions of the clause of this contract entitled
 "Termination for the Convenience of the Government.’
 
--
+~
 
 A54093
 
 ON
 
 
-ARACT NUMBER: NSori-60
+(ARACT NUMBER: NSori-60
 MENDMENT NUMBER: 17
 
 "SECTION 41. NOTICE AND ASSISTANCE REGARDING PATENT INFRINGEMENT
@@ -288,11 +288,11 @@ disclosing any subject matter of this contract; which subject matter is
 classified 'Secret,' or higher, the Contractor shall, citing the
 thirty (30) day provision below, transmit the proposed application to the
 Contracting Officer for determination whether, for reasons of national
-security, such application should be placed under an order of secrecy or
+security, such application should be placed under an order of secracy or
 sealed in accordance with the provisions of 35 U, S, Code 181-188 or the
 issuance of a patent should be otherwise delayed under pertinent statutes
 or regulations; and the Contractor shall observe any instructions of the
-Contracting Officer with respect to the manner of delivery of the patent
+Contracting Officer with respect to th= manner of delivery of the patent
 application to the U., S, Patent Office for filing, but the Contractor shall
 
 . not be denied the right to file such patent application. If the Con-
@@ -307,10 +307,10 @@ to be filed a patent application disclosing any subject matter of this
 contract, which subject matter is classified 'Confidential;' a copy of
 such application for determination whether, for reasons of national
 security, such application should be placed under an order of secrecy
-or the issuance of a patent should be otherwise delayed under pertinent
+or the issuance of a patent should be otherwise delayad under pertinent
 statutes or regulations.
 
-"(e¢) In filing any patent application coming within the scope
+"(e) In filing any patent application coming within the scope
 
 of this clause, the Contractor shall observe all applicable security
 regulations covering the transmission of classified subject matter.
@@ -335,7 +335,7 @@ ment, to the full extent of the Contractor's right to do so without pay-
 ment of compensation to others, the right to reproduce; use, and disclose
 for governmental purposes (including the right to give to foreign govern-
 ments for their use as the national interest of the United States may
-demand) all or any part of the reports, drawings, blueprints, data, and
+demand) all or any part of the reports, drawings, blueprints, data; and
 technical information specified to be delivered by the Contractor to the
 Government under this contract; provided, however, that nothing con-
 tained in this paragraph shall be deemed, directly or by implication; to
@@ -344,7 +344,7 @@ any right to reproduce anything else called for by this contract.
 
 "SECTION 45. PRIORITIES, ALLOCATIONS AND ALLOTMENTS
 
-"The Contractor agrees, in the procurement and use of materials
+"Phe Contractor agrees, in the procurement and use of materials
 required for the performance of this contract, to comply with the provisions
 of all spplicable rules and regulations of the Business and Defense Services
 Administration, including Defense Materials System regulations.”

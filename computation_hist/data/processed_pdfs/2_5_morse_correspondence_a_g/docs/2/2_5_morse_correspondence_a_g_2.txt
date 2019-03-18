@@ -1,5 +1,5 @@
-Dr. J. E, Robertson, Chairman
-ACM Program Committee
+Dr. J. E, Robertscn, Chairman
+ACH Program Committee
 University of Illinois
 Urbana, Illinois
 
@@ -10,15 +10,15 @@ read by one of the undersigned.
  
 
 SFB:gn
-Enclogure
+Enclosure
 
-February 27, 19357
+Pebruary 27, 1937
 
 Sincerely yours,
 
-8. F, Best
+8. ¥F. Beat
 A, Biegel
-F, W. Helwig
+PF, W. Helwig
 
 Enclosed in quadruplicate are copies oi an abstract and
 a summary of a proposed paper entitled ‘MIT's Post-Mortem Routine
@@ -28,72 +28,72 @@ The described routine was prepared jointly by the staff
 of the Computation Center, and the paper, if accepted, will be
 
 
-oR ON 3 te 3
-. = ov ah NAL
-: AS ip peas
-Cy, - “Sn EN, 2 ot
-LL Ro a ray : »
-. - = : .
-Ung 0 TN oy oe . =:
-IA ik x vor
-, Ns
-©
+RY , Ne Sa LA ~~ 3
+" & a WELL
+: EEA Rp pre
+Se we I EN, 2 o*
+wd Ro ria yas : b
+. - = ; x
+0 TN ) hy " . =:
+Ph 1h 3 vor,
+‘ MN
+_
 
 Plgital Computer Laboratory
-Massachusotis Institute of Technology
+dassachusetis Institute of Technology
 Cambridge 39, Massachusetis
 
 SUMMARY OF
 
-MIT'S POBT-MORTEN ROUTINE FOR THX IBM 704
+MIT'S POBT- HOUTEN ROUTINE FOR THE 188 704
 
 Abstrac
 
-RL AE A i « Gast
+ARE A Re GS
 
-50 facilitates program ghecost at the MIT Compatation
-Center, a post-mortem routine for tae IDE 704 hus been
+50 facilitates program ghechost at the MIT Compatation
+Center, a post-mortem routine for the IDE 704 hus been
 written. It priate or punches specified ranges of core
 Bemory in any of the varicus forms sccepted as inpat by
 the Buare Assembly Program; for example, as symbolic
-instructions or as floating point susbers. The routine
-is normally comtrolled by symbolic request cardw, which
-look much Like Shave symbolic casds; but it Ray also Le
-controlied napually from the console. Plans for integia-
-ting the assembly program and the pust-sortes routine into
+ingtructions or as floating point susbers. The routine
+is normally controlled by symbolic request cardy., which
+look much Like Shave symbolic casds: but it aay alse Le
+controlied napually from the console. Plans for integra
+ting the assembly programe and the post-sortes routine into
 & single system will be briefly discussed.
 
-| 52
+poe
 
 
 Preseat Houtine
 
-4 post-mortem routine hap been written at MIT for the IBN 704
+4 post-mortem routine hep been written at MIT for the IBN 704
 computer. The main feature of this routine is that its output is in
-the same language in which the progrusser codes. That is, it priate
-or punches the contents of core aemory (and we plan tv extend this
+the sume language in which the progrusser codes. That is, it priate
+or punches the contents of core semory (and we plan (uv extend this
 soon to include tapes and drums also) in any of the various forms
 accepted as input by the Share Asssubly Program.
 
-The ranges to be printed and the forms in which they are to be
+The ranges to be printed and the forms ia which they are to be
 printed may be specified either manually at the 704 comsole or by &
 symbolic request card. |
 
-These symbolic request cards themselves look like four address
+These symbolic request cards themselves look Like four address
 share symbolic imstructions. Whea referring toc core memory, the first
 two addresses specify the initial and final addresses of a rasge to be
-printed or punched. These addresses say be any expressions possi-~
-bly involving symbols which the post-mortem routine mast translate
-into absolute numbers using a syabol table read in slong with the
+printed or punched, These addresses say be any expressions possi
+bly involving sysbols which the post-mortem routine mast translate
+inte absolute numbers using a syabol table road in slong with the
 symbolic veguest cards, (Such a eymbol table is produced by the as-
-pembler when the program being checked out is ssseabdled,)
+pembler when the program being checked out is ssseabled,)
 
 Toe third address specifies in which of the following forms
 the output will appear:
 
-1) Instructions with symbolic sddresses, (The ability
-to obtain symbolic addresses ack again wo regard ag the most impor-
-taut feature of this routine.)
+1) Instructions with symbolic addresses, (The ability
+to obtain symbolic addresses Daok again vo regard as the most impor-
+tant feature of this routine.)
 
 2) Instructions with absolute addresses.
 
@@ -103,57 +103,57 @@ taut feature of this routine.)
 
 §) Decimal integers.
 
-@) Octal iategers,
+@) Octal integers.
 
-7) Binary coded decimal, i.9., charactors on the IBN
-Zeypanch woyboard.
+7) Binsry coded decimal, i.9., charactors oun the IBN
+heypanch weyboard.
 
-&) Binary casds.
+@) Binary casds.
 
-Re ae Ee a] -
+APE I ow -
 
-i. %e probably will prepare a few slides to illustrate the syubolic
-regueost cards aud the priasting they produce,
+i. %e probably will prepare a fow slides to illustrate the syubolic
+request cards and the priating they produce,
 
 
 The fourth address specifies on which of the following output
 units the output wili appear:
 1) The on-line printer,
-2) The on-line punqi,
-3) A magnetic tape recorded for printing using the tape-~
+2) The on-line pungl,
+3) A magnstic tape recorded for printing using Che tape
 to-printer,
 4) A magaetic tape for pusching usiag the tape-to-punch.
 
-The operator bas the ability to chsage from wn-iine to off-line
+The operator bag the ability to chasage from wn-iine to off-line
 and vice versa.
 
-Remarks placed on the symbolic request card or on a special re-
+Remarks placed on the sysbulie request card or on a special re
 marks card reappear at start of the output for that request to pro-
 vide for labeling results.
 
-in use, the post-mortem routine is stored permanently of a tape
-unit sod celled inte operation by pushing the load tape button at the
-console or by the programmed equivalent to this, As the post-aorten
-routine comes into cores, all but five registers of core memory ars
-saved by writing them on another tape unit. Also, insofar ap it is
-possible, the status of the varicus indicators and registers of the
+in use, the post-movtesm routine is stored permanently of a tape
+unit aad celled inte operation by pushing the load tape button at the
+console or by the programmed equivalent to this, As the post-aortes
+routine comes inte cores, all but five registers of core Memory are
+saved by writing them on another tape unit. Also, insofar am it is
+possible, the status of the varieus indicators and registers of the
 arithmetic olement aye saved and later recorded at the start of the
-PATDUE
+output.
 
-Finally, there is a request card which will cause core ReROYy
-and the arithmetic element (except for the HY and instruction loos
-tiom counter) to be yestored to their original values and ccatrol to
-be transferred to any dosired address.
+Finally, there is a request card which will cause core ReReYy
+and the srithmetic element (except for the HY and instruction loos
+tion counter) to be restored to their original values and ccatrol to
+be transferred to any dosired addreas.
 
 Fature FOVORGNTS
 The first improvement we wish to make is to provide for post-
 sorteming topes and drums, We also wish to modify the Share Assea-
 bly Program so thet it will recognize post-mortem request cards aod
 compile suitable calling suguences which, when executed, would call
-the post-morten routine ato storage to do the desired post-aortea.
-This was the reasen we chose to uge the Share symbolic card format
+the post-morten routine lato storage to do the desired post-aortea.
+This was the reasen we chose to ufe the Share symbolic card format
 for the request cards. Also we wish the ussembler to store the
-syabol table oi tape so that it will not be necessary to read it
-in from cards each time a post-morten is to be dono,
+syabol table op tape so that it will not be necessary to read it
+in from cards each time a poet-morten is to Ho dono,
 
 

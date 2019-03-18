@@ -3,7 +3,7 @@ COMIT: A Compiler-Interpreter for Mechanical Translation
 The COMIT system is designed for use in the Mechanical
 Translation of languages and for Symbolic manipulation. The exact
 details of the COMIT language are described in reference (1) below.
-Examples of the potentialities of the system are included in the
+Examples of the potentialities of the System are included in the
 
 reference.
 
@@ -29,12 +29,12 @@ of the compiler has been effected which renders the entire system
 the beginning of core memory. This modification will permit time sharing
 (1) V. H. Yngve, "A Programming Language for Mechanical Translation,"
 
-Mechanical Translation, Vol. 5, No. 1, July 1658.
+Mechanical Translation, Vol. 5, No. 1, July 19658.
 
 
 i
 
-between the COMIT system and other small programs,
+between the COMIT system and other small programs.
 The COMIT system has been decoupled from any particular
 
 operating system (e.g. Automatic Operator Program) and may be used

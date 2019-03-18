@@ -91,8 +91,8 @@ ima of quadratic forms in # variables, elegantly interpreted as the
 densest lattice packing of equal spheres in # dimensions. The dis-
 covery, essentially, that the symmetric tetrahedral packing (with
 n-+1 mutually tangent spheres) is no longer densest when 7 =4 is one
-of the earliest indications that #-dimensional “Euclidean geometry”
-would depend on 7# with “number-theoretic” irregularity. Strangely
+of the earliest indications that n-dimensional “Euclidean geometry”
+would depend on 7 with “number-theoretic” irregularity. Strangely
 enough, the footnote reference to this result (footnote 184a) does
 not refer to its discovery (by Korkine and Zolatareff in 1872) but
 

@@ -33,6 +33,6 @@ without an excessive cost in the time of able
 people. A calculation shows that an IBM 7090 with
 disc files could handle 3000 students simultaneously
 at a cost less than that of teaching them in groups
-of +50:
+OR 30.
 
 

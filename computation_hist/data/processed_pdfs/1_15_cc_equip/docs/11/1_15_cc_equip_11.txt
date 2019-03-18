@@ -31,7 +31,7 @@ Magnetic Core Unit,
 | 4. Winne's sketch of the floor panel cutouts of the duct connections
 for the 704 Main Frame.
 
-§ You will note that all of the above floor sketches include 1/2" clearance on
+& You will note that all of the above floor sketches include 1/2" clearance on
 all edges.
 
  
@@ -45,7 +45,7 @@ and MIT have agreed to in the 704 Calculator Room (Room 26«156). 1 have
 
 prepared a 3/4" drawing which indicates the field-measured dimensions and
 
-| locations of the holes which have been cut in the steel floor of the 704 room,
+| locations of the holes which have been cut in the steel floor of the 704 room.
 
 2 I am enclosing a 3/4" field layout of the floor plan of the 704 room dated
 
@@ -53,14 +53,14 @@ prepared a 3/4" drawing which indicates the field-measured dimensions and
 changes we had to make during your recent visit.
 
 
-Rad rs yr art FT FUORI - Per oo TNE" Sg — TT Re AS SSCS wy "a RT Te a = - rT od ~ SE PTT Ta
-= IE NIE WR I = RR THEE AT = = TRV MF STR oes FENG aEN v LNT = ’ pT Te ET PRT TL VR ET IAS
-- ES — Cn " —-— 2 A ot el . = - ¢ - . . wad
-- Ta s ‘ § < ~
+——— a pr aewt FPR TF Gh > Pm or IES SR TR {ee Lay a - a i TD TT - - mT o> ~ ET PTT
+a TI NI ELS = ERTS ww = TR XF WT FANART wv NT = : Ge ea SE PRT LE Vi Ie ES
+- ES — EL " Sm Ro i et tag a = - 4 - . . wa dy
+i oe aE 7 § < “
 
-Mr. Geroge Travato -2= February 7, 1857
+Mr. Geroge Travato P= February 7, 1857
 
-Iam very pleased to hear that the cable lengths which we ordered
+iam very pleased to hear that the cable lengths which we ordered
 exceed the dimensions we measured in the field, since we were concerned
 about the length of cable between the 759 and 727RD units.
 
@@ -74,20 +74,20 @@ F. M. Verzuh
 Assistant Director
 MIT Computation Center
 
-FMV:nb #
+FMV:nb of
 Enclosures: 7
 ce; P. M. Morse
 
 CC. M. F. Peterson
 
-SEAL fl op MP asd Gg
-figwi Rant Te Jal nals ®,
-LTE Rr Cn SE ET
+SAAR Bop MP aid fy
+fim d Rat Te Jal nal
+ON Ur On SE
 
-o's 3 : ’
-bas CA Sg KS ad 0 oly
-; ain hs od 3 1 pm i
-SAS Food od al Rg % Chieti need tf
-AG a RR ER NA
+MN, : : '
+bas CAL Su KS a oe oy
+. Fin fhe od 3 1) pm st
+A pd od Rg AMATO LS
+CoA TR aN
 
 

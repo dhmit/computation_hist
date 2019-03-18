@@ -10,9 +10,9 @@ in use including SCAT, FORTRAN, LISP and others which may be
 
 developed for various purposes. Programmers may wish to use py
 
-od
+ad
 
-Se
+a
 
  
     
@@ -34,7 +34,7 @@ their deficiencies will not be discussed here.
 
 To improve the above situation a new program form has been
 developed that is especially suitable as compiler output. Sub-
-programs in this form are called Linking Segment Subprogram (ESS):
+programs in this form are called Linking Segment Subprogram (ISS).
 The principle innovations of LLS are:
 
 l. Selective retention of symbolic information from
@@ -46,7 +46,7 @@ the source subprogrambut with the bulk of the text in relocatable
 binary.
 
 
-0
+—-De
 
 2. A feature for grouping subprograms into packages
 such that the package has the same external simplicity as a
@@ -66,7 +66,7 @@ consists of a symbolic expression together with a list of the
 fields in the program where the value of the expression is to be
 substituted. For example, a matrix inversion program may contain
 an entry stating that the value of the symbolic expression A+NXN
-is to be inserted in the address fields of locations 971, 9735, and
+is to be inserted in the address fields of locations 971, 975, and
 1024 of the routine relative to its beginning in memory. The
 amount of arithmetic allowable in the symbolic expression is subject
 to various degrees of ambition, but the address arithmetic of SAP
@@ -80,12 +80,12 @@ each pair is a symbol and the second entry is a symbolic expression
 which defines the value of the symbol. The location of the beginning
 
 
--5—
+EP
 of The routine has the symbolic name "." so that locations within
 
 the program can be defined relative to that point by expressions
 
-like "O0+93"
+like "O+93"
 
 _3. The ARRAY table
 
@@ -106,7 +106,7 @@ Both of these features are introduced by grouping LLS. Thus an
 
 initial group card of the form
 
-a GRE bye, EB, UM, v..Y/z
+a OR? b,c,... F, w/v, ...7/z
 
 and
 a EGR
@@ -118,7 +118,7 @@ outside the group as inside it. The symbols U, ...,y are the names
 that outside the group correspond to the symbols v, ...,z inside the
 
 
-€s
+LEN
 
  
 

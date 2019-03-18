@@ -3,14 +3,14 @@
 April 7, 1958
 
 Professor T. J. Pigford
-Eoom 4-111 4
+Eoom 4-111 :
 Hassachusetts Institute of Technology
 
 Dear Sir:
 
 T have been authorized to credit your account with
-10 hours of machine time on the Whirlwind I computer for
-dstermining the behavior of different reactor types under
+10 hours of machine time on the Whirlwind I gomputer for
+determining the behavior of different reactor types under
 problem $281.
 
 If you find that you need more time, it will be
@@ -20,8 +20,8 @@ Sincerely,
 
 Jacek D. Porter
 
-JDPimz
-os L. Brock
+JOP mn
+os Le. Brock
 Horse Committee
 
 

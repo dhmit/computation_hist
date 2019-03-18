@@ -1,4 +1,4 @@
-TT eM EE SR TE = om — ep
+EE ————
 
  
 
@@ -25,21 +25,17 @@ Computation
 MIT 704 PERFORMANCE REQUEST & RESULT SHEET
 Center
 Problem Neo. Date Sabmitted by
-Approved by Phoze Address 50
+Approved by Phoze Address fs
 (scheduler) (if results are te be mailed)
 
-[Bhort Ror (5 mim.or less) [Programmer must be present U Program stop automatically on:
-A (appointment necessary) (1) in reg. {oct.)
-(lLong Rua in. (2) in reg. (oct.)
-[I Preductior Rum min. (Stop manually after ain, (3) in reg. (oct.)
+0 Bheort Bur (5 minm.or less) [Programmer must be present U Program stop automatically on:
+4 (appointment necessary) (1) in reg. {oct.)
+(iLong Rua min. (2) in reg. (oct.)
+[I Preductior Rum min. (Stop manually after min, (3) in reg. (oct.)
 
  
 
-Auxiliary Equipment Required | sec. Botore vse Results(filled im by operators)
-
- 
-
- 
+Auxiliary Equipment Required | sec. Botore vee Results(filled im by operators)
 
  
 
@@ -47,13 +43,17 @@ Auxiliary Equipment Required | sec. Botore vse Results(filled im by operators)
 
  
 
-Dir. Printer No. Lines MQ
-(Dir. Puach Fo. Cards EE ne
-OS8ecpe & Ho. Frames Cad ren
-Olisgretic Tape
+ 
+
+ 
+
+[JDir. Printer No. Lines MQ
+(Dir. Puach Fo. Cards BET
+OS8ecpe & Ho. Frames ed me
+Oiiagretic Tepe
 Reel No. Unit No. 0 Automatic Stop
-=a er Ul ¥enval stop after mim. of
-BE computer,
+ei price swwemeene—- Ul ¥enval stop after mim. of
+remem computer.
 
  
 
@@ -73,7 +73,7 @@ Comments:
 
  
 
-Cutput | Uz lo. F 5 if
+Catput | Uz lo. F 5 if
 delayed CIN
 printer Uothers
 
@@ -99,6 +99,6 @@ Performance Instructions
 
  
 
-Post-Mortem Instructiond
+Pogt-Mortemn Instructiond
 
 

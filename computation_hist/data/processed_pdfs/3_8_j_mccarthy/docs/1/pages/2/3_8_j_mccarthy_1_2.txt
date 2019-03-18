@@ -1,0 +1,60 @@
+MEMORANDUM Page 2.
+
+1) In the last quarter, users in your department asked for
+X hours, were allocated y hours according to the following rules,
+
+ 
+
+ 
+
+ 
+
+and actually used z hours. A detailed accounting of your de-
+partmental use of the TO4 is enclosed.
+
+2) During the next quarter your department will be alloca-
+ted w hours. Unless we hear from you. proposing a different
+scheme we will divide it between applicants from your depart-
+ment according to the following scheme:
+
+1. 80 per cent allocated at beginning of quarter. 10
+per cent for new requests during quarter. 10 per cent for sup-
+plementary requests during quarters.
+
+2. Priorities will be assigned in the following order
+
+1. Class use
+2. Bachelor's theses
+3. MS. theses
+« Ph. D. theses
+5. Research projects
+
+3. Should you prefer to allocate the time yourselves,
+or would like us to use a different system we will be happy to
+oblige.
+
+The advantage of departmental quotas is twofold:
+
+1. The decisions as to which uses are most effective in
+research or in education are put in the hands of those who know
+the prospective users best.
+
+2. It makes all department heads and their associates
+aware of the pressure on the computer and will make them more
+receptive to any efforts proposed to expand the facility.
+
+4. Improved Programming by Users. Users can get more per
+machine hour if Chey program better. The Center can help them
+progrgm better by
+
+l. Better descriptions of the programming systems and
+procedures. This is a staff problem. A 5 page propaganda -l
+booklet may help.
+
+2. Better accounting. The users do not know how much
+tlme they use on runs and big users can't discriminate between
+thelr programmers. The obsolete Y407 accounting procedure should
+be replaced by a 704 program. Programmers responsible for prob-
+lems should get biweekly summaries listing each run made, time
+used, programmer submitting it. The machine and staff time re-
+quired should not be excessive.

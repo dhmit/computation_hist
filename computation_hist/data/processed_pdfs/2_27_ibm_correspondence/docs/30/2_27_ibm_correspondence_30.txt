@@ -3,20 +3,20 @@ M.I.T. Computation Center
 Cambridge 39, Massachusetts
 September 6, 1960
 
-Memo to: Dr. P. M. SER
+Memo to: Dr. P. M. tis
 Dr. F. J. Corbato
 Dr. H. Teager
 Dr. J. McCarthy
 Dr. M. P. Barnett
 Dr. M. Minsky
 
-The next meeting of the M.I. T. -IBM Joint Liaison Group for the
+The next meeting of the M.I, T. -IBM Joint Liaison Group for the
 M.I.T. Computation Center has been tentatively set for 10 a.m.
 Monday, September 26 in Poughkeepsie. Dr. D. Thomsen has
 already initiated plans for IBM discus sions and will be in touch
 shortly. In the meantime, if the date of September 26 is unaccept-
 able for any reason, please let me know. It is expected that the
-following IBM people will be Present:
+following IBM people will be present:
 
 Norm Eichenberger Data Systems Division,
 
@@ -26,7 +26,7 @@ Jim Ewing n
 
 Mike Roberts IBM Resear ch
 
-D. L.. Thomsen Data Systems Division, White Plains
+D. Li. Thomsen Data Systems Division, White Plains
 
 W. Heising Programming Systems, Applied
 Programming, DSD
@@ -34,7 +34,7 @@ Programming, DSD
 R. W. Bemer Programming Research, IBM
 Corporate
 
-J. A, Kearns University Program, Eastern Region
+J. A. Kearns University Program, Eastern Region
 
 M. L. Bullock University Program, MIT CC
 

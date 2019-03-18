@@ -6,7 +6,7 @@ Room 3-208
 
 Dear Mr. Kelso:
 
-Enclosed is a list of persons suggested to
+Enclosed 1s a list of persons suggested to
 be invited to the ceremonies on June 10 in connection
 with The formal presentation of the IBM equipment to
 the Computation Center by Mr. Watson.
@@ -15,7 +15,7 @@ I include addresses for the non-MIT people.
 There are probably duplications in the MIT list,
 with other lists you have. I presume you will take
 care of these. This does not include the list of
-10-12 names of IBM people, which I understand you will
+10-12 names of IEM people, which I understand you will
 obtain directly from Mr. Blackburn.
 
 Yours truly,
@@ -27,7 +27,7 @@ PMM: jtn
 
 Enclosure
 
-REA
+ceil
 
 
 Representatives of Cooperating Colleges:
@@ -119,12 +119,12 @@ Prof. S. H. Caldwell Prof. J. C. Slater
 Prof. S.H. Crandall Prof. R. C. Booton
 Prof. J. W. Forrester Prof. S. Namyet
 Prof, Claude Shannon Prof. P. M. Morse
-‘Prof. D. Durand Prof. Dean Arden
-Prof. Cv C. Lin Dr. F. Verzuh
-rrof.s J. PF. Relint jes Dr. F. Corbato
+Prof. D. Durand Prof. Dean Arden
+Prof. C. C. Lin Dr. F. Verzuh
+Prof. J. F. Relint jes Dr. F. Corbato
 
 Prof. H. Feshbach
-Profi. Js GQ. Charney
+Prof. J. G. Charney
 Prof. G. W. Clark
 
 

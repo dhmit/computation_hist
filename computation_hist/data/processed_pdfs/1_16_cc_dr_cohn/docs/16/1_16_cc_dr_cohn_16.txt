@@ -15,7 +15,7 @@ HARVEY COHN!
 
 1. Introduction. We are concerned here with the determination of
 critical lattices with respect to a given finite convex body K contain-
-ing the origin and symmetric to it. According to the usual termino-
+ing the origin and symmetric to it. According to the usual terminol-
 ogy, a critical lattice is a K-admissible lattice of minimal determinant,
 
 ‘while a K-admissible lattice is one all of whose points, except the
@@ -23,11 +23,11 @@ origin, lie on or outside K. It is not hard to show [5, p. 13]? that a
 critical lattice exists for every such XK.
 
 In d-dimensional space a lattice is determined by d2 real variables or
-d vectors af, az, - - -, a;. If K is defined by a gauge function, in
+d vectors of, a7, - - -, a;. If K is defined by a gauge function, in
 vector form ®(x;) <1, then the problem is to minimize the de-
 terminant of the a; subject to the infinitude of side conditions
 
-(1) (pros + paca + + + + + paay) > 1
+(1) (prs + paca + + + + + paay) 2 1
 
 where (p;) runs through all integer sets except the origin. Now, as
 mentioned earlier it is possible to show the existence of a critical
@@ -46,7 +46,7 @@ and 3, giving the most economical set of inequalities. The sets given
 here will be far from economical, but the methods will be compari-
 tively simple and geometrically intuitive.
 
-2. Finite bases lemma. Let w;, wy, * wg bea sel of d independent
+2. Finite bases lemma. Let w;, wy, * wg bea set of d independent
 vectors on the surface of the finite symmetric convex body K, and belong-
 ing to a K-admissible lattice. Then the lattice has a basis from the follow-
 ing finite set:
@@ -59,7 +59,7 @@ Presented to the Society, November 25, 1950; received by the editors August 30,
 ! The author wishes to acknowledge the helpful advice of Mr. C. A. Rogers and of a
 referee.
 
-2 Numbers in brackets refer to the bibliography at the end of the paper.
+? Numbers in brackets refer to the bibliography at the end of the paper.
 547
 
 
@@ -72,31 +72,31 @@ HARVEY COHN
  
 
 548 [August
-byw
-9) — : )
+. bum
+2) : )
 a
-= bay baws
-2 = 17 ?
+3 barr basws
+2 = + ?
 
 bay b azws baawa
-Gp tf ——T—— + cv |
-yap + + * Aq a9 > Qq aq
+Qrm fo] yy of
+ag + + * Aq as +++ Qq ag
 
  
 
 where the a; and bi; are integers satisfying the conditions:
 
-l=;
-(2a) ay > 0, bir 1 1% | bri/ a. . we ar | < = a
+1,
+(2a) ay > 0, bir == E | bri/ a . fe ar | <= 5 a
 and =
-(2b) 00s + + ag < dl.
+(2b) aaa «+ ag < dl.
 
 This result is due to Minkowski [4, p. 189]; we therefore simply
 note some special aspects of the lemma which tie in with familiar
 results. In case there are more than d vectors (and their negatives)
-on the surface, let us choose (w;") so as to produce a minimal positive
+on the surface, let us choose (w,”) so as to produce a minimal positive
 determinant. Then for d=2 the basis can always be chosen as
-(wr, wy) itself, while for d=3 it can be chosen as (w;, w,, w;) or
+(wi, wy) itself, while for d=3 it can be chosen as (w;, w;, w;) or
 (wr, wg, (wy +w; +w;)/2), as was known to Minkowski [3, p. 101]. If
 K is specialized to an ellipsoid, then for d £3 only the basis (w;)
 will occur.
@@ -105,18 +105,18 @@ will occur.
 first restrict the K-admissible lattices to the subclass having d inde-
 pendent vectors on the surface of K. This is no restriction since every
 K-admissible lattice can be contracted to a K-admissible lattice with
-the further property. We then let (w;") be such a set of d independent
+the further property. We then let (w;) be such a set of d independent
 vectors. By the finite bases lemma, the lattice has as its basis a set
 (2) chosen from among the finite collection in (2).
 
 Then the conditions (1), subsidiary to the minimizing of the de-
-terminant of the Qf, can be rewritten as ®( 2p: 7) 21, where (3)
+terminant of the QF, can be rewritten as ®( 2p: 7) 21, where (p:)
 are still all integral lattice points, not the origin and where equality
 is achieved when the argument of ® is one of the vectors w.
-= Dat a:;Q;, from (2). Now the convex body K determines a conjugate
+= 0 a: from (2). Now the convex body K determines a conjugate
 convex body Kj in the p-space by means of the inequality in the pi:
-®( Dp; {)') =1. Furthermore K, contains the 2¢-hedron determined
-by the vectors + (ay, 0, 0, - - - ~0), £ (ay as, 0 - 0); =
+®( Dp; {}') =1. Furthermore K, contains the 2¢-hedron determined
+by the vectors + (ay, 0, 0, - - - 0), (an. am, 0, - 0), =,
 
 ’
 
@@ -124,27 +124,27 @@ by the vectors + (ay, 0, 0, - - - ~0), £ (ay as, 0 - 0); =
 
  
 
-se =p
+se —
 
  
 
 151] ON THE FINITE DETERMINATION OF CRITICAL LATTICES 549
-+ (@ay, Gaz, Qas, * * +, aaa). But these 29-hedra are finite in number
+t (@ar, Gaz, Qas, © * +, aaa). But these 29-hedra are finite in number
 one for each basis, and they contain the origin and hence a hyper-
 sphere of radius ps, depending on d alone. To be more specific, using
-the estimates ay - - - aa <d! and ¢;;2 lass] for > (an easy conse-
+the estimates ay - - - @2a<d! and ¢;;2 lass for > (an easy conse-
 quence of (2a)), we find that for instance Pa2d=12(d!)~%2, Hence
 by the main theorem of the companion paper [1], & will contain no
 p-integral lattice points, other than the origin, in its interior if it
-fails to contain those in a hypersphere of radius Capg—(d-D,
+fails to contain those in a hypersphere of radius Capa—(4-D,
 
 Thus the system of inequalities (1) can now be replaced by the
 finite collection of the finite systems (one system for each basis)
 
 k
-o( De oath) = 1
+o( y oath) =]; 1
 
-i=]
+i=l
 
 k
 
@@ -154,10 +154,10 @@ IA
 d,
 (1a)
 
-> 2.1/2 —
-o > pt) = 1, for0 < (D090) < Caps 77 (9: integral).
+> 2 1/2 —td
+o > pt) 21, for0 < (Dp) < Capa" (p: integral).
 
-te]
+to]
 
 In principle, of course, we select the basis whose system gives the
 smallest determinant; and in each system we would have had to
@@ -178,7 +178,7 @@ London. Ser. A vol. 187 (1946) pp. 151-187.
 
 4, , Geomelrie der Zahlen, Leipzig, 1910. :
 
-5. H. Weyl, C. L. Siegel, and K. Mahler, Geomelry of numbers, mimeographed
+5. H. Weyl, C. L. Siegel, and K. Mahler, Geomelry of numbers, mimeographe
 seminar notes, Princeton, 1949,
 
  

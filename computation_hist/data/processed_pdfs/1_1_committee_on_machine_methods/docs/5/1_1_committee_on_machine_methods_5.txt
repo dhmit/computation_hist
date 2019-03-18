@@ -1,99 +1,99 @@
 Minutes of the Fifth Meeting
 
-& of the
+@ of the
 
 Comnittee on Machine Methods of Computation
 December 20, 1950
 
-Persons Presents GC. S. Brown, i, Feshbaech, J. W. Forrester,
-Z. Kopal, C, Lin, P. dM. iMorse end E. Leissner
+Persons Presents GC. S. Brown, i. Feshbach, J. W. Forrester,
+2. Kopal, C, Lin, P. M. adorse end E. hLeissner
 
 The deliberations of the Committee at this meeting were taken
 up almost entirely with consideration of tne cases of Verzuh and
-Booton. The Sub-Committee mentioned in the last minutes reported
-that they nad talked to Verzuh énd made two recommendationss
+Booton. The Sub-Comuittee mentioned in the last minutes reported
+that they nad talked to Verzuh énd made two recommendations:
 
 (a) Thet Verzuh not be asked to take a regular written
 quelifying examination, but that nis preparation
 in his field be checked during the coming term and
 Summer by taking at least one course in matnematics
-(probably 39), that he start on his thesls researcn,
-particularly in its analytic aspects and thai the
+(probably 39), thet he start on his thesls researcn,
+particularly in its anslytic aspects and thal the
 end of the Spring or during the Summer he take an
 oral on two or three aspects of mathematics or elec-
 trical engineering, which will be considered to be
-his official examination in the field of his major.
-1f he passes this examination and satisfies his
+% his official examination in the field of his major.
+If he passes this examination and satisfies his
 supervisory coumittee concerning his course work in
 mathematics and his preliminary research on his
-thesis, ne will be considered to be ready to com-
-plete his thesis and take his final thesis exzmlina-
+thesis, he will be considered to be ready to com-
+plete his thesis and take nis final thesis exzmlina-
 tion.
 
 (b) That, in tne opinion of the Sub-Committees Verzuh
 would not be zble to carry on this Spring program
-effectively unless ne were given full time 0 work on
+effectively unless ine were given full time 0 work on
 it. The Coumittee tunen voted tuat Morse should ask
 Stratton whetiier it were possible to give Verzuh a
 leave of absence, with pay, from his job tnis Spring
 so that ne could carry out tiids program, &nd to
-recommend to tine Electrical Engineering Depertment
-that Brown, Fesnbach, Kopal snd helssner be his
+recommend to the Electrical Engineering Depertment
+that Brown, Fesnbach, Kopal and helssner be his
 supervisory couwittee for nis general oral exauing-
-tion and for nis thesis. Morse will report to tails
+tion and for nis thesis. Morse will report to tais
 supervisory committee end to tue Electrical Engineer-
 ing Department the result of his conversation with
 Stratton.
 
 Subsequent to the meeting, Morse saw Stratton &nd told him the
-reconnendations of the Counaittee. Stretton is to investigate as to
-whether Verzuh can be given leave of &bsence this coming term, and
+recounnendations of the Counaittee. Stretton is to investigate as to
+whether Verzuh can be given leave of absence this coming term, and
 
 
 Minutes of the Fifth Meeting
 of the Committee on Machine
-Methods of Computation =D
+Methods of Computation 2
 
-under wiuat. arrangements Verzuh can be supported financislly. If
+under wuat. arrangements Verzuh can be supported financially. If
 it turns out that Verzuh camnot be spared this cowing term, it
 was suggested that Verzuh be given a year's leave of absence, be-
-ginning in June, to prepsre for his orals and to get well along
+ginning in June, to prepare for nis orals and to get well along
 in his thesis (perhaps even complete it).
 
-Booton has indicated taut, 1f ne were asked to puss a
-qualifying exemination incluaing electronics, he wight have to
+Booton has indicated tout, 1f ne were asked to puss a
+qualifying exemination incluaing electronics, he uight have to
 postpone his examination for & term in order to brush up on this
 subject. The Committee investigated the possibility of Booton's
-taking tine qualifying exauwination in matnemstics (his course work
+taking tine qualifying exauination in mutnemstics (his course work
 indicates that this wight be possible). The Committee felt that,
 if ue were to continue his registration in the Electrical Engi-
 neering Department and take nis thesis with an Electrical Engi-
-neering supervisor, Booton sioula nave sowe knowledge of elec-
+neering supervisor, Booton shoulda aave sowe knowledge of elec-
 tronics and that it would be therefore advisable for niu to take
-the additional term to prepare for an exauination of the type
+the additional term to prepere for an exauination of the type
 mentioned in the last minutes. On the other hund, if Booton
 still wished to take the mathematics qualifying examination, he
 should then transfer his registration to the Mathematicg Depart-
-ment and expect to take his tnesis with a Mathematics Department
+ment and expect to take his tnesls with a Mathematics Department
 supervisor (although there could be readers for tne thesis from
-tue Electrical Engineering Department). Tals latter alternative
-mignt wean tnat ne would nave to modify nis plan for thesis to
-seme extent, including more mathemuztics in the research, but in
+tue Electrical Engineering Departuwent). Tals latter alternative
+mignt wean that ne would nave to modify nis plan for thesis to
+seme extent, including more mathemutics in the research, but in
 the end it was felt tonat this is desirable. There was some in-
 dication that Carrus, uentioned in the previous minutes, should
-&lso consider tnese alternatives, Consequently, no action will
-be teken on & possible modified Electrical Engineering qualify-
-ing examination to be given in February, ss mentioned in the pre-
-vious minutes, until Kopal (ana pessibly Morse) has talked to
+elso consider tnese alternatives, Consequently, no action will
+be teken on & possible modified Elsctrical Engineering qualify-
+ing examination to be given in February, &s mentioned in the pre-
+vious minutes, until Kopal (ana possibly forse) has talked to
 Booton and Carrus and found out their desires in this matter.
 
 The next meeting of the Committee will be 9:30 Wednesday,
-January 3, at which time the Comwittee will tike up the continu-
+January 3, at which time the Committee will tuke up the continu-
 ing question of courses in tine field of machine computation, and
 will start the consideration of possible contracts for the sup-
 port of some of the machines at the Institute.
 
-BMH ee
+Nl ee 0
 
 Chairman
 

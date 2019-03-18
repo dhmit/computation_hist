@@ -1,4 +1,4 @@
-CHARGE :
+CHARGE .
 
 DIC 7126
 
@@ -8,63 +8,63 @@ CREDIT:
 
 OFFICE OF STATISTICAL SERVICES
 
-Profs Pe Me. Morse
+Profe Pe Me. Morse
 (Operations Research)
 
 Massachusetts Institute of Technology
 
-I | September 24, 1954 3 §
+So | September 24, 1954 2 :
 
 Statistical Services 2935 Account
 
-ee er ——
+EE ———————————
 
-For services of punched-card nent and oe hand Sa period
-
- 
+For services of punched-card eauipaent and ots INE Siring period
 
  
 
  
 
  
+
+ 
  
 
-August 1 through August 31 , 19654 , (146=3; Mr. Ernst, Mr. Schaeffer, t3
-: : : Hire Paghy
+August 1 through August 31 , 1954 , (146=3; Mr. Ernst, Mr. Schaeffer, 2:3
+: : : Tre Pugh)
 MACHINE CHARGE
-Key Punch 10,00 hours at § 0.50 hr $ 5.00
-Verifier 1426 hours at § 030 /hr. $ 038
-Interpreter hours at § /hr..
+Key Punch 10,00 hours at § 0.50 up. $ 5.00
+Verifier 1426 hours at § 030 /hr. $ 0.38
+Interpreter hours at $ /hr..  §
 Reproducer 1,60 hours at $ 0470 /hr. - § 1.06
-‘Tabulator hours at § SNIP SRT a
-Sorter . D.26 hours at $ 0.40 /hr. $0.10
+‘Tabulator | hours at § ofp. SR
+Sorter D426 hours at $ 0.40 /hr. $0.10
 Collator ~~ hours at $ /hr. $
-604 Calculator ‘hours at § Ix, $i
-CPC Calculator 10,76 hours at § 15.00 /hr. $ 161.25
+604 Calculator ‘hours at § /hr. $
+CPC Calculator 10,76 hours at $ 15.00 /hr. $ 161.25
 2.00 ne 0.00
 $167.78
 LABOR CHARGE
-Connors 0.76 hours at $ 0,00 /hr. § 0.00
-Sakowicz 2,60 hours at § 1,47 /hr. § 3.68
+Connors 0.76 hours at $ 0.00 /hr. § 0.00
+Sakowicz 2,60 hours at $ 1,47 /hr. § 3.68
 Teng 4,00 hours at $ 0,00 /hr. $ 0,00
-Thurston 5,60 hours at § 2.31 /hr. $ 8,09
+Thurston 5,60 hours at § 2.31 /hr. § 8,09
 Deitch 22,75 hours at § 0,00 /hr. $ 0,00
 Schaeffer, Pugh, Ernst hours at $ 0,00 /hr.
-11.77 5
-Plus 10% $lalB ii oS ARGPR
+11.77 TE |
+Plus 10% $1.18 3.12.96
 MATERIEL CHARGE
 Cards, Plain manila at $ /M $
 Striped manila 2 M at § 1.24 /M $ 2.48
-——...Solid color at $ /M
-iE CREDIT NO. 293E 2 +48
-STAT TISTICAL SF YI Ee |
-{ Fi TV g ro or ¢ 4 :
-Ih RE £0 NT Plus 10% . ¥ +25 $2.73
-| SEP 9 44 1954. \ Fa
-yp rN Sa}
-L o AR BER = ; APP RS 7 I | 0 £0
-TOTAL +.) \/ | | Siar PONEXS $ 183.46
-AR \
+——....Solid color at $ /M
+P= CREDIT NO. 293E 2 +48
+STAT TISTICAL SF PVC Ee |
+{ (); Fh TV g rm o f 4 ,
+peo Re £0 NT Plus 10% . ¥ +25 $2.73
+| SEP 9 44 1954. \ Ze
+: a rN Se of
+L a AR BER = : APP RS 20) I | Vy : ik
+TOTAL +.) \/ | | a ONBXS $ 183.46
+a \
 
 

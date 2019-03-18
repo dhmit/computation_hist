@@ -2,7 +2,7 @@ February 14, 1957
 
 5 Mr. Paul V Cusick
 
-M. I. Te
+M. I. TT.
 
 Assistant Treasurer
 Room 4~110
@@ -11,7 +11,7 @@ Dear Paul:
 
 IBM Corporation.
 
-On Monday, February 11, Dr, Truman Hunter, you, and I met to
+On Monday, February 11, Dr. Truman Hunter, you, and I met to
 discuss the office equipment requirements for the MIT Computation Center,
 and in particular determine the areas which would be furnished by the
 
@@ -46,7 +46,7 @@ g)
  
 
 Bays
-N.E. Univ, Research Asst. 153,157
+N.E. Univ. Research Asst. 153,157
 Instit. Representative Area 147,151
 704 Mackine Operator 145
 704 Programmers 139
@@ -60,8 +60,8 @@ EAM Room 058
 Dr, Hunter indicated that the IBM Corporation would
 
 $ 1,265.40
-732,10
-343.50
+732.10
+343,50
 815.20
 997.85
 452.85
@@ -69,7 +69,7 @@ $ 1,265.40
 2,500.00
 6,757.00
 
-TOTAL INM COST..... $16,938.35
+TOTAL IMM COST..... $16,938.35
 
 Similarly, if we assume that MIT is to furnish the remaining areas
 described in Report CC-10, the following areas would be MIT's responsibilities:
@@ -81,7 +81,7 @@ MIT Research Assistants 161,163,165,167,169
 Center Headquarters 142,144,146
 Conference Area 168
 
-MIT Research Staff 257,259,261 ,263 ,265 ,267 ,2¢8
+MIT Research Staff 237,259,261 ,263 ,265 ,267 ,2¢8
 704 Library 264,266
 
 Systems Experiment, Lab. 061,065,069
@@ -92,18 +92,18 @@ $ 1,411.80
 2,707.80
 861.30
 3,030.95
-602,10
+602.10
 
 1,757.00
 
 TOTAL MIT COST..... $11,286.95
 
 
-—— — i ra = gi rl > oe - TE — Er gl Wo Tom sp mgm, mem oh -—
+rn — k Pm a, gi tv > Ew TT — i, I Si ang wo -—
 
-Mr. Paul V. Cusick a a Pebruary 14, 1857
+Mr. Paul V. Cusick “Be Pebruary 14, 18567
 
-The above estimated costs were based on prices obtained for
+The above estimated coats were based on prices obtained for
 Steelcase equipment. IBM Corporation is going to use General Fireproofing
 equipment, so I imagine for reasons of compatibility we at MIT should also
 buy General Fireproofing equipment, This means that our prices may be
@@ -120,13 +120,13 @@ will be available in April.
 
 Sincerely yours,
 
-¥F. M. Verzuh
-Assistant Director
+F. M. Verzuh
+Assigtant Director
 MIT Computation Center
 
 FMV :nb
 
-ce: Cc. Fr. Floe
-P. H. Norse
+ce: Cc. F. Floe
+P. HM. Norse
 
 

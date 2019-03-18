@@ -1,0 +1,53 @@
+MASSACHUSETTS INSTITUTE OF TECHNOLOGY CAMBRIDGE 39, MASSACHUSETTS
+
+ 
+
+October 16, 1960
+
+To: Research Project Heads
+
+A group has recently been set up to study the present and future role of
+Computation in MIT's research and education programs, as announced in
+Prof, Floe's letter of July 1, 1960,
+
+The major emphasis of this group thus far has been to determine the
+adequacy of MIT's present computer facilities to meet the likely computational
+load over the coming years and to recommend some policy with respect to future
+facilities, As might be expected, the study to date has shown that computers
+are playing an increasing role with respect to a large number of research pro-
+Jects as well as course and thesis work, and in fact; most all of MIT's com-
+puters are being used to capacity.
+
+The available computer time is now at such a premium that many research
+groups, particularly those with problems requiring large amounts of running
+time, are unable to make use of machines, We have no way of estimating the type
+or extent of this hidden load, except through you,
+
+The field of computation itself is rapidly changing, and such operations
+as formal mathematical manipulation, real-time human-computer interaction with
+problem oriented languages and direct access input-output devices are opening
+up a wide field of possible computer application, We would like to develop some
+feel for the extent of such future application in your area,
+
+It is in the light of this information that we are asking you, as a
+research project head to evaluate the role of computation in your projects
+and to assist us by passing this information on to our group., Our major in-
+terest is in significant research problems that you are not presently putting on
+machines, due either to a lack of money, machine time, or machine capability,
+
+We would therefore greatly appreciate your filling out the enclosed
+questionnaire; and would be happy to follow up with more detailed discussions
+with you or any one designated by you, If your present research does not
+utilize computation, or is not likely to do so, then no reply is necessary,
+
+Sincerely,
+
+\' WY
+v
+'\C <§5«>JD*~§L \&&\ | 755;*—
+Albert G, Hill
+Herbert M, Teager
+
+ 
+
+pai

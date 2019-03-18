@@ -1,5 +1,5 @@
-mt rm pw my Rs BT TW ST pf NRTA LES we te a nk Pg WN SI Tr © © TT CI ENT Te eae IN RA NI
-» ' < AZ
+——— rr rr, es TE EE i Tm SEE CRIA, TY Te NRA “NI
+e ! . az
 
  
 
@@ -11,9 +11,9 @@ MIT Department Representative. Please type)
 
  
 
-: 1. Applicant: (Not to be filled
+; 1. Applicant: (Not to be filled
 | Name, Title, Dept., and Institution: in by applicant)
-Prob. No.
+] Prob. No.
 
  
 
@@ -32,12 +32,12 @@ i] Init, Date:
 
  
 
-3. Programmer(s): (if applicant, write "applicant"; append supplementary
+3. Programmer(s): (if applicant, write "applicant; append supplementary
 sheet if necessary) Term. Date:
 
 a, Name, title, and programming experience on high speed machines:
 
-Inst.Rep., or MIT
+Inst.Rep. or MIT
 Dept. Head Approval:
 
  
@@ -54,13 +54,13 @@ Phone No.: | Approval:
 
  
 
-at Tl i raion Fi eit Bnei fons Bd Wid
+i destin SR vei mad fos Toh BN
 
 b. Name, title, and programming experience on high speed machines:
 
 |
 
-i Comp, Center
+{ Comp, Center
 
  
 
@@ -70,23 +70,24 @@ i Comp, Center
 
 Estimates:
 | Address:
-| Phone No,:
+| Phone No.,:
 4. Sponsor: (e.g., faculty advisor, thesis supervisor, project leader,
-ete.) | Publications:
+etc.) | Publications:
 
 Name and title:
 
  
 
-5. Signature of Sponsor signifying approval of this work: |
+5. Signature of Sponsor signifying approval of this work:
 
+|
 |
 
  
 
-6. What is the purpose of this work? (e.g., educational, faculty |
+6. What is the purpose of this work? (e.g., educational, faculty
 research, thesis (specify); if supported research project, give |
-contract number:
+contract number: |
 
 | Total Mach, Time
 | Used:
@@ -106,9 +107,9 @@ CCF-2 | |
 
 10,
 
-13
+11.
 12,
-L3%
+13.
 
 14,
 
@@ -121,7 +122,7 @@ Page 2
 Does the programmer(s) intend to prepare the input cards?
 If the answer to 8 or 9 is no, what plans have you?
 
-EE ——————————————————————————————————————— ————————————————————————————————————————————————————————————————————————— =~
+EE —————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————— EEE RR
 
 (Ordinarily, programming and card punching have to be done by the programmer. If
 assistance is needed from the Center, special arrangements have to be made.)
@@ -174,11 +175,11 @@ MIT Department Representative, Please type)
 
 Name, Title, Dept., and Institution:
 
-EEE —————————————————————————————————————————————————————————————
-EEE ———————————————————————————————————————————————————————————————
+EE ————————————————————————————————————————————————————————————————————————————————————————————————————————————
+EE —————————————————————————————————— ———————————————————————————————————————————————————————————————————
 
 Address:
-EE ———————————————————————————————————————————————————————————————————————————————————————————————————————————
+EE —————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 Phone No.:
 
  
@@ -187,20 +188,20 @@ Phone No.:
 
 Problem Title:
 
-EE ——————————————————————————————————————————————————————————————————
+EE ——_—_————————————————————————————————————————————
 
-ad He Se NR eet de See ee Bali Sa ie Ys
+eet eee ee Te a
 Programmer(s): (if applicant, write "applicant"; append supplementary
 sheet if necessary)
 
 a. Name, title, and programming experience on high speed machines:
 
-EEE ——————————————————————————————————————————————————————————————————————————————
+EE —————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
-EE —— EE ————————————————————————————————————
+EE —————————————————————————————————————————————————————————————————————————————————————————————————
 
 Address:
-ee cat at ee ah oo oT Ly
+———————————————————————————
 
 Phone No.:
 
@@ -208,11 +209,11 @@ Phone No.:
 
  
 
-EE ———————————————————— ————————————————————————————————————————e eet eee eee
+EE ————————————————————— —— —— —————————————————————————————————————————————————————————————————————————————————————— eee
 
 Address:
 
-Phone No.,:
+Phone No.:
 
  
 
@@ -224,18 +225,18 @@ etc.)
 
 Name and title:
 Signature of Sponsor signifying approval of this work:
-eS te ee et RN SE SER i Be A eS AF DS ed
+rr ——————————————— ee mn Ee
 What is the purpose of this work? (e.g., educational, faculty
 research, thesis (specify); if supported research project, give
 contract number:
-ee etme a i SS oii i le ys Ein Ll i a et ai
-i nse db me Pa ol omit ol wh Te
+Se —————————————————————————— i ee Se eT as
+Tr ie —————————— riper ————— ep a
 
 Do you intend to publish the results and if so where? (e.g., thesis,
 name of progress report, etc.)
 
-EE
-EE ———————————————————————————————————————————————ete eee SS ————et ee
+Se ——————————————————————————————————————————————————————————————————————————————————————————————————————————
+A ———————————————————————————————————————————————————————————————————————————————————————————————
 
 Does the programmer(s) intend to do all the programming?
 
@@ -243,7 +244,7 @@ Does the programmer(s) intend to do all the programming?
 
  
 
-TNS LTT
+EE AR
 
   
 
@@ -254,7 +255,7 @@ in by applicant)
 
 Prob. No.
 
-Programmer's No,
+Programmer's No.
 
  
 
@@ -279,10 +280,10 @@ Approval:
 
  
 
-| Comp, Center
+| Comp. Center
 
-EE ————————— eee tee eet |
-EE ————————————————————————————————————————————————————————————— |
+EE ——————————————————————————————————————————————————————————————————————————————————————————————————————— |
+EE EEE———————————————————————————————————————————————————————————————————— |
 
 Estimates:
 
@@ -292,15 +293,15 @@ Estimates:
 
 | Publications:
 
-EE —————————————————————————————————————————————————————————————— \
+EE ————————————————————————————————————————————————— |
 
  
 
-Total Mach, Time
+Total Mach. Time
 Used:
 
 
-11,
+11.
 12,
 13.
 
@@ -364,7 +365,7 @@ plan to test the programs and whether you have test cases
 available,
 
 
-ad
+ol
 
 1.
 
@@ -374,15 +375,15 @@ ad
 
   
 
-F<
+Ge
 
-ee ae E Es | -——— BET Re TN eA 3 5S ate - L- a IESE = Tet, > TY “ary A TR TTT oN Ee %
-’ re a Vie TEC = ons = 5 : " . Fr
+PTT RETR ": Ea | —— RE TR a "3 iS a at - L— Re RE rT, - TY Sap . TTR TTR EA
+; en, 7 Vien RAC ee - uns = 5 : " . a
 
->
+oe
 
 ¥
--
+_
 
 pmputation APPLICATION FORM FOR COMPUTER USAGE
 
@@ -398,10 +399,10 @@ Name, Title, Dept., and Institution:
 
 EE ——————————————————————————————————————————————————————————————
 
-A ————————————————————————————————————————————————————————————
+EE —————————————————————————————————————————
 
 Address:
-Ee ——————————  ———————————————————————————————————————————————————————
+EE ————————————————————————————————————————————————————————
 
 Phone No.:
 
@@ -409,9 +410,9 @@ Phone No.:
 
 Problem Title:
 
-EE —
+I ——————————————————————————————————————————————————
 
-—_—
+Ee — a ——.
 
 Page 1 of 2
 
@@ -420,7 +421,7 @@ in by applicant)
 
 Prob. No.
 
-Programmer's No,
+Programmer's No.
 
  
 
@@ -430,32 +431,32 @@ Programmer's No,
 
 Init, Date:
 
-Ee ——
+EE —————— A ———————————————————————————————————————————————————
 
 Programmer(s): (if applicant, write "applicant"; append supplementary
 sheet if necessary)
 
 a. Name, title, and programming experience on high speed machines:
 
-EE —————————————————————————————————————————————————————————————————————————————————————
+EEE —————————————————————————————————————————————————————————————————————————————————
 
-EE ———————————————————————————————————— ———————————————————————————————————————————————
+EE — —————————————————————————————————————————————————————————————————————————————————————————
 
 Address:
-ne ph me es 8 ia is eins ps illo
+—————————————————————_————— ae a il
 
-Phone No.,:
+Phone No.:
 
 b. Name, title, and programming experience on high speed machines:
 
  
 
-EE ——————————————————————————————————————————————————————————————————————————————————————————
+EE. ———————————— —————————————————————————————————————————————————————————————————————————————————————
 
-EE ———————— ————————————————————————————————————————————————————————————————————————
+EE ———————————————————————————————————————————————————————————————————————————————————————————————————————————————— a
 
 Address:
-ee Gil rut idl por
+rrr ——— a na on Ln SL
 
 Phone No.:
 
@@ -464,7 +465,7 @@ Phone No.:
  
 
 Sponsor: (e.g., faculty advisor, thesis supervisor, project leader,
-etc,)
+etc.)
 
 Name and title:
 
@@ -472,13 +473,13 @@ Name and title:
 
 Term, Date:
 
-Inst.Rep, or MIT
+Inst.Rep., or MIT
 Dept. Head Approval:
 
  
 
 Comp. Center
-Approval:
+Approval :
 
 t Comp, Center
 | Estimates:
@@ -491,24 +492,24 @@ t Comp, Center
 
 | Publications:
 
-!
+i
 
-EE ——————————————————————————————————————————————————————————————————————— !
+EE ——————————————————————————————— !
 
 Signature of Sponsor signifying approval of this work:
 
-Ts
+rr —————————————————————— a Ln inh
 What is the purpose of this work? (e.g., educational, faculty
 research, thesis (specify); if supported research project, give
 contract number:
 
-eet ee eee eee eee tee ee ei le
+ee tt———————————————————————————————————————————————— =
 
-Ry CN ee ay
+rr ea a he dy lL gi Sierra OE
 
 Do you intend to publish the results and if so where? (e.g., thesis,
 name of progress report, etc.)
-timer Ta ST ee ee nn ai he aa ie i a
+————————————————— ee i et ai ai
 
 Does the programmer(s) intend to do all the programming?
 
@@ -524,12 +525,12 @@ i Total Mach. Time
 Used:
 
 
-9 Does the programmer(s) intend to prepare the input cards?
+Oo. Does the programmer(s) intend to prepare the input cards?
 
 10, If the answer to 8 or 9 is no, what plans have you?
-
-SEC ol Sean cE CRS it tems a ete
+eI a  ————————————
 (Ordinarily, programming and card punching have to be done by the programmer. If
+
 assistance is needed from the Center, special arrangements have to be made.)
 
 11. When will program testing probably start?
@@ -542,7 +543,7 @@ assistance is needed from the Center, special arrangements have to be made.)
 tics, logic, game, etc. If this is a mathematical problem, specify type(s) such
 as integration, partial differential equations, matrix theory, etc.
 
-15, If this is a mathematical problem, specify numerical methods used, such as
+15. If this is a mathematical problem, specify numerical methods used, such as
 Gauss' quadrature method, difference equations, Crout, etc,
 
 16. On one or two additional sheets write sections A, B, and C as follows:

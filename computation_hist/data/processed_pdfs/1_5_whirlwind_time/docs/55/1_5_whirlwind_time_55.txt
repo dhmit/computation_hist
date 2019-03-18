@@ -1,7 +1,7 @@
-Wo 6345
+Hy 6345
 May 9, 1956
 
-Mr, Leo Sartori
+Mr. Leo Sartori
 
 Brookhaven National Laboratory
 Associated Universities, Inc.
@@ -11,7 +11,7 @@ New York
 
 Dear Sir:
 
-7 I have been ‘authorized to credit your account
+7 1 have been authorized to credit your account
 with 10 hours of machine time on the Whirlwind I computer
 for work under problem 236, Neutron-Deuteron Scattering.
 
@@ -32,7 +32,7 @@ Sincerely,
 
 PF. ¥M, Verzuh
 
-FMV:mat
+FHV:mmt
 cc P.M Morse
 L.T.Brock
 

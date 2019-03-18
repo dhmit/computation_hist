@@ -12,12 +12,12 @@ l
 
 From: Herbert Teager
 
-Sub ject: Integration of Remote Console - Time Shared T090 System
+Sub ject: Integration of Remote Console - Time Shared TO090 System
 Operation into M. I. T's Educational Facilities
 
 1. Background:
 
-As part of our general preparation for the T0930 system, we
+As part of our general preparation for the T7090 system, we
 have been actively exploring the use of time - shared multipro-
 gramming, with one or many input-output devices connected. We
 have successfully demonstrated with our flexowriter project that
@@ -43,13 +43,13 @@ facilities and techniques.
 
 At present, we are distinctly handicapped with respect to a
 detalled understanding of the 7090 lo ic and construction.® Lack-
-ing such information, it is extremely difficult to express feasa-
+ing such information, it is extremely difficult To express feasa-
 pility in terms of cost, or any other terms other than "We know how
 to do it and we feel it will be a better solution than a multitude
 of small machines’.
 
 Basically, She system would be comprised of a T7090, several
-disc files, 5 - 10 remote inquiry stations similar to the 7070
+disc files, 5 - 10 remote inquiry stations similar to the T7070
 system stations (electric typewriters and some push buttons) , and
 sufficient channels and electronic hardware to make the system work.
 gome of the remote Lecture Hell stations would, in addition, be
@@ -58,10 +58,10 @@ equipped with self maintaining scope - displays and light pens.
 # This is a policy matter that we feel should be broached at a high
 revel with [BM in securing their cooperation.
 
-—
+_—n
 
 
-aT
+=D
 .v each user of a remote console, the T7090 system would appear to
 be a slower running machine, but he would have available to him any
 of the powerful programming and diagnostic systems now in use, as
@@ -87,10 +87,10 @@ B) Remote Inquiry Stations - Another must item. Such inquiry
 stations should be wire connected to the 7090 in order to mini-
 mize both cost and maintenance. Although flezowriters could be
 used, we would be far better off in using the remote inquiry
-stations that IBM uses with the T7070 system, or possibly with
+stations that IBM uses with the TO70 system, or possibly with
 their 305 system.
 C) Guard or Boundary Registers - A definite highly desirable
-itemt® In time shared usage, the problem of program compata-
+itenmt® In time shared usage, the problem of program compata-
 bility becomes of paramount interest. Lacking such registers,
 the solutions to compatibility will either limit the overall
 speed of the system ( as in our flexo monitor - interpretive
@@ -100,15 +100,15 @@ and foolproof program systems. IBM has developed such registers
 for their "stretch" system, but it would be highly unlikely that
 
 # Preventing unwanted modification to other programs concurrently in
-memory.
+memory
 
 ## But presently unlikely on the 7090 due to cost.
 
 
-—ge
+Fut
 
 they could be available on the T090 without IBM cooperation.
-D) Alarm Clocks, Self Maintaining Scope Displeys, etc. - Such
+D) Alarm Clocks, Self Maintaining Scope Displeys, ete. - Such
 items are desirable, but can be designed with available talent
 exclusive of IBM.
 

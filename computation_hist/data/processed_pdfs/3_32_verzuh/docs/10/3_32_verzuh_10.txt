@@ -1,10 +1,10 @@
 wv)
 
-vw!
+wl!
 
 l
 
-MEMORANDUM ON THE M.I.Te DIFFERENTIAL ANALYZER
+MEMORANDUM ON THE M.I.T. DIFFERENTIAL ANALYZER
 
 by
 
@@ -28,42 +28,42 @@ TABLE OF CONTENTS
 
 Lege
 
-IBCYOUMOTION cic. of RN Ce nit eile Baal wae wee a el etieie esr X
+IBTPOUUCTION vic vs ¢ oe iienisicy lettin: vile slr al oie ew wie alte eX
 Historical Background of the Rockefeller Differential Anglyzer . . . . . 1
 Insgrumentation Leboratory Utilization of the RDA. . . . . . . . . . . . 4
 Survey of the Application of the Differsntial Analyzer . . . . . . . . . 4
-Disposition of the Differential Analyzer . . k Wi HRS a hee era eo 5 8
-TABLE I: Distribution of the Rockefeller Differential Analyzer oo ad
+Disposition of the Differential Analyzer . . : vi satis. a helen alia er vie 2 8
+TABLE I: Distribution of the Rockefeller Differential Analyzer vv nil
 
-5.1 Purdue University Negotiations . . ... « « oe oo « vo oo noo. 8
+5.1 Purdue University NegotiGtions . . «.« = « se oo « « 2 oo no oo 8
 TABLE II: RDA Removal Expenses Incurred by Purdue University . . . 8
 
-5.2 Other Institutional Negotiatioms . . . . . vo + oo oc vc oo o 0 oo 9
-853 "H.X,T. ROGOATrCH Projets. « « i oveie ath do oie fam dma 8 2 i ey
-5.4 Expenses Incurred in the Removel of the RDA . . . . . . « +. « « « « 10
-TABLE IIX: Total Cost of Removing the RDA. . . . . . . . « « « «. « 10
-Disposition of the RDA Machine SROD. . . . . « « & o « « o « oo o = « » « 11
+5.2 Other Institutional Negoti8tioms . . . . . ve + o 2 vv ov o 0 oo O
+5.3 "B.3.T. ROBOBICH Proleftm.. . . « civic sts « a = iu lo oh viens vo ole iS
+5.4 Expenses Incurred im the Removal of the RDA . . . . . +. « « « « + « 10
+TABLE III: Total Cost of Removing the RDA. . . . . . . « « « « «» » 10
+Disposition of the RDA Machine SROD. . . . + « & © ¢ « « o o 0 o oo os » « 11
 TABLE IV: RDA Shop Equipment Returned to Instrumentation Leboratoryll
 
-6.1 Mechine Shop Equipment Transferred to Elecirical Engineering. . . . 12
+6.1 MNechine Shop Equipment Transferred to Elecirical Engineering. . . . 12
 TABLE V: RDA Machine Shop Equipment Transferred toc Room 10-481 . . 12
-Institute Space Reallocation. . . . . . . . . . Se cw fae Tey ee Col eh eee tol
-Conclusion. . . . . . . ..... Se ue ns TR RL
+Institute Space Reallocation. . . . . . . . . . wR we ee Te Tee a a he ete TLS
+Conclusion. . . . . . . . .... gti hits % wn i nn SEE a 8
 
-BiblIography. oi ich oon ble eal ea el er
+BIBTIOETAphY. + + on ve nm eis eed oe
 
-"SJ. . »
+"SJ. - »
 A
 
 
 1.0
 
-lemorendua on the M.I.T. Differential Analyzer
+Jemorendua on the M.I.T. Differential Analyzer
 INTRODUCTION
 
 This memorandum is prepared with two objectives im mind. First,
 
-- a brief historical background of the Rockefeller Differential Anslyzer
+- a brief historical background of the Rockefeller Differential Analyzer
 
 (RDA) is presented together with specific comments pertaining to the
 development period and pertinent factors associated with its operation
@@ -76,15 +76,15 @@ which have been prepared on the machine during the past decade.
 
 I think it is importamt that the Rockefeller Research Foundation
 be properly informed of the disposition of the Differential Analyzer
-since they were so helpful with financial contributions rary its ~
+since they were so helpful with financial contributions Gnlne its ~
 formative years.
 
 HISTORICAL BACKGROUND OF THE ROCKEFELLER DIFFERENTIAL ANALYZER
 
-‘The original design and development of the Differential Analyzer
+‘The original design and development of the Differential Amalymer
 was initiated early in 1936, and several of the basic features of the
 machine were determined at that time. Specifically, the design of the
-servomechanisnm system which wegused to interconnect the components of
+servomechanisn system which wegused to interconnect the components of
 the machine was developed during that period. This is mentioned simply
 to indicate that during recent years some of the maintenance problems
 associated with the RDA were occasioned by the particular servomechanisas
@@ -92,16 +92,16 @@ vhich were employed. Thess were vintage 1936, end as such, were not
 competitive with post-World War II servomechanism design.
 
 The original Center of Analysis was formally organized by Professor 8. H.
-Caldwell in July, 1839 with the aid of a grant of $30,000 from the Carnegie
+Caldwell in July, 1839 with the aid of & grant of $30,000 from the Carnegie
 Foundation. During its early, formative years, the Center existed largely
 on grants from the Rockefeller Foundation, Electrical Engineering Department,
-and other sources; and it was not until 1842 that the RDA was finally placed
+and other sources; and it was not until 1942 that the RDA was finally placed
 into operation. Beginning at that time, the RDA provided a source of
 financial revenue which assisted in the formulation of a self-supporting
 regime.
 
 During 1941, the activities of the Center (under the direction of
-R. Taylor) were expanded to include a2 large battery of desk calculators
+R. Taylor) were expanded to include a large battery of desk calculators
 and associated personnel who were well advanced in the use of numerical
 analysis techniques. At that time, the Center contained 3 principal types
 of facilities:
@@ -113,21 +113,21 @@ b) The new Rockefeller 18-Integrator Electromechanical
 Differential Analyser.
 
 
-32. The IBY Punched-Card Section,
+3. The IBY Punched-Card Section,
 
 3. The Hand Computing Group (which employed desk calculators
 for computationsl purposes).
 
-During the war years 1242-495, the ataff of the Center was increesed
+During the war years 1242-495, the ataff of the Center was increessed
 
 to approximately 30 people. Because of the large volume of war-time
-computational activity (3-shift operation, ete.), this self supporting
+computational activity (2-shift operation, ete.), this self supporting
 type of operation resulted in the creation of a financial reserve fund
 of over $40,000.
 
-: Professor 8. H. Caldwell returned from his NDRC assignment in 1945
+Professor 8. H. Caldwell returned from his NDRC assignment in 19845
 and again assumed his former position as active Director of the Center.
-The post-war years 1546-47 had a devastating effect on the previousliy-
+The post-war yeers 1546-47 had a devastating effect on the previousliy-
 mentioned finsncial reserve. The volume of computational work was sharply
 curtailed during this period, but the operating staff of the Center was
 not meterially reduced. As & conseguence, the two-year period 1948~49
@@ -148,23 +148,23 @@ the group began operation as 2 separate computing facility under D.I1.C.
 sponsorship. Finally, on July 1, 1950, the Administration set up the IBM
 group as an Administrative Office -- the Office of Statistical Services.
 
-It also became apparent that the originsl 6-Integrator Differential
+It also became apparent that the originel 6-Integrator Differential
 Analyzer was no longer required at M.I.T., and consequently it was pre-
-sented to Wayne University in July, 1949 where it is still in operation.
-Barly in 1942 the Differential Analyzer Group (the last remaining section
-of the Center of Amslysis) was about to be dissolved because of financial
-difficulties. Fortunately, in June, 1949, a contract was initiated with the
+sented to Wayne University im July, 1949 where it is still in operation.
+Barly in 1942 the Differential Amaliyzer Croup (the last remaining section
+of the Center of Amslysis) was sbout to be dissolved because of financial
+difficulties. Fortunately, in June, 1849, a contract was initiated with the
 U. 8. Air Forces which provided the mecesssry financlal assistance needed
-to continue its operation. In July, 1948, FP. M. Verzuk was slso placed in
+to continue its operation. In July, 1948, FP. M. Verzuk was also placed in
 in charge of the RDA group and was faced with the problem of hiring a new
 operating staff. (The former group of Messers. J. L. C. Lof, H. Morash,
 G. Eunstedt, M. Coate, etc. had been released.)
 
-A new operating staff consisting of Messrs. J. M. Ham, and H. EB.
+A new operating staff consisting of Messrs. J. M. Ham, and H. E.
 Grossimon were hired and trained, and the new RDA group consisting of
 Professor Caldwell, Messrs. M. Forbes, L. BE. Frost, J. E. Goos, H. E.
-Grossimon, J. ¥M. Hem, F. M. Verzuh and Misses E. Collins, S. Conway, and
-E. Tamm experienced an effective year which resulted in the following major
+Grossimon, J. ¥. Hem, F. M. Verzuh and Misses E. Collins, S. Conway, and
+BE. Tamm experienced an effective year which resulted in the following major
 additions to the RDA:
 
 
@@ -173,36 +173,36 @@ the adder capacity of the RDA by 85%.
 2. The design and construction of two sutometic curve followers
 was completed, and these were used as input units om the RDA. 2
 
-; 3. The design and construction of the Vector Unit was completed.
-: This unit incressed the functional capabilities of the RDA.S
+: 3. The design and construction of the Vector Unit was completed.
+This unit incressed the functional capabilities of the RDA.S
 
-1. Three new four-ghaft units wore Goons which increased
+1. Three new four-gshaft units wore constiucted which increased
 
-; Additional details of the work performed during this period under
+: Additional details of the work performed during this period under
 Air Force Contract are given in the Summary Reports which were submitted
-as part of this work.%, | |
+as pert of this work.%, | |
 
 September 30, 1950. However, it became apparent prior to July 1, 1950 that
 the operation of the Differential Anslyzer would again be in finencial dif-
 ficulty. Consequently, the Inatitute decided to close down the Differential
 
-; The official termination date of the Air Force Contract was
+The official termination date of the Air Force Contract was
 
 Analyzer as of June 30, 1950. Again the operating staff was released, and
 the E. E. Department permanently severed 211 responsibility for the Differential
 Analyzer. The machine was about to be scrapped when Dr. Drape, Director of the
 Instrumentation Laboratory expressed interest in its possible operation. When
-| he learned that it only cost approximately $25,000 a year to cperate the
+| he learned that it only cost approximately $25,000 a year to operate the
 facility, he indimted that the Instrumentation Leboratory would assume full
-responsibility for all RDA operation as goon as the existing Air Force Contract
+responsibility for all RDA operation as goon as the existing Alr Force Contract
 was completed.
 
-) At this time, it was realized that the principal uncompleted work on
+At this time, it was realized that the principal uncompleted work on
 the AKC contract was confined to the operational staff and not to the RDA
 
 Machine Shop. Consequently, the respoasibilities of the RDA Shop were trans-
-ferred to the Instrufentation Laboratory on July 1, 1050. In this ALNNEr ,
-the Laboratory was able to utilize the services of the 3 Instrument Jakers
+ferred to the Instrufentation Laboratory on July 1, 1050. In this ALNNEYr ,
+the Laboratory was able to utilize the services of the 3 Instrument Jdakers
 
 | and all of the shop facilities for the production of gyro and other delicate
 mechanisms for the Laboratory.
@@ -220,7 +220,7 @@ for the Instrumentation Laboratory. Since the Electrical Engineering Depart-
 ment staff assigned to this project had beaureassigned to other projects within
 the E. E. Department, effective July 1, 1950, (Professor 8. H. Caldwell, J.
 
-M. Hem, and H. P. Grogsimon), it again became necessary to hire 2 new operating
+HM. Hem, and H. P. Grogsimon), it again became necessary to hire a2 new operating
 staff. Two new men (Messrs. I. Pfeffer and R. Fredrickson) were hired and
 trained in the techniques of the RDA operation, and in several months they
 were able to effectively utiiize the RDA for the solution of Instrumentation
@@ -235,21 +235,21 @@ Laboratory problems.
 
 The Instrumentation Laboratory expressed a desire to assume the res-
 ponsibility for RDA operation in order that it might carry on design and
-"calibration studies for new computing sights and ammunition which were under
+“calibration studies for new computing sights and ammunition which were under
 current investigation in the Laboratory. Furthermore, certain Instrumentation
 Laboratory contractual commitments were concerned with the development of im-
-proved computing sights, and the solution of associated kinematic RAERE Loan
+proved computing sights, and the solution of associated kinematic equations
 required the use of the RDA.
 
 The Laboratory felt that the RDA was unique in its demonstrated capability
 for handling problems of that type. It mist be remembered that at that time
 (1950) the status of present-day large-scale computers was not where it is at
 the present time, and as a result, these calibration studies could be carried
-out more iSotive on the analcog machine.
+out more SPtentivaly on the analog machine.
 
 As it turned out, this was a most fortunate decision on the part of the
 Instrumentation Laboratory since it resulted in the désign of new lead computing
-sights which were used most effectively im propeller and jet combat over Korea.
+sights which were used most effectively in propeller and jet combat over Korea.
 In this regard, the Differential Analyzer again made a most valuable contribution
 to the war effort.
 
@@ -261,7 +261,7 @@ a result, late in 1952, improved types of digital computing machines were obtain
 
 vine nu Torred to the digital machines. During this period a determined effort was made
 
-to evaluate the performance of the Anelyzer both on an economic end engineerifig " -
+to evaluate the performance of the Anelyzer both om an economic end engineerifig ” -
 basis. As the performance of the Whirlwind Computer improved and more inter-
 pretive subroutines, conversion programs, floating decimal subroutines, etc. were
 made available, it became increasingly apparent that a larger and larger portion
@@ -273,16 +273,16 @@ should be given to the removal of the RDA.
 
 4.0 SURVEY OF THE APPLICATION OF THE DIFFERENTIAL ARALYZER
 
-In retrospect, it is of interest to point out some of the principal
-contributions mede by the Amalyzer during its 12-year life at HM. I.T. Ir
+In retrospect, it is of imterest to point out some of the principal
+contributions made by the Analyzer during its 12-year life at M.I.T. IF
 must be remembered, of course, that its early applicetions were strongly in-
-fluenced by World War II. Specifically, the machine was completed im 1842, and
+fluenced by World War II. ©Specificelly, the machine was completed im 1842, and
 since the applications during the period 1942-1945 were almost entirely of a
 military character, the following types of problems were solved (in some cases
 thousands of times):
 
 
-gc
+B=
 
 1) Evaluation of ballistic tables,
 2) Guided missile stability and performance studies,
@@ -292,17 +292,17 @@ gc
 and other underwater craft,
 6) Study of the design of catamarans employing the hydrofoil principle.
 7) Study of the operations research problem dealing with submarine warfare.
-8) Sly, design and psrformance of antiaircraft missiles such as Nike, etc.
+8) Study, design and performance of antiaircraft missiles such as Nike, etc.
 
-As a mattercof fact, the contributions made by S58 Rael yres were considered
+As a matterof fact, the contributions mads by the ‘Analyzer were considered
 to be sufficiently important that the Navy Department issued the Naval Ordnance
-Development Award in recognition of the work | pertorwes by the Differential Analyzers
+Development Award in recognition of the Work | periveund by the Differential Analyzers
 and associated computing staff.
 
 In addition to such studies, the Analyzer was used to design new types of
-lead ceaputing sights, tracking systems, aircraft component désign, etc. This type
+lead computing sights, tracking systems, aircraft component désign, etc. This type
 of activity was carried on by the Instrumentation Laboratory during the years
-1950-1954.
+1950-19564.
 
 It is evident from the above partial list of problems that the Analyzer was
 primarily used for the solution of military problems. However, there were a
@@ -318,23 +318,23 @@ number of industrial problems solved on this machine. For example:
 5) Study of a problem in enzyme kinetics, :
 
 6) Studies of the atmospheric oscillation of the upper atmosphere,
-7) Studies of a boundary value problem associated with the destpy of
+7) Studies of a boundary value problem associated with the design of
 
 an ultra centrifuge,
 
-In addition to the above industrial problems, the machine was used to a
+In addition to the above industrial problems, the machine was used to
 limited extent for the solution of academic problems arising im M.I.T. thesis
 research. For example,
 
-1) Investigation of aircraft performance and control,
+1) Investigation of aircraft performance and comtrol,
 
-3) Investigation of the performance of magnetic relay circuits,
+32) Investigation of the performance of magnetic relay circuits,
 
 3) Investigation of the stability of gyroscopes,
 
 4) Investigation of the orbit of dynamically-loaded journal bearings,
 
-$5) Investigation of statistically-loaded machine bearings,
+5) Investigation of statistically-loaded machine bearings,
 
 6) Study of magnetic emplifiers,
 
@@ -343,14 +343,14 @@ $5) Investigation of statistically-loaded machine bearings,
 8) Study of M.I.T. servomechanisms,
 
 9) Study of differentiation with elements of the Differential Analyser,
-10) Investigation of Schrodinger 's Wave Bguation,
+10) Investigation of Schrodinger 's Wave Bquation,
 11) Bonneville power load allocation study.
 
 It is evident from the above list of problems solved on the Differential
 Analyzer that it was used predominantly for military and D, I. C. sponsored
 
 
-research. As a2 matter of fact, this was true to such an extent that the
+research. As a matter of fact, this was true to such an extent that the
 machine did not contribute as effectively to the academic research program
 
 as it might have done had it not been operated un a self®supportnng basis.
@@ -360,7 +360,7 @@ utilization not be the primary concern. The Analyzer vas always operated under
 a self-supporting basis, and this of necessity limited its application to groups
 who had adequate means to pay for its use. A better plan,of eourse, is ome in
 vhich the Administration would provide adequate financial support to permit the
-operation of these facilities for educational training and research.
+operation of these facilities for educational training and ressarch.
 
 DISPOSITION OF THE DIFFERENTIAL ANALYZER
 
@@ -374,18 +374,18 @@ notified of this decision in order that they might make other arrangements for
 personal employment. As a result, the operation of the Differential Analyzer
 was terminated on June 30, 1954.
 
-During the spring and susmer months a certain amount of negotiating was
+During the spring and summer months a certain amount of negotiating was
 carried on with various Educational Institutions concerning the possible dis-
 position of the machine. Only the following Universities:
 
-2) Northwestern {iniversity, Evanston, Illinois,
+a) Northwestern {iniversity, Evanston, Illinois,
 b) Purdue University, Lafayette, ,Indiana,
 
 ¢) University of Pittsburgh, Pittsburgh, Pa.,
-d) The University of Comnecticut, Storrs, Conn.
+d) The University of Connecticut, Storrs, Conn.
 
 expressed a serious interest in the possible utilization of porticms of this
-machine. After several visits by representatives, etec., it was mutually agreed
+machine. After several visits by representatives, etec., it ves mutually agreed
 that Purdue University would take the major portion of the machine. The remaining
 Universities expressed an interest in only 2 small part of the RDA.
 
@@ -393,15 +393,15 @@ Once it became apparent that the RDA was not to be removed and reinstalled
 as & complete working unit at some other locz:iion, plens were rapidly formulated
 for its actual removal. Specifically, early in September, Dr. Stratton arranged
 for an M.I.T. appropriation of $5000 (Operating Account 1978.41) to co¥er the
-cost of removing and dismantling of the RDA. On August 17, 1954, Prof. G. 8B.
-Brown officially notified veriocus members of the M.I.T. family of the decision
+cost of removing and dismantling of the RDA. On August 17, 1954, Prof. G. 8.
+Brown officially notified verious members of the M.I.T. family of the decision
 to remove the RDA and asked them to express their interest in possible use of
-machine components. Therefore, in approximately six weeks 2 definite decision
+machine components. Therefore, in approximately six weeks a definite decision
 was made regarding the dizatribution of the Analyzer. On Octohar 4, a crew of
-5 technicians began to dismantle the RDA.
+8 technicians began to dismantle the RDA.
 
-Table I contains the names of sister Institutions, vgrious M.I.T. projscts,
-and the type and amount of RDA equipment which they received. Roughly speaking,
+Table I contains the names of sister Institutions, various M.I.T. projscts,
+and the type and amount of RDA equipment which they received. Roughly spesking,
 
 Purdue University was given one-third of the RDA and other groups received the
 rest.
@@ -411,11 +411,11 @@ TABLE I
 
 DISTRIBUTION OF THE ROCKEFELLER DIFFERENTIAL ANALYZER
 
-Group Individual | Equipment Received Quan.
+Group Individual ! Equipment Received Quan.
 
 Purdue University Prof. Geldmacher Integrator, Setting Mechanism, 6
 
-Tee Servo Panel & associated equip.,
+Tre Servo Panel & associated equips,
 Independent Veriable Control
 
 | Circuit 1
@@ -426,8 +426,8 @@ Digit-Decade Differentials 2
 Counters & Servomechanisms 6
 Main Power Supply, Oscillator,eto} 4
 
-Univ. of Connecticut Prof. J. L. Co LBf Integrator, Setting Mechanism
-EE Setting Mechanism Relays
+Univ. of Connecticut Prof. J. L. C. LBf Integrator, Setting Mechanism
+= Setting Mechanism Relays
 | S=Shaft Differential
 Miscellaneous Relays
 
@@ -437,7 +437,7 @@ Franklin Institute Mr. A. Co Carlton Integrator & Setting Mechanism
 | Four=Shaft Unit
 
 Graphic Arts Research
-oundatlion Prof. S. Ho Caldwell Integrators 3
+oundeatlon Prof. S. Ho Caldwell Integrators 3
 S=Shaft Unit
 
 Western Electric Relays
@@ -446,7 +446,7 @@ Malticontactors
 Elec. Engg. Dept. Prof. S. Ho Caldwell New Automatic Electric Relays
 Used Western Electric Relays
 Crossbar Switches (10 vert.6 pt)
-Me . (20 vert.6 pt)
+5 9 (20 vert.6 pt)
 Multicontactors
 
 
@@ -460,13 +460,13 @@ Servo Laboratory
 
 Feedback Control Lab.
 
-Dynamic Analysis Labo
+Dynamic Analysis Lebo
 
 Elec. Engg. De pt °
 
 «The
 
-Prof. To Fo Jones Integrator & Setting Mechanism
+Prof. To Fo. Jones Integrator & Setting Mechanism
 Decade Differential
 Counters
 
@@ -474,16 +474,16 @@ Tape reading mechanisms
 
 Western Electric Relays
 Crossbar Switches(10 vert,8 pt)
-» = (20 vert,4 pt)
+R » (20 vert,4 pt)
 Multicontactors (60 pt)
 Stepping Switches
 Motor Generator Set:
 25 hp Induction Motor
 48v Generator
 250v Generator
-Mein Power Control Psnel
+Mein Power Control Panel
 
-Profs Do A. Huffman
+Prof. Do Ae. Huffman
 
 Prof. E. Ho Boehne Western Electric Relays
 Crossbar
@@ -503,7 +503,7 @@ Vector Units
 Function Units
 Decade Differentials
 
-Prof. C. Eo Tucker Western Electric Relays
+Prof. C. E. Tucker Westarn Electric Relays
 Crossbar Switches (10 vert,6 pt)
 Multicontactors
 
@@ -515,13 +515,13 @@ Motors
 
 Mr. Ho Eo. Laurencs Digit Decade Differentials
 
-EE SEs GEIS GEE SEED SRE SEG SR SESS ewes WRES Raed Gy | Sms SEND GREE Wen SEND GEES SEE EI SCSEREY CRED WEED SEI Ges eww SEED Swe
+ES SEs CEI GEE AEE SRE SE SRA GES ewes WEES RD Se | SS SEED SRE WAS SEED GEES SEE EEE SCE CRED WEED SRI Ge Seem SEES S——
 
-Oh
+CW Oh =
 
 713
 
-He OOo ®
+HOO; ®
 
 
 Group
@@ -539,7 +539,7 @@ Rocket Research Soc.
 Tech Model Railroad
 
 , Individual Equipment Received Quan,
-Mre Co Lo Emmerich Western Electric Relays 54
+Mre Co Lo Emmerich Western Electric Relays 4
 Crossbars 2
 Multicontactors (10 vert.) 20
 Terminal Blocks 65
@@ -548,22 +548,22 @@ Relay Control Panels 4
 Digit Decade Differential 1
 Mr, To. Ko. Naylor Tape Punch Unit 1
 Tape Reading Mechanism 2
-Rolls of 76 mm, Paper Tape 25
-Mr, Ss Briggs Digit Decade Differential 1
+Rolls of 76 mm. Paper Tape 25
+Mr, S. Briggs Digit Decade Differential 1
 Servo Panels 2
 Multicontactors (60 pt.) 26
-Crossbars (4 pt.) 9
+Crossbars (4 pt.) o
 Western Electric Relays 03
-Mr. Bo Woznick Western Electric Relays 65
+Mr. Be. Woznick Western Electric Relays 65
 Dunco Power Relays 41
 Multicontactars 8
 Terminal Blocks 10
 Panel Lights & Sockets 120
 Misc. Wiring and Panels
-Mr. We. Jo Eccles We Eo Type U Relays 9560
+Mr, We. Jo Eccles We Eo Type U Relays 2560
 Mounting relay strips 60
 Multicontactors 45
-Terminal Blooks 77
+Terminal Blooks 7
 Slow Release 24v relays 100
 
 Telephone Jack Strips & Switches 30
@@ -572,14 +572,14 @@ Misc. Componerts
 
 «7d=
 
-Group Individual Equipment Received Quan,
+Group Individual Equipment Received Quan.
 
-Building end Power lr. Je Barraford Ge. Eo Transformer 37.5KVA
+Building end Power Mr. Je Barraford Ge. Eo Transformer 37.5KVA
 
 2300/116v single #
 
-Ge. Eo. Transformer 85KVA
-2300/116v Single #
+Ge. Eo. Transformer 856KVA
+2300/116v Single
 
 Ge Eo Transformer 10KVA
 2300/230/116v Single #
@@ -596,10 +596,10 @@ equipment
 
 =
 
-= Ca
+ep Ca
 
 
-re mm aR
+AT ie a
 
 5.1 PURDUE UNIVERSITY NEGOTIATIONS
 
@@ -610,7 +610,7 @@ transportation of sald equipment to Lafayette, Indiana. Accordingly, Profes-
 sors Geldmacher, Anderson and Mr. Coon arrived at the Institute on October 7
 to assist with this work. Im approximately one week their portion of the
 machine had been dismantled and suitably packed and crated for tmailor ship-
-ment to Indiana. :
+ment to Indiana. ‘
 
 In connection with the work performed for Purdue University, Professor
 ‘Geldmacher requested the expenditure of certain labor and materiel expenses.
@@ -618,14 +618,14 @@ For example, the salaries of electrical technicians, carpentors, steel cutters,
 cost of lumber, etc., were expenses which were authorized with the definite
 understanding that Purdue University would reimburse M.X.T. Table II contains
 : 8s breakdown of this type of expense and indicates the magnitude of the invoice
-($923.42) which has been submitted to Purdue for payment.
+($923.42) which has been sutmitted to Purdue for payment.
 
 TABLE IX
 
 RDA REMOVAL EXPENSES INCURRED BY PURDUE UNIVERSITY
 
 Hours
-Electricel Technicians Reg. Overtime Total
+Electrical Technicians Reg. Overtime Total
 Caufield, Joe 14 22 $ 92.12
 Goos, John 46 23 176.41
 Eay, Richard 13 4 38.00
@@ -646,7 +646,7 @@ Steel Workers
 Vages 0 8. 74.40
 TOTAL EXPENSE 174 81 $923.42
 
-DE
+Tames a Ee rer TE ES Se Tee Te eee
 
 
 5.3
@@ -656,7 +656,7 @@ DE
 In passing, it may be well to mention thet the entire DA was dismantled
 and largely removed from the premises during a two-week period covering October
 4 - 16 inclusive. A later section of this report contains a detailed statement
-regarding the cost of the entire dismentling and removal operation.
+regarding the cost of the entire dismantling and removal operation.
 
 Purdue University intends to utilise their portion of the RDA for educational
 treining and research, and as such, they hope to have their machine installed
@@ -672,8 +672,8 @@ installation of electronic analogue equipment. In fact, $30,000 worth of Good-
 year equipment has been ordered. The Purdue Statistical Division (which operates
 a moderate-size punched-card installation) has recently received an intermediate
 size digital computer from the Consolidated Engineering Company. Professor
-Geldmacher made the foliowing statement about their plans: « « .» Purdue does
-not intend to remain behind in the rapidlp-expanding field of analog and digital
+Geldmacher made the foliowing statement about their plans: « « . Purdue does
+not intend to remain behind in the rapidlii-expanding field of analog and digital
 
 computation. . . It is evident that the University has a rdther ambitious long-
 range plan.
@@ -700,7 +700,7 @@ M.I.T. RESEARCH PROJECTS
 
 It is also evident from Table I that a number of M.I.T. projects have
 received components from the RDA. In certain cases, e.g., Dynamic Analysis
-Control Laboratory (DACL), Flight Control Laboratory (FCL), Servomechunisms
+Control Laboratory (DACL), Flight Control Laboratory (FCL), Servomechanisms
 Laboratory (REAC), Acoustics Laboratory, etc., the components will be incor-
 porated into other computing machines. In other cases, the equipment will be
 used for graduate thesis research. This is largely true for all the equipment
@@ -708,9 +708,9 @@ released to various members of the Electrical and Aeronauticil Engineering
 Projects.
 
 
-a gE
+fe a
 
-=10=
+-310-
 
 In addition to the M.I.T. academic projesgts, a certain number of relays
 and minor machine components were released to several student organisations:
@@ -730,10 +730,10 @@ When one considers some of the
 
 original estimates which were made concerning the cost of the removal of the
 
-RDA, the amount $2638.69 is indeed a relatively small sum.
+RDA, the amount $2638.59 is indeed a relatively small sum.
 
 It must be understood that operations of this type naturally require
-considerable time of certain administrative personnel which, of course, do not
+considerable time of certain administrative personnel which; of course, do not
 
 directly appear as expense items in the above Table III.
 
@@ -741,7 +741,7 @@ mentioned cost of RDA removal is slightly misleading.
 
 TABLE III
 
-WL ET —— — WAY) EY — By —
+LTA | 1ST 0 ALY) A fr A — We S—
 
 TOTAL COST OF REMOVING THE RDA
 
@@ -769,7 +769,7 @@ Supervision
 
 Miscellaneous
 
-Telephone, Telegrams-~, Materials
+Telephone, Telegrams-, Materials
 
 TOTAL REMOVAL COST
 
@@ -777,7 +777,7 @@ Less Purdue Expenses
 
 *Estimated cost
 
-NET M.I.T. COST
+NET M.I.T., COST
 
 Hours
 Reg. Overtime
@@ -824,9 +824,9 @@ _933.42
 $1715.17
 
 
-Li
+313.
 
-Vhen the Instrumentation Leboratory stopped using the RDA on July 1, 1954,
+Vhen the Instrumentation Leboratory stopped using the RDA om July 1, 1954,
 it was no longer necessary to maintain the machine shop in 7-302 for RDA main-’
 tenance. Accordingly, all of the equipment in the RDA shop, which had been
 purchased during the 4-year interval that Instrumentation Laboratory operated
@@ -837,17 +837,17 @@ J. Ryan, property officer, on July 1, 1954.
 
 TABLE IV
 
-Tl 8 _A —— cl LW Bl, NE
+Tl A Il IA, TEDW WN lle AE,
 
  
 
-WOSRLA WBE RW PATI AT em A
+WORSE UBER RTL AT em A
 
  
 
 RDA SHOP EQUIPMENT RETURNED TO INSTRUMENTATION LABORATORY
 
-WE AANA.
+WE AAAS
 
  
 
@@ -862,25 +862,25 @@ with standard equipment including cri-
 terion boring head with adapter and 6
 
 collets
-1 Floor-type Fan | 783-3
+1 Floor-type Fan | | 783-3
 1 Nichols Dividing Head (Serial #A-1536) 783-4
 1 Nichols Swivel-base Vise 783-5
 1 16" Desk-type Fan 783-6
 1 Water Cooler 822-3516
 1 Marchant Calculator -13082
 1 Marchant Calculator 822-287
-| IBM Typewriter 7139-110
+1 IBM Typewriter 7139-110
 
 1 IBM Typewriter 822-3673
 
 
--12-
+-12~
 
-At a conference held or May 24, 1954, attended by Professor C. Floe,
-Dean Harrison snd F. Verzuh, the disposition of the capital goods, machines,
+At a conference held on May 24, 1954, attended by Professor C. Floe,
+Dean Harrison end F. Verzuh, the disposition of the capital goods, machines,
 stock and materials, etc. available in the RDA machine shop was considered.
 It was decided that the RDA shop equipment was to be transferred to Room 10-481
-vhere it will be reactivated as a shop to be used in connection with the com-
+where it will be reactivated as a shop to be used in connection with the com-
 putational activities which have been recently transferred to Building 10.
 Professor G. 8. Brown expects to use & machinist from the Electrical Engineering
 Shop to organize the new shop.
@@ -891,9 +891,9 @@ Esllenbach of the Physics Shop (Room 6-014) at the direction of Dean Harrison.
 
 Table V contains a list of the principal pieces of machine shop equipment
 which were moved to Room 10-481 on July 15, 1954. In addition to these capital
-goods, & considerable amount of metal stock and materiels ($1465) was also
+goods, a considerable amount of metal stock and materiels ($1465) was also
 transferred at that time. The entire facilities of a 3-man shop (working benches,
-metal cabinets, tools, equipment, etc.) were also transferred intact to the new ares.
+metal cabinets, tools, equipment, etc.) were also transferred intact to the new area.
 
     
     
@@ -959,8 +959,8 @@ for above
 7.0 INSTITUTE SPACE REALLOCATION
 
 The removal of the RDA will naturally serve to release a number of bays
-of space in Building 7. Specifically, 2450 sq. ft. of space have been released
-as a result of the removal of the RDA. The following breakdown indicates the
+of space in Building 7. Specifically, 24350 sq. ft. of space have been released
+as 8 result of the removal of the RDA. The following breakdown indicates the
 space involved:
 
  
@@ -982,7 +982,7 @@ Architecture Department. The receipt of this 2500 sg. ft. of space should
 
 8.0
 
-we
+hn an
 
 CONCLUSION
 
@@ -992,7 +992,7 @@ the RDA. A brief description of the historical background of the mechine, a
 survey of its applications, and disposition of various components are described
 in considerable detail.
 
-A breakdown of the expenses incurred in this operation isgivem, and it
+A breakdown of the expenses incurred in this operation isgiven, and it
 is of interest to note that only $2638.59 was required to remove this "200-ton
 giant” from the M.I.T. premises. Perhaps of equal interest is the fact that it
 only required 60-man days (over a 2-week period) to accomplish this removal.
@@ -1005,7 +1005,7 @@ tion that an entire power plant facilities, notably, power transformers, a motor
 generator set, an air compressor, a precipitron unit, etc., have been given to
 Buildings and Power for other M. I.T. use.
 
-in Sloatng. it is evident that the RDA has served & very useful purpose
+in loging. it is evident that the RDA has served & very useful purpose
 in the Institute. However, like all things, it had a limited life and certainly
 had become obsolete by existing standards of the large-scale computing equipment.
 It is therefore only proper that it should be removed and that other modern
@@ -1031,7 +1031,7 @@ Verzuh, F. MH.
 
 Verzuh, F. M.
 
-Verzuh, F. HM.
+Verzuh, F. M.
 
 Caldwell, S. H.
 
@@ -1047,18 +1047,18 @@ Report on the Four-Shaft Adder Unit, January 9, 1950.
 
 An Automatic Curve Follower for the Electromechanical
 
-Differential Analyzer, M. 8. Thesis in Electrical
+Differential Anslyzer, M. 8. Thesis in Electrical
 Engineering, September 1850.
 
 Summary Report of Center of Analysis Activities on
-AMC Contract during peri period July 1, 1949-Dec . 31, T1049.
+AMC Contract during peri. period July 1, 1949-Dec . 31, T1049.
 
 Summary Report of Center of Analysis Activities performed
-for the Air Materigl Command during the Period January
+for the Air Materiel Command during the Period January
 
 1, 1950 - September 30, 1950.
 
-Memorandum concerning. Transfer of RDA to the Instrumentation
+Memorandum gonverning. Transfer of RDA to the Instrumentation
 Laboratory, July 22, 1950.
 
 

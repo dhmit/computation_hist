@@ -28,21 +28,21 @@ budget next year of about $160,000, caused by the considerable
 increase in the use of WW1l for pure research, by groups in all
 Departments of the Institute. The increased cost of this increase
 in aid to research work will be borne by instituting a system of
-charges for machine time to those non-O.N.R. projects at M.I.T.
+charges for machine time to those non-0.N.R. projects at M.I.T.
 which can afford to help, in accordance with a procedure which has
 been approved by O.N.R. It is estimated that the "income" from
 these charges will be about 60,000 next year. In addition, about
 $70,000 will be left unexpended, of funds already allocated to
-G34%5, by 30 June 1955. This leaves $%0,000 tc be requested in
+5345, by 30 June 1955. This leaves $30,000 tc be requested in
 new funds. The details of the combined budget for the two projects
 
-wa mY» ™™ TY EAS MN CAM 4 : — ~~ Se a0 , te a rr Mme ~~ Aen 1» = oJ
-nekzine hwy SV - = OU on - &iv eal Ci viie MGA v [or=yes ° 480 vas n Ox Geli’
+wa oY» ™ rr YS EAS Mm CMT ‘ : r- —~ Sven A , ote a ~ rn mr ~~ Aen 1» —— J
+meine vg SV - — vn - &Siv Sad Ci viie MGA e [or=yes ° 480 vas n Oi Geli’
 
-for the two projects include:
+for the two projects include: =
 
-ape —— i ————————. -
-— ES  —— ——— Va — ————— ——
+—_ ——————————————. a. -—
+ —— — ——————— — i ———— —
 
 1. Research in methods of numerical analysis and the
 formulation of scientific problems for machine
@@ -54,15 +54,15 @@ group of Project "Whirlwind" so as to make the computer
 useful and available for the above research.
 
 
-«De
-TF stinated BUDOET for D.I1.C. 6345 and 6915
+De
+— ———————Fstinated BUDGET for D.I1.C. 6345 amd 6915
 Salaries and Wages
 
 Administrative Supervision 6,350
 Technical Supervision, Professor 1/4 time 3,000
-20 Research Assistants and Associates at an eed
+20 Research Assistants and Associates at an nd
 average salary of $2,400 48,000
-7 Mathematicians at §6,000
+7 Mathematicians at $6,000
 (Analysts and Programmers) 42,000
 3 Secretaries 10,000
 4 Computer Operators 13,200
@@ -78,7 +78,7 @@ Materials and Services
 including replacement computer parts,
 office supplies, reports, telephone, etc. 25,000
 
-Lowes SEC BSE 229,T10_ _ _
+a amt = wu) mee Sse ee fei 229,T10_ _ .
 
 Estimated unexpended funds 140,000
 Estimated "income" from machine charges 60,000

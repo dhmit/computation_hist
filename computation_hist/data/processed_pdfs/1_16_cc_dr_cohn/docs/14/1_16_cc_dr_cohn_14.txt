@@ -1,6 +1,6 @@
-TY We a a a TE LT a a 2 rT Ba eT Be TE DI Ta ae SI Lor AR SC TING SOD TT Ir re
+i i ee a ee i a aE a a i i Ei a a a I a i a a a Ei as
 
-Py ESTO COHN, Hi
+os ESEIOSETY COHN, H.
 1952
 
 PROC. AMER. MATH. SOC.
@@ -28,39 +28,39 @@ connection with critical lattices for the product of the coordinates.
 The ground-work, however, seems to be largely unexplored. This is
 probably illustrated by a somewhat persistent conjecture [4]* that
 for totally real fields of degree (g—1)/2, where g is a prime >3, the
-smallest discriminant 1s g@=>!2, achieved for R (cos 2m/g), where R is
+smallest discriminant is g@=>!2, achieved for R (cos 2m/g), where R is
 the field of rational numbers. (This is the maximal real sub-field in
 the field of the gth roots of unity.) This conjecture was often made im-
 plicitly even before its verification [1] by Davenport for g=7 (the
-case g=>5 having been trivial). We disprove this for those g, such as
+case g=35 having been trivial). We disprove this for those g, such as
 13, 37, etc., for which (g+1)/2 is also prime. We use relative quadratic
 fields built on base fields of small discriminant, a device used previ-
 ously by Mayer [3] in his work on biquadratic fields.
 
 The counterexamples are constructed by adjoining to the totally
 real base-field k the quantity u'/%, where u is a totally positive integer
-in £2 which is not a perfect square; we call 2(u'/?) = K. Next we consider
+in k which is not a perfect square; we call 2(u'/?) = K. Next we consider
 the prime ideal p dividing the odd rational prime p and the prime ideal
 q dividing 2, in the ground-field 2. Then according to the well known
 methods of Hilbert [2] the discriminant D, of K, and the discriminant
 d, of k, are related by D =d?N(d) where N(b) is the norm (over R)
 of the relative discriminant d. Assuming for convenience that d is
-odd, we have d=&%? where © is the product of all p and q that di-
-vide (1) to an odd power, and T is the product of all q for which
+odd, we have d=6%? where © is the product of all p and q that di-
+vide (1) to an odd power, and ¥ is the product of all q for which
 the congruence p={? mod q*** is unsolvable for { an integer in &,
-with e equal to the exponent of the power to which q divides (x). In
+with e equal to the exponent of the power to which q divides (nu). In
 the cases worked out fully (below) it will prove advantageous to
-choose pu relatively prime to 2 and such that the congruence p={?*
+choose u relatively prime to 2 and such that the congruence p={?*
 mod 4 is solvable, for then T=(1).
 
-We take for the base-field 2=R(cos 2w/l), of degree (I—1)/2,
+We take for the base-field k=R(cos 2r/l), of degree (I—1)/2,
 where / is a prime > 35. For this field d=1(9/2,
 
-(i) First we take u=35. Since (5) is unramified and p=1 mod 4,
-then d= (ux) and N(d) =5%V/2, Therefore KV =R(cos 2m/l, 5''?) de-
+(i) First we take p=35. Since (5) is unramified and p=1 mod 4,
+then d= (u) and N(d) =5%V/2, Therefore KV =R(cos 2m/l, 5''?) de-
 
 fines a totally real field of degree !—1 with discriminant D®
-= Ji-35(1—1)/2,
+= Ji-35(1=1)/2,
 
 Presented to the society, December 28, 1951; received by the editors January 15,
 1952.
@@ -76,24 +76,24 @@ RVEY COHN
 714 HA
 
 ® =
-— 30-172], Therefore K™% =
+— 30-0/2], Therefore K** =
 field of degree J—1 with discriminant
 
 arli
-Now whenever 2/—1 (called £ ad K® (when /=19, 31, 37, .. i
+Now whenever 2/—1 foafled ¢ pe K® (when l=19, 31, 37, .. Ji
 
-=7 |
-totally real fields KZ Si as than the conjectyre
+=17 |
+totally real fields K7 hes nis than the conjectyre
 
-of degree /—1 provide smaller ant (2/—1)""? and degree /—1
+of degree /—1 provide smaller ant (2/—1)""% and degree /—1
 
-= f discrimin ogre
-fer Roofers Eo be KW provides the smallest discriminaps
+— f discrimin egr
+Gi Holl 5 i KO provides the smallest discriminapg
 n fact w =
 
 : og base-field (although the do.
 ic extension of the indicated lth ol
-— of se ee can be omitted as they fall within the earlier.
+rs of oo Fase can be omitted as they fall within the earlier.
 
 outline of Hilbert’s methods).
 BIBLIOGRAPHY
@@ -101,10 +101,10 @@ BIBLIOGRAPHY
 1. H Davenport On the product of three homogeneous linear forms. III, Prog
 
 th. Soc. vol. 45 (1939) pp. 98-125. : | |
-Load pt Uber die Theorie des relativquadratischen Zahlkorpers, Math, Ann,
+Long Si. Uber die Theorie des relativquadratischen Zahlkorpers, Math, Am,
 
 . 51, pp. 1-127. : : |
-2 . Mer Die absolut-kleinsten Diskriminanten der biquadratischen Zahlkirpe,
+a . ver. Die absolut-kleinsten Diskriminanten der biquadratischen Zahlkirpe,
 
 Sitzungsberichte der Akademie der Wissenschaften Wien Abt. Ila vol. 138 (1929) op.
 
@@ -113,71 +113,69 @@ Sitzungsberichte der Akademie der Wissenschaften Wien Abt. Ila vol. 138 (1929) o
 
 University, 1946, Chap. IX, p. 14.
 
-(2) = JI-230-D/2,
+(2) = J1-230-D/2,
 
-<7
-ra
+Tas
+id
 
-a
+Cele
 
-= po]
+Es po]
 
-CAT
-ALATA aT
+al
+ATA TA Ya Yi
 
-5h
+55h
 
 Xo
-Lo uf = -~
->=
+A =
+=
 
 1
-1
-20
+“1
+Z0e
 Te
 
-CU
--— —,
-$7
-Cebes
+Cod
+yn —
+SET
+ere
 2
 7 >
-PLS ese
+Pees
 Sn
 1
 
-bo
+bt.
 
-EL -—
-o
-7 :
-BF & or
+8 -—_
++
+Sos :
+oF & on
 A
-ES
+RES
 
 =
 LA
 
 Cs
 
-——
->
+-
+-
 
-ot
-=
+5
+a
 
-3
+523
 --
 
 -
-Cn ot
-Cad
+Cn
+~~
 
-TL
+Tr
 
-tt
-
-PADS ad
+PASS
 
 WAYNE UNIVERSITY
 
@@ -188,43 +186,43 @@ U1 4)
 ¢
 
 hd a
-tlslyiviie
+rllyiviit
 
 Aa
 aa
 
 y
-CAEN TVNT LI 0 iv ie vo
+Ala Lata IR,
 
-af al ala lars as ivara sided:
-Aa Da Ian
+Fafal altars rivera sided
+Aa Da NIA ny
 
-pa Taga fa alata al:
+erie TAAL
 
-¥ Fa re
+¥ £3 re
 
-CHINES
+CIES
 
+ 
  
  
  
+
+i
+. o
+
  
 
-Cy
-- .
+“ry
+.—
+Ve
 
- 
-
-“
-a
-Y-
-
-> prom SY XG oi To
-Bs AS TCT 3. "BY Sw
+> a "YN Ty
+y AST Ni RT
 
 . Since (3) is unramif |
-3 _3(2—2 cos 2/1) ed
-(@) Seconds SY 2 then, ones Tote, 5 = (4): and [i
+; _3(2—2 cos 2/1) ed
+Sn 2 then, ones mote, §={iy, oud A
 and p=(2 cos 7/ R((3(2—2 cos 2w/1))*?) 1s a totally rey)
 
 er) is a prime, as well as J, th.
@@ -234,7 +232,7 @@ er) is a prime, as well as J, th.
  
  
 
-J
+Ee I... eh
 
      
      
@@ -245,9 +243,9 @@ J
       
      
 
-CX
+a
 »
-Crs
+ors
 
 >
 
@@ -261,13 +259,14 @@ St
 A
 
 3
-=
+-
 
 >
 
-; SEE ERNE
-2 ns g . SORT ~e » -.
-. aN \ - = S
+2
+; SRE ERNE
+2 ns . SORT a - 2
+. aN . - = ,
 
      
   
@@ -287,59 +286,59 @@ A
 
  
 
-rds y IIa
+rds 3 fos
 "4
-i ih
-ay fois |
-sss 7 ol
-114 'e! ey io f
-Je i elels
-if 7 ‘] : ur,
-firyee s, or |
-1h 0 3 elo
-4 50 vio?
-Ida (14 fat
+i Fh
+ay go |
+ross 7 ol
+114 'e! 330 »/ )
+091, rr elels
+if / ‘) ' ur,
+frye s, ir |
+ie ’ 3 ole
+f 4h vie?
+J (14) fat
 wee Teles i
-Ted) ’
-seNnNn0c
-122 000008018 ly
-I lala letats 00
-Ile le Te) / i
-Te ata lala oh i »
-(ti
-oy are, ee
-al ? 4
-al, atets or.
-Ties irl ’ HI |
+Ted v
+0 a ele
+122 000000 ly |
+I lala letats 0
+le lets) / i
+VT a ata lala od i »,
+i
+Gh area, ie
+al yf /
+pal, laters i.
+Tas ’ itso), |
 I's’
-svi, ony v
-17.0 dl 4 ¥ Vv
-essa, (ot
-WN lddddle 4 oe! Ea |
-Msi 7s AT
-Td als) A AT
-alas hr! My
-HAnOH00 ta Tin et
-rd LOGO pr with
-0 ay ala le i $e
+svi, any v
+10.04 bi 4
+Essay, Me
+ddd fF oa A |
+Wale er An
+Td als) 9 AT
+alas ir! 1h
+HEAnOH00 Sa
+rd LOGO00 pr with
+0 yl ala le i ha
 Liv
-pian
+rin
 ine
 2AM
-heyy d
+MM he'3y \
 
-pe
 -
 |
 LT 5
 Ls
+x
 
-Lr , }
-Las
+Ls ;
+fo
 
   
 
-a£
+Fo
 
 Fw
 
@@ -350,17 +349,17 @@ L*
  
    
 
-vt
 a
+ro
 
-nt ry
+Sere
 
 Te
 
 Lx
-LY
+hy
 
-op
+[¥
 
   
  
@@ -372,22 +371,22 @@ Lr
   
 
 Lr
-LY
-oF
+[*y
+oN
 
  
  
 
-Fr.
+FI
 eel
 
-es
+Xs
 
   
 
  
 
-5
+3
 
  
 

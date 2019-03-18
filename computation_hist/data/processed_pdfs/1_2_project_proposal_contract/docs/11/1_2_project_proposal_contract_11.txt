@@ -2,84 +2,84 @@ MASSACHUSETTS INSTITUTE OF TECHNOLOGY
 DIVISION OF INDUSTRIAL COOPERATION
 CAMBRIDGE 39, MASS.
 
-January 23, 19356 .
+January 23, 1936.
 
 Office of Naval Research
 
-office HIRE BOOR DIC~#6345
+office PHP @BOOR DIC~#6345
 #8915
 
-L495 summer Street
+L985 summer Street
 Boston, Massachusetts
 
-Reference: Contract N5ori-06001
+Reference: Contract N5ori-0600L
 
 Dear Sir:
 
 The Massachusetts Institute of Technology submits
-herewith a reviged proposal for extension of the reference contract
-to June 30, 1957 at ean additional estimated cost of $20,960,00,
+herewith a’ reviged proposal for extension of the reference contract
+to June 30, 1957 at an additional estimated cost of $20,960.00,
 
-We understand that thls proposal has been the subject of dlscus-
-sions between Professor P. M. Morse of MIT and Mr, A, J. Wise
+We understand that this proposal has been the subject of dlscus-
+sions between Professor P. M. Morse of MIT and Mr. A, J. Wise
 
-of ONR-MIT, Dr, Carl F, Mukenhaupt of ONR--Beogton, end Dr. F. J.
+of ONR=-MIT, Dr, Carl F, Mukenhaupt of ONR--Beogton, and Dr. F. J.
 Weyl of ONR-Waghington.
 
 There follows a summary of expenditures and funds
 remaining on the two projects, Whirlwind Operation and Machine
-Methods of Computation, which are currently active under the
+Methods of Computation, whlch are currently active under the
 reference contract:
 
 Project #6345 (Whirlwind Operation) has an unexpended
-balance of $97,000 as of November 30, 1955, The ourrent expend-
-itures are approximately $10,000 per month, The average "income!
+balance of $97,000 as of November 30, 1955. The ourrent expend-
+itures are approximately $10,000 per month, The aversge "income!
 received for Whirlwind usage is approximately $3,000 per month =-
 a net expenditure of $7,000 per month, If it is assumed that the
-present level of income ($3,000 per month) 1s maintained during
-the nineteen-month period December 1, 1955 to June 30, 1957, a
+present level of income ($3,000 per month) is maintained during
+the nineteen-month perlod December 1, 1955 to June 30, 1957, a
 minimum amount, assuming some tapering off, of $119,000 will be
 required during this period,
 
 However, for the purpose of establishing an estimate of
 unexpended funds on this project as of June 30, 1956, it is esti-
 mated that a higher level of income will exist during the remaining
-seven months. This may average something above $4,000 a month, On
-this basis we estimate that $57,000 of the $97,000 mentioned above
-willl remain unexpended as of June 30, 1956, An additional factor
-affecting the budget shown on page 4 is the estimated Computer
+seven months. This may average something sbove $4,000 a month, On
+this basis we estimate that $57,000 of the {97,000 mentioned above
+will remain unexpended as of June 30, 1956, An additional factor
+sffecting the budget shown on page 4 is the estimated Computer
 Income for the one-year period ending June 30, 1957. For this period
 only $18,000 in Computer Income has been estimated, This is in-
-fluenced by two factors: one being an expected tapering=off of the
+fluenced by two factors: one being an expected taperlng=off of the
 use of the Whirlwind machine by other projects, and secondly the
-expected beginning of operations under the IEM Type 704 machine,
+expected beginning of operations under the IBM Type 704 machine,
 
-Pro ject #6915 (Machine Methods of Computation) has an
-unexpended balance of ,000 as of November 30, 1955. The current
+Project #6915 (Machine Methods of Computation) has an
+unexpended belance of ,000 as of November 30, 1955. The current
 expenditures are approximately $7,000 per month, If it is assumed
-that the present expenditures remain constant, there will be a balance
+that the present expénditures remain constant, there will be a balance
 of approximately $22,000 on June 30, 1956, In accordance with our
 present plans’ for terminating the ONR support of this project on
-June 30, 1956, there will be certain additional costs extimated at
-$7,000 associated with the closing ovt of this project including such
+Juhe 30, 1956, there wlll be certain additional costs extimated at
+$7,000 associated with the closing ouvt of this project including such
 
 
-=Des
+=Dea
 
  
 
 Office of Naval Research January 23, 1956
-Reference: (Contract N50ri-06001 DIC-#6345, #6915
+Reference: (ontract N5o0ri-06001 DIC-#6345, #6915
 
-1tems as the preparation of summary reports on the program of
+1tems as the preparation of Summary reports on the program of
 Machine Methods of Computation,
 
 This summary 1s baged on estimates prepared by Prof-
-éssor P, M. Morse,
+eéssor P, M. Morse,
 
 Professor Morse further advigeg that the expected
 arrival of an IBM Type 704 Electronic Date Processing Machine at
-MIT about January 1, 1957 will create so definite need for addai-
+MIT about January 1, 1957 will create ao definite need for addi
 tional funds--to finance the conversion of existing Whirlwind
 Programs to Type 704 programs,
 
@@ -94,12 +94,12 @@ solution, together with the training of Personnel
 in these methods,
 
 2. Support of the Sclentific and Engineering Applica-
-tione Group of Project Whirlwind so a8 to meke the
+tiong Group of Project Whirlwind so a8 to meke the
 computer useful and avallable for the above-mentioned
 research,
 
 In addition, 1t ig proposed that the following task
-order arlsing in connection with the Type 704 EDPM be included:
+order arising in connection with the Type 704 EDPM be included:
 
 3. The development of g sul table interpretive Program
 and associated coding techniques %o permit effective
@@ -107,22 +107,22 @@ implementation of the Type 704 machine.
 
 It is anticipated that a separate project will be get
 up to handle the Type 704 utilization within the MIT Computation
-Center, and a separate request to the ONR for support of this work
-wlll be msde in the near future, In this r'espeet certain
+Center, and a 8eparate request to the ONR for support of this work
+wlll be msde in the near future, In this respect certain
 éxperlenced programmers could be made available for transfer to
 this new task ag of January 1, 1957. This enticipated transfer
 has been taken into account in the budget proposed for Project #6345
 
 The foregoing proposal doss not take into consideration
-termination ccsts which may be assoclated with the close out of
-this contract ang The possible dispoeition of the Whirlwind Computer,
+termination ccsts which may be associated with the close out of
+this contract ang the possible dispoeltion of the Whirlwind Computer,
 It is proposed to delay the submittal or any budget for thie matter
 untill such tims as disposition of the Whirlwind Computer ig
 determined,
 
 
-Office of Navel Research January 23, 1956
-Reference: Contract N5ori-06001 DIC-#6345, #6915
+Office of Naval Research January 23, 1956
+Reference: Contract NSori-06001 DIC-#6345, #6915
 
 The estimated budget for the period July 1, 1956 to
 June 30, 1957 is attached herewith as page 4.
@@ -136,13 +136,13 @@ LEB/dmb
 In quintuplicate
 ec: ONR/Boston
 ONR/MIT
-ONR/Wash., Adv, ce: Mr, F, A, Giroux
-Dr. C. F. Floe®
+ONR/Wash., Adv, ce: Mr, F., A. Giroux
+Dr. C. FF. Floe@
 Prof. P. M. Morse
-Dr. F. M. Verzuh
+Pr. FF. M. Verzuh
 
 
-le
+chi
 
 Estimated Budget for DIC Erolects 6345 and 6915
 
@@ -156,23 +156,23 @@ Technlecal Supervision
 Regearch Asslstants @ $3,000
 
 2
-4 Mathematliciens @ $6,000 (6 mos, )
+4 Mathematicisns @ $6,000 (6 mos, )
 2 Analysts and Programmers @ $5,000
 2 Secretaries
 
 Clerks (Tape Prepsrat
-, Computer Operators
+I, Computer Operators
 1 Photo Lab, Asslgtant
 
-Overhead - Estimated at LO%
+Overhead -~ Estimated at 4LO%
 Travel
 
 Materials and Services
-—t8lf and cervices
+———t8l8 and Services
 
 Reports and other closing out costs
 
-> le £
+™ £2
 for Project 6915
 
 Estimated Unexpended funds
@@ -186,7 +186,7 @@ $ 5,500
 12,000
 
 10,000
-6,500
+6, 500
 
 12,000
 
@@ -199,7 +199,7 @@ $ 71,400
 5,000
 6,000
 
-AD ea aa aan
+PTE ETTICa Te Ew
 
 $110, 960
 
@@ -218,14 +218,14 @@ be Requested of
 Minimum Amount to
 ONR for 1956-1957,
 
-< o o o
+© © o o
 
  
 
 $ 97,000
 
-S=
-nN
+GF
+ND
 \O
 
 

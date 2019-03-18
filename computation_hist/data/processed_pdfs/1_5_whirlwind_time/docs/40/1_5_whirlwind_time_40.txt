@@ -1,37 +1,37 @@
 . GORDON S. BROWN, FACULTY ADVISOR
-i 3 :
+i 3 : :
 
-ps LX
+ps tk
 
 MASSACHUSETTS INSTITUTE OF TECHNOLOGY ;
 | DEPARTMENT OF ELECTRICAL ENGINEERING
 4 DIGITAL COMPUTER LABORATORY
-211 MASSACHUSETTS AVENUE Casa
-_ _CAMBRIDGE 39, MASSACHUSETTS  . =. °
+211 MASSACHUSETTS AVENUE farfa
+_ _CAMBRIDGE 39, MASSACHUSETTS  . =
 
-EEE JAY W. FORRESTER. DIRECTOR Ra! in : Fi ns er ald, facts ey - TELEPHONE ELiOT 4-3311 ©
-| ROBERT R. EVERETT, Associate Director | iv RRS ie HT SR RE CE -
-"HARRIS FANNESTOCK. EXECUTIVE OFFICER Ld “ead sia) ESA TA : : £5 Zh, 0 ahs oh
+EEE JAY W. FORRESTER. DIRECTOR : 45, in : en i ald, aso gp ( . TELEPHONE ELiOoT 4-3311 ©
+| ROBERT R. EVERETT. Associate Director | iv UE SR as HT RS Re aE
+"._ HARRIS FANNESTOCK. EXECUTIVE OFFICER : ‘i Nad ia) EA BE tn : : Fo Lah, EEE
 
--
+»
 
-: > : Nay 23, 1983 %
+; > ! Nay 23, 1983 gs
 
-. Mnssachusetts institute of Technology
+_ Mnssachusetts institute of Technology
 
 ~~ ¥ have been authorised to credit your account =
 
-© with 2 hours of machine time on the "hirlwind I Computer’ for
-work under problem 348, Complex Spectrum Analysis, Rea a
+| with 2 hours of machine time om the "hirlwind I Computer: for
+work under problem 348, Complex Spectrua Analysis, Ra
 
 have been $513.75.
 
-Sincerely ;
+Sincerely ’
 
-FP. M, Versuh
+FP. M, Verzuh
 
-FV mms
-ce G.R.Harrison
+FV: mms
+ce G.R. Harrison
 P.M Morse
 L.T.Brock
 

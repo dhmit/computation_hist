@@ -2,7 +2,7 @@ COMMITTEE ON MACHINE METHODS OF COMPUTATION
 Minutes of the Fourth Meeting
 February 15, 1955
 
-Persons Present: S. H. Caldwell, S., D. Drell,
+Persons Present: S. H. Caldwell, S, D. Drell,
 F. B. Hildebrand, W. K. Linvill,
 P. M. Morse, J. D. Porter,
 B. Rankin, G. B. Thomas, Jr.
@@ -13,7 +13,7 @@ mended Mr. Norman K. Glendenning for a Machine assistantship for
 next year and recommended Mr. Gerald M. Weinberg as a possible
 second appointment,subject to consulting Mr. Weinberg as to his
 interest. The Committee approved these recommendations. Morse
-said he would check with the advisers of Johnson, Ling, Troost
+sald he would check with the advisers of Johnson, Ling, Troost
 and Vozoff to see how many of these were to be continued for
 next year. It was estimated that three or four of the seven
 in the Physics Department, at present, would leave by next Septem-
@@ -32,7 +32,7 @@ The next meeting of the Committee will be at 2:00 p.m.
 on Thursday, March third. Recommendation of Departments for
 appointments for next year will be considered.
 
-\
+Neves
 Phi%i . Morse
 
 Chairman

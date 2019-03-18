@@ -4,7 +4,7 @@ January 18, 1957
 
 Mr. P. V. Cusick
 Room 4-110
-HN, 3. T.
+M. I. T.
 
 Dear Paul:
 
@@ -16,7 +16,7 @@ IBM has agred to bear all of these costs, we are not too concerned. An
 examination of the contract with IBM indicates that they would furnish the
 equipment in the following areas:
 
-la. NE university-IBM Research Assistants Room 158, 157
+la. NE university-IBM Research Assistants Room 188, 157
 
 1b. MIT-IBM Research Assistants Room 161, 163, 165, 167, 169
 2. IBM Institutional Representative Room 147, 151
@@ -25,7 +25,7 @@ la. NE university-IBM Research Assistants Room 158, 157
 
 4. 704 Schedule and Dispatch Area Room 148, 150
 
-8S. 704 Reception Area Room 152
+85. 704 Reception Area Room 152
 
 6. Dark Room Room ©GHA
 
@@ -39,10 +39,10 @@ Headquarters and a few other areas might be serviced by IBM for compatibility
 reasons -- from the aesthetic office appearance viewpoint. Prof. Morse and
 I thought that we might consider asking IBM to furnish the entire first floor
 in addition to their commitments to furnish the Dark Room and EAM area in the
-basement.
+basement,
 
 
-Mr. P. V, Cusick B=
+Mr. P. Vv, Cusick B=
 
  
 
@@ -60,11 +60,11 @@ NE University-IBM Assistants $1265.40
 MIT-I0M Research Assistants 1411.80
 Institutional Representative 732.10
 704 Machine Operator 343.50
-704 Schedule and Dispatch Areas 997.55
+704 Schedule and Dispatch Area 997.55
 704 Reception Area 452.85
 
 IBM Customer Bngineering
-7604 Calculator Room
+704 Calculator Room
 
 794 Programmers
 Computation Center Headquarters
@@ -74,25 +74,25 @@ Conference Room
 
 TOTAL $5263.20
 
-SECOND FLOOR
+SRCOND FLCOR
 MIT Research Staff
 MIT Research Staff Secretary
 704 Library and Study Room
 
 TOTAL
 
-CASEMENT
+BASEMENT
 
  
 
-Systems Experimentation Laberatory
+Systems Experimentation lLaberatory
 
-Dark Room $2500,00
+Dark Room $2500.00
 EAM Area
 
  
 
-TOTAL $2500,460
+TOTAL $2500,60
 
  
 
@@ -105,7 +105,7 @@ $1731.20
 
 189.30%
 
-$4628.39
+$4628.30
 
 $2634.05
 396.90
@@ -114,7 +114,7 @@ $2634.05
 
 $3633.05
 
-$ 957.008
+$ 957.00%
 
 $9218.35
 
@@ -134,7 +134,7 @@ with actual detailed floor plans, etc., $0 we know precisely what i$ is we are
 proposing. I would like to do this at your eardiest convenience.
 
 
-Mr. P., V, Cusick January 18, 1957
+Mr. P, ¥, Cusick January 18, 1957
 
 As soon as we agree on our decision regarding IBM’
 I would like to forward some of this material to Mr.
@@ -143,15 +143,15 @@ I would like to forward some of this material to Mr.
 that IBM may procure their portion for the MIT Comput
 
 Peyson Hunter in order
-ation Center,
+ation Center.
 
-Sincerely yours ’
+Sincerely yours 2
 
 F. BM. Verzuh
 Assistant Director
 MIT Computation Center
 
-FMV :nb J
+FMV :nb f
 Ce: P. M. Morse of
 
 

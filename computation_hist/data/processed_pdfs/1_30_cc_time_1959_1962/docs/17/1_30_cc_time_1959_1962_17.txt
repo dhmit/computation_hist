@@ -5,34 +5,34 @@ TIME RECORD
 July 25, 1960
 Hours
 Prob. No, Lab Requested by In June
-1088 oR H. Galliher 119
-1133 LHS L., Delves 49
+1088 oR H., Galliher 119
+1133 LHS L., Delves a9
 1135 RLE A, Helgesson 76
-1137 LYS UW. Turchinetgz 46
-1143 LNS A. Tubis 49
+1137 LYS HW. Turchinetsz 46
+1143 INS A. Tubis 4&9
 1146 RLE Go. Bekefi 35
 1150 LNS ¥W. Buechner 69
 1151 INS J. Linsley 79
 1153 RLE T, Higier 1
 1156 RLE P. Latour 4
-1157 LNs G. Schappert 160
+1157 LHS G. Schappert 160
 1159 RLE J. Hershfield 43
 1160 LNS C. Yang ~ Hu 12
 11681 RLE H., Woodson 11
-1162 LNS Rs Li 41
+1162 LNS R. Li 4&1
 TIME DISTRIBUTION
-Laboratory RLE LHS ss oR
-Hours Employed 528 264 0: “gg
+Laboratory RLE LHS Ss oR
+Hours Employed 528 264 og ss
 Hours Used
 Computing 170 205 0 119
 Overhead 35 35 0 3
-Sick Leave 0 0 0 Oo
+Sick Leave 0 4) 0 Oo
 Vacation 8 0 0 0
 Classes 0 0 0 0
 Total 213 540 0 127
 Hours lot Used 315
 Hours Overdrawn 276
-Cumulative Hours Not Used 454 1265
+Cumulative Hours Not Used 654 1265
 
 Cumulative Hours Overdrawn 233 1486
 
@@ -41,48 +41,48 @@ Total
 
 oe
 | ®
-LV
+od
 
 tori
 
 a om oy
 wt & 55
 
-7
+T
 Lab
 i
 
 DY
-——— —— nl
-a ——
+ec ——— tl
+ ——
 
 Use
 
--~
+-
 3
 
-IOUT
+OLY
 
-iC ur 9
-Swe woe
+iC ur y)
+TT were
 
-—_
+_—hee
 
-Pai
+Pei
 As
-rr
+rm
 
-=)
+—
 
-oe
+For——"
 
 I
 
 ours
 
-TL ——
+TENTATI
 
--~
+~
 
 4
 .
@@ -91,7 +91,7 @@ r
 
 ™1Y
 -
-RE So ang
+an —
 
 ry
 El
@@ -102,72 +102,72 @@ QQ
 Od
 
 m
-7
+WY
 
 Oh
 
 ri
 
-18 <
+FY -
 “3? CJ
 
-Nd
+oN
 or"
 
-Alo
+a
 ,
-¥
+3
 
-Dn “~~
+Dn ay”
 i
 
-—
+_
 
-by
+k
 
 P
-“w
+n
 -
 
 pC
-s.
-we
-IN “'
+S
+We
+LN “'
 
 ¢
 
-oN
+ao
 
 co
-oO
+CO
 
 )
 |
 
-0f i
-“ok
+3 4 ;
+“ol
 
 QO
 
 r= {
 
-el Poy
-if =~
-— Say
+1 ey
+{I =
+— ay
 
 «wy
 
-oN
+od
 
 J
 
 Ve
-p>
+al
 "5
-el
+beet
 
 (Sr
-ps
+ts
 
 1
 
@@ -177,17 +177,17 @@ tN
 
 6,0
 
-j-—
+4
 od
 ey
 
-— —
-a d
-ya “ud
+4 pd
+= d
+ya A
 ry 5
 
-P=
+”~
 
-— ~
+_— -
 
 

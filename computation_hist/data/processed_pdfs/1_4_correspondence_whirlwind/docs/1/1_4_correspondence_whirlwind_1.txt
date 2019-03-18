@@ -1,6 +1,6 @@
-Iv
-f i acl
-| .
+vr
+i in sacl
+i
 
 Date of
 Request
@@ -10,7 +10,7 @@ Request
 29 0 5h
 1NS54
 
-1N54
+1K 54
 
 8 N 54
 10 N 54
@@ -39,11 +39,11 @@ Mech.Eng.
 Endorsed
 By
 
-P.M Hurley
+P.M. Hurley
 Geol. &
 Geophysics
 
-Jd. Kaye
+J. Kaye
 Mech.Eng.
 
 J. H.Laning Jr same
@@ -69,16 +69,16 @@ J. Stark Servo response to z ccsine pulse
 
 Instrument.Lab.
 
-G. Koster J.C.Slater Tight Binding @éalculations in crystals
+G. Koster J.C.Slater Tight Binding @alculations in crystals
 
 SS&HT Physics
 
 M. Saffren J.C.Slater An augmehfied plane wave method as applied to sodium
-SS&MT gl
+SS&MT :
 
 A, Meckler J.C.8later Study of the ammonia molecule
 
-SS&MT /
+SS&MT :
 
 A. Meckler J.C.Slater Electron lattice interaction in solids
 
@@ -94,12 +94,12 @@ XY, Shulman R.L.Bisplinghoff Helicopter rotor stability
 
 Aero-elastic Aero. Eng.
 
-Lab;
+Lab,
 
 B.Campbell F.J.Eppling Determination of phase shifts from experimental cross-
 Lab for Nuclear Science sections
 
-T.P.Goodman J.B.Reswick Industrial process control studies
+T.P.Coodman J.B.Reswick Industrial process control studies
 
 Mech.Eng. Mech.Eng. |
 
@@ -126,7 +126,7 @@ Nos.
 199
 108
 211
-i
+2)
 194
 201 -
 205 |
@@ -176,7 +176,7 @@ Allotted
 
 15 hours:
 
-5 hours.
+5 hours:
 
 55 hours
 
@@ -196,7 +196,7 @@ Allotted
 Credit Allowance continued
 
 23 N 54 A. Tubis P.M.Morse Variation-perturbation of atomic wave function and energies 217 30 min 30 min
-CMMC Physics :
+CMMC Physics
 29 N 54 A.T.Ling S.H.Crandall Evaluation of explicit and implicit difference formulas for 228 1 hour 1 hour
 
 CMMC Mech. Eng. the diffusion equation

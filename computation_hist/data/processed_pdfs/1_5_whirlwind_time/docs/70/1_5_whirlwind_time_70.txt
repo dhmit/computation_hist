@@ -9,11 +9,11 @@ CAMBRIDGE 39. MASSACHUSETTS
 
 GORDON S. BROWN, FACULTY ADVISOR
 
-JAY W. FORRESTER. DIRECTOR ; April 5, 1958 TELEPHONE ELIOT 4-3311
+JAY W. FORRESTER. DIRECTOR April 5, 1958 TELEPHONE ELIOT 4-3311
 
 ROBERT R. EVERETT, ASSOCIATE DIRECTOR
 
-i D. 1. C.- 6345
+: D. 1. C.- 6345
 HARRIS FAHNESTOCK, EXECUTIVE OFFICER :
 
 lr, Haig Parechanian
@@ -25,7 +25,7 @@ Dear Sir:
 I have been authorized to credit your account with
 three-quarters of an hour of machine time on the Whirlwind com-
 puter for work on problem #3588, which investigates the vertical
-tail load in en airplane during = rolling pull-out maneuver,
+tail load in en airplane during = rolling pull-out maneuver.
 
  
 
@@ -43,8 +43,8 @@ Sincerely yours,
 7, ¥, Verzuh
 FilVin
 ce: L., T, Brock
-Pr, i, ¥orse
+Pr, i, dorse
 
-BE, E, Larrabee
+BE. E, Larrabee
 
 

@@ -7,14 +7,14 @@ Problem No. Laboratory
 858 RLE
 888 CS
 897 LNS
-205 LNS
+°05 LNS
 206 RLE
 910 RLE
 011 AL
 912 LNS
 913 RLE
 914 RLE
-915 ~~ CMM
+91S ~~ CMM
 Laboratory
 
 Hours Employed
@@ -90,17 +90,17 @@ July to date
 215 254
 2 146
 77 125
-25 184
+29 184
 163 218
 64 79
-Td, 119
+72 119
 o 43
-4 i
+4 &
 6 6
 LNS Cs CMM
 484 84 168
 239 348 132
-31 3 16
+31 4 16
 6 7 8
 40 10 10
 0 0 0
@@ -108,7 +108,7 @@ LNS Cs CMM
 168 2
 282
 1159
-$598 88
+598 88
 
 Elizabeth Campbell
 

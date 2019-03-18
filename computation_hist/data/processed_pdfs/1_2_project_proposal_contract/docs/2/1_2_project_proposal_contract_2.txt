@@ -1,53 +1,53 @@
-~~ MASSACHUSETTS INSTITUTE OF. TECHNOLOGY
+~~ MASBACHUSEITS INSTITUTE OF. TECHNOLOGY
 Department of Physics
 
-a xk 5 f - ) , % : =
-MEMORANDUM :
-- : . § ¥ - » 3 : x3 5 i i i — 3 = =
+NRE 3 =f f - ) . 1 =
+MEMORANDUM ;
+- 3 . A bY, - » 3 : x 3 i : — 3 . -
 
 Tos N, M, Bage
 
-Froms Prof. Philip M. Morse Blues Dates 2/20/51
+Froms Prof. Philip M. Morse ate L bates 2/20/51
 
-Bubjacty Proposal for Research Sid Shade Project in Applied
+Subject: Proposal for Research sid rata: Project in Applied
 
 Mathematics, using large-scale Computing Equipment,
 particularly Whirlwind,
 
-Whirling Project has now Tanti a stage of : development
+Whirling Project has now reagtiod a stage of : development
 where its potentialities can be utilized, together with the other
-computing equipment at Technology, in a Goordinated research and
+computing equipment at Technology, in a Coordinated research and
 training program, of the sort anticipated by ORR during its
-several years of support of the Project, Beth the Institute and
-the Navy are vitally interested in the use of large-scale com=
+several years of support of the Project. Beth the Institute and
+the Navy are vitally interested in the use of large-scale com-
 puting devices for the solution of scientific and engineering
-problems, and far the promotion of training for students inter-
-ested in this field,
+problems, and for the promotion of training for students inter-
+ested in this Field.
 
 Of course a part of the time of Whirlwind will be used
-for the solution of a special Air Force problem, and it is exw
-pected that the Air Force will contribute an appreciable part of
+for the solution of a special Air Force problem, and it is ex-
+pected that the Alr Force will contribute an appreciable part of
 the support of the Whirlwind Project, for the development of
-equipment and methods for the solution of this problem, Neverthe-
+equipment and methods for the solution of this problem, HNeverthe-
 less, approximately half the working time of the maehine itself
 will be available for the fundamental program, mentioned above and
 
 outlined below.
 
 
--d-
+--
 
  
 
-Since 4 research and training Program must be closely
-Siihai A pr aculty activities, it is proposed ‘that ww 1,
+Since 4 research and training program must be closely
+aad pa aculty activities, it is proposed ‘that ws 1,
 
-“pb i BAAN
+ao i CAN
 en by the recently ereated Senter for
 
-sSupervisio
-Machine aie The interdepartmental Advisory Committee to
-this Center provides a broad representation of various xientifioc,
+Supervisio
+Machine Tie The interdepartmental Advisory Committee to
+this Center provides a broad representation of various xientific,
 engineering and training activities likely to be involved,
 The program which ONR might wish to support can be divided
 
@@ -55,35 +55,35 @@ into four sections: |
 
 1. Research in methods of numerical analysis and the formu~
 lation of scientific problems for machine solution, together with
-support of training of students in these methods,
+Support of training of students in these methods,
 
-2s Support of the scientific and engineering applications
+2s Support of the seientificz and engineering applications
 group previously referred to with Project Whirlwind so as to make
 the WW computer useful and available for the above research, and
-aid to the Feseara being carried on by MIT fagulty and students,
+aid to the research being carried on by MIT fagulty and students,
 
-3« A partial support of the maintenance of the WW computer,
+3« A partial support of the maintenance of the Wh computer,
 
 4« Research on an investigation of digital computing machine
 
-components,
+components.
 
-It 1s understood that details of the program, which is
-necessarily evolutionary in character, will be worked out from
+It 1s understood that details of the Program, which is
+negessarily evolutionary in character, will be worked out from
 
-time to time with the oclentific Officer of the OER,
+time to time with the oclentific Officer of the OER.
 
-It 1s contemplated that $300,000 per annum for a period
+It is contemplated that $300,000 per annum for a period
 of at least two years will be required to get this program under
 way. Detail of the budget is as followss
 
 
-“3e
+e
 
 7 $100,000 :
-pd
-me
 
-50,000 kd
+Lr 210990
+mee
+50,000 =
 
 

@@ -10,7 +10,7 @@ Cambridge 39, Mass.
 
 Gentlemen:
 
-The Institute of Mathematical Statistics hag established a subcommittee
+The Institute of Mathematical Statistics has established a subcommittee
 to determine the availability of free machine time in order to carry out
 computations of mathematical tables. A function of this subcommittee is
 to determine where this time is available, how much time is available,

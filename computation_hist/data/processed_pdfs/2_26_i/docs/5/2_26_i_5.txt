@@ -1,5 +1,5 @@
-I U val
-/ vi ~~
+I U 3 vu
+/ Vi {d—"
 
  
 
@@ -10,7 +10,7 @@ Mr, Jean A, Mussard
 Executive Secretary
 
 Provisional International Computation Centre
-Palazzo degli Uffici — The EET
+Palazzo degli Uffici — TRE re
 Zona Dell'E, U. R.,
 
 Roma, Italy
@@ -29,7 +29,7 @@ and as to the activities related to this program,
 
 Sincerely,
 
-Philip M, Morse
+Philip M., Morse
 Director
 
 PMM/bt |

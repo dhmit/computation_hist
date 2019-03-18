@@ -1,75 +1,75 @@
-- GORDON S. BROWN. FACULTY ADVISOR + rE NEE
-CC UAY W. FORRESTER. DIRECTOR. Sime Rad oe 0 SSIS ATER ap SRR Pa et 2 {JRO A Tecerrone ELioT 42-3311 7 St
+- GORDON S. BROWN. FACULTY ADVISOR + : Cy NE
+CC USAY W. FORRESTER. DIRECTOR. mn eR vn RRR ASE ane AG ae Lt 2 A TecerronE ELioT 42-3311 2 SE
 
-So otf TREY IRE 2 Ov WW Wei. + FF (LTE JY Wah Tap  w = 3 -— -—
-Fa, mi al. ae Joy” Rat Bern = x = —.
-o¥ Sores P f< - . - - ” ” 5 ~ rhe
+hor atl TRY ae We WP Fhe. oF lh aT, ab Tal Cw —~ » — _
+ol mL a. nt SDR aT » Hain = ¥ = —.
+o¥ oF fa - . - - . ” . ~ ry
 
-§ FETT - ) - A § .
+§ Serr -r i - Fe LN § :
 
-2 Gage 7 Ty mu wr V
+: “3 Si Fon ol V
 
-. ~ « 2
+. ~ - »
 
-re" ets 5 Ten’ + &~ = - A
+ire —_— 5 Ta - Pp = - 3
 
-Sd ns df i : :
+Sr wis J a 3 :
 
-~ : . . ~~. RC ,
+- : * . rw ee .
 
-= $ E- oe pm 5 =
+) . - we we k ee
 
-“ = + a peas a
-3 oN Ce 2 v
+= - on a a
+it oN ry & 2 v
 
-3 i 2 Ws. vw. 2 E 2 . 20 . vA “ - -
-2 $ave 0 04 Pea Bae =
+: i _-¥ vx > XL “ 2S . vi “og “ ¥
+> $v. . Ne Pa Ha EL
 
 MASSACHUSETTS INSTITUTE. OF TECHNOLOGY
-DEPARTMENT OF ELECTRICAL. ENGINEERING = gd : io
-~~. DIGITAL COMPUTER LABORATORY at)
-3 C21 MASSACHUSETTS AVENUE
-ie CAMBRIDGE 39, "MASSACHUSETTS
+DEPARTMENT OF ELECTRICAL. ENGINEERING ot EAS : io
+~~ DIGITAL COMPUTER LABORATORY Bs)
+: C21 MASSACHUSETTS AVENUE
+Ge CAMBRIDGE 39, "MASSACHUSETTS
 
-ROBERT R. EVERETT, ASSOCIATE DIRECTOR = 5 Soa Emig RS 2. i. = 00.35 eral iT Db. 1. C.-
+ROBERT R. EVERETT, ASSOCIATE DIRECTOR :; 5 Sahm Emi SE * 3 Blo: 00s ana 3 PE Raa Db. I. C.-
 
-Pd mm
-2 ~
+nl
+i
 
-de HARRIS EANNESTOLK, EXECUTIVE OFFICER
+3 Br HARRIS Baungsrack, EXECUTIVE OFFICER.
 
-Sry
+Sempra
 
- Wooders, New York
+ Yoodners, New York
 
 Dear ur, Abrahams: |
 
-- alge TRO peat vy BT TNS rm—
+- ag IR Cae RIT, Re ——y TE TN yr
 
-| Tour dokasi te Pushabtur Bator ot Suh 30 ns ry
-~ referred to my attention. In accordance with your request for
-~ literature on programming the IBM 704, I am enclosing a manual
+| Your letter to Professor Norse of Juss 31 Bas heen. ry
+referred to my attention. In accordance with your request for
+literature on programming the IBM 704, I am enclosing a manual
 on this machine, This 4s a typical IBM manual which provides
 basic information regarding the machine and its uge. However,
 I am certain you realige that it does not describe any of the
 ‘interpretive systems that have been developed for the 704.
 Particularly, I am referring to IBM's FORTRAN, G.E.'s CAGE,
 and United Airsraft's SAP, etc, The latter material will be
-available during the forthcoming academic year, When you
-arrive in September, you should contact me TSANG this
+available during the forthcoming academic year. When you
+arrive in September, you should contact me regarding this
 additional material,
 
-1 have checked whether your income from the assistant-
-ship is taxable from the U,8, Government, and I find that it
+I have checked whether your income from the assistant-
+ship is taxable from the U.S, Government, and I find that it
 
-‘is indeed taxable!
+is indeed taxable!
 
 Sincerely yours,
 
 ¥. M, Yerzuh
-Enc,
+Ene,
 
-FMV:mm¢
+FMV: amt
 ee P.M Morse
 
 

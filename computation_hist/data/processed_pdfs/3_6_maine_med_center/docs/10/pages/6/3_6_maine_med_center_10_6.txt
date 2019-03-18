@@ -1,12 +1,12 @@
-l.
+1.
 
-2.
+2e
 
-3.
+3e
 
-h.
+e
 
-5.
+5e
 
 6.
 
@@ -14,28 +14,27 @@ h.
 
 REFERENCES
 
-Gabor, D. & Nelson, C.V.: Determination of the resultant dipole of the
+Gabor, De. & Nelson, C.Ve.: Determination of the resultant dipole of the
 heart from measurements on the body surface.
-J. Appl. Physics _2_5, 1:13, 195).;
+Jo. Appl. Physics 25, L13, 1954
 
-Lilly, J.C.: A method of recording the moving electrical potential grad—
-,ients in the brain: the ZS-channel Bavatron
+Lilly, J.Cet A method of recording the moving electrical potential grad-
+.ients in the brain: the 25-channel Bavatron
 and electroiconograms. Conf. on Elect. Inst.
-in Nucleonics and Ned. N.Y. 19149
+in Nucleonics and Med. N.Y. 1949
 
-Goldman, S., Santelman, w., Williams, 0., and Alexander, F.:
-
+Goldman, S., Santelman, W., Williams, C., and Alexander, F.:
 The area display of the electrical activity of
-the heart. M.I.'I‘. Research Lab. of Electronics,
-Tech, Report Nb. 121, Nov. 15, 1950.
+the heart. M.I.T. Research Lab. of Electronics,
+Tech, Report Né. 121, Nov. 15, 1950.
 
-Barns, C. A low-level high speed switching system for brain mapping.
-I.F..E. Trans. on Med. Electronics, P.G.M.E.-7,
+Barus, Ce A low=level high speed switching system for brain mapping.
+I.R.Es Trans. on Med. Electronics, P.G.M.E.=T7,
 Dec. 1956
 
 Millman, J. & Puckett, T.H. Accurate linear bidirectional gates. Proc.
-I.H.E. g, 27-37, 1955
+I.R.E. Q, 27"37’ 1955
 
-Bems, K.L. & Bishop, B.E.: Twenty-channel electronic nmltiplexer. NAVOPH)
-Report 146146, NOLC Report 2403, Naval Ordnance
+Berns, K.L. & Bishop, B.E.: Twenty-channel electronic multiplexer. NAVORD
+Report L4648, NOLC Report LO3, Naval Ordnance
 Laboratory, Corona, April, 1958.

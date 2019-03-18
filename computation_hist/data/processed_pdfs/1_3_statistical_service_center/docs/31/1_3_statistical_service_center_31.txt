@@ -1,16 +1,16 @@
 CHARGE @
 
-Maehine Computation Committee
+Machine Computation Committee
 
-Att d
+Att?
 
 Prof. lorse
 
-DIC 6915
+DIC 6916
 
 January 1
 
-For services of punched-card BpIon and personnel duri
+For services of punched-card equipment and personnel duri
 through ’
 
 MACHINE CHARGE
@@ -28,7 +28,7 @@ Collator
 
 CREDIT:
 
-E450
+Beb0
 
 11,50
 
@@ -37,8 +37,8 @@ CPC Calculator
 
 LABOR CHARGE
 
-31675
-5400
+3le70
+000
 
 MATERIEL CHARGE
 
@@ -91,37 +91,37 @@ at
 OFFICE OF STATISTICAL SERVICES
 Massachusetis Institute of Technology
 
-Dates February 1.0, 1055
+Date: February 1.0, 1055
 
 Statistical Services 2935 Account
 
-19 55 _ (Probe L77=3;
+19 955 _ (Probes L773;
 
 /hr.
+jars
 /hr.
-/nr.
 
 /hr.
-Ih.
+Reb0t,
 
-RHEL HHH HRHEH
+RHEL HB HBR HEH
 
 ne
-1.38 fa
+1.38 fhe.
 /hr.
 /hr.
 /hr.
 /hr.
 
-BH AH FH
+HEH HF
 
 Plus 10%
 
 “Plus 10%
 
-LEH H LHRH HHH
+ERE H LHRH HHH
 
-21.20
+21420
 
 4,60
 
@@ -129,8 +129,8 @@ LEH H LHRH HHH
 
 iod
 
-25.85
+25085
 
-$ 3d O a 44
+$ 3d SO 9 44
 
 

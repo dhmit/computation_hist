@@ -16,7 +16,7 @@ Triple space on each side of equations.
 
 Sub-sub heads: Indent 8 spaces.
 
-Use periods for "I.B.M." and "M.I. 72."
+Use periods for “I.B.M." and "M.I.T."
 
 Top line on Line 7 of Master.
 Bottom line 58
@@ -24,9 +24,9 @@ Bottom line 58
 Left Margin
 Right margin
 
-Li an elite scale at top of Se
+i! {using elite scale at top of magoen):
 
-f. yg ;
+7 ! .
 
 Page number on Line 61 of Master, space 87 on LWH typewriter.
 
@@ -34,6 +34,6 @@ LWH typewriter: Master edge at 30, left margin 49, right at 107.
 4]
 
 Impression Indicator at 5.
-" Multiple Copy Contrel at "Cc".
+i Multiple Copy Control at "C".
 
 

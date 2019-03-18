@@ -22,7 +22,7 @@ I am one of the authors of the Pitman publication, "Faster Than
 the chapter on "Games", and I wish to include a description of the
 P work done in America in applying computers to various games. Ed
 Ward suggested that you could give me some information about this.
-X If not, perhaps you could suggest someone else I might contact.
+Y If not, perhaps you could suggest someone else I might contact.
 
 I would appreciate an early reply, since 1 have to complete the
 revision by September 1, 1956.
@@ -37,6 +37,6 @@ Applications Division
 
  
 
-CEOEESY:
+CEO PRY
 
 

@@ -1,7 +1,7 @@
 7 Xe NAVAL WAR COLLEGE .
-\ QQ Ag" NEWPORT, RHODE ISLAND
+\ > Ag" NEWPORT, RHODE ISLAND
 
-Taps
+Tp
 
 Professor P.H. Morse
 Massachusetts Institute of Technology
@@ -14,7 +14,7 @@ Dear Professor Morse,
 On behalf of the group that came TO the seminar on Electronic
 Calculation from the Naval War College on Tuesday, 13 Novem-
 ber, I would 1ike to thank you and all of your assistants for
-giving us such a thorough and informative survey of the field.
+giving us such a thorough and informative survey of the field,
 I feel that all of us are better prepared now to think about
 applying computers in the places they can be useful to the
 Navy. This is the objective we had in mind.

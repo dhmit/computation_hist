@@ -1,6 +1,6 @@
-{
+A
 
-EMM; JTN
+BMM; JTN
 
 ‘October 16, 1956
 
@@ -14,11 +14,11 @@ Dear Mr. Moore:
 ; I would be glad to see you when you
 are near Cambridge. Wednesday mornings or
 Thursday afternoons are usually best, though it
-would be best to check a week in advange,
+would be best to check a week in advance,
 
 Very truly yours,
 
-Philip M. Morse, Director
+Philip M, Morse, Director
 M.I.T. Computation Center
 
 

@@ -5,8 +5,8 @@ Academic Year '52-153
 
  
 
-Persons Present: C. W. Aaams, S. H. Caldwell, H. Feshback,
-J. W. Forrester, C. C. Lin, P. M. Morse,
+Persons Present: C. W. Acams, S. H. Caldwell, H. Feshback,
+J. W. Forrester, C. C. Lin; P. M. Morse,
 F's Verzuh
 
 The meeting was almost completely devoted to a discussion
@@ -27,7 +27,7 @@ numerical analysis. It was suggested that Professor Hildebrand
 
 Two other possibilities were sessions on analogue com-
 putors (perhaps run by Seifert) and one on punched cards (perhaps
-run by Verzuh.)
+run by Verzuh.,)
 
 Morse announced that he was writing to the departments, |
 in which the machine computation assistants are at present working,
@@ -41,13 +41,13 @@ of the Committee.
 
 Next meeting will be at 3:00 P.M. on Wednesday, March 4.
 
-RE
+Tee
 
-TSO W
+TSE W
 
-—g= MNase
+= MNase
 
-Phitsp M. Morse Bm—
+Philip M. Morse eg
 Chairman
 
 & PMM: rm

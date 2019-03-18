@@ -1,16 +1,16 @@
-OTE
+OJ 2
 | ember 21, 1952
 
-To: Prof, R, E,. Scott
-From: F, M, Verzuh
+To: Prof. R, E. Scott
+From: F. M, Verzuh
 
 Subject: Proposed Undergraduate Subject on Computation
 
 I
-SEE See TEEN EEE See SRR ER Gee BRR GR ees ee ER WERE RR WE WW — Wn — mn wp Wm W— WO A Wow —_— Wy ————— —
+EE ees TEEN EE mee GRR ER eer SR AR ee Ae TERR TEER SRE RRR Se RE GRE Wee eee ee SR es see Gee SR A SE eee ee eee ee eee EE ae ee ee. See a
 
 | At the recent meeting on November 19, attended by
-C. Ww. Adems, R, E. Scott and F. M. Verzuh, it was decided ]
+C. W. Adems, R, E. Scott and F. M. Verzuh, it was decided g
 
 that each of us would submit a brief description of the
 
@@ -21,9 +21,9 @@ that each of us would submit a brief description of the
 
 /
 CC 3 frof. P, M, Morse
-Prof. G, SS, Brown
+Prof. G. SS. Brown
 
-| | Fo M. V.
+| Fo M. V.
 |
 
 
@@ -89,7 +89,7 @@ Sorter: Card counting, numeric and alphabetic sorting.
 
  
 
-Collator: Matching, merging, selection and comparison,
+Collator: Matching, merging, selection and comparison.
 
  
 
@@ -115,7 +115,7 @@ Tabulator: Listing, group indication, printing, addi-
 tion, subtraction, selection and automatic
 contrel,
 
-Calculators: +, =, x, +, programming, selection,
+Calculators: +, =, x, =, programming, selection,
 shifting operations by scltion of the same
 problem on each of the 602A, 604 and Card-
 

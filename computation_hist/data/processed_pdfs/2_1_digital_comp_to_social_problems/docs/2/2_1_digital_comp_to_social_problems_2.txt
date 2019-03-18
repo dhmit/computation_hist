@@ -1,6 +1,6 @@
 The Application of Digital Computers
 
-———— ——— ne a li en a ee. = ee ee A ——
+—— | —————— i orn tt — a — a ————  ———————
 
 Opportunities and Needs
 
@@ -9,7 +9,7 @@ front in the development of computing equipment and in developing
 ways whereby this equipment ean help solve problems in a wilde
 variety of fields. In the mid-30's Vannevar Bush bullt here the |
 first differential analyzer and several faculty members, in various
-departments, used it to solve problems in engineering, mathematics,
+departments, used 1t to solve problems in engineering, mathematlcs,
 and physics, which could not otherwise be solved. In the past
 
 four years Whirlwind I, one of the first truly high-speed digltal .
@@ -29,36 +29,36 @@ will be enlarged and reorganized into a Computation Center, to be
 devoted entirely to unclassified scientific research and education.
 I.B.M. is donating one of its new TO4 computers with double the
 usual storage units and with appropriate auxiliary equipment, and
-will provide for the maintenance of the equipment; the Center will
+will provide for the maintenance of the equipment; the Center willl
 be housed in the new K. T. Compton Laboratory Building according
 to agreement with I.B.M,, the equipment will be used ten hours a
 day (on the "midnight shift") by I.B.M., will be available up to
 seven hours a day to faculty members from other colleges in New
 England and the remainder of the time (seven plus hours) will be
-available for use by students and staff of M.I.T. for basic re-
+available for use by students and staff of M.I.T. for basic re=-
 search. The programming research staff, at present working with
 Whirlwind, will be transferred to the Center, to serve as a nucleus
 for planning machine use and for developing new techniques of
 machine application.
 
 Nature of the Research - Exploitation to the full of the potentl-
-alities of a new piece of equipment can most effectively be accom-
+alities of a new piece of equipment can most effectively be acconm-
 plished by an advance on two fronts: the solving of speclfic problems
 and the development of techniques. In the case of computing machines,
 regearch workers in many fields should learn machine programming
 techniques and then proceed to use the machine to help them solve
 their own problems. In many cases they can develop the programs
 
-they will need for their work, but in some crucial cases they will
-need the help of those persons interested primarily in machine
-operation, who are interested more in developing machine techniques
+they will need for thelr work, but in some crucial cases they will
+need the help of those persons interested primarlly in machine
+operation, who are interested wore in developing machine techniques
 than in solving individual problems,
 
 This division of labor has been necessary in many other
-scientific advances. The recent great progress In nuclear physics
+scientific advances. The recent great progress in nuclear physics
 
 
-=D
+De
 
 has come as well from the men interested in experimental techniques,
 who spend thelr time trying to get more out of the cyclotrons they
@@ -100,7 +100,7 @@ the machine by workers in the physical sciences.
 expressed in mathematical terms and how much of it can be carried
 out by the machine itself.
 
-5. Development of input equipment and techniques which
+3. Development of input equipment and techniques which
 can connect the machine directly to the experiment, and output
 equipment which can display results in a more concise and under-
 standable form.
@@ -108,7 +108,7 @@ standable form.
 In this way the Computation Center can cooperate in an
 active way with the various groups, at M.I.T. and at other New
 England colleges, which are carrying on research in the physical
-sciences.
+sclences.
 
 
 -3-
@@ -116,8 +116,8 @@ sciences.
  
 
 Need for Parallel Development in the Social Sciences - The work
-we have proposed for support by NSF and ONR is to be primarily for
-applications in the physical sciences, But the potentialities of
+we have proposed for support by NSF and ONR 1s to be primarily for
+applications in the physical sciences. But the potentialities of
 machine computers in the social sciences and in operations research
 has equal or greater promise, In economics, in management problems,
 in some aspects of psychology and in other fields, the data is
@@ -131,14 +131,14 @@ Investigated very completely, it is already clear that they will
 often differ considerably from those devised for the physical
 sciences and should be investigated separately, in close collabora-
 tion with specialists in the social sciences. The grants requested
-| of NSF and ONR will not support the detailed theoretical study and
+: of NSF and ONR will not support the detailed theoretical study and
 ~ special equipment development Which this research will require,
 
 It is, therefore, appropriate and desirable that a re- :
 quest be made for a separate grant for the development of machine |
-techniques useful for these flelds. We now have, at M.I.T. and =
+techniques useful for these flelds. We now have, at M.I.T. and 3
 in the neighboring colleges already planning to use the Computation
-Center, a variety of specialists ln the social sciences, who would
+Center, a variety of specialists in the social sciences, who would
 
 be interested in collaborating with the staff of the Center in
 developing such techniques. Funds for the support of specific
@@ -147,7 +147,7 @@ granted separately. But there is need to support the work of the
 Center's staff in devising new techniques, 1n adapting known tech-
 niques to new fields and in helping social scientists effectively
 
-to utilize digital computers in their studies.
+to utilize digital computers in thelr studies.
 
 Possible Directions for Research - It is not possible at present
 
@@ -160,10 +160,10 @@ computation in the general field of linear programming--dynamic
 programming--input-output analysis, which promises to be of con-
 siderable lmportance in economics and in operations research. The
 economics departments at both Harvard and M.I.T. are interested
-in applying such techniques to their work. Professor Crcutt at
+in applying such techniques to their work. Professor Orcutt at
 Harvard and Professor Sclow at M.I.T. are on Advisory Committees
 to the Computation Center and will cooperate in this work. The
-computations are quite difficult for present equipment but it
+computations are quite difficult for present equipment but 1¢
 appears likely that new programs, planned to utilize the conslderably
 greater high-speed storage of the new machine, can greatly improve
 the speed of solution. It is likely that fundamental improvements
@@ -171,30 +171,30 @@ in techniques of solution of these problems will alsc prove valuable
 
 
 =
-3 >
+. bg
 
-i oe
-rr RE ye
-a ay aX
+Ee. 3 i
+re RE i,
+Aa
 
-IS
-»
+-
+a”
 
-Se p a he Be iy
-hg TER an yo — -
-po a a =  ——
-oe IIRC Th
-a > % ‘ - Cy
-aT . Baie BES
-fae
-ol
+—— = ss eA Re iy
+| id Sag oe i Fo. -
+- a a = a
+artes PIN mE all IE
+oa "oo > h - hh
+aT - De Big
+pr
+.
 
-oh
-> RE
-lg
+N.
+so yy
+- wf
 Soe
 
-le.
+ole
 
 in devising algorithms for the solution of problems of game
 theory, also of potential importance in these areas.
@@ -207,7 +207,7 @@ ment. As 1t develops, it will need the help of machine programming
 specialists and will need the use of a machine to test its ideas.
 The translation project is already supported by the Rockefeller
 Foundation, but parallel work by the Computation Center on tech-
-niques for rapid access to large-quantity data would help this work
+niques for rapid access to large-~-quantity data would help this work
 as well as others. For example, a study of the use and operation
 of the M.I.T. libraries was begun last year. At present, the study
 ig concerned with the ways the library is being used at present,
@@ -231,7 +231,7 @@ simulate certain operational situations and thus to provide data
 rapidly and under controlled conditions. For example, automobile
 traffic distributes itself through the streets of a town according
 to some minimization principle, on the average. It should be
-possible to simulate thls flow on the computer, trying different
+possible to simulate this flow on the computer, trying different
 assumptions as to the effective "street resistances" and measuring
 the resulting flow under various traffic stresses to see how closely
 the results check with measurements made in the Boston streets by
@@ -239,7 +239,7 @@ the Traffic Study Group already in operation in the Civil Engineering
 Department at M.I.T. Tactical situations in warfare are already
 being studied by "gaming techniques" at Rand and in other military
 operations research groups. JSimilar tactical problems in various
-fields of the social sciences can also be studied by simplifying
+fields of the social sciences can also be studied by simplifylng
 the situation down to some sort of "game," with more or less com-
 licated rules, which can be played by groups of investigators, to
 see what are the consequences of various strategies. If the "games"
@@ -250,11 +250,11 @@ only by the use of computing machines can the scoring be speeded
 up sufficiently so that enough games can be run through to provide
 
 
-a
+oe
 
-an over-all grasp of its properties. Such "gawing techniques"
+4n over-all grasp of its properties. Such "gawing techniques"
 
-are closely related to the experiments of Bavelam on the behavior
+are closely related to the experiments of Bavelam on the behavioy
 off task-oriented groups. The use of a properly programmed computer
 would provide such experiments with a powerful and flexible means
 of changing, controlling, and analyzing these experiments in social
@@ -264,26 +264,26 @@ psychology departments in several other colleges.
 
 Proposed Budget - The three general areas of study Just went ioned
 are examples of fields of research in computer techniques quite
-different from those used in the physical sclencea, but ones
+different from those used in the physical sciences, but ones
 equally Important and promising. The budget for the group to work
-in the physical sciences will run about 100,000 a year, A group
+in the physical sciences will run about 100,000 a year. A group
 of roughly equal size would be needed for the parallel work in
 
 the social sclences. The added ataff would be, in part, social
-scientists with an interest in computers and in part mathematiclanas
-and computer specialists with an Interest in sccial soclence. The
-group should work together for several yeara, An approprisie pale
-and duration would be ¥100,000 a year for five yeara,
+scientists with an interest in computers and in part mathematicians
+and computer specialists with an Interest in sccial sclence. The
+group should work together for several years, An approprisie ale
+and duration would be 100,000 a year for five yeara,
 
-This Dudget would ve administered by the Cowputation
+This Dudget would ve administered by the Computation
 Center and would be for the support of a group, working at the
-Center, investigating wachline technlguas of particular value In
+Center, investigating wachline techinlguas of particular value *n
 the social sciences, as discussed earlier in this proposal. When
 other divisions, such as the Sloan School or the Boonomioa Depart
 ment at Harvard, are able to organize research or educational
 programs which utilize these techniques in their fields, with
 separate financial support, they will find a nucleus of collabora
-tors and advisors at the Center, whlch can see that their program
+tors and advisors at the Center, which can see that their program
 does, in fact, utilize the facilities of the Center in an effective
 
 manner.

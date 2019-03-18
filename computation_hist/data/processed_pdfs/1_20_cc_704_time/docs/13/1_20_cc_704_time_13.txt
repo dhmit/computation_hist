@@ -1,6 +1,6 @@
 COPY
 
-Memorandum Tog: Professor G.S. Brown
+Memorandum Tog Professor G.S. Broun
 
  
 
@@ -15,7 +15,7 @@ PN. Wiersema is a graduate student in Professor J. Th. G. Overbeek's
 Laboratory at the University of Utrecht, working on the phenomenon of
 colloid ele¢trophoresis. The first phase of the computations will be
 completed by the end of 1956, having been programmed and coded for, and run
-offi the ARRA computer in Amsterdam, partifally under the supervision of
+offi the ARRA computer in Amsterdem, partifally under the supervision of
 A.L. Loeb. The subsequent phase of the calculations requires e machine
 considerably more sophisticated then the ARRA, and it is proposed that
 the IBM 704, to be installed at M.I.T., be applied to the problem.
@@ -29,7 +29,7 @@ available for the project. Since Wiersema does not need academic credits
 from M.I.T., a straight D.S.R. appointment would appear most logical.
 Lincoln Personnel has not offered any objection to having a foreign
 citizen on D.S.R. 7007 as long as the work is performed outside the
-Lincoln Laboratory. A.L. Loeb is very glad to supervise snd participate
+Lincoln Laboratory. A.L. Loeb is very glad to supervise end participate
 in this research, which is of great fundamental interest, and recommends
 Wiersema as a very capable and conscientious worker.
 

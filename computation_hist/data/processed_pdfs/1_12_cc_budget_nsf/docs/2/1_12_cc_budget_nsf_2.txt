@@ -1,11 +1,11 @@
 NS F
-t=
+—
 
 Name and Address of Institution: Massachusetts Institute of
-d Technology, Cambridge 39, Mass.
+: Technology, Cambridge 39, Mass.
 
 Title of Proposed Research: Research on Digital Computer Operation
-47 and Utilization--Investigation into
+2 and Utilization--Investigation into
 
 the patterns of operation of electronic digital computers and the
 methods whereby they can be used in mathematical and experimental
@@ -28,9 +28,9 @@ should be one of the mos ruitful centers for research related to
 the use of electronic computers in this country. IBM 1s contributing
 one of its 704 machines, maintained and equipped with appropriate
 auxiliary equipment. IBM and MIT are providing the bullding, part
-of the new Compton Laboratory, and MIT 1s contributing some of the
+of the new Compton Laboratory, and MIT is contributing some of the
 staff from its departments of mathematics, electrical engineering,
-physics, and industrial management. The machine will be available,
+physics, and industrial management. The machine willl be available,
 35 or more hours a week, free of machine time charge, to MIT staff
 and students for non-classified and non-routine research. MIT
 research in the Center will be coordinated by the Institute Machine
@@ -38,11 +38,11 @@ Computation Committee (see Appendix A for names).
 
 In addition, the Center will be available, up to 35 hours
 a week, on the same basis, to other colleges in New England. Already
-23 institutions have indicated their interest in participating and
+23 institutions have indicated their interest In participating and
 have appointed faculty members to be their Institutional Representa-
 tive (list of participating colleges and representatives given in
 Appendix A). These representatives will coordinate the research
-done on the machine by students and staff of thelr inatitution.
+done on the machine by students and staff of thelr institution.
 IBM 1s providing some funds for stipends for graduate students who
 wish to learn machine use by helping with some of this research.
 
@@ -69,22 +69,22 @@ in part, provide an expanding basis of knowledge of numerical
 analysis and programming techniques, which can be used by the other
 participants at the Center and will, in part, break ground in new
 flelds of mathematical logic and methods of data processing which
-will be needed in the application of digital computers to new tasks.
+wlll be needed in the application of digital computers to new tasks.
 
 Most of the senior staff for such a research group is
-already assembled at the Institute. Part of it 1s the group which
-developed Whirlwind I programming: others are in various departments
+already assembled at the Institute. Part of it 18 the group which
+developed Whirlwind 1 programming: others are in various departments
 of the Institute. From time to time, some of the staff of the
 participating colleges would join it for a semester or a year, on
 leave from their institution, to work full-time at the Center,
 
 IBM and the Institute will contribute about a half million
 dollars a year to provide the equipment, building, maintenance, and
-operating staff of the Center. Ve believe that a contribution of
+operating staff of the Center. le believe that a contribution of
 about 100,000 a year will support the activities of the central
 research group, which will energize and take the lead in the re-
 search carried on at the Computation Center by students and staff
-of MIT and the participating colleges. Ve list later ‘in this
+of MIT and the participating colleges. Ve 1ist later ‘in this
 proposal some of the specific research projects we are prepared to
 start on. Other projects will develop naturally from these and
 from the problems encountered by the other workers at the Computation
@@ -96,7 +96,7 @@ work can be started before the machine is installed. The present
 Whirlwind computing research group can be supported by the present
 ONR contract until December 1956, but a few new staff members must
 be brought in in September in order to get ready for the new machine
-installation. We estimate that a total budget of 60,000 would
+installatlon. We estimate that a total budget of 60,000 would
 suffice for the next academic year, $90,000 for 1957-58 and $100,000
 for 1958-59. Details are given later in this proposal. At the
 beginning of 1959 the program should be re-evaluated to determine
@@ -104,13 +104,13 @@ needs beyond that time.
 
 After conversations with the scientific directors and
 division chiefs of ONR and NSF, we are requesting financial support
-from both agencies, an equal share from each. Ve believe the work
+from both agencies, an 2qual share from each. We believe the work
 can be divided so that separate contracts can be written. Some of
 the proposed tasks culd be different, though some of the broader
-‘Yields of Investig cic would overlap. Ve would hope that we could
+Yields of Investig Cion would overlap. Ve would hope that we could
 
 
-=F
+=H
 
 put out a combined progress report. In some published papers,
 credit could be given to one organization alone; in others, credit
@@ -133,7 +133,7 @@ logical or business language.
 2. Development of routines capable of translating from
 algebraic notation to computer code and vice versa, including
 possibly automatic selection of numerical techniques and automatic
-error analysis. :
+error analysis. S
 
 3. Development cf numerical analytic techniques particu-
 larly suitable for use by digital computers; such as more general
@@ -141,9 +141,9 @@ expansions, truncated Chebyshev polynomials sums for simulating
 standard functions by a common block of instructions but small
 separate blocks of coefficients and cycle counters and methods of
 automatic. determination of best grid spacing, by trial plus
-Richardson extrapolation or other means. :
+Richardson extrapolation or cother means. :
 
-It, Investigation of Monte Carlo techniques for large
+i, Investigation of Monte Carlo techniques for large
 problems,
 
 5. Extension and/or improvement of present techniques
@@ -152,7 +152,7 @@ flexible control of machine operation, including possible improve-
 ments in input-output equipment.
 
 
-dR
+o_o
 
 6. Experimental analysis and control using data
 Transmitted directly between computer and experiment.
@@ -190,24 +190,24 @@ In addition to the 704, there will be 10 auxiliary punched card
 machines including card punches, collators, sorters, reproducers,
 interpreters, and the Type 407 Accounting Machine. The aggregate
 
-Dac hane rental, in excess of Z50,000 per month, will be donated by
+Nahas rental, in excess of g50,000 per month, will be donated by
 
 ~ The Type 704 EDPM unit is one of the fastest large-scale
 commercial computers available today. Since the MIT installation
-will be but one of many in the field, techniques, programs, and 53
+will be but one of many in the field, techniques, programs, and =
 numerical procedures developed for this machine will be of use to
 others having access to 704 equipment.
 
-CUITAD ER rrr A TMT I Wl lr PE SN MAG bp AOA Be Uh TD ell 4 HET, Go. TH Td BTA fw tt WE rw CALETA EDD sem oy TT WD
+Att ———EE——STSEEEES.TTSEeee eee ie ar... . r,s
 
 Personnel: Superviso and Administrative Personnel Associated with
 the Project
 
 Principal Investigator to be Professor Philip M. Morse,
-Director of the Serkan Center. He has been in contact with
+Director of the ries Center. He has been in contact with
 
 computing problems during his career in theoretical physics since
-1930, and with the use of computing equipment since the first Bush
+1930, and with the use of computing equipment since the {first Bush
 differential analyzer was available at MIT in 1936. He got his
 Ph.D. in physics at Princeton in 1929 and has been at MIT since
 1931, with occasional leaves of absence. His publications include
@@ -233,7 +233,7 @@ Programming Research Group for three years, has been head of the
 group since July 1955 and who will head the programming research
 
 
-“6
+lo
 
 group in the new Computation Center. He obtained his B.S. in
 Electrical Engineering at Michigan, spent four years doing graduate
@@ -248,7 +248,7 @@ operations of the new Center, will also assist the Project. As
 Director of Statistical Services at MIT since 1946, he has been
 connected with the operation of MIT computational work since 1840.
 In this capacity he has had considerable experience with the
-utilization of various analogue computing equipment--differential
+utilizetion of various analogue computing equipment--differential
 analyzers, etc., as well as a complete line of digital machines
 ranging from the IBM Type 601 through the Type 704. He received
 a B.S. degree in Electrical Engineering from the University of
@@ -263,7 +263,7 @@ available for advice and cooperation, From time to time, 1f one
 of them can supervise a part of the Project, part of his salary may
 be charged to the Project.
 
-LTE ITD ————SRGD CA —A—————— CR EES S————————
+FULT ITD ————EIGETD WANA AR GNI WEY W——
 
 These will include some former members of the Whirlwind
 programming research group, such as Frank Helwlg and Sheldon Best,
@@ -273,7 +273,7 @@ full time, after they have finished their graduate work and relinquished
 their assistantshlps.
 
 
-~7e
+«7
 
 Budget for 1956-1957
 
@@ -290,7 +290,7 @@ Other Faculty Members
 
 Salaries of Full-time Starr
 
-3 Seniop Investigators (at 27,500)
+3 Senior Investigators (at 27,500)
 
 2 Juniop Investigators (at £6,000)
 
@@ -303,7 +303,7 @@ Total Salary
 Overhead (see note at end of budget)
 Permanent Equipment
 
-y
+?
 
 {desk Computers, Special input equipment,
 ete.)
@@ -320,7 +320,7 @@ Total Yearly Budget
 
 g 2,000
 
-5,500
+2,500
 
 22,500
 12,000
@@ -333,17 +333,17 @@ g 2,000
 1,000
 2,000
 
-1,000
+21,000
 $80, 000
 
 e)
 
 
-25
+<3.
 
 Since the staff wi
 being transferred from other projects between July and December
-SE expenditures for the first year 1956-1957 will be about
+395°: expenditures for the first year 1956-1957 will be about
 3/% of the above yearly estimate, $60,000.
 
 One half of this contributed by NSF 30,000
@@ -373,7 +373,7 @@ Prof. Herman Feshbach
 
 Dr. Jay W. Forrester
 
-Prof. Francis B. Hildebrand
+Prof’. Francis B. Hildebrand
 Prof. Chia-Chiao Lin
 
 Prof. James B. Reswick
@@ -394,7 +394,7 @@ PARTICIPATING UNIVERSITIES AND INSTITUTE REPRESENTATIVES
 Bates College, Prof. Karl S.
 Bennington College,
 
-Boston College, Rev.
+Boaton College, Rev.
 Boston University, Dean
 Bowdoin College, Prof
 Brandeis University,
@@ -454,7 +454,7 @@ Univ. of Mass., Prof. John H. Karlson, Dept. of Elec.
 
 Univ. of N. H., Prof. Robert B. Davis, Dept. of Mathematics
 
-Univ. of E 5 a] reo a3ad SLO en B asad ——
+Univ. of BE . a] SENATE SLES hen Bo tala TRS
 Univ. of Vermont, Prof. Ivan R. Hershner, Chalrman, Dept. of Math.
 
 Wellesley College,
@@ -475,6 +475,6 @@ Chairman, Dept. of Math.
 . Cobb, Dept. of Math.
 Dept. of Astronomy
 
-Tey He fk bop? 7 hac. fom,
+rey he di, bp? J hac. for,
 
 

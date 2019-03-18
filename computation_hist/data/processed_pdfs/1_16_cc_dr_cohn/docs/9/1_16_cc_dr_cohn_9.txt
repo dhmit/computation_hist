@@ -3,7 +3,7 @@ THROUGH MODULAR FUNCTIONS
 
  
 
-By HarvEy CoHN
+By HaArvEYy CoHN
 
 ANNALS OF MATHEMATICS
 Vol. 61, No. 1, January, 1955
@@ -21,9 +21,9 @@ HARVEY COHN
 The author considers # a sub-group of the modular group of genus one
 corresponding to a fundamental “parallelogram” with rational vertices in the
 upper half-plane. Such a group .# of linear transformations is actually deter-
-mined to within similarity. If 4 and B are “generating” substitutions, (identi-
-fying opposite sides), then A BA—1B~! is equivalent to the substitution z’= 2-4-6
-and the fixed-point of 4, are roots of Markoff’s minimal forms. This can be
+mined to within similarity. If 4 and B are “‘generating’’ substitutions, (identi-
+fying opposite sides), then A BA—-1B~! is equivalent to the substitution 2’=2-4-6
+and the fixed-point of A, are roots of Markoff’s minimal forms. This can be
 shown by combining identities of Frobenius, (Uber die Markoff Zahlen, Preuss.
 Akad. Wiss. Sitzungsberichte, (1913), pp. 458—487), with identities of Fricke,
 (Uber die Theorie der automorphen Modulgruppen, Nach. Ges. Wiss. Gottingen,
@@ -33,27 +33,27 @@ with a minimum close to one-sixth (rather than one-third) of the discriminant.
 The matrices in # taken by themselves are of some interest since every
 denominator in the modular group must occur in the corresponding linear
 fractional substitution. Sample generators of # are 2’ = (z + 1)/(z + 2),
-z= (z—1)/(—=z + 2), 2 = (32— 1)/2, etc. The fundamental domain can be
+z= (z—1)/(—=z + 2), 2 = (32 — 1)/2, etc. The fundamental domain can be
 described in invariant fashion by the period parallelogram of the #-plane for
 
-T() = [4] = 430) + 1.
+T() = [40] = 430) + 1.
 (See forthcoming paper in Trans. Amer. Math. Soc. Research sponsored
 
 by the U. S. Army Office of Ordnance Research under contract DA-20-018-
 ORD-12332).
 
 DEPARTMENT OF MATHEMATICS,
-WAYNE UNIVERSITY DETROIT, MIicH. U. S. A.
+WAYNE UNIVERSITY DETROIT, MIcH. U. S. A.
 
 
-ap
+iH
 
 \
-4 ty
+4 ne
 vas
 JAG ah
 v
-“ty a TA TAA ed
+uty ry YA Tate
 .
 
  
@@ -77,7 +77,7 @@ By Harvey Conn!
 
 1. Introduction
 
-In 1879, Markoff 7, 3° derived, by means of continued fractions, an infinite
+In 1879, Markoff (7, 3° derived, by means of continued fractions, an infinite
 sequence of integral indefinite binary quadratic forms whose minima are greater
 in absolute value than one-third the square root of the discriminant. The method
 of continued fractions provides probably the most direct approach and was
@@ -88,7 +88,7 @@ veloped [6]. Nevertheless, a parallel development was started by Frobenius
 fundamental domains of genus one in the upper half plane. In setting up group
 generators, Fricke had made use of identities of the type:
 
-(1.1) S(A4) + &(B)’ + S(4B)’ = &(4)S(B)S(AB) + S(ABA'B™") + 2
+(1.1) S(A) + &(B)’ + S(4B)’ = S(4)S(B)S(AB) + S(ABA'B™") + 2
 and
 (1.2) S(BAB) + &(4) = S(B)S(AB),
 
@@ -110,10 +110,10 @@ We start with a fundamental domain of genus one in the z-plane belonging to
 some group G with a specific representation in r sal unimodular linear substitu-
 tion matrices, denoted as follows:
 
-a; ar bu br
-A= 5 B = etc,
-(2.1) az 2 bn ba
-ay Ape — Qr2Q2 = 1, bir be — bab = 1, ete.
+a; are : bu br
+A= ; B = , eteC.,
+(2.1) az AQ bn ba
+ay Qos — Qrzaz = 1, bir bas — bab = 1, ete.
 
  
 
@@ -134,49 +134,49 @@ HN
 HARVEY CO
 MARKOFF’S MINIMAL FORMS 3
 
-; : Je) is a linear-fractional substitutigy, ed : ed)
-half z- Jp? RAR ts ADELA we shall show 7 ‘koff’ 3
-A = (oz T+ ap)/ (nz + ax). fo en of certain generating matrices v dng Lo
-| LP). The fixe d-point(s) for the sub. ! 1t10na oa of analogous forms whose minimal properties are best estab-
-LBA ritten SimbY t(s) of the equation z = 2° ished, not by continued fractions, but by this new method.
-s defined as the je i 478] we take as our funda.
+ve) is a linear-fractional substitutigy, dh : do
+half z- pate? MRE =). in Tar we shall show r ‘koff’ 3
+A = (onz + ap)/ (nz + ax). fay HN pis of certain generating matrices b a SW
+| LP). The fixe d-point(s) for the sub. : We 110na aan of analogous forms whose minimal properties are best estab-
+LB ritten AY t(s) of the equation z = 2° ished, not by continued fractions, but by this new method.
+s defined as the oo 478] we take as our funda.
 
 Associated W
 preserving the uppel
 
 (2.2)
 
-ANB)
-(Note that i=
+ANE
+(Note that CE) =
 
 X 1
 
-a . * tr
-stitution or the ma ished metho J, To I. REPRESENTATION OF THE Group
-According to a well-establish (otrvilineay) qu adrilateral whose opposite sides > GROUT
+A . . tr
+stitution or the ma ished metho ir I. REPRESENTATION OF THE Group
+According to a well-establish e ovilinean) qu adrilateral whose opposite sides > GROUT
 ental domain in the z-plane & given by matrices A and B. The four 4. Commutator
 
-: ati hstitutions ; Fa |
-are identified by generating su mined as fixed-points of certain com. We first perform an integr
+; ati hstitutions es |
+are identified by generating Su mined as fixed-points of certain com. We first perform an integr
 
 adrilateral are deter al unimodular similarity transformation so that one
 
-iA veriseol 1 elo The sides, however, can be me = a ot 828 (rational) vertex of the quadrilateral fundamental domain goes to «, with oppo-
+iA vortiss of . eo] The sides, however, can be Te oe Se pl (rational) vertex of the quadrilateral fundamental domain goes to «, with oppo-
 mutators; (see 3 d traight lines perpendicular to the rea axis, as shown in site sides identified by the matrices 4 and B, as in Figure 1. Hence labelling all
-desics, i.e., Cree 7 5 of the fundamental domain determines the word strue- vertices, we find
-ioure 1. The geometry OF F5¥ tual matrix representation.
-i oo of the group G. What nterests us is the actua (4.1) 00 hol = Lo AB og 4
-i ; 3. Specializing assumptions Thus w is a fixed-point of the commutator BABA, and from the restriction
-Any ke the following restrictions: to integers in §3 (above) we write tentatively
-a We now make Re ntal domain are rational.
-(i) The vertices of the quadrilateral Baars (4.2) BATRA = (TL kN L
-+) All matrix elements are rational integers. : 9 : z 0 +1)"
-(1) IAs ons determine a specific matrix
+desis, Le., circle i) : of the fundamental domain determines the word strue- vertices, we find
+ioure 1. The geometry OF TH : tual matrix representation.
+A of the group G. What nterests us is the actua (4.1) 2 Co = wth pt,
+i ; 3. Specializing assumptions Thus ® is a fixed-point of the commutator BABA, and from the restriction
+an ke the following restrictions: to integers in §3 (above) we write tentatively
+a We now make pee ntal domain are rational.
+(i) The vertices of the quadrilateral ng (4.2) Bag =F *Y L
++) All matrix elements are rational integers. : or ; i 0 1/7
+(i1) aA: ons determine a specific matrix
 
-"egy how that these assumpti : : :
+pa how that these assumpti :
 In Part I we shall show t for some integer & and some choice of + sign. We immediately see that only the
 
-= manus sign can occur: For we write out the lower left-hand elements of the
+a manus sign can occur: For we write out the lower left-hand elements of the
 
  
 
@@ -184,27 +184,27 @@ In Part I we shall show t for some integer & and some choice of + sign. We immed
 
    
 
-2 matrix equation
+op matrix equation
 BA = ABL
 and we obtain
-(4.3) (baan + byas) = + (nbn + @sby)
+(4.3) (baan + bya) = + (anby + asby)
 according to the sign in L. On the other hand, from Figure 1,
-— [(baran ot basta) (a: 1b + abs ) is
-A B (4.4) 21V11 2VU21
-= A AB BA B - \
-= leo i— Foo 5) (a0 EN ms a0 2) >410.  (QUELD:
+— [(baran == basta) (a: 1b + abs i
+A B (4.4) 21V11 2V21
+ns A AB BA B ~ \
+= (wf — fe FY wh = w).> 1) QED.
 REZ
-We shall later see that k must be +6, (except in Part III). and
-pe
-5. Change of generators : {
-To gain more information about the representation of G, we select the simplest 3
-possible generators. It is more convenient at times to use a triple of generators, iid
+We shall later see that k must be +6, (except in Part III). ad
+po
+5. Change of generators 8 {
+To gain more information about the representation of G, we select the simplest he
+possible generators. It is more convenient at times to use a triple of generators, id
 (4, B, C], where A and B are the previously mentioned pair and C is defined by =
 the first of the following relations: Py
-ABC = I —-1 k 1 0 f+
-5 ; { = E = : £4
-0:1) a ke 0 5 (0 | &
-0” oo"? = oP oo” Formally speaking, the same relations (5.1) would be satisfied (identically) y
+ABC = FE -1 k : 1 0 b+
+5 { = E = : 25
+5.1) Fh Ke 0 x) (0 J 2
+0” oo = oA oo” Formally speaking, the same relations (5.1) would be satisfied (identically) ¥
 
   
  
@@ -213,19 +213,19 @@ Fie. 1. z-plane
 
  
 
-DRE IO wt A Bt aI Os A RIA TE Lh a AAAI
+RE I wrt A Ba aI es A REIT Lh oa AAAI
 
 
 -
-ho
-44a
+he
+4&4
 
 A
 ie
 . .
 
 {
-ie
+oie
 
  
 
@@ -233,43 +233,43 @@ ie
 
 HARVEY COHN
 
-: tind through the operations contained in the,
+: hiained through the operations contained in the,
 $0
 
 by the generating triple
 recursion formulas:
 
 -1 pl
-B,C = BA, AT, B]
+A,B, CP = BA, AT, B]
 
 (5.2)
-or 4 B,C" = [4,47B, BT]
+or A,B, CF =14,47B B87}
 (5.3) p of operations, $, which are better ey.
 
-dn ! generate a grou % g
+Eu l generate a grou k :
 
-The operations 3, 7 Se i of < abelian group defined in §9 (below). For the
-: . +arms of the Dasls . SA Kite sral f .
+The operations 3, > oo § of z abelian group defined in §9 (below). For the
+: . +arms of the DasIs j . ahve sral ‘
 
-plained in terms & that oo is still a vertex of the quadrilateral fundamental d,.
+plained in terms : that oo is still a vertex of the quadrilateral fundamental d,.
 
-ing, We Now huss = 2 19 RY he future, only a 1X of
+ng, we note bial == 1° R® he future, only a 1X of
 
-time bel oe bv the matrix couple [47 B®]. In the future, y a matrix of
+time bel di bv the matrix couple [47 B®]. In the future, y a matrix of
 
 main generated b)
 
-Pp - ’ ) . , - : Li
+Pp - ’ ) . 4 gy : x.
 
-: 1 ve find that the traces &(4), -..
-From the first identity of Fricke, (1.1), we find dd)
-satisfy the equation he
+: ok ve find that the traces &S(4), -..
+From the first identity of Fricke, (1.1), we finc (4),
+satisfy the equation ory
 
-9 ~ 2 (em 2 — > A © = Y 2
-5.4) &(4)* + 6B) + &(C) (A)s(B)&(C)
+9 —~ 2 (eo 2 _— > A S = Y z
+5.4) &(4): + SB) + &(C) (4)&(B)&(C)
 It easily follows that all traces are divisible by 3; thus setting ©(4) = 3a, ---
 a 43) = 3a°, ..., we obtain Markoff’s equation:
-5.5) eb e = 3abc.
+5.5) E+ 0+ & = alc.
 The individual numbers that make up a solution triple [a, b, c| are called Mark-
 off numbers. The relation (5.2) easily replaces the original triple by
 
@@ -278,21 +278,21 @@ off numbers. The relation (5.2) easily replaces the original triple by
 (5.2 bis) [a, b, c]° = [c, a, b]
 while the relation (5.3), (according to Fricke’s second identity (1.2)), replaces
 the triple by
-(5.3 bis) la, b, ¢)’ = [a, 3ab — c, b].
+(5.3 bis) la, b, ’ = [a, 3ab — c, b].
 The last two recursion formulas are known, however, [3, p. 104], to connect all
 solutions of equation (5.5) with the smallest solution [1, 1, 1], by “descent”.
 (It will be no loss to assume the traces to be positive). Hence in particular we
-can restrict the original generating triple for the group G, namely [A BCE]
+can restrict the original generating triple for the group G, namely [A B® CH)
 
 (with corresponding superscripts on the matrix elements), to one which satisfies
 the relation:
 
-(5.6) 64”) = 6B?) = &(C?®) = 3.
+(5.6) 34?) = &B?) = &(C?®) = 3.
 
 6. Determination of the representation
 
 From equation (5.1), we wish to satisfy the relation:
-(6.1) [B74 I= BO = K| A (0) I
+(6.1) [B17'[4 Ur p® — K| A (0) iF
 
 By taking traces of both sides, we find
 
@@ -300,49 +300,49 @@ By taking traces of both sides, we find
 
 MARKOFF’S MINIMAL
 
-FORMS .
-62) ait’ + ax’ = —kafl — 4 _ ©
+FORMS a
+62) ait’ + ax’ = afl — 4 _ 0
 or
-(6.3) SA”) = —ka®/0,
+(6.3) SA”) = —ka®/2,
 
 Tence from the trace restriction (5.6), we find is itive or IVI
-a ), d k is a positive or negative divisor
+H ), d k is a positive or negative divisor
 
 of 6, (excluding the zero trace). We try each possibility
-Yor instance setting k = —6. we fi SI He |
-For 1 0 8 0g : Gd as: = 1. Likewise, we find bay = 1
-y SQ (= / < C = / an QArev 3 8 .
-Thus 565 oS PA) heer Farey neighbors; likewise for
-(2, 2 , : : Fn (00) 0 . By an integral uni-
+Tor instance setting k = —6. we fi ie eons |
+For 1 Ho os 0g : e fing a = 1. Likewise, we find bi = 1
+Y QQ LL (= / < C = / an Qrev \ : .
+Thus 6 oS Pa) alt Farey neighbors; likewise for
+fe, 2 0 ; : oR (=>, = . By an integral uni-
 ular equivalence transformation we therefore co ai
-mo hos ue Ee we therefore can obtain the quadrilateral
-in which = 1» = , Be 0, (as shown in heavy outline in
-Figure 2). I'rom the information that «*"" = 1 (=) AER find A“ has
+mo i a, yan we therefore can obtain the quadrilateral
+in which = 1, % = y ® 0, (as shown in heavy outline in
+Figure 2). I'rom the information that «*" = 1 (=1)2 = 0 wo find A” has
 y -
 the form
-2 —} , ~~
-8 ww — w)™ wlw — )?
+2 —} 4 -_3
+; ww — w)™* wo — )?
 (6.4) ( 2\ —3 2 —1
-wlw — Ww) (w Tos Ww) :
+wlw — Ww) (w r= Ww) g
 
 where w 1s a positive parameter. Furthermore from the fact that the elements
-(0) = eae 1 © : i
-of A™ are integers, while ©(A4™) = 3, it follows that w = 1. Likewise we find
+(0) = a 1 © : a :
+of A™ are integers, while ©@(A4™) = 3, it follows that w = 1. Likewise we find
 0
 B® and C” so that
 
 Se K
 
-©) (0)
+(0) (0)
 B
 
-5 Da
+, i
 
 G)
 
 — — — — |
 
-Ere =
+tT, TR er Ey
 /
 /
 
@@ -353,56 +353,56 @@ Fig. 2. z-plane
 
 HARVEY COHN
 
-: Id o-( aT gr” - (3 =r
-65) AQ 5 ( 2 B Eni r2
-: 1).
-a cotton 0 95 CL labelled differently, while
-Le or negative divisors of 6, we find It 'mpossible to
+; 31 o-( Cd] ‘ag = oy
+65) A© os ( BD, B 2
+; 1).
+a ton 0 55 CLs labelled differently, while
+or negative divisors of 6, we find 1t Impossible to
 
 if we try any other pos! 3 for integral matrix elements. The details, running
 make the trace equal i be omitted. We have assumed the traces to be pog;.
-parallel to the last a occur in two (out of three) generators of a triple,
-Live, but negative a account by scalar factor of —1. A 2€r0 trace, on the
-and would be taken EE for all three generators, (see equation (5.5)), lead.
-other hand, could a c contrary to hy pothesis. Poiciacs :
-ing to an abelian gro Pp © 5) determine the desired matrix representation ¢ tg
+parallel to the last Os occur in two (out of three) generators of a triple,
+Live, but negative brace account by & scalar factor of —1. A 2€r0 trace, on the
+and would be taken So for all three generators, (see equation (5.5)), lead.
+other hand, could ry c contrary to hy pothesis. Neat :
+ing to an abelian gro p 5) determine the desired matrix representation ¢ tg
 
 Thus the generators odular similarity transformation and to within a scalar
-within an integral Sa ¢ matrices, such as [A©]°, are seen, by recursion, to
-Ben Ise Es bl bes that equal three times a Markoff number. These
-schient eb) will next be seen to lead to Markoff’s forms.
-gene :
+within an integral ¢ matrices, such as [A”]°, are seen, by recursion, to
+sign i > ne that equal three times a Markoff number. These
+ot will next be seen to lead to Markoff’s forms.
+gene
 
 and k = —6 provide
-If we try F =
+If we try F = 0;
 
-» ~~ oo
+” “ar
 II. IDENTIFICATION wITH MARKOFF'S Forms
 
 7. The form associated with a matrix
 
 e start out with the notation of §2 above, i.e., with A,B, -..
 | unimodular matrices. We define a form associated with
-f the corresponding linear transformation,
+| f the corresponding linear transformation,
 
 In this section, W
 denoting arbitrary rea
 A from the fixed-point equation 0
 
 (2.2). Thus, |
-(7.1) ®4(x, Y) = es 5h (@22 = an)xy — an .
+(7.1) ®,4(z, Y) = ap ot (@22 = an)xy — an .
 
 (Note that A and — A lead to different forms, although they have the same fixed
 points). It is easy to verify that
-(7.2) Bs-145(z, y) = Ba(2”, ¥°),
+(7.2) Bs-145(z, y) = Ba(2®, ¥°),
 where, in accordance with an earlier notation,
 
-zr’ = bux + buy
+2’ = bux + buy
 
 7.3
-4 y" bax + bay
+7 y" bax + bay
 
-(bub — bpba = +1).
+(bub — bba = +1).
 
 The discriminant of the form ®, is
 
@@ -410,32 +410,32 @@ The discriminant of the form ®, is
 
 The form can also be written as follows:
 
-(7.5)  au®ulz,y) = w + y' + S(A)yw where w = anxr — any.
+(7.5)  audulz,y) = w' + y' + S(A)yw where w = anxr — any.
 Thus we define
 
-(7.6) ats = (ai + 1)/an ,
+(7.6) ah = (+ 1) on,
 
-do
-MARKOFF'S MINIMAL FORMS
+da
+MARKOFF’S MINIMAL FORMS
 
-7
-(assuming an # 0), and we find that, following th :
-| = : © Notation in system (7.3
-J = w =y = —Yy, with 3),
+; 7
+(assuming an # 0), and we find that, following th ;
+| 2 : © Notation in system (7.3
+Jf = 0 w'=y = —y, with 3),
 *
-: = & — a2
-(7.7) Sel
+y F= & — a2
+(7.7) 1)
 Thus,
 (78) @®a@, Y) = y+ (4) + Sa)",
 and
-F os
-(7.9) an®a(@, y") = y' + (yf) — S(A)yy",
+F : ns
+(7.9) an®a(, y") = y' + (4) — S(A)yy",
 
 8. Final identification
 We now restrict the m
 satisfying the property:
 
-(8.1) B7A7'BA = K,
+(8.1) B7'A7'BA = K,
 
 caning of 4, B to any two integral unimodular matrices
 
@@ -451,31 +451,31 @@ the usual arithmetic sense.
 
 To make use of the commutator property (8.1), we note that
 
-(83) BAB = AK = [9 an
+(83) BAB = AK = {1 be),
 
-— ay 6a — awn
+— ayn 6a — an
 
 and we obtain from it the form
 
-(8.4) $b r-1(2, y) = — [an + (a2 — an)zry — apy] + Gaxzy — Gay’.
+(8.4) $b r-1(2, y) = — [an + (a — an)ry — apy] + Gaszy — Gay’.
 Hence,
-(8.5) an® x-1(x, y) = —an®a(z, y) + 2S(A)yy"
+(8.5) an® x-1(x, y) = —an®Pa(z, y) + 2S(A)yy"
 
-= —a®a(2", y").
+= —a®.(2", y").
 Thus it follows that the four forms
 
-8.6) + + NY + S(A)yy"
+8.6) + + (5) £ SA)yy
 
 are all equivalent. (Frobenius used the matrix F in precisely this way but he did
-hot derive the forms from the simple commutator relationship, or for that mat-
-ter from the fixed-points of matrices). :
+not derive the forms from the simple commutator relationship, or for that mat-
+ter from the fixed-points of matrices). ;
 
 Now Frobenius showed from the equivalence of these four forms that ax 18
-the minimum of ®,(x, 17), (compare §12 below). This value exceeds one-third
-the square root of the discriminant 9a — 4, hence, by either a continued-
+the minimum of ®,4(x, 17), (compare §12 below). This value exceeds one-third
+the square root of the discriminant 9a — 4, hence, by either a continued
 
 
-OE
+EET
 
  
 
@@ -485,25 +485,25 @@ OE
 
 HARVEY COHN
 
-8 : oilers lo
-tio form discussion [2], we can show the fo
+8 : : oN we 6
+tie form discussion [2], we can show the fo
 
-al or a quadratic es i 'm
+Ani or a quadratic EE a I'm
 
-fraction gisoussion B) ce class (for that discriminant) identified by the
+fraction disoussion Bl Ee class (for that discriminant) identified by the
 single
 
-belongs tO & :
+belongs to & :
 so-called M arkoff form-
-9. Interpretation of chan Ly
+9. Interpretation of chan SR
 generator triples [A™, B™, C7] can be brought
 plane into the u-plane by
 
 ge of basis
 
-o meaning of the
+¢ meaning of the
 
-| = J@) = [@')] = 49% (uw) + 1,
+| = J@) = [PW] = 49% (u) + 1,
 
 The geometr
 out through the map
@@ -519,23 +519,23 @@ fies sides 0
 
 modular function and §(u) is the Weierstrass funetioy
 tion (9.1). This relation maps the quadrilateral fundamen)
-(shown 1n heavy outline in Figure 2), onto the Detiod
-likewise in Figure 3). The triple, [A™, B™, C™], ident;
+(shown 1n heavy outline mn Figure 2), onto the period
+likewise in Figure 3). The triple, [A™, B™, C"], ident;
 | fundamental domain” in the z-plane, (shown in dotteq
 
-‘hexagona gs a
+(hexagona ; Na
 f a “‘hexag iod hexagon (outlined likewise).
 
-; . 1 io mapped onto a perl :
-nr ee - is mapped by transformation (9.1) onto the abeliay
-The (matrix :
+. 1 io mapped onto a perl :
+geod i 5 is mapped by transformation (9.1) onto the abeliay
+The (matrix ¢
 
 hich can be thought of either abstractly or as the group of vectors
-group Ge, = J oun of the period parallelogram (or hexagon) in the u-plane.
-generated by oe = Su to be the group of “change of basis’ operations ong,
-be Ua weyelic” operation 3 and the ‘parabolic’ operation respec.
-Be A oh is 1) Note that the elements A (= A'BA) and B, of G, map
-Se joe ie an written B., of Ga ; likewise K and FE map into E,. (The
+group Ge, 5 > oun of the period parallelogram (or hexagon) in the u-plane,
+generated by i» oe oe to be the group of “change of basis’ operations ong,
+Ly CE weyelic” operation 3 and the ‘‘parabolic” operation respec.
+Be period oh re 1) Note that the elements AS (= A'BA) and B, of G, map
+5] oo 3 E written B. , of G. ; likewise K and FE map into E,. (The
 
 sub-seript notation should be self explanatory.)
 
@@ -555,8 +555,8 @@ A
 F1G. 3. u-plane
 
 MARKOFF’g MINIMAL, FORMS
-2 PP
-N
+2 FP
+\
 
 \
 
@@ -564,21 +564,21 @@ N
 
 F1G. 4. Transformations of the period basis for the u-plane
 
-primitive element of G,, le. A, = [APB where (n, m) = 1, according to
-the recursion formulas In 85. Conversely, the only generating matrices mapping
-dec = « are of the form K AK’. To see this, note that the primitive elements of
+primitive element of G., le. A, = [421 Bor where (n, m) = 1, according to
+the recursion formulas in §5. Conversely, the only generating matrices mapping
+A « are of the form K AK’. To see this, note that the primitive elements of
 ge are precisely those that are associated with another element B, in such a way
 that the pair [A., B.] forms a basis of the group, or in terms of Figure 3, so that
-4. ; B.] forms a period parallelogram in the u-plane. (The element B, can con-
+4. ) B.] forms a period parallelogram in the u-plane. (The element B, can con-
 veniently be chosen as the image of the B that is paired as a generator with 4).
 This period parallelogram, regardless of the exact choice of B,, has A, as one
-side, and to it, under the mapping (9.1), correspond infinitely many well-deter-
+Side, and to it, under the mapping (9.1), correspond infinitely many well-deter-
 mined quadrilateral fundamental domains in the z-plane. But by the definition
 of generating matrix we must select only those with « as a vertex. They are all
 related to one another by the translations z — 2X‘. Hence letting A* denote
 some one of the matrices K ‘AK’ we find that the corresponding quadrilateral
-fundamental domain must contain a side « ©*". This determines the fraction
-(== =)a}i/ak _ which in turn determines the matrix A* completely ; since
+fundamental domain must contain a side « «*". This determines the fraction
+(*" =Yot fal . which in turn determines the matrix A* completely ; since
 
  
  
@@ -619,67 +619,67 @@ fundamental domain must contain a side « ©*". This determines the fraction
    
   
 
-Ces
-S
+Cer
+™
 
->
-22 3
-EEE red -
-RE Eee
-{Lotta ae
+3
+2 3
+“ALITY -
+error ore
+MEPL rss rer ones
 
-ae
-4+
+ER
+++
 a.
-=a)
-35
+AMY
+x3
 
-iar ii
+iit ii
 
-PHIALLES
-TRELLIS
-508 or
-Sages ad
-LIE ETEE ra
+PALLET
+FRIST I IS
+508 OL
+Lhe ad
+LIE IEIEE ra
 SI ria
 
-LL
+Lt
 
 LL
-°
+*
 
-Lov {8
+LoL LS
 . AY
 
-Adds
+AAs
 TLRECY
 WAL red
 
-TLR LTT
+TELAT
 
 
 . HARVEY COHN
 
 10 |
 
-hoo) ay is one third the (positive) trace, (which yields a3;), while the
+rawd) ay, is one third the (positive) trace, (which yields a3), while the
 
-(by §8 above), az >
+(by §8 above), a > |
 
-eter ri numbers correspond to integral relatively prime pairs
-As a result, ee resembling the recursion process for generating them i
+olen it numbers correspond to integral relatively prime pairs
+As a result, ee resembling the recursion process for generating them by
 
-m, n) In & Mm
+m, n) in a M
 
-a fractions (compare [7, 5]).
+ish fractions (compare [7, 5]).
 
-III. DETERMINATION oF NEw Forms
+III. DETERMINATION oF NEw ForMS
 
 10. Derivation
 
 that to determine integral matrices of trace 3, we
 trix (6.4). The “extraneous root”, w = %, leads to
-ices that generate a matrix group, g©.
+ices that generate a matrix group, ©.
 
 In §6 (above), We found
 = 1 in the ma
@@ -688,10 +688,10 @@ had to take @ = :
 an incidental set of non-integral mati
 
 3 5 5 1
-3 [8 =, ov — + 0
+} 3 ago 2 2), ov — { 2).
 They satisfy the analogue of (5.1) with k= —12, 1.e.,
-APBD oY a E oe i; = ey
-(10.2) {ago 40 ks = A
+AOBPeY ar E T+ Ys Co Sy
+(10.2) {apo 40 = kK =O ld
 
 are chosen to have trace 3, but under this notation
 
@@ -706,7 +706,7 @@ We consider the general generating matrix A for this group and the corre-
 sponding form &,(z, y). From Part IT it follows that a matrix exists of trace
 equal to three times any Markoff number, a, (see §5), and with lower left-hand
 element ay = ©(4)/6 = a/2, (compare equation (6.3)). Once we shall have
-shown that the (non-zero) minimum of | ®, | is ©(A4)/6, we shall have forms
+shown that the (non-zero) minimum of |®, | is ©(A4)/6, we shall have forms
 analogous to Markoff’s forms.
 
 11. Closure
@@ -714,18 +714,18 @@ analogous to Markoff’s forms.
 Despite the fact that the matrices have fractional elements, we should still
 want the forms ®,(z, y) to be ultimately restricted to integral x and y so that the
 “minimum” may have its usual meaning. To begin with, however, we must let
-(z, y) vary over a larger set, namely the lattice £ consisting of all couples (x, 9)
+(z, y) vary over a larger set, namely the lattice £ consisting of all couples (x,y)
 for which x 4+ y and x — y are integers.
 
 Consider the following parity-property of a matrix A: The property is that the
 rows on addition and subtraction yield integers of like parity, i.e., an + ax and
-an + ax are (integers) of like parity while a;; — as; and a; — ax are also (in-
+an + ax are (integers) of like parity while a;; — as; and ap, — ax are also (in-
 tegers) of like parity, (although the parities of these sums and differences will
-not all necessarily agree). Now obviously 4A”, BY”, ¢”, and E have this prop-
+not all necessarily agree). Now obviously 4A”, BY”, CV, and E have this prop-
 erty. They furthermore form a basis of the matric algebra generated by g"
 over the integers, (since the product and quotient of these four matrices in any
 order 1s seen to be expressible as a linear integral combination of them). Thus, in
-particular, any matrix of the group g* has the parity property.
+particular, any matrix of the group G* has the parity property.
 
  
 
@@ -738,55 +738,54 @@ particular, any matrix of the group g* has the parity property.
 MARKOFF’
 OFF’S MINIMAL FORMS
 
-Te. : 11
+le ; 11
 A matrix with the parity property wil] | ;
-eave mnvariant the 1441
-atlice g£,
+! eave 1mvariant the 144
+atlice L£,
 
 12. The minimum
 We try as much as possible to follow
 
-the I:
+the Ii
 forms in x, ¥, namely, he lines of §7 and §8, (
 
 above). The four
 
-(12.1) +l" + 6°) + SA),
+(12.1) +" + 4°) + Sd),
 are equivalent under transformations such |
 parity property and therefore leave £, inva
-tion of a minimum theorem of Frobeniys
+tion of a minimum theorem of Frobenius
 fices with minor changes).
-Consider the form ®(y, w) = 3° + 4 — Syw with s(
+Consider the form ®(y, w) = 3° + o — Syw with s(
 longing to a two dimensional (rational) lattice ©
 ranges over the lattice, excluding the orn. Then
 formations preserving the lattice £ the four forms
 
-(y" = 0x — q
-< ny),
+(y" = ayr — q
+2 ny),
 
 see §7,8), which have the
 can then use a generalizs-
 (whose original proof suf-
 
-on B, F, (
+as B, F, (
 riant, We
 [5, p. 467),
 
->2) wnlegral, and (3, w) be-
+>2) wntegral, and (3, w) be-
 Consider min |$ | as (y, w)
 of under certain linear lrans-
 
-+" + w’) + syw
-
++ + w’) + syw
 are equivalent, (one of the transformations being y — w —
 must occur at a lattice point where y or w vanishes.
 
-on the problem at hand, the lattice £ is the lattice to which (, y") belongs if
-(z, ¥) belongs to £; . Here the substitution y = 0 leads to z = 1. while the sul
-stitution 7° = 0 leads to y = ay and z = an . Thus, the Non-zers i ;
-|4 | 1s ax over £» and (surely) over the integral pairs (2. 9): g
-Corresponding to each primitive element, (see §9), of the abelian group g
-is a class of forms equivalent to ®,(z, y). Those forms, when doubled, have Tite.
+& the Problem at hand, the lattice £ is the lattice to which (, y") belongs if
+(z, ¥) belongs to £». Here the substitution y = 0 leads to z = 1. while the sul
+stitution 7° = 0 leads to y = ay and z = an . Thus, the non-zero lem ;
+|4 | 1s ax over £» and (surely) over the integral pairs (z, 3). ;
+Corresponding to each primitive element, (see §9), of the abelian group Q
+is a class of forms equivalent to ®,(z, y). Those forms, when doubled, have te.
 gral coefficients and an (ordinary) minimum equal to 2a (= a), which exceeds
 one-sixth the square root of the discriminant 4(9a° — 4). (Here a is an arbitrary
 Markoff number). Unfortunately, the gap between “one-third” and “one-sixth”
@@ -806,14 +805,14 @@ reduced).
 
 Trace 2 X Form Period Min/ (Disc)?
 
-Se] re — dry — yy’ (4) 31/5]
+3a] rr — 4xy — yy (4) 31/5]
 
-§X 2 277 — 12qy +2 (4,1) 31/81
+3X 2 29 — 12% +2 (4,1) 31/8
 
-8635 52° + 32zy + Ty 5,1,3,2,2,3,1,9) 3(5/221 ] i
-: 1a/(9a® — 4)']
+3X 5 52° + 32zy + Ty 5,1,3,2,2,3,1,9) 3(5/221 ] i
+. 1a/(9a° — 4)']
 
-3 X a ar + --- (--+) a,
+3 X a ar + --- (+) a,
 
 gers less than
 
@@ -822,59 +821,59 @@ hieve certain
 
 Six; but to make up periods with the integers 1,2, 3, 4, 5 50 as to ac
 
-oss
+os
 tn
 
-dhe To
-SE a rn?
+hl
+SR a
 
 esl
-SCC
+BC
 
-ee
-, east
+ree
+ne, east
 
  
 
-LA tet
-IPL e rc
+LAs iets
+IL Te rc
 
 =
 
 ASS
-tit
+tat
 
 Lx
 
-Ce x
+Ca
 
-CLE CLL
+erties
 
-- Cad Chee res
-Coe oe $554
+- Serr ere res
+rery 6 555%
 
-St Lat 4 ER
-3 tie
-227 be
+St tated 4 RE
+» tie
+22s bd A
 
-LLL
+7s
 
 
-igri PEC CSF SRI SSCS
-p A rr ir JIS TIN a PETIT Aa
-ESS A INL. AA 3 a 153 SI RATE Ce ESET IT
-Ed FET SSGed ri
-TSI SLI TLS
-Es
+PRE Lod na 3 RTI
+2 A err 221 JIE TINS PETIT Aa
+SS A INL ALA } 3 55 Ie RIA A TF Cd ESET IT
++ FETT SSGed I
+YSIS SLY THIS
+Rd
 
-Sa SSPE 1 Aes is > - 33
-“ a SERS i$ SES : 3
-sas Sse v
-: : ERENT NOT
-NYE
-AY
+Sa SS PIT ELL Ate ads > - 33
+“oe a SERS i$ SES : :
+333533 REIN SRS 2:
+: : ERRRSSE NOY
+NERY
+AS
 
-TAN
+TA
 
  
 
@@ -899,7 +898,7 @@ f Math.,
 f numbers,
 
 «
-€
+Ls
 
 [odulgrupp
 
@@ -913,7 +912,7 @@ hese new forms as the result of the
 Markoff actually did it with the in-
 ations of §5.
 
-n. Berlin (1936), pp. 29-33.
+n. Berlin (1936), pp. 20-33.
 
 finies, Math. Ann.,
 
@@ -932,14 +931,14 @@ imatione
 
 Ann. 0
 antische Approx
-formes binare ind
+formes binarre ind
 
 HARVEY COHN
 ious (although
 BIBLIOGRAPHY
 
 Theorie des fonctl
-- rattachent 11 P
++ rattachent II P
 
 91-101.
 Markoffschen
@@ -970,10 +969,10 @@ KOFF, Sur les
 Cassels, The B
 tingen, (1896) pp-
 
-cendentes qui S
+cendentes qui $
 
-1S ex
-PP:
+1S eX
+PP.
 . Kok
 
 ices genel
@@ -985,11 +984,11 @@ RICKE, Uber
 matrice
 
 STANFORD UNIVERSITY
-SR
+.F
 
 WAYNE UNIVERSITY
 
-Px
+P.
 
 tegers 1, 2).
 J
@@ -997,14 +996,14 @@ J
 12
 minima
 2. J. W.
-3. Ik
+3.71.1
 4. R
 
 F
-A. Mar
+. A. Mar
 
-YL.
-5. G. FROBENIUS, Uber die
+J.
+5. GG. FROBENIUS, Uber die
 
 6.
 7

@@ -1,9 +1,9 @@
-6345
+65456
 
-Noveuber 14, 1955
+Noveuber 14, 1966
 
 ¥r. Horman Hess
-Room 24-033 Re Eo
+Room 24=033 rt BE
 yassachusetts Institute of Teehnology
 
 Dear Sir:
@@ -11,7 +11,7 @@ Dear Sir:
 1 have been authorized to aredit your account
 with three hours of mechine time on the Whirlwind I
 computer for work under problem 329, First Approximation
-Solution of Ore Body.
+Solution of Ore Body
 
 If you find that you need more time, it will
 be necessary to submit a new request.
@@ -20,7 +20,7 @@ Sincerely,
 
 F. M, Versuh
 
-FE Veamb
+FE Veaamb
 oc LL. Brock
 Morse Committee
 

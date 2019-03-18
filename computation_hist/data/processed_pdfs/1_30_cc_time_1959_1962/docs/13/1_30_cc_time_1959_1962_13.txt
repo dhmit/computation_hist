@@ -2,18 +2,18 @@ Prob. No. Lab
 1038 OR
 1133 LNS
 1143 LNS
-1150 LNS
+1i50 LNS
 1151 LNS
 1157 LNS
 1160 LNS
 1174 RLE
 1175 LNS
 1176 LNS
-LET RLE
+1177 RLE
 1178 RLE
 
 Laboratory
-a ES
+Spry nr SwmamrErrunoc
 Hours Employed
 
 Hours Used
@@ -29,15 +29,15 @@ Hours Not Used
 
 Hours Overdrawn
 
-Cunulative Hours Not Used
+Curulative Hours Not Used
 Curulative Hours Cverdrawn
 
 Lat User
 
-RL} T. Weiss
+RL} T., Weiss
 
 LNG S. Westreich
-LNCS R. Scharenberg
+LINE R. Scharenberg
 Lab Hours
 
 LRS 39.25
@@ -50,7 +50,7 @@ October, 1960
 
 Requested by
 
-H. Galliher
+H. Galliheyr
 Delves
 Tubis
 Buechner
@@ -63,8 +63,8 @@ Freeman
 Weiss
 Hershfield
 
-AOI D Sy E>
-A On iy hela gal g arg hiive
+POIROD Sy E>
+ni 0. eee gig a eitie
 
 “
 
@@ -72,7 +72,7 @@ Ct 3
 ®
 
 Time Distribution
-BE uy
+a tay
 
 RLE INS
 320 488
@@ -89,7 +89,7 @@ RLE INS
 
 IGP ~ 30 Time Record
 
-ER ERS. Sy
+EE ERS. Sym
 Hours
 
 7.5 7.5
@@ -101,7 +101,7 @@ Hours
 Use By Laboratories
 
 Total Hours
-SELLE a CRRA Wen ET.
+A CEA RTE
 
 1179.5
 449.25
@@ -117,7 +117,7 @@ Q
 454
 
 Total Hours
-CTS SRE YT SR ry
+CREE SITET TTD.
 
 OR
 
@@ -129,7 +129,7 @@ OR
 
 02
 
-12
+i2
 1216
 
 

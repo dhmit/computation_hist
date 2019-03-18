@@ -25,13 +25,13 @@ Then we show by means of a “zeta-function discussion” that
 
 where ¢ is given in formula (8) below. This result complements un-
 published results kindly communicated by Davenport, to the effect
-that N(x) =0(x), and by Heilbronn, to the effect that N(x) >cx
+that N(x) =0(x), and by Heilbronn, to the effect that N(x) >cax
 (even with the restriction that the fields be totally real).
 
 It can be shown by class-field theory [1]? that abelian cubic fields
 of discriminant f? are enumerated as follows: There is a single field
-with f=9 or f=¢q, and there are for »=1 exactly 2’ fields with f
-=¢go*--¢qyor f=9¢ + + + ¢,, where the ¢; are distinct primes =1
+with f=9 or f=¢q, and there are for »=1 exactly 2* fields with f
+=¢qo*--qy or f=9¢ + - - ¢,, where the ¢; are distinct primes =1
 (mod 6). (These fields are in fact subfields of the field of the fth roots
 of unity.) Thus,
 
@@ -43,7 +43,7 @@ and #(n) is, in turn, described by the generating function:
 
 0
 
-@) 0) =TI0 + 200) = > sin
+@) 6) =TI(L + 25) = 5 wld,
 
 Presented to the Society, April 25, 1953; received by the editors April 22, 1953.
 
@@ -57,23 +57,23 @@ tract DA-20-018-ORD-12332.
 
 THE DENSITY OF ABELIAN CUBIC FIELDS 477
 
-defined (at first) for Re s>1, where ¢ are the primes =1 (mod 6).
+defined (at first) for Re s>1, where ¢g are the primes =1 (mod 6).
 To estimate U(y) we introduce the primes r=—1 (mod 6) and
 start with the identity:
 
-Hs) = = Tlewledu oil sal) = :
-[Ha — IIa = II — 911A + 79)
+ols) = = THotrma-e9Ilit 17]
+[1a — 911 = II = IIa + 79)
 
-We note that each product of “curly brackets,” [[{ --- }, is ab-
+We note that each product of “curly brackets,” [[{ - -- }, is ab-
 solutely convergent for at least Re s>1/2, while
 
-© [IIa = g9IIa =r] =o — 2-)(1 — 3).
+© [Ia = ¢oIIa =r] =o — 2-91 — 3).
 
 Moreover,
 
 (5)
 
-(1) Les) = 3 (=3/mym— = (1 + 22) [I1Q = ¢9 II + 9]
+1) Les) = 3 (=3/mm— = (1 + 22) [I1Q = ¢9 II + 9]
 
 is a convergent series for Re s>0, with the special value L(1) =x3-%/2
 by Dirichlet’s formula for quadratic class number [2, p. 373]. Hence
@@ -81,7 +81,7 @@ from the known behavior of {(s), it follows that the difference ¢(s)
 —c/(s—1) is analytic at s=1, where (using {(2) =7?/6) we easily
 find
 
-dn (@+2(@g—-1 _
+a (@+2(@g—-1 _
 2m qq +1)
 
 As before, ¢ are the primes =1(mod 6). Now from the behavior of
@@ -90,7 +90,7 @@ can show that
 
 (8) .28
 
-9) U(y) ~cy (as y — =),
+9) U(y) ~cy (as y — =).
 
 We omit the details since Landau’s Handbuch presents them not only
 for the prime number theorem [3, pp. 180-193] but also for a prob-

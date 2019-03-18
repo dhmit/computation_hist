@@ -1,6 +1,6 @@
 ~ April 6, 1955
 
-Mr. J.D. Forier
+Mr. J.D. Fortier
 
 Head, Scientific and Engineering Group
 Digital Computer Laboratory |
@@ -11,7 +11,7 @@ Dear Mr. Porter, :
 
 The Operations Research Group is interested in evaluating the state
 probabilities of a very general multi-phase multi-channel waiting line
-problem, It sppears that the solution is feasible with tae aid of WWI.
+problem, It eppears that the solution is feasible with tae aid of WWI.
 
 The initial phase of this problem will require ebout three (3)
 hours of computer time and will be programmed by Robert Oliver of the

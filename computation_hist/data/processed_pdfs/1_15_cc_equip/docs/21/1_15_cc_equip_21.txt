@@ -1,6 +1,6 @@
 October 9, 1956
 
-Prof. FF. M. Verzuh
+Prof. F. M. Verzuh
 
 Room 20C-206
 
@@ -11,7 +11,7 @@ Cambridge, Massachusetts
 
 Dear Prof. Verzuh:
 
-Mr. Carlson, from your office, called me today to-ask about
+Mr. Carlson, from your office, called me today to:ask about
 the modifications of the two key punches you received this past week so
 that they will be compatible with the FORTRAN operation. I told him that
 I had already discussed this completely with you at our staff meeting last
@@ -30,6 +30,6 @@ Yours very truly,
 G. Truman Hunter
 GTH/ jeh
 
-cc: Mr, P. M. Morse J
+cc: Mr, P. M. Morse)
 
 

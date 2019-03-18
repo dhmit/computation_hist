@@ -5,12 +5,12 @@ Beginning with DIC Project Number 7,000, equipment
 will have to carry the full DIC project number, followed
 by the usual individurl number series.
 
-For example, the first two items ef equipment acquired
+For example, the first two items eof equipment acquired
 on project number 7,125 will be numbered 7125-1 and 7125-2.
 
-This 1s necegsary because otherwise we could not dis-
+This is necegsary because otherwise we could not dis-
 
-tinguish equivment in the 7,000 series from the 6,000 series.
+tinguish equiovment in the 7,000 serleg from the 6,000 series.
 
 A. P. Rogers
 DIC Property Offlce

@@ -1,4 +1,4 @@
-245 June 3, 1960
+2K June 3, 1960
 
 Professor John C. Slater
 
@@ -7,7 +7,7 @@ Room 6-320
 Massachusetts Institute of Technology
 177 Massachusetts Avenue
 
-Cambridge 39, Massachusetls
+Cambridge 39, Massachusetis
 
 Dear Professor Slater:
 
@@ -31,14 +31,14 @@ to assist you as much as possible with computing time over the next
 twelve months. We are delighted that we can make this oifer to you, and
 we are looking forward to the results of your expanding research.
 
-a t—,
+——————
 
 Sincerely yours, 0
 
 M. Loren Bullock
-[BM University Representative
+IBM University Representative
 MLB/jeh
-cc: Prof. C. FF. Floe, M.L.T.
+cc: Prof. C. F, Floe, M.L.T.
 Prof. P. M. Morse, M.I.Tu
 Dr. E. M. Piore, IBM
 

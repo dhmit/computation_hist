@@ -1,14 +1,14 @@
 May 31, 1957
 Mr, William Mackintosh
-Assistant Pirector General Services
+Agsistant Pirector General Services
 Room 24-204
 M.I.T.
 
 Dear Mr. Mackintosh:
 
-In accordance with our telephone convergation on Monday, May 27,
+In accordance with our telephone conversation on Monday, May 27,
 i have prepared a list of the telephone numbers and equipment which will be
-required in the ow MIT Computation Ceater in the Kari 7, Compton Laboratory.
+required in the mow MIT Computation Ceater in the Rari 7, Compton Laboratory.
 This list indicates the room number, the desired phone extension, the name
 of the individual, and a brief description of the equipment required at cach
 site, I know that the detailed comments on the equipment are not complete
@@ -16,14 +16,14 @@ as shown on this list; however, 1 feel I can better discuss this with the
 telephone people rather than trying to put it in a letter,
 
 Ag I informed you, at the present time in the Office of Statistical
-Services we have a neumber of telephones and extensions which are charged to
-the general administratiesas account, Sometime at your convenience I would
+Services we have a number of telephones and extensions which are charged to
+the general administratieas account, Sometime at your convenience I would
 like to discuss which of the telephones on the attached list might be simi-
-larly billed or absorbed, On the other hand, however, I want to emphasize
-that a number of the people listed in this area are at the present time lo~-
+larly billed or absorbed. On the other hand, however, I want to emphasize
+that a number of the people listed in this area are at the present time lo-
 cated at the Barta Building on the Whirlwind Project and the telephones which
 these people are currently using are, of course, paid for by a DSR project
-63456, Some similar arrangement will be made for people in the Computation
+§3456, Some similar arrangement will be made for people in the Computation
 Center who are doing primarily research work. That is, their telephones
 will be paid for from one of the accounts covering such research work,
 
@@ -31,11 +31,11 @@ Although if is not apparent from the attached listing, I am expec~
 ting to install a paging unit which will allow the receptionist in the Com~
 putation Center to select and complete «calls without manual intervention,
 
-The type of unit I am referring to is xmown (in telephouc jargon) as circuit
-SD66604-01, We have such a circuit in the Barta Building at the present time.
-In Se alr this circuit will allow completion of incoming calls upon audible
-indication from the receptioninst without need of a switch board operator,
-Specifdsmlly, lines 4111 - 4115 and (a similar number ten higher) 4121 - 4125
+The type of unit I am referring to is kmown (in telephouc jargon) as circuit
+SDE§604-01, We have such a circuit in the Barta Building at the present time.
+In oth this circuit will allow completion of incoming calls upon audible
+indication from the receptioninst without need of a switch board operator.
+Specifdgmmlly, lines 4111 - 4115 and (a similar number ten higher) 4121 - 4125
 are used in a particular manner to effect this automatic paging action.
 Again, I fedl I best discuss this with the equipment installation people
 rather than trying to explain it in detail in this letter.
@@ -47,37 +47,37 @@ stalled as soon as possible.
 
 Sincerely yours,
 
-¥F. M, Verzuh
+¥F. M., Verzuh
 
-7 Assistant Director
-a Po dls Wie
+Assistant Director
+ao: Po Ul, WotBR”
 Migs Morrice
 
 C. E. Tucker
 
 
-RP A — — — — ~———*|
+A ——————— A ———————|
 
-Room No. Phone No, Equipment ligme
-26-266 Ext, 4105 Desk hone Secretary
+Room No, Phone No, Equipment Name
+26-266 Ext, 4105 Desk “hone Secretary
 28-268 41.05 Push-button phone G. Nagle (secretary)
 Ext, 4108 (4 position)
 Ext, 4.04
 Hold Button
-26-267 4103 Desk Phene 9 PD. Arden
-4104 Desk hone 9 ¥, Corbato’
-88-265 A106 Desk Phone ©
-26-2623 4107 Desk Phone 9
+26-267 4103 Desk Phene 9 Pp. Arden
+4104 Desk ‘hone © ¥. Corbato’
+fE-265 4106 Desk Phone ©
+26-263 4107 Desk Phone 9
 26-261 4108 Besk Phone 9
 26-259 4109 Desk Phome 9
 26-267 4110 Desk Phone ©
-26-169 4120 Desk ‘hone 9
+26-169 4120 Dosk ‘hone 9
 26-151 4120 Desk Phone Mr, Blackburn, IBM Corp,
 (3 button)
-ee
+oe 4
 Hold button
 26-147 Ext, 4120 Desk Phone Miss Hiers (IBM Sec'y)
-Ext. UN ic os (3 button)
+Ext. UN Be (3 button)
 Hold button
 26-143 4116 Desk Phone 9 704 programmers
 Bxt, 4117 2-position switch
@@ -106,19 +106,19 @@ Room No.
 
 26-054
 
-26-0568
+26-058
 
 26-069
 
 hone ¥o,
 
 4118
-Ext, 4119
+Ext, 4.1190
 
 4119
 Ext, 4118
 
-637
+837
 Ext, 4102
 
 4101
@@ -143,7 +143,7 @@ Ext, 4113
 4112
 
 4115
-UN 4- Ci, il
+UN 4- CE
 4126
 
 4127
@@ -165,7 +165,7 @@ Desk ‘home 9
 Desk Phone 9
 2-position switch
 
-Desk Phone 8
+Desk Phone 9
 2-porition switch
 
 ‘Push-button phone
@@ -180,10 +180,10 @@ Desk “hone
 Pesk "hone
 2-position switch
 
-Desk ‘hone 9
+Desk ‘hone ©
 
 Desk "hone
-Desk rhene
+Desk ‘hone
 Desk ‘hone
 Desk ‘hone
 
@@ -191,9 +191,9 @@ Desk Phone
 
 704 Programmers
 
-F. HM, Verzuh
+F. M, Verzuh
 
-PM. Morse
+PM. Horse
 
 N. Burnett (Secretary)
 

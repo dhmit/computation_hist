@@ -3,14 +3,14 @@ to June 30, 1958
 
 Proposal
 
-Although our IBM 704 is now delivered and is in storage at
+Although our IBM 704 is now delivered and 1s in storage at
 MIT, delay in completion of the building to house it has delayed
-commencement of the project financed by NSF grant NSF G2940. As
+commencement of the project financed by NSF grant NSF G2040. As
 a result, it is estimated that only about $8,000 will have been
 spent by June 30, 1957. Staff members, which were to have been
 transferred to this project, have been continued on the Whirlwind
 project until the change-over, and most of them will not be trans-
-ferred until summer. It is therefore proposed that the project be
+ferred until summer. It is therefore proposed that the projeet be
 ‘continued until June 30, 1958, with an additional grant of only
 $13,000, so that in the full year of full operation, July 1957 to
 June 1958, we ean operate at the rate of $35,000 a year, as
@@ -21,7 +21,7 @@ Progress to Date
 
 Although the NSF funds have not been used to any extent, work
 on the first aspects of the proposed research has gone forward
-as rapidly as is possible without the 704 being in running condi-
+as rapidly as is possible without the 704 being in running condl-
 tion. A complete utility and a post-mortem program have been
 developed, and tested out on borrowed 704 time, a much more
 flexible assembly program than at present avallable has been
@@ -35,7 +35,7 @@ work of the Solid State Theory Group under Prof. J. C. Slater
 and the large-shower calculations of Prof. Bruno Rossi. The
 meteorology group under Prof. Charney, recently moved here from
 Princeton where their work wes initiated by Von Neumann, 1s
-planning to use a substantial amount of machine time, and will
+planning to use a substantial amount of machine time, and willl
 require the advice and help of our staff to program their various
 calculations. We will be assisting the Harvard Observatory staff
 in calculating satellite orbits in preparation for, and during,
@@ -63,9 +63,9 @@ Plans for Next Year
 
 All of these projects, and more, will stretch the capabilities
 and energies of the Computation Center staff. We expect to add
-two more senior staff members this summer and hope to persuade two
+two more senior staff members thls summer and hope to persuade two
 men now completing their Doctor's degrees to stay on as junior
-staff members for a year or two. It 1s certain that most of the
+staff members for a year or two. It is certain that most of the
 research subjects outlined in our original proposal to NSF will
 be begun this coming year; it can be expected that the NSF portion
 of support for this work will reach the yearly rate of $35,000
@@ -79,14 +79,14 @@ June 30, 1958, with additional funds of $13,000.
 Signed
 
 \
-0 Morse, Director —
+Th Morse, Director —
 
 M.I.T. Computation Center
-Principe: Investigator
+Prineire: Investigator
 
 Approved
 
-"Carl F. Floe
+“Carl F. PFloe
 Assistant Chancellor
 
 ~ Dr. F. L. Foster, Director
@@ -94,12 +94,12 @@ Division of Sponsored Research
 
 Enclosures A and B
 
-a ————————— ——
+———————————— ——
 
-——————————————————— — Date a em:
+———————————————— — Date A —————
 
 
-Extension of NSF G2940
+Extension of NSF 02940
 
 Salaries
 
@@ -171,7 +171,7 @@ Additional Funds requested for 1957-58
 12,960
 
 
-.nsion of NSFP G2940 Page 4
+.nsion of NSF G2940 Page 4
 
 ENCLOSURE B
 
@@ -193,7 +193,7 @@ mathematical and experimental research; including studies of
 numerical analysis and machine programming methods, investigation
 of the possibilities of the complete mechanization of the sequence
 of recording, processing, analysis and presentation of experi-
-mental data and the working out of such specific applications of
+mental data and the working out of such speecifie applications of
 machine techniques to problems in science, engineering, and
 administration as will clarify the basic rescarch and suggest new
 points of view.
@@ -201,16 +201,16 @@ points of view.
 Desired Starting Date: September 1, 1956.
 
 Time Period: Three years, with a reassessment during the fall of
-1959 te determine whether further support is advisable.
+1959 to determine whether further support is advisable.
 
 Proposed Research = Background Information:
 
 We are organizing what should be one of the most fruitful
 centers for research related to the use of electronic computers
-in this country. IEM is contributing one of its 704 machines,
+in this country. IBM is contributing one of its 704 machines,
 maintained and equipped with appropriate auxiliary equipment.
-IBM and MIT are providing the building, part of the new Compton
-Laborato®y, and MIT is contributing some of the staff from its
+IBM and MIT are providing the bullding, part of the new Compton
+lLaborato®y, and MIT is contributing some of the staff from its
 departments of mathematics, electrical engineering, physics, and
 industrial management. The machine will be available, 35 or more
 hours a week, free of machine time charge, to MIT staff and
@@ -230,10 +230,10 @@ some of this research.
 
  
 
-oN RRR
+ra CL
 
 
-Extension of NSF G2940 | Page 5
+Extension of NSP G2940 | Page 5
 Enclosure B, Continued
 
 In this atmosphere and with these facilities, there is an
@@ -282,7 +282,7 @@ of the research projects which will use the facilities of the
 Center. Although the use of the machine itself will not be
 chargeable, most users will need advice from the Center staff as
 to preparing their programs, will need help in detailed coding
-and will prefer to have our staff earry out many of the actual
+and will prefer to have our staff ecarry out many of the actual
 runs on the computer. This will add to the duties of the staff,
 and part of the additional cost will be charged to those projects
 which can afford this extra service. Those students and faculty
@@ -290,7 +290,7 @@ members who cannot afford to pay for this help will be able to
 use the machine, but will be expected to do their own coding,
 
 
-Extension of NSF G2940 Page 6
+Extension of NSP G2940 Page 6
 Enclosure B, Continued
 
 card-punching, testing and running of their problems. We
@@ -309,11 +309,11 @@ the physical science aspects of the activity. In order to get
 our plans well under way, this grant should be continued for
 about three years (as with the Rockefeller grant), after which
 the program should be re-evaluated to determine needs beyond
-that date, :
+that date,
 
 Proposed Research - Possible Initial Directions of Investigation
 
-1. Investigation of Structure and Syntax of input languages;
+i. Investigation of Structure and Syntax of input languages;
 the possibilities of coding directly in mathematical, logical or
 business language.
 
@@ -343,18 +343,18 @@ mitted directly between computer and experiment.
 
 T- Investigation of micreprogramming and other methods for
 increasing the flexibility of computer design. The possibility
-of inclusion of a very flexible control unit in a large-scale
+of inclusion of a very flexible control unit in a large-seale
 computer which would permit ready alteration of an order code.
 
 
-Extension of NSF G2940 | Page 7
+Extension of NSF G2940 Page 7
 Enclosure B, Continued
 
-8. Investigation of techniques for intercommuinication
+8. Investigation of techniques for intercommunication
 between computers, including the possibility of cycles different
 in length or kind running simultaneously with frequent comparison,
-€.g8., several single-accumulator computers with common memory,and
-the behavior of a computer with multiple eccurmlators. Some of
+€.8., several single-accumulator computers with common memory,and
+the behavior of a computer with multiple accummlators. Some of
 these properties can be simulated on a 704 by utilization of
 additional drums and magnetic core banks.
 
@@ -368,8 +368,8 @@ Facilities:
 The MIT Computation Center will have a Type TO4 Electronic
 Data Processing Machine with the following machine complement:
 12 magnetic tape units, 2 magnetic core storage units containing
-a total of 8,000 words, 1 magnetic drum unit containing 4,000
-words of storage, the usual on-line punched card reader, alpha=-
+a total of 8,000 words, 1 magnetic drum unit containing 24,000
+words of storage, the usual on-line punched card reader, alpha-
 betic printer, and punched card recorder as well as the 3 off-line
 magnetic-tape-controlled printer, magnetic-tape-controlled card
 punch, and punched card-to-magnetic tape converter, respectively.
@@ -377,9 +377,9 @@ In addition to the 7O4 there will be 10 auxiliary punched card
 machines including card punches, collators, sorters, reproducers,
 interpreters, and the Type 407 Accounting Machine. The aggregate
 machine rental, in excess of $50,000 per month, will be donated
-by IBM, |
+by IBM. |
 
-The Type 704 EDPM unit is one of the fastest large-scale
+The Type 7O4 EDPM unit is one of the fastest large-scale
 commercial computers available today. Sinee the MIT installation
 will be but one of many in the field, techniques, programs, and
 numerical procedures developed for this machine will be of use
@@ -390,13 +390,13 @@ with the Project:
 
 Principal Investigator to be Professor Philip M. Morse,
 Director of the Computation Center. He has been in contact with
-computing problems during his eareer in theoretical physics sinee
+computing problems during his eareer in theoretical physies sinee
 1930, and with the use of computing equipment since the first
 Bush differential analyzer was available at MIT in 1936. He got
 his Ph.D. in physics at Princeton in 1920 and has been at MIT since
 1931, with occasional leaves of absence. His publications include
 the books "Quantum Mechanics" (with E. U. Condon) 1930, "Vibration
-and Sound" 1936, "Methods of Operations Researeh"” (with G. E.
+and Sound" 1936, "Methods of Operations Researeh" (with G. E.
 Kimball) 1950, "Methods of Theoretical Physics" (with Herman
 Feshbach) 1953, and "Queuing, Inventory and Maintenance" 1957,
 and about a hundred journal articles, many of which give results
@@ -412,10 +412,10 @@ Dr. Frank M. Verzuh, who will be assistant director for
 operations of the new Center, will also assist the Project. As
 Director of Statistical Services at MIT since 1946, he has been
 connected with the operation of MIT computational work since 1940.
-In this capacity he has had considerable experience with the £5,
+In this capacity he has had considerable experience with the Lis,
 utilization of various analogue computing equipment - differential
 analyzers, etc., as well as a complete line of digital machines
-ranging from the IBM Type 601 through the Type 7TO4. He received
+ranging from the IBM Type 601 through the Type TO4. He received
 a B.S. degree in Electrical Engineering from the University of
 Denver in 1940, a M.S. degree in Electrical Engineering from MIT
 in 1946, and a Se.D. degree in Electrical Engineering from MIT in
@@ -424,7 +424,7 @@ in 1946, and a Se.D. degree in Electrical Engineering from MIT in
 Professor F. B. Hildebrand has been teaching and conducting
 research in numerical analysis in the Mathematics Department at
 MIT since 1938. He got his Ph.D. in Mathematics from MIT in 1940.
-He 1s the author of three texts: "Advanced Calculus for Engineers"
+He is the author of three texts: "Advanced Calculus for Engineers"
 (1949), "Methods of Applied Mathematics” (1952) and "Introduction
 to Numerical Analysis" (1956) as well as a number of articles in
 various research journals. Only a fraction of his salary will be
@@ -441,15 +441,15 @@ of analogue computers, with conventional IBM equipment and with
 Whirlwind I. A fraction of his salary will be charged to the
 Project.
 
-Dr. FP. J. Corbatd, whose primary responsibility will be the
+Dr. P. J. Corbatd, whose primary responsibility will be the
 administration and supervision of the IBM research assistantship
 and assoclateship program of the 23 New England colleges at the
 Center, will also carry out research and do consulting on research
 problems, especially in the physical sciences. He received a B.S.
 in Physics from the California Institute of Technology in 1950 and
-a Ph.D. in theoretical solid state physics research at MIT in 1956.
+a Ph.D. in theoretical solid state physics research at MIT ln 1956.
 During 1951-56 he was a research assistant in machine computation
-and numerical analysis at MIT and 1s now a Research Assoclate at
+and numerical analysis at MIT and is now a Research Assoclate at
 the Center. Part of his salary will be charged to the Project.
 
 In addition, the members of the MIT Machine Computation

@@ -1,9 +1,9 @@
 NATIONAL SCIENCE FOUNDATION
-| Washington 25, D, C,
+| Washington 25, D., C,
 
  
 
-FOR PRESS AND RADIO NSF-181 "FOR RELEASE |
+FOR PRESS AND RADIO NSF-181 FOR RELEASE |
 Telephone: STerling 3-21.40 December 3, 1956
 ‘Extension 3100
 
@@ -15,7 +15,7 @@ research in numerical analysis was announced today by Alan T, Waterman, Director
 of the National Science Foundation. Grants totaling $230,000 were awarded as
 follows: Cornell University, $50,000; University of California (Berkeley),
 $50,000; University of Pennsylvania, $70,000; Princeton University, $40,000; and
-Stanford University, $20,000, ee
+Stanford University, $20,000. Th
 
 (Note to Editors and Science Writers: For you who are keeping
 a running account of computer grants, and because it spells
@@ -49,7 +49,7 @@ evolution and nuclear physics will continue to employ the machine, while further
 use is related to the design, construction, and operation of a 3 billion volt pro-
 ton accelerator now under way at Princeton.
 
-= More -
+- more -
 
 
 The grant to Stanford University will support numerical analysis, applica-
@@ -58,12 +58,12 @@ in the techniques of machine computing. Fields in which the computer at Stanford
 has had wide use include statistics, mathematics, physics, engineering and bio-
 chemistry.
 
-3g
+=—30-m.
 
 Attachment
 
 
-N T= >,
+5 T= >,
 
  
 
@@ -80,10 +80,10 @@ IN SUPPORT OF COMPUTATION CENTERS
 The first in a series of grants in support of computation
 centers and research in numerical analysis were announced today
 by Alan T. Waterman, Director of the National Science Founda-
-tion. Grants totaling $135,500 have been awarded as follows:
+tion. GCrants totaling $135,500 have been awarded as follows:
 California Institute of Technology, $38,000; Massachusetts
 Institute of Technology, : Oregon State College, $20,000;
-Epa of esmmetes $17,500; University of Wisconsin,
+TY of Weshingten, $17,500; University of Wisconsin,
 
 30,000.
 
@@ -111,7 +111,7 @@ computer has been growing in importance as a major research tool
 since World War II. The art of high-speed computation has now
 progressed to the point where many scientists feel that further
 progress in their fields will be seriously affected by access to
-the techniques and facilities for computation. At least two
+the techniques and facllities for computation. At least two
 obstacles must be overcome in making theoretical advances in
 scientific research: formulation of adequate conceptual models
 of a natural process, and calculation of anticipated observa-
@@ -125,13 +125,13 @@ models inadequate for representing many interesting processes
 or, in cases where linear analysis remains relevant, have
 increased enormously the size of the linear system employed.
 
-Use of mathematical models in biological and sociological re-
+Use of mathematical models in biological and sociological re=-
 
-- Search has induced consequences similar to those in the physical
+- Search has Induced consequences similar to those in the physical
 sciences. It is an historically remarkable coincidence that,
 parallel to the emergence of these difficulties, a means of
 dealing with them has been found in the art of high-speed com-
-putati One. = :
+putati One. '
 
 The Director added that the need for adequate computer
 facilities for basic research problems must be considered
@@ -161,7 +161,7 @@ of existing machines requires research in numerical analysis.
 Scientists are daily encountering problems beyond the capacity
 of existing machines, and, if the need for better equipment 1s
 to be met, investigation into the theory and engineering of
-computing machines is essential.
+computing machines 1s essential.
 
 Foundation support for various aspects of computer re-
 search and training has been worked out with the advice and
@@ -174,7 +174,7 @@ School of Mathematics, Institute for Advanced Study; Gerald M.
 Clemence, Director, Nautical Almenac, U. S. Naval Observatory;
 Joseph O. Hirschfelder, Department of Chemistry, University of
 
-De
+ie
 
 
 Wisconsin; Ralph E. Meagher, Department of Physics, University
@@ -185,19 +185,19 @@ of Mathematics, Cornell University; Martin Schwarzschlld,
 Department of Physics, Princeton University; Edward Teller,
 Department of Physics, University of California; Walter H. Munk,
 Scripps Institution of Oceanography; S. M. Ulam, Los Alamos
-Scientific Laboratory.
+Scientific Laboratory. |
 
 
 ROUTING SHEET
 
 Will recipients please check off their names, make appro-
-priatz comments, and send the material on to the next person on
+priate comments, and send the material on to the next person on
 
 the list. Will the last on the list please return it to me.
 
 P. M. Morse, Room 6-109, ext. 857
 
-TREE 5 EB el
+ed RN
 
  
 
@@ -208,7 +208,7 @@ TREE 5 EB el
 
 , Comments
 
-5 Comments Y'R4.
+y Conments YR 4.
 
  
 
@@ -216,7 +216,7 @@ TREE 5 EB el
 
  
 
-Comments i f : |
+Comments vu J : |
 
  
 
@@ -227,6 +227,6 @@ Comments i f : |
  
 
 , Comments
-A) ae ee od
+A A EES i i i i A i aa a A i anes aaa
 
 
