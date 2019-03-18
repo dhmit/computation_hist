@@ -6,19 +6,26 @@ var highlighting = true;
  * Assembles code into program which is placed in computer.
  */
 function assemble() {
-    if (typeof(GENERAL_ASSEMBLER) !== "undefined") {
-        code = document.getElementById("code_box").value;
-        code_lines = code.split(newline_regex);
-        computer.assemble(0, code_lines);
-    } else {
-        const code = $(".symbolic_code");
-        const code_innerHTML = Array(code.length);
-        for (let i = 0; i < code.length; i++) {
-            code_innerHTML[i] = code[i].innerHTML;
-        }
-        computer.assemble(0, code_innerHTML);
+    if (typeof GENERAL_ASSEMBLER !== "undefined") {
+        clear();
     }
-    update();
+    try {
+        if (typeof(GENERAL_ASSEMBLER) !== "undefined") {
+            code = document.getElementById("code_box").value;
+            code_lines = code.split(newline_regex);
+            computer.assemble(0, code_lines);
+        } else {
+            const code = $(".symbolic_code");
+            const code_innerHTML = Array(code.length);
+            for (let i = 0; i < code.length; i++) {
+                code_innerHTML[i] = code[i].innerHTML;
+            }
+            computer.assemble(0, code_innerHTML);
+        }
+        update();
+    } catch (err) {
+        clear();
+    }
 }
 
 /**
@@ -86,6 +93,8 @@ function update() {
                 general_memory_html[i].style.backgroundColor = "deepskyblue";
             } else if (i === next_instruction_address && !computer.halt) {
                 general_memory_html[i].style.backgroundColor = "#ff0066";
+            } else if (typeof highlighted_registers !== "undefined" && highlighted_registers.includes(i)) {
+                general_memory_html[i].style.backgroundColor = "mediumseagreen";
             } else {
                 general_memory_html[i].style.backgroundColor = "transparent";
             }
@@ -98,7 +107,8 @@ function update() {
     instruction_location_counter_element.innerHTML = computer.ilc.toString();
     instruction_location_counter_element.title = "Location: " + computer.ilc.valueOf();
 
-    $("#instruction_register").html(computer.instruction_register.toString());
+    $("#instruction_register")[0].innerHTML = computer.instruction_register.toString();
+    $("#instruction_register")[0].title = "Operation: " + computer.instruction_register.get_instruction_str();
 
     storage_register_element = $("#storage_register")[0];
     storage_register_element.innerHTML = computer.storage_register.toString();

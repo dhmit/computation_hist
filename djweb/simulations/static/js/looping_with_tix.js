@@ -1,5 +1,6 @@
 const computer_size = 8;
 const num_code_lines = 5;
+const highlighted_registers = [7];
 
 /**
  * Initializes looping_with_tix.jinja2, including initializing register 3 of general memory to
