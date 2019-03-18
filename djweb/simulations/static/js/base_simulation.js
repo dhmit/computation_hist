@@ -137,6 +137,8 @@ function update() {
     index_c_element = $("#index_c")[0];
     index_c_element.innerHTML = computer.index_c.toString();
     index_c_element.title = "Value: " + computer.index_c.valueOf();
+
+    update_line_desc();
 }
 
 /**
@@ -145,6 +147,20 @@ function update() {
 function clear() {
     computer.clear();
     update();
+}
+
+function update_line_desc() {
+    let line_desc;
+    if (typeof GENERAL_ASSEMBLER !== "undefined") {
+        line_desc = "Next Instruction to be Executed: ";
+        line_desc += computer.general_memory[computer.ilc.valueOf()].instruction.toString();
+    } else {
+        let code_line = Math.min(computer.ilc.valueOf(), num_code_lines-1);
+        if (typeof line_descriptions[code_line] !== "undefined") {
+            line_desc = line_descriptions[code_line];
+        }
+    }
+    $('#line_desc')[0].innerHTML = line_desc;
 }
 
 /**
