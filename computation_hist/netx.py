@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 import operator
-import math, random
+import math
 
 # from common import get_metadata_google_sheet
 from document import Document
@@ -214,6 +214,25 @@ def fancy_network(g):
     plotly.offline.plot(fig, filename='computation_hist/data/network.html')
 
 
+def graph_to_csv(graph, file_path='computation_hist/data/graph.csv'):
+    """
+
+    :param graph: Networkx Graph object
+    :param file_path: Path or str object
+    :return: None
+    """
+
+    dicts = nx.to_dict_of_dicts(graph)
+
+    with open(file_path, 'w') as file:
+
+        # Set up Nodes
+        headers = []
+        writer = csv.DictWriter(file, headers)
+        writer.writeheader()
+
+
 if __name__ == '__main__':
-    graph = make_graph(debug=True, max_nodes=50)
-    print(list(graph.nodes)[2:5])
+    graph = make_graph(debug=True, max_nodes=10)
+    # graph_to_csv(graph)
+    print(nx.to_dict_of_dicts(graph))
