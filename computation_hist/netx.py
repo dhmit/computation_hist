@@ -214,25 +214,40 @@ def fancy_network(g):
     plotly.offline.plot(fig, filename='computation_hist/data/network.html')
 
 
-def graph_to_csv(graph, file_path='computation_hist/data/graph.csv'):
+def graph_to_csv(graph,
+                 node_path='computation_hist/data/nodes.csv',
+                 edge_path='computation_hist/data/edges.csv'):
     """
 
     :param graph: Networkx Graph object
-    :param file_path: Path or str object
+    :param node_path: Path or str object
     :return: None
     """
 
-    dicts = nx.to_dict_of_dicts(graph)
+    edges = graph.edges.keys()
+    nodes = graph.nodes.keys()
 
-    with open(file_path, 'w') as file:
+    # Set up Nodes
+    with open(node_path, 'w') as file:
+        headers = ['node', 'weight']
+        writer = csv.writer(file)
 
-        # Set up Nodes
-        headers = []
-        writer = csv.DictWriter(file, headers)
-        writer.writeheader()
+        writer.writerow(headers)
+        for node in nodes:
+            writer.writerow([node, graph.nodes[node]['weight']])
+
+    # Set up Edges
+    with open(edge_path, 'w') as file:
+        headers = ['author', 'recipient', 'weight']
+        writer = csv.writer(file)
+
+        writer.writerow(headers)
+        for edge in edges:
+            writer.writerow([edge[0], edge[1], graph.edges[edge]['weight']])
+
+
 
 
 if __name__ == '__main__':
     graph = make_graph(debug=True, max_nodes=10)
-    # graph_to_csv(graph)
-    print(nx.to_dict_of_dicts(graph))
+    graph_to_csv(graph)
