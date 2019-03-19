@@ -1,96 +1,92 @@
-f . ____
+= MASSACHUSETTS INSTITUTE OF TECHNOLOGY
+( INTER-DEPARTMENTAL)
 
-/- MASSACHUSETTS INSTITUTE 01? TECHNOLOGY
-(INTER~DEPARTMENTAL)
-OFFICE OF: P. H. Morse and April 6, 1955
-
+OFFICE OF: P. M. Morse and April 6, 1955
 J. D. Porter
 
-To: Dr. F. L. Foster
-Room 5-105 . —
+TO: Dr. F. LL. Foster
+Room 5-105 = -
 
-SUBJECT: Continuation of contract N50r106001 (D.I.C. 63h5 and
-69150beyond current expiration date for the period
+SUBJECT: Continuation of Contract N5ori06001 (D.I.C. 6345 and
+6915) beyond current expiration date for the period
 1 July 1955 through 30 June 1956
 
-REFERENCE: O.N.R. Contract N50r106001
+REFERENCE: O.N.R. Contract N5ori06001
 
-In accordance with conversations with O.N.R. represen—
-tatives in Washington and Boston, we recommend applying to 0.N.R.
+In accordance with conversations with O.N.R. represen-
+tatives in Washington and Boston, we recommend applying to O.N.R.
 for an additional $30,000 to supplement expenditures of Projects
-65h5 and 6915 for 1955-1956, so they may be continued at the
-agreed—on level. Project 6915 will be tapered off next year. It
-probably will have about 870,000 unexpended of funds already allo-
-cated and its part of the budget will be about this amount, so no
+6345 and 6915 for 1955-1956, so they may be continued at the
+agreed-on level. Project 6915 will be tapered off next year. It
+probably will have about Z70,000 unexpended of funds already allo-
+cated and its part of the budget will be about this amount, 80 no
 more is needed for this part of the work.
 
-ProJect 6345 (HWl operation) will have an increased
+Project 6345 (WWl operation) will have an increased
 budget next year of about $160,000, caused by the considerable
-increase in the use of WW1 for pure research, by groups in all
+increase in the use of WWl1l for pure research, by groups in all
 Departments of the Institute. The increased cost of this increase
-in aid to research work will be borne by instituting a system of
-charges for machine time to those non-O.N.R. projects at M.I.T.
+in gid to research work will be borne by instituting a system of
+charges for machine time to those non-O0.N.R. projects at M.I.T.
 which can afford to help, in accordance with a procedure which has
 been approved by O.N.R. It is estimated that the "income" from
-these charges will be about $60,000 next year. In addition, about
-$70,000 will be left unexpended, of funds already allocated to
-53:5, by 30 June 1955. Th1! leaves $50,000 to be requested in
-new funds. The detail? of the combined budget for the two projects
+these charges will be about 260,000 next year. In addition, about
+70,000 will be left unexpended, of funds already allocated to
+GH, by 30 June 1955. ‘rhis leaves $%0,000 toc be requested in
+new funds. The details of the combined budget for the two projects
 
-an»: .. 1w riﬂe/‘1 . -. A... m Min». .1 11 m - an... ”3-17..
-Hluenc Es “Scri : g ton on .ne us“. page. .he took erser.
+vane Roney Te NTE mmf allan ’ . oT ono on am 2 AV, ~ an A . ~~ rn -~ Lu me =) po mrs
+RING up ADorlUCLOL LIQ Blven Tn YhG Nav pags. Lilc vaen Ciraeis
 
-for the—tug projects -aelude:
-
- 
+for the two projects iaclude:
 
  
 
-1“ Research in methods of numerical analysis and the
-formulation of scientific probl * “or machine
-solution, together with the training of personnel
-in these methodu.
+pti a ——
+—— A — ——— EE ————— a —
 
  
 
-2. Support or the scientific and engineering applications
+1. Research in methods of numerical analysis and the
+formulation of scientific problems for machine
+solution, together with the tralning of perscunel
+in these methods.
+
+2. Support of the scientific and engineering applications
 group of Project "Whirlwind" so as to make the computer
 useful and available for the above research.
 
+— A —— A ——
 
-3 Secretaries
 
-4 Computer Operators
-1 Photo Lab Assistant
-
-Materials and Services
-
-including replaceme
-
-nt computer parts,
-office supplies, re
-
-ports, telephone, etc.
-
-Total to be Pequeated or O.N.R. for 1955—1956
+-2e
+| Satestes ESI BUDGET £55 p po 6345 and Goys ———
+Salaries and Wages
 
  
 
-6,350
-3,000.
+ 
 
-48,000
+Administrative Supervision 6,350
+Technica} Supervision, Professop 1/4 time 3,000
+20 Research Assistants ang Associates gt an
+average 8alary of 32,400 48,000
+7 Mathematicians at 36,000
+Analysts ang Programmers) | 42,000
+3 Secretaries 10,000
+4 Computer Operators 13,200
+1 Photo Lap Assistant 3,300
+5 Typists ana Clerks (Tape Preparation) 16, 800
+Overhead (at 40 per cent) 57,060
+Travel 5,000
+Materials and Services
+including replacement computer parts,
+office Supplies, reports, telephone, eta, 25,000
+1naTod wrotmentod fom ST mmm aa 229,710 _
+Estimated unexpended funds 140,000
+Estimated "income" from machine charges 60, 000
+200,000
 
-42,000
-10,000
-
-13,200
-3,300
-16,800
-1h2,650
-57,060
-5,000
-
-25:000
+Total to be requested of O.N.R. for 1955-1956 29,710
 
 

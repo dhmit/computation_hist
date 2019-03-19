@@ -1,108 +1,174 @@
-HARVEY COHN.
+830 HARVEY COHN.
+n for convenience as
 
-830
-which are written for convenience as
-10 2) ¢(Q-P-S)¢’ or ¢’(S.P.Q)¢.
-( - e minced matrices neighbors of ¢‘
-
-5 formed, we call th
-6 neighbors, depending on the ”lame
-6 matrix 95‘ Furthermm‘e: (Positively)
-the same neighbors. To calculate the
-ires not even a mental picture of the
+5(Q.P-)¢ O
+ormed, we call th
+3, 4, 5, or 6 neighbors, depending on the relative
+g in the matrix ¢. Furthermore, (positively)
+o the same neighbors. To calculate t}1,1e
+s not even a mental picture of fhe
 The automatic process will now
 
-Of the 24 matrices 4% tliu
-5 creates 3, 4, 5, or
-9 components in th
-ced matrices have
-neighbors is Very easy in that it reqn
-lattice as did the Minkowskian algorithm.
-be given in terms of an illustration.
+which are writte
 
-This proces
-magnitude of til
+(10.2)
+Of the 24 matrices ¢’ thus f
+
+& (S-P.Q)%:
+
+e reduced matrices neighbors of ¢
+
+This process creates
+f the component
+ced matrices hav
+:n that it require
+jan algorithm.
+
+magnitude ©
 proportional redu
+neighbors 18 Very easy
+Jattice as did the Minkowsk
+be given in terms of an illustration.
 
 For instance consider the lattice with
 
-t ative calculation. . p
-11' musr =2cos 21rij/7. We obtain the array of
+11. Illustrative calculation.
+__9cos 2nij/%. We obtain the array of
 
-. N .
-reduced baSis, (compare 1), 17o
-
+reduced basis, (compare ), bij
 (approximate) numerical values:
+
 P Q R S
-m, 1.25 — .115 —1.80 1
-4a: a, #160 1.25 — .45 1
-:r3 ~ .45 ~ 1.80 —— 1.25 1
+e 180, D
 
-Looking at the :01 row we ﬁnd the elements of like sign cornpai‘e as
+oo s o 120 a5 1
+EaE 1m0 125 1
 
-follows in numerical magnitude:
+- 1 L ; . 1 ‘ : I I l ]
 
-(11.1) lal>lqily lexl>|51t
+follows in numerical magnitude :
 
-written as ( .R.Q), ( .P.S). The elements of unlike sign compare as follows
+(11.1) (| > | @ s | pa| > |81l
+written as ( -R.Q), ( P.8). The el
 
 in numerical magnitude:
-(11-2) ln|<|nt qu|<lpat lq1l<lsih 1s.|<1r.l,
-written as (RR. ), (Q.P. ), (QS. ), (SR. ) respectively.
 
-Looking at the .7:2 row we obtain six more entries, ( .P.R.), ( 13.3.);
-(Q.P. ), (SP. ), (R.Q ), (RS. )', and looking at the $3 row we obtain six
-ﬁnal entries, ( .Q.P.),( .133); (RE. i, (BS. ), (RI). ), (SQ. ).
+(11'2) 1P1|<\r1l’ ‘qll<lpll> ‘q1‘<‘81‘) l31|<"”1\;
 
-We now have 18 entries (possibly repetitive), and the rule is simpl,v
-that the neighbors are those remaining when the triples oi the above 13 type»
-are eliminated. Thus going back (11.1) we see the entry ( .lt.Q) dispoSUS
-0f (BBQ) and (SEQ) as neighbors, while in (11. 2), the entry (RR l
-diqwses of (BBQ) and (HRS), etc. It is seen that only three neigthl's
-for 4% are left, namely ¢.,(1).Q.R)¢i, ¢9(Q.R.P)4>;, ¢u(]lj-P‘Q)¢3, which occur
-in the lower left hand corner of ﬁgure 1 below:
+written as (P.R. ), (@-P. ), Q8. ), (S.B. ) respectively.
+
+i PLO;)kinSg ;t the 2, row we obtain six more entries; (PRY, 0.5.);
+ﬁnz;l .ent,r'( SL ()RQ ), (B.S. ); and looking at the 23 row Wc; 0\‘)tai11 si;'
+- Ties, (1 Q.P),( .R8); (BR. ), (P8. ), (BQ-) (8.0 )
+
+that thi 2:;2 1lave 18 entries (possibly repetitive), and the 1'111:3 is simply
+7% eli";i tg;)ors‘are thO‘SG rcmaining when the triples of the above 18 )Wl,.:;
+. (p_é ;;c; eal.l'll;us going back (11.1) we see the entry ( R.0) dvis[;oscs
+disposes.gf (;(R g E.Q) ai neighbors, while in (11.2), the cntry (BB
+for ¢, are left 'm'ml)eﬁnd (11) R.8), ete. It is seen that only threeu neighbors
+in the lower ; Y $0(P.Q-R) 1, 60 (Q.EF) o, $o(B.P.C) ¢ which oceur
+
+ower left hand corner of figure 1 below % e J
+
+ements of unlike sign compare as follows
 
  
 
+,,,,,
+
+  
+  
+
 A PERIOD
-io ALGORITHM FOR CUBIC Foaiis
-. . 831
+IC AL
+GORITHM FOR CUBIQ ¥
+ORMS.
+831
 
-w
-7 (lies)
+X
 
-    
+-
+ety
 
-(ms)
+  
+     
+       
+     
 
-(am)
+-t al
 
-12. Closed chains. By use of this neighbor
+>
+(Qps)
 
-cession of 3 X 4: matrices «1:. They must neees ' '
+ 
 
-of strict proportionality classes. For instance, ::1tl::ricii;rtdpt(ii:dc::ea ﬁmie S'Et
-the successwn of neighbors ¢D(PQR)¢1(RPS)¢5(BSP)¢ (PRQ) "Viéltam
-hard to guess even from the approximations used above2 that ¢SLI 15 “0t
-indeed it can be seen to check with the deﬁning equations 95* N (#0)
+(PRS)
 
-p In this way We obtain by succession sub-sets of the matrices in eacl
-strict proportionality class (in fact, we obtain sub-sets with positive relati '1
-proportionality constants). Certain of these strict proportionality classes ii:
-neighbors to one another. Hence we may always draw these classes as oiht:
-connected by lines indicating neighbors. This is done in ﬁwures 1 and ‘7 p 'I
-also see tables below). D N (qlh
+(RPQ)
 
-process we obtain a suc-
+12. Closed chains
+
+cession of 3 X 4 matrice.s ¢Byrl:1se of this neighbor process
+
+of strict proportionality cla. hey must necessarily correspond
+the succession of neighbor sses. For instance, referring topttiln to a finite set
+hard to guess even from St}:b o(PQR) ¢ (RPS )és(RSP)¢ ( p; e W'e obtain
+s dcadht oaniherssen & e approximations used ah ,2 Q) ¢s; it is not
+o check with the definine equafm e, that ¢s = 4,,
+
+o 1018,
+
+we obtain a suc-
 
 and
 
-‘ 13. Further calculations. We submit now, the calculations of closed
-chains, summarized in the accompanying table. The modules taken are some
-of the integral modules with lowest discriminant. The case A9: 196 is the
-snbniiodule of index 2 of A9: 49, while A2 = 148 is, of course, “Ollri’tiu‘li‘dll.
+In thlS wa
+3 y we obtain b .
+strict proportionali y succession sub-
+alit - sets of th e
+EEOpCTianatGy cons{a;}cass (in fact, we obtain sub-sets wiethmatch,e gL feach
+neighbors to one anotl Sk el el e dholc: Pl‘oportionpfiltwe g
+1€T. ) alitv classes ar
 
-[€110 (0:1) conjugates are taken in an order consistent with the Sign matrix
-4. 22).
+connected by e I . Hen.ce we may always A theea 1l Y classes are
 
-i»
+see tables below). is done in figures 1 and 2 (q. v
+
+e
+F
+
+s K
+
+X
+
+SXE
+
+-
+
+-
+
+-
+.
+- .
+'b
+
+    
+
+13.. E
+. Further calculati
+: ul ;
+s = : - ations. We submit now, fiv ;
+, summarized in the ac . ) e calculations of closed
+of the inteoral modul ; companying table. The modules taken ar ]
+Sul)'lnoduleb o ules with lowest discriminant. The case A* L
+lule of 1nde: 2 == , : ase A% == 196 is the
+The (2:) conjug x 2 of A2=49, while A? =148 is, of course, non-al “-.thC
+(4. 92) jugates are taken in an order consistent with til(; ona elian.
+Xt 2 sion matrix
+o P
+
+- -
+-
+
+-
+N A

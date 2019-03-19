@@ -2,21 +2,20 @@ April 9, 1957
 
 Mr. James G. Kelso
 Exec. Asst. to President
-Room 3—208
+Room 3-208
 
 Dear Mr. Kelso:
 
-Enclosed is a list of persons suggested to
+Enclosed 1s a list of persons suggested to
 be invited to the ceremonies on June 10 in connection
-with the formal presentation of the IBM equipment to
+with The formal presentation of the IBM equipment to
 the Computation Center by Mr. Watson.
 
 I include addresses for the non-MIT people.
 There are probably duplications in the MIT list,
 with other lists you have. I presume you will take
 care of these. This does not include the list of
-
-10—12 names of IBM people, which I understand you will
+10-12 names of IEM people, which I understand you will
 obtain directly from Mr. Blackburn.
 
 Yours truly,
@@ -24,12 +23,14 @@ Yours truly,
 Philip M. Morse, Director
 M.I.T. Computation Center
 
-PMMthn
+PMM: jtn
 
 Enclosure
 
+ceil
 
-Representatives cg Cooperating Colleges:
+
+Representatives of Cooperating Colleges:
 
 Prof. Guy H. Orcutt
 Dept. of Economics
@@ -42,7 +43,7 @@ Brown University
 
 Providence, Rhode Island
 
-Prof. Martin w. Essigman
+Prof. Martin W. Essigman
 
 Head, Dept. of Electrical Engineering
 Northeastern University
@@ -61,7 +62,7 @@ Dept. of Mathematics
 Bowdoin College
 Brunswick, Maine
 
-Prof. James M. Sakoda
+Prof. James HM. Sakoda
 Dept. of Psychology
 University of Connecticut
 Storrs, Connecticut
@@ -71,7 +72,7 @@ Research Coordinator
 Tufts University
 Medford, Massachusetts
 
-Prof. R. w. Southworth
+Prof. R. W. Southworth
 
 Dept. of Chemical Engineering
 Sterling Chemical Laboratory
@@ -86,7 +87,7 @@ University of New Hampshire
 
 Representatives of Cooperating Colleges (2)
 
-Rev. William G. Guindon, S.J.
+Rev. William @. Guindon, S.J.
 Chairman, Dept. of Physics
 Boston College
 
@@ -100,7 +101,7 @@ Middletown, Connecticut
 
 Prof. David L. Falkoff
 Dept. of Physics
-Brandeis University
+Brandeis Unlversity
 Waltham, Massachusetts
 
 Prof. Niels Rorholm, Head
@@ -109,34 +110,21 @@ Dept. of Agricultural Economics
 University of Rhode Island
 Kingston, Rhode Island
 
-Prof. Janet E. Guernsey
+Prof. Janet B. Guernsey
 Dept. of Physics
 Wellesley College
 Wellesley, Massachusetts
 
-M.I.T. List
-
- 
-
-Prof. s. H. Caldwell Prof. J. c. Slater
+Prof. S. H. Caldwell Prof. J. C. Slater
 Prof. S.H. Crandall Prof. R. C. Booton
-Prof. J. w. Forrester Prof. s. Namyet
-Prof. Claude Shannon Prof. P. M. Morse
+Prof. J. W. Forrester Prof. S. Namyet
+Prof, Claude Shannon Prof. P. M. Morse
 Prof. D. Durand Prof. Dean Arden
 Prof. C. C. Lin Dr. F. Verzuh
-Prof. J. F. ReintJes Dr. F. Corbato
+Prof. J. F. Relint jes Dr. F. Corbato
 
 Prof. H. Feshbach
 Prof. J. G. Charney
-
 Prof. G. W. Clark
-
- 
-
- 
-
- 
-
-¥
 
 

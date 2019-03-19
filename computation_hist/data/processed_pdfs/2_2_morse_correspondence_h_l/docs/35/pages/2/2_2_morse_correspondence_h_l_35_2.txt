@@ -1,0 +1,258 @@
+392 J. B. GOODENOUGH AND A. L. LOEB
+
+TasLE I. Observed cation distributions in some oxides with the spinel structure.®
+
+J
+
+X1+ Y3+ or Z4* At ya+ Cr3+ (Mn?t) Fe*
+Ionic
+radiusb 0.57 0.66 0.64 0.70 0.67
+Mg** 0.78 Ne Nd Ne It!
+Mn?t 0.91 N¢ Nd Ne (N)e I°
+Fe?t 0.83 Ne Nd Ne I
+Co?* 0.82 Ne Ne I
+Niz* 0.78 IN3Ie Ne I
+Cu?t (0.70?) N]i Ik Ite
+Zn?* 0.83 Ne Nd Ne (N)° Ne
+Cd* 1.03 Ne Ne Ne
+Lit 0.78 Al(LijAly)Oge Fe;Lij (Cra)Oqe
+
+Rh3* Gat ' Indt Get* Snit Tit+ Sit+ Vit
+0.69 0.62 0.92 0.44 0.74 0.64 0.39 0.61
+Ne Ith It! 0° I° 0! Je
+Ne I° I
+No
+Ne [N] It Ie Pi
+Ne [N ]i
+Fe(LijFe;) 04
+
+e e R N e e
+—_—_—n
+
+s [N] means normal structure inferred, cation distribution not experimentally established. Distributions marked with daggers are not entirely inverse;
+the number of divalent ions in the tetrah'edral sites are temperature-dependent. The letters N, I, O, P refer to normal-spinel, inverse-spinel, olivine, and
+
+phenacite structures, respectively.
+
+b Atomic Radii: Handbook of Chemistry and Physics (Chemical Rubber Publishing Company, 1953-1954), thirty-fifth edition. Goldschmidt values
+
+wherever available,
+¢ F. C. Romeijn, Philips Research Repts. 8, 304 (1953).
+d G. H. B. Lovell, Trans. Brit. Ceram. Soc. 50, 315 (1951).
+eE.J. W. Verwey and E. L. Heilmann, J. Chem. Phys. 15, 174 (1947).
+{ T. F. W. Barth and E. Posnjak, Z. Krist. 82, 325 (1932).
+¢ W. Riidorf and B. Reuter, Z. anorg. Chem. 253, 177, 194 (1947).
+b F, Machatschki, Z. Krist. 82, 348 (1932).
+
+i A, F. Wells, Structural Inorganic Chemistry (Oxford University Press, London, 1950), second edition.
+
+} L. Passerini, Gazz. chim. ital. 60, 389, 754 (1930).
+k McGuire, Howard, and Smart, Ceram. Age 60, 22 (1952).
+I . Buschendorf, Z. physik. Chem. (B) 14, 297 (1931).
+
+coincide with their predictions, which were based only
+on the electrostatic and elastic forces in a purely ionic
+model, Verwey and Heilmann’ suggested that the
+anomalies could be accounted for by the stability of the
+tetrahedral covalent bonds which form about certain
+cations when located in tetrahedral interstices.
+
+Romeijn* has suggested that ions with a noble-gas
+outer-electron-shell structure, such as Mg*t, A**, and
+Ti**, are less compressible than ions with a full or half-
+filled d-shell, such as Zn**, Cd**, Ga’®*, In®*+, Ge*t, Snt,
+Mn**, and Fe**, so that the latter group is more easily
+accommodated in tetrahedral sites than is the former.
+It is not obvious why a full or half-filled d shell should
+be more compressible than a noble-gas shell. However,
+since the outer electron shells in noble-gas structures
+are separated from the next higher energy levels by a
+considerable energy gap, they do not provide empty
+orbitals for the formation of covalent bonds. In transi-
+tion metals the nd and (n4-1)s orbitals differ very little
+in energy. Covalent bonds are therefore easily formed,
+and since covalent bonds involve orbital overlap, they
+are shorter than electrovalent bonds. Therefore the ions
+with outer d shell appear more compressible than those
+with outer noble-gas shell.
+
+Finally Romeijn" and van Santen and van Wier-
+ingen'® considered the effect on electronic binding ener-
+gies of crystalline fields in ionic crystals of cubic sym-
+metry. They stated that the d shell splits in such a field
+into two set of orbitals, one extending along the (111)
+directions, the other in the (100) directions.'®* Van
+Santen and van Wieringen assumed that the former is
+more stable when the outer electron configuration of the
+cation is @ or d® (as in Mn**, Cr**, and Ni?t), but that
+
+'* J. H. van Santen and J. S. van Wieringen, Rec. trayv. chim. 71,
+420 (1952).
+“H. A. Bethe, Ann. Physik 3, 133 (1929).
+
+the latter is more stable for the configuration @® or d7 (as
+in V3 and Co?). An ion with a stable (111) electron
+configuration would, according to van Santen and van
+Wieringen’s express assumption of electrovalent bond-
+ing, fit more easily into an octahedral site where the
+electron charges of the cation can fit between the
+directed anion p orbitals without appreciable overlap.
+An ion with a stable (100) electron configuration would
+fit more easily into a tetrahedral site for an analogous
+reason.
+
+The assumption regarding the relative stabilities of
+the d-shell bonds has never been substantiated. What is
+more important, however, is that the result of the over-
+lapping of the filled oxygen p orbitals with the empty
+cation orbitals has been ignored. Such an overlap gives
+rise to coordinate covalence which reduces the polarity
+of the cation-anion bond, stabilizes the system, and
+reduces the effective anion radius. The influence of
+electrostatic and elastic energies on cation ordering is
+reduced. It will be shown below that if covalent con-
+siderations are used to supplement and modify the
+electrostatic and geometric considerations of the purely
+ionic model, the cation distributions in the spinel
+lattice can be readily accounted for without recourse
+to an assumption either with regard to the d-shell
+splitting of various atoms or to the compressibility of
+the d shell.
+
+The cation distribution in a crystal is determined by
+its minimum free energy A=E—TS, where 7T is its
+absolute temperature, S is its entropy, and E, its
+internal energy, is the sum of an electrostatic contri-
+bution E;, an elastic (Born-repulsion) contribution E,,
+and an electronic-bonding and exchange contribution
+E,. In the spinel lattice, covalence effects E;, E,, and E,.
+In the absence of covalence E, approximately equals
+zero. Covalent bonding makes E, appreciably negative
+
+THEORY OF IONIC ORDERING 393
+
+and, by decreasing the ionic charge and bond length,
+alters the influence of E; and E,. Since disorder corres-
+ponds to high entropy and the entropy contribution
+(TS) increases with temperature, high temperatures
+tend to disturb ordering.
+
+III. COVALENT BONDS
+A. Introduction
+
+It was pointed out in Sec. ITA, above, that spinels
+are an ordered mixture of the zinc-blende and rock-salt
+structures. It is expected that those metals whose oxides
+form the zinc-blende structure tend to occupy tetra-
+hedral sites in spinels as they do in the oxides. Similarly
+metals whose oxides are of the rock-salt type tend to
+occupy octahedral sites. Frequently the relative stabili-
+ties of the two metals in a given interstice in the spinels
+must be compared before an actual prediction about
+their distribution over the two types of sites can be
+made.
+
+The zinc-blende interionic bond is predominantly
+covalent if the cation is large. Purely ionic forces would
+place the cation in the interstices with the largest anion
+coordination, viz., the octahedral position. The metals
+whose oxides have the zinc-blende structure are there-
+fore expected to be covalently bound to tetrahedral
+sites when in a spinel lattice.
+
+The octahedrally coordinated cations of the rock-salt
+structure may be either electrovalently or covalently
+bound to their near-neighbor anions. The relative
+strength with which a metal, whose simple oxide has the
+rock-salt structure, is held to an octahedral interstice
+in the spinel lattice depends upon the relative charge,
+size, and covalent-bonding of the competing cations.
+Cations which are more stable in octahedral sites in the
+simple oxides tend to go into octahedral sites, but may
+be forced into tetrahedral sites in the spinel lattice.
+Therefore both electrovalence and covalence may be
+found in each type of interstice. To distinguish between
+electrovalence and covalence, the valence of the former
+is written in Arabic numerals (e.g., Mg**), of the latter,
+in Roman numerals (e.g., Zn'!),
+
+In spinel crystals the coordination of the close-
+packed-anion interstices limits the possible cation-
+anion bond types which can be formed. If the stable
+covalent-bond types which any cation forms can be
+independently determined, the anion interstices in
+which the steric constraints are compatible with stable
+covalent-bond formation are known. Measurements of
+the steric structure of complex ions containing a particu-
+lar cation provide the necessary independent information
+since the complex-ion structure is primarily deter-
+mined by the stable covalent-bond formation. Complex-
+ion structure is only secondarily effected by steric
+hindrance and the difference in the electronegativities of
+the components. The steric structure of complex 1ons
+can be determined by optical and by magnetic-sus-
+
+ceptibility measurements.!” Thus a knowledge of com-
+plex-ion structure gives information about both the
+relative stabilities of a cation in octahedral vs tetra-
+hedral coordination and the possible distortion of the
+steric constraints.
+
+If covalent bonds are formed in the spinel lattice,
+both bonding electrons come from the anion, and the
+bond is coordinate-covalent. The near-neighbor anions
+perturb the cations so that they form stable, empty
+hybrid orbitals which overlap with the anion p orbitals.
+If the empty orbitals have energies which are nearly
+degenerate with the outermost filled orbitals, if the
+electronegativity difference between the ions is not too
+great, and if the orbital overlap is large, the empty
+cation orbitals interact with the full anion p orbitals to
+accept electrons from the anions. Then the anion p
+electrons are induced to share their time between the
+cation and the anion. If empty orbitals are not available
+for hybridization, half-filled orbitals can participate in
+covalence. However, filled cation orbitals obviously do
+not participate in covalent-bond formation.
+
+B. The Oxygen Orbitals
+
+The oxygen ion has the structure 1525?2p%. The p
+orbitals are three mutually perpendicular dumbbells.
+In oxides with the spinel lattice each oxygen has four
+near-neighbor cations, of which three are in octa-
+hedral sites and the fourth is in a tetrahedral site. The
+three octahedral sites are situated along three mutually
+perpendicular directions from the oxygen; the tetra-
+hedral site lies in the (111) direction away from the
+quadrant defined by the three octahedral sites. The
+oxygen can bond covalently with any or all of the
+octahedral-cation neighbors through its three p orbitals.
+In this case, however, there are no anion orbitals
+directed toward the tetrahedral site, and the tetra-
+hedral-site cation-oxygen bond is ionic.
+
+If the bond toward the tetrahedral site is covalent,
+the overlap of full oxygen orbitals with the empty
+orbitals of the octahedral-site cations is reduced since
+the oxygen p orbitals no longer point directly towards
+the cations. This reduction in orbital overlap reduces
+the strength of any covalent bonding in the octahedral
+sites.
+
+Thus there is competition between the tetrahedral
+and octahedral sites for overlap with the full oxygen p
+orbitals. Unless strong covalence can occur simul-
+taneously in both types of sites, there will be covalent
+bonding in, at most, one type of site only. If stable
+covalent bonds can be formed in both types of sites at
+once, hybrid (sp*) orbitals, which point toward the four
+corners of a tetrahedron, may be admixed with the p°
+orbitals on the oxygen ion. Such orbitals do not overlap
+as much with the octahedral-cation orbitals as do the
+pure p* orbitals, and the strength of the octahedral-site
+
+17 1, Pauling, The Nature of the Chemical Bond (Oxford Univer-
+
+sity Press, London, 1948), second edition; J. Am. Chem. Soc. 33,
+1367 (1931).

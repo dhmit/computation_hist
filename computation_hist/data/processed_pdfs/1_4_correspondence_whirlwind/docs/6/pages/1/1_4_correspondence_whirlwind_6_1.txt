@@ -1,81 +1,69 @@
-@NORANDUM
+TOs
+FROM s
+" DATE:
 
-\J
-T0: Professor P. M. Home
-FROM: F. M. Verzuh'
-DATE: January 27, 1956
-
-SUBJECT: ONE Usage of the WW1 Computer During the (iv-Month Period
-July 1, - December 31, 1955 ' .
+SUBJECT ¢
 
  
 
  
 
-r—ﬂ'f‘“? ; ~ "”‘.'"_'“‘ "4'47“”
+MEMORANDUM
 
-V
+Professor PA. M. lorse
+¥, Mo Verzuh -
+Jenuary 27, 1956
 
- 
+ONR Usage of the WW1 Computer During the 6-Month Period
 
- 
-
-: I In accordance with our budget discussione with Mr. F» G. W'eyLONR’,
-
-7 I have prepared a Gamma awry of 01m usage of WWI. The attached
-
-§ _ ‘ llwpage table contains a. brealdmm of MR usage on the project basis‘.
-During this 6—month inter-Vial, ONR'S “free time“ usage cf WI].
-
-breaks down as folloWsa
+July 1, - Deoelnber 313 19586
 
  
 
  
 
-“ _ an Machine Computation Committee 2%. 708 n 63
+Ay e v AR m"‘*
+. . .
 
-‘ b . S 011d State ami Molecular Theory (Slater) 29? 092. o 71%
+5
+
+In accordance with our budget discussions with Mr. Fs G. Weyl,ONR;
+ave prepared & 6-month summary of ONR usage of WWi. The attached
+
+T h
+- 4-pege table contains a brealkdown of WW1 usage on the project basis.
+~ . .
+
+During this 6~-month interval, ONR's "free time"™ usage of Wl
+breaks down es followss
+
+ 
+
+‘&, Machine Computstion Comittes 24,708.63
+bo Solid State and Moleoular Theory (Slater) 29,082,74
+Co Miscellaneous projects 21,232,112
+
+| $75,083.49
+
+The totael machine usage during this Gmonth period for this type of
+work is 18,006.6 minutes, oy epproximately 300 hours,
+
+I think the informetion conteinad in the following table, such as
+problem number, titls, programmer, W.Il.T. Depertment, supsrvisor, '
+DIC contract number, ONR contrach., minutes used, and “free time" dollar
+value, should give Mr. Weyl all ths information he needs for budget
+discussionso
 
 i
 
-? U c 0 Miscellaneous Pro je abs 2.1, Qﬁii
-$75 _., ('153 A9
-
-The tote-.1 machine usage during this. (éznonth period for this type of
-work is 18,00636 minutes, 0:- appr '
-
-  
-  
-  
-  
-
-I think the informa' '
-problem number, title N 01*;
-ML! mutraet mu? er ONE 0 «e mime"
-9 sheuld give _ ' " ' needs for “m“
-onsn
-
-; such 2. s
-
-  
-
-(in "L la 1"
-
-  
-
- 
-
- 
-
-A consideration of the attached statistics reveals several iﬁems
-which are worthy of mention. Specifically, some of the thesis research
-is quite expensive as illustrated in the case of Jack Uretsky‘s
-problem 235 in which he has spent $13,925 during a 6-month period: As
-a maﬁter of fact, he has spent $18,152,370 on this problem since
-November, 1954. Similarly. B. Campbell has spent $12,8Sé. ou problem 245
-during this Gwmon’ch pearl 0d, and 31538623955 since November, 1954:.
-Likewise, Mr.» K» Bryan has spent $1,870‘du1-ing the past six months and
-a total of $319,941.60 since November, 19.54:. I ﬁhink the Gwmon'hh expenditure
-of Slater's group - 3329,092.74 is. 8. Earl? indication of the efforts of“
-his group. Furtheymore, his group has» spent $47,944n25 since
+A consideration of the abtbached statistics reveals several ltems
+which are worthy of mentione - Specifically, some of the thesis ressarch
+is quite expensive as illustrated in the case of Jack Uretsky's
+problem 236 in which he has spent $13,926 during a 6-month period. As
+- matter of fact, he has spent $18,132,.70 on this problsm since
+Wovember, 1954, Similarly, B. Campbell has spent $12,834. on problem 245
+during this 6=-month period, and $15,865.,35 since November, 1864,
+Likewise, Mr. K. Bryan has spent {1,870 during the pasit six months and
+a total of $19,941.60 since November, 1954, I think the G-month expenditure
+of Slater's group == $29,092.74 is a fair indicabion of the .efforts of "
+his groupe Furthermore, his group has spent $47,944.25 since '

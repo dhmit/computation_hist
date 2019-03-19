@@ -1,38 +1,34 @@
-Trangcgiplgf conversatipn held between Dr. Hill
-aha Professor éﬁirnex aﬁiing M.I.T. Eentennial
+Transcript of conversation held between Dr. Hill
+~and Professor Charney during M.l.T. Centennial
 
  
 
-H111: How big a computer could you ass, all by
-yourself, twenty-four hours a day, to
+Hilil: How big a computer could you use, all by
+yourselif, twenty-four hours a day, to
 pursue meteorological problems? Assume
 that you have all the operational help
-you need.
+you need,
 
-CHARNEY: I prebably cauld use a 7090 if I wanted
-to devote all of my time to it — which
-I do not. I would like about one hour
+CHARNEY: I probably could use a 70350 if I wanted
+to devote all of my time to it - which
+I do not., I would like about cne hour
 per day on a 7090 for everyday use and
-indefinite time on 4: Stretch type
+indefinite time on a Stretech Type
 occasionally.
 
 Hill: For instance, say you were willing to
-devote all your time. Would the above
+devote all your time, Would the above
 statements change?
 
-(II-KW: Yes.
-
+CHARNEY: Yes.
 Hill: How?
 
-CHARMS? The 7090 now, Stretch later, say in five
-
-years .
-
-u
+CHARNEY: The 7080 now, Stretch later, say in five
+years.
 
 4/26/61
 
-PSH: b1
+AGH: bl
 
-cc: Profs. Fame and rse
-Dr. Wiesner
+¢cc: Profs. Fano and rse
+Dr, Wiesner

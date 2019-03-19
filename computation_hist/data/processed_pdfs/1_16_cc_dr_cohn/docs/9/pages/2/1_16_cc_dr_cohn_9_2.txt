@@ -1,39 +1,34 @@
 Abstract from the Proceedings of the International Mathematical Congress
 Amsterdam, Sept. 1954.
 
-APPROACH TO MARKOFF’S MINIMAL FORMS
+APPROACH TO MARKOFF’'S MINIMAL FORMS
 THROUGH MODULAR FUNCTIONS
 
-HARVEY CORN
+HARrRVEY COHN
 
-The author considers J a sub-group of the modular group of genus one
-corresponding to a fundamental “parallelogram" with rational vertices in tie
-upper half-plane. Such a group J of linear transformations is actually deter-
-mined to within similarity. If A and B are “generating” substitutions, (identi-
-fying opposite sides), then ABA—18‘1 is equivalent to the substitution 2’: 2:6
-and the fixed-point of A, are roots of Markoff’s minimal forms. This can 3e
-shown by combining identities of Frobenius, (Uber die M mica/f Zahlm, Preuss.
-Akadi Wiss. Sitzungsberichte, (1913). pp. 458487), with identities of Fric (e,
-(Uber die Thean'e der automorphen M adulgmppm, Nachi Gesi Wiss. Géttingen,
-(1896), pp. 91—101). This method can be modified to produce classes oi forms
-with a minimum close to one—sixth (rather than one-third) of the discriminant.
+The author considers £ a sub-group of the modular group of genus one
+corresponding to a fundamental “‘parallelogram” with rational vertices in the
+upper half-plane. Such a group .# of linear transformations is actually deter-
+mined to within similarity. If 4 and B are “‘generating’’ substitutions, (identi-
+fying opposite sides), then A BA—1B~!is equivalent to the substitution z’=2-4-6
+and the fixed-point of A, are roots of Markoff’s minimal forms. This can be
+shown by combining identities of Frobenius, (Uber die Markoff Zahlen, Preuss.
+Akad. Wiss. Sitzungsberichte, (1913), pp. 458—487), with identities of Fricke,
+(Uber die Theorie der automorphen Modulgruppen, Nach. Ges. Wiss. Gottingen,
+(1896), pp. 91—101). This method can be modified to produce classes of forms
+with a minimum close to one-sixth (rather than one-third) of the discriminant.
 
-The matrices in 1’ taken by themselves are of some interest since every
+The matrices in # taken by themselves are of some interest since every
 denominator in the modular group must occur in the corresponding linear
-fractional substitution. Sample generators of f are 2' = (z + 1)/(z + 2),
-z’ : (z i 1)/(— z + 2), z’ = (32 — 1)/z, etc. The fundamental domain can be
-described in invariant fashion by the period parallelogram of the u-plane for
+fractional substitution. Sample generators of £ are 2’ = (z + 1)/(z + 2),
+2 = (z—1)/(—=z+ 2), 2 = (32— 1)/2, etc. The fundamental domain can be
+described in invariant fashion by the period parallelogram of the #-plane for
 
-1(2) = [/»'(M)]2 = 4/304) + 1,
-
+J() = [/ ()] = 44%(u) + 1
 (See forthcoming paper in Trans. Amer. Math. Soc. Research sponsored
 
-by the U. S. Army Office of Ordnance Research under contract DA-20-018—
+by the U. S. Army Office of Ordnance Research under contract DA-20-018-
 ORD-12332).
 
- 
-
- 
-
-DEPARTMENT OF MATHEMATICS.
-WAYNE UNIVERSITY DETROIT, MICl-L U. S. A.
+DEPARTMENT OF MATHEMATICS,
+WAYNE UNIVERSITY DETROIT, MIcH. U. S. A.

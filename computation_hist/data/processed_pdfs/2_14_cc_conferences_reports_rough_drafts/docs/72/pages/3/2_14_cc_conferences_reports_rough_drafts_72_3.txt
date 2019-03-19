@@ -1,0 +1,54 @@
+A population model is described with extensions and the organization of
+704 program is also discussed. The Appendix describes various procedures
+of Random Number Generation for computers. The boek is therefore an
+excellent introduction to what simulation really is and how you go about it,
+
+Advances in Computers, Vol, I, Edited by Franz L. Alt. Academic Press,
+
+U, ese are six papers on computing applications which are excellent
+summaries of their respective fields. Included is "Numerical Weather
+Prediction', "Language Translation', "Programming Computers to Play
+Games', "Machine Recognition of Speech’ and "Algebra of Binary Arithmetic'.
+
+C@mgger Programming Fundamentals by Leeds and Weinberg.,, McGraw-
+Hi ook Co., 1961, ’%Eis is a basic machine language programming book
+which uses the 709/7090 as the example throughout. It discusses looping,
+indexing, trapping and interrupts, and the use of data channels. It is
+oriented toward FAP rather than Fortran. This is an excellent book with
+
+good examples and discourse,
+
+   
+
+Superconducting Computers, by W. B, lttner and C. J. Kraus. Article
+in Scientific American, July, 1961, pp.125if. This is an elementary
+exposition of cryotrors and thin film cryotrons as computer elements and
+gives an excellent introduction to this research develecpment.
+
+   
+
+Article in IBM
+
+_ evelopment, April, 1961, pp. 106£f. This paper
+describes some of the newer thinking in associative memories in which
+data is obtained from memory on the basis of content rather than location
+or address.
+
+ 
+
+ 
+
+1620 Newsletter No., 4
+Digtributed by:
+
+M., Loren Bullock
+Room 26 =147
+M. 1. T. C oM putation Center
+
+p T % S 4 ) 2w . . s AT N ™ a &d 4
+Cambridge 39, Massachugetts
+
+ 
+
+th 1ot
+miid/ 1en

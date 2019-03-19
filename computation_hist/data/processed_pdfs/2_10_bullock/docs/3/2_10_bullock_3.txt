@@ -1,0 +1,54 @@
+; : +7090 rovers wai |
+1. Pasar Acces a or Storage : Lo Po NT BRT Mg ;
+
+ 
+
+5 to
+will ce he marl pocesig toe by 9.25. y!
+
+eT
+
+2. Faster Multiply and Divide,
+
+“Both fixed and fio |
+Ing three per eycle | oy
+proximately a ion In oe lly dvd Ue yn ,
+Fedudtion I aver=all job time. X ” 3
+
+AL FD wwe J ONAT IRN ed
+
+3. Single Cycle Instructions
+
+Thirty instructions are now executed in one cycle instead of two, seducing; execution
+time by lia tiniclotin Yas yeti: i, oon
+
+ 
+ 
+       
+ 
+
+ 
+
+ditional wes . boy A TENDS
+* DARE TE CRINgAY hE pga oi rig atin 01 QE 2 Had of
+AXT PAC PXA SIR | Top. “3,
+ESNT ° PAI PXD T™I :
+Ine Jen ERECT 0 Ye IGPAYE JIRA Tio TTR v
+| part ig . TOC ap TOV © XCA "a :
+RE a it py RR 4 TYP, * XOL ; fanned §
+FARA PIR Bd 18 $F EEA En TTR » nas 10 ef
+- tn sito, the olin fo nitions. cs xs 3 ces non
+0 Os IS TRnLIR
+LEFT = RFT |
+LNT “RNT
+
+This will result in soprsiaedly a 2.3% reduction in job time. *
+
+The sum of all these improvements Is a 21% reduction in job time, The 7090 as originally
+announced was 5 times faster than the 709. On the basis of these improvements, the
+7090 is now 6.3 times as fast as the 709.
+
+* The effect on job time has been derived from tracing a representative number of
+computational problems,
+
+

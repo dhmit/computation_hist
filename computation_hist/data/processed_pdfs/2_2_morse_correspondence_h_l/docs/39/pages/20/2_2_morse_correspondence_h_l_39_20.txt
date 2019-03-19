@@ -1,0 +1,264 @@
+102 Journal of The American Ceramic Society—Francl and Kingery
+
+—
+-
+
+GRAPHITE
+
+TOTAL NORMAL EMISSIVITY
+
+ 
+
+0 400 800 1200 1600
+TEMPERATURE (°C)
+
+Fig. 3. Emissivity of materials studied.
+
+(1) Sample Preparation
+
+All samples were prepared in the shape of 1- by 1- by 1-in.
+cubes. The alumina samples were prepared from Norton
+Company 38X, 220 F alumina by grinding in steel mills, acid
+treating to remove iron impurities introduced in milling, and
+casting in plaster molds from an acid suspension as described
+by Hauth.®* Cylindrical pores were selected to study the
+effect of pore anisotropy according to the relations of Loeb
+(Part VIII). Two series of samples were prepared with pore
+diameters of 0.082 cm. and 0.146 cm. by casting around drill
+rods firmly set in the mold. To insure that the suspension
+penetrated into the small spaces between the rods, the mold
+was placed on a vibrating table during casting. After the
+initial set, the drill rods were removed, leaving uniform
+parallel cylindrical pores through the piece. To prevent tear-
+ing from bending or sidewise movement of the rods, cracking
+from drying shrinkage about the rods, or slumping on re-
+moval of the rods, the techniques of moldmaking and casting
+had to be closely controlled. Photographs of a mold em-
+ployed and one of the samples are shown in Figs. 1 and 2.
+The samples prepared are listed in Table IT.
+
+Samples were also prepared having isometric pores of
+nearly uniform size. These were made in this laboratory
+by R. L. Coble by incorporating up to 50 vol. 7 naphthalene
+flakes in the casting slip. Just before use the naphthalene was
+pressed through a 60-mesh screen. After casting, the samples
+were dried for an extended period at 60° to 70°C. until no
+naphthalene odor could be noticed. The samples were then
+fired in the customary manner for 3 hours at 1830°C. After
+firing, polished sections were examined which indicated that
+the pores were roughly spherical or ellipsoidal in shape. The
+area of pore cross sections was determined with a precision
+planimeter; from these data, the mean spherical diameter was
+calculated by the procedure described by Fullman.? The
+samples prepared had properties as shown in Table TII.
+
+In addition to these samples of alumina, samples were pre-
+pared from nickel and graphite with cylindrical pores 0.146
+cm. in diameter. These were prepared by drilling the
+requisite number of pores in each sample. The nickel em-
+ploved was Nivac, an extremely high-purity and homogeneous
+vacuum-cast material supplied by the Vacuum Metal Corp-
+oration, Cambridge, Massachusetts. The graphite employed
+was graphite CS, density 1.55 gm. per cm.?, supplied by the
+National Carbon Company. The samples prepared had
+porosities as shown in Table IV.
+
+s W. E. Hauth, Jr., “Slip Casting of Aluminum Oxide,” J. Am.
+Ceram. Soc., 32[12] 394-98 (1949).
+
+9 R. L. Fullman, ‘“Measurement of Particle Sizes in Opaque
+Bodies,” J. Metals, 5, (March 1953); AIME Trans., 197,
+447-52 (1953).
+
+ 
+
+Vol. 37, No. 2
+
+ 
+
+      
+  
+
+00
+
+0 200 400 600 800
+
+TEMPERATURE (°C)
+
+Fig. 4. Thermal conductivity of AlL,O; sample with 48.7% porosity, iso-
+metric pores. Upper curve is for dense Al,O;.
+
+o -2
+C.” tm.  ‘cm)
+
+k(col. sec
+
+0.000
+
+ 
+
+  
+
+200 400 600 800
+TEMPERATURE (°C)
+
+Fig. 5. Thermal conductivity of Al,O; samples with isometric pores. Per-
+centage porosity for each curve is as indicated.
+
+(2) Experimental Measurements
+
+All measurements of thermal conductivity were carried out
+in the apparatus previously developed in this laboratory
+(Part IV) which employs a 1-in. specimen cube and two 1-in.
+cube standards. Thermocouples are located in holes in each
+sample, so that interfacial thermal resistance is eliminated,
+and multiple guard heaters prevent lateral flow.
+
+For the anisotropic cylindrical pores, two measurements
+are necessary to define the effects of porosity. If the pores
+are set so that their axes are parallel to heat flow, the cross-
+sectional pore fraction, the ratio of pore area to total area, is
+uniform and equal to the pore volume fraction. If the pores
+are set with their axes perpendicular to the heat flow, the
+cross-sectional pore fraction will vary with the position in
+the sample. For the samples tested here the maximuin
+cross-sectional pore fraction will be largest with the pores per-
+pendicular to heat flow. For the random isotropic pores, the
+cr.oss-secti(mul pore fraction is independent of position or
+direction and is equal to the volume pore fraction.
+
+In addition to the geometry and number of pores and the
+thermal conductivity of the solid, it is necessary to know the
+total emissivity of the material for the calculation of
+the effects of porosity (see Table I). These data were
+available for Al.O; samples prepared in this laboratory and
+were determined by Vianey?® using Brownlow’s method
+which has been described by N’nrton‘.”"’ The value ranges
+from ().;’.H .to.(HH. which is similar to most refractory oxides.
+The emissivity of nickel is low, ranging from 0.07 to 0.12.1°
+
+ 
+
+10 Me fore A i (
+Mctals R(.fc.r('ucc Book, C. J. Smithells, editor. Interscience
+Publishers, Inc., New York, 1949,
+
+ 
+
+February 1954 (Part II)
+
+ 
+
+0.04
+¢
+v
+b MEASURED
+‘g
+0
+T RUSSELL
+»
+‘¢
+v
+€
+003
+o
+- EUCKEN
+X
+0.02
+
+0 20 40 60
+POROSITY (%)
+
+fig. 6. Thermal conductivity of Al,O; with isometric pores at 200°C.
+Solid line indicates experimental data; dashed lines, calculated from
+theories as indicated.
+
+The emissivity of graphite at elevated temperatures has been
+reported by Powell and Schofield,!! but no low-temperature
+data were available. Measurements were carried out by
+B.rqwnlow's method” on the graphite used here at 500°C.,
+gving a value of 0.82 in good agreement with an extrapolation
+ofhigher-temperature data. The emissivities of the materials
+investigated are shown in Fig. 3.
+
+IV. Resuvults and Discussion
+(1) Isometric Pores
+
+TYpiF al data for a sample with 48.7% porosity, with
+Approximately spherical pores, are shown in Fig. 4. In
+Fe' e figure the thermal conductivity of dense alumina
+s indicated. In all cases the mean deviation of experi-
+léleqta! points from the curve is 2 to 3%, and the maximum
+r:s‘:itlon fO}‘ individgal points 1s about.l.()%. Iq Fig. 5, the
+e eSobtamed for five different porosities are given for -tl'lfi
+Confisr.at“re rz.mg.e Toom temperature tq 900°C. tI‘o a\‘l;)l
+or all 1on, the individual experimental pOlfltS are omitted, but
+
+curves show the same deviations as in Fig. 4.
+flulrcltii;lgs' fG and T the thermal conductivity i.cs) ploti;cd sstlz:
+temperato porosity for 200°C. and for 800 _C At (?tr
+Within t} ik t].l e data can be represented up to 00% porz& ;)
+or Ry 1e] possible experimental error by the theone? of fo;als
+beloy StS}f . “19 relation calculated from Eucken] z(lm-
+Quctiyig ,e €xperimental data. The .rc]atn'e 'thcnga couS
+Sample}' Or Tatio of the conductivities of 5011(1 and por .
+
+S ky/k, is plotted versus porosity 1 Fig. 8.
+
+\
+
+1] R .
+
+W 2 [
+
+Cong “ - Powell and F. H. Schofield, “Thermal and Electrical
+I’rOC.uL}ElVltl?’S of Carbon and Graphite at High ’I‘cmperat(gres’;l
+Abslr.. ¥S. Soc. (London), 51, Part 1 [283] 153-72 (1939); Ceram.
+
+18 [10) 271 1939),
+
+Thermal Conductivity, IX
+
+103
+
+€ RUSSELL
+
+sec,
+
+k (cal.
+
+ 
+
+0 20 40 60
+POROSITY (%)
+
+Fig: 7. Thermal conductivity of Al,O; with isometric pores at 800°C.
+Solid line indicates experimental data; dashed lines, calculated from
+theories as indicated.
+
+0.9
+
+08
+
+07
+
+MEASURED
+
+0.6
+
+RELATIVE CONDUCTIVITY [%P-]
+s
+
+EUCKEN
+0.5
+
+ 
+
+20 60
+
+POROSITY (%)
+
+ivi i ity for isometric
+: i relative thermal conductivity with poros!ty
+Fig. 8. Chl?:glii;ni;:icafe’ experimental data; dashed lines, calculated
+pores. Soli from theories as indicated.

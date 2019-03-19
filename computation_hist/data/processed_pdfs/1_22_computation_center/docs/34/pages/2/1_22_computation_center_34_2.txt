@@ -1,0 +1,49 @@
+CC-28 Page 2
+
+load into core memory a number of programs punched on relocat-
+able cards where each program nominally begins in location O.
+
+Each program would be preceded by a control card(?).
+These control cards have the following format when used to
+load programs which nominally begin at O:
+
+OL, decrement: 40 octal; to identify this as a
+control card.
+
+OL, address: L, the length of the program, i.e.,
+a number one greater than the nominal
+location of the last word of the program.
+
+OR, address: D, the amount by which any relocatable
+references to data (i.e., locations
+larger than L) should be relocated
+(expressed in 2's complement form if
+negative, )
+
+Now suppose the loader followed by the programs and
+their associated control cards are loaded in. The loader
+occupies locations O through 137 octal. The 1lst program will
+be relocated into locations 1&08 through (1378'+ Ll),
+
+All relocatable references within the 1lst program to nominal
+locations less than I, will be relocated by +1408 (or.-1408
+
+in the case that they are relocatable as complements). All
+relocatable references to nominal locations greater than or
+equal to L, will be relocated by +D, (whether or not they are
+
+relocatable as complements).
+The 2nd program will be relocated into locations
+(1&08 + Ll) through (137g + L, + LZ)' The relocatable refer- |
+ences to nominal locations less than within the 2nd program
+will be relocated by 1408 i Ll’ (or =-(1408 +.13)y Relocatable
+references to nominal locations not less than L2 are relocated
+by +D2°
+
+ 
+
+(2) This control card serves somewhat the same purpose as what
+is called an "origin card® in the Share Reference Manual,
+but since its format and interpretation is quite different,
+it seemed that the term "origin card" shouldn't be used
+here.,

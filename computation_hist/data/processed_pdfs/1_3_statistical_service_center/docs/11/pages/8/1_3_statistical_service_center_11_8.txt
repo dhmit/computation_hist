@@ -1,62 +1,54 @@
-Manta-lotio-
+Characteristice of the Machine Room - Space Specifications
 
- 
+Certain operational characteristics associasted with punched-
+card machine operation must be recognized:
 
-g 33.12 “chino loo- - £222.! amnion!“-
+1. High-level illumination is required to minimime operator
+error, particularly on the current 24-hour work schedule.
+(The holes in the card appear particularly small at 2 s.m.).
 
-Cort-1n operational chuutoriotieo amino! '1“ mick
-cu-d machine opmtion not ho mound:
+2. A clean, dust-free area is required since all of the ma-
+clines employ non~dust-proof wire relays. Maintemance is
+minimiged in clean machine rooms. For example, the I.B.N.
+Service Dept. blamed excessive machine malfunctioning in
+1948 on the dirty condition prevalent in Bldg. 20. (A
+Precipitron would be useful.) At the present loeation,
+the machine service is down to 5% per month, whereas it
+was as high as 50% in Building 20. (Part of this dirt
+is due to the wood floors which collect dust, etc.)
 
-l. nigh—level illninotion to round w mum mom
-orror, particularly on tho anti-out 14—hour out No.
-(no holes in tho cord ”poor manila-1y ~11 o: I mm).
+3. Air gcounditioning or other means of celiminating. heat are
+required. The 604 Electronic Calculator and the Card
+Programned Calculator (CPC) dissipate 21,000 and 27,000 BTV
+respectively. All IBM installations of this type (except
+M. I. T.) are operated in air-conditioned offices.
 
-2.
+4. Adeguate work space is essential to minimize the incidence
+of human operator error.
 
-A clan, dun-tron» on: in too-ind oinoo on o! to lo-
-ew“ Inlay ﬂaunt-proof win "1.”. mum to
-uni-nod in aloo- Ioohino room. For "lo, tho LIJ.
-Box-vice Dept. bio-on moo-1n loom-o Inf-lotions; in
-1948 on the any condition growl-t in ms. lo. 0
-Proclpitm you“ no until.) M a. mo loootion.
-tho machine Imieo 1o Ion to II poo soul. m it
-no no high on m in lama; .0. (not a ﬁlo an
+Conglusion
 
-in «no to tho wood noon ma oollooe out, on.)
+This memorandum contains some of the facts associated with
+the operation of the Office of Statistical Services. The present types
+of service sre described, and the need for a central location for ef-
+fective mechanigation of administrative activities is emphasized.
 
-8. A1! conditions: or «lot noon. of deli-inning. ion on
-wind. no I“ noon-onto ﬁlo-low no no “to
-W colon“. (Dc) “ﬂint. 11.00!) on! 81,009 ll!
-roomtivoly. All :- noun-nou- a mo tno (on-opt
-I. I. 1'.) oro ”onto! :- oil-conditional onion.
+It is evideant that the proposed location in Building 20 will
+require a certain installation cost and will demand extensive use of
+couriers and transportation facilities. It is gquite evident that the
+Statistical Services cannot be responsible for the communication and
+transportation lines between it and each of the Administrative offices.
+Clearly, each Aduministrative office should provide its own courier and
+transportation medium. Statistical Services will sct on and sextice all
+material delivered to it, but the responsibility of accurate and proper
+delivery of imstructions and cards should reside with each individual
+administrative office.
 
-4. Moon“ work opooo to ountiol to uni-in tho inoidonoo
-or Inn motor mu.
-
-Goldmin-
-
-nu noun-Inm- connin- oooo 01 tho unto uncut“ with
-the notation o! tho mm o! outs-um Imiooo. no mt tnoo
-of omioo no doooribod. as tho noon for I can“ loath: to: o:-
-1ootivo ”nonunion o: Malnutrition «tuition to unbound.
-
-It 1- "th that tho mood location in lulldins 30 will
-mun-o o «ruin instillation cut And will dolond mom-1n noo at
-mtoro and truaoporution Inﬂitiu. It 1.- Quito ovidont cu: tho
-lutiotlm sou-vino cannot bo room-nu for tho mention on
-annotation lino: bomon it ud oooh of tho Minion-tun oltiooo.
-cloudy. ml! AdliniotrltiVo 01110. aloud wovido ito on caution Ill!
-«annotation min. notional Ionian '11]. not on and om Ill
-nurlol dolivorod to it, but tho room-unlit, o! mun-on and prey“
-
-dolivox-y of lulu-actual and cord- mud roudo with coal: individual
-ministration ottieo.
-
-luv-11’, thin popoood mus oporndi will hpou emotional
-difficultioo on all umiotod ope-ting mammal. Tho ottondont out
-of emotion ull ho incrooood and III, of tho pro-ant omicoo my ho
-dilmtinnod by tho Adliniltrttivo Milo“ for tho: will boo-nu Imo-
-olvoly moan. m. audition In, home outﬂoiontly umntod to
-tors-co dimtinuoneo of nut od-lniotrotivo Intuition. 1! thin Ahmad
-ham. it mld to loot unfortmto no my you. of had work Iould
-hovo boon "nod!
+Naturally, this proposed modus operandi will fspose operational
+difficulties on all associated operating personnel. The attendant cost
+of operation will be increased and many of the present services may be
+discontinued by the Aduinistrative Offices for they will become exces-
+sively expensive. This condition may become sufficiently aggravated to
+force discontinuance of most administrative activities. If this should
+happen, it would be most unfortunate as many years of hard work would
+have been wasted!

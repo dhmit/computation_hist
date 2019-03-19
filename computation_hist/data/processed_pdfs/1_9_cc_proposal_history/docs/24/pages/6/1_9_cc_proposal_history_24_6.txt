@@ -1,0 +1,61 @@
+6.567
+
+6.568
+
+M39
+
+page 5
+
+for han@ling the approximation problem in discrete systems. Survey
+
+of ppy31ca1 characteristics of sampling and holding devices, of analog=-
+to-binary decoders; summary of important considerations involved '
+when these devices are used as components in control systems.
+
+Switching Circuits Instructor in charge: S.H. Caldwell
+hours: 3-1-6 (=4 units) Prerequisite: 6.01T-Elem. Circuit
+
+Theory or 6.18-Fund. of E.E.;
+M22-Diff. Equations
+
+Treatment of the basic principles governing the interconnections
+of two-valued switching elements to form networks and systems for
+automatic control and for the manipulation of binary deta. Develop-
+ment and interpretation of switching algebra, and its application to
+the analysis and synthesis of combinational switching circuits.
+Realization of algebraic switching functions in terms of networks con-
+taining relay contacts. Introduction to the design of sequential
+systems involving relay elements. Selected projects for individual
+design and laboratory execution.
+
+Switching Circuits Instructor in charge: S.H. Caldwell
+hours: 3-1-6 (=4 units) Prerequisite: 6.567-Switching Cir-
+cuits
+
+Analysis and synthesis of sequential switching circuits. Develop-
+ment and manipulation of the flow diagram, assignment of secondary
+
+(memory) elements, and the reduction of sequential problems to combi-
+
+national problems. Study of high-speed switching componentsj real- |
+ization of combinational and sequential switching circuits by means of
+electronic and semiconductor elements. Procedures for minimization
+
+of switching networks. Circuits for performing specific functions and
+their combination and sequence of discrete input conditions. Indiv-
+idual and group laboratory projects.
+
+Methods of Applied Mathematics Instructor in charge: Hildebrand
+hours: 3-0-9 ( 4 units) Prerequisite: M351-Adv. Calc. for
+Engineers
+
+Operations with matrices and determinants; linear vector spaces;
+characteristic-value problems. Techniques of calculus of variations;
+Hamilton's principlé and Lagrange's equationsj; variational principles
+for deformable bodies; direct and semi-direct methods. Formulation
+and solution of simple linear difference equations; application of
+finite-difference methods to approximate solution of partial differ-
+ential equations. Formulation and treatment of integral equationsj
+Green's function; analytical and numerical methods of solution.
+
+Hildebrand, Methods of Applied Mathematics.

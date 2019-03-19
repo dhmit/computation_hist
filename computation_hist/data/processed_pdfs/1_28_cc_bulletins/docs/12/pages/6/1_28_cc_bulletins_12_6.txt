@@ -1,0 +1,72 @@
+CC-148
+
+The Pseudo-operation IFF P,ASB
+
+This imstruction provides conditional assembly of program segments
+within a macro according to the values of the parameters P,A,B, P is a SAP
+expression, A and B are BCD symbols, This instruction results in assembly of
+the next imstruction in seguence if and only if the truth value of the boolean
+expression
+
+P&EQq
+
+is 1, where
+
+P =1 or 0 according as SAP equivalence of P is
+greater than or equal to zero,
+
+Q = 1 or 0 according as A and B are identical
+or different BCD symbols,
+
+Thus the instruction
+IFF 1,A,B
+
+says, "if and only if it is true that A and B are identical symbols, assemble
+the next instruction'; while
+
+IFF 0,A,B
+
+says, "If and only if it is false that A and B are identical symbols, assemble
+the next instruction,” Amn example of the use of this instruction is
+
+MOP ADD A,B,C
+CLA A
+
+ADD B
+
+IFF 0,C,AC
+STO C
+
+END ADD
+
+The macro ADD does the same job a8 the macro ADD3 defined earlier, but with
+
+extra sophnistication, By using the special symbol AC for the third argument,
+the programmer can call for the result of the addition A+B to be left in the
+accumulator and not stored, Examples:
+
+MAC ADD, X,Y¥, 2 MAC ADD,X,Y,AC
+CLA X CLA X
+
+ADD Y ADD ¥
+
+STO Z
+
+The IFF instruction can be put to other uses:
+The reader may verify that
+
+IFF Q
+
+means, assemble if and omnly if the eguivalence of Q is mot zero"; that
+IFF Q/11
+
+means, "sssemble if and only if the equivalence of Q exceeds 10", and that
+IFF Q-Q/2%2 |
+
+means, "assemble if ahd only if Q = 1 (mod 2)." Also, simce the equivalence
+of an uncaefimed expression is taken to be zero, omne can interpret
+
+IFF Q
+
+to mean "assemble if and only if Q is defimed”, provided thaut the equivalence
+of @ is expected not to be =zero,

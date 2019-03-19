@@ -1,0 +1,47 @@
+Another possible modification of tThe 704 showe promise of
+increasing the versatility of the machine in a number of aspects.
+The basic modification is a set of connections directly to the arith-
+metic unit, via appropriate buffer circuits, so that the core memory
+and the internal operation of the machine can be controlled "from
+outeide”. The combination of this capability with the display
+possibilities of the cathode-ray output tube make possible a variety
+of new capabilities.
+
+For example, the machine could then be programmed to display
+on the scope a graph of the value of any function of two variables
+x and v along any line in the (x,y) plene. By means of the external
+control the position and orientation of the line could be changed at
+w111l and the graph shown on the scope would change accordingly, Thus
+enabling the features of the +two-dimensional surface to be explored
+at will. In fact, tThe program could be extended to enable the observer
+to see the intersection of any surface in three dimensions with any
+plane, and to change position and orientation of the plane sc as ©o
+explore the surface. This could also be extended TO wore dimensions.
+Minimal contours and geodesics could be determined experimentally, SO
+fo speal. :
+
+0f still greater promise, a glass plate on which are drawn
+1etters or figures can be placed in front of the cathode ray screen,
+the cathode beam may be programmed to sweep the area (like a TV scope
+and a photo-cell could be arranged to 'report back"” to the machine
+memory (through the control 1llnk deseribed above) which parts of the
+plate are covered with ink. This, of course, 1is the firat step to be
+taken in "“teaching the machine to resd". With such equipment the
+machine could be programmed to recognize patterns, reproduce graphs
+and, eventually, to reed and recognize numbers or letters.
+
+At present the Center has no technicians who can congtruct
+axiliary equipment of the sort describad here, and hat 20 funds for
+purchasing the necessary parts. A relatively small outlay in the
+next few years would enable us to inerease the flexibility and
+capability of the mechine enormcusly. It will not be necessary to
+set up a separate shop; other Institute shop faclillties can be used
+¢ we have the perscnnel to do the worik.
+
+Personnel - The present staff of the Center can direct this
+program and carry out some phases, 1f tThey can be relieved of other
+duties which they are 2t present paid to do. Additional budget would
+enable part or all of the time of some of these men to be devoted to
+the proposed programj other service and consulting duties they now
+nave could be carried out by additional men who could be hired for
+that purpose.

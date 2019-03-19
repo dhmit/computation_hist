@@ -1,0 +1,52 @@
+Page 3
+
+July 21, 1961 Library changes made: XL@C sub-
+programs corrected, ,MTX corrected,
+and the latest assembly of (F2PM),
+The terminal post-mortem section was
+-changed 8o that 1f blank cards
+.appear in the deck, termination of
+
+- (F2PM) does not occur but reading
+‘“continues until an F2PM request card
+or an end-of-file is reached,
+
+3
+
+September 21, 1961 Library change made: Multiple copies
+. of several subprograms have been
+placed on the tape so that one pass
+over the library tape 1s guaranteed
+when BSS 1s searching for "missing"
+subprograms,
+
+Latest version of the MAD compiler
+placed on system tape. (See CC-181
+for more details,
+
+Computation Center Memoranda
+
+The following CC memos of general interest have
+come out since the last Bulletin. Copies may be
+obtained in Room 26-142, |
+
+CC-~167 - Supplement 1 Additional Feature of F2PM -
+‘ Symbolic Breakpoint Requests -
+
+June 12, 1961, A description
+of a new feature in F2PM
+.which allows easler definition
+of breakpoint requests,
+
+A Restricted, Potentially Time-
+Shareable Version of the FMS
+
+System - June 14, 1961, A
+
+description of a proposed
+operating system,
+
+Avallability of COMIT - June 22,
+1961. How to submit COMIT runs
+
+at the Center.

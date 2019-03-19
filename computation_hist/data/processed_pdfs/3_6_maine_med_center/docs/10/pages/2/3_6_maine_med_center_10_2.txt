@@ -1,22 +1,23 @@
-where 2 is a unit normal vector, and 15 is an element of surface. The theory
+waere n is a unit normal vector, and /5 is an element of surface. The theory
+
 holds for a volume of any shape, but simplifications can sometimes be obtained if
+
 a geometrical figure is used. For the human body, if we assume that the trunk has
 the shape of a right cylinder of elliptical or any other cross-section, then Mx
-
-and My are given by integrations over the walls only, and M2 by an integration over
+and My are given by integrations over the walls only, and Mz by an integration over
 
 the top and bottom surfaces. We have then
 
-”X : ﬂffVaéj Xi : l/vama/z [2)
-N? #1]ka 9/22 .- [jjima 5.4/2 [1/
+M= A SV dy d2 = d JfV ot b2 (2)
+My ok JJV e d2 = A )V & LA (3/
 
-”LII/rf/Vaéé/ (‘9
+”g:,t//l/&édéz (‘f)
 
 So far we are unable to find Mz by this method, since the head and legs
 are poor approximations to parallel plane surfaces. In order to determine Mz with
-ﬁx and My given, it is only necessary to find the vertical angle of the vector, and
+MX and My given, it is only necessary to find the vertical angle of the vector, and
 
-this can be found approximately by means of Einthoven's equation or by some similar
+this can be found approximately by means of Kinthoven's equation or by some similar
 
 vector method.
 
@@ -25,13 +26,9 @@ FIGURE 1
  
 
 For a cylinder, equation (2) can be evaluated by measuring the potential
-
 distribution around the cylinder at a given horizontal level. 6 is the angle between
+the normal to the surface and the +X axis. The integral of V ces @ /¢ is evaluated
+for a number of horizontal levels and these values are plotted against 2 The
+area under this curve is tne required double integral, nb is found from eq. (3)
 
-the normal to the surface and the *X axis. The integral of V LI: 9 d! is evaluated
-
-for a number of horizontal levels and these values are plotted against i? . The
-
-area under this curve is the required double integral. b3 is found from eq. (3)
-
-in a similar manner.
+in & similar manner,

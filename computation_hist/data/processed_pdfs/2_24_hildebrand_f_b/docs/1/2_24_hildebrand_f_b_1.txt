@@ -3,115 +3,129 @@
 MASSACHUSETTS INSTITUTE OF TECHNOLOGY
 CAMBRIDGE 39, MASSACHUSETTS
 
-OFFICE or F. M. Verzuh
+oFfFiIcEoF F. M, Verzuh
 
-\,
+ 
 
-April 7,-1952
+April 7,- 1952
 
 Professor P. M. Morse
+
 Chairman
 
-f) Committee on Machine Methods of Computation
-
-,4
-
-Room 6—109
+Committee on Machine Methods of Computation
+Room 6-109
 
 Dear Professor Morse:
 
 In accordance with your recent request for an accounting
 of the property which was purchased by the Center of Analysis and
 is currently being used by the Numerical Analysis Laboratory under
-the direction of Dr. Jacchia, 1 am attaching an inventory of the
+the direction of Dr. Jacchia, I am attaching an inventory of the
 calculating machines involved.
 
 You will notice this this list is primarily divided
 into two parts. The first contains the machines which were paid
 for with Center of Analysis funds from monies which were earned
-while the Center was operating on a selﬁsupportlng basis. It
+while the Center was operating on a selfsupporting basis. It
 should furthermore be emphasized that these machines were not
-purchased either as part of a DIC contract or departmental ap-
-
+purchased either as part of a DIC contract or departmental ap=-
 propriation, but rather from the profits earned by the Center of
 Analysis.
 
 The second group consists of calculators which were
-procured under DlC Project no. 6112 to be used for a particular
-task. These machines are not therefore MIT property and, ac—
+procured under DIC Project no. 6112 to be used for a particular
+task. These machines are not therefore MIT property and, ac-
 cording to Mr. Rogers (who is in charge of DIC property), they
 are transferable to Harvard on the new contract which has
-recently been issued to Dr. Jacchia's group. i am merely in—
+recently been issued to Dr. Jacchia's group. 1 am merely in-
 cluding the second group for the sake of the record.
 
-it should be noted that these machines currently carry
+It should be noted that these machines currently carry
 an annual service contract which varies from $30. to $40. per
-
 machine, depending upon the type. The current service contract
-will expire on June 9, 1952, and if it should be decided to con—
+will expire on June 9, 1952, and if it should be decided to con-
 tinue these service contracts, provision will have to be made to
-
-finance it. Personally, i am not sure this would be wise and I
+finance it. Personally, I am not sure this would be wise and I
 will discuss this with you later if you so desire.
 
-in addition to the calculating machines, there are cer—
-tain pieces of office furniture and the Tutorial Library which 1
-shall report to you about later.
+In addition to the calculating machines, there are cer-
+tain pieces of office furniture and the Tutorial Library which I
+shall report to you about later,
 
 Sincerely yours,
 
-. M. Verzuh
+J m. onc
 
- 
-
- 
-
-_____——--IIIIIIIIIIIIIIIIIIIIIIIIIIIII'IIII
+« M. Verzuh
 
 
 I.
 
-II
+II. Machines purchased or received
+(Navy contract no. N178-2946)
 
-59*
+Nat.Cash Reg.
 
-Inventorx g: Desk Calculators
-
- 
-
- 
-
-(Numerical Analysis Laboratory)
-
-MIT Progertx
+MIT Property
 
 Monroe
-Nat.Cash Reg.
+
+Nat .Cash Reg.
+
 Marchant
 Marchant
 Marchant
 Marchant
 Marchant
-Merchant
 Marchant
+Marchant
+Marchant
+
+Marchant
+Marchant
+Monroe
+Marchant
+Marchant
+Friden
+Marchant
+Monroe
+Friden
+Marchant
+Monroe
+
 Marchant
 
 CA No.
 
-CA-S
-CA—5
-CA-7
-CA-Q
-CA-lO
-CA—ll
-CA—13
+CA-3
+CA-5
+CA=-7
+CA-9
+CA-10
+CA-11
+CA-13
 CA-14
-CA-l5
+CA-15
 CA-16
+
+NPG-1
+NPG=-2
+NPG=-3
+NPG-4
+NPG=5
+NPG-6
+NPG=-7
+NPG-8
+NPG=-©
+NPG-10
+NPG-11
+NPG-1R%
+NPG=-13
 
 Serial No.
 
-' 295439
++ R95439
 
 542688
 166805
@@ -123,128 +137,106 @@ Serial No.
 195269
 195292
 
-T226 of Mach.
+35432
+180488
+180526
+349255" ©
+180797
+180147
+128423
+180131
+349296"
+126484
+180138
+349228"
+180139
 
-10—place
-$000 mach.
+Inventory of Desk Calculators
+
+(Numerical Analysis Laboratory)
+
+Type of Mach.
+
 10-place
-8-p1ace
-lO-place
-lO—place
-8-p1ace
+
+3000 mach.
+
+10-place
 8-place
-6-place
-8—place
+10-place
+10-place
+8-place
+8-place
+8-place
+8-place
 
 Purchase
 
 Date
 
-1-9—41
+1-S-41
 
-7—1—40
+7-1-40
 
-9—21-42
+9-21-42
 12-4-42
-12—4—42
-12—4—42
+12-4=-42
+1R=-4-42
 5-10-45
 5-10-45
 5-10-45
-5—10-45
+5-10-45
 
 Total
 
 (1943 replacement cost)
+
 of NCR machine)
 
-. Machines Burchased 3: received under DIC Eroject 6112 etc.
-(Navy contract no. N178-2946)
+3000 mache.
 
-Nat.Cash Reg.
-Marchant
-Marchant
-Monroe
-Marchant
-Marchant
-Friden
-Marchant
-Monroe
-Friden
-Marchant
-Monroe
-
-Merchant
-
-NPG—l
-NPG-Z
-NPG-S
-NPG-4
-NPG-5
-NPG—6
-NPG—7
-NPG—8
-NPG-9
-NPG—IO
-NPG—ll
-NPG-12
-NPG—13
-
-35432
-180488
-180526
-549255**
-180797
-180147
-128423
-180131
-349296**
-126484
-180158
-349228**
-180139
-
-3000 mach.
-10-p1ace
+10-place
 10-place
 
-lO—place
-lO—place
-lO-place
-lO—place
+10=-place
+10-place
+l10-place
+10-place
 
-lO-place
-lO—place
+10-place
+10=-place
 
-lO—place
+l10-place
 
- 
+under DIC project 6112 etc.
 
-2-4-44
+R-4-44
 
+33
 These machines are no longer here but were turned-in on new
-Monromatic machines.
 
-ll________._.........uunuullllllllllllllllll
+Monromatic machines,
+
+Ce
 
  
 
 Purchase
 Price
-
 $595.00
-6rat1s*
+Gratis"
+$622.50
+$546 .00
+$692.50
 $692.50
 $546.00
-$692.50
-$692.50
+$546 .00
 $546.00
-$546.00
-$546.00
-$546.09
 
-$5402.50
-1815.25*
+$546.00
+
+$5402 .50
+1815.25"
 
 $7217.75
 

@@ -1,0 +1,45 @@
+‘COMMITTEE ON MACHINE METHODS OF COMPUTATION
+Minutes of the Second Meeting
+December 1, 1954
+
+Persons Present: C. W. Adams, S. H. Caldwell, S. D. Drell,
+J. W. Forrester, P.. M. Morse, J. D. Porter,
+B. Rankin, F. M. Verzuh
+
+Adams reported he had been granted a year's leave of
+absence, commencing in February, to study machine applications
+to business problems, and that Porter would take over the control
+of the Whirlwind research activities.
+
+Porter reported that the announcement that time on
+Whirlwind is ¢o be paid for has cut down on Whirlwind's use re-
+cently and that there is a fair amount of spare time. Several
+methods of getting Whirlwind's capabilities known to more of the
+Institute faculty and students were discussed. Porter and Morse
+are to investigate farther.
+
+Porter reported that an extrapolation of the amounts of
+purchased time indicate an income of only about $50,000-70,000 ~~
+next fiscal year, less than half of the amount needed for operation.
+
+Morse reported that Hildebrand will run a Special Summer
+Program in Numerical Analysis June 20 through July 1. Special
+attention would be given to machine applications. This program
+will, to some extent, take the place of the programs on Machine
+Operations, given in past summers by She Whirlwind staff but not
+to ba given this summer
+
+Rankin reported on the PEO3RGE seminars held this fall
+and on the work, of the mathematics wembers of the project, in
+numerical analysis. He indicated that this group would like to
+be of help in working ous ‘tough humerical analysis problems, prior
+to machine coding.
+
+The next meeting of the Committee will be 3:00 p.m.,
+12 January.
+
+SEAN
+
+NA
+
+

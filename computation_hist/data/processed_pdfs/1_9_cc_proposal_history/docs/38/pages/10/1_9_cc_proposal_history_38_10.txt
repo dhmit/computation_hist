@@ -1,0 +1,75 @@
+"t
+
+ 
+
+LEIST OF SUBJECTS REIATED TO AUTCMATIC COMPUTATION
+
+ 
+
+Bubject No.
+
+54 Pulsed Data Systems
+
+867 Switching Circuits
+
+. 568 Bwitching Circuits
+
+M39 Methods of Applied Mathematics
+
+M4l1l Numerical Analysis
+
+3.215 Numerical Anslysis
+
+2.571 Bystems Design
+
+3.783  Control Problems in Mechanical Engineering
+6.56 Mathematical Methods in Mechanical Engineering
+6.571 Statistical Theory of Communication
+
+8.573 8tatistical Theory of Noise and MOdulatiomn
+6.874 Statistical Theory of Information
+
+6.581,2 Transioents in Linear Systems
+
+6.588 Application of Integral Equations in Electrical Engineering
+6.586 Engineering Applications of Field Theory
+
+8.71,3 Introduction to Theoretiecal Phymics I and II
+8.791,2 Methods of Theoretical Physics I and IX
+
+10.33 Analytical Treatment of Chemical Engineering Processes
+16.31,2 Principles of Instrumentation and Control ’
+16.35 Special Problems in Instrimentation and Control
+16.37 Methode of Analysis in Control Systems
+
+16.92 Aercelasticity and Advenced Aerocelasticity
+
+M331 Applied Beatistical Methods
+
+M371,2 Operations Research
+
+M421,2 Theoretical Hydromechanisms
+
+M591 ,2 Partial Differential Equations
+
+M8l Mathematical Logic
+
+MEe31 Integral Bquations
+
+ME81 Calculus of Variations
+
+Meol ,3 Characteristic Value Problams
+K78 Theory of Probebility
+
+K791 ,2 Theoretical and Applied Elasticity
+6.561,2 Network Theory, Advanced
+6.5687 Two-dimensional Pields in Rlesctrical Enginesring
+
+6,608 Advanced Feedback Control Theory
+6.606 Feedback Control System Engingering
+€.623 Principles of Pulse Circuits
+6.633 EBlectroniec-Circuit Theory
+6.635 Transistors
+6.64 Insulators, Semiconductors and Metals
+8.21 Physical Flectronics
+. 8.363,4 Belected Topics in Theory of 8dids (X & 1)

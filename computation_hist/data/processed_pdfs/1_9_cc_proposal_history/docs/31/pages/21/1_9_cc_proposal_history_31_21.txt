@@ -1,0 +1,41 @@
+S
+
+(4) Computation of logarithmic, exponential,
+frequency response tables.
+
+(5) Solution of integral equations.
+(6) Solution of boundary value problems.
+
+(7) Fourier series analysis.
+
+Digital Computer Laboratory. The Digital Computer Laboratory
+has built a large-scale high-speed electronic digital computer
+
+ 
+
+called Whirlwind I, This is a general purpose digital machine
+and will of course solve éll problems that can be reduced to
+the basic arithmetical operations. It is one of the largest
+machines of its type in existence.
+
+The machine utilizes a binary number 8cale and handles
+numbers which have 16 binary digits (equal to approximately'
+
+4% decimal places), although it can be programmed to handle
+numbers with more digits. Its high speed of operation is
+indicated by the ability to perform 5000 multiplications pef
+second. Incidentally, most of this time is consumed in getting
+numbers to and from storage units.
+
+The problem of storage capacity is always a considerable one
+in machinee of this type, and development of Whirlwind to its full
+capaclty is still continuing. When finished, it is expected that
+it will be equipped to store up to 2,048 words, where s word can
+be either a number or a (coded) instruction. At the present time
+g8torage capacity is up to about 1,000 words.
+
+Input and output can be arranged in connection with any of
+the following units: typewriter, perforated paper tape, maghetic
+tape, magnetic drum (to be installed sometime in 1952), or osell-
+
+loscope display. The machine has built-in identity checks and

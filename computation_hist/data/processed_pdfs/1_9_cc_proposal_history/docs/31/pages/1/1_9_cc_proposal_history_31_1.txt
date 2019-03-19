@@ -1,0 +1,31 @@
+SURVEY OF M. I. T. COMPUTING MACHINES
+
+INTRODUCTION:
+
+At present there exist within the Institute many computing
+machines of varying complexities., While this is not surprising
+in view of the ever-growing need for computational facilities
+in research, it appears that by and large these facilities are not
+being fully utilized by the staff and student body of the Insti-
+tute. It was with this state of affairs in mind that the
+Committee on Machine Methods of Computation was formed to
+"survey this situation, find whether the machines could be
+integrated more closely wlth the main Institute activities,
+training, and open research, and to implement this {ntegration."
+
+As one of the steps in implementing this program, a survey
+has been made of the various cmputing machine facilities, both
+lérge and small, which are in use today at the Institute. This
+is the subject of the following report.
+
+It has been found more convenient to discuss the machilne
+facilities by department. For one thing, a better view is
+thereby obtained of the use to which the machines are being
+put. For an over-all view, however, we have included in Table I
+a 1ist of all the machines reported on herein. There is one
+reservation to this remark. Some of the machines have speclal
+additions designed for solutions of problems arising in con-
+nection with particular physical systems, e.g., the Flight
+Table which simulates the motion of airceraft. By themselves,
+
+they are not eomputing devices and 80 are not included in Table I,

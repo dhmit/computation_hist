@@ -1,0 +1,424 @@
+THE EDUCATIONAL CONCEPT OF
+COMPUTERS AS A HREW TOOL
+
+by
+
+C. W. Adems and F. MN. Verzuh
+Messachusetts Institute of Technology
+
+Paper presented at the Conference
+on Training Personnel for the Computing
+Machine Field at Wayne University
+
+pe
+Jurae
+
+Juiy—23, 1954
+
+not released for publication, in whole or
+
+The content of this paper is
+n from the author.
+
+in part, without written permissic
+
+
+THE EDUCATIONAL CONCEPT OF COMPUTERS AS A NEW TOOL
+
+Introduction
+
+Each year there is an increasingly large number of analog and
+digital computers available for general use. Since these computers command
+the attention of more people each year, the need for introducing the
+principles of computers as a new tool in Science and Engineering curricula
+is correspondingly increased. However, the best method for acquainting the
+student with this new teol is not as evident.
+
+- Each of us has learned at some time or other that the slide rule is
+a very useful aid to the college student. As & matter of fact, some people
+still consider 2 slide rule to be an indispensible aid in their work. I am
+certain that all of us were pleased to learn how much more rapidly and accu-
+rately we could effect multiplication, division and transcendental operations
+with a slide rule. The following question naturally arises: When should we
+teach students the use of the slide rule? Obviously, if it is too soon in
+their educational training, they may never learn to multiply or divide. Based
+on your individual personal experience, each of you can answsr the question
+concerning the slide rule.
+
+The next question which naturally arises is: * When and how should
+we teach students the principles of computers? Again, each of you has an
+answer to this question. Certainly, all the answers will not be the same --
+although they may be equally correct. M.I.T.'s answer to this question is
+illustrated in Figure 1 which lists the graduate subjects offered im the field
+of automatic computation.
+
+The purpose of this paper is not to describe the entire package of
+subjects, but rather, to discuss the undergraduate subject: MACHINE-AIDED
+ANALYSIS. In this subject a determined effort is made to portray computers
+in their true light -- not as mythical brains, but as an effective tool to be
+
+used by the undergraduste in his particular field both in school and later in
+industry.
+
+Need for Undergraduate Computer Training
+The first packege of graduate subjects in computation was offered
+
+at M.I.T. in 1847. Although these subjects were most effective, it soon
+became apparent that they hed one general defect: they were graduate subjects
+
+
+9-1-€
+
+83 FNOITD
+ SupydI TAs
+
+89S °9
+
+ 
+
+9-1-€
+
+   
+
+€3 FROITD
+Suyqol TAS
+
+L9S°9
+
+ 
+
+  
+   
+
+   
+  
+
+-uog3e3ndmo) OFIBWOINY UF gaoefqng JO
+
+9-0-€ S-E-1
+£I0318I0GUT
+uot siInduwo)
+
+OTuoI} 0TH
+8€G°9
+
+    
+
+      
+    
+
+swol eis
+vled-pesind
+
+vS°9
+
+9-2-¢€ 6-0-€
+
+SOT BHOUIBH
+pot Tddy
+
+sjeiisuy
+TBO J JOWNN
+
+IIv K
+
+  
+
+Jo SPOYIeN
+6c NW
+
+ 
+
+9-0-€
+
+g18LATBUY
+
+pPOpPTE~OUTYIBH |
+. G2°9
+
+ 
+
+ 
+
+CE ET CS —
+
+ofexosd V
+
+       
+
+| uoypzsandmO)
+
+ 
+   
+
+9-0-8
+
+  
+
+Soteuy
+g9€S8 "9
+
+ 
+
+6-0-€
+
+  
+
+gisAeuy
+T8oTIOWNn)y
+
+gig’ G
+
+ 
+
+(e38npBIdIopun)
+WIL
+Tied
+
+ 
+
+ee TIVIRGR0D DILVIOIOY OL GALVTIH AILORYIA
+
+groarans ‘I "I
+
++1 FVADIA
+
+Joanduod
+
+1525370
+
+ 
+
+Jo3ndud)d
+
+152 53%d
+ces’ 9
+
+
+EES
+<3
+
+which are not generally available to theundergraduate. It soon became apparent
+that our graduating seniors were entering certain industrial fields with little
+or no knowledge of computing devices which were in current use in their field.
+Ags a consequence, some of these graduates developed a "fear of
+compliers’ based on a combination of personal | ignorance of the capabilities
+of computers ani an erroneous conception of computers as "mythical brains."
+This latter impression is still fostered by the popular press and a few
+senss tionalists in the field. : )
+It is obvious that such misconceptions must be corrected at the
+undergraduate level and the following ideas implanted:
+
+1. Present-day academic, research, and professional horizons are
+expanding very rapdily--computing devices are an essential
+tool which sllow the worker to complete his task in the least
+amount of time available.
+
+2. Certein "older techniques” - graphical methods of problem
+Solution, ete., - are fine techniques to be acquainted with.
+However, many of these are actually outmoded by the availability
+of present-day computers.
+
+3. Students must learn to think in terms of the capabilities of
+present-day and future computers. The language of computers
+is becoming increasingly important to everyone.
+
+4. The principles of computers and their effective application
+is actuslly very simple -- provided it is presented properly.
+
+5. Computers are not a panacea for all difficult and troublesome
+problems. Learn and realize their respective limitations.
+
+It is quite &pparent that the above ideas must be taught to the student. The
+next question is: How can this teaching best be done?
+
+Method of Teaching MACHINE-AIDED ANALYSIS
+With the ebove needs of the undergraduate computer training program
+in mind, the following preliminary outline of the subject was made in 1953:
+
+Preliminary Outline
+
+1. A survey of the types of mathematical problems which arise in
+engineering analysis,
+
+2. A survey of the available computing techniques and aids which
+are capable of solving these problems,
+
+3. A brief introduction to numerical anslysis,
+
+4. Solution of ordinary differentiesl equations with given initial
+conditions--analog and digital metaods of solution,
+
+
+rT NRE Speen CC CL
+
+5. Machine solution of simultaneous linear algebraic equations,
+
+6. Solution of partial differential equations om computing equipment,
+7. A study of machines and components: REAC, CPC, and WWI,
+
+8. Application of computers to practical probleas,
+
+9. Evaluation of available computing equipment.
+
+Needless to say, this outline proved to be a rather smbitious undertaking.
+Particularly, when one considers that 3-hour subject ( offered on a semester
+basis) contains only 43 lecture hours.
+
+It was immedietely apparent that this outline had to be curtailed
+in some manner. One solution was to delimit the list of available computers
+to the following types:
+
+1. The desk calculators: Friden, Marchant and Monroe,
+2. The REAC Analog Computer,
+
+3. The IPM Card Programmed Calculator (CPC)
+
+4. The Whiriwind Computer -- Summer Session version,
+5. Other Computers in general.
+
+Admittedly, this shortened the task appreciably; however, it was still a
+large assignment.
+
+Figure 2 illustrates a block diagram of the subject material which
+immediately raises another question: What is the proper sequence to present
+the material in the classroon? Should a "horizontal line" attack be used, i.e.,
+to study all five clesses of problems on a particulier mechine? Perhaps &
+"vertical" approach should be used? Maybe 2 "sig-zag" approach should be used?
+Fortunately or unfortunately as the case may be, time did not perait a thorough
+study of the program shown in Figure 2. Therefore, "vertical line" of
+presentation was employed as described in succeeding sections.
+
+
+gz 9 10efqng oy3 JO USITOJ FO WEIIVTQ F201d °'Z TUNDIA
+
+Joindeo)
+
+ANIATEIHA
+
+J03BINITLD
+peEuEB 130d
+
+I03BTNOT8D
+Heeq
+
+          
+
+          
+
+     
+
+          
+
+         
+
+    
+
+     
+
+suorzenby Sue TqOoZd guofIenby
+ot3ewql FIV eTIueIeIITd enysvA TegIueIe IITA 018IqeITY
+1953 38d Axepunog AIBUTPIO Snoeus) THES
+
+oduis
+
+SISATTVNV GEAIV-ENIHOVR 68°9
+
+
+ihe
+Application of Actual Computers
+
+It was decided that the solution of the same simple
+differential equation:
+
+H+ y2=1 with y(0) = 0 Spe
+
+on all four types of calculators: desk calculator, REAC, CPC,
+and Whirlwind would be appropriate, Since the solution of this equa-. ...
+tion: dy 12
+
+y-= "Tash X -2-
+
+is an analytic function which may be evaluated with great accuracy,
+1t served to provide a good basis for observing the advantages and
+limitations of various computers.
+
+Every student (either individually or in pairs) was allowed
+to solve this problem on each of the four computers in specilally-
+‘arranged laboratory sessions. The entire work: preparation of
+‘machine diagrams, programming, machine set-up, a:..d machine solution
+was effected by the student. Since the subject covered numerical
+analysis in a very preliminary fashion, the student was also pro-
+vided with certain approximation formulae which were required on
+the digital machines.
+
+Generally speaking, the laboratory sessions were highly
+satisfactory as they provided the student with a firm understanding
+of the exact manner in which he had to instruct the computer to
+perform his task. He soon learned that the computer did not "think"--
+was not a brain -- but 2 tool which he could use quite effectively.
+
+General Level of the Subject
+
+This subject did not serve as a survey of all existing
+computers. Although a number of lectures were presented which il-
+lustrated most available commercial computers by means of lantern
+slides, no pretense was made of evaluating the computers. Certainly,
+no attempt was made to create a team of "professional programmers.”
+Rather, the men were taught the fundamental prindple of operation
+of the four computers. If anything, a deliberate effort was made
+to emphasize the common sin prevalent among professional programmers:
+"... spending hours rewriting programs which eliminate a single order,
+
+
+and thereby saving 100 microseconds of machine time."
+
+= The student obtained a keen sense of appreciation of
+the ease of setting up a special analog machine, such as REAC, to
+solve an ordinary differential equation. He learned the important
+distinction between externally-programmed computers, e.g. CPC,
+and internally-stored-programmed computers, such as Whirlwind.
+Finally, he learned th:.t the outward characteristics of these
+calculators could be changed by the operator. Specifically, the
+CPC can act as:
+
+1. A 10-diglt FIXED decimal calcula®or,
+2. A 12-digit FIXED decimal calculator,
+3. An 8-digit FLOATING decimal calculator,
+4, A 13-digit FLOATING decimal calculator
+
+by the mere insertion of another set of control boards. Similarly,
+the Whirlwind computer may behave as three different types of
+computers depending upon the type of conversion programs and service
+routines which are employed.
+
+Conclusion .
+
+This paper describes the need for undergraduate training
+in the application of computing devices. Some attempt is made to
+illustrate the effect that the advent of generally-avallable computers
+will have on an undergraduate program. The particular method of
+subject presentation employed at M.I.T. is described. In addition,
+some mention is made of the actual subject material covered, and
+the general level of the subject 1s emphasized, Specific mention
+is made of the self-service, student use of the four types of
+calculators which was made during the term. Finally, the students
+were given an indication of the types of problems which can be ef-
+fectively handled by computing devices.
+
+Acknowledgement
+
+The teaching efforts described in this paper represent the
+efforts of the following individuals: C. W. Adams, R. C. Booton,
+
+
+=8=
+
+WH. K. Linvill, R. E. Scott, and F. M. Verzuh. Since this subject
+was taught for the first time last fall, it was extremely helpful
+to have a large staff participating on a part-time basis.
+
+FF. M. Verzuh
+June 23, 1954
+
+

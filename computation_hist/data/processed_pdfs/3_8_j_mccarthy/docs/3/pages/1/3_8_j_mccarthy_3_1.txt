@@ -1,0 +1,68 @@
+Computation Center
+
+Massachusetts Institute of Technology
+
+Memorandum
+
+TO: P. M. Morse DATE: January 13, 1958
+FROM: John McCarthy
+SUBJECT: Fellowship Program in Programming
+
+A fellowship program in programming at the Center
+might be very attractive if it had the following properties.
+
+1.
+
+2.
+
+Copies fto:
+
+1572
+
+B.
+i
+F.
+
+Fellows are programmers of some experience
+in industry.
+
+Their companies pay the difference between
+their normal salaries and what the Center can
+pay o
+
+They help with the more attractive problems
+the Center is currently working on. The
+announcement lists opportunities for work on:
+
+a. Compilers
+
+b. Artificial Intelligenece
+c. oSimulation Studies
+
+d. Numerical Analysis
+
+e. Pattern recognition
+
+Seminars in suitable topics are held.
+It is advertised that fellows will
+
+a. gain experience on new types of
+problems,
+
+b. meet other expert programmers
+from other places,
+
+c. participate in the development of
+a programming theory.
+
+Probably it will not be necessary to have a degree
+program although this may be desirable.
+
+Some announcement should be made at the next
+SHARE meeting.
+
+Arden
+J. Corbato
+
+Hildebrand
+M., Verzuh

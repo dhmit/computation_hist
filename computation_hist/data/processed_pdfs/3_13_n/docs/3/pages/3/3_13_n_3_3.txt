@@ -1,0 +1,91 @@
+Combination
+(P, D)
+
+l
+(into machine)
+
+   
+  
+
+l
+
+(into machine)
+
+Combination
+(D, D)
+
+  
+
+tradiction).
+
+Illustration for
+
+NEWS
+
+The spring meeting of the South-
+west Universities Computer Group was
+held in Austin, Texas, on May 1 and 2.
+Dr. Wymore, Director of NAL, presented
+a paper entitied, '"The Computation
+Facility as a Teaching Department',
+also during the conference a demonstra-
+tion of the initial phase of a SOAP
+revision being completed here at NAL
+was given. This program is the sub-
+ject of Programming Aids article this
+month., The opening meeting for 1960
+has tentatively been scheduled for
+the University of Arizona.
+
+Unsuccessful attempt at a (theoretical) program P,
+to test all decks for errors in running:
+
+[: Deck 'D", being tested
+:1 Deck "P'", the program to test (D,D)
+
+The above set of decks tests the following situation:
+
+Thus (P,P) ''operates' exactly when
+
+     
+ 
+   
+   
+    
+   
+ 
+  
+
+If (D,D) "operates', (P,D)
+produces an error.
+
+   
+
+If (D,D) produces an error
+(P,D) "operates''.
+
+    
+      
+
+(P,P) produces an error (con-
+
+ 
+ 
+
+article
+
+New equipment in the NAL in-
+cludes an IBM 101 statistical sorter
+received on May 11, and a full com-
+plement of extra features such as
+five additional pilot selectors, a
+total of 44 co-selectors, one extra
+group of filters, a total of eight
+alteration switches, and three more
+digit selectors. Also four print-
+ing key punches are due by July 1,
+bringing the total to twelve. On
+order is an IBM 557 Interpreter
+which is expected sometime this
+
+summer.
