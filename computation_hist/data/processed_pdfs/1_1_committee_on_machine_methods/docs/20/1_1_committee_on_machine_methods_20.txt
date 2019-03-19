@@ -1,15 +1,15 @@
-COMMITTEE ON MACHINE METHODS OF COMPUTATION
+COMMITTEE ON MACHINE METHODS OF COMPUTIATION
 
-Minutes. of tag ﬁegogg Meeting
-Academic Year '51—'52
+nute of the Seco M
+Academic Year 151-152
 
-W: S. H. Caldwell, H. Feshbach, J. W. Forrester,
-C. Lin, P. M. Morse, E. Beissner
+Persons Present: S. H. Caldwell, H. Feshbach, J. W. Forrester,
+C. Lin, P. M. Morse, E. RBelssner
 
-The first topic discussed was that of the'courses which
-it should be expected that the research assistants take, It Was
-generally agreed that a few courses in Mathematics, such as 1439
-and 14351-352, be a minimum in Mathematics, and that the first
+The first topic discussed was that of the courses which
+it should be expected that the research assistants take. It was
+generally agreed that a few courses in Mathematics, such as M39
+and M351-352, be a minimum in Mathematics, and that the first
 course given by Kopal and the courses by Adams and Caldwell be
 desirable for the machine aspects of the problem. It was reported
 that the present course of Adams conflicted with the schedules of
@@ -17,26 +17,26 @@ a great number of the present assistants, and there was some dis-
 cussion as to how this might be avoided in the future.
 
 Feshbach pointed out that it would be useful to have a
-list of all the machines available at the Institute, together with
+1ist of 211 the machines available at the Institute, together with
 a short description of their capabilities. It was suggested that
 Rubinow might make this list during the first term, and Feshbach
 is to ask him whether this is possible. It is expected that mem-
-bers of the Committee will help him so far as is possible.
+bers of the Comuittee will help him so far as is possible.
 
 Morse reported that the quarterly progress report was
-in the stage of preparation, and that Hsu's contribution should
-he turned in before the end of the week. Beissner is to see that
+in the stage of preparation, and that Hsu'!s contribution should
+be turned in before the end of the week. Reissner is to see that
 this is done. The situation on the program proposal for next
-year, to be sent to ONE, is not yet clear, and Morse will report
-next time on the results.
+year, to be sent to ONR, is not yet clear, and Morse will report
+next time on the results. |
 
-Unless new items of importance come up in the meantime,
+Unless new items of importance come up in the ueantile,
 the next meeting of the Committee will be Wednesday, the seventh
 
 of November.
-3 3% M. ‘or%
+P. A —
 
 Chairman
-10—10—51
+10«10~-51
 
 

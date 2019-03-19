@@ -1,205 +1,241 @@
-HARVEY (JOHN-
+HARVEY COHN.
 
-  
- 
- 
-  
- 
- 
- 
-   
- 
- 
-  
+    
   
  
   
- 
- 
- 
- 
-  
- 
-  
-  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-  
-  
-  
- 
- 
- 
- 
- 
- 
- 
 
-908
-s we can comfortably approach a converse to the
+08
 
-seems to be as close a
+9 s comfortably approach a converse to the
+ose
 
-theorem ill 5-
-To get at the
+seems to be 88 C
 
-uadWPle in whio
-q bsolutc value f”
+theorem 1 9. Feulty We define @ mediant quadfuple to be a reduced
+To get at the diffic or achieves in each of its three components the
 
-lnl<minlpsbi9iiilsih
-Here we would call R the small
+: . vect . =
+qudsiEeE] ?'”ZCILJZZ tor all four vectors of the quadruple. Thus if (say)
+minimum absoiute
 
-we deﬁne a niediant quadruple to be a reduced
-5 in each of its three components the
-tors of the quadruple. Thus if (say)
+I =g=
+9.1) | <min | pils [aels [ ] e
+(19.
+. ple. Here we would call B the smal
+.. o mediant quadrup
++then [P: Q; R’ S] L
+vector. & limiting if each (non-zero) vector achieves an
 
-diﬁiculty .
-it one rector achieve
-1- all four rec
+We call a set of vectors
 
-'imumd .
-W“ 13133)
+t exceeding that of a vector of &,
+: ,._component no S
+e in some i
 
-(19.1)
+absolute valu il method of admissible bodies if a se.t of limiting
+e the’ s at least three vectors none of which can bf’ omitted from &
+vecjcors contamf s operty) then a Minkowskian triple can be chosen
+(without loss © 7 ts of two vectors none of which can be omitted
 
-then [P, (2,12, S] is
-WOW. t f vectors (5 limiting if each (non-zero) vector achieves an
-We calla 5.9 0 i-~-<301nponent not exceeding that of a vector of 6
+the set ©. If © consis
 
-Inc in somiiai method of admissible bodies if a set of limiting
-t three vectors none of which can be omitted from (:3
-perty) then a Minkowskian triple can be Chosen
-ts of two vectors none of which can be Omitted
+from then a Minkowskian triple can be chosen that over-
 
-nkowskian triple can be chosen that over-
+from & (without loss)
 
-a mediant quadruple.
+2 I?L)W mediant quadruples are undesirable because they do not have two
 
-absolute Va
-Then by the Minkows
+tors that serve as a limiting set (by virtue of the fact that the small vector
+or ;
+Z:i be omitted without loss of limiting property). Hence we must use
 
-vectors contains at leas
-(without loss of limiting pro
-from the set (5. If 6 consrs .
-from 6 (without loss) then a M1
+Lemaa 19.1. No complete chain of reduced neighboring quadruples
 
-laPs (5. t quadruples are undesirable because they do not have two
-
-N w median
-vectorsothat serve as a limiting set (by virtue of the fact that the small vector
-
-e omitted without loss of limiting property). Hence we must use
-
-No complete chain of reduced neighboring quadruples
-
-can b
-
-LEMMA 19.].
 can consist entirely of mediants.
 
-Proof. Suppose R is the small vector of a mediant ¢. Then any
-neighbor operation with R “in the middle” is valid. Take in particular
-(PBS): We can apply the neighbor operation only a limited number of
-times, e. 5.,
+; Proof. Suppose R is the small vector of a mediant ¢. Then any
+AR AP A v neighbor operation with B “in the middle ” is valid. Take in particular
 
-(19. 2) ¢(PRS)¢'(PRS)¢”' ' '42”):
+als T
+g A0S0 L0 SA T AT A TR L P 1050 et
+.............
 
-(since the operation decreases p1(> O) by Ir, i each time). Now if (350‘)
-is still a mediant, the small vector must be Q (because it is no longer “It”
-and yet 122 and iszi now exceed [r2 I). We therefore apply (PQS) as
-long as possible until we obtain a ¢(""‘)- This process must terminate since
-the operations (PQS) and (PBS) each decrease p1 (> 0) by i qri 01‘ ini
-each time. Q. E. D.
+AT AA (PRS): We can apply the neighbor operation only a limited number of
+
+times, e. g.,
+
+(19.2) ¢ (PRS)¢’(PRS)¢” - - - ¢,
+
+(since the operation decreases p; (> 0) by | 7, | each time). Now if ¢®
+is still a mediant, the small vector must be @ (because it is no longer “E ”
+and yet | p.| and |s.| now exceed |7, |). We therefore apply (P@S) as
+long as possible until we obtain a ¢®™. This process must terminate since
+the operations (PQS) and (PRS) each decrease p, (> 0) by | ¢ | or | 7|
+each time. Q. E.D.
 
 We are now ready to handle the non-mediant quadruples. We are again
-confronted with a multitude of special cases that would be tedious to give in
-detail. We therefore ﬁrst make use of limiting sets.
+confronted with a multitude of special cases that would be tedious to give In
+detail. We therefore first make use of limiting sets.
 
  
 
- 
+LEMMA 19.2. For any reduced quadruple the twenty-siz vectors formed
 
-LEMMA 1.9. 2. For any reduced quadruple the twenty-six vectors farmed
+    
 
- 
+A PERIODIC ALGORITHM FOR CUBIC FoRws 11 909 i Ch:
 
-A PERIODIC ALGORITHM non CUBIC FORMS II 9
-. 09
+-
+-~
 
-from the following and their negatives are a limiting set~
+-
+.1 _1.1
 
-P.Q,R;S, P—o, p-59 P_s Q_R Q s R S
-. , _, _,
+from the following and their negatives. gre 4 limiting set
 
-P+S. 9+8, R+s.
-Proof. Let V = of + bQ + 011? Since V
-~ ‘ = (b —— a ' — —
-by (4, 21), we can assume a, b, c are not all of the same):2ig—ln—. (G\Vel?liferef:ri
+P,0, B8, P—0.
 
-can select a. component j for which i; = .
-the result. Q. E. D. l I! W’ i + t bq’ i + I. ”it Heme
+-
 
-(19. 3)
+-—
+-
+T T
 
-. {pier/[MA 19. 3. If a reduced quadruple is not a medi‘ant then it-contains
-a limiting set of two vectors (and therefore overlaps a Minlcowshian basis)
+"
+v
+-
 
-Outline of proof. An actual listing of the twenty-four different t nes
-of ¢ according to the relative magnitudes of the rows (see 16) would show
-that only two types are mediants. The remaining twenty-two} types reveal
-limiting sets on inspection, but the amount of space required to handle the
-inequalities in writing is almost prohibitive. It should be clear however that
-Lemma 19. 2 expresses the problem in ﬁnite terms. ' ‘
+P_‘R> P-—S, Q_'R, Q_S, R—S,
+P+ 8, Q@+ 8, R4 8.
 
-Hypercomplex Notation and Normal Symmetries.
+Proof. Let V. —=aP + b(Q + ¢R. Since V = (b — 0)Q + (c—a)R —aS
 
-20. Reduction redeﬁned. The distinguishing algebraic features of our
-present algorithm can best be brought out by considering the hypercomplex
-system at over the module Slit generated by the introduction of elements
-((11, a2, a3, 1) that form the four-group:
+by (4.21), we can assume a, b, ¢ are not all of the same sign. We therefore ' -
+can select a component j for which | v | = | ap; AT TAT |
 
-(20.1) 11;”:1(=an),uiaj=a,-ar=ai, léiaéjsékSS.
-Then each 3 X 4 matrix (1) can be written in the form
+p | + b C 5 l (4 A AR N
+the result. Q. E. D. : 9] + I 73|. Hence At :
 
-(20.2) ¢=Pa.+oa.+aa.+31-
-
-In the system SI the “ scalars ” are elements of SR for which each conjugate
-multiplies (row by row) the 3 X 4 matrix 95. Thus if EU? were an order, 9i
-would be an “algebra.”
-
-Xow the, element ¢ of 91' will be called a reduced basis of 9]? (see 4 above)
-il’ any three 01‘ the quantities I’. Q, 13,. S form a basis of ‘3)? and (sec (-l- 21))
-ii (1) goes to (I by the mapping of 9[ that brings each a; into 1 and if ((-on-
-tinuingr to suppress the “ i 'i on the left of (4333)), each J": conjugate 0f
-“(ALIS run in sign with X. ol' ahﬂhaal respectively. where the xi
-(5: l. 73. 3) are the thrownon principal characters of the toul‘rgl'ﬂul‘x ﬂx‘ﬂ
-
-so that X101.) = L
-
- 
-
-12
-
- 
-
- 
-
-out
 i
 
-it
+<
+- -
 
-rm
-r.
-rE’fm'
+(19.3)
 
-f:
+-
+. -
+
+* v
+e <
+L ey
+X AT LT T T
+
+sy
+¥y«
+:,_--L\‘.:..
+
+\‘\
+.
+D -
+
+LemMA 19.3. If a reduced quadruple is not a mediant then it .contains
+a limiting set of two vectors (and therefore overlaps a
+
+-
+e
+- b'
+
+‘.'
+R
+XXy -
+
+x
+
+Minkowskian basis).
+
+OJ‘
+P
+
+Oullme‘ of proof. An' actual listing of the twenty-four different types
+of ¢ according to the relative magnitudes of the rows (see 16), would show
+that only two types are mediants. The remaining twenty-two types reveal
+limiting sets on inspection, but the amount of space required to handle the “*'r"':"{:":'-f""""'."":f"f'*':’
+inequalities in writing is almost prohibitive. It should be clear however that R "'n:;?"‘f:"::.':"’""
+Lemma 19. 2 expresses the problem in finite terms. | | A ‘” 2
+
+;, )
+
+.
+
+e
+\s“
+
+-
+
+1.‘.'\
+
+Pr e
+WY .
+e
+
+>
+S
+o
+>
+L
+-,
+-
+
+' ‘.‘qf'o;lzol'lv"l', ¥
+AT
+e AT o
+e
+. ° ‘l"'.'."" 2'2 A .'. "‘ M
+Hypercomplex Notation and Normal Symmetries. At M3 o N
+
+!
+/
+,.“.'.“v.l ) .u"l
+
+20. Reduction redefined. The distinguishing' algebraic features of our ‘
+present algorithm can best be brought out by considering the hypercomplex AN AT
+system A over the module MM generated by the introduction of elements :;?&'":‘}'ﬁff;'}"fzﬁ"".‘d,'b,
+(@, a;, @z, 1) that form the four-group: i ‘;f:,}"""’ )
+
+e
+: NTTn i, e e
+,
+
+Then each 3 X 4 matrix ¢ can be written in the form e
+\is
+
+(20.2) ¢ — Pa, + Qa, + Ra, + S1 '::'-';7,.,.:.,",:.,1:'"% e
+. 1 2 3 ' :,,,’,:‘::,‘g’o,:,‘ i ,-{?:tg
+In the system 9 the “scalars” are elements of M for which each conjugate : ’
+multiplies (row by row) the 3 X 4 matrix ¢. Thus if Y were an order, A
+would be an “ algebra.”
+
+Now the element ¢ of 2 will be called a reduced basis of I (see 4 above)
+if any three of the quantities P, @, R, S form a basis of M and (see (4.21))
+if ¢ goes to 0 by the mapping of ¥ that brings each @ into 1 and 1f (con-
+tinuing to suppress the “ = > on the left of (4.22)), each x; conjugate of
+
+) -~ . . . ' snanpnfiv r r 0 ) -
+P,Q,R, S agrees in sign with y; of ai,@a., as, 1 respectively, where the x;
+
+o
+
+ 
+
+(v = 1,2,3) are the three-non I’l'in(‘ipzll characters of the four-group, fixed ,,,‘
+S0 that y;(a;) = 1.
+
+.....
+
+"""""
+
+ 
+
+ra

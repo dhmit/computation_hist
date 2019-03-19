@@ -1,1091 +1,1862 @@
-A PERIODIC ALGORITHM FOR CUBIC FORMS
+2
+0
+(8
+Oo
+Jed
+0
+-)
+Oo
+os
+oO
+69
+>,
+iy
+f=
+Feng
+os
+Q
+2
+Q
+a
+O
+pd
+oa
+ml
+Ry
+<
+
+ 
 
 BY
 HARVEY COHN
 
-[Reprinted from American Journal of Mathematics, Vol. LXXIV, No. 4, October, 1952.]
+Journal of Mathematics, Vol. LXXIV, No. 4, October, 1952.]
+
+erwean
+
+[Reprinted from Am
 
 
-A pERIODIC ALGORITHM FOR CUBIC FORMS=|=
+A PERIODIC ALGORITHM FOR CUBIC FORMS *
 
-By HARVEY Conn.
+By Harvey Conn.
 
- 
-
-1, Introduction. In a very famous memoir in 1896, Minkowski
-
-. . 5
-set up a continued fraction type of algorithm for the product of three r[ea]1
-linear homogeneous forms in three integral variables.
-
-_ . By the precedent set
+1. Introduction. In a very famous memoir in 1896,
+set up a continued fraction type of algorithm for the
+linear homogeneous forms in three integral variables. By the precedent set
 in the ordinary theory of binary quadratic forms, such an algorithm has to
-supply a deﬁnition of rcduccd form. with several properties; First
+supply a definition of reduced form with several properties: Fir
+form should be equivalent under unimodular change of var
 
-of all ever
-form should be equivalent under y
+Minkowski [5]
+product of three real
 
-unimodular change of variables to one or
+st of all every
+
+lables to one or
 more reduced forms. Furthermore a concept of neighboring form should be
 
-present so that the reduced forms will arrange themselves into chains.
-Finally when the three linear forms are conjugates, each spanning a (totally
-real) cubic module, the number of distinct reduced forms should be ﬁnite.
+present so that the reduced forms will arra
+Finally when the three linear forms ar
+
+Fd
+
+herr re
+
+of = Fh >
+Sr ta Sa 2
+
+1ge themselves into chains.
+
+e conjugates, each spanning a (totally
+real) cubic module, the number of distinct reduced forms should be finite.
+
 Probably the most immediate application of such an algorithm would be the
-determination of units of a totally real cubic ﬁeld as automorphs within
-the ﬁnite chain of forms.
+determination of units of a totally real cubic field as
+the finite chain of forms.
+
+SIE
+
+automorphs within
+
+ress
 
 The purpose of this work is to present a new algorithm for such cubic
-forms, combining some of the features of an ordinary (modiﬁed) continued
+forms, combining some of the features of an ordinary (modified) continued
 fraction algorithm with some of the features of Minkowski’s algorithm. This
 new algorithm follows the former one to the extent that reduction is based on
-a visually convenient array of + and —— signs rather than on “admissible”
+a visually convenient array of ++ and — signs rather than on admissible ”
 bodies; and it follows the latter algorithm to the extent that the proof given
 here for the reduction theorem uses Minkowski’s work as a convenient starting
 point. Once the theoretical aspects are established, it will be seen that the
 
-actual calculations in cubic ﬁelds are very simple, although the units obtained
+actual calculations in cubic fields are very simple, although the units obtained
 there are far from thoroughly investigated.
 
-2. Modiﬁed simple continued fraction algorithm. The familiar simple
-continued fraction (for binary quadratic forms) of course fulﬁls the above
-requirements par excellence. We present a modiﬁcation to emphasize some
-curious resemblances to the deﬁnition of reduced forms that we presently
+i
+
+or -
+-
+F3
+-
+
+5
+
+3
+
+Ii?
+
+2. Modified simple continued fraction algorithm. The familiar simple
+continued fraction (for binary quadratic forms) of course fulfils the above
+requirements par excellence. We present a modification to emphasize some
+curious resemblances to the definition of reduced forms that we presently
 give for cubics. The quadratic form may be written
 
-(2) @(n, m) = 13%,
+(2)
 
-\
+I —————
 
-‘Received August 27, 1951, Research currently sponsored by the U. S. Army
-0. 0. R.
+$(n, m) = ,z.,,
 
-821
+* ry ao ~
+Received August 27, 1951.
+
+27, Research currently sponsored by the U. S. Army
+0.0. R.
+
+S21
 
 
-HARVEY COHN.
+IIARVEY COHN.
 
-mm integers), i=1,2 and 9‘ are conjugate,
-. ductiou (as stated by GausS) is theta on
-If we consider the lattice in the (win:
+egers); 1=1,2 and 6; are conjy
+duction (as stated by Gauss) is th
+If we consider the lattice in the
 
-n11 .
+(n, m int gate Toy
+at g, a
 
-ﬁnd this is almost the condition that VI, 172: V3, the (m1, x2)_ve€tm
-lane we dirty to (”i m) :__. (0’ 1): i1) 0): (— 1) — 1) rcsIJeCtively, do not all
-WWW? 0M Pair of “White quadrants of the (an, zﬂ-Plane. Here note
-"”93 ital/n V have the Impact that any t\‘:o of the three are basis vector
-that tum; dud V. + V: + V3 = O. The idea of using,r not We but three
-of the 111tors ’(but in another formulation), goes back to Sening [1], The
-such “foot neighbor in the simple continued fTﬂCtlon is (again) almm ”u
-”011:2” that two of the three vectors 1’1, Vg, pa be Common to the two farm
-00” t '
-in question. The rescm
+ater than 1. (2,2,
+aa 7 VU. 17 212:
+. almost the condition that Vs, Vs, Vs, the (a, Ta) -vectqy,
 
-blonce of this modiﬁed continued fraction algorithm
-t the one Presented in this paper will become clear as matters develop.
-0
+no (mm) = (0.1), (10); (1 —1) respectively, gy 10
+pair of opposite quadrants of the (oy, 2:)-plane. Hep, Not
+have the property that any two of the three are basis yo,
+AE V,=0. The idea of using not twq but thy,
 
-(
+other formulation), goes back to Selling [1]. Th
+imple continued fraction is (again) almost ,
 
-ater than 1'
+three lie in One
+that Vas Ver Vs
+of the lattice, 80%
+such vectors (but In an
 
-a, Minkowskian basis. We now use as a point of departure the exis»
-tence of a Minkowskian basis. an immediate consequence of MinlmmkivS
-algorithm. ‘ . . . ~
+:shbor in the 8
 
-We recall that a lattice is said to be admissible With respect to a COMM
-body K (or vice verso) if no point of the lattice except the origin is interim
-to K. The convex body which we use is. the rectangular parallelepiped:
+t of neighbor In aT
 
-(3,1) P(§r; 5:» 53): I531 i S $-
+or what fet of Oo three vectors Vi, Va, Vg be common to the ty, forms
+cond ;
+
+. upstion. The resemblance of this modified continued fraction algorithy
+: 2 One presented in this paper will become clear as matters develop,
+ot
+
+3 Minkowskian basis. We now use as a point of departure the ey
+
+tence of a Minkowskian basis, an immediate consequence of Minkowski:
+
+algorithm. a = :
+We recall that a lattice is said to be admissible with respect to a Convex
+
+body K (or vice versa) if no point of the lattice except the origin is interjy
+to K. The convex body which we use is the rectangular parallelopiped:
+
+(3.1) P(&, 6) | Ti | = &.
 
 The lattice we use can be written as
+(3.2) z= bum; + bizm2 + isms, mj integral, i, j =1,2,3.
 
-zs= brimi + blame + brim.
+Its determinant D is assumed == 0, and we henceforth make the simplifying
+assumption that none of the components x,, x, or x; shall vamsh for any
+vector of the lattice except the origin. This fits in conveniently with the
+intended application, where the triple (bi, bis, bis) spans the totally red
+cubic field K; (where the index ¢ denotes the conjugate).
 
-in,» integral, i, j = 1, 2,3.
+We consider an ordered triple of lattice vectors (4,4, 4s), wher
+di = (2,9, 2,0, 2,). We call such a triple Minkowskian if P(z,", z,), 2,1)
+is admissible. Such triples exist under very broad assumptions ([2]) aud
+from Minkowski’s algorithm ([5]) such a triple is either co-planar ord
+lattice basis. (The proof consists essentially, [4], of eliminating the poss:
+bility that the triple generate a sub-lattice of index 2, and this can be dor
+more Simply by the methods of 5 below )-
+in algorithm also supplies a process of forming neig :
 
-Its determinant D is assumed 73 0, and we henceforth make the simplifying
-assumption that name of the components $1, 1:3. or a"; shall vanish for any
-vector of the lattice evoept the origin. This {its in conveniently with the
-intended application, where the triple (bl-1, his, his) spans the totally real
-cubic ﬁeld K.- (where the index i denotes the conJugatc).
+not discuss in detail except for the following points of 1mm
 
-We consider an ordered triple of lattice vectors (Ah/1.. A3), Wile”
-Ai = (Ii(”. 12“), 3330.)). We call such a triple Minl'owshian. i't' P673“). manhfimi
-is admissible. Such triples exist under very broad assumptions ([2]) 311‘]
-from Miohowrhi's algorithm ([5]) such a triple is ,i/hm' coplanar arr!
-Wu” Imm- (The Pl‘oof consists essentially. [4} of: eliminating the P05”
-blml that the triple gemrate a sub-lattice of index 2. and this can he dour
+hbors
 
-more simply by the methods of 5 below).
-Minkowski’s algorithm :11
+A PERIODIC ALGORITHM FOR CUBIC FORMS. 823
 
- 
+. The process [8] of “lowering the faces” shows that every
 
-so supplies a process of forming “915.7th
+. Lowskian triple has exactly three neighbors. The process, in addition,
+GE « visualization ” of the lattice with a view to admissibility. (The
+d in 10 below will be less simple in the first respect
 
-““011 We need not discuss in detail except for the following points of innnP-
+diate concern
 
-A PERIODIC ALGORITHM non CUBIC norms. 823
+involves 2
+neighbor process propose
+uch more simple 1n the second.)
 
-The process [3] of “lowering the faces” shows that every
+kowski’s neighbor process is also such that a co-planar Minkowskian
 
-, , wkian triple has exactly three neighbors. The process, in addition,
-Whom “visualization” of the lattice with a view to admissibility. (The
-osed in 10 below will be less simple in the ﬁrst respect
+tunately) cannot have co-planar neighbors ([3]); hence we have the
 
-diate concern :
+but n
+Mi
 
-i1n'01Ves a
+priple (for
 
-process PTOP
+THEOREM. Lvery lattice has a Minkowskian triple that serves as a basis.
 
-but much more simple 1).] the second.) . .
-Minkowski’s neighbor process IS also such that a co-plonar Minkowskian
-
-”We (fortunately) cannot have co-planar neighbors ([3]) ; hence we have the
-
-neighbor
-
-THEOREM. Every lattice has a Minhowshion triple that serves as a basis.
-
-We call this a Mihlcowslcian basis and proceed from there.
+We call this a Minkowskian basis and proceed from there.
 
 Reduction Theorem.
 
-4. Deﬁnition of reduced form. We start off by considering a 3 X 4
-metric ‘1’ written as four column vectors P, Q, R, S with three z; components
+4. Definition of reduced form. We start off by considering a 3 X 4
+matriz ¢ written as four column vectors P, @, BR, § with three z; components
 
-12;, qr: l'i, Sii
-P Q B 3
-(air) hi qi 1‘; Sr
-(4.1) ¢= (x21) 272 £12 7'2 Si
-Wei) 1’3 ‘13 7's 83
-Such a matrix is said to he reduced if I
-(4.521) 0=P+Q+R+S
-and it
-+ — ~ +
-(4-23) :sgn¢= — + _ + ;
-~ — + +
+Pis Qi» Ti Si :
 
-(iv... if the components of d: have either the exact or reverse pattern of
-+ Signs and — signs of the last matrix)
-in 11 (below).
+Pg B-8
 
-From the deﬁnition it is clear that no three of the column rectors
-1’- 0. If, S are co—plonor (for, if so, there would he a common perpendicular
-to oil four of them in contradiction to the [not that these
-lilt‘ll' negatives lies one in each oetant)
-We next deﬁne classes of
-Proportional; i. e.
-(l. 31)
+(21 ) Pa dx T1 $1
+(4. 1) ¢b : (2, 2) Pa q- 75 S,
+(2s :) Ps qs Ts Ss
 
-Such a matrix is written out
+Such a matrix is said to be reduced if
 
-four vectors and
+(4.21) O=P+Q-+R+ 8S
+and 1f
+FE
+(4.22) tt eghd=d— Lt. — Ll,
+— — + +
 
-proporlimml matrices, by saying 4) and d>’ are
+(Le, if the components of ¢ have either the exact or reverse pattern of
++ signs and — signs of the last matrix). Such a matrix is written out
+mn 11 (below).
+From the definition it i
+: definition s clear ; :
+aii : it 1s clear that no three of the column vectors
+» €, i, § are co-planar (for. if < a :
+: : ; 2 planar (for, if so, there would be a common perpendicular
+dil Tour of them in contradicti f
+aa X itradiction to the fact that these four vectors and
+AI negatives lies one in each octant).
+We next define classes
+Proportional, i, e,
+(4.31)
 
-¢~¢C
+of proportional matrices, by saying ¢ and ¢ are
 
-o.
+¢~ ¢,
 
 
-HARVEY COHN‘
-824
-
- 
-
-. } three ($4) rows of each are proportional, [Jr/Z7 = Q(/q’t = Ti/1/‘I§3t/Yl
-1H]: 72 0) We say that o and 93’ are strwtly proportional, or
-=1", . .
-
-N l
-(4, 32) t N 95’
-if ¢ ~¢’ and, in addition, will/310.1 = 1-
-
-(‘learly if ¢~¢’ and o’ is reduced. then 95" is reduced, Where A is),
-pernultation in the Klein four-group on (P, (2, T1”. S). (If all constants) We,
-are positive, then A is the identity.)
-
-We next consider Ileyermutc iernm'y forms. 1. e.
-
-(4.41) (I) “2’ = (lgmlllﬂllkllll,
-where
-(4. 42)
-<I> =rxr3r3: :5;- = bmnl + 11mm2 + bfg'nlx: 1 S i, j S 3;
-B = (bl/317mb“).
+1
 
   
 
-We call such a form reduced, or we say the three column vectors 13‘, B27 BrJ
-are a reduced basis, if these three vectors. taken in some order,
-the column vectors P, Q, R, S of a reduced 3 X 4 matrix. This deﬁnition is
-immediately. invariant under permutation of variables 121,, mg, 7113. This
-deﬁnition is such that given a form (In the question of whether or not it is
-reducible does not depend on how the factors at; are identified. In fact if
-the factors :5, are, transformed by the appropriate group: at. —> 61-17, 117:- —> 02%.;
-
-ﬁ—gcﬂk’isé/‘V‘é 7‘" (010203 =1), the corresponding“ 3 X 4 matrix obeys
-95 —> 115'. where
-
-(4. 5)
-
-come from
-
-o’ : 4%
-and 0 denotes a permutation
-
-We could ﬁnally
-similar to (4.41)
-and there al
-
-from the alternating group 011 (I): Q! B’ S)'
-discuss a degenerate quuler
-and (4. 42)
-so would be 4 valu
-in which the B,» B3. B5, B
-3 X 4 mat 1, Thus any
-reduced degenerate .
-leaves tl
-
-nary form given by formulas
-except that the index j would go from 1 to 4
-9'“ 0f ”17- Then a reduced form would be one
-.1 were. in some order, the 1’, Q, R, S of a reduced
-l‘edlleed degenerate ternar
-
-, quaternary form in \vhicl
-1e lorm equal to <1) (
-
-are such that each 3
-form (
-
  
+
+t) *
+Ban rr ett
+
+5 »
+OOM
+
+ese
+Alsfatativitiney
+
+   
+ 
+
+thar
+
+A% MAMAS ITA
+os AAR s
+100% gr
 
   
 
-7/ form d> results from a
-1 the vanishing 01' a single mi
-ingr variables). The quaternary
-class of (1) determines the same
-together with exactly all the 43”
-below) will provide instnnrzes where
+alate
+iain
 
-forms in the three remain
-trict proportionality
-tion 01' the 727,)
-.5). The table in 13 (
+lala
+“
 
-to within perlnuta
-deserilwnl in (-l
+Y
 
-4 01- 12 such (1) determine the same quaternary form.
-surily extend to the ternary forms.
+a Arariet
+Ta’ NS
+Ww
 
-A PERIODIC ALGORITHM non CUBIC Forms. 825
-
-Such properties neces-
-
-5 Proof that every degenerate ternary form is equivalent to a
-
-reduced form.
-
-THEOREM. If 11,, A1, A3 are a Minkowskian basis, than i 11., i Ag,
-+ 4 with an appropriate choice of signs, is a reduced busts.
-.— A 37
-
-Remark. It seems that some signiﬁcance was attached to the 3 X 3
-ra) of sinus of + A; by Minkowski [5], but the role of a fourth vector was
-or , D 7
-not considered
-
-Proof. We can without loss of generality multiply the A; by constants
-and reﬂect the coordinate planes so as to have
+,Y,
 
    
 
-l
+Ate ty MN Tut
 
-_1, 1a.,-|<1 ifiaéj,an>0,uu>0,
+Att AAR
+AINA tary Tr vi! Ml Wy
+Waa Ay
 
-(5 12) A|=(1;a12;a13): A2=(a21,1,aua), Aa— “anaazi 1).
+  
 
-(5.11)
+  
+   
 
-Now the hypothesis that A), A3, A3 is a Minkowskizm basis requires,
-onv other things, that the 20 vectors : AI i A, (i. are I), i A, t [12 : A3
-ll'm onaor outside the cube l m l < 1. So from here on7 we weaken the hypo~
-tie sis (see [4]) so that the all, satisfy the conditions in (5.11) together
-Le ,
-with merely . .
-maxliamiaﬂl>1 (1%)),
+1 ’
 
-k .
-(5- 2) marl + a”. i as]; i aw] > 1, for each chmce of i.
-k
+far 5
 
-We now assert that the pattern of signs of the four vectors
-(5 3) :A,,:Ag,:AS,;A,;A2; A“,
+AT alate ’
 
-' ' ' *l sen
-d in some order accord with the system (4. 22), if the 1 s1gns 2110 cm
-oes
-1 for each i 11;. . , ‘ 1 no and
-propelflgirt we visualize the 1'11: (112,, dad—plane, the 1'12. (;L12,11132)“1:easee,Hmt
-the II - (a a q)_plane. written more generally as (E,y)~p anezs). are bounded
-II '3 2‘ . , ..
-the reigionls’determined by the inequalmes (0.112 and (:31 Thus in The
-' L i - t:011iﬂ=0,1;isiﬂ=y-‘ “ _
-by lmes 0f the tlpeS‘ ti): 16 x, 16 = 1024 regions with isoseles r1ght-t1 1211311
-1'L. Hi 5 race. 4 ' .' . ‘ [If an 1e
-l1] X decision: :111‘8 determined. In fact, cons1de11ng the fint‘eeiiz] its interim.
-i'w‘cpr JI'I iojection triangles, we see that each one cop inns) (+ t + 1)
-s1xeen a-p' ’ ( +J,+11)7(i<2‘:‘3‘ _-4._2,
-l' ' a ' t. of one of the 16 types (7 2. 7 ‘ ‘ . 1 {our mm
-‘(mcfll cl“) p0lliilt (he H.-proiection triangle continua only of tie
-i; :2' . w e ,
+3)
+!
+
+PIT rte dT Try
 
  
 
-m:
-m
+WW
 
-m
-"25? z.
+ 
+    
+  
+  
+  
+   
+    
+  
 
-1
-12..
-in"
+IO
 
-rm
-m
+2's any
+atari viel
+OTe he ATR Ty
 
-z r
-1
-"-255
+oe Aaa in
+Als Shiny »
+[3M or
+Baie tiny .
 
-:3
-c: t.
+Al
+of 7 f "nh
 
-a
+HARVEY COHN.
+824
 
-sips;
+three (;) rows of each are proportional, pi/ pi = qi [Qi =r/1 yo
+3 a We say that ¢ and ¢” are strictly proportional, or
+—_— wi . ) )
 
-r
+$= ¢
 
-m
-3‘“
+Si/s,
 
-1
-r
-(e
+(4.32)
+if $ ~¢’ and, in addition, wywsws = 1.
+Clearly if ¢~¢" and ¢” 1s reduced, then ¢* is reduced, where x its
 
-, .n
-1,229
+permutation in the Klein four-group on (P,Q, R, 8).
 
+(If all constants, y,
+are positive, then A is the identity.)
+
+We next consider degenerate ternary forms, i. e.
+
+3
+
+¢ = Dp = agamiymm,,
+(4.41) 2 A
+
+where
+
+(4.42)
+
+é = T12.7
+
+Ti = buymy + biams + biym,
+Bj = (by, bj, bj).
+
+1<4j<3;
+
+We call such a form reduced, or we say the three column vectors B 1, Ba, Bs
+are a reduced basis, if these three vectors, taken in some order, come from
+the column vectors P,Q, R, 8 of a reduced 3 X 4 matrix.
+immediatelya invariant under permutation of variables m 1, Ms, my. This
+definition is such that given a form ®, the question of whether or not it is
+reducible does not depend on how the factors a; are identified. In fact if
+the factors z; are transformed by the appropriate group: x, — ¢,x;, 22 — 6,1};
+
+¢ — ¢’, where
+
+(4.5)
+
+This definition is
+
+¢’ = ¢,
+
+and 3 : .
+is a permutation from the alternating group on (P,Q, R, 5).
+e could finally discuss a degenerate quaternary form given by formulas
+
+Similar to (4.41) apq (4.42) except that the index j would go from 1 to 4
+and there also woylq be 4 values of |
+je
+
+in which the B,, B,, B;, B
+3 X 4 matrix.
+reduced degener
+leaves
+
+Then a reduced form would be one
+
++ Were, in some order, the P, Q, R, S of a reduced
+
+reduced degenerate ternary form ® results from a
+ate quaternay,
+
+Y form in which the vanishing of a single mi
+(in the three remaining v
+trict proportionality c
+mutation of the :
+1.5). The table in 13
+
+Thus any
+
+1e form equa] to ¢
+forms are such that each
+to within pe
+described In (:
+
+ariables). The quaternary
+lass of ¢ determines the same
+| :
+mi) together with exactly all the ¢
+
+(below) will provide instances where
+
+form (
+
+A PERIODIC ALGORITHM FOR CUBIC FORMS. 825
+
+4 or 12 such ¢ determine the same quaternary form.
+
+Such properties neces-
+sarily extend to the ternary forms.
+
+5. Proof that every degenerate ternary form is equivalent to a
+reduced form.
+
+TurorEM. [If Ay, As, As are a Minkowskian basis, then + dy, +4,
++ Ag, with an appropriate choice of signs, is a reduced basis.
+= [13
+
+Remark. It seems that some significance was attached to the 3 X 3
+array of signs of == A; by Minkowski [5], but the role of a fourth vector was
+not considered.
+
+Proof. We can without loss of generality multiply the 4; by constants
+and reflect the coordinate planes so as to have
+
+(5 11) ay =1, | aij | <1 if 155), a2, > 0,05 > 0,
+(5 12) Ay = (1, a12, 1s), A2= (an, 1,03), A3= (31, Asa, 1).
+
+Now the hypothesis that 4,, 4., 4; is a Minkowskian basis requires,
+mong other things, that the 20 vectors = A; = 4; (15%)), = 4, = 4, = 4,
+J on oF outside the cube |; | < 1. So from here on, we weaken the hypo-
+th (see [4]) so that the aj; satisfy the conditions in (5.11) together
+LESS,
+
+with merely
+
+max | = ap = aj | > 1 (1 #17),
+% .
+(3-2) max | == ax == Gok == agi | > 1, for each choice of =.
+J
+
+We now assert that the pattern of signs of the four vectors
+(5 3) +4, £4, = As, 4, a A, FF A,
+
+1. 5 + signs are chosen
+does in some order accord with the system (4.22), if the = sig
+
+erly for each = A; : 4» )-plane, and
+we visualize the II;: (@s1, @s1)-plane, the IL: (2, i a
+the II: (@3, @23)-plane, written more generally as Lo hed
+
+at (Qs, Qo: 0 ” x
+the Eat determined by the inequalities (5.11) and 5 Be a
+L . €& 4- = .
+
+: Mess =0,1; =29=0,1; =&*1 SEA - L
+iy es 3 16 = 1024 regions with isoscles right-triangu
+II, X II, X II; space, *
+
+ue ’ 1
+
+. . tn - .- T
+. ains in its interio
+ix Il,-projection triangles, we see that each one conta 3) i(=3. £1),
+Se the 16 types (= 3, £3), (= 3 xD: (£3).
+exactly one point of one of the i 2 ains only of the four types
+
+a 7 t
+ile t ojection triangle con
+(+3, +1), while the II,-projectio g
+
+SPORES
+2% AY
+LJ * - .
+PALE LES TS Tide
+EAS A tA Aids]
+a A -'.
+
+es
+Lo Ei
+
+ 
+
+-
+J
+
+ad
+Pee
+
+     
+
+ELS r sy
+LLL oe
+EL
+
+w 4
+
+Cees
+
+Ad
+Lei
+CLLR,
+Cirarr oe”
+
+2
+Ey A
+PE
+
+LAL or
+
+Ltd,
+Ce
+
+3
+
+at
+Sve
+Cries
+
+ie
+Lh
+2 45
+
+LE
+
+AS ITEP
+oA LE EE
+
+XE
+
+A TTT
+RL Tr
+« : Ed =o 2
+
+
+CC ht
+
+EEE,
+TICE
+oo:
+
+>,
+
+L.
+
+So 3
+Sizer
+RR
+
+»
+
+COLL TE
+
+Ty
++4
+~~
+~
+>
+~
+
+~~
+
+2
+SE "So
+REP
+he LEO
+SESS
+SANSA
+ee
+
+5
+
+STE,
+~
+
+Ed
+
+“
+
+“LTRS
+LOS OOL
+
+    
+
+Lay
+
+= ~e iy
+
+7
+(£°=
+
+ 
 
 HARVEY COHN.
 826
 
-gns, (an > 0). In each‘of these 1024 (open) Tagions
-) are always true, wh118e4the ineqilialitieiv11:1)(5.2)i
-. In the 1 ' cases w iere e. an
-are Each always “:9 0itail::::yftds:hoose the vectors in (5. 3) to have the
-(5. 2) ”9 “Wig; :9 The handling of all 1024 cases can be easily accom-
-Fixatif :ew lion-rs by using 4 + 16 + 16 strips 0f paper with the 21.)
-Zr, and zs-components of the 26 vectors : .11, ‘2 A.- : A}. 1: A1 —_i— A2 i As,
-(Wei)-
+ions, (ar > 0)- In each of these 1024 (open) regions
+8 are always true, while the ” =3
 
-6. Alternative form of the reduction theorem. We have . shewn that
-every basis is equivalent under change of basis to a reduced basis, It .13 no
-loss of generality to assume that the change of basis involves a matrix of
-determinant +1 (as all basis vectors can be multiplied by _1 Wlthout
-attecting the deﬁnition of reduction). Likewise we may assume by (4‘ 21)
+In the 184 cases where (5.11) ang
+are each always ae Ea hoose the vectors in (5.3) to have the
+(5.2) on a - iy handling of all 1024 cases can be easily accom-
+HE Hi ni 7s using 4 2 16 + 16 strips of paper with the z,-
+Es hn of the 26 vectors = 4, = di = 4, £4, + 4, x 4,
+(i 7 1)-
 
-that B, Ba, Ba are S, P, Q respectively. Finally We divide each 3;, by a
-’ h e lattice in inhomogeneous form, whence b,,=1.
+6. Alternative form of the reduction theprerh. We have shown that
+every basis is equivalent under change of basis to a reduced basis. It is no
+Joss of generality to assume that the change of basis Invelves a matrix of
+determinant + 1 (as all basis vectors can be multiplied by — 1 without
+affecting the definition of reduction). Likewise We Miay assume by (4.21)
+that Bi, B., Bs; are S, P, @ respectively. Finally we divide each 2; by a
+constant so as to put the lattice in inhomogeneous form, whence b,; =1.
+Then calling ba = &, bai =i We obtain the following result:
 
-formed using only + si
-the inequalities in (5.11
+formed using only + §
+the inequalities in (5.11)
 
-constant so as to put th .
-Then calling bg¢= 6;, by = 7; we obtain the tollowrng result:
-
-Let three non-collinear paints (gm) of the projecting (57).];10,“ be
-given in some ﬁred order. It is possible to ﬁnd an integral unimodular trans.
-
-formation such that the points (5,17,) simultaneously go into the points (5’5, 77%),
-(11+ biéi + 01711 r _ "2 ‘t’ [7243+ 02m det a, b c = 1
-_a3 + bait + cam, U4 as + bait- + Cam’ ( 1 ' a) +
+Let three nmon-collinear points (&,mi) of the projective (&n)-plane be
+given in some fixed order. It is possible to find an integral unimodular trans-
+formation such that the points (&, mi) simultaneously go into the points (£4, 7's),
+Wm + bi + Cami LL + bao&i 4 Cami
+ES as + bs&i + Cami’ yk as + bs + Cami’
 lying in the following three regions of the projective plane respectively:
-R1: gzomgo, 1+£1+77120;
-(6.2) R2: amigo, 1+a+mzm
-12,; asoméo, 1+sa+nsso
-Note that in order to cope with our previous lattice rcstriction (that no
+
+By: £=0,7,=0, 14+&4+m=0;
+(6.2) B,: £=0,7.=0, 146+ 9=0;
+Ry: £=0,7=0, 1+ & + 793=0.
+
+Note that in order to cope with our previous lattice restriction (that no
 
 lattice vector have a zero component except the origin), we must extend the
 regions to the projective plane, thus permitting division by zero.
 
-(6,1) 5’1
+G1) 2; det (a bsc3) = +1
 
 7. Cyclic basis. A very important type of lattice is one with a cyclic
 basis,
 
-(7.1) bii=1n, where h7El+j (modd) (b7=1,2:3)-
+(7.1) bij = ax, where k=1 + j (mod 3) (k=1,2,3).
+In this case the ternary form ®, as a function of the my is invariant under
+cyclic permutations, and conversely. Here the basis Bj, (j =1, 2,3), (in the
 
-In this case the ternary form ti), as a function of the 1m, is invariant under
-cyclic permutations, and conversely. Here the basis B), (j = 1, 2, 3): (in the
-notation of 4) is reduced if and only if, of the four quantities or), 052, “37
-‘ (11 + <12 + as), two are positive and two are negative,
+notation of 4) is reduced if and only if, of the four quantities a, ®, %s;
+— (9 + a + a5), two are positive and two are negative,
 
-(01‘ snowman + 22 + on.) < 0).
-
- 
+(or oyaaarg (oy + ap + a3) < 0).
 
  
 
- 
-
-A rnnxomo ALGORITHM non conro nouns 827
+A PERIODIC ALGORITHM FOR CUBIC FORMS 87
 
 We now single out the “hard case,”
 
-where und . .
-and (Possibly) a change in sign of all an, I er a Change Of malees
+where, under o ro
+and (possibly) a change in sign of al] %, a change of indices
 
 we have the inequalities
-(7‘2) al+a2>as>a=>ai>0-
+(7.2) Tt 02 > a> a> a>,
 
-Then, except for the hard case just cited, the 0
-close to o, reduced basis in the sense that the o
-reduced basis can be chosen from among the 2G
-:BlthiBa; (1%.?)-
+Then, except for the hard case just cited, the c
+close to a reduced basis wn the sense that the yp
+reduced basis can be chosen fr
 
-yolic basis will be ﬁnitely
++ B, = B: == Bs, (1557).
 
-ectors P, Q, R, 15' for the
-vectors i Bi, i Bi 1' B}:
+yelic basis will be finitely
 
-The above statement can be easily veriﬁed. We further note that the
-hard case must be separated since the three numbers at), a2, a, can otherwise be
-arbitrarily close to one another and still satisfy the conditions ('7. 2) There-
-fore, even it the set of 26 vectors above were extended to any ﬁnite set
-however large, of the type 76,131+ lng-i-ijz, it would still be possible
-to choose the on so that of the four desired basis vectors P, Q, B, S, the
-one (S) which is in the all + (or all —) octant would be the one for
-which k,+ l,- + m,7£0, while the other three vectors would be such that
-79H. 1, —|— m,- = 0, contradicting condition (4. 21).
+eclors P, Q, BR, § for the
+om among the 26 vectors + Bi, + B; + B,
+fu ’
+
+The above statement can be easily verified. We further note that the
+hard case must be separated since the three numbers 1, %s, ®3 can otherwise be
+arbitrarily close to one another and still satisfy the conditions (7.2). There-
+fore, even 1f the set of 26 vectors above were extended to any finite set
+however large, of the type k;B, 4 IB, + m;B;, it would still be possi
+to choose the a; so that of the four desired basis vectors P,Q, RB, 8 the
+one (S) which is in the all 4 (or all —) octant would be the one for
+which kj; + I; + m; = 0, while the other three vectors would be such that
+kj + 1; + mj; = 0, contradicting condition (4.21).
 
 Fortunately, in many applications, the hard case simply does not occur.
 For instance, for later reference, take
 
-(7-3) Ori=EEIKPOZWim/r), (k=1,2,3),
+(7. 3) a = 2, exp (mim/p), (k=1,2,3),
 
-where p (E 1 mod 3) is a prime and m through a complete set of residues
-of cubic character indicated by It. Here a, -|— are + a, =—1, and therefore
-if the on were all of one sign (as in (7. 2)), we should have i aloha: i g 1/27
-in contradiction to the fact that a is an algebraic integer. Hence the lattice
-given by (7. 1) and (’7’. 3), (determined by contraction of a cyclotomic ﬁeld),
+where p (=1mod 3) is a prime and m through a complete set of residues
+of cubic character indicated by k. Here a, + a, + a3 = —1, and therefore
+if the a; were all of one sign (as in (7.2)), we should have | aa. | = 1/27
+in contradiction to the fact that « is an algebraic integer. Hence the lattice
+given by (7.1) and (7.3), (determined by contraction of a cyclotomic field),
 has a reduced basis very close to the cyclic basis described here.
 
-Finitencss.
+Finiteness.
 
 8. Norms and discriminants. We now consider the case where the
-£1, $2, $3 components in (4. 42) are the conjugates of three numbers spanning
-it (totally real) cubic ﬁeld. We shall show that although the neighbor process,
+21, &2, T3 components in (4. 42) are the conjugates of three numbers spanning
+a (totally real) cubic field. We shall show that although the neighbor process,
 for instance, produces a chain of 3 X 4 matrices (see 12 below), they are
-strictly proportional to only a ﬁnite number of classes. Thus the ternary and
-quaternary forms take on only a ﬁnite number of values
+strictly proportional to only a finite number of classes. Thus the ternary and
+quaternary forms take on only a finite number of values.
 
-AS a preliminary step, multiply through the matrices so as to 11111
-We let A represent the (common)
+As a preliminary step, multiply through the matrices so as to make all
+of the pi, qi, ri, s; algebraic integers. We let A represent the (common)
+absolute value of the determinants formed by omitting any one of the four
 
-he all
+a
 
-of the 19,-, (It; 7'1, 3i algebraic integers. _ ,
-absolute value of the determinants formed by omitting any one Of the tour
+‘eroh J
+Fl
+a
+A,
 
-  
-  
-  
-   
-  
-       
-         
-   
- 
- 
- 
- 
- 
- 
-   
-   
-  
- 
- 
-     
-  
- 
- 
- 
- 
-    
+~
+»
 
-  
+» oS
+» ER UN
 
-.. .2 v
-,0}. 4,, I,
-(«.40 «MI .
-wool/u:
+Ey
+>
+oo ant
+
+- _
+33
+
+ad
+
+EER 8
+
+RS
+
+Yarra,
+
+Sees
+_ Le
+rrr Cy
+
+Ce
+Ly
 
 
-HARVEY COHN'
+HARVEY COHN.
 828
 
-a - an inteorer which represents the ﬁeld discriminant
-A is ‘7 he index of the sub-lattice (or module)
+integer which represents the field discriminant
+i os the index of the sub-lattice (or module)
+a of the field. Of course A is invariant
+Oo
 
-of the ﬁeld Of course A is invariant
+columns. Here A” a.
+multiplied by 7% Where j1 pn
+of integers in the ring of all 1
 
-columns. Here . t t
-multiplied by jg, where ] represen s.
-of integers in the ring of all integers
-under change of basis.
+igi b-scripts denote conjugates, we denote
+In the usual notation, where sub-Scrip
+n the 1
 
-' where sub
-In the usual notation,
-V ‘ ' = “a. b means of
-«the norm and discriminant of the vector A (L1,, a“ _,) y
+», 3) by means of
+iseriminant of the vector 4 = (ay, as, az) by
 
-(s. 2) no = [<al—a2><a2‘%)<“3‘“ )1”-
+ 
+ 
 
-.scripts denote conjugates, we denote
+5 the norm and d .
+wy N (4) = 18205; (8.2) d(4) = [(aa —a:)(a: — as) (as —a )]2.
+(8.1) LY ( £ yeas
 
-V (8.1) N01) =ara2ﬂ'a;
-Cl '1 . (NA) = 0 only if a, = a: = 11x = rational number, while INA) = 0
-car) =5” :0. Furthermore when A is an algebraic integer, N
+po — ay = rational number, while N (4) =
+: == lv 1 a = ls = is ra
+Clearly d(4) = 0 only
+
+1; — 0. Furthermore when A is an algebraic integer, N
+only if a, =a,=a; =".
+
+: al integers. ;
+% hl vi) ee that when A is bounded (and > 0) the norms of at
+fe 8
+
+AL > \, Ag : : i ]
+A et ARR four algebraic integers P, , R, S are bounded (<(A/3)?)
+fi nasaaaasain least three of the four alg ! Seg wa
+ad hile the diseriminants of all twelve fractions of the typ i/ 0;
+i he restricted to a finite set of rational fractions (whose numerators go
+cewise Tes i on
+: oy to [(A/3)¢] and whose denominators go from 1 to L(a/3) 1).
+i The above conclusions follow from the expansion of A in (4.1) along
+(say) columns R and § using, each time, the minors of /” and (.
+
+x
+723
+
+-
+re
+
+re InN dra
+
+A
+.
+
+Coda
+
+ET
+ry
+
+— A = (pigs — @p2)7rs + (Psqu — gsp1)r2 + (Pgs — Q2P3)7,
+
+(2:3) + A= (p19: — 12): + (Psq1 — qsp1)s. + (P25 — (2Pa)$:.
+
+Now take either the upper or the lower lines of (8. 3) accordin g as (prq: — 0:72)
+is negative or positive. (Note that pig; — pjqi == 0 for i 7 J by the rational
+independence of P and @.) In (say) the first case, Ieference to System
+(4.22) reveals that — A is the sum of three negative quantities, abbreviated
+t, + t+ t5, whence easily,
+
+(8.4) (8/73) = | bitsy | = | N(R) | - | G(P, Q)],
+
+where G3 (7, Q)) = (1192 Za q:P2)*(Psqa — 7301) (Paqs — q2Ps)>. Since GHP, 2
+(3 1s a rational integer, it follows that one column, RE, of the chosen pair R, S,
+, has bounded norm. By repeating the argument we see that some three of
+the column vectors (say) P,Q, R have bounded norm (as indicated above).
+Likewise, regardless of whether R or
+
+(8.5)
+
+S has the bounded norm,
+
+————
+
+GP, Q) = NX(Q)d(P/Q) = N*(P)d(Q/P);
+
+hence any of the twelve fractions of the
+
+type P/Q has, from (8.4), a dis-
+criminant restricted to the
+
+set of values indicated above.
+
+9. Completion of finiteness proof.
+
+Using the previous information let
+us suppose that fixed values of N
+
+(P/R), N(Q/R), d(P/R), d(Q/R), d(P/Q),
 
  
 
-only if (11:
+A P
 
-‘ d (l are natural integers. , V
-d" We shall next show that when A is bounded (and > 0) the norms ot at
+ERIODIQ ALGORITE FOR CUBI(Q FORMg
+| | a . 829
+( /R) are given as rationg] n
 
-least three of the four algebraic integers P, Q, R, S are hounded (< (A/gya)
-while the discriminants of all twelve fractions of the type P/Q = (pi/q” are
-likewise restricted to a ﬁnite set of rational fractions (whose numerators go
-from 1 to [(A/3)"] and whose denominators go from 1 to I.(A/3)‘B])_
+a finite set. We next see thyt then p/p ond os a
+values. h
 
-The above conclusions follow from the expansion of A in (4.1) along
-(say) columns R and S using, each time, the minors of 1’ and Q.
+To see this we write P/R —
+Tr | — %—1v;) by vip
 
-_ A = (m. — Mala + (Ps4! — r13191)“: + (P413 _ W3)”
+Umberg G1,
 
-(8'3) (A (P192 9117983 : (Path 9311052 i (1’27“ 91”“)3"
+ely, chosen from
+ave only a finite set of
 
- 
+(Ww), Q/R_ oO
+tue of (4. 1). Thus we find that ese
 
- 
+U1 UUg = 15. . V10,0, = ¢,,
 
-Now take either the upper or the lower lines of (8. 3) according as (lug: — qlpg)
-is negative or positive. (Note that ptqi—pgi yé 0 for iyéj by the rational
-independence of P and Q.) In (say) the ﬁrst case, reference to system
-(4. 22) reveals that ~13 is the sum of three negative quantities. abbreviated
-t, + t: + £3, whence easily,
+(Ur — ws) (uy, — Us) (ug — Uh) = + Vs
+(9-1) (v1 — v2) (v, — Vs)(vs — V1) = +Vg,,
 
-(8.4) (A/3)“;[titulai=lN(R)l‘lG(P:Q)l>
+(u1/v, — Uz/ V2) (Us, — Us / Vg) (ug Py n
+Ged tet Mots / U/vy) = XV;
 
-\vhere (HR 0) = (11.42 ~ 4.112)”(1nq. — qlp.)z(p2qa — 11:11.02- Since G203, Q)
-is a rational integer, it follows that one columnJ R, of the chosen pair R; S,
-has bounded norinl By repeating the argument we see that some three of
-the column vectors (say) P, (2,}? have bounded norm (as indicated above).
-Likewise, regardless of whether I? or S has the bounded norm,
++ Vs — uy — Us) (uy + vy — h—v) =
 
-<8. 5) 02(1). 0) = Arrow/0) = room/P);
+Vg,
+This constitutes six e
 
-hence any of the twelve fractions of the type P/Q has. from (8‘ 4), a dis
-criminant restricted to the set of values indicated above.
+i onion In the gix variables Ui, vi. There are either
+no more than 35.6.9 solutions or else infinitely many. The latter possi
+y. ' POSsi-
 
-9. Completion of ﬁniteness proof. [sing the, previous information let
-us suppose that fixed values of N(P/h’). FUR/R). vl(/‘/I-’). t((0/11)). (“P/0)-
+bility 1s somewhat tedious to exclude, hut jt ther e infinite]y n
+) ’ Many
 
-A PERIO
-DIG ALGORITHM non CUBIC r0
-. nns.
+solutions for some g¢, (all £0), rr
+dimensional manifold ip terms of or Sirize a one
 
-(KS/K) are given as rational
-a ﬁnite set. We next see tha
-valueS~
+calculate from (9, 1) the or
+that this possibility leads to
 
-To see this we write P/If : (
-5/13: (—1——ut—ei) by virtue of(
+e wer
+1t would he possible tg
+b= u,/u, as (say)
+der of magnitudes j
 
-numbers 9”. . _
-
-t then P/R and 0/11! have on
-
-”1), (2/5: =
-4. 21).
-
-uruzua = 91¢ . 41,7127}, = g,
-_;
-
-(”1 _‘ “2)(u2 % “3)(us ‘ u: =
-(9.1) (111 — 112W: — was ~ 01) L +i V9“,
-(ul/vi _‘ “2/7/2)(“2/”2 * “a
-
-This constitutes six equations in the six
-no more than 35 - (i - 2" solutions
-
-solutions for some 9,- (all #0)} ‘
-dimensional manifold in terms of
-calculate from (9. 1) the order
-
-that this possibility leads to a contradiction.
+n ¢ of the y and ov,
+a contradiction.
 
 Now knowing that the values of
 
-Iii/7'1: gi/l‘i and Si/l'i (=-1——}Ii/n ~ qi/rr)
+Pi/Ti, qi/r; and Si/T (=—1— pif — qi/1i)
+are finite in number we cap complete the proof. For then the
+¢ belong to only a finite number of Proportionality classes,
 
-areb ﬁnite in number we. can complete the proof. For then the 3 X 4 matrices
-qt elong to only a ﬁnite number of proportionality classes. But since the
+number of values of P1p:ps (=N(P)) is limited, there must
 
-number of values of [hp-31,3 (=N(P)) is limited, there must also he a ﬁnite
+number of strict proportionality classes, Finally (
+on the number of forms P.
 
-number of strict proportionalit' l '
-y e asses. Finall' se' 4 ' it w
-on the number of forms (P. 3 ( t ) “e 1‘“ a bound
+3 X 4 matrices
+But since the
+also be a finite
+see 4) we have a bound
 
-Neighbors and Chains.
+Neighbors and Chains,
 
-10. Deﬁnition of neighbors. Our deﬁnition of neighbors will be given
-as a deﬁnition of neighboring reduced 3 X 4 matrices (is. but it can be carried
-0V0? to the corresponding" ternary or quaternary forms (I). Since the order
-0f the column vectors P, Q. If, S is fixed by the array of signs. we need only
-S“WI," the “ parabolic ” generator of the chain. In fact we take the simplest
-0110s consistent with condition (4. 21). namely those of the type
+10. Definition of neighbors. Our
+a8 a definition of neighboring reduced 3
+over to the corresponding ternar
+of the column vectors P, (, R
 
-(10.1) ¢_)¢r (IL—>1). U->(’+Pr 1191?. S—>S—P)
+Supply the ¢
+ones
+
+definition of neighbors will be given
+X 4 matrices ¢, but it can be carried
+y or quaternary forms ®. Since the order
+, § 1s fixed by the array of signs, we need only
+‘ parabolic » generator of the chain. In fact we take the simplest
+consistent with condition (4.21), namely those of the type
+
+(10.1) $—>¢ (P—>P, Q->Q+P BE>R S—8—P)
+
+   
+   
+
+     
+   
+ 
+  
+
+Lh
+1s 4 tatautala sala ahs)
+HH filet lates Praha YE >
+liehialala) Aha lee AD IA
+
+y Olefa lala ls 7s ih
+/
+
+  
+ 
+
+ 
+
+ 
+   
+  
+  
+     
+  
+ 
+  
+ 
+
+fr, 001
+iii
+EM or
+
+Cala Tele lala lai hit)
+
+ivi /! falstlr 34 ye
+
+3300
+f
+
+   
+    
+   
+     
+      
+    
+     
+       
+      
+    
+  
+   
+  
+ 
+ 
+  
+  
+
+  
+ 
+ 
+
+’
+itary I new ve ‘e ote
+BIL 7 oo
+r
+4.4 NAS anv, olele
+
+ 
+    
+    
+ 
+ 
+ 
+
+ 
+    
+ 
+ 
+ 
+ 
+ 
+
+:
+
+   
+ 
+
+ite
+ARFiNr
+(LT
+
+ 
+
+  
+ 
+ 
+ 
+ 
+   
+ 
+    
+   
+    
+     
+ 
+   
+  
+
+' *
+Wf
+
+  
+
+Me
+Enna i
+
+ 
+ 
+ 
+ 
+   
+    
+   
+   
+      
+   
+   
+   
+    
+   
+    
+   
+ 
+   
+ 
+  
+ 
+
+ 
+
+   
+  
+ 
+      
+    
+   
+     
+   
+  
+ 
+ 
+ 
+   
+
+Alans
 
 
-Reprinted from Vol. 1, Pnocenomas or m:
-Mummies“. CoNanass or Mnauun'ncuna, 1950
-Printed in USA,
+Reprinted from Vol. I, PROCEEDINGS OF THE
+INTERNATIONAL CONGRESS OF MATHEMATICIANS, 1950
+Printed in U.S.A.
 
 A PERIODIC ALGORITHM FOR CUBIC FORMS
-HARVEY COHN
+HarvEy CoN
 
 A lattice in three-dimensional space will be called reduced if its basis vectors
-1}”, 1?), xi” together with xﬁ” = —Z x§"(j = 1, 2, 3), lie one in each octant
+zt”, z{°, 23” together with #{° = —3 z{°(j = 1, 2, 3), lie one in each octant
 of space or its negative octant. It may be seen that every lattice has a reduced
 sublattice of universally bounded index (and the examination of a handful of
 cases may even reveal this index to be unity). This type of algorithm is very
 similar to one by Minkowski in which the basis vectors were three shortest
 independent vectors under certain deformations, and two bases were called
 neighbors if they had two basis vectors (out of three) in common, making three
-neighbors in general. In the author’s algorithm the bases are “not far” from "
-Minkowski’s bases, and the process of ﬁnding neighbors involves agreement of
+neighbors in general. In the author’s algorithm the bases are “not far” from
+Minkowski’s bases, and the process of finding neighbors involves agreement, of
 two (out of four) basis vectors. Here there are three to six neighbors in general,
 making for more complicated patterns.
 
-Similarly, reduced quaternary forms 112an (j = 1, 2, 3, 4; i = 1, 2, 3)
-can be deﬁned. If this form is the norm in a totally real cubic module, it can
-be shown there are only a ﬁnite number of reduced forms under change of basis;
-and the neighbor concept will lead to ﬁnite (periodic) multidimensional struc-
+Similarly, reduced quaternary forms [I> n:a$? (G=123,4,7i=1,223)
+can be defined. If this form is the norm in a totally real cubic module, it can
+be shown there are only a finite number of reduced forms under change of basis;
+and the neighbor concept will lead to finite (periodic) multi-dimensional struc-
 tures. Finding the structures by this algorithm is very simple since it involves
-only patterns of signs. For the integers in the cubic ﬁeld for which D = 49, the
+only patterns of signs. For the integers in the cubic field for which D = 49, the
 structure of the norm is 8 forms connected like the vertices of a cube. For D = 81
 and D = 148, the structures have 16 and 28 forms respectively. Structures with
-certain symmetries turn out to correspond to abelian ﬁelds, and the periodicity
-of the structures, oflcourse, leads to unitics of the ﬁeld.
-
- 
+certain symmetries turn out to correspond to abelian fields, and the periodicity
+of the structures, of course, leads to unities of the field.
 
 WAYNE UNIVERSITY,
-DETROIT, Mien, U. S. A.
+Detroit, MicH., U. S. A.
 
 
-HARVEY COHN-
+rps OY THE
 
-828
-in an integer which represents the lield discriminant
+HARVEY COHN.
 
-Here A‘ ~ ts the jndex of the sub-lattice (or module)
+¥ eld diserimi a/R .
+which represents the field discriminant d(S/R) are
+eger
 
-columns.
-{the ﬁeld, Of course A is invariant
-
-multiplied by j“7 . . ‘
-of integers in the ringr at all integels 0
-
-under change of bass. . , b
-In the usual notation. where su
-
-I l i I a = a _
-e norm and discriminant of the vectm 4 ( L
-
-(M) 11(4) = [(ai-»ag>(nu—ui)(ar—a )12,
-
-Ascl‘ipts denote conjugates. we (lonote
-and“) by means of
-th
-
-(3,1) )l(11)=a102”3i
-= rational number, While AKA) : 0
-
-‘("d.»1=Oonlyita.=ag=u3 , _
-“:1”; «(3a ~asz0, Furthermore when A 15 an algehraic integer) N
-on y ,_. ._, __
-
-d d are natural integers.
-all that when A is bounded (and > 0) the norms of at
-
-We shall next show
-least three of the four a
-while the discriminauts o
-likewise restricted to a ﬁnite se
-from 1 to [(A/SV] and Whose
-
-The above conclusions follow tr
-(say) columns R and S using, each
-_ A =(1uqi;qipg)r3 +(1qux# (131),)1-2 + (112% n ”3),.“
-+ A = (P1112 - 9:17.083 + (P391 — Q31),)sg + (M3 _ (121' On.
-
-Now take either the upper or the lower lines of (8. 3) according as (1’19: # (wig)
-is negative or positive (Note that piqj—quiaé 0 for iséj hy the rational
-independence of P and Q.) In (say) the ﬁrst case, reterenee to ; stem
-(4.22) reveals that ——A is the sum of three negative rpmntitics. ahlneualed
-
-lgebraie integers P, Q, R. S are hounded (< (4/3)“)
-tall twelve fractions of the type P/Q = (Pa/gs) 31.0
-t of rational fractions (whose numerators go
-denominators go from 1 to [(A/Byﬁl)‘
-
-om the expansion of A in ($1) along
-time, the minors 0t 1’ and Q. 7
-
-(a3)
-
- 
-
- 
-
-l| + t! + t37 whence easily,
-(8.4) (A/3)3§I1,tgtzl=lN(If)l-lG(P,O)l‘.
-
-where (MP7 Q) = (Inqu— t11p2)1'(1;3q1 _ ‘1::Pi)2(112’]a # (121,02. Since gravy ((1)
-15 a ”“0"“ integer, it follow that one column7 If. 01' the chosen pair [tr 5'.
-
-see that some three of
-
-has bounded norm. By repeating thc argument we
-).
-
-the column vectors (say) P, Q,R have hounded norm (as indicated ahow
-leerSe) regardless of Whether I? or S has the bounded norm.
-
-(8. 5) 02(17, 0) = “(COMP/0) = .\"(l’>ii(0/P);
-
-hence any of the twelve fractions 01' the ll‘llt‘ li/Q has. from (8. 4), a dis-
-
-erumnant restricted to the set of Values indicated almw.
-
-\
-9. COmpletion 0f ﬁniteness PTOOf. bring llw previous information tl
-
-us suppose that ﬁrm] Values 0f Nat/H) NH) [.13). IMP/H). r/WH)‘ 1“,) m»
-
- 
-
-ins/1:) are g?
-a ﬁnite set.
-values.
+the index of the sub-lattice (or module) a finite set.
+¢ the field. Of course A 1s invariant values.
 To see
-w= (; r
 
-This consti
-no more t
+* all integers ©
+of integers In the ring of all integ
+‘D
 
-bility is SJ
-solutions
-dimensiona
-calculate f
-that this p
+Cy" - « FIN Y / p) — ad
+under change of basis. note conjugates, we denote S/B=(—1
+g notation,
 
-Now
+In the usual
 
-are ﬁnite
-it belong
-number 4
-number
-011 the n
+iscriminant of th
 
-10.
-as a deﬁ
-WY to
+(8 2) d(4) = [(a1— az)(a: — as)(as —a )]2
 
- 
+where sub-scripts de
 
- 
+e vector A= (ay, a2, as) by means of
 
-0t the c
-z“wily
+Uy UU
+(1
 
-ones (.0
+_ rational number, while N (4) =0 (9.1) (v1 —
+ws]
+“1
 
-(10.1)
+the norm and d
 
- 
+(8.1) N(4) = (yas 5
 
-   
-  
-  
-  
-   
-  
-     
-  
-  
- 
- 
-   
-     
-   
-  
-  
-  
- 
-  
-  
-   
+Cf g. = = (3
+(Clearly d(4) = 0 only if y
+a _ 0. Furthermore W
 
-ut to correspond to abelizm ﬁeld ‘ ' Strucﬂu‘es with
+uy/
 
-of the structur
-es, of co ' i i
-, m s, and the periodicitv
+Uy
 
-se, leads to unities
-of th '
-WAYNE UNIVERSITY 6 ﬁeld
-DETROIT, MICH., U S. A
+hen A is an algebraic integer, N
++f = (1, = U3
+11 (ly (2 Oo
+
+al integers. |
+pi that when A 1s bounded (and > 0) the norms of at
+We shall next 8
+
+he four algebraic integers P, Q, RB, S are bounded (<(A/3)%) This il WL in gen
++ 11000 of the four alge od Minkowslis t. -
+AA 2 os ne lv of all twelve fractions of the type P/¢) = (pi/qi) are two Hn : Aen fr
+Aa TAT tr hr hi 1m : : na a Y 1S 8 1 0
+i : AAT while the ee d to a finite set of rational fractions (whose numerators go . > IS 3 making our) b olves ey -
+likewise restricts , denominators go from 1 to [(a/3)*]). fotnaons > OF Tole complicated patterns eighbors in o
+om 1 to [(8/3)°] and whose denon 2 il dimension Similarly , reduced D a ge
+en . « follow from the expansion of A In (4.1) along : can be def; © Quaternary forms 113, rs
+The above conclusions : 7 and calculate f ned. If this form is t} Pets
+§ using, each time, the minors of P and @. ip be shown there Bani he norm in g toga
+nis ? : J @ Inte number :
+and the nej hbor mber of
+Yr, 2] , r,. gnoor cone n ; :
+— A= (pqs — (4P2)s + (Pag: — (sP1)T2 og (P24s G20)" N tures. Finding the oe will lead to finit
+(8.3) + A= (p1ge — qaP2)Ss + (psgr — qsp1)Sz + (P20s — g:ps)S1- Row viures by this algorithm js very
+
+only patterns of sjop;
+> 1218, For the Inter ers 1
+. u PIE . : ao 1 SU + . J S 1n th a2 Nn :
+Now take either the upper or the lower lines of (8.3) according as (pg: —¢ 1P2) structure of the norm 18 8 forms contented like ik oe
+
+is negative or positive. (Note that pig; — Pid _£ ( for i =~ j by the rational and I) = 148 the ei
+5 CH
+
+: syste : certain s i
+a eo reference system are finite ymmetries turn out t
+7) In (say) the first case, reference to 8) it to ¢
+independence of P and Q.) (say) of the structures, of ,C
+
+only
+and d are 1
+
+neral,
+(say) columns R and
+
+e (periodi t
+
+| | strue-
+Simple since jt involves
+for which p — 49, the
+
+1€ vertices of a cube. For D = gi
+and 28 forms respectiy
+
+: ely. Structures wi
+orrespond to abelian fields a Iron with
+ourse, leads to unities of the field 8 thaip eriodicity
+t, + t, + ts, whence easily, Wore UNIVERSITY,
+
+numper ETROIT, MicH U.S. A
+- T n i ) -% » OD. LA),
+(8.4) (4/3) = | tials | = | N(R)|-| G(P,¥)], on the n
+9 Sf 2 Q 3 = > (¢
+where GX(P, Q) = (p1q: — qup2)*(Psqs — qsP2)*(P2s — gals)? Sumas : 5 :
+
+is a rational integer, it follows that one column, FE, oi the chosen pal
+
+three negative quantities, abbreviated |
+(4.22) reveals that — A is the sum of three negative quantities, a ¢ belong
+
+1 , . LL « ~ 2 ree of
+has bounded norm. By repeating the argument we see that some th
+
+aq 1 10ate ¢ hove).
+the column vectors (say) P,Q, R have bounded norm (as indicated a 10.
+evi »d nor as a
+Likewise, regardless of whether R or § has the bounded norm, a do
+over to
+. . Ir = $35 a dis- Sunn
+hence any of the twelve fractions of the type P/Q has, from (8.4), ipply
+
+~~ . . ; . ; = ; :
+criminant restricted to the set of values indicated above. co
+
+G(P, Q) = N*(Q)d(P/Q) — N*(P)d(Q/P);
+
+CHARAN
+WY
+
+ation let
+
+9. Completion of finiteness proof. Using the previous inform (P/O)
+alt /%h
+
+(10. 1)
+us suppose that fixed values of N(P/R), N(Q/R), d(P/R), d(Q/ RF),
 
 
-HARVEY (JOHN.
+HARVEY COHN. =
+IODI
+C ALGORITHM FoR CUBIG pq
+RAMS.
 
 830
-which are written for convenience as P
-I i
-¢(Q-P-S)¢’ or e (3- -Q)¢
-(10. 2) 9 reduced matrices neighbors of ¢.
+831
 
-5 formed, we call th
-6 neighbors, depending on the relative
-9 matrix a. Furthermm: (positively)
-the same neighbors. To calculate the
-ires not even a mental picture of the
+n for convenience as
+9
+(Qps)
+
+$(Q.P.8)¢ or 9 (S-P.Q)¢
+
+Of the 24 matrices ¢’ thus formed, we call the reduced matrices neighbors of &,
+3, 4, 5, OF 6 neighbors, depending on the relative
+s in the matrix &. Furthermore, (positively) ,
+e the same neighbors. To calculate the
+s not even a mental picture of the
 The automatic process will now
-
-0f the 24 matrices 43’ thu
-This process creates 3, 4, .5’ :1:
-magnitude of the components iln V
-rtional reduced matrices ‘ime
-PmPO easy in that it requ
-
-' hbors is very . "
-lftltlce as did the Minkowskian algorithm.
-be given in terms of an illustration.
-
-Ill tative calculation. For instance consider the lattice with
-11. usr
-
-d d b '5 (compare '7) b.,~=2cos 21rij/7. We obtain the array of
-re nce asr ) ,
-(approximate) numerical values:
-
-P Q R
-
-1:25 — .415 —1.80
-
-HHHKD
-
-- —# 1 80 1.25 —— .45
-. .Tw ~ .
-¢a ‘45 -— 1.80 —— 1.23
-
-13—-
-
-1 Ln" at the In row we ﬁnd the elements of like sign Conlpm'e as
-1001 a .
-
-follows in numerical magnitude:
-
-(11.1) lal>lqit lexl>|31t
-
-written as ( .R.Q), ( .P.S). The elements of unlike sign compare as follows
-
-in numerical magnitude:
-(11-2) 1P1l<l7'il:19il<ll’1bl91l<lsib lsil<lnt
-written as (RR. ), (Q.P. ), ((2.3. ), (S.R. ) respectively.
-
-Looking at the 1'2 row we obtain six more entries, ( .P.R.), (13.3);
-(Ql’. ), (8.1”. ), (RQ ), (RS. ); and looking at the 0:3 row we obtain 51)
-ﬁnalentries, ( .Q.P.),( 13.5); (RR. x, (11.3. ), (no. ), (8.0.). .
-
-We now have 18 entries (possibly repetitive), and the rule is srmpl)’
-that the neighbors are those remaining when the triples oi the above 1% Win"
-are eliminated. Thus going back (1111) we see the entry ( .li’.Q) d'flws”
-of (P.R.Q) and (SRO) as neighbors, while in (11. 2), the entry (1217' l
-di51mses of (BBQ) and (PBS), etc. It is seen that only three neighbol'D
-for on are on, namely woolen], ¢o(Q-R~P)¢>2, narrow» which 0W
-in the lower left hand corner of ﬁgure 1 below.
 
  
 
-A PERIODIC ALGORITHM FOR CUBIC FORKS
+which are writte
 
-831
+(10.2)
 
-"7 (tars)
+This process creates
+f the component
+ced matrices hav
+y in that it require
+jan algorithm.
 
-    
+magnitude 0
+proportional redu
 
-(FILE)
+neighbors 1s Very eas
+s did the Minkowsk
 
-12. Closed chains. By use of this neighbor process we obtain a sue-
+(PRS)
 
-cession of 3 X 4: matrices (bi They must necessarily correspond to a ﬁnite set
+lattice a ]
+5 be given in terms of an illustration.
+SE 11. Illustrative calculation. For instance consider the lattice with ?
+oe reduced basis, (compare 7), bij ="% CoS 9rij/¥. We obtain the array of £
+FR (approximate) numerical values:
+P Q R S
+ni iy =m ie
+Ha Ath dol. Try 1.80 1.25 — 45 1 9%
+i fo rh |— 4 —1% —12% 1
+Looking at the x; row We find the elements of like sign compare as ge. Closed chains. By use of this neiohb
+follows in numerical magnitude: i . 3 X 4 matrices ¢. They must a process we obtain a suc- 2h
+of strict proportional y correspond t : 400
+(11.1) Ki | > | a | 1 | > | s the su : : 2 nity classes. For instance, referrin a 0 a finite set Ai
+: 1 ; 1 | > ccession of neighbors ¢,(PQR)¢, (RPS) s (RSP) e case We obtain A
+: ; ard t S 7 5 (Lv (PR SE 2
+written as ( -R.Q), ( P.8). The elements of unlike sign compare as follows indies - ly even from the approximations used ou ( th i It 1s not yi 0
+in numerical magnitude: : it can be seen to check with the defining equations REE I A
+n this : ; :
+a2)  |ml<inl lal<l| trict way we obtain by succession sub-sets of the matrices i
+Pa 1 1d pl, |@ | < | ss , | | < | 7 ); strict proportionality class (in fact, we obtain sub-sets wi matrices in each
+: proportionalit oe sub-sets with positive relative HY
+written as (P.R. ), (@-P. ), (@.8. ), (S.R. ) res yeetively. op 1ty constants). Certain of these strict proportionali gyorg Haris >
+] oport
+J neighbors to one another. H proportionality classes are i a
+. Hence we may always draw these classes as points i
+x oy
 
-of strict proportionality classes. For instance, referring to the case we obtain
+er
 
-the succession of neighbors ¢D(PQR)¢1(RPS)¢5(RSP)¢2(PRQ)¢S; it is not
-hard to guess even from the approximations used above, that 95‘ z #50
+C b y 1 n S 1 C . . .
 
-. . and
-indeed it can be seen to check with the deﬁning equations.
+Sy
 
-In this way We obtain by succession sub-sets of the matrices in each
-strict proportionality class (in fact, we obtain sub-sets with positive relative
-proportionality constants). Certain of these strict proportionality classes are
-neighbors to one another. Hence we may always draw these classes as points
+Ly
 
-connected by lines indicating neighbors. This is done in ﬁgures 1 and 2 (qt v.,
-also see tables below).
+x
+Lr
+>
 
-13. Further calculations. We submit now, ﬁve calculations of closed
-chains, summarized in the accompanying table. The modules taken are some
-of the integral modules with lowest discriminant. The case A9: 196 is the
-sannodule of index 2 of A9: 49, while A2 =148 is, of course, nonnbcli' :ii
+Looking at the z, row we obtain six more entries, ( .P.R.), ( .Q.8.);
+(Q.P. ), (S.P. ), (B.Q. ), (R.S. ); and looking at the =; row we obtain six
+final entries, ( .Q.P.), ( .R.8); (P.R. ), (PS. ), (B.Q. ), (S.Q. ).
 
-The ($1) conjugates are taken in an order consistent with the sign matrix
-(4. 22).
+te
+Fr
+2"
 
+We now have 18 entries (possibly repetitive), and the rule is simply | 13" Vuriher calodlati
+that the neighbors are those remaining when the triples of the above 18 type: cholns. Siiiriaml i Spb We submit now, five calculations of closed
+N " . 1 . = 3 ze oe S
+> I Thus going back (11.1) we see the entry ( R.0Q) disposes of the integral an e SE ng fable. The modules taken are some
+A Ca) Sa while in (11.2), the entry (P.E. ) sib-rmadule of index Se ; I a Mreo= inte
+
+Jv. anc R.8), ete. is see ; oe nels '3 2 2 = 49, while A? = 1483 is, of cours ohalis
+tron le (e ), ete. It is seen that only three nelghbors Ble (2) oo ores ro len 24 of course, non abelian.
+0 , namely ¢,(P.Q.R) $1, ¢o(Q.R.P) po, bo (R.P.Q) bs, which occur (4.92) 8 ten in an order consistent with the sign matrix
+
+in the lower left hand corner of figure 1 below.
+
+
+-
+
+-
+-
+ow
+
+ 
+
+1
+2 Brastdi3E4
+on mga og gel gL BB 2
+Dd Re BC 8 0
+Be an A rr ine SY
+= 2° sh E oS >
+¢ FE 2—= 8 Bb & S J
+22 TEE So D
+BE BT Sapte
+a —- mS 85 oo 8 XN
+SBE ag Rg,
+S AH © © BS =
+BSB Loubhbot ond
+Baar oH 5 $3
+Bs Ui a aa
+5H ® QO RR o
+s og g.2F le
+§ 8 § 8 5 ~ 2 2
+Eg +H fo a
+Bi Gp BY A
+lt]
+2S H OC & <
+o =< 7
+= @ dg —
+— -_
+
+’ R, S).
+Or non
+
+theoretical considerations, if more than one p
+oup on P, (), B. 3.
+(of classes of matrices into forms) for
+
+(Klein four-group) or by twelves. F
+
+A PERIODIC ALGORITHM FOR CUBIC FORMS
+dence is not unique, it is necessarily by fours
+
+In each case the number of strict p
+3 WX 4 matrices is computed. Naturally mor
+classes may correspond to the same quate
+
+tation of the my, (or of the P,
+to a given quaternary form the correlation is
+
+sub-group of the alternating gr
+
+HARVEY COHN.
 
 832
 
  
 
- 
+    
+
+er
+
+Fe
 
  
 
  
 
-A“ Deﬁning Equation
-
+      
  
-
-49 p“+p‘->2pﬁl "vll
-, 'l
-2 grip—#2:“
-3+P2_4p+i=o
-lilillpa-l-pE—“ZpllZIJlr
 
    
 
-81 o” —?rz#1
-
  
 
- 
+-trivial unit of
 
-n PERIODIC ALGORITHM non CUBIC FORMS 833
+chain or, even more
+If such two matrices
 
-In each case the number of strict Proportionaiitv
-3 X 4 matrices is computed. Naturally mm than One )
-classes may correspond to the same quaternary
-tation of the ml, (or of the P, Q, R, S).
-theoretical considerations
+four column vectors respec-
 
-classes (see 4) of
-of these proportionality
-form (see 4) under permu-
-On the basis of simple group-
+a
+r transformation.
 
-, if more than one proportion ' y ass COIIDSPO l
-p , alit Cl “ (15
-Gwen quaternary term the correla ion is g to l where g is e 01 e I
+tinal, since the constants of propor-
+modular matrix, have the product 1.
 
-t th ‘( 1‘ of B.
-
-sub-group of the alternating group on p Q R S i
-
-. , ’ > , - Th .. .
-(of classes of matrices into forms) for the cases in the lsabiiziiifionix:
-(Klein four-group) 01' by twelves. For non—abelian cases if the corbre"
-
-‘ ‘ -. - - on»
-deuce 15 not unique, 11‘ ls necessarily by fours, as can be easily Proved P
-
-14. Units. Consider two 3 X 4 matrices in a (-
-
-hain - .
-«7 nerall V two such matrices havi 0‘ th . i or) even more
-De 3’ “a iee of their
-
-_ . . four column vectors respec—
-tively equivalent under a unimodnlar transformation If such two matrices
-
-are proportional, they are strictly proportional, since the constants of propor-
-tionality, being the eigenvalues of a unimodular matrix, have the product 1.
 Since the eigenvalues are also conjugate algebraic integers, in the conjugate
-cubic ﬁelds, they are either all 1 or are conjugates or a “civtrivial unit of
-the ﬁeld. From the rational independence of the column vectors, the eigen-
-values are all 1 only when the two 3 X 4 matrices are identical. In fact
-in the example (A2 = 81) of ﬁg. ‘2, there are even closed circuits such as
-¢0(Q.P.R)¢z(R.P.S)¢5(S.P.Q)¢o which produce the trivial unit. (The cir-
-cuit ¢o(Q.P.R)¢2(RS-Q)¢3(P-Q.S)¢4(Q.R.P)¢o incidentally produces a non-
-trivial unit). In each of the ﬁve cases treated here, independent (non-trivial)
-units can be observed. It is clear that as we take an increasing large number
-of different ﬁelds the (L p'rtm‘i necessity of obtaining diﬁereut units will
+
+cubic fields, they
+
+re either all 1 or are conjugates of a non
+
+Consider two 3 X 4 matrices in
+
+a
+
+Units.
+generally, two such matrices having three of their
+
+tively equivalent under a unimodula
+
+14.
+tionality, being the eigenvalues of a uni
+
+are proportional, they are strictly proporti
+
+wh
+iil y
+M
+
+i
+
+i
+%
+ir
+Wa
+
+falald
+Fg od
+
+I)
+
+i
+4%
+Le S004 54)
+
+»
+ps
+
+ 
+
+   
+
+ht
+-
+
+TL
+-,
+
+Sa
+
+N
+
+EN
+
+x
+
+- Sos a5 2
+SE 5
+RN
+oe
+
+EA
+
+~
+
+        
+ 
+
+ 
+
+    
+
+    
+
+   
+
+In fact
+
+= 81) of fig. 2, there are even closed circuits such as
+
+2
+=
+
+the field. From the rational independence of the column vectors, the eigen-
+$o(Q.P.R)¢.(R.P.S) ds (S.P.Q)¢pe which produce the trivial unit. (The cir-
+
+values are all 1 only when the two 3 X 4 matrices are identical.
+
+in the example (A
+
+[4
+
+: A 2%
+Te
+
+S20
+
+(P.S.Q)¢s(P.Q.8)¢ps(Q.R.P), incidentally produces a non-
+
+trivial unit). In each of the five cases treated here, independent (non-trivial)
+
+units can be observed. It is clear that as we take an increasing
+
+cuit ¢o(Q.P.R)
+
+pd
+
+W
+
+SSR
+
+ 
+       
+
+     
+
+    
+
+large number
+
+Ed
+Ed
+
+SRE
+
+a
+22S"
+
+-
+
+            
+
+  
+
+of different fields the a priori necessity of obtaining different units will
+
+ 
+
+      
+
 increase the complexity of the non-trivial circuits, but no further speculation
+
 on this will be attempted at present.
 
-WAYNE UNIVERSITY.
+FITaer
+
+23s
 
  
 
-BIBLIOGRAPHY.
+pe
+Rr hd
+FASE]
+Cy ud
+
+5S =a
+
+- ND
+
+rr
+-
+
+~~
+
+  
+    
 
  
 
-ill P. Bachmann, Die Arithmetik dcr quadratischen Forms», vol. II, Leipzig, 1023,
-pp. 80-85. > n
+ 
 
-[2] G. Bullig, “ an Kettenhruchthcorie in Di'eidimenswnen (Z1), fibhundlmijqcntaus
-11cm Mathemalischen Seminar {16" Hanseschen Unmcrsxtot, vol.Y13, lJAiO.
+ 
 
-m H. Hancock, Development of the Minknowski Geometry of Numbers, new York,
+"ESF IFN
+I
 
-1923, pp. 378-444i ‘ p
-“l H. Minkm‘s iv [liophaniischc Approximatenan, Lelpmg, l907, pp. 101 ff. .- 19“
-[7)] , ” Zui‘ Theorie der Kettenbruchc," Gcsammulte Abhandlungcn, Leipzig, ,
+93
+
+ 
+
+    
+
+  
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Co
+
+, -
+
+ 
+
+- on - -~ -
+«@ SG AH ca
+Resa 3 =
+Bum -
+- . &0
+= on -
+Ea Lh
+2 SRS =A4 gm
+Br Leroi
+wl HES 5
+% = oO — =
+— Eo oR
+= < = E 2D
+— xn PT PS
+PRES RI pA
+— ee Ne SS =
+- N20 SS 8
+= - 5 ~~ 2
+© = - oo
+E gaff Bx
+Sr ase Roe
+= eS E as
+‘mn 2 9 YD
+-~ BDO —
+ag. Egg 3
+4 3 Ess gs
+= 3 = % = 8
+Be = @ =» 2B
+< S MOO +5
+EXER SS =
+5 ~=N : = ~
+0 = . ~~ &s <Q
+= 5S = -
+QS RE 8S
+= rE gE
+> Ee 2
+= ~ Oo 9% =
+— Q URS - DU
+A . = x Nd
+~~ 2 ed —
+ted ot = YN oh Ri)
+RTE YO 1d
+= Ss -- ©
+= : Sw 4 2
+- EET Add
+= SS Sw TZ
+"S BD SUR my
+< HER" =2
+< EY aps
+ow 2S gx
+9 SME 8 29
+— NCD, TI - ~~
+w ve Seay
+es oa E28] LF
+Bp EPN , .& ML
+= 8&8 SET EN
+Z g§ 8 a 3 5
+= 8 2 S LY
+om -
+2 RUE Bo
+5 ag HB ZF
+< g ' : :
+= Ay S = a
+— oo os Sn
+— ht ened emt ee
+= 12 1[\=
+on = 0 1 ||
+2 ani vw yeh
+| 2 LSS ng a | A |
+EL 2 2m
+un) G1 | X| X|
+ol =i |= |=
+Set | - |
+8 lw | ||
+=
+“Zi | % |x| x|%|
+63 lies FP FR =
+pre rl Ud Nat —~ | |
+7 bet
+pe ET la |
+a | | Ne
++ | | |] |
+a [oy | ~ posi { en 2)
+|
+lr
+«a Listy N To
+1a Jo
+i
+ala a | y
+o> |
+al oN |
+eT OR
+[[tlT
+a lay
+a, ajaf4|4|*®
+| on ~~
+«Jig
+| Ji ala
+=o lele|le |®
+|
+2 lalm|al~|~
+ETT]
+=, als |S
+3 Slax |F|
+= & ES
+a Q
+€ |+| Fi
+A a Ase
+er —— rT
+= pt oR ==
+an |9|=|2[8[2
+
+--
+
+--
 
 1911, pp. 278-292.
+
+a
+
+-
+
+4
+
+—-~
+
+-
+
+« -
+
+rr
+
+A
+
+a
 
 

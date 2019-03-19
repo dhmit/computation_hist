@@ -1,56 +1,57 @@
-f--§ The ﬁgpliggtigg g; Qigital Computers
-to Social and Operational Problems;
+— The Application of Digital Computers
+fo Soclal and Operational Problems;
 
 Opportunities and Needs
 
 Environment and New Facilities - M.I.T. has long been in the fore-
-front in the—EEVETEpment of computing equipment and in developing
-ways whereby this equipment can help solve problems in a wide
-variety of fields. In the mid-30's vannevar Bush built here the
+front in the development of computing equipment and in developing
+‘ways whereby this equipment can help solve problems in a wide
+variety of fields. In the mid-30's Vannevar Bush bullt here the
 first differential analyzer and several faculty members, in various
 departments, used it to solve problems in engineering, mathematics,
 and physics, which could not otherwise be solved. In the past
-four years Whirlwind I, one of the first truly high-speed digital.‘
+
+four years YWhirlwind I, one of the first truly high-speed digital .
 computers to get into operation, has been made available for more
 than 1/3 of its time for the solution of general scientific prob-
 lems. Problems from many fields, sponsored by members of all the
 different departments at the Institute, have been put on the
 machine. The programming research staff of Whirlwind has gained
-experience in adapting the computer to this variety of problems
+experience in adapting the computer to this varlety of problems
 
 and the faculty at the Institute has begun to learn, by actual
 doing, the ways in which the computer can help them solve their
-problems.
+problems.,
 
-Beginning in 1957, the computing facilities at M.I.T.
+Beginning in 1957, the computing faclillities at M.I.T.
 will be enlarged and reorganized into a Computation Center, to be
 devoted entirely to unclassified scientific research and education.
-I.B.M. is donating one of its new 70h computers with double the
-usual storage units and with appropriate auxiliary equipment, and
-will provide for the maintenance of the equipment; the Center will
-be housed in the new K. T. Compton Laboratory Building according
-to a reement with I.B.M., the equipment will be used ten hours a
-day on the "midnight shift") by I.B.M., will be available up to
-seven hours a day to faculty members from other colleges in New
+I.B.M. is donating one of its new 704 computers with double the
+usual storage units and wilth appropriate auxiliary equlipment, and
+wlll provide for the maintenance of the equipment; the Center will
+be housed in the new K. T. Compton Laboratory Bulldlng according
+to agreement with I.B.M., the equipment will be used ten hours a
+day (on the "midnight shift") by I.B.M., will be avallable up to
+seven hours a day to faculty members from other colleges In New
 England and the remainder of the time (seven plus hours) will be
 available for use by students and staff of M.I.T. for basic re-
 search. The programming research staff, at present working with
-Whirlwind, will be transferred to the Center, to serve as a nucleus
-for planning machine use and for developing new techniques of
+Whirlwind, will be tranzferred to the Center, to serve as a nucleus
+for planning machine use and for developing new technlgues of
 machine application.
 
-Nature of the Research - Exploitation to the full of the potenti-
-alities of a new piece of equipment can most effectively be accom—
-plished by an advance on two fronts: the solving of specific problems
+Nature of the Research - Exploitation to the full of the potentl-
+allties of a new piece of equipment can most effectively be accom-
+plished by an advance on two fronts: the sclving of specific problems
 and the development of techniques. In the case of computing machines,
 research workers in many fields should learn machine programming
 techniques and then proceed to use the machine to help them solve
 their own problems. In many cases they can develop the programs
 
-they will need for their work, but in some crucial cases they will
-need the help of those persons interested primarily in machine
-operation, who are interested more in developing machine techniques
+they will need for their waork, but in some cruclal cases they will
+need the help of those persons interested primarlly in machlne
+operation, who are interested more in developing machine technlques
 than in solving individual problems.
 
 This division of labor has been necessary in many other
-scientific advances. The recent great progress in nuclear physics
+sclentific advances. The recent{ great progress in nuclear physlics

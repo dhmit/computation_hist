@@ -1,0 +1,62 @@
+CC-148 3
+
+MAC BKIP,THI, (ADD3,R, 3,T)
+results in
+™I ,.001
+CLA R
+ADD 8
+STO T
+50,001 SYN @
+
+An explicitly empty argument terminated by & comma will be treated as empty;
+created symbols will be supplied only at the end of the string of arguments.,
+For example :
+
+MAC ADD3 A, ,
+
+compiles into
+
+CLA A
+ADD
+ST0 ,,00n
+
+where ,,00n is the amext available created symbol .,
+
+Added Details on MOP
+
+Those BCD characters vwhich are not legal as part of a macro name of
+HOP? argument will be called breask characters, The complete list follows: W,
+9 =y ® 1, (), $, comma, +0, -0, the redundant minus (which prints a quote
+mark on some BTL equipment), blank, and all special characters., A blank if
+encountered before colusmm 72 on any card except a BCD card is considered to
+terminate the veriable field, and any information to the right of the blank
+will appear in the listing of the macro definition but will not be stored as
+part of the macro definition, In any cage, the variable field for a macro
+definition or expansion stops with column 72, An EFC eard which follows imme-
+diately may be used to continue the argument string of a MOP or MAC, The
+maximun pumber of arguments which ean be used for a single macro is 63,
+
+A macro name, or a substitutable symbol used within a macro definition,
+may consist of from one to six legal BCD characters, excluding the break charac-
+ters defined above, NMacro names may be entirely numeric, zero being an admissible
+name, The name of a macro definition may not be blank; the cccurrence of a MOP
+with a blank or any break character in column 12 will stop the assembly, A MAC
+call with blank mame is permissible, and cauzes no imstructions to be inserted
+into the assembled program, Thus the blank name may be considered to he re-
+served for the empty macro,
+
+All break characters other than blanks and terminal $ signs behave
+exactly like commas in the range of a HOP, Consccutive break characters in a
+EQOP argument string will not cause the insertion of dummy arguments with
+symbol "0", but will simply be skipped.
+
+lincro names meay not be headed, and the SAP heading character in
+effect at the time of a macro definition is mot incorporated in the definition,
+The heading character imn effect at the time of a macre call wiil be used on
+symbols im the expanded macro, A macro which reguires = headed symbol in its
+definition may be writtem so that both the heading character and symbol itself
+are separately substitutable,
+
+MOP EXAMPL, H$SYMB
+CLA HSSYMB
+END EXAMPL

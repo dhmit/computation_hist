@@ -1,102 +1,61 @@
 3
 
-be financed indirectly by contributions from each project which
-uses it, if this were considered to be the most desirable way of
+be financed indireetly by contributions from each project which
+uses 1t, if this were conslidered to be the most desirable way of
 keeping it going. At present, however, support by contributions
 from established research projects can support only about a third
-of the $100,000 needed, which would leave unsupported the most
-fruitful research of all, the unknown results which are sure to
+of the 100,000 needed, which would leave unsupported the most
+fruitful research of all the unknown results which are sure to
 come when a machine expert of the Center staff works together with
-the economist, psychologist or sociologist' on the faculty of one
+the economist, vpsychologist or sociologist on the faculty of one
 of our participating colleges who comes to the Center with only a
-"gleam in his eye" .
+"gleam 1n his eye".
 
 Possible Initial Directions for Investigation
 
 As indicated, we cannot write down in any detail the
-directions which this research effort will take, as -the various
+directions which this research effort will take, as the various
 teams are formed and begin to interact. There are several general
 areas which we feel should be investigated, which are certain to
 produce results of immediate interest and which, in addition,
 should provide hints as to still more important applications.
 
-A, One of these is the deeper investigation of machine
-logic itself. A computer of the complexity of the 70% is too big
+A. One of these is the deeper investigation of machine
+logic itself. A computer of the complexity of the 74 is too big
 to be able to see immediately how it can "think". Most machines
-are now' programmed to do ordinary arithmetic,a afew programs have
-been devised to make the machine obey the rules of Boolean logic
+are now programmed to do ordinary arithmetic, a few programs have
+been devised to make the machine obey the rules of Boolean logice
 and some thought has been spent on working out programs to make
-the machine play chess or checkers, in other words to obey the
-logic of a game. Different sciences and branches of learning
-have their own kinds of thought processes. For example, economics
-and genetics each have patterns of thought which do not exactly
-duplicate those of physics» Fundamental research is needed to
+the machine play chess or checkers, in other wordas to obey the
+logic of a game. Different sclences and branches of learning
+have Their own kinds of thought processes. For example, economics
+and genetlcs each have patterns of thought which do not exactly
+duplicate those of physics. Fundamental research is needed to
 work out programs, rules of thought for the machine, which corres-
-pond more closely to these other patterns. With a machine of the
-flexibility and storage capacity of the 70k, such research is
-worth while" It will have to be tackled, at the beginning, by
-teams of experts in the fi ls of interest, together with mathe-
-matical logicisns who know =achine operation.
+pond mcre closely to these other patterns. With a machine of the
+flexibllity and storage capacity of the 704, such research 1s
+worth whlile. It will have to be tackled, at the beginning, by
+teamg of experts in the field of interest, together with mathe-
+matical logicians who know machine oper ation.
 
- 
+B. Another general llne of attack i1s in the field of
+the storage and rapid aceess to information, such as is needed in
+. the problems of language translation and historical research, for
+example. Several schemes of 3od1ng of information, so that it can
+be found quickly and eazily, have been devised on paper, but the
+"pugs™ in such schemes will become apparent only when masses of
+information, of the order of several hundred thousand items, are
 
-B. Another gen—w
-the storage and rapid ac
+to be ordered and sorted out. The new installation at the Compu-
+tatlon Center will have & storage e&)eoﬂty of this size. Some of
+the proposed schemes should be tried out, and others developed, by
+memwbers of the C)ﬂfwr gtaff working with persons familiar with the
+information and tis uses. ¥or example, a project in machine
+translation has alr dy beery set up under the directbn of Professor
 
-: of lang * 9
-example. several s
-be found quickly and
-"bugs" in such sche
-information of the
-to be orﬂ ‘
-tation Center will
-the proposed soher .
-members of the Cent
-information an:
-
-   
- 
- 
-  
-    
-   
- 
-   
- 
-
- 
-
- 
-
-come apparent only when masses of
-several hundred thousand items, are
-The new installation at the Compu-
-Vity of this size. Some of
-out, and others developed, by
-g with persons familiar with the
-a project in machine
-
-Mp u"er the directbn of Professor
-develops, it will need the
-lists and will need the use of a
-slation project is already
-ation, but parallel work by the
-
-” 2 rapid access to large~quantity
-
-  
- 
-
-    
-   
-  
- 
-
- 
-
-Locke of
-help of m
-machine t o
-supported ‘
-
-CompotaLicn
+A
+Locke of the lLanguage Leu<;Ju,nT As 1T develops, 1t will need the
+help of machine programming-speclalists and will need the use of a
+machine to test its iaeas. ?be ctranslation projeet is already
+supported by the Rockefeller Folundation, but parallel work by the
+Computation Center on techniques for rapid access to large-quantity

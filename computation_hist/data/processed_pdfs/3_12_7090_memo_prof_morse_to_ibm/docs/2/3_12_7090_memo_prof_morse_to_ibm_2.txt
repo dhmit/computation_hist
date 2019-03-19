@@ -1,0 +1,118 @@
+Third Draft
+Corbato Version
+
+Mr, M. Loren Bullock
+IBM Corporation
+M., I.T, |
+
+| Dear Loren;
+
+The Center staff in developing a tion shariag system for the IBM 7090
+computer has come to the conclusion that certain machine modifications are
+essential for the success of the project. The requirements for time-sharing
+system will first be discussed in a general way and then a specific proposal
+of modifications will be made. Although the proposal is considered to be
+a fully satisfactory one and reasonable to implement and use, it should not
+be considered the unique way to satisfy the desired requirements. Rather the
+proposal should be considered as specimen which exhibits the various Foquire.
+ments wo attendant difficulties which must be solved.
+
+It 18 expected that all programs ox time-snared users of the computer
+will be operated under the direction of a supervisory program. The latter
+program will be responsible for periodically starting and stopping each
+user program in a sequential fashion. Due to core memory space limitations,
+user programs will usually have to occupy different memory locations each
+time they are operated. User programs when operated must be unable to
+transfer to or store words in other programs outside of their allotted
+memory regioll.. However, the supervisory program, which is assumed to be
+completely debugged, should be able to transfer to or reference any location
+in memory. It is assumed that all trap locations will be in the supervisory
+program, Finally, to prevent a user program from giving input-output
+commands which disturb other programs it appears convenient that input-
+output commands only be initiated in the supervisory program; thus the user
+program enters supervisory program subroutines to accomplish input-output.
+
+The above requirements can be satisfied by ‘he following proposed
+modifications:
+
+1, There should be a memory protection mode added. When out of the
+memory protection mode (normally set by the reset button), the 7090 behaves
+in the usual manuer and relocation and boundary registers {(Jdeserived below)
+are ignored. Vhen in the memory protection mode, memory protection traps
+may occur and the relocation register is operative. The mode is entered
+by @& special instruction
+
+TRP X (transfer and enter protect mode)
+which causes transfer of control to X end entry into the memory protection
+
+mode, The mode is left whenever any trap occurs, (It would be convenient
+for using system subroutines, but not essential, if a TSX~like instruction
+
+
+Mr. M, Loven Bullock ~~ Page March 17, 1961
+
+were available which would cause a trap distinguishable from 2 memory
+
+protection trap.) In particular input-output commands can only be initiated
+when out of the memory protection Xzap mode but once initiated will procede
+regardless of the mode status of the relocation and boundary registers.
+
+2. A poi ‘of boundary rogiaters should be provided which shen fn the
+memory protection mode will cause 2 memory protection trap either if an |
+
+input-output instruction is encountered or if transfers or effective addresses
+reference out of the unprotected memory region, The unprotected region of
+
+memory is defined by the contents of the boundary xy registers. The trap
+
+| should occur before execution of the instruction initiating the trap. The
+
+boundary registers should be only out of the memory protection mode by
+special instructions: if these instructions are executed in the memory
+protection mode, the effect should be either a NOP or a trap. (Instructions
+for reading exmz are also desirable although not essential.) The contiguous
+region of unprotected memory should be capable of being of any length and
+located at any region in memory. There is no fundamental objection to
+quantizing the bounds but it is felt that the smallest domain should be no
+larger than 256 words, If the bounds are guantized, transfers or memory
+
+~ references from one domain in the unprotected region to another domain in
+the unprotected reglon should not cause a rap, i
+
+hasan AEA .
+
+3. A relocation register ‘should he provided euch irk that the contents
+are indexed into each effective memory address (in addition to the ususl
+
+index registers). (There is no major programming difference if the relocation
+
+register and boundary registers are combined into a base register and range
+register combination.) With respect to setting, reading, and quantizing
+the relocation register, the same considerations apply as for the boundary
+registers. If at all possible, the execution of 7080 instructions in the
+
+& memory prukmgtimus protection mode should not require any more cycles than
+when out of the mode.
+
+4, A core storage clock and interval timer should be available for the
+supervisory program to rotate among user programs, The clock and timer
+described in RPQ F89349 appear to be adequate for the requirements.
+
+5. The ut modifications proposed should not preclude further RPQ
+requests, but it 1s unlikely that any further requests will so intimately
+affect the 7090 logic.
+
+The above requirements and modifications have been arrived at after
+considerable study of the 70890 system diagrams and the programming
+necessities of an effective time-sharing system. We will be glad to discuss
+at greater length either the hardware or the programming considerations
+involved,
+
+Sincerely,
+
+Philip M. Morse
+Director
+
+cc: F. J. Corbate, J. McCarthy, lM. Minsky, H. Teager
+
+

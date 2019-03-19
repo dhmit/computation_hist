@@ -1,23 +1,25 @@
-Digits} Cantu“: inbumtwy
-metastatic mutate a»! mmwy
+dlgital Cosputer lapoeratory
+Hassachusetis Institute of Technelogy
+Cambridge 39, Massachusetis
 
-Mrlﬂzﬂ 39, Mmttl
+SUMARY oF
 
-BMRY 0?
-HIT‘B “T"mﬁu‘ﬂ mm NR THE m 704
+HIT'S POBT-MORTEN RVUTINE FOR THE 188 704
 
-Alt-tract
+Abstract
 
-'re gunman prom-u WWI: u we BIT Minion
-(taken a 991%er mum for time 1133i 9’04. has Wan
-writtmx. it print. at inhuman anaemia»! rangw of cum
-Mary is: any at me Harlan: max-nu accasnuai an input by
-the Sham Mmiy i’mugm: Ear Wm, M aymbauc
-imtmctlm m: a: “.th point numbemv use math“:
-in 50mm: controlled by smile Emma are”. whzei:
-19.92; mm; 118w sharia smiic mama; but 2% m3 Mae £0
-cmu'udiw mulls; ﬁrm um ammlw. Mans for ihtﬁgjit'
-Mag: um way progrm and time paﬂvwrtw manna mm
-a single systm win we brieﬂy macuuseﬂ'
+L @ T VY s @ G st
 
-L1
+50 faciiitate program ghecioust at the MIT Compatation
+Centor, o post-mortem routine for tae INE Y04 hus been
+written., It priste or punches speeified ranges of core
+BeRory in any of the varicus forms sccepted as inpat by
+the Shere Assembly Progsam; for exampie, ap symbolic
+ingtractions or a8 floating point sumbers. The routine
+is normally comtrolled by symbolie Feguest cards, which
+look much Like Shave symbolic casde; but it 28y also Le
+controlied napually from the console., Plans for integiya -
+ting the sssembly prograg and the POSt-wortes routine into
+& single system will be briefly discussed.
+
+o

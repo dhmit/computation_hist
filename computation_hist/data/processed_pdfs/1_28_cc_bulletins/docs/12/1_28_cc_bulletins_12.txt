@@ -1,0 +1,720 @@
+a) Page 1 of 23
+| COMPUTATION CENTER
+] © Massachusetts Institute of Technology
+Cambridge 39, Massachusetts
+
+To: All Programmers
+From: Peter Wegner
+Date: February 15, 1960
+
+Subject: Mi SAP, Macro PFacilities®
+
+PREFACE
+
+This memo describes the macro instruction facilities that will
+become available as part of standard MET SAP language, The body of the
+memo is taken from a report by DE, Eastwood and M.D, Hellroy of Bell
+Telephone Laboratories (BE), describing the BE Macro SAP facilitfes.
+
+Certain modifications made to BE SAP are also described, The section in the
+BE report describing input and output of compressed macros (macro skeletons)
+has been deleted, since these facilities will not initially be available in
+Hi SAP, Sections giving examples of the use of macros for recursion and
+symbol manipulation have been added. The section on. symbol manipulation
+
+has been taken from the memo "Cutline of Use of BAP Macro Imstructions for
+Menipulating Symbolic Expressions", by M.D, Mellroy, The examples in
+Section 18 are due to Steve Russell of the MIT Artificial Intelligence Group,
+
+“ Based on the report, Macro Compiler Modification of SAP by DBE, Eastwood
+and M.D, Mcllroy of Bell Telephones Laboratories,
+
+
+rn
+
+CC=-148
+
+TABLE OF CONTENTS
+
+Page
+Preface 1
+Table of Contents 2
+1, Introduction 3
+2, Basic Use of MOP amd MAC 3
+3. Legal Macro Names and Arguments 4
+4, The Pseudo-operation IRP A 5
+5. The Pseudo-operation IFF PA B 6
+6. The Pseudo-operation ETC 7
+7, Created Symbols 7
+8. Added Details on MOP 8
+9, Added Details on IRP 9
+10, Added Details om MAC 9
+11, Substitutable Operation Codes 10
+12, BCD Within Macro Definitions 10
+13, DEC, OCT, and OPD Within Macro Definitions 11.
+14, Printing of Macros - PMC 12
+15, Remote Insertion of Progrem Segments = RMT 12
+16. Additional Pseudo-operation Facilities - PCC, SAK, 13
+
+Qualifiers, RDF
+
+17, Examples Using IFP - Recursion 14
+18, Examples Using IRP - List-Processing 16
+19, The Use of Macros for Symbol Hanipulation 18
+20, Conclusion 20
+
+APPENDIX 1, The Macro Skeleton Table and the Pushdown List al
+APPENDIX 2, The Expansion of Nested Macros 22
+
+ 
+
+TRC EE
+
+
+3,
+
+CC-148 3
+
+Introduction
+
+SAP, the SHARE Assembly Program for the IBM 704 is a medium for
+writing computer programs which is characterized by a predominantly one-to-one
+correspondence between the symbolic instructions written and the machine in-
+structions produced, The additions to SAP described in this memorandum allow
+the programmer to define sequences of symbolic coding which may contain vari-
+able parts, and thereafter to incorporate such sequences into his program by
+
+giving only the name of the sequence and the desired form of the variable infor-
+
+mation to be substituted, Sequences of coding which are used as described
+above are called macro instructions, Msny computer programs have repetitive
+sequences of coding, and in such cases the use of macro instructions can reduce
+the programming effort, Macro instructions also provide a powerful tool for
+building new programming systems,
+
+The ability to define and use macro instructions has been a part of
+assembly programs for other computers, and has even been added to SAP by iso-
+lated 704 installations before now, The present version, however, is extreme-
+ly flexible, and in particular is believed to be more powerful than the macro
+features now in SCAT (the SHARE Compiler-Assembler-Translator for the IBM 709
+and 7080), The power of the macro instructions to be described is due to the
+freedom of substitution allowed within macro instructions, to the use of paren-
+theses as delimiters rather than as paris of symbols within macro imstructions,
+and to an accompanying set of instructions to the assembly program (pseudo-
+operations) which allow the assembly of macro instructions with variable length
+and content,
+
+This memorandum is intended to be tutorial; and after giving a brief
+outline of the major additions to SAP proceeds from simple to more complicated
+examples of thelr use, This method of presentation causes essential informa-
+tion to be scattered, : L3 2]
+
+The pseudo-operations basic to the use of macro instructions are;
+HOP, for definition of macros; MAC, for insertion of macros; IRP, for repeti-
+tion of a sequence of instructions within macros; IFF, for conditional assembly
+of instructions within macros; and ETC, for extension of the variable field of
+MOP and MAC cards, Other pseudo-operations to be described allow remote defi-
+nition of symbols, and control of the printing of expanded macros,
+
+Basic Use of HOP and MAC
+
+The operation of MOP permits the programmer to give names to sequencss
+
+of symbolic instructions which will occur repeatedly in ome or more programs,
+The operation HAC calls for the insertion of such seguences into the current
+program, For example,
+
+HOP? ADD3, A,B,C
+
+CLA A
+
+ADD B
+
+STO €
+
+END ADDI
+
+is the definition of an open addition subroutine named ADD3, having three
+dummy arguments which will vary from use to use, Once the above definition
+is given in a SAP program, three-address addition cam be used at will by giving
+8 macro call such as
+
+MAC ADD3 X,Y, 2
+
+which will result in the expanded segment of program,
+
+CiA X
+ADD ¥
+8T0 2
+
+
+CC-148 4
+
+In the above example, dummy arguments appear only as symbols in
+the address part of the instruction, but a dummy argument Hay appear anywhere
+in the variable field (card columns 12-72) of any card within a macro defini-
+tion, and may also appear in the location field (columns 1-6) and operation
+field (columns 8-10). If a symbol is defined by appearing in the location
+field of an instruction within a macro, then that symbol would usually be made
+a dummy to avoid multiple definition from repeated use of the macro,
+
+The rangsof a macro definition ig from the MOP card bearing a given
+name to a following END card bearing the same macro name. Thus macro defini-
+tions may be nested one within another, When this is done, however, an inner
+
+macro will not be defimed until all macros within which it is rested have been
+expanded ,
+
+The definition of macro X may include calls for other macro iastruc-
+tions whether or not the other macros have been defined, as long as all such
+macros are defined before a MAC call for macro X occurs, Circular definitions,
+which would result in eo loop in the assembler, must he avoided by the programmer,
+
+To give greater flexibility to macro operations, parentheses have been
+set aside for special use within the variable field of MOP and MAC instructions,
+Thus parentheses may not be used as part of a macro name or of a symbol which
+appears within a macro operation, The same restriction applies to the use of
+equal signs within the range of a MOP, There are no restrictions on the use
+of parentheses or equal signs as part of normal SAP symbols outside of macros.
+
+Programmers not using macros will find no visible changes in the way
+SAP works.
+
+al Macro Names and nts
+
+The sequence of characters following the macro name on a MOP or MAC
+card will be referred to as the macro argument string, The name of a macro-
+operation and the dummy arguments in the argument string of a MOP ecard may be
+any legal SAP symbols not containing parentheses or equal signs, or may be
+numeric quantities, (The number zero must not be used as a dummy argument.)
+
+As usual in SAP leading zeros are ignored, A legal SAP symbol occur-
+ring in a macro definition as name or dummy argument need mot be distinct from
+ordinary symbols defined elsewhars in the program, The name of a macro defini-
+tion may not be blank or empty, If the name of a macro defined earlier is used
+for another macro definition; the earlier definition is effectively wiped out,
+
+The arguments supplied in ths MAC call may be any SAP expressions made
+up of symbols satisfying the above requirements, separated by commas or by
+parentheses as described below, Their correspondence with the dummy arguments
+of the macro definition is determined by their pesition im the sequence follow-
+ing the macro name, A pair of parentheses surrounding an expression in a MAC
+argument string signifies that everything between the parentheses is to be
+substituted for the corresponding argument in the macro definition, Thus,
+using the three-address addition macro given earlier, the call
+
+MAC ADD3,A+1,%% (B,1)
+
+would expand into
+: CLA A¢l
+
+ADD oo
+
+STO B,1
+
+A further example, illustrating the fact that macro names themselves may be
+substituted, is
+
+- TE ——
+
+
+CC=-148 o
+
+MOP SKIP, TXX,NAME, X
+TEX X
+MAC NAME
+X SYN ©
+END SKIP
+
+in the expansion of the following call the second argument of SKIP will be
+substituted, commas and all (but with the outermost parems stripped off), in
+place of the dummy NAME
+
+HMAC SKIP,TPL, (ADD, (X,1),Y,2) 22
+The result of the two macro expansions is the generated sequence
+
+TPL ZZ
+CLA X,1
+ADD Y
+STO 2
+ZZ SYN ®
+
+Normally, printing of generated instructions will be suppressed ®
+
+The Pseudo-operation IRP A
+
+This instruction is used in pairs withnn a macro, to begin and emd
+a block of instructions, The result will be that the block of imstructioms so
+bracketed will be repeated once for each subargument of argument A, with A on
+each repetition replaced by successive subarguments, A must be a SAP expression
+defined before appearance of the instruction in a MAC call, For example, the
+routine
+
+MOP SUMSQ,T,B
+
+Four instructions
+to be repeated .
+
+MRM
+
+END SUMSE
+
+computes a sum of squares in T, It might be used to compute x2 4 v & 7%
+by the call
+
+MAC SUMSQ,U, (X,¥,Z)
+which compiles into
+
+7]
+=3
+oN
+
+EEE PEELE
+caoanNnNnea<aeaMMneaE
+
+® See section 14,
+
+i ————————
+
+
+CC-148
+
+The Pseudo-operation IFF P,A,B
+
+This instruction provides conditional assembly of program segments
+within a macro according to the values of the parameters P,A,B, P is a SAP
+expression, A and B are BCD symbols, This instruction results in assembly of
+the next instruction in sequence if and only if the truth value of the boolean
+expression
+
+P EQ
+
+is 1, where
+
+P = 1 or 0 according as SAP equivalence of P is
+greater than or equal to zero,
+
+Q = 1 or 0 according as A and B are identical
+or different BCD symbols,
+
+Thus the instruction
+IFF 1,A,B
+
+says, "if and only if it is true that A and B are identical symbols, assemble
+the next instruction'; while
+
+IFF 0,A,B
+
+says, "If and only if it is false that A and B are identical symbols, assemble
+the next instruction,” An example of the use of this instruction is
+
+MOP ADD A,B,C
+CLA A
+
+ADD B
+
+IFF 0,C,AC
+STO C
+
+END ADD
+
+The macro ADD does the same job as the macro ADDI defined earlier, but with
+
+extra sophistication, By using the special symbol AC for the third argument,
+the programmer can call for the result of the addition A+B to be left in the
+accumulator and not stored, Examples:
+
+MAC ADD, X,Y,2 MAC ADD, X,Y,AC
+CLA X CLA X
+
+ADD Y ADD ¥
+
+STO Z
+
+The IFF instruction can be put to other uses:
+The reader may verify that
+
+IFF Q
+
+means, assemble if and only if the equivalence of Q is mot zero"; that
+IFF Q/11
+
+means, "sssemble if and only if the equivalence of Q exceeds 10", and that
+IFF Q-Q/2°2
+
+means, "assemble if and only if Q = 1 (mod 2)." Also, simce the equivalence
+of an "undefined expression is taken to be zero, cone can interpret
+
+IFF Q
+
+to mean "assemble if and only if Q is defimed”, provided that the equivalence
+of @ is expected not to be zero,
+
+
+yg
+
+CC~-148 7
+
+The fact that the conditional essembly governed by IFF applies to
+only one following line of symbolic coding is not a serious restriction, since
+
+that line may be a czll for a macro standing for a sequence of any desired length,
+
+The Pseudo-operation BIC
+
+This pseudo-operation has the effect of extending the variable field
+of a HOP or MAC card, The string of cheracters on 2 cord must be terminated
+by $b, (where b denotes a blank) or by a $ sign in column 72, to signal the
+compiler that an ETC card follows, The compiler treats the variable field of
+the ete card exactly as if it were an extension appended to the variable field
+of the previous card in place of the terminating $. No break character is
+assumed in the position of the $ sign: thus
+
+MAC A, ,BCD
+or
+MAC A, ,B$
+ETC CD
+or
+MAC A,$
+BTC ,BCD
+
+are equivalent; in each example, the first argument is empty and the second
+argument ig the symbol BCD,
+
+If a generated variable field of amy instruction compiled by 8 HAC
+call runs over column 72, an ETC card is automatically constructed, In
+counting the range of IRP or IFF instructions ETC cards are not included = they
+are regarded as part of the instruction to which they are attached, ETC cards
+can meaningfully follow MOP, MAC, and ETC, Trouble awaits the programmer who
+uses them elsevhere,
+
+If generated ETC cards appear following any cards other than MOP ,
+HAC, or ETC, then the length of one or more substituted argument is too great
+and will have to be reduced to get a valid assembly, After an IFF, generated
+ETC cards will not cause errors provided the three arguments required by
+IFF fall entirely on the IFF card, This situation might arise if, in order to
+alter the original definition of a macro, two or three arguments were substi-
+tuted into an IFF in the place of a single dummy argument: vig, ,
+
+MOP SAMPLE P Demonstrates
+
+IFF P, ABLE, BAKER Substitution in IFF
+MAC ANY
+
+END SAMPLE
+
+MAC SAMPLE (BXPR, BCDL, BCD2)
+
+in the above MAC call, a long expression appearing in the place of EXPR might
+conceivably cause part of the original second and third arguments (now in the
+fourth and fifth positions amd hence ignored) to fall beyond column 72 and
+thus to generate am EITC card following the IFF card,
+
+Created Symbols
+
+If arguments are missing from the end of the argument list of a MAC
+call, symbols will be created to £ill the vacancies, Symbols ,,001, 0.002, ete,,
+have been preempted for this purpose, A typical example of their use is in
+the SKIP macro encountered before, where the symbol used for the dummy parameter
+X need not concern the programmer, The call
+
+
+CC-148 3
+
+MAC SKIP, THI (ADD3,R, 3,T)
+results in
+T™MI ,.001
+CLA R
+ADD 8
+STO T
+5.001 SYN ©
+
+An explicitly empty argument terminated by a comma will be treated as empty;
+created symbols will be supplied only at the end of the string of arguments.
+For example :
+
+MAC ADD3, A,
+
+compiles into
+
+CLA A
+ADD
+STO ,,00mn
+
+where ,,00n is the amext available created symbol,
+
+Added Details on MOP
+
+Those BCD characters which are not legal as part of a macro name of
+HOP argument will be called bresk characters, The complete list follows: wg
+¥9 =5 ®5 1; (;), $, comma, +0, -0, the redundant minus (which prints a quote
+mark on some BTL equipment), blank, and all special characters, A blank if
+encountered before columm 72 on any card except a BCD card is considered to
+terminate the veriable field, end any information to the right of the blank
+will appear in the listing of the macro definition but will not be stored as
+part of the macro definition, In any cage, the variable field for a macro
+definition or expansion stops with column 72, An EFC ecard which follows imme-
+diately may be used to continue the argument string of a MOP or MAC, The
+maximum pumber of arguments which can be used for a single macro is 63.
+
+A macro name, or a substitutable symbol used within a macro definition,
+may consist of from one to six legal BCD characters, excluding the break charac-
+ters defined above, Macro names may be entirely numeric, zero being an admissible
+name, The name of a macro definition may mot be blank; the cccurrence of a MOP
+with a blank or any break character in column 12 will stop the assembly, A MAC
+call with blank mame is permissible, and cauzes no instructions to be inserted
+into the assembled program, Thus the blank name may be considered to he re-
+served for the empty macro,
+
+All break characters other than blanks and terminal $ signs behave
+exactly like commas in the range of a HOP, Consecutive break characters in a
+EOP argument string will not cause the insertion of dummy arguments with
+symbol "0", but will simply be skipped.
+
+lincro names may not be headed, and the SAP heading character in
+effect at the time of a macro definition is mot incorporated im the definition,
+The heading character in effect at the time of a macro call wiil be used on
+symbols im the expanded macro, A macro which requires = headed symbol in its
+definition may be written so that both the heading character and symbol itself
+are separately substitutable,
+
+MOP EXAMPL H$SYMB
+CLA H$SYMB
+END EXAMPL
+
+
+CC=-148
+
+9
+or so that either the heading character or the symbol is substitutable;
+respectively,
+
+9 BOP EXAMPL B ie EXANPL, SYMB
+CLA H$STMB CLA H3SYMB
+END RXAMPL END EXAMPL
+
+The § sing in the MOP argument string above does not signal a following
+ETC card since it £8 not followed by a blank or by colwm 72, ~
+
+Remarks may be included within macro definitioms, but for the
+present there is a trestrictien that they will be terminated at the first
+
+blank and must pot contain sequences of longer than six characters between
+break characters.
+
+9. -Additiomal Details em IRP
+——-x2onal lUstails om IRP
+
+L An IRP cammot occur explicitly im the range of an IRP, however a
+MAC in the renge of an IRP may itself contain an IRP,
+
+An IRP on an énpty argument or IRP b results in skipping all instruc-
+tions down to the second IRP of the bracketing pair, If IRP Q is given in the
+BNACrO definition, vhere Q is any symbol mot on the list of dummy arguments, the
+bracketed sequence will always be skipped when the macro is expanded
+
+10, Added Details on MAC
+A —————————————
+
+When parentheses are used in the variable field of a MAC Some commas
+become redundent and may be emitted, Specifically, a comma is understood before
+a left parenthesis if it is not preceded by a comma or left parenthesis and
+after a right parenthesis if it is mot followed by a comma or right parenthesis
+<S With these conventions, suggestive programs in funetional motation can be
+written, For example, define:
+
+MOP COS,0P
+MAC OP
+TSX COS, 4
+END COS
+MOP AC
+END AC
+
+To take the cosine of the cosine of the contents of the AC, write
+MAC COS(COS(AC))
+
+This eall could have beem written less suggestively ag
+MAC COS, (COS, AC)
+
+Any symbol in the location field of a MAC card will be defined
+equal to the curreamt value of the location counter,
+
+it is mot necessary to restrict expressions to be substituted into
+the location field within a BACre to 6 characters mor those to be substituted
+into the operation field to 3 characters, A use of this feature i3 to substi-
+tute bodily an entire instruction, For GRample:s
+
+MOP INSTR, XXX
+XXX REMARK
+EHD INSTR
+
+-) may be used in this way (lower case b denotes blami)
+MAC INSTR(CLADBB)
+
+
+11,
+
+12,
+
+to compile the whole instruction
+
+CLA BbREMARK
+
+Note that the blamk that would appear normally in column 11 is displaced,
+Substitutable location fields may be used similarly, If a substituted
+"location field" is longer than seven characters the operatiom field will appear
+in the compiled instruction directly after it, but separated by a blank,
+
+Substitutable Cperation Codes
+
+Operation codes are substitutable, The dummy argument names used
+as operation codes must be mo longer them three characters and nay appear
+anywhere in the operation field.
+
+If an operation code is mot found on the argument list, the contents
+of columms 8, 9, 10 on the input eerd are stored im the macro definition exactly
+as punched, The programmer should be careful in using SAP mnemonics as MOP
+arguments: for instance, in the following example both appearances of CAL
+will be treated as substitutable.
+
+MOP EXAMP3, CAL
+CAL CAL
+END EXAMP3,
+
+BCD Within Macro Definitions
+
+If the variable field of a BCD card within a macro definition begins
+with a number or a blank, them the indicated number of words (the mormal SAP
+convention is that a blank means 10 words) will be stored as part of the macro
+definition, However, if it is desired that some or all of the BCD informatiem
+be substitutable, the requirement of a count im columm 12 causes a problem.
+For this case two alternatives are provided:
+
+1) If a comma is found in column 12, the comma is replaced by a BCD
+count of 1, and the remainder of the variable field of the BCD card is scanned
+to pick up the single dummy argument which should follow. The first blank
+encountered will terminate the scan. When the macro is used, a single BCD word
+may be inserted to follow the count of 1, Example:
+
+MOP SUBRTN,SIZE, COMMON,$
+
+ETC NAMES VECTOR ,X This macro
+OLP 4 generates
+FUL FORTRAN IX
+PZR SIZE,  X program cards
+PZE CCR0N and transfer
+IRP NAMES veetor
+BCD , NAMES
+PZE NAXES
+IRP
+REIL
+ORG ©
+IRP VECTOR
+BCD , VECTOR
+ARP
+
+X BYN © Created symbol
+
+
+TN
+
+ 
+
+13,
+
+Typical use
+ne SUBRTN, SIZE » COMMON,
+
+ETC (NAME1, NAMEZ)$ Entry points
+ETC (SUBR, SUBR2, SUBR3) Transfer vector
+
+a8) If nomnumeric other than a comma or blank is found in colwmm 13,
+the variable field will be scanned and dummy arguments will be identified. A
+dummy argument should begin the field so that a count may be later substituted.
+No sequence of characters should be longer than six characters between break
+characters; longer sequences will be truncated on the left by the scanning
+routine, The first blank encountered will terminate the scan, When the macro
+ie expanded, the argument which is supplied to take the first position in the
+BCD string must contain the correct word count for the entire BCD string.
+Example:
+
+NTR C (NTR=TZXI)
+B (BRA=TXL)
+B (XIT=TTR)
+
+To use the macro OUTPUT, a format statement would be supplied to correspond to
+the argument A and a string of variables to be printed would be supplied to
+replace B, C and D would be normally supplied by created symbols, as in this
+call to print floating point numbers X and ¥:
+
+MAC OUTPUT(2(1Hb2EL9,8))K,¥)
+
+The left-most character in the first argument becomes the BCD word count,
+
+Note that blanks (represented here by lower case b) may be used im the BCD ex-
+pressions substituted whem the expressions are enclosed by parentheses; the re-
+strictions are only on their use in definitions,
+
+DEC, CCT and OPD Within Macro Definitions
+
+If the variable field of a DEC card begims with 0,1,2 ..., 8, +, ., or
+comma, the DEC card will be stored unchanged as part of the macro definition
+in which it occurs, If any character other than those listed above occurs in
+column 12, the variable field will be scanned to identify any dummy arguments,
+In the latter case, sequences of not longer than 6 characters between break
+characters will be handled correctly. A DEC card should not use KE or B as the
+pome of a dummy argument, The following examples are correct: :
+
+MOP EXAMPL A,X
+
+DEC 1.0E¢8,5,3333333E-02 No substi-
+DEC .5 tution implied
+DEC A A,X, XX
+
+DEC A,1,0ELD,X,3 ,0810,A
+
+END EXAMP1
+
+The following exemple is ineorrect, due to the length of the number:
+
+MOP EXAMP3, A
+DEC A,12345678
+EWD EXAMP2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+03
+
+

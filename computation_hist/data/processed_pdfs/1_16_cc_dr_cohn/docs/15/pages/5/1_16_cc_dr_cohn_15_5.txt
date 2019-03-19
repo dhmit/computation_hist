@@ -1,157 +1,232 @@
-nsavnv GOHN.
+o
+
+Sees
+
+-
+
+2502
+i“.‘: =
+
+SSTELLre »~ SLCTL S
+TR C: - o .:*‘ i ‘5«“ =~
+CELRP SIS EEL2),
+
+PETL N
+
+Lo T
+SO ¢
+e
+
+- ’;"t't LT SLLd
+A S
+e EEL
+Lo e
+
+4
+
+1 .
+......
+
+NN aaa
+
+e
+-
+4
+
+A
+.
+
+    
+
+.
+J
+B
+
+oy \}
+
+Uiy ‘!".:
+) » ’
+2 l"
+
+o]
+
+(i'Z
+
+ 
+
+HARVEY COHN.
 826
 
-gns, (an > 0). In each of these 1024 (open) regions
-) are always true, whi18e4the lneq?alltle(s~ulll)(5'2)
+: ). In each of these 1024 (open) regiong
+formed using only 11) are always true, while the inequalities in (5, 2)
 
-. In the 1 cases w )el‘e o. and
-are each always “11.9 orti1::::yf:ds:hoose the vectors in (5. 3) to have the
-(5. 2) are always‘tlue lThe handling of all 1024 cases can be easily accom-
-Pﬁiziirnray Swaddle by using 4 + 16 + 16 strips of paper with the in
-:r) and za-components of the 26 vectors i At. ‘2 A" i A}, :l: A; : A2 i As,
-(easy).
+the inequalities in (5 Sl s the 184 cases where (5.11) ang
 
-6. Alternative form of the reduction theorem. We hMEIShOWUihat
-every basis is equivalent under change of basis to a reduced b21515, It .13 no
-loss of generality to assume that the change of basis involves a mat,“ of
-determinant +1 (as all basis vectors can be multiplied by _1 Wlthout
-affecting the deﬁnition of reduction). Likewise we may assume by (4‘ 21)
-that 13,, 3;, B3 are S, P, Q respectively. Finally we dIVide each 0:1 by a
-constant so as to put the lattice in inhomogeneous form, whence bﬁ= 1.
-Then calling 122.- = E), by = 7; we obtain the following result:
+or al :
+Ze ;;wh al;;?v):ystrtli'ie it is easy to choose the vectors in (5.3) to have the
+.2) are
 
-Let three non-collinear points (sum) of the projective (£4)-plane be
-given in some ﬁred order. It is possible to ﬁnd an integral unimodulur trans-
+er array of signs. The handling of all 1024 f:ases .can be ea‘sﬂy accom-
+T ing 4 + 16 4 16 strips of paper with the z,-
+plished in a few hours by using e :
+2.-, and zs-components of the 26 vectors == Ay = Ay 4y, 3= A; = A =4y
+(7). ,
 
-formation sueh that the points (6;; in) simultaneously go into the points (5", n’i),
+6. Alternative form of the reduction theorem. e have shown that
+every .basis is equivalent under change of basis to a reduced basis. Tt is ng
+loss of generality to assume that the change of basis involves a matrix of
+determinant + 1 (as all basis vectors can be multiplied by — 1 without
+affecting the definition of reduction). Likewise we may assume by (4.21)
+that B., B., Bs are S, P, Q respectively. Finally we divide each 2; by a
+constant so as to put the lattice in inhomogeneo'us form, whence by; =1.
+Then calling ba = &, bai =i We obtain the following result:
 
-formed using only + si
-the inequalities in (5.11
+Let three non-collinear points (&,mi) of the projectwe (&n)-plane be
+given in some fized order. It is possible to find an integral unimodular trans-
+formation such that the points (&, mi) simultaneously go into the points (&4, 1),
 
-,_a. + he + Cm: ,= «I. + be + cm at b, = 1
-fi— as + 7735; + 6377ij U4 as + Ila-ft + 9371:, e (“I '63) +
+a, + b:&i + C1mi ’
 
++ signs, (@ > 0
+
+ol paont
+(B 1) 2 e sk i G det (@ybacs) = + 1
+
+& as + bséi + Cam, A as + bséi + 03")i,
 lying in the following three regions of the projective plane respectively:
-R1: azomgo, 1+E1+77120;
-(62) R21 Ezsozﬂzioi 1+€e+772—,>—0;
-R3: faSOMaEO. 1+Ea+osSO.
+Ry: 51—>—0,771§0; 1+$1+77120;
+(6.2) Ry: £=0,7.=0, 1+&49=0;
+
+Ra: £3SO,773§0, 1+$3+’73£O-
+
 Note that in order to cope with our previous lattice restriction (that no
 
+—~ . e
 lattice vector have a zero component except the origin), we must extend the
-. regions to the projective plane7 thus permitting division by zero.
 
-(6,1)
+" o
+S
+b ’
+Y AT "whn
+’ :
+MO AN YD
+L s v A
+v ,E
+'
+.
+WV p .
+- v
+
+Lz
+/
+
+regions to the projective plane, thus permitting division by zero.
 
 7. Cyclic basis. A very important type of lattice is one with a cyclic
 basis,
+({1 bij = ax, where k=1 -+ j (mod 3) (k=1,2,3).
+In this case the ternary form ®, as a function of the m;, is invariant under
+cyclic permutations, and conversely. Here the basis B, (j =1, 2, 3), (in the
 
-(7‘ 1) bn= at, where h'Ei+j(1no[13) (In : 1, 2, 3).
+notation of 4) is reduced if and only if, of the four quantities @, @, %s;
+— (o + a, + @;), two are positive and two are negative,
 
-In this case the ternary form <1), as a function of the 171;, is invariant under
-cyclic permutations, and conversely. Here the basis B). (j = 1, 2, 3), (in the
-notation of 4) is reduced if and only if, of the four quantities a), 0527 “a:
-‘ (1x + 052 + on), two are positive and two are negative,
-
-(or manna. + a: + a.) < 0).
-
- 
+(or &yaa0s (g 4 o, + ;) < 0).
 
  
 
-A ynnronrc ALGORITHM non CUBIC Forms 82'”
-. ' I
+A PERIODIC ALGORITHM FOR CUBIC FORMS 827
 
-We now single out the “hard case,”
+now single out the “har »
+We g hard case, where, under g change
 
-where und - .
-and (possibly) a change in sign of all an, I er a Change Of ludlces
+. o o f . .
+and (possibly) a change in sign of all a;, we have the inequalities of indices
 
-we have the inequalities
-(7‘2) a1+a2>ws>a2>ai>0-
+(7.2) Gt > a> 0> >0,
 
-Then, vacept for the hard case just cited, the 0
-close to a reduced basis in the sense that the 1)
+Then, except for the hard case just cited, the cyclic basis will be finitel
+close to a reduced basis wn the sense that the vector ;
 
-reduced basis can be chosen from among the 26
-iBii—BziBa: (ta/=1)-
+) s P? Q) R; S 0 t
+reduced basis can be chosen from among the 26 vectors + B; +Bf :- ge
++ By = B, &= B;, (15%57). » = by + By,
 
-yclie basis will be ﬁnitely
-
-eetors P, Q, R, S for the
-vectors : Ba, : Bi i Be
-
-The above statement can be easily veriﬁed. We further note that the
-hard case must be separated since the three numbers a1, a3, a; can otherwise be
-arbitrarily close to one another and still satisfy the conditions ('7. 2). There—
-fore, even it the set of 26 vectors above were extended to any ﬁnite set
-however large, of the type 7931+ lng+rnjB3, it would still be possible
-to choose the a.- so that of the four desired basis vectors P, Q, R, S, the
-one (S) which is in the all + (or all —) octant would be the one for
-which k,+ l,- + mj7é0, while the other three vectors would be such that
-k, + l, + m]- = 0, contradicting condition (4. 21).
+The above statement can be easily verified. We further note that the
+hard case must be separated since the three numbers a1, %, @3 can otherwise be
+arbitrarily close to one another and still satisfy the conditions (7.2). There-
+fore, even 1f the set of 26 vectors above were extended to any finite set
+however large, of the type k;B, 4 I;B, + m;B,, it would still be possible’:
+to choose the o; so that of the four desired basis vectors P, Q, R, 8, the
+one (S) which is in the all 4 (or all —) octant would be the one for
+which k; + I; + m; %0, while the other three vectors would be such that
+kj -+ 1y + m; =0, contradicting condition (4.21).
 
 Fortunately, in many applications, the hard case simply does not occur.
 For instance, for later reference, take
 
-(7.3) ak=2exp(21rim/p), (h=112,3),
+(7.3) o = 2, exp(2mim/p), (k=1,2,3),
+where p (=1mod 3) is a prime and m through a complete set of residues
+of cubic character indicated by k. Here a, + @, + o3 = —1, and therefore
 
-where p (E 1 mod 3) is a prime and m through a complete set of residues
-of cubic character indicated by It. Here on + are + a3 =—1, and therefore
-if the a: were all of one sign (as in (7. 2)), we should have ) amigo:a l g 1/27
-in contradiction to the fact that a is an algebraic integer. Hence the lattice
-given by ('7. 1) and ('7. 3), (determined by contraction of a cyclotomic ﬁeld),
+if the o; were all of one sign (as in (7.2)), we should have | ez, | = 1/27
+in contradiction to the fact that « is an algebraic integer. Hence the lattice
+given by (7.1) and (7. 3), (determined by contraction of a cyclotomic field),
 has a reduced basis very close to the cyclic basis described here.
 
 Finiteness.
 
 8. Norms and discriminants. We now consider the case where the
-xi. 3:2, as components in (4. 42) are the conjugates of three numbers spanning
-it (totally real) cubic ﬁeld. We shall show that although the neighbor process,
+21, &2, T3 components in (4. 42) are the conjugates of three numbers spanning
+a (totally real) cubic field. We shall show that although the neighbor process,
 for instance, produces a chain of 3 X 4 matrices (see 12 below), they are
-strictly proportional to only a ﬁnite number of classes. Thus the ternary and
-quaternary forms take on only a ﬁnite number of values.
+strictly proportional to only a finite number of classes. Thus the ternary and
+quaternary forms take on only a finite number of values.
 
-As a preliminary step, multiply through the matrices so as to ma
-We let A represent the (common)
+As a preliminary step, multiply through the matrices so as to make all
+of the pi, qi, i, s; algebraic integers. We let A represent the (commjon)
+absolute value of the determinants formed by omitting any one of the four
 
-kc all
+e shave
+54y 4ldefs ;,
+e
+YN
 
-of the pr, (1,, r5, 3; algebraic integers. _
-absolute value of the determinants formed by omlttlll‘b‘ My one Of the tour
+Y,
+S
+MY Al alalaTalatls?, o f
+1 0'1‘0’4/ 'lIO'O""‘; ,V,". v
+'l .,(l"l oll’o'o’n"',a.o‘ v, ',")o'
+D Tt T8y e ’
+‘, ":‘I‘ l‘ll':‘;' 1t ,".'I':"“ "":/:"
+e N (7,7, ¢ MM
+a“,:,:,;,‘,',‘,' dpasalaty o)
+‘
 
- 
-   
-   
-  
-   
-      
-    
-      
-  
- 
- 
-  
-  
+v,
+)
 
-  
-   
-  
+"
+- e SrSr
 
-,/
-l. W1 ’ ’
-My“. I
-We
-ﬁlthy”!
+Ly RN ey
+fr?g T TR
 
-i
+rZ
 
- 
+>~
+P 2
 
- 
+./
 
- 
- 
+Loy
+=%
+r
 
- 
+l’(r
+ey
+et e
 
-”:3:
+R
+TR
+i gy

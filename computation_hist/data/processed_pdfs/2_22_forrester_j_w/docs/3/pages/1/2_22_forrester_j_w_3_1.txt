@@ -1,38 +1,39 @@
-9M4
+File
 
  
 
- 
-
-SCHOOL OF INDUSTRlAL MANAGEMENT
+SCHOOL OF INDUSTRIAL MANAGEMENT
 
 ESTABLISHED UNDER A GRANT FROM
-THE ALFRED Pr SLOAN FOUNDATION. INC.
+
+THE ALFRED P. SLOAN FOUNDATION, INC.
+
+1
 
 50 MEMORIAL DRIVE
-CAMBRIDGE 39. MASSACHUSETTS
+CAMBRIDGE 39, MASSACHUSETTS
 
 November 6, 1958
 
 Professor Philip M. Morse
 Director of the Computation Center
-6—101
+6-101
 
 Dear Professor Morse:
 
-I have just had a letter from Professor Ferris w. Norris,
+I have just had a letter from Professor Ferris W. Norris,
 Chairman of the Electrical Engineering Department at the University
 of Nebraska. They are planning to start a computing center at
 the University soon which will be equipped with a 650 or a Univac I
 or some medium priced computer.
 
 He writes, "We are also interested in finding someone
-with an adequate mathematical background and experience with com—
+with an adequate mathematical background and experience with com-
 puters, who might be appointed as Director of the Center, and
 who would also undertake to organize suitable courses in 'Numerical
 Analysis' and in 'Computers and Their Applications'. Perhaps you
 know one or more persons who might be interested in being considered
-for this position. Any information or recomendations you might
+for this position. Any information or recommendations you might
 make in this connection would be greatly appreciated by the committee."
 
 If you have any suggestions of men who might be interested
@@ -42,8 +43,12 @@ him.
 
 Sincerely,
 
-Jay . F ster
-JWF:KDB
+F ster
+JWF :KDB
 
 cc Fernando Corbato
 26-269
+
+ 
+
+ol R

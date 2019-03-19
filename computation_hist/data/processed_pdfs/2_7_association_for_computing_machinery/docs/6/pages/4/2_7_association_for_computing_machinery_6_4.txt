@@ -1,33 +1,25 @@
-In particular, the problem of atoning the ”ammo "lotions is
-discussed from the viewpoint that n computer mare- not be able
-to achieve a prescribed accuracy entirely from ”established
-criteria.
+In particular, the problem of starting the recurrence relations is
+discussed from the viewpoint that a eomputer'pwec!tl‘unlt be able
+to achieve a prescribed accuracy entirely from pree-established
+eriteria,
 
-It is aasumed that the required spherical Bessel functions
-to be generated to;- a given positive value of x and the integral
-valuee or “(1):! are one or the four typee: Jun), nuts), in“) or
-Ruhr).
+It 1s assumed that the required spherical Bessel functions
+to be generated for a given positive value of x and the integral
+values of n=0(1)N are one of the four types: 3 (x), n,(x), 1,.(x) or
+k. (x). |
 
-Straightforward considoratione show that the upward use or
-the threo:tm recursion relations is numerically accurate for unﬁt)
-and kn“). Inasmuch as these functions for order 0 and -1 are
-essentially elementary trigonometric and exponential functions,
-starting the upward process offers no problem. Conversely for x
+Straightforward conalderations show that the upward use of
+the three-term reeursion relations is numerically accurate for nn(x)
+and k. (x), Inasmuch as these funcetions for order 0 and -1 ave
+essentially elementary trigonometric and exponential funetions,
+starting the upward process offers no problem, Conversely for x
+not large compared to N downward recursion is the only direction
+numerically accurate for the funetions J,(x) and 1 (x). However,
+instead of computing the funetion values for order N and Nel to start
+the downward reoursion, a speelal technique 1s used where the
+recursion process is started at a higher order, ), with the approxi-
+mation J;) or 19 equal to zero and J,) -1 or 1; 1 equal to unity,
+Here the barred quantities are the unnormalized functions, The value
+of ) is chosen high enough so that the ratios of successive values
 
- 
-
- 
-
-not large compared to K downward recursion ie the only direction
-numerically accurate for the functions Jn(x) and in(x). However,
-instead of computing the function values for order N and Mel to start
-the downward recursion, a special technique is used where the
-recursion process is started at a higher order, A) , with the approxi-
-nation 3‘) or 3,) equal to zero and 3‘) -1 or 33:1 equal to unity.
-Here the barred quantities are the unnomalized functions. The value
-of x) is chosen high enough so that the ratios of successive values
-of 3n or in are accurate for all In less than or equal to N.
-
- 
-
-I‘
+of J or 1n are accurate for all n less than or equal to N,

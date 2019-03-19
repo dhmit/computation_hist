@@ -1,0 +1,99 @@
+i | bier root +o
+W SH So Pp 9. ( 32,
+
+Approximations for Digital Computers be. vo.
+
+Cecil Hastings, Jr. 136 Kuuala Street Lanikai, Hawaii
+
+Note-22
+
+APPROXIMATION NEWSLETTER
+(All the fitting that's news to print)
+
+Again the results below are copyrighted by the RAND
+Corporation and are ‘published’ with their permission.
+To reprint, please obtain permission from Paul Armer,
+The RAND Corporation, 1700 Main Street, Santa Monica,
+California.
+
+The Chi-Square Integral (Part III)
+
+Before displaying further approximations, let us
+present the 'analysis' that went into our choice of
+parametric form for the Cross-section fits of Note-20,
+We sought a parametric form that would be as useful
+in the fitting of cross-sections for low values of
+
+m as for large values of m.
+
+When m is Large
+
+Referring to Fisher, we learn that the Chi-Square
+Integral is approximated by
+
+2X 2-om-1
+Ut
+(1) FE) eo 2° 4s
+—- 00
+
+for large m. This suggests that we use a variable
+such as
+
+(2) A =~2m-T - +232
+
+in a form such as
+
+(3) FLX) = 4 z
+Leah +2220, 03]
+
+ 
+
+for approximation over OvE¢n. Our reason for this
+choice is that (1) behaves much like a decaying
+exponential function of (2) and the right member of
+(3) handles such a function very well. But how could
+& form like this be used for small m?
+
+When m is Small
+
+The Chi-Square Integral is essentially the Incomplete
+Gamma function. Here's a little sample approximation
+
+
+(4) ~~ Y3¢ Zee 71x
+
+(5) =3lny 71x,
+
+Or smal] decreasing Xy~1nx rapidly goes to
+* © whije X does Nothing of importance Elsewhepe
+i as x,
+
+What jg Pertinent to us Aron the Section above then
+18 the idea of USing-1n7 as oyp 1ndependent vari.
+able ir we Can relate this to (2). This we do by
+Setting
+
+(6) n = Fain.
+
+-
+This bransformaty,, is J inesp In Inde is 2€ro whep
+=m ang M lhcregges flonotone] y with decreasing oo.
+Also, we T8Yy rewrite (6) as
+
+(7) RTE)
+
+and €Xpanding to fipgt Order terms Obtain
+
+(8) NVR
+
+ln the Tegion of importance | This jg Close enough
+to (2) for oup Purposes gq
+
+(9) VZm - Vém-1 —; §
+
+Dicely a8 m—opo, AVIptotica)]y, “Verything 18 just
+fine, The Proof of The Pudding is Containeq ln (4)
+of Note-20. The dats for I=00 jg COpieq from Equa-
+tion (22), Page 23% Of MTAC Numbe 4.3
+
+

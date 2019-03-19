@@ -1,7 +1,3 @@
-————7—W
-
- 
-
 lurgist may look for equivalent or al-
 ternate heating and/or working steps in a
 process, or equivalent or alternate heat-
@@ -11,7 +7,7 @@ those disclosures which show equivalence
 as such, in some particular relation.
 
 A patent claiming a rotary bearing
-structure may disclose details of chem—
+structure may disclose details of chem-
 istry, of pressure molding and of lubri-
 cation, all of which must be encoded for
 retrieval.
@@ -19,19 +15,19 @@ retrieval.
 Conclusions
 
 It can thus be seen that the references
-which must be retrieved through mech—
+which must be retrieved through mech-
 anized search are quite varied and dif-
 ferent from those which would result
-from a subject heading type of informa—
+from a subject heading type of informa-
 tion search. Although our concepts and
 notions are often extremely broad in
-scope, the interrelationships of their con—
+scope, the interrelationships of their con-
 ceptual parts are detailed and intimate,
 while the particular characteristics of
-each of these essential parts are neces—
+each of these essential parts are neces-
 sarily minutely present. And while these
 categories of disclosure are seemingly
-incompatible, they must be retrieved con—
+incompatible, they must be retrieved con-
 currently.
 
 Compounding (and perhaps confounding)
@@ -43,13 +39,13 @@ our problem.
 Taken all together, the solution to these
 problems will require:
 
-1. Constructing, organizing and integrat—
+1. Constructing, organizing and integrat-
 ing a series of codes;
 
 2. analyzing and encoding according to
 these codes, at least 7 million dis-
 closures in the Patent Office (each
-with the large number of codes nec»
+with the large number of codes nec-
 essary to set forth those features
 of each disclosure for which some
 searcher may later look); and
@@ -58,17 +54,17 @@ searcher may later look); and
 
 3. creating and designing methods of, and
 apparatus for using, the precise and
-intricate retrieval patterns required.
+intricate retrieval patterns required,
 
 Concluding Notes
 
-The isolation of a single specific dis—
+The isolation of a single specific dis-
 closure for completely anticipating all
 the claims of a patent application is a
 rarity. Even then, an applicant may,
 under certain circumstances, be allowed
 to show that he can antedate a specific
-publication, or some one or more publi—
+publication, or some one Or more publi-
 cations may otherwise be found not to be
 properly usable in a specified instance.
 It would appear, therefore, that no search
@@ -76,10 +72,10 @@ in any scheme of mechanized search (as
 in the manual searching now used by the
 examiners) can be considered complete or
 sufficient for anticipating an application
-claim, if that search does not cover &
+claim, if that search does not cover all
 the known pertinent art. Applying this
 particularly to mechanization, this means
-ﬂ encoded disclosures in storage.
+all encoded disclosures in storage.
 
 The specific examples of problems in
 mechanizing the examiner’s search, which
@@ -95,76 +91,64 @@ constitutional obligation placed on the U. S.
 Patent Office, none of these problems can
 be ignored.
 
-The many helpful and constructive com—
-ments and suggestions from other mem—
+The many helpful and constructive com-
+ments and suggestions from other mem-
 bers of the staff which have been incor-
 porated into the final draft of this paper,
 and the counsel and advice of the Direc-
-tor, who aided in the selection of the ma—
+tor, who aided in the selection of the ma-
 
 terial here incorporated, are gratefully
 acknowledged.
 
- 
-
 References
 
 . Report to the Secretary of Co
-by the Advisory Committemeici
-plication of Machines to Patent OI;-
-fice operations; Dec. 22, 1954;U S
-Department of Commerce, Was . I
-ton 25, D. c.; $1; PP- 2 and 3-
 
-. U. 5. Patent #2,7l4,269 to G. R S
-charleS} Application date, Jan..10-
-1955; Patented Aug. 2. 1955- ,
+- by the Advisory Committezang:le};ce.
+plication of Machines to Patent Of.
+fice Operations; Dec. 22, 1954. 5 S
+Department of Commerce, Was’hix;g_.
+ton 25, D. C.; $1; pp. 2 and 3. 8
 
-. u. 5. Patent #2,688,202 to J.l§. Oniel‘
-Application date, July 8, 1952; Pat:
-ented Sept. 7, 1954.
+2. U. S. Patent #2,714,269 to G. R, §
 
-hing-
+0. UL S, Patent
+verley;
+1950; Pa
 
-., U. S. Patent #1,797,968 toD. Sweeney;
+#%,662,335 to G. H. Cal-
+Application date, Jan. 19
+tented Dec. 15, 1953. ’
+. Great Britain, Patent #597,762 to N.
 
-Application date, Nov. 9, 1927; Pat—
-ented Mar. 24, 1931.
+Ducat; fileq
+Feb. 3. 104 Bfug- 25, 1945; accepted
 
-.U. S. Patent #2,582,553 to R. H.
-McMurtrie; Application date, Aug.
-17, 1949; Patented Jan. 15, 1952.
+p—
+~J
+
+: U-SS- Patent #1,468,612 to E. S. John.
+
+Charles; Application d 99y 25 Application date, Oct. 4
+055: Parented b 2t 1922; Patented Sepr. 18, 1923,
+
+3. U.S. Patent #2,688,202 10 J.B. Onjel: D piatent #2,656,578 o T. 1.
+Application date, July 8, 1952: par. ! €X; Application date, June 21,
+ented Sept. 7, 1954, ?51; Patented Oct. 27, 1953.
+
+4. U. S. Patent #1,797,968 toD. Sweeney:  10- Germany, Patent #520.0
+
+: i 2 ’ . : ’ s 27 4 -
+Aptpeléc&tlgn S:ti,glglfv. 9, 1927: PaZ- ert; Patented Aug. 9, 192;(.) &
+
+ar. :
+: UenS el »#2 Sioeial 11. Great Britain, Patent #625,357 to Uni-
+SEUos D ’ , o R, H. versal Plastics, Ltd.; filed June 20,
+
+McMurtrie; Application date, Aug 19
+’ - 47,
+17, 1949; Patented Jan. 15, 1952. accs?:fd qusH:)e 37,r 10949.
+— V.0, Vept.o omm—DC— 1958
 
 29
-
-‘
-
-6- S Pate
-U. . t
-verley; np $12,662,335 to G. H. Ca1—
-
-plication date
-1950; Patented Dec. 15, 1325?“. 19’
-
-7. ' '
-
-G333: Britain, Patent #597,762 to N.
-F cat, filed Aug. 25, 1945; accepted
-eb. 3. 1948.
-8. U. S. Patent #1,468,612 to E. S. John-
-son et a1; Application date, Oct. 4
-1922; Patented Sept. 18. 1923 '
-
-9. U S Patent # .
-. . 2,656,578 to T. J.
-”ll‘worek; Application date, June 21
-951; Patented Oct. 27, 1953. '
-
-10. Germany, Patent #520,027 to P. Rob-
-ert; Patented Aug. 9, 1929.
-
-11. Great Britain, Patent #625,357 to Uni-
-versal Plastics, Ltd.; filed June 20,
-1947; accepted June 27, 1949.
-
-53310—1]. 3. Dept. o 1‘ Com— DC— 1956

@@ -1,119 +1,139 @@
-tebmry 27 , 1957
+February 27, 1957
 
-Dr. J. 3. Robert-on. (Shun-Ian
-AC! Prop-u: Countee
-University at Illinois
-le-bma, Illinois
+Dr, J. B. Robertson, Chairman
+ACM Program Committee
+University of Illinois
+Urbana, Illinois
 
-near Dr . inﬂation:
+Dear Dr. Robertson:
 
-halo.“ in quadruplicate are copies of an entrant
-and a sunny 0! a propel“ paper entitled "The 1.1.1:. Auto—
-matic Coding Sylton for the 1.3.3. 704,” to be given at the
-June nesting o! the m.
+Enclosed in quadruplicate are copies of an abstract
+and a summary of a proposed paper entitled "The M.I.T. Auto-
+matic Coding System for the I,B.M, 704, to be given at the
+June meeting of the ACM,
 
-The paper tie-cubes work which we canted out
-Jointly by the stat! of the “.11. cmputatien Center, end, 12
-accepted, will be read by one o! the undersigned.
+The paper describes work which was carried out
+jointly by the staff of the M.1.T. Computation Center, and, if
+accepted, will be read by one of the undersigned.
 
-Sincerely yours ,
+Sincerely yours,
+A, Biegel
 
-A.I1ag91
-F. C. Belwig
-8. 1. Beat
-Hzgn
+¥F, C, Helwig
+
+8S, PF. Best
+
+AS:gn
 Enclosures
 
 
-m3?
-TIE 1.1.‘1‘. Will: 8091” mm NR
-m LEI. 704
+SUNBARY
+THE B.I.T, AUTOMATIC CODING SYSTEM POR
+THE 1.B.M, 704
 
-Abnmt
+Abstract
 
-Au antennae mu Int... which. it :- hop-d. It“.
-be will an mic. am In." cadu- am, 1- bung envelop-d
-to:- use on the LBJ. 704 it tho ILLI‘. Mutation Cantu. The
-”an 1- not yet in optimum, but it. urban-lying philosophy 1-
-am elm. I: 1- £011: that. the an denim“ abound in
-the H.131. syntax will be of. intent“ to others at this tun.
-The principal farm: a: thin mu- no:
+An automatic coding system, which, it is hoped, will
+be useful te novice and expert coders alike, is being developed
+for use on the I.B.M, 704 at the M.1.7, Computation Center. The
+system is not yet in operation, but its underiying philosophy is
+alveady clear, It is felt that the new developments embodied in
+the M.I.T. system will be of interest to others ai this time,
+The principal features of this system are:
 
-1) Th. inclusion of an advanced algebraic “mm Ind
-a: ell-outta ”chine code in one colanhmivo coding Int-n,
+1} The inclusion of an advanced algebraic language and
+of elementary machine code in oe comprehensive coding system,
 
-2) The sax-whim for Mining inaction- (1.a.. sub-
-routine.) at will within an algebraic languaga, and the «par
-than or the Mining process (ran the counting process,
+2) The provision for defining functions {i.,e., sub-
+routines) at will within the algebraic language, and the separa
+tion of the defining process frem the computing process,
 
-3) The use of mmic Maren-mg to facilitate the
-interlinking o: the algebraic and lush!“ 1W.
+3) The use of symbolic addreasing to facilitate the
+interliaking of the algebraic and machine languages,
 
 
-Digit“ Counter heel-atom
-Ike-emu:- mums. oi Teena-1m
+Digital Computer laboratory
+Hassachusetis Institute of Technology
+Cambridge 39, Massachusetts
 
-Madge 39 , Wt-
+Summary
 
-".295;
-
-m II? Ame-rm: 009150 3m m m m 704
+THE MIT AUTOMATIC CODING SYSTEM FOR THE IBM 704
 
  
 
-The objective at auto-nth: mm 1- to deputy the proeeu of
-solving proble- using a mud: counter. m: 1- My done by pron
-Vienna the propeller nth a coding 1W with 1. enter to: nn to
-use than the thr'l en unmet“. cede. Ante-sue ceding an be ap—
-pmehed on my levele-aexly eyetm (and may Inter once) why 5 1m—
-gu-ge clone to the “chin 1mm" (“chm-lune). meme more elabonu
-recently-developed eyeteu eﬂer n coding language that unrest-nee lore
-or lean name-tun, ordinnry usebnlc notation (henna—like).
+The objective of automatic coding is to simplify the process of
+solving problems using s digital computer. This is commonly done by pro-
+viding the programmer with a coding language which is easier for him to
+use than the computer's own instruction code. Automatic coding can be ap-
+proached on many levels~-early systems (and meny later ones) employ a lan-
+guage cloge to the machine language (machine-like), whereas more elsborate
+recently-developed systems offer a coding language that approximates more
+or less successfully ordinary slgebraic notation (human-like).
 
-For ebvteul muons, e mun—1180 eodtn; language 1: note ne—
-eepteble to the avenge cede: than u n uehmuuke one. 11: he. the
-virtue e! familiarity; there 1! little a“ to be late“. and the re—
-emnniutton a! thought lute neeelenry by the mu: 1: kept to a n1n1~
-nee. Methane, proﬁcient cedars otten pretex- to an e “chine—11m
-language, objecting that the lama—like one. we no tax- umwed true the
-dean. of the machine that the m1 «abilities e! the meter cannot
-be «planed, anon, therefore, the neat navel-need antennae coding eye—
-tm are used by inexperienced codex-n, Ihﬂe the expert. cheoee to M10
-use their inﬁnite Mounds: o! the computer in way: permuted enly in
+For obvious reasons, = human-like coding language is more ac
+ceptable to the average coder than is a machine-like one, It has the
+virtue of familiarity; there is little new to be learned, and the re-
+organization of thought made necessary by the computer is kept to a mini-
+mum, Nopnetheless, proficient coders often prefer to use a machine-like
+language, objecting that the human-like ones sre so far removed from the
+details of the machine that the full capabilities of the computer cannot
+be exploited, OUGiten, therefore, the most advanced automatic coding sys-
+tems are used by inexperienced coders, while the experts choose to uti
+lize their intimate Enowledge of the computer in ways permitted only in
 machine code.
 
-An ante-nu: coding sync, which, it 1: hoped, will be useful
-to novice and expert codex-e alike. in being develeped re: use an the LBJI.
-704 at the 3.1.1. Computation Center. The eyltem is not yet in operation,
-but its underlying philosophy 1- Already clear. It is telt that the new
-development. “bodied 1n the {1.1.7. lyeteu will be 0! interest to ether:
-At this time. The princtpnl teeturen 91 this system are:
+An autematic coding system, which, it is hoped, will be useful
+to novice and expert coders elike, ig being developed for use on the I BM.
+704 at the H.E.T, Computation Center. The system is not yet in operation,
+but its underlying philosophy is already clear, It is felt that the new
+developments embodied in the HM.I.7. system will be of interest to others
+et this time, The principal features of this system are:
 
-1) The mole-ion or an advanced hnmclike language and or an
-elementary neckline-like language in one comprehensive coding lylteu.
-
-
+1) The inclusion of an advanced human-like language and of an
+elementary machine~like language in one comprehensive coding system,
 
 
+oie
 
-InterlinkLng the two lmggg
+    
 
-Each algobmic inutruattan (nu-Ducal or lasted) 51"! run in
-tho ﬁnal program to a seem-nee a: gaunt-d ”chm 1utmot1ml. TM
-length of this sequence and its location in Mime are unknown to tho
-coder. methaleu, be my tag as .1ch ”situation with a ”shone
-address, just as he would a machine instruction. A‘zynbolio uddrcla so
+a 73 > 2) The PEOViS ian Lop Gefinggg functiong gy, q . Subroutineg) at
+or Will wiengy the algebraje languagy “nd the Separation of the Sefining pr.
 
-"signed is always ”waisted with the um gamut-d instruction, no
+Baching nsiractiogg Walch exepyge CEputationg descrived ip thie language,
+Le muchige code itoeig, bowever, Wiil alge be pare of the ing: languege
+SNC & couplote Bietonie ang Symbolic Mlehine- language assemble will ne
+included Within the Coding System, xo “Rphasig will pe Placed op @ithey
+language; SGth wila La Sgualiy Sceeptadle, sad the Coder mgy Yev¥ert from
 
-that amtml my be trmternd (possibly by us- 92 a menu. instruction)
-in the start of the saturated 3.4mm. hunky ”port-at. um con-tutu
-and variables ”peering 1n the “mute minutes» .5, the ho Mama
-to in the mchmwlanguuo portion- et the pram. A storage lmuon in
-automatically IIIW to:- each a! that quantum dun-tn: input, and a
-symbolic adding: is 2110 an“ In the um um. 13ml. the “:1th X
-will alway- bo nor“ at Imelda warm X. and the «outﬁt M It syntactic
-adds-w! (34). The mum at 31:03:35.3 and will. human is, in thin
-way, “canned, and «instant program mining u:- ‘w no nude pol-tum
+“Rreutines witan gq 4 the “£ebrate language
+
+fabrout ine Ldbrapy This jg done Blmply by Eiviag the Coding needed go
+@valuage the function, using the lgebraie and Baching language Rotation
+“ployed gop the rege ef the Progra, ihe Coding thas define , function,
+however, is dletinguigneg from othe, Coding uring input and ig Feneratey
+in the form of Closeq Bubrouting in this Vay, the familia, Rotion of
+function introdueeg Subroutingg inte the elgehraye language “nd Bageg bog
+Bible wmope “Cfidiens Geding
+
+
+Interlinking the two languages
+
+Bach algebraic instruction (numerical or logical) gives rise in
+the final program to a sequence of generated machine instructions. The
+length of this sequence and its location in storage are unknown to the
+coder, Nonetheless, he msy tag an algebralc instruction with 2 symbolic
+address, just as ho would a machine instruction, A symbolic address so
+assigned is always associated with the first generated instruction, so
+that control nay be transferred (possibly by use of a2 machine instruction)
+to the start of the generated sequence, Hgually important, the constants
+and variables appearing in the algebraic instructions may also be referred
+to in the machine-lasngusge portions of the program, A storage location is
+automatically assigned for each of these quantities during input, and a
+symbolic address is algo assigned at the same time, Thus, the variable X
+will always be stored at symbolic address X, and the constant 34 at syabolic
+address (24). The intermizing of algebraic and machine language is, in this
+way, facilitated, and efficient programs combining the two are made possible,
 
 

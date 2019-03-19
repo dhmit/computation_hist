@@ -1,0 +1,44 @@
+T otac
+
+cC-29 Pege 1 of 3
+
+COMPUTATION CENTER
+
+lossachusetis Institute of Technology
+Cambridge 39, Hassachusetts
+
+To: Computation Center Staff
+
+From: P, ¥, Verzuh -
+Bate: = July 19, 1957
+
+Subject: Half-Word gic
+
+The purpose of this memo is to inform you that the HIT-704 Computer
+will have halfZ-word logic imstalled during the pericd July 23-28, 1957. BSuc-
+ceeding pections of this report contain the following ix_:fomticn:
+
+i, A list of half-vord logic instructiouns.
+2. A brieZ description of the effect of halt-word logic on 704
+commands,
+
+The above list of half-word logic imstructions was prepeared by Hr.
+Thomas Apple of Applied Science Cambridge. From time to time there may be
+additional modifications tc this list. If and when whis information is
+available, it will be as supplements to this memo - CC-29,
+
+It should bo noted that there are only a limited number of 704
+computers which possess this half-word logie. You are cautioned not to
+write programs which you expect to put on other machimes not having this
+feature, (At the moment there are only two or three machines which have
+
+half-word logic--MIT, Foughkeepsie, ete). You should therefore govern your -
+
+progragming accordingly.
+
+) L4 wp\/
+
+\
+F. ¥, Verzuh i
+
+/Y

@@ -1,0 +1,35 @@
+A8
+
+(1t performs the general integration Srudv as contrasted wlth the
+operation Sudt of the electronic analog computer). There are
+18 integrators, each having an average approximate accuracy of
+0.01%. There are 4 tables available for input and output of
+
+data and results. Two of these have automatic curve tracing
+devices which permit the insertion of arbitrary expérimental
+data. -
+
+A recent addition to the machine Lac “een a Vector Con-
+version Device which permits the conversion from rectangular
+to polar coordinates and vice versa. It can also be used for
+generating sines, cosines, and other trigonometric functions.
+Other recent additions are the provision of three 4-Shaft Adder
+Units which permit addition or subtraction of as many as 4
+variables simultaneously.
+
+The Analyzer 18 generally used for the solution of simul-
+taneous sets of non-linear ordinary differential equations. The
+available 18-integration capacity and associated input and
+output equipment permits the solutlion of very complex problems,
+e.g., the simultaneous solution of 6 to 8 second order differen-
+tial equatibns. It can also be used for synthesis and analysis
+of complicated control problems of various types. The machine
+has an approximate accuracy of .01% and a solution time of about
+15 minutes.
+
+A prime distinction between this machine and earlier models
+is the ease with which 1t may be set up for solution of compli-
+cated problems. JSpecifically, a two-wire data transmission system
+employing cross-bar switches and relays is used for interconnection
+
+purposes° Punched tapes for machine instruction allows one to

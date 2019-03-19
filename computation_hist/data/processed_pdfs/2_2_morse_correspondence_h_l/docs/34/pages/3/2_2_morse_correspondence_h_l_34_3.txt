@@ -1,0 +1,271 @@
+180 L. HARRIS AND A. L. LOEB Vol. 45
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+4n
+o= : 2 : s)
+21r nb . . . %, .
+(np+1) cos{—-—(n—{-ik)a] —( : +n+zk)z sin —-(n+zk)a'
+A n+1k A
+27 (27 : s
+(my—1) cos[—(n+z'k)a} — ( —n—z’k)i sml——(n-i—zk)a
+A n+1 A
+ba= . (6)
+2 ny ‘ o 2 k
+(mpy+1) cosl—(n-{—z’k)a ] - ( +n+1,k)z sm[—(n-l—zk)a }
+A n-+1k A
+¢/ co=n’—k’ (7) vpartial derivatives dn/0R, dn/dT, dk/dR, and dk/aT
+should be reported along with the computed » and & in
+ticcas CRa/GIEE: (8) order that the probable error may be estimated in #
+
+Here,
+
+Rob= (m,— 1)2/ (1lb+ 1)2,
+ny=1index of refraction of the backing,
+n=Iindex of refraction of the metal film,
+k=absorption coefficient of the metal film,
+a= thickness of the metal film,
+A=wavelength of the incident radiation,
+R=reflectance of radiation incident on the film,
+R’=reflectance of radiation incident on the backing,
+T'= transmission of radiation incident on either the
+film or the backing,
+e= permittivity of the film,
+€0=permittivity of vacuum,
+o= conductivity of the film,
+ucoa=reduced conductance per square of the film,
+p=permeability of the film,
+c=velocity of radiation i vacuo;
+
+n and k are called the optical, ucoa and (e/e) the elec-
+trical constants of the films.
+
+To find the fundamental quantities ucoa and (e/ €0)
+from Egs. (7) and (8), it is necessary to solve Egs. (1),
+(2), (), (5) and (6) [or Egs. (2), (3), (4), (5) and (6)]
+for n and % in terms of the experimental data for R (or
+R'), T, m, a, and \. It is clear from the form of these
+equations that no explicit function can be found for #
+and k. Therefore, a series of successive approximations
+must be made, trying a set of # and k, and computing
+R (or R’) and T corresponding to this set of 7% and k.
+The time required for each computation of R (or R)
+and 7, on a desk calculator, from a set of # and & IS
+about 15 hours; ten approximations may be necessary
+to achieve the required accuracy. Therefore, about 15
+hours per sample per wavelength are required by desk
+calculator. If the radiation incidence on both metal film
+and backing are to be considered, this number may be
+doubled.
+
+When the thickness of the metal film decreases, the
+reflectance and transmission become less sensitiv’e to
+the properties of the metal, and the index of the backing
+becomes relatively more important, Therefore, the
+accuracy afforded in » and % by experimental accuracy
+decreases with decreasing film thickness, so that thé
+
+and % corresponding to the probable error in the re-
+flectance and transmission data. Uncertainty regarding
+the density of the film also indicates the desirability
+of repeating the calculation for various film thicknesses,
+so that the need for a faster calculating medium is
+clearly indicated. Graphical approximations have been
+used by Murmann,® but even the use of these is very
+laborious, and their accuracy decreases considerably
+when the metal film thickness decreases.
+
+Since 7 and % [and hence ucoa and (e/e)] depend
+on four independent variables, R, T, (a/)), and n;, the
+publication of tables with sufficiently small increments
+is not practical for accurate evaluation of # and k.
+
+For the above reasons, a program was coded for
+WWI, an electronic digital computer at M.LT., as
+described below. This program is designed to take data
+in a form which can be supplied by anyone not ac-
+quainted with electronic computers, and it produces
+and labels the results in a convenient way for direct
+use or publication. The techniques developed for
+Whirlwind I will be described in a future publication.
+For direct calculation of the optical and electrical
+constants a program has been developed to find these
+constants as functions of the reflectances and trans-
+n'lission, film thickness, wavelength of incident radia-
+tion, and index of refraction of a backing, if present.
+Another program has been developed to compute the
+reflectance and transmission as functions of the optical
+
+constants, film thickness, wavelength of incident radia-
+
+tion, and the index of refraction of a backing if present.
+The latter program is used to test an estimated set of
+optical constants; if the computed pair of reflectance
+and transmission agrees with an observed pair, then
+the estimated set of optical constants is indeed a correct
+set of constants of the film.
+
+II. APPROXIMATIONS IN THE INFRARED
+
+A. Electrical Constants
+
+Many backings, such as cellulose nitrate, transmit
+nearly one hundred percent of infrared radiation. When
+
+*H. Murmann, Z. Physik 82, 947 (1927).
+
+! Submitted to the Journal . S 345
+plied M athemalics. ournal of the Society for Industrial and AP
+
+March 1955
+
+such backings are used, the calculations can be simpli-
+fied by setting n; equal to unity. In the infrared a/A<1,
+so in Egs. (4), (5), and (6) the following approximations?
+can be made:
+
+cos{ (2ma/\) (n+1k)}=21—3{2ra/\) (n+ik))?,
+sin{ (2ra/\) (n+ik)}=(2wa/\) (n+1k).
+These lead to the approximate equations:
+A/T= (wa/N)*(ucoa)*+{14-2(wa/N)}ucoa,  (9)
+where A =absorptance by the film
+R/T= (ra/N*{ (¢/ €0) — 1}*+ (3ucoa)’. (10)
+
+Woltersdorff® has derived similar equations. It follows
+from Eq. (10) that (R/T)> (3ucea)?. Equation (9) can
+be more crudely approximated by the relation ucoa
+~(A/T). This leads to a lower limit to R given by:
+
+RL(1—R-T7)*(47). (11)
+
+Thus R and T are not entirely independent, but are
+limited by the inequality in Eq. (11). This equation
+has proven useful for a quality control of such measure-
+ments on transparent films.
+
+According to Eq. (9) the absorption per unit trans-
+mission depends on the conductance but not on the
+dielectric constant of the film. In Eq. (10) the con-
+tribution of the dielectric constant to the reflectance
+per unit transmission depends on the ratio of film thick-
+ness to radiation wavelength. For a thin conducting
+film in the infrared this contribution is very small com-
+pared with that due to the conductance. Therefore the
+contribution of the dielectric constant to the reflectance
+and transmission of thin, conducting films in the infra-
+red is minor. It follows that the dielectric constant
+cannot be accurately determined by infrared optical
+measurements, and that the conductance is the prin-
+cipal physical property of the film determining its
+optical behavior in the infrared. A crude fit of electrical
+constants to a set of reflectance and transmission
+measurements can be obtained by varying the con-
+ductance alone. A fine adjustment can be made by
+varying the dielectric constant.
+
+Equations (9) and (10) are both quadratics. Since
+conductance is always positive, only one root of Eq. (9)
+is physically significant. Equation (10) has two solu-
+tions for the dielectric constant, either of which may be
+physically significant. According to Lorentz® and Zener?
+the dielectric constant (e/€) and polarizability « for a
+system of free electrons are related to frequency » of
+the incident radiation, concentration »,, mass m, charge
+(—e), and relaxation time 7 of the free electrons by the
+expression
+
+dne’r?
+m(144r27%?%)
+
+8 Woltersdorff, Z. Physik 91, 231 (1934).
+
+8 M. A. Lorentz, Theory of Electrons (Teubner, Leipzig, 1906).
+7 C. Zener, Nature 132, 968 (1933).
+
+e/eo=1+4ra=1— (12)
+
+THIN FILMS: REFLECTION AND TRANSMISSION 181
+
+The polarizability of free electrons is seen to be
+negative. When #n, and/or 7 are sufficiently large, the
+dielectric constant becomes negative also. Therefore, in
+the region of free electron absorption the physically
+significant solution of Eq. (9) is the one in which the
+dielectric constant is less than unity, and may be
+negative. The behavior of bound electrons will be dis-
+cussed in Secs. IV and V.
+
+B. Optical Constants
+
+Equations (7) and (8) can be solved for the optical
+constants, to give
+
+nt=3(¢/ €0)+{(3¢/ &0)*+[ (ucaa)/ (4ma/N T}, (13)
+
+and
+k= —3(e/e0)+{(G¢/ €)™+ [ (ucoa)/ (4ma/N) P}E.  (14)
+
+These forms are the most convenient to use with auto-
+matic computing devices. If (3¢/¢) is factored out, as is
+frequently done, and (3¢/€)? is taken out of the square
+root, either the positive or the negative root must be
+taken, depending on the sign of ¢, in order to make »
+and & real. While a person has no trouble selecting the
+appropriate root, such discrimination has to be pro-
+grammed for an automatic computer.
+
+When a first estimate of the electrical constants has
+been found by solving Egs. (9) and (10), these esti-
+mates are substituted into Eqs. (13) and (14) for a
+first estimate of the optical constants. For very good
+conductors the assumption (ucoa)/(2wa/N)>>(e/€0)? is
+often made. This leads to the approximate expression
+
+Wk (ucoa)/ (4ma/N) =pcok/d4r.  (15)
+
+It will be shown below that this approximation is not
+necessarily valid for thin films. Yet it should be noted
+that the approximate, and invalid, expression given by
+Eq. (15) leads to the correct product of the optical
+constants, namely
+
+nk= (ucoa)/ (4ra/\),
+
+which is equivalent to the exact equation (8). The
+dielectric constant, on the other hand, would always be
+zero if » is made equal to k. Since this is incorrect,
+Eq. (15) gives the wrong dielectric constant and optical
+constants but happens to correspond to the correct
+conductance. It has been shown in Sec. II-A that the
+conductance is the principal physical property deter-
+mining the optical behavior in the infrared. Therefore
+a whole family of optical constants obeying the condi-
+tion nk=constant would roughly fit the observed
+infrared reflectance and transmission, but fine adjust-
+ment by means of the dielectric constant would be
+necessary to calculate the individual optical constants.
+
+C. Numerical Analysis
+
+Equations (9) and (10) were tested on Whirlwind I
+by solving for the electrical constants in terms of ob-

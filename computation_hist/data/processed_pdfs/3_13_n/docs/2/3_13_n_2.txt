@@ -1,0 +1,79 @@
+. 1 ‘ is
+iy
+
+April 8, 1959
+
+Mr. Roy Nutt
+United Alreraft
+Bast Hartford, Connecticut
+
+Dear Roy:
+
+At the last SHARE meeting you asked me the question,
+"What conditions Would be neeessary for M.I.T. to replace 1s
+modified SAP by a modified SB(Symbolic Binary) System?"
+
+After discussing it with various staff members and users
+of the installation, I find that there is a rather pessimistic
+answer as to placing it in the Operator program, inasmuch as our
+Operator system has approximately many of the advantages which the
+SB system offers. In particular, one can currently assemble and
+run, read i a package of library subroutines at run time, and
+read in previously assembled programe as binary cards. In
+addition, the Operator system 1s in a large, cumbersome, and
+mature form, (Also there is a strong possibility that the Center
+may get a T7090 next year.) The Center also faces the problem of
+maintaining the Operator system for various other projects, such
+as the real time applications we are currently working on, as
+well as maintaining adequate documentation of the system for
+continuity through personnel changes.
+
+Furthermore, as an open-shop installation, we face the
+difficulty of educating several hundred programmers about new
+machine features and facilities. The latter difficulty at times
+can be grim because of the limited amount of staff time avallable
+for "bailing out” programmers from difficulties which are over thelr
+heads, The problem of education can be minimized to a large extent
+if the original descriptions of the new facilities make 1¢ clear
+that they are only an option and that only the studious user of
+the machine need learn about them.
+
+Consequently, it seems clear that the only practical way
+that we could accept SB would be as a separate assembly program
+for those who wish to experiment. (This might represent a few
+
+
+of our users who are currently working outside of the Operator
+frogsan BNA 8 few Nore Hh Nik iE raced NN Of ia:
+dless to say, we are always anxious to experiment with new
+
+techniques providing it does not interfere with the normal heavy
+work load.
+
+Finally © answer the hard f questicu, namely what we would
+require to be done od Re Rd nie lilo Bes
+conjectured answer, which I am not authorized to promise, would
+be along the following lines. We would accept SB in our Operator
+program if someone else did all the work and providing it was
+only an additional feature rather than a replacement; further
+it would be necessary that vary complete documentation was made
+of all the installation ste Finally, it would be necessary
+that the Center have complete "control over the final specifications
+of the installed 8B.
+
+I realize this sounds grin and ensoIablE, but from our
+
+point of view, the offer of experimental usage is the only answer |
+that we can make at this time,
+
+Sincerely yours,
+
+/
+F. J. Corbato (MI)
+
+FJC:RM
+eg: Prof. P. M. Morse
+« Fe Ne Verzuh
+Prof. Ds N. Arden
+
+

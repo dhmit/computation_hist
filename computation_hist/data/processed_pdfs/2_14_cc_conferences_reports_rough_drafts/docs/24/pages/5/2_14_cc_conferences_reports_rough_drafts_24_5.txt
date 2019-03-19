@@ -1,0 +1,48 @@
+8e0
+
+9.0
+
+ 
+
+Agali cations
+
+Section 2.0 contains a list of the crse studies which were discussed in this
+course. Since there are memoranda available desoribing each of these in oonsiderad
+detail, it is not necessary to discuss them further at this point. However, a fow
+remarks on the payroll problem eré in orderse The Typs 660 Drum Calculator was
+digcusged and demonstrated using e typloal payroll problem soneisting of 6,000
+persomnsl, 40 departments each containing a maximum of 200 men, and 100 jobs in
+process within each deparmenﬁo This problem was set up using 8 different input
+cards and 3 output cards == current earning card, nsweyearsio=date card, and a
+job lgborecogt card. Markesensing was used on atlendance cards and the checks were
+automatically prepared on the Type 407 Accounting Machine. The entire 6,000-man
+payroll required a total elapsed time of 11 hours. It is, of ocourse, to be remembered
+that & pumber of machines are cperating in parsllel at certain times since 10 hours
+of 650 Caloulator time were required,
+
+Price List of Comgonen‘ss on the 705
+
+Ttem Description Monthly Rental Cost
+
+708 Jain Frame =- AlU«Core Memory $14,0000
+
+T14=7569 Card Reader and Reader Control Unitb 2,400.
+
+TL7=757 Printer end Printer Control Unit 1,800,
+
+T2 =758 Card Punch and Punch Control Unit 1,050,
+
+727 Magnetic Tape Unit 650,
+
+754 Tape Control Unit 2,000,
+
+732 Megnetioc Drum Storage Unit 25800,
+
+776 Resord Storage Unit 23400,
+$27,0000
+
+It must be remembered that an excise tax of at least 10 per cent must be applied
+to the gbove itemae Furthermore, it must be recelled that at least 8 magnstic taps
+wnits would be reguired oan such an installation. Hence a minimum ingtallation would
+probably cost about $34,000 per month. (A recommended area of 1660 sq. ft. and an
+assoclated control engineers® room of 400 sg. £te. is required.)

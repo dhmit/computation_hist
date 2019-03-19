@@ -1,0 +1,29 @@
+-2
+
+Anong other pro:ccta, the staff ot ths Presra-lins i
+Research Group at the c-ntcr haa actively aslaatod the R. L.8.~~
+Language Translation Pro:oct in the d.volopnont, prosra-ning. 2.
+and coding of the COMIT compiler-interpreter which, in etroet.'
+defines a manipulating language for the purposes of linquistic
+study and machine translation. In.addition. the Center has lent
+suppeort to other groups such.aa the Artiticial Intcllzsanco
+Project which has made great strides in the development of the
+LISP programming language. The LISP language is designed to
+taoilitato the prooesains of symbolic zntoruatzon, as opponcd to
+‘numeric information. It will be applied to problems such as '_
+symbolic differentiation and_tntesrataon and the manipulation of
+formal proofs in symbolic logic and related areas. At present,
+effort is being devoted to arrange for multi-program time-sharlng
+operation of the computer. The Iatter feature should allow the
+development of new techniques of machine utilization which as yet
+are largely unexplored but which are becoming urgently desirable
+as faster machines are built. More extensive descriptions of these
+activities are given in the uomi-annnal progress roparta of the
+Center.
+
+The Center also has participated in educational activities
+at both M.I.T. and New England institutions. In addition to the
+special two-week programming course which is given in August for
+students and faculty, there have been many instances in which the
+Center has been used as a laboratory for the testing of classroom
+coding exercises. '

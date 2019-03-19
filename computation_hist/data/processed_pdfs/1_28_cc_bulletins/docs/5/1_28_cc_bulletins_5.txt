@@ -1,0 +1,96 @@
+COMPUTATION CENTER
+Massachusetts Institute of Technology
+Cambridge 39, Massachusetts
+
+BULLETIN
+
+No. 23
+July 16, 1962
+
+SUGGESTION
+
+The Center suggests that you file these BULLETINS as
+informal supplements to your Procedures Handbook.
+
+PROGRAMMING COURSE
+
+There will be a one week programming course given by
+the Computation Center during the period September 4 through
+September 8, Classes will meet from 9:00 a.m. to 5:00 p.m.
+each day at the Computation Center with morning lectures
+and afternoon laboratory use of the computer.
+
+The course presentation will not assume any previous
+computer experience. Emphasis will be primarily on
+programming with the FORTRAN compiler language, but the use
+of the FAP Assembler Language and the MAD compiler will also
+be included. The 7090 Monitor System which allows flexible
+and automatic operation of the computer will be described,
+In addition, the procedures and conventions of the Center
+will be reviewed. Participants will have the opportunity
+to run programs they have written during the course.
+
+Additional information and application forms may be
+obtained from MIT Department Headquarters, New England
+Institutional Representatives or from Miss Sandra Parrella
+at the Computation Center, Room 26-142.
+
+COMPUTATION CENTER MEMORANDA
+
+ 
+
+The following CC memos of general interest have been
+released since the last BULLETIN. Copies may be obtained
+in Room 26-142,
+
+CC-174-1 Description of a FAP Version of XSIMEGCF,
+
+XDETRMF. An update of the write-up of
+the subprogram to solve a set of
+simultaneous equations and evaluate a
+
+determinant.
+
+
+-e
+
+CC-176-1 Octal Correction Cards Within the FMS
+System. n update of the description
+=F octal correction cards.
+
+EQUIPMENT CHANGES
+
+About the middle of August, the Center will install
+an IBM 1301 Disk File as a high-speed auxiliary memory
+device replacing the tape units on channel C of the 7090.
+The installation of the Disk File should take several
+days; the 7090 will not be in operation at this time.
+
+Since proper use of this file by many users requires
+a standard executive program, this device may become
+available only on a limited basis and then only after the
+Center is satisfied that the necessary subprograms are
+available and checked out.
+TIME ESTIMATES
+
+The following is a revision of time estimates from
+those published in BULLETIN 20:
+
+FORTRAN
+.2 + .004n = minutes/compilation
+MAD ok du
+.1 + .0016n = minutes/compilation
+FAP
+.0004n = minutes/assembly
+where n is the number of cards. When several compilations
+
+in the same language are being done in one job, add the
+following amounts to the calculations. For every additional
+
+FORTRAN .07 minutes
+MAD .1 minutes
+FAP .04 minutes
+
+Loading time for binary decks is 6000 cards/minute.
+
+

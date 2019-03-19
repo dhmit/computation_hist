@@ -1,0 +1,67 @@
+A man who claims to be able to solve all problems by a system, (or pro-
+gram, or algorithm), is fooling himself. If he "is that smart, he does guess-
+work or perhaps uses divine inspiration, but he has no system: This nonexis-
+tence of a universal algorithm is a genuine mathematical result ascribed to
+GYdel, Post, and Turing (1933-6 A.D.), which probably ranks with the work of
+Aristotle (330 B.C.) on logic. (The reader is spared an exact formulation here
+by virtue of the stupefying ugliness of the symbols and page-layout required in
+symbolic logic, but the more venturesome readers might wish to comnsult S. Kleene,
+Metamathematics).
+
+We shall consider a more specialized technical situation, due to Turing,
+illustrating the limitation on machines. Suppose we have various decks of (read-
+able) input cards that will be fed into a machine to read and compute (during and
+after reading). A human programmer, we hope, can usually look at the deck and
+tell if the deck will produce an error stop. But the human can have no system,
+or, in other words, a machine can not do his work.
+
+~ Let us prove no machine program can examine an arbitrary '"running deck' and
+decide in a finite number of steps if the running deck ever produces an error
+stop. Suppose such a program exists, (call it P). It is to be loaded followed
+by an arbitrary running deck D to be tested. The combination is written (p,D).
+Use the following standard form: While seemingly examining a running deck D, let
+P actually "consider" D followed by D, written (D,D) and let P announce the re-
+
+sult of running (D,D) by '"calling itself a liar" as follows:
+
+ 
+
+ 
+
+1., If (D,D) will produce an error stop then (P,D) announces this fact by
+performing a legitimate operation such as a ''print'.
+
+2. If (D,D) will produce no error stop then (P,D), announces this fact by
+performing an error stop.
+
+Then we see if P exists (P,P) can produce no result without a contradiction.
+Hence the algorithm P does not exist. (See illustration opposite page.)
+
+In the same way, we can feed the English dictionary and rules of grammar in-
+to a machine but no program can exist for telling whether a group of words has
+"meaning', no matter how carefully we define meaning in terms of machine-like rules.
+
+On the othé;_hand, literal translation of languages is not only possible but has
+been done at least five years ago.
+
+ 
+
+Thus for a long time machines will need constant human guidance, in return
+for their service, preferable of the type that can be achieved best at a university
+with its broad range of interests and talents.
+
+% % % % %
+
+NEWS
+
+The publication of the Bulletin An extention of our teaching assign-
+will resume in September. At this ments includes a section of our begin-
+time the intentions are to carry the ning programming class in the first ses-
+same general format into the next ac- sion of summer school (10:00 - 12:00,
+ademic year. We would appreciate fur- five days a week). Also a reminder that
+ther comments on how we might serve with the new catalogue our courses will
+the wide variety of subscribers. Our in general have different course numbers.
+
+mailing list at present includes 83
+on campus, 224 in the state, and 84
+outside the state.

@@ -1,0 +1,267 @@
+R e——
+
+ 
+
+400 j. B. GOODENOUGH AND A. L. LOEB
+
+The correlation between the axial ratio and the con-
+centration of copper in octahedral sites as functions of
+temperature can be explained on the basis of the
+square-bond model. At room temperature Bertaut
+found 88 percent of the copper in octahedral sites
+(A=0.44) and an axial ratio ¢/a=1.06. At 700°C the
+concentration of copper in octahedral sites had de-
+creased to 74 percent (A=0.37) and the axial ratio to
+¢/a=1.035. The fact that Cu'! migrates from octahedral
+to tetrahedral sites indicates that Cu'! can be readily
+accommodated in tetrahedral sites although, because of
+square-bond formation, it is more stable in octahedral
+sites. The increase in entropy due to this migration
+apparently offsets the corresponding decrease in internal
+energy. That the decrease in the number of square bonds
+in octahedral sites due to the Cu!® migration is accom-
+panied by a decrease in the distortion is consistent with
+the covalent model.
+
+Quantitative correlation between Bertaut’s observed
+axial ratios and \ produces the relation,
+
+(A—0.26)=3(c—a)/a for A >0.26. (IV.4)
+
+The factor (\—0.26) is a measure of the stress induced
+by square-bond formation. The strain is given by
+(¢c—a)/a. Equation (IV.4) expresses a linear stress-
+strain relationship (Hooke’s law). It also states that
+in CuFe,0y it is necessary to have 26 percent of the
+octahedral sites occupied by Cul! before tetragonal
+distortion sets in. This corresponds closely to the esti-
+mate that at least 25 percent of the octahedral cations
+must form square bonds. Equation (IV.4) can be used to
+extrapolate to the case of a completely inverse CuFe.0yq,
+for which A=0.5. In this case half the octahedral sites
+contain Cu'l, and Eq. (IV.4) gives ¢/a=1.08. In a
+hypothetical spinel in which all octahedral sites are
+occupied by Cu'! ions and in which no covalent bonding
+exists in tetrahedral sites, there are twice as many
+square bonds in the octahedral sites so that ¢/a=1.16.
+This latter value is significant for comparison with the
+axial ratios of other tetragonal spinels which are thought
+to have square-bond formation in all the octahedral
+interstices.*®
+
+C. Tetragonal Spinels Containing Manganese
+
+Hetaerolite (ZnMn,O,) and hausmannite (MnzO4)
+each form a spinel lattice with tetragonal symmetry.
+Their axial ratios are reported as ¢/a=9.23 A/8.08 A
+=1.14%and ¢/a=9.42 A/8.14 A=1.16,"-¥ respectively.
+Mason? and Romeijn'* have determined that the Zn'
+cations of hetaerolite are in the tetrahedral interstices.
+This cation arrangement corresponds to the optimum
+configuration for covalent bonding (see Table II) as well
+
+28 McGuire ef al., Ceram. Age 60, 22 (1952), report that CuCr,O,
+is also an inverse, tetragonal spinel with ¢/a=1.1. Its axial ratio
+varies with temperature in an analogous manner to that of
+CUFCQO4.
+
+2 B, Mason, Am. Mineralogist 32, 426 (1947).
+
+% G. Aminoff, Z. Krist. 64, 475 (1926).
+
+as for Madelung energies. Since th? Mn'! cations. may
+also form partially covalent bonds In tetrah.edral inter-
+stices, it may be analogously assumed that in the haus-
+mannite lattice Mn!! cations occupy tetrahedral inter-
+stices. This means that there are only two possﬂ.)le
+cation arrangements for these tetragonal spinels, viz.,
+Zn?*+(Mn2+Mn#H)Oy or Zn2t(Mny'H)O4 for hetaerolite
+and Mn2+(Mn2*Mn#+)O; or Mn2+(Mn,'1)Oy4 for haus-
+mannite. If the former arrangement is correct, then the
+distortion to tetragonality might be due to an ordering
+of Mn2*+, Mn*t cations in alternating planes perpendic-
+ular to the ¢ axis. Such a model was first proposed for
+hausmannite by Verwey." If the latter arrangement is
+correct, then some mechanism other than ionic orfiering,
+such as square-bond formation, must be respon:slble for
+distorting the lattice to tetragonal symmetry. Since it is
+
+impossible to distinguish between Mn*t, Mn®**, and
+
+Mn#*t by x-rays, it is necessary to use other measure-
+ments to distinguish between the two alternatives.
+Before the predictions on the basis of the two models are
+compared with various measurements, however, it
+should again be pointed out that Mn*t has the electron
+configuration d@* which, according to Sec. III, is partic-
+ularly suited for the hybridization of empty (dsp?)
+orbitals for coordinate-covalent square-bond formation.
+The square-bond model is, therefore, particularly satis-
+factory for spinels which contain Mn**, or rather Mnl,
+Seven physical properties are discussed below.
+
+1. Tetragonal Symmelry
+
+The distortions to tetragonal symmetry in both
+hetaerolite and hausmannite must be caused by the
+same mechanism. Since Zn!!, which is well known to
+form tetrahedral covalent bonds, is tetrahedrally
+coordinated in hetaerolite, the tetrahedral-site bonds are
+certainly largely covalent. Therefore if the lattice dis-
+tortion from cubic symmetry were due to an ordering of
+Mn2+ and Mn** ions in the octahedral interstices, the
+lattice would have orthorhombic symmetry as in Ie;Os.
+However, the lattice has tetragonal symmetry.
+
+If the square-bond model is correct, then hetaerolite,
+which has strong covalent bonding in both the tetra-
+hedral and octahedral interstices, should have a smaller
+axial ratio than hausmannite which has strong covalent
+bonds only in the octahedral sites. The calculation of
+Appendix I shows that a reduction from ¢/a=1.16 to
+¢/a=1.14 is the order of axial-ratio reduction to be
+expected. '
+
+Further, an axial ratio ¢/a=1.16 for hausmannite,
+which forms square bonds in each occupied octahedral
+site and no covalent bonds in the tetrahedral sites, 1S
+exactly the ratio which is predicted from the extrapola-
+tion of the CuFe,0, data.
+
+2. Transition Temperatures
+
+The transition of Mn;0, from tetragonal to cubic
+symmetry was first observed at 1170°C by McMurdie
+
+’
+
+ 
+
+THEORY OF IONIC ORDERING 401
+
+and Golovato® who used a high-temperature x-ray
+technique. Romeijn'* has measured the dc conductivity
+of Mn3O4 and ZnMnsO, and found a conductivity
+discontinuity in the temperature intervals 1075°C
+_<T T< 1150.°C and 950°C <T <1025°C for the respec-
+tive materials.
+
+Although the Madelung bonding energy of the com-
+pletely ordered state of Fe;O4 is 39.6 kcal/mole!
+greater than that of the disordered state, whereas the
+thermal energy corresponding to a transition tempera-
+ture of 77=120°K is 0.23 kcal/mole, the retention of
+considerable short-range order above 120°K can account
+for this discrepancy. If the phase transition to cubic
+symmetry were due to the same mechanism in Mn;0y as
+in Fe3O4, then the transition temperature should be
+approximately four times higher in the 2-4 spinels since
+the Madelung-energy change due to octahedral-site
+ordering is four times as great. There is no reason to
+assume that the retention of short-range order above
+the transition temperature should be strikingly different
+in Mn30O4 than in Fe;O4. The analogous transition tem-
+perature for Mn;O, would be 480°K, a value which is
+only a third of the observed transition temperature of
+1443°K.
+
+Since the covalent model offers an entirely different
+mechanism for lattice distortion, no correlation between
+the transition temperature of Fe;O4 and Mn3Oy is to be
+expected. There should, however, be a correlation of
+transition temperatures among the tetragonal spinels.
+On the basis of the square-bond model, the transition
+temperature varies with the magnitude of the axial
+ratio. This prediction is consistent with observations on
+CuFe;0s4, ZnMn,Os, and MnzO; whose transition
+temperatures are 760°C, 1025°C, and 1170°C, corres-
+ponding to axial ratios 1.06, 1.14, and 1.16, respectively.
+
+3. Conductivily Disconlinuily
+
+Romeijn* has measured the conductivity of Mn;Oy4
+and ZnMn,O, as a function of temperature and found
+that there is a conductivity and excitation-energy
+discontinuity associated with the phase change from
+tetragonal to cubic symmetry. Although there is a
+similar effect in Fe;O4, the discontinuity in magnetite
+occurs over a 1°C interval and exhibits no thermal
+hysteresis, whereas the manganate discontinuities occur
+over a 75°C interval, are considerably less pronounced,
+and exhibit a marked thermal hysteresis.
+
+This contrast again corroborates the hypothesis that
+the phase transition in magnetite is due to a different
+mechanism than that in the manganates. The observed
+thermal hysteresis and resistivity discontinuity are
+greater in Mn;Oy4 than in ZnMn»O,. Also, the excitation-
+energy discontinuity is greater in MnzO4 Such a
+correlation was predicted in Sec. B by means of the
+covalent model.
+
+31 H. F. McMurdie and E. Golovato, J. Research Natl. Bur.
+Standards 41, 589 (1948).
+
+4. Resistivily at Room Temperature
+
+Verwey and de Boer* investigated the electrical
+resistivity of hausmannite at room temperature and
+found that it was 10% to 10° that of Fe;O,. Romeijn
+reported p(Mn304)/p(Fe;0g) =107 ohm-cm/5X 1073
+ohm-cm=2X10°. The relatively high conductivity of
+Fet(Fe**Fet)Oy4 is due to the transfer of electrons
+from octahedral Fe** to octahedral Fe**t ions. In
+Mn**(Mn,!')O4 there is no exchange of electrons pos-
+sible, and the observed high resistivity follows.
+
+5. Paramagnetism of MngOy
+
+If MnsO4 consists of Mn*t(Mn**Mn*t)O,, there
+should be an antiferromagnetic coupling between the
+octahedral and tetrahedral Mn** cations which is com-
+parable in strength to that between the Fe®* cations in
+Fe;04. However, Mn;Oy is paramagnetic at room tem-
+perature, and Millar® has measured the specific heat
+from 72°K to room temperature and found no A-point
+in this range.
+
+It will be shown in Sec. V, below, that paramagnetism
+in Mn3O, follows from the covalent model.
+
+0. ’Y—NIHQO;}
+
+The oxide y-MnyO; is a spinel with 8/3 cation va-
+cancies per unit cell. It has tetragonal symmetry with an
+axial ratio ¢/a=1.16.* This is the same axial ratio as
+that found in Mn3O,; the mechanism which produces
+the distortion to tetragonal symmetry is apparently the
+same in each case.
+
+If the distortion mechanism consists of an ordering
+of Mn2t and Mn*t ions in the octahedral interstices,
+then y-Mn.0; must have a unit cell with eight Mn**
+ions in octahedral sites and (8/3) Mn** lons in tetra-
+hedral sites. The (32/3) Mn*t would be distributed over
+the remaining interstices of each type. Such a configura-
+tion, however, would minimize neither the Madelung
+energy, which favors all the Mn*" ions in octahedral
+sites, nor any covalent-energy contribution due to tetra-
+hedral-bond formation, which favors Mn>* ions in the
+tetrahedral interstices. It is difficult to see, therefore,
+how such a cation distribution could possibly represent
+the minimum-energy configuration.
+
+In the covalent model, on the other hand, all the
+cations are Mn*+, or Mn'!! and the distortion is due to
+square-bond formation in the octahedral sites. If the
+Mn'!! form square, quadricovalent bonds in the octa-
+hedral sites, the manganese ions are more stable in
+these lattice positions, and the correct formula for
+v-Mny0Oj3 1s Mna/3(Mny)Oy. All the vacancies are in the
+tetrahedral sites, and the axial ratio should, as it does,
+equal the value 1.16 which was calculated in Sec. IV B.
+Finally, the observed high electric resistivity* must
+follow as the covalent bond is full, and there is only one
+type of cation present.
+
+2 R. W. Millar, J. Am. Chem. Soc. 50, 1875 (1928).

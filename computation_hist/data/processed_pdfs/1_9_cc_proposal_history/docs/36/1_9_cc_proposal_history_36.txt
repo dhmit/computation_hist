@@ -1,0 +1,46 @@
+APPENDIX A
+
+LIST OF SUBJECTS RELATED TO AUTOMATIC COMPUTATION
+
+Subject No.
+
+a
+0
+ul 6
+
+Numerical Analysis
+
+Systems Design |
+
+Control Problems in Mechanical Engineering
+
+Machine Aided Analysis
+
+Introduction to Digital Computer Coding and Logic
+Electronic Computational Laboratory
+
+Pulsed Data Systems
+
+Switching Circuits
+
+Switching Circuits ;
+
+Advanced Feedback Control Theory
+
+Peedbach Control System Engineering
+
+Principles of Pulse Circuits on
+Analytical Treatment of Chemical Engineering Processes
+Principles of Instrumentation and Control
+
+Special Problems in Instrumentation and Control
+Methods of Analysis in Control Systems
+Aercelasticity
+
+Methods of Applied Mathematics
+
+Operations Research
+
+Numerical Analysis
+
+

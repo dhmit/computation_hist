@@ -1,16 +1,11 @@
 Computation Center Usage and Needs
 
- 
-
- 
-
 The purposes of the Computation Center are: education in modern
 computation and research in techniques of programming which make computers
 easier to use. These two purposes are important since graduate students
 who have used the Center frequently go on to research, business, or
 teaching positions where their computer insight is influential; faculty
 members who use the Center are, of course, in a key position to
-
 inject the advanced computer procedures which they have acquired in
 their courses.
 
@@ -23,14 +18,14 @@ preparing efficient utility programs for general use; in particular
 symbolic post-mortem programs, an automatic operator program, and many
 special utility programs for Fortran programs. An inevitable consequence
 of these programming system improvements is that they raise the number
-of potential users of the computer and hence the over—all demand on
+of potential users of the computer and hence the over-all demand on
 the computer facilities. Today M.I.T. essentially uses all of its
 one shift of IBM 704 time and the New England colleges are using more
 and more of their shift. In addition, many users have become convinced
 that computer techniques are the proper procedure for their field and
 would like to use the computer in larger amounts of time than they are
-presently able to do. These include typically real—time metarology
-predictions, simulation studies of business models and involved cal—
+presently able to do. These include typically real-time meteorology
+predictions, simulation studies of business models and involved cal-
 culations arising in theoretical solid-state and molecular physics.
 
 For the relatively new application of symbolic manipulations,
@@ -41,15 +36,14 @@ the LISP language developed by Professor McCarthy and is a quite
 different programming system. It has a mathematical logical approach
 
 
--2-
+0
 
 and promises to be a valuable tool in the study of artificial
 intelligence and heuristic programs. Although both systems will be
-
 useful in their present forms, they will undoubtedly be limited for
 many purposes by basic machine speed.
 
-Time—Shared Usage of Computers
+Time-Shared Usage of Computers
 
 A second approach is to make computers easier to use by simultaneous
 computer time-sharing by several users. The complexities of such
@@ -66,20 +60,17 @@ regular courses.
 Present Status
 
 As mentioned above, the number of users from M.I.T. are currently
-
 saturating the allotted time and any reasonable projection indicates a
 continued build-up. Secondly, certain applications such as symbolic
 information processes would appear to have a qualitative improvement
-
 if they can get over certain speed thresholds. The replacement of
-
 the 704 by the 7090 should serve to barely keep pace with these demands.
-Secondly, as a practical matter the various time—sharing developments
-are not at all easy on the 70k and are much more feasible with the
-circuitry and design of the 7090 computer.
+Secondly, as a practical matter the various time-sharing developments
+are not at all easy on the 704 and are much more feasible with the
+circuitry and design of the T7090 computer.
 
-F. J. Corbato
+P.O J, Corbato
 
-November 13, 1959
+November 13%, 1959
 
 
