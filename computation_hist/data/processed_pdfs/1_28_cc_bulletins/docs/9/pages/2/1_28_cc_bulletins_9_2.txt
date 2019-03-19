@@ -1,0 +1,45 @@
+Page 2
+Date Change
+February 8, 1961 Fortran modified so that any dash (8-4
+
+punches) will be treated internally as a
+minus (11 punch). No diagrnostics will
+occur., (Fortran programmers are still
+warned not to use the 0=4 character because
+this is a source language incompatability.)
+
+Monitor now prints the time before and
+after an assembly or compilation.
+
+Linking Segment System
+
+The use of the Linking Segment System within the FMS system as
+described in CC~173 will soon become avallable, At first special
+arrangements may be necessary, If interested see the consultants.
+
+Subroutine Errors
+
+If you feel that you've found an error in any subroutine or sub-
+program supplied you by the Center, we would appreciate your describin
+in writing the symptoms, and any diagnosis you might have. This 2
+document might then be distributed to SHARE through the Secretary's
+Letters and will certainly be placed in our files. Of course, our
+consultants and staff will help you trace an error if you neeé help.
+
+Mail Order Service
+
+All returns in mail-order service are now sent out by first-class
+rather than fourth-class mail. In addition, these returns contain a
+stamped post card which we ask you to return as feedback on the system
+We feel these changes have improved this service, :
+
+Procedures Handbook
+
+The first revision to the Center's Procedures Handbook will be
+
+started soon. If you are aware of any errors or omissions, would you
+please notify
+
+Mr. J. R. Steinberg, Room 26-143
+
+immediately, if not sooner,

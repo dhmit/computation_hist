@@ -1,0 +1,95 @@
+COMPUTER LABORATORY
+
+ 
+
+THE UNIVERSITY OF OKLAHOMA
+NORMAN - OKLAHOMA
+
+October 14, 1959
+
+Professor P, M, Morris
+
+Computer Laboratory
+
+Massachusetts Institute of Technology
+Cambridge, Massachusetts
+
+Dear Professor Morris:
+
+I must apologize for not writing to you sooner regarding the outcome of the
+questionnaire I sent on budget and administrative matters connected with university
+computing centers, I sent the questionnaire at the end of July and by the end of
+September I had received 42 replies,
+
+Even though this was a detailed questionnaire and included several matters
+of a confidential nature, almost all of my replies have been very complete, I
+therefore feel that I owe these people some concrete results for their effort, At
+the present time I will relate to you some of the more obvious conclusions that I
+can make, and I will attempt to write up a more detailed summary which can
+possibly be used as a basis for discussion at our projected meeting,
+
+The three most obvious conclusions are the following: There is unanimous
+agreement on as open a shop as consist@nt with reasonably efficient use of the kind
+of hardware that is available, In 40 cases out of 42 the center is supported at least
+partly by general university funds, In only 5 cases is the computing center under
+the administrative control of a department, In almost all of the other cases the chain
+is from director to a vice-president of the university or a dean of faculties or a dean
+of the graduate school,
+
+I asked for a brief statement of the philosophy of the Director, The responses
+to this were most interesting, some of them quite lengthy, A synthesis from all of the
+questionnaires would go about like this: The Director is still trying to sell the com-
+puting center as a university-wide research tool, In some of the more established
+centers he has to take care that the routine uses of the equipment for statistics and
+more obvious scientific calculations do not use up so much of the time that novel
+applications are neglected, The usual answer to this problem is to encourage by
+furnishing programming talent those problems which are novel and have no other
+sponsorship, There is general agreement that trained people at all levels are much
+more in need than is new equipment, although in many cases some new equipment
+is quite desirable, There is further agreement that the computing center should
+guard against becoming a service bureau in the sense of running routine problems
+at the cost of exploring new areas, even if such a policy means a financial lost,
+
+
+Prof, Morris
+10-14-59
+Page 2
+
+The problem of financing the center is a very serious one in many universities,
+It seems to be a fairly general opinion that eventually universities should consider the
+computing laboratory on about the same basis that it considers a library, but no place
+has reached this admirable goal, Until that time, many universities which do not
+have extensive research programs are finding it necessary to seek contract work
+outside the university, and apparently some of this work is in direct competition with
+commercial service bureaus, One university has gone to the extreme of paying full
+
+rental for the equipment and subsidizing a relatively small academic program with a
+large service bureau,
+
+I would like to hear more regarding your further contacts with Dr, Grad, I
+would also like to repeat my invitation that the meeting be held here at Norman, We
+are served by the Oklahoma City Airport and our own univeristy airport and in addition
+have good rail connections to Chicago, We are certainly about as central as one
+could get, and we will have a brand new computation center building ready in about
+two months, Although we will not have our copy of the Rice Computer finished by
+Spring we will be well on our way and we can discuss our future plans, We are
+rather isolated from the main stream of computer activity, and such a meeting
+would certainly be of great help to us, The university administration here has been
+very enthusiastic about building up a first rate computer program, and has com-
+mitted a significant part of its resources (considering its limited budget) to the
+program, Since our most desperate need is competent people, I am sure we could
+make valuable contacts and get good suggestions from the group of directors,
+
+Yours very sincerely,
+
+fiflast’
+
+William Viavant
+Director of Scientific Computations
+
+WV/jaq
+cc - Prof, W.F, Freiberger, Brown University
+Mr. W. H, Wells, Georgia State College of
+Business Administration
+
+

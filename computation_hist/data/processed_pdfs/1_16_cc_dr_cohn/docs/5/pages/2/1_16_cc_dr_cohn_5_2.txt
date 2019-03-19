@@ -1,66 +1,85 @@
-102 J. H. GIESE AND H. COHN [V0]. XI, N0. 1
+102 J. H. GIESE AND H. COHN [Vol. XI, No. 1
+where z* are running coordinates. At these surfaces the partial derivatines of ¢ of the
+second or higher order may have discontinuities while ¢ and d¢/9z; remain continuous,
+as may occur when two solutions are patched t-ogeth(.er. |
 
-where rs".- are running coordinates. At these surfaces the partial derivatives of go of the
+The image of a flow under the mapping z; — u; is defined to be its hodograph. Iy
+general, three-dimensional flows have three-dimensional hodographs, but not the ex-
+émples in the following sections. Flows with one (two)—dimens.ional hodographs haye
+been called simple (double) waves. The relevant properties of simple waves, discussed
+in [3], will be summarized briefly. For some function u(2), u; = u;(x). Now (2.1) implies
 
-second or higher order may have discontinuities While 4; and 6w/332; remain continuous,
-as may occur when two solutions are patched together. .
+aulu, = waul)® = (qq')’ (2.5)
 
-The image of a ﬂow under the mapping z.- —+ uf is deﬁned to be its hodograph, In
-general, three—dimensional ﬂows have three-dimensronal hodographs, but not the ex.
-amples in the following sections. Flows with one (two):dimensional hodograpils have
-been called simple (double) waves. The relevant properties of Simple waves, discussed
-in [3], will be summarized brieﬂy. For some function M30), u; = mot). Now (2.1) implies
-
-(2211(qu = (um/)2 = ((19,)2 (2.5)
-where u; = dug/(1H. The hodograph is any curve obtainable from a Prandtl—Meyer epi.
-cycloirl by deforming its plane into a cone with vertex at u; = 0.'To specrfy the curve
-completely an additional equation and initial conditions are requued. For example, in
-
-a swept Prandtl—Meyer ﬂow the velocity component parallel to a ﬁxed unit vector 1,»
+where u] = du,/du. The hodograph is any curve obtainable from a Prandtl-Meyer epi-
+cycloid by deforming its plane into a cone with vertex at u; = 0. To specify the curve
+completely an additional equation and initial conditions are required. For example, ip
+a swept Prandtl-Meyer flow the velocity component parallel to a fixed unit vector ),
 must be constant, that is,
 
-ugh. = constant. (2.6)
+u;\;, = constant. (2.6)
 
-In the physical space the prototype of the hodograph point u.(;r), a surface p = constant
-which also bears constant pressure, density, and entropy, is a plane normal to ué . The
+In the physical space the prototype of the hodograph point w;(u), a surface p = constant
+which also bears constant pressure, density, and entropy, is a plane normal to u/ . The
 exact locations of the prototype planes in the physical space are as yet undetermined.
-If all are forced to pass through a common point, the simple wave will be a conical ﬂow.
+If all are forced to pass through a common point, the simple wave will be a conical flow.
 Finally, note that a prototype plane is a characteristic surface, all of whose Mach cones
-are congruent and have parallel axesl
+are congruent and have parallel axes.
 
 Now let
 
-X“ = asa/z(a = 1, 2), z : $3 , w = US (2.7)
+Xa = Ia/‘lz(a = 1) 2); € = X3, W = Us (27)
 
-Later it will also be convenient to use X = XI , Y = X; , u = u,- , and v = u2 . Note
-that to a point (curve) in the X1X2—plane there corresponds in the acrspace a line through
-(cone with vertex at) the origin. Consider a general conical ﬂow with vertex at the
+Later it will also be convenient touse X = X, , Y = X, , u = u; , and v = u, . Note
+that to a point (curve) in the X, X,-plane there corresponds in the z;-space a line through
+(cone with vertex at) the origin. Consider a general conical flow with vertex at the
 
-origin. Since u, = (ha/Bx, are homogeneous of degree Zero in the x, 8, gr: may be assumed
-with no loss of generality to be homogeneous of degree one. Then for some <1)
-(.0 = ”(Xi yXi) (23)
-u" : (iv/6:6,, = (Yb/6X“ , w = Sip/62 = (I) — Xaua (2.9}
-2 eta/ax. an, = afrb/QXG 0X, , z age/ax. az : _X5 age/6X. aX‘a
-z aze/azz = XUX age/0X“ 6X (2-10)
+origin. Since u; = d¢/dz; are homogeneous of degree zero in the z, S, ¢ may be assumed
+with no loss of generality to be homogeneous of degree one. Then for some &
+o = 28(X, , X,) (2.8)
+U = dp/0x, = 0B/3X, , w = dp/dz = & — X u, (2.9
+z 8°p/0x, dxg = 9°®/0X, X, , 29°0/0%, 0z = — X, 9°®/3X . 0X,
+20°¢0/32" = XX 0°®/0X, 0X (2.10)
 
 and (2.1) becomes
 
-[112(6“: + XnXt) — (11.. —— u'Xa)(z/5 — 11-11(5)) 32(11/3X" 6X5 2 0. (2.11)
+[@°(8as + X Xp) — (uo — wX o) (ug — wXp)] 8°®/0X, 9X, = 0. (2.11)
 
-lharacteristics for (2.11) are curves XL, = Xn(t.) in the X,X,—p1ane on which the partial
-derivatives of <1) of second or higher order may have discontinuities, While (I) and rich/BX,
-remain continuous. To these curves there correspond cones x“ r'z : Xa(l) on which, by
-(2.10) or its analogs the partial derivatives of (p of second or higher order Will have
-corresponding discontinuities, while by (2.8) and (2.9) (p and (as/ax. remain continuous.
+Characteristics for (2.11) are curves X =
 
- 
+A T Xo(?) in the X, X,-plane on which the partial
+derivatives of ® of second or higher order may have discontinuities, while ® and 8/0X,
+correspond cones z,/z = X,(t) on which, by
+‘es of ¢ of second or higher order will have
+.8) and (2.9) ¢ and de/dx; remain continuous.
 
-in
-
-true that
-
-"iiilt boun
+remain continuous. To these curves there
+(2.10) or its analogs the partial derivatiy
+corresponding discontinuities, while by (2
 
  
 
-basin) an
+gy 8
+dhyperD®
+;ﬁght charf
+i -miform flo
+} Flow &l
+sinl anglf
+s genera
+idefale
+(onsider U
+et t0 the
+J‘éﬂd the bt
+ieone 0 &Il
+4 the origin
+
+werand p
+
+\or 25) be
+
+P .
+.y cury.
+¢mehlea
+bt
+
+“%ﬂmp

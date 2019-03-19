@@ -1,0 +1,36 @@
+ST
+
+use of REAC. The machine can also display unstable solutions
+to problems.
+
+There is also in use in connection with the above a Tracking
+Control Simulator designed for a particular system. Ihis machine
+appears to be somewhat analogous to the Flight Simulator avail-
+able in D.A,C.L, Passive networks are also used to simulate par-
+ticular systems. A cathode-ray-tube-type function generator 1is
+used in conjunction with this computer.
+
+Another machine in use is a Fourler Synthesizer which can
+add sine and cosine functions of various frequencies. In other
+words, the machine sums Fourler series. It can handle 24 har-
+monies at one time. Answers are tracked on tape.
+
+Mention should also be made of a ‘home-made' Auto-Correlator
+which calculates the auto-correlation function \‘f(t) f(t+t) of
+a given function f(t). It also calculates j f{(t) and jfz(’c).
+This machine is not very accurate due to tracking difficulties
+
+and is in little use.
+
+Center of Analysis. By far the largest analog computer in
+use at the Institute is the M,I.T. Differential Analyzer. This is
+not the original differential analyzer that was Iintroduced at M.I.T
+tn 1930 (and now no longer here), but a newer and larger machine
+that was placed in operation in 1942. It is under the supervision
+of the Center of Analysis,
+
+The machine is electro-mechanical, the value of a variable
+being represented by the angle through which a rotating shaft
+turns. In addition to the basic arithmetical operations, the
+
+machine performs integration and functional data insertion

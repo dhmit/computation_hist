@@ -1,19 +1,20 @@
-4'
+v
+
+*
 
 Draft
 
- 
-
 COMPUTATION CENTER
 Massachusetts Institute of Technology
+Cambridge 39, Massachusetts
 
-Cambridge 39, Massachusetts ,
-/@u «4 W7
+- ’//,/"QJ/
+}‘m/) £
+Memorandum to Users of the MIT Computation Center TO4.
 
-Memorandum to Users of the MIT Computation Center 704.
-Subject: Limitation on Computing Time
+Sub ject: Limitation on Computing Time
 
-The requests for time on the 704 have been increasing steadily
+The requests for time on the TO4 have been increasing steadily
 for the past two years. Already the schedule is close enough to
 saturation that processing delays occur at times of peak demand. It
 is apparent that this spring the requested machine time will total
@@ -26,29 +27,29 @@ But the time used by the other colleges has increased, so that this year
 nearly all its time is filled and there is less for M.I.T.
 
 The Center has endeavored to accommodate for the increased load
-by running Pne Saturday a month (used primarily by the other colleges,
-the rgleasea week—day time being used by M.I.T.) and by encroaching on
+bx;ﬁggegng one Saturday a month (used primarily by the other colleges,
+the releasé& week-day time being used by M.I.T.) and by encroaching on
 the third (IBM) shift when processing delays rose to longer than 24
-hours. We hope to run two Saturdays a month this spring and to encroach
+hours. We hope to run two Saturdays a month this spring and to encpvoach
 on the third shift from time to time but, even then, requested time
 
 will exceed time available for M.I.T.
 
-Computing time can be delay—limited or it can be limited in
-advance by imposing quotas. The Center believes it is more appropriate
+Computing time can be delay-limited or it can be limited in
+advance by imposing quotas. The Center believes it 1s more appropriate
 to impose quotas. Hereafter problems requiring machine time will be
 
 classified as follows:
 
-A For use in {cm;A”“‘&;“H but
+CL_YV\ /UU“\—( ‘Y\
+
+2 L\ . % &//}_ = e l/
+A. For use in : ,““ i~ Ak er-A60m Wop
+
+   
 
 B. Problems which directly or incidentally develop new
 programs or techniques which will be useful to other
 machine users.
 
-0 . Otherg Vw‘v‘uwl .
-
-   
-
-I /' ./
-~rfbko1/ncmn uTxL;
+C. Oftheryg /Pu\/\)ww,_ :

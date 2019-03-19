@@ -1,0 +1,60 @@
+to compile the whole imstruction
+
+CLA BbREMARK
+
+Note that the blamk that would appear nmormally in column 11 is displaced,
+Substitutable location fields may be used similarly, If a substituted
+"loeation field" is longer than seven characters the operatiom field will appear
+in the compiled instruction directly after it, but separated by a blamnk,
+
+11, Substitutable ggggation Codes
+
+12,
+
+Operation codes are substitutable, The dummy argument mames used
+as operation codes must be mo longer than three charascters and nay appear
+anywhere in the operation field.
+
+If an operation code is mot found on the argument l1list, the contents
+of columms 8, 9, 10 on the inmput eerd are stored im the macro definitiom exactly
+as punched. The programmer should be careful in using SAP mnemonics as MoP
+arguments: for instance, in the following example both appearances of CAL
+will be treated as substitutable.
+
+MOP EXAMP3, CAL
+CAL CAL
+END EXAMPS,
+
+BCD Withim Maero Definitions
+
+If the variable field of a BCD card within a macro definition begins
+with a number or a blank, them the indicated number of words (the mormal SAP
+convention is that a blank means 10 words) will be stored as part of the macro
+definition, However, if it is desired that some or all of the BCD informatiom
+be substitutable, the requirement of a count im columm 12 causes a problem.
+For this case two alternatives are provided:
+
+1) If a comma is found im columm 12, the comma is replaced by a BCD
+count of 1, and the remainder of the variable field of the BCD card is scamned
+to pick up the single dummy argument which should follow., The first blank
+encountered will terminate the scan. When the macro is used, a single BCD word
+may be inserted to follow the count of 1, Examples
+
+MOP SUBRTN,SIZE, COMMON,$
+
+BTC NAMES,VECTOR X This macro
+OLP 4 generates
+FUL FORTRAN IX
+PZE SIZE, X program cards
+PZE CCR0N and transfer
+IRP NAMES veetor
+BCD , NAKES
+PZE NAXES
+IRP
+REIL
+ORG ©
+IRP VECTOR
+BCD ,VECTOR
+IRP
+
+X BYN ® Created symbol

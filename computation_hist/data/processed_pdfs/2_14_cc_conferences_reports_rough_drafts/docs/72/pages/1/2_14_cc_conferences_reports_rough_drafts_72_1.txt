@@ -1,0 +1,84 @@
+e —— g ——— T T—
+/v"-—» e -
+
+1620 NEWSLETTER - 1620 NEW ENGLAND UNIVERSITIES USERS GROUP
+
+ 
+
+L T e e T - W TR ST AT R
+
+ 
+
+N L I TG 3
+
+ 
+
+ 
+
+ 
+
+Number 4 July 25, 1961
+
+N -
+
+ 
+
+T e
+
+ 
+
+ 
+
+ 
+
+Ihis 18 the fourth of an informal exchange of information of particular interest Lo
+those New England Universities having IBM 1620's and also participating in the
+M.I.T. Computation Center. Contributions to this Newsletter should be sent to
+Mr. M. Loren Bullock, IBM Liaison Office, Room 26-=147, M.I. T. Computation
+Center, Cambridge 39, Massachusetts. Attached is a current list of the present
+members of this New England Univeraities 1620 Group.
+
+I TS TR,
+
+On Wednesday, August 30, 1961, 1l a.m. = 3 p.m., a meeting of all members
+of the New England Universities 1620 Group will be held at the new computing
+facility at the School of Industrial Management at M.1.T. This is located in
+Building 52 on the ground floor in Room 52-031. This is the same building as
+the Faculty Club. The meeting will allow for an informal exchange of program-
+rning and technical information so bring your print-outs with you. Mr, Harvey
+Willson, Director of the S.1. M. computing facility has also indicated that there
+will be opportunity to use or see demonstrated their 40K, card-only 1620. This
+date is in the middle of the one-week 709/90 Programming Course being given
+by the M.I. T, Computation Center, 80 there may be representatives already at
+M. X, T, from the New England Universities. Pleass return the attached form
+indicating who (or at least how many) will be attending from your group. One
+topic of discussion will be the possibility next summer of a 3 or 4-day workshop
+on computing in engineering curriculum .
+
+FORTRAN SUBROUTINE COMPATIBILITY 1620-709
+
+ 
+
+The use of the final F in subroutine names is required when using 709/7090
+FORTRAN. Thus the use of SQR(X) or ATN(X) is not permitted on the 709.
+To be consistent with both 1620 and 709/7090 only the following subroutine
+names should be used: ‘
+
+SINF(X)
+
+COSF(X)
+EXPF(X)
+LOGF (X)
+SQRF(X)
+ATNF(X)
+
+Note also that on the 1620 only one argument is permitted.
+
+LOAD-AND-GO FORTRAN FROM M.,I. T, CIVIL ENGINEERING
+
+A Load-And-Go version of 1620 FORTRAN hae besn developed here, and is
+undergoing ''field testing' by our users at the present time. The source language
+is identical to 1620 FORTRAN and compiles identical programs. A sample
+program, which took eighteen and one=half minutes from loading the processor
+to punching the first answer on the standard card system, took only seven
+minutes on the load and go system.

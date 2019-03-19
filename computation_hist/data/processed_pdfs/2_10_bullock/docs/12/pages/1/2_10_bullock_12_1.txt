@@ -1,0 +1,48 @@
+= " & O
+
+COMPUTATION CENTER
+
+MASSACHUSETTS INSTITUTE OF TECHNOLOGY
+
+CAMBRIDGE 39, MASSACHUSETTS
+January 22, 1959
+
+Mr, M, Loren Bullock
+IBM Corporation
+Room 26-147
+
+Dear lir, Bullock:
+
+The purpose of this letter is to provide you with the
+detailed information concerning the letter of intent for a 7090
+transistorized system which is to be installed in the MIT
+Computation Center, It must be understood that the machine
+complement may not be the final one, since we do not have
+sufficient information from IBM concerning some of the components
+on the 7090 system. We have carefully considered our present
+computing load and expected future computing commitments and
+arrived at the machine complement shown on the attached list.
+
+The only area in which there is a gquestion concerning
+the number of units required is that pertaining to the data channéls
+and associated magnetic tape units, Furthermore, our decision in
+the off-line equipment area may be incorrect -- we have indicated
+the same complement we currently have on the floor; one which uses
+the vacuum tube-type control unit and a Type 729 Model 1 Tape Drive.
+There is some question in my mind whether this may change since the
+7090 system has transistorized tape units for all other devices,
+As soon as IBM decides whether or not to transistorize the ofif-line
+equipment, we will modify our order acceordingly.
+
+In our discussions concerning the systems aspect of this
+installation, our decisions were governed by the following facts:
+
+1. Data Channel (7607) Model 1 units are needed for
+the on~line card machines, Two Data Channels
+are required.
+
+2. Data Channel (7607) Model 2 units are used for
+the systems tapes,
+
+3. Data Channel (7607) Model 2 units are used for
+the slow-speed input tape.

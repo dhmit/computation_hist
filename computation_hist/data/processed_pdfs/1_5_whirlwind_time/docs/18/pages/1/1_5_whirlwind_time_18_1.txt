@@ -1,42 +1,39 @@
-‘MASVSACHUSETTSVINSTITUTE OF TECHNOLOGY
-
+MASSACHUSETTS INSTITUTE OF TECHNOLOGY
 DEPARTMENT OF ELECTRICAL ENGINEERING
-DIGITAL COMPUTER yABORATORY
-2H MASSACHUSETTS Avenue
-CAMBRIDGE 39. MASSACHUSETTS
+DIGITAL COMPUTER LABORATORY
+211 MASSACHUSETTS AVENUE
+ CAMBRIDGE 39, MASSACHUSETTS
 
-GORDON SV Enown. ucuuv ADV|SOR
+GORDON S. BROWN, FACULTY ADVISOR
 
-Ju w. FoRﬁEsTER. omscmn My 35. 1'“ TELEPHONE ELIOT 4-33"
-Roam-r R. Evzazm ASSOCIATE nmscwn ,
+JAY W. FORRESTER, DIRECTOR i - m, 88. 1'56 : _ TELEPHONE ELIOT 4-3311
+ROBERT R. EVERETT, ASSOCIATE DIRECTOR : g Ry D.I.C.-
+HARRIS FAHNESTOCK, EXECUTIVE OFFICER : 7
 
-D. L c.- M
-HARRIS FAHNESYOCKT EXECUTIVE OFFICER
+Mr. Frank Scherb
+Room 6220
+Magsachusetts Institute of Technology
 
-:2. bank seam
-Ion m
-magma-m Inuit“. or hummus:
+- Dear Sir:
 
-Dou- 811-:
+I have been authorized to credit your account with an
+additional 6 hours of machine time on the Whirlwind I computer
+for work under problem 273, Analysis of Alr Shower Dota,
 
-1'. mm. bun mama! to and“ your new with In
-additional 5 hours of Inchin- “no on he manna 1 new»
-M wotk under pmhlon 273, Anny-u ot' up Shower Data. '
+You might be interested to know that since your problem
+began you have used 6528 minutes of computer time {as of June 10,
+1956). If you had been charged at the reguler rate of $250/hour,
+the total amount charged to you would have been 03.716.88.
 
-You man be mus-om to m that am your prom:-
-bcsu you hm and 558 mint" of computer Mac (as of 3m 10.
-1856). It you had been ohm-sod at thp "sum rats or Sew/hour.
-the total smut we to m would bl“ bun 88,716.88.
+If you find that you need more time, uwiubcnooouary
+for you to submit a new request.
 
-Ifyouﬂnlthu younudmqum. “Hint-mum
-tor 1m to mm: a no! “gun-h.
-
-Sincerely.
+Sincerely,
 
  
 
-V. I. Val-nub
+¥, M, Verzuh
 
-Mm
-cc: P. It. Mara
-L. '1'. Brock
+FiMV:n
+ce: P. M, Morse
+L. T. Broeck

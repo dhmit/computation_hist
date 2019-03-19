@@ -1,0 +1,50 @@
+%
+
+Jolnt Computing Group
+
+ 
+
+Tim= Record
+January, 1960
+Hours Total
+Prob. Ho. Lab. Requested by in Jan. Hours
+To8 ins H. Feshbech 31 136
+819 ce P. Morge b 307k
+1083 RIE E. Baghsdedy 2 163
+108k. RIE V. Yngve 86 2562
+1088 OR H. Galliher Lk. 1997
+1120 IRs K. Fuang 112 564
+1133 Is L. Delves 132 510
+1a3h ins R. Steining T eh
+1135 RIE A. Helgesscon 2 161
+1137 ns W. Turchinetz 32 176
+1138 RIE K. Nomland Lo 100
+1139 IES H. Mark 20 be
+1143 10S A. Tubis 108 220
+1346 RIE G. Bekefi 58 €0
+Time Distribution
+Laboratory RIE Ins 88 cc OR
+Hours Employed 528 240 0 80
+Hours Used
+Computing 188 +2 0 ly hh
+Overhead hi TO 0 L 8
+Sick Leave T0 2 0 0 2
+Vacation 0 h. 0 o 00
+Classes 1h ech) 0 Q =O
+Total 316 518 0 8 ly
+Hours Not Used 212 0 LO 26
+Hours Overdrowm 278
+Curmalative Hours Hot Used Lk, 1166
+Cumulative Hours Overdrawm 1027 533 €0
+L GP - 30 Time Record
+Bours Total
+in Jan. Hours Hours Used by lsboratories
+M. Deutsch a 3 INS 125
+P. Demos 8 a
+R. Scharenberg 83 33
+Demonstrations, Testing, ete. 21 21
+Repair 3 _8
+
+Total 146 146
+
+

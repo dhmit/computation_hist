@@ -1,0 +1,163 @@
+8
+
+Memorandum to: J. A. Stratton
+From: P. M. Morse |
+
+Subject: Research Projects in Computing Techniques for the
+Computation Center
+
+Need for Research in Machine Techniques - A year from |
+now, with the installation of the IBM 70%, M.I.T. will have an |
+operating facility which will become an important tool to aid re-
+search in many fields of science and engineering. With the gener-
+ous support from IBM, this equipwent will be available, free of
+operating and maintenance charges, to those who are able to pro-
+gram, test and run off their own computing problems. Many students
+and some faculty members can (and should) spend the time needed to
+learn about machine operation, to do their own coding and to super-
+vise the running off of their own problems. |
+
+Bul® If we are to keep up with the times in the computing
+field, or if we wish to go beyond this and take the lead in some
+aspects of the use of digital computers in research, we must have,
+in addition to the operating and maintenance staff provided by IBM,
+a research group capable of investigating the mathematics and pro-
+cedures of machine logic, capable of teaching courses in numerical
+analysis and machine coding and capable of advising persons using
+the. equipment as to best procedures in the analysis and coding of
+thelr problems. A small group of this sort has been connected with
+Whirlwind since its beginning. It has been to a large extent re-
+sponsible for the great utility of Whirlwind in research at M.I.T.
+and for the rapld advances in wachine logic which have made Whirl-
+wind so versatile. To utilize the 704 effectively, we will need a
+similar, but somewhat larger, research group, which can be formed
+by taking over the Whirlwind group. and augmenting it.
+
+ 
+
+Tasks for Research Group - To make the Computation Center
+a true center for research and instruction, it should have, in
+addition to the operating and maintenance staff, a research group
+having the following duties:
+
+1. To carry on research in numerical analysis, in the
+logic of coding and in the development of programming techniques.
+
+2. To lnvestigate procedures for recording and processing
+of large-quantity experimental data or operational records or other
+information, and to develop programs for the statistical analysis
+of such data and its display or presentation in quickly understandable
+form.
+
+3. To aid in instructing students and others in these
+subjects, and to help supervise student research in these fields.
+
+ 
+
+——e dh.
+
+
+-2-
+
+4, To build up a library of useful sub-routines for the
+solution of often-encountered problems, to prepare instruction
+manuals, lists of routines, tables of functions, etc., which will
+improve and extend the utilization of computing equipment at M.I.T.
+and elsewhere.
+
+5. To participate in conferences and other Joint activi- N
+ties with staffs of other computation centers, so that knowledge
+of this rapidly changing field can be exchanged with other workers.
+
+Organization and Budget - Part of the staff of this re-
+Search group shou e members of various departments at the In-
+stitute paid in part. from Computation Center funds, for helping
+supervise its work, and in part by the departments for their
+regular teaching assignments. In this way we can have available
+guidance, initiative and knowledge from a variety of points of
+view, and can also maintain close liaison between the Center and
+the students and faculty of those departments which can most
+effectively utilize digital computers. We will also require a
+few senior, full-time staff members, to maintain continuity of
+effort, to help supervise research, to prepare the wanuals and
+sub-routines mentioned in task 4, and to be on hand to advise users
+of the Center as to best procedures. The Junior staff will be, in :
+part, the research assistants and assoclates supported by IBM funds.
+
+The yearly budget for such a research group would be
+roughly $100,000, broken down as follows:
+5 Faculty members (1/2 salary, average of g4t,000 each) §& 20,000
+4 Full-time staff members (average salary £7,000) £38,000
+
+4 Full-time secretaries, editorial and administrative :
+assistants (average salary g4,000) 16,000
+
+g 64,000
+approximate 40 per cent overhead ._26,000
+
+$ 90,000
+Travel 4,000
+Publication costs, expendable material, ete. 6,000
+
+£100,000
+
+| Possible Financial Support - Since thalCenter wlll provide
+an important educational facility, which will be used by wany In-
+stitute students, a part of this budget should be provided out of
+the Institute educational budget. In addition, a number of the re-
+search laboratories and projects at the Institute, which will use
+
+
+-F=
+
+the computing equipment to an appreciable extent, and which will
+depend on our research group to help them in their use of the a
+Center, should provide a yearly subsidy for this work. These con-
+tributions might add up to as much as $30,000 a year; the rest of
+the funds must come from special grants for this work.
+
+Both the ONR and the NSF are interested in supporting
+research in the use of computing machines and I propose that we
+ask for $35,000 a year from each, to support our program. The
+ONR has been supporting Whirlwind and its use in scientific re-
+search, to an amount of $200,000 a year for several years; this
+request will represent a substantial reduction in cost to them,
+with no reduction in the amount of research which we will be turn-
+ing out. The NSF is particularly interested in the field of com-
+puters and their scientific application; their special advisory
+committee, headed by Dr. von Neumann, has recommended support of
+research in this field. If their budget 1s increased for next
+year, they should be able to contribute.
+
+I would hope that this support could be continued for
+three to five years. A research group will need to be continued,
+at the Computation Center, for as long as the Center exists, of
+course. But as time goes on, the research it does may well be-
+come more speclalized, so that support can be obtained from other
+sources. Certainly at the end of three years the work should be
+reviewed, to re-determine its direction and scope.
+
+Recommendations - I recommend that one or more DIC
+projects be set up ror this research group, starting July 1, 1956;
+starting at a low rate of expenditure (perhaps 1/2 the full rate)
+to prepare for the TOY operation, to have ready program techniques
+and research plans and to supervise the first group of IBM research
+assistants. By January 1, 1957, when the 704 is to be installed,
+we can take over the Whirlwind research staff and go ahead at full
+strength. I recommend that we request $25,000 apiece from ONR and
+NSF for the first year's operation and indicate to both that we
+will need a total of about £100,000 apiece from them for three
+years of operation. I also recommend that procedures be worked
+out so that other DIC research projects, which are going To use
+the facilities of the Center for research or educational work in
+conforming with the requirements of publishability and quality
+specified in our agreement with IBM, can contribute to the support
+of the research group. It is possible, as the use of the Center
+by other universities increases, that some of this support will
+come from projects in these other institutions.
+
+ESN Nes
+
+December 1955
+
+

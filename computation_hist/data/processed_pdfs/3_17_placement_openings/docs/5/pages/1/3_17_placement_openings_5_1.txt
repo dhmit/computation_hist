@@ -1,0 +1,47 @@
+1
+
+ 
+
+ 
+
+5_———————
+
+" 'DEPARTMENT OF CIVIL AND SANITARY ENGINEERING
+
+MASSACHUSETTS INSTITUTE OF TECHNOLOGY
+
+School of Engineering
+
+Committee on Computers in Engineering Education
+
+TOs Meﬁbers of the committee July 10, 1960
+FROM: C. L. Miller
+
+SUBJECT: IBM Seminar
+
+The writer spent last week at IBM Poughkeepsie,
+participating in a seminar for Engineering Professors.
+
+Of the papers presented, the following were
+preprinted:
+
+A. "Computers of the Future®, Rex Rice
+IBM Yorktown Heights.
+
+B. "Application of Computers to Process Control®,
+B. Hodge, Manager, IBM Industrial Process
+Control.
+
+C. "Use of Digital Computers in Petroleum
+Engineering”, T. D. Mueller, Standard
+0il of California.
+
+D, "AUTO-PROMT- a three dimensional system
+for the Automatic Programming of Machine
+Tools" Samuel M. Matsa, IBM Data Systems
+Division.
+
+E. ®Applications of Computers in Electrical
+Engineering--A survey of Recent Papers®
+professor Silvio Navarro, University of
+Kentucky.

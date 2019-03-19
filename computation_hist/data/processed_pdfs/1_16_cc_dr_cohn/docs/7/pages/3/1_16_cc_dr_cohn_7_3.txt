@@ -1,127 +1,111 @@
-RVEY COHN
-342 HA
+o
+e
 
-. tions enerating the group)- In the case
-under cemgrzrnzliniﬁe fumjfmental domain is 59:; , in Figure 1
-0‘ the m “ (extending to inﬁnity), with sides AB
-and AB’ matched by zT = —1/2 and
-| | sides Do’B’ and D03 matched by 2T =
-I 1 z + 1. The function J (2) can be
-I I found explicitly by means of the by.
+5
+.
 
-MW _ . pergeometric function [2].
-D" 0' 0‘ ‘m ”l Now these two methods have been
-
-generalized by Poincare [4] and Fridge.
-
-Klein [2], respectively, to situations
-
-7" where ﬁnding the most general invar-
-iant is less simple. We here restrict
-ourselves to the modular group, h0p_
-ing to make a general approach on a
-later occasion. Our purpose now is to
-indicate a basis for liaison between
-methods by showing that the Eisen-
-2- plane stein series E4(z) can be deﬁned through
-“3,1 the conformal mapping of a region
-with a perturbation boundary (the in-
-
-dividual term of the Eisenstein series being regarded as the contribu-
-tion of a speciﬁc “perturbation circle”). Although the modular—
-function methods are quite classical, critical use is made of the more
-
-current idea of variation of the boundary.1
-
-79—
-
-W_—
->L______
-
-I
-
-L_ _. _ __
-a
-
-q
-
+ot
 i
 
-MI-
+-
+N
+L™
 
-—I_
+-
+™~
 
-“‘|_
-
--Io
-I
-
-2. The perturbation map. We consider the perturbation caused
-to the fundamental domain :00 by removing the portion above the line
-Imz = Us (5 < 1). The remaining (ﬁnite) portion, 3L , is mapped
-by the modular group 2 —» 2T (of equation (1)) onto a portion of the
-upper half z-plane, 1L , which is constructed by removing from the
-upper half z-plane the interior of a circle called C,/q(e), tangent to the
-real axis at p/q (*1/0) and of diameter e/qz. (For consistency, “the
-interior of Cook)” denotes the region Im z > l/e). Thus 11. is
-a simply connected region of the z»plane, invariant under the modular
-group. (See Fig. 1.)
-
-We now deﬁne f = {.(z) to be the mapping of H. onto the upper
-
-11' ‘llllr. D. 0. Spencer informs me of work along such lines by M. Schiﬁer and
-mac f.
+—
 
  
+
+HARVEY COHN
+
+342
+. i he group). In the
+: nsformations (generating the gr in the case
+undetsoectal 58 the fundamental domain i1s Do, in Figure 1
 
 MODULAR FUNCTIONS 343
 
-half {-plane, with point and directions ﬁxed at z = = ‘ d
-We deﬁne the perturbation function ' i‘ 1‘ ( f/dz > 0)‘
+half {-plane, with point and directions fixed at z — t=1 (d
+We define the perturbation funection > , [dS/dz > 0).
 
-(6) P<Z> = — £11m &,
-1r H“ 62
+of £ha{TiodIiAE EROER (extending to infinity), with sides 4B
+o' D, and AB’ matched by 2* = —1/z and (6) P() = — _1_? o Ce(z) — 2
+9 | sides Do’B’ and DB matched by z* = e es0 €
 
-The existence of such a limit is suggested by the next section, which
-indicates the connection with the Eisenstein series. The proof of its
+| l 2z + 1. The function J(2) can be
+| ' found explicitly by means of the hy-
+
+W 5 pergeometric function [2].
+D, O [Daics. MR A Now these two methods have been
+
+generalized by Poincaré [4] and Fricke-
+
+s
+
+The existence of such a limit is suggested by the next section which
+indicates the connection with the Eisenstein series. The proc;f of its
 existence requires the major portion of this paper.
 
-3, Approximation by superposition. The series expansion P(z)
-is derived ﬁrst from the assumption that each perturbing circle is
-approximately independent of the others. For instance, if just
-(the interior of) one circle Cp,,(e) were deleted from the upper half
-zeplane, the corresponding mapping function (JP/“(2) (with ﬁxed
-direction element at i) would easily be given by
+3. Approximation by superposition. The series expansion P(z)
+
+l
+! | Klein [2], respectively, to situations is del'iYed first .from the assur‘nption that each perturbing circle is
+| ! | T where finding the most general invar- appr(.)XIma.,tely lndepe.ndent of the others. For instance, if just
+[ | iant is less simple. We here restrict (the interior of) one circle C,/,(¢) were deleted from the upper half
+L=~ ourselves to the modular group, hop- z-plane, the corresponding mapping function ¢,” ’q’(z) (with fixed
+j BECTAE S8 ing to make a general approach on a direction element at 7) would easily be given by
+é'g,-,«,, 2 D @ Jater occasion. Our purpose now is to x(z — 1)
+“g T indicate a basis for liaison between FRIO0Y — g el si S = =
+§§ VR iR methods by showing that the Eisen- ‘ (7) 'Sh—e(p—/,,—)(“zm = =7 : “(FM .
+o Z-plane stein series F4(z) can be defined through : A sinh ()*”(—ZL
+' Fig. 1 the conformal mapping of a region 2lee = Pl —di = 1)
+
+with a perturbation boundary (the in-
+dividual term of the Eisenstein series being regarded as the contribu-
+tion of a specific “perturbation circle’’). Although the modular-
+function methods are quite classical, critical use is made of the more
+current idea of variation of the boundary.'
+
+2. The perturbation map. We consider the perturbation caused
+to the fundamental domain Dy by removing the portion above the line
+Imz = 1/e (e < 1). The remaining (finite) portion, 9., is mapped
+by the modular group z — 2" (of equation (1)) onto a portion of the
+upper half z-plane, II, , which is constructed by removing from the
+upper half z-plane the interior of a circle called C,/,(¢), tangent to the
+real axis at p/q (%1/0) and of diameter ¢/¢°. (For consistency, “the
+interior of Cip(e)” denotes the region Imz > 1/¢). Thus II. is
+a simply connected region of the z-plane, snvariant under the modular
+group. (See Fig. 1.)
+
+We now define ¢ = ¢.(2) to be the mapping of II, onto the upper
 
  
 
-' . . h 1r(Z — t)
-(7) r.”"l(2) -1'~ qr f p , m 2012 - p)(!1i— r)
-(AF/W) + 1 —q1 - p Sinh 7r(z + 2‘)
+8 ! Mr. D. C. Spencer informs me of work along such lines by M. Schiffer and
+imself.
 
-2(qz - p)(-qi - 7))
-Then, letting e —> 0, we should have the approximation
+Then, letting ¢ — 0, we should have the approximation
 
-2 2 2
+¢ (plq)(z) = B 7£ Z (22 + 1)(g + p2)
 
-1)(q + 212)
+12 772 (p — ¢2)(P* + ¢*)*
+The terms in ¢ are the “perturbation terms,” which (see equation
+(7)) we should ‘“superimpose’” to obtain formally:
 
-(8) L<r/a)(z) = 2 _ E (Z + _
+5 @+ (g + p2)
+©) Pla) = ‘?7’; (p — ¢2)(P* + ¢»)*
 
-12 g (P - q2)(202 + W
-The terms in 22 are the “perturbation terms,” which (see equation
-(7)) we should “superimpose” to obtain formally:
+(8)
 
-_ (2? + no + 222)
-(9) 13(2) _ 12;; (p - £12)(p2 + if)”
-
-or, reducing the general term, we should ﬁnd
-(10) 13(2) = z“ — 52/2 — :11 Z.x.r1‘“<p + as)".
+or, reducing the general term, we should find
+(10) P(z) = 2 — 52/2 — 2a 2104 P+ )"
 
 Rather than justify the approximation directly (even on the
 assumption that the limit (6) exists), we shall give what we hope is a
-more revealing veriﬁcation by deeper methods, more characteristic of
+more revealing verification by deeper methods, more characteristic of
 the theory of modular functions. In the meantime we observe, term
 
 by term,
-(ll) d"P(z)/dz‘ = one),
+(11) d’P(2)/dz* = 6Es(2),

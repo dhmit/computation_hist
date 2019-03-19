@@ -1,0 +1,367 @@
+63 Journal of The American Ceramic Society—Kingery and M cQuarrie
+
+Vol. 37, No. 9
+
+o8 February 1954 (Part 1) T hermal! Conductivity, I 69
+(1) Conduction : . R
+The fundamental equation of thermal conductivity and an.d the tcmperatur.c ch.zu.lgc w:lth time 1s measured t().deter- of an .euvelope sample of relatwely.small size wl.uch 1s capable
+one itk setves asia definition ot thattermiis - mine the thermal diffusivity, &/cp, by a form of equation (4) of being formed from pure materials, and which has nearly
+s for the particular specimen L:mplo_ved. Various specimen flat isothermals in the central portion. This development
+A aT (1) shapes may be used. In static methods, the sample is al- . then makes possible a new method of absolute measurement
+dx = 0.005 lowed to come to a steady state and the temperature distribu- of thermal conductivity having some unique advantages for
+g = amount of heat flowing per unit time through an area A. = tioq measured to determine the thermal conductivity, k, by ceramic samples of relatively small size.
+dT/dx = temperature gradient in a direction perpendicular to 4. S an integrated form of equation (1).
+oV, In general, the greatest difficulty in thermal conductivity IV. Eff : : e
+o ’ ) ) ] ects of Physical and Chemical Composition on
+The law states that the amount of heat flowing per second 'E . S SR Le Bt ; : LS P
+: : tional to the temperature gradient and = measurement 1s ob.tamm.g 'heat flow which Foxnc1de§ exagtl_y Thermal Conductivity
+per unit area is proportion nj ; g i & o6 with that assumed in deriving the mathematical relationships. The basis for alinost all considerations of the effect of
+hat the proportionality constant (k) is the thermal conduc- S In electrical conductors, the difference between the best and ds Sie ST
+ot o _ i = : position on conductivity is the Debye equation for the ther-
+y. ; ; = the worst conductors 1s a factor of about 10, and essentially ) 53 = . . s
+There has been some discussion as to whether or not k all the flow can be obtained through the better conductor malfconductiviy/of crystals., . Thisas baved on tis coBoens
+s @ function of g, the amountiof heatflowing through the s In the case of thermal conductors, the difference between th(;, of a solid as a system of coupled oscillators which transmit the
+piece. Experimental evidence indicates that conductivity = best and the poorest conductors is’ only afackor of about 102 thermoelastic waves. The thermal conductivity is given by
+A : rine. - S : ! s ) the relation
+e ot ot ey e 5 5 e st s o
+( Yy $ y o 3 . . 1
+vidence. The differential equation (1) applies to a small 2 Ulr;:un%ét;oilt;Zflesll'):ﬁﬁfnei:[?lsogce;lrfod;nsure that heat flows in k= i PCUN (10)
+-~ . . - . . - 3 . Ty ' . 54 . . .
+differential area, but in the case of a few 'smlple shapes 1t can 3 a desired path is to provide heat guards to maintain the iso- N = itican fite path of wi
+be integrated to cover the whole of a finite body. In general a : : ee path of wave (cm.).
+nteg - . y. 8 ] thermals in the specimen and prevent extraneous heat flow. v = average velocity of wave (cm. per sec.™!).
+the integrated equation has the form = 0,002 These guard methods are never perfect and can only hope to
+A 05 = FAT Rm= (B)(Q) (2) reduce extraneous .heat flow to peghglble proportions. Equiv- For an ideal lattice, A would be infinite if the lattice interac-
+oz ’ AT - “ alent results obtained by various investigators for the same tions were completely harmonic. However, anharmonic
+
+5
+
+o
+-y
+£5
+»
+.
+.
+&@.
+
+materials indicate that guard methods can be successfully
+applied if the apparatusis carefully designed and measurements
+are made with great care. However, errors introduced can
+be considerable and have been considerable for much of the
+
+terms in the lattice interactions will decrease A\ by coupling
+together various vibrations of the lattice and will give a distri-
+bution of frequencies corresponding to thermal equilibrium.
+
+>
+-~
+-
+»
+.
+3
+-
+-
+-
+L
+
+RS
+>
+\
+4
+¢
+
+(Q = total heat per unit time flowing through body.
+
+B = a factor determined by geometrical shape of body.
+
+AT = temperature difference of two (isothermal) surfaces of body 0.001
+between which heat flows.
+
+» .‘.‘
+2
+»
+St
+S htie
+esy
+’:.‘:g“‘ o
+3‘72 7
+.’a;}.td.. =5
+
+-
+‘.
+
+0 200 400 600 800 1000 1200
+
+"
+e
+-
+
+-
+-
+x>
+Faes
+e
+3002
+LA
+X
+
+>
+-
+
+o
+‘1
+
+-
+
+-
+>
+
+A
+
+-.\ -
+320
+o
+
+%
+
+-
+»
+
+“‘
+
+&
+
+£
+
+o
+
+-
+
+i
+
+ 
+
+The basic equation governing the flow of heat in a body of
+conductivity % is Laplace’s equation for heat flow which can
+be written*
+
+e
+V(v T) = cp 71%; (3)
+
+A = operator nabla which must be evaluated for particular co
+ordinate system used.
+
+¢ = specific heat of material.
+p = density of material.
+) = time.
+
+This equation is practically impossible to solve as it stands
+and it is usually simplified by making the assumptions that,
+as far as the conductivity is concerned, the material is homo-
+geneous (k independent of position) and isotropic (£ indepen-
+dent of direction), and that % is independent of temperature.
+Then the equation can be written
+
+i ep@T
+Vol (4)
+
+[For rectangular coordinates, x, v, z, this equation becomes
+
+dT _ k(T , T , o*T
+
+do (p(bx'-' 5 dy? i 052) (5)
+[t serves as the basis for any dynamic test of thermal conduc-
+.li\'ity where the change in temperature with time at anv point
+1S 1.116::1sur.cd. Actually, the quantity k/cp, the thermal dif-
+fusivity, is measured and the conductivity derived from this
+and from a knowledge of the heat capacity and densityv. I‘f
+the slfvafly state 1s reached such that tempoﬁturc 1S in(]ép@.nd-
+ent of ime,
+
+daT
+
+= 0,and V37T = () (6)
+
+' A (8 A.ustin. “f:‘u(‘turs Influencing Thermal Conductivity of
+
+Nonmetallic Materials, pp. 3-67 in Symposium on Thermal
+
+il;smlll;lllln;.]{ Materials, American Society for Testing NI'ltt‘l’i'll‘\’
+
+*hiladelphia, 1939. 123 pp.: Ceram. Abstr ZO . 5. Y
+
+(1941) str., (2] 45; [4] 97
+* For a derivation of this equation, see R. S. C
+
+! . S equation, : .. Carslaw and >
+
+Jaeger, Conduction of Heat in Solids, Oxford, 1947, e
+
+TEMPERATURE (°C)
+
+Fig. 1. Thermal conductivity of one firebrick measured by several in-
+vestigators (after Nicholls, footnote 2).
+
+and equations (1) and (2) may be employed for direct measure-
+ment of the thermal conductivity,
+
+(2) Radiation
+
+When heat is transferred between two surfaces, one at
+T’y and the other at T, by radiation, the amount of heat trans-
+ferred per unit area of surface in a unit time is
+
+g = ((7‘14 T T'_"‘) (7)
+C = a constant, dependent on effective emissivity and geometri-
+
+cal shape of surfaces.
+I'he temperatures are on the absolute scale.
+
+! This formula has been derived from theoretical considera-
+tions and thoroughly tested experimentally.
+
+If an observer were to assume that he was measuring heat
+erltlsfe.r by a means which obeyed the law of conduction
+(f*quatlon (‘_’.)) whereas the heat was really transferred by radia-
+tion acc.nr.dmg to equation (7), he would conclude that the
+C(m(ll.lCFl\'.lt_\_' of the materials increased as 7%. This can be
+seen 1f it is assumed that 7, and T’y are near enough together
+so that equation (7) can be written as E ;
+
+g = 4CT3AT (8)
+after factoring (7' — T.,%) to (Th =T) (Th+ T) (T2 + T2Y)
+““‘d appro).\c'i}]mting (T\ + T3) equal to 2T and (7‘1"'l L
+L((]Ill;ll t](?)r(:,,], ~.111in ,hlm th}c n?)ser\'cr would deduce that % =
+the form of radi-ui(:ndl-1 ),c s‘ecn tha.t Some heat “leakage” 11
+e tcrm‘in 7‘31{1 {l U])ll(lll(‘(l\'l.t.\' measurement would
+function of tcm[)or'llurcln ("|~l| N aLon of conductivity as a
+
+¢ . 1S radiant transfer might be due
+
+C '1 »' < < l
+
+b lll. Measurement of Thermal Conductivity
+[hermal conductivity may b
+or dynamic methods. :
+1s varied suddenly or pe
+
+¢ measured by either static
+I.” (!"nllmlc methods the temperature
+riodically for one portion of the sample
+
+material reported in the literature, as has been shown in a
+comparative test by six independent investigators on the
+same material (Fig. 1). These results have been summarized
+by Nicholls? and Austin,! who concluded that the differences
+reported are due to the methods, even though any one
+method has fairly good reproducibility. To obtain satisfactory
+guarding for absolute measurements, quite large samples are
+required. This proposes a difficulty in the study of high-
+purity essentially nonporous ceramic materials, since large
+specimens may be difficult to fabricate to desired specifica-
+tions.
+
+A method of insuring correct heat flow without the use of
+heat guards is to employ a specimen which completely sur-
+rounds the heat source. This may consist of an infinite cylin-
+der or slab, surrounding an infinite heat source, or it may con-
+sist of a hollow sphere or spheroid. Shapes approximating an
+infinite cylinder or slab are satisfactory, if only the center
+section is employed (in a manner equivalent to heat guards),
+but they are difficult to fabricate from pure ceramic materials
+to specifications. A spherical shape is satisfactory, but the
+highly curved isothermals present a difficulty in temperature
+measurement.
+
+Loeb? has recently developed a general expression for the
+body factor, B, in equation (2) for any shape where the sur-
+faces can be described by a single parameter (» = constant)
+in some orthogonal coordinate system and where the iso-
+thermals are given by a single coordinate and the lines of
+flow by the orthogonal coordinates. This expression 1S
+
+.\g — A 1 .
+
+ 
+
+B = - (9)
+
+(l.‘\
+
+— dA
+/ aron ON
+A = function expressing variation of temperature along coordi-
+
+nate forming flow lines (between isothermals 1 and 2).
+
+dA ; : : AN
+T temperature gradient at some isothermal; integration 1s
+dn :
+
+over entire area of this isothermal.
+
+This general expression can be integrated for the case of a
+hollow ellipsoid (prolate spheroid) and makes possible the use
+
+2 P. Nicholls, “Determination of Thermal Couductivity of
+Refractories’’ (report for American Society for Testing Materials,
+Subcommittee C-8), Bull. Am. Ceram. Soc., 15 (2] 37-51 (1936).
+
+3 A L. Loeb, “Theory of Envelope Type of Thermal Conduc-
+tivity Tests,”” J. Appl. Phys., 22, 28285 (1951).
+
+The value of A will depend on the magnitude of the anharmonic
+vibrations and the wave amplitude.
+
+It seems apparent that any factor which decreases the mean
+free path of the thermoelastic waves will tend to lower the
+thermal conductivity. Most of these factors have been con-
+sidered by Eucken® and Austin.! The major factor affecting
+the mean free path is expected to be the symmetry and order
+of the crystalline lattice. Materials having a simple cubic
+lattice are expected to give rise to fewer anharmonic vibra-
+tions and to have a higher conductivity than more complex
+crystalline forms. Glassy structures having a disordered
+structure will be expected to have very low thermal conduc-
+tivities.® As an illustration of this, consider the thermal con-
+ductivities of quartz crystals” and quartz glass® whose conduc-
+tivities at —190°C. are 0.075 and 0.0016 cal. per sec. °C.
+cm., respectively. These values give a value of mean free
+path of about 12 a.u. for the fused quartz and about 700 a.u.
+for the crystalline material.® Similarly, crystals having ap-
+proximately the same size atomic weight components will in
+general be expected to have higher conductivities than crys-
+tals having components with a pronounced difference in
+atomic weight. Eucken observed a maxima in conductivity
+for the alkali halides which had approximately equal atomic
+weights.®® Predictions based on this criterion must be ac-
+
++ P. Debye, Vortrage iiber die kinetische Theorie der Materie
+und Elektrizitit, p. 46; Gottinger Wolfskehlvortrage. B. G.
+Teubner, Leipzig and Berlin, 1914.
+
+5 (a) A. Eucken, “Wirmeleitfahigkeit von Nichtmetallen und
+Metallen”’ (Thermal Conductivity of Nonmetals and Metals) in
+Quanten-Theorie und Chemie, Leipziger Vortrage, 1928. Ed. H.
+Falkenbagen, Leipzig, 1928.
+
+(b) A. Eucken and E. Kuhn, “Neuer Messungen der Wirme-
+leitfihigkeit fester kristallisierter Stoffe bei 0 und —190°C.”
+(New Measurements of Thermal Conductivity of Solid Crystal-
+line Substances at 0° and —190°C.), Z. physik. Chem., 134, 193~
+219 (1928).
+
+(¢) A. Eucken, “Wirmeleitfihigkeit keramischer feuerfester
+Stoffe: Berechnung aus der Wirmeleitfihigkeit der Bestandteile”
+(Thermal Conductivity of Ceramic Refractory Materials; Cal-
+culation from Thermal Conductivity of Constituents), Forsch.
+Gebiete Ingenieurw., B3, Forschungsheft No. 353, 16 pp. (1932);
+Ceram. Abstr., 11 [11] 576 (1932); 12 [6] 231 (1933).
+
+¢ C. Kittel, “Interpretation of Thermal Conductivity of
+Glasses,” Phys. Rev., 75 [6] 972-74 (1949); Ceram. Absir., 1950,
+January, p. 15a. e,
+
+7 W. J. de Haas and Th. Biermasz, ‘“Thermal Conductivity of
+Potassium Bromide, Potassium Chloride, and Silica at Low
+Temperatures,” Physica, 4, 752-56 (1937) (in English).

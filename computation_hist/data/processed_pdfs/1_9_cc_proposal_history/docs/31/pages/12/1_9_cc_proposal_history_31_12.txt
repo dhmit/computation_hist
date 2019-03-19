@@ -1,0 +1,61 @@
+‘_;i————-"""""'f"-IIllllllIlIIllllllllllllllllllllllll
+
+~]D%
+
+   
+  
+  
+
+-
+
+e concerned with the development of new types of
+
+_ machines than
+with their use.
+
+analyser
+
+in mind of constructing a differentigl
+analyser which would be relatively lnexpensive,
+
+The Macnee electronie differential
+~ was bullt with the view
+
+ 
+
+but at the same
+
+time would have moderate accuracy, high speed of Operation,
+
+ability to handle all types of ordinary differential equations,
+and flexibility to permit the rapid investigation of wide ranges
+of equation parameters ang inlitial conditions. This machine has
+81x integrators, an arbitrary-function generator, and g high-
+Speed multiplier. It is capable of handling ordinary differen-
+€ial equations, linear and non-linear, with constant or variable
+coefficlents. It can handle up to five simultaneous first-order
+ordinary differential equations, or single ones up to the sixth
+order. The machine flashes solutions every 1/60th of a secnnd.
+The accuracy displayed is from 1 to 5%.
+
+In sddition, a High Speed Product Integrator has been
+developed which is made up of electronic differential analyser
+components and a set of motor-driven potentiometers. With this,
+it 1s possible to solve intemral equations of the form
+
+b or ¥
+F(y) f-f f(x.) K(x,y)dx
+
+a
+
+where f(x) and K(x,y) are known functions.
+
+A one-hundred point solution is obtained every 1.67 seconds
+and the solutions are displayed on a cathode ray tube screen.
+Evaluation of the solutions of the Fourier, Schi8milch, and
+superposition integral equations has besn considered. In the
+
+~worst cases, the error had a maximum value of 10%, but for
+
+s o
+most cases the observed error was of the order of 2%.

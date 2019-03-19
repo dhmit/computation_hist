@@ -1,0 +1,42 @@
+cC-75-1 1-1
+
+1, The MIT Automatic Operator Program
+
+The MIT Automatic Operator Program provides the 704 user with
+a flexible scheme for tape-to-tape computer.operafibn involving a minimum
+of intervention by the human operator, Two immediate advantages which
+result are greater efficiency and accuracy in computer operation, A third,
+and perhaps less obvious advantage is that runs of greater complexity may
+be safely scheduled by the user, This need not necessarily imply a great
+saving of actual computer time, but it may enable the user to obtain re-
+sults in a single run which normally might require several runs spread
+over several calendar days,
+
+An attempt has been made to minimize the number of restrictions
+which the system places on the user, Thus the user proceeds much as he
+normally would: using SAP and FORTRAN 1 for éssemblies, reading in and
+operating binary decks, and using MIPMR1 and NYDS1 for dumps., To use the
+system he need only sacrifice the first eight registers of core memory and
+six magnetic tape units, This latter restriction may, of course, be fatal
+in many problems,
+
+The logical tape units used by the system are the following:
+
+Unit Function
+1 SYSTEM TAPE
+2 PRINTER OUTPUT TAPE
+3 PUNCH OUTPUT TAPE
+4 RUN INPUT TAPE
+5 BINARY OUTPUT TAPE
+
+6 ., BINARY INPUT TAPE
+The operator Program, other utility programs, and subroutine libraries
+are permanently recorded on the SYSTEM TAPE. The PRINTER OUTPUT TAPE and
+the PUNCH OUTPUT TAPE are used to hold information which the operator pro-
+gram records for off-line printing and punching, The user is required to
+use -these for the same purpose, The programs and operating instructions
+for a run (or for several runs) are recorded on the RUN INPUT TAPE, The
+BINARY OUTPUT TAPE and the BINARY'INPUT TAPE are used by the operator pro-
+gram for temporary storage during the execution of a run,
+
+Runs are recorded in sequence on the RUN INPUT TAPE using the

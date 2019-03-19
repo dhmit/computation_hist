@@ -1,0 +1,276 @@
+92 TJournal of The American Ceramic Society—McQuarrie
+
+80
+
+THERMAL RESISTIVITY (1/k)
+S 3
+
+N
+Qo
+
+05 500 1000 1500 2000
+
+TEMPERATURE (°K.)
+
+Fig. 4. Thermal resistivity of alumina.
+
+Il. Empirical Results
+
+In developing an empirical expression for the variation of
+conductivity with temperature, it is instructive to construct a
+plot of thermal resistivity (reciprocal of thermal conductivity)
+versus temperature. Such a plot for alumina is shown in Fig.
+4. For the greater part of the temperature range, the values
+lie roughly along a straight line. This line, however, does
+not pass through the origin but reaches zero at about 125°K.
+This means that the equation for the thermal conductivity
+cannot be of the form 1/7 but must be of the form 1/(T—
+T,), where the temperatures are in the absolute scale and T
+has a value of about 125°K.
+
+Figure 5 is a similar plot of thermal resistivity vs. tempera-
+ture for magnesia. It can be seen that although the experi-
+mental values again lie roughly along a straight line, they are
+not so close as in the case of alumina. However, the maxi-
+mum departure from the line (except at the highest tempera-
+tures) isnot more than 109%,, which is probably within the limits
+of experimental error.
+
+The plot of thermal resistivity vs. temperature for beryllia
+(Fig. 6) shows that this material exhibits a very decided de-
+parture from the linear relationship at the lower temperatures
+(below about 1000°C). However, the linear relation is rea-
+sonably followed in the temperature range 1000° to 1500°C.
+In view of the abnormally high conductivity (for ceramic
+materials) of beryllia, this anomalous behavior at the lower
+temperatures is not surprising.
+
+All three materials show a very sharp departure from the
+1/(T" — T,) relation at the highest temperatures. The em-
+pirical expression will need a second term which becomes ap-
+preciable at temperatures above 1000°C. and expresses this
+departure from the 1 /(T — T,) relationship. At first sight, it
+might seem that the departures from the 1/(T" — TY) law are
+very different for the three materials, but an examination
+of the results on the same scale (see Fig. 3) indicates that the
+departures are of about the same order of magnitude. This is
+confirmed by Fig. 7, which is a log-log plot of the departures
+from the 1/(T" — T,) law (Ak) versus temperature. This
+shows that (within the experimental error) the same second
+term 1s valid for each material.
+
+The linear relation on the log-log plot suggests a second
+term of the form
+
+Ak = BTI* (] )
+
+T = absolute temperature.
+B and n = constants whose values (determined from the log-log
+plot) are 8.5 X 107% and 10, respectively.
+
+  
+  
+  
+      
+
+I —— T :
+
+Vol. 37, No. 2
+
+60
+
+40
+
+THERMAL RESISTIVITY (1/k)
+
+  
+
+05 500 1000 1500 2000
+
+TEMPERATURE (°K)
+
+Fig. 5. Thermal resistivity of magnesia.
+
+Thus the final empirical expression is
+k= AT — 125)/+ 85 X 10-%7™* (2)
+
+where the constant A takes the values 16.2, 18.8, and 55.4 for
+alumina, magnesia, and beryllia, respectively, and the expres-
+sion is valid from room temperature to 1800°C. for alumina
+and magnesia, and from 1000° to 1800°C. for beryllia.
+
+lll. Comparison with Physical Theory
+
+A review of various theories of thermal conductivity of
+crystalline ceramic materials is included in the Appendix of
+this paper (see p. 95).  All theories predict a falling con-
+ductivity with increasing temperature in the temperature
+range of thisinvestigation (from room temperature to 1300 S
+or above one-third of the Debye temperature, which is the
+important parameter in theories of thermal conductivity).
+All the theories predict a 1/7 relationship or something close
+to it. In particular none of the theories predicts (as has been
+erroneously reported in the literature') a minimum of thermal
+conductivity at any temperature.
+
+Although it would seem that these results definitely do not
+follow a 1/7 relationship and thus do not confirm any of the
+theories predicting this relationship, more accurate work and
+particularly work at temperatures below room temperature
+(where the theories show very marked differences) 1s needed
+before a final critical evaluation of the theories can be made.
+Therefore it is thought best not to tie the results of this in-
+vestigation to any one theory, but to let them stand as em-
+pirically expressed above. -
+
+(It should be noted that all the theories except one (Endo’s)
+require a knowledge of the conductivity at some temperature
+for the valuation of one or more constants and therefore only
+relative values or the shape of the conductivity-temperature
+curve are predicted. In the case of Endo’s theory, there is 0
+much latitude in the evaluation of the constants that a com-
+parison of absolute values is nearly meaningless.)
+
+IV. Apparent Conductivity at High Temperatures
+
+3&5 noted above, none of the present theories of conductivity
+predicts a minimum of conductivity at any temperalure,
+yet that is exactly what was found in this investigation. In
+this section the author attempts to establish a theoretical
+
+- ' W. J-”Knupp, “Thermal Conductivity of Nonmetallic Single
+Crystals,” J. Am. Ceram. Soc., 26 [2] 48-55 (1943).
+
+ 
+
+ 
+
+February 1954 (Part II)
+
+35
+
+30
+
+~n n
+o w
+
+o
+
+THERMAL RESISTIVITY (1/k)
+
+0 500 1000 1500
+
+TEMPERATURE (*K) c000
+
+Fig. 6. Thermal resistivity of beryllia.
+
+basis for this rising conductivity at the higher temperatures
+on the assumption that it 1s due to the transmission of radiant
+energy through the slightly translucent specimens. In con-
+sidering the effect of radiation passing through the specimen,
+a term (or terms) representing the passage of radiant energy
+(b, = the true thermal conductivity) must be added to the
+fundamental conductivity equation:
+
+dt
+Jei— —ky (i—t (3)
+
+Consider a square centimeter of a plane slab of thickness a
+(Fig. 8) bounded by opaque material of temperature T on the
+inner face and 7', on the outer face. (In general T; will be
+higher than T, the temperature of the inner surface of the
+slab, and 7', will be lower than T because of the interfacial
+thermal resistance.)
+
+The radiant energv passing through a square centimeter of
+area normal to the line of heat flow at a point x will be made up
+f’f all the energy originating somewhere to the left of x which
+1sabsorbed somewhere to the right of x.
+
+Mathematically, this energy must be written as four sepa-
+rate expressions: (a) that for the radiation originating be-
+tween x = () and x and absorbed between x and x = a; (b)
+that for the radiation originating in the inner material and
+gbsorhcd between v and x = a; (¢) that for radiation originat-
+ing between x = () and x and absorbed by the outer material
+and (d) that for the radiation from the inner material ab-
+Sox:bcd by the outer.
+
+[he mathematical expressions are
+
+qi = S ST (TR T, ~ %Y 1 a2dyds (4a)
+
+@ = [0 (Tt — T,)e % "ady (4b)
+(l:i = \/"‘\I (f{ ‘1"_' ' — €y Tu‘l ,)" = a(a s +:)(i:' ( 4()
+Qi = o1 — e1,')e—ad (4(1 )
+
+radiation constant.
+dppropriate emissivity.
+absorption coefficient of material.
+
+R ma
+
+—_
+=
+
+—
+
+=
+—
+—_
+
+The total radiant energy (g,) passing through 1 sq. ¢l of
+
+¢ material is given by the sum of the equations (4), and the
+
+‘otal heat flow through the body by the sum of equations (3)
+and (4), i =
+
+In general, the integrals involved cannot be evaluated since
+
+1€ value of the tmn;;crumrc as a function of x is not known.
+
+ 
+
+Thermal Conductivity, VIJ
+
+  
+     
+
+93
+
+.01
+
+     
+
+AK (col. sec:' SC:
+o
+3
+
+g
+
+0001 .
+1250 1350 1460 1575 1700 1840 1990 2150
+TEMPERATURE (°x)
+
+Fig. 7. Departure of thermal conductivities from basic 1/(T — T;) law.
+
+ 
+
+Fig. 8. Cross section of plane slab with both radiant and conductive
+transfer of heat.
+
+However, if it 18 assumed that the temperature varies linearly
+between Ty and T and that the difference of the fourth
+powers can be replaced by the expression 47,'AT (where 77 1s
+the temperature at x and AT'is the difference between the two
+temperatures involved), equations (4) can be integrated.
+This will give an expression for the radiant-heat passage as
+rigorous as the assumptions made, but it is extremely unwieldy
+since it has a greatl number of terms.
+
+By making a further assumption which is probably as valid
+as the one concerning the temperature func.ti(,m. a very simple
+expression for the radia_nt-cx.lergy passage 1S obtame.d. It 1s
+assumed that the slab is thick enough, the absorption coef-
+ficient large enough, and point x far enough from the bound-

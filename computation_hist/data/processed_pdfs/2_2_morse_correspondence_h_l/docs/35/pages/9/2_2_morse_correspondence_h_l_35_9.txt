@@ -1,0 +1,269 @@
+—
+
+406 J. B. GOODENOUGH AND A. L. LOEB
+
+7 FE304
+
+Fe;O4 is an inverse spinel, Fe*t(Fe**Fe*)0,. The
+interaction between the tetrahedral Fe®t ions and the
+octahedral ions can be fully explained by semicovalent
+exchange but only partially by superexchange. Accord-
+ing to both models the tetrahedral Fe®" ions would
+couple antiferromagnetically with the octahedral Fe**
+ions. However, superexchange does not provide for the
+Fe**—Fe2t interaction since it applies only to inter-
+actions between identical ions. Semicovalent exchange
+corresponds to antiferromagnetic coupling in this case
+also. Between the low-temperature transition and the
+Curie point the spins on the octahedral sites are also
+aligned parallel to each other through double exchange.
+Therefore all the spins of the octahedral-site cations
+are aligned parallel to one another and antiparallel to
+those of the tetrahedral-site cations. In this temperature
+interval both the superexchange and semicovalent-
+exchange mechanisms provide for the ferromagnetism of
+Fe;04. Below 119°K, however, the IFe3* and Fe** cations
+are ordered so that double exchange cannot occur. At
+these low temperatures the superexchange model
+provides no mechanism for a parallel alignment of all
+the octahedral-site spins. Since Fe;O,4 is ferromagnetic
+below 119°K, the antiparallel alignment of all octa-
+hedral-site spins with respect to the tetrahedral-site
+spins, and the consequent parallel alignment of the octa-
+hedral-site spins must be due to semicovalent exchange.
+Semicovalent exchange provides the more adequate
+model.
+
+J. MIlsOq
+
+It is proposed in this paper that the structure of
+Mn;O4 is Mn*H(Mno!'1)O4. Elsewhere the structure
+Mn?**(Mn**Mn*t)O; has been proposed. Mn*t in
+tetrahedral sites is partially covalent. Mn'!! forms
+square covalent bonds. Octahedral Mn?** and Mn**
+would be ionically bound. In the Mn**(Mn?**Mn*+)O,4
+model Mn** octahedral-tetrahedral interactions would
+be antiferromagnetic according to both superexchange
+and semicovalent exchange. The (Mn®* tetrahedral)-
+(Mn** octahedral) interaction cannot be treated with
+superexchange, but semicovalent exchange predicts
+antiferromagnetic exchange. Thus the structure
+Mn?**(Mn**Mn*")O4 would be ferromagnetic just like
+Fet(Fe**Fe*t)04. Yet down to 72°K Mn3;0O4 has been
+found to be paramagnetic.
+
+In the structure Mn?**(Mn™'1)O4 there would be no
+octahedral-tetrahedral semicovalent exchange because
+all octahedral-site cations are covalently bound. There
+would be no double exchange because Mn?* and Mn'!!
+are ordered in different types of sites. Thus the model
+Mn**(Mn'1)O4 is paramagnetic. Since Mn3O4 has been
+found to be paramagnetic as low as 72K°, this observa-
+tion supports the Mn?*(Mny''1)O,4 model in preference
+to the Mn*t(Mn**Mn*")O4 model.
+
+4. CUFCQO4
+
+This spinel is partially inverse with the formula
+Fe,Cui_a (CunFes_»)04 as discussed in Sec. IV B, 2.
+If Cu'! forms square covalent bonds in the octahedral
+sites, as is suggested in this paper to explain the
+tetragonal structure of CuFe,Oy, then the octahedral
+copper does not contribute to the magnetism.
+
+Since the exchange between the octahedral- and tetra-
+hedral-site cations is the only spin interaction of
+significance in CuFe.0y, it is expected that the octa-
+hedral-site spins, if they contribute at all to the mag-
+netic moment, are parallel to one another and anti-
+parallel to the tetrahedral-site spins. If M aus and Mus
+are the atomic moments of tetrahedral-site and octa-
+hedral-site copper respectively, where ps is a Bohr
+magneton, then the magnetic moment per molecule of
+CuFe;04 is | (2—2N)5+2AM,— (2N)5— (1—=2\)M o | ps
+= | (1=2M)10—M .+ 2\ (M v+ M.) |ug. Pauthenet and
+Bochirol® report 2.19us for the magnetic moment of a
+CuFe;0,4 sample which had been quenched from a 700°C
+anneal. Bertaut?” found that a similarly treated CuFe,O4
+sample had an ordering parameter A=0.37. Although a
+direct comparison between data from two different,
+though similarly treated, samples is not strictly justified,
+it is interesting that for A=0.37 the predicted magnetic
+moment of CuFe,04is (2.64+0.74M,—0.26 M ;) us which,
+for M,=1 and M,=0, is 2.3us(>2.19us). It is reason-
+able to assume, therefore, that the octahedral-site
+copper ions do not contribute to the magnetic moment.
+
+VI. SUMMARY
+
+The covalent bond in spinels has been shown to
+influence cation ordering, lattice distortions, and
+magnetic-exchange interactions. Covalent bonding
+modifies the Madelung-energy and geometrical cal-
+culations of previous workers. Octahedral and square
+covalent-bond formation are as significant as is tetra-
+hedral-bond formation in determining cation ordering
+in spinels. From only qualitative considerations it was
+possible to predict nearly all the observed cation
+distributions.
+
+While orthorhombic distortion, as observed in Fe;Oy,
+can be ascribed to cation ordering in octahedral sites,
+tetragonal distortion is shown to be due to ordering of
+the square bonds in octahedral sites. The two distortion
+mechanisms are vastly different, as is evident from the
+difference in transition temperature, thermal hysteresis,
+etc. A certain minimum concentration of square-bond-
+forming cations in octahedral sites must be exceeded
+for the lattice to distort. Covalent bonds in tetrahedral
+sites tend to hinder tetragonal distortion.
+
+The structure of Mn3;0O,; was found to be Mn?**
+X (Mno'"1)O4 rather than Mn?*t(Mn*tMnit)O4. The
+tetragonal structures of metallic indium and the
+indates are accounted for by the square-bond model.
+
+2 R. Pauthenet and L. Bochirol, J. phys. radium 12, 249
+(1951).
+
+ 
+
+LHE
+ORY OF 10NIC ORDERING 407
+
+Semicovalence is defined as covalent bonding due to th
+
+coupling of a single electron spin to the net spin on e
+cation. This coupling leads to semicovalent exchange :
+mechanism producing antiferromagnetic coupling ,of
+cation spins. The paramagnetism of Mn?*(Mn,!11)0), is
+explained on the basis of semicovalent exchange a.s4 is
+the magnetization of Fe;O4 below 119°K ,
+
+APPENDIX I. THE INFLUENCE OF OXYGEN
+(sp*)-ORBITAL HYBRIDIZATION ON THE
+AXIAL RATIO OF TETRAGONAL SPINELS
+
+In Sec. I.IIB, it.has beep pointed out that the oxygen
+p* orbitals in a spinel are instrumental in the formation
+9f covalent bon.ds between oxygen and its near neighbors
+in ogtahedral sites. \v"Vhere there are empty cation orbit-
+als in tetrahedral sites the oxygen can be bound co-
+valently to at least two octahedral and one tetrahedral
+cation through the admixture of oxygen (sp?) orbitals
+with the p* orbitals. The p* orbitals overlap strongly
+with the empty orbitals in the octahedral sites but not
+with those in tetrahedral sites while the set of (sp?)
+orbitals that overlap strongly with a tetrahedral site
+do not overlap as strongly with the octahedral sites as
+do the p* orbitals. Therefore the admixture of oxygen
+(sp®) wave functions with the p* wave functions in-
+creases the amount of covalent bonding of oxygen with a
+tetrahedral near neighbor but decreases the amount
+of covalent bonding with the octahedral near neighbors.
+
+It has been proposed that the tetragonal distortion of
+many spinels is due to square covalent bonds in octa-
+hedral sites. When covalent bonds are formed by one
+oxygen with both octahedral and tetrahedral sites
+through (sp?) admixture, the bonds are less covalent in
+the octahedral sites than they would have been if no
+covalent bonds with the tetrahedral ions existed.
+Therefore the axial ratio of a tetragonal spinel is a
+maximum when only the octahedral cations are co-
+valently bound, and decreases with increasing amount
+of covalence in tetrahedral sites.
+
+This can be quantitatively shown as follows. The
+amount of covalence in the octahedral sites due to
+oxygen p-orbital overlap and that in tetrahedral sites
+due to oxygen (sp*)-orbital overlap is arbitrarily set at
+unity. The amount of covalence in the octahedral sites
+due to oxygen (sp*)-orbital overlap is given by 6(<1),
+that in the tetrahedral sites due to p® overlap by the
+very small fraction e. The wave function for the (sp?)
+orbitals and the p* orbitals are admixed in the ratio a':B,
+where o?+4 2= 1. The normalized mixed wave function
+is then denoted by a(sp?)+B8(p*). The amounts of co-
+
+m r - . . ’ 3 11
+I'ABLE IV. Contributions of oxygen (sp®) and O.rb',t‘lls to the
+covalence in tetrahedral and octahedral sites.
+
+ 
+
+_— —
+Tetrahedral Octa_hefl ral
+sites sites
+
+- o e TR SRS e e
+
+a(spd) o? g&
+
+B(p*) e
+= —'___—J___,_—"‘_"—:-—'——_‘__
+—_— .
+
+ 
+
+AXIAL RATIO
+
+ 
+
+o 0.2 0.4 0.6 0.8 X)
+FRACTION o OF OXYGEN (sp3) WAVE FUNCTION
+
+Fi1G. 6. The a.:_da] ratio as a function of the amount of
+admixture of oxygen (sp%) orbitals.
+
+:valence due to each term in the wave function is shown
+in Table IV. [The physical properties are proportional
+to the square of the wave functions; cross products
+aB(sp?) (p°) are neglected here.] Therefore the amount
+of covalence in octahedral sites is (a?6+/?). The amount
+of electrovalence is 1— (a2+482). If it is assumed that
+the bond length is a linear function of the amounts of
+covalence and electrovalence, the following bond length
+is then derived :
+
+o' = (’0+5%)a+ (1—a®—p%, (A.1)
+
+where a is the covalent bond length in octahedral sites
+in the absence of (sp®) admixture, and ¢ is the electro-
+valent bond length in octahedral sites. The axial ratio
+is then given by
+
+¢ ¢
+—= = —. (A.2)
+a  (?6+B8%)a+ (1—a2—p%)c
+In spinels in which there is no appreciable covalent
+bonding in tetrahedral sites, such as Mn;0y, the axial
+ratio has been observed to be ¢/a=1.16. The amount of
+overlap of oxygen (sp?) orbitals with octahedral cation
+orbitals is estimated to be about 70 percent of that of
+oxygen p* orbitals with octahedral cation orbitals. On
+the assumption that §=0.8, the axial ratio is plotted in
+Fig. 6 as a function of the admixture of oxygen (sp°)
+orbitals.
+
+For spinels like CdIn:O4 and ZnMn,O4 an axial ratio
+1.14 has been observed ; for Fig. 6 this is seen to corres-
+pond to a=0.6, 3=0.8. It is significant that such a large
+amount of admixture of (sp®) orbitals, and hence con-
+siderable covalence in tetrahedral sites, only slightly
+reduces the axial ratio. In fact pure (sp*) wave functions
+for oxygen (a=1, 8=0) still allow enough covalence in
+the octahedral sites for distortion to an axial ratio
+¢/a=1.10.
+
+APPENDIX II. CALCULATION OF THE TETRAGONAL
+DISTORTION IN Fe;O, FROM AN IONIC MODEL
+
+ 
+
+ 
+
+ 
+
+To calculate 8, and 8, of Eq. (IV.1), it is first neces-
+sary to obtain 6 and 6;" which, from the law of cosines,

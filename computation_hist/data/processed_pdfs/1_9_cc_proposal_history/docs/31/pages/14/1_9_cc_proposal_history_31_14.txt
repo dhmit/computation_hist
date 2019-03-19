@@ -1,0 +1,37 @@
+Sl
+counts how many times the amplitude falls within a glven interval.
+The machine can alBo be arranged to make counts for conditional
+probabilities. |
+
+It should be mentioned that machines (1), (2), and (3) are
+all analog devices, essentilally electronle, and the accuracy
+obtainable is of the order f 1% to 5%.
+
+Also under construction is a machlne for solving integral
+equations. This will have inpu® and output units which will
+yield information {(iterations, say) digitally on punched tape
+although it will be an anaiog device.
+
+A 5-channel analog correlator is also being built under the
+
+supervision of Professor Reintjes.
+
+Dynamic Analysis and Control Laboratory. This laboratory
+designed, constructed, and now operates a large-scale analog com-
+suting machine called the M.I.T. Fiight Simulator. The major
+application of the Simﬁlator is in the solution of probiems asso-
+ciated with the flight of alrborne vehicles. It is composed of
+the following btwo main parts: ‘
+
+(1) A.Egzgngimensional Flight Table which is capable of slmu-
+lating the angular motions of an alrcraft about & point of
+
+space. Provision is made for mounting some actual flight-
+contrcl components on the table. The table with an assoclated
+aerpdynamic computing section forms a complete computing facillty
+in which the motions of the table are controlled on an accelera-
+tion servo basis.
+
+(2) A Generalized Computer particularly adapted for solving non-
+
+linear ordinary differential eguatlons with tinme-varying coef-

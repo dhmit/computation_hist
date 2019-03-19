@@ -1,92 +1,76 @@
-Prob
+Prob. bdo.
 
-. l0. Lab.
-
-1064 318
+Lab.
+1064 RLE
 1088 OR
-11h3 185
-1150 1&3
-1157 133
-1160 “IS
-1176 LES
+1143 LNS
+1150 LAS
+1157 LNS
+1160 LS
+1176 LHS
 1178 RLE
-1181 135
-1184 RLB
-1190 RLE
-1191 RLE
-1193 RLE
-1 194 [MS
-1196 RLE
-1197 1N5
-1198 LNS
-1199 RLE
-1200 RLE
+LHS
+RLE
+RLE
+RLE
+RLE
+LMS
+RLE
+LNS
+LES
+RLE
+RLE
+
 Laboratory
-ﬂours Employed
-ﬂours Used
+Hours Employed
+Hours Used
+
 Computing
 Overhead
 Sick Leave
 Vacation
-Clauses
+Classes
+
 Total
 
-Hours Not Used
-Euurs ﬁverdtawn
-
-Cumulative ﬂoura Not Used
-Cumulative Hours Overdraun
-
- 
+Hours Mot Used
+Hours Overdrawn
+Cumulative Hours Not Used
+Cumulative Hours Overdrawn
 
 Joint Computing Group
 
-Tina Record
+Time Record
 
 June, 1961
 
-W
-
-G.
-E.
-E.
-H.
-G.
-C.
-R.
-J.
-E.
-J.
-R.
-A.
-P.
-G.
-G.
-B.
-P.
-D.
-H.
+Requested by
 
 Time Distribution
 
-Helga
+Wolga
 Galliher
-Lumen
+Lomon
+
 Enge
-Schspper:
-Yang-Eu
+Schappert
+Yang-Hu
 Freeman
-Herahfield
-Loh
+Hershfield
+
+. Loh
+
 Coccoli
 Weiss
-Bets
-Choruay
+Bers
+Chorney
 Guttrich
-Gnrstein
-Bai1ey
+Gerstein
+Bailey
 Sharb
-Horse
+
+. Morse
+
 Fields
 
 RLE
@@ -95,53 +79,45 @@ RLE
 
 422
 150
+
 16
 
 588
+84
 
 1259
 
 August 30, 1961
 
-MEAL-1.92.2
+Heurs in June
 
 60
-4
+&
 179
 24
 16
-8!.
-175
+84
+176
 1
 28
-16
-4
-11.7
-79
-14
-38
-46
-35
-61
-16
+15
 
-LBS SS
-
-576 0
+376 0
 
 602
 
-0
-06009
+o
+o OCOOO
 
-\1
-LA
-111
-O
+159
+
+S
 
 454
 
-Total ﬂours
+3191
+
+Total Hours
 
 378
 2903
@@ -155,11 +131,11 @@ Total ﬂours
 
 201
 
-257
+237
 
 119
 
-52
+a2
 
 259
 
@@ -178,42 +154,77 @@ OR
 
 88
 
-uOOOb
+wooo oS
 
 13
 
-7S
+75
 
-1476
+1478
 
 
-Joint Computing Group
-Time Record
-June, 1961
+Maintenance
 
-August 30, 1961
-LGP-30 Time Record
+Total
+
+User
 
  
 
-Lab. Una: Hours Total Hours Ilse b1 Laboratories
+A. Lazarus
+B. Bailey
+E. Loh
 
-INS A. Lazarus 3.25 3.25 Lab. Hours @3531 Hours
-ms E. Bailey 28.75 28.75
+¥. Sherb
+G. Gerstein
+P. Chorney
+J. Coccoli
+H. Fields
 
-LHS E. Loh 16 86.5 LNS 62.25 1693
+Joint Computing Group
 
-1.113 1?. Shah 14.25 14.25 RLE'. 38 790.25
-ill-B G. (Sustain 16.25 33.5
+Time Record
 
-[11.8 P. Chorusy 4.5 17.75
+LGP-30 Time Record
 
-RLE J. Coccoli 15.5 45.75
+Hours
 
-Ru: 1!. Fields 1.75 1.75
+3.25
+28.75
+16
+14.25
+16.25
 
-Maintenance lo
+4.5
+15.5
 
-Total 104.25
+1.75
+
+104.25
+
+August 30, 1961
+
+Total Hours
+
+3.25
+28.75
+86.5
+14.25
+33.5
+17.75
+£5.75
+
+1.75
+
+A gna Wl, Tain
+
+Mie li i
+
+Use by Laboratories
+
+Lab. Hours Total Hours
+
+LNS 62.25 1693
+RLE 38 790.25
 
 

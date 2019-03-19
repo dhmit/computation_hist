@@ -1,60 +1,46 @@
-ﬂ calm-1mm: emu
+¢
 
- 
+MIT COMPUTATION CENTER
 
- 
-
-lee-nebula" lnltitute of Technology
+Kassachusetts Institute of Technology
 2/7/57
 
-QUESTION!" 0N scam USAGE 0! 704 mil! TIIE
-
-lane of Person
+QUESTIONNAIRE ON SCHEDULED USAGE OF 704 COMPUTER TIME
 
  
 
-Dept . or Group
+1, Name of Person
 
  
 
-KIT'RoolI No. Tel No.
+Dept. or Group
 
  
 
-J
-
-Estimated 704 Machine hours usage per month
+MIT*Room No, Tel No.
 
  
 
-Average ﬂax. Route ‘ ; Avg. Kin. Hours
-
-l
-
-Estimated dollar exﬁendi’turee per month S
-
-Estimated need for programing aelietanco _ hrs/month
+2, Estimated 704 Machine hours usage per month
 
  
 
-Estimated expenditure for " " $
+Average Max, Hours ; Avg, Min, Hours
 
-Irma of year of peak computing load
+3. Estimated dollar éxpenditures per month $
+
+4, Estimated need for programming assistance hrs/month
+
+ 
+
+5. Estimated expenditure for " g $
+
+6. Time of year of peak computing load
+
+7. Comments:
 
  
 
  
 
- 
-
-Cements:
-
- 
-
-mm
-W
-W
-
-—————-—————.—_—______—_____
-
-(Please return to F. M. Verzuh, Room 200-206)
+(Please return to F, M, Verzuh, Room 20C-206)

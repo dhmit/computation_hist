@@ -1,59 +1,46 @@
-Llh .
+Lab.
 
 Total
 
 User
 
 E.
-I.
+Ii.
 D.
 P.
 J.
 J.
-p.
+P-
 R.
-6.
+G.
 
-Lab
-Pleas
-Garel 1ck
-Penﬁeld
+Loh
+Pless
+Garelick
+Penfield
 Cochran
-Coccol 1
-Chomey
+Coccoli
+Chorney
 Kyhl
 Geratein
 
 Joint Computing Group
 Time Record
+May, 1961
+August 30, 1961
 
-Hay, 1961
+LGP-30 Time Record
 
-W
+ 
 
-3.02;».
-s 70.5
-
-8.25 719.25
-18.75 30
+Hours Total Hours Use by Laboratories
+6 70.5 Lab Hours Total Hours
+8.25 74.25 LNS 33 1630.75
+18.75 30 RLE 134.25 13225
 48.25 90.75
 25 67.25
 25.75 30.25
 13.25 13.25
-
 4.75 23.25
 17.25 17.25
 167.25
-
-August 30, 1961
-
-Use by: Laboratories
-
-Egg Hours
-ms 33
-RLE 134 . 25
-
-Total Hours
-
-1630. 75
-752.25

@@ -1,0 +1,46 @@
+TRIP REPORT
+
+Place Visited: MIT Computation Center
+Date of Visit: January 31 - February 1, 1957
+Visited By: F. ¥. Verzuh
+
+Pergons Contacted: R. C. Collins, MIT
+Eugene W. DiBenedetto, IBM, Special Engineering, Poughkeepsie
+George Travato, IBM, Sales Engineer
+C. M. F. Peterson, MIT
+Richard Winne, IBM, Special Engineering, Poughkeepsie
+
+ok kR TR RD
+
+1,0 Introduction
+
+The purpose of this two-day work session was to clarify the
+dimensions on the steel plates in the floor of the MIT 704 Calculator Room
+(26-156). In addition, the special engineering representatives Ifrom Poughkeepsie
+were available to clarify the previously-submitted drawings (JIBM #680828-10, 20,
+30, 40, and 50) concerning the duct comnections to the following six machines:
+
+1) 704 Central Processing Unit (3 duct connections),
+2) 733 Magnetic ﬁrum (1 duct connection),
+
+3) 736 Power Uunii (3 duct comnections),
+
+4) 737 Magnetic CORE Unit (2 duct connections), .
+
+5) 737 Magnetic CORE Unit (2 duct comnnections),
+
+6) 741 Power Unit (3 duct conmnections).
+
+2.0 Iocation of IBM Machimnes on Sheet Steel Floor
+
+et M eaea T SRS T c— bl
+
+The principal source of confusion arose as a result of the fact that
+all of the existing Skidmore, Owings, and Merrill drawings (R-45, R-46, A-23,
+etc.) have incorrectly-scaled information regarding the location of holes in
+the steel plates as well as the location of underflioor duct openings. After
+many hours of fruitless laboyr, it was decided to sbandon using Skidmore, Owings
+and Merrill drawvings end proceed with "on-spot” field measurcments and exect
+site locations. Naturally this is a oot regrefable situation, and ome which
+could bave been avoided had properly-scaled drawings been prepared by the
+architect. Apparently one source of common difficulty is the confua;on

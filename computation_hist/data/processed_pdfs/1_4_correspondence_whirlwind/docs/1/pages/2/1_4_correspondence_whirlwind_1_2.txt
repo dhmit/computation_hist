@@ -1,20 +1,8 @@
-W\”
-Credit Allowance continued
+S W
+ Credit Allowance continued
 
-23 E 5k A. Tubis P.H.Horse Variation-perturbation of atomic wave function and energies 21?
-CW6 Physics .
+23 N 54 A. Tubis P.M.Morse Variation-perturbation of atomic wave function and energies 217 30 min 30 min
+CMMC Physics :
+29 N 54 A.T.Ling S.H.Crandall Evaluation of explicit and implicit difference formulas for 228 1 hour 1 hour
 
-29 N 54 A.T.L1ng S.H.Crandall Evaluation of explicit and implicit difference formulas for 228
-GMMC Each. Eng. the diffusion equation
-
- 
-
-30 min
-
-1 hour
-
- 
-
-30 min
-
-1 hour
+CMMC Mech. Eng. the d4iffusion equation

@@ -1,15 +1,181 @@
-ALMOST»ALGEBRAIC NUMBERS 1045
+"
+= ..
+=
 
-I946)
+e
 
-By our condition on the order of magnitude of eh“, it follows from
-(6) and (7) that for some h, |E(¢(0))] g [E(4r;.(9))| — IRAQ)! >0; and
-«7(9) can not satisfy the algebraic equation E(cr) =0. Q.E.D.
+.
 
-A simple method of satisfying the conditions on <7(x) is to take
-:r,(x)=l+x“+x"+ - - - +x"’+ - - , , Ix. <1. Then n(x) and x are
-not both algebraic unless x=0, and indeed, the values of x (730) for
-which a,(x) is algebraic are some instances of the type of transcem
-dentals under discussion. '
+-
+e
 
-New You CITY
+"
+
+-~
+Q’Q
+A
+
+LI,
+
+e
+
+LA,
+
+,,,,,,,
+v
+
+v’
+.y
+
+‘p ’
+-----
+
+''''''
+
+e
+
+- ~ LI
+,'_v.-::' -
+
+~ > S
+
+ 
+
+ 
+
+‘
+|
+e
+
+,,,,,,,,
+
+wyr
+
+  
+
+ 
+
+ 
+
+HARVEY COHN.
+
+406 ¢ the modular group, is a single-valued functig,
+
+. ariant unde
+function of 2, invariant
+
+of J(2)-
+
+theta function 18 defined as a single-valued functioy ¢ (2)
+A Poincaré thetd
+
+; ite number of poles, and satisfy;
+. tion of a finl : ying
+regular in D W.lth the 3?21)- We call m the or,der of Jfhe P03ncaré thety
+the transformation ,form is of order 1, and f(2)J (2)™ is a 81.ngle-valued
+function. Thus J (2) if it is known that f(z) has no SIngularitio,
+
+ticular, :
+function of J (hZ)l;f le;n}Lafi: easily follows that the only poles of f(2)7 (2)n
+in the upper hail PEF5
+
+can be easily ace
+
+£ 7 (2), and these Y accountyg
+: d by the zeros O
+
+are those induce
+
+. Thus we can Write
+i« i Ha) = Rd(e) (%) — 1)™F(J (2)),
+
+4
+(4) P(w) is an entire function of w. Suitable values of m, and n, o
+where P(w) 1 . -
+given in the following table [6;599]:
+=0 (mod6) M= 2m/3 my = m/2 My = m /g
+m= 2(m—-l)/3 (m—1)/2 (m~7)/6
+1 (2m——1)/3 m/2 (m~2)/6
+2 e (m—1)/2  (m—3)f
+: iy (m—1)/2  (m—5)fs
+
+The Poincaré theta functions, having f,he period 1, can always b
+expanded into a Laurent series in exp 2miz valid for Jz positive and larg.
+In some cases the series is finite in one direction so that
+
+f(2) = (exp—2nirz) (Ko + k1 exp 2mwiz + - - -),
+
+where ¥’y 0 and 7 is an integer. (This occurs, for instance, when f(z) is
+bounded as Jz— .) Then we say f(z) is of degree . Thus if f(z) has
+no poles the function P(w) introduced in equation (4) is a polynomia¥ of
+degree r 4 m.,, where m, is given in the above table. For other function-
+theoretical aspects of theta functions, too numerous to recall here, we refer
+
+to Poincaré’s papers. We are principally interested in the tables jus
+presented.
+
+4. Preliminary results on theta series. We are now ready to considet
+
+. . . . ® I r
+some examples of theta functiong expressed as infinite series. We conside
+the series,
+
+e e
+
+* The integer m, wi]] be explained- presently,
+
+SOME DIOPHANTINE ASPECTS op MODULAR FUNeTION
+' S.
+
+407
+(2) Fzm(z) =(0.d)§(0,0) (cz -+ d)—2m
+and
+(5) ®2m(z) =ad§c=1(cz = d)-zm(w e (az it b)/(cz ' d))ﬂ’
+
+where m = 2 and the first and second Sums are over g integer sets that
+satisfy the conditions stated under the Summation. In ejther case it ?s
+apparent that we are dealing with g theta function jf We can assume absolute
+convergence, since a rearrangement of terms shows that (1) is satisfied by
+Fzm(z) and @2m(z)-
+
+In a region &, bounded away from the p
+finite projection on the real axis, F3m(z) conver
+by well known estimates.
+
+If, in the series for ®,,(z) as given in equation (5), we sum first over
+oll 6, b satistying o==a (mod.c) and 3=p (mod ), L W being
+fixed, then we obtain :
+
+(52)
+
+eal axis and having only a
+ges absolutely and uniformly,
+
+Oum(#) = Z* (o2 + @)™ x-cot m(a 4 (as+B)/(or & 2)).
+
+ad-be=1
+
+where the asterisk means that ¢ and » rup independently over complete sets
+of residues modulo ¢. We now assume once and for all that 30 = 0 thus
+we avoid poles. The series (5) with appropriate grouping of terms, or series
+(5a), converges absolutely and uniformly in the region mentioned above.
+
+If we differentiate the series (5) term by term we obtain a series in
+which the convergence is now absolute and uniform, without grouping of
+terms, in the region ®. Thus we define
+
+(6) Gom (2, 0) = — (d/dw)*m-1@,,,(z) /(2m — 1)!
+= 2 (czo+ az 4 do + b)-2m,
+ad-be=1
+
+Since Gon(z, z) 1s precisely G.n(z), we see how to obtain the latter theta
+series from Oy (2).
+
+9. Non-vanishing of theta functions. We are now faced with the by
+10 means tfrivial problem of deciding if our theta series vanish identically.
+Without such g decision, the problem of asymptotic behavior may be
+meaningless, .
+
+The case of F.,(2) is easily disposed of. If z approaches infinity along
+the imaginary axis, by the uniformity of convergence of its serie.s, Fon(2)
+must approach the part of its sum consisting of constant terms,. which makes

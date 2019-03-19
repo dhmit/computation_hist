@@ -1,8 +1,8 @@
-Suggestions_lMcCarthyf to memorandum re replacement of 70{
+Suggestions (McCarthy) to memorandum re replacement of 704
 
 page 3, end of 2nd par.
 
-Insert: “Our experience with the 704 used so far by more
+Insert: "Our experience with the TO4 used so far by more
 than 800 programmers has led us to want to
 experiment with a new way of using a computer
 to serve a large number of people. In this
@@ -10,7 +10,7 @@ system, any typewriter console can at any time
 request service from the computer. The computer
 will execute small requests without delay and
 schedule larger ones. Thus the user requests
-and is provided with computatipn rather than the
+and is provided with computatidtn rather than the
 full services of the computer for a small period.
 
 We believe that such a system will enable a
@@ -26,13 +26,13 @@ benefit IBM and the computation industry generally."
 at end of
 Education Section:
 
-Insert: ”Potentially, the use of computers may solve the
+Insert: "Potentially, the use of computers may solve the
 problem of giving individualized high quality
 training in the sciences to students at all levels
 without an excessive cost in the time of able
 people. A calculation shows that an IBM 7090 with
 disc files could handle 3000 students simultaneously
-at a cgst less than that of teaching them in groups
-of 50.
+at a cost less than that of teaching them in groups
+OR 30.
 
 
