@@ -1,53 +1,47 @@
-4n
+4.
 
-Allocatien g; 0vcr§o|¢ Cost: gg_; Haghino ugliiggtiog ﬁggig
+Allocation of Overhead Costs on 8 Machine Utilization Basis
 
-It must be Inphtsiaod tune the diliributien at tho
-overhead cost: givcn in Table i in It host I vary rough
-gttillgg. Th1: is ptrticuiariy tent or the supcrvisian lad
-ndninistration costs. The ﬁrinsiptl rcnton for tho taugh-
-mess of in: cats-Its is in. lust of eycrutienni capotioncl
-with thy Card Progrluaod cnlcuiltor. ﬂoucvvr. if tbs thew:
-distribution is acccptca as I buzis for anti Illecniioa, tho
-{allowing procudnrc may be ugcax
+It must be emphasized that the distridbution of the
 
-1. Distribute the overhatd cents for the Ipoclil Ina
+overhead cests given in Table I is at best a very rough
 
-chin-o along the unecrwriters an t purccntlgo
-basis .- in: parccntuge is to be based on the
-manthiy rent.) cost at the machinc. Specifically.
+stimate, This is perticularly true of the supervision and
+administration costs, The principal reason for the rough-
+ness of the estimate is the lack of operational experlence
+with the Card Programmed Caiculator. However, 1f the above
+distribution {s mccepted as & basis for cost allocatlen, the
+following procedure may be used:
 
-      
- 
-      
-   
+1, Distribute the overhead ccats for the tpcc!nl M -
+chines among the underwriters on a percentage
+basis = the percentage is to be based on the
+menthly rental cost of the machine., Specifically,
 
- 
-   
+Under~ Percent~- Monthly
 
-NﬁL $565.40 $126.92
+writing Monthly (age of Overhead
+Froject Fercentnge | Machine| Rental Spec, Mach, | (harge
+NSL | | 604 §565.40 | 25,098 $126,92
+Meteor Proj. - {40%) | CRC 1 SMBs | 2946R 144,81
+Aeronautic Engg, | (40%) CPC | 645, i 28,62, 144,81
+Verguh Research | (20%) CPC 322,50 ‘ 14,80 72,36
+E2177.90 100% $480 .80
 
-    
-    
+(
 
-Msicor ProJ. . . 645. 144.81
-Acronnutic Engg. (40%) 645. 344.61
-Vernuh Resenrch (265) CFC gzz,§9 £3389 13.36
+The column labslled "Monthly Overhead Charge” is obtalned by
+distributing 4074.15/8.333-5488,%0 per month {the estimated
+overhead charges associated with special machines) on & pere
+centage baslis, The percentage is, of course, determined by
+the monthly rental cost of the machine,
 
-} 52177 .90 1005 51m .90
+This overhead cost is to be bllled to each of these
+projects each menth aleng with the associated menthly rental
+cost of the particular machine,
 
-The column iabaiica "Mnnthiy Overhead Charge“ is obtained by
-di$tributing 4074.15/8;3£-$48&.90 par month (the estimated
-overhead charges antaciated with special machines) an t p¢r~
-ceniage basis. inc percentage is. of csurse, determintd by
-the monthly rantal cost of the machinu.
-
-This nvarhead cast is to be biiiea to each of these
-projects each month slang with the assaciatud menthly rantni
-cast er the pariicular machine.
-
-2. The avernend casts appearing in Table i in ihe
-column labeilgd Regular ﬁgsgjgg; is to be distributed
+2., The overhead costs appearing in Table I in the
+column lubelled Regular Machines is to be distributed
 in accordance with the established formulae which
-employ the machine utilization factor. (lee pw.7-9
-or the report dated ﬁctcber 1. 1952).
+employ the machine utilization factor. (see pp.7-9
+of the report dated Cetcber 1, 1952).

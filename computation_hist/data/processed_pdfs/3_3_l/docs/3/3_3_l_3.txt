@@ -1,15 +1,17 @@
-DEPARTMENT OF MODERN LANGUAGEI
+DEPARTMENT OF MODERN LANGUAGES
 
-<5)“ MASSACHUSETTS INSTITUTE OF TECHNOLOGY
+-
+Xi
+Qi MASSACHUSETTS INSTITUTE OF "TECHNOLOGY
 
-CAMBRIDGE l9, MASSACHUIETTJ‘
+CAMBRIDGE 39, MASSACHUSETTS
 
 November 20, 1957
 
 Professor Philip M. Morse
 6-109
 
-Dear Phil :
+Dear Phil:
 
 This is to express my appreciation to you for the very
 valuable assistance which you are providing to the machine
@@ -20,23 +22,28 @@ generously.
 
 The even closer association which you are going to make
 possible next month by assigning Siegel, Helwig, and Best
+
 to work with Yngve on efficient methods of doing translation
-problems on the 701; is certainly going to allow our men to
+problems on the 704 is certainly going to allow our men to
 move ahead faster.
 
 Word is going around that in February Georgetown University
 "will demonstrate on an IBM 705 complete translation of over
 1000 Russian sentences in context, handling all syntactical
-and lexical problems.“ They claim to have made a major
+and lexical problems." They claim to have made a major
 break-through in the handling of syntax. This is going to
 put our boys on their mettle, so I know they are going to
 appreciate doubly the opportunity to work more closely with
 your people.
 
-Sinc erely,/
+Sincerely, /
 
-/ //i;
+  
 
-wnl:rm Wi liam N. Locke ._
+rs - ’
+
+wnl :rm Wi Sian N: Locke
+
+~
 
 

@@ -1,54 +1,41 @@
-e34. ”ifgvg¥kj
-for sdditionnl storage and for input-output requirements.
+o '_ -
 
-The installhtion I111 hIVC 13_ tape units, (It most 10 under 5
-. computer control), each unit storing up to '! chinum of
-I900 000 worde._ \
-'  In addition to the uccnItic tape unite, the _ _ .
+> - -
 
-V input-output equipment which will be under direct computer :IV’9:.
-control will be a punched card reader. a line-by-line printer.
+» . _':‘
+.z- 5
 
-a cord punch. and a photographic oscilloscope unit; In
+for additionul .toraspﬂann ror tupat-output rtquirtneuts._-‘.
 
-addition there will he units, not attached to the computer
-directly, for recording card information on mcgnetic tape
+- The installation will have 13 tapo unitl, (at most 10 unan- 5’. e
+:f-_ ;couputar éontrol), cachAunit ntorins up to a uaxinun of
+"u‘ 900 000 uordl._
 
-and for reading information from magnetic tape and printing
+: | In addition to thn uasnctic tapo unltl, tho “
+| 1nput-output cquipzent which will bo undcr direct conputor |
+control will bc a punched oard roadcr, a llns-by-line printor,
+- a card punch, and a photographic oscillo:eopo untt. In
+_addition there will be units, not attachod to th. oomputcr
+direotly, for recording card inrornltion on naznotic tapo
+-and for reading information from masnotic tapo_and printxnz
+:or punching cards. Finally, for e¢ard preparation purposes,
+there will be the usual assortment of standard IBM accountingv
+machines, including key punches, printer, reproducer; sorter,
+ete. |
 
-ior punching cards. Finally, for card preparation purposes,
-
-there will be the usual aeeortment of standard IBM accounting
-
- 
-
-machines, including key punches, printer, reproducer, sorter,
-etc.
-
-A: a further feature the installation will also
+As a further feature the installation will also
 include a punched card tranceiver which is a device for
 transmitting or receiving punched card information via
 telephone lines to remote punched card centers similarly
 equiped with a tranceiver unit.
 
-An additional computer output device planned
-
+An additional computer output deviece planned
 for the near future, will be a Photon machine to be
-
-provided by the V7 Photon Incorporated f”"ﬁ____n_ This
-
+provided by the  Photon Incorporated. . St s T
 machine, designed as a high-quality photographic replacement
-
 for periodical and book type-setting, will offer the oppor-
-
-tunity of transcribing computer results directly into better- \
+tunity of transcribing computer results directly into better-
 than-average publication form without any human intervention.
+Because of the possibility of bullt-in self-checking, the
 
-Because of the possibility of built-in self-checking, the
-
-process can be made completely error-freec The Photon machine "3
-
- 
-
-_ ”c: >
-(‘5 . _-. w
+process can be made completely error-free. The Photon machiho

@@ -1,89 +1,61 @@
-THE RIEMANN FUNCTION FOR alu/axag + f1<x + y)u — 0
+THE RIEMANN FUNCTION FOR *u/dxdy + H(x + y)u = 0
 
-Bv HAnvniI COHN
+By Harvey Conn
 
-  
-      
-
-1. Introduction. Some interesting hyperbolic differe
+1. Introduction. Some interesting hyperbolic differential equations can be
 represented in the form
 
-(1) Erin/0.x 6g + H(r + y)u = 0.
+(1) 9°u/0x 9y + H(x + y)u = 0.
 
-An instance of (l) as the wave equation in space was first considered bv Euler
-[5; 430—81]. Instances of this equation in the ﬁeld of differential geometry
-(Laplace) are given in Darboux [3; 52], and instances in the ﬁeld of compressible
-hydrodynamics were considered by Riemann [6; 173] for linear ﬂows and by A.
-Steichen (see Ackaret [l; 317]) for plane ﬂows.
+An instance of (1) as the wave equation in space was first considered by Euler
+[5; 480-81]. Instances of this equation in the field of differential geometry
+(Laplace) are given in Darboux [3; 52], and instances in the field of compressible
+hydrodynamics were considered by Riemann [6; 173] for linear flows and by A.
+Steichen (see Ackaret [1; 317]) for plane flows.
 
 We shall concern ourselves entirely with the evaluation of the Riemann
-function of (1), by means of which Riemann showed how to solve (1) for given
+Junction of (1), by means of which Riemann showed how to solve (1) for given
 boundary conditions. The Riemann function, despite its crucial importance,
 
-ntial equations can be
+seems to have been found in closed form only in the special cases H(r) = —\
+and H(r) = —A(\ + 1)/7°, X constant. Moreover these cases are just those
 
-  
-      
-  
-   
-   
- 
- 
-    
-   
-   
- 
- 
- 
- 
- 
- 
-    
-   
- 
-  
- 
-  
- 
-
-seems to have been found in closed form only in the special cases H(r) = ——A
-and H(r) = —>\(>\ + l)r’r2, A constant. Moreover these cases are just those
-
-solved by Riemann, who, in turn, ha. even been anticipated to some extent by
-
+solved by Riemann, who, in turn, has even been anticipated to some extent by
 Euler [4]! Undoubtedly, the Picard iteration process and its existence proof
-
-{or the Riemann function in general, drew attention away from the evaluation
-
-of this function. Nevertheless, the fact that the Riemann function has been ‘
+for the Riemann function in general, drew attention away from the evaluation
+of this function. Nevertheless, the fact that the Riemann function has been
 evaluated only for these two simple cases restricts the number of physical
-
-situations to which equation (I) can correspond and still remain simple enough
-
+situations to which equation (1) can correspond and still remain simple enough
 to permit solution in closed form by use of a Riemann function.
 
 It will therefore be our purpose to consider the possibility of finding the
-Riemann function for a greater variety of functions H(r)i The methods will
-be twofold First of all we shall use a specialized artiﬁce to obtain the
-Riemann function in closed form for a few types of H(r), namely [{(7‘) =
-—)\(>\ + 1),,i2l/sinh3 p(r + v) (A, p, v constant), and some of its limiting cases,
-11(7) = ~>x exp pr, ——)\(>\ + 1), r2, and —>\. Then we shall consider a certain
+Riemann function for a greater variety of functions H(r). The methods will
+be twofold. First of all we shall use a specialized artifice to obtain the
+Riemann function in closed form for a few types of H(r), namely H(r) =
+—AA + Du’/sinh® p(r + ») (\, u, » constant), and some of its limiting cases,
+H(r) = —\exp ur, —A(\ + 1)/7°, and —\. Then we shall consider a certain
 Fourier integral expression for the Riemann function of (1) with arbitrary H(r).
-This latter expr on is due to Riemann, who derived it in a heuristic manner.
-We shall also indicate :1 rigorous proof of Riemann's expression, since this long-
+This latter expression is due to Riemann, who derived it in a heuwristic manner.
+We shall also indicate a rigorous proof of Riemann’s expression, since this long-
 neglected expression is of potential importance with the further development of
 analysis.
 
- 
-
 2. Some properties of the Riemann function. For later reference we shall
-Summarize some existence 11nd uniqueness theorems as obtained through the
-Picard iteration process (>00 (‘ourunt—llillwrt [2; 3177322]; For equation (1),
+summarize some existence and uniqueness theorems as obtained through the
+Picard iteration process (see Courant-Hilbert [2; 317-322]). For equation (1),
 
-   
-
-Reeeived August 26, Hill}. um]. ”I l'(‘\‘l>1'(i liu'lu. l)l’t'l'nll)(')' 1:3, tutti. linxed on ['0
-work performed in 19413 “lulu the number was will the Applied Mathematics Group 1” _
+Received August 26, 1946, and, in revised form, December 15, 1946. Based on research
+work performed in 1943 while the author was with the Applied Mathematics Group at New
 York University.
 
 297
+
+ 
+
+ 
+
+S ——
+
+e i e S ™ e e e
+
+A et e Tl o § S S PP EAS S L4 w gTA

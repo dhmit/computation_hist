@@ -1,106 +1,289 @@
-C} v. NELSON
+| 4,"'0'0:":0 ‘
+s f . " ':;"f,"gf:
+)
+A " .:':‘1"’
+an ",»‘f‘dfc'}‘:;
+i W“:ﬁ::‘
+
+‘
+
+       
+
+1 .t 117 38N
+y ':':"v:’:v"‘f':c:l'l:i:':l:l:f,:‘:;:o:/ ’
+SOOI Y taletate ts 'ﬁ:l;’,’,‘,:.;o‘ "
+) e l'i,l'l:ll'l l‘;‘:,,’," "
+‘ , r.r fai el
+'X‘ “Jl"‘ 'l“:'o 'lfl""“o‘o’i e
+
+     
+
+ 
+
+A
 
  
 
  
 
+ole in the double-layer tank.
+tials calculated
+
+1 medium. The
+
+3. Field of a dip :
+s are the equipoten
+
+two-dimensiona
+asured equipotentmls.
+
+ov T
+
+Fi6
+The broken line :
+qssuming an infinite
+solid lines are the me
+
+-0V
+
++01Vv
+=01V
+
+Fic. 4. Field produced by positive and negative
+
+halfshells in the double-layer tank.
+
+also n a finite circular conductor.® The poten-
+tial at a point P due to a source and sink in an
+mfinite two-dimensional medium is given by:
+
+7 [ Ty r
+V=-—"Ih—-=4Ah-
+2rkd 1y s
+
+where V' = potential at any point P in the
+field, I = total current from source to sink,
+k= conductivity of medium, d = depth of
+
+(1) of the field is very similar to th
+
+C. V. NELSON
+
+conducting medium, r = distance from siyj
+to P, r, = distance from source to P. Equation
+(1) makes it possible to find the potentia) at
+points 1n the field by.merely measuring the
+distances r and 7. Figure 3 shows a com.
+parison between equipo?entials calculated from
+equation (1) (dashed lines), and those megs-
+ured in the double-layer tank (solid lines). It
+
+is evident that the double-layer tank gives g
+good appro.\'imation of an infinite field.
+
+At field points whose distance from the source
+and sink is large in comparison with the dis-
+tance between the source and sink, these may
+be treated as a dipole, and equation (1) be-
+
+comes
+
+Sk B (2)
+where M = dipole moment = current strength
+times distance between poles, r = distance from
+dipole center 10 field point, 8 = angle bet\.veen
+line from field point to dipole center, and dipole
+axis (dipole axis from — to + pole).; M =
+M /2xkd. Equation (2) is more convement.and
+accurate than equation (1) at remote points,
+since equation (1) would involve the measure-
+ment of two nearly equal distances: The locus
+of the zero-potential line can be rtox.md -from
+equation (2) by setting V = 0. This will .be
+true when 6 = 90° or 270°, or along the line
+pendicular to the dipole axis.
+
+pel’ll’)he potential field of two halfshells.—As an
+e to which the double-layer
+eld due to a “distributed
+Metal conductors were
+pex having the
+
+example of the us
+tank can be put, the fi
+source” was measured.
+spaced around a piece of pers . .
+size and shape of the heart cross-sectional area.
+The metal pieces dipped into the electrolyte,
+and a potential difference was set up betwg;n
+the left-hand and right-hand (501'1(.Juct0rs."l ie
+resulting potential distribution 18 shown }l,n
+4. Near the center of the tank, the
+. ollow the contour of
+themselves equip”
+Lctors, the shape
+at of a I)O.i“t
+
+source and sink, as may be seen by COmPTl'l:i
+figure 4 with figure 3. If in figure 3 any<()i 5
+equipotentials, say those for 41 volt an
+
+volt, were replaced by metal conducto
+
+figure
+equipotentials tend to f
+the conductors, which are
+tentials. Away from the condt
+
+I's Of t.he
+
+ 
+
+?
+
  
 
  
 
- 
+FINITE BOUNDARY AND POTENTIAL DISTRIBUTIONS
 
- 
+same Size and shape and a potential difference
+of 2 volts were set up between them (assuming
+o polariza‘tion troubles), the external field
+would be absolutely unchanged. It is, there-
+fore, possible to use metal conductors in field
+studies, as long as the conductors represent
+equipotentia] lines or areas of the original field.
+The field in the region inside the metal con-
+ductors in figure 4 would be different from that
+of a similar region 1n figure 3, as in the former
+case the equipotentials tend to be tangent to
+the conductors. The zero line is similar in the
+two cases, however. The bending of the external
+zero line in figure 4 1s due to the slight asym-
+metry of the two groups of conductors. The fact
+that the field at points away from the half-
+shells is very similar to the field produced by a
+point source and sink 1s in keeping with the
+demonstration’ that any distribution of sources
+and sinks has a statistical average, which is
+equivalent to a single source and sink. (This is
+not meant to imply that the potential distri-
+bution near the heart is necessarily equivalent
+to that produced by a single dipole.)
 
- 
+SoLUTION 0F BOUNDARY PROBLEMS BY IMAGES
 
-FINITli] ISUUNDARY AND l’tlTl4
+The simplest method of treating boundary
+value problems is by the use of images, 1n-
+troduced by Thomson (Lord Kelvin).® If
+a source and sink in the presence of a boundary
+pi‘oduce a certain potential field, the image system
+s the hypothetical distribution of sources and
+sinks which would produce the same field with
+the boundary removed. It is then possible to
+-alpply equation (1) to each set of sources and
+smrl:'s, original and image, to find the potential.
 
- 
+The term “image” as used here and dis-
+CllS:S('.(l by Pruitt and Valencia® involves an
+e““""‘l.\" different concept from the ‘“‘image
+surtace” of Burger and Van Milaan,'® or from
+thf‘ “mirror image” electrocardiograms ob-
+tamed on diametrically opposite sides of the
+chest, 1! ‘
+) Images in straight-line  boundary.—In
+figure 54 4 source and sink are immersed n
+(-(m(.hu-lin;: liquid 1., which is bounded by the
+Straight insulating edge S. Figure 5b shows the
+I}]ath(‘ﬂlaliv:lll.\’ equivalent situation. The line
+S has heep, removed and the entire region is now
+considered to be filled with the conducting
 
- 
-
- 
-
-ATIAL DISTRIBUTIONS
 239
 
- 
+liquid, infinite in extent. The
+
+d, 1 . source and sink
+remain 1n their original po
+
+sition, but an i
+source and sink have heen addedj lllllt( ;)l(l)tlerlr:?ii(;
+.at every point in the liquid is exact]y the same
+n the.! two cases, and can be ,'ill(‘lliiit(‘d from
+equation (3). (The potential must, of course
+'I)e calculated for the original area of ('onduct-,
+mg.liquid. To caleulate potential values for the
+region to the right of S would be meaningless.)
+
+V = A)nn" (3)
+roTy
+which is the same as equation (1) except that
+the distances r; and 7, from the field point to
+the sink and source images are included. The
+locus of the zero potential line can be found by
+putting V' = 0 in (3) from which
+
+'’y = Toly (“1’)
+
+It can be seen from figure 5 that the image
+
+of a dipole in a straight insulating line is an
+
+equal, antiparallel dipole. The formula cor-
+responding to (2) becomes
+
+e M [(‘OS b, i C0s 0;»] 5)
+
+I Iy
 
  
 
  
 
- 
+where 6, and r; correspond to 8 and r, and 6,
+and r, are the image dipole angle and distance.
+The effect of the boundary can be visualized
+from a consideration of figure 5b. In the im-
+mediate vicinity of the dipole, the dipole
+potential is so much greater than the potential
+due to the image that the latter can be neg-
 
+   
  
-
  
  
+ 
+ 
+ 
+ 
+ 
+   
+   
   
-
- 
-
    
   
   
-   
-        
   
 
  
 
- 
+ind sink in a straight in-
 
-conducting medium, n = distance from s‘ _
-to P, r2 = distance from source to P‘ Etluatlink same Size and shape and a potential different-e 1- t .
-(1). malfes it possnilo to ﬁnd the potential :1, gf2volte Wei-p set up between them (assuming: rifll'l‘iv inf-”life in extent The s ,
-points in the field hy'morcly meaSuring th no polarization troubles), the (‘Xtoi'nal liohl ',ma1n ”1 their Ol'lté'lll‘dl Posit‘ mum; and Sink
-distances 7‘; and 1‘3. Figure 3 Shows a (‘0 9 would be absolutely unchanged. It is them '50ur“"=lll(lsiiik havoheen idlon’hui an image
-pax-ison between oquipotentials calculated in?“ fore, possible to use metal mndur'tors ’in ﬁeld f'” ever). I)oint in the “('uff'Cd. lhe potential
-equation (1) (dashed lines), and thaw mem studies, as long as the conductors 1'0 )rl‘)’ 1n the (no oases and (1” 1‘s ' "ﬂy the Same
-ured in the double—layer tank (solid lines) a? ‘ equipotential lines or areas (If the Ol‘irillifﬁmm equation (3). (Tho 0t ‘dnlho raltvnhmid from
-is evident that the double-layer tank gives L i The ﬁeld in the region insido the :H't‘ll old. he (‘illr-ulated t'oi- thcihn-I‘ limit] must, of t‘oin‘seY
-good approximation of an inﬁnite ﬁeld_ a t durtors in figure 4 would he diﬁ'H-(im h- 51 V01" “'9; liquid. To valvulate [gin-{ll area 0f (iondlm'
-At ﬁeld points whose distance from the SOlirce i of a similal~ region in figure 3 an ill t} ppi that region to the right of S bi) Lntial values, to:- the
-and sink is large in comparison with the dis. Case the equipotentials tend Yto lw t-u ")llné‘l' i “OHM be mmllll'ltzlesm
-tanec between the soul-(i0 and sink, these mm the ronductors, The zero lino i< ei’rn-(lljllj'f‘lli to I' : 71 1 mm
-he treated as a dipole, and equation (1) h: two pageahon-ovmz T110l)911(ll11i;(;fﬂ: 4! '1n the A 11;]; (3)
-comes zero line in figure 4 is due 10 1th \‘lilf‘hcxtei'nal \\’lll(‘ll is the same as (‘t uati
-M cos 6 “I metryot'tho No groups of mud . ‘ .b 't‘ asvm. the distanr'os r:L and ,v t!” on <1? Except that
-V = 4# 7 : ﬂ that the ﬁeld t ' i , ”.(M'F- [helm-t the sink ‘ d . . -i turn the hold lJUIIIt to
-271%] 1, 1' (2) shells“ . .. .a‘. point” anay trom the llalt'- I00 , . <lII hollll‘e images are inr-luded. The
-Fm 3- Field of a dipole in the doul)l€'li\."01' tank. (h H ][ Z d‘ 1 , . 7 _ r in \m) 51mm“. to the field Pl‘odln-ed l)\' 11'? ot the zero potential lino ran he toui d l '
-The ln'oken lines are the equuialientinls unlculated \t 915 A. ipo 0 moment, - current strength 130”"? SUUN'G and sink is in ken ' . .- ‘ a putting l = 0 ill (3) from WM .1 1 )5
-assuming an inﬁnite two-dimensional medium, The times distance between poles, r : distance from demonstration7 that anv di ‘t -'l ping “11h the ( 1
-solid lines are the measured equipotentiﬂls. dipole center to field point, 9 = angle between and sinks has a slatiitio- T I“ ?lllloll ot soul-ops I'm; = 1‘27} (-1)
-line from ﬁeld point to dipole center, and dipole c(IUIValent to a slll"‘l(‘ eoni‘ir iii“ ”Inga “Vii“ll l“ 11 van he soon from ﬂaunt - tl -
-”is ““9019 “is “Om — to + P010); M’ = M mam” ‘0 imp]: that 1; am] ”in”? (H.115 is "f 3 (“WP in a straiwhtbiniiilm‘mri t'hc [image
-M/‘anc/l. Equation (2) is more convenient and hum)“ near the heart is it ».10 po-mmzllpmri' equal, antiWl'ﬂllt‘l diholP :I‘he ll'lb- llnlo m an
-accurate than equation (1) at remote points, to that produced lw a $11 l~ 1.11.1“, “(lll'v‘ﬂom 1"‘-“l)011<lillgto (2) lmt‘omes- Ulmua Pm-
-since equation (1) would involve the measure- SoL W V ‘ ' h " L ll’OlO.)
-ment of two nearly equal distances The locus , mton 0F EMA-”"1”" PROBLEMS m4 I\[\('|4\‘ Iv = ‘11,]:90-5 a] ‘l’ ms 8] (3
-of the zero-potential line can he found from ”I“ Simplest method (t t- ’ I I n I" '
-equation (‘2) by setting V = 0. This will be "“1110 Problems is l>v th) ivmli‘g hmdefF-‘r' “he” 5! 1W1 7'1 ('Ol‘l‘espolld to 0 and r and a
-true when 9 = 90° or 270°, or along the line tl'OdWBd by Thomiénn Balm.) M 71mm": ‘1 1”" “"d 7'1”” ”I"lmaii“(“POIEHHgli‘Hnd (listaiu't-J
-perpendicular to the dipole axis a 301““ 11ml smit- z'n (In, or? 10“.] helm!“ If The ottet't ”ll the l’mlll‘lmp“ (‘31! hr visualized
-The potential field of two halfshclls.-As an (’"Oflucc a erlaz‘u panama; [jg/Z” q a boumlai-‘i/ from a ”Olliidt‘l'iltion 0‘" ﬁgure 5h. In the im-
-example of the use to which the double-layer 16" NM: hypol/irtir'ul liliﬂ/‘ilillgl'f’ ”It zmagr Sl/Slt’lll mediate vicinity of the dipole, the dipole
-tank «an he put, the ﬁeld due to a “distributed Sin/‘3“ which would prod; I Him 0f sour,“ (”.111 potential is so min-h greater ”“1” ”1“ POII‘HH‘JI
-source” was measured. Metal conductors were the bom’da’U I'r'maml lit” - i IPhSlllllp 1w.“ mm due to the image ”1”“ ”1“ I‘m” "‘1" llt‘ ”Pg-
-spacod around a piece of perspex having the itpply ("llliltiml (I) to. (“l('lll: :1 m; lmsmble to
-size and shape of the heart cross-sectional area. 5111,:5' original and image, toilindoﬂiflmff {mil
-WA“ F“. A Fwd . l .. The metal picvcs‘dipped into the electrolyteY 01153:; lplv‘m)“l-Illugi‘” as used lie1~ep;1:1”(i;:
-hummus“ the 311::l‘illluriln pUMIWO and negativg and a potential difference was set up between With-n > )N' I ruitt and Valentina involves an
-' >0 Am idlik. the left»hand and right—hand conductors. The sui-l'r( "h (lliit‘l‘vnt ('0I](‘(‘})t from the nimqur.
-also in ii linite L'irrnlan- t'ondiiotoi-e The t resulting ontvntial distribution is shown in ”10“:an B‘llz‘l‘m' and Van )lilnan,IO or {1:07}:
-imlmapm“Pd‘leiua80\1rroandgiﬁ£i)m‘ ligure 4- Rear the (enter of the tank, the fainpd mm: ”1‘“le (‘li‘f'tl‘tll‘zil‘tliog‘l'ams oli—
-lIllllliit: “YO-dimensional medium . V m an equipotentials tend to follow the contour of “he“ H l’” (llilhlt‘il'll‘tllly Opposite ﬁitlps of the
-l 1" gn 9“ by: the conductors, which are themselves oquipv- I‘m; ,. _
-l' = éxlﬁln g: = A llirf‘ (l) :::‘:i:.l::§a.3 f'mfn the (funduvtors, t‘fhe ship: liguro 1.13:: aﬂout.“N'l'I’llit/ht—Iz'lzr’ Illltllll/ttl'l/V’I-ll
-Where 1' = . ’2 gm 19d in may Similar to that o a l’l‘“g ("’“(lllrling liquid 1“!"- ‘Sllilx'I are unmt‘l’st‘tl in ‘ '_ _ _ .
-tield. I = K[iotontial at, .any point I’ in the if rm} an . snih, as maylhe seen by compillhe Straigm ill-\llltlli”<y i“hivli is hounded by the ll‘l-t- Oi Iliiiiiiwfvoffoltrt‘fIilllll||’1\h|||1‘i~lll'tii;;ll:l “l
-I: d I'Undut-iii'Curr-em “:Om Source to sink it’ll”) 4 “'1‘”! ligure 3, It in figure 3 any 0 1 mathoniatitnlh» F U- 30 N Ii ”T ")h 5110‘” the :litii::iliihiill‘ulliliqlil‘lI-Cilli|gkilxltlllltlehi:ltlljli‘llilAI-Iliutti‘ihlulZi‘j
-, 13' 0t medium, (l = depth f ‘(t‘UDUtmmaisy NV “1050 iv“ +1 Volt and ' Sllasln‘on 1-“ ‘ inmmlvm ”hymn” The I“"’ i mam-s. intin,Iii»imaminm-iwn.imun....-.i.ti
-0 volt, were replayed 1w metal oonducml's ol'the t‘onsideiwl “1mm and ”W ””1"“ "13“” is 'W“' S ninth-ml It min nou‘ Imussunit'xl that llll‘ liquid 1, i,
-‘ ‘ ‘0 lw hllml will] the mndnoting intinile in ruvnl
+Q) gy
+G, D, Images ()f souree { ;
+20 1 the source and sink are
+
+i : ary. In (a),
+sulating boundar o S i
+’ 2 e conducting liquid L adjacent to insulat
+images have heen drawn in and
+
+assumed that the liquid L is
+
+shown insid
+ing edge S. In (b), the
+
+S removed. It can now be
+
+infinite 1n extent.

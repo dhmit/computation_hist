@@ -1,20 +1,24 @@
 Complete Itemized List Exclusive of Typing Charges
 
+ 
+
 Camera $ 9.60
-Opaquing and stripping 22_95
-Vacuum Frame 3.30
-Negative Material 28.18
+Opaquing and stripping 22.96
+Vacuum Frane 3.30
+Negative Material 28,18
 Plates 34.44
 Make Ready 6.60
 Impression 40.20
 Ink 2.76
-Paper 49.94
-Cover stock 11.04
-Binder at .25/book 105.00
-314.02
+Paper 49,94
+\ Cover stock 11.04
+Binder at .25/book _105.00
+314,02
 
-25% Overhead 78.50
-Total* $392.52
+25% Overhead 78.90
+Total* $392,52
 
-*NOTE: This figure should add up to the $366.30 figure given above,
-but does not.
+ 
+
+*NOTE: This figure should add up to the $366,30 figure given above,
+but does not,

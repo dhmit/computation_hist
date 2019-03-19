@@ -11,14 +11,32 @@ const computer_size = 8192;
 function expand_text_area(id) {
     document.getElementById(id).addEventListener('keyup', function() {
         this.style.overflow = 'hidden';
-        this.style.height = 0;
         this.style.height = this.scrollHeight + 'px';
     }, false);
 }
 
+
+function display_operations() {
+    let operations = new Set();
+
+    for (let operation in operation_b_to_no) {
+        operations.add(operation);
+    }
+
+    for (let operation in operation_a_to_no) {
+        operations.add(operation);
+    }
+    let string = Array.from(operations).join(", ");
+    let place = document.getElementById("available_operations");
+    place.innerText = string;
+}
+
+/**
+ * Runs scripts to initialize page.
+ */
 function start() {
     general_start();
-    // computer.general_memory[101].fixed_point = 1;
     expand_text_area("code_box");
+    display_operations();
     update();
 }

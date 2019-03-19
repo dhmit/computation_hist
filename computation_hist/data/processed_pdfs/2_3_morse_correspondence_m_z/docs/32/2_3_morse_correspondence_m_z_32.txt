@@ -1,47 +1,48 @@
-nun... uo-mn
+~~" MASSACHUSETTS INSTITUTE OF TECHNOLOGY
+
+Memo 0 M, Mowe I
+0 fie, 0d gir + TE Chige
+"\ Toni Tr a fs
+
+I sgh Ort Hn eg E-% w
 
  
 
-MASSACHUSETTS INSTITUTE OF TECHNOLOGY
+MURAN BOSTON
 
-; 1957
+veal I Mle.
 
-year I mum. :
-
-I trust you finally got home from Washington. My plane Just made it
+I trust ju finally got home from Washington. My plane just made it
 to Laguardia as the weather closed in.
 
-The Clebsh-Gordan picture looks rather grim. Say 1 and l' are to be
+The Clebsh-Gordan picture looks rather grim. Say 1 and 1' are to be
 combined to give L. Then for given magnetic quantum numbers m and m'
 as well as for a given 1 and 1' there are a total of
 
-(1+l') —[m+m'l+4.
+(1+1') [men + 4
 
-possible L's. This expression must be summed on mzlmls l, and m':
-[m'lg l', and then summed on 1 and 1' from zero to some maximum value
-which we wish to include in the table.
+possible L's. This expression must be summed on m: |m{€ 1, and m':
+[m'] 1', and then summed on 1 and 1' from zero to some maximum value
+which we ’ wish to include in the table.
 
-The leading term in the resultant sum goes as l5 (sob). A fractional
-coefficient in front of this term can be gained § taking account of
+The leading term in the resultant sum goes as 1° (sob). A fractional
+coefficient in front of this term can be gained by taking account of
 
 the various symmetries of the C.-G.'s but this is immediately obliterated
-as soon as you include half—integer angular momenta.
+as soon as you include half-integer angular momenta.
 
-‘ = 9
-Did I hear somebody say lmax 30.
+: = 5
+Did I hear somebody say Yn 30?
 Nick sends his warmest regards.
 
 Sincerely,
 
-MW
+Manny
 Manuel Rotenberg
-
-.___.———_~m
-
-Mﬁ:pae
-
-P.S. There exists a “Numerical Table of the C.—G. Coefficients" by
-Albert Simon, Oak Ridge: ORNL—lYlS, up to l=l‘=9/2. This seems
+EEA PESTS EATAR A,
+MR:pae
+P.S. There exists a "Numerical Table of the C.-G. Coefficients" by
+Albert Simon, Oak Ridge: ORNL-1718, up to 1l=1'=9/2. This seems
 good enough for most problems feasible without a high speed
 computer.
 

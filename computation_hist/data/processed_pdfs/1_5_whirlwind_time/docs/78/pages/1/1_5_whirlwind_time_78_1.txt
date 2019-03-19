@@ -1,70 +1,40 @@
-‘ Rosza‘rR EVERETT Assocur: mnzcrok
-
- 
-
- 
-
- 
-
 MASSACHUSETTS INSTITUTE OF TECHNOLOGY
+s DEPARTMENT OF ELECTRICAL ENGINEERING 'l = S el TR
+" | . DIGITAL COMPUTER LABORATORY. o T AR e M s
+‘ 211 MASSACHUSETTS AVENUE = = = 0 '
+E _ _ CAMBRIDGE 39, MASSACHUSE‘.TTS
 
-' f' .f . ’ DEPARTMENT OF ELECTRICAL ENGINEERING
-7 , 1- ;,_ ‘ . DIGITAL COMPUTER LABORATORY
-= 211 MASSACHUSETTS AVENUE ‘ ‘
-‘ :"HCAMB’RLDGE 39 MASSACHUSETTS 11 ‘
+A Gonoon S. Bnowu F'ACULTY ADVlsOR ST 2 g ~ : ‘ sy YE : o . ‘
+CJAY W Fona\:s-rt-:n DIRECTOR - 7 G b B W S v b A ‘ NGRGRE T S s TE'-E""'o"E é 7331{ T
 
- 
+Roeea'rR Ev:—:as'r'r ASBOCIATE omecroa T 44 . A i LS :’ & N D ' c'x. :
 
- 
+< HARRIB FAHNESTOCK l-:xzcu'nvr-: OFFICER
 
-   
+iy M. Jack L. mh R e
+Room 6-003 ' '
+-mtﬂ nmuum ol Wﬁﬂ
 
-GORDONS. snow" I: um ADVISOR’ " ‘
-Juw.Fonn¥:s1ER.6m:cmn ,'
+‘ m lu:
 
-   
+"'l\m‘iou Wuemummt
+f nusmzmﬂmammtmmtum«m
+_tmurmmumu-an. ¥
 
- 
+You niaht be hntornm o koW thtt since. ym
+problen began, yeu have used 881.7 minutes (as of lebrury ke
+19} of computer time, If your problen had been charged at the
+regudar rate of $250/hour, the total smount charged to you
+would Inn been $1,173.84.
 
-' TELEPHONE
+G L e you find that your prhblem nm nove conplttt
+time, yul ﬂ.u have to submit a n toqunt. |
 
-E \" 2:.
-D.(?‘c.fw, .7
+Bineerely .
 
-HARRIS Finnés‘rocx: EXECUTIVE OFFICER
+F.¥.Vorzuh
 
- 
-
-   
-
- 
-
-   
-
-’ n1. In); L.
-hit 6‘00! - '
-' .mmtn Institute a We"
-
- 
-
-tint “no. no:
-
-v'oi': mane 'b‘e nun-nu to hot
-problem ma. yen hu- nt“ 391.? Int-nus (u of lab
-
-may _ '
-19) at computer was. I! you: nobles and Inna W at th- .'
-WateumoM:.th-umumtmum‘
-In“ hm Non $1,178.“. .
-
-uyourmmtymp Innocent-cc
-
-out":
-.nu will hub to tum: an mt.
-Sincerely.
-I‘JLVOX'HII!
-"hut
-cc YJ‘JIotukop!
-1.. Brock
-
-lam mum
+PV amt
+ce V.F¥.Veisskopf
+L. Brock 2
+Morse th

@@ -1,97 +1,37 @@
-J 0111'! CGIPUI‘ING GROUP
+JOINT COMPUTING GROUP
 
 TIME RECORD
-JUNE 1960
-
-Whom N0» .159 mm
-1088 OR a“ Galﬂiher
-1133 ms 1.u Delves
-1135 RLE A“ Belgesson
-1137 1N5 Hn Turchinetz
-1143 1115 A” Tubis
-1146 RLE GD Bekefi
-1150 LNG w“ Buechner
-1151 LNS J“ Linsley
-1153 KL): 'lf.7 Eigiez‘
-1156 RLE Pu Lntour
-1157 LES Ga Schappert
-1159 RLE J. Eershﬂeld
-1.1m ms co Yang - Hu
-1161 RLE Ra Hoodson
-1162 LNS K.) Li
-£1315 DISTRIBUTION
-Laboratory~ 131]: 3,51%
-Hours Employed 528 264
-Hours Used
-Computing 170 505
-Overhead 35 35
-Sick Loewe. 0 0
-Vacation 8 0
-Classes 0 0
-Total 21.3 540
-Hours Not Used 315
-Hours Overdrnwn 276
-Clanulative Hours Not Used
-Cumulative Hours Ovewdrawn 233 1486
-
+- JUNE 1960
 July 25, 1960
-
 Hours
-In Jupe
-.119
+Prob. No, Lab Requested by In June
+1088 oR H, Calliher 119
+1133 LNS L., Delves 49
+1135 RLE A, Helgesson 76
+1137 LS W. Turchinetgz 46
+1143 LNS A. Tubis )
+1146 RLE G. Bekefi 35
+1150 LNS ¥, Buechner 69
+1151 ILNS J. Linsley 79
+1153 RLE T, Higier i
+1156 RLE P. Latour &
+1157 LNS G, Schappert 160
+1159 RLE J. Hershfield 43
+1160 LNS C. Yang ~ Hu 12
+11601 RLE H., Woodson 11
+1162 LNS Rs Li &1
+TIME DISTRIBUTION
+Laboratory RLE LuS ss o8
+Hours Employed 228 264 O 68’
+Hours Used
+Computing 170 205 0 119
+Overhend 35 35 0 3
+Sick Leave 0 0 0 O
+Vacation 8 0 0 0
+Classes 0 0 0 0
+Total 213 540 0 127
+Houzrs lot Used 315
+Hours Overdrawn 276
+Cumulative Hours Not Used 454 1265
 
-49
-
-76
-
-46
-
-49
-
-35
-
-69
-
-79
-
-1
-
-4
-160
-
-43
-
-12
-
-11
-
-41
-.55 m
-0 BS
-0 119
-0 8
-0 0
-0 0
-O 0
-0 127
-454 1265
-
-To cal
-ﬁgurs
-
-2279
-771
-231
-436
-675
-219
-16/9
-306
-156
-130
-164
-
-59
-12
-11
-1'11
+Cumulative Hours Overdrawn 233 1486

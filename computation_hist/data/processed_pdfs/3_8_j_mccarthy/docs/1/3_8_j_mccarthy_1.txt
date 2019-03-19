@@ -1,0 +1,161 @@
+December 23, 1959
+MEMORANDUM
+
+To: F. J. Corbato
+P. M. Morse
+
+H. M. Teager
+
+M. Verzuh
+
+F.
+From: John McCarth
+
+Subject: Various Methods of Reducing the Pressure on the
+Computation Center
+
+1. Nature of the Pressure. Just before the Christmas holi-
+day, there was a two day delay on computer runs. The delay has
+been over one day for almost the whole of the semester. This
+has seriously affected the rate at which research can be done.
+In particular, the flexowrliter version of LISP which was essen-~
+tially ready at the time of the ACM meeting has dragged on all
+fall in debugging, and other projects have been equally slowed.
+Undoubtedly, the slow service given by the Center has dis-
+couraged new users to a considerable extent, and has made a num-
+ber of departments and projects want thelr own computers. I do
+not belleve that a lot of separate computers is a solution to
+the problem because:
+
+1) Computation costs more per unit in small packages as
+well as requiring separate programming systems, etc.
+2) It will hamper our TOGO or STRETCH plans.
+
+It is difficult to estimate the increase in effective com-
+puter time required to alleviate the queue because the users
+who are seriously hampered now will submit more runs if the de-
+lay is shorter, and an improvement in service will encourage
+more users. We can already use abt least double the computation
+facilities we have.
+
+2. Get More 704 Time From IBM. I think we should plan to
+be using both Saturdays and sundays and all possible third shift
+time by late spring.
+
+3. Departmental Quotas on Time. Across the board cuts in
+time grants favor those who learn about them in time to exag-
+gerate thelr requests. We do not have enough information about
+
+the quality of the researchers requesting time to cut one off
+in favor of another.
+
+Suppose a letter were sent to the five largest department-
+al users as follows:
+
+1 fii Vi
+
+
+MEMORANDUM Page 2,
+
+1) In the last quarter, users in your department asked for
+Xx hours, were allocated y hours according to the following rules,
+
+ 
+
+ 
+
+A -
+
+ 
+
+and actually used z hours. A detailed accounting of your de-
+partmental use of the TO4 is enclosed.
+
+2) During the next quarter your department will be alloca-
+ted w hours. Unless we hear from you. proposing a different
+scheme we will divide it between applicants from your depart-
+ment according to the following scheme:
+
+1. 80 per cent allocated at beginning of quarter. 10
+per cent for new requests during quarter. 10 per cent for sup-
+plementary requests during quarters.
+
+2. Priorities will be assigned in the following order
+
+1. Class use
+2. Bachelor's theses
+3 MS. theses
+« Ph. D. theses
+5. Research projects
+
+3. Should you prefer to allocate the time yourselves,
+or would like us to use a different system we will be happy to
+oblige.
+
+The advantage of departmental quotas is twofold:
+
+1. The decisions as to which uses are most effective in
+research or in education are put in the hands of those who know
+the prospective users best.
+
+2. It makes all department heads and their associates
+aware of the pressure on the computer and will make them more
+receptive to any efforts proposed to expand the facility.
+
+4. Improved Programming by Users. Users can get more per
+machine hour If Chey program better. The Center can help them
+progrqgm better by
+
+l. Better descriptions of the programming systems and
+procedures. This is a staff problem. A 5 page propaganda ——
+booklet may help.
+
+2. Better accounting. The users do not know how much
+tlme they use on runs and big users can't discriminate between
+thelr programmers. The obsolete 407 accounting procedure should
+be replaced by a TO4 program. Programmers responsible for prob-
+lems should get biweekly summaries listing each run made, time
+used, programmer submitting it. The machine and staff time re-
+quired should not be excessive.
+
+
+MEMORANDUM Page 3.
+
+5. Improved Programml System. I have a number of de-
+tailed proposals ior Ernie 8 which we can make in our 704
+system quickly and which will save large amounts of tlme.
+
+Here 1 only remark that
+1. A large fraction, 40 per cent, of our runs involve
+less than .5 minutes computer time but take longer because
+l) System tape twiddling
+2) Card reading time
+3 Operator reaction time
+A system which assumes thal every run requires
+32K of memory and is of the most complicated sort allowed.
+
+MY main proposals are for an operator system for Fortran
+complled decks and a fast-service small job system for SAP
+language programs. The latter, if fast-service system runs
+were given priority, could cut 50 per cent of our present time
+load in 3 and make another 15 per cent program more efficiently
+in order to stay in the fast-service system.
+
+This has an important general application. While the demard
+for computation from big users is insatiable, the amounts of
+computation required per run range over factors of 104 and will
+
+go larger. Small users can eventually be given dlal-tone-like
+service without clogging the computer,
+
+6. Making Big Users Pay. There do not seem to ne enough
+sultable g users.
+
+T. Enforcement of Allotments. If supplementary allotments
+are always available, the allotment system does not really exist.
+
+8. OR Study. Why delay longer?
+
+JMeC/mbw
+
+

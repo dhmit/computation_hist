@@ -1,86 +1,84 @@
-Minutes of the Sixth meeting
+Minutes of the Sixth Meeting
 of the
-Committee on Machine Methods of Computation
-January 3, 1951 ‘
+Committee on Machine Methods of Computatio
+January 3, 1951 fhe
 
-Members Present: H. Feshbach, J. w. Forrester, Z. Kopal, C. Lin,
+Members Present: H. Feshbach, J. W. Forrester, 2. Kopal, C. Lin,
 and E. Reissner
 
 The Committee, in the first part of its meeting, continued
 the discussion of courses presently available at the Institute on
-numerical analysis and possible additions to such. In the Mathea
+numerical analysis and possible additions to such. In the Mathe-
 matics Department there are two such courses: (1) M54, which
-deals with such topics as numerical and graphical methods and
-elementary numerical analysis; (2) a course in integral equations,
-M631, which contains some applications of numerical analysis to
-that subject. There is a course in the Mechanical Engineering
-Department, 2.215T. It is expected that this would be an advanced
-course involving the application of numerical techniques to the
+deels with such topics as numerical and graphical methods and
+elementary numerical enalysisy (2) a course in integral equéations,
+M631, which contains some applications of nuuwerical analysis to
+that subject. There is a course in the kiecnanical Engineering
+Departuent, 2.215T. It 1s expected that this would be an advanced
+course involving the application of numerical teconigues to the
 vibrations of discrete and continuous systems. Forrester's group
-intends to offer a course in the Electrical Engineering Department
-under the heading of nSpecial Problems in blectrical Engineering"
+intends to offer & course in the Electrical Engineering Department
+under the heading of "Special Problems in klectrical Engineering®
 (6.68). This would essentially be a continuation of the course
-Welchman gives. Itiwould be primarily a laboratory course, which
-will emphasize the use of the Whirlwind and will have the intent
+Welchman gives. It would be priwarily s& laboratory course, which
+will emphasize the use of the Wniriwind and will have the intent
 of familiarizing the students with its operational procedures.
 
- 
-
-The Committee then turned to a discussion of whether the
-courses on numerical analysis given st the Institute are suffi-
-ciently complete. Kopal emphasized the point that the cleavage
-of mathematical analysis and the machine use of same should not
-be maintained; particularly, the problem of how to arithmetize a
+The Commlttee then turned to & discussion of wanether the
+courses on numerical analysis given at the Institute are suffi-
+ciently complete. Xopal emphasized the point that the cleavage
+of mathematical anslysis and the machine use of same should not
+be maintainedy particularly, the problem of how to arithmetize a
 problem for a given machine should be treated somewhere. The
-Committee then outlined a course for Numerical Analysis for the
-equations of mathematical physics. This can be conveniently
-broken up into two parts: (1) Background material which shculi
-include the classification of partial differential equations and
+Committee tnen outlined a course for Numerical Anslysis for the
+equations of mathemztical physics. This can be conveniently
+broken up into two parts: (1) Background material which should
+include the classification of partizl differentisl equations and
 boundary conditions, the proper coordinate systems for each type
-of equation and the ways in Which the problem can be formulated;
-viz., as an integral or as a variational problem. (2) Methods
-which should include perturbation methods} variation methods,
-iterations and arithmetizstion. The discussion of these should
-be oriented toward 1 the eventual solutions of the problems by
-numerical methods 2 their range of applicability. it should be
-emphasized that all of these methods are interwrelated and can be
-used together on a given problem. in the problem of numerical 2
-analysis one is interested in combining the process 01 eritnmetlmaw
-ticn with other members of this group. in concluding the dis»
-cussion on this course, it was emphasized that the question of
+of equation and the ways in winich the problem can be formulateds
+viz., as an integral or as & variational problem. (2) Methods
+which should include perturbation methods, variation methods,
+lterations and arithmetization. The discussion of these should
+be oriented toward (1) the eventual solutions of the problems by
+numerical methods, (2) their range of applicability. It should be
+empnasized that all of these methods are inter-related and can bs
+used together on a given problem. In the problem of numerical ;
+anelysis one is interested in corbining the process of aritmmetilza-
+tion with other members of this group. In concluding the dis-
+cussion on this course, it was empnasized that the guestion of
 
 
 Minutes of the Sixth Meeting of the
-Committee on Machine Methods of Computation ' ~2-
+Committee on kachine Methods of Computation eZ
 
 personnel to teach it needed to be settled before one could de-
-lineate in more detail what the course should contain.
+lineate in more detall what the course should contain.
 
 The Committee next turned to contracts. It was agreed that,
-implicitly or explicitly, contracts should containlrovisions for
-the support of educational activities and research. These should
+implicitly or explicitly, contracts should contain provisions for
+the support of educational activities end researcin. These should
 be flexible. The contract for Whirlwind was discussed. Here the
 Government contributes the major fraction of its support. The
-understanding is that the machine would be available half-time for
+understanding is that the machine would be available nalf-time for
 educational activities, although it is not explicitly stated in
 the contract what the actual time fraction is. The contracting
-agency has, at times, brought in outside as well as inside groups
-who have an interest in using the machines for calculations. These
-were generally scientific in nature, though not all were in this
+agency has, at times, brougat in outside &s well as inside groups
+who nave an interest in using the machines for calculations. These
+were generally sclentiflc in nature, thougn not all were in this
 category. The use of machines by members of the Institute working
 on other contracts for the Government was discussed. It was felt
-that if the problem is of a fundamental scientific nature this
+that if the problem 1s of & fundamental scientific nature this
 should be included in the category of machine time for educational
-and scientific research. 0n the other hand, it was felt that no
+and scientific research. On the other hand, it was felt that no
 contract at the Institute should be drawn which depended on the
 essential existence of a machine without further discussion.
 
-The next meeting will be January 10, at 9:30 A.m., in Room
-6nlO9. The above discussion will be continued, and, in addition,
+The next meeting will be January 10, at 9:30 A.i., in Room
+6-109. The above discussion will be continued, and, in addition,
 the program for the Computation Seminar for next term will be
 considered.
 
-W Q’VWJV‘J.
+Florian Ge hionty ,
 
 Herman Feshbach
 

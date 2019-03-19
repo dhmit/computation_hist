@@ -1,176 +1,205 @@
-,1“va cox-1N
+HARVEY COHN
+264 1on 0. An equivalent definition is that an arbitrary
+i on (. _ | ‘
+i hzg,-gfrni:z:ilonal space determined by the {8®}, will hay, 4
+@ the ¢-dI
 
-264 . . . . .
-dimension Q_ An equwalent deﬁnition is that an arbitrary
+the set :
+(in the sense of any ordinary scalar product) on at Jeyg
+in
 
-al space determined by the {gun}' will have a
-e of any ordinary scalar product) on at leﬂst
+vector in ;
+positive projection
 
-ors has _
-the Q-dimension
-(in the sens
+(k) e, "
+one 8" ‘or definitio
+ajor
+- come to the m :
+We now € o O = (a*y) 1s ca
 
-the set of vect
-vector in 60' .
-positive pTOJeChou .
-on. Assume the function it to have the free
+dimension Q. A la.ttl e
+n-tuples (m (@) exist suc
 
-' ﬁniti ‘
-We now come to the major (is S called stable w“ h ’35P“! to d) if Q + 1
+(5.2) |F(m,®, )] = M) >0
+J.
 
-. _ * i
-dimension Q. A lattice 3* — (a (j)
-n—tuplcs (1mm) exist such that
-
-=M(8*)>0 (k=1,2,...,Q+1)
-. F(m,"", 53*)l
-
-(a2) l
-
-and3) the dile are positively dependent at 8*.
-
-(5.
-
-t important property of the stable lattice. For the
-
-~ , mos .
-We ”at de\el0p the y the implicit function theorem select n2 = Q + l
-
-free dimension 0, we can, b
-
-variables bi. . . . ,ba, 61’ . . _ ‘ Ci
-
-hat the [Fool actuall . de
-. - - t to the at) and such t y pend
-funktﬁohanri’ thgublvireily, (i.e., alF‘hl/ac, s 0), for all non-zero "'tuples (mph),
-(loca ll); even ieal (see §4). Having found such variables, we describe the
-lIiifkkiglhzially' in terms of just the 17,, in the neighborhood of 17*“ 5*} (the Variables
-
-corresponding to ﬂu). We deﬁne a a
-* 2
-
-(5.4) |SZ — 9*I — (Z1 (1;, b 1))
-
-as the distance between lattices (corresponding to the local coordinate system).
-
-Then if a lattice 8* = (“*ul is stable with respect to the function ¢ of free
-
-dimension Q, then an 2 > 0 and an 1, > 0 exist together with Q + 1 n-tUples
-
-("it“) (h = 1. 2. . . . , Q + 1) such that
-
-(52) W5”. on] = M(8*)
 and
-(5.31) low“. 3)] < |F(ml‘*>, 8*)l — no — m
 
-for some index k depending on 8 providing only that [8 — WI < 2.
+(5.3) '
+We next develop the most 1
 
-Conversely, if a lattice has these properties for some 5, 1] and Q + 1 n-tuplcs
-as described, then the lattice is stable.
+free dimension Q, we can, by
 
-This is the type of property that Mahler [7] established for certain cases
-where his theory of “bounded reducibility" applies. The property is an easy
-consequence of the deﬁnition of stability given above. As a simple corollary
-we note that when 8* is stable, then for some positive 6, 17, and all '9 ’ gill < h
-we have MW) g M(8*) _ 77[53 _ Wl'
+n. Assume the function ¢ to have the free
+lled stable with respect to ¢ if 041
 
-Thus, in a sense, M(B*) is a local maximum by virtue of the Q + 1 SPCCiﬁC
-lattice pomts for which the value is assumed.
+(k=12,...,041
+the d|F )| are positively dependent at £*.
 
-6.. Positive span. NOW there are often inﬁnitely many vectors of a lgiriicc
-Satisfying conditmn (5‘2) for stability; Hence it would seem precarious to expect
-
- 
-
- 
-   
-    
-  
-  
-    
-   
-    
-    
- 
- 
- 
- 
-  
- 
- 
-  
- 
- 
- 
- 
- 
-  
-   
-
- 
-
- 
+mportant property of the stable lattice. For the
+the implicit function theorem select n* = (Q 4.,
 
 STABLE LATTICES
 265
+. over Q + 1 vectors satisfying the further condition (5.3
+to'dlsthe criterion of stability by referring it to the agyres
+h{yf ing the condition (5.2).
+Sat[l,set) the finite or infinite set of vectors {w} determine
+gjons, 11 which uni.t ba_SiS vectors and ‘any Orc.linal‘y sc.alar product are introduced
+Then the set (w} is said .to positively span tgls space if it has both the (Projectz‘on).
+roperty that every arbitrary vector of &€ has a positive projection on at least
+e vector of (w} and the (indep enden.ce) property that every Q vectors of (W)
+re linearly independent. (The.p.ropertxes are easily seen tg he affine-invariant )
+Now every set of Q + 1 positively dependent vectors will Positively span it.s
+space &% (See. §5.) Conversely, coery set of ve:’c{ors \W| that positively spans the
+space ©° conains Q + 1 vectors which are positively dependent. To see this, note
+(hat the set {W] determines a set of end-points of the various vectors, whose
 
-n (5.3). We shall sim-
-ggregate of
+). We shall sim-
+gregate of g vectors
 
-1 vectors satisfying the further conditio
-Plily the criterlon .0? 5mg? by referring it to the a
-atisfying the Condition. ( I _' f _
-5 Let the ﬁnite or inﬁnite set 0 vectors {W}. determine a space 6" of Q di
+A space &9 of Q dimen.
 
-. in which unit baSis vectors. and any ordinary SCalar Product are . men.
-Tithe set {W} is said to paszlwely span this space if it has both the 1(n troduced.
-Toe any that every arbitrary vector 0‘ @q has a DOSitive PTOjECtion grin-mil”)
-Priel‘vector of {w} and the (independence) property that every Q Vectors: east
-The linearly independent. (Theproperties are easily seen to be afﬁne-invariaiivtv;
+e ss i
 
-Now every set of Q + l pOSitively dependent vectors will positively span it
-space 50‘ (See. §5.) Conversely, every set of vector: [wl that positively tpans l};
-517“” 6” contains Q + 1 'vectms whtch are porztwely dependent. To see this, not
-that the set {Wi determines 1 set of end-pomts of the various vectors' Whose
-CWe); closure, a polytope in c , contains the origin by the projection pro.
-pmy. (The set [Wl may be ceiiSidered as a ﬁnite set by the compactness of the
-hypersphere in @0.) But the polytope ‘13 can then be reduced to asingle simplex
-ol0+ 1 vertices which contains the origin, if we merely triangulate ‘13, intro-
-ducing no new vertices and recalling that the triangulating hyperplanes will not
-contain the origin (by the independence property). These Q +1 vertices of
-course determine the positively dependent vectors.
+Pt
+PRIt
 
-The applications that follow (see §9) will stem from the following result;
-Let the (inﬁnite) set of vectors {V} of 5" contain vectors arbitrarily close in
-direction to 2Q vectors consisting of Q basis vectors and their negatives. We
-shall call this latter conﬁguration a unit star. (Compare the “eutactic star” of
-Coxeter [2, p. 401].) Suppose that a subsequence of iv} can be selected which
+Y
+- .
+-
+
+-
+
+5
+
+onvex closure, a polytope B in ©9, contains the origin by the projection pro-
+e ” perty. (The set {w} may be considered as a finite set by the compactness of the
+megiZQaliiedyie el 9k :
+
+s
+
+Q“
+
+220,
+
+PR Lt A
+(At e Lot ins
+
+variables
+
+integral or even real (see §4). Having found such variables, we describe the
+in
+
+F® Jocally in terms of just the by, in the neighborhood of b*;, ¢*; (the variables course determine the positively dependent vectors.
+‘ corresponding to @*1y)- We define The applications that follow (see §9) will stem from the following result:
+A R ;;.,&] 0¥ — <>—3 (b, — b* )2)i ‘ Let the (infinite) set of vectors {v} of ©? contain vectors arbitrarily close in
+i ’vJ':""..:\d e : (5.4) st = = i direction to 2Q vectors consisting of Q) basis vectors and their negatives. We
+AT shall call this latter configuration a unit star. (Compare the “eutactic star' of
+Coxeter [2, p. 401].) Suppose that a subsequence of {v} can be selected which
 comes increasingly close in direction to any designated one of the 2Q vectors
 of the unit star, without coinciding in direction. Let us further suppose that the
-last property still holds if we exclude from consideration all vectors of {vi
-that lie in an arbitrary set of ﬁxed hyperplanes (through the origin). Then
-lleiet IV) has a subse/ [lull pox/lively spam 6" and hence a further subset of Q + l
-positively dependent vectors.
+last property still holds if we exclude from consideration all vectors of {v}
 
-To see this, ﬁrst note that the projection property is easy to obtain from the
-unit star. To establish the independence property we select as our SUbSCt 0‘
-M the sequence of vectors chosen by the following inductive procedure:
-The vectors are to come increasingly close to the 2Q vectors of the “hit 513" in
-some order (without coinciding). Furthermore each vector is selected to be
-linearly independent of the set consisting of earlier chosen vectors (if any)
-”whiff with the 2Q vectors of the unit star. This process will at every step
-have Cones about the vectors of the unit star inside one of which the next vector
-0| the 5e(luence may be chosen,
+contain the origin (by the independence property). These Q + 1 vertices of
 
-all Vectors
+by, . - = hypersphere in ©9.) But the polytope P can then be reduced to a single simplex ih
 
-S
+functionally equivalent to the ayy and such that the |F®| actually depend of 0 + 1 vertices which contains the origin, if we merely triangulate B, intro g
+
+unc J 2 s = A . . J z y S )
+(locally) on the b; only, (1.e., 9| F®|/dc; = 0), for all non-zero n-tuples (m®) ducing no new vertices and recalling that the triangulating hyperplanes will not
+73
+
+B
+
+L
+
+o
+
+v
+i i
+,Qf h'"t‘t'-'-\'v-"'-’u't‘»"u““’“
+
+s
+
+b
+
+l'.'.'l'l'l'l"'l'O‘Q'Q'i’.‘NW;\
+4 "y
+
+as the distance between lattices (corresponding to the local coordinate system).
+Then if a lattice & = (a*y;) is stable with respect to the function ¢ of free
+dimension Q, then an ¢ > 0 and an 7 > 0 exist together with Q 4+ 1 #n-tuples
+m®) (k=1,2,...,0+1) such that
+
+i
+)
+"/l‘f\
+a2 7a7s
+s alals)
+.brlf
+
+S -
+’f't:‘
+£ e T e
+ST L i Lr:
+
+T
+s
+
+L4
+
+3
+3 2 S
 e
-e
+Lo
 
-7‘ Stability of the norm in a module. Probably the most investigated
+-
 
-. r-
-“m‘WnVex star body is that given by d>(x) = xi :6: - . - xi and the most imp;
+Sl et
 
-lam latllCES for it are those for which each row of the lllEltTlX in (ml) min y
+(5.2) |[F(m®, 8*)I = M(¥%) that lie in an arbitrary set of fixed hyperplanes (through the origin). Then 3
+and lhe set {V} has a subset that positively spans S and hence a further subset of Q + 1
+(5.31) |F (m®, Q)l < |F (m®, ‘3*)| = n[Q = 53*] positively dependent vectors.
+
+| To see this, first note that the projection property is easy to obtain from the
+| unit star. To establish the independence property we select as our subset of
+V] the sequence of vectors chosen by the following inductive procedure:
+
+for some index k depending on £ providing only that |2 — *| < e.
+Conversely, if a lattice has these properties for some ¢, 7 and Q + 1 n-tuples
+as described, then the lattice is stable.
+
+ 
+
+ 
+
+This is the type of property that Mahler [7] established for certain cases
+where his theory of “bounded reducibility’’ applies. The property is an easy
+consequence of the definition of stability given above. As a simple corollary
+we note that when £ is stable, then for some positive ¢, 5, and all |2 — @ < ¢
+we have M(®) < M(*) — 77[8 - g*l.
+
+T.hus, ifl a sense, M(£*) is a local maximum by virtue of the Q + 1 specific
+lattice points for which the value is assumed.
+
+6.- fP.OSItlve span. Now there are often infinitely many vectors of a lattic
+satistying condition (5.2) for stability. Hence it would seem precarious to expect
+
+The vectors are to come increasingly close to the 2Q vectors of the unit star in
+“me order (without coinciding). Furthermore each vector is selected to be
+inearly independent of the set consisting of earlier chosen vectors (if any)
+ogether with the 2Q vectors of the unit star. This process will at every step
+'ef‘"e cones about the vectors of the unit star inside one of which the next vector
+0l the S€quence may be chosen.
+
+I. Stability of the norm in a module. Probably the most investigated
+
+MOl ey _ ) le
+tam(.]on\ex star body is that given by ¢(x) = x1 %2 . .
+
+. x, and the most impor-
+
+s : : S i amely
+attices for it are those for which each row of the matrix in (2.1) namely

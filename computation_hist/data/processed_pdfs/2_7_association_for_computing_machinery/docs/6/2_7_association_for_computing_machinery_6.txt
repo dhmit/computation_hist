@@ -1,104 +1,120 @@
-mum boars-ant
-Manhunt“ Illustrate or “technology
+Generation of Spherical Bessel Functions in Digital Computers
 
-emu-mm. Manhunt“
+by
+Pernando J. Corbats’
+and
 
- 
+Jack L. Uretsiy™
 
--w—ﬁv—‘m-—’-'—-¢-~n‘-ﬂt—-ﬂ-owl-“-‘ﬁ
+Physics Department
+Massachusetts Institute of Technology
 
-'I’hia work was waisted in part: by the Ofﬁce of Raul Research
-under contract 115 or: .
+Cambridge, Massachusetts
 
-+Nw a: Computation Center, Meuahusebts Institute of Technology,
-Cam-1 , manhunt“
+We WE ae We We a WER we
 
-“Kw at Radiation laboratory, University of Calunmua, Berkeley,
-autumn
+This work was assisted in part by the Office of Naval Research
+under Contract NS ori 60,
 
+iow at Computation Center, Massachusetts Institute of Technology,
+Cambridge, Massachusetts
 
-A method of computation for annex-teal maul functions
-or real and mamas-y armament is elven which 18 especially
-suitable for digital aware. Tho ruched lawn“ m use at
-moan-en“ minnow with mainline ﬁlm or the function.
-The accuracy and converscme are mm“ and ant-non tombs
-are givtn. A pm hand an the Ranks": 13 mod to xii-punt
-the final nomination.
+Now at Radistion laboratory, University of California, Berkeley,
+California
 
 
-W
-
-ma one when»: to who a 95-on an a “an: W
-one :3“ch 11: mum tthmmmunau-uc
-any“ aim of some mum may“: mum. mu a. mum}:
--mmta¢otm. WWntommnMImumn
-at mansion values MN: 1:: mum]. “one; awn-ma the mum.
-“maven. :he aim or a» mum In I. mm. In and“.
-”WWI. momma-om, itamwntomm
-meson vom- mum-111.
-
-mmxwmmmmuumnotmmwu
-emblem with m '0th of $13! WW Bum. «nation. It
-matthtmmmoﬂmmtim 1t ispoultbleto
-romnte a nomad or mutton which n mxaumw «11 mm
-fwmhmm. Mmemubuﬂupmtmmofmumme
-rename mm In quit. ample 1n rm. than” Nine; may coded,
-and yet give high malarial mummy Wont; the range 9: am:
-
- 
-
-and Mt. mat in no“ applications. The use at new relations
-implies, or «same. that the mathod would be mat efficiently utilized
-
-tor any different cram at cub spoon“! “his of tho argument.
-mmmuoormlmntomowhmtmnmoe
-
-”muons m be used in a straightforward mar for generating
-
-11“: a digital emu“;- tm mime types of spherical Bessel Motions.
+A method of computation for spherieal Bessel functions
+of real and imaginary argument is given which is especlally
+suitable for digital computers. The method involves the use of
+recurrence relations with unnormalized values of the functlon.
+The accuracy and convergence are examined and eriterion formulas
+are given. A procedure based on the Wronskian is used to simplify
+the final normalization.
 
 
-In particular, the problem of netting the lemme "lotion is
-discussed from the viewpoint that a computer prosa- Iuet be able
+SABERATY
 
-to achieve a prescribed accuracy entirely from pro-established
-criteria.
+When one attempts to solve 2 problem on a digital computer
+one often finds Lit neceudary to furnish the machine with a great
+sary values of some well-known analytic funetion, There ave essentially
+two ways to do this. one technigue 1s to read the values from a table
+of function values kept in internal storage during the computation.
+Alternatively, the values of the function may be generated, as needed,
+by the computer. In either ease, it is desirable to compute all
+function values internally.
 
-values 01‘ ”(1)1! are one or the four types: 51;“)! 5(3), in“) or
-kn(x).
-
-Straightforward consideration Show that the upward use or
-the three:tm recursion relations is numerically accurate for nabs)
-and kn(x). Immwch as these functions for order 0 and -1 are
-essentially elementary trigonometric and exponential functions,
-starting the upward prooeao offers no problem. Conversely for 1:
-not large compared to N downward recursion 13 the only direction
-numerically accurate for the functions Jn(x) and in(x). However,
-instead of comting the function values for order 2! and Ne}, to start
-the downward recuroion, a special technique is used where the
+extensive use has been made of a function generator in
+connection with the solutions of the spherical Bessel equation. It
+tung out that in the case of these functions it is possible to
 
  
 
- 
-
-recursion process is started at a War order, I) , with the approxi-
-mation '5’) or 2,) equal to zero and 3") -1 or 13:1 equal to unity.
-Here the barred quantities are the unnomalized functions. The value
-of Q is chosen high enough so that the ratios of successive values
-
-of 3n or in are accurate for all 11 less than or equal to N.
+formulate a method of generation which 18 particularly well adapted
+for machine ute, The method ds based upon the use of recurrense
+ralations which are guite simple in form, thereby being easily coded,
+and yet give high numerical sceuracy throughout the range of order
 
  
 
-I‘
+and argument met in most applications, The use of recurrence relations
+implies, of course, that the method would be most efficiently utilized
+in those caleulations where one requires the value of the funetion
+for meny different orders at gach specified value of the arsunent.
+
+The purpose of this paper is to show how the recurrence
+relations may be used in a straightforward manner for generating
+in a digital computer the various types of spherical Bessel functiond.
 
 
-Criterion an be 31m m- m «mm on) u a function at a.
-N and the W «IN.
+In particular, the problem of Starting the recurrence relations is
+discussed from the viewpoint that a computer program must be able
+to achieve a prescribed accuracy entirely from pre-established
+criteria,
 
-311:» tbs tom at Jgtx) m 10“) an clan-aux: mum,
-the final mmemn of the m of mainland ink) or ink)
-ll “5117 MW. 8’00“]. WIS-SEEM!“ KM 6021.“ fro-
-the Ewan «an to and for mu:- oadtns annuity.
+It 1s assumed that the required spherical Bessel functions
+to be generated for a given positive value of x and the integral
+values of n=0(1)N are one of the four types: § (x), n(x), 1,.(x) or
+k (x).
+
+Straightforward conalderations show that the upward use of
+the three-term reeursion relations is numerically accurate for n, (x)
+and k (x), Inasmuch as these functions for order 0 and -1 are
+essentially elementary trigonometric and exponential functions »
+starting the upward process offers no problem, Conversely for x
+not large compared to N downward recursion is the only direction
+numerically accurate for the functions J,(x) and 1 n(x). However,
+instead of computing the funetion values for order N and Nel to start
+
+ 
+
+the downward recursion, a speelal technique 1s used where the
+recursion process is started at a higher order, )) » With the approxi.
+mation 3 or " equal to zero and 3); -1 Or 1) 1 equal to unity.
+Here the barred quantities are the unnormalized functions, The value
+of J is chosen high enough so that the ratios of successive values
+
+of : or 3. are accurate for all n less than or equal to HN,
+
+
+the final normalization of the set of unnormalized 3,(x) or 1 (x)
+simplicity.
+
+Criterion will be given for the cholee of,) as a function of x,
+Since the forms of Jo (x) and 1,(z) are elementary funetions,
+Special normalization forms derived from
+
+N and the accuracy desired,
+the VWronskian can be used for further
+
+is easily accomplished.
+
+vie AB 2; 4 "
+
+ 
+
+Fu : : ; Ly a ES } 0 Vi ef a
+: CA Sa Ter Hasty ie pi RA pa CR Rh vd 20 bE > kre Bl
+GE RT SE RE Se hi seats ics RI RT es Ng! Eh RT
+pay ENE matted ST Rl A LO IG Le { ni Vio or wl 3 ny wan. TN Ee i N gs aT a
 
 

@@ -1,0 +1,138 @@
+Reprinted from JourRNAL oF ApprLiEp Prysics, Vol. 22, No. 3, 282-285, March, 1951
+
+Copyright 1951 by the American Institute of Physics
+Printed in U. S. A.
+
+A Theory of the Envelope Type of Thermal Conductivity Tests
+
+ArTHUR L. LOEB
+Department of Metallurgy, Division of Ceramics,* Massachuselts Institute of Technology,
+Cambridge, Massachusells
+
+(Received July 12, 1950)
+
+The well-known problem of the end effects in a cylinder of finite length has been circumvented by the use
+of spheroidal rather than cylindrical apparatus. After a general theory of heat flow is given, applications
+demonstrate the mathematical difficulties caused by discontinuities in the curvature of the surface of the
+heat conductor. The suitability of the spheroidal shape is demonstrated, and corresponding heat flow equa-
+tions are derived demonstrating the effects of the variable distance between any two isotherms on the amount
+of heat crossing any unit area of an isotherm. It is proven that the amount of heat flowing through a slice of
+a spheroidal isotherm made perpendicular to the axis of the spheroid is proportional to the width of the
+slice, and independent of the position of the slice with respect to the spheroid. This theorem is applied to
+find the heat distribution necessary to keep the core of the apparatus at uniform temperature. Because all
+measurements are made at thermal equilibrium, a rough estimate is given for the time necessary to reach
+
+equilibrium.
+
+INTRODUCTION
+
+NE idealized experiment for the measurement of
+
+thermal conductivity of ceramic materials at a
+high temperature consists of surrounding an infinitely
+long, uniformly heated cylindrical core by a hollow
+cylinder of the ceramic, and using the cylindrical form
+of the heat flow equation in determining the conduc-
+tivity from the average temperature gradient across a
+certain distance in the ceramic.
+
+The greatest deviation from idealized conditions is
+due to the finite length of the cylinder; and the present
+paper aims to justify the choice of an envelope in which
+the location of the isotherms, as well as the heat distri-
+bution necessary to keep the core heated uniformly, can
+be controlled. Whereas initially it was thought that
+hemispherical guards at the ends of the cylinder could
+be designed in such a manner that all lateral flow in the
+cylinder could be stopped, the analysis given below
+demonstrates that no such guards could eliminate non-
+radial flow entirely, while most heat will flow out per
+unit area through the guards, so that special precautions
+would have to be taken to prevent their cooling. It was
+therefore decided to streamline the apparatus into a
+spheroid, for which heat flow equations are derived
+below.
+
+TABLE OF SYMBOLS
+
+A =area of isothermal surface.
+
+a=semifocal length of spheroidal coordinates.
+
+subs a, b, refer to ceramic and insulating layers, re-
+spectively.
+
+subs 1, 2, 3 refer to the surfaces separating core, ceramic
+layer, brick layer, and surroundings, respectively.
+
+h*=thermal diffusivity.
+
+k=thermal conductivity.
+
+n(z)=number of windings around core per unit axial
+length.
+
+dQ/dt=total amount of heat crossing isotherm per unit
+time.
+
+* With funds from the AEC, contract AT(30-1)-602.
+
+r=radial coordinate.
+
+{=time.
+
+u=1isothermal coordinate.
+
+v=coordinate of flow.
+
+W =heat crossing surface per unit area per unit time.
+
+s(u) =steady-state temperature function before heating
+core.
+
+T (u, t)=transient.
+
+z=axlal coordinate.
+
+6= temperature.
+
+0.=final temperature of core.
+
+£=const.: equation of spheroid.
+
+n=const.: equation of hyperboloid of revolution.
+
+e=angle about axis of symmetry.
+
+y=azimuthal angle.
+
+A =solution of Laplace’s equation.
+
+A. GENERAL THEORY
+
+In the envelope type of thermal conductivity tests a
+temperature gradient is maintained across the material
+to be measured by construction of a closed vessel with
+axial symmetry, the inside of which is heated uniformly,
+while the outside 1s kept at uniform room temperature.
+The core may be heated either by fitting a metal sus-
+ceptor inside and placing the whole vessel in an inductor
+coil, or by wrapping platinum wire about the core,
+heating it by means of the heat developed in the plati-
+num resistance.
+
+The material to be measured may be surrounded by
+an insulating layer of brick in order to allow higher
+mean temperatures in the ceramic layer. The conduc-
+tivity of the ceramic material is found by measuring
+the temperature gradient set up in it by a known quan-
+tity of heat flowing across it.
+
+The shape of the core is arbitrary, and is chosen to fit
+experimental convenience. The heat flow should be per-
+pendicular to surfaces with a discontinuity in conduc-
+tivity, so that the surfaces #=wu, and #=wu; in Fig. 1
+are determined by the thickness of the layers “@’” and
+“b” as well as the shape of the core. Therefore, we use
+
+282

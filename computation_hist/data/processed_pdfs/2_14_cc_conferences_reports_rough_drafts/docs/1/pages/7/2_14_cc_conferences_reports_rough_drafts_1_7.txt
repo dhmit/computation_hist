@@ -1,0 +1,44 @@
+6
+Application of Actual Computers
+
+It was decided that the solution of the same simple
+differential equation:
+
+¥+ y%=1 with y(0) =0 Sa
+
+on all four types of calculators: desk calculator, REAC, CPC,
+and Whirlwind would be appropriate, Since the solution of this equa-. ...
+tion: iy 108 |
+
+y = tach x -2-
+
+1s an analytic function which may be evaluated with great accuracy,
+1t served to provide a good basis for observing the advantages and
+limitations of various computers.
+
+Every student (either individually or in pairs) was allowed
+to solve this problem on each of the four computers in speclally-
+'arranged laboratory sessions. The entlre work: preparation of
+‘machine diagrams, programming, machine set-up, a:..d machine solutiou
+was effected by the student. Since the subject covered numerical
+ahalysis in a very preliminary fashion, the student was aiso pro-
+vided wilth certainlapproximation formulae which were required on
+the digital machines.
+
+Generally speaking, the laboratory sessilons were highly
+satisfactory as they provided the student with a firm understanding
+of the exact manner in which he had to instruct the computer to
+perform his task. He soon learned that the computer did not "think"--
+was not a brain -- but 2 tool which he could use quite effectively.
+
+General Level of the Subject
+
+This subject did not serve as a survey of all existing
+computers. Although a number of lectures were presented which il-
+lustrated most available commercial computers by means of lantern
+slides, no pretense was made of evaluating the computers. Certainly,
+no attempt was made to create a team of "professional programmers.”
+Rather, the men were taught the fundamental prindple of operation
+of the four computers. If anything, a deliberate effort was made
+to emphasize the common sin prevalent among professional programmers:
+"... spending hours rewriting programs which eliminate a single order,

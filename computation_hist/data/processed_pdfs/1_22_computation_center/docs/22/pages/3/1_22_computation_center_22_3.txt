@@ -1,0 +1,57 @@
+/ N ———
+
+Dr. Corbato
+
+August 5, 1957
+Page 3
+
+ 
+
+A discussion of the problems involved in putting Share subroutines
+on Fortran would be of interest, According to my understanding of the
+Fortran manual, this would not be difficult, yet the fact that this ap-
+parently is not done must have some basis,
+
+How does one go about estimating machine time? This is also involved
+in deeciding when to use tape, when to use cards, when to use on-line equip-
+ment, when to use off-line equipment, What are the limitations, if any,
+in printing or punching off-line from tape ( for example, I don't believe
+it is possible to print out from tape in a different order from that in
+which the tape was made),
+
+Cohen is interested in a program for latent structure analysis and
+many social scientists would be interested in such a program, I believe
+Cohen would agree with me that such a Program would probably involve having
+such people as Phil Green and Wilfred Gibson in sas consultants for brief
+periods of time,
+
+ 
+
+Another interesting program similar to latent struecture but Simpler
+in many aspects would be a program for developing a Guttman scale. Prac.
+tically all present methods rely at some point on the human judgement of
+the appearance of a pattern., It would be interesting to develop eriteria
+for the machine to use, or, at worst, to develop a brogram for using the
+CRT in identifying the pattern,
+
+I have doubtless written more now than is worth your time to read
+and I still haven't said anything about actual research designs, methods
+of data ¢ollection, ete., etc. Again let me say that this is not to be
+taken as criticism, You asked me to Jot down some of my ideas and T Just
+let myself go on how I visualized a project on the implications of digital
+computers for social science research, An extra copy of this letter is
+enclosed so that you can give it to Professor Morse,
+
+Sincerely yours,
+
+Daniel 0O, Price
+Director
+
+DOP:ec
+enclosure
+
+P.S, May I Suggest that, if possible, a typewriter of Some description
+(definitely not electrics be made available to the people on the second
+floor, TFor many people a typewriter greatly facilitates the recording
+of ideas, and this in turn stimulates more ideas, and besides, it is one
+of the amenities of research,

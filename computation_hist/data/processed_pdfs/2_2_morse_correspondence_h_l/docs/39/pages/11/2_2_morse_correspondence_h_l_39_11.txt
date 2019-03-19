@@ -1,0 +1,306 @@
+WA )
+i :-‘1 V"‘ p
+A
+W
+
+i
+R
+
+" Thermal Conductivity: V, High-Temperature Met.hod
+and Results for Alumina, Magnesia, and Beryllia
+
+from 1000° to 1800°C.
+
+by MALCOLM McQUARRIE
+
+   
+
+standard samples, and thermocouple location in each specimen
+lead to precise measurements. : _
+(2) The thermal conductivity of melting-point lead varies
+from 0.083 cal. sec.~! °C.~! em.~? cm. at 50°C. to 0.077 at
+225°C.
+(3) The thermal conductivity of Al.O; decreases from
+
+A method of measuring the thermal conductivity
+of refractory oxides at high temperatures is de-
+scribed. Heat is generated inductively in a
+metal susceptor inside a hollow specimen in the
+shape of a prolate spheroid, the temperature of
+which is measured at two points by means of an
+optical pyrometer. The conductivities of alu-
+mina, magnesia, and beryllia were measured be-
+tween 1000° and 1800°C.
+
+I. Introduction
+
+n envelope type of thermal conductivity apparatus
+
+A was chosen for testing refractory oxides at high tem-
+peratures for two reasons. First, any guard method is
+
+basically imperfect and usually it is impossible to determine
+the extent of the error introduced by mmperfect guarding.
+Second, the guard method requires a large amount of material,
+and because of the scarcity of some of the refractory oxides, it
+was desired to keep the test specimens as small as possible.
+Another reason for keeping the specimens as small as possible
+is the difficulty of forming large dense bodies from the pure
+refractorv oxides.
+A specimen in the shape of a prolate spheroid was chosen in
+preference to a sphere because it 1s desirable to read the tem-
+perature in the specimen at a point where the isothermal sur-
+faces are as flat as possible. This condition, together with
+that for a minimum amount of material, indicated that the
+prolate spheroid shape would be the best.
+The specimen assembly is shown in Fig. 1. Heat is gen-
+erated in the core and flows outward through the specimen
+and the msulating housing (necessary to attain a high average
+temperature in the specimen). The temperature is measured
+at two 1sothermals in the specimen. The thermal conduc-
+tivity (k) 1s calculated from the equation
+
+k = B — (
+P = amount of heat generated in core.
+AT = temperature difference between the two isotherms
+B = body factor.
+
+The body factor for a prolate spheroid (see footnote 1 be-
+low and Part II, this series, p. 73) is
+
+" A. L. Loeb, “Theory of Envelope Type of Thermal C ]
+tivity Tests,” J. Appl. Phys., 22, 282-85 (1951). S mduc:
+
+ca rami iety— McQuarrie
+84 Journal of The American Ceramic Sociely Q
+
+0.077 at 50°C. to 0.021 at 600°C.; for MgO, it decreases
+from 0.088 at 50°C. to 0.026 at 600°C.; for BeO, it decreases
+
+from 0.56 at 50°C. to 0.108 at ('i().0°C.
+
+(4) The values found are h}gl}er the.m most ot.her values
+reported in the literature. This 1S attnbu.ted mamly. to the
+neglecting of interfacial resistance by previous investigators,
+
+ 
+
+ 
+
+1 Vit —c vVttt _
+B = In ; P = (2)
+SxcSENVHYF ¢ +ic Vit cti—ic
+
+¢ = semifocal length of spheroidal system.
+
+r, = semiminor axis of outer isothermal surface.
+r» = semiminor axis of inner isothermal surface.
+(See Fig. 1.)
+
+II. Experimental
+
+In adapting the prolate spheroid envelope type of thermal
+conductivity tester to high-temperature work, two basic
+changes from the low-temperature method previously de-
+veloped in this laboratory (see Part 111, this series) are made.
+First, the heat is generated in the core by means of induction
+heating.* Thus the heating core is made of solid molyb-
+denum and because of the tendency for this material to oxi-
+dize at high temperatures, the entire assembly must be
+placed in a vacuum. Second, the temperature of the speci-
+men is read with an optical pyrometer. This requires that
+holes (tapered to provide a clear line of sight to the pyrometer)
+be placed in the specimen and that metal cones be placed at
+the bottom of these holes. These cones provide a black body
+whose true temperature will be read by the pyrometer.
+
+Since the body factor given by equation (2) above is for a
+solid specimen, the introduction of holes into the specimen
+changes the body factor, and a correction for this is experi-
+mentally determined by comparing the results obtained on
+
+: ‘..-”lf'g essentials of induction heating may be explained as fol-
+R &l I “',h‘glrl'f“'(luc‘“(‘y alternating current is passed through
+‘Ilftl”l 2 'tl“‘“ set up an alternating magnetic field within the coil.
+,d conductor (.callg‘(l the susceptor) is placed in this alternating
+En-‘lglitluc e it will have induced in it electric currents known
+tl\ _(l-‘](.)"’lcurr(-nt_s, Fhese eddy currents circulating in the ma-
+ffild ~mfl cause 1t to be heated by I?R losses. The lagging power
+d,u,olll ‘]O }he coil and susceptor is balanced by a condenser in
+%(lmft ;‘ ",h It so that the total load is at unity power factor.
+h ,).rt°un I}H details on the principles and practice of induction
+L;’l( l)ng.(‘l 1lc{rcadcr 1S r(;‘ferrc(l to the following references:
+'m}ll‘\ ; G Brown, C. N. Noyler, and R. A. Bierwirth, Theory
+L‘ Application 9f Ri“llo-f‘r(‘quoncy Heating. D. Van Nostrand
+0. Inc, New York, 1947. 370 pp ‘
+) 1 J \ oLk T - . ) )
+Gr: \)' l;'il“. (_ur‘tls, High-Frequency Induction Heating. Mc-
+’(‘l . I; Book Co., Inc., New York, 1944. 235 pp
+c ; ot b e T AL e . A
+quh:cv I'I(I)jt'- Osborln,l JT' Principles and Theory of High-Fre-
+- y Aeating and Induction Heating srican Society for
+.\Ictlulv., Cleveland, 1946. g. American Societ)
+G ', ” P y v . :
+tio(n )”(:l’l.ti'll‘l.g\éu'g]fll.?l Lm(d J. W. Williamson, ‘Design of Induc-
+- - 25 ()l \ ()r 3 'lill(‘ri .; Y . ” S . Q 7 ' [5/(,(.
+Eng., 64, 587 (1945), y cal Nonmagnetic Loads,
+(e) N. R. Stansel, Induction
+
+: T Graw-Hill Book
+Co., Inc., New York, 1049, 919 McGraw-Hill
+
+Heating.
+pp.
+
+Vol. 37, No. 2
+
+February 1954 (Part 1I)
+
+N
+
+-
+
+HEATING CORE
+
+ 
+
+Fig. 1. Cross section of specimen assembly showing susceptor, specimen,
+and insulating housing.
+
+specimens with sighting holes with the results obtained on
+specimens in which very fine thermal couples (which were
+known to have no effect on the body factor) were used to
+measure the temperature.
+
+(1) Procedure
+
+(A) Materials: Alumina, magnesia, and beryllia speci-
+mens were investigated at the high temperatures. Chemical
+analyses of these materials are given in Table I. Materials
+such as zirconia, which becomes electrically conducting at
+elevated temperatures, are not suitable for this method be-
+cause of the possibility that some of the heat will be generated
+within the specimen and not entirely in the heating core, thus
+upsetting the theoretical basis of the method.
+
+(B) Sample Fabrication: The specimens were made by slip
+casting the ground powders of the oxide materials according
+to the usual methods.? Figure 2 is a picture of a mold used to
+make the specimens and shows the metal insert for forming
+the pyrometer sighting holes.
+
+The specimens were fired to zero apparent porosity at
+1850°C. and had a final total porosity of between 5 and 10%.
+
+(C) Assembly: After the specimens are fired, two halves
+(one with pyrometer sighting holes and the other without)
+are taken and the flat surfaces ground to a good fit. Metal
+cones are inserted at the bottom of the sighting holes and
+radiographs of the specimen are taken. In addition to pro-
+viding information for the calculation of the body factor,
+these radiographs reveal any internal flaws in the specimen
+which would make it unsuitable for testing.
+
+From measurements on the specimen and the radiographs,
+the body factor is calculated. X
+
+The metal susceptor is placed in the specimen (made up. of
+the two halves) and the specimen is placed in the insulating
+housing. The entire assembly is then placed in the vacuum
+chamber. :
+
+(D) Power Measurement: The inductive power is supplied
+by a 10,000-cycle 7.5-kilowatt generator. The loa.d is~ bal-
+anced to unity power factor (indicated by the I,iss’u\](m figure
+on an oscilloscope) by the balancing condenser. Che power
+input to the system is calculated from a knowledge of the cur-
+rent input and the voltage across the inductor coil. Itcan b‘c
+shown* that (to within 19;) the power in the susceptor 1S
+given by
+
+])zn Q'
+
+) 9)
+
+1) == (1):“ b -[)u\lt) 1) = ( -
+out
+
+Pin = total power input to system with susceptor 11‘1 l')lft“(.or !
+
+P, = total power input (at same voltage) with suscep
+
+moved.
+
+=F o : . . s tire ann: ;‘us,and
+Figure 3 is a schematic diagram ol the entire apparat
+
+' . ° ° . Yoy (™ lr-
+Fig. 4 is a detail drawing showing the end of the vacuum ft
+
+T'hermal Conductivity, V 89
+
+ 
+
+Fig. 2. Mold for making specimens, showing metal insert for
+forming pyrometer sighting holes.
+
+ 
+
+Table . Chemical Analyses (%) of Specimens
+Components Alumina* Magnesiat Beryllial
+Fe.O, 0.31 0.05 0.01
+S10, .24 .30 00
+
+Ti0, .01 .00
+
+Al,O; Remainder .14 .08
+CaO .39
+
+CrgO,: OO
+
+MgO Remainder .18
+BeO Remainder
+
+ 
+
+* Analysis of raw material; Norton Company Alundum abra-
+sive grain 38 X 220F.
+
+T Analysis of raw material.
+
+i Analysis of fired material; raw material, Clifton Products
+Company refractory-grade (220-mesh) beryllium oxide.
+
+nace and the sighting arrangement. Figure 5 is an over-all
+view of the apparatus and Fig. 6 shows a close-up of the -
+ductor coil and sighting window in the end of the furnace.
+
+Ill. Results
+
+Figures 7, 8, and 9 give the thermal conductivity results for
+alumina, magnesia, and beryllia, respectively, as obtained n
+the temperature range 1000° to 1800°C. The different sym-
+bols in each figure indicate experimental values obtained on
+different specimens. As can be seen, there is no marked dif-
+ference between specimens of the same material. The solid
+points of Fig. 7 are for the first specimen of alumina to be run,
+and indicate the enormous spread of values obtained before
+the careful experimental technique necessary was perfected.
+
+As far as the results of this investigation in themselves
+warrant, a straight line through the experimental points 1S
+probably all that is justified. However, the results at t.hc
+lower temperature (1000° to 1300°C.) must be matched with
+the results of the electrical resistance determinations, which
+show a decrease with temperature in this range (see Part III,
+this series), and since a continued decrease 1s inconsistent with
+the present results, it is necessary to draw the curves with a
+minimum of conductivity as shown.
+
+2(a¢) F.H. Norton, “Pure Beryllium Oxide as a Refractory,”
+J. Am. Ceram. Soc., 30 [8] 242-45 (1947). : L
+
+(b) W. E. Hauth, Jr., “Slip Casting of Aluminum Oxide,
+ibid., 32 [12] 394-98 (1949). _
+
+* See Appendix to this paper, p. 87.

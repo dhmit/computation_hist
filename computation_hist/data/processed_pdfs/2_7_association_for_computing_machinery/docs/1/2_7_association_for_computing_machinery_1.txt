@@ -1,7 +1,4 @@
-0
-0
-P
-Y
+= "© OO
 
  
 
@@ -9,25 +6,25 @@ COMPUTATION CENTER
 
 MASSACHUSETTS INSTITUTE OF TECHNOLOGY
 
-CAMBRIDGE 39. MASSACHUSETTS
+CAMBRIDGE 539, MASSACHUSETTS
 
-M3? #, 1959
+May 4, 1959
 
-Mr. Joseph Wesstoin
-
-ACM Program Ccmmittee
+Mr. Joseph Wegstein
+ACM Program Committee
 National Bureau of Standards
-Suashington 25, D.c.
+
+Washington 25, D.C.
 
 Dear Joe:
 
 I would like to present a paper at the
 Fourteenth Annual Meeting meeting September 1 - 3,
-1959. The title is, "On the Coding of Jacobi's
-Method for Computing Eigenvalues and Eigenvectara
+1959. The title is, "On the Coding of Jacobl's
+Method for Computing Eigenvalues and Eigenvectors
 of Real, Symmetric Matrices."
 
-I enclose the requested four copies of the
+I enclose the requested four coples of the
 abstract and of the summary of the paper.
 
 Cordially,

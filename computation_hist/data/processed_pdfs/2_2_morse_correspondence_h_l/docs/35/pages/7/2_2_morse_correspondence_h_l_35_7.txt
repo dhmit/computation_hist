@@ -1,0 +1,299 @@
+102 i
+
+7. Lallice Paramelers
+
+If the distortion to tetragonal symmetry in MnzOjs is
+due to the formation of square, covalent bonds about
+Mn?t ions in the octahedral interstices, then the a-axis
+is a measure of the covalent-bond length and the ¢-axis
+is a measure of the ionic-bond length. If the cubic
+symmetry above the transition temperature is due to a
+resonance of the coplanar bonds among the three biaxial
+planes of the octahedral interstices, then the lattice
+parameter above the transition temperature is the
+measure of a bond length which is % covalent and 3
+ionic. At room temperature c=9.42 A and a=38.14 A,
+so that the equivalent cubic lattice parameter 1is
+ao=2a+1c=8.56 A. The coefficient of thermal ex-
+pansion is estimated as
+
+Aao/acAT =105 per degree.
+
+Since @,=8.56 A, this gives Aaqo=0.09 A for AT
+=1100°C. At the transition temperature, 1170°C, the
+lattice becomes cubic with a measured lattice parameter
+a'=8.64 A. The lattice parameter which is calculated
+from the assumptions of square-bond formation in
+Mn2t(Mn, )0y is ag+Aay=8.65 A. The agreement is
+satisfactory.
+
+C. The Indates and Metallic Indium
+
+Passerini® has measured the lattice parameters of
+Caln,O4 and CdInyO4. Each of these crystals was found
+to be tetragonal; their respective axial ratios are 1.12
+and 1.14. The cation distribution in these indates has
+not yet been determined. MgIn;Oy4, on the other hand,
+was found by Barth and Posnjak* to be cubic and in-
+verse.
+
+It is known that Cd!! tends to occupy tetrahedral
+interstices where (sp®)-covalent-bond formation is pos-
+sible. It may therefore be assumed that CdIn,O4 is
+normal. Ca?t, like Mg*t, forms ionic bonds so that it
+might be expected to occupy octahedral sites as do the
+Mg** ions in MgIn,Os.
+
+If the lattice distortions to tetragonal symmetry are
+due to cation ordering in the octahedral sites, then
+MgIn,O4, which is inverse and has the larger difference
+in ionic radii (ionic radii of Mg**, In*t, Cd**, Ca*t are
+0.78 A, 0.92 A, 1.03 A, 0.99 A, respectively), should give
+a larger distortion than CdIns,O4 and Caln;O4. On the
+contrary MglIn,Oy is cubic, and CdIn;O4 and CalnyOy
+are tetragonal.
+
+On the other hand, since the axial ratio of CdIn.Oy is
+identical with that of ZnMn,O4, which probably has
+(sp*) covalent bonding in the tetrahedral sites and
+(dsp®) covalent bonding in the octahedral sites, it is
+pertinent to inquire whether CdInyO4 can form the same
+type of bonds. Although gaseous In** has a full 3d shell
+so that square-bond formation appears improbable, a
+study of metallic indium suggests the opposite.
+
+8 [,. Passerini, Gazz. chim. ital. 60, 754 (1930).
+#T. F. W. Barth and E. Posnjak, Z. Krist. 82, 325 (1932).
+
+B. GOODENOUGH AND A. L. LOEB
+
+Metallic indium is face-centered tetragonal with an
+axial ratio ¢/a=1.076.3 Since the lattice is distorted
+from cubic symmetry, it is not possible to explain the
+distortion by the interaction of the conduction electrons
+with the lattice, i.e., by the interaction of the Fermi
+surface with the Brillouin-zone energy-discontinuity
+surfaces.?® In y-Mn, which is also face-centered tetrag-
+onal but with ¢/a=0.937,%" it is possible to explain the
+distortion as due to magnetic-exchange interactions,®
+but such interactions are not present in indium. Also,
+the indium distortion is in an opposite sense from that
+in y-Mn.
+
+In the usual discussion of energy bands in metals the
+d, s, and p bands are considered separately. However, if
+the d, s, and p bands overlap, a hybrid band would be
+more stable. In metallic indium there is doubtless an
+overlap of d, s, and p bands. It is suggested, therefore,
+that there is a hybrid, covalent, (dsp?) band in indium.
+This band is full with one electron per indium atom left
+over for metallic bonding (see Fig. 3). If there is a
+(dsp?®) band, it will be reflected in square covalent bonds
+about each indium atom. The four nearest neighbors of
+each indium atom are indeed located at the corners of a
+coplanar square. It is suggested, therefore, that just as
+in the case of tetragonal spinels, the distortion to tetrag-
+onal symmetry in metallic indium is due to the forma-
+tion of square covalent bonds. Further evidence for this
+suggestion is given in Appendix IIT.
+
+The study of metallic indium indicates that when
+indium is in a lattice, the 3d electrons can be active in
+bond formation. It is probably just as correct, therefore,
+to consider the outer-electron configuration of In*t to be
+d’ as to consider it d'°. When the steric constraints
+favor (dsp?)-bond formation, the configuration d%
+makes one d wave function available for hybridization
+which can enter into coordinate covalence with four
+coplanar oxygens as illustrated in Fig. 4. If In'!'! does
+indeed form square bonds, then the square-bond model
+is applicable to the indates. In'!! in an octahedral site
+tends to cause tetragonal distortion through covalent
+square-bond formation. Normal indates have, therefore,
+tetragonal symmetry due to covalent square-bond for-
+mation in the octahedral sites. On the other hand, In'!!
+in a tetrahedral site tends to prevent tetragonal distor-
+tion because its strong (sp*) bonds weaken the covalent
+bonds 1n octahedral sites. T'his was shown in Sec. I11B,
+w.here it was stated that the oxygen p orbitals are
+directed toward that near-neighbor cation which forms
+
+4d 5s Sp
+~*ﬂ*..‘...............;.=.*
+s e < 2 — Do e ‘-‘-.
+e000vssncccvoe t...........
+(dsp®)
+
+Fic. 3. Metallic indium with a full covalent (dsp?) band.
+
+% W. Betteridge, Proc. Phys. Soc. (London) A50, 519 (1938).
+% J. B. Goodenough, Phys. Rev. 89, 282 (1953). |
+
+" A. Westgren and G. Phragmen, Z. Pl._ ix 33, 777 (1925).
+% C. Zener, Phys. Rev. 81, 440 (1951) ’
+
+—
+
+-
+
+ 
+
+ 
+
+THEORY OF IONIC ORDERING 403
+
+—.—’—.—.3.—.-:...._..."'°‘0000nooou
+
+—‘-q--
+< A S < f — <= - - <
+.O...0.0COGO\..O OOO‘OOODO’OOJ:‘-
+
+(dsp®)
+
+F1G. 4. Electron-spin configuration for In!! forming
+four coplanar covalent bonds.
+
+the strongest covalent bond with oxygen. In inverse
+indates, tetragonal distortion is possible only if enough
+octahedral cations form sufficiently strong covalent
+square bonds.
+
+Since In(MgIn)O, is cubic, there appears to be in-
+sufficient covalent bonding in octahedral sites for tetrag-
+onal distortion. There has to be a certain minimum
+number of covalently bound ions in octahedral sites for
+tetragonal distortion. This number depends on the
+strength of these covalent bonds. In CuFe;O4 the mini-
+mum number was shown [ Eq. (IV.4) ] to be 26 percent
+of the octahedral cations. Since in In(MgIn)O4 the
+octahedral covalent bonds are weaker than in Cule,0y,
+the minimum fraction of covalently bound ions in
+octahedral sites should here be greater than 26 percent.
+In In(MgIn)Os each oxygen is surrounded by one
+tetrahedral indium and three randomly distributed
+octahedral indium and magnesium ions. Magnesium is
+bound electrovalently. One oxygen can be bound co-
+valently to one tetrahedral and two octahedral indium
+ions through the admixture of oxygen (sp’) orbitals
+(Sec. IIIB, and Appendix I). Since only 50 percent of
+the oxygen ions have two octahedral indium near-
+neighbors, only 50 percent of the octahedral indium ions
+form significantly strong square bonds. This means that
+only 25 percent of the octahedral cations can form
+square bonds; as shown above this is insufficient to
+cause tetragonal distortion.
+
+It is concluded that all normal indates are tetragonal,
+and that the inverse indates are cubic if the bivalent
+cation is electrovalent. If the bivalent cation can form
+covalent square bonds, the indate should be tetragonal
+
+TaBLE I1I. A comparison of some physical properties of spi
+
+oa/ay and (e,—ep) are the ratio of conductivity and the d
+
+Spinel
+
+Composition distortion Axial ratio
+
+g : bi a:b:c=
+
+Sotle DrthioRiaribe 5.912:5.945:8.388"
+Mn;0;4 Tetragonal c/ a=1. 1()? 2
+CuFeO,4 Tetragonal c/a= lig '
+CuCry04 Tetragonal c/a= 1.16i
+v-Mn203 Tetragonal c/,a = { L
+ZnMn.,0, Tetragonal c/a = 1'14,-
+CdIn,Oyq Tetragonal c//a-_-_ L
+Caln.0y4 Tetragonal c/a=1.
+
+e ————————— e ——
+
+ 
+
+. S_ (.‘. 1\])[‘;]“{1“].\' an(l 11. :\. C:ll!\(“!"‘ll ‘\Ctd Cr)"_\t- 6. 105 (l()s\”.
+b B. A. Calhoun, Phys. Rev. 94, 1577 (‘19‘54)'1 Natl. Bt
+e McMurdie, Suilivan, and Mauer, J. Reseazchi et
+
+4 B. Mason, Am. Mineralogist 32, 426 (1947).
+
+___,_,_4——_,——_7—"“—_'—__’_——
+
+even when inverse. Therefore it is predicted that if
+Culn,O4 or PdIn,O4 form spinels, they will be found to
+be tetragonal, whether normal or inverse.
+
+If the square-bond model is accepted for indates, the
+axial ratio of CdIn.O4 must equal that of ZnMn,Oy, as
+has been observed. In each case the spinel is normal,
+and covalent bonds are formed in both tetrahedral and
+octahedral sites, so that the axial ratio ¢/a=1.14 is
+less than that of Mn3O4 (as explained in Appendix I).
+
+Finally, the axial ratio of Caln,Os, c¢/a=1.12, is
+greater than the extrapolated value for completely
+inverse CuFe;04, ¢/a=1.08. Therefore this spinel can-
+not be inverse. This conclusion finds further support in
+the fact that if it were inverse, it would not be distorted
+because Ca*t forms electrovalent bonds. The axial ratio
+¢/a<1.16 is due to incomplete covalent bonding in the
+octahedral sites. If this indate were completely normal,
+this weakening could not be due to covalent bonding
+in tetrahedral sites. It is concluded, therefore, that
+Caln,O4 is partially inverse; the concentration of
+covalently bound cations in octahedral sites is then less
+than that in the spinels with axial ratios 1.16 and 1.14,
+and the presence of In in both octahedral and tetra-
+hedral sites causes a further reduction in axial ratio.
+
+It is significant that gallates are cubic and that
+metallic gallium does not have the close-packed, tetrag-
+onally distorted structure. Apparently gallium, like
+mercury, tends to form pairs of atoms, presumably
+through (1/3)s+ (1/V3)p.+ (v/5/3)d: hybrid orbitals.
+
+H. Summary
+
+In Table III there is a summary of the properties of
+those spinels which become orthorhombic or tetragonal.
+The orthorhombic-Fe;O4 transition is seen to be quite
+separate in character from the tetragonal transitions.
+The orthorhombic distortion has been definitely es-
+tablished as due to ordering of the octahedral Fe** and
+Fed+ cations. The distortions due to ionic ordering are
+believed to be orthorhombic rather than tetragonal.
+
+nels which distort from cubic symmetry below a transition temperature 7.
+
+ifference in electron activation energy above and below 7.
+
+—_————————
+
+ 
+
+€a—€d Thermal
+T ga/ob in ev hvsteresis
+—153%C® oQv —0.05% None?
+1170°Ce Se —0.55¢ ~45°Ce
+760°Cs . cos o«
+1025°Ce 2¢ —(0).4¢ ~40°Ce
+
+ 
+
+ 
+
+ 
+
+Ir. Standards 45, 35 (1950).
+
+. 2 ¢ . o -~ 0 ~trvelv
+¢ F. C. Romeijn, Philips Research Repts. 8, 304 (1953). a Cu?* cation. Measured values are ¢/a =1.06 and 1.035 at 20°C and 700°C, respectively.
+
+f Extrapolated value for every octahedral s(ilcl )Occuplﬂi By
+
+¢ K. F. Bertaut, J. phys. radium 12, 252 2\13566 22 (1952).
+
+b McGuire, Howard, and Smart, Ceram. ABC D% ‘him. 55, 531 (1936).
+i . J. W. Verwey and J. H. de Boer, Rcc(.);(l)d\- Cillll. W
+
+i L. Passerini, Gazz. chim. ital. 60, 754 (1930).
