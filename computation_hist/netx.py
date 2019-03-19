@@ -16,9 +16,10 @@ def make_graph(max_nodes=None, debug=False):
     as nodes and correspondence as the edges. Declaring max_nodes as an int n will return a Graph
     object with only the n-th largest nodes.
 
-    >>> g = make_graph(debug=True)
-    >>> len(g.nodes())
-    11
+    >>> g = make_graph(debug=True, max_nodes=50)
+    >>> list(g.nodes)[2:5]
+    ['Corbato, F. J.', 'None', 'unknown']
+
 
 
     :param max_nodes: int or None
@@ -214,5 +215,5 @@ def fancy_network(g):
 
 
 if __name__ == '__main__':
-    graph = make_graph(debug=True, max_nodes=40)
-    fancy_network(graph)
+    graph = make_graph(debug=True, max_nodes=50)
+    print(list(graph.nodes)[2:5])
