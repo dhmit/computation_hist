@@ -1,10 +1,24 @@
 const computer = new IBM_704(computer_size);
 var highlighting = true;
 
+/**
+ * Class that represents a line of assembly code, but with added metadata for the GUI.
+ */
 class Assembly_Line {
 
+    /**
+     * Constructor for class.  See assembly_addition.js for example.
+     *
+     * @param {number}             memory_location          Where this line exists in memory.
+     * @param {string/Instruction} instruction              Instruction that this line actually is.
+     * @param {string}             description              Short description of line to be displayed at top of page.
+     * @param {list}               highlighted_registers    Registers to be highlighted when this instruction is
+     * next, not including itself and the target address.
+     */
     constructor(memory_location, instruction, description, highlighted_registers) {
-        this.memory_location = memory_location;
+        if (typeof memory_location !== "undefined") {
+            this.memory_location = memory_location;
+        }
         this.description = description;
 
         if (typeof instruction === "string") {
@@ -76,6 +90,15 @@ class Assembly_Line {
         }
     }
 
+    /**
+     * Creates an instruction with the specified parameters.
+     *
+     * @param operation
+     * @param address
+     * @param tag
+     * @param decrement
+     * @returns {Instruction}
+     */
     static assemble_line(operation, address=0, tag=0, decrement=0) {
         if (operation in operation_b_to_no) {
             return new Instruction_B(eval(operation), address, tag);
@@ -86,6 +109,10 @@ class Assembly_Line {
         }
     }
 
+    /**
+     * String representation that looks like this: 0: CLA 4
+     * @returns {string}
+     */
     toString() {
         return String(this.memory_location) + ": " + this.instruction.toString();
     }
