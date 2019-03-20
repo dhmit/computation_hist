@@ -1,6 +1,107 @@
 const computer = new IBM_704(computer_size);
 var highlighting = true;
 
+class Assembly_Line {
+
+    constructor(memory_location, instruction, description, highlighted_registers) {
+        this.memory_location = memory_location;
+        this.description = description;
+
+        if (typeof instruction === "string") {
+            let parsed_command = regex_line_parser.exec(instruction);
+            let operation = parsed_command[1];
+            let rest_of_line = parsed_command[2];
+            let numbers = rest_of_line.split(",");
+            if (numbers[2] !== undefined) {
+                let decrement = Number(numbers[2]);
+                let tag = Number(numbers[1]);
+                let address = Number(numbers[0]);
+                this.instruction = Assembly_Line.assemble_line(operation, address, tag, decrement);
+            } else if (numbers[1] !== undefined) {
+                let tag = Number(numbers[1]);
+                let address = Number(numbers[0]);
+                this.instruction = Assembly_Line.assemble_line(operation, address, tag);
+            } else if (numbers[0] !== "") {
+                let address = Number(numbers[0]);
+                this.instruction = Assembly_Line.assemble_line(operation, address);
+            } else {
+                this.instruction = Assembly_Line.assemble_line(operation);
+            }
+        } else {
+            this.instruction = instruction;
+        }
+
+        this.highlighted_general_registers = [];
+        this.highlight_ac = false;
+        this.highlight_mq = false;
+        this.highlight_ilc = false;
+        this.highlight_ir = false;
+        this.highlight_sr = false;
+        this.highlight_index_a = false;
+        this.highlight_index_b = false;
+        this.highlight_index_c = false;
+
+        for (let i in highlighted_registers) {
+            if (typeof highlighted_registers[i] === "number") {
+                this.highlighted_general_registers.push(highlighted_registers[i]);
+                continue;
+            }
+
+            switch(highlighted_registers[i].toLowerCase()) {
+                case "ac":
+                    this.highlight_ac = true;
+                    break;
+                case "mq":
+                    this.highlight_mq = true;
+                    break;
+                case "ilc":
+                    this.highlight_ilc = true;
+                    break;
+                case "ir":
+                    this.highlight_ir = true;
+                    break;
+                case "sr":
+                    this.highlight_sr = true;
+                    break;
+                case "a":
+                    this.highlight_index_a = true;
+                    break;
+                case "b":
+                    this.highlight_index_b = true;
+                    break;
+                case "c":
+                    this.highlight_index_c = true;
+                    break;
+            }
+        }
+    }
+
+    static assemble_line(operation, address=0, tag=0, decrement=0) {
+        if (operation in operation_b_to_no) {
+            return new Instruction_B(eval(operation), address, tag);
+        } else if (operation in operation_a_to_no) {
+            return new Instruction_A(eval(operation), address, tag, decrement);
+        } else {
+            throw "Something is wrong with your demo code";
+        }
+    }
+
+    toString() {
+        return String(this.memory_location) + ": " + this.instruction.toString();
+    }
+
+    get address() {
+        return this.instruction.address;
+    }
+
+    get tag() {
+        return this.instruction.tag;
+    }
+
+    get decrement() {
+        return this.instruction.decrement;
+    }
+}
 
 /**
  * Assembles code into program which is placed in computer.
