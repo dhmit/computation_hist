@@ -4,7 +4,7 @@ const highlighted_registers = [6];
 const program = [
     new Assembly_Line(
         0, "CLA 4", "<b>CLA 4: </b> Clears the accumulator and stores the value at address 4 (which" +
-        " you'll see if you mouseover is 12) into the accumulator.", ["ac"],
+        " you'll see if you mouseover is 12) into the accumulator.", DISPLAY_TYPE.INSTRUCTION, ["ac"],
         )
 ];
 

@@ -1380,6 +1380,13 @@ function TIX(computer, address, tag, decrement) {
     }
 }
 
+const DISPLAY_TYPE = {
+  INSTRUCTION: "Instruction",
+  FIXED_POINT: "Fixed point",
+  FLOATING_POINT: "Floating point",
+  BINARY: undefined,
+};
+
 /**
  * Class that represents a line of assembly code, but with added metadata for the GUI.
  */
@@ -1389,40 +1396,18 @@ class Assembly_Line {
      * Constructor for class.  See assembly_addition.js for example.
      *
      * @param {number}             memory_location          Where this line exists in memory.
-     * @param {string/Instruction} instruction              Instruction that this line actually is.
+     * @param {string}             instruction              The text in the line.
      * @param {string}             description              Short description of line to be displayed at top of page.
-     * @param {array}               highlighted_registers    Registers to be highlighted when this instruction is
+     * @param {string}             display_type             Display type.  Should be a property of DISPLAY_TYPE.
+     * @param {array}              highlighted_registers    Registers to be highlighted when this instruction is
      * next, not including itself and the target address.
      */
-    constructor(memory_location, instruction, description, highlighted_registers) {
-        if (typeof memory_location !== "undefined") {
-            this.memory_location = memory_location;
-        }
-        this.description = description;
+    constructor(memory_location, instruction, description, display_type, highlighted_registers) {
 
-        if (typeof instruction === "string") {
-            let parsed_command = regex_line_parser.exec(instruction);
-            let operation = parsed_command[1];
-            let rest_of_line = parsed_command[2];
-            let numbers = rest_of_line.split(",");
-            if (numbers[2] !== undefined) {
-                let decrement = Number(numbers[2]);
-                let tag = Number(numbers[1]);
-                let address = Number(numbers[0]);
-                this.instruction = Assembly_Line.assemble_line(operation, address, tag, decrement);
-            } else if (numbers[1] !== undefined) {
-                let tag = Number(numbers[1]);
-                let address = Number(numbers[0]);
-                this.instruction = Assembly_Line.assemble_line(operation, address, tag);
-            } else if (numbers[0] !== "") {
-                let address = Number(numbers[0]);
-                this.instruction = Assembly_Line.assemble_line(operation, address);
-            } else {
-                this.instruction = Assembly_Line.assemble_line(operation);
-            }
-        } else {
-            this.instruction = instruction;
-        }
+        this.memory_location = memory_location;
+        this.description = description;
+        this.instruction = instruction;
+        this.display_type = display_type;
 
         this.highlighted_general_registers = [];
         this.highlight_ac = false;
@@ -1433,6 +1418,10 @@ class Assembly_Line {
         this.highlight_index_a = false;
         this.highlight_index_b = false;
         this.highlight_index_c = false;
+
+        if (highlighted_registers === undefined) {
+            return;
+        }
 
         for (let i in highlighted_registers) {
             if (typeof highlighted_registers[i] === "number") {
@@ -1470,30 +1459,11 @@ class Assembly_Line {
     }
 
     /**
-     * Creates an instruction with the specified parameters.
-     *
-     * @param operation
-     * @param address
-     * @param tag
-     * @param decrement
-     * @returns {Instruction}
-     */
-    static assemble_line(operation, address=0, tag=0, decrement=0) {
-        if (operation in operation_b_to_no) {
-            return new Instruction_B(eval(operation), address, tag);
-        } else if (operation in operation_a_to_no) {
-            return new Instruction_A(eval(operation), address, tag, decrement);
-        } else {
-            throw "Something is wrong with your demo code";
-        }
-    }
-
-    /**
      * String representation that looks like this: 0: CLA 4
      * @returns {string}
      */
     toString() {
-        return String(this.memory_location) + ": " + this.instruction.toString();
+        return String(this.memory_location) + ": " + this.instruction;
     }
 
     get address() {
