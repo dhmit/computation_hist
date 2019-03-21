@@ -10,6 +10,7 @@ from pdf2image import convert_from_path
 import pytesseract
 from ocr import ocr_pdf
 
+# TODO: move me elsewhere bc used in data preprocessing, not in the django app
 
 def main_function(test_run=True):
     """
