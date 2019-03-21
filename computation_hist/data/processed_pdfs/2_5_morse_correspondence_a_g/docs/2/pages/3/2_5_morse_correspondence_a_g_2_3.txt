@@ -1,48 +1,48 @@
-m Ens-at mum
-at mtm mu.- m an: mum n m to: tho ms 70‘
+The Pregeat Houtine
 
-war. a. an tutu" a! this mun :- tilt in output a in
-than In. 1W in man an mum—3' am. That 1-, in print.
-wwmmmuolunmry (mmpluwuum this
-mwmlmtwmmuu) umﬁmvummm
-“out“ u but by a. sun Wy mm.
+4 post-mortem routine hes bown written at MIT for the IBM 704
+computer. The main feature of this routine is that its output is in
+the same language in which the progrusser codes. That is, it priats
+or punches the contents of core aemory (and we plan (v extend this
+soon to include tapes and drums also) in any of the various forms
+sccepted as input by the Share Assswbly Prograa,
 
-mxmuuwummmtmumamymuu
-mind my h- omusod um: Ml: II can 1‘64 cannot. or by 5
-03-33011» nquut emu. ‘
+The roages to be printed and the forms in whichk they are to e
+printed may be specified either mamually at the 704 comsole or by &
+gymbolic request card. |
 
-than ”none: mun-1; curd-l tun-um loot u;- 1w “not
-than you» mﬁmtm. nan Martin: M; can ~17. um ﬁrst
-two m meity m “it!“ til um WM“ at I rim to b.
-punt-dorm. MWwbouw mien- pont-
-bly llwlvm ml. which tho poltmta mt“. mt W”
-uwmxmmumn ”that ubi- Madman“ tho
-Wmmt was. (mum moi-Why thu-
-you!» «an m pmm ham W out in mm.)
+These sysholic reguest cards themselves lock Like four address
+share symbolic iastructions. Whea referrving to core memory, the first
+two addressos specify the initial and final addresses of a range o be
+printed or punched. These addresses may be any oxpressions possi~
+bly involving sysbols which the post-mortes routine mast translate
+into absolute numbers using & syabol table read in slong with the
+sysbolic reguest cards, (Such a eymbol table is produced by the as-
+pembler when the program being checked out is ssseabdled.)
 
-no third ﬁlm. MSII in man of no 10110!!!“ tom
-ﬂu output .111 um:
+Toe third sddiress specifies in which of the following forms
+the output will appenr:
 
-I) Instr-mum «a lav-balm m. (no abuse:
-to abut» ”wane m M min '0 mm at than last liver-
-um tenure at an mum.)
+1) Ingtructions with symbolic sddrvesses, (The ability
+to obtain symbolie addresses ack ageain v regard as the most lmpor-
+tant feature of this routine.)
 
-a) Inlet-action un- muu m.
+2) Instructions with absolute addresses.
 
-3) 90:01.1 Slam pout M.
+3) Decimel floating point sumbers.
 
-4) 300ml in“ point what: with scale faccm‘s.
+4) Decimal fixed point numbers with scale factors.
 
-5) mm]. mm.
+§) Decimal integers.
 
-6) mm mm.
+@) Oectal iategers,
 
-1) Maury mam mm, 3.0.. characters on the X33:
-kﬁypum mym.
+7) Binery coded decimal, i.9., charactors oun the IBN
+Zeypanch weoyboard.
 
-is) Binary (mm.
+&) Binary casds.
 
-m
+B
 
-1. ”is probably 1111 9% a to! sum to 111mm“: the Iylbolu:
-mt cam and u:- printing thy prance.
+i. %e probably will prepare a fow slides to iliusirate the symbolic
+reguest cards and the priasting they produce,

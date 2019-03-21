@@ -1,0 +1,83 @@
+188
+
+This is not the case for either solution obtained with
+Whirlwind I. When the curves cross each other, the
+expression {(e/e)—1} changes its sign, and (vo*—7?)
+in Eq. (20) then also changes sign. This would indicate
+a shift in the center of the absorption band, »o, with
+thickness. Krautkraemer observed such a shift for gold
+deposits thinner than 72A. He chose the set (1,ks) for
+the thicker deposits because those values resembled the
+values of the massive metal. His choice of the set
+(11,k2) for the thinner films was based on the fact that
+values of R and 7T calculated with the aid of the Garnett
+theory,"! using reasonable assumptions, gave good
+agreement with his measured values of R and 7.
+
+At zero deposit thickness the optical constants be-
+come indeterminate; the derivates of » and & with re-
+spect to R and T calculated by Whirlwind I do increase
+with decreasing thickness, thus demonstrating this
+indeterminacy.
+
+SUMMARY
+
+A program has been developed for Whirlwind I, an
+electronic digital computer at M.I.T., to calculate the
+optical and electrical constants of thin metal films on
+nonabsorbing thick backings, as functions of observed
+reflectances and transmissions. With this program two
+sets of optical and electrical constants have been com-
+puted for numerous films.
+
+Approximate equations have been developed for the
+infrared to obtain the optical and electrical constants
+conveniently. The conductance per square of a metal
+film is the most important physical property deter-
+mining the optical behavior of such a film. The optical
+
+n7. C. M. Garnett, Trans. Roy. Soc. (London) 203A, 385
+(1904).
+
+L. HARRIS AND A. L. LOEB
+
+Vol. 45
+
+constants of such thin films do not equal each other in
+the infrared. The conductance of bismuth films was ob-
+served to increase with increasing wavelength. This
+observed variation was shown to be consistent with that
+computed on the basis of an electronic relaxation time
+r~10~1 sec, which is somewhat smaller than that ob-
+served for massive metals. Films of silver and aluminum
+were observed to split into two classes. One class con-
+tains films of low dc conductivity: these films displayed
+a decrease in conductivity with an increase in wave-
+length. This behavior is thought to be due to condenser-
+like imperfections. The other class consisted of films of
+high dc conductivity, with no appreciable change in con-
+ductivity with change in wavelength. These films dis-
+played no condenser effect, and no observable relaxation
+effect. This means that their 7 is less than 107" sec.
+The product of relaxation time 7 and electron con-
+centration 7o can be found from dc measurements.
+When the relaxation time is found from optical measure-
+ments, the electron concentration can be calculated.
+For bismuth this was found to be ~10* cm™. For the
+aluminum and silver films of the second class the prod-
+uct #.r was at least an order of magnitude larger than
+that of bismuth films. Since the infrared measurements
+indicate that 7 for the good conductor films is less than
+that of the poor conductor films, the measurements
+show that 7, is about one hundred times as great for
+the good conductors as for bismuth.
+
+ACKNOWLEDGMENT
+
+We gratefully acknowledge the technical assistance
+of Miss Janice K. Richmond and of the staff of the
+Digital Computer Laboratory. Availability of Digital
+Computer Laboratory time for this problem was made
+possible by the Office of Naval Research.
+
+R ———

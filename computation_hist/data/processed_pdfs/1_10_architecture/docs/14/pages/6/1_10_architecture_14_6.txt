@@ -1,49 +1,66 @@
+y '.0
+
 7.0
 
 8.0
 
-9.0
+704 Training Courxrse
 
 Conference with New Products Division
 
-_At 3 meeting with Messrs. D. Pendery and 3. Raising, a. umber 01' the
-704 alterations, modifications, etc. , were discussed. In particular, the recent
+At s meoting with Messrs, D. Pendery and H. Heilsing, a number of the
+704 alterations, modifications, etc., were discussed. In particular, the recent
+1ist of RP; items were evaluated in light of the IEM-MIT mode of operation in
+the Computation Center.
 
-list of RR; items were evaluated in light of the lat-HIT made of operation in
-the Gomputation Center. ,
+‘.
 
-regarding pest MIT programing efforts in this area. After this manual has
+It was suggested that a copy of the MIT computer efforts should be
+
+given to the group in order to provide them with certain writien materiel -
+
+regarding pest MIT programming efforts in this area. After this manual has
 
 been studied, a later meeting will be arranged to discuss additional requirements
-on the "future generation machines".
+on the ''future generation machines".
 
-New York Date Proceesi_ng Center ' ,>_
+New York Data Processing Centexr 3
 
-At a conference with Mr. Bruce Oldfield, Ilanager, Data Processing Center,
-he was asked to provide a list at the BBQ itens, additional features, alterations,
-etc. , currently available on the New York and Poushkeepsie ”chines. In this
-manner, the HIT 704 would provide complete compatibility to the two installations.
+At a conference with Mr. Bruce Oldfield, Manager, Data Processing Center,
+he was asked to provide a list of the RPQ items, additional festures, alterations,
+etc., currently available on the New York and Poughkeepsie machines. In this
+manneyr, the MIT 704 would provide complete conpatibility to tha two installations.
 
-course which is to be otter-ed by HIT on August 20—31. It was finally agreed that
-this matter could be handled by a. separate meeting at MIT on Friday, August 27 ,
-which would be attended by Messrs. E. Kopley, S. Best, G. T. Hunter, F. M. Verzuh,
+oldfield was also asked to provide us with the list of —contml panels
+and other equipment which are currently in- use at the other two installations --
+again attempting to insure compatibility.
 
-Conclusion
-—_.____
+A number of meetinge were held with various membeirs of the IEBEd ;
+Educational Department to obtain any information which could be used in the 704
+course which is to be offered by HIT on August 20-31. It was finally agreed that
+this matter could be handled by a separate meeting at MIT on Friday, August 27,
+which would be attended by Messrs. E. Kopley sy Se Best G. T. Hunter, F. M. Verzuh,
+and other MIT 704 staff. : : _ o
+
+Conclugion
 
 Generally speaking, this day-long session of meetings was highly
-satisfactory. In certain cases, however, it was apparent that insufficient
-factual data was available and steps were taken to obtain immediate information.
-Specifically, Labste would obtain additional noise measurements at New York on
-Saturday, July 28. Similarly, Eopley, et a1, will meet at EIT on F'riday,
+satisfactory. In certain cases, however, it was gpparent that insufficient
+factuel data wae available and steps were taken to obtain immediate information.
+Specifically, Labate would obtain additional noise measurements at New York on
+Saturday, July 28. Simllavly, Eopley, et al, will meet at MIT on Friday,
 
-July 27, to help- formulate the program for the 704 course. Finally, infomation
-concerned with real estate -- furniture, equipment requirements, etc., will
+July 27, to help formulate the program for the 704 course. Finally, information
+concerned with real estate -~ furniiure, equipment requiremenis, etc., will
 
-be compiled during the next two weeks in order that orders may be pluced,
-purel‘lasss made, etc. , during the current fiscal period. If this is done now,
-equigimn‘c will arrive on schedule and (we hope} 2.1: the completion of the
-building on January 1, 1957.
+be compiled during the next two weeks in ordex that orders may be pl&ced,
+purchases made, etc., during the current fiscal perxriod. If this is done aow,
+equipment will avrive on schedule and (we hope) at the completion of the
+building on January 1, 1857, A
 
-s. u. Ve'zzuu
+¥. M. Verzuh
 July 26,1956
+
+-
+
+e

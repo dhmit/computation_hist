@@ -1,0 +1,308 @@
+;fo':vo
+
+4
+
+a4
+ll‘vl
+
+A ATV
+A LA WAA AL
+Tt e A AT AR TR T AT
+e NN
+
+Al
+A
+
+82 Journal of The American Ceramic Society—Francl and Kingery
+
+0.080
+
+0.050
+
+0.040
+
+0.030
+
+0.020
+
+     
+
+   
+
+0.010 ]
+0 100 200 300 400 500 600
+
+MEAN TEMPERATURE (°C)
+
+Fig. 3. Thermal conductivity of Al,O;.
+
+was filled with shaped insulating brick to prevent convection
+heat losses.
+
+Sample preparation requires some care for satisfactory
+results. The lead cube used was cut and machined from a
+bar of melting-point lead supplied by the National Bureau of
+Standards (sample No. 49C). The thermocouple holes were
+drilled at very low speed and pressure with continuous re-
+moval of chips. Al:O; BeO,* and MgO were slip cast from
+suspensions of finely ground material (see Part III, p. 76).
+Thermocouple holes were formed by casting around stainless
+steel rods 0.022 in. in diameter. After an initial set was ob-
+tained the metal rods were removed. Oxide materials were
+fired to zero apparent porosity. Bulk densities of oxides em-
+ployed were 2.86 gm. per cc. for BeO, 3.48 for MgO, and 3.79
+for Al,Oj. Samples of other ceramic materials have also
+been prepared by this method, and other materials have been
+prepared by machining and drilling thermocouple holes.
+
+The determination of thermal conductivity requires the as-
+sembly of istundards and samples and the adjustment of
+heaters te give satisfactory heat flow and temperature distri-
+bution. Samples with wedged thermocouples and heaters
+are assembled and aligned, and pressure is applied to hold
+them in place with the outer guard cylinder in the upper posi-
+tion. Then the guard cylinder is lowered and the temperature
+of the furnace raised to about 900°C. to promote the plastic
+flow and adhesion of the silver foil. The heater windings H,
+H,, and l.l.-, are then set to give the approximate tcmperatur(:
+l(-\"cl desired. Suhsw;u?nl]\', the guard heaters H,—H; are
+adjusted separately to give the same temperature gradient in
+the guard cylindgr as occurs in the samples. These heaters
+are adjusted until the thermocouples in the guard cylinder,
+
+* The BeO specimens were supplied b ‘
+7 _ : s y Bernard Schwart;
+the Metallurgical Project, Massachusetts Institute o;d"-l‘uff
+nology. e
+
+ 
+
+ 
+
+Vol. 37, No. 2
+
+0.090
+
+0.070
+
+sec.
+
+0.050
+
+k (cal.
+
+0.040
+
+0.030
+
+0.020 |
+0 100 200 300 400 500 600
+
+MEAN TEMPERATURE (°C)
+
+Fig. 4. Thermal conductivity of MgO.
+
+T; — T, match the temperatures at corresponding points in
+the specimen assembly (= 1°C.). Initially, this trial-and-
+error behavior was quite difficult, but after some experience
+with the assembly the guard-cylinder temperature can be ad-
+justed quite readily.
+
+From measurements of both standard samples the thermal
+conductivity of the unknown control specimen is calculated by
+equations (1) and (2). Calculations with the two standards
+agreed within +=59;. Dense Al,O;, the conductivity of which
+has. been determined by absolute methods (see Part 111, this
+591.'1@5)' above 550° C. was used as a primary standard. Below
+this temperature the conductivity of alumina was successively
+determined from a standard at a higher temperature. The
+lo.w temperature values of Al,O; were checked by comparison
+w1th. melting-point lead. The standards sh()u'ld have con-
+ductivity of the same order of magnitude as the test specimen
+for best results. Typical data obtained using Al,O; standards
+are shown in Table I. | -
+
+Results obtained for Al,O,, MgO, Be(), and melting-point
+lead are shown in Figs. 3 to 6. The thermal conductivity of
+AlO; 1s f.ound to decrease from 0.077 cal. per sec. ! per o=
+per cm. .‘-'.per cm. at 50°C. to 0.021 at 600°C. The thermal
+§“)!1f1llt;ll‘\'ll}" ‘of MgO decreases from 0.088 at 50°C. to 0.026
+at-(t“(),(:' . The thermal conductivity of BeO decreases from
+U.56 at 50°C. to 0.108 at 600°C. The thermal conductiv-
+
+ity of.mcltmg-point lead varies from 0.083 at 50°C. to 0.077
+at'225°C!
+
+- lll. Discussion of Results
+
+1e desig o Drese : ' ‘
+
+mental esign of the present equipment is such that experi-
+4 errors have been eliminated to as great an extent as
+
+possible without sacrificing ‘
+
+sary. '
+
+Improvements ove ‘“_LY Ivl.mr(* um‘vcnicncc than ncc_c?‘—)
+methods for ceramic x er previous ‘dcsu:nf. of (.‘ompz’lrzf.tlfL
+size, thermocouple l(\,m.atcrmls consist mainly in spectmen
+men size, a |- pi€ location, and guard methods. The spect-
+
+» & 1. cube, is larger than many previous investi-
+
+P_——__
+
+February 1954 (Part II)
+
+N
+
+      
+
+ 
+
+0.700
+
+0.200
+
+    
+   
+
+0 100 200 300 400 500 600
+TEMPERATURE (°C)
+
+Fig. 5. Thermal conductivity of BeO.
+
+gators have employed, but remains small enough so that
+samples of ceramic materials can be formed or obtained with
+relative ease. The increased size makes a suitable heat distri-
+bution in the guard cylinder easier to obtain, makes assembly
+more precise, makes temperature uniformity better, and de-
+creases the effect of small errors in measurements of sample
+dimensions.
+
+Temperature measurement directly in the ceramic sample
+eliminates the errors and assumptions connected with inter-
+facial thermal resistance. This type of error can be found
+in most equipment described in the literature. The addi-
+tional difficulty of forming specimens with thermocouple
+holes is well repaid by the increase in accuracy and reliability
+obtained. The interfacial temperature drop is still impor-
+tant, since a large drop at the interface makes perfect guard-
+ing almost impossible.
+
+Controlling the temperature of the guard cylinder to match
+that of the samples within £1°C. by five separate heaters in-
+sures that the lateral heat flow is less than 1 or 207 at most.
+Here again the extra effort required for setting up and balanc-
+ing the temperature equilibrium seems 1o be worth while.
+Some estimate of the accuracy and precision obtained is evi-
+denced by calculations from two separate standard samples.
+The maximum difference which the authors have ever found
+in values calculated from the two separate standards is 7%.
+The normal variation observed is less than 3%.
+
+The values shown for melting-point lead in Fig. 6 are from
+2.7 to 3.29, greater than those reported by Van Dusen and
+Shelton.? Values found by Scholes* are somewhat lower than
+the values found in this ix‘l\"cstigulinn. A value reported by
+Weeks and Seiferts is in close agreement with the present
+values and with those of Van Dusen and Shelton.?
+
+The values found for dense Al.Ojs are appreciably 1}i.gher_
+than those of all other investigators except Weeks and Seifert.”
+The present value is about 3% higher than their value at
+95°C. Values reported by Knapp,’ Fitzsimmons,® Rysch-
+kewitsch,” Taeger et al.® and Eucken? are lower than the pres-
+ent values. In each of these cases there are serious doubts
+as to the accuracies of their methods, parliculurly at the lower
+temperatures where thermal conductivity of Al:Og 18 high and
+
+T'hermal Conductivity, IV 83
+
+0.10
+
+THIS INVESTIGATION
+VAN DUSEN, SHELTON
+W.A. SCHOLES
+
+0.09 WEEKS, SEIFERT
+
+  
+   
+
+o
+o
+@
+
+0.07
+
+k(cal sec”! °C-! cm-2cm.)
+
+0.06
+
+0.05
+0 100 200 300
+
+TEMPERATURE (°C)
+
+Fig. 6. Thermal conductivity of melting-point lead.
+
+interfacial resistances become of more importance. A similar
+result is found for MgO and BeO.
+
+The low values previously found for these materials can in
+large measure be attributed to the assumption of negligible
+interfacial resistance in most previous work. The thermal
+conductivity of Al;03 and MgO at room temperature is of the
+same order of magnitude as the many conductors among
+metals. Previous investigators employing a comparative
+method3+4 have assumed that interfacial resistance is negli-
+gible. This is probably a satisfactory assumption for most
+work with low-conductivity materials, e.g., glasses and com-
+mercial multiphase brick. It is not satisfactory for high-
+conductivity materials such as pure Al:Os;, MgO, and BeO.
+Similarly, in developing relations for diffusivity or unsteady-
+state methods, investigators have assumed that the inter-
+facial resistance is negligible in most cases.®® This is prob-
+ably satisfactory for low-conductivity materials, but not for
+Al,Os;, BeO, and MgO. The variation between previous
+values of conductivity is directly related to the values found.
+Fitzsimmons' results® are 239% low for Al,O; at k= 0.030, 149,
+low for Al.O; at £ = 0.020, and in quite good agreement with
+results found by another method for ZrO, at B = 0.005.
+Similarly, but on a much less precise level, Jaeger et al.® re-
+ported values about 89, of the true value for BeO at & =
+
+0.55, about 509, of the true value for Al:O; at £ = 0.07,
+about 259, of the true value for MgO at £ = 0.08, and close
+to the true value for ZrO, at & = 0.005.
+
+IV. Conclusions
+
+(1) Equipment has been described for measuring the
+thermal conductivity of ceramic materials by a comparative
+method. A separately heated guard cylinder, the use of two
+
+5 J.L. Weeks and R. L. Seifert, ‘‘Note on Thermal Conductivity
+of Synthetic Sapphire,” J. Am. Ceram. Soc., 35 [1] 15 (1952).
+
+¢ £. S. Fitzsimmons, ‘“Thermal Diffusivity of Refractory Ox-
+ides,” J. Am. Ceram. Soc., 33 [11] 327-32 (1950).
+
+7 Eugen Ryschkewitsch, Oxydkeramik der Einstoffsysteme vom
+Standpunkt der Physikalischen Chemie (One Component Oxide
+Ceramics on Basis of Physical Chemistry). Springer-Verlag,
+Berlin, 1948. 280 pp.; Ceram. Abstr., 1949, October, p. 233¢.
+
+8 (3. Jaeger, W. Koehler, and F. Stapelfeldt, ‘“Determination of
+Thermal Conductivity of Oxide Ceramics,” Ber. deut. keram. Ges.
+w. Ver. deut. Emailfachleute, 27 (5/6] 202-205 (1950); Ceram.
+Abstr., 1951, February, p. 341.
+
+9 A. Eucken, “Wirmeleitfihigkeit keramischer feuerfester
+Stoffe: Berechnung aus der \\':’irmclvit'fiihigkcit der Bestand-
+teile” (Thermal Conductivity of Ceramic Refractory Materials;
+Calculation from Thermal Conductivity of Constituents),
+Forsch. Gebiete Ingenieurw., B3, Forschlvmgshcft No. 353, 16 pp.
+(1932); Ceram. Abstr., 11 [11] 576 (1932); 12 [6] 231 (1933).

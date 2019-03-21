@@ -1,56 +1,55 @@
 Reprinted from the
-PROCEEDINGS or THE AMERICAN MATHEMATICAL Socrmv
-Vol. 5, NOT 3, pp. 476—477
+PROCEEDINGS OF THE AMERICAN MATHEMATICAL SOCIETY
+Vol. 5, No. 3, pp. 476-477
 June, 1954
 
 THE DENSITY OF ABELIAN CUBIC FIELDS
-HARVEY coaN‘
+HARVEY COHN!
 
-In the following note we show that the abelian cubic ﬁelds are rare
-in relation to all cubic ﬁelds over the rationals. This is no surprise
-since an irreducible cubic equation generates an abelian ﬁeld if and
-only if the coefﬁcients of the equation are subject to a certain restric—
+In the following note we show that the abelian cubic fields are rare
+in relation to all cubic fields over the rationals. This is no surprise
+since an irreducible cubic equation generates an abelian field if and
+only if the coefficients of the equation are subject to a certain restric-
 tion (that the discriminant of the equation be a perfect square). To
-express this rareness in analytic form we arrange the ﬁelds in order
-of increasing ﬁeld-discriminant and we deﬁne
+express this rareness in analytic form we arrange the fields in order
+of increasing field-discriminant and we define
 
-N405) =number of abelian cubic ﬁelds of (positive) discriminant
-éx, and
+N4 (x) =number of abelian cubic fields of (positive) discriminant
+<x, and
 
-N(x)=number of (abelian and non-abelian) cubic ﬁelds of dis-
-criminant éx in absolute value.
+N(x) =number of (abelian and non-abelian) cubic fields of dis-
+criminant <x in absolute value.
 
 Then we show by means of a “zeta-function discussion” that
-(1) NA(x) ~ (115/18)x1”. as x.» on,
+(1) Na(x) ~ (11¢/18) x1/2, as x — o,
 
-where c is given in formula (8) below. This result complements un-
-published results kindly communicated by Davenport. to the effect
-that N(x)=0(x), and by Heilbronn, to the effect that N(x)>clx
-(even with the restriction that the ﬁelds be totally real).
+where ¢ is given in formula (8) below. This result complements un-
+published results kindly communicated by Davenport, to the effect
+that N(x) =0(x), and by Heilbronn, to the effect that N(x)>cax
+(even with the restriction that the fields be totally real).
 
-It can be shown by classﬁeld theory [1]2 that abelian cubic ﬁelds
-of discriminantf2 are enumerated as follows: There is a single ﬁeld
-with f=9 or f=ga and there are for 921 exactly 2' ﬁelds with f
-:51» - ~ - q, or f=9q1 ~ - - q” where the q.- are distinct primes El
-(mod 6). (These ﬁelds are in fact subﬁelds of the ﬁeld of the fth roots
+It can be shown by class-field theory [1]2 that abelian cubic fields
+of discriminant f? are enumerated as follows: There is a single field
+with f=9 or f=¢q, and there are for »=1 exactly 2’ fields with f
+=¢go*--qyor f=9¢ - - - ¢, where the ¢; are distinct primes =1
+(mod 6). (These fields are in fact subfields of the field of the fth roots
 of unity.) Thus,
 
-(2) NA(x) = U(x1”)/2 + U(x‘”/9) — 1/2
+(2) Na(x) = U(«'%)/2 + U(x'/%/9) — 1/2
 where
-(3) My) = g «M
+(3) U(y) = § u(n)
 
-and u(n) is, in turn, described by the generating function:
+and #(n) is, in turn, described by the generating function:
 
-so
+0
 
-(4) ' ¢(s) =H(1 + 2r) = Z won-a
+(4) . o(s) =111 + 2¢) = > w(n)n—,
 
-1
+Presented to the Society, April 25, 1953; received by the editors April 22, 1953.
 
-Presented to the Society, April 25, 1953: received by the editors April 22, 1953.
-‘ Research sponsored by the U. S. Army Ofﬁce of Ordnance Research, under con-
-tract DA-ZO-OlSeORD-12332.
+! Research sponsored by the U. S. Army Office of Ordnance Research, under con-
+tract DA-20-018-ORD-12332.
 
-’ Numbers in brackets are items cited in the bibliography at the end.
+* Numbers in brackets are items cited in the bibliography at the end.
 
 476

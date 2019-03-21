@@ -1,52 +1,53 @@
-2. The In! Punched-Card Section,
+3. The IBY Punched-Card Section,
 
-3. The ﬁend Coupntin; Group (which oeployed desk calculators
-for computational purposes).
+3. The Hand Computing Group (which smployed desk calculators
+for coamputationsl purposes).
 
-During the war years 1942—45, the staff of the Center was increesed
-to ’approxinetely 50 people. Because of the large vole-e of war-tine.
-amputations}. activity (3—shiit operetion. etc.), this self supporting
-type at operation resulted in the creation of s financial reserve fund
-of over $40,000. '
+During the war years 1242-45, the ataff of the Center was increesed
 
-. Professor 8. H. esldrell returned fro- his me nasal-est in 1045
-end egain aseuned his for-er position as active Director of the Center.
-The poet-ear years 1946-47 had a deraatetinz effect on the previously-4
-nentioned financial reserve. The value of coeputntionel work was sharply
-curteiled during this period, but the operetinc stuff of the Center was
-not Interielly reduced. As I consequence, the two-year period 1918—49
-wero very trying years fun the finsnoiel standpoint; end during thie
-period. the 1H Group end the Band Cupnting Group were eeperated free the
+to approximately 350 people. Becsuse of the large volume of war-time
+computetional sctivity (3-shift operation, ete.), this self supporting
+type of operation resulted in the creation of a financial reserve fund
+of over $40,000.
+
+. Professor 8. H. Caldwell returned from his NDRC assignment in 1945
+and again assumed his former position as active Director of the Cenmter.
+The post-war yeers 1546-47 had a devastating effect on the previousliy-
+mentioned finsncial reserve. The volume of computational work was sharply
+curtailed during this period, but the operating staff of the Center was
+not materially reduced. As & conseguence, the two-year period 1948~49
+wvere very trying years from the financial standpoint; and during this
+period, the IBM Group and the Hand Computing Group were separated froa the
 Center.
 
-In leroh, 1948, I‘. ll. Vernuh was placed in cherge of the punched—
-card m. After a period of reorganiutions it appeared thst the loss
-of one of the principal clients of the Inn services, the A. 1). Little
-Coupeny, would create s serious operating deficit in the punched-cord
-section. As I. result. a decision was node to discontinue the punched-card
-section, and a letter terninsting the existing IBII machine rentsl contract
-wee sent to the m Corp. in Key. 1349. Fortunately, nr. Stretton learned
-of the situation in tine to prevent dissolution of the pup. and et his
-direction, the nan punched—card fecility was reactivated on July 1, 1949. and
-the group began operation es s sepnrete conputing feoility under n.1.c.
-sponsorship. Pinelly, on my 1. 1950, the Adniniatretinn set up the in!
-group es en Adeinistretiwe Office - the Office 02 Statistical Services.
+In March, 1848, F. M. Versuh was placed in charge of the punched-
+card group. After a period of reorganizationy it appeared that the loss
+of one of the principal clients of the IBM services, the A. D. Little
+Company, would create a seriocus operating deficit in the punched-card
+section. As a result, a decision wvas made to discontinue the punched-card
+section, and 2 letter terminating the existing IBM machine rental contract
+was sent to the IBM Corp. in May, 1949. Fortunately, Dr. Stratton learned
+of the situation in time to presvent dissolution of the goup, and at his
+direction, the IEM punched-card facility was reactivated on July 1, 1849, and
+the group began operation as 2 separate computing facility under D.I.C.
+sponsorship. Finally, onr July 1, 1950, the Administration set up the IBM
+group as an Administrative Office -- the O0ffice of Statistical Services.
 
-It also heca-e apparent that the original G—lnteu‘ator Differential
-Anslyner was no longer required st I.l.'l'. , and consequently it wea pre-
-sented to Vsyno University in July, 1949 where it is still in operation.
-Early in 1949 the Inﬂuential Analyser Group (the last renaming section
-of the Center 01 Analysis) was ebout to he dissolved because of finanoisl
-difficulties. Fortunately, in June. 1949, u contract was initiated with the
-u. 8. Air Forces which provided tho neceoenry financial assistance needed
-to continue its operation. In July. 1949, 1'. II. Versuh was else placed in
-in chem-go of the RDA group and was faced with the prohln of hiring a new
-operating staff. (The for-er group of lemurs. J. 1.. c. 1.32. n. lornsh,
-G. Innstedt, Ii. Coate, etc. had been released.)
+It also became apparent that the originsl 6-Integrator Differential
+Analyzer was no longer reguired at M.I.T., and consequently it was pre-
+sented to VWayne University in July, 1949 where it is still in operation.
+Berly in 19492 the Differential Ansiyzer CGroup (the last remaining section
+of the Csmter of Amslysis) was asbout to be dissolved because of financisl
+difficulties. Fortunately, in June, 1949, a countract was initiated with the
+U. 8. Air Forces which provided the necesssry fimancilal assistance needed
+to continue its operation. In July, 1948, F. M. Verzuk was slso placed in
+in charge of the RDA group and was faced with the problem of hiring a new
+operating staff. (The former group of Messers. J. L. C. Lof, H. Morash,
+G. Eunstedt, M. Coate, etc. had been released.)
 
-A new open-sting staff consisting of Messrs. J. l. line, and ii. 48.
-Groasinon were hired and trained, and the new EDA group consisting of
-Professor Caldwell, Messrs. ll. Forbes. L. 3. Frost, J. E. Goos, a. I.
-Grossieen. J. I. Hen, F. E. Von-nah and lines 3. Collins, 5. Cause}, end
-3. Tell experienced an effective your which resulted in the following I310!-
+A new operating staff consisting of Messrs. J. M. Ham, and H. ‘B.
+Grossimon were hired and trained, and the new RDA group consisting of
+Professor Cealdwell, Messrs. M. Forbes, L. E. Frost, J. E. Goos, H. E.
+Grossimon, J. M. Hem, F. M. Verzuh and Misses E. Collins, S. Conway, and
+E. Tamm experienced an effective year which resulted in the following major
 additions to the RDA:

@@ -1,38 +1,41 @@
-loo- soc-ms
+Room 20C-D6
 
-November 29 1 1956
+November 29, 1956
 
-Dr. G, T. Hunter
+Dr, G, T, Hunter
 
-I. B. l. Corporation
+I, B, M, Corporation
 
-368 Third Street
+363 Third Street
 
-“abridge 39, Has-achnutte
+Cambridge 39, Massachusetts
 
-Dear Dr. Hunter:
+Dear Dr, Hunter:
 
-In aeeordanee with our dieculaionn, this letter in intended
-oe a torn]. requeet for 40 hourl o! 704 telting time which in to he
-need in connection with our 704 program in the I.X.T. Celputatlon Center.
+In accordance with our discussions, this letter is intended
+as a formal request for 40 hours of 704 testing time which is to be
+used in connection with our 704 program in the M .I.T, Computation Center,
 
-appreciate your checking the nvailebility of nachine tile and setting
+It is my understanding that there may be time available for
+this purpose @ither at Poughkeepsie or the New York 704, I would
+appreciate your checking the availability of machine time and setting
+up a schedule which may be used for the testing of programs which we have
+prepared for the Computation Center, 1 beliwe the schedule of machine time
+should be set up in blocks of one hour intervals in order to obtain maximum
+utilization of machine time, or whatever other procedure has proven to be
+most efficient in light of experience in testing programs,
 
-up a schedule which lay he need for the touting o! pregrnu which we have
-prepared tor the Computation Center. I belive the Ichedule of machine tine
-ehould be set up in blocks of one hour intervals in order to obtain naxilun
-utilization 01 machine time, or whatever other procedure hae proven to be
-non efficient in light of experience in testing program.
+ 
 
-'e would appreciete receiving a schedule of the touting tile
-as noon on possible in order that we may begin to check out some of our
-post nortem and utility programs.
+We would appreciate receiving a schedule of the testing time
+as soon as possible in order that we may begin to check out some of our
+post mortem and utility programs,
 
 Sincerely yours,
 
-1'. I. Verzuh
-Agni-tent Director
-Conputntion Center
+F., M, Verzuh
+Asgistant Director
+Computation Center
 
-Mmb ,
-cc: Prof. P. ll. Morse V
+FMV:nb 3
+cc: Prof, P, M, Morse “

@@ -1,0 +1,50 @@
+Minutes 2£ the Meeting with Dr. Hurd, I.B.M. Corp.
+
+December 15, 1954
+
+Persons Present: C. F. Floe, P. M. Morse, Cuthbert C. Hurd, F. M. Verzuh
+(R, H. Gregory, G. S. Brown, T, M. Hill, T. M. Whitin)
+
+Dr. C. C. Hurd, Director of Applied Science Division, I.B.M. Corp.,
+came to M.I.T. to discuss possible cooperation between I.B.M. and M.I.T.
+with specific emphasis on the long-range computational program.
+
+A preliminary meeting was held with Dr. Hurd in Verzuh's office
+between 9 and 10 a.m. at which time Hurd was informed of the following
+facts:
+
+1. The present I.B.M. machine installations available at M.I.T.
+and their annual rental costs. See Table I.
+
+9. The educational teaching and academic research activities at
+M.I.T.
+
+3. Proposed future teaching and training activities at M,I.T.
+4, Long-range computer requirements at M.I.T.
+
+This discussion was followed by a quick tour of the Statistical Services
+facilities.
+
+The principal meeting was held in Morse's office and was attended
+by Floe, Morse, Hurd and Verzuh. Morse briefly described the recent Conference on Tables
+which was held at M.I.T. in September and requested Hurd's comments regarding
+proper mthods for future dissemination of information regarding new tables.
+Morse then described our present computational activities and gave some indica-
+tion of our nggds for the future. Specifically, he indicated that WW1l would be
+released somewhere within the next five years and therefore the Institute had
+to make plans for procuring some equipment in the caliber of the 700 EDPM ma-
+chines. He stated that at the present time we are spending approximately
+$200,000 a year for maintenance and operation of WWl. The question was then
+raised as to how I.B.M. and M.I.T. could best cooperate to their mutual ad-
+vantage in the future. Hurd indicated that I.B.M.'s interests were primarily
+of two types:
+
+1. The encouragement of educational training which would result
+in the development of engineers capable of creating new and
+
+better computing machines.
+
+2. The encouragement of educational training of applications per-
+sonnel.
+
+He divided the latter into three categories:

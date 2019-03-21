@@ -1,9 +1,6 @@
-any-“mutt [mint nu I‘l.x'rlo.\ immm I.
-Vol. III, .
-I‘rin/ul m I .
-
-  
-   
+Reprinted from Circvrarion RESEARCH
+Vol. ITI, No. 3 May 1955
+Printed in U.S.A.
 
 Editorial
 
@@ -11,963 +8,775 @@ Research in Electrocardiography
 
 HE application of laws which govern
 
-the ﬂow of electric currents in tissues
+the flow of electric currents in tissues
 
 to the excitation of heart muscle has
 led to the discovery that many fundamental
 principles of electrocardiography were clearly
 formulated long before facilities to express
 them by experimental means had become
-available Lately, the easy access to electro—
-cardiographic instrumentation has occasiom
-ally reversed the proet s of deductive reason-
-ing. There is a tendency in electrocardiographie
-research to adopt rules made to ﬁt experi-
+available. Lately, the easy access to electro-
+cardiographic instrumentation has occasion-
+ally reversed the process of deductive reason-
+ing. There 1s a tendency in electrocardiographic
+research to adopt rules made to fit experi-
 mental observations and to consider geometric
 teaching devices as scientific proof. It should
 be stressed that (a) the primary gathering of
 experimental data, both from human subjects
-and from animals, is a nece ry prerequisite
-to th» advance of clinical electrocardiography,
+and from animals, is a necessary prerequisite
+to the advance of clinical electrocardiography,
 and that (b) it is equally essential to engage in
 the analysis of mathematical concepts for the
 solution of practical problems. Both types of
-research are nec ary if cmpiricism is to be
+research are necessary if empiricism is to be
 replaced by scientific knowledge. The paper
-by the Wilson school‘ on the pre )rdial electro—
-cardiogram may bc cited as a clas 'cal example
-of the first kind; Baylov’s papc ' on certain
-applications of modem clectrtwardiographic
-theory, as an cxamplc of the second. In the
-former, cxpcrimcntal information related to
-clinical elcctrticardiography is prcscntcd with
-a minimum amount of spcculat ive bac,
+by the Wilson school* on the precordial electro-
+cardiogram may be cited as a classical example
+of the first kind; Bayley’s paper® on certain
+applications of modern electrocardiographic
+theory, as an example of the second. In the
+former, experimental information related to
+clinical electrocardiography is presented with
+a minimum amount of speculative background,
+in the second, certain relevant aspects of theo-
+retical physics are analyzed to formulate an
 
- 
-
- 
-
- 
-
- 
-
-'ound.
-in the second, ccrtain rclcvant aspects of theo-
-retical physics arc analyzed to formulatc an
-
-'23]
-
-For to travel hopefully is a. better thing than
+For to travel hopefully is a better thing than
 to arrive, and the true success is to labor
-R. L. Stcvcnson‘“
+R. L. Stevenson!?
 
-eleetroeardiographie theory using a minimum
+electrocardiographic theory using a minimum
 of illustrative experiments.
 
 The analysis of the form of the action cur-
 rent of the heart has to consider three funda-
-mental rescarch areas, (a) the electrochemical
-properties of the excitable cell and cell ay, ‘re-
+mental research areas, (a) the electrochemical
+properties of the excitable cell and cell aggre-
 gates which represent the source of the action
-current, (17) the ﬂuid volume conductor
+current, (b) the fluid volume conductor
 properties of the thorax (a structure of ques-
-tionable homogeneity) and (c) the influence
+tionable homogeneity) and (¢) the influence
 of the boundary of the thorax (skin and
 subcutaneous tissues) which defines the con-
 ductor (b) as one of limited dimensions and
 may, thereby, alter the distribution of elec-
-trical currents at the body surface, Corre—
-sponding to these three areas, three outstatntling~
-contributions may he cited, all published
-before 1890,H which offered a mathematical
+trical currents at the body surface. Corre-
+sponding to these three areas, three outstanding
+contributions may be cited, all published
+before 1890,'* which offered a mathematical
 treatment for these basic components of
-electrocardiographic analysis Knowledge of
+electrocardiographic analysis. Knowledge of
 their existence, if not a detailed study, should
 be of importance to those interested in the
-bioclectric phenomena of the heart.
+bioelectric phenomena of the heart.
 
-“1(th l’nocinrrrias
-Excrmmir: CELL
+THe ELecrrROCHEMICAL PROPERTIES OF THE
+[KxcrraBrLe CELL
 
-’l‘ma EImc'ruocmr or To E
-
- 
-
-A hypothesis advanced by Bernstein" as~
-sumes that the source of bioelcctric currents
-is located at the boundary between the insi(l(
+A hypothesis advanced by Bernstein® as-
+sumes that the source of bioelectric currents
+1s located at the boundary between the inside
 of the cell and its surroundings, and that this
-boundary has the characterist' s of a semi~
-permeable membrane. .\cross the membrane
-some ions pass freely, others arc held back
+boundary has the characteristics of a semi-
+permeable membrane. Across the membrane
+some ions pass freely, others are held back
+
+Circulation Research, Volume 111, May 1955
+
+
+eS
+-
+—
+
+i
+
+He adedsdohs >
+
+Sa wl
+y RS, i >
+po DR ITT
+
+yl
+
+E—
+Pasar
+. \ Y -
+14 RLY Los
+J : F - P
 
  
 
-('ur'ulotzun [fl‘ltlﬂll 1i. \‘uiumr II], ”no um
-
-
-EDITORIAL
-
-32 -
-2 is established be
-tic charges which
-inbrane
-
-and a resting equilibrium1
-tween diffusion and (/lect'rt).e of the me
-results in the inner surla<
-carrying negative (llﬂlge ,1 1,10 [may mem—
-sitive charges. Such a (etc 0d ’1,
-0 I i . ' “ z 'r, . _
-firm: is r erred to as [JO-l1”) wermd “41th
-“The ti st basic problem is It or Mam. ﬁber
-i " tie c‘ t .
-‘ ‘ tential of . vm;
-embrant, po ‘ . . d m H
-lih‘clfln This has now been iecoido theme“,
-”58 I 7'9 V the potential exrstinp [1 e"
-D. 7 tside of the resting 1)
-‘* en measured by
-The trans—
-cell
+roy 9)
+y 7
+ya
 
  
 
-and in ric
-the inside and the on . 'h
-ranges from 80 to ilzgsli‘cnllnlm
-0' i 5 ca illai'y rrnc~ ~ . ‘ . '39
-bilinbrariir potential of wa 5:113:51; ﬁlteriielem‘o-
-(1h?elli*l:l()dliiiljdlt‘erijcioiibf the membrane‘itjgl
-(waTither it is neutral, acid or basilc iiiﬂrlrlzir i: m:
-on the ionic concentrations of t1:i (m their
-both sides of the membrane, an ‘ Hummus
-electrochemical activities (ionic comic further
-and eleetromotive force). This ma)
+1 To MY
+LA N
+LITLE
+wy PPV
+Y » yi
+» NY Lo
 
-speciﬁed by stating that the potential tiller”
+ 
 
-' 'v n are
-enees measured by a capillary electrode
+232
+‘shed be-
+quilibrium 18 establish
 
-the result of electromotive forees9occt1i'r'pli:
-(1) within the interior solution, (jihat the
-inner membrane boundary, (3) \H in .‘le
-membrane itself, (4) at the outer mein iiaim
-boundary, and (5) iii the exterior solutipni,
-What is measured may be considered large y
-a diffusion potential expressing ‘ﬂow o ions
-and of neutral molecules, but-rt is turtheif
-complicated by the almost ce Iainypresenco o
-an “active transport mechanism (at least
+static charges
+
+trostatlc ( an
+i of the membrane
+he outer surface
+ayer men-
+
+and a resting e
+tween diffusion and e
+: nner surface
+esults in the mner = |
+posh . negative charges, t
+OE Such a double |
+Hiv i arees. ue ) 1”
+positive charg  « snglnrized.
+brane is referred to as “PY concerned with
+; ala J} 1s C ’ : i
+The first basic poles Sa ther
+19. QO ’ ’ ne 3 rs
+the membrane pen) ll nl
+. » e :
+i tial existing between
+and in vivo.”* V, the a : i the resting fiber
+: x 1 Side / ,
+the inside and the qv when measured by
+: mv :
+ranges from 80 to 1 The trans
+lass capillary microelectroc S. En
+Be ial of a single cardiac
+membrane potential of a 2 ici
+depends on many factors, such as a
+chemical characteristic of the mem os
+| 1 + hase at
+(whether it is neutral, acid o1 is
+on the ionic concentrations of t ai
+. : £ 1 ) } ’
+both sides of the membrane, ul a
+lectrochemical activities (ionic concent ar
+Oe ce). This may be further
+and electromotive force). > le
+otentl:
+ifiec stating that the p
+A illary electrode are
+asured by a capillary elect
+ences measured b) billeay
+the result of electromotive forces a
+7 . . . 9 af, ; e
+(1) within the interior solution, oo a
+inner membrane boundary, (3) wit > 3
+. "a1
+membrane itself, (4) at the outer oy
+i 5) 1 » exterior solution.
+boundary, and (5) in the Qe Oe
+What is measured may be considere ; gel)
+(pressing 10NS
+a diffusion potential expressing flow 2 :
+it 1s ‘ther
+and of neutral molecules, but 1t 1s fw ;
+; st certain presence o
+complicated by the almost certain presen
+a rl) . AQ
+an “active transport mechanism” (at least
 for the Na ion) by which is meant the move-
-ment of an ion “up hill” against the c ectro-
-cherrrical gradient.
-
-The basic considerations of diffusion poA
+ment of an ion “up hill” against the electro-
+chemical gradient. =
+The basic considerations of diffusion po-
 tentials were expressed for liquid junction
-boundaries of solutions containing diTerent
-conoenti'atiolis of electrolytes by Max Planck
-in lStlll‘ as
+boundaries of solutions containing different
+concentrations of electrolytes by Max Planck
+in 1890! as
 
- 
+_ RT
 
-(I) ,V 7 [er I}:
+(1) Vi=r icy —+
 
-_ ('2
+where IR expresses the gas constant, T the
+absolute temperature, F the Faraday equiva-
+lent, and n the valency of the diffusion jons.
+U and V define ionic mobility in water, of
+cation and anion respectively, the subscripts
+denoting these values for the two sides of the
 
-~ [1" log c l' I,‘
+«ne. Recent theoretical work On mem.
+EL and ionic fluxes is bageq
+Pe this fundamental equation, with
+: “formula expressing the general he.
+of junction potentials presumably
+e to living systems sixty years before
+s could be made from cardige
 
-where Ii’ exprc. es the gas constant, ’I' the
-absolute temperature, F the Faraday equiv -
-lent, and a the valency of the diffusion ions.
-(V aird l' define ionic mobility in watt of
-cation and anion respectively, the sub. I'ipts
-denoting these. values for the two sides of the
-
- 
-
-il-
-
- 
-
- 
-
-.. 0 Recent theoretical work on mern~
-membralltr-11mlS and ionic. fluxes is based
-brane~ PUV‘BI " this fundamental equation, with
-essenmllllfOrinnla expressing the general 139‘
-1)lm.wksof0pun-Lion potentials presumably
-hmifliable to living cms Sixty Mats before
-aDIJhi:gmsumncn1s could he made from cardiac
-Silt! ‘-‘
-
- 
-
+me
+brane
+essentl
+Planck’s
+havior
+applicabl |
+such measu rement
 tissue in situ.
 
-TION’ on Erim‘TrtIcAL CURRENTS
-
-Coxot‘orons or Ixrrmn
-EXTENT
-
-DISTRIBI'
-[N VOLUME
+JSTRIBUTION OF ILECTRICAL CURRENTS
+IS JT101 he cr
+: VoLuME CONDUCTORS OF INFINITE
+IN VOLU] ;
+: EXTENT
 
 The laws which define the flow of currents
-' h nouenous voltimc conductors of inﬁnite
-1“ roi lijave long been applied to electro.
-(”d-(3l ire hie concepts and, though never
-02“ N141" xv d by Einthoven, were
-We’ll-:33 “(eff known to him and form the
-223:1 for ihis geometric analysesh'l'he .0033:
-of a dipole layer (the ba s ‘of t e inei‘nnts i“
-theorv) and of the distribution of :tll‘le 1 mad
-volume conductors were clearly. 1)o'rrgiua' of
-by Helmholtz in 185252 I'lis-consiroia minim.
-the general aspects of (the distribultionho‘dred
-electric currents were timely euoug i a at 1 is
-vears later to form the basis tor an will];
-of an centric dipole in a homogenops rtrieuind-
-by Wi son and Bayley” aird to lay Pei-10 ﬁeld
-work for a modern electrocardifrﬁiapiic m
-theorv by MeFee and Johnston.“ 1 hese pap in
-have-analyzed the Helmholtz contribution
-delilfla volume conductor of inﬁnite extentt, 1::
-potential, during activity, at some disarme
-from a membrane may be expressed )3
-relation”
+. homogenous volume conductors of infinite
+s Rave long been applied to electro:
+oy . ohio concepts and, though never
+oo a expressed by Einthoven, were
+ad well known to him and Yom a
+basis for his geometric analyses. ['he Ws
+of a dipole layer (the basis of the ment i
+theory) and of the distribution of oar oy i ;
+volume conductors were clearly form 2 :
+by Helmholtz in 1852. Br :
+the general aspects of the Sa WE
+electric currents were timely enoug a ht W
+vears later to form the basis for an os a
+of an excentric dipole in a homogenous me =
+by Wilson and Bayley" and to lay the 3 ie
+work for a modern electrocardiograp i i
+theory by McFee and Johnston.” 1 ]
+have analyzed the Helmholtz contributio
 
-(2a) l7 : 4’32
+ail. |
+iin ; volume conductor of infimte oe i
+potential, during activity, at og ¥
+from a membrane may be expressed DY
+relation
 
- 
+(2a) V = ¢%
 
-and since the electrical effects of the bowl “I;
-a whole rnav be considered the sum 01.:
-individual cell membrane effects. the EXP!”
+: we to of the heart 8
+and since the electrical effects of the
+
+3 3 2 of a
+a whole mav be considered the oo XpIes
+. [oe wo } - eG)
+individual cell membrane effects, the
 sion may be written
 
-(2b) 1' : ms:
+(2h) V = Z¢Q
 
-4) here expresses the “dipole moment”. (lil‘ﬁﬁ:
-times distance) which exists across the (01‘1”
-iayer of the membrane. It. is consideredjlld lrv
-(at, £2 expresses the solid anal“ Summit“? i
-the inernln'anc at a point 1’}. SI therefor v“?
-dependent on the distance if) ”f I) from
+hare?
+¢ here expresses the “dipole moment”, be
+times distance) which exists across the ¢ Ne
+layer of the membrane. It is congideres ;
+(a). © expresses the solid angle subtend® =
+
+JR
+: : ) sref ore,
+the membrane at a point Pj. { oni os
+. ys . . 1
+dependent on the distance (1) of I
 
  
-
- 
-
-ﬁ
 
 EDITORIAL
 
 boundary of the dipole layer of the membrane,
-and on the angle 6 between the outward nor—
-mal and (1'). For a single, charged membrane
-element (15‘, the expression becomes:
+and on the angle between the outward nor-
+mal and (r). For a sing
 
- 
+le charged membrane
+element ds,
 
-(3a) (It) 2 i K: ”((3.
+the expression becomes:
 
- 
+(3a) dQ = gone ds.
 
-C‘alculatious of this sort assume that the merri—
-brane concept is a correct one for which there
-is ample evidence. 1’ is assumed to be located
-within a homogeuous conductor which sur~
-rounds the polarized membrane and is of in»
-finite. extent. The relation of the potential
-re irded at the distant point I) to the
-exrsting‘ at the actual surface of thc
-is what is brieﬂy symbolized as
-cerned with (b).
+!
 
-value
-membrane
-52 and is con—
+Calculations of this sort assume that the
 
-Trrn EFFICt‘T or FINITIG Bot‘NDanrns ox
-(‘r'irnnxr Disrruru'riox lN Vermin?
+mem-
+brane concept is
 
-CONDI'CTURS
+a correct one for which there
+is ample evidence. P is assumed to be
+within a homogenous conductor
+rounds the polarized membrane
+finite extent.
 
-llclniholtz also dcs ‘ibed a special case of
-ﬁnding: the potentials of a known cloctromotive
+located
+which sur-
+and is of in-
+The relation of the potential
+recorded at the distant point. P to the value
+existing at the actual surface of the membrane
+Is what is briefly symbolized as Q and is con-
+cerned with (bh).
+
+Tue Errecr or Fine BouNpaRries ox
+CURRENT DISTRIBUTION IN VoLume
+CoNDUCTORS
+
+Helmholtz also described a special case of
+finding the potentials of a known electromotive
 force in a spherical conductor. The theorems
 proposed by him allow the formulation
 
+cos 6
+
+(3b) V =
+
  
 
-(3b)
+2 2
 
- 
-
-front which (3a) has been derived. It
-
-applies
-to a dipole ‘
-
-atcd centrally within a sphere
+from which (3a) has been derived. It applies
+to a dipole situated centrally within a sphere
 and surrounded by an infinite medium. The
 potential recorded from a point located within
-a limited spherical surface (l'i) may be
+a limited spherical surface (V2) may be given
 as
 
-(-t) W : r15 cos 19<l + 2r),
+5s 1 2r
 
- 
+(4) Vi=geoso(L +)
 
-given
-
-r“ IT“
-
-where r is the distance of the dipole from I’,
-It’ the diameter of the sphere. This des 'isz
+where r is the distance of the dipole from P,
+R the diameter of the sphere. This describes
 a situation applicable to finite boundaries,
 and was developed with reference to Ein-
-thovens equations by C‘raib and (‘antield.“
-The inﬂucncc of various shaped boundaries on
+thovens equations by Craib and Canfield.
+The influence of various shaped boundaries on
 the distribution of currents within the enclosed
-s stern of the chest is obviously of considerable
-interest to those concerned with measuring:
+system of the chest is obviously of considerable
+interest to those concerned with measuring
 cardiac action currents from the surface of
-the body. In a paper by C. \i. Nelson in this
-Issue,” the striking; alterations in current flow
-
- 
+the body. In a paper by C. V. Nelson in this
+Issue,’ the striking alterations in current flow
 
 233
-in the presence of a boundary are
-demons
-layer cl
-to es
+in the presence of a bounday
+demonstrated by the u
+layer electrolytic tan
+to establish
+electroc
 
-graphically
-itod by the use of Boothroyd’s doulrle
-ectrolytic tank.16 In the past, in order
-blish a ﬁrm basis for a theory of the
-electrocardiogram, the effects of boundaries
-were conveniently neglected since apparently
-no easy mathematical approach to this com-
+Y are graphically
+se of Boothroyd’s double
+k.'® In the past, in order
+a firm basis for a theory of the
+ardiogram, the effects of boundaries
+Were conveniently neglected since apparently
+No easy mathematical approach to this com-
 plicating nuisance was on hand. Nelson points
 out that the mathematical solution has been
-available since 1845. This was clearly expr‘e ed
-by Lord Kelvin,* by his method of electrical
+available since 1845. This was clearly expressed
+by Lord Kelvin, * by his method of electrical
 images for the solution of boundary prob-
-lems in highly conducting liquids.“ A lucid
-des 'iption of his doctrine, as given by his
-biographer is appended. The image concept
-was known to Wilson and is mentioned in a
-paper from his laboratory” but it seems to h
-cs aped general attention.
-of fundamental
-method for sol
-
-   
-
-   
-
- 
-
-ave
-Nelson’s paper is
-interest since it shows a
-ving boundary problems in
+lems in highly conducting liquids.? A lueid
+description of his doctrine as given by his
+biographer is appended. The image conc
+was known to Wilson and is me
+paper from his laboratory” but it seems to have
+escaped general attention. Nelson’s paper is
+of fundamental interest since it shows a
+method for solving boundary problems in
 electrocardiography, at least for straight line
-boundaries and for hounduri s of a circular
-plane. It should be added that Thomson car-
+boundaries and for boundaries of a circular
+plane. Tt should be added that Thomson car-
 ried the problem further for the solution of
 the effects of boundaries of a sphere, but it
-was W. . I. Hick ‘i who apparently ﬁrst pub-
-lished a complete anal s of spherical bound
-aries in 1880." .»\ccordingr to Hicks, the image
+was W. M. Hicks" who apparently first pub-
+lished a complete analysis of spherical bound-
+aries in 1880.1 According to Hicks, the image
 of an electrical source X located within a
-sphere of radius If at a distance 11 from its
+sphere of radius R at a distance a from its
 
- 
+ept
+ntioned in a
 
-   
+Re
 
-center is a source X1 at the distance £1
-a line of sinks reading from the image source
-X‘ to infinity.
+center 1s a source X! at the distance —, and
+a
 
-A single observation ruay be cited which
-points to the practical significance of considera~
-tions of this l’ind: .\ zero point of reference,
-the ideal pos ion for an ideal indifferent elec-
-trode, has always been considered to be lo—
+a line of sinks reading from the Image source
+X' to infinity.
+
+A single observation may be cited which
+points to the practical significance of considera-
+tions of this kind: A zero point of reference,
+the ideal position for an ideal indifferent elec-
+trode, has always been considered to be lo-
 cated halfway between the source and sink
-of a dipole. it is not so located if the boundary
+of a dipole. It is not so located if the boundary
 is taken into account.
-
-, and
 
 This brief discussion should bring to mind
 again the fact that the basic laws of electricity
-developed during; the [9th century are ap-
-plicable to a the< of electi'ocardiop;raphy
-today in other disciplines, 1' ch in this
-field ht its roots in the past from which
+developed during the 19th century are ap-
+plicable to a theory of electrocardiography
+today. As in other disciplines, research in this
+field has its roots in the past from which
 
  
 
-  
- 
-
- 
-
- 
-
- 
-
-*Sir \V‘ lianr ’l‘lronrpsorn Baron Kelvin ot' Lal'gs
+*Sir William Thompson, Baron Kelvin of Largs
 
 
-W
+ee
 
 EDITORIAL
 
-23-1
+234
+: sid Sos " 3 S
+nourishment rises ceaselessly into the branche
 
-ceaselessly into the branches
-
- 
-
-nourishment i"
-and leaves of present day labors.
-Hal ll. HECHT
-
- 
+and leaves of present day labors. |
+Haxs H. HECHT
 
 APPENDIX
 
- 
- 
+Excerpt from Silvanus P. Thompson: The Life
 
-ei'pt from Silvamis Pi Thompson: The Life
-of William Thomson, Baron Kelvin of L
-London. Machiillan, 1910, voL l, p. 151» .
+of William Thomson, Baron Kelvin of Largs.
+
+London, MacMillan, 1910, vol. 1, p. 151-150.
+
 The doctrine of electric images, several times
-mentioned, seems to have been in Thomson‘s mind
-before he left Cainhridp> but it developed itself
-with surpr ing rapidity during h, ,oiourn in lai ,
-and , ortlv after his return to Cambridge he coni-
-municatedi it to Liouville in three letters, the sub-
+mentioned. seems to have been in Thomson's mind
+before he left Cambridge; but it developed ¥self
+with surprising rapidity during his sojourn in Paris,
+and shortly after his return to Cambridge he com-
+municated it to Liouville in three letters, the sub-
 stance of which was printed in the Journal de
-matliematiqiies in October 18-15 and June 1841).
+mathematiques in October 1845 and June 1846.
 This method, which even now is not adequately
 appreciated, is so elegant, and so fruitful in its
-' tions, that it merits some attention from
-the ientilic reader. It furnishes a most cogent
+applications, that it merits some attention from
+the scientific reader. It furnishes a most cogent
 illustration of the value of that which has been
-aptly termed the cm »fertilization of the s<ienees,
-the value of introduc into one branch of science
-the concepts that hay ‘ 'isen in another. To explain
-the concept of electi images, it may be well to
-begin with a concr re and familiar case of optical
-images. 1‘} ry one knows that if a candle is placed
-in front of an ordinary plane mir r, the, image of
+aptly termed the cross-fertilization of the sciences,
+the value of introducing into one branch of science
+the concepts that have arisen in another. To explain
+the concept of electric images, it may be well to
+begin with a concrete and familiar case of optical
+images. very one knows that if a candle 1s placed
+in front of an ordinary plane mirror, the image of
 it, seen by looking into the mirror, is, as it were,
-another candle of equal size and briglitn with the
-fi it, situated apparently exactly as far behind the
-mi or as the ieal candle is in front. In fact, if the
+another candle of equal size and brightness with the
+first, situated apparently exactly as far behind the
+mirror as the real candle is in front. In fact, if the
 mirror were to be removed from its frame, and a
 second candle set in the position where the image
-prev ‘ly appeared, the amount of illumination
-recciied at any given point in front of the mirror
+previously appeared, the amount of illumination
+received at any given point in front of the mirror
 from the two candles would be identical with the
 amount received from the one candle and its image.
 The limitations of the frame would prevent the
-image. or the substituted nlle, from he g seen
-from ev ' direction. If the n ->r be, conceived to
-be indeﬁnitely evtended, and 1 frame to be in»
-ﬁnitely wide and high, these limi .itions would he
+image, or the substituted candle, from being seen
+from every direction. If the mirror be conceived to
+be indefinitely extended, and its frame to be In-
+finitely wide and high, these limitations would be
 removed. If, instead of a plane mirror, a spherical
 mirror or silver ball were substituted, the image of
-a candle l tced in front will appear to be a smaller
-candle situated now within the spherical surface,
+a candle placed in front will appear to be a smaller
+andle situated now within the spherical surface,
 and at a distance behind the silvered face not equal
 to the distance of the candle in front, but nearer to
-the face. The apparent size aml distance of this
-image can be calculated by easy geometrical rules;
-and again it will be true that if the mirror be re
-moved, and there, be substituted an equivalent
+the face. The apparent size and distance of this
+image can be calculated by easy geometrical rules:
+and again it will be true that if the mirror be re-
+moved, and there be substituted an equivalent
 smaller candle in the place where the image ap-
-pc. 'ed, the illumination at any point in front will
-remain nnalteied by such substitution.
+peared, the illumination at any point in front will
+remain unaltered by such substitution.
+
 Now, consider a small insulated conducting
 body, such as a small metal sphere, charged with
 
- 
- 
- 
-
-.i i.
-
-   
-
-      
-
- 
-
-   
-
-   
-
-   
-
- 
-
- 
-
-   
-
- 
-
- 
-
- 
-
-   
-
- 
-  
-
- 
-
- 
-
- 
-
-positive electricity. If placed in the. middle of a
-large empty l'thlil‘lt‘Wlll proiect its influence him
-he space around it in radial straight lines, acting
-as though the. electric charge upon it were concen.
-trated at its ~entre. Now suppose a very large sheet
-of upper, or some other good. conductor of elec:
-ti-i ty, to be pl 'ed at the side of the charged
-sphere at a short r taiice lrom i Tt can be. shown
-tiat, for all points of the leIH'e “1 ”UM (if this
-sicet, the sheet acts as an electric mirror; the
+positive electricity. If placed in the middle of a
+large empty room it will project its influence into
+the space around it mm radial straight lines, acting
+as though the electric charge upon 1t were concen-
+trated at its centre. Now suppose a very large sheet
+of copper, or some other good conductor of elec-
+tricity, to be placed at the side of the charged
+sphere at a short distance from 1t. It an be shown
+that, for all points of the space in front of this
+sheet, the sheet acts as an electric mirror; the
 effects in this region being the same as if, in the
-ace of the sheet, there had been a second
-ged sphere placed exactly as liiil‘.1‘lelilllll the
-ieet as the actual sphere is in front of it. But there
-is this curious peculiai ' that in order to procure
-an equivalent effect this image splicre’ would have
+absence of the sheet, there had been a second
+charged sphere placed exactly as far behind the
+sheet as the actual sphere is in front of it. But there
+is this curious peculiarity, that in order to procure
+an equivalent effect this ‘image sphere’ would have
 to be charged with an equal quantity of negative
-cectricity. The ‘iniag'e' of a positive charge is a
+electricity. The ‘image’ of a positive charge is a
 negative one, and vice versa. If we suppose the
-sieot removed and the ‘image’ replaced by a small
-:ctiial sphere. negatively electrified to an equal
-(egrec, the s -ice betneen and around the slilit‘l'es
+sheet removed and the ‘image’ replaced by a small
+actual sphere, negatively electrified to an equal
+degree, the space between and around the spheres
 will be traversed by a system of curved lines of
-ecctric force emanating from one and terminating
-at the, other. If we remove the second sphere and
-replace the sheet, the lines of fOlT , in front, emanat—
-ing from the pos' ive sphere will still curve round
-exactly as before until the reach the sheet. The
-
- 
-
- 
-
-     
-
-   
-
-:11)
-(
-
- 
-
-   
-      
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-   
- 
-
- 
-
- 
-
- 
-
-si t will, in fact, receive (by induction) a negative
-t g ; and this charge will be distributed over its
-so ice at irding to a certain law, the density of
-tie charge being strongest at the, point of the
-
-surface nea' st to the sphere, and weaker over the
-surface outw: ds from this center. This ase illus»
-trates not merely the conception of eleeti image. ,
+electric force emanating from one and terminating
+at the other. If we remove the second sphere and
+replace the sheet, the lines of force in front, emanat-
+ing from the positive sphere, will still curve round
+exactly as before until they reach the sheet. The
+sheet will, in fact, receive (by induction) a negative
+charge: and this charge will be distributed over its
+surface according to a certain law, the density of
+the charge being strongest at the point of the
+surface nearest to the sphere, and weaker over the
+surface outwards from this center. This case illus-
+trates not merely the conception of electric images,
 but also the much more refined conception which
-Thomson had arrivez‘l at in 1842 (and Green before
+Thomson had arrived at in 1842 (and Green before
 him) of the replacing of an electrified body or point
 by an electric charge distributed over a surface in
-such a w s, to he in equilibrium. If, to take
-another c . the positive electric point charge is
-placed in front of a large uninsiilated metal sphere.
+such a way as to be in equilibrium. If, to take
+another case, the positive electric point charge 1s
+placed in front of a large uninsulated metal sphere,
 to act as a spherical mirror, there will again be an
-electric ‘iinage’ formed within the sphere. and this
-‘imagc’ will be negative; but its distance behind
-the reflective suiface will not be equal to the dis-
-tance, of the electric ‘object' in boot; and though
+electric ‘image’ formed within the sphere, and this
+‘image’ will be negative; but its distance behind
+the reflective surface will not be equal to the dis-
+tance of the electric ‘object’ in front; and though
 simple rules can be given for finding the position
-and magnitude of the electric ‘iniage'. tlicse rul :
+and magnitude of the electric ‘image’, these rules
 differ from those for the finding of the conjugate
-images in opt' .\n electrical image is. then, an
-electrilicd point. or system of points. on one side
+images in optics. An electrical image is, then, an
+electrified point, or system of points, on one side
 of a surface, which would produce on the other
-side of that sn ' c the Millie electii 1 action which
-the actual electi iation of that siii ace really does
-produce. The method of images can bc exteinlcd to
-many applications. Foi instance, if an elcctrilicd
-point is situated betwecn two parallcl conducting
-sheets, not only will it generate a prim: _\'
+side of that surface the same electrical action which
+the actual electrification of that surface really does
+produce. The method of images can be extended to
+many applications. For instance, if an electrified
+point is situated between two parallel conducting
+sheets, not only will it generate a primary ‘image’
 
  
 
-   
-     
+EDITOR1AT,
 
-   
-
- 
-
- 
-
-     
-
- 
-
-‘imagc’
-
-   
-
- 
-
-EDITORIAL
-
-in each sheet, but each primary image will gen“
-
-:1 secflll‘l‘“ iiiiag‘c of it If in the other sheetbidte
-these will generate tor y images, and so (iii 3 dim
-inﬁnite row, exactly a a luminous point m M]
-tween two mutually facing mirror'
-electi' I
-superp
-
-   
-
-  
-  
-
-does he.
-
-, . The resi '
-latribiitioiis can be calculated livlltlli:
-
-(in of the distributions equivalent t
-the s essivc members of the s was. Again if 0
-elem ed point is placed anywhere betweeii ta‘n
-indefinitely extended planes that meet one anotfm'
-like the two leaves of a shcet of paper there \f'efl
-be a number of imalgt‘S symmetricallyisituatedl'f
-the angle botwccii the planes s 90° or 60° or uni»
-integral fraction of 3fi(1°. This, as Thomson point ‘1
-out. is the analogue of the optical tov called tlef
-krleirlnccuic. Further, if two electrified sober 9
-that are not small are brought near to one a'niritlieiiiS
-reacting on one another’s charges so that the dis1
-tribution of charges over the spheres is distorted
-out of uniformity, the distribution of the cliarrres
+in each sheet, but each primary image w
+o secondary image of itself in the other
+these will generate tertiary images, and
+infinite row, exactly as a luminous poi
+tween two mutually facing mirrors.
+electric distributions can he alculated py th
+superposition of the distributions equivalent to
+the successive members of the series. Again. if :
+electrified pomt 1s placed anywhere between re
+indefinitely extended planes that meet one anot] 5
+like the two leaves of a sheet of paper thats oe
+be a number of images symmetrically situated if
+the angie between the planes is 90° ( 60° or i
+integral fraction of 360°. This, ag Thomson oir
+out, is the analogue of the optical toy alled the
+keleidoscope. Further, if two electrified spheres
+that are not small are brought near to one another
+reacting on one another’s charges so that the dis.
+tribution of charges over the spheres is d'storted
+out of uniformity, the distribution of the charges
 and the resulting force of attraction or repulsion
 can be calculated by considering the whole effect
 as a succession of images that are superposed on
-one anotlioin
+one another.
+
+ill genergte
+sheet, and
+SO on in an
+) nt does he.
+The resulting
+
+REFERENCES
+
+'PraNck, M.: Ueber die Potentialdifferenz
+zwischen zwel verdiinnten Losungen biniirer
+Electrolyte. Ann. d. Phys. u. Chem., Neue
+Folge, 40: 561, 1890.
+
+*HeLmuoLTz, voN H.: Ueber einige Gesetze
+der Vertheilung elektrischer Strome in Kor-
+perlichen Leitern, mit Anwendung auf die
+thier-elektrischen Versuche. Ann. d. Phys. u.
+Chem. 89: 211, 353, 1853.
+
+*TromsoN, W. (Lord Kelvin): Reprints of
+Papers on Electrostatics and Magnetism.
+Ed. 2, London, MacMillan, 1884.
+
+*WiLson, F. N., Jounsron, F. D., RosENBAUM,
+F. F., ErLanger, H. Kossmann, C. E,
+Hecnr, H. H., Corrim, N., bE OLIVEIRA, M.,
+Scarst, R. Barkeep, P. S.: The precordial
+electrocardiogram. Am. Heart J. 27: 19, 1944.
+
+*Baviey, R. H.: On certain applications of
+modern electrocardiographic theory to the
+interpretation of electrocardiograms which
+indicate myocardial disease. Am. Heart J.
+26: 769, 1943.
+
+"Bernstein, J.: Elektrobiologie. Die Wissen-
+schaft. Sammlung naturwissenschaftlicher
+
+"Woobgy
+3 »
+: URY, L. A, ECHT H H \ C
+PEERSON, R. A . » 22+ 41. AND UHRISTO-
+
+and
+ardiac muscle
+0g ventricle. oy
+164: 307 1051 © icle. Am. J. Physiol.
+
+"Draper, NM. {
+
+9
+Horryay, B.F
+
+" WiLson,
+
+2 McFeE, R.
+
+-
+
+BB " unschw 1 y \ 1 ve Sq 91 2
+g ley / < 3
+
+Membrane resting
+
+action Potentials of single ¢
+
+fibers of the f)
+
+resting and Hn I, S.: Cardize
+‘ : ¢ po en 1als recor
+an intracelly] recorded with
+
+4, 1951.
+
+botentials of i
+Potentials of intact mammalian hearts,
+
+J. Physiol. 170: 357. 1959 Sa
+'* JorNsoN, FP, ING 1
+
+H., Eyring. H
+
+M. J.: The Kinetic Basis
+Biology. New York, Wiley
+chapter 11. :
+; . N. AND BayLey, R. H..
+tric field of an excentric
+mogenous spherical ¢
+culation 1: 84, 1950.
+: ae JounstoN, F. D.: Electro-
+cardiographic leads. Circulation 8: 554
+1953; 9: 255, 868. 1954 E
+
+13 Wyre >
+WiLson, F. N., Macreon, A. G. AnD BARKER,
+
+P. S.: The distribution of currents of action
+and of injury displayed by heart muscle
+and other excitable tissues. Univ. Mich.
+Press, University of Michigan Studies. Scien-
+
+tific Series 10: 1933.
+
+“Crate, W. H. axp CANFIELD, R.: A study of
+
+the electric field surrounding active heart
+muscle. Heart 14: 71, 1927.
+
+1" NELsoN, C. V.: The effect of the finite hounda ry
+
+on potential distributions in volume con-
+ductors. Circulation Research 3: 236, 1955.
+
+1 Booruroyp, A. R., CHERRY, E. C. AND MAaKAR,
+
+R.: An electrolytic tank for the measurement
+of steady-state response, transient response,
+and allied properties of networks. J. Inst. Elec.
+Eng. 96: 163, 1949.
+
+17 Prurrt, R. D. AND VALENCIA, F.: The immedi-
+
+ate electrocardiographic effects of circum-
+scribed myocardial injuries. Am. Heart J, 32:
+977, 1946.
+
+18 Hicks, W. M.: On the motion of two spheres in
+
+a fluid. Tr. Roy. Soc. 171: 455, 1880.
+
+19 SrevENSON, R. L.: El Dorado. Virginibus Puer-
+
+isque and other Papers. New York, Scribner,
+1907, p. 170.
+
+23
+
+er Monographien. 24. Heft,
+
+ar electrode, J. Physiol. 115:
+
+. and SUCKLING, E. E.- Cellular
+
+AND POLISSAR,
+of Molecular
+and Sons, 1954,
+
+The elec-
+dipole in a ho-
+onducting medium. Cip-
 
    
-
-   
-  
   
 
- 
-
-ltEFlYRlCNH‘Ih‘
-
-‘PLANCK, .\l.: Ueber die Potentialdil‘ferenz
-zwischcii zwei verdiinntcn Lﬁsuiigeii biiiz'irer
-Electrolyte. Ami. d. 1‘1 ii. ('hein., Veiie
-Folge, 40: 5131, 18510.
-
-QHELMHOL'IU, \‘()N H.: Uebcr einige Ge. tze
-dei‘ Vertheihuig elolt clier Stream in Ki‘ir-
-perlicheii Leitorn, mit Anwenduiig auf die
-tliierrelelttrischeu ‘ uclie. .\ini. d. Phys. u.
-Chem. 89: 211, :.i., 19
-
-JTuonsox, \\'. (Lord Kel
-
- 
-
-   
-
- 
-
- 
-
-  
-    
- 
-
-n): Reprints of
-. on Electrostatics and Magnetism.
-Ed. 2, London, Macalillaii, IRS-l.
-
-' 4 , l". N, JOHNS’HN, 17. l) Ito EACH,
-F. i, l‘iltlANGElt, H. Kos. ‘, (K E,
-lll‘ECH’l', 11. H., Corina, N DE UL]\'1‘IIY{;\,KL,
-St nsi, It. BARKIII', l’, : The prccorilial
-
-. electrorarlliog‘i'am. .\in. Heart J. 27: l9, 1944.
-
-"BAYLEY, It. 11.: (in certain applications of
-
-modern cloctrocardiographic theory to the
-
-interpretation of clertrocariliograms which
-
-indicate myocardial discaso. Am. Heart J.
-
- 
-
-   
-   
-
- 
-
-  
-
-   
-
-l‘Ilcl;trobiologic. Die \‘1‘ 'en-
-Naniiiilung naturii ,iischiiltliclier
-
- 
-
-  
-   
-    
-   
-   
-    
-  
-  
-  
-  
-   
-  
-   
-    
-  
-   
-  
-  
-   
- 
-  
-   
-  
- 
- 
-    
-  
-   
-  
- 
- 
- 
-  
-
-235
-and niatheiiiatiscli
-
-Braunscliweig
-
-er Monograpliien. 2-l. Heft.
-' \Voooiit'in', L. .\,
-
-VIiLeweg and Son, 1912.
-”Hwy R , l [(iiIiIi H. AND (‘iiiiis'ro-
-. '. mirane rest' Y
-ﬁlmigiofiiiﬁleeiitfiﬁls of single cai'ilizicmiiiiiff‘lii
-. I) , .' . i
-164; 307, 1951‘ 1,, \entiirlet Am. J. Pliysiol.
-“Danna, _\1. Hi
-resting and ac
-an inti'acelliil
-(4,1951i
-
- 
-
-    
-
-  
-
-AND \l'nni Ht ("oil
-
-4 l .. . lﬂC
-Ition poten i ‘(il'tletl with
-in electiode. J. Physiol. 115:
-
- 
-
-" Horrnn p F ,
-ti . . . and because, L}, E . . . ,
-of intact in: -- (ellnlai
-
-potentiz l .
-. iin ; 4 . .
-. m,‘ 170: 357, 1952iiiiliin limits .\in.
-
-N. F. H., EviiiNG
-
-\I. .l.: The Kinetic ,BHi
-BIOI‘lgli New York 11'
-chapter 11. ’
-
-”11.111 » , F. N b BAYL
-tric ﬁeld of an excentrlc dipole in a 1107
-
-mogeiious spherical conductiiiw medium (‘ir-
-culation 1: 84, 1950. h '
-
-”McFi-iis, R. AND .lom'
-oardiograpl’ lea
-
-m .1953; 9: 255, 868, 1 ,
-
-11 itsoN, F. N. \l to», A. U. AND Banana.
-1. 5.: The ( ihiitioii of currents of action
-and of injury displayed by be: t muscle
-and other excitable tissues. l'nii Mi 1
-Pi" ‘ University of Michigan Stiidi i
-til'ic i ' 10: 193-1
-
-“CHAIR, \V. H. AND CA Flaw, ll: ,\ study of
-the electric field "minding active heart
-muscle. Heart 14: Tl, 1927.
-
-‘5 N15 .oN, C, V.: The effectof the ﬁnite, houiidaiv
-on potential distributions in volume can:
-ductois Circulation Research 3: 236, ll) ,
-
-mBoo'riiiiovi) r\,lt., (‘uii iv, E. (K; n l‘lA Mt,
-
-lytic tank for the measurcinent
-of ste- l_v».~tate response, t' 'ient rcsponsc.
-and allie 1 properties of netwoi s,J. Inst. lilec
-Eng. 96: 163, 19-19.
-
-17 I’m'rr'r, R. D. so VALENCIA, l".: The iinn
-
- 
-  
-
- 
-      
-
-~ of Molecul
-iley and Sons, 1
-
-dsis
-
- 
-
-       
-
-3 R. H.: The elec-
-
- 
-
-ov, F. 1).: Flectro~
-Circulation 8: 554.
-
- 
-
- 
-  
- 
-
-   
-
- 
- 
-
- 
-
-     
- 
-
-cien»
-
- 
-
- 
-
- 
-
- 
-
- 
-
-     
-
- 
-
- 
-
- 
-
-      
-
-   
-  
-
-ate electron.riliogi'aphi effects of l‘il’t‘llliir
-'bczl myocardial injiii'ic i\ni lleart J., 32:
-
- 
- 
- 
-  
-
-, 19-16.
-
-‘5 l-lic ,\\'. \l,: (in the motion f 1.\\(i,\‘|ili(\i'(\_\' i”
-:1 Hold. Tr. [to Soc, 171 ' 1830.
-
-”Si soy, lttL . ill)fil"lt1!), \' ginibus l’uei'»
-is'pic and other l’apcis. New Yorli. lH‘crilincr,
-1907. p. 170,
+i
+ye
+A _
+r =
+I) ER
+» bs ¥
+vol
+iA . A
+FY “
+3
+
+a
+rT
+Aha -~
+2
+»
+»
+
+ty *
+A
+3
+
+= S.
+LJ »
+wae i
+A Pom 5
+£ RA)
+
+"no
+
+x
+
+» TRE
+co bh)
 
 

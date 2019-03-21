@@ -1,0 +1,68 @@
+The processor is being modified to handle a subset of 709 format statements,
+and to include extensive, built-in debugging aids, The current version requires
+& 40K card machine, (no other special features) but the system including format
+statements will also require indivect addressing and additional instructions
+
+(TNS, TNF).
+
+Any questions or comments should be directed te: F. I. Sillay, Room 1-250,
+Masgachusetts Institute of Technology, Cambridge 39, Massachusetts.
+
+TWO NEW SUBROUTINES FROM UNIVERSITY OF MASSACHUSETTS
+m%mw AT S oD
+
+Dr. Robert L.. Rowell writes that he has prepared a detailed procedure for altering
+the Fortran Processer (20K -paper tape) to add subroutines. Tapes and write=ups
+are available from him.
+
+Two new subroutines have already been added to the 1620 Fortran (Z0K-paper tape)
+compiler at the University of Massachusetts. These are Format Centrol, call
+name RFS (for typewriter output), and Absolute Value, call name RIS he
+Format Control subroutine allows typewriter ‘control, alphabetic output capability,
+and format control of output data. The Absolute Value subroutine gives as a
+resgult a positive value for any variable used as aa argument regardless of the sign
+of the data involved, Tapes and write-ups are available on request,
+
+DEDICATION AT UNIVERSITY OF MASSACHUSETTS
+
+Dr. Rowell has announced that the University of Massachuseits is pregently
+planning a dedication of its Research Ceomputing Center on September 22 and 23
+which would include a meeting of this New England Universities 1620 Group on
+Friday afterncon and a special program and dedication on Saturday morning.
+Professor Philip M. Morse, of M.1.T. ie to be one of the Principal speakers.
+Further details and invitations will soon be sent out.
+
+ASSOCIA TION FOR COMPUTING MACHINERY
+—— o VIAUHINERY
+
+In case you have not already done so, you should certainly join ACM if you are
+at all associated with a Computing Center. The Association publishes the
+monthly "Cemmunications", quarterly "Journal" and the bimonthly “Reviews',
+All of these sheould be available at » Computing Center. A pplications for
+membership may be obtained from Association for Computing Machinery,
+
+14 East 69th Street, New York 21, N. Y.
+
+BOOK REVIEWS
+M—_“.m“
+Do you have a reserved book shelf for the Computing Center, or are vyou develop-
+
+ing your own library ? Following are some recent books which you should know
+about:
+
+ 
+ 
+
+y8is of Sociceconomic Systems: A Simulation Study by Orcutt,
+
+LBET, > 2 E arper & Brothe rs, 1961
+
+  
+
+2rger, Korbel, and Rivlin, New Yor B : | ) 4
+» the formidable title this is a very readable book describing a very
+
+       
+
+Despite
+specific economic meodel in ferms o using it with computer simulstion.

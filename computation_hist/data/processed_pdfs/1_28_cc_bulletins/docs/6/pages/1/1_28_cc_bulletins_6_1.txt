@@ -1,0 +1,50 @@
+L
+
+, oA
+CC-187
+COMPUTATION CENTER
+Massachusetts Institute of Technology
+Cambridge %9, Massachusetts
+December 4, 1961
+To: All Programmers
+From: . Computation Center Staff
+
+Subject: T09-7090 Program Conversion
+
+Although the 709 and 7090 are in most respects
+program compatible, there are some changes that you
+should make to your 709 programs to insure proper,
+operation on the T7090. Somewhat in order of importance,
+these are described below,
+
+FMS MAIN Subprograms
+
+The internal interval timer and clock which we
+will have on our 7090 uses location 7 as its trapping
+location. This location has been the manual restart
+entry point for F2PM and all Fortran main subprograms
+compiled before November 1, 1961 and most FAP main
+subprograms contain the five instruction sequence
+
+CLA éFPT)
+STO
+ST <k Y= 20
+CLA (F2PM
+STO T
+
+or 1ts equivalent. The last instruction of this
+sequence should be changed to
+
+STO 36
+
+where %6 1is an absolute non-relocatable decimal
+address. If you are re-assembling a FAP main
+subprogram the entire sequence may be replaced by
+
+TSX $.SETUP, 4
+
+which 1is what Fortran now compiles. .SETUP is a
+library routine which performs the necessary
+initialization of (FPT? and (F2PM). Since .SETUP
+may be expanded or changed at at any time it is
+suggested you always use the library tape version.

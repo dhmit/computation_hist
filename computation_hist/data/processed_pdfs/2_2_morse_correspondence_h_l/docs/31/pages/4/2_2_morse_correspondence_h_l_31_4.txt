@@ -1,0 +1,142 @@
+285
+
+When heat flows out perpendicularly through a
+spheroidal isotherm, the amount flowing through any
+slice made perpendicular to the axis of symmetry is
+directly proportional to the width of the slice, inde-
+pendent of the position of the slice with respect to the
+spheroid.
+
+G. RESISTANCE HEATING OF THE CORE
+
+The theorem stated above shows that, in order to
+keep the core heated uniformly, the amount of heat sup-
+plied must be the same for any unit length of the core.
+Since the amount of heat generated in the wire wrapped
+around the core is proportional to the length of wire,
+we must distribute the winding density suitably. As-
+suming that each turn of winding is a circle, the length
+of wire used per unit axial length is given by :
+
+dL/dz=2mrn(z),
+
+where 7(z)=the number of windings per unit axial
+length.
+
+If dL/dz is to be constant, n(z) = 1/r. It is impractical
+to use such a variable distribution; instead, the core is
+subdivided lengthwise into an odd number of equally
+wide sections, each section being wound uniformly by
+the same length of wire. The number of windings of the
+1th section is then given by:
+
+n,-/,/:fdz= l/A c1y
+
+where A.; is the area of the lengthwise cross section of
+the 4th slice.
+
+Hence, the amount of windings for each section is
+given by
+Ni—Neg-Ng—=—*** =Ny
+
+1 1 1 1
+
+—_— o o S
+e — — — — —— — O —— W
+- -
+
+Acl Ac2 Ac3 ACi
+
+H. INDUCTANCE HEATING OF THE CORE
+This will be discussed in a subsequent paper.
+
+I. TIME TO SETTLE TO EQUILIBRIUM
+
+The core is heated fairly rapidly, and consequently
+thermal equilibrium is disturbed. The time that elapses
+between disturbance and re-establishment of thermal
+equilibrium is made up of two terms: the time needed to
+heat up the core and the time needed in addition until
+thermal equilibrium exists again in the walls. Since
+infinitely slow heating does not disturb equilibrium,
+while instantaneous heating produces the worst dis-
+turbance, we can get a fair estimate of the settling time
+by assuming instantaneous heating, thus somewhat
+underestimating the time lag for heating the core, but
+overestimating the time needed for thermal equilibrium
+to re-establish itself.
+
+The temperature obeys the following time-dependent
+equation:
+Vi0=(1/h*)060/dt, where h?
+
+= thermal diffusivity (6)
+
+THEORY OF ENVELOPE TYPE THERMAL CONDUCTIVITY TESTS
+
+subject to the boundary conditions:
+t=0: 0(u,0)=s(u) foru>u,,
+where s(u)=steady-state temp. before heating.
+t=0: 6(uy,t)=8,,
+where 6. is the final temperature of the core.
+0(us3, t)=s(us).
+
+The solution is given by:
+6(u, 1) =s(u)+[(As—A)/(As— A1) 10— 82)+ T (x, 8), (7)
+
+where T'(u, t) satisfies Eq. (6), and vanishes at /—s o
+(T represents transients), while
+
+T(u,0)=—(As—A)(8.—61)/(As—A,).
+
+It is difficult to solve Eq. 6 for spheroidal coordinates,
+since in the nonsteady state there are no spheroidal
+isotherms in the walls. However, the settling time may
+be approximated by finding it for a spherical wall and
+for a plane slab. These two results agree so well that the
+same answer may be assumed for the spheroid. For the
+sphere '
+
+27’1
+r
+
+=1 3—1 n2mw2h?
+M sin(mr ) exp[———t].
+
+n=1 n ro—171 (73—71)2
+
+ 
+
+ 
+
+The settling time is usually defined as the time neces-
+sary for the transient to reach 1 percent of its initial
+value, and is seen to be proportional to the square of the
+thickness, and inversely proportional to the thermal
+diffusivity. For a double wall, we consider the two
+layers as being heated in series; the diffusivity being
+much greater for the inner layer and its thickness less,
+we regard only the settling time for the insulating outer
+layer as finite. The series for 7'(, ) converges so rapidly
+when the exponential term becomes of the order of
+1 percent, that we drop all but the first term. The coeffi-
+cient of the exponential term varies with the shape of
+the vessel, but this does not influence the settling time.
+It is seen that the spheroidal wall would settle to equi-
+librium most rapidly at the thinnest section, which
+causes heat to flow laterally until equilibrium is estab-
+lished throughout. The settling time is thus approxi-
+mated by :
+
+ls=(2 In10)d?/=%h2,
+
+where d=greatest thickness of wall layer with lowest
+diffusivity, 4*=lowest diffusivity.
+
+ACKNOWLEDGMENT
+
+The research for this article was done as a consulting
+assignment on the project conducted by Professor F. H.
+Norton with the assistance of Messrs. Milton Adams
+and Malcolm McQuarrie, whose original experiments
+were the inspiration for this work.

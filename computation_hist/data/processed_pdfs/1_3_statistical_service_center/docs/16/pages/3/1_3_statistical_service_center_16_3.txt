@@ -1,67 +1,57 @@
-‘
+OFFICE oF STATISTICAL SERVICES =g
+| List of Regorts Issued fram.Julz l, 1952 « June 30, 1953
+1) Verzuh, Frank , \
 
-OFFICE OF STATISTICAL SERVICES
+"Solution of Boundary value Problems on Automatic Computing Equipment"
+MIT Statistical Services Report S1 (296 pages)
+" “August 22, 1952 s
 
--3:
-List of Re orte Issued from .Jul 1, 1962 - June 30, 1953
+2) Verzun, Frank M, | £
 
-2) Verzuh, Frank M.
+8) Verzuh, Frank M,
 
-“Description of the M.I.T.
-
-General Purpose Control Panels for
-the Model H Card Programmed calculator"
-MIT Statistical Service
-
-5 Report 3-10 (43 pages)
-December 15, 1952
-
-3) Verzuh, Frank M. ,
-"M.I.To CPO Board NO. III -
-
-A 12-Digit Fixed-Decimal Board"
-MIT Statistical Services Report 8-12 (16 pages)
+"MsI.To CPC Board No. IIT - 4 12-Digit Fixed-Decimal Board"
+MIT Statistical Services Report S-12 (16 peges) 5
 June 12, 1953
 
-;
+4) Verszuh, Frank M.
 
-4) Verzuh, Frank M.
-"Description of the M.I.T.
-Decimal Board"
-MIT Statistical
-June 25, 1953
+"Description of the M.I.Ts Board No, V - A 13=Digit Floating=
+Decimal Boarg"
 
-Board No. V — A Iii-Digit Floating-
+MIT Statistical Services Report Se14 (17 pages)
+June 26, 1953
 
-Services Report 5-14 (17 pages)
+List of Reports Issued from Julz l, 1953 » June 30, 1954
+1) Verzuh, Frank M,
 
- 
-
-MIT Statistical ~1? (52 pages)
+"MeI.T. General Purpose Control Panel Board IV for Model IT CPc®
+MIT Statistical Services Report S-13 (32 pages)
 September 30, 1953
 
-2) Vex-zuh, Frank M.
-"A Description of the IBM Brushed-Card System"
-MIT Statistical S ‘
-October 50, 1955
+2) Verzuh, Frank Mo
 
-(12 pages)
-Paper presented at AI‘ ’ ‘
+"A Description of the IBM Punched-Cerd System™
+UIT Statistical Serviess Report (20 pages)
+Ostober 30, 1953 :
 
-Lug, May 6, 1954
-5) Verzuh, FrankMa
+8) YVerzuh, Frank Mo
 
-"The Educational .
-Proceedings of C Jaining Personnel for the Computing
-Machine Field, June 25, 1954
+"Solution of Boundary-vValue Problems on Automatic Computing Equipment®
+AIEE (Communications and Electronies) 10, PPe 813-821, January 1954
 
-6) Verzuh, Frank Mn
+4) Verzuh, Frank M,
 
-"Electronic Computer Laboratory:
+"Digital Computer Solubion of Seheduled Alr Traffioc™ (12 pages)
+Paper presented st AIEE North Eastern Districs Meeting, May 6, 1954
 
-Theory and Experiments" (231 pages)
-July so, 1954
+8) Verzuh, Frank Mo .
+"The Educational Concept of Computers as g New Tool® (8 pages)
 
- 
+Proceedings of Conference on Training Personnel for the Computing
+Machine Field, June 23, 1954
 
-¥
+6) Verzuh, Frank M,
+
+"Electronic Computer Laboratory: Theory and Experiments" (231 pages)
+July 30, 1954

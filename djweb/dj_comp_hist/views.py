@@ -235,6 +235,14 @@ def advanced_search(request):
         print("Error getting document title")
 
     try:
+        phrase = request.GET['contents']
+        if phrase != '':
+            doc_objs = Document.objects.raw(f'SELECT * from doc_fts WHERE text MATCH "{phrase}"')
+
+    except:
+        print("Error getting phrase")
+
+    try:
         author = request.GET['author']
         if author != "":
             author = author.split(" ")
@@ -274,10 +282,14 @@ def advanced_search(request):
         print('Error getting pages')
 
     try:
-        years = [int(request.GET['minYear']), int(request.GET['maxYear'])]
-        doc_objs = doc_objs.filter(Q(date__year__gte=years[0]) &
-                                   Q(date__year__lte=years[1]))
-    except:
+        min_year = int(request.GET['minYear'])
+        max_year = int(request.GET['maxYear'])
+        if 1900 < min_year < 2000 and 1900 < max_year < 2000:
+            doc_objs = doc_objs.filter(Q(date__year__gte=min_year) & Q(date__year__lte=max_year))
+        else:
+            doc_objs = []
+
+    except ValueError:
         print('Error getting min and max years')
 
     print(request)

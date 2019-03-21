@@ -1,0 +1,184 @@
+¢ Society—Adams Vol. 37, No. 2
+
+6 Journal of The American Ceramt February 1954 (Part II) Thermal Conductivity, I11 77
+
+and thermal conduction. By calculation and pred(i)ctmn he
+obtained for magnesia 0.1 at 0°C. to 0.014 at 1100°C. For
+alumina the values decrease from 0.025 at 0°C. to 0.010 at
+1100°C. He assumed the crystals to be spherical, and mac!e
+other assumptions regarding physical and c'r_vstallograp.hlc
+constitution. Fine, hairlike cracks or pores 11 the alumina
+sample may account for the relatively low values obtained
+for alumina.
+
+No reference to a spheroidal type of apparatus such as used
+for this study was discovered in the literature. Only refer-
+ences to the spherical units previously mentim.\cd were en-
+countered. Hering® has suggested hemispherical caps as
+heat guards for the cylindrical method.
+
+POWER SUPPLY
+
+ 
+
+VOLTAGE e |
+STABILIZING VARIAC WATTMETER
+TRANSFORMER
+
+\ i1
+(A iy .',....AL
+
+An\g;‘kll‘
+
+« ,.x.‘\ 11 1 i 11 H } ﬂ \WWTW\\M Tuemocoup\:es
+
+AAA b d A bd 4 b
+
+COLD JUNCTIONS
+
+Fig. 2. Alumina specimen and heating unit (platinum-wound core). !'
+STANDARD
+BATTERY CELL
+
+lll. Table of Symbols
+In addition to the table of symbols presented in Part II of
+this series (p. 73), the following symbols and corresponding
+units are employed in this paper.
+
+ 
+
+o = thermal diffusivity (sq. cm. per sec. = k/cp). (1)
+¢ = specific heat (cal. per gm. per 2CY).
+
+p = density (gm. per cc.).
+
+g = rate of heat transfer (cal. per sec.).
+
+L = length of cylinder (cm.).
+
+S[= 9]
+s d 5
+standard per cent deviation = 100 § —— = (2)
+
+ 
+
+     
+   
+
+S = e SAMPLE”
+b = value.
+
+d = value from curve.
+
+n = number of values. : = Fig. 1. Photograph of mold for specimen.
+
+S, = standard per cent error of mean = S/ m. (3) LA N TYPE K—1I RUBICON
+
+m = number of run or observation.
+r, = radial distance to inner thermocouple in cylinder (cm.).
+r. = radial distance to outer thermocouple in cylinder (cm.).
+
+POTENTIOMETER
+
+  
+ 
+
+HEATING CORE
+. CERANIC SPECIMEN
+
+GALVANOMETER
+
+  
+
+It was soon discovered that the hemispherical guards did
+not eliminate nonradial flow entirely.! This distorted heat
+flow was also revealed by the distorted discoloration markings
+noticed in the insulating cover upon disassembly. It wasthen
+decided to resort to the prolate spheroid where there are no
+discontinuities in the curvature of the surface. The values
+obtained with the cylindrical apparatus were then shown to
+be very low as expected.
+
+Fig. 4. Schematic diagram of complete apparatus.
+
+IV. Preliminary Work
+
+\INSULATING FIREBRICK BaW K-28
+As a preliminary step in this investigation, it was decided :
+
+Ta ol
+'r/.
+
+A AATAAAT to try hemispherical caps as heat guards for a cylindrical
+
+A A
+7 specimen, as suggested by Hering® The caps and cylinder
+were slip cast from a suspension of finely dry-ground alumina.
+The cvlinder was cast with two lengthwise thermocouple
+holes. These holes were made by employing rods of stainless
+steel 0.022 in. in diameter. The holes were located about 1
+mm. from the inner and outer surfaces respectively. The
+specimen was fired to a total porosity of 13.00% or a bulk V. Apparatus and Procedure
+
+Fig. 3. Cross section of specimen assembly.
+
+of 3.66 to 3.69 gm. per cc. One magnesia specimen was hy-
+drostatically pressed at 30,000 Ib. per sq. in. after slip casting.
+
+ 
+
+a1ty 248K o > e T 15 ve at - . . ~ . y
+;]“Nl-\ ‘1’2"‘4‘ g0 “,’(r (tt' H}chc_\ lmdlelr ‘}:f‘i“b”“t 10 cm. (1) Specimens Magnesia specimens were fired to a total porosity of 8.10 to
+ong and 4 cm. in diameter, with a wall thickness of 1 cm. S Do : : , - i 2 0207, wi S e e aypiie e lialee NN
+T s B S S e : . The first step in making a specimen was the fabrication of 8.93% with a bulk density of 3.26 to 3.29 gm. per cc. For
+he caps were of the same thickness and appropriate size to : . : . zirconia the total porosity was 7.76 to 10.00%; the bulk den-
+£t e cothly a stainless steel template with the aid of an ellipsograph. A R S Lebody 5 I l. 79> e
+Alofafins Ak wae desisred tof k2 model was then made using the template. This model was sity was 5.22 to 5.35 gm. per cc. In the case of thoria the
+A platinum-wound unit was designed to fit the inside of the : : ; : S : total porosity was 16.7% and the bulk density was 8.07 gm.
+e e Rl aat o s heating elente PRARE S used as a pattern for the master or primary mold. From this ) Sanri/C : IS 8
+specimen and act as a heating element. Pt-Pt-107% Rh - : : i s per cc. The beryllia had a total porosity of 9.7% and a bulk
+i ounles were used. An insulating cover was mold the secondary or casting molds were constructed. The S - o S
+thermocouples were used. An insulating cover was prepared R e _cont ) density of 2.7 gm. per ce. Hydrostatic pressing of the mag-
+for the whole assembly from insulating firebrick Babcock and i R NS00 (L.Mwwd as to result in a fired specimen nesia seemed to have no 'Ll)prc"ciable effect on the porosity
+v 3 ¥ 0O Tha . = Ao whose PR N OB = . e g LJOO1d SC < h AR
+Wilcox K-28. The power was turned on and the assembly o7 SS(lnmcrlx(l)nnor = dike ahnul._ . ‘1.11(1 INNeEr Mmajor-ais The heater core was slip cast from a suspension of finely
+was allowed to reach thermal equilibrium.  Power input and d('l Smm €. Ih,c outer minor axis was about 4 cm. ! oround alumina. The alumina cores were fired to zero ap-
+srmocouple potentials were measure and the outer major axis was of such length as to insure con- = el . : SRR I ot
+”‘?T"‘ Sl i S m(asur?d. I focality betwee ]tl S RN FLiL parent porosity. In this method the core 1s so wound with
+[he following equation was obtained by combining the S‘ % AUALSAS L Sun‘““‘“" : platinum wire that equal amounts of heat are generated 1n :
+rate-of-heat transfer equations for a cylinder and a sphere: wpecimens were prepared by slip casting from suspensions equal lengths along the axis of rotation (see Fig. 2). This is R
+of finely ground material. Two piece plaster molds were used Gt '];: R 5 fl : ¢ e l"ﬂ : h"l-‘h.erc s e o
+q one of the requirements for uniorm nea OW. . Fig. 5. Photograph of specimen assembly.
+
+E = — o (4) Wl'ilh carefully ])()Si(if)}lc(l 0.022-in. stainless steel rods for
+|JT: G + (r.:*_'—r—)] 2xAT Elennucoupl@ h“]CS.. lhcsc‘l'lulcs were about 1 mm. from each
+
+' ' 51{rface of the specimen. Figure 1 shows the two-piece mold
+
+g = rate of heat transfer (cal. per sec.). with the two rods in position. The alumina, magnesia, 71T~
+
+more requirement for uniform heat flow. This is satisfied by
+designing the shape of the specimen, whose thermal conduc-
+tivity it 1s desired to measure, so that its inner and outer sur-
+
+ 
+
+SEECL S A o : B o faces are confocal with the surface of the core. The cross
+e e
+r. = radial distance to outer thermocouple in cylinder (cm.). Matalltrsionl Pebiass fal; "‘ll"”"‘ . “; PES l.""r“‘ i t] ‘)‘\ B demonstrates the confocality of all surfaces. TS sembly, cold junction, potentiometer, and galvanometer. A
+- & e R . e fired to ahlolul : e e _T ;(.l,llll}.lll‘l samp- (s)\ Vo I“Hllfk_‘ 3 also fl‘l”“'-* lhf‘.l""\"“““ of th-e tl_,lern.loc.ouplcs within photograph of the specimen u.s?‘.cml)l.\' is shown ifl Fig. 5.
+
+With the aid of this equation and ",Kas.urcd data, conductivity porosity of 6.35 to 7.119%, with a bulk densit) the specimen. The semifocal length g 1s also indicated. Pt- The power supply is stabilized by means of a Raytheon
+
+Valueswere dc_t?nmnc(-lrfoor alumina ranging from 0.0113 at — : Pt-109 Rh thermocouples 0.010 in. in diameter are used. voltage stabilizer of 1000 watts which holds a constant output
+
+4963C.£0,0.0050:a8 13851 An insulating cover is employed. voltage of +'/.%. A General Radio Company Variac 1s
+
+B I)i:'i'i‘il(l)(l)lriill)cs‘;,:::-ltl)lc.s were prepared by T. Vasilos, Cgrzmlics P ujed to rcg’u‘lz’lltf tll\}c illl)llf.j’f?hilf.l(‘. tuth? hcqtcr.. \ ALL:cds‘a.n(l
+'l‘cch11(>l(’;g§~. l‘;\_ :;;;)xl(%;l(j{iilrc;:(ll“r'g.\".:\~I'L;\\;Whlh(f'“s [nstitute O ( ) Ppaf"afus i . : .\.'ortl'lnﬁ) ]l._\‘pc '—l— 1.' ])I‘LUSI(\)II .;.)o.l(‘ntlml.nlclt(:r mn .k'()lll.]l-lll(llun
+
+_ACo Henng, “Method for Determining Thermal Conductivi- f Beryllia specimens “'t'i:‘t' silllll)];ll'ilu‘lull:\- \lll&\(?:t.]l'll:l((l)n%‘chw;u-tz of I'lf.,"ll!'(‘ 41s a .xchcm‘tlpc dlu)';'ru.m of the complete u}')purutu‘: with a Rubicon ga \'.luui)met(r is employed in measuring the
+
+ties,” Trans. Am. Electrochem. Soc., 18, 213-33 (1910). the Metallurgical Project, Massachusetts Institute of Tech- showing voltage stabilizer, Variac, wattmeter, specunen as- thermocouple potentials.
+
+nology.

@@ -1,0 +1,55 @@
+COMPUTATION CENTER
+
+Massachusetts Institute of Technology
+- Cambridge 39, Massachusetts
+
+No. 21
+March 23, 1962
+
+BULULBE IT'I N
+
+Suggestion
+
+The Center suggests that you file these Bulletins as informal
+supplements to your Procecdures Handbook.
+
+ 
+
+Fortran/FAP Monitor System, Version 2
+
+ 
+
+IBM has recently distributed a new version of the FMS system
+called Version 2. Primarily, this is a cleaning-up of the old
+version, however, several additional features, described below
+have been introduced. This new version does not require any
+changes in most presently running programs, but the introduction
+of Version 2 will introduce several changes some of which assume
+the use of the subprogram .SETUP by the main subprogram. This
+will require recompiling or reassembling your main subprogram
+if it does not presently call .SETUP (see VI ,SETUP below%.
+
+The introduction of this new version of the system is being
+delayed until the Center's staff can incorporate the changes
+previously made to the old version and until we feel sure it has
+been properly announced as via this Bulletin, Notices will be
+posted within two weeks on the bulletin board stating when it
+will go into effect. When Version 2 is operating, the Center will
+
+no longer maintain the old version since IBM now considers it
+obsolete.
+
+I. FORTRAN
+
+A new version of Fortran called FORTRAN II, Version 2, will
+be incorporated into the new system, It's compilation time is
+decreased and time estimates can be based on the formula
+
+.2 + .004 (number of cards) = minutes.
+
+II. The DEBUG Package
+
+The FORTRAN Monitor System will inclucde a facility for
+dynamic tracing during execution of FORTRAN programs. This
+facility will not be available for MAD or FAP programs. For a
+more detailed explanation, programmers should obtain SOURCE

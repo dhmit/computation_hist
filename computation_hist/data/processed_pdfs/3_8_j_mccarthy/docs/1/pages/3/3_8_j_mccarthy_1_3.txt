@@ -1,0 +1,37 @@
+MEMORANDUM Page 3.
+
+5. Improved Programmling System. I have a number of de-
+tailed proposals for improvements which we can make in our TO4
+system quickly and which will save large amounts of tlme.
+
+Here I only remark that
+1. A large fraction, 40 per cent, of our runs involve
+less than .5 minutes computer time but take longer because
+l) System tape twiddling
+2) Card reading time
+3 Operator reactlion time
+A system which assumes that every run requires
+32K of memory and 1is of the most complicated sort allowed.
+
+MYy main proposals are for an operator system for Fortran
+complled decks and a fast-service small job system for SAP
+language programs. The latter, if fast-service system runs
+were given priority, could cut 50 per cent of our present time
+load in 3 and make another 15 per cent program more efficiently
+in order to stay in the fast-service system.
+
+This has an lmportant general application. While the demard
+for computation from big users is insatiable, the amounts of
+computation required per run range over factors of 104 and will
+go larger. Small users can eventually be given dlal-tone-like
+gservice without clogging the computer,
+
+6. Making Big Users Pay. There do not seem to ne enough
+sultable g users.
+
+T. Enforcement of Allotments. If supplementary allotments
+are always available, the allotment system does not really exist.
+
+8. OR Study. Why delay longer?
+
+JMeC/mbw

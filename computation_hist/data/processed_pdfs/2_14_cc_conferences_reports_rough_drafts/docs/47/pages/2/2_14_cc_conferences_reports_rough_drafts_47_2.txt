@@ -1,0 +1,30 @@
+~ P |
+
+Experience with the Center has shown them the value of machine
+computation and has enabled them to estimate the wagnitude of
+their requirements. By buying or renting their own machines
+they will free the Center to devote more machine time to thesis,
+class, and laboratory work, which is at present expanding rapidly
+in volume. f AT s B W AT R
+A number of compiler programs aimed at improving the
+flexibility of use of the 709 and also at eéxpanding its none-
+numerical capabllities, have been developed during the past
+year. A linking-segment system will enable the programmer to
+use several different programming languages in a single program.
+The COMIT compiler-interpreter for mechanical language trans-
+lation has been virtually completed and is being adapted for
+the 709. The LISP programming system has developed to the
+point where 1t can get the machine to carry out algebraic
+manipulations. With further work the system will facilitate the
+useé of the machine in more general mathematical problem-solving.
+Extension to other machine-learning experiments is planned.
+Details of these programs ¢an be found in the semi-annual reports
+of the Center. ‘ ‘ |
+
+The use of the Center by the thirty-one cooperating New
+England universities has also increased during the past year,
+Although several of the larger users have installed small machines
+on their own campuses, their participation in the activities of
+the Center has not diminished; in several instances, i1t has grown.
+Several colleges have brought their classes in computation to
+the Center for Saturday laboratory sessions.

@@ -52,11 +52,10 @@ def populate_from_metadata(file_name=None):
                     count_invalid += 1
                     print(f'{e}. Line: {line}.')
 
-
     print(f'Added {count_added} documents from {file_name}. Skipped {count_skipped} documents '
           f'because of incomplete metadata. Invalid: {count_invalid}')
 
-    db = sqlite3.connect(Path(DJWEB_PATH.parent, 'db.sqlite3'))
+    db = sqlite3.connect(f"{Path(DJWEB_PATH.parent, 'db.sqlite3')}")
     cursor = db.cursor()
     cursor.execute('create virtual table doc_fts using FTS4(id, title, text);')
     cursor.execute('''INSERT INTO doc_fts(id, title, text) 
@@ -96,7 +95,7 @@ def add_one_document(csv_line):
                              foldername_short=csv_line['foldername_short'],
                              doc_id=csv_line['doc_id'], path_type='absolute', file_type='txt')
     try:
-        with open(txt_path, 'r') as f:
+        with open(txt_path, 'r', encoding='utf8') as f:
             new_doc.text = f.read()
     except FileNotFoundError:
         print(f'skipped {txt_path}')

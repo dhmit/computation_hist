@@ -1,0 +1,22 @@
+S
+
+If 1 braak memory 1nto amaller piecea, I have an added_prob-
+Alem of resetting the boundary register each time I cross over.
+This can be done of course by programming when the trap ocoura,
+but I am not happy with the fixed boundaries, and the fact that
+the mode changing would consume much time (an examination must be
+‘made to find out if the trap was in a sense legal) and m&ght con-
+ceivably oceur very frequently in a 1arge problem,
+
+This, by the way seems to be the solution that IBM'was
+yuzsuing up to the time that I spoke to them about my gsolution as
+of & week ago Friday. If we can't get IBM to do better, we may
+have to accept this, pfait I think they are in part receptive.
+
+Thanks again for the susgeations.‘ 1 really do want us to
+get back to the point where we can communicate. There is a great
+deal that we ean all contribute if we take each other at face value.
+pai -
+Carbon copiest P, M. Morse
+2 ' F. J. Corbato
+M., L. Minsky

@@ -1,57 +1,75 @@
-‘
+Joint Computing Group
 
- 
-
- 
-
-H
-Joint Computiu Grout)
-...=-——g....___‘..§._..__.,._
 Time Record February 2, 1961
-MM
-November: 1960
+MM“
 
-Baum Total
+Novembera 1960
 
-Prob. No. Lab. Reguested 131 In Nov. Hours
+Hours Total
+Prob. No. Lab. Requested By in Nowv. Hoursg
 
 1088 OR H. Galliher 116 2703
-
 1133 LNS L. Delves 1 780
+1143 LNS A. Tubis 1565 1412
+1150 LNS W. Buechner 32 258
+1157 LNS G. Schappert 96 483
 
-1143 LI‘ES A. Tubis 165 1412
+ 
 
-1150 LNS W. Buecmer: 52 258
+1160 LNS C. Yang-Hy &l 332
+1175 LS C. Shekin ©3 190
+1176 ILNS R. Freeman 160 208
 
-1157 ms G. Schappert 96 6,83
+Hershfighd 82 138
+Cline 8 8
+Kyhlp 30 30
+Loh 8 8
 
-1160 LNS C. : 4-4 332
+1178 RLE
+1179 LNS
+1180 RLE
+1181 LNS
 
-1175 LBS C. 63 190
-
-1176 1.118 R. Freeman 160 208
-
-1178 RLE J. Hershfnéd 32 133
-
-1179 1.118 T. Cline 8 8
-
-1180 RLE R. Kyhlp 30 30
-
-1161 L118 E. L01} 8 8
+M= e
 
 Time Distribution
 
-Laboratory RLE M _S_§ %
+Laboratorz RLE LNS
+Hours Employed 320 560
 
-ﬂours Employed 320 560 0 80
+o
+U
+o
+o
+
+I
+
+Q
+Q0
+O
+
 Hours Used
 
-Computing 112 597 0 116
-
-Overhead 20 42 O 5
-
-Sick Leave 9 56 0 0
-
-0 O 0 0
-
-l 5 0 6
+Computing 112 397 0 116
+Overhead 20 4.2 0 5
+Sick Leave 0 56 0 0
+Vacations 0 0 0 0
+Classes 1 5 0 6
+Total 133 700 0 127
+ours Not Usged 187
+Hours Overdraun 140 a7
+Cunulative Hours Not Used 694 &54 1169
+Cumulative Hourg Overdrawn 2317
+LGP~30 Time Record
+m\h o ‘4."?;._.- - - —-.—1‘)‘ ‘:l—‘&\m
+Lab. User Hours Yotal Hours
+ot ey M~-Lu- . . -m.'—‘mn.:-t-.'-rv-.‘
+LIS I. Plegs 12 14
+LNS R. Sch:reabu:g 3.25 430.75
+LNS o. Westreich TS 79.5
+LIS E. Loh 3 8
+NS H., Luts 7.25 /6.25
+RLE E. Rvhie 17.25 17.25
+Total 95.25
+.‘.A.C C I I ‘: L’ D
+Mainte:aace 2e5

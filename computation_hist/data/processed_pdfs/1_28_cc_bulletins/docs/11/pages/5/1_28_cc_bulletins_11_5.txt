@@ -1,0 +1,61 @@
+5. SCPPE, SCQFEX, SCPPNX, BRITER, DIMMER
+6. WRBCD
+
+ 
+
+The scope subprograms DISPLA and SCALE, PL@T and GRID have been
+revised. for the IBM 7090, Column binary decks for these sub-
+programs may be obtained in Room 26-058,
+
+Set Density
+
+If a programmer should give a set density instruction
+followed by a reset data channel, there must be a delay of 3.5
+
+ms so that the set density instruction will be effective, For
+example :
+
+SDN %%
+
+AXT 800, 1
+
+TIX *,1,1:} 3, ms.
+RDC %
+
+One-Page Write=-ups
+
+The Computation Center is in the process of revising one-
+page write=-ups for all Fortran-FAP-MAD Monitor System library
+subprograms. These write-ups may be obtained in Room 26-153.
+
+Computation Center Memoranda
+
+The following CC memos of general interest have been
+released since the last bulletin, Copies may be obtained in
+Room 26-142,
+
+CC~180-3 Computation Center Version of the Fortran[Fag
+Monitor Svstem
+
+A list of differences between the manuals and
+the system in use at the Center.
+
+CC-182-1 Common Programming Errors
+A list of common errors made by users of FMS,
+
+CC-186-1 Fortran and MAD Format Specifications
+
+A general description of the format specifi-
+cations used for input and output in FORTRAN and
+MAD coded subprograms,
+
+MITMR, an FMS Subprogram for Using the IBM
+Interval Timer Clock
+
+Explains how MITMR is used by the Monitor
+and how the programmer may use it to time and
+interrupt his program segments,
+
+CC-193
+
+-5=

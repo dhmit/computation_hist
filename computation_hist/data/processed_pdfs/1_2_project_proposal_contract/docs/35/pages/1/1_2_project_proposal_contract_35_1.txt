@@ -1,56 +1,72 @@
-MASSACHUSETTS INSTITUTE OF TECHNOLOGY
-DIVIIION or moun-nuu. coérgnATlou
+. -.qpn“ N
+. 3 :
+
+) 43074 l .
+v ' 4 3.1 ormad
+Sk i ' s G
+', Ao, ¥ . 5 ? 5
+o ’
 
  
 
-CAMIIRDCIZ ll. 3A..
-April 16, 195!» V
-52.2.11: DIG—#7019
+  
 
-mammal!
+ 
 
-Goal-nae: 5
-[right Air Develop-en: Center I
-Irish—Pattern“ Air l'oree Due /
+ 
 
-Ohio
-Attention Li. G. lufhoipeon, were:
+by L2 N
+ﬂ" " _ - MASSACHUSETTS INSTITUTE OF TECHNOLOGY
+o DIVISION OF INDUSTRIAL COGPERATION
+CAMBRIDGE 39, MASS.
+= April 16, 1954
+ALD BATL 6-#7
+| CPTISE OF THE DIRECTOR . DIC-#7019
+Commander \
+Wright Alr Development Usnter /
+Wright-Patterson Alr Foree Base /
+Ohie /
 
-Inter-en“: dontreot A? 33(616)—128 x
+Attentiom: LS. @. R. Thowpson, WCECR
+Reference: Oontrect AP 33(616)-128 -~
+Dear 8ir:
 
-Deer lit:
+In accerdance with reeent discussions between WADC and MIT
+technical personmél, there le forvarded herewith a revieed proposal
+for & 12 months'! extensien of The reference conitrast starting
+January 1, 1958, witheut additional fupds. Thie progoul supersedes
+sur proposal forwarded by 1etter dated March 10, 1954,
 
-In eocorﬂenoe with reeent lieoneeione between 1130 end II!
-teehnioel pereonlel, there in forwarded herewith e reviled prepoeel
-for e 12 Ionthe' extension or the reference eontreot eterting
-Jenner: 1, 1955, vi‘helt edditionel funds. this progoeel eupereedee
-our propoeel forwarded by letter deted larch 10, 195 .
+It is recomménded that the proposed research progras seR-
+glet of the feollewing studies and investigations:
 
-It ie reee-nen¢e& that the propoeed reeeereh progrel oenw
-313% of the following etudiee end inventigetione:
+1. A study of bouadary-value end eigeavalue problems whish
+are frequently enscuntered in the solution of ordimary
+differential equations. The proposed study will eem-
+gider msthods of solutlon amenable for sclutiomr by
+aeens of the differential analyzer, the REAJ, and ether
+digital machines.
 
-1a A Itnay of boundary—velue end eigenvalue problele whisk
-are frequenely eneonnterel in the eelution or ordinary
-differential equitioue. the propoeed Italy will eon—
-aide? Ieﬁhnae of solution enennble for solution by
-ieena of ﬁhe differentiel ennlyzer, the BEAU, end other
+9. Am imvestigation of the reasibility of solving integral
+squations efficisntly by means of eomputing equipment.
 
-digiﬁal Inchinee.
+9. An javestigation of The solution of certain types ef
+glgesrale equations (e.g., the solutior of simaliansous
+eguations wilh 41i-conditioned matrices, evaluation of
+sheracteristiac roets of matriess, ¢%6...) by means of
+available somputing squipment.
 
-2. A3 iavemtigetiom of who feeeibility of eolving integral
-oquntioas efflaiently by neene of eo-putin‘ equip-out.
+. A study of the varisiion determination of simply and-
+1ytie weve funstiome; for usse {a the ocalsulation eof
+jonization potentials, mltiplet separations, radiation
+intenaities, and other properties of atoms eontaliming
+is, 28 &nd 2p élegLrons.
 
-3. A: iavemtigmtiou a? Khe noiution of certain tyyea of
-algebraic equations ions., the eoitﬁion of eileltaneoue
-equaﬁions wiib ill—agndiiioned metrical, evaluation of
-ohnreateriatie footy or untriaen, eie...} by metal of
-available acupuﬁiag aquipuent,
+Phe Contraster shall contimue %o submit guarterly progrese
+reports and WADD ®ashni cal Reports on the above work.
 
-5; A @Eudy of ﬁne vgri&%ien ﬁeterninetion of Iiiply anew
-13355 wave fﬂﬂaﬁioﬂﬁ; for new in the onlouletiol of
-ianixatian yaimﬂﬁiala, multiple: seperatione, reliatiea
-intenaitiwmf aﬁa other proportion of stone oontaininﬁ
-13, in mud 2p eleeirensw
+ 
 
-Thﬂ ﬁenxfamtcr ﬁhﬁll continue to nub-it querterly progrees
-reporﬁs aaﬁ wiae §aahnioal ﬁaporte on the ebove work.
+ 
+
+e ————————

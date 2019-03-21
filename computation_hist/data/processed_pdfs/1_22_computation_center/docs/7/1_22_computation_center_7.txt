@@ -1,0 +1,42 @@
+ASS
+
+JOURNAL OF MATHEMATICS AND PHYSICS
+
+MASSACHUSETTS INSTITUTE OF TECHNOLOGY
+
+CAMBRIDGE 39. MASS.
+
+January 17, 1957
+
+Professor P.M, Morse
+6-107
+MIT
+
+Dear Phil:
+
+Thank you for your recommendation of January h in
+regard to the papers by Clendenin and Harmouth.
+
+The way I see it, Wwe do wish to devote Some of the
+pages of our Journal to methods of numerical analysis
+and to methods of machine computation. It is of
+course difficult to say just how far we should go
+
+in this field, My own feeling is that we should
+
+not concern ourselves with things which pertain to
+specific machines, but should concern ourselves
+
+with mathematics which might be called applied
+mathematics as it pertains to the machine field in
+general. How do you feel in this regard?
+
+—
+
+ 
+
+Sincerely yours,
+
+err
+
+

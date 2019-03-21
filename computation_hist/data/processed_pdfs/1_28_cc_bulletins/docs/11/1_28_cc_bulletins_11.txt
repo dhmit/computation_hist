@@ -1,0 +1,318 @@
+COMPUTATION CENTER
+
+Massachusetts Institute of Technology
+Cambridge 39, Massachusetts
+
+No. 21
+March 23, 1962
+
+BULLETIN
+
+Suggestion
+
+The Center suggests that you file these Bulletins as informal
+supplements to your Procedures Handbook.
+
+ 
+
+Fortran /FAP Monitor System, Version 2
+
+IBM has recently distributed a new version of the FMS system
+called Version 2. Primarily, this is a cleaning-up of the old
+version, however, several additional features, described below
+have been introduced. This new version does not require any
+changes in most presently running programs, but the introduction
+of Version 2 will introduce several changes some of which assume
+the use of the subprogram .SETUP by the main subprogram. This
+will require recompiling or reassembling your main subprogram
+if it does not presently call SETUP (see VI ,SETUP ey
+
+ 
+
+The introduction of this new version of the system is being
+delayed until the Center's staff can incorporate the changes
+previously made to the old version and until we feel sure it has
+been properly announced as via this Bulletin, Notices will be
+posted within two weeks on the bulletin board stating when it
+will go into effect. When Version 2 is operating, the Center will
+no longer maintain the old version since IBM now considers it
+obsolete,
+
+I, FORTRAN
+
+A new version of Fortran called FORTRAN II, Version 2, will
+be incorporated into the new system. It's compilation time is
+decreased and time estimates can be based on the formula
+
+.2 + .004 (number of cards) = minutes.
+
+II. The DEBUG Package
+
+The FORTRAN Monitor System will include a facility for
+dynamic tracing during execution of FORTRAN programs. This
+facility will not be available for MAD or FAP programs. For a
+more detailed explanation, programmers should obtain SOURCE
+
+
+TE ——
+
+When using the DEBUG PACKAGE the following two restrictions are
+placed on the programmer:
+
+LANGUAGE DEBUGGING AT OBJECT TIME, J28-6135, in Room 26-153,
+
+1) Logical tape 2, corresponding to physical A3, must be
+the printed output tape. This assignment is the normal
+assignment at the Center.
+
+2) No more than 1000 lines of printed output can be
+obtained through the DEBUG PACKAGE and the estimate of
+number of lines of printed output through the DEBUG
+PACKAGE must be included on the I.D. card.
+
+When using the DEBUG PACKAGE programs which load beyond
+(62032)g will be too large for the system,
+
+III. FAP
+
+FAP (Fortran Assembly Program) will be expanded to include
+the operation codes explained in the addenda of the FAP manual,
+Also, included in FAP will be the ability to update FAP symbolic
+tapes where the input and output tapes are not necessarily the
+normal input and output tapes of the system. For a further
+explanation, programmers should request FORTRAN ASSEMBLY PROGRAM
+(FAP) FOR THE IBM 709/7090, SUPPLEMENTARY INFORMATION FOR THE
+32K VERSION, J28-6186, in Room 26-153, Macro-FAP is explained
+in this Bulletin, but will not be incorporated into the system
+until a later date.
+
+Other changes included in this version of FAP will be:
+
+1) absolute FAP assemblies produce 22 words per binary
+card,
+
+2) all assemblies will be sequenced checked in columns 73-
+80, If the FAP cards are out of sequence the assembly:
+will take place in the normal manner, but an error
+message will indicate that the cards are out of order,
+
+3) the TAPEN{ pseudo-operation will be made available for
+the instructions SDN, SDL, SDH, RDC, and RUN,
+
+Timing for FAP assemblies may be based on the approximation
+of 2700 cards per minute, | oe 1 :
+
+1V, Library Changes
+
+A. (I¢B), (TSB), (ETB) These subprograms have been altered so
+that binary tapes are read and written in a new format of
+physical records of 256 words, The decrement of the first word
+
+«Ze
+
+
+will be used by these subprograms.
+
+Programmers who have punched
+output from these subprograms in the past and subsequently
+
+punched column one with a 7 and 9 punch will have to obtain
+the version now in existence from the open files in Room 26-058
+and include it with their binary decks to avoid the new library
+
+version. Regular binary tapes with version 1 are compatible
+with the new (TSB),
+
+B. (IGH) This subprogram has been recoded for more
+accurate conversions with the result that some answers may be
+slightly different. A new format will be added called the G
+format, If the prefix of a word is zero the variable will be
+printed according to an I format, otherwise according to an E
+format, (This should be useful for intermixed integers and
+floating-point numbers.) The form for the G format is GW.d
+where W is the field width and d is the number of decimal places
+to be printed, if any, For example,
+
+I =2
+PI = 3,141593
+PRINT ='2,1,P1
+2 FORMAT (2G15.7)
+
+would produce
+@ 2 @ 0.3141593E+01
+
+C. Double Precision and Complex Arithmetic Routines have
+been revised and new copies of these FMS subprograms may be
+
+obtained from the open files in Room 26-058.
+
+V. Restrictions
+
+FMS programs which load beyond (70203), will be too large
+for the new system if not using Debug. If Debug is being used,
+the loading must be below 62032 octal. Programmers may get
+around this restriction by putting variables in C{MM@N storage.
+With the present FMS version programs can load up to (70562)g.
+
+VI. Non-IBM Changes
+
+. SETUP All main programs which do not include .SETUP
+in their transfer vector must be recompiled. The locations to
+which (F2PM) traps have been altered and the initialization for
+the interval time that will be used to stop programs that exceed
+the maximum time estimate on the I.D. card has been added to
+«SETUP.
+
+(STH), (SPH), (SCH) These subprograms have been combined
+so the combination is smaller than the original (SCH), (SPH),
+and (SCH) package. Punched output will not be written in the
+BCD mode on logical 3 or B4, The estimates on the I.D, card
+for printed and punched output will remain unchanged, i.e. all
+output from PUNCH statements should be included with the estimate
+
+-3=-
+
+
+of punched output and all output from PRINT or WRIIE @UTPUT TAPE
+statements should be with the estimate of printed output,
+
+The Interval Timer
+
+The Center's 7090 includes an interval storage clock and
+interval timer, Because programming and integrating the use of
+this device is fairly complex and because the Center feels. its
+use should be standardized as much as possible, a routine MITMR
+has been written and will be integrated into Version 2 of the
+system, This routine will be used to stop jobs which are
+exceeding their time estimates, It may be used by the programmer
+in many ways to time sections of his program. CC-=193, available
+in Room 26-142, is a complete description and write-up of this
+routine, Programs which exceed the maximum time estimate on
+the I.D, card will be automatically terminated, without operator
+intervention, When the maximum estimate is reached, (F2PM)
+will be called automatically. At this time any (F2PM) request
+cards will be processed, even though the maximum time has been
+reached, and control will then be returned to the system,
+
+FAP
+
+A new version of FAP has been added to the FORTRAN Monitor
+
+System, The following new pseudo-operations have been added
+to FAP:
+
+SDN
+SDL
+SDH
+ROC
+RUN
+The scope instructions WIVA and CFFA have been added to FAP also.
+
+FMS Library Changes and Additions '.
+
+(FPT). The subprogram (FPT), floating-point trap, has been
+changed such that the subprogram MPVIE), rather than ERR@R, is
+used for tracing. There is a resulting speed up in operation,
+The error message now written on logical tape 2 should be of
+more aid to a programmer. For a more detailed description, one
+should obtain a one-page write-up in Room 26-153.
+
+SCOPE Routines. The following scope subroutines have been
+added to the library tape:
+
+1, AXISX, AXISY
+2. BRIPIC, DIMPIC
+3. FRAME
+
+4, SCID, SCID1
+
+lpm
+
+
+5. SCOPE, SCQFEX, SCPPNX, BRITER, DIMMER
+6. WRBCD
+
+ 
+
+The scope subprograms DISPLA and SCALE, PLOT and GRID have been
+revised. for the IBM 7090. Column binary decks for these sub-
+programs may be obtained in Room 26-058,
+
+Set Density
+
+If a programmer should give a set density instruction
+followed by a reset data channel, there must be a delay of 3.5
+
+ms so that the set density instruction will be effective, For
+example:
+
+SDN  *#
+
+AXT 800, 1
+
+TIX Tord 3.5 ms.
+RDC *%
+
+One-Page Write=-ups
+
+The Computation Center is in the process of revising one-
+page write-ups for all Fortran-FAP-MAD Monitor System library
+subprograms. These write-ups may be obtained in Room 26-153.
+
+Computation Center Memoranda
+
+The following CC memos of general interest have been
+released since the last bulletin, Copies may be obtained in
+Room 26-142,
+
+CC~180-3 Computation Center Version of the Fortran/Fap
+Monitor System
+
+A list of differences between the manuals and
+the system in use at the Center.
+
+CC-132-1 Common Programming Errors
+A list of common errors made by users of FMS,
+
+CC-186-1 Fortran and MAD Format Specifications
+
+A general description of the format specifi-
+cations used for input and output in FORTRAN and
+MAD coded subprograms,
+
+CC=-193 MITMR, an FMS Subprogram for Using the IBM
+Interval Timer CLOCK
+
+Explains how MITMR is used by the Monitor
+and how the programmer may use it to time and
+interrupt his program segments,
+
+-5=
+
+
+New Request Cards
+
+New request cards are now at the printers and are expected
+to be in use at the Center shortly,
+
+Identification of Program Decks
+
+When submitting several runs under the same problem number,
+simultaneously, you should identify the various decks, preferably
+by punching "Deck n" in the comment field of the I.D. card and
+then writing this number on the Request Card for that deck,
+This will help the Dispatcher and the operators if it is
+necessary to re-run one of the several jobs after the decks
+and the Request Cards have been separated.
+
+Extra Working Space
+
+For your convenience, it has been decided to open
+Room 26-168, the lecture room, as an extra programming area
+when it is not reserved for other uses. Check the schedule
+posted on the door and feel free to use the room if it is
+
+available, Please try and keep the room neat since it is a
+very difficult area to clean up.
+
+

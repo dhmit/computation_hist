@@ -1,0 +1,26 @@
+IBM-MIT Contract for a Computing Center «5-
+
+problems which do not materially contribute either to the ad-
+vancement of science and engineering, or to @ better understanding
+of the applicability of high speed computing machines to
+scientific, engineering, business or financial problems. The
+Director of the Computing Center will determine the program
+
+for use of the machines, but with the advice of an Advisory
+Committee composed of one representative from each of the
+participating universities that wishes to designate a member.
+
+In general, no problems will be accepted for solution on the
+machines unless the results are expected to be incorporated in
+
+a publication.
+
+8. The nearby universities that will be invited to
+participate in the use of the machines in the Computing Center
+will be determined by mutual agreement between IBM and MIT.
+
+In general, however, they will include all institutions of
+higher lesrning in the New England area that have suitable
+problems that can be solved within the limits of available
+
+time.

@@ -1,365 +1,358 @@
 Proposal for a Statistical Investigation of Labor Force Participation
-and Iobility to be conpleted by Septenher 30, 1950.
+and Mobility to be completed by September 30, 1958,
 
-This request is for ”3,805 to finance a study 0! the labor force
-participation responses 0! individuals. The object would be to eetinate
-the probabilities that individuals would enter, reuin in, depart iron
-or renain out of the labor Iorce under various codinations o! circun—
-stances or inputs. he inputs to be considered would include the denoh
-graphic and econonic characteristics of the individual and his (snily;
-his past status with respect to labor force participation; and certain
-characteristics of his environ-eat such as region, urbanization and the
-state 0! labor denand.
+This request is for $23,805 to finance a study of the labor force
+participation responses of individuals, The object would be to estimate
+the probabilities that individuals would emter, remain in, depart from
+or remain out of the labor force under various combimations of circum-
+stances or inputs, The inputs to be considered would include the demos
+graphic and economic characteristics of the individual and his family;
+his past status with respect to labor force participation; aad certain
+characteristics of his environment such as region, urbanization and the
+state of labor demand,
 
-These estinatee would be used to imluent the Ionte Carlo type
-simulation of the United States social-econonic systen proposed by ()rcutt.1
-Such a ainlation requires large nudrers o! para-etsrs or sets of operating
-characteristics describing the behavior of the individual decision-aching
-conponents o! the systen. These operating characteristics are the
-probabilities 01 various types at reeponse or "outputs" under various sets
-of prior circumstances, stinuli or "inputs".
+These estimates would be used to implement the Momte Carlo type
+simulation of the United States social-economic system proposed by orcutt.}
+Such a simulation requires large numbers of parameters or sets of operating
+characteristics describing the behavior of the imdividual decision-making
+components of the system, These operating characteristics are the
+probabilities of various types of response or outputs’ under various sets
+of prior circumstances, stimuli or "imputs',
 
-Iesides serving the Orcutt nodel, such a nultivariate statistical
-investigation would also have valuable by-products. Due to the sinulteneous
-action 01 the variables referred to above upon labor force participation and
-turnover, it has been extrenely difficult to disemsie their influences,
-Published tabulations relating to labor lorce participation and gross ﬂows
-into and out o! the labor iorce have not been sufﬁciently cross-classified
-to sustain the necessary statistical analysis. no tunds being requested
-would be used prinarily for covering the expense of finer cross classifications
-at Current Population Survey results than have heretolore been carried out.
+Besides serving the Orcutt model, such & multivariate statistical
+investigation would also have valuable by-products, Due to the simul taneous
+action of the variables referred to above upon labor force participation and
+turnover, it has beem extremely difficult to disentangle their iafluences,
+Published tabulatioms relating to labor force participation amd gross flows
+into and out of the labor force have not been sufficiently crose-classified
+to sustain the necessary statistical analysis, The funds being requested
+would be used primarily for covering the expense of finer cross classifications
+of Curremt Population Survey results tham have heretofore been carried out,
+Multivariate statistical analysis applied to such cross-classifications
+would isolate the several influences and their interactioms so as to
+alleviate the necessity for coming to conclusioms such as the following:
+"whether the well-educated woman who marries and has childrem is more or less
 
-lultivariato statistical analysis applied to such cross-classifications
+likely to be employed than the mother who has less education is mot —
+rei ——————————
 
- 
+1 Guy H, Orcutt, "A New Type of Model of a Socio-Economic Systema,” Review
+of Economics and Statistics, May 1837,
 
-would isolate the several influences and their interactions so as to
-
- 
-
-alleviate the necessity tor conic; to conclusions such as the following:
-"whether the Ioll-educatod wc-an ﬁo narries and has children is lore or less
-
-likely to be enployed than the nether who has less education is not known."2
-
- 
-
-l Guy ll. Orcutt, "A New Type of Iodel ot a Socio—lcononic Bysten," Ieview
-oi lcononics and Statistics, lay 1951,
-
-2 Ionan ower, National Ianpower Council, p. 75.
+2 Vomanpower, National Manpower Council, p, 73,
 
 
-ﬂute ere tour principsl sspects oi the isvestigetics o! the
-hehsvior at individuels with respect to lsbor force perticipstiou. In
-the first place, there is the enable. of defining pertici’etiu itsell.
-This is the pnehle- 01 deﬁning the outputs or dependent veriebles. The
-tollowing types of questions ere involved. low only hours per week or
-weeks in the yeer met en isdividnel work or seek sol-k in order to quelity
-es s lehor force puticipent? Ihst criteris should we slot for deciding
-shether en individesl sho is working pert tins or so tile is reelly seeking
-full tine employ-est, i.e., tether he is s full or pert tine labor force
-perticipsnt? an constitutes "seeking" eqleylsnt? lhould se drew s line
-between full end pert ties perticipstioe or should we recognise s continuous
-gredetiou? aell we detise perticipstice on the hesis of se iestenteneous
-stete or e condition over en intervsl of thee?
+There are four principal aspects of the imvestigatiom of the
+behavior of individuals with respect to labor force participation, In
+the first place, there is the problem of defining participation itself,
+This is the problem of defining the outputs or dependent variables, The
+following types of questions are involved, How many hours per week or
+weeks in the year must am individual work or seek work ia order to qualify
+as a labor force participant? What criteria should we adopt for deciding
+whether an individual who is working part time or mo time is really seeking
+full time employment, i,0,, whether he is a full or part time labor force
+participant? What comstitutes "seeking" employment? Should we draw a line
+between full and part time participatioam or should we recognize a continuous
+gradation? Shall we defime participation om the basis of am imstantaneous
+state or a condition over am interval of time?
+There being a considerable evolution and literature relating
+to these definitiomal problems,’ we shall mot add to it, but merely adopt
+the current definitions which seem to suit our needs and which will permit
+us to make use of the most promising available data, An attempt will be
+made, however, to recognize gradations of current attachment to the labor
+force on the basis of hours worked per week *®
+The second aspect of the problem relates to the independent
+variables or inputs, on the basis of which we shall seek to explain parti-
+cipation and turnover, As has already been indicated, these will be
+thought of as fallimg in the following categories:
+1. Characteristics of the individual and his family
+a, Demographic
+b, Economic
+¢, Bducatiomal
+d, Past status with respect to the labor force
+2, Characteristics of the individual's eavironment
+a, Regioam
+b, Urbanization
+¢., Industrial structure of the surrounding labor
+market area
+1 See pages 1-5 of the attached paper,
 
-There being s ccusidershle evolution end litersture relsting
-to these detinitiosel Forum-s,1 we shell not I“ to it, but Ierely edopt
-the current deﬁnitions shich see- to suit our needs end shioh will per-it
-us to neke use 0! the lost prosising sveilehle dets. An sttsqt will he
-ends, however, to recognise gredetions 0! current sttechnent to the lehor
-force on the heels 0! hours sorked per week.‘
+* Degree of attachmeat in the past, am explanatory variable, will be
+recognized by comsidering the number of weeks worked during the
+previous year, x
 
-”the second aspect o! the prom. relstes to the indepudent
-vsrishles or inputs, on the heels of which we shell seek to explsis perti-
-cipstion snd turnover. As hes slresdy bees indiceted, these will be
-thought 0! ss telling in the following cstegories:
-
-l, Chsrscteristics o! the individusl end his tesily
-
-s. Delogrephic
-
-h. Iconosic
-
-c. lducetioesl
-
-d. Pest stetus with respect to the lehor {ores
-1. Characteristics of the individuel's environ-est
-
-s. legion
-
-h. Urbesisetion
-
-c. lndustrisl structure 01 the surrounding lebor
-nerket use
-
-m
-1 Bee psges 1-5 at the ettsched yeper.
-
-. Degree at ettechnent in the pest, u explanetory verishls, will be
-recognised by considering the umber of weeks worked during the
-previous yeer. .
+EE ————————————
 
 
--3—
+-3-
 
-d. Level or industrial activity in the surrounding
-labor narket area.
+d., Level of industrial activity in the surrounding
+labor market area,
 
-Here gain, the exact definition of variables will be inﬂuenced
-by the deﬁnitions under which the nost pronisin; data waa gathered, 'l'bus,
-tor exawle, with regard to the deiinition 0! region, urbanization and
-labor nnrket areas, we shall adopt the categories and bonndnries need by
-the Census Bureau and the Depart-eat of Labor.1 Iith regard to ecmonic
-characteristics, we nay tor ennple, adopt as e neaaure o! non-earned wealth
-"other" (than earned) incone instead of assets si-ly because the for-er
-and not the latter is reported in the lost pronisin‘ source of data. At
-least at this prelininary stage, it would seen that the lost efficient use
-at resources could he nnde by studying pertinent variables as we find
-th- in the available data sources.
+Here again, the exact definitiom of variables will be influemced
+by the definitions under which the most promising data was gathered, Thus,
+for example, with regard to the definitiom of region, urbanization and
+labor market areas, we shall adopt the categories and boundaries used by
+the Census Bureau and the Department of Labor} With regard to ecomomic
+characteristics, we may for example, adopt as a measure of mon-earmed wealth
+“other” (than earned) income instead of assets simply because the former
+and not the latter is reported im the most promising source of data, At
+least at this preliminary stage, it would seem that the most efficiemt use
+of resources could be made by studying pertinent variables as we find
+them in the available data sources,
 
-0: course, the initial decision with regard to pertinence
-is based upon co-on knowledge and introspection. ‘naus shntever we can
-find reletis‘ to age, race, naritnl status, children, and relationship to
-head o! rsnily is obviously pertinent. Alter the statistical analysis, it
-nay be revealed that none or the variables or distinctions between intervals
-on a variable are not signiﬁcant and at that tine re nay drop variables or
-consolidate intervals.
+Of course, the initial decision with regard to pertimence
+is based upon common knowledge and imtrospectiom, Thue whatever we can
+find relating to age, race, marital status, children, and relatiomship to
+head of family is obviously pertinent, After the statistical analysis, it
+may be revealed that some of the variables or distinctions between intervals
+on a variable are not significamt and at that time we may drop variables or
+consolidate intervals,
 
-“nae past labor force status at individuals constitutes one of
-the nest tronblesone ot the independent variables because of its obvious
-pertinence conbined with the paucity o! reasonably accessible data relating
-to it. The probability that an individual will be in the labor iorce in
-any (iv- nonth is obviously heavily dependent upon tether or not he
-was in the labor force last nonth, last year, or ever before. And yet,
-unless the right questions about the past are asked, a single questionnaire
-tells us only about the labor force status of an individual in relation to
-his present characteristics. Unfortunately, the right questions have
-seldon been asked. The Current Population Surveys in their annual work
-experience supple-eats do ask about labor torco participation during the
-year prior, but the published results are too crudely cross—classiﬁed (or
-our purposes. Three quarters of the households in the Qirrent Population
+The past labor force status of individuals coastitutes ome of
+the most troublesome of the independent variables because of its obvious
+pertinence combined with the paucity of reasonably accessible data relating
+to it, The probability that an individual will be in the laber force in
+any givem month is obviously heavily dependent upoa whether or mot he
+was ia the labor force last month, last year, or ever before, And yet,
+unless the right questions about the past are asked, a single questicmmaire
+tells us omly about the labor force status of an individual in relatiom to
+his preseat characteristics, Unfortunately, the right questioms have
+seldom been asked, The Current Populatioa Surveys im their ammual work
+experience supplements do ask about labor force participation during the
+year prior, but the published results are too crudely creoss-classified for
+our purposes, Three quarters of the households in the Current Population
 
-M
-1 Bee pages 1‘ and 17 o! the attached paper
+m—————————————————————————————————————————————————————
+1 Bee pages 16 and 17 of the attached paper
 
 
-Survoy aa-plo aro ro-intorviowod in luccoaaivo methyl Io that thoro aro
-rocorda oll Univac tapoa which could rovoal tho labor torso participatio-
-of individuala ovor tiao. Bomor, tho inloraatioh tor aay aiulo iadi-
-vidual io ooattorod oh my tapoo do that oxtooaivo aad oxpoaaiva collating
-would ho roquirod to colloct tho intonatioo into uoohlo torn.
+lf
 
-'l'horo iw tho continuou- work hiatory aanlo of tho least; but
-only MI covorod .ployaoht 1a rocordod and tho doaographic had oceanic
-characterization. oi iadividuala aro vory akotchy.‘
+Survey sample are re-interviewed in successive months,’ so that there are
+records on Univac tapes which could reveal the labor force participatioa
+of individuals over time, However, the information for aay simgle imdi-
+vidual is scattered om many tapes so that extemsive and expeamsive collating
+would be required to collect the informatiom into usable form,
 
-lano‘at aoro pro-ﬂing, but otlll hardly adoooato tor our
-purpoooo, to tho haaic data ndorlyin] tho ICE otndy, Lobor bhilitz in
-Six Citioo. his main: o! intorviowl with a probability oaqio o! 4400
-wouun and .543 aoa. In ordor to quality ad roopoud-ta, tho individual-
-had to ho 25 or ovor in 1.51, had to ho at work in January of that you,
-and had to havo workod at loaat oao math in tho dooddo 1.40 to 1.50.
-ha trouhlo with thia data 1- throotold, In tho fir-t plaeo, it io hiuod
-hocauoo thou do aaro aot at work ia January 1951 aro oxcludod. In tho
-Ioooad placo, rathor tow at tho d-o‘rwphic and oeonoaio chorutoriotiea
-that wo aro iatorootod in woro rocordod. And tiaally, thoro io ho ro'ro-
-oohtatioa 0! individual- livinc outaido at Ii: at tho largo" aotropolitaa
-arou. It would oo- thon that tho tollowia‘ atroa; douclnoioa o! la!!-
-aad Stowart id otill oowohtially valid; "any pox-Iona outor and withdraw
-tron tho labor torch oovoral tiaoa during tho courao of a litotilo...‘l'ho
-roquioito data tor invowtigatiu this prohloa aro hot availahlo.“
+There is the continuous work history sample of the BOASI; but
+only OASI covered employment is recorded and the demographic amd economic
+characterizations of individuals are very sketchy?
 
-loro it hot tor tho hood to otudy tho bohavior or individual
-docioioa-aakiag unita, wo light not coatnt with ootilatiac tho propor-
-tiuao or iadividuala of ‘11.! uharaatoriatico to an ia tho labor toroo
-undor .iwoh circmtaheoo. This, howovor, would aoglout tho rato of taraowor
-within coll- tron aoath to loath and wo know that thoro aro ooaoidorohlo
-variatioaa ih thia hotwoon colla. In tho can of ouo typoo o! iadividualo,
-ouch an adult aaloa, thooo who aro in tho labor ioroo duriag day [ivoa
+Somewhat more promising, but still hardly adequate for our
+purposes, is the basic data umderlying the SSRC study, Labor Mobility im
+Six Cities, This comsists of interviews with a probability sample of 4400
+women and 8543 men, In order to qualify as respondemts, the individuals
+had to be 23 or over in 1951, had to be at work im January of that year,
+and had to have worked at least ome month in the decade 1940 to 19850,
 
-1 ho pago- 15-18 at tho attaahod papor tor a hriof doocriptioa of tho
-(hart-oat Popalation Burvoy and 1th liaitationa.
+The trouble with this data is threefold, In the first place, it is biased
+because those who were not at work ia January 1951 are excluded, In the
+second place, rather few of the demographic and economic characteristics
 
-2 ”Tho Goatihaoud Iork liatory Ba-plo Undor Old-Ago aad knivoro'
-lhouraaco", Social Bocurity Mllotia, rob. 1944,
-
-a Jatto, A. J. aad Gian-loo D. Ito-art, magnr Ioaourooo and Utilization,
-P. m.
+that we are imterested in were recorded, And fimally, there is mo repre-
 
  
 
-Mumwrb M, .
+sentatiom of individuals living outside of six of the largest metropolitaa
+areas, It would seem then that the following strong cemclusiom of Jaffe
+and Stewart is still essentially valid; "many persons emter amd withdraw
+from the labor force several times during the course of a lifetime, The
+requisite data for investigating this problem are mot available,"
+
+Were it mot for the need to study the behavior of imdividual
+decision-making units, we might rest content with estimating the propor-
+tioms of individuals of given characteristics who are in the labor force
+under givea circumstances, This, however, would neglect the rate of turmover
+within cells from moath to month and we know that there are eomsiderable
+variaticas ia this between cells, In the case of some types of imdividuals,
+such as adult males, those who are in the labor force during any givea
+
+1 See pages 15-18 of the attached paper for a brief description of the
+Current Population Survey and its limitations,
+
+2 "The Contimuwous Work History Sample Under Old-Age and @arvivors'
+Insurance”, Social Security Bulletin, Feb, 1944,
+
+3 Jaffe, A, J. and Charles D, Stewart, Manpower Resources and Utilisation
+P. 218,
 
 
--5-
+month are much the same individuals as were im the labor force the
 
-loath u-o Inch tho oo- lnuwuuol- u woro 1| tho 1-hou- toroo tho
-loath prior ton-on in tho mo 0! mrtod 1.1” with an“, o o-ollor—
-nhlo )roporttoo of then who no 1- tho lobar fox-co 1- my [two- loath
-woro not in tho lobar totoo tho loath boloro. Moo- wo ton ooti-otoo of
-thin roto o! lohor fox-co tomvor within noun, wo my 1-11 to uloooto
-lohor for“ puticipotlu to tho “on o! oonh eon with my onyx-onu-
-tloo to roouol. nu wo con-0t ”capo tho hoooouty o! otllyng tho ro-
-lotxoolhlp hotwo- proooot “he: torso punch-tun ul pronoun 1-hou-
-foreo puncs'otxoo or, 1- othor won-do, tho outooorrolotico of lohor torso
-porticipotioo on: “no. htortuotoly, ohoot .11 that tho “-11qu
-lot- ollowo no to do in tho roopoct to to rohto prooont participation
-to mtlolpottu In“; tho prwwiowl you.
-no moiurotto- o! luopo-lont vortohloo hu loo into tho third
-uJor upoot at tho lhvootuotioo, handy “to ruin-onto no ovouohluty.
-Idoouy, whot wo row-1n 1- mool to oboonottooo on I n-lo 0! Individual
-ovu- u oxtooOod ”nod o: tuo. nu loo-o noon to tho ootuol ouootiolnlro
-tor-o or ouothth‘ vory elooo to thot. hblilhod, tlhlotol, wool-
-clooouloottooo on um ho oxto-uvo w to non!- tho mtuuioto
-ototlotxod mlyuo tog-trod, no: u it “holy that ”bu-no tohlotlno
-nu unlvo tho porttulu vouohloo thot no at tutu-on to no. hiortmto—
-1y, soot of tho ohoorvotxooo of tho typo Io hood no undo by tho Cour-at,
-whtd 1| boo-I by low- ;rohuutuc diocloouro o1 tutor-nun routing to
-xuuuuu. lowowor, thoro on why. 9: "out“. tho hoooooory ohoorvotinoo
-without Monthly“. tultwuwolo ud wo u'o euro-ﬂy onlorlh‘ tho-o poo-1-
-bun“. wlth tho Doro-I ot tho Coo-Io.
-no hoot sou-co ol doth moi-to or two ooto of him upon, mu
-on tho hbﬂuy All hrﬁ 1051 Curl-out Papal-tic- hrwoyl, . it“ Ito ro-
-eorlod, roopootivoly, tho chuontononco of individual I“ o! lolutoo.
-no“ topo- no mummy vuuohlo for our porpoooo to: tho following roooooo.
-1. no lehr-u-y on Inch (Xx-rout Motion knoy uootlmotroo
-ooch outuh on oxt-dod not 0! wtluo. mug othor
-loath- at tho you', tho tutvlduu Idolulol porn“ alto-111-
-oonoo only on tho renown. nu "noun 0! utoroot:
-o. lo:
-b. no
+month prior whereas im the case of married females with childrem, a ceasider-
+able proportiema of those whe are im the labor force in any givem moath
+were mot in the labor force the moath before, Unless we form estimates of
+this rate of labor force turmover withiam cells, we may fail te allocate
+labor force participatioa to the members of each cell with aay approxima-
+tioa to realism, Thus we cannot escape the necessity of studyiag the re-
+lationship betweea present labor force participatioa and previous laber
+force participatioca or, ia other words, the autocorrelatiom of labor force
+participation over time, Umfortumately, about all that the available
+data allows us to de in this respect is to relate present participation
 
+to participation during the previous pear,
 
-c. lsce
+The comsideratioam of iadependent variables has led into the third
+major aspect of the imvestigatioa, mamely data requirements amd availability,
+Ideally, what we require is access to observaticas on a sample of iadividuals
+over an eoxteaded pericd of time, This means access to the astual questiommnaire
+forms or something very close to that, Published, tabulated, creoss-
 
-d. Ielstionship to household hesd
+ 
 
-e. Inritel stetus
-ln lehrusry of esch yenr, on the other hsnd, work experience
-during the previous you is recorded end in lnrch incc-e end
-the eherecteristics oi the individnsl's innily sre recorded.
-Lsst hrch, education wee recorded [or the first tile.
+classifications can mever be extemsive emough to sustain the multivariate
+statistical analysis required, mor is it likely that published tabulations
 
-2. lot only sre the Iehrunry end lurch uuestiennsires richer
+will involve the partiemlar variables that are of interest to ws, Unfeortumate-
+ly, most of the observations of the type we need are made by the Geverament,
+vhich is bound by laws prohibitimg disclosure of information relating to
+individuals, However, there are ways of providing the necessary cbeervatioms
+vithout identifying individuals and we are curreamtly exploring these possi-
+bilities with the Bureau of the Census,
 
-individually, especinlly the questionnaires of ”51, but
-the inrorution cn the three querters of the snnple ma:
-persists between successive noeths is colleted so thnt we
-hsve wwh experience, educstioe, end incone ss well es en
-extended list 01' deeogrsphic vsrishles tor shout 00,000
-individusls H or over.
+The best source of data comsists of two sets of Univae tapes, based
+on the Pebruary and March 1957 Current Populatioca Surveys, om which are re-
+corded, respectively, the characteristics of individuals and of families,
+These tapes are umusually valuable for cur purposes for the following reasoms,
 
-The tourth upect o! the investigstion is the ststisticsl
-technique to be used. his is to consist prinsrily of met is essentislly
-u snnlysis o! vsrisnce, though the sctusi conputsticnsl procedure is s
-ion at lultiple regression shich does not seen-e linearity er sdditivity.
-he procedure is being progrn-ed for the III 104. Further description
-end en illustretien ere given on psges 81-38 of the stteched peper.
-Proiesscr watt hse consented to provide ndvice on ststistieel setters.
+1, The February and March Curreat Population Survey questionnaires
 
-Iecense of the non-disclosure regulstions governing the Beresu 02
-the Census, it is not possible to obtnin copies of the 1957 wrest Populs-
-tion Survey tspes referred to nheee. however, the Dureeu hse indicsted
-willinness to punch cerds tron these tnpes nccordin‘ to our speciiicstions
-end to cross clsesity these by vnrious desired conhinstias at seven or
-eight verinhlee. linltsneous cross-clusiiicntion by nore then this
-nuneer of vnrishles would result in too nnny qty cells. 'Ihe -JOI‘
-disndvnntnce c! this linltstioe nny he nitigsted, however, by Judicieusly
-selecting the Nineties“ o! vnrinhles so thst those between inch we
-suspect significant intersctiens nny he trested si—ltnneeesly. In this
-wny we nny svoid the necessity of. usunin‘ sdditivity o! etieets ﬁere
+each coatain an extended list of guestioms, During other
+mouths of the year, the individual schedules permit classifi-
+cation caly om the following five variables of imterest:
 
-the essqtiee snesrs clenrly unwnrrsnted. It is hoped thnt the inven-
-ti‘nticn o! the dnts referred to on pegee 22-21 at the sttsched peper,
+a, Bex
 
-which is currently under-y, will throw sole light on the relstive siniticnnce
+b. Age
 
 
--7-
+¢., Race
 
-of the inter-notions between lose or the explanstory vsrinblss we shsll be
-working with.
+d, Relationship to household head
 
-The Bureau of the Census has indicsted thst it will cost $15,000 to
-punch the necesssry csrds iron the CPS up", to perforl the desired sorting-
-01 these cords Ind to punch the sun-or] csrds which we would use ss our
-priury dltn input.
+e, Marital status
+In February of each year, om the other hand, work experience
+during the previous year is recorded and in March income and
+the characteristics of the individual's family are recorded,
+Last March, education was recorded for the first time,
 
-The [Bl 104 nchine tine thst will be used for carrying out the
-ststistical snslysis st the IIT Co-putation Center will not cost snything.
+2, Not only are the February and March questionnaires richer
 
-The tot-1 request is for $23,805. The insulation of this snount is
+individually, especially the questionnaires of 1957, but
+the information on the three quarters of the sample which
+persists between successive months is collated so that we
+have work experience, education, and income as well as an
+extended list of demographic variables for about 60,000
+individuals 14 or over,
 
+The fourth aspect of the investigation is the statistical
+technique to be used, This is to consist primarily of what is essentially
+an analysis of variance, though the actual computational procedure is a
+form of multiple regressioa which does not assume linearity or additivity,
+The procedure is being programmed for the IBM 704, Purther description
+and an illustration are givem om pages 31-33 of the attached paper,
+Professor Orcutt has consented to provide advice on statistical matters,
+
+Because of the mnom-disclosure regulations governing the Bureau of
+the Census, it is not possible to obtain copies of the 1957 Curremt Popula-
+tion Survey tapes referred to above, However, the Bureau has indicated
+willingness to punch cards from these tapes according to our specifications
+and to cross classify these by various desired combinatioms of seven or
+eight variebles, Simultaneous cross-classification by more tham this
+number of variables would result in too many empty cells, The major
+disadvantage of this limitation may be mitigated, however, by judiciously
+selecting the combimations of variables so that those betweea which we
+suspect sigaificaat interactions may be treated simultaneously, In this
+way we may aveid the necessity of assuming additivity of effects where
+the assumption appears clearly unwarranted, It ie hoped that the imves-
+tigation of the data referred to on pages 22-27 of the attached paper,
+which is currently underway, will throw some light on the relative significaace
+
+
+-
+
+of the interactions between some of the explanatory variables we shall be
+
+working with,
+
+The Bureau of the Census has indicated that it will cost $15,000 to
+punch the necessary cards from the CPS tapes, to perform the desired sortings
+of these cards and to punch the summary cards which we would use as our
+primary data input,
+
+The IBM 704 machine time that will be used for carrying out the
+statistical analysis at the MIT Computation Center will not cost anything,
+
+The total request is for $23,805, The itemization of this amount is
 as follows:
 
-       
-     
-   
-   
-   
-   
-   
-   
  
-     
-  
- 
-  
-       
-
-   
 
 Card punching and sorting by the Bureau of the Census $15,000
-Hslf tins salary anunry through June, 1958 1,500
-Full tine sslnry July, August, Ind Septenber, 1958 1,500
-
-Typing, card punching, progrs-ing sssistsnce,
-clericsl help, etc. 2,000
-
-'I‘rsveling expenses for trips to the lurelu o! the
-
-Census, etc. 700
+Half time salary January through June, 1958 1,500
+Full time salary July, August, and September, 1938 1,500
+Typing, card punching, programming assistance,
+clerical help, etc, 2,000
+Traveling expenses for trips to the Bureau of the
+Census, etc, 700
 $20,700
-Allowsnce tor indirect snd specisl expenses 3'105
+Allowance for indirect and special expenses 3,108
+TOTAL $23,805
 
-$23, 305
-
-The work would be conpletsd and the finsl report sub-itted by the
-end 0! Septenber, 195B,
+The work would be completed and the final report submitted by the
+end of September, 1938,
+Signed
 
  
 
-m
-Csri I. Hoe
-Assistant Chnncellor
+MIT Computation Center
 
-\
+Approved
 
-Dr. I. L. Foster, Director
-Division 0! Sponsored Research
+ 
+   
+   
 
-November 13 1957
+   
 
-Dnte
+Philip
+MIT Compu
+Ce Ar
+Carl F, Floe
+
+Assistant Chancellor
+
+rse, Director
+ion Center
+
+- -
+Dr, FP, L, Foster, Director
+Division of Sponsored Research
+
+November 13, 1957
+
+Date
 
 
-luclouu-os:
-1.‘ "The Butllltlon
+Enclosures:
 
-I I)!"
+ 
 
-3, Copies or pipe" pro-out“ at tho Sept-abet
-Boone-ctr“:-
+The Estimation of Labor Porce Participation Probabilities,” & more
+extensive exploration of the general background Surrounding the
+area of proposed investigation (3 Copies),
 
-Oroenbor‘or, And
-I] u). 1' I
+Reprints of a Journal article by Professor Guy RH, Orcutt which is
+referred to in the above enclosure (3copies),
 
-(1 copy of. uch),
+Copies of Papers presented at the September Boetings of the
+Econometrics Society by Alice Rivlin, Martip Greenberger, and
+Byself, on various Phases of the Orcutt model (1 copy of each),
+A more extensive draft of Orcutt's (1 copy),
 
-5
+Brief Professional resume (1 copy).
 
-. Brie! proton-incl ro'Iu-o'
+RL ll. E50 i, EL TRIN Le a, Abd. hatin “ —
 
 

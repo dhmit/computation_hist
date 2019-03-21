@@ -1,73 +1,86 @@
-HARVEY COHN
-
+. HARVEY COHN
 300
-_x exp ur, where )l, a are new constants: If we simply let a —> 0 we ﬁnd that the
-previous values of H(r) yield the specral cases H(r) = _)\()\ + 1)/(7' + ”)2
-and H (r) = —)r respectively. . . .
 
-In these special casesy we can perform the limitlng process (of commune)
-and ﬁnd that when H (r) = —)\ exp Mr, (7) becomes
-(8) Rev, y; r’, y’) = J.,(2u*)
-where v = —>\lt—2 (exp in — exp tar) (BXp uy - eXp uyr). If in (6) ,1 A 0’
+—\ exp ur, where A, p are neéw constants. If we simply let x — 0 we find that the
 
-we ﬁnd that for H(r) = —)\()\ + 1)/(r + W, (7) still yields the Riemann rm.
-tion but V is replaced by its limit — (a f I') (y _ y')/(x + y + u) (1’ + y! + y).
-Likewise (8) yields the Riemann functlon for H (r) = —)x when u is replaced by
+previous values of H(r) yield the special cases H(r) = —\Q\ + 1)/(y e
+and H(r) = —A\ respectively. e
 
-its limit — Mac — x’)(y — 2/).
+In these special cases, we can perform the limiting process (of confluence)
+and find that when H (r) = —A\ exp ur, (7) becomes
+(8) Rz, y; 2, y) = Jo(20')
+where v = —u~ (exp px — exp ur') (exp py — exp py'). Ifin (6) y g
 
-Thus the Riemann function is found in closed form when H (r) is the rather
-versatile function —)\(>\ + 1)H2/Sinh2 #(T + P)-
+we find that for H(r) = —A\ 4+ 1)/(r + »)°, (7) still yields the Riemann fyp,.
+tion but V is replaced by its limit —(z — 2') (¥ — ¥)/(@+y+») @ +y + b
+Likewise (8) yields the Riemann function for H(r) = —\ when v is replaced hy
+its limit — A(z — @)y — ¥)- '
+" Thus the Riemann function is found in closed form when H(r) is the rather
+versatile function —A(A + 1)u’/sinh® p(r 4 »).
 
-4. Riemann‘s Fourier integral expression. Perhaps a more promising method
-of ﬁnding Riemann functions is one mentioned by Riemann, By Changing
-the variables of (1) to r = a + y and s = ac — y and separating the new variables,
-Riemann solved a class of boundary value problems by means of a Foul-1y
-superposition. On comparing this solution with the one that would have been
-obtained by using the Riemann function, Riemann [6; 179—181] arrived at a
-heuristic result which we new state in the following form:
+4. Riemann’s Fourier integral expression. Perhaps a more promising method
+of finding Riemann functions is one mentioned by Riemann. By changing
+the variables of (1) tor = z + y and s = x — y and separating the new variables,
+Riemann solved a class of boundary value problems by means of a Fourier
+superposition. On comparing this solution with the one that would have heep
+obtained by using the Riemann function, Riemann [6; 179-181] arrived at g
+heuristic result which we now state in the following form:
 
 If we let
 
-(9) 12* = 1 [7 exp ik(s — s’)W(r,7'/; k) dk
+(9) R* = %r [ exp tk(s — s")W(r,r"; k) dk
 
-‘ll' . 7a:
-whore WU, r’; k) is deﬁned by the ordinary diﬂcrcntial equation
+where W (r, r’; k) 1s defined by the ordinary dzfferential equation
 
-dZW/dr2 + [k2 + H(r)]W = 0
+dW/dr* +[k* + HP)]W = 0
 (10)
-W = 0, (UV/dr = l at 1’ =1"
+W =0, dW /dr = 1 at r=r'
 
-,
+)
 
-than, aha/tying to the-old variables, we ﬁnd 15* satisﬁes the relation
+then, changing to the old variables, we find R* satisfies the relation
 
-(11) 1x” = tisgntr - I’) + Sena - y’)lR(I,y;1"vl/>-
+(11) R* = 3[sgn(z — 2’) + sgn(y — ¥)IR(z, y; ', ¥').
 
-_ We can express 11' in terms of well-known functions only in a few cases, for
-instance where H(r) = —)\ or ‘Mk + l)_"rl, In these cases W takes the values
-(12:0 sine ~ on? — iii/(k: — A)?
+| We can express W in terms of well-known functions only in a few cases, for
+instance where H(r) = —X or —A(A + 1)/7°. In these cases W takes the values
+(12a) sin(r — )k — N/ — N
 
 and
 
-(12h) any“): lmlm‘w i- ; 79111-qu k l r')],
+(12b) dx(rr’)* Im[H (| k | DHZS( & | )],
 
 respectively. Further development of the theory of differential equations may
-make enough functions “known" to permit 11' to be expressible in closed form
+make enough functions “known’’ to permit W to be expressible in closed form
 
  
 
-.th since
-Kx
+ 
 
-2i ihere
+ 
 
-This denl
-it abs;
-ﬁlllcl], i
-1m}.
+ 
 
-‘Ve lie.
-“Erin
+ 
 
-llil
+ 
+
+NDW SiIlCE
+
+kK,
+
+ 
+
+a4 theref
+
+ 
+
+ 
+
+te subst
+(iich, |
+10))
+
+ 
+
+We ney

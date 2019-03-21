@@ -1,0 +1,116 @@
+CC-75-1 .
+
+2-11
+
+Post-Mortem Request Decks
+Post-Mortem mcd e -
+
+A modified version of the post-mortem program, MIPMR1, has beep
+m
+
+title card, for example
+PMD M100-5-1
+(2) Post-mortem request decks are not required to have termi-
+
+nation cards (one merely stops writing PMR requests) although a card
+
+having one of the SAP instructions, HTR, TRA, or TTR, in its operation
+
+field will terminate the deck as before, The variable field of this card
+
+is, however, ignored,
+
+(3) The MIPMRL format for punching binary cards (BIN) has been
+eliminated,
+
+The translation phase will assemble the PMD deck and record it
+on the BINARY INPUT TAPE, The title in the variable field of the PMD
+card may be used during operation time to refer to the request deck,
+
+If symbols are used to specify memory ranges in PMR requests,
+then these symbols must be assigned in the MEMORY SYMBOL TABLE when the
+PMD deck is assembled, Unlike SAP and BIN decks, no symbol table is
+associated with a PMD deck on the BINARY INPUT TAPE .
+
+The SAP Pseudo-operation
+
+TCD S Transfer Card
+
+causes the assembly program to produce a t
+the assembly,
+
+ransfer card and to continue
+
+by a disti '
+nctive title; . Ip the operator Program we shall do this by sys-
+
+tematically modifying the
+
+title which appears on the SAP title card for
+the symbolic deck,
+
+then b
+Y convention the first Sub-deck has the title
+MlOO-l-l*OO
+the second Sub-deck has the title
+
+CC-75-1
+2-12
+
+If the title on the SAP title card is
+A*j
+where i denotes an integer,
+
+then the title associated with the kth sub-
+deck is
+
+A*(i+k~1)
+The first example was for the case where the title did not end in the
+characters, *i,
+
+The translation Phase records each sub-deck on the BINARY INPUT
+TAPE and assigns to them in turn the Systematically modified titles de-
+scribed above, These titles can henceforth be used to refer to the sub-
+decks, Only one symbol table, however, is recorded on the BINARY INPUT
+TAPE (namely the MEMORY SYMBOL TABLE resulting from the assembly) but
+this is automatically associated with all of the sub-decks and can be
+referred to by writing any of their titles,
+
+If the symbolic deck contains PRG or SMT pseudo-operations
+which require that binary cards be produced, then BIN title cards con-
+taining the systematically modified titles described above will be pro-
+duced for each sub-deck requiring punch-out; moreover, if the title on
+the BIN card does not end with the characters, *00, then it will be pre-
+ceded by a CST card with a blank variable field, Thus replacing a sym-
+
+bolic deck by a binary deck obtained from a SAP assembly will not, in
+
+general, affect a run Only one punched symbol table per assembly is
+3 :
+
+produced, however, and it will always be a part of the first sub-deck
+(even if this sub-deck produces no cards other than symbol table cards),
+
+The structure of a binary deck produced by a SAP assembly con-
+
+taining TCD cards is shown below:
+BIN M100-5-1*00
+
+e syavol Tabte
+E____'____—_:] Program
+
+CST
+BIN M100-5-1*01
+
+[ o Progran
+
+— e —————————————e
+
+A modified versio
+FORTRAN1 symbolic decks must be
+
+of FORTRAN1 has been included in the trans-
+n
+
+preceded by an FTN title
+lation phase,

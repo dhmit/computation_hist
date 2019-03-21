@@ -1,0 +1,48 @@
+COMPUTATIO!! CENTER
+Massachusetts Institute of Tachnology
+Cambridge 39, Massachusetts Bulletin No. 17
+March 31, 1961
+BULLETIN
+
+Fortran/FAP Monitor System Changes
+
+I. 'Recent extensive IBM changes to the Fortran/FAP Monitor System
+were described in a letter from the Operations Staff dated March 20, 1931
+which has been sent to all active programmers. The changes affect:
+
+1. order of the run decks (symbolic now must precede all binary),
+
+2, size of programs (program, excluding COMMON must not overlap
+loader and its tables),
+
+3. assignment of CHAIN tapes (A4 is now primary, Bl is no longer
+used),
+
+4, control cards LABEL, LIST8 etc. described in the latest manual
+(C23-C054~2) which unfortunately, is not presently available.,
+
+These changes will be instituted April 3, 1231. If you have any
+questions, you should see the consultants before submitting your runs.
+
+II. In addition to these changes, the Center has made several
+modifications over the past two or three months, The following is
+a complete list of all such changes since the last Bulletin.
+
+Date Change
+
+January 17, 1961 BSS control records modified to print amount
+of Common data overlap. Statistics informa-
+tion added for use of the Computation Center.
+
+Monitor Scan and BSS have been modified so
+that a Monitor comment may appear just before
+the DATA card,
+
+January 30, 1961 Modifications to Monitor record to print
+pertinent time and date after each compilation.
+
+February 8, 1961 Operation Table in FAP extended to include
+those instructions related to the direct-data
+device. (Write Direct Data - WDDX, Read
+Direct Data - RDDX, Store Sense Lines = SSL,
+Present Sense Lines - PSL.)

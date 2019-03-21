@@ -1,0 +1,35 @@
+POLYTECHNIC INSTITUTE OF BROOKLYN
+THE PROTEIN STRUCTURE PROJECT
+55 JOHNSON STREET, 4TH FLOOR
+BROOKLYN 1, NEwW YORK
+
+October 2,19 -5-6
+
+Dr. P.M. Morse
+
+Department of Physics
+
+Massachusetts Institute of Technology
+Cambridge, Massachusetts
+
+Dear Dr. Morse:
+
+This Project is interested in putting two problems,
+both iterative , on an IBM Type 704 Electronic Data Processing
+Machine. Since such a computer is or will be installed at MIT, I
+would appreciate it if you would inform me as to its physical make-
+up. This will permit me to judge whether or not the above-mentioned
+problems are feasible on MIT's computer. In particular, I would like
+to know how many words of core storage it will possess, the number
+of magnetic drums, the number of magnetic tape units and whether a
+cathode ray output will be available. In all other respects, I will
+assume it to be standard.
+
+I thank you for any trouble that you have gone through.
+
+Sincerely yours,
+
+C\Q‘lxcw.xqst /\\\)«Q \,\Ag(@
+
+Alexander Tulinsky
+Research Associate
