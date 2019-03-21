@@ -57,6 +57,8 @@ def populate_from_metadata(file_name=None):
 
     db = sqlite3.connect(f"{Path(DJWEB_PATH.parent, 'db.sqlite3')}")
     cursor = db.cursor()
+    # delete old table if exists before populating full text search table.
+    cursor.execute('DROP TABLE IF EXISTS doc_fts;')
     cursor.execute('create virtual table doc_fts using FTS4(id, title, text);')
     cursor.execute('''INSERT INTO doc_fts(id, title, text) 
                                                 SELECT id, title, text 
