@@ -282,14 +282,10 @@ def advanced_search(request):
         print('Error getting pages')
 
     try:
-        min_year = int(request.GET['minYear'])
-        max_year = int(request.GET['maxYear'])
-        if 1900 < min_year < 2000 and 1900 < max_year < 2000:
-            doc_objs = doc_objs.filter(Q(date__year__gte=min_year) & Q(date__year__lte=max_year))
-        else:
-            doc_objs = []
-
-    except ValueError:
+        years = [int(request.GET['minYear']), int(request.GET['maxYear'])]
+        doc_objs = doc_objs.filter(Q(date__year__gte=years[0]) &
+                                   Q(date__year__lte=years[1]))
+    except:
         print('Error getting min and max years')
 
     print(request)
