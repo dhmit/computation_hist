@@ -1,0 +1,57 @@
+k4
+
+Mewmorandum to: J. A. Stratton
+From: P. M. Morse
+
+Subject: . Research Projects in Computing Techniques for the
+Computation Center
+
+Need for Research in Machine Techniques - A year from
+now, with the installation of the IBM 70%, M.I.T. will have an
+operating facility which will become an important tool to aid re-
+gsearch in many fields of science and engineering. With the gener-
+ous support from IBM, this equipwent will be available, free of
+operating and maintenance charges, to those who are able to pro-
+gram, test and run off their own computing problems. Many students
+and some faculty members can (and should) spend the time needed to
+learn about machine operation, to do their own coding and to super-
+vise the running off of their own problems. . |
+
+Bl If we are to keep up with the times in the computing
+field, or if we wish to go beyond this and take the lead in some
+aspects of the use of digital cowmputers in research, we must have,
+in addition to the operating and maintenance staff provided by IBM,
+a research group capable of investigating the mathematics and pro-
+cedures of machine logic, capable of teaching courses in numerical
+analysis and machine coding and capable of advising persons using
+the. equipment as to best procedures in the analysis and coding of
+thelir problems. A small group of this sort has been connected with
+Whirlwind since its beginning. It has been to a large extent re-
+sponsible for the great utility of Whirlwind in research at M.I.T.
+and for the rapld advances in wachine logic which have made Whirl-
+wind so versatile. To utilize the 704 effectively, we will need a
+siwilar, but somewhat larger, research group, which can be formed
+by taking over the Whirlwind group.and augmenting it.
+
+ 
+
+| Tasks for Research Group - To make the Computation Center
+a true center for research and instruction, it should have, in
+addition to the operating and maintenance staff, a research group
+having the following duties:
+
+1. To carry on research in numerical analysis, in the
+logic of coding and in the development of programming technigues.
+
+2. To lnvestigate procedures for recording and processing
+of large-quantity experimental data or operational records or other
+information, and to develop programs for the statistical analysis
+of such data and its display or presentation in quickly understandable
+form.
+
+5. To aid in instructing students and others in these
+subjects, and to help supervise student research in these fields.
+
+ 
+
+e e e

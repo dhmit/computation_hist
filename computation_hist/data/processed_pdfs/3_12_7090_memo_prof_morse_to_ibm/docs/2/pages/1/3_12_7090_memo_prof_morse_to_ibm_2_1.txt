@@ -1,0 +1,49 @@
+Third Draft
+Corbato Version
+
+. Mr. M., Loven Bullock
+B mm
+'. ‘. 'T' .
+
+| 'M um:
+
+m Center staff in donloptu a tt-o-muu system for the IBM 7090
+ computer has come to the comclusion that certain machine modifications are
+essential for the success of the project. The requirements for time-sharing
+system will first be discussed in a general way and then a specific proposal
+of modifications will be made. Although the proposal is considered to be
+& fully satisfactory one and reasonable to implement and use, it should not
+be considered the unique way to satisfy the desired requirements. Rather the
+ proposal should be considered as specimen which exhibits the various roquiu—
+. mts and attendant alﬂ.culuu which mt be solved.
+
+it is aapoctod that all programs oX tmo-mred users of the computer
+will be operated under the direction of a supervisory program. The latter
+progran will be responsible for periodically starting and stopping each
+user program in a sequential fashion. Due to core memory space limitations,
+user programs will ususlly have to occupy different memory locations each
+time they are operated. User programs when operated must be unable to
+transfer to or store words in other programs outside of their allotted
+memory regiol.. However, the supervisory program, which is assumed to be
+completely debugged, should be able to transfer to or reference any location
+in mewory. It is assumed that all trap locations will be in the supervisory
+program, Finally, to prevent & user program from giving input-output
+commands which disturb other programs it appears convenient that input-
+output commands only be initiated in the supervisory program; thus the user
+program enters supervisory program subroutines to accomplish input-output.
+
+The above requirements can be satisfied by T“he following propesed
+modifications:
+
+1, There should be a memory protection wmode added, When out of the
+memory protection mode (normally set by the reset button), the 7080 behaves
+in the usual manuer and relocation and boundary registers {(Jescrised below)
+are ignored. Vhen in the memory protection mode, memory protection traps
+may occur and the relocation register is operative. The mode is entered
+by & special instruction
+
+TRP X (transfer and enter protect mode)
+which causes transfer of control to X end entry into the memory protection
+
+mode, The mode is left whenever any trap occurs, (it would be convenient
+for using system subroutines, but not essential, if a TSX~like instruction

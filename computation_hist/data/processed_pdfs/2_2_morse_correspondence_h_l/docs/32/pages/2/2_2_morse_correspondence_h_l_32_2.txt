@@ -1,0 +1,218 @@
+Corrections for article which appeared in the September, 1951, issue of the
+
+tJovrnal of the Optical Society of Americal
+
+REFLECTION AND TRANSMISSION OF RADIATION BY MCTAL FILMS, AND
+
+TEE INFLUENCE OF NON-ABSORBING BACKINGS
+
+Louis Farris, John ¥. Beasley, and Arthur L. Loeb
+
+Errata
+
+P. 605, line 7 and eq. (2)¢ TFor Ry, read: R,
+
+p. 606, equation (6) should read:
+
+£(0)
+
+p. 609, equations (31) and (32): for R. and T
+
+P AY AN /2 mn)dA)
+
+ 
+
+— (6)
+
+(PO Wro/amn)aedn)
+
+T T read: R and T
+
+p. 611, colum 2, lines 5 and 6 from the bottom should read:
+
+Mathematically, this amounts to the assumption:
+
+ 
+
+ 
+
+ 
+
+ 
+
+F(sin 6, cos 9) = F(sin ©, cos ©) i
+
+P. 613-614, The definitions of 6 and ©5 should reads
+
+93"‘
+
+b+ ?’/2
+
+211nb = _
+
+A+ )[/2
+
+5 - €
+
+A= U2
+
+v~ §/ 4
+
+Ean e W Y/ > CF
+A= /2
+
+ 
+
+when X/;{ __Z_ g/g
+
+ 
+
+2 mn, when X/-):é_ é/‘f)—
+
+nn IY IR g 5 L G
+A+ /2
+
+ 
+
+Reprinted from JOURNAL oF THE OPTICAL SocIETY OF AMERICA, Vol. 41, No. 9, 604-614, September, 1951
+Printed in U. S. A. ; |
+
+Reflection and Transmission of Radiation by Metal Films and the Influence of
+- Nonabsorbing Backings*
+
+LOUIS.HARRIS, JouN K. BEASLEY,t AND ARTHUR L. LOEB
+Depariment of Chemistry, Massachusetts Institute of Technology, Cambridge, Massachusells
+
+(Received November 3, 1950)
+
+A set of equations is presented for the reflection and transmission of normally incident radiation by
+
+absorbing (metal) films on nonabsorbing backings.
+
+Using these equations, the results of two different methods of calculation of the reflection and transmission
+coefficients of a thick nonabsorbing plate are shown to be practically identical, both with and without an
+“absorbing (metal) film on one surface of the plate. One of these methods involves the addition of intensities
+of the multiple reflections from the two surfaces of the plate. The other method is a rigorous calculation
+involving solution of the boundary condition equations (amplitude addition) for small areas followed by
+
+intensity averaging over the whole plate.
+
+In order to calculate optical constants of a metal film on a thick nonabsorbing backing, the much simpler
+method of intensity addition of internal reflections in the backing may usually be applied.
+
+ 
+
+INTRODUCTION
+
+THE optical constants of partially transmitting
+
+metal films may be determined by means of the
+reflection and transmission measurements of nearly
+normally incident radiation.!=® These metal films are
+usually deposited on an optically nonabsorbing backing.
+When the backing is very thin (of the order of the
+wavelength of the incident radiation or less), its surfaces
+are made optically parallel, and such backings may
+exhibit interference phenomena. The results of the
+derivation of expressions for the reflection and trans-
+mission in terms of the optical constants of these sys-
+tems are presented subsequently.
+
+In the case of thicker backings there is a good deal of
+disagreement between various authors*~7 about the
+influence of the uncovered face of the backing on the
+reflection and transmission. Customarily, multiple re-
+flections from the two surfaces of the backing are con-
+sidered, and the intensities of the beams emerging from
+the two surfaces are added to find the reflection and
+transmission coefficients of the system.
+
+Intensity superposition is shown! to be justifiable
+when the sources of the beams are incoherent. Koller?
+and, more recently, Matossi® have pointed out that the
+
+* This work supported in part by ONR, under contract N Sori-
+07839 NRO 15309.
+
+T Presented in partial fulfillment of requirements for degree of
+Ph.D. in the Department of Chemistry at the Massachusetts
+Institute of Technology. 1
+
+' J. A. Stratton, Electromagnetic Theory (McGraw-Hill Book
+Company, Inc., New York, 1941), pp. 511-515.
+
+* K. Koller, Z. Physik 110, 661 (1938).
+
+3 F. Matossi, J. Opt. Soc. Am. 39, 928 (1949).
+
+" H. Goldschmidt, Ann. Physik 82, 947 (1927).
+
+* H. Murmann, Z. Physik 80, 191 (1933).
+
+% J. Krautkrimer, Ann. Physik 32, 537 (1938).
+
+" F. Goos, Z. Physik 106, 606 (1937).
+
+( ® L. N. Hadley and D. M. Dennison, J. Opt. Soc. Am. 37, 451
+1947).
+
+’R. L. Mooney, J. Opt. Soc. Am. 35, 574 (1945). .
+
+YF. A. Jenkins and H. E. White, Fundamentals of Physical
+Optics (McGraw-Hill Book Company, Inc., New York, 1937),
+p. 36.
+
+reflected and transmitted waves from the two surfaces
+of a nonabsorbing plate are not necessarily incoherent.
+Koller claims to demonstrate a difference between re-
+sults of intensity addition and those of amplitude
+addition, but this discrepancy is due to a mathematical
+error in Koller’s analysis. '
+
+Since intensity addition is much more practical to
+apply than is amplitude addition, and since it has been
+widely used,®®7 an analysis of the accuracy of intensity
+addition is presented below.
+
+It appears that intensity addition is applicable for
+sufficiently thick backings when either the thickness of
+the backing or the wavelength of the incident radiation,
+or both, has a sufficiently large range of probable values.
+
+INTENSITY ADDITION
+
+Without theoretical justification of intensity addition,
+the customary method of dealing with thick backings is
+given below.
+
+The backing generally has two different parallel
+surfaces, one of which is exposed to the air, while the
+other one is covered by a thin metal film. The reflection
+and transmission coefficients of these surfaces are de-
+fined as follows:
+
+(reflected | by the backing-air inter-
+
+Ro b} % s
+Tos the fl'dCthIlI transmitted J face,
+
+by a metal covered
+reflected backing when the inci-
+transmitted [ dent radiation travels
+
+from air into metal,
+
+Rz .
+Toa}the fraction
+
+by a metal covered
+
+R"“ltl P reflected backing when the inci-
+Tvel 16 HACHONY 4 nsmitted [dent radiation travels
+from backing into metal.
+
+It will be shown that R,,#Rse, but that Tou=T3,.
+Since there is no absorption at the backing-air interface,
+Tob= 1— Ro be
+
+604

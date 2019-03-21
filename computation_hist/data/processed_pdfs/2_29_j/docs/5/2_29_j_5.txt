@@ -1,8 +1,8 @@
 UNIVERSITY OF MICHIGAN
 COLLEGE OF ENGINEERING
-ANN ARBOR. MICHIGAN
+ANN ARBOR, MICHIGAN
 
-DEPARTMENT or ELECTRICAL ENGINEERING October 28, 1958
+DEPARTMENT OF ELECTRICAL ENGINEERING October 28, 1958
 
  
 
@@ -34,12 +34,13 @@ at this time whether you would extend an invitation to a group from the USSR
 to visit your institution in connection with computers and computation, should
 the exchange materialize and should their interest extend to such a visit. I
 realize that this is a highly nebulous request, but it is undertaken for two
-purposes: to give you advance indication of the possibility of the event, and
+purposes: to give you advance indication of the pos sibility of the event, and
 to make sure on our part that a proper itinerary can be arranged. A prompt
 response would be very helpful in making arrangements.
 
 Sincerely yours,
 
+/ Gos mths Coola
 Harry H. de
 
 Professor of Electrical Engineering

@@ -1,0 +1,49 @@
+the thesis research and which maintains the scientific tone
+of the Institute. Research of this type should not be handi-
+capped or abandoned because of difficulty of acceas to high-
+spesd computers. If special financing is required for each
+piece of research which needs computer time, then the educu-
+tional research progrsm will not advance as it should. Cex-
+tain restraints on the free use of machines W3y have to be
+imposaed, but these should not be financial omes.
+
+The Inctitute is at present ottovgn& the necespary
+speclal courses basic for training. There 1s a senior eleg-
+tive course, 6.25, which provides a survey of machines and
+their general properties. Course Mill provides the basic
+mathematical background for numerical analysis, and courses
+2.215, 6.535, 6.536, 6.537, 6.538, 6.567 and 6.568 are advanced
+courses in coding, programming or in basic machine design
+principles. If sufficient access to working machines could be
+scheduled for the students in these courses, plus students in
+other Jjunior-senior engineering courses which could devote 2
+portion of their time to the principles of computing machines,
+then the Institute would be in the forefront in regard %o
+training in this field.
+
+At present, however, the Institute has made no
+direct provision for the use of computers as laboratory
+equipment, or for general educational research, as outlined
+egbove. What use is now in effect i1s of the nature of a by-
+product. Several large research projects nmeed mschines for
+thelir own work, but are willing to allow others in the Insti-
+tute to use the equipment when it happens to be idle. Whirl-
+.wind actually schedules a certain fraction of its time for
+users from outside the project. But as training and general
+research needs increéease, and perhaps project funds decline,
+this process of satisfying our educational requirements by
+"gathering up the crumbs" from the projects will be less and
+less adequate. The Institute must make arrangement for the
+direct financing of computing equipment adequate to train the
+next generation of engineers and scientists. '
+
+This is not to say that special projects should be
+discouraged from getting and using their own machines or thit
+we should frown on special financing for the design and
+building of special-purpose machines. These activities have
+their own important place in the gemeral Institute program.
+But we cannot expect these special projects sutomatically to
+satisfy our educatiomal requirements in the field. We do not
+attempt to run our laboratory courses by occasionally borrow-
+ing the use of DIC equipment. If we are to train enginecery
+and scientists in the use of electronic computers, we must

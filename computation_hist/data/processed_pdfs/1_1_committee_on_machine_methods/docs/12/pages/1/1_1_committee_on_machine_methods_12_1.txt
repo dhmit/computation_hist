@@ -1,44 +1,47 @@
 Minutes of the Twelfth Meeting
 of the
-Committee on Machine Methods of Computation
+Committee on Machine lMethods of Computation
 
-March '7, 1951
+March 7, 1951
 
-Pezgogg Eresegts B. R. Ev rett H. Feshbach z. Kopal’ c. Lin
-and P. M? Morse ’ ’
+ 
 
-The Committee approved the recommendations of the Physics
+Persons Present: R. R. Everett, H. Feshbach, Z. Kopal, C. Lin
+and P, MQ Morge & !
+
+The Committee approved the reéommehdations of the Physics
 Department that
-F. J’. Corbato
+F. J. Corbato
 
-M. C. Hewstein
-G. Speismen
-L. S. Frishkopf
+M., C. Newsteln
+G. Spelsman
+I’o S. FI‘iShkOpf
 
-be appointed half—time Research Assistants in Applied Mathe-
+be appointed half-time Research Assistants in Applied Mathe-
 matics and Machine Computation for next year (Corbato beginning
-
-June). Mathematics and Electrical Engineering, candidates will
+June) . Mathematics and Electrical Engineering candidates will
 be reported on next week.
 
-Horse reported that Kopal's ONE contract for next year has
+‘ IHorse reported that Kopal!s ONR contract for next year has
 been approved and will be supervised by Jacchia.
 
 Kopal reported that the Electrical Engineering Department
-wished to hear the Committee's opinion on the continuing or
-Valet-man's course in machine coding next year (Welshman has
-left the Whirlwind project). The Comittee felt that such a
+wished to hear the Committee’s oplinion on the continuing of
+Welshman's course in machine coding next year (Welshman has
+left the Whirlwind projsct). The Committee felt that such a
 course is an important one and that it should be continued. Per-
-haps Adams of the Whirlwind project could give it next year.
+haps Adans of the Whirlwind project could zive it next year.
 
-Morse reported that the Industrial Liaison Office (Mr.
-Bevans) desired to fix the program and date of the proposed Con-
+ 
+
+Morse reported that the Industrial Liaison 0ffice (Mr.
+Bavans) desired to fix the program and date of the proposed Con-
 ference on the use of Large-scale Computers in Industry. The
-first week in May appeared to be a good time. Subsequent talk
-with Mr. Bevans indicated that Wednesday—Thursday, May 2—3,
+first week in May eppeared to be a good time. Subsequent talk
+with Mr. Bevans indicated that Wednesday-Thursday, May 2-3;,
 would be the best days. The proposal is to have Morse, Verzuh
-and Adams talk the first morning on the general question of
+and Adamg talk the first morning on the general question of
 machines, what they were and how they could be used. Wednesday
 afternoon could be spent in hearing about the DA and visiting
-it and Thursday mornim could be spent hearing about and seeing
+it and Thursday morning could be spent hearing about and seelng
 Whirlwind (though this order could be reversed). Bevans would

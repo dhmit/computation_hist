@@ -1,0 +1,42 @@
+— '=‘n'1
+|
+
+ 
+
+ 
+
+-2
+
+A separate DIC project will be set up to handle the Type 704
+utilization within the ¥,.I,T. COMPUTATION CENTER, and a
+
+separate request for GNR funds will be made. Current plans
+
+indicate that Project 6345, as such, will terminate on June 30, 1957.
+As a matter of fact, certain experienced programmers will be
+transferred to the new project on January 1, 1957. The estimated
+budget for Project 6345 has been adjusted accordingly.
+
+The task order for Project 6345 will include the
+usual Whirlwind project activites:
+
+1. Research in methods of numerical analysis and
+the formulation of scientific problems for
+machine sclution, together with the training
+of personnel in these methods.
+
+2. Support of the Scientific and Engineering
+Applications group of Project WHIRLWIND so as
+to make the computer useful and available for
+the above-mentioned research.
+
+In sddition, the following task order arising in connection with
+the Type 704 EDPH will be included:
+
+3. The development of a suitable interpretive program
+and associated coding techniques to permit
+effective implementation of the Type 704 machine.
+
+A detailed breakdown of the estimated budget for
+Project 6345 and the 6915 termimnation costs are given on the |
+next page.

@@ -1,47 +1,44 @@
-CC—S ' _ Page 1 of 3
+cC-5 %) S Page 1 of 3
+MIT Computation Center
 
-HIT Computation Center
+Magsachusetts Institute of Technolcgy
+Carbridge 39, Massachussttis
 
-Massachusetts Institute of Technology
-Cambridge 39, Kaesachusetts
+MEMORAITDUN
+Tos P, ¥V, Cugick : Date: January 22, 1657
+From: F, H, Verzuh
 
-W“9i@ﬂ
-
- 
-
-To; P. V. Cusick » Date: January 22, 1957
-From: P. I. Vex-nub
-
-Subject: Electronic Data Processing Equipment in the Computation Center
+Subject: Electronic Data Processing Equipmént in the Computation Center
 
  
 
 The purpose of this memorandum is to provide a list of the number
 and type of data processing machines available in the MIT Computation Center.
-In addition, the monthly rental caste of each unit has been adjusted to agree
-with the new rental ﬁgures which are effective Earch l, 1957. Table 1 contains
-a list 02 the machines which are used as part of the 704 Calculator on an on—line
-or an off-line basis. By off-line we mean the peripheral equipment such as,
-tepe-to-csrd converter, card—to-taye converter, and the tapercontrnlled printer,
-respectively .
+In addition, the moathly rental costs of each unit has been adjusted to agree
+with the new reatal figures which are effective kMarch 1, 1957, Table I contains
+a list of the machines which are used as part of the 704 Calculator on an on-line
+or an off-~line basis, By off-line we mean the peripheral cquipment such as,
+tape-to—-card converter, card-to-tape converter, and the tape-controlled printer,
+respectively.
 
 In addition to the electronic data processing equipment associated
 with the Type 704 Calculator, there are certain electric- accounting machines
-(RAH) which complement the 704 and these will be located in the basement of
-the West wing in Room 26—053. Table II provides a breakdc'v'm of the number- and
+{EAM) which complement the 704 and these will bhe located in the basement of
+the West wing 1in Room 26-058, Table II provides a breskdown of the number and
+type of electric accounting machines which will complement the 704 Calculator.
 
-’type of electric accounting machines which will complement the 734 Calculator.
+It is interesting to note that the combined monthly rental of the
+704 Calculator and the EAM eguipment is as follows:
 
-it is interesting to note that the combined monthly rental of the
-704 Calculator and the me equipment is as follows:
+704  $43,600
 
-704 $43,600
+EAN 1,760
 
-EAR 1 I 760
+Total,, $45,380
 
-Total . 9 $45,360
+Thus, it is apparent that IBM's contribution to the Computation Center in terms
+of machine equipment alone is $45,360 per month or $544,320 per year,
 
-Thus, it is apparent that 3232‘s contribution to the Computation Center in tea-me
-of machine equipment alone is $45,360 per month an $544,320 per year.
+ 
 
-his
+nb ‘ F, ¥, Verzui

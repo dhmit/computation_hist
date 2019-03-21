@@ -1,0 +1,24 @@
+6. Experimentel anslysis and control using data transmitted directiy )|
+petween ceomputer and experiment.
+
+7. Computations of imterest in pure mathematics: ON R
+
+e.g2., character table or selected characters of the sgymmetric group
+
+. 8 Investigation of Monte Cario techniqgues for large problems, ‘\yl\ 1N
+L’/ \ | ) |
+
+Extension and/or impromenont of present technigues for communication
+between compuiers and humens and control Of compuiers by humnan
+{includipg input and ouiput media involved). '
+
+e
+
+10, Computer estimation of problem time, |
+I
+
+Technigues for achieving Iuily automaeiic computer operziion and
+logging.
+
+fot
+fod

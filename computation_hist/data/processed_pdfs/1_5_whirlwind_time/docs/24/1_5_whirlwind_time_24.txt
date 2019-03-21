@@ -1,64 +1,75 @@
-MASSACHUSETTS INSTITUTE OF TECHNOLOGY ‘
-DEPARTMENT OF ELECTRICAL ENGINEERI' “ I
-DIGITAL chPLITER LABORATORY '
+- GORDON S. BROWN. FACULTY ADVISOR + : Cy NE
+CC USAY W. FORRESTER. DIRECTOR. mn eR vn RRR ASE ane AG ae Lt 2 A TecerronE ELioT 42-3311 2 SE
 
-, , 211 MAssACHLISETTs AVENUE
-‘, CAMBRIDGE 39 MASSACHUSETTS
+hor atl TRY ae We WP Fhe. oF lh aT, ab Tal Cw —~ » — _
+ol mL a. nt SDR aT » Hain = ¥ = —.
+o¥ oF fa - . - - . ” . ~ ry
 
-      
+§ Serr -r i - Fe LN § :
 
-,VGoaDcN s. aapwu. new." ADyIEoR
+: “3 Si Fon ol V
 
- 
+. ~ - »
 
- 
+ire —_— 5 Ta - Pp = - 3
 
- 
+Sr wis J a 3 :
 
-' ’Juw. Foanssvéa museum. - ‘ ' ’ ‘ , ,- . ‘ ’ ' f a TELEPHONE ELIOY Assn W '
+- : * . rw ee .
 
-DIG.”
+) . - we we k ee
 
-ROBERT R. Evans-n ASSOCIATE nmacmn
-HARRIS FANNESTOCK. ExzcuTIvE OFHCER
+= - on a a
+it oN ry & 2 v
 
- 
+: i _-¥ vx > XL “ 2S . vi “og “ ¥
+> $v. . Ne Pa Ha EL
 
-' ' @151”?
+MASSACHUSETTS INSTITUTE. OF TECHNOLOGY
+DEPARTMENT OF ELECTRICAL. ENGINEERING ot EAS : io
+~~ DIGITAL COMPUTER LABORATORY Bs)
+: C21 MASSACHUSETTS AVENUE
+Ge CAMBRIDGE 39, "MASSACHUSETTS
 
-In’MZAbr-m' 7 ‘
-- “tummy hut ,-: . - i ‘
-Inna-nan York
+ROBERT R. EVERETT, ASSOCIATE DIRECTOR :; 5 Sahm Emi SE * 3 Blo: 00s ana 3 PE Raa Db. I. C.-
 
-‘Mr Ir'. Mirna-3
+nl
+i
 
- 
+3 Br HARRIS Baungsrack, EXECUTIVE OFFICER.
 
-.. , 7,7 A, V L ,
+Sempra
 
-leuurumumbrudmumm
-, Mon-u ta a: “caution. hi m via you wont to:
-manta-anyway tho ulna. I anoint“: amt
-«I'm-ulna. Mantegna]. III-Inna “1:!me
-but: moi-nuamm mmmtum. m, '
-' . Incomuywmlamtltmmtlﬁcubouyoxth'
-* latex-path. not- tut have but man“ to: till 10‘.
-I Minn-21y, I :- Mouth; :9 III'I mama. ¢.l.'q cm;
-and United Mann'- MP, no. an utter Intel-1:1 an be
-"sum. hung tho (arm lead-1e you. “an ion
-am" tn th3. you should cont-u I. Wag this
-autumn nus-m.
+ Yoodners, New York
 
-1 Mn chuck-d mum- your m 11-- tho mutant-
-lmp u tux-b1. tro- the v.3. (burnout. m 1 11nd m1: 1:
-1- mm nubile!
+Dear ur, Abrahams: |
 
-ﬂuently you",
+- ag IR Cae RIT, Re ——y TE TN yr
 
-I. I. Venuh .
-he.
+| Your letter to Professor Norse of Juss 31 Bas heen. ry
+referred to my attention. In accordance with your request for
+literature on programming the IBM 704, I am enclosing a manual
+on this machine, This 4s a typical IBM manual which provides
+basic information regarding the machine and its uge. However,
+I am certain you realige that it does not describe any of the
+‘interpretive systems that have been developed for the 704.
+Particularly, I am referring to IBM's FORTRAN, G.E.'s CAGE,
+and United Airsraft's SAP, etc, The latter material will be
+available during the forthcoming academic year. When you
+arrive in September, you should contact me regarding this
+additional material,
 
-lIV:-t
-lv/cc P.l.lom
+I have checked whether your income from the assistant-
+ship is taxable from the U.S, Government, and I find that it
+
+is indeed taxable!
+
+Sincerely yours,
+
+¥. M, Yerzuh
+Ene,
+
+FMV: amt
+ee P.M Morse
 
 

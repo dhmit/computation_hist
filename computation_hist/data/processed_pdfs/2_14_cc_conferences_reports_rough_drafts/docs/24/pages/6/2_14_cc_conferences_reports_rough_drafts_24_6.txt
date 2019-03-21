@@ -1,0 +1,48 @@
+Conclusion
+
+ 
+
+The above discusslon of the Typs 705 machine is obviously ineomplete.
+additional debteils are avalleble from the 702 and 705 manuals of operation.
+
+The 705 unit employs a 6 digit parallel address and a different work structure
+then the Type 702. The 705 is naturally a much faster machine «= almost 7 times
+ag fast as the 702 cn reading end intépreting instructions. The arithmetic ope-
+rebiong have been inoressed by o factor of 26 per cent and the total effect of these
+changes is to indloate a two-fold overall increase in speedo
+
+IBM has recently ennounced the Type 740 Cathode-Rey Output Recorder which
+permits Wwiring data on the face of a Cathode=Ray tube ab the rate of 8,000 per
+
+However,
+
+soconde A 21" tube accurate to & per cent is used for physical inspeotion purposes
+whersas a 7" tube scourabe to 01 per cent is used to automatically photogreph date
+on the tubeo The Reaorder Unit is aveilable at & monthly remtal charge of $285600
+The Recordep;X Unit is designed to operate with a 35 millimeter camera. Film
+frames may be changed under calculator control in epproximately 650 ms per frams.
+
+ 
+
+However, the calcoulator is actually interrupted for less than 50 ms. The time
+consumed in displaying a pérticule.r point on the Cathode=Ray tume is o120 ms. A
+soordinate grid of 1024 points is aveilable.
+
+ 
+
+The IBM representatives believe the common language philosophy behind the EDPM
+mechineg is one of their strongest points. This 1s true since one may convert a
+fype TOL to a Typs 704 machine by merely replacing 3 units. Similarly, the Type 702
+may be converted to a Type 705 by replasing 3 wnitse. .
+
+In conclusion, IBM announced thet a EOOel.me-per-minute printer will be aval=
+liable in approximately two monthse They indicated that work was, of cowrse, in
+process on various paper-hendling devices, character readers, translistor computers,
+higher-speed printers, eto. However, no definite statemont was made regarding a
+possible delivery dete. Finally, it is rumored that the Type €650 machine will soom
+
+be provided with magnetic tepe units and a mechenical tsbulator printer. Again, no
+definite delivery date was indicated.
+
+= Fo Mo Vorsuh
+November 235, 1964

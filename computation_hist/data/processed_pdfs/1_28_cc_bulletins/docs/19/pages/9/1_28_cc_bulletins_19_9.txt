@@ -1,0 +1,156 @@
+CC-75-1
+
+2-9
+ted symbol table on the BINARY INPUT TAPE,
+
+the associa
+program and are given the same title (namely
+
+am and the symbol table
+
+o BIN title card).
+rds during translation time and operation
+
+binary
+
+Both the progr This title can henceforth be
+
+the one appearing on th
+on appropriate direction ca
+o the binary deck and the ass
+ymbol table always includes those symbols as-
+
+s ociated symbol table,
+
+time to refer t
+
+The associated S
+
+signed on the punched symbol table cards but ‘may, as we shall see, include
+
+more symbols,
+Symbol table cards, if they occur at all,
+They are identified by a 12 punch appear-
+
+must occur as a group
+
+just after the BIN title card,
+ing in column 1,
+
+Information cards, relocatable origin cards,and octal correction
+cards may follow symbol table cards in any order ,
+
+Octal correction cards can be prepared on a key punch, The
+
+fixed field conventions described below allow up to four corrections per
+
+Octal Address Octal Correction Blank
+(5 digits) (12 digits) Column
+
+card,
+
+    
+
+    
+ 
+
+! 5 First Correction
+
+: Second Correction
+; Third Correction
+
+4
+
+Fourth Correction
+
+Title cards and octal correction cards are Hollerith cards
+
+whe -
+reas symbol table cards, information cards, origin cards and transfer
+
+card i
+S are binary cards, The latter must contain both 9 and 7 punches in
+
+both col t
+umns 1 and 73 so that they can be identified by the card-to-tape
+
+equipment ,
+The Direction Card, CST
+—_—— " vald, CS1
+
+Whenev
+°r @ SAP or BIN deck is assembled by the translation phas®,
+
+both the pProgram and jitg
+
+associated symbol t he
+BINARY INPUT TAPE y able are recorded on t
+
+The '
+assoclated symbol table includes at least those
+
+Symbols assigned within the deck
+
+In order exible
+use of Symbols, to allow for a more fl
+
+defined,
+
+CC-75-1
+2-10
+
+which has an associated symbol table
+
+The CST card is most concisely described by defining a MEMORY
+SYMBOL TABLE for translation time which 1s formed according to the
+following rules:
+
+(1) The MEMORY SYMBOL TABLE is cleared at the beginning of
+translation time,
+
+(2) A CST card with a blank variable field does nothing to
+the MEMORY SYMBOL TABLE,
+
+(3) A CST card with a non-blank variable field causes the
+following steps to occur;
+
+(a) The MEMORY SYMBOL TABLE is cleared unless a CST
+card intervenes between the CST card just read and the last SAP, BIN, FTN,
+or PMD card read,
+
+(b) The MEMORY SYMBOL TABLE (which may have been
+cleared in step a) and the symbol table mentioned in the variable field
+of the CST card are combined to form a new MEMORY SYMBOL TABLE, The
+title mentioned on the CST card must have been previously encountered
+and a symbol table having the title must actually appear on the BINARY
+INPUT TAPE,
+
+(4) The direction cards, SAP and BIN, cause the following
+steps to occur:
+: (a) The MEMORY SYMBOL TABLE is cleared unless a
+CST card intervenes between the SAP or BIN card just read and the last
+
+SAP, BIN, FTN, or PMD card read.
+(b) The MEMORY SYMBOL TABLE (which may be cleared in
+
+step a) and the symbols assigned within the SAP or BIN deck are combined
+
+to form a new MEMORY SYMBOL TABLE,
+
+(5) The direction card, FTN,
+d intervenes between the FTN card just read and the
+
+clears the MEMORY SYMBOL TABLE
+
+unless a CST car
+last SAP, BIN, FTN, or PMD card read,
+
+(6) No other direction card (e.g., PMD) affects the MEMORY
+
+SYMBOL TABLE,
+
+The MEMORY SYMBOL TABLE is recorded on the BINARY INPUT TAPE
+
+whenever a SAP or BIN deck 18 assembled during translation time and is
+
+associated with the deck.

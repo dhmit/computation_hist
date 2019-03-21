@@ -1,28 +1,53 @@
 data would help this work as well as others. Another promising
-direction or investigation is in the application of machine tech-
+direction of investigation is in the application of machine tech-
+niques to library inventorying, cataloging and record-keeping.
+Although special-purpose machines will probably be required in the
+end, many ideas and procedures can be developed and checked out on
+the general-purpose machine at the Center with the addition, per-
+haps, of some specially built input and output equipment. The
+staff of the MIT Library is interested in this work and will con-
+tribute its knowledge to its progress.
 
-0. Perhaps the most promising line of advance, in part
-because the least investigated up till now, is in the field or
-social science experiments, where the computer can be used as
-
+C. Perhaps the most promising line of advance, in part
+because the least investigated up till now, is in the field of
+soclal science experiments, where the computer can be used as
+recorder, scorer and referee. Tactical situations in warfare are
+already being studied by "gaming techniques" at Rand and in other
+military operations research groups. Similar problems in various
+flelds of the social sciences can also be studied by simplifying
+The situation down to some sort of "game", with more or less com-
 plicated rules, which can be played by groups of investigators, to
 see what the consequences are of various strategies. If the "games"
-are to correspond, even distantly, to some actual social situation,
+are o correspond, even distantly, to some actual social gituation,
 the rules must be quite complicated and the scoring will require a
 great deal of statistical computation. It has been found that only
 by the use of computing machines can the scoring be speeded up
-sufficiently so that enough games can be run through to provide
-
+sufficiently so that enough games c¢an be run through to provide
 an over-all grasp of the situation under study. Such "gaming
+techniques”" are closely related to the experiments of Bavelas on
+the behavior of task-oriented groups. The use of a properly pro-
+grammed computer would provide such experiments with a powerful
+and flexible means of changing, controlling, and analyzing these
+experiments in social psychology. In this field we could work in
+close collaboration with the Center for Internatlonal Studies at
+MIT and with the psychology departments in several other colleges.
 
- 
+Suggested Guidance for the Research
 
-chosen by the president of his college. This Committee provides
-over-all policy guidance in all activities. But to guide the work
-
-in social science outlined above, we will need another, more spe-
-cialized group. If financial support for this activity is forth~
-coming, about six top-flight social scientists from the participating
-
+The research activities of the Computation Center are
+guided and cocrdinated by an Advisory Committee consisting of
+representatives from each of the participating colleges,each
+chosen by the president of hils college. This Committee provides
+over-all policy guldance in all activities. But to guide the work
+in social sclence outlined above, we will need another, more spe-
+clalized group. If financlal support for this activity is forth-
+coming, about six top-flight social sclentists from the participating
+institutions will be invifed to Join a special advisory committee,
 to talk over possible lines of research with the Center staff, to
-help find those social scientists with "gleams in their eyes" re-
+help find those social scientlists with "gleams 1in their eyes" re-
+garding machine utilization in their flield, to help arrange the
+formation of teams for the pursult of the suggested research and
+to advise on relative priorities, if and when there 1is more work
+to be done than there is machine time avallable.
+
+_______________________------IlllllllllllllllJII

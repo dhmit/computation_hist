@@ -1,0 +1,55 @@
+7 Richards St.,
+Worcester 3, Mass.,
+June 12, 1957.
+
+Dre Me Ae Shader
+
+International Business Machine Corporation
+Applied Science Division
+
+425 Park Avenue,
+
+New York, New York.
+
+Dear Dre. Schader,
+
+Mre. Blackburn, Educational Coordinator for I.B.M.
+in Cambridge, Massachusetts, has suggested that I
+communicate with you in regard to computation which I
+would like to do on the 704 machine at Massachusetts
+Institute of Technology.
+
+I have a social science research project which is
+a part of my doctoral program at Syracuse University.
+All of my other work for the degree has been completed
+and I am now located in Worcester, Massachusetts,
+teaching at a college in the vicinlty.
+
+My data have been coded and punched on 622 I.B.M.
+cards. While the number of cards is not great, the
+number of variables contained in the data seems to
+indicate that use of one of the larger machines will
+be necessary. I had hoped to make use of a 650 machine,
+but it now appears that this is not feasible.
+
+My problem seems to lie in how I may qualify for
+use of the 704 machine at M.I.Te As I understand it,
+computation time is to be divided among M.I.T., the
+members of an association of other New England colleges,
+and 1.B,M, Neither Syracuse University nor the college
+in which I am presently teaching are members of the
+associatione There is a possibility that I might be
+able to work through one of the association members,
+Northeastern University, since I am a former faculty
+member of that institution. However, I wonder if it
+would be possible to work more directly through I.B.M.,
+or, if people from Syracuse University might receive
+authorization to utilize the computation service at
+M.I.T,
+
+I shall be greatly apprecilative if you will advise
+me concerning the proceedure I should follow,
+
+Sincerely,
+
+J&%PW

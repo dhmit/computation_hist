@@ -1,43 +1,40 @@
-Prob. lo. Lab.
-
-1064 318
+Prob. bo. Lab.
+1064 RLE
 1088 OR
-1143 185
-1150 133
-115 7 US
-1160 1.115
+1143 LNS
+1150 LMS
+1157 LNS
+1160 L8IS
 1176 LNS
 1178 RLE
-1181 185
-1185 RLE
-1190 ELK
-1191 BLE
+1181 LNS
+1184 RLE
+1190 RLE
+1191 RLE
 1193 RLE
-1194 LNS
+1194 LS
 1196 RLE
-1197 1N5
+1197 LS
 1198 LNS
 1199 RLE
 1200 RLE
 Laboratory
 
-ﬂours Employed
-ﬂours Used
+Hours Employed
+Hours Used
 
 Computing
 Overhead
 Sick Leave
 Vacation
-Clauses
+Classes
 
 Total
 
-Hours not Used
-Euurs Dverdtawn
-Cumulative Hours Hot Used
-Cumulative Hours Overdraun
-
- 
+Hours Mot Used
+Hours Overdrawn
+Cumulative Hours MNot Used
+Cumulative Hours Overdrawn
 
 Joint Computing Group
 
@@ -45,49 +42,37 @@ Time Record
 
 June, 1961
 
-Miss—by
+Requested by
 
-G.
-n’.
-E.
-u.
-G.
-c.
-n.
-J.
-a.
-J.
-R.
-A.
-P.
-G.
-G.
-n.
-P.
-n.
-a.
+G. Wolga
+
+H. Galliher
+E. Lomon
+
+H. Enge
+
+G. Schappert
+C. Yang~-Hu
+R. Freeman
+J. Hershfield
+E. Loh
+
+J. Coccoli
+R. Weiss
+
+A. Bers
+
+P. Chorney
+G. Guttrich
+G. Gerstein
+B. Bailey
+F. Sharb
+
+D. Morse
+
+H. Fields
 
 Time Distribution
-
-Helga
-Galliher
-Lumen
-Ease
-Schappert
-Yang-Eu
-Freeman
-Herahfield
-Loh
-Coccoli
-Weiss
-Ber:
-Choruey
-Guttrich
-Gnrstein
-Bai1ey
-Sharb
-Horse
-Fields
 
 RLE
 
@@ -95,56 +80,44 @@ RLE
 
 422
 150
+
 16
 
 588
+
+84
 
 1259
 
 August 30, 1961
 
-Hours in Juno
+Heurs in June
 
 60
-A
-
+&
 179
-
 24
 16
 84
-
-17;,
-
+176
 1
 28
-16
+15
 
-4
-
-147
-
-LES
-
-576
+576 0
 
 602
 
-79
-14
-38
-46
-35
-61
-16
+o
+o OCOO0O
 
-SS
+159
 
-@0006
-
-O
+S
 
 454
+
+3191
 
 Total Hours
 
@@ -160,11 +133,11 @@ Total Hours
 
 201
 
-257
+237
 
 119
 
-52
+32
 
 259
 
@@ -183,7 +156,7 @@ OR
 
 88
 
-uOOO‘k
+wooondH
 
 13
 

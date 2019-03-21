@@ -1,42 +1,41 @@
 M.I.T. Computation Growth Page 6.
 
-be beyond the availability of time on the 70ﬂ. Translation
-with a very large dictionary would. in addition, tax the
-70h's capabilities. Dr. Ynavo has not as yet been hampered
-seriously other than in the sense or slow programming pro-
-gress due to the existence of the queue.
+be beyond the availability of time on the T704. Translation
+with a very large dictionary would, in addition, tax the
+TO4's capabilities. Dr. ¥Yngve has not as yet been hampered
+serlously other than in the sense of slow programming pro-
+gress due to the existence of the queue,
 
-gzmbolic Manipulation (Artificial Intelligence Pro;ect-Dr's
+Symbolic Manipulation (Artificial Intelligengce Project-Dr's
+M. Minsky and J. MeCarthy
+Dr's Minsky and MeCarthy have developed a language for
 
-Ms mmﬂ and Jo “acutgg
-Dr's Minsky and McCarthy have developed a language for
-
-dealing with logical and same type problems which as of yet
-are primarily symbolic (as opposed to numeric) in character.
+dealing with logical and game type problems which as of yet
+are primarily symbolic (as opposed to numerie) in character.
 They are now engaged in applying this language to a large
-class of problem solving situations, rcansins from chess to
-the proof or theorums. One characteristic of such problems
-is that they tend to require an exhaustive search through a
+¢lass of problem solving situations, reanging from chess to
+the proof of theorums. One characteristic of such problems
+1s that they tend to require an exhaustive search through a
 large number of possibilities.
 
-The main hope in such problems is that the machinc can
-either by itself or with on-line human assistance develop a
-rule of thumb (or heuristic) to short out the exhaustive
-search and trial procedure. This class or problems requires
-very fast information processing, combined with as large a
-random access memory as is possible to apply their tech—
-niques to any sizeable problem clearly can require up to
-weeks of 704 time.
+The main hope in such problems is that the machine c¢an
+elther by ltself or with on-line human assistance develop a
+rule of thumb (or heuristic) to short cut the exhaustive
+search and trial procedure. Thils class of problems requires
+very fast informatlon processing, combined with as large a
+random access memory as 1s possible to apply their tech-
+niques €0 any sizeable problem clearly can require up to
+weeks of TO4 time.
 
-Experimental Physics Data Reduction—Dr. D. Caldwell
+Experlmental Physics Data Reduction-Dr. D. Caldwell
 
-Dr. Caldwell's work on determining the characteristics
-of hyperons (Lambda, D, Pi, Mu, etc.) involves the detection
-and computation of certain types of trajectories from among
-10-ioo,ooo photographs or high bubble chamber tracks.
+Dire Caldwell's work on determining the characteristics
+of hyperons (Lambda, D, Pi, Mu, ete.) involves the detection
+and computatlion of certain types of trajectories from among
+10-100,000 photographs of high bubble chamber tracks.
 
 This problem not only involves a large amount of data,
-but has strong requirements for the machine to recognize
-characteristic patterns. This type or process (although once
-the pattern is recognized the computation is small) can again
+but has strong requlrements for the machine to recognize
+characteristic patterns. This type of process (although once
+the pattern is recognized the computation is small) ean again
 severely tax the 704 facilities.

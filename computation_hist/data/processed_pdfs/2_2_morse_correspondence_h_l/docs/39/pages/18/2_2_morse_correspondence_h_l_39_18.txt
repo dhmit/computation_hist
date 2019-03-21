@@ -1,0 +1,360 @@
+98 Journal of The American Ceramic Sociely—Loeb
+
+in equation (4), its mean value in the sample, 7% can be sub-
+stituted.
+The total drop in temperature can then be written
+
+At=W(z A:‘+Z—————Ax” )
+
+ 
+
+The subscript s indicates summation over solid sections; the sub-
+script p indicates summation over pores.
+d in equation (4) equals Ax .
+
+Since k, v, ¢, o, and T3 are constant along the length of the
+tube, they can be put in front of the summation, so that
+
+e "”:) (5)
+k 4~veoT?
+
+ 
+
+At = W (
+
+l; = Z Ax, = combined length of solid sections in tube.
+S
+n, = number of pores in tube.
+
+If the length of a tube, which equals the dimension of the
+sample measured along the direction of heat flow, is called /,
+then equation (1) can be written
+
+ 
+
+ 
+
+= Al
+] = —
+" k ]
+b = effective conductivity of tube.
+Substituting equation (5) gives
+W=FrW (1 ls e oy
+kl ° 4~yeaTd
+1 1
+= =2 (1 =P+ i
+4~vea T3l
+
+P. = fraction of length of tube occupied by pores.
+
+The quantity //n, equals the average distance between
+pores along a tube. If Py is the lengthwise fraction of pores,
+the average length of the pore is then
+
+d = Py :
+”p
+
+ny _ Pr
+
+Ui
+
+Therefore, the effective conductivity of a tube is given by
+
+1 1 P
+k(l — PL) + - s
+4~eadT?
+
+ 
+
+- =
+
+(6)
+
+The amount of heat passing through all tubes, each of which
+has a cross-sectional area, A,, and an effective conductivity,
+% as given in equation (6), is given by
+
+W= Y Wd = Yk T A
+! t :
+
+The subscript f indicates summation over all tubes.
+At temperature drop across sample.
+l dimension of sample in direction of heat flow.
+
+I
+
+Ii A is the cross-sectional area of the sample measured per-
+pendicular to the direction of heat flow, the amount of heat
+crossing the sample per unit cross-sectional area 1s given by
+
+: At = A,
+W = 2
+] 2; ‘A
+The summation can be split into terms relating to solid tubes
+
+denoted by subscript s, and terms relating to porous tubes
+. - )
+denoted by subscript p:
+
+, _ A A, | =4
+W = l(k;A +k};A—”)
+
+ 
+
+—
+
+Vol. 37, No. 2
+
+. 2 1
+Defining the cross-sectional porosity Pe = o Z 4,, this
+P
+
+becomes
+SMEALT =
+w = 3| k1 - P+ % 12] )
+Combining this with equation (1) gives for the effective
+conductivity of a porous material
+k, = k(1 — Po) + k P
+
+Substituting equation (6) then gives
+
+ 
+
+ 
+
+ 
+
+ 
+
+P,
+kp=k(1—Pc)+1 P
+= PL) + ——
+4veodT?
+kp l)r
+B 1 — P+ Lt
+£ 1 = Pg ‘PLk_.
+4veadT?
+4‘)'(,’0(17:3
+k g
+f =] — Po——————— (8)
+g 4780’(1T3 ) vl — Py,
+k P
+
+IV. Conclusions
+
+Equation (8) expresses the ratio of the conductivity of
+porous material to that of an equal volume of the solid com-
+ponent in terms of
+
+P. = fraction occupied by pores of a cross-sectional area cut
+perpendicularly to direction of heat flow in a plane containing
+pores.
+
+P = fraction occupied by pores of length of a line of heat flow
+that passes through pores.
+
+v = a geometrical factor depending on shape and orientation of
+pores.
+
+emissivity of pores.
+
+Stefan radiation constant.
+
+conductivity of solid.
+
+dimension of a pore in direction of heat flow.
+
+mean of cube of absolute temperature of sample.
+
+e s
+i
+
+With the aid of equation (8) the conductivity of a material
+with controlled porosity can be calculated. When the ar-
+rangement of the pores is anisotropic because either their
+separation is larger in one direction than in another or because
+the pores themselves are not spherical, then rotating the sam-
+ple with respect to the direction of the temperature gradient
+causes a change in conductivity of the sample. The con-
+ductivity is no longer a scalar, but rather a tensor, and when
+tl}e sa?nple is placed with a symmetry axis at an angle to the
+d?rectlon of the temperature gradient, the heat flow will be
+directed at an angle to the temperature gradient.
+
+V. Corollary
+
+Samples with Porous Zones Separated by Solid Zones
+l.‘lqu:.ltion (8) has been derived for samples in which the po-
+rosity 1s Eith§r random or regular throughout the sample, so
+that any region much larger than the size of the pores but
+ra'ndomly chosen isidentical with any other region thus chosen.
+When a material is required to have great strength in one
+d1rec.t10n and to have a low conductivity in a direction per-
+Pef_ldlCUIar to it, it may be ad\'antagcous'tn alternate zones of
+solid material with zones of porous material, so that the
+greatest strength lies in the direction parallel t,o these zones,
+Wh_l:(i ?Lblt flow perpendicular to the zones is effectively inter-
+(t‘zf»),;li in)(litrhei(li)(());(s)u.s, 7"‘)1‘1“‘3- The conductivity of such ma-
+detived as Bllcas t]l’df‘d el szi 'pcrl')en(hculzfr to the‘zones.% 1S
+et 1e conductivity of lh.c solid material bemng
+ed by k, that of the porous material by k, as given by
+equation (8): R D L
+aci(/)ls)s 11]1 i‘”;; :; 1‘()’;“(’ i agl.ll’el to Zones: 1If the temperature drop
+b T 't.fmd the length of the sample 1n %he
+eat flow is /, then the amount of heat crossing
+
+ 
+
+February 1954 (Part II)
+
+4 porous’zone per unit area in unit time is given by
+
+W=y
+l
+
+For solid zones it 1s
+W=k
+
+If the total cross-sectional area of the sample is 4, then the total
+cross-sectiOﬂal area of the porous zones can be denoted b
+1.4, that of the solid zones by (1 — N)A, where I, is the cross}i
+sectional fraction of porous zones, the cross section being cut
+erpendicular to the direction of flow.
+The total amount of heat crossing the sample per unit time
+is then
+
+A :
+LAk, + (1 — M)Ak o
+
+Hence the amount of heat crossing the sample per unit cross-
+sectional area in unit time 1s
+
+e Al
+w =1k, + (1 -] (9)
+
+If the effective conductivity of the sample is denoted by K,
+equation (1) can be written for the sample
+
+Al
+
+W= K=
+
+L1
+
+Therefore, the effective conductivity of a sample consisting of
+
+alternating zones of different conductivities oriented parallel to
+the direction of heat flow is
+
+kyand k = conductivities of the two kinds of zones.
+M, and (1 — II;) = relative amounts of each zone taken.
+
+(B) Heat Flow Perpendicular to Zones: The total tem-
+perature drop across all solid zones is denoted by Al,, the drop
+across all porous zones by At,, so that the temperature drop
+
+Thermal Conductivity, IX
+
+99
+
+:gflzsssit;he' sample is Al= At, + Af,. The total width of the
+solid onegwe};hby .l f9r all porous ones, by (1— II.)! for all
+fractios ; e quantity IT., now representing the lengthwise
+porous zones, equals the I1. defined for case (4) be-
+
+cause zones extend in two dimensions throughout the sample.
+The amount of heat crossing a unit area in unit time equals
+
+Al s
+W =k m) for the solid zones
+and
+Atp
+
+W =k, ;=
+
+ 
+
+for the porous zones
+
+——
+
+I’I"
+SALL e = =
+
+Adding the last two equations gives
+
+Abag /i ==, 1,
+el ety (11)
+
+If the effective conductivity is denoted by K, then equation
+(1) can be written
+
+Combining this with equation (11) gives
+1 -1 II
+W W=l =°
+K\ W ( % T k,,)
+so that
+
+1 L=y IT,
+ey (12)
+
+ 
+
+Equations (10) and (12) are analogous to the electrical net-
+work equations expressing the effective conductivities of par-
+allel and series resistances respectively.
+
+e R
+
+Thermal Conductivity: IX, Experimental Investigation
+of Effect of Porosity on Thermal Conductivity
+
+by J. FRANCL and W. D. KINGERY
+
+The effect of isometric approximately spherical
+pores and anisometric cylindrical pores on the
+thermal conductivity of alumina, graphite, a.nd
+nickel has been investigated. Pore orientation
+is found to affect profoundly the thermal conduc-
+tivity for a given porosity. At temperatures be-
+low about 500°C. the conductivity of @ POrotS
+sample in any given direction is equal to the §Olld
+conductivity times one minus the cross—sect'lonal
+pore fraction or k, = k. (1 — Po). At higher
+temperatures the pore size and emissivity become
+important.
+
+I. Introduction .
+LMOST all technically important ceramic 1)0(1105_ ha;’e 2
+certain amount of 1'u')msit_\'. The amount of air P 1ase
+present plays such an important role among the man
+
+a tore iy SSeaSs orte
+ctors which influence thermal conductivity that r€p
+
+data in which the porosity has not been specified are alm(.)st
+meaningless for comparison with other results or as an 1n-
+dication of a material property. If data for the t!lermal con-
+ductivity of completely dense bodies. were a\'a_llablc, thev
+could not be employed for most app!lcz}tnolls .wx.thout some
+knowledge of the effect of porosity. Suml_arly, it is extremely
+difficult to prepare completely dense bodies fropl most com-
+and the relationship between porosity and con-
+
+ositions . : .
+guctivit\: must be known to determine a value for the solid
+material. | o
+
+In porous bodies, heat transfer across the pores may take
+
+place by conduction, radi.ation, or ‘com’cr{tion.. Th(;se
+mechaniéms have been considered previously 1n .th'ls series
+(see Part I). The change of. thermal conducthty with
+orosity has been studied ex.tensn.\:ely. and.nmnqous attempts
+ﬁave been made to derive simplified relationships to approxi-
+te the complex effects of pore spaces. It h".lS been‘(‘orrcclly
+leiezed that not only the volume pore fraction but also the
+re ¢ )
+
+e shape orientation, and emissivity of the pores had a
+size, At

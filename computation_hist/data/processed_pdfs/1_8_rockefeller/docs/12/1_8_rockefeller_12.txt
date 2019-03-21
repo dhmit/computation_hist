@@ -1,46 +1,41 @@
-AM
+he - :
 
-‘ , The Rockefellervcundation‘
-#9 West tgth Street -
+Computation Center is interested. As you know
 
-' Computation’ceater is mere-tech As you know, the potential or such -
+Dr. Norman 8.  Bughsnan Director
+The Social Sciences
 
--a problem or immediate interest in the local political situation bu~t
+The Rockefeller Foundation
 
- 
+4g West 49th Street
 
--;lorember,29. 1955
+New York 20, New York
 
-Dr. Herman St ﬁaphanan, Director'
-The-Social Sciences ‘
+Dear Dr. Buchanan,
 
-New yore zo’f-vuew York
-Deernr, :Bu‘chamn,‘
+As you suggested in our talk of November 9, I have been ‘keeping
+an ear open for examples of the soclal science problems in which our
+the potential of such
+problems is largely unknown so that most examples must be of past
+computer applications. One example though of research activity which
+offers the promise of good team-work between a Computation Center
+staff member and soclal scientist is the following.
 
-As you suggested in our talker novuber 9,155“ been "keeping
-an ear.open tor examples of the social science problems in which_our
-
-problems is largely unknown so that most examples must be of pest
-computer applications. One example though or research activity which
-offers the promise o: good team-work between a Computation Center
-staff member and social scientist is the following.
-
-‘ Professors Theodore Beer and Ithiel Pool or the M.I;3. center
+Professors Theodore Baer and Ithiel Pool of the M.I 1.7. Center
 for International Studies have approached us on the feasibility of
-"Computing Optimal Electoral Redistricting in Massachusetts“. This s
+"Computing Optimal Electoral Redistricting in Massachusetts". Thies ge
 
- 
+‘a problem of immediate interest in the local political situation bu:
 
-is also a type or problem or long-range national significance. Pro-
-fessors Beer and Pool have thought through the problem to the point or_
-developing various criteria of goodness (e.g. closely or evenly
+is also a type of problem of longerange national significance. Pro-
+fessors Baer and Pool have thought ( the problem to the point of
+developing various criteria of "goodness" (e.g. closely or evenly
 distributed political strength in each electoral district, homogeneity
-of socio-economic factors, etc.). In my Judgement, their ideas are
+of socio-economic factors, ete.). In my Judgement, their ideas are
 now "ripe" for close liason with a computation specialist so that the
 difficult task of quantifying their concepts and solving their problem
 can begin. The method of solution will probably be by the techniques
-
-of "linear programming“ which are very powerful on optimization prob-
+of "linear programming” which are very powerful on optimization prob-
 lems of this kind.
 
 I should say that the above problem was essentially brought to us,
@@ -50,55 +45,56 @@ of similar interest waiting to be discovered by computation experts
 consulting with social scientists. I need say no more since this was
 the gist of Professor Morse's proposal.
 
-In addition, I have talked with Professor Orcutt or the Economics
-Department at Harvard. Professor Orcutt, who is also the Harvard
-Representative of our Computation Center, waﬁigéngaeno h to survey
+In addition, I have talked with Professor Orcutt of the Economics
+Department at Harvard. Professor Orcutt, who 1s als¢c the Harvard
+Representative ,of our Computation Center, wa Vg Ra h to Llurvey
 
-e H t t vs on or are
-ESTn3°£a§¥ieﬂa°8€ 23m gogomigglrgggégéﬁéesThe activities divide roughly
+ome t 1 Ww B&en or are
+Bee San aes ut in qn (Sgtivities ALS activities divide roughly
 
 into two classes, those involving standard mathematical manipulations
 and those which utilize the computer for simulating or behavior studies
 of economic systems. A brief list of these activities is:
 
 
-Professor Leé'ntief (inward); inversion or- large. matrices» (mg. ,-
-100 x 100 mstrioes end 'Lsrserh'input-output analysis. 9
+. =
 
-lotion-‘1 Ins-ecu of Economic Rescues: ‘ separating sesscnsl'snd trons 3: >
+Professor Leontief (Harvard): inversion of targe matrices touts’ ENE
+100 x 100 matrices and larger); input-output analysis, 5
 
-' . movementsfrom. scone-islets and statistics so that more meanings . ,
+National ‘Bureau of Economic Research: separating seasonal ard trend #
+movements from economi¢ data and statistics ‘80 that more “weaning he
+ful information is obtained.
 
-‘ Minfomtion is'obtsined. _ .. 1 , ~
-University of niobium elnborste multiple regression schemes".
+University of Michigan: elaborate multiple regression sehaved,
 
-Professor J’sy PcrresterllJJ'. School of Industrisl ﬁnes-lent): f
-economic models of firm behavior and eeonomicaystems. . " ,7
+Professor Jay Forrester (M.I.T. School of Industrial Management): Fon TEE
+economic models of firm behavior and economic systems.
 
-Coulee Foundation (Yale): interested in using emplicsted'ncdels .of'
-economic systems. '~Lilited sppliectiom have been node on a smell
-competes-r (misc) but the machine speed is magnate. Their -
-approach, is to tor-unto; this. problem by or large system or ,
-Millage!!! sndthen use "Monte Carlo} techniques to find the
-so u one. ‘ ~ ‘ , , > '
+Cowles Foundation (Yale): interested in using complicated models of
+“economic systeus.. Tiuited applications have been made on a wall
+computer (IBM 050} bu t the machine speed is inadequate. Their
 
-' . I ‘ 4: . ’ ‘ I' ‘ ' ' ‘
+approach 18 to lh the problem by a large system of
++ Susp ions and then use Hone Carlo” techniques to find the
+solutions.
 
-Professor Orc’utt (Harvard)?! idtenséed'inl the simulation 19 economic
-systems, not as abstract models, but in such c‘tsUhion that
+Professor Orcutt (Harvara)l interested wi the simula ation ge economic
+systems, not as abstract models, but in such a fashion that
 contemporary economic problems can be considered.
 
-The goal of our Center is not to compete as metal scientists
-with activities such as those listed but rs her to contribute from
+The goal of our Center is not to compete as sg dial scientists
+with activities such as those listed but rather to! contribute from
 
-the computational expert side towards the inclusion of modern computing
-mschines in social science research.
+the computational expert side towards the inclusion of modern computing 5
 
-Professor Orcutt has said that he will be glad to amplify any of
+machines in social science research.
+
+Professor Orcutt has sald that he will be glad to amplify any of
 the above topics which I have attempted to summarize, (any distortions
 are mine). Due to the press of time before your December 3 meeting,
-his phone numbers are: (office) KIrklsnd 7-7600, extension 2550; (home)
-IVsnhoe 16-2896.
+his phone numbers are: (office) KIrkland 7-7600, extension 2550; (home)
+IVanhoe 4-2896.
 
 If I can be of any further assistance, please do not hesitate to
 contact me.
@@ -109,9 +105,9 @@ Fernando J. Corbato
 Research Associate
 M.I.T. Computation Center
 
-FJC: Jtn
+FJC: jtn
 
 copies to: Prof. P.M. Morse
-Prof. 6.3. Orcutt
+Prof. G.H. Orcutt
 
 

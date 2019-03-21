@@ -1,0 +1,54 @@
+TRIP REPORT
+
+Place Visited;
+Person Seen: Professor Walter F. Freiberger <
+~~ Department of Applied Mathematics
+
+A sity, Providence, Rhode Island
+
+This call was made with Mr. Paul G. Roland, IBM, Providence.
+Professor Freiberger said that plans were underway for the transfer from
+
+CPC operation to 650 operation, The CPC presently installed in the Applied
+Mathematics Building will be movéd out on December 11 and replaced with
+the 650 on December 27. After the 650 is moved in the machine list will be
+as follower: > amo sera Te Tr cu Ae ped et a he
+
+LQuaptity oan Machine
+Fa 650
+I 655
+i 533
+1 403
+=F 026
+1 077
+1 514
+i]t 082 (with 978)
+
+I asked Professor Freiberger 's ‘pinion about present operational details of
+
+the Computation Center at MIT. He stated that he felt that everything was
+‘satisfactory. He felt that representatives from Brown had gotten very good
+co-operation in such matters ag getting problem approval and subsequently
+scheduling machine time, He also felt that the assistance received from
+MIT's staff on such matters as use of library programs and special program-
+ming techniques had been adequate. He said that all problems done thus far
+had been fairly substantial problems and that the effort expended in getting
+them on the machine was small in comparison with the magnitude of the job.
+
+Professor Freiberger mentioned a rather large project under consideration
+as a joint effort of Brown, Yale and Harvard. This was a problem of language
+analysis and translation. He will probably apply for approval of this problem
+in the near future.
+
+I mentioned to Prof, Freiberger the plan for a meeting of representatives
+from all the participating colleges in the near future probably on December 6.
+
+J. F. Blackburn
+JEFB/jeh «
+
+ce: Dr. M. A, Shader , Wkite Plains
+Mr. W, T. Hamlen , Acbridgs
+Profi. P. M. Morse, MI
+Dr. ¥. J. Corbato, MIT
+
+

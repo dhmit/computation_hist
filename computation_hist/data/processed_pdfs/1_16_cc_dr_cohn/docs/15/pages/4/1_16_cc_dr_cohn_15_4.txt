@@ -1,9 +1,16 @@
-HARVEY coHN. A rumomo ALGORITHM ron cums FORMS. 825
-824
+'OHN.
+894 HARVEY C
 
-. 1 , c ('5‘) rows of each are proportional: Pi/P, = Qt/q’t = 72/ 1’.-
-If the(:(:) ”We szw that ti and W are ”Wily proportional, 01'
-=10, ‘ v
+if the three (;) rows of each are proportional, pi/p"i = ¢i/¢’; — /1, ~ iy |
+1= i |
+
+— w,(£0). We say that ¢ and ¢ are strictly proportional, oy
+
+(4.32) ¢ = ¢,
+
+ 
+
+it ¢~ ¢ and, in addition, wywws = 1.
 
   
  
@@ -11,99 +18,275 @@ If the(:(:) ”We szw that ti and W are ”Wily proportional, 01'
  
   
   
-   
-   
   
-   
-  
+    
  
-   
-   
   
    
-  
-   
-
+ 
  
 
-§3W 4 01. 12 such (1) determine the same quaternary form.
-I
+4 ,}‘u(‘v..v‘(vv'.,- 2" " '."" '-'.'"
 
-Such properties neces—
-sarily extend to the ternary forms.
+f;; ;‘«’7’?:533:"’545#5.:::11 A
+Ve 4t e vt rhet ot .:"D:A"’:t ':0.‘:»" AU YASRME . . o
+
+A ARt L3 ‘Q‘ ANvy .‘ﬁ\‘y‘y" (:‘l()arl‘y lf ¢~¢’ alld ¢’ IS l.educed' t‘]]ell ¢A ]S r()dllcod \‘Yllel A
+
+Ca, e is
+
+a4
 
     
 
-g1: : qb’, 5, Proof that every degenerate ternary form is equivalent to a
-')
-(4.3V) 1 reduced form.
-. r - ' ' . , 31L" = - ‘ ‘ .
-1f¢~¢ Md} 1“ addmon/ ij 1d d then qSA is reduced “'11 ~ ,\ ‘ THEOREM If [1”.[12’ game; Zilmkonskwr; bassszth'an i A” : Ag,
-Clearly if ¢~¢’ 311d ¢ 15 1'9 “00 r , 010 is): + 43 with an upliroprmte c owe 0 819118, its a re use astsr
-. - ' P, .7’.S. Hallo , *“ ’
-permutation in the Klein four gloup on ( Q, i, ) ( Oust'ints, in, Remark. It seems that some signiﬁcance was attached to the 3 X 3
-are POSiti‘VE’ then A 15 the identity) ‘ array of signs of : Ai by Minkowski [5], but the role of a fourth vector was
-We next consider degenerate ternary farms, 1, c. not considered.
-: V - > . ' , ' v st ts
-(4 4]) 4’ i=ammimknu, Proof. We can-Without loss of generalit) multiply the A1 1)) con an
-I m and reﬂect the coordinate planes so as to have
-where (5 11) =1, iaiii<1 ifi?’=j,0«zr>0,llai>0,
-(4‘42) _ . A = a Law) A = (on as: 1).
-4, =11x1h: $5: bnmi + bum: +0137“: 1 S i, 7' S 3; (512) A, — (1, am an): 2 ( 21; , J 7 a : i
+  
+ 
 
-‘ .. ' ' k k‘ basis re uires,
-Bf: ““3173”be Now the hypothesrs that A), 11,, A3 is a Mm ows 1an q
+   
+    
+  
+  
 
-amonv other things, that the 20 Vectors : A; 1 A, (i are j), i A, —_i— A2 : A3
-We call such a form reduced) or we say the three column vectors 131, B2, Ba 1‘9 (”for outside the cube ‘ mi ‘ < 1- So from here on, we weaken the hypo-
-1
+AR, TR
+'»:4:':\:':4:1:1:':1.:.'~:l'...':':':":\'!"':\.:‘:l}:vt{'l‘u . g g tl KI . f . . - P
+BN permutation in the Klein four-group on (P,Q, R,S). (If all constant
+G T gy ":’::'n' ::v':::::n\_ "‘,u. e : . : s * 2 aANnts. .
+y ﬂﬂ:di%:ifi::f:3133:?32553&5!‘:::!'2:53'5:325??:~ are positive, then A is the identity.) > Wy
+At 'ﬁ"':“:.:"l‘:‘:“:‘\‘"""‘ i
+"Wy '.'...,O,u'.',v‘"\",\“."...,
+iy :,‘:Q.‘.V:»' N T 3 o .
+.,::;:;;.:;"::‘;.;‘:f.:E;;:::,.;:;:E‘E,; We next consider degenerate ternary forms, i. e.
+v 0;\‘;' '.’:'.‘I .:,V‘)“\; N
+:'::f:f":s::;::::.’:E;:TE::;PS' i 3
+“,',"!"“;»‘ (4.41) d = 3 = aggmimpm,,
+e A i
+O ":':"’"’:':’.0':"":":£v' Where
+‘ : :v:.::‘:‘:!'.':9:.‘:!"3".-,
+ALt : ""'l""'-'v'.:':":"":":"
+T T
+£ - ',“::: (4- 42)
+|',t.,'.‘
+ik Y P = 7,2,74; &y = bym, + biam, ~+ bigm, 1T=4% 1<3
+o) S L
+"'f:.‘:'_'. B] = (blb b2i) b.'sj) .
+AN We call sucl
+A 14 b e A Qavr
+Sty form reduced, or we say the three ¢ 1 , :
+AN are a reduced basis, if these {l J olumn vectors B,, B,, B,
+e 250 ese three vector en i ;
+e the column vectors P, (, R, § of a red OIS& taken in some order, come from
+Yutiely! "":."‘ ~ . 2 W > a l.e ]lce . ‘ -. » = » gy
+Pt immediatelya invariant under permutati 9 X 4 matrix. This definition is
+‘ f L : ; rn ) I T ‘.
+AR SRAdAd definition is such that given apf ttailon of variables My, M2, My This
+oSl B \ = aAD orm \ ] -
+f".{‘:'.'."'.’«'.'.‘-? S, reducible does not depend on } t]q)’ the question of whether or not it 18
+‘r'":l:',"" l"' ," ::' ;..,.'."" “” : 10“' ]e f‘lct l' iy . S .- "
+; the factors z; are transformed by t] actors x; are identified. In fact if
+o l. j "D‘::.‘ . y ‘ ]O a})pl‘o )1‘.' t L
+Ty - : : priate group: Ao :
+e 3> Cap, 1545 [ =£ |, (cicies = I group : T, = ¢, Ts — €75
+: :"'0"’.5 \l X8 > ) . : - « i .
+| e ¢ — ¢', where corresponding 3 X 4 matrix obeys
+. ":4‘ ¢ » :"’:::. ~
+;’;“:‘:‘"r ANy '.:",‘:‘f:(,'::'- (4. ;)) >
+i e £ =9
+'." s *% '.{.s,. an
+i gRy d o denotes 4 permutation from ]
 
-are a reduced basis, if these three Vectors, taken in some order, thesis (see [4]) so that the a“ satisfy the conditions in (5~11) together
+q ’ J - 0 : C & : ‘
 
-the column rectors P, Q, R, S of a reduced 3 X 4 matrix.
-immediately. invariant under
+and (4, 42) except th: :
+also would he 4 valu pt that the index 7 would go from 1 to 4
 
-come from
-This deﬁnition is
+. We could finally
+similar to (4, 1) !
+and there
 
-. , . with merely
-permutation of variables 121,, mg, mg. This
+e L
+o
 
-maxliatrilljki>1 (1.75.7),
-deﬁnition is such that given a form CD the question of whether or not it is i (5 2) k _
-I ) , i ' v , . 1 1". each chmce of :.
+  
 
-l‘edumhle (1095 ml dcPend on how the factors 1:.- are identiﬁed. In fact if mi“ i i “”5 i “2’5 i a“ i > ’ or
-the factors :5- are, transformed by the a - . . l , , i
+ 
+      
+   
+ 
 
-‘ ppiopimte group. a, -—> 61-h, a,., —> c211) ‘ . ‘ h f ur rectors
-xaﬁcﬂms'éhé 7‘” (610203 =1): the corresponding 3 X 4 matrix obeys i We now assert that the nattein of Signs of t e o
-¢—>¢z'. where I 5 3) i" A), :L" A2, : As, $ A] 1 [12 : A3,
-(4‘ 5) st, : $7, \ ( .
+;,‘v, :. . . ~
+AT 1n whicl es of m; Ther sadninord £
+I 3 X 4 ! the B,, B, B, B, were, in } d1 * eed romm wonld el
+hoivlaie + matrix L > 111 Some order, the P 3 QA
+s l‘o ',':,‘-'.':"_".’, 3 Thub any l'edll(?ed d ¢ > (l/).’ L‘) ‘S Of a 1(1duced
+?0% efes fe it nr ",:,-,'--‘-. I'Cduced d(h()'e o 3 Ggenerate t(’?"}’l(" f
+,,,4,,.‘;4‘ Iy et ] } "generate Quaternary form ; h rnary lorm & results from 2
+fTiaTsIaTe i Do oD A I T eaves the for | M 1n which t] ishi
+Y, "'f:':‘: .'o,'/,‘f,'o,"',0,v,':.:,‘o.'v"v"v'~' : : 5 = 10rm e uﬁl . Cchn t 1€ Vﬂnlﬁh”] o Of a i“grl() Mi
+5:«.';.‘1.‘4'.‘;‘.‘;{"'.‘1'.'3.":o'.':,",'-.‘».‘»35‘-,‘: forms are 1 to & (lll the three AT . 2 SIngie 1
+T o S 0 BN are such that egel o/ fmaiming variables). The quaternary
+A A form (to with: Ch strict proportional; 7 g T
+e ‘54 0':"1 :':‘:o:';':o"v"r\t vw's ( 0 “']thln 23 g Ol]d lt\' Cla‘\\' Of (,b (] ,t S e
+I ITTR AL deseril | P‘llnutatlon of th ol = etermines the same
+A IR SCT1bed 1n . € m;i) together wit
+i (.5). The table iy 13 ; ) together with exactly all the ¢7
+A et e sa ey ol oy b o m s )o y e ) . . :
+AR AAS LIRS (below) will provide instances where
+! ” e
 
-i does in some order accord with the system (4. 22), if the 1 Signs are chosen
-‘ ro erl for each i 11;. . I ‘ lane} Md
-nary form given by formulas P pNit we visualize the 1'11: (112,, ago—plane, thegnz);(;::p:_ﬂ)\5e see that
-except that the index / would go from 1 t0 4 the 113: (an, deal—plane, Written inore geiicrall): alsl; ,aldpw' 2) are bounded
-in 'l' I es of Inf. Then a reduced form would be one the regions determined by the inequalities (o,+ g + =0,1_ Thus in the
-u nei the 8,, 3;, R3, 3.. were; in some order, the 1)7 Q, R) S of a reduced by lines of the typGS: __,_ E = 0’ 1; t 7, = 0, 1,- _ 3115050195 Iiwht-mangm
-3 (T 43mm A, Thus any reduced degenerate ternary form <I> results from a H. X H2 >< no space 4 X 16 X 16 = 1024 reg-Eu: I: 1318 SiXteen :1? and the
-1:33:11] dEgtjneraie quamnaiy form in which the vanishing of a single m; lar projections are determined. In fact) 0:15:10: (:1; contains in its interior
-forms ‘l 0 01m equal to ‘1’ (In the three remainingr variables). The quaternary sixteen Ila-projection triangles, we see ha 1 + l) (i ‘L : é“ (i & i 2}),
-1 re such that each strict Proportionnlity class of (1: determjmg the same exactly one, point at one of the 16 types (t 2 7 4 , .
+.........
 
-' " ' . . ‘ < 1' of the tour ti'l’“s
-$21-$61? '“ltllln permutation of the m.) together with exactly all tho W (+:} +3.), while the Hrl‘mjec‘mon ”laugh. contains 0“)
-.5" or . ~ , ' A . _ ~—“
-“1 (Lil). The table 1” 13 (below) Will provide insinnuvs where
+ 
 
-and 0 denotes a permutation
-We could ﬁnally
+A PERIODIC ALGORITHM FOR CUBIC FORMS. 825
 
-similar to (4‘ 4])
-and ﬂu
+4 or 12 such ¢ determine the same quaternary form
 
-from the alternating group on (I), Q, R, S)-
-diseuss a degenerate gutter
-and (4.42)
-ire also would be 4 ralu
+sarily extend to the ternary forms.
+
+Such properties neces-
+
+5. Proof that every degenerate ternary form is equivalent to a
+
+reduced form.
+
+g : . .
+TurorEM. If Ay, As, As are a Minkowskian basis, then + A,, + A
++ Ay, with an approprate choice of signs, is a reduced basis & &
+
+Remark.
+
+It seems that some significance was attached to the 3 X 3
+
+array of signs of == A; by Minkowski [5], but the role of a fourth vector was
+
+not considered.
+
+Proof. We can without loss of generality multiply the A4; by constants
+and reflect the coordinate planes so as to have :
+
+(5.11) ay =1,
+
+(5.12)
+
+Al = (1> 2, alS):
+
+|y | < 1
+A, = (a21: 15 aza),
+
+lf 1:71:].3(1'21 > O,a:u > 0,
+A3 = (a‘31) (g2, 1)
+
+Now the hypothesis that 4,, 4., 4; is a Minkowskian basis requires,
+among other things, that the 20 vectors = A; = 4; (157), £ 4, + 4, + 4,
+lie on or outside the cube | z; | < 1. So from here on, we weaken the hypo-
+thesis, (see [4]) so that the aj; satisfy the conditions in (5.11) together
+
+with merely
+
+max | & @y = ajx | > 1
+
+(5.2) k
+
+max | &= aix = Gag
+
+k
+
+(1 7#7),
+
++ ag | > 1, for each choice of =.
+
+We now assert that the pattern of signs of the four vectors
+
+(5. 3)
+
+e L A,y £ As, e 4, = A, = A,
+
+does in some order accord with the system (4.22), if the + signs are chosen
+
+properly for each =+ 4.
+
+Next we visualize the II: (@, a3, )-plane, the II,: (a2 a3,)-plane, and
+
+the IIy: (@13, @23)-plane, written more generally as (& n)-planes.
+the regions determined by the inequalities (5.11) and
+
+by lines of the types: =§=0,1; =
+I, X I, X II; space, 4 X 16 X 16 =
+
+lar projections are determined. In fact, c
+sixteen IT;-projection triangles, we see tha
+exactly one point of one of the 16 types &
+(3%, +1), while the II-projection triangle cont
+
+We see that
+(5.2) are bounded
+n=20,1; + ¢ +y9=0,1. Thus in the
+1024 regions with isoscles right-triangu-
+onsidering the sixteen II.- and the
+t each one contains in its interior
+: 1
++ 1), (=3 =1 (£ 1+ 3),
+ains only of the four types
+
+  
+  
+ 
+  
+ 
+  
+  
+  
+  
+  
+   
+ 
+ 
+ 
+ 
+   
+  
+    
+   
+
+(42844 T2 ]4%
+t:(f!ﬂfm( s 2
+
+Cieit<dd
+
+-
+
+   
+   
+  
+
+IO Aoy
+L s
+
+-
+
+   
+ 
+  
+   
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+   
+   
+  
+  
+  
+    
+      
+    
+ 
+
+Perrye
+M A S

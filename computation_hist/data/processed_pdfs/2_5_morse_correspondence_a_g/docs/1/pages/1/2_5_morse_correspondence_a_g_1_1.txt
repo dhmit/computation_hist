@@ -2,52 +2,54 @@ OFFICE OF
 
 To
 
+ 
+
+ 
+
 (INTER-DEPARTMENTAL)
 
 MASSACHUSETTS INSTITUTE OF TECHNOLOGY
 CAMBRIDGE, MASS.
 
-F. C . Helvrig
+F. C. Helwig March 28, 1957
 
-Bax-ta Building N/
+Barta Building \/
 
-/-"
+o
 
-March 28, 1957
-
-Professor P. M. Morse
+Professor P. M. lorse —
 Room 6-107
 
-SUBJECT: PAPERS TO BE PRESm‘I'ED AT FORTHCOMING AGM Ia ING
+R
+SUBTECT: PAPERS TO BE PRESENTED AT FORTHCOMING ACM I ING
 
-We have just received word from J'. Wegstein (NBS)
+We have just received word from J. Wegstein (NES)
 that the following papers have been accepted for presentation
-at the .Tune ACM meeting in Houston.
+at the June ACM meeting in Houston.
 
-(1) MIT's Post—Mortem Routine for the IBM 704.
+(1) MIT's Post-lortem Routine for the IEM 704. Bore,
 
-(2) A Proposed Algebraic Compiler for the LET—IBM 704. \Ag
+(2) A Proposed Algebraic Compiler for the MIT-IBM 704. \r\t\ L
 
-A‘Iegstein has proposed that the latter paper be given
+Wlegstein has proposed that the latter paper be given
 as part of a panel discussion entitled "Efficient Operation of
-Computers in Code Checking and Computation" to be held on Friday,
+Computers in Code Checking and Computation™ to be held on Friday,
 June 21, 1957. An outline of the panel discussion follows:
 
 Morning Session
 
-(1) General Motors Input—Output System (Richtman)
-
-(2) 1103A. System (Cook—Boeing)
-(5) ILLIAC System (Muller)
-
-Mternoon Session
-
-(1) Generalized Programing and LARK (Holt—Rem. Rand)
-
-(2) FORTRAN (Backus—IBM)
-(5) MIT (Heiwig)
+(1) General Motors Input-Output System (Richtman)
+(2) 1103A System (Cook-Boeing)
+(3) ILLIAC System (lMuller)
+Afternoon Session
+(1) Generalized Programming and LARK (Holt-Rem. Rand)
+(2) TFORTRAN (Backus-IBM)
+(3) MIT (Helwig)
 
 Papers are to be 20 minutes in length. A discussion
 period of 10 minutes will follow each paper.
 
-. L21. Verzn h
+FCH:n
+ce: F, M. Verarh
+
+)

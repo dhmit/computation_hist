@@ -1,0 +1,175 @@
+Tore ¥Y
+CC-29 Pege 1 of 3
+
+COMPUTATION CENTER
+
+lossachusetis Institute of Technology
+Cambridge 39, Hassachusetts
+
+To: Computation Center Staff
+
+From: PF, 8, Verzuh
+Bate: = July 19, 1957
+
+Subject: Half-Word logic
+
+The purpose of this memo is to inform you that the HIT-704 Computer
+will have half-word logic installed during the period July 22-28, 1967. BSuc-
+ceeding sections of this report contain the following informations
+
+i, A list of half-vord logic instructions.
+2. A brief description of the effect of balf-word logic on 704
+commands,
+
+The above list of half-word logic imstructions was prepared by Hr.
+Thomas Apple of Applied Science Cambridge. From time to time there may be
+additional modifications te this list. If and when whis information is
+available, it will be as supplements to this memo ~- CC-29.
+
+It should bo noted that there are only a limited number of 704
+computers which possess this half-word logic. You are cautioned not to
+write programs which you expect to put on other machines not having this
+feature, (At the moment there are only two or three machines which have
+half-word logic--MIT, Foughkeepsie, ete). You should therefore govern your
+programing accordingly.
+
+\ /
+F. ¥. Verzuh (
+
+
+CC-21p / Page 2
+1. HALF-WORD IODGIC
+
+Since helf-word arithmetic has been added te our 704, we felt it might
+
+be wise to avoid confusion among tho programmers by explaining something of its
+logic, sd
+
+The general logic of half-word arithmetic is that tire address Y of the
+~alf-word instruction will be affected according to bits in positions 16 or 17
+a? the instruction, with a bit in 16 indicating left half of | and a bit in 17
+indicating right half of ¥, The contents of the accumulator 1ill be affected
+ony in positions 8, 1-17,
+
+\ Ezemples (using symbolic coding) are now givem of {ie thirteen inptruc-
+tions which ere changed by half-word arithmetic:
+
+1) CEA Yy 52. cocienseccneas CACC) ave cleared, C(Y) 1.8-25 replace posi-
+tions 8, 1-17 of ACC,
+
+2) CLA Ys Peni nne vee eeve sss CLATEY are cleared, cy) 3p 1-17 replace pcsi-
+tions 8, 1-17 of ACC.
+
+(SY) CIB ¥,,1.cccc00v000u0000.C0AC0) ave cleared, negative of C(¥) 18-35 re-
+place positions 8, 1-17 af ACC. :
+
+(4) CES ¥,,2.c0c00000000es0s.C(ACC) are cleared, negailive of C(Y) 8, 1-17
+replace positions &, 1-1! of ACC,
+
+(8) ADD ¥s5200ccconsccsecnee CY) 18-35 are algebraically added to CACC)
+8, 1-17,
+
+(6) ADD ¥,,8..0c000000000000.C(Y) 8, 1-17 ave algebri ically added to CACC)
+
+‘ 3, 1-17,
+
+(7) SUB ¥,,00c00000000000000.C(F) 18-35 are algebraiazlly subtracted from
+C(ACT) 8, 1-17. |
+
+8) MUB ¥,,2.0c00000c00000000.8(¥) 8, 1-17 are algebraically subtracted from
+
+CACC) 8, 1-17.
+
+(8) ADM ¥,,1..c000000000000e.C(Y) 18-35 with 18 zero irs algebraically added
+to CACC) 8, 1-17,
+
+(0) ADM ¥,,2,,00000000000000.C(Y) 1-17 with 8 zero ara algebraically added to
+c{acc) 8, 1-17,
+
+(11) SBH Y,,10cc00000000000000.C(Y), 19-35 with 18 zeroes: are algebraically
+subtracted from C{ACC) 8, 1-17,
+
+(22) SBM ¥,,2cc0ceu0s00000000.C(¥) 1-17 with 8 zero are algebraically sub-
+tracted from CACC) 8, 1-17.
+
+13) BT0 ¥,,Rc0caaoesnsscssccssC(¥) 18-35 will be replacad by C(ACC) 8, 1-17,
+
+(14) STC ¥,,2. .cvvvirerennes...C(Y)8, 2-17 will be replaced by CACC) 8, 1-17.
+
+(15) BVP ¥,,l..cccecevacccas. . Normal division will occur except that C(Y)
+will be treated as 18-35 being in 8, 1-17 end
+zeroes in 18-35.
+
+(16) DVB 7, ,0.ccceececonceees.NoTmal division will occur except that C(Y) will
+be treated as 18-35 being in 8, 1-17 and zeroes
+in 18-33,
+
+(17) DVP ¥, 8... ccvvenercenss.. Normal division will occur except that C{Y)
+18-35 will be treated as merces,
+
+(28) DVH ¥,,2...00c0cvvenes...Normel division will occur except that C(Y)
+18-35 will bo treated as zerces.
+
+
+CcC-29 Page 3
+
+(19) Mpy Ziska evs nnnsinnsioin ec Horgal multiplication except that C(Y)
+will be treated gs 18-35 being in 8, 1-17
+and zeroes in 18-35, ER
+
+(20) upy ns multiplication except that C(Y)
+18-35 will be treated ag Zeroes,
+
+(21) MPR ¥i58 ees sununensvaneodbove (20) foliowed by roumd
+
+(22) upr YY 320 ih snvsinnosves vulbove (21) followed by round.
+
+(23) cas I C{AC) 8, 1-35 with C(Y) 18-35
+appearing as 8, 1-17 and 18-35 being zerces,
+
+(24) cas ¥1:2.000t0eennnnny. Compares C(AC) 8, 1-35 with C(Y) 8, 1-35
+with 18-35 appearing as zeroes, =
+
+(25) LDQ rn CR) 8, 1-17 with C(Y) 18-35 and Cc)
+18-35 with zeroes,
+
+(26) LDQ 2152000000 00n veo Tonle C{MQ) 8, 1-17 with C(y) 8, 1-17 and
+
+i COR) 18-35 with zeroes. |
+
+2. Effect of Half Word Logic on 704 Commands
+
+thirteen 704 commands are changed by half? word logic. The
+thirteen which arg affected are CLA, CLS, ADD, SUB, ADM, SBM, S70, DWP, DVR,
+BPY, MPR, CAS, LDQ. : |
+
+ 
+
+In general half word arithmetic Bay be summarized by the following
+tabulation, according to the presence of bits in 16 or 17 of the instruction:
+
+Item Bit 16 Bit 17
+a) 0 0 704 operaticns as indicated in Manual except for STO
+
+b) 1 0 Take 8, 1-17 from Bomory into SR positions 8, 1-17,
+with SR positions 18-35 containing zerces and Proceed
+to execute instruction in usual way,
+8TO Take S, 1-17 of AC and put in 8, 1-17,
+
+e) Dc Take 8, 18-35 from memory into SR positions 8, 1-17
+with SR positions 18-35 conteining zeroes and proceed
+as above.
+
+S70 Take 8, 18-33 of AC and put in 8, 18-35,
+éd) i i Hachine obtains logical "OR" of 8 by combiaing positions
+
+1-17 and 18-35 from Renory into SR positions 8, 1-17,
+
+There has been some confusica concerning the use of item de-
+sionl taneous Presence of a ome in bits 16 and 17. The latest vord from Paugh-
+Ecepsie (7/23/57) is that this operation does indeed berform properly and
+provide the logical "OR" instruction. It should be moted, however, that om
+the store instruction (STO) the 'OR"rezuls Sppears im both the right and left
+hend portions of the accummlator,
+
+

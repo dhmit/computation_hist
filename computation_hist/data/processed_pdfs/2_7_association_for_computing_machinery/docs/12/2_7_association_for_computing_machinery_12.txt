@@ -1,23 +1,20 @@
-<‘UOO
-
- 
+= "UO &© OO
 
 COMPUTATION CENTER
 
-MASSACHUSETTS INSTITUTE OF TECHNOLOGY
-
-CAMBRIDGE 39. MASSACHUSETTS
+MASSACHUSETTS: INSTITUTE OF TECHNOLOGY
+CAMBRIDGE 39, MASSACHUSETTS
 
 April 29, 1960
 
-Professor Hao Waniéé/
+Professor Hao nt
 
 Bell Telephone Laboratories
 Murray Hill, New Jersey
 
 Dear Professor Wang:
 
-As I told you at the mathematical society meet-
+As I told you at the mathematical soclety meet-
 ing, Professor Morse has authorized me to offer you
 $1250 per month for two or three months this summer
 at your option plus travel expenses from and to
@@ -27,16 +24,17 @@ machine, and we all hope that you will be able to
 come. A private office can be arranged as you re-
 quested.
 
-I have started on a new version of your predi—
+I have started on a new version of your predi-
+
 cate calculus algorithm about which I expect to
-write you in detail later.
+wrlte you in detail later.
 
 Best regards,
 
 John McCarthy
 
-JMoCxMBw
-cc: Professor P. M. Morse u/
+JMcC: MBW
+cc: Professor P. M. Morse /
 Dr. F. J. Corbato
 
 

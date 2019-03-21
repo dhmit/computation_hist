@@ -1,40 +1,38 @@
-<1°O
-
- 
+- U & O
 
 COMPUTATION CENTER
 
-MASSACHUSETTS INSTITUTE OF TECHNOLOGY
-
-CAMBRIDGE 59. MASSACHUSETTS
+MEAWS S ACHU SETT S ENSTITUTE: ©F: T ECHNOLEDGY
+CAMBRIDGE 39, MASSACHUSETTS
 
 April 29, 1960
 
-Professor Hao Wanééé/
+Professor Hao Wané%{/
 
 Bell Telephone Laboratories
-Murray Hill, New Jersey
+Murray Hill, New Jerscy
 
 Dear Professor Wang:
 
-As I told you at the mathematical society meet-
+As I told you at the mathematical soclety meet-
 ing, Professor Morse has authorized me to offer you
 $1250 per month for two or three months this summer
 at your option plus travel expenses from and to
 New Jersey. Marvin Minsky and I and a number of our
 students are much interested in theorem proving by
 machine, and we all hope that you will be able to
-come. A private office can be arranged as you re—
+come., A private office can be arranged as you re-
 quested.
 
-I have started on a new version of your predi—
+I have started on a new version of your predi-
+
 cate calculus algorithm about which I expect to
-write you in detail later.
+wrlte you in detall later.
 
 Best regards,
 
 John McCarthy
 
-JMoCzMBw
-cc: Professor F. M. Morse u/
-Dr. F. J. Corbato
+JMcC: MBW
+c¢: Professor P. M, Morseu/
+Dr, F. J. Corbato

@@ -1,0 +1,54 @@
+- 111 -
+
+The annual cost indicated for each category in Table I is based on
+the actual annual salary but does not include DIC overhead charges. As a
+matter of fact, it must be emphasized that these salary costs are approxi-
+mations rather tham actuazl rates (except for RDA and Statistical Services).
+These approximations are due (in part) to the fact that certain project
+leaders were reluctant to release actual salaries; in other cases it was
+impossible to determine the exact cost because of fluctuations and part-time
+assignzents of the participating persomnnel. Some of the larger projects
+were not able to clearly define their operating costs.
+
+Agglication and Utilization gg_ggggutera
+
+The preceding discussion reveals that the operation of a computing
+facility is expensive -- particularly if the installation is large. The
+following questions naturally arise: :
+
+1. What is the load factor on each facility?
+
+3. VWhat is the distribution of the work load -- academic use,
+administrative use, DIC research, military application, etc?
+
+3. How are the costs allogcated to the user?
+
+4. What i3 the replacement cost for sach facility?
+
+Table II contains a breakdown of computer utnizatioi. cost allocation and
+replacement expense. Inspection of this table will reveal that many approxi-
+mations have, of necessity, been made.
+
+The following sections contain additional information which is
+pertinent to a particular facility.
+
+Aeronautics and Transonic Alrcraft Control Groug
+
+This computing facility is actuslly & combined computer consisting
+of Philbrick computing equipment originally purchased by Prof. W. McEay (for
+educational use in the Aeronautics Dept.) and the more-recently purchased
+equipment obtained by the Tramsonic Aircraft Control Project (TAC) headed by
+Mr. Tom Parsons. The equipment is utilized by both groups and maintained by
+the TAC group. The replacement value of the facility is approximately $30,000,
+and the operating budget is zlso $30,000.
+
+Dynemic Analysis Contrd Laboratory (DACL)
+
+The operational statistics for DACL were obtained from Dr. W. Seifert.
+These data represent the activities of the Systems Analysis Group which con-
+stitutes 50% of DACL. Again, the exact distribution and cleavage of operating
+personnel presents some uncertainty in the determination of the utilization
+and cost allocation of the DACL computer. It is well to emphasize that the
+annual sélaries for each type of individual do not include the usual DIC
+overhead charge. If the overhead charges are included (since they actually do
+exist), the annual budget for the Systems Analysis Group is approximately $550,000.

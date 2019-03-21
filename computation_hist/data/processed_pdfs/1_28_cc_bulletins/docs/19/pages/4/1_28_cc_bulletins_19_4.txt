@@ -1,0 +1,102 @@
+CC-75-1
+
+1-2
+erating instructions by means of which a
+
+IRECTION CARDS, These have
+
+The op
+ed on cards called D
+i,e,, location field, operation
+
+card-to-tape equipment.
+
+fines a run are typ
+
+user de
+ture as SAP cards (
+
+exactly the sameé struc
+field and remark field).
+inated by the first following column con-
+
+iabl The variable field of the card
+field, variable
+
+begins in column 12 and is term
+
+taining a blank Direction cards instruct the operator program to perfornm
+
+on such as, agsemble & SAP deck, bring an assembled pro-
+
+a Particular functi
+ory, operate it, take & particular dump, etc,
+. e computer unless an error causing a machine
+
+Runs are execu
+gram to mem ted
+
+in sequence without stopping th
+
+stop occurs in a program,
+The execution of a particular run may be conveniently broken up
+
+into the following three phases
+Phase 1: The Translation Phase
+
+Phase 2; The Operation Phase
+Phase 3: The Processing Phase
+which always occur in order,
+
+The translation phase assembles the decks which form the run and
+records them, in absolute binary form, on the BINARY INPUT TAPE, Each deck
+must be preceded by a direction card whose operation field defines the
+kind of deck which follows, We have
+
+SAP: SHARE Symbolic Deck
+
+BIN: Column Binary Deck
+
+PMD: MIPMR1 Post-Mortem Request Deck
+
+FTN:  FORTRAN1 Symbolic Deck
+It is possible for a run to consist entirely of translation time but normal-
+ly the run proceeds to operation time after all the dé'cks involved have been
+assembled,
+
+During the operation time the various decks which have been as~
+
+sembled
+and recorded on the BINARY INPUT TAPE may be brought to memory and
+
+executed in
+any sequence, Post-mortems may also be executed and results
+
+are record
+orded in binary form on the BINARY OUTPUT TAPE, If an error Stop
+
+occurs during a user's
+program, the computer operator may, by a simple
+
+process, con
+) tinue automatic operation, The user then has the option of
+
+continuing his run
+! or of terminating it and executing a special list of
+mortems called error post-mortems
+
+CC-75-1 i,
+
+Processing time begins after operation time has been terminated,
+The processing phase translates the binary post-mortem results recorded
+on the BINARY OUTPUT TAPE to symbolic BCD form and records them on the
+proper output unit (on-line printer, on-line punch, PRINTER OUTPUT TAPE
+or PUNCH OUTPUT TAPE), At the end of processing time the operator pro-
+gram proceeds to the translation phase for the next run,
+
+In the following chapters we describe each of the three phases
+in detail, An attempt has been made to completely describe the operator
+program in as few words as possible, A more leisurely development of the
+system can be found in the "User's Introductory Manual to the MIT Auto-
+
+matic Operator Program',

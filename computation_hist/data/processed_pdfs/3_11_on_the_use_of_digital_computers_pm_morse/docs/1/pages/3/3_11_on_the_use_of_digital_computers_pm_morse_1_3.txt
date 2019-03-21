@@ -1,0 +1,132 @@
+are incapable of doing anything they are not told. And
+they must be told in complete and exhausting detail.
+When programming a calculation to be done by hand,
+one can assume that the computer, even though not a
+professional, will exercise a certain amount of judgment
+at various points along the way, will make the proper
+modifications if some number turns out to be negative
+and will call for help if things seem to be going wrong.
+To keep the programming simple, one often programs
+the work in sections, carrying a long computation up to
+an intermediate point, to see what the intermediate re-
+sults are like, before deciding on the program details
+for the next stage.
+
+Such casual programming techniques will never do
+for the really fast computers. The machine has to be
+told exactly what to do at each step in the calculation;
+what to do if the number turns out to be negative,
+what to do if the number is larger than the storage
+register it is supposed to fit into, not to go on com-
+puting terms in a series if they are negligibly small,
+not to try to divide by zero and so on and so on, in
+complete and exhausting detail. The important thing to
+remember in machine programming is that machine
+computers are dumber than anybody.
+
+The comforting technique of doing the work in sec-
+tions, and pausing to decide what to do next turns out
+to be quite inefficient because of the extreme disparity
+in the times for computing and those used for pausing.
+With hand computation it might take six hours to com-
+plete one section of the calculations and then take a
+half-hour to program the next step; with the machine
+it might take six seconds to complete the calculations
+and, because of the increased detail required, it might
+take two hours to program the next step. One obviously
+can’t keep the machine waiting for those two hours, so
+the machine is switched to other problems and one has
+to wait in line to get back on, after the next section is
+programmed. If possible, therefore, it is best to pro-
+gram a problem in one continuous unit, bringing out of
+the machine only those final results which are neces-
+sary to know in the end. Because of the present rela-
+tive inefficiency in output equipment, the fewer the
+numbers brought out of the machine, the quicker the
+results will be available.
+
+Thus is posed a dilemma which can annoy and frus-
+trate the novice. The final, working program should
+minimize the numbers brought out of the machine. But
+if the program has an error in it, or has not allowed for
+all possible alternatives at each step, the numbers com-
+ing out of the machine will be inconsistent nonsense
+and one must start “trouble-shooting”. Or, even worse,
+the results may only be slightly inconsistent, and one
+is not sure whether there is an error or not. And here
+the lack of output details is a handicap, for one often
+has to examine the intermediate results for a number of
+trial computations before the programming error is
+found—and these intermediate results have not been
+brought out of the machine. There are, of course, so-
+called “post-mortem” techniques for bringing the ma-
+chine contents to light after a bad run, so the faulty
+
+OCTOBER 1956
+
+21
+
+parts of the program can be diagnosed. And one soon
+learns the tricks to be used to write a “clean” program,
+one which is easy to diagnose and check. But it should
+be evident that trouble shooting a complex program
+can be as time consuming as trouble-shooting experi-
+mental equipment often is.
+
+At present, the writing of a program for a large com-
+putational problem, checking it out and determining the
+accuracy of the final answers, is the biggest bottleneck
+of all in the use of the really fast computers. At MIT,
+for example, we have adopted the rule of thumb that
+any computation which can be completed by hand with
+an expenditure of less than about three man-months of
+time, and which won’t be repeated sooner than a year,
+should 7ot be programmed for Whirlwind. We have
+found by experience that the answers to such problems
+can usually be obtained quicker by hand, because a new
+program, for a tough problem, can easily take more
+than three man-months to perfect.
+
+This does not mean that one should turn big prob-
+lems over to professional programmers to code, either.
+Many of the critical details of the program can only be
+effectively designed by someone who knows both the
+problem and the techniques of programming. It is ad-
+visable that the novice, who wishes to have a big prob-
+lem solved by machine, should spend a couple of weeks
+learning basic programming techniques, and then should
+work out his first program together with an experienced
+professional, who can help him avoid the usual pitfalls
+and can suggest the use of already-tested subprograms
+for part of the work. After this first experience the user
+can carry on with only occasional help and advice, and
+in a short time he usually prefers to do his own pro-
+gramming. Several such amateurs, after a few practice
+runs, have taught our professionals a trick or two.
+
+As a matter of fact, after machine operation gets to
+be more standardized and after we have gained more
+experience in machine use, this programming bottleneck
+should ease considerably. After all, from a general point
+of view, a program is a kind of mathematical notation,
+expressing, in symbolic form, the logical relationships
+between various mathematical steps in the solution of
+the problem. As with the usual mathematical symbols,
+a poor notation can greatly hinder us, a good notation
+can make it easy to work out the solution.
+
+At present we are not very far along in developing
+this new brand of notation for programming. The basic
+symbols, such as addition, transfer to storage, and the
+like, are built into the machine. The more complex ones
+are collected in libraries of subroutines. When, for ex-
+ample, someone works out a program for computing the
+exponential function for any specified argument, or a
+way to solve a five-by-five secular determinant, this pro-
+gram can be written up, with comments and estimates
+of error, and placed in a library of subroutines. Then,
+if anyone else requires the value of an exponential, as
+a part of his calculation, this subroutine can be in-
+serted in his larger program. Eventually some of the
+simpler and more popular subroutines can then be built
+into the machine so that, for example, the code exp
