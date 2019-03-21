@@ -8,6 +8,7 @@ import csv
 import networkx as nx
 import plotly
 import plotly.graph_objs as go
+from pathlib import Path
 
 
 def make_graph(max_nodes=None, debug=False):
@@ -221,8 +222,17 @@ def graph_to_csv(graph,
 
     :param graph: Networkx Graph object
     :param node_path: Path or str object
+    :param edge_path: Path or str object
     :return: None
     """
+    if isinstance(node_path, str):
+        node_path = Path(node_path)
+    if not isinstance(node_path, Path):
+        raise ValueError('node_path must be a str or Path object, not ' + str(type(node_path)))
+    if isinstance(edge_path, str):
+        edge_path = Path(edge_path)
+    if not isinstance(edge_path, Path):
+        raise ValueError('node_path must be a str or Path object, not ' + str(type(edge_path)))
 
     edges = graph.edges.keys()
     nodes = graph.nodes.keys()
@@ -244,8 +254,6 @@ def graph_to_csv(graph,
         writer.writerow(headers)
         for edge in edges:
             writer.writerow([edge[0], edge[1], graph.edges[edge]['weight']])
-
-
 
 
 if __name__ == '__main__':
