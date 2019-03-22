@@ -4,7 +4,7 @@
 {% block title %} {{ folder_obj.full }} {% endblock %}
 
 {% block self %}
-<h1>You're looking at folder: {{folder_obj.full}}</h1>
+<h1>{{folder_obj.full}}</h1>
 <h2>Folder number {{folder_obj.number}}</h2>
 {% endblock %}
 
@@ -13,16 +13,16 @@
   <thead class="thead-dark">
     <tr>
       <th scope="col">#</th>
-      <th scope="col">Document Name</th>
-      <th scope="col">Link</th>
+      <th scope="col"; align="left">Document Name</th>
+
     </tr>
   </thead>
   <tbody>
   {% for item in document_objs %}
     <tr>
       <th scope="row">{{ loop.index }} </th>
-      <td>{{item}}</td>
-        <td><a href = "/dj_comp_hist/doc/{{item.pk}}">Link</a></td>
+
+      <td><a href = "/dj_comp_hist/doc/{{item.pk}}">{{ item }}</a></td>
     </tr>
   {% endfor %}
   </tbody>

@@ -11,7 +11,7 @@
 {% block table %}
 
     {% if document_written_objs %}
-        <h3>{{ person_obj.first }} {{ person_obj.last }} wrote:</h3>
+        <h3>Wrote:</h3>
         <br>
         <table class="table">
             <thead class="thead-dark">
@@ -34,7 +34,7 @@
     {% endif %}
 
     {% if document_received_objs %}
-        <h3>{{ person_obj.first }} {{ person_obj.last }} received:</h3>
+        <h3>Received:</h3>
         <br>
         <table class="table">
             <thead class="thead-dark">
@@ -57,7 +57,7 @@
     {% endif %}
 
     {% if document_cced_objs %}
-        <h3>{{ person_obj.first }} {{ person_obj.last }} was cced on:</h3>
+        <h3>Cced on:</h3>
         <br>
         <table class="table">
             <thead class="thead-dark">
