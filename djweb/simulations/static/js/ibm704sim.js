@@ -985,6 +985,9 @@ class IBM_704 {
      * Step through a single instruction.
      */
     step() {
+        if (computer.halt) {
+            return;
+        }
         let instruction_word = this.general_memory[this.ilc.valueOf()];
         this.instruction_register.store_instruction(instruction_word);
         this.ilc.increment();
@@ -1377,5 +1380,39 @@ function TIX(computer, address, tag, decrement) {
     if (index_register.valueOf() > decrement) {
         index_register.update_contents(index_register.valueOf() - decrement);
         computer.ilc.update_contents(address);
+    }
+}
+
+const DISPLAY_TYPE = {
+  INSTRUCTION: "Instruction",
+  FIXED_POINT: "Fixed point",
+  FLOATING_POINT: "Floating point",
+  BINARY: undefined,
+};
+
+/**
+ * Class that represents a line of assembly code, but with added metadata for the GUI.
+ */
+class Assembly_Line {
+
+    /**
+     * Constructor for class.  See assembly_addition.js for example.
+     *
+     * @param {string}             instruction              The text in the line.
+     * @param {string}             description              Short description of line to be displayed at top of page.
+     */
+    constructor(instruction, description = undefined) {
+
+        this.description = description;
+        this.instruction = instruction;
+
+    }
+
+    /**
+     * String representation that looks like this: 0: CLA 4
+     * @returns {string}
+     */
+    toString() {
+        return this.instruction;
     }
 }
