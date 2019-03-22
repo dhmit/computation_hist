@@ -1,11 +1,5 @@
 const computer = new IBM_704(computer_size);
 var highlighting = true;
-const DISPLAY_TYPE = {
-  INSTRUCTION: "Instruction",
-  FIXED_POINT: "Fixed point",
-  FLOATING_POINT: "Floating point",
-  BINARY: undefined,
-};
 
 /**
  * Produces HTML for all the general memory registers of the computer.
@@ -109,7 +103,7 @@ function update_line_desc() {
     } else {
         let code_line = Math.min(computer.ilc.valueOf(), num_code_lines-1);
         if (typeof line_descriptions[code_line] !== "undefined") {
-            line_desc = line_descriptions[code_line];
+            line_desc = instructions[code_line].description;
         }
     }
     $('#line_desc')[0].innerHTML = line_desc;
@@ -138,7 +132,11 @@ function common_start() {
 
 function reset(instructions, memory_value_pairs){
     computer.clear();
-    computer.assemble(0, instructions);
+    let instruction_text = [];
+    for (let i in instructions) {
+        instruction_text.push(instructions[i].instruction);
+    }
+    computer.assemble(0, instruction_text);
 
     if (memory_value_pairs !== undefined) {
             for (const [memory_index, value] of memory_value_pairs) {
