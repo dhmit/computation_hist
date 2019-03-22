@@ -32,6 +32,6 @@ const instructions = [
  */
 function start() {
     common_start();
-    computer.assemble(0, instructions);
+    reset(instructions);
     update();
 }

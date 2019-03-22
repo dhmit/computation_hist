@@ -14,7 +14,7 @@ const instructions = [
     new Assembly_Line('TIX 2, 1, 1', "<code>TIX 1, 1, 1: </code> The computer will compare the value of index register A to the decrement, 1.  If the" +
     " index register is greater than the decrement, then we subtract the decrement from the index register and jump\n" +
     "    to the general memory 1, otherwise we continue.  What's the value of index register A after you press Step?"),
-    new Assembly_Line("PZE 5", undefined),
+    new Assembly_Line("PZE 5"),
 ];
 
 /**

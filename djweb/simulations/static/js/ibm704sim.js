@@ -1401,7 +1401,7 @@ class Assembly_Line {
      * @param {string}             instruction              The text in the line.
      * @param {string}             description              Short description of line to be displayed at top of page.
      */
-    constructor(instruction, description,) {
+    constructor(instruction, description = undefined) {
 
         this.description = description;
         this.instruction = instruction;
