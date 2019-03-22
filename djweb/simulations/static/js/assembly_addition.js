@@ -1,18 +1,12 @@
 const computer_size = 7;
 const num_code_lines = 4;
 const highlighted_registers = [6];
-const line_descriptions = [
-    "<b>CLA 4: </b> Clears the accumulator and stores the value at address 4 (which you'll see if you mouseover is 12) into the accumulator.<br />",
-    "<b>ADD 5: </b> Adds the value at address 5 (30) to the accumulator.<br />",
-    "<b>STO 6: </b> Stores the value of the accumulator into the register at address 6.<br />",
-    "<b>HTR: </b> Tells the computer to stop.<br />",
-];
 
 
 const instructions = [
     new Assembly_Line(
         "CLA 4", "<b>CLA 4: </b> Clears the accumulator and stores the value at address 4 (which" +
-        " you'll see if you mouseover is 12) into the accumulator."
+        " you'll see if you mouseover is 12) into accumulator."
     ),
     new Assembly_Line(
         "ADD 5", "<b>ADD 5: </b> Adds the value at address 5 (30) to the accumulator."

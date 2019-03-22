@@ -102,7 +102,7 @@ function update_line_desc() {
         line_desc += computer.general_memory[computer.ilc.valueOf()].instruction.toString();
     } else {
         let code_line = Math.min(computer.ilc.valueOf(), num_code_lines-1);
-        if (typeof line_descriptions[code_line] !== "undefined") {
+        if (typeof instructions[code_line] !== "undefined") {
             line_desc = instructions[code_line].description;
         }
     }
