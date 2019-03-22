@@ -237,7 +237,9 @@ def advanced_search(request):
     try:
         phrase = request.GET['contents']
         if phrase != '':
-            doc_objs = Document.objects.raw(f'SELECT * from doc_fts WHERE text MATCH "{phrase}"')
+            raw_docs = Document.objects.raw(f'SELECT * from doc_fts WHERE text MATCH "{phrase}"')
+            doc_ids = [doc.id for doc in raw_docs]
+            doc_objs = doc_objs.filter(id__in=doc_ids)
 
     except:
         print("Error getting phrase")

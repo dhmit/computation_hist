@@ -9,6 +9,16 @@ from scipy.ndimage import interpolation as inter
 
 from dj_comp_hist.common import DJWEB_PATH
 
+'''
+
+n.b. macOS users may have difficulty installing pdf2image using pip.
+See instructions at https://github.com/Belval/pdf2image
+
+To install tesseract on macOS using homebrew:
+`brew install tesseract`
+
+'''
+
 # Path to the tesseract neural net
 # Note: We're using tessdata_best (https://github.com/tesseract-ocr/tessdata_best)
 OCR_LSTM_NET_PATH = Path(DJWEB_PATH.parent.parent, 'computation_hist', 'data', 'ocr_lstm_net')

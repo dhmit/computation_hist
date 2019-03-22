@@ -1,5 +1,6 @@
 import csv
 
+# TODO: move elsewhere, since not used in Django app
 
 def contribution_counter(metadata="metadata.csv"):
     """
@@ -23,7 +24,7 @@ def contribution_counter(metadata="metadata.csv"):
     with open(metadata) as csvfile:
         reader = csv.DictReader(csvfile)
         for row in reader:
-            person = row["metadata_added_by"].lower()
+            person = row["metadata_added_by"].lower().strip()
             if person not in number_contributions.keys():
                 number_contributions[person] = 1
             elif person:
@@ -33,3 +34,7 @@ def contribution_counter(metadata="metadata.csv"):
             del number_contributions[not_member]
 
     return sorted(number_contributions.items(), key=lambda kv: -kv[1])
+
+if __name__ == "__main__":
+    from pprint import pprint
+    pprint(contribution_counter())
