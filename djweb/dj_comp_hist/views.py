@@ -12,6 +12,8 @@ from .common import get_file_path
 def index(request):
     return render(request, 'index.jinja2')
 
+def timeline(request):
+    return render(request, 'timeline.jinja2')
 
 def person(request, person_id):
     person_obj = get_object_or_404(Person, pk=person_id)
