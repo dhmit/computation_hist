@@ -7,8 +7,6 @@ const DISPLAY_TYPE = {
   BINARY: undefined,
 };
 
-
-
 /**
  * Produces HTML for all the general memory registers of the computer.
  */
