@@ -1398,67 +1398,14 @@ class Assembly_Line {
     /**
      * Constructor for class.  See assembly_addition.js for example.
      *
-     * @param {number}             memory_location          Where this line exists in memory.
      * @param {string}             instruction              The text in the line.
      * @param {string}             description              Short description of line to be displayed at top of page.
-     * @param {string}             display_type             Display type.  Should be a property of DISPLAY_TYPE.
-     * @param {array}              highlighted_registers    Registers to be highlighted when this instruction is
-     * next, not including itself and the target address.
      */
-    constructor(memory_location, instruction, description, display_type, highlighted_registers) {
+    constructor(instruction, description,) {
 
-        this.memory_location = memory_location;
         this.description = description;
         this.instruction = instruction;
-        this.display_type = display_type;
 
-        this.highlighted_general_registers = [];
-        this.highlight_ac = false;
-        this.highlight_mq = false;
-        this.highlight_ilc = false;
-        this.highlight_ir = false;
-        this.highlight_sr = false;
-        this.highlight_index_a = false;
-        this.highlight_index_b = false;
-        this.highlight_index_c = false;
-
-        if (highlighted_registers === undefined) {
-            return;
-        }
-
-        for (let i in highlighted_registers) {
-            if (typeof highlighted_registers[i] === "number") {
-                this.highlighted_general_registers.push(highlighted_registers[i]);
-                continue;
-            }
-
-            switch(highlighted_registers[i].toLowerCase()) {
-                case "ac":
-                    this.highlight_ac = true;
-                    break;
-                case "mq":
-                    this.highlight_mq = true;
-                    break;
-                case "ilc":
-                    this.highlight_ilc = true;
-                    break;
-                case "ir":
-                    this.highlight_ir = true;
-                    break;
-                case "sr":
-                    this.highlight_sr = true;
-                    break;
-                case "a":
-                    this.highlight_index_a = true;
-                    break;
-                case "b":
-                    this.highlight_index_b = true;
-                    break;
-                case "c":
-                    this.highlight_index_c = true;
-                    break;
-            }
-        }
     }
 
     /**
@@ -1466,7 +1413,7 @@ class Assembly_Line {
      * @returns {string}
      */
     toString() {
-        return String(this.memory_location) + ": " + this.instruction;
+        return this.instruction;
     }
 
     get address() {
