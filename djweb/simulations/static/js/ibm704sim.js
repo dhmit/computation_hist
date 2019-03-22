@@ -985,6 +985,9 @@ class IBM_704 {
      * Step through a single instruction.
      */
     step() {
+        if (computer.halt) {
+            return;
+        }
         let instruction_word = this.general_memory[this.ilc.valueOf()];
         this.instruction_register.store_instruction(instruction_word);
         this.ilc.increment();

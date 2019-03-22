@@ -19,8 +19,11 @@ const line_descriptions = [
  * 12 and register 4 of general memory to 30, and storing the set program into memory.
  */
 function start() {
-    general_start();
-    assemble();
-    computer.general_memory[7].fixed_point = 1;
+    $('#reset_button').on('click', () => {
+        reset([[7, 1]]);
+        update();
+    });
+    common_start();
+    reset();
     update();
 }

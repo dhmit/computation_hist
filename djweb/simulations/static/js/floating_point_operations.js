@@ -11,7 +11,7 @@ const line_descriptions = [
  * Initializes floating_point_operations.jinja2.
  */
 function start() {
-    general_start();
-    assemble();
+    common_start();
+    assemble_from_symboc();
     update();
 }
