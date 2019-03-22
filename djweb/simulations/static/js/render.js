@@ -1,10 +1,10 @@
-const computer = new IBM_704(computer_size);
 var highlighting = true;
+
 
 /**
  * Produces HTML for all the general memory registers of the computer.
  */
-function create_memory_display() {
+function create_memory_display(computer) {
     let general_memory_display = document.getElementById("general_memory_div");
     for (let i = 0; i < computer.size; i++) {
         let para = document.createElement("p");
@@ -21,7 +21,7 @@ function create_memory_display() {
 /**
  * Update the display of the computer's memory.
  */
-function update() {
+function update(computer, instructions, num_code_lines) {
     const code_html = $(".symbolic_code");
     if (code_html.length !== 0) {
         code_line = Math.min(computer.ilc.valueOf(), num_code_lines-1);
@@ -91,11 +91,7 @@ function update() {
     index_c_element.innerHTML = computer.index_c.toString();
     index_c_element.title = "Value: " + computer.index_c.valueOf();
 
-    update_line_desc();
-}
-
-
-function update_line_desc() {
+    // Finally, update line descriptions
     let line_desc;
     if (typeof GENERAL_ASSEMBLER !== "undefined") {
         line_desc = "Next Instruction to be Executed: ";
@@ -109,28 +105,30 @@ function update_line_desc() {
     $('#line_desc')[0].innerHTML = line_desc;
 }
 
+
 /**
  * Sets up general elements of page when loaded.
  */
-function common_start() {
+function common_start(computer, instructions, num_code_lines) {
     $('#run_button').on('click', () => {
         computer.run();
-        update();
+        update(computer, instructions, num_code_lines);
+
     });
     $('#clear_button').on('click', () => {
         computer.clear();
-        update();
+        update(computer, instructions, num_code_lines);
     });
     $('#step_button').on('click', () => {
         computer.step();
-        update();
+        update(computer, instructions, num_code_lines);
     });
     $('#highlight_button').on('click', function() { highlighting = !highlighting; update(); });
 
-    create_memory_display();
+    create_memory_display(computer);
 }
 
-function reset(instructions, memory_value_pairs){
+function reset(computer, instructions, memory_value_pairs){
     computer.clear();
     let instruction_text = [];
     for (let i in instructions) {
@@ -145,4 +143,3 @@ function reset(instructions, memory_value_pairs){
     }
 }
 
-$(document).ready(start);

@@ -985,7 +985,7 @@ class IBM_704 {
      * Step through a single instruction.
      */
     step() {
-        if (computer.halt) {
+        if (this.halt) {
             return;
         }
         let instruction_word = this.general_memory[this.ilc.valueOf()];
@@ -1396,7 +1396,7 @@ const DISPLAY_TYPE = {
 class Assembly_Line {
 
     /**
-     * Constructor for class.  See assembly_addition.js for example.
+     * Constructor for class.  See demos.js for example.
      *
      * @param {string}             instruction              The text in the line.
      * @param {string}             description              Short description of line to be displayed at top of page.
@@ -1416,3 +1416,5 @@ class Assembly_Line {
         return this.instruction;
     }
 }
+
+
