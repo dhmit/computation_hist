@@ -1,0 +1,34 @@
+(4) ~~e T3¢ & e~ 71lx
+
+(5) =Slnxi. e 71x,
+
+for (4), then-p & is gsg good apn argument gg (5
+Thus, for Smal] decreasing Xy~1lnx Tapidly goes to
+* o0 whije X doesg Dothing o¢ importance. Elsewhere
+ln x-14g 88 good g Variable gs X
+
+What jg bértinent to usg grom the Sectiop above then
+18 the idea of using-lnl as oyp independent vari-
+able if we Can relate this t, (2). This we do by
+setting
+
+=
+This transformation ls linegy in-lnlf, is zerq When
+=m ang M lhcreggeg flonotone]y With decreasingitf°
+Also, we T8y rewrite (6) as
+
+(7) ‘Q=W/—§Eln(‘:5%>
+
+and expending to first Order terms Obtain
+
+(8) L =Nem - oD
+
+in the Tegion of importanceo This jg Close €nough
+to (2) for oup Purposes gq
+
+(9) Vem = o — 0
+
+Dicely a8 m—opq, Asymptoticelly, everything 18 just
+fine, The Proof of The pudding is Containeq in (4)
+of Note—20, The dats for 0= 0o jg COpied from Equa-
+tion (52), bage 233 Of MTAC Numbe 4.3,

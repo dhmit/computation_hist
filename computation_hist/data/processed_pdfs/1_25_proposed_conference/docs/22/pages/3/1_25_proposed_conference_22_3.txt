@@ -1,0 +1,54 @@
+computer~oriented numerical analyeis
+programming research
+
+information or list processing languages
+information retrieval and language translation
+simulation
+
+logical design
+
+mechanical proofs
+
+automatic theory
+
+the development of algorithms
+
+the theory of compilers
+
+Une group felt it premature to talk about those areas in the field where
+the theory is not yet developed, as for example, the lack of a theory of compilers,
+and they felt that there was still inadequate content for a proven discipline. Some
+of the difficulty in idemtifying the field was because it is so widely disciplinary.
+We must remain close to the academic disciplines because the work is worthy of
+this identificaticn and maust not be a victim of ingrown professionalism.
+
+A gecond group pointed out that some new entities such as list processing
+languagees had been introduced by the advent of computers, that existing subjects
+such as logic had been influenced, and that there were critical needs for the new
+work being doue in computer research. The question of whether there was a
+separate department for this work right now was not as important as that it should
+be ingured that existing departinent boundaries don't restrict it «« that research in
+computation should not be compared with research other than computation.
+
+Some felt that to accomplish this, there was the need for some kind of academic
+entity for students to join in, and that without such an entity, it was not possible to
+build up the student body in this arez at all levels that are needed and that you would
+like to have to insure unrestricted development of computer science. In one univers
+gity the department of applied mathematics has been broadened to include computer
+science, At a second, four departments have joined in steering towards an intere
+departmental center. Degrees will be granted in one of the four departments upon
+completion of a set of requirements defined by the center and upon the recommendation
+of the center., This avoids the problems of isolation and rejection by other departments
+
+as well as the problems of pigeonholing of credits by schools,
+
+One university will introduce a master's program in computer information
+gciences with new courses this year, They plan on gradually going to a separate
+department with a doctoral program., Their feeling was that there was a whole
+fabrication of techniques ignored by existing departments. They made 2 distinction
+between analytic methods used to study natural languages in linguistics and the
+symthetic methods of mechanical and programming languages in computer sciences,
+between analytic methods in existence proofs in numerical analysis as belonging to
+traditional mathematics and algorithme in numerical analyeis as a part of the come
+
+puter sciences.

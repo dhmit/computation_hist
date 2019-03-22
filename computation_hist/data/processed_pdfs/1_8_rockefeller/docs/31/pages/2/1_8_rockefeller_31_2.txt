@@ -1,53 +1,53 @@
-In the long run, the various social scientists in New
+In the long run, the various soclal scientists in New
 England will probably learn enough about machine operation to be
 able to make the machine useful to them. But it takes time to
-
+learn to program a machine of this size, and research workers in
+any fileld are reluctant to take much time off to learn new tech-
 niques. In addition, to get the most out of a computer one should
-have more than a casual knowledge of the electronic details of its
+have more than a casual knowledge of the electronic details of it
 operation. This combination of knowledge, of a social science and
 of a computer, will probably be developed in our next generation
 of research workers. But if we want to get started using computers
 in social science now, we will have to use a team: a man who knows
-the field plus a min-who knows the machine.
+the field plus a man who knows the machine.
 
-Need for a Research Staff in Machine Utilization__an
-__gre en e Team
+Need for a Research Staff in Machine Ufilization, an
+ingredient in the Team
 
-This last ingredient is the part which is left out of
+This last ingredient 1s the part which 1is left out of
 the contribution which IBM has made to the Computation Center. To
 put the Center at the forefront of research, we must have a full-
-time staff of enthusiastic machine-specialists, to teach prospective
-users how to make the machine do its tricks and to Join with
+time staff of enthuslastic machine specialists, to teach prospective
+users how to make the machine do its tricks and to join with
 research workers who come with a "gleam in their eye", forming
 teams which can utilize to the fullest the computer's capabilities
 in research. This staff will be hard, but not impossible, to
-recruit. We have the beginnings of one formed now, at present
-slanted chiefly toward research in the physical sciences, and we
-have obtained an NSF grant of $35,000 a year for three years to
+recrult. We have the beginnings of one formed now, at present
+slanted chlefly toward research in the physical sciences, and we
+have obtained an NSF grant of 35,000 a year for three years to
 support it. We have the graduate student bodies of the partici-
 pating institutions to pick from and we have already begun to make
 contact with those students who are interested in machine utiliza-
 tion. There are about two dozen IBM research assistants appointed
 for this year. We should be able to pick from the best of these a
-few who would like to stay on for two or three years more, after
-they have obtained their advanced degrees in engineering, mathe-
-matics or science, to be a part of our research staff, potential
-members of research teams. ~
+few who would like toc stay on for two or three years more, after
+they have obtained thelr advanced degrees in engineering, mathe-
+matics or sclence, to be a part of our research staff, potential
+members of research teams. g
 
-Budget for the Social Sciences 7 ' ’
-___ ___________________________
+Budget for the Social Sciences
 
-To make up a staff which could handle the social science
+To make up a staff which could handle the social sclence
 problems as well as the physical science ones would need another
-four or five good men, research men plus the technicians to back
+four or five good men, research men plus fhe technicians to back
 them up, plus a small budget for travel and incidental supplies
-and equipment, approximately $35,000 a year for three years. It
+and equipment, approximately £35,000 a year for three years. It
 would take about three years to get rolling and the developments
 should be reviewed at the end of three years, to see where to go
 next. Such a staff should be more important during the beginning
-stages of the utilization of electronic computers, when the prob-
-lems are not too clearly formulated and when neither partner in
-the team knows the other's plans and ideas. later, when some of
+stages of the utlillization of electronic computers, when the prob-
+lems are not toc clearly formulated and when neither partner in
+the team knows the other's plans and lideas. Later, when some of
 the more important potentialities have been demonstrated, the
 research can be split up into projects, each with a definite goal
 and with its own budget, which can include partial support for the

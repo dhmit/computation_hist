@@ -1,0 +1,96 @@
+T T
+“ e
+
+(223
+
+=
+
+it
+
+(L
+.
+
+>
+
+l".’
+
+Ty
+
+>
+)
+Ty
+
+-
+c}.(
+
+Pra,
+
+A
+)
+
+.
+0
+
+i
+
+ 
+
+13522
+
+e
+
+ 
+
+Reprint from JoOUrNAL or COLLOID SCIENCE, Vol, 6, No. 1, February, 1951
+Printea in U. S. A. ’ %
+
+AN INTERIONIC ATTRACTION THEORY APPLIED TO THE
+DIFFUSE LAYER AROUND COLLOID PARTICLES. I
+
+Arthur L. Loeb
+
+M assachusells Institute of Technology, Cambridge, M assachuselts
+Received August 23, 1950
+
+ABSTRACT
+
+Interionic forces in dilute electrolytic solutions have been successfully treated by
+
+Debye and Hiickel (1), but their theory is not directly applicable to regions of solutions
+
+near plane surfaces, especially when these surfaces are highly charged, as in the case of
+lyophobic colloid particles treated by Langmuir (2). It is shown that even when the total
+potential is high, that part dependent on an ion being at any given location still obeys
+approximately a linear differential equation. The concentration distribution and forces
+between the particles are derived, and compared with the results that Langmuir obtained
+neglecting interionic forces. In the Appendiz the extended interionic attraction theory
+
+is applied to uncharged or slightly charged surfaces in equilibrium with electrolytic
+solution.
+
+INTRODUCTION
+
+According to the Debye-Hiickel theory, the activity coefficient of the
+ions in a dilute solution is depressed below its ideal value by a charac-
+teristic stabilizing mechanism involving the formations of ionic atmos-
+pheres. In the interior of such a solution the normal (i.e., time average)
+potential is zero everywhere, but when there is an ion at a given point,
+its presence induces a local space charge of opposite sign nearby, with
+which an ion interacts, so that its potential energy is lower than the value
+corresponding to the normal potential.
+
+In the neighborhood of a fixed charge, as on the surface of a colloid
+particle, the normal potential no longer vanishes. It is produced by the
+wall charge and the normal diffuse countercharge, and is responsible for
+the main term in the potential energy of an ion in this region. The
+stabilizing mechanism must operate to lower this energy, indeed more
+strongly than in the interior of the solution because the mean ion concen-
+tration is greater, and the atmosphere that is formed is more compact.
+
+| This article outlines the research done in partial fulfillment of the requirements for
+the degree of Doctor of Philosophy at Harvard University. The author wishes to express
+his appreciation for the inspiration and, guidance received from Dr. A. Sprague Coo]xdge?.
+Copies of the complete thesis are filed at Harvard University, the Massa.chusetts Ipstl-
+tute of Technology, Columbia University, the University of Pennsyl\./ama, the Ufuver-
+sity of Amsterdam, and the University of Utrecht (the Netherlands), in each case in the
+Physical Chemistry Library. -

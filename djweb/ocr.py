@@ -7,6 +7,23 @@ import cv2
 from PIL import Image
 from scipy.ndimage import interpolation as inter
 
+from dj_comp_hist.common import DJWEB_PATH
+
+'''
+
+n.b. macOS users may have difficulty installing pdf2image using pip.
+See instructions at https://github.com/Belval/pdf2image
+
+To install tesseract on macOS using homebrew:
+`brew install tesseract`
+
+'''
+
+# Path to the tesseract neural net
+# Note: We're using tessdata_best (https://github.com/tesseract-ocr/tessdata_best)
+OCR_LSTM_NET_PATH = Path(DJWEB_PATH.parent.parent, 'computation_hist', 'data', 'ocr_lstm_net')
+
+
 
 def ocr_pdf(input_pdf_path, return_type='text', output_pdf_path=None):
     """
@@ -73,7 +90,7 @@ def ocr_pdf(input_pdf_path, return_type='text', output_pdf_path=None):
         text = ''
         for i in range(len(images)):
             text += pytesseract.image_to_string(images[i], lang='eng',
-                                                config='--oem 1') + '\n\n\n'
+                                    config=f'--oem 1 --tessdata-dir {OCR_LSTM_NET_PATH}') + '\n\n\n'
         return text
 
     elif return_type == 'pdf':
@@ -86,7 +103,7 @@ def ocr_pdf(input_pdf_path, return_type='text', output_pdf_path=None):
         pages = []
         for i in range(len(images)):
             single_page = pytesseract.image_to_pdf_or_hocr(images[i], extension='pdf', lang='eng',
-                                                           config='--oem 1')
+                                               config=f'--oem 1 --tessdata-dir {OCR_LSTM_NET_PATH}')
             pages.append(single_page)
             file_paths.append(
                 Path(output_pdf_path.parent, output_file_name + '_' + str(i) + '.pdf')

@@ -1,50 +1,42 @@
-1——
-
--2-
-
-_‘o each user of a remote console, the 7090 system would appear to
-
-be a slower running machine, but he would have available to him any
+=T
+.o each user of a remote console, the TO90 system would appear to
+be a slower running machine, but he would have available to h;m any
 of the powerful programming and diagnostic systems now in use, as
-well as a large central filing system for his own programs and discs.
-Problems of program safety' and accounting can be presently solved
-with known techniqueso
+well as a large central flling system for his own programs and dises.
+Problems of program safety¥* and accounting can be presently solved
+with known techniques.
 
-3° Problems to be studied and Solved:
-10 Hardware - As has been previously stated, not enough is pre-
-sently known about the 7090 design to give definite specifications
+3. Problems to be Studied and Solved:
+1. Hardware - As has been previously stated, not enough is pre-
+sently known about the 7090 design to glve definite specifications
 for what is needed. However, there are several "Must" items that
 can best be provided through IBM that can (by their lack) invali-
-date this as a feasable system. The lack of these items is not
+date this as a feasable system. The lack of these items 1s not
 too probable if IBM cooperation is achieved at a high level on the
-basis of the novelty, and general applicability of the system.
-A) Disc files — A must item° Our prior specs for a 7090 system
+basis of the novelty, and general applicablility of the system.
+A) Disc files - A must item. Our prior specs for a T090 system
 do not include discs since IBM has not announced them for the
-7090. They have, however, equipped a sister machine, the 7070,
-with low speed d see. These will be invaluable in providing
+T090. They have, however, equipped a sister machine, the T070,
+with low speed d:8e¢8. These will be invaluable in providing
 random access to programs and programming systems to all con-
-current users°
-B) Remote Inguig Stations — Another what item. Such inquiry
+current users.
+B) Remote Inquiry Stations - Another must item. Such inquiry
 stations should be wire connected to the 7090 in order to mini-
-mize both cost and maintenance° Although flezowriters could be
+mize both cost and maintenance. Although flezowriters could be
 used, we would be far better off in using the remote inquiry
 stations that IBM uses with the 7070 system, or possibly with
 their 305 system.
-0) Guard or Boundary Registers ~ A definite highly desirable
-itenmh In time shared usage, the problem of program compata-
+C) Guard or Boundary Registers - A definite highly desirable
+itent®* In time shared usage, the problem of program compata-
 bility becomes of paramount interest. Lacking such registers,
-the solutions to compatibility will either limit the overall
+the solutions to compatibillity will either limit the overall
 speed of the system ( as in our flexo monitor - interpretive
 system where speed drops by some 40 ) or else the flexibility
 of the system by restricting the programmer to completely safe,
-and foolproof program systemsu IBM has developed such registers
-for their "stretch" system, but it would be highly unlikely that
+and foolproof program systems. IBM has developed such registers
+for their "stretch" system, but 1t would be highly unlikely that
 
- 
+# Preventing unwanted modification to other programs concurrently in
+memory .
 
- 
-
-e preventing unwanted modification to other programs concurrently in
-memoryo
-
-we But presently unlikely on the 7090 due to costs
+## But presently unlikely on the 7090 due to cost.

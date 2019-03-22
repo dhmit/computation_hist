@@ -1,63 +1,62 @@
-Extension of NSF 029u0 Page I;
+Extenslon of NSF @G2940 Page 4
 
- 
+ENCLOSURE B
 
-ENCLOSURE B '
-Excents from Original Weasel for Funds ‘
+Excerpts from Original Prbggsal for Funds
 
 (modified to bring it up to date)
 
-Name and Address of Institutions-
-W
-Massachusetts Institute of Technology, Cambridge 39. Mass.
+ 
 
-Title or Progsed Research;
+Name and Address of Institution: |
+W 8
+Massachusetts Institute of Technology, Cambridge 39, Mass.
+
+Title of Proposed Research:
+
+Research on Digitel Computer Operation and Utilization
+
+Investigation inte the patterns of operation of electronic
+digital computers and the methods wheredby they can be used in
+mathematical and experimental research; including studies of
+numerical analysis and machine programming metheds, investigation
+of the possibilities of the complete mechanization of the sequence
+of recording, processing, analysis and présentation of experi-
+mental data and the working out of such Specific applications of
+machine techniques to problems in seience, engineering, and |
+administration as will elarify the basie fesearch and suggest new
+points of view.
 
  
 
- 
-
-of recording, processing, analysis and presentation of experi- f
-mental data and the working out or such specific applications of ‘
-machine techniques to problems in science, engineering, and ,
-
-administration as will clarify the basic meeamh and suggest new
-
-Desired Starting Date: September 1, 1956.
+Desired Starting Date: September 1, 1956,
 
  
 
 Time Period: Three years, with a reassessment during the fall of
-1959 to determine whether further support is advisable.
+1959 to defermine whether further support is advisable,
 
-groposed Research ~ Baclgground Information:
+Proposed Research - Background Information:
 
 We are organizing what should be one of the most fruitful
-centers for research related to the use of electronic computers
-in this country. IBM is contributing one of its 701% machines,
-maintained and equipped with appropriate auxiliary equipment.
-IBM and MIT are providing the building, part of the new Compton
-Laboratory, and MIT is contributing some of the staff from its
+centers for research related to the use of electronie cemputers
+in this ecountry. IBM is contributing one of its 70U machines,
+maintained and equipped with appropriate auxiliary equipnment.
+IBM and MIT are providing the bullding, part of the new Compton
+Laborato®y, and MIT is contributing some of the staff from its
 departments of mathematics, electrical engineering, physics, and
 industrial management. The machine will be available, 35 or more
-hours a week. free of machine time charge, to MIT staff and
-students for monoclassif‘ied and nonsmutine researcha MIT
-research in the Center will be eeerdinated by the Institute
-Machine Computation Omitteeo
+hours a week, free of machine time charge, to MIT staff and
+students for non-classified and non-routine research. MIT
+research in the Center will be coordinated by the Institute
+Machine Computation Committee.
 
- 
-
-In addition, the Center will be available, up to 35 hours
-a week, on the same basis, to other colleges in New England.
+In addition, the Centep will be avalleble, up to 35 heurs
+& week, on the same basis, to othepr colleges in New England.
 Already 23 institutions have indicated their interest in parti-
-cipating and have appointed faculty members to be their Insti~
-tutional Representative. These representatives will coordinate
-the research dene on the machine by students and staff of their
-
-institution. :EM is providing some funds for stipends for
-
- 
-
-some of this research"
-
-_
+cipating and have appointed faculty members to be their Insti-
+tutional Representative. These Tépresentatives will coordinate
+the research done on the machine by students and staff of thelir
+institution. IBM is providing some funds for stipends for
+graduate students who wish to learn machine use by helping with
+scme of this research.

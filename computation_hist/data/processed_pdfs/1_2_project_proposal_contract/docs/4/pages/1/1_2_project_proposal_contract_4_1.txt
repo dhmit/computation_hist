@@ -1,38 +1,35 @@
-L—25 - Page 1 or" 4,
+T=25 - | - Page 1 of 4
 
-W458AGHUSE‘I‘I‘S INSTITUTE OF TECBIJODOGX
-
+HASSACHUSETTS INSTITUTE OF TECHNOLOGY
 Department of Physics
 
-EWMIWM
+MEMORANDUM
 
-To:‘ Mr. N. Mel... Sage
+Tos M. No. McL. Sage
 
-From: Professor Philip H. Morse
+Froms - Professor Phillp M. Morse
 
-Date: February 20, 1951
+Dates February 20, 1951
 
-Subject: Proposal for Research and Training Proj eat in Applied
+Subject: Proposal for Research and Training Project in Applied
+. Mathematics, Using Large-Scale COmputing Equipment,
 
-Mathematics, Using Large-Scale Computing Equipment,
+'Partimﬂ.arly Whirlwind
 
-‘Partioxﬂarly Whirlwind ’
-
-Whirlvﬁnd Project has now reached a stage of development.
-where its potentialities can be utilized, together with the other
-computing equipment at'Technologr, in a coordinated research and
-training program, of the sort anticipated by OER during its several
-years of support of the Project. Both the Institute and the navy are
+Vhirlwind Project has now reached a stage of development
+vhere its potentialities can be utilized, together with the other
+computing equipment at 'Technoldéy, in a coordinated research and
+training program, of the sort anticipated by ONR during its several
+years of support of the Project. Both the Institute and the Nevy ere
 vitally interested in the use of large-scale computing devices for the
-solution of scientific and engineering problems, and for the. promotion
-of training for students lnterestod in this field.
+solution of sclentific and ehgineering prcblems, and for the promoticn
+of training for students ;ntemsted in this field.
 
-of course a part of the time of Whirlwind will be used for
-the solution of a speclal Air Force problem, and it; is expected that
-the Air Force will. contribute an appreciable part of "plus support of
-
-‘ the Whirlwind Project, for the clevelopmen‘c. of equipment and methods
-for the solution of two problem. Nevertheless, approximately half
-the working time of the machine itself will be available for the funda-
+Of course a part of the tlme of Vhirlwind will be used for
+the solution of a special Air Force problem, and i% 1s expected that
+the Air Force will contrlibute an apprecsable part of the support of
+| the Whirlwind Project, for the development of equipment and methods
+for the sclution of this problem. Nevertheless, approximately half
+the vorking time of the machine itself will be avallable for the funda-
 
 mental program, mentioned above and outlined below.

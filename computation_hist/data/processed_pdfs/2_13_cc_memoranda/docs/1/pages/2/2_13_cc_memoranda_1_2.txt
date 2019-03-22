@@ -1,3 +1,5 @@
+o
+
 If requested time for M.I.T. problems, per quarter, is larger
 than the estimated time available, allowed times will be reduced
 proportionately; each class may be reduced by a different fraction.
@@ -9,12 +11,12 @@ requests for additional time, over that allowed at the beginning of
 the quarter, probably cannot be granted.
 
 In this way the Center hopes to keep the weekly computing load
-from being so great as to cause long processing deiays. It will not
+from being so great as to cause long processing dedays. It will not
 cure the fact that M.I.T. has already outgrown the computing equipment
-it now has. we at the Center will be glad to hear suggestions as to
-how we can get the equivalent of three or more 70M's in the near future!
+1t now has. We at the Center will be glad to hear suggestions as to
+how we can get the equivalent of three or more 704's in the near future!
 
 Philip M. Morse
 Director
 
-PMM:RM
+PMM: RM

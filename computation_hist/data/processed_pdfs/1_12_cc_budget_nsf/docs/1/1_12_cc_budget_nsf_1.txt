@@ -1,19 +1,21 @@
 NATIONAL SCIENCE FOUNDATION
-Washington 25, D. C.
+| Washington 25, D., C,
 
-FOR PRESS AND RADIO NSF-181 FOR RELEASE _
-Telephone: STerling 3-21h0 Decanber 3, l956
-Extension 3100
+ 
+
+FOR PRESS AND RADIO NSF-181 FOR RELEASE |
+Telephone: STerling 3-21.40 December 3, 1956
+‘Extension 3100
 
 FOUNDATION ANNOUNCES
 SUPPORT OF FIVE COMPUTER CENTERS
 
 The second in a series of grants in support of computation centers and
-research in numerical analysis was announced today by Alan T. Waterman, Director
+research in numerical analysis was announced today by Alan T, Waterman, Director
 of the National Science Foundation. Grants totaling $230,000 were awarded as
 follows: Cornell University, $50,000; University of California (Berkeley),
-$50,000; University of Pennsylvania, $70,000; Princeton Ihﬁversity, $110,000; and
-Stanford University, $20,000. '—"=
+$50,000; University of Pennsylvania, $70,000; Princeton University, $40,000; and
+Stanford University, $20,000. Th
 
 (Note to Editors and Science Writers: For you who are keeping
 a running account of computer grants, and because it spells
@@ -22,11 +24,11 @@ copy of an earlier press release (NSF-165, September 10, 1956)
 is attached hereto for your convenience.)
 
 The Cornell grant is designed to support the expanded research facility at
-the University Computing Center which was used, during l9Sh-SS, by 26 departments
+the University Computing Center which was used, during 1954-55, by 26 departments
 and schools. Those which used at least 100 hours of machine time were: aeronau-
 tical engineering, family relations, industrial and engineering administration,
-industrial and labor relations, mathenatics, psychology and plant breeding. The
-University of Rochester has used the Center a total of hOO hours. It is expected
+industrial and labor relations, mathematics, psychology and plant breeding. The
+University of Rochester has used the Center a total of LOO hours. It is expected
 that the Center will extend its services to other institutions in the region.
 
 The University of California grant was made to help develop a computer
@@ -35,7 +37,7 @@ at Berkeley requires massive computation and includes such fields as engineering
 astronomy, genetics, education, physics, mathematics, statistics, and psychology.
 
 Within the University of Pennsylvania, the computer center will be used by
-the departments of mathematics, physics, chenistry, and astronomy, the Moore School
+the departments of mathematics, physics, chemistry, and astronomy, the Moore School
 of Electrical Engineering, and the School of Medicine. Neighboring institutions
 which expect to participate in the center are Bryn Mawr College, University of
 Delaware, Swarthmore College, Temple University and Haverford College.
@@ -51,99 +53,102 @@ ton accelerator now under way at Princeton.
 
 
 The grant to Stanford University will support numerical analysis, applica-
-tion of computing machine methods to scientific problans and training of personnel
-in the techniques of machine computing. Fields in which the computer at Stamford
-has had wide use include statistics, mathematics, physics, engineering and bio—
+tion of computing machine methods to scientific problems and training of personnel
+in the techniques of machine computing. Fields in which the computer at Stanford
+has had wide use include statistics, mathematics, physics, engineering and bio-
 chemistry.
 
-.._3o__
+=—30-m.
 
 Attachment
 
 
-.. 3‘:
+5 T= >,
+
+ 
 
 NATIONAL SCIENCE FOUNDATION
 Washington 25, D.C.
 
 FOR PRESS AND RADIO, NSF-165 FOR RELEASE
-Telephone: STerling 3-21N0 MONDAY A.M. PAPERS
-Extension 3381_ SEPTEMBER 10, 1956
+Telephone: STerling 3-21.10 MONDAY A.M. PAPERS
+Extension 3381 SEPTEMBER 10, 1956
 
 NATIONAL SCIENCE FOUNDATION ANNOUNCES GRANTS
-IN SUPPORT_OF COMPUTATION CENTERS
+IN SUPPORT OF COMPUTATION CENTERS
 
 The first in a series of grants in support of computation
 centers and research in numerical analysis were announced today
 by Alan T. Waterman, Director of the National Science Founda-
-tion. Grants totaling $135,500 have been awarded as follows:
+tion. GCrants totaling $135,500 have been awarded as follows:
 California Institute of Technology, $38,000; Massachusetts
-Institute of Technology, ﬁngLKEu Oregon State Collegej $20,000;
-gniversity of Washington,"$l7,500; University of Wisconsin,
+Institute of Technology, : Oregon State College, $20,000;
+TY of Weshingten, $17,500; University of Wisconsin,
 
-30,000. \
+30,000.
 
 The funds will be variously used to establish the nucleus
 for a computing center where none exists, to extend existing
 centers, and to pay rental for computing time. In some
-instances part of the funds will be used for salaries of re—
+instances part of the funds will be used for salaries of re-
 search assistants.
 
 The Foundation's program is designed to strengthen basic
 research in a number of fields by providing research invest-
-igators access to computing facilities. Only a few large com—
-puting centers around the country are available for basic
+igators access to computing facilities. Only a few large com-
+puting centers around: the country are available for basic
 research problems and these generally on a part-time basis
-only. Most computers are busy on a round—the—clock schedule on
+only. Most computers are busy on a round-the-clock schedule on
 industrial problems and problems related to defense contracts.
-The general—purpose university computing laboratory does not
-have sources of support for basic research-at present. Founda-
+The general-purpose university computing laboratory does not
+have sources of support for basic research:-at present. Founda-
 tion assistance will help to establish or strengthen such
-general—purpose research laboratories.
+general-purpose research laboratories.
 
-Commenting on the Foundation program in support of com—
+Commenting on the Foundation: program in support of com-
 puting research, Dr. Waterman said: "The electronic digital
 computer has been growing in importance as a major research tool
-since World War II. The art of high—speed computation has now
+since World War II. The art of high-speed computation has now
 progressed to the point where many scientists feel that further
 progress in their fields will be seriously affected by access to
-the techniques and facilities for computation. At least two
+the techniques and facllities for computation. At least two
 obstacles must be overcome in making theoretical advances in
 scientific research: formulation of adequate conceptual models
-of a natural process, and calculation of anticipated observa—
+of a natural process, and calculation of anticipated observa-
 tions in a particular instance of the process.
 
 "Recent experimental advances in physical and engineering
-sciences have made previously relevant linear mathematical-
+sciences have made previously relevant linear mathematical
 
 
 models inadequate for representing many interesting processes
 or, in cases where linear analysis remains relevant, have
 increased enormously the size of the linear system employed.
 
-Use of mathematical models in biological and sociological re-
-rsearch has induced consequences similar to those in the physical
-sciences. It is mihistorically remarkable coincidence that,
+Use of mathematical models in biological and sociological re=-
+
+- Search has Induced consequences similar to those in the physical
+sciences. It is an historically remarkable coincidence that,
 parallel to the emergence of these difficulties, a means of
 dealing with them has been found in the art of high-speed com-
-putation."
+putati One. '
 
 The Director added that the need for adequate computer
 facilities for basic research problems must be considered
 primarily from an interdisciplinary point of view. In addition
 to the obvious interdependence of computation and research in
 mathematics and physics, other mathematical, physical, and
-engineering sciences are utilizing computational techniques at
-an increasing rate. Problems in biological and sociological
-seiences are also becoming increasingly amenable to numerical
-analysis.
+engineering sciences are utilizing éomputational techniques at
+an increasing rate. = Problems in biological and sociological
+sciences are also becoming increasingly amenable to numerical
+analysis,
 
 Provision of computer facilities for basic research is
 filling an important need in training mathematicians at all
 levels in formulating scientific problems. At present only a
-' fraction of the number of mathematicians needed for computer
-work are being graduated at the Various levels. Scientists in
-other fields, also, must be trained in methods of applying
++ fraction of the number of mathematicians needed for computer
+work are being graduated at the various levels. Scientists in
+other fields, also, must be trained in methods of app.ying
 computer techniques to their own problems. In addition to the
 scientists and mathematicians whose interests are in basic re-
 search, an increasing number of trained specialists are required
@@ -154,72 +159,74 @@ support of computation centers is the need for more research to
 advance the art of computation itself. Effective utilization
 of existing machines requires research in numerical analysis.
 Scientists are daily encountering problems beyond the capacity
-of existing machines, and, if the need for better equipment is
+of existing machines, and, if the need for better equipment 1s
 to be met, investigation into the theory and engineering of
-computing machines is essential.
+computing machines 1s essential.
 
-Foundation support for various aspects of computer re—
+Foundation support for various aspects of computer re-
 search and training has been worked out with the advice and
 assistance of an Advisory Panel for University Computing
 Facilities, headed by John von Neumann, Commissioner, Atomic
 Energy Commission. Other members of the Panel, who represent
-a number of disciplines, are: Herbert L. Anderson, Institute
-for Nuclear Studies, University of Chicago; Jule G. Charney,
+a number of disciplines, are: Herbert LIL. Anderson, Institute
+for Nuclear Studies, University of Chicago; Jule G. Charney;
 School of Mathematics, Institute for Advanced Study; Gerald M.
-Clemence, Director, Nautical Almanac, U. S. Naval Observatory;
-Joseph 0. Hirschfelder, Department of Chemistry, University of
+Clemence, Director, Nautical Almenac, U. S. Naval Observatory;
+Joseph O. Hirschfelder, Department of Chemistry, University of
 
--2-
-
-H
+ie
 
 
 Wisconsin; Ralph E. Meagher, Department of Physics, University
-of Illinois; Philip M. Morse, Department of Physics, Massachu—
+of Illinois; Philip M. Morse, Department of Physics, Massachu-
 setts Institute of Technology; J. Barkley Rosser, Department
 
-of Mathematics, Cornell University; Martin Schwarzschild,
+of Mathematics, Cornell University; Martin Schwarzschlld,
 Department of Physics, Princeton University; Edward Teller,
-Department of Physics, University of California; Walter E. Munk,
-
+Department of Physics, University of California; Walter H. Munk,
 Scripps Institution of Oceanography; S. M. Ulam, Los Alamos
-Scientific Laboratory.
+Scientific Laboratory. |
 
 
 ROUTING SHEET
 
- 
-
-W111 recipients please check off their names, make appro-
+Will recipients please check off their names, make appro-
 priate comments, and send the material on to the next person on
 
-the 1131:. W111 the last on the list please return it to me.
+the list. Will the last on the list please return it to me.
 
 P. M. Morse, Room 6-109, ext. 857
 
-__E_ﬂ______________
-
- 
-
-To [. ‘ Y'cx r\ , Comments {:3 km". 2.4 .
+ed RN
 
  
 
  
 
-Mm
+     
+ 
+
+, Comments
+
+y Conments YR 4.
 
  
 
-To Comments
+ 
 
-:
-———_—___._‘ mm
-WWW".-
-MW
+ 
 
-W1“; .amm‘m _., a; 1 7» ;d_==z—J==——
+Comments vu J : |
 
-y f
+ 
+
+ 
+
+ 
+
+ 
+
+, Comments
+A A EES i i i i A i aa a A i anes aaa
 
 

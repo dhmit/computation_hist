@@ -1,0 +1,50 @@
+\
+
+ 
+
+ 
+
+Tos Heprbert Teager | Date: March 15, 1961
+Froms John MeCarthy
+
+Subjects Susgpations-lnsptred by your January 3 Report on the
+e Time-Sharing Project A' | |
+
+1 £inally got around to reading your Jannary nepdrt on Ehg
+time-sharing project. All your short range plans seem quite
+feasible to me. - . T T .
+
+However, I have some suggestions that might peduce the com-
+plexity of the modifications to the 7090 that are required. The
+programnming scheme is similar to that_oublined in your report,
+2nd the idea, which avoids full boundary registers, occurred to
+me after reading the report. y " qarp &
+
+W
+
+1. Mochine modifications. We add 2 node of operation,t-mode,
+which can be entered and left by sultable inétruccionss It has
+two submodes, g;land‘;g. When the machine is 1n t-mode, the high
+_order bit of the memory address pegister 1s fixed to be either
+1 or O according to the hi or 1o submode and eannot be changed by
+instructions. Thus the program operates in high or low memory
+regardless of how it is written. 1In addition, a speclal circult
+foras the or of bits 2 thru 5 and traps if this has value O, This
+
+and 2ll other traps turn off t-mode.
+
+2, Time-sharing gsystems, The effeect of this hardware 18 that
+4096 words (2048 at the beginning of memory and 2048 in the middle)
+<pe peserved for the cime~-sharing system. The rest of memory is
+divided into two blocks of 14336 registers. AU any moment one of
+these blocks is beling used by a user's program or by a compller
+working for a user and the other is being swapped with disk file.
+
+All programs except the time-sharing system are compiled
+
+petween registers 2048 and 16383 but can aetually run either 1in
+low or high memory secording to lo or nhi submode. The Ulime-
+sharing system nandling all input-output and traps occuples
+0-2047 and 16384-18431. Having i1t divided into two blocks is a
+mild inconveneince but allows the trap condition to be & gimple
+or circulb.

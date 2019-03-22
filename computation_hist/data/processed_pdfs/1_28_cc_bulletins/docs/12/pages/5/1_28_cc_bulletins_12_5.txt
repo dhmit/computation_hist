@@ -1,0 +1,63 @@
+CC-148 S
+
+MOP SKIP,TXX,NAME, X
+TEX X
+MAC NAME
+X SYN ©
+END SKIP
+
+in the expansion of the following call the second argument of SKIP will be
+substituted, commas and all (but with the outermost parems stripped off), in
+place of the dummy NAME
+
+KBAC SKIP,TPL, (ADD,(X,1) Y, 2) 22
+The result of the two macro expansions is the generated sequence
+
+TPL ZZ
+CLA X,1
+ADD Y
+STO 2
+
+2Z SYN ®
+
+Normally, printing of generated imstructions will be suppressed @
+
+The Pseudo-operation IRP A
+
+This instruction is used in pairs withnn a macro, to begin and emnd
+a block of instructions, The result will be that the block of imstructioms so
+bracketed will be repeated once for each subargument of argument A, with A on
+each repetition replaced by successive subarguments, A must be a SAP expression
+defined before appearance of the imstruction in a MAC call, For example, the
+routine
+
+MOP SUMSQ,T,B
+
+STZ T
+
+IRP B
+
+LDQ B X
+
+FMP B X Four instructions
+FAD T X to be repeated .
+STO T X
+
+IRP
+
+END SUMSQ
+
+computes a sum of squares in T, It might be used to compute X? < Yz & Z2
+by the call
+
+MAC SUMSQ,U, (X,¥,Z)
+which compiles into
+
+7]
+=3
+N
+
+dcER3EERAENZ
+caoanNnNnea<laeaurea
+
+¢ See section 14,

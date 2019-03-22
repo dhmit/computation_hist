@@ -1,0 +1,66 @@
+TN
+
+ 
+
+18,
+
+C’C” 143 11
+
+Typical use
+umc SUBRIN, SIZE, COMMON, $
+
+(KAHEI RANEZD$ Entry points
+ETC QBUBRL SUBR2, SUBR3) Transfer vector
+
+d8) If nomnumeric other than a commz or blank is found in colwm 13,
+the variable field will be scamned and dummy arguments will be identified. A
+dumny argument should begin the field so that a count may be later substituted.
+No sequence of characters should be longer than six characters between break
+characters; longer sequences will be truncated on the left by the scamning
+routine, The first blank encountered will terminate the scan., When the macro
+ie expanded, the argument which is supplied to take the first positicn in the
+BCD string must contain the correct word count for the entire BCD string.
+Example:
+
+NTR C ' (NTR=TZXI)
+B (BRA=TXL)
+B (XIT=TTR)
+
+To use the macro OUTPUT, a format statement would be supplied to correspond to
+the argument A and a string of variables to be printed would be supplied to
+replace B, C and D would be normally supplied by created symbols, as in this
+call to print floating point numbers X and Y3
+
+MAC OUTPUT(2(1Hb2EL9,8))K,Y)
+
+The left-most character in the first argument becomes the BCD word count,
+
+Note that blanks (represented here by lowsr case b) may be used im the BCD ex-
+pressions substituted whem the expressions are enclosed by parentheses; the re-
+strictions are only on theiyr use in definitiomns,
+
+DEC, CCT and OPD Within Macro Defimitions
+
+If the variable field of a DEC card begims with 0,1,2 ..., 8, +, ., or
+comma, the DEC card will be stored unchamged as part of the macro definitiom
+in wvhich it occurs, If any character other than those listed above occurs in
+columm 12, the variable field will be scanned to identify any dummy arguments,
+In the latter case, sequences of not longer than 6 characters between break
+characters will be handled correctly. A DEC card should not use K or B as the
+pame of a dummy argument, The following examples are correct: :
+
+MOP EXAMP1 A X
+
+DEC 1.0E+8,5,33333335-02 No substi-
+DEC .5 tution implied
+DEC A,A,X, X, X
+
+DEC A,1,0ELD,X,3,0810,A
+
+END EXAMP1
+
+The folloving exsmple is ineorrect, due to the length of the numbers:
+
+MOP EXAMP3, A
+DEC A, 12345678
+END EXAMP2

@@ -1,50 +1,48 @@
-V
+W )(
 
-This report is yrimariiy cancerncd with the solution
-of boundary-value prchlama by msans of autemntie ceapuzing
-equipmsnt (both out! gag and digital). Speclfleally, in
-addition to the familiar dusk calculator, the {allewxng
-digital camputtr: ware usnd in this stud 3 the typc 602A
-Electromechanical {alcuxator, the typa 5 4 Elactrunic
-Calculator. the Card Programmed raleulator, and the M.I.T.
+This report is primarily concerned with the solution
+of uoundary-value preblems by means of autcmetie computing
+squipment (both enalogue and digital)., Specifiealls, in
+addition to the familiar desk calculster, the fellewing
+digital computers were used in this study: the type 6024
+Electromechanicel]l Calculator, the type 6504 Electironic
+Calculator, the Card FProgrammed Taleulator, and the M,I1.T,
+ihirlwindg Computer, The anfilogue studies were oblained by
+uge ¢f the M,1.T. Rockefeller Differential Analyzer,
 
-ﬁhirlwind Camyuter. Thu nnﬁleguc Itadies war: obtaxntd by
-was of thc M.1.T. Reckcrllzer ﬂitfarantiaz Analyacr.
+This study is primarily concerned with the selution
+of ordinary differentisl equations in which certain beundary
+conditions are specified at twg or = values of the
+Independent variaple, Such prodblems are generally called
+boundary-value problems, It is clearly evident that the
+soilution of such problems is inherently mere difficult than
+the solution of initialevalue problems in which 211 condie
+tions are specified at one point, The particulsar problems
+stucdied are further complicated by the fact that their
+solutions are reguired over an infinite range which cone
+tains reglions of nern-gnalyticity.
 
-Th1: Itudy I: prianriiy eenesraad with the solutiau
-or ordinary alitarcntlal equations in which curtain beunéur
-conditions arc apaclrlcé at 553 ar mags values of thc
-lndupcnnunt vurlnbzt. Such prablcnu Ire ganarally called
-boundarynvllue problems. It is clearly ¢vident thtt the
-solution of such probltau is inherently not. difficult than
-tn. sciatica of la:t1:;-v;tue probtsna In which all candi~
-ticny Ire 8919!! ed a
+A computational philesophy is presented which empha-
+sizeg that & machine must bLe evaluatled on & firm engineering
+and gcenomic basiseea haslis which must include the entire
+computetional precedure, An evaluation iz given of the .
+relative advantages and limitations of the five computers
+used In thils studys A fair svaluation must include the
 
-one point. 1h; putticulnr yrahlcwa
-s‘udind nra turthsr camplzcnted by tbs fuct that their
+time for: problem preparaztion, numericel analysis,
+programming, coding, machine setup, machine solution,
+checking, and se forth., The accuracy and cest of 8 particue
+lar scjution must alzo be Included,
 
-nelntlen: Ira r-quircd ever In inftnatt rung. which wan¢
-tllnu ragionn of non-annlyticlty.
+This report salse iliustrates the manner in which the
+techniques for solving simultanecus linecar slgebrale szquae~
+tions are apirlied to the soluticn of the bouncary value
+protlem, & detslled description of the entire computa-
 
-h canputﬁtlonll gaileaophy is prosentad which empha-
-oxzcs thlt I mtehlnc maat he gvlluttnd an a firm engineering
-and economic BIUlS¢CC basin which must inctuéc tbs entire
-camputatlontl praceéuro. kn cvuluttSen is givtn of {$5.
-relutiv: advnatug‘: and limitations hf the fivu computers
-usan in thll study. A t.sr mvnluttlon must ancxu¢c xhc
-tin: for: problum pvuparatiaa, aquatics: inllysln,
-programming. cadtng, mnchinc Ictnp, machine solution.
+tional procedure characiteristic to each cemputer {s given
+in &n associated Appendix,
 
-chucking, and so forth. th accuracy and East at a particu«
-In? sciatica muat £199 be Includtd.
+Fo M, Verguh
+November 25, 1952
 
-Thin rcpurt Ilsa illustratua ch: winner in which tho
-ttchniquos {or calving slaultnnaaus linear algabrulc equi-
-tiana urc npvliad to the sciatica a! the benndnrymvalnc
-prohlcn. ﬂ eclnﬁlcd deteriptlun a: in: anttre compati-
-
-ttonnl proccduru ehnrncterluttc ta mtch camputcr in given
-in an associated Appendix.
-
-F. M. Vernuh
-November 25, IQSZ
+e g, P e

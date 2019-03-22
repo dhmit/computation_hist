@@ -1,0 +1,123 @@
+6a 8 La,
+
+COMPUTATION CENTER
+Massachusetts Institute of Technology
+Cambridge 39, Massachusetts
+
+OCT 4 1962
+
+Bulletin No. 24
+September 27, 1962
+
+P U'L‘L'E“T'T N
+
+SUGGESTION
+
+The Center suggests that you file these BULLETINS as
+informal supplements to the Procedures Handbook.
+
+COMPUTATION CENTER MEMORANDA
+
+The following CC memos of general interest have been
+released since the last BULLETIN. Copies may be obtained
+in Room 26-142.
+
+CC-167-4 Description of a Post Mortem Subprogram
+(F2PM) For Use With the FORTRAN/FAP
+Monitor System, Version 2
+
+A modification of the write-up of the
+Fortran II Post Mortem.
+
+CC-180-7 Computation Center Version of the
+FORTRAN /FAP Monitor Sys tem
+An update of the list of differences
+
+between the manuals and the system in
+use at the Center.
+
+CC-182-2 Common Programming Errors
+
+A list of common errors made by users
+of FMS,
+
+CC-186-3 FORTRAN and MAD Format Specifications
+
+A general description of the format
+specifications used for input and
+output in FORTRAN and MAD coded
+subprograms.
+
+
+REQUEST CARDS
+
+Programmers who have special tapes to be mounted should
+note that these tapes will be mounted exactly as they were
+left from the previous run. That is, if they were to be
+file protected at the end of the last run, they will be file
+protected at the beginning of this run and if they were not
+file protected at the end of the last run they will not be
+file protected at the beginnning of this run.
+
+Note that a file protected tape is one which can be
+read, but not written, whereas a tape which is not file
+protected can be both read and written.
+
+TOURS
+
+Starting October 4, 1962, a tour of the Computation
+Center will be given every Thursday at 4:00 p.m. Persons
+wishing to go on such tours should meet in Room 26-168.
+
+SYSTEM NOTES
+
+1. FMS users should not use the *LIBE card at the
+Computation Center.
+
+ 
+
+2. FMS users must always use the *DATA card when
+execution is desired.
+
+3. FAP programmers who use update can only use tapes
+9, 11 and 12.
+
+4, FMS users should not use DEBUG for PRINT, PUNCH, or
+READ statements as it will not operate properly.
+
+5. A new subroutine version of MADTRAN is available
+in the open file in Room 26-058, It is described in CC-138.
+
+6. A new version of tapeless (F2PM) is available in
+the open files in Room 26-058.
+
+7. The double precision and complex arithmetic sub-
+programs are now on the FMS library tape.
+
+8. The subprograms DISPLA and SCALE, PL@T, GRID have
+been added to the FMS library tape.
+
+
+FUTURE SYSTEM CHANGES
+
+ 
+
+DEBUG will soon be available for use with double
+precision and complex arithmetic. However, programmers
+wishing to use it will have to recompile their programs.
+CHECK THE SYSTEM BULLETIN BOARD IN ROOM 26-058 FOR THESE
+
+CHANGES,
+
+ 
+
+MATERIALS FOR COURSE USE
+
+ 
+
+Manuals and coding forms to be used in conjunction with
+a course should not be obtained in Room 26-153. Students
+should make requests to their instructor who will obtain
+the necessary materials.
+
+

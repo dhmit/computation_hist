@@ -1,76 +1,79 @@
-Electronic Cmutational Laboratory - 6.538
+=G
 
-The subject matter offered in 6.538 since 1947 provided the student
-with two basic types or notorial. Specifically, sons 80% of the laboratory
-work was devoted to a. study of electronic circuit components by actual
-laboratory work on the following experiments:
+Electronic Computational Laboratory - 6.538
+
+The subject matiter offered in 6.538 since 1947 provided the student
+with two basic types of material. Specifically, some 80% of the laboratory
+work was devoted to 2 study of electronic ecircuit conpanents by actual
+laboratory work on the following experiments.
 
 I.
 
 II.
 
-III.
+1IX.
 
-IV .
+iv.
 
-VI.
+Vi.
 
-VII.
+VIii.
 
-V111 .
+VIIX.
 
-IX.
+iZ.
 
-Tine ﬂessureaent Equimnt and study of Bynchroscopee and
+Time Measurement Equipment and Study of Synchroscopes and
 Oscilloscopes
 
 Pulse Generating Equipment
 
-An experimt on blocking oscillators, delay-line pulse
+An experiment on blocking oscillators, delay-line pulse
 
-generators, sharpening and sduaringvoircuits, and ringing
+generators, sharpening and squaring circuits, and ringing
 circuits.
 
-Bistablo Circuits and Flip Flops
+Bistable Circuits and Flip Flops
 
-vAn expori-ent covering various flip-ﬂop circuits
-including Thyratron, single-tube pentode circuits, Eccles-
-Jordnn circuits, high-speed pentodo circuits, and
+-An experiment covering various flip-flop circuits
+including Thyratron, single-iube pentode eircuits, Eccles-
+Jordan circuits, high-speed pentede circuits, and
 
-tmsistorized flip flops .
+transistorized flip flops.
 
-Electronic Counters and Counting Circuits
+Elecgronic Counters and Counting Circuits
+An experiment covering Thyratron counters, binary
 
-An- experiment covering Thyratron counters, binary
-decade counters, screen-coupled counters, biquinary counters,
+~ decade counters, screen-coupled counters, biquinary counters,
+
 respectively.
 
-Coincidence Circuits and Gate Circuits
+Coincidence Circuilts and Gate Circuits
 
-An experiment considering various types of coincidence
-circuits: diodes, triodes, pentodes, and other multiple
-coincidence devices. -
+An experiment comsidering various typés of ecoilncidence
+circuits: diodes, triodes, pentodes, and other'uultiple
+coincidence devices.
 
-Design or Bistuble Circuits
+Design of Bistable Circuits
 
-A projectetype or: experiment in which the student designs
-(on paper) ‘a' flip flop to meet certain operating conditions,
-and tests his design by actual construction of the flip flop,
-and testing its performance in the laboratory.
+A.project~type of experiment in which the student designs
+(on papsr) a £1ip flop to meet certain operating conditions,
+and tests his design by actual construction of the £lip flop,.
+and testing its performance in the laboxratory.
 
 Magnetic Recording of Pulsed Information
 
-An superman on magnetic recording in which the seguetic
+An expc*iment on magnetic recoxding in which the magnenic
 material, head, recording frequency, pulse amplitude, tape
-velocity, are varied and the resulting'perfomce evaluated.
+velocity, are varied and the resulting performance evaluated.
 
-Time Pulse Distributor
+Tﬁmevpulse Distributor
 
-An experiment studyiw vacuum tubes and diodes as control
-elements by pulse distribution of voltage sigmls.
+An experiment studying vacuum tubes and diodes as control
+elements by pulse distributior of volisge signals.
 
-Square-Hysteresis-Loop “emetic Storage Elements
+Square-Hysteresis~Loop Magnetic Storage Elements
 
-An experiment on the use of emetic cores as a storage
-media, nulher of tune on various windings, current amplitude
-of recording and sensing turns, are used as parameters.
+An experiment on the use of magnetic cores as 2 storage
+medla, number of turns on various windings, current amplitude
+of recording and semsing tuims, are used as parsmeters.
