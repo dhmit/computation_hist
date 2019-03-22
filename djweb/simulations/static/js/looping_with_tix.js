@@ -14,16 +14,24 @@ const line_descriptions = [
     "    step through the program.  At the end, register 7 should have a value of 2^5, 32, from repeated adding.  ",
 ];
 
+const instructions = [
+    'LXA 5, 1',
+    'CLA 7',
+    'ADD 7',
+    'STO 7',
+    'TIX 2, 1, 1',
+    'PZE 5',
+];
 /**
  * Initializes looping_with_tix.jinja2, including initializing register 3 of general memory to
  * 12 and register 4 of general memory to 30, and storing the set program into memory.
  */
 function start() {
     $('#reset_button').on('click', () => {
-        reset([[7, 1]]);
+        reset(instructions, [[7, 1]]);
         update();
     });
     common_start();
-    reset();
+    reset(instructions, [[7, 1]]);
     update();
 }

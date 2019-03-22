@@ -2,24 +2,6 @@ const computer = new IBM_704(computer_size);
 var highlighting = true;
 
 
-/**
- * Assembles code into program which is placed in computer.
- */
-function assemble_from_symboc() {
-    try {
-            // TODO: remove this html parsing, and replace with a real js
-            // data structure
-            const code = $(".symbolic_code");
-            const code_innerHTML = Array(code.length);
-            for (let i = 0; i < code.length; i++) {
-                code_innerHTML[i] = code[i].innerHTML;
-            }
-            computer.assemble(0, code_innerHTML);
-    } catch (err) {
-        computer.clear();
-    }
-}
-
 
 /**
  * Produces HTML for all the general memory registers of the computer.
@@ -150,9 +132,9 @@ function common_start() {
     create_memory_display();
 }
 
-function reset(memory_value_pairs){
+function reset(instructions, memory_value_pairs){
     computer.clear();
-    assemble_from_symboc();
+    computer.assemble(0, instructions);
 
     if (memory_value_pairs !== undefined) {
             for (const [memory_index, value] of memory_value_pairs) {

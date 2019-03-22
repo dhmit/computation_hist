@@ -13,18 +13,17 @@ const instructions = [
     'ADD 5',
     'STO 6',
     'HTR',
-]
+];
 /**
  * Initializes assembly_addition.jinja2, including initializing register 3 of general memory to
  * 12 and register 4 of general memory to 30, and storing the set program into memory.
  */
 function start() {
     $('#reset_button').on('click', () => {
-        reset([[4, 12], [5, 30]]);
+        reset(instructions, [[4, 12], [5, 30]]);
         update();
     });
     common_start();
-    assemble_from_symboc();
-    reset();
+    reset(instructions, [[4, 12], [5, 30]]);
     update();
 }
