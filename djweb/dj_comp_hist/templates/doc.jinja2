@@ -10,10 +10,10 @@
             right: 0;
             background-color: aliceblue;
             overflow-x: hidden;
-            padding-top: 20px;
+            padding-top: 70px;
         }
 
-        @media (max-width: 950px) {
+        @media (max-width: ) {
             .sidenav {
                 position: relative;
                 bottom:21%;
@@ -35,26 +35,21 @@
 
 {% block table %}
     <div class="container mt-3 flex-wrap">
-      <div class="d-flex mb-3 flex-wrap">
         <div class="p-2 flex-fill ">
-            <iframe src=https:/s3.amazonaws.com/comp-hist/docs/1_2_project_proposal_contract/docs/35/1_2_project_proposal_contract_35.pdf
+            <iframe src={{ doc_pdf_url }}
                     width="88%" height="100%" >
             </iframe>
         </div>
         <div class="sidenav">
-                 <p></p>
-                 <table class="table">
-                     <tbody>
-                        <tr>{{ doc_obj.date}}</tr>
-                     </tbody>
-                 </table>
 
+            <table class="table">
+                <tbody>
 
+                <tr><td>{{ doc_obj.date }}</td></tr>
+                </tbody>
+            </table>
 
-
-
-            
-            {% if author_person_objs or author_organization_objs %}
+        {% if author_person_objs or author_organization_objs %}
             <p>Written by:</p>
             {% if author_person_objs %}
                 <table class="table">
@@ -98,18 +93,18 @@
                         </tr>
                     {% endfor %}
                     </tbody>
-               </table>
+                </table>
             {% endif %}
 
-           {% if recipient_organization_objs %}
+            {% if recipient_organization_objs %}
                 <table class="table">
                     <tbody>
                     {% for item in recipient_organization_objs %}
                         <tr>
 
 
-                          <td><a href="/dj_comp_hist/organization/{{ item.pk }}">{{ item }}</a></td>
-                         </tr>
+                            <td><a href="/dj_comp_hist/organization/{{ item.pk }}">{{ item }}</a></td>
+                        </tr>
                     {% endfor %}
                     </tbody>
                 </table>
@@ -128,14 +123,14 @@
                         <tr>
 
 
-                           <td><a href="/dj_comp_hist/person/{{ item.pk }}">{{ item }}</a></td>
+                            <td><a href="/dj_comp_hist/person/{{ item.pk }}">{{ item }}</a></td>
                         </tr>
                     {% endfor %}
                     </tbody>
                 </table>
             {% endif %}
 
-             {% if cced_organization_objs %}
+            {% if cced_organization_objs %}
                 <table class="table">
 
                     <tbody>
@@ -147,28 +142,13 @@
                         </tr>
                     {% endfor %}
                     </tbody>
-                 </table>
+                </table>
             {% endif %}
 
         {% endif %}
 
-        {% if page_objs %}
-            <p>{{ len(page_objs) }} page(s)</p>
-            <table class="table">
 
-                    <tbody>
-                    {% for page in page_objs %}
-                        <tr>
-
-                            <td><a href="/dj_comp_hist/page/{{ page.pk }}">{{ page.page_number}}</a> </td>
-                        </tr>
-                    {% endfor %}
-                    </tbody>
-             </table>
-        {% endif %}
-
-          </div>
-          </div>
         </div>
+    </div>
 
 {% endblock %}

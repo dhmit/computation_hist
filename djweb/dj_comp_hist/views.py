@@ -56,6 +56,7 @@ def doc(request, doc_id):
                                     doc_obj.folder.name , file_type='pdf', path_type='aws',
                                     doc_id=doc_obj.doc_id))
     print(doc_pdf_url)
+    print(doc_obj.date)
     obj_dict = {
         'doc_obj': doc_obj,
         'author_person_objs': author_person_objs,
