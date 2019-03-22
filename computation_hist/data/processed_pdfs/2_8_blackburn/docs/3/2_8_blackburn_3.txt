@@ -1,0 +1,32 @@
+I. B, HM, Corporation
+| Room 26-151
+
+Dear pr. Blackburn:
+
+In order to effect proper operation of the forthcoming
+Type 738 Magnetic Core Unit, MIT will have to make a number of
+modifications on the underfloor air supply to this machine,
+Specifically, the present dust connections on the two 737 units
+will have to be removed and a new air supply provided for the 738
+unit,
+
+I would very much appreciate receiving a scaled drawing
+for the model 738 gnit which would allow me to make the necessary
+duct assembly connections to the base of this unit, The drawing I
+need is similar to the previuously-developed IBM drawing 680898-20
+which was crested for the Type 737 unit when we installed it in
+June of 1957. This drawing would assist us in making proper duct
+connections to the base of the 738 unit. I realize that the 704
+Installation Manual contains drawings of the 738 unit (plan view);
+however, on the 737 we could not use the manual drawing since IBM
+modified the unit to permit duct connections. I would like a
+correct drawing to make certain that the previocusly-installed machine
+parts all fit the 738 machine when it arrives.
+
+Sincerely yours,
+
+A F. M. Verzuh
+FMV :nb A Agsistant Director
+gc: P. M, Morse
+
+

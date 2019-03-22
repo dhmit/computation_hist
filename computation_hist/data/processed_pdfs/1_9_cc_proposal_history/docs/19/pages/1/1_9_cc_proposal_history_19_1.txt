@@ -1,0 +1,49 @@
+PROPOSAL FOR RESEARCH INTO THE EFFECTS
+OF AUTOMATIC CONTROL AND MACHINE PROCESSING OF OPERATING DATA ON
+SOCIAL AND INDUSTRIAL OPERATIONS
+
+We propose to study the effects of automatic control
+techniques and computing devices on social and industrial opera-
+tiong,by closely coordinated research in three ma jor directions:
+
+1. Case studies of the possibilities and consequences
+of "automation” in several carefully chosen industrial and govern-
+mental operations. Each case would be studied by a mixed team, drawn *
+from a variety of disciplines. The operations studied would be
+actual ones, a factory or a store or a part of a government service,
+so specific operating data will be obtainable and so' that the prac-
+tical difficulties will be apparent; general principles can be
+built up inductively from the results of several such studies.
+These' studies would have to be carried out with the close coopera-
+tion of the administrators of the operations studied. ,
+
+2. Research into the techniques of automatic control and
+into the use of machine processed data, and experiments with the
+use of various input and output equipment. This research can be
+carried on in cooperation with the Institute's new Computation
+Center and would utilize the interest and kriowledge of those members
+of the Institute staff who are already doing research in this area.
+The results of this broader research activity would provide new
+suggestions for application in the case studies of (1) and the
+problems arising from the case studies would suggest new techniques
+and equipment to investigate.
+
+5. Quantitative analysis of the dynamics of social and
+industrial operations by the techniques of operations research.
+This research would develop the mathematical theory which would be
+utilized in the specific applications studied in parts (1) and (2).
+Regularities in the operating data obtained from the case histories
+could be used to extend the theory and extensions of the theory
+could help guide the case studies and the equipment development.
+
+Close cooperation would be insured between the three
+parts of the project by frequent conferences and by occasional
+transfer of staff from one part to another. Each part would be
+staffed by a few full-time staff members, by 2 number of interested =2
+members of the Institute faculty, each contributing a portion of
+his time, and by half-time research assistants chosen from the
+graduate students of all departments. Each of the three types of
+" staff members will be necessary: the full-time research associates
+to carry on the administrative details of the project and to main-
+tain continuity of effort; the faculty members to contribute their
+varied background of knowledge and to transmit the knowledge gained

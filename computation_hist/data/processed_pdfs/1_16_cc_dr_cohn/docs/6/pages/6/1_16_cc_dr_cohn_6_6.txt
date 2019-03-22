@@ -1,77 +1,89 @@
-”‘3',
+o Binaetl
+) 'S}'
 
-(pit-1'
+XD 1k}
+d, We n&d
 
-d, we 1m
-iKi-i lS
+| Ko
 
-‘ the series
+p the Se]'iﬁ
 
-n t I: l S 1
-majorizei
+n | k| <]
+S Majorz
 
-it note tlu
-r the double
-eml term ti
-paciﬁc for!
+1t note thi
+ the doub
+eral tem
+pecific fom
 
-n ttt'o M“
+in two stef
 
-of equall“:
+ of equil
 
-(In (ll/i
+dz, i
 
  
 
  
 
-RIEMANN FUNCTION 303
+RIEMANN FUNCTION
+303
 
-where B, again, is the rectangle formed by the horizontal and vertical lines
-through (I, y) and (25’, y’). We see that, by the uniqueness theorem stated in
-§z] (16) would imply (11) when .7: 7f 1" and y # 3/ while (15) would take care:
-0f the remaining points (for which .r = 1’ or y = 3/)
+where B, again, is the rectangle formed by :
+d by the horizontal '
 
-We ﬁrst establish (15) It refers to points where l r ~ 7"] = l 3 ~ 3’ | or
-”I = Z ‘X, l, to use the arguments of QM . Thus by (13), we see that
-(15) will follow from this lemma:
+. ’ ’ ) - , and rert o
+through (z, ) i.md (', y'). We see that, by the uniqueness th ‘\oxtlcal hngs
+§2, (16) w01.11€1 imply (11) when 2 > 2’ and y = 3’ while (15 evoxem stated in
+of the remaining points (for which z = 2’ or y = /) - ) would take care
 
-1,1"in Z l X. l, and if n 2 1, MM deXi , X2, ~ ~ , X“. ; Y) Ham's/16s
-identically-
+We first establish (15). It refers to points where it b
+| Y] T Z | X: |, to use the arguments of @,., . Thus ht Sl S
+(15) will follow from this lemma: 5 by (13), we see that
 
-The proof of the lemma can he carried out by induction, since 6Q,M/6X,-
-and aQw/BY can he expressed as the sum of two integrals of the, type (2,, with
-new arguments satisfying the same inequality
+Y 2 Y| X | and'ifn. = 1, then'Q (X X :
+identically. (&, Xoy oo Xty 5 ¥) vanishes
 
-Having established (15), we then establish the remainder of (11), namely
-equation (16} Still regarding (1’, y’) as ﬁxed, we write (9) as
+The proof ,Of the lemma can be carried out by induction. since g 19X
+and 0Q,.,/dY can ho expressed as the sum of two integrals of’ t‘h ,C( nea/ 8‘)& :
+new arguments satisfying the same inequality. Ses he type @, with
 
-(17) R‘ — RT = w(:c, y; k) dk
+Ha?'mg estabhs.hed (15),. we then establish the remainder of (11
+equation (16). Still regarding (2’, ¥') as fixed, we write (9) aé Sy
 
-With the aim Of showing that, I: aim/31‘ all div" is 131'ecisely the term required
-for (16), To this end, note
+(17) A== [ w(z, y; k) dk
 
-”(L y; k) = 1r"ll'(r, 7"; k) exp i/.'(s — 3’) ~ ni'ki' sin 15(7' — I'/) exp zk(s — s’)
+with the aim of showing that [’ d*w/d :
+: A : — ",«' £ a? dk S 001 y +hn = .
+for (16). To this end, note Y 1s precisely the term required
+w(z,y; k) = 7 W(r,r'; k) exp th(s — s') — 7 k™' sin k(r — 7’) exp k( ")
+- ’ . C S Sy S
 
-and 6210/61 6y = Byte/(9r2 — 8210,932 : —H(r)W(r, 7";k) exp i/c(s ~ 8’), Hence
-[1: a‘w/axray d1; = —HR*, and thus
+and azw/ax Y = i w/or: — *w/ds® = — H .
++@ : 2 ON ol R r I' ', o r I ln e/
+J'_m a2w/al, ay dlk = —HR*, and thius ( ) (7 7 ;]b) exp Z/»(S S ) Hence
 
-”7
-f dkff 6270/6101] drdy
-_.. .5
-
+f dk f [ d*w/dx dy dx dy
+-— 0 v B )
 (18)
 
-= * ff” Htati + y.)1f*(l'i wt ;.1;', y’) dri dyi .
+T ‘/"/; H(J«'l < yl)R*(Ix y Y ;.II’, y') dx, dy, p
+The left member of the equation, (18), however, becomes
 
-The left, member of the equation, (18), however, becomes
+(el o ey, P,
+[ (w(x, y; k) — wz, y'; k) — w@’, y; k) + wi’, y'; k)} dk
 
-f twtl', Luis) ~ Wu 1/; k) — wtx’, y; k) + th’, y’; 16)} dk
+Ve
 
-2/ w(r,y;/c)dk=R*v 3,
-since, by (15), the right mPI'Dllt‘l‘ of (17) vanishes when :i: = 3/ or y = 1/. Thus
-we ﬁnally see that (lti) holds, and our proof Is complete,
+= /‘_ w(x, y; k) dk = R* — R¥ |
+since, by (15), the right meml 7 :
+- S >mber of (17) vanishes when z = 2’ ’
+v ; . : Shes x=2'ory = =
+we finally see that (16) holds, and our proof is complete e
 
-, 5. Concluding remarks. We mentioned previously that Riemann’s Fourier
-Integral expansion is at present limited in usefulness because the integral can
-be found in closed form only in a few cases such as when H(r) = —)t or
+5. Concluding r = JEnY 3
+e cmg'g gmarks. We mentioned previously that Riemann’s Fourier
+
+3 ‘ .,1 e A . . 2 A o AT g s
+i ilrJl ] ond1> at present limited in usefulness because the integral can
+closed form only in a few cases such as when H(r) = —\ or

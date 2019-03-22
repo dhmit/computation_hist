@@ -1,0 +1,330 @@
+~
+e <
+:
+S
+
+> »
+
+s'_;\ b
+
+o 5
+At
+LA 1S
+
+)
+
+-
+
+oy
+
+58
+SeRe s
+
+e
+
+s
+A2
+
+‘“\
+%
+8.
+
+T el
+DIV
+
+AL LY
+
+e
+
+-‘)},‘.\
+
+"
+i
+
+-
+W
+
+A
+
+A »
+
+v ‘.“h ) ok = 25 o 4+ % o,
+
+ 
+
+ARTHUR L. LOEB AND HARRY H. DENMAN
+
+  
+   
+
+  
+
+k T
+(Rg:To)
+| /4 (Ro~ RaTo~Ta)
+(RgeTa)  *(Re,T.)
+
+*(ng,kqt 8)
+
+*(ng.kg) *(ng#B. ko) *(Rp, Tp)
+
+ 
+
+n
+
+oLl o .k s (n +8’ k ) FlG- 2— (Ro. To) AND THE
+s a . % TRANSFORMS OF
+
+AND (ng, kot 3). THE THREE POINTS
+IN FIG. I.
+
+tions just referred to cannot be inverted, (R, 7') cannot be directly trans-
+formed into the (n, k) plane. Since the method described in this section for
+R and T is completely analogous to that for R’ and 7', no special mention
+of R’ will be made here unless a distinction between R and R’ needs to be
+stressed.
+
+A pair of values of n and k, (ng, ko), is to be found which transforms into
+(Ro, Th), a pair of observed values for reflectance and transmission. As
+first estimate a point (n., k,) is chosen, which transforms into (R,, T,)
+as shown in Figs. 1 and 2. Since R, # Roand T, # Ty, (7., k.) is not the
+desired point. A displacement (ny — n,, k¢ — k.) should be found in the
+(n, k) plane corresponding to a displacement (Ry — R., T — T.) in the
+(R, T) plane. An infinitesimal displacement (8R, 67) transforms into the
+(n, k) plane according to the equations
+
+(8) i~ on o
+N=os oR + aTéY,
+
+IR aT
+
+For small displacements (R,
+mately that
+
+(10) No— Ng = (6_@) (Ry—R <f_3£) : -
+oR a ’ U) + aT 2 (70 ik 10))
+
+s S 5 6]17 l[
+B et ot ((ﬁg By R (3—1> (To — T.),
+
+where (dn/90R). means the value
+I efc
+
+The unknown partial derivatives an/oR. gn/ aT
+
+— R,) and (T, — T,), one can say approxi-
+
+of an/dR evaluated at the point Re,
+
+dk/0R, and ok/aT can
+
+ 
+
+DIGITAL COMPUTER AS A LABORATORY TOOL
+
+be expressed in terms of the partial derivatives dR/dn, dR/dk, 8T /on, and
+aT /ok by the following equations:
+
+1)
+e
+
+ 
+
+o
+o
+
+-~
+
+s
+
+  
+   
+ 
+
+...
+Y . P
+-
+-
+
+-~ -
+-
+-~
+s
+-
+
+A
+-
+
+where the Jacobian J is given by
+
+L
+
+Y11 L
+
+v
+-
+
+e
+
+A~
+EREE
+"--‘
+
+v
+
+-
+
+iy
+-
+
+-
+
+=
+¥
+(l'x_‘recr.-"
+LTy c;
+X ECroore
+
+T
+
+    
+   
+ 
+
+The partial derivatives dR/on, dR/dk, 8T /dn, and 4T /dk can be obtained
+analytically from (1), (2), (4), (5), (6), and (7). However, because of their
+complexity and since they will only be used in the approximate equations
+(10) and (11), it was decided to use the method outlined below.
+
+The values of the partial derivatives are found approximately by trans-
+forming three points in the (n, k) plane into corresponding points in the
+
+(R, T') plane:
+
+e — -
+—
+- 4
+
+<,
+
+-
+S
+-~
+
+'v :“i
+
+-
+-
+-
+
+a5
+
+-
+-
+
+S
+A
+
+-~
+
+—— S
+~
+
+s ST
+e
+}2 1
+- -
+FEir=v3
+
+.
+-
+
+-
+
+%3
+
+e
+= 4
+
+Tor
+
+53
+
+o e i
+
+Ly
+L
+
+-
+-
+
+(e , ko) transforms into (Ra, Ta).
+
+L n-o
+
+322
+
+£ s
+
+L
+
+.
+
+ey
+
+-
+
+(ne + 6, ko) transforms into (Ry, T%).
+(g , ko + 6) transforms into (R, L)
+
+By replacing the partial derivatives by the corresponding first order
+difference expressions, equations (12) to (16) become:
+k2 1 ,1‘(' o 'Iva
+
+L1
+
+£
+
+S
+. fy
+
+S o
+
+e
+
+(e
+
+£
+
+73 875223
+
+e
+r e e e d
+
+vy
+
+T
+
+I Ts
+
+L Lr
+
+-
+
+C';
+—
+
+ 
+
+Iy
+Y
+
+v 9
+-
+
+.. +e e - -
+> e SIS S S S
+AR LR 2
+
+.-
+* VS easn

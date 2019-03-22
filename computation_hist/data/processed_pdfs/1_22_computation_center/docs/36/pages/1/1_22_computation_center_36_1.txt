@@ -1,0 +1,52 @@
+M e ) Y/
+
+CC=33 Page 1 of 4
+COLPUTATION CENTER
+
+llagsachusetts Institute of Technology
+Cambridge 39, llassachusetts
+
+To: 704 Users
+
+From: F. C, Helwig
+
+Date: July 24, 1957
+
+SUBJECT: A USERS' ABSTRACT OF THE POST-MORTEM PROGRAM
+
+Introduction
+
+The IOT post-mortem program is a selective memory
+print-out or punch-out routine. The care memory ranges to be
+recorded and the word-forms to bhe produced are specified using
+either symbolic request cards or t!(e computer console, This
+memo describes only request cards, (1)
+
+The post-mortem program is recorded on the systems
+magnetic tape unit (MT1) and is entered by the load tape button
+or by a programmed load tape sequence:
+
+(REW 1)
+RTB 1
+CPY O
+CPY 1
+T™TR O
+
+The deck of request cards to be processed is placed in the on-
+line card reader and is read in by the post-mortem program,
+
+Three additional magnetic tape units may be required
+by the program:
+
+(1) MT2 is required if results for off-line printing
+are produced,
+
+(2) MT3 is required if results for off=1ine punching
+are produced.
+
+(3) MuTS is always required for temporary storage.
+
+The post-mortem program does not rewind T2 or MT3 so
+
+(1) Control of the program from the computer console is deseribed
+in CC=23,

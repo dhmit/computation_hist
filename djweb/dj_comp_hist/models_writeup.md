@@ -1,5 +1,5 @@
 <h3>Models Writeup</h3>
-DJango models are used to define the structure of stored data (in this case, the database of historical documents). They
+Django models are used to define the structure of stored data (in this case, the database of historical documents). They
 form the means through which the Django web application can store and manage data. This writeup details my thoughts on 
 which models could/should be built for the database, and how their structures could be defined.\
 \

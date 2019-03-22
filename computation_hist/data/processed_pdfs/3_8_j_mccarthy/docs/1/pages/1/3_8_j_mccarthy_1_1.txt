@@ -1,0 +1,55 @@
+December 23, 1959
+MEMORANDUM
+
+To: F. J. Corbato
+P. M. Morse
+
+H. M. Teager
+
+M. Verzuh
+
+F.
+From: Jghn McCarth
+
+Subject: Various Methods of Reducing the Pressure on the
+Computation Cenfer
+
+l. Nature of the Pressure. Just before the Christmas holi-
+day, there was a two day delay on computer runs. The delay has
+been over one day for almost the whole of the semester. This
+has seriously affected the rate at which research can be done.
+In particular, the flexowriter version of LISP which was essen-
+tially ready at the time of the ACM meeting has dragged on all
+fall in debugging, and other projects have been equally slowed.
+Undoubtedly, the slow service given by the Center has dis-
+couraged new users to a considerable extent, and has made a num-
+ber of departments and projects want thelr own computers. I do
+not belleve that a lot of separate computers is a solution to
+the problem because:
+
+1) Computation costs more per unit in small packages as
+well as requiring separate programming systems, ete.
+2) It will hamper our T0SC or STRETCH plans.
+
+It is8 difficult to estimate the lncrease in effective com-
+puter time required to alleviate the queue because the users
+who are seriously hampered now will submit more runs if the de-
+lay is shorter, and an improvement in service will encourage
+more users. We can already use at least double the computation
+facilities we have.
+
+2. Get More 704 Time From IBM. I think we should plan to
+be using both Saturdays and sundays and all possible third shift
+time by late spring.
+
+3. Departmental Quotas on Tlime. Across the board cuts in
+time grants favor ose who learn about them in time to exag-
+gerate thelr requests., We do not have enough information about
+
+the quality of the researchers requesting time to cut one off
+in favor of another.
+
+Suppose a letter were sent to the five largest department-
+al users as follows:
+
+17 ¥

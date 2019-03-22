@@ -1,10 +1,13 @@
 import os
 import csv
+import sqlite3
 from pathlib import Path
 from .models import *
 from django.db import IntegrityError
 from django.core.exceptions import ValidationError
+from .common import DJWEB_PATH
 
+# TODO: move elsewhere, since used in data preprocessing, not in Django app
 
 def populate_from_metadata(file_name=None):
     '''
@@ -50,10 +53,18 @@ def populate_from_metadata(file_name=None):
                     count_invalid += 1
                     print(f'{e}. Line: {line}.')
 
-
     print(f'Added {count_added} documents from {file_name}. Skipped {count_skipped} documents '
           f'because of incomplete metadata. Invalid: {count_invalid}')
 
+    db = sqlite3.connect(f"{Path(DJWEB_PATH.parent, 'db.sqlite3')}")
+    cursor = db.cursor()
+    # delete old table if exists before populating full text search table.
+    cursor.execute('DROP TABLE IF EXISTS doc_fts;')
+    cursor.execute('create virtual table doc_fts using FTS4(id, title, text);')
+    cursor.execute('''INSERT INTO doc_fts(id, title, text) 
+                                                SELECT id, title, text 
+                                                FROM dj_comp_hist_document;''')
+    db.commit()
 
 def add_one_document(csv_line):
     """
@@ -83,6 +94,16 @@ def add_one_document(csv_line):
                        file_name=csv_line['filename']
                        )
 
+    txt_path = get_file_path(box=int(csv_line['box']), folder=int(csv_line['folder_number']),
+                             foldername_short=csv_line['foldername_short'],
+                             doc_id=csv_line['doc_id'], path_type='absolute', file_type='txt')
+    try:
+        with open(txt_path, 'r', encoding='utf8') as f:
+            new_doc.text = f.read()
+    except FileNotFoundError:
+        print(f'skipped {txt_path}')
+        new_doc.text = ''
+
     # ---------------------DATE-----------------------------------------------
     if csv_line['date'] != '' and csv_line['date'][0] == '1':
         new_doc.date = csv_line['date']
@@ -90,15 +111,20 @@ def add_one_document(csv_line):
     # ------------------------------------------------------------------------
 
     # ---------------------Folder---------------------------------------------
-    folder_exist, new_folder = check_generate(Folder, "name", csv_line['foldername_short'])
-    if not folder_exist:
-        box_exist, new_box = check_generate(Box, "number", csv_line['box'])
-        new_box.save()
-        new_folder.box = new_box
-        new_folder.number = csv_line['folder_number']
-        new_folder.full = csv_line['foldername_full']
-        new_folder.file_name = csv_line['filename']
-    new_folder.save()
+    box_num = csv_line['box']
+    new_box, _unused_box_exist = Box.objects.get_or_create(number=box_num)
+
+    folder_name = csv_line['foldername_short']
+
+    new_folder, folder_exist = Folder.objects.get_or_create(
+        name=folder_name,
+        defaults={
+            'box': new_box,
+            'number': csv_line['folder_number'],
+            'full': csv_line['foldername_full'],
+        }
+    )
+
     new_doc.folder = new_folder
 
 
@@ -185,3 +211,36 @@ def page_image_to_doc(folder_name, pdf_path, image_directory):
             # This means that the page isn't associated with a document
             pass
     return
+
+
+def interpret_person_organization(field, item_organization, item_person, new_doc):
+    # Adds people and organizations as an author, recipient, or CC'ed.
+    field_split = field.split('; ')
+
+    for person_or_organization in field_split:
+        if len(person_or_organization.split(', ')) == 1:
+            new_org, _unused_org_created = Organization.objects.get_or_create(name=field_split[0])
+            bound_attr = getattr(new_doc, item_organization)
+            bound_attr.add(new_org)
+        else:
+            split_name = person_or_organization.split(', ')
+
+            if len(split_name) > 2:
+                print("There seem to be too many commas in this name ", split_name)
+
+            last_name = split_name[0]
+            first_name = split_name[1]
+
+            if last_name == 'unknown':
+                last_name = ''
+
+            if first_name == 'unknown':
+                first_name = ''
+
+            new_person, _unused_person_created = Person.objects.get_or_create(
+                last=last_name,
+                first=first_name,
+            )
+
+            bound_attr = getattr(new_doc, item_person)
+            bound_attr.add(new_person)

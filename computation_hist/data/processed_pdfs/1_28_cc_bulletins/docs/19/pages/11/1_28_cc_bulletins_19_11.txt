@@ -1,0 +1,137 @@
+CC-75-1
+2-13
+
+card, for example
+FIN MLOO-5-1
+
+and terminated by a FORTRAN card containing the phrase
+END OF FORTRAN DECK
+
+in its statement field,
+The translation phase will assemble the FTN deck and do the
+
+following:
+(1) Record the resulting FORTRAN1 relocatable binary deck in
+
+column binary form on the PUNCH OUTPUT TAPE,
+(2) Record the FORTRANl storage map on the PRINTER OUTPUT TAPE,
+
+(3) Translate the FORTRANl relocatable binary deck to an abso-
+
+ 
+
+ 
+
+ 
+
+lute binary deck and record it on the BINARY INPUT TAPE, This translation
+is identical to that which would be given by the standard FORTRAN1 reloca-
+table loader,
+
+The title contained on the FTN card may be used on appropriate
+direction cards during operation time to refer to the binary deck on the
+BINARY INPUT TAPE, However, no symbol table is associated with this deck,
+
+The user chooses the various options available in FORTRAN1 by
+placing suitable control cards immediately after the FTN title card and
+before any source program cards, Under normal conditions (i,e,, no control
+
+cards) the compiler does the following:
+
+(1) Punches on-line the resulting FORTRAN1 relocatable deck in
+row binary form,
+(2)
+
+(3) Performs a relatively fast compilation without index regis-
+ter optimization,
+
+Records the SAP listing on the PRINTER OUTPUT TAPE ,
+
+Exceptions to the normal case are obtained by inserting control
+= :
+ards having the following Phrases in their statement fields:
+
+(1) PUNCH SYMBOLIC DECK, i
+
+€., record the SAP symbolic deck on
+the PUNCH OUTPUT TAPE
+
+(2) NO syms
+OLIC DECK, 1.e., do not record a SAp symbolic deck.
+
+(3) NO ROW BINARY DECK,
+
+(4) sLow comp;
+tion wi . SATION, l.e., . perform a relatively slow compila-
+With index register optimizati
+
+1.€., do not punch on-line,
+
+on,
+
+If a compiler
+S
+
+Association of Post-Mortenm Request Decks with Pro
+
+grams
+=, Normally it is illegal for two decks assembled by the transla-
+tion phase to have the same title; however, the fact that a PMD deck and
+a program (SAP, BIN, or FTN) deck have the same title is of importance
+during the operation phase, When this occurs the twb decl;s are associated
+
+so that when one refers to the title during operation time; one refers to
+
+both the program and the post-mortem. The exact meaning of the associa-
+
+tion will be described in Chapter 3. At this point, however, we shall
+give the formal rules for association since it occurs at the end of trans-
+lation time, ‘
+(1) If a program deck and a post-mortem deck have exactly the
+same title, then the post-mortem deck is associated with the program deck,
+| The term, title, as used in this section refers to the trans-
+formed title described in section 2.1, Thus the post-mortem deck
+PMD M100-5-1%*01
+would be associated with the SAP deck
+SAP M100-5-1%1
+
+(2) If a program deck, or a set of consecutive program decks
+
+&
+having the same title except possibly for the last three characters ( dldz)
+
+is immediately followed by a post-mortem deck having a blank title, then
+
+ks in the
+the post-mortem deck is associated with all of the program dec
+
+i -mortems,
+Set except those which already have associated post
+
+Thus the sequence
+
+SAP M100-5-1
+
+PMD
+Moreover, if the SAP
+
+associates the post-mortem deck with the SAP deck.
+deck consists of several sub-decks
+
+SAP M100-5-1%*00
+
+SAP M100-5-1%01
+
+e 00 0 0 0 0 e 0 : ks
+h of the sub-decks.
+then the post-mortem deck is associated with eac
+s are always applied 1 :
+ck, SAP M100-5-1, consisting ©
+e )
+
+n the order stated
+
+The association rule
+
+d
+above, Thus, suppose we have a SAP

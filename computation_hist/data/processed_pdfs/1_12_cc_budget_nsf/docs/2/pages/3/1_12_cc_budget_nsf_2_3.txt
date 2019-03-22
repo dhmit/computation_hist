@@ -1,37 +1,37 @@
--3-
+-H-
 
 put out a combined progress report. In some published papers,
-credit could be given to one organization alone; in others, credit
+credit could be given to one organization alone; in others, credit%
 would go to both. Bookkeeping would be somewhat more complicated,
 but since most of the expense would be for salaries, little for
 permanent equipment, this could be done. It probably would be
-necessary to have the usual government overhead for both contracts.
+necessary tq have the usual government overhead for both contracts.
 
-The proposed budget asked of each agency for 1956—57 is
+The proposed budget asked of each agency for 1956-57 is
 given below. The corresponding amounts for the following two years
-would be Sh5,000 for 1957-58 and $50,000 for 1958-59, as indicated
-above.
+would be g45,000 for 1957-58 and $50,000 for 1958-59, as indicated
+above,
 
-Proposed Research; Possible Initial Directions 9: Investigation:
+Proposed Research; Posslible Initial Directions of Investigation:
 
 1. Investigation of Structure and Syntax of input
-languages; the possibilities of coding directly,in mathematical,
+languages; the possibillities of coding directly in mathematical,
 logical or business language.
 
 2. Development of routines capable of translating from
-algebraic notation to computer code and vice versa, including
-possibly automatic selection of numerical techniques and automatic
-error analysis. \
+algebrailc notation to computer code and vice versa, including
+possibly automatic selection of numerical technliques and automatic
+error analysis. :
 
-3. Development of numerical analytic techniques particu-
-larly suitable for use by digital computers: such as more general
+3. Development cf numerical analytic techniques particu-
+larly suitable for use by digital computers; such as more general
 expansions, truncated Chebyshev polynomials sums for simulating
 standard functions by a common block of instructions but small
 separate blocks of coefficients and cycle counters and methods of
-automatic determination of best grid spacing, by trial plus
-Richardson extrapolation or other means.
+automatic. determination of best grid spacing, by trial plus
+Richardson extrapolation or cother means. ;
 
-h. Investigation of Monte Carlo techniques for large
+I, Investigation of Monte Carlo techniques for large
 problems.
 
 5. Extension and/or improvement of present techniques

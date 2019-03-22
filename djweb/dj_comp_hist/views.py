@@ -2,7 +2,7 @@ from django.shortcuts import render, get_object_or_404, get_list_or_404
 from .models import Person, Document, Box, Folder, Organization, Page
 # from django.template import loader
 from django.db.models import Q
-from dj_comp_hist.common import get_file_path
+from .common import get_file_path
 
 
 
@@ -233,6 +233,16 @@ def advanced_search(request):
             doc_objs = doc_objs.filter(Q(title__icontains=title))
     except:
         print("Error getting document title")
+
+    try:
+        phrase = request.GET['contents']
+        if phrase != '':
+            raw_docs = Document.objects.raw(f'SELECT * from doc_fts WHERE text MATCH "{phrase}"')
+            doc_ids = [doc.id for doc in raw_docs]
+            doc_objs = doc_objs.filter(id__in=doc_ids)
+
+    except:
+        print("Error getting phrase")
 
     try:
         author = request.GET['author']

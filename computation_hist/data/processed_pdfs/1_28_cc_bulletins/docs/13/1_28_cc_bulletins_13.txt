@@ -1,0 +1,104 @@
+(
+
+ 
+
+Na
++
+1
+on WN
+wis
+ie
+®
+
+ML.
+
+ 
+
+o&
+
+
+14
+
+SAK Pirast use sets mode to octal
+CLA 100 Address taken as octal 3
+ADD /D/99 Address taken as decimal
+
+TXL 146,4,/D/8 Address octal, decrement decimal
+TXI /D/150,4,10 Address and decrement decimal
+
+TXI /D/180,4,/6/10 Address decimal, decrement octal
+TXI 180, ,/H/AB:C Address octal, AB in BCD, C is octal equivalence
+C EQU 10 ie decrement ~ 02132 |
+
+ 
+
+RDF (Redefine), The RDF pseudo-operation can be used to redefine symbols
+during compilation, When RDP is uged to define a symbol that is not previously
+defined, it has the same effect as EQU. Any symbol which is redefined by an
+
+RDF operation must be defined initially by an RDF operation,
+
+Examples of the use of RDF will be given in section 17,
+
+17. Examples using the IFPF Operation - Recursion
+
+ 
+
+Recursive procedures are mormally programmed by means of a "loop"
+using index registers to count amd to modify addresses, Macros cam be used
+to compile such a loop extensively into the program, BSince mo counting or
+address modification is necessary whem the loop is written out, time is saved
+at run time,
+
+Consider a macro CURSE (recursive) such that the macro call
+MAC CURSE,OP,N
+
+compiles the instruction sequence defined by a second mecro OP N times into
+the program, ;
+
+The above can be accomplished by defining MOP CURSE
+
+NOP CURSE, OP M |
+
+IFF M Assemble next instruction if and only if M0,
+
+MAC CURSE(OP)M=-1 This CURSE macro is initiated before the previous
+one is completed, The current status of the
+previous macro is stored away in a pushdown list,
+
+IFF M Skip MAC OP for M0.
+
+MAC OP NM MAC OP will be carried out successively for
+Hwl, 2, .osp N;
+
+END CURSE
+
+The status of successive macros CURSE with second arguments NyN-1,,..23,1
+is stored im the pushdown list as indicated in Appendix 2, When an argument of 0
+is reached, the uncompiled part of each of the above macres is expanded, This
+gives rise to the expansiom of MAC OP,1 followed by MAC OP,2 and terminated by
+MAC OP N,
+
+For instance, the call
+BAC CURSE,QOP,2
+
+would expand as follows:
+
+
+5
+: &
+- —_ a
+. ;
+w
+eet ~— L
+a a 3
+- Fees ¢ = -~ -
+" : . > . .
+- > ~~ x f A a Ee
+. . bs {
+i al AE ere I 6
+— ———————————————————————
+RST
+———————————————————————— — - —-
+
+

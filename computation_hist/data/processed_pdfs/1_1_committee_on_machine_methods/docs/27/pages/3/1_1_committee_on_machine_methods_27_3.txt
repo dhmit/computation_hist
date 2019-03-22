@@ -1,62 +1,31 @@
-Suggested catalog descrigtion £9; first Eggggg: Numerical Analzsis I:
+Suggested catalog description for first course: Numerical Analysis I:
 
 Theory and practice in polynomial approximation,
-interpolation, numerical differentiation, numerical integration,
-and approximate solution of ordizary differential equations,
-including error analysio, with particular emphasis on methods
-adaptable to digital computing machines. Prerequisite: M351
+interpolation, numericsl differertlation, numerical integration,
+and approximate solution of ordirary differential equations,
+Including error snalysis, with perticular emphasis on methods
+adaptable to digital computing mechines. Prevrequisite: M351
 
-Tentative descrigtiqn of posoib1e>secon6 course
+Tentative description of possible second course: Numerical Analysis II:
 
-_: Nugggigal Analysis I :
-
- 
-
- 
-
-Selecteo t "es relative to applications of finite-
-difference methods, * rolated methods, to partial differential
-equations, especiallJ to second—order equations of elliptic,
-parabolic, and hyperbolic type, with particular emphasis on
-
+selected topies relative to applications of finite-
+difference methods, and related rethods, to partial differential
+equations, especially to second-order equations of elliptie,
+parabolic, and hyperboliec type, with particular emphasis on
 problems of convergence, stability, and error estimation.
 Prerequisite: NA I, M39
 
- 
+Topics suitable for inclusinn in second gourse:
 
-f
+Inversion of matrices of high order (convergence of
+iterative methods of various types). Convergence of iterative
+difference methods applied %o elliptie differential equations;
+error estimates; use of sub- and superhermonic functions on a
+net; numerical methods applied teo conformal mapping and use of
+orthogonal functions. Stability and convergence of difference-
+equation approximations to linear and quasi-lineayr parabolic
+equations. Convergence problems and use of characteristics in
+connection with hyperbelic eqguations. "Rardom wall" problems
+"Monte . Cario® methods.
 
-Togics suitable for incluginnxin second oogree:
-
-(oomveygenae of
-co of iterative
-ntial equations;
-functions on a
-0 and use of
-’ ’ “erence—
-
-   
-   
-     
-   
- 
-
-error estimates; use .
-net; numerical methoﬂs
-orthogonal funo
-equation approxn
-equations. Conv
-connection with I e
-"Manta. Carlo“ m o
-
-    
-   
-  
-  
-
- 
-
-con
-i and gum
-18 and use 0
-{ationsn ”Rand L
+°

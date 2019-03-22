@@ -1,47 +1,45 @@
 COMMITTEE ON MACHINE METHODS OF COMPUTATION
 
-’ggigutes of the Third Meeting
-Academic Year '51-'52 ‘
+Minutes of the Third Meeting
+Academic Year 151152
 
 Persons Present: H. Feshbach, J. W. Forrester, C. Lin and
-P. M. Morse
+P. M, Morse
 
 Forrester reported that pressure on the Whirlwind
-was somewhat lessened now and that he hoped that the research
-assistants could be taken on by Adams in the near future. , It
-was agreed that this would be announced at the next seminar so
-that the assistants could make arrangements with Adams to start
+was somewhat lessenad now and that he hoped that the research
+agsistants could be taken on by Adams in ths near future, 1t
+wag ezreed that this would be announced at the next saminaxr so
+that the assistants could make arrangaents with Adams to start
 work at Whirlwind.
 
-Morse reported that a request for a proposal came
+Morse reported that a request for a proposal caue
 from the Air Research and Development Command for work on
 various differential and integral equations, including the
-Schroedinger equation, to investigate methods of solving these
-equations on various computing machines. Morse reported that,
-after consideration, it appeared not advisable to take on
+Sehroedinger equation, to investigate methods of solving these
+equations on various computing machines. lorse reported that,
+after consideration, it appeared not advisapble to take on
 another separate contract to do work that we were already doing
 in the main, and that he wrote to Sage to this effect, adding
-that we would be glad to talk with representatives of the
+that we would be glad to talk with representatives oif the
 Research and Development Command as to how they could join in
-with the Office of Naval-Research in a combined contract for
+with the Office of Naval -Research in a combined contract for
 this sort of work next year. This was, in general, approved by
-the Committee.
+the Commnittee,
 
 Morse reported that the first quarterly report was
-now in process of printing. He asked for suggestions for a
-distribution list. It was suggested and agreed that, for the
-next several meetings of the Cos’mittee, people from other de—
-partments be invited who might be interested in machine calcu—
-lation so that the Committee can get a clearer idea of the
-total demand on the Institute's machines in the near future.
-Morse asked that the Committee meubers send him suggestions as
-to who should be invited“ It was agreed that the next meeting
-of the Committee should be about the first Wednesday in
+now in process of printing. He aslked for sugiestions for a
+distribution list. It was sugzested and agreed that, for the
+next several meetings of the Cormittee, people from other de-
+partments be invited who might be interested in machine calcue
+lation so that the Cormittze can get a clearer idea of the
+total demand on the Institutet!s machines in the near future.
+Morse asked that the Cormittes menbers send him suggestions as
+to who should b2 invited. It was agreed that the next meeting
+of the Cormittee should be about the first VWednesday in
 December.
 
-Wit New
+P. M:Q&orse,
+Chalirman
 
-Morse ,
-Chairman
-
-11-1 -51
+1l-1/-51

@@ -1,0 +1,57 @@
+UNIVERSITY OF MICHIGAN
+ANN ARBOR
+COLLEGE OF LITERATURE, SCIENCE, AND THE ARTS
+
+DEPARTMENT OF
+ROMANCE LANGUAGES December 20, 1956
+
+Dr. Philip Morse
+
+Department of Physics
+
+Massachusetts Institute of Technology
+Cambridge, Massachusetts
+
+Dear Dr. Morse:
+
+I am writing to you at the suggestion of Dr. John W. Carr III,
+my colleague in the field of Engineering Mathematics. He 1s a
+consultant and technical adviser in a project, which is under
+my direction and which I shall explain briefly.
+
+About six months ago our Graduate School made me a small
+grant to prepare materials for a Concordance of the Works of
+Cervantes, the famous Spanish literary figure. In this project
+I plan to make use of an electronic computer in order to assemble
+and classify the data in a minimum of time. We have up to now
+made our plans for preparation of punch cards and considered
+the problems of programming.
+
+ 
+
+My purpose in writing to you is to ask whether there would
+be any possibility of using "free" time on the computer under
+your direction, either at night or on week-ends when the equip-
+ment 1s not being used. Our project has meagre funds which
+barely cover the punch card operation and the programming cost.
+Standard charges for computer use are, of course, far beyond
+our possibilities. The project offers an excellent opportunity
+for experiment in the application and use of electronic computing
+processes to linguistic and literary materials. As such it has
+the support of the Humanities Divisional Research Committee of
+our Graduste School, of the University Committee on the Linguistics
+
+Program, and of various departments of the College of Literature,
+Science and the Arts.
+
+I hope to hear from you at your convenience concerning
+your answer and reactions to my query.
+
+Sincerely,
+
+a
+
+Lawrence B. Kiddle
+Professor of Spanish
+
+

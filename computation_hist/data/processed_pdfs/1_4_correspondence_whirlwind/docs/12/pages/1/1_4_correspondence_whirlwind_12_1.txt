@@ -1,23 +1,20 @@
-/
+I. Summa of Independent erations
 
-I. Sum of Inde endent erations
-
-Assuming that Project Lincoln withdraws completely from the Berta
+Assuming that Project Lincoln withdraws completely from the Barta
 Building, the following represents a composite estimate of the cost to
-maintain a one shift (#0 hour/week) operation of WWI. At the present
-time, the ONE Group is being assigned an average of about no hours/week
+maintain a one shift (40 hour/week) operation of WWI. At the present
+
+time, the ONR Group is being assigned an average of about 40 hours/week
 on WWI.
 
-The following listing is in a form analogous to the D10 financial
-
+The following listing is in a form analogous to the DIC financial
 reports.
 
- 
-
-Salaries and Wages 129,900
-Travel 5,000
+Salaries and Wages 129,200
+Travel | 5,000
 Materials and Services 57,500
-Other Direct Charges(Stamps, Telephone, etc.) 1,200
+Other Direct Charges(Stamps, Telephone, etec.) 1,200
 Overhead (40% of Salaries) 51,960
-Overhead Reserve (5.167: of Salaries) 7,015
-Total 252,575
+Overhead Reserve (5.4% of Salaries) 7,015
+
+Total 252’575

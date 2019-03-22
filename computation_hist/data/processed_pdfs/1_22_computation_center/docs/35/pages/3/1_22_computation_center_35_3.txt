@@ -1,0 +1,60 @@
+CcC-29 Page 3
+
+(19) Mpy Y,.l.................Nomal mltiplication except that C(Y)
+wil)..be troated gs 18-35 being in 8, 1-17
+and zeroeg in 18-35 . : e
+
+(20) wpy Y,.2.................Norna1 multiplication except that C(Y)
+18-35 will be treated ag Zeroes,
+
+(21) MPR Y.'.l.................A'bove (20) foliowed by roumd .,
+
+(22) wpr Y.,2.........,.......Abovo (21) followed by round.
+
+(23) cAs Y,,l.................cmrea C{AC) S, 1-35 with C(Y) 18-35
+appearing as 8, 1-17 and 18-35 being zZeroces,
+
+(24) cas Y.,z,,...‘...........Conparbs C(Ac) 8, 1-35 with c(¥) 8, 1-35
+with 18-35 sppearing as zeroces. =
+
+(25) LDQ Y,,l.;...............laoads C() 8, 1-17 with C(Y) 18-35 and C(MQ)
+18~35 with zerosg,
+
+(26) LDQ Y,,2.,...............Loads C{dQ) 8, 1~17 with C(Y) 8, 1-17 and
+
+; C(R) 18-35 with zerces. |
+
+2. Effect of Half Word Logic on 704 Commands
+
+thirte_en 704 commands are changed by half® word logic. The
+thirtcen which aro affected are CLA, CLS, ADD, SyB, ADM, SBM, S0, DVP, DVH,
+HPY, MPR, CAS, 1LbQ. ' ‘
+
+ 
+
+In general half word arithmotie Bay be summarized by the following
+tabulation, according to the presence of bits in 16 or 17 of the imstruction:
+
+Item Bit 16 B4t 17
+a) (1) 0 704 operaticns as indicated in Manual exzcept for 8TO
+
+b) 1 0 Take S, 1-17 from Bomory into SR positions 8, 1-17,
+with SR positions 18-35 containing zerces and Proceed
+to execute instruction in usual way,
+8TO Take S, 1-17 of AC and put in 8, 1-17,
+
+e) O - 1 Take 8, 18-35 from Bemory inte SR positions 8, 1-17
+with SR positions 18-35 conteining zerces and proceed
+as above, ;
+
+ST0 Take 8, 18-38 of AC and put in 8, 18-35,
+éd) i i Hachine cbtains logical "OR" of 8 by combiaing positions
+
+1-17 and 18-35 from Remory into SR positions 8, 1-17.
+
+There has been scme confusicn concerning the use of item d--
+simunltanecus Presence of a ome in bits 16 and 17. The latest vord from Paugh-
+Ecepsie (7/23/57) is that this operation does indeed berform properly and
+provide the logical "OR" imstruction., It should be moted, however, that om
+the store instructiom (STO) the"OR"resuls 8ppears imn both the right and left
+hend portions of the accummlator,

@@ -1,107 +1,88 @@
-l-y Ur
+SCIENTIFIC & ENGINEERING APPLICATIONS PROBLENS
+
+(* - Staff Member, Project on Machine Methods of Computation)
+
+DGL-L5 | . | _Page 1 of 8 ) _pages
+
+ 
+
+i i ol e
 
  
 
  
 
- 
+e e W -MM}_ -
 
-C
-
- 
+|
 
  
 
- 
+WD i P TR
 
-SCIENTIFIC E: ENGIN EER 11‘ Au APPLL‘ 'A’l‘lOl'JS HtUéiibeb‘
-to
+I
 
-(‘ a Sizaff Hembe;,. Projec
+!
+; e
+Btarted - Completed [Pr
+1
 
-'Prcblem Title
-
-‘omprehensive System of Service Routines
-
-Optical Properties of Thin Metal Films
-
-Scattering of Electrons from Gases
-
- 
-
-ission Cross Section of.Absorbing Sphereg Spherical
-l and Hankel Functions
-
- 
-
-rdro Thermal Power System; Calculus of Variations
-
- 
-
-,al Structure: Fourier Series Summation
-
- 
-
-Fourier Transform; Evaluate
-
-  
-
-tuULPls
-
-A1: Interpretive Program
-
- 
-
-gluer Gxnsight GaLibrationE 8th 0rde ? D:v£ferentie3 ch
-M!’ 47 Evaluation
-Lion Problem
-
-,Fouruler Analysis==AuLocorre la
-
-Lawley“s Method of Factor Analysis; Characteristic Vectors
-
-{modified}
-
- 
-
- 
-
- 
-
- 
-
-nMachine Methods of‘ Computation}
-
-   
-  
-  
- 
-  
-   
-
-Priginator
-
-Staff DCL
-i AJMLoeb MIT Chem Dep’u
-
-JoLaUretsky HIT Physics
-
- 
- 
-
-i ,s 8 Mar
-i .LilSnlaL}.
 5
-
-Su Simpson
-ﬂIT Gaol“
+r—q,—--a—r-u . —————— T § o —— N —— .—“—..q o~
 
  
 
  
 
-’ Lab,
+ 
 
-To Pitcher
+ 
 
-_lnstrumentation Lebr
+ 
+
+100 Comprehen31V° System of Service Routines Staff DCL !1~2m53 10
+g X
+01 C Optical Properties of Thin Metal Fiims A.L,Loeb MIT Chem Dept %l=2=5? 521
+~ -~ | T o - i " it . F - . . Lo~
+i02 B. (Scattering of Electrons from Gases J.L.Uretsky MIT Physics El=2Q53 6-1h=53 {80
+a | § i
+iG5 D iTrdxbmlSS¢00 Cross Section of Absorbing Sphiere; Spherical J.G.Jdohnson | 1=2=33 3=26=53 393
+!Bes sel and Hanliel Functions MIT Meteorology Dept g
+| i
+3 s e -\—' » g -~ Z ’ L,
+104 D, iﬂydro Thermal Power System; Calculus of Variations P, Schweitzer MIT LE Dept |}1-2-53 6-27-53 |
+:
+2 { p - -~ - ; !] ™~
+105 €. (Crystal Structure: Fourier Series Summation is C.Abrshams = Lab. for | 1=2=53 1=23=53 172
+! Insulation Research :
+s :
+VN ) L -~ oo 8 ~ /
+106 C- gﬂl“ Seismic Project lbu Simpson } 1=2=53 63
+: MIT Geol.& Geophysics ! !
+| | | |
+107 C. 358) Antocorrelation and (b) Fourier Transform, Evaluate !DqTeRﬁﬂS Servo Lab, 53ﬂ2=53 87
+glhtegrﬂls ; §
+: | [
+108 C, !in Interpretive Program J.H.Laning, dJr, El='op) 157
+, E Instrumentation Lab. ! i
+; :
+g I
+- NS S ; T x - ' . s O . b Tr YooY b . 03 o0 < s,
+109 C. iylghter Gunsight Calibration, 8th Order Differential Eq. M.H . Hellman | 1-2=53 5=30=54 {57
+i | Instrumentation Lab. ; \
+3 * :
+110 G, {Mk, 47 Evaluation | T'. Pitcher | 1-2-53 2-16=53 {57
+: Instrumentation Lab. % ;
+’ s
+ey g !'ﬁ v y:) ™ ™ ! Y e L r - ; o 7 |
+111 C, iiOuvler Analysis==Autocorrelation Problem E.J.Frey [ EasDl S-S ION B2
+, Instrumentation Lab, ; g
+: | i
+il12 C. {Lawley®s Method of Factor Analysis; Characteristic Vectors F.M.Lord 1-2-53 1=24=54 %
+g‘ﬂOdlfled) | Ed. Testing Service d
+| Research Department ; 2
+4 i a
+g
+| 3 E ;
+f i ] ?
+3 s > i i

@@ -1,0 +1,56 @@
+TABLE OF CONTENTS
+Page
+Ioa = Thet MIT - Automatic OpPerator PrOBTAIN: .. . . ate s seras siessiae siaisioaie v k=i
+
+2; The Translation Phase
+
+€@ 9 0 0 0 0 0 0 0 8 0 B 9 OB L PP B PP LN e NP 2-1
+
+2.1 General DeScCription . .c..s.seessesnsscionsosssssiosesss 21
+2.2,1 The Direction Cards, RUN, TER S andRROTS Tt oles e sis s o sinias 2-2
+2.2,2 The Direction Cards, CLR, RIP, and RIU ...l...,........ 2-2
+2,2,3 The Direction Cards, SIR, DPR, SWD, RDY, and REM ...... 2-3
+2. 5,1 . SHARE. Symboliic DECKETRS S il st s nae oo enven 254
+2,3.2 Control of Listings, Binary Decks, and Symbol Tables .. 2-4
+2.3.3 A List of Changes to SAP
+
+® 9 0 0 9 9 T O 0 W SO0 0P 0NN e 2-6
+
+2.3.4 Error Detection 1m iSAPE ol s oo i s sisiaine s es s sio s s sioie  C70
+2.4 Columnm Binary Decksisttiic T e eesios ontats ks vioinvoisie s sisis siosres £-0
+2.5 The Direction Card, COT . 7 i cirvstotssnnsnnevessineess o=
+2.6 Post-Mortem Request DecKS ,...cceccevscoscsosssccsocssss -1l
+2.7 SAP Decks Containing TCD Cards ;. i ce.ies oo siaomaesses-o—Ld
+2.8 FORTRANE Symbol 1ic-DeCKE" o s oo i oo sieis s v sinin aia aloinlsiosorsis verne) Db
+220 Association of Post-Mortem Request Decks with Praograms 2-14
+2.30 Bogging During Translation Time .. ....ceeeesnsssasnas 2-15
+3 The -Operation iPRABE t s itvh s nisie siss o6 o0 soii sioses o oo stolalataisino oo v - Omk
+3.1 General DeScription ,....csesccsssnscsscssssssscnosens O°L
+3.2.1 The Direction:Card MCIREL 0l o o ciiicsosiosiss sseciotospision s S=0
+3.2.2 The Direction Card, RES =G lc . vucisdeseisscssssssoes e OO
+3.2,3 The Direction Card, RIP
+
+@ 5 8 9 0 % S P O 8 8 O e PP S 00N e e e O e 0 00 3-3
+
+3.2.4 'nle DireCtion Card, RIU © ® 0 9 % 8 5 OO WS B O PO P SO0 OO 0900 e 3-3
+
+ 
+
+3.2.5 The DirecttonCard, BGN Tl .oticsaneonesosinossssoease S
+3.2:6 "The Direction Card  TER { iis:saccssnanssiossecnsesanscees  Oxl
+%f 3.3 1 Post=—MortemSians ol ccussiesisinie sislo siofeie s ssimnisnsoielsesiafe —O=1
+» 332 Error BUODB . . s oo o viasis o oisinieolais s sisielsie sreloyeiatiioieistete =1
+3.3.3° The Direction Card, XPM 7. . cisieicisisisieaters otelsior sioioiois sis sisis =9
+3.3.4 The Diréction Card, DSI i ceeeenseoesoisisesiensssssses B=L0
+3.3.5 The Core Memory Dump Subroutine, MICMD1l ,.,......c.00..., 3-12
+3.10 Logging During Operation Time ,..c..cscessssscsonssess 3710
+4. The Processing PhaBe . o S i cvceecnnconisalssenisoro sisissiseessiecisions o 2=k
+4.1 General DeBCrip Ll on it e o oo oieisieriie/s ololeis s s e siololvinie et Hd =l
+4,2 DiTection (CRrAS iiicoiore st ioia o s steielols s v aislaroln o ois snis Sisyorefolste s 2=
+4,3 Lists of Symbol Tables
+
+© ® 0O % & O 9 0 9 O SO P PO 8 SO0 08 e o 4—2
+
+4.4 Post-Mortem Results
+
+© 0 0 % 0 0 D S O N ST S NP eSO e 4-2

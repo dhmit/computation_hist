@@ -1,0 +1,62 @@
+Tos John McCarthy Date: March 16, 1961
+From: Herbert Teager
+Subject: Comment on your suggestions of this date,
+
+Thanks for your comments and suggestlons. I honestly
+appreciate having them, particularly on paper so that I have a
+chance to study them carefully. 1 am extremely sorry that I have
+not acquainted everyone with the research that has been going on
+in my group, particularly since last November,
+
+With respect to the relocation register, at the end of last
+year George Kovarik came up with a scheme to avoid a high speed
+adder by using a relocation register of from 1-7 bits as a prefix
+for any effective address, add trapping if the "OR" combination
+yielded any ones, I believe that if I substituted "1" for "1-7",
+this would be the same scheme that you have independently arrived
+at, The hardware requirements are not great because, as you point
+out, the changes in either case are minor. However, it does
+require getting active ageess to the MAR, so it cannot be done
+without internal chonges, The memory protection scheme, by the
+wiy,. wade I worked out last fall, would work with only a passive
+reference to the MAR and did not require high speed elirecultry elther,
+
+The major objection that I had to Kovarik's scheme was the
+following:
+
+_ If n bits were used for a prefix (in the 7090), then
+Memory could only be broken up into 20 segments of size 215-n
+with essentially only 2%"-1 fixed boundaries. This then leads to
+the following difficulties: Consider a program of from 21% = 215
+words in length (slightly over 1/2 memory) if it coexists with
+anything: (even a2 monitor routine), there is no way to proteet the
+smaller froguents. This is an argument that holds 1f there is any
+program whieh regulres 1/2 memory while being time shared. The
+loss of memory argument (although diminished by 2-9) holds for a
+general program requiring from 20 = 21 words because I have to
+preserve it 201 spaces, and cannot safely put anything in the erack
+which ean be from 0 = 29,
+
+
+= 383 break memory into smaller pieces, I have an added. probs
+lem of resetting the boundary register each time I cross over,
+This can be done of gourse by programming when the trap ocours,
+but I am not happy with the fixed boundaries, and the fact that
+the mode changing would consume much time (an examination must be
+‘made to find out if the trap was in a sense legal) and might con=
+ceivably oceur very frequently in a large problem,
+
+This, by the way seems to be the solution that IBM was
+pursuing up to the time that I spoke to them about my solution as
+of & week ago Friday. If we can't get IBM to do better, we way
+have to accept this, bt I think ‘they are in part receptive.
+
+Thanks again for the suggestions. 1 really do want us to
+get back to the point where we can communicate. There is a great
+deal that we ean all contribute if we take each other at face value.
+pal "
+Carbon copies: FP. M. Morse
+| F. J. Corbato
+M, L. Minsky
+
+

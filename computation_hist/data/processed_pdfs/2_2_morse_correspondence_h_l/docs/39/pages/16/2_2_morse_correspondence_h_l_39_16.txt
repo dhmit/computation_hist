@@ -1,0 +1,344 @@
+—
+
+(a)
+
+TEMPERATURE —
+
+Fig. 9. Temperature gradients across slab without radiant transfer (a)
+and with radiant transfer (b), (c).
+
+ary for the integral in equation (4a) to be written from 0 to
+o instead of the limits given. The assumption also implies
+that the other three equations are essentially zero. Integrat-
+ing this,
+
+— T\9
+qr = 40Tx3(———T| = Tt); (5)
+
+Since the total heat flow (g¢) is given by the sum of the radiant
+and conductive heat flow, the following equation can be writ-
+
+ 
+
+ten:
+gv = ge + G ‘
+g = k,ﬁg -t 4«1‘:3(5—;—2")2 (6)
+or solving for the true conductivity
+g — 40T;? (T; __G_Z'-’> ‘5
+L e e (7)
+
+Since ¢; is measured experimentally and the apparent con-
+ductivity calculated from the expression k., = g/ AT, it is
+seen that the true conductivity is less than the apparent con-
+ductivity by some amount which can be calculated if the
+quantities in equation (7) are known.
+
+Figure 9 shows the gradient (a) which would occur across
+the slab if all the heat passed by conduction and the smaller
+gradient (b) which actually occurs since some of the energy 1s
+passing by radiation transfer. If xis assumed to be equal to
+0 or a, the amount of radiant energy at the boundaries will be
+obtained. In this case, all except equations (4b) or (4c¢)
+(which are mathematically equivalent) are equal to 0 (or
+essentially so). Then for the radiation across the boundary
+
+q, = 40T1n3[:(’1~i — ’I‘l‘) + (I_L—__—I—Q) l] (8)
+a @
+
+Depending on the relative sizes of the first and second items in
+the brackets, the value of ¢, at the boundary may be less than,
+equal to, or greater than that in the center of the slab. It is
+difficult to estimate the effect of the boundaries, but experi-
+mental work with pieces of different thicknesses might give
+some indication since the effect would be more pronounced in
+thinner pieces.
+
+One type of gradient that could be caused by the boundary
+effectsis shown by (¢), Fig.9. (For a more precise and exhaus-
+
+94 Journal of The American Ceramic Society—McQuarrie
+
+Vol. 37, No. 2
+
+tive treatment of the passage of radiant heat through trans-
+lucent materials the reader is referred to Kellett’s discussion
+of the passage of radiant energy tl.lrough glass..2 When the
+same simplifying assumptions used in the foregoing derivation
+are applied to Kellett's equations, they reduce to the results
+presented here.) ) .
+
+Although it is not possible to apply the equations derived
+above to such a complicated shape as the prolate spheroids
+used in this investigatian, it is possible to calculate the magni-
+tude of the radiant-heat flow for the case of a simple slab of
+the same thickness as the author’s samples and at the same
+temperature, and to see if this is an appreciable portion of the
+whole heat flow. From the value of apparent conductivity of
+magnesia at 2000 °K. (0.019 c.g.s. units) it is determined that
+the total heat flow through a slab with this mean temperature
+and a gradient of 100°K. per cm. is 1.9 cal. per sec. per cm. 2
+Taking a value of about 16 cm.™ for the absorption coefficient
+of magnesia, it is found from equation (5) that g, is about 0.6
+cal. per sec. per cm.? Thus it is evident that the radiation
+heat flow is a considerable portion of the total heat flow.
+
+Another way of looking at the question is to calculate the
+true conductivity from equation (7) and compare it with the
+apparent conductivity. The apparent conductivity has been
+found to be 0.019 c.g.s. units and the true conductivity from
+equation (5) is 0.013 c.g.s. units. Thus the radiation through
+the specimen is seen to increase the apparent conductivity
+over the true conductivity by nearly 509%. It should be em-
+phasized again that these figures are not directly applicable to
+the present results but are given merely to indicate the sig-
+nificant order of magnitude of the radiation effect.
+
+From the foregoing discussion one might conclude that the
+radiation effect (represented by the second term of the empiri-
+cal expression for thermal conductivity) should increase as
+the third or fourth power of the temperature (depending on
+the temperature gradient) whereas the experimental results
+appear to indicate that it increases as about the tenth power
+of the temperature. A much more careful study of the radia-
+tion effect is needed, however, before any very accurate quan-
+titative expression can be obtained for it. Secondly, the der-
+ivation above assumes that the absorption coefficient of the
+material is a constant, and this is not true in practice. Itis
+known that as the wave length of the radiant energy decreases
+with increasing temperature, the effective or average absorp-
+tion coefficient decreases. TFurthermore, it is not certain that
+the absorption is the same at all temperatures.
+
+V. Conclusions
+(1) The conductivity of alumina, magnesia, and beryllia
+has the same general temperature dependence—a decrease
+with increasing temperature until a minimum is reached at
+about 1500°C., after which there is a sharp increase.
+(2) The conductivities of the materials can be represented
+by an empirical equation
+
+k= A/NT — 125) + 85 X 10T
+
+where the constant A has the value 16.2 for alumina, 18.8 for
+magnesia, and 55.4 for beryllia. The equation is valid for
+alumina and magnesia from room temperature to 1800°C. and
+for beryllia from 1000° to 1800°C.
+
+. (3) The minimum of conductivity found in this investiga-
+tion, and not predicted by any theory, is believed to be due to
+an increase in apparent conductivity at the highest tempera-
+tures caused by the passage of radiant energy through the
+translucent specimens. -
+
+2 B. S.‘Kcllett, “Steady Flow of Heat Through Hot Glass,””
+J. Opt. Soc. Amer., 42 (5] 339-43 (1952); Ceram. Abstr., 1953,
+March, p. 414, |
+
+ 
+
+February 1954 (Part 11)
+
+APPENDIX
+
+Debye? p.ublishec.l th.e first theory of conductivity in 1914
+His theory is quantitatively expressed by the formula :
+
+o oL R AR a0
+1673 3a® 4+ 1 xp* kT (9)
+
+density of material.
+
+Z _ propagation veloeity _of thermal waves.
+
+. = specific heat (_)f material.
+
+¥ = compressibility of material.
+
+, = frequency of heat waves.
+
+k, = Boltzmann constant.
+
+T = absolute temperature.
+
+a = 2P0 (subscript ¢ indicates values at temperature ¢).
+
+Xopt
+
+It can be seen that at high temperatures (above the Debye
+temperature, where the heat capacity is approximately con-
+stant) the conductivity varies inversely as the temperature,
+but near the absolute zero it should increase as the square of
+the temperature, if it is assumed that the heat capacity varies
+as the cube of the temperature in that region. Thus, the
+conductivity will go through a maximum value al some tem-
+perature and it can be shown that this occurs when the tem-
+perature is 0.28 times the Debyve temperature for the ma-
+terial. The main drawback to this theory is the evaluation
+of the constants involved—arbitrary and sweeping assump-
+tions being necessary to do this. The variation of conduc-
+tivity and resistivity with temperature according to this
+theory is pictured in Fig. 4 (a), Part I, this series, p. 71.
+The dotted lines indicate the variation of a 1/T relationship
+for conductivity and the corresponding form for the resistivity
+curve.
+
+Next, Compton* published a theory which is diagrammed
+in Fig. 4 (b). A quantitative expression of the theory is
+
+ 
+
+_A»
+9 cTe 22
+
+ki=bntdRy————r 10
+
+. 7 (10)
+
+dmyma . .
+b= " (m and my are masses of different atoms -
+(my + ma)
+volved).
+
+n? = number of atoms per unit area perpendicular to heat flow.
+d = distance between atoms parallel to heat flow.
+
+R = gas constant for a single molecule.
+
+v = frequency of oscillation of atoms.
+
+¢ = constant to be determined from conductivity at given tem-
+perature.
+
+= absolute temperature.
+
+8 = universal constant.
+
+—
+=
+-
+-
+—_
+—_—
+—_—
+—_
+
+This gives a value of conductivity which is infinite at zero
+degrees absolute. It would also seem that at some tempera-
+ture (perhaps a very high one) the conductivity would become
+zero and at still higher temperatures have a negative value.
+
+Endd’s theory® is shown in Fig. 4 (¢) and is the first theory
+to make use of quantum mechanics. Its quantitative ex-
+pression is
+
+hv
+(4' W‘
+3nkorvNa hv \* kol (11)
+b = o e N e e L
+5 kol 3 hv 1) /2
+" kT
+": = factor dependent on type of space lattice.
+l'o = Boltzmann constant.
+' = frequency of natural oscillation.
+; = number of atoms per unit area.
+. = Interatomic distance.
+T~ Planck constant.
+hv- absolute temperature.
+
+k, = Debye temperature.
+
+This indicates a definite maximum of conductivity ata tem-
+berature which can be shown to be equal to .27 times thQ
+
+¢bye temperature. The conductivity falls off to zero at
+Zero degrees absolute. At higher temperatures the conduc-
+Wity varies as the square root of the reciprocal of tempera-
+
+Thermal Conductivity, VII
+
+95
+ttllre. This is the only theory which is capable of giving an
+absolute value of conductivity independently of any known
+value of conductivity.
+
+E.’ei.er.ls.'3 d.eveloped the following expression for the thermal
+resistivity (illustrated in Fig. 4 (d)):
+
+r = AT + ATBe—0/2T (12)
+
+I' = absolute temperature.
+f = Debye temperature.
+4 and B = constants.
+
+Asis rea.di.l_v apparent, this theory predicts an infinite value of
+conductivity at the absolute zero.
+
+Papal.)etn}’ advanced another theory of conductivity
+(shown in Fig. 4 (e)) embodied in the following equation:
+
+ 
+
+Io Uo‘w c U ,
+b= 3v (U i 3RT’) (13)
+v = volume of a gram atom.
+¢ = specific heat of a gram atom.
+w = average propagation velocity of heat waves.
+R = gas constant.
+U = 3LE, where L = Loschmidt number; E = average energy
+
+of one wave.
+I = mean free path of heat wave = U,/ U.
+lo = value of [ at zero absolute.
+Us = value of U at zero absolute.
+
+At high temperatures where the approximation U = 2RT =
+CT can be made, the theory predicts an inverse relationship
+between temperature and conductivity, and at low tempera-
+tures where the first term in the parentheses can be considered
+zero, the theory predicts that conductivity varies as the re-
+ciprocal of the temperature squared. Although the theory
+predicts the unlikely result of infinite conductivity at the ab-
+solute zero, the 1/7? relationship predicted at low tempera-
+ture has been found experimentally.
+
+Makinson s in developing a theory for the thermal conduc-
+tivity of metals, formulated an expression for the conductivity
+of the lattice structure alone (no conducting electrons) which
+should apply to electrical insulators. Since his mathematical
+expression of his theory is cumbersome and unsuited to cal-
+culation, it is not given here. His conclusions are pictured in
+Fig. 4 (f), which show that at the higher temperatures the
+conductivity falls with temperature, as in other theories, but
+that, as in the theories of Debye and Endo, it goes through a
+maximum and falls to zero at zero degrees absolute. This de-
+crease at the low temperatures he attributes to the interference
+of the boundaries of the test material with the heat waves,
+which are fairly long at low temperatures. This is confirmed
+experimentally by De Haas and Biermasz.? who found that the
+thermal conductivity varied with the size of the specimen at
+the lowest temperatures.
+
+ 
+
+s p. Debye, Vortrage tiber die kinetische Theorie der Materie
+und Elektx?;zitiit, p. 46; Gottinger Wolfskehlvortrage. B. G.
+. Leipzig and Berlin, 1914. i
+Te‘u Rl.lelg. Coxll)lp%on, “Physical Study of Thermal Conductivity of
+:4s.”” Phys. Rev., 7, 341 (1916). o
+SogldYs' Encli)(:), “Quan’tum Theory of Thermal Conducgnjxty of
+Nomx;etallic Crystals,” Science Repts., Tohoku Imp. Univ., 11,
+183 (1922). . TR e
+(a) R. Peierls, “Zur kinetischen Theories der Wiarmeleitung
+in Kristallen” (Kinetic Theory of Heat Conduction In Crys-
+tals), Ann. Physik, [5] 3, 1055-1101 (1929). . Lo,
+‘b; R. Peierls, “7wei Bemerkungen sur Theorie d_cr Lcltfahlg:
+keit”” (Theory of Conductivity), Ann. Physik, [5] 5, 244-46
+e “Wa i in Kristallen’ (Heat Con-
+7 Ach. Papapetru, W argnelgxtung in Kristallen' (tfe
+ducggt: in Cprystals), Physik. Z., 35 [13] 527-28 (1934); Ceram.
+Abstr., 14 (1] 22 (1935). -4 L
+8 E. B. Makinson, ;hei?lalQTC(olx})(:lguSc)twnty o etals,
+: doe Phil. Soc., 1-97 (1938). e
+Pr;) c\'\rC‘}"lgzulingetas and Th. Biermasz, “Thermal Cpnductwnty_of
+Quqrti a.t Low Temperatures," Physica, 2 (2] 673-82 (1935);
+Ceram. Abstr., 15 [1] 44 (1936).

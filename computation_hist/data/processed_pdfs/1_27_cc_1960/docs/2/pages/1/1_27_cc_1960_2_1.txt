@@ -1,50 +1,50 @@
-COWATION CENTER
+COMPUTATION CENTER
 Massachusetts Institute of Technology
 Cambridge 39, Massachusetts
 
-Date: February 109 1960
+Date: February 10, 1960
 
 Memorandum to: Dr. C. R. DeCarlo, Assistant General Manager,
 Data Systems Division, IBM Corporation
 
-From: Philip Mo Morse, Director, MIT Computation Center
-Subject: Replacement of 70# by a 7090
+From: Philip M. Morse, Director, MIT Computation Center
+Sub ject: Replacement of TO4 by a 7090
 
-Back ound: In June, 1957, somewhat less than three years
-ago, an‘3§ﬁ§$5E"ies installed at the Computation Center by IBMs
+Background: In June, 1957, somewhat less than three years
+ago, ad‘fﬁﬁggﬁﬁgﬁhs installed at the Computation Center by IBM,
 under a special agreement whereby IBM maintains the equipment,
 contributes toward amortizing the additions to the Compton Laboratory
 which house the Center and supports a number of research assistants
 and associates who assist users of the machine, and MIT provides
-the staff and operates the Center for the use of MIT and other
+the starf and operates the Center for the use of MIT and other
 cooperating New England colleges and universities. The primary
 purpose of the arrangement is to enable students and faculty of
-these institutions to learn how to use highaspeed computing machines
-effectivelyg so that the next generation of scientists, engineers
-and industrial executives will be able to exploit machine capabilities ==
-in other wordsg the primary purpose is to demonstrate that such
+these institutions to learn how to use high-speed cowputing machines
+effectively, so that the next generation of scientists, engineers
+and industrial executives will be able to exploit machine capabilities --
+in other words, the primary purpose is to demonstrate that such
 machines are as important a part of the educational equipment of a
-modern college as are chemistry laboratories” for example. A
-secondary purpose is to foster research in the use of computing machinesy
+modern college as are chemistry laboratories, for example. A
+secondary purpose is to foster research in the use of computing machines,
 particularly in those fields of application which have not yet been
-explored or exploited fully”
+explored or explolted fully.
 
-To this end? priority on 704 time has been accorded to
-regular class use by courses in machine programming and applications»
+To this end, priority on TO4 time has been accorded to
+regular class use by courses in machine programming and applications,
 to students using the machine in their thesis research and to
-research projects investigating new techniques of machine use“
-Particular attention has been given to making it easy for the cute
-oratown users: mail services special scheduling during visits and
-Saturday operation for those who cannot come to Cambridge during
-week daysu
+research projects investigating new techniques of machine use.
+Particular attention has been given to making it easy for the out-
+of-town users: mall service, special scheduling during visits and
+sSaturday operation for those who cannot come to Cambridge during
+week days.
 
 Present Situation: This program has been outstandingly
 
-successful: hence the present memorandum° Class use of the 704
+successiuls hence e present memorandum. Class use of the TOL
 
-has grown rapidly; at MIT there is now a freshman course in machine
-usea four upperaclass and a number of graduate courses which use
-time on the machinep in addition to the sequence of special coding
-courses which are given by the Center staff during each term and
-summero A number of other colleges bring some of their classes in
-for one or more laboratory sessions. Class use will expand furtherg
+has grown rapidly; at MIT there i8 now & freshwan course in machine
+use, four upper-class and a number of graduate courses which use
+time on the wachine, in addition to the sequence of special coding
+courses which are gilven by the Center staff during each term and
+summer. A number of other colleges bring some of their classes in
+for one or more laboratory sessions. Class use will expand further,

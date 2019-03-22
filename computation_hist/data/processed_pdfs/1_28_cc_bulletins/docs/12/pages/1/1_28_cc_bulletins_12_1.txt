@@ -1,0 +1,35 @@
+o/
+
+ 
+
+cco14sf Page 1L of 23
+‘ , COMPUTATION CENTER
+} © Hassachusetts Institute of Technology
+Cambridge 39, Massachusetts
+
+To: All Programmors
+From: Peter Wegner
+Dates February 15, 1960
+
+Subject: Mi SAP2 Macro Facilities®
+
+PREFACE
+
+: This memo describes the macro imstruction facilities that will
+become available as part of standard MET SAP language, The body of the
+memo is taken from a report by D.E, Eastwood and M_D, Helllroy of Bell
+Telephone Laboratories (BE), describing the BE Macro SAP facilitfes.
+
+Certain modifications made to BE SAP are 2lgo described, The section in the
+BE report describing input and output of compressed macros (macro skeletons)
+has been deleted, since these facilities will not initially be available in
+Hi SAP, Sections giving examples of the use of macros for recursion and
+symbol manipulation have been added. The section on. gymbol manipulation
+
+has been taken from the memo "Cutline of Use of BAP Macro Imstructions for
+Henipulating Symbolic Expressions", by M.D, Mellroy, The examples in
+s8ection 18 are due to Steve Russell of the MIT Artificial Intelligence Group,
+
+WW“MNW“—ﬂ“T‘“'W’
+“ Based on the report, Macro Compiler Mcodification of SAP" by D.E., Eagtwood
+and M, D, Mcllroy of Bell Telephons Laboratories

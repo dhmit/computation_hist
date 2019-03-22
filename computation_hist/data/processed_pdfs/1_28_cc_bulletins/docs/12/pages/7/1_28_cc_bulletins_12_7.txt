@@ -1,0 +1,66 @@
+g
+
+CC~148 7
+
+The fact that the conditional essembly governed by IFF applies to
+only one following line of symbolic ceding is not a serious restriction, since
+that line may be a call for a macro standing for a sequence of any desired length,
+
+The Pscudo-operation EIC
+
+Thig pseudo-operation has the effect of extending the variable field
+of a HOP or MAC card, The string of cheracters on 2 card must be terminated
+by $b, (where b derotes a blank) or by a $ sign in columm 72, to signal the
+compiler that an ETC card follows, The compiler treats the variable field of
+the ete card exactly as if it were an extension appended to the variable field
+of the previous card in place of the terminating $. No break character is
+
+assumed in the position of the $ sign: thus
+
+MAC A, ,BCD
+or
+MAC A, ,B$
+ETC CD
+or
+MAC A,$
+ETC ,BCD
+
+are equivalent; in esch example, the first argument is empty and the second
+argument ig the symbol BCD,
+
+If a generated variable field of amy instruction compiled by 8 HAC
+call runs over column 72, an ETC card is sutomatically constructed, In
+counting the range of IRP or IFF instructions ETC cards are not included - they
+are regarded as part of the instruction to which they are attached, BETC cards
+can meaningfully follow MOP, MAC, and ETC, Trouble awaits the programmer who
+uses them elsevhere,
+
+If generated ETC cards appear following any cards other than MOP ,
+HAC, or ETC, then the lemgth of one or more substituted argument is too great
+and will have to be reduced to get a valid assembly, After an IFF, genorated
+ETC cards will not cause errors provided the three arguments required by
+IFF fall entirely on the IFF card, This situation might arise if, ir order to
+alter the original definition of a macro, two or three arguments were substi-
+tuted into an IFF in the place of a single dummy argument: vis,,
+
+MOP SAMPLE P Demonstrates
+
+IFF P, ABLE, BAKER Substitution in IPF
+MAC ANY |
+
+END SAMPLE
+
+MAC SAMPLE (EXPR, BCD1, BCD2)
+
+in the above MAC call;, a long expression appeariang in the place of EXPR might
+conceivably cause part of the original second and third arguments (now in the
+fourth and £ifth positions amd hence ignored) to f£zll bheyond column 72 and
+thus to gemerate an ETC card following the IFF card.
+
+Created Sz@pols
+
+If arguments are missing from the end of the argument list of a MAC
+call, symbols will be created to £ill the vacancles, Symbols ,,001, 0002, ete,,
+have been preempted for this purpose, A typical example of their use is in
+the SKIP macro encountered before, where the symbol used for the dummy parameter
+X need not concern the progremmer, The call

@@ -1,464 +1,445 @@
-« ,xﬂnx ‘ : I . i1 ‘ AnA;Jzu:[PUGELFHHHHWUMNAV4‘ ‘iﬁihnadn.auuibhunﬁﬁﬁa \ fr.,F:11i 713‘; , ‘aiﬂﬁmﬂﬂ #541,? SD
+SLL SE a en SR pie ESS SS SS SNE SSE ESE Si i SE EE a aaa FETED Hey A
 
- 
-
- 
-
- 
-
- 
-
-HARVEY COHN
-Reprinted from DUKE MATHEMATICAL JOURNAL
-Vol 14, No 2, June, 1947
-
-
-THE RIEMANN FUNCTION FOR aZu/axay + H(J; + y)u — 0
-
-BY HAnvnv COHN
-
-  
-     
+RS a aR AEE SAE EL SS ESB. SE ESA BESO EXE SESS EES
 
    
 
-1. Introduction. Some interesting hyperbolic diﬁerc
+Harvey CoEN
+Reprinted from DUKE MATHEMATICAL JOURNAL
+Vol. 14, No. 2, June, 1947
+
+ 
+
+— R
+a A A I
+
+= a AS
+.
+
+
+THE RIEMANN FUNCTION FOR *u/dxdy + H(z + y)u = 0
+
+By Harvey Conn
+
+1. Introduction. Some interesting hyperbolic differential equations can be
 represented in the form
 
-(1) [flu/01‘ 6y + H(:c + y)u = 0.
+(1) 9°u/dx dy + H(x + yu = 0.
 
-An instance of (l) as the wave equation in space was ﬁrst considered by Euler
-[5; 480—81]. Instances of this equation in the ﬁeld of diﬂ'erential geometry
-(Laplace) are given in Darboux [3; 52], and instances in the ﬁeld of compressible
-hydrodynamics were considered by Riemann [0; 173] for linear ﬂows and by A.
-Steichen (see Ackarct [1; 317]) for plane ﬂows.
+An instance of (1) as the wave equation in space was first considered by Euler
+[5; 480-81]. Instances of this equation in the field of differential geometry
+(Laplace) are given in Darboux [3; 52], and instances in the field of compressible
+hydrodynamics were considered by Riemann [6; 173] for linear flows and by A.
+Steichen (see Ackaret [1; 317]) for plane flows.
 
 We shall concern ourselves entirely with the evaluation of the Riemann
 function of (1), by means of which Riemann showed how to solve (1) for given
 boundary conditions. The Riemann function, despite its crucial importance,
-
-ntial equations can be
-
- 
-     
-  
-   
-   
- 
- 
- 
-   
-  
-   
-   
-   
-  
- 
- 
- 
- 
- 
- 
- 
-   
-  
-  
-  
- 
-
-seems to have been found in closed form only in the special cases Htr) = ——A
-and H(r) = —>\(X + 1)”), A constant. Moreover these cases are just those
-
-  
-
-solved by Riemann, who, in turn, l . even been anticipated to some extent by
-
-Euler [4]! Undoubtedly, the l’icard iteration process and its existence proof
-
-{or the Riemann function in general, drew attention away from the evaluation
-
-of this function. Nevertheless, the fact that the Riemann function has been ‘
-evaluated only for these two simple e es restricts the number of physical
-
-situations to which equation (1) can co pond and still remain simple enough
-
+seems to have been found in closed form only in the special cases H(r) = —\
+and H(r) = —X(XA + 1)/r°, X\ constant. Moreover these cases are just those
+solved by Riemann, who, in turn, has even been anticipated to some extent by
+Euler [4]! Undoubtedly, the Picard iteration process and its existence proof
+for the Riemann function in general, drew attention away from the evaluation
+of this function. Nevertheless, the fact that the Riemann function has been
+evaluated only for these two simple cases restricts the number of physical
+situations to which equation (1) can correspond and still remain simple enough
 to permit solution in closed form by use of a Riemann function.
 
-It will therefore be our purpose, to consider the possibility of finding the
-Riemann function for a greater variety of functions Htr). The methods will
-be twofold First of all we shall use a specialized artifice to obtain the
-Riemann function in closed form for a few types of Htr), namely [{(r) =
-—>\(>\ + 1),,i2/sinh” n(r + v) (A, n, y constant), and some of its limiting cases,
-11(7) = A exp nr, —~)\()\ + 1),)“, and —>\. Then we shall consider a certain
-Fourier integral expression for the Riemann function of (I) with arbitrary HO).
-This latter expr on is due to Riemann. who derived it in a heuristic manner:
-We shall also indicate a rigorous proof of Riennmn's expr sion, since this long-
+It will therefore be our purpose to consider the possibility of finding the
+Riemann function for a greater variety of functions H(r). The methods will
+be twofold. First of all we shall use a specialized artifice to obtain the
+Riemann function in closed form for a few types of H(r), namely H(r) =
+—AA + Du"/sinh® u(r + ») (A, g, » constant), and some of its limiting cases,
+H(r) = —X exp ur, —A(A + 1)/7°, and —X. Then we shall consider a certain
+Fourier integral expression for the Riemann function of (1) with arbitrary H(r).
+This latter expression is due to Riemann, who derived it in a heuristic manner.
+We shall also indicate a rigorous proof of Riemann’s expression, since this long-
 neglected expression is of potential importance with the further development of
 analysis.
 
-   
-
- 
-
- 
-
 2. Some properties of the Riemann function. For later reference we shall
 summarize some existence and uniqueness theorems as obtained through the
-Picard iteration ])|'(H'('\‘>‘ (seir (‘ournnt—llilberl [2; 3177322]; For equation (1),
+Picard iteration process (see Courant-Hilbert [2; 317-322]). For equation (1),
 
-   
- 
-
-Received August 26, HHIL ninl. in l'(’\‘l~!'(l liu'uL Dom-mlu-r 15, llltti. linsed on re
-work performed in 19415 “Inlu- ilne :IIIiitrn‘ was \\'lill the .\ppl|ml Mmhennuir's Group at i
+Received August 26, 1946, and, in revised form, December 15, 1946. Based on research
+work performed in 1943 while the author was with the Applied Mathematics Group at New
 York University.
 
 297
 
-
-HARVEY COHN
-298
-
-the Riemann function is a function or four variables, 13(1) y; xiv 1/), defined bv
-the system
-(a) 3113/61 6y = 'Iitl‘ + M
-
-(2) (b) R = 1 when .T =_ 1" ory = y’,
-
-We shall assume for convenience that H(r) is regular and real for 1- Yeah and
-that x and y are real in all cases under consideration.
-
-To prove the existence of R by iteration, we rewrite the system (2) as the
-
-single equation
-(3) ROE, y; I” 1/) = 1 — ff“ >RCL‘; ,y: §Tiy1/,)H(-T. + yr) (Ix, (1y,
-(Ivy '
-
-where B(x, y) is the rectangle formed by the horizontal and vertical lines through
-' (x, y) and (z’, 3/). By continual substitution of the right member into itself,
-we obtain the formal iterated series
+ 
 
  
 
-R(:c, yw’, y’) = 1 - ff H(x. + you. fly.
+Er ——— TE ————
 
-~Iit1.m
+Er TN ES Ry
 
- 
+err a iii,
 
-(4) t + [fan-w HOS! + 1/1) (11'. dill
+I
+|
+i
+|
 
-~ f [ H(.1‘2 + 1/2) in (lg/.3 — .
 
-~1Hn,u.»
+298 HARVEY COHN
 
- 
+the Riemann function 1s a function of four variables, R(x, y; ’, ), defineq ;
+
+the system y
+a) 9°R/ox doy = —H@ + yk
+
+(2)
+
+(b) BR=1 when
+
+T= ory=1y,
+
+We shall assume for convenience that H(r) is regular and real for r reg] 4 d
+that = and y are real in all cases under consideration. Eo
+To prove the existence of R by iteration, we rewrite the system (2) as th
+
+. C
+single equation :
+
+@ Rew y)=1-[] Re uie, v)HE +p) de dy,
+
+where B(z, ) is the rectangle formed by the horizontal and vertical lines throug}
+‘(z, y) and (2', ¥'). By continual substitution of the right member into a
+we obtain the formal iterated series Sully
+
+Rlz,y;2,y) = 1— I
+
+vB(xr,uy)
+
+H(z, + vy) dx, dy,
+4 ° = Il H(z, + uy) dx, dy,
+
+: i H(z, + uy.) de, dy, — «+.
 
 This series is seen to be convergent and to represent a solution to (3). Equation
-
 (3), or system (2), also has a unique solution, or otherwise expressed, any solution
-
-to the homogeneous form of (3), with the term I deleted, would vanish identi-
-
+li homogeneous form of (3), with the term 1 deleted, would vanish identi-
 cally.
-These statements are made because the iteration process will motivate the
 
+These statements are made because the iteration process will motivate the
 rest of the paper.
 
-3. More general illustration of a Riemann function. We saw that the
-iterated series (4) for R begins with the terms 1 7 [V + where
-U = ”5(an(1‘. + y.) do, dy, . Now I' obviously equals zero when 11 = I’
-or y = y’. Thus since R is also a constant for these values of 1' or y, we might
-try to see if the Riemann function has the form R(I'; I’, y’). Substituting this
-new value of R into equation (25,) we find that the Riemann function actually
-can be written in this form if and only if (al'far) (6F 61/)H" is expressible as
-fill"; 1L", 1/). Then (2) becomes
+: 3. More general illustration of a Riemann function. We saw that the
+he rated series (4) for R begins with the terms 1 — U + --- where
+OL Woe oh Ya) da, dy, . Now U obviously equals zero when 2 = 2’
+try to s ws since R is also a constant for these values of z or y, we might
+: > i 5 if the Riemann function has the form R(U; 2’, y'). Substituting this
+Ji Wy Lg of RE into equation (2a) we find that the Riemann function actually
+be written in this form if and only if (4U/dx) (8U/ dy)H™" is expressible as
+J(U; 2", y). Then (2) becomes | a ai
 
- 
+(((@) (@R/AUDSU; 2’, y') + dR/AU + R = 0
 
- 
+(b) RO; 2’, y') = 1.
 
-(5) {(3) ((lzR’zil'3)f([';.1", 1/) + thr’rll' + If : 0
+1 R . h
+jgrc A -
 
-(l7) If(0;x’,y’) = l.
+{ emann I
+
+= =
+1
+
+"
+—re ="
+[at
+
+1"
+j=
 
 
 RIEMANN FUNCTION 299
 
-We observe that {5) is an ordinary differential equation of second order with
-only one initial condition. This, however, is natural since (5a) has onlv one
-solution regular at U = O. For if we were to expand both U and f(U; :hr’ 1/)
-into powers of (l‘ L 1’) and (y — y’), we should ﬁnd that they each begin with
-theterm (1 - J” (y - y’JH (1’ + y’), whenceﬂ U; 2’, y’) = U + aw, y’wz +
+We observe that (5) is an ordinary differential equation of second order with
+only one initial condition. This, however, is natural since (5a) has only one
+solution regular at U = 0. For if we were to expand both U and f(U; 2, vy’)
+into powers of (x — 2’) and (y — #’), we should find that they each begin with
+the term (z — 2°) (y — ¥)H(2’ + y’), whence f(U; 2’, y') = U + a2’, y')U* +
 
-Thus at U : 0, equation (5a) has both characteristic exponents zero,
-which implies that (5a) has a solution R, regular and equal to unity at (7 = 0
-and a solution It; with a logarithmic singularity at (7 = 0. Thus (5) uniquely
-determines a Riemann function R = R. (l’; a", y’)
+Thus at U = 0, equation (5a) has both characteristic exponents zero,
+which implies that (5a) has a solution R, regular and equal to unity at U = 0
+and a solution R, with a logarithmic singularity at /' = 0. Thus (5) uniquely
+determines a Riemann function R = R,(U; 2, v/'). )
 
-Unfortunately only very few cases are covered by this artiﬁce. The condition
-that the Jacobian of (BU/61') (BU/6105!" and I' with respect to .r and y vanish
-can be regarded as an identity in I’ and y’ for any given a; and y This identity
+Unfortunately only very few cases are covered by this artifice. The condition
+that the Jacobian of (U/dx) (dU /dy)H™" and U with respect to x and y vanish
+can be regarded as an identity in 2” and y’ for any given z and 3. This identity
 in turn leads to an ordinary differential equation if we develop H into power
-series about the point 7' = .c + y. Then the identity implies the vanishing of
-an inﬁnite series in the variables .27’, y’ with coefﬁcients expressible in terms of
+series about the point » = x + y. Then the identity implies the vanishing of
+an infinite series in the variables 2’, y" with coefficients expressible in terms of
 H(r) and its derivatives. Since the coefficients of such a series must vanish,
 we obtain an ordinary differential equation for H(r), namely
 
-d/(Ir[H"d”H/dr2 — 3/'2(dl'l'/Hdr)"’] : 0,
+d/dr[H 'd°H /dr* — 3/2(dH/Hdr)’] = 0,
+
 which has as its general solution
-(6) H0) = no + 1>m/’sinm<z‘+ y)
 
-where A, p, v are constants This is the value of H(r) for which we shall derive
+(6) Hr) = —A\ + 1p’ /sinh® u(r + »)
 
+where A, u, v are constants. This is the value of H(r) for which we shall derive
 a Riemann function via (5).
-In obtaining the Riemann function corresponding to the value of H0) given
 
-in (6), we ﬁnd that
-I' = —>\()\ + I) log (1 + V),
+In obtaining the Riemann function corresponding to the value of H(7) given
+in (6), we find that
+
+U=—= A+ 1)log(1 + V),
 where
 
-sinh Mr — .1") sinh “(y — y’)
+sinh u(x — 2’) sinh u(y — ¥)
+sinh u(x + y + ») sinh u(x’ + y" +»)
 
-V = — ———,
-sinh u(.’r + y + u) sinh p(.r’ + y_’ + y)
+In terms of V equation (5) becomes
 
-In terms of 1' equation (5) becomes
+Vl — V)R/AV: + (1 — 2V)AR/AV + AA + DR = 0
 
-f V(l - V)dzR,/«IV2 + (1 ~ 21’)illr‘/dl' + MA + 1)]? : 0
+R=1 at V=0,
+and its solution, a hypergeometric function, is the Riemann function corre-
+sponding to H(r) in (6), namely,
 
-I? = l at V = 0,
+(7) Ri, y;2",y) = FA +X —\; 1; 0).
 
-and its solution, a hypcrgcomctric function, is the Riemann function corre-
-sponding to H(r) in ((5)Y namely,
-
-(7) Rtv, 2/;1", 21’) = ("(1 + N —>\;1;V)-
-
-The form of ”(7‘) in ((i) is seen to have a few simpler limiting cases. First
-0‘ all, we Can change A to )x exp 1: and let 1/ A» on, obtaining in the limit 11(1) =
+The form of H(r) in (6) is seen to have a few simpler limiting cases. First
+of all, we can change \ to \ exp » and let » — =, obtaining in the limit H(r) =
 
 
-300 HARVEY COHN
-_)\ exp I"; where )x, u are new constants: If we simply let u —> 0 we ﬁnd that the
-previous values of I10) yield the special cases 11(7) = _>\()\ + l)/(r + ")2
+HARVEY COHN
 
-and H (r) = —h respectively. . . .
-In these special casesy we can perform the limiting process (of conﬂuence)
+300
+—\ exp ur, where A, p are n€w constants. If we simply let 4 — 0 we find that the
+previous values of H(r) yield the special cases H(r) = —A(\ + 1)/(r + b)?
+and HG) = => respectively. 0a
 
-and ﬁnd that when H (r) = —7\ exp Mr, (7) becomes
-(8) Mac, 1/; r’, y’) = Ju(2v*)
-where v = an” (exp in - 6er uI’) (eXp My — EXP uy’). If in (6) “so,
+In these special cases, we can perform the limiting process (of confluence)
+and find that when H(r) = —A\ exp u7, (7) becomes
+8) R(z,y; 2’, y) = Jo(20)
+where » = —\u~* (exp pr — exp uz’) (exp py — exp wy). Ifin (6) u—
 
-we ﬁnd that for H(r) = —)\(>\ + 1)/(T + ”)2, (7) Still yields the Riemann tune.
-tion but V is replaced by its limit — (x — 13') (y ” y’)/(x + y + y) (1’ + y! + 10‘
-Likewise (8) yields the Riemann function for H (r) = —)x when u is replaced hr
-its limit — Mac — x’)(y — y’)- "
+we find that for H(r) = =A + 1)/(r + v)", (7) still yields the Riemann fypc.
+tion but V is replaced by its limit — —2)y—y)(@e+y+r») @ + v +9)
+Likewise (8) yields the Riemann function for H(r) = —X\ when » is replaced hy
+its limit — A(z — @)(y — ¥)- :
+"Thus the Riemann function is found in closed form when H(r) is the rather
+versatile function —A(A + 1)u’/sinh® u(r + »).
 
-' Thus the Riemann function is found in closed form when H (r) is the rather.
-versatile function —)\()\ + 1);:2/sinh2 #(T + V)
-
-4. Riemann‘s Fourier integral expression. Perhaps a more promising method
-of ﬁnding Riemann functions is one mentioned by Riemann. By changing
-the variables of (1) to r = 1' + y and s = r — y and separating the new variables,
-Riemann solved a class of boundary value problems by means of a Fourier
-superposition. On comparing this solution with the one that would have been
-obtained by using the Riemann function, Riemann [6; 179—181] arrived at a
-heuristic result which we now state in the following fonn:
+4. Riemann’s Fourier integral expression. Perhaps a more promising method
+of finding Riemann functions is one mentioned by Riemann. By changing
+the variables of (1) tor = 2 + y and s = = — y and separating the new variables,
+Riemann solved a class of boundary value problems by means of a Fourie
+superposition. On comparing this solution with the one that would have heen
+obtained by using the Riemann function, Riemann [6; 179-181] arrived at 3
+heuristic result which we now state in the following form:
 
 If we let
 
-(9) 12* = 1 [v exp ik(s — s')W(r,7-'; k) dk
+(9) R* = ! [ exp tk(s — s")W(r,r’"; k) dk
 
-whore ll"(r, r’; k) is deﬁned by the ordinary diﬂcrential equation
+where W(r, vr’; k) 1s defined by the ordinary differential equation
 
-(le/dr2 + [Ir2 + H(r)]W = 0
+dW/dr* + [k* + H@)]W = 0
 (10)
-U7 = 0, ({l'l’v/dr = l at 1‘ =1"
+WwW = 0, dW /dr = 1 at r=r'
 
-,
+)
 
-that, changing to [he-old variables, we ﬁnd R* satisﬁes the relation
+then, changing to the old variables, we find R* satisfies the relation
 
-(11) m = iisgntr - I’) + sgnw - y’>lR(I, 1 :1", 11’)-
+(11) R* = Jsgn(x — 2’) + sgn(y — ¥)]|R(z, y; 2’, y').
 
-Wo can express 11' in terms of well-known functions only in a few cases, for
-instance where H(r) = —)\ or ~Mh + l)_'7‘3, In these cases W takes the values
-(1241) sin(r a 1")“: — xii/(1c: — A)g
+| We can express IW in terms of well-known functions only in a few cases, for
+instance where H(r) = —X or —A(A + 1)/7°. In these cases W takes the values
+(12a) sin(r — )(k* — N}/(K* — MN)?
+
 and
-(12h) snow)"- Imwg‘m /.« ; amigo I; m],
 
-rE‘SPBCtinN Further development of the theory of diﬂei'ential equations may
-make enough functions “known" to permit 11' to be expressible in closed 101'!11
+(12b) dx(rr’)* Im[H,Yy(| k | HZ ( k | 7],
 
- 
-
-in: since
-
-ii there
-
-his den
-i? mbst
-hitch; i.
-10} l.
-
-lle ne.
-Liégmj
-
-ill»
-
-
-1‘ ‘
-1 n
-
-M
-
-til.
-
-i, we 1m ‘
-1 KH 1 g
-' the serib
-
-u i ll 51
-majorizal
-
-it note 1111!
-, the double
-leral term if
-peciﬁc for!
-
-in two strl“
-
-of mum“:
-
-dIi (ll:
+respectively. Further development of the theory of differential equations may
+make enough functions “known” to permit IW to be expressible in closed form
 
  
 
  
 
-RIEMANN FUNCTION 303
+ 
 
-where B, again, is the rectangle formed by the horizontal and vertical lines
-through (I, y) and (x’, y’). We see that, by the, uniqueness theorem stated in
-§2, (16) would imply (1]) when 1' 7‘ 1" imd y # 1/ while, (15) would take care:
-of the remaining points (for which .r = 1'" or y = y’).
+ 
 
-We ﬁrst establish (15) It refers to points where l r —- r’ l = l s M s’ l or
-lYl = Z ‘X. l, to use the arguments of Q,” . Thus by (13), we see that
-(15) will follow from this lemma:
+ 
 
-1]“ y‘ Z Z l X. l, andzfn Z 1, l/II'H Q..H(X. , X2, , X,“ ; Y) vanishes
-identimlly-
+\ow since
 
-The proof of the lemma can he carried out by induction. since aQM/aX;
-and aQM/BY can he expressed as the sum of two integrals of the, type (2,, with
-new arguments satisfying the same inequality
+K,
 
-Having established (15)7 we then establish the remainder of (11), namely
-equation (16) Still regarding (x’, y’) as ﬁxed, we write (9) as
+ 
 
-(17) R‘ — RT.‘ = w(:c, y; k) dk
+ud theref
 
-With the aim 0f showing that, I: 6210/61" Gy div" is l3l'ecisely the term required
-for (16), To this end, note
 
-”(L y; k) : 1r"ll'(m";/c) MP “'13 — 5") ~ nil/i" sin 15(7‘ — 1") exp zk(s — s’)
-and 6210/61 6y = BZw/Brg — 8210,33" : —H(r)llr"(r, Mk) exp i/c(s ~ .5"), Hence,
-I:: azw/Brc 6y d1; = —HR‘*, and thus
-m .
+!.
+18 ~ 4
 
-f dkff film/616.1] dimly
+wit}
+dk
 
-—a ~ 8
+F the Sella
+
+n | k| <I
+8 Major
+
+1t note th
+the dou
+eral tem
+specific fom
+
+in two Stef
+
+of equi”
+
+dz, dij
+
+ 
+
+ 
+
+], We neg] |
+| K.a|<§
+
+RIEMANN FUNCTION
+303
+
+where B, again, is the rectangle formed b ;
+d by the horizontal a :
+
+1 / ) EL nd rert .
+through (x, ¥) and («’, ¥'). We see that, by the uniqueness the version] lines
+§2, (16) would imply (11) when = > 2’ and y = y’ while os ven stated in
+of the remaining points (for which z = 2’ or y = ¢//) ) would take care
+
+We first establish (15). It refers to points where [7 ii ie
+| Y] z >. | X:|, to use the arguments of Q,., . Thus by Nbr
+(15) will follow from this lemma: § by (13), we see that
+
+FY 22 |X:,andifn 2 1, then Q(X, , X ;
+identically. w1( Xr, Xoy ooo, Xoiy 5 Y) vanishes
+
+To pron of the lemma can be carried out by induction. since 9 0X
+and 0Q,.,/dY can be expressed as the sum of two integrals of i” xe Qusr/ 0X :
+new arguments satisfying the same inequality. BE he type Q, with
+
+Having established (15), we then establish the remainder of (11
+equation (16). Still regarding (2’, ¥) as fixed, we write (9) . (y, ammels
+
+(17) RY — Rt = [ w(x, y; k) dk
+
+with the aim of showing that [*Z d*w/d
+. g on J 4 — © / Xr d1 dk 1S © "1 y . . .
+for (16). To this end, note y s precisely the term required
+
+w(x, y; k) = 7" W(r,r’; k) exp ik(s — 8’) — = 'k™" sin k(r — 7’) exp 2k( )
+> : a ILS — 8’
+
+and d’w/ox ay = w/or — *w/ds: = — H 7
++@ fe r)W i ke : J of I RL AY
+[= 'w/ox dy dk = —HR*, and thus (r)W(r, r';k) exp ik(s — s’). Hence
+
+| dk [[ d*w/dx dy dx dy
+-— 0 vB 3
 (18)
 
-2 * ff HQ?) + yi)3*(l'i ,yi ;J:’, 11’) 11.13 dy, _
-H I
-
+Ere [| H@, + y)B*(@, , 9. ; T, y') dx, dy, .
 The left member of the equation, (18), however, becomes
 
-[ lwtr, y; la) ~ u'(.r, y’; in) — w(.L", y; lo) -l— w(x’, y’; 112)} (U:
+f y( PA a sf A te In /
+[ (w(x, y; k) — wx, yy’; k) — w@’, y; k) + wi’, y'; k)} dk
 
-2/. w(x,y;k)dk=]€*- 3,
-Since, by (15), the right memlier of (17) vanishes when :1‘ = .7," or y = 1/. Thus
-we finally see that (113) holds, and our proof is complete.
+Veo
 
-, 0. Concluding remarks. We mentioned previously that Riemann’s Fourier
-Integral expansmn is at present limited in usefulness because the integral can
-be found in closed form only in a few eases such as when H(r) = —)x or
+= [ w(x, y; k) dk = R* — RY ,
+since, by (15), the right mem] 7 :
+y MJ ) : I'l smber of (1 7) vanishes when xr = 2
+Y > ; } , 1 & — ZT or —- , / &
+we finally see that (16) holds, and our proof is complete pnb
+
+5. Concludi
+. 1n r y : oi E
+integral e oe emarks. We mentioned previously that Riemann’s Vowtier
+4 ‘ S1 . “a . : 2 ) . AC : §
+es 4 on 1s at present limited in usefulness because the integral can
+closed form only in a few cases such as when H(r) = AO
+S 7) = —X Or
 
 
 304 HARVEY COHN
 
-_)\()\ + 1) /r’. .In these cases, however, the Riemann function has been already
-found by our artiﬁce and we could therefore regard (11) as the sourcerof identities
+—A(\ + 1)/7°. In these cases, however, the Riemann function has been already
+found by our artifice and we could therefore regard (11) as the source of identities
 relating exponential functions, Bessel functions, and hypergeometric functions.
 
 We might mention these identities in passing, since they do not appear in
 standard treatises on Bessel functions. By a suitable change in variables, the
-identity (11) yields, when H(T) = —)\,
 
-+m » 2 __ l
-1f ————s”‘ X09 M cxpidek
-W —m
+identity (11) yields, when H(r) = —A,
 
-(k2 — x)’
++@ pan 3
+1 | Sh Al ( ») exp 1kY dk
+lwo (kK — MN
 
-= %[sgn(X + Y) + Sgn(X — Y)l.lg([—)\(X“ — YZ)]’),
+= 3sgn(X + Y) + sgn(X — Y)} Jo([— NX? = Yh,
 
-where X and Y are real. And when-H(r) = —>\()\ + 1)/7':, the identity (11)
+where X and Y are real. And when H(r) = —A(\ + 1)/7*, the identity (11)
 yields
 
-[2m + m [5 Immune-[m + yDHiinzkz); cos he — 11) die
+[22(z + )]} / Im{H, (kl + y)HE,(2ka)} cos kiz — ) dk
 
-a
+= emntz = 2) + ony = (1 +2, x1; - EA)
 
-(I - 2X11 - 2))
-2(1' + y): ’
-
-where a", y, and z are positive and )\ is real. The ﬁrst of these identities could
+where x, y, and z are positive and \ is real. The first of these identities could
 be proved directly by separation of the integrand into exponentials and careful
-deformation of the path of integration, The second identity does not seem to
+deformation of the path of integration. The second identity does not seem to
 invite such a direct approach.
 
-= ilsgmr - a) + Sgn(y - 2)l1"(1+ 1. ->\;1;—
+BIBLIOGRAPHY
 
-BIBLIOGRAPH r
+1. J. AckARET, Gasdynamik, Handbuch der Physik, Berlin, 1927, vol. 7, pp. 289-342.
 
-'1', GllsdylllLTIZ’ik, Handliuch (ler Physik, Berlin. 1927, vol. 7, pp. 289—342.
+2. R. Courant axp D. HILBERT, Methoden der Mathematischen Physik, vol. 2, Berlin, 1927.
 
-"r AND D. H1LRERT, Jlrlhmlmi (IN :‘IHUIL’HlHI’l-NEIIEH Phys-Ur, vol. 2, Berlin, 1927.
-3. l. DARHUUX, Leguns sur la Thénric Generule rlrs Suﬁ/nuns cl [es Applications Ge’améln'quu
-(In ('nlcul Inﬁnih‘yimnl, vol. '2. Par , 1915.
+3. G. DArRBoOUX, Legons sur la Théorie Générale des Surfaces et les Applications Géométriques
+du Calcul Infinitésimal, vol. 2, Paris, 1915.
 
-4‘ L. Ethan, RUC/tl’rr/ws sur ['Inh‘grulion tlr [Equation I121. '“2
+4. L. EvLER, Recherches sur I Intégration de l ‘Equation d*2/dt* = a*d*z/dx* + b dz/zdx + cz/23,
+Leonhardi Euleri Opera Omnia, Leipzig and Berlin, 1926-28, series 1, vol. 23, pp. 43-73.
 
-Lmnlinrdi Euleri Opera Omniu. Leipzig and Berlin, 1. ..
-5. L. Erwin. Nuplilernvul mu RL’l‘hL’I‘L'h 11' la Praprrgulinn tlu Sun. Leonhardi Euleri Open
-Omnizi, lie zig and Berlin, 19 . series 3. vol. 1, pp. 451F183.
-6. B. Rimlu‘x, Uhrr Ilia Forliiﬂanzmig rlimvr Luﬂu'ellm mm cndlichcr Sclxwingungswzite,
-Gesaminelle h‘llltllolllatlst'ill’ “'erke. Leipzig. 1892. pp. 15(‘r181.
+5. L. EULER, Supplement aux Recherches sur la Propagation du Son, Leonhardi Euleri Opera
+Omnia, Leipzig and Berlin, 1926-28, series 3, vol. 1. pp. 452-483.
 
-  
+6. B. Riemann, Uber die Fortpflanzung ebener Luftwellen von endlicher Schwingungsweile,
+Gesammelte Mathematische Werke, Leipzig, 1892, pp. 156-181.
 
-  
- 
+HARVARD UNIVERSITY.
 
-life + I; dz/zdz + cz/z‘,
--S,series 1, vol.23, pp.43~73.
+NL a
 
- 
+pt " -.
+RET
+is Fa aS Ne
+ol Fe - Was torn
+— gy
 
-    
+nl
+28 amy
 
-Human Umveasr'rr.
+Shedd
 
- 
+LEE rr ai
 
- 
-
-9:”
-
-< .s; mg)!»
+ME aa or eI
 
 

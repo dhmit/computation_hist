@@ -1,23 +1,27 @@
-The heurly maahlna charge given in lell ll 10
+5.
 
-éutermlned ll folio-n. Let g rcprcscnt the denirud
-hourly muchino rate whora
+The hourly machine charge given in Tabdle il s
+determined as follows. Let R represent the desired
+hourly machine rate where
 
-monthly rcntnl or
+monthly rental eof 1 § |
+R = { each machine ) Lo (=) (Momthly operas,
+ota] monthly mn») AVG . MONLRIY Nr8. Fpy' ‘tional costs
 
-R n ( each machin: ) ( ) (Han‘hly opctao)
-toia! moniﬁly an. Nvg.neniﬁly EFs. R" tlannl coats
-( chine rants! )
+{ ¢chine rental
+
 where
-zeta! monthly much. rcntal - 1731.600310.80 0 1612.60
-mentbly Qperitlonll chat. : 7665.52/1l a 638.63
+total monthly mach, rental = 173],40+116,80 = 1612,80
+menthly operationsl chge, = 7685,82/12 = 838,82
 
-and Km“ reprcssntn the friction of the tint n parQIculnr
-machine wls aged during the fiscal ported 1951.;952,
+and Kg,, represents the frection of the time 2 perticular
+machine was used during the fiscal perlod 19511052,
 
-Exaggle (602A Calculating Punch hourly rate)
+Exemple (602A Cdlculsting Funch hourly rate)
 
-R . ( “ﬁe ) (11% mwss. 52)
-a 255 as
-, Tun—1'».— (.902475593)
-- $1.436
+R = (-f%f%%g) i Ri: (638.02)
+
+= 25502@ . |
+B g { .00R475898)
+
+= 51,436

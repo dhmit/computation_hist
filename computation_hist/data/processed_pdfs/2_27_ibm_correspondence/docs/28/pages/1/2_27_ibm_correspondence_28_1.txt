@@ -1,0 +1,32 @@
+IBM Office
+
+Room 26-147
+
+M.I.T. Computation Center
+Cambridge 39, Massachusetts
+August 29, 1960
+
+ 
+
+To: Professor Philip M. Morse
+Room 6-107
+
+In accordance with our letter to you dated April 27,
+1960, an IBM 7090 system has been placed on order for the
+M.I.T. Computation Center for delivery in early 1962. For
+your information the actual specifications of the 7090 system
+and the two 1401 systems for peripheral operations are listed
+on the attached sheets.
+
+The basic 7090 is essentially the same system as
+the present 709. Not included at the present moment are the
+Direct Data Device on the fourth channel of the 7090 or provision
+for CRT output. These and other special devices will have to
+be decided upon during the next six to eight months.
+
+Sincerely yours,
+
+M. Loren Bullock
+
+MLB/jeh
+cc: Dr. F. J. Gerbato, M.I. T,

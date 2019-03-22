@@ -1,7 +1,7 @@
-A method of computation for when“). nasal functions
-01‘ m1 and mam ”mat is given which 13 especially
-suitable for digital amnion. m mm namin- mo mile or
-momma mutton: nth mused ﬁlm or the function.
-The aecurauy and nonvergcnee are mama and out-ﬂan formulas
-are stun. A pm based on the Rmmkum in and to amplify
-the £11m). normalisation.
+A method of computation for spherieal Bessel functions
+of real and imaginary avgument is given which is especlally
+suitable for digital computers. The method involves the use of
+resurrence relations with unnormalized values of the functlon.
+The accuracy and convergence are examined and criterion foramulas
+are given. A procedure based on the Wronskian 1s used to simplify
+the final normalization.

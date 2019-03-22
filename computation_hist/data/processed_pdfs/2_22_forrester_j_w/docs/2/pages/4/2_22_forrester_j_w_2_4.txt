@@ -1,7 +1,13 @@
-Thus far. management education and
-management practice have been com—
+e
+
+ 
+
+ 
+
+Thus far, management education and
+management practice have been com-
 partmentalized into such classic
-SublelSIOl’iS as finance. marketing. pro—
+subdivisions as finance, marketing, pro-
 duction, and accounting. However, the
 major problems of the industrial manager
 arise not so much from the separate
@@ -10,79 +16,83 @@ these interact to produce instability in
 prices, production, employment, and
 profits. Building on the development of
 electronic computers, on military advances
-in understanding deCIsion-making and in
-using simulation to solve complex sys»
-tems, and on twenty years of research in
+in understanding decision-making and in
+using simulation to solve complex sys-
+tems, and on twenty years of research-in
 feedback control systems, we may now
-develop new ways to analyze the indus
+develop new ways to analyze the indus-
 trial enterprise. Management is on the
-verge of a major breakthrough in under,
+verge of a major breakthrough in under-
 standing how industrial company success
 depends on the interaction between
 flows of information (including policies
-and decisions). materials, money, man-
+and decisions), materials, money, man-
 power, and capital equipment. To help
-prowde a basis from which to understand
-the forces causing Industrial fluctuation,
-growth, stability, and decline, the Masr
-sachusetts lnstitute of Technology
-School of Industrial Management Will
-offer a tworweek Special Summer
+provide a basis from which to understand
+the forces causing industrial fluctuation,
+growth, stability, and decline, the Mas-
+sachusetts Institute of Technology
+School of Industrial Management will
+offer a two-week Special Summer
 Program on Industrial Dynamics from
-Monday. August 17, through Friday,
-August 28, 1959,
+Monday, August 17, through Friday,
+August 28, 1959.
 
  
 
-outline of Program
+Outline of Program
 
 This Special Summer Program will
 describe new methods of analyzing how
-organizational structure, policies, decision
+organizational structure, policies, deqsnon
 criteria, information distortion, and time
 lags in information and material flow
 may affect the course of industrial
 growth, cause fluctuation in sales,
 accentuate seasonal tendencies, and
-amplify external economic conditions,
+amplify external economic conditions.
 Models of industrial company operation
 will be formulated for digital computer
 
 solution.
-This Special Summer Program results
 
-uate teaching in the dynamics of ecoe
+This Special Summer Program results
+uate teaching in the dynamics of eco-
 nomic systems, company functions, and
 corporate policies, and in programming
-computers for industrialrdynamic ana|y~
-ses, For a more complete description of
-this approach and its results, see "Indus-
-trial Dynamics—7A Major Breakthrough
+computers for industrial-dynamic analy-
+ses. For a more complete description of
+this approach and its results, see “Indus-
+trial Dynamics—A Major Breakthrough
 for Decision-Makers” by Professor Jay
 W. Forrester in the July-August, 1958,
-issue of The Harvard Business Review,
+issue of The Harvard Business Review.
 
-This will be an intensive session devoted
-to method, rather than a descriptive sur-
-vey course. It is intended primarily for the
-executive. to give him sufficient under-
-standing to judge the usefulness of the
-approach for his own company, The
-management science specialist or the
+Staff
+
+This will be an intensive session devoted This Program is under the direction of
+to method, rather than a descriptive sur- Dr. Jay W. Forrester, Professor of Indu
+vey course. It is intended primarily for the  trial Management. The staff will includ:
+executive, to give him sufficient under- John L. Enos, Assistant Professor. and
+standing to judge the usefulness of the other members of the industrial '
+approach for his own company. The dynamics group of the M.|.T. School
+management science specialist or the of Industrial Management.
 management school faculty member will
-find that the Program provides a baSlS
+
+find that the Program provides a basis
+
 for further work; but it is not sufficient
+
 preparation for immediate use of this new
+
 approach to management problems.
 
-Tuition for the twosweek Program will be
+Tuition for the two-week Program will be
 
-.JHWWscarWeé—m-Ww_ g 2-9,:
+WVW%SCG'W%MWMWM—N
 
- 
-
-of admissmn. Academic credit will not be
-offered Exercises will be held from 9 to
+of admission. Academic credit will not be
+offered. Exercises will be held from 9 to
 12 and 2 to 5, Mondays through Fridays.
 
 The Program can accept only a limited
@@ -92,138 +102,122 @@ with the problems of the company as a
 whole and the interaction of the separate
 industrial functions of research, engi-
 neering, production, marketing, and
-finance. Preference Will be given to those
+finance. Preference will be given to those
 who have had mathematics (through dif-
 ferential equations), an introduction to
-digital computer programming, and pracr
-tical or educational contact With feed;
+digital computer programming, and prac-
+tical or educational contact with feed-
 back control systems. Applications should
 show industrial experience and the
 extent of training in mathematics, digital
 computation, and feedback control.
 
-Staff
-
-This Program is under the direction of
-Dr. Jay W. Forrester, Professor of Indus-
-trial Management The staff will include
-John L, Enos. Assistant Professor, and
-other members of the industrial
-dynamics group of the M.|.T. School
-
-of Industrial Management.
-
-Programs marked With an
-asterisk l‘) are ol one
-week‘s duration those Witn
-a dagger iii are oi inree
-weeks duration All oinai
+Programs marked with an
+asterisk (") are of one
+week's duration; those with
+a dagger (1) are of three
+weeks’ duration. All other
 Programs extend through
 two weeks
 
-2H5
-2165
+2.11S
+2.16S
 
-34iS
-516$
-W743
-20825
+3418
+5.16S
+17.74S
+20.82S
 
-M375
+M37S
 
-INS
-2ias
-5i7s
-U755
+2.12S
+6.59S
 
-2 'lSS
-469$
+156.51S
 
-ZIZS
-659$
-155lS
-lSBIS
-t59is
+15.81S
 
-Zl3$
+15.91S
 
-2 Us
-4055
-4685
-2i 085
+2.13S
 
-6 535
+2.17S
+4.05S
+4.68S
+21.08S
 
-5573
-8235
-ISZlS
+6.53S
 
-l 365
+6.57S
+8.23S
+15.21S
+
+1.36S
 
 Special Summer Programs
 
-Beginning Tuesday, June 15
-Industrial Photoeiasticity-
-Bearing Taciinology
+Beginning Tuesday, June 16
+Industrial Photoelasticity *
+Bearing Technology
 
 Beginning Monday, June 22
 
-Corrosion'
+Corrosion*
 
-lnlrared spectroscopy Technique'
+Infrared Spectroscopy: Technique*
 
-Mechanical and Phystcal Properties oi Plastics'
-Food Proteclion Factors in Modern Food
-Technology'
+Mechanical and Physical Properties of Plastics*
+Food Protection Factors in Modern Food
+Technology*
 
-Applications oi Probability Theory
+Applications of Probability Theory
 
 To Operations Research
 
-Beginning Monday. June 29
+Beginning Monday, June 29
 Modern Thermodynamics
-Combination ol 2 ms and 2 last
-iniiaieu Spectroscopy Applications'
-AdheSIon Tneory and Practice'
+Combination of 2.14S and 2.15S5t
+Infrared Spectroscopy: Applications”®
+Adhesion: Theory and Practice"’
 
-B‘glnnlng Monday, July 5
-Direct Conversion oi Heat [0 Electricnv
-insriiutional Expansion and tne Urban Setting'
+Beginning Monday, July 6-
+Direct Conversion of Heat to Electricity
+Institutional Expansion and the Urban Setting*
 
 Beginning Tuesday, July 7
 
-Strain Gages Flindamentals'
+Strain Gages: Fundamentals®
 
-Quanlllallve Approaches to the siuoy or
-Neuroeleclric Activity
+Quantitative Approaches to the Study of
+Neuroelectric Activity
 
-controiicrsnip New Developments in
+Controllership: New Developments in
 Analysis and Control
 
 Planning Marketing Strategy and Tactics
-Organization for Researcn and Developmeni
+Organization for Research and Development
 
 Beginning Monday, July 13
-Strain Gages Applications‘
+Strain Gages: Applications®
 
-Eeginning Monday. July 20
+Beginning Monday, July 20
 
-Materials ior Parachlile and Reiardaiian Devices
-Aesthetics oi Surfaces
+Materials for Parachute and Retardation Devices
+Aesthetics of Surfaces
 
-city and Regional Planning
+City and Regional Planning
 
-Scieniiiic and Engineering iiepons'
+Scientific and Engineering Reports*
 
 Beginning Monday, August 3
-Finite. and iniiniteSiaia Machines
+Finite- and Infinite-State Machines
 
-Beginning Monday. August 17
+Beginning Monday, August 17
 
-Reliable Longnange Radio Communication
-Plasma Dynammst
+Reliable Long-Range Radio Communication
+Plasma Dynamicst
 
 Industrial Dynamics
 
 Beginning Monday, August 31
-sncar Strength oi soils
+Shear Strength of Soils

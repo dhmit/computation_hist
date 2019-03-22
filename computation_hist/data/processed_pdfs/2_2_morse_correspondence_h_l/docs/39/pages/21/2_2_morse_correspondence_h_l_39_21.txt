@@ -1,0 +1,276 @@
+104 Journal of The American Ceramic Society—Francl and Kingery
+
+g 004
+o
+&
+A
+
+003
+0
+L
+“w
+
+8002
+0
+
+ 
+
+0.0l
+0 200 400 600 800
+
+TEMPERATURE (°C.)
+
+Fig. 9. Thermal conductivity of Al,O; samples with cylindrical pores
+of diameter 0.082 cm. with 11.97%-porosity cylinders parallel to
+heat flow; solid is shown.
+
+k (col. sec”' ¢! cni® cm)
+
+ 
+
+0 200 400 600 800
+TEMPERATURE (°C)
+
+Fig. 10. Thermal conductivity of AlLO; samples with cylindrical
+pores of same diameter, 0.082 cm.; representative curves for
+indicated porosity, from 7.54 to 22.4%, and solid.
+
+“The relative conductivity is useful since it can be generalized
+to apply to any solid material. Here too, the experimental
+points fall between the values given by Loeb (Part VIII) and
+by Russell,! but are considerably higher than those calculated
+by Eucken.?
+
+The experimental results for isometric pores indicate that
+both the relationships of Russell and Loeb represent the
+experimental data within possible error, but that the relation-
+ship of Eucken gives results which are low. In general, the
+Loeb equation seems to be preferable to that of Russell.
+
+(2) Nonisometric Pores
+
+Typical experimental data for the cylindrical pores are shown
+in Fig. 9. The mean deviation of experimental points from
+each curve 1s about 2 or 39,. A series of curves for different
+porosities 1s shown in Fig. 10, for the temperature range room
+temperature to 900°C. Data for one series of samples (0.146-
+cm. pore diameter) are replotted in Figs. 11 to 13 to illustrate
+the effect of porosity. For all samples the experimental data
+fall between the Loeb and Russell curves and substantially
+above the Eucken relationship, for pores oriented parallel to
+heat flow. In addition to this orientation the sample can be
+turned so that the cylindrical pore axes are perpendicular to
+heat flow. In this case the Eucken® and Russell' equations
+do not apply, but the Loeb equation (Part VIII) is in excel-
+lent agreement with the experiment. Samples with 0.082-cm.
+pore diameters gave the same results as the larger pore size at
+temperatures up to about 500°C.
+
+These results are of interest in that they illustrate strikingly
+the strong dependence of thermal conductivity on pore
+
+Vol. 37, No. 2
+
+0.0520
+
+"A" CHANNELS Il HEAT FLOW
+“g8" CHANNELS L HEAT FLOW
+
+MEASURED "A"
+
+ 
+
+E
+
+Q
+'8 . = N
+; b
+~ . RUSSELL N
+
+e 00360
+
+o
+
+sec.
+
+k(cal.
+
+0.0280
+
+ 
+
+0 10 20 ' 30
+PORCSITY (%)
+
+Fig. 11. Thermal conductivity of Al.O; with cylindrical pores of diameter
+0.146 cm. at 200°C. Solid lines indicate experimental data; dashed lines,
+calculated from theories as indicated.
+
+orientation. The decrease in thermal conductivity is about
+doubled by orienting the pores perpendicular to the heat flow.
+Finck® dealt with a similar case in an investigation of fibrous
+materials in a continuous air phase system.
+
+The close agreement of the experimental data with the
+values calculated from Loeb in both orientations is con-
+vincing evidence of the general applicability of these equa-
+tions.
+
+The effect of porosity in the two orientations can be corre-
+lated in the same relationship by calculating the maximum
+cross-sectional pore fraction in a repeating unit through the
+structure. This is the ratio of the pore area to the total area
+in a sample cross section containing the maximum void area.
+In Fig. 14, the relative thermal conductivity is plotted against
+cross-sectional pore fraction for both sizes of pores at 400°
+and at 800°C. At 400°C. the two pore sizes give equivalent
+results. At the higher temperature the larger pores have an
+increased radiation effect, as indicated by the Loeb equation.
+
+(3) Effects of Emissivity
+
+To define the effects of emissivity more closely, samples
+were prepared from nickel, which has a low emissivity, and
+from graphite, which has a high emissivity. Alumina is
+
+m.termc(hate. Experimental results for nickel are shown in
+Fig. 15. Experimental results for graphite are shown in
+
+Fig. 16.
+
+At the higher temperatures, emissivity has a considerable
+ef.fect on conductivity of porous materials, as indicated in
+Figs. 17 to 19. InFig. 17, the relative thermal conductivities
+are compared with the relation predicted by Loeb (Part VIII).
+The .C(mductivity at higher temperatures increases as 1S
+predicted. When the cross-sectional pore fraction is below
+about 20%, the effect is not important; but at higher porosi-
+ties, the difference becomes significant. The variation is
+clearly shown in Fig. 18 for both pore size and emissivity at a
+
+- e
+
+ 
+
+ 
+
+FYﬂDI112Lr}, "lf)53‘¥ (11)21rt; I I)
+
+"A" CHANNELS || HEAT FLOW
+"8" CHANNELS 1 HEAT FLOW
+
+MEASURED "8"
+
+0.010
+0 10 20 30
+
+POROSITY (%)
+
+Fig. 12. Thermal conductivity of Al,O; with cylindrical pores of diameter
+0.146 ¢cm. at 500°C. Solid lines indicate experimental data; dashed
+lines, calculated from theories as indicated.
+
+cross-sectional pore fraction equal to 0.50. At elevated
+temperatures the effect of emissivity becomes more important,
+as shown in Fig. 19. It was found that the relative conduc-
+tivity increases linearly with emissivity for a given pore cross
+section, as expected. The effect of emissivity becomes im-
+portant only at elevated temperatures. For a cross-sectional
+pore fraction of 0.5, the effect of radiant transfer 1s only about
+3% at 500°C. but increases to more than 209 at 800°C. At
+higher temperatures, the authors can predict with confidence
+that emissivity will become even more important.
+
+V. Applicability of Theoretical Relations
+
+The experimental results obtained here for various sizes,
+shapes, and orientation of pores for different materials.of
+known solid thermal conductivity and total normal emissivity
+agr.eed with the theoretical relations derived previously iv this
+Series by Loeb (Part VIII). The relationships of Russell!
+gave results almost as good for isometric pores, but they are
+not applicable to anisometric pores. BExperimentally, the
+
+oeb relationships were found to hold up to cross-sectional
+Pore ratios of (.5, the maximum tested. It is desirable to
+
+‘nsider the application of these relationships to practical
+problems.
+By means of the equations given by Loeb (Part VI.II)» the
+rmal conductivity of samples with a given porosity aqd
+POre orientation can be predicted with confidence if the solid
+icso nduc.ti"it.\’ and emissivity are known, and if'the solid pl'u;se
+‘ontinuous.  Continuity of the solid phase is necessary or
+eSe.eguatiOnS to apply, and may in general be expected for
+POTOsities up to at least 509%. Insome extraordinary systems
+Perhaps for foam glass) it may apply to very high porosities.
+\ Some cases (as for powder compacts), it will not .al?]).l.\z Cl"eg
+e\'eg“;:- porosities. For materials with low ellleiIS':)lgéb' “t‘]‘]e
+relat; 'm'atCrlals. with high emissivities up to o &
+on takes the simple form
+
+kp - k,(l > Pc)
+
+- T : e
+
+105
+
+:A: CHANNELS Il HEAT FLOW
+B" CHANNELS L HEAT FLOW
+
+MEASURED "A“
+
+LOEB
+
+em:=2 °¢c”! em)
+
+sec.
+
+k(cal.
+
+MEASURED "8"
+
+ 
+
+0 10 20 30
+POROSITY (%)
+
+Fig. 13. Thermal conductivity of Al,O; with cylindrical pores of diameter
+0.146 c¢m. at 800°C. Solid lines indicate experimental data; dashed
+lines, calculated from theories as indicated.
+
+K
+RELATIVE CONDUCTIVITY —Rf-
+
+           
+
+0 I 2 3 SANS
+
+0 A 2 3 & 5 k : ‘
+CROSS -SECTIONAL PORE FRACTION
+
+Fig. 14. Relative conductivity of cylindrical pores at 400° and 01.800°C.
+Solid circles, pore diameter 0.146 cm.; open circles, pore diameter,
+0.082 cm.
+
+For materials with isometric pores, the .cross-sectional pore
+fraction is equal to the voliume.pore fraction gnd the.conduc-
+tivity 18 equal in all dlrectxons: For amsome.tnc. pore§
+arranged, the cross-sectional pore fraction 1n .an_\g
+random plane will be eqpal to the volume pore fra(;ltlox;].
+For anisometric pores whx.ch are not randomly arrange , t e'
+cross-sectional pore fractlon.and the thermal conductivity
+will vary in different directions. By extrt.lsmn, ord§1mllljr
+
+roceSSC-S. brick could be 111ar}llfactured ha:;mg a pr'e 1claF e
+‘ation of thermal conductivity along d}ﬂererlt axes. For
+et isometric sample the cross-sectional pore fraction
+h e amt easily determined by preparing polished sections
+canle mo; ‘ tyﬂ(;w and microscopically determining the pore
+norbAR Ief‘1 desired, the experimental curve given in Fig. 8
+d instead of the relationship above.
+
+randomly
+
+fraction.’
+can be usé
