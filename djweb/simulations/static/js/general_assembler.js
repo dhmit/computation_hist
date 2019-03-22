@@ -31,11 +31,28 @@ function display_operations() {
     place.innerText = string;
 }
 
+function assemble_from_code_box() {
+    try {
+        const code = document.getElementById("code_box").value;
+        const code_lines = code.split(newline_regex);
+        computer.assemble(0, code_lines);
+    } catch (err) {
+        computer.clear();
+    }
+}
+
 /**
  * Runs scripts to initialize page.
  */
 function start() {
-    general_start();
+    common_start();
+    $('#assemble_button').on('click', () => {
+        assemble_from_code_box();
+        update();
+    });
+    $('#reset_button').on('click', ()=>{
+        alert("cannot reset");
+    });
     expand_text_area("code_box");
     display_operations();
     update();

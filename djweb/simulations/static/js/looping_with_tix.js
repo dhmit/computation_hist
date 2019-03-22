@@ -15,13 +15,24 @@ const line_descriptions = [
     "    to the general memory 1, otherwise we continue.  What's the value of index register A after you press Step?",
 ];
 
+const instructions = [
+    'LXA 5, 1',
+    'CLA 7',
+    'ADD 7',
+    'STO 7',
+    'TIX 2, 1, 1',
+    'PZE 5',
+];
 /**
  * Initializes looping_with_tix.jinja2, including initializing register 3 of general memory to
  * 12 and register 4 of general memory to 30, and storing the set program into memory.
  */
 function start() {
-    general_start();
-    assemble();
-    computer.general_memory[7].fixed_point = 1;
+    $('#reset_button').on('click', () => {
+        reset(instructions, [[7, 1]]);
+        update();
+    });
+    common_start();
+    reset(instructions, [[7, 1]]);
     update();
 }

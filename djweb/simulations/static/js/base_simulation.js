@@ -7,53 +7,6 @@ const DISPLAY_TYPE = {
   BINARY: undefined,
 };
 
-
-/**
- * Assembles code into program which is placed in computer.
- */
-function assemble() {
-    if (typeof GENERAL_ASSEMBLER !== "undefined") {
-        clear();
-    }
-    try {
-        if (typeof(GENERAL_ASSEMBLER) !== "undefined") {
-            code = document.getElementById("code_box").value;
-            code_lines = code.split(newline_regex);
-            computer.assemble(0, code_lines);
-        } else {
-            const code = $(".symbolic_code");
-            const code_innerHTML = Array(code.length);
-            for (let i = 0; i < code.length; i++) {
-                code_innerHTML[i] = code[i].innerHTML;
-            }
-            computer.assemble(0, code_innerHTML);
-        }
-        update();
-    } catch (err) {
-        clear();
-    }
-}
-
-/**
- * Cause the computer to advance one step.
- */
-function step() {
-    if (!computer.halt) {
-        computer.step();
-        update();
-    }
-}
-
-/**
- * Runs code for demo.
- *
- */
-function run() {
-    assemble();
-    computer.run();
-    update();
-}
-
 /**
  * Produces HTML for all the general memory registers of the computer.
  */
@@ -147,13 +100,6 @@ function update() {
     update_line_desc();
 }
 
-/**
- * Clear the computer's memory.
- */
-function clear() {
-    computer.clear();
-    update();
-}
 
 function update_line_desc() {
     let line_desc;
@@ -172,14 +118,33 @@ function update_line_desc() {
 /**
  * Sets up general elements of page when loaded.
  */
-function general_start() {
-    $('#run_button').on('click', run);
-    $('#clear_button').on('click', clear);
-    $('#assemble_button').on('click', assemble);
-    $('#step_button').on('click', step);
+function common_start() {
+    $('#run_button').on('click', () => {
+        computer.run();
+        update();
+    });
+    $('#clear_button').on('click', () => {
+        computer.clear();
+        update();
+    });
+    $('#step_button').on('click', () => {
+        computer.step();
+        update();
+    });
     $('#highlight_button').on('click', function() { highlighting = !highlighting; update(); });
 
     create_memory_display();
+}
+
+function reset(instructions, memory_value_pairs){
+    computer.clear();
+    computer.assemble(0, instructions);
+
+    if (memory_value_pairs !== undefined) {
+            for (const [memory_index, value] of memory_value_pairs) {
+            computer.general_memory[memory_index].fixed_point = value;
+        }
+    }
 }
 
 $(document).ready(start);
