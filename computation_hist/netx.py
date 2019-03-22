@@ -258,4 +258,4 @@ def graph_to_csv(graph,
 
 if __name__ == '__main__':
     graph = make_graph(debug=True, max_nodes=10)
-    graph_to_csv(graph)
+    fancy_network(graph)
