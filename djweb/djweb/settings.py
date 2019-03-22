@@ -160,5 +160,5 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.1/howto/static-files/ # These instructions do not work
 
 STATIC_URL = '/static/'
-
+STATIC_ROOT = '/assets/'
 MEDIA_URL = '/media/'
