@@ -1415,16 +1415,4 @@ class Assembly_Line {
     toString() {
         return this.instruction;
     }
-
-    get address() {
-        return this.instruction.address;
-    }
-
-    get tag() {
-        return this.instruction.tag;
-    }
-
-    get decrement() {
-        return this.instruction.decrement;
-    }
 }
