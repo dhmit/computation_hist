@@ -1,0 +1,34 @@
+-10~
+Fo instan C
+IS ance, time constants (To) of 4 x 30 4, 4 x 10“3, 4 x 10-2,
+
+-1
+4 x 10 » and 4 seconds are available. The machine contains the
+
+following Specilal units: a triggered electronice Switeh to
+
+quency distribution of a set of data. 1In additlion, there is
+provision for a large numbep of non-lineap Operatioﬁs. For
+the elementary linear Operations, accuracy of the computer has
+been held to within 0.1%. For many of the problems of prime
+Interest, the over-all accuracy is within 1%,
+
+For the feeding of information to the computer, there is
+available (1) a fiim Scanner which will read into the computer
+functions recorded on 33 mm. T1im, eoge =5 photograph of an
+©8cilloscope trace. (2) A curve tracer, an electronic sepvo-
+mechanism which follows a mask cut to conform to the shape of a
+desired function. (3) A digitai interpreterp which converts
+digital information from s punched paper Cape into a signal suit-
+able for input to the computer,
+
+Output systems include (1) a cathode ray tube for visual op
+photographic observation of solutions. (2) A peak-reading
+voltmeter which will give a Steady reading at any given point.
+(3) A two-coordinate plotter will permit graphical representation
+of the functional relationship between any two of the variables
+of the system with an accuraecy within 0.1%. (4) A digital
+interpreter will permit results to be typed by an electro-
+matic typewriter or punched on a paper tape.
+
+The machine has been applied to the following problems:

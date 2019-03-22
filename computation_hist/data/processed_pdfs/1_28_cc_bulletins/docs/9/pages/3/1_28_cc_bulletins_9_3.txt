@@ -1,0 +1,45 @@
+Page 3
+
+Computation Center lMemoranda
+
+The following memoranda of general interest are available in
+Room 2G-142,
+
+CC~143-1 An Edit Program for BCD Tapes, January 24, 1961 - A
+program for producing e new or up-to-date BCD tape fiom the original
+BCD tape and a deck of ALTER cards. A recoumeunded procedure for
+altering and maintaining a large program or programming system in
+symbolic form.
+
+such as the size of matrices, etc., may be specified at loading time
+by the user by the use of Hollerith definition cards.,
+
+———.——.—-—-—__“——
+
+February 27, 1961 = Solve the matrix equation Ax = B for tae matrix X
+and compute the determinant of A, Sce Subprogram Changes this Bulletin,
+
+Subprogram Changes
+
+The following modifications to subpirograms on the library tape
+have been made,
+
+F2PM - Now disables all traps and has been corrected so that NAME
+(ENTIRE) requests work properly. In addition, the output routines of
+F2PM were modified speeding them up by about 40%.
+
+(I1#S) and (STH) -~ Changes in these basic FMS output routines have
+speeded them up by approximately 40%.
+
+XSIMEQ and XDETR - Modified to set floating point underflows to
+zero, New version also takes less space than old,
+
+Open Files
+
+When using the open files of subprogram decks in the Processing
+Room, check the tab card preceding each subprogram set for the number
+of cards you should have,
+
+A list of the subprograms on the FMS library tape, the number of
+locations they require and the subprograms in their transfer vector has
+been compiled and is available in the Conrsulting Room, 26-153,

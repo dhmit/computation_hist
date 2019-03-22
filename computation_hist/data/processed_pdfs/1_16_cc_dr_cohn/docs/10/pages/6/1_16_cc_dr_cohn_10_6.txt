@@ -1,107 +1,298 @@
-HARVEY COHN.
+FHess
 
-912
-njugates of a single unit. Thus the
+W
+AAD A
 
-. taken as two co
-mental units of \D ofzfeabove) may equal only 2 or 8 (but never 4).
+A TAT S Yl iy A
+e rarararivar e sl ]
+A arars ivhods
 
-signature rank 7' (0
+ol e lats:
+) ') 7l
+.
 
-operator. We can now enlarge our (abelian)
-
-o a non-a elian one in the following manner; COnsi (1e?
-
-hypercgmlplex 81:32; 1 below ﬁeld K (so that 23 = 1), Then
-2 the a ms gr
-
-(23 1) PZS(P?:P2:P5)Z=( 2,223,121).
-
-of Preserving the sign pattern requires that a permutation
-
-Now the neecssity d by a permutation of columns as follows:
-
-of rows be balance
-
-¢Z= (12m, + (”W + (92)"3 + (“)1’
-
-(23. 2)
-Formally, then, We derive the commutator rules
-(23 3) axl=Zu3, agZéZag, aal =Za,, 1 . Z = Z1 1_
-
-Thus the juxtaposition of symbols 1’3 (whfre 0 S t S 2 and 8' belongs to
-the four—group); will have meaning as a (ﬁght) operator on 4’ and W111 m
-fact be isomorphic to the alternating group on four elements.
-Now if we consider a module equivalent to a normal module, then for
-every hypercomplex unit ail? (0 S j S 3), (of 21 above) We have three units
-belonging to the new hypercomplex system, namely. Z’a)E (0 S t S— 2)‘ In
-this manner the group (yr: of hypercomplex units In the enlarged system is
-determined from the group (50 of totally positive units as follows (compare
-(21.1)): .
-
-2 1 v 2
-(23. 4) 'r= l :2 (SW59 = l B: 2 :4 Z: E111]? 0232’ as“ ’ 1]
-
-Note that for r: 8 the fundamental units are shown as conjugates of a
-single unit while r=4 does not occur, in accordance with the conclusion
-of 22 above. In this way we obtain a group 65* whose multiplication rules
-can be given as follows:
-
-(23. 5) (Z‘ajE) (ZuakE’) = Z'WaiE'”
-
-where E”= (EZ")E’ and ai=akZ‘“a,-Z".
-
-Now, the only possible proportionalities that mix rows are those coming
-from the group 6?“, i. e., based on units, for the cube of any element of (3*
-is an element of 6}, hence based on a scalar unit. (See section 21).
+v
+Y
+v
+o
+.
+0‘4:1.4
 
  
 
-A PERIODIC ALGORITHM FOR CUBIC Forms 11
-. 913
+HARVEY COHN.
 
-24- Degenerate quaternary forms. On the basis of the last three sec
+912 : .
+es of a single unit. Thus the
 
-tions we are in a position to discuss the
-4’ namely quaternary form corresponding to
+en as two conjugat
+r 8 (but never 4).
 
-(24.1) <I> = “(7”th + "1291+ min + mm)
+can be tak
+A may equal only 2 0
 
-Several diﬁerent <I> can correspond to a single 45 under permutation of th
-(7”,), according to the signature rank r of the units in the order 9 8
+] units of
+mental U (of ol )
 
-Case I: 5))? not equivalent to a normal module. Here r: 2 4 or 8 and
-r 1
+signature rank 7
 
-every (I) is one of a set of r/Z (i. e, r/2 diﬁerent “points” in the “chain”
-diagrams of 12)-
+large our (abelian)
+roup operator. Wg can Nnow .en
 
-Oase II: SUB equivalent to a normal modulo. Here r=n2 or 8 and
+93. Use of tGril:i: fnon?abelian one in the following manner: Consider
+hypercgmlpl.exgi);i; operator for our abelian field K (so that Z®=1), Then
+Z the Galo1s
 
-every 41> is one of a set of 37/2 except when the qs is proportional (row by row)
-to one in which three of the quantities P, Q, 13,5 are conjugates. (In the
-exceptional case (I) is one of a set of r/2 again).
+(23.1) pZ — (psy p P9)Z = (P P Pa)-
+serving the sign pattern requires that a permutation
 
-In the table [7, p. 832] we ﬁnd evidence of some of these cases for
-r= 81 Case I corresponds to A2 = 148, while Case 11 (or its exception)
-corresponds to the proportionality classes that occur by twelves (or by fours),
-Note that the module for A2 = 196 is neither an ideal nor normal, yet the
-correspondence “ by fours” means it must be proportional to a normal
+rmutation of columns as follows:
+
+L (PZ)a + (Q2)a: + (SD)1,
+
+Now the neecssity of pre
+e balanced by & P€
+
+of rows b
+
+(23.2)
+
+Formally, then, we Jerive the commutator rules
+1 : Z ] Z » 1.
+
+(23. 3) 01Z = Zas, agZ ==’ Zas, a3Z g— Zal,
+
+Thus the juxtaposition of symbo.ls Z'g (whfere 0= t‘St 2 and g belongs '.50
+the four-group), will have meanu}g as a (right) operator on ¢ and will in
+fact be isomorphic to the alternating group on four elements.
+
+dule equivalent to a nmormal module, then for
+
+. if we consider a mo
+Now 1 < 3), (of 21 above) we have three units
+
+hypercomplex wit GE (0=71= . |
+new hypercomplex system, namely ZtaE (0<t<2). In
+
+of hypercomplex units in the enlarged system is
+of totally positive units as follows (compare
+
+every
+belonging to the
+this manner the group G*
+determined from the group ®,
+
+(21.1)): :
+[1,Z,2°] X [a.F, a,EZ, a,FZ% 1]
+
+Rhees o AN
+(23.4) r=§2,@ /@"";[I,Z,Zz] X [1].
+
+Note that for » — 8 the fundamental units are shown as conjugates of a
+
+single unit while 7 =4 does not occur, in accordance with the conclusion
+of 92 above. In this way we obtain a group ®* whose multiplication rules
+
+can be given as follows:
+
+(23.5) (Zta;D) (Z*a E') = Zt+va, B’
+
+where B” = (EZ*)E’ and a;= aZta;Z".
+
+Now, the only possible proportionalities that mix rows are those coming
+from the group %, i.e., based on wunits, for the cube of any element of ®*
+is an element of ®, hence based on a scalar unit. (See section 21).
+
+ 
+
+A PERIODIC ALGORITHM FOR CUBIC FORMS II 91
+; 3
+
+24. Deg.enerate quaternary forms. On the basis of the last three se
+tions we are in a position to discuss the quaternary f .
+: o y form corresponding to
+
+(24.1) ® = IL(mapi + Maqs + mars + mysy), 1<i<3
+
+Several different ® can correspond to a single ¢ under permutation of the
+(m;) 5 according to the signature rank » of the units in the order 'Y
+
+Case I: M not equwalent to a normal module. Here r—2.4. or 8 and
+2. =3
+
+every ® is one of a set of 7/2 (i.e., /2 different “ points” in the chain ”
+diagrams of 12).
+
+Case IT: M equwalent to a mormal module. Here r=2 or 8 and
+every @ is one of a set of 3r/2 except when the ¢ is proportional (row by row)
+to one in which three of the quantities P, Q, R, S are conjugates. (In the
+exceptional case @ 1s one of a set of r/2 again). |
+
+In the table [7, p. 832] we find evidence of some of these cases for
+r—8. (ase I corresponds to A* =148, while Case II (or its exception)
+corresponds to the proportionality classes that occur by twelves (or by fours).
+Note that the module for A? = 196 is neither an ideal nor normal, yet the
+correspondence “by fours” means it must be proportional to a normal
 module (with even a normal basis). The numerical work is being carried
 much further than in Part I, but it will be the subject of a separate report.
 
-25. Concluding remarks. In Part I, Section 2. a modiﬁed quadratic
-simple continued fraction algorithm was outlined, It turns out to be more
-conventional than ﬁrst thought, in fact it is equivalent to the continued
-fraction algorithm with the “ mediant ” fractions thrown in. The geometrical
-Construction given in 2 can be seen to be a variation of Smith’s construction
+25. Concluding remarks. In Part I, Section 2, a modified quadratic
+simple continued fraction algorithm was outlined. It turns out to be more
+conventional than first thought, in fact it is equivalent to the continued
+
+fraction algorithm with the “ mediant ™ fractions thrown in. The geometrical
+
+. . - . . . "‘ - .
+construction given in 2 can be seen to be a variation of Smith’s construction
+
 [10].
-
 In Part III, the concluding portion, we shall treat the algorithm as a
-means of discovering “ small norms” (analogously with the Pell Equation)
 
-Errata for Part I (i. e., [7]).
+means of discovering “small norms 2 (analogously with the Pell Equation).
 
-Page 828 line 7, a should read a‘
-line 18, [1,11, should read pit]:
-830 line 16, ———1.25 should read 1.25
+Errata for Part I (i.e., [7])-
+
+Page 828 line 7, a should read 4
+line 18, p,q: should read 2192
+830 line 16, — 1.2 should read 1.25
+
+ 
+ 
+ 
+
+2 Y0
+W
+
+; » 5
+
+.o u
+i S
+
+ 
+ 
+ 
+
+—
+
+‘
+T
+
+.,
+
+   
+  
+   
+  
+    
+ 
+  
+   
+   
+ 
+
+ 
+
+ 
+
+Y.
+S v 7
+
+"
+
+ 
+
+A .
+-
+
+.
+I
+Wil
+i LA
+
+ 
+  
+
+Lt G GihhhnYy
+ATy
+,
+R
+‘ Yala¥s?
+A48 aT,
+
+  
+
+e
+N 5
+Ty es 1}55‘
+
+£
+=
+P T
+
+idJ0
+L'y
+
+5-"
+
+X
+
+'y
+ey
+{a y l' 1
+Uafelatls?
+{ ."..’.-',r‘ .r'l'.
+
+1Yee
+PEN 1
+/
+e
+’/
+
+\\.
+.
+aa
+-
+.‘\
+.
+‘..
+.o
+-
+>
+"
+-
+<
+.
+»
+-
+L
+-
+
+:",',‘ .
+LU
+
+-
+.
+»
+)‘.
+-
+.
+.
+-
+
+J ’
+Y (ol i 7./
+Aty - g oA e
+t' Sl el b s el
+
+v g r v .
+
+4 . ”
+et e bt e v v
+S STt e e
+'
+
+’
+e e ' . .
+
+a - E ' .
+J N

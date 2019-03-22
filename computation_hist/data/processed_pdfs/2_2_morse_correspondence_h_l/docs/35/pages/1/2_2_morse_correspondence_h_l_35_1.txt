@@ -1,0 +1,138 @@
+I. INTRODUCTION
+
+XPERIMENTAL data on spinels indicate that the
+distribution of cations over tetrahedral and octa-
+hedral sites cannot be explained on the basis of electro-
+static and elastic energies alone. Electronic bonding
+energies must be considered. Also, no explanation has
+yet been given for the difference beween Fe;O4, which
+alone transforms on cooling from a cubic to an ortho-
+rhombic spinel at a relatively low transition temperature,
+and other spinels, such as Mn3O4, ZnMn,O4, CuFe,0y,
+which become on cooling tetragonal at a relatively high
+transition temperature. The tetragonality of metallic
+indium and of Caln;O4 and CdIn,O4 have never been
+explained. For hausmannite there has been no definitive
+selection between the formulas MnO - Mn,03 and 2MnO
+-MnQ,. The difference in resistivity discontinuities
+through the transition temperatures of I‘e3O4, on the one
+hand, and Mn;O4 and ZnMn,O4, on the other, has not
+been explained. Neither has any explanation been given
+for the fact that Mn3O4 1s paramagnetic at least down
+to 72°K despite the large magnetic moments of Mn**,
+Mn**t, and Mn** ions. In this paper it is suggested that
+covalent forces are responsible for the above effects. A
+new magnetic-exchange mechanism, “semicovalent
+exchange,” is proposed.
+
+II. IONIC ORDERING
+A. Description of Spinels
+
+Many oxides consist of a face-centered cubic lattice
+of O*~ ions which is held together by interstitial cations.
+There are two kinds of interstices between the elements
+of such a lattice, tetrahedral interstices with four nearest
+neighbors and octahedral interstices with six nearest
+neighbors. If all the tetrahedral sites are empty and all
+the octahedral sites are filled, the crystal has the rock-
+salt structure; if only tetrahedral sites are occupied, the
+crystal has the zinc-blende structure. In oxides with
+the spinel structure there are cations in each type of
+interstice ; twice as many octahedral as tetrahedral sites
+are occupied. The spinel lattice may be thought of as
+
+ 
+
+ 
+
+* The research in this document was supported jointly by the
+Armyv, Navy, and Air Force under contract with the Massa-
+o 73
+chusetts Institute of Technology.
+
+Reprinted from THE PrysicaL Review, Vol. 98, No. 2, 391-408, April 15, 1955
+Printed in U. S, A.
+
+Theory of Ionic Ordering, Crystal Distortion, and Magnetic Exchange
+Due to Covalent Forces in Spinels*
+
+J. B. GoopENouGH AND A. L. LoEB
+Lincoln Laboratory, Massachusettls Institute of Technology, Lexington, Massachuseils
+
+(Received September 1, 1954)
+
+Elastic- and electrostatic-energy considerations are insufficient for an explanation of cation ordering
+between tetrahedral and octahedral sites in spinels. Tetrahedral, octahedral, and square covalent bonds are
+also important when cations are to be accommodated in these sites. The square bonds in octahedral sites
+can cause the tetragonal distortion observed in Mn;Oy, v-Mn20;, ZnMn20,, CuFe:04, CuCr.04, Caln,Oy,
+CdIn,04, and metallic indium. A new magnetic exchange mechanism, “semicovalent exchange,” which is
+consistent with the covalent model, is used to explain the magnetic properties of spinels.
+
+an ordered mixture of the zinc-blende and rock-salt
+structure.
+
+There are two general classes which have the spinel
+lattice, the 2-4 spinels with the formula 2X*+0Q.Z*0,
+and the 2-3 spinels X**0O-Y**0;. In order to describe
+the cation distribution, these formulas may be written
+as Z(X)04 or X(ZX)0O4 and X (Y304 or Y(XY)O,,
+where the ions within the parentheses occupy octahedral
+sites. If there is only one kind of cation in the octahedral
+sites, the spinel is called normal. If there are equal
+amounts of both kinds of cations in the octahedral sites,
+the spinel is inverse. If there is an unequal number of
+each kind of cation in the octahedral sites, the spinel is
+mixed.
+
+B. Critique of Previous Work
+
+Since the physical properties of any spinel depend
+not only on the kind of cations in the spinel but also on
+their distribution within the interstices, it is important
+to understand what forces are responsible for cation
+ordering within a lattice. Verwey and his co-workers''
+have made a study of the cation arrangement in oxides
+with spinel structure. A summary of the experimental
+determination of cation location is given in Table I.
+
+Since the observed cation distributions do not always
+
+LE. J. W. Verwey, Z. Krist. 91A, 65 (1935).
+
+?van Arkel, Verwey, and van Bruggen, Rec. trav. chim. §5§
+331 (1936).
+
+3 Verwey, van Arkel, and van Bruggen, Rec. trav. chim. 55,
+340 (19306).
+
+{E. J. W. Verwey and J. H. de Boer, Rec. trav. chim. 55, 531
+(1936).
+
+5 J. H. de Boer and E. J. W. Verwey, Proc. Phys. Soc. (London)
+49A, £59 (1937).
+
+¢ Verwey, Haayman, and Heilmann, Philips Tech. Rev. 9, 185
+(1947).
+
+TE. J. W. Verwey and E. L. Heilmann, J. Chem. Phys. 15, 174
+(1947).
+
+8 Verwey, Haayman, and Romeijn, J. Chem. Phys. 15, 181
+(1947).
+
+9 Verwey, de Boer, and van Santen, J. Chem. Phys. 16, 1091
+(1948).
+
+10 de Boer, van Santen, and Verwey, J. Chem. Phys. 18, 1032
+(1950).
+
+11 T. H. van Santen, Philips Research Repts. 5, 282 (1950).
+
+2. W. Gorter, Compt. rend. 230, 192 (1950); Nature 165,
+798 (1950).
+
+B3I, J. W. Verwey et al., Z. physik. Chem. 198, 6 (1951).
+
+14T, C. Romeijn, Philips Research Repts. 8, 304 (1953).
+
+391

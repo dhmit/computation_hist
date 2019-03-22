@@ -1,0 +1,40 @@
+July 20, 1960
+
+Dr. Arthur Grad
+National Science Foundation
+Washington 25, D. C.
+
+Dear Arthur:
+
+I enclose a draft of the Report of the Chicago
+meeting of University Computing Center Directors. It was put
+together from the Panel reports, and has been checked with all
+the Panel Chairmen now, so it will shortly go to press. As
+you can read, the main Report wlll be accompanled by eight
+appendices, giving attendance, agenda and Panel reports with
+discussion. I hope you like 1t and that it will be of use to
+you @
+
+We will prepare enough copies of the complete Report
+plus Appendices to send one to each Director who was invited
+to the Conference, plus about 200 extra to take care of later
+requests. We will also make 100 to send you; if you would like
+more, please let Frelberger know soon.
+
+In addition, as I mentioned to you at the Conference,
+Perlis suggested, and we agreed, that we have the Report, with-
+out the Appendices, printed in the Communications of the ACM.
+We will order reprints of this, to send to people who don't want
+to read all the detalls in the appendices. If you want coples
+of the reprints, please let Frelberger know soon.
+
+Yours,
+
+Philip M. Morse
+
+PMM: 1lwh
+Enclosure
+
+cc: Prof. Frelberger
+
+

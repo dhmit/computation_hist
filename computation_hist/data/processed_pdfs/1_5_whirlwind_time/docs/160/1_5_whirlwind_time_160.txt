@@ -1,0 +1,30 @@
+~ April 6, 1955
+
+Mr. J.D. Fortier
+
+Head, Scientific and Engineering Group
+Digital Computer Laboratory |
+Massachusetts Institute of Technology
+Cambridge, Massachusetts
+
+Dear Mr. Porter, :
+
+The Operations Research Group is interested in evaluating the state
+probabilities of a very general multi-phase multi-channel waiting line
+problem, It eppears that the solution is feasible with tae aid of WWI.
+
+The initial phase of this problem will require ebout three (3)
+hours of computer time and will be programmed by Robert Oliver of the
+O.R. Group.
+
+The 0.R. Group would appreciate the availability of this amount of
+time.
+
+If the initial calculations are satisfactory, more time will be
+requested for the complete solution of the problem.
+
+Sincerely,
+
+P.M. Morse
+
+

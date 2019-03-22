@@ -1,121 +1,237 @@
-ALMOST-ALGEBRAIC NUMBERS 1043
+-
+-
+-
+-
+-
+-
+o
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+a
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-~
+-
+-
+.0
+Ffree
+- -
+Frw
+-
+*, -
+-
+-~
+-
 
-the partial sums. Thus the root of our power series must be transcen.
-dental By this method we can obtain some transcendental numbers
+“- ‘>
+'...' "
+T
 
-which seem to have previously escaped notice.
+"y Ul e falelalatar
 
-2 Approximation of a ﬁxed algebraic number by an arbitrary alge-
-braic number. We let 0 be aﬁxed algebraic number of degree n whose
-denominator is in, that is, 9 satisﬁes the equation thh Integral co-
+‘ v Y fals] x”
 
-efﬁcrents (1.9" + h n_, + . . ‘ + h. = 0-
+“'ﬁ i) Y et Jalaly iy
 
-We Consider a the root of an arbitrary polynomial with integral coefﬁ-
-cients
+1', / S p) ‘ ol . V! )
+A
 
-¢(x) = fax“ +f1xm—l + ‘ “ +fM-
-Denoting maxim by A [¢(x)], we shall measure‘the closeness of a
+/
+v
+1/
+it
+4
 
-to 0 by the smallness of M0) in terms of A [4:(x) ].
+- > .
+e
+'~‘\Q_..‘ ‘;’\’
+s Y
+SRS ,,‘.-' a2
+-~
+"-‘\ - - 4.
+e
+-
+-
 
-NOW setting 50:) =foxm+fitox"’“+ - ' ' +fol3", we ﬁnd 42(0) can be
-written as ﬁlm/13‘, where M is an algebraic integer. Thus if we multi—
-ply¢(9) by its conjugates, we obtain
+-
+-~
+-
 
-(2) FUN) = {Haw/1:2 Maw/t3“.
+-
 
-where M[¢(0)] is an integers If ¢(0)7€0, then the same inequality
-holds for the conjugates of 0 and thus
+'\.
+.
+S N
 
-(3) {Mine}! 2 1.
-For any conjugate of 0, we ﬁnd easily
-<4) I ¢(9’) I s A new)”.
+e
+-
+T
+A .
+B
+..
+T
 
-where T, is a constant determined by 6.
-Hence if ¢(€);£0, we obtain from (2), (3), and (4)
+1905
 
-n—l yum—1)»...
-lawn a 1/{<A[¢(x>]> T1 tn
-In short, ifﬂ is algebraic af degree n, then for an arbitrary polyno-
+’
+........
+,,,,,,,,
+'
+....
 
-mial ¢(x) of degree in with integral coeﬁicients no grealer than A [¢(x)]
-in abralnle value,
+----
 
-(5) | ¢(e) | {
+v
+""""
+Ly
 
-=Oor
+rrrrrr
 
-n—) m
+HARVEY COHN.
 
-; 1/{(A[¢<x)]) T2 }.
+404
+icular modular f :
+9. Outline. We choose as flh(:) pa;::curz; o unetions 1 i
+caré theta functions, f(2), defined by p
 
-where T2 depends only on 9. We should note in passing that if 4906)
+(@ + D)/ (en + D) = (ea+ A1 (z),
 
-~ —p+qx, then (5) is Liouville’s theorem.
+(1) e generalizes the behavior of Jacobi theta functiong, We
+aLh}>1rlopert)’as our starting point some well known results of Poinegy [6
+shall use :
 
-. 3. Construction of transcendentals. We shall construct a power se-
-ries <7(x)=anx‘"+a,x“+azx"+ . - » (age), where a,- are rational
-fraCt10n57./31(¢O).and er are increasing integral exponents. For sim-
+ize 1 tion.
+marize in the next sec
+o functions interest us because they have the a W
+d as infinite series whose individual terms often e
 
-s—T Kur
+tial singularities. For instance, we can take the Bisey,
 
-1044 HARVEY COHN
+which we sum
 
-[December
+Poincaré thet
+being easily obtaine
+the behavior at essen
 
-plicity set do =1i Let tn.(x) be the hth partial sum (up to and including
-the exponent 61.). Then of the coefﬁcients a.- in a'h(x) let gh be the
-maximum [ail (gr; 1) and let (1;. be the least common multiple of
-the denominators Si in «71.06). Then if as h—> cc, eh“ is of a higher order
-of inﬁnity" than eh, log gr, and log dr, we ﬁnd that 0(x) is transcen-
-dental for all algebraic x wilhin its circle of convergence, except x=0.
-To see this, let x take the algebraic value 6 of degree it within a
-circle of convergence of radius p. W’e suppose E(a) to be an arbitrary
-polynomial of degree k with integral coefﬁcients of which the greatest
-has the absolute value A [E(cr) ]. Then we wish to show E(a'(0)) #0.
-First we write E(r7(x)) as partial sum and remainder
+stein series,
 
-150106)) = 15071.03) + Ri(x).
+(2) Fzm(z) . (CZ — d)-2m
 
-Now (1)506) =(l,.E(o’;.(x)) is a polynomial of degree kc}. with integral
-coefﬁcients. It‘s maximum coei’ﬁcient A [m(::)] easily satisﬁes the con-
-(lition
+(e,d)7#(0,0)
 
-A [are] s dl‘ 2A [Eia)l(h + 1)};
+where (c,d) runs over all integer pairs e)fcepF (0, 9), and .whc.arc.; m is g
+integer = 2. This is a Poincaré theta funct.lon in which each individual te,
+becomes singular only at one rational point, z = p/ q.' At such a point,
+F.u(z) behaves like (z— p/q)~*" if z approaches p/q 1In a Stolz neighhor.
+hood? at p/g. Rational points, furthermore, are characterized by thi
+behavior, as we shall see in subsequent paragraphs.
 
-(-0
+I we were interested in the behavior of modular functions at z=j
+where @ is a real number whose continued fraction expansion possesss
+bounded partial quotients, we would find it natural to consider a sum of th
+type 3(4z* 4 Bz+ C)~*", where the summation goes over all forms equi
+valent, in the classical sense, to a given indefinite form. This, too, woull
+generate a Poincaré theta function. The individual terms of its series hav
+singularities only at certain real quadratic irrationals, which assuredly hav
+continued fractions with bounded (in fact with ultimately periodic) partil
 
-”A
+quotients. We shall single out for special attention the more conglomeras
+Poincaré theta function,
 
-11:02 + 1)A [E(a)J(h + if}:
+(3) 2 (24 (a4 d)z 4 )2 = Gon(2),
 
-since any coefﬁcient in the polynomial ¢I.(x) is less than the value this
-polynomial assumes when we replace each a.- by g and set x=1.
+ad-be=1
 
-Furthermore, since E(o') has only a limited number of roots,
-E(cr/i(0)) can not vanish for all h. For, when 11 changes to h+1, 071(0)
-changes by ahHQ‘M‘, which approaches zero ash approaches inﬁnity,
-although this term never vanishes, 0:0 having been excluded. Thus
-by (5), for an inﬁnity of values of h,
+where the summation extends over all “ substitutions ” in the modular group.
+This function behaves at real irrational numbers 6 whose continued fractios
+have partial quotients like O(z—8)-*m as 7 approaches 6 in a Stolz neigle
+borhood. Tn fact when m — 6, and only then, the behavior is > (z—6)™
 
-Munro»! 2 {de + 1M [Elma + 1>kgi}‘"“T;k“
-But since 12 can not exceed 2‘A (or even eh), we can simplify the last
+T —
 
-inequality and obtain
-i» —(n»1‘,k -9},
+*A St i : '
+pranes bo:rl:l at‘:’y‘lzllb;)r:'xood of 6, in the present context, is a region of the 2-plane with
+AS 0. Point and contained in a sector of the form /| o—0|> \, wher
 
-(6) l 12am» 1 a di" gr. Ta .
+* We write £(2)
 
-where T3 depends only on 9 and on E(a) as a polynomial in cr.
-On the other hand Rh(0)=E(U(9>)—E(Jh(9)) and, by elementary
-considerations,
+s ~g\z —
+remains bounded gy (2) or f(z) x
 
-(7) 11m)! g m (7(9) — man s T5! (WM/<1 — 9/»1
+9(2), wh a constant o
+ay from 0 and i ), when f(2)/g(2) approaches
 
-where T5 is determined by 0(x) and E(a), independently of ll.
+nfinity, respectively.
 
  
 
-‘5 If we have two quantities n and v each depending on h we say a is oi a higher
-order of inﬁnity than 1} if u/vﬂw with h.
+SOME DIOPHANTINE ASPECTS OF MODULAR FUNCTIONS 4
+: 05
+
+As we shall note later on,
+this type of irrational.
+
+It should be pointed out, however, that the term b
+which we guess at the behavior near essentia] singulari
+be readily supported. True, we can justify the term b
+regard to the rational singularities of F,,(z), but we shall not even attempt
+by a term by term analysis to explain how G2m(2) can vanish identically zs
+it does when m =2,3,4,5,or7. We shall, therefore, have to rely’ on
+function-theoretical as well as analytic methods, expressing Poincaré theta
+functions in terms of the better known elliptic modular function J(z).
+
+We shall see that the results applying to Fyn(z) and Gam(2) are just
+special cases of results for general theta functions, which we shall establish
+
+presently. We shall also see that the asymptotic behavior, to a certain
+extent, can describe the function and the singularity.
+
+this 0T ] ] -
+behavior is also, in a sense, characteristic of
+
+y term analysis by
+ties can not always
+Yy term analysis with
+
+3. Preliminary results on theta functions. We shall now collect some
+results on the convergence of Poincaré theta functions. These results are
+either proved in the literature or are immediate consequences of such results.
+
+The modular group defined in 1 is generated by the substitutions
+2—>2z-+ 1and z— —1/z. It has a fundamental domain D consisting of the
+region ®* of the upper half plane defined by the inequalities |z| > 1 and
+| Rz | < 3, together with the boundary points of ®* identified according
+to the two transformations z—2 4+ 1 and 2——1/2. Every point z of the
+upper half plane is equivalent, modulo the modular group, to a single point
+in the fundamental domain ©. (The point at infinity, being a boundary
+point, is excluded from the upper half plane.)
+
+We define the elliptic modular function, with Dedekind, as the function
+J(z) which maps the fundamental domain onto the whole z-plane so that
+J(o) =00, J(t) =1, and J(3(1 4 1V3)) =0. The mapping function,
+J(z) by virtue of the shape of the fundamental domain, will take on the
+value unity twice at z =1, and will have a triple zero at z=3(1 4 ©V3).
+As 3z becomes infinite, J(z) likewise will behave like
+
+(exp — Rariz) (ko + ky exp 2miz + ko exp 4miz 4+ *).
+
+The exact value of k,, namely 1/1728, can not be immediately inferred from
+the shape of the fundamental domain, but we shall concern ourselves only
+with the more evident fact that ko, 5= 0. From its definition, J(2) is invariant
+under the modular group. It can be further shown that any single-valued

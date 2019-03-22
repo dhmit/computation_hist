@@ -1,156 +1,125 @@
-Problem ”0
-
-729
-798
-819
-824
-852
-858
-
-897
-
-906
-910
-911
-912
-913
-914
-915
-
+Problem No. Laboratory
+729 CMM
+798 LNS
+819 CNMM
+824 AL
+852 JCS
+858 RLE
+888 s
+897 LNS
+205 LNS
+206 RLE
+910 RLE
+011 AL
+912 LNS
+913 RLE
+914 RLE
+915 ~ CMM
 Laboratory
 
 Hours Employed
 
 Hours Used
 Computing
-Cwﬂmad
-$33k. Leave
+Overhead
+Sick Leave
 Vacation
-Chases
+Classes
 
-Tutsi
+Total
 
-Hunts Na: Used
+Hours Not Used
+Hours Overdrawn
 
-Ham‘s {Nerdmwn
-
-Laboratory
-
-CMM
-LNS
-CW
-
-5
-RLB
-
-13$
-
-RL8
-RL3
-
-RL3
-RLE
-CMM
-
-Cumuﬁavive ﬂours NM Maud
-Cumtemiive Hears Ovardmm
+Cumulative Hours Not Used
+Cumulative Hours Overdrawn
 
  
 
 Joint Computing Group
 
-Time chord
+Time Record
 July 1956
 
-Remand by
+Requested by
 
-L. Smart
+L. Sartori
+
 H. Feshbach
-P. Moran
+
+P. Morse
 
 R. Lyon
-
 T. Schultz
-A: Glhrdini
+
+A. Gilardini
+
 L. Allen
 
 R. Baninger
+
 L. Rodberg
-M. Pour
+M. Peter
+A. Bers
 
-A. Bets
+D. Pridmore Brown
 
-D. Prldmore Brown
 J. Riese
-
-F. Thus
-
+F. Tung
 J. Young
+j. Uretsky
 
-1. Uretsky
+Time Distribution
 
-Time Distribuﬁon
-AL RLE
+AL
 
-84 429
+84
 
-9..
-M gas
+RLE
 
-OGOnm
-1
-Id
-octane:
+429
 
-160 241
+205
+
+~3
+20
+
+OO0
+
+241
+188
 
 882
 
-484
+Hours in ‘Total hours
+July to date
+1 1669
+88 2529
+125 1373
+84 268
+130 521
+& 122
+215 254
+2 146
+77 125
+25 184
+163 218
+H4 79
+T4, 119
+G 43 -
+4 &
+6 6
+LNS JCs CMM
+484 84 168
+239 348 132
+31 3 16
+6 7 &
+40 10 10
+0 0 0
+316 366 166
+168 2
+282
+1159
+598 88
 
-239
-31
-
-40
-
-316
-168
-
-88
-125
-84
-130
-
-215
-
-Hours in
-July
-
-Total hours
-to data
-
-1669
-2529
-1373
-265
-521
-122
-254
-146
-125
-184
-218
-79
-119
-
-CMM
-
-168
-132
-16
-
-10
-
-166
-
-aim-221's Campbell
+Elizabeth Campbell

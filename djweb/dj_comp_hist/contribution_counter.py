@@ -1,5 +1,6 @@
 import csv
 
+# TODO: move elsewhere, since not used in Django app
 
 def contribution_counter(metadata="metadata.csv"):
     """

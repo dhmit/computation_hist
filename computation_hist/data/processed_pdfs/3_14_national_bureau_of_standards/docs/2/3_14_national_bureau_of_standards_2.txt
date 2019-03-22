@@ -1,0 +1,62 @@
+a
+
+-
+1
+i s
+
+rd
+Se
+
+Dr. John Todd
+ze 3. Department of Commerce
+ANational Bureau of Standards
+washington 25, D.C.
+
+Dear Dr. Todd:
+
+Professor Morse has
+
+getting settled down.
+
+ 
+
+In particular I am compl
+matrix diagonalization subroutine using Jacobit's method:
+(which we like very much because of 1it
+this subroutine can, of course, be use
+non-singular matrix and I intend to prepare this form of the
+program too. (Ultimately these programs when fully checked
+will be submitted to SHARE for distribution.) I will be glad
+to send you some Of the results fr
+
+October 4%, 1957
+
+Subject: File No. 11.1
+
+shown me your letter of
+
+July 16 in which you inquire about matrix inversion techniques.
+Tnasmuch as our 704 began operation in June, we are just
+
+eting a real, symmetric,
+
+g trouble-free nature)
+d to invert any real,
+
+om the matrices you suggest
+
+whenever I get them. It would be appreclated 1f you could
+send any reprints of the results which you presented at the
+
+recent Wayne University Conference.
+
+FJC:RM
+Copy to Professor Morse
+
+ 
+
+Sincerely,
+
+wr. J. Corbath
+
+

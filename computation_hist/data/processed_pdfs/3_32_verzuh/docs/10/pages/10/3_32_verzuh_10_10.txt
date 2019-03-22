@@ -1,123 +1,72 @@
-Elee. mag. Degt.
+Group
 
- 
+Prof. To Fo Jones
 
-Eleo. 35. Degt.
+Elec. mss. DOEto Profe Do A. Huffman
 
- 
+Eleoc. %o Deg‘b. Prof. E. Ho Boehne
 
-Servo Leboratog
+Mr. Ho M. Teager
 
-Feedchk Control Lab.
+Prof. Go Newton
+Mro Jo V‘ard
 
- 
+Servo Laboratosz
 
- 
+Feedback Control Lsbe.
 
-m _¥_Ana1 sis 323»
+M& Analzsis Lebo
 
- 
+Eleoc. E_nga. Dept. Prof. C. Ec Tucker
 
-Bloc. E5. Degto
+Mro. Ho Eo Laurencs
 
-      
-   
-      
+=The
 
-  
-
-Prof. I. F. Jones Integrator a» Setting Mechanism
+Integrator & Setting Mechanism
 Decade Differential
 Counters
 
-Tape reading melanin-I
+Tape reading mechanisas
 
-  
-     
- 
-
- 
-
-_.._._...__.______ ...__.._.________-—_—._
-
-  
-    
-    
-      
-   
-   
- 
-    
- 
-      
-     
-   
-   
- 
-    
-
-  
-
-Western Electric Relay-
-Crolsber snubs-(10 vertﬁ pt)
-" " (20 vert,4 pt)
-mitieontaotors (80 pt)
+Western Electric Relays
+Crossbar Switches(10 vert,8 pt)
+2 = (20 vert,4 pt)
+Multicontactors (60 pt)
 Stepping Switches
-Motor Gena-ator Set:
+Motor Generator Set:
 25 hp Induction Motor
-48v Generatin-
+48v Generator
 250v Generator
 Main Power Control Panel
 
-Prof. D. A. Hufhnan 718
+Western Electric Relays
+Crossbar
+Multicontactors
 
-OOOIOIO
+Western Electric Relays
+Crossbars (10 vert, 3 pt)
+Crossbars (20 vert, 4 pt)
 
-  
-   
-  
+Input Tables
+Vector Units
 
-  
+Function Units
+Decade Differentials
 
- 
+Western Electric Relays
+Crossbar Switches (10 vert,6 pt)
+Multicontactors
+Motors
+22 gauge Telephone Viire,
+3200 ft. reels (color coded)
 
-  
-    
- 
-     
-    
- 
-   
-  
+Digit Decade Differentials
 
- 
-    
+-—------*—-~-_-—----‘-—--.--__-
 
- 
+W O~
 
-     
-       
-   
-       
- 
+718
 
-Prof. E. H. Boohne Western Electric Relay- 70
-Crossbar 1
-Multioontaota' e 5
-Mr. H. M. Teager Western Electric Relays 25B
-Crossbars (10 vert, 3 pt) 8
-Crossbars (20 vert. 4 pt) 6
-Prof. G. Newton Input Tables 2
-Mr. Jo Ward Vector Unite 2
-Prof. P. E. Smith Function Units 4
-Decade Differmtinle 2
-Dr. N. Seifert 4
-Profo 6. En Tucker Westwu Electric Relays 590
-Crossbar Switches (10 vert,6 pt) 20
-Multiconteotore 60
-Meters 12
-
-22 gauge Telephone Wire.
-3200 ft. reels (color coded) 25
-
-Mr. H. E. Laurence Digit Decade Differentials
+H- oo ®

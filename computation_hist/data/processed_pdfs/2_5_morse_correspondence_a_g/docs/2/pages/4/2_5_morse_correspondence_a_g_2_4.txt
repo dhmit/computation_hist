@@ -1,2 +1,39 @@
-”Clam-y to Hui it
-mortal is (,3 b. :3! .
+The fourth address specifies on which of the following ocutput
+anits the ocutput wili appear:
+1) The on-line priamter,
+2) The on-iine punch,
+3) A magnstic tape recorded for primting using the tape-~
+to-printer,
+4) A magaetic tepe for puasching usiag the tape-to-punch.
+
+The operator basg the ability to chsage from wn-iine to off-liane
+and vice versa.
+
+Remazks placed on the sysbolic request card or on a special re-
+marks card roappear at start of the output for that request to pro-
+vide for labeling results.
+
+in use, the post-moytem routine is stored permaneniliy oz a tape
+unit sod celled inte operation by pushing the load tape button at the
+console or by the programmed eguivalent to this, As the post-aortes
+routine cooes inte cores, all but fLive registers of core memory are
+saved by writing them on another tape unit. Also, insofar as it is
+possible, the status of the varieus indicators and registers of the
+arithmetic slement are gsaved and later recorded at the start of the
+Futput .
+
+Finglly, there is o roquest card which will cauge core ReRGYy
+and the srithmetic element (except for the B9 and instruction loos-
+tion counter) to be restored to their original values and control to
+be trensferved to any dosired address.
+
+Fature FOVORGNTS
+The first improvement we wish to make is to provide for post-
+sorteming tepes and dyums, We also wish to modify the Share Assea-
+bly Program 8¢ thet 1t will reocognize post-mortesm roquest cards aod
+ccmpile suitable calling suguences whichk, when exscuted, would call
+the post-morten routine iato atorage to do the desired post-aortea.
+This was the reased we chose to uge the Share sysbolic card forsat
+for the reguest cavds, Also W wish the sssembler to store the
+syabol table op tape so that it will oot be necessary to read it
+in from caxds each time a post-morten is to bHe dono,

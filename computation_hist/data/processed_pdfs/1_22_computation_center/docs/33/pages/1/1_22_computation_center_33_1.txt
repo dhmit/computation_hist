@@ -1,0 +1,43 @@
+CC-26
+Supplement 1
+
+MIT COMPUTATION CENTER
+
+Memorandum
+
+Subject: Tape and Drum Post-Mortems in the Operator Program
+by Sheldon Best and Frank Helwig
+
+WM
+The postamortem routine contained in the operator program
+
+should be able to post-mortem tapes and drums. The following
+abilities are proposed: |
+
+1. Requests fbr~drum_post=m6rtems should be exactly
+like core memory requests except for the mode designator
+DR n ns=1,2,3,4
+2. Requests for tape post-mortems should have the mode
+designator
+MT n ne 0,1,000,9
+and should have an extra (fifth) address of the form
+(REW) (FwD OR EOF,,E,OR E@F
+BKW)(ElEl ) (Fa 0
+
+where E. and E, denote expressions, The first three parts of
+this address afie used to position the tapes:
+
+(a) (REW) is optional and rewinds the tape.
+(b) (FWD)(E OR EeF) specifies that the tape be
+spaced (forward or backwards) ither E. records or to the nearest
+end-of=-file gap (whichever oceurs firs%
+
+The final section of this address specifies that elther
+records be processed or that records be processed up to an
+eﬁdaorefile gap (whichever occurs first). The words within the
+record to be printed are specified by the first and second
+
+addressed (as for regular core memory requests).
+
+It is tentatively proposed that the recording of tags in
+location fields be surpressed during tape and drum reqguests.

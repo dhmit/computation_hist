@@ -1,150 +1,159 @@
-rem-any 27 , 1957
+Dr. J. E, Robertscn, Chairman
+ACH Program Committee
+University of Illinois
+Urbana, Illinois
 
-Dr. J. I. Robertson, Chum
-Ml Progn- we“.
-University at Illinoi-
-Urbnn, 1111:01-
+Dear Dr, Robertson:
 
-Dear Dr . Robnrtloa:
+read by one of the undersigned.
 
  
 
-Enclosed in quadruplicate are cap“- of an abltract and
-a summary of a proposed pupa: untitled "In": Post-lotto: Routine
-tor tho ml 704, ’ to b. can at the Juno looting of tho m.
+SFB:gn
+Enclosure
 
-The doucﬂbed routine n- propnrad Jointly by tho lit-11
-at tho amputation Cantor, and the paper. 11 moaned, will be
-run by one at th- tumor-mu.
+Pebruary 27, 1937
 
-Sincerely yours ,
+Sincerely yours,
 
-8. F. Best
-A. 819591
-I. V. Eelwig
+8. ¥F. Beat
+A, Biegel
+PF, W. Helwig
 
-BIB : gn
-halo-“re
+Enclosed in quadruplicate are copies oi an abstract and
+a summary of a proposed paper entitled ‘MIT's Post-Mortem Routine
+for the IBM 704, ' to be given at the June meeting of the ACM,
 
-
-menu cm“: imam-awry
-Wmtto banana «:2 mummy
-Wriﬁae 39, WWI
-
-SMRY W
-
-HIT‘B PERT-WEI mun: FOR THIS mi 70!
-
-Abltmt
-
-’Ie gunman pregn- Wt at m 8111‘ Mutton
-Cantu, a wavmrm mum tar tam uni me has been
-tritium. it print. at mammal Imam“! magma at cam
-mum-y in any or the variants fawn aacwwa‘ a mm: by
-the 83mm mama-21y yrugm; £9? mm. as aymbelic
-inntmcuoaa w 33 1'1th point numbers. “so routine
-is manually controller; by ”mile rmmt cards. winch
-1m mum Him mam Bywsﬁlc ma; ‘ ; but 15; m1: also £43
-emu-011m manually ﬁrm the mutual“. £61m” for imagnr
-ting; Um weakly pragrm and time ywrwrtm marine mm
-a single ayatw an be» sax-1mg Magus-sea
-
-L.
+The described routine was prepared jointly by the staff
+of the Computation Center, and the paper, if accepted, will be
 
 
-it. PM! ”at!”
+RY , Ne Sa LA ~~ 3
+" & a WELL
+: EEA Rp pre
+Se we I EN, 2 o*
+wd Ro ria yas : b
+. - = ; x
+0 TN ) hy " . =:
+Ph 1h 3 vor,
+‘ MN
+_
 
-A acumen. mum in in: mum at II? to: tho ms 70%
-war. up an Sutur- ac this min. a that its output as in
-the an 1m an moi m plan-03' on“. me u, it print.
-wWMmmt-oﬂmmry (mums-mum than
-mwmmtwmmuu) umamvumtom
-mud“ maths mmnWmem.
+Plgital Computer Laboratory
+dassachusetis Institute of Technology
+Cambridge 39, Massachusetis
 
-mmuuwummmun-uuaumymmb
-Maud my h- Imtﬂod am: my I: the 1'04 m. or by e
-um“ ”qua: an. '
+SUMMARY OF
 
-mu ”name mun-v. and} nun-um look un- tw nun-n
-that. win!“ mgmtm. M MOI-rm to can may. um um
-t» m mu, m “in“ «d mm mm“ at a ﬂag. to ho
-pun-darpuum. mmwbow mutant pant-
-bly “mm.“ W‘ vital a. mtmta mtm a“ era-ht.
-mummumums ”that uuo madman“ tho
-mung-awn: «m. (Mammhuwwluu—
-ashlar M m "can: hon; W out in W.)
+MIT'S POBT- HOUTEN ROUTINE FOR THE 188 704
 
-no third m MIC! in me- 0! cl. Sella-lac rot-I
-ﬂ- «amt .111 ”you:
+Abstrac
 
-1) mtmtlm with Ill-balm m. (The an“)
-towmnlynbnliemmw-vomlriummt 1w"
-tut but" a: this mum.)
+ARE A Re GS
 
-a) latex-unea- with mu- m.
+50 facilitates program ghechost at the MIT Compatation
+Center, a post-mortem routine for the IDE 704 hus been
+written. It priate or punches specified ranges of core
+Bemory in any of the varicus forms sccepted as inpat by
+the Buare Assembly Program; for example, as symbolic
+ingtructions or as floating point susbers. The routine
+is normally controlled by symbolic request cardy., which
+look much Like Shave symbolic casds: but it aay alse Le
+controlied napually from the console. Plans for integra
+ting the assembly programe and the post-sortes routine into
+& single system will be briefly discussed.
 
-3) Decimal ”out“; want when.
-
-4) Beam: at“ point unbor- rm: scale: factors.
-
-5) Boat-J. “Mn.
-
-:5) mm tut-con.
-
-7) Binary M mm, 1.0.. macr- on the ma
-$149wa boyhood-d.
-
-m Binary cards.
-
-mm W
-
-1. 150 probably will 9mm 0 in sud-n to mutilate the Inﬁnite
-mt um ami th- printing thy prance.
+poe
 
 
-‘nu scum m: mum on which of m hum-c mm
+Preseat Houtine
 
-In“. the am I111 W:
+4 post-mortem routine hep been written at MIT for the IBN 704
+computer. The main feature of this routine is that its output is in
+the sume language in which the progrusser codes. That is, it priate
+or punches the contents of core semory (and we plan (uv extend this
+soon to include tapes and drums also) in any of the various forms
+accepted as input by the Share Asssubly Program.
 
-1) no and”. winter.
+The ranges to be printed and the forms ia which they are to be
+printed may be specified either manually at the 704 comsole or by &
+symbolic request card. |
 
-I) III on-ltm men.
+These symbolic request cards themselves look Like four address
+share symbolic imstructions. Whea referring toc core memory, the first
+two addresses specify the initial and final addresses of a rasge to be
+printed or punched, These addresses say be any expressions possi
+bly involving sysbols which the post-mortem routine mast translate
+inte absolute numbers using a syabol table road in slong with the
+symbolic veguest cards, (Such a eymbol table is produced by the as-
+pembler when the program being checked out is ssseabled,)
 
-3) A lunatic ups maid for grating using th- un-
-town-um.
+Toe third address specifies in which of the following forms
+the output will appear:
 
-4) A manic up. (or maxim sum m twe4¢~wn¢h.
+1) Instructions with symbolic addresses, (The ability
+to obtain symbolic addresses Daok again vo regard as the most impor-
+tant feature of this routine.)
 
-no mm In» an nutty to M0 in. aaamo to div-1m
-ul v10. vain.
+2) Instructions with absolute addresses.
 
-mﬂmnmlmnmzw‘dwmamau N»
-am and W at sun at m wtwt to: that aqua-t to prur-
-nu for about. man.
+3) Decimal floating point numbers.
 
-In Inn. :5. pact—nona- mtm n “and ”manly on a two
-In“ Ind «110‘ 3336 ”Outta by with] ﬂat Mm! tape button It ﬁt.
-can-ole or by m yuan-Id oeuﬂuhn‘ to thin. M the mums-tan
-mama-”1mm. .11 mtﬂwmutcnoteonmym
-and by "In“ than on another zap. unit. A110. mar“ n- n :-
-mum. the natal o! n- "rm hunter- IM mister- o! the
-“nuns: sic-lat 3:9 mm hm! new mm M us- our: at an
-aunt.
+4) Decimal fixed point numbers with scale factors.
 
-ﬁnally. Wmuamtmmwmlmuwnm
-w the alumna alum: (no-pt {or In. '3 and “remain loci»
-“on cantor} m b- mutated to their "and nlm and «aim to
-be trowel-m to my mun ml
+§) Decimal integers.
 
-him-o ton-nu
-no “at tam-nut a nut to In». 1- to new“. tul- mv
-Iona-m up“ and 4m. in also Will to my the sun Alou~
-my Pm De that 1: nu recount. pooh-arm mm! cud- and
-mun “tum. canine W watch, in wanted. would call
-the paw-Orw- manna into nwrm to an tho that!“ pontdaortn.
-Mumtmmwmwmmmamncwdtmt
-{or we mu.» cards. Also In «an we manner :0 ”are the
-”mo: table on am no that it will not hi my m an! 1':
-An in. am «eh em I; pour-oral :- to b. done.
+@) Octal integers.
+
+7) Binsry coded decimal, i.9., charactors oun the IBN
+heypanch weyboard.
+
+@) Binary casds.
+
+APE I ow -
+
+i. %e probably will prepare a fow slides to illustrate the syubolic
+request cards and the priating they produce,
+
+
+The fourth address specifies on which of the following output
+units the output wili appear:
+1) The on-line printer,
+2) The on-line pungl,
+3) A magnstic tape recorded for printing using Che tape
+to-printer,
+4) A magaetic tape for pusching usiag the tape-to-punch.
+
+The operator bag the ability to chasage from wn-iine to off-line
+and vice versa.
+
+Remarks placed on the sysbulie request card or on a special re
+marks card reappear at start of the output for that request to pro-
+vide for labeling results.
+
+in use, the post-movtesm routine is stored permanently of a tape
+unit aad celled inte operation by pushing the load tape button at the
+console or by the programmed equivalent to this, As the post-aortes
+routine comes inte cores, all but five registers of core Memory are
+saved by writing them on another tape unit. Also, insofar am it is
+possible, the status of the varieus indicators and registers of the
+arithmetic olement aye saved and later recorded at the start of the
+output.
+
+Finally, there is a request card which will cause core ReReYy
+and the srithmetic element (except for the HY and instruction loos
+tion counter) to be restored to their original values and ccatrol to
+be transferred to any dosired addreas.
+
+Fature FOVORGNTS
+The first improvement we wish to make is to provide for post-
+sorteming topes and drums, We also wish to modify the Share Assea-
+bly Program so thet it will recognize post-mortem request cards aod
+compile suitable calling suguences which, when executed, would call
+the post-morten routine lato storage to do the desired post-aortea.
+This was the reasen we chose to ufe the Share symbolic card format
+for the request cards. Also we wish the ussembler to store the
+syabol table op tape so that it will not be necessary to read it
+in from cards each time a poet-morten is to Ho dono,
 
 

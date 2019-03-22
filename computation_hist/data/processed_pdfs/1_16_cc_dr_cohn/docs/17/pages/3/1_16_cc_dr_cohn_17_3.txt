@@ -1,99 +1,104 @@
-0N FINITENESS CONDITIONS FOR A CONVEX BODY
+FINITENESS CONDITIONS FOR A CONVEX BODY
+
 HARVEY COHN
 
-1 muoduction- In certain problems ’of_geometric number theory,
-such as the study of critical lattices, it is important to know when a
-ﬁnite convex body surrounding the origin Will contain no lattice
-point other than the origin in Its interior. In this brief note we shall
-discuss a situation in which it sud-ices to know that only aﬁZnite set of
-lattice points are not interior to the body. In the companion article
-[1], we shall show that the results of the present article enable us
+ON
 
-to reduce the determination of critical lattices in (1 dimensions to a
+{_ Introduction. In certain prc.)blerr.ls .of' geometric number theory,
 
-ﬁnite number of steps.
+1.1 as the study of critical lattices, 1t 1 1.mpox:tant to l.mow when a
+> ex body surrounding the origin will contain no lattice
+g c;);l; than the origin in its interior. In this brief note we shall
+e (s) a situation in which it suffices to know that only a finite set of
+;ial::ilcl:se points are not interior to the body. In the companion article
+[1]* we shall show that the resul.ts. of the present ar.tlcle e.nable us
+to reduce the determination of critical lattices in d dimensions to a
 
-2. Main theorem. Let K be a tonvex body in d-dimensional eu~
-tlidean spate containing in its interior the hypersphere 2,,(7) of ”ﬁlms ,
-and center at the origin (r<1). Let us always consrder the Late-ice of
-points with integral coordinates. Then if K fails to contain in its in-
-terior those lattice points (other than the origin) "1 a second sphere
-24(Cd/1‘H), then it will contain in MS interior-no lattice-points at all
+finite number of steps.
+
+9. Main theorem. Let K be a convex body in d-dimensional. eu-
+clidean space containing in 1ts interior the hyperspher.e 24(r) of mqms r
+and center at the origin (r<1). Let us a_lways <;onsnder th‘e lgtt.nce .of
+points with integral coordinates. Then if K fqu tg contain in its in-
+terior those lattice points (other than the or.zgm) in a second sphere
+Z4a(Cafri"), then it will contain in 1ts m.terwr.no latt?ce.pomts at all
 except the origin. In fact K will then lie entirely within the second
-sphere. .
 
-Pnoor. We shall establish the value C; = 24—‘dI‘((d+1)/2),r—<d—n/2_
+. :
+sp};’e;ooa We shall establish the value Cq=2¢"1dT'((d+1)/2)x—(4-D/2,
 
-We let (x4) be an arbitrary point outside of 24(7), that is, we let
-Exf=R2>r€ and we join this point to its negative by a line, namely
-A(xr), through the origin. We let II(x.-) be the (d—1)-dimensional
-hyperplane through the origin and perpendicular to this line, and we
-let 27.1.: (r; x.) be the intersection of this plane with the solid sphere
-2,,(1). For our immediate purposes we deﬁne n(r; x.) as the (solid)
-cone formed by the segments joining each point of 2.1-, (r; x,») with
-(an); and for later purposes we deﬁne K(r; 96;) as the (solid) cone with
-spherical base formed by joining with (xi) each point of 240). Now
-K(r; x.) will prove useful when we seek the best Cd, since this solid
+We let (x;) be an arbitrary point outside of Z4(r), thé}t is, we let
+Z«=R?>r? and we join this point to its negative by a lu}e, na.mely
+A(x;), through the origin. We let II(x;) be.: the (d—l.)-c!lmensxonal
+hyperplane through the origin and perpendicular to this lm?, and we
+let Z4_; (r; x;) be the intersection of this plane with the solid spht.are
+24(r). For our immediate purposes we define k(r; x:) as the (solfd)
+cone formed by the segments joining each point of Z4_; (r; x:) with
+(x;); and for later purposes we define K(r; x;) as the (solid) cone with
+spherical base formed by joining with (x;) each point of Z4(r). NO}v
+K(r; x;) will prove useful when we seek the best Cq, since this solid
 is a minimal body which any convex body K must contain in order
-to contain both 24(r) and (xi). For our immediate purposes, we need
-only note that the convex body K will (easily) contain x(r; at.) and
-that the latter body has the very handy value wd_1r"—1R/d for its
-volume, where wt=1r"”/I‘(1+k/2), the k-dimensional volume of the
-unit sphere in k dimensions.
+to contain both Z4(r) and (x:). For our immediate purposes, we need
+only note that the convex body K will (easily) contain k(r; %) apd
+that the latter body has the very handy value wg_yv9-'R/d for its
+volume, where w;=7*2/T(1+%£/2), the k-dimensional volume of the
+unit sphere in k2 dimensions.
 
-Presented to the Society, December 29, 1949; received by the editors March 13.
-1950 and, in revised form, August 30, 1950. _ .
+Presented to the Society, December 29, 1949; received by the editors March 13,
+1950 and, in revised form, August 30, 1950. ==
 
-‘ Numbers in brackets are items or items and page numbers cited in the bibliog-
+! Numbers in brackets are items or items and page numbers cited in the bibliog-
 raphy at the end.
 
 544
 
-ON FINITENESS CONDITIONS FOR A coanx BODY 545
+ 
 
-We now note that 1(7; :6.) will contain a lattice point (not the origin)
-if R; Cd/rd—l. This is a simple consequence of Minkowski's theorem
-on convex bodies [3, p. 60] For the body formed by the union of
-K0; xi) and K0; —x.-) is symmetric and has volume not less than 2".
+ON FINITENESS CONDITIONS FOR A CONVEX BODY 545
+
+We now note that «(r; x;) will contain a lattice point (not the origin)
+if R2 Ca/r?~". This is a simple consequence of Minkowski’s theorem
+on convex bodies [3, p. 60]. For the body formed by the union of
+k(r; x:) and k(r; —x;) is symmetric and has volume not less than 24,
 Hence there would have to be a lattice point. (not the origin) in each
 of the two symmetric halves. From this the theorem follows easily.
 
-3, Best constant. The preceding estimates can be improved
+3. Best constant. The preceding estimates can be improved
 slightly. For instance we may take into account the fact that the
-convex bodies, K(r; x.) and its integral translates, can not pack space
+convex bodies, k(7; x;) and its integra] translates, can not pack space
 more densely than do the (d—1)-dimensional spheres (which are pre-
-cisely their intersections with planes parallel to Il(x.>)). Then we im-
-mediately obtain an improvement of C4 to Cﬁ=Cdu4_ry§‘_‘,”/’2—(“”
-(where 7.1,” is the maximum euclidean distance separating the clos-
+cisely their intersections with planes parallel to II(x;)). Then we im-
+mediately obtain an improvement of C; to Ct = Cawa_yy 8- V/32—-(d-1)
+(where v3/% is the maximum euclidean distance separating the clos-
 est points of any d-dimensional lattice of determinant unity). But
-
-using even the lower estimates [2, pp. 23—24] on 7.14, we ﬁnd the
-improvement is not substantial, that is, as d—>ac, log Cd~log Ci’
-~(d/ 2) log (1.
+using even the lower estimates [2, pp. 23-24] on v4_;, we find the
+improvement is not substantial, that is, as d—«, log Cs~log C/
+~(d/2) log d. -
 
 Going in the other direction we can show that there is a best con-
-stant for Cd as r—b0. To recapitulate, our main theorem was deduced
-from Minkokai's theorem. It could also have been deduced from the
+stant for Cg as r—0. To recapitulate, our main theorem was deduced
+from Minkowsk1's theorem. It could also have been deduced from the
 simultaneous approximation theorem, as the remaining proof will sug-
 gest, but the constant C; would not have been as good. The converse
-of Minkowski's theorem, or the Minkowrki-leaka theorem [4], is
-inapplicable since the problem is not afﬁne invariant. The converse
-of the simultaneous approximation theorem, or (essentially) Perron's
-transferal principle [2, p. 67], is, however. applicable and we shall
-now look to it for a proof that a best Cd, which we shall call (33',
+of Minkowski's theorem, or the Minkowski-Huwlaka theorem [4], is
+inapplicable since the problem is not affine invariant. The converse
+of the simultaneous approximation theorem, or (essentially) Perron’s
+transferal principle [2, p. 67], is, however, applicable and we shall
+now look to it for a proof that a best Cas, which we shall call Cj,
 exists.
 
 For the calculation of the best constant, we take a minimal con-
-vex body, which is “evasive" of lattice points, namely K"
-=K(r; p9;/(29f)‘”), reaching to distance p from the origin in the
-direction (01(=1), 02, . - - , 9.1). The at are chosen. from the Perron
-transferal principle, to span (say) a real algebraic ﬁeld of degree d
-(for convenience, 0 <0), g1). Then a constant gd (called Cd in [2]) will
-exist with the property that “the forms ]p10k—pk| , for 2 $12 éd, admit
-a simultaneous approximation no better than (gdp}“‘“’)“," that is,
-for p,>P,(e), the inequality [plot—oil 2((gr+e)oi""”)“ will hold
-for some 12 depending on p1 and e, and satisfying 2§k§d.
+vex body, which is “evasive” of lattice points, namely K*
+=K(r; p8:/(Z67)"?), reaching to distance p from the origin in the
+direction (6;(=1), 85, - - - , 84). The 6 are chosen, from the Perron
+transferal principle, to span (say) a real algebraic field of degree d
+(for convenience, 0 <8, <1). Then a constant g (called Cain [2]) will
+exist with the property that “the forms | pBx— x|, for 2k <d, admit
+a simultaneous approximation no better than (gsp;/“~")=1,” that is,
+for ;> Pi(e), the inequality | pfe—pi| = ((gat+€)p) ")~ will hold
+for some k depending on p; and ¢, and satisfying 2SSk Sd.
 
-We now let p increase from 7 until it reaches the ﬁrst value pa for
-which K“ has a lattice point (Pi) on its surface. If we took r small
-enough (<ro(e)) then this lattice point would satisfy the inequality
+We now let p increase from 7 until it reaches the first value po for
+which K* has a lattice point (p:) on its surface. If we took r small
+
+“enough (<7y(e)) then this lattice point would satisfy the inequality

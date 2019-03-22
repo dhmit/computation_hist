@@ -1,0 +1,47 @@
+" Mr. Robert Atkinson
+Paqa 3 i
+septombu 23, 13‘60' ,
+
+ 
+
+i :!!reatmcnt of managomnt dwutan-mktrxg wohlom irom ovu'-an ‘
+- gystem point of view. Study of behavior of firms and industries
+by computer simulation of feed-back~type models representing
+ organizational structure of firm and its basic policies and mzmn
+
+. gr\teria. Zmphasis primarily on interaction between flows of '
+
+~ information, money, materials, manpower, and capital oquipmnt. 4
+. _ Application of system-~dynamics approach to study of various
+. cwrrent problem areas in industry, including inventory control,
+ pricing decisions, R and D management, cash flows, and consumer
+- behavior. Instruction covering elementary feedback systems,
+difference oquauens. nnd use of digital compuurs !or students’
+own modoll. | |
+Mr, E. B. Roberts
+
+- 18, 581 mmmmu
+
+Management doctsion-maldng treated from over-all system point of
+- view; primary emphasis on interaction of separate elements of an
+enterprise. Effecis of delays, smoothing, amplification, and noise
+on flow of information and material. Dynamic models of production~
+distribution systems simulated on a computer and their behavior -
+‘studied, Background and application from curreni problem areas
+in industry. Subject matter drawn from theories of elementary
+feedback systems, difference equations, and probability; student
+should have basic ability in these gubjects. Acquaintance with
+computing machines also desirable. Provision of experience with
+automatic programming for computer simulauon, opportunity to run
+models on a machine.
+Proiessor Jay W. mrreater
+
+15,582 Industrial Dynami¢s II
+
+Continuation of 15.581. Emphasis on techniques of model design,
+construction, and testing., Noise: mathematical description and
+techniques for generating correlated and uncorrelated noise. Change
+in statistical nature of nolse on passing through system. Smooth~-
+ing and prediction. Design of system to approximate desired
+dynamic response. Testing dynamic models in nonlinear limits.
+Discussion of additional models not covered in 15,581, Practice

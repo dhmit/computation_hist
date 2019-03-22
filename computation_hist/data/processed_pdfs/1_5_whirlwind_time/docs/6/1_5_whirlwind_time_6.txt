@@ -1,21 +1,20 @@
-Probtho.
-
-701
-729
-798
-819
-852
-888
-905 / '
-910
-916
-917
-918
-919
-920
-
+Problem No. Laboratory
+701 LNS
+729 CMM
+798 LNS
+819 CMM
+852 JCS
+888 ICS
+206 RLE
+910 RLE
+916 LNS
+917 LINS
+018 AL
+919 RLE
+920 RLE
 Laboratory
-Hours Employ-d
+
+Hours Employed
 
 Hours Used
 
@@ -29,27 +28,9 @@ Classes
 Total
 
 Hours Not Used
-
-Laboratory
-
-CMM
-
-CMM
-S
-
-RLE ’
-KLB
-
-LNS
-AL
-
-RLB
-RLE
-
-Hours Overdrawu
+Hours Overdrawn
 
 Cumulative Hours Not Used
-
 Cumulative Hours Overdrawn
 
  
@@ -57,80 +38,62 @@ Cumulative Hours Overdrawn
 Joint Computing Group
 Time Record
 
-Augun 1956
+August 1956
 
 Requested by
 
-F. Eopling
-1... Snmrl
-
-H. Feahbach
+EF. Eppling
+L. Sartori
+H. Feshbach
 P. Morse
 
-'1'. Schultz
-L° Allen
+T. Schultz
+L. Allen
 
-M; P328151" I #7
+M. Ie a
 
-A. Hero
+A. Bers
 
 P. Sargent
 
 I. Russell
 
-R. Fraser
+R. Prager
 
-5. Enchahaum
-M. Cenulo
+S. Buchsbaum
+M. Cenillo
 
 Time Distribution
 
-AL RLE
-92 555
-
-321
-6
-16
-128
-80
-
-DOGNG
-
-10 551
+RLE
+92 539
+8 321
+2 6
+0 16
+0 128
+0 80
+10 951
 82 4
 
 386
 1303
 
-Hmra in
+Hours in
 August
-
 17
-
 22
-
 38
-
 223
-
 2
-
 305
-
-"165 ” ' "
-
+CaO
 112
-
 83
-
 8
-
 8
-
-5
-
+S
 39
-LNS p5
+LNS CS
 460 92
 146 307
 6 2
@@ -138,23 +101,21 @@ LNS p5
 0 12
 0 40
 156 361
-
 304
-
 269
 294 327
 
 Total hours
-to don:
+
+to date
 
 1389
 1691
 2567
 1596
 523
-559
-
-' ""3719
+359
+349
 112
 83
 
@@ -162,22 +123,22 @@ to don:
 
 8
 
-5
+S
 
 39
 
-CM
+CMM
 184
 
 245
 12
 40
 
-805
+305
 
 121
 1038
 
-51123132111 Guangzhou
+Elizabeth Campbell
 
 

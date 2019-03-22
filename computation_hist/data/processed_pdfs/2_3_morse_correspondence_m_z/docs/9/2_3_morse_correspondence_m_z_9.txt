@@ -1,40 +1,53 @@
-January 15. 1957
+|
+|
 
-Dr. R. S. Mulliken
+BETS TAL
+
+Fed
+3
+:
+
+ 
+
+ 
+
+January 15, 1957
+
+Drs R. S. Mulllken
 Department of Physics
 
-The University or Chicago
+The University of Chicago
 Chicago 37, Illinois
 
-Dear Bob:
+Dear Bobs
 In answer to your four questions of January 2:
 
-1. There is some spare tune right now on Whirlwind but I
+1. There is some spare time right now on Whirlwind but I
 imagine that the demand for time will get greater and greater
 the nearer we approach the middle of June. If there is any
 possibility of your actually using 32 hours or more, you
-should plan to use as much or it before March as you can. In
+should plan to use as much of 1t before March as you can. In
 fact, we urge you to get started immediately.
 
-2. ONR is the reason that we are having to charge for Whirl-
-wind time. For several years the Mathematics Division or ONR
+2, ONR is the reason that we are having to charge for Whirl-
+wind time. For several years the Mathematics Division of ONR
 supported Whirlwind directly and we were able to provide
 machine time to users as a result. Last year the other divi-
-sions of ONE decided that they would not cooperate any longer
+sions of ONR decided that they would not cooperate any longer
 with the Mathematics Division and that they preferred to have
-their projects pay for Whirlwind time directly rather than
+thelr projects pay for Whirlwind time directly rather than
 indirectly as was done before. Consequently, it is ONR's
 decision that we charge $250 an hour for machine time. The
 other divisions of ONR have agreed to provide the necessary
-funds to the proJects on the budgets. This is the reason we
+funds to the projects on the budgets. This is the reason we
 are having to turn Whirlwind back to Lincoln.
 
-3. It is very clear that there will be no spare Whirlwind
+3. It 1s very clear that there will be no spare Whirlwind
 time next year. Lincoln is going to use it for a concentrated
 text, which will probably use the full time, and when this
-text is finished the machine probably will be scrapped.
+text is finished the machine probably willl be scrapped.
 
-#. We can arrange for you to get Whirlwind time on a straight
+4. We can arrange for you to get Whirlwind time on a straight
 purchase order. I am enclosing the necessary forms and
 instructions.
 
@@ -42,8 +55,8 @@ We hope to hear from you soon concerning your plans.
 
 Yours,
 
-PMM:LWH Philip M. Morse
-cc: Dr. Verzuh
+PMM s LWH Phllip M. Morse
+ce: Dr. Verzuh
 Prof. Slater
 
 

@@ -1,34 +1,44 @@
-ﬂ
-
 CASE INSTITUTE OF TECHNOLOGY
-
 UNIVERSITY CIRCLE
 CLEVELAND 6, OHIO
 
-January 9, 1958
+Jamiary 9, 1958
 
-Digital Computer Laboratory
+Rigital Computer Laboratory
 Massachusetts Institute of Technology
-Cambridge 59, Mass.
+Cambridge 39, Mass.
 
 Gentlemen:
 
- 
+The Institute of Mathematical Statistics hasg established a subcommittee
+to determine the availability of free machine time in order to carry out
+computations of mathematical tables. A function of this subcommittee is
+to determine where this time is available, how much time is available,
+and under what conditions this is so. As this information is obtained,
+the fact that time is available will be made known to members of the
+Institute of Mathematical Statistics and possibly other mathematical
+societies. Any request for time will be evaluated by the proper commit-
+tee on mathematical tables and a procedure will be set up to activate
+each individual project.
 
-1° we would like to know what free machine time you do have available.
+We are calling upon you to help us on two matterss
+l. We would like to know what free machine time you do have available.
+
+2. We wish to know of other institutions or corporations who might be
+in a position to give us free machine time.,
 
 Will you please fill out the enclosed questionnaire and return it to me
-at your earliest conVenienceo Rest assured that this is not a commit=
+at your earliest convenience. Rest assured that this is not a commit-
 ment on your part. Any request for free machine time will be handled on
 its own individual merits. Any final decision to make this time avail-
-able will, of course, be that of your institution or corporation.
+able will; of course, be that of your institution or corporation.
 
 Let me take this opportunity to thank you for whatever assistance you
-may give us in this matter°
+may give us in this matter.
 
-Sincerely yourss
+Sincerely yours,
 
-Fred Cn Leone, Chairman
+Fred C. Leone, Chairman
 Subcommittee, Computing Facilities
 and Cost Free Machine Time
 

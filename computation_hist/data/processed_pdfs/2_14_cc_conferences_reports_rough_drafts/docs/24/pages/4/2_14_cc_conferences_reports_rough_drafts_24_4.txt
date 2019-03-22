@@ -1,0 +1,42 @@
+000
+
+7.0
+
+Operation Tims of Mashine Components
+
+ 
+
+The previously-mentioned manual on 705 provides the exact {ormulae which
+relate the operation time of each component in terms of number of records involved.
+Generally speaking, the card punch is the slowest uwnit on the machine whereas the
+magnetic drum wnit is theo fasteste The following tebulation indloates the
+epproximate times ¢
+
+Card punch wnld = 00 ms
+
+~ Card printing walt « 400 ms
+Card reading wnit = 240 ms ,
+Magnetic tape unit = 15036 ms
+Magnetic drum = 11,20 ms
+
+I have intimated that seversl control units must be utilized to convert from the
+mechenical to the electronic units. Specifically, a control unlt is required to
+convert from the card resder to the magnetic cores. Similarly, a different control
+unit is reguired to comvert fram the memory %o the oard printer. Finally, a third
+control unlt is r&quired to convert from the memory to the card punch.
+
+The use of control units is intended to prov;ide a common language bond on all
+types of IBM EDPM machines. FNor example, the peripheral equipment on the Type 701,
+702, 704, end 705 mechines is identicel. It iz merely necessary to use a different
+type of control unit on certain machines, IBM considers this common languege of
+gomputer development %o be a most important pert of their computer development progran
+
+Machine Instructions
+
+The Type 705 machine employs a 6 decimal digit number to represent instruoctions
+a8 well as sddresses. This permits the machine to modify both addresses and instru-
+ctiong during the solution of a particular probleme. This is an important charace
+teristio of any computer. More importont, however, is the faot that the magnetic
+cores permit random access to the entire instruotion (5 decimal digit) in a come
+plotely randome~access manners It is %his feature that is responsible for. the
+great inorease in opsration spesd on the 700. |

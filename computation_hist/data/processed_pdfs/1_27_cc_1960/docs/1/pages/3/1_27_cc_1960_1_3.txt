@@ -1,51 +1,55 @@
--3-
+D=
 
-at work on the design and programming required to provide a 7090
+at work on the desi@n and programming required to provide a 7090
 with 10 to 30 such "substation consoles" of various effective speeds
-and capacitiesg which can be placed at appropriate places around MIT;
+and capacities, which can be placed at appropriate places around MIT,
 some perhaps in classrooms. The ultimate goal is to make the fastest
-and most saphisticated computer as accessible and convenient to a
-person working with it as a dial telephone is° This development will
-’not only open up new research areasa as indicated later, but also
+and most sophisticated computer as accessible and convenient to a
+person working with it as a dial telephone is. This development will
+‘not only open up new research areas, as indicated later, but also
 will substantially simplify and expedite the process of producing
 
-and debugging new programs. We believe all large machines will
-eventually use timeasharing techniques in order to achieve their
-ultimate capabilities; thus the research now begun at the Center
-will be of general benefit to the development of the computer field°
+and debugging new programs. We believe 2all large machines will
+eventually use time-sharing techniques in order to achieve theilr
+ultimate capabllities; thus the research now begun at the Center
+will be of general benefit to the development of the computer field.
 
-ﬂashine-guidgd Education. Computers cana of course, aid in
-grading examinations» scﬁEduIing classrooms and students and do
+Machine-guided Education. Computers can, of course, aid in
+grading examinations, scheduling classrooms and students and do
 other clerical tasks incidental to large classes. But computers
-also can be programmed to carry out some of the detailed questions
-anduanswer interchange which occurs in recitation sectional The
-Center staff is now working with the Language Department at MIT
-to program the 70h to guide a student through some of the phases
+also can be programmed to carry out some of the detalled gquestion-
+and-answer interchange which occurs in recitation sections. The
+Center staff is now working with the Language Departwment at MIT
+to program the TO0I to guide a student through some of the phases
 of learning a new language, and are discussing the possibilities
 of training students in the details of mathematical manipulation by
-machineo Here the machine would pose questions for the student to
-answer ands on the basis of the answersy would go on to other
-questions» as in a recitation section“ To avoid intolerable con=
-gestion at the main input console (and also waste of computer time)”
-several students must be able to work with the machine simultaneouslyg
+machine., Here the machine would pose questions for the student to
+answer and, on the basis of the answers, would go on to other
+questions, as in a recitation section. To avoid intolerable con-
+gestion at the main input console (and also waste of computer time),
+several students must be able to work with the machine simultaneously,
 sharing machine time with regular computation. Therefore further
 development of this research will shortly require a flexibility the
-70h lacks but the 7090 does possessu Potentially, the use of coma
-puters will help to solve the problem of giving individualized
-training in the sciences at all levels» without excessive demands
-on the- time of able teachers.
+704 lacks but the 7090 does possess. Potentially, the use of com-
+puters will help to solve the problem of giving individvalized
+training in the sciences at all levels, without excessive demands
+on the time of able teachers.
 
-Machineascientist Coo erative Research gsEQerggz. In
-addition 0 e examp es Eusg mentionedp there are many other research
+Machine-scientist 000§erat1ve Regearch §ngergx)a in
+
+addition vo the examples Just mentioned, there are many other research
 programs which can only progress effectively if the machine is
-able to carry out calculations on immediate demand and display the
-result or feed it back immediately into the experiment, so the
+
+abhle to carry out calculations on immedlate demand and display the
+result or feed it back immediatvely into the experiment, so the
 experiment or the scientist can go on to the next step and request
-the next computation in turn: On the 70% this would require the
-exclusive use of the machinep though only a fraction of the 704
-speed would be used; obviously again? timewsharing techniques are
+
+the next computation in turn. On the 704 this would require the
+exclusive use of the machine, though only a fraction of the TO4
+
+speed would be used; obvicusly again, time-sharing techniques are
 needed.
 
-Theses and many other programs now in progresss such as the
-charactererecognition studies; the research on economic forecasting
-and on operational behavior using largewscale simulation techniquesp
+These, and many other programs now in progress, such as the
+character-recognition studies, the research on economic forecasting
+and on cperational behavior using large-scale simulation techniques,

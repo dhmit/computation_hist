@@ -1,0 +1,47 @@
+Scaling Fixed-Point Numbers
+
+If fixed-point numbers (FIX) are requested the user may
+specify (if he wishes) a decimal scale-factor, x, and a binary
+seale-factor, y, where 0% y£ 35, by writing
+
+F IXExBy
+
+to designate the mode, In this case the post-=mortem progran mul-
+tiplies each number by
+
+10°% o 2
+
+before recording it and appends & guitable correction factor which
+in SHAR: notation would be
+
+ExBy
+thus the fraction, F, appears in the form
+(F o 100~ o 27) Ex By
+The special case
+x =0 and y = 39
+ia detscted by the progran and such numbers appear ag SAD integerso
+Remarks Cards
+Any information following the terminating blank column
+§n the variable field of a PMR card is considered to be & remark
+
+and will appear as such immediately preceding the first line of
+output resulting from the request.
+
+The user may also insert remarks cards (specified by the
+letters, REM, in the operation field) before PMR cards in the re=
+quest deck. Each REM card is recorded just preceding the first
+1ine of output from the next PMR card in the request deck,
+
+Remarks cards can be used to label reéultse
+Termination Cards
+
+Request decks must be terminated by a termination card
+consisting of one of the SAP instructions
+
+TRA x xS
+
+TTR x p & -
+
+HTR X
+
+g O

@@ -1,72 +1,41 @@
-m
+|
 
-Table i;
+Table 11
+Evalustion of Mechine Charges on an Hourly Easls
+| |
+- Total Hres, Used in | R 1
+Machine . Monthly s 2080 hours Hourly | Machine
+Type . HRental - Reate -
 
-Eggigggiggﬁgg Machine Chlrgc; gﬁ 5g Huurlx 3.513
-
-1
-i
-
-   
-
-: Tana!
-Machine 5 Monthly
-Tmc w Rental
-Key Punch 3 3102.20ﬁ
-Verifier 2 ub.80
-sonar ae .eo”
-Collator g 70.40‘
-Tahulatcr ; 751.00‘
-Reproducer E 110.0c
-Interpretera £6.00
-Cale. Funch 255.20
-Cardatypc 101.20
-60‘ 563.40
-CFC @1612.50
-
-!
-
-:
-
- 
-
-;
-i
-i
-I
-
-% late than one machina
-
-~ 2380 hour:
-
-Hrs. Used tn 1
-
+      
   
+  
+
   
 
  
 
-47v.2s .228 .33
-1203. .573 ‘ .41
-1016. .459 .36
-1450.25 .349 5.54
-
-785. 5.377 .72
-515.5 ¥.152 1.06
-g14.5 1.540 \ 1.44
-ze3.5 z.1sa & 1.34
-
-i .3
-
-3336151 aach has i
-9&3.5 {.473 s 9.15
-? E.5(23 £24.60
-
-i f
-
-1 .
+ 
 
  
 
-5.00
+Rey Punch | ;:-101.20ﬁ | R41045 65
+Verifier | 30,80 | 473,28 +33
+Sorter % 86.,60° LRG3 . «41
+Collator } 70 .40 1018, 36
+Tabulater | 781,00° | 1450.25 5.54
+Reproducer | 110,00 785, |
+Interpreter GG+ 00 315.5 ‘.152 1.06
+Calc, Panch | 255,20 14,5 « 440 ‘ 1,44
+Car datype 101 420 283 .5 !.135 t 1,64
+! |
+Special M , x
+604 585,40 $63.5 {473 | D.25
+cEC ' 1812,50 ? .5(:) %94.00
+
+# more than one machine
+
+« 20
+
+5,00
 10.00

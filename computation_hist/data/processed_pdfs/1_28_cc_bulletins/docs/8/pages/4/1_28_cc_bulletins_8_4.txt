@@ -1,0 +1,82 @@
+(Igu)
+
+(FPT)
+BRIPIC, DIMPIC
+ERBBR
+
+LDUMP
+RANNGF , SETUF
+AXISX,AXISY
+FRAME
+
+SCEPE
+
+CLBCK, TIME , GETTM
+ASINF, ACUSF
+ATANF
+
+EXPF
+
+EXP(1l
+
+EXP(2
+
+EXP(3
+
+1OGF
+SINF,COSF
+SQRTF
+TANF , CBTF
+TANHF
+
+(EXE)
+
+RECAUP
+
+{SCH)
+{CSH) , (TSH)
+{sPH), (STH)
+EXIT, EXITM
+
+Subprograms on MIT Fus System Tape
+
+Input-Output Unit Table
+
+Floating point trap dispatcher
+
+Plot point in scope ~oordinates
+
+Error subroutine
+
+Dummy routine called after error in sath. subroutinos
+Bandoe number generation
+
+Plot axes on scope
+
+Change film frame
+
+Plot point in floating point coordinstes on scope
+Get and print time
+
+Arc sine, arccosine fimction
+
+Arc tangent fumction
+
+Exponential function
+
+Logarithm (base e) function
+Sine, cosine fumction
+
+Square root function
+
+Tangent, Cotangent function
+Hyberbolic tangent function
+Input-Qutput Error routine
+Dummy routine called by (EXE)
+Punch routine, om-‘ine ar off-line
+Fead cards or input tape
+
+Write cutput on tape o~ printer
+Return control to Monitor
+
+(F2PH) snd subsidiary routines Fortran oriented post-mortem routine

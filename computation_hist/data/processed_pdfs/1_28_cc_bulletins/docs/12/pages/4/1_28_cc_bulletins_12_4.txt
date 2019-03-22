@@ -1,0 +1,65 @@
+CC-148 <
+
+In the above example, dummy arguments appear only as symbols in
+the address part of the instruction, but = dummy argument Hay appear anywhere
+in the variable field (card columns 12-72) of any card within a macro defini-
+tion, and may also appear in the location field (columns 1-6) and operation
+field (columns 8-10). iIf a symbol is defined by appearing in the location
+field of an instruction within a macro, then that symbol would usually be made
+a dummy to avoid multiple definition from repeated use of the macro,
+
+The rangeof a macro definition ig from the MOP card bearing a given
+name to a following END card bearing the same macro name, Thus macro defini-
+tions may be nested one within another, When this is done, however, an imner
+
+macro will not be defimed until all macros within which it is rested have been
+expanded
+
+The definition of macro X may include calls for other macro instruc-
+tions whether or not the other macros have been defined, as long as all such
+macros are defined before a MAC call for macro X oceurs, Circular definitions,
+which would result in o loop in the assembler, must be avoided by the programmer,
+
+To give greater flexibility to macro ocperations, parentheses have been
+set aside for special use within the variable field of MOP and MAC instructions,
+Thus parentheses may not be used as part of a2 macro name or of a symbol which
+appears within a macro operation, The same restriction applies to the use of
+equal signs within the range of a MOP, There are no restrictions on the use
+of parentheses or equal signs as part of normal SAP symbols outside of macros.
+
+Programmers not using maeros will find no visible changes in the way
+SAP works .
+
+al Macro Names and nts
+
+The sequence of characters following the macro name on a MOP or MAC
+card will be referred to as the macro argument string, The name of a macro-
+operation and the dummy arguments in the argument string of a MOP ecard may be
+any legal SAP symbols not containing parentheses or equal signs, or may be
+numeric quantities, (The number zero rust not be used as a dummy argument.)
+
+As usual in SAP leading zeros are ignored, A legal SAP symbol occur-
+ring in a macro definition as name or dummy argument need mnot be distinect from
+ordinary symbols defined elsewhears in the program, The name of = macro defini-
+tion may not be blank or empty, If the name of a macro defined earlier is used
+for another macro definition, the earlier definitiom is effectively wiped out,
+
+The arguments supplied in the MAC eall may be any SAP expressions mede
+up of symbols satisfying the above requirements, separated by commas or by
+parentheses as described below, Their correspondence with the dummy arguments
+of the macro definition is determined by their pesition im the sequence follow-
+ing the macro name, A pair of parentheses surrounding an exprossion in a MAC
+argument string signifies that everything between the parentheses is to be
+substituted for the corresponding argument in the macro definition, Thus,
+using the three-address additiomn macro given earlier, the call
+
+MAC ADD3,As1,%% (B,1)
+
+would expand into
+
+CLA A¢l
+ADD s@
+8TO B,1
+
+A further example, illustrating the fact that MACro names themselves may be
+substituted, is
