@@ -3,6 +3,7 @@ from .models import Person, Document, Box, Folder, Organization, Page
 # from django.template import loader
 from django.db.models import Q
 from .common import get_file_path
+from IPython import embed
 
 
 
@@ -213,56 +214,35 @@ def advanced_search(request):
     :param request:
     :return:
     """
-    boxes = []
-    if "checkBox1" in request.GET:
-        boxes.append(1)
-    if "checkBox2" in request.GET:
-        boxes.append(2)
-    if "checkBox3" in request.GET:
-        boxes.append(3)
-    if len(boxes) == 2:
-        doc_objs = Document.objects.filter(Q(folder__box__number=boxes[0]) |
-                                           Q(folder__box__number=boxes[1]))
-    elif len(boxes) == 1:
-        doc_objs = Document.objects.filter(folder__box__number=boxes[0])
-    else:
-        doc_objs = Document.objects
-    # TODO: try to fix up below filter to be more accurate
-    try:
-        title = request.GET['title']
-        if title != "":
-            doc_objs = doc_objs.filter(Q(title__icontains=title))
-    except:
-        print("Error getting document title")
 
-    try:
-        phrase = request.GET['contents']
-        if phrase != '':
-            raw_docs = Document.objects.raw(f'SELECT * from doc_fts WHERE text MATCH "{phrase}"')
-            doc_ids = [doc.id for doc in raw_docs]
-            doc_objs = doc_objs.filter(id__in=doc_ids)
+    search_params = request.GET.dict()
+    doc_objs = Document.objects
 
-    except:
-        print("Error getting phrase")
 
-    try:
-        author = request.GET['author']
-        if author != "":
-            author = author.split(" ")
-            doc_objs = doc_objs.filter(Q(author_person__first__icontains=author[0]) |
-                                       Q(author_person__last__icontains=author[0]) |
-                                       Q(author_organization__name__icontains=author[0]))
-    except:
-        print("Error getting author name")
-    try:
-        recipient = request.GET['receiver']
-        if recipient != "":
-            recipient = recipient.split(" ")
-            doc_objs = doc_objs.filter(Q(recipient_person__first__icontains=recipient[0]) |
-                                       Q(recipient_person__last__icontains=recipient[0]) |
-                                       Q(recipient_organization__name__icontains=recipient[0]))
-    except:
-        print('Error getting recipient name')
+    print(search_params)
+
+    if search_params['title'] != '':
+        doc_objs = doc_objs.filter(Q(title__icontains=search_params['title']))
+
+    if search_params['text'] != '':
+        raw_docs = Document.objects.raw(f'''SELECT * FROM doc_fts 
+                                                     WHERE text MATCH "{search_params['text']}";''')
+        doc_ids = [doc.id for doc in raw_docs]
+        doc_objs = doc_objs.filter(id__in=doc_ids)
+
+    if search_params['author'] != '':
+        author = search_params['author'].split(" ")
+        doc_objs = doc_objs.filter(Q(author_person__first__icontains=author[0]) |
+                                   Q(author_person__last__icontains=author[0]) |
+                                   Q(author_organization__name__icontains=author[0]))
+
+    if search_params['recipient'] != '':
+        recipient = search_params['recipient'].split(" ")
+        doc_objs = doc_objs.filter(Q(recipient_person__first__icontains=recipient[0]) |
+                                   Q(recipient_person__last__icontains=recipient[0]) |
+                                   Q(recipient_organization__name__icontains=recipient[0]))
+
+
     try:
         doc_types = request.GET['doc_type'].split(',')
         print(doc_types)
@@ -277,20 +257,23 @@ def advanced_search(request):
         doc_objs = doc_objs.filter(query)
     except:
         print('Error getting doc types')
-    try:
-        pages = [int(request.GET['minPages']), int(request.GET['maxPages'])]
-        doc_objs = doc_objs.filter(Q(number_of_pages__gte=pages[0]) &
-                                   Q(number_of_pages__lte=pages[1]))
-    except:
-        print('Error getting pages')
 
-    try:
-        years = [int(request.GET['minYear']), int(request.GET['maxYear'])]
-        doc_objs = doc_objs.filter(Q(date__year__gte=years[0]) &
-                                   Q(date__year__lte=years[1]))
-    except:
-        print('Error getting min and max years')
+    if search_params['min_year'] == '':
+        search_params['min_year'] = 1900
+    if search_params['max_year'] == '':
+        search_params['max_year'] = 2000
+    doc_objs = doc_objs.filter(Q(date__year__gte=int(search_params['min_year'])) &
+                               Q(date__year__lte=int(search_params['max_year'])))
+    search_objs = {
+        'results': doc_objs,
+        'search_params': search_params
+    }
 
-    print(request)
+    print('final params', search_params)
+    print(search_objs)
 
-    return render(request, 'list.jinja2', {'model_str': 'doc', 'model_objs': doc_objs})
+    d = search_objs['results'][0]
+
+    return render(request, 'search.jinja2', search_objs)
+
+#    return render(request, 'list.jinja2', {'model_str': 'doc', 'model_objs': doc_objs})

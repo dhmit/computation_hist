@@ -26,7 +26,9 @@ class Organization(models.Model):
         else:
             return f"<Organization without a name>"
 
-
+    @property
+    def url(self):
+        return f'/dj_comp_hist/organization/{self.pk}'
 
 
 class Person(models.Model):
@@ -60,6 +62,9 @@ class Person(models.Model):
     def fullname(self):
         return self.first + "_" + self.last
 
+    @property
+    def url(self):
+        return f'/dj_comp_hist/person/{self.pk}'
 
 
 class Box(models.Model):
@@ -124,6 +129,34 @@ class Document(models.Model):
             else:
                 break
         return int(''.join(reversed(id_num)))
+
+    @property
+    def url(self):
+        return f'/dj_comp_hist/doc/{self.pk}'
+
+    def get_person_list(self, list_type):
+        """
+        :param list_type: 'authors', 'recipients', 'cceds'
+        Returns a list of the names and urls of both person and organization
+        authors/recipients/cceds
+        Created because querysets that include both persons and organizations can't be merged.
+        Currently used in the display of advanced search results. Could also be used in document
+        display.
+        """
+        if list_type == 'authors':
+            pl = [{'name': p.fullname, 'url': p.url} for p in self.author_person.all()]
+            pl += [{'name': o.name, 'url': o.url} for o in self.author_organization.all()]
+        elif list_type == 'recipients':
+            pl = [{'name': p.fullname, 'url': p.url} for p in self.recipient_person.all()]
+            pl += [{'name': o.name, 'url': o.url} for o in self.recipient_organization.all()]
+        elif list_type == 'cceds':
+            pl = [{'name': p.fullname, 'url': p.url} for p in self.cced_person.all()]
+            pl += [{'name': o.name, 'url': o.url} for o in self.cced_organization.all()]
+        else:
+            raise ValueError(f'''Document.get_person_list can only have "authors", "recipients" and
+                                 cceds as params but not {list_type}.''')
+
+        return pl
 
 
 class Page(models.Model):
