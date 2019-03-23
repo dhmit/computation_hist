@@ -328,11 +328,15 @@ class Instruction_B extends Instruction {
      */
     toString() {
         let address_str = this.address.toString();
-        if (this.tag) {
-            let tag_str = this.tag.toString();
-            return this.operation.name + " " + address_str + ", " + tag_str;
+        if (this.operation) {
+            if (this.tag) {
+                let tag_str = this.tag.toString();
+                return this.operation.name + " " + address_str + ", " + tag_str;
+            } else {
+                return this.operation.name + " " + address_str;
+            }
         } else {
-            return this.operation.name + " " + address_str;
+            return "Undefined operation!";
         }
     }
 }
@@ -361,10 +365,14 @@ class Instruction_A extends Instruction {
      * @returns {string}    String representation of instruction.
      */
     toString() {
-        let address_str = this.address.toString();
-        let tag_str = this.tag.toString();
-        let decrement_str = this.decrement.toString();
-        return this.operation.name + " " + address_str + ", " + tag_str + ", " + decrement_str;
+        if (this.operation) {
+            let address_str = this.address.toString();
+            let tag_str = this.tag.toString();
+            let decrement_str = this.decrement.toString();
+            return this.operation.name + " " + address_str + ", " + tag_str + ", " + decrement_str;
+        } else {
+            return "Undefined operation!"
+        }
     }
 }
 

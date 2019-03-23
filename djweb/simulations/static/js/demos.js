@@ -69,20 +69,52 @@ const looping_with_tix_demo_params = {
     ],
 };
 
+function update(computer, instructions, num_code_lines, highlighted_registers) {
+    const code_html = $(".symbolic_code");
+    if (code_html.length !== 0) {
+        let code_line = Math.min(computer.ilc.valueOf(), num_code_lines-1);
+        for (let line = 0; line < num_code_lines; line++) {
+            code_html[line].style.backgroundColor = "white";
+        }
+        if (highlighting) {
+            code_html[code_line].style.backgroundColor = "deepskyblue";
+        }
+    }
+
+    update_computer_display(computer, highlighted_registers);
+
+    // update line descriptions
+    let line_desc = "";
+    let code_line = Math.min(computer.ilc.valueOf(), num_code_lines-1);
+    if (typeof instructions[code_line] !== "undefined") {
+        line_desc = instructions[code_line].description;
+    }
+    $('#line_desc')[0].innerHTML = line_desc;
+}
 
 function start_demo(demo_params) {
     const instructions = demo_params.instructions;
     const initial_memory_values = demo_params.initial_memory_values;
     const computer_size = demo_params.computer_size;
     const num_code_lines = demo_params.num_code_lines;
+    const highlighted_registers = demo_params.highlighted_registers;
 
     const computer = new IBM_704(computer_size);
 
     $('#reset_button').on('click', () => {
         reset(computer, instructions, initial_memory_values);
-        update(computer, instructions, num_code_lines);
+        update(computer, instructions, num_code_lines, highlighted_registers);
     });
-    common_start(computer, instructions, num_code_lines);
+    $('#run_button').on('click', () => {
+        computer.run();
+        update(computer, instructions, num_code_lines, highlighted_registers);
+
+    });
+    $('#step_button').on('click', () => {
+        computer.step();
+        update(computer, instructions, num_code_lines, highlighted_registers);
+    });
+    common_start(computer);
     reset(computer, instructions, initial_memory_values);
     update(computer, instructions, num_code_lines);
 }
