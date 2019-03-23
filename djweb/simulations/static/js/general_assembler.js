@@ -59,6 +59,7 @@ function start() {
     });
     $('#clear_button').on('click', () => {
         computer.clear();
+        update(computer);
     });
     $('#run_button').on('click', () => {
         computer.run();
