@@ -371,7 +371,7 @@ class Instruction_A extends Instruction {
             let decrement_str = this.decrement.toString();
             return this.operation.name + " " + address_str + ", " + tag_str + ", " + decrement_str;
         } else {
-            return "Undefined operation!"
+            return "Undefined operation!";
         }
     }
 }
