@@ -3,6 +3,7 @@ from .models import Person, Document, Box, Folder, Organization, Page
 # from django.template import loader
 from django.db.models import Q
 from .common import get_file_path
+from pathlib import Path
 
 
 
@@ -11,6 +12,23 @@ from .common import get_file_path
 
 def index(request):
     return render(request, 'index.jinja2')
+
+def network_viz(request):
+    from .common import DJWEB_PATH
+    import csv
+    import json
+
+    with open(Path(DJWEB_PATH, 'static', 'csv', 'nodes.csv')) as node_file:
+        nodes = [n for n in csv.DictReader(node_file)]
+    with open(Path(DJWEB_PATH, 'static', 'csv', 'edges.csv')) as edge_file:
+        edges = [n for n in csv.DictReader(edge_file)]
+
+    obj_dict = {
+        'nodes': json.dumps(nodes),
+        'edges': json.dumps(edges)
+    }
+
+    return render(request, 'network_viz.jinja2', obj_dict)
 
 
 def person(request, person_id):

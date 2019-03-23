@@ -15,5 +15,7 @@ urlpatterns = [
     # Todo: Slugify at a much later time?
     path('list/<str:model_str>', views.list_obj, name='list'),
     path('page/<int:page_id>', views.page, name='page'),
-    path('browse/', views.browse, name='browse')
+    path('browse/', views.browse, name='browse'),
+
+    path('network_viz/', views.network_viz, name='network_viz')
 ]
