@@ -19,7 +19,8 @@
             'author': '',
             'recipient': '',
             'min_year': 1945,
-            'max_year': 1970
+            'max_year': 1970,
+            'doc_types': []
         } %}
     {% endif %}
 
@@ -48,7 +49,6 @@
                    value="{{ search_params['recipient'] }}">
         </p>
 
-
         <p class="search-type">
             <label class="text_label" for="min_year">Years</label>
             <input type="number" name="min_year" min="1900" max="2000"
@@ -61,8 +61,12 @@
         <p class="search-type">
             <label class="text_label" for="doc_type">Document Type</label>
             <select multiple="multiple" class="form-control" id="doc_type_selector" name="doc_type">
-                {% for type in doc_type %}
-                    <option>{{ type }}</option>
+                {% for doc_type in doc_types %}
+                    <option {% if doc_type in search_params['doc_types'] %}
+                                selected="selected"
+                            {% endif %}>
+                        {{ doc_type }}
+                    </option>
                 {% endfor %}
             </select>
         </p>
@@ -72,6 +76,7 @@
     </div>
     </div>
 
+    {# Display results only if a search has been processed #}
     {% if results is defined  %}
 
         <div class="container-fluid" id="results_container">

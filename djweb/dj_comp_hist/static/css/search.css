@@ -1,12 +1,5 @@
 
-body {
-    padding-top: 4rem;
-}
-
-h2{
-    padding-bottom: 20px;
-    padding-left: 20px;
-}
+/* Search Input Container */
 
 #search_container {
     background-color: #eee;
@@ -14,8 +7,10 @@ h2{
     padding-bottom: 20px;
 }
 
-label{
-    font-weight: bold;
+
+#adv_search h2{
+    padding-bottom: 20px;
+    padding-left: 20px;
 }
 
 p.search-type {
@@ -24,15 +19,11 @@ p.search-type {
 }
 
 .text_label {
-  display: table-cell;
-  width: 9.75em;
-  padding-right: 0.5em;
-  text-align: right;
-}
-
-label[for=max_year]{
-    padding-left: 10px;
-    padding-right: 10px;
+    display: table-cell;
+    width: 9.75em;
+    padding-right: 0.5em;
+    text-align: right;
+    font-weight: bold;
 }
 
 input[type="text"]{
@@ -41,6 +32,12 @@ input[type="text"]{
     padding-left: 3px;
     margin-bottom: 0;
 }
+
+label[for=max_year]{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 
 input[type="number"]{
     padding-left: 10px;
@@ -72,9 +69,6 @@ input[type="number"]{
     font-weight: bold;
 }
 
-table{
-    /*table-layout:fixed;*/
-}
 
 .doc_result_left_table{
     float:left;

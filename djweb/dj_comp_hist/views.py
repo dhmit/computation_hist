@@ -4,6 +4,7 @@ from .models import Person, Document, Box, Folder, Organization, Page
 from django.db.models import Q
 from .common import get_file_path
 from IPython import embed
+import re
 
 
 
@@ -197,17 +198,6 @@ def browse(request):
     return render(request, 'browse.jinja2')
 
 
-def search(request):
-    query = request.GET['q']
-    doc_type = ["minutes", "memo", "proposal", "letter", "receipt", "contract", "notice",
-                "memo draft",
-                "addendum", "change order", "form", "report", "invoice", "list",
-                "routing sheet", "application", "note", "press release", "floor plan", "program",
-                "pamphlet", "payroll sheet", "time record", "summary", "table", "telegram"]
-    doc_type.sort()
-    return render(request, "search.jinja2", {"doc_type": doc_type, 'query': query})
-
-
 def advanced_search(request):
     """
     Searches database based on specific search queries and parameters given by user.
@@ -215,20 +205,54 @@ def advanced_search(request):
     :return:
     """
 
+    # Sorted list of all available document types
+    doc_types = sorted(["minutes", "memo", "proposal", "letter", "receipt", "contract", "notice",
+                        "memo draft", "addendum", "change order", "form", "report", "invoice",
+                        "list", "routing sheet", "application", "note", "press release",
+                        "floor plan", "program", "pamphlet", "payroll sheet", "time record",
+                        "summary", "table", "telegram"])
+
+    # if no search_params, that means we're just loading the search page
+    if not request.GET.dict():
+        return render(request, 'search.jinja2', {'doc_types': doc_types})
+    else:
+        search_params, results = process_advanced_search_request(request)
+        search_objs = {
+            'results': results,  # = doc_objs
+            'search_params': search_params,
+            'doc_types': doc_types
+        }
+        return render(request, 'search.jinja2', search_objs)
+
+
+def process_advanced_search_request(request):
+    """
+    Processes one advanced search request and returns the search_results as a list of Document
+    objects as well as the search_params as a dict.
+
+    :param request:
+    :return:
+    """
+
     search_params = request.GET.dict()
+    # doc_types param is a list but using request.GET['doc_type'] only returns the first one.
+    search_params['doc_types'] = request.GET.getlist('doc_type')
+
     doc_objs = Document.objects
-
-
-    print(search_params)
 
     if search_params['title'] != '':
         doc_objs = doc_objs.filter(Q(title__icontains=search_params['title']))
 
     if search_params['text'] != '':
-        raw_docs = Document.objects.raw(f'''SELECT * FROM doc_fts 
-                                                     WHERE text MATCH "{search_params['text']}";''')
-        doc_ids = [doc.id for doc in raw_docs]
-        doc_objs = doc_objs.filter(id__in=doc_ids)
+        # allows quotation marks but only extracts the string in the middle
+        match = re.match('^[\'\"]?([a-zA-Z\d ]+)[\'\"]?$', search_params['text'])
+        if not match:
+            print(f"WARNING. Could not parse full text search string: {search_params['text']}.")
+        else:
+            raw_docs = Document.objects.raw(f'''SELECT * FROM doc_fts 
+                                                     WHERE text MATCH "{match.groups()[0]}";''')
+            doc_ids = [doc.id for doc in raw_docs]
+            doc_objs = doc_objs.filter(id__in=doc_ids)
 
     if search_params['author'] != '':
         author = search_params['author'].split(" ")
@@ -242,21 +266,8 @@ def advanced_search(request):
                                    Q(recipient_person__last__icontains=recipient[0]) |
                                    Q(recipient_organization__name__icontains=recipient[0]))
 
-
-    try:
-        doc_types = request.GET['doc_type'].split(',')
-        print(doc_types)
-        if isinstance(doc_types, list) and 'unknown' not in doc_types:
-            queries = [Q(type__icontains=t) for t in doc_types]
-            print(queries)
-            query = queries.pop()
-            for item in queries:
-                query |= item
-        elif doc_types != 'unknown':
-            query = Q(type__icontains=doc_types)
-        doc_objs = doc_objs.filter(query)
-    except:
-        print('Error getting doc types')
+    if search_params['doc_types']:
+        doc_objs.filter(type__in=search_params['doc_types'])
 
     if search_params['min_year'] == '':
         search_params['min_year'] = 1900
@@ -264,16 +275,6 @@ def advanced_search(request):
         search_params['max_year'] = 2000
     doc_objs = doc_objs.filter(Q(date__year__gte=int(search_params['min_year'])) &
                                Q(date__year__lte=int(search_params['max_year'])))
-    search_objs = {
-        'results': doc_objs,
-        'search_params': search_params
-    }
 
-    print('final params', search_params)
-    print(search_objs)
 
-    d = search_objs['results'][0]
-
-    return render(request, 'search.jinja2', search_objs)
-
-#    return render(request, 'list.jinja2', {'model_str': 'doc', 'model_objs': doc_objs})
+    return search_params, doc_objs
