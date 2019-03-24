@@ -214,7 +214,7 @@ def advanced_search(request):
 
     # if no search_params, that means we're just loading the search page
     if not request.GET.dict():
-        return render(request, 'search.jinja2', {'doc_types': doc_types})
+        return render(request, 'advanced_search.jinja2', {'doc_types': doc_types})
     else:
         search_params, results = process_advanced_search_request(request)
         search_objs = {
@@ -222,7 +222,7 @@ def advanced_search(request):
             'search_params': search_params,
             'doc_types': doc_types
         }
-        return render(request, 'search.jinja2', search_objs)
+        return render(request, 'advanced_search.jinja2', search_objs)
 
 
 def process_advanced_search_request(request):
