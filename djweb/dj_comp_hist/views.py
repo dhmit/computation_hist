@@ -3,6 +3,8 @@ from .models import Person, Document, Box, Folder, Organization, Page
 # from django.template import loader
 from django.db.models import Q
 from .common import get_file_path
+from IPython import embed
+import re
 
 
 
@@ -196,101 +198,83 @@ def browse(request):
     return render(request, 'browse.jinja2')
 
 
-def search(request):
-    query = request.GET['q']
-    doc_type = ["minutes", "memo", "proposal", "letter", "receipt", "contract", "notice",
-                "memo draft",
-                "addendum", "change order", "form", "report", "invoice", "list",
-                "routing sheet", "application", "note", "press release", "floor plan", "program",
-                "pamphlet", "payroll sheet", "time record", "summary", "table", "telegram"]
-    doc_type.sort()
-    return render(request, "search.jinja2", {"doc_type": doc_type, 'query': query})
-
-
 def advanced_search(request):
     """
     Searches database based on specific search queries and parameters given by user.
     :param request:
     :return:
     """
-    boxes = []
-    if "checkBox1" in request.GET:
-        boxes.append(1)
-    if "checkBox2" in request.GET:
-        boxes.append(2)
-    if "checkBox3" in request.GET:
-        boxes.append(3)
-    if len(boxes) == 2:
-        doc_objs = Document.objects.filter(Q(folder__box__number=boxes[0]) |
-                                           Q(folder__box__number=boxes[1]))
-    elif len(boxes) == 1:
-        doc_objs = Document.objects.filter(folder__box__number=boxes[0])
-    else:
-        doc_objs = Document.objects
-    # TODO: try to fix up below filter to be more accurate
-    try:
-        title = request.GET['title']
-        if title != "":
-            doc_objs = doc_objs.filter(Q(title__icontains=title))
-    except:
-        print("Error getting document title")
 
-    try:
-        phrase = request.GET['contents']
-        if phrase != '':
-            raw_docs = Document.objects.raw(f'SELECT * from doc_fts WHERE text MATCH "{phrase}"')
+    # Sorted list of all available document types
+    doc_types = sorted(["minutes", "memo", "proposal", "letter", "receipt", "contract", "notice",
+                        "memo draft", "addendum", "change order", "form", "report", "invoice",
+                        "list", "routing sheet", "application", "note", "press release",
+                        "floor plan", "program", "pamphlet", "payroll sheet", "time record",
+                        "summary", "table", "telegram"])
+
+    # if no search_params, that means we're just loading the search page
+    if not request.GET.dict():
+        return render(request, 'advanced_search.jinja2', {'doc_types': doc_types})
+    else:
+        search_params, results = process_advanced_search_request(request)
+        search_objs = {
+            'results': results,  # = doc_objs
+            'search_params': search_params,
+            'doc_types': doc_types
+        }
+        return render(request, 'advanced_search.jinja2', search_objs)
+
+
+def process_advanced_search_request(request):
+    """
+    Processes one advanced search request and returns the search_results as a list of Document
+    objects as well as the search_params as a dict.
+
+    :param request:
+    :return:
+    """
+
+    search_params = request.GET.dict()
+    # doc_types param is a list but using request.GET['doc_type'] only returns the first one.
+    search_params['doc_types'] = request.GET.getlist('doc_type')
+
+    doc_objs = Document.objects
+
+    if search_params['title'] != '':
+        doc_objs = doc_objs.filter(Q(title__icontains=search_params['title']))
+
+    if search_params['text'] != '':
+        # allows quotation marks but only extracts the string in the middle
+        match = re.match('^[\'\"]?([a-zA-Z\d ]+)[\'\"]?$', search_params['text'])
+        if not match:
+            print(f"WARNING. Could not parse full text search string: {search_params['text']}.")
+        else:
+            raw_docs = Document.objects.raw(f'''SELECT * FROM doc_fts 
+                                                     WHERE text MATCH "{match.groups()[0]}";''')
             doc_ids = [doc.id for doc in raw_docs]
             doc_objs = doc_objs.filter(id__in=doc_ids)
 
-    except:
-        print("Error getting phrase")
+    if search_params['author'] != '':
+        author = search_params['author'].split(" ")
+        doc_objs = doc_objs.filter(Q(author_person__first__icontains=author[0]) |
+                                   Q(author_person__last__icontains=author[0]) |
+                                   Q(author_organization__name__icontains=author[0]))
 
-    try:
-        author = request.GET['author']
-        if author != "":
-            author = author.split(" ")
-            doc_objs = doc_objs.filter(Q(author_person__first__icontains=author[0]) |
-                                       Q(author_person__last__icontains=author[0]) |
-                                       Q(author_organization__name__icontains=author[0]))
-    except:
-        print("Error getting author name")
-    try:
-        recipient = request.GET['receiver']
-        if recipient != "":
-            recipient = recipient.split(" ")
-            doc_objs = doc_objs.filter(Q(recipient_person__first__icontains=recipient[0]) |
-                                       Q(recipient_person__last__icontains=recipient[0]) |
-                                       Q(recipient_organization__name__icontains=recipient[0]))
-    except:
-        print('Error getting recipient name')
-    try:
-        doc_types = request.GET['doc_type'].split(',')
-        print(doc_types)
-        if isinstance(doc_types, list) and 'unknown' not in doc_types:
-            queries = [Q(type__icontains=t) for t in doc_types]
-            print(queries)
-            query = queries.pop()
-            for item in queries:
-                query |= item
-        elif doc_types != 'unknown':
-            query = Q(type__icontains=doc_types)
-        doc_objs = doc_objs.filter(query)
-    except:
-        print('Error getting doc types')
-    try:
-        pages = [int(request.GET['minPages']), int(request.GET['maxPages'])]
-        doc_objs = doc_objs.filter(Q(number_of_pages__gte=pages[0]) &
-                                   Q(number_of_pages__lte=pages[1]))
-    except:
-        print('Error getting pages')
+    if search_params['recipient'] != '':
+        recipient = search_params['recipient'].split(" ")
+        doc_objs = doc_objs.filter(Q(recipient_person__first__icontains=recipient[0]) |
+                                   Q(recipient_person__last__icontains=recipient[0]) |
+                                   Q(recipient_organization__name__icontains=recipient[0]))
 
-    try:
-        years = [int(request.GET['minYear']), int(request.GET['maxYear'])]
-        doc_objs = doc_objs.filter(Q(date__year__gte=years[0]) &
-                                   Q(date__year__lte=years[1]))
-    except:
-        print('Error getting min and max years')
+    if search_params['doc_types']:
+        doc_objs.filter(type__in=search_params['doc_types'])
 
-    print(request)
+    if search_params['min_year'] == '':
+        search_params['min_year'] = 1900
+    if search_params['max_year'] == '':
+        search_params['max_year'] = 2000
+    doc_objs = doc_objs.filter(Q(date__year__gte=int(search_params['min_year'])) &
+                               Q(date__year__lte=int(search_params['max_year'])))
 
-    return render(request, 'list.jinja2', {'model_str': 'doc', 'model_objs': doc_objs})
+
+    return search_params, doc_objs

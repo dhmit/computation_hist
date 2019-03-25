@@ -1,0 +1,76 @@
+
+/* Search Input Container */
+
+#search_container {
+    background-color: #eee;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+
+#adv_search h2{
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+p.search-type {
+    display: table;
+    width: 100%;
+}
+
+.text_label {
+    display: table-cell;
+    width: 9.75em;
+    padding-right: 0.5em;
+    text-align: right;
+    font-weight: bold;
+}
+
+input[type="text"]{
+    display: table-cell;
+    width: 96%;
+    padding-left: 3px;
+    margin-bottom: 0;
+}
+
+label[for=max_year]{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+input[type="number"]{
+    padding-left: 10px;
+}
+
+#doc_type_selector{
+    width: 96%;
+}
+
+#search_submit_button{
+    margin-left: 9.75em;
+}
+
+
+/* Search Results */
+
+.doc_result{
+    background-color: #eee;
+    overflow: hidden;
+    margin: 1em 0 2em;
+    padding: 1em 1em;
+    box-shadow:0 1px 1px rgba(0,0,0,0.3);
+}
+.doc_result table{
+    padding-left: 20px;
+}
+
+.td_heading{
+    font-weight: bold;
+}
+
+
+.doc_result_left_table{
+    float:left;
+    width: 30%;
+}
