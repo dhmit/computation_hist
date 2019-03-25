@@ -213,68 +213,78 @@ def advanced_search(request):
                         "summary", "table", "telegram"])
 
     # if no search_params, that means we're just loading the search page
-    if not request.GET.dict():
+    search_params = request.GET
+    if not search_params:
         return render(request, 'advanced_search.jinja2', {'doc_types': doc_types})
-    else:
-        search_params, results = process_advanced_search_request(request)
-        search_objs = {
-            'results': results,  # = doc_objs
-            'search_params': search_params,
-            'doc_types': doc_types
-        }
-        return render(request, 'advanced_search.jinja2', search_objs)
+
+    results = process_advanced_search(search_params)
+    search_objs = {
+        'results': results,  # = doc_objs
+        'search_params': search_params,
+        'doc_types': doc_types
+    }
+    return render(request, 'advanced_search.jinja2', search_objs)
 
 
-def process_advanced_search_request(request):
+def process_advanced_search(search_params):
     """
-    Processes one advanced search request and returns the search_results as a list of Document
-    objects as well as the search_params as a dict.
+    Processes one advanced search request and returns the search_results as a queryset
 
     :param request:
     :return:
     """
 
-    search_params = request.GET.dict()
-    # doc_types param is a list but using request.GET['doc_type'] only returns the first one.
-    search_params['doc_types'] = request.GET.getlist('doc_type')
+    docs_qs = Document.objects # 'qs' for queryset
+ 
+    title = search_params.get('title')
+    if title:
+        docs_qs = docs_qs.filter(Q(title__icontains=title))
 
-    doc_objs = Document.objects
-
-    if search_params['title'] != '':
-        doc_objs = doc_objs.filter(Q(title__icontains=search_params['title']))
-
-    if search_params['text'] != '':
+    text = search_params.get('text')
+    if text:
         # allows quotation marks but only extracts the string in the middle
-        match = re.match('^[\'\"]?([a-zA-Z\d ]+)[\'\"]?$', search_params['text'])
+        match = re.match('^[\'\"]?([a-zA-Z\d ]+)[\'\"]?$', text)
         if not match:
-            print(f"WARNING. Could not parse full text search string: {search_params['text']}.")
+            print(f"WARNING. Could not parse full text search string: {text}.")
         else:
             raw_docs = Document.objects.raw(f'''SELECT * FROM doc_fts 
                                                      WHERE text MATCH "{match.groups()[0]}";''')
             doc_ids = [doc.id for doc in raw_docs]
-            doc_objs = doc_objs.filter(id__in=doc_ids)
+            docs_qs = docs_qs.filter(id__in=doc_ids)
 
-    if search_params['author'] != '':
-        author = search_params['author'].split(" ")
-        doc_objs = doc_objs.filter(Q(author_person__first__icontains=author[0]) |
-                                   Q(author_person__last__icontains=author[0]) |
-                                   Q(author_organization__name__icontains=author[0]))
+    author = search_params.get('author')
+    if author:
+        author_names = author.split(" ")
+        docs_qs = docs_qs.filter(Q(author_person__first__icontains=author_names[0]) |
+                                   Q(author_person__last__icontains=author_names[0]) |
+                                   Q(author_organization__name__icontains=author_names[0]))
 
-    if search_params['recipient'] != '':
-        recipient = search_params['recipient'].split(" ")
-        doc_objs = doc_objs.filter(Q(recipient_person__first__icontains=recipient[0]) |
-                                   Q(recipient_person__last__icontains=recipient[0]) |
-                                   Q(recipient_organization__name__icontains=recipient[0]))
+    recipient = search_params.get('recipient')
+    if recipient:
+        recipient_names = recipient.split(" ")
+        docs_qs = docs_qs.filter(Q(recipient_person__first__icontains=recipient_names[0]) |
+                                   Q(recipient_person__last__icontains=recipient_names[0]) |
+                                   Q(recipient_organization__name__icontains=recipient_names[0]))
 
-    if search_params['doc_types']:
-        doc_objs.filter(type__in=search_params['doc_types'])
+    doc_types = search_params.getlist('doc_type')
+    # if a key points to a list of values, querydict.get() just returns the last item in the list!
+    # see: https://docs.djangoproject.com/en/2.1/ref/request-response/#django.http.QueryDict.__getitem__
+    if doc_types:
+        docs_qs.filter(type__in=doc_types)
 
-    if search_params['min_year'] == '':
-        search_params['min_year'] = 1900
-    if search_params['max_year'] == '':
-        search_params['max_year'] = 2000
-    doc_objs = doc_objs.filter(Q(date__year__gte=int(search_params['min_year'])) &
-                               Q(date__year__lte=int(search_params['max_year'])))
+    min_year = search_params.get('min_year')
+    max_year = search_params.get('max_year')
+    if min_year == '':
+        min_year = 1900
+    if max_year == '':
+        max_year = 2000
+    if min_year and max_year:
+        # TODO: this will break if we can't cast these to int - fine for now
+        # bc we validate in the frontend
+        min_year = int(min_year)
+        max_year = int(max_year)
+        docs_qs = docs_qs.filter(Q(date__year__gte=min_year) &
+                                 Q(date__year__lte=max_year))
 
 
-    return search_params, doc_objs
+    return docs_qs
