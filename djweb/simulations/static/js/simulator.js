@@ -328,11 +328,15 @@ class Instruction_B extends Instruction {
      */
     toString() {
         let address_str = this.address.toString();
-        if (this.tag) {
-            let tag_str = this.tag.toString();
-            return this.operation.name + " " + address_str + ", " + tag_str;
+        if (this.operation) {
+            if (this.tag) {
+                let tag_str = this.tag.toString();
+                return this.operation.name + " " + address_str + ", " + tag_str;
+            } else {
+                return this.operation.name + " " + address_str;
+            }
         } else {
-            return this.operation.name + " " + address_str;
+            return "Undefined operation!";
         }
     }
 }
@@ -361,10 +365,14 @@ class Instruction_A extends Instruction {
      * @returns {string}    String representation of instruction.
      */
     toString() {
-        let address_str = this.address.toString();
-        let tag_str = this.tag.toString();
-        let decrement_str = this.decrement.toString();
-        return this.operation.name + " " + address_str + ", " + tag_str + ", " + decrement_str;
+        if (this.operation) {
+            let address_str = this.address.toString();
+            let tag_str = this.tag.toString();
+            let decrement_str = this.decrement.toString();
+            return this.operation.name + " " + address_str + ", " + tag_str + ", " + decrement_str;
+        } else {
+            return "Undefined operation!";
+        }
     }
 }
 
@@ -985,7 +993,7 @@ class IBM_704 {
      * Step through a single instruction.
      */
     step() {
-        if (computer.halt) {
+        if (this.halt) {
             return;
         }
         let instruction_word = this.general_memory[this.ilc.valueOf()];
@@ -1396,7 +1404,7 @@ const DISPLAY_TYPE = {
 class Assembly_Line {
 
     /**
-     * Constructor for class.  See assembly_addition.js for example.
+     * Constructor for class.  See demos.js for example.
      *
      * @param {string}             instruction              The text in the line.
      * @param {string}             description              Short description of line to be displayed at top of page.
@@ -1416,3 +1424,5 @@ class Assembly_Line {
         return this.instruction;
     }
 }
+
+
