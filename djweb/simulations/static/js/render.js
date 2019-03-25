@@ -1,10 +1,10 @@
-const computer = new IBM_704(computer_size);
 var highlighting = true;
+
 
 /**
  * Produces HTML for all the general memory registers of the computer.
  */
-function create_memory_display() {
+function create_memory_display(computer) {
     let general_memory_display = document.getElementById("general_memory_div");
     for (let i = 0; i < computer.size; i++) {
         let para = document.createElement("p");
@@ -21,18 +21,7 @@ function create_memory_display() {
 /**
  * Update the display of the computer's memory.
  */
-function update() {
-    const code_html = $(".symbolic_code");
-    if (code_html.length !== 0) {
-        code_line = Math.min(computer.ilc.valueOf(), num_code_lines-1);
-        for (let line = 0; line < num_code_lines; line++) {
-            code_html[line].style.backgroundColor = "white";
-        }
-        if (highlighting) {
-            code_html[code_line].style.backgroundColor = "deepskyblue";
-        }
-    }
-
+function update_computer_display(computer, highlighted_registers = []) {
     const general_memory_html = $(".general_memory");
     let next_instruction_address = computer.general_memory[computer.ilc.valueOf()].instruction.address;
     for (let i = 0; i < computer.size; i++) {
@@ -46,7 +35,7 @@ function update() {
                 general_memory_html[i].style.backgroundColor = "deepskyblue";
             } else if (i === next_instruction_address && !computer.halt) {
                 general_memory_html[i].style.backgroundColor = "#ff0066";
-            } else if (typeof highlighted_registers !== "undefined" && highlighted_registers.includes(i)) {
+            } else if (highlighted_registers.includes(i)) {
                 general_memory_html[i].style.backgroundColor = "mediumseagreen";
             } else {
                 general_memory_html[i].style.backgroundColor = "transparent";
@@ -73,64 +62,36 @@ function update() {
     accumulator_element.innerHTML = computer.accumulator.toString();
     accumulator_element.title = "Fixed Point: " + computer.accumulator.fixed_point;
     accumulator_element.title += "\r\nFloating Point: " + computer.accumulator.floating_point;
-    
+
     mq_register_element = $("#mq_register")[0];
     mq_register_element.innerHTML = computer.mq_register.toString();
     mq_register_element.title = "Fixed Point: " + computer.mq_register.fixed_point;
     mq_register_element.title += "\r\nFloating Point: " + computer.mq_register.floating_point;
-    
+
     index_a_element = $("#index_a")[0];
     index_a_element.innerHTML = computer.index_a.toString();
     index_a_element.title = "Value: " + computer.index_a.valueOf();
-    
+
     index_b_element = $("#index_b")[0];
     index_b_element.innerHTML = computer.index_b.toString();
     index_b_element.title = "Value: " + computer.index_b.valueOf();
-    
+
     index_c_element = $("#index_c")[0];
     index_c_element.innerHTML = computer.index_c.toString();
     index_c_element.title = "Value: " + computer.index_c.valueOf();
-
-    update_line_desc();
 }
 
-
-function update_line_desc() {
-    let line_desc;
-    if (typeof GENERAL_ASSEMBLER !== "undefined") {
-        line_desc = "Next Instruction to be Executed: ";
-        line_desc += computer.general_memory[computer.ilc.valueOf()].instruction.toString();
-    } else {
-        let code_line = Math.min(computer.ilc.valueOf(), num_code_lines-1);
-        if (typeof instructions[code_line] !== "undefined") {
-            line_desc = instructions[code_line].description;
-        }
-    }
-    $('#line_desc')[0].innerHTML = line_desc;
-}
 
 /**
  * Sets up general elements of page when loaded.
  */
-function common_start() {
-    $('#run_button').on('click', () => {
-        computer.run();
-        update();
-    });
-    $('#clear_button').on('click', () => {
-        computer.clear();
-        update();
-    });
-    $('#step_button').on('click', () => {
-        computer.step();
-        update();
-    });
+function common_start(computer) {
     $('#highlight_button').on('click', function() { highlighting = !highlighting; update(); });
 
-    create_memory_display();
+    create_memory_display(computer);
 }
 
-function reset(instructions, memory_value_pairs){
+function reset(computer, instructions, memory_value_pairs){
     computer.clear();
     let instruction_text = [];
     for (let i in instructions) {
@@ -145,4 +106,3 @@ function reset(instructions, memory_value_pairs){
     }
 }
 
-$(document).ready(start);
