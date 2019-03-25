@@ -114,6 +114,11 @@ venv.bak/
 .project
 .pydevproject
 
+# vim
+*.swp
+*.swo
+
+
 # Scratch File
 gender_novels/scratch.py
 

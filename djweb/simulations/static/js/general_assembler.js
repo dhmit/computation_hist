@@ -1,7 +1,3 @@
-const newline_regex = /\r\n|[\n\v\f\r\x85\u2028\u2029]/;
-const GENERAL_ASSEMBLER = 1;
-const computer_size = 8192;
-
 /**
  * Attaches an event listener to a textarea that allows it to dynamically resize as you type in it.
  * From https://stackoverflow.com/questions/37629860/automatically-resizing-textarea-in-bootstrap.
@@ -17,23 +13,24 @@ function expand_text_area(id) {
 
 
 function display_operations() {
-    let operations = new Set();
+    const operations = new Set();
 
-    for (let operation in operation_b_to_no) {
+    for (const operation in operation_b_to_no) {
         operations.add(operation);
     }
 
-    for (let operation in operation_a_to_no) {
+    for (const operation in operation_a_to_no) {
         operations.add(operation);
     }
-    let string = Array.from(operations).join(", ");
-    let place = document.getElementById("available_operations");
-    place.innerText = string;
+    const operations_str = Array.from(operations).join(", ");
+    const place = document.getElementById("available_operations");
+    place.innerText = operations_str;
 }
 
-function assemble_from_code_box() {
+function assemble_from_code_box(computer) {
     try {
         const code = document.getElementById("code_box").value;
+        const newline_regex = /\r\n|[\n\v\f\r\x85\u2028\u2029]/;
         const code_lines = code.split(newline_regex);
         computer.assemble(0, code_lines);
     } catch (err) {
@@ -41,19 +38,37 @@ function assemble_from_code_box() {
     }
 }
 
+function update(computer) {
+    let line_desc = "Next Instruction to be Executed: ";
+    line_desc += computer.general_memory[computer.ilc.valueOf()].instruction.toString();
+    $('#line_desc')[0].innerHTML = line_desc;
+    update_computer_display(computer)
+}
+
 /**
  * Runs scripts to initialize page.
  */
 function start() {
-    common_start();
+    const computer = new IBM_704();
+    common_start(computer, []);
     $('#assemble_button').on('click', () => {
-        assemble_from_code_box();
-        update();
+        assemble_from_code_box(computer);
+        update(computer);
     });
-    $('#reset_button').on('click', ()=>{
-        alert("cannot reset");
+    $('#clear_button').on('click', () => {
+        computer.clear();
+        update(computer);
+    });
+    $('#run_button').on('click', () => {
+        computer.run();
+        update(computer);
+
+    });
+    $('#step_button').on('click', () => {
+        computer.step();
+        update(computer);
     });
     expand_text_area("code_box");
     display_operations();
-    update();
+    update(computer);
 }
