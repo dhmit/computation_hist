@@ -240,31 +240,19 @@ def process_advanced_search_request(request):
 
     doc_objs = Document.objects
 
-    if search_params['title'] != '':
-        doc_objs = doc_objs.filter(Q(title__icontains=search_params['title']))
+    for search_param in ['title', 'text', 'author', 'recipient']:
+        if search_params[search_param] != '':
+            # allows quotation marks but only extracts the string in the middle
+            match = re.match('^[\'\"]?([a-zA-Z\d ]+)[\'\"]?$', search_params[search_param])
+            if not match:
+                print(f"WARNING. Could not parse search string:{search_params[search_param]}.")
+            else:
+                raw_docs = Document.objects.raw(f'''SELECT * FROM doc_fts 
+                                                             WHERE {search_param} 
+                                                             MATCH "{match.groups()[0]}";''')
+                doc_ids = [doc.id for doc in raw_docs]
+                doc_objs = doc_objs.filter(id__in=doc_ids)
 
-    if search_params['text'] != '':
-        # allows quotation marks but only extracts the string in the middle
-        match = re.match('^[\'\"]?([a-zA-Z\d ]+)[\'\"]?$', search_params['text'])
-        if not match:
-            print(f"WARNING. Could not parse full text search string: {search_params['text']}.")
-        else:
-            raw_docs = Document.objects.raw(f'''SELECT * FROM doc_fts 
-                                                     WHERE text MATCH "{match.groups()[0]}";''')
-            doc_ids = [doc.id for doc in raw_docs]
-            doc_objs = doc_objs.filter(id__in=doc_ids)
-
-    if search_params['author'] != '':
-        author = search_params['author'].split(" ")
-        doc_objs = doc_objs.filter(Q(author_person__first__icontains=author[0]) |
-                                   Q(author_person__last__icontains=author[0]) |
-                                   Q(author_organization__name__icontains=author[0]))
-
-    if search_params['recipient'] != '':
-        recipient = search_params['recipient'].split(" ")
-        doc_objs = doc_objs.filter(Q(recipient_person__first__icontains=recipient[0]) |
-                                   Q(recipient_person__last__icontains=recipient[0]) |
-                                   Q(recipient_organization__name__icontains=recipient[0]))
 
     if search_params['doc_types']:
         doc_objs.filter(type__in=search_params['doc_types'])
