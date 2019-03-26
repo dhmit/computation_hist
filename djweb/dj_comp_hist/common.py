@@ -2,7 +2,7 @@ import os
 from pathlib import Path, PurePosixPath
 
 DJWEB_PATH = Path(os.path.abspath(os.path.dirname(__file__)))
-DATA_BASE_PATH = Path(DJWEB_PATH.parent.parent,"computation_hist","data","processed_pdfs")
+DATA_BASE_PATH = Path(DJWEB_PATH.parent.parent,"data","processed_pdfs")
 
 def get_file_path(box: int, folder: int, foldername_short:str, file_type:str,
                   doc_id:int = None, page_id:int = None, path_type='relative'):

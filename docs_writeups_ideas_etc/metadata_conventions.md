@@ -56,7 +56,7 @@ to read the full document to decide on the best title for a document. Skim the f
 
 If you are dealing with a very short, uninformative document with many recipients, don't enter 
 the recipients or ccs. Here's an example:
-![](documentation_images/metadata_2.png)
+![](images/metadata_2.png)
 Technically, the recipients are "DIC Fiscal," "Patent Office," "DIC File," "Fiscal Officer," "Project 
 Supervisor," and "Department of Physics." However, the primary purpose of the recipient/cc data 
 is to use it for our social network analysis. This document is not very useful for this purpose 
@@ -105,7 +105,7 @@ or:
 drive.
 
 **Example**
-![](documentation_images/metadata_1.png)
+![](images/metadata_1.png)
 In this case, the full foldername is "Proposal to the National Science Foundation (NSF) and the 
 Office of Naval Research (ONR). 1956" Note: Don't include the folder number ("6:")
 

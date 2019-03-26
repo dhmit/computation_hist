@@ -3,7 +3,7 @@
 This markdown file will detail the ideas for integrating 1950s-60s
 design into the website.
 
-Including pictures o fMIT back in the 1950s
+Including pictures of MIT back in the 1950s
 might help give site viewers a sense of the environment
 that surrounded the development of computation at MIT. This can
 be complemented using a very simple aesthetic design, so as not
