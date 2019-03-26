@@ -261,7 +261,7 @@ def process_advanced_search(search_params):
             author_q |= Q(author_person__first__icontains=name)
             author_q |= Q(author_person__last__icontains=name)
             author_q |= Q(author_organization__name__icontains=name)
-        docs_qs.filter(author_q)
+        docs_qs = docs_qs.filter(author_q)
 
     recipient = search_params.get('recipient')
     if recipient:
@@ -271,7 +271,7 @@ def process_advanced_search(search_params):
             recipient_q |= Q(recipient_person__first__icontains=name)
             recipient_q |= Q(recipient_person__last__icontains=name)
             recipient_q |= Q(recipient_organization__name__icontains=name)
-        docs_qs.filter(recipient_q)
+        docs_qs = docs_qs.filter(recipient_q)
 
     doc_types = search_params.getlist('doc_type')
     # if a key points to a list of values, querydict.get() just returns the last item in the list!
