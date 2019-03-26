@@ -56,15 +56,46 @@ def populate_from_metadata(file_name=None):
     print(f'Added {count_added} documents from {file_name}. Skipped {count_skipped} documents '
           f'because of incomplete metadata. Invalid: {count_invalid}')
 
+
     db = sqlite3.connect(f"{Path(DJWEB_PATH.parent, 'db.sqlite3')}")
     cursor = db.cursor()
+
+    # Create full text search table for document text, title, author, recipient, cced
     # delete old table if exists before populating full text search table.
     cursor.execute('DROP TABLE IF EXISTS doc_fts;')
-    cursor.execute('create virtual table doc_fts using FTS4(id, title, text);')
-    cursor.execute('''INSERT INTO doc_fts(id, title, text) 
-                                                SELECT id, title, text 
-                                                FROM dj_comp_hist_document;''')
-    db.commit()
+    cursor.execute('CREATE VIRTUAL TABLE doc_fts USING FTS4(id, title, text, author, recipient, cced);')
+
+    for d in Document.objects.all():
+        # join together all author names. By default, first and last name are joined by an
+        # underscore -> replace with a space
+
+        # sqlite expects quotation marks and apostrophes to be escaped by doubling
+        # them, e.g. he''s. However, the fts table tokenizer splits them up anyway -> it's easier
+        # to just replace them with spaces.
+
+        author = " ".join([p['name'].replace('_', ' ') for p in d.get_person_list('authors')])
+        author = author.replace("'", " ").replace('"', ' ')
+
+        recipient = " ".join([p['name'].replace('_', ' ') for p in d.get_person_list('recipients')])
+        recipient = recipient.replace("'", " ").replace('"', ' ')
+
+        cced = " ".join([p['name'].replace('_', ' ') for p in d.get_person_list('cceds')])
+        cced = cced.replace("'", " ").replace('"', ' ')
+
+        title = d.title.replace("'", " ").replace('"', ' ')
+        text = d.text.replace("'", " ").replace('"', ' ')
+
+        insert_cmd = f'''INSERT INTO doc_fts(id, title, text, author, recipient, cced)
+                                VALUES("{d.pk}", "{title}", "{text}", "{author}", "{recipient}", "{cced}");
+                      '''
+
+        print(insert_cmd)
+
+        cursor.execute(insert_cmd)
+
+        # commiting only after inserting all documents produced db locked errors -> moved here
+        db.commit()
+
 
 def add_one_document(csv_line):
     """

@@ -247,6 +247,7 @@ def process_advanced_search(search_params):
         if not match:
             print(f"WARNING. Could not parse full text search string: {text}.")
         else:
+            print('Match groups: ', match.groups())
             raw_docs = Document.objects.raw(f'''SELECT * FROM doc_fts 
                                                      WHERE text MATCH "{match.groups()[0]}";''')
             doc_ids = [doc.id for doc in raw_docs]
@@ -255,16 +256,22 @@ def process_advanced_search(search_params):
     author = search_params.get('author')
     if author:
         author_names = author.split(" ")
-        docs_qs = docs_qs.filter(Q(author_person__first__icontains=author_names[0]) |
-                                   Q(author_person__last__icontains=author_names[0]) |
-                                   Q(author_organization__name__icontains=author_names[0]))
+        author_q = Q()
+        for name in author_names:
+            author_q |= Q(author_person__first__icontains=name)
+            author_q |= Q(author_person__last__icontains=name)
+            author_q |= Q(author_organization__name__icontains=name)
+        docs_qs.filter(author_q)
 
     recipient = search_params.get('recipient')
     if recipient:
         recipient_names = recipient.split(" ")
-        docs_qs = docs_qs.filter(Q(recipient_person__first__icontains=recipient_names[0]) |
-                                   Q(recipient_person__last__icontains=recipient_names[0]) |
-                                   Q(recipient_organization__name__icontains=recipient_names[0]))
+        recipient_q = Q()
+        for name in recipient_names:
+            recipient_q |= Q(recipient_person__first__icontains=name)
+            recipient_q |= Q(recipient_person__last__icontains=name)
+            recipient_q |= Q(recipient_organization__name__icontains=name)
+        docs_qs.filter(recipient_q)
 
     doc_types = search_params.getlist('doc_type')
     # if a key points to a list of values, querydict.get() just returns the last item in the list!
@@ -286,5 +293,6 @@ def process_advanced_search(search_params):
         docs_qs = docs_qs.filter(Q(date__year__gte=min_year) &
                                  Q(date__year__lte=max_year))
 
+    docs_qs = docs_qs.prefetch_related( 'author_person', 'author_organization', 'folder', 'recipient_person', 'recipient_organization') # prevents template from hitting the db
 
     return docs_qs
