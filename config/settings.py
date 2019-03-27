@@ -16,9 +16,8 @@ from utilities.jinja_utils import collect_jinja2_functions
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 CONFIG_DIR = os.path.dirname(os.path.abspath(__file__))
-CODE_DIR = os.path.dirname(CONFIG_DIR)
-PROJECT_ROOT_DIR = os.path.dirname(CODE_DIR)
-DATA_DIR = os.path.join(PROJECT_ROOT_DIR, 'data')
+ROOT_DIR = os.path.dirname(CONFIG_DIR)
+DATA_DIR = os.path.join(ROOT_DIR, 'data')
 METADATA_CSV = os.path.join(DATA_DIR, 'metadata.csv')
 
 # Quick-start development settings - unsuitable for production
@@ -68,7 +67,7 @@ ROOT_URLCONF = 'config.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django_jinja.backend.Jinja2',
-        'DIRS': [(os.path.join(CODE_DIR, 'templates'))],
+        'DIRS': [(os.path.join(ROOT_DIR, 'templates'))],
         'APP_DIRS': True,
         "OPTIONS": {
             'trim_blocks': True,
