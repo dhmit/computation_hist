@@ -44,7 +44,7 @@ def main_function(test_run=True):
 def download_raw_folder_pdf_from_aws(box_no: int, folder_no: int, foldername_short: str):
     """
     Downloads a raw (not yet ocred) pdf file from amazon aws and stores it in the proper folder
-    relative to PROCESSED_PDFS_PATH from dj_comp_hist.common
+    relative to PROCESSED_PDFS_PATH from utilities.common
 
     :param box_no:
     :param folder_no:

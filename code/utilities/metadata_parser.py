@@ -19,7 +19,7 @@ from apps.archives.models import (
     Page,
     Text,
 )
-from .common import DJWEB_PATH, get_file_path
+from .common import get_file_path
 
 
 def populate_from_metadata(file_name=None):
