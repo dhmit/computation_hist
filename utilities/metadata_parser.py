@@ -9,8 +9,8 @@ from django.db import IntegrityError
 from django.core.exceptions import ValidationError
 
 # project
-from config.settings import METADATA_CSV, DATABASES
-from apps.archives.models import (
+from dj_config.settings import METADATA_CSV, DATABASES
+from dj_apps.archives.models import (
     Organization,
     Person,
     Box,

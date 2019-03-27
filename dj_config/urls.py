@@ -19,7 +19,7 @@ from django.shortcuts import redirect
 
 urlpatterns = [
     path('', lambda request: redirect('/archives/')), # n.b. this lambda is an anonymous view function! 
-    path('archives/', include('apps.archives.urls')),
-    path('simulations/', include('apps.simulations.urls')),
+    path('archives/', include('dj_apps.archives.urls')),
+    path('simulations/', include('dj_apps.simulations.urls')),
     path('admin/', admin.site.urls),
 ]

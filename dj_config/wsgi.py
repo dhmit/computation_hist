@@ -1,5 +1,5 @@
 """
-WSGI config for djweb project.
+WSGI dj_config for djweb project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 

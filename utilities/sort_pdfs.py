@@ -7,7 +7,7 @@ from PyPDF2 import PdfFileWriter, PdfFileReader
 from pdf2image import convert_from_path
 import pytesseract
 
-from ..apps.archives.models import Folder
+from ..dj_apps.archives.models import Folder
 from .common import get_file_path, PROCESSED_PDFS_PATH
 from .ocr import ocr_pdf
 

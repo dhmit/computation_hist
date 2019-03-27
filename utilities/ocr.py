@@ -7,7 +7,7 @@ import numpy as np
 from PIL import Image
 from scipy.ndimage import interpolation as inter
 
-from config.settings import DATA_DIR
+from dj_config.settings import DATA_DIR
 
 '''
 
