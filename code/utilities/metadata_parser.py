@@ -102,7 +102,7 @@ def populate_from_metadata(file_name=None):
                                 VALUES("{d.pk}", "{title}", "{text}", "{author}", "{recipient}", "{cced}");
                       '''
 
-        print(insert_cmd)
+        # print(insert_cmd)
 
         cursor.execute(insert_cmd)
 
