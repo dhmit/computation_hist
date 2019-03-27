@@ -38,8 +38,8 @@ def ocr_pdf(input_pdf_path, return_type='text', output_pdf_path=None):
     >>> text = ocr_pdf(input_pdf_path, return_type='text')
 
     # tesseract is non-deterministic and output can change between runs -> show type and length
-    >>> type(text), len(text)
-    (<class 'str'>, 1101)
+    >>> type(text), len(text) > 1000
+    (<class 'str'>, True)
 
     # return_type='pdf' stores an ocred copy of the pdf
     >>> output_pdf_path = Path(DATA_DIR, 'sample_docs', '3_32_verzuh_1_ocr_test.pdf')
