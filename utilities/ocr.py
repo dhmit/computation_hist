@@ -34,14 +34,15 @@ def ocr_pdf(input_pdf_path, return_type='text', output_pdf_path=None):
     https://github.com/tesseract-ocr/tessdata)
 
     # return_type='text' returns the text of the pdf
-    >>> input_pdf_path = Path('..', 'computation_hist', 'data', 'sample_docs', '3_32_verzuh_1.pdf')
+    >>> input_pdf_path = Path(DATA_DIR, 'sample_docs', '3_32_verzuh_1.pdf')
     >>> text = ocr_pdf(input_pdf_path, return_type='text')
-    >>> text[31:48]
-    'November 21, 1957'
+
+    # tesseract is non-deterministic and output can change between runs -> show type and length
+    >>> type(text), len(text)
+    (<class 'str'>, 1101)
 
     # return_type='pdf' stores an ocred copy of the pdf
-    >>> output_pdf_path = Path('..', 'computation_hist', 'data', 'sample_docs',
-    ... '3_32_verzuh_1_ocr.pdf')
+    >>> output_pdf_path = Path(DATA_DIR, 'sample_docs', '3_32_verzuh_1_ocr_test.pdf')
     >>> output_pdf_path.exists()    # output_pdf_path shouldn't exist yet
     False
     >>> ocr_pdf(input_pdf_path, return_type='pdf', output_pdf_path=output_pdf_path)
@@ -193,7 +194,7 @@ def fix_pil(doc, doc_path):
     count = 0
     for image in doc:
         filepaths.append(
-            Path('..', 'computation_hist', 'data', 'sample_docs', 'doc_save' + str(count) + '.jpg')
+            Path(DATA_DIR, 'sample_docs', 'doc_save' + str(count) + '.jpg')
         )
         with open(filepaths[count], 'wb') as pic:
             image.save(pic)
@@ -217,8 +218,4 @@ def fix_pil(doc, doc_path):
 
 
 if __name__ == '__main__':
-    input_pdf_path = Path('..', 'computation_hist', 'data', 'sample_docs',
-                                '3_32_verzuh_4.pdf')
-    output_pdf_path = Path('..', 'computation_hist', 'data', 'sample_docs',
-                           'skew_test_out.pdf')
-    o = ocr_pdf(input_pdf_path, return_type='pdf', output_pdf_path=output_pdf_path)
+    pass
