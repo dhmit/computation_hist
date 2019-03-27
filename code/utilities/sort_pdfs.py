@@ -3,7 +3,7 @@ import urllib.error
 import shutil
 from pathlib import Path
 from django.db import models
-from dj_comp_hist.models import Folder
+from archives.models import Folder
 from dj_comp_hist.common import get_file_path, DATA_BASE_PATH
 from PyPDF2 import PdfFileWriter, PdfFileReader
 from pdf2image import convert_from_path

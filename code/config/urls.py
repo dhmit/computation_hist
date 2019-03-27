@@ -15,11 +15,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import include, path
-from .non_built_func import redirect_view
+from django.shortcuts import redirect
 
 urlpatterns = [
-    path('', redirect_view),
-    path('dj_comp_hist/', include('dj_comp_hist.urls')),
-    path('simulations/', include('simulations.urls')),
+    path('', lambda request: redirect('/archives/')), # n.b. this lambda is an anonymous view function! 
+    path('archives/', include('apps.archives.urls')),
+    path('simulations/', include('apps.simulations.urls')),
     path('admin/', admin.site.urls),
 ]

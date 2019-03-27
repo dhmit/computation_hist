@@ -14,15 +14,15 @@
     <img src="{{ png_url_amz }}" height="600">
     {% endif %}
     <br>
-    Go to <a href="/dj_comp_hist/doc/{{ document_obj.pk }}">{{ document_obj }}</a>
+    Go to <a href="/archives/doc/{{ document_obj.pk }}">{{ document_obj }}</a>
     {% if document_obj.number_of_pages > 1%}
         {% if previous_page %}
             <br>
-            <a href="/dj_comp_hist/page/{{ previous_page.pk }}">Previous Page</a>
+            <a href="/archives/page/{{ previous_page.pk }}">Previous Page</a>
         {% endif %}
         {%  if next_page %}
             <br>
-            <a href="/dj_comp_hist/page/{{ next_page.pk }}">Next Page</a>
+            <a href="/archives/page/{{ next_page.pk }}">Next Page</a>
         {% endif %}
     {% endif %}
 

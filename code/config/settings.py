@@ -14,12 +14,11 @@ import os
 from django_jinja.builtins import DEFAULT_EXTENSIONS
 from utilities.jinja_utils import collect_jinja2_functions
 
-
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
-PROJECT_ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-DJANGO_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-
+CONFIG_DIR = os.path.dirname(os.path.abspath(__file__))
+CODE_DIR = os.path.dirname(CONFIG_DIR)
+PROJECT_ROOT_DIR = os.path.dirname(CODE_DIR)
+DATA_DIR = os.path.join(PROJECT_ROOT_DIR, 'data')
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.1/howto/deployment/checklist/
@@ -68,7 +67,7 @@ ROOT_URLCONF = 'config.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django_jinja.backend.Jinja2',
-        'DIRS': [(os.path.join(BASE_DIR, 'templates'))],
+        'DIRS': [(os.path.join(CODE_DIR, 'templates'))],
         'APP_DIRS': True,
         "OPTIONS": {
             'trim_blocks': True,
@@ -119,7 +118,7 @@ WSGI_APPLICATION = 'config.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'NAME': os.path.join(DATA_DIR, 'db.sqlite3'),
     }
 }
 
@@ -147,13 +146,9 @@ AUTH_PASSWORD_VALIDATORS = [
 # https://docs.djangoproject.com/en/2.1/topics/i18n/
 
 LANGUAGE_CODE = 'en-us'
-
 TIME_ZONE = 'UTC'
-
 USE_I18N = True
-
 USE_L10N = True
-
 USE_TZ = True
 
 
@@ -163,6 +158,9 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 MEDIA_URL = '/media/'
+
+
+# Logging
 
 LOGGING = {
     'version': 1,

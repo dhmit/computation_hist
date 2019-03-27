@@ -5,7 +5,7 @@ from pdf2image import convert_from_path
 import csv
 import os
 from pathlib import Path
-from .common import get_file_path
+from utilities.common import get_file_path
 
 # Create your models here.
 
@@ -28,7 +28,7 @@ class Organization(models.Model):
 
     @property
     def url(self):
-        return f'/dj_comp_hist/organization/{self.pk}'
+        return f'/archives/organization/{self.pk}'
 
 
 class Person(models.Model):
@@ -64,7 +64,7 @@ class Person(models.Model):
 
     @property
     def url(self):
-        return f'/dj_comp_hist/person/{self.pk}'
+        return f'/archives/person/{self.pk}'
 
 
 class Box(models.Model):
@@ -132,7 +132,7 @@ class Document(models.Model):
 
     @property
     def url(self):
-        return f'/dj_comp_hist/doc/{self.pk}'
+        return f'/archives/doc/{self.pk}'
 
     def get_person_list(self, list_type):
         """
