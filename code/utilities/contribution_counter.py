@@ -1,8 +1,9 @@
 import csv
+from pathlib import Path
 
-# TODO: move elsewhere, since not used in Django app
+from ..config.settings import DATA_DIR
 
-def contribution_counter(metadata="metadata.csv"):
+def contribution_counter(metadata=None):
     """
     This function returns a list of people who have contributed metadata.
     It returns a list of tuples where the first element is the person and the
@@ -15,6 +16,9 @@ def contribution_counter(metadata="metadata.csv"):
 
     :return: list
     """
+    if not metadata:
+        file_name = METADATA_CSV
+
     number_contributions = {}
 
     not_a_member = ["shobhita", "kelsey", "charlotte", "assel",

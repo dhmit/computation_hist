@@ -19,6 +19,7 @@ CONFIG_DIR = os.path.dirname(os.path.abspath(__file__))
 CODE_DIR = os.path.dirname(CONFIG_DIR)
 PROJECT_ROOT_DIR = os.path.dirname(CODE_DIR)
 DATA_DIR = os.path.join(PROJECT_ROOT_DIR, 'data')
+METADATA_CSV = os.path.join(DATA_DIR, 'metadata.csv')
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.1/howto/deployment/checklist/

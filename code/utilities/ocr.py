@@ -1,13 +1,13 @@
+import cv2
 import PyPDF2
 import pdf2image
 import pytesseract
 from pathlib import Path
 import numpy as np
-import cv2
 from PIL import Image
 from scipy.ndimage import interpolation as inter
 
-from dj_comp_hist.common import DJWEB_PATH
+from ..config.settings import DATA_DIR
 
 '''
 
@@ -21,9 +21,7 @@ To install tesseract on macOS using homebrew:
 
 # Path to the tesseract neural net
 # Note: We're using tessdata_best (https://github.com/tesseract-ocr/tessdata_best)
-OCR_LSTM_NET_PATH = Path(DJWEB_PATH.parent.parent, 'computation_hist', 'data', 'ocr_lstm_net')
-
-
+OCR_LSTM_NET_PATH = Path(DATA_DIR, 'ocr_lstm_net')
 
 def ocr_pdf(input_pdf_path, return_type='text', output_pdf_path=None):
     """

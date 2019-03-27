@@ -1,13 +1,26 @@
+# python
 import os
 import csv
 import sqlite3
 from pathlib import Path
-from .models import *
+
+# django
 from django.db import IntegrityError
 from django.core.exceptions import ValidationError
-from .common import DJWEB_PATH
 
-# TODO: move elsewhere, since used in data preprocessing, not in Django app
+# project
+from config.settings import METADATA_CSV, DATABASES
+from apps.archives.models import (
+    Organization,
+    Person,
+    Box,
+    Folder,
+    Document,
+    Page,
+    Text,
+)
+from .common import DJWEB_PATH, get_file_path
+
 
 def populate_from_metadata(file_name=None):
     '''
@@ -18,14 +31,14 @@ def populate_from_metadata(file_name=None):
     > cd djweb
     > python manage.py shell
     in shell:
-    > from dj_comp_hist.metadata_parser import populate_from_metadata
+    > from utilities.metadata_parser import populate_from_metadata
     > populate_from_metadata()
     The 'r' in front of the file location isn't necessary but can help to prevent strange errors.
     Utilizes interpret_organization_person to add authors, recipients, and cced.
     '''
 
     if file_name is None:
-        file_name = Path(os.path.abspath(os.path.dirname(__file__)), 'metadata.csv')
+        file_name = METADATA_CSV
 
     with open(file_name) as file:
         csv_file = csv.DictReader(file)
@@ -56,8 +69,8 @@ def populate_from_metadata(file_name=None):
     print(f'Added {count_added} documents from {file_name}. Skipped {count_skipped} documents '
           f'because of incomplete metadata. Invalid: {count_invalid}')
 
-
-    db = sqlite3.connect(f"{Path(DJWEB_PATH.parent, 'db.sqlite3')}")
+    sqlite_path = DATABASES['default']['NAME']
+    db = sqlite3.connect(sqlite_path)
     cursor = db.cursor()
 
     # Create full text search table for document text, title, author, recipient, cced
@@ -102,6 +115,7 @@ def add_one_document(csv_line):
     Processes one line from a metadata csv file and add it to the database.
     Note: This function does not check if the metadata is complete. It is only supposed to be
     accessed by populate_from_metadata.
+
     >>> from collections import OrderedDict
     >>> csv_line = OrderedDict([('box', '1'), ('folder_number', '1'), ('foldername_short',
     ... 'committee_on_machine_methods'), ('foldername_full', 'Committee on Machine Methods'),

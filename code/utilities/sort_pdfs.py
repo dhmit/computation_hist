@@ -2,17 +2,17 @@ import urllib.request
 import urllib.error
 import shutil
 from pathlib import Path
-from django.db import models
-from archives.models import Folder
-from dj_comp_hist.common import get_file_path, DATA_BASE_PATH
+
 from PyPDF2 import PdfFileWriter, PdfFileReader
 from pdf2image import convert_from_path
 import pytesseract
-from ocr import ocr_pdf
 
-# TODO: move me elsewhere bc used in data preprocessing, not in the django app
+from ..apps.archives.models import Folder
+from .common import get_file_path, PROCESSED_PDFS_PATH
+from .ocr import ocr_pdf
 
 def main_function(test_run=True):
+
     """
     Iterates over all Folder Objects, downloads the folder pdf from aws and stores it in its
     designated directory.
@@ -44,7 +44,7 @@ def main_function(test_run=True):
 def download_raw_folder_pdf_from_aws(box_no: int, folder_no: int, foldername_short: str):
     """
     Downloads a raw (not yet ocred) pdf file from amazon aws and stores it in the proper folder
-    relative to DATA_BASE_PATH from dj_comp_hist.common
+    relative to PROCESSED_PDFS_PATH from dj_comp_hist.common
 
     :param box_no:
     :param folder_no:
@@ -52,7 +52,7 @@ def download_raw_folder_pdf_from_aws(box_no: int, folder_no: int, foldername_sho
     :return: the absolute path of the pdf file (including the pdf file itself)
     """
     rel_path = get_file_path(box_no, folder_no, foldername_short, file_type='raw_pdf')
-    abs_path = Path(DATA_BASE_PATH, rel_path)
+    abs_path = Path(PROCESSED_PDFS_PATH, rel_path)
     if abs_path.exists():
         print(f'PDF {rel_path} already downloaded. Skipping download')
         return abs_path

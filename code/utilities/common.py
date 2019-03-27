@@ -1,8 +1,9 @@
 import os
 from pathlib import Path, PurePosixPath
 
-DJWEB_PATH = Path(os.path.abspath(os.path.dirname(__file__)))
-DATA_BASE_PATH = Path(DJWEB_PATH.parent.parent,"data","processed_pdfs")
+from ..config.settings import DATA_DIR
+
+PROCESSED_PDFS_PATH = Path(DATA_DIR, "processed_pdfs")
 
 def get_file_path(box: int, folder: int, foldername_short:str, file_type:str,
                   doc_id:int = None, page_id:int = None, path_type='relative'):
@@ -80,7 +81,7 @@ def get_file_path(box: int, folder: int, foldername_short:str, file_type:str,
     if path_type == 'relative':
         return path
     elif path_type == 'absolute':
-        return Path(DATA_BASE_PATH, path)
+        return Path(PROCESSED_PDFS_PATH, path)
     elif path_type == 'aws':
         return Path("https://s3.amazonaws.com/comp-hist/docs/", path)
     else:
