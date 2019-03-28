@@ -1,7 +1,7 @@
 import os
 from pathlib import Path, PurePosixPath
 
-from dj_config.settings import DATA_DIR
+from config.settings import DATA_DIR
 
 PROCESSED_PDFS_PATH = Path(DATA_DIR, "processed_pdfs")
 

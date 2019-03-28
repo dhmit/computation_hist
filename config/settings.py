@@ -43,13 +43,13 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
-    # 3rd party dj_apps
-    'django_jinja',  # we use Jinja2 dj_templates, not pure django.
+    # 3rd party apps
+    'django_jinja',  # we use Jinja2 templates, not pure django.
     'django_jinja.contrib._humanize',
 
-    # our dj_apps
-    'dj_apps.archives',
-    'dj_apps.simulations',
+    # our apps
+    'apps.archives',
+    'apps.simulations',
 ]
 
 MIDDLEWARE = [
@@ -62,12 +62,12 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'dj_config.urls'
+ROOT_URLCONF = 'config.urls'
 
 TEMPLATES = [
     {
         'BACKEND': 'django_jinja.backend.Jinja2',
-        'DIRS': [(os.path.join(ROOT_DIR, 'dj_templates'))],
+        'DIRS': [(os.path.join(ROOT_DIR, 'templates'))],
         'APP_DIRS': True,
         "OPTIONS": {
             'trim_blocks': True,
@@ -109,7 +109,7 @@ JINJA2_ENVIRONMENT_OPTIONS = {
 }
 JINJA2_FILTERS = collect_jinja2_functions()  # gets functions and filters
 
-WSGI_APPLICATION = 'dj_config.wsgi.application'
+WSGI_APPLICATION = 'config.wsgi.application'
 
 
 # Database

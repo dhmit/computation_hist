@@ -1,7 +1,7 @@
 import csv
 from pathlib import Path
 
-from ..dj_config.settings import DATA_DIR
+from ..config.settings import DATA_DIR
 
 def contribution_counter(metadata=None):
     """
