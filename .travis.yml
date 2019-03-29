@@ -10,5 +10,5 @@ install:
   - python manage.py migrate
 
 script:
-  - echo "from utilities.metadata_parser import populate_from_metadata; populate_from_metadata" | python manage.py shell
-  - python manage.py runserver
+  - python manage.py populate_from_metadata
+    # - python manage.py runserver
