@@ -58,7 +58,7 @@ def populate_from_metadata(file_name=None):
 
             if missing_metadata:
                 print(f'WARNING: Line {line_id+1} is incomplete (skipping).\
-                        \n\tMissing fields: {missing_attrs} - FIXME in the metadata!')
+                        \n\tMissing fields: {missing_metadata} - FIXME in the metadata!')
                 count_skipped += 1
                 continue
 
