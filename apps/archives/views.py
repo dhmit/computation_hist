@@ -21,7 +21,7 @@ def person(request, person_id):
         'document_received_objs': document_received_objs,
         'document_cced_objs': document_cced_objs
     }
-    return render(request, 'person.jinja2', obj_dict)
+    return render(request, 'archives/person.jinja2', obj_dict)
 
 
 def doc(request, doc_id):
@@ -65,7 +65,7 @@ def doc(request, doc_id):
         'page_objs': page_objs,
         'doc_pdf_url': doc_pdf_url,
     }
-    return render(request, 'doc.jinja2', obj_dict)
+    return render(request, 'archives/doc.jinja2', obj_dict)
 
 
 def box(request, box_id):
@@ -75,7 +75,7 @@ def box(request, box_id):
         'box_obj': box_obj,
         'folder_objs': folder_objs
     }
-    return render(request, 'box.jinja2', obj_dict)
+    return render(request, 'archives/box.jinja2', obj_dict)
 
 
 def folder(request, folder_id):
@@ -85,7 +85,7 @@ def folder(request, folder_id):
         'folder_obj': folder_obj,
         'document_objs': document_objs
     }
-    response = render(request, 'folder.jinja2', obj_dict)
+    response = render(request, 'archives/folder.jinja2', obj_dict)
     return response
 
 
@@ -100,7 +100,7 @@ def organization(request, org_id):
         'document_received_objs': document_received_objs,
         'document_cced_objs': document_cced_objs
     }
-    response = render(request, 'organization.jinja2', obj_dict)
+    response = render(request, 'archives/organization.jinja2', obj_dict)
     return response
 
 
@@ -125,7 +125,7 @@ def page(request, page_id):
         'previous_page': previous_page,
         'png_url_amz': png_url_amz,
     }
-    response = render(request, 'page.jinja2', obj_dict)
+    response = render(request, 'archives/page.jinja2', obj_dict)
     return response
 
 
@@ -155,7 +155,7 @@ def list_obj(request, model_str):
         'model_objs': model_objs,
         'model_str': model_str,
     }
-    response = render(request, 'list.jinja2', obj_dict)
+    response = render(request, 'archives/list.jinja2', obj_dict)
     return response
 
 
@@ -185,12 +185,12 @@ def search_results(request):
         'organization_objs': organization_objs,
         'query': user_input,
     }
-    response = render(request, 'search_results.jinja2', obj_dict)
+    response = render(request, 'archives/search_results.jinja2', obj_dict)
     return response
 
 
 def browse(request):
-    return render(request, 'browse.jinja2')
+    return render(request, 'archives/browse.jinja2')
 
 
 def advanced_search(request):
@@ -210,7 +210,7 @@ def advanced_search(request):
     # if no search_params, that means we're just loading the search page
     search_params = request.GET
     if not search_params:
-        return render(request, 'advanced_search.jinja2', {'doc_types': doc_types})
+        return render(request, 'archives/advanced_search.jinja2', {'doc_types': doc_types})
 
     results = process_advanced_search(search_params)
     search_objs = {
@@ -218,7 +218,7 @@ def advanced_search(request):
         'search_params': search_params,
         'doc_types': doc_types
     }
-    return render(request, 'advanced_search.jinja2', search_objs)
+    return render(request, 'archives/advanced_search.jinja2', search_objs)
 
 
 def process_advanced_search(search_params):
