@@ -1,8 +1,9 @@
 # python
-import os
 import csv
 import sqlite3
-from pathlib import Path
+
+# ext
+from pdf2image import convert_from_path
 
 # django
 from django.db import IntegrityError
@@ -17,7 +18,6 @@ from apps.archives.models import (
     Folder,
     Document,
     Page,
-    Text,
 )
 from .common import get_file_path
 
@@ -69,8 +69,8 @@ def populate_from_metadata(file_name=None):
                 count_invalid += 1
                 print(f'{e}. Line: {line}.')
 
-    print(f'Added {count_added} documents from {file_name}. Skipped {count_skipped} documents '
-          f'because of incomplete metadata. Invalid: {count_invalid}')
+
+    print(f'Creating full text search tables...')
 
     sqlite_path = DATABASES['default']['NAME']
     db = sqlite3.connect(sqlite_path)
@@ -80,7 +80,6 @@ def populate_from_metadata(file_name=None):
     # delete old table if exists before populating full text search table.
     cursor.execute('DROP TABLE IF EXISTS doc_fts;')
     cursor.execute('CREATE VIRTUAL TABLE doc_fts USING FTS4(id, title, text, author, recipient, cced);')
-
 
     # TODO(ra): this should probably be in the inner loop above, so we don't
     # have to iterate over all of the docs twice
@@ -127,7 +126,12 @@ def populate_from_metadata(file_name=None):
         db.commit()
 
 
-
+    print(f'''\n################################################################################
+IMPORT COMPLETE
+################################################################################
+Added {count_added} documents from {file_name}.
+Skipped {count_skipped} documents because of incomplete metadata.
+{count_invalid} had invalid data.''')
 
 def add_one_document(csv_line):
     """
@@ -219,6 +223,9 @@ def add_one_document(csv_line):
         pass
 
 
+
+
+
 def pdf_to_image_split(pdf_path, image_directory, folder_name):
     """
     Splits a each page of a pdf into an image.
@@ -276,7 +283,6 @@ def page_image_to_doc(folder_name, pdf_path, image_directory):
         else:
             # This means that the page isn't associated with a document
             pass
-    return
 
 
 def interpret_person_organization(field, item_organization, item_person, new_doc):

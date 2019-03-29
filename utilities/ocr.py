@@ -1,15 +1,4 @@
-import cv2
-import PyPDF2
-import pdf2image
-import pytesseract
-from pathlib import Path
-import numpy as np
-from PIL import Image
-from scipy.ndimage import interpolation as inter
-
-from config.settings import DATA_DIR
-
-'''
+"""
 
 n.b. macOS users may have difficulty installing pdf2image using pip.
 See instructions at https://github.com/Belval/pdf2image
@@ -17,7 +6,20 @@ See instructions at https://github.com/Belval/pdf2image
 To install tesseract on macOS using homebrew:
 `brew install tesseract`
 
-'''
+"""
+
+from pathlib import Path
+
+import cv2
+import PyPDF2
+import pdf2image
+import pytesseract
+import numpy as np
+from PIL import Image
+from scipy.ndimage import interpolation as inter
+
+from config.settings import DATA_DIR
+
 
 # Path to the tesseract neural net
 # Note: We're using tessdata_best (https://github.com/tesseract-ocr/tessdata_best)
@@ -156,7 +158,7 @@ def correct_skew(filepath):
     angles = np.arange(-limit, limit + delta, delta)
     scores = []
     for angle in angles:
-        hist, score = find_score(bin_img, angle)
+        _unused_hist, score = find_score(bin_img, angle)
         scores.append(score)
 
     best_score = max(scores)
