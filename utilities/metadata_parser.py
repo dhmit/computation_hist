@@ -78,10 +78,24 @@ def populate_from_metadata(file_name=None):
     cursor.execute('DROP TABLE IF EXISTS doc_fts;')
     cursor.execute('CREATE VIRTUAL TABLE doc_fts USING FTS4(id, title, text, author, recipient, cced);')
 
-    for d in Document.objects.all():
-        # join together all author names. By default, first and last name are joined by an
-        # underscore -> replace with a space
 
+    # TODO(ra): this should probably be in the inner loop above, so we don't
+    # have to iterate over all of the docs twice
+
+    for d in Document.objects.all():
+        # Create pages
+        if d.last_page != 0:
+            for i in range(1, d.number_of_pages +1):
+                if Page.objects.filter(document=d, page_number=i):
+                    pass
+                else:
+                    new_page = Page(document=d, page_number=i)
+                    new_page.save()
+
+        # Create full text search tables
+
+        # We join together all author names. By default, first and last name are joined by an
+        # underscore -> replace with a space.
         # sqlite expects quotation marks and apostrophes to be escaped by doubling
         # them, e.g. he''s. However, the fts table tokenizer splits them up anyway -> it's easier
         # to just replace them with spaces.
@@ -108,6 +122,8 @@ def populate_from_metadata(file_name=None):
 
         # commiting only after inserting all documents produced db locked errors -> moved here
         db.commit()
+
+
 
 
 def add_one_document(csv_line):
@@ -149,13 +165,13 @@ def add_one_document(csv_line):
         print(f'skipped {txt_path}')
         new_doc.text = ''
 
-    # ---------------------DATE-----------------------------------------------
+
+    # Date
     if csv_line['date'] != '' and csv_line['date'][0] == '1':
         new_doc.date = csv_line['date']
 
-    # ------------------------------------------------------------------------
 
-    # ---------------------Folder---------------------------------------------
+    # Folder 
     box_num = csv_line['box']
     new_box, _unused_box_exist = Box.objects.get_or_create(number=box_num)
 
@@ -173,11 +189,13 @@ def add_one_document(csv_line):
     new_doc.folder = new_folder
 
 
+    # Author, Recipient, cced
+
     # This would be better with create_or_update so that changed values get updated.
     # Not super important, though, as flushing the db will also update the values
     try:
         new_doc.save()
-        # -----------------------Author, Recipient,cced--------------------------
+
         interpret_person_organization(csv_line['author'],
                                       "author_organization",
                                       "author_person",
