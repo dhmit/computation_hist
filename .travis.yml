@@ -1,0 +1,14 @@
+language: python
+python:
+  - "3.6"
+
+before_install:
+  - export DJANGO_SETTINGS_MODULE='config.settings'
+
+install:
+  - pip install -r requirements.txt
+  - python manage.py migrate
+
+script:
+  - echo "from utilities.metadata_parser import populate_from_metadata; populate_from_metadata" | python manage.py shell
+  - python manage.py runserver
