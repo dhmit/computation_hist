@@ -9,24 +9,14 @@ Open a terminal in the computation_hist main directory. In PyCharm, click on
 python manage.py migrate
 ```
 
-Next, we populate the database with our metadata. To do this, open a Django shell:
-```
-python manage.py shell
-```
-In the Django shell, run the following commands.
-```
-from utilites.metadata_parser import populate_from_metadata
-populate_from_metadata()
-```
-Unless you are populating from a metadata that is different from metadata.csv, do not pass in a 
-parameter (the function will assume the path to metadata.csv as default)
+Next, we populate the database with our metadata:
 
-Once the process has finished (it might take a few minutes), exit the Django shell
-``` 
-quit()
+```
+python manage.py populate_from_metadata
 ```
 
-You are now ready to run the development server
+You are now ready to run the development server:
+
 ```
 python manage.py runserver
 ```
