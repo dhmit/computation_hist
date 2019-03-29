@@ -51,20 +51,25 @@ def populate_from_metadata(file_name=None):
                 continue
 
             document_metadata_complete = True
-            for attr in ['box', 'folder_number', 'doc_id', 'filename', 'author', 'title',
-                         'first_page', 'last_page']:
+            for attr in ['box', 'folder_number', 'doc_id', 'filename', 'author',
+                         'title', 'first_page', 'last_page']:
+                missing_attrs = []
                 if not line[attr]:
-                    print(f'WARNING: Line {line_id+1} is incomplete. Line {line}.')
-                    document_metadata_complete = False
-                    count_skipped += 1
-                    break
-            if document_metadata_complete:
-                try:
-                    add_one_document(line)
-                    count_added += 1
-                except ValidationError as e:
-                    count_invalid += 1
-                    print(f'{e}. Line: {line}.')
+                    missing_attrs.append(attr)
+
+            if missing_attrs:
+                print(f'WARNING: Line {line_id+1} is incomplete (skipping).\
+                        \n\tMissing fields: {missing_attrs}.\
+                        \n\tFIXME in the metadata!')
+                count_skipped += 1
+                continue
+
+            try:
+                add_one_document(line)
+                count_added += 1
+            except ValidationError as e:
+                count_invalid += 1
+                print(f'{e}. Line: {line}.')
 
     print(f'Added {count_added} documents from {file_name}. Skipped {count_skipped} documents '
           f'because of incomplete metadata. Invalid: {count_invalid}')
