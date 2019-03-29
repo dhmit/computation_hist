@@ -151,10 +151,10 @@ gender_novels/corpora/gutenberg/texts
 
 computation_hist/scratch.py
 
-# ignore files in processed_pdfs (they will be uploaded to was and don't need to be synced)
+# ignore files in processed_pdfs (they will be uploaded to aws and don't need to be synced)
 # except txt files
-computation_hist/data/processed_pdfs/**/*.pdf
-computation_hist/data/processed_pdfs/**/*.png
+data/processed_pdfs/**/*.pdf
+data/processed_pdfs/**/*.png
 
 node_modules/
 package-lock.json
