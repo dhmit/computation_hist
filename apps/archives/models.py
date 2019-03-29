@@ -1,13 +1,6 @@
 from django.db import models
-# from django.db.models.signals import post_save
-# from django.db.models.signals import  post_save
-from pdf2image import convert_from_path
-import csv
-import os
-from pathlib import Path
-from utilities.common import get_file_path
 
-# Create your models here.
+from utilities.common import get_file_path
 
 
 class Organization(models.Model):
@@ -38,9 +31,7 @@ class Person(models.Model):
 
     def __str__(self):
         if self.last and self.first:
-
-            return self.last + ' ' + self.first[0]
-
+            return self.last + ' ' + str(self.first)[0]
         elif self.last:
             return self.last
         elif self.first:
@@ -179,6 +170,3 @@ class Page(models.Model):
 
 class Text(models.Model):
     page = models.OneToOneField(Page, on_delete=models.SET(None), blank=True)
-
-
-

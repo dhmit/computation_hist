@@ -1,11 +1,10 @@
-from django.shortcuts import render, get_object_or_404, get_list_or_404
-from .models import Person, Document, Box, Folder, Organization, Page
-# from django.template import loader
-from django.db.models import Q
-from utilities.common import get_file_path
-from IPython import embed
 import re
 
+from django.db.models import Q
+from django.shortcuts import render, get_object_or_404, get_list_or_404
+
+from utilities.common import get_file_path
+from .models import Person, Document, Box, Folder, Organization, Page
 
 def index(request):
     return render(request, 'index.jinja2')
@@ -239,7 +238,7 @@ def process_advanced_search(search_params):
     text = search_params.get('text')
     if text:
         # allows quotation marks but only extracts the string in the middle
-        match = re.match('^[\'\"]?([a-zA-Z\d ]+)[\'\"]?$', text)
+        match = re.match(r'^[\'"]?([a-zA-Z\d ]+)[\'"]?$', text)
         if not match:
             print(f"WARNING. Could not parse full text search string: {text}.")
         else:
@@ -271,7 +270,7 @@ def process_advanced_search(search_params):
 
     doc_types = search_params.getlist('doc_type')
     # if a key points to a list of values, querydict.get() just returns the last item in the list!
-    # see: https://docs.djangoproject.com/en/2.1/ref/request-response/#django.http.QueryDict.__getitem__
+    # https://docs.djangoproject.com/en/2.1/ref/request-response/#django.http.QueryDict.__getitem__
     if doc_types:
         docs_qs = docs_qs.filter(type__in=doc_types)
 
@@ -289,6 +288,8 @@ def process_advanced_search(search_params):
         docs_qs = docs_qs.filter(Q(date__year__gte=min_year) &
                                  Q(date__year__lte=max_year))
 
-    docs_qs = docs_qs.prefetch_related( 'author_person', 'author_organization', 'folder', 'recipient_person', 'recipient_organization') # prevents template from hitting the db
+    # prevents template from hitting the db
+    docs_qs = docs_qs.prefetch_related('author_person', 'author_organization', 'folder',
+                                       'recipient_person', 'recipient_organization')
 
     return docs_qs

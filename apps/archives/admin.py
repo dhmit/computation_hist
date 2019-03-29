@@ -2,7 +2,7 @@ from django.contrib import admin
 
 # Register your models here.
 
-from .models import *
+from .models import Person, Document, Organization, Box, Folder, Page, Text
 
 admin.site.register(Person)
 admin.site.register(Document)
