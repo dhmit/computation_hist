@@ -293,3 +293,4 @@ def process_advanced_search(search_params):
                                        'recipient_person', 'recipient_organization')
 
     return docs_qs
+
