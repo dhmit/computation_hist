@@ -7,7 +7,7 @@ from PyPDF2 import PdfFileWriter, PdfFileReader
 from pdf2image import convert_from_path
 import pytesseract
 
-from ..apps.archives.models import Folder
+from apps.archives.models import Folder
 from .common import get_file_path, PROCESSED_PDFS_PATH
 from .ocr import ocr_pdf
 
@@ -145,5 +145,4 @@ def split_folder_to_doc(folder_pdf_path, foldername_short, box_no, folder_no):
 
 if __name__ == '__main__':
     download_raw_folder_pdf_from_aws(2, 1, 'digital_comp_to_social_problems')
-    pass
 

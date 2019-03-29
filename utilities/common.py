@@ -1,4 +1,3 @@
-import os
 from pathlib import Path, PurePosixPath
 
 from config.settings import DATA_DIR

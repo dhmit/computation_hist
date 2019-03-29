@@ -50,14 +50,13 @@ def populate_from_metadata(file_name=None):
             if "".join(line.values()) == '':
                 continue
 
-            document_metadata_complete = True
+            missing_metadata = []
             for attr in ['box', 'folder_number', 'doc_id', 'filename', 'author',
                          'title', 'first_page', 'last_page']:
-                missing_attrs = []
                 if not line[attr]:
-                    missing_attrs.append(attr)
+                    missing_metadata.append(attr)
 
-            if missing_attrs:
+            if missing_metadata:
                 print(f'WARNING: Line {line_id+1} is incomplete (skipping).\
                         \n\tMissing fields: {missing_attrs} - FIXME in the metadata!')
                 count_skipped += 1

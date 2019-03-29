@@ -1,7 +1,6 @@
 import csv
-from pathlib import Path
 
-from ..config.settings import DATA_DIR
+from config.settings import METADATA_CSV
 
 def contribution_counter(metadata=None):
     """
@@ -17,7 +16,7 @@ def contribution_counter(metadata=None):
     :return: list
     """
     if not metadata:
-        file_name = METADATA_CSV
+        metadata = METADATA_CSV
 
     number_contributions = {}
 
