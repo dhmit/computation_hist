@@ -1,0 +1,153 @@
+=
+
+| of
+CC-187
+COMPUTATION CENTER
+Massachusetts Institute of Technology
+Cambridge 39, Massachusetts
+December 4, 1961
+To: All Programmers
+From: Computation Center Staff
+
+Subject: T09-7090 Program Conversion
+
+Although the 709 and 7090 are in most respects
+program compatible, there are some changes that you
+should make to your 709 programs to insure proper,
+operation on the T7090. Somewhat in order of importance,
+these are described below,
+
+FMS MAIN Subprograms
+
+The internal interval timer and clock which we
+will have on our 7090 uses location 7 as its trapping
+location. This location has been the manual restart
+entry point for F2PM and all Fortran main subprograms
+compiled before November 1, 1961 and most FAP main
+subprograms contain the five instruction sequence
+
+CLA {Fer
+STO
+STZ 4 )-20
+CLA (F2PM
+STO 7
+
+or its equivalent. The last instruction of this
+sequence should be changed to
+
+STO 36
+
+where 36 is an absolute non-relocatable decimal
+address. If you are re-assembling a FAP main
+subprogram the entire sequence may be replaced by
+
+TSX $.SETUP, 4
+
+which is what Fortran now compiles. .SETUP is a
+library routine which performs the necessary
+initialization of (FPT) and (F2PM). Since .SETUP
+may be expanded or changed at at any time it is
+suggested you always use the library tape version.
+
+
+CC-157 | Se or December 4, 1961
+
+For those user's who may need to know operating
+procedures the console restart procedure, making a
+manual entry to F2PM 1s:
+
+STL 3519
+TTR 364,
+
+Scope Programs
+
+The cathode ray tube on the T7090 will be connected
+to channel A and will be controlled through channel
+commands. Present scope programs using "copy logic"
+must be converted. The Center is converting those
+routines which are on the library tape.
+
+Off-line Tape Processing
+
+It is expected that our 1401's will exactly
+simulate our present off-line tape processing
+equipment except that:
+
+—"_11) SALIng will be done with progvan
+controlled carriage spacing,
+
+2. All card-reading will insert the "ook-
+ahead bits" in the tape record,
+
+3. Space-suppress may be different.
+
+At the moment, we would suggest no changes to
+your programs unless you do not print under program
+control.
+
+Tape Assignments
+
+The following is the anticipated FMS tape
+assignment. The anly changes are the reassignment
+of the library tape and the addition of tapes 1ll
+and 12 to the system.
+
+
+CC-187 -3- December 4, 1961
+
+Physical Logical Function
+
+Al 1 System
+
+A? 4 Input
+
+A? 2 Printed Output
+
+AL 8 Fortran/FAP Intermediate
+and Primary Chain Tape
+or User Scratch
+
+Bl 5 Monitor Chain Inter-
+
+mediate and User Scratch
+B2 6 Fortran/FAP Intermediate
+
+and Monitor Intermediate
+
+for Presetting MAD :
+
+Program Common or
+
+Secondary Chain Tape
+
+or PDUMP/DUMP Inter-
+
+mediate or User Scratch
+B3 7 Fortran/FAP Intermediate
+
+and Secondary Chain
+
+Tape or User Scratch
+
+Bl 3 Punched Output
+A5 9 User Tape
+
+Ab 11 User Tape
+
+B5 10 User Tape
+
+BO 12 User Tape
+
+B10 13 Library
+
+Tape. Density
+
+High-density will be the standard case for tapes
+at the Center. It is expected that FMS users will be
+able to set tapes 9, 10, 11 and 12 to low-density
+by means of an FMS control card and therefore need
+to make no program changes. Non-FMS users may have
+to insert set density instructions into their programs
+in order to read their present tapes.
+
+

@@ -1,0 +1,39 @@
+{% extends "base.jinja2" %}
+
+{% block title %}
+
+    {% if model_str == 'organization' %}
+        Organizations
+    {% elif model_str == 'person'%}
+        People
+    {% elif model_str == 'folder' %}
+        Folders
+    {% elif model_str == 'box' %}
+        Boxes
+    {% elif model_str == 'doc' %}
+        Documents
+    {% endif %}
+
+
+{% endblock %}
+
+{% block self %}
+    {% if model_str == 'doc' %}
+        <h1>Here are the list of documents that match your search</h1>
+    {% else %}
+        <h1>You're looking at every {{ model_str }}</h1>
+    {% endif %}
+{% endblock %}
+
+{% block table %}
+    <br>
+    {% for item in model_objs %}
+        <div class="list-group">
+            <a href="/archives/{{ model_str }}/{{ item.pk }}"
+               class="list-group-item list-group-item-action">
+                {{ item }}
+            </a>
+        </div>
+    {% endfor %}
+
+{% endblock %}

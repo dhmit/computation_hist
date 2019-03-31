@@ -1,0 +1,106 @@
+MARKOFF’S MINIMAL
+
+HARVEY COHN FORMS .
+4 )
+4 . . 0 : Ja (0) L (0) (
+o e through the operations contained in theg, (6.2) ar + @z = —kay) — a; — g
+otine triples ODYe
+. the generating
+byt ulas: or
+recursion formuid: 3 BA, A” B
+[‘xl B, (?] = [ ihy 4 ) . ) @( ;1 (0)) = I' (0) /¢
+(5.2) . ‘ (6.3, ; = —Kkas /2.
+Tence from the trace restriction (5.6) we find 7 i< = _
+% e B0 O tho zoro tracs) T s o nd % i & positive o negative divisar
+53) (A, B, Gl =l of 6, (excluding ~1(./,U(l) race). We try each possibility.
+. - ations. . which are better Tor instance setting kK = —6, we fi LONCE 3 : .
++ oenerate a group of opel ations, 9, are better ey. For instance g K ar find ayy’ = 1. Likewise, we find b = 1
+‘ a ations 3, P, generar® * : lefined in §9 (below). For hus (= 1/0) and o*@(= 4Q /O : : |
+S y i he ()pma,t.lo S s i of an abelian group ¢ ennea 1 : €lowW ). Xor the Thus 1;(0;_ / ‘(0‘) s 1(0)— a1y /ayn )(Oz‘n‘e Fa:-ey “elghl)ors; likewise for
+L 5 . < . i Ny zL N . e ke . ; > . 2 z 2 J ; . ;
+& " plained in terms of tll](t - il a vertex of the quadrilateral fundamental do. (0, @ ), (e , 00 ), and (=" o Hn)n(m)' B e hitan] o
+:.‘ y g . ve llot'e t, a J w o v 9 b : 5 . a " ~ a e = 8 ’z } » | 1¢ ‘. . ° x . . j 5 i 3 - .. ; -
+i3 time being, \: | by the matrix couple [47, B”]. In the future, only a matrix of modulal 9(1141(1;)1]( n(l( txl(},(l:?tm mation \‘\(gmt‘(f(lj(?mione can obtain the quadrilateral
+i ai erated D) g nag T in which o = %0 = —], o = an ek A T B
+55 main gentlb 59 o C° will be called a generating matri. in which 4 . f . I, o S 0, (as .sh((())\\ n in heavy outline in
+Y A ) Y 3 ‘ ’. 3 S e o ) {1 ; . ¢ hat 4 — A ) .
+,‘; j thovt-ype- L < simple results from the theory of diophantine equations. Figure 2). I'rom the information that =1, (—=1) = 0, we find 4 has
+5 Now we can use = of Fricke, (1.1), we find that the traces S(4), ... the form
+4 " ’
+
+From the first identity
+
+satisfy the equation . Rl (64) <w(w = w:)| 0l — )
+(54) &(4) + 8(B) + () = 8(4)8BIS(C). | olw = o) (0 - o)
+. N
+
+It easily follows that all traces al S, ! \\'h(‘l'{f;\w 1S A positive Pa '2tm€t0(l(;; Flll‘the}'mOI'e from the fact that the elements
+3(4°%) = 30°, - -+ , We obtain Markoff’s equation: | of A™ are integers, while &(4™) = 3, it follows that w = %. Likewise we find
+BY and C” so that
+
+AT
+
+ 
+
+SRS
+
+}.
+
+are divisible by 3; thus setting &(4) = 3a, - -
+
+vl
+- “.{
+
+SRS
+
+- .
+
+v
+
+A
+4
+A
+A
+
+& (5.5) b - ¢ = 3abe.
+
+The individual numbers that make up a solution tl'i.pl.e la, 1)., c| are called Mark- o K § 5
+
+f : off numbers. The relation (5.2) easily replaces the original triple by | I
+
+e (52 bis 3, b, cl® = [, a, b | |
+while the relation (5.3), (according to Fricke’s second identity (1.2)), replaces |K/,,-r/"’/ |
+
+the triple by
+(5.3 bis) [a, b, ¢’ = [a, 3ab — ¢, b].
+
+The last two recursion formulas are known, however, [3, p. 104], to connect all
+solutions of equation (5.5) with the smallest solution [1, 1, 1], by “descent”.
+(It will be no loss to assume the traces to be positive). Hence in particular we
+can restrict the original generating triple for the group G, namely [A (O), B (0), ¢ (m,]‘
+(with corresponding superseripts on the matrix elements), to one which satisfies
+the relation:
+
+(o) (o)
+B
+
+‘v’
+
+()
+(5.6) &(4?) = 6(B?) = &(C°) = 3.
+
+— — /\d
+
+m\__—____.__
+\
+/
+\
+/
+
+6. Determination of the representation
+
+From equation (5.1), we wish to satisfy the relation:
+v
+(6.1) [BUI'AO"'BO = K[A©] 1 2 3
+
+By taking traces of both sides, we find FiG. 2. z-plane

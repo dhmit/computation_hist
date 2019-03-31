@@ -1,0 +1,38 @@
+pre
+eminent. This work deserves Support by IBM, in addition to the
+
+present contribution of the 70k, They can most erfectively be
+supported by the installation of a 7090, replacing the TO4, in
+
+the near future; MIT will then be able to provide‘the ancilliary
+
+Outlook for the Future: The activities mentioned above
+are only a part o € research, at MIT and at the associateqd .
+1n8t1tution8, which desires %o use the facilities of the Computation
+Center, Obviously no single computing machine can be itselr satisfy
+1ndef1n1tely the continually'gr0w1ng demands from the New England
+educational 1nst1tutiona, for all their research and educational
+computer needs. However the facilities of the Center need not,
+and probably should not; satisfy ali the demands, A much more
+realistic task would be to concentrate on 1) the educational tasks,
+which will be Supplemental to the on-campus small machines for the
+other New England colleges and which, for the MIT eclass needs, can
+be improved in efficiency by time-sharing techniques; 2) on thesis
+
+special techniques of wachine use, and are ready to exploit these
+methods by long "production runs’, they should be in a position to
+obtain Tinancing to make These m™mins on one of the several other
+
+|
+
+Even with this sort of limitation on the use 'of the Center
+faclilities, the demands on the Center will grow. But the growth,
+
+if thus limited, can, we believe, be handled by the ‘cooperative
+effort of IBM ang MIT. A 7090 within the year would, not delay most
+of the work outlined above,tqq;seriously, And, as outlined below,
+1t would be able to handle them forp Several years, while pPlans are
+
+made for the next step. On the other hand, if a 7090 cannot be
+
+v M

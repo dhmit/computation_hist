@@ -1,0 +1,40 @@
+M.I.T. Computation Growth Page 4.
+
+All of these seemingly disparate areas have very much
+in common. First of all, they no longer are primarily com-
+putational in nature. In general, they all have a very
+large information processing and retrieval aspect. That 1s
+to say that they all require almost a random access to a
+huge amount of information and spend much time in reorganlz-
+ing that information. The penalty for lesser access times
+and smaller core memory i1g an inordinate cost in machine
+time. Secondly, these areas are all polnting in the direc-
+tion of not only computing an answer, but in repeating the
+process many times in order to galn a best answer and
+eventually toward gaining an insight into why it 1s the best
+answer. Clearly, a large number of small machines cannot
+snswer this need. What 1s needed is a very large capacity,
+high speed computer that has large information processing
+capebilities and can be time shared, 1. €. multiprogrammed
+such as a stretch class computer. The atretch has not only
+far greater memory and computational speed than a TO4, but
+in addition, is a far more efficient information progessor
+than the 704 which was designed to handle only numbers, and
+1s quite poor at finding, or rearranging information.
+
+Let us examine a few of the research areas that are
+currently hampered, and whose future growth 1s out of the
+guestion unless the general capacity that we have discussed
+is provided.
+
+Weather Forecas ting-Professor Charney
+
+Weather prediction for a hemlsphere of earth, using a
+very rough model takes on the order of 24 hours of TO4 tiume
+for a 24 hour prediction. The reason for this 1s that the
+model must take into account topographlcal features, heat
+balances, moisture contents, etc. at many many points, both
+at and above the earth's surface. Long range forecasting is
+ghus clearly impossible on the TO4. As a result, progress
+in this area must remain slow until a faster machine is
+avallable.

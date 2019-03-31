@@ -1,0 +1,45 @@
+CC-147 MIT COMPUTATION CENTER
+Massachusetts Institute of Technology
+Cambridge 39, Massachusetts
+
+To: 704 programmers December 21, 1959
+From: Dr. F. M. Verzuh, Assistant Director
+
+Subject: FORTRAN Modifications and Additional Format Features
+
+M
+
+Introduction
+
+Periodically corrections for Fortran II are issued by the IBM
+Applied Programming Gra:p in New York City. As soon as these corrections
+are received by the Center, they are incorporated into our FORTRAN Library |
+Tape. Occasionally, however, modifications are released which are of
+considerable interest to the Fortran users. For example, on December 21
+we received & memorandum which contains a number of interesting modifications
+to Fortran, The following sections of this memorandum contsin & verbatim
+statement of these changes as released by the IBM Applied Programming Unit.
+
+FORTRAN MODIFICATIONS/ADDITIONAL FORMAT FEATURES
+
+Format facilities have been expanded, in the new Imput-Output
+Hollerith Routine (IOH), as follows:
+
+1. The control character X; written nX, where 0£ n £120.
+
+a) I0H, on input, will interpret this to mean that the fol-
+lowing n characters of input should be skipped.
+
+@oo? READ 1, K, A
+1 FORMAT (12X, 12, 8X, F8.3)
+
+This will cause cols. 1-12 to be skipped, cols. 13-14 (K) to be read,
+colz., 15-22 to be skipped, and cols. 23-30 (A) to be read.
+
+b) IOH, on output, will interpret this to mean that the fol-
+lowing n characters of output should be blanks.
+
+@0 PRINT 1, K, A
+(1 as in the above example)
+
+T™his will print E, preceded by 12 blanks, and A, preceded by 8 blanks.

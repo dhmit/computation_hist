@@ -1,0 +1,1556 @@
+COHN, HARVEY
+1954
+
+CAN. J. MATH.
+Vol. 6, pp. 265-273
+
+STABLE LATTICES: II
+
+Harvey COBEN
+
+ 
+
+Reprinted from
+Canadian Journal of Mathematics
+
+
+aoa 2
+5 ‘x
+
+   
+       
+     
+
+  
+
+. -
+SR ARIAS
+
+- Co -
+RAR ASS AEA
+
+RY eA.
+
+- EAA
+rARsE AS
+~ a TK Ce
+SA AARARRANRS
+
+> Sra
+
+www
+
+     
+
+-
+
+~~
+i,
+a
+
+-
+on eo
+-
+a
+xy
+
+= | STABLE LATTICES
+PART II
+
+~
+
+“+.
+
+~~
+. w=
+
+a
+
+-
+.
+- -
+
+i
+
+~~
+-
+-
+-~
+-
+-
+--
+-
+-
+~
+, ,-
+-
+-
+
+ 
+
+——
+
+ 
+ 
+   
+
+=
+-
+-"
+-
+- -
+-
+-
+Ra
+xxx
+x
+a
+
+ 
+
+-
+~
+
+- -
+~
+
+-
+
+-
+-
+—
+IY wv
+
+ 
+ 
+ 
+
+Ny»
+yyy
+
+HARVEY COHN i
+
+—
+re
+
+-
+a
+
+ 
+
+10. Introduction to Part II. The most interesting cases of stable lattices, :
+introduced in an earlier volume of this journal (12), were the (algebraic) mod- a:
+ules of stable norm, or modules whose ratio of minimum absolute non-zero Biber
+norm to lattice determinant (i.e., to the square root of module-discriminant) Epos
+is a local maximum for small variations of the basis. We soon found that these
+modules were perhaps more numerous than we should have desired if we were
+interested only in finding an absolute maximum. Nevertheless stable lattices
+acquire a certain amount of intrinsic interest once we reach the stage where the
+continuous variable concept of “neighborhood of a lattice” leads to algebraic
+criteria of stability. In both these respects the situation displays some similarity
+to the more classical subject of extremal (quadratic) forms (2).
+
+[f the module in question is the module of all integers (i.e., the so-called
+integer-module) of a totally real field of degree n, then the criterion of stability
+depends on the relative signs of the conjugates of the units. This is a specializa-
+tion, (weaker when n > 3), of the classical concept of ‘‘ (maximum) signature
+
+; rank 2%," used by Weber (13) for instance. We shall merely show, as a significant
+illustration, that the integer-module of the totally real field Ky = R (cos 2x/N),
+over the rationals R, has stable norm (except for a few small NV).
+
+: ’ If we consider fields that are not totally real, the classical problem of signature
+rank becomes vacuous for the imaginary (conjugate) fields while the stability
+criterion that we use becomes more complicated. We shall, however, demon-
+strate a refinement of the “unit star’ method of Part I (12; p. 265), to obtain a
+criterion that can be readily used to test more general modules. We shall carry
+this through the cubic case.
+
+The big difficulty arises when “too many’ roots of unity occur. We shall,
+therefore, consider as a final example the integer-module of the cyclotomic
+field K¥ = R(exp 2mi/N). This module turns out to have a stable norm if and
+only if N is square-free. This result, which essentially uses the presence or ab-
+sence of a normal basis for KV, should further attest to the algebraic aspect of
+
+stability.
+
+-
+a ad
+
+ 
+
+-
+-
+
+-
+-y
+
+-
+h =
+
+-
+hs
+~
+- o~
+a
+AEE
+
+-
+oh
+
+ 
+
+-~
+-
+->
+
+- »
+-
+AR
+at
+xr
+
+ 
+ 
+
+-
+-
+-
+_~
+
+ 
+
+Da
+
+A . >
+PE:
+Pe
+
+LR a
+
+11. A totally-real illustration. If we specialize somewhat to integer-
+modules of a totally real normal field K, then the criterion of stability (of the
+
+Received Sept ‘ & / iC iety September
+Received September 29, 1953. Presented to the American Mathematical Society Septe be
+Office of Ordnance Research, U.S. Army, under contract
+
+rT
+Ls
+
+-
+er
+we
+
+f 4
+fo
+Prey
+
+2, 1952. Research sponsored by the
+DA-20-018-ORD-12332.
+
+The bibliographical items and section he
+Part I, otherwise referred to as (12).
+
+ha
+
+adings are numbered consecutively with items in
+
+Less
+Z
+
+265
+
+
+al
+x3 a.
+
+ 
+
+HARVEY COHN
+266 969), reduces to the following: ry any non-
+) in Part 1 is X (over the rationals), at least one UML u exists fo,
+norm), gl hism S 0 ?
+dentical at ” ie ty red field Kn = R (cos 2m/ N) of degree
+lich [us is ™ the totally Euler totient function (not to he
+
+e .
+For instance: const 2, Here $(IN) is the (12, p. 261), which has a vector
+
+t 1 :
+ks totally real field in the cyclotomic
+
+| show that the integer-module of Ky hos
+
+rp (exp 20/1):
+stable norm 1 N#123% 6,12. :
+(11.1) ws of N, Ku is rational; while for N= 1p
+
+For the first five exceptional VEIL the unsolvability (12, p. 267) of the dio-
+or . hig UNS
+
+Ki2 = R(+/3)) which z 3y* ——— 1.
+
+phantine equation ¥
+
+14(NN) operations
+~ the Galois grou
+
+p consists of the
+
+  
+  
+ 
+ 
+  
+ 
+  
+  
+  
+
+STABLE LATTICES
+267
+
+(of type (11.41)) dividing AN.
+K Sons of Ky) for which
+dSe€ becomes the ope ;
+
+* the congruence Lae
+g # =£ 1 mod pK
+
+is satisfied. In order that S still not be the identity,
++1 be “mixed” (e.g., that g not be congruent to (sa
+g # + 1 for some composite modulus dividing N,
+or Ny (see (11.51)). Hence, once more, as in the pr
+or yu is determined for which 6./8,5 or y,/y,s
+
+that for the given S, g # + 1 mod N,, for N,
+Then the very same 6; used earlier is a unit of
+9,/0,% is negative. Thus we see that the difficult ¢
+for each p* in the factorization N = Ip
+
+it is Necessary that these
+¥) +1 for each p. Thus
+of the type N, (see (11.41))
+
+eceding paragraph, a unit ¢,
+Is negative, :
+
+12. The stability configuration. In the last section
+existence proof, i.e. a proof that Q + 1 (=n(n — 141
+“gradient” vectors (12, pp. 263, 266).
+
+we obtained only an
+) positively dependent
+
+   
+  
+ 
+ 
+    
+
+For the field K as =, (g, N) =], 3
+(11.2) (cos oi — cos 2m Mg/N. oe Lins oo. .. ny...) (Lji=12,..., nl # 7), 3
+Al ; Tha exist, where W = (uy, ..., u,) is a vector of the module for HA
+had (11.3) ive we make Use of the following types of units: | Q-1 properly chosen units %, of Ky. The set of O+1 ed i ep | h
+To prove stability Yeps2e MIN N #= 2%, 4p* (k > 0), called a stability configuration. The actual choice of the Q + 1 units uy, as we BC: Bi
+(11.4) : : i 2 cos 2rM/N N # 3p" (e>0), shall eh is not only extremely difficult, but it accentuates irregularities i
+
+(11.5) y= +c that this choles of nalts of, in the infinitesimal behavior of the units of Ky for different NV.
+
+{ and p is a prime. (We note Nevertheless the finding of these Q + 1 vectors u or R[u] would be desirable
+
+where (M,N) =
+nts for all V excep
+in frst of all we assert that for t
+
+t the values (11.1).)
+
+at EN in view of the fact that a modular reduction theorem automatically enlarges the
+he special values ol IV:
+
+“neighborhood” of a stable lattice (possibly to the whole lattice space, thus
+
+BLL
+
+    
+  
+ 
+ 
+     
+ 
+
+3
+
+oan,
+
+     
+
+       
+     
+  
+
+   
+
+       
+   
+
+Ha) Sih : (£3) Na. = 70 establishing a critical lattice, as in the quadratic case (12, p. 268)). For instance, A
+i Ha ie a (11.41) N=9p 2 s eh alied take the following simple-looking set of # units of Ky (for N prime > 5): 7
+i, +s § are sufficient to establish stability; while for the special values: pe So
+A the units 6 are i 4
+Hh ih No=42 Ns = 1p(=12 8 frp h
+ain (13h In these cases p and ¢ are odd primes and k > 1. (12.2) wy =A oe i Et
+
+i$ . jent. In thes : N—4 N—6 —1 N+6_| ¢—N+4 3 Fa 3
+po the units y are suffe ons tvpical case, N = Ni. Here all we need to show 1s {HL EEE Ye BhARS SE
+
+Tn We shall verify this just in a typ hism S, a M = M, exists for which =1 ET
+
+-trivial automorp
+s is negative. Thus all we need show is that for any
+
+hich
+— 1), there exists an M, (for w |
+4 (—1N,, iN), while Mig 15
+
+existence of such
+
+that for a given n
+§ = 0, is positive and 6,
+¢# +1 mod Ni (for which (g, ;
+= lies in the range
+(My, Ny) = 1), such that Mi li : (Ly, IVY), The
+congruent (mod Ny) to a value in the range teh 2° J C2 ho thener
+an M, is assured from the fact that the possible values : mi
+ih multiples of p), have such few gaps (i.e., the multiples of 2; t Rr some value of
+Si cannot always “straddle” the range (3N1, $V1) modulo rr £ 5. A similar arg
+| Mg must lie in this range when M = M,, a non-multiple 0 p licity of prool
+ment holds for Na, Ns, and Ns (which were singled out for SImp
+since they have few prime divisors and hence “small gaps’). +o way: Suppo
+We are now prepared to handle the general V in the following
+
+where { = exp 2mi/N. Each of the first # — 1 units listed above is taken with
+its conjugates and the last (rational) unit is taken once, forming Q + 1 = A ki
+n(n — 1) + 1 units. Sp
+
+It is found by very laborious calculations (which we omit) that the roll |
+Q + 1 vectors Ru] provide a stability configuration when N = 5,7, 13 but . :
+that these vectors are not even of rank OQ when N = 11. The question of whether
+or not the integer-module of Ky provides a critical lattice for the norm in 7 real
+dimensions is answered positively for N = 5,7 (3), and negatively for N' = 13
+(11), while for N = 11 the answer is still unknown. It would probably be wise
+to exhibit a sufficiently simple stability configuration for the integer-module in
+Ku before trying to establish it as a critical lattice.
+
+-—— Er ~
+ed
+
+I ci
+—
+
+  
+
+-
+- Sgt
+
+|
+xs
+freer
+«wa
+»
+
+i)
+
+Avex
+
+- -
+few
+rear Pr
+
+-
+»
+»-
+-
+-
+-
+-~
+x
+LAA
+
+-
+&
+»
+.
+=
+»
+oe
+AAT
+Ne
+»
+»
+
+Sev
+TT.
+se
+Te
+
+LEN a
+
+-
+-
+~
+»
+-
+~
+0
+Le
+
+fra
+w
+
+5
+
+ory.
+No yee,
+Ay
+Sree
+Tress
+
+--
+
+Hi
+
+-
+wT.
+Te
+Shea. >
+vote
+. trey
+
+
+Ce alalalatats ted
+Aalalalnlalatatyt yd ry
+felelalatns?, htt etet en hy,
+(alata la?s slavater, note! Ah
+Tei tafa fala taratytseiolele? ’
+v Talels sfalatatitavsolel a"
+
+ 
+
+ 
+
+Alhatalatetsr ne
+
+AAT £4
+Gils tite tae yell in)
+slat fatale
+alata tats
+
+ 
+ 
+  
+ 
+
+     
+
+ 
+  
+
+  
+ 
+
+-
+= a
+Ee - .
+-
+-
+-
+--
+-
+-
+-
+a
+»
+
+a. --
+
+or Tg Tig gy,
+>
+-
+»
+--
+-
+-
+--
+--
+-
+
+ 
+    
+
+  
+ 
+ 
+
+- -
+a
+-—
+
+ 
+
+   
+  
+  
+ 
+ 
+   
+ 
+
+  
+  
+    
+   
+
+>
+-
+>
+
+<
+a
+
+    
+  
+
+-
+
+ 
+ 
+
+  
+
+  
+  
+  
+  
+
+’ ‘
+te} yen
+Sa
+Yatat fiat ae nt ry
+fale tibet tel etry hl
+\ 34 ny NY
+Pav v vy NEE
+MM a SNA
+t LOM AA
+nny re
+Fn
+EY
+yh ee
+ny
+
+-
+
+*
+
+a
+- >
+
+- -
+od
+53
+
+<, SS
+-
+tr.
+
+Er. .
+or ep
+
+SA
+ox
+
+RL
+A
+
+-
+~
+
+  
+
+-
+-
+-
+
+   
+  
+
+x
+
+- *
+
+  
+
+         
+   
+       
+    
+     
+   
+     
+     
+   
+        
+         
+
+ary
+
+.
+
+re
+8
+3220300
+
+a
+253 Po
+=
+
+~ hi
+> NE ATA
+hh
+SNA
+3
+XW
+
+on
+
+——
+a,
+x
+DE
+A
+22
+
+Tr
+
+~N,
+on
+SAS
+a
+
+Rn
+
+YIM
+
+268 ex modules. Going to the complex Case
+
+: earion fOI compl . 3 .
+13, Stabllfy aly by considering as in 39 (ohave) any (non.
+a
+we return to 8
+
+¢ necessarily consisting of all the integers of 5 field)
+Mm ha integers With 7 real and 2s complex conjugate
+alg
+
+s:
+(J = 12, . 0,
+
+Z2; =X ; v
+g; = X51 1 Xsts G=r+1,....749
+(13.1) Zips = X41 LX sts
+
+: cates. Then we are interested in stab]
+9s = nm conjuga e
+otal of 7+
+
+he norm (gauge) function |
+% (ra % Xr4s) ce (rp srn Xr.)
+* Tr
+
+making a t
+modules for t
+Xi.
+on the vector of @ = n(n — 1) generally complex components:
+We consider R[z] = Gono 21/35 - - Ne, = 2
+(13.2) aE
+r ‘terion for stability iS
+Toon ts ion Q as Z varies 0
+
+ERE)
+hat the set of vectors R[z] positively span
+
+ver the set of module elements of minimum
+a space of dimens! This criterion was established earlier (12, p. 266)
+non-zero absolute -— but the present form will prove simpler to use. Asin
+using 20 real a Li of Q + 1 positively dependent vectors Rz] is
+the totally real case, ¢ establish a new criterion relating to projections of Riz),
+so difficult that ni can be expressed in terms of n(n — 1) real coordinates
+
+low e . : 1 '
+
+vector up into the following projections: Take any pair of
+
+, kl chosen from the first 7 +S conjugate fields (conjugate complex
+isti
+
+air, denoted by unequal subscripts
+iti excluded). For every such pair, y
+gi i :s determined. Specifically for /, j both real, there are
+by JUS ’
+
+r(r — 1) projections
+
+(13.31) R, ,[z] = (2:/2)),
+
+for 1, j both complex, there are s(s — 1) projections
+
+(13.32) R, ;[z] = (2/25 2145/2)
+
+for I, j mixed (i.e., one real and the other complex), there are 2rs projections
+(13.33) R;;[z] = (2/2).
+
+Now, clearly, the projections of type (13.31) are of real dimension one; the
+projections of type (13.32) and (13.33) having two and one complex components
+are of real dimension four and two respectively. We write this as dim [, j]=1, 4
+and 2 respectively. If we were to sum the number of coordinates, we should find
+it accounts for
+
+re—1)-14+s(s—1)-4+2r5-2=0Q — 2s
+
+coordinates. The remaining 2s coordinates are accounted for by a single projec
+tion called the “2s” projection,
+
+(13.34) R,.[z] = (2141/34 541, shiny Zris/Bri2s);
+
+of s complex components and of (real) dimension 2s.
+
+STABLE LATTICES
+269
+For some purposes is will be necessary to visualiz
+written out as cartesian coordinates of :
+
+De ie em. and &**. Thus we may tei ry Ls ©? with
+and with 1t length and angle. Furthermore any one of the iis ar product
+‘mbedded (in the natural way) in &° by setting the Q — dim) To maybe
+remaining coordinates equal to zero. Thus we may Spent of fos 4 ik — 2s
+R[z] and any one of its projections, R, ,[z] or R,,[z]. gle between
+The significance of the subspaces is then derived frq
+Let any Zo (#0) be given. Then a z, of equal norm exists
+rarily close in direction to any preassigned (I, j] projection Ri [zo]. To see thi
+take z, = Zou where u is a unit of © the order of M, so chosen (by D: po s,
+Theorem on units (12, p. 269)), that |y/u,] has the largest order of y et’s
+for the choice of sub-scripts p = 1, ¢ = j (p,q <r + nts ae
+arbitrarily close in argument to a positive real number. The main le
+criterion will be a more complicated version of the “unit star” method of Pe
+(12, p. 265), (which dealt entirely with one-dimensional [l, /1 projections)
+It is as follows: :
+The necessary and sufficient condition that the module I have a stable norm is
+that for Z a variable element of minimum absolute non-zero norm in IN, the projec-
+tions Ry, [2] or Ro,(2z] each positively span a space of dim[l, 5] or 2s dimensions.
+The necessity is immediate since a projection of a set of vectors positively
+
+spanning a space must necessarily positively span the projection. The sufficiency
+proof is the difficult one.
+
+e all the reg] and imaginary
+
+m the following fact:
+for which R(z,] is arbi
+
+14. Sufficiency proof of stability criterion. We let z be a general element
+
+of M of minimum absolute non-zero norm and we assume, as our hypothesis,
+that for certain values of z, namely
+
+(14.1) AR (1<h<14+dim[,j], 1<k<1+2s),
+
+the sets of projection vectors {v}, consisting of the subsets
+(14.2) R20) = {v}., (1 < h < 1+ dim, 7]),
+Ro[20] = {v}a, A<t<l+2s),
+
+are positively dependent. The object is to show that for properly chosen units
+(U} of the order © the vectors {W}, consisting of the subsets
+
+(14.3) R[Z7)] = (W}., (1 <h< 1+ dim, j]),
+R[Z]] = {W)., (1<k<1+ 2%),
+
+Positively span the real cartesian space 9, where
+1: » ORR) ®) ® 770
+( 14) zy — zy Ue, Zz, -_ Zog Us:
+
+The positive span will be established by means of the projection and independence
+
+  
+    
+    
+      
+       
+        
+      
+            
+     
+   
+   
+      
+    
+     
+    
+      
+ 
+     
+    
+    
+    
+      
+    
+   
+    
+    
+ 
+   
+     
+
+nN
+as
+.
+
+Ells eld
+LAST LAS St
+
+LETH
+
+Arad
+Led
+1 tots z
+Ls Cn
+
+Sr
+
+ 
+  
+ 
+  
+    
+   
+  
+      
+   
+ 
+ 
+ 
+ 
+   
+ 
+
+.
+-
+A
+
+"re +» Ae vir v
+oA ala fs alata als » v
+AAA ANIA
+
+  
+ 
+
+  
+ 
+
+La
+
+* a Ia : Hi
+TAA Tae drt He A
+Aa Tare) fala ralalald ele
+At Fa Aaya ara tarded
+arietelrd eal
+MLSs rio
+[Asal Tata Ta a
+He # EAST
+SII rea alae
+Lok y A
+
+Ls)
+Caos Cx CC
+ee LS EL
+
+g£ Jo
+
+Eo
+
+   
+
+  
+
+LL
+Ll
+Cor
+El To
+
+
+HARVEY COHN
+
+The arguments used will
+
+f the set (V]a, are © the larger space ©9). This can be done by
+
+; f §13 (above), since the proper choice of the
+pt. ur vector of {V}as arbitrarily close in direction
+ill render ©
+
+U,.® for each kW V}as while some one [/, 7] projection of one
+
+STABLE LATTICES
+
+difficulties in exh; Onvexity
+
+argum
+
+: ; 271
+ea linear relationship among vectors f
+270 t {V] to represent the projections Thus any ; ye Of the set “YT
+2 965). We use the further s€ . elationships among weghors in he individual sets Wow a imply sup
+ps (12, p- ; #0 (1 <7 < 1+ dim[, j) we SAW earlier, are trivial, by choice of {U}, fo, small ert) Vor we Xe
+5 of {Wi* Zi) = bd ; vo ED.
+: Ri = 1<k<1+2s). Now the existence of Q + 1 positively dependent
+fe (145) R81 = Vie Vl nll 1) + (2s + 1) vect vectors, chosen f
+5 | ; ite general (€.8- the values of the dimensionalities put gn 265), but i ivy i P avured by a Ge El
+' MG uite y P- 2), but In practice t Cc
+ii A tance a p< 1+ 2s) so that the 2s + 1 projection mn ¢ in the real case, almost a (Re biting these 0+ 1
+rn Rn jmpor tant” Lk <S : ; : i © \Regrett
+HR Ho ” of "all choose the Uss® onitively dependent (in ©) while the bibliography failed to list the work of Carathéodory (10) cio earlier
+A! ie 0 : Irs S .
+
+ho seem to have used similar convexity argumen
+The method of approximating projections, so natura]
+units (5), seems to have not been used previously.)
+
+einitz (15)
+NT context.
+
+ts, in a differe
+with Dirichlet
+
+15. Quadratic and cubic modules. The
+
+fr RE ondin than this projection of all the other question of lev:
+
+le BR corresp larger : stabilit
+
+hi A > of (Was can be made on the Uzx,®, (1 <k <1 +2), real module has already been answered in Part 1 (12, 269). Fo 2 totally
+pat ‘ i vaste! of (W]e By this fo 0 ie (V}., in ©? without having the modules the answer becomes extremely involved as the Cs Or complex
+Sn mes vec tive dependen : n G9 : the investigation only ¢ = Increases
+fas RE we preserve the positive dep main valid for the set {Wz in ©€. Once these We carry the investigation only as far as n = 3, ;
+
+"y
+
+ 
+
+\
+
+ral
+Leas
+
+————
+
+n
+
+S-
+ELIS
+ny
+i
+_
+
+PN a EN
+-
+
+yr
+o Hy yr
+AAAS
+Heleleviyvh r
+RA
+batetytiy ye!
+‘ (JCI MDE ser
+
+alatels a
+a lala ale a alata!
+Wir Na ave
+sales
+
+» .
+tialnls lh
+vs NGA ATI
+J nannn
+
+-— Ca
+-
+
+Foley
+
+“Wh "Wh + " Y MM
+
+rye
+¥
+
+    
+
+2 a
+
+%
+
+hn
+
+Metelylvye
+
+A
+
+SL
+folelwiwir
+
+AEA
+
+nny
+PAA
+nt
+! ivy
+
+" “
+
+ence relation T€
+
+h we keep them fixed for the remainder of the proof.
+U.,® are chosen
+
+: (h)
+sitive angle € Then for this e we can choose units U,; ,®
+e assign a positive g
+Next we assig
+
+i itively dependent (for
+that {V}.; are still posi :
+a<h<1+ gall oo omit while (W}, are linearly independent
+each [; 7) in the smaller P each vector of the set {W}, ;is to make
+in the larger space
+
+time
+9. At the same ; |
+ith the corresponding vector of the set {V}. ; This can be done,
+an angle <e Wit!
+as in the preceding paragrap
+
+h by the approximation technique of §13 (above).
+for ¢ small enough the projection property is valid, or that
+We now show that os octor T of © has a positive projection on one or
+any arbiirary oy ng (W}. For if T lies wholly in the &*¢ projection,
+more eine of Vin, is sufficient. On the other hand if T has a
+i gn in some other space Simi then for e small SE
+ON LW, (being sufficiently close in direction to an element o 2
+em : i Le projection on T. By compactness, a single e should achiev
+mus :
+this uniformly for all directions of T.
+
+We next show that for e ol Sho ie Cy oe Lo pe
+vectors of the set {W} are linearly 1ndepe : :
+
+vectors {V}. Clearly any linear relationship among vane 1)
+must be decomposable into the sum of linear relationships a Vv dr
+individual sets (V} 1,4 and {V}a, (lying wholly in the correspond Ing Dl
+aimiti and ©). Now by continuity this will be true for vectors si rd
+close in direction to the vectors of {V}. The (W},; immediately be (Wis
+condition when e is small enough (by our choice of the units U). The jo
+will also meet this condition if at the same time that we make e small we str >
+each of the 2s coordinates in &?* to infinity sufficiently slowly so ag not io
+the approximation of {W}, to {V}, ; This will accentuate the ©° Die
+of the fixed vectors {W},, and (effectively) permit them to approximate {¥}*
+
+positive depend
+
+Starting with quadratic (complex) modules, we find that stab:
+first of all that the norm assume its minimum at three (=0Q + n requires
+their negatives), lying on a circle with center at the origin. This 4 D2 ban
+lattice to be equivalent under rotation to the equilateral lattice os
+only stable quadratic (complex) modules are given by the module p9 i us the
+fixed integer and 2O 1s the set of all integers, in R (exp 2mi/3). ane
+
+In the case of cubic modules with one real and two com
+r=1,s = 1), we find, as indicated earlier without pro
+such modules have stable norms. To see this we start wi
+the order © of IN has one fundamental unit w = (w,,
+real nor is any power of w, real, since the only real numbers in a complex cubic
+field are rational. This shows that the argument of w, is incommensurable
+with 27, and therefore the directions of the complex vectors w,", (m = 0
+tl, £2,...) are everywhere dense mod 2. Thus for every z; of minima]
+norm, the set z = z,w" has the same norm while the projections R, »[z], Ry ,[z],
+Ry fe], each in two-dimensional space, are everywhere dense with respect to
+direction, thus establishing the positive span and stability. (For an illustrative
+stability configuration see (7).)
+
+Te Jor ares are dominated by the occurrence of units and
+
+HE i al whose arguments are commensurable with 2m. Here,
+
+: of the geometry of numbers must await more results in algebra.
+» Nowever, give such a case as the final illustration.
+
+plex conjugates (n = 3,
+of (12 p. 269), that ql
+th the observation that
+Wa, w3). Now w, is not
+
+ly field. We conclude by proving the stability of the integer
+the argum = Riesp 2m1/ N) if and only if N is square-free. Here we note that
+or ents of all units « are commensurable with 2r (14, p. 334). In fact,
+
+Ing the conjugate-complex of u by #, we find «/ is always a root of unity
+
+reeset
+
+-*
+ts .
+2 -
+4
+Sa Err TE
+
+-
+Fg
+
+P53 eI
+
+¥
+¥
+
+toy
+
+os
+
++
+>
+-
+
+£27
+
+1
+
+Lt
+reel
+Lon
+
+et
+
+al
+' )
+
+4
+*
+
+Xe
+
+CS
+
+re Ey
+pL
+
+or
+
+rt
+vee
+Ld sad
+
+\
+2s
+
+2 A
+3
+
+ 
+
+- a
+dedi
+
+
+8
+Sls een
+
+3
+SN
+
+SAAR
+Ny
+so
+
+SE
+08
+
+-
+~
+-
+
+a
+Wa
+oa
+
+,.
+
+2 Ja
+
+->
+-
+
+-
+.
+
+.
+
+.~
+3
+.
+-
+
+»
+»
+-
+ean
+
+Sides
+SE
+
+-
+,-
+ay
+.
+-~
+>
+>
+
+Sos
+3
+
+hat
+
+Ra
+
+Se
+35
+
+ase
+ALCS
+PRS
+2
+»
+:
+Leas £5
+Set NA
+i.e
+
+ds
+
+Se
+
+2 -
+
+SRE
+7s
+
+——
+Ra
+SESAAN Co
+< Ee 3
+
+‘
+A
+Hey
+
+&
+
+-
+rE
+a
+
+nh
+-
+g -
+
+cS OEEOTT
+
+A
+alata
+alalilet by
+
+2
+
+ 
+
+HARVEY COHN
+
+7 sitive Or negative power of ({=) exp 2ri/N, |
+
+Cis of KN over R.
+1 > i where N hase tquare factor, say #2, for pa Prime,
+i First we dispose © _9s + 1) projection vectors Ro[u] for z + 1 units yy.
+
+ir 1 is , set of vectors can never be positively depen on
+dinates of Rau] (see equation (13.34)) are the C00.
+
+or negative power of ¢. Thus if we write out any n 4
+some pos ” ee /p) +1 of them belong to the same residye
+we find t re fore linearly dependent (with rational coefficients)
+
+ule p and are La cyclotomic equation of degree #, defining ¢ io
+of the fact t “ee n/p in {7. Hence, by conjugates, a linear (rational)
+proper subset of any 7» + 1 vectors Ry, fu], excluding
+
+Abe:
+~ hence a PO ts
+
+xX coor
+
+)
+
+equation of deg
+e exists among
+
+e Nis square-free, hence necessarily odd (and greater
+From now 0m We build the positive dependence from the relat,
+
+than 3 for convenience): :
+3 o = u(NV) = ()
+
+16.1) k=1
+( o the n(=¢(V)) residue classes relatively prime to N, ang
+
+where the x ar us inversion function. We then take the 2s + 1 units (of which
+
+. bi
+N) 15 the Moe . * .
+3 conjugate 1S indicated): A Ne (NED
+0 “WD = (k=1,2... 1)
+
+uM = 1 if p(N) = -1,
+= —F if u(N) = +1,
+
+t now if and only if NV is no prime power). We further see
+
+(16.2)
+
+(since 1 — § 15 a un
+that uP Vine as = (k =
+
+(16.3) £0 TY = — p(N),
+
+and hence from (16.1) R
+
+#1 = 0.
+(16.4) 2 Ro [u™]
+span in the “2s” projection once we
+®)] are proportional to the relation
+rivial relationship among
+to the contrary, that the
+
+Now equation (16.4) asserts positive
+know that all linear relations among R.[u :
+(16.4). Otherwise expressed, we assert there isonly a t
+the Ra, u®)] if & takes the values 1 < E < n. Assume,
+
+system
+
+n
+
+ak@i __ 1 Lk jm
+(16.5) > At =0
+
+k=1
+. he 4;
+oh An st exist where t
+has a real non-trivial solution in 4;. Then a relation mu re
+
+belong to K¥ and (say) 4, = 1. By applying the Galois Se
+(16.5) we derive a system in which the A, are rational and no
+
+STABLE LATTICES
+273
+ationship (16.5) contradicts the fact that ¢ and its
+2,..-o¥) provide a (normal) basis of £9, pps, last i
+R 4p. 351) when NV is prime; when N is compos;
+oduct field decomposition extends the result),
+Having disposed of the “2s” projection, we
+tions, (see equation (13.32) above), are posit;
+
+: ing of §11 (above), we can reduce the problem
+
+| .
+the re fjugates (% (p = |
+
+esult is best
+
+known
+te but Square-free, the
+
+direct-
+
+must show that ¢
+vely spanned. Ag
+to the following:
+
+Let S be any non-identical automorphism of K¥ over the »
+i => — i, then five units u® (1 < h < 5) can be
+R® = u®/u®S, GW [4 ™S) ge positively dep
+transformation:
+
+(16.6) i= eM=Lwsl pam
+
+Then we can take as the five units «™ = ¢, ¢=1 a 1a | respectively, where ga
+is chosen as a function of g in such a manner that R 4® gre positively dependent
+The specific details are tedious and are omitted as they have no bearing on the
+
+square-free nature of NV but rather depend on the “small gp” type of argument
+used to determine A, in §11.
+
+he 1, 7 pro-
+In the begin-
+
+ationals, distinct from
+found for which the five vectors
+endent. Here S is given by the
+
+REFERENCES
+
+10. C. Carathéodory, Uber den Variabilititsbereich der Fourier'schen Konstanten, Rend. Circ.
+Math. Palermo, 32 (1911), 216.
+
+11. H. Cohn, Note on fields of small discriminant, Proc. Amer, Math. Soc., 8 (1952), 713-714.
+
+12. , Stable lattices, Can. J. Math., § (1953), 261-270.
+
+13. H. Hasse, Uber die Klassenzahl abelscher Zahlkorper (Berlin, 1952), 26-30.
+
+14. D. Hilbert, Theorie der algebraischen Zahlkorper, Jahresbericht der deutschen Mathematiker-
+Vereinigung, 4 (1894), 177-546.
+
+15. E. Steinitz, Bedingt konvergente Reihen und konvexe Systeme, J. reine angew. Math., 144
+(1914), 15.
+
+Wayne University
+
+7 a - - -
+-
+
+LEK
+
+Xd
+
+3 »
+TE
+
+>
+
+EEE
+FE aw
+
+LL
+LF
+
+_ (Avy
+(¥ <<
+rh Ls
+
+

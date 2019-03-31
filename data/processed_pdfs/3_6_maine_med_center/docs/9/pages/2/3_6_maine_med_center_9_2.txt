@@ -1,0 +1,332 @@
+232
+
+. octablished be-
+oquilibrium is establis e
+.‘ trostatic charges )
+A of the membrane
+
+. surface
+
+qrees, the outel surfe
+i . mem-
+h a double layer n
+
+. 339
+“polm'lzed-
+
+and a resting H
+tween diffusion and elec
+
+] . surface
+results in the mner surfa
+
+carrying negative ch
+positive charges. Suc
+- v 0 as 4 it
+braner i RAE S Jllem s concerned with
+' ~«+ hasic prob s C R e
+rlﬂhe hl‘St hd;bl(; I)l . f the ('ﬂ,l'dla'(.' hbel
+potentml 0 i
+been recorde e
+‘ot we
+7 1al existing be
+.+ 079V, the potential exisung b
+aocen Vet ’ side of the resting 1t
+aide and the outside ¢ oy
+the inside ¢ NG i Hen mgasire
+ranges from 80 to 1 g e
+e 107 3 ,\(‘ A H P
+capillary 11?1(110(..f e 1o caing cell
+ntial or a Sz o
+ractors, such as the electro-
+ds on many factors, Suc s
+deheicas istic of the membrane 1tse
+chemical characteristic ol € e
+her it is neutral, acid or basic AL
+Stk ions of the fluids on
+on the ionic concentrations e
+both sides of the membrane, an e
+o » e . . > » ;"];r S
+1C 1V onic concentre
+trochemical activities (i 2
+electrochemice ; = e .
+and electromotive force). ) e
+specified by stating that the pot.eln ‘}(c i
+' E anillary electrode ¢
+~ asured by a capillary .
+ences measured D) pLIATY =
+the result of electromotive forces ()C(,utnihg
+. 3 5 . ‘) at : e
+(1) within the interior solution, (-:)h:-ll =
+inner membrane boundary, (3) wit m} ,
+; ‘ane
+membrane itself, (4) at the outer melmt.na e
+7 5) 1 terior 1011.
+boundary, and (5) in the e.\tel'l()l SZ l;l 3
+2 A [ ,I' 3
+What is measured may be considere ;1 gely
+] (pressi ' ons
+a diffusion potential expressing flow o 111
+and of neutral molecules, but it is furt mf
+complicated by the almost certamn presence o
+. » ¢ X -
+an ‘“‘active transport mechanism” (at least
+‘ 1 O
+for the Na ion) by which is meant the move
+ment of an ion “up hill” against the electro-
+chemical gradient. e
+The basic considerations of diffusion po-
+tentials were expressed for liquid junction
+boundaries of solutions containing different
+concentrations of electrolytes by Max Planck
+in 1890' as
+
+the membrane
+itself. This has now
+
+glass
+membrane pote
+
+. _RT
+
+nl’
+
+Vet 1)
+‘—"_» — I‘rl
+
+where R expresses the gas constant, 7' the
+absolute temperature, I the Faraday equiva-
+lent, and n the valency of the diffusion jons.
+U and V define ionic mobility in water, of
+cation and anion respectively, the subseripts
+denoting these values for the two sides of the
+
+(1) | log ¢
+
+EDITORTAL
+
+.ne. Recent theoreti val v\\'ork On memn.
+e t ntials and ionic fluxes is based
+o ll)l(ir"(im this fundamental equation, with
+“f()rmula GX])I‘O.SSiIIg'thO general be-
+of junction p()t(-mt.l'a.ls presumably
+e to living systems sixty years bef(.)re
+ould be made from cardige
+
+essentia
+Planck’s
+havior
+applicabl 2 |
+such measu rements ¢
+tissue in situ.
+
+qpUTION OF BELECTRICAL CURRENTS
+
+[STRIBUTIO! e
+
+- VoLuME CONDUCTORS OF INFINITE
+IN VOLU! ;
+L EXTENT
+
+The laws which define the flow of currents
+2 tc'enous' volume conductors of infinite
+108
+
+1 hO]] 2 - Y e
+i have long been applied to electro-
+C - s
+
+extent 7 _ ‘ e
+ardiographic concepts and, though never
+e oL
+
+specifically expressed by ].Einth();’c;‘\,‘ \\':lll'e
+apparently well known to him zlllfl \()}m (Z
+basis for his geometric u.m'],l‘\;'sgsj I'he ‘(,ogclep
+of a dipole layer (th(? l)z‘ms .oi t-hf} }n(jl‘n tlmi]::
+theory) and of the distribution 0'1 (;m‘ len].sted
+volunvle conductors were .('leal'l}' 11)0.1?11 »a‘ 4
+by Helmholtz in 1852.° HIS.('OI}SI( (1:1 10;1;&
+tlvle general aspects of .the dlstrlln‘l}t;lf)nh Sndred
+electric currents were timely f)llgllg a .
+years later to form the basis for gll a,nztl gzum
+of an excentric dipole in a homogeugus me .
+by Wilson and Bayley" and to 1z.xy the }%1 Ol['e]d
+work for a modern elect.r()(:a,rdlq()'g‘rap’ )10. 1ers
+theory by McFee and Johnston.” 'l h'eSth')&E 1
+have‘analyzed the Helmholtz contributio
+letail. |
+de;ll a volume conductor of infinite extell.ljtlt, ltllzz
+potential, during activity, at somedc ib,athe
+from a membrane may be expressed DY
+relation’®
+
+(2a) V = ¢Q
+
+: e te of the heart 8
+and since the electrical effects of the
+
+= . A X ()f a
+a whole may be considered the S;Ilmew(pres'
+individual cell membrane effects, the €
+sion may be written
+
+(2b) V = Z¢Q
+
+Thare
+¢ here expresses the “dipole moment”, ((1}(1)3{30
+times distance) which exists across the ¢ ¥
+layer of the membrane. It is ('nnsi(l(n'edd“‘('l by
+(a). @ expresses the solid angle snl)ten.cre A
+the membrane at a point P,°. { thclze.fol ‘nc
+dependent on the distance () of P from
+
+ 
+
+EDITORIAL
+
+boundary of the dipole layer of the membrane,
+and on the angle ¢ between the outward nor-
+mal and (r). For a single charged membrane
+element ds, the expression becomes:
+
+(3a) 40 =S
+
+ 
+
+,.‘.!
+Calculations of this sort assume that the
+
+mem-
+brane concept is
+
+& correct one for which there
+is ample evidence. P is assumed to be located
+within a homogenous conductor which sur-
+rounds the polarized membrane
+
+and is of in-
+finite extent.
+
+The relation of the potential
+recorded at the distant point P to the value
+existing at the actual surface of the membrane
+1s what is briefly symbolized as Q and is con-
+cerned with (h).
+
+Tue Errecr or Finire BOUNDARIES ON
+CURRENT DISTRIBUTION 1N VoLuMme
+CoNDUCTORS
+
+Helmholtz also described a special case of
+finding the potentials of a known electromotive
+force in a spherical conductor. The theorems
+proposed by him allow the formulation
+
+cos f#
+
+(3b) Y =
+
+ 
+
+i 2
+
+from which (3a) has been derived. It applies
+to a dipole situated centrally within a sphere
+and surrounded by an infinite medium. The
+potential recorded from a point located within
+a limited spherical surface (172) may be given
+as
+
+o | 2r
+
+(4) lz—q‘)(o.sf)(;__,—i—m),
+
+where 7 is the distance of the dipole from P,
+R the diameter of the sphere. This describes
+a situation applicable to finite boundaries,
+and was developed with reference to Ein-
+thovens equations by Craib and Canfield.!
+The influence of various shaped boundaries on
+the distribution of currents within the enclosed
+system of the chest is obviously of considerable
+interest to those concerned with measuring
+cardiac action currents from the surface of
+the body. In a paper by C. V. Nelson in this
+1ssue,' the striking alterations in current flow
+
+233
+in the presence of g bound
+demonstrated by the u
+layer electrolytic tan
+to establish
+electroc
+
+ary are graphically
+se of Boothroyd’s double
+k.’ In the past, in order
+a firm basis for a theory of the
+ardiogram, the effects of boundaries
+Were conveniently neglected sinece apparently
+o easy mathematical approach to this com-
+plicating nuisance was on hand. Nelson points
+out that the mathematical solution ha
+available since 1845. This w
+by Lord Kelvin,
+images for the
+
+s been
+as clearly expressed
+* by his method of electrical
+solution of boundary prob-
+lems in highly conducting liquids.* A lucid
+description of his doctrine as given by his
+biographer is appended. The image concept
+was known to Wilson and is mentioned in a
+paper from his laboratory but it seems to have
+escaped general attention. Nelson’s paper is
+of fundamental interest since it
+
+shows a
+method for
+
+solving boundary problems in
+ele('t.roval'diography, at least for straight line
+boundaries and for boundaries of a circular
+plane. Tt should be added that Thomson car-
+ried the problem further for the solution of
+the effects of boundaries of a sphere, but it
+was W. M. Hicks" who apparently first pub-
+lished a complete analysis of spherical bound-
+aries in 188(.1 According to Hicks, the image
+of an electrical source X located within a
+sphere of radius R at a distance g from its
+
+. » - [g-
+center 1s a source X! at the distance —, and
+a
+
+a line of sinks reading from the Image source
+X' to infinity.
+
+A single observation may be cited which
+points to the practical significance of considera-
+tions of this kind: A zero point of reference,
+the ideal position for an ideal indifferent elec-
+trode, has always been considered to be lo-
+cated halfway between the source and sink
+of a dipole. It is not so located if the boundary
+1s taken into account.
+
+This brief discussion should bring to mind
+again the fact that the basic laws of electricity
+developed during the 19th century are ap-
+plicable to a theory of electrocardiography
+today. As in other disciplines, research in this
+field has its roots in the past from which
+
+ 
+
+ 
+
+*Sir William Thompson, Baron Kelvin of Largs

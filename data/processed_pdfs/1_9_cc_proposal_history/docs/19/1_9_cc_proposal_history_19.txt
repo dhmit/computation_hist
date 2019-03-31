@@ -1,0 +1,82 @@
+PROPOSAL FOR RESEARCH INTO THE EFFECTS
+OF AUTOMATIC CONTROL AND MACHINE PROCESSING OF OPERATING DATA ON
+SOCIAL AND INDUSTRIAL OPERATIONS
+
+We propose to study the effects of automatic control
+techniques and computing devices on social and industrial opera-
+bions,by closely coordinated research in three ma jor directions:
+
+1. Case studies of the possibilities and consequences
+of "automation" in several carefully chosen industrial and govern-
+mental operations. Each case would be studied by a mixed team, drawn °
+from a variety of disciplines. The operations studied would be
+actual ones, a factory or a store or a part of a government service,
+so specific operating data will be obtainable and so’ that the prac-
+tical difficulties will be apparent; general principles can be
+built up inductively from the results of several such studies.
+These’ studies would have to be carried out with the close coopera-
+tion of the administrators of the operations studied.
+
+2. Research into the techniques of automatic control and
+into the use of machine processed data, and experiments with the
+use of various input and output equipment. This research can be
+carried on in cooperation with the Institute's new Computation
+Center and would utilize the interest and kriowledge of those members
+of the Institute staff who are already doing research in this area.
+The results of this broader research activity would provide new
+suggestions for application in the case studies of (1) and the
+problems arising from the case studies would suggest new techniques
+and equipment to investigate.
+
+2. Quantitative analysis of the dynamics of social and
+industrial operations by the techniques of operations research.
+This research would develop the mathematical theory which would be
+utilized in the specific applications studied in parts (1) and (2).
+Regularities in the operating data obtained from the case histories
+could be used to extend the theory and extensions of the theory
+could help guide the case studies and the equipment development.
+
+Close cooperation would be insured between the three
+parts of the project by frequent conferences and by occasional
+transfer of staff from one part to another. Each part would be
+staffed by a few full-time staff members, by a number of interested
+members of the Institute faculty, each contributing a portion of
+his time, and by half-time research assistants chosen from the
+graduate students of all departments. Each of the three types of
+" staff members will be necessary: the full-time research associates
+to carry on the administrative details of the project and to main-
+tain continuity of effort; the faculty members to contribute their
+varied background of knowledge and to transmit the knowledge gained
+
+
+-2a
+
+in the project back to the new generation of scholars via the
+faculty teaching; the student members to contribute freshness of
+point-of-view and to transmit the knowledge gained by the project
+to industry and government when the students complete their gradu-
+ate work and find Jobs. / :
+
+The project as a whole will have an over-all supervisor,
+presumably a senior member of the SIM staff, advised by a steering
+committee of representatives of the various parts of the project.
+Parts (2) and (3) will have heads and each case study group will
+need a head. These directors should be Institute faculty members,
+backed up by one or more full-time research associates. The rest
+of the staff of the project would be other faculty members and
+the research assistants. :
+
+Funds will be needed for the salaries of the full-time
+research associates, to reimburse the departments for the diversion
+of part of the time of the faculty staff members from their usual
+teaching duties to work for the project, and to pay the stipends
+of the student research assistants. Travel money must be avail-
+able, a few secretaries and technicians will need to be hired and
+some equipment must be bought each year, particularly for part (2).
+Space must be found in the Institute for the project, some space
+near the computation center, some space in the Sloan building and,
+perhaps, a small amount elsewhere.
+
+November 1955
+
+

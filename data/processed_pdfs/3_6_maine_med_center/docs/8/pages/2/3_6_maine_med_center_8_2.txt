@@ -1,0 +1,39 @@
+2
+
+In order to take account of the different electrical conductivities of the bones,
+lungs, heart and other tissues of the thorax, the depth of the thin layer of copper
+sulphate solution in the conductivity tank was adjusted by the insertion of
+cut-out shapes to represent the cross-section appearance of these tissues. The
+resulting conductivity of the different regions so formed was then proportional
+to the depth of the electrolyte.
+
+The vertebra and sternum were represented by Perspex material of thick-
+ness greater than the depth of the electrolyte, thus giving zero conductivity.
+The lung sections were in glass and covered by the electrolyte so as to give a
+conductivity about 25% of that in other parts of the cross-section. It is
+possible to have an increased conductivity for the heart by using a greater
+electrolyte depth in that area, and this was done in some experiments.
+
+A pair of probe electrodes was placed in the tank in the heart area and a
+potential difference applied, so that a current field was set up in the electrolyte.
+These electrodes constitute a dipole source which could be adjusted in strength,
+position and orientation. In further experiments two such dipoles have been
+used, and in others a ‘distributed source’ was used consisting of pairs of metal
+conductors around the boundary of the cross-section of the heart.
+
+Potentials were measured with respect to a remote point by means of a
+search probe which could be moved over the tank area. Polarization errors
+were substantially eliminated by the use of (i) a 500 cyc./sec. source, (i1)
+platinized-platinum search and reference probes, and (iii) a very high input
+impedance to the valve voltmeter used for potential measurements. The
+potential field was also measured in the ‘double-layer’ tank, which is the form
+originally described by Boothroyd et al. (1949). This is equivalent to making
+the measurements in an infinite, i.e. unbounded, medium. The comparison of
+these results with those obtained in the modified tank shows the effect of the
+boundary on the potential distribution.
+
+REFERENCES
+
+Boothroyd, A. R., Cherry, E. C. & Makar, R. (1949). J. Instn elect. Engrs, 96, pt. 1, 163.
+Morton, D, J., Truex, R. C. & Kellner, C. E. (1941). Human Cross-section Anatomy, section 23.
+Baltimore: Williams and Wilkins.

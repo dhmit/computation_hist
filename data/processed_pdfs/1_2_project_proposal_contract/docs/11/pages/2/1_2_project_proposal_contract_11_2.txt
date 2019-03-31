@@ -1,0 +1,55 @@
+=Dea
+
+ 
+
+Office of Naval Research January 23, 1956
+Reference: Contract N5ori-06001 DIC-#6345, #6915
+
+ltems as the preparation of summary reports on the program of
+Machine Methods of Computation,
+
+This summary 1s baged on estimates prepared by Prof-
+éssor P, M. Morse,
+
+Professor Morse further advigeg that the expected
+arrival of an IBM Type 704 Electronic Dota Processing Machine ag
+MIT about January 1, 1957 will create a definite need for addai-
+tional funds--to finance the conversion of existing Whirlwing
+Programs to Type 704 programs,
+
+Under the proposed plen submitted herewith, Project
+#6345 (Whirlwing Operation) woulad terminate on June 30, 1957,
+The task order rfor thig period would include the usual Whirlwind
+Project activitiss:
+
+1. Research in methods of numerieal analysis and
+the formulation of sclientific problems for machine
+solution, together with the training of Personnel
+in thesge methods,
+
+2. Support of the Sclentific and Engineering Applica-
+tione Group of ProjJect Whirlwind so a8 to meke the
+computer useful and avallable for the above-mentioned
+research,
+
+In addition, 1t ig proposed that the following task
+order arlsing in connection with the Type 704 EDPM be included:
+
+3. The develovment of & sultable interpretive program
+and associated coding technlques %o permlt effective
+implementation of the Type 704 machine.
+
+It is anticipated that a separate project will be get
+up to handle the Type 704 utilization within the MIT Computation
+Center, and a 8eparate request to the ONR for support of this work
+wlll be msde in the near future., In this r'espeet certain
+éxperlenced programmers could be made avgilable for transfer to
+this new tagk ag of January 1, 1957 This enticipated tranafer
+has been taken into account in the budget proposed for Project #6345,
+
+The foregoing proposal doss not take into consideration
+termination costs which may be agssoclated with the close out of
+this contract ang the possible dispoeltion of the Whirlwingd Computer,
+It is proposed %o delay the submittal o eny budget for thig matter
+untll such tims as disposition of the Whirlwing Computer ig
+determined,

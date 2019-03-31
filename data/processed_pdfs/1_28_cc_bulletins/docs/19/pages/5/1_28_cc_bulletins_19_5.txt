@@ -1,0 +1,135 @@
+g
+— .-‘--:‘.c Ll
+-
+e - -
+A ~ -
+- -
+.
+
+General Description
+Generatl M= — —
+
+ 
+
+ 
+
+CC-75-1
+
+2 The Translation Phase
+° —_-______________.————-—-
+
+Translation time 18 jnitiated either by the termination of
+ran
+
+r by the introduction of a specia]
+for the preceding run O
+processing time
+g card by the computer operator
+st of direction cards which may occur during trans-
+
+(for the first run),
+callin
+
+A complete 1i
+
+lation time follows:
+RUN RUN TITLE CARD
+
+TER  TERMINATE RUN
+EOT  END OF RUN INPUT TAPE
+
+CLR  CLEAR CORE MEMORY
+
+RIP  READ IN PROGRAM
+
+RIU  READ IN PROGRAM, UNCONDITIONALLY
+
+SAP ‘TITLE CARD FOR SHARE SYMBOLIC DECK
+
+BIN TITLE CARD FOR COLUMN BINARY DECK
+
+PMD TITLE CARD FOR MIPMR1 POST-MORTEM REQUEST DECK
+FTN TITLE CARD FOR FORTRAN1 SYMBOLIC DECK
+
+CST COMBINE SYMBOL TABLES
+
+SIR INSTRUCTIONS TO COMPUTER OPERATOR
+
+DPR INSTRUCTIONS TO OFF-LINE PRINTER OPERATOR
+SWD TEST FOR SWITCHES DOWN
+
+RDY TEST FOR TAPES READY
+
+REM REMARKS
+
+The function of the translation phase is to read program decks
+
+in sequence from the RUN INPUT TAPE, to assemble them, and to record them
+
+in binary form on the BINARY INPUT TAPE., The direction cards, SAP, FTN,
+
+BIN, and PMD, serve as title cards for the decks and identify the kind of
+
+deck that follows,
+
+The variable field of a title card must contain a title which
+
+the user
+j S9SIBN8 o the deck. "Mis 4116 miss have one of the following
+orms :
+
+oo
+A
+—
+
+2.2.:2
+
+CC-75-1 2-2
+(a) Axd d is a digit
+(b) A*dldz d1 and dz are digi<s
+(c) -4 A does not end in *d or *d.d
+
+L
+where A denotes an arbitrary set of Hollerith characters (not containing
+
+blanks)., The operator program will modify these titles as follows
+
+(a) Axd becomes A*Qd
+
+b Ax
+
+(b) dld2 becomes A*dld2
+(c) A becomes A*Q0
+
+and retain the last 24 characters of the modified title to identify the
+deck,
+Thus the titles
+A and A*0Q and A*Od
+A*1 and A*0l
+
+are equivalent,
+
+The title which the user assigns to a deck during translation
+time can be used on‘suitable direction cards during the remainder of the
+run to refer to the deck,.
+
+The Direction Cards, RUN, TER, and EOT
+Every run must begin with a RUN direction card
+RUN M100-5-1NOV58
+whose variable field contains a title which the user assigns to the run,
+Every run must terminate with a TER direction card
+TER M100-5-1NOVS58
+whose variable field contains the run title. If a TER card occurs during
+translation time it will terminate the run and initiate translation time
+for the next run,
+
+The EOT card is recorded at the end of the RUN INPUT TAPE by
+the computer operator and does not concern the user,
+
+It is possible for a run to consist entirely of translation
+time (e.,g., a user wishes only to assemble a SAP deck) but in general
+runs proceéd from translation time to operation time, The transition
+
+occurs whenever the translation phase encounters one of the following
+
+direction cards on the RUN INPUT TAPE,

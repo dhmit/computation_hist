@@ -1,0 +1,47 @@
+4.
+
+Allocation of Overhead Costs on 8 Machine Utilization Basis
+
+It must be emphasized that the distridbution of the
+
+overhead cests given in Table I is at best a very rough
+
+stimate, This is perticularly true of the supervision and
+administration costs, The principal reason for the rough-
+ness of the estimate is the lack of operational experlence
+with the Card Programmed Caiculator. However, 1f the above
+distribution {s mccepted as & basis for cost allocatlen, the
+following procedure may be used:
+
+1, Distribute the overhead ccats for the tpcc!nl M -
+chines among the underwriters on a percentage
+basis = the percentage is to be based on the
+menthly rental cost of the machine., Specifically,
+
+Under~ Percent~- Monthly
+
+writing Monthly (age of Overhead
+Froject Fercentnge | Machine| Rental Spec, Mach, | (harge
+NSL | | 604 §565.40 | 25,098 $126,92
+Meteor Proj. - {40%) | CRC 1 SMBs | 2946R 144,81
+Aeronautic Engg, | (40%) CPC | 645, i 28,62, 144,81
+Verguh Research | (20%) CPC 322,50 ‘ 14,80 72,36
+E2177.90 100% $480 .80
+
+(
+
+The column labslled "Monthly Overhead Charge” is obtalned by
+distributing 4074.15/8.333-5488,%0 per month {the estimated
+overhead charges associated with special machines) on & pere
+centage baslis, The percentage is, of course, determined by
+the monthly rental cost of the machine,
+
+This overhead cost is to be bllled to each of these
+projects each menth aleng with the associated menthly rental
+cost of the particular machine,
+
+2., The overhead costs appearing in Table I in the
+column lubelled Regular Machines is to be distributed
+in accordance with the established formulae which
+employ the machine utilization factor. (see pp.7-9
+of the report dated Cetcber 1, 1952).

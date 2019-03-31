@@ -1,0 +1,140 @@
+IIARVEY COHN.
+
+8 .
+gim, (™ ini‘egers?, i=1,2 and 6; are Conjugat, N
+where 7 g?rhe condition for reduction (as ,StatEd oY Gausa)ers that g aa
+_adratics o If we consider the lattice in ty, (2 zﬂ)d
+1y 2]
+
+¢ the condition that Vi, Vs, Vs, the (2, 2,)
+
+: ‘o is almos il
+o find this 15 @ B e~ ‘especti i
+s ding lo (mm) = (0,1); (1,0), (—1,—1) respectively, gy o a
+correspon pair of opposite quadrants of the (., 2.)-plane. Hep, not
+.
+
+three lie in 0N
+that Vl, V 24 Vs
+of the lattice, 0%
+such vectors (but I an
+
+:hbor in the s
+
+¢ of neighbor 11 e
+
+czz(c;fion it two of the thee vectors Vi, Va, Vg be common to the ty, forms
+c ! .
+
+. upstion. The resemblance of this modified continued fraction algorithy
+Z: tqhe one presented in this paper will become clear as matters develop,
+
+3. Minkowskian basis. We now use as a point of departure the gy
+o of a Minkowskian basis, an immediate consequence of Minkoyski:
+
+have the property that any two of the three are basis Vector
+17, + Vet Vs=0. The idea of using not two py thres
+other formulation), goes back to Selling [1]. The
+
+imple continued fraction is (again) almogt )
+¢
+
+tenc
+
+algorithm. e g :
+We recall that a lattice is said to be admaissible with respect to a conyey
+
+body K (or vice versa) if no point of the lattice except the origin is interjg;
+to K. The convex body which we use is the rectangular parallelopiped:
+
+(3.1) P(éyé6): || = &
+
+The lattice we use can be written as
+
+(3.2) 2 = bimy + bisms - bisms, m;integral, 1, j =1,2,3,
+
+Its determinant D is assumed == 0, and we henceforth make the simplifying
+assumption that none of the components x,, x,, or x, shall vamsh for any
+vector of the lattice except the origin. This fits in conveniently with the
+intended application, where the triple (b, bis, bis) spans the totally red
+cubic field K; (where the index ¢ denotes the conjugate).
+
+We consider an ordered triple of lattice vectors (4;, 4., A4s), wher
+4i= (29, 2,0, ,3). We call such a triple Minkowskian if P(z,", z,¢), 2,1)
+is admissible. Such triples exist under very broad assumptions ([?]) and
+fron.z Minkowski’s algorithm ([5]) such a triple is either co-planar 0r @
+W'lwe basis. (The proof consists essentially, [4], of eliminating the possi-
+bility that the triple generate a sub-lattice of ihd.ex 9. and this can be done
+more s1:mply by the methods of 5 helow )
+
+Whicsii:ek?]‘::gi’j alg.oritllm. also 'supp]'ies a process of i’ormi.ng neiig
+ot discuss in detail except for the following points of mm
+
+hbors
+
+A PERIODIC ALGORITHM FOR CUBIC FORMS. 823
+
+. The process [3] of “lowering the faces” shows that every
+
+. 1owskian triple has exactly three neighbors. The process, in addition,
+e « vignalization ” of the lattice with a view to admissibility. (The
+d in 10 below will be less simple in the first respect
+
+diate concern
+
+involves @
+neighbor process propose
+uch more simple 1n the second.)
+
+nkowski’s neighbor process is also such that a co-planar Minkowskian
+
+tunately) cannot have co-planar neighbors ([3]); hence we have the
+
+but n
+Mi
+
+priple (for
+
+THEOREM. Lvery lattice has a Minkowskian triple that serves as a basis.
+
+We call this a Minkowskian basts and proceed from there.
+
+Reduction Theorem.
+
+4. Definition of reduced form. We start off by considering a 3 X 4
+matriz ¢ written as four column vectors P, @, B, § with three z; components
+
+Pis Q> Tiy S+
+
+PELEOYS B
+
+(:vl :) P q1 r1 S1
+(4 1) ¢ . (fvg :) p2 q2 7y S5
+(@s:) 28 ""qs “7Ts 8
+
+Such a matrix is said to be reduced if
+
+(4.21) O=P+Q-+R+ 8
+and 1f
+e
+(4.22) tsgng==d — . — pL.
+— — + 4
+
+(1. B if the components of ¢ have either the exact or reverse pattern of
+.-{— signs and — signs of the last matrix). Such a matrix is written out
+n 11 (below).
+Irom the definition it i
+| ' definition it is clear that : ' '
+S : t 1s clear that no three of the column vectors
+) ) y A are CO- alr Tor 1 Q . -
+; ;“ : «f tlo planar (for, if so, there would be a common perpendicular
+allIour of them in contradicti f :
+T . adiction to the fact that these four vectors and
+A1 hegatives lies one in each octant).
+We next define classes
+Proportional, i, e,
+(4.31)
+
+of proportional matrices, by saying ¢ and &’ are
+
+¢~ ¢,

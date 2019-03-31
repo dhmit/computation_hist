@@ -1,0 +1,39 @@
+PROGRESS REPORT No. 1
+
+Typed on Medium-run Multilith masters. Single spaced.
+
+Each new large section starts a new page.
+Big section headings centered, all caps, underlined.
+
+Sub-section headings indented 5 spaces, caps and lower case,
+underlined, one space, one dash, one space, then start
+sentence immediately.
+
+Complete underline in every case (no break between words).
+Two double spaces after large heads.
+
+Triple space on each side of equations.
+
+Sub-sub heads: Indent 8 spaces.
+
+Use periods for “I.B.M." and "M.I.T."
+
+Top line on Line 7 of Master.
+Bottom line 58
+
+Left Margin
+Right margin
+
+i! {using elite scale at top of magoen):
+
+7 ! .
+
+Page number on Line 61 of Master, space 87 on LWH typewriter.
+
+LWH typewriter: Master edge at 30, left margin 49, right at 107.
+4]
+
+Impression Indicator at 5.
+i Multiple Copy Control at "C".
+
+

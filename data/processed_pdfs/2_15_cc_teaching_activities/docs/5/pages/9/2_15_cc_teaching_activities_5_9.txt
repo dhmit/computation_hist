@@ -1,0 +1,63 @@
+XVI.
+
+XVii.
+
+AVIII.
+
+XiX.
+
+XXX .
+
+ 
+
+Preliminary Anglysis of an Inventory Control System
+
+A non-machine study of the many probiems arising in a
+systems study of the overall inventory controel problem.
+Detailed description is givem of the nsture of tramnsactioans
+involved, comsiderations involving volume of data, rate of
+information flow, neced for rearrangement of computational
+procedure, study of the effects of errors, breakdown, and
+interruptions, and finally a coansideration of problem areas
+of interest to management to provide better overall control.
+
+Solution of a Payroll Problem on the G50 Calculator
+
+A basic 650 progrmm was prepared for a hypothetical
+payroll involving 200 employees. The study included a
+congideration of piece-work as well as the regular payroll
+in which employees switch back and forth several times each.
+day. Th? usual items such as, regular pay, overtime pay, bond
+deduction, hospitalization, income tax, union dues, credit
+union, Community Chest end other miscellaneous deductions, were
+included.
+
+Hitchcock's Method for Svaluating the Roots of a Polynomial
+
+A basic 650 program was prepared fér evaluating~fhé roots
+of a polynomial, Particular emphasis was given To a con-
+gideration of polynomials which cannot be handied by this method.
+
+Study of Series-Parallel Switching Functions
+
+A basic 650 program was prepared for evaluating the
+switching functions of six or fewer variables. The program
+employed is a modification of the McCluskey Quine reduction
+procedure by means of which the preliminary implicants and
+minimum sum forms of the switching functions were obtained.
+The solutions of 86 different problems were performed during
+the course of this study.
+
+Solution of Spheriodal Antennse Equation Using the 650
+
+A NOPI program was prepared for the selution of this
+equation using Milne's predictor-coxrector formulae.
+
+650 Soclution of the Production Scheduling Problem
+
+A MITSS program was prepared for the solution of this
+problem which determined production curves which minimize cosis
+for a single arbitrary sales forecast. Graphical results were
+obtained which related the sensitivity of the solutions for
+various system parameters using a quadratic production cost
+function.

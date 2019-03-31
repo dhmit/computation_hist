@@ -1,0 +1,140 @@
+EY COHN STABLE LATTICES
+
+HARV 263
+
+   
+     
+  
+
+   
+  
+
+ 
+   
+
+  
+ 
+
+      
+  
+  
+
+         
+  
+   
+   
+   
+  
+
+ 
+
+262 where 85 is the Kronecker delta. Since A 7 0, system (3.4) must be equ;
+—sup M (). to system (3.2)..Note, howev.er, that system (3.4) does not conta; equivalent
+and Mo=M (o) @ | explicitly, and indeed the dimension can be determined a;) IIcthaln @y or m®
+(2.4) : esently defined usi.ng the geometrically simple n? X 8 matri?( of R;;™ where j, I takes on #? indices and % take: ol:?zki,f ; s
+The stable (attices & Vlne:)z;)pt}’l)e of relative maximum toreplace the (absolute) finite OF infinite. T R
+A (rather than t gmofft gfhe last formula. . Smc(;:, cozr‘:teil;? y,only g’ns :z:; h;cti)c eadg to thfi )system (3.11), the differentials
+R o aximum required m. als, First of all let us cczn&der thfe function p depend €sS y attice points x®,
+:‘::::5:335.:225555 f.’."" ,‘.A 3 DimeIlSiOn of 1ﬁ)er(;f it refers 1O the n-tuple ("(z"j)( )%)())ffa ﬁn}ite Or infinite 4, Free din.le.nsion. . Nov\.f if our set of (m ) took on all inte gral n-tuples
+RSN rned in formula (2 it. il be call ed F(k). (= F (m ,da, or cic, ogt. Now We (except the origin), a dlm.ensmn would be defined for these d| F®|. Its value will
+| cet indexed by X thenariables, leading t0 d,ffe.rentlals ’ifharoun al x'ed lattn'ce be called the free dimension of the ﬁx.ed lattice (ay;) with respect to the function
+regard the a4 as ‘ik)) emaining fixed In th1§ proces§. IYJE a toj‘f;l differentiy| ¢(x). We shall now see that the free dimension depends only on ¢ and not on the
+(a4y); the (m;) or ("fi; od. (Since we are excludmg lattlf:es where M(R) = 0, the | B - ' |
+dlFl d| F®)| is de | te- value sign creates 10 dlﬁ."lcult'les.) - : | First of all the definition of free d.lrpensmn would not change if the (m,®) !
+presence of the abSO_ u . n: The set (finite or m.ﬁmte) of di erer}tlals d| F(k)\ took on all real values (except the origin). To see this, we must ask if the rank .:.t'
+We now efine -dlmens .1 subset of ¢ differentials are linearly independent of the system R, becomes any greater if the (m;®) are real instead of integral ha
+A j“'; :}",' s of dimension q.lf a C‘;{tcﬁﬁerentials In particular, the set o.f g + 1differentialy Suppose a certain ¢ X ¢ minor of R;,® is non-vanishing for a real set of i (k))-
+1:':':'555':5}552‘5555:5',:':."E,"o:f'::'u'E:'I, and provideabas‘s fora 1 1) is of dimension ¢ if and only if the values of A® By homogeneity this depends on the 7 — 1 ratios of the 1 components of éacl.; ;_:,"
+'z d|F o) (o= L2 @®) G=12...,m) ) but certainly any such ratios can be approximated ’f
+»‘9 for which gl G 0 | arbitrarily closely by ratios from 7 components of integral lattice points. This il :
+) :.':g Z QRGIE| = is a simple consequence of the Dirichlet boxing-in principle. Hence this same 3
+'f’f,’.',".‘f.‘j,‘;'ﬂfif":' e ' (3.1 s g X ¢ minor will be non-vanishing for an integral set of (m;®). ’t’ »
+
+A, proportional to the components of a single
+faleristetsderdiir. i
+
+’ 'f-‘{tru‘t
+e Vsty
+
+,
+V.','
+
+-
+
+aee ofaielee! }'}'1"
+Aele " A8 ayeiele {:
+Jalit Wtale! ,o.,m'o;
+
+~
+v
+M
+A
+h
+.
+
+mension ONe (1.e., Thus in determining the free dimension from system (3.4) we may regard
+o 5. - R,® as a function of the free variables X* no longer subjected to membership
+SRR We next consider the actual C in a lattice. The coefficients A®), for instance, can be taken as polynomials in
+
+T Y A% d| F¥l =0 ¢® when ¢ is a rational function, by virtue of the fact that a polynomial in
+
+are a set of di
+ulation of dimension. We write the sum
+
+A L
+
+V;v’y'..
+LAAR
+AN
+
+o
+r 7
+
+2l
+LIrrecs
+
+vivie by
+ARV (3 11) : . : i
+. ' (¥) : several variables vanishes for all values of the variables only when it vanishes SRR
+Ryt e (k) ndependent of the 7 : : : e
+y over some finite set of indices. Cle.arly the 4 hmust fbe 'lns talilce identically. The free dimension will be denoted by Q. e
+: ' coordinates describing the F®; but in terms of the a¢y, 10T 1 : Our only general information about ¢ is that it is homogeneous; hence in S
+e © 9| F(k)l [ <ij<s formula (2.2) one of the variables a; can be cancelled out, making F dependent
+=0, TG on only #n2 — 1 of them. In a corresponding way, from formula (3.4), i
+It Ok (3.2) (k) aaij p g :':u
+N : .
+it where the partial derivatives, as agreed earlier, are evaluate(.i at some ﬁxeld > R,® 3, =0 -;
+oo lattice (as). But F® = ¢(x®)/A** where the x;® were given in formua it i
+,,,,, C ij). o e : . ]
+v 2.1) (with m¢= m®) and A = HauH: assumed positive for convenene by Euler’s theorem on homogeneous functions. Hence, clearly, Q < n? — 1.
+
+4R Now From the theory of implicit functions it follows that the free dimension is
+
+  
+ 
+ 
+    
+
+s | F| nm O ¢>(k)[ ® B0 m=1| ®)| e the minimum number of variables, on which the various F® really depend as |
+e g (33) 30, =4 ax,H e o= ;;A ¢ : the ay, vary, the (m,®) remaining fixed. (See equation (3.2).) (
+_I:lff;{ ' : . (k) S Xm)- . k _ g
+R where a'! means the cofactor of a;; in the matrix (a;;) and ¢ me;fcl ‘ ::flg 2| 5. Stable lattices. We first define a set of vectors {g N (k=1,2,...,
+fyiviy . ) al of s o . .
+".e,é’ S Thus we can take system (3.2), multiply by @, and sum over %, 0 | Q + 1) to be positively dependent if all the linear relations
+P e ol ge :
+S AT e e substitution of the result in (3.3 N
+,Zi'?z".iﬁfig‘:’?".'::::' (3.3), (5.1) E A% ® =0
+SRR YARR® =0 ®
+AP A S —
+’ .7 """ ',' ;'I:':.'r'- b o jl ' 3 Sies
+r ,,).‘. a t l.‘,.l'v"l.-v' L I| B . [
+:‘:;:;f:f:f»";::::o,‘;';:.;: (3.4) (k) 5 1 <J.1<’ are such that, A® = ¢ 4,%®, where A,® is a set of Q + 1 positive number?
+VIR G R aiis ; ' : : il : : : : i
+DA R® a|¢ I h @ 15 and ¢ is scalar. This definition is affine-invariant and it can be realized only 1
+AR s = 1o
+
+j
+
+A ns
+2 v
+e

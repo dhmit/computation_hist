@@ -1,0 +1,39 @@
+CORX
+
+6. Discussion of use of pilot selectors for sign
+control
+(ta) s (Ep)==P
+G, 604 Calculator
+1. Functional description of the calculator and its
+capacity.
+»  Timing chart and machine cycle charis.
+3, Planning charts and wiring diagrams for
+a) (L A) + (£ B)= s ¢
+p) (£a)  (=B)=
+
+¢) (EA)z2(sB)=
+
+t+
+
+P
+
+i+
+
+Q
+d) Quotient expansion
+4, Checking features
+a) DPBC, 2T, NB, etc.
+p) Marginal testing using veltage yariations.
+Hs Car d=Programmed Calculator
+1. Functional capabilities of the CPC.
+2. Block diagram of the CPC.
+3., Machine unit characteristics.
+4, Discussion of operational procedure for use of
+the B=-digit floating~dec1ma1 poard.
+a) Instruction card design.
+p) Detail card design.
+5§, Discussion of planning charts required for
+
+the solution of 2 poundary value problem on the CFC.
+
+NOV 21 1952

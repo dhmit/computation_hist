@@ -1,0 +1,809 @@
+MODULAR FUNCTIONS DEFINED BY
+PERTURBATION MAPPINGS
+
+HARVEY COHN
+
+Reprinted from
+
+Lectures on Functions of a Complex Variable, ed. Wilfred Kaplan et al.
+‘Ann Arbor: The University of Michigan Press, 1955)
+
+ 
+
+ 
+
+TR
+
+4
+7 oh
+aia tn
+
+[>
+
+ti
+
+Vis
+3
+
+EAI A
+
+] fb LE
+
+   
+
+ 
+
+L \ A 2h Sha DAT ad THER : wi ie k DN FORE gE " YE CEI ATAG
+re ¢ Ie 5 } . } f } x 3 fe LA fe - AL TAT 4 : : : 2 ket bE Le
+. 4 7 < : Si Su
+’ 2,4 a ¥
+AR
+: BT PIA
+
+ 
+
+tu)
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+
+a
+
+
+————
+
+—
+Stash
+
+To  —— -—
+
+a]
+
+-—
+
+hn.
+
+-——————
+——
+na
+~~
+
+——
+hh
+—
+-.
+> -
+-
+
+TLL Lh
+TILL IIA
+
+Eo
+a
+3 SESE
+
+4
+
+AS Cd AS re
+Le dee AL ILL SG
+rer
+
+(17s
+a
+dr
+
+ees
+eels
+Ce
+
+(
+Creris
+E32 g ea
+
+Tr
+-—
+
+Iv
+MMM
+ina
+
+MW
+
+hi
+
+In
+
+NL
+
+er
+<r
+
+as
+re
+Ee
+eds satya ls
+
+ry
+SE
+Sead
+
+=
+
+ 
+
+AX 2 ; -~
+As MEI
+
+MODULAR FUNCTIONS DEFINED BY
+PERTURBATION MAPPINGS*
+
+HARVEY COHN
+
+1. Introduction. There seem to be at least two different methods
+of defining invariants (z) for Fuchsian groups, such as the modular
+group, given by the transformations
+
+(1) z—z = (az+b)/(cz+d), ad—bc=1,
+
+where a, b, c¢, d are integers. The function I(2) is to satisfy the con-
+dition
+
+(2) I(z") = I(z) for Imz > 0.
+
+The first method is to define the so-called Eisenstein series,
+formed with terms arising from the denominators of the transforma-
+
+tions, such as
+3) Enz) = Yon (pz +)"
+
+summed (once) over each reduced fraction p/q (positive, negative,
+0/1, and 1/0). It is easily seen that for even m = 4 the series con-
+verges absolutely to a sum not identically zero and, from the con-
+
+vergence,
+4) Enz") = (cz + d)"En(2).
+
+To form a genuine invariant (with property (2)), we take a combina-
+tion [3] such as
+
+(5) Jz) = BE (@)/IE() — Es'(2)],
+
+giving J(z), the well-known invariant. It turns out that all in-
+variants are single-valued functions of J (2).
+
+The second method, due to Dedekind [1], is to start out with the
+fundamental domain, in the z-plane, and let 7(z) be an actual mapping
+function that identifies the portions of the boundary that correspond
+
+* Research sponsored by the Office of Ordnance Research, U. S. Army.
+341
+
+
+ARVEY COHN
+249 H
+
+: ing the group). In the c
+. transformations (generating the gre in the case
+union qertain 3 the fundamental domain is Do, in Figure 1
+
+u : Soa
+of ths modular EFOUD (extending to infinity), with sides AB
+0 D and AB’ matched by 2° = —1/z and
+5 sides Dy'B’ and DB matched by 27 —
+
+2 + 1. The function J(z) can be
+found explicitly by means of the hy-
+
+LULL 2 pergeometric function [2].
+D, Ce. [De 'TVE-A Now these two methods have been
+
+| generalized by Poincaré [4] and Fricke-
+| Klein [2], respectively, to situations
+|
+
+BC
+
+TY ES
+
+Te where finding the most general invar-
+
+jant is less simple. We here restrict
+
+~Jda ourselves to the modular group, hop-
+
+ing to make a general approach on a
+
+? QD Q later occasion. Our purpose now is to
+
+0 indicate a basis for liaison between
+
+T methods by showing that the Eisen-
+
+Z- plane stein series Fy(z) can be defined through
+
+Fig. 1 the conformal mapping of a region
+
+with a perturbation boundary (the in-
+
+dividual term of the Eisenstein series being regarded as the contribu-
+
+tion of a specific “perturbation circle”). Although the modular-
+
+function methods are quite classical, critical use is made of the more
+current idea of variation of the boundary.’
+
+———
+
+om,
+
+I
+ad
+
+2. The perturbation map. We consider the perturbation caused
+to the fundamental domain Dp by removing the portion above the line
+Imz = 1/e(e < 1). The remaining (finite) portion, 9D. , is mapped
+by the modular group z — 2" (of equation (1)) onto a portion of the
+upper half z-plane, II, , which is constructed by removing from the
+upper half z-plane the interior of a circle called C,/,(¢), tangent to the
+real axis at p/q (31/0) and of diameter ¢/¢°. (For consistency, “the
+interior of Cip(e)” denotes the region Imz > 1/¢). Thus II. is
+a simply connected region of the z-plane, invariant under the modular
+group. (See Fig. 1.)
+
+We now define { = ¢.(2) to be the mapping of II. onto the upper
+
+ 
+
+; Mr. D. C. Spencer informs me of work along such lines by M. Schiffer and
+imself.
+
+MODULAR FUNCTIONS 343
+
+half ¢{-plane, with point and directions fixed at z — =1 (d
+We define the perturbation function . , ([dS/dz > 0).
+
+6) Plime imi — 2.
+TT" e~0 €
+
+The existence of such a limit is suggested by the next section which
+indicates the connection with the Eisenstein series. The proof of its
+existence requires the major portion of this paper.
+
+3. Approximation by superposition. The series expansion P(z)
+is derived first from the assumption that each perturbing circle is
+approximately independent of the others. For instance, if just
+(the interior of) one circle Cy/,(e) were deleted from the upper half
+z-plane, the corresponding mapping function {‘*’?(z) (with fixed
+direction element at 7) would easily be given by
+
+Ds i Oe LP 2 PNG —Y
+
+sinh——=%_1 -<
+2(gz — p)(—q¢ — p)
+
+Then, letting ¢ — 0, we should have the approximation
+29 2
+(z" + 1)(g + p2)
+(8) CP) == YN
+12 27 (p — ¢2)(P* + ¢*)°
+The terms in ¢ are the “perturbation terms,” which (see equation
+(7)) we should ‘superimpose’ to obtain formally:
+
+("+ 1)(g + p2)
+9 Pz) = oe le
+2 BD = NET
+or, reducing the general term, we should find
+(10) P(e) = 2 — 52/2 — 2a 20104 P+"
+
+Rather than justify the approximation directly (even on the
+assumption that the limit (6) exists), we shall give what we hope is a
+more revealing verification by deeper methods, more characteristic of
+the theory of modular functions. In the meantime we observe, term
+
+by term,
+(11) d’P(2)/dz’ = 6Ei(2),
+
+
+4 £5
+TEL
+
+1.3
+
+2
+wv
+v
+
+“
+EE
+
+-
+A 5
+es
+
+-—
+
+a
+4.
+
+ 
+
+ 
+
+Y COHN
+244 HARVE
+
+which is the promised connection between the perturbation map and
+
+dicated Eisenstein series. :
+i I Sings content with perturbation methods, we could obtain
+E4(2) in terms of a fifth derivative (where the perturbation circle has
+Tooter ¢/q etc.). But since the perturbed upper half plane
+
+would not be invariant under the modular group, modular functions
+would be inapplicable.
+
+4, Approximate fundamental : domain. The preceding series
+expansions, in addition to requiring a majorant argument, are
+dependent on the special nature of the perturbation. The expansion
+(10) will therefore be proved by a more general method. Since the
+arguments are profuse and classical, it is hoped that a minimum of
+detail will prove satisfactory.
+
+Returning to the perturbation map of § 2, we note that since the
+transformation z — 2" must map the upper half {-plane onto itself,
+
+this mapping must be via what we shall call 7'(e), a linear fractional
+
+transformation. In other words, referring to the symbols in equa-
+
+tion (1),
+
+12) = = (as + b/s + do), ade — bee = 1,
+where, as ¢ — 0, it can be seen that
+
+(13) <2 a — a, be — b, Ce — C, d.— d.
+
+We shall differentiate equation (12) with respect to ¢ (at e = 0) and
+obtain the transformations of P(z), as defined in equation (6), under
+
+the modular group. (See § 7.)
+
+>
+
+———————— —
+>
+3
+
+ol.-2¢
+\
+
+2]
+
+og
+
+AA
+
+-
+LL ey
+
+»
+
+  
+
+'
+
+MODULAR FUNCTIONS 345
+
+ 
+ 
+       
+
+LLY
+
+ia
+
+Specifically, the transformation groy
+fundamental domain which, in the — . ae pe :
+A, shown in Figure 2, (where 4,'8B.:C...D, become ee Hay
+spectively). We can see this by noting that a mapping Hs 3 ;
+A, (making the vertices correspond) can be reflected to rooie 3
+mapping of the “perturbed” upper half z-plane, II, , onto th :
+half {-plane, with fixed conditions at 7. Lo a
+
+Now the region A, has one parameter » defined by
+(14a) B= ttm
+
+cx
+
+  
+
+Py
+ach
+
+-
+v
+
+ 
+
+)
+
+so that n—>0as e— 0. The condition that the
+
+angle at 8 i i
+7/3 determines the vertices Bie 244 is precisely
+
+(14b) —& = 6 V3 a” — 1 == V3 1 V/3n
+
+          
+      
+    
+    
+  
+ 
+  
+ 
+    
+      
+ 
+ 
+
+—_— 2 > W— — — 2 — le as ;
+n 12 ha, A Hi ‘he
+ILA A 4 ¢ yd
+v3 ina
+2. deaatatatate ’ oD
+(149 ~o'=o=YSml py Vir, HEA
+2 2 2 2 4 -. ’ ba
+HEEENOANOG OO MAM
+nana
+3 TY 3
+and —§" = B, the complex-conjugate of 6. Ana,
+1 1 11d ih) anata, iti hdtel
+To establish the relation between ¢ and », we use the conformal gE a
+equivalence of the “rectangles” , hey
+iW ) J
+ELE Sh. Gen
+2 m 3.0 Hal
+2 Tan pVE4p+O(n) an
+(anaiaiale
+he)
+
+S. Approximate mapping. We
+
+I FE 27
+$
+
+~— i
+
+now consider a third plane, namely, |
+the y-plane, in which lie the values
+of the function |
+
+(15) ¢ = bf ir Yet!
+n
+
+|
+
+| i L
+
+Ia ; 1 i:
+> ii
+|
+
+|
+i]
+
+Me : 4 fe
+i Vol ef alle efa)2)
+i Ga i
+
+J fafale)
+
+—————————— ———
+
+  
+
+  
+
+ 
+ 
+
+= . 1 5 A,
+Vie~t beled li
+AE THO) bg 43 ea
+It maps the region A, onto the re- 7 ge Cin i y i are
+. . . . \ saat!
+gion (in Fig. 3) ®,’. If we choose ; \ ee a 7
+ee — — ite
+2 HH {od ] 'r, oh
+(16) 7 = /3é/8, ire Sq
+y- plane gta de 0) fel)
+3 i borin of
+then we find that ©,” in the y-plane Fig. 3 i a wo
+
+-
+-
+
+eat
+
+oh
+-
+
+~
+
+and D, in the z-plane have bound-
+
+artes within O(5) of one another and a point fixed to within O(n)
+
+with a (perfectly) fixed direction. ih
+The use of an “approximate mapping” is certainly not difficult
+
+-—
+>t.)
+
+-~
+-~
+-~
+
+a
+i
+
+Co
+
+3
+
+5
+
+23
+-
+
+~
+
+i
+
+a,
+
+-
+
+-
+
+(Fw
+
+ 
+
+-
+
+ 
+ 
+
+or
+-
+-
+
+ew
+
+-
+-——
+——-
+
+-
+-
+
+Le
+
+v.17
+canals ate itty ie
+Cae fit ¥i Pied
+ANNA ITI Ye ro
+dail 4 (d
+
+
+PE
+
+ 
+
+ 
+
+246 HARVEY COHN
+
+: atifv. Si or instance, the maximum-minimum principle can be
+op TS function to show that the proximity of the
+2p st provide an estimate for the proximity of the interior
+mapping. The fact that the (approximately) fixed point, 2, lies on
+the boundary causes DO trouble, Sincowe should apply the approxima-
+tions in any case not to D, and OD; but to, say, D. and D,, which
+are formed by reflecting each fundamental domain about its boundary
+
+ares often enough to obtain larger domains in relation to which
+9, and Dy’ would be interior.
+
+boundaries mu
+
+6. Order of magnitude. From the value of n in equation (16)
+it follows that for z in D,
+(17) y= z+ 0(n).
+
+Using the power-series expansion of the logarithm, we find that ¢ is
+approximated by { + 0(q¢*). Thus equation (17) leads to
+
+(18) ¢ + Ont) = z + O(n),
+and from this,
+(19) © — 2)/¢ = 0th),
+
+which is 0(z’) as € — 0.
+
+Now from (19) the limit (6), defining P(z), must exist at least
+for a subsequence of e. The uniqueness of the limit will follow,
+later, from the fact that we are dealing with a regular function, P(2),
+completely characterized by certain transformation equations (21%)
+and (22%) (below), together with the estimate (from (19)),
+
+(20) P(z) = 0(2))
+as z — 1° In OH, .
+
+7. Transformation equations. From the definition of ¢.(z) In
+§ 2, it follows immediately that
+(21) t(—1/2) = —1/t(2).
+To obtain the linear transformation representing {«(z + 1), we note
+that, in Figure 2, 2” = z + 1 must map the arc »'f’ onto wf. Thus
+we find
+Glet+1) —)B =P _ (2) = NE — F)
+
+22 =
+en (tz +1) — BB —w) (da) + BIE — o')
+
+ 
+
+MODULAR FUNCTIONS 347
+Next, using the values given in § 5 together with equations (6) and
+
+(16), we obtain in a straightforward manner from the first-order
+terms in 7:
+
+(21%) P(—1/z) = P(z)/<,
+(22%) Pz +1) = P(2) + 32" + 32 — 3.
+More generally, by this technique we see that
+ol SEELEY
+cz + d (cz + d)? ’
+
+where ¢(z) is a quadratic polynomial. (Here q(z)/(cz + Bilis er
+sentially 32"“/a¢” at ¢ = 0.)
+
+8. Final identification of the perturbation function. Here, armed
+with equations (20), (21*), and (22*), we can establish the expansion
+(10). Let the right-hand side of (10) be denoted by S(z). It can be
+formally verified that S(z) satisfies properties (20), (21*), and (22%).
+Thus, letting U(z) = P(z) — S(z), we find
+
+(24) U(—-1/2) = U_x)/7*
+(25) Uiz+1) = Uz)
+(26) UR) = 0F°) as z— iw,
+
+and, in addition, U(z) is regular when Im z > 0.
+Now we assert that such a U(z) is identically zero. For since
+the function ¢(z) = U(z)J'(z) is invariant under the modular group,
+by conditions (24) and (25), it is a single-valued function of J(z).
+Furthermore, by condition (26), ¢(z) is not ‘large enough” to be
+anything but linear, i.e., ¢(z) = pJ(2) + 0, for constants p and o.
+Finally, the constants p, ¢ both vanish since #(z) = 0 at z = 7 and
+z = 1 + 44/3/2. This establishes the expansion (10) (which is,
+however, most naturally derived by the heuristic method of § 3).
+
+BIBLIOGRAPHY
+
+1. DepEKIND, R. Schreiben an Herrn Borchardt uber die Theorie der ellipti-
+schen Modulfunktionen. Ges. Math. Werke, I, 174-201. Braun-
+
+schweig, 1930.
+
+‘
+--
++ yy
+
+Tete
+At liii lis iota
+it Ce et or
+
+,
+holo
+
+-
+A
+\
+1)
+I
+-
+Pl . Ah
+
+23s
+x
+
+
+EE EE et et re el ET 3
+FREI RERI TESST ?
+
+ 
+
+A API AB IIIA
+Br TRL a tt}
+SY FRILL FEN
+
+CSE PE SESE BESS ES
+
+ 
+
+me aw
+
+ 
+
+SEN EC EES
+
+Emit
+
+ESTO
+
+Fr
+
+dr aS
+
+DI ra oz tr AR A
+
+$ a)
+Se =
+2 Fe
+Pei
+© e , 2
+554.7
+A a OS
+Wor
+0 g -
+§ 9H
+2.882
+& 88 £
+Qo Qpd »
+3 4&4 f |
+5 g § d
+=> Re EE ;
+RX Sg 83 ¢ |
+S gol is ov B
+QV
+> ~ 88 2
+sw 53 Q B
+ba gH "3
+A © = hy
+NN 3338 = :
+> S SB :
+bo HIRE
+= £3 8
+Z LE ® < i
+Ho S - |
+a5 2 5 a :
+© QQ BH ;
+Mg VBE WwW HO
+8 = 8 = >
+AS S88 kK mS §
+ZS >» 8 Him
+<§ ois PE
+~~ {ng
+~ = ; a RR o ;
+pd Ag ~~. Za
+~~ 3 Be ME |
+oS 3 rt < 1]
+SN Bg 32 BA
+Z
+Ly
+o
+~~
+st
+
+2. FRICKE,
+3. FUETER,
+
+

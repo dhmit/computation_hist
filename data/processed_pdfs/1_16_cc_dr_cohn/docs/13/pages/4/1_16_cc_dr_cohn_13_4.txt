@@ -1,0 +1,205 @@
+HARVEY COHN
+264 1on 0. An equivalent definition is that an arbitrary
+i on (. _ | ‘
+i hzg,-gfrni:z:ilonal space determined by the {8®}, will hay, 4
+@ the ¢-dI
+
+the set :
+(in the sense of any ordinary scalar product) on at Jeyg
+in
+
+vector in ;
+positive projection
+
+(k) e, "
+one 8" ‘or definitio
+ajor
+- come to the m :
+We now € o O = (a*y) 1s ca
+
+dimension Q. A la.ttl e
+n-tuples (m (@) exist suc
+
+(5.2) |F(m,®, )] = M) >0
+J.
+
+and
+
+(5.3) '
+We next develop the most 1
+
+free dimension Q, we can, by
+
+n. Assume the function ¢ to have the free
+lled stable with respect to ¢ if 041
+
+(k=12,...,041
+the d|F )| are positively dependent at £*.
+
+mportant property of the stable lattice. For the
+the implicit function theorem select n* = (Q 4.,
+
+STABLE LATTICES
+265
+. over Q + 1 vectors satisfying the further condition (5.3
+to'dlsthe criterion of stability by referring it to the agyres
+h{yf ing the condition (5.2).
+Sat[l,set) the finite or infinite set of vectors {w} determine
+gjons, 11 which uni.t ba_SiS vectors and ‘any Orc.linal‘y sc.alar product are introduced
+Then the set (w} is said .to positively span tgls space if it has both the (Projectz‘on).
+roperty that every arbitrary vector of &€ has a positive projection on at least
+e vector of (w} and the (indep enden.ce) property that every Q vectors of (W)
+re linearly independent. (The.p.ropertxes are easily seen tg he affine-invariant )
+Now every set of Q + 1 positively dependent vectors will Positively span it.s
+space &% (See. §5.) Conversely, coery set of ve:’c{ors \W| that positively spans the
+space ©° conains Q + 1 vectors which are positively dependent. To see this, note
+(hat the set {W] determines a set of end-points of the various vectors, whose
+
+). We shall sim-
+gregate of g vectors
+
+A space &9 of Q dimen.
+
+e ss i
+
+Pt
+PRIt
+
+Y
+- .
+-
+
+-
+
+5
+
+onvex closure, a polytope B in ©9, contains the origin by the projection pro-
+e ” perty. (The set {w} may be considered as a finite set by the compactness of the
+megiZQaliiedyie el 9k :
+
+s
+
+Q“
+
+220,
+
+PR Lt A
+(At e Lot ins
+
+variables
+
+integral or even real (see §4). Having found such variables, we describe the
+in
+
+F® Jocally in terms of just the by, in the neighborhood of b*;, ¢*; (the variables course determine the positively dependent vectors.
+‘ corresponding to @*1y)- We define The applications that follow (see §9) will stem from the following result:
+A R ;;.,&] 0¥ — <>—3 (b, — b* )2)i ‘ Let the (infinite) set of vectors {v} of ©? contain vectors arbitrarily close in
+i ’vJ':""..:\d e : (5.4) st = = i direction to 2Q vectors consisting of Q) basis vectors and their negatives. We
+AT shall call this latter configuration a unit star. (Compare the “eutactic star' of
+Coxeter [2, p. 401].) Suppose that a subsequence of {v} can be selected which
+comes increasingly close in direction to any designated one of the 2Q vectors
+of the unit star, without coinciding in direction. Let us further suppose that the
+last property still holds if we exclude from consideration all vectors of {v}
+
+contain the origin (by the independence property). These Q + 1 vertices of
+
+by, . - = hypersphere in ©9.) But the polytope P can then be reduced to a single simplex ih
+
+functionally equivalent to the ayy and such that the |F®| actually depend of 0 + 1 vertices which contains the origin, if we merely triangulate B, intro g
+
+unc J 2 s = A . . J z y S )
+(locally) on the b; only, (1.e., 9| F®|/dc; = 0), for all non-zero n-tuples (m®) ducing no new vertices and recalling that the triangulating hyperplanes will not
+73
+
+B
+
+L
+
+o
+
+v
+i i
+,Qf h'"t‘t'-'-\'v-"'-’u't‘»"u““’“
+
+s
+
+b
+
+l'.'.'l'l'l'l"'l'O‘Q'Q'i’.‘NW;\
+4 "y
+
+as the distance between lattices (corresponding to the local coordinate system).
+Then if a lattice & = (a*y;) is stable with respect to the function ¢ of free
+dimension Q, then an ¢ > 0 and an 7 > 0 exist together with Q 4+ 1 #n-tuples
+m®) (k=1,2,...,0+1) such that
+
+i
+)
+"/l‘f\
+a2 7a7s
+s alals)
+.brlf
+
+S -
+’f't:‘
+£ e T e
+ST L i Lr:
+
+T
+s
+
+L4
+
+3
+3 2 S
+e
+Lo
+
+-
+
+Sl et
+
+(5.2) |[F(m®, 8*)I = M(¥%) that lie in an arbitrary set of fixed hyperplanes (through the origin). Then 3
+and lhe set {V} has a subset that positively spans S and hence a further subset of Q + 1
+(5.31) |F (m®, Q)l < |F (m®, ‘3*)| = n[Q = 53*] positively dependent vectors.
+
+| To see this, first note that the projection property is easy to obtain from the
+| unit star. To establish the independence property we select as our subset of
+V] the sequence of vectors chosen by the following inductive procedure:
+
+for some index k depending on £ providing only that |2 — *| < e.
+Conversely, if a lattice has these properties for some ¢, 7 and Q + 1 n-tuples
+as described, then the lattice is stable.
+
+ 
+
+ 
+
+This is the type of property that Mahler [7] established for certain cases
+where his theory of “bounded reducibility’’ applies. The property is an easy
+consequence of the definition of stability given above. As a simple corollary
+we note that when £ is stable, then for some positive ¢, 5, and all |2 — @ < ¢
+we have M(®) < M(*) — 77[8 - g*l.
+
+T.hus, ifl a sense, M(£*) is a local maximum by virtue of the Q + 1 specific
+lattice points for which the value is assumed.
+
+6.- fP.OSItlve span. Now there are often infinitely many vectors of a lattic
+satistying condition (5.2) for stability. Hence it would seem precarious to expect
+
+The vectors are to come increasingly close to the 2Q vectors of the unit star in
+“me order (without coinciding). Furthermore each vector is selected to be
+inearly independent of the set consisting of earlier chosen vectors (if any)
+ogether with the 2Q vectors of the unit star. This process will at every step
+'ef‘"e cones about the vectors of the unit star inside one of which the next vector
+0l the S€quence may be chosen.
+
+I. Stability of the norm in a module. Probably the most investigated
+
+MOl ey _ ) le
+tam(.]on\ex star body is that given by ¢(x) = x1 %2 . .
+
+. x, and the most impor-
+
+s : : S i amely
+attices for it are those for which each row of the matrix in (2.1) namely

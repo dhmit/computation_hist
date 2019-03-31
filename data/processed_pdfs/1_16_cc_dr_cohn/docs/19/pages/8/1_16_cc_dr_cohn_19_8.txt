@@ -1,0 +1,123 @@
+ITARVEY COHN. SOME DIOPHANTINE ASPR(qg 0
+414 . .
+f ] . . oREM. If 6 is an irrat;
+by the distance Z-—P"/q"'| is less than the sum | 2—g THE f tonal mumber whog,
+the other >
+
+    
+
+This justifies the relation (12b). Dividing (12a) by ot tend to in/ini.ty with n, then g4 suffici
+final estimate pill include infinitely many points equivalent yp g, the
+
+prea,gsi,gned pownt of the upper half plane.
+
+46— pu/tn -
+(12b), we obtain the
+
+_ ) A) =2 (ansa T LI rom elementary considerat; :
+(12) »( 30 21 2l N2 . (From ary considerations thjs
+< |—2qu+pn|*/|2 | <2+ N5 annats to converge to 6). For the proof of 4
+
+2 neighborhood o 6
+modulgy group to q
+
+would haye
+the points
+nltely ]nan}r
+
+. : 18 the :
+3 . veis 1, = f + f[,(jn"-', which belong to p"/Qn- Then Ol‘em, COllSldel.
+functions near irrational singularities. We ot f i
+
+9. Behavior of theta hounded partial quotients, the images 4/,
+
+lf an+1 Tuns over ]Hﬁ
+be an jrrational number
+
+whose continued fraction has bounded partia| of 4, under th
+
+b = (p2— @)/ (— @z + p»), where Pup — g /=1 le transformation
+« @ are known to form a non-enumerable set of : : : o= Wil Jie in g hors
+: h numbers § are known - a1 stri by (11), with X taken g : i a hori-
+e . ntaining all real quadratic irrationals among others. We zonta P g 2 S (say) unity. If 2% ig the
+
+measure zero, cont O
+
+point of this theorem, let p be the smallest
+circles about 2*,2* £1,2+2 ...
+
+Preassigned
+
+. ‘1 0o Q g 3 .‘. o 111 hic 1 .
+e interested in the function Gom(z) since some of the singularities of h the Wioh of
+wer '
+
+. . - 0 3 e (
+
+radius for
+
+- | of non-euclideap ra
+whole strip €. Then if we draw about the points 4, cir
+
+radius p, we should still be able to incluge these cir
+
+dius p covers the
+
+arrv out the analysis for the larger class of numbers referred cles of non-euclidean,
+(u . ‘l‘v ; ) o S i
+
+just as well
+
+ 
+
+33
+cles in a sufficiently vi ;
+: : ntly wide , Aol ]
+2z neighborhood. In fact, if we take i : g - o
+al)ove. : . . > - St()lé llelé 2 e lnstead Of A » . w\?l"l‘ 2 ,' a'l' > 'o:a'o ) ’ Iy /. , P
+2 7 3o+ a theta function of finite or infinite degree, without poles, : 6+ 1 >0, th A8 Lonimnously moving AR A
+We consider a thete T ' ’ g ) /(s ) point z = + 1, g » then as » approaches zerg continuously, the non T el
+M v hanoe of varis ) R = - — ' . . A s R 3 = (Wl derarinarieis b A i i e 2 T ol ol
+3 and of order m. Under the change of vai 1able z (pz—q’)/ : qnZ + Pa), euclidean circles of radius p about this moving point Sweep out g s,e A ..,.;.;,;:;.v:{,f:,;:,:,',;,';.';,;.;.‘,,,'.;./,,.;,A,;r
+9 T £ R -2'" If . . C 01‘ a “‘.‘l'l 4 4 "c,: e -"r.’:‘: " A""'
+.:4_ P & . 1 1N : Z) 3 Z ) ( q,,Z + [)n . % 3 3 S = . 2 ) b0 4, ‘ 1y 12} ’,f
+SEEe i where p'pa—¢'qn=1, We st I s A ’ fhaiioh andiatr owing to the invariance of non-euclidean distance under homothetic trans \
+BULIER : : i - 8 SS : . Tans-
+E}-‘:gs»ﬁa approaches 6 in a Stolz neighborhood of slope le h( bl formation of the z-plane about 4. Q.ED
+FEvei : - | Inri(g— where z belongs - edells
+o z:“ l)ounded ])}lrt]al quot.len’[s, then (—— GnZz 1 [’n) —~ (Z 6) . ) Thus we can not replace (13) by Ggm(Z) ,\-/\ (Z*G)—g"‘ unless e
+: : . - alitv (12 1 mequality (11) we see , : : By
+fo pa/gn. This follows from inequality (12). From 1 qf } 1 ( 1 / since otherwise, as noted in 5, @, (z) has zeros. In fact, if 8 has bounded
+3 . ’ ] 1 ‘
+AT &, 1 ‘thin certai making f(2') = 0 (1), if 2z belongs to pu/qu. e . e .
+e T e that N2 les within certain bounds anx p-. ( ]( 7 without Poleg par fal qu_otwnl,g’ we can h(we f(z) x (2—0) m ogn any Stolz 'n-etghborhood
+oo | g - F10Nns ¢ der m and WILRo : . . : A
+A Thus f(z) = 0(z— 60)™ for theta functions of order 1 e of 8 1f and only if f(z) is without zeros and poles, which, as noted in 5, feaa Ty
+~ae aw el °48 s, we could write . ' e e
+If we know that f(z) has no zeros as well as no poles, < means that the following holds: st "-"-."-"EI-,"
+. . -m o e . A g
+f(#') = 1, in the above paragraph, whence f(z) = (z—6)™. Applying the G (2) B
+results to Gm(2), (theta functions without poles and of order 2m), we find: | (14) f(2) = Gya(2)¥exp 9(J(2)),
+(13) Gon(2) = O (2— 6)2", m =2, . where g(w) 1s an entire function of w and k is an integer. ReREr,
+and We can supplement the last result by noting that a Poincaré theta [ aiairins
+! ,. = AN =12 . 5 ‘ $44)
+(13a) ('127(‘) =e—0) function f(z) can behave s (z— 6)*, s real, as z—> 6 in any arbitrary Stolz Sha
+. ; : S neighborhood only if @ is rational and f(z) is of degree zero or @ is irrational
+where 6 is an irrational number with bounded partial quotients, and z—0 "5 = ; f( )_ B e ot
+in a Stolz neighborhood with bounded partial quotients and f(z) is of the form given in equation
+m a Stolz neighborhood. : ; : : g
+2 (14) above. The proof of this last statement is somewhat tedious, involving
+10. Ch : ¢ ! R esponding singu- the examination of a number of special cases. It will be omitted as it
+g aracterization of a real number € CoIr Sl - , rertically ane
+{art We shall ] 144 4 bis 4 hat extent the 'equires no new methods. What we do is let z approach 6 vertically and
+arity. ‘e shall see in the concluding paragraphs to what ext : : . ries values
+beh y. ; (1 T 3 = ll = }] 4+ and the function. show that if @ does not fall into one of the above categories, then the ve :
+ehaviors at real simgularities determine the singularity and U ' e . : sdelv mi h an asymptotic
+o = . Ly J e e 3ad partisl tiken by the theta function must vary too widely to permit such an asymp
+First we shall see that the behavior near irrationals with bounded ] : behavio
+SRl ] . yiie ’ P , estimation g 10T,
+quotients is seldom bhetter than a large O estimation.: In fact the estin
+
+- ] S 9 8 : Wintner 7]. who
+) | : hese last results are 1n ("Ontraat with a result of [
+( o) can not bhe nn]n-()\.(.d to the T\'l"rr‘ (13,’):1) e loRatmatt T

@@ -1,0 +1,33 @@
+- CC-148
+
+TABLE OF CONTENTS
+
+Page
+Preface 1
+Table of Contents 2
+1, Introduction 3
+2, Basic Use of MOP and MAC 3
+3. Legal Macro Names and Arguments 4
+4, The Pseudo-operation IRP A 5
+5. The Pseudo-operation IFF P,A B 6
+6. The Pseudo-operation ETIC 7
+7, Created Symbols 7
+8. Added Details on MOP 8
+9, Added Details on IRP 9
+10, Added Details om MAC a
+11, Substitutable Operation Codes 10
+12, BCD Within Macro Defimitions 10
+13, DEC, OCT, and OFD Within Macro Definitions 11
+14, Printing of Maecros - PMC 12
+15, Remote Insertion of Progrem Segments - RKT 12
+16. Additional Pseudo-operation Facilities - PCC, SAK, 13
+
+Qualifiers ,RDPF
+
+17, Examples Using IFP - Recursion 14
+18, Examples Using IRP - List-Processing 16
+19, The Use of Macros for Symbol Hanipulation 18
+20, Conclusion 20
+
+APPENDIX 1, The Macro Skeletom Table and the Pushdown List al
+APPENDIX 2, The Expansion of Nested Macros 22

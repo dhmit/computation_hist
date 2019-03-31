@@ -1,0 +1,165 @@
+Prob. bo. Lab.
+1064 RLE
+1088 OR
+1143 LNS
+1150 LMS
+1157 LNS
+1160 L8IS
+1176 LNS
+1178 RLE
+1181 LNS
+1184 RLE
+1190 RLE
+1191 RLE
+1193 RLE
+1194 LS
+1196 RLE
+1197 LS
+1198 LNS
+1199 RLE
+1200 RLE
+Laboratory
+
+Hours Employed
+Hours Used
+
+Computing
+Overhead
+Sick Leave
+Vacation
+Classes
+
+Total
+
+Hours Mot Used
+Hours Overdrawn
+Cumulative Hours MNot Used
+Cumulative Hours Overdrawn
+
+Joint Computing Group
+
+Time Record
+
+June, 1961
+
+Requested by
+
+G. Wolga
+
+H. Galliher
+E. Lomon
+
+H. Enge
+
+G. Schappert
+C. Yang~-Hu
+R. Freeman
+J. Hershfield
+E. Loh
+
+J. Coccoli
+R. Weiss
+
+A. Bers
+
+P. Chorney
+G. Guttrich
+G. Gerstein
+B. Bailey
+F. Sharb
+
+D. Morse
+
+H. Fields
+
+Time Distribution
+
+RLE
+
+672
+
+422
+150
+
+16
+
+588
+
+84
+
+1259
+
+August 30, 1961
+
+Heurs in June
+
+60
+&
+179
+24
+16
+84
+176
+1
+28
+15
+
+576 0
+
+602
+
+o
+o OCOO0O
+
+159
+
+S
+
+454
+
+3191
+
+Total Hours
+
+378
+2903
+2487
+
+421
+1219
+
+908
+1368
+
+201
+
+237
+
+119
+
+32
+
+259
+
+243
+
+103
+
+123
+
+46
+35
+61
+16
+
+OR
+
+88
+
+wooondH
+
+13
+
+75
+
+1478

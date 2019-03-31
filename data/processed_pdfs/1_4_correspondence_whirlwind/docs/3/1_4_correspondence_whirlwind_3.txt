@@ -1,0 +1,177 @@
+DEPARTMENT OF THE NAVY
+: OFFICE OF NAVAL RESEARCH
+WASHINGTON 25, D. C. REPLY REFERTO
+ONR:430:FIW: jl
+Ser
+
+18619
+
+Professor P, M, Morse «8 JUL 19%;
+Department of Physics
+
+Mass, Institute of Technology
+
+Cambridge, Massachusetts
+
+Dear Professor Morse:
+
+Ever since our conference early in May, the problems of ONR's Whirlwind
+Program, as they emerged at that time, have been very much on my mind, By
+now, a number of ideas are beginning to crystallize which T should like to
+set down in order to get your reaction and comments,
+
+In the first place, I should like to recommend a drastic reduction, put into
+effect in the course of the next few months, as regards charges to our con=-
+tract for assistance and consultation furnished to current and prospective
+users of the machine, A fraction of a single person's time, and perhaps
+
+that even distributed over severel people, should be enough, To an
+imaginative young scientist with original ideas in his own field of interest,
+-—and it is only this type of person which our contract should preeminently
+serve to support, =a sizeable amount of such guidance and consulting work
+must be rather deadening, Presumably MIT's academic budget could be tapped,
+beginning as of this fall, to defray the cost of giving the periodic short
+@urseon programming and coding if past experience has shown it to be
+particularly helpful and effective, Beyond this, the user, especially if
+engaged in academic rather than assigned research, might well be left to do
+most of the work himself, —-making use of established regular courses and of
+the available literature and msnuals, It is probably true that he would then
+have to spend somewhat longer on preparing his problem, partly by having to
+learn more about machine operation, partly by wasting more time in debugging
+his program, I think it would be unfortunate to consider this a reduction of
+efficiency in the use of research personnel, such a concept of efficiency
+being really not appropriate to an academic institution, The recommended
+arrangement might also have a beneficial effect as regards machine accessibil=-
+ity, favoring those with really consuming interests in the field over those
+with the big, so-called urgent problems,
+
+Hand in hand with this reduction in the help, extended to machine users as
+part of the ONR program, I should like to recommend that charges be made for
+the use of the machine on problems arising from projects which MIT is
+undertaking mainly at the convenience of industrial concerns or Government
+agencies, I think that the Committee on Machine Computations should be in a
+position to decide, in the case of problems having their origin in sponsored
+research, when to recommend that such a charge be levied and when not,
+Lerge-scale machines on other campuses are earning annually from $30,000 to
+more than $50,000 in this fashion, These funds can then be used to hire
+
+
+ONR:430:FJWs j1
+
+18618
+“8 JN
+
+personnel for the purpose of consulting with and helping such service users in
+prepering and running their problems, In this way They will get their money's
+worth, coming to the machine -=-as they generally dognot because they want to
+but because they have to, and being interested therefore in getting their re=-
+sults with as little bother to themselves as possible, At the same time the
+
+positions thus created would make good jobs for less gifted students, training
+them to become solid computer technicians,
+
+Professor P, M, Morse
+
+A third and somewhat more long-range recommendation would be that of upgrading
+the qualifications for the research assistantships allocated by the Committee
+on Machine Computations, Since the commitments for the academic year 1954-1955
+are already firm, this would affect only the selections made for the year
+following, The field of computer applications is rapidly ceasing to be so
+unknown and of such novelty as to require special inducements in order to
+attract graduate students during their beginning years, I should like to pro-
+pose that the holders of these research assistantships during the year 1955-1956
+be of such a caliber that they can reasonably be expected to have produced a
+substantial research paper for publication by the end of the year. In case the
+body of advanced graduate students on hand at MIT provides an insufficient
+number of such candidates, it might be possible and should definitely be worth-
+while to go beyond the MIT campus in the selection of incumbents, There must
+be a growing number of outstanding young researchers on less well equipped
+campuses, whose work is forcing them to take an even more substantial interest
+in the applications of high-speed computers, Even so we should anticipate
+
+that the total number of awards will be smaller than for the coming year,
+
+My fourth recommendation, finally, is of even longer range. If, in the long
+run, MIT's Digital Computer Laboratory is to compete, as far as the scientific
+substance of its work is concerned, with what is being done even now and will
+certainly be done in the near future by other university centers in the high-
+speed computing field, currently being established at a number of places, it
+seems To me inevitable that the staff of the Laboratory must acquire a strong
+faculty core, representing both the engineering and the mathematical aspects of
+its activity and relating its program closely to the corresponding depart
+ments, These faculty members would be concerned with the academic training and
+research program, made possible by the facilities of the Leboratory, and all
+but nominal fractions of their salaries would come from MIT, This would give
+them, materially as well as in their thinking, the independence from Government
+and other contracts which is necessary to have them establish an imaginative
+and original program with assured long-range objectives, Such an arrangement
+would unquestionably lead to undertakings in whose sponsorship the Office of
+Naval Research would gladly continue to particinate,
+
+If these, or not too different, recormendations are considered to furnish
+reasonable guide lines for the future of the Digital Computer Leboratory, the
+following disposition of the funds available under our contract appears to be
+indicated,
+
+
+ONR:430:FJW: j1
+
+Professor P, M, Morse 18618
+
+      
+
+Coding, ete: This work appears currently to be a lively concern of Professor
+Adams’ group, is of good quality, and is being followed with considerable inter-
+est in computer circles generally, We shall be glad, therefore, to continue its
+support at aporoximately its present level (which we understand to be about
+five full-time people headed by Dr, Combelic) through 30 June 1956, but
+probably not beyond that date,
+
+(b) T snd Advis ospective Machine Users in
+ting Then or. Do ir Coding: As soon es possible, and preferably
+
+by the beginning of the second term of the coming academic year, charges to
+
+our contract for this activity should be reduced to a nominal amount of, I
+should suggest, not more than $10,000 per year, Those of the persons, in the
+past primarily engaged in this latter activity, who are interested and
+
+capable of carrying on original research in numericgl Barus might be re=-
+tained under the contract, provided that most of their time (say two-thirds or
+more) ig dedicated to such research under whatever faculty supervision is
+considered appropriate, Again, we shall be glad to provide this support through
+30 June 1956 and shall be interested in discussing its continuation beyond that
+date at the appropriate time.
+
+(¢) The Research Assistantship Program under the Committee on Machine
+Computations: For the academic year 1955-1956, the award of these assistantships
+should be restricted to candidates who can be expected to produce a publishable
+piece of substantial research during their tenure, involving a sizeable effort
+of non-routine automatic computation. It does not, however, need to be re-
+stricted to advanced graduate students at hand on the MIT campus al the time,
+Even so, a substantial reduction in level is anticipated. Continuation of our
+support for such an activity beyond 30 June 1956 would again be made to depend
+on the way things work out,
+
+According to the figures which formed the basis of our discussions back in May,
+the unexpended balance under our contract as of 30 June 1954 was $410,000,00,
+Rough estimates indicate that this should be, if anything, more than adequate
+to operate the project under the proposed plan through 30 June 1956, In case,
+however, an additional, certainly modest, amount should be required for this
+purpose, we shall very likely be able to provide it,
+
+The principal factor on which we would want to base the consideration of con
+tinuing our support beyond 30 June 1956 is the establishment of a central core
+of faculty members as part of the Digital Computer Laboratoryt!s staff, charged
+with developing and conducting a strong academic program. Any arrangements for
+future support would have to wait, therefore, for the plans of such a faculty
+core of staff members,
+
+MIT F, JOACHIM WEYL, Directg
+a Biomsy Mathematical Sciences
+
+Sincerely yours, Ll
+Copy to: [l - a 7 <
+vision
+
+

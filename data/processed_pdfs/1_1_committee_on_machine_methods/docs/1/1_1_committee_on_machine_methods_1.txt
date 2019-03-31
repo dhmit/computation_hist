@@ -1,0 +1,53 @@
+—~ =
+
+Minutes of Meeting of Committee
+
+on
+Machine #ethods of Computation
+November 22, 1950
+
+Members Presents H. Feshbach, J. W. Forrester, £4. Kopel, C. Lin,
+: P. M. Morse znd KE. Kelssner
+
+Morse explained that the official directive for the Com-
+mittee had not yet been promulgated, but that it should be ex-
+petted in a short time. In the meantime, there were many ques-
+tions which could be discussed and on which decisions would be
+needea shortly. Several topics were brought up.
+
+The first was the question of the supervision of various
+graduzte students. Four of these - Salzer, Hamm, Verzuh and
+Dolznsky (?) - have already completed their general doctor's
+examination in the Electrical Engineering Department and ere
+ready to go on with thesls research. It was indicated that the
+Electrical Engineering Department might ask this Committee to
+suggest supervisory committees for these men. Three students -
+Carrus, Fox and Booton - have not yet Laken thelr general ex-
+aminations. The Committee in this case might be asked to sug-
+gest appropriate examination topics for tails general examina-
+tion. It was felt that such a general examination would be in
+the nature of removing & few specialized subjects {rom either
+the Electricel lngineering examination or tone dathematics ex-
+amination, and adding some subjects more connected with com-
+putation. In other words, it wes felt taut most of the students
+should nave a basic background of either blectrical Engineering
+or Mathematics (or perhaps Physics), but that they would not
+need to be examined on some specialized obrencues (sucn as power
+engineering), and that in its place would be put some material
+more appropriate for the macnine computer. It was decided to
+discuss this question of the exuwinetlion in more detail at tue
+next meeting.
+
+The question of courses to be offered at W.l.T. in this
+subject wes also discussed. I1t was felt better To postpone
+detailed discussion of this point until the Committee had be-
+come more clear on its opinion concerning ting preliminary ex-
+amination. The question of & possible Summer Session on
+Mecinine Computation was &l1s0 brought up.
+
+WM
+
+Ph M. Morse,
+Chairman
+
+

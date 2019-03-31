@@ -1,0 +1,31 @@
+SR LY
+
+When one attempts to solve s problem on a digital computer
+one often finds it necessary o furnish the machine with a great
+sany values of some well-imown analytic funetion, There are essentially
+two ways to do this. (me technique 18 to read the values from a table
+of function values kept in internal storage during the computation,
+Alternatively, the values of the funetion may be generated, as needed,
+by the computer., In either ease, 1t is desirable to compute all
+function values internally.
+
+mav-mmmmwu:amtmmmm
+connection with the solutions of the spherical Bessel equation. it
+tusne out that in the case of these functions it is possible to
+
+ 
+
+forsulate a wmethod of goneration which 18 particularly well adapted
+for machine use, The method &8 based upon the use of recurrence
+relations which are guite gimple in form, thereby being easily coded,
+and yet give high numerical aceuracy throughout the range of order
+
+and argument met in most applications, The use of recurrence relations
+implies, of course, that the method would be most efficiently utilized
+in those caleulations where one requires the value of the funetion
+
+for meny different orders at gach specified value of the argunent.
+
+The purpose of this paper is to show how the PeCUrrence
+relations nay be used in a straightforward manner for generating
+in 8 dizital eomputer the various types of spheriecal Bessel functiond.

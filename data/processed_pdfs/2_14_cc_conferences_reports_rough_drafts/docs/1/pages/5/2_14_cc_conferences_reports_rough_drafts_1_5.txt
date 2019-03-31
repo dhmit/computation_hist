@@ -1,0 +1,38 @@
+?——_—————
+
+5. Machine solution of simultaneous linear algebraic equations,
+
+6. Solution of partial differential equetions on computing equipment,
+7. A study of machines and components: REAC, CPC, and WVI,
+
+8. Application of computers to practical probleas,
+
+9. Evaluation of available @puting equipment.
+
+Needless to say, this outline proved to be a rather smbitious undertaking.
+Particularly, when one considers that 3-hour subject ( offered on a semester
+besis) contains only 43 lecture hours.
+
+It was immedietely apparent that this outline hed to be curtailed
+in some manner. One solution was to delimit the list of available computers
+to the following types:
+
+1. The desk calculators: Friden, Marchant and Monroe,
+2. The REAC Analog Computer,
+
+3. The IBM Cerd Programmed Calculator (CPC)
+
+4. The Whiriwind Computer -- Summer Session version,
+5. Other Computers in general.
+
+Admittedly, this shortened the task appreciably; however, it was still a
+large assignment.
+
+Figure 2 illustrates a block diegram of the subject material which
+immedistely raises another question: What is the proper sequence to present
+the material in the classroon? Should a "horizontal line" attack be used, i.e.,
+to study all five clesses of problems on & particuler mechine? Perheps &
+"wvertical” approach should be used? Maybe 2 "sig-zag" approach should be used?
+Fortunately or unfortunstely as the case may be, time did not perait a thorough
+study of the program shown in Figure 2. Therefore, e "gvertical line" of
+presentation was employed as described in succeoding sections.

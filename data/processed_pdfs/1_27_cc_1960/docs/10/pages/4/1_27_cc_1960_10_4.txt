@@ -1,0 +1,64 @@
+the experiment or the scientist can 6 on to the next step and
+request the next computation in tura. On the 704 this would
+reguire the exclusive use of the machine, though only a-fractlon'
+of the 704 speed would be used; obvmously again, time=-sharing
+techniques are needed,
+
+These, and many other brograms now in progress, such as
+the character-recognition St e S . 4 the research
+on ecenomic forecasting end on operational behavior using large=-
+scale simulation technigues, should be of particular interest to
+LB, for they have direct bearing on the progress of computer
+design and utilization, They represent the sort of cooperative
+research between experts in different fields which KIT does so
+effectively, and they involve the combination of research and
+education for which [IT is pre=eminent. This work deserves
+support by IBii, in addition %o the educational activities which |
+are already being SHPPOLt?%43? the present concrlbut;on of the 704,
+They can most eiloctlvelyﬂbg che installation of a 7090, replacing
+the 704, in the near future; ULIT will then be able to provide
+the staff and ancwl7ary equipment to push ahead with dispatch.,.
+Because of the "inter-connectedness" of much of this research,
+it can best be carried out (perhaps it can only be carried out)
+in the atmosphere of mutual cooperation aad exchange of infor-
+mation provided by the Computation Ceter,
+
+ 
+
+Outlook for the Puture = The activities nenticned above are AJZI
+only a part of the research, at KHIT and at the associated instit- L AAK;JQQ
+utions, which desires to use the facilities of the Computation 7¢L
+Center. Obviously no machine, even of the capac iy AR oL E retch, 1 ‘. E&
+can by itself satisfy all these growing demands ﬁa&:&eegéﬁ How- Lmﬁkvﬁl \
+
+T
+
+ever the facikities of the Center need not, and probably should
+
+U, satisfy all the demands, A much more realistic task would
+
+A.'.-u‘
+
+C
+
+=~
+
+e
+
+o
+
+’€ GO concentrate on the elucational vasks, which will be supple-
+
+' ' on = - AN e VAP T ep el =S .
+ental to the on~campus small machines for the other Kew snsland
+
+) . Nna whai ol AT =T ¢ i Tm S ~A . -
+
+colleges and waicn, Ior the IHIT class needs, can be improved in
+
+0N > - -~ o o R ST 0 T A e e e 1 - e T g ) - 3
+efficiency by timewsharing t echniques, on thesis researcnh and on
+-'v, - . " J.. a? - - ~~ Sty 1: o'n‘ - - - - - Y . y > -y
+LLOSE aspects of research which asdvance Ghe design, p¢@graun¢ng
+M S el i tooer " he on N1 o ? NN N W '!’j': alda Raoo T2 N DO 105 ‘.l i
+CLLLI\L -.L) ~e oo ols U/ O.’. "' AL e o L,‘\J,u ;_J‘ *.L Vol el 2L\ ode ot 7 e L J.t'\/ Lo\ ’..'- v L.. J..\ \,’ (._)“ k a b wle A 4.

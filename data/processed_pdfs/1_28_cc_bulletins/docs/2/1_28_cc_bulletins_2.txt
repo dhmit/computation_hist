@@ -1,0 +1,722 @@
+COMPUTATION CENTER
+Massachusetts Institute of Technology
+Cambridge, Massachusetts 02139
+
+TO: C.F. Floe and P.V. Cusick
+FROM: A.M. Madden, Administrative Assistant to the Director
+
+SUBJECT: Summary of 7094 Computer Usage During the Period
+January 1965 Through March 1965,
+
+This report for the first quarter of 1965 accounts for 2, 223
+hourg of computer usage including 63 hours of time used on Project MAC's
+computer run as background to the time-sharing system, using time which
+would otherwise be unused, and 393 hours used by IBM for preventive
+maintenance and/ or as part of normal scheduled use.
+
+A total of 1, 152 hours of chargeable time to users, represent-
+ing a decrease of 28 hours from hours charged in the fourth quarter of
+1964, was experienced. |
+
+Significantly 290 hours were used by departments for time-
+sharing {an increase of 106 hours) demonstrating continued growth in
+this area.
+
+SUMMARY OF USAGE
+
+M.I.T. useage for the first quarter of 1965 covered 569 |
+projects from 19 departments, one departmental laboratory, five inter-
+departmental laboratories or centers, and five administrative offices.
+It consisted of 30,567 computer rung of 976 hours (an average of 54 runs |
+of 1.7 minutes per problem) representing 575 hours used by research
+problems and 401 hours of thesis and class problems.
+
+New England Colleges used 175 hours with 120 active
+problems for a total of 4, 797 runs (an average of 40 runs of 2. 18 minutes
+
+per problem) and were represented by 26 of the 50 participants.
+
+The total 689 active problems are broken down in the
+
+,
+
+[2
+
+following tables and figures according to the usual clopsifications, A;
+werage of 1.67 hours per problem and 35,364 computer rung were
+
+experienced.
+
+
+Rd pf CNC SV £ ££ ¥YRd4L GQNO SY PPR YRHACD
+
+ 
+
+0
+
+00T
+
+00¢
+
+00g |=
+
+0h
+
+GS
+
+009 SoUBUSIVTRE
+932 °sanog sua sAs
+
+‘ suctTjBIJSUCUSD Jigy=auo snd
+uy g-umop 83TATSISA TUR
+Stagsszeyoun] purt3uyg MsN[/ ]
+004
+| GO6T ‘TL udaen = £96T °T asquegdag
+GO§ p= SDV SN UALAJWOO {60L XTIHINOW
+
+£96T ‘TE asn3ny « 296% ¢T Trady
+
+23UBLRMUT BU
+may 84s
+Jieu=auo
+gnid JI23U8)
+uot aeanduc)
+
+pug “5 I°H WN
+LN
+
+dALNID NOIZVIAIWOO °L°I°W FHL LV A0VSh JALAIWNOO 060. XTHINOW
+
+ 
+
+ 
+
+ 
+
+00.
+
+008
+
+
+=ESCRIPTION OF Figurgs AND TABLES
+
+The following charis ang tables show month]
+8Ccording to Category for ¢h
+1965,
+
+J Computes us
+le period January I
+
+1965 through Maren 31,
+
+M.I.T. 1g and New
+with major and m
+
+England Colleges!
+inor claggif ic
+
+oS . 0 pe Yar dey.
+
+usage are y ported g
+ba oy » a -~, 2 . - a ro
+
+ations sg jin P¥evioug reports,
+
+ 
+
+- oO rn T
+epa cate LY
+
+
+eo a “ae
+Mc I.T. USAGE
+
+ACADEMIC STATUS OF APPLICANT
+
+/ FIGURE _
+
+— —
+
+P0
+
+1% Staff 1% Staff 1% CC
+
+    
+   
+
+   
+
+  
+
+ 
+
+ 
+
+39%
+Faculty
+544
+« %
+30% Graduates
+Fracudity
+Graduates
+/ SE
+Computer Usage Number of Problems
+(976.65 hours) (569)
+¥IGURE_3 SOURCE OF SUPPORT
+Othey ey
+rn | eC 19 .——
+3 ™ ii. >
+a5 pS
+\ / x
+\ /
+\ \
+48% } A 53%
+ho4 } 41% Y Tem He a
+- i Unsupported » Unsupported
+D. S. R.
+\
+\o/
+Computer Usage Number of Problems
+
+{976.65 hours) (569)
+
+
+=. 5D =
+
+M.I.T. USAGE
+
+FIGURE 4 PRIMARY PURPOSE
+
+Research (. Fa
+
+   
+
+   
+
+   
+     
+   
+ 
+
+4%
+Classrodm\ (*
+33%
+Doctors \
+Research
+es CT B24 50%
+38% \
+Research Thesis
+Research /
+23% Doctors Other f
+
+Computer Usage Number of Problems
+
+(976.65 hours) (569)
+
+
+wo Gen
+
+TABLE I
+
+SUMMARY OF 7094 USAGE ACCORDING TO ACADEMIC STATUS OF APPLICANT
+January 1, 1965 - March 31, 1965
+
+ 
+
+ 
+
+GROUP
+MIT January February March TOTAL
+Faculty 153.93 99.21 126.78 379.92
+Staff 2.74 e866 2.03 5.43
+DSR 37 42,34 32.13 110.25
+CC Staff 17.22 16.99 29.73 66.914
+Graduates 86.89 102.36 113.87 303.12
+Undergraduates 2,48 5.48 7.42 15.38
+Other 32.65 31.50 31.46 85.61
+Group Totals 331.68 301.54 343.43 976.65
+NEU
+Faculty 30.50 37-57 35.69 103.76
+Graduates 21.32 20.96 19.36 61.64
+Undergraduates 01 oD oO +3
+Cther 1.36 2.87 4.90 9.93
+Group Totals 53.16 62.20 30.95 175.3%
+
+oR " - DY mn oy awd 2 ~ - 0 I I~
+TOTALS 3048.87 363.74 403.38 1151.99
+
+
+==
+
+TABLE II
+SUMMARY OF 7094 USAGE ACCORDING TQ SOURCE OF SUPPORT
+January 1, 1965 - March 31, 1965
+
+GROUP
+MIT January February March TOTAL
+DSR 120,87 150.87 122.93 394.67
+Government 7-38 7.09 &.80 23.27
+Computation 29.64 24.03 32.52 86,19
+
+Center
+
+Unsupported 171.10 116.40 477.36 464.65
+
+Group Totals 331.68 301.54 343,43 976.65
+
+NEU.
+
+Government 15.86 20.32 22.72 58.90
+
+Grant-in-Aid Te33 ll.22 7.69 25.24
+
+Unsupported 30.00 30.66 29.54 _ 90.20
+
+Group Totals 53.19 62.20 59.95 175.38
+3.38 1151.99
+
+TOTALS 38%. 87 363.74 40
+
+
+\/
+
+=
+
+TABLE III
+
+SUMMARY OF 7094 USAGE ACCORDING TO PRIMARY PURPOSE
+
+January 1, 1965 -
+
+GROUP
+
+MILT
+
+Research
+Research in C.7T.
+Classroom
+Thesis
+
+Group Totals
+
+NEU
+
+Research
+
+Research in C.T.
+
+Classroom
+Thesis
+
+Group Totals
+
+January
+
+140.77
+53.83
+61.65
+
+715.43
+
+331.68
+
+26.31
+1.54
+4.71
+
+20.63
+
+53.19
+
+364.87
+
+February
+
+147.09
+46.17
+9.22
+
+99.06
+
+301.54
+
+Mareh 31, 1965
+
+March
+
+121.25
+66.56
+43.72
+
+111.90
+
+343.43
+
+ 
+
+TOTAL
+
+409.11
+166.56
+114.59
+
+286. 39
+
+876.65
+
+1151.99
+
+
+Oe
+
+TABLE IV
+SUMMARY OF 7094 USAGE BY IBM
+January 1, 1965 = March 31, 1965
+
+(Hours of Computer Usage)
+
+ 
+
+ 
+
+ 
+
+January February March
+
+IBM Research 23.95 24,04 37.72
+
+Special Grants 1.65 1.51 2.10
+
+Me I. To DSR Use 5eTk 4.86 11.74
+Other Use (system developments,
+
+tests, ete.) 18.02 32.90 450.11
+
+Scheduled Maintenance 49.10 £0.90 35.00
+
+Unscheduled Maintenance 18.20 25.60 20.50
+
+116.63 129.85 147,17
+
+
+=10=
+
+OF mcm an wa dh
+ne FL hdd «pd wh bie
+
+on % 2 th m fiw
+“ add
+
+a - ~
+Li Gd pap 24 & =r
+
+= 3 t gi
+
+d 63 hours on the MAC e
+
+,
+
+wilch include
+
+IBM used 293 } aours of the
+cof the 1,767 hours
+
+8, 434 hours ~~ }
+
+i : op
+Sixty
+
+het
+
+pn
+“ALIVE percen
+
+to the C
+
+oF - -
+—enier'as vger
+. i Jeet en é ones HS vy.
+aUminis GLa ay a Je
+7 “- i. ot ms ang 4)
+(173 hours)
+
+)» down time (110 hours),
+
+3 wd
+! A"gw ns Tm A TDS A) a or fo 1 4 i . !
+ours), operator setup time (24 hours ) and
+
+difficulties accounted for the réemaini
+
+a
+
+ne
+
+OF 1,152
+
+and systems maintenance requir
+
+~
+
+a
+-—
+Se A
+re}
+
+&
+
+er of 1965 totaled &, 223 hours
+
+somputer,
+
+2,160 logged on the Center'g computer,
+
+hours — were charged
+
+3 percent — were use 2d for
+
+idle time
+
+wn
+ements.
+
+machine and operator error (64
+
+other mine cellaneous
+
+ing unchargeable time.
+
+LXpress runs in Figure 5 and 5A showed a a fairly constant tur;
+around level while other runs varied with the work load and down time
+interplay. It seems significant that unchargeable idle time wag cut in
+half while machine down time in reased 25 percent causing peaking
+
+
+Figure 5
+
+fpremse
+
+dB TT rr res rr rr Sr ————— == smumud
+
+dean he
+
+I
+1
+a)
+
+em ee
+I
+: on a endear Ee 4
+A
+3
+
+4/7 4/65
+
+I
+1
+ROG A ee mn re mn om re et ee ee of
+I
+I Re i :
+192 mm mmm mm ey
+I
+I
+lL.
+I
+I
+Rah a : a osm
+100 fe ei me a
+[
+
+180 To ue ue = 0 0 200 2000 cn Wo we, ft SE tS Ss ww my
+
+I
+
+108 Fm mmm mmm mmm mm mem
+
+I
+I
+156 EES Sm mmweame eae wwe
+I
+I
+I
+
+AVERAGE MINIMUM TURN-ARQUND TIME PER BATCH AS OF
+
+210 | Ho rie nie oe mar om on mn rei tu re eee et te = er re ee ee ed ee ee ee EEL
+168 $m mmm eee = = m= m= = em we A rt ee eee me ree
+
+ 
+
+I
+I
+
+Re
+I
+boa
+I
+——————————_———— —— —— A] ———_—— —————— —— ——— —— — — ————
+
+TT TE et
+
+I
+
+BE eT
+
+I
+I
+5
+I
+I
+tas
+I
+I
+I
+-——
+[
+I
+
+mmm mm mm mm mm mm mm em nm mm me em mm
+
+I EE Ee TNT)
+
+  
+
+  
+
+Rf =———m=——m— === r= e= see weee seme me ———————
+
+48 Hmmm mmm mh mm
+
+rere] =p
+| Tt TIES
+of |
+| treat 0 Se)
+i | | | | ———
+| | |
+
+( | | I % I
+I | I Re |
+| | | | | x |
+| | I | a I
+| | ( | Yc | |
+i I { | x |
+— bd bt de be ed de bed bed de bd bt bed bed fe bet bd de bed bt oe ed
+< oN oO 0 3 oN o
+
+@ tom 0 3) ~N —
+
+TiO oon
+
+ 
+
+ 
+
+LONG RUNS
+
+10/4
+
+7/5
+REGULAR RUNS
+
+4/5
+
+OC er
+
+EXPRESS RUNS
+
+1/4
+
+
+[oe
+
+nl RG
+
+ 
+
+<3;
+LY
+al
+£4
+sy
+80
+sod
+wn ped
+0
+oy Pb pet Bed bed oh ped dud fed bed oe feed Reed bed bed de bod Bed Bed Ged Ge bef Bend Be bud fn bend Sead eed fet oh bend fred fed Bent oh Bed dm peed Bed de bud bed Sew ed wh bend Bed bed de de 1
+ou i { i i i | { } } i } =
+! } i { ! i } i i =D
+“=, } { = i 4 } ; i j { ! oe
+3 } } | } ! i { § § { §
+} } | } i j i j i i § £2
+} } i i t } } f i { <x
+Qo. | } bid | } i i i i i { Oo
+© | } 3] | i i j | i { { wed
+{ | { § i § j { i i
+2 f § { i i [ i | ih
+<I i § iy f } { 1 } i } i 93
+hi { { Ly { § i i i } j p ™~ ¢
+I { { i } f | t } } i } ©
+Ly { t { {| i { { } } § bo
+be } i + i i { ! } ! i !
+wf } i } ! t | } j : i !
+o i } ! i i } 3
+} } i | f : -<
+er i i i § } } i i i i § 3
+(4 i i L} § § i i | ! ; or
+a. § § j j i § j { { } t
+j 1 | | | | i : i
+WJ { § i f § f i i t bo i
+= { { i { i { { } } t 0».
+- ; § { : { { i | | } b 2
+fore ip i | jo AP
+i { } } : } } i j | 4
+2 ! { i i 9 t } i i | 5
+2 i ? i po } i } i } § i
+> ; i i i i } | | | i
+© ! t : } { i i | { | -
+oY; { i } i } } } { i i i oS
+«I | i | j | | :
+i § i i f i { i { { {
+a i i § { i { i i { } i
+re’ { { { 1 § ? i { } ¢
+- { j i i | i } tiny
+oe | { - i i i i ; y BS
+{ { { i ron maior 3 ji -
+ih } > i ge } i i } } } ed x
+wel i } } tan 3 | } } j § § | |
+= j i } », } ji i het” : “
+> j \ | | Ene a § ; § J o
+2 f | bl YC he | ot : =
+Bud f } ef eT } J er} i TT { ! =
+= f I ! i mr ne ren. § § Frm } frie { a.
+i § [ i i : fn { ><
+Li } f { t i t i eT eral} hx BL er hi
+£ i { { i { f. ne ieee 3. Bg } ie oe i :
+S : : : Sif i } ' _ } i if
+oe } i } \ | gre Fo } mp I~ :
+iL vie Bred dued Ped Sed che feed bund bend Semd cb poe deed feed Bend ode peed pend bend Baad de pend Boul bud deed ob Bead dem Bud Bed os peed Beef Ped beef de dewd duet Bod beni we ned bed Gund Beef Be eed fed ped dees deed +
+et
+«3, OO Fa Cy LE Lo uM < Th) i us
+hn wi" Ev A a ™ Od oN ot ord
+poe md 50 LAS pt 27 Tow
+
+
+TOTALS BY DEPARTMENT
+
+The attached computer listing shows the breakdown of computer
+usage over the quarter by school and department.
+
+Horizontally the columne are:
+
+1, Classification - school, department or purpose.
+
+-
+
+4, Total usage - hours and hundredths.
+
+3. Total entries - total number of runs made,
+
+Total problems - total number of problems active
+during the quarter.
+
+

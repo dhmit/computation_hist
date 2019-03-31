@@ -1,0 +1,231 @@
+R . ‘r
+
+Pl‘inled in U.S.4 N8, 1950
+
+:
+HARVEY COHN.
+d(S/R) are
+
+928 . onresents the field diseriminant gl
+82 hich represe a finite set.
+
+. . “Y : %
+A2 js an intege! x of the sub-lattice (or module)
+
+. . . t]le il](ie . . E . ¢ l‘les‘
+here J represents ¢ the field. Of course A 1s invariant val
+. : oers 0L U '
+all integ
+1Z of
+
+|
+- .e
+columns. Hex
+
+multiplied by §% W
+
+To see
+egers 1n the 111
+
+Of illt S/‘/]'R == (_' l
+under ch
+In the
+
+the norm and d
+
+:onjugates, we de
+sub-scripts denote conjugates, v note
+
+ange of basis. f
+| — (@, @2, Qs) by means o
+
+usual not.atlol;e £ : 20 3) I f its basis vectors
+e nant ‘ - 9 ’ le 1
+e (8.2) d(4)= [(ay — a2)(a: — ag)(as —a )]*. ; o 1 each octant
+
+: €very lattice hag a red
+, s Y Ra i uced
+__ <ational number, while N (4) =0 : | : : i (and the €Xamination of , handfy] of
+
+e S 11 - M ' unity). This t :
+IS leebralc integer, N : v AVlInk : Ype of algorithm
+hen A is an alg ger, | the basis vectops
+
+where
+
+,
+
+e vector -
+
+(6.1) M=t
+
+_ 0 only if a; =0 ,
+__0. Furthermore W
+
+= (I3
+Clearly d( 4)
+
+IS very
+if 4 =02=®
+
+were three shortest
+
+neiol : . WO bases were called
+This consti eighbors in gen 1l common, making three
+
+er Minkowski’s bases, i o
+. two .(out of four) basis vectors. Here th
+
+] mal.\'mg for more complicated patterns,
+
+Slmllarb", reduced quaternary forms Han(” 7
+can be defined. If this form is the norm in 4 1t jt H(J e
+be shown there are only a finite number of od
+
+and the neighbor cone S 1 : 5
+) )+ (P2Gs — QaPs)T, tures Find'g he s “hep load to finite (periodic) mu]t;
+o T )T+ (psqs — spr)r2 + (P20s AERIT ' Ing the structures by this algorithm s very
+—_— - 1Y1 =
+
+, . Now v patter -
+
+— (D4 )S> (112‘]:;—‘(1‘-'1'0'“1‘ only patterns of sjons. For the integers : he cubi .
+
+(8.3) 4+ A= (p1g2— (1P2)Ss T (psqr — qsP1)S2 + | structure of the no:m e COIf:?I: lc?l'tl}(m cubic ﬁf:‘ld for which p — 49 the
+. the lower lines of (8. 3) according as (lrxq:—gll)z) and D = 148 the structures have | ccted like the vertices of g cube. For D = g
+
+Now take either the upper o1 ttuth t pugj— pigi == 0 for i >~ j by the rational ; = 1ave 16 and 28 forms respectively. Structures with
+
+: v itive. (Note that pig; — Pifi
+
+is negative or posl
+
+certai Jes :
+
+M e ; t}j,m Symmetries turn out to correspond to abelian fields, and the periodicity
+q of P and Q.) In (say) the first case, relex ® .’i L s Of the structures, of ,eourse, leads to unities of the field t
+
+' e v g : nantities. abbreviate ;
+
+independenc s that — A ia the sum of three negative quantities, abbl g
+
+(4.22) reveals that — TS
+
+number WayNg UNIVERSITY,
+
+t, + t, 4 t, whence easily, number DEtrorr, Mich., U. S, A.
+) 7 | !
+
+(8.4) (8/3)° Z | tiats | = | N(B)| - | G(P, @) on the n
+
+9 N 1B 0)
+) 0 V2 (1.0« — G.03)%  Since GAH(P, &
+where G2(P, Q) = (prg: — q1p2)*(Psqs — qsP1)*(P2Gs — q=Ps) CCRS.
+
+R. of the chosen pal
+is a rational integer, it follows that one column, R, of th(} t S
+¥ | i : 100 2 ‘ .1(_)] ‘ /
+; ' » aroument we see that s
+has bounded norm. By repeating the argur - dicated above).
+the column vectors (say) P, Q, R have bounded norm (as 1mdic
+. ; : e 4o ded norm,
+Likewise, regardless of whether R or S has the boun
+
+L
+
+»a AT et
+. L ~ -
+- - - ~< S5
+e - —ad
+- 3 -
+- << > e aiiy
+- ‘hs <
+- T -
+-
+
+o
+
+-—
+Aty
+~———
+
+only
+
+o
+
+1 ‘S. » o ‘ y ‘
+and d are natural integer A is bounded (and > 0) the norms of at
+
+We shall next show that ‘.‘-h'@"t sers P, O, R, S are bounded (< (A/3)%)
+> s . al("(’hralc 1mn ec * '? 2 ; - ) () — ‘i/ ;) are
+least Hl.reed(.)i ﬂll;lioalzts (‘;—‘f Al twelve fractions of the t) pe I / v (p q )
+while the discr]
+
+: actions (whose numerators go
+d to a finite set of rational fractions (W }‘05« 3)18]) =
+oo restricted to | e : to [ (&/9)77]).
+ihemie o 3)¢] and whose denominators go from 1 l"( /(4 1) along
+d A . 3y - ¢ 1 f A ]]1 : e :‘ O
+from L {8 4 clusions follow from the expansion 0 3 calculate f
+The above concius
+
+: inors of P and @. :
+1 R and § using, each time, the minors o i ¥ b this
+(Sa}r) column
+
+——
+.- 5
+4
+
+i —
+<o
+-
+
+-
+-
+
+-
+
+solutions f
+dimension .
+
+t=11,2:3)
+dule, it can
+hange of basis:
+| -dimensiong] strue-
+Simple since jt involves
+
+Y real cubic mq
+reduced forms under ¢
+
+e Attt
+SR
+
+-
+4%
+-
+
+are finite
+
+of
+
+10.
+ds q de
+over to
+G¥(P, Q) = N(Q)d(P/Q) = N*(P)d(Q/P); _ of the ¢
+(8.4), 2 dis- supply
+
+tions of the tvne P/0 has, from
+hence any of the twelve fractions of the type P/Q 1 ones cg
+
+criminant restricted to the set of values indicated above.
+ation let
+2 /()),
+
+L
+
+(10.1)
+
+e ovious inform
+9. Completion of finiteness proof. Using the 1,,‘\1 “'/ l(l,l (/))) d(1
+us suppose that fixed values of N(P/R). N(Q/R), d(P/R), d(¢,

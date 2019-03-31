@@ -1,0 +1,60 @@
+Program for the Pre-Dedication
+
+House-Warming of the Computation Center
+May 24, 1957
+
+Since the wiring of the 704 is not yet completed, the
+checker-playing program we had hoped to put on for you will
+have to be postponed. The Center quarters will be open for
+your inspection between 10.15 a.m. and 12.00, there will be
+a stand-up lunch served in the Conference Room on the first
+floor at the end of the building at 12.00, and there will be
+a discussion of the program of the Center in Room 6-120
+(Main Building, East side, first floor) from 1.00 to 3.30.
+
+| From 10.45 to 11.30, in the 704 Room, Frank Verzuh
+will describe the equipment. Between 10.15 and 10.45 and
+between 11.30 and 12.00 several members of the Center staff
+(1ist appended) will be in the TO4 Room, and will be pre-
+pared to answer various questions eoncerning the equipment,
+procedures for using it and our plans for research. Each
+member will be glad to answer general questions, but each
+has his own specialty (mentioned in parentheses after his
+name) and, if you have specialized questions, we suggest
+you look up the appropriate person. Each is wearing a
+yellow badge with his name on 1t€.
+
+The program for the afternoon session, 1.00 to 3.30 in
+
+P. M. Morse M.C. and General Comments
+J. Blackburn I.B.M.'s Interest
+D. N. Arden Research Plans
+
+F. M. Verzuh Procedures
+F. J. Corbatd Assistantship Program
+
+
+Staff Present in 704 Room in Morning
+
+with Specialty indicated
+
+Dean Arden (Research in Programming )
+
+Sheldon Best (704 Programs, Fortran)
+
+Jack Blackburn (I.B.M. Liaison)
+
+"Corby" Corbaté (Research Assistant Program)
+
+Prank Helwig (704 Programs, Algebraic Compiler)
+
+Fhil Morse (Anything the others can't answer!)
+
+Arnold Siegel (704 Programs, Post-mortem Program)
+
+Dick Steinberg (Sub-routine Library, Peripheral Equipment)
+Bill Thurston (Scheduling of Work Flow)
+
+Frank Verzuh (General Procedure, Operations)
+
+

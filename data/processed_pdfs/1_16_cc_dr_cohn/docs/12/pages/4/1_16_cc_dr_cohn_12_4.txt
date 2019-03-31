@@ -1,0 +1,307 @@
+-
+
+-
+B
+-
+
+  
+ 
+ 
+  
+
+-
+-
+
+s re
+Ve
+
+    
+ 
+ 
+
+-~
+b
+.-
+
+-
+
+S - - >
+(=% T 23S
+
+A,
+
+  
+
+ 
+
+268 . for compleX module§. Gou}g tg ths complex case
+3 Stability criteriont b Considern}g as in § (‘a ove) any (non.
+1 " urn to greater gene ecessarily consisting of all the integers of 5 field)
+we 1 m Enoér‘;ic integers 3 with 7 real and 2s complex conjugage
+alge
+
+T
+
+g, = X; + 1 X jts
+
+Z — 1 X4+
+(13.1) gy e
+
+_ » conjugates. Then we are interested in stable
+
+s:
+=l s
+(].=7‘+1,...,r+s)7
+
+otal of 7T 2s
+
+he norm (gau :
+X (x3+1 -+ x3+s) S (xf+s+1 + X424 |
+. T
+
+making 2 t ge) function
+t
+
+modules for
+1
+
+— erally complex components:
+fQ=n(n 1) gen
+r the vector O
+
+Rzl = (- 8/3n--) (hi=1L2....%l%j
+hat the set of vectors R[z] positively span
+
+: e set of module elements of minimyp
+sion () as ;:;rfrsi&tie;nthwas established earlier (12, p. 266),
+e norm. B oresent form will prove simpler to use. Asin
+using 20 real Compone]?tsf’inding of Q + 1 positively dependent vectors Rz] s
+the totally real case, the <tablish a new criterion relating to projections of R[z],
+so difficult that ‘::’:Orrnl"{s[;f can be expressed in terms of n(n — 1) real coordinates
+
+: Now evelr{yt\}’; vector up into the following projections: Tal.‘:e any pair of
+]df' ‘t\te tzrngds chosen from the first 7 + s conjugate fields (conjugate complex
+istinc
+
+air, denoted by unequal subscripts
+i o excluded). For every such pair, y
+;e;?(ce ztrl(i;_lssl))e?imjection s determined. Specifically for /, j both real, there are
+v'] A )
+
+r(r — 1) projections
+
+We conside
+
+(13.2)
+
+Then the criterl
+a space of dimen
+non-zero absolut
+
+on for stability is t
+
+(13.31) - R, ;[z] = (2:/2)),
+
+for 1, j both complex, there are s(s — 1) projections
+
+(13.32) R, ;[z] = (2/25 Z145/%;) <258
+for I, j mixed (i.e., one real and the other complex), there are 2rs projections
+(13.33) R, ;[z] = (2:/2)).
+
+Now, clearly, the projections of type (13.31) are of real dimension one; t:le
+projections of type (13.32) and (13.33) having two and one compleaf componen :,
+are of real dimension four and two respectively. We write this as dim [/, 7]=1, d'
+and 2 respectively. If we were to sum the number of coordinates, we should fin
+it accounts for
+
+rr—1)-14+s(s—1)-4+4+2rs-2=Q — 2s
+
+. . . . 1 .ec-
+coordinates. The remaining 2s coordinates are accounted for by a single pro)
+tion called the “2s” projection,
+
+(13.34) Rz =i/ 8 i ats - v oy Eria) Breai)s
+
+of s complex components and of (real) dimension 2s.
+
+ 
+
+  
+
+STABLE LATTICES
+
+269
+For some purposes it will be necessary to visualiz
+
+parts written out as Q carFesxan coordinates of 3 Cartesian space @
+octions &4 and &*°. Thus we may introd With
+
+rojections Y 1troduce a (real) scalar prod
+and with it length and angle. F lfrthermore any one of the projeCtiOnsIr)n uct
+imbedded (in the natural way) in &9 by setting the @ = dim[l, i Qaz ge
+remaining coordinate§ cqua! to.zero. Thus we may speak of the angle bety s
+R[z] and any one of its projections, R, ;[z] or Ry,[z]. vaeh
+The significance of the subspaces is then derived from the follow
+Let any Zo (#0) be given. Then a z, of equal norm exists for which Rz,
+rarily close in direction to any preassigned [I, ] projection R, ,[z,]. T
+take z, = Zou where U is a unit of © the order of 91, o chosen (by
+Theorem on units (12, p. 269)), that Iu,,/uql has the largest order of magnitude
+for the choice of sub-scripts p =1, ¢ = j (p,q < r + 5), and so that e Ties
+arbitrarily close in argument to a positive real number. The main stabjility
+criterion will be a more complicated version of the “unit star” method of Part |
+(12, p. 265), (which dealt entirely with one-dimensional [/, /1 projections).
+[t is as follows:
+The necessary and sufficient condition that the module M have a stable noym is
+that for Z a variable element of minimum absolute non-zero norm in I, the projec-
+tions Ry, 5[2] or Ro,(2] each positively span a space of dim([l, 7] or 25 dimensions.
+The necessity is immediate since a projection of a set of vectors positively
+
+spanning a space must necessarily positively span the projection. The sufficiency
+proof is the difficult one.
+
+e all the reg] and imaginary
+
+ing fact:
+| is arbit-
+0 see this,
+Dirichlet’s
+
+14. Sufficiency proof of stability criterion. We let z be a general element
+of M of minimum absolute non-zero norm and we assume, as our hypothesis,
+that for certain values of z, namely
+
+(14.1) 2o 25 1<h<14+dm[,j], 1<E<1+2s),
+
+the sets of projection vectors {v}, consisting of the subsets
+
+(14.2) Rl.j[z(l’.t)J] = {v}., I<h
+R,,(257] = (v}, (1<
+
+are positively dependent. The object is to show that for properly chosen units
+(U} of the order © the vectors {W}, consisting of the subsets
+
+(14.3) R[Z{)] = (W}, (1 < h <1+ dimf, 7]),
+RIZ{] = (W), (1<k<1+2)
+
+Positively span the real cartesian space ©9, where
+
+: h h (k) (%) g%
+(14.4) Z® = z® D, Z¥ =2 UL
+
+The positive span will be established by means of the projection and independence
+
+  
+
+    
+   
+    
+    
+   
+    
+       
+      
+    
+        
+        
+       
+      
+ 
+    
+     
+    
+   
+    
+ 
+  
+     
+    
+      
+ 
+ 
+
+LI
+
+ 
+
+casxe17,
+
+   
+   
+ 
+   
+    
+ 
+   
+  
+ 
+ 
+   
+ 
+
+ATy
+!rr’naz L
+e IS at s
+
+ 
+ 
+    
+    
+    
+    
+ 
+  
+  
+
+ 
+  
+ 
+   
+ 
+ 
+ 
+ 
+
+L
+L
+
+ 
+ 
+ 
+ 
+
+e
+b
+-
+;f(.':
+
+ 
+ 
+
+  
+
+AL
+bt
+4 s
+
+X
+
+L
+ke
+-
+
+ol
+e
+LT
+
+9
+
+Ly
+
+ 
+   
+  
+
+L
+»
+
+B “ §J\...~r-

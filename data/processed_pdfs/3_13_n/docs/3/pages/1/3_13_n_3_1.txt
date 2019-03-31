@@ -1,0 +1,45 @@
+from the
+
+NUMERICAL ANALYSIS
+
+LABORATORY
+of the
+
+UNIVERSITY of ARIZONA
+
+  
+ 
+
+VOLUMN II NUMBER 5 MAY, 1959
+COMPUTERS HAVE NOT MADE HUMANS OBSOLETE!
+
+By Dr. Harvey Cohn, Head, Mathematics Department
+University of Arizona
+
+In appreciating the role of computers in society, either inside or out-
+side the university, it is important to know their limitations. Limitatioms
+of speed, capacity, dexterity, etc. are almost meaningless with today's ex-
+cellent electronics industry. Yet one genuine limitation exists: machines
+can not create new ideas. They can only execute ideas preconceived by the
+
+human, more faithfully than the human.
+
+The inability of machines to create is simply a result of the type of
+design common to all computers and a result of the utter reliability of the
+operation! This limitation need not dampen interest in computers any more
+than the barrier presented by the speed of light need dampen interest in de-
+signing missiles. It would still be better to think of the machine as what
+Ashby called an intelligence amplifier. Thus a user of a machine is like
+an executive with a staff of specialists whose objective reports make pos-
+sible a decision. While we may at present content ourselves with being
+thankful for what computers can do, nevertheless limitations will ultimately
+become objectives,
+
+The inability to ''create new ideas' (beyond the ingenuity of the user)
+is perhaps subject to semantic disputes if we try to define our terms pre-
+cisely. Yet a more truly rigid mathematical limitation is also present. The
+mathematician indeed enters the picture in a negative way when he is not us-
+ing the machine as an intelligence amplifier. There is a well recognized
+theorem in mathematics that NO UNIVERSAL ALGORITHM EXISTS: there is no pro-
+cess for solving all problems by machine (or by any humanly executed rigid
+decision process either).

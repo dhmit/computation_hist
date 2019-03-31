@@ -1,0 +1,60 @@
+Office of Naval Research Januvary 18, 1956
+Reference: Contract N50ri-06001 DIC-#6345, #6915
+
+Under the proposed plan submitted herewith, Project
+#6345 (Whirlwind Operation) would terminate on June 30, 1957.
+The task order for this period would include the usuval Vhirlwind
+project activitles:
+
+1. Research in methods of numerical analysis and
+the formuletion of scientific prcoblems for machine
+solution, %together with the tralning of personnel
+in these methods.
+
+2. Support of the Scilentific and Engineering Appllca-
+tiong Group of Project Whirlwind so as to make the
+computer useful and available for the above-mentioned
+regearch. .
+
+In addition, it is proposed that the following task
+order arising in connection with the Type 704 EDPM be included:
+
+3. The development of a sultable interpretive program
+and associated coding technidques to permit effective
+implementation of the Type 704 machine.
+
+It is anticipated that a separate project will be set
+up to hendle the Type 704 utilization within the MIT Computation
+Center, and a separate request to the ONR Tor support of thls work
+will be made in the near future. In this respect certaln
+experienced programmers could be made avallable for transfer %o
+this new %task as of January 1, 1957. Thls anticlpated transfer
+has been taken into account in the budget proposed for Project #6345.
+
+The foregoing proposal does not take into consideration
+termination costs which may be assoclated with the close out of
+this contract and the possible dlsposition of the Whirlwind Computer.
+It is proposed to delay the submittal of any budget for this matter
+untll suech time as disposition of the Whirlwind Computer is
+determined.
+
+The estimated budget for the period July 1, 1956 to
+June 30, 1957 1s attached herewlth as page 3.
+
+Very truly yours,
+
+LEB/dmb
+
+In quintuplicate L. E. Beckley
+
+co: ONR/Boston Aggiatant Director
+ONR/MIT
+
+ONR/Wash., Adv. ce: Mr. F. A. Giroux
+Pr. C. F. Floe
+
+rof. P. M. Morse
+
+Dr. F. M. Verzuh
+
+—

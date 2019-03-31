@@ -1,0 +1,31 @@
+[From the Proceedings of the Physiological Society, 14—15 December 1951.]
+Journal Physiology, Vol. 116.
+
+Electric field measurements in a two-dimensional conductivity-
+tank model of the human heart and thorax. By C. V. NELson*.
+Department of Electrical Engineering, Imperial College of Science, London ;
+and Department of Physiology, Middlesex Hospital Medical School, London
+
+It is always difficult to calculate a potential field distribution, even in relatively
+simple physical systems, unless considerable approximations are made. This
+is particularly true if the system involves electrical inhomogeneities or if the
+boundary of the system is not a simple geometrical shape. Itisusually possible,
+however, to set up a model of the system and make rapid measurements of the
+potential field.
+
+ 
+
+Fig. 1. Diagram of two-dimensional conductivity tank. The outline of the chest wall, lungs, heart,
+vertebra and sternum can be seen. The two electrodes at the centre of the cross-section of the
+heart are the source electrodes. The search electrode is carried on a bridge, to the right, and
+can be moved to any position in the tank. The reference electrode is seen immediately behind
+the vertebra. The cross-section is taken at the mid-ventricular level.
+
+An electrolytic tank for conductivity measurements, as described by
+Boothroyd, Cherry & Makar (1949), was modified (Fig. 1) so as to have an
+insulating boundary in the shape of the outline of a cross-section of the human
+thorax (adapted from cross-section diagram 23 of Morton, Truex & Kellner
+(1941)).
+
+* Research Fellow of the American Heart Association.
+[p.1.0.

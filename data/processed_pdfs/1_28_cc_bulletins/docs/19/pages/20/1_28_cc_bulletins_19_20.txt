@@ -1,0 +1,30 @@
+4-3 CC-75-1
+
+direction cards encountered by this phase are logged., The rules are the
+following:
+
+(1) 1If the first range request processed by the processing phase
+selects a printer for output (FPR or NPR), then all direction cards pre-
+ceding this range request are logged on the same printer, Otherwise they
+are not logged,
+
+(2) If the last range request which was processed selected a
+printer for output, then a direction card encountered by the processing
+
+phase is recorded on the same printer, Otherwise it is ignored,
+
+  
+
+C.+
+
+F, C, Helwig
+
+Signed:
+
+  
+
+FCH:gn
+
+e —
+
+———

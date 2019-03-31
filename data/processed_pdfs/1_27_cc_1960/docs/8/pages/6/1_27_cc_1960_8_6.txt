@@ -1,0 +1,41 @@
+M.I.T. Computation Growth Page 6.
+
+be beyond the availability of time on the T704. Translation
+with a very large dictionary would, in addition, tax the
+TO4's capabilities. Dr. ¥Yngve has not as yet been hampered
+serlously other than in the sense of slow programming pro-
+gress due to the existence of the queue,
+
+Symbolic Manipulation (Artificial Intelligengce Project-Dr's
+M. Minsky and J. MeCarthy
+Dr's Minsky and MeCarthy have developed a language for
+
+dealing with logical and game type problems which as of yet
+are primarily symbolic (as opposed to numerie) in character.
+They are now engaged in applying this language to a large
+¢lass of problem solving situations, reanging from chess to
+the proof of theorums. One characteristic of such problems
+1s that they tend to require an exhaustive search through a
+large number of possibilities.
+
+The main hope in such problems is that the machine c¢an
+elther by ltself or with on-line human assistance develop a
+rule of thumb (or heuristic) to short cut the exhaustive
+search and trial procedure. Thils class of problems requires
+very fast informatlon processing, combined with as large a
+random access memory as 1s possible to apply their tech-
+niques €0 any sizeable problem clearly can require up to
+weeks of TO4 time.
+
+Experlmental Physics Data Reduction-Dr. D. Caldwell
+
+Dire Caldwell's work on determining the characteristics
+of hyperons (Lambda, D, Pi, Mu, ete.) involves the detection
+and computatlion of certain types of trajectories from among
+10-100,000 photographs of high bubble chamber tracks.
+
+This problem not only involves a large amount of data,
+but has strong requlrements for the machine to recognize
+characteristic patterns. This type of process (although once
+the pattern is recognized the computation is small) ean again
+severely tax the 704 facilities.

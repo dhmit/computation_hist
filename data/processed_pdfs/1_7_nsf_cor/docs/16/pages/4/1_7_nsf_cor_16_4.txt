@@ -1,0 +1,22 @@
+S
+
+6. Experimental analysis and control using data
+fransmitted directly between computer and experiment.
+
+T. Investigation of microprogramming and other methods
+for Increasing the flexibility of computer design. The possibility
+of inclusion of a very flexible control unit in a large-scale
+computer which would permit ready alteration of an order code.
+
+8. Investigation of techniques for intercommunication
+between computers, including the possibillity of cycles different - -
+in length or kind running simultaneously with frequent comparison,
+e.8. several single-accumulator computers with common memory ang .
+the behavior of a computer with multiple accumulators. Some of
+these properties can be simulated on a 704 by utilization of addi-
+tional drums and magnetic core banks.
+
+9. Computer estimation of problem time. In linear
+problems, estimations of bounds of certain functionals, and thence
+convergence criteria for terminating iteration, or switching to a
+different iteration. |

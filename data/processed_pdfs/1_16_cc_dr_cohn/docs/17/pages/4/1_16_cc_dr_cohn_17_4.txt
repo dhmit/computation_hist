@@ -1,0 +1,30 @@
+546 HARVEY COHN
+pr1> P,(e) by the irrationality of the 6, when k>1. If we let §
+= [Zi>ilpdi— pA)21V2/ (Z63)/* denote the distance from the lattice
+point (p:) to the line A(8:), then easily 7> 98 (since 7 is the maximum
+distance from a point of K*toA(®:)), and 8> [pV/4=V(ga+€) (267) /2],
+Therefore using the trivial relationships po= (EpHV22 py and Z6; <d
+we find po> [(ga+6) d—14(d=1/ 2pd—1]-1 This gives us a distance that thé
+convex body K* can attain without containing an interior lattice
+oint other than the origin. Thus it easily follows that Cd = C*=ca
+=(g ddll!)——(d—-l). : ~
+Even using Very simple methods, we can improve ca somewhat; but
+still, on the basis of present information on ga[2, p. 72], we can show
+only that as d—», log Ci/(d log d) lies between 1 /2 and —1. At
+any rate, the function Calre=% appearing in the main theorem, is
+seen to contain the best possible power of .-
+
+BIBLIOGRAPHY
+
+1. Harvey Cohn, On the finite determination of critical lattices, Proceedings of the
+American Mathematical Society vol. 2 (1951) pp. 547-549.
+
+2. J. F. Koksma, Diophantische A pproximalionen, Ergebnisse der Mathemgtik
+und ihrer Grenzgebiete, vol. 4, Berlin, 1936.
+
+3. H. Minkowski, Diophantische A pproximationen, Leipzig, 1907.
+4. C. A. Rogers, Existence theorems in the geometry of numbers, Ann. of Math.
+
+vol. 48 (1941) pp. 994-1002.
+
+WAYNE UNIVERSITY

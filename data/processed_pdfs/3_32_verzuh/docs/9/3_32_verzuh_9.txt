@@ -1,0 +1,124 @@
+OJ 2
+| ember 21, 1952
+
+To: Prof. R, E. Scott
+From: F. M, Verzuh
+
+Subject: Proposed Undergraduate Subject on Computation
+
+I
+EE ees TEEN EE mee GRR ER eer SR AR ee Ae TERR TEER SRE RRR Se RE GRE Wee eee ee SR es see Gee SR A SE eee ee eee ee eee EE ae ee ee. See a
+
+| At the recent meeting on November 19, attended by
+C. W. Adems, R, E. Scott and F. M. Verzuh, it was decided g
+
+that each of us would submit a brief description of the
+
+| probable content of the portion of the subject which they
+| would present, 1 am therefore attaching a description of
+
+| the punched-card portion. |
+
+/
+CC 3 frof. P, M, Morse
+Prof. G. SS. Brown
+
+| Fo M. V.
+|
+
+
+landlin
+
+  
+
+ 
+
+A study of punched~card equipment with specific
+
+ 
+
+ 
+
+emphasis on the principle of operation as well as the
+
+ 
+
+ 
+
+ 
+
+ 
+
+effective application,
+
+ 
+
+ 
+
+The following outline summarizes the functional
+
+ 
+
+ 
+
+capabilities which will be covered on each machine:
+
+ 
+
+Key Punch: Coding, key punching, printing, verifying,
+
+ 
+
+ 
+
+and the interpretation of data into punched
+
+ 
+
+cards.
+
+ 
+
+ 
+
+Sorter: Card counting, numeric and alphabetic sorting.
+
+ 
+
+ 
+
+ 
+
+Collator: Matching, merging, selection and comparison.
+
+ 
+
+Reproducer: Gang punching, summary punching, reproducing
+
+ 
+
+ 
+
+ 
+
+and comparison,
+
+ 
+
+ 
+
+ 
+
+ 
+
+Tabulator: Listing, group indication, printing, addi-
+tion, subtraction, selection and automatic
+contrel,
+
+Calculators: +, =, x, =, programming, selection,
+shifting operations by scltion of the same
+problem on each of the 602A, 604 and Card-
+
+Programmed Calculators,
+
+

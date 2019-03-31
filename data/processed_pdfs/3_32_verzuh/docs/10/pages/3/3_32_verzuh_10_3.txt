@@ -1,0 +1,58 @@
+l ; . liemorendum on the ll.i.'l‘. Differential Analyzer
+
+1.0 INTRODUCTION
+
+| This memorandum is prepared with two objectives im mind. First,
+
+‘ : & brief historical background of the Rockefeller Differential Analyzer
+(RDA) iz presented together with specific comments pertaining to the
+
+‘ | development period and pertinent factors associated with its operation
+during the past twelve years. Second, the recent dismantling and
+disposition of the RDA is described in some detail. In the discussion
+
+" - of the above items, frequent reference will be made to several memoranda
+which have been prepared on the machine during the past decade.
+
+‘ I think it is importamt that the Rockefeller Research Foundation
+| | be properly informed of the disposition of the Differential Analyzer
+
+since they were so helpful with financial contributions dm-tu its -
+‘ formative years.
+
+I 2.0 HISTORICAL BACKGROUND OF THE ROCKEFELLER DIFFERENTIAL ANALYZER
+
+, - ‘The original design and development of the Differential Analyzmer
+was initiated early in 1936, and several of the basic features of the
+
+[ machine were determined at that time. Specifically, the design of the
+servomechanism system which wegused to interconmnect the components of
+
+| the machine was developed during that pericd. This is mentioned simply
+to indicate that during recent years some of the maintenance problems
+
+' associated with the RDA were occasioned by the particular servomechanisas
+vhich were employed. Thess were vintage 1936, end as such, were not
+
+| competitive with post-World War II servomechanism design.
+
+The original Center of Analysis was formally organized by Professor 8. H.
+Celdwell in July, 1839 with the aid of & grant of $30,000 from the Carnegie
+Foundation. During its early, formative years, the Center existed largely
+on grants from the Rockefeller Foundation, Electrical Engineering Department,
+and other sources; and it was not until 1842 that the RDA was finally placed
+into operation. Begimning at that time, the RDA provided a source of
+financial revenue which assisted in the formulation of & self-supporting
+regime.
+
+During 1941, the activities of the Center (under the direction of
+R. Taylor) were expanded to include & large battery of desk calculators
+and associated personnel who were well advanced in the use of numerical
+analysis techniques. At that time, the Center contained 3 principal types
+of facilities:
+
+1. The Differential Analyser facility consisting of 2 machines:
+a) The original 6-Integrator Differential Amalyser,
+
+b) The new Rockefeller 18-Integrator Electromechanical
+Differantial Analymer.

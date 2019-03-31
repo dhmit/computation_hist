@@ -1,0 +1,66 @@
+il.
+
+Ill.
+
+Iv.
+
+VIi.
+
+ViI.
+
+ 
+
+Problem No. 2 - Design of Punched Card System to Handle
+
+Business Data Processing Work at the Eastern Joint Computer
+Conference
+
+This problem teaches the importance of overall flow
+charts ; the design of suitable IEM card layout Zorms, the
+preparation of accurate instructions for machine operating
+personnel, and the egtimation of the personnel and machine time
+
+. required to»handle the registration for 2,000 attendees at the
+
+conference.
+
+Problem No. 3 - The Solution of a First Order Differential
+Equation on the Type 650 Magnetic Drum Calculator
+
+The student is given a block diagram of a 650 program - -
+used to solve an ordinary differential equation using fourthe
+order Runge~Kutta formulae. As part of the assignment, the -
+student prepares the actual coding of the 650 preogram using
+basic language, prepares a test solution for this program,
+computes a few check points, debugs his program on the 650,
+and finally carries out the solution of this problem on the
+machine. After completing this particular experiment, the
+student has a very intimate knowledge of the G850 machine.
+
+Solution of an Ordinary Differential Equation on the 650
+
+The student solves the identical problem stated in the
+preceding section using the Card Programmed Calculator. This
+teaches them the difference between the internally-stored program
+features of the 650 and the card-programmed characteristics of
+the Caxrd Programmed Calculator.
+
+Evalugtion of the Roots of a 98 degree Polynomial
+
+A 650 program using the NOPI system was'prepared which
+evaluates the roots of the polynomlal using Hitchcock's method.
+
+Computation of the Actuarial Life Incurance Tesbles
+
+Since a high degree 0f accuracy in this computation was
+needed, the basic 650 language was modified to perform 20-digit
+arithmetic in the solution of this problem.
+
+ 
+
+Inversion of Matrices uging Modified Elimination Procedure
+
+A basic 650 program was prepared which automatically
+includes a 'pivotal-condensation' technique. This program
+correctly handles matyices which have zero elements on the
+Bein diagonzal.

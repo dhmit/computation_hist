@@ -1,0 +1,49 @@
+(INTER-DEPARTMENTAL)
+
+MASSACHUSETTS INSTITUTE OF TECHNOLOGY
+CAMBRIDGE, MASS.
+
+OFFICE OF Jack D, Porter August 23, 1954
+
+TO
+
+SUBJECT
+
+Prof., P. M, Morse
+6-109
+
+Request for WWI time from the Arenberg Ultrasonic Laboratory
+
+Attached is a description of a problem that has arisen in
+some development work being carried on by the Arenberg Ultrasonic
+Laboratory of Jamacia Plain, Ordinarily such a proposal from a
+private group outside M,I.T. would be rejected since the problem
+could be solved on commercially available machines. However, this
+problem is of great interest to two Lincoln Laboratory groups whose
+leaders have sent in confirming letters. As discussed in these
+letters, the use of commercially available machines would limit and
+retard the proposed program, Dr. Van Voorhis has suggested that Dr.
+Reed of his laboratory might help in setting up the problem.
+
+Because of the recommendations and beczuse we will have the
+computer time available, it would seem that we could cooperate with
+Mr, Arenberg in this project. The extent of this cooperation would,
+of course, depend on whether Arenberg's method is feasible and
+whether the amount of machine time required becomes excessive,
+
+In addition to the general question of whether we should accept
+this problem, there is also the question of whether we should require
+full compensation for WWI time according to our rates now being estab-
+lished, Mr. Arenberg has stated that under his present Air Force
+contract he could spend up to about $2,000 on computation. Any fur-
+ther funds would have to come from a new contract or from the interest-
+ed groups at Lincoln Laboratory. Whether these additional funds could
+be made available has not yet been determined.
+
+JDP: ed Jack D, Porter
+enclosures
+letters from L.D. Smullin
+
+S.N. Van Voorhis
+
+D.L. Arenberg
