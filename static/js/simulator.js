@@ -1362,13 +1362,22 @@ function LDQ(computer) {
     computer.mq_register.update_contents(computer.storage_register);
 }
 
+/**
+ * Emulates to IBM 704 Multiply (MPY) operation.
+ *
+ * Multiplies the fixed-point value of the storage register by the fixed-point value of the Multiplier-
+ * Quotient Register.  The 35 most significant bits are stored in the Accumulator, and the 35 least
+ * significant bits are placed in the Multiplier-Quotient Register.
+ *
+ * @param {IBM_704} computer    Machine to execute instruction on.
+ */
 function MPY(computer) {
     let result = computer.storage_register.fixed_point*computer.mq_register.fixed_point;
     if (result > 0) {
         computer.accumulator.fixed_point = Math.floor(result / 2 ** 35); // JS's bitshift doesn't go more than 32 places
     } else {
         computer.accumulator.fixed_point = Math.ceil(result / 2 ** 35); // due to how the IBM 704 represents
-        // negative numbers
+        // negative numbers; with a sign bit rather than two's complement
     }
     computer.mq_register.fixed_point = result;
 }
