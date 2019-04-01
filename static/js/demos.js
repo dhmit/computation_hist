@@ -106,11 +106,13 @@ function start_demo(demo_params) {
         update(computer, instructions, num_code_lines, highlighted_registers);
     });
     $('#run_button').on('click', () => {
+        computer.halt = false;
         computer.run();
         update(computer, instructions, num_code_lines, highlighted_registers);
 
     });
     $('#step_button').on('click', () => {
+        computer.halt = false;
         computer.step();
         update(computer, instructions, num_code_lines, highlighted_registers);
     });

@@ -1043,6 +1043,7 @@ class IBM_704 {
      * Run the computer.
      */
     run() {
+        this.halt = false;
         while (!this.halt) {
             this.step();
         }
@@ -1231,12 +1232,15 @@ function STO(computer, address) {
 /**
  * Emulates the IBM 704 HTR operation.
  *
- * Indicates the computer to halt.
+ * Indicates the computer to halt.  If the computer is continued (on the original machine, pressing
+ * the start key), the computer will begin executing from the indicated address.
  *
  * @param {IBM_704} computer    Machine to execute instruction on.
+ * @param {number}  address     Address to resume running from.
  */
-function HTR(computer) {
+function HTR(computer, address) {
     computer.halt = true;
+    computer.ilc.update_contents(address);
 }
 
 /**
