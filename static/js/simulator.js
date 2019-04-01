@@ -12,6 +12,7 @@ const no_to_operation_b = {
     0o401: ADM,
     0o534: LXA,
     0o300: FAD,
+    0o302: FSB,
     0o560: LDQ,
     0o4600: STQ,
     0o200: MPY,
@@ -38,7 +39,7 @@ for (let number in no_to_operation_a) {
     no_to_operation_a_str[number] = (no_to_operation_a[number]).name;
 }
 operation_a_to_no["PZE"] = 0b000; // hack for pseudoinstruction PZE
-const non_indexable = {"TIX": 0, "TNX": 0, "TXH": 0, "TXL": 0, "TXI": 0, "TSX":0, "LXA":0, "LXD":0, "SXD":0, "PXD":0, "PAX":0, "PDX":0};
+const non_indexable = {"TIX": 0, "TNX": 0, "TXH": 0, "TXL": 0, "TXI": 0, "TSX": 0, "LXA": 0, "LXD": 0, "SXD": 0, "PXD": 0, "PAX": 0, "PDX":0};
 
 // Exceptions
 const UNDEFINED_OPERATION_EXCEPTION = "Undefined operation!";
@@ -1335,10 +1336,9 @@ function LXA(computer, address, tag) {
  * which uses Javascript to get around all that might be off by a couple bits.
  *
  * @param {IBM_704} computer    Machine to execute instruction on.
- * @param {number}  address     Address of word to be added.
  */
-function FAD(computer, address) {
-    let sum = computer.general_memory[address].floating_point + computer.accumulator.floating_point;
+function FAD(computer) {
+    let sum = computer.storage_register.floating_point + computer.accumulator.floating_point;
     if (sum === 0) {
         computer.accumulator.fixed_point = 0;
         computer.mq_register.fixed_point = 0;
@@ -1354,6 +1354,19 @@ function FAD(computer, address) {
             computer.mq_register.store_floating_point(sum, 0);
         }
     }
+}
+
+/**
+ * Emulates the IBM 704 Floating Subtract (FSB) operation.
+ *
+ * Same as floating add except that the negative of the targeted address is placed in the
+ * storage register.
+ *
+ * @param {IBM_704} computer    Machine to execute instruction on.
+ */
+function FSB(computer) {
+    computer.storage_register.floating_point = -computer.storage_register.floating_point;
+    FAD(computer);
 }
 
 /**
