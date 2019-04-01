@@ -14,6 +14,7 @@ const no_to_operation_b = {
     0o300: FAD,
     0o560: LDQ,
     0o200: MPY,
+    0o220: DVH,
 };
 
 const no_to_operation_a = {
@@ -679,15 +680,14 @@ class Accumulator extends Word {
     }
 
     /**
-     * Get value of number stored in accumulator, interpreted as fixed point.  Note that the Q
-     * and P bits are not considered part of this value.  When storing from the accumulator to a
-     * word in the general memory, the Q and P bits should not be included.
+     * Get value of number stored in accumulator, interpreted as fixed point.  When storing from the
+     * accumulator to a word in the general memory, the Q and P bits should not be included.
      *
      * @returns {number}    Value of fixed-point accumulator.
      */
     get fixed_point() {
         let positive = this.contents[Accumulator.Sign] === "0";
-        let result = parseInt(this.contents.slice(3), 2);
+        let result = parseInt(this.contents.slice(1), 2);
         if (!positive) {
             result = -result;
         }
@@ -1085,6 +1085,7 @@ class IBM_704 {
      * @param {Array}  code_lines    Array of lines of code.
      */
     assemble(origin, code_lines) {
+        this.clear();
         let register = origin;
         for (let line_no in code_lines) {
             let line = code_lines[line_no];
@@ -1287,7 +1288,6 @@ function SUB(computer, address) {
  *
  * @param {IBM_704} computer    Machine to execute instruction on
  * @param {number}  address     The address of the value to add to the accumulator
- * @constructor
  */
 function SBM(computer, address) {
     computer.accumulator.fixed_point = computer.accumulator.fixed_point - Math.abs(computer.general_memory[address].fixed_point);
@@ -1380,6 +1380,35 @@ function MPY(computer) {
         // negative numbers; with a sign bit rather than two's complement
     }
     computer.mq_register.fixed_point = result;
+}
+
+function fixed_point_divide(computer) {
+    let dividend = computer.accumulator.fixed_point*(2**35);
+    if (dividend > 0 || Object.is(dividend, +0)) { // the sign of the MQ is ignored
+        dividend += Math.abs(computer.mq_register.fixed_point);
+    } else {
+        dividend -= Math.abs(computer.mq_register.fixed_point);
+    }
+    const divisor = computer.storage_register.fixed_point;
+
+    const remainder = dividend % divisor;
+    const quotient = (dividend - remainder)/divisor;
+
+    computer.mq_register.fixed_point = quotient;
+    computer.accumulator.fixed_point = remainder;
+}
+
+/**
+ *
+ * @param {IBM_704} computer
+ */
+function DVH(computer) {
+    if (Math.abs(computer.storage_register.fixed_point) > Math.abs(computer.accumulator.fixed_point)) {
+        fixed_point_divide(computer);
+    } else {
+        computer.halt = true;
+        computer.divide_check = true;
+    }
 }
 
 // Type A operations
