@@ -1467,12 +1467,16 @@ function DVP(computer) {
 // Type A operations
 
 /**
- * A dummy function for testing Type A instructions.
+ * Emulates the IBM 704 Transfer on No Index (TNX) operation.
  *
- * @param computer
- * @param address
- * @param tag
- * @param decrement
+ * If the number in the specified index register is equal to or less than the decrement, the number
+ * in the index register is unchanged, the calculator takes the next instruction from specified address and
+ * proceeds from there.  Not indexable.
+ *
+ * @param {IBM_704} computer    Machine to execute instruction on.
+ * @param {number}  address     Address to jump to if index register is less than or equal to decrement.
+ * @param {number}  tag         Specifies desired index register to decrement.
+ * @param {number}  decrement   Amount to decrement by.
  */
 function TNX(computer, address, tag, decrement) {
     let index_register = computer.get_tag(tag);
@@ -1487,8 +1491,8 @@ function TNX(computer, address, tag, decrement) {
  * Emulates the IBM 704 Transfer on Index (TIX) operation.
  *
  * If the number in the specified index register is greater than the decrement, the number in the
- * index register is reduced by the amount of the decrement and the calculator takes the next instruction from
- * location Y and proceeds from there.  Not indexable.
+ * index register is reduced by the amount of the decrement and the calculator takes the next instruction
+ * from specified address and proceeds from there.  Not indexable.
  *
  * @param {IBM_704} computer    Machine to execute instruction on.
  * @param {number}  address     Address to jump to if index register is greater than decrement.
