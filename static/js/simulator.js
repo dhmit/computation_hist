@@ -13,6 +13,7 @@ const no_to_operation_b = {
     0o534: LXA,
     0o300: FAD,
     0o560: LDQ,
+    0o200: MPY,
 };
 
 const no_to_operation_a = {
@@ -596,19 +597,19 @@ class General_Word extends Word {
     }
 
     /**
-     * Stores a fixed point number into the word.
+     * Stores a fixed point number into the word.  Be sure to distinguish positive and negative zero.
      *
      * @param {number} number       Number to be stored.
      */
     set fixed_point(number) {
         var sign_bit = "";
-        if (number < 0) {
+        if (number < 0 || Object.is(number, -0)) {
             sign_bit = "1";
         } else {
             sign_bit = "0";
         }
-        let unsigned_binary_rep = convert_to_binary(Math.abs(number), 35);
-        let binary_rep = sign_bit + unsigned_binary_rep;
+        let unsigned_binary_rep = convert_to_binary(Math.abs(number), 36);
+        let binary_rep = replaceAt(unsigned_binary_rep, unsigned_binary_rep.length - 36, sign_bit);
         this.update_contents(binary_rep);
     }
 
@@ -696,13 +697,13 @@ class Accumulator extends Word {
     /**
      * Set value of accumulator to some number.  Note that while the P and Q bits will be
      * updated to indicate overflow, they won't be copied back into the general memory if you
-     * call STO.
+     * use STO.
      *
      * @param {number}  number  Value to be stored in accumulator.
      */
     set fixed_point(number) {
         let sign_bit = "";
-        if (number < 0) {
+        if (number < 0 || Object.is(number, -0)) {
             sign_bit = "1";
         } else {
             sign_bit = "0";
@@ -1361,6 +1362,17 @@ function LDQ(computer) {
     computer.mq_register.update_contents(computer.storage_register);
 }
 
+function MPY(computer) {
+    let result = computer.storage_register.fixed_point*computer.mq_register.fixed_point;
+    if (result > 0) {
+        computer.accumulator.fixed_point = Math.floor(result / 2 ** 35); // JS's bitshift doesn't go more than 32 places
+    } else {
+        computer.accumulator.fixed_point = Math.ceil(result / 2 ** 35); // due to how the IBM 704 represents
+        // negative numbers
+    }
+    computer.mq_register.fixed_point = result;
+}
+
 // Type A operations
 
 /**
@@ -1410,10 +1422,8 @@ class Assembly_Line {
      * @param {string}             description              Short description of line to be displayed at top of page.
      */
     constructor(instruction, description = undefined) {
-
         this.description = description;
         this.instruction = instruction;
-
     }
 
     /**
