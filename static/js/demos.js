@@ -22,7 +22,7 @@ const assembly_addition_demo_params = {
 
 const floating_point_operations_demo_params = {
     computer_size: 13,
-    num_code_lines: 2,
+    num_code_lines: 3,
     highlighted_registers: [12],
     initial_memory_values: [],
     instructions: [
