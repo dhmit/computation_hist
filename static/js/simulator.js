@@ -1388,7 +1388,7 @@ function STQ(computer, address) {
  * @param {IBM_704} computer    Machine to execute instruction on.
  */
 function MPY(computer) {
-    let result = computer.storage_register.fixed_point*computer.mq_register.fixed_point;
+    const result = computer.storage_register.fixed_point * computer.mq_register.fixed_point;
     if (result > 0) {
         computer.accumulator.fixed_point = Math.floor(result / 2 ** 35); // JS's bitshift doesn't go more than 32 places
     } else {
