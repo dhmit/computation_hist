@@ -3,8 +3,6 @@ python:
   - "3.6"
 
 before_install:
-  - sudo apt-get update
-  - sudo apt-get install sqlite3=3.8.3
   - export DJANGO_SETTINGS_MODULE='config.settings'
 
 install:

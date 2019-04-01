@@ -1,5 +1,5 @@
 dh_testers
-django>=2.1
+django=2.1
 django_jinja>=2.4.1
 google-api-python-client
 ipython
