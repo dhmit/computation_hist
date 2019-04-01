@@ -704,7 +704,7 @@ class Accumulator extends Word {
      * @param {number}  number  Value to be stored in accumulator.
      */
     set fixed_point(number) {
-        let sign_bit = "";
+        let sign_bit;
         if (number < 0 || Object.is(number, -0)) {
             sign_bit = "1";
         } else {
@@ -793,8 +793,7 @@ class Accumulator extends Word {
      * @param {General_Word} word   Word to be stored.
      */
     store_general_word(word) {
-        let new_contents = "";
-        new_contents += word.contents[0];
+        let new_contents = word.contents[0];
         new_contents += this.contents[1] + this.contents[2];
         new_contents += word.contents.substring(1);
         this.update_contents(new_contents);
@@ -852,14 +851,13 @@ class Instruction_Register extends Word {
      * @param {string/General_Word}  word     Instruction to be stored in instruction register.
      */
     store_instruction_b(word) {
-        let result = "";
         let instruction;
         if (typeof word === "object") {
             instruction = word.contents;
         } else {
             instruction = word;
         }
-        result += instruction[0];
+        let result = instruction[0];
         result += instruction.substring(3, 12);
         length = result.length;
         for (let i = 0; i < 18 - length; i++) {
