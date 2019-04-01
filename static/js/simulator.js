@@ -16,6 +16,7 @@ const no_to_operation_b = {
     0o4600: STQ,
     0o200: MPY,
     0o220: DVH,
+    0o221: DVP,
 };
 
 const no_to_operation_a = {
@@ -1274,7 +1275,6 @@ function ADD(computer, address) {
  *
  * @param {IBM_704} computer    Machine to execute instruction on
  * @param {number}  address     The address of the value to subtract from the accumulator
- * @constructor
  */
 
 function SUB(computer, address) {
@@ -1368,7 +1368,7 @@ function STQ(computer, address) {
 }
 
 /**
- * Emulates to IBM 704 Multiply (MPY) operation.
+ * Emulates the IBM 704 Multiply (MPY) operation.
  *
  * Multiplies the fixed-point value of the storage register by the fixed-point value of the Multiplier-
  * Quotient Register.  The 35 most significant bits are stored in the Accumulator, and the 35 least
@@ -1412,6 +1412,14 @@ function DVH(computer) {
         fixed_point_divide(computer);
     } else {
         computer.halt = true;
+        computer.divide_check = true;
+    }
+}
+
+function DVP(computer) {
+    if (Math.abs(computer.storage_register.fixed_point) > Math.abs(computer.accumulator.fixed_point)) {
+        fixed_point_divide(computer);
+    } else {
         computer.divide_check = true;
     }
 }
