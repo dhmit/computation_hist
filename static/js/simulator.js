@@ -13,6 +13,7 @@ const no_to_operation_b = {
     0o534: LXA,
     0o300: FAD,
     0o560: LDQ,
+    0o4600: STQ,
     0o200: MPY,
     0o220: DVH,
 };
@@ -1360,6 +1361,10 @@ function FAD(computer, address) {
  */
 function LDQ(computer) {
     computer.mq_register.update_contents(computer.storage_register);
+}
+
+function STQ(computer, address) {
+    computer.general_memory[address].update_contents(computer.mq_register);
 }
 
 /**
