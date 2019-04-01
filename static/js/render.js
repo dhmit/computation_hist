@@ -31,7 +31,7 @@ function update_computer_display(computer, highlighted_registers = []) {
         general_memory_html[i].title += "\r\nFixed Point: " + computer.general_memory[i].fixed_point;
         general_memory_html[i].title += "\r\nFloating Point: " + computer.general_memory[i].floating_point;
         if (highlighting) {
-            if (i === computer.ilc.valueOf() && !computer.halt) {
+            if (i === computer.ilc.valueOf()) {
                 general_memory_html[i].style.backgroundColor = "deepskyblue";
             } else if (i === next_instruction_address && !computer.halt) {
                 general_memory_html[i].style.backgroundColor = "#ff0066";

@@ -1475,7 +1475,12 @@ function DVP(computer) {
  * @param decrement
  */
 function TNX(computer, address, tag, decrement) {
-    console.log("TNX called");
+    let index_register = computer.get_tag(tag);
+    if (index_register.valueOf() <= decrement) {
+        computer.ilc.update_contents(address);
+    } else {
+        index_register.update_contents(index_register.valueOf() - decrement);
+    }
 }
 
 /**
