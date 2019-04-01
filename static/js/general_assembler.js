@@ -70,6 +70,10 @@ function start() {
         computer.step();
         update(computer);
     });
+    $('#highlight_button').on('click', () => {
+        highlighting = !highlighting;
+        update(computer);
+    });
     expand_text_area("code_box");
     display_operations();
     update(computer);

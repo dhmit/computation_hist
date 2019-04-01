@@ -116,6 +116,10 @@ function start_demo(demo_params) {
         computer.step();
         update(computer, instructions, num_code_lines, highlighted_registers);
     });
+    $('#highlight_button').on('click', () => {
+        highlighting = !highlighting;
+        update(computer, instructions, num_code_lines, highlighted_registers);
+    });
     common_start(computer);
     reset(computer, instructions, initial_memory_values);
     update(computer, instructions, num_code_lines);
