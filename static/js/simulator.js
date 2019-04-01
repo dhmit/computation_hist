@@ -1465,6 +1465,13 @@ function DVP(computer) {
     }
 }
 
+/**
+ * Emulates the IBM 704 Transfer (TRA) operation.  Instruction Location Counter jumps to specified
+ * address.
+ *
+ * @param {IBM_704} computer    Machine to execute instruction on.
+ * @param {number}  address     Address to jump to.
+ */
 function TRA(computer, address) {
     computer.ilc.update_contents(address);
 }
