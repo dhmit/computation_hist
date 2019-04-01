@@ -1224,7 +1224,8 @@ class IBM_704 {
  * @param {IBM_704} computer    Machine to execute instruction on.
  */
 function STO(computer, address) {
-    computer.general_memory[address].fixed_point = computer.accumulator.fixed_point;
+    computer.general_memory[address].fixed_point = computer.accumulator.fixed_point; // ensures correct
+    // copying of sign bit but not P or Q bits
 }
 
 /**
@@ -1363,6 +1364,14 @@ function LDQ(computer) {
     computer.mq_register.update_contents(computer.storage_register);
 }
 
+/**
+ * Emulates the IBM 704 Store MQ (STQ) operation.
+ *
+ * Stores the value of the Multiplier-Quotient Register into General Memory at the specified address.
+ *
+ * @param {IBM_704} computer    Machine to execute instruction on.
+ * @param {number}  address     Address of word to be changed.
+ */
 function STQ(computer, address) {
     computer.general_memory[address].update_contents(computer.mq_register);
 }
@@ -1387,6 +1396,14 @@ function MPY(computer) {
     computer.mq_register.fixed_point = result;
 }
 
+/**
+ * The fixed-point division routine used by both DVH and DVP. The Accumulator and Multiplier-Quotient Register
+ * are treated as a single 72-bit dividend to be divided by the Storage Register. The quotient is
+ * stored in the Multiplier-Quotient Register, and the remainder is stored in the Accumulator, with
+ * both having the same sign.
+ *
+ * @param {IBM_704} computer    Machine to execute instruction on.
+ */
 function fixed_point_divide(computer) {
     let dividend = computer.accumulator.fixed_point*(2**35);
     if (dividend > 0 || Object.is(dividend, +0)) { // the sign of the MQ is ignored
@@ -1404,8 +1421,16 @@ function fixed_point_divide(computer) {
 }
 
 /**
+ * Emulates the IBM 704 Divide or Halt (DVH) operation.
  *
- * @param {IBM_704} computer
+ * The Accumulator and Multiplier-Quotient Register are treated as a single 72-bit dividend to be divided by the
+ * Storage Register. The quotient is stored in the Multiplier-Quotient Register, and the remainder is stored in the
+ * Accumulator, with both having the same sign.
+ *
+ * If the Accumulator is greater than the Storage Register, then the quotient will not fit into the MQ
+ * Register.  In this case, the computer will halt and turn on the Divide-Check Indicator Light.
+ *
+ * @param {IBM_704} computer    Machine to execute instruction on.
  */
 function DVH(computer) {
     if (Math.abs(computer.storage_register.fixed_point) > Math.abs(computer.accumulator.fixed_point)) {
@@ -1416,6 +1441,19 @@ function DVH(computer) {
     }
 }
 
+/**
+ * Emulates the IBM 704 Divide or Proceed (DVP) operation.
+ *
+ * The Accumulator and Multiplier-Quotient Register are treated as a single 72-bit dividend to be divided by the
+ * Storage Register. The quotient is stored in the Multiplier-Quotient Register, and the remainder is stored in the
+ * Accumulator, with both having the same sign.
+ *
+ * If the Accumulator is greater than the Storage Register, then the quotient will not fit into the MQ
+ * Register.  In this case, the computer will turn on the Divide-Check Indicator Light and proceed to
+ * the next instruction.
+ *
+ * @param {IBM_704} computer    Machine to execute instruction on.
+ */
 function DVP(computer) {
     if (Math.abs(computer.storage_register.fixed_point) > Math.abs(computer.accumulator.fixed_point)) {
         fixed_point_divide(computer);
