@@ -16,6 +16,7 @@ const no_to_operation_b = {
     0o560: LDQ,
     0o4600: STQ,
     0o200: MPY,
+    0o260: FMP,
     0o220: DVH,
     0o221: DVP,
     0o020: TRA,
@@ -622,7 +623,7 @@ class General_Word extends Word {
      * Stores a number in floating-point format into the word.  The number will always be normalized,
      * which means that the fraction will be between 1/2 and 1.
      *
-     * Note: You cannot set a floating point number to 0.
+     * Note: You cannot set a floating point number to 0 in this way.
      *
      * @param {number}  number      Number to be stored.
      */
@@ -634,8 +635,7 @@ class General_Word extends Word {
 
     /**
      * Stores a number in floating-point format into the word with a specific characteristic.  Generally,
-     * using the floating_point function is preferred because the word will be normalized.  Note: You
-     * cannot set a floating point number to 0.
+     * using the floating_point function is preferred because the word will be normalized.
      *
      * @param {number} number           Number to be stored.
      * @param {number} characteristic   Characteristic of floating point number when stored.  (Check MD
@@ -1338,7 +1338,7 @@ function LXA(computer, address, tag) {
  * @param {IBM_704} computer    Machine to execute instruction on.
  */
 function FAD(computer) {
-    let sum = computer.storage_register.floating_point + computer.accumulator.floating_point;
+    const sum = computer.storage_register.floating_point + computer.accumulator.floating_point;
     if (sum === 0) {
         computer.accumulator.fixed_point = 0;
         computer.mq_register.fixed_point = 0;
@@ -1346,7 +1346,7 @@ function FAD(computer) {
         computer.accumulator.floating_point = sum;
         // the point of this is to get the floating point inaccuracy.  Of course, JavaScript has its own floating point issues...
         if (computer.accumulator.floating_point !== 0) {
-            let remainder = result - computer.accumulator.floating_point;
+            let remainder = sum - computer.accumulator.floating_point;
             let exponent = Math.floor(Math.log2(Math.abs(sum))) + 1;
             let characteristic = exponent + 128 - 27;
             computer.mq_register.store_floating_point(remainder, characteristic);
@@ -1410,6 +1410,24 @@ function MPY(computer) {
         // negative numbers; with a sign bit rather than two's complement
     }
     computer.mq_register.fixed_point = result;
+}
+
+function FMP(computer) {
+    const product = computer.storage_register.floating_point * computer.mq_register.floating_point;
+    if (product === 0) {
+        computer.accumulator.fixed_point = 0;
+        computer.mq_register.fixed_point = 0;
+    } else {
+        computer.accumulator.floating_point = product;
+        if (computer.accumulator.floating_point !== 0) {
+            let remainder = product - computer.accumulator.floating_point;
+            let exponent = Math.floor(Math.log2(Math.abs(product))) + 1;
+            let characteristic = exponent + 128 - 27;
+            computer.mq_register.store_floating_point(remainder, characteristic);
+        } else {
+            computer.mq_register.store_floating_point(product, 0);
+        }
+    }
 }
 
 /**
