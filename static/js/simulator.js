@@ -1412,6 +1412,17 @@ function MPY(computer) {
     computer.mq_register.fixed_point = result;
 }
 
+/**
+ * Emulates the IBM 704 Floating Multiply (FPY) operation.
+ *
+ * Multiplies the floating point value of word at specified address by the MQ register, and stores the result
+ * in floating point in the accumulator and the MQ register so that the MQ register contains floating
+ * point error.  This process involved a complex series of bit manipulations, so this implementation
+ * which uses Javascript to get around all that might be off by a couple bits.  In addition, unlike
+ * the original machine, this will normalize the product even if the multiplicands are not normalized.
+ *
+ * @param {IBM_704} computer    Machine to execute instruction on.
+ */
 function FMP(computer) {
     const product = computer.storage_register.floating_point * computer.mq_register.floating_point;
     if (product === 0) {
