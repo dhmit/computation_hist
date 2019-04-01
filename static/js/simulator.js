@@ -17,6 +17,7 @@ const no_to_operation_b = {
     0o200: MPY,
     0o220: DVH,
     0o221: DVP,
+    0o020: TRA,
 };
 
 const no_to_operation_a = {
@@ -1462,6 +1463,10 @@ function DVP(computer) {
     } else {
         computer.divide_check = true;
     }
+}
+
+function TRA(computer, address) {
+    computer.ilc.update_contents(address);
 }
 
 // Type A operations
