@@ -165,9 +165,9 @@ class Word {
         if (typeof word2 === "object") {
             word2 = word2.contents;
         }
-        var sum = "";
+        let sum = "";
 
-        var carry_1 = false;
+        let carry_1 = false;
         for (let i = 0; i < Math.min(word1.length, word2.length); i++) {
             let index_1 = word1.length - 1 - i;
             let index_2 = word2.length - 1 - i;
@@ -563,7 +563,7 @@ class General_Word extends Word {
      */
     get fixed_point() { // getter and setter is sort of like a union in C
         let binary_rep = this.contents;
-        var positive;
+        let positive;
         if (binary_rep.length === 36) {
             positive = binary_rep[0] === "0";
             binary_rep = binary_rep.substring(1);
@@ -605,7 +605,7 @@ class General_Word extends Word {
      * @param {number} number       Number to be stored.
      */
     set fixed_point(number) {
-        var sign_bit = "";
+        let sign_bit;
         if (number < 0 || Object.is(number, -0)) {
             sign_bit = "1";
         } else {
@@ -640,7 +640,7 @@ class General_Word extends Word {
      * for more info.)
      */
     store_floating_point(number, characteristic) {
-        var sign_bit;
+        let sign_bit;
         if (number < 0) {
             sign_bit = "1";
         } else {
@@ -747,7 +747,7 @@ class Accumulator extends Word {
      * @param {number}  number      Number to be stored.
      */
     set floating_point(number) {
-        var sign_bit;
+        let sign_bit;
         if (number < 0) {
             sign_bit = "1";
         } else {
