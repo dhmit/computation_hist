@@ -1,0 +1,83 @@
+{% extends "base.jinja2" %}
+
+{% block table %}
+    {% block extra_stuff_at_top %}{% endblock %}
+    <div class = "col-sm-12 text-center bg-light border border-primary" id = "line_desc"></div>
+    <br />
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
+                <h3>Code</h3>
+                {% block code %}
+                {% endblock %}
+            <br />
+            <h4>Help</h4>
+            <p>Instruction to be executed next is highlighted in <span style = "background-color: deepskyblue">blue</span>.</p>
+            <p>Target address of instruction to be executed next is highlighted in <span style = "background-color: #ff0066">pink</span>.</p>
+            <p>Mouse over words (the binary numbers) to see how they could be interpreted.</p>
+            <br />
+            </div>
+            <div class="col-sm-6">
+                <h3>General Memory</h3>
+                <div class="pre-scrollable" id="general_memory_div"></div>
+                <br />
+            </div>
+            <div class="col-sm-3 other_registers">
+                <h3>Other Registers: </h3>
+                <p>Instruction Location Counter: <span id="instruction_location_counter"></span></p>
+                <p>Instruction Register: <span id="instruction_register"></span></p>
+                <p>Storage Register: <span id="storage_register"></span></p>
+                <p>Accumulator: <span id="accumulator"></span></p>
+                <p>Multiplier-Quotient Register: <span id="mq_register"></span></p>
+                <p>Index Register A: <span id="index_a"></span></p>
+                <p>Index Register B: <span id="index_b"></span></p>
+                <p>Index Register C: <span id="index_c"></span></p>
+                <br />
+            </div>
+        </div>
+        <div class = "col-sm-12">
+            <button id="assemble_button">Assemble</button>
+            <button id="step_button">Step</button>
+            <button id="run_button">Run</button>
+            {% if simulation_name == 'general_assembler' %}
+                <button id="clear_button">Clear</button>
+            {% else %}
+            <button id="reset_button">Reset</button>
+            {% endif %}
+            <button id="highlight_button">Turn highlighting on or off</button>
+        </div>
+    </div>
+    <br />
+    <div class = "jumbotron text-left">{% block description %}{% endblock %}</div>
+    {% endblock %}
+
+{% block scripts %}
+    <script src="{{ static('js/simulator.js')}}"></script>
+    <script></script>
+
+    {% if simulation_name == 'general_assembler' %}
+        <script src="{{ static('js/general_assembler.js')}}"></script>
+        <script>$(document).ready(start);</script>
+    {% else %}
+        <script src="{{ static('js/demos.js')}}"></script>
+        <script>
+            {% if simulation_name == 'assembly_addition' %}
+                $(document).ready(() => {
+                    start_demo(assembly_addition_demo_params);
+                });
+            {% elif simulation_name == 'floating_point_operations' %}
+                $(document).ready(() => {
+                    start_demo(floating_point_operations_demo_params );
+                });
+            {% elif simulation_name == 'looping_with_tix' %}
+                $(document).ready(() => {
+                    start_demo(looping_with_tix_demo_params);
+                });
+
+            {% endif %}
+
+        </script>
+    {% endif %}
+    <script src="{{ static('js/render.js')}}"></script>
+
+{% endblock %}
