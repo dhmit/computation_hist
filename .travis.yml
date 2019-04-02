@@ -9,6 +9,9 @@ python:
 
 before_install:
   - export DJANGO_SETTINGS_MODULE='config.settings'
+  - wget http://chromedriver.storage.googleapis.com/2.45/chromedriver_linux64.zip
+  - unzip chromedriver_linux64.zip -d /home/travis/virtualenv/python3.6.7/bin/
+  - export CHROME_BIN=chromium-browser
 
 install:
   - pip install -r requirements.txt
