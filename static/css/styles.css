@@ -1,4 +1,20 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
 body {
     background-color: bisque;
     font-family: 'Book Antiqua';
+    margin-bottom: 120px; /* Margin bottom = footer height */
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-img {
+     height: 80px;
 }

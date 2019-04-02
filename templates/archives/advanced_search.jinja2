@@ -125,6 +125,10 @@
                     </table>
                 </div>
             {% endfor %}
+
+            {% if not results %}
+                <h3>There are no documents that match your search.</h3>
+            {% endif %}
         </div>
         </div>
         </div>
