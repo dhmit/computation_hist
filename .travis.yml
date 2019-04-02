@@ -3,6 +3,7 @@ branches:
   - master
   - /.*(?i:travis).*$/ # branch name contains case-insensitive substring travis
 
+
 language: python
 python:
   - "3.6"
