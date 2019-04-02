@@ -1,4 +1,4 @@
-var highlighting = true;
+let highlighting = true;
 
 
 /**
@@ -86,8 +86,6 @@ function update_computer_display(computer, highlighted_registers = []) {
  * Sets up general elements of page when loaded.
  */
 function common_start(computer) {
-    $('#highlight_button').on('click', function() { highlighting = !highlighting; update(); });
-
     create_memory_display(computer);
 }
 

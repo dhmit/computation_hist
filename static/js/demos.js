@@ -22,7 +22,7 @@ const assembly_addition_demo_params = {
 
 const floating_point_operations_demo_params = {
     computer_size: 13,
-    num_code_lines: 2,
+    num_code_lines: 3,
     highlighted_registers: [12],
     initial_memory_values: [],
     instructions: [
@@ -106,12 +106,18 @@ function start_demo(demo_params) {
         update(computer, instructions, num_code_lines, highlighted_registers);
     });
     $('#run_button').on('click', () => {
+        computer.halt = false;
         computer.run();
         update(computer, instructions, num_code_lines, highlighted_registers);
 
     });
     $('#step_button').on('click', () => {
+        computer.halt = false;
         computer.step();
+        update(computer, instructions, num_code_lines, highlighted_registers);
+    });
+    $('#highlight_button').on('click', () => {
+        highlighting = !highlighting;
         update(computer, instructions, num_code_lines, highlighted_registers);
     });
     common_start(computer);

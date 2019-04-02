@@ -13,6 +13,10 @@ const no_to_operation_b = {
     0o534: LXA,
     0o300: FAD,
     0o560: LDQ,
+    0o4600: STQ,
+    0o200: MPY,
+    0o220: DVH,
+    0o221: DVP,
 };
 
 const no_to_operation_a = {
@@ -161,9 +165,9 @@ class Word {
         if (typeof word2 === "object") {
             word2 = word2.contents;
         }
-        var sum = "";
+        let sum = "";
 
-        var carry_1 = false;
+        let carry_1 = false;
         for (let i = 0; i < Math.min(word1.length, word2.length); i++) {
             let index_1 = word1.length - 1 - i;
             let index_2 = word2.length - 1 - i;
@@ -559,7 +563,7 @@ class General_Word extends Word {
      */
     get fixed_point() { // getter and setter is sort of like a union in C
         let binary_rep = this.contents;
-        var positive;
+        let positive;
         if (binary_rep.length === 36) {
             positive = binary_rep[0] === "0";
             binary_rep = binary_rep.substring(1);
@@ -596,19 +600,19 @@ class General_Word extends Word {
     }
 
     /**
-     * Stores a fixed point number into the word.
+     * Stores a fixed point number into the word.  Be sure to distinguish positive and negative zero.
      *
      * @param {number} number       Number to be stored.
      */
     set fixed_point(number) {
-        var sign_bit = "";
-        if (number < 0) {
+        let sign_bit;
+        if (number < 0 || Object.is(number, -0)) {
             sign_bit = "1";
         } else {
             sign_bit = "0";
         }
-        let unsigned_binary_rep = convert_to_binary(Math.abs(number), 35);
-        let binary_rep = sign_bit + unsigned_binary_rep;
+        let unsigned_binary_rep = convert_to_binary(Math.abs(number), 36);
+        let binary_rep = replaceAt(unsigned_binary_rep, unsigned_binary_rep.length - 36, sign_bit);
         this.update_contents(binary_rep);
     }
 
@@ -636,7 +640,7 @@ class General_Word extends Word {
      * for more info.)
      */
     store_floating_point(number, characteristic) {
-        var sign_bit;
+        let sign_bit;
         if (number < 0) {
             sign_bit = "1";
         } else {
@@ -678,15 +682,14 @@ class Accumulator extends Word {
     }
 
     /**
-     * Get value of number stored in accumulator, interpreted as fixed point.  Note that the Q
-     * and P bits are not considered part of this value.  When storing from the accumulator to a
-     * word in the general memory, the Q and P bits should not be included.
+     * Get value of number stored in accumulator, interpreted as fixed point.  When storing from the
+     * accumulator to a word in the general memory, the Q and P bits should not be included.
      *
      * @returns {number}    Value of fixed-point accumulator.
      */
     get fixed_point() {
         let positive = this.contents[Accumulator.Sign] === "0";
-        let result = parseInt(this.contents.slice(3), 2);
+        let result = parseInt(this.contents.slice(1), 2);
         if (!positive) {
             result = -result;
         }
@@ -696,13 +699,13 @@ class Accumulator extends Word {
     /**
      * Set value of accumulator to some number.  Note that while the P and Q bits will be
      * updated to indicate overflow, they won't be copied back into the general memory if you
-     * call STO.
+     * use STO.
      *
      * @param {number}  number  Value to be stored in accumulator.
      */
     set fixed_point(number) {
-        let sign_bit = "";
-        if (number < 0) {
+        let sign_bit;
+        if (number < 0 || Object.is(number, -0)) {
             sign_bit = "1";
         } else {
             sign_bit = "0";
@@ -744,7 +747,7 @@ class Accumulator extends Word {
      * @param {number}  number      Number to be stored.
      */
     set floating_point(number) {
-        var sign_bit;
+        let sign_bit;
         if (number < 0) {
             sign_bit = "1";
         } else {
@@ -790,8 +793,7 @@ class Accumulator extends Word {
      * @param {General_Word} word   Word to be stored.
      */
     store_general_word(word) {
-        let new_contents = "";
-        new_contents += word.contents[0];
+        let new_contents = word.contents[0];
         new_contents += this.contents[1] + this.contents[2];
         new_contents += word.contents.substring(1);
         this.update_contents(new_contents);
@@ -849,14 +851,13 @@ class Instruction_Register extends Word {
      * @param {string/General_Word}  word     Instruction to be stored in instruction register.
      */
     store_instruction_b(word) {
-        let result = "";
         let instruction;
         if (typeof word === "object") {
             instruction = word.contents;
         } else {
             instruction = word;
         }
-        result += instruction[0];
+        let result = instruction[0];
         result += instruction.substring(3, 12);
         length = result.length;
         for (let i = 0; i < 18 - length; i++) {
@@ -1040,6 +1041,7 @@ class IBM_704 {
      * Run the computer.
      */
     run() {
+        this.halt = false;
         while (!this.halt) {
             this.step();
         }
@@ -1084,6 +1086,7 @@ class IBM_704 {
      * @param {Array}  code_lines    Array of lines of code.
      */
     assemble(origin, code_lines) {
+        this.clear();
         let register = origin;
         for (let line_no in code_lines) {
             let line = code_lines[line_no];
@@ -1220,18 +1223,22 @@ class IBM_704 {
  * @param {IBM_704} computer    Machine to execute instruction on.
  */
 function STO(computer, address) {
-    computer.general_memory[address].fixed_point = computer.accumulator.fixed_point;
+    computer.general_memory[address].fixed_point = computer.accumulator.fixed_point; // ensures correct
+    // copying of sign bit but not P or Q bits
 }
 
 /**
  * Emulates the IBM 704 HTR operation.
  *
- * Indicates the computer to halt.
+ * Indicates the computer to halt.  If the computer is continued (on the original machine, pressing
+ * the start key), the computer will begin executing from the indicated address.
  *
  * @param {IBM_704} computer    Machine to execute instruction on.
+ * @param {number}  address     Address to resume running from.
  */
-function HTR(computer) {
+function HTR(computer, address) {
     computer.halt = true;
+    computer.ilc.update_contents(address);
 }
 
 /**
@@ -1271,7 +1278,6 @@ function ADD(computer, address) {
  *
  * @param {IBM_704} computer    Machine to execute instruction on
  * @param {number}  address     The address of the value to subtract from the accumulator
- * @constructor
  */
 
 function SUB(computer, address) {
@@ -1286,7 +1292,6 @@ function SUB(computer, address) {
  *
  * @param {IBM_704} computer    Machine to execute instruction on
  * @param {number}  address     The address of the value to add to the accumulator
- * @constructor
  */
 function SBM(computer, address) {
     computer.accumulator.fixed_point = computer.accumulator.fixed_point - Math.abs(computer.general_memory[address].fixed_point);
@@ -1361,6 +1366,104 @@ function LDQ(computer) {
     computer.mq_register.update_contents(computer.storage_register);
 }
 
+/**
+ * Emulates the IBM 704 Store MQ (STQ) operation.
+ *
+ * Stores the value of the Multiplier-Quotient Register into General Memory at the specified address.
+ *
+ * @param {IBM_704} computer    Machine to execute instruction on.
+ * @param {number}  address     Address of word to be changed.
+ */
+function STQ(computer, address) {
+    computer.general_memory[address].update_contents(computer.mq_register);
+}
+
+/**
+ * Emulates the IBM 704 Multiply (MPY) operation.
+ *
+ * Multiplies the fixed-point value of the storage register by the fixed-point value of the Multiplier-
+ * Quotient Register.  The 35 most significant bits are stored in the Accumulator, and the 35 least
+ * significant bits are placed in the Multiplier-Quotient Register.
+ *
+ * @param {IBM_704} computer    Machine to execute instruction on.
+ */
+function MPY(computer) {
+    const result = computer.storage_register.fixed_point * computer.mq_register.fixed_point;
+    if (result > 0) {
+        computer.accumulator.fixed_point = Math.floor(result / 2 ** 35); // JS's bitshift doesn't go more than 32 places
+    } else {
+        computer.accumulator.fixed_point = Math.ceil(result / 2 ** 35); // due to how the IBM 704 represents
+        // negative numbers; with a sign bit rather than two's complement
+    }
+    computer.mq_register.fixed_point = result;
+}
+
+/**
+ * The fixed-point division routine used by both DVH and DVP. The Accumulator and Multiplier-Quotient Register
+ * are treated as a single 72-bit dividend to be divided by the Storage Register. The quotient is
+ * stored in the Multiplier-Quotient Register, and the remainder is stored in the Accumulator, with
+ * both having the same sign.
+ *
+ * @param {IBM_704} computer    Machine to execute instruction on.
+ */
+function fixed_point_divide(computer) {
+    let dividend = computer.accumulator.fixed_point*(2**35);
+    if (dividend > 0 || Object.is(dividend, +0)) { // the sign of the MQ is ignored
+        dividend += Math.abs(computer.mq_register.fixed_point);
+    } else {
+        dividend -= Math.abs(computer.mq_register.fixed_point);
+    }
+    const divisor = computer.storage_register.fixed_point;
+
+    const remainder = dividend % divisor;
+    const quotient = (dividend - remainder)/divisor;
+
+    computer.mq_register.fixed_point = quotient;
+    computer.accumulator.fixed_point = remainder;
+}
+
+/**
+ * Emulates the IBM 704 Divide or Halt (DVH) operation.
+ *
+ * The Accumulator and Multiplier-Quotient Register are treated as a single 72-bit dividend to be divided by the
+ * Storage Register. The quotient is stored in the Multiplier-Quotient Register, and the remainder is stored in the
+ * Accumulator, with both having the same sign.
+ *
+ * If the Accumulator is greater than the Storage Register, then the quotient will not fit into the MQ
+ * Register.  In this case, the computer will halt and turn on the Divide-Check Indicator Light.
+ *
+ * @param {IBM_704} computer    Machine to execute instruction on.
+ */
+function DVH(computer) {
+    if (Math.abs(computer.storage_register.fixed_point) > Math.abs(computer.accumulator.fixed_point)) {
+        fixed_point_divide(computer);
+    } else {
+        computer.halt = true;
+        computer.divide_check = true;
+    }
+}
+
+/**
+ * Emulates the IBM 704 Divide or Proceed (DVP) operation.
+ *
+ * The Accumulator and Multiplier-Quotient Register are treated as a single 72-bit dividend to be divided by the
+ * Storage Register. The quotient is stored in the Multiplier-Quotient Register, and the remainder is stored in the
+ * Accumulator, with both having the same sign.
+ *
+ * If the Accumulator is greater than the Storage Register, then the quotient will not fit into the MQ
+ * Register.  In this case, the computer will turn on the Divide-Check Indicator Light and proceed to
+ * the next instruction.
+ *
+ * @param {IBM_704} computer    Machine to execute instruction on.
+ */
+function DVP(computer) {
+    if (Math.abs(computer.storage_register.fixed_point) > Math.abs(computer.accumulator.fixed_point)) {
+        fixed_point_divide(computer);
+    } else {
+        computer.divide_check = true;
+    }
+}
+
 // Type A operations
 
 /**
@@ -1410,10 +1513,8 @@ class Assembly_Line {
      * @param {string}             description              Short description of line to be displayed at top of page.
      */
     constructor(instruction, description = undefined) {
-
         this.description = description;
         this.instruction = instruction;
-
     }
 
     /**
@@ -1424,5 +1525,6 @@ class Assembly_Line {
         return this.instruction;
     }
 }
+
 
 
