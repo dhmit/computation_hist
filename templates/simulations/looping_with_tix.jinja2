@@ -1,0 +1,72 @@
+{% extends "simulations/base.jinja2" %}
+
+{% block title %}Looping with TIX{% endblock %}
+
+{% block self %}Looping with TIX{% endblock %}
+
+{% block code %}
+    <p class="symbolic_code" id="symbolic_code0">LXA 5, 1</p>
+    <p class="symbolic_code" id="symbolic_code1">CLA 7</p>
+    <p class="symbolic_code" id="symbolic_code2">ADD 7</p>
+    <p class="symbolic_code" id="symbolic_code3">STO 7</p>
+    <p class="symbolic_code" id="symbolic_code4">TIX 1, 1, 1</p>
+    <p class="symbolic_code" id="symbolic_code5">PZE 5</p>
+    <p class="symbolic_code" id="symbolic_code6">ORG 7</p>
+    <p class="symbolic_code" id="symbolic_code5">DEC 1</p>
+{% endblock %}
+
+{% block description %}
+    <p>In programming, we often use something called a loop in order to do a set of instructions multiple times.&nbsp;
+        In Python, this program might look like this:</p>
+    <p><code>x = 1</code></p>
+    <p><code>for a in range(5):</code></p>
+    <p style="padding-left: 30px;"><code>x = x + x</code></p>
+    <p>And the instruction <code>x = x + x</code> will magically be executed 5 times.&nbsp; But this abstracts away a
+        lot of what's happening.&nbsp; In a sort-of psuedocode Fortran, this is how you might write something closer to
+        the program that's on the simulator right now:</p>
+    <p style="padding-left: 30px;"><code>x = 1</code></p>
+    <p style="padding-left: 30px;"><code>a = 5</code></p>
+    <p><code>LOOP:</code></p>
+    <p style="padding-left: 30px;"><code>x = x + x</code></p>
+    <p><code>IF&nbsp;</code><code>(a &gt; 1) THEN</code></p>
+    <p style="padding-left: 30px;"><code>a = a - 1</code></p>
+    <p style="padding-left: 30px;"><code>GOTO LOOP</code></p>
+    <p><code>a</code> starts out as 5 as specified by&nbsp;<code>a = 5</code>, decreases by one at the end of each loop
+        as described by&nbsp;<code>a = a-1</code>, and stops when the condition,&nbsp;<code>a &gt; 1</code>, is no
+        longer true.&nbsp;&nbsp;</p>
+    <p>Now, in assembly language, we can't use a while-loop structure, because each instruction has to correspond to a
+        specific instruction.&nbsp; However, we can still take advantage of looping to do things multiple
+        times.&nbsp;<code>PZE </code>is a pseudoinstruction similar to&nbsp;<code>DEC</code>, except essentially it can
+        only store fixed point numbers and can only store values up to 8191.&nbsp;&nbsp;So you can imagine our
+        instructions are set-up in memory like this:</p>
+    <p><code>0: LXA 5, 1</code></p>
+    <p><code>1: CLA 7</code></p>
+    <p><code>2: ADD 7</code></p>
+    <p><code>3: STO 7</code></p>
+    <p><code>4: TIX 1, 1, 1</code></p>
+    <p><code>5: 5</code></p>
+    <p><code>7: 1</code></p>
+    <p><code>LXA 5, 1</code><code></code>&nbsp;still targets the register with address 5.&nbsp; What the second number
+        in an instruction (called the <strong>tag</strong>) refers to is the targeted index register, in this case Index
+        Register A.&nbsp; (B corresponds to 2, and C corresponds to 4).&nbsp; So what will happen is that index register
+        A will gain the value of register 5, which is 5.&nbsp; This is analogous to&nbsp;<code>a = 5</code>.&nbsp;&nbsp;
+    </p>
+    <p>The next three steps,&nbsp;<code>CLA 7</code>,&nbsp;<code>ADD 7</code>, and&nbsp;<code>STO 7</code>, essentially
+        amount to&nbsp;<code>x = x + x</code>, except performed with the accumulator as we are required to.&nbsp;&nbsp;
+    </p>
+    <p>The last part,&nbsp;<code>TIX 1, 1, 1</code>, is the trickiest to understand.&nbsp;&nbsp;<code>TIX</code> stands
+        for Transfer on Index.&nbsp; Again, first number is the targeted address in general memory (register 1), and the
+        second number is the targeted index register (Index Register A).&nbsp; The third number is called
+        the&nbsp;<strong>decrement</strong>.&nbsp; What will happen is that the computer will compare the values in the
+        specified index register with the decrement.&nbsp; If the index register is greater than the decrement (in this
+        case, if&nbsp;<code>a &gt; 1</code>), then the index register will be reduced by the decrement (<code>a = a -
+            1</code>), and the program will go to to the address specified by the target address, which is 1.&nbsp;
+        You'll note that this is&nbsp;<code>CLA 7</code>, the beginning of our&nbsp;<code>x = x + x</code>&nbsp;analogue.&nbsp;&nbsp;
+    </p>
+    <p>So&nbsp;<code>x = x + x</code>&nbsp;will occur 5 times, until, the index register A is no longer greater than 1.&nbsp;
+        Then, when the computer reaches&nbsp;<code>TIX</code>, it will simply continue on to the next instruction (which
+        in this case halts the computer).&nbsp;</p>
+    <p>This might not be the best way to calculate 2<sup>5</sup>, but it's how you do loops in assembly.&nbsp; The
+        modern, RISC-V version isn't too much different.&nbsp; You might appreciate better now the ability to write
+        loops in higher level language.&nbsp;&nbsp;</p>
+{% endblock %}
