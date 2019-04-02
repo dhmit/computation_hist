@@ -54,7 +54,11 @@ coverage.xml
 # Django stuff:
 *.log
 local_settings.py
+
+
+# Sqlite db
 db.sqlite3
+djweb/db.sqlite3-journal
 
 # Flask stuff:
 instance/
@@ -114,6 +118,11 @@ venv.bak/
 .project
 .pydevproject
 
+# vim
+*.swp
+*.swo
+
+
 # Scratch File
 gender_novels/scratch.py
 
@@ -142,10 +151,10 @@ gender_novels/corpora/gutenberg/texts
 
 computation_hist/scratch.py
 
-# ignore files in processed_pdfs (they will be uploaded to was and don't need to be synced)
+# ignore files in processed_pdfs (they will be uploaded to aws and don't need to be synced)
 # except txt files
-computation_hist/data/processed_pdfs/**/*.pdf
-computation_hist/data/processed_pdfs/**/*.png
+data/processed_pdfs/**/*.pdf
+data/processed_pdfs/**/*.png
 
 node_modules/
 package-lock.json
