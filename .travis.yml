@@ -16,4 +16,4 @@ install:
 
 script:
   - python manage.py populate_from_metadata
-    # - python manage.py runserver
+  - python manage.py test
