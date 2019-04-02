@@ -19,6 +19,7 @@ const no_to_operation_b = {
     0o260: FMP,
     0o220: DVH,
     0o221: DVP,
+    0o240: FDH,
     0o020: TRA,
 };
 
@@ -623,11 +624,13 @@ class General_Word extends Word {
      * Stores a number in floating-point format into the word.  The number will always be normalized,
      * which means that the fraction will be between 1/2 and 1.
      *
-     * Note: You cannot set a floating point number to 0 in this way.
-     *
      * @param {number}  number      Number to be stored.
      */
     set floating_point(number) {
+        if (number === 0) {
+            this.fixed_point = number;
+            return;
+        }
         let exponent = Math.floor(Math.log2(Math.abs(number))) + 1;
         let characteristic = exponent + 128;
         this.store_floating_point(number, Math.max(characteristic,0));
@@ -719,9 +722,9 @@ class Accumulator extends Word {
     }
 
     /**
-     * Converts a string binary representation of an IBM 704 word to a string decimal representation
-     * of that word interpreted as a floating point number.  For more information on how the IBM 704
-     * stores numbers, check the Markdown in the History Group folder.
+     * Converts a string binary representation of the accumulator to its value interpreted as a
+     * floating point number.  For more information on how the IBM 704 stores numbers, check the Markdown in the
+     * History Group folder.
      *
      * @returns {number}    Numerical value representation of word interpreted as floating-point
      * number.
@@ -730,7 +733,7 @@ class Accumulator extends Word {
         let binary_rep = this.contents;
         let fraction_bits = binary_rep.substring(11,38);
         let fraction = parseInt(fraction_bits, 2) / Math.pow(2, 27);
-        let characteristic_bits = binary_rep.substring(3, 11);
+        let characteristic_bits = binary_rep.substring(1, 11);
         let characteristic = parseInt(characteristic_bits, 2);
         let exponent = characteristic - 128;
         let result = fraction*Math.pow(2,exponent);
@@ -744,11 +747,27 @@ class Accumulator extends Word {
      * Stores a number in floating-point format into the word.  The number will always be normalized,
      * which means that the fraction will be between 1/2 and 1.
      *
-     * Note: You cannot set a floating point number to 0.
-     *
      * @param {number}  number      Number to be stored.
      */
     set floating_point(number) {
+        if (number === 0) {
+            this.fixed_point = number;
+            return;
+        }
+        let exponent = Math.floor(Math.log2(Math.abs(number))) + 1;
+        let characteristic = exponent + 128;
+        this.store_floating_point(number, Math.max(characteristic,0));
+    }
+
+    /**
+     * Stores a number in floating-point format into the accumulator with a specific characteristic.  Generally,
+     * using the floating_point function is preferred because the word will be normalized.
+     *
+     * @param {number} number           Number to be stored.
+     * @param {number} characteristic   Characteristic of floating point number when stored.  (Check MD
+     * for more info.)
+     */
+    store_floating_point(number, characteristic) {
         let sign_bit;
         if (number < 0) {
             sign_bit = "1";
@@ -757,9 +776,8 @@ class Accumulator extends Word {
         }
         let binary_rep = sign_bit;
         number = Math.abs(number);
-        let exponent = Math.floor(Math.log2(number)) + 1;
-        let characteristic = exponent + 128;
-        binary_rep += convert_to_binary(characteristic, 10).substring(0,10);
+        let exponent = characteristic - 128;
+        binary_rep += convert_to_binary(characteristic, 10);
         let magnitude = number / Math.pow(2, exponent);
         let magnitude_binary = (magnitude.toString(2)).substring(2,29);
         length = magnitude_binary.length;
@@ -1504,6 +1522,41 @@ function DVP(computer) {
         fixed_point_divide(computer);
     } else {
         computer.divide_check = true;
+    }
+}
+
+function floating_divide(computer) {
+    const dividend = computer.accumulator.floating_point;
+    if (dividend === 0) {
+        computer.mq_register.fixed_point = dividend/Math.abs(dividend)*0; // for signed 0
+        computer.accumulator.fixed_point = dividend/Math.abs(dividend)*0;
+        return;
+    }
+    const divisor = computer.storage_register.floating_point;
+
+    let ac_characteristic = parseInt(computer.accumulator.contents.substring(1, 11), 2);
+    const sr_characteristic = parseInt(computer.storage_register.contents.substring(1, 9), 2);
+    const ac_fraction = parseInt(computer.accumulator.contents.substring(11, 38), 2);
+    const sr_fraction = parseInt(computer.storage_register.contents.substring(9, 36), 2);
+    if (ac_fraction >= sr_fraction) {
+        ac_characteristic += 1;
+    }
+
+    const result = dividend/divisor;
+
+    computer.mq_register.store_floating_point(result, ac_characteristic - sr_characteristic + 128);
+    const remainder = result - computer.mq_register.floating_point;
+    computer.accumulator.store_floating_point(remainder, ac_characteristic - 27);
+}
+
+function FDH(computer) {
+    const ac_fraction = parseInt(computer.accumulator.contents.substring(11, 38), 2);
+    const sr_fraction = parseInt(computer.storage_register.contents.substring(9, 36), 2);
+    if (computer.storage_register.floating_point === 0 || ac_fraction >= 2*sr_fraction) {
+        computer.halt = true;
+        computer.divide_check = true;
+    } else {
+        floating_divide(computer);
     }
 }
 
