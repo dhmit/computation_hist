@@ -168,5 +168,6 @@ class Page(models.Model):
                                  path_type='aws')
         return png_path
 
+
 class Text(models.Model):
     page = models.OneToOneField(Page, on_delete=models.SET(None), blank=True)
