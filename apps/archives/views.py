@@ -6,6 +6,7 @@ from django.shortcuts import render, get_object_or_404, get_list_or_404
 from utilities.common import get_file_path
 from .models import Person, Document, Box, Folder, Organization, Page
 
+
 def index(request):
     return render(request, 'index.jinja2')
 
