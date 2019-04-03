@@ -1236,7 +1236,7 @@ class IBM_704 {
 // so the two are interchangeable.
 
 /**
- * Emulates the IBM 704 STO operation.
+ * Emulates the IBM 704 Store (STO) operation.
  *
  * Stores the value of the accumulator into the register with specified address.
  *
@@ -1249,7 +1249,7 @@ function STO(computer, address) {
 }
 
 /**
- * Emulates the IBM 704 HTR operation.
+ * Emulates the IBM 704 Halt and Transfer (HTR) operation.
  *
  * Indicates the computer to halt.  If the computer is continued (on the original machine, pressing
  * the start key), the computer will begin executing from the indicated address.
@@ -1263,7 +1263,7 @@ function HTR(computer, address) {
 }
 
 /**
- * Emulates the IBM 704 CLA operation.
+ * Emulates the IBM 704 Clear and Add (CLA) operation.
  *
  * Replaces the value of the accumulator with the value of the storage register (which should be
  * the value of the register with the indicated address).
@@ -1278,11 +1278,10 @@ function CLA(computer, address) {
 }
 
 /**
- * Emulates the IBM 704 ADD operation.
+ * Emulates the IBM 704 Add (ADD) operation.
  *
  * Adds the value of the storage register (which should be the value at address) to the
- * accumulator as if it were a fixed point number.  Note: does not handle negative numbers properly
- * right now.
+ * accumulator as if it were a fixed point number.
  *
  * @param {number}  address      The address of the value to add to the accumulator.
  * @param {IBM_704} computer     Machine to execute instruction on.
@@ -1292,7 +1291,7 @@ function ADD(computer, address) {
 }
 
 /**
- * Emulates the IMB 704 SUB operation.
+ * Emulates the IMB 704 Subtract (SUB) operation.
  *
  * Subtracts the value of the storage register to the accumulator as if it were a
  * fixed point number.
@@ -1306,7 +1305,7 @@ function SUB(computer, address) {
 }
 
 /**
- * Emulates the IMB 704 SBM operation.
+ * Emulates the IMB 704 Subtract Magnitude (SBM) operation.
  *
  * Subtracts the magnitude of the storage register from the accumulator as if it were a
  * fixed number point.
@@ -1319,7 +1318,7 @@ function SBM(computer, address) {
 }
 
 /**
- * Emulates the IBM 704 ADM operation
+ * Emulates the IBM 704 Add Magnitude (ADM) operation.
  *
  * Add the magnitude of the storage register from the accumulator as if it were a
  * fixed point number.
@@ -1332,7 +1331,7 @@ function ADM(computer, address) {
 }
 
 /**
- * Emulates the IBM 704 LXA operation.
+ * Emulates the IBM 704 Load Index from Address (LXA) operation.
  *
  * Stores the address of the word at the specified address
  *
