@@ -20,6 +20,7 @@ const no_to_operation_b = {
     0o220: DVH,
     0o221: DVP,
     0o240: FDH,
+    0o241: FDP,
     0o020: TRA,
 };
 
@@ -1525,6 +1526,13 @@ function DVP(computer) {
     }
 }
 
+/**
+ * The floating-point division routine used by both FDH and FDP. The Accumulator is divided by the
+ * Storage Register. The quotient is stored in the Multiplier-Quotient Register, and the remainder
+ * is stored in the Accumulator.  May not imitate actual machine down to the bit.
+ *
+ * @param {IBM_704} computer    Machine to execute instruction on.
+ */
 function floating_divide(computer) {
     const dividend = computer.accumulator.floating_point;
     if (dividend === 0) {
@@ -1545,15 +1553,47 @@ function floating_divide(computer) {
     const result = dividend/divisor;
 
     computer.mq_register.store_floating_point(result, ac_characteristic - sr_characteristic + 128);
-    const remainder = result - computer.mq_register.floating_point;
+    const remainder = dividend - computer.mq_register.floating_point * divisor;
     computer.accumulator.store_floating_point(remainder, ac_characteristic - 27);
 }
 
+/**
+ * Emulates the IBM 704 Floating Divide or Halt (FDH) operation.
+ *
+ * The Accumulator is divided by the Storage Register. The quotient is stored in the Multiplier-Quotient
+ * Register, and the remainder is stored in the Accumulator.  May not imitate actual machine down to the bit.
+ * When division by zero is attempted or the magnitude of the fraction in the Accumulator is twice that
+ * of the magnitude of the fraction in the Storage Register, the computer will halt and turn on the
+ * Divide-Check Indicator light.
+ *
+ * @param {IBM_704} computer    Machine to execute instruction on.
+ */
 function FDH(computer) {
     const ac_fraction = parseInt(computer.accumulator.contents.substring(11, 38), 2);
     const sr_fraction = parseInt(computer.storage_register.contents.substring(9, 36), 2);
-    if (computer.storage_register.floating_point === 0 || ac_fraction >= 2*sr_fraction) {
+    if (computer.storage_register.floating_point === 0 || ac_fraction >= 2 * sr_fraction) {
         computer.halt = true;
+        computer.divide_check = true;
+    } else {
+        floating_divide(computer);
+    }
+}
+
+/**
+ * Emulates the IBM 704 Floating Divide or Proceed (FDP) operation.
+ *
+ * The Accumulator is divided by the Storage Register. The quotient is stored in the Multiplier-Quotient
+ * Register, and the remainder is stored in the Accumulator.  May not imitate actual machine down to the bit.
+ * When division by zero is attempted or the magnitude of the fraction in the Accumulator is twice that
+ * of the magnitude of the fraction in the Storage Register, the computer will proceed to the next instruction
+ * without dividing and turn on the Divide-Check Indicator light.
+ *
+ * @param {IBM_704} computer    Machine to execute instruction on.
+ */
+function FDP(computer) {
+    const ac_fraction = parseInt(computer.accumulator.contents.substring(11, 38), 2);
+    const sr_fraction = parseInt(computer.storage_register.contents.substring(9, 36), 2);
+    if (computer.storage_register.floating_point === 0 || ac_fraction >= 2 * sr_fraction) {
         computer.divide_check = true;
     } else {
         floating_divide(computer);
