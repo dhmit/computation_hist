@@ -1,7 +1,7 @@
 import re
 
 from django.db.models import Q
-from django.shortcuts import render, get_object_or_404, get_list_or_404
+from django.shortcuts import get_list_or_404, get_object_or_404, render
 
 from utilities.common import get_file_path
 from .models import Person, Document, Box, Folder, Organization, Page
@@ -25,14 +25,29 @@ def person(request, person_id):
     return render(request, 'archives/person.jinja2', obj_dict)
 
 
-def doc(request, doc_id):
+def doc(request, doc_id=None, slug=None):
     """
     Puts a document on the screen
     :param request:
     :param doc_id:
+    :param slug:
     :return:
     """
-    doc_obj = get_object_or_404(Document, pk=doc_id)
+
+    if doc_id:
+        doc_obj = get_object_or_404(Document, pk=doc_id)
+    elif slug:
+        doc_obj = get_object_or_404(Document, slug=slug)
+    else:
+        # NOTE(ra): the case in which both slug and doc_id are both None
+        # is unreachable (there's no url pattern matching them), so if you
+        # reach this branch, something has gone awry.
+
+        # TODO(ra): implement this branch
+        # 1. add a url pattern that matches 
+        # 2. then do something sensible here... (probably a redirect)
+        raise RuntimeError('This branch should be unreachable!')
+
     author_person_objs = doc_obj.author_person.all()
     author_organization_objs = doc_obj.author_organization.all()
     recipient_person_objs = doc_obj.recipient_person.all()
@@ -51,7 +66,7 @@ def doc(request, doc_id):
         pass
     page_objs = doc_obj.page_set.all()
     doc_pdf_url = str(get_file_path(doc_obj.folder.box.number, doc_obj.folder.number,
-                                    doc_obj.folder.name , file_type='pdf', path_type='aws',
+                                    doc_obj.folder.name, file_type='pdf', path_type='aws',
                                     doc_id=doc_obj.doc_id))
     print(doc_pdf_url)
     print(doc_obj.date)
@@ -172,12 +187,12 @@ def search_results(request):
 
     user_input = request.GET['q']
 
-    people_objs = Person.objects.filter(Q(last__contains=user_input) | Q(
-        first__contains=user_input))
+    people_objs = Person.objects.filter(Q(last__contains=user_input) |
+                                        Q( first__contains=user_input))
     document_objs = Document.objects.filter(title__contains=user_input)
     folder_objs = Folder.objects.filter(full__contains=user_input)
-    organization_objs = Organization.objects.filter(Q(name__contains=user_input)|Q(
-        location__contains=user_input))
+    organization_objs = Organization.objects.filter(Q(name__contains=user_input) |
+                                                    Q(location__contains=user_input))
 
     obj_dict = {
         'people_objs': people_objs,
@@ -226,11 +241,11 @@ def process_advanced_search(search_params):
     """
     Processes one advanced search request and returns the search_results as a queryset
 
-    :param request:
+    :param search_params:
     :return:
     """
 
-    docs_qs = Document.objects # 'qs' for queryset
+    docs_qs = Document.objects  # 'qs' for queryset
  
     title = search_params.get('title')
     if title:
