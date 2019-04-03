@@ -95,12 +95,7 @@ function update(computer, instructions, num_code_lines, highlighted_registers) {
 function populate_code(instructions) {
     let codeHTML = "";
     for (const i in instructions) {
-        codeHTML += '<p class="symbolic_code" id="symbolic_code';
-        codeHTML += i;
-        codeHTML += '">';
-        codeHTML += instructions[i].toString();
-        codeHTML += "</p>";
-        codeHTML += "\r\n";
+        codeHTML += `<p class="symbolic_code" id="symbolic_code${i}">${instructions[i].toString()}</p>\r\n`;
     }
     $('#code')[0].innerHTML = codeHTML;
 }
