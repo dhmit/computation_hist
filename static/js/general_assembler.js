@@ -60,12 +60,18 @@ function start() {
         update(computer);
     });
     $('#run_button').on('click', () => {
+        computer.halt = false;
         computer.run();
         update(computer);
 
     });
     $('#step_button').on('click', () => {
+        computer.halt = false;
         computer.step();
+        update(computer);
+    });
+    $('#highlight_button').on('click', () => {
+        highlighting = !highlighting;
         update(computer);
     });
     expand_text_area("code_box");
