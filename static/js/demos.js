@@ -22,7 +22,7 @@ const assembly_addition_demo_params = {
 
 const floating_point_operations_demo_params = {
     computer_size: 13,
-    num_code_lines: 2,
+    num_code_lines: 3,
     highlighted_registers: [12],
     initial_memory_values: [],
     instructions: [
@@ -92,6 +92,19 @@ function update(computer, instructions, num_code_lines, highlighted_registers) {
     $('#line_desc')[0].innerHTML = line_desc;
 }
 
+function populate_code(instructions) {
+    let codeHTML = "";
+    for (let i in instructions) {
+        codeHTML += '<p class="symbolic_code" id="symbolic_code';
+        codeHTML += i;
+        codeHTML += '">';
+        codeHTML += instructions[i].toString();
+        codeHTML += "</p>"
+        codeHTML += "\r\n";
+    }
+    $('#code')[0].innerHTML = codeHTML;
+}
+
 function start_demo(demo_params) {
     const instructions = demo_params.instructions;
     const initial_memory_values = demo_params.initial_memory_values;
@@ -101,17 +114,25 @@ function start_demo(demo_params) {
 
     const computer = new IBM_704(computer_size);
 
+    populate_code(instructions);
+
     $('#reset_button').on('click', () => {
         reset(computer, instructions, initial_memory_values);
         update(computer, instructions, num_code_lines, highlighted_registers);
     });
     $('#run_button').on('click', () => {
+        computer.halt = false;
         computer.run();
         update(computer, instructions, num_code_lines, highlighted_registers);
 
     });
     $('#step_button').on('click', () => {
+        computer.halt = false;
         computer.step();
+        update(computer, instructions, num_code_lines, highlighted_registers);
+    });
+    $('#highlight_button').on('click', () => {
+        highlighting = !highlighting;
         update(computer, instructions, num_code_lines, highlighted_registers);
     });
     common_start(computer);
