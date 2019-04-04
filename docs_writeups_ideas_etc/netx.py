@@ -3,7 +3,7 @@ import operator
 import math
 
 # from common import get_metadata_google_sheet
-from document import Document
+from z_unused.document import Document
 import csv
 import networkx as nx
 import plotly
@@ -255,7 +255,17 @@ def graph_to_csv(graph,
         for edge in edges:
             writer.writerow([edge[0], edge[1], graph.edges[edge]['weight']])
 
+def graph_to_json(graph,
+                 node_path='computation_hist/data/nodes.json'):
+    """
+
+    :param graph:
+    :param node_path:
+    :return: None
+    """
+
+
 
 if __name__ == '__main__':
     graph = make_graph(debug=True, max_nodes=10)
-    fancy_network(graph)
+    print(graph.nodes)
