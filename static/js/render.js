@@ -5,12 +5,12 @@ let highlighting = true;
  * Produces HTML for all the general memory registers of the computer.
  */
 function create_memory_display(computer) {
-    let general_memory_display = document.getElementById("general_memory_div");
+    const general_memory_display = document.getElementById("general_memory_div");
     for (let i = 0; i < computer.size; i++) {
-        let para = document.createElement("p");
-        let register = document.createTextNode(i.toString()+": ");
+        const para = document.createElement("p");
+        const register = document.createTextNode(i.toString()+": ");
         para.appendChild(register);
-        let span = document.createElement("span");
+        const span = document.createElement("span");
         span.setAttribute("class", "general_memory");
         span.setAttribute("id", "general_memory" + i.toString());
         para.appendChild(span);
@@ -23,7 +23,7 @@ function create_memory_display(computer) {
  */
 function update_computer_display(computer, highlighted_registers = []) {
     const general_memory_html = $(".general_memory");
-    let next_instruction_address = computer.general_memory[computer.ilc.valueOf()].instruction.address;
+    const next_instruction_address = computer.general_memory[computer.ilc.valueOf()].instruction.address;
     for (let i = 0; i < computer.size; i++) {
         general_memory_html[i].innerHTML = computer.general_memory[i].toString();
         general_memory_html[i].title = "Instruction: " +
@@ -91,8 +91,8 @@ function common_start(computer) {
 
 function reset(computer, instructions, memory_value_pairs){
     computer.clear();
-    let instruction_text = [];
-    for (let i in instructions) {
+    const instruction_text = [];
+    for (const i in instructions) {
         instruction_text.push(instructions[i].instruction);
     }
     computer.assemble(0, instruction_text);
