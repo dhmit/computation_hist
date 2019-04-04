@@ -3,6 +3,7 @@ const PZE = HTR; // hack for pseudoinstruction PZE, which lets you store in an a
 
 // if number is negative, put a 4 in the beginning: e.g. -0o345 will become 0o4345
 const no_to_operation_b = {
+    0o761: NOP,
     0o601: STO,
     0o000: HTR,
     0o500: CLA,
@@ -1234,6 +1235,13 @@ class IBM_704 {
 // Type B operations
 // Note: the computer.storage_register should always be the same value as computer.general_memory[address],
 // so the two are interchangeable.
+
+/**
+ * Emulates the IBM 704 No Operation (NOP) operation.
+ *
+ * The calculator takes the next instruction in sequence (i.e. nothing happens).
+ */
+function NOP() {}
 
 /**
  * Emulates the IBM 704 Store (STO) operation.
