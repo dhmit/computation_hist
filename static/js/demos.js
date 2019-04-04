@@ -71,8 +71,8 @@ const looping_with_tix_demo_params = {
 
 function update(computer, instructions, num_code_lines, highlighted_registers) {
     const code_html = $(".symbolic_code");
+    const code_line = Math.min(computer.ilc.valueOf(), num_code_lines-1);
     if (code_html.length !== 0) {
-        let code_line = Math.min(computer.ilc.valueOf(), num_code_lines-1);
         for (let line = 0; line < num_code_lines; line++) {
             code_html[line].style.backgroundColor = "white";
         }
@@ -85,7 +85,6 @@ function update(computer, instructions, num_code_lines, highlighted_registers) {
 
     // update line descriptions
     let line_desc = "";
-    let code_line = Math.min(computer.ilc.valueOf(), num_code_lines-1);
     if (typeof instructions[code_line] !== "undefined") {
         line_desc = instructions[code_line].description;
     }
@@ -94,13 +93,8 @@ function update(computer, instructions, num_code_lines, highlighted_registers) {
 
 function populate_code(instructions) {
     let codeHTML = "";
-    for (let i in instructions) {
-        codeHTML += '<p class="symbolic_code" id="symbolic_code';
-        codeHTML += i;
-        codeHTML += '">';
-        codeHTML += instructions[i].toString();
-        codeHTML += "</p>"
-        codeHTML += "\r\n";
+    for (const i in instructions) {
+        codeHTML += `<p class="symbolic_code" id="symbolic_code${i}">${instructions[i].toString()}</p>\r\n`;
     }
     $('#code')[0].innerHTML = codeHTML;
 }
