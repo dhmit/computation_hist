@@ -51,3 +51,11 @@ don't know how to make a new page or change the way these links are set up, thou
 {% block self %}
     <h1><tt>Welcome to the Archives of the MIT Computation Center</tt></h1>
 {% endblock %}
+
+{% block content %}
+<div class='card-deck'>
+    {% for story in stories %}
+        {% include 'archives/stories/' + story + '-teaser.jinja2' %} 
+    {% endfor %}
+</div>
+{% endblock %}
