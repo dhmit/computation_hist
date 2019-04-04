@@ -1,14 +1,30 @@
 import re
 
 from django.db.models import Q
+from django.http import Http404
 from django.shortcuts import get_list_or_404, get_object_or_404, render
+from django.template.loader import TemplateDoesNotExist
 
 from utilities.common import get_file_path
 from .models import Person, Document, Box, Folder, Organization, Page
 
 
 def index(request):
-    return render(request, 'index.jinja2')
+    # NOTE(ra): this hardcoded pattern isn't great, but we're since we're using
+    # jinja2 templates as a data source for the stories, it gets us to a usable
+    # prototype without having to, e.g., read the folder of story templates
+    # and load their names dynamically. We'll replace this with something
+    # more robust once the story system takes firmer shape.
+    stories = [
+        'sample_story',
+        'sample_story',
+        'sample_story',
+        'sample_story',
+        'sample_story',
+    ]
+
+    context = {'stories': stories}
+    return render(request, 'index.jinja2', context)
 
 
 def person(request, person_id):
@@ -309,3 +325,11 @@ def process_advanced_search(search_params):
                                        'recipient_person', 'recipient_organization')
 
     return docs_qs
+
+
+def story(request, slug):
+    template = f'archives/stories/{slug}.jinja2'
+    try:
+        return render(request, template)
+    except TemplateDoesNotExist:
+        raise Http404('A story with this slug does not exist.')
