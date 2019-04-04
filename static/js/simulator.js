@@ -6,6 +6,7 @@ const no_to_operation_b = {
     0o761: NOP,
     0o601: STO,
     0o000: HTR,
+    0o420: HPR,
     0o500: CLA,
     0o400: ADD,
     0o402: SUB,
@@ -1254,6 +1255,18 @@ function NOP() {}
 function STO(computer, address) {
     computer.general_memory[address].fixed_point = computer.accumulator.fixed_point; // ensures correct
     // copying of sign bit but not P or Q bits
+}
+
+/**
+ * Emulates the IBM 704 Halt and Transfer (HTR) operation.
+ *
+ * Indicates the computer to halt.  If the computer is continued (on the original machine, pressing
+ * the start key), the computer will begin executing from where it left off.
+ *
+ * @param {IBM_704} computer    Machine to execute instruction on.
+ */
+function HPR(computer) {
+    computer.halt = true;
 }
 
 /**
