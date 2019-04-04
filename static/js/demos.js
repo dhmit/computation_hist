@@ -92,6 +92,19 @@ function update(computer, instructions, num_code_lines, highlighted_registers) {
     $('#line_desc')[0].innerHTML = line_desc;
 }
 
+function populate_code(instructions) {
+    let codeHTML = "";
+    for (let i in instructions) {
+        codeHTML += '<p class="symbolic_code" id="symbolic_code';
+        codeHTML += i;
+        codeHTML += '">';
+        codeHTML += instructions[i].toString();
+        codeHTML += "</p>"
+        codeHTML += "\r\n";
+    }
+    $('#code')[0].innerHTML = codeHTML;
+}
+
 function start_demo(demo_params) {
     const instructions = demo_params.instructions;
     const initial_memory_values = demo_params.initial_memory_values;
@@ -100,6 +113,8 @@ function start_demo(demo_params) {
     const highlighted_registers = demo_params.highlighted_registers;
 
     const computer = new IBM_704(computer_size);
+
+    populate_code(instructions);
 
     $('#reset_button').on('click', () => {
         reset(computer, instructions, initial_memory_values);
