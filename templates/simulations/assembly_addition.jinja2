@@ -4,13 +4,6 @@
 
 {% block self %}IBM 704 Assembly Addition{% endblock %}
 
-{% block code %}
-    <p class="symbolic_code" id = "symbolic_code0">CLA 4</p>
-    <p class="symbolic_code" id = "symbolic_code1">ADD 5</p>
-    <p class="symbolic_code" id = "symbolic_code2">STO 6</p>
-    <p class="symbolic_code" id = "symbolic_code3">HTR</p>
-{% endblock %}
-
 {% block description %}
     Here's what's happening here:<br />
     <b>CLA 4: </b> Clears the accumulator and stores the value at address 4 (which you'll see if you mouseover is 12) into the accumulator.<br />
