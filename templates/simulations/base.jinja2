@@ -39,19 +39,7 @@
             </div>
         </div>
 
-        <div class = "col-sm-12">
-        {% block buttons %}
-{#            <button id="assemble_button">Assemble</button>#}
-{#            <button id="step_button">Step</button>#}
-{#            <button id="run_button">Run</button>#}
-{#            {% if simulation_name == 'general_assembler' %}#}
-{#                <button id="clear_button">Clear</button>#}
-{#            {% else %}#}
-{#                <button id="reset_button">Reset</button>#}
-{#            {% endif %}#}
-{#            <button id="highlight_button">Turn highlighting on or off</button>#}
-        {% endblock %}
-        </div>
+        <div class = "col-sm-12">{% block buttons %}{% endblock %}</div>
     </div>
     <br>
     <div class = "col-sm-12 text-center bg-light border border-primary" id = "line_desc"></div>
