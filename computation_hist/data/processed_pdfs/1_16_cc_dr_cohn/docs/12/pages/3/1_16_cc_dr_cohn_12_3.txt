@@ -1,148 +1,321 @@
+-
+- . -
+
+     
+  
+  
+
+  
+
+Ty
+e S,
+
+o, ..
+
+q’
+ARt
+":“-f'frﬁ'.' 1%
+
+2 P CE LR R ST s Ene
+
+,_
+LLLE S
+Arg TS S )
+SIS
+e
+€T
+
+- L
+yo S
+o
+
+Ave s
+
+A A A A A
+
+» .
+Fr 'y
+
+fAsdewix
+
+2y
+
+e
+Tes
+
+ST
+.
+
+*
+
+-
+
+N ae's
+1 “¢
+
+*renes>
+
+. e {"
+
+Yees
+
+LEn
+Sfeee
+
+i
+.
+-
+
+ey
+‘Q..
+
+'
+e "v'
+
+ 
+
+ 
+
 HARVEY COHN
+the following: For any ngy,.
+266 ), reduces to 7 :
+in Part I (1? K, ?fwz the rationals), at least one Umil v exists fo,
+norm), 8! vphism S of B A
+cal automoTE™ id Ky = R(cos 1r/. ) of degree
+d;j?ct; u/u 1S negaiive or the totally r?althﬁeeguler totient function (not to he
+which ¥ onsi : is -
+For msmncet’;e(r:l N > 2). Here ¢$)1;7 )Part [ (12, p- 261), w!nchhhas a vector
+w40 l‘:’the gauge functios «mal totally real fele tn tue evclotomic
+is the ma
 
-uces to the following: For any Man-
+onfused wit e field Ky i that the integer-module of Ky has
 
-269), red mm, at least one unit u exists f0,
+S
+: hall show
+argument)- o o oxi/I). We s
 
-art I (12‘ p. (07167 the ratio
+field K° = 4,6, 12.
 
-1d KN = R(cos 2W(N) of degree
-the totalgyN )r::1tlfleeEuler totlent functioln (not to be
-2). Here ¢ I 12, p. 261), which as a vector
-auge function of 1133;110:2111), real ﬁeld in the cyclotomic
-used with the g ‘ the maXIm that the integer-module of KN ha:
+stable)norm if N #1, 2,f3,N K. is rational; while for N = 12
 
-The ﬁeld KN 15We shall show
-,2, 3, 4, 6, 12-
-of N KN is rational; while fer N = 12'
+(111 . nal Va]ueS 0 ’ N .lt (12 p. 267) Of the dio-
+fve exceptio by the unsolvability 2
 
-he unsolvability (12, p. 267) of the Clio.
+For the first S unstable y
 
-For the ﬁr . - “stable by t
-. ,2 _, 33,2 5; - 1. nsists of the %¢(N) operations
+i which 1 &
+K = R(V3) Gion &% — 3y’ = -
 
-(2, N) = 1.
+16(NNV) operations
+phantine €qua  the Galois grou
 
-SI (arty, N
-(11-2) (cos ZnM/N)s = C05 21ng/ ' .
-(11-3) of the following tyPes 0f “mm:
+p consists of the
 
-, . ke use
-bility we ma
-9 = 2 cos ZwM/N
-‘l =1+ 2C0521rM/N
+For the field K S: ¢ =, (g N) =1.
+(11.2) (cos oxrM/N)S = cos 2rMg/N. |
+(11.3) 2 E e et the following types of units: |
+To prove stability we 2 St N # 2‘~,k 4p* (k> 0),
+(11.4) y=1+2cos 2rM/N N # 3p (k > 0),
 
-N # 2k, 4p” (k g 0),
-N ¢ 3p" (12 > 0),
+(11.5) ipisa prime. (We note that this choice of units of Ky
+) = ] an
+where (M, N)
 
-accounts for al
-Now ﬁrst of
+11215
 
-(11.41)
-the units 0 are sufﬁcien
+ept the values ( . : :
 
-all we assert that
-N1=Pkl7é3>i N2=pq '
-t to establish stability; while for the spec1al values;
+aCC?Unt; fOtr(flf]l.'alf;i\:?:e{caspsert that for the spemal values o N
+Now frs
 
-N3 = 4.2», Ni = Wei?)
-
-3 5 l I ll
-fﬁcient In thes ca 65 P and q a e ()Cld primes and k >
-11 .
-
-' ' ' ' e, N = N1. Here all we need to show is
-We shallverily this giltrlirvzltyaiiifginbﬁnhism S, a M = M1 existsh fori 3:21;:
-that l0-r 6 Eye“ 11 d 6 5 is negative. Thus all we need show is t a ,h‘cl,
-9:015 POSIUVE 8“i r‘ which (g, N,) = 1), there exists an M1 (flail; 1is
-Ki i1 moii Niichlihat M, lies in the range (—%N1,%N1),'Whl:ofisiCh
-(Mr, Nil 7 tag/N) to a value in the range (iNl, %N,). The eXistenc the “on.
-Ciiing‘lrlurellstasnsqured lrom the fact that the possible values of M (i.e.,
-
-. lues ollll
-multiples of 1;), have such lew gaps (i.e-, theamultiplej of [>1]: testiﬁeszie value al
-cannot always “straddle" the range (iNi, 1N1) mo [ltiplelljf 17. A similarargu-
-
-' ' ' = -mu . l
-
-11 u tle in this range when M Mi, a non . . t of prooi
-infnltnthd; for N, N3, and N. (which were singled out for) SimpllCl Y
-
-‘ h A ' ‘ ‘ “ '11 gaps . 5e
-
-smce they have few prime diVisors and hence sma ,' , Y: Suppl)
-We are now prepared to handle the general N in the following “3)
+Ny = pH(#3), N2 =24 . |
+(11.41) ability; while for the special values:
+the units 6 aré S
 
 (11.51)
 
-the units 11/ are S
+the units ¥ are su.ﬂi.
+We shall verify this ]
 
-STABLE LATTICES
-267
-that for the given S, g i :l: 1 mod N1, for N.
-Then the very same 01 used earlier is a unit of
-61/913 is negative. Thus we see that the difﬁcult c
-for each pg“ in the factorization N = Up}
+ufficient to establish st
+Ny =42f Nua= 4p(#12)
 
-(of type (11.41)) dividing N.
-KN, (hence of KN) [or which
-ase becomes the one in which
-- the congruence I
+] d:k >
 
-g; :1: lmodpik.»
+‘ and ¢ are odd primes an |
 
-is satisﬁed- In order that S Still not be the identity, it is necessary that the
-i1 be “mixed” (e.g., that g not be congruent to ( se
+Cle;l t Ialnt;}pl)?cS:Zl Cczzlssees i’ — N,. Here all we need ;o shol\:{ 1;
 
-. 533’) +1 for each kn Th
-g g :l: 1 for some comp05ite modulus dividing N, of the type N2 (5:101 411;:
-or M (see (11.51)). Hence, once more, as in the preceding paragraph, a unit 6»
+e i = exists for whic
 
-or \h is determined for which 92/625 or (pl/$43 is negative. Q E D
+for a given non-trivial automorphism S, a M - ]S\ﬁ (1) e
 
-12. The stability conﬁguration. In the last section,
+that for e and 6,5 is negative. Thus all we nee e
 
-existence proof, Le. a proof that Q + 1 (=n(n _ 1)+1
-“gradient" vectors (12, pp. 263, 266).
+5 li pOSIdwN (for which (g, N,) = 1), there exists laNn> :Vhile e
+
+# 4+ 1 mo 1y i
+g(Mh N,) = 1), such tha
+
+e T (3— %Nl",l‘;u existence of such
+congruent (mod Ni) to a value in the range (N1, V). eM e
+an M, is assured from the fa
+
+ot that the possible values of M
+a
+multiples of ), have such few gaps
+
+i ' fp), th
+(i.e., the multiples o o
+g some va
+cannot always “straddle” the range (N1, 3 N;) modulo Ny. Thu
+Mg must lie in this range when M =
+
+A 2
+M,, a non-multiple of 2. A similar arg
+
+: : implicity
+ment holds for N, N3, and N4 (which were singled out f(?'r) simpll
+since they have few prime divisors and hence sxr}all gdpsn : = Supp®
+
+We are now prepared to handle the general V in the follow
+
+Of pl‘OOL
+
+  
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+
+STABLE LATTICES 267
+
+(of type (11.41)) dividing .
+Ky, (hence of g ~) for which
+case becomes the one in which
+* the congruence ’
+g # =+ 1 mod p ki
+
+is satisfied. In order that .S still not be the identity,
++1 be “mixed” (e.g., that g not be congruent to (sa
+g # =+ 1 for some composite modulus dividing N,
+or Ny (see (11.51)). Hence, once more, as in the pr
+or Y4 is determined for which 6,/6,5 or y,/y,s
+
+that for the given S, g # % 1 mod N,, for p,
+Then the very same 6, used earlier is a unit of
+9,/0,% is negative. Thus we see that the difficult
+for each p ¢ in the factorization N = Ip
+
+it is Necessary that these
+y) +1 for each p&. Thus
+of the type N, (see (11.41))
+. eceding paragraph, a unit ¢,
+IS negative, Q.E.D.
+
+12. The stability configuration. In the last section,
+existence proof, i.e. a proof that Q + 1 (=n(n — 1)+1
+“gradient” vectors (12, pp. 263, 266).
+
+(12.1) Rul= (. wu, o) 0= 1,2,...,m;15j),
+
+exist, where W = (uy, ..., u,) is a vector of the module formed from each of
+Q + 1 properly chosen units %, of K. The set of Q + 1 vectors R[u] will be
+called a stability configuration. The actual choice of the Q =+ 1 units %,, as we
+shall indicate, is not only extremely difficult, but it accentuat
+in the infinitesimal behavior of the units of Ky for different N.
+Nevertheless the finding of these Q 4+ 1 vectorsu or R[u] would be desirable
+in view of the fact that a modular reduction theorem automatically enlarges the
+“neighborhood”” of a stable lattice (possibly to the whole lattice space, thus
+establishing a critical lattice, as in the quadratic case (12, p. 268)). For instance,
+take the following simple-looking set of % units of Ky (for N prime > 5):
+
+£ b
+¢ bt
 
 we obtained only an
 ) positively dependent
 
-(12.1) Rlll]= (”Hm/uh“) (lrj=li2,...,n;l;éj),
+,,,,,,
 
-exist, where u = (m, . . . , 14,.) is a vector of the module formed from each of
-Q + 1 properly chosen units ul of KN. The set of Q + l vectors Rlu] will be
-called a stability conﬁguration. The actual choice of the Q + 1 units u,, as we
-shall indicate, is not only extremely difﬁcult, but it accentuates irregularities
-in the inﬁnitesimal behavior of the units of KN for different N.
+e
+Lt 2 i
+o
 
-Nevertheless the ﬁnding of these Q + 1 vectorsu or Rlu] would be desirable
-in view of the fact that a modular reduction theorem automatically enlarges the
-“neighborhood" of a stable lattice (possibly to the whole lattice space, thus
-establishing a critical lattice, as in the quadratic case (12, p, 268)), For instance,
-take the following simple—looking set of n units of KN (for N prime > 5):
+s s T
+(22 2 il
+F -
 
-r —— r1
-(3 ~—t+s‘“+§‘“
+£t
+s
 
-ll
+S
 
-(12.2) m
+ot
 
-5,5,; —— (”*6 + ...+ r + r1 + . . . + chow“
-—1
+HITL
 
- 
+>3 e e
+T
 
-where I = exp 21ri/N. Each 0 the ﬁrst n —e 1 units listed above is taken with
-its conjugates and the last (rational) unit is taken once, forming Q + 1
-"(7‘ ‘ 1) ‘l' lunitsl I(
+es irregularities
 
-It is found by very laborious calculations (which we omit) that the resultii g
-Q + l vectors Rlu] provide a stability conﬁguration when N = 5, 7, 13 bill
-that these vectors are not even of rank Q when N = 11. The question ofivhether
-or not the integer-module of KN provides a critical lattice for the norm in it real
-dimensions is answered positively for N = 5, 7 (3), and negatively for N = ‘13
-(11), while for 1 = 11 the answer is still unknown. It \vould‘Pl‘ObablY be “’1‘“
-t0 EXhibit a suH‘iciently simple stability conﬁguration {or the integer-mOdUle 1"
-K11 before trying to establish it as a critical lattice.
+S A LS
+T2otssee
+
+t1 s
+e
+
+£
+
+C
+:"r;,'"'
+e nres i T
+
+(4
+et
+Cre
+
+(VAL NS b e e
+
+.......
+-------
+
+N ol it sd ] a el
+
+— ¢ SN D] 2O el
+r’ SNSRIV ST J LA
+X !
+>
+
+where { = exp 2xi/N. Each of the first # — 1 units listed above is taken with
+its conjugates and the last (rational) unit is taken once, forming Q + 1 =,.(. ]
+n(n — 1) 4 1 units. .(-;,« o
+
+It is found by very laborious calculations (which we omit) that the resulti: . J
+Q4+ 1 vectors R[u] provide a stability configuration when N = 5,7, 13 but /-
+that these vectors are not even of rank Q when N = 11. The question of .whether D
+or not the integer-module of K provides a critical lattice for t!le norm in 7 real
+dimensions is answered positively for N = 5,7 (3), and negatively for N = '13
+(11), while for N = 11 the answer is still unknown. It would'probably be wise
+to exhibit a sufficiently simple stability configuration for the integer-module in
+K1 before trying to establish it as a critical lattice.

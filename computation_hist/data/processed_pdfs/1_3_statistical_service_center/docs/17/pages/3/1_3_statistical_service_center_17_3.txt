@@ -1,90 +1,83 @@
-‘
+1)
 
-OFFICE OF STATISTICAL SERVICES
-Li
+2)
 
-st of Reports Issued from July 1, 1952 - June 30, 1955
+3)
 
-Value Problems on Automatic
-vices Report 5—1 (296 pages)
+4)
 
-53°
+1)
 
-Computing Equipment"
-MIT Statistical Ser
+2)
 
-‘ ~August 22, 1952
+3)
 
-2) Verzuh, Frank M.
+4)
 
-"Description“of the M.I.T. General Purpose Control Panels for
-the Model II Gard Programmed calculator"
+5)
 
-MIT Statistical Services Report 8-10 (43 pages)
-December 15. 1952
+6)
 
-3) Verzuh, Frank M.
+OFFICE OF STATISTICAL SERVICES - =3 =
 
-"M.I.T. CPO Board No. III - A 12-Digit Fixed-Decimal Board"
+List of ReEorts Issued from July 1, 1952 -« June 30, 1953 i:
 
-MICE Statistical Services Report 3-12 (16 pages)
-June 12, 1953
+Verzuh, Frenk M. 8 ’E
 
-;
+“Solution of Boundary Value Problems on Automatic Computing Equipment"
+MIT Statistical Services Report S<1 (295 pages)
+“August 22, 1952
 
-4) Verzuh, Frank M.
+Verzuh, Frank M. | Y
 
-"Description of the M.I.T. Board No: V - A 13-Digi‘t Floating-
-Decimal Board"
+"Description of the M.I.T. General Purpose Control Panels for “
+the Model II Card Programmed Calculator" =
+MIT Statistical Services Report S=10 (43 peges) oot T )
+December 15, 19562 . ' -’
 
-MIT Statistical Services Report 8-14 (17 pages)
-June 25, 1953
+Verzuh, Frank M.
 
- 
+"M.I.To CPC Board No. III = A 12-Digit Fixed-Decimal Board" .
+MI? Stetistioal Services Report S-12 (16 peges) - 7 |
+June 12, 1853
 
-List of Reports Issued from Jul! 1, 1955 2- June 50, 1954
+Verzuh, Frank M. A
+"Description of the M.I.T. Board No. V = A 13=-Digit Floating= “,
+Decimal Board" :
+MIT Statistical Services Report S=14 (17 pages)
+June 26, 1963
 
-1) Verzuh, Frank M.
+List of Regorts Tssued from Julz 1, 1963 = June 30, 1954
 
-"M.I.T. General Purpose Control Panel Board
+Verzuh, Frank M.
 
-MIT Statistical Services Report 3-15 (32 pa
-September 50, 1955
+"M.I.Te General Purpose Control Panel Board IV for Model II CPC"
+MIT Statistical Services Report S-13 (32 pages)
+September 30, 19563
 
-IV for Model 11 CPO"
-sea)
-
-2) Verzuh, Frank M.
+Verzuh, Frank M.
 
 "A Description of the IBM Punched-Card System"
-
 MIT Statistical Services Report (20 pages)
 October 30, 1953
 
-5) verzuh, Frank M.
+Verzuh, Frank M.
 
-"Solution of Boundary-Value Problems on Automat
+“Solution of Boundery-Value Problems on Automatic Computing Equipment™
+AIEE (Communications and Electronics) 10, ppe 813=821, January 1954
 
-ic Computing Equipment"
-AIEE (Communications and Electronics) 10, ppo
+Verzuh, Frank M,
 
-813-821, January 1954
-4) Verzuh, Frank M.
-"Digital Computer Solution of Scheduled Air
+"Digital Computer Solubion of Scheduled Air Traffic"™ (12 pages)
+Peper presented at AIEE North Eastern District Meeting, May 6, 1954
 
-Traffic" (12 pages)
-Paper presented at AIEE North Eastern Distr
+Verzuh, Frank M.
 
-ict Meeting, May 6, 1951.L
-5) Verzuh, Frank Me ’
+"The Educetional Concept of Computers as a New Tool" (8 pages)
+Proceedings of Conference on Training Persomnel for the Computing
 
-"The Educational Concept of computers as a New Tool"
+Machine Field, June 23, 1954
+Verzuh, Frank M.
 
-Proceedings of confere
-
-. Machine Fields June 23, 1954
-
-6) Verzuh, Frank Mo
-
-"Electronic Computer laboratory: Theory and impairments" (231 pages)
-July 30;, 1954
+"Rlectronic Computer Laboratory: Theory end Experiments" (231 pages)
+July 30, 1954

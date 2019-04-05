@@ -1,46 +1,47 @@
-CGWMITTEE ON MACHINE METHODS OF COMPUTATION
+COMMITTEE ON MACHINE METHODS OF COMPUTATION
 
 Minutes of the Eighth Meeting
 April 9, 1953
 
-Persons Present: J. W. Forrester, H. Feshbach, C. C. Lin,
-P. M. Morse, E. Reissner, W. W. Seifert,
-F. vareuh
+Fersons Present: J. W. Forrester; H. Feshbach, €. C. Lin,
+SIERRA P. M. Morse, E. Relssner, W. W. Seifert,
+F. Varzuh |
 
 Morse reported that the Association for Computing Machinery
 had officially requested him to head a Program Committee for the
-meeting of the Association at M. I. T. on September 9,10 and 11. He
-rep ortedithat he had asked Adams, 3. H. Caldwell, F. B. Hildebrand,
-W. pw. Seifert, and F. verzuh to serve as a Program Committee. Morse
-said that he would report to this Committee from time to time on its
-plans.
+meeting of the Assoclation at M.I.T. on September 9, 10 and 11. He
+reported that he had asked Adams, S. H. Caldwell, F. B. Hildebrand,
+W. W. Seifert, and FF. Verzuh to serve as a Program Committee. Morse
+guid that he would report to this Committee from time to time on its
+plans. :
 
-Lin reported that R. M; Smith, offered an assistantship for
+Lin reported that R. M. Smith, offered an assistantship for
 next year, had declined it. He had brought up the question of Miss
-Mary Lister for post doctoral research associateehip. After consid-
-
+Mary Lister for post doctoral research associateship. After consid-
 eration of her record, the Committee agreed to support the Mathematics
-_Department'e recommendation.
+Department's ccommendation.
 
-Fo¢:ester brought up the problem of IBM and RDA charges for
+Forrester brought up the problem of IBM and RDA charges for
 computation time for research, and questioned whether the project
 supporting these machines could not also support a fraction of
 research time in the manner similar to the Whirlwind arrangement.
-Morse said he and Verzuh would try to work out an arrangement.
+Morse sald he and Verzuh would try Lo work out an arrangement.
 
-Feahbach brought up the question as to whether a full-time
-analyst should not he added to the staff of the project to help get
-computing problems into shape for machine Bervice. No definite
+Feshbach brought up the question as to whether a full-time
+analyst should not be added to the staff of the projeet to help get
+gomputing problems into shape for machine service. No definite
 conclusion was arrived at.
 
-The ne::t meetin of the Committee will be at gm 2.m .9
-on tiednesﬂay May ”5 ‘_ —-'_.
+LL IAEIE Ta SILI Ee Ra Sat Le A Nal SII Re BT CEEOL AaB
 
-mm WM
+on Wednesday, May O. :
 
-. Morse
+SE Wea
+
 Chairman
 
-PMM:rm
+The next meeting of the Committee will be at 3:00 p.m.,
+
+PMM: rm
 
 

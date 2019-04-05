@@ -1,41 +1,116 @@
-MODULAR FUNCTIONS, DEFINED BY
-PERTURBATION MAPPINGS“
+ST
+S
+{7l
+
+-
+34
+33
+O
+S S LTI
+
+-
+-
+Al
+
+CoT o
+
+A
+—
+SAae
+
+(S Aot
+
+~——
+rC i es
+'
+
+———
+e
+caely
+
+-—
+-
+
+   
+
+R
+.~¢‘ ™
+
+L1501
+L2 11
+s
+
+s
+
+. .
+i
+
+1
+
+2;3::;
+- rt
+Py Attty T
+Ce P tes £Xry
+R Ay PR Ly
+S rs e e T
+
+Ay
+
+1y
+
+TP
+i
+
+,
+-~
+e
+
+L3353
+
+.
+
+L S
+
+-l
+
+MODULAR FUNCTIONS DEFINED BY
+PERTURBATION MAPPINGS*
 
 HARVEY COHN
 
 1. Introduction. There seem to be at least two different methods
-of deﬁning invariants 1(2) for Ihichsian groups, such as the modular
+of defining invariants I(z) for Fuchsian groups, such as the modular
 group, given by the transformations
-
-(1) z —>zr = (az + b)/(cz + d), ad — be = l,
-where a, b, c, d are integers. The function 1(2) is to satisfy the con-
+(1) z—2" = (az + b)/(cz + d), ad — bec = 1,
+where a, b, ¢, d are integers. The function I(z) is to satisfy the con-
 dition
-(2) I(z') = 1(2) for Imz > 0.
-The ﬁrst method is to deﬁne the so-called Eisenstein series,
+(2) I(z") = I(z) for Imz > 0.
+
+The first method is to define the so-called Eisenstein series,
 
 formed with terms arising from the denominators of the transforma-
 tions, such as
 
-(3) Emu) = 2qu (pa + q)“
+3) En(2) = 2oz + )"
 
-summed (once) over each reduced fraction p/q (positive, negative,
-0/1, and 1/0). It is easily seen that for even m g 4 the series con-
-verges absolutely to a sum not identically zero and, from the con~
+summed (once) over each reduced fraction p/g (positive, negative,
+0/1, and 1/0). It is easily seen that for even m = 4 the series con-
+verges absolutely to a sum not identically zero and, from the con-
 vergence,
 
-(4) Em(zT) = (02 + d)'"E,,.(z).
+(4) En(z") = (cz + d)"En(2).
 
 To form a genuine invariant (with property (2)), we take a combina-
 tion [3] such as
 
-(5) J (a) = Rho/[1713(2) - 1352(2)],
+(5) J(2) = E(2)/[Ei(2) — Ee'(2)),
 
-giving J (z), the well-known invariant. It turns out that all in-
-variants are single-valued functions of J (z).
+giving J(z), the well-known invariant. It turns out that all in-
+variants are single-valued functions of J(z).
 
 The second method, due to Dedekind [1], is to start out with the
-fundamental domain, in the z—plane, and let [(2) he an actual mapping
-function that identiﬁes the portions of the boundary that correspond
+fundamental domain, in the z-plane, and let 7(z) be an actual mapping
+function that identifies the portions of the boundary that correspond
 
-” Research sponsored by the Ofﬁce of Ordnance Research, U. S. Army.
+* Research sponsored by the Office of Ordnance Research, U. S. Army.
 341

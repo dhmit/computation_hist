@@ -1,0 +1,76 @@
+SRR ST = T T . A A
+i
+Al Je et A i
+9 ARTHUR L. LOEB AND HARRY H. DENMAN ":'}{ ”f,,’;:”:/;f‘éﬁ",,{,:,‘f/»':"gjj "f
+< Ru(l — Ro)* DIGITAL COMPUTER AS A LABORATORY TOOL 3 :; ~;‘(::i{‘}:{:':,;‘:f'::;{';:’,,f",'j"'.};i
+ba(1 — Rob . AT Ao
+3) i et —l_bf’—'—["m , transmission. Onl f these is Si ioni ic i %“é{'{f;}ﬁ/ﬂ{;i’ﬂc/;u’:“}
+. : y one of these is physically significant, and physical ,r%‘.,'.fv',;;‘:;.;:,?’,?,,;',:;',:,':,",;'.;:;::.‘»,:,;:;;
+5 s ‘ insight is used to determine which set this is. g&f}’fﬁ",{-’fi}f’:,"":""%’w
+'(nb — 1) cos = (n + tk)ay + <mf =S ‘l/~’> Whep fche thickness of the metal film decreases, the reflectance and m’}{f,";;f"’y:'::.u
+| e iflo \ ¢ transmission become less sensitive to the properties of the metal, and the " 4‘:"{;,;'};'.,':."'{"':"':,‘,‘!
+¥ 8In § — (n + ik)a ' index of the backing becomes relatively more important. Therefore, the i "(“:;:.:f:;:::::."',f‘j"
+. . . . . . el s ARSI MMMMMIAIAA K
+\ @ Ru-= ________Z________——n—b———— ~ accuxa.cy: afforded in n and k b){ the e‘.\'per{m‘ental accuracy in measuring ,;‘,f:':’:"::.f:::"',":3‘::,‘{:' S~,
+' (ny + 1) cos T (n + ik)at — (— = -+ z/;> R and 17 decrea.ses \VIFh d.ecreasug ratio of film thickness to wavelength, ;‘3’7‘::::::,;:5:..:”’”‘,':::;,, N
+| \ BERLET | so that the partial derivatives an/oR, an/dT, ok/dR, and ok/dT should be _»;r;:—:;5:3::‘5';:5:3:5:;';?3:5:5:5:}:3:f:f:f:f:f:sfg i
+.7 sin f 2m (n + ik)q ; reported along with the computed » and k in order to estimate the probable 3::‘5,’,‘?5}3};5,{;‘,':'}5:;:":v{":;.:'?;,’:f::
+\ A | error in n and k corresponding to the probable errors in the reflectance f:\?,f.’?éf I’,Egi?}i;é;:t'gg';g"‘giff{.‘jjjjt{, )
+and transmission data. AT R
+S sl e 2 It is clear from the f f (1), (2), ---, (6) that licit functions }5{.3{??3?2,355‘5 i v’f‘-:’."f{; !
+() = = = — Is clear fro e form o . (2), , (,) a ,1‘10' fbxp icit functions R
+b ) oosd 2 (e alah = (___'__ + 5 + M) can be found for n and k in terms of R (or R’) and 7. Therefore, a series RO Rt 555“1@:3”‘(
+A n + ik ; of successive approximations must be made, trying a set of n and %, and 7f2§§3§f§3§;§§:;,¢§ ' ¥
+i sind 2T (n + ik)a ; computing the set B (or R’) and 7' corresponding to this set of n and k. ;“;;:gg’i;:&;ﬁg T ‘}?““'55
+A The time required for each computation of R (or R’) and T , on a desk s;.ﬁf;;?f%%}‘tjg}f:g a‘hﬁg"zm‘
+, S calculator, from a set of n and k is about 1} hours; ten approximations xg‘vt‘ﬂfﬁfgfmggg"wﬂ
+l i=tl)icos{ —n oy — =2 5 — 5k may be necessary to achieve the required accuracy. Therefore, about 15 ':32;23;3:'«{3’,',&:;! 040 N e
+A n + ik : hours per sample per wavelength may be required using a desk calculator. ”E‘E'::.;f"" ﬁ{;§€ i :ss‘é:
+£ s [ 2m (n = 1% i If the incidence on both metal film and backing are to be considered, this ‘:'vt"!"gg':mé" };gggx\:&‘ggg‘ss'
+fiis (6) Ry, = - IA el | time may be doubled. f.t".'"1:;1‘1:"‘?'."-"."":’-3:85;;:;‘;}'
+i | )2 . i . i The thickness of the film is calculated from the observed weight of the S R
+A ' (e + 1) cos {— (n + k)ap — <——— + n 4+ 1k ; | N : o RS LR ~,:'.j.f.;‘.‘-;q;:-;-:::':::;!(.‘:g e
+i A n + ik film and the density of the film. Uncertainty regarding the density of the }--"'.:"(':"."G‘Jf‘-':-'*f-rf::'f;'-::f"‘o,n’ i gf:%k%‘:sz
+; ] 2 e film indicates the desirability of repeating the calculation for various film ’} 2”;,;:3':’ AN ':gsgt:‘:{‘"
+e (n + ik)a thicknesses, so that the need for a faster calculating medium is clearly "‘,":,..,.‘,v‘fg:,‘ff;i.: ‘”"‘s!.‘i.‘f»}"
+( 1)? indicated. Graphical approximations have been used by Murmann [4], but "-',',":',"':,'f::“-:,‘“»,"fl' ) "-'gé
+(1) Rg = (::Z%];,, even these are very laborious, and their accuracy decreases considerably ,.:v':'f""""{'fo'.?'::f;{ff:ﬁ:ff;:‘ ; "«‘é‘g
+
+when the metal film thickness decreases.
+Since n and k depend on four independent variables, R, 7', a/\, and n, , RL27
+L i the publication of tables \\'ith;uﬁiciently small intervals is not practical ’,‘:" a0
+n = index of refraction of the me ' for accurate evaluation of n and k. i
+e :;C::étf:ll?{l ’ For the above reasons, a program was coded for \\‘rhirl.wind I, as floscl-‘ihed T ) Dl ot
+i fim, below. This program is designed to take data al.ld 1111'111:911 results in form iy e el
+st L g which can be processed by anyone not acquainted with electronic com- .,‘ff'v%?.,‘-’"""':'-':.‘w.}»":‘:.',{‘,’.;:.."'n:f{»‘. ]
+°R reflectance of radiation incident on t,’he film R ﬁ.\‘;:ﬁ"""I".'."".::I%‘%."m:mm{ -
+R’ reflectance of radiation ine ’
+T = transmission of radiatic
+The optical “constants”
+radiation and with the
+of measured valye
+optical constant
+
+where
+
+'
+8 =
+o
+
+>
+I
+
+ident on the backing, 3. Successive approximation method. (1) and (2) together with (4), (5), ..,
+n incident on either the film or the backing and (6) express R and 7T as functions of n and k. In Fig. 1 is drawn a Carte- Hivd ‘
+" vand k vary with the wavelength \ of the incident sian system of coordinates in which each point represents a pair of values .
+' hlm thickness a, and must be calculated from a pair (n, k). Similarly in Fig. 2 an (R, T') plane is drawn in which each point
+s tor either R and 7' or R’ and 7'. There are two sets of represents a pair of values (R, 7'). (1), (2), (4), (5), and (6) provide the AoF
+S corresponding to each pair of values of reflectance and means of calculating a point (R, 7') in Figure 2 corresponding to a point |
+
+(n, k) in Fig. 1, or “transforming” (n, k) into (R, T'). Since the five equa-
+
+,,,,,,
+
+’ A
+) -
+% v

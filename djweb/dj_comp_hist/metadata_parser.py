@@ -7,6 +7,7 @@ from django.db import IntegrityError
 from django.core.exceptions import ValidationError
 from .common import DJWEB_PATH
 
+# TODO: move elsewhere, since used in data preprocessing, not in Django app
 
 def populate_from_metadata(file_name=None):
     '''
@@ -55,13 +56,46 @@ def populate_from_metadata(file_name=None):
     print(f'Added {count_added} documents from {file_name}. Skipped {count_skipped} documents '
           f'because of incomplete metadata. Invalid: {count_invalid}')
 
+
     db = sqlite3.connect(f"{Path(DJWEB_PATH.parent, 'db.sqlite3')}")
     cursor = db.cursor()
-    cursor.execute('create virtual table doc_fts using FTS4(id, title, text);')
-    cursor.execute('''INSERT INTO doc_fts(id, title, text) 
-                                                SELECT id, title, text 
-                                                FROM dj_comp_hist_document;''')
-    db.commit()
+
+    # Create full text search table for document text, title, author, recipient, cced
+    # delete old table if exists before populating full text search table.
+    cursor.execute('DROP TABLE IF EXISTS doc_fts;')
+    cursor.execute('CREATE VIRTUAL TABLE doc_fts USING FTS4(id, title, text, author, recipient, cced);')
+
+    for d in Document.objects.all():
+        # join together all author names. By default, first and last name are joined by an
+        # underscore -> replace with a space
+
+        # sqlite expects quotation marks and apostrophes to be escaped by doubling
+        # them, e.g. he''s. However, the fts table tokenizer splits them up anyway -> it's easier
+        # to just replace them with spaces.
+
+        author = " ".join([p['name'].replace('_', ' ') for p in d.get_person_list('authors')])
+        author = author.replace("'", " ").replace('"', ' ')
+
+        recipient = " ".join([p['name'].replace('_', ' ') for p in d.get_person_list('recipients')])
+        recipient = recipient.replace("'", " ").replace('"', ' ')
+
+        cced = " ".join([p['name'].replace('_', ' ') for p in d.get_person_list('cceds')])
+        cced = cced.replace("'", " ").replace('"', ' ')
+
+        title = d.title.replace("'", " ").replace('"', ' ')
+        text = d.text.replace("'", " ").replace('"', ' ')
+
+        insert_cmd = f'''INSERT INTO doc_fts(id, title, text, author, recipient, cced)
+                                VALUES("{d.pk}", "{title}", "{text}", "{author}", "{recipient}", "{cced}");
+                      '''
+
+        print(insert_cmd)
+
+        cursor.execute(insert_cmd)
+
+        # commiting only after inserting all documents produced db locked errors -> moved here
+        db.commit()
+
 
 def add_one_document(csv_line):
     """
@@ -108,15 +142,20 @@ def add_one_document(csv_line):
     # ------------------------------------------------------------------------
 
     # ---------------------Folder---------------------------------------------
-    folder_exist, new_folder = check_generate(Folder, "name", csv_line['foldername_short'])
-    if not folder_exist:
-        box_exist, new_box = check_generate(Box, "number", csv_line['box'])
-        new_box.save()
-        new_folder.box = new_box
-        new_folder.number = csv_line['folder_number']
-        new_folder.full = csv_line['foldername_full']
-        new_folder.file_name = csv_line['filename']
-    new_folder.save()
+    box_num = csv_line['box']
+    new_box, _unused_box_exist = Box.objects.get_or_create(number=box_num)
+
+    folder_name = csv_line['foldername_short']
+
+    new_folder, folder_exist = Folder.objects.get_or_create(
+        name=folder_name,
+        defaults={
+            'box': new_box,
+            'number': csv_line['folder_number'],
+            'full': csv_line['foldername_full'],
+        }
+    )
+
     new_doc.folder = new_folder
 
 
@@ -203,3 +242,36 @@ def page_image_to_doc(folder_name, pdf_path, image_directory):
             # This means that the page isn't associated with a document
             pass
     return
+
+
+def interpret_person_organization(field, item_organization, item_person, new_doc):
+    # Adds people and organizations as an author, recipient, or CC'ed.
+    field_split = field.split('; ')
+
+    for person_or_organization in field_split:
+        if len(person_or_organization.split(', ')) == 1:
+            new_org, _unused_org_created = Organization.objects.get_or_create(name=field_split[0])
+            bound_attr = getattr(new_doc, item_organization)
+            bound_attr.add(new_org)
+        else:
+            split_name = person_or_organization.split(', ')
+
+            if len(split_name) > 2:
+                print("There seem to be too many commas in this name ", split_name)
+
+            last_name = split_name[0]
+            first_name = split_name[1]
+
+            if last_name == 'unknown':
+                last_name = ''
+
+            if first_name == 'unknown':
+                first_name = ''
+
+            new_person, _unused_person_created = Person.objects.get_or_create(
+                last=last_name,
+                first=first_name,
+            )
+
+            bound_attr = getattr(new_doc, item_person)
+            bound_attr.add(new_person)

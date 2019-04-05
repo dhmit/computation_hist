@@ -1,0 +1,145 @@
+REFERENCE
+
+MASSACHUSETTS INSTITUTE OF TECHNOLOGY
+Cambridge 39, Massachusetts
+
+Dr. F, L. Foster December 30, 1955
+Room 5-105 :
+
+P, HM. Morse, and F. HH. Verzuh
+
+Continuation of Contract N5ori0B8001 (DIC 6345 and 6915)
+
+beyond the current expiration date of April 30, and June 30, 1956,
+respectively.
+
+ONR Contract NSorioOs8001
+
+ 
+
+In accordance with our conversations with the following
+ONR Representatives:
+
+Mr. Alfred J. Wise, ONR Contract Administrator, MIT
+Dr. Carl F. Mukenhaupt, Chief Scientist, Boston
+Dr. F Joachim Weyl, Dir. Math Sciences Div., Washington
+
+we recommend applying to ONR for an additional $20,000 to
+supplement the expenditure of Project 6345 for the fiscal period
+1956-1957.
+
+ 
+
+Project 6345 (WHIRLWIND Operation) has an unexpended
+balance of $97,000 as of November 30, 1955. The current expenditures
+are approximately $10,000 per month. The average ''income'' received
+for Whirlwind usage is approximately $3000 per month -- a net
+expenditure of $7000 per month. If it is assumed that the present
+level of income ($3000 per month) is maintained during the 17-
+month period December 1, 1955 to June 30, 1957, a minimum amount
+of $118,000 will be required during this period.
+
+Project 6915 (Machine Methods of Computation) has an
+unexpended balance of $71,000 es of November 30, 1955. The current
+expenditures are approximately $7,000 per month. If it is assumed
+that the present expenditures remain constant, there will be a
+balance of approximately $22,000 on June 30, 1856. In accordance
+with our present plans for terminating the ONR support of this
+project on June 30, 1956, there will be certain additional
+terminating expenditures. It is estimated that $7,000 will be
+expended for termination purposes.
+
+The expected arrival of an IBM Type 704 Electronic Data
+Processing Machine at MIT about January 1, 1957 will create a
+definite need for additional funds to finance the conversion of
+existing WHIRLWIND programs to Type 704 programs.
+
+
+TE —— =
+
+ 
+
+& -2
+
+A separate DIC project will be set up to handle the Type 704
+
+i utilization within the M.I.T. COMPUTATION CENTER, and a
+separate request for GNR funds will be made. Current plans
+indicate that Project 6345, as such, will terminate on June 30, 1957.
+As a matter of fact, certain experienced programmers will be
+transferred to the new project on January 1, 1957. The estimated
+budget for Project 6345 has been adjusted accordingly.
+
+The task order for Project 6345 will include the
+usual Whirlwind project activites:
+
+1. Research in methods of numerical analysis and
+the formulation of scientific problems for
+machine sclution, together with the training
+of personnel in these methods.
+
+2. Support of the Scientific and Engineering
+Applications group of Project WHIRLWIND so as
+to make the computer useful and available for
+the above-mentioned research.
+
+In addition, the following task order arising in connection with
+the Type 704 EDPH will be included:
+
+3. The development of a suitable interpretive program
+and associated coding techniques to permit
+® effective implementation of the Type 704 machine.
+
+A detailed breakdown of the estimated budget for
+Project 6345 and the 6915 termination costs are given on the |
+next page.
+
+
+-3
+
+Estimated BUDGET for DIC Projects 6345 and 6915
+(Fiscal Period July 1, 1956 - June 30, 1957)
+
+Salaries and Wages
+
+ 
+
+ 
+
+Administrative Supervision $ 5,500.
+Technical Supervision 3,000.
+
+2 Research Assistants @ 3000 : 6,000.
+
+4 Mathematicians @ 6000 (6 months) 12,000.
+
+2 Analysts and Programmers @ 5000 10,000.
+
+2 Secretaries 6,500.
+
+4 Typists and Clerks (Tape Preparation) 12,000.
+
+4 Computer Operators 13,200.
+
+1 Photo Lab. Asst. 3,200.
+
+$ 71,400.
+
+Overhead (at 40%) 28,560.
+Travel ; 5,000.
+Materials and Services 6,000.
+$110,960.
+
+Termination Cost for Project 6915 7,000.
+$117,960.
+
+Estimated Unexpended funds in 6345 $57,000.
+Estimated Unexpended funds in 69185 22,000.
+Estimated Computer INCOME 18,000.
+
+_97,000.
+
+Minimum Amount to be Requested of
+GHE for 19868-1987. « oo os io ® wo wieiie ae Celia ee $ 20,960.
+
+

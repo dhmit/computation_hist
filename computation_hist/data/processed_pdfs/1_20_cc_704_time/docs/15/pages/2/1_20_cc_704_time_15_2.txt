@@ -1,60 +1,74 @@
-8" Does the programr(s) intent; to do all the programming?
+g. Does the programmer(s) intend %o do all the programming?
+
+9.
+
+Does the prograrmer(s)
 
  
 
-_. mom—mums»
+intend to prepare the input cards?
 
-9- D095 “16 pmsramarm intend to prepare the input cards?
+10, If the answer %o 8 or 9 is no, what plans have you?
 
-10. It the answer to 8 or 9 is no, what plans have you?
+11,
+12,
+13,
 
- 
-
-M...
-
-(Ordinarily, program
-assistance is needed
+14,
 
  
 
- 
+M
 
-as and card punching have to be done by the programmer. If
-from the Center, special arrangements have to be made)
+(Ordinarily, programmi
+assistance is neaded
 
-11., When will pmgram testing probably start?
+—m-mmm—m
 
- 
+from the Center, special arrangements have to be mads)
 
- 
-
-12;. Estimate of machine hours required for testing program:
-
- 
-
-13. Estimate of machine hours to produce results from program
-
-14. For indexing purpose, how would you categorize the Iroblem?
+When will program testing probably start?
 
  
 
  
 
-15. On one or two additional sheets write sections A, B, and c as follows:
-Section A: A one-paragraph abstract of Section B and C.
+Estimate of machine hours required for testing programs:
 
-Section B: Comlete description of problem background which should
+ 
+
+Estimate of machine hours to produce results from program
+
+ 
+
+For indexing purpose, how would you categorize the rxoblem?
+
+ 
+
+15: On one or two additional sheets write sections A, B, and C as follows:
+
+Section A:
+
+Section B:
+
+Section Cg
+
+A one-paragraph abstract of Seetion B and C,
+
+Complete description of problem background which should
 give complete picture to someone well aquainted with the
-relevant field or research. Give references to earlier
-or related work am indicate relation to this m": .
+relevant field of research. Give references to sarliexr
+ox related work and indicate relation to this work.
 
-Section C; Description of numerical and computer techniques to be
+Degeription of numerical and computer techniques to bs
 used, and justification of their adequacy or indication
-of how adequacy is to be determined. This description
-should include, when pertinent, the number of significant
-figures accuracy required at various stages of the colon:-
-lation and the ranges and values of the quantities in»:
-valved in sufficient detail so that program complexity
-may be estimated. In addition, indicate how you plan to
+of how adequacy is to be determined., This description
+shovld include, when pertinent, the number of significant
+figures accuracy required at various stages of the calcu-
+lation and the ranges and valuass of the quantities in-
+volved in sufficient detall so that progrem complexity
+nay be estimated, In addition, indicate how you plam %o
 test the programs and whether you have test cases
-available.
+availabls,
+
+ng and card punching have to be dons by the progrommer. If

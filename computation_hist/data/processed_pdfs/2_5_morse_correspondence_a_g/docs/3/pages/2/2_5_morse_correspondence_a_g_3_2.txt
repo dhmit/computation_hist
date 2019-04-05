@@ -1,12 +1,23 @@
-MY
-THE 5.1.1. WEE comm mm '03
-m 1.8.3. 704
+SUNBARY
+THE B.I.T, AUTOMATIC CODING SYSTEM FOR
+THE I.B.M, 704
 
-1) Th. them-1m 01 In “mead ‘11::ch lumen-o and
-o: annuity machine code in one comprehensive coding sum,
+Abstraet
 
-2) ‘Bzo gmuim for Mining tuneup” (1.19.. sub~
-mum) at will within tho algebraic language, and the ”par
-“an o: the Mining prom: (ran the commune process,
+&n automatic coding system, which, it is hoped, will
+be useful te novice and SxXpert coders alike, is being developed
+for use on the I.B.M, 704 at the M.1.7, Computation Center., The
+system is not yet in operation, but its underiying philosophy is
+alveady clear, It is felt that the new developments embodied in
+the M.I.T. systom will be of interest to others ai this time,
+The principal features of this system ave:
 
-3) me use of symbolic mam-mg to actuate the
+1) The inclusiom of an advanced algebraic language and
+of elementary machine code in one comprehensive coding system,
+
+2) The provision for defining functions {i.e., sub-
+routines) at will within the algebraic language, and the gepara-
+tion of the defining process frem the computing process,
+
+3) The use of symbolic addressing to facilitate the
+interliaking of the algebraic and machine languages

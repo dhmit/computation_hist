@@ -1,59 +1,64 @@
-MASSACHUSETTS INSTITUTE OF TECHNOLOGY
-DIVISION OF INDUSTRIAL cobPERATION
-CAMBRIDGE as. MASS.
+MASSACHUSETTS INSTITUTE OF TECHNOLOGY » |
+DIVISION OF INDUSTRIAL COOPERATION ' ;
+CAMBRIDGE 39. MASS.
 
-January 18-, 1956
+January 18, 1956
 
-OFF|CE OF THE DIRECTOR
+OFFICE OF THE DIRECTOR
 
-Director DIG—#63h5
-Office of Naval Research . #6915
-495 Summer Street ' '
-Boston, Massachusetts
+ 
 
-Reference: Contract N50ri-06001
+0ffice of Naval Research
+495 sSummer Btreet
+Boston, Magsachusetts
 
-Dear Sir:
+Director : DIC-#6345
+| #6915
 
-The Massachusetts Institute of Technology submits
-herewith a proposal for extension of the reference contract to
-June 30, 1957 at an additional estimated cost of-S20,960.00.
+Reference: Contract N50ri=06001
 
-We understand that this proposal has been the subject of discus—
-sions between Professor P, M. Morse of MIT and Mr. A. J. Wise
-of ONRmMIT, Dr. Carl F. Mukenhaupt of OanBoston, and Dr. F; Jo
-Weyl of OﬂRwWashington.
+Dear S1ir:
 
-There follows a summary of expenditures and funds
+The Massachusetts Institute of Technology submlts
+hepewlth a proposal for extension of the reference coniract to
+June 30, 1957 at an additlonal estimsted cost of $20,960.00.
+
+Wwa understand that thils proposgl has been the subject of dlscus-
+along between Professor P. M. Morse of MIT and Mr., A. J. Wise
+
+of ONR-MIT, Dr. Carl F. Mukenhaupt of ONR-Bogton, end Dr. P s
+Weyl of ONR-Waghlngton. |
+
+There Tollows & summary of expenditures and funds
 remaining on the two projects, Whirlwind Operation and Machine
-Methods of Computation, which are currently active under the
-reference contract:
+Methods of Computatlon, which are currently actlive under the
+reference contracths
 
-Project #63”: (Whirlwind Operation) has an unexpended
-balance of $9?,000 as of November 30, 1955. The current expend—
-itures are approximately $10,000 per month. The average “income“
-received for Whirlwind usage is approximately $3,000 per month —-
-a net expenditure of $7,000 per month. If it is assumed that the
-present level of income ($3.000 per month) is maintained during
-the nineteenumonth period December 1, 1955 to June 30, 1957, a
-minimum amount, assuming some tapering off, of $ll9,000 will be
-required during this periodo
+Project #6345 (Whirlwind Operation) has an unexpended
+balance of $97,000 as of November 30, 1955. The current expend-
+1 tures are approximately $10,000 per month, The average "income"
+received for Whirlwind usage 18 approximately $3,000 per month --
+o net expenditure of $7,000 per month. If 1% is essumed that the
+present level of income (83,000 per month) 1s maintained during
+the nineteen-month perlod December 1, 1955 to June 30, 1957, a
+minimum emount, assumlng some tapering off, of $119,000 wlll be
+required during this period. |
 
-Project #6 1‘ (Machine Methods of Computation) has an
-unexpended balance of E7 ,000 as of November 30, 1955. The current
-expenditures are approximately $7,000 per month. If it assumed
-that the present expenditures remain constant, there will be a
+Project #6915 (Machine Methods of Computation) has an
+unexpended balance of $71,000 as of November 30, 1955. The current
+expenditures are approximately $7.000 per month. If 1t assumed
++hat the present expendltiures remain congtant, there will be a
 balance of approximately $22,000 on June 30, 1956. In accordance
-with our present plans for terminating the ONR support of this
-project on June 30, 1956” there will be certain additional term—
-inating expenditures. It is estimated that $7,000 will be
-expended for termination pvrpoees.
+with our present plens for terminating the ONR support of this
+project on June 30, 1956, there will be certaln additional term-
+inating expenditures. It 1is estimated that $7,000 will be
+expended for termination purposes.
 
-This summary is based on estimates prepared by Prof-
-essor P. M" Morseo
+Thig summary is based on eatimates prepared by Prof-
+eggsor P. M. Morse.
 
 Professor Morse further advises that the expected
-arrival of an IBM Type 70% Electronic Data Processing Machine at
-MIT about January 1, 1957 will create a definite need for addi—
-tional Tunds_-to finance the conversion of existing Whirlwind
-programs to Type 704 programs.
+arrivel of an IBM Type 704 Electronlc Data Processing Machine atb
+MIT about January 1, 1957 will create a definlte need for addl-
+tional funds--to finance the conversion of exlstlng Whirlwind
+programg to Type 704 programs.

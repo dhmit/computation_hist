@@ -1,131 +1,127 @@
-MEMORANDUE
+TOs
 
- 
+FROM:
 
-To: Professor P. M. Morse
-FROM: F. M. Verzuh'
-DATE: January 27, 1956
+DATE:
 
-SUBJECT: ONE Usage of the WW1 Computer During the Sabbath ,P-ex‘iod
-July 1, - December 81, 1955 '
-
- 
+SUBJECT 2
 
  
 
  
 
-’.__.__——.._.___...
+MEMORANDUM
+
+Professor P. M. Morse
+¥. Ms Verzuh
+January 27, 1956
+
+ONR Usage of the WWL Computer During the 6-Month Period
+
+July 1, «= December 3l, 1958
 
  
 
-‘ In accordance with our budget discussions wiw’fa Mr. F» G. Weylﬂl‘TR‘,
-I have prepared a 6-month summary of OER usage of “ml. The attacﬁed
-' 133732.56 table contains a. breakﬁctwn of M11 usage on "ohe grojee’t basis.
-
-During this 6—month interval, ONR'S “free time“ usage cf WI].
-breaks down as folloWs:
-
-_au Machine Computation Committee I 24:708n65
-be Solid State and Molecular Tneory (Slater) 295,0920'M-
-
-30 Miscellaneous projects 21:37:2ng
+ 
 
  
 
-1 $75:ess,49
+mayen ame EE
 
-The {20122.1 mehine usage during this 6-month perioﬁ. far this 'hype of
-work is 18,00636 ginutes, or approximately 500 hours;
+~
+
+In accordance with our budget discussions with Mr. Fs G. Weyl, ONR,
+ave prspared a 6-month summary of ONR usage of WWi. The attached
+
+Ih
+: &-page table contains a breakdown of WW1 usage on the project basis.
+
+During this 6~-month interval, ONR's "free time" usage of Wl
+breaks down es follows:
 
  
 
-   
- 
+‘8. Machine Computation Committee 24,708.63
+bo. Solid State and Molecular Theory (Slater) 29,082,74
+Co Miscellaneous projects 21,232,112
 
-I think the inferme' ' ‘
-[emblem number: title N ,
-ML! centree‘t nurﬂ er, 0m COuUI’aLL’r “1'
-.9 should give Lira W
-omen
+875,083.49
 
-   
+The total machine usage during this &Gmonth period for this type of
+work is 18,008.56 minutes, or approximately 300 hours.
 
-A consideraﬁion of the ebtaohed statistics reveals several items
-whio‘n. are worthy of mention. Specifically, some of the thesis research
-is quite expensive as illustrated in the case of Jack Uretslgv's
-problem 235 in which he has spent $313,925 during a 6-month period. As
-a meme? of fact, he has spent $18,1529‘70 on this problem since
-November, 195%. Similarly, B. Campbell has spent $12,893. on problem 245
-during this Gwmon’oh period, and $15,865955 since November, 1.954»
-Likewise, Mra K. Bryan has spent $1,870‘during the past six months and
-a. total of $519,941.60 sinus November, 19.54;» I ﬁhink the 6wmon'bh expenditure
-of $later’s group - 3329,092.74 is, a fair indication of the, efforts of "
+I think the informetion conteinad in the following table, such as
+problem number, titls, programmer, W.Il.T. Depertment, supsrvisor, ;
+DIC contract number, ONR contrach., minutes used, snd “free time" dollar
+value, should give Mr. Weyl all ths information he needs for budget
+discussions.
 
-his group. Furthermore, his group has, spent $347,944.25 since
+A consideration of the abtbached statistics reveals several ltems
+which are worthy of mention. - Specifically, some of the thesis research
+is quite expensive as illustrated in the case of Jack Uretsky's
+problem 235 in which he has spent $13,925 during a 6-month period. AS
+- matter of fact, he has spent $18,132.70 on this problsm since
+November, 1954, Similarly, B. Campbell has spent $12,834. on problem 245
+during this 6=-month period, and $15,865.35 since November, 18564,
+Likewise, Mr. K. Bryan has spent $1,870 during the pest six months and
+a total of $19,941.60 since November, 1954, I think The G-month expenditure.
+of Slater's group == $29,092.74 is a fair indication of the efforts of”
+his group. Furthermore, his group has spent $47,944.25 since |
 
 
-Han-
+Dm
 
 November, 1954 on this group of problems. There are other problems
-which have been completed prim- to June 50, 1954. All of this
+which have been completed prior to June 30, 1954. All of this
 indicates that we must exercise a tighter financial control on
 
-sane of these projects since there must be some maximum ammmt we
-
-can properly spend on a thesis. I am looking; forward to discussing
+some of these projects since there must be some maximum smount we
+can properly spend on a thesiss I am looking forward Ho discussing
 this matter with you at our next meeting.
 
  
 
-F. M. Verzuh
+Fo Mo Verzuh
 
 
-SPONSORED CREDIT THE SONRz
-
+SPONSORED CREDIT TIME ONR
 1 July - 31 December 1956
 
- 
-
-PROBLEM (ECU? TOTAL TIME
-Machine Computation Conmdthe 5,929.6
-Solid State & mlecular Theory 6,951»?
+PROBLEM GROUP TOTAL TIME
+Machine Computation Committee 5,929.6
+Solid State & Molecular Theory 6,981.7
 Miscellaneous Problems 5,095.3
-GRAND TOTAL 18.006.6
+CRAND TOTAL 18,006.6
 
- 
+TOTAL AMOUNT
+$211,708.63
+$29,092. Th
 
-TOTAL mum
-$214,708.63
-329,092.7h
+$21,232,12
 
-$21,232.12
-
-W.9h0.75
+$45,940.75
 
 
-.=..~8.& 336
+fiL°260°62
 
-aim:
-8.05
+6L°TSST
+89°912
 
-8626
-Sigma
-348$
+50°9€8°9
+89°LL2%e
+61°T90°¢E
 
-mm.nom..w
+2G°C0E 2
 
-mm .8m.w
-.3683
-0.33
-2..an
-RESR
-3A8“...
+S€°692°2
+2° Eon
+01° 28%
+LL E6T
+£€°L60°¢E
+L6°€0g°2
 
-Eamw
-and; .838
-
- 
+LL°€52
+enfep JBTTOd
 
  
 
@@ -133,256 +129,439 @@ and; .838
 
  
 
-mun—Hoe
+L°T86% SIVLOL
+
+f°2lf 9990 THOS £999
+0°25 958L0 TIOSN £4989
+0°INO’T 998.0 TIOGN £589
+9°9Ms 958L0 TI04N £4989
+L°HEL 948L0 TIOSH £589
+8°2ss 948.0 TIOSH €589
+9°iis 958.0 TIOSH £989
+€°0L6 9990 TIOGN £589
+Loh 9S98L0 TIOSH £589
+a°9% 958.0 TIOSN £489
+€€hl 9580 TaOSN £589
+6°2L9 95040 TION £409
+6°09 9S8L0 FXOGH £589
+pes 30eajuo) WNO 9oBXqUO) OIC
+SO9NUTH
+
+GG6T sequedey If « Ang T
 
  
 
-.32 Rab new: $3
-o.~m 32.0 Ham: $8
-364 ﬁns ﬂow. $8
-3% omﬁo tom: $8
-33. R80 #8? 38
-3mm mmﬁo Ema ammo
-woﬁm 0mm? ﬂomz ammo
-n63 326 Home $8
-ﬁn: $2.0 «puma 38
-mg 038 #89 $8
-«.mﬁ. ommwo 20m: ammo
-ﬁg.» «$8 Eomz 3%
-Q8 «$8 Eomm $8
-83 aomﬁnou as wahpaa 8a
-menu—ﬁg
+J878TQ
 
-mm% 32.38 R a 53. H
+JS9FLS
 
-33%
+JO048LS
 
-nopﬂm
+209878
 
-novaﬂm
+A898 S
 
-53m
+“SRLS
 
-3.3m
+IBY
 
-83.35
+20481
 
-53m
+4378S
 
-“33¢
+£998TS
 
-H33“
+J3981S
 
-ASNHm
+Z898TQ
 
-nova
+329918
 
-Egan
+i
 
-.3993
+°F
 
- 
+*p
 
-.h.
+=f
 
-.h.
+°p
 
-A.
+i
 
-.h
+pL
 
-.5
+t
 
-.b
+*T
 
-.n.
+*f
 
-.n.
+*f
 
-.5
+i
 
-.n.
+*f
 
-.h.
+IOSTAISANG
 
-.u
+PpueTacH °V
+(s9Tefyd)
+UoTTV 1
+(saTeiyd)
 
-an.
+%eqsell °Y
+(8018444)
+WIBIIBS ‘H
 
-a
+(eoTefuy)
+oeqac) “J
 
-Gumbo 038.20
+(so1sfyg)
 
- 
+ueuefeydy °H
+(eotedug)
+uBEaRx] °y
+10380Y °D
+(80784yd)
+POCH °f
+(e018)
+99q8a *Y
+(sotsfyd)
+asqsef i
+(sot84d)
+uIagyes °H
+(sotehud)
+o3eqro) °f °d
+(soTsAy)
+uosW[oP “Hd
+IOTNOOH °V
 
- 
+ISUNTRIZ0I]
 
- 
+T8984X0 SPTIOTUD
+mTaseno] eIndut Dur ern]
 
- 
+S3TNOSTOW puw
+SUO}Y UT 8399179 ATI TARZTJILTOL
+SHOTAOUMT SABM 2TUOLY
+T83843ID
+umTHOIYS 03 perrdde €8 pOURSW MJY
+H TI SOpPTIDAY
 
-33m .4 aﬁmgom magi may. an?“ HR.
-33535
-and: 2H mwauomaoa EB
-A3395 33¢ 5 guano 3333338 5%
+OPHORBTIP JO STAT AJIsud
 
-#332 .m 30335 m5; ago: mama.
-$01335 again
+STRAISUT
+JETNOSTOU JI02U0=083 JO UOTHBNTBAN
 
-50.33 .s 556 3 aaﬂﬁw 3 «.33: Ed mmmm
-Ann-“gay m E 33.6.?
+SOPTJIPAY OTWOIBTP JO STaAS] AZasuy
+UCIT Peieluod
+=fpoq pus =90mJ 0% PITIEAR SB MJY
 
-33.30 am . oﬂuSﬂu an $33 .thmm
-335$ Egoaﬁ
+STBI33UT OTWOAY
 
-53% .: 53305 3.3333 Ho nounagamkm mmwm
+goTnoSToW OTWOLBTP
 
-$0.“me
+J0J STBIZONUT JO UOTABULIOISUB.ILY,
+umtpos 04 petrdds
 
-552m .4
+88 DOyjaul SAB eusyd polusilbdne uy
 
-932% .m. 33th 32.336 no magma ﬁnaé moww
-Anagv now.“ @2350
-woo: .h. L52 Ba .23 a... $23. 3 3% 2mm...
-Auoﬁabﬁv .
+eqtudexd ur spusg L3xsUF
 
-venue: .m mﬂﬁaﬁﬁ sung...“ Em».
-A3335 330305 933an
-
-3932 .m no.“ 3535 we :oapgﬁomﬂaé 25......
-Annambﬁv gwgn 3 3.32am
-
-33.9% .= mm 35.9: 28: SEE nopgw ﬂ.
-Amuﬁmbﬁv
-
-33.30 A. an 323% 5” $38. @3ch
-
-333$
-
-:omﬁow .m
-
-«Hwﬁmamx .4 3.3.3 «.358me angmwmmoozﬁmm
-
-Esme..." maﬁa in...
-
-.398 beans 38%: w mpﬁm Baum
+fi Ta) - » T -r ch
+BATQI0 JRTNOSTOW USGS TSU0d-FT 38
 
  
 
-£25.. HHQMMU ammomzomm.
+STATL
 
-
-wiem
-
-mc £5. . :x 9
-
-:Q
-A.
-L.’\
-m'
-
-      
-
-   
-
- 
- 
- 
+dnoxp Azosy] JeTnISTOW B 2382§ PTIOS
 
  
 
- 
+HTS LIED THHOSNOdLS
+
+
+9 HOLL > ne 0% FIViOL
+
+eN
+oN
+Ww
+
+( so18fu4) TToM oI8nbg TEPTOIS
+60°02) 0°CLT T0090 T2046) 4x o8I0d * faon sy or TOT Bo tie BES to var
+a°0zl LT 0090 TAOGH GT69 98I0{ “4 £83821 °p JOJ SUOTIOUNJUSS TH » enTeAuad] HI
+s80T8ild) BNeTONN TEP rods
+
+Ti (827
+aN" 06 Ad ¥ / T0090 TLOGH G149 @8JoH *d L£qeq01p °
+¢
+
+oO
+92 T0090 TI05H G169 ~~ ©8aoH °d L938
+
+(801841d) 182 TIsydg JO ABIIy TEBTIEdQ ©
+i “ cr 2 LL « 8 - a i : - & . - o% y . - _
+60° GET T N"2Le [0090 TIOSN GL69 O8I0H °d UBTYSEARITY “NW WOXY BAAEBM JO JUTISN1BOS STATITTN Nd
+(so184igd
+td Co O00 TOOOO0 T § v WT > GL E
+6" got 9° 495 [0090 TXLOGN G169 @8JIOl °d UP ua], °V UsdAX( WCIF SUTISTIBIS NHOT
+(80T84Ud) fn Tsua( Sse IeeTonN
+HLL a {ie T0090 FOG S169 e8JOl “d dxoqusnoy “HW JO UOTIRTNOTE) JUSLSTSUCI=F[ST NH{
+(s0T8iy]) [TSM eJenbg
+y dcr rd ee "oN, - mr J a ean a eae at x Ly St ome
+He G26 £1 Gg TEE [0090 fJIOGN 9169 BJO °d Asroaf) Pp TBPTOIaYAS 8 JOJ SONTRAUSS TY NE St
+svt Ther ©
+la har © ( "uTouy ue a) |
+49° MoT °T L" 592 [0090 TJIOGHN GL69 08J0l °d 48001], °K uoTQURA3IJ Aefieuny JL0208B2Y NOE
+= (eo18fug)
+Le“LNL" 2 £ "LOS T0090 FAOGN S169 @8JO0H °d TI03IBG 1 3UTJI92280Q uocIjne(=tuoIine) N
+(80784) gopdJdeus ® UOTIoUNJ 2ABM
+etry €or a4 ” = : ~ : vi BOT ERIN Sel. GOTABTY
+92°" Q°N)2 T0090 T- JOGN GL69 e8JON °d sTaqnl °v =0 TOY JO UOTIBGINGJIDJ UOTIELIBA
+JI020 °Y BTPo} PeJofeT=T3Tni SSABM
+QZ ONT [GE £0090 TXOGN G169 esIo °d (ydoep BF Tos®D) OUSTOS J0Y SAIN) UOTBIASTI  N
+
+(soTedld)
+
+G6" aeN 5°C0OT TO090 TJIOGN GT 69 e8JON “d ups, °v SLOT oun @ABM QUEOTIOY
+
+"Aw aN
+
+——————— ———— — » “ es aad PETIOLES TED IST
+"al Eyepegn ew tp
+
+enTepA Jay Tod PO) 9.01 QUOD UND 2.08. X00 107) | 0 NT I08TAJOdNG JUN IIOI] STRATE
+JOO TH
+GGAT JOquede(] TE “ rap T @0337uIQ) UOTE 8anduio) SUTUIER
+
+| ERD PEE TY es i i Ii
+
+HINT LL TITY GHUOSNOLS
+
+|
+t
+|
+
+EC
+
+EEE
+
+
+gr 2€2te
+§9°90¢€
+29° 605
+g0°ct
+6'1°098
+
+gl neEgcer
+€9°12s
+
+S5°28S
+
+89° 555
+6°25
+
+96°0.8°T
+
+29°515°2
+
+T0°S0T
+
+SnTBA JBLLO0 DOSQi SSATNUTH 3084qU0) UNO 39B43U0) OI( JOSTAISANS
+
+€°560°S
+o°tl
+€°22L
+4°902
+T°080°¢
+6°42T
+8°6ET
+
+f1°¢CeT
+L°52T
+
+0° 6'fi
+
+6°019
+
+g°5¢
+
+(T00=920=-uN)
+908.0 TXOGH
+( LoO=6£0=~uN)
+T88L0 TIOGN
+( L00=6€0=-uK)
+T8820 TIOGN
+(T00=920~=uN)
+008.0 MOSH
+(T00=020-uN)
+908.0 TI08N
+
+{T00=280~4N)
+10820 TI0GN
+
+(L09=6T0=UN)
+9588L0 TIOGN
+
+{ 820~T90=-uK)
+L68L0 TXogN
+
+(T00=920-4N)
+909.0 T-I0SN
+
+(20T=200-uN)
+£8820 TIOGN
+
+(€12=L60-UN)
+
+gLLO TIOGN
+(60€-GTO=UN)
+6€8L0 TIOGN
+
+A —— a
+
+SIVIOL
+
+E79
+
+T9
+
+£589
+
+65El
+9
+
+20l=9
+
+5869
+
+1899
+
+GG6T Jequeds( TE = Ange T
+
+suagqoxd TT® uo LE0-giO=UN °ON eJusiojzey 39BIjucy
 
  
- 
+
+(Tog xeerony)
+
+T8S0Y 9 *d  TIOMPT®) °a
+
+(eo BuAPOIPAH)
+
+yoddy ‘ag 074} °Q
+
+(43anTTeqeK)
+
+quesp °N UBID[UON °D
+
+(soTedyq)
+
+sows °% °d 3IETD °D
+
+JdoysTep °A (soradlyd)
+yoequsei °H  Treqduws) °g
+
+(£3070x0028})
+
+UoUSnoH °H JTIOM °M
+
+(sorsiud)
+
+(o3somy *aTun)
+
+I89BLS °P °P ‘usmmlizey °d
+(Surzssutduy
+
+Teo TUBYOO}K)
+
+eds) °f  Juool °% °J
+(sotsdyd) Treqdue) °g
+Jdoxstep °A duprddy °J
+
+(43oT0300%0K)
+
+uoquSnoH °H usd °)
+(Sutaeautdug
+
+Y3TOTPBM °X Teo TUBY2S|)
+oxTdeyg "Y = UOSNITIA °V
+
+("utdug “uey))
+
+STIIBH ° Geol °d °V
+ZOUNIRIB OX
+
+JWIL JI0HED CIYOSHOIS
+
+sydexdojoug
+Joqueyy) prot) Jo srsfieuy
+
+we) 3uppeiousy easy Lisl frog
+
+1881g SEITUTRLS UT UOTIRULIOISUBL],
+OTSUINIBH SUF JO UOTYBTRII0)
+
+S38 Joholg JTg Jo sTsiysuy
+
+SUOT308Bey uoIINSY Jo Liocayy,
+oouesIeAN]
+
+TBIUOSTIOH PUB L4TOOTSA TBROTIION
+JO SPIOTJ sy} JO uoTysinduo)
+
+Sel Tq) 198g
+
+Te9y uesnjed STvIdsquU] e3ueloxy
+
+8qny ® JO UOTIoY SouCIIuH
+ouyg UY MOT oTqriseexduio)
+
+fpeoqg ® Jo Jed] Liepuncy JRUTWE]
+
+SUOTL080=5801) TEeQUSUTISAXS WOXJ
+SIT HIS ©58yd JO UOTIBUPLIa}L(
+
+4A3o7oq8urry) SFadoudy
+
+SWESJ1S SBD
+£9 TOOTOA=YI TH ong ered]
+
+«YBTH 03UT uopoafur Jae JO
+8300773 Osu] puR OTWBRUAPOUIGY],
+
+SUTTd
+
+T®38H UTyy Jo setgtedors [eoado
 
  
 
- 
+OTT
 
-35%. as: 393 418m: mﬁmw 920.“ .m m,” ,
-Eton >23 .3ch 63m: “me 093: .n Hr ,
-5.12.4 545w Norma mmmm 3382 & u
-9.52;; {EN 336 $5: 2% 882 .m waEmmMmmué ,: E 5: no 21.1%,
-Amowmkﬁmv
-w mEm ,SSG 05% gm #359 . “we.“
-Amuﬂmhaxb
-.122; wim eerie .TSm: was @205 am mmwaﬁwom um
-”madmbﬁv
-97?, _.,‘ I \: «Lam; 33 8.8: .L 5393: A. wrap.
-A3535 :5an
-.‘ 425W: 3.60 09.35 J» vmooﬁm .: an
-nmoﬁxﬁv
-., is a 0,983 .m 23.2%. k :
-$3533
-320: a; 395. “q madam... m
-
-     
+SWATQOJIJ SNOSUBTTOOSTH
 
  
- 
 
-$83. on . .
-$383 “w «.0me 3”, , . . , , m.
-333 g
-ﬁﬁémﬁ é,
+HEZE
+NTT
+na9l2
+NELZ
 
- 
- 
- 
- 
+NSS
 
-     
- 
+Nifge
 
-.msﬁahwamm
+N02
 
-e E5.
+N66T
+Not
 
-,_ av _..::,
+NSST
 
-  
+NOZL
 
-i a .m mewsﬁgou mo. mﬁaﬁou an?
-
-{in 555033: Hm .. 3E, _
-
-
-9333 .5... no 58-31: 6.. egg €550
-ﬁ.~n~.& m.m8.m 322
-. . 38.0.8.5 38 gas @585
-8 com o 2. Bio ESE 35 Bang .m .m #238 d .53 168 no a? ammm
-2038.5 “BEEV
-8.8m néﬁ H38 toms 38A 55 :5 .673“ d 58 33288 05: .3330» am
-a :oonmnoéﬁ Abyﬂapoa Guam wmodhmpm a.“ EEmEoumﬁns
-8 NH 3.. ~38 Kama 32. “5.8 .2 music: .0 33$ 05 no 52333 £03
-. SSnﬁoéE $3.55
-.3 8m m60w compo ﬂow: 0% 853 .9 .m #38 .u 33 “macaw Hum mo 3334 22m
-. ﬁcoaowonmé 333»: .> $335
-2.33 «H ”68$ monk. who? H20 nomﬂwom .m ﬂung .m 8838mm 5.55% no bogs 53m
-3333.5
-30930...sz Agoggozv Enoaﬁuom EB 5.3”".ng .33th»
-33% m.m- :88 «no? .33 Season .3 Mo: .3 no 33m 2» mo 533350 EN.
-«83.25
-98$”?sz €935 SE; 3335 933m.
-mm.mnm 9mm." ﬁns Eomz $8 53m A. d. sushi“ .m H82 3253 ﬂammaﬁ omﬁguxm 240m
-85333 35 a no 5&3 35.35
-Swosueoumﬁ 33385 «5 5 3E oaﬁmmﬁﬁou
-mmﬁmm :52 Rio Eomz $2. 93. g. 938. .w .9 En a no has banana .8553 5%
-Aaguwmoomzv Amcwmbﬁv 3395.0 .m Suﬁsommnmmono 3589M Baum
-Qunmm ﬁmﬁ 82b Eamz Haw «maggot .> magma .m 3.3% 35$ no aoﬂmauﬁsg amﬁ.
-Awoasmmoamzv AEOHPMoopaE a ‘
-3.6me oomﬁ $8.0 2&2 ﬁohnm 3330: .m g Q hoaﬁaﬂo $3056 2mm.“
-9.38% mg
-Amnﬂmoﬁmﬁ hﬁuﬁgaﬁax Engage
-Amamahmoxmzv :maoﬂnd? .M agggzv «5.5 03.3 dogwomﬁ 93%.; Mo
-«ﬁgm‘w “6.8 $8 «3m. mag 832m 4 noﬂoﬂm .4 38am 3563 S» ugmﬁsﬁmé 20%
-Romamsog Eng .58 2E
-8.8a mum“ 933 Eamz £3 3th 4 £8 .n .4 ago: £5. Mo mﬂﬁmgoﬁ H838 5%
-mad; H58 wan: mg pagans mam aghaaoo cum mmmwimuzm mac” 339 comm
-
-mmmﬂ hmgavg HM ﬂ Lnﬂdwhu H “ﬁngnw gratiﬁnsumwﬁ
-
-EH9 3ng 5090mm
+NOT
 
 

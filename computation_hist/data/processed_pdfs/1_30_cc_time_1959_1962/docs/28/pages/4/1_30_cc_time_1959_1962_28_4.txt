@@ -1,0 +1,60 @@
+Page 4
+
+TABLE II
+
+Summary of 709 Usage According to Source of Support
+September 15, 1960 - December 31, 1960
+(Hours of Computer Use)
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+- GROUP
+
+MIT ~ To-date
+
+i Sept. Oct. Nov. Dec., Total Total
+
+MIT DSR ProJjects Tl 30.26 38,00 42.79 118.16 118.16
+
+Government or other oLl 7.05 T-95 10.57 26.34 26.34
+
+Grant-in-Aid .85 4,82 6.00 6.02 17.69 17.69
+
+MIT Computation Center
+
+Support 1.40 5.51%  16.87 15.06 40,84 40.84
+
+Unsupported 14 .70 55.84 T73.06 88.45 232.05 232.05
+Group Totals 24 .83 103.48 1431.88 164.89 435,08 435,08
+
+N.E. Universities
+
+Government or other .85 3.23 2.71 §18  11.97 11.97
+
+Grant-in-Aid 1.58 .39 .95 5.14 14 .06 14 .06
+
+Unsupported 5.37 32.68 34.51 42.83 115.39 115.39
+Group Totals 7.80 38.30 43.17 52.15 141.42 141.42
+TOTALS %2.6% 141.78 185.05 217.04 576.50 576.50

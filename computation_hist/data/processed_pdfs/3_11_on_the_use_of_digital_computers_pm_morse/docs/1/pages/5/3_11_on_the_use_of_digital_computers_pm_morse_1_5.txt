@@ -1,0 +1,138 @@
+problems simply can’t be done on a mail-order basis,
+so to speak.
+
+Another example will show how programs are com-
+‘bined and telescoped together as we learn how to use
+the equipment. A number of years ago some of us com-
+puted, by hand, a set of energy values for atomic wave
+functions of simple analytic form, as functions of the
+parameters of the form. These tables enabled one, by
+use of the variational principle, to obtain reasonably ac-
+curate, analytic wave functions for the lower states of
+atoms in the first row of the periodic table. Partly for
+training purposes, partly because the tables still seemed
+to be useful, Arnold Tubis, of our group, recently re-
+computed these tables, using Whirlwind. He programmed
+the machine to compute kinetic energies, nuclear poten-
+tial energies, interaction and exchange energies for s, p,
+and d wave functions of the form of an exponential
+times a combination of r, for a large number of dif-
+ferent values of the exponential scale factors. The pro-
+gram also included instructions to the output unit so
+the results came out of the automatic typewriter in
+final table form, ready for offset photographic printing.
+
+These tables will be published sometime this fall.
+I hope they will be useful to those people who haven’t
+access to a machine like Whirlwind, but I am already
+sure we won't use them at Tech. For the calculation of
+such energy values is now an established subroutine,
+taking only a few seconds of machine time. It is much
+more efficient to ask the machine to recompute this
+value when it is needed than it is to look up the value,
+put it back in the machine and have it using up a stor-
+age register, waiting until it is needed.
+
+Last fall Tubis programmed the machine to take the
+next step and carry out the variation to find the best
+values of the parameters. The general program specifies
+the nuclear charge and the electronic configuration de-
+sired; the subroutines developed earlier tell the machine
+how to compute a trial value of the energy for a given
+choice of parameters. Then the general program tells
+the machine to compute a sequence of energy values
+for a sequence of points in parameter space, how to
+direct this sequence so it approaches the minimal point,
+and, finally, to stop the sequence when the energy
+value has become stationary and to print out the corre-
+sponding energy and parameter values.
+
+Another ambitious job, done last year by J. D. C.
+Little and F. J. Corbaté, was the computation of a 500-
+page table of spheroidal wave functions. These wave
+functions can be expressed as a series of spherical har-
+monics, the successive coefficients in the series being
+related by a three-term recursion formula. The equa-
+tion for the separation constant thus involves a con-
+tinued fraction, which can be arranged to be solved by
+iteration. The program first had the machine perform
+this iteration until successive results agreed to eigl%t
+decimal places; next, from the recursion formula,. it
+was told to compute the ratios between the successive
+series coefficients; then, by applying a normalizing con-
+dition, to compute the coefficients themselvesi and
+finally to arrange the results on the output tape in the
+
+OCTOBER 1956
+
+23
+
+proper order and with the proper instructions so that
+the automatic typewriter would title the page, give the
+values of the eccentricity parameter, the separation con-
+stants and the series coefficients in appropriately la-
+belled columns, and would even print in dots so a
+draughtsman could draw lines separating rows and col-
+umns. This line ruling was the only hand work done on
+any of the 500 pages. They went to the photo-offset
+machine practically untouched by human hands.
+
+This program also was done by persons with no
+previous computer experience. It took ten man-months
+for Little and Corbaté to get an error-free program—
+there were about 2000 instructions in the final code. It
+took Whirlwind ten hours to do all the calculations and
+it took the automatic typewriter more than 200 hours
+to type the 500 pages of tables. Here again I hope the
+tables (they are published now ) will be of use to those
+not sitting next to a high-speed computer, but I don’t
+believe they’ll be used at MIT. For this program,
+stripped of the instructions for typing out the table, is
+now a part of our subroutine library; it only takes
+Whirlwind a fraction of a minute to compute a sphe-
+roidal wave function, for any order or any ratio of
+wave length to interfocal distance, when it is needed
+in a more general calculation.
+
+For example, spheroidal wave functions are needed
+in the calculation of nuclear energy levels of spheroidal
+nuclei. This last fall the energy levels of a spheroidal,
+square-well potential were calculated on Whirlwind by
+J. L. Utetsky for different eccentricities. These calcula-
+tions use the previously developed program to compute
+a sequence of wave functions, each coming closer to
+satisfying the boundary conditions, until some prede-
+termined criterion of closeness of fit is satisfied and the
+corresponding energy is then recorded and a new se-
+quence is started to close in on the next level. This
+more general program was fairly easy to devise because
+the most difficult part of it, that for the calculation of
+the spheroidal functions, was already done.
+
+I COULD give several hundred similar examples, each
+with its lesson learned. But if I go on, I might be
+suspected of doing what I didn’t want to do, of boast-
+ing about the capabilities of digital computers. Perhaps
+I have given enough examples to illustrate my earlier
+generalities: that high-speed computing machines don’t
+do your thinking for you, that you have to work with
+them to get the most out of them, and that they aren’t
+good for every kind of problem. Perhaps you have come
+to the same conclusion we have, however, that in spite of
+their shortcomings they are nice things to have around.
+
+Nowadays it doesn’t seem you can get very far in
+experimental physics without using big, expensive appa-
+ratus. You can’t compete unless your machine costs a
+million or so. Well, we theorists are now in the running
+too: we needn’t apologize for our cheapness and sim-
+plicity of operation any more. High-speed computers
+are our million dollar gadgets.
+
+1 Stratton, Morse, Chu, and Corbatd, Spheroidal Wave Functions,
+
+John Wiley & Sons, N. Y. and Technology Press, MIT, 1956.
+
+eSS
+
+— T

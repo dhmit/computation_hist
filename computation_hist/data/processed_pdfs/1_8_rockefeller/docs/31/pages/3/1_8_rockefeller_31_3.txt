@@ -1,63 +1,59 @@
-be financed indirectly by contribu
+be financed indirectly by contributions from each project which
+uses it, if this were considered to be the most desirable way of
+keeping it going. At present, however, support by contributions
+from established research projects can support only about a third
+of the 100,000 needed, which would leave unsupported the most
+fruitful research of all, the unknown results which are sure to
+come when a machine expert of the Center staff works together with
+the economist, psychologist or sociologist on the faculty of one
+of our participating colleges who comes to the Center with only a.
+"gleam in his eye".
 
-uses it, if this were considered t
+Possible Initial Directions for Investigation
+m
 
-keeping it going. At present
-
-from established research proJects
-
-:f the $100,000 needed, which would
-t
-
-come when a machine expert of the Center staff
-the economist. psycholo
-
-ﬁt our participating colleges who comes to the
-
-are several general
-which are certain to
-
-which. in addition,
+As 1indicated, we cannot write down in any detail the
+directions which this research effort will take, as the various
+teams are formed and begin to interact. There are several general
+areas which we feel should be investigated, which are certain to
+produce results of immediate interest and which, in addition,
 should provide hints as to still more important applications.
 
- 
+A. One of these 1s the d¢eper investigation of machine
+logic itself. A computer of the complexity of the 704 1is too big
+to be able to see immediately how it can "think". Most machines
+are now programmed to do ordinary arithmetic, a few programs have
+been devised to make the machine obey the rules of Boolean logic
+and some thought has been spent on working out programs to make
+the machine play chess or checkers, in other words to obey the
+logic of a game. Different sciences and branches of learning
+have their own kinds of thought processes. For example, economics
+and genetlics each have patterns of thought which do not exactly
+duplicate those of physics. Fundamental research is needed to
+work out programs, rules of thought for the machine, which corres-
+pond more closely to these other patterns. With a machine of the
+flexibillty and storage capacity of the 704, such research is
+worth while. It will have to be tackled, at the beginning, by
+teams of experts in the field of interest, together with mathe-
+matical logiclans who know machine operation.
 
- 
-
-With a machine or the
-; flexibility and storage capacity of the 70k
-
-, such research is
-worth while. It will have to be tackled, at the beginning. by
-teams of experts in the field of interes
-
-t, together with mathe-
-matical logicians who know machine operation.
-
-B. Another general line of attack
-the storage and rapid access to information,
+B. Another general line of attack is in the field of
+the storage and rapid access to information, such as is needed in
 the problems of language translation and historical research, for
 example. Several schemes of coding of information, so that it can
-be found quickly and easily, have been devi
-
-sed on paper, but the
-"bugs" in such schemes will become apparent
-
-is in the field of
-such as is needed in
-
+be found quickly and easlily, have been devised on paper, but the
+"bugs" in such schemes will become apparent only when masses of
+information, of the order of several hundred thousand items, are
+to be ordered and sorted out. The new installation at the Compu-
+tation Center will have a storage capacity of this size. Some of
 the proposed schemes should be tried out, and others developed, by
-members of the Center staff working with
+members of the Center staff working with persons familiar with the
+information and its uses. For example, a project in machine
 
-persons familiar with the
-infonmation and its uses. For example,
+translation has already been set up under the direction of Professor
 
-a project in machine
-translation has already been set up under the direct
-
-ion of Professor
-Locke of the Language Department. As it develops, i
-help of machine programming specialists and will nee
-machine to test its ideas, The translati
-supported by the Rockefeller Foundation,
-Computation Center on techniques for rapi
+Locke of the Language Department. As it develops, it will need the
+help of machine programming speclalists and will need the use of a
+machine to test its ideas. The translation project is already
+supported by the Rockefeller Foundation, but parallel work by the
+Computation Center on techniques for rapid access to large-guantity

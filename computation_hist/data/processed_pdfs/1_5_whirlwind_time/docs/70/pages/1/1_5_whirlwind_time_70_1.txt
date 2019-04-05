@@ -1,40 +1,38 @@
+-
+
 MASSACHUSETTS INSTITUTE OF TECHNOLOGY
-DEPARTMENT OF ELECTRICAL ENGINEERING I
-DIGITAL COMPUTER LABORATORY
-zII MASSACHUSETTS AVENUE
+DEPARTMENT OF ELECTRICAL ENGINEERING
+DIGITAL COMPUTER LABORATORY 2
+211 MASSACHUSETTS AVENUE
 CAMBRIDGE 39. MASSACHUSETTS
+GORDON S. BROWN, FACULTY ADVISOR |
 
-Gannon S.EHOWN.FACUL1’V ADVISOR
+JAY W. FORRESTER, DIRECTOR : ‘ Apru 3’ 1958 , TELEPHONE E.leo'r 4-3311
 
-J" W.FORRESTER.DIREC1’OF A9111 5, 1953 TELEPHONE ELIoT 4-33"
+ROBERT R. EVERETT, ASSOCIATE DIRECTOR
 
-ROBERT RI EVERETT, ASSOCIATE DIRECTOR D | C _ 6m
-HARRIS FAHNEsTOCK. EXECUTIVE OFFICER
+_ D.1.C.- 6345
+HARRIS FAHNESTOCK, EXECUT!VE OFFICER :
 
-Ir. ms Puncmian
-85 Epic.“ Road
-Cmbridsc 40. thalamus”:
+lir, Haig Parechanian
+85 Upland Road
+Cambridge 40, lassachusetis
 
-Du:- sir:
+Dear Sir: \
 
-I have bun “marina to credit your account with
-tum-quarters 01’ an hom- or nouns tine on'tho Whirlwind col-
-putor for mark on problem #3583, which mung-ton the vertical
-tail load in an airplane elm-ins a railing pun-out memr.
+' 1 have been authorized to eredit your account with
+three-guarters of an hour of machine time on the Whirlwind com-
+puter for work on problem #3588, which investigates the vertical
+tail load in en airplane during = rolling pull-out maneuver.
 
-It you find that you and more tins, u will be neces-
-ury to mimic a no! aqua“.
+if you find that you need more time, it will be neces-
+gsary to submit a new reguest.
 
- 
+Sincerely yours,
 
-Sincerely mus.
+P, ¥, Verzuh
+FilVin
+ce: L. T, Brock
+P, ¥, korse
 
- 
-
-1’. ll. Vonuh
-
-FIN”:
-
-cc: L. T. Brock
-P. M. Home
-E. E. Lambee
+B, E, Larrabee

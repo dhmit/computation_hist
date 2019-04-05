@@ -26,7 +26,7 @@
         <div class="navbar-collapse collapse" id="navbarsExampleDefault" style="">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#"
+                    <a class="nav-link dropdown-toggle text-white" href="#"
                        id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
                        aria-expanded="false">
                         Archives
@@ -50,7 +50,7 @@
                     <a class="nav-link" href="/simulations">Simulations</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="/dj_comp_hist/search/?q=">Advanced Search</a>
+                    <a class="nav-link" href="/dj_comp_hist/advanced_search">Advanced Search</a>
                 </li>
             </ul>
             <form class="form-inline my-2 my-lg-0" action="/dj_comp_hist/search_results">
@@ -61,6 +61,9 @@
             </form>
         </div>
     </nav>
+
+{% block body %}
+{% endblock %}
 
 <main role="main" class="container">
 

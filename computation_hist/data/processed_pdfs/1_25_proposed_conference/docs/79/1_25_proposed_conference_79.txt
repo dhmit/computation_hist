@@ -1,0 +1,57 @@
+VirGiNia PoryTecHNIC INSTITUTE
+
+DEPARTMENT OF
+STATISTICS AND STATISTICAL LABORATORY
+
+BrLAacksBURG, VIRGINIA
+
+June 29, 1959
+
+Dre Wayne A. Wymore, Director
+Numerical Analysis faboratory
+University of Arizona
+
+Tucson, Arizona
+
+Dear Wayne?
+
+With regard to your proposed questionnaire on curriculum
+I wish to make some suggestions. ost of these, and maybe
+even all, you already have, but duplication would not hurt
+in this case.
+
+(1) An inventory of the courses given and to whom
+they are available (graduate, undergraduate,
+restrictions to students in specific schools).
+
+(2) The number of students taking these courses.
+
+3] Some subjective statement of the success of
+these courses.
+
+(4) List of courses that have died for lack of
+support, or other reasons.
+
+There is also some difficulty in establishing credits
+in computing. Some critics oppose credits for computing by
+saying that it's like giving credits for slide rule. A
+question giving the respondant an opportunity to indicate
+what he thinks should be the maximum credits in the under-
+graduate curriculum for various phases of computing (coding,
+general machine use, applied numerical analysis, use of
+compilers, etce)
+
+If I can be of any assistance, let me knowe If you would
+like to pre-test the questionnaire I would be glad to answer
+a rough draft and A time involved, together with much
+destructive criticism.
+
+sincerely yours,
+
+Rudolf Jes Freund, Coordinator
+7.P.,I. Computing Center
+RIF [sam
+
+CC Philip M, Morris
+
+

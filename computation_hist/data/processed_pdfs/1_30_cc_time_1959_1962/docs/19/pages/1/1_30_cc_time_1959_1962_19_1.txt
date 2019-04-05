@@ -1,191 +1,185 @@
-——_——i
+P——_————
 
-JOINT WING (3011?
-
-TIME “cam
-
-ARIA. 1960
-
-Reguested b1
-
-1!. Baghdady
-H9 G‘lliher
-RP Huang
-1., Delves
-H. Tuchinetz
-Kc Rowland
-R9 Freeman
-A; Tubia
-Ea Stroke
-J. Coccoli
-H. Buechner
-J. Linsley
-1'. Elsie:
-P, Bro:
-
-TIME DISTRIBUTION
-
-Prohn Roe l_.l_b
-1083 R13
-1088 (B
-1120 L115
-1133 ms
-1137 L235
-1138 Rm
-1141 ms
-1143 His
-1147 ELK
-1148 111.5
-1150 1.115
-1151 ms
-1153 an
+Prob. No. Lab
+1083 RLE
+1088 R
+1120 LNS
+1133 ' LNS
+1137 LS
+1138 RLE
+1141 LNS
+1143 LNS
+1147 RLE
+1148 RLE
+1150 LNS
+1131 LNS
+1153 RLE
 1154 RLE
 
-Mm
+Labozatory
 
 Hours Employed
 
 Hours Used
-Computing.
+Computing
 Overhead
-Sic; Leave
+Sick Leave
 Vacation
 Classes
 
-Tom}.
+ 
 
-Bouts 3:0: Used
+Total
 
-'33st CV1).
-amulet ive
+Hours Not Used
+Hours Overdrawn
+Cumulative Hours Net Used
+Cumulative Hours Overdzawn
 
-Cumulative ﬂours mierdzam
+TIME
 
-L313
-L115
-LES
+RECORD
+
+AFRIL 19560
+
+JOINT COMPUTING GROUP
+
+Requested by
+
+E\)
+H,
+RP
+L,
+L
+Ko
+R,
+A.
+H.
+J.
+WO
+Jo
+T,
+P,
+
+Baghdady
+Galliher
+
+Buang
+Delves
+
+Turchinetz
+
+Nomland
+Freeman
+Tubis
+Stroke
+Coccoli
+
+Buechner
+
+Linsley
+Higier
+Brot
+
+RLE
+
+430
+
+2G1
+
+TIME DISTRIBUTION
+
 LNS
-LES
-KLE
-ELE
-ELK
-{1L5
-REE
 
- 
+240
 
- 
+295
+24
+&0
 
-ours Sim“. Use-d
+0
+0
 
-ELSE
-
-PM Scharcnbezg;
-P, Dame
-
-1'16 Lute
-
-1., James
-
-2 H Dcutch
-
-,’1. ’Ehiele
-
-T1 Eligiet"
-
-1" Eye:
-
-, St:
-
-2.1-; _w3
-
-480 2‘0
-
-28). 295
-
-34 26
-
-12 M)
-
-36 0
-
-1?. 0
-
-375 359
-
-153.5
+359
 
 119
 
-6621. 1100
-LGP - 30 Time Ream
+1100
+
+LGP - 30 Time Record
+
+Lab User
+LWS R. Scharenberg
+LNS P, Demos
+LRS H. Lute
+LNS 1. Pless
+LNS M., Deutch
+RLE A. Thiele
+BLE T, Higier
+RLE 2. Brot
+RLE H., Stroke
+BLE S. Coccoli
+
+L-—A' f_..‘.l.l .'k
+
+MNOOUNO oWk
+
+| %)
+L
+SD
+©
+
 Total
-Hours Hours
-9815 21600
-3105 323.0
-715 7 5
-2g!) 2 0
-1710 9100
-31.5 3L5
-23-0 230:0
-3:0 800
-9 S 2700
-1313 2:1,3
+Hours
 
- 
+216.0
+323.0
+Vo3
+2.0
+91.0
+31,5
+23.0
+75
 
-‘2’... L._». l
+”
+&% .
 
-r .
-u
-m
-:3
+o
+o
+
+N N
+w O
 
 Hours
 
-.I_n_Ap;11
+In April
 
 1
 59
 16
-as
-as
+88
+L8
 20
 
-I.
-6.5
-so
-so
+G
+65
+80
+60
 14
-so
+60
 
 108
 
 12
 
-35
+OO0 o
 
-00060
+>
 
-0
-
-45¢;
-
-58
-
-U1
-OOONRD
-
-66
-
-14
-
-1307
-
-July 25 , 1960
+July 25, 1960
 
 Total
-Hours
+Hours -
 
 196
 2081
@@ -194,37 +188,33 @@ Hours
 336
 136
 96
-539
+239
 272
 206
-59
+39
 156
 131
 31
 
-Use by Labraratories
+Use by Laboratories
 
-1.49
+Lab
 
-Li! 5
-
-Km
+LS
 
 Hours
 
 1
 
-*3
-03
+5
 
-La
-(5‘
+on
 
-mm!
-.outc
+W
 
- 
+otal
+Our s
 
-65540
+©55.0
 
-159 .. 5
+159 o 5

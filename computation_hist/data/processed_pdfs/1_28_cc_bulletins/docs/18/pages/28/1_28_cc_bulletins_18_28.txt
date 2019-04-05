@@ -1,0 +1,342 @@
+J4G
+J&
+J&
+
+ 
+
+ 
+
+ 
+
+tJA
+UA
+bR
+
+SPH3
+STH1
+OLO
+
+|
+S
+~
+
+4
+s
+&)
+-~
+~ [.-'
+| S -
+
+0
+0
+
+n O ¢
+L ' \J
+! %
+I &35 {
+. . ’ !
+L 7 i
+N v
+ekt !
+2 0)
+NS A
+|
+|\
+L7 (5
+ﬂ|!
+).’_h" .
+{
+
+YMSG
+FRTR
+&/{'w'j]
+PRTB
+OIT g
+OUT 2
+PLOT
+EDT
+N1 SR
+019C
+DT>
+DRT
+
+704
+BCD
+8UF
+
+POLAF ;L ]
+CONTOUR PLOT b
+CONTOUR PLOT
+FUNCTION D1spl
+SCOPE GRID PiO
+CRT POINT PLOT
+SCOPE GRID PLO
+GENERAL CATHOD
+PLOT A POINT |
+GENERATE GRID
+WRITE 6 - DIG]
+CURVE PLOTT I
+J9 COMPOS]
+GENERAL PURPO
+GENERATE A FO
+DATA PROCESSIN
+ENERAL PURPQS
+S FNFRAL PRINT
+GENFRA PRINT
+I:',]F_ = ['_", f PR 1 MT
+GENERAL PRINT
+GENERAL PRINT
+GENERAL PURPOSE
+THE INPUT SECT
+THF OIiT = PUT SF
+M = SSAGFE PR } A “;“ ;L‘
+_ONSTRUCT A A
+POPOUT~A GENER
+PR ] NT ; /\‘R’ F O?“
+ECIMAI OUTPUT
+DECIMAL OUTPUT
+MY Al >_ !r:‘l.'L D] O‘f
+= m™ 7 TOD A ;1‘1\" r N [\
+| OR AG CONTRD
+o N ! f',
+) { - PRE( ¢ A,
+. - _
+
+y
+Y
+
+THADC
+
+BCD DTy
+
+WR T
+
+!
+PRINT
+
+m -
+L 'R
+! I e
+}
+AT
+
+ivenN FLOATING
+
+ROUT
+
+2 \ A4
+
+XM ‘!4
+
+2
+
+J { ;\l ’
+'
+
+P .
+
+'] "R
+
+i
+
+IHIRFE COUPLF SURROUTINF
+Biles COORDINATES
+CORRFCTED DETR
+
+[ D tTMy r Feeh
+. {MAL INTEGER ON CRT
+
+PROGRAM
+PROGRAM
+
+20 i’ { A e
+
+TAPE OR ABSOLUTE BINARY.,
+
+L 2T
+
+1
+
+f r,'\:~"()-‘-- IS ™S 7™ ™
+! JL) S 2 )t ‘r-’(” D[\?"
+| N A"\ Y
+!
+P ' ' A A
+0 ;..’.,I D [\ A
+
+PEOGRAM
+
+PROGRAM
+
+FROGRAM
+
+OUTPUT PROGRAM
+
+UN OF THE SHARE 709 SY
+o N he 5
+
+-TION OF THE SHARE 709 s
+R SUBROUT INF
+
+OF ERRORS FOR PRINTING
+DURPOSF - T ! .
+
+URPOSE PRINT PUNCH SUBROUTINE
+
+—
+
+BLE
+
+AL
+FRRORS
+PROGRAM
+PROGRAM
+
+"N
+;‘"‘ .f- {’) rt‘
+| 2R GRAM
+
+- .
+
+VRO A M
+! 715 ,ﬁ\ ‘P"
+
+SWITCH CONTROL
+LIGHT CONTROL
+
+UNDER SENSF
+UNDER SENSF
+
+NS
+
+TABLE
+
+TABLE
+
+OQUTPUT ROUTINE
+
+T A R e A Sl ek
+RINT ROUTINE
+
+N OUTPUT,
+RO 1"‘"
+
+( .
+{ DR 2
+| ) RN Q,\ ‘r
+" Y\ ) v
+/ b= wWiilH HANGF ¢
+
+292 448
+072 448
+
+633
+
+236
+506
+506
+484
+432
+321
+357
+439
+4009
+409
+362
+284
+
+700
+
+l;Q';’
+754
+SRR
+084 347
+070
+70
+70
+070
+070
+204
+625
+657
+693
+391
+422
+391
+206
+206
+292
+267
+
+b82
+
+582
+T
+[ 7
+652
+r:‘ "—
+NOOC 7
+)99 072
+2
+t‘_( ',’ ‘;
+
+G
+
+O
+
+;ﬂUWﬂU)M(?@tDJ
+
+S
+-
+
+)
+e
+.
+o
+\>'
+
+3 -
+SB
+c
+‘C—‘
+
+1?‘
+O
+2
+B
+r_‘_,
+)
+>
+SB
+S
+=
+-
+o
+L
+"\
+‘.\
+oz
+rN
+
+» |
+C
+D
+
+R
+
+ 
+
+C!
+!
+»
+C !
+i y
+O
+Q
+J
+-~
+"y
+‘0
+-
+P
+;‘_)

@@ -1,0 +1,91 @@
+g CC-50-8 Fage I of
+
+MIT COMPUTAT ION CENTER
+Massachusetts Inztitute of Technology
+Cambridge 39, Massachusetts
+
+ 
+
+To: 704 Progranmers Date: WNovember &, 1952
+From: Dr, F. M, Verzuh, Assistant Director
+
+Subject: Revised and Up-Dated Index gg.Available Share 704-709 Subroutines
+
+- —— L — T ——
+
+ 
+
+ 
+
+ 
+
+The purpose of this memorandum is to provide a revised and up-dated
+index of SHARE-distributed 704-709 subroutines. These subroutine writs-ups
+and listings are avellable for use only in the MIT Computation Center Duocument
+Room (26-268)., However, the subroutine decks and their listings may be
+obtained by submitting & "Card Processing Hequisition” form obtained in the
+Scheduler’s Office (26-153). This irndex containg & list of material receivad
+as of November 1, 1959, Succeeding issues of this memo will appear with =
+new =dition number -- 9, 10, etc., and these will be issued on & guerieriy
+basis.
+
+T™his index liste the svailable subroutines im order of their
+SHARE catalogue clagsification wbich spposrs in the SHARE Referencs Hauuss
+in Section 4.1 dated 10/1/58. Specifically, the attached list congigts of
+seven parts:
+
+. A ligt of the SHARE clasgsification cards,
+
+. A 1ist of the subrouiines available on the MIT SAP Library Tap>,
+
+., A list of the subroutinese aveilable on the MIT Matrix Library Taps,
+A 1ist of the gsubroutines available on the MIT Fortran Library Taps,
+. An index of the 704-709 subroutines,
+
+. A list of the new subroutines received,
+
+. A list of subroutines ou order,
+
+SO
+
+The particular format used in Part 5, 6 & 7 contaipne the followlng fuformation
+{reading from left to right):
+
+2, OSHARE catslogue clagsification code,
+
+b, Two-lettsr SHARE imstallation code,
+
+¢. The subrovtine identification code,
+
+d, HName or title of subroutine,
+
+@, The SHARE distribution number (3-digit number),
+
+“
+
+£f. A write-up is svailable unless there is an asgterisk (%) in the ¥ ooluon,
+
+g. A listing is available unless thers is an asterisk () im the L colaw,
+
+h, The letter & indicates that aymbolic cerds are avaliable a2 MIT,
+
+1. The iletter B indicates that abgolinte binary <cards are avellahle
+
+3. The lettor R indicates that anacmimgﬁ' binary cards aye aval
+
+k., The letter F indicatss & subroutine which ig writion ¢ D& Biad
+with Foruran,
+
+i, The number 9 indicmtes o subroutine which is written to bo ssed oo
+& 709 wrachine,
+
+m, The lettser Z indicates that SQUOZE cards are avaiisihils
+
+&
+-
+-
+>
+o
+=
+
+FHVY /bE

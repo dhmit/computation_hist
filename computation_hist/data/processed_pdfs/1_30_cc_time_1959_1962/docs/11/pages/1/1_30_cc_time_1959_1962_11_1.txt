@@ -1,10 +1,14 @@
-3
+—
 
-' Joint Comgutmg Groug
+. Joint Comguténg Group
 
-Time Recnrd January 31, 1961
+Time Record January 31, 1961
 
-December a 19 60
+December= 1960
+
+ 
+
+ 
 
  
 
@@ -12,40 +16,50 @@ December a 19 60
 
  
 
-   
-
-ﬂours in Total
-Prob. No. Lab. Reguested 3! Dec. Hours
-1088 OR 11. Galliher 94 2797
-1143 LNS A. Tubis 142 155!»
-1150 ms W. Buechner 17 275
-1151 ms J. Linsley 13 348
+Hours in Total
+Prob. No. Lab. Bequested By Dec, Hours
+1088 OR H. Galliher %4 2797
+1143 LNS A. Tubis 142 1554
+1150 LNS W. Buechner 17 275
+1151 LNS J. Lingley 13 348
 1157 LNS A. Schappert 123 606
-1160 INS C. Yang-Eu 62 394
-1163 ms H. Feahbach 31 210
-1175 ms C. Sharkin 41 231
-1176 LNS R. Freemm 156 364
+1160 ILNS C. Yang-Hu 62 394
+1163 LNS H. Feshbach 31 210
+1175 LNS C. Sharkin 41 231
+1176 LNS R. Freeman 156 364
 1178 RLE J. Hershfield 22 160
-1180 81.3 R. Kyhl 7 37
+1180 RLE R. Kyhl 7 37
 1181 LNS E. Loh 31 39
 1182 RLE S. Piacsek 33 33
-1183 RLE S. Levine 46 46
-gigs: Distribution
-Laboratgg R.L.E. L.N.S. 5.8. 0.11.
-Hours Employed 312 5156 O 78
-108 616 0 94
-20 69 0 5
-O 3 0 3
-o o 0 1 o
-1“ 4x 0 A
-To .11: 138 692 o 106
-28
-455:- 1141
-LNS 5:
-L113 E.
-LNS 31'.
-LNS ii.
-'lJ‘YS S.
-LES H.
-ELIE 5.
-Total 71 < ' -
+1183 RLE S. Levine 40 46
+Time Distribution
+Laboratory R.L.E. L.N.S. S.8. O.R,
+Hours Employed 312 546 0 78
+Hours Uged
+Computing 108 616 0 94
+Overhead 20 69 0 5
+Siclkk Leave O 3 0 3
+Vacation 0 0 0 1 0
+Clagges 10 & O 4
+Total 138 692 0 106
+Hours Not Used 174
+Hours Overdrawn 146 28
+Cumilative Hours Not Used 868 454 1141
+Cumulative Hours Overdrawn 2463
+LCP-30 Time Record
+Lab. User Hours Total Houxs
+LNS . Pless D75 19.75
+LNS E. Lok 26 32
+LS M. Deutsch lodY 162.5
+LNS H. Lutz 135 82.75
+"LNS S. Westreich /5 80.25
+LNS H. Feshbach 4.75 33.75
+RLE &. Levine 13.75 E3075
+RLE R. Kyhl 1.25 18.5
+
+ 
+
+Total
+
+~J
+o

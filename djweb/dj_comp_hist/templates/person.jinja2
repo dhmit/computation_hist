@@ -4,29 +4,29 @@
 
 {% block self %}
     <h1>
-        You're looking at {{person_obj.first}} {{person_obj.last}}
+        {{person_obj.first}} {{person_obj.last}}
     </h1>
 {% endblock %}
 
 {% block table %}
 
     {% if document_written_objs %}
-        <h3>{{ person_obj.first }} {{ person_obj.last }} wrote some files</h3>
+        <h3>Wrote:</h3>
         <br>
         <table class="table">
             <thead class="thead-dark">
             <tr>
                 <th scope="col">#</th>
                 <th scope="col">Document Name</th>
-                <th scope="col">Link</th>
+
             </tr>
             </thead>
             <tbody>
             {% for item in document_written_objs %}
                 <tr>
                     <th scope="row">{{ loop.index }} </th>
-                    <td>{{ item }}</td>
-                    <td><a href="/dj_comp_hist/doc/{{ item.pk }}">Link</a></td>
+
+                    <td><a href="/dj_comp_hist/doc/{{ item.pk }}">{{ item }}</a></td>
                 </tr>
             {% endfor %}
             </tbody>
@@ -34,22 +34,22 @@
     {% endif %}
 
     {% if document_received_objs %}
-        <h3>{{ person_obj.first }} {{ person_obj.last }} received some files</h3>
+        <h3>Received:</h3>
         <br>
         <table class="table">
             <thead class="thead-dark">
             <tr>
                 <th scope="col">#</th>
                 <th scope="col">Document Name</th>
-                <th scope="col">Link</th>
+
             </tr>
             </thead>
             <tbody>
             {% for item in document_received_objs %}
                 <tr>
                     <th scope="row">{{ item.id }} </th>
-                    <td>{{ item }}</td>
-                    <td><a href="/dj_comp_hist/doc/{{ item.pk }}">Link</a></td>
+
+                    <td><a href="/dj_comp_hist/doc/{{ item.pk }}">{{ item }}</a></td>
                 </tr>
             {% endfor %}
             </tbody>
@@ -57,22 +57,22 @@
     {% endif %}
 
     {% if document_cced_objs %}
-        <h3>{{ person_obj.first }} {{ person_obj.last }} was cced on some files</h3>
+        <h3>Cced on:</h3>
         <br>
         <table class="table">
             <thead class="thead-dark">
             <tr>
                 <th scope="col">#</th>
                 <th scope="col">Document Name</th>
-                <th scope="col">Link</th>
+
             </tr>
             </thead>
             <tbody>
             {% for item in document_cced_objs %}
                 <tr>
                     <th scope="row">{{ item.id }} </th>
-                    <td>{{ item }}</td>
-                    <td><a href="/dj_comp_hist/doc/{{ item.pk }}">Link</a></td>
+
+                    <td><a href="/dj_comp_hist/doc/{{ item.pk }}">{{ item }}</a></td>
                 </tr>
             {% endfor %}
             </tbody>

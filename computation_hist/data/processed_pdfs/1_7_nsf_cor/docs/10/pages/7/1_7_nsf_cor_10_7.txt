@@ -1,57 +1,56 @@
-Extension of NSF 029110 Page 7
-Enclosure B, continued
+Extension of NSF G2940 Page 7
+Enclosure B, Continued
 
-8. Investigation of techniques for intercolmmmication.
+8. Investigation of techniques for intercommunication
 between computers, including the possibility of cycles different
-in length or kind running simultaneously with frequent canpariaon,
-mg.) several single-accumlator computers with comon mry,and
-the behavior of a computer with multi 1e aemlators. Some of
-these properties can be simulat on a on by utilization of .
-additional drums and magnetic core banks.
+in length or kind running simultaneously with frequent comparison,
+€.g., several single-accumulator computers with common memory ,and
+the behavior of a computer with multiple acecumlators. Some of
+these properties can be simulated on a 704 by utilization of
+additional drums and magnetie core banks.
 
-9. Computer estimation of problem time. In linear problems,
-estimations of bounds of certain functionals, and thence conver- '
-gence criteria for terminating iteration, or switching to a
+9. Computer estimation of problem time. In linear problens,
+estimations of bounds of certain functionals, and thence conver-
+gence criteria for terminating iteration, or switehing to a
 different iteration.
 
 Facilities:
 
 The MIT Computation Center will have a Type 704 Electronic
-Data Processing Machine with the following machine complement:
-12 magnetic tape units, 2 magnetic core storage units containing
-a total of 8,000 words, 1 magnetic drum unit containing 15000
-words of storage, the usual on-line punched card reader, alpha—
-betic printer, and punched caﬁ recorder as well as the 3 off-line
-magnetic—tape-controlled printer, mgnetic-tape-controlled caﬁ‘
+Data Processing Machine with the following machine complement s
+12 magnetic tape units, 2 magnetiec core storage units containing
+a total of 8,000 words, 1 magnetic drum unit containing 4,000
+words of storage, the usual on-line punched card reader, alpha-
+betic printer, and punched card recorder as well as the 5 off=-1ine
+magnetic-tape-controlled printer, magnetic-tape-controlied card
 punch, and punched card-to-magnetic tape converter, respectively.
-In addition to the 701‘ there will be 10 auxiliary punched card
+In addition to the TO4 there will be 10 auxiliary punched card
 machines including card punches, collators, sorters, reproducers,
-interpreters, and the Type 40; Accounting Machine. The aggregate
-macrgﬁe rental, in excess of 50,000 per month, will be donated
-by . .
+interpreters, and the Type 402 Accounting Machine. The aggregate
+macgégg rental, in excess of $50,000 per month, will be donated
+by o |
 
 The Type 704 EDPM unit is one of the fastest large-scale
-commercial computers available today. Since. the MIT installation
+commercial computers available today. Since the MIT installation
 will be but one of many in the field, techniques, programs, and
 numerical procedures developed for this machine will be of use
 to others having access to 704 equipment. -
 
-Personne - Su ervisomnd Administrative Personnel Associate
-_____1 2 ..__.______________9_
-witrLthe ngectz
+Personnel - Supervisory and Administrative Personnel Associated
+with the Project:
 
-Princi al Investi star to be Professor Philip M. Morse,
-Director 0? the ﬁmputation Center. He has been in contact with
-computing problems during his career in theoretical physics since
-1930, and with the use of’ computing equipment since the first
-man differential analyzer was available at MIT in 1936. He got
-his Ph.D. in physics at Princeton in 1929 and has been at MIT since
+Principal Investigator te be Professor Philip M. Morse,
+Director of the Computation Center. He has been in contaect with
+computing problems during his eareer in theoretical physies sinee
+1930, and with the use of computing equipment since the first
+Bush differential analyzer was available at MIT in 1936. He got
+his Ph.D. in physies at Princeton in 1929 and has been at MIT since
 1931, with occasional leaves of absence. His publications include
-the books "Quantum Mechanics" (with E. U. Condon) 1930, "Vibration
-and Sound" 1936‘ "Methods of Operations Research' (with G. E.
-Kimball) 1950, Methods of Theoretical Physics" (with Herman
-Feshbach) 1953. and "Queuing, Inventory and Maintenance" 1957,
-and about a hundred Journal articles, many of which give results
-obtained from machine computation. For further biographic details
+the books "Quantum Mechanies" (with E. U. Condon) 1930, "Vibration
+and Sound” 1936ﬁ "Methods of Operations Researeh" (with G. E.
+Kimball) 1950, "Methods of Theoretical Physies" (with Herman
+Feshbach) 1953, and "Queuing, Inventory and Maintenance” 1957,
+and about a hundred journal articles, many of which give results
+obtained from machine computatioen. For further blographic details
 see "Who's Who". Only a fraction of his salary will be charged to
 the Project. -

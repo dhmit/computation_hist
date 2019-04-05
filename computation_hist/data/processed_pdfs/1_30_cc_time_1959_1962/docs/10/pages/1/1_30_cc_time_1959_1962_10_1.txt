@@ -1,71 +1,118 @@
-Joint Comm; 195 Grgun
-Tina Record
+Frob. No. Lab,
+1088 OB
+1133 - INS
+1137 LES
+1143 LES
+1150 LNS
+1151 ILNS
+1157 NS
+1160 , LES
+1163 LES
+1175 LES
+1176 LNS
+1178 RLY
+1181 LES
+1183 RIB
+1184 RLE
+1185 BLE
+Laboratory
+
+Houre Employed
+
+Houre Usad
+Computing
+Overhead
+Sick Leave
+Yacation
+Clesses
+
+Total
+
+Hours Hogt Used
+Houwrs Overdrswa
+Cumulative Hours Hot Used
+Cugmlative Hours Overdrawn
+
+Joindg CQEntg__ng Groun
+
+Time Hecord
+January, 1961
 
  
 
+Reguaated.Bx
+
+Galliher
+Dolves
+Turchinetz
+Zubis
+
+o Buechnar
+
+o Linaley
+
+o Schappers
+Yanz-Hu
+Foshbach
+Shakin
+Frooman
+Herahfield
+Loh
+Levino
+Cocesgli
+
+« Strandberg
+
+o Eﬂp@ﬁoﬂbtb‘!ﬁ
+
+-
+
+.
+
+zc..m.m:qwn
+
+Tine Distribution
+
+245
+
+1113
+
+278
+
+27#1
+
+April 6, 1941
+
+Hours in
+
+Jan.
+
  
 
-Januarv. 1261
-Prob. Ea. Lg‘b. Reguasted 3!
-1088 02 H. Gallihar
-1133 LES 1:. 1101793
-1137 ms w. 'l‘urchlnatz
-111.0 ms A. Tnbis
-1150 ms H. Buschnar
-1151 L33 J. Linaley
-1157 m3 0. Schnppart
-1160 ms 0. Yang-Eu
-1163 LIES H. Feah'bach
-1175 L33 0. Shakin
-1176 LES B. Freeman
-1178 RM: J. Herahfield
-1181 LES E. Lab
-1183 RLE 5. Lavina
-1181+ HIE J. Coccoli
-1185 nm N. Strandborg
-Time Distribution
-Laboratory: 3.3313,. Libs.
-Houm Employed 328 S734-
-Houru Uaed
-Computing 53 831
-Overhead 15 15
-Sick Leave 10 0
-Vacation L} 0
-01233666 1 6
-Total 83 852
-Hons-s Hot Used. 2%
-Emma m'eréaaxm 273
-Cumulative Hour: Eat Uaed 1113
-
-‘
-Canal 51% ive Ham‘s Over 63:95:) 27191
-
-April 6, 1961
+140
 
 113
 16k
 
 66
 164
-1&1
 
+Iyl
 10
-32
 
-8.3.
+© O0O000
 
-0 00000
+L5
 
-Tot 31
+Total
 Hours
 
 2837
 781
-M7
 
-1594»
+1664
 277
-451
+U851
 770
 518
 276
@@ -73,13 +120,6 @@ M7
 528
 163
 
-80
-5r;
-
-nr
-
-)4
-
-5 mock-)5
-
-11?):
+&0
+56
+32

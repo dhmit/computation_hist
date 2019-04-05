@@ -26,15 +26,9 @@ class Organization(models.Model):
         else:
             return f"<Organization without a name>"
 
-
-class Box(models.Model):
-    number = models.IntegerField(default=0)
-
-    def __str__(self):
-        return str(self.number)
-
-    def __repr__(self):
-        return f"<Box {self.number}>"
+    @property
+    def url(self):
+        return f'/dj_comp_hist/organization/{self.pk}'
 
 
 class Person(models.Model):
@@ -68,6 +62,19 @@ class Person(models.Model):
     def fullname(self):
         return self.first + "_" + self.last
 
+    @property
+    def url(self):
+        return f'/dj_comp_hist/person/{self.pk}'
+
+
+class Box(models.Model):
+    number = models.IntegerField(default=0)
+
+    def __str__(self):
+        return str(self.number)
+
+    def __repr__(self):
+        return f"<Box {self.number}>"
 
 
 class Folder(models.Model):
@@ -123,6 +130,34 @@ class Document(models.Model):
                 break
         return int(''.join(reversed(id_num)))
 
+    @property
+    def url(self):
+        return f'/dj_comp_hist/doc/{self.pk}'
+
+    def get_person_list(self, list_type):
+        """
+        :param list_type: 'authors', 'recipients', 'cceds'
+        Returns a list of the names and urls of both person and organization
+        authors/recipients/cceds
+        Created because querysets that include both persons and organizations can't be merged.
+        Currently used in the display of advanced search results. Could also be used in document
+        display.
+        """
+        if list_type == 'authors':
+            pl = [{'name': p.fullname, 'url': p.url} for p in self.author_person.all()]
+            pl += [{'name': o.name, 'url': o.url} for o in self.author_organization.all()]
+        elif list_type == 'recipients':
+            pl = [{'name': p.fullname, 'url': p.url} for p in self.recipient_person.all()]
+            pl += [{'name': o.name, 'url': o.url} for o in self.recipient_organization.all()]
+        elif list_type == 'cceds':
+            pl = [{'name': p.fullname, 'url': p.url} for p in self.cced_person.all()]
+            pl += [{'name': o.name, 'url': o.url} for o in self.cced_organization.all()]
+        else:
+            raise ValueError(f'''Document.get_person_list can only have "authors", "recipients" and
+                                 cceds as params but not {list_type}.''')
+
+        return pl
+
 
 class Page(models.Model):
     document = models.ForeignKey(Document, on_delete=models.CASCADE)
@@ -146,48 +181,4 @@ class Text(models.Model):
     page = models.OneToOneField(Page, on_delete=models.SET(None), blank=True)
 
 
-def check_generate(model, key, value):
-    # Checks if a certain object in a model exists and then generates it if it does not.
-    if model.objects.filter(**{key: value}):
-        existed = True
-        new_item = model.objects.get(**{key: value})
-
-    else:
-        new_item = model(**{key: value})
-        existed = False
-    return existed, new_item
-
-
-def check_person_known(person):
-    # This function checks whether this person or organization has unknown apart of their name in
-    # the metadata and the attributes that name to an empty string.
-    if person.first == "unknown":
-        person.first = ""
-    if person.last == "unknown":
-        person.last = ""
-    return person
-
-
-def interpret_person_organization(field, item_organization, item_person, new_doc):
-    # Adds people and organizations as an author, recipient, or CC'ed. Utilizes check_generate to
-    # make the process easier.
-    field_split = field.split('; ')
-
-    for person_or_organization in field_split:
-        if len(person_or_organization.split(', ')) == 1:
-            org_exist, new_org = check_generate(Organization, "name", field_split[0])
-            new_org.save()
-            bound_attr = getattr(new_doc, item_organization)
-            bound_attr.add(Organization.objects.get(name=field_split[0]))
-        else:
-            item_current = person_or_organization.split(', ')
-            item_exist, new_item = check_generate(Person, "last", item_current[0])
-            check_person_known(new_item)
-            # TODO change check_generate to have more than one key for people with the
-            # same last name
-            if not item_exist:
-                new_item.first = item_current[1]
-            new_item.save()
-            bound_attr = getattr(new_doc, item_person)
-            bound_attr.add(new_item)
 

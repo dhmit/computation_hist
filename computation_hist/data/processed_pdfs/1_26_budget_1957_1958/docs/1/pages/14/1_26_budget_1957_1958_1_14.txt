@@ -1,0 +1,55 @@
+4.0
+
+4.2
+
+ 
+
+Propoged Research Projects
+
+In addition to the computations which will be performed as part ot
+the normal MIT family computing load, there are several special contracts
+which have been set up for the torthconing period, Table VI describes the
+particular projects imvolved, projected annusal expenditures, and duration of
+contract, respectively. The National Science Foundation and the Rockefeller
+Foundation grantg will help to defray some of the operating costs of the Center, -
+
+National Science Foundation Gramt
+
+The National Science Foundation granted MIT $30,000 to "establish
+the nucleus of a computing center, to extend existimg centers, and to pay
+rental for camputing time., In some 1nltanc0l part of the fund may be used
+for salaries of research assistants’ .
+
+The foundation's progran is designed to stremghten basic research
+in a number of fields by providing a research investigator's access to computing
+facilities, 8Since many general-purpose university computing centers do not
+have sufficient support for basic research, the National Science Foundation
+appropriation is intended to stremgthen such activities. It is intended that
+advances in scientific research will be accelerated by the formulation of am
+adequate conceptual model for natural processes, and checking the accuracy of
+the model by calculating anticipated behavior under particular circumstances
+within the process,
+
+Rockefeller Foundation Granmt
+
+The Rockefeller Foundation has made a2 grant of $36,000 per year for
+a three-year period to help support the research staff at the MIT Computation
+Center, It is intended that the research group will explore new ways for using
+high-speed computing equipment in the social seciences., These investigations
+will include the followi ng studies: :
+
+1. A study of machine logic and an attempt to use it to simulate
+some of the human "thinking" processes. Por example, programs
+will be written which will cause the machine to play tic tac toe,
+checkers, chess, etc., which require varying degrees of logic
+and complicated thought patterns,
+
+2, Studies will be made in the areas of language tramslation and
+historical research -- developing methods for coding information
+in campaet form with spscific emohasis on rapid access,
+
+3. A number of social science experimonta will be progrannod
+on the 704 Caleulator simulating "gaming techniques' which
+arise in complex economic systems, This will be similar to
+some of the military "games" which were played during the
+war using less-powerful machinery.

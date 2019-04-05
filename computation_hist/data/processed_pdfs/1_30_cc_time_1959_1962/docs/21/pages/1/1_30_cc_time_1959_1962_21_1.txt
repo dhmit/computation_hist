@@ -1,200 +1,86 @@
-m
+7
+CEEEEERPE PR
 
-798
-1083
-1081:
-1089
-1120
-1133
-1137
-H38
-1139
-11b3,
-11,46
-11E?
-11218
-
-111:9
 1150
 
-Laboratmry
-
+Laboratory
 Hours Employed
 
-Hours Used.
-Cunpu‘aing
-Overheaﬂ
-Sick leave
-Vacation
-Classes
+Hours Used
+Camuting
+Overhead
+Sick Leave
+Vecation
+Clagsses
 
-Tubal
+Total
 
- 
+Hours Nob Used
+Hours Overdrewym
+Cumulative Hours Wob Used
+Cunuletive Hours Overdrawn
 
-Hours Not Used
-Hours Overdram
+Usey Fours In
+reb
 
-lea‘bive Hours 301: Used
-Cmtﬂaﬁive Hours Overdrem
+M. Deutseh 10 .0
+P. Demos 54 .5
+R. Scheunberg G55
+H. Mark 9.0
+G. Beketri 15.0
+Testing Roubilnes,
 
-User
+ete., 16.0
 
- 
+Ihere wes a lot of dovn time due o flexovriter troubdl
 
-Dewbw‘u
-Demos
+TWo or three times a week.
 
-.u Schaunbez-g
-H. Mark
-
-G- Bekefi
-
-‘UL’S
-e a
-
-V
-
-Testing Routines ,
-
-etc.
-
-ﬂours In
-Feb
-
- 
-
-he .0
-51% -5
-95 -5
-
-9 .o
-15 .0
-
-l6 .0
+JOINT COMPUTING GROUP
 
 TIME RECORD
-W 1950
-
-Remsted bx
-
-H. Feahback
-E- Baghdam
-v. we
-
-J’- xix-shriek!
-K. Emma
-
-L. Delves
-
-W. Mchimtz
-K. Hammad
-H. Mark
-
-A. Tubis
-
-G. Bebe-:1
-
-G. stroke
-
-J. Cocoon
-
-w. Grant
-
-W- Buechner
-
-JOIE'I' COMPUTING GROUP
-
-112143 13187331815101?
-
-RIE
-
-—...
-
-528
-
-2115
-21;
-28
-
-0
-12
-
-278
-250
-
-777
-
-E
-21m
-537
-1:9
-6
-
-0
-0
-
-59+
-
-351%
-887
-
-1C»? - 30 Time Record
-2.622119%
-
-72; .0
-62 .5
-178 -5
-
-9 .o
-15 .0
-
-37.0
-
-men 18, 1960
-Hours Total
-In Feb. Hours
-
-12 M28
-1!- 167
-72 2631;
-6 978
-81+ 260
-16 116
-1:7 91+
-1148 368
-37 97
-52 52
-15 15
-12 12
-29 29
-a3; 22 23
-0 he 80
-0 0 0
-o o I;
-o 12 8
-0 O 0
-0 O O
-0 12 12
-0 36 68
-151+ 1231+
-21;
-£212 “um-w—
+FEBRUARY 1960
+March 18, 1960
+BEours Total
+H. Feshback 32 L1128
+E. Baghdady L 167
+V. Yngve 72 263h
+Je Hirshfield 6 J78
+K. Huang 92 656
+L. Delves 12 635
+He m&inetz 811' 260
+K. Nemland 16 116
+H. Mark L7 ol
+A. Tubis 8 368
+G. Bekefi 37 ov
+G. Stroke 52 o2
+Jd.« Coceoli 15 15
+W+ Grant 2 i2
+W. Buechner 29 29
+TIME DISTRIBUTION
+215 LS S8 ce OR
+528 240 0 18 8o
+21k 537 0 0 0
+24 L9 0 0 L
+28 8 0 12 8
+0 0 0 0 0
+i2 0 0 0 0
+278 50l 0 12 i2
+250 0 36 €8
+35k
+L5k 123k
+il 887 ok
+LEP - 30 Time Record
+Total Hours Ieb
 Hours
-in Feb .
-LES 199.0
-m: 15.0
+In Feb.,
+723' 00
+2.5
+178.5 NS 199.0
+0.0 RLE 15.0
+15.0
+3740
 
-'ﬁlere was a 10‘}; of clam time due to flemvmiter trouble
-two or ﬁlm-ea times a week.
+Use by Isboratories
 
-Use by mbgraturiea
-
- 
-
-Hours
-
-3214» .0
-3.5 .0
-
-3 much required repairs
+e€s waich required repairs

@@ -1,26 +1,74 @@
-,
-738 HARVEY com
+HARVEY COHN
 
-hen a subsequence of values of p exists which tends to inﬁnit
-and which permits equations (2) and (3) to be satisﬁed by a 0' and r lying insidy
-the open intervals just mentioned. We ﬁnd it convenient to select a still ﬁne:
-subsequence for which the values of (7 ﬁt the description of one of the cases listed
-in the adjoining table. By referring each case to equation (2), we find the asym »
-totic relationship thereby implied between a and ,7. These results are listed E1
+738
+
+result to be false. Then a subsequence of values of P exists which tends to infinity
+and which permits equations (2) and (3) to be.z satlsﬁed'by a ¢ and 7 lying ingjde
+the open intervals just mentioned. We find it convenient to select a still finey
+subsequence for which the values of ¢ fit the descrlpthn of one of the cases listeq
+in the adjoining table. By referring each case to equation (2), we find the asymp-
+totic relationship thereby implied between ¢ and r. These results are listeq ip
 the next column of the table. Now using this information, we can calculate the
-asymptotic value of the left hand member of equation (3), (which supposedl v
-holds). But these values, listed in the last column, are easily seen to be nod»
+asymptotic value of the left hand member of equation (3), (which supposedly
+holds). But these values, listed in the last column, are easily seen to be nop.
 vanishing, hence the proof by contradiction is complete.
 
-result to be false. T
-
 BIBLIOGRAPHY
-1. DAVIS, C. S.y Note an a conjecture by Minkowski, J. London Math. Soc. 23 (1948) 172_
+
+1. Davis, C. S., Note on a conjecture by Minkowskz, J. London Math. Soc. 23 (1948), 172-
 
 175.
-2' meowsm, H" Dmphmime Appmx‘mmmeuv (Berlin. Teubner, 1907), pp. 51—8
+9. Mingowskr, H., Diophantische Approximationen, (Berlin, Teubner, 1907), pp. 51-8.
+3. MorbELL, L. J., Lattice points in the region | Az* + By* | =< 1, London Math. Soc. 16
 
-3- MORDELL, L. J., Lattice points in the region | A334 + By‘ l § 17 London Math Soc 16
-(1941), 152—6. .
+(1941), 152-6.
 
-WAYNE UNIVERSITY
+WaYNE UNIVERSITY
+
+ 
+
+o4
+. v -
+Y:’2 12
+
+oLy
+efrie
+
+.
+,,,,,,,
+J
+ooooo
+A -
+'''''''''
+
+4
+)
+'l'
+
+Y, r
+
+............
+‘‘‘‘‘‘‘‘
+vvvvvvvvvvvvvvv
+.....
+.......
+llllll
+,,,,,,,
+
+    
+
+(-
+™
+-
+
+ 
+
+T nvy
+
+»
+o -
+
+.‘.P:r
+
+(L2
+I3

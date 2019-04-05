@@ -1,46 +1,74 @@
-HARVEY COHN
-298
+208 HARVEY COHN
 
-the Riemann function is a function of four variables, 130;, y; :c’, 2/), deﬁned by
-the system
-(a) 673/01 6;; = —I{(1; + y)R
+the Riemann function 1s & function of four variables, R(z, y; 2/, ¥/), defineq :
 
-(2) (b) It = 1 when r =, a" 01- y = yr.
-We shall assume for convenience that H(r)_ is regular and real for 7. real, and
-that ac and y are real in all cases under eonsrderation.
+the system y
+(a) 9°R/dxdy = —H(x + y)R
 
-To prove the existence of R by iteration, we rewrite the System (2) as the
-single equation
+(2)
 
-(3) R(:c,y;:r’,]/) = 1 — H Ito, ,y. ;r’,y')z{<.r. +y,) (11-, d1,
+when ¢ =z ory=y.
 
-where B(x, y) is the rectangle formed by the horizontal and vertical lines through
-' (x, y) and (z’, y’). By continual substitution of the right member into itsglf‘
-we obtain the formal iterated series
+B R=1
 
-Rte Luna 2/) = 1 - fl Htri + y.) 111‘. ﬂy.
+We shall assume for convenience that H(r) is regular and real for r reg] 4 d
+that = and y are real in all cases under consideration. ¢
+To prove the existence of R by iteration, we rewrite the system (2) as th
+. S | (
+single equation :
 
-onum
+® Reye ) =1-[] R@,wia, v)HE +y)d
 
-fl H(I_’+y2)d.rzdy2—~-.
-- 21m to
+where B(z, ) is the rectangle formed by the horizontal and vertical lines throyg}
+" (z, y) and (', ¥'). By continual substitution of the right member into itee%fl
+we obtain the formal iterated series Ly
+
+Rz, y;2,¥) = 1 — f[
+
+vB(z,y)
+
+H(x, + ) dx, dy,
+4). * == ffm H(x, + y,) dx, dy,
+
+: f [ H(z, + ?/2) dx, dy, — - -
+vyB(ry,vy1)
+
 This series is seen to be convergent and to represent a solution to (3). Equation
-(3), or system (2), also has a unique solution, or otherwise expressed, any solution
-to the homogeneous form of (3), with the term I deleted, would vanish identi-
-Cally.
 
+(3), or system (2), also has a unique solution, or otherwise expressed, any solution
+
+to the homogeneous form of (3), with the term 1 deleted, would vanish identi-
+
+cally. |
 These statements are made because the iteration process will motivate the
+
 rest of the paper.
 
-3. More general illustration of a Riemann function. We saw that the
-iterated series (4) for R begins with the terms 1 7 [V + where
-U = J‘J‘aomlﬂl‘. + y.) div, dyx . Now U obviously equals zero when a: = I'
-01‘ y = y'. Thus since It is also a constant for these values of :L' or y, we might
-try to see if the Riemann function has the form R((‘; r’, y’). Substituting this
-new value of R into equation (25,) we ﬁnd that the Riemann function actually
-can be written in this form if and only if (alﬂar) (al' 61/)H" is expressible as
-full; .1". 1/). Then (2) becomes
+~ 3. More general illustration of a Riemann function. We saw that the
+ltrerateq series (4) for R begins with the terms 1 — [ + --- where
+(Sr ; __JJ?B,(I'”&{}{(J:' + Y1) dTl dy, . Now U obviously equals zero when z = 2’
+et ‘JA.. s since R is alsg a constant for these values of z or y, we might
+- O\ ’0' slee if the Blemaxln function has the form R(U; 2/, y'). Substituting this
+oa: ga ue Of‘ R.llltrO.qulatl().n (2a) we find that the Riemann function actually
+. be written in this form if and only if (U /dx) (8U/dy)H " is expressible as
+J(U; &', y). Then (2) becomes Ewe e el e
 
-(_) l (£1) ((131? "dl.'3)f(['; .1", 1/) + (IR/(ll. + If : 0
+5 (@) (PR/AUDS(U; ', y') + dR/AU + R = 0
+
+(b) ROz, v) = 1.
+
+e y B
+C:.'C)- -
+
+Remann 1
+
+" —e
 0
-(17) 13(0; 2.”, y’) = l.
+1
+
+o
+
+—re t:“.
+
+"
+o

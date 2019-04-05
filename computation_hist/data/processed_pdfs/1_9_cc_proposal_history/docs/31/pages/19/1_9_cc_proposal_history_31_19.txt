@@ -1,0 +1,48 @@
+—19=
+
+reconnect the machine at any later time with a minimum of effort.
+
+Electrical Eﬁgineering Department. The Electrical Engi-
+neering Department has in its possission an analog type com-
+puter called the Network Analyzer. This machine is especially
+adapted to the solution of simultaneous quadratic equations
+whlch occur in problems of electric power transmission. The
+machine essentiélly contalins a model of a power system and is
+consequently somewhat less adaptable to prbblems of a more gene-
+
+ral nature.
+
+Statistical Services. Statistical Services possesses a
+large number of I,B.M; Punched Card Machines. The following
+equipment is available:
+
+024 Numeric Key Punch
+
+031 Numerlic Key Punch
+
+036 Alphameric Key Punch
+075 Sorter
+
+O77 Collator
+
+055 Verifier
+
+403 Alphabetic Tab (MLP)
+405 Alphabetic Tab
+
+513 Automatic Summary Punch
+552 Interpreter '
+602A Calculator
+
+604 Electronic Calculator
+856 Cardatype
+
+The over-all operation is divided into two principal cate-
+gories: (A) Mechanization of Administrative Offices. (B) Scien-
+tific Computations. Under (A) there is involved services for
+various offices and departments of the Institute.
+
+Frbm the standpoint of (B), the two most important machines
+are the 602A and 604 calculators. These are digital machines
+
+which operate on cards, each card containing 80 characters (digits).
