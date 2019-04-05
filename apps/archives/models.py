@@ -126,7 +126,7 @@ class Document(models.Model):
 
     @property
     def url(self):
-        return f'/archives/doc/{self.pk}'
+        return f'/archives/doc/{self.slug}'
 
     def get_person_list(self, list_type):
         """
