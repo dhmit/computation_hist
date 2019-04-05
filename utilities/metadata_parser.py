@@ -8,6 +8,7 @@ from pdf2image import convert_from_path
 # django
 from django.db import IntegrityError
 from django.core.exceptions import ValidationError
+from django.utils.text import slugify
 
 # project
 from config.settings import METADATA_CSV, DATABASES
@@ -22,9 +23,9 @@ from apps.archives.models import (
 from .common import get_file_path
 
 
-def populate_from_metadata(file_name=None):
+def populate_from_metadata(metadata_filename=None):
     '''
-    :param file_name: is a path to a csv file (relative or actual)
+    :param metadata_filename: is a path to a csv file (relative or actual)
     :return: populates the django database, but returns nothing
     how to run:
     open up terminal (with virtual environment):
@@ -37,10 +38,10 @@ def populate_from_metadata(file_name=None):
     Utilizes interpret_organization_person to add authors, recipients, and cced.
     '''
 
-    if file_name is None:
-        file_name = METADATA_CSV
+    if metadata_filename is None:
+        metadata_filename = METADATA_CSV
 
-    with open(file_name) as file:
+    with open(metadata_filename) as file:
         csv_file = csv.DictReader(file)
         count_added = 0
         count_skipped = 0
@@ -129,7 +130,7 @@ def populate_from_metadata(file_name=None):
     print(f'''\n################################################################################
 IMPORT COMPLETE
 ################################################################################
-Added {count_added} documents from {file_name}.
+Added {count_added} documents from {metadata_filename}.
 Skipped {count_skipped} documents because of incomplete metadata.
 {count_invalid} had invalid data.''')
 
@@ -152,15 +153,18 @@ def add_one_document(csv_line):
     :return:
     """
 
+    # NOTE(ra): number of pages
     number_of_pages = int(csv_line['last_page']) - int(csv_line['first_page']) + 1
+    file_name = csv_line['filename']
+    slug = slugify(file_name)
     new_doc = Document(number_of_pages=number_of_pages,
                        title=csv_line['title'],
                        type=csv_line['doc_type'],
                        notes=csv_line['notes'],
                        first_page=csv_line['first_page'],  # should this be an int?
                        last_page=csv_line['last_page'],
-                       file_name=csv_line['filename']
-                       )
+                       file_name=file_name,
+                       slug=slug)
 
     txt_path = get_file_path(box=int(csv_line['box']), folder=int(csv_line['folder_number']),
                              foldername_short=csv_line['foldername_short'],
