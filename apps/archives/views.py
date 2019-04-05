@@ -245,19 +245,19 @@ def generate_search_facets(doc_objs):
     for document in doc_objs.all():
         # Some dates are None --> Skip those documents
         if document.date:
-            counter_dates[document.date.year] = +1
+            counter_dates[document.date.year] += 1
         for author in document.author_person.all():
-            counter_authors[author.fullname] = +1
+            counter_authors[author.fullname] += 1
         for org in document.author_organization.all():
-            counter_author_organizations[org.name] = +1
+            counter_author_organizations[org.name] += 1
         for recipient in document.recipient_person.all():
-            counter_recipients[recipient.fullname] = +1
+            counter_recipients[recipient.fullname] += 1
         for org in document.recipient_organization.all():
-            counter_recipient_organizations[org.name] = +1
+            counter_recipient_organizations[org.name] += 1
         for cc in document.cced_person.all():
-            counter_cceds[cc.fullname] = +1
+            counter_cceds[cc.fullname] += 1
         for org in document.cced_organization.all():
-            counter_cced_organizations[org.name] = +1
+            counter_cced_organizations[org.name] += 1
 
     dict_facets = {
         "authors": counter_authors.most_common(10),
