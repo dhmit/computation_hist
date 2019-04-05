@@ -245,11 +245,11 @@ def generate_search_facets(doc_objs):
     for document in doc_objs.all():
         # Some dates are None --> Skip those documents
         if document.date:
-            counter_dates[document.date.year] = +1
+            counter_dates[document.date.year] += 1
         for author in document.author_person.all():
-            counter_authors[author.fullname] = +1
+            counter_authors[author.fullname] += 1
         for org in document.author_organization.all():
-            counter_author_organizations[org.name] = +1
+            counter_author_organizations[org.name] += 1
         for recipient in document.recipient_person.all():
             counter_recipients[recipient.fullname] = +1
         for org in document.recipient_organization.all():
@@ -290,9 +290,10 @@ def advanced_search(request):
     if not search_params:
         return render(request, 'archives/advanced_search.jinja2', {'doc_types': doc_types})
 
-    results = process_advanced_search(search_params)
+    results, facets = process_advanced_search(search_params)
     search_objs = {
         'results': results,  # = doc_objs
+        'facets': facets,
         'search_params': search_params,
         'doc_types': doc_types
     }
@@ -369,7 +370,7 @@ def process_advanced_search(search_params):
     docs_qs = docs_qs.prefetch_related('author_person', 'author_organization', 'folder',
                                        'recipient_person', 'recipient_organization')
     facets = generate_search_facets(docs_qs)
-    return docs_qs
+    return docs_qs, facets
 
 
 def story(request, slug):
