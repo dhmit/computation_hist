@@ -1,4 +1,5 @@
 import re
+from collections import Counter
 
 from django.db.models import Q
 from django.http import Http404
@@ -225,6 +226,51 @@ def browse(request):
     return render(request, 'archives/browse.jinja2')
 
 
+def generate_search_facets(doc_objs):
+    """
+    Creates a dictionary of facets with keys of each of the different facets and values that are a list of tuples that
+     contain the top 10 most common objects within the facet and how many times these objects occur.
+    :param doc_objs:
+    :return: dict_facets
+    """
+
+    counter_authors = Counter()
+    counter_dates = Counter()
+    counter_author_organizations = Counter()
+    counter_recipients = Counter()
+    counter_recipient_organizations = Counter()
+    counter_cceds = Counter()
+    counter_cced_organizations = Counter()
+
+    for document in doc_objs.all():
+        # Some dates are None --> Skip those documents
+        if document.date:
+            counter_dates[document.date.year] = +1
+        for author in document.author_person.all():
+            counter_authors[author.fullname] = +1
+        for org in document.author_organization.all():
+            counter_author_organizations[org.name] = +1
+        for recipient in document.recipient_person.all():
+            counter_recipients[recipient.fullname] = +1
+        for org in document.recipient_organization.all():
+            counter_recipient_organizations[org.name] = +1
+        for cc in document.cced_person.all():
+            counter_cceds[cc.fullname] = +1
+        for org in document.cced_organization.all():
+            counter_cced_organizations[org.name] = +1
+
+    dict_facets = {
+        "authors": counter_authors.most_common(10),
+        "author organizations": counter_author_organizations.most_common(10),
+        "recipients": counter_recipients.most_common(10),
+        "recipient organizations": counter_recipient_organizations.most_common(10),
+        "cceds": counter_cceds.most_common(10),
+        "cced organizations": counter_cced_organizations.most_common(10),
+        "years": counter_dates.most_common(10),
+    }
+    return dict_facets
+
+
 def advanced_search(request):
     """
     Searches database based on specific search queries and parameters given by user.
@@ -319,11 +365,10 @@ def process_advanced_search(search_params):
         max_year = int(max_year)
         docs_qs = docs_qs.filter(Q(date__year__gte=min_year) &
                                  Q(date__year__lte=max_year))
-
     # prevents template from hitting the db
     docs_qs = docs_qs.prefetch_related('author_person', 'author_organization', 'folder',
                                        'recipient_person', 'recipient_organization')
-
+    facets = generate_search_facets(docs_qs)
     return docs_qs
 
 
