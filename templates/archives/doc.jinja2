@@ -41,33 +41,28 @@
             </iframe>
         </div>
         <div class="sidenav">
-
             <table class="table">
                 <tbody>
-
                 <tr><td>{{ doc_obj.date }}</td></tr>
                 </tbody>
+                {% if author_person_objs or author_organization_objs %}
+                <tbody>
+                <tr><td>Written by:</td></tr>
+                </tbody>
+                {% endif %}
             </table>
 
         {% if author_person_objs or author_organization_objs %}
-            <p>Written by:</p>
             {% if author_person_objs %}
-                <table class="table">
-
                     <tbody>
                     {% for item in author_person_objs %}
-
                         <tr>
                             <td><a href="/archives/person/{{ item.pk }}">{{ item }}</a></td>
                         </tr>
                     {% endfor %}
                     </tbody>
-                </table>
             {% endif %}
-
             {% if author_organization_objs %}
-                <table class="table">
-
                     <tbody>
                     {% for item in author_organization_objs %}
                         <tr>
@@ -75,9 +70,7 @@
                         </tr>
                     {% endfor %}
                     </tbody>
-                </table>
             {% endif %}
-
         {% endif %}
 
         {% if recipient_person_objs or  recipient_organization_objs%}
