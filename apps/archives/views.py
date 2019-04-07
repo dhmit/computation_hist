@@ -229,7 +229,7 @@ def browse(request):
 def generate_search_facets(doc_objs):
     """
     Creates a dictionary of facets with keys of each of the different facets and values that are a list of tuples that
-     contain the top 10 most common objects within the facet and how many times these objects occur.
+     contain the top 10 most common instances of the facet and how many times these instances occur.
     :param doc_objs:
     :return: dict_facets
     """
