@@ -4,6 +4,12 @@
 
 {% block self %}IBM 704 Assembly Addition{% endblock %}
 
+{% block buttons %}
+    <button id="step_button">Step</button>
+    <button id="run_button">Run</button>
+    <button id="reset_button">Reset</button>
+{% endblock %}
+
 {% block description %}
     Here's what's happening here:<br />
     <b>CLA 4: </b> Clears the accumulator and stores the value at address 4 (which you'll see if you mouseover is 12) into the accumulator.<br />
