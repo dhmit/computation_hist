@@ -289,7 +289,6 @@ def advanced_search(request):
     search_params = request.GET
     if not search_params:
         return render(request, 'archives/advanced_search.jinja2', {'doc_types': doc_types})
-
     results, facets = process_advanced_search(search_params)
     search_objs = {
         'results': results,  # = doc_objs

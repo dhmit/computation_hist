@@ -132,13 +132,54 @@
         </div>
         <div class="col-lg-3 col-md-3 col-sm-12">
             <label class="text_label" for="title">Authors:</label>
-            {# {% for facet in facets %} #}
-            <label class="text_label" for="title">Author Organizations:</label>
-            <label class="text_label" for="title">Recipients:</label>
-            <label class="text_label" for="title">Recipient Organizations:</label>
-            <label class="text_label" for="title">Cceds:</label>
-            <label class="text_label" for="title">Cced Organizations:</label>
-            <label class="text_label" for="Years">Authors:</label>
+                     {% for facet in facets["authors"]%}
+                         Author: </label> {{facet[0]}}
+                         <br>
+                         Occurrences: </label> {{ facet[1]}}
+                         <br>
+            {% endfor %}
+                <label class="text_label" for="title">Author Organizations:</label>
+                        {% for facet in facets["author organizations"]%}
+                            Author Organization : </label> {{facet[0]}}
+                            <br>
+                            Occurrences : </label> {{ facet[1]}}
+                             <br>
+                {% endfor %}
+                <label class="text_label" for="title">Recipients:</label>
+                        {% for facet in facets["recipients"]%}
+                            Recipient : </label> {{facet[0]}}
+                            <br>
+                            Occurrences : </label> {{ facet[1]}}
+                             <br>
+                {% endfor %}
+                <label class="text_label" for="title">Recipient Organizations:</label>
+                        {% for facet in facets["recipient organizations"]%}
+                            Recipient Organization : </label> {{facet[0]}}
+                            <br>
+                            Occurrences : </label> {{ facet[1]}}
+                             <br>
+                {% endfor %}
+                <label class="text_label" for="title">Cceds:</label>
+                        {% for facet in facets["cceds"]%}
+                            Cced : </label> {{facet[0]}}
+                            <br>
+                            Occurrences : </label> {{ facet[1]}}
+                             <br>
+                {% endfor %}
+                <label class="text_label" for="title">Cced Organizations:</label>
+                        {% for facet in facets["cced organizations"]%}
+                            Cced organization : </label> {{facet[0]}}
+                            <br>
+                            Occurrences: </label> {{ facet[1]}}
+                             <br>
+                {% endfor %}
+                <label class="text_label" for="title">Years:</label>
+                        {% for facet in facets["years"]%}
+                            Recipients : </label>{{facet[0]}}
+                            <br>
+                            Occurrences : </label>{{ facet[1]}}
+                             <br>
+                {% endfor %}
         </div>
         </div>
         </div>
