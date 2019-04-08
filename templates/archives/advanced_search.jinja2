@@ -14,6 +14,7 @@
     {# If a previous search was executed, show the query values. Else set default values #}
     {% if search_params is not defined %}
         {% set search_params = {
+            'keyword': '',
             'title': '',
             'text': '',
             'author': '',
@@ -27,6 +28,11 @@
     <form id="adv_search" method="get" action="/archives/advanced_search">
 
         <h2>Advanced Search</h2>
+
+        <p class="search-type">
+            <label class="text_label" for="keyword">Keyword</label>
+            <input id="keyword" type="text" name="keyword" value="{{ search_params['keyword'] }}">
+        </p>
 
         <p class="search-type">
             <label class="text_label" for="title">Document Title</label>

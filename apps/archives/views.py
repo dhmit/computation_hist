@@ -259,7 +259,24 @@ def process_advanced_search(search_params):
     """
 
     docs_qs = Document.objects  # 'qs' for queryset
- 
+    keyword = search_params.get('keyword')
+    if keyword:
+        people_objs = Person.objects.filter(Q(last__contains=keyword) |
+                                            Q(first__contains=keyword))
+        folder_objs = Folder.objects.filter(full__contains=keyword)
+        organization_objs = Organization.objects.filter(Q(name__contains=keyword) |
+                                                        Q(location__contains=keyword))
+        doc_Q = Q(title__contains=keyword)
+        for person in people_objs:
+            doc_Q |= Q(author_person=person)
+            doc_Q |= Q(recipient_person=person)
+        for org in organization_objs:
+            doc_Q |= Q(author_organization=org)
+            doc_Q |= Q(recipient_organization=org)
+        for folder in folder_objs:
+            doc_Q |= Q(folder=folder)
+        docs_qs = docs_qs.filter(doc_Q)
+
     title = search_params.get('title')
     if title:
         docs_qs = docs_qs.filter(Q(title__icontains=title))
