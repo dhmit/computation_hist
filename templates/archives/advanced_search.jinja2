@@ -24,7 +24,7 @@
             'doc_types': []
         } %}
     {# If the only entry in search_params is a keyword #}
-    {%  elif len(search_params.keys())==1 and search_params.keys()[0] == 'keyword' %}
+    {%  elif len(search_params.keys())==1 and search_params.get('keyword') %}
         {% set search_params = {
             'keyword': search_params['keyword'],
             'title': '',
