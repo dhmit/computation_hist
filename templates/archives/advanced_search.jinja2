@@ -23,6 +23,18 @@
             'max_year': 1970,
             'doc_types': []
         } %}
+    {# If the only entry in search_params is a keyword #}
+    {%  elseif len(search_params.keys())==1 and search_params.keys()[0] == 'keyword' %}
+        {% set search_params = {
+            'keyword': search_params['keyword'],
+            'title': '',
+            'text': '',
+            'author': '',
+            'recipient': '',
+            'min_year': 1945,
+            'max_year': 1970,
+            'doc_types': []
+        } %}
     {% endif %}
 
     <form id="adv_search" method="get" action="/archives/advanced_search">
