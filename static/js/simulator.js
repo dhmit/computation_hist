@@ -25,6 +25,7 @@ const no_to_operation_b = {
     0o241: FDP,
     0o020: TRA,
     0o100: TZE,
+    0o4100: TNZ,
 };
 
 const no_to_operation_a = {
@@ -1642,6 +1643,20 @@ function TRA(computer, address) {
  */
 function TZE(computer, address) {
     if (computer.accumulator.fixed_point === 0) {
+        computer.ilc.update_contents(address);
+    }
+}
+
+/**
+ * Emulates the IBM 704 Transfer on No Zero (TZE) operation.  If bits Q-35 of the accumulator are not all 0,
+ * the Instruction Location Counter jumps to the specified address.  Otherwise, the program continues
+ * to the next instruction.
+ *
+ * @param {IBM_704} computer    Machine to execute instruction on.
+ * @param {number}  address     Address to jump to.
+ */
+function TNZ(computer, address) {
+    if (computer.accumulator.fixed_point !== 0) {
         computer.ilc.update_contents(address);
     }
 }
