@@ -10,6 +10,7 @@ def create_network_json():
     one_doc= all_docs[0]
 
     authors_one_doc = one_doc.author_person.all()
+    edge_counter = Counter()
 
     first_author_name = authors_one_doc[0].fullname
     for doc in documents:
