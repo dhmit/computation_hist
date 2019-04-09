@@ -114,13 +114,11 @@ function start_demo(demo_params) {
         reset(computer, instructions, initial_memory_values);
         update(computer, instructions, num_code_lines, highlighted_registers);
     });
-    $('#run_button').on('click', async () => {
+    $('#run_button').on('click', () => {
         computer.halt = false;
-        while (!computer.halt) {
-            computer.step();
-            update(computer, instructions, num_code_lines, highlighted_registers);
-            await timer(250);
-        };
+        computer.run();
+        update(computer, instructions, num_code_lines, highlighted_registers);
+
     });
     $('#step_button').on('click', () => {
         computer.halt = false;

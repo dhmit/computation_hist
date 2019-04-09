@@ -63,6 +63,7 @@ function start() {
         computer.halt = false;
         computer.run();
         update(computer);
+
     });
     $('#step_button').on('click', () => {
         computer.halt = false;
