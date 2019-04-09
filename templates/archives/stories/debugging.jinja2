@@ -1,0 +1,38 @@
+{% extends 'archives/story.jinja2' %}
+
+{% block story_title %}
+On the Use of Digital Computers
+{% endblock %}
+
+{% block story_body %}
+    Given the emphasis now placed on the speed of computers and the incredible gains of Moore’s Law, one would presume
+    that the primary issue with the computers of the 1950’s was that they were slow.  But lack of processing power
+    was not necessarily the bottleneck here.  <br />
+    <br />
+    One major problem that Morse identified was the input and output.  Computers back then did’t have a screen and a
+    keyboard.  Programs have to be converted to punch card by human, which is bound to introduce errors.  And
+    according to Morse, it can often take much more time for the computer to punch out the answer than it takes to run the program!  <br />
+    <br />
+    This latter issue is especially problematic for debugging.  In modern times, debugging is simplified by printing
+    out values of variables or use of more advanced tools like gdb that allow one to view the entire state of the
+    program as it runs.  Not so in the 1950’s.  The only way to figure out what is happening inside a defective
+    program is to halt the program prematurely and slowly wait for the computer to print out all the values, and
+    hope that one of them will point to the origin of the bug.  Because the output was so slow, Philip Morse
+    suggested that one try to write one’s entire program in one go while minimizing the number of output values.
+    Modern coding practice suggests that this is a recipe for disaster, but what else can you do?  Everyone has to
+    share the computer, meaning you can’t hog the machine for several hours while you write the program chunk by chunk.  <br />
+    <br />
+    Thus, to quote Philip Morse, <br />
+    <br />
+    “We have adopted the rule of thumb that any computation which can be completed by hand with an expenditure of
+    less than about three man-months of time, and which won't be repeated sooner than a year, should not be
+    programmed for Whirlwind. We have found by experience that the answers to such problems can usually be obtained
+    quicker by hand, because a new program, for a tough problem, can easily take more than three man-months to perfect.”<br />
+    <br />
+    So no using the computer to do your math homework.  The machines at MIT were reserved for only the most
+    tremendous and humanly impossible of calculations.  The immense cost of debugging was one of the motivations for
+    the development of Fortran, one of the first compiled languages, which would greatly reduce the difficulty of
+    programming solely in assembly.  <br />
+    <br />
+    <a href="/archives/doc/3_11_on_the_use_of_digital_computers_pm_morse_1">Original document here.</a>
+{% endblock %}
