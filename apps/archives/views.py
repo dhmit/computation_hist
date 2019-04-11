@@ -266,16 +266,15 @@ def process_advanced_search(search_params):
 
     text = search_params.get('text')
     if text:
-        # allows quotation marks but only extracts the string in the middle
+        words_q = Q()
         match = re.match(r'^[\'"]?([a-zA-Z\d ]+)[\'"]?$', text)
-        if not match:
-            print(f"WARNING. Could not parse full text search string: {text}.")
-        else:
-            print('Match groups: ', match.groups())
-            raw_docs = Document.objects.raw(f'''SELECT * FROM doc_fts 
-                                                     WHERE text MATCH "{match.groups()[0]}";''')
-            doc_ids = [doc.id for doc in raw_docs]
-            docs_qs = docs_qs.filter(id__in=doc_ids)
+        if match:
+            for phrase in match.groups():
+                words_q |= Q(text__icontains=phrase)
+        words = text.split(" ")
+        for word in words:
+            words_q |= Q(text__icontains=word)
+        docs_qs = docs_qs.filter(words_q)
 
     author = search_params.get('author')
     if author:
