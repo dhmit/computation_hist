@@ -101,8 +101,11 @@ class Document(models.Model):
     cced_organization = models.ManyToManyField(Organization, related_name='cced_organization',
                                                blank=True)
     notes = models.CharField(max_length=191, blank=True)
-    file_name = models.CharField(max_length=191, blank=True, unique=True)
+    file_name = models.CharField(max_length=191, unique=True)
     text = models.TextField(blank=True)
+
+    #  https://docs.djangoproject.com/en/2.1/ref/utils/#django.utils.text.slugify
+    slug = models.SlugField(max_length=191, unique=True)
 
     def __str__(self):
         return self.title
@@ -123,7 +126,7 @@ class Document(models.Model):
 
     @property
     def url(self):
-        return f'/archives/doc/{self.pk}'
+        return f'/archives/doc/{self.slug}'
 
     def get_person_list(self, list_type):
         """

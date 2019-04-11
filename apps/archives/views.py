@@ -1,13 +1,31 @@
 import re
 
 from django.db.models import Q
-from django.shortcuts import render, get_object_or_404, get_list_or_404
+from django.http import Http404
+from django.shortcuts import get_list_or_404, get_object_or_404, render
+from django.template.loader import TemplateDoesNotExist
+from django.core.exceptions import ObjectDoesNotExist
 
 from utilities.common import get_file_path
 from .models import Person, Document, Box, Folder, Organization, Page
 
+
 def index(request):
-    return render(request, 'index.jinja2')
+    # NOTE(ra): this hardcoded pattern isn't great, but we're since we're using
+    # jinja2 templates as a data source for the stories, it gets us to a usable
+    # prototype without having to, e.g., read the folder of story templates
+    # and load their names dynamically. We'll replace this with something
+    # more robust once the story system takes firmer shape.
+    stories = [
+        'sample_story',
+        'sample_story',
+        'sample_story',
+        'sample_story',
+        'sample_story',
+    ]
+
+    context = {'stories': stories}
+    return render(request, 'index.jinja2', context)
 
 
 def person(request, person_id):
@@ -24,33 +42,44 @@ def person(request, person_id):
     return render(request, 'archives/person.jinja2', obj_dict)
 
 
-def doc(request, doc_id):
+def doc(request, doc_id=None, slug=None):
     """
     Puts a document on the screen
     :param request:
     :param doc_id:
+    :param slug:
     :return:
     """
-    doc_obj = get_object_or_404(Document, pk=doc_id)
+
+    if doc_id:
+        doc_obj = get_object_or_404(Document, pk=doc_id)
+    elif slug:
+        doc_obj = get_object_or_404(Document, slug=slug)
+    else:
+        # NOTE(ra): the case in which both slug and doc_id are both None
+        # is unreachable (there's no url pattern matching them), so if you
+        # reach this branch, something has gone awry.
+
+        # TODO(ra): implement this branch
+        # 1. add a url pattern that matches 
+        # 2. then do something sensible here... (probably a redirect)
+        raise RuntimeError('This branch should be unreachable!')
+
     author_person_objs = doc_obj.author_person.all()
     author_organization_objs = doc_obj.author_organization.all()
     recipient_person_objs = doc_obj.recipient_person.all()
     recipient_organization_objs = doc_obj.recipient_organization.all()
-    try:
+    if recipient_organization_objs:
         if recipient_organization_objs[0].name == 'unknown':
             recipient_organization_objs = None
-    except:
-        pass
     cced_person_objs = doc_obj.cced_person.all()
     cced_organization_objs = doc_obj.cced_organization.all()
-    try:
+    if cced_organization_objs:
         if cced_organization_objs[0].name == 'unknown':
             cced_organization_objs = None
-    except:
-        pass
     page_objs = doc_obj.page_set.all()
     doc_pdf_url = str(get_file_path(doc_obj.folder.box.number, doc_obj.folder.number,
-                                    doc_obj.folder.name , file_type='pdf', path_type='aws',
+                                    doc_obj.folder.name, file_type='pdf', path_type='aws',
                                     doc_id=doc_obj.doc_id))
     print(doc_pdf_url)
     print(doc_obj.date)
@@ -111,12 +140,12 @@ def page(request, page_id):
     try:
         next_page_number = page_obj.page_number + 1
         next_page = Page.objects.get(document=document_obj, page_number=next_page_number)
-    except:  # TODO: figure out type of exception
+    except ObjectDoesNotExist:
         next_page = None
     try:
         previous_page_number = page_obj.page_number - 1
         previous_page = Page.objects.get(document=document_obj, page_number=previous_page_number)
-    except:  # TODO: figure out type of exception
+    except ObjectDoesNotExist:
         previous_page = None
     obj_dict = {
         'page_obj': page_obj,
@@ -171,12 +200,12 @@ def search_results(request):
 
     user_input = request.GET['q']
 
-    people_objs = Person.objects.filter(Q(last__contains=user_input) | Q(
-        first__contains=user_input))
+    people_objs = Person.objects.filter(Q(last__contains=user_input) |
+                                        Q( first__contains=user_input))
     document_objs = Document.objects.filter(title__contains=user_input)
     folder_objs = Folder.objects.filter(full__contains=user_input)
-    organization_objs = Organization.objects.filter(Q(name__contains=user_input)|Q(
-        location__contains=user_input))
+    organization_objs = Organization.objects.filter(Q(name__contains=user_input) |
+                                                    Q(location__contains=user_input))
 
     obj_dict = {
         'people_objs': people_objs,
@@ -225,11 +254,11 @@ def process_advanced_search(search_params):
     """
     Processes one advanced search request and returns the search_results as a queryset
 
-    :param request:
+    :param search_params:
     :return:
     """
 
-    docs_qs = Document.objects # 'qs' for queryset
+    docs_qs = Document.objects  # 'qs' for queryset
  
     title = search_params.get('title')
     if title:
@@ -293,4 +322,12 @@ def process_advanced_search(search_params):
                                        'recipient_person', 'recipient_organization')
 
     return docs_qs
+
+
+def story(request, slug):
+    template = f'archives/stories/{slug}.jinja2'
+    try:
+        return render(request, template)
+    except TemplateDoesNotExist:
+        raise Http404('A story with this slug does not exist.')
 
