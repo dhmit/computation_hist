@@ -3,9 +3,8 @@ from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 
 from django.contrib.staticfiles.testing import StaticLiveServerTestCase
 
+
 # TODO(ra): generalize some of this test code
-
-
 class ArchivesTestCase(StaticLiveServerTestCase):
     def setUp(self):
         desires = DesiredCapabilities.CHROME
@@ -32,7 +31,7 @@ class ArchivesTestCase(StaticLiveServerTestCase):
         self.check_log_for_errors()
 
     def check_log_for_errors(self):
-        """ Check the console log for any errors.  Fail if we find any. """
+        """ Check the console log for any errors. Fail if we find any. """
         log = self.driver.get_log('browser')
         error_messages = []
 
@@ -43,3 +42,4 @@ class ArchivesTestCase(StaticLiveServerTestCase):
         if error_messages:
             all_msgs = "\n".join(error_messages)
             self.fail(f'Errors found on page: \n {all_msgs}')
+
