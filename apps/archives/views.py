@@ -17,7 +17,7 @@ def index(request):
     # and load their names dynamically. We'll replace this with something
     # more robust once the story system takes firmer shape.
     stories = [
-        'sample_story',
+        'debugging',
         'sample_story',
         'sample_story',
         'sample_story',
@@ -351,3 +351,4 @@ def story(request, slug):
         return render(request, template)
     except TemplateDoesNotExist:
         raise Http404('A story with this slug does not exist.')
+

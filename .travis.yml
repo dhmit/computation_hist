@@ -1,7 +1,12 @@
+# only run travis on pushes to master, pull requests, or if the branch
+# name contains the case insensitive substring 'travis'
 branches:
   only:
   - master
-  - /.*(?i:travis).*$/ # branch name contains case-insensitive substring travis
+  - /.*(?i:travis).*$/
+
+addons:
+  chrome: stable
 
 language: python
 python:
@@ -9,6 +14,9 @@ python:
 
 before_install:
   - export DJANGO_SETTINGS_MODULE='config.settings'
+  - wget http://chromedriver.storage.googleapis.com/2.45/chromedriver_linux64.zip
+  - unzip chromedriver_linux64.zip -d /home/travis/virtualenv/python3.6.3/bin/
+  - export CHROME_BIN=chromium-browser
 
 install:
   - pip install -r requirements.txt
@@ -16,4 +24,4 @@ install:
 
 script:
   - python manage.py populate_from_metadata
-    # - python manage.py runserver
+  - python manage.py test
