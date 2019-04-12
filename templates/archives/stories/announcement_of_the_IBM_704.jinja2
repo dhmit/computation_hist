@@ -1,0 +1,27 @@
+{% extends 'archives/story.jinja2' %}
+
+{% block story_title %}
+Announcement of the IBM 704
+{% endblock %}
+
+{% block story_teaser %}
+Short summary of story
+{% endblock %}
+
+{% block story_body %}
+<p>December 11th, 1955 was an important day for the rising significance of computers. Dr. James R. Killian Jr., president of MIT, and Thomas J. Watson Jr., president of IBM, collaborated in a joint announcement to the press that MIT would be installing the IBM Type 704 Electronic Data Processing Machine. This computer was to be installed in early 1957 at the Karl Taylor Compton Memorial Laboratories, directed by Dr. Philip M. Morse. The IBM 704 was a revolutionary computer for its time, being much faster than previous models and the first with the capability to calculate floating-point (non-integer number) operations. Sometimes referred to as “electronic brains”, computers during this time were rare, and not many universities had their own. The computer was a donation from IBM, and weighed nearly 20,000 lbs. While today, a school receiving a new computer would not seem to be a very exciting matter, during this time, such an event was certainly news worthy.</p>
+
+<figure class="figure float-right">
+    <img src="{{ static('img/stories/announcement_of_the_IBM_704.jpg') }}"
+         class="class="figure-img img-fluid rounded"
+         alt="IBM-704" />
+    <figcaption class="figure-caption">A real IBM-704 with its many components.</figcaption>
+</figure>
+
+<p>MIT boasted in its press release, claiming that with a large staff of over 30 people, this new asset to their computation center would make it “the largest and most versatile data processing facility yet to be made available primarily for education and basic research.” It could perform 40,000 addition/subtraction operations or 5,000 multiplication/division operations of 10-digit numbers in just one second. It also had a highly advanced method of memory storage, called magnetic core storage. Thousands of pinhead-sized magnetic cores would be strung around within the IBM to allow for high-speed memory to perform its high-speed operations. The computer was expected to significantly impact many fields of study, including aerodynamics, industrial management, meteorology, and particle physics. MIT invited other universities and colleges in New England to come and use their IBM 704 to facilitate their own research.</p>
+
+<p>It was moments like these in the early age of computation that really brought these new devices to the eyes of the public. Many people during this time had never even seen a computer, but thanks to the efforts of those during this revolutionary time, future scientists and engineers were able to compress the computing power that once took up an entire room into devices that now fit into the palms of our hands.</p>
+
+<a href="/archives/doc/455">Click here for the original article.</a>
+{% endblock %}
+
