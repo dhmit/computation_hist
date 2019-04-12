@@ -1,0 +1,48 @@
+RIEMANN FUNCTION 299
+
+We observe that (5) is an ordinary differential equation of second order with
+only one initial condition. This, however, is natural since (5a) has only one
+solution regular al; U = 0. For if we were to expand both U and U .’Lv", y')
+into powers of (z — 2’) and (y — y’), we should find that they each begin with
+the term (z — %) (y — ¥")H(2' + '), whence f(U; 2/, y') = U + a(2’, y')U* +
+
+Thus at U = 0, equation (5a) has both characteristic exponents zero,
+which implies that (5a) has a solution R, regular and equal to unity at U = 0
+and a solution R, with a logarithmic singularity at U = 0. Thus (5) uniquely
+determines a Riemann function R = R,(U; 2/, ). .
+
+Unfortunately only very few cases are covered by this artifice. The condition
+that the Jacobian of (U/dx) (dU/dy)H™" and U with respect to x and y vanish
+can be regarded as an identity in 2" and y’ for any given x and y. This identity
+in turn leads to an ordinary differential equation if we develop H into power
+series about the point » = & + y. Then the identity implies the vanishing of
+an infinite series in the variables 2/, ¥ with coefficients expressible in terms of
+H(r) and its derivatives. Since the coefficients of such a series must v Anish.
+we obtain an ordinary differential equation for H(r), namely
+
+d/dr[H 'd°H /dr* — 3/2(dH/Hdr)’] = 0,
+which has as its general solution
+(6) H(r) = —A(\ + Dpu /sinh® u(r 4+ »)
+where A\, u, v are constants. This is the value of H(r) for which we shall derive
+a Riemann function via (5).
+
+In obtaining the Riemann function corresponding to the value of H(7) given
+in (6), we find that
+
+U= = XA+ 1)log(1+ V),
+where
+
+sinh u(x — 2’) sinh u(y — %)
+sinh u(x + v + v) sinh u(2” 4 l’/_, + v)
+
+In terms of V equation (5) becomes
+
+( V(1 = V)d®R/AV* + (1 — 2V)dR/dAV + ANA + DR = 0
+
+R =1 at V =0,
+and its solution, a hypergeometric function, is the Riemann function corre-
+sponding to H(r) in (6), namely,
+(7) R(z,y;2’',y) = F(1 + A, —X; 1; V).
+
+The form of H(r) in (6) is seen to have a few simpler limiting cases. First
+of all, we can change A to A exp » and let » — «, obtaining in the limit H(r) =

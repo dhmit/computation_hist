@@ -1,0 +1,32 @@
+F
+{% extends "base.jinja2" %}
+
+{% block title %} Box {{ box_obj.number }} {% endblock %}
+
+{% block self %}
+<h1>Box number {{box_obj.number}}</h1>
+{% endblock %}
+
+{% block table %}
+
+<table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Folder Name</th>
+      <th scope="col">Link</th>
+    </tr>
+  </thead>
+  <tbody>
+  {% for item in folder_objs %}
+    <tr>
+      <th scope="row">{{ loop.index }} </th>
+      <td>{{item.full}}</td>
+        <td><a href = "/dj_comp_hist/folder/{{item.pk}}">Link</a></td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+
+
+{% endblock %}

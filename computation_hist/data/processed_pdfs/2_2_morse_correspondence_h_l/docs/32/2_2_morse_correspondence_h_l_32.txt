@@ -1,0 +1,1427 @@
+Reflection and Transmission of Radiation by Metal Films and the Influence of
+Nonabsorbing Backings
+
+Louis HARrRris, JoEHN K. BEASLEY, AND ARTHUR L. LOEB
+
+Reprinted from JOURNAL OF THE OPTICAL SOCIETY OF AMERICA, Vol. 41, No. 9, pp. 604-614, September, 1951
+
+
+Corrections for article which appeared in the September, 1951, issue of the
+
+tJournal of the Optical Society of Americal
+
+REFLECTION AND TRANSMISSION OF RADIATION BY MCTAL FILMS, AND
+
+TEE INFLUENCE OF NON-ABSORBING BACKINGS
+
+Louis Farris, John ¥. Beasley, and Arthur L. Loeb
+
+Errata
+
+Pp. 605, line 7 and eq. (2): Tor Ry, read: Ro
+
+De
+
+PD.
+
+Ds
+
+Pe
+
+606, equation (6) should read:
+
+(0)
+
+609, equations (31) and (32): for R. and T
+
+(SPAY EN/2mnIIA)
+
+ 
+
+— (6)
+
+(PO Wro/amniae dan)
+
+Y - read: R and T
+
+611, column 2, lines 5 and 6 from the bottom should read:
+
+ 
+
+Mathematically, this amounts to the assumption:
+
+ 
+
+ 
+
+ 
+
+F(sin 6, cos 9) = ¥F(sin ©, cos 0) ¢
+
+613-614, The definitions of ©, and © should read:
+
+6; =
+
+b+ &)o
+2%,
+3+ Y/2
+b - 2
+A= J)?
+
+ 
+
+when Y/ 2 ep
+
+ 
+
+when YI <_ - fo
+
+5- §/e . =
+2 mn, —— when I) = er
+
+A= YJ
+2 mn ria vhen Yrs £L S ny
+A+ [2
+
+ 
+
+Reprinted from JOURNAL oF THE OPTICAL Society oF AMERICA, Vol. 41, No. 9, 604-614, September, 1951
+Printed in U. S. A. |
+
+Reflection and Transmission of Radiation by Metal Films and the Influence of
+Nonabsorbing Backings*
+
+Louis Harris, JouN K. BEASLEY,} AND ARTHUR L. LOEB
+Department of Chemistry, Massachusetts Institute of Technology, Cambridge, Massachuseils
+
+(Received November 3, 1950)
+
+A set of equations is presented for the reflection and transmission of normally incident radiation by
+
+absorbing (metal) films on nonabsorbing backings.
+
+Using these equations, the results of two different methods of calculation of the reflection and transmission
+coefficients of a thick nonabsorbing plate are shown to be practically identical, both with and without an
+“absorbing (metal) film on one surface of the plate. One of these methods involves the addition of intensities
+of the multiple reflections from the two surfaces of the plate. The other method is a rigorous calculation
+involving solution of the boundary condition equations (amplitude addition) for small areas followed by
+
+intensity averaging over the whole plate.
+
+In order to calculate optical constants of a metal film on a thick nonabsorbing backing, the much simpler
+method of intensity addition of internal reflections in the backing may usually be applied.
+
+ 
+
+INTRODUCTION
+
+fae optical constants of partially transmitting
+
+metal films may be determined by means of the
+reflection and transmission measurements of nearly
+normally incident radiation.!=® These metal films are
+usually deposited on an optically nonabsorbing backing.
+When the backing is very thin (of the order of the
+wavelength of the incident radiation or less), its surfaces
+are made optically parallel, and such backings may
+exhibit interference phenomena. The results of the
+derivation of expressions for the reflection and trans-
+mission in terms of the optical constants of these sys-
+tems are presented subsequently.
+
+In the case of thicker backings there is a good deal of
+disagreement between various authors*~7 about the
+influence of the uncovered face of the backing on the
+reflection and transmission. Customarily, multiple re-
+flections from the two surfaces of the backing are con-
+sidered, and the intensities of the beams emerging from
+the two surfaces are added to find the reflection and
+transmission coefficients of the system.
+
+Intensity superposition is shown! to be justifiable
+when the sources of the beams are incoherent. Koller?
+and, more recently, Matossi® have pointed out that the
+
+* This work supported in part by ONR, under contract N Sori-
+07839 NRO 15309.
+
+T Presented in partial fulfillment of requirements for degree of
+Ph.D. in the Department of Chemistry at the Massachusetts
+Institute of Technology. :
+
+' J. A. Stratton, Electromagnetic Theory (McGraw-Hill Book
+Company, Inc., New York, 1941), pp. 511-515.
+
+* K. Koller, Z. Physik 110, 661 (1938).
+
+3 F. Matossi, J. Opt. Soc. Am. 39, 928 (1949).
+
+TH. Goldschmidt, Ann. Physik 82, 947 (1927).
+
+* H. Murmann, Z. Physik 80, 191 (1933).
+
+® J. Krautkrimer, Ann. Physik 32, 537 (1938).
+
+"F. Goos, Z. Physik 106, 606 (1937).
+® L. N. Hadley and D. M. Dennison, J. Opt. Soc. Am. 37, 451
+
+1947).
+
+’R. L. Mooney, J. Opt. Soc. Am. 35, 574 (1945). :
+
+YF. A. Jenkins and H. E. White, Fundamentals of Physical
+Optics (McGraw-Hill Book Company, Inc., New York, 1937),
+p. 36.
+
+reflected and transmitted waves from the two surfaces
+of a nonabsorbing plate are not necessarily incoherent.
+Koller claims to demonstrate a difference between re-
+sults of intensity addition and those of amplitude
+addition, but this discrepancy is due to a mathematical
+error in Koller’s analysis.
+
+Since intensity addition is much more practical to
+apply than is amplitude addition, and since it has been
+widely used,®®7 an analysis of the accuracy of intensity
+addition is presented below.
+
+It appears that intensity addition is applicable for
+sufficiently thick backings when either the thickness of
+the backing or the wavelength of the incident radiation,
+or both, has a sufficiently large range of probable values.
+
+INTENSITY ADDITION
+
+Without theoretical justification of intensity addition,
+the customary method of dealing with thick backings is
+given below.
+
+The backing generally has two different parallel
+surfaces, one of which is exposed to the air, while the
+other one is covered by a thin metal film. The reflection
+and transmission coefficients of these surfaces are de-
+fined as follows:
+
+Zs] [reflected | by the backing-air inter-
+Zot the fraction transmitted J face,
+
+by a metal covered
+Roa the fracti reflected backing when the inci-
+rh © action ro nsmitted [dent radiation travels
+
+from air into metal,
+
+by a metal covered
+Ria) fraction reflected backing when the inci-
+Loa) 16 HACHOM 4 nsmitted [dent radiation travels
+
+from backing into metal.
+
+It will be shown that R,.7# Rss, but that Tou= Ts.
+Since there is no absorption at the backing-air interface,
+T,= 1— R, be
+
+604
+
+
+605 HARRIS, BEASLEY, AND
+
+   
+
+Figs. 1 and 1°. Internal reflections 1
+
+For light incident on the absorbing layer (Fig. 1):
+Ri=Roa
+T=":
+Ta=Toa(1— Ro)
+Ry=ToaRov
+Ts="TouRos
+R3=T oaRotRva
+Ts=ToaRosR1a(1— Rar)
+
+Ri=ToaRosR1a
+ToT RoR
+Rs=ToaR:sRta
+Ts=ToaRssRba(1— Rot)
+R=Ry+ Tot Tst
+= Rout Ros Toa/ (1—RopRba) (1)
+T=Tot Tit Tot
+= Toa(1—Rop)/(1—RspRba). (2)
+
+In the same way for light incident on the nonabsorbing
+backing (Fig. 1’):
+
+R'=R\+Ts+Ts+ eS
+= Ros +R ba(l— Ros)? /(1—RyuRos) (3)
+
+T = Toad —Rop)/(1—R,R ba) (4)
+T'=T, but R'=R.
+
+AMPLITUDE ADDITION
+
+When radiation coming from a metal film on a backing
+is examined, the portion of the plate covered by one
+observation is sufficiently large that the thickness of
+the backing may vary over this area. Moreover, the
+source of the radiation may contain a finite range of
+wavelengths.
+
+Since the reflection and transmission coefficients de-
+pend on the thickness of the backing and on the
+
+n a thick nonabsorbing plate with a thin absorbing fil
+
+ 
+
+LOEB Vol. 41
+
+  
+
+m on one surface.
+
+wavelength of the incident radiation, the experimental
+observations represent average quantities covering a
+range of wavelengths and thicknesses. 7
+
+The dependence of reflection and transmission of a
+metal-covered backing on wavelength and on thickness
+of the backing is expressible in terms of a parameter
+6—2mny(b/\), where ny=index of refraction of the
+backing, b= thickness of the backing, and A= wave-
+length, in vacuum, of incident radiation. In averaging
+the reflection R(6) and transmission T(6) over 6, it is
+necessary to know the weight to be given each value of
+6. A distribution function f(6) is used to express these
+weights; f(8) can be found when the relative intensities
+of the different wavelengths of the source and also the
+geometrical shape of the surfaces of the backing are
+known.
+
+The measured reflection and transmission are then
+given by
+
+R= | R(0)f(0)do; T= | 70) £(8)d0. (3)
+
+The types of backings considered are those that satisfy
+both of the following conditions:
+
+(a) The curvature of the surface is small everywhere.
+(b) The angle between the surfaces of the backing 1s
+small.
+
+These conditions eliminate, for instance, ground glass,
+but include all backings commonly used; when the
+shape of their surfaces is completely known, the dis-
+tribution function for thickness can be found with the
+following definition :
+
+¥(b) is the fraction of the total area under observa-
+
+tion whose thickness has a value between b and
+b+-db.
+
+Correspondingly, a wavelength distribution function is
+defined :
+
+¢(\) is the fraction of the incident radiation whose
+wavelength lies between \ and A\-}dA.
+
+Then the probability that a ray of wavelength between
+A and A+d\ impinges on an element of the backing that
+
+September 1951 REFLECTION AND TRANSMISSION BY METAL FILMS 606
+
+   
+
+MEDIUM 0 AA
+INDE X ng =| Kp= SF np 3 (kp=0)
++
+Eo
+
+2=0
+
+F16. 2. Reflection and transmission at the surface of a semi-infinite
+nonabsorbing medium.
+
+has a thickness between band b+ db is given by o(\)y(b).
+
+Since 8=2mny(b/\), there is an infinite number of
+values of A that give a certain value for 8, as long as each
+value of A is coupled with a corresponding value
+b= (6/2mni)\. The probability of one particular value
+of 6 is obtained by integrating over A:
+
+( | oY(@/20n)0M)
+
+f=———————— ©
+
+(fo foov2mmaian)
+
+The denominator in the right-hand side of Eq. (6) serves
+to normalize f(6), so that
+
+[ 7(8)do=1. (7)
+
+In Appendix II four practical examples are worked
+out, namely, combinations of monochromatic radiation
+and radiation of constant intensity over a finite wave-
+length range with uniform backings and backings of a
+small wedge angle. f(8) is shown to be finite over a finite
+range, and zero outside this range. The form of f(0)
+given by Eq. (8) is used in the main body of this paper;
+the effect of some deviations from this form is treated in
+the appendix.
+
+f(6)=1/¢ for 0—e/2<0<0+¢/2 (8)
+=( elsewhere, € being a constant.
+
+Equation (8) defines a function that satisfies the con-
+dition of Eq. (7). Substituting Eq. (8) into Egs. (5) pro-
+
+duces Eqs. (9):
+i 1 0+€/2
+Lo | R(6)d0,
+
+€ Yii—e/2
+
+04¢/2
+
+1
+7 oz | T(6)de.
+€ v5 in
+
+f—e/2
+
+When the range of possible values of \ and b is large, e is
+also large ; relations between the ranges of \, b, and f are
+given in Appendix II.
+
+COMPUTATION OF REFLECTION AND
+TRANSMISSION COEFFICIENTS
+
+(A) Monochromatic Source, Uniform Backing
+
+Systems with uniform, plane-parallel backings, ir-
+radiated by a monochromatic source, offer no principal
+problems, though the derivations of the coefficients are
+complicated and tedious. The following cases are
+treated:
+
+(I) A semi-infinite nonabsorbing medium.
+
+(IT) A nonabsorbing layer with plane-parallel sur-
+faces.
+
+(ITI) A thin, absorbing film without backing.
+
+(IV) A thin, absorbing film on a semi-infinite, non-
+absorbing backing.
+
+(V) A thin, absorbing film on a nonabsorbing back-
+ing with plane-parallel surfaces.
+
+(VI) Two adjacent thin absorbing layers.
+
+In any medium “un” between plane, parallel surfaces,
+solutions of Maxwell’s equations for the electric (En)
+and magnetic (H,) vectors may be expressed as (see
+Stratton!)
+
+En=(E.t exp[iK ns]
++E, exp[ —iK.z]) exp —iwt], (10)
+
+Ho=Z, (ET exp[iK.2]
+—E,. exp[—iKnz]) exp[ —iwt], (11)
+
+where {= time, z= coordinate along direction of propaga-
+tion. Here E,,* and E,.~ are arbitrary constants for the
+solutions of Maxwell’s equations, and represent the
+amplitudes of two waves traveling in opposite directions
+in the medium. K,, has been defined variously as follows:
+
+Kn=an+1iBn= 2m/\) (nn+tikn)
+
+= (27/Nnm(14+ikn), (12)
+K,= a,= (27/Nn., ;
+
+where no=index of refraction of air, n,+1k, is com-
+monly called the “complex index of refraction,” and #.,
+is the index of refraction of the medium. k, and ku
+have each been designated as the absorption coefficient
+by different authors. Some authors make the distinction
+that x, is the absorption index. In a nonabsorbing
+medium, « and k are equal to zero.
+The other quantities are defined as follows:
+
+Zn =wu/ Kn, A\=wavelength in vacuum of the incident
+light, w=angular frequency of the incident light, and
+u=magnetic permeability of all media considered. We
+define also
+
+Zn ni 1= Zon) Lomi r= Kuni 1f Km. (13)
+
+Then, if z=m represents a surface separating media
+“m” and “m+ 1,” the boundary conditions required for
+continuity of E and H may be written as follows (see
+Stratton!) :
+
+E. (at z=m)=E,.; (at z3=m)
+and
+
+H.,, (at z=m)= Hn (at z=m).
+
+
+607 HARRIS, BEASLEY, AND LOEB Vol. 41
+
+. — . 1,
+Substituting for E and H, Since K»=2mnu/\ is rea
+
+3 2 cin?
+Et exp[iK m+ E,.~ exp — i Km ] A= El (Zob—Z10)* SIN? K 1b
+= Enii* eXpLiKon sm I+ Epi” expl—iKmiam], ay 4 cos?K b+ (Zovt2Z 10)? sin? K ,b
+
+ 
+
+Et exp[iK,,m]—E,.— exp[ —iKm] Sin2K ob
+
+=/ mn, mp1 (Bmprt expliK mim | — Eni exp[ — iKmyim]). — 7 2 b (16)
+These boundary conditions are applied to the cases [4/(Zov—Z1v0)* JHsin’K,
+enumerated above, where the subscript a is used for the 4
+absorbing film, and b for the backing. T=|Eo/Est|}=—m———————————
+
+The a of the intensity of radiation is | Eot 4 cos?K pb+ (Zovt+Z vo)? sin2K 1b
+
+|EXH|. The reflection (R) and transmission (7°)
+
+=. 2
+coefficients are the ratios of the magnitudes of the 4/(Zov—Z v0)
+
+: Ear — (1)
+intensities of the reflected and transmitted waves to the [4/(Zob— Zo)? ]+sin2K 1b
+magnitude of the intensity of the incident wave. If the
+radiation is considered incident from medium 0 and the  R4+7=1.
+transmitted wave is in medium m, then Case III
+
+2 2 2
+= JE] ZI 2 17-5 [2A An absorbing film between the surfaces z=0 and z=g¢:
+
+|EXH|  ZulE.J* Ko |Bf* IE? E/E; and Eo/Es* are the same as under IT, with ¢
+
+If both the incident and transmitted waves are in substituted for b. Since Ko=2x/A(#a+-ika) is complex,
+
+ 
+
+air, or the same medium, then K,/K,=1 and | (Zoa— Za0)i sinK ua?
+Tw=|En.|*/|E,|%. The reflection coefficient follows =-— (18)
+similarly. 12 cosK aa—1(Z pat Z 20) sink a | 2
+Case I 4
+; = ; (19)
+Surface at z2=0 separates air (n=1, k=0) from a non- 2 c0sK aa—1(Z pat Zag) sin Kaa?
+
+absorbing medium. (See Fig. 2.)
+
+These expressions appear more convenient for numerical
+substitution than those using expanded forms for the
+(1) E; +E; =E,, squares of the absolute magnitudes.
+
+(Ef =FEr=2,E,
+
+Boundary conditions:
+
+ 
+
+ 
+
+ 
+
+Case IV
+The reflection coefficient equals A thin, absorbing film between the surfaces z=0 and
+|E-XHs| |E |? (no—1) z=a. (See Fig. 4.)
+i | Est XH *| = | Est] 2 (met 1)? Li 2<0 is air, >a is a transparent medium.
+and the transmission coefficient is Boundary conditions:
+| EX Ho | | Ey]? dns, 5) (1) (E/E) — (E/E) — Ef Et = —1,
+
+ob=— Rho mr —
+| Est XH | | Et)? (my+1)2
+Rovt+Top=1.
+
+(2) (Es/EM)+Z. (E/E) —Zoa(Es/Es)=1,
+
+Case II ae AA 0
+
+INDEX ng =| Kp = EL np ;(kp=0) ng = |
+
+A nonabsorbing layer lies between surfaces z=0 and
+z=0>. (See Fig. 3.)
+
+Boundary conditions:
+(1) E,t+ Eo= Eyt+-E,,
+(2) Et —E;=Z(Est—Ey),
+
+3) Est exp[iKub]+ Ey exp[ —iK vb |
+= FE, exp[iK,b],
+(4) Est expliKb]— Ey exp[—iK wb] 2:0 z:b
+=Z Eos expiK ob].
+
+ 
+
+I1G. 3. Reflection and transmission of a nonabsorbing layer in air.
+
+ 
+
+      
+
+September 1951 REFLECTION AND TRANSMISSION BY METAL FILMS 608
+MEDIUM © Alaliy a
+INDEX ng =I Ko = 2X (ng tikg ) Kp = 57 "b i (kp=0)
+
+           
+
+z=0 z=0
+
+ 
+
+FIRST SET
+
+SECOND SET
+
+I16. 4. Reflection and transmission of a thin absorbing layer between air and a nonabsorbing plate.
+
+(3) exp[iK sa J(Eqt/Est)+exp[ —iK a )(Es/Es*) since Zoo vo=1, ZosZ ao=2 as, Zo4Z a= 2 ou;
+
+ 
+
+—exp[iK a ](Esi/Est)=0, ei Trae Lp, SBE RRs (24)
+(4) exp[iK.a)(Eqt/Est)—exp[—iK a](E./ Es)
+—Z ap exp[iK ya )(Ey/ Es) =0, Case V
+where E,, represents the amplitude of the electrical Absorbing film between z= —g and z=0.
+vector of the wave transmitted through b. Nonabsorbing backing between z=0 and z=2.
+|E|? Air for z>b and z<—a. (See Fig. 5: in this case
+= ky=0.)
+
+=
+| (Zov—1) cOSK a+ (Zas— Zoa)isinK sa?
+| Ese]?
+
+Boundary conditions:
+
+(20) (1) (Es /Es*) expliKoa]— (E/E) exp —iK a]
+— (Ea /Es") exp[iK .a]= —exp[—iK,a],
+
+oi (2) (Es/E*)expliKa]+Z,o(Est/ ESF) exp[—1K .a]
+| Et)? —Zoo(Ea/E,;*) exp[iK ,a]=exp[ —iK a],
+
+Ws CQ) OBEN EAEN (EEE Ei =o,
+1024 Deositor = lorh lols)? @) (Bot/E)— (B/E) = Zar(Eet/ ES)
+
+ 
+
+Toa=2
+
+ 
+
+ 
+
+When the properties of & approach those of air, these +Zoo(Es/E;H)=0, |
+expressions reduce to those obtained under III, for then iL oo
+Z Sa (5) exp[iK Wb ](Est/E;)+exp[—iK b](Ey/E;)
+g : x / iz —-
+By interchanging b and 0 and multiplying numerators (Eoi/E,*) exp[iKb]=0,
+and denominators by Z,?, (6) exp[iK wb ](Est/E,*)—exp[—iK b(Ey/ EH)
+| (Zov—1) coSKoa— (Zav—Za)i sSinK qa? 22) —Zvo(Eot/ Est) exp[iK.b]=0. |
+ba= AE Ere Tan 4% If |
+| Zort1) GR an Lol Slip] P=Zov—2L, $= Zot +2 bo, |
+T = 20 (23) §=Zav— 2 ba; l=Z av FZ pa, |
+Tt . 3 ; 2
+| (Zov +1) cosKaa— (Zav+Zoa)i sink a? r=Zao—Zoa; U=ZastZoa,
+|g sinK aa sinKpb—i(p cosK a sinKyb—r sink ,a cosK pd) |? a5)
+R= I TE aN TE Em X
+| (2 cosK qa cosKyb—t sinK qa sinK yb) —i(s cosK 4a sink b+ sink ,a cosk wb) |
+4
+a (26)
+
+ 
+
+| (2 cosK ua cosKyb— 1 sinK ua sSinK yb) —i(s cosK a sinK b+ sink ,a cosK ,b) | 2
+
+So far the fact that the backing is nonabsorbing has not been used; and by interchanging a and & expressions for
+R" and 77, the reflection and transmission of light incident on b, are obtained:
+
+| —¢ sinK a sinKb—i(p cosKaa sinKyb—r sink qa cosK yb) | 2
+
+Rimmel Ey peed (27)
+
+= ens . y . > o’
+| (2 cosK ua cosKyb—t sinK aa sinK pb) —i(s cosK ,a sinKpb+u sink ,a cosK ,b) | 2
+
+
+609
+
+T
+
+T=T', but R#R'.
+
+When K,—0, these expressions reduce to the one-
+layer formulas derived under III; when K WHKKa<1,
+the influence of the backing becomes negligible.
+
+Case VI
+
+Two adjacent absorbing layers.
+Absorbing layer between z= —a and z=0.
+Absorbing layer between z=0 and z=. (See Fig. S.)
+
+The expressions under V are not limited to trans-
+parent backings alone, but are also valid for two
+adjacent absorbing layers. The numerical computations
+are, however, greatly complicated by including a finite
+absorption coefficient for the backing.
+
+Summarizing,
+
+Case I gives R,; and To,
+
+Case II gives R(6), R'(6), and T'(f) for a plain
+backing; for the averaging process sub-
+stitute these into Eq. (9),
+
+Case IV gives Ry, and Toa, Roa and Ts,
+
+Case V gives R(6), R'(6), and T'(f) for a covered
+backing; for the averaging process sub-
+stitute these into Eq. (9).
+
+(B) Finite Range of Wavelengths in Source or
+of Thicknesses in Backing, or Both
+
+The following two cases are discussed :
+(VII) Backing without metal film.
+
+(VIII) Backing with one surface covered by thin
+metal film.
+pt [Gein
+€ Ji_oo [4m?/(np>—1)%]+-sin’f
+21 ny 1
+= nL
+e(ny*+1)
+
+ 
+
+ 
+
+ 
+
+Intensity addition yields by substitution of Eqs. (14)
+and (15) into (1) and (2) Eqs. (31) and (32):
+
+Rr=ny—1)*/n*+1, (31)
+Tr=2ny/n2+1. (32)
+
+Equations (29) and (30) are identical, respectively
+with Eqs. (31) and (32) when e=nm, where n is an
+integer.
+
+When enw, the difference between Egs. (29) and
+(30) on one hand, and (31) and (32) on the other is very
+small when e is large (at least several times =). This
+difference is usually negligible in comparison to experi-
+mental error, as shown in Appendix II.
+
+HARRIS, BEASLEY, AND LOEB
+
+= (2 cosK aa cosKyb—1 sinK a sinKb)
+
+ 
+
+Vol. 41
+
+: : (28)
+—i(s cosK aa sinKpb+1 sinK qa cosK ub) |
+
+As indicated in the section on “Amplitude Addition”
+
+of this discussion, it is necessary to average the expres-
+sions for reflection and transmission for monochromatic
+radiation and uniform backings over the phase angle
+
+of the backing.
+
+MEDIUM © i 7 En 0
+
+INDEX no! |Ko* ZX (ng + iKg) Kp* ZT (ny +ikp) nyt!
++
+Eo Ec 3
+Ep
+Eot
+Ep — (Tgp)
+ink NN
+o>
+z=-0 2:0 z*b
+
+Fic. 5. Reflection and transmission of two adjacent layers with
+plane parallel surfaces.
+
+Case VII
+
+Backing without metal film.
+For the uncovered backing substitute Eqs. (16) and
+(17) into Egs. (9) to produce Egs. (29) and (30):
+
+P £1 sin20
+€ Ji_go [dnp (np2—1)%]+sin0
+
+0=1—T, (29)
+
+Sine
+2ny,  cos[ (8+ (e/2)] cos[(6— (e/2)]+ (m*+1/2m3)? sin[f+(e/2)] sin[f— =) 2
+
+Case VIII
+
+For a thin absorbing film on a thick, nonabsorbing
+backing the averaging procedure is applied as under VII,
+
+using the results from V rewritten as follows:
+pe (A tanf+ B)(A* tanf+ B*)
+(C tanb+D)(C* tanf+D*)’
+4 sec
+
+Ly Al
+’=—r-_
+
+(C tan6+D)(C* tang-+D*)’
+
+ 
+
+ 
+
+wh = — 1 y ir sink
+i. A q Sink qa+ip cosK ,a, B= —ir sinK.a,
+sink ,a—1s cosK a, D=2 cosK ,a—1iu sink aa,
+
+September 1951 REFLECTION AND TRANSMISSION
+BY
+
+* indicates complex conjugate. Only cases where e= 1
+Sia when en, the assumption is made
+that the deviations are comparable t
+
+k é o th
+an uncovered plate. se found for
+
+Set
+
+x=tand.
+Then
+
+pal | Len)
+T J (Cx+D)(C*x+D*) (1442)
+
+ 
+
+dx, (33)
+
+i dx
+= eee ee
+T™ J —w (Cx+D)(C*x+ D*) (34)
+
+Two different methods have been
+these integrals : one of these consists of ae
+Short Table of Integrals (third revised edition), p. 13
+D. Rational fractions”; the other, direct application of
+= funky of pn variables gives agreement with
+e form 1 i
+a = od. The latter procedure is outlined
+To evaluate integrals of the type,
+
+f Q(x)dx (x is real),
+es ee eT Taf
+
+ 
+
+METAL FILMS 610
+
+where (2) is a function of the complex variable z= x+y,
+
+and Q(x) is the value of Q(z) when y=0 :
+theorem is applied: 2 ¥=0; the following
+
+J : Q(x)dx=2mi Y Rest. (35)
+
+Certain conditions necessar icabili i
+y for the applicability of this
+theorem are found to be satisfied b I y
+the int
+
+Slee y the integrands of
+
+In Eq. (35) 2_ Rest indicates the sum of all residues
+whose Imaginary part is positive, a residue of Q(z) at a
+pole z=z, being given by
+
+at on 20 20 = 7% 506)
+
+For the functions
+(42+ B)(A4*2+ B*)
+(Cz+D)(C*2+D*) (14-22)
+1
+(Cz+D)(C*2+D)
+
+the following poles and residues are found :
+
+ 
+
+and
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+re Poles at: Residues:
+2+ B¥) ik; (B4+i4)(B*+id*)
+D)(C* *\/1 . 0
+2+ D)(C*2+D*) (14-22) (DiC) (D*+iC*)(2i)
+Si (B—id)(B*—id*)
+(D—1C) (D*—iC*)(— 24)
+ln D (BC— AD)(B*C— A*D)
+C (CD*—C*D) (C+D?)
+2 0 (BC*— AD*)(B*C*— A*D*)
+C* (C*D— CD¥) (C*24- D*?)
+1 D 1
+; ah ae
+(Ce+D)(C*e+D¥) gars CD*—C*D
+D* 1
+Bo=—— —_—
+C* C*D—CD*
+
+Half of these poles have positive, half of them negative
+Imaginary parts; each of these poles has a complex con-
+Jugate pole in the lower half of the plane, and to each
+conjugate pair of poles there corresponds a pair of con-
+Jugate residues. Generally, one cannot tell whether it is
+—D/C or —D*/C* that has a positive imaginary part.
+[n the actual calculation this causes no difficulty, be-
+cause 271 3° Rest must be real; hence 3_ Rest is a pure
+Imaginary, and it is easy enough to determine which of
+
+ 
+
+oo L. A. Pipes, Applied M athematics for Engineers and Physicists
+ac Graw-Hill Book Company, Inc., New York, 1946), p.
+
+hla nl adr RB er NET TF EN ae
+the conjugate pair to add.
+
+(B4id)(B*+id*)
+(D+iC) (D*+iC*)
+2i(BC— AD)(B*C— A*D)
+
+th
+
+(CD*—C*D)(C+D?)
+
+ 
+
+ 
+
+ 
+
+- . . D
+if imaginary part of (->)>o
+C
+(36)
+
+IEEE i iE i aetna ei
+< — ~ ge
+
+
+611
+(B+id)(B*+id¥)
+~ (D+) (DiC)
+2(BCH— ADYBC*— AD”)
+(C*D—CD¥)(C*+D*)
+
+D
+if imaginary part of (-2) <0,
+
+ 
+
+‘ 8i
+T=
+CD
+—8i
+CD*—C*D
+
+If C=C,+iC;, D=D,+iD;, where C;, Ci, Dr and D;
+are real,
+
+5 if imaginary part of ( a
+(37)
+
+ 
+
+D
+—)>0
+C
+
+D
+if imaginary part of (-2) <0.
+
+D mm (C.D: C:D;)+1(CiD,— C.D)
+——— oe ——————————————
+
+C |C |?
+
+and CD*—C*D=2i(C:D,—C,D;) has the same sign as
+the imaginary part of (—D/C).
+
+Therefore, T is seen to be positive in either case, as it
+should be. The application of Pierce’s tables caused an
+indeterminacy in the sign that could not be settled very
+easily; the complex variable approach was therefore
+thought to present the results more rigorously.
+
+In the numerical computations 4, B, C, and D are
+calculated first, and may be checked by the following
+relationship that is derived from their definitions:
+
+BC—AD=—2ip=—2i(Zos— Zw).
+
+A, B, C, and D are all functions of \, 1a, ka, 10s, a, and b,
+while p depends on 7; only.
+
+Table I shows the results of computations of R and 7
+for various thicknesses and optical constants of the
+absorbing layer as found by substitution into the
+formulas just derived. Substituting Egs. (20), (21), and
+(22) into (3) and (4) gives the reflection and transmis-
+sion of a metal film on a thick backing by means of
+intensity addition. It is not feasible to prove analytically
+that the results obtained in Case VIII by the two meth-
+ods are equal, but the numerical results shown in Table I
+demonstrate that within the accuracy afforded by the
+tables used the results are identical in all examples tried.
+
+CONCLUSIONS AND COMPARISONS
+WITH OTHER AUTHORS
+
+Expressions for the reflection and transmission by
+semi-infinite nonabsorbing backings, uncovered as well
+as covered with a thin metal film, and for normally inci-
+dent radiation have been presented. In Appendix I the
+results obtained using these expressions are compared
+with the results obtained using the expressions of
+Hadley and Dennison® for the same systems. It is also
+
+HARRIS, BEASLEY, AND LOEB
+
+EIS
+
+Vol. 41
+
+shown by the use of Hadley and Dennison’s equations
+for oblique incidence, that the expressions. developed
+here are very good approximations even for angles of
+incidence up to 30° from the normal.
+
+Although expressions for semi-infinite backings are
+also presented elsewhere, the particular form of the
+equations presented here is convenient for numerical
+computations, and is also required for the treatment
+of backings of finite thickness. For backings of finite
+thickness results of the commonly used intensity addi-
+tion method have been compared with the results of
+amplitude addition. The latter method involves an
+integration which is complicated, and cannot be per-
+formed readily.
+
+Goldschmidt! tried to circumvent this difficulty by
+choosing an arbitrary value for 6, meaning a hypo-
+thetical uniform backing thickness, that would give
+agreement between the results of intensity addition of
+internal reflections in the backing and the results for a
+film with optically parallel surfaces in the special case of
+an uncovered nonabsorbing film (Case VII and Case
+11). He then substituted this value of 6 into the general
+formulas for R and T for metal films on backings with
+optically parallel surfaces. (Formulas derived in our
+Case V.) The numerical results using his formulas
+differed from those obtained by using intensity addition
+of internal reflections in the backing. Mathematically,
+his treatment defines 6; so that
+
+R(a=0, 0)=R(a=0, 0)
+and
+T(a=0, 0)=T(a=0, 03)
+
+when the thickness of the absorbing film is zero, and
+then assumes that for any thickness of the absorbing
+film
+
+ 
+
+ 
+
+R(a, 0)=R(a, 0,) and T(a, 0)=7T\(a, Os).
+
+However, the value of 6 for which R and 7 attain
+their average values depends on a and therefore cannot
+be given a constant value as was done by Goldschmidt.
+
+Koller? objected to this treatment by Goldschmidt
+and attempted to carry out the rigorous averaging
+process by substituting for individual functions of 6,
+their average values:
+
+cosf=sinf=0 and cos’0=sin’0=73.
+
+ 
+
+ 
+
+Mathematically, this amounts to the assumption,
+
+I'(sinf), cosf= F (sind), (cosh),
+
+7 { 2 oY . . . -
+aes ? refers to the reflection and transmission coeffi
+Sn S. on an identity holds only for linear functions of
+sinf and cosf, which R and T are not. Therefore, Koller’s
+
+substitution is not exact.
+
+ 
+
+September 1951 R |
+EFLECTION AND TRANSMISSION BY METAL FILMS 612
+
+TABLE I. Reflection and transmissi
+smission of radiati =
+lation (A=6000A) by a thin, absorbing film on a thick, nonabsorbing backing, for various
+
+values of the optical constants n, and hi
+
+L I Ma aand of t i i
+
+() 5s found Vy Toten aid et fea eth as of the absorbing material, and of the index of refraction 7s of the backing
+: :
+
+Koller. it
+ri | found by amplitude addition followed by averaging; (3) as reported by
+ee
+
+i: ¢ me ko eat een
+1.5000 000.00A a 3 2 3
+1.5160  378.00A 0.30500 22. 0.07700 ~~ 007700 ©
+3100 S7om4 0.3050 3.2830 or 007700 00800 0.92300 0.92300 0.92000
+FS Bn Logo L730 0.33615 0.33617 782 1107988 0.107988 0.102308
+oe Jit oan 40 34 0.50417 0.50417 2 0.212260 0.212260 0.2003
+1.5300 100.00A 0.20000 Ti 0.22602 0.22604 i 0.345709 0.345709 PP
+DSS wm SW
+
+sy a ese ee SL
+
+* Calculated from formulas given by Koller.
+
+Other zuthors, notably Murmann,® Krautkrimer.$
+and Goos, have accepted the intensity addition correc-
+tion for the thick backing without theoretical verifica-
+pm ee Tinie] results obtained with their 5
+ormulas differed f i
+latter stated that el ae : be a discrepancy between results of amplitude and
+
+: ( cou : of amplitude
+CE > thick backings. lo 5 intensity addition p an
+Ranipy arge range of 6; in the appendix it is width of each slanted portion of trapezoid
+; rate z at a large range of is produced by width of distribution function of @
+arge ranges o thicknesses or wavelengths or both, and ¢ width of distribution function of 4
+oy for Son values of these ranges the corresponding 9 2% 4b/\ ao
+Te 2 Ti with thickness of the backing. The X Ehsorprion Index’ uml) 5
+: umption o alarge range of 0 is implied also in Koller’s wavelength of ne ident radiation; X average
+choice of an interval = for his integration, but his wavelength of incident radiation
+average does not approach the result of intensity addi- ; ¥ Permeability
+@Y,
+
+TABLE OF SYMBOLS
+
+2mn/\
+2wk/\
+width of distribution function for A
+
+tion as a limit. distribution functions
+For the case of a nonabsorbing I: it “2 2mc/\
+g layer without : : :
+Koller’s formulas reduce to y metal 4 thickness of absorbing film ; sub a refers to ab-
+sorbing medium
+(ny2—1)2 81,2 5 —q sink ;a+1p cosK a
+a i : thickness of backing; sub & refers to backing;
+(mp2+41)244n,? (ny241)244n,> b average thickness of backing L
+Table T shows Koll 2 ry
+shows Koller’s numerical results as well as © velocity of light in a vacuum
+he from Eqs. (29) to (32), (36), and (37) for the same C —tsinK ,a—1s cosK qa
+values of all parameters. The agreement between the © 2 cosK ,a—iu sink ,a
+E electric vector E*
+
+amplitude addition and the intensity addition as well
+
+as the disagreement between Koller’s results and those of the radia- for radia- FE-
+
+obtained by rigorous averaging is demonstrated. Values tion; tion travel- for that
+for the transmission were easily carried out to six H magnetic vec- H* [ing to the traveling
+figures. To avoid complicating the computations for the tor of the ra- right ; 77 | to the left
+reflection further by accurate interpolation in tables, we diation;
+merely carried five significant figures; the maximum [© distribution function
+discrepancy observed of two units in the fifth place lies ° (= 1}
+within the expected accuracy of the tables. £ al
+
+K, 2mno/\
+
+Although the difference between results of intensity ; ;
+addition and those obtained by Koller is not large for oe pn coefficient of absorbing medium, ¢
+those values of the parameters chosen for the examples at i STL Soe gny medium, m
+in Table I, it is significant that the intensity addition a yy re oe equation of
+leads to correct results, while Koller’s formulas do not. sub m1 refers to the ¥ i] re Th
+
+N.B. Intensity addition, when applied, is limited to N dng2/(n2—1)? Sugnt ol m
+the thick, nonabsorbing backing; for the metal film, » an integer
+amplitude addition is always used. Na index of refraction of absorbing medium
+
+
+Vol. 41
+613 HARRIS, BEASLEY, AND LOEB
+‘ . : LE II. Reflection and transmission coefficients as a function
+Np index of refraction of backing material The angle of incidence as calculated from the equations of
+n index of refraction of any medium 7 Hadley and Dennison, and the coefficients obtained from Eqs.
+No index of refraction of air (20) and (21).
+ses —SSS——————————————————
+p Gorm A =6000A; a=184.92A; fie =0.4000; ns =1.5160
+q Z ab™ ZL ba 3 a =o :
+Q a function of a complex variable NTE Roa Todi Toll Toa
+erry ——
+:? Zas—Zoa : oa 04988 04988 0.3544 03544 0.3544
+R reflection coefficient expressed as a fraction of oa On Su 4991 03 i 03559 03 42
+inci iat] ° (0.5001 0.4983 0.4992 0.
+ie oon! an f: aratin 10> Oo 0.4952 0.5000 0.3503 0.3572 0.3538
+Ruz? reflection coefficient at a surface sep g 156 0.5126 0.4897 05012 0.3452 0.3617 0.3535
+medium m and m0’; radiation is incident for 500, 55313 04823 05018 0.3381 03678 0.3530
+di 25° 0.5300 0.4722 0.5011 0.3289 0.3760 0.3525
+7 2 Hi ” 30° 0.5450 0.4600 0.5025 0.3175 0.3861 0.3518
+S ob bo
+A . . 0)
+{ Zav+ Zsa; also { refers to time in Egs. (1 : : IT TT EY
+and (1 1) ih b NE of Hadley and Dennison.
+issi sed as a fraction of the erp
+z ee rr 2 Substitution into Eq. (6) and integration gives two possible
+id ont Rafa non curves, depending on the relative magnitudes of the ranges of A
+Tro transmission coefficient, see Ro, m’
+* Lottie f(6)=0 in the interval 6<6,,
+xX n : e 7
+Z coordinate along direction of propagation of £6) = 1 [Aras t-t2] in the interval 9; <0<0;,
+radiation A4vy/2L 2mm 0
+8 a complex variable A—nv/2
+Zoom Knt/Kn I vheal>i
+APPENDIX I a TY Ab
+The formulas derived in this paper are strictly valid for normal A—~/2 ;
+incidence only. Experimental measurements of reflection are not f(g) =- in the interval 8. <6< 6s, (38)
+conveniently made at normal incidence, but may be made at an Y when le ¢
+angle very close to zero. Transmission measurements are usually | Afv/2 A= 5b
+made at normal incidence. 2nd Ing 5
+After verifying the identity of the equations developed ore for. —y/ 2
+a thin metal film on a semi-infinite backing (Case IV) with those 1 b+:/2 A—v/2].
+of Hadley and Dennison? for the case of normal incidence, the fo=—L— [PR in the interval 8; <6<46,,
+coefficients of reflection and transmission as a function of the angle ¢ Ino +v/2
+of incidence using Hadley and Dennison’s equations have been A—~/2
+
+computed. Table II shows that even though the reflection and
+transmission of the polarized components vary appreciably with
+the angle of incidence, the total fractions of radiation reflected and
+transmitted by the system are almost constant for angles of inci-
+dence between 0° and 30°.
+
+(Hadley and Dennison give one set of equations for the perpen-
+dicular component, and indicate how these equations should be
+modified to be applicable to the parallel component. This modifica-
+tion results in a change of order of magnitude which may resultin a
+loss of accuracy if an insufficient number of significant figures is
+carried through in the computation.)
+
+APPENDIX II. WEIGHT DISTRIBUTION FUNCTION
+FOR THE PHASE ANGLE OF THE BACKING
+
+Equation (6) gives a general expression for the weights to be
+given to each value of the phase angle 6. In the main body of this
+paper the expression given by Eq. (8) has been used for f(6). In
+this appendix Eq. (6) is used to derive f(6) as follows:
+
+If the source consists of a finite band of wavelengths, the in-
+tensity of each wavelength within this band being the same,
+
+o(A)=1/v when A—~/2<A< A 4/2
+¢(\)=0 elsewhere.
+
+If the backing is a wedge with plane surfaces and a small wedge
+angle, the field of view rectangular, with sides parallel and perpen-
+dicular to the edge of the wedge:
+
+Y(b)=1/¢ when b—{/2<b<b+¢/2
+Y(b)=0 elsewhere.
+
+f(6)=0 in the interval 6,<8,
+where the intervals are given by the following expressions:
+
+—$/2
+
+TL
+
+A-v/2’
+
+b= i when ~v/A> ¢/b
+
+ 
+
+2mny=
+Av/
+
+Sam SR when v/A<¢/b,
+A—~/2
+
+ 
+
+—Y
+
+ 
+
+F16. 6. Distribution function of #.
+
+ 
+
+September 1951
+
+TaBLE III. Discrepancy (A) between reflections (expressed i
+fractions) obtained by intensity and by amplitude addition. js
+
+EE —————————————— et
+b=0.02 cm; A=6000A: nb=1.5160
+
+Range of Band width
+thicknesses of radiation € 5 A
+EE  —————————————————— a
+0 0 0 0 <0.0813
+0 100A 526 0 <0.000153
+2X10 cm 0 31.4 0 <0.00256
+2X 107% cm 100A 526 31.4 <0.00000486
+
+ee
+
+rent when v/A>¢/b
+b—1t/2 c
+
+2mny= h AL
+
+mig when v/A<L¢/b
+
+b+¢/2
+
+04 = 2m =
+
+A—v/2
+
+When 6 is large (for instance, when A~6000A, b~2X 105A) and ©
+and v are small (for instance, y~100A; o~10!— 10°A), 1(0) is
+
+closely approximated by a trapezoid as drawn in Fig. 6 of which
+the dimensions are as follows:
+
+ 
+
+03=
+
+ 
+
+0=2mny=,
+Bi
+
+Area=1,
+
+ [=2wnmyb/N when v/A>¢/b
+Width measured at half height = J Semt/k when A <t/b.
+
+: Dell =2mm¢/N when v/A>¢/b
+Width of each slanted portion= of = 2amiyb/X when y/A<i/b.
+
+In general, then, the width of the trapezoid measured at half-
+height is proportional to the width of the wider of the two distri-
+bution functions ¥ and ¢, the width of the slanted portions
+proportional to the width of the narrower one.
+
+When v/A=/b, the center section of the trapezoid disappears,
+so that the graph of f(6) becomes a triangle.
+
+When the source is monochromatic, 4=0; when the backing has
+plane-parallel surfaces, {=0. In either case 8,—8, becomes zero,
+and 63— 0, becomes zero, so that the trapezoid becomes a rectangle.
+When both y=0 and ¢=0, f(6)=68(0—0b/\), where (x—2z) is
+defined as follows:
+
+REFLECTION AND TRANSMISSION BY METAL FILMS 614
+
+6(x—2Z)=0 when xz,
+é(x—Z)= when x=37, (39)
+
+J sa—2)dr=1.
+
+Substituting Eq. (38) into Eq. (9) gives the average values of R
+and T for each case, which correspond to the measured quantities.
+When both y=0 and ¢=0,
+
+B= [ RO)50~b/Ndo=R(®/N); T=T(E/N).
+
+This corresponds to Eqs. (25) and (26) for the case of mono-
+chromatic radiation and uniform backings, with b=5, and A= A.
+In the main part of the paper Eq. (8) has been used as an ap-
+proximation to f(8). It is seen now that this corresponds to either
+v=0 or ¢=0. It was already shown that when e= nr substitution
+into Eq. (9) yields a result identical with that obtained by in-
+tensity addition. It remains now to estimate the deviation from
+this result when en, and when the sides are slanted. Since the
+relative influence of the uncovered face of the backing is greatest
+when the second face is also uncovered, the simpler examples of
+plain backings without metal films are considered here.
+Substituting the trapezoidal approximations to Eq. (38) into
+Eq. (9) and taking for R and T the expressions given by Eqs. (16)
+and (17) respectively, integration produces the following result:
+
+R=Ri+A(e, 8); T=Ti—A(e, 0),
+
+where R; and T' are the results of intensity addition, and A is an
+oscillating function in e and 8, which has maximum values given in
+Eqs. (40) and (41):
+
+max = (4N— 3)/8N2% when o= 0, (40)
+Amux™>(4N—3)/8N%5 when 6> 7/2, (41)
+where
+dn?
+Wee (21)
+
+When 6>0, the deviation is less than Am.’. Table III demon-
+strates that amplitudeladdition is necessary for monochromatic
+radiation incident on a uniform, flat backing, but when the inci-
+dent radiation extends over a band width of 100A, intensity
+addition is sufficiently accurate even for the uniform flat backing.
+When the backing has a thickness range of 2X10 cm (1 percent),
+and monochromatic radiation is used, intensity addition may or
+may not be justified, depending on the a ccuracy desired. For a
+finite band width and a nonuniform back ng, intensity addition
+gives exceedingly good agreement with the rigorous amplitude
+treatment. Even better agreement is obtained for thicker backings
+and the same range in wavelengths and thicknesses.
+
+
+LANCASTER PRESS, INC., LANCASTER, PA.
+
+

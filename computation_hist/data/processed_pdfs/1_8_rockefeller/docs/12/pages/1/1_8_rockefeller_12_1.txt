@@ -1,0 +1,59 @@
+R\" :
+
+f‘ P . DMovember 29, 1956
+Dr. Norman S. nan Bir.ctor
+
+The Social. 8012232: 7
+
+The Rockefeller Foundution
+
+40 Vest l9t§ Street
+
+New York 20, New !ork
+
+Doarunr» ‘Buchanan,
+
+Aa you lusspsted in anr'talk of November 9, I havu bcon kcoplng
+an ear open for examples of the social science problems in which our
+
+- Computation Center is interested, As you know, the potential of such
+problems 18 largely unknown so that most examples must be of past
+
+computer applications. One example though of research activity which
+offers the promise of good team-work between a 00nputation chtor
+staff member and social scientist is the following.
+
+| Professors Theodore Baer and Ithiel Pool of the M.I uT. Center
+for International Studies have approached us on the foasibility of
+"Computing Optimal Electoral Redistricting in Massachusetts". This és
+
+‘a problem of immediate interest in the local political situation bu:
+
+is also a type of problem of longerange national signifilcance. Pro-
+fessors Baer and Pool have thouﬁht throu§h the problem to the point of
+developing various criteria of "goodness" (e.g. closely or evenly
+distributed political strength in each electoral district, homogeneity
+of socio-economio factors, ete.). In my Judgement, their ideas are
+now "ripe" for close liason with a computation specialist so that the
+difficult task of quantifying their concepts and sclving their problem
+can begin. The method or solution will probably be by the techniques
+of "linear programming”" which are very powerful on optimization probe-
+lems of this kind.
+
+I should say that the above problem was essentlally brought to us,
+a procedure which in general puts the burden of computer knowledge on
+the social scientist. It is very likely that there are wmany problems
+of similar interest waiting to be discovered by computation experts
+consulting with social scientists. I need say no more since this was
+the gist of Professor Morse's proposal.
+
+In addition, I have talked with Professor Orcutt of the Economics
+Department at Harvard. Professor Orcutt, who 18 alsc the Harvard
+Representative ,of ocur Computation Center, wa kﬁnﬁaeno h to survey
+
+ome of tational W en or are
+geTng ca%giega E i ggogo%ics rggtigéﬁfesThe activities divide roughly
+
+into two classes, those involving standard mathematical manipulations
+and those which utilize the computer for simulating or behavior studiles
+of economic systems. A brief l1list of these activities is:

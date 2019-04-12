@@ -1,0 +1,46 @@
+Reprinted from THE AMERICAN JOURNAL OF PHYBIOLOGY
+Vol. 183, No. 3, December 1055
+Printed in U.S.A.
+
+Resultant elecirical dipole moment of frog heart. C. V.
+NErson ano H. H. HecuHr. Dept. of Medicine,
+Univ. of Utah College of Medicine, Salt Lake City.
+Since the double-layer electrolytic tank has no bound-
+
+ary error, equations applying to infinite two-dimen-
+
+sional media can be used. Perfused frog hearts were
+placed in the center of this tank. If the resultant dipole
+of the heart, M, makes an angle 8’ with the 4 X axis,
+the potential V, at a distance 7, along this axis is given
+by
+M cos ¢
+2k7l'd7'1
+
+ 
+
+69)
+
+where £ = conductivity, d = depth of liquid.
+The potential V at a distance r; along the positive ¥
+axis is
+
+M cos (9o° — &) M sin ¢’
+
+Vy = =
+8 2nkdrs 2wkdrs @)
+Dividing 2 by 1 gives
+Vz ro
+tan 0 = —
+an s, (3
+
+The value of 8’ is substituted in r or 2 to find M. M and
+6’ were found as a function of time during the ventricu-
+lar complex for bullfrog and leopard frog hearts. With
+the anatomical heart axis along the O° line, 6’ varied
+between the limits —40° to +70°. The order of magni-
+tude of M max in the ‘frontal’ plane was 8o u A-cm for
+the bullfrog and 6 u A-cm for the leopard frog. As pre-
+viously reported, M max = 1000 u A-cm for the human
+heart (horizontal plane). (Supported by U. S. Public
+Health Service Research Grant.)

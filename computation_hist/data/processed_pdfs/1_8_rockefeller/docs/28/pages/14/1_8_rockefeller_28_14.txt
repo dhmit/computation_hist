@@ -1,0 +1,27 @@
+% !hg !.I;T. conputatzon Centor uill have 1ta |
+permanont qnartors on the M.I. T’ Campua in the nnw Garl T.'
+COmpton Ltboratory, whloh 13 acncduled tor couplction about
+‘March 1957, In thia buildins thg cgnter w111 oacupy :
+';1htezratod parta ot the paacnant. rirctntloor and second
+.floor. This area will have»offiee'lpaod tor the research
+. atafr, techniclans, r.search.assiltants and asaeoiatoa,
+
+' besides room for the computational equipment used by thi
+Center. _ ' Rt
+
+T R compﬁtins equipment of.thn‘CQntor, which
+w111 be furnished by the I.B.M. Corporation, will primarily
+consist of a 704 computer and the related peripheral
+equipment. This machine 1s an up-to-date, fast, general-purpose
+electronic digital computer. The basic machine code ‘
+ineludes over 80 instructions, including those for arithmetic
+operations with floating-point numbers. The basic operating
+time 18 24 microseconds for most instructions, with a normal |
+maximum of 240 microseconds. The 704 to be installed will
+have a magnetic core memory with a storage capacity of
+8192 words, each word containing 36 binary digits. (The
+storage capacity will be increased to 32,768 registers in
+1958.) The computer will also have, as an additional
+storage device, a magnetic drum with a 8192 word capacity.
+
+Az with most modern computers, magnetic tape 1s used both

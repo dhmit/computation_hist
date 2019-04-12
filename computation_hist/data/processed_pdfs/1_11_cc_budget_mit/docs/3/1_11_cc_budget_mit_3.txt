@@ -1,0 +1,154 @@
+Page 1 of 3
+
+M.I.T. Computation Center
+
+Massachusetts Institute of Technology
+Cambridge 39, Massachusetts
+
+MEMORANDUM
+To: °  P. V. Cusick ‘Date: November 27, 1956
+From: F. M. Verzuh
+
+Subject: Bursar's Accounts To Be Used in the M.I.T. Computation Center
+
+ 
+
+In accordance with cur discussions concerning the list of Bursar's |
+Accounts which are to be used in connection with the M.I.T. Computation Center,
+I have prepared the attached list of accounts. This list has been discussed
+with Professors Morse and Floe, and Messrs. P. V. Cusick, J. A. Little,
+F. L, Foster, T. W. Bowilcik, and F. M. Verzuh, and has met with their approval.
+
+In regard to the matter of the National Science Foundation Account,
+Dr. Foster insists that the NSF Appropriation remain as a DSR project «= X
+DSR 7573 has been set up for this account. The NSF project will therefore
+rengin as a DSR project where charges to the account will be made from the
+M.I.T. Computation Center OPERATING Account (2756).
+
+The Computation Center has been set up as an interdeparimental
+laboratory with set of accounts analogous to that of an academic department, and
+these accounts will be budgeted in what is commonly known as the gray folder
+budget procedure. The following accounting office numbers have heen assigned:
+
+A STAFF SALARIES | : #1545
+
+For salaries of certgin members of computation staff,
+
+B ACCESSORY TO TEACHING #1550.26
+Secretarial pssistance to zbove staff members.
+
+C STAFF SALARIES #15895 ,32
+
+For DSR credits received for any men in the first account who is
+charged tc a DSR contract.
+
+D ACCESSORY TO TEACHING # 1556.26
+
+Secretarial salaries charged to DSR contracts.
+
+B EXPENSES #1783
+
+Migcellansous expenses such as, spocial lecturers honoraria, etc.
+
+, not covered by any IEM agreement or contract which should be
+charged to MIT General Funds rather than the Computation Centsy
+Operating Account. :
+
+The pbove accounts are charged to the Institute {eperal Funds...
+
+ed
+
+
+cL-2
+
+1
+
+ 
+
+E.I.T. Computation Center Page 2 of 3
+
+LIST OF CGPUTATION CENTER FUND ACCOUNTS
+
+The following accounts are chargeable to various special grants and
+
+other sources of ope rating income:
+
+Computation Center OPERATING Account #23756
+
+Income received in this account will be derived from a
+programming service charge levied ggainst all users of the
+Computation Center facilities, These monies will be used to
+cover operating costs -~ salaries of schedulers, key punch -
+operators, machine operators, programmers, analysts, and
+other sslaries and expenses occasioned by the use of the
+Center beyond specific activities of the IBM contract.
+
+PARTICIPATING Colleges Operating Account - IBM #2757
+
+IBM has agreed to pay $10,000 to cover the cost of expenses
+incurred in scheduling, administrating, and servicing the
+New England colleges operations as described in Paragraph 16
+in the operating agreement.
+
+MIT Machine Operator Account - IBM - #2757A
+
+The I.B.M. Corporation has agreed to pay the salaries of one |
+key punch operator and two machine operators as described in |
+Paragraph 17 of the operating agreement.
+
+N.E. Colleges Machine Operator Account - IBM #27578
+
+The I.B.M. Corporation has agreed to pay the salaries of one
+key punch operator and two machine operators for the second
+shift sas soon as the 704 machine usage in the second shift
+
+is adequate -- as described in Paragraph 18 of the operating
+
+agresment.
+HIT Research Assistant-Associate Account - IBM #2797C
+
+The I.B.M. Corporation has agreed to pay $30,000 per year to
+defray the salary expense of research assistents and assoclates
+assigned to the Center in accordance with Paragraph 19 of the
+operating agreement.
+
+ROCKEFELLER FOUNDATION FUND #2759
+
+The Rockefeller Foundation has appropriated $98,000 for a
+three~year program in connection with the M.I.T. Computation Center.
+
+National Science Foundation Pund #DSR 7873
+
+The National Science Foundation has approprizsted a $30,000
+grant for support of the Computation Center activities.
+
+
+M I T. Computation Center Page 3 of 3
+
+SR ———————————————
+
+Management Account - IBM #2850
+The X.B.M. Corporation has sgreed to pay for the cost of
+electric power for the machines and air conditioning 5 for
+the maintenance and repair contracts on the air conditioning
+equipment, and for an appropriate portion of the janitorial
+and maintenance service of the building as defined in
+Paragraphs 12-13 of the operating agreement.
+
+ 
+
+Computation Center Machine Maintenance and
+
+8 HIT Project Accounts
+
+Various MIT projects (both DSR and departmental) will make
+use of the facilities in the Computation Center. These
+projects will be assessed a programming service charge to
+cover the cost of services rendered by the Center. Of course,
+the individual account number involved in each case will vary
+depending on the project involved.
+
+F. BE, Yerzuh
+11/27/56
+
+

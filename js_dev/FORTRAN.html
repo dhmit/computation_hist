@@ -1,0 +1,65 @@
+<html>
+<head>
+    <title>Developer Sheet</title>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+    <link rel="stylesheet" href="FORTRAN.css" />
+    <script src="FORTRAN.js"></script>
+</head>
+<body>
+    <h1>FORTRAN 77 </h1>
+    <pre>
+        *     euclid.f (FORTRAN 77)
+        *     Find greatest common divisor using the Euclidean algorithm
+        <span class="non_executable_statements">PROGRAM EUCLID</span>
+                <span class="execution">PRINT *, 'A?'
+                READ *, NA
+                IF (NA.LE.0) THEN
+                    PRINT *, 'A must be a positive integer.'
+                    <span class="Termination">STOP</span>
+                END IF
+                PRINT *, 'B?'
+                READ *, NB
+                IF (NB.LE.0) THEN
+                    PRINT *, 'B must be a positive integer.'
+                    <span class="Termination">STOP</span>
+                END IF
+                    PRINT *, 'The GCD of', NA, ' and', NB, ' is', NGCD(NA, NB), '.'
+                    <span class="Termination">STOP</span>
+              END
+        FUNCTION <span class="intrinsic">NGCD</span>(NA, NB)
+                    <span class="local_var">IA</span> = NA
+                    <span class="local_var">IB</span> = NB
+                1   IF (IB.NE.0) THEN
+                        ITEMP = <span class="local_var">IA</span>
+                        <span class="local_var">IA</span> = <span class="local_var">IB</span>
+                        <span class="local_var">IB</span> = <span class="intrinsic">MOD</span>s(ITEMP, IB)
+                        GOTO 1
+                    END IF
+                    NGCD = IA
+                    RETURN </span>
+        <span class="Termination">END</span>
+    </pre>
+    <p> Click the button to highlight syntax</p>
+    <button id="nonexec_btn" class="btn-lg btn-primary">Nonexecutable
+        statement</button>
+    <button id="execution_btn" class="btn-lg btn-primary">Execution
+        </button>
+    <button id="termination_btn" class="btn-lg btn-primary">Termination
+        </button>
+    <button id="intrinsic_btn" class="btn-lg btn-primary">Intrinsic Functions
+        </button>
+    <button id="local_var_btn" class="btn-lg btn-primary">Local Variables
+        </button>
+    <div></div>
+    <button id="go_btn" class="btn-lg btn-primary">go</button>
+    <button id="remove_btn" class="btn-lg btn-primary">remove highlights</button>
+    <p> Information taken from:</p>
+    <p>http://web.ics.purdue.edu/~cs154/lectures/lecture3.htm</p>
+    <p>https://en.wikibooks.org/wiki/Fortran/Fortran_examples#Simple_Fortran_II_program</p>
+
+</body>
+</html>

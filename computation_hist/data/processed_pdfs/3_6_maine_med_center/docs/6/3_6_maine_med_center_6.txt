@@ -1,0 +1,1352 @@
+~~ Effect of the Finite Boundary on Potential
+| Distributions in Volume Conductors
+
+ 
+
+By C. V. Neuson, Pa.D.
+
+ 
+
+Reprinted from CircuLATION RESE
+Vol. III, No. 3 May 1955
+Printed in U.S.A.
+
+
+SRXLX
+SES
+
+LR
+
+-~
+
+vw
+ow -
+
+’
+av
+do
+
+255
+
+-—
+
+%
+
+A
+
+-
+
+-
+a
+
+Ea
+
+-
+EX
+-
+- ss
+
+.
+“vx
+
+Tw
+—
+- -
+-
+a
+
+«vr.
+
+wr
+
+-
+rw.
+ee
+
+- rt".
+A CAAA A www
+Ft “- -
+
+“ww.
+
+-«
+PR
+AAA - SC
+Tf -
+
+WAL —. -
+
+«<x "
+re
+A re
+rd A
+Er A
+- -<
+
+« «
+>
+
+ 
+
+\ CIRCULATION RESEARCH
+
+1 n
+Heprinte! fs May 1955
+
+ol. 111, No. 3
+Printed in U.S.A.
+
+Effect of the Finite B
+
+Distributions in Vo
+
+By C. V. NELSON, Pu.D.
+
+negligible boun
+
+- which has 2
+ke whit onvention
+
+a: ing tan
+A fieldplottiag e in this tank and a ¢
+
+measurements mal ;
+boundary. It 18 shown that t ied
+points. The method of electrical 1MAag
+
+ts to analyze the
+ardiogram, the
+h define the
+olume con-
+However,
+
+F the many attemp
+re of the electroc
+ation of laws whic
+ical currents in v
+en most rewarding.
+problems peculiar to the living organism such as
+the influence of finite boundaries on the dis-
+
+arents on the body
+
+tribution of the action cu |
+and the definition of a point of ref-
+ntial, have remained con-
+
+natu
+applic
+spread of electr
+ductors have be
+
+surface,
+erence or zero pote
+troversial.
+One metho
+up models of sup}
+fluid, to introduce so
+
+d of studying the problem is to set
+Josed conditions in conducting
+me form of electrical gen-
+erator, and to measure the resulting electrical
+field distribution. Using this approach, the
+author has been engaged in a study of electric
+field distributions, with particular emphasis on
+their application to olectrocardiography. Pre-
+liminary reports have been made which deal
+with results obtained on a cross sectional
+human model in which the relatively high resis-
+tivities of lungs, sternum, and spine have been
+taken into account,! and on a three-dimen-
+sional model of the thorax.”
+
+The aim here is (a) to describe the measuring
+equipment used with a two-dimensional elec-
+trolytic tank, (b) to give some of the results
+including the effects of the finite boundary,
+and (¢) to describe the mathematical concept of
+
+This work was part of a project done jointly in the
+
+Phy siology Department, Middlesex Hospital Medical
+EL
+
+the author a ; Thun Sa gn while
+
+Heart Association. Supported set Avetioan
+
+the British Medical Research Ce : il vagrant from
+
+leceived for PD hlication: 5 : .
+¢ : November 10, 1954.
+
+dary error is describe
+al tank shows graphic
+
+Bu sour
+he field of tWO halfshells 18 :dentical to a source
+for solving boun
+
+electrica
+tributions Ww
+
+ 
+
+oundary on Potential
+lume Conductors
+
+bed. A comparison between
+ally the effect of a finite
+sink field at remote
+
+dary-value problems is presented.
+
+| images for calculating potential dis-
+hen finite boundaries are present.
+
+Tug DOUBLE LAYER ErLecrroLYTIC TANK
+
+The double layer electrolytic tank recently de-
+veloped by Boothroyd et al? has two advantages
+over the conventional type in the technic of field
+plotting: first, the boundary error is eliminated and
+the measurements are equivalent to those made in
+an infinite two-dimensional medium; and secondly,
+it is possible to obtain a theoretically perfect “in-
+different” electrode. In this tank, the electrolyte is
+‘ded into two layers by a 1714 inch diameter
+ass disk mounted on four small spacers. As
+the diameter of the tank itself is 18 inches, there is a
+
+he edge of the plate. The top
+
+14 inch gap around t
+liquid layer is thus contiguous with the lower layer
+
+around the periphery, and the two layers are elec-
+trically “matched”. Mathematically? the top layer
+behaves as part of an infinite sheet; physically, the
+currents. instead of being ref racted at the edge, flow
+around the edge and continue their course in the
+bottom layer.
+In the tank as originally used for solving network
+urrent electrode was situated at the
+center of the bottom layer, and was used as the
+ground return point. This was removed, and a
+platinum ungrounded electrode substituted as the
+reference point. That the bottom layer electrode Is
+at zero potential was proved by a simple experiment,
+shown in figure 1. Two dipoles were placed at ran-
+dom locations, A and B, in the double-layer tank.
+The point P is then a theoretical sero-potential
+point, since it lies at the intersection of the trans-
+verse axes of the two dipoles. When potentials were
+measured with respect to the bhottom-layer electrode,
+P was found to have zero potential. :
+The double-layer tank is very useful for measuring
+the field due to any distribution of sources and sinks,
+as it is not necessary to correct for the finite hound-
+ary. In addition, the locus of the sero-potential line
+due to the distribution can be determined.
+; In order to facilitate the measurement 0
+tial distributions, a piece of graph paper
+mented to the glass disk by means of rubber cement
+
+div
+plategl
+
+problems, a ¢
+
+f poten-
+was Ce
+
+236 Circulation Research, Volume 111, May 1959
+
+ 
+
+FINITE BOUNDARY AND
+
+thinned with acetone. Two coats of sizing and
+
+coats of varnish were then applied in a : and two
+
+the graph paper water-proof. If a coat o De
+
+added occasionally, the same plate a : varnish i
+
+definitely, without any damage hairs, ie used in-
+
+the electrolyte. g produced by
+Measuring Equipment.—A block diay:
+current source and potential esa Of 1s
+is shown in figure 2, and is similar to he bi vis
+by Boothroyd et al.® In order to os io uit used
+the electrode current was taken fron poanzaiion,
+generator. A constant-current syste x 900 cycle
+the potentiometer was adjus system was used, and
+er was adjusted whenever necess
+
+to keep the same reading on the AC milli: ecomny
+
+resistance of the potentiometer is Trg The
+
+that between the electrodes in the 20: most 0
+
+that the effects of variations of 2 Leave, SO
+
+electrolyte and of the probes was os is
+system, the effects of polarization of the nie) ih this
+yy eliminated; when the resistance of te Ho
+rodes rease : .  elec-
+ones nereased due to polarization, the potenti-
+Swi 1 fisted i compensate. The current
+. > tank was thereby k oy
+
+hy the ly = ii ign oo
+
+would be true also for i eri ow stant. 1nis
+an ay eis ‘¢ the electrode voltage is in
+
+ann J Is no need to use a constant
+current SVS mn the electrodes. With the constant-
+special Cl) 16 23 not necessary to take any
+
+Tron i Ther tions with the supply electrodes.
+solution of yyy the electrolyte was a
+cause of the lume S > 3 e mm distilled water. Be-
+tiomicter and ge voltage drop across the poten-
+collie the polarization back-emF on the
+lock adas wos o pss ntial difference between the
+of this i oy a few volts. Another advantage
+i he grounded. 1at one of the current electrodes
+
+very precauti ;
+a i Sa polarization of the
+These were platinum ig tira was taken.
+bck. They: ware. anti od ated with platinum
+followers in the Y 5 iected to separate cathode
+this high i ie differential voltmeter. Because of
+So SLADE ARON the current flow in the
+further reducing hee el ectroc les was very small, thus
+NE Sect on g polarization troubles in the measur-
+
+2 electrodes. The output fr arch oc: .
+lower was applied t put from each cathode fol-
+Conlon oe 4 2 tube which had a large
+mput was ean e circuit, so that the AC
+ADC Ae 0 2 proportional DC voltage.
+ethos, cd it OD DF SaRnpia between the two
+difference. ther ) ah indicated the potential
+search probe Sa Or negative, between the
+above rR 5 erence electrode. With the
+bridge circuit on one does not have to use a
+Sa bi ; capacitance balancing, and the
+
+A motor-ger a ie quickly and easily.
+supply ir 5 Nero; was used for the 500 cycle
+
+Vn order to obtain an output of 180 volts with
+
+enough ini
+=~ POW el to supply the electrode current and
+
+SOT
+POTENTIAL DISTRIBUT
+
+   
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+    
+   
+    
+  
+  
+        
+       
+ 
+ 
+ 
+       
+  
+ 
+  
+  
+  
+ 
+  
+  
+ 
+ 
+ 
+   
+  
+   
+  
+   
+  
+  
+   
+
+IONS
+
+  
+
+Fra. Exper
+
+tontin} wn determination of zero po-
+
+spect to the : en potentials are measured with re-
+0 the bottom layer electrode. a point of ;
+
+potential is found at the juterseotion 2 nh utzon
+
+Verse axes : Re
+erse axes of the two dipoles, ys
+
+CURRENT CONTROL UNIT
+CLECTROLY TIC TANK
+
+  
+
+CURRENT
+CLICTROOLS
+
+DUTERINTIAL VALVE YOLIMETIR
+
+-y ". DJ 3 4 pn
+Fra. 2. Electrode current supply and potential
+measuring circuit. J
+
+the transformer losses. U
+
+Din Sister lore { se of a high voltage in the
+e supply circuit mace it possible to use
+
+lower amplification in the recording circuit
+
+PoTENTIAL MEASUREMENTS IN THE
+DoUuBLE-LAYER TANK
+
+The potential of a dipole in an infinite two-
+dimensional medium: This problem was prob-
+ably first worked out by Kirchoff in 1845,* and
+a complete treatment was given by Foster and
+Lodge in 1875.° With reference to electro-
+cardiography, Wilson presented calculations of
+potentials of a dipole in an infinite medium and
+
+
+Te
+=
+4 Pe
+
+I
+rah
+
+a
+
+ 
+
+ 
+
+  
+
+3. Field of a dip :
+¢ are the equipoten
+
+two-dimensiona
+
+Fi6
+The broken line
+qssuming an infinite
+solid lines are the measur
+
+ov
+
++01V
+
+-0lV
+
+=0ly
+
+FiG. 4. Field produced by positive and negative
+halfshells in the double-layer tank.
+
+also In a finite circular conductor.® The poten-
+tial at a point P due to a source and sink in an
+finite two-dimensional medium is given by:
+
+V = 2 In N= A In Ih
+
+2rkd ry
+
+where V' = potential at any point P in the
+field, I = total current from source to sink
+
+. . . . ?
+k= conductivity of medium, d = depth of
+
+ 
+
+ole in the double-]
+tials cale
+1 medium. The
+
+ed equipotentials.
+
+(1) of the field 1s very similar to th
+
+Cc. V. NELSON
+
+conducting medium, r= distance from sink
+to P, r, = distance from source to P. Equation
+(1) makes 1t possible to find the potential at
+points In the field by merely measuring the
+distances Ti and r,. Figure 3 shows a com.
+son between equipotentials calculated from
+tion (1) (dashed lines), and those meas
+ured in the double-layer tank (solid lines). It,
+is evident that the double-layer tank gives g
+good approximation of an infinite field.
+
+At field points whose distance from the source
+and sink is large in comparison with the dis-
+tance between the source and sink, these may
+be treated as a dipole, and equation (1) be-
+
+pari
+equa
+
+comes
+i 2)
+where M = dipole moment = current strength
+times distance between poles, r = distance from
+dipole center 10 field point, 8 = angle between
+line from field point to dipole center, and dipole
+axis (dipole axis from — to + pole); M =
+M /2xkd. Equation (2) is more convenient and
+accurate than equation (1) at remote points,
+since equation (1) would involve the measure-
+ment of two nearly equal distances. The locus
+of the zero-potential line can be found from
+equation (2) by setting V = 0. This will be
+true when 8 = 90° or 270°, or along the line
+perpendicular to the dipole axis.
+
+The potential field of lwo halfshells.—As an
+se to which the double-layer
+eld due to a ‘distributed
+tal conductors were
+pex having the
+
+example of the u
+tank can be put, the fi
+source” was measured. Me
+spaced around a piece of pers
+size and shape of the heart cross-sectional area.
+The metal pieces dipped nto the electrolyte,
+and a potential difference was set up gid
+the left-hand and right-hand conductors. 1 ie
+resulting potential distribution 18 Se
+figure 4. Near the center of the tank, !
+end to follow the contour 0
+themselves equip”
+etors, the shape
+at of a point
+
+source and sink, as may be seen by py
+figure 4 with figure 3. If in figure 3 mpe
+equipotentials, say those for +1 volt an
+
+volt, were replaced by metal conducto
+
+equipotentials t
+the conductors, which are
+tentials. Away from the condt
+
+ 
+
+ps of the
+
+ 
+
+FINITE BOUNDARY AND POTENTIAL DI
+
+same Size and shape and a potential difference
+of 2 volts were set up between them (assuming
+no polarization troubles), the external field
+would be absolutely unchanged. It is, there-
+fore, possible to use metal conductors in field
+studies, as long as the conductors represent
+equipotential lines or areas of the original field.
+The field in the region inside the metal con-
+ductors in figure 4 would be different from that
+of a similar region in figure 3, as in the former
+case the equipotentials tend to be tangent to
+the conductors. The zero line 1s similar in the
+two cases, however. The bending of the external
+zero line in figure 4 1s due to the slight asym-
+metry of the two groups of conductors. The fact
+that the field at points away from the half-
+shells is very similar to the field produced by a
+point source and sink is in keeping with the
+demonstration’ that any distribution of sources
+and sinks has a statistical average, which is
+equivalent to a single source and sink. (This is
+not meant to imply that the potential distri-
+bution near the heart is necessarily equivalent
+to that produced by a single dipole.)
+
+SOLUTION OF BOUNDARY ProBrLeEMS BY IMAGES
+
+The simplest method of treating boundary
+value problems is by the use of images, 1n-
+troduced by Thomson (Lord Kelvin)? If
+a source and sink in the presence of a boundary
+produce a certain potential field, the image system
+18 the hypothetical distribution of sources and
+sinks which would produce the same field with
+the boundary removed. Tt is then possible to
+apply equation (1) to each set of sources and
+sinks, original and image, to find the potential.
+
+I'he term “Image” as used here and dis-
+cussed by Pruitt and Valencia® involves an
+entirely different concept from the ‘image
+Surface” of Burger and Van Milaan,' or from
+the ‘mirror image” electrocardiograms ob-
+tamed on diametrically opposite sides of the
+chest, 1!
+
+: Images in q straight-line  boundary.—In
+figure 5a 4 source and sink are immersed mn
+conducting liquid I, which is bounded by the
+Straight insulating edge S. Figure 5b shows the
+Mathematically equivalent situation. The line
+S has been removed and the entire region 18 NOW
+considered to be filled with the conducting
+
+sulating boundary.
+shown insid
+ing «
+S remove
+infinite in extent.
+
+STRIBUTIONS 239
+liquid, infinite in extent. The
+
+pid; 4 source and sink
+remain 1n their original po
+
+sition, but an ima
+ema dls 4 ge
+source and sink have heen added. The potential
+
+at every point in the liquid is exactly the same
+In the two cases, and can be aleulated from
+equation (3). (The potential must, of course
+be calculated for the original area of conduct.
+ing liquid. To calculate potential values for the
+region to the right of S would he meaningless.)
+
+pris rr
+
+V=An (3)
+which is the same as equation (1) except that
+the distances r; and 7, from the field point to
+the sink and source images are included. The
+locus of the zero potential line can be found by
+putting VV = 0 in (3) from which
+
+ry = Tal (4)
+
+It can be seen from figure 5 that the image
+
+of a dipole in a straight insulating line is an
+
+equal, antiparallel dipole. The formula cor-
+responding to (2) becomes
+
+7s M [= 6, 4 COS 3] 5)
+
+I ry
+
+ 
+
+ 
+
+where 6, and r, correspond to 6 and 7, and 6,
+and r, are the image dipole angle and distance.
+The effect of the boundary can be visualized
+from a consideration of figure 5b. In the im-
+mediate vicinity of the dipole, the dipole
+potential is so much greater than the potential
+due to the image that the latter can be neg-
+
+ 
+
+Fic. 5. Images of source and sink in a straight in-
+: In (a), the source and sink are
+liquid L adjacent to insulat-
+es have been drawn in and
+d that the liquid L is
+
+e conducting
+dee S. In (b), the imag
+
+= :
+\. It can now be assuni
+
+
+A a
+EE rr Y
+
+-
+
+rT
+Xr.
+Wry
+XN we
+Pr eT A
+SN Arr
+EE A
+PERE ITE
+T * om
+
+-.
+
+a
+-
+-—
+XE
+TE
+
+——
+Arr vy
+Te.
+ra
+LEE TF
+
+Te
+
+-
+TE ey
+aX ww,
+x a) -.
+re ay
+Se.
+a
+3
+
+>
+-
+
+5 -
+Se
+xe
+
+Tr. —
+TE
+a Tr
+
+- Sh
+
+XK
+
+Ts
+
+- — -
+rx
+- -
+
+- -
+~ - te
+>
+vy ppd
+IC"
+Ly
+
+-
+i
+-
+
+——
+——
+-
+
+EA LL SN
+Dy -
+A
+~~
+~,
+
+NSA
+8
+323
+=
+—
+
+a
+a
+SR
+
+SK
+. ~ J
+x.
+
+oY,
+»
+
+-
+
+-
+~
+rok
+
+..
+»
+
+-
+Xr.
+a
+
+ 
+
+vr
+vy
+i
+%
+\
+wv H
+
+ 
+
+C. V. NELSON
+
+240
+
+lected. As the boundary is approached, the
+potential due to the true dipole falls off, but
+that due to the image increases. At the bound-
+ary, the potential has twice the value it would
+have at an equal distance from a dipole in an
+
+infinite medium.
+Putting V = 0 in (5) gives for the locus of
+
+the zero potential line:
+
+cos 6 nN (6)
+0
+
+ 
+
+6s I's
+
+wn
+
+C
+
+ 
+
+| Pre 6. Field of a dipole in a conventional single-
+4 er Sh the same diameter as the double
+ayer tank. The dipole has the same «fs :
+Ere fr Same strength as the
+
+ 
+
+Fig 7
++ 1. Image «
+
+"On ¢ : “8C System for
+conduct; a Or & Source ol
+on Ng medium having Ch € and sink ip a
+f ary. The source and sink Grcular,
+radii Extended q¢
+Center,
+
+AT, Insulating
+2 oy distant 4 and h
+“BES are locateq
+ma ed along th
+1ces R2/a ang R?/h i tl :
+j 1e
+
+ 
+
+Figure 5b shows that the Z€T0 potenti]
+1a
+
+does not lie along the transverse axis i line
+aly : e trye
+
+dipole as is the case in an infin:
+Se In an infinit :
+finite medi, The
+
+zero of potential is displaced because the :
+dipole produces definite values of or me
+along the transverse axis of the Stenii
+The locus is now a curved line an Ole.
+dipole axis at some point not iL Sai the
+In reality, this is due to the distort; > Center,
+current field caused by the insulating | 1
+ary, which can be solved mathemati. ou
+the image method. The presence of by
+geneities in the field would also a
+tortion of the field and a deflection atl : i
+potential line. Although it is difficult i 2
+the actual locus from equations (4) or ” on
+idea of the magnitude of the effect col ( 3; 8 3
+be obtained by calculating 06 tr
+
+Seg ential at
+points along the transverse axis of the ;
+dipole, as this potential is caused by the i
+dipole alone. hae Inge
+
+Images mn a circular boundary. —1Iy order t
+test the effect of a finite circular houndary :
+the field distribution, the dipole field Jk
+measured in a conventional single-layer Bo
+having the same diameter as the double-Jryer
+tank. The “tank constant”, 4, was as
+equal to 1.0. The results are Sonn
+OO po ne ears Sak only i
+the potential values oy WER
+
+- Near the center of the
+
+tank, the boundary effect is small, but the
+effect becomes large in the vicinity of the
+boundary. In electrocardiography, potentials
+are measured on the outer boundary, so that
+Its fluence becomes of paramount impor-
+tance.
+As the boundary in the single-layer tank is
+Insulating, the equipotentials meet it orthog-
+onally everywhere. The reason for this is that
+the lines of current flow must be tangential to
+the boundary In its immediate vicinity, and the
+“quipotentials are always orthogonal to the
+current flow lines. A comparison between
+figures 3 and 6 oIves graphic evidence of the
+Improvement brought about by the double
+layer tank.
+
+The image system for a circular insulating
+boundary can be constructed easily. Figure
+(shows a source and sink at a and b inside
+
+ 
+
+ 
+
+ 
+
+FINITE BOUNDARY AND POTENTIAL DISTRIBUTIONS
+
+ile of radius R. The images are opie along
+fe radii extended at distances from the
+or of B%/a and R?*/D. 1 he potential at any
+point P inside the circle is given by equation
+(3), where 71 to r; are as shown. Again, the
+image system shows that the zero potential
+peas does not lie accurately along the trans-
+verse axis, and explains why points of max-
+imum potential on the boundary do not in gen-
+oral lie along the dipole axis.
+
+In figure 6, the source and sink are located
+on the V axis at y = #42 em. Since the radius
+) em, the image of the source
+
+cent
+
+of the tank 1s 22.¢
+
+ 
+
+(22.9)? :
+
+isat y = + +262 em, and the
+image of the sink is at y = —262 em. Using
+equation (3), with 4 = 1.0, the potential at
+
+the point y = + 20 is
+
+ 
+
+ 
+
+= In 142 = 0.35 volts
+
+: the boundary were not present, as in figure 3,
+the potential at the same point would be
+
+V=InT" =In122 = 0.20 volts.
+
+If the source and sink shown in figure 7 are
+fo together, they may be treated as a dipole,
+pe Cy dipole found outside the circle.
+distinc fr i dipole of moment M at
+E. The Sy i center of a circle of radius
+on tie , 2 us image dipole Is located
+
+ob at a rough the center of the re
+the ele, Sin CH R*/f from the center of
+lie along the pe Ie poles of the image dipole
+real dipole on through the poles of the
+{ ing oe ¢ distance between the poles of
+
+* dipole is greater than the pole separ-
+
+9
+
+ation of the : :
+The the real dipole by a ratio of R? J
+E pole streno i
+pole Strength remains the same, but the
+
+2
+
+dipole
+moment becomes A? M. The image of
+
+tI
+
+RR: pole Jf 18, therefore, a dipole of moment
+Ev M “oo .
+IF located at a distance of R?/f from the
+
+Centep el . .
+°F of the circle. The potential at any point
+
+INS] 4 : : 3
+le the cirele 1S oven hv
+
+ry 1? 1's
+
+ 
+
+1
+
+Fi1G. 8. Image svstem for a dipole in a conducting
+medium having a circular, insulating boundary. The
+image of the dipole M at f is an antiparallel dipole of
+
+9 >
+
+-
+
+ 
+
+moment
+
+center.
+
+By letting the dipole in figure 8 take on
+various positions and angles, and observing the
+movements of the image dipole, one can
+visualize the resulting potential and current
+distribution inside the circle. The real and the
+image dipoles can be assumed to be in free
+space, and the field due to each can be super-
+posed to find the resulting field.
+
+The method of images gives an exact solu-
+tion of boundary problems in cases where it
+applies. In physical problems, errors would
+arise only because of the departure of the
+actual boundaries from circles or infinite
+For example, the image system
+for a source inside a rectangle COnSIStS of an
+infinite number of images, because of muléiple
+reflections in the four walls. An approsimate
+could be obtained, however, by neg-
+qrest images.
+
+straight lines.
+
+answer
+lecting all but the ne
+
+SUMMARY
+. hations in electrolytic tank
+
+mntia] distributions 11 2
+Poi oot asily measured
+
+. quickly and €
+ls can be quICKL ; a
+1t-current electrode supply and a
+
+Polarization troubles are
+supply, by isolat-
+the supply
+
+mode
+using a constal
+differential voltmeter i
+avoided by using a 500 cycle ie
+ine the measuring circuit A
+areal and by using a very hig
+Donny 2 the VOIRE,  ralyte tank. has a
+a fis error, and provides a
+ro potent
+tank, 1t W
+
+very small f ial for any source
+: int of ze
+point
+
+as shown tha
+Using this
+
+reference
+distribution.
+
+fr
+My
+
+5 7d
+Paiva
+Fp iron
+
+\
+
+oro
+
+SAY
+
+fs fi
+
+VEG
+Ls
+
+(Fer
+
+A
+
+: R?
+M located at a distance ; from the
+
+   
+  
+  
+ 
+   
+   
+ 
+ 
+ 
+  
+  
+    
+    
+     
+    
+ 
+ 
+  
+  
+  
+ 
+  
+  
+    
+
+» or -
+A SN
+, 4 AA
+7 is Mr
+vy
+f)
+J
+
+ed md A
+
+OC,
+A a mt ER
+,
+7h
+
+
+dds
+#
+
+Th
+PP ~~
+Para
+
+Be
+
+—
+BR ng
+a
+
+Pa ———,
+~~
+a
+N -
+
+—————
+
+-
+
+Sn
+
+Pon
+~
+SN
+
+ay
+
+~
+
+nh
+
+>
+
+oi
+
+a —
+~
+
+a
+ny Wr
+ah
+
+ed
+es
+
+A
+f=
+dt
+
+a ——
+
+FE
+
+Yee
+
+the field of two halfshells 1s similar to the field
+
+of a dipole at remote points.
+
+When the conducting medium has
+boundary In the form of straight lines or
+circles, the potential distribution can be cal-
+culated by means of images. An application of
+the method shows that when a dipole 1s in the
+presence of a finite boundary, the zero PO-
+tential locus is not along the dipole transverse
+and the points of maximum potential on
+ted along the dipole
+
+q finite
+
+axis,
+the boundary are not loc
+axis, in the general case.
+
+ACKNOWLEDGMENT
+
+The author wishes to thank Dr. E. C. Cherry and
+Dr. A. R. Boothroyd of the Imperial College of Sei-
+ence for making available a double-layer tank for
+experimental purposes and for information regarding
+ts construction, Dr. Ww. F. Floyd of the Middlesex
+Hospital Medical School for suggestions on the phys-
+iologic aspects of the project, and Dr. Hans H.
+Hecht of the University of Utah for reading the
+manuscript and for valuable suggestions as to con-
+tent and arrangement.
+REFERENCES
+1 NgLsoN, C. V.: Electric field measurements in a
+two dimensional conductivity tank model of
+the human heart and thorax. J. Physiol. 116:
+15P-16P, 1952.
+2». The Electrical Field of the Heart. Ph.D.
+
+Thesis, University of London, 1953.
+
+ 
+
+ 
+
+3 BoOTHROYD, A. R., CHERRY, I. C. AND MAKAR,
+R.: An electrolytic tank for the measurement of
+steady-state response, transient response, and
+allied properties of networks. J. Inst. Elec.
+Ing. 96: Part 1, 163-177, 1949.
+
+4 KIRCHHOFF, G.: Ueber den Durchgang eines elek-
+trischen Stromes durch eine Ebene, insbe-
+conders durch eine Kreisformige. Ann. d. Phys.
+w. Chem. 64: 497-514, 1845.
+
+5s FOSTER, W. AND Lope, O.: On the flow of
+electricity n 2 uniform plane conducting sur-
+face. Proc. Phys. Soc. Lond. 1: 113, 193, 1875;
+9: 24, 1876.
+
+s WiLsoN, F. N., MacLeop, A. G. AND BARKER,
+p. S.: The distribution of the currents of action
+and injury displayed by heart muscle and other
+excitable tissue. Ann Arbor: Univ. Michigan,
+Sel. Series 10, 1933.
+
+7 (JABOR, 1). AND NgLsoN, C. V.: Determination of
+the resultant dipole of the heart from measure-
+ments on the body surface. J. Appl. Physics 25:
+413-416, 1954.
+
+$s THOMSON, SIR WILLIAM: Papers on LElectrostatics
+and Magnetism. Ed. 2, London, Macmillan,
+1884.
+
+9 Prurrt, R. D. AND vapencia, F.: The immediate
+olectrocardiographic effects of circumscribed
+myocardial injuries: an experimental study.
+Am. Heart J. 35: 161, 1945.
+
+10 Burger, H. C. AND van Miraan, J. B.: Heart
+vector and leads. Brit. Heart J. 8: 157, 1946;
+9: 154, 1947; 10: 229, 1948.
+
+n §epmrrt, 0. H., LEVINE, R. B. AND SIMONSON, .:
+Electrocardiographic mirror pattern studies.
+Am. Heart J. 46: 416, 1953.
+
+ 
+
+ 
+
+ 
+
+ 
+
+|
+|
+
+

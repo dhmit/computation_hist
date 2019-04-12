@@ -1,0 +1,53 @@
+e .
+-~ - 3
+_ -
+
+100 x 100 matrices and larspr); tnput-output annlysiu.a_ .
+'l!tionnl lnraln of Bconouic-alucarohz aoparattns seasonal and tr-nd “
+. movements from economi¢ data and atatlntioa ‘80 that more noantus-,z-*
+- ful 1nrorlation 18 cbtaincd |
+‘Univeraity of luehlsnnz claboratc nultiple rasroanion aohenaa.
+
+_Professor Jay Forrester (M.I.T. School of Indultrlal-lhnnsn-ont):.  Sy
+economic models of firm behavior and economic systems. . |
+
+Profolaor Leontief (Hhrvurd): inversion of larzn matrices (a.s. e
+
+Cowles Foundation (!hle): interested in usins couplieltbd uodole or
+~economic syutc-l.‘ Ltlitcd applications have been made on a auall
+computer (IBM 650) but the machine speed is inadequate. Their
+
+~ approach is to formulate thh'problou by a large system of
+cqga:ioas and then ule "lbntu carlo toohnjquﬂs to find the
+solutions.
+
+Professor Orcutt (Harvard)z 1nterosédd &ﬁ!eun ltmug tion g? economie
+- systems, not as abstract models, but in such a fashion that
+contéemporary economic problems can be considered.
+
+The goal of our Center is not to conpote as s dﬁal scientists
+with activities such as those listed but rather té contribute from
+
+the computational expert side towards the inclusion of modern computing T
+
+machines in social science research.
+
+Professor Orcutt has saild that he will be glad to amplify any of
+the above topies which I have attempted to summarize, (any distortions
+are mine). Due to the press of time before your December 3 meeting,
+his phone numbers are: (office) KIrkland 7-7600, extension 2550; (home)
+IVanhoe 4-2896.
+
+If I can be of any further assistance, please do not hesitate to
+contact me.
+
+Sincerely,
+
+Fernando J. Corbato
+Research Assoclate '
+M.I.T. Computation Center
+
+FJC: jtn
+
+coples to: Prof. P.M. Morse
+Prof. G.H. Orcutt

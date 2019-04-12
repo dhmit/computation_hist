@@ -1,0 +1,30 @@
+{% extends "base.jinja2" %}
+
+{% block title %} Computational History {% endblock %}
+
+{% block self %}
+    <h1>Welcome to our Simulations</h1>
+    <br><br>
+{% endblock %}
+
+{% block table %}
+    Here are our simulations:
+    <div class="list-group">
+        <a href="/simulations/assembly_addition" class="list-group-item list-group-item-action">
+            <h2>Assembly Addition</h2>
+            <h5>The basics: adding numbers, featuring the accumulator.</h5>
+        </a>
+        <a href="/simulations/looping_with_tix" class="list-group-item list-group-item-action">
+            <h2>Looping with TIX</h2>
+            <h5>Calculate a power of 2 with a loop in assembly.</h5>
+        </a>
+        <a href="/simulations/floating_point_operations" class="list-group-item list-group-item-action">
+            <h2>Floating Point Operations</h2>
+            <h5>The Power of Fractions</h5>
+        </a>
+        <a href="/simulations/general_assembler" class="list-group-item list-group-item-action">
+            <h2>General Assembler</h2>
+            <h5>Play around and write your own code here!</h5>
+        </a>
+    </div>
+{% endblock %}

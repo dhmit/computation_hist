@@ -1,0 +1,71 @@
+LECTURES ON FUNCTIONS OF A COMPLEX VARIABLE
+The University of Michigan Press
+
+Contents
+
+G. T. Whyburn. Infroductory topological analysis
+
+D. C. Spencer.  Potential theory and almost-complex manifolds
+L. V. Ahlfors. Remarks on Riemann surfaces
+
+Zeev Nehari. Univalent functions and linear differential equations
+Rolf Nevanlinna. Countability of a Riemann surface
+
+Rolf Nevanlinna. Polygonal representation of Riemann surfaces
+Shizuo Kakutani. Rings of analytic functions
+
+Marcel Brelot. Topologies on the boundary and harmonic measure
+Marcel Brelot. Topology of R. S. Martin and Green lines
+
+James Jenkins and Marston Morse. Conjugate nets on an open Riemann
+surface
+
+W. K. Hayman. The growth of entire and subharmonic functions
+
+W. K. Hayman. Uniformly normal families
+
+Lipman Bers. Local theory of pseudoanalytic functions
+
+Leo Sario. Functionals on Riemann surfaces
+
+Leo Sario. Positive harmonic functions
+
+P. C. Rosenbloom. Distribution of zeros of polynomials
+
+P. C. Rosenbloom and S. E. Warschawski. Approximation by polynomials
+Makoto Ohtsuka. Boundary components of abstract Riemann surfaces
+
+H. L. Royden. Conformal deformation
+
+Salomon Bochner. Functions in one complex variable as viewed from the
+theory of funections in several variables
+
+Avron Douglis. Function-theoretic properties of certain elliptic systems of
+first-order linear equations
+
+Harvey Cohn. Modular functions defined by perturbation mappings
+
+H. J. Bremermann. Holomorphic continuation of the kernel function and the
+Bergman metric in several complex variables
+
+J. L. Ullman. Regularity criteria in potential theory
+Walter Rudin. Analytic functions of class H,
+
+Harold S. Shapiro. Applications of normed linear spaces to function-theoretic
+extremal problems
+
+Walter Baum. A topological problem originating in the theory of Riemann
+surfaces
+
+R. C. Buck. Expansion theorems for analytic functions. I
+
+Jacob Korevaar. Entire functions as limits of polynomials
+
+Wilfred Kaplan. Curve families and Riemann surfaces
+
+C. J. Titus. The image of the boundary under a local homeomorphism
+
+7
+
+i
+At

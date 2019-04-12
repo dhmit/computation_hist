@@ -1,0 +1,51 @@
+Q=
+
+. In addition to the solution of scientific computing and business
+pProcessing problems, a number of classroom lectures were devoted to the
+consideration and evaluation of the relative merits of thke many commevciglliy-
+available electronic data processing systems. Specifically, this was achieved
+by a study of 16 representative intermediate-size drmum computers, and seven
+of the large-scale systems -~ BIZMAC, Datamatic 1000, ERA 1103, IBM 704,
+IBM 705, Raycom, and UNIVAC, respectively. Since many of the students were
+éntering various large business, industrial, and government concerns, it was
+important that they have some knowledge of scme of the relative merits of the
+individual systems. Finally, several lectures were devoted to the IBM 704
+
+Calculator which will be installed in the M.I.T. Computation Center in the
+near future.
+
+Sunnnrz‘gglstudent Enrolluent Statistics
+
+Pt A detailed description of the course content of the subjects
+listed in the introduction is given in the M,I.T. Catalogue.
+
+An indication of the interest in machine ccmputation may be
+obtained by considering the following enrollmeant in each of these subjects
+during the academic year 1255~1056: |
+
+= s ; No. Students
+Subg. Name Fall Spring Total
+
+ 
+
+2.213 HMetbods of_BEngineering Analysis 13 0 18
+6.25  Machine-Aided Analysis 106 a7 153
+6,935 Digital Computer Coding and Logic 0 o7 87
+6.538 Electronic Computational Lab. 0 26 26
+6.54 Pulsed-Data Systenms : 0 60 60
+6.867 Switching Circuits 48 0 48
+6.568 Switching Circuits 0 30 30
+15.542 Management Information Systems 0 22 ‘ 22
+M39 Methods of Applied HMathematics 130 123 253
+M411  Numerical Analysis 45 0 45
+¥412  Numerical Analysis 0 18- e
+
+- Total 347 421 768
+
+it is apperent from the above list that the total gttendance in these 1l subjects
+was 768 students. This doos nei mean, hoWever, that there were 768 individuals
+involved since many of the students toock a numbeyr of the above subjects, thus the
+actual number of individugs exposed te machine cemputation is consliderably less.
+
+F. ., Verzuh
+June 22, 1956

@@ -1,0 +1,54 @@
+models inadequate for representing many interesting processes
+or, in cases where linear analysis remains relevant, have
+increased enormously the size of the linear system employed.
+
+Use of mathematical models in biological and soclologlical re-
+
+- search has induced consequences similar to those in the physical
+sciences. It is anhistorically remarkable coincidence that,
+parallel to the emergence of these difficulties, a means of
+dealing with them has been found in the art of high-speed com-
+putati on. . '
+
+The Director added that the need for adequate computer
+facilities for basic research problems must be considered
+primarily from an interdisciplinary point of view. In addition
+to the obvious interdependence of computation and research in
+mathematics and physics, other mathematical, physical, and
+engineering sciences are utilizing é&omputational techniques at
+an increasing rate. - Problems in biological and sociologilcal
+sciences are also becoming increasingly amenable to numerical
+analysis, '
+
+Provision of computer facilities for basic research is
+filling an important need in training mathematicians at all
+levels in formulating scientific problems. At present only a
+* fraction of the number of mathematicians needed for computer
+work are being graduated at the various levels. Scientists in
+other fields, also, must be trained in methods of app.ying
+computer techniques to their own problems. In addition to the
+scientists and mathematicians whose interests are in basic re-
+search, an increasing number of trained specialists are required
+to man the big machines used on industrial and defense problems.
+
+Yet another compelling reason which prompts Foundation
+support of computation centers is the need for more research to
+advance the art of computation itself. Effective utilization
+of existing machines requires research in numerical analysis.
+Scientists are daily encountering problems beyond the capacity
+of existing machines, and, if the need for better equipment 1is
+to be met, investigation into the theory and engineering of
+computing machines 1s essential.
+
+Foundation support for various aspects of computer re-
+search and training has been worked out with the advice and
+assistance of an Advisory Panel for University Computing
+Facilities, headed by John von Neumann, Commissioner, Atomic
+Energy Commission. Other members of the Panel, who represent
+a number of disciplines, are: Herbert L. Anderson, Institute
+for Nuclear Studies, University of Chicago; Jule G. Charney;
+School of Mathematics, Institute for Advanced Study; Gerald M.
+Clemence, Director, Nautical Almenac, U. S. Naval Observatory;
+Joseph O. Hirschfelder, Department of Chemistry, University of
+
+<D

@@ -1,0 +1,25 @@
+dlgital Cosputer lapoeratory
+Hassachusetis Institute of Technelogy
+Cambridge 39, Massachusetis
+
+SUMARY oF
+
+HIT'S POBT-MORTEN RVUTINE FOR THE 188 704
+
+Abstract
+
+L @ T VY s @ G st
+
+50 faciiitate program ghecioust at the MIT Compatation
+Centor, o post-mortem routine for tae INE Y04 hus been
+written., It priste or punches speeified ranges of core
+BeRory in any of the varicus forms sccepted as inpat by
+the Shere Assembly Progsam; for exampie, ap symbolic
+ingtractions or a8 floating point sumbers. The routine
+is normally comtrolled by symbolie Feguest cards, which
+look much Like Shave symbolic casde; but it 28y also Le
+controlied napually from the console., Plans for integiya -
+ting the sssembly prograg and the POSt-wortes routine into
+& single system will be briefly discussed.
+
+o

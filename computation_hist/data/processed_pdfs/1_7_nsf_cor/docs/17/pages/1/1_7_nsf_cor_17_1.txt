@@ -1,0 +1,76 @@
+ﬁlﬁh'n'h our IBM 704 is now delivered and is in storage at
+delay c-mei@mafmmc.lm to house it has delayed
+Wﬂmm&e@t fir by NSF grant NSF G2940. As
+a result, it is estimatec t&u& only about SE,GﬁQ will have been
+mwm 33, 1957. Staff members, which were to have been
+sf' is project, have been continued on the Whirlwind
+vject um&il the change-over, and most of them will not be trans-
+rrec until summer. It is therefore proposed that the project be
+-inued until June 30, 1958, with an additional grant of only
+3,0@@, so that in the full year of full operation, July 1957 to
+1958, we can operate at the rate of $35,000 a year, as
+estimated in last year's forecas¢. Estimated details of budget
+are appended, together with excerpts from the original proposal.
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+
+ss to Date
+
+  
+ 
+
+Although the NSF funds have not been used to any extent, work
+on the first aspects of thepproposed research has gone forward
+rapidly as is possible without the 704 being in. running condi-
+tion. A complete utility and a post-mortem program have been
+
+ 
+   
+ 
+
+oped, and tested out on borrowed 7O4 time, a much more
+1lble assembly program than at present available has been
+un, ready for active coding when our 704 is in operation.
+ussions have been begun with a view to investigating the
+incorporation of a flexible output equipment utilizing the
+photographic "linotype" equipment called Photon. Many programs
+of importance in physics and engineering have been, or are being
+translated from Whirlwind language to 7O4 language, such as the
+work of the Solid State Theory Group under Prof. J. C. Slater
+and the large-shower calculations of Prof. Bruno Rossi. The
+meteorology group under Prof. Charney, recently moved here from
+Princeton where their work was initiated by Von Neumann, is
+planning to use a substantial amount of machine time, and will
+require the advice and help of our staff to program their various
+calculations. We will be assisting the Harvard Observatory staff
+in calculating satellite orbits in preparation for, and during,
+the IGY s8tellite "shoots". Dr. S. Ulam of Los Alamos, who has
+been a Vislting Fellow to the Center this year, has been assisting
+us develop "Monte Carlo" techniques. Prof. John MeCarthy of the
+Dartmouth Mathematics Department (one of the New England colleges
+participating in our program) will be here next year and will be
+interested in developing machine logic and in further investiga-
+tions of the behavior of "automata" by means of simulation pro-
+grams. The staff of the MIT library 1s interested in exploring
+the possibilities of storing and recovering 1nfernation by
+machine methods and a project in the MIT Language Department on
+machine translation, supported by the Woncr Pounm:uu,
+expects to use our equipment to test out their ideas. Other
+gr::pl, at the 23 participating colleges, are planning further .
+work.
+
+   
+ 
+
+ﬂi
+
+. . < yotaa e
+s Coamset B e, ok

@@ -1,0 +1,58 @@
+Sl
+
+VARIABLE BZUNDS MEMORY PROTECTION
+— P — T — s AV ""‘""M
+
+Two prcristers are provided, designated the Lower and
+
+Uppe- fegisters. When in the protection mode, any ¢Py
+
+c-°rated mewory address, including "1" cycles, 1s compared
+-gainst these two registers. The comparison is made after
+relocation, if any. If the address is less than the CORn=
+tents of the lowep register or greater than the contents
+of the Upper reginster, a trap is generated, storing the
+actual (unrelocated) value of the instruction counter
+in location 32 ang transferring control to location 33,
+The execution of the instruction causing the trap is
+blocked. 1In addition, execution of any trap will take
+the CPU out of both the protectlon and relocation mode,
+leaving the contents of the registers unchanged .,
+
+Two instructiong are provided:
+
+1) Set Protection Mode ¥
+
+Execution of this instruction will place bits 3-9
+
+and 21-27 of Y into the Upper and Lower register,
+respectively. In addition, the CPU is placed in the
+protection mode. The protect mode, however, does not
+become effective until after the instruetion following
+Che SPM has been executed., In addition, no I/0 traps
+13y occur between the SPM and the instruction following.*
+The instruction is indexable and indirectly addressable.
+
+2) Store Protection Indicators Y
+
+Execution of this instruction will place the contents
+
+of the Upper and Lower Registers in positions 5=0 and
+21-27 of ¥, respectively. If in the Protection Mode,
+
+a2 "1" will be stored in position 2 of Y. The instruction
+18 indexable and indirectly addreszzable.
+
+Tragg ng
+
+When in the protection mode, execution of the following
+instructions will cause a trap:
+
+Set Protect Mode
+
+Set Relocation Mode
+
+ENB, RCT, RDC, RICH, LCH. TEFn TRCn,
+RUN, SDN: “Aifo WEr: BSF, BSR,’RiW, °
+iDS, WRS, 1-0 Sense, RTT, EOT. BOT,
+ECTM, ESNT, YOT, LTM.

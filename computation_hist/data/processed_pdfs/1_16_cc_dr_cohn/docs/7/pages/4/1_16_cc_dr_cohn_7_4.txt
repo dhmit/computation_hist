@@ -1,0 +1,197 @@
+Y COHN
+344 HARVE
+
+which is the promised connection between the perturbation map and
+
+. dicated Eisenstein series. : |
+e Il? (\i\lrgawere content with perturbation methods, we cou l<.i obtain
+Es(z) in terms of a fifth derivative (where the perturbation circle has
+dieameter ¢/q’, etc.). But since the perturbed upper half plane
+
+would not be invariant under the modular group, modular functions
+would be inapplicable.
+
+4, Approximate fundamental : c-lomain. The preceding series
+expansions, in addition to requiring a ma.]m.'ant argument, are
+dependent on the special nature of the perturbation. The expansion
+(10) will therefore be proved by.a. more general method. .S.mce the
+arguments are profuse and classical, it is hoped that a minimum of
+
+detail will prove satisfactory.
+
+LY,
+oA
+.....
+
+| A
+.....
+
+  
+
+MODULAR FUNCTIONS 345
+
+ 
+
+Specifically, the transformation groy
+funda.ment.al domain which, in the cfse a.s hg:;lsr?:ege:ﬁ 7;512 ha‘? :
+A, sh‘own in Figure 2, (where AIBSC D b:ecome ayﬁ nglon
+spectlvely). We can see this by noting that a mappin,g éfyi’o ] l'f ;
+A, (@aklng the vertices correspond) can be reflected to prm,:i(;:a1 :
+mapping of the “perturbed”’ upper half z-plane, II, , onto th :
+half {-plane, with fixed conditions a 7. ik kg
+
+Now the region A, has one parameter » defined by
+(14a) B = S0
+
+)
+so that n—>0as e — 0. The condition that the
+
+: angle at g i i
+7/3 determines the vertices B84 D18 precisely
+
+‘.
+St
+
+e
+
+L - 15 .
+AR
+F 4 % .
+
+(l4h) —' =3~ M8 = SRR
+
+W— —— o —
+
++
+
+ 
+
+ 
+
+ 
+
+        
+    
+      
+
+Returning to the perturbation map of § 2, we note that since the 2 2 7 : 12
+| : T he upper half {-plane onto itself, s
+. transformation z — 2" must map t : :
+| this mapping must be via what we shall call T(e), a linear fractional (14c) —w == \/T§ taﬂg— +i=3+ V3n S
+2% . o J )
+o transformation. In other words, referring to the symbols in equa- | 4
+:: E andT— B’ =b15, lf;hehcomplex-conjugate of S.
+R X = | stablish the relation between d
+i T be)/(Ce d. y ad. bee = 1 ' o 2 € and 7, we use the conformal
+: g:. 12) t—¢ (@& + bo)/(c& + do) ’ equivalence of the “rectangles” 9,
+e where, as e — 0, it can be seen that and 4, . A - o o ;;?;.;“., A o
+v d. 2 A Ve tetOln Bl
+(13) “roE e NG S b e de— 5. Approxi i b el A
+) pproximate mapping. We : *’35?5?5?"’"""""'("::"::" I
+
+We shall differentiate equation (12) with respect to ¢ (at e = 0) and
+obtain the transformations of P(z), as defined in equation (6), under
+
+the modular group. (See § 7.)
+
+N
+
+- e e e et S e
+>
+3
+
+NG
+e
+\
+i
+i
+g
+
+       
+ 
+
+now consider a third plane, namely, |
+the y-plane, in which lie the values :
+of the function |
+l
+l
+
+15) ¢ =-;-1/;£§10g‘/5_‘°_+€
+n
+
+1.
+) e
+
+ 
+  
+
+‘e
+
+’
+I e Al
+y W ‘,’
+| A
+g4 .';‘ Valels)
+8 Wi
+i. "- l
+l m “l’l%l lf g':’, g‘
+I 1 (i
+
+  
+  
+  
+  
+  
+
+1o
+
+it s,
+
+%
+/:/ lals .ff;‘
+
+ 
+  
+
+4
+
+»
+|
+
+?
+
+ 
+
+Vo — ¢ o=k i A
+: ¥ 1+0(9) ¥ 3 +‘—‘/"-‘+O( ) i 7o
+It maps the region A, onto the re- b N ,}f? '
+gion (in Fig. 3) ®,/. If we choose / \ it
+e e et ;“
+(16) 7 = V/3¢€/8, ':‘,‘2?* oo
+lp- plane ,?2 o
+then we find that ®,” in the y-plane Fra. 3 o~
+
+gf:&:%r': "&
+
+f
+
+and D, in the z-plane have bound-
+artes within O(y) of one another and a point fixed to within O(n)
+with a (perfectly) fixed direction.
+
+The use of an ‘“‘approximate mapping” is certainly not difficult
+
+00000
+
+  
+        
+   
+    
+
+' "' f ral
+G N £ 005" >/
+
+NI v alal, ;","","' .';'f
+1 ' i ‘2 'A, "’; >l R
+i 'Y /‘lt',‘f""[ A )
+KA ‘4‘0f‘,‘l 'a",’l',"" f ’{

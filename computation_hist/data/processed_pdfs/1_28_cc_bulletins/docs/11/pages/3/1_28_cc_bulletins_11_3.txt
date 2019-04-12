@@ -1,0 +1,62 @@
+will be used by these subprograms.
+
+Programmers who have punched
+output from these subprograms in the past and subsequently
+
+punched golumn one with a 7 and 9 punch will have to obtain
+the version now in existence from the open files in Room 26-058
+and include it with their binary decks to avoid the new library
+
+version., Regular binary tapes with version 1 are compatible
+with the new (TSB),
+
+B. (I0H) This subprogram has been recoded for more
+accurate conversions with the result that some answers may be
+slightly different. A new format will be added called the G
+format, If the prefix of a word is zero the variable will be
+printed according to an I format, otherwise according to an E
+format, (This should be useful for intermixed integers and
+floating=-point numbers.) The form for the G format is GW.d
+where W is the field width and d is the number of decimal places
+to be printed, if any, For example,
+
+I =2
+PI = 3,141593
+PRINT = 2L, PI
+2 FORMAT (2G15.7)
+
+would produce
+@ 2 @ 0.3141593E+01
+
+C. Double Precision and Complex Arithmetic Routines have
+been revised and new copies of these FMS subprograms may be
+
+\ obtained from the open files in Room 26-058.
+
+ 
+
+V. Restrictions
+
+FMS programs which load beyond (70203), will be too large
+for the new system if not using Debug., If Debug is being used,
+the loading must be below 62032 octal. Programmers may get
+around this restriction by putting variables in C{MMPN storage.
+With the present FMS version programs can  load up to (70562)g.
+
+| VI. Non-1IBM Changes
+
+. SETUP All main programs which do not include .SETUP
+in their transfer vector must be recompiled. The locations to
+which (F2PM) traps have been altered and the initialization for
+the interval time that will be used to stop programs that exceed
+the maximum time estimate on the I.D. card has been added to
++SETUP,
+
+(STH), (SPH), (SCH) These subprograms have been combined
+so the combination is smaller than the original (SCH), (SPH),
+and (SCH) package. Punched output will not be written in the
+BCD mode on logical 3 or B4, The estimates on the I.D. card
+for printed and punched output will remain unchanged, i.e., all
+output from PUNCH statements should be included with the estimate
+
+3=

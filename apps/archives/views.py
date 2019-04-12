@@ -20,7 +20,6 @@ def index(request):
         'sample_story',
         'sample_story',
         'sample_story',
-        'sample_story',
     ]
 
     context = {'stories': stories}
@@ -333,3 +332,9 @@ def story(request, slug):
         return render(request, template)
     except TemplateDoesNotExist:
         raise Http404('A story with this slug does not exist.')
+
+
+def timeline(request):
+    documents = Document.objects.order_by('date')
+    context = {'documents': documents}
+    return render(request, 'archives/timeline.jinja2', context)

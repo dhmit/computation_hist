@@ -1,0 +1,20 @@
+torized version of a twenty-channel electronic multiplexer reported by the Naval
+Ordnance Laboratory (6).
+
+Each diode gate and its associated counter stage are ;ssembled on a
+L" x 6" plug-in printed circuit board. The interstage circuit of the counter is
+also mounted on this board. 20 such identical boards plus L additional boards for
+the trigger circuits comprise the entire commutator exclusive of the power supply.
+Power requirements are #50V and =50V at 1C ma each and +1CV and -20V at 100 ma
+sachs The ring counter is made up of 20 binary stages using 2NL39NPN transistors.
+These individual stages are coupled together by diode-capacitor interstages to
+close the ring. Although no clamping circuits were used in the individual binary
+stages, the rise and fall time of the collector pulses were less than 2 microseconds.
+Diode clamping was added to the switching stace itself to improve the stepping action
+of the ring. The input impedance that is seen by the signal source when the gate is
+open is the back resistance of two diodes in parallel. Silicon junction diodes are
+used to keep this impedance high. Tests made on the diode gates indicate a trans=-
+mission gain of 0,996 for the open gate with a linearity of 0.5% from 10 millivolts
+to 5 volts for both positive and negative signals, With the gate closed, input
+
+signals were attenuated more than 60 db,

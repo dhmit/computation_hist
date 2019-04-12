@@ -1,0 +1,66 @@
+g
+
+1) Evaluation of ballistic tables,
+2) Guided missile stability and performance studies,
+3) Lead computing sight calibration studies,
+4) Studies of aircraft propeller performance equations,
+5) Study of the design characteristics of submarines, torpedos,
+and other underwater craft,
+6) Study of the design of catamarans employing the hydrofoil principle.
+7) Study of the operations research problem dealing with submarine warfare.
+8) Study, design and psrformance of antiaircraft missiles such as Nike, etc.
+
+As a matteraf fact, the contributions mads by thQAAnsly:or were considered
+to be sufficiently importsnt that the Navy Department issued the Naval Ordnance
+Development Award in recognition of the vork portor-od by the Diffor.ntial Analyzers
+and associated computing staff.
+
+In addition to such studies, the Analyzer was used to design new types of
+lead ccmputing sights, tracking systems, aircraft compoment désign, etc. This type
+of activity was carried on by the Instrumentation Labonatory during the years
+1950-1954.
+
+It is evident from the above partial list of problems that the Analyzer was
+primarily used for the solution of military problems. However, there were a
+number of industrial problems solved on this machine. For example:
+
+1) Study of the performance of a supercharge,
+
+2) Study of circuit eolution of electrical networks,
+
+3) Analysis of the dynasmic performance of servomechanisms,
+_4) Studies associated with heat flow problems,
+
+5) Study of a problem in enzyme kinetics, h
+
+6) Studies of the atmospheric oscillation of the upper atmosphere,
+7) Studies of a boundary value problem associated with the dooign of
+
+an ultra centrifuge,
+
+In addition to the above industrial problems, the machine was used to &
+limited extent for the solution of academic problems arising im M.I.T. thesis
+research. For example,
+
+1) Investigation of aircraft performance and comtrol,
+
+32) Investigation of the performance of magnetic relay circuits,
+
+3) Investigation of the stability of gyroscopes,
+
+4) Investigation of the orbit of dynamically-loaded journal bearings,
+
+5) Investigation of statistically-loaded machine bearings,
+
+6) Study of magnetic emplifiers,
+
+7) Investigation of the rolling characteristics of ship models,
+
+8) Study of M.I.T. servomechanisms,
+
+9) Study of differentiation with elements of the Differential Analyser,
+10) Investigation of Schrodinger's Wave Bquation,
+11) Bonneville power load sllocation study.
+
+It is evident from the above 1list of problems solved on the Differential
+Analyzer that it was used predominantly for military and D, I. C. sponsored

@@ -1,0 +1,423 @@
+-]
+
+liemorandum to Candin de Colle, =
+From P.li.liorse, Director I. I. T. Computation Center,
+
+Subject: Replaceuent of 704 by a Y090,
+
+Background = In June, 1957, somewhat less than three years
+ago, a, 704 wes installed at the Computation Center by IBl, under
+a special agreement whereby IBI maintains the equipment, contri
+butes toward anortizing the additions to the Compton LOROTaTany A
+which house the Center and supports a number of res arch ARR
+ciates who assist users of the machine, and pai stafifd and oper
+ates the Center for the use of Li and other cooperating New
+England colleges and universities, The primary purpose of the
+
+’ .
+0 that
+
+the next generation of scientists, engineers and industrial exec—
+able to ax lot : : ra - j
+
+a ® machine capabilities «= in other
+words the primary purpose is %o demonstrate that such machines
+
+—— ——
+
+arrangement’ is to enable students and faculty of thes instit-
+utions to learn how to use high-speed computing eae 2
+
+utives will be
+
+are as important a part of the educational equipment of a modern
+college as are chenistry laboratories, for Xample. A secondary
+
+purpose is fo foster research in the use of computing machines,
+particularly in those fields of applics tion which have not yet
+been explored or exploited fully,
+
+To this end, priority on 704 time has been accorded to
+regular class use Dy courses in machine progranning and applicae.
+tions, to students usine the nacl
+
+1ine in their thesis research
+,
+u
+
+ting new Lechniques of machine
+n
+
+the out-of-town wsers: mail Service, special scheduling during
+Visits and Saturday operation for chose who cannot come to Cope
+
+resenyv Situation -- This
+
+-’
+a LT a LA A WA a Ss Sa
+
+‘to
+3
+O
+R
+H
+Y)
+=
+
+hag been outstandingly
+
+~ 5 3 ym — Pe - - ~ ~ 1 7
+
+C1110 oo - . 27) 1 OCT “ + 1 oo o “2 4 = ; |
+SUCCes ST al - 3 ~ A= ec JILL JE c br i { “ 1S 1 OX he LAUT ® Cl. oS 15 c OL uv 1S { O04
+he ~™ AAT oy ™ + ~ -~ Tm -1 ~ *y ~- - £3 ~~ c=) - 11 { "1 \
+das grown PLC Lr UL naa | Lo HOW QQ I17esSnit COVES: LI
+ve, Sa rd Eh Ny ry mm mrt NCTE nr + . ce mam mt Ye al on =
+machine use p» LORY UDDeXY=class and a number of BLAARATE Couns 3
+
+“3 ~ ’ = , - ad a 1. ~ - a any - - . > » . - ”
+™7 » : - ~ —_—- ~~, EE whom Loo we - . en - ~~ x ~~ oy. ’ "~, -- “we ) re - , ~~ Sw
+WILCHD use time Ol The machine e +0 UAALTION T O Gide Sequence OX
+
+
+special ceding courses which are given by the Center staff during
+cach term and summer. A number of other colleges bring some of
+their classes in for one or more laboratory sessions. Class use
+will expand further, but its expansion will be haipered by the
+linitations of access Go the 704, as will be discussed later,
+
+The use of the machine by the other calleges has expanded
+rapidly until nearly a full shift is now cccupied with their work
+(including their class exercises). But this use tence to be self=
+Riuipine for, as soon as a college faculty begins ful y to apprec-
+ate the possibilities in education and reseanch of Cemeteries, the
+
+pressure builds up for a machine of their owa on thelr own campus.
+By now at least eight of the cooperating institutions hwy > 22 Iagines
+of their own. These are smaller machines, of the 650 AR "50 Pepi),
+ege instituions still come to the Center to use the Y04 for their
+bigzer jobs; buv it does mean that the use of the Center ly the
+other New fngland colleges will tend to level off to a recjonable
+load (about one shift, it now app pears) rather than growing -~ontin-
+uously, as the HIT usage is doing. This result, of course, is in
+accord with our conviction that computers should be as prevent
+as chemistry laboratories.
+In contrast, the LIT use of the 704 for research into 1sw
+ications has grown so that now we are not able to savisfy 11
+
+fo
+Io
+lo
+pa
+(ay
+0
+i
+OQ
+I~
+wo
+H
+Oo
+=
+or
+[« .
+3
+PD
+o]
+~
+O
+>
+@
+<i
+
+rernals for machine time for such work, le:
+1
+
+at DD 11 rn - AR eR eeryme ~ aire a memnd oh I o
+calculations of the'"production~run" type (important as these of en
+ana ) even vhen We encroach on th -hird machine shift vii eo)
+cll © J S VEIL walciy VCC ener Qa.CL Oil ¥) CC 5 VLA NaCnine only J » LCS
+has heretofore been reserved fox IPL use. In additcion to The
+
+wr "3 == tn del - . Jo - — - -
+research in solid-state theory, in meteorology and oceanography,
+Tn ] - on ~ fe nr -
+which now depend conpletely on machine computation and could
+- — pe —~ pan - — Eo ~ A A - —~ ~~ - \ ~ - - T= -
+already use more time thas; we can aliot them, there are a number
+LP emarn me mma) “Tm 10 o vt AL "a haa, } ves Adesso? Noni Pom AT
+Qi Ie3eailn PIrojecy WRlCcA are Dasic LO Tile Jevelopmens 0X nc
+~ -_ gh ~ oa ~ - . on ~ -—— a ~. a ~ -
+uses ILO >ompucers and indeed, TO Th developnent of conputers
+- lg wa 2 In - - pa " “| - - - Ta tn PY
+themselves, which are already handicapped by shortage of machine
+- wv ~ =n “1 4 1 ~ “rN - ho. J
+time and Llinivation of 04 capacities. 40 mention a few:
+J ~ - ~N ~ Tr ~ 7 -" {'r~ ce SF ] To ~ i ] = ~) 57 1
+A Croan ites J \ | pa Lilie aii Ld £) 4 | | cay {Lia iV (=.
+' . > ~ ~~ ye Se Ua) ¢ Rr bat wy
+OP ~ - 1 NTI aS Ly LC QD ~ G CH} 30 CALNE i aaa 153 b i tL! a0 {J LL OY OF G ner (id
+Im he | “2 1 - , Segwent’ Suyjroq fam,
+} 15 = ) © 1: £3 an = X med = 24s DIO iT) 1 i vq ( } a 23 cn —~ A 1.1 oh 0 1£5
+
+
+- “on
+
+loader, which combines Fortran, SAP and other special codes; COLIT,
+which enables the 704 to be used on languaze translation problems;
+© and LISP, which enables the machine to handle non-Senme ee
+logic, such as algebraic and other symbolic naaipulation, are
+being developed and tested, The work at LIT in ¥his field, since
+whirlwind days, is well known,
+
+Time-gharing Technigue vie already have a typewriter connected
+to the 704, which works on a basis wi.th our regular
+operator routine, so new programs can be debugzed wt the same vime
+that regular computations are being cerried out on other problems,
+for example. the Y04 cannot effectively accomodate more than one
+or two such sa telite chonnels, bub the Center staf! is now atv work
+on the design and programming required to provide a V090 with 410
+to 3.0 such "substation consoles" of various effective speeds and
+capacities, which can be placed at appropriate places pround LIT,
+some perheps in class zooms. A nee redone on Gade fle Yage
+
+Lachime-ruided Iducationg Coq Gonputers can, of course, aid in
+
+grading examinations and do a clerical tasks incidental to
+
+A
+large classes. But computers also can be programmed to carry out
+
+sone of the detailed ay interchange whica occurs
+
+in recitation sections. The Center staff is now working wlth the
+Language Department at IIT Go program the Y04 {to guide a student
+
+through sone of the phases of learning a new language, and
+
+discussing the possibilities of training students in the det:iils
+of mathematical manipulation by machine. Illere the machine would
+pose questions for the student To answer and, on the basis of the
+answers, would go on to other questions, as in a wos: AL dio fendi
+
+To avoid intolerable congestion at the main input
+
+chine simultaneously,
+Cation. Therefore furthopy
+
+ 
+
+ont dks UY } '
+ade CM orem - on 73 a3 abun nt rr
+(oynergy 7) In aqaditcion
+do eT = aSrammT 1 =O - 11 Se NY - = ry ~] "1m Yo TY Maar ~~ “=n £5 7s 1500 & Hh TR =n
+LO wl CAQUUM LTO JUD vu DeNnoLOonel LILC LUC cl'C ually Lull LL CHeal'Cll
+- - ~ ™~ —— rr uf - ~ - n . - ol oy ~ 3 ~ .
+DIO Za: 7.LC a1) CXF 1 L.A OZTCS > eff CLV ly Af Ce {macnine is
+3 rr ~ po ny ek a alm Pt wn ~ 1 3 ~ =
+able To ¢ Ca. LC Li J. OI: XL LAL iave demand Na atSPLAy
+
+
+fliers
+ae) oh hell 1
+i o accel ar nomi & Vera wo Fuialad CT
+in ee presen. les? oo a LE i,
+
+ly orl da ip v kita fi Ar ble al
+fe gmt ope = cil pebiunand gi
+
+  
+
+ 
+
+ 
+
+pr ir
+{ > a \ = ONT oat —f) =. geal] \
+
+nT Ln BE , png,
+wd A ped Wire EP IR Ta
+
+
+dl Tm
+the experiment or the scientist can go on to the next step and
+request the next computation in turn. On the 704 this would
+reguire the exclusive use of the machine, though only a fraction
+of the 704 speed would be used; obviously again, time-sharing
+techniques are needed, |
+
+These, and many other programs now in progress, such as
+the character-recognition studies ~~ © _ , the research
+cn economic forecasting end on operational behavior using large-
+scale simulation techniques, should be of particular interest to
+LB, for they have direct bearing on the progress of computer
+design and utiliza Glon., They represent the sort of cooperative
+research between experts in different fields which EIT does so
+effectively, and they involve the combination of research and
+education for which ilIT 1s pre-eminent. This work deserves
+support by IBil, in addition to the educational activities which
+are already being supporied a the present contribution of the 704,
+They can most erfec tiara i the installation of a 9090, replacing
+the 70%, in the near future; IIT will then be able to provide
+the «=== ancillary equipment to push ahead with dispatch.
+Because of the "inter-connectedness" of much of this research,
+it can best be carried out (perhaps it can only be carried out)
+in the atmosphere of mutual cooperation and exchange of infor-
+nation provided by the Computation Ceber, As
+
+Outlook for the Future = The activities mentioned above are
+only a part of the rese
+
+arch, at HIT and at the associated instit-
+
+ 
+
+J
+4 nl = I pee arp « *1 bow Tm i " f= nf
+nov, Savisiy all the demands A much more realistic task weuld
+p= " de - - - - Sa . - ela > - ar — 1 -
+be to concentrat ellie onan onal tasks, which will be supple-
+om een} = d= = : en 11 “ Pn mm dala ~Ather New orl and
+nentas vo the on=Ccampus small machines for the other I LL STIA
+colleges and which, for the HIT class needs. can be improved in
+~ 4 £ y - fol A -~ om} = 2 TIA DO >} in a2 :
+S11 ClCT \ J by J ILC Lc -— 1% > |] 20 LI - § LL a on L ! 25 LI reseal £44 CALL Oil
+those aspechs of research which advance the design, progranaing
+and utility of the comg in new rielde Research programs in
+
+
+A dam me RA2neetl or cero dn mr RTD TSO d —
+ounce new uit SC LULONS,, WILLA AnvoLvTVe Li hine use (meteo 0l0oZy
+
+‘ Lill
+
+oY i
+? 2 pg - Ey To wy ia
+actor design and UAC like) should, be supported by the
+
+ 
+
+    
+
+the work
+would
+made
+
+ 
+
+Se
+c step. On the other oh if a 7090 cannot be nrovided
+
+veral of the Projects mentioned above will have TO termine
+
+ate or else will have to use other machines, which would lnev-
+
+. 1-3 . 2 em em oe) £ Fh aie py or . Dau) amie - :
+itably mean The dissipation of the Center's usefulness in
+
+=
+
+TL EY ra 7 ey
+coordina cing -his sort of TesSedl Che
+
+Tt is nob intended that the renter should have © monopoly
+
+ro \ " . rit gor ime PR rn am) HE 3 ~
+* : ~ ™ 9 ' | ~~ Yi ¢ i. 4 oo
+of all computing around lls hig would be unreallSTlc alts ==
+. 32 om a Bn - "."Y Vo A - at an ano =i : mah Tag wy
+ANA LC ed. MOVE, Ja SHALL 1 © IL Lu paired) AF 1 LC GLVE TOL Lis
+¢
+: “A Amacai erstine De pees a a Lt V wtvreaty 3 a) ap Tai
+supporting and inatizating research 1DTO new applications 11 10
+on dee pm - ITO Re , i - ~ on —_< wy 10T SAAS a" Ae I> al re
+3 ( ONGILNUC 0 pe vine LU 11g 0f new LaCas and 0IL CXCLULS f-
+- ch dono 1 - A » 3 dew - -- ~ ry 3 mo tan +1 Oo “ATT OTN ATTY +1 ~T
+acCLTLTY WRLC Ww 11) attra, UVicdi- n and inspire LLL LL W Soll cla
+Vv ’ wh
+Ox o 1.7 = - NET
+
+— . - — - ” ‘1 [Oo
+
+i) \ 3 3 -y bs ry =~ - f -~ » doe | - = - - 17 I 1 1 | OC ™ » ad a B= c NS ~>
+
+(M7 }) DC MOS GLLL LCL ils (Ly ie J 1s 01 Li JL 1110
+9 2 «TRIS
+
+or w ~ be¢ mel TS ¢ 12 { 11 & ; LOR 1.6 1D
+
+~~ | . ~TT NTNY
+. sda Bu . J we 42
+
+staff. rl should be included, and
+- I. = == QO cori \ 5: 3 CU HN “Py Vn,
+
+. : -= A ba 3 ‘ ‘ 1 —— Lig mr . -- - a. J < ~ ~ 1
+LE “1 (} 1,3 IE T: 1&2 L210 YY SMe) Farid yf { 1 OG (i (4 § QQ
+
+|» J Ne So adn Sd
+
+ 
+
+5»
+5
+
+————— of lee , a -— : d WAN de a I a bd » LJ wan A da dl A ee WJ
+
+
+-ma TIO — —— — ~~ —
+-- 2 I tt ’ a Joe - Nr me A  — a ——
+~ -
+Ri ye - p— Pp Si ~~ LT - ~~ seas Ten -~
+4 vr - oo — a — - - oh wt aS - — Cae — NS - — aI
+‘ y / p ” | » ”~ th - ~~ 2. - an : - ~~ Tha Cah
+’ ’ J J i “ » - - “ wr { oo J J — — RINE Fw a -— 9 WW \
+ff J Cs : - -, ™ te
+/ r / rr e “= "rT FT - nes AN STS "|. "oc
+iJ -t/ J ’ {J J. J AL J tn -— wi» A gravlilly
+/ / ” » / ~~ 2 - ~. ~1 t=1v - ~~) - - ~~ =i: = ~
+) ! J 4 / cl J > ee Abd So CLL A J — WAT ll. Ve wo
+I ~ 7 " - - Au om - - ~~ _— a Tm = ~~ Tn > Lv 2.
+[¢ ['( o g ove, yuld initizlly use more Lia one SOliv
+: ' 7 1 31d not use more han Yi hitt
+) ui IL) ‘J . { J ) L IJ f JALAN nou UoC more uilcal 70 SAll LS
+’
+” - 5 ye
+ho} ’ ! rl om Ae] = - Se yee l 3 ~ or et b - - 1
+ho firey ‘ smpequently it would be possiD.e ,.OL 1B
+
+L000 41am to what was done 01 the Y04 during 1TS 2LTst yea
+| on. It is likely that this IE. usage would vapor off,
+Load dtd with the 704, so that as the prozrem outlined abuve
+0 uw, it could ev ntually use all taree shifts (plus Satuvdays)
+the lew Mnrland colleges taking up to OnE shift, the ID clasr-
+
+| . : . Mt» “ ode TY ‘1 - of. - ~ | IAT
+1 (0 TI mr {1 1'1. 03 WO al LI! \L]2 LO anothe: 3) SLL 4 and. ne In W}
+
+     
+
+~ 1 ees £4) ded pT \
+pnopplicntliong LGOCA ch taking up the rest OL TAC ime, HLT woul!
+. Hine ataff So AAR Ak wary es
+gupnly tha op rabine and Progra. MING SUaGLlL, in edditicn TO ULC
+\ ie A he x tf ~ NESE TT 4 - ~~ ~ 1
+nanoeomoent and COOL linatlon Wi th other college 595 1Bil would supply
+| wid mation of buildin space mport of bl vg eanc)
+1101 I) 1) oy dt ClLaa'tlOll CL Btid iLL - wal Ce SU J AY ae SCA
+\ | \ \ \ " T “~ 1 1Taemen 4 bn i Lr expen ag
+anal atantanlp DIO STEAL and aimpursemenyc Ou. fal 5 CX pell:
+
+. A - ~~ oy =
+(TOYO i "MTL ) RR Q (LE - ns Jail 0Co CAL
+
+-
+
+\ \ al A CA nRAR A bk 0 Ne RL C No CLR BM ning) JL
+yk
+
+Whe \ GAN iy aC hn \ wad) ds Leer - Salad hsdpa Nant) \e sia popes,
+an) Qo Wal Mime © hay 2 ye T6050 Lager alien Yirduooness, Bs 4
+
+\ AL ARAERNR ii Sse A a aa olin in ' Xa Rela RN & A 1690 vo A ik
+
+

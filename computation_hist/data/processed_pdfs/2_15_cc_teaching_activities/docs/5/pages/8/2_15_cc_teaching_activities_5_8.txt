@@ -1,0 +1,72 @@
+ViiI,
+
+XI.
+
+X1f.
+
+XIZII.
+
+Xiv.
+
+ 
+
+-
+
+Calculation of Nuclear Transformations -and Radioactive Decay
+
+_ A MITILAC program was prepared whick computes the anumber
+of atoms present in the nth chain member in the simultaneous
+transformation by nuclear reaction in radioactive decay of 2
+given target nuclide in a2 given neutron flux at any time.
+
+Computation of Interest Calculations for Saviﬁgs Banks.
+
+A basie 650 ‘program was proparad which automatically
+handleg any . any of the six different methods for performing interest
+calculations arising in the savings bank.
+
+Computation of Bivariate f‘requency Distributions on the 850
+
+A basic 650 program was prepared which computes the
+bivariate freguency digtribution by corresponding class intervals
+(for various parameters), and aleso computes certain statistics
+obtained from the above-mentiomed distribution. An effective
+
+method of storage allocation is employed which employs 2 neat
+
+trick for obtaining the desired argunants and functions in an
+internally-stored table of values.
+
+Study of thinun.Progralninz on the 650 Calcnlator
+
+A besic 650 program was prepared which studied various
+methods for effecting semi~optinum data storage on the drum.
+A compact decimal system for word storage and selectiom using
+
+the ten branch imstructions (BRD 3 ~ 10, respectively).
+
+Solvent Extraction of Hetals -
+
+A basic 650 program was prepared for computing the
+distribution coefficients of zircon and hafnium in the agueous
+and organic phases.
+
+Solution of the Heat Flow Equation
+
+A basic 650 progrem was prepared for the solution of a
+partial differential equation describing the heat flow problea
+
+using several different boundary conditions.
+
+Itorative Method for Solving Simultaneous Equations on the G650
+A basic 650 program was prepared whick evaluates the
+
+convergence rate, accuracy, and seolution time using Craig's
+
+method, Conjugate Gradient method, and Lanczos's method,
+rogpectively.
+
+650 Solution of the Vertical Registivity Problem
+
+A MITSS program was prepared for the solution of the integral
+equation arising in geophysical prospecting.

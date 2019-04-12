@@ -1,0 +1,53 @@
+<= "UV &@ 6D
+
+DEPARTMENT OF ELECTRICAL ENGINEERING
+
+MASSACHUSETTS INSTITUTE OF TECHNOLOGY
+
+CAMBRIDGE 39% MAS S$ 4CHUS BT T'S
+
+14 May 1957
+
+Mr. Cren Spencer
+
+Electronic Feasibility Croup
+Blaew-knox Company
+
+300 Sixth Avenue
+
+Pittsburgh 22, Pennsylvania
+
+Dear Mr. Spencer:
+
+There are several course related to digital computer given at
+M.I.T. during the academic year. However, these course are available
+only to those regularly enrolled either for degree programs Or as
+special students. These course are described in the M.I.T. catalogue
+which can be obtained from the registrar's office.
+
+A short course is being given this summer on the special topic
+of programming for the IBM 704. Because of the very large demand, this
+course is currently open only to participants in the M.I.T. Computation
+
+Center program.
+
+Ye would prefer postponing a visit to our installation for the
+present. The IBM 704 is not yet installed and the next month or so will
+be largely devoted to getting the computer into operatiom. If you are
+still interested in visiting the installation when the computer is
+actually operating, we will be happy to consider a visit at that tire.
+
+Sincerely Yours ’
+
+Dean N. Arden
+
+Assistant Professor of
+
+Electrical Engineering
+DHA:cs
+
+cc: Prof. JeB. Wiesner
+Prof. PM. Morse
+Dr. F<. Verzuh
+
+

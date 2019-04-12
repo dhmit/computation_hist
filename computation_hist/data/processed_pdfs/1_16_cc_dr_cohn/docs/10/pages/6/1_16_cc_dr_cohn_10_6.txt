@@ -1,0 +1,298 @@
+FHess
+
+W
+AAD A
+
+A TAT S Yl iy A
+e rarararivar e sl ]
+A arars ivhods
+
+ol e lats:
+) ') 7l
+.
+
+v
+Y
+v
+o
+.
+0‘4:1.4
+
+ 
+
+HARVEY COHN.
+
+912 : .
+es of a single unit. Thus the
+
+en as two conjugat
+r 8 (but never 4).
+
+can be tak
+A may equal only 2 0
+
+] units of
+mental U (of ol )
+
+signature rank 7
+
+large our (abelian)
+roup operator. Wg can Nnow .en
+
+93. Use of tGril:i: fnon?abelian one in the following manner: Consider
+hypercgmlpl.exgi);i; operator for our abelian field K (so that Z®=1), Then
+Z the Galo1s
+
+(23.1) pZ — (psy p P9)Z = (P P Pa)-
+serving the sign pattern requires that a permutation
+
+rmutation of columns as follows:
+
+L (PZ)a + (Q2)a: + (SD)1,
+
+Now the neecssity of pre
+e balanced by & P€
+
+of rows b
+
+(23.2)
+
+Formally, then, we Jerive the commutator rules
+1 : Z ] Z » 1.
+
+(23. 3) 01Z = Zas, agZ ==’ Zas, a3Z g— Zal,
+
+Thus the juxtaposition of symbo.ls Z'g (whfere 0= t‘St 2 and g belongs '.50
+the four-group), will have meanu}g as a (right) operator on ¢ and will in
+fact be isomorphic to the alternating group on four elements.
+
+dule equivalent to a nmormal module, then for
+
+. if we consider a mo
+Now 1 < 3), (of 21 above) we have three units
+
+hypercomplex wit GE (0=71= . |
+new hypercomplex system, namely ZtaE (0<t<2). In
+
+of hypercomplex units in the enlarged system is
+of totally positive units as follows (compare
+
+every
+belonging to the
+this manner the group G*
+determined from the group ®,
+
+(21.1)): :
+[1,Z,2°] X [a.F, a,EZ, a,FZ% 1]
+
+Rhees o AN
+(23.4) r=§2,@ /@"";[I,Z,Zz] X [1].
+
+Note that for » — 8 the fundamental units are shown as conjugates of a
+
+single unit while 7 =4 does not occur, in accordance with the conclusion
+of 92 above. In this way we obtain a group ®* whose multiplication rules
+
+can be given as follows:
+
+(23.5) (Zta;D) (Z*a E') = Zt+va, B’
+
+where B” = (EZ*)E’ and a;= aZta;Z".
+
+Now, the only possible proportionalities that mix rows are those coming
+from the group %, i.e., based on wunits, for the cube of any element of ®*
+is an element of ®, hence based on a scalar unit. (See section 21).
+
+ 
+
+A PERIODIC ALGORITHM FOR CUBIC FORMS II 91
+; 3
+
+24. Deg.enerate quaternary forms. On the basis of the last three se
+tions we are in a position to discuss the quaternary f .
+: o y form corresponding to
+
+(24.1) ® = IL(mapi + Maqs + mars + mysy), 1<i<3
+
+Several different ® can correspond to a single ¢ under permutation of the
+(m;) 5 according to the signature rank » of the units in the order 'Y
+
+Case I: M not equwalent to a normal module. Here r—2.4. or 8 and
+2. =3
+
+every ® is one of a set of 7/2 (i.e., /2 different “ points” in the chain ”
+diagrams of 12).
+
+Case IT: M equwalent to a mormal module. Here r=2 or 8 and
+every @ is one of a set of 3r/2 except when the ¢ is proportional (row by row)
+to one in which three of the quantities P, Q, R, S are conjugates. (In the
+exceptional case @ 1s one of a set of r/2 again). |
+
+In the table [7, p. 832] we find evidence of some of these cases for
+r—8. (ase I corresponds to A* =148, while Case II (or its exception)
+corresponds to the proportionality classes that occur by twelves (or by fours).
+Note that the module for A? = 196 is neither an ideal nor normal, yet the
+correspondence “by fours” means it must be proportional to a normal
+module (with even a normal basis). The numerical work is being carried
+much further than in Part I, but it will be the subject of a separate report.
+
+25. Concluding remarks. In Part I, Section 2, a modified quadratic
+simple continued fraction algorithm was outlined. It turns out to be more
+conventional than first thought, in fact it is equivalent to the continued
+
+fraction algorithm with the “ mediant ™ fractions thrown in. The geometrical
+
+. . - . . . "‘ - .
+construction given in 2 can be seen to be a variation of Smith’s construction
+
+[10].
+In Part III, the concluding portion, we shall treat the algorithm as a
+
+means of discovering “small norms 2 (analogously with the Pell Equation).
+
+Errata for Part I (i.e., [7])-
+
+Page 828 line 7, a should read 4
+line 18, p,q: should read 2192
+830 line 16, — 1.2 should read 1.25
+
+ 
+ 
+ 
+
+2 Y0
+W
+
+; » 5
+
+.o u
+i S
+
+ 
+ 
+ 
+
+—
+
+‘
+T
+
+.,
+
+   
+  
+   
+  
+    
+ 
+  
+   
+   
+ 
+
+ 
+
+ 
+
+Y.
+S v 7
+
+"
+
+ 
+
+A .
+-
+
+.
+I
+Wil
+i LA
+
+ 
+  
+
+Lt G GihhhnYy
+ATy
+,
+R
+‘ Yala¥s?
+A48 aT,
+
+  
+
+e
+N 5
+Ty es 1}55‘
+
+£
+=
+P T
+
+idJ0
+L'y
+
+5-"
+
+X
+
+'y
+ey
+{a y l' 1
+Uafelatls?
+{ ."..’.-',r‘ .r'l'.
+
+1Yee
+PEN 1
+/
+e
+’/
+
+\\.
+.
+aa
+-
+.‘\
+.
+‘..
+.o
+-
+>
+"
+-
+<
+.
+»
+-
+L
+-
+
+:",',‘ .
+LU
+
+-
+.
+»
+)‘.
+-
+.
+.
+-
+
+J ’
+Y (ol i 7./
+Aty - g oA e
+t' Sl el b s el
+
+v g r v .
+
+4 . ”
+et e bt e v v
+S STt e e
+'
+
+’
+e e ' . .
+
+a - E ' .
+J N

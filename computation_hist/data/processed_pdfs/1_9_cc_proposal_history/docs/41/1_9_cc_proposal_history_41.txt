@@ -1,0 +1,177 @@
+July 20, 1955
+
+Memo to: President James R. Killian, Jr.
+
+From: Professor Philip M. Morse
+Subjects Proposed Computer Training and Research Center, Outline
+Sr and Problems ARF | a
+
+ 
+
+1. Present Situation - Two separate installations (Whirlwind and
+IBM, located apart and with separate staffs. Present budget
+(approximate, including 40 per cent overhead charge on salaries):
+
+A. Whirlwind (excluding Lincoln use, but including
+full-time programming research staff) g175,000 per year
+
+B. IBM (excluding machines and staff used for MIT
+administrative services but including rentals
+for rest of IBM equipment) . 85,000 per year
+
+C. Funds to support research assistants learning
+use of machines and aiding in programming 70,000 per year
+
+Present Total $330,000
+
+B 1s now financed by charging those DIC projects which can afford
+it and giving the rest of the time free for class training and
+Thesis research. C is now financed by a grant from ONR which will
+terminate in June 1956. 4 is now financed in part by charging
+those DIC projects which can afford it and, for the rest, by an
+ONR contract which also terminates on June 1, 1956.
+
+Disadvantages of Present Arrangement - Two group, separate loca-
+tion, w some duplication o man-power and considerable loss in
+effectiveness. All present equipment going out of date, will not
+satisfy Institute needs in two years (see previous memo, attached).
+
+Proposed Reorganization - The proposed new center for Computer Re-
+
+search and Training would be built around an IBM 704 computer and
+auxlliary equipment, to be donated by IBM. IBM would use it for
+
+two of the four daily shifts (the night ones) and we would have
+
+full use for the other two shifts (about 80 hours a week working
+time). This equipment would have more capabilities than our present
+two sets of machines and the two shifts should take care of our
+educational and research needs for several years to come. The
+budget for this center would be approximately:
+
+D. IBM Rental (which includes provision for
+operators and maintenance personnel provided by
+IBM) at commercial rates, for comparison g400,000 per year
+
+
+"De
+
+E. Full-time staff for programming, research and
+assistance in laboratory classes (one adminis-
+trative head, one research head, fourteen staff,
+salaries plus usual 40 per cent overhead, plus
+travel, etc.) $150,000 per year
+
+F. Funds to support research assistants, who would
+help full-time staff and also learn machine use
+(including usual 40 per cent overhead on
+salaries) 70,000 per year
+
+G. Costs for power, equivalent rental for space, ete.,
+which might be charged against the 40 per cent
+overhead included In B and C ?
+
+(Budget for special equipment and staff used by MIT for adminis-
+trative purposes, registration, alumni, ete. - $17,000 per year -
+is not included here. Presumably this activity and its budget
+would continue unchanged.)
+
+Power requirements, including power for air conditioning required
+by equipment - 125 KW
+
+Space requirements for equipment, staff and classroom - 8,000 square
+feet working area
+
+D would be donated by IBM. Part of E and F could be obtained
+from grants from ONR, NSF and possible industrial grants, but it
+is unlikely that more than 860,000 a year can be raised this way,
+unless some presently unknown source 18 uncovered. The rest of
+budgets E and F (about 160,000 per year) could be raised by
+charging those DIC projects which can afford it, as we are doling
+now. If we charged for machine time at $250 per hour (less than
+"commercial rates), we would need to “sell” about 700 of our
+avallasble 4,000 machine hours per year, which would not cut too
+deeply into our educational and research agtivity. A survey of
+the present computing services to DIC projects indicates that we
+will probably have encugh demand from projects able to pay so we
+would not have to sell computer time outside MIT, unless govern-
+ment support for DIC projects falls off considerably. This system
+of charges would not be unfair to the DIC projects, because if
+budgets E and F were supported entirely by direct grants, we would
+use the center entirely for tralning and research, would not serve
+these projects at all and they would have to rent thelr own machines
+or buy time outside. It would be preferable to do it this way, of
+course, 1f we could raise all the funds for E and F without having
+to sell time.
+
+Since some of the staff of E would be spending part of their
+time teaching courses on machine use and supervising laboratory
+work on the machines, possibly part of this budget should be charged
+
+re
+
+BR
+i
+
+
+a
+
+to departmental budgets. Also possibly special fellowships and
+other grants could be obtained to help with F.
+
+Space Problems - To house this equipment, staff and space for
+classes, we would need 8,000 square feet working area, at least
+twice as much space as our present IBM installation (item B) is
+using. There are several possible ways of getting this space (no
+order of preference is implied in the following 1ist)!
+
+1. Take more space in Building 20. (Probably not possible.)
+
+2. Build a new building to house it. (Not very expensive
+construction, but would need air conditioning.) i:
+
+5. See if IBM could provide space for it in a possible new
+building they are considering building in Cambridge for
+thelr own sales crgenization (not feasible unless the IBM
+building were on or very close to the campus). The Barta
+Building, now housing Whirlwind, would not be desirable
+and, 1n addition, Whirlwind will be used by Lincoln Labs.
+for several years after we relinquish it.
+
+Participation by other Universities - If MIT can give our sister
+colleges in New England some benefits of the Computing Center, 1%
+would be a little easier to explain why we got such preferential
+treatment. Even without the desire of IBM for us to do 80, it
+probably would be good policy to extend an offer of help, even to
+The extent of having a coordination committee of representatives
+from some of the other institutions. The cooperation would not
+amount to much unless the other institution contributed actively,
+which would mean in practice having at least one of their staff
+at the center at least half the time. In fact, it wight be
+appropriate to say that any institution which wishes to partici- |
+pate actively should contribute directly to the support of budgets
+E and F, either by cash payments or contribution of personnel.
+
+Possible Timing - IBM indicates that it will not have a 70) avail-
+able for us until about January 1957. Until that time the present
+arrangements given in items A and B can continue, these groups
+getting thelr funds by charging the DIC projects. Since MIT is
+already giving courses on machine use, IBM has offersd to give
+
+us a 60 per cent educational discount on the machines in item B,
+until the time when the TOY will be sent to us. This will ease
+the budget pressure on B. Item C will have to be discontinued on
+June 1956, unless machine earnings have increased sufficiently for
+Some money to be avallable to hire graduate assistants. .
+
+In this transition period the two groups A and B are being
+coordinated, so they can be combined into one group, when the new
+equipment comes, with minimum loss of efficiency.
+
+The main question requiring decision in the near future is
+that of housing. The present plans and the donation of the egquip-
+ment by IBM cannet be implemented unless the 8,000 square feet of
+working space is available for the proposed Computing Center by or
+before January 1957.
+
+

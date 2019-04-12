@@ -1,0 +1,59 @@
+Page 1 of 1
+
+ 
+
+MIT COMPUTATION CENTER
+Magsachugetts Institute of Tachnology
+Cambridge 39, Massachusetts
+
+To: All 704 Users Date: January 268, 1560
+From: KE. E. Hansen
+
+J. R. Steinberg
+Subject: MI APLT - An Array PLoTing Routine
+
+ 
+
+Purpoge: To display on the 740 CRT Recorder the spots represented by a
+pair of arrays of rectangular coordinates stored in memory in
+fioating~-point form.
+
+Description: The maximum and minimum values given in the calling sequence
+define the boundaries of the screen in the user's units, If
+zero lies within the range in either direction, an axis is
+displayed in that position. Given x and y values are
+converted to raster values and them to coordinate display
+words which are copied to the scope.
+
+Method: A raster vslue Rx {or Ry) is computed by:
+Rx = (x-x minimum) (x maximus-x sinimum)/1024.
+
+Raster values greater than 1023 or less than 0 cause that point
+to be ignored.
+
+Usage: Calling sequence:
+a TSX SCOPE 4
+
+awl PZE X,,Y two locations
+o%Z2 PZE n, , 8 two integers
+cdFd DEC x maxicoam a floating point number
+air4 DEC x minimum & floating point number
+oS DEC y maximus a floating point number
+F6 DEC vy minimum 2 floating point number
+07 Return
+where :
+1) XZ and ¥ sre the locationz of the first value of the X and
+the ¥ arrays respectively,
+2) mn is the number of points to be plotted.
+3) § is the number of storage registers separating consecutive
+values of the arrays,
+4) x maximum, x minieun, vy Zeximun end y =inimus specify the
+saxisun and minimum values to be displayed in each direction,
+{These values specify the values assigned to the edges of the
+BCP , )
+Storage: Reguires 75 registers plus seven registors of COMMON,
+ES A
+
+~
+
+

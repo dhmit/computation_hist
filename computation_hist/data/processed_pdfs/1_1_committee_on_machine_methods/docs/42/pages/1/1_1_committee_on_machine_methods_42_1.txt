@@ -1,0 +1,78 @@
+——————
+
+L ; COMMITTEE ON MACHINE METHODS OF COMPUTATION
+. Minutes of the Third Meeting
+~ December 3, 1953
+
+Persons Present: H. Feshbach, C. C. Lin, P. M. Morse,
+e - W. W. Seifert, F. M. Verzuh
+
+Morse reviewed the discussions between the Bureau of
+Standards Tables Computing Group, the Applied Mathematics Ad-
+visory Committee to the Bureau (of which Morse is now chairman),
+and the Natlonal Science Foundation regarding a conference on the
+needs for numerical tables and facilities for making these tables.
+He reported that it had been suggested that MIT sponsor such a ra
+conference next spring and the possibility that the Science Foun-
+dation could finance such a conference. It was suggested that to
+explore these possibilities a subcommittee of Feshbach, Hildebrand,
+andtlgorse be set up to report back to the main committee af; some Tuture
+ROACIRAT -
+
+Verzuh then reviewed the present operation of the differ-
+ential analyzer and its .possible budget for later operation. At
+present, the differential analyzer is financed and is completely
+used by the Instrumentation Lab. The present budget is about
+$30,000 a year for personnel (2 engineers 2chnician, 1 com-
+puter) with X0 per cent overhead, about g12,000 a year for ma->% 2w
+terials, and this with a small malntenance cost brings the total
+5 ' budget to a a year. Verzuh reported that onm an
+
+¢ austerity basis the budget could be cut mainly in the personnel
+‘cost to about $20,000 a year.
+
+; | Seifert outlined in a similar manner the budget for the
+- DACL analogue computer. The present budget is over a half million
+a year, but if the machine were cut down to one row of DC equip-
+ment and one row of AC equipment (allowing nearly 100 operations,
+such as integration or multiplication), the budget then, including
+2 or 0(3)0 techniclans and a supervisor and engineer, would be about
+= a year. - f
+
+ 
+
+ 
+
+    
+ 
+
+     
+
+    
+
+  
+  
+
+  
+
+ 
+
+Verzuh then reviewed the IBM equipment. At present,
+the budget 1s szbout 85,000 a year, which includes salaries for
+about 8 people, material of about $3,000, and IPM remtal, for the
+rest of which 17,000 a year is needed for equipment used by the
+Institute in its administration. On an austerity basis Verzuh
+recommended that several of the machines be relinquished (such
+as the 604) and that the staff could be reduced to 3 or 4. The
+budget then would come to F17,000 for the equipment needed for
+MIT administration, 21,000 for search computing equipment, and
+about 12,000 for salaries, making a total minimum budget of about
+$50,000 a year. This could, of course, be reduced materially if ..
+IBM would reduce its rental charges on part or all of the equipment.
+
+Then followed a general discussion concerning what
+’ equipment should be kept and how the committee should recommend
+
+ 
+
+&

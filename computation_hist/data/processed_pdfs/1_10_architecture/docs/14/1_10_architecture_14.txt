@@ -1,0 +1,258 @@
+TRIP REPORT
+on
+
+i. B. M. Corporation
+580 Madison Avenue
+New York 22, New York
+
+July 24, 1956
+
+F. ¥. Verzuh
+July 26, 1956
+
+
+®
+
+1.0
+
+2.0
+
+8.0
+
+9.0
+
+ 
+
+TABLE OF CONTENTS
+
+Introduction. « « os ¢ 2 oc ¢ ¢ ¢ ¢ ¢ os » 5 s
+Acoustical Measurements on the 704 Installation
+Assignment of Space in the Computation Center .
+Office Furniture Requirements . « « « = o = os o
+Conference with Dr, Hurd. ¢ « « « ¢ « « « oo «
+Conference with New Products Division « « o + «
+New York Data Processing Center . « « » © © »
+704 Training Course « « « o« ¢ s +» oo 5s © oo » s =
+
+CoORCINBION. =o oo 7» » 4.0 » @ iss oie s)he" e 0.0
+
+
+TRIP REPORT
+
+Place Visited: I. B. M. Corporation
+
+590 Madison Avenue
+New York 22, New York Tel: Plaza 3-1200
+
+Date of Visit: Tuesday, July 24, 1956
+
+Visited By: F. M., Verzuh
+
+Individuals Contacted:
+
+Ss
+¥.
+S.
+G.
+P.
+i.
+R.
+G.
+
+Labate, Bolt, Beranek, and Newman C. €, Hurd, Director, EDFA
+
+Gans, Skidmore, Owings & Merrill D. Pendery, New Products Div.
+Heber, Skidmore, Owings & Merrill B. Oldfield, Data Processing Center
+Palmeros, Syska and Hennessey Ww. Heising, New Products Div.
+Hunter, IBM Real Estate Division LE. Eopley, Educational Dept,
+
+C. Arnisted, EDPM Engineering
+
+Riley, EDPM Sales
+7. Hunter, Educational Representative
+
+C.M.F, Peterson, M. I. T.
+
+E SLES EEEE
+
+1.0 Introduction
+
+The prime purpose of this meeting was to determine the final machine
+
+@ room layout for the 704 installation. In addition, however, during the course
+© "of thd day, a number of sepavate meetings were held covering the following itéms:
+
+1. Measurements of noise on the 704 machine,
+2. Space layout of the Computation Center,
+
+3. Real estate requirements -~ furniture, et al, for the
+Computation Center,
+
+4. Arrangement for the visit to the 704 ia Poughkeepsie,
+5. ‘Discussions With tWe“New Products Division,
+
+6. Discussion of the 704 training course.
+
+Details regarding the discussions are presented in succeeding sections.
+
+2.0 Acoustical Measurcmenes on the 704 Installation
+
+Mr. Labate spent Monday, July 23 making noise measurements in the 704
+
+
+-De
+
+installation at 590 Magigop Avenue, AT thig Beeting he Presenteg Seven (7)
+Summa zy Braphg Which indiegteq the Yesulty op thi day-long Beasuremenig.
+h
+
+Al thoy © is pp aring » techniegy Teport of hig findingg for the Computation
+Center, a Tow conelyggn, Should pg Stated poy,
+
+de The Principay noige generatopg in the 704 oom are the Type 704
+na T 7
+
+Labatge indicateg that the oom was weyz degigneg acousticalyy, Howevey,
+the Boise level was Createg Primarily by the fang locatey in thege Machineg It
+Wag agreed that Steps Would haye to be taken tq Correct thig difficulty, The
+following Suggestiong Vere mado;
+
+1, Examing the Possible Temoval of the fang irom the 704 733, ang
+8, :
+
+It became 2Pparent frog ou discusgigng that pe had an incomplete set
+Of SoaSUrementg and ag igements have
+
+ra & © measy :
+on Saturday July 23 betweey 8:00 and 9:30 Qe = ot thig Time the 704 Will be
+2 3
+
+L8sigment op Space in the Computation Centep
+
+At a Second Neeting held q¢ 12 oon Besgrs, P, Hunter, G. 7, Hunter
+S, Habey, C. Peterson, and Verzun discusgeg the Pregent aSzignmont of the
+
+
+a
+
+2.9 Office Furniture Requirements
+
+A brief Resting wag Reid io discuss the obli
+gations of the IBM Corporation
+
+in regard to the Payment of furniturs in various ooms of the Center, ym
+
+that azy woulg Supply the Cquipment in the following areas:
+
+ 
+
+i. The Hagnetic tape Cabinets, Unistoral Cabinets, carg files,
+etc., in the 704 room,
+
+4. Al} equipment, furniture, etc., in the customer engineering area,
+S. All equipment, furniture, in ths schedule area,
+6. All equipment, furnitupe, in the offices of IBN staff,
+
+7. All Squipnment, furniture, in the offices of IBM &ppointees
+from Visiting institutiong,
+
+It was agreed that a Suggested list of such furniture would be Prepared in the
+near future, and submitted to IBM for Consideration and approval.
+
+5.0 Conference with pe. Burd
+
+. ... , Dr. Huxd called a meeting io Jhform us that the original Proposed
+Plan of Zlying the : ie by
+Plane would Tequire rental o
+
+date of August 24. This is eit to be impractical and undesirable for several
+reasons. After Considering several alternatives, the following was agreed upon:
+
+il. Dr. Hurd will issue ga letter of invitation to all attendees
+to visit Ipy Corporation (at Imi's °Xpense} on one of the Zour
+days -= August 2%, 27, 88, and/or 30, respectively,
+
+2. A single, 20~passenger Plane will transport visitors to
+Poughkeepsie, leaving MIT at 12 noon and yeturning to MIT
+approximately $:30 thet evening,
+
+3. This tour will include g trip through the IBM production
+facilities, g demonstration of the 704 Computer, followed by a
+dinner at the Homestes, .
+
+In addition to “he above arrangements which IB is making to the registrants
+on a gratis basis, Dr, Hurd wanteg to emphasize that IBM would be happy to
+contribute to ga banquet (or other social arrangement) which would he arranged
+at MiT during the two-week course,
+
+
+6.0
+
+7.0
+
+8.0
+
+8.0
+
+Conference with New Products Division
+
+At 8 meoting with Messrs. D. Pendery and ¥. Helsing, a number of the
+704 alterations, modifications, etc., were discussed. In particular, the recent
+1ist of RP, items were evaluated in light of the IEM-MIT mode of operation in
+the Computation Center.
+
+i
+
+It was suggested that a copy of the MIT computer efforts should be
+
+given to the group in order to provide them with certain writien materiel -
+
+regarding pest MIT programming efforts in this area. After this manual has
+
+been studied, a later meeting will be arranged to discuss additional requirements
+on the ''future generation machines”.
+
+New York Data Processing Center =
+
+At a conference with Mr. Bruce Oldfield, Manager, Data Processing Center,
+he was asked to provide a list of the RPQ items, additional features, alterations,
+etc., currently available on the New York and Poughkeepsie machines. In this
+manner, the MIT 704 would provide complete SRSLY to the two installations.
+
+0ldfield was also asked to provide us with the list of control panels
+and other equipment which are currently in-use at the other two installations --
+again attempting to insure compatibility.
+
+704 Training Course :
+
+A number of meetinge were held with various members of the IBd :
+Educational Department to obtain any information which could be used in the 704
+course which is to be offered by HIT on August 20-31. It was finally agreed that
+this matter could be handled by a separate meeting at MIT on Friday, August 27,
+which would be attended by Messrs. E. Xopley, Se Best, G. T. Hunter, F. M. Yount
+and other MIT 704 staff. ,
+
+Conclugion
+
+Generally speaking, this day-long session of meetings was highly
+satisfactory. In certain cases, however, it was apparent that insufficient
+factuel data wae available and steps were taken to obtain immediate information.
+Specifically, Labate would obtain additional noise measurements at New York on
+Saturday, July 28. Simllavly, Eopley, et al, will meet at MIT on Friday,
+
+July 27, to help formulate the program for the 704 course, Finally, information
+concerned with real estate -- furniture, equipment requiremenis, etc., will
+
+be compiled during the next two weeks in order that orders may be placed,
+purchases made, etc., during the current fiscal period. If this is done 2ov,
+equipment will arrive on schedule and (we hope) at the completion of the
+building on January 1, 1857.
+
+F. M. Verzuh
+July 26,1956
+
+9
+
+Ce
+
+

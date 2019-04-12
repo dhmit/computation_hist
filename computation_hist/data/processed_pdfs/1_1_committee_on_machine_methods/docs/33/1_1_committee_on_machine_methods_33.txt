@@ -1,0 +1,79 @@
+COMMITTEE ON MACHINE METHODS OF COMPUTATION
+| Minutes of the Third Meeti
+Academic Year 52-753
+
+Persons Present: C. W. Adams, S. H. Caldwell, H. Feshbach,
+J. R. Forrester, J. A. Hrones, C. C. Lin,
+P. M. Morse, E. Reissner, and W. W. Seifert.
+
+ 
+
+The subject of the discussion at this meeting was the
+organization of courses in the machine computation field. Forrester
+indicated that there were several types of course. a this field,
+one set primarily of interest to the builders of machines. Such
+courses have arisen naturally at the Institute, chiefly in the \
+Electrical Engineering Department, and there seems to be no problem
+concerning thelr presentation or planning. On the other hand, there
+‘is a growing need for courses for persons who wish to use machines.
+Here a certain small amount of material on what is inside the "black
+boxes" is needed, but the primary emphagis should be on the operating
+characteristics and on the use of the machine. | |
+
+& Morse pointed cut that the Mathematics Department now had
+a course in the mathematics fundamental to machine calculation. There
+was some discussion as to the advisability of increasing the materiel
+on numerical computation in M351 and on perhaps including a small
+
+amount of material in M22. io definite agreement was reached on these
+matters, however.
+
+ 
+
+After some discussion there seemed to be a& general agreement
+on the need for a course zt the senior level which would involve a
+survey of machines and their properties, somewhat along the lines
+given on pages 1 and 2 of the appended memorandum from Adams. It was
+agreed that the number of Electrical Engineering pre-requisites for
+this course should be kept ot a minimum in order to attract students
+from as wide a variety of fields as possible. The ¢xact details of
+i the material included could not ax present be agreetl upon, but the
+| genaral scope of the material as given in Adams' outline wag felt to
+
+be correct. Hrones and Reissner and Feshbach indicated agreement
+
+that some such course would be a useful addition.
+
+There was not time for 3 general discussion of the more
+advanced professional courses for professional users of the machines
+or builders of machines. Though a certain amount of discussion was
+
+
+De
+
+directed toward this general subject. There seemed to be general
+agreement, for example, that a one-term course on punch card eguip-
+
+ment of the sort proposed by Verzuh was probably desirable, though
+it was not certain how much demand there was for such a gourse gf
+
+present. The feeling was that such a course would be ugeful to
+
+preta end the future of the course would then depend on ics BOpU-
+ar J ‘
+
+The next meeting of the Committee will be at 3 p.n.,
+
+Wednesday, December 3. Morse said he hoped that Professor Browm
+would be pregent then so that the subject of courses could be con-
+
+tinued.
+Phill As
+
+Ee
+
+   
+
+11-5.52 (Mesting)
+
+

@@ -1,0 +1,562 @@
+the use of 2
+Routines. f Wh
+grammer to use
+
+factoring of resu
+ora
+progr
+
+S
+
+s LA
+
+SR
+
+AR R
+el
+
+programs.
+from binar
+
+RS
+
+bt
+pesen
+
+DR
+3
+
+by }\‘V‘,‘.
+
+N
+
+YTt
+
+ey
+
+$e5
+
+L
+
+‘-
+i,
+.'\{3 1!
+
+s
+
+   
+  
+    
+     
+    
+      
+ 
+    
+    
+   
+     
+   
+     
+      
+   
+   
+
+ARTHUR L. LOEB AND
+
+omprehensive System f)f Service |
+he Whirlwind computer, tbey p(.‘l‘m\t,r tbe pro- \
+on decimal digit numbers (occup)'rmg two W l.nrlwmd
+B ec'mde from 107 10 10", with automatic scale-
+glt:‘t(r)n ?(;gtl;lm significant digits. They also cl‘w{)}‘e tho pro-
+mbolic addresses (floating addresses) Qf leglbt(‘,lb. in his
+e numerical addresses usually }'equu'cd in using the
+which simplifies both the writing an.d correcting of
+s also provide qutomatic conversion of numbers
+m and the printing of such numbers on any of
+f the computer. AD additional advantage in
+m is the presence of a number of -checks on
+ails, the provision for automatic printing
+hich should qid the programmer n
+errors. Thus the Comprehensive
+\g of a problem at some
+as used for the present
+
+set, of routines called the C
+
+en used with t
+
+registers) rangih
+
+mmer to use Sy
+am instead of th
+Whirlwind computer,
+These routine
+y to decimal for
+the various output devices 0
+using the Comprehensive Syste
+computation and, when a program f
+of certain important information Wi
+diagnosing his program and finding 1ts |
+System greatly simplifies and speeds the programmn
+sacrifice of effective computer speed. This system W
+problem.
+6.The program for Whirlwind I. A flow diagram f.or the program 18
+<shown in Fig. 3; the following features require explanation:
+
+(a) Main program refers to the calculation of R, R/, and T as f\lllctiqns
+of n and k using ) into point
+
+(1501205 iy (7). 1t transforms point (n, k
+(R, T) or (R, T). (See Switch.)
+
+(b) Yes-no decision. Whirlwin
+
+d I can choose between two courses of
+
+action by consulting the sign of any number stored in the memory.
+
+(¢) Directing counter. For the computation of the partial derivatives,
+the main program 18 used three times; each of these main program calcula-
+tions is followed by 2 particular sequence of operations—t.hc first by chang-
+ing n, the second by changing k, the third by the calculation of the partial
+derivatives. Therefore, the machine must keep track of the required opera-
+tion that is to follow each performance of the main program. The direct-
+quence of orders and two control registers whose
+sign digits are changed each time the
+that the control registers have succes-
+(— =), (=), (++), ete. The
+o obtain directions after per-
+
+v in the
+Qession
+
+ing counter consists of a se
+sign digits are examined. These
+directing counter is referred to, so
+sively the following signs: (++), (+-),
+directing counter thus enables the machine t
+
+ 
+
+T The Comprehensive System of Service Routines 1s deseribed more full
+
+paper “The M.LT. Systems of Automatic Coding: Comprehensive, Summer
+
+. > o) 10 ’ r « ~ . | ~ o =
+
+and Algebraic,” by C. W. Adams, presented on May 13, 1954, at the Symposium of
+- < - x ) B n e - - . p ; v ;
+
+.‘\llio‘rndll(, l.mgl amming for Digital Computers, sponsored by the N
+
+cal Computing Advisory Panel. This paper is to be published in the
+
+the Symposium.
+
+ 
+  
+      
+    
+ 
+   
+ 
+ 
+  
+
+   
+  
+    
+
+avy Mathemabl-
+Proceedings of
+
+ 
+
+DIGITAL COMPUTER AS A LABORATORY TOOL 9
+
+START
+COMPUTER STOPS
+
+ 
+  
+ 
+
+  
+    
+   
+ 
+ 
+  
+ 
+
+READ IN DATA (R, ,R,.T, .0
+A,np) AND FIRST ESTIMATES
+OF n AND k IF AVAILABLE
+
+ 
+ 
+
+ARE MORE DATA
+TO BE EVALUATED?
+
+  
+
+CALCULATE FIRST
+ESTIMATES WITH
+APPROXIMATE
+EQUATIONS
+
+ 
+    
+     
+
+   
+ 
+
+ARE FIRST ESTIMATES
+AVAILABLE ?
+
+STORE Rg
+IN MAIN PROGRAM
+DIRECTING COUNTER
+
+STORE Ry—Ro ,
+To-Te
+
+    
+ 
+ 
+ 
+ 
+   
+
+      
+  
+
+    
+ 
+
+   
+ 
+
+STORE R, —R,,
+Te-Te
+
+SYORE R“Ro »
+Ta=Te
+
+   
+  
+ 
+
+  
+   
+  
+
+ADD 3 TOn SUBTRACT 3 FROM n+9 3 B
+COMP On On Bk Bk
+ADD 3 TO k OMPUTE 30, 30 3R 3T
+
+   
+ 
+
+MAIN PROGRAM
+COMPUTE NEW n_k
+
+ARE BOTH Rq-Ro AND Ta-To LESS
+THAN EXPERIMENTAL ACCURACY?
+
+PRINT b BEHMIND RESULTS
+AND MAKE SWITCH POSITIVE
+
+  
+ 
+
+ 
+ 
+
+PRINT RESULTS
+
+   
+
+IS SWITCH +?
+
+PRINT |
+BEMIND RESULTS
+
+   
+ 
+
+STORE Ry
+IN MAIN PROGRAM
+AND MAKE SWITCH
+NEGATIVE
+
+FIGURE 3-FLOW DIAGRAM
+
+by consulting the control registers and by
+
+forming the main program simply
+e combination of signs of
+
+performing any one of four tasks depending on th
+the two control registers.
+
+(d) Swilch. The switch 1s a simplified directing counter. It consists of a
+register whose sign 1s determined by whether film incidence or backing
+incidence is under consideration. A positive sign indicates film incidence;
+g incidence. Initially, the switch has a posi-
+
+hanged when backing incidence is reported.
+
+(e) Data for backing incidence. 1t has been shown that for a given set of
+n and & the transmission 7' is the same when radiation 1s incident on the
+film as for radiation incident on the backing, but that the reflectance 1S
+different for the two cases. The main program computes R and T when the
+switeh is set positive, and R’ and T when the switch is set negative. Gener-
+k) is found which transforms into (Ro, To) and another one
+
+a negative sign indicates backin
+tive sign, and this sign 1s only ¢
+
+&“)’ a S(\t (n,
+
+  
+   
+     
+   
+   
+  
+  
+ 
+ 
+ 
+ 
+ 
+  
+  
+ 
+  
+   
+    
+     
+   
+    
+       
+      
+     
+   
+      
+     
+      
+    
+    
+     
+  
+     
+  
+    
+     
+     
+    
+     
+    
+ 
+   
+       
+    
+   
+    
+     
+   
+    
+   
+ 
+ 
+
+-
+-
+
+-
+
+ 
+ 
+
+-
+X
+
+. -
+
+S
+
+  
+ 
+  
+
+  
+  
+  
+ 
+    
+    
+  
+
+   
+ 
+
+ey
+- -
+.
+, -
+£
+=
+z:
+
+  
+ 
+
+-
+A e
+LA TR
+-
+
+-..
+L
+-
+
+»
+.
+-
+-
+-
+A
+-
+-
+.
+-
+o
+
+   
+ 
+ 
+  
+  
+ 
+
+-
+-
+]
+-
+-
+-
+-
+3
+-
+-*
+-
+-
+-
+-
+X
+o o u
+
+ 
+  
+  
+
+-
+g
+Ty
+<5
+o -
+
+ 
+
+1
+-
+~~
+"‘
+x -
+
+- L
+S
+
+-
+
+  
+ 
+
+A
+
++
+A
+
+M e | L
+S ieie’n ! ‘.
+‘. ' s te Ry
+.
+.
+‘
+
+ 
+  
+ 
+ 
+ 
+
+. -
+
+  
+ 
+
+- - -
+
+A
+s
+
+AN
+
+  
+ 
+  
+
+  
+      
+
+2t ?,
+
+(330 ek
+'. ". ")""'
+ettt}
+'l,.:","o‘
+O AW
+
+   
+
+“““““
+v
+
+''''''
+......
+aaaa
+
+LM A
+
+"""""
+
+' ¥ v
+’ v
+""""
+..........
+
+'''''''
+Lyi»
+)
+
+' .
+.
+ooooo
+\ Y !
+
+""""
+........

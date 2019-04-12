@@ -1,0 +1,34 @@
+Se
+
+areas which we feel should be investigated, which are certain to
+produce results of immediate interest and which, in addition,
+should provide hints as to still more important applications.
+
+A, One of these is the 4eopcr‘1nvestigation of machine
+logic 1tsel£. A computer of the complexity of the 704 is too big
+to be able to see immediately how 1t can "think." Host nachinea
+are now programmcd to do ordinary arithmetic, a a few progrmma have
+" been devised to make the maohine cbey the rules of Boolean logic
+and some tgought has bcen spent on working out programs to make ftlre
+maohine play chess or checkers, in other words to obey the logie
+of a game. Different sciences and branches of learning have
+their own kinds of thought processes. For example, economics
+and genetics each have patterns of thought which do not exactly
+duplicate those of physics. Fundamental research 1s needed to
+work out programs, rules of thought for the machine, which correspond
+more closely to these other patterns. With a machine of the
+flexibility and storage capacity of the 704, such research 1is worth
+while. It will have to be tackled, at the beginning, by teams of
+experts in the field of interest, together with mathematical
+logicians who know machine operation.
+
+B. Another general line of attack 1s/£ﬁe field of the
+storage and rapid access to information, such as 1is needed in the
+problems of language translation and historical research, for
+example. Several schemes of ctding of jnformation, sco that it can
+be found quickly and e;sily, have been devised on paper, but the
+"pugs" in such schemes will only become apparent when masses of
+
+information, of the order of several hundred thousand items, are
+
+to be ordered and sorted out. The new installation at the

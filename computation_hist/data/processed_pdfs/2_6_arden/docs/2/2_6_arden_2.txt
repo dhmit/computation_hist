@@ -1,0 +1,73 @@
+< UT © ©
+
+ 
+
+COMPUTATION CENTER
+
+MASSACHUSETTS INSTITUTE OF TECHNOLOGY
+
+CAMBRIDGE 39, MASSACHUSETTS
+
+October 27, 1958
+
+Mr. Robert E. Dalton
+5625 S., University
+Chicago 37, Illinois
+
+Dear Mr. Dalton:
+
+Thank you for your letter requesting information
+concerning courses and opportunities at M.I.T. in the
+digital computer area. In the Mathematics Department an
+excellent two-semester sequence on numerical analysis is
+offered by Professor Hildebrand. The quality of these
+courses can be deduced from an inspection of Professor
+Hildebrand's recent book. In the more theoretical area of
+applied mathematics, excellent courses are offered from time
+to time by Professors Lin and LRkeissner. Many excellent courses
+pertaining to applied mathematics are also given in the Physics
+Department. In particular, the two-semester sequence on
+the methods of theoretical physics offered by Professors Morse
+and Feshbach is an excellent introduction to applied mathe-
+matics and in particular with regard to its relation to physics.
+I am sure you are familiar with their two-volumne series in
+this area.
+
+Currently, a course in automata is being offered in
+the Mathematics Department by Dr. Marvin Minsky. There are
+also courses on this subject in the Electrical Engineering
+Departmen t¢ which are taught by Professors John MeCarthy, E.
+Arthurs, Richard Jeffries and myself. In the area of information
+theory, we have both Professors Shannon and Elias and in the
+logical design of digital circuits, Professor Huffman is an
+expert.
+
+Opportunities for assistantships are avallable here
+at the Computation Center and in general elsewhere in the
+Institute. I suggest that you contact the department in which
+you would propose to enroll regarding further information on
+this subject.
+
+
+Mr. Robert E. Dalton Page 2
+
+As you know, an IBM 704 is available at the Institute
+and at present the completely transistorized TX-0 is also
+available. It is intended that the 704 will be replaced by a
+709 in the not-too-dlstant future. It seems safe to say in
+the foreseeable future, the most up-to-date computation equipment
+will be available at the Institute.
+
+If you should be in this area, I would like very much
+to meet you and discuss further the opportunities at M.I.T.
+
+Sincerely yours,
+
+Dean N. Arden
+Assistant Professor
+of Electrical Engineering
+
+DNA RM
+Copy to Professor Morse
+
+

@@ -1,0 +1,176 @@
+A PERIODIC ALGORITHM FOR CUBIC FORMS II
+
+<.A..~=n‘ A
+i ' > .
+] vy
+L A 3
+S22
+
+CrT
+PPPIR 5 UL DY
+
+(16.1) ¢=[P,Q,R,8].
+
+i
+
+ 
+
+A PERIODIC ALGORITHM FOR CUBIC FORMS I1.*
+
+By HARVEY CoHN.
+
+ 
+
+art II. In this continuation of our discussion
+of a cubic sign-discrimination algorithm, int.roduced in an earlie‘ar volume of
+this JoUuRNAL [7], We shall turn our ajctentlon to the computatlo?l of units.
+
+First of all we shall show (leaning once mor‘e‘ 01.1 the Minkowskiay
+algorithm) that all units are di.scoverable by th(.e nelghb?r process ” of
+Part I [7], pp. 829-833. In so doing we n.lust rest?lct our lattice to a mody]e
+M of preferably (but not necessarily) all integers in a totally real cubic fie]g
+@. The field @ need not be abelian but the module 2 must be non-singular
+(i.e., of dimension three over the rationals). The units would then lie in 9
+the order of the module .
+
+Secondly we shall consider the manner in which the units shoulg be
+written. As we observed in [7], p. 833 certain 3 X 4 matrices are propor-
+tional only under certain rearrangements of rows and columns. This malkes
+it desirable to have a hypercomplex notation, which also brings out normal
+symmetries of the matrices.
+
+In comparing our modified algorithm with its Minkowskian progenitor
+we start with the realization that what we are doing is refining the algebraic
+properties of the algorithm at the expense of the geometric properties, hut
+the algebraic simplifications make numerical work * more feasible while the
+geometric complications make themselves felt only in existence type proofs
+which are disposed of here. This dichotomy is illustrated in the geometric
+and algebraic portions of the present work.
+
+15. Introduction to P
+
+Existence of Units.
+
+16. Types of neighbors. We consider a reduced matrix ¢ in the sense
+of 4 (above) consisting of four column vectors which we shall write as
+
+ 
+
+* Received February 5, 19
+
+4. Research sponsored by t TG A o amEai
+Ordnance Research under Cont e oy tie U 8. ArmysOfices
+
+graphical refer ract No. DA-20-018-ORD-12332. The sections and biblio-
+“ Part i.-, ofttllnces are numbered consecutively with those in item [7]1 which formed
+1€ present work. Errata for Part I are appended to the present paper.
+
+*The present m S ot 3
+Dr. Saul GI;m, ethod is being programmed for the EDVAC at Aberdeen, Md., by
+
+904
+
+we shall classify the 24 neighbor possibilities (explained in 10 above) into
+three types depending on the partition of the symbols serving as second and
+ihird element in the neighbor operation :
+
+Type 1 Type 2 Type 3
+P, 8 or Q. B 0,8 or P, R R,8 or P,0Q
+(QPS), (PQR) (PQS), (QPR) (PRS), (RPQ)
+(16.2) (RPS), (SQR) (RQS), (SPR) (QRS), (SPQ)
+(QSP), (PRQ) (PSQ), (QRP) (PSR), (RQP)
+(RSP), (SRQ) (RSQ), (SRP) (QSR), (SQP)
+
+LeMMA. Every reduced matraz ¢ has either one or two (reduced)
+neighbors of each type.
+
+Outline of Proof. We must consider the subdivision into cases as deter-
+mined by the relative magnitudes of each row: (| pil,| |, |7, |si]),
+(compare 11). There are actually twenty-four different cases (to within
+elementary interchanges of rows and columns and changes of sign in rows).
+The details are omitted in the interests of brevity we simply remark that
+this method was used in the (weaker) statement made earlier [7], p. 830
+that there are from three to six neighbors.
+
+17. Occurrence of independent units. The units deduced from the
+Minkowskian algorithm were “ controllable ” in the sense that.if we take a
+succession of neighbors to one Minkowskian triple by “ lowerl‘ng the.same
+face” (say ;) each time we would obtain a unit whose anJugate is less
+than unity and whose other conjugates are greater than unity In a.bsf)lute
+value. If units are formed corresponding to two different they are inde-
+pendent by the classical argument of Dirichlet. .
+
+The same thing can be done here, except that the “ face” correqundmg
+to @; belongs to none of the vectors in the quadruple (16.1), e.g. l.t ‘(133
+happen that the maximum of |pi|,| @ |: | raily]jex |eannet et
+
+it ly
+' ' o use other quantities namel)
+through any neighbor operation. We need to use q
+
+1=1=3
+(LAY hy — wiD, ’
+where 4,() are the components of U:
+
+g0 —=Q+8, U®=EBE+5
+
+(172) LT(])————'I) -i—— S.
+-+ » in the left hand side of (4.22)
+
+oy . i«
+(The h; are positive if we suppress the
+
+as we now do for convenience).
+
+L
+d /
+o - - pe R
+.
+>
+
+m 4 2
+
+))’ :
+T y
+
+.
+
+-
+
+L)
+
+D"“r}
+
+3 ’
+’ 4 )
+S =y
+> r
+" P4
+. y {
+£
+r \
+. L P
+"l { -t
+
+LA
+
+ 
+
+-
+b WY
+53
+
+STy
+Foidde: v
+PP
+CULERNE 5%
+
+12y
+
+>3 S
+;
+
+>33
+ot
+
+>y

@@ -1,0 +1,52 @@
+NOTE ON FIELDS OF SMALL DISCRIMINANT
+
+HARVEY COHN!
+
+The problem of finding totally real fields of any degree and small
+discriminant is of interest, aside from intrinsic reasons, because of its
+connection with critical lattices for the product of the coordinates.
+The ground-work, however, seems to be largely unexplored. This is
+probably illustrated by a somewhat persistent conjecture [4]* that
+for totally real fields of degree (g—1)/2, where g is a prime >3, the
+smallest discriminant 1s g@=>!2, achieved for R (cos 2m/g), where R is
+the field of rational numbers. (This is the maximal real sub-field in
+the field of the gth roots of unity.) This conjecture was often made im-
+plicitly even before its verification [1] by Davenport for g=7 (the
+case g=35 having been trivial). We disprove this for those g, such as
+13, 37, etc., for which (g+1)/2 is also prime. We use relative quadratic
+fields built on base fields of small discriminant, a device used previ-
+ously by Mayer [3] in his work on biquadratic fields.
+
+The counterexamples are constructed by adjoining to the totally
+real base-field k the quantity u'/%, where u is a totally positive integer
+in k2 which is not a perfect square; we call 2(u'/?) = K. Next we consider
+the prime ideal p dividing the odd rational prime p and the prime ideal
+q dividing 2, in the ground-field 2. Then according to the well known
+methods of Hilbert [2] the discriminant D, of K, and the discriminant
+d, of k, are related by D =d?N(d) where N(b) is the norm (over R)
+of the relative discriminant d. Assuming for convenience that d is
+odd, we have d=&3? where © is the product of all p and q that di-
+vide (u) to an odd power, and ¥ is the product of all q for which
+the congruence p={? mod q*** is unsolvable for { an integer in &,
+with e equal to the exponent of the power to which q divides (u). In
+the cases worked out fully (below) it will prove advantageous to
+choose u relatively prime to 2 and such that the congruence p={?*
+mod 4 is solvable, for then T =(1).
+
+We take for the base-field k=R(cos 2m/l), of degree (I—1)/2,
+where [ is a prime >S5. For this field d=1(9/2,
+
+(i) First we take p=35. Since (5) is unramified and p=1 mod 4,
+then = () and N(d) =5%V/2, Therefore KV =R(cos 2m/l, 5''?) de-
+
+fines a totally real field of degree !—1 with discriminant D®
+= Ji-35(—1)/2,
+
+Presented to the society, December 28, 1951; received by the editors January 15,
+1952.
+
+1 Research currently sponsored by the U. S. Army O.0.R.
+
+2 Numbers in brackets are items cited in the bibliography at the end.
+
+713

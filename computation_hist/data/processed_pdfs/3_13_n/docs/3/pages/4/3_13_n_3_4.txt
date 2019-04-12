@@ -1,0 +1,51 @@
+PROGRAMMING AIDS:
+
+Since the arrival of the equipment to augment our 650 there has been a
+noticeable increase in the cost of SOAPing a program. This, of course, is be-
+cause the existing SOAPs, do not utilize the hardware configuration at hand.
+After discussing this problem with others we decided to write a new SOAP rou-
+tine which would use the machine as we have it. (Indexing registers, floating
+point, and immediate access storage.) A prototype deck was demonstrated in
+Austin, Texas on May 2, 1959. This deck was by no means final, but established
+some retrieval of lost costs over basic SOAP,
+
+The proposed SOAP X is in its evolutionary stages with each mew feature
+coming at the expense of painful searches for locations. Contrary to popular
+belief the I.A.S. does not give a 60 word extension of memory if used for more
+than one subroutine. The first intent of SOAP X is to increase speed, the
+
+- second is to maintain compatibility. SOAP X will accept programs written in
+
+CASE SOAP III language completely. Ideas gleaned from the work of others such
+as IBM, Carnegie Tech, Wisconsin, etc. have been weighed and added if feasible.
+Some new features for utilization of the IAS have developed, as previously,
+through the needs of those actually doing the programming.
+
+Such subjects as '"Macro' instructions have been evaluated and finally re-
+jected due to memory limitations. SOAP X is designed for machines without bulk
+storage units. The use of Carnegie Tech's TASS routine is suggested for such
+fortunate users. An optional feature in the utilization of SOAP X is the util-
+ization of a 407-on-line accounting machine for immediate listings of the single
+instruction output. By this technique it is possible to get your one per card
+listings while assembling and get a five per card deck corresponding to the
+program. (l/card and 5/card output are still available by MIX operation.)
+
+There is obviously some question as to the appropriateness of publishing
+the notice of a program prior to completion. This would not have been done
+but for the academic year nature of this bulletin. It is anticipated that full
+doccumentation including decks and wiring diagrams will be available prior to
+the start of the fall semester. Since we would not be able to communicate
+through this medium until that time we decided to6 pre-announce ARIZONA SOAP X
+early., This of course puts the job on a ful 'crash' basis. Since the decks of
+individual intended features run, we feel confident of our ability to merge
+them. Of course, a period of error testing is necessary to permit our friends
+use of a reasonably bug-free routine.
+
+We encourage our readers to comment on their needs in the realm of SOAP
+type operations and we will attempt to analyze the application to SOAP X. The
+overall intent is the greatest utility to the greatest number of users in-
+cluding ourselves,
+
+ 
+
+@

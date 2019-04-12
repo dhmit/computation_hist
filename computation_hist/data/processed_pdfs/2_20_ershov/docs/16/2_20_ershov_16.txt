@@ -1,0 +1,119 @@
+April 13, 1959
+
+Academician A. A. Dorodnitsin
+Director, Computation Center
+Academy of Sciences
+
+Moscow
+
+J. 8. 8. R.
+
+Dear Academician Dorgdnitsin:
+
+Since last September I have, as you can see, become Director of the Research
+Computation Center at the University of North Carolina at Chapel Hill, We
+will have as our computer to use the Univac 110%, an equipment similar to
+
+the two which are now being used by the Bureau of Census in Washington to
+process the 1960 U. S. Census. It has over 8, (00 words of magnetic core
+storage, 32,000 words of drum storage, and 17 Uniservo tape units.
+
+We plan to have a Summer Conference on Frontier Research in Digital
+Computers from August 17-28 here in Chapel Hill, similar to the one held
+
+last year in Ann Arbor. I am enclosing a copy of the announcement, After
+this the A. C. M. is to have its National Meeting in Cambridge, Massachusetts,
+September 1, 2, and 3. JS,
+
+ 
+ 
+ 
+
+SW
+I have written invitatigpns to Dr. geen od Professor Kanlorovich, copies
+of which are enclosed, \nviting them to-give each a series of ten lectures at
+the Conference, in the same on you and your colleagues did last year
+at Ann Arbor, under a similar agreement. After these lectures, Professor
+Perlis and I would be pleased to have them go with us to Cambridge.
+
+Unfortunately our conference here will not have courses aimed at the design
+and construction of actual hardware, and I have not been able, therefore, to
+invite any of your Soviet computer design colieaguss io talk in such sessions.
+However, as I have indicated in the two invitations, if you and Academician
+Lebedev feel that vou would like to suggest a larger group of attendess, (one
+or two more), I would be pleased to hear such a suggestion.
+
+These lectures, of course, are based as beiore on the agreements on exchange
+of persons between the U. 5. A. and U. 5. 5. R., and we would expect that
+
+a similar invitation would be issued to a corresponding number of U. S.
+computer scientists to visit your establishments and lecture to your or
+
+similar groups. In particular, I have talked to Ben Mittman of Armour
+Research Foundation, who could lecture in Russian about the Computational
+
+
+Academician A, A, Dorodnitsin
+
+Page Two April 13, 1959
+
+System for the Univac 1105 there, and who would be interested in such a
+possible exchange. I have also talked to Dr. Nicholas Metropolis of the
+University of Chicago, who has evidenced interest in such a series of
+lectures in the U. S$, S. R., to Dr. Householder, of course, to Dr, Jack
+Moshman, a statistician and Secretary of the Association for Computing
+Machinery, and others. I am sure that if you have the names of these or
+other i. 3, computer scientists that you would like to invite in return, a
+suitable group could be arranged to visit you.
+
+I am very pleased that my leadership of our Computation Center here now
+allows me to plan such exchanges further and hope that the trips of last
+year can be duplicated. If you and, of course, Academician Lebedev would
+like to join the party, we would of course ba exceedingly pleased to have
+you suggest that, and arrange to have the size of the groups extended.
+However, I must again warn you that there will be little emphasis on actual
+machine hardware at the Chapel Hill meeting, with somewhat more at the
+Association for Computing Machinery mesting in Cambridge.
+
+We would again plan to arrange meetings along the route from New York to
+Chapel Hill, Chapel Hill to Cambridge, and Cambridge to New York for
+the visitors to meet and talk to other ‘merican computer scientists, but
+
+I think they would probably meet almost everyone of interest either at
+Chapel Hill or Cambridge.
+
+Professor Perlis is joining me in this invitation, and hopes to have further
+discussions with Trshov on their mutual interests. My wife, of course,
+would be pleased to see and talk to you again,
+
+The main purpose of this letter, of course, is to begin correspondence about
+
+a second such exchange of lecturers. I hope that you and Academician Lebedev,
+to whom I am writing a similar letter, as well as Professor Kantorovich and
+Dr. Zrshov, will feel that this is a good idea. I myself value highly the trip
+that I made to the Soviet Union last fall, as do all of my friends who went
+
+with me. The details of the final exchange, of course, can be negotiated in
+other letters between now and the date of the conference, but I would
+
+appreciate an answer as early as possible since I have plans as to the lecture
+schedules, etc., that must be made before about June 15. 1 hope you, of
+course, will answer in Russian, which I wish I could write better!
+
+Sincerely yours,
+
+WJ. Cour yif
+
+ohn W, Carr, II, Director
+Research Computation Center
+
+ 
+   
+
+cc: Professor A. J. Perlis
+Dr. W. M. Whyburn, Vice President,
+University of North Carolina S
+Professor Philip Morse, M.I1. T., Computer
+Laboratory
+
+

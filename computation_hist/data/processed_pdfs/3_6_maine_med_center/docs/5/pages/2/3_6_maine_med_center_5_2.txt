@@ -1,0 +1,190 @@
+FIGURE 2
+
+Dos #¥9
+
+ansmumaL Divore i Lerr Venraiene
+
+=-10°
+
+Dirore AT aneis oF 70° To cAviTY V. s
+MY
+
+ 
+
+the magnitudes the wall potentials, measured with re-
+spect to a Wilson central terminal, over most of the
+right side of the tank, to decrease t}mm near the cent?r
+and part of the left wall, and to increase them again
+over much of the left side. The locations of the 1‘1u11
+points are also changed. The table shows that all. llm.b
+leads are increased with the exception of Vi, W.thh 1s
+reduced in magnitude. Since B (see ref. 5) is only
+—10°, « and @ are very nearly equal. o is changed
+from —24° to —51° by the low-resistance fluid.
+
+TABLE 1
+
+EFFECT ON LIMB LEADS OF FLUIDS OF DIFFERENT
+RESISTIVITIES PERFUSED THROUGH ISOLATED HEART
+IN DEEP TANK
+
+LIMB LEADS - MV PER MA - CM
+
+1 2 3
+
+LEAD L =960 L= 170 .12;28%70
+
+I ¢ 1,2 +0.6 + 0.5
+
+II *:257 v 2.7 598
+111 + 0.8 ¢ 2.1 243
+49 + 0.3 - 0.L - 0.5
+Ve - 0.9 - 1,1 =151
+Vp + 0.9 + 207 +:1.8
+= - 31° -66° - 71°
+
+DOG # 12
+
+TRANSMURAL DIPOLE - ANGLE WITH CAVITY 70 - 90°
+ESTIMATED TRUE ANGLE ok = -10°, B = -60°
+
+ 
+
+Table 1, for the same experiment as ﬁgt.lre J6 ShO\:VS
+the effect on the limb leads of the low-resistance ﬂ1.11d,
+when a transmural dipole was used. One of the diff-
+culties encountered in these tests was the .grac?ual low-
+ering of the heart tissue resistance itself with time after
+death. However, the data of column 2 were taken first,
+followed by column 1 and then 3, so that the error from
+
+FiGUure 3
+
+MeTAL SPHERE IN TANK :
+DiroLE TANGENTIAL TO SPHERE
+
+DISTANCE oF DIPOLE CENTER FROM SPHERE
+
+D w— T
+E——oo (siere our)
+
+ 
+
+this cause would tend to make the differences between
+the potentials with the two fluids smaller rather than
+larger. In order to standardize the records., they were
+scaled down to correspond to a dipole excitation strength
+of 1 ma-cm. The low resistance fluid causes an apparent
+change in the angle « of 35°.
+
+FIGURE 4
+
+METAL Seucre 1N TAnK +30
+
+DiroLe ar 45° =
+
+420
+DisTance or Dirore CenTER From Sewerc
+
+K— & mm
+Le— u
+M—
+N 27
+00— oo
+
+tis +io0
+
+DIsTANCE —cm
+
+ 
+
+With a tangential dipole, there is a uniform lowering
+of field potentials with the low resistance fluid, but for
+other angles, the potentials are increased In some areas
+and decreased in others. These results can be readily
+visualized by means of the method of images, e.g., for a
+
+ 
+
+   
+  
+   
+    
+
+Fi1Gure 5
++60
+MV
++50
+METAL SPHERE IN TANK o
+DiPoLE RADIAL TO sPHLRE
+Distance of Dirore Genter From +30
+SPHERE
+Fo— 8§ MM
+6 o +20
+H — -
+r r—
+J — e (uﬂu( ovr)
+-~
+
+RIGHT
+
+radial dipole, the image dipole inside the highly conduct-
+ing sphere will be pointed in the same direction as the
+external, real dipole. The image dipole will therefore
+reinforce the real dipole at most points, but in a region
+between the two dipoles, the image will counteract the
+real dipole.
+
+These effects were shown more strikingly in the ex-
+periments with a metal sphere in the tank. Although
+the resistance of metal is very much lower than that of
+electrolytes, it can be shown theoretically that the effect
+of the metal sphere on field potentials should not differ
+too greatly from that due to a sphere having a resistivity
+
+ 
+
+one-tenth that of the surrounding fluid. Figures 3, 4,
+and 5 show the horizontal wall distributions for dipoles
+at angles of (° (tangential), 45° and 90° (radial) to
+the surface of the metal sphere. Curves E, ©, and 7T,
+with the sphere out of the tank or at an infinite distance
+from the dipole, correspond to a homogeneous medium.
+In each case, the dipole was kept fixed in position, and
+the sphere was moved away from the dipole. The effect
+of the sphere becomes greater as it approaches the dipole.
+
+In view of these results, we conclude that the presence
+of the relatively highly conducting blood inside the heart
+chambers may have a significant effect on the valves of
+the recorded potentials. We also postulate that the fact
+that subepicardial potentials are recorded with much
+smaller amplitudes than epicardial potentials may be
+explained by (a) their greater distance from the record-
+ing electrode, and (b) by the greater shunting effect of
+the cavity blood on these components. This would cer-
+tainly be true for any tangential spread of excitation on
+the endocardial surface, but for a purely radial dipole,
+the potentials should be increased.
+
+References
+
+1. Schwan, H. P. and Kay, C. F. (1956). Cire. Research ¢,
+664-670. Specific resistance of body tissues.
+
+2. Nelson, C. V. (1955). Circ. Research 3, 236-242. Effect of
+the finite boundary on potential distributions in volume con-
+ductors. (This paper explains the method and gives original
+references.)
+
+3. Brody, D. A. (1956). Circ. Research 4, 731-738. A theoreti-
+cal analysis of intracavitary blood mass influence on the
+heart-lead relationship.
+
+4. Nelson, C. V., Lange, R. L., Hecht, H. H., Carlisle, R. P,
+and Ruby, A. S. (1956). Cire. 14, 977. Effect of intracardiac
+blood, and of fluids of different conductivities on the magni-
+tude of surface vectors.
+
+5. Nelson, C. V. (1957). Ann. N. Y. Acad. Sdi. 65, 1014-1050.
+Human thorax potentials.

@@ -1,0 +1,87 @@
+Reprinted from JoURNAL oF THE OPTICAL SOCIETY OF AMERICA, Vol. 45, No. 3, 179-188, March, 1955
+Printed in U. S. A.
+
+Evaluation and Analysis of Optical and Electrical Constants of Thin Films as Functions
+of Reflectance and Transmission Data by Electronic Digital Computation™
+
+Louls HArRrIS AND ARTHUR L. LOEB
+Department of Chemistry, Massachuselts Institute of Technology, Cambridge, Massachusells
+
+(Received August 2, 1954)
+
+Whirlwind I, an electronic digital computer at M.L.T., has been used to calculate accurately the optical
+and electrical constants of thin metal films on nonabsorbing backings and of aluminum oxide films, and to
+check approximate relations which may be conveniently used in the absence of a digital computer. The
+conductance per square of film is found to be the principal physical property determining the behavior of
+conducting films toward incident infrared radiation. The variation with wavelength is related to the finite
+relaxation time of the free electrons and to imperfections in the films acting as condensers. In the visible
+wavelength region the two sets of optical constants were evaluated for different thicknesses of gold deposits
+and compared to optical constants previously reported.
+
+ELECTRONIC DIGITAL COMPUTATION OF
+OPTICAL CONSTANTS
+I. Introduction
+
+HE properties of thin metal films deposited on
+thick nonabsorbing backings, are examined by
+measuring the reflectance and transmission, by these
+S ae T o RO S S S P e s S ST
+
+films, of radiation nearly perpendicularly incident on
+the film or on the backing. These properties are ex-
+pressed by the index of refraction 7, the absorption
+coefficient k, the conductivity o, and the permittivity e,
+which are related to the reflection and transmission by
+the following equations:!?
+
+ 
+
+ 
+
+ 
+
+RobT002
+R=Royst+—— (1)
+1_RobRba
+1'—Rob
+Pl (2)
+' l_RobRba
+‘Rba(l_'lzob)2
+Ri=Ra+—— (3)
+I—RobRba
+2T Ny ~(2n : 2
+(npy—1) cos{ —(n+1k)a } - (———— ——n— ik)z sm{—-(n—{-—zk)a‘
+A n+1k A @
+
+ 
+
+ 
+
+ 
+
+oa
+
+2 =R,
+(np+1) cos|——(n+,‘k)a } U
+A
+
+ 
+
+* This work supported in part by Office of 7
+I Harris, Beasley, and Loeb, J. Opt. Soc. Am. 41, 604 (1951).
+2 1. Harris and A. L. Loeb, J. Opt. Soc. Am. 43, 1114 (1953).
+
+(
+
+Naval Research under Contract NSori (07839.
+
+ney 2
+
+n-+1k
+
+ 
+
+ 
+
+2
++n— z'k) i sinl —)\—(n—i—ik)a ‘

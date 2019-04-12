@@ -1,0 +1,133 @@
+July 13, 195%
+
+Dr. Arthur Grad
+National Science Foundation
+Washington 25, D. Ce.
+
+Dear Arthur:
+
+This is in the nature of a progress report concerning
+a possible Conference of Directors of university computing
+centers, about which I wrote you early last spring.
+
+After I wrote you I wrote to about a dozen directors
+of the larger university centers asking for thelr reactions
+about a separate permanent organization for university computing
+center directors. The answers I received were nearly unanimous.
+They were not enthusiastic about another permanent organization
+in the computer ficld. They agreed there are a number of probe
+lems peculiar to university computing centers which ought to be
+talked over in common from time to %ime. They wondered if
+special meetings could be called about the time of an ACM or
+Joint Computer Conference or whether one or two single confere
+ences would not accomplish what was needed. Several of the
+letters mentioned specific problems of interest, such as the
+problem of financing the computing eenter while still keeping
+it avallable for students and faculty, also the questions of
+academic standards and the status of research on machines.
+
+Last month I attended a conference cslled by IBM at
+Poughkeepsie for the directors of university computing centers
+using IBM equipment. About 30 of the 85lnowm directors of col-
+lege computing centers were there, mostly directors of centers
+having 0650's. We had an evening scesion concerning thls game
+preblem. There again, the feeling was that it was premature to
+talk about a permanent organization. However, I found a mich
+greater need for general discusslon and mutual agreement on
+various matters among this group which represcnted the smaller
+and newer computing centers rather than the representatives of
+older and larger centers to whom I had written before. This
+group felt the need of support for thelr plans and suggestions
+for what are wise and unwise means of financing and help in
+determining procedures and academic standards. After an
+evening's discussion we set up an informal planning group with
+
+
+Dr. Grad =P July 13, 1959
+
+of inviting each of these directors, so that there probably
+would be between 40 and 50 attending. The attendance would be
+larger and probably more representative, of course, if all or
+part of the travel expenses of the conferees could be financed.
+If this conference were to get out a report which could be used
+by the various directors, present and prospective, and would be
+avallable to NSF if so desired, then the editing, preparing and
+publication of this report would need to be financed. My letter
+at present is just to sce if NSF is likely to be interested in
+such a conference, if they would be willing to finance some part
+of it and, if so, what we should do about it next. I will be
+away in Europe during August and the first part of September so
+I will not be on hand at the meeting mentioned in the enclosed
+notice. If you have questions which should be brought up to
+this meeting, I suggest you send them to Professor Frelberger.
+In any case, I will be back by Septcmber 10 and would be glad to
+hear your comments then or before I leave on August 5. I think
+it 1s about time that this growing field of university computer
+research, education and service be discussed in terms of its
+broader implications and necessities. I hope you agree.
+
+Yours,
+
+Philip M. Morse
+
+Director
+
+PVM: wh
+
+
+Dr. Grad oP July 13, 1959
+
+   
+
+myself as chalrman, Professor Walter Freibercer of the De -
+ment of Mathematics at Brown University as te or
+members as noted in the enclosed announcement. It was agreed
+that some time in the next year or two it would be most helpful,
+particularly for the smaller newer centers, to have a confer-
+ence of two or three days on problems of particular interest to
+
+college computing centers. The discussions could focus around
+four general areas:
+
+1. Budget and administration: What are good and bad ways of
+financing centers? What fraction of time can be "sold" and
+what fraction should be free?
+
+2. Computer-oriented research: What are the areas, of real
+intellectual challenge, for research in the use of machines?
+whet are the opportunities for theses in these fields, how are
+such theses to bo supervised and how are degrees to be granted
+on the basis of these theses?
+
+3, Curriculum and instruction: What sort of courses should be
+offered? Should courses on machine coding be given for credit
+or as short courses without credit or as parts of other appro-
+nrlate courses? What advanced courses with real intellectual
+
+content, intimately involving computing machines, are being
+given and in what departments?
+
+4, Computing service to university departments: Who in the
+college should be given "free time"? What priority system can
+be set up in case of over-demand? How does one distinguish
+between free and paying users? What are appropriate forms for
+interdepartmental supervisory committees to administer such a
+service program?
+
+It was felt that a conference on these four subjects,
+to be held some time next spring or summer, which would result
+in a report embodying suggestions and mutual agreements on these
+matters, would be of very great help to many directors of college
+computing centers, particularly those Just beginning or planning
+to begin. It would seem to me that NSF would also be interested
+in the results of such a conference. Certainly the question of
+how college computing centers fit into thelr academic structure
+and how they can help more completely to educate selcentists and
+engineers is something which has been a subject of discussion in
+various parts of NSP to my knowledge. My question to you, there-
+fore, ia an exploratory cnc: Is NSF Interested in such a confer=
+ence? Is it intercsted enough to finance it in part or in whole?
+There are at present 85 college computing centers, according to
+the latest list of Professer Reeves of Chilo State. We had thought
+
+

@@ -1,0 +1,311 @@
+-
+-
+
+*,
+
+-
+
+2
+
+. -
+
+-t .
+"‘.'-.' _':‘
+w0 ey
+
+- "Q_4_q
+S ,.~ - -
+
+ 
+
+ 
+
+C. V. NELSON
+240
+lected. As the boundary is approached, the
+potential due to the true dipole falls off, but
+that due to the image increases. At thg bound-
+ary, the potential has twice the va]t.le it \Yould
+have at an equal distance from a dipole m an
+
+Figure 5b shows that the Zero Potentjq]
+
+Ntig]
+
+infinite medium. : pol
+- ~ . ' ~ - ry ¢ 2 — . e‘
+
+Putting V = 0 in (5) gives for the locus of The locus is now a curved line Crossing },
+dipole axis at some point not gt e (‘Ont, e
+
+S Center,
+
+the zero potential line: : S
+In reality, this is due to the distortion of "
+he
+
+ 
+
+‘ r : " :
+cosby _ T (6) current field caused by the msulating }, |
+< 9 r‘ wr Y 1 » ~ | = : lll] S
+cos 0s 2 ary, which can be solved mathematicy])y }(
+ety Dy
+
+the image method. The Presence of inp,
+geneities in the field would also cause 4 ;no
+tortion of the field and a deflection of th; 7@1:3-
+potential line. Although it is difficult to' flj,l:])
+the actual locus from equations (4) o (6) ]
+idea of the magnitude of the effect can (a’sjil
+be. obtained by calculating the potential gt
+pomts along the transverse axis of the peg]
+dipole, as this potential is caused by the
+dipole alone. i
+
+I'mages i a circular boundary.—1Iy order to
+test the effect of a finite cireular boundary oy
+the field .distribution, the dipole field rwas
+mea.sured m a conventional single-layer tank
+having fhe same diameter as the double-layer
+tank. The “tank constant”, A, was again
+made equal to 1.0. The results are shown in
+figure 6. The finite boundary not only distorts
+the field, but also increases the magnitude of
+the potential values. Near the center of the
+tank, the boundary effect is small, but the
+effect becomes large in the vicinity of the
+boundary. In ele('t1‘0('ardiography, potentials
+are measured on the outer boundary, so that
+1ts influence becomes of paramount impor-
+tance.
+| As the boundary in the single-layer tank is
+Insulating, the equipotentials meet it orthog-
+onally everywhere, The reason for this is that
+the lines of current flow must be tangential to
+the boundary in its immediate vicinity, and the
+equipotentials are always orthogonal to the
+current flow lines. A comparison betweel
+.ﬁgl“'(‘b' 3 and 6 gives graphic evidence of the
+Improvement brought about by the double-
+layer tank.
+
+The image system for a circular insulating
+b”‘-“‘da".\" can be constructed easily. Figure
+7 shows a source and sink at a and b inside?
+
+ 
+
+Fig. 6. Fiel(! of a dipole in g conventional single-
+]ayer tank having the same diameter as the double-
+ayer tank. The dipole has the same s
+
+' A€ same strength as t
+dipole of figure 3. S e
+
+ 
+
+8¢ system for 4 source
+1edium hav; 1
+l)()lllld{u-‘\.. The Soure e Sl
+from the Center, T
+radij extende( at
+Center.
+
+and sink iy, a
+€ and sink 4 lllffr’ i“s"luﬁ"g
+e : € distant g and h
+e {, S 2dxe l()('u?ed along the
+
+s R?/a ang R2/h from the
+
+conduet ing
+
+ 
+
+does not lie along the transverse axis of th thne
+— 0 e trye
+
+dipole as is the case in an Ifinite mediym -
+
+zero of potential is displaced because e
+dipole produces definite values of Pote
+along the transverse axis of the reg) d?
+
+ 
+
+ 
+
+FINITIE BOUNDARY AND POTENTIAL DISTRIBUTIONS 241
+
+dius R. The images are located along
+jele of radius 1% . i ,
+c adii extended at distances from the
+L oL / rm .
+
+4 or of R*/a and R?/b. The potential at any
+pointP inside the circle is given by e(!uatl(m
+(3), where 71 to r; are as shown. Again, the
+imﬂ’ge system shows that the zero potential
+peus does not lie accurately along the trans-
+verse axis, and explains why points oi. max-
+imum potential on the boundary do not in gen-
+oral lie along the dipole axis.
+
+In figure 6, the source and sink are located
+onthe Y axis at ¥ = 42 em. Since the radius
+of the tank 1s 22.9 em, the image of the source
+
+(22.9)2
+
+cent
+
++262 em, and the
+
+ 
+
+ 
+
+ 
+
+isat y = + o
+image of the sink is at y = —262 em. Using
+equation (3), with 4 = 1.0, the potential at
+the point ¥ = + 20 is
+: 22 X 282
+V =1n — = 2 = 0.35 volts
+18 X 249 In 1.42 0.35 volts
+
+If the boundary were not present, as in figure 3,
+the potential at the same point would be
+
+V=In— = Jn 122 = 020 volis.
+
+If the source and sink shown in figure 7 are
+close together, they may be treated as a dipole,
+al.ld an image dipole found outside the circle.
+F}gure 8 shows a dipole of moment M at
+(hsta‘n('e J from the center of a circle of radius
+R. The center of the image dipole is located
+a!ong the radjuys through the center of the real
+
+lpol?‘ at a distance R2 f from the center of
+lt_he circle. Sinee the poles of the image dipole
+"e “l(?“g the radij through the poles of the
+leal.dll)“l(‘, the distance between the poles of
+1€ Image dipole ig greater than the pole separ-
+
+I O
+
+ation of tha . - ' * R2/f
+o Lol the yeg) dipole by a ratio of R/f*.
+le A 38 L . S i 2
+pole Strength remains the same, but the
+
+)0
+
+di )0le ; i . .
+POle moment hecomes — M. The image of
+
+‘)
+
+bhe dincia ar - g :
+1{2 dlp()l( A]I ]S‘ 1}1(,1.(\1'(”.(\' a (ill)“l(' (,)‘ n]()l]l(‘“t
+= : : - g )
+i I locateq at a distance of R?/f from the
+Centey of 4 : : - int
+~°r of the circle, The potential at any point
+MSi1de ¢ . . .
+l(](‘ I}l(\ (.II‘(.l(' I-\ g]\,(\]l I).\'
+
+Iy & g
+
+ 
+
+F1G. 8. Image svstem for a dipole in a condueting
+medium having a circular, insulating boundary. The
+image of the dipole M at f is an antiparallel dipole of
+
+9
+
+9
+
+-
+
+ 
+
+g R?
+moment M located at a distance : from the
+
+center.
+
+By letting the dipole in figure 8 take on
+various positions and angles, and observing the
+movements of the image dipole, one can
+visualize the resulting potential and current
+distribution inside the circle. The real and the
+image dipoles can be assumed to be in free
+space, and the field due to each can be super-
+posed to find the resulting field.
+
+The method of images gives an exact .soh.l-
+tion of boundary problems In cases where 1113
+applies. In physical problems, errors \Tm;k‘
+arise only because of the .departure .nt. tm
+actual boundaries from (‘n'('l(*§ or ml?mtc
+For example, the image system
+for a source inside a rectangle mns;'sts (,):,‘ );:
+infinite number of imzxgvs,”bo(':\m::si I;)[!) ,:l\:lmite
+oflections in the four walls. All e ) |
+“”U“m('l:ulli‘]l ;w obtained, however, by neg-
+
+W) 1'est, ! zl()'es.
+lecting all but the nearest 1mag
+
+straight lines.
+
+answer
+
+SUMMARY
+
+ibuti . olectrolytic tank
+2 o] distributions 11 electrol; 7
+o e \asily measurec
+
+ickly and
+. can be quICKL : e
+o 5 t-current electrode supply and
+
+Polarization troubles are
+| supply, by isolat-
+the supply
+
+mode
+using a constarn o
+differential voltmete 2o
+= . ’ (.
+avoided by usmg & 500 ¢, o
+‘ it l]](’:ISllI'illg b - high input 1m-
+| by using a Ver g ~
+and by using
+' -oltmeter. 3
+ance in the voltr | e
+pedance 11 ble-layer” electrolytic tal ok
+The - s . ovides ¢
+ndar; iy
+e ro pntvntl:l.l for any sourc
+
+tank, 10 W
+
+ng
+
+circult,
+
+very small _
+: point of 6
+
+: as shown tha
+Using this
+
+reference
+distribution.

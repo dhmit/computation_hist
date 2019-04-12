@@ -1,0 +1,39 @@
+and thereby saving 100 microsceconds of machine time."
+
+= The student obtained a keen sense of appreciation of
+the ease of setting up a special analog machine, such as REAC, to
+solve an ordinary differential equation. He learned the important
+distinction between externally-programmed computers, @.g. CPC,
+and internally-stored-programmed computers, such as Whirlwind.
+Finally, he learned th:.t the outward characteristics of these
+calculators could be changed by the operator. Specifically, the
+CPC can act as:
+
+1. A 10-diglit FIXED decimal calcula®or,
+2. A 12-digit FIXED decimal calculator,
+3. An 8-digit FLOATING decimal calculator,
+4, A 13-digit FLOATING decimal calculator
+
+by the mere insertion of another set of control boards. Similarly,
+the Whirlwind computer may behave as three different types of
+computers depending upon the type of conversion programs and service
+routines which are employed.
+
+Conclusion .
+
+This paper describes the need for undergraduate tralning
+in the  application of computing devices. Some attempt is made to
+1llustrate the effect that the advent of generally-available computers
+will have on an undergraduate program. The particular method of
+subject presentation employed at M.I.T. is deseribed. In addition,
+some mention is made of the actual subject material covered, and
+the general level of the subject 1s emphasized, Specific mention
+is made of the self-service, student use of the four types of
+calculators which was made during the term. Finally, the students
+were given an indication of the types of problems which can be ef-
+fectively handled by computing devices.
+
+Acknowledgement
+
+The teaching efforts described in this paper represent the
+efforts of the following individuals: C. W. Adams, R. C. Booton,

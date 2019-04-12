@@ -1,0 +1,47 @@
+COMPUTATION CENTER
+Massachusetts Institute of Technology
+Cambridge 39, Massachusetts
+
+November 2, 1961
+T Bulletin No. 19
+BULLETIN '
+
+Schedule of Changes
+
+According to the present schedule, Thursday,
+November 30, will be the last operating day for the 709,
+The 7090 should be operating by the first of the year.
+The 1401!'s - we are getting two - will arrive a few
+weeks later, Until the 1401's are operating, the
+Center will continue using its present peripheral
+equipment.
+
+Double Precision and Complex Arithmetic
+
+The new version of Fortran, now on the system tape,
+has the double precision and complex arithmetic feature
+described in the IBM 700/7000 DPS Bulletin entitled:
+
+eh-T0 090 Fortran: Double Precision and Complex
+rithmetic available, on request, in the Consulting Room,
+26-153. You should also receive a 1list of the avallable
+double precision and complex arithmetic subprograms
+with that bulletin, These subprograms are not on the
+library tape, but should be avallable in the open files,
+Even the floating add and floating subtract operations
+are performed by subprograms 8o, if you intend to run
+an XEQ Jjob, be sure you include all the subprograms
+you will need.
+
+Warning: This feature will not be available on the 7090
+Fortran which should be 1n use late next year. Source
+programs using the D and I modal codes will not be compatible
+wlth that system,
+
+MADtran
+
+MADtran, a program for converting Fortran source
+programs to MAD source programs8 so that they can then be
+compiled in MAD should be avallable 1n a few weeks, At
+the moment, the staff 1is working on the write-up for
+this program,

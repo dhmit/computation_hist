@@ -1,0 +1,54 @@
+AN
+
+~J
+
+that post-mortem results can be ganged with other output from & |
+users’® prograll.
+
+Request Cards
+
+The SHARE card format is used for request cards which
+are identified by the letters, IR, in their operation field. The
+variable field of the card must contain four expressions separated
+by commas and terminated by a blank column.
+
+The first two expressions give the initial and final
+addresses of the range in memory to be printed or punched., These
+can consist of any legal SAP expressions and may include symbols,
+The user may also specify octal integers in such expressions by
+immediately preceding the integer with a division sign, ©.80,
+
+/1000 = 1000, = 512, 4
+
+The user should note that this facility does not exist in SAP
+languageo.
+
+The third expression designates the mode in which words
+are to be recorded and must be one of the follouing abbreviations
+
+ 
+
+ 
+
+FLO Floating-point numbers.
+FIX Fixed-point numbers,
+INT Integers (decimal) .
+Syt Instructions with symbolic addresses.
+ABS Instructions with absolute addresses.
+OCT Octal numbers.
+BCD ginary-godedag_ecimlo
+BIN Absolute binary cards,
+The output format implied by these wvarious modes 18
+jdentical to the input language used by the SHARW Assembly Program.
+The fourth expression specifies the output device to be
+
+ 
+
+used in recording the words and mst be ons of the following abbre-
+
+viations
+NPR Ogmline R;_:in’cer
+NFPU Og-»lino wch
+PR Oﬁfmlina El;in’cer
+
+FPU 0 gfuline mgxch

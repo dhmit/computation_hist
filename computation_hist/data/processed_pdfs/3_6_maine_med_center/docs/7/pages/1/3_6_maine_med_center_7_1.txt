@@ -1,0 +1,42 @@
+Reprinted from FEDERATION PROCEEDINGS
+Vol. 14, No. 1, March, 1955
+Printed in U.S.A.
+
+348. Investigation of horizontal components
+of heart-vector by means of circumferential
+chest leads at mid-ventricular level. C. V.
+NeLson aAnp Hans H. Hecur. Dept. of Medi-
+cine, Univ. of Ulah College of Medicine, Sall
+Lake City.
+
+By means of comparative studies between three-
+dimensional and two dimensional (J. Physiol.
+116: 15P, 1952) electrolytic tank models of the
+human thorax, it has been shown that if the verti-
+cal angle « lies within the range +30°, the distri-
+bution of potential around the boundary of the
+flat (‘two dimensional’) tank is very similar to the
+distribution of potential around the deep (‘three
+dimensional’) tank at the level of the dipole
+center. Measurements in two-dimensional models
+can, therefore, provide information about the
+horizontal component of the heart-vector. In
+addition to model experiments, circumferential
+chest leads were taken at mid-ventricular level
+of several normal and abnormal subjects using a
+plastic belt holding 23 electrodes. The vertical
+angle a was computed from bipolar limb leads.
+For those cases in which « lay in the range +30°
+with the horizontal plane, the potential distribu-
+tion around the chest was plotted for various
+instants of time. It was found that for the human
+subjects the horizontal component corresponded
+to a single dipole at some times; at other times,
+two or more effective dipoles were evident. By
+comparing these measurements with results on the
+model, it was possible to determine the horizontal
+angle. The method provides a check on calcula-
+tions of this vector quantity derived from con-
+ventional surface electrocardiograms. (Supported
+by the Life Insurance Research Fund and the
+American Heart Assn.)

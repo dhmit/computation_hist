@@ -1,0 +1,38 @@
+Page 4
+
+All programming aids, manuals, coding pads, etc. are now being
+kept in Room 26~153, the Consulting Room, DPlease sign for any material
+
+you take,
+Subprograms Added to the FMS Library Tape
+There are two recent additions to the FMS library. They are:
+
+1) ST@MAP - STOrage MAP, Prints a storage map of the loaded
+program,
+
+2)- WRBCD - WRite BCD, Writes one BCD character on the CRT.
+One-page writeups for both these routines are available in the
+
+Consulting Room, 26~153,
+
+Scope Programg
+
+There is at present a large variety of subprograms for utilizing
+the CRT in various stoges of testing end debugging. As they become
+
+available, they will be anncunced, probably here. One available now
+is:
+
+SCID, SCIDl1 - Produces FLIP card like (stencil) image of up to
+six BCD characters on the scope., Use to identify your frames, Write=-
+up available in Room 26=153, '
+
+Classes
+
+We request that those instructors who plan to bring their class
+to the Center on a Saturday please notify
+
+Mr, Michael Solomita, Manager of Machine Operations
+Room 26-152, telephone UNiversity 4,- 6900, X 4113
+
+as soon in advance as possible so that conflicts can be minimized,

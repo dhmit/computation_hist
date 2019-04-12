@@ -1,0 +1,133 @@
+“> —
+tomy lg
+Memo to: Dr. J. A. Stratton, Provost = sa
+
+From: Professor P. HM. Morse, Chairman, Institute Committee
+on Machine Computation and Numerical Analysis
+
+Subject: Proposed Conference on Mathematical Tables
+
+1. With the reduction of the activities of the
+Bureau of Standards in the Numerical Analysis field, there
+is left no organization with the responsibility of seeing
+that numerical tables of new and useful functions, needed
+in research and engineering, are computed, printed in a sat-
+isfactory form and made available to the persons and organi-
+zations needing them. The need is not for another large
+organization, but some central group for planning and coordi-
+nation, with some funds available to finance editing and
+publication.
+
+2. With the growing use of large, high-speed
+computing wachines, there is a need for a re-evaluation of
+the whole question of mathematical tables. It is not that
+such tables are less needed; there are new ways of making
+tables, and it may be that tables should be produced in a
+different form now.
+
+3. Consequently, there is an urgent need to call
+together a small group of persons interested in tables of
+functions, both producers and users, to consider these and
+other questions and to make recommendations to some national
+agency as to the steps this country should take so that the
+United States should contribute its share in providing these
+tools for science and technology.
+
+Kk, The Rational Science Foundation has evidenced
+an interest in this field and has invited a proposal for
+such a conference and a request that the NSF provide the
+conference financing.
+
+5. Accordingly, it is proposed that the Institute
+suggest to the Science Foundation that there be organized a
+two-day Conference on Tables of Mathematical Functions, to
+be held at the Institute sometime this summer, to be Jointly
+sponsored by the Foundation and the Institute and to be
+financed by the Foundation. This should be a working Con-
+ference and as such should number not more than 25 members,
+chosen from those mathematicians, computers, academic and
+industrial scientists who are actively interested in tables
+of functions, either as prcducers or users. The tentative
+agenda would be:
+
+
+v
+
+2a
+
+1. How are tables made?
+2. What functions need to be tabulated?
+3 What form should tables have?
+o ay Shona this country do about producing
+ables
+
+It is suggested that the conference room in the Hayden Library
+be used and that :rrangements be made to house the #Honfereces
+together, if possible. Conclusions of the conference, and
+whatever recoumendsaiions are arrived at, would be published
+for presentation to the Science Foundation and to the Institute
+and for distribution to other interested parties.
+
+6. Thig conference can be planned and organized
+by the Institute Committee on Machine Calculation and Numerical
+Analysis, which has the following membership: |
+
+Philip HM. Morse, Chairman, Professor of Physics
+
+S. H. ’aldwell, Professor of Electrical Engireering
+Herman Feshbach, Assaclate Professor of Physics
+
+J. W. Forrester, Director, Project Whirlwind
+
+F. B. Hildebrand, Associate Professor of Mathematics
+J. A. Hrones, Professor of Mechanical Engineering
+C. C. Lin, Professor of Mathematics
+
+7. The budget required would be for travel and
+subsistence expises of the participants and for the propara-
+tion and publicitlon of the Report of the Conference. If we
+assume that som: of the conferees come from Washington and
+some from Califernia, we might expect an average fare plus
+personal expences of about $180 a person. In addition, there
+will be sore secretarial costs, publication costs and incl-
+dentals, so the budget would appear to be as follows, for 25
+participants:
+
+Travel fare (average RT Jlli0)we-=mccecccoccce- £3,500
+
+a
+Expencea (average for 2 days, $l80)ec-ceco-- 1,000
+Secretirial @id-cem—ccocrnncenccnncccncocas 200
+Producing and distributing report
+(100 rages, e8t.)--=-=rce—mcsccoccennccax 500
+IncldensalBwemeecccrcccacnecnsonncncccceacee 200
+Total 25,200
+
+This would appear 0 be a reasonable figure. If the cost
+turned out to be 1:33 (some participants might come at their
+own or other expeinve), the excess cin be returned to the
+Fouadation.
+
+8. It i. proposed that (he National Sclence
+Foundation be requisted to be co-s:onsor of such a conference
+
+
+«B=
+
+and to provide funds as per the estimated budget. We esti-
+mate it will take about three months to organize the con-
+ference after we are assured of the Foundation's support.
+
+If such assurance can be forthcoming in the next month or
+80, the conference could be held in June; if assurance comes
+later, the conference could be held in September. Final
+decision on dates would have to take into account the dates
+of other conferences at the Institute.
+
+<TC Nan
+
+Morse
+Chairman, Committee on Machine
+Computation and Numerical Analysis
+
+

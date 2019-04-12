@@ -1,0 +1,258 @@
+————'
+
+ 
+
+ 
+
+Other Forms of Claims
+
+All patent claims are not in the form
+which was used by the inventor of the ap-
+plication we have just analyzed. The Pat-
+ent Law allows a great deal of freedom
+in choice of how an applicant wishes to
+express his alleged inventions. Hence,
+in addition to claims of the type or form
+here disclosed (i.e., a chain of beads),
+other patent applications may present
+claims: (1) to a static structure per Se,
+e.g., a single bead, or a structural H-
+beam; (2) to a mechanical movement
+per se, or to an interrelational combina-
+tion of such movements, e.g., an auto-
+mobile change-speed gearing, or the com-
+plete power-path including a clutch, gear-
+ing, and differential; (3) to methods of mak-
+ing things, e.g., molding beads by an in-
+jection molding process; (4) to methods
+of using something, e.g., a method of
+operating a radar system to land an air-
+plane in fog; (5) to an apparatus for
+making something, e.g., aninjection mold-
+ing machine; (6) to a chemical compound,
+
+‘or a composition comprising several in-
+
+gredients, e.g., D.D.T. per se, or D.D.T.
+disolved in kerosene for use as a spray,
+etc.
+
+Any of these types of claims may re-
+quire the alternative use of some one
+thing, e.g., a claim may require either
+ethyl alcohol or benzene, but not both,
+as alternative solvents in a composition
+of matter. Any of these claims may also
+require the absence of some particular
+thing, e.g., the absence of water in a
+composition of matter, or the absence of
+heat in a forging process.
+
+What Must Be Encoded
+
+In order to mechanize the examiner’s
+search, uniform coding systems will be
+evolved, and the patents and publications
+in the search files will be encoded ac-
+cording to these systems.
+
+The files of classified patents hold the
+great bulk of all applied and theoretical
+knowledge, both technical and scientific,
+
+ 
+
+in a concentrated form. These files
+constitute a main source of references
+for the examiner. In certain fields,
+e.g., chemistry, the nonpatent technical
+literature may sometimes constitute the
+most important source of references.
+The examiner’s classified files are also
+reinforced with copies of foreign patents,
+and pertinent nonpatent literature refer-
+ences. The examiner may also consult
+nonpatent publications from other sources
+and cite them, if pertinent.
+
+All patentees are deemed, by law, to
+have “dedicated to the public” all features
+of their disclosures not claimed by them.
+Hence, in encoding a patent for mechanical
+search, all features of the disclosure,
+whether claimed or not, might later form
+the basis for the rejection of another ap-
+plicant’s claim and must be encoded for
+retrieval.
+
+Every disclosure must be retrievable
+from any aspect of its structure, use or
+function, state of being, color, material
+from which it is made, etc. In other
+words, after the application whichwe have
+analyzed had issued as a patent, if itwere
+to be encoded for automatized searching,
+
+there are hundreds of details of the dis-.
+
+closure which must be encoded. A few
+
+of them which may not be immediately"
+
+apparent are:
+
+1. The composition (polyethylene) used
+as a bead;
+
+2. the two partbead structure of figure
+S per se, and
+
+3. the location of fastening means at
+the poles of the bead when the
+two part joint is at the equator,
+
+4. the dumbbell shaped connector of
+figure 4, with all its details;
+
+S. the extra socket at right angles to
+the axis of the other projecting
+and socket fastener parts;
+
+6. the use of such a joint in models
+used to illustrate molecular
+Structures (application paragraph
+14, last sentence).
+
+7. the elongation of the neck of the
+p.rojecting fastener part (applica-
+tion paragraph 13, last sentence).
+
+ 
+
+ 
+
+8. the use of the same sizeq fast-
+eners with different sized peadg-
+and )
+
+9. the use of different sized fasteners
+for different sized beads; and
+
+10. the disclosed modes of assembling
+such beads in sets;
+
+11. the use of multicolored beads;
+
+12. the modified conic-spherical head
+of the projecting fastener part;
+
+13. a rigid structure of two sphereé
+connected by a cylindtrical mem-
+ber;
+
+14. a socket with resilient edges; and
+
+15. any other aspects which were found
+to be dimensionally disclosed in
+the drawing, or specifically re-
+cited in the specification and
+claims.
+
+If the search on the bead application
+were to be performed mechanically, then
+each of the references which the examiner
+cited would have had to be encoded in a
+manner providing for retrieval of the
+portions of the disclosures for which they
+were cited. |
+
+Encoding Problems
+
+Problems' in encoding are often en-
+tangled in semantics. The obvious con-
+
+flict of synonomous terminology for the
+
+same thing presents no real problem--
+one synonym is chosen. However, we
+might find one disclosure of a mechanism
+which alternatively holds a shaft from
+rotation or connects it to another rotat-
+ing member and call it a clutch; a sec-
+ond disclosure with an identical structure
+will call it a brake; in a third disclosure
+such a structure will be called a clutch-
+brake combination; while a fourth and
+completely different disclosure of a sheet
+metal bending machine will also call the
+disclosed machine a brake. In one of
+these disclosures a clutch may be mis-
+named a brake. Now, the essential sub-
+combination structure of a clutch may be
+used as a brake, and vice versa, but
+when this structure is disclosed or claimed
+
+ 
+
+ 
+
+irr:3 ; IIs environment, i.e., in the inter-
+neCatlonal Combination of other structure
+€ssary for its use, it is either a
+
+Clutch or 3 brake, and must be encoded
+
+for what it i
+18, rather than it i
+called. what it is
+
+In the same manner, if one member is
+described ag larger than a second, we
+I;grsrtlb el;esablﬁ fo retrieve the second
+i ot Ogla er bthan the f1rst.; if a heaF-
+- metg)nurcprs efore a rolling step in
+
+gical process, we must be
+able. to retrieve a rolling step following a
+heating step; etc.
+
+The problem of a generic search must
+be emphasized as essential in Patent Of-
+flcg searches. In the case of the appli-
+Cation which we analyzed, the examiner
+not only searched for beads or similar
+elements with similar separable joints,
+but he looked for all types of interchangea-
+bly fastened, concatenatable elements.
+When a search is being made for a num-
+ber of different elements or aspects con-
+currently, the coding system must be
+such that the search for one of the elements
+Or aspects can be broadened. For ex-
+ample, a searcher looking for a desired
+composition including ethyl alcohol as an
+ingredient, must be able to find any al-
+cohol as an ingredient in another compo-
+sition which is identical except for the
+alcohol, if ethyl alcohol has never been
+disclosed with the other ingredients of the
+desired composition. And, similarly, a
+search which includes as an aspect, all
+benzene compounds in a specified com-
+position must retrieve phenol inthis same
+composition.
+
+A disclosure of a process of and/or
+an apparatus for molding beads is clearly
+a reference for a molded bead. A dis-
+closure of spraying tomato plants with
+nicotine for insecticidal purposes, and a
+disclosure of the process of making an
+insecticide from tobacco leaves, are both
+references for the use of nicotine as an
+insecticide.
+
+In a like manner, the chemist searches
+not only for the exact composition, but
+for the equivalent or alternate ingredients
+in equivalent compositions; the metal-

@@ -1,0 +1,42 @@
+Memo Page 3.
+
+limitations in both character font and in the rate at which
+they can present information. Displays such as remote scopes
+at present require a large amount of computer time tO main-
+tain a display for a viewer. In addition, if a computer is
+to be used as a classroom adjunct, it is necessary to make
+both input and output of such a size and form as to be easily
+viewed by a large group.
+
+The other "Hardware" aspects of the general time sharing
+problem pertain to the terminal connections between the com-
+puter and the remote "consoles"; such considerations as the
+maximum data rates that must be transmitted by such 1links.
+There are, in addition, many general considerations such as
+the need for a fairly large backup memory with a low access
+time, and the need for non-interference between coexisting
+programs that must be solved through changes in the logical
+structure of the particular computer.
+
+From a "systems" point of view, all of the remote con-
+soles, input-output and backup storage devices must operate
+in such a fashion that very little time is lost shifting
+from one internally stored program (or a portion of that pro-
+gram) to another. The decision making process that will in-
+ternally direct the computer to heed one, out of many com-
+peting users, without either wasting time or slowing down
+any of the users poses a difficult problem, but that is well
+on its way to solution. Each of the users, in addition,
+must be able to use any of the present and future programming
+languages such as Fortran, Comit, SAP, LISP, APT, etec. which
+in turn requires that these programming systems be readily
+available to any of the users.
+
+The overall program to accomplish these objectives can
+only be written after the particular machine configuration,
+auxillary input-output devices and information processing
+strategies have been decided.
+
+Progress to date:
+
+As of today, the project has accomplished the following:

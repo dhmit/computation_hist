@@ -1,0 +1,64 @@
+Questionnaire
+
+Return to Herbert Teager, Room 26-261
+
+From:
+
+ 
+
+For DSR Projects:
+
+ 
+
+ 
+
+ 
+
+1. What role does digital computation play in your present research, and to what
+extent do you make use of institute facilities for computation?
+
+ 
+
+ 
+
+ 
+
+——————————— | ——————— —  ——— —” — _—_ —— a — ————— po el tt et i en i le tl
+
+2, With respecl to presently available facilities, what, if any are your major
+problems:
+
+1, Difficulty in programming with existing language due to nature or
+of problem
+Calendar time required for debugging’ programs
+
+2
+
+3 Availability of machine time grants
+4, Lack of access to computers
+S
+
+Turn around time between submission of program and results,
+
+3. What would you suggest (with respect to your own usage) to alleviate the
+situation i,e,, how much additional 704 time (or equivalent) would you
+require now, etc,
+
+
+S.
+
+ 
+
+ 
+
+Describe qualitatively and quantitatively the type of problem you might like
+to put on a digital computer, but are not now doing so, because of lack of
+funds, large blocks of machine time, or because of the capabilities of
+presently available machines,
+
+Who is the member of your group best qualified to go into more detail in this
+area?
+
+ee ——————— —————————————
+
+

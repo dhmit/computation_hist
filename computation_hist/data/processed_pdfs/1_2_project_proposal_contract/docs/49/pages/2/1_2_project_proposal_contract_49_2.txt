@@ -1,0 +1,41 @@
+MASSACHUSETTS INSTITUTE OF TECHNOLOGY
+
+Department of Physics
+
+MEMORANDUM
+To: Mr. N, McL. Sage
+From: Professor Philip M. Morse
+Date: 29 January 1953
+Subject: Contract NSori 06001, Task Order I proposal for
+
+extension beyond current expiration date for the
+period 1 July 195l through 30 June 1955.
+
+We propose to continue work on the subject contract as restated
+in Amendment 13 for an additional year covering the period 1 July 195k
+through 30 June 1955, The work will consist of a coordinated research
+program in applied mathematics utilizing facilities in the Center for
+Machine Computation including the Whirlwind Computer in the Digital-
+Computer Laboratory., The work will include but not necessarily be
+limited to the following:
+
+(1) research in methods of numerical analysis and the formulation
+of scientific problems for machine solution, together with the training
+of personnel in these methods;
+
+(2) support of the scientific and engineering applications group
+of Project Whirlwind so as to make the computer useful and available for
+
+the above research, and partial support of the maintenance of the Whirlwind
+
+Computer and research into digital computing machine components.
+
+The Air Force is making a large contribution to the support and
+extension of facilities of the Whirlwind Computer. Its use will be
+shared by the Air Force and ONR, It is understood that details of
+the program here proposed will be worked out from time to time with
+the technical officer,
+
+There follows a breakdown for the possible expenditure of $285,000
+for one year on the above two items, Unless otherwise stated, salaries
+are for full time work, Overhead rates are provisional,

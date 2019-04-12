@@ -1,0 +1,53 @@
+; -2 -
+
+special cecding courses which are given by the Center staff during
+cach term and summer, A number of other colleges bring some of
+their classes in for one or more laboratory sessions, Class use
+will expand further, but its expansion will be harpered by the
+linitations of access Lo the 704, as will be discunrsed later,
+
+The use of the machine by the other celleges has expanded
+rapidly until nearly a full shift is now occupied with their work
+(including their class exercises). But this use tenis to be self-
+liniting for, as scon as a college faculty begins fully to apprec-
+iate the possiblilities in education and research of ccwputers, the
+pressure builds up for a machine of their own on their own campus,
+
+By now at least eigh® of the cooperating institutions hxve pachines /) -
+of their own. These are smaller machines, of the 650 tngt*gg‘ p«bad;ﬂ
+these instituions still come to the Center to use the 704 for their
+‘bigzer jobs; but it does mean that the use of the Center iy the :
+
+other Hew fngland colleges will tend to level off to a resiwonable
+
+load (about one shift, it now appears) rather than growing sontin-
+
+uously, as the HUIT usage is doing. This result, of course, jis in
+
+accord with our conviction that computers should be as preva'.ant
+
+as chemistry laboratories. '
+
+In contrast, the LIT use of the 704 for research into isw
+applications has grown so that now we are noct able to satisfy .11
+requests for ma e
+calculations of the'"production-run" type (important as these often
+are) even when we encroach on the third nmachine shift, which
+has heretcfore been reserved for IBL use., In addition to the
+research in solid-state theory, in meteorology and oceanography,
+which now depend completely on machine conputation and could
+
+re time thalt we can aliot them, There are a number
+ojects which are basic to the development of new
+fo cmputers and, indeed, to the developmnent of computers
+themselves, which are already handicapped by shortage of machine
+ime and limitvation of 704 capacities. To mention a few:
+Programming Devel
+
+e
+
+oped an automatic operator rouvine which is being adopted by other
+
+ 
+
+oo

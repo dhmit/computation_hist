@@ -1,0 +1,225 @@
+HARVEY COHN STABLE LATTICES
+
+266
+of n basis numbers of a (non-Singular) The lattice basis is involved by means of the relations
+
+: S faset
+
+is the 7 conjugate © : A
+
+Gy O 08 real field of degree 7. The x:18 the 1 conjugate of a genery)
+m. The minimum absolute value of ¢
+
+in a .
+modlgle‘.’fin - "d ¢ is the norm- _
+number yrse actually achieved for some X and is denoted by
+
+(when (x4 # (0)), 18 of co
+
+r @ >0 :
+: N(OW for this @, from (3-4), R; & = |
+
+82) a11a2 = @, Q1209 = C,
+(8. a1 @22 + @12 @11 = b, d= A
+
+§7, we would restrict ourselves to the : .
+$®| x,®/x,® when j # [, and 0 whep the norm function in a quadratic module, or a, Z?Scea‘::i;i ijnlslprogort}onal to
+. _ 1. Thus 0, the free dimension,.i§ n(n — 1) aCC(.)rdi.ng to either of two reasons Perfe.Ct. Squareé (AC;Ually this would follow automatically fromanthed sl:all;(i)lgta
+e §4. The condition for stability of the norm s simply that some set of vectors conditions (?. ) and (5.3).) At any rate we assume ® to be stable and Y
+o Q+ 1 = 3 mnteger couples (ml(’ﬂ, m®) (& =1,2,3) occ € a'm let
+
+y &y 9 ur for which ‘F‘
+
+ule M 1 such that . o
+x® of the mod Jssumes its minimuim value M, that is,
+
+1) oy = M ‘(M) . =
+ond the set of vectors indexed by k and with n(n — 1) components - (83) F® = P =0, (@ = +1).
+. ’xl(k) /xj(k)’ =4 Gi=1,2 . ..0t=i B Then we consider the vector space spanned by the vectors of two components
+
+R“(k) = 1¢(k)|xl(k)/xj(k) G.D) = (1,2), e1).
+
+84)
+
+-
+
+S,
+
+Following
+
+= e
+BT
+
+T v
+T
+o
+
+-
+ke
+ot g g
+5L
+-
+>
+> -
+e
+
+-
+L’.
+e
+
+-
+-
+
+A
+o'—??—;'
+S
+
+=
+
+7.2) (- -
+
+positively spans & space of n(.
+If the field has 7 real conju
+imilarly, writing
+
+n — 1) dimensions.
+gates and 2s complex conjugates (7 4+ 2s = n), T particular
+
+we look for relations of the type
+3
+Z A(k)R l(k) =10
+k=1 : ’
+
+valid for both of the above choices of (j,1). But by virtue of relation (8.3),
+or 11® x,® = d2Me®, 1t follows that relations of the type (8.5) are the same as
+
+where z; represents the n con eld. Then the norm s the following conditions for stability:
+3
+
+(el Tres) e (62451 + Xr42s)
+(86) Z A(k)w(k) - 0,
+
+e determined by the 7 different real k=1
+
+ry components of the matrix @ Then a repetition of the earlier where W® = ® ((x,®)2, (x2®)?) is a vector of two components.
+
+1§lds the same Q and the convenient new condition for stability of It is well known that the critical lattice for ¢ = X1 X2 belongs to the form
+
+the norm as simply that some set of vectors 2 of the module I is such that >
+
+(k) (8") cbO(ml’ m‘l) — ml2 + myme — M22 = (m1 — B m'z) (ml = 9'0 m'z)
+
+(7.11) normz® = + M'(M), :
+
+| | where 8y, 8o = 3( — 1 +4/5),d = 3. For the corresponding lattice, M() =
+
+and the set of vectors, indexed by k and given by the following 2n (n — 1) components: 1/4/5, in the notation of (2.3). To verify that this Q is stable we make the
+choice, by trial and error: (m®, mi®) = (1,0), 0, 1), 4, 1) for k=123,
+
+-9 ® 7, ® ®) 7, &) oy 1 #]
+(7 21) R, N5y Sz fe, = i) (1= 1,2,,,,,n,l#]), respectively. Here
+
+positively spans a space of n(n — 1) dimensions.
+
+.Of these 2n(n — 1) components, some may vanish
+with or without change of sign. Taking this into accou
+general, is still Q = n(n — 1) essentially distinct non-vani
+
+then we proceed S
+(] s 1)2,--.,7), (85)
+
+(j=7+1,...,r+s),
+
+Zj = Xj
+Zj xj+ 1X j+s
+
+it
+
+W e -
+-
+...
+-
+«
+
+e T
+-
+
+-
+
+Zis = X5 T 1X j+31
+
+jugates of a number z in the fi
+
+¢*(x) = ¥
+and the lattice (or module M) is this tim
+
+and imagina
+calculation y
+
+P es SE s rsrer e
+
+LEY Vo
+
+(T g
+
+: : k) 3] ' (k)
+® ml(k) =0 m2m’ xg( =my . — Gome .
+
+L
+
+LR
+
+1
+G() = 6(3) = . X1
+
+Ly
+'y
+
+-
+
+8.6), (4", AD AW®) =
+r ultimately d|F®|) are
+the results of §9, 1t will
+) is actually necessary
+
+eated
+
+and others may be rep
+the equations in (
+
+nt we find the total, In
+shing components
+
+It is now easy to verify that from
+o(1,3,1), for a scalar o, whence the three W® (o
+
+positively dependent. This establishes stability. From
+
+8. Quadrati : : : : i
+
+" ﬂ% . ::;agc-forms. A simple illustration of stable lattices can be gl\;eﬂ turn out that the presence of both positive and negative €
+
+1 = . = C g0 o Z 1
+efinite form ¢ = x;x, of free dimension Q = 2. (Compar® §7.) and sufficient. The result can be expressed as follows:
+
+ble quadratic
+
+Expandji = : .
+panding ¢ = ®(my, ms), in the notation of (2.1) and (2.2) we obtain: o5
+=\ a* er which an indefinite irreduct '
+= ts in absolule value. Then the corresponding
+epresents poth + m and —
+
+g
+
+o
+=
+
+Lr
+x
+
+f Ll e be the smallest positive numb
+orm with integral coefficients represen
+
+(8.1)
+B(m, ms) = amy’ + by ma + cma = bt =z & lattice is stable if and only if the form T

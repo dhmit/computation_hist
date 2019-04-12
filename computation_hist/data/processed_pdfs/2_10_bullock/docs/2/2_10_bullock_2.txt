@@ -1,0 +1,38 @@
+IBM Office, Rm. 26-147
+M.1.T. Computation Center
+November 30, 1959
+
+Memorandum to: Prof. P. M. Mor sts
+Dr. F. M. Verzuh
+Dr. F."J. Corbato
+Dr=J; McCarthy
+Dr. H. Teager
+
+Subject: Increased Processing Speed for 7090
+
+IBM recently announced that the internal Processing speed of the
+
+7090 has been significantly increased. This has been achieved by
+improved logical design and core Storage speeds. The improve -
+
+ments are
+
+1) The basic machine cycle time has been reduced from
+2.4 microseconds to 2.18 microseconds.
+
+2) Floating and Fixed Point Multiply and Divide operations
+are executed 1/3 faster.
+
+3) A number of instructions formerly requiring 2 cycles
+are now executed in one cycle.
+
+These improvements mean that the 7090 is now 6.3 times as fast
+as the 709. The attached page describes these improvements in
+more detail.
+
+M. L. Bullock
+
+MLB /jeh
+enc.
+
+

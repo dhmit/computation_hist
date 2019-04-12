@@ -1,0 +1,293 @@
+.
+sfatle
+!
+»
+A Al
+e e tn?
+WAV M L
+A Tath s
+1"‘<. ')"II y
+' fate? -
+Wiatelr ’
+(slafsfa'n
+N !
+A A
+Ay
+"""'l.l. » r R
+}0'\:\'.‘(: :" ;.u. \ :\ {
+'8 ) 2 v Iy
+e ettt BN R
+MMM RN AL S e R P Y
+A e etel el Y
+A e v i s B A A Y P Ty ity A
+1Tt 0‘0‘0'!':'...'."""-" "."’u'.‘.:‘\m \}
+RIS 8 R P o rir vl A e
+v .V...aa&onoo').;“v”.
+ERE AL ) / ,.',“o.o,v.v,r W "y -.I‘H)' ,‘.\
+A 'J" 't '."",V:“'.':“h v o
+"":'o'o':'o'o'o'-'n'n'a' sy
+:':'.".".‘..‘..'.""', '.‘\.\"‘."\" -';
+Sl fata Tt e Xoita P ri b v by L
+SIS IS 27 Vv el e
+T
+AT i e r ATy l
+v "l“.o'O‘0.0‘Q' '."i”'l’ "'t‘.'.'.i,.
+':‘c‘o‘.'a'-"'0'0'0'.'o'o’o"',“v'\':'.' nt
+(el atataa fa vt o P n iy il
+et
+v 'dll"'l-'l"'l'l'l’.'D'.'}"'.‘.VV'V’\,"
+9 1."1.4.“4.'.0.'.""0.6.’“'"..\:‘,\\"
+GO e B Ty v
+Vela i i ety t)y vt vy '.‘.'l‘l'. W
+Gttt el ol Telete v by LTS
+Tatalstataty ‘o.v,“o,',',v,v.v,v""\:,ww;;.
+f GhLGGBLLRLRNN Y ':‘\'b“
+(s ‘O‘l.c..‘0.0.0’0’7""$’v‘v Whidt
+o Te ' ‘l,o,v.f,o'o.0,0,0.v‘y..:\l,'\\“
+st ,0‘“'.0.0."0",""\’, \\'\'\"
+Tatatatstat, o b o r e vl ot
+. ‘00,\.-.'9..,., 13
+OASKOASAS S URT S
+Grort e v N
+WD A
+' V""'.""V.V. .b’“
+',“',0.0.0‘0.“0.""..).‘." \
+0 v, e 0ttt vy v
+MMM MMM MM W N
+At Tt e e
+QIR IR MR NN
+ety L STy
+l‘l AT At i T sa i v
+. A .
+
+3 Y
+A e la gt ettt bttt it ol »
+AA'aTe 4 » ‘
+0‘411'0'01:'1':':':""':‘ eiesrlenelile)
+B (]
+ATt i At
+;1 e o'o'c‘o‘o'n'o'o‘o'a'n‘p'o:o:;'n '
+
+Al
+
+b
+
+     
+
+-
+
+»
+147 l".‘.’..’,'.0.'.0,',"‘.'. A
+
+ 
+ 
+  
+   
+       
+    
+
+.
+' ALK
+T a1 b e e
+Al e ta ty Wt At e s
+O S S S S S A B S A S S A A i
+. D A L T ey Y
+
+Y
+Gttt e v v
+" '»:v,‘a,‘o:o:t"',""','»"..’;.'j»»(
+Tatatatutyt ittt e vt v
+AT AT s
+Iy ten it it e el e elnie
+Attt
+e li s f"
+
+4'{"
+
+-
+
+0
+
+»ae
+!
+
+      
+ 
+
+-
+-~
+-
+
+    
+      
+  
+
+el Y
+N
+BB AN
+
+\
+
+. Q"‘.; yvi
+LAAAAN
+Ty
+
+v i f Y
+
+ 
+
+  
+
+HARVEY COHN.
+
+   
+ 
+     
+     
+   
+        
+
+FoO— 3 (cp/g+ d+ cpr+icp) "
+
+cp-dg7#0
+ed by its series of absolute values,
+¢ 3 [(cp + dg+ epm0)* + (cgp2) 1™
+
+Now the terms may be grouped as follows: Since (p,q) =1, cp + dq takes
+on each non-zero integer n for a family of values (c,d) of the fory
+¢ = Cp + pg, d = dn — pp, Where (¢n, dn) is & special solution to cp + dg =y,
+determined by the condition 0= ¢x < ¢, and p takes on all integral valueg
+We may now take our majorant as follows:
+
+It is majoriz
+
+(9&) IF(2)| _<_q2m “21 c.z {[n+P1q2(F+ Cn/q)]2
+
+n=—0 U=-«
+
++ [pog*(n + en/9) I},
+where n=0. .
+We consider the summation on n for u fixed. The quantity 4, —=n
+
++ p1¢*(» + ¢n/q) has the difference Ana— An="F 4 p1q(Cnk — ¢n), Which
+differs from k& by less than 3, if p,¢* < 3, as we shall now suppose. Hence
+the sum
+
+S, = q'zm i § [([ n l T %)2 = (P2q2"")2]-m
+
+n=-o py=-o
+
+majorizes the sum in (9a) except for those terms of (9a) where, for
+given u, n takes on such a value as to make | 4,| < 3. But clearly, if
+
+80, | pg*(n+en/q)| > [n]|—3 and pag®(n + en/q) > | po/pr [(| 0] —3).
+Adding this contribution to S, we get
+
+(%) |F®
+
+ 
+
+<g" 3 3 [(nl— 4 (eghu)?] "
++ q2mn§w ( I n l_ :}:)—2771 (P:!/Pl)—?m‘
+
+Now the first part of the right hand side of (9b), or §,, can be majorized
+by an infinite integral if we observe that the summation on p is of the
+
+type _2‘»4)(#)’ where ¢(n) decreases monotonically as | u | increases. Thus,
+
+adding a term to take care of ¢(0), we obtain the estimate
+
+Sl S q'—’mngw‘f.w[(l 7n | —.‘}:)2 + (quz#)2]—m(l#’ + 2q2)n i (‘ n | = anh %)—Zm;
+
+n=-«L
+
+and. changing the variable of integration, we obtain
+
+} F(‘.Z)l <= q2mpg—lq—2"§m {(l n l __:2[:)2}—”0(]‘,
+
++ qf.’m(vz + (P?/Pl)—zm) 3 i (l n ! i _:’i\)_:zm.
+
+n=-—o
+
+: ; LAR F
+Since we are in g Stolz ne; UNCTIONS, 411
+
+ratio ,P2/p1 , 2’\) hence H(2) — O(P )_1 . \p/q (==
+
+(9) Foulid) g
+
+» Whence ﬁnally
+
+= -2m2 > —_—
+TR G~ gy v/g)
+» q-l.
+
+(The error term will shortly p, im
+: Proved t
+As in the case of the e 0 0(1),)
+. i ntica]] : 3.
+@.(2), the singularities of individug] tzrn‘l’anlshmg thety Binctions
+of the series. In general, we sha]] 0 :d » 8uch gg
+modular functions to descripe behavioy ato
+
+7. Use of modular functjpy .
+. S: rational «:
+a theta function F(2) with op i lona] SIngularities, -
+
+out
+Then as z — p/q, a rational numpe, (i Poles ang of order
+
+Here the constant (0, ig K oq2m oxp
+¥o=1im f(2) exp 2nirz ag s 57 P'q, where o
+
+=1 (mod g), ang
+The proof of this result ig quite simple
+
+We Write
+
+7= (pz— q’)/(~ 92 + p) Whel‘e'pp’sqq' S
+Then J2"— 00 as z—p/g in 4 St .
+0lz neighhorhgod
+— i 1) 2m . N 1 ’
+f(Z) ( qz + p) 3 then f(Z) = q'zm)z‘p/q)-mnf(zl) ¥ Since f(z )
+follows from the asymptotic expression for - The theorem
+
+(7 ined with
+£ (— gz + p) (%) combined with ¢ _
+
+We observe that the error i pe
+approaches zero faster than any poivero E)efXP(Eizzg;(z -T—hp/q)-l] ).’ Mich
+Fon(2), .Wthh 1s of order m and degree 0, can he es’;imategs, f:}i‘ ln'St&flce,
+termwzis in .eclpiatiznl (9) but with error term o(1). o
+
+e might add in coneclusion '
+charz}cterizes the theta function, ;l']oi i; Z z;::aalnfuerfz:i?; thi'l;iehmor
+telation f(2) = (2 — P/q)% for s real, as Z=>p/q in a Stolz n:ia lllsb e'Sh tlclle
+then £(2) is of degree 0 and s — — ®m, where m is the order of f%z)01 '1?;)1"
+would follow immediately if we knew that f(z) was of finite de ‘ee; 8in )
+then only the degree zero would permit of a behavior which is ag1 poiver (c):
+gi(; ﬁ/eiq)l;b 10 s:lee that f(z) is of ﬁn.ite degree, note that a wide enough
+s indudg:: t]0)1 190 ?,bout p/q becomes, in the #-plane, a region wide enough
+i 1e infinite portion of any vertical strip of width 1. Thus, how-
+V¢ Mmay approach oo, f(2") is smaller than some power of (2—p/q),
+
+s Lo
+
+(fistadsgrdaitls
+
+131
+
+vl
+A
+Loy
+o
+I~
+: s
+N
+.~
+.
+v
+A
+A
+Nl
+o

@@ -1,0 +1,402 @@
+‘ - 2 HE =. CT vlad ERE Ng a LT Pe A BLT Sway, of SR Tee Se CR ART SEA 5 hs a er dw A ET .
+= - = in a SUSAR ; Foy 3 i ANCE] T ~~ hs, A > A A $Y - Eo NEAT LS ed
+| Ih er «REEL CE a SSE ih ay bE peas at PF ITE EL A gh XE aw Wa. al CREEP ai Ra 2 co hep Ly Te, ud 2 a
+wes, ET AER a E 3) = Si Og a wi i Se Ai Far t ie = + WR PIR ak to
+h v # - Ye = < 3
+
+ 
+
+HR WEAR TR ER,
+
+ad
+
+;
+:
+
+Room 7-308 A
+
+4
+
+July 30, 1954 :
+
+x
+
+Pr. J. A. Stratton i
+Room 10-200 w
+: AM - I . T ~ py
+Dear Dr. Stratton: b
+In accordance with your request, I have prepared a memo- 5
+
+randum concerning the proposed space change for the Office of 4)
+Statistical Services. As I mentioned to you in our discussion, the ot
+prime purpose for preparing this is to give you my thoughts on the big
+matter. :
+
+I also felt it advisable to indicate that I thought the
+change may have certain adverse effects on the operating efficiency
+of this office, particularly in connection with those services per-~ “
+formed for the Administrative offices. Should you therefore hear =
+of dissatisfaction from the Administrative Officers in the future,
+you will understand some of the reasons.
+
+I again wish to emphasize the last statement of my report,
+namely, that I understand your position in this matter and I certainly
+shall make every effort to see that Statistical Services continues to
+
+succeed.
+
+Sincerely yours,
+
+F. M Verzuh
+
+Director
+v:t 4
+
+ce: Mr. J. J. Snyder
+Prof. P., M. Morse
+Mr. J. A. Little
+
+
+Memorandum on the Proposed Space Change
+for the
+
+Office of Statistical Services
+
+July 29, 1954
+
+¥. M. Verzuh
+
+TET
+
+
+Table of Contents
+
+INtrOAuBtIOn . + + + « * » & + + ow 2% uw ww
+
+Services Rendered by the Office of Statistical
+Self-Service Operation of IBM Equipment. . . .
+Space Requirements for Statistical Services. .
+Space Request Made by Computation Committee. .
+Suggested Space Allocation . , . . . . . . .
+
+Machine Room Specifications. . . . . . . . . .
+Conclusion A ER Ca
+
+ig
+
+ef or Bb WD OW ON
+
+
+introduction
+
+The purpose of this memorandum is to discuss the proposed
+transfer of this office to Wing C of Building 20 and its posible effect
+upon ihe services rendered. i would like to emphasize that this memo-
+randum is written to present Some of the operational aspects associated
+with effective operation and pot as a criticism of the proposed move.
+
+As part of the historical background of gtatistical Services,
+it is well to recsll that this office Was organized as an Administratéve
+office in 1950, with the primary objective of aechanizing the activities
+of the larger gdministrative offices such as Alumni, Bursar and Registrar.
+A central location was therefore selected because it was felt that this
+was essential to effective communication and lisison with the various
+administrative offices which it would Serve.
+
+card system: Temporary roll cards, final student roll cards, master
+subject cards, student tuition, student health insurance, dining-dorm
+statistics, alumni records, new Alumni Register, ote. As a result, we
+have also provided 1isting and addressing service te the administrative
+offices as well a8 department headquarters and Institute committees.
+All of this, of course, necessitates & great deal of trucking cards and
+date back and forth between the offices as well as intercommunication
+between the office personnel. The essentialness of a central location
+has therefore been evident.
+
+Services Rendered by the office of Statistical Services
+
+The present activities of this office may be divided into the
+following categories:
+
+1. Academic: Laboratory exercises and thesis research,
+
+2. Administrative office services,
+
+3, Scientific Computation: academic and p.1.¢. research,
+
+4. Research in Business Applications and development of new
+computational techniques.
+
+tt is immediately evident that certain of these activities may be per-
+formed egually well in either 2 central or a peripheral location ~~
+assuming equal working conditions. Eowever, the services performed for
+the Administrative offices and certain of the scientific computing
+projects demand a central location to minimise the communication and
+transportation problems.
+
+specifically, the following administrative offices require 8
+continuous liaison to effect proper service:
+
+
+Qffice Individuals Contact Frequency
+Admissions Office Kingsbury weekly
+Alumni Association Severance McCabe ,Smity ,McPortland daily
+Alumni Placement every other day
+Bursar's Office Quinn, Smith daily
+Cashier's Office daily
+Loan Fund Mathies weekly
+Registrar Hewes, Groggett daily
+
+In addition to the above need for correct instruction from individuals in
+charge rather than messengers, there is the ever-present problem of trans-
+porting the punched cards to and from each of these offices. In certain
+
+cases the volume of cards is quite large (Alumni = 160,000; Registrar = 86,000,
+ete. -- where each 10,000 cards weigh 60 lbs.) and the task of transporting
+these cards cannot be minimized.
+
+At the present time, the Alumni Assoc. provides a courier to
+transport cards daily between Buildings 1 and 7. It must be recognized
+that the present ‘under shelter” route requires use of but one elevator;
+whereas, theproposed move would necessitate se of 3 elevators and outdoor
+exposure, including dampness, raln and snow. (Needless to say, punched
+cards which have been exposed to the elements will not function properly’
+in standard IBM machines and will seriously impede the operational efficiency.)
+It ie estimated that 1/2 hour will be required for each one-way trip. |
+
+Several guestions naturally arise: What is the proper calibre of
+courier which must be employed for this transportation problem§j Under the
+existing mode of operation, there have been occasiongl errors in inter-
+office card handling. How will the incidence of error be affected under
+the proposed system] How much will the present operating costs be in-
+creased? What effect will the increased cost have on the volume of
+services rendered--particularly in view of the present mode of austerity
+operation? (It must be remembered that each administrative office
+currently cancels IBM work whenever the service costs are greater than
+manual methods,” e.g. the Student Directory.)
+
+ 
+
+Self-Service Operation of IMI Equipment
+
+The advent of the Card Programmed Calculator (CPC) and the use
+of standard repetitive work programs oa other machines has resulted in
+the extensive self-service use of the punched-card equipment. Specifically,
+the following tabulation indicates some of the seli-gervice users:
+
+Group individuals
+
+1. DACL Misses KE. Kavanagh, M. Merwin and Nr. Isom
+
+2. FCL Miss V. Brenton, Messrs. E. Larson and W. Yhelan
+
+3. Inst. Lab. Messrs. Battin, Frey, Laning, O'Keefe, Block,
+Prongay, and Dailey. Misses Bain, Jeggetts, Petrick
+and Sullkvan
+
+4. HNSL Messrs. T. Martin, J. Hill, Mrs. Friedman and Staley
+
+5. Math Messrs. Burrows, Glantz, Klein, Phipps and Segal
+
+6. Physics Messrs. Corbato, Newstein, Temkin and Yilmaz.
+
+
+-3-
+
+Admittedly, these users are performing either D.I.C. sponsored research
+or thesis research which can presumably be performed equally well at aay
+location except for possible personal inconvenience.
+
+ 
+
+Realistically, however, it is well to nétice the similarity
+between the proposed space change iz OBS and the existing spatial separa-
+tion of the Whirlwind Computer located in the Barts Building. In the
+case of Whirlwind, it was found that the physical separation from M.I.T.
+main buildings was so critical that a specially-staffed Problem Inguiry
+and Preparation Room (Room 10-212) had to be installed during 1953. In
+this manner, staff "who would never walk to Barta" are encouraged to
+use the facility. It is alse of interest to mote that a complete,
+duplicate punched-card instellstion wes set up at the Instrumentation
+Laboratory to minimize the traffic problem between Whittemore and
+Building 7.
+
+Epace Requirements for the Office of Statistical Services
+
+A consideration of the floor plans reveals that 08S currently
+occupies the following space:
+
+Bay Area (8q. Ft.)
+
+3-408 350
+
+3-411 3860
+
+3-413 960
+
+3-422 480
+
+3-427 350 (storage)
+
+7-308 3580
+
+Dome 400 (storage)
+Total = 3240
+
+For the sake oi the record, it is well to indicate the space currently
+associated with the Differential Analyzer (RDA):
+
+Bay Area (Sg. Ft.)
+7-308 (2) 700
+7-303 (4) 1400
+3-328 360
+Total = 2450
+
+This space will be available as soon as the RDA is destroyed. As 2 matter
+of fact, the Machine Shop (Room 7-302) has been transferred te R. 10-48},
+and Bay 7-302 is now availsble for renovation.
+
+Space Request Made by Computation Committee
+
+In accordance with the long-range plans for a Computation Center
+prepared by the Machine Computation Committee, & request for four additi-
+tional bays of space was made on April 23, 1954. At that time it was
+
+
+suggested that Statistical Services occupy the following space:
+
+Bay Areca (8q. Ft.)
+7-308 700
+7-303 1400
+7-306 350
+7-308 350
+3-427 350
+Total = 3150
+
+This proposed consolidation on the third floor was predicated on the
+utiligation of the $40,000 Precipitron and Air Filter Unit and the
+associated computer room electrical power lines which were installed
+by the Center of Analysis for RDA use. I feel that decisions regarding
+space allocation should consider these items.
+
+In accordance with the Morse Committee's long-range computa-
+tional plans, the following additional space was requested:
+
+Bay Area (Sq. Ft.)
+3-409 380
+3-411 350
+3-413 960
+
+Total = 1660
+
+This space was to be used to accomodate the large-scale computers which
+are to be installed in the not-too-distant future.
+
+Suggested Space Allocation
+
+It is quite evident that the space currently occupied by
+Statistical Services (Bays 3-409, 3-411, 3-413, 3-423, 3-427 and 7-308)
+are adequate for the present mode of operation. Admittedly, the long-
+range plans of the Computation Committee cannot be realized in the
+present space. However, it is my understanding that space for "giant
+slide-rule computers is to be provided in the new Nuclear Research
+Building which is to be erected in approximately two years. It is
+therefore suggested that Statistical Services occupy its present space
+until the new building is available for occupancy. Certainly this will
+eliminate any need for financial expenditures associated with relocation,
+reinstallation, air conditioning, power installation, painting, lighting,
+
+etc. which would naturally be associated with the proposed move tomBldg. 20.
+
+(The cost of renovating two bays 23-409 and 3-411 in 1952 was $7,000 and it
+seems extravagant to repeat the expense unnecessarily.)
+
+The above suggestion would provide Architecture with Bays 7-302,
+7-303 and 3-329 or 2450 sg. ft.
+
+
+Characteristics of the Machine Room - Space Specifications
+
+Certain operational characteristics associated with punched
+card machine operation must be recognized:
+
+1. High-level illumination is required to minimize operator
+error, particularly on the current 24-hour work schedule.
+(The holes in the card appear particularly small at 2 s.m.).
+
+2. A clean, dust-free ares is required since all of the ma-
+clines employ non~dust-proof wire relays. Maintenance is
+minimiged in clean machine rooms. For example, the I.B.NM.
+Service Dept. blamed excessive machine malfunctioning in
+1948 on the dirty condition prevalent in Bldg. 20. (A
+Precipitron would be useful.) At the present loeation,
+the machine service is down to 5% per month, whereas it
+was as high as 50% in Building 20. (Part of this dirt
+is due to the wood floors which collect dust, etc.)
+
+3. Air conditioning or other means of eliminating heat are
+required. The 604 Electronic Calculator and the Card
+Programned Calculator (CPC) dissipate 21,000 and 27,000 BTU
+respectively. All IBM installations of this type (except
+M. I. T.) are operated in air-conditioned offices.
+
+4. Adequate work space is essential to minimize the incidence
+of human operator error.
+
+Conclusion
+
+This memorandum contains some of the facts associated with
+the operation of the Office of Statistical Services. The present types
+of service are described, and the need for a central location for ef-
+fective mechanization of administrative activities is emphasized.
+
+It is evident that the proposed location in Building 20 will
+require a certain installation cost and will demand extensive use of
+couriers and transportation facilities. It is quite evident that the
+Statistical Services cannot be responsible for the communication and
+transportation lines between it and each of the Administrative offices.
+Clearly, each Administrative office should provide its own courier and
+transportation medium. Statistical Services will sct on and service all
+material delivered to it, but the responsibility of accurate and proper
+delivery of instructions and cards should reside with each individual
+administrative office.
+
+Naturally, this proposed modus operandi will fmpose operational
+difficulties on all associated operating personnel. The attendant cost
+of operation will be increased and many of the present services may be
+discontinued by the Administrative Offices for they will become exces-
+sively expensive. This condition may become sufficiently aggravated to
+force discontinuance of most administrative activities. If this should
+happen, it would be most unfortunate as many years of hard work would
+have been wasted!
+
+
+Perhaps the above deduction is overly pessimistic. However,
+the proposed location in Building 20 will possibly encourage decentralizma-
+tion of the punched-card facilities. Soon each Administrative Office may .
+request individual machines for their own offices and a general 12-unit |
+decentralized-type of operation may result, such as at Harvard. Clearly,
+this resultant type of operation would be direct contradiction to the
+
+centralized-type of service which has been the basis of Statistical
+Bervices.
+
+Certainly, the real disadvantages, limitations, etc. must be
+considered as well as the advantages before a definite deciision con-
+cerning space reallocation is made.
+
+In closing, I again wish to emphasize that I personally am not
+acting as an obstructionalist” in this proposed space change. I merely
+wish to record some of the possible difficulties which will arise in
+the execution of administrative services. In any case, irrespective of
+the outcome of the decision on space, I want it understood that I shall
+make every effort to make the Statistical Services succeed.
+
+¥. M. Verzuh
+July 29, 1954
+ce: J. J. Snyder
+
+J. A. Little
+P. HM. Norse
+
+
