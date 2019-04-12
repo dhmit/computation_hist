@@ -330,3 +330,4 @@ def story(request, slug):
         return render(request, template)
     except TemplateDoesNotExist:
         raise Http404('A story with this slug does not exist.')
+
