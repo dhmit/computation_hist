@@ -259,14 +259,18 @@ def process_advanced_search(search_params):
     """
 
     docs_qs = Document.objects  # 'qs' for queryset
-    keyword = search_params.get('keyword')
-    if keyword:
-        people_objs = Person.objects.filter(Q(last__contains=keyword) |
-                                            Q(first__contains=keyword))
-        folder_objs = Folder.objects.filter(full__contains=keyword)
-        organization_objs = Organization.objects.filter(Q(name__contains=keyword) |
-                                                        Q(location__contains=keyword))
-        doc_Q = Q(title__contains=keyword)
+    keywords = search_params.get('keyword')
+    if keywords:
+        keywordlst = keywords.split(" ")
+        person_q = Q()
+        for word in keywordlst:
+            person_q |= Q(first__icontains=word)
+            person_q |= Q(last__icontains=word)
+        people_objs = Person.objects.filter(person_q)
+        folder_objs = Folder.objects.filter(full__icontains=keywords)
+        organization_objs = Organization.objects.filter(Q(name__icontains=keywords) |
+                                                        Q(location__icontains=keywords))
+        doc_Q = Q(title__icontains=keywords)
         for person in people_objs:
             doc_Q |= Q(author_person=person)
             doc_Q |= Q(recipient_person=person)
