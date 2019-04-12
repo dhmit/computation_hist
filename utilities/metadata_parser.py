@@ -334,6 +334,7 @@ def interpret_person_organization(field, item_organization, item_person, new_doc
                         first_name += name + " "
                 first_name = first_name.strip()
 
+            # check for duplicate
             if last_name != '':
                 if last_name not in names_so_far:
                     if first_name != '':
