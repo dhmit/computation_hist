@@ -59,12 +59,12 @@ def populate_from_metadata(metadata_filename=None):
 
             if missing_metadata:
                 print(f'WARNING: Line {line_id+1} is incomplete (skipping).\
-                        \n\tMissing fields: {missing_metadata} - FIXME in the metadata!')
+                        \n\tMissing fields: {missing_metadata} - FIX ME in the metadata!')
                 count_skipped += 1
                 continue
 
             try:
-                add_one_document(line)
+                add_one_document(line, line_id+1)
                 count_added += 1
             except ValidationError as e:
                 count_invalid += 1
@@ -134,7 +134,7 @@ Added {count_added} documents from {metadata_filename}.
 Skipped {count_skipped} documents because of incomplete metadata.
 {count_invalid} had invalid data.''')
 
-def add_one_document(csv_line):
+def add_one_document(csv_line, line_no=None):
     """
     Processes one line from a metadata csv file and add it to the database.
     Note: This function does not check if the metadata is complete. It is only supposed to be
@@ -150,6 +150,7 @@ def add_one_document(csv_line):
     ... ('cced', 'unknown'), ('notes', ''), ('metadata_specialist_notes', '')])
     >>> add_one_document(csv_line)
     :param csv_line: OrderedDict
+    :param line_no: int
     :return:
     """
 
@@ -210,17 +211,20 @@ def add_one_document(csv_line):
         interpret_person_organization(csv_line['author'],
                                       "author_organization",
                                       "author_person",
-                                      new_doc
+                                      new_doc,
+                                      line_no
                                       )
         interpret_person_organization(csv_line['recipients'],
                                       "recipient_organization",
                                       "recipient_person",
-                                      new_doc
+                                      new_doc,
+                                      line_no
                                       )
         interpret_person_organization(csv_line['cced'],
                                       "cced_organization",
                                       "cced_person",
-                                      new_doc
+                                      new_doc,
+                                      line_no
                                       )
         new_doc.save()
     except IntegrityError:
@@ -289,7 +293,7 @@ def page_image_to_doc(folder_name, pdf_path, image_directory):
             pass
 
 
-def interpret_person_organization(field, item_organization, item_person, new_doc):
+def interpret_person_organization(field, item_organization, item_person, new_doc, line_no=None):
     # Adds people and organizations as an author, recipient, or CC'ed.
     field_split = field.split('; ')
 
@@ -302,16 +306,33 @@ def interpret_person_organization(field, item_organization, item_person, new_doc
             split_name = person_or_organization.split(', ')
 
             if len(split_name) > 2:
-                print("There seem to be too many commas in this name ", split_name)
+                print("There seem to be too many commas in this name", split_name, "in line", line_no)
+            # print("hello")
 
-            last_name = split_name[0]
-            first_name = split_name[1]
+            last_name = split_name[0].strip()
+            first_and_middle_names = split_name[1].strip()
+            first_and_middle_names_list = ".".join(first_and_middle_names.split(' ')).split(".")
+            first_name = ""
+            for name in first_and_middle_names_list:
+                # print(name)
+                if name != "":
+                    if len(name) == 1:
+                        name += "."
+                        # print("Missing period after initial in", first_and_middle_names, "in", item_person, "in line",
+                        #       line_no)
+                    first_name += name + " "
+            first_name = first_name.strip()
 
             if last_name == 'unknown':
                 last_name = ''
 
             if first_name == 'unknown':
                 first_name = ''
+
+            if len(last_name) == 1:
+                last_name += "."
+                print("Missing period after last initial in line", line_no)
+
 
             new_person, _unused_person_created = Person.objects.get_or_create(
                 last=last_name,
