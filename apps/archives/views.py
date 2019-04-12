@@ -369,7 +369,7 @@ def story(request, slug):
         raise Http404('A story with this slug does not exist.')
 
 
-def net_viz():
+def net_viz(request):
     from collections import Counter
 
     docs = Document.objects.prefetch_related('author_person').all()
@@ -381,4 +381,8 @@ def net_viz():
         for recip in doc.recipient_person.all():
             edges[(author, recip)] += 1
             nodes[recip] += 1
+
+    graph_dict = {'nodes': dict(nodes), 'edges': dict(edges)}
+
+    return render(request, 'archives/net_viz.jinja2', graph_dict)
 
