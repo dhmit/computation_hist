@@ -268,8 +268,7 @@ def process_advanced_search(search_params):
             person_q |= Q(last__iexact=word)
         people_objs = Person.objects.filter(person_q)
         folder_objs = Folder.objects.filter(full__icontains=keywords)
-        organization_objs = Organization.objects.filter(Q(name__icontains=keywords) |
-                                                        Q(location__icontains=keywords))
+        organization_objs = Organization.objects.filter(Q(name__icontains=keywords))
         doc_Q = Q(title__icontains=keywords)
         for person in people_objs:
             doc_Q |= Q(author_person=person)
