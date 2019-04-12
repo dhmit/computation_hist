@@ -264,8 +264,8 @@ def process_advanced_search(search_params):
         keywordlst = keywords.split(" ")
         person_q = Q()
         for word in keywordlst:
-            person_q |= Q(first__icontains=word)
-            person_q |= Q(last__icontains=word)
+            person_q |= Q(first__iexact=word)
+            person_q |= Q(last__iexact=word)
         people_objs = Person.objects.filter(person_q)
         folder_objs = Folder.objects.filter(full__icontains=keywords)
         organization_objs = Organization.objects.filter(Q(name__icontains=keywords) |
