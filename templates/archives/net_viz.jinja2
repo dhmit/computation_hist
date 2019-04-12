@@ -1,0 +1,23 @@
+{% extends "base.jinja2" %}
+
+{% block content %}
+    {{ nodes }}
+    {{ edges }}
+
+
+    <script src="{{ static('js/net_viz.js')}}"></script>
+    <script>
+        const nodes = [
+            {"id": "Morse", "value": 45},
+            {"id": "Verzuh", "value": 25},
+            {"id": "Sally", "value": 10}
+        ];
+        const edges = [
+            {"source": "Morse", "target": "Verzuh", "value": 10},
+            {"source": "Morse", "target": "Sally", "value": 5},
+            {"source": "Sally", "target": "Verzuh", "value": 20},
+            {"source": "Sally", "target": "Morse", "value": 15},
+        ];
+        create_force_layout(nodes, edges);
+    </script>
+{% endblock %}

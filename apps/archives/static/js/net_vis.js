@@ -1,15 +1,10 @@
-window.onload = function(){
-    create_force_layout(nodes, edges);
-};
-
-
 function create_force_layout(nodes, edges) {
 
-    var labelLayout = d3.forceSimulation(nodes)
+    let labelLayout = d3.forceSimulation(nodes)
         .force("charge", d3.forceManyBody().strength(-50))
         .force("link", d3.forceLink(edges).distance(0).strength(2));
 
-    var graphLayout = d3.forceSimulation(nodes)
+    let graphLayout = d3.forceSimulation(nodes)
         .force("charge", d3.forceManyBody().strength(-3000))
         .force("center", d3.forceCenter(width / 2, height / 2))
         .force("x", d3.forceX(width / 2).strength(1))
@@ -17,7 +12,7 @@ function create_force_layout(nodes, edges) {
         .force("link", d3.forceLink(edges).id(function(d) {return d.id; }).distance(50).strength(1))
         .on("tick", ticked);
 
-    var adjlist = [];
+    let adjlist = [];
 
     edges.forEach(function(d) {
         adjlist[d.source.index + "-" + d.target.index] = true;
@@ -29,8 +24,8 @@ function create_force_layout(nodes, edges) {
     }
 
 
-    var svg = d3.select("#viz").attr("width", width).attr("height", height);
-    var container = svg.append("g");
+    let svg = d3.select("#viz").attr("width", width).attr("height", height);
+    let container = svg.append("g");
 
     svg.call(
         d3.zoom()
@@ -38,7 +33,7 @@ function create_force_layout(nodes, edges) {
             .on("zoom", function() { container.attr("transform", d3.event.transform); })
     );
 
-    var link = container.append("g").attr("class", "links")
+    let link = container.append("g").attr("class", "links")
         .selectAll("line")
         .data(edges)
         .enter()
@@ -46,7 +41,7 @@ function create_force_layout(nodes, edges) {
         .attr("stroke", "#aaa")
         .attr("stroke-width", "1px");
 
-    var node = container.append("g").attr("class", "nodes")
+    let node = container.append("g").attr("class", "nodes")
         .selectAll("g")
         .data(nodes)
         .enter()
@@ -63,7 +58,7 @@ function create_force_layout(nodes, edges) {
             .on("end", dragended)
     );
 
-    var labelNode = container.append("g").attr("class", "labelNodes")
+    let labelNode = container.append("g").attr("class", "labelNodes")
         .selectAll("text")
         .data(nodes)
         .enter()
@@ -87,16 +82,16 @@ function create_force_layout(nodes, edges) {
                 d.x = d.node.x;
                 d.y = d.node.y;
             } else {
-                var b = this.getBBox();
+                let b = this.getBBox();
 
-                var diffX = d.x - d.node.x;
-                var diffY = d.y - d.node.y;
+                let diffX = d.x - d.node.x;
+                let diffY = d.y - d.node.y;
 
-                var dist = Math.sqrt(diffX * diffX + diffY * diffY);
+                let dist = Math.sqrt(diffX * diffX + diffY * diffY);
 
-                var shiftX = b.width * (diffX - dist) / (dist * 2);
+                let shiftX = b.width * (diffX - dist) / (dist * 2);
                 shiftX = Math.max(-b.width, Math.min(0, shiftX));
-                var shiftY = 16;
+                let shiftY = 16;
                 this.setAttribute("transform", "translate(" + shiftX + "," + shiftY + ")");
             }
         });
@@ -110,7 +105,7 @@ function create_force_layout(nodes, edges) {
     }
 
     function focus(d) {
-        var index = d3.select(d3.event.target).datum().index;
+        let index = d3.select(d3.event.target).datum().index;
         node.style("opacity", function(o) {
             return neigh(index, o.index) ? 1 : 0.1;
         });

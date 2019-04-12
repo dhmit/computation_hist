@@ -372,17 +372,33 @@ def story(request, slug):
 def net_viz(request):
     from collections import Counter
 
-    docs = Document.objects.prefetch_related('author_person').all()
+    docs = Document.objects.all()
     nodes = Counter()
     edges = Counter()
 
-    for author in docs:
-        nodes[author] += 1
-        for recip in doc.recipient_person.all():
-            edges[(author, recip)] += 1
-            nodes[recip] += 1
+    for doc in docs:
+        authors = doc.author_person.all()
+        recipients = doc.recipient_person.all()
+        for author in authors:
+            nodes[str(author)] += 1
+            for recipient in recipients:
+                edges[(str(author), str(recipient))] += 1
 
-    graph_dict = {'nodes': dict(nodes), 'edges': dict(edges)}
+    edge_list = list()
+    for letter in edges:
+        edge_list.append({
+            'source': letter[0],
+            'target': letter[1],
+            'value': edges[letter]
+        })
+    node_list = list()
+    for author in nodes:
+        node_list.append({
+            'id': author,
+            'value': nodes[author]
+        })
+
+    graph_dict = {'nodes': dict(nodes), 'edges': edge_list}
 
     return render(request, 'archives/net_viz.jinja2', graph_dict)
 
