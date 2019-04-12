@@ -18,6 +18,7 @@ PyPDF2
 requests
 scipy
 seaborn
+selenium
 pytesseract
 opencv-contrib-python
 Pillow
