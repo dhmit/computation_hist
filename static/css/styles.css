@@ -40,3 +40,61 @@ body {
     display: block;
     background: rgb(255, 228, 196, 1);
 }
+
+
+.sidenav{
+    height: 100%;
+    width: 12%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #343a40;
+    overflow-x: hidden;
+    padding-top: 70px;
+    color: #eeeeee;
+}
+
+
+@media (max-width: 1000PX) {
+    .sidenav {
+    position: relative;
+    bottom:21%;
+    width:100%;
+    margin-bottom: 20%;
+    }
+}
+
+
+@media only screen and (min-width: 1200px) {
+       .typing {
+           font-size: 24px;
+           font-family: monospace; /* Web-safe typewriter-like font */
+           overflow: hidden; /* Ensures the content is not revealed until the animation */
+           white-space: nowrap; /* Keeps the content on a single line */
+           margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+           letter-spacing: .05em; /* Adjust as needed */
+           animation: typing 5s steps(30, end),
+           blinking-cursor .5s step-end infinite;
+       }
+
+       /* The typing effect */
+       @keyframes typing {
+           from {
+               width: 0
+           }
+           to {
+               width: 100%
+           }
+       }
+
+       /* The typewriter cursor effect */
+       @keyframes blinking-cursor {
+           from, to {
+               border-color: transparent
+           }
+           50% {
+               border-color: lawngreen;
+           }
+       }
+}
