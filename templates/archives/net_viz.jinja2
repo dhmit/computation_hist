@@ -1,11 +1,9 @@
 {% extends "base.jinja2" %}
 
 {% block content %}
-    {{ nodes }}
-    {{ edges }}
 
-
-    <script src="{{ static('js/net_viz.js')}}"></script>
+    <script src="{{ static('js/d3.js')}}"></script>
+    <script src="{{ static('js/net_vis.js')}}"></script>
     <script>
         const nodes = [
             {"id": "Morse", "value": 45},
