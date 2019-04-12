@@ -46,6 +46,7 @@ def populate_from_metadata(metadata_filename=None):
         count_added = 0
         count_skipped = 0
         count_invalid = 0
+        names = {}
         for line_id, line in enumerate(csv_file):
             # Skip empty lines
             if "".join(line.values()) == '':
@@ -64,7 +65,7 @@ def populate_from_metadata(metadata_filename=None):
                 continue
 
             try:
-                add_one_document(line, line_id+1)
+                add_one_document(line, line_id+1, names)
                 count_added += 1
             except ValidationError as e:
                 count_invalid += 1
@@ -128,13 +129,13 @@ def populate_from_metadata(metadata_filename=None):
 
 
     print(f'''\n################################################################################
-IMPORT COMPLETE
-################################################################################
-Added {count_added} documents from {metadata_filename}.
-Skipped {count_skipped} documents because of incomplete metadata.
-{count_invalid} had invalid data.''')
+    IMPORT COMPLETE
+    ################################################################################
+    Added {count_added} documents from {metadata_filename}.
+    Skipped {count_skipped} documents because of incomplete metadata.
+    {count_invalid} had invalid data.''')
 
-def add_one_document(csv_line, line_no=None):
+def add_one_document(csv_line, line_no=None, names={}):
     """
     Processes one line from a metadata csv file and add it to the database.
     Note: This function does not check if the metadata is complete. It is only supposed to be
@@ -151,6 +152,7 @@ def add_one_document(csv_line, line_no=None):
     >>> add_one_document(csv_line)
     :param csv_line: OrderedDict
     :param line_no: int
+    :param names: dict
     :return:
     """
 
@@ -212,19 +214,22 @@ def add_one_document(csv_line, line_no=None):
                                       "author_organization",
                                       "author_person",
                                       new_doc,
-                                      line_no
+                                      line_no,
+                                      names
                                       )
         interpret_person_organization(csv_line['recipients'],
                                       "recipient_organization",
                                       "recipient_person",
                                       new_doc,
-                                      line_no
+                                      line_no,
+                                      names
                                       )
         interpret_person_organization(csv_line['cced'],
                                       "cced_organization",
                                       "cced_person",
                                       new_doc,
-                                      line_no
+                                      line_no,
+                                      names
                                       )
         new_doc.save()
     except IntegrityError:
@@ -293,7 +298,7 @@ def page_image_to_doc(folder_name, pdf_path, image_directory):
             pass
 
 
-def interpret_person_organization(field, item_organization, item_person, new_doc, line_no=None):
+def interpret_person_organization(field, item_organization, item_person, new_doc, line_no=None, names_so_far={}):
     # Adds people and organizations as an author, recipient, or CC'ed.
     field_split = field.split('; ')
 
@@ -305,34 +310,47 @@ def interpret_person_organization(field, item_organization, item_person, new_doc
         else:
             split_name = person_or_organization.split(', ')
 
+            # check for commas
             if len(split_name) > 2:
                 print("There seem to be too many commas in this name", split_name, "in line", line_no)
-            # print("hello")
 
+            # get last name
             last_name = split_name[0].strip()
-            first_and_middle_names = split_name[1].strip()
-            first_and_middle_names_list = ".".join(first_and_middle_names.split(' ')).split(".")
-            first_name = ""
-            for name in first_and_middle_names_list:
-                # print(name)
-                if name != "":
-                    if len(name) == 1:
-                        name += "."
-                        # print("Missing period after initial in", first_and_middle_names, "in", item_person, "in line",
-                        #       line_no)
-                    first_name += name + " "
-            first_name = first_name.strip()
-
+            if len(last_name) == 1:
+                print("Missing period after last initial", last_name, "in line", line_no)
+                last_name += "."
             if last_name == 'unknown':
                 last_name = ''
 
-            if first_name == 'unknown':
-                first_name = ''
+            # get first names
+            first_name = ''
+            if split_name[1].strip().lower() != 'unknown':
+                first_and_middle_names = split_name[1].strip()
+                first_and_middle_names_list = ".".join(first_and_middle_names.split(' ')).split(".")
+                for name in first_and_middle_names_list:
+                    if name != "":
+                        if len(name) == 1:
+                            name += "."
+                        first_name += name + " "
+                first_name = first_name.strip()
 
-            if len(last_name) == 1:
-                last_name += "."
-                print("Missing period after last initial in line", line_no)
-
+            if last_name != '':
+                if last_name not in names_so_far:
+                    if first_name != '':
+                        names_so_far[last_name] = {first_name}
+                else:
+                    first_names = list(names_so_far[last_name])
+                    if first_name != '':
+                        first_names = [name for name in first_names if name != '' and name[0] == first_name[0]]
+                    first_names = sorted(first_names, key=lambda x: len(x), reverse=True)
+                    if len(first_names) > 0:
+                        likely_match = first_names[0]
+                        if len(likely_match) > len(first_name):
+                            print("First name here for last name", last_name, "is", first_name + ".", "Did you mean",
+                                  likely_match +
+                                  "?")
+                    if first_name != '':
+                        names_so_far[last_name].add(first_name)
 
             new_person, _unused_person_created = Person.objects.get_or_create(
                 last=last_name,
