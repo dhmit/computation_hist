@@ -335,6 +335,7 @@ def story(request, slug):
 
 
 def timeline(request):
-    documents = Document.objects.order_by('date')
+    documents = (Document.objects.order_by('date')
+                         .exclude(date=None))
     context = {'documents': documents}
     return render(request, 'archives/timeline.jinja2', context)
