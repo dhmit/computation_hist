@@ -368,3 +368,17 @@ def story(request, slug):
     except TemplateDoesNotExist:
         raise Http404('A story with this slug does not exist.')
 
+
+def net_viz():
+    from collections import Counter
+
+    docs = Document.objects.prefetch_related('author_person').all()
+    nodes = Counter()
+    edges = Counter()
+
+    for author in docs:
+        nodes[author] += 1
+        for recip in doc.recipient_person.all():
+            edges[(author, recip)] += 1
+            nodes[recip] += 1
+

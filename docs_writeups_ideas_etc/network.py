@@ -20,20 +20,4 @@ def create_network_json():
                 edge_counter[(author.fullname, recipient.fullname)] += 1
     """
 
-    docs = Document.objects.all()
-    nodes = Counter()
-    edges = Counter()
 
-    for doc in docs:
-        for author in doc.author_person.all():
-            nodes[author] += 1
-            for recip in doc.recipient_person.all():
-                edges[(author, recip)] += 1
-                nodes[recip] += 1
-
-    with open('network.json', 'w') as f:
-        node_dict = dict()
-        for auth in nodes:
-            node_dict += {'id': author, 'weight': nodes[author]}
-
-        edges_dict = dict()
