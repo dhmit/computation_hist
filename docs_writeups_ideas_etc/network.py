@@ -1,5 +1,6 @@
 from apps.archives.models import Document
 from collections import Counter
+import json
 
 
 def create_network_json():
@@ -29,3 +30,10 @@ def create_network_json():
             for recip in doc.recipient_person.all():
                 edges[(author, recip)] += 1
                 nodes[recip] += 1
+
+    with open('network.json', 'w') as f:
+        node_dict = dict()
+        for auth in nodes:
+            node_dict += {'id': author, 'weight': nodes[author]}
+
+        edges_dict = dict()
