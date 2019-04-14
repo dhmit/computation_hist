@@ -27,6 +27,7 @@ def index(request):
     context = {'stories': stories}
     return render(request, 'index.jinja2', context)
 
+
 def network_viz(request):
     from .common import DJWEB_PATH
     import csv
@@ -371,34 +372,45 @@ def story(request, slug):
 
 def net_viz(request):
     from collections import Counter
+    import json
 
     docs = Document.objects.all()
-    nodes = Counter()
-    edges = Counter()
+    node_count = Counter()
+    edge_count = Counter()
 
-    for doc in docs:
-        authors = doc.author_person.all()
-        recipients = doc.recipient_person.all()
+    # Count instances of each author/recipient
+    for document in docs:
+        authors = document.author_person.all()
+        recipients = document.recipient_person.all()
         for author in authors:
-            nodes[str(author)] += 1
+            node_count[str(author)] += 1
             for recipient in recipients:
-                edges[(str(author), str(recipient))] += 1
+                edge_count[(str(author), str(recipient))] += 1
 
+    # # Filter out uncommon nodes per max_nodes
+    # node_count = node_count.most_common(max_nodes)
+    # for edge in edge_count:
+    #     if not all(name in list(node_count) for name in edge):
+    #         del edge_count[edge]
+
+    # Convert node and edges into json strings
     edge_list = list()
-    for letter in edges:
+    for letter in edge_count:
         edge_list.append({
             'source': letter[0],
             'target': letter[1],
-            'value': edges[letter]
+            'value': edge_count[letter]
         })
     node_list = list()
-    for author in nodes:
+    for author in node_count:
         node_list.append({
             'id': author,
-            'value': nodes[author]
+            'value': node_count[author]
         })
+    nodes = json.dumps(node_list)
+    edges = json.dumps(edge_list)
 
-    graph_dict = {'nodes': dict(nodes), 'edges': edge_list}
+    graph_dict = {'nodes': nodes, 'edges': edges}
 
     return render(request, 'archives/net_viz.jinja2', graph_dict)
 
