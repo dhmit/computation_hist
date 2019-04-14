@@ -70,6 +70,7 @@ def doc(request, doc_id=None, slug=None):
     author_organization_objs = doc_obj.author_organization.all()
     recipient_person_objs = doc_obj.recipient_person.all()
     recipient_organization_objs = doc_obj.recipient_organization.all()
+
     if recipient_organization_objs:
         if recipient_organization_objs[0].name == 'unknown':
             recipient_organization_objs = None
@@ -384,7 +385,7 @@ def process_advanced_search(search_params):
                                  Q(date__year__lte=max_year))
     # prevents template from hitting the db
     docs_qs = docs_qs.prefetch_related('author_person', 'author_organization', 'folder',
-                                       'recipient_person', 'recipient_organization')
+                                       'recipient_person', 'recipient_organization', 'cced_person','cced_organization')
     facets = generate_search_facets(docs_qs)
     return docs_qs, facets
 
