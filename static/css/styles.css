@@ -17,7 +17,7 @@ body {
 
 .footer-img {
      height: 80px;
-     max-height: 10vh !important;
+     max-height: 10vh;
      max-width: 20vw;
      object-fit: contain;
 }
