@@ -1,8 +1,8 @@
 function create_force_layout(nodes, edges) {
 
-    let labelLayout = d3.forceSimulation(nodes)
-        .force("charge", d3.forceManyBody().strength(-50))
-        .force("link", d3.forceLink(edges).distance(0).strength(2));
+    let labelLayout = d3.forceSimulation(nodes);
+    labelLayout.force("charge", d3.forceManyBody().strength(-50));
+    labelLayout.force("link", d3.forceLink(edges).distance(0).strength(2));
 
     let graphLayout = d3.forceSimulation(nodes)
         .force("charge", d3.forceManyBody().strength(-3000))
