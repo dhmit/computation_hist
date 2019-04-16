@@ -22,6 +22,7 @@ def index(request):
         'sample_story',
         'sample_story',
         'sample_story',
+        'mayowa_story'
     ]
 
     context = {'stories': stories}
