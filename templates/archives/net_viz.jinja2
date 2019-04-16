@@ -11,10 +11,10 @@
             {"id": "Sally", "value": 10}
         ];
         const edges = [
-            {"source": 0, "target": 1, "value": 10},
-            {"source": 0, "target": 2, "value": 5},
-            {"source": 2, "target": 1, "value": 20},
-            {"source": 2, "target": 0, "value": 15},
+            {"source": "Morse", "target": "Verzuh", "value": 10},
+            {"source": "Morse", "target": "Sally", "value": 5},
+            {"source": "Sally", "target": "Verzuh", "value": 20},
+            {"source": "Sally", "target": "Morse", "value": 15},
         ];
         create_force_layout(nodes, edges);
     </script>
