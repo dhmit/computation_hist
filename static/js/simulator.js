@@ -1,3 +1,5 @@
+'use strict';
+
 const PZE = HTR; // hack for pseudoinstruction PZE, which lets you store in an address, tag, and
 // decrement without an operation
 
@@ -90,7 +92,7 @@ function convert_to_binary(number, digits) {
 /**
  * A class representing a fixed-width word in the IBM 704.
  */
-class Word {
+export class Word {
     /**
      * Constructor that sets the length and contents of the word.
      *
@@ -938,7 +940,7 @@ class Instruction_Register extends Word {
             }
             let operation = no_to_operation_b_str[opcode];
             if (typeof operation === "undefined") {
-                return "Unrecognized operation"
+                return "Unrecognized operation";
             } else {
                 return operation;
             }
@@ -1000,7 +1002,7 @@ class Index_Register extends Word {
  * Class that represents an IBM 704.  The one at MIT I believe has 8192 words of general memory,
  * but this implementation lets you make it smaller if you don't need it.
  */
-class IBM_704 {
+export class IBM_704 {
     /**
      * Constructor for IBM 704.
      *
@@ -1142,8 +1144,8 @@ class IBM_704 {
                     }
                     if (numbers[0].includes(".")) {
                         if (number > MAX_FLOATING_POINT || number < -MAX_FLOATING_POINT) {
-                            alert("Error: Floating point value " + number + " at line " + (Number(line_no) + 1)
-                                + " is too large! Floating point numbers must be between " + MAX_FLOATING_POINT +
+                            alert("Error: Floating point value " + number + " at line " + (Number(line_no) + 1) +
+                                " is too large! Floating point numbers must be between " + MAX_FLOATING_POINT +
                                 " and " + -(MAX_FLOATING_POINT) + "."
                             );
                             throw FLOAT_OVERFLOW_EXCEPTION;
@@ -1151,8 +1153,8 @@ class IBM_704 {
                         this.general_memory[register].floating_point = number;
                     } else {
                         if (number > MAX_FIXED_POINT || number < -MAX_FIXED_POINT) {
-                            alert("Error: Fixed point value " + number + " at line " + (Number(line_no) + 1)
-                                + " is too large! Fixed point numbers must be between " + MAX_FIXED_POINT +
+                            alert("Error: Fixed point value " + number + " at line " + (Number(line_no) + 1) +
+                                " is too large! Fixed point numbers must be between " + MAX_FIXED_POINT +
                                 " and " + -(MAX_FIXED_POINT) + "."
                             );
                             throw FIXED_OVERFLOW_EXCEPTION;
@@ -1468,7 +1470,7 @@ function FMP(computer) {
  * @param {IBM_704} computer    Machine to execute instruction on.
  */
 function fixed_point_divide(computer) {
-    let dividend = computer.accumulator.fixed_point*(2**35);
+    let dividend = computer.accumulator.fixed_point * (2 ** 35);
     if (dividend > 0 || Object.is(dividend, +0)) { // the sign of the MQ is ignored
         dividend += Math.abs(computer.mq_register.fixed_point);
     } else {
@@ -1653,7 +1655,7 @@ function TIX(computer, address, tag, decrement) {
     }
 }
 
-const DISPLAY_TYPE = {
+export const DISPLAY_TYPE = {
   INSTRUCTION: "Instruction",
   FIXED_POINT: "Fixed point",
   FLOATING_POINT: "Floating point",
@@ -1663,7 +1665,7 @@ const DISPLAY_TYPE = {
 /**
  * Class that represents a line of assembly code, but with added metadata for the GUI.
  */
-class Assembly_Line {
+export class Assembly_Line {
 
     /**
      * Constructor for class.  See demos.js for example.

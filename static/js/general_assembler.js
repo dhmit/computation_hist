@@ -1,3 +1,8 @@
+'use strict';
+
+import { Renderer } from './render.js';
+import { IBM_704 } from './simulator.js';
+
 /**
  * Attaches an event listener to a textarea that allows it to dynamically resize as you type in it.
  * From https://stackoverflow.com/questions/37629860/automatically-resizing-textarea-in-bootstrap.
@@ -38,43 +43,47 @@ function assemble_from_code_box(computer) {
     }
 }
 
-function update(computer) {
+function update(renderer) {
+    const computer = renderer.computer;
     let line_desc = "Next Instruction to be Executed: ";
     line_desc += computer.general_memory[computer.ilc.valueOf()].instruction.toString();
     $('#line_desc')[0].innerHTML = line_desc;
-    update_computer_display(computer)
+    renderer.update_computer_display();
 }
 
 /**
  * Runs scripts to initialize page.
  */
-function start() {
+export function start() {
     const computer = new IBM_704();
-    common_start(computer, []);
+    const renderer = new Renderer(computer);
+
+    renderer.create_memory_display();
+
     $('#assemble_button').on('click', () => {
         assemble_from_code_box(computer);
-        update(computer);
+        update(renderer);
     });
     $('#clear_button').on('click', () => {
         computer.clear();
-        update(computer);
+        update(renderer);
     });
     $('#run_button').on('click', () => {
         computer.halt = false;
         computer.run();
-        update(computer);
+        update(renderer);
 
     });
     $('#step_button').on('click', () => {
         computer.halt = false;
         computer.step();
-        update(computer);
+        update(renderer);
     });
     $('#highlight_button').on('click', () => {
-        highlighting = !highlighting;
-        update(computer);
+        renderer.highlighting = !renderer.highlighting;
+        update(renderer);
     });
     expand_text_area("code_box");
     display_operations();
-    update(computer);
+    update(renderer);
 }
