@@ -10,14 +10,16 @@ body {
 }
 
 .footer {
-    position: relative;
-    top: 300px;
+    position: absolute;
     bottom: 0;
     width: 100%;
 }
 
 .footer-img {
      height: 80px;
+     max-height: 10vh !important;
+     max-width: 20vw;
+     object-fit: contain;
 }
 
 .image-container {
