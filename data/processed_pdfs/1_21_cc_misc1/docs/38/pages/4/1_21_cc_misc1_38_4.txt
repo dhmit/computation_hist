@@ -1,0 +1,70 @@
+January 31, 1958
+DSR-#6345
+
+Contract NSori-60, Task Order I 6915
+
+Amendment No. 12
+(11/14/50)
+
+It is the desire of the Govermment and the Contractor shat additional
+research on an electronic digital computer and component research,
+
+and the application of the computer to military and scientific problems
+be performed. To accomplish this, there are hereby provided an ex-
+tension in the period of performance of Task Order I under Contract
+NSori-60 and an increase in the estimated cost thereof.
+
+Amendment No. 13
+
+(6/28/51)
+
+"(A)
+
+It is the desire of the Govermment and the Contractor that additional
+research in applied mathematics utilizing facilities of Contractor's
+
+Center for Machine Computation, and the application of the facilities
+
+to military and scientific problems, be performed. To accomplish this,
+there are hereby provided a restatement of the work to be performed,
+an extension in the period of performance and an increase in the
+estimated cost of Task Order I under Contract N5ori-60.
+
+3. On and after 1 July 1951, section (A) shall read as follows:
+
+The Contractor shall furnish the necessary personnel and facilities
+for and, in accordance with any instructions issued by the Technical
+Officer or his authorized representative, shall conduct a coordinated
+research program in applied mathematics utulizing facilities in the
+Center for Machine Computation, including the WHIRLWIND Computer,
+which shall include but not necessarily be limited to the following:
+
+(1) research in methods of numerical analysis and the formulation of
+scientific problems for machne solution, together with the training
+of personnel in these methods;
+
+(2) support of the scientific and engineering applications group pre-
+viously associated with Project WHIRLWIND so as to made the WHIRLWIND
+Computer useful and available for the above research, including a
+
+continuation of the construction and improvement of the WHIRLWIND Computer; and
+
+(3) an investigation of digitalcomputing machine compememds,"
+
+Amendment No. 14 (Ref. DIC 6909)
+
+(6/28/51)
+
+It is the desire of the Govermnment and the Contractor that the scope
+
+of research in applied mathematics utilizing facilities in Contractor's
+Center for Machine Computation including the WHIRLWIND computer being
+performed under Task Order I of Contract NSori-60 be expanded, such
+expansion to involve theoretical studies and experimental research and
+development in connection with the application of the digital computer
+in an air defense system. To accomplish such additional research there
+are hereby provided an expansion in the scope of work and an increase
+in the estimated cost of said Task Order.
+
+3. effective 1 July 1951, section (A) shall include the following
+subparagraph:

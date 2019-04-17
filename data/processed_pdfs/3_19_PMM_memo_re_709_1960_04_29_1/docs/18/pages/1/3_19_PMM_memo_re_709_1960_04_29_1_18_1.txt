@@ -1,0 +1,50 @@
+2
+
+IBM-M.I.T. Computation Center Liaison Group
+June 9, 1960
+
+‘Introduction.‘ Future Progran of 000perat1ve Hbetings.
+
+ 
+
+The Research Program on the 19_9_
+
+b,
+
+C.
+
+ 
+
+Review of present attachments:
+use of alarm clock, light pen
+
+Present status and experience with.time-sharing
+equipment and programmins :
+
+On-line symbolie calculations, experience to
+date on effectiveness.
+
+Othervprograms‘using typewriter 1hput.‘i
+
+Use of 709 in Research Program.
+
+Co
+
+Changes in 1nput-output equipment: 2-typewriter
+installation.
+
+oimulated back-up storage.
+Programming system developments and modifications
+
+Related Research at IBM
+
+Report from Poughkeepsie personnel on related IBM
+research and developments.
+
+Procedures for appropriate modifications of the MIT
+709.
+
+Possible substitution of IBM equipment for
+Flexowriters.
+
+Agreement for Future Cooperative Action.

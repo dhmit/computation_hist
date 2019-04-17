@@ -1,0 +1,39 @@
+Page 2.,
+
+the communication gap between man and machine.
+
+Of no less importance are questions of internal schedul-
+ing of the computer among many users, and the development of
+programming systems to implement the scheduling, access,
+translation and running of the many diverse user programs.
+
+The ground work for the proposed research ls well es-
+tablished at the M.I.T. Computation Center, which has already
+had experience in developing prototype techniques for an IBM
+704 system.
+
+It 1é expected that a grant of approximately $51,000 for
+the first year and §$76,000 for the second year will be suffi-
+cient for the manpower requlirement for research and develop-
+ment of a feasible system utilizing an IBM 7090 computer.
+Such funding will cover the development of prototype equip-
+ment, not the installation of the full scale system.
+
+Background
+
+The normal mode of computer usage, particularly with the
+larger installations, has been to physically separate the ma-
+chinery from the man who intends to use 1t; the researcher is
+kept from the research tool; the programmer from the running
+ofhis program. In the past this has made good sense. After
+all, a computer's time can be quilte expensive, and if there are
+a large number of people who need 1ts services, then 1t can
+serve them far more efficiently 1f they state clearly exactly
+what they want in advance, and their requests (programs) are
+put in with a batch of similar requests to be serviced at the
+earliest moment. Further, there seemed to be no compelling |
+reason why the user should need to get any closer to the equip-
+ment. For that matter even i1f the need could be proved, there
+was no feasible way to allow him (plus many others like him)
+to have such an immediate access and association wlthout a
+hopeless loss in efficiency of the computational system.

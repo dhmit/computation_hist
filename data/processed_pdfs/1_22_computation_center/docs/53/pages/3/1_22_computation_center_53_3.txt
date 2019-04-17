@@ -1,0 +1,47 @@
+= TRIP REPORT
+
+Place Vigited: I, B, M, Corporation
+580 Madison Avenus
+Wew York 22, New York Tel: Plaza 3-1800
+
+Date of Visit: Wednesday, November 14, 1956
+Visited By:  Dr. F. H, Verzuh and Mr. Richard Collinms
+Individuals Contacted:
+
+Robert Riley, IBM EDPM Sales Engineer - 23 w68 St. .
+George Travato, IBM EDPM Sales Emgimeer - Jay Thorpe Bldg. (6tk flooxr)
+L. ¥, LaRosa, RPQ, EDPM Sales Eungineer - Jay Thorpe Bldg. | :
+Newcomb Noell, IBM- Poughkeepsie
+. Ed Hatthews, IBM - Poughkeepeie Engineering Div,
+- Robert Burns, IBM - Poughkeepsie Engineering Div.
+. Richard Cobb, IBM - Poughkeepsie Anngtn”e_ering Div,
+
+Fred Gans, Skidmove, Owings & Merrill, 575 Hedison Ave. (P1 2-2123)
+Saul Haber, = 2 e = 2 " (MU 6-1960)
+Ed J. Benesch, Syska & Hemnessy, 144 E39 Street (MU 9-2320)
+
+Jim Church, Syska & Heanessy, T e i
+
+Nick Graham, Syska & Hemnessy Electrical Division
+
+* g R Te e O R ES
+
+1.0 iIantroduction
+
+This meeting was held on the second floor of the IBY¥ Vorld
+Headquarters (WHQ) at 590 Madison Avenue. Although many items were discussed
+during the course of the meeting, the following principal areas were covered:
+
+1. IBM engineering changes and modifications which must be made
+on the five 704 machine units prior to imstallation at the
+NMIT Computation Cenfer,
+
+2. A discussion of the revision im the duct work requied in
+the air conditioning equipment as 2 result of the removal of the
+blowvers,
+
+3. A discussion of the thermo-couple location amd imstallation
+for humidity control,
+
+4, A discussion of the design of the INTERLOCK circuitry location
+and installational problens,

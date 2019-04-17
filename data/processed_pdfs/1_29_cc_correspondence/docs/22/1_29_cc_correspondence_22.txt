@@ -1,0 +1,51 @@
+COMPUTATION CENTER
+Massachusetts Institute of Technology
+Cambridge 39, Massachusetts
+
+INSTALLATION OF THE IBM T7090
+
+As previously announced, the Computation Center
+will replace its IBM 709 with an IBM 7090 this winter.
+The T7090 is program-compatible in almost all respects
+with the 709, and the programming systems presently
+available at the Center will continue to be used but
+with a considerable advantage in speed.
+
+Together with this change in our primary equipment,
+the Center will also replace the present off-line tape-
+processing equipment with two IBM 1401 systems. This
+change will provide the improvement in efficiency
+necessary in this area in light of the 7090's greater
+speed.
+
+Schedule « Delivery date for the 7090 1s December 15,
+1961. To allow time for the necessary changes to the
+computer room, the 709 will be removed around December 1,
+1961, and the T7090 should begin operating early in
+January.
+
+Delivery date for the two 1401's 1s January 26, 1962,
+and they should be operating soon after. No shut-down
+period is anticipated for their installation.
+
+Courses - The Center will try to arrange for computer
+time for courses at other installations during December.
+If you are in charge of a course using the computer,
+please contact Mr. Steinberg, the Operations Manager,
+
+Room 26-161, telephone extension 4116, as soon as
+possible regarding expected needs during this period.
+
+Computer Configuration - Exact configuration of
+the 7090 and 1401's will be announced later. It is
+expected that all 709 programs being used at the Center
+will run without trouble. If you feel you have a
+special problem, however, please feel free to contact
+the Center's consulting staff.
+
+1) Oi
+
+F.'J. Corbatd
+Associate Director
+
+

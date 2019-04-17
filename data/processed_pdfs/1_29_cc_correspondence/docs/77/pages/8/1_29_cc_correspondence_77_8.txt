@@ -1,0 +1,62 @@
+X
+I
+
+TYPES OF
+EXPRESSIONS
+
+ 
+
+0 -0 >~.4_,
+
+S X % a § o
+
+~ E'-I;:Q
+; Z
+multiplication or division sign is immediately followed 8
+&~
+by a "+'", a '"=", or the end of the expression, multiplication 3
+or division by zero is assumed. In division, the integral <§
+
+part of the quotient is retained, and the remainder (which
+has the same sign as the quotient) is discarded. Division
+by zero is equivalent to division by one and does not
+
+cause an assembly error.
+
+Before discussing the precise rules for determining the
+
+type of a non-Boolean instruction, some examples will be
+considered. Suppose that Rl and R2 are relocatable symbols,
+Al and A2 are absolute symbols, and Kl and K2 are common
+symbols. Then O, 123, -123, Al, Al+99, 6*%Al1+A2*%Al, R1-R2,
+K1-K2+3, Al/2 are all '"absolute' expressions. The expressions
+Rl, R1+3, R1-7, R1+K1-K2+1, R1*5-R2*4, R2-Al*A2 are all
+"relocatable', and K1, K1+3, K1-7, K1+R1-R2+1l, K1*5-K2%4,
+K2-A1*%A2 are all '"common''. The precise rule for determining
+the type of an expression is as follows: replace each
+relocatable symbol by the letter r, each common symbol by
+the letter k, and each absolute symbol by its numerical
+value. This gives a new expression involving only numbers
+and the two letters, r and k. If any term of this new
+expression (the ''terms' are separated by plus and minus
+signs) contains two letters or two occurrences of the same
+letter, the original expression is illegal. Also, if a
+
+"/" occurs in a term following the occurrence of a letter,
+the original expression is illegal. After checking for
+
+a violation of these rules, evaluate the new expression
+
+by first performing all indicated multiplications and
+divisions, then the additions and subtractions. If the
+result is a number, the original expression is absolute.
+
+If the result is r, or r plus a number, or r minus a number,
+the original expression is relocatable. If the result is
+
+k, or k plus a number, or kK minus a number, the original
+expression is common. If the result is not one of these
+
+(e.g. if the result is r+k, or 2k, or -r), the original
+
+=B

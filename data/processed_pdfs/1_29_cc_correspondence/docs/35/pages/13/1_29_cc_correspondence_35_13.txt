@@ -1,0 +1,99 @@
+WORDS
+
+Q
+
+ISND
+
+CLA
+TSX
+ST'0
+LDQ
+'MP
+TSX
+STO
+
+BCD
+
+DIiC
+DEC
+CCT
+RIEP
+
+TRA
+]3: ‘ ;“,
+
+iSND
+
+E ARG
+) ARGZ
+
+SUBR, }f
+1 ITHER
+e e
+
+OR S
+
+ 
+
+X
+
+SIN,N ———
+
+SNX
+
+SNX
+
+SNX
+
+SQRT,N N ¢
+
+SQZ
+
+i > WORDS
+
+blank 1n
+coluim 19
+meens SAP
+generates
+10 words
+
+250
+
+)
+25 L)Q
+226117114112 |
+
+!
+
+3,2 =i
+
+N+1,4
+
+0
+1=
+
+TSX ZSUBR, Y where % followed by symbol
+PZE ARG1 indlicates a name that
+23 should be entered in the
+PZE ARG? transfer list
+CALL SUBR,ARG1,ARG? SUBR will be entered
+In the transfer list
+automatically and
+the proper calling
+sequence generated
+CLA "X
+PTSX SBIN,M or CALL SIN
+STO SNX
+LDQ SNX
+FMP SNX
+TSX zSQHT,M or CALL SQRT
+STO SQZ
+BED =0 In FAP a zero in column 12
+15 used to generate 10
+words
+DUP 3.2
+DEC 256
+DEC 2.5
+CCT 226117114112
+TRA N«+-1,4
+1ND

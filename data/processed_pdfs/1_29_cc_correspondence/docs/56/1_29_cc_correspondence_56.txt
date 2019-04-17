@@ -1,0 +1,27 @@
+Operations Research Project
+Room 6-218
+
+February 5, 1958
+
+Dr. Frank Verzuh
+Computation Center
+Room 26-112
+
+Dear Frank:
+
+On the memorandum to you dated December 5 re problem number
+M 139, we indicated that time for production runs would subsequently
+be requested. We are now ready to make these runs.
+
+Estimated time for the runs will be 4 1/2 hours.
+
+Incidentally, Dick Moroney tells me that our double-precision
+work justified itself on one of the cases. Since this program can
+be made a SHARE routine, and covers a small but useful new class of
+waiting=-line problems, the general utility afforded by the double
+precision is valuable.
+
+Herbert P. Galliher
+Assistant Director
+
+

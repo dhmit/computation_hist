@@ -1,0 +1,12 @@
+Bie
+the subroutine, and the first word of every other record of a sub-
+routine consists of 6 blanks. (No subroutine may have 6 blanks as
+i1ts name.) Zach subroutine is concluded by an END pseudo-instruc-—
+tion which is not included in the program produced by the assembly.
+The library tape ends with an end of file mark, but there are no
+end of file marks between subroutines.
+
+The factor of condensation over standard notation is between
+6 and 10 for symbolic cards and between 20 and 30 for a library
+
+tape.

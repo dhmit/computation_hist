@@ -122,25 +122,34 @@ def split_folder_to_doc(folder_pdf_path, foldername_short, box_no, folder_no):
         # create the path to the place the doc_pdf should be stored
         doc_pdf_file_path = get_file_path(box_no, folder_no, foldername_short, file_type='pdf',
                                           doc_id=doc.doc_id, path_type='absolute')
-        # make all the necessary parents directories of the doc_pdf
-        doc_pdf_file_path.parent.mkdir(parents=True, exist_ok=True)
-        output = PdfFileWriter()
-        # iterate over the pages in the docs page range and save them to doc_pdf_file_path
-        for i in range(doc.first_page - 1, doc.last_page):
-            output.addPage(folder_pdf.getPage(i))
-        with open(doc_pdf_file_path, "wb") as outputStream:
-            output.write(outputStream)
-        # ocr the new doc pdf
-        ocr_pdf(input_pdf_path=doc_pdf_file_path, output_pdf_path=doc_pdf_file_path,
-                return_type='pdf')
-        # ... and create a txt file of the ocr
-        doc_txt_file_path = get_file_path(box_no, folder_no, foldername_short, file_type='txt',
-                                          doc_id=doc.doc_id, path_type='absolute')
-        ocr_text = ocr_pdf(input_pdf_path=doc_pdf_file_path, return_type='text')
-        with open(doc_txt_file_path, 'w') as out:
-            out.write(ocr_text)
-        # split the doc into pages
-        split_doc_to_page(doc_pdf_file_path, foldername_short, box_no, folder_no, doc.doc_id)
+
+        # Only run ocr if there is no file yet in the document path
+        # tesseract is non-deterministic so running it multiple times will produce slightly
+        # different results. We want to keep the ocred text stable -> skip existing docs in later
+        # ocr runs.
+        if doc_pdf_file_path.exists():
+            continue
+        else:
+
+            # make all the necessary parents directories of the doc_pdf
+            doc_pdf_file_path.parent.mkdir(parents=True, exist_ok=True)
+            output = PdfFileWriter()
+            # iterate over the pages in the docs page range and save them to doc_pdf_file_path
+            for i in range(doc.first_page - 1, doc.last_page):
+                output.addPage(folder_pdf.getPage(i))
+            with open(doc_pdf_file_path, "wb") as outputStream:
+                output.write(outputStream)
+            # ocr the new doc pdf
+            ocr_pdf(input_pdf_path=doc_pdf_file_path, output_pdf_path=doc_pdf_file_path,
+                    return_type='pdf')
+            # ... and create a txt file of the ocr
+            doc_txt_file_path = get_file_path(box_no, folder_no, foldername_short, file_type='txt',
+                                              doc_id=doc.doc_id, path_type='absolute')
+            ocr_text = ocr_pdf(input_pdf_path=doc_pdf_file_path, return_type='text')
+            with open(doc_txt_file_path, 'w') as out:
+                out.write(ocr_text)
+            # split the doc into pages
+            split_doc_to_page(doc_pdf_file_path, foldername_short, box_no, folder_no, doc.doc_id)
 
 
 if __name__ == '__main__':

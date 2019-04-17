@@ -1,0 +1,46 @@
+A=+ .
+
+ 
+
+deck; thus all "rewards" of compilation
+go off-1line.
+
+In the source deck, all READ and PRINT
+statements should be replaced by
+
+READ INPUT TAPE and WRITE OUTPUT TAPE."
+All STOP and PAUSE statements should be
+replaced by CALL EXIT or CALL DUMP state-
+ments, so that control can always be
+returned to the Monitor. The computer
+should never be allowed to stop. |
+Since sense switch setting and resetting
+is Qgﬁ under programmer control, the use
+of internal program pseudo-sense switches
+
+should replace the true sense switches.
+
+For tape assignments and permissible logical tape units,
+
+see the "COnvehtions and Procedures" section of this memorandum,
+
+More detailed considerations are:
+
+1.
+
+The 704 feature of machine ‘language
+instructions interspersed with Fortran
+statements is not possible on the 709. The
+other recent extensions of 704 Fortran such
+as the additional Format features, Boolean
+statements, and the use of Function names as
+arguments have been carried over into 709 32K
+Fortran. '
+
+Since the floating-polint trap mode is normal
+in the 709, Fortran automatically uses a
+routine (comparable to the EFM, LFM 704
+subprogram) that sets underflows to zero and
+overflows to all 1's. When an overflow
+
+occurs, an overflow indicator is set "on",

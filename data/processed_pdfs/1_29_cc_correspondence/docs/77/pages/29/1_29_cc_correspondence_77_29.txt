@@ -1,0 +1,60 @@
+C' L %
+o o £
+D Q 3 2 (5‘7 5
+? @ y £
+. 0 T &+ 0 o0 o
+D o N z &
+Q (D I o0 ~ "‘.’
+fo 4 0" & A :;“ ,
+o 7
+F 2L Ers
+y & g program. A program containing no ENTRY instructions is
+7 a main program.
+CALL The CALL pseudo-operation is used to transfer control to
+
+a subprogram outside the program being assembled. Said
+subprogram may be in the System library, or may be present
+in the job, in FORTRAN, symbolic, or binary form. To
+understand the workings of the CALL pseudo-operation, it
+is necessary to understand the philosophy of FORTRAN II
+subprogram cross-reference., To fix ideas, suppose the
+program being assembled is a main program which refers
+to two subprograms called SUBRT1 and SUBRT2. Since the
+location in memory of these two subprograms is not known
+at assembly time, a provision has been made for symbolic
+cross-reference. At the beginning of the main program
+is a set of two cells which is called the '"transfer
+vector''. (In general there are as many cells in the
+transfer vector as there are different subroutine names
+referenced in the calling program.) At assembly time
+
+these two cells contain, respectively, the BCD representa-
+
+ 
+
+tions of '""'SUBRT1" and '"SUBRT2'. References to these sub--
+routines in the body of the program will be translated
+
+by the assembler to reference to the appropriate cell in
+
+the transfer vector, After all the subprograms and the
+
+main program have been loaded, the loading program replaces
+
+the BCD data in the transfer vector(s) by transfer instructions
+
+to the subroutine-entry-points named.
+
+The CALL pseudo-operation says to the assembler, '"The first
+subfield of the variable field is a name of a subprogram,
+If this name is not already in the transfer vector, place
+it there and define the name as a relocatable symbol in
+this program, whose value is the address of the transfer-
+vector-cell containing the name. 1In any case, generate
+
+a TSX operation whose address is the transfer-vector cCell
+containing the name, and whose tag is 4. The second
+
+subfield (if it exists) contains a symbolic expression
+
+-27~

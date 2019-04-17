@@ -1,0 +1,40 @@
+ol :'.,'..‘;:‘ ST ?:\.;,_N.-.ﬁﬁ..i-_‘ ” ""-,“ oy ";." e o "\"q.‘.' .) \i‘:',f.o' o
+) . . Ty A% TN
+
+APPENDIX I
+
+BOUTS TAPE WRITING ROUTINE
+
+Calling sequence: TSX BOUTS,L
+
+PZE N, 0, FWA
+
+Error Return
+
+SLW (normal return)
+This routine writes the block of N words starting at FWA on MT-NINE and
+computes the CAD checksum. Tape is then backspzced and reread to check
+for a legible record. Failure of the check causes a second writing and
+check, failure of which causes error return On nomal return, CAD
+checksum ig in AC to be stored for later use with BLINS. Index 1 is
+
+destroyed.
+
+BLINS TAPE READING ROUTINE
+
+Calling sequence: GCAL (pickup checksum for this block)
+
+TSX BLINS,L4
+
+PZE N, 0, FWA
+
+Error Return
+
+Normel Return
+This routine reads the next block of N words from MT-NINE into core memory
+starting at location ¥WA, A CAD checksum is compared with the contents of
+AC at entry. On disggreement, tape is backspaced and a second attempt at
+reading is made. Failure of this attempt results in an error return. Pre-
+sence of an end-of-file or end-oferecord before N words sre read also initiates
+
+the error procedure. Index 1 is destroyed.

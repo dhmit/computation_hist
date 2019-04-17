@@ -1,0 +1,60 @@
+S 4 "’ ™ LY de-) N ' oy
+.l."y" . 1+ ¢ uJ!lu'\..-‘ 3o dd" ‘J;l\- /\)f}
+
+|
+———ee
+
+The following IBM Manuals will be available at Center
+ileadquarters (Room 26-142) to all persons from MIT or the
+New kngland colleges who have an active interest in programming
+for the 709. (Some manuals are temporarily unavailable.)
+Inasmuch as these rather expensive manuals are donated by IBM,
+the Center feels it is proper té ask each person who wiches a
+
+-
+
+manuai to sign for it.
+
+L. T709-7090 Reference Manual (Form A22-650%-1),
+(The basic reference manual for the 709
+and 7090. The somewhat older 709 manual is
+Still essentially correct.)
+
+c. Fortran Primer (Form F28-6019). (This
+m2nual, which has been used with the 704,
+1S unchanged for the 709, )
+
+"‘\-\.
+-
+
+199 Fortran Reference Manual (Form C28-6054).
+vince there is essentially no change from
+704 Fortran, this material is simply a con-
+Solldation of the 704 Fortran Reference
+Manual and the 704 Fortran IT Supplementary
+Manual.) '
+
+4, 09 Fortran Monitor Reference Manual (Form
+C28-6065). T& description of the Fortran-
+FAP Monitor System.)
+In addition, the Center will make available the following
+material:
+
+1. A description of the FAP Assembly Program
+
+N
+
+A Manual of Procedures and Conventions at
+the Center.
+
+Ve Conventions and Frocedures
+It is recommended that:
+
+1. Unless there are reasons Ootherwise, the
+
+Fortran-FAP Monitor System should be used.
+
+p, l‘c
+
+2
+L and&

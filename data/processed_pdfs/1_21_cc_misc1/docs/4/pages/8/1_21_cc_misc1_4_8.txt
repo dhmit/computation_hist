@@ -1,0 +1,40 @@
+(2) Normal paradigmatic order for inflected words
+will not be followed, but each will be listed regard-
+less of form in order of appearance in the Institutes;
+
+(3) Certain common words will be eliminated from the
+Concordance proper, to cult bulk and costs, es=
+pecially machine time and printing.
+
+The computer-influenced portion of our task begins with the
+selection of the character set which will be used in transferring
+the text from its published format to a computer-readable medium.
+The medium selected for this task is that of punched cards. The
+card punch machine imposes certain limitations on the way we may
+transcribe our text to punched cards as it has a rather limited
+character set. This character set includes the twenty-six alpha-
+betic symbols, the ten decimal digits, the period, the space, the
+comma, and a few other business-oriented symbols such as the
+dollar-sign, the percent-sign and the slash,
+
+Symbols found in text materials such as the question mark,
+exclamation point, colon, semi-colon, dash, etc., must be re-
+presented on the punched cards in such a way that they may be en-
+tered into the computer operations and emerge as part of the final
+concordance, Other symbols which do not appear in the Latin
+should not be precluded at this juncture if at all possible. These
+include the hyphen and the normal accents of the western European
+languages.,
+
+A scheme has been devised to represent these two categories
+of typographic symbols which may be encountered. The first cate-
+gory is that of punctuation symbols and the second is that of charac-
+ters which are parts of words. By using one of the business-oriented
+symbols as a prefix followed by one of the thirty-six alphanumeric
+characters to represent each of the desired typographic symbols we
+can greatly expand our effective character set. By allocating a
+separate prefixing symbol or symbols to each of the two categories
+mentioned above, we will facilitate subsequent computer processing,
+
+Once the character set has been agreed upon, we proceed to
+the task of prescribing a format for the actual key-punching of the

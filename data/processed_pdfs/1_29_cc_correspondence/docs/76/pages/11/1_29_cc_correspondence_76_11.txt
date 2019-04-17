@@ -1,0 +1,47 @@
+VI.
+
+ 
+
+3. Other Control Cards
+
+a. There is another Monitor Control Card, FAP.
+FAP. This card is placed immediately before the FAP
+symbolic cards that are input to the Monitor. It specifies
+that those cards are to be FAP assembled. The FAP card
+follows any Type 2 Monitor control cards that may be
+used.
+
+b. Other cards, not strictly control cards, may be input to
+the Monitor.
+Cards with an asterisk in column 1 may be included with
+the control cards, but their information field will be
+treated in the manner of comments. They will be printed
+
+on-line at the point where they are read.
+
+PROGRAMMING FORTRAN PROBLEMS FOR THE MONITOR.
+
+This section deals with programming in the FORTRAN language.
+However, the same requirements, as reflected in machine language,
+apply to FAP assembly programs as well, and to input object
+
+programs resulting from a previous symbolic assembly program.
+
+In general, all ordinary FORTRAN problems may be used with the
+Monitor. There are, however, three relatively minor ways in
+
+which Monitor FORTRAN programs must differ.
+1. Differencés Concerning Tape Usage:
+
+a. BCD Tape. (1) All input BCD data must be called by
+the statement READ INPUT TAPE { , n, LIST. Output
+is effected by a WRITE OUTPUT TAPE A, n, LIST state-
+ment, where ¢ and (4 are the proper logical tape
+designations for tapes A2 (input) and A3 (output),
+respectively. (2) If BCD information is to be written
+for intermediate storage during program execution, 2a
+tape not used by the Monitor must be used (or one the
+
+programmer knows the Monitor is not using).
+
+=] D=

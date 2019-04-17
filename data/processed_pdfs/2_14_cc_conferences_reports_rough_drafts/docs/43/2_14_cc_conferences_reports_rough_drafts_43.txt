@@ -1,0 +1,140 @@
+COMPUTATION CENTER
+Massachusetts Institute of Technology
+Cambridge 39, Massachusetts
+
+BULLETIN Number 15
+December 1, 1960
+
+Index of Share Distributed Programs
+
+The index of Share-distributed programs has become such a large
+document (43 pages the last time) that the usual method of producing and
+distributing it has become impractical. Instead, this index will be kept om
+file, in pucnhed-card form, as if it were itself a Share-distributed program,
+While at the Center, programmers may request a listing of or a copy of this
+deck by f£illing out a card processing requisition and asking for the "Share
+index". Out-of-town users may request copies by mail to Judy Spall, Room 26-153.
+This card deck will be updated about every three months,
+
+Fortran-Fap System Library
+
+Enclosed with this copy of the Bulletin is a list of the subprograms
+currently on the FMS library tape. Copies of the writeups of these routines,
+as well as extra copies of this list, are available in Room 26-153, Judy Spall
+will see that mail requests are answered. cr
+
+FMS Notes
+FMS users should be aware of the following items,
+
+1) FLIP cards, which are produced before the punched output of each
+job and before each binary subprogram deck, can be left in the card decks and
+will be ignored during loading. FLIPped around 80 they are readable, they
+serve as teb cards since the corner cuts will be reversed.
+
+2) Starting December 1, 1980, jobs will be terninated when thelr
+lines of output exceeds (by 25%) the "estimated lines of output” specified
+on the ID card, This is a safeguard ageinst wild output loops. To facilitate
+this change, any programmers who have card decks of (STH) and (SPH) should
+exchange then for mew ones. Incidentally, the estimated lines of output
+ghould include any break-point FZPM output.
+
+3) F2PM, the new post-mortem program, is now on the systems tape
+and is part of the standard” operating procedures. (See CC Memoranda 187.)
+The following changes have been neccesary.
+
+a) All main subprograms compiled by Fortran have two additional
+precompiled instructions - CLA $(F2PM) and STO 7 - to set up the
+manual restart entry point. FAP mein subprograms should also
+contain these two instructions,
+
+b) The subprogram EXIT has been modified to call (F2PM) which
+returns control to the monitor,
+
+
+c) End-of -files encountered on the RUN INPUT TAPE (logical 4) by
+read statements will terminate the Job without calling (F2PNM).
+
+d) The BSS Control Record has been changed to save a subprogram
+storage map in core. The following F2PM request will dump this
+storage map:
+
+FORTRAN 1 PM 2 MZVIE) (00,1000), ALL, @FF, REV
+
+e) Programmers who have storage limitations and so do not want
+(FZPM), must provide a dummy (F2PM) available inp Room 26-058,
+
+SESAP
+
+As of December 1, 1960, the version of 9aAP in use at the Center will
+produce column binary decks off-line (tape B4) as its standard output, 9AP
+users requiring row binary decks must specify that the assembler is to be
+run with sense switch 4 down which causes on-line punching.
+
+704 Systems
+
+It is still possible to obtain copies of the Center 704 Systems
+Tapes (Automatic Operator Program, MIPMR1, F2PAK etc.) if you feel they may
+be of value to you. To obtain such copies you must supply your own tape reels
+and, of course, the Center cannot be responsible for their operation at other
+installations, If interested, contact Mike Solomita, Manager of Machine Operations,
+
+Card Storage
+
+Many programmers are using the output racks in the Run Processing Room
+a8 a storage facility. This is a working area and must be used as such. In
+the future, any cards left in those racks or in the output tub more than a few
+weeks will be towed away at the owner’s expense.
+
+Procedures Handbook
+EE — ttt Ay
+At the moment, the new Computation Center's Procedures Handbook is at
+
+the printer. Copies should be available early in December. A notice describing
+the distribution of copies will come out at that time.
+
+Saturday Operation
+Ee  ————————— ee a
+
+The Center will be open for the benefit of our out-of-town users Saturday,
+December 10, If you plan on coming in that day, please contact
+
+Mike Solomita, Manager of Machine Operations
+Room 26-152, Telephone UNiversity 4-6900, extension 4113
+
+so that we may schedule operations. If you have any particular problems
+(classes etc.) let us know,
+
+
+Bits
+
+Judy Spall is now Share Librarian for the Center an on extention of
+her duties as Consulting Supervisor--—--- A "Systems Changes Bulletin Board” hss
+heen set up in the Run Processing Room. You are expected to read it and keep
+posted-----MIT and the Center will close at noon, December 23, and will be closed
+all day December 26 and January 2.
+
+C. C. Memoranda
+
+The following memos, of general interest, have come out recently.
+Copies are available in Room 26-142,
+
+CC-164~1 An Abbreviated Description of the Fortran Compiler
+Language, October 14, 1960.
+
+The Fortran Compiler was initially prepared for the IBM 704 computer
+and has subsequently been extended to several other computers. This memo
+dezcribes a portion of the Fortran language available on the IBM 709; it is
+the essential part and correct programs will result,
+
+CC-166 Card Preparation, October 1260.
+
+Describes the use of the card punch and accounting machines in
+sufficient detail for most Programmexs,
+
+CC~167 Description of a Post-Mortem Subprogram (F2PH) for
+Use With the Fortran-~FAP Monitor System, October 25, 1960.
+
+Description of and instructions for the use of (F2PM} the standard
+dump program at the Center. (See FMS Notes - this Bulletin.)
+
+

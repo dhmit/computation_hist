@@ -1,0 +1,70 @@
+MIT CQVMPUTATION CENTER
+Massachusetts Institute of Technology
+Cambridge 39, Massachusetts
+
+QUARTERLY PROGRESS REPORT
+To: Users of Computation Center Facilities Date: December 22, 1958
+
+From: Dr. F. M, Verzuh
+Subject: Quarterly Progress Report for the Period October 1 - December 31, 1958
+
+ 
+
+Each quarter the MIT Computation Center must report to its sponsors
+on the use of the Center facilities, the nature of problems using the machines,
+their progress towards solution and, after completion, the way in which the
+results were employed. These data are also made available to all present and
+future users by means of the Semi-Annual Reports emanating from the Center.
+
+These reporis help to accelerate the development of improved techniques of
+machine computation and to minimize duplication of effort.
+
+To help us prepare our quarterly progress report, will you kindly
+fill out the attached PROGRESS REPORT FORM and return it to:
+
+Dr, Frank M. Verzuh
+MIT Computation Center
+Room 26-142
+
+on or before Friday, January 2, 1959,
+
+If your problem has been completed during the past quarter, and you
+will not need further machine time, please:
+
+1. Write a summary to accompany the enclosed Report Fora {sections
+D and E of page 3). This should be in appropriate form for
+direct inclusion in our Semi-Annual Report.
+
+ 
+
+2, Send us two copies of publications based on the work done, and
+2 FINAL REPORT as described in our Memorandum CC-114.
+
+If your problem has aot been completed and you will require more
+wachine time, be sure to fill out the second part of question 2, page 1 of the
+appended Report Form. All present time allotments cxpire on Wednesday,
+December 31, 1958. To avoid delay in continuing your use of the 704, your
+Report Form should be returned by Friday, January 2, 1959,
+
+Sincerely yours,
+
+F. M. Verzuhn
+Assistant Director
+
+os
+
+f+nb
+
+=]
+£4
+a
+
+Quarterly Report Questionnaire
+
+CCF-8.6a
+
+ 
+
+H
+
+

@@ -1,0 +1,1100 @@
+January 31, 1958
+
+DSR-76345
+
+Contract N5ori-60, Task Order I 6915
+
+STATEMENT OF WORK
+
+Contract:
+
+(6/30/45)
+
+Amendment No. U4
+
+(1/21/48)
+
+(A) The work to be performed by the Contractor hereunder shall con-
+
+(B)
+
+"(a)
+
+sist of Phases 1 and 2 of four (4) phases of the project described
+in "Specifications for Project RF-12; known as WHIRLWIND, dated
+October 4, 1945, revised March 20, 1946", as follows:
+
+Phase 1 - The Contractor shall furnish personnel and facilities
+and shall construct a small digital computer involving investi-
+gation of electric circuits, Video amplifiers, electrostatic
+storage tubes, electronic switching and mathematical studies of
+digital computation and the adaptation of problems to this method
+of solution.
+
+Phase 2 - The Contractor shall furnish hereunder personnel and
+facilities and shall design an electronic computer and aircraft
+analyser based on the results of Phase 1 of this Task Order.
+
+Tt is understood and agreed that, although the specification
+referred to in Section (A) hereof covers four (4) phases of
+
+the work in connection with the WHIRLWIND project, no provision
+has been made in the estimated cost or the fixed sum to cover
+the portion of the specification applicable to the third and
+fourth phases of the work which relate to the construction,
+assembly, housing, operation, or preliminary testing of the
+electronic computer and aircraft analyzer.
+
+2, Delete Section (A) in its entirety and substitute in lieu
+thereof the following:
+
+The work to be performed by the Contractor hereunder shall
+consist of combined Phases I and II of four phases of Project
+2h.X-3 (formerly Project RF-12) in accordance with "Specifi-_
+cations for Project RE-12, known as WHIRLWIND, dated October
+L, 1945, Revised March 20, 1046", and any instructions issued
+by the Technical Officer, as follows:
+
+"Combined Phases I and II: The Contractor shall furnish the
+necessary personnel and facilities for and shall undertake (i)
+the investigations involving electric circuits, video amplifiers,
+electrostatic storage tubes, electronic switching, mathematical
+studies of digital computation, and the adaptation of problems to
+this method of solution, (ii) the design and construction of
+
+a Digital Computer and studies for applying the computer to an
+Aircraft Analyser based on results obtained from the foregoing,
+and (iii) shall furnish complete sets of drawings used in the
+construction of the above computer, reports setting forth the
+design and operation of all components of the computers, reports
+setting forth the results of studies of the application of the
+computer to an aircraft analyzer, and records of results of all
+tests on individual components and assembled components conducted
+uw to April 1, 1949,"
+
+
+Contract N5ori-60, Task Order I
+
+"(B)
+
+Amendment No. T
+(3/31/49)
+"(A)
+
+"(B)
+
+Amendment No. 9
+(7/1/49)
+
+ 
+
+January 31, 1958
+
+DSR-#6345
+6915
+
+3. Delete Section (B) in its entirety and substitute in lieu
+thereof the following:
+
+It is understood and agreed that, although Section A refers to
+four (4) phases of the work in connection with the WHIRLWIND
+Project, no provision has been made in the estimated cost to
+cover the third and fourth phases of the work which relate to
+the construction, assembly, housing, operation or preliminary
+testing of the Electronic Computer and Aircraft Analyser.”
+
+(Restatement of Task Order I)
+
+The work to be performed by the Contractor hereunder shall
+consist of combined Phases I and II of four phases of Project
+2h.X3 (formerly Project RF-12) in accordance with *'Specifi-
+cations for Project RF-12, known as WHIRLWIND, dated October
+4, 1945, Revised March 20, 1946," and any instructions issued
+by the Technical Officer, as follows:
+
+"Combined Phases I and II: The Contractor shall furnish the
+necessary personnel and facilities for and shall undertake (i)
+the investigations involving electric circuits, video amplifiers,
+electrostatic storage tubes, electronic switching, mathematical
+sutdies of digital computation, and the adaptation of problems
+to this method of solution; (ii) the design and construction of
+a Digital Computer and studies for applying the computer to an
+Aircraft Analyzer based on results obtained from the foregoing;
+and (iii) shall furnish complete sets of drawings used in the
+construction of the above computer, reports setting forth the
+design and operation of all components of the computers, reports
+setting forth the results of studies of the application of the
+computer to an aircraft analyzer, end records of results of all
+tests on individual components and assembled components con-
+ducted up to June 30, 1949,
+
+Tt is understood and agreed that, although section (A) refers to
+four (4) phases of the work in connection with the WHIRLWIND
+Project, no provision has been made in the estimated cost to
+cover the third and fourth phases of the work which relate to the
+construction, assembly, housing, operation or preliminary testing
+of the Electronic Computer and Aircraft Analyzer."
+
+Tt is the desire of the Government and the Contractor that addi-
+tional research on an electronic digital computer and continued
+component research be performed. To accomplish this, there are
+hereby provided an extension in the period of performance of
+Task Order I under Contract NSori-60 and an increase in the es-
+timated cost thereof.
+
+
+January 31, 1958
+
+DSR-#6345
+
+Contract NSori-60, Task Order I 6915
+
+Amendment No. 11
+
+(6/29/56)
+
+"(a)
+
+"(B)
+
+It is the desire of the Government and the Contractor that addi-
+
+tional research on an electronic digital computer and continued component
+research be performed, and that the scope of the work be expanded
+
+to include theoretical studies and experimental research and development in
+connection with the application of the digital computer in an air defense
+system in which information is transmitted from remote radar stations
+
+and processed by a computer, and the application of the computer to
+important scientific problems. To accomplish this, there are hereby
+provided an expansion in the scope of work, an extension in the period
+
+of performance and an increase in the estimated cost of Task Order I
+under Contract NSori-60.
+
+4, On and after 1 July 1950, section (A) shall read as follows:
+
+The Contractor shall furnish the necessary personnel and facilities
+for and, in accordance with any instructions issued by the Technical
+Officer or his authorized representative, shall conduct research to
+include the following:
+
+(1) investigations in connection with combined Phases I and II of
+four phases of Project 24-X-3 (Formerly Project RF-12) in accordance
+with ?Specifications for Project RF-12, known as WHIRLWIND, dated
+
+4 October 1945, revised 20 March 1946,' and to include (i) investi-
+gations involving electric circuits, video amplifiers, electrostatic
+storage tubes, electronic switching, mathematical solution; (ii) the
+design and construction of a Digital Computer and the studies for
+applying the computer to an Aircraft Analyzer based on results ob -
+tained from the foregoing; and (iii) shall furnish complete sets of
+drawings used in the construction of the above computers, reports
+setting forth the design and operation of all components of the
+computers, reports setting forth the results of studies of the
+application of the computer to an aireraft analyzer, and records of
+results of all tests on individual components and assembled compon-
+ents conducted up to 15 November 1950;
+
+(2) theoretical studies and experimental research and development
+in connection with the application of digital computers in an air
+defense system in which information is transmitted to WHIRLWIND from
+remote radar stations and processed by the computer, and
+
+(3) application of the computer to important scientific problems."
+5. On and after 1 July 1950, section (B) shall read as follows:
+
+Tt is understood and agreed that, although section (A) §1) refers to
+four (4) phases of the work in connection with the WHIRLWIND Project
+no provision has been made in the estimated cost to cover the third
+and fourth phases of the work which relate to the construction,
+assembly, housing, operation or preliminary testing of the Electronic
+Computer and Aircraft Analyzer."
+
+
+Contract NSori-60, Task Order I
+
+ 
+
+January 31, 1958
+
+DSR-#6345
+6915
+
+Amendment No. 12
+(11/14/50)
+
+It is the desire of the Government and the Contractor shat additional
+research on an electronic digital computer and component research,
+
+and the application of the computer to military and scientific problems
+be performed. To accomplish this, there are hereby provided an ex-
+tension in the period of performance of Task Order I under Contract
+NSori-60 and an increase in the estimated cost thereof.
+
+Amendment No. 13
+
+(6/28/51)
+
+"(a)
+
+It is the desire of the Govermment and the Contractor that additional
+research in applied mathematics utilizing facilities of Contractor's
+
+Center for Machine Computation, and the application of the facilities
+
+to military and scientific problems, be performed. To accomplish this,
+there are hereby provided a restatement of the work to be performed,
+an extension in the period of performance and an increase in the
+estimated cost of Task Order I under Contract N5ori-60.
+
+3. On and after 1 July 1951, section (A) shall read as follows:
+
+The Contractor shall furnish the necessary personnel and facilities
+for and, in accordance with any instructions issued by the Technical
+Officer or his authorized representative, shall conduct a coordinated
+research program in applied mathematics utulizing facilities in the
+Center for Machine Computation, including the WHIRLWIND Computer,
+which shall include but not necessarily be limited to the following:
+
+(1) research in methods of numerical analysis and the formulation of
+scientific problems for machne solution, together with the training
+of personnel in these methods;
+
+(2) support of the scientific and engineering applications group pre-
+viously associated with Project WHIRLWIND so as to made the WHIRLWIND
+Computer useful and available for the above research, including a
+
+continuation of the construction and improvement of the WHIRLWIND Computer; and
+
+(3) an investigation of digital computing machine compomembs,"
+
+Amendment No. 14 (Ref. DIC 6909)
+
+(6/28/51)
+
+It is the desire of the Government and the Contractor that the scope
+
+of research in applied mathematics utilizing facilities in Contractor's
+Center for Machine Computation including the WHIRLWIND computer being
+performed under Task Order I of Contract NSori-60 be expanded, such
+expansion to involve theoretical studies and experimental research and
+development in connection with the application of the digital computer
+in an air defense system. To accomplish such additional research there
+are hereby provided an expansion in the scope of work and an increase
+in the estimated cost of said Task Order.
+
+3. effective 1 July 1951, section (A) shall include the following
+subparagraph:
+
+
+January 31, 1958
+DSR-#6345
+
+Contract NSori-60, Task Order I 6915
+
+Amendment No. 16
+
+(3/26/52)
+
+"(§) theoretical studies and experimental research and development
+in connection with the application of digital computers in an air
+defense system in which information is transmitted to WHIRLWIND
+from remote radar stations and processed by the computer, to be
+conducted during the period 1 July 1951 to 31 December 1951."
+
+It is the desire of the Government and the Contractor that additional
+research in gpplied mathematics utilizing facilities in Contractor's
+Center for Machines Computation, including the WHIRLWIND computer,
+
+and the application of the facilities to military and scientific prob-
+lems, be performed. To accomplish this, there are therby provided
+
+an extension in the period of performance of Task Order I under
+Contract NSori-60 and an increase in the estimated cost thereof.
+
+Amendment No. 18
+
+(11/15/52)
+
+It is the desire of the Government and the Contractor that, during
+
+a certain part of the remaining term of Task Order I under Contract
+N5ori-60, which provides for research in applied mathematics utilizing
+facilities in the Contractor's Center for Machine Computation, including
+the WHIRLWIND computer, and the application of the facilities to
+military and scientific problems, provision be made for an increase in
+the volume of the Contractor'l operations under said Task Order beyond
+that heretofore contemplated.
+
+Amendment No. 19
+
+(4/16/53)
+
+It is the desire of the Government and the Contractor that additional
+research in applied mathematics utilizing facilities in the Contractor's
+Center for Machine Computation, including the WHIRLWIND computer, and
+the application of the facilities to military and scientific problems,
+be performed. To accomplish this, there are hereby provided an ex-
+tension in the period of performance and an increase in the estimated
+cost of Task Order I under Contract NSori-60.
+
+Amendment No. 23
+
+(6/30/55)
+
+Amendment No. 24
+
+(4/20/56)
+
+Since it is the desire of the Government and the Contractor that the
+research under Task Order I of Contract NSori-60 be continued pending
+the availability of funds for additional research to be conducted, it
+has been determined to extend the period of performance of said
+
+Task Order.
+
+It is the desire of the Government and the Contractor that additional
+
+research in applied mathematics ut®lizing facilities in the Contractor's
+
+Center for Machine Computation, including the WHIRLWIND computer, and
+
+the application of the facilities of military and scientific problems,
+
+be performed. To accomplish this, there are hereby provided an ex-
+
+tension in the period of performance and an increase in the estimated
+cost of Task Order I under Contract NSori-60.
+
+
+January 31, 1958
+DSR-#6345
+
+Contract NSori 60 » Task Order T 6915
+Amendment No. 26
+
+(5/17/57)
+
+Due to circumstances beyond the Contractor's control, the research
+
+in applied mathematics utilizing facilities in the Contractor's
+Center for Machine Computation, including the WHIRLWIND computer, and
+the application of the facilities to military and scientific problems
+under Task Order I of Contract N5ori-f0, cannot be performed within
+the period originally contemplated. In order to permit completbn of
+the research and the Preparation and submission of the final report
+and fulfillment of al) DECesSsary requirements under sa2id Task Order,
+it is the desire of the Government and the Contractor thet the period
+Of performance be extendsd.
+
+
+EN A a A I ei RT Tad ee i A eR fdal oo
+ERR vy RE A A NA A RR a TN, Cupra EL
+- » - ~ > -
+
+ 
+
+January 31, 1958
+DSR-#6345
+6915
+
+Contract NSori-60, Task Order I
+
+STATEMENT OF WORK
+
+Contract: (A) The work to be performed by the Contractor hereunder shall cone
+
+(6/30/45) sist of Phases 1 and 2 of four (4) phases of the project described
+in "Specifications for Project RF-12; known as WHIRLWIND, dated
+October 4, 1945, revised March 20, 1946", as follows:
+
+ 
+
+Phase 1 - The Contractor shall furnish personnel and facilities
+and shall construct 2 smell digital computer involving investi.
+sation of electric circuits, Video amplifiers, electrostatic
+storage tubes, electronic switching and mathematical studies of
+digital computation and the adaptation of problems to this method
+of selutien.
+
+Phase 2 « The Contractor shell furnish hereunder personnel and
+Facilities and shall design sn electronic computer and aircraft
+analyser based on the results of Phase 1 of this Task Order.
+
+(B) It is understood and agreed that, although the specification
+referred to in Section (A) hereof covers four (4) phases of
+the work in connection with the WHIRLWIND project, no provision
+has been made in the estimated cost or the fixed sum to cover
+the portion of the specification spplicable 0 the third and
+fourth phaseg of the work which relate te the construction,
+assembly, housing, operation, or preliminary testing of the
+electronic computer and aircraft analyzer.
+
+Amendment No. 4 |
+(1/21/18) 2, Delete Section (A) in its entirety end substitute in lieu
+thereof the following:
+
+| "{8) The work to be performed by the Contractor hereunder shall
+consist of combined Phases I and IT of four phases of Project
+2h-X-3 (formerly Project RF.12) in accordance with "Specifi.
+cations for Project RE-12, known ag WHIRLWIND, dated October
+
+| bk, 1945, Revised March 20, 1046", and any instructions issued
+
+| by the Technical Officer, as fellows:
+
+"Combined Phases I and II: The Contractor shall furnish the
+necessary personnel and facilities for and shall undertake (1)
+the investigations involving electric circuits, video amplifiers,
+electrostatic storage tubes, clectronic switching, mathematical
+studies of digital computation, and the edaptation of problems ¢8
+this method of solution, (ii) the design and construction of
+a Digital Computer and studies for applying the computer to an
+Alveraft Analyser based on results obtained from the foregoing,
+
+| and (iii) shall furnish complete sets of drawings usediin the
+construction of the above computer, reports setting forth the
+design and operation of all components of the computers, reports
+setting forth the results of studies of the epplication of the
+computer to an aircraft analyzer, end records of results of all
+tests on individual components and assembled components conducted
+uw to April 1, 1940,"
+
+
+January 31, 1958
+
+DSR-#6345
+Contract NSori-60, Task Order I 6915
+
+3. Delete Section (B) in its entirety and substitute in lieu
+thereof the following:
+
+"(B) It is understood and agreed that, although Section A refers to
+four (4) phases of the work in connection with the WHIRLWIND
+Project, no provision has been made in the estimated cost to
+cover the third end fourth phases of the work which relate to
+the construction, assembly, housing, operation or preliminary
+testing of the Flectrouic Computer and Alveraft Analyser.”
+
+“)
+
+rp No (Restatement of ‘Task Order I)
+
+3/31/49)
+
+(a) The work to be performed by the Contractor hereunder shall
+consist of combined Phases I and II of four phases of Project
+2heX-3 (formerly Project RF.12) in accordance with ‘Specifi-
+cations for Project RB~l2, kaown as WHIRLWIND, dated October
+k, 1945, Revised March 20, 1946,' and any instructions issued
+by the Technical Officer, as follows:
+
+"Combined Phases I and II: The Contractor shall furnish the
+necessary persomel and facilities for and shell undertake (i)
+the investigations lnvolving electric circuits, video amplifiers,
+electrostatic storage tubes, electronic switching, mathematical
+sutdics of digital computation, and the adaptation of problems
+to this method of solution; (ii) the design and construction of
+a Digital Computer and studiss for applylng the computer to an
+Adveyaft Analyzer based on results obtained from the foregoing;
+and (iii) shall furnish complete sets of drawings used iu the
+construction of the shove computer, veperits setting forth the
+design and operation of all couponents of the compulers, reports
+setting forth the results of studies of the spplication of the
+computer to an aircraft analyzer, and records of results of all
+tests on individual components and assembled components cone
+ducted wp to June 30, 1949.
+
+"(B) T¢ is understood snd agreed that, although section (A) refers to
+four (4) phases of the work in connectiomswith the WHIRLWIND
+Project, no provision has been made ia the estimated cost to
+cover the third and fourth phases of the work which relate to the
+construction, assembly, housing, operation or preliminary testing
+of the Electronic Computer end Aircraft Analyzer.”
+
+Arendment No. ©
+
+(7/1/49) Tt is the desire of the Government end the Contractor that addi-
+tional research on an electronic digital computer and continued
+component research be performed. To accomplish this, there are
+hereby provided an extension in the period of performance of
+Tesk Order I under Contract NSori-60 and en increase in the es-
+timated cost thereof.
+
+Scat x "x
+
+Zo
+
+- cm
+- 3 par
+
+
+Contract NSori-f0, Task Order I
+
+Amendment No. 11
+(6/29/56)
+
+"(A)
+
+’ “(8)
+
+January 31, 1958
+DSR-#6345
+6915
+
+It ie the desire of the Government and the Contractor that addi.
+
+tional research on an electronic digital computer snd continued component
+rescarch be performed, and that the scope of the work be expanded
+
+to include theoretical studies and experimental research and development in
+connection with the epplication of the digital computer in sn air defénse
+system in which information is transmitted from remote radar statione
+and processed by & computer, end the application of the computer to
+important scientific problems, To accomplish this, there are hereby
+provided an expension in the scope of work, en extension in the period
+of performance and an increase in the estimated cost of Task Order 1
+under Contract WSeri-60.
+
+ 
+
+L, On and after 1 July 1950, section (A) shall read as follows:
+
+The Contractor shall furnish the necessary persouncl and facilities
+for and, in accordance with any instructions issued by the Technical
+Officer or hie authorized representative, shall conlyct research to
+include the following:
+
+(1) investigations in commection with combined Phases I end II of
+four phases of Project 2b-X.3 (Formerly Project RF-12) in accordance
+with "Specifications for Project RF.12, known as WHIRIWIND, dated
+
+i Qetober 1945, revised 20 Mawch 1946,' and to include (i) investi-
+gations involving electric circuits, video smplifiers, electrostatic
+storage tubes, electronic switching, mathematical solution; (ii) the
+design apd construction of a Digital Computer and the studies for
+applying the computer to an Aircraft Anslyver besed on resulis ob-
+tained from the foregoing; and (iii) shall furnish compleie sets of
+drawings used ln the construction of the gbove computers, reports
+setting forth the demign and operation of all components of the
+computers, reports setting forth the results of studies of the
+application of the computer to an aircraft analyzer, and recorde of
+resulte of all tests on individual componente and assembled compon-
+ents conducted wp to 15 November 1950;
+
+(2) theoretical studies and experimental research and development
+in connection with the epplication of digital computers in ap air
+defense system in which information is transmitted to WHIRLWIND from
+remote redar stations end processed by the computer, and
+
+(3) application of the computer to important scientific problems.”
+5, On and after 1 July 1950, section (B) shall read as follows:
+
+It is understood and agreed that, elthough section (A) (1) refers to
+four (4) phases of the work in connection with the WHIRIWIND Project
+no provision has been made in the estimated cost to cover the thixd
+and fourth phases of the work which relate to the construction,
+assembly, housing, operation or preliminary testing of the Electronic
+Computer and Alrcraft Analyzer,”
+
+
+-bh -
+
+Jenuary 31, 1958
+
+DER-#6345
+Contract NSori-60, Task Order I en?
+
+Amendment No. 12 :
+
+(11/14/50) It is the desire of the Covermment and the Contractor Ghat additional
+research on an electronic digital computer and component research,
+and the application of the computer to military and scientific problems
+be performed. To accomplieh this, there are hereby provided an exe
+tension in the period of performance of Task Order I under Contract
+orl-t0 and an increase in the estimated cost thereof.
+
+Amenduent No. 13
+
+(6/28/51) It ie the desire of the Government and the Contractor thet additional
+research in applied wathematics utilizing fecilities of Contractor's
+
+Center for Machine Computation, and the application of the facilities
+
+to military end scientific problems, be performed. To accomplish this,
+there are hereby provided go restatement of the work to be performed,
+ao extension in the period of performance and an increase in the
+estimated cost of Task Order I under Contract NSori-60.
+
+3. On and after 1 July 1951, section (A) shall read as follows:
+
+(A) The Contractor shall furmish the necessery personnel and facilities
+for aad, in accordance with any instructions issued by the Technical
+Officer ox his authorized representative, shall conduct a coordinated
+
+research program ia gpplied mathematics utullzing facilities in the
+Center for Machine Computation, including the WHIRLWIND Computer,
+which ghall include but not necessarily be limited to the following:
+
+(1) research in methods of mumerical snalysis and the formulation of
+gelentific problems for machine solution, together with the training
+of personnel in these methods;
+
+(2) support of the scientific end engineering spplications group pre-
+
+viously assoclated with Project WHIRLWIND sc as to made the WHIRLWIND
+
+Computer useful and avallable for the above research, including e |
+continuation of the construction and improvement of the WHIRLWIND Computer; and
+
+(3) en investigation of digital computing machine components."
+
+Amendment No. 14% (Ref, DIC 6909)
+
+(6/28/51) It ie the desire of the Government end the Contractor that the scope
+of research in gpplied mathematics wutiliting facilities in Contractor's
+Center for Machine Computation including the WHIRLWIND computer being
+performed under Task Order I of Contract NSori-60 be expanded, such
+expansion to involve theoretical studies and experimental research and
+development in comnection with the gpplication of the digital computer
+in an elr defense system. To accomplish such additional research there
+are hereby provided an expansion in the scope of work and an increase
+iu the estimated cost of sald Task Order.
+
+3. effective 1 July 1951, section (A) shall include the following
+subparagraphs
+
+
+Contract NSori-60, Task Order I BBR-J833
+
+Amendment HO.
+(11/25/52)
+
+Amendment No.
+(4/26/53)
+
+"($) theoretical studies and experimental research and development
+in connection with the spplication of digital computers in an air
+defense system in which information is transmitted to
+
+from remote radar stations and processed by the computer, to be
+condneted during the period 1 July 1951 to 31 December 1951."
+
+16
+
+s the desire of the Government and the Contractor that additional
+arch in applied mathematics utilizing facilities in Contractor's
+
+vr for Machines Computation, including the WHIRLWIND computer,
+
+the application of the facilities to military and scientific probe
+
+cms, be performed. To accomplish this, there are therby provided
+
+en extension in the period of performance of Task Order I under
+
+Contract Worli.00 and an increase in the estimeted cost thereof.
+
+HE
+
+BE Il 4
+eile
+
+§
+
+i8
+
+Tt is the desire of the Government and the Contractor that, during
+
+a ceytain part of the remaining term of Task Order I under Contract
+N5ori-o0, which provides for research in applied mathematics utilizing
+facilities in the Contractor's Center for Machine Computation, including
+the WHIRLWIND cauputer, and the application of the facilities to
+militery and scientific problems, provision be made for au increase in
+the wrolume of the Countractor'l operations undey said Task Order beyond
+that heretofore contemplated.
+
+19
+
+It ig the desire of the Government and the Contrector that additional
+reseaych in applied mathematics wtilizing facilities in the Sontsurton’ 8
+Center for Machine Computation, including the WHIRLWIND computer, and
+
+the appliesatiou of the facilities $0 military and scientific problems,
+be performed. To accomplish this, there are hereby provided an ex-
+tension in the period of performance and an increase in the estimated
+cost of Task Order I under Contract NSori-60.
+
+Amendment No. 23
+
+(6/30/55)
+
+Amendment No.
+(4/20/56)
+
+Since it is the desire of the Government and the Contractor that the
+research under Task Order I of Contract NSori-60 be continued pending
+the availability of funds for additional research to be conducted, it
+hag been determined to extend the period of performance of sald
+
+Task Order.
+
+2
+
+It is the desire of the Government snd the Contractor that additional
+research in spplied mathematics utilizing facilities in the Contractor's
+
+Center for Machine Computation, including the WHIRLWIND computer, and
+the application of the facilities of military and scientific probleus,
+
+be performed. To accomplish this, there are hereby provided an ex-
+
+tension in the period of performence and en increase in the estimated
+cost of Task Order I under Contract NSori-60.
+
+
+January 31, 1958
+
+DSR-#6345
+Contract W50ri-60, Task order 1 6915
+
+   
+
+No. 26
+
+Amendment,
+(5/27/57) De to civeumstences beyond the Contractor's coutrel, the research
+in applied mathemstics utilizing facilities in the Contractor's
+utation
+
+
+TH i TT re rT  -—_ TT Ee Tr Ye rr Sy —— Trg
+
+ 
+
+Contract WSori-60, Task Order I 6915
+
+STATEMENT OF WORK
+
+Contract: (A) The work to be performed by the Contractor hereunder shall cone
+
+(6/30/45) sist of Phases 1 and 2 of four (4) phases of the project described
+in "Specifications for Project RF-12; known as WHIRLWIND, dated
+October 4, 1945, revised March 20
+
+Phage 1 . The Contractor shall furnish persomnel and facllitics
+and shall
+
+ 
+
+digital computation and the sdaptation of problems to this method
+of solution.
+
+Phase 2 « The COntIartus Shak) fusajsh veils: Dessamme) wa
+facilities and shell design en electronic computer and aircraft
+analyser based on the results of Phase 1 of this Task Order.
+
+(BR) It is understood end agreed that, although the specification
+referred to in Section (A) hereof covers four 0 5 hases of
+the work in commection with the WHIRLWIND project, no provision
+has been made in the estimated cost or the fixed sum to cover
+the portion of the specification spplicable to the third and
+fourth phases of the work which relate to the construction,
+aseembly, housing, operation, or preliminary testing of the
+electronic computer and aircraft analyzer.
+
+Amendment No. 4
+
+(1/21/48) 2. Delete Section (A) in ite entirety and substitute in lieu
+thereof the following:
+
+ 
+
+"(4) The work to be performed by the Contractor hereunder shall
+consist of combined Phases I and II of four phases of Project
+2heX-3 (formerly Project FF-12) in accordsnce with “Specifi-_
+cations for Project RE-12, known as WHIRLWIND, dated October
+L, 1045, Revised March 20, 1046", and any instructions issued
+by the Technical Officer, as follows:
+
+"Ceaibined Phases I and II: The Contractor shall furnish the
+necessary personnel and facilities for and shall undertake (i)
+the investigations involving electyic circuits, video amplifiers,
+electrostatic storage tubes, electronic switching, mathematical
+studies of digital computation, and the adaptation of problems $8
+
+this method of solution, (ii) the design end construction of
+e Digital Computer and studics for applying the computer to an
+Alrcraft Analyser based on results obtained from the foregoing,
+and (iii) shall furnish complete sets of drawings usediin the
+construction of the sbove computer, reports setting forth the
+design and operation of all components of the computers, reports
+setting forth the results of studies of the application of the
+computer to en aircraft analyzer, and records of results of all
+tests on individual components and assembled components conducted
+wp to April 1, 1949,"
+
+
+January 31, 1958
+
+DSR-#6345
+
+Contract NSeri-60, Task Order I 6915
+
+Amendment
+(3/31/49)
+
+(7/1/49)
+
+ 
+
+"(8)
+
+t He. 7
+"(a)
+
+"{B)
+
+3. Delete Section (B) in its entirety end substitute in lieu
+thereof the following:
+
+It is understood and agreed that, although Section A refers to
+four (4) phases of the work in comnection with the WHIRLWIND
+
+Project, no provision has been made in the estimated cost to
+
+cover the third and fourth phases of the work which relate to
+the construction, assembly, housing, operation or preliminary
+testing of the Electronic Computer and Alveraft Analyser.”
+
+(Restatement of Task Order I)
+
+The work to be performed by the Contractor hereunder shall
+consist of combined Phases I and II of four phases of Project
+2hoXe3 (formerly Project RF-12) in accordance with 'Specifi-
+cations for Project RE-12, known as WHIRLWIND, dated October
+Lb, 1945, Revised March 20, 1946,' and any instructions issued
+by the Technical Officer, as follows:
+
+"Combined Phases I and II: The Contractor shall furnish the
+necessary persomsel and facilities for and shall undertake (i)
+the investigations involving electric circuits, video amplifiers,
+
+y
+gutdies of digital computetion, and the adaptation of problems
+to this method of solution; (ii) the design and construction of
+a Digital Computer and studies for applying the computer to an
+Adreraft Analyzer based on results obtained from the foregoing;
+and (141) shall furnish complete sets of drawings used in the
+construction of the above computer, reports setting forth the
+design and operation of all components of the computers, reporis
+setting forth the results of studies of the gpplication of the
+computer to an aircraft analyzer, and records of results of all
+teats on individual components and assembled components cone
+ducted up to June 30, 1949.
+
+It is understood snd agreed that, although section (A) refers to
+four (4) phases of the work in commectioniwith the WHIRLWIND
+Project, no provision has been meade in the estimated cost to
+cover the third and fourth phases of the work which relate to the
+construction, assembly, housing, operation or preliminary testing
+of the Electronic Computer and Aircraft Analyzer.”
+
+It is the desire of the Government and the Contractor that addi-
+tional research on an electronic digital computer and continued
+component research be performed. To accomplish this, there are
+hereby provided an extension in the period of performance of
+Task Order I under Contract NSori-60 and an increase in the ese
+timated cost thereof.
+
+
+Contract NSori-f0, Task Order I
+Amendment No. 11
+
+(6/29/56)
+
+*(4)
+
+(2)
+
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+  
+  
+   
+  
+ 
+ 
+ 
+ 
+    
+   
+ 
+   
+   
+ 
+ 
+  
+ 
+ 
+     
+
+DSR-#6345
+6915
+
+It is the desire of the Covernment and the Contractor that eddi-
+
+tional research on an electronic digital computer and continued component
+research be performed, and that the scope of the work be expanded
+
+to include theoretical studies and experimental research end development in i
+connection with the application of the digital computer in an air defénse
+system in which information is transwitied from remote radar stations
+
+and processed by a computer, and the application of the computer to
+izportant scientific problems. To accomplish thés, there are hereby
+provided an expansion in the scope of work, an extension in the period
+
+of performance and an increase in the estimated cost of Task Order I
+
+under Contract NSori-60,
+
+L, On end after 1 July 1950, section (A) shall read as follows:
+
+The Contractor shall furnish the necessary personnel and facilities
+for and, in accordance with any instructions issued by the Technical
+Officer or his authorized representative, shall confivet research to
+include the following:
+
+(1) investigations in commection with combined Phases I and II of
+four phases of Project 2b-X3 (Formerly Project RF-12) in accordance
+with "Specifications for Project RF.l2, known as WHIFLWIND, dated
+
+i October 1945, revised 20 March 1946,' and to include (1) investi.
+sations involving electric circuits, video amplifiers, electrostatic
+storage tubes, electronic switching, mathematical solution; (ii) the
+design and construction of a Digital Computer and the studies for
+applying the computer to an Aircraft Analyzer based on results ob-
+tained from the foregoing; ead (iii) shall furnish complete sete of
+drawings used in the construction of the above compuiers, reports
+setting forth the demign and operation of all components of the
+computers, reports setting forth the results of studies of the
+application of the computer to an aircraft analyzer, and records of
+results of all tests on individual componente and sssembled compon-
+ents conducted wp to 15 November 1950;
+
+(2) theoretical studies and experimental research and development
+in connection with the epplication of digital computers in an alr
+defense system in which information ie transmitted to WHIRLWIND from
+remote radar stations and processed by the computer, and
+
+(3) eppliceticn of the computer to important scientific problems.”
+5. On and after 1 July 1950, section (B) shall read as follows:
+
+It is understood and agreed that, although section (A) (1) refers to
+four (4) phases of the work in connection with the WHIRLWIND Project
+no provision has been made in the estimated cost to cover the thind
+and fourth phases of the work which relate to the construction,
+assembly, housing, operation or preliminary testing of the Electronic
+Computer and Aircraft Analyzer.”
+
+
+Contract NSori-60, Task Order I
+
+“ol "(§) theoretical studies end experimental research and development
+
+gs in connection with the application of digital computers in an air
+defense system im which information is transmitted to WHIRLWIND
+from remote radar stations and processed by the computer, to be
+conducted during the period 1 July 1951 to 31 December 1951."
+
+Amendment No. 16
+
+(3/26/52) Tt io the desire of the Govermment end the Contractor that sdditional
+research in applied mathematics utilizing facilities in Contractor's
+Center for Machines Computation, including the WHIRLWIND computer,
+and the application of the facilities to military and scientific probe
+lems, be performed. To accomplish this, there are therby provided
+an extension in the period of performance of Task Order I under
+Contract WSori-60 and an increase in the estimated cost thersef.
+
+Amendment No. 18
+
+(11/15/52) It is the desive of the Government ani the Contractor that, during
+o certain part of the remaining term of Task Order I under Contract
+WSori-80, which provides for research in applied mathemstics utilizing
+facilities in the Contractor's Center for Machine Computation, including
+the WHIRLWIND computer, and the application of the facilities to
+military and scientific problems, provision be mede for an increase in
+the volume of the Comtractor'l operations under said Task Order beyond
+that heretofore contemplated.
+
+Amendment No. 19
+
+(4/16/53) Tt ic the desive of the Government and the Contractor thet additional
+research in applied mathematics utilizing facilities in the oii lke
+Center for Machine Computation, including the WHIRLWIND computer, and
+the applieation of the facilities to military and scientific problems,
+be performed. To sccemplish this, there are hereby provided an ex-
+tension in the period of performance and an increase in the estimated
+cost of Task Order I under Contract NSori.60.
+
+ndment No. 23
+on Since it is the desire of the Government and the Contractor that the
+research wader Task Order I of Contract Sori-60 be continued pending
+the availability of funds for additional research to be conducted, it
+has been determined to extend the period of performance of said
+Task Order.
+
+Amendment No. 24
+
+(k/20/56) It do the desire of the Government and the Contyactor that additional
+research in gpplied mathematics utklizing facilities in the Sosa one
+Center for Machine Computation, including the WHIRLWIND computer, and
+the application of the facilities of military and scientific problems,
+be performed, To accomplish this, there are heveby provided an ex.
+tension in the period of performance and an increase in the estimated
+
+cost of Task Onder I under Contract NSori-60.
+
+
+Contract W5ori-60, Task owder I
+
+Amendment. No.
+(5/17/57) i
+
+ 
+
+ 
+
+Jamuary 31, 1958
+DER-#6345
+6915
+
+26
+Due to circumstences beyond the Contractor's contrel, the research
+
+in spplied mathematics utilizing facilities im the Contractor's
+Center for Machine Computation, including the WHIRLWIND computer, and
+the application of the facilities to Military and scientific problems
+under Task Order I of Contract NSori-60, cannot be performed within
+the period originally contemplated. In order to permit completbn of
+the research and the preparation snd submission of the final report
+snd fulfillment of all necessary requirements under said Task Order,
+it 4g the desire of the Government and the Contractor that the period
+of performence be extended.
+
+

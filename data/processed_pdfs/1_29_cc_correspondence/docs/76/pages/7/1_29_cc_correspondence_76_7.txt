@@ -1,0 +1,42 @@
+the tape on which the chain link is to be kept at
+
+execution time. T must be literally either Bl, B2
+
+or B3 and not the corresponding logical tape numbers.
+R is a fixed point number greater than O but less
+
+than 32768 denoting a label for that link, identifying
+it when it is called. (NOTE: The designations Bl,
+B2, B3 must be observed in tape input-output state-
+ments only. The sequence in which links are stored
+for any one link tape is in no way determined by the
+number, R. The sequence follows from the relative
+
+position in the input deck.)
+
+b. The last executable statement of a link which is to
+call a succeeding link for execution must be of the
+
+form,
+
+CALL CHAIN (R,T).
+
+(Here T must be a logical tape number corresponding
+to/Bl, B2 or B3.)
+
+This will then cause the link, which at compilation
+time had been specified by the control card,
+
+CHAIN (R,T)
+to be read into cores and executed.
+Selection of Tapes for Link Stacking.
+Chain links may be stacked on tapes Bl, B2, B3 for object
+time execution. The selection of tapes may be a function
+of object time needs to minimize tape reading time. For
+example, if it is desired to execute the links once only
+
+and in succession, they may be placed in that order on one
+
+tape. If one of these links, however, is to be executed
+
+-6~

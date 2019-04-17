@@ -1,0 +1,112 @@
+Re aT -’ ro RET TN NTN Cr Nr RR a] Tan 2 - Cw eR PT TRE
+
+TR N . v ~ gy > ~ " TE 3
+rs I B " TT ATT Easy BEAR bande - lla " oo ee i wid i Te Bot’ or eras i SN —_ = Or -
+ct TT eC RE + a I TL Ba A TIN i SE REIN. Be eRe TOY ns LOREEN ARE RE ee, © LE
+
+ 
+
+COMPUTATION CENTER
+
+MASSACHUSETTS - INSTITUTE OF TECHNOLOGY
+
+CAMBRIDGE 3.9 MASSACHUSETTS
+
+August 25, 1961
+
+Professor Warren B, Cheston
+School of Physics
+University of Minnesota
+Minneapolis 14, Minnesota
+
+Dear Professor Cheston:
+
+I am taking the liberty of answering your recent letter to
+0 Proiessor Morse inasmuch as he is presently on an extended trip.
+
+It is true that an IBM 7090 will be installed at the Computation
+Center this coming December or January, (We Presently have a 709) However,
+this will not be a purchased machine, Rather, MIT operates the computer
+for the benefit of its own faculty and students as well as the over-thirty
+participating New England colleges and universities, In return, IBM supplies
+the use of two shifts on the computer,
+
+Consequently, the decision to obtain a 7090 was not as free a choice
+Y as the one you are currently making, but it still has not prevented us from
+drawing some conclusions of the relative merits of the 709-90 systems,
+
+1, The relative short word lengths (36 bit words)
+
+which on long floating-point calculations may cause
+
+gradual degradation of accuracy;
+
+2, The small 32K memory. I use the term "small"
+
+here because as one's programming ability arises and
+
+operating procedures become more sophisticated, the
+
+32K core becomes crowded, Nevertheless, this
+
+should not be considered too serious a defect unless
+
+one is doing complicated programming,
+
+The principal advantages that we see with the 7039 or 7090 are:
+
+1, The compatibility with many similar machines which
+not only allows the benefit of exchanging work with
+other installations, but has the more subtle effect
+
+of allowing undesired projects an opportunity to do
+their work elsewhere,
+
+
+em rn. i TF eg hse. * 3
+Ce Py aE Le Ae" Wi
+PR . A She » a Rr
+
+ 
+
+| coMruTATION cEnTER
+
+ah op ET BR INSTITUTE OF rrenn BBE
+A CAMBRIDGE 39. Asa ouus TIED
+
+2, Also, there is a me ture (i.e. well-worked 3:over):
+set of Programming sys tems available,
+
+From a personal point of view, I ‘consider this last point to. be
+the most important and overriding one at this time, In particular, the
+709 and 7090 machines have the quite useful and easy-to-work-with For- 5s
+tran-Fap lionitor System which allows efficient and convenient utilization 3
+of the computer by programmers who are not specialists in machine language. Eo
+Fortran and FAP translators are’ both available and further translators
+have been prepared by such groups as the University of Machigan ‘(the MAD
+Translator) and others. In our own case, I would estimate that our effec-
+tive utilization of the 709 has almost doubled that of the previous 704
+that we had, This is primarily due to the smoothness of ‘the 709 operating
+systems, We also have seen a very large ‘increase in the number of users
+of our Center, which I feel also substantiate the relative ease with which
+casual programmers can use the computer Sffectively. (The Center Presently
+has over 500 active users in any month), 3 TE BI 3 ;
+
+: The above considerations’ are, 1 feel , the major ones that I would.
+0 make concerning the advisability of a 7090 system. I hope they are of
+
+some assistance to you in forming your judgments, and I will be glad to
+discuss any of the above topics at greater. length ® you wish,
+
+-F. J, Corbato
+
+y | pel hx i Associate Director
+
+Sincerely,
+
+ 
+
+FJC: NM
+Copy to Professor Norse
+
+

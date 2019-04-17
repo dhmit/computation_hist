@@ -1,0 +1,46 @@
+5b,
+
+Sc.
+
+5d,
+
+In addition to the registers mentioned above, the 3n + 3 registers fol-
+lowing the Coefficient matrix are destroyed. COMMON't§§ugh COMMON «+ 7 is
+
+required,
+
+SAVET + o Two tries failed to produce sz readable record on MT-NINE
+
+SAVEA » 2 v
+
+COBR + 2 i
+
+SAVEM + 2 &
+
+SAVEC + 2 "
+
+NOCON Iteration nay diverge (ill-conditioned matrix )
+RESTT Two attempts o read MI-NINE failed
+
+DNEXT R
+
+DNEXJ_ '
+
+The following additional epror indications ape provided:
+Sense light 1 op 8% exit meang that the routine, which slakes part
+of its thirst fop temporary storage by Writing overp itself, hag failed
+to return to its initial condition., Diipg will contain HTR 0,
+Sense light 2 op at exit meéans that the Possible errop in some element
+of the solution vector isg greater than the Nagnitude of the element,
+ADDOV, MuLTO and DIVCK aiso @ ntain erpor stops.
+
+The error retum indicateg:
+2. With AC = O, a loss of bits in cope mnenory,
+
+b. With Ac Non-zero, ap overflow in the double~precision arithmetje
+
+On nomyay return, the folution vectop is stored ip D, register ORT, which
+is A *(2nx:n) + 2, and €Very second register following contain integers
+Teépresenting the approximate number of Significant binary digits in each
+
+element of the Solution vecopp, A is the next Tecord on MT-NINE.

@@ -1,0 +1,48 @@
+with the current value of the location counter. But first,
+if there is a symbol in the location field, enter this
+symbol in the dictionary as a relocatable symbol having
+
+as its value the current value of the location counter,
+
+so that the first decimal number in the variable field
+
+may be referred to by this symbol." The total number of
+binary words generated is one more than the number of
+commas in the variable field. There are three types of
+decimal numbers which can be specified in the variable
+field of a DEC pseudo-operation. These are integers,
+
+fixed point numbers, and floating point numbers. Any
+combination of these three types may appear in the variable
+field of one DEC pseudo-operation. An integer is repre-
+sented by a string of eleven or fewer digits, possibly
+preceded by a minus sign. An integer is converted to a
+
+n
+
+35-bit binary number with sign. Thus '"-31" would convert
+to 400 000 000 037,. A fixed point number or a floating
+point number may have a decimal point and/or a signed
+decimal scale factor. If the decimal point is missing,
+
+it is assumed to be at the right-hand end of the principal
+part of the number. The scale factor is signalled by the
+character E, and follows the principal part of the number.
+Thus "'3.14159", ''314159.E-5", ''314159E-5', and " .314159E1"
+all represent the same number. A number is £E§39<BSEEE
+
+if its representation contains the letter B. The letter
+
+B is followed by a signed decimal integer which specifies
+the location of the binary point in the binary word which
+results from the conversion of the decimal number. The
+
+B- integer is the number of integral places in final result.
+Thus a B-value of O specifies a 35-bit binary fraction,
+while a binary integer results from a B-value of 35. A
+B3-value of minus one specifies that the binary point is
+located one place outside the left-hand end of the word.
+If a fixed point number has an E-part as well as a B-part,
+then both must appear after the principal part of the
+
+number, but their relative order is unimportant. Hence

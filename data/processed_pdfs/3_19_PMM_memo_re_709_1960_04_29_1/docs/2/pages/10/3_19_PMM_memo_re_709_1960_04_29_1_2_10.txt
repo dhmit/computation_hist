@@ -1,0 +1,57 @@
+Page 10,
+
+Phase I-Overall System Design-6 months starting September 1960
+2xarbing oeptember 196o
+
+Objective: Determine modifications to compute system for time
+sharing, overall input-output systems design, lay out multi-
+programming objectives, develop Scheduling techniques.
+
+Personnel:
+
+1 1/2 full time engineers (including overhead) $7500.00
+1 1/2 full time programmers 6000.00
+1/2 time senior supervisor 4000.00
+1/2 time among senior consultants 4000.00
+Clerical costs, electronics, 3000.00
+
+Total $24500.00
+Phase II-Detailed Subsystem Design-6 months starting March 1960
+
+Objective: Develop design of data transmission links and
+input-output "exchanges"; develop programming systems for dis-
+
+patching, monltoring, maintaining program files, ete.
+Pergsonnel:
+
+1 1/2 full time engineers $7500.00
+1 1/2 full time programmers 6000.00
+1/2 time senior supervisor 4000.00
+1/2 time among senlor staff consultants %000.00
+Clerical costs, electronic supplies 5000.00
+
+Total $26500.00
+
+Phase Ill-Detalled Subsystem Development, Test and Evaluation
+starting in September 1961-liyear
+
+Objectlve: Bulld prototype equipment for system, complete de-
+talled programmlng systems, evaluate system in actual use, De-
+velop and test specialized input output equipment.
+
+Personnel:
+
+2 full time engineers $20000.00
+4 full time programmers 30000.00
+1/2 time senior supervisor 8000.00
+1/2 time among senior consultants 8000.00
+
+Clerical costs,
+
+  
+
+electronics 10000.00
+
+e -
+
+Total $76000.00
