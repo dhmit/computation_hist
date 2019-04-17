@@ -116,7 +116,6 @@ def folder(request, folder_id):
     }
     response = render(request, 'archives/folder.jinja2', obj_dict)
 
-    print(foo) #FIXME this is a deliberate error to test pylint
     return response
 
 
