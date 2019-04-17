@@ -25,7 +25,6 @@ def index(request):
     ]
 
     context = {'stories': stories}
-    print(foo) #FIXME this is a deliberate error to test pylint
     return render(request, 'index.jinja2', context)
 
 
@@ -116,6 +115,8 @@ def folder(request, folder_id):
         'document_objs': document_objs
     }
     response = render(request, 'archives/folder.jinja2', obj_dict)
+
+    print(foo) #FIXME this is a deliberate error to test pylint
     return response
 
 
