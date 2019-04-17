@@ -285,18 +285,24 @@ def process_advanced_search(search_params):
     if title:
         docs_qs = docs_qs.filter(Q(title__icontains=title))
 
-    text = search_params.get('text')
+    text = search_params.get('text') # full text search
     if text:
-        # allows quotation marks but only extracts the string in the middle
-        match = re.match(r'^[\'"]?([a-zA-Z\d ]+)[\'"]?$', text)
-        if not match:
-            print(f"WARNING. Could not parse full text search string: {text}.")
-        else:
-            print('Match groups: ', match.groups())
-            raw_docs = Document.objects.raw(f'''SELECT * FROM doc_fts 
-                                                     WHERE text MATCH "{match.groups()[0]}";''')
-            doc_ids = [doc.id for doc in raw_docs]
-            docs_qs = docs_qs.filter(id__in=doc_ids)
+        words_q = Q()
+
+        # handle exact search terms wrapped in " or '
+        exact_searches = re.findall(r'"([^"]+)"', text)
+        if exact_searches:
+            for phrase in exact_searches:
+                print(phrase)
+                words_q &= Q(text__icontains=phrase)
+                text = re.sub(phrase, '', text) # strip exact search search terms out
+
+        # handle all leftover text
+        text = re.sub(r'[\'"]', '', text)
+        words = text.split()
+        for word in words:
+            words_q &= Q(text__icontains=word)
+        docs_qs = docs_qs.filter(words_q)
 
     author = search_params.get('author')
     if author:
