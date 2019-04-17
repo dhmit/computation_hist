@@ -1,0 +1,28 @@
+Mr. Shinjil Kataoka =D 3-27-61
+L-6349
+
+b) Lsypunch the non-gtationary data cards;
+
+c) precede the deck of non-gtationary data cards
+vith a card punched NONSTA in colums 1 through
+
+2
+
+d) place the resulting won-stationary deck just
+before the ILERGTE card in the data deck and
+run the new deck.
+
+The caomplete operation deck format has been changed, of course,
+to conform to the requirements of the TO09 FORTRAN Monitowr.
+
+I have included a small test data set with the progran, to-
+gether with the wesults of the rvn using the test data.
+
+If you have any further questions, please let me know.
+
+Sincerely,
+
+George W. Armerding
+Computer Sciences Department
+
+GWA:ah

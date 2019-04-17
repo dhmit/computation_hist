@@ -1,0 +1,18 @@
+1
+
+B. Yortran Programs Containing SAP-Coded subroutines
+
+SiP-coded subroutines involving no input or output
+are almost directly convertible into FLiP, the Fortran issembly
+Program, since the 704 instructions are (with one exception,
+TQO) a subset of the 709 Instructions, and FAP retains the
+ma jor pseudo-ops of SAP, i.e. ‘U, 0OCT, DEC, BSS, BES, and
+BCD (n.b. the specification of BCD is slightly changed).
+
+several pseudo-ops hiave been included in FAP that
+make the machine coding of Novtran progrems simpler than it
+was in SAP.
+
+Prograwms that included input-and/or output must
+
+be partially rewritten using the 709 commands.

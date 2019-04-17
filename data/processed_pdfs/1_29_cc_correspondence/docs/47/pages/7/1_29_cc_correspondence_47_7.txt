@@ -1,0 +1,34 @@
+APPENDIX IIT
+
+I
+! !
+DNEXT Solve matrix equation A x < b', when 4 x = b has been solved by MIDPME.
+
+1. This routine provides a ,.'larqlgda saving in time when solving for a2 new
+fight-hand side. Calling aéquénc? ig same as for MIDPME except that X
+must contain TSY DNEXT,k. I,:'Rem’xltlb, error stops, etc. are £ll the same
+
+as UIDRE. ; \ |
+o  WIDPYE writes five records on MT-NINE: O, 4, D, M, I - A, D is the
+first 6n instructions of MIDME, tﬁe other letters are explained in the
+
+nain writeup. Upon exit from WIDME, MT-NINE is positioned to read A as
+‘the next record. This is for convenience of user, who may want to read
+
+in A by BLINS; the necessary CAD checksum is stored in SuCKA,
+
+DNEXT spaces down to M and reads it into memory to form Mb'. It then
+
+ 
+
+ 
+
+reads in I - liA and starts iterating. The parts of MIDPHE that form M and
+check I - AM are skipped, thus saving considerable time. DNEXT restores
+C on exit, but since it uses the block written by HIDPME, changes in C
+between use of MIDPME and DNEXT will be lost.
+
+T TR AR - S AT
+
+\
+|

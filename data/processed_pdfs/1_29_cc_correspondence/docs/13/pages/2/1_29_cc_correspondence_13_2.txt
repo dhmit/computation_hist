@@ -1,0 +1,37 @@
+October 6, 1961
+
+QUARTERLY PROGRESS REPORT
+
+In compliance with Section 1:
+During this quarter the following research was accomplished:
+
+1) Data tape writing and data preprocessing has been thoroughly
+checked out and placed on a production basis. The efficiency of
+Computation Center operation plus the completeness of our program
+repetoire in this area permits us to preprocess data within 48 hours
+of its receipt. The automatic preclusion of fallacious a postiori
+analysis in the forecasting area can be listed among tho”nz—wmiu
+of such speed.,
+
+2) Our hypothesis conecerning intererrival times has been confirmed.
+There is no further work to be done here.
+
+'3) However, our hypothesis concerning order sizes was partially
+rejected. Consequently, new pilot runs verifying the alternate hypothesis were
+mede during the last quarter ending September 30, 1961. We project that the
+remaining bulk of production runs will be made in the next six weeks to
+z months. A
+
+4) The programs pertaining to forecasting methods have been entirely
+debugged in their original version and results produced. However, as is the
+usual case with scientific research, our initial results have caused a
+revision of our analysis. Modifications to the forecasting programs
+necessitated by the above reason are currently in process. The entire
+production phase of this area should fall in the coming guarter.
+
+In conelusion, it should be stated that this project has become
+larger in scope but not extensively larger - than it was envisaged one
+year ago. In spite of the mlld expansion we preceive to conclude the project
+within the coming quarter ending December 31, 1961. A final report and a
+copy of all published material concerning the results of this project
+will be forwarded to you at this time. '

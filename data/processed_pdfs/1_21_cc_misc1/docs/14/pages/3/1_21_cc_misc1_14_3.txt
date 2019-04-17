@@ -1,0 +1,21 @@
+e e e e ]
+2.
+
+1s not so great that we should be unable to show a possible re-
+sult in a year and a half. With reasonable luck we should have
+both the flow-diagram and at least a first version of the code
+completed.
+
+This code would of course have some immediate practical
+use, but much more important would be the lessons we can learn on
+how practical the high speed computers are for solving symbolic
+problems and what is the best way of utilizing them. We propose
+to write a specific code for the IBM 704 because we have ample
+time available to us on such a machine., However, the theoretical
+conclusions, as well as the flow-diagram, would be of use on any
+high speed computer, and even the adaptation of the specific code
+should take much less time than its original writing. Hence, we
+believe that a very wide class of computers would profit from the
+results of this work. Last but not least, we hope that this work
+
+will suggest some improvements in computing machine design.

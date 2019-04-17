@@ -1,0 +1,59 @@
+e APPENDIX . |
+Locaion  amd Cogdam Equywaids o [ Comydilion Cotlin,
+
+ 
+
+ 
+
+ 
+
+e ES
+The MNIT Comphtation Center will have its permanent
+quarters on the MIT @ampus in the rnew Karl T. Compton
+C\QJ o \r
+Laboratoryywhlch is scheduled for cowpletionAfs March 1957a
+In this building the Center will occupy integrated parts of
+the basement, first floor and second floor. This area will
+
+have office space for -»33s=wf the reseapch staff, technicians,
+
+R
+
+research assistants and associates,besides room for =t===f
+
+n
+n;
+
+7
+
+the computational equipment used by the Center,
+
+The computing equipment of the Center, which will be
+furnished by the IBM Corporation, will primarily consist of
+Apzcaﬁﬁery peripheral equipment.
+
+This machine is an up-to~date, fast, general-purpose
+
+a 704 computer and the
+
+electronic digital computer. The basic machine code includes
+o¥er 80 instructions,includinﬁ those for arithmetic operations
+with floating-point numbers. The basic operating time is
+24 microsecondg for most ingtructionsywith a normal maximum
+of 240 microseconds. The 704 to be gnstalled will have a
+magnetic core memory with a storage capacity of 8192 woréds,
+ALad
+each word containing 36 binaryﬂgéﬁs. (The storage capacity
+will be incressed to 32,768 registcrszééssaﬁ 1958,) The
+computer will also havc,as an additional storage devicera
+magnetic drum with a 8192 worfl capacity. As with most modern
+computers, magnetic tape is used Bot%i%or additional storage
+and for input-output requérements. Théminstallation will
+have 1% tape units, (at most 10 under computer control),
+each unit storing up to a maximum of 900,000 words.
+b a3 &
+A&sziésa the macnetic tape units, the input-output
+
+equipment which will be under-direct computer control will
+
+be a punched card reader, a line-by-line printer, a card

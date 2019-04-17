@@ -1,0 +1,22 @@
+11
+
+ 
+
+B. Fortran Programs Containing SAP-Coded Subroutines
+
+ 
+
+SAP-coded subroutines involving no input or output
+are almost directly convertible into FAP, the Fortran Assembly
+Program, since the 704 instructions are (with one exception,
+TQO) a subset of the 709 instructions, and FAP retains the
+ma jor pseudo-ops of SAP, i.e. EQU, OCT, DEC, BSS, BES, and
+BCD (n.b. the specification of BCD is slightly changed).
+
+several pseudo-ops have been included in FAP that
+make the machiline coding of IFortran programs simpler than it
+was in SAP.
+
+Programs that included input-and/or output must-
+
+be partially rewritten using the 709 commands.

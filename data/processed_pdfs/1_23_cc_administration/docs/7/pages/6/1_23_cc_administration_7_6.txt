@@ -1,0 +1,42 @@
+6.
+3. LIBRARY INSTRUCTIONS FOR THE REVISED SHARE ASSEMBLER USING A
+CONDENSED LIBRARY TAPE
+
+In the preceding section it was explained how condensed sym-—
+bolic cards can be included in the decks presented to the revised
+assembler. In this section we explain how subroutines are called
+for from the condensed library tape. This is different from the
+way they are called for in the present version of the assembler.
+
+For each library subroutine the programmer wishes to incor-
+porate in his program he must write at least two LIB instructions.
+First he must list all the library subroutines he wants at the be-
+ginning of his program, or at least at a point in his program be-
+fore he wants any subroutines to appear. As in the present assembly
+procedure a library instruction is a card with LIB in the operation
+field and the name of the subroutine in the location field (columns
+1l to 6). The first group of LIB instructions must mention the de-
+sired subroutines in the order 1n which they appear on the con-
+densed library tape and must be followed by an LIB card with blank
+location field. When the assembler gets to this group of cards it
+extracts the condensed subroutines from the condensed library tape,
+expands them and writes them on a tape in expanded form, and makes
+a table of contents of the subroutines mentioned, which it puts in
+core storage. No instructions are added to the program being as-
+sembled at this point. Each LIB instruction must be given again
+at the point in the program where the subroutine is to appear, It
+1s not required in the second calling that the subroutines be
+given in any particular order, although if they are given in the
+same order as before, assembly time will be reduced. (not usually
+by very much). A subroutine may be asked for more than once in
+the body of the program (for open subroutines) but must be men-—
+tioned only once the first time,
+
+Failure to observe these rules will lead to a stop in the
+assembly.
+
+In addition to the public condensed library tape it is pos-—-
+sible to use any number of private condensed library tapes which
+may be mounted as tapes 5 to 10. If a subroutine is to be ob-
+tained from a private library tape, the number of the tape is
+written in column 12 of the first LIB instruction mentioning the

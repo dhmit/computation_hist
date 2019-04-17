@@ -1,0 +1,241 @@
+e
+
+ 
+
+] . | s»sziifﬁégpﬁh
+
+\o
+
+PROPOSAL POR EXTENSION OF NSF GRANT No. NSFG2940
+to June 30, 1958
+
+Proposal
+
+Although our IBM 704 is now delivered and is in storage at
+MIT, delay in completion of the building to house it has delayed
+commencenent of the project financed by NSF grant NSF G2940. As
+a result, 1t is estimated that only about $8,000 will have been
+spent by June 30, 1957. Staff members, which were to have been
+transferred to this project, have been continued on the Whirlwind
+project until the change-cover, and most of them will not be trans-
+ferred until summer. 1t 1s therefore proposed that the project be
+continued until June 30, 1958, with an additional grant of only
+$13,000, so that in the full year of full operation, July 1957 to
+June 1938, we can operate at the rate of $35,000 a year, as
+estimated in last year's forecast. Estimated deteolls of budget
+are appended, together with excerpts from the eriginal propesal.
+
+Progress to Dafte
+
+Although the NSF funds have not been used to any extent, work
+on the first aspects of the proposed research has gone forward
+as rapidly as is pessible without the 704 being in running condi-
+tion. A complete utility and a post-mortem program have been
+developed, and tested out on borrowed 704 time, & much more
+flexible assembly program than at present avallable has been
+begun, ready for active cocding when cur 704 is in operation.
+Discussions have been begun with a view to investigating the
+_ incorporatien of a flexible cutput eguipment utilizing the
+o ot ‘0 ) ' TN o A Ve ee s
+. photographic "linotype" eqguipment called Photon. Hany programs
+of importance in physics and enginecring have been, or are being
+translated from Whirlwind language to 704 language, such as the
+‘work of the Solid State Theory Group under Prof. J. C. Slater
+and the large-shower calculations of Prof. Bruno Rossi. The
+meteorology group under Prof. Charney, recently moved here from
+Princeton where their werk was initisted by Von Neumann, is -
+planning to use a substantial amount of machine time, and will
+require the advice and help of our to program thelr various
+calculations. We will be assisting arvard Observatory staffl
+in-calculating csatellite orbits i gn for, and during,
+the ICY satellite "shoots". Dr. Los Alamos, who has
+been a Visiting Fellow to - year, has been asslsting
+us develop "Monte Carle” technliquas. ¥
+Dartmouth Mathematics Department (oo
+
+o
+
+q
+7y
+oD ™
+: ‘_‘)
+t=>3
+B
+
+l‘.:‘; ‘
+“} =] €7 ct
+
+=@ 8
+b o
+
+bg b
+O W §
+
+Vv o
+bt
+M
+&
+¥
+‘.;'Tj - r.
+= ip F "L,‘:’ Ho
+D o
+&)
+< ¢
+=y P
+W
+3 b
+O
+~9
+
+- -
+&
+
+£. John YcCoxthy of the
+1@ the New Ingland colleges
+participating in our program) will be
+
+interested in developing macnl 1
+
+tions of the behavior of "a
+
+grams. The staff of the M1
+the possibilities of st
+machine metheds and a p
+machine translaticn, su
+expects €0 use our 1A p! z
+groups, at the 23 participating col
+
+WOIrK.
+
+a O “'l
+
+et
+l‘j_ .
+:: En 2 ‘-‘1) c.‘,
+
+&
+
+?'4
+
+T
+
+o
+
+4
+
+1 and will be
+investiga-
+ation proe-
+exploring
+n by
+rtment on
+indation,
+Cther
+
+N R e
+A ner
+
+= 3
+
+C
+£
+‘z e 013
+
+—
+-~
+&
+
+:‘\ c" > C-"‘ CT
+_— ¢
+> 5 @
+=
+
+¥
+(=3 ¢
+
+=3
+3
+o
+o [
+=
+L
+-
+wv’
+-
+-2
+o
+‘
+=1
+-
+
+-
+
+s
+=’ wee
+'
+2
+)
+
+(.
+D = =
+ks
+<
+N
+= (-5 (D
+
+,,
+b
+o
+
+" E.
+-
+
+n
+W) V=
+v O
+
+('
+
+b=
+
+{5
+
+By
+4
+
+w
+
+O
+
+6’)
+O G
+=t
+o
+
+€V ©Q
+D <
+
+: b D
+o o
+
+g A
+= 0m O cr
+
+31
+.
+
+<X
+* N
+
+'.‘6 o
+
+b 82
+(2
+
+‘.
+=
+£ h
+
+'
+v
+t

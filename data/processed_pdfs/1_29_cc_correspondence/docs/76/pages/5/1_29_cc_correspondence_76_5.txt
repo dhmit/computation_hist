@@ -1,0 +1,47 @@
+S.
+
+The input subprograms may be FORTRAN subprograms, FAP
+subprograms, or binary object subprograms. Data cards,
+to be used during execution, follow the input sub-
+programs. The input program consists of a single main
+program-subprogram sequence not larger than the available
+core storage and constitutes a "machine-load".
+
+A sequence of input programs meant for execution where
+each input program is a job of type 4, The data cards
+are placed at the end of all the input programs. This
+is called a CHAIN job and each of the jobs of type 4
+is a CHAIN LINK. This permits a single object program
+
+execution to consist of more than one "machine-load''.
+
+I11. MONITOR FEATURES
+
+The first record of each job must be an identification
+(I. D.) card whose format is specified by each com-
+puter installation.
+
+There is a complete set of control cards for the Monitor.
+These are distinguished by an asterisk (k) in column
+one. In general, they are of two types: 1) to govern
+the job as a whole, telling what it consists of, and
+
+2) to govern options in the output.
+
+The FORTRAN Monitor System uses eight tapes on two
+channels. These are Al, A2, A3, A4, Bl, B2, B3, B4 .
+
+A2 is the input tape and A3 is the output tape. Tt
+should be noted that the correspondence between logical
+tape designations used in FORTRAN Source program in-
+put/output statements and the actual tape assignments
+at object time is set in the Unit table (IOU) in the
+FORTRAN library. Each installation may alter the
+logical correspondences.
+
+FORTRAN programs written for use under Monitor control
+will be the same as conventional FORTRAN programs with
+
+three exceptions.
+
+=

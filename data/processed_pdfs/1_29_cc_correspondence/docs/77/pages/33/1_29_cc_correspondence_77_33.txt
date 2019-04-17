@@ -1,0 +1,55 @@
+contains the symbolic instructions in the order given
+together with the octal representation of the binary
+words generated. Errors detected by the assembler
+result in error flags. An error flag is a code letter
+placed in the left margin of the line containing the
+
+offending instruction. The code is as follows:
+
+Phase error or phase relocation error
+Reference to an undefined symbol
+Reference to a duplicately-defined symbol
+Undefined code in the operation field
+
+OO B GRS Y
+
+Boolean error (non-Boolean symbol in a Boolean
+field)
+
+Relocation error
+
+Error in a data-generating pseudo-operation
+(DEC, OCT, BCIl, BCD, or VFD)
+
+L Error in a literal
+
+Several features have been added to FAP to improve the
+assembly listing. If the card immediately following
+
+the COUNT card contains an asterisk in column 1, the
+contents of column 2-72 of this card will be printed at
+the top of each page of the listing, together with the
+page number, If the card following the COUNT card does
+not contain an asterisk in column 1, it will be treated as
+a normal operation or pseudo-operation, and only the page
+
+number will appear at the top of each page of the listing.
+
+The list-control pseudo-operations SPACE, EJECT, UNLIST,
+
+LIST, TITLE, and DETAIL have been added to the assembler.
+
+The SPACE pseudo-operation causes blank lines to appear in
+
+the listing. The value of the variable field is the number
+
+of blank lines to appear, except that if the value of the
+variable field is zero, one blank line will appear. The
+
+EJECT pseudo-operation causes the assembler to begin a new
+page. The UNLIST pseudo-operation causes the assembler to
+suspend listing until a subsequent LIST pseudo-operation is
+encountered. When UNLIST is in effect, any line which contains
+
+an assembly error will
+-3 ]

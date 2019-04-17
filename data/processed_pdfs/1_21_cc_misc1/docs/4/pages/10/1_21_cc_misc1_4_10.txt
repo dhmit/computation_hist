@@ -1,0 +1,42 @@
+determined size, in this Case, twenty characters;
+fol.low this by the Seven-digit sentence identifier
+being developed; follow this by the context of the word
+Composed of the twenty-five characters pPreceding the
+selected word, a Space, the initial letter of the se-
+lected word, a Space and the twenty-five characters
+following the selected word, for a total record size of
+eighty characters. (The 80-character record length
+was chosen because of the frequency of occurrence of
+card length records in Computer applications. This
+will insure that the sorting program normally pro-
+vided by a manufacturer with his computer would be
+usable by our system, eliminating the necessity of
+Creating the most complex program of our system, )
+f) If benefit can be gained by ''batching'' several card-
+length records into each magnetic tape record to hold
+the required number of tapes to a minimum, it would
+be done here and the resultant records be written to
+the output magnetic tape(s).
+
+ 
+
+The next computer operation is the aforementioned sorting,
+whose criterion will be the combination of the selected words and the
+seven-digit sentence identifier., The output from the sorting opera-
+tion will be the basic information for the concordance, a complete
+dictionary, including a frequency count for each word, and a list of
+singly-appearing words for special attention, 2
+
+Printing of the various listings mentioned above would complete
+the computer operations.
+
+It is suggested that Book I of the Institutes be used as a first
+set of data to provide a small-volume representative sample to test
+the whole system. A small list of words to be omitted would serve
+to test that portion of the input edit program as well as to limit the
+volume of data produced and the Computer time necessary to produce
+1t
+
+2. It is possible that words appearing several times within the
+
+text will clarify any such reordering,

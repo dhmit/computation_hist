@@ -1,0 +1,39 @@
+APPENRIX I
+sOUTS> TAPE WRITING ROUTINE
+Calling Sequence: TSX BOUTS, 4
+PZE N,O, FwA
+Error Return
+SLW (normsl return)
+This routine writes the block of N words starting et FWA on MT-NINE
+
+and computes the CAD checksum, Tape is then backspaced and reresd to
+
+check for a legible record, Fablure of the check causes g second writing
+
+end check, failure of which causes error return., On normal return, CAD
+
+checksum is in AC to be stored for later use with BLINS, By | o 4o
+
+BLIN> TAPE READING ROUTINE
+Calling Sequence: CAL (pickup checksum for this block)
+
+TSX BLINS,4
+
+PZE N,O0,FWwA
+
+Error Return
+
+Normel Return
+Thie routine reads the next block of N words from MT-NINE into core memory
+starting et locetion FWa, A CAD checksum is compared with the contents of AQ
+&t entry, On disagreement, tape is besckspaced end s second ettempt 2t resd-
+ing is mede, Failure of this attempt results in an error return, Presence
+
+of an end-of-file or end-of-record before N words are read also initiates the
+
+N | ' |
+error procedure. oy | v Kegirwd,
+
+ 
+
+Emal.

@@ -1,0 +1,92 @@
+2. COMPUTATION CENTER
+Massachusetts Ini titution of Technology
+Cambridge 39, Massachusetts
+
+Memorandum To: Problem Applicants Date: July 27, 1960
+From: F. J. Corbato, Associate Director
+
+Subject: Request for 709 computer time for currently active
+problems
+
+The Computation Center is presently in the process of converting
+from an IBM 704 to the more advanced IBM 709. The operating time lost
+this quarter due to this conversion, coupled with ambiguities existing
+in the previous Quarterly Progress Report, makes it necessary that we
+ask you to complete and return this questionnaire.
+
+1) Problem Applicant Problem No.
+
+2) Nemes of programmer submitting report:
+
+ 
+
+3) Institution: Department: Phone No. _
+
+4) HFeiling address:
+
+ 
+
+ 
+
+5) How much 709 time will you require between September 1, 1860
+and December 31, 1260? minutes (Note extended period.)
+
+6) Please indicate the reel numbers of any magnetic tape reels
+which are assigned to you that you are not finished with.
+
+7) Approximately how many punched cards do you have stored in
+the Center card files? (Approximately 1,000 cards per 7 inches.)
+
+
+COMPUTATION CENTER
+Massachusetts Institute of Technology
+Cambridge 39, Massachusetts
+
+July 27, 1860
+
+To Users of the Computation Center:
+
+Programmers presently using the Center cord storage facilities are urged
+
+it hes become necessary that the Center control the card storage
+apace available to programmers just as it does the magnetic tape reels.
+
+to see the Dispatcher, Mr. R. Dunn in the Run Processing Room, 26-058
+about having assignments made for their problem. Briefly, the policy
+on storage facilities at the Center is 88 follows:
+
+op
+
+1)
+
+2)
+
+3)
+
+@)
+
+3)
+
+Any active problem may have card storage space and/or magnetic
+tape reels assigned to it for exclusive use.
+
+Such assignments are made by the Dispatcher, upon request,
+from a limited supply of such facilities.
+
+Neither Center card drawers nor magnetic tape reels are to
+be removed from the Center.
+
+in times of need, the Center may find it necessary to call
+pack some of these facilities for a more equitable distri-
+bution,
+
+The problem applicant is responsible for the prompt release
+or replacement 0f these facilities when the problema becomes
+inactive and/or the facilities are no longer nceded.
+
+Lt
+
+¥F. J.J/Corbats
+As ate Director
+
+

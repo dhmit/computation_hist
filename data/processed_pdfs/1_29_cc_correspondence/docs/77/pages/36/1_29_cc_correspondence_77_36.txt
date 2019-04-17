@@ -1,0 +1,43 @@
+from heading.
+
+The form of the HEAD pseudo-operation is: blanks in the
+location field, HEAD in the operation field, and a single
+
+character (letter Or digit) in the variable field.
+
+The form of the HED pseudo-operation 1s:  the heading
+character (lettor Or digit) in column 1 of the card, HED
+
+in the operation field. The variable field is ignored,
+
+For both HEAD and HED pseudo-operations, a blank heading
+character on the card is taken by the FAP assembler to
+
+be the heading character zero,
+
+The dollar sign, "$", is used in a special way in order
+to make references from one headed section of a program
+to another headed section. The dollar sign separates the
+
+heading reference from the symbol; no heading reference
+
+ 
+
+is needed when referring to a zero, or unheaded, section,
+For éxample, A$X refers to the symbol ¥ in the A-headed
+
+section, and $X refers to X in the unheaded Ssection,
+
+The TCD Pseudo-operation is used to cause the punching
+of a binary transfer card before the end of the binary
+deck. TCD must appear in the Ooperation field, and a
+symbolic expression designating the point of transfer
+
+must appear in the variable field,
+
+and for absolute assemblies cause the Ppunching of a binary
+transfer card. END appears in the operation field and a
+
+Ssymbolic expression representing the pPoint of traisfer in
+
+the variable field.

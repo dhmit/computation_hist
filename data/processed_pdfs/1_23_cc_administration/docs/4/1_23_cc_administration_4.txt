@@ -1,0 +1,252 @@
+March 1957
+
+REQUEST FOR SUPPORT FROM THE OFFICE OF NAVAL RESEARCH
+FOR_SUPPORT OF RESEARCH IN
+
+—_— Seemann adi
+
+DIGITAL COMPUTER METHODS IN OPERATIONS RESEARCH
+
+Ba A EA Ol a Se a
+
+Background
+
+With the installation of the IBM TO4 in the new Computation
+Center, it becomes possible to expand our basic work in Operations
+Research in directions which will utilize the capabilities of this
+new high-speed electronic computer. After consultation with
+Dr. T. J. Killian and with Drs. J. Weyl, A. Grad and C. F. Mucken-
+houpt of ONR, we herewith submit a proposal for a project in this
+area, to be supervised by Prof. P. M. Morse, Director of the
+Computation Center, Dr. H. P. Gallliher, Assistant Director of the
+MIT Operations Research project, and Prof. Dean N. Arden, Head of
+the Programming Research Section of the Computation Center.
+
+ 
+
+Proposal
+
+A program of research is proposed in the areas of linear
+programming and queuing theory, and particularly into methods of
+utilizing high-speed computation techniques in the solution of
+certain problems in these areas. The purpose of the research is
+fo extend progress already made in these fields. Initial phases
+of the research are described below. Experimental testing of
+methods developed will be made on the IBM TOU now being made
+ready at the new MIT Computation Center.
+
+Nature of the Investigation
+
+Work will be in the related fields of linear programming
+and queuing:
+
+Linear Programming. Research has already been initiated, and
+shows promise, in the application of special approaches to the
+computer solution of problems involving flow of one or more
+commodities through capacitated networks which enable the come
+puter to take advantage of the special structure of specific
+problems to shorten computation time.
+
+Research will also be done on more efficient algorithms for
+the solution of general linear programming problems. In particu-
+lar the primal-dual method developed by the RAND Corporation is
+currently being programmed for the IBM 704 and possible exten-
+sions of the method are being investigated.
+
+The practical importance of the techniques will be tested
+on scheduling and warehousing problems with or without uncertain
+demands as well as dynamic scheduling and allocation problems.
+
+
+ONR Proposal - 3/57 | Page 2
+
+Nature of the Investigation, continued
+
+Jueulng. In the field of queuing, work is proposed in the follow-
+ng two areas:
+
+Tabulations of waiting-line functions. Fairly extensive tables
+of waiting-line functions for Poisson arrivals and varying distri-
+butions of servicing time will be available to the public within
+the next year. An increasing demand for such tabulations when
+arrivals are not Poisson is being expressed. Methods for calcu-
+lating such functions have already been developed. As part of
+this research it is proposed to determine and make suitable tabula-
+tions of these functions, for publication, on the IBM TO4 computer
+at MIT. :
+
+Study of transient queuing behavior. Methods have been developed
+for high-speed computation of the short-term behavior of certain
+queuing situations and these have recently been successfully
+applied to a case of airport operation. Transient situations offer
+serious problems in the successful operation of military, naval and
+civil installations. As part of this research further mathematical
+analysis will be made of these problems with the primary purpose of
+providing practical computational methods. The IBM 704 computer
+will be used to test such methods. :
+
+Budget Proposed
+
+The cost of this work will be primarily for staff salaries,
+since no direct charge is made for time on the 7TO4. The charges
+made by the Computation Center for programming and general service
+in the use of the machine by projects at MIT will average between
+$180 and $200 per hour of use of the machine, so that total compu-
+tation charges will be only about a quarter of the budget.
+
+Approximately $19,700 (see Enclosure A) is estimated as
+required to support this research for a one=year period. Starting
+date is to be July 1, 1957. Past experience of progress in this
+field suggests that a continuation beyond a one-year period can
+be expected to prove worth considering.
+
+Supervision
+
+The project, for which the title "Computer Methods in Opera-
+tions Research" is suggested, will be under the general supervision
+of Prof. Philip M. Morse. Direct responsibility for the research
+to be carried out will be assumed by Prof. Dean N. Arden of the
+Department of Electrical Engineering and Dr. Herbert P. Galliher
+of the Institute's Division of Sponsored Research, with an
+assisting staff equivalent to 3 research assistants part time.
+
+Both Prof. Arden and Dr. Galliher have been active in the direction
+of operations research work at the Institute and ln the conduct
+personally of research and computer use in the proposed areas.
+
+
+ONR Proposal - 3/57 Page 3
+
+Prof. Arden 1s Director of Programming Research for the new
+Computation Center. Dr. Galliher 1s at present Assistant Director
+of the Institute's Operations Research Project. Enclosure B
+describes some of their previous work related to this proposal.
+
+Recommendation
+
+It is proposed that $19,700 be granted for the 1957-58 SJ 2Ps
+for work as outlined, and that discussions be commenced thi
+summer or next fall for continuation of the work, at about the
+same rate, through the year 1958-59, so that the senior staff
+will not be lost to other projects because of uncertainties of
+funding for the following year.
+
+ 
+
+Signed
+
+ 
+
+Approved
+
+Carl FP. Floe
+Assistant Chancellor
+
+Dr. F. L. Foster, Director
+
+Division of Sponsored Research
+
+Enclosures A and B
+
+——— TE ——— i  — I —— i ———— Fr —
+
+Date
+
+
+ONR Proposal - 3/57
+
+ENCLOSURE_A
+
+—— in BO A A MENA i OCT Bo
+
+Budget for 1957-58
+Staff
+1 member, Research Staff, DSR (part time)
+
+2 1/2 time Research Assistants, or equivalent
+1 Secretary, 1/6 time
+
+Overhead estimated at 45 percent
+
+Total salaries, wages and overhead
+Computation
+Travel
+
+Reports
+
+Materials and services
+
+TOTAL for the year
+
+Page 4
+
+3,000
+5,400
+500
+
+8,900
+4,005
+
+ 
+
+12,905
+
+5,000
+950
+600
+200
+
+ 
+
+$19,655
+
+
+ONR Proposal - 3/57 Page 5
+
+ENCLOSURE B
+
+Dr. Herbert P. Galliher
+
+1953-54 Member Operations Research Group, Arthur D.
+Little, Inc., Cambridge, Mass.
+
+1954-date Operations Research Project, M.I.T.; currently
+Assistant Director
+
+Professional Societies American Mathematical Society,
+Operations Research Society
+Institute of Management Sciences
+
+Research Primarily in queuing theory, as reported in
+Interim Technical Reports 2, 3, 4 of Army
+Ordnance Contract DA-19=020-ORD-2684.
+
+Publications 1. "Attendance and U%e of the Science
+Library at M.I.T.", by G. C. Bush,
+H. P. Galliher and P. M. Morse,
+American Documentation 7, 87 (1956).
+
+2, "Tables of Poisscn-Erlang Queuelng
+Functions" = book, currently in
+progress, to be completed in Sep-
+tember, 1957, and published as a
+‘society monograph by the Operations
+Research Society of America.
+
+Prof. Dean N. Arden
+1946-50 Instructor in Mathematics, Purdue University
+1950-53 Willow Run Research Center and Tabulating Service,
+University of Michigan. Experience in electronip
+analogue equipment and conventional IBM machines.
+1953-55 Digital Computer Laboratory, M.I.T.
+1955-56 Assistant Professor, Electrical Engineering Dept.,
+
+M.I.T., and Research Director, M.I.T. Computation
+Center.
+
+Professional Societies American Mathematical Society
+
+Research Numerical Analysis, Linear Programmi:
+Computer Design. ? % 18.
+
+

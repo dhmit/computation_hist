@@ -1,0 +1,37 @@
+Page 3.
+
+In part, this philosophy stemmed from the belief that al-
+most any problem that could be stated or programmed could be
+solved by a computer without any further outside assistance.
+
+Almost none of the above generalizations are true today.
+As will be shown, there are very compelling reasons for bring-
+ing a computer and the human user into much closer contact.
+There 18 every reason to believe that it will result 1n a more
+efficient system; the latest generation of computers can be
+multiprogrammed and time-shared among many different simulta-
+neous users:; and there is a large class of computer usage that
+1s impossilble in any other mode than real time.
+
+There are still a host of research and development prob-
+lems to be solved involving systems, input-output devices, and
+computer programming before a large machine can be effectively
+used in such a manner, but the goal is within reach. The ob-
+ject of the proposed research program is to bring it about.
+Let us examine more carefully the basic needs that are to be
+served by the proposed system.
+
+Computer Usage Problems
+a. Artificlal Intelligence
+
+The most compelling reason for achleving a closer
+contact and cooperation between human and machine is that there
+1s a growing class of problems that cannot be handled effective-
+1y by either alone. Work in "Artificial Intelligence", i.e.
+abstract problem solving by machine is tending in the direction
+of heuristic programming; that is, instead of seeking to solve
+combinatorial problems exhaustively (an lmpossible task in most
+cases of interest) "common sense" or heuristic techniques for
+avolding the exploration of the majority of possible solutions
+
+to a problem Solving situation are being developed. 1In all but

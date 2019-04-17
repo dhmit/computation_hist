@@ -1,0 +1,42 @@
+¢c) On one or two
+
+M
+Supervisor's Signature
+
+CCF-8.3
+
+as follows:
+Section A:
+Section B:
+
+Section C:
+
+Page 3 of 3
+
+additional sheets write sections A, B, C, D, Eand F
+
+A cne-paragraph abstract of Section B and C.
+
+Complete description of problem packground which
+should give a complete picture to someone well
+acquainted with the relevant field of research.
+Give references to earlier or related work and
+indicate relation to this work. |
+
+Description of numerical and computer techniques
+
+uged, and justification of their adequacy or indication
+of how adequacy was determined., This description
+should include, when pertinent, the number of signifi-
+cant figures accuracy required at various stages of the
+calculation and the ranges and values of the quantities
+involved in sufficient detail so that program complexity
+may be ascertained. In addition, indicate how you
+tegted the programs and whether you have test cases
+aveilable.
+
+Signature:
+Institution:
+Date:
+
+. = ==E==ww°

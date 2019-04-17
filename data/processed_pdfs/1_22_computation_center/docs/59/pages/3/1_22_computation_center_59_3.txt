@@ -1,0 +1,28 @@
+staff set priorities and general policies of operation,
+for that portion of machine time available for general
+uge. With its support and encouragement the use of Whirl-
+wind by atatf and students has grown phenomenally in the
+past three or four years. By now the majority of the nh.n.
+thesls in theoretical physies, in applied mathematiecs, in
+operations research and in theory of structures add many of
+the thesis in radlation theory, in aerodynamic theory and
+in chemical engineering design use machine computation as
+a matter of course. When one adds the research projects
+carried on by faculty members, it is not surprising that
+the demands had outgrown the time available on Whirilwind.
+What was needed was 2 machine planned, installed
+and run primarily for research and education use. With
+the very rapid increase in the number of large computers
+(more than a hundred large ones to be installed in 1957 alone!)
+every sclentist and graduate engineer, in the future,
+would have to know how to use one in his work. MIT would
+have to have a computation center, supplied with a variety
+of computing machines of the most up-to-date type, operated
+by persons who could teach operating techniques and super-
+vised by a research and educational staff interested in
+working ocut better methods of machine utilization and in
+research on the basic lozic of machine programming .
+The staff, in addition to machine specialists,
+should include sclentists and engineers, of a variety of
+
+backgrounds, who could work with various students and

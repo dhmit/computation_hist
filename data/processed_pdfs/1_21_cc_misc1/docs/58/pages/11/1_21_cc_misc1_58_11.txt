@@ -1,0 +1,52 @@
+Supervisory and faculty staff, the other colleges have also con-
+cributed faculty time. Machine time is free, though the user must
+prepare his own coded program. To date faculty and students from
+
+27 colleges and universities have used the facllities and 150 problems
+are being or have been run, representing several dozen different
+Scientific, engineering and academic fields., Details of the program are
+are given in the appended Progress Report.
+
+Here is a combination ideally suited for the prosecution of
+research directed toward reducing the' "mismatch" between the machine
+and the occasional user, All that is needed to start a vigorous
+program are additional funds to augment the staff, which are at present
+Too busy helping individual users to have time to work out the improved
+techniques suggested by their present work. No money is needed for
+machine rental or maintenance; this is already supplied by IBM. DNor
+is money needed for machine operators or cardspunch operators. The
+additional funds can be used entirely in suppérting the additional
+staff needed to intensify the research on machine behavior and to work
+out the improved techniques for machine use arising therefrom, and in
+purchasing or constructing the special input-output eguipment which
+will increase the machinels flexibility.
+
+This special support need not be continued indefinitely. An
+intensive program for three to five years should solve many of the
+outstanding problems and enable the Center to drop back to its present
+level of expenditure, but with a greatly enhanced utility to the
+academic fraternity in New England because of the results of the
+program. The results of the work will be lmmediately available to
+the several hundred other TO4 installations and, with little additional
+modification, to The users of other makes of digital computers. ‘
+Present makes of digital computers have many more properties in common
+than differences, and what is learned on one machine can be carried
+over to the others without much modification.
+
+Development of Utility Pro = In addition to assisting
+individual users in putting Their problem on the machine, the Center
+staff have the lmportant task of making the machine easier to use by
+all users. It always takes time, the experience of many users, to
+revaal all the capabiliities of any piece of machinery; this is
+particularly true of high-speed computers. Because of their speed
+
+and complexity it may take a dozen years or more before even the full
+capabilities of our present machines are known, and by that ¢ime
+machines of still more speed and complexity will be built. A computer
+of the size of the 704 has an order of complexity such that its -—
+designers literally are not aware of all of its capabilities. Con-
+sequently it is important that research into these capabilities be
+carrvied on; such research, revealing easier ways of obtaining results
+and new methods of operation, may at times go farther in increasing
+machine serviceabllity for the general user than can the providing of
+a new machine with increased speed or capacity.

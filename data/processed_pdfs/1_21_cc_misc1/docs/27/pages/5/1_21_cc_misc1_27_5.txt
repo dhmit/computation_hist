@@ -1,0 +1,56 @@
+Extension of NSF G2940 Page 4
+
+ENCLOSURE B
+
+Excerpts from Original Proposal for Funds
+(modified to bring it up to date)
+
+Name and Address of Institution:
+Massachusetts Institute of Technology, Cambridge 39, Mass.
+
+Title of Proposed Research:
+Research on Digital Computer Operation and Utilization
+
+Investigation inte the patterns of operation of electronic
+digital computers and the methods whereby they can be used in
+mathematical and experimental research; including studies of
+numerical analysis and machine programming metheds, investigation
+of the possibilities of the complete mechanization of the sequence
+of recording, processing, analysis and presentation of experi-
+mental data and the working out of such speeifie applications of
+machine techniques to problems in science, engineering, and
+administration as will clarify the basic research and suggest new
+points of view.
+
+Desired Starting Date: September 1, 1956.
+
+Time Period: Three years, with a reassessment during the fall of
+1950 to determine whether further support is advisable.
+
+Proposed Research - Background Information:
+
+We are organizing what should be one of the most fruitful
+centers for research related to the use of electronic computers
+in this country. IBM is contributing one of its 704 machines,
+maintained and equipped with appropriate auxiliary equipment.
+IBM and MIT are providing the building, part of the new Compton
+Laborato®y, and MIT is contributing some of the staff from its
+departments of mathematics, electrical engineering, physics, and
+industrial management. The machine will be available, 35 or more
+hours a week, free of machine time charge, to MIT staff and
+gstudents for non-clasgified and non-routine research. MIT
+research in the Center will be coordinated by the Institute
+Machine Computation Committee.
+
+In addition, the Center will be available, up to 35 hours
+a week, on the same basis, to other colleges in New England.
+Already 23 institutions have indicated thelr interest in partl-
+cipating and have appointed faculty members te be thelr Insti-
+tutional Representative. These representatives will coordinate
+the research done on the machine by students and staff of their
+institution. 1IBM is providing some funds for stipends for
+
+graduate students who wish to learn machine use by helping with
+some of thils research.
+
+SRR

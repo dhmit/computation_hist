@@ -1,0 +1,48 @@
+7.0
+
+Conclusion
+
+Besults of the Besting at the Hilitary Providence Division - 545 Eadison Ave.
+
+ 
+
+¥r, Tom Daley and Er, Bill Feulin-¥Fegner were sppointed by
+¥r, Pcyson Hunter to discuss the sguip=ent requiresments which IBM is to
+provide in the new HIT Computation Center. Verzuh presented a 13-point
+checzlist Zor consideration by Hessrs. Daley and Neulin- , respectively,
+These gentlement indicated that they would srrange to visit EIT the last
+week in November to prepare smon-the-spot list of equipm=ent needed for the
+Computation Center. It must be e=phasized that this list is the list of
+equipment which IBM will be providing in the 704 room, reception room,
+customer engineering room, EAM area, dark room, IBE-N,.E. assistantship and
+associateship area, IBM office ares, etc. :
+
+COnference‘gg,Transeeiver Requirements 33.590 ¥Madison Avenue
+
+Verzuh inspected the two {ransceivers which were instailed at
+590 Hadison Avenue for the HBC transceiver nation-wide hookup. Based on
+this inspection, it was apparent that we should request that a 4-wire
+Bell System circuit be installed in the MIT Computation Center to provide
+the necessary telephone connection between Cambridge, Poughkespsie, and
+Hew York, respectively. A detailed specification of the transceiver required
+has been given both to Dr, Truman HBunter, Cambridge, and the Poughkeepsie
+and Bell Tele hone representatives, respectively.
+
+v
+
+The IBM engineering representatives from Poughkeepsie indicated
+that they neecded several weeks to study amnd design the necessary double
+flsngers, etc., circuits which are needed on the six 704 units. As soon as
+they have completed this study, they will arrange to contact Syska & Hennessy
+in New York, have the 8 & B Group visit Poughkeepsie to definitely insure
+that there is no misunderstanding regarding the commitments of either party
+as far as installation of the equipment is concerned, In this connection,
+the IBM representatives indicated that they estimate a 10 db reduction in the
+noise level in the 704 room if the blowers are removed. e
+
+Inspection of the detailed flocor plans of the 704 revealed that
+there were a number of emors in the dimensions of the holes underneath the
+key units, Specifically, in certain areas the dimensions were so indicated
+that if the steel plates were cut, certaim units would fall into the steel
+floor. As a result of this discovery, Collins notified Cambridge to immediately
+stop cutting plates to avoid any errors im hole size and dimension, respectively,.

@@ -1,0 +1,70 @@
+l/‘(}..l 1 _.{:\
+
+ 
+
+A asrl ) e L. 2 3 nateteat o = -
+L3 f,',y“,,‘, capPlLe ,r_.O-\‘,-;J,C SuvaLuEnglY b l L ;.,'.i.'_u ROLJ.'S;}-OQ. r.ll:’:.hl; b
+
+O
+
+IGC  i2 A(U)A*(V) + At (U)A(V), go o m
+
+in which the decision is based on the disjunct of the Boolean
+variables A(U) and A{V).,
+In addition to the conditional statements desecribed ahove
+
+-~
+
+the compiler will also accept unconditicnal statements of the fumm
+
+The compiler will translate each logic statenent infto an
+open subroutine which evaluates the truth of the statement, S, and’
+erforms the required transfer of control. The equation number, n.
+
+1uen*;F’es the initial register of the subroutine. Thus the pro-
+ner can ehter the compiled subroutine by the machine instruetion,
+
+Al
+
+(= ~l
+
+TRA n
+
+Fuxther flexi y in construeting logical statements will
+be provided by allowing the programer to define his own a
+
+statements as follows:
+
+COmice
+
+A programmer may intermix pseuiominstr4u'iopq and machine
+instructions at will, In parulcular this will be allowed within a
+define statement so that a function can be described entirsely in terms
+of machine ianstruetions, This added flexibility will bo put o use by
+
+amaents DY
+
+o
+0
+e
+&
+o
+n
+cl
+L‘?
+
+alloning the programmer to consbtruet his own a
+
+- sl 23 ; = “ ] o - X g ele g vie oy v v e ol 2= Py e S a3 Al
+NIrOTV1I0D "':’; L8 COon p i " or ' N 'u.h na 8 "“‘ 1iNe Scavaeln=snt ) Witn a4 DPIrogram wallho
+~ . ole }‘ s .;...., N - oY N - e~ ~NT . 4™ oy s, Ty T~ .2 P T P 0o -'-.;- -~ N Te
+evaLlLuarves gne tiuvll 0L .’... 18 a &. OQIriz€¢ sSgvasenenyv L0 SAsilpDle ., LIEC PXO»
+- -~
+R X O3 = s ot
+gramns)y mLgnc wrlive
+
+- . -
+~ Y 2 —— -
+ides if the wvariasble, U, i
+-~ ."V Tl - > (‘. o) me T ~
+! P Lilhe Lallilioll A

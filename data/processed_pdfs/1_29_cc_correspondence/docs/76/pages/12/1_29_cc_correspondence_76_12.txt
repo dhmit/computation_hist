@@ -1,0 +1,44 @@
+b. Binary Information. READ TAPE and WRITE TAPE state-
+ments must address tapes outside those used by the
+Monitor system. However, when the programmer knows
+the complete disposition of the various tapes used
+during Monitor operation, those tapes not being used
+may also be addressed. For example, if a binary tape
+is wanted for intermediate storage during execution
+of the program, a Monitor tape may be available for
+
+that particular object program run.
+pifferences Concerning End of Program.
+
+End of Execution. The statements that stop the machine
+(STOP and PAUSE) should not be used. Instead, the last
+executable source program statement must be one of the
+
+following:
+
+a. CALL EXIT. This statement causes immediate
+termination of the job. The Monitor is restored
+to core memory and control goes on to process the
+next job.
+
+b. CALL DUMP (Al, By R et G Fn)
+
+1 1 n n
+where A and B are variable data names indicating
+
+limits of core storage to be dumped. Either A
+
+or Bi may represent upper or lower limits. F,i
+is a fixed point number indicating the format
+desired, as
+E=i1 10 dump in octal
+=/ dump in floating point
+= a interpret decrement as decimal
+integer
+= '3 octal with mnemonics
+
+The core dump is effected as specified, the Monitor
+
+is restored to core memory, and control is transferred
+
+= Ry

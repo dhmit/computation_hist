@@ -1,0 +1,11 @@
+APPENDIX IV
+
+MIHIL1O Hilbert Matrix of order 10, double~precision in sense of RS005.
+
+These cards contain the segment of order ten of the Hilbert matrix, in the
+form of RS00S5 double~precision numbers, correctly rounded to 18 octal digits.
+They are designed to save the next guy the exereise in decimal-~to=octal con=-
+version this writer undertook. Note that if the least~significant parts of
+the matrix are sorted out for single-precision'work, the remaining numters
+
+will be incorrectly rounded in s number of cases,

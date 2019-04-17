@@ -1,0 +1,55 @@
+P
+
+PHASE 1, Observation and Fact Finding., There is no single assessaent
+available of t is going on at presemnt at the Institute with respect
+to computation, There are many signs that the usage of computation is
+growing both in magnitude, direction, and additional equipment, but there
+is no clear indication of "Where it is heading” or of its effectiveaess
+in research and education, or how its effectiveness could be improved,
+The first phase of this study will therefore attempt to answer the
+following guestions by observation and discussion with the major users
+
+of computation at MIT,
+
+1, What classes of problems are preseatly being solved by
+some form of mechanized computation at the Institute?
+
+2., How do these problems differ with respect to their com-
+putation requirements, specialized equipment, and computer capacity?
+
+3., What type of equipment is meeting the need at preseant,
+i.e,, 704, TX-0, 650, analogue, etc,?
+
+4., Vhat are the costs in terms of programming time and com-
+puter time to solve this class of probiem?
+
+5, How effective is the computer as a tool im this area?
+Can it be made more 80 by a change in programming systems, techniques,
+equipment, administration, or in the role of user and machine?
+
+6. In what direction (computation-wise) is the problem areas
+headeod?
+
+This phase will not be confined to MIT, but should imclude
+a similar study at MIT's defense laboratories, and nearby institutions
+such as A,D, Little, Rarvard, Aveco, ete,
+
+Phase 2, Evaluation, In terms of the fact finding, a study should
+
+next be undertaken in depth to determine the "'state of the art” from
+an eguipment and systems viewpoint, The study should attempt to answer
+the following sets of gquestions:
+
+1, What types of systems are available, and can they meet
+these needs?
+
+2. Yhat is the "state of the art” with respect to such
+possibilities as remote conscles, time-sharing, multiprogramming, large
+associative memories, handwritten input in user language, and programming
+systems .,
+
+3., Are the needs of the users consistent with what is
+available, or what can be developed, initerms of user-oriented programming
+systems, input-output devices, and machines?
+
+4, VWhat areas are promising for further research?

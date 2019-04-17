@@ -1,0 +1,28 @@
+has ploneered a number of major new developments in machine
+design and use. It was the first general purpose computer
+to have magnetic core memory in routine use and its Pro=-
+gramming research staff was the first to develop techniques
+for making the machine do its bookkeeping and program
+checking, by making avallable, for the general user a set
+of utility assembly and post-mortern programs.
+
+The Office of Naval Research supported this
+development of ways to make Whirlwind easier to use and
+of programs for the use of the computer in a wide variety
+of appliications. Research Assistants, from nearly all
+the departments at the Institute, worked with the fulle
+time staff to make this broad advance possible. The
+Guarterly Progress Reports, published by the Whirliwind
+Projeet from to the end of this year, give
+the details of the work.
+
+Increase in Research and Educational Needs - To
+supervise the general research and educational use of
+Whirilwind I, the Institute set up in 1952 a working Committee
+on Numerical Analysis and Machine Computation, composed
+of faculty members from interested departments. This
+committee has reviewed the instruetional courses, offered
+at MIT, in this general field, and has recommended others
+in order to widen the coverage. It undertakes to supervise
+graduate thesis in this general fleld, 1f requested Ry a
+department or a2 student and it has helped the Whirlwind

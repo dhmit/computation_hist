@@ -1,0 +1,50 @@
+We TN
+
+ 
+
+RELOCATION
+
+H*|l AS A
+SYMBOL
+
+expression is illegal. Hence the expressions -Rl, -KI1,
+2%R1, R1*2/2, R1*0*Rl, R1+R2, R1/R1l, R1+Kl are all illegal.
+An expression which is illegal by virtue of these rules
+
+is called a ''relocation error''.
+
+Every program or subprogram produced by the FORTRAN
+Monitor System begins in cell zero. Since a job to be
+executed may contain several subprograms, it is obvious
+that they may not all be loaded into cells starting with
+cell zero. In fact, no program is ever loaded beginning
+at cell zero, but each program is relocated. The first
+program or subprogram is loaded into a starting cell.
+Successive subprograms are then loaded into memory, each
+beginning with the cell after the last cell of lower memory
+used by the preceding subprogram. The main program is
+loaded in the same way. Consider a particular subprogram
+which has been loaded. The address into which the first
+cell of the subprogram is loaded is called its lﬂiﬂ
+address. Then the address actually occupied by a cell
+
+of the subprogram will be the address assigned at assembly
+time plus the load address. To keep the subprogram self-
+consistent, the load address must be added to the addresses
+and decrements of many (but not all) of the instructions.
+This process of conditionally adding the load address is
+performed by the loading program just prior to execution
+and is called relocation. In relocating instructions,
+
+the loading program is guided by relocation indicator.Eizg
+which were inserted when the subprogram was compiled or
+assembled. In the case of programs assembled by FAP, the
+load address will be added to just those addresses and
+
+decrements which correspond to relocatable expressions.
+
+The asterisk may be used as a symbol. When used in this
+
+way, it is regarded as a relocatable symbol whose value is
+
+the current value of the location counter. Thus the
