@@ -102,7 +102,7 @@ export function start_demo(demo_params) {
     $('#run_button').on('click', () => {
         computer.halt = false;
         computer.run();
-        render.update(instructions, num_code_lines, highlighted_registers);
+        renderer.update(instructions, num_code_lines, highlighted_registers);
 
     });
     $('#step_button').on('click', () => {

@@ -1116,8 +1116,6 @@ export class IBM_704 {
                 continue;
             }
             let line = code_lines[line_no];
-            console.log(code_lines);
-            console.log(line_no);
             console.log(line);
             if (!line.replace(/\s/g, '').length) {
               continue;
@@ -1129,7 +1127,7 @@ export class IBM_704 {
             }
             let parsed_command = regex_line_parser.exec(line);
             if (parsed_command === null) { //if parsed command is null, throw error, not a valid command.
-                alert("Error: Cannot parse instruction on line" + (parseInt(line_no) + 1) + ".");
+                alert("Error: Cannot parse instruction on line " + (parseInt(line_no) + 1) + ".");
                 throw INVALID_INSTRUCTION_EXCEPTION;
             }
             let operation = parsed_command[1];
