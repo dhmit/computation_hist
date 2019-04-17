@@ -9,7 +9,6 @@ from django.core.exceptions import ObjectDoesNotExist
 from utilities.common import get_file_path
 from .models import Person, Document, Box, Folder, Organization, Page
 
-
 def index(request):
     # NOTE(ra): this hardcoded pattern isn't great, but we're since we're using
     # jinja2 templates as a data source for the stories, it gets us to a usable
@@ -116,6 +115,7 @@ def folder(request, folder_id):
         'document_objs': document_objs
     }
     response = render(request, 'archives/folder.jinja2', obj_dict)
+
     return response
 
 
