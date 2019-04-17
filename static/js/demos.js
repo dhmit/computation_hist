@@ -1,7 +1,7 @@
 'use strict';
 
 import { Assembly_Line, IBM_704 } from './simulator.js';
-import { Renderer } from './render.js';
+import { DemoRenderer } from './render.js';
 
 export const assembly_addition_demo_params = {
     computer_size: 7,
@@ -74,27 +74,6 @@ export const looping_with_tix_demo_params = {
     ],
 };
 
-function update(renderer, instructions, num_code_lines, highlighted_registers = []) {
-    const code_html = $(".symbolic_code");
-    const code_line = Math.min(renderer.computer.ilc.valueOf(), num_code_lines-1);
-    if (code_html.length !== 0) {
-        for (let line = 0; line < num_code_lines; line++) {
-            code_html[line].style.backgroundColor = "white";
-        }
-        if (renderer.highlighting) {
-            code_html[code_line].style.backgroundColor = "deepskyblue";
-        }
-    }
-
-    renderer.update_computer_display(highlighted_registers);
-
-    // update line descriptions
-    let line_desc = "";
-    if (typeof instructions[code_line] !== "undefined") {
-        line_desc = instructions[code_line].description;
-    }
-    $('#line_desc')[0].innerHTML = line_desc;
-}
 
 function populate_code(instructions) {
     let codeHTML = "";
@@ -112,30 +91,30 @@ export function start_demo(demo_params) {
     const highlighted_registers = demo_params.highlighted_registers;
 
     const computer = new IBM_704(computer_size);
-    const renderer = new Renderer(computer);
+    const renderer = new DemoRenderer(computer);
 
     populate_code(instructions);
 
     $('#reset_button').on('click', () => {
         renderer.reset(instructions, initial_memory_values);
-        update(renderer, instructions, num_code_lines, highlighted_registers);
+        renderer.update(instructions, num_code_lines, highlighted_registers);
     });
     $('#run_button').on('click', () => {
         computer.halt = false;
         computer.run();
-        update(renderer, instructions, num_code_lines, highlighted_registers);
+        render.update(instructions, num_code_lines, highlighted_registers);
 
     });
     $('#step_button').on('click', () => {
         computer.halt = false;
         computer.step();
-        update(renderer, instructions, num_code_lines, highlighted_registers);
+        renderer.update(instructions, num_code_lines, highlighted_registers);
     });
     $('#highlight_button').on('click', () => {
         renderer.highlighting = !renderer.highlighting;
-        update(renderer, instructions, num_code_lines, highlighted_registers);
+        renderer.update(instructions, num_code_lines, highlighted_registers);
     });
     renderer.create_memory_display();
     renderer.reset(instructions, initial_memory_values);
-    update(renderer, instructions, num_code_lines);
+    renderer.update(instructions, num_code_lines);
 }

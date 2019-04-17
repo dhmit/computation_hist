@@ -102,3 +102,39 @@ export class Renderer {
         }
     }
 }
+
+
+export class DemoRenderer extends Renderer {
+    update(instructions, num_code_lines, highlighted_registers = []) {
+        const code_html = $(".symbolic_code");
+        const code_line = Math.min(this.computer.ilc.valueOf(), num_code_lines-1);
+        if (code_html.length !== 0) {
+            for (let line = 0; line < num_code_lines; line++) {
+                code_html[line].style.backgroundColor = "white";
+            }
+            if (this.highlighting) {
+                code_html[code_line].style.backgroundColor = "deepskyblue";
+            }
+        }
+
+        this.update_computer_display(highlighted_registers);
+
+        // update line descriptions
+        let line_desc = "";
+        if (typeof instructions[code_line] !== "undefined") {
+            line_desc = instructions[code_line].description;
+        }
+        $('#line_desc')[0].innerHTML = line_desc;
+    }
+}
+
+
+export class GeneralAssemblerRenderer extends Renderer {
+    update() {
+        const computer = this.computer;
+        let line_desc = "Next Instruction to be Executed: ";
+        line_desc += computer.general_memory[computer.ilc.valueOf()].instruction.toString();
+        $('#line_desc')[0].innerHTML = line_desc;
+        this.update_computer_display();
+    }
+}

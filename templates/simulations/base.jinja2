@@ -60,9 +60,9 @@
     <script></script>
 
     {% if simulation_name == 'general_assembler' %}
-        <script src="{{ static('js/general_assembler.js')}}"></script>
-        <script>
-            import { start } from './general_assembler.js';
+        <script src="{{ static('js/general_assembler.js')}}" type="module"></script>
+        <script type="module">
+            import { start } from '{{ static('js/general_assembler.js') }}';
             $(document).ready(start);
         </script>
     {% else %}

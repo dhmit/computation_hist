@@ -31,8 +31,8 @@ const no_to_operation_a = {
     0b010: "TIX",
     0b000: "PZE", // hack for pseudoinstruction PZE
 };
-const operation_b_to_no = {};
-const operation_a_to_no = {};
+export const operation_b_to_no = {};
+export const operation_a_to_no = {};
 for (let number in no_to_operation_b) {
     if (no_to_operation_b.hasOwnProperty(number)) {
         operation_b_to_no[(no_to_operation_b[number])] = number;
