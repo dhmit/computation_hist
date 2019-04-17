@@ -74,7 +74,7 @@ export const looping_with_tix_demo_params = {
     ],
 };
 
-function update(renderer, instructions, num_code_lines, highlighted_registers) {
+function update(renderer, instructions, num_code_lines, highlighted_registers = []) {
     const code_html = $(".symbolic_code");
     const code_line = Math.min(renderer.computer.ilc.valueOf(), num_code_lines-1);
     if (code_html.length !== 0) {
@@ -98,7 +98,7 @@ function update(renderer, instructions, num_code_lines, highlighted_registers) {
 
 function populate_code(instructions) {
     let codeHTML = "";
-    for (const i in instructions) {
+    for (let i = 0; i < instructions.length; i++) {
         codeHTML += `<p class="symbolic_code" id="symbolic_code${i}">${instructions[i].toString()}</p>\r\n`;
     }
     $('#code')[0].innerHTML = codeHTML;
@@ -117,19 +117,19 @@ export function start_demo(demo_params) {
     populate_code(instructions);
 
     $('#reset_button').on('click', () => {
-        renderer.reset(computer, instructions, initial_memory_values);
-        update(computer, instructions, num_code_lines, highlighted_registers);
+        renderer.reset(instructions, initial_memory_values);
+        update(renderer, instructions, num_code_lines, highlighted_registers);
     });
     $('#run_button').on('click', () => {
         computer.halt = false;
         computer.run();
-        update(computer, instructions, num_code_lines, highlighted_registers);
+        update(renderer, instructions, num_code_lines, highlighted_registers);
 
     });
     $('#step_button').on('click', () => {
         computer.halt = false;
         computer.step();
-        update(computer, instructions, num_code_lines, highlighted_registers);
+        update(renderer, instructions, num_code_lines, highlighted_registers);
     });
     $('#highlight_button').on('click', () => {
         renderer.highlighting = !renderer.highlighting;

@@ -90,13 +90,13 @@ export class Renderer {
     reset(instructions, memory_value_pairs){
         this.computer.clear();
         const instruction_text = [];
-        for (const i in instructions) {
+        for (let i = 0; i < instructions.length; i++) {
             instruction_text.push(instructions[i].instruction);
         }
         this.computer.assemble(0, instruction_text);
 
         if (memory_value_pairs !== undefined) {
-                for (const [memory_index, value] of memory_value_pairs) {
+            for (const [memory_index, value] of memory_value_pairs) {
                 this.computer.general_memory[memory_index].fixed_point = value;
             }
         }
