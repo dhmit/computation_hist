@@ -264,16 +264,22 @@ def process_advanced_search(search_params):
     if title:
         docs_qs = docs_qs.filter(Q(title__icontains=title))
 
-    text = search_params.get('text')
+    text = search_params.get('text') # full text search
     if text:
         words_q = Q()
-        match = re.match(r'^[\'"]?([a-zA-Z\d ]+)[\'"]?$', text)
-        if match:
-            for phrase in match.groups():
-                words_q |= Q(text__icontains=phrase)
-        words = text.split(" ")
+
+        # handle exact search terms wrapped in " or '
+        exact_searches = re.findall(r'[\'"]([a-zA-Z\d ]+)[\'"]', text)
+        if exact_searches:
+            for phrase in exact_searches:
+                words_q &= Q(text__icontains=phrase)
+                text = re.sub(phrase, '', text) # strip exact search search terms out
+
+        # handle all leftover text
+        text = re.sub(r'[\'"]', '', text)
+        words = text.split()
         for word in words:
-            words_q |= Q(text__icontains=word)
+            words_q &= Q(text__icontains=word)
         docs_qs = docs_qs.filter(words_q)
 
     author = search_params.get('author')
