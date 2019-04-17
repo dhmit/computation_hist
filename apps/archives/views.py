@@ -269,7 +269,7 @@ def process_advanced_search(search_params):
         words_q = Q()
 
         # handle exact search terms wrapped in " or '
-        exact_searches = re.findall(r'[\'"]([a-zA-Z\d ]+)[\'"]', text)
+        exact_searches = re.findall(r'"(.+)"', text)
         if exact_searches:
             for phrase in exact_searches:
                 words_q &= Q(text__icontains=phrase)
