@@ -11,6 +11,7 @@ numpy
 oauth2client
 pandas
 pdf2image
+psycopg2==2.8.2
 pylint
 PyPDF2
 requests
