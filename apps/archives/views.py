@@ -269,9 +269,10 @@ def process_advanced_search(search_params):
         words_q = Q()
 
         # handle exact search terms wrapped in " or '
-        exact_searches = re.findall(r'"(.+)"', text)
+        exact_searches = re.findall(r'"([^"]+)"', text)
         if exact_searches:
             for phrase in exact_searches:
+                print(phrase)
                 words_q &= Q(text__icontains=phrase)
                 text = re.sub(phrase, '', text) # strip exact search search terms out
 
