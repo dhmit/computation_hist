@@ -9,7 +9,6 @@ from django.core.exceptions import ObjectDoesNotExist
 from utilities.common import get_file_path
 from .models import Person, Document, Box, Folder, Organization, Page
 
-print(foo)
 def index(request):
     # NOTE(ra): this hardcoded pattern isn't great, but we're since we're using
     # jinja2 templates as a data source for the stories, it gets us to a usable
@@ -26,6 +25,7 @@ def index(request):
     ]
 
     context = {'stories': stories}
+    print(foo) #FIXME this is a deliberate error to test pylint
     return render(request, 'index.jinja2', context)
 
 
