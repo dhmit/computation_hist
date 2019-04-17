@@ -36,12 +36,16 @@ const operation_a_to_no = {};
 const no_to_operation_a_str = {};
 const no_to_operation_b_str = {};
 for (let number in no_to_operation_b) {
-    operation_b_to_no[(no_to_operation_b[number]).name] = number;
-    no_to_operation_b_str[number] = (no_to_operation_b[number]).name;
+    if (no_to_operation_b.hasOwnProperty(number)) {
+        operation_b_to_no[(no_to_operation_b[number]).name] = number;
+        no_to_operation_b_str[number] = (no_to_operation_b[number]).name;
+    }
 }
 for (let number in no_to_operation_a) {
-    operation_a_to_no[(no_to_operation_a[number]).name] = number;
-    no_to_operation_a_str[number] = (no_to_operation_a[number]).name;
+    if (no_to_operation_a.hasOwnProperty(number)) {
+        operation_a_to_no[(no_to_operation_a[number]).name] = number;
+        no_to_operation_a_str[number] = (no_to_operation_a[number]).name;
+    }
 }
 operation_a_to_no["PZE"] = 0b000; // hack for pseudoinstruction PZE
 const non_indexable = {"TIX": 0, "TNX": 0, "TXH": 0, "TXL": 0, "TXI": 0, "TSX": 0, "LXA": 0, "LXD": 0, "SXD": 0, "PXD": 0, "PAX": 0, "PDX":0};
@@ -81,8 +85,8 @@ function replaceAt(original_string, index, replacement) {
  * @returns {string}    Binary representation with specified number of digits.
  */
 function convert_to_binary(number, digits) {
-    result = number.toString(2);
-    length = result.length;
+    let result = number.toString(2);
+    const length = result.length;
     for (let i = 0; i < digits - length; i++) {
         result = "0" + result;
     }
@@ -99,7 +103,7 @@ export class Word {
      * @param {string/number/Word}   contents    The contents of the word.
      * @param {number}               length      The length of the word in bits.
      */
-    constructor(contents = 0, length) {
+    constructor(contents, length) {
         this.length = length;
         this.update_contents(contents);
     }
@@ -499,7 +503,7 @@ class General_Word extends Word {
      * @param {number} tag          Tag of instruction (optional).
      */
     store_instruction_b(operation, address, tag = 0) {
-        this.instruction_b = new Instruction_B(eval(operation), address, tag);
+        this.instruction_b = new Instruction_B(window[operation], address, tag);
     }
 
     /**
@@ -530,7 +534,7 @@ class General_Word extends Word {
      * @param {number} decrement    Decrement of instruction.
      */
     store_instruction_a(operation, address, tag, decrement) {
-        this.instruction_a = new Instruction_A(eval(operation), address, tag, decrement);
+        this.instruction_a = new Instruction_A(window[operation], address, tag, decrement);
     }
 
     /**
@@ -660,7 +664,7 @@ class General_Word extends Word {
         binary_rep += convert_to_binary(characteristic, 8);
         let magnitude = number / Math.pow(2, exponent);
         let magnitude_binary = (magnitude.toString(2)).substring(2,29);
-        length = magnitude_binary.length;
+        const length = magnitude_binary.length;
         for (let i = 0; i < 27 - length; i++) {
             magnitude_binary = magnitude_binary + "0";
         }
@@ -783,7 +787,7 @@ class Accumulator extends Word {
         binary_rep += convert_to_binary(characteristic, 10);
         let magnitude = number / Math.pow(2, exponent);
         let magnitude_binary = (magnitude.toString(2)).substring(2,29);
-        length = magnitude_binary.length;
+        const length = magnitude_binary.length;
         for (let i = 0; i < 27 - length; i++) {
             magnitude_binary = magnitude_binary + "0";
         }
@@ -882,7 +886,7 @@ class Instruction_Register extends Word {
         }
         let result = instruction[0];
         result += instruction.substring(3, 12);
-        length = result.length;
+        const length = result.length;
         for (let i = 0; i < 18 - length; i++) {
             result += "1";
         }
@@ -929,7 +933,7 @@ class Instruction_Register extends Word {
             let opcode = this.contents[0] + this.contents[8] + this.contents[9];
             let operation = no_to_operation_a_str[parseInt(opcode, 2)];
             if (typeof operation === "undefined") {
-                return "Unrecognized operation"
+                return "Unrecognized operation";
             } else {
                 return operation;
             }
@@ -1112,14 +1116,17 @@ export class IBM_704 {
         this.clear();
         let register = origin;
         for (let line_no in code_lines) {
+            if (!code_lines.hasOwnProperty(line_no)) {
+                continue;
+            }
             let line = code_lines[line_no];
             console.log(line);
             if (!line.replace(/\s/g, '').length) {
               continue;
             }
             if (isNaN(register) || register >= this.size || register < 0) {
-                alert("Error: Tried to program to invalid register " + register + "on line "
-                    + (parseInt(line_no) + 1) + "!  Register must be integer between 0 and " + (this.size - 1) + ".");
+                alert("Error: Tried to program to invalid register " + register + "on line " +
+                    (parseInt(line_no) + 1) + "!  Register must be integer between 0 and " + (this.size - 1) + ".");
                 throw INVALID_REGISTER_EXCEPTION;
             }
             let parsed_command = regex_line_parser.exec(line);
@@ -1206,9 +1213,9 @@ export class IBM_704 {
             throw NAN_EXCEPTION;
         }
         if (operation in operation_b_to_no) {
-            this.general_memory[register].instruction_b = new Instruction_B(eval(operation), address, tag);
+            this.general_memory[register].instruction_b = new Instruction_B(Function("return " + operation), address, tag);
         } else if (operation in operation_a_to_no) {
-            this.general_memory[register].instruction_a = new Instruction_A(eval(operation), address, tag, decrement);
+            this.general_memory[register].instruction_a = new Instruction_A(Function("return " + operation), address, tag, decrement);
         } else {
             throw UNDEFINED_OPERATION_EXCEPTION;
         }
@@ -1225,7 +1232,7 @@ export class IBM_704 {
         if (tag === 1) {
             index_register = this.index_a;
         } else if (tag === 2) {
-            index_register = this.index_b
+            index_register = this.index_b;
         } else if (tag === 4) {
             index_register = this.index_c;
         }
@@ -1270,11 +1277,9 @@ function HTR(computer, address) {
  * Replaces the value of the accumulator with the value of the storage register (which should be
  * the value of the register with the indicated address).
  *
- * @param {number}  address     The address of the value to put into the accumulator (not
- * actually used).
  * @param {IBM_704} computer    Machine to execute instruction on.
  */
-function CLA(computer, address) {
+function CLA(computer) {
     computer.accumulator.clear();
     computer.accumulator.store_general_word(computer.storage_register);
 }
@@ -1424,10 +1429,12 @@ function STQ(computer, address) {
 function MPY(computer) {
     const result = computer.storage_register.fixed_point * computer.mq_register.fixed_point;
     if (result > 0) {
-        computer.accumulator.fixed_point = Math.floor(result / 2 ** 35); // JS's bitshift doesn't go more than 32 places
+        // JS's bitshift doesn't go more than 32 places
+        computer.accumulator.fixed_point = Math.floor(result / 2 ** 35); // jshint ignore:line
     } else {
-        computer.accumulator.fixed_point = Math.ceil(result / 2 ** 35); // due to how the IBM 704 represents
-        // negative numbers; with a sign bit rather than two's complement
+        // due to how the IBM 704 represents negative numbers; with a sign bit rather than two's complement
+        computer.accumulator.fixed_point = Math.ceil(result / 2 ** 35); // jshint ignore:line
+        // ignore because apparently exponentiation operator is not supported by jshint
     }
     computer.mq_register.fixed_point = result;
 }
@@ -1470,7 +1477,8 @@ function FMP(computer) {
  * @param {IBM_704} computer    Machine to execute instruction on.
  */
 function fixed_point_divide(computer) {
-    let dividend = computer.accumulator.fixed_point * (2 ** 35);
+    let dividend = computer.accumulator.fixed_point * (2 ** 35); // jshint ignore:line
+        // ignore because apparently exponentiation operator is not supported by jshint
     if (dividend > 0 || Object.is(dividend, +0)) { // the sign of the MQ is ignored
         dividend += Math.abs(computer.mq_register.fixed_point);
     } else {
@@ -1479,9 +1487,8 @@ function fixed_point_divide(computer) {
     const divisor = computer.storage_register.fixed_point;
 
     const remainder = dividend % divisor;
-    const quotient = (dividend - remainder)/divisor;
 
-    computer.mq_register.fixed_point = quotient;
+    computer.mq_register.fixed_point = (dividend - remainder)/divisor;
     computer.accumulator.fixed_point = remainder;
 }
 
@@ -1654,13 +1661,6 @@ function TIX(computer, address, tag, decrement) {
         computer.ilc.update_contents(address);
     }
 }
-
-export const DISPLAY_TYPE = {
-  INSTRUCTION: "Instruction",
-  FIXED_POINT: "Fixed point",
-  FLOATING_POINT: "Floating point",
-  BINARY: undefined,
-};
 
 /**
  * Class that represents a line of assembly code, but with added metadata for the GUI.
