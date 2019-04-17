@@ -1,0 +1,83 @@
+PRINT
+
+<
+rci sy
+IS
+
+PZI
+
+TRA
+BCD
+
+.
+
+END
+
+M10038-29-1 1
+
+M1008-29 =28
+
+100 STARY
+20 A
+30 B
+40 C
+N, 1 BEGIN
+A+N, 1
+
+PRINT, 4 UABDCILS o
+A, ,B=] print A Block-»>
+BI.OCK
+
+Y8H A BLOCK/(7115.8)p —>
+
+BEG IN e
+
+FAP
+REM
+TIRA
+BSS
+BSS
+
+oS
+LXA
+CLA
+
+.
+meoose
+J.o.).{‘\
+
+PZE
+
+PZE
+
+TRA
+
+IXND
+
+15
+
+No Cntry statement
+slgnifies a main program
+BEGIN
+
+20
+
+%0
+
+40
+
+N,1
+
+A+N, 1
+
+ﬂi’I{INT, !
+B-1
+
+X -2
+
+X+2
+0,0,B-A
+
+Remove these Format
+statements and include
+¥n IO Subprogran

@@ -1,0 +1,55 @@
+PART 11I.
+
+I
+
+INPUT
+
+ 
+
+OPERATING INSTRUCTIONS
+
+1. Job Input Decks
+
+The IBM 709 FORTRAN Monitor will process the following types
+
+of job-input:
+
+Multiple Compilation/Assembling. Input will consist of
+a number of FORTRAN or FAP source decks. These are to
+be compiled or assembled only. The input deck for each
+
+such job will contain, in the order listed:
+
+I.D. Card
+Source deckl, preceded by control cards governing
+output, if any
+
+Source deckz, preceded etc....
+
+Source deckn
+
+’ a"Ne
+
+END-OF-FILE card if input from on-line cards
+
+Compilation/Assembling and Execution. Input will consist
+
+of one main program and all its subprograms to be compiled
+and executed together with the data. These programs may
+
+be a mixture of FORTRAN or FAP source subprograms and
+machine-language object subprograms. The object subprograms
+may be relocatable columnar binary output from either a
+previous FORTRAN compilation (with the Transfer card, if
+any, removed), or from a FAP assembly, or from other hand-
+coded subroutines for FORTRAN. The input deck for a job
+
+of this type will contain in the order listed:
+
+I.D. Card
+XEQ Card
+Object program or Sourge program, , preceded by any
+
+relevant output option control cards
+
+-16-

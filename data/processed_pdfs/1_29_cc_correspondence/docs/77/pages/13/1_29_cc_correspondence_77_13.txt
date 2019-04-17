@@ -1,0 +1,67 @@
+tan :'. ":' a
+
+il 3.
+AT T
+
+LITERALS
+
+used, e.g.:
+
+LOCATION OP VARIABLE FIELD
+JCATION OF JokobLu FIELD
+PXA 0,4
+
+which may also
+
+be written PXA , 4
+
+The second example above typifies the rule that when a
+
+subfield is to be zero, the character "Q" may be omitted,
+
+leaving only the separating comma(s). Also, if one or
+
+more subfields at the right-hand end of the variable field
+
+are to be zero, these subfields may be omitted entirely,
+
+together with their separating commas. Thus
+
+LOCATION OP VARIABLE FIELD
+
+TXH 0501
+
+may be written TXH Sk
+
+and I10CD ALPHA,O0,1
+
+may be written I0CD ALPHA,,1
+
+and TXH ALPHA,0,0
+
+may be written TXH ALPHA
+
+and PXA 0,0
+
+may be written PXA
+
+Any valid expression may appear in any subfield of the
+
+variable field, and will be evaluated according to the
+
+rules given for the evaluation of expressions (with
+
+exceptions in the case of certain pseudo-operations, see
+
+below) except that after an expression in the tag subfield
+
+has been evaluated, only the rightmost three bits will be
+used. (I.e., the tag is reduced modulo 8,)
+
+Often a programmer wishes to refer to a cell containing
+
+a constant. For example, if he wishes to add the number
+one to the contents of the accumulator he must have some-
+where in memory a cell containing the number one. Pseudo-
+
+=

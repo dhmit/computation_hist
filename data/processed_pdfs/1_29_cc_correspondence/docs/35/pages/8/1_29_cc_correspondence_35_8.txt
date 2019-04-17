@@ -1,0 +1,49 @@
+should be used (i.e. no arguments).
+
+8. In all systems references to tape and channel numbers
+should be symbolic and indirect whenever possible. Thus there
+will be a minimum of inconvenience whenever tape assignment .
+conventions must be changed.
+
+9. Each run in either the FMS or SOS system should have
+an initial (I.D:) card with a format that will be specified by
+
+the Center.
+
+The physical channels and tapes used by the FMS system
+along with the logical tape numbefs to be used in Fortran
+programs are:
+
+rhysical-Loglical-Function
+
+Al - 1 - System
+
+A2 - L - Input
+
+L5 = 2 - OQutput for printing
+
+Al - 8 - Fortran Intermediate
+
+Bl - 5 - Binary Input Tape and Primary
+Chain Tape
+
+B2 - 6 - Fortran Intermediate and Secondary
+Chain Tape
+
+B?% = R - Fortran Intermediate and Secondary
+Chain Tape
+
+B BT - Qutput for punching
+
+The programmer should not use in his program logical
+tapes 1, 2, 3, 4 for other than their designated purposes and
+should not rewind them. Tape 5, 6, 7 can be used without
+restrictions as program scratch tapes if the CHAIN or the CALL
+
+PDUMP features are not used.
+
+Tape 8 can always be used as a program scratch tape.
+
+ 
+
+i , sss—

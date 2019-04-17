@@ -1,0 +1,69 @@
+Contract NSori-f0, Task Order I
+
+Amendment No. 11
+(6/29/5€)
+
+"(A)
+
+"(8)
+
+ 
+
+January 31, 1958
+DSR-#6345
+6915
+
+It is the desire of the Government and the Contractor that addi-
+
+tional resecarch on an electronic digital computer snd coutinued component
+resecarch be performed, and that the scope of the work be expanded
+
+to include theoretical studies and experimental research and development in
+connection with the epplication of the digital computer in an air defénse
+systew in wvhich iaformation is transmitted from remote radar statione
+and processed by & computer, end the aspplication of the ccumputer to
+important scientific problems. To accomplish thés, there are hereby
+provided an expension in the scope of work, an extension in the period
+of performance and an increase in the estimated cost of Task Order 1
+under Contract NSori<f0.
+
+ 
+
+L, On and after 1 July 1950, section (A) shaell resd as follows:
+
+The Contractor shall furnish the necessery persouncl and facilities
+for end, ie accordance with any instructions issued by the Technical
+Officer or his authorized representative, shall conlyct research to
+include the following:
+
+(1) investigations in commection with combined Phases I end II of
+four phases of Project 2h-X.3 (Formerly Project RF-12) in accordance
+with 'Specifications for Project RP.12, known as WHIRIWIND, dated
+
+i Oetober 1945, revised 20 Mawch 1946,' and to include (i) investi-
+gations iavolving electric circuits, video smplifiers, electrostatic
+storsge tubes, electronic switching, methematical solution; (4i) the
+design apnd construction of a Digltal Computer and the studies for
+applying the computer to an Aircraft Anslyver besed on resulis ob-
+tained from the foregoing; and (iii) shall furnish compleie sets of
+drawings used in the construction of the gbowve computers, reports
+setting forth the dexign and operation of all components of the
+computers, reports setting forth the resulis of studies of the
+application of the computer to an eircraft analyzer, and recorde of
+resulte of all tests on individual componenie and assembled compon-
+ents conducted wp to 15 November 1950;
+
+(2) theoretical studies and experimental research and development
+in comnection with the epplication of digitsl computers in ap air
+defense system in vhich inforwation is transmitted to WHIRIWIND from
+remote redar stations and processed by the coamputer, and
+
+(3) spplication of the computer to important scientific problems.”
+5, Oa and after 1 July 1950, section (B) shall read as follows:
+
+It is understood and agreed that, elthough section (A) (1) refers to
+four (4) phases of the work in commection with the WHIRIWIND Project
+no provision has been made in the estimated cost to cover the third
+and fourth phases of the work which relate to the construction,
+assembly, housing, operation or preliminary testing of the Electronic
+Computer and Alrcraft Anslyzer,"

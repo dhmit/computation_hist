@@ -1,0 +1,41 @@
+(5)
+
+machine play chess or checkers in other words to obey the logic
+
+of a game. Different Sciences and branches of learning have their
+
+own kinds of thought processes. For example economics and genetics each
+have patterns of thought whieh do net exactly duplicate those of
+
+physics. Fundamental research is needed to work out programs, rules
+
+of thought for the machine, which correspond more closely to these
+
+other patterns. With a machine of the flexibility and storage
+
+capacity of the 704, such research is worth while. It will have to
+
+be tackled, at the beginning}by teams of experts in the fleld of
+interest, together with mathematical logicians who know machine
+operation.
+
+B, Another general line of attack is in the field of the
+Sstorage and rapid access to information, such as is needed in the
+problems of language translation and historical research, for example.
+Several schemes of coding of information, so that it can be found
+quickly and easily, have been devised on paper, but the "bugs" in
+such Schemes will only become apparent when masses of information,
+of the order of several hundred thousand 1tems, are to be ordered
+and sorted out. The new installation at the Computation Center will
+have a storage capacity of this size. Some of the proposed Schemes
+should be tried out, and others developed, by members of the Center
+staff working with persons familiar with the information and its
+uses. & For example a project in machine translation has already
+been setup, under the direction of Professor Locke of the Language
+Department. As 1t develops, it will need the help of machine pro-
+gramming specialists and will need the use of a machine to test 1its
+ideas. The translation project is already Supported by the
+Rockefeller Foundation, but parallel work by the Computation Center
+on techniques for rapid access to large-quantity data would help
+
+this work as well as others. Another promising direction of investi-

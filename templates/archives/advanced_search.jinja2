@@ -14,6 +14,19 @@
     {# If a previous search was executed, show the query values. Else set default values #}
     {% if search_params is not defined %}
         {% set search_params = {
+            'keyword': '',
+            'title': '',
+            'text': '',
+            'author': '',
+            'recipient': '',
+            'min_year': 1945,
+            'max_year': 1970,
+            'doc_types': []
+        } %}
+    {# If the only entry in search_params is a keyword #}
+    {%  elif len(search_params.keys())==1 and search_params.get('keyword') %}
+        {% set search_params = {
+            'keyword': search_params['keyword'],
             'title': '',
             'text': '',
             'author': '',
@@ -27,6 +40,11 @@
     <form id="adv_search" method="get" action="/archives/advanced_search">
 
         <h2>Advanced Search</h2>
+
+        <p class="search-type">
+            <label class="text_label" for="keyword">Keyword</label>
+            <input id="keyword" type="text" name="keyword" value="{{ search_params['keyword'] }}">
+        </p>
 
         <p class="search-type">
             <label class="text_label" for="title">Document Title</label>

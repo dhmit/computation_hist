@@ -1,0 +1,20 @@
+COPY s
+
+The Department of Mathematies has arranged with the :
+M. I.T. Computation Center to invite a limited number of
+reclipients of Westinghouse Summer Scholarshins to parte
+cipate in some of the activities of the Center during part
+of 'the summer of 1957. Through contacts with staff members
+
+of both the Department and the Center, participants will
+
+in the field of numerical calculation. In addition, they
+may develop some familiarity with the actual technigues
+of programming and coding problems for the new largee
+scale IBM 70l computer, which will be in operation at
+the Center.
+
+Applicants are requested to specify any special
+Interests in this direction, as well as to describe any
+
+previous training or experience in the field.

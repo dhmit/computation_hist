@@ -1,0 +1,50 @@
+PROPOSAL FOR NSF GRANT FOR SUPPORT OF RESEARCH
+AT THE M.I.T. COMPUTATION CENTER INTO METHODS FOR
+MAKING HIGH-SPEED DIGITAL COMPUTERS EASIER TO USE
+
+BY THE OCCASIONAL USER
+
+ 
+
+Statement of the Problem - ILarge, electronic digital computers
+have great potentialities tor advancing research in the many areas
+which require a great deal of drudge calculation, but up to now
+their potential capabilities have been hampered by a "mismatch"
+between machine and possible user. Specilal input equipment is not
+vet designed to allow masses of experimental data to be fed directly
+to the machine; special output equipment is needed in order to display
+results in compact and easily understandable form; and the present
+. ¢ode of instructions to the machine the "machine langauge" is not
+easy to learn or To use.
+
+The basic difficulty is that electronic computers are extremely
+complex pieces of equipment and a great deal of study will be
+required before we can understand its behavior well enough o be
+able to control it effortlessly and flexibly. At present one who
+wishes to use a large computer often has to spend three to five months
+developing, encoding and testing a program ¢o instruct the machine how
+to perform the necessary millions of operations which, at the end; The
+computer will carry through in a few hours. True, these five months
+of preparation plus the few hours of actual computation may be much
+shorter than the several years required to obtain the same results by
+using a desk computer, nevertheless i1t is obviously desirable to
+devise procedures which will shorten this preparation time, even at
+the expense of additional machine time.
+
+Program for Research on Machine Capabilities - In order to
+learn how GO make digical computers easier to use one must have a
+machine of large capacity, a large supply of possible computations
+to be done, drawn from a wide varlety of scientific fields, plus a
+staff which thoroughly understands the machine behavior and is
+interested in working with the prospective users in order to simplify
+methods of use., With this combination of equipment and staff it
+should be poasible, in a few years, to work out special operating
+programs, additional input and output equipment and other technliques
+which will considerably reduce the time and effort required Co get®
+a problem solved by the machine,
+
+The M.I.T. Computation Center - The one place in the United
+States where this combination of machine, variety of problems and
+staff already exists 4s at M.I.T. This past year IBM has installed
+a 7ok, of the most up-to-date capacilty for the use of the college
+and universities of New England. M.I.T. has contributed most of the

@@ -1,0 +1,46 @@
+THE RAND CORPORATTON 4
+
+1700 Main Street. Sante Monieca California
+
+27 Maxrch 1961 1L-6349
+
+My. Shinji Ksieocka
+
+Cperations Research Center
+Massachusetts Institute of Technology
+Cambridge 39, Massachusetts ;
+
+Dear M. Kateoka:
+
+Under separvate cover I have sent you a copy of the GQS progzam for the
+709 (or T090), together with an assembly listing. If you would like the
+symboliec progism cards, please let me know.
+
+The T09 version operates essentlially the same as the TOk version. I have
+made only the changes which were necessary to have the old program operate
+on the new machine. The new program has been designed to operate within the
+standurd T09 FORTRAN Monitor system which is, I believe, in operation there
+at M.I.T. Specifically, you should note the following points sbout the
+
+T09 version:
+
+1. The input tape is A2;
+The output tspe is AS3:
+Tape AL iz used during execution of the program:
+o senze switches are used.
+
+2. 'The progrvam loads into location 400 (decimsl) and
+above. (An absolute loader is loaded by the
+FGRE?ANZMonitor; the gbsolute loader then loads
+GQs.
+
+3. The on~line cloeck is not used; therefore the REALT
+(real time) LENGTH option is no longer allowed.
+
+L, The PUNCH card is no longer used and the non-
+statlionary-input procedure has been changed. To
+use the non-stationaiy feature, the following steps
+are necessary:
+
+a) make an initial run to deteérmine parameter
+locations;

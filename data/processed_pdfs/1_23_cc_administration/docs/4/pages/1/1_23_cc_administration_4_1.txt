@@ -1,0 +1,63 @@
+&l
+
+March 1957
+
+REQUEST FOR SUFPPORT FROM THE OFFICE OF NAVAL RESEARCH
+FOR_SUPPORT OF RESEARCH IN
+
+- .,
+
+DIGITAL COMPUTER METHODS_IN OPERATIONS RESEARCH
+
+D e e -l s A .
+
+Background
+
+With the installation of the IBM TO4 in the new Computation
+Center, it becomes possible to expand our basic work in Operations
+Research in directions which will utilize the capabilities of this
+new high-speed electronic computer. After consultation with
+Dr. T. J. Killian and with Drs. J. Weyl, A. Grad and C. F. Mucken-
+houpt of ONR, we herewith submit a proposal for a project in this
+area, to be supervised by Prof. P. M. Morse, Director of the -
+Computation Center, Dr. H. P. Gallliher, Assistant Director of the
+MIT Operations Research project, and Prof. Dean N. Arden, Head of
+the Programming Research Section of the Computation Center.
+
+ 
+
+Proposal
+
+A program of research is proposed in the areas of linear
+programming and queulng theory, and particularly inteo methods of
+
+'utilizing high-speed computation techniques in the solution of
+
+certain problems in these areas. The purpose of the research is
+to extend progress already made in these fields. 1Initial phases
+of the research are described below. Experimental testing of .
+methods developed will be made on the IBM TO4 now being made
+
+ready at the new MIT Computation Center.
+
+Nature of the Investigation
+
+Work will be in the related fields of linear programming
+and queuings:
+
+Linear Programming. Research has already been initiated, and
+shows promise, in the application of speecial approaches to the
+computer solution of problems involving flow of one or more
+commodities through capacitated networks which enable the come-
+puter to take advantage of the special structure of specific
+problems to shorten computation time.
+
+Research will also be done on more efficient algorithms for
+the solution of general linear programming problems. In particu-
+lar the primal-dual method developed by the RAND Corporation is
+currently belng programmed for the IBM 704 and possible exten-
+sions of the method are being investigated.
+
+The practical importance of the techniques will be tested
+on scheduling and warehousing problems with or without uncertain
+demands as well as dynamic scheduling and allocation problems.

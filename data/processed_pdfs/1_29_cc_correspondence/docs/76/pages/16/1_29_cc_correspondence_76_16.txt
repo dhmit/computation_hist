@@ -1,0 +1,48 @@
+uo3}
+ey
+
+ 
+
+Although when under Moni tor control, a FORTRAN compilation,
+
+if desired, will produce row binary cards, the only cards
+
+acceptable for Monitor execution are columnar binary. All
+
+non-Monitor, hand-coded subprograms to be used must have
+
+correct associated program cards in proper columnar binary
+
+form.
+
+Program Limitations.
+
+a. Care must be exercised on jobs involving both compilation
+
+or assembly and execution to avoid overlapping of program
+
+and common data. Overlapping
+is permitted. If common data
+will be bypassed.
+
+b. A list of missing subroutines
+or the chain links of a job.
+a diagnostic print-out occurs
+
+the chain bypassed if a chain
+
+of program and BSS control
+
+overlap occurs, the job
+
+is accumulated during a job,
+If more than 50 are missing,
+and the job is deleted, or
+
+Jjob. The maximum number
+
+of transfer vectors that all levels may have in a single
+
+job or chain link is 250.
+
+= B

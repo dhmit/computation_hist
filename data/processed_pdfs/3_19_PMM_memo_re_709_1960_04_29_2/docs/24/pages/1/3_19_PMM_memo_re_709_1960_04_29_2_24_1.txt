@@ -1,0 +1,65 @@
+S —r . TR T T W e, Py
+
+COMPUTATION CENTER
+
+MTA-SS'ATCHAUCSEE BNIAS o - TNS T I'T U.T/E" . O 4FE € H'N 000 G Y
+CAMBRIDGE 39, MASSACHUSETTS
+
+August 25, 1961
+
+Professor Warren B, Cheston
+School of Physics
+University of Minnesota
+Minneapolis 14, Minnesota
+
+Dear Professor Cheston:
+
+I am taking the liberty of answering your recent letter to
+o Proiessor lMorse inasmuch as he is presently on an extended trip.
+
+It is true that an IBM 7090 will be installed at the Computation
+Center this coming December or January, (We Presently have a 709) However,
+this will not be a purchased machine, Rather, MIT operates the computer
+for the benefit of its own faculty and students as well as the over-thirty
+participating New England colleges and universities, In return, IBM supplies
+the use of two shifts on the computer,
+
+Consequently, the decision to obtain a 7090 was not as free a choice
+Y as the one you are currently making, but it still has not prevented us from
+drawing some coaclusions of the relative merits of the 709-90 systems,
+
+1., The relative short word lengths (36 bit words)
+
+which on long floating-point calculations may cause
+
+gradual degradation of accuracy;
+
+2, The small 32K memory. I use the term "small”
+
+here because as one's programming ability arises and
+
+operating procedures become more sophisticated, the
+
+32K core becomes crowded, Nevertheless, this
+
+should not be considered too serious a defect unless
+
+one is doing complicated programming,
+
+The principal advantages that we see with the 709 or 7080 are:
+
+1., The compatibility with many similar machines which
+not only allows the benefit of exchanging work with
+other installations, but has the more subtle effect
+
+of allowing undesired projects an opportunity to do
+their work elsewhere,
+
+ 
+
+- - . - e e e e e e T TS ===t A PRSP Aa, a1
+
+bR T A - 2 - PO s oy - e . P S . L - P e /0 P -~ N Y e - J ) . R L PR, i .
+
+I TR B e 1 N TS Rt S Ly ety Rl A T i e s 2 = SN T DRI ey SRRl RS ST N et R SRS e
+LS AR £ Dl PR e T R 1 4 o N MR+ A I e /TP Mg A TN Y S NN, s e i 1R T O RN S R < n e NS s, - °

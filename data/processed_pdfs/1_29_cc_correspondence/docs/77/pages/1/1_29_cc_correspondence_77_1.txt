@@ -1,0 +1,97 @@
+CC-161
+
+DESCRIPTION OF THE FAP ASSEMBLY PROGRAM
+USED WITH THE FORTRAN MONITOR SYSTEM
+
+ 
+
+FOR THE 709 COMPUTER
+
+To: All Programmers
+
+From: M. L. Merwin and F. J. Corbato
+
+Date: June, 1960
+
+Table of Contents
+
+INTRODUCTION
+
+THE FAP LANGUAGE
+
+Symbolic Card Format
+Symbols
+
+Location Field
+Location Counter
+Expressions
+
+Types of Expressions
+Relocation
+
+""" as a Symbol
+Boolean Expressions
+Variable Field
+Literals
+
+OPERATIONS AND PSEUDO-OPERATIONS
+
+Indirect Addressing
+Symbol Definition
+EQU, SYN
+BOOL
+TAPENO
+Storage Allocation
+
+BSS
+
+BES
+
+COMMON
+Data Generation
+
+OCT
+
+DEC
+
+BCI
+
+BCD
+
+VFD
+
+ETC
+
+DUP
+
+REM
+
+* (Remarks)
+
+w
+
+H OO0 U b bW
+
+e
+
+14
+
+14
+14
+14
+15
+16
+16
+16
+17
+18
+18
+18
+19
+21
+22
+22
+24
+24
+25
+25

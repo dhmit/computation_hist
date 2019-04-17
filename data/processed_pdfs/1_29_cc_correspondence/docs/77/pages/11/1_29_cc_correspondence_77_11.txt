@@ -1,0 +1,35 @@
+140 = 0 120 =0
+141 = 1 1-1 =
+Mgt ("a.nd", "intersection") u/n ("complement", "ones complement",
+nnotn)
+00 = 0 /0 =
+01 =0 /1 = 0
+10 = 0
+11 = 1
+
+Although "/" is usually an operation involving only one term,
+by convention "A/B" is taken to mean A*/B. Thus the table for
+
+"/" as a two-term operation is
+
+0/0 = 0
+0/1 =0
+1/0 = 1
+1/1 =0
+Other conventions are:
++A = A+ = A
+-A = A- = A
+A = A* = 0 (one operand missing)
+A/ —=CA
+| o=
+=0 (both operands missing)
+/ = JTTT177777777
+
+8
+
+The above tables define the four Boolean operations for one-
+bit quantities. The operations are extended to 36-bit
+quantities by the rule that each bit-position is treated
+independently. Note that the leftmost 18 bits will either
+
+be all zeros or all ones. A Boolean expression is evaluated
