@@ -123,10 +123,11 @@ DATABASES = {
 
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'comphist_test',
-        'USER': 'comphist',
         'HOST': 'comphist-test-0.cdciclcuqo67.us-west-1.rds.amazonaws.com',
         'PORT': '5432',
+        'NAME': 'comphist_test',
+        'USER': 'comphist_readonly',
+        'PASSWORD': 'readonly',
     }
 }
 
