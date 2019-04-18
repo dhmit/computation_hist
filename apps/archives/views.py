@@ -358,3 +358,10 @@ def story(request, slug):
     except TemplateDoesNotExist:
         raise Http404('A story with this slug does not exist.')
 
+
+def js_demo(request, doc_id):
+    doc = Document.objects.get(pk=doc_id)
+    context = {'doc': doc}
+
+    return render(request, 'js_demo.jinja2', context)
+

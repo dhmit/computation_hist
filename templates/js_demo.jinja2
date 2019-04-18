@@ -1,0 +1,76 @@
+<html>
+
+<head>
+    <script>
+        function alert_doc() {
+            const doc = "{{ doc.title }}";
+            alert(doc);
+        }
+
+        function set_title() {
+            document.getElementById("doc_title").innerHTML = "{{ doc.title }}";
+        }
+    </script>
+</head>
+
+<body>
+
+
+<!-- kaboom
+<script>
+    console.log(document);
+    set_title();
+</script>
+-->
+
+
+<!-- not kaboom
+<script>
+window.onload = set_title;
+</script>
+-->
+
+<!--
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script>
+function set_doc_title() {
+    console.log(document);
+    $("#doc_title").text("{{ doc.title }}");
+}
+
+$(document).ready(set_doc_title);
+</script>
+-->
+
+
+<div id="doc_title">
+    {{ doc.title }}
+</div>
+
+<button id='button'>I am proud to be a button!</button>
+
+<!--
+<script>
+function handle_button_click() {
+    alert_doc();
+    document.body.style.backgroundColor = 'yellow';
+}
+
+document.getElementById("button").onclick = handle_button_click;
+</script>
+-->
+
+<!--
+<script>
+function handle_button_click() {
+    alert_doc();
+    $('body').css('background-color', 'blue');
+}
+
+$("#button").click(handle_button_click);
+</script>
+-->
+
+
+</body>
+</html>
