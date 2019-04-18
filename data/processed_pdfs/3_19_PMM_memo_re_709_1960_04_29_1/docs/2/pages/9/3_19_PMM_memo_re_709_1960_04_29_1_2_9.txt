@@ -1,0 +1,46 @@
+Page O,
+
+languages developed for the overall system.
+
+"
+The "scheduling" aspect will have 1ts effect on a super-
+
+visory routine; each type of peripheral device will require 1its
+
+own input-output routines. Alsc dispatching and monitoring
+
+routines will have to be developed for the system.
+
+Progress to Date
+
+Time sharing and multiprogramming are not new techniques
+to the M.I.T. Computation Center. Since early in 1959, an
+electric typewriter has been connected to our IBM 704, and has
+been used in a time sharing mode for a varilety of purposes
+including monitoring and modifying heuristic programs, analyz-
+ing and debugging programs, and running programs in a variety
+of specialized languages. Special programming systems have
+been devised to assure that when the 704 is multiprogrammed,
+the programs can coexist and run independently.
+
+In addition, the Center has developed and installed
+many special purpose devices such &8s an "alarm clock"” to test
+out the feasibility of equitably divliding time among users
+and accounting for 1lts usage.
+
+Elen of Appreach
+
+The overall direction of this project is under Professor
+Herbert M. Teager of the Electrical Engineering Faculty and
+Computation Center Staff. Assoclated with the project will
+he Professor John MeCarthy, and Dr. Fernando J. Corbatd and
+Drr. Michael Barnett of the M.I.T. Computation Center Staff.
+
+Additional personnel will be recrulited for the project
+from the M.I.T. Staff.
+
+Although 1t is difficult to completely specify the
+
+exact schedule of when the various research phases of the
+project wlll be completed, 1t 1s expected that the timing
+will be about as follows:

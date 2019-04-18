@@ -1,4 +1,9 @@
-const assembly_addition_demo_params = {
+'use strict';
+
+import { Assembly_Line, IBM_704 } from './simulator.js';
+import { DemoRenderer } from './render.js';
+
+export const assembly_addition_demo_params = {
     computer_size: 7,
     num_code_lines: 4,
     highlighted_registers: [6],
@@ -20,7 +25,7 @@ const assembly_addition_demo_params = {
     ],
 };
 
-const floating_point_operations_demo_params = {
+export const floating_point_operations_demo_params = {
     computer_size: 13,
     num_code_lines: 3,
     highlighted_registers: [12],
@@ -48,7 +53,7 @@ const floating_point_operations_demo_params = {
     ],
 };
 
-const looping_with_tix_demo_params = {
+export const looping_with_tix_demo_params = {
     computer_size: 8,
     num_code_lines: 5,
     highlighted_registers: [7],
@@ -69,37 +74,16 @@ const looping_with_tix_demo_params = {
     ],
 };
 
-function update(computer, instructions, num_code_lines, highlighted_registers) {
-    const code_html = $(".symbolic_code");
-    const code_line = Math.min(computer.ilc.valueOf(), num_code_lines-1);
-    if (code_html.length !== 0) {
-        for (let line = 0; line < num_code_lines; line++) {
-            code_html[line].style.backgroundColor = "white";
-        }
-        if (highlighting) {
-            code_html[code_line].style.backgroundColor = "deepskyblue";
-        }
-    }
-
-    update_computer_display(computer, highlighted_registers);
-
-    // update line descriptions
-    let line_desc = "";
-    if (typeof instructions[code_line] !== "undefined") {
-        line_desc = instructions[code_line].description;
-    }
-    $('#line_desc')[0].innerHTML = line_desc;
-}
 
 function populate_code(instructions) {
     let codeHTML = "";
-    for (const i in instructions) {
+    for (let i = 0; i < instructions.length; i++) {
         codeHTML += `<p class="symbolic_code" id="symbolic_code${i}">${instructions[i].toString()}</p>\r\n`;
     }
     $('#code')[0].innerHTML = codeHTML;
 }
 
-function start_demo(demo_params) {
+export function start_demo(demo_params) {
     const instructions = demo_params.instructions;
     const initial_memory_values = demo_params.initial_memory_values;
     const computer_size = demo_params.computer_size;
@@ -107,29 +91,30 @@ function start_demo(demo_params) {
     const highlighted_registers = demo_params.highlighted_registers;
 
     const computer = new IBM_704(computer_size);
+    const renderer = new DemoRenderer(computer);
 
     populate_code(instructions);
 
     $('#reset_button').on('click', () => {
-        reset(computer, instructions, initial_memory_values);
-        update(computer, instructions, num_code_lines, highlighted_registers);
+        renderer.reset(instructions, initial_memory_values);
+        renderer.update(instructions, num_code_lines, highlighted_registers);
     });
     $('#run_button').on('click', () => {
         computer.halt = false;
         computer.run();
-        update(computer, instructions, num_code_lines, highlighted_registers);
+        renderer.update(instructions, num_code_lines, highlighted_registers);
 
     });
     $('#step_button').on('click', () => {
         computer.halt = false;
         computer.step();
-        update(computer, instructions, num_code_lines, highlighted_registers);
+        renderer.update(instructions, num_code_lines, highlighted_registers);
     });
     $('#highlight_button').on('click', () => {
-        highlighting = !highlighting;
-        update(computer, instructions, num_code_lines, highlighted_registers);
+        renderer.highlighting = !renderer.highlighting;
+        renderer.update(instructions, num_code_lines, highlighted_registers);
     });
-    common_start(computer);
-    reset(computer, instructions, initial_memory_values);
-    update(computer, instructions, num_code_lines);
+    renderer.create_memory_display();
+    renderer.reset(instructions, initial_memory_values);
+    renderer.update(instructions, num_code_lines);
 }

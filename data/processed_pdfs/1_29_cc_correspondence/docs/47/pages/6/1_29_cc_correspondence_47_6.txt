@@ -1,0 +1,32 @@
+APPENDIX II
+
+ADDOV  Check lights after floating-point addition.
+Celling Sequence: FAD
+
+TSX ADDOV, ),
+
+If lighte indicate en overflow, error stop occurs at ADDOV + |
+
+flow AC is set to zero.
+
+MULTO Check lights after floating-point multiplication.
+Calling Sequence: FiP
+
+TSX MULTO, L
+
+On AC under-
+
+Ovefflow causes error stop in MULTO + 3 or MULTO ¢ 6. AC underflow gives AC
+
+Gero
+
+DIVCK Check lights after floating-point division.
+Calling sequence: FDP
+
+TSX DIVCK,L
+
+Divide check light causes error stop in DIVCK + 1. MMQ set to zero on MQ
+
+underflow. MQ overflow causes error stop in DIVCK + 1l.
+
+All routines normally return to X + 1.

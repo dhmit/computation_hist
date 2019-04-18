@@ -1,0 +1,52 @@
+subfields of the variable field are evaluated consecutively
+from left to right. 1If n, is the bit count of the first
+subfield then the value of that field is placed in the
+leftmost n, bits of the machine word generated. 1If n, is
+less than the length of the data, only the rightmost n,
+
+bits of the data are used. 1If ny is greater than the length
+of the data, then the data is placed in the rightmost bit-
+positions of the set of n, bits and the left-hand bits
+
+are all made zeros. The value of the second subfield is
+
+placed in the n_st through (n1+n2-l)st bit positions
+
+(counting the sign bit as bit-position O, in a similar
+manner). The total of all the bit-counts must not exceed
+36. If this total is less than 36, the right-hand bits
+left over are made zeros. If a symbolic-expression sub-
+field contains a relocatable or common expression, that
+subfield must be placed so that its rightmost bit is the
+17-th bit (i.e. the right-hand bit of the decrement-
+
+portion) or the last bit (i.e. the right-hand bit of the
+
+ 
+
+address-portion) of the word. As an example, suppose
+the programmer would like to break up a single 36-bit
+
+word into four parts as follows:
+
+1. Positions O - 9: the binary equivalent of the
+decimal integer 895.
+
+2. Positions 10 - 14: the binary equivalent of the
+
+octal integer 37.
+
+3. Positions 15 - 20: the binary coded value for
+
+the' character ''C".
+
+4, Positions 21 - 35: the(binary) value of the
+symbol ALPHA.
+
+Then he may simply write:
+
+LOCATION OP VARIABLE FIELD
+
+VFD 10/895,05/37,H6/C,15/ALPHA
+
+=03~

@@ -1,0 +1,53 @@
+N 52
+\ 7 (SMITHSONIAN INSTITUTION .
+ASTROPHYSICAL OBSERVATORY
+
+OFFICE OF THE DIRECTOR
+
+ASTROPHYSICAL OBSERVATORY
+
+60 GARDEN STREET
+
+CAMBRIDGE 38, MASSACHUSETTS July 313 1957
+
+Professor Philip M. Morse
+
+Director, Computation Center
+Massachusetts Institute of Technology
+Cambridge 39, Massachusetts
+
+Dear Phil:
+
+I understand that the computations carried on with
+the new IBM 704 Calculator by Mr. Carlos M. Varsavsky
+represent the first completed research project on the new
+machine. The conclusions from his results are extremely
+interesting, and I doubt that they would ever have been
+obtained had an extremely rapid electronic computer not
+been available. This conclusion denies a statement by
+Harold C. Urey in a recent issue of Nature that tektites
+could not have origlinated from the moon because if they
+had, they would have been distributed uniformally over
+the earth. Mr. Varsavsky showed that a fairly wide solid
+angle of ejection from the moon coupled with a considerable
+range in velocity (about 1 km/sec) could result in a very
+sharp line of demarcation between a high concentration of
+tektite falls on the earth and a region where none fell.
+The results of his calculation will be published in due
+course of time,
+
+Thus I should like to express official appreciation,
+both from the Department of Astronomy at Harvard College
+and from the Smithsonian Astrophysical Observatory for the
+fine cooperation obtained from your group in the use of the
+new IBM calculator.
+
+Very best personal regards,
+
+Sincerely yours,
+
+   
+
+Director
+
+FLW/cp

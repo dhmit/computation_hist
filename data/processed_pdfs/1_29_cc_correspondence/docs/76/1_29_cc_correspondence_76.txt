@@ -1,0 +1,1123 @@
+PART
+
+PART
+
+PART
+
+ 
+
+DESCRIPTION OF THE FORTRAN-FAP MONITOR SYSTEM
+FOR TH# 709 COMPUTER
+To: All Programmers
+From: M. L. Merwin and F. Je Corbatd
+
+Date: June, 1960
+
+TABLE OF CONTENTS
+
+I. PROGRAMMING NOTES
+
+Introduction © 0 9 0 00 009 000 ep e900 9 00 0000000 H 00 e000 09 0 00 0000
+Defini tion of Job, eo 0 Oe RB O80 OOOO ODN eee OOO OPO 00 PROS e090 ee 0°00
+Monitor Features oP 9 OP 9 OOO 000 YN © 0 0 9° 0 00°80 00 PEC IE EE EB BB BE J
+
+The Chain JOD cs ns vs ssseresaessedsssesiesaessees.eesye
+
+no Ou Pv» WW
+
+Monitor Control CardS.sesssesssssscessssessssesssnsissy
+programming FORTRAN Problems for the MONitOrecvseessseessldO
+
+General LEE sos sroennanaisnenecssnessvonssnsvsvasevsaneld
+
+Il. OPERATING INSTRUCTIONS
+
+ITD evens asin stun ants ennsrssstennas as sensrsssssscht
+DATROBELCE sass seersnsshesinnassssannvertocsensanssnsls
+
+SEORE sx ws sass nes mnsesfesnnesnaanaeimamatseessvssnseds
+
+III. SYSTEM NOTES
+
+Tapes Used by 709 FORTRAN Monitor SysSteMeessssessssssesld
+
+APPENDIX
+
+Monitor Control CAT AE cs a sss is la's ssn sr esitnsssssnsrvvesssne2D
+
+
+PREFACE
+
+The following memorandum is an edited and abbreviated version of
+a Preliminary 709 Monitor Manual (May, 1960) written at IBM. The IF'ORTRAN-FAF
+Monitor System consists of three basic programs: a Monitor, a Compiler,
+and an Assembler. The function of the Monitor is to coordinate compiler
+and assembler processing and to simultaneously provide means for initiating
+execution of object subprograms. Thus, continuous machine operation is
+possible regardless of what combinations of source and object subprograms
+
+the Monitor encounters.
+
+The control cards of the FORTRAN-FAP Monitor System allow one in
+
+a single run with the computer to:
+
+1. Compile several FORTRAN subprograms and punch relocatable
+binary decks for them;
+
+2. Assemble several FAP subprograms and punch relocatable binary
+decks that are compatible with the FORTRAN binary subprograms;
+
+3. Run the resulting collection of subprograms from (1) and (2)
+and previously compiled decks as a single program in the
+computer,
+
+4. Or alternatively run the program as consecutive ''chain' links
+
+of a program otherwise too large to fit in memory;
+
+Use of the Monitor system allows the Center to batch Jobs on a
+single input tape; thus on-line card reading is replaced by the faster
+tape input and the inter-job time is reduced to tape manipulation by
+the Monitor. Thus, the Monitor is a supervisory program for FORTRAN,
+FAP, and object subprograms. The Monitor calls in the various pro-
+cessing programs as needed; it is only necessary to inform the Monitor
+what type of processing is to be expected. This memorandum describes
+
+the control cards necessary for Monitor operations.
+
+
+PART I. PROGRAMMING NOTES
+
+ 
+
+ 
+
+1: INTRODUCTION
+
+The FORTRAN-FAP Lionitor for the 709 is an extension of the 709 FORTRAN
+system and can do more than compile and assemble. It permits the
+
+following operations:
+
+1. FORTRAN compiling.
+
+2 FAP (FORTRAN Assembly Program) assembling.
+
+3. Execution of object programs.
+
+4 Execution of programs in links—a procedure necessary
+where the total program is too large to fit into storage
+and a link is a section of it which does fit into
+
+storage.
+
+Input to the lonitor System consists not only of FORTRAN subprograms
+
+but may include the following as well:
+
+1 Monitor control cards.
+
+2 FAP symbolic subprograms.
+
+3. Object subprogramnm binary cards.
+4
+
+. Data cards.
+
+The relative order of a series of different types of input (exclusive
+of data cards) does not matter provided that each separate deck, whether
+source program, object program, etc., is preceded by the appropriate
+
+control cards.
+
+The FORTRAN compiler proper may be considercd a subsection of the
+Monitor. Under FORTRAN control, a single source subprogram may be
+compiled. Nothing further, including execution, can be done. If
+multiple-compilation of a series of FORTRAN source programs is desired,
+
+Monitor control is required.
+
+0d
+
+
+11.
+
+DEFINITION OF JCB
+
+A job may be considered as the basic unit being processed by the
+Monitor at any one time; it consists of one or more subprograms.
+A job is either an Execute or non-execute job. An Execute job
+is one to be executed immediately after whatever processing is
+required; thus, the subprograms of the job are related to each
+other. A non-execute job contains subprograms that need not be
+dependent. Each program is processed as the control cards for
+the job specify. The ''processing' that is given a subprogram
+
+is one of the following:
+
+EXECUTE Job Non-Execute Job
+1. FORTRAN Compilation 1. FORTRAN Compilation
+2. FAP Assembly 2. TAP Assembly
+3. Relocation of object (object program input
+
+program input is simply ignored)
+oo
+
+ 
+
+4, For jobs divided into
+links, treatments of
+chain links
+
+A job may be considered as falling into one of the following
+
+five types:
+
+1. One or more FORTRAN source subprograms to be compiled.
+This is simply multiple-compilation.
+
+2. One or more I'AP symbolic subprograms to be assembled.
+
+3. An intermixture of job types 1 and 2. This results in
+multiple compilation and assembly of FORTRAN and FAP
+source subprograms producing object subprogram output
+for each source subprogram input. There may be any
+
+combination of main programs and subprograms.
+
+Execute Jobs
+
+4. A sequence of input subprograms for immediate execution.
+
+
+The input subprograms may be FORTRAN subprograms, FAP
+subprograms, or binary object subprograms. Data cards,
+to be used during execution, follow the input sub-
+programs. The input program consists of a single main
+program-subprogram sequence not larger than the available
+core storage and constitutes a "machine-load'.
+
+A sequence of input programs meant for execution where
+each input program is a job of type 4. The data cards
+are placed at the end of all the input programs. This
+is called a CHAIN job and each of the jobs of type 4
+is a CHAIN LINK. This permits a single object program
+
+execution to consist of more than one "machine-load''.
+
+111. MONITOR FEATURES
+
+The first record of each job must be an identification
+(I. D.) card whose format is specified by each com-
+puter installation.
+
+There is a complete set of control cards for the Monitor.
+These are distinguished by an asterisk (*k) in column
+one. In general, they are of two types: 1) to govern
+the job as a whole, telling what it consists of, and
+
+2) to govern options in the output.
+
+The FORTRAN Monitor System uses eight tapes on two
+channels. These are Al, A2, A3, A4, Bl, B2, B3, B4.
+
+A2 is the input tape and A3 is the output tape. Jt
+should be noted that the correspondence between logical
+tape designations used in FORTRAN Source program in-
+put/output statements and the actual tape assignments
+at object time is set in the Unit table (IOU) in the
+FORTRAN library. Each installation may alter the
+logical correspondences.
+
+FORTRAN programs written for use under Monitor control
+will be the same as conventional FORTRAN programs with
+
+three exceptions.
+
+tee
+
+
+IV.
+
+1.
+
+a. The instructions for reading input tape and writing
+output tape must refer to tapes A2 and A3 by their
+respective logical tape numbers.
+
+b. The STOP and PAUSE statements should not be used.
+Programs must be terminated by a CALL EXIT or CALL
+DUMP statement, or by a READ INPUT TAPE statement
+when there is no more input data.
+
+c. The END card program option controls may be replaced
+by Monitor control cards. The END card itself is
+
+still necessary.
+
+Monitor control card information and diagnostic information,
+
+are printed off-line as well as on-line,
+
+THE CHAIN JOB
+
+In the Chain job, one program, too large to fit into core
+storage, is executed as a sequence of smaller programs,
+Each smaller program, called a link, consists of a main
+program together with all its subprograms and constitutes
+a ''machine-load".
+
+For execution, the links are stacked on any of three pos-
+sible tapes. The first link in the input deck is called
+in first for execution by the Monitor executive routine.
+The other links are executed as they are called by the
+link being executed.
+
+There are two requirements for distinguishing individual
+links: a) the start of each link must be distinguished
+when preparing the input deck, and b) each link must make
+provision for calling the following link during execution
+
+of the chain job.
+
+a. The control card CHAIN (R,T) must precede the physically
+first program (or subprogram) of each chain link, re-
+gardless of whether the link is composed of source or
+
+object programs. In the card CHAIN (R,T), T specifies
+
+
+the tape on which the chain link is to be kept at
+
+execution time. T must be literally either Bl, B2
+
+or B3 and not the corresponding logical tape numbers.
+R is a fixed point number greater than O but less
+
+than 32768 denoting a label for that link, identifying
+it when it is called. (NOTE: The designations Bl,
+B2, B3 must be observed in tape input-output state-
+ments only. The sequence in which links are stored
+for any one link tape is in no way determined by the
+number, R. The sequence follows from the relative
+
+position in the input deck.)
+
+b. The last executable statement of a link which is to
+call a succeeding link for execution must be of the
+
+form,
+
+CALL CHAIN (R,T).
+
+(Here T must be a logical tape number corresponding
+to Bl, B2 or B3.)
+This will then cause the link, which at compilation
+
+time had been specified by the control card,
+CHAIN (R,T)
+
+to be read into cores and executed.
+Selection of Tapes for Link Stacking.
+Chain links may be stacked on tapes Bl, B2, B3 for object
+time execution. The selection of tapes may be a function
+of object time needs to minimize tape reading time. For
+example, if it is desired to execute the links once only
+
+and in succession, they may be placed in that order on one
+
+tape. If one of these links, however, is to be executed
+
+5m
+
+
+repeatedly while the others are executed once only, then
+it should be on a separate tape to minimize tape backspace
+and search time. If one tape only is desired for chain
+links, we suggest it be Bl, since all links go onto Bl
+
+first as a result of Monitor processing.
+
+4, Programming for Chain Problems.
+
+a. Data and Common. Data may be passed from one link to
+another by means of COMMON. Therefore, when it is
+intended that data be used by the programs of two or
+more links, the appropriate COMMON and EQUIVALENCE
+statements must be written. If a link, A, in cores
+is overwritten by the next link in sequence, the next
+time link A is read in for execution, it will be in
+the same form it was before its first execution. This
+means that any program modification or storage of non-
+COMMON data resulting from the first execution will
+not exist for the second execution. In this connection,
+it should be mentioned that FORTRAN compiled programs
+
+do not cause program modifications.
+
+ 
+
+b. Relative Constants. (For a description of this term,
+see 709 FORTRAN Reference Manual.) As in the case of
+main programs and subprograms within a link, relative
+constant values may be passed on from one link to
+another merely by placing them in COMMON. This means
+that if I is used as a subscript in one link and its
+value is defined in another, the appropriate COMMON
+entries will assure the proper subscript values at
+
+the time the subscript is used.
+
+
+eee
+
+V. MONITOR CONTROL CARDS
+
+All Monitor control cards must have an "*'" in column 1. With the
+exception of the I. D. card, the specific control instruction of
+the card is punched in columns 7-72. Punching may be done accord-
+
+ing to normal FORTRAN rules, which means that blanks are ignored.
+
+1. Governing the Job as a Whole; Type 1 Control Cards.
+
+a. I. D. Card. This card must always be the first card of
+any job. It may have anything in columns 2-72 that the
+installation's Sign-On Record is prepared to process.
+
+b. XEQ. This card must follow the I. D. card of a job which
+is to be executed.
+
+c. DATA. This card must be placed at the end of the physically
+last program of a job to be executed, preceding the data,
+if any, for that job. It is not needed for non-execution
+jobs.
+
+d. CHAIN (R,T). This card is used to separate links within
+a single Chain job, by specifying the tape on which the
+link object program is to be stored for execution. It
+must precede the physically first program (or subprogram)
+of each chain link, regardless of whether the program is
+a source or object program. R is a fixed point number
+greater than O but less than 32768 denoting an identifying
+label for the tape record which contains the link. Thus
+R is the record indicator on a tape designated by T literally
+
+either Bl, B2, or B3, (hot the logical tape units).
+
+2. Governing Compilation of Individual Programs; Type 2 Control Cards.
+The END statement for programs to be compiled by the Monitor need
+not have options specified following the word END. It should be
+only
+
+END.
+If no specifications are given in the END statement or in Monitor
+Control Cards for a FORTRAN compilation, a standard output is
+
+produced.
+
+
+This consists of the following:
+
+a. The output tape, A3, contains the information which
+comprises the first two files of a compilation in the
+single compile mode; that is, the source program and the
+map of object program storage.
+
+b. The object program in relocatable binary is stacked on
+tape B4 for peripheral punching without the required
+
+library subroutines.
+
+The different Monitor control cards and their effects are:
+
+a. CARDS ROW. (Not recommended.) This card instructs the
+Monitor to punch on-line standard FORTRAN relocatable
+row binary cards, preceded by a BSS loader if a main
+
+program.
+
+b. CARDS COLUMN. (Not recommended for normal use.) This
+card instructs the Monitor to punch on-line columnar
+binary relocatable cards (no loader), and do not stack
+
+binary output on tape B4 for peripheral punching.
+
+Note that CARDS ROW and CARDS COLUMN cannot be used with
+
+the same source programs.
+
+C. LIST. This card instructs the Monitor to list on the
+output tape following the core storage map, the object
+program in FAP-type language.
+
+d. LIBE. (Not recommended for normal use.) This card in-
+structs the Monitor to search the FORTRAN library for
+subroutines during compilation of each subprogram and
+include these with the object subprogram. This control
+card is normally not recommended inasmuch as, when
+compiling several subprograms, multiple copies of library
+subroutines may be punched. Moreover, during a compile-
+and-execute job the loader of the object program auto-
+
+matically searches the library for missing subprograms.
+
+
+VI.
+
+ 
+
+3. Other Control Cards
+
+a. There is another Monitor Control Card, FAP.
+FAP. This card is placed immediately before the FAP
+symbolic cards that are input to the Monitor. It specifies
+that those cards are to be FAP assembled. The FAP card
+follows any Type 2 Monitor control cards that may be
+used.
+
+b. Other cards, not strictly control cards, may be input to
+the Moni tor.
+cards with an asterisk in column 1 may be included with
+the control cards, but their information field will be
+treated in the manner of comments. They will be printed
+
+on-line at the point where they are read.
+
+PROGRAMMING FORTRAN PROBLEMS FOR THE MONITOR.
+
+This section deals with programming in the FORTRAN language.
+However, the same requirements, as reflected in machine language,
+apply to FAP assembly programs as well, and to input object
+
+programs resulting from a previous symbolic assembly program.
+
+In general, all ordinary FORTRAN problems may be used with the
+Monitor. There are, however, three relatively minor ways in
+
+which Monitor FORTRAN programs must differ.
+1. Differences Concerning Tape Usage:
+
+a. BCD Tape. (1) All input BCD data must be called by
+the statement READ INPUT TAPE 4 , n, LIST. Output
+is effected by a WRITE OUTPUT TAPE A, n, LIST state-
+ment, where ¢ and (J are the proper logical tape
+designations for tapes A2 (input) and A3 (output),
+respectively. (2) If BCD information is to be written
+for intermediate storage during program execution, a
+tape not used by the Monitor must be used (or one the
+
+programmer knows the Monitor is not using).
+
+=] 0=
+
+
+b. Binary Information. READ TAPE and WRITE TAPE state-
+ments must address tapes outside those used by the
+Monitor system. However, when the programmer knows
+the complete disposition of the various tapes used
+during Monitor operation, those tapes not being used
+may also be addressed. For example, if a binary tape
+is wanted for intermediate storage during execution
+of the program, a Monitor tape may be available for
+
+that particular object program run.
+Differences Concerning End of Program.
+
+End of Execution. The statements that stop the machine
+(STOP and PAUSE) should not be used. Instead, the last
+executable source program statement must be one of the
+
+following:
+
+a. CALL EXIT. This statement causes immediate
+termination of the job. The Monitor is restored
+to core memory and control goes on to process the
+next job.
+
+b. CALL DUMP a, By PF ,---A 5D F)
+
+where A and B x Blais NTs nomad indicating
+limits of core storage to be dumped. Either Ag
+or B, may represent upper or lower limits. F,
+is a fixed point number indicating the format
+
+desired, as
+
+F—=110 dump in octal
+=] dump in floating point
+= 2 interpret decrement as decimal
+integer
+= 3 octal with mnemonics
+
+The core dump is effected as specified, the Monitor
+
+is restored to core memory, and control is transferred
+
+oy
+
+
+to initiate the next job. If no arguments are
+
+given, all of core storage is dumped in octal—
+
+this feature should not be used normally. The
+
+last format indication may be omitted, in which
+
+case it will be assumed to be octal.
+
+Example:
+
+22
+
+Consider the FORTRAN Source Program
+
+DIMENSION A(100), €(100), B(100), N(100)
+
+COMMON B
+
+DO 22 I=1, 100
+
+A(I) = FLOATF (1)
+
+BI) = ACT)
+
+NCI) == 1
+
+C(I) == "N(1)
+
+CALL DUMP (?)
+
+END
+
+(1) To dump the array A in floating point,
+
+(2)
+
+(3)
+
+the CALL DUMP statement would be
+
+CALL DUMP (A,A(100),1)
+
+To dump both the A and N arrays,
+
+CALL DUMP (A,A(100),1,N,N(100),0)
+
+To dump in octal with mnemonics from
+
+absolute location 100 to the array N
+
+10
+but not including the array N, another
+
+statement is required:
+
+I, = XLOCF(N) - 100
+CALL DUMP (N(L),N(101),3)
+
+The use of this procedure, since it in-
+
+volves an absolute location, is not
+
+=] De
+
+
+recommended. The library function
+XIOCF(N) simply returns the location
+Of N to the accumulator as a fixed
+
+point constant.
+
+¢. CALL CHAIN (R,T). This statement can be used only
+as the last executable statement of a chain link.
+It calls the next chain link into core storage to
+be executed. Thus, each link or JOb runs to its
+conclusion without stopping and progresses to the
+
+next link or job without operator intervention.
+
+d. READ INPUT TAPE. This statement terminates exe-
+cution if all data on the input tape has been pre-
+viously read. Thus, a programmer may utilize the
+technique of continuously reiterating reading and
+
+processing data until all the data is exhausted.
+3. Use of END Statement.
+
+The END statement may be used without any of the indicated
+sense switch settings following it. Thus, END, which must
+be the physically last statement of every FORTRAN source
+
+program, may appear in either of the two following forms:
+
+END
+b. END (IX.,1 I 1 »I_), where I may have the value,
+3 rT 5oT, 02D, ad
+0, 1, or 2,
+
+If END statement (a) is used, indicators for the
+actual sense switch options will be inserted by
+the Monitor. There are two possibilities with
+
+respect to each option indicator.
+
+(1) No Monitor control card is present. The
+
+Setting prescribed by "standard" FORTRAN
+
+ll 3m
+
+
+VII.
+
+output (see page 9 ) is inserted. Where 1, =2,
+FORTRAN is instructed to interrogate the actual
+sense switch setting. Physical sense switch
+settings, however, are not available under
+Monitor control. The setting of 2, therefore,
+will instruct the Monitor to make its setting
+represent that given on the control card or
+
+by the standard setting, as above.
+
+(2) A Monitor control card for the indicator pre-
+cedes the program. In this case, the setting
+
+prescribed by this card is inserted.
+Dumping During Execution.
+
+The following statement may be used anywhere in the source
+
+program. CALL PDUMP (A, B., F. ..., A,B, F ) where the
+1 1 1 n n n
+
+maximum n is 20. The argument format for A, B, and F are
+
+the same as those given for the CALL DUMP statement.
+
+The difference between PDUMP and DUMP is that, after PDUMP
+is executed, the machine is restored to its condition upon
+entry, and control is returned to the next executable
+statement. The core dumps appear with any other output
+
+from the job on Tape A3.
+
+PDUMP is a primary name appearing on the program card of
+
+the library subprogram, DUMP.
+
+Restriction on use of PDUMP. Do not use the CALL PDUMP
+
+statement when there is a chain link on tape B2 to be
+executed subsequently. Tape B2 is used by the PDUMP
+program for intermediate storage of the contents of core
+
+storage where PDUMP is loaded.
+
+GENERAL RULES
+
+Moni tor Operations.
+
+Ze
+
+
+ud}
+Teng
+
+ 
+
+Although when under Moni tor control, a FORTRAN compilation,
+
+if desired, will produce row binary cards, the only cards
+
+acceptable for Monitor execution are columnar binary. All
+
+non-Monitor, hand-coded subprograms to be used must have
+
+correct associated program cards in proper columnar binary
+
+form.
+
+Program Limitations.
+
+a. Care must be exercised on jobs involving both compilation
+
+or assembly and execution to avoid overlapping of program
+
+and common data. Overlapping
+is permitted. If common data
+will be bypassed.
+
+b. A list of missing subroutines
+or the chain links of a job.
+a diagnostic print-out occurs
+
+the chain bypassed if a chain
+
+of program and BSS control
+
+overlap occurs, the job
+
+is accumulated during a job,
+If more than 50 are missing,
+and the job is deleted, or
+
+job. The maximum number
+
+of transfer vectors that all levels may have in a single
+
+job or chain link is 250.
+
+=] Sime
+
+
+PART II.
+
+I.
+
+INPUT
+
+ 
+
+OPERATING INSTRUCTIONS
+
+1. Job Input Decks
+
+The IBM 709 FORTRAN Monitor will process the following types
+
+of job-input:
+
+Multiple Compilation/Assembling. Input will consist of
+a number of FORTRAN or FAP source decks. These are to
+be compiled or assembled only. The input deck for each
+
+such job will contain, in the order listed:
+
+1.D. Card
+Source deck, » preceded by control cards governing
+output, if any
+
+Source deck, preceded etc....
+
+Source deck
+
+) ere
+
+END-OF-FILE card if input from on-line cards
+
+Compilation/Assembling and Execution. Input will consist
+
+of one main program and all its subprograms to be compiled
+and executed together with the data. These programs may
+
+be a mixture of FORTRAN or FAP source subprograms and
+machine-language object subprograms. The object subprograms
+may be relocatable columnar binary output from either a
+previous FORTRAN compilation (with the Transfer card, if
+any, removed), or from a FAP assembly, or from other hand-
+coded subroutines for FORTRAN. The input deck for a job
+
+of this type will contain in the order listed:
+
+I1.D. Card
+XEQ Card
+Object program or Source program, , preceded by any
+
+relevant output option control cards
+
+-16-
+
+
+Object program or Source, . ..
+Object program or Source
+DATA Card
+
+Data deck, if any
+
+END-OF-FILE card if input from cards on-line
+
+Chain Job. Input to a chain job consists of the Chain
+link decks to be compiled and executed together with their
+data decks. The chain link deck contains a main program
+together with all its subprograms, where any or all of
+these may be source or object decks. The Link deck then,
+
+in the order listed, contains:
+
+CHAIN (R,T) for this particular link
+Object program or Source program, , preceded by
+relevant output option control cards
+Object program or Source,,...as above
+Object program or Source
+The input deck to a Chain job in the order listed, contains:
+I1.D. Card
+XEQ Card
+Link deck, see contents listed above
+
+Link deck,
+
+Link deck
+
+DATA Card
+
+Data decks, if any
+
+END-OF~-FILE Card if input from cards on-line.
+
+There is no restriction on ordering of the Link decks in
+the Chain deck, but it is most economical of execution
+time if links are stacked in the order in which they are
+
+called.
+
+Since the Monitor checks the type of cards and ''looks for"
+
+ 
+
+i]
+
+
+the various control cards, source decks (with or without data)
+and object subprograms may be intermixed in the same job-file.
+The different types of job-files may be intermixed on the same
+
+input tape.
+1X1. DIAGNOSTICS
+FORTRAN compiler diagnostics are indicated by messages on the on-
+line printer. The Monitor has its own diagnostics, independent
+of the FORTRAN diagnostic system. On-line operator options for
+
+machine error stops, however, are given in the same way.
+
+11. STOPS
+
+ 
+
+50g 1-CS stop. Bad library tape or check sum, Depress
+the Start Key to try again.
+
+417 Card-to-tape Simulator stops. Stops with HPR 7777g
+in storage register. Illegal card character code.
+
+4214 Stops with HPR 777774 in storage register. Redundancy
+
+ 
+
+error in writing tape. For the stop at either 417g
+
+or 421g to re-write the bad record, empty the card
+
+reader hopper, and feed out all cards in the card
+
+ 
+
+reader (followed by the remainder of the deck) in
+the hopper; ready the card reader, and depress the
+Start Key.
+
+25g Stop at object time. Redundancy tape check while
+reading a chain link at object time. Five attempts
+have been made. Location 23g will have tape number
+
+in the address.
+
+=] Ge
+
+
+—
+
+Sy aot Be
+BAL Lg
+
+PART III.
+
+ 
+
+SYSTEM NOTES
+—————————
+
+The following is given as Supplementary informa
+the 709 FORTRAN Moni tor,
+the FORTRAN System tape pl
+
+tion on the operation of
+The Moni tor proper occupies the first file of
+Us records 42 and 43 of the second file.
+1. Tapes used
+
+by the 709 FORTRAN Monitor system.
+Al - SYSTEM
+
+AZ - INPUT (NOT REWOUND BY MONITOR)
+A3 - OUTPUT (NOT REWOUND By MONITOR)
+A4 - FORTRAN INTERMEDIATE
+
+Bl - MONITOR INTERMEDIATE (NOT NEEDED UNLESS EXECUTION IS
+REQUIRED)
+
+B2 - FORTRAN INTERMEDIATE
+
+B3 - FORTRAN INTERMEDIATE AND BINARY OUTPUT
+
+B4 - STACKED BINARY OUTPUT (NOT REWOUND BY PROGRAM) .
+
+NOT
+
+NEEDED IF ALL PROGRAMS CALL FOR PUNCHING COLUMNAR BINARY
+CARDS, OR
+
+IF SENSE SWITCH 6 IS DOWN.
+
+=] Ge
+
+
+APPENDIX
+
+Monitor Control Cards.
+
+ 
+
+These cards have an '*'" in column 1, and, with the exception of the I.D. Card,
+
+the mnemonics are in columns 7-72.
+
+columns 2-72.
+
+ 
+
+Card Mnemonics
+Li (1.D.) Optional
+2. XEQ
+a DATA
+4, CHAIN(R,T)
+De END TAPE
+6. LIBE
+
+Position in Deck
+
+Must precede the first card
+in a job.
+
+Must follow the I.D. card
+
+of a job to be executed.
+
+Must follow the physically
+last subprogram of a job
+
+to be executed and precedes
+the data, if any, for that
+job.
+
+Must precede the physically
+first subprogram of each
+
+chain link.
+
+Must follow the last file
+
+on the input tape.
+
+Must immediately precede
+source subprogram to which
+
+pertinent.
+
+- 2
+
+The I.D. Card may contain information in
+
+Function
+
+Used for identifying
+and accounting informa-
+tion. Signals beginning
+of a job.
+
+Instructs the Monitor
+that this job is to be
+
+executed.
+
+Signals to Monitor that
+no more subprograms in
+this job follow on the
+
+input tape.
+
+Identifies the Chain link
+by record number, R, and
+
+tape, T.
+
+Signals end of input.
+
+Instructs the Monitor to
+search the FORTRAN
+Library for subroutines
+during compilation and
+to include these with
+
+the object subprogram.
+
+
+CARDS COLUMN
+
+ 
+
+Must immediately precede
+source subprogram to which
+
+pertinent.
+
+Must immediately precede
+source subprogram to which
+
+pertinent.
+
+Must immediately precede
+source subprogram to which
+
+pertinent.
+
+Must immediately precede
+FAP symbolic cards and
+follow the Monitor control
+
+cards for the FAP program.
+
+DY owe
+
+Instructs the Monitor to
+list the object sub-
+program in FAP-type
+language on the output
+
+tape.
+
+Instructs the Monitor to
+punch on-line standard
+FORTRAN relocatable row
+binary cards, preceded
+by a BSS loader if a
+
+main program.
+
+Instructs the Monitor to
+punch on-line columnar
+binary relocatable card
+(no loader) and not to
+stack the binary output
+tape B4 for peripheral
+
+punching.
+
+Instructs Monitor to
+perform FAP assembly on
+
+the follow-FAP program.
+
+

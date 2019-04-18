@@ -1,0 +1,57 @@
+or higher level; such programs do not produce computed numbers,
+
+they produce programs which then produce numbers, thereby increasing
+mechine time somewhat but reducing considerably the time and effort
+of the occasional user.
+
+The TO4 at the Center has available the usual assembly
+programs - the SAP and the more ambitious FORTRAN systems. The Center
+staff have already added improvements to these, such as a Post Mortem
+program so that the TO§F may help in analyzing coding errors. They
+are engaged in setting an Automatic-~Operator System which will con-
+siderably increase the efficiency of use of the machine. In addition,
+they are investigating various possibilities of making the next big ‘
+step in translation from "mathematical language" to "machine language",
+beyond Fortran. :
+
+As more and more computations are done on 7O4's, more and
+more programs are written which can be used by others desiring to
+carry out similar computations. Each such program, to be useful, of
+course must have ifs write-up giving accuracy, limits of validity and
+other explanatory and cautionary remarks, and must be prepared in card-
+deck or magnetic tape form so it can be readily inserted as a part of
+some overall program.
+
+Preparation of such a library of sub-routines is part of the
+task of the staff. Even the routines put out by the SHARE organization
+(the users of 704 machines) had required testing and evaluating to be
+useful for our open-shop operation. The SHARE Library is also deficient
+in regard to function generation. Conseguently some of the routines
+developed for Whirlwind are being re-programmed for the TO4 and the
+special funection routines, developed at Los Alamos, are also being
+adapted for our library. By spring we should have a more complete
+library than many 704 installations and probably one more spread in its
+applicability than most.
+
+The present staff of the Center is inadequate to keep up with
+the day-by-day demands for help and for preparing sub-routines for
+general use. Consequently, work on the more ambitious systems for
+simplifying machine control, which are planned, is going slowly. Unless
+more staff can be employed, the machine®s usefulness to the faculbty
+and students of the cooperating colleges and universities will be more
+limited Than we would desire. ‘
+
+‘pevelo%ment.gg.Auxiliary Equipment - 1In many experiments a
+
+great number o ata are recorded, which must then be analyzed graphically
+or analytically before results of scientific interest emerge. If the
+
+data must be transcribed several times errors arise, and much time is
+
+lost if such transcription in analysis is done by hand. In many cases
+
+it turns out to be worthwhile to arrange to have the data recorded in
+
+a form which the 704 will accept and to program the machine to carry
+
+out the analysis and to record the results in understandable form.

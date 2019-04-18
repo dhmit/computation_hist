@@ -1,0 +1,42 @@
+Irn Tfrsch —rces Comphalf
+
+COMPUTATION CENTER
+Massachusetts Institute of Technology
+Cambridge 39, Massachusetts
+
+709 Computer Time Allocation
+
+Herbert P. Galliher
+
+Room 6-218
+MIT
+M588 WAITING LINE COMPUTATIONS, POISSON ARRIVALS, CONSTANT
+
+HOLDING TIME
+
+Time allotted for the period ending June 30, 1961 is 0.50 hours.
+
+Dear sir:
+
+Above is the allocation of 709 computer time for your problem
+for the period April 1, 1961 through June 30, 1961. The Center, by
+modifying its scheduling policies, extending its daily and weekly
+operating periods and improving the FMS programming system, has so
+far managed to keep pace with a demand which has doubled in the last
+six months. Past experience has shown that this quarter, however,
+because of thesis deadlines and the other end-of-the-year deadlines,
+has always produced the largest demand for computer time. It has,
+therefore, been necessary to scale down most allotments. We must
+again warn you that, unless you schedule your computer usage over the
+quarter, work-load peaks may make it impossible for you to realize
+this allotment.
+
+Sincerely,
+
+/
+F. J. Corbato
+Associate Director
+
+FJC: SP
+
+

@@ -1,0 +1,623 @@
+Nat'l Bur, of Stds.
+
+Prov'l Int'l Comp,
+Centre, Home
+
+Rand Corp. Philip Wolfe
+
+L.S, Shapley
+
+Oliver Gross
+
+Stanley Cohen
+
+Fdward Bedrosian
+
+L,S, Shapley
+
+T.A, Harschak
+
+R, Bellman
+R, Kalaba
+Lincoln Lab,
+IBM
+Rand Corp, 0, Gross
+Northwestern U, A, Charnes
+
+W.%W, Cooper
+
+ 
+
+A Wi
+
+_DOCUNENT ROOM
+MIT COMPUTATION CENTER
+Cambridge 32, Massachusetts
+
+ACCESSIONS LIST
+
+September - October 1959
+
+Tables of the Bivariate Normal Distribution
+Function and Related Functions, App, Hath, |
+Series #50, June 15, 1859,
+
+Multilingual Termineclogy of Information
+Processing, June 1959,
+
+The Simplex Method for Quadratic Programming -
+Notes on Linear Programming and Extensions,
+Part 51, RE-2388, June 1, 1839,
+
+On Network Flow Functions, Notes on Linear
+Programming and Extensions, Part 530, RM-2338,
+March 16, 1959,
+
+An Optimal-Inventory Hodel , RM-2279, Oct, 24,
+1958,
+
+Relativistic Self-Consistent Calculetion for
+
+the Normal Mercury Atom, RR-2272, July 28, 1958
+
+On the Growth of Duty Cycle in Intermittent
+Communications Systems, RE-2259, Sept, 23, 1858
+
+Complements and Substitutes in the Optimal
+Assignment Problem, RW-2240, Aug, 22, 1938,
+
+A Spatial Model of U.S, Petroleum Refining,
+R¥-2205. June 30, 1938,
+
+Some Applications of Dynamic Programming to
+Communication and Information Theory, RM-2180,
+June 3, 1938,
+
+Whirlwind Programming Manual , 28-0277, Oct, 31,
+1558,
+
+In Brief: New Publications of the Data Proces-
+ging Division, Vol, 2, #1, Jan, 1939,
+
+A Mechanized Proof of the Min-iHax Theorem,
+Ri-2320, Jan, 26, 1859,
+
+Mixing Routines for a Class of Coupled Hodels,
+CNR Res, Memo #18, May 1959,
+
+
+David Taylor
+Model Basin
+
+iBM
+
+John Wiley & Sons
+
+ 
+
+Gen'l Electric
+
+Computer Control
+
+Co,
+
+Tufts Univ,
+
+David Taylor
+Model Basin
+
+ch
+
+Computer Con
+
+Rand Corp.
+
+ 
+
+SY
+TOL
+
+G.C, Newton, Jr,
+
+T.S, Walton
+H, Polachek
+
+o Yorsythe
+
+E
+.C., Rosenbloom
+
+D.B. Devoe
+
+¥F
+
+oN, Frenkiel
+
+&
+
+&“
+
+Automation in the Soviet Union (Report on
+a visit to the USSR) 1953,
+
+Calculation of Nonlinear Transient Hotion of
+Cables, Rept, 1279, July 1959,
+
+Corrections to the Data Processing Package
+for the IBM 704 ,
+
+IBM 650 DPS Bulletin: IBM 650 Model 4
+(4000 Word Magnetic Drum)
+
+IBM 650 DPS Bulletin: Immediate Access Storage,
+Indexing Registers, Automatic Floating - Decimal
+Arithmetic, and Magnetic Tape, Form G24-5003-0
+June 1959,
+
+Production Line Balancing at Westinghouse with
+the IB 650 DPS, E20-4037, 1959,
+
+Plate to Plate Distillation Program for the
+IBM 650 with Additional Features ~ Bonner &
+Moore Engneering Associates, B20~4032, 1959,
+
+Inventory Control at Dennison Mig, Co, on the
+iBH Ramac 305, E20-2037-0, 1959
+
+IBM Commercial Translator, F28-8013. 1259,
+
+Rumerical Am lysis and Partial Differential
+Equations ~ Surveys in App, Math, vo, 1958,
+
+Computers - Electronic Assistants for the
+Space Age. ED1283(6-~59)500E GEA-59API-T75
+
+SPEC (Stored Program Educational Computer)
+Adv, brochure S=1
+
+An Analysis of Some Games of Fun and Strategy,
+3C-Gram Book #1,
+
+Bibliography on Uses of High-Speed Computers in
+Psychology.
+
+Comparison Between Molecular and Turbulent
+Diffusion Processes, Rept, 1320, July 1959.
+
+Symbolic Logic Boolean Algebra, and the Design
+of Digital Systems 20H~759-BA, 1859,
+
+rogramming to a
+Problems, RH-2354,
+
+”
+
+-—.
+
+A oe «3 voy
+On the Application of
+" ~ £7 Todt
+
+Class of Implicit Var
+
+April 6, 1859.
+
+
+TX~0 Computer Group J.B. Dennis
+
+Reprint from
+Jr, of ACH,
+July 19359
+
+Nat'l Bur, of
+Stds
+
+Univ, of Blichigan
+
+Johns Hopkins Un,
+
+Ballistic Res,
+Labs,
+
+MIT Servo, Lab,
+
+MIT Meteor, Dept,
+
+Midwast Res, Inst
+
+New York Univ,
+
+oniv, of Mich,
+
+F_.J, Corbato
+J.L, Uretsky
+
+B.A, Galler
+HM.,J, King
+J.C, Wiltse
+R,G, Bridgham
+
+G.W, Reitwiesner
+ME, Veik
+
+EN. Lorenz
+
+Y.L., Luke
+
+“3
+w
+
+A Proposed Index Register for the TE-O
+Computer. M-5001-3, August 3, 1959,
+
+Macro II - An Improved Version of the Macro
+Conversion Program, M-5001-8. August 5, 1959,
+
+Proposals for Additions to the TX~0 Order Code,
+Aug, 6, 1859,
+
+Proposed Revision of the TX~0 Operator Command
+H~5001-10, August 6, 1859,
+
+New Flexowriter Type Face,
+Aug, 27, 1959,
+
+E-5001~11
+
+Generation of Spherical Ressel Functions in
+Digital Cecmputers,
+
+Supplementary List of Publications of the Nat'l
+Bureau of Standards, July 1, 1957 to June 30,
+1959,
+
+The Manual for the Michigan Algorithmic
+Decoder (Mad) 1959,
+
+The University of Michigan Executive System,
+
+Lerivatives, Zeros; and Other Data Pertaining
+to Mathieu Functions, Contract PAF33(616)2-3374 _
+Dec, 1958,
+
+Generation of Spherical Bessel Functions of
+Imaginary Argument, S_B. Thesig, 1957,
+
+Survey of the Field of Mechanical Translation
+of Languages, Report 1147, Hay 1958,
+
+Research in Defense Technigues for Airborne
+Weapons, Vol, 2 of 2: Data Processing and
+Component Studies, Rept, 7663-R-5(2) April 1858,
+Contract AF33{(616)3950. :
+
+Prospects for Statistical Weather Forecasting,
+Jan, 1958, Contract AF19(804)1568
+
+On Economic Representation of Transcendental
+Functions, Tech, Rept, Feb, 3, 1938,
+Contract HS0Q{187)44208
+
+Guasi-~Tridiagoral Matrices and Type-Insensitive
+Difference Equations, NY0-2542. May 1. 1959,
+£ Visit to ths Soviet Union, Aug,
+1858.
+
+27-Sept, 10,
+
+
+" - 3
+Recordak Corp,
+
+vs
+
+KB
+
+Western Reserve U,
+
+HIT Sch, of Ind,
+
+Mgt ,
+
+i
+
+MIT Sch. of Ind,
+Mgt.
+
+Argonne Nat'l Lab,
+
+MIT Photogrammetry
+Lab,
+
+MAT Servo, Lab,
+
+Blliott Bros.
+
+HM, Wadsworth
+R,.E, Booth
+
+MM, Greenberger
+
+P, Fox
+
+BP, Fox, A, Pugh,
+E, Roberts
+
+DD, Howard
+
+GG, Duren
+
+L, Kassel
+
+A.S, Lang
+
+C.L, Miller
+DH, Robbins
+
+¥, Matsa
+MM, Matsa
+
+    
+
+4
+
+gn
+
+The Minicard System. R3-30, A-934_ Nov, 1958,
+
+Yu
+A Minicard System for Documentary Information, ©
+by Buipers, Tyler, K and Myers, Reprinted from &
+American Documentation, Vol , VILE, #4, oO
+
+gd
+The Application of the Kodak Minicard System £ :
+Problems of Documentation (same authors) J rt
+
+iBM 709-7080 DPS ~ Ref, Man, A22-6503, 1959,
+
+The Application of Statistical Decision Theory
+to Problems of Documentation, Tech, Note 8,
+March 8, 1989, Contract AF 49{638) 3867,
+
+Astia No, 215 223,
+
+The Processes of Documentation, Tech, Note #7.
+Feb, 18, 1957, Contract AF 49(638)357,
+Astia No, 211 804,
+
+ 
+
+ 
+
+ 
+
+Random Number Generators. March 6, 1939,
+
+ 
+
+ 
+
+ 
+
+Random Number Generators Used im Dynamo.
+April 22, 18359,
+
+ 
+
+ 
+
+DYNAMO, An IB¥ 704 Program for Generating
+Dynamic Models, Feb, 16, 1959, D-30,
+
+ 
+
+ 
+
+GEORGE Programming Manual, ANL-5935, Nay 1859.
+
+Progress Report on the Development of a
+Computer Program for Determining Vehicle
+Operating Costs, Pub, 126, May 20, 1888,
+Contract 7325 = Mass, HPS-1(13).
+
+ 
+
+Automatic Programming of Numerically Controlled
+Machine Tools, Rept, 6873-iR-4 and 5,
+April 1, 1957 to Dec, 31, 1957,
+
+A Simplified Representation of ths National=
+¥liiott Electronic DPS 405 (Adv, brochure)
+
+(Brief announcement of 4057)
+
+National-Elliott 405 Integrated Data Processing,
+Undated,
+
+Specification of the Elliott 403 Electronic
+Digital Computer, Undated,
+
+Elliott 402 (Adv, brochure} 1958,
+
+Programming the Elliott 402E and 402F |
+Electronic Digital Computers, S-1038B, April 1958.
+
+Programming the Elliott 405 Unit-Construction |
+Business Computing System, 4th Bd, 5-45, Undated,
+
+|
+
+
+Bllictt Bros,
+
+New York Univ,
+
+HiT Servo, Lab,
+
+GUIDE
+
+Tech, Pregs and
+
+John Wiley & Sons
+
+U,&, Haval Proving
+Ground, Dahlgren,
+
+Va.
+
+MIT Photogrammetry
+Lab,
+
+The Royal Society
+
+V,S, Patent Office
+
+New York Univ,
+
+» Lab,
+
+Uptime Corp,
+
+Canadian Armament
+
+H.B, Keller
+
+AE. Susskind, Ed,
+
+4.8, Dennis
+
+CL, Millar
+R.A. LaFismme
+
+Bath, Tables
+Committee
+
+8S. MM, Newman
+RW, Swanson
+
+nD, Ludwig
+
+Project Staff
+
+R&D Establishment
+
+  
+
+5
+
+National-Elliott 802 Desk Digital Computer,
+Advance Info, (Adv, brochure) (Attached also
+are brief reports on “"Time-Sharing on the 802"
+and "Programming the 802") Undated,
+
+Special Block and Line Iterations with Appiica-
+tions to Laplage and Biharmonic Difference
+Equations, NYO~86792, Jan, 1} ; 1989,
+
+Notes on Analog-Rigital Conversion Techniques,
+
+Proceedings of 8th Seasion of GUIDE (iB 705)
+May 6-8, 1959, Pennaylvania,
+
+Hothematical Programming and Flecirical Networks,
+1959.
+
+Computing Programs for the Complex Exponential
+integral, NGP Rept, 1646, June 1, 1859,
+
+Digital Terrain Model System Manual of Electronic
+Computer Programs for Highway Location and De-
+8ige, Part I: Bngineering instructions,
+
+Prelim. Ed, Aug, 1, 1938,
+
+Sane -
+Pr 2] i mm \
+
+Jart Ei: Operating Instructions,
+Ed, Aug, 1, 1958,
+
+Sauwe - UBA-2, Four-Point Polynomial Interpolation
+Frogrem, Hay 1, 1959,
+
+Same ~ Reconnaissance EBarthwork Program EW-1
+Ap=11 1839 (IBM 650)
+
+Progrosg Rept, #12, March 1958,
+
+A Notation System for Transliterating Technical
+and Scientific Texte for Use in Data Processing
+Systens, Rept, #5, May 22, 1959,
+
+Exact znd Asymptotic Solutions of the Cauchy
+Prol.lsm., NYO-2545, Sept, 8, 1838,
+
+Autimatic Programming of Numerically Controlled
+Mach i Yoole, Jan, 1958 to June 1958, Report
+6877-11-53 and 7, Contract AF33{(068)24007
+Specireader 2000 (Adv, pamphlet)
+
+A Stuly of Physical Systems Through Signal
+
+Flew irzcphs, Part 2: Direct Analysis of
+Elec tvliaal Networks, Tech, Hemo, 167/57.
+
+San 339 o
+
+
+Wright Alr Dev,
+Cir,
+
+Zator Co,
+int'l Comp, Cir,
+
+Mauchly Assoc,
+
+Reprint from
+Business Week,
+Mar, 21, 1858
+
+Reprint from
+Operations Res,
+May-June 1953
+
+-
+
+RS, Whitlock
+
+R.,J, Bolomonoff
+
+3.E, Kelley, Jr.
+MR, Walker
+
+Mauchly Assoc,
+
+Rem, Rand,
+J.B, Relley, Jr,
+
+ 
+
+Techniques for Applications of Electron Tubes
+in Military Equipment, Dec, 1958, WADC Tech,
+Rept, 58-446,"Vol, 1, Astia AD 205363,
+
+ 
+
+ 
+
+Regearch in Inductive Inference for Year Ending
+March 31, 1959,
+
+Prelim, Report on 4th Meeting of Preparatory
+Committea, August iB, 1959, CIPC/30.
+
+Critical-Path Planning and Scheduling, 1959,
+
+Better Plans Come From Study of Anatomy of an
+Engineering Job,
+
+Parametric Programming and the Primal-Dual
+Algorithm, 19358,
+
+

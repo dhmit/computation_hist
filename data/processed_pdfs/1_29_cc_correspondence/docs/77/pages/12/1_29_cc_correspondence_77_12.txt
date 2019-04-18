@@ -1,0 +1,53 @@
+VARIABLE
+FIELD
+
+as follows: First, all integers are taken as octal and
+must be less than 236. The operations "“*' and '"/" are
+carried out from left to right, all quantities being
+
+regarded as having 36 bits, and then "+" and are carried
+out from left to right, all quantities again regarded as
+having 36 bits. The rightmost 18 bits are preserved and
+
+the remaining bits discarded; in the variable field of a
+VFD pseudo-operation, the number of bits preserved may
+
+vary from 1 to 36. Any use of a non-Boolean symbol in a
+
+Boolean expression constitutes a Boolean error and is
+
+illegal.
+
+To specify completely a 709 machine operation, the pro-
+grammer can, and sometimes must, specity certain combinations
+of address, tag, and decrement (or count). For example, a
+TIX operation requires an address, tag, and decrement; LXA
+requires an address and tag, but should not have a decrement;
+CLA requires an address and may have an (operative) tag, but
+should not have a decrement; PXA requires a tag, should not
+have a decrement, but may have an (inoperative) address; and
+CLM should not have any address, tag, or decrement. The
+
+address, and/or tag, and/or decrement, of an instruction are
+
+specified in that instruction's variable field, in that order.
+(Note that this is the reverse of the internal machine order,
+
+which is decrement, tag, address.) The subfields are separated
+
+by commas, e.g.:
+
+LOCATION oP VARIABLE FIELD
+
+TIX ALPHA,4,1
+
+specifies an address of ALPHA, a tag of 4, and a decrement
+of 1. The end of the variable field (except in BCI, BCD,
+and literals, see below) is signalled by the occurrence of
+the first-glggg character in scanning from left to right.
+Hence there must be no blanks between subfields or within
+subfields of the variable field. For those operations which
+
+require a tag but no address, the address zero should be
+
+=10~

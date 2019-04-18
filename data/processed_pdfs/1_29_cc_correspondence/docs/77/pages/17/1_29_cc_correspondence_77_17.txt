@@ -1,0 +1,50 @@
+BOOL
+
+ 
+
+instruction, then the number of iterations to be performed
+may be altered simply by changing this one card and re-
+assembling. The assembler performs the EQU pseudo-operation
+as follows. The symbol in the location field is given the
+value of the expression in the variable field. The value
+
+of the location counter remains unchanged. A symbol defined
+by an, EQU pseudo-operation is absolute, relocatable, or
+common according as the expression in the variable field is
+absolute, relocatable, or common. However, the expression
+in the variable field must be a valid expression. In
+addition, all symbols appearing in the variable field of
+
+an EQU pseudo-operation must have been previously defined,
+i.e. the cards defining the symbols used in the variable
+field of the EQU pseudo-operation must procede that EQU
+
+card in the program deck. A violation of this restriction
+is called a 22253.35525' Note that the requirement that
+symbols be previously defined, which applies to several
+
+of the pseudo-operations, does not apply to an expression
+
+in the variable field of a 709 machine operation.
+
+The symbol in the location field of the BOOL pseudo-op-
+eration is given the value of the expression in the variable
+field, computed as a Boolean expression. (In particular,
+all integers are octal, but see the section 'Boolean
+Expressions'' above.) The value of the location counter
+remains unchanged. A symbol defined by the BOOL pseudo-
+operation is a Boolean symbol. All symbols appearing in
+the variable field of a BOOL pseudo-operation must be
+Boolean and must have been previously defined. The ap-
+pearance of a non-Boolean symbol in the variable field
+
+of a BOOL pseudo-operation is a Boolean‘gzﬁgﬁ; the appear-
+ance of a symbol which was not previously defined is a
+phase error. The BOOL pseudo-operation is useful for
+defining program parameters which are most meaningful
+
+when expressed in octal, such as a tape address or the
+
+mask of a type-D machine operation.
+
+=]i5=

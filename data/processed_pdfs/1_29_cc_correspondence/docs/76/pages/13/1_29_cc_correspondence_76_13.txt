@@ -1,0 +1,62 @@
+to initiate the next job. If no arguments are
+
+given, all of core storage is dumped in octal—
+
+this feature should not be used normally. The
+
+last format indication may be omitted, in which
+
+case it will be assumed to be octal.
+
+Example:
+
+22
+
+Consider the FORTRAN Source Program
+
+DIMENSION A(100), C€(100), B(100), N(100)
+COMMON B
+DO 22 I=1, 100
+
+A(I)
+B(I)
+N(I)
+C(I)
+CALL
+END
+
+(1)
+
+(2)
+
+(3)
+
+= FLOATF (I)
+= EACD)!
+
+= I
+= SN(I)
+
+DUMP (?)
+
+To dump the array A in floating point,
+the CALL DUMP statement would be
+
+CALL DUMP (A,A(100),1)
+To dump both the A and N arrays,
+CALL DUMP (A,A(100),1,N,N(100),0)
+
+To dump in octal with mnemonics from
+absolute location 10010 to the array N
+but not including the array N, another
+
+statement is required:
+
+I, = XLOCF(N) - 100
+CALL DUMP (N(L),N(101),3)
+
+The use of this procedure, since it in-
+
+volves an absolute location, is not
+
+=19

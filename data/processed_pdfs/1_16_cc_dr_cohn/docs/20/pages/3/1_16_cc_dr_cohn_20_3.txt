@@ -1,0 +1,118 @@
+ALMOST-ALGEBRAIC NUMBERS 1043
+
+the partial sums. Thus the root of our power series must be transcen-
+dental. By this method we can obtain some transcendental numbers
+
+* which seem to have previously escaped notice.
+
+2. Approximation of a fixed algebraic number by an arbitrary alge-
+brai'c number. We let 8 be a fixed algebraic number of degree » whose
+
+denominator is fo, that is, 8 satisfies the equation with integral co-
+
+efficients 40" 4 60"+ - - - + £, = 0.
+
+We consider « the root of an arbitrary polynomial with integral coeffi-
+
+cients o o
+Denoting maxl f.-l by 4 [qS(x)], we shall measure the closeness of o
+to 6 by the smallness of #(0) in terms of 4 [6(x) ].
+
+Now setting ¢(x) =fox™+fitox™ '+ - - - +folg, we find ¢(0) can be
+written as &(1,8) /£, where t,0 is an algebraic integer. Thus if we multi-
+ply ¢(#) by its conjugates, we obtain
+
+(2) [160) = {TI6wd) } /0 = M[s®)]/ta
+
+where M[¢(0)] is an integer. If ¢(0)#0, then the same inequality
+holds for the conjugates of # and thus
+
+(3) | M[6(®)]] = 1.
+For any conjugate of 6, we find easily
+(4) |6 | = 4[e(»)]T7,
+
+where 7 is a constant determined by 6.
+Hence if ¢(0) #0, we obtain from (2), (3), and (4)
+
+n—1_m(n—1) mn
+[6@) | 2 1/{Ale@=])" 17" 45
+In short, if 0 is algebraic of degree n, then for an arbitrary polyno-
+mial ¢(x) of degree m with integral coefficients no greater than A [¢(x) ]
+in absolule value,
+
+=0or
+(5) |¢(0)| { n—1__m
+
+2 1/{(4[s(x)])" 151,
+where Ty depends only on 8. We should note in passing that if ¢(x)
+= —p~gx, then (5) is Liouville's theorem.
+
+3. Construction of transcendentals. We shall construct a power se-
+ries o(x) =ap®+a,x4agxer 4 - - - (e;20), where a; are rational
+fractionsr;/s; (¥0), and ¢; are increasing integral exponents. For sim-
+
+ 
+
+1044 HARVEY COHN [December
+plicity set ao=1. Let o5(x) be the ith partial sum (up to and including
+the exponent ex). Then of the coefficients a; in ox(x) let g be the
+maximum |a.-| (gn21) and let dx be the least common multiple of
+the denominators s;in oa(x). Then if as h—s oo, en+11s of a higher order
+of infinity® than es, log gs, and log d,, we find that o(x) is transcen-
+dental for all algebraic x within its circle of convergence, except x =0.
+To see this, let x take the algebraic value 8 of degree n within a
+circle of convergence of radius p. We suppose E(g) to be an arbitrary
+polynomial of degree k with integral coefficients of which the greatest
+has the absolute value 4 [E(¢)]. Then we wish to show E(a(0)) 0.
+First we write E(o(x)) as partial sum and remainder
+
+E(o(x)) = E(on(x)) + Ra(x).
+
+Now ¢5(x) =dxE(ox(x)) is a polynomial of degree ke, with integral
+coefficients. I'ts maximum coefficient 4 [¢p4(x) ] easily satisfies the con-
+dition
+
+Alpn()] < & X A[E@) |(h + 1),
+
+an(k + DA[E@) |k + D)t
+
+since any coefficient in the polynomial ¢, (x) is less than the value this
+polynomial assumes when we replace each a; by g, and set x=1.
+
+Furthermore, since E(¢) has only a limited number of roots,
+E(g4(60)) can not vanish for all %. For, when & changes to h+1, o4(8)
+changes by a0+, which approaches zero as & approaches infinity,
+although this term never vanishes, =0 having been excluded. Thus
+by (5), for an infinity of valuves of 4,
+
+1A
+
+k k k ky—-ntl,_—ke
+| nE(on(0)) | 2 {di(k + DA[E@)](h+ 1) g}~ T2 .
+But since % can not exceed 2¢ (or even e;), we can simplify the last
+inequality and obtain
+kA —(n=1)k _—ep
+
+(6) | E(en(0)) | = dn g Ty
+
+where 773 depends only on 6 and on E(c) as a polynomial in o.
+On the other hand Rx(6) =E(c(0)) —E(ax(f)) and, by elementary
+
+considerations,
+(1) | Ru®| £ Tu| o0) — aa(®) | £ Ts| @/0) /(1 — 9/p)|
+where 7% is determined by a(x) and E(e), independently of A.
+
+5 If we have two quantities % and v each depending on % we say # is of a higher
+order of infinity than v, if #/v— « with k.
+
+PRI T o
+
+ST e s = =
+
+ 
+
+E
+L
+!
+
+ey

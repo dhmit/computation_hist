@@ -1,0 +1,67 @@
+gl
+
+- Page 8
+
+w3 | Jetal iat . gers
+@ srmry-espd seeisal
+. Tinagy eards
+
+»
+
+ummmuﬁd”hhwounnthmu
+v fullawing s
+
+s e Go-1ike printer .
+B Off=Lipe privter |
+.~ Off -1ims punch
+
+The four eXpreMsliens, taken togsl.er, campletely specify a single output request.
+As an exampls , the card
+
+¢ iR SABGW,SHZ-&,PLO,FPU
+
+will ocause the post-mortem routine to record the contente of registera SABCH7
+through SXYZe2, as floating-point numbors, on the :nagnetic tepe desiznated for
+use with the off«line card punch. After obeying this request the routine will,
+in the absence of menual interventionm, proceed Uo obey the next card in sequence.
+
+———————————
+
+Remarke--the Pk Card
+
+Following the four expressions in the variable field of the FLR card
+and peparated from them by at least ome blank ecolumn, there may appear sany alpha-
+mmerical comnent. This comment will be reproduccd by the post-mortem routine,
+and will appear immediately preceding the first line of output resulting froan the
+PMR card. In the case of punched output, the comment will appeur as &an REM
+card, which is ignored dy SAP.
+
+In sddition, REM cards themselves will be read by the post-mortem
+routine, and will be treated in the samé way as comments in the variable fiseld.
+isoh RE: card will be recorded just before the nemt following riR card is cbeyed.
+Thie facility provides the user with a method for lubelling the post-mortem
+output and identifying his resulis.
+
+Terminating the Post-mortem--the TRA, TTR, and HTR Cards
+
+PUR and RE! cards will be read in sequence until a card terminating tae L
+sequence is encountered. Tnis terminating card must contain one of the operati.ns
+TRAs TTR, or HIR in its operation f'ield; the variatle field expresses an address
+exactly as it does in SAP. In response tO one of these terminating instructions,
+the contents of core memory und of the arithmetic element will be regtored and tae
+terminating instruction will be exscuted. This permits eitier resuming, compubtation
+
+or halting the computer after the completion of the posv-mortem request sequence.
+The Symbol Table
+
+. The use of synlols by the post-mortem routine implies that the symbol
+table will be mude uaccessible to ite. With the SHARE Assembly Program in its
+
+present form, this is most conveniently accomplished by using the binary symbol-
+table deck provided by the asscmblere. 4 = Yo
+
+- If.a.ny symbols at all appear in the request curds, this binery deck must
+be inserted in the curd reader together with the roquest curds. No binary louder
+should be used, for the synbol table will be read by the post-mortem routine to
+
+& core memory locetion which does not necessarily coincide with tne location

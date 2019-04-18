@@ -1,0 +1,69 @@
+The trickiest situation arises 1n converting those 70l
+
+programs that utilized the time between CPY instructions.
+
+There are on the 709 maximum allowable Cimes between tréns—
+
+mission commands exactly as there are on the 704,
+
+In the following example, it would be expected that the
+
+704 program would delay on the CPY instruction and the 709
+
+program would delay on the Load Channel instruction. (See
+
+709-7090 Reference Manual, p. 24)
+
+Example:
+
+"~ RTB
+CPY
+CLA
+
+CPY
+ADD
+CPY
+
+SUB
+
+CPY
+CPY
+0D
+
+1
+A
+A
+
+I_"\
+
+FRST
+QA
+QB
+QC
+QE
+
+RTBY 1
+RCH& - FRST
+LCHK . QA
+ICHX QOB
+ADD B
+LCHX QC
+SUR ¢
+
+ILCHX QE
+
+TCOX X
+FOCT A, , 1
+IOCT B,,1
+TOCT €, 1
+IOCT - E;. 1
+TOED: B, L
+
+The load channel
+guarantees that FRST
+has been executed
+
+guarantees QA
+executed and B in core
+
+brings in F

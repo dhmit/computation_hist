@@ -1,0 +1,710 @@
+C2
+pe
+
+§ 1 2 LG
+
+nn
+
+Digital Computer Laboratory
+Massachusetts Institute of Techanlioygy
+Cambridge 39, Massachusetts
+
+oie
+ ¥]
+©
+
+Tos P. M, Morse
+From: Arnold Siegel and Frank Helwig
+Date: October 16, 1956
+
+Subject: A PROPOSAL FOR AN ALGEBRATC COMPILER TO BE USED ON THE NIT 704
+
+Introduction
+
+The essential purpose of any automatic ccding system is to
+simplify the use of the computer for which it is designed. The first
+such systeme were concerned almost exclusively with machine code -
+utilizing mnemonic abbreviations for machine instructions and decimal
+notation for mechine numbers. Later systems introduced such coding
+aide ag symbolic addressing, preset parameters and automatic compiling
+end assembly of subroutines, but most of them remained oriented about
+the computer instruction as the basic coding tools
+
+At best, the instruction code represents an intermediate
+step between the formulation 6f a problem and its solution on a machine.
+In a computer-oriented coding system this step is necessary since the
+computer language (or an approximation to it) is the only one accepted
+by the input routines. However, it is not logically a necessary step
+since there exist other languages and other notations which are more
+natural to the originator of the problems. The use of such a natural
+language is, perhaps, the next step to be taken in simplifying the use
+of the computers
+
+The use of a language reasonably closes to that which would
+
+be employed in a fiow chart is proposed for a future MIT compilers
+
+This language would contain mathematical notation, English words and
+actual machine instruciiont. The compiler will translate any meaning-
+
+i expressions in this language into an equivalent se-
+quence of machine instrucltions and numbers in the compuier MEmOTYs
+With reasonable thought given to the compiler it is anticipated that
+the resulting program can be made at least as efficient as a program
+produced by the gverage human coder.
+
+m1. Tea ao nn Yeni epee Sh every ‘
+The use of mathematical notation ang £nglish WOYras pre sents
+
+. , . rr) ~~ Preaa gra ly nile — a Cle rl nl ro iv and
+v% least two problems which are not generally present in a compuier
+fmt victim cane mi £22 yun LG E 3 i ~ 0 Rim]
+1N8TYUCL10Nn COOS: The first of these is the lack of a snivable al=
+whabet of input symbols The sauaeyv of present aval lable Inpui
+chapped 01 1 np SA MDOLEs 4X) .Y1¢ lied | i. BP Lis GIlu ly qUVa1L30LE LALLA
+AE fe pr a 0. nd i eret rT 2% “ Bony yr . = any 1 .- > ode fin avy ner :
+preparacion aevices 1Il chig respect is well knovm and no atiempy 18
+A -— a
+” - - - “rer » 3 3 UW + 1 “ - ~ yo, 12 Te? y { ro { ~~ Ae L ~~ L = -t - oe 1
+mad2 To resolve Lhls problem | : WwOIME SUgEec Live No tation us ing the
+
+he xsi Tor a del a A hw re ener nay pw) ~~" aL 3s A rn
+
+alphabe Ls OX CXS uLliig2 input gevices will De 2 elec Lede Ine saoni prob-
+
+. ¥ ~, ~~ “ <3 ~ pram oh the ap 7 . ae ra fw nf a . - ”. :, ~—
+lem 18 one of ambDlgultyo AI any langusge used Dy human
+
+
+}
+" -
+~ ~ Mm" 5
+CA SIAL Sr
+- = ~~. het
+2 {S V1
+Sl wi
+
+ 
+
+Jeneral
+
+AGILE Sh A
+
+ 
+
+   
+
+    
+
+ 
+
+ 
+
+“» SC a
+> }
+ant » »
+
+I a aa
+
+  
+
+re eh A SH
+
+ 
+
+“3
+Loge d
+
+   
+
+ 
+
+  
+ 
+
+ 
+
+UL 3 LL)
+dific C
+
+ 
+
+rey TIO TYE
+
+ 
+
+=
+
+
+une eLons hich are peciu ar TO an 1NCaVl nad ~oaraimelr CO 3 8
+ant tr ~- - Cale oy ~ a o - " —_—— \ ~~ \ ~ h | f 2 ap “py ESE
+DLE {L. Utils « SaECOINL (JSS A - { u x ¢ fC La) \ ~ RIS ol
+-
+——— ~~ -— 4 y ~~ & \
+PN 4 {x vy =} ode nr
+ASA LN a , - L J i
+mi Tl aa 1iae + ha compd 5 nwa NT madiice 8 °C 70a ~A anbrov L2 ne Par OTA LGE A
+7 JR ot LEAST WG CALL. 2) P OOQUCE 4 LALO TAL STUOLUGULLLLG 1T0X 1 Pict or LD
+the expression On the ~ight and will assign To +he subroutine the mn
+bhe expressSt AL LZ QARL 11 asbigil ve vio LLU GLI LiLo
+siven OC the Telit The ve 46 Diss mamd in the d afinition are Ann
+gil DAL on ul "at - tes MO Wid — alate? Se? A =(L er LAS 1S Li Gl i RA A RAILERILY
+1 ES aX Teen >
+gerineo LAG
+
++
+yrogrammey defining
+
+- ~ ay
+CMP g = 17.3 W = RAD(3 « wn)
+
+The computation will be caeryied out uging the RAD funchbion with the
+la ~
+
+arguments X = 9 ww and y =m, L108 compiler or aut ol DS
+Ja ™
+
+generate any calling Sequences I required for using defined functions
+in QP pseudo-instruc tion.
+
+The third pseudo-operati.on jg concerned with transfer oF
+control during Oper: tion of a compiled program and is ealled LGC
+(logic). Any U CIP pseudo=-in struction or any machine instruction may
+be assigned a symbolic address. The LGC psa sudo=cperatlion will conge
+a program LC be compiled which will transfer conv vol to such a tagged
+operation, either ori tions ¢ or subject TO SpE ecified condibionso
+
+The LGC operablon 111 have the general form
+
+16C If A, Ge TO B
+
+ 
+
+ 
+
+"we ng 3 oo na > dw MAT - LA yy o) st 1 1 . Bb T~ - " ee I 4 3 - oe —
+
+where A is a condi ional statement which can BO constructed using
+3 ~y a * 2 - _ . N “Y i ¢ c ~ “ “yn” ] ¥ r-
+
+algebraic expressions ahd ccnnaching words such as
+
+» " - .
+mena aI YD mde aD oS 217) 5a
+Cbihetle CON oo 1X Le a Y Ti Fv Lo a ULL Ca
+~ -
+& —_ y f -t »
+» ~ v Voom > 7
+> 0 - x - “ry . i
+MRavaee Tes NOY
+1's We nave
+¢
+- 6 - a
+| HY A : ml ()io ) v NAR
+3 7 i ' iJ 1 \ A J - de
+, - | x . ’ +
+2 ~ r x -~ v \ de ‘ ; 1 r
+i (20) } | \ Ls ( 3 LU 3 ! y 1 L ' > 1 \l =z . } >
+— wr ~ - re ‘
+' ., - vs 5
+-_g 1 “+ £ at » » 1 -  f -
+) Je A o | ] U | Lo ) \ 1
+{ - % % : £1 ” , - - poy
+3» A b 1.1 i » : = | fr LN {5 Y , 1 » s
+" . 2 - ~¥ - “»
+re y OC ) ( i ] i). } 1 110
+' A
+: : .
+So eM n .
+Vv. 8
+
+
+DOL=145
+
+wd
+
+nn in the usual
+
+— Foss: " ~~ ~~ Te ~~
+SB AWD. t jek may oe
+
+employed #0 resolve anbiguities. Numbers will be wriv
+decimal form, with or without a deecims] i
+headed) will consist of alphanumeric chars
+
+-
+dd
+£2 0
+$e
+ch
+0 ot
+$d
+g
+Bo
+Qo
+© &
+{ as
+bt OY
+b=
+fr
+»
+a
+
+nwmbers. functione (and, indeed, symbolic i Ee the same
+form as variables; di stinctions will be made by context and not by form.
+
+We now describe each of the pseundo-instructions in greater
+detail,
+
+The Define Ste tatemant
+
+Define statements are used to construct function verisbles
+and have the general form
+
+DEN f [V(E}] ==
+
+whore II denotes an algebraic expression involving scalars and variables,
+T denotes The function variable being defined and T(E} denofes sny
+ordered listing of the distinct independent variables occurring in E.
+
+wt £3
+
+For example, if :
+
+a
+om Toy i
+
+then |
+VIZ) = x, 7,2 0 ¥,X,2 OF ceo
+
+and a suitable define statement is the Tolliowing
+
+o :
+DF flx,y,3) =2 ty = 3
+The compiler will accept a deline statement only if it can
+be constructed by repeated applications of the following rules:
+
+Rute J i5 an expression invelving only numbers e
+independent variables, then ff, where
+
+ox
+
+-
+$=
+#
+
+Rule lL:@ IP FE
+
+Lm
+
+DEN ¢f [V{(E)l = ©
+
+ig a function variadle.
+
+te —— ™ » . wa ad mm wens sn Srna een a p . — — — -l
+Rule 2° I FE is an SRpIeSSI0N LXV rring o Ly QUINOESTS g
+YET Ray -
+} 1 ND 3 "ery T1 ’ ”~ $e Hot ~ SN, SE nh] 1 ~~ ~~ rd =
+Lhgepanaely va riableg and I. denotes the AXPISSSL0N0 S08 l0ed ICM A
+Mr sara pare 3X aon mii A - iy red rn Se TY VE ene em “se 3 r,
+3% zoplacing an in dep sndens variable in ® RY Any eXX SE33.01 \LIETO. i
+- ~ ~ SEIN a 1
+By : a re wr rea 3 ye YT Ee 2 bi rrorg
+nunbars 3 independen b variables and function variaple 3) veil 1 INE
+TNTOAY ™ fxr - \ 7} ™
+BIBI T iV (1: jg. = 4
+Riel mh% hw AYE =
+he ——
+Lo . - y
+is a fuicvion *iable-
+’
+of prs Ca SNE 1 - i y
+‘or exeiple, if f{=Z.v.3) is < ned as above 1 5 aid
+- - oh
+here
+NT As 2 AS me wf
+JOFN BF on, = Liha V }
+
+
+\TI'AT 5 - - Lo
+DIN hix.¥.Z.L) =
+. Jo E24 ely
+ape function variables,
+A — - JY ~ XL on os of=
+A set of define statements
+
+Vv
+
+f= 9
+=
+
+iler |
+
+and only if each
+e sot is uniquely and
+
+Bop
+
+oe -~
+uh
+
+Thus the set
+
+~1
+
+DFN f(x) =x +
+
+DIN £(y) =3 © ¥
+
+is
+
+=
+
+S
+
+=
+
+pp &
+
++5
+
+DFN f(x) =
+
+is undefined and
+
+a
+
+pot
+
+illegal since
+
+D
+
+not uniquely defi
+
+’
+
+E\
+
+IF amr ale Cg dor)
+
+LAX CVU 40)
+
+in a pr OE Tan wil 1 aceen " bie
+off the function i SOM.
+
+bd
+
+xplicitly defined.
+
+1
+
+-~
+:
+
+ined, the set
+
+aK
+
+DEN ¢{x) = zx)
+DEN gly} =3y + v o £(y)
+
+3 3 ~ 3 © A om  rvven"] 73
+is illegal since © and g are 1.mpLic
+
+n - >" da 3% p= - - » . " - v0. he uN. — 0 ysl
+The compiler Will vranslate cach define scatomaens 1NCO a
+44 r y I= ) ea oye ¥ Ns wer para At
+closed subroutine which will evaluate the furcyion WDRNEVaTr LU 4S
+REIT LTT
+A m4 morris - B03 mam day hg de} «vr a Le rt 3
+axecubed. The symbol used to identity the function, 1oc8e, L, Wil.
+1 -~ A ~ - - x | — oa fe 2 ” Av A . “" > AV ~ a
+be reserved as a symbolic address Ae3ighating the entry point OL GN€
+~ on ~ 1 on ii) 4 - - oe i Se L wn , EY Te an
+compiled = subroutine. This means that the Tuncvion C&l Le ava luated
+Bey we “ we Et T aa " po SUT ~~ ru of = Fm oF WTI
+DY ‘ machnile BARS ol 1G ion QL Lc I JL
+TE
+oA 1 . 4.
+MM). an wf} pnts Aen wee — pha wr peed Le 3D wey vu] ete pm SD
+Ji 18 Tnaepenaenc vou = applies LDVOo.LvVal Lu one gelinielion Gl E
+function wiil ocCOe prepman NErapt are for the coprresponcing Sul
+_ I ha - - . BERN np ou -1 yoy \ . 5. a rr" J. » - ~ ®-- A . SY L
+routine. The programme Call Wrluve ma shine ingtruetions rorexzily i
+eS Pm O1 — ny ~ wn ole Ty = — det am ~~ mA -~ 2 - "YF sup oT 2 Py
+these a SRL libo DY WCLT ANE THAR « moo.LLC QOTCE SES
+dt ™ are 3
+Bs vad ON Sede
+The ovderiiy -he aprcuments in this 0GATlon he game ag the
+mal - 3 - te nn -t 2 5 3 IA - ol Th -— \ ’ Jal : A - . ’ .
+OL ! yw Dual. LANGA Gilg QE LIL LLUIL Lilt LC LLL eG A.C
+-~ ~ 1 ry - “ 2 1 v ‘ee - Ya 1 . * ? t
+A hes lt « - he — Shale “ _— J VLA J ’ A I ha
+" ,. — re ofa > ! '
+) GEQripTiOon Or Gl Ld : G 1) ove i
+5 lp - s ~~ ~ “ ul oa, s x} pl | = [ ¢ 3 ’ ¥
+SOILD Lk , J J to edd L LCi L oA
+y Po 1 hleg 1 c! vo he ust y orl 2
+« 3 ) 2 5 0 a i I c 3 [ :
+TLL 1 pon hems ma Sh
+
+
+LF
+~~
+.
+
+ 
+
+»
+{}
+
+ry :
+ye
+
+ 
+
+~
+
+ 
+
+ 
+
+ 
+
+.
+)
+
+ 
+
+ 
+
+ 
+
+ 
+
+(VE
+- nN oe
+FLL Ld
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+! :
+Tw
+\
+
+ 
+
+: J
+i )
+J Oo
+1
+ey
+1 :
+
+: .}
+in
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ft »
+
+a
+|
+— at WP
+oy pn
+
+
+
+
+
+’ ! ’
+Ll \ ’ *€) 15 rT
+J ) | (yy THN
+| ws » ’
+8 i LAS 3
+“ ' } - ’ ~'E ' ‘oy 1 ~
+A ] ’ \ \ fail WJ oe ve
+’ o “ no] d= 1 Aw .
+1 ‘ LL . 5 LL ALCS Vv ’
+v 3 . . ay { '
+‘ LLG ALi oR
+’ ' \
+’ Y
+} ete AT 2 a ae UJ
+re » " A .
+rm - Ve 1 vie py He '
+ne Nl FT FL WAL UND ! .
+we hace vrhie ant hea Annas ;
+Cade Wr PR , ; vil \ . reall SY AAA LD Y
+-~ wv -
+1% AR - ' yn Ne CY au = b ~ v \
+VAs Ld ‘ Ad VALTO0 In GaANL WILLS A Vdd Uh ,
+ANI
+1 J
+I) iL
+WV
+. A = 7 - =
+a J 13 Taw © ne 1 TISI% OD 1
+Wael yg .“ - Jot \ JJ . 1 dd eed? Jd. VF }
+TD) "
+' y
+1A0R V
+i de 1 ~ ry ode ry dle pn aon ney de oy ard 1 “> Ph11% de de he OT Tam 3 1c } I E
+aay : . y - -
+L] eo pid Apr rar atAR Oi Sit Wi.ld of op RdtA bb 4.0 Sgt ule 6 ¢ HDL LE au \ “) :
+» Wn ay
+} a , LUZ As
+» ~N } . a . 5
+1] ww £9 1. Donne ve, Tr
+U0 {ig \ positive’
+{ ~~ 5
+¥ A
+! ¢ 1
+’ 3 i
+) 3 vey he
+J t oot THs
+’ - » - . > - . - |
+Te nT ww
+{ Li OL | \
+’ i
+Seu — /
+\
+|
+)
+i
+d
+\ + cs ’ D \ / )
+q
+{
+\ . ) Tr TY —— - 1 1 .
+Pow J - ¥, ¥ | - of tg YY Uo
+. ” na . ¥
+\ ’ “ . . - i TY 1 -y - A =
+AJ ud } chen v ! ddl t LA veil Jd J.C
+. Ah ~~ . 1. - nN ‘ ~
+3 £ LB ‘ G0 nN 0 \ Che ) ] )
+y1 : ) i) Fa >
+Ls ! Wil wv. a Led LT
+- - ' = -
+f - p : { " \ 3
+: : . § A
+\ { ‘ y )
+
+
+DOL~146
+
+ 
+
+s ] < 5
+Lhecilusiyv GL
+vs TG pa a atom ion eta 3 Se oy he . rl. N
+i 81 able logic statement in this notation misht be
+
+IGC i? A(U)A*(V) + AT (U)A(V), 20 to m
+in which the decision is based on the disjunct of the Boolean
+variables A(U) and A{V).
+
+In addition to the conditional statements deseribed ahove
+
+the compiler will also accept unconditicnal statements of the Lum
+
+n, LGC gC to m
+
+whe
+
+The compiler will translate each logic statement info a
+Se subroutine which evaluates the truth of the statement, S, an
+rforms the required transfer of control. The equation number, n,
+
+al fies the initial register of the subroutine. Thus the pro-
+cramer can ehter the compiled subroutine by the machine instruction.
+
+= alls
+
+<
+uy
+
+Further Llexibllity in constructing logical statements will
+be provided by allowing the programmer to define his own atomic
+statements as follows:
+
+A programmer may intermix pseudo-instructions and machine
+
+ingtroetions at will, In particular this will be allowed within a
+
+aL _~ a Ae ote "
+define statement 80 hat a function can be
+>
+
+= ’
+MD
+1)
+"9
+=
+or
+0
+hs
+&
+=
+
+Zp a bud 2 =. . Tis» Fb Vo Tr I TOI i OR nel yi Cale vey ot en
+of machine iastructions, This added flexibility will be put io use by
+i 3 ~ ay 7 wy re n ~~ -y > nme 2 oy odo a“. 1: } 3 «1 AT ~~ MINT “» ele en of ~~ ard tL Fame
+alLioning tae programmer TO construc 118 OWN 2T0IC Susiamanes DY
+- mpl YA ae tn - wary wie Pn 3a os rl Rom ERA A Ta ee Sp vs err i a ss pd
+PIOVIQL ng Lil COMP 16 2 ( orl thin GC a elie Sta tamsn U ) Wion a PI OgZTo.n WRLC
+po - - a ~ CX oe h ~~ bm ql i Ia - oc ™ a 7 7 + ce A Y De YI INT . Ti 2 £2 YY 3 oy ole 1 ~ wh ET IN,
+evaluates tne tut 0X N1S a00nit wo ba LEHITAL UL AAG NRE TR WiiL]) 4.43 LIL Pau"
+——r ha A = rnin. aad = of
+gramme migne wriee
+Y nN f .— \ I
+DE U 33 IAC Qe
+on no 0 1 | yg Tn “ 1 TT" ‘Gh CY TYTN TE r vil " 1s, A +} 0 ey fe “+1 “ roy TE hla \B YE
+SAAICA LO LL UWY CALL WL LLL CA PLUUSLT all VW LCI QeCilUls LL LILES VAL LCT Vv oe {
+- ~ Pr | Bue TR \ 2. & ~ ep " rl N+P er a Ls oe in Oy La AT Ary ww tA
+ALT slble DY O¢ AVONLC Sta at OMe vw delrineg in this 1I88n10Nl may DC
+11; ac «7 “wr { f - MNT) cfm str Tviey 1s PTY TAC Tt NT TCT 1 a Ty
+used at Will 111 CONSTructliag LOg1C DSCUCO-LILLIUCOLOIU
+
+

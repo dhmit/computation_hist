@@ -1,0 +1,61 @@
+&
+D
+Ty
+
+ 
+
+CARDS COLUMN
+
+ 
+
+Must immediately precede
+source subprogram to which
+
+pertinent.
+
+Must immediately precede
+source subprogram to which
+
+pertinent.
+
+Must immediately precede
+source subprogram to which
+
+pertinent.
+
+Must immediately precede
+FAP symbolic'cards and
+follow the Monitor control
+
+cards for the FAP program.
+
+=D e
+
+Instructs the Monitor to
+list the object sub-
+program in FAP-type
+language on the output
+
+tape.
+
+Instructs the Monitor to
+punch on-line standard
+FORTRAN relocatable row
+binary cards, preceded
+by a BSS loader if a
+
+main program.
+
+Instructs the Monitor to
+punch on-line columnar
+binary relocatable card
+(no loader) and not to
+stack the binary output
+tape B4 for peripheral
+
+punching.
+
+Instructs Monitor to
+perform FAP assembly on
+
+the follow-FAP program.

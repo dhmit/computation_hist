@@ -1,0 +1,39 @@
+Page 7.
+a. Systems
+
+Taking these in order, let us first consider some of
+the ramifications on the basic computer system. If many peoplk
+are to be glven a real time access to a computer, the computer
+must be capable of being time shared among remote user "consoles”
+or sub-stations. It must equably divide up its time among the
+users, and be able to quickly shift from one problem to the net,
+so that each user is in effect using a slower machine, but one
+which 1s not blocked off by other users. These remote units
+must be connected to the maln computer over low cost communi-
+cation links.
+
+To save time, programs must be allowed to coexist
+within the same machine without mutual interference, and pro-
+grams must be readily accessable via a large backup memory so
+that any user can work in any available computer language of
+his choice.
+
+Our plans are to adapt an existing computer system
+for time sharing. The implications of this set of require-
+ments on the system are the following. Filrst, in order to al-
+low running programs to coexlst, changes wlll have to be made
+in intfernal logical design to provide barriers in memory to
+prevent unwanted access or change. Second, an "exchange" buf-
+fer will have to be developed to service from 15-30 remote
+stations, and provide for a pre-selected distribution of
+available time among the remote units. A large memory such
+as disc files will also have to be linked into the system.
+
+b. Peripheral Equipment
+
+At present, it is envisioned that there will be two
+basic types of remote consoles and connecting lines required.
+These are: 1) A set of specially modified electric typewriters
+and low-data-rate connections to the main computer for most re-
+mote console stations. Thus, for these statlons, the electric
+typewriter would be the only communication to the computer.

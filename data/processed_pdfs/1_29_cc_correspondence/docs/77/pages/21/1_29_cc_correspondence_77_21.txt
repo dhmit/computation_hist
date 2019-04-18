@@ -1,0 +1,55 @@
+DEC
+
+ 
+
+ 
+
+to binary, and assign them to successive storage locations
+starting with the current value of the location counter.
+
+But, first, if there is a symbol in the location field,
+
+enter this symbol in the dictionary as a relocatable symbol
+having as its value the current value of the location counter,
+so that the first octal integer in the variable field may
+
+be referred to by this symbol." For example, suppose the
+
+location counter reads 390010 and the assembler encounters
+
+the instruction:
+
+LOCATION OP VARIABLE FIELD
+
+DATA OCT T =17 66, 55, -44
+
+The effect of this instruction is to enter the symbol DATA
+into the dictionary as a relocatable symbol whose value is
+3900, and to convert the five integers to binary and assign
+them to locations 3900-3904, leaving the location counter
+
+at 3905. The five numbers convert to the 36-bit numbers:
+
+Al Wit T
+400 000 000 077
+000 000 000 066
+000 00C 000 055
+400 000 000 044
+
+Any number of subfields, separated by commas, may be used;
+the last subfield must be terminated by a blank. Consecutive
+commas cause the number zero to be generated, as does a
+
+comma followed by a blank. Hence the number of words of
+
+data generated is always one more than the number of commas
+
+in the variable field.
+
+The DEC pseudo-operation says to the assembler: ''Take the
+decimal numbers which are specified, one per subfield from
+left to right in the variable field, convert these numbers
+
+to binary, and assign them to successive locations starting
+
+=]g=

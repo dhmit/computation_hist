@@ -1,0 +1,162 @@
+RESUME
+DR. STONEY SPITAL
+
+NSF Science Faculty Fellow, Department of Mathematics
+University of Californias, Los Angeles 24, California
+
+Age 34, Married, Three children
+
+PROFESSTONAL INTERESTS 1. Numerical Analysis
+Approximation Theory
+Applied Probability Theory
+
+QUALIFICATIONS 2. Study in numerical analysis and relsted mathematics at UCLA,
+Sept. 1961 to June 1963, under NSF Science Faculty Fellowship
+and NSF Summer Institute Participation, see accompanying pages .
+
+OTHER EDUCATION 3. University of Rochester, 1950-56, Ph.D., Physics; Brooklyn
+College, 1945-59, B.S., Physics and Math
+
+PROFESSIONAL 4. University of Toledo, 1956-61
+EXPERIENCE Assoc. Prof., Physics, $960/mo.
+Michigan State University, Summers 1959, 60
+Assist. Prof., Physis, $1010/mo.
+Rochester Institute of Technology, Winter 1955
+Calculus Instructor, pert time
+
+HONORS 5. NSF Science Faculty Fellowship, 1961-63
+B.S. with honors in mathematics, 1959
+Sigma Xi, Pi Mu Epsilon
+
+PAPERS GIVEN 6. Spital, Hafner, Timlot: "F-wave in n-p Scattering at
+160 Mev", Bul. Am. Phys. Soc. 2, no. 1 (1957)
+Baskiv, Tinlot, Spital: "Polarization Effects in p-p
+Scattering at 210 Mev", Bul. Am. Phys. Soc. 30, no. 3, (1955)
+Spital: Study of Conductivity Ratio of Neon Discharge
+Westinghouse Research Labs R - 94411-9-M (1952)
+
+PRESENT RESEARCH 7. On Romberg integration with guidance of Dr. C. Lawson
+(Jet Propulsion lab. ).
+
+REFERENCES Dr. P. K. Henrici, Technische Hochschule, Zurich, Switzerland
+Dr. D. Bsbbitt., Math. Dept., UCLA, Los Angeles 24, Calif.
+Dr. J. Turin, Chmn., Physics Dept., University of Toledo, Ohio
+Dr. S. K. Haynes, Chmn, Physics Dept., Mich. St. University, East Lansing
+Prof. E. Foster, Physics Dept., University of Toledo, Ohio
+
+Nov. 20, 1962
+
+
+SUMMARY OF FINAL REPORT TO BE SENT TO NSF ON THE SCIENCE
+FACULTY FELLOWSHIP OF DR. SIFNEY SPITAL
+
+FALL, 1961
+
+Numerical Mathematical Analysis with Dr. Henrici (grade - A)
+Text: none
+
+Computational Aspects of Partial Differential Equations with Dr. Tompkins
+(grade - A)
+Text: Forsythe and Wasow, "Finite Difference Methods for Partial
+Differential Equations"
+
+Applied Complex Analysis I with Dr. Henrici (grade - A)
+Text: Ahlfors, “Complex Analysis”
+
+Theory of Games with Dr. Dresher (grade - A)
+Text: Dresher, "Games of Strategy, Theory and Applications"
+
+Statistics I with Dr. Hoel (no grade)
+Text: Hoel, "Introduction to Mathematical Statistics"
+
+Introductory Fortran Programming from Western Data Processing Center, UCIA
+(no grade)
+short course
+
+SPRING, 1962
+
+Numerical Methods in Differential Equations with Dr. Henrici (grade - A)
+Text: Henrici, "Discrete Variable Methods in Ordinary Differential
+Equations”
+
+Numerical Methods in Algebraic Problems with Dr. Hayes (grade - A)
+Text: Fadeeva, "Computational Methods of Linear Algebra”
+
+Applied Complex Analysis II with Dr. Henrici (no grade)
+Texts: Henrici, "Some Applications of the Quotient-Difference Algorithm",
+to appear
+Henrici, "The Quotient Difference Algorithm", NBS Applied Math
+Series 49
+Erdelyi, "Asymptotic Expansions”
+
+Statistics II with Dr. Hoel. (no grade)
+Texts: Hoel, "Introduction to Mathematical Statistics”
+
+Advanced Fortran Programming from Western Data Processing Center, UCLA (no grade)
+short course
+
+Approximation Theory, independent study (no grade)
+Text: Lanezos notes, "Approximations by Orthogonal Polynomials”
+
+
+SUMMER, 1962: NSF INSTITUTE IN NUMERICAL ANALYSIS, UCLA
+
+RE to Programming, with laboratory with Mr. Brown and Prof. Hollander
+grade ~- A
+
+Texts. "IBM Reference Manual, 709/7090 Fortran"
+McCracken, "A Guide to Fortran Programming”
+
+Elements of Numerical Analysis with Dr. Henrici (grade - A)
+Text: Henrici, "Elementary Numerical Analysis”
+
+Matrix Computation with Dr. Ortega (grade - A)
+Texts: Wilkinson, several papers
+Ortega, lecture notes
+
+Special Studies in Numerical Analysis with Dr. Henrici (grade - A)
+Text: Stiefel, Henrici, Rutishanser, papers from NBS Applied Math.
+Series no. 49
+Numerical Methods of Approximation with Dr. Cheney (no grade)
+Text: Cheney, lecture notes
+FALL, 1962
+Stochastic Processes with Dr. Babbitt
+
+Text: Parzen, "Stochastic Processes"
+
+Numerical Methods of Approximation with Dr. Lawson
+Text: Hildebrand, "Introduction to Numerical Analysis"
+
+Advanced Calculus I with Dr. Taylor
+Text: Taylor, "Advanced Calculus"
+
+Probability I with Dr. Steinberg
+Text: Parzen, "Modern Probability Theory and its Applications”
+
+Variational Methods in Engineering with Dr. Kalaba
+Text: Weinstock, "Calculus of Variations"
+
+Ordinary Differential Equations, independent study
+Text: Coddington, "An Introduction to Ordinary Differential Equations”
+
+
+SPRING, 1963 (planned)
+
+Research with Dr. Lawson
+Subject: Romberg Integration
+
+Real Analysis with Dr, Babbitt
+Text: Dieudonné, "Foundations of Modern Analysis"
+
+Advanced Calculus II with Dr. Taylor
+Text: Taylor, "Advanced Calculus®
+
+Differential Equations IT with Dr. Arens
+Text: none
+
+Dynammi ¢ Programming with Dr. Kslabe. 2
+Texts: Bellman, "Dynamic Programming" and “Adaptive Control Processes
+
+Nov. 20, 1962
+
+

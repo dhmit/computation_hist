@@ -1,0 +1,44 @@
+recommended. The library function
+XLOCF(N) simply returns the location
+of N to the accumulator as a fixed
+
+point constant.
+
+¢. CALL CHAIN (R,T). This statement can be used only
+as the last executable statement of a chain link.
+It calls the next chain link into core storage to
+be executed. Thus, each link or JOb runs to its
+conclusion without stopping and progresses to the
+
+next link or job without operator intervention.
+
+d. READ INPUT TAPE. This statement terminates exe-
+cution if all data on the input tape has been pre-
+viously read. Thus, a programmer may utilize the
+technique of continuously reiterating reading and
+
+processing data until all the data is exhausted.
+3. Use of END Statement.
+
+The END statement may be used without any of the indicated
+sense switch settings following it. Thus, END, which must
+be the physically last statement of every FORTRAN source
+
+program, may appear in either of the two following forms:
+
+END
+B. END (X I =L .1 »I_), where I may have the value,
+(123’45’ e
+0, 1,7 or 127
+
+If END statement (a) is used, indicators for the
+actual sense switch options will be inserted by
+the Monitor. There are two possibilities with
+
+respect to each option indicator.
+
+(1) No Monitor control card is present. The
+
+Ssetting prescribed by '"standard' FORTRAN
+
+-] B

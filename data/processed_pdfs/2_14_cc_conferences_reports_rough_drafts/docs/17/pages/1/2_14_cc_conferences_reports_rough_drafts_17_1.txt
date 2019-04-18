@@ -1,0 +1,53 @@
+January 21, 1960
+Pos- s Prof.. .R. R, Shrocl/
+From: S. M, Simpson, Jr
+Subj: Recommendations concerning the position to be taken by
+
+The Department of Geology and Geophysics vis-a-vis
+the M.I.T, Computation Center
+
+The M,I.T. Computation Center has provided, and undoubtedly
+will continue to provide, extremely useful services to our
+Department. If the Center had unlimited computational facility
+there would be no need to formalize any particular position
+with respect to it. Since, however, we recognize the inadeguacy
+of The Center wlth respect to our needs as evidenced by our
+efforts to date In acqulring a2 computational facility of our
+own, there 1s perhaps some value in clarifying our attitude
+towards the Center, :
+
+There are four basic facts pertinent to the problem,
+
+1. The need of the Earth Sciences for computation is
+almost entirely for research purposes, I am intending
+to document this by & paper summarizing these applications,
+
+2. The Computation Center has 8 raison d'etre in which
+research applications rank very low, A January 4, 1960
+memorandum from the Center establishes an A,B,C, problem
+classification in which research uses disappear into
+category C as "other applications”.
+
+3. The Computational Center has, and may very well continue
+to have, & monopoly on the computational facilitles
+at M.I,T.
+
+4, Demand for machine time has essentially reached the
+saturation point and undoubtedly wlill continue to rise
+rapidly.
+
+Because of tThese facts I believe the ideal goal which the
+Earth Sciences should continue to work for is a high speed
+computational facility of its own, speclally adapted to our
+research problems and To our data processing needs, As an inter-
+mediate goal I believe we should seek a medium sSpeed machine to
+bridge The gap between desk calculators and the high speed devices.
+
+The success of these efforts is rather unpredictable and
+consequently we shall be relying on the services of the computational
+center for some time., Durdng this period we should do what we can
+to make the Center of maximum utility to us. This should tske
+two forms: attempting to iInfluence Computational Center policy
+in accordance with our needs; and support of their expansion plans
+to The extent that 1¢¥ will not Jeopardize our own computer facllity
+goals.

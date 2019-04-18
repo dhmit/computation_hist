@@ -1,0 +1,418 @@
+A PROPOSAL FOR THE USE OF A CONDENSED SYMBOLIC NOTATION ON
+704 TAPES AND FOR THE USE OF CONDENSED SYMBOLIC CARDS
+
+by John McCarthy
+January 3, 1957
+
+l. INTRODUCTION
+
+The SHARE subroutines distributed to date total some 30,000
+instructions, and routines are being written at an increasing
+rate. It is already impossible to put all the available sub-
+routines on one library tape, and in any case a full library tape
+would lead to excessive assembly time for programs calling for
+routines coming from near the end of the tape.
+
+By using a condensed symbolic notation it is possible to
+store routines on a library tape at 20 to 30 times the present
+density. (A count on a program selected at random gave a factor
+of 28, though this seemed to be a particularly favorable case.)
+This increase in density is to be achieved by increasing the size
+of the records used, trimming the comments from the Instructions,
+omitting most of the REM instructions, and packing the instructions
+continuously on tape with symbols to distinguish where one instruc-
+tion leaves off and another begins. (At present a library tape is
+written in .L inch 80 character records with +75 inch inter-record
+gaps.)
+
+Other proposals for library condensation have been made which
+involve writing the instructions in relocatable binary form. We
+think that there are many advantages to preserving a symbolic no-
+tation. These include the fact that symbolic references to posi-
+tions in the subroutines are allowed, and that subroutines with
+program parameters set at the time of assembly can be used.
+
+In addition we propose the use of condensed symbolic cards.
+Programs on condensed symbolic cards will have from one sixth to
+one tenth the bulk of standard symbolic cards, and in the proposed
+System they can be mixed with standard symbolic cards at assembly.
+The condensed cards cannot conveniently be prepared by hand key-
+punching, and a program to prepare them from standard decks has
+been written.
+
+
+2e
+
+In the following sections we describe the condensed symbolic
+notation, the use of the revised library system, the use of con-
+densed symbolic cards with assembly, and the use of the program
+which prepares the condensed library tapes and the condensed sym-
+bolic cards.
+
+The modification TO the assembly program 1s written except
+for the section of about 100 additional instructions which will
+provide for the reading of condensed cards. The program for the
+preparation of library tapes and the preparation of condensed
+cards is completely written. Neither of the programs has yet been
+punched Up.
+
+A number of desirable features, designed TO protect against
+human and machine error, nave not been incorporated in the pres—
+ent system for lack of time.
+
+The features described herein are tentative and subject TO
+modification by persons willing to argue and tO program thelr
+
+proposals.
+
+
+3
+2. CONDENSED SYMBOLIC NOTATION
+
+Condensed symbolic notation 1s a variant of the notation read
+by the SHARE aszembly program UASAP, with which the reader is as-
+sumed to be familiar, and which we shall refer to as standard
+symbolic notation.
+
+The first character of a condensed symbolic instruction is a
+digit from 1 to 8. If the digit 4d is between 1 and 6 it indicates
+a SHARE symbolic instruction in which the first non blank column
+is column d. If the digit is 7 the location field is blank and
+the first non blank is in column 8. If the digit is 8 the first
+non blank is in column 12. The instruction 1s then written con-
+tinuously with no gaps. For all instructions and pseudo-instruc-
+tions except BCD and REM the condensed instruction ends with the
+first blank and the next instruction follows immediately.
+
+EXAMPLE: The program A CLA X
+STO Y
+TSX FN,4
+3
+would be condensed to 6ACLAX T7STOY T7TSXFN,L 83.
+
+In the case of a BCD instruction there is no blank at the
+end since the digit in column 12 tells when the instruction ends.
+REM instructions are ordinarily suppressed by the condensation
+program. However, the programmer can insist that an REM instruc-
+tion be Included by putting a digit d or an X in column 6, in
+which case d six character words of remark will be included in
+the condensed symbolic program, where X denotes 10.
+
+Another feature of the condenser program is that for all
+instructions but the HED instruction, if the location field is
+less than 6 characters it is pushed as far to the right as pos-
+sible to save space in the condensed program.
+
+Condensed symbolic programs can be produced in two forms -
+as cards and as library programs on a tape. In the card form
+the condensed instructions run continuously through columns 1
+to 72 of the card. An instruction may have part of it on one
+card and part on the next. A revision of UASAP which will read
+
+condensed symbolic cards together with standard symbolic cards
+
+
+Ly.
+has been prepared. For the use of this assembly each group of con-
+densed cards must be preceded by a standard symbolic card with CND
+as its operation part. On the first card following the CND card,
+the condensed symbolic instructions need not start in column 1, but
+once started must run continuously from card to card because the as—
+sembly program will interpret the first blank which is superfluous
+from the point of view of condensed symbolic instructions as a sig-
+nal to read another card record and go back to standard symbolic
+notation,
+
+This usage makes it possible to make modifications to a program
+on condensed cards by duplicating the card on which the instruction
+1s to be changed up to the point of the change, leaving it blank
+from that point on, then inserting one or more ordinary symbolic
+cards with the changed instructions, following this with a CND
+card and then a copy of the card where the program continues in
+condensed form, This last card may be blank up to a certain point.
+
+Because of the way the condenser interprets an END card, no
+END cards will appear in a condensed deck produced by the program,
+A condensed program will always end in enough blanks to signal a
+return to standard symbolic notation so that standard END card can
+be added.
+
+CAUTION: When inserting standard cards in a condensed deck it
+1s necessary to make sure that the last condensed instruction to be
+kept 1s followed by an extra blank to signal the return to standard
+notation, If the last instruction to be kept has its last character
+(usually a blank) in column 72, it will be necessary to add a blank
+card.
+
+It 1s not envisaged that condensed symbolic cards will be
+prepared by hand keypunching because the chances for error are too
+great and 1t is not easy to correct an error that makes an instruc-
+tion too short or too long. Instead it is proposed that condensed
+decks be prepared by the condenser program from standard symbolic
+decks,
+
+A condensed library tape has the following form, The sub-
+routines are in LOO word (2400 character) records, except that the
+last record of a subroutine will usually be shorter than LOO words.
+
+The first word of the first record of a subroutine is the name of
+
+
+5.
+the subroutine, and the first word of every other record of a sub-
+routine consists of 6 blanks. (No subroutine may have 6 blanks as
+its name.) Zach subroutine is concluded by an END pseudo-instruc-—
+tion which is not included in the program produced by the assembly.
+The library tape ends with an end of file mark, but there are no
+end of file marks between subroutines.
+
+The factor of condensation over standard notation is between
+6 and 10 for symbolic cards and between 20 and 30 for a library
+
+tape.
+
+
+6.
+3. LIBRARY INSTRUCTIONS FOR THE REVISED SHARE ASSEMBLER USING A
+CONDENSED LIBRARY TAPE
+
+In the preceding section it was explained how condensed sym-—
+bolic cards can be included in the decks presented to the revised
+assembler. In this section we explain how subroutines are called
+for from the condensed library tape. This is different from the
+way they are called for in the present version of the assembler.
+
+For each library subroutine the programmer wishes to incor-
+porate in his program he must write at least two LIB instructions.
+First he must list all the library subroutines he wants at the be-
+ginning of his program, or at least at a point in his program be-
+fore he wants any subroutines to appear. As in the present assembly
+procedure a library instruction is a card with LIB in the operation
+field and the name of the subroutine in the location field (columns
+1 to 6). The first group of LIB instructions must mention the de-
+sired subroutines in the order in which they appear on the con-
+densed library tape and must be followed by an LIB card with blank
+location field. When the assembler gets to this group of cards it
+extracts the condensed subroutines from the condensed library tape,
+expands them and writes them on a tape in expanded form, and makes
+a table of contents of the subroutines mentioned, which it puts in
+core storage. No instructions are added to the program being as-
+sembled at this point. Each LIB instruction must be given again
+at the point in the program where the subroutine is to appear, It
+1s not required in the second calling that the subroutines be
+given in any particular order, although if they are given in the
+same order as before, assembly time will be reduced. (not usually
+by very much). A subroutine may be asked for more than once in
+the body of the program (for open subroutines) but must be men-
+tioned only once the first time.
+
+Failure to observe these rules will lead to a stop in the
+assembly.
+
+In addition to the public condensed library tape it is pos-—-
+sible to use any number of private condensed library tapes which
+may be mounted as tapes 5 to 10. If a subroutine is to be ob-
+tained from a private library tape, the number of the tape is
+written in column 12 of the first LIB instruction mentioning the
+
+
+To
+
+the subroutine. (X is the digit for tape 10). No two subroutines
+called for may have the same name even if they are to come from
+different tapes, though a subroutine called for may have the same
+
+name as one on a different tape which is not called for.
+
+EXAMPIE: In this example two subroutines are taken from the public
+
+library tape, and one 1s taken from tape 5. The latter is inserted
+J PC
+
+"
+
+in the program in two places.
+
+UABRDC1 LIB
+UASPH1 LIB
+JMC001 LIB S
+LIB
+ORG 1024
+START ovis in
+
+- oO o . o
+
+JMC001 LIB
+
+©o 6 0 0 6 ©
+©e 6h © 0 0 ©
+MG001 LIB
+v R* JR i . {
+J I'l NU AJ
+eo 0 © © 0 °
+¢ © eo © © 0
+
+UABDC1 LIB
+UASPH1 LIB
+END START
+
+Operational features of the revised assembly.
+
+The public library tape should be mounted as tape li, a blank
+tape mounted as tape mounted as tape 3, and any private library
+tapes requested mounted with the numbers requested. These numbers
+must be from 5 to 10. Otherwise the procedure 1s the same as
+
+described in the UASAP writeup.
+
+
+8.
+Lio USE OF THE CONDENSER PROGRAM
+
+The condenser program has two purposes and may be used
+for either of them or for both simultaneously as determined by
+gense switches,
+
+The first function is to prepare a condensed library
+tape or to make a new library tape which is a modification of
+an old one with insertions and deletions.
+
+The second function 1s To prepare condensed symbolic
+cards, The use of the sense switches is as follows,
+
+If a library tape 1s to be prepared sense switch 3 is up.
+
+If preparation of a library tape is to be suppressed sense
+
+switch 3 is down. A blank tape is mounted as tape 3 if =
+
+library tape 1s desired.
+
+If the new library tape is to be obtained from an old one by
+insertions and deletions, the old tape 1s mounted as tape 2 (with
+
+2 blank tape 3 for the new tape) and sense switch 2 is up. IT
+
+there is no old library tape (the condensed library is being started
+fpom scratch) sense switch 2 should be down.
+
+If condensed symbolic cards are desired for the new
+subroutines (you can't get them for the ones on the old library
+tape) switch L should be up and a blank tape mounted as tape lL.
+If condensed cards are nov desired switch li should be down.
+
+The tape li produced by the program is run on the: off line tape
+to cards machine to produce the condensed symbolic cards.
+
+We shall first describe the preparation of the programs to
+be condensed in the simple case when there is no old library
+tape. First comes a blank card. Then come the subroutines in the
+order in which they are to appear on the library tape. Each
+subroutine is to be preceded by an LIB card with the name of
+the subroutine in the location field, and 1s to be followed by
+and END card. The resulting deck is to be read on the off line
+card to tape machine and followed by an end of file mark. This
+tape is mounted as tape 1.
+
+Finally, the condenser program should be loaded from cards.
+
+The decks to be condensed may include condensed cards
+provided that the same conventions are observed as when condensed
+cards are included in an assembly. Namely, each group of condensed
+
+cards must be preceded by a standard CND card and the group must
+
+
+EE ——||||||§|§|§|§{IITT EE EE tt A OF OCG GL redt ” «bacdffdtld”GS0C NN IO COO O/C CO 1 CO lA ef AMOK Ot OA rn hl (G44 EE TH ...—.———————————_
+-
+~~ »-
+3
+a w — Ly -— =) OT - = oO ——— a -— - ——— - & = A i
+Pal be A am — — tn. ~ - ud | ~~ A dead Sa XJ 4 | & < a Ne |
+~~ i Lu \ \
+tm rr OTREWAR AOR
+Lr 2S lla o - Lda —
+An BEDI CoInoenssar Jat Ww NE SEDATE TY per an hay N
+4 — — — > - — —— -~ “ - \ \ A \ Ld Lat OU La A A
+i a Te r~NE Tr a, "3 - Tr ~ ya he — — r oT ~ -~ -— —_—— ~ ~ ~ A ~~
+— i cmt ——— ee tt. a a - hh a AJ . - A Co
+a —— — p— -—- Ty rE —————— -— — - - ao o -
+= - — ~ ) dR :
+BNE ee a a —r— ne —— - aA dN a
+-~ _— - fo pT p— -— z - i ~ —~— ”, ~ = —~ ~ _ yy NYA
+_— - - —— — - ~~ - ~ - ~ - - eh \ \ . \ \ LA
+- = _-—— -— Na oo Ee TTI na ahs Tel. Vol Teo ~ A 1 ~ . oR ~ -
+= — _— —— ~ (NE = _ _ — —— Al “ AMAT Add Ar A - ~ - , o \ A Se.) 4 LO) =
+= ~ o = c — - = - = — i —— Ra a VN TRA YN 8am A a & A =. oo
+—— Sl te Ne Nt Bm T— ~~ “  —— _ .~ “0 -— . ~~ a \ \ A Nw Cra, \o7 a Ca A A LAL a =
+—  — - - - o~ ~~ =~ - = -  —~ wh he ~ a - 4 I~ a ~ - -
+— Ml ne Nl” me - ae She te. tnt a anh Th - - Cm. Aa -. ~ Ta Ig UA L \ ola A Ula a8
+— - "1 -— - —— — o - TT “— =o NX 7 fy -~ ~ ~ in 1] ~ wa a : -
+br ~ “aw al Uolld a aad : _ tana Nhl Feu a se .“ - —_— A GR ~ ANG Al \ \ ~
+- —— — - Pp ‘=n ™TT a — -— = a - -~ - - a] ~ J - “Qs ~~ ~ -~
+of hed Nr Wd - a oY o— a — — — — ~ LE . “~~ wh. / - O - a ~~ A OAL \
+— - - _— _ g - - - o - - - - o* +
+~ —~ - ~~ —— ~ 5 - he oa ™ a Yo i = ~ ™ o * ne N £2) ~ ro "
+S1zZTialleq — — — Le 11C LOC d Ul Call SLI $$ RLS QO. UX
+nN - - - a - - -— ~ - -~ QQ Y FA aA NY. aa - - en - NARA TEES a 3
+— - - — -~ - - I~ p—~ - " - : 2 ™ 3 \ \ x
+hl DIFC - — —- — LIS eh I Ww -——— - ~ a“ 110 WN LN EE - A A Ad AN A = oN LATS Ul Led d \ i. \
+————— ——————————————————M,
+YN VSI I — ~ TAA - = aN na Se ~amN le aTvae +*A he QD IVIVANN resN
+ne era iY) L e JOC a a 1 i nzall e -_ a WoO Ww Ad ws A CALA A Sul A Ol
+” - oa ~ ar EY NT TT a ~~ STO TY ~~ "8 3} he oD ~ ~ ane 17 al a Qe a shal: To
+— a — a A - i — i oa - Na — Nl - ~ ~ s he La ~ \ A s A o i \ wi
+- . - -~ - a OD <3 da da. hy! = “ - - -
+= Fo om 2 gm ym ~ 1 + |~ a ~N ar ~ QI ANT TIT Ne be > NaS ~ NaN
+= 8 co il 13 —_— wn’ A a Jl “ ~ Wiel OF. § Ud Saad A FD oO QQ ¥¢ Ql 104 LOwed
+— 4 - - - = ~ a
+— 3 a A a - = “NY ARATITT TTY aS ~~ ™~ a YS NN Qa 2st - Tal -Tel -Yo. 3} . MN
+C e 1a al We —_—dd SWI OC LLICS wo “OC Allo lL Ads MA OCULUOUWoW ON LJ
+a - - — oy — - - * 3 - \
+- fa ~ = -— om ~~ "~~ bd \ ~ OTA = NaQMreAYTTYT han 2S NAST
+C = d -— Va AC 2 2 ~ dN LS “4 aS &3 LOCC LDC 1 00 V¢ *
+- - 3 J
+ry Sn T A ~ + ~ + ~a AATIAATY QA NY ~~ "™ a aq ay
+AN exp lilaenguov10l Ol 10W LNDNE ColIQenNsSer “I0L] operaves ay make
+Foi pe ~ — - Nm NW ON Nm my ’ ~ | = ~ 1 PN ~~ YN 2 WY ~N : Taam 3 N QU «9 b Na nD
+© Can ill vw CO KIiIIUQUCTC Ll Oo UvaAllll L1IOW old Qe OU LU o> 102 1NS¢ C101. TN \ a we
+
+. - * 3 Tl De a +m = ~ Jar a X 7 2 + . 3 : t )
+
+2 3A - -— - ¥ a ™ ~ ~ CN : AOA 3
+CrPl1pDeQqd GO ~ Loe ine he ale o LU pid LAA LLCO conaensSer Qoes Loa LO Ie ad LI » L1G
+- > ‘ oo . > = J J 3 a - ~~ de : , - ove $
+
+: x. £ a. ~ vm ~Y arn ~ a oa ™ 0 OTA mM ~ a Mama
+
+— S » O S ~~ —~ WV oa Al All A sic wv 10S ana S LO - \G oho » 1 A A  & Ql { 4 & A \ A \ oO \
+y 3 > 2 ) oO 2 S 2 4 J 3 h|
+
+lows when it comes to the end of this list when it reads a blank
+Nows wnen 1tv comes UO 1€ CI Ol y LIL S 1ST Whell 1T Iéads a DLiank
+- —m vy - ° ~~ i 3 ar : > J ~ y ry ]
+ar hen it tape 2 t 3 t111 it comes to th
+CaTrC. lnen 1 coplesS apé <« onto tape A LU CconlleésS U« Ne
+I, - -
+
+subroutine whose name is given on the first modification card. If
+
+Add
+
+£ o
+
+tT ication 1s a deletion it spaces past this routine on tape 2
+If the modification is an insertion, it. condenses the first subrout-
+ine on tape 1 and copies it onto tape 3, and also in 72 character
+records onto tape li if condensed cards are called for. Then it
+looks on tape 2 for the subroutine mentioned in the next modification
+instruction, After making the last modification it copies the rest
+of the subroutines on tape: 2 onto tape 3, and then condenses the
+remaining subroutines on tape 1, and puts them onto the end of
+tape 3.
+
+lt 1s necessary to decide whether condensed cards are to be
+
+made for all of the new subroutines or for none.
+
+

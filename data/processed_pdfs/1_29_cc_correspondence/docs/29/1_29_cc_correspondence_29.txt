@@ -1,0 +1,354 @@
+BEIGHWAY TRAFFIC SIMULATION PROJECT
+Transportation Engineering Division
+Department of Civil and Sanitary Engineering
+Massachugetts Institute of Technology
+Cambridge, Massachusetts
+
+October 4, 1960
+
+ 
+
+Gentlemen:
+
+As part of a cooperative research project with the
+U.S. Bureau of Public Roads which is being conducted here
+at M.I.T., we would appreciate any details that are avail-
+able concerning highway traffic simulation computer programs
+which have been completed or which are in progress. For
+your convenience, forms have been prepared and are included:
+if you feel the information asked for is incomplete, please
+add whatever details you deem necessary.
+
+Ag soon as the information from all agencies is collected
+and prepared in annotated bibliography form, copies of this
+report will be furnished to all agencies submitting data as
+well as others who may profit from it.
+
+My sincere appreciation for your cooperation.
+
+Very truly yours,
+
+Martin Wohl
+Assistant Professor of
+
+Transportation Engineering
+
+Supervisor
+Highway Traffic
+Simulation Project
+
+MW :mz
+
+
+LIST OF AGENCIES TO WHOM THIS WAS MAILED:
+
+ 
+
+Arborne Instruments Laboratories Mineola, New York
+
+University of Arizona Tucson, Arizona
+Automotive Safety Foundation Washington 6, D.C.
+Bell Telephone Laboratories New York 14, New York
+Birmingham University Birmingham, England
+
+Brown University(Dept of Economics) Providence, Rhode Island
+Brown University (Physical Sciences
+
+Council) Providence, Rhode Island
+
+California Institute of Technology Pasadena, California
+Cornell University Ithaca, New York
+University of California (ITTE) Richmond, California
+Cambridge University Cambridge, England
+Carnegie Institute of Technology Pittsburgh 13, Penna.
+Case Institute of Technology Cleveland, Ohio
+Central Road Research Institute New Delhi, India
+Chicago Area Transportation Study Chicago 44, Illinois
+University of Chicago Chicago 37, Illinois
+Chrysler Motor Corporation Detroit, Michigan
+Columbia University New York 27, New York
+Copenhagen Telefon Company Copenhagen K, Denmark
+University College Cork, Ireland
+Cowles Foundation for Research
+in Economics ~- Yale University New Haven, Connecticut
+Technical University Delft, Holland
+University of Durham Northumberland, England
+University of Edinborough Edinborough, Scotland
+Ford Motor Co. Detroit, Michigan
+Centre Francais de Recherche
+
+Operationelle Paris, France
+General Electric Co. Phoenix, Arizona
+General Motors Corporation Detroit 2, Michigan
+Georgia Institute of Technology Atlanta 13, Georgia
+University of Glasgow Glasgow, Scotland
+Harvard University Cambridge 38, Massachusetts
+
+All Members of Highway Research
+
+Board Committee on Theory of
+
+Traffic Flow
+IBM New York 20, New York
+Illinois Division of Highways Springfield, Illinois
+The Indian Statistical Institute Calcutta 35, India
+The Institution of Civil Engineers London S W 1, England
+Johns Hopkins University Baltimore 8, Maryland
+
+
+rity of London
+versity of Manchester
+aiversity of Maryland
+
+Michigan State University
+
+Highway Traffic Safety Center
+Michigan State University
+
+Dept of Civil Engineering
+University of Michigan
+
+Dept of Electrical Engineering
+University of Michigan
+
+Transportation Institute
+Midwest Research Institute
+M.I.T. Operations Research
+M.I.T. Computation Center
+M.I.T. Department of Mathematics
+Hochschule Munchen
+National Bureau of Standards
+New Jersey State Highway Dept.
+The Port of New York Authority
+New York University
+Newcastle on Tyne University
+University of North Carolina
+North Carolina State College
+Northwestern University
+
+Department of Civil Engineering
+
+Northwestern University
+Technological Institute
+
+The Ohio State University
+
+Oxford University
+
+RCA Labroatories
+
+Ramo-Wooldridge
+
+The Rand Corporation
+
+Renssalaer Polytechnic Institute
+
+Road Research Laboratory
+
+Royal Institute of Technology
+
+London, England
+Manchester, England
+College Park, Maryland
+
+East Lansing, Michigan
+
+East Lansing, Michigan
+Ann Arbor, Michigan
+
+Ann Arbor, Michigan
+Kansas City 10, Missouri
+Cambridge, Massachusetts
+Cambridge, Massachusetts
+Cambridge, Massachusetts
+Germany
+
+Bethesda 14, Maryland
+Trenton, New Jersey
+
+New York 11, New York
+
+New York 3, New York
+Newcastle on Tyne, England
+Chapel Hill, North Carolina
+Raleigh, North Carolina
+Evanston, Illinois
+
+Evanston, Illinois
+Columbus, Ohio
+
+Oxford, England
+Princeton, New Jersey
+Canoga Park, California
+Santa Monica, California
+Troy, New York
+Middlesex, England
+Stockholm 70, Sweden
+
+Schweizerische Strassenverkehrsverband Bern, Switzerland
+
+Stanford, University
+
+Swiss Federal Institute of Technology
+
+Texas A and M College
+
+Texas Transportation Institute
+Texas A and M College
+
+Dept of Civil Engineering
+
+Stanford, California
+Zurich 6, Switzerland
+
+College Station, Texas
+
+College Station, Texas
+
+
+Institute of Technology
+- Bureau of Public Roads
+siversity of Western Ontario
+
+University of Pennsylvania
+University of Wisconsin
+Yale Bureau of Highway Traffic
+Yale University
+
+Department of Industrial
+
+Administration
+
+Tokyo, Japan
+
+Washington 25, D.C.
+Lordon, Canada
+Philadelphia 4, Penna.
+Madison 6, Wisconsin
+
+New Haven 11, Connecticut
+
+New Haven, Connecticut
+
+
+HIGHWAY TRAFFIC SIMULATION PROJECT
+
+Massachusetts Institute of Technology
+and
+
+U. S. Bureau of Public Roads
+
+Please fill out one form for each Highway Traffic Simula-
+tion Computer Program which has been completed or is in pro-
+gress and return to:
+
+Professor Martin Wohl
+
+Room 1-131
+
+Massachusetts Institute of Technology
+Cambridge 39, Massachusetts
+
+Responsible Agency:
+
+ 
+
+Supervisor of Project and Title:
+Address:
+Cooperative Research? { _l Yes |_INo If yes with whom?
+
+ 
+
+ 
+
+ 
+
+Name of Simulation Program
+
+ 
+
+ 
+
+Brief statement of program objectives and output:
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Real time to computer time ratio (actual or estimated):
+Has the program been flow charted? |__lves | INo
+
+Has the program been coded? {ves [Ino
+
+Has the program been debugged?*|[ |ves{ INo
+
+What computer and machine language were or will be utilized?
+
+ 
+
+*j.e. are all errors corrected?
+
+
+[EE
+
+ 
+
+,ding and "debugging" are not completed, can you give an
+_imated date of completion?
+
+ 
+
+Lf the program has been "debugged" has the output been com-
+pared with field test data? [| _ |Yes| |No
+
+(a) If yes are program results valid? [Ives [Ivo
+
+(b) If the computer results have not been tested,
+do you intend to carry out a testing program at
+some later date? [Yes [No If yes, when?
+
+Is a writeup of the computer program available? lves L_INo
+(If yes, please enclose a copy with this questionnaire.)
+
+Have the results of the field testing been written up?
+lves| Ino (If yes, please enclose a copy.)
+
+Do you plan to initiate further research in highway traffic
+simulation? |___lYes |__{No
+
+If yes, please describe briefly.
+
+ 
+
+ 
+
+ 
+
+On the next page are the agencies to whom this questionnaire
+has been submitted. If there are other agencies which might
+be writing traffic simulation programs please add the names
+and addresses in the blanks below:
+
+Name Address
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Thank you for your cooperation.
+
+

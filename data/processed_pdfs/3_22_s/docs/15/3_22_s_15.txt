@@ -1,0 +1,1472 @@
+SOCIAL SCIENCE RESEARCH COUNCIL
+
+VOLUME 12 NUMBER 1
+230 PARK AVENUE -
+
+MARCH 1958
+NEW YORK 17, N.Y.
+
+ 
+
+ 
+
+TRAINING FOR RESEARCH ON ORGANIZATIONS:
+A REPORT ON THE SUMMER INSTITUTE, 1957
+
+SINCE the objective of the summer research training in-
+stitute on organization theory and research was training
+in research skills, my report on it, like most reports on
+educational activities, will be more specific in describing
+what we did than in measuring what we accomplished.
+The institute brought together for a period of six weeks
+some eighteen social scientists who have been active in
+the study of human behavior in organizations, and pro-
+vided them an opportunity to explore together a wide
+range of methods that have been employed, at one time
+or another, in that study.
+
+WHAT IS ORGANIZATION THEORY
+AND RESEARCH?
+
+The term “organization” is sometimes used extremely
+broadly—to encompass the whole area of the behavior
+of organisms, or even of complex systems that are not
+organisms. The institute was given a much sharper focus
+than this. In selecting participants and planning the
+program, we defined the relevant area as the study of
+the behavior of human beings living in a formally
+organized setting—in business, government, or a univer-
+sity. The institute was to be concerned with funda-
+mental research, and the participants would be in-
+
+* The author is Professor of Administration and Associate Dean in
+the Graduate School of Industrial Administration, Carnegie Institute of
+Technology. He served as director of the summer research training
+institute on organization theory and research, held at the Graduate
+School of Industrial Administration from June 17 to July 26, 1957,
+under the sponsorship of the Council's Committee on Research Train-
+ing. Mr. Simon presented this report informally at the annual meeting
+of the board of directors of the Council, September 1957.
+
+/
+
+by Herbert A. Simon *
+
+terested in the relations between the behavior of humans
+in an organizational setting and their behavior as de-
+scribed in general sociological and psychological theory.
+
+Even within these boundaries, organization theory is
+an extremely broad topic, and human behavior in organ-
+izations has been studied from the most diverse stand-
+points. If the institute were not to be diffuse and dis-
+organized, we needed an appropriate blend of parochial-
+ism and eclecticism in the selection of topics. We secured
+this blend by depending on local faculty members in the
+Graduate School of Industrial Administration (primarily
+James G. March, Allen Newell, and myself) for the
+parochialism, and on visitors from other institutions
+(including Robert F. Bales of the Department of Social
+Relations at Harvard University, Robert L.. Chapman
+of the Systems Research Laboratory in the RAND Cor-
+poration, and Donald C. Pelz of the Institute of Social
+Research at the University of Michigan) for the broader
+view.
+
+The predominant emphasis in organizational research
+during the past decade has been on (a) motivation and
+affect—what induces people to work, and how they feel
+about organizational life—and (b) relations in the pri-
+mary group—face-to-face groups and first-line super-
+visory relations. These emphases were “represented” by
+Messrs. Bales and Pelz. In contrast, our work at Carnegie
+Institute of Technology (and, to a considerable extent,
+the work at RAND Corporation with which Chapman
+and Newell have been associated) has emphasized COg-
+nitive aspects of human behavior and problems arising
+out of the structure of large organizations. Thus, the
+staff members reflected a considerable range of research
+
+ 
+
+1
+
+
+interests over the affective and cognitive aspects of
+human behavior in organizations, with perhaps an
+“overemphasis” (in terms of the current distribution of
+research effort) on the cognitive side. : :
+
+Method has been as diverse as substance 1n organiza-
+tion theory. Organizations have been studied in the field
+by interview, by observation, and occasionally by con-
+trolled experiments. Organization-like groups have
+been “grown” in the laboratory and subjected to obser
+vation and experimentation. Quite recently, individual
+and organizational behaviors have been simulated with
+electronic computers. Direct experience with all these
+methods was represented in the staff and participants in
+the institute; the members of the staff are generally
+identified with quantitative approaches, laboratory €x-
+periments, and computer simulation.
+
+PARTICIPANTS
+
+In a research training institute, the line between
+“staff” and “participants” is, and should be, tenuous.
+The participants were all experienced in research on
+organizational or other social behavior. A roster will
+give some impression of the range of interests: Warren
+Bennis, John Lanzetta, and Harold Leavitt in psy-
+chology; Robert Hamblin, Norman Kaplan, John Pock,
+and Charles Warriner in sociology; John Harsanyi,
+mathematical economics; Stanley Hollander, marketing
+administration; Edith Lentz, hospital administration;
+Solomon Levine, labor economics; and Daniel Shim-
+shoni, military administration. Like all melting pots,
+this one provided in its diversity both opportunity and
+complexity. Sociological accents could sometimes be
+distinguished from psychological ones; field research
+workers wondered at the strange customs of the small-
+group laboratory, and vice versa; and from time to time
+the initiates in the mysteries of mathematics performed
+their sacred rites to the wonderment and (I hope) en-
+tertainment of the others.
+
+Since the cultural diversity was blended with tolerance
+and maturity, ethnocentrism did not too much impede
+mutual learning. There were times, to be sure, when
+members of the institute sought solace and support in
+the company of fellows from a particular subculture;
+and some polarization into a qualitative, descriptive,
+field research approach and a quantitative, model-
+building, laboratory approach was discernible. However,
+communication across these boundaries did not break
+down.
+
+As theorists of organizational behavior, the members
+of the institute were aware of the status problems in
+their own group, and interested in the way in which
+the relation between staff and other participants would
+
+ 
+
+ 
+
+develop. We did not yield to the temptation to turn the
+institute into a “Bethel” directing its attention inward
+to its own organization. Nevertheless we were conscious
+that the relation between staff and participants would
+have to be worked out, and that it would have to lie
+somewhere on the continuum between a teacher-student
+relation, on the one hand, and that of colleagues, on the
+other. The staff, in planning the institute, had hoped
+for the latter and were (perhaps naively) surprised at
+the number of organizational forces—particularly those
+arising from the need for procedural leadership—that
+pushed the relation in the former direction. For one
+thing, the “parochialism” referred to above gave the
+local staff enough feeling of mission to make an im-
+partial chairmanship role difficult for them. In the first
+few weeks a relation developed in which most members
+felt comfortable, but in which the staff could hardly
+claim to be nondirective—and was even less so in mat-
+ters of substance than in matters of procedure. The
+main dysfunction to which this gave rise was that par-
+ticipants who were interested in descriptive field studies
+and qualitative approaches sometimes felt, with justice,
+that they were outvoted.
+
+PROGRAM
+
+In planning the institute, the staff had tried to be
+realistic about what could be accomplished in six weeks.
+We were skeptical of the value of discussions of
+methodology abstracted from concrete research situa-
+tions. Consequently, we tried to organize the first four
+weeks of the program around the analysis of some actual
+studies of organizations, inasmuch as participants in
+those studies were present. With this basis, various sub-
+groups of participants, we thought, might devote their
+main effort during the last two or three weeks either to
+analyzing and reworking data from the studies that had
+been examined or to formulating specific research un-
+dertakings of their own. In selecting the staff for the
+institute, we sought persons who could provide the
+group with specific examples of several research ap-
+proaches to the study of organizations: experimental
+simulation of sizable organizations, in the case of Chap-
+man; laboratory study of small groups, in the case of
+Bales; survey methods, in that of Pelz; and computer
+simulation and intensive field studies, in the case of the
+Carnegie group.
+
+Our expectations, in constructing the program in this
+way, were only partly realized. We were successful in
+avoiding any great amount of abstract, methodological
+debate, and in securing tolerance in our discussions for
+great diversity of method. We were less successful in
+persuading the members to devote major effort to €X
+
+
+amining data from the specific research studies that
+were discussed—as distinguished from discussing these
+studies in a general way for the substantive and metho-
+dological lessons they might teach. In only one or two
+instances did working relations among a pair or triplet
+of members mature to the point where they plunged
+into a cooperative research undertaking before the end
+of the institute.
+
+One reason why the institute was engaged less in
+doing research and more in discussing it than we had
+expected derived from the diversity of the group.
+Every member wanted a broader picture of the area of
+organizational research, and most of them thought that
+the brief period of the institute was better spent in ob-
+taining a survey of things they did not know about, than
+in delving intensively into things with which they al-
+ready had considerable familiarity. As a result, sub-
+groups that were established for the study of particular
+topics tended to turn themselves into committees of
+the whole, and most members spent most of their days
+in discussions and lectures.
+
+Typically, four one and one-half hour seminars were
+scheduled each day and were attended, on the average,
+by three quarters of the group. During the first week
+these seminars were devoted largely to discussion of a
+manuscript, a ‘‘propositional inventory” of organiza-
+tion theory and an analysis of the existing literature,
+which had recently been completed by March and
+Simon. This discussion proved to be exceedingly useful
+in providing a common definition of the area of the
+group's interest, and some common vocabulary for com-
+municating about it—including a dictionary of terms
+that appear to be peculiar to the Carnegie Institute of
+Technology dialect.
+
+In subsequent weeks subgroups with varying lengths
+of life took responsibility for organizing series of ses-
+sions around broad topics. In one week, for example,
+one subgroup discussed conflict phenomena, including
+game theory and bargaining; another, the study of in-
+fluence; a third, communication processes in laboratory
+situations; a fourth, the design of field studies; a
+fifth, study of the administration of research; a sixth
+worked on the simulation of human problem-solving
+behavior with computers; a seventh analyzed data from
+
+the RAND Systems Research Laboratory; and an eighth
+was devoted to talks on mathematical models of organi-
+zational behavior. If this bill of fare seems dizzying in
+its variety, it seemed so, too, to the participants. They
+never succeeded, however, in curbing their own curiosi-
+ties to the point where they were willing to omit any
+major topics from the agenda.
+
+As may be inferred from the above list, the group
+sessions ranged from discussions on the organization
+theory manuscript, the research projects introduced by
+the visiting staff, and research that had been done by
+participants; through lectures, principally in the sessions
+on mathematical models; to work sessions in which the
+group attempted to write a computer program to simu-
+late a small-group discussion, planned research on
+creativity in industrial research, and combined data
+from two independent studies in a joint manuscript.
+
+ASSESSMENT
+
+Since the institute undertook to produce no group
+product, I can report here neither a set of “findings”
+nor a set of “recommendations.” Like good social
+scientists, we ended the institute with a session devoted
+to evaluation, and the participants filled out question-
+naires. Most of my observations here are based on the
+information obtained in these ways—not too much
+filtered, I hope, by my own biases or by the natural
+courtesy of the participants in bidding their hosts
+goodbye.
+
+If subjective feelings are admissible evidence, the in-
+stitute proved for most participants both enjoyable and
+profitable. They reported that its main impact had been
+in giving them a wide survey of research on organization
+theory, and also an intensive look at some part of that
+work, in particular, laboratory experimentation and
+computer simulation of organizational behavior. They
+reported some frustration at the fact that the institute
+never reached the point of actually doing research, and
+expressed strong resolutions that they were going to ap-
+ply in their own work some of the concepts and methods
+to which they had been exposed. The real assessment,
+of course, belongs to the future when these applications
+will have been made.
+
+
+AN APPRAISAL OF THE SUMMER RESEARCH TRAINING
+INSTITUTE ON MONETARY AND CREDIT POLICY, 1957
+
+THE summer research training institute on monetary
+and credit policy was organized around a series of
+seminars led by economists and members of the Board
+of Governors of the Federal Reserve System responsible
+for the formation of monetary and credit policy. The
+afternoons were left free for individual and group proj-
+ects. William Martin, Jr. and C. Canby Balderston, re-
+spectively Chairman and Vice-Chairman of the Board,
+presented seminars dealing with the way its staff con-
+tributes to the making of policy decisions. Several staff
+members of the Board, notably Woodlief Thomas, Win-
+field Riefler, and Arthur Marget, led seminars on aspects
+of their work. Robert Roosa of the New York Bank and
+George Mitchell of the Chicago Bank presented papers.
+We were fortunate, also, to have Paul McCracken of
+the Council of Economic Advisers to take responsibility
+for a seminar.
+
+We had originally planned to devote the afternoons
+to work on a series of group projects. However, the
+participants indicated a strong preference for individual
+research. As a compromise we decided to use the first
+two weeks for group projects and the last four weeks
+for individual research projects.
+
+During the first two weeks the sixteen participants
+were divided into three groups, each of which was re-
+sponsible for estimating the reserve needs for the forth-
+coming week and for the three-month period ending
+November 1. At the end of the two weeks each group
+reported its findings and defended them before the at-
+tacks of the other groups.
+
+During the following four weeks each of the partici-
+pants worked on a project of his own choosing. Gen-
+erally, we encouraged the participants to choose topics
+on which work could be carried out more easily at the
+office of the Board than at their various universities.
+We helped the participants to get in touch with the ex-
+perts on the staff of the Board who could best help
+them. At the end of the six weeks, the following papers
+had been prepared and were presented to the institute:
+
+Alice Bourneuf: Possible Summary of Flow-of-Funds
+Data in Four Tables
+
+*® The author is Professor of Economics at Purdue University and
+served as director of the summer research training institute on monetary
+and credit policy, held in Washington, D. C., from June 24 to August
+2, 1957, under the joint sponsorship of the Board of Governors of the
+Federal Reserve System and the Council's Committee on Research
+Training.
+
+by E. T. Weiler *
+
+Claus Ruser: The Elasticity of Commercial Bank
+Demand for Federal Obligations, 1945-56
+
+David Chambers: Analysis of Federal Reserve Board
+Sample of 300 Large Corporations
+
+Emmett Rice: Significance of Shifts in Sector
+Liquidity
+
+Jacob Cohen: The Concept and Measurement of
+Sector Contribution
+
+Raymond McEvoy: Bank Loans to Small Business un-
+der Tight Money, 1955-56
+
+Joseph Aschheim: The Bankers’ Program of Reserve
+Reduction and Reform
+
+Charles A. Matthews: Monetary Policy and Com-
+mercial Bank Assets
+
+Assar Lindbeck: Analyzing Economic Effects of Fiscal
+Policy—with Special Regard to Effects on the Credit
+Market
+
+George Horwich: Effective Reserves and Bank In-
+vestment Policy during the Late 1930's
+
+H. Jerome Cranmer: Behavior of New York Central
+Reserve City Deposits, 1919-56
+
+Deane Carson: Treasury Open Market Operations
+
+Norman Leonard: Some Effects of Recent Monetary
+Policy on State and Local Finance
+
+Bogdan Mieczkowski: The Role of Recent Monetary
+Developments in Italy
+
+One of these papers, modified and revised in the light
+of criticism by other participants, was presented at the
+American Economic Association Annual Meeting in
+December 1957. Two other papers are being revised
+and will be submitted for publication in journals.
+
+APPRAISAL FROM THE PARTICIPANTS’
+POINT OF VIEW
+
+From the participants’ point of view the summer re-
+search training institute on credit. and monetary policy
+appears to have been an unqualified success. On return-
+ing home most of the participants took time to write
+letters indicating the strengths and weaknesses of the
+summer program. They were uniformly pleased: At no
+other institution could they have taken seminars with
+so large and distinguished a staff of economists interested
+in central banking and monetary theory; at no other
+place could they have worked with so many practicing
+economists; and as a by-product they learned how
+cconomists can serve in a staff capacity.
+
+
+FROM THE POINT OF VIEW
+OF THE BOARD OF GOVERNORS
+
+It is more difficult to appraise the research training
+institute from the point of view of the Board of Gover-
+nors. Certainly, it is important to the Board that many
+of the young economists present at the institute will be-
+come contributing scholars in the field of monetary
+theory and policy and will have firsthand information
+and familiarity with its resources and procedures.
+
+If some similar type of research training institute were
+to be repeated, there are a number of lessons to be
+learned from last summer's experience. First, it seems
+to me that it would be better to accept somewhat fewer
+persons so as to have a more homogeneous group of out-
+standing intellectual promise. Second, an effort should
+be made to bring the participants and members of the
+Board's staff closer together. If there were fewer par-
+ticipants, desks might be provided for each of them in
+the various offices where they would be seeking ma-
+terial. At the same time the Board's staff should be en-
+couraged to attend the seminars and participate in the
+discussion. (Last summer because of lack of space and
+because we were not sure how the participants would
+react, we discouraged attendance by staff members.)
+Possibly, each of the participants might be assigned a
+“major professor” from the staff, who could supervise
+the preparation of the research paper, and help to give
+the participant access to data in other agencies as well
+as in the offices of the Board.
+
+ 
+
+While the group project on “reserve needs” was use-
+ful as a means of forcing the participants to learn more
+about the institutional complications of effecting mone-.
+tary policies, I would shorten the time devoted to this
+project and lengthen the time spent on individual re-
+search projects under the direction of staff members.
+
+The participants did not have enough time toward
+the end of the six-week period to present their papers
+and receive the criticism of their fellow participants.
+To correct this, I would encourage the participants to
+prepare their papers early and to circulate them for
+criticism. Possibly, each of the staff members could list
+a number of projects that he would like participants to
+undertake, and this would tend to prevent delay in
+choosing a research project.
+
+Finally, to encourage discussion in the seminars, each
+of the staff members should be encouraged to prepare
+an abstract of his presentation for distribution in ad-
+vance of the seminar. Thus more time could be spent in
+discussion of the issues raised by the presentation.
+
+While in retrospect we can see ways to improve the
+summer research training institute on monetary and
+credit policy, there is no doubt that the students thought
+there was much to be gained, as one student said, in
+“bringing students of Mohammedanism to Mecca.” The
+students not only had opportunity to work with data
+not available elsewhere, but also to work with prac-
+ticing economists who were deeply involved in apprais-
+ing developments in the economy and recommending
+appropriate action.
+
+RESEARCH ON PERSONALITY DEVELOPMENT IN YOUTH:
+PROGRAM OF A NEW COUNCIL COMMITTEE
+
+IN RESPONSE to the lively interest of a small but growing
+number of social scientists in problems of higher edu-
+cation, the Social Science Research Council has ap-
+pointed a new Committee on Personality Development
+in Youth to encourage and aid research on social and
+cultural influences on personality in the late adolescent
+years, with particular reference to the impact that college
+has on students. The members of the committee are
+Ralph W. Tyler, Director, Center for Advanced Study
+in the Behavioral Sciences (chairman); Dana L. Farns-
+worth, Director, University Health Services, Harvard
+University; T. R. McConnell, Professor of Education
+and Director of Research Project in Higher Education,
+University of California, Berkeley; Theodore M. New-
+comb, Professor of Psychology and Sociology, Univer-
+
+sity of Michigan; C. Robert Pace, Chairman, Depart-
+ment of Psychology, Syracuse University; Nevitt Sanford,
+Professor of Psychology, University of California,
+Berkeley, and Coordinator, Mary Conover Mellon
+Foundation, Vassar College; and Robin M. Williams,
+Jr., Professor of Sociology, Cornell University. A grant
+of $150,000 for support of the committee's program
+during the next three years was made to the Council
+by the Ford Foundation in December 1957.
+
+In June 1956 an exploratory conference was held
+under the auspices of the Council for discussion of the
+current status and needs of social science research on
+problems of higher education. Many aspects of the broad
+area were touched upon and two foci of special interest
+emerged. One concerned student centered research; the
+
+
+other, institution centered research. There was general
+agreement that attention might profitably be turned to
+consideration of student motivation, values, and atti-
+tudes. The conference also set a high priority on the
+study of the college as an institution. The paucity of
+such studies was attributed to practical difficulties in
+carrying them out and to the lack of experienced re-
+search workers. Relatively few social scientists are
+skilled in institutional analysis and these have not in-
+terested themselves in educational settings.
+
+A second conference was held in October 1957 to ex-
+plore further the areas of interest that had emerged. As
+participants in this conference described their research
+and their plans, it became apparent that study of student
+personality and study of institutional culture are most
+effective in combination. This is the familiar “person-
+ality and culture” analysis applied to the situation of
+the student in college.
+
+The conference recommended that a continuing com-
+
+mittee of the Council be appointed. The first meeting of
+the new committee was held on December 20-21. After
+a day’s discussion of current research the committee
+turned to consideration of possible activities that would
+contribute to the development and aid of research. In-
+terest was expressed in planning and supporting con-
+ferences and publications that would facilitate the ex-
+change of information among research workers and
+enable them to take advantage of unpublished methods
+and preliminary results. The long-range objectives of
+the committee include the promotion of comparable
+studies in different institutions, the development of
+useful measures of student characteristics and of the
+social culture that influences them, and the building of
+a theory concerning the interaction of kinds of students
+and kinds of cultures in personality development. The
+committee’s plans will be developed further at a meet-
+ing on March 25-26, at the Center for Advanced Study
+in the Behavioral Sciences.
+
+COMMITTEE BRIEFS
+
+AGRICULTURAL ECONOMICS
+
+R. G. Bressler, Jr. (chairman), Varden Fuller (secretary),
+George K. Brinegar, Willard W. Cochrane, Earl O. Heady,
+H. B. James, D. Gale Johnson, Glenn L. Johnson, Kenneth
+H. Parsons, Herman M. Southworth.
+
+At its meeting in Chicago on January 23-24, the commit-
+tee considered a memorandum by George K. Brinegar which
+proposed the investigation of ways in which research in
+agricultural economics might be made more cumulative. A
+subcommittee, consisting of Mr. Brinegar (chairman), Her-
+man M. Southworth, and Kenneth L. Bachman of the Agri-
+cultural Research Service, U. S. Department of Agriculture,
+was appointed to study the problems presented by this pro-
+posal and to recommend appropriate action.
+
+ECONOMIC GROWTH
+
+Simon Kuznets (chairman), Richard Hartshorne, Melville
+J. Herskovits, Edgar M. Hoover, Bert F. Hoselitz, Wilbert
+E. Moore, Joseph J. Spengler.
+
+A conference on commitment of the industrial labor force
+in newly developing areas is to be held in Chicago on March
+28-30, under the auspices of the committee. The conference,
+planned by a subcommittee consisting of Messrs. Moore
+(chairman), Herskovits, and Hoselitz, is concerned with
+evaluation of the findings of several studies—carried out in
+countries of Africa, Asia, and Latin America—of the adjust-
+ments involved in transfers of labor from agriculture to
+industry or to larger and more mechanized agricultural
+units, and in recruiting a relatively stable work force. As a
+basis for conference discussion, the subcommittee arranged
+
+for the preparation and advance distribution of the fol-
+lowing papers: “Work Technology and Organization in
+Nonindustrial Societies,” by Stanley H. Udy, Department
+of Sociology, Yale University; “Adaptation of Personnel
+Policies to Local Institutions,” by Cyril S. Belshaw, Depart-
+ment of Anthropology, University of British Columbia;
+“Alternative Forms of Industrial Management in Economic
+Transition,” by Peter B. Hammond, Administrative Science
+Center, University of Pittsburgh; “Development of a Labor
+Market,” by Peter Gregory, Department of Economics, Yale
+University; “Changing Demand and Consumption,” by
+Richard H. Holton, School of Business Administration, Uni-
+versity of California; “Labor Mobility and Competing Status
+Systems,” by Lloyd A. Fallers, Department of Anthro-
+pology, University of California, and Walter Elkan, East
+African Institute; “Education, Skills, and Industrial Tradi-
+tions,” by Milton Singer, Department of Anthropology, Uni-
+versity of Chicago; “Industrial Conflict and the Role of
+Unions,” by William H. Knowles, Institute of Industrial
+Relations, University of California; “Ideological Shifts in
+Unions,” by Morris D. Morris, Department of Economics,
+University of Washington; “Kinship and Voluntary Asso-
+ciations,” by Manning Nash, Department of Anthropology,
+University of Washington; and “Political Orientations,” by
+David E. Apter, Department of Political Science, Univer-
+sity of Chicago. The implications of the findings of these
+studies for certain broader topics are being dealt with in the
+following papers: “The Organization of Work,” by Mr.
+Herskovits; “Involvement in the Market Matrix,” by Mr.
+Hoselitz; “Development of New Status Systems,” by Melvin
+
+
+SE Tmo ee ih GL =~
+
+M. Tumin, Department of Economics and Sociology, Prince-
+ton University; “New Forms of Social Affiliations,” by Clark
+Kerr, Chancellor, University of California, Berkeley; and
+“General Hypotheses on Labor Commitment,” by Arnold
+S. Feldman, Department of Sociology, University of Dela-
+ware, and Mr. Moore.
+
+HISTORICAL STATISTICS
+(Advisory to the Bureau of the Census)
+
+G. Heberton Evans, Jr. (chairman), Otis Dudley Duncan,
+Solomon Fabricant, Maurice I. Gershenson, Richard M.
+Scammon, Willard L. Thorp, Harold F. Williamson; Sec-
+retary, Herman P. Miller.
+
+Excellent progress has been made on the assembly of ma-
+terials for a new and expanded edition of the basic source
+book, Historical Statistics of the United States, which is
+being prepared for publication by the Bureau of the Census.
+Table outlines for each of the 43 sections of the forthcoming
+volume have been reviewed by the advisory committee. Each
+of these table outlines was prepared by an expert in the
+field, and in most cases each was reviewed by a specialist
+who was retained by the advisory committee as a review
+consultant. Over 75 outstanding scholars have been en-
+gaged as working or review consultants. On the basis of the
+materials so far submitted, it is estimated that the size of
+the volume will be about 600 pages (including 200 pages of
+text), twice the size of the first edition. Publication of the
+volume is planned for early 1959.
+
+All the subjects covered in the first edition will be in-
+cluded and expanded in the new edition. The following are
+some of the important subjects that have been added: con-
+sumer expenditure patterns, social security, education,
+crime, recreation, religion, climate, domestic trade and
+services, corporate assets and liabilities, business population,
+insurance, and armed forces. The volume will also contain
+a special chapter on colonial statistics.
+
+Arrangements have been made by the advisory committee
+for the preparation of bibliographic and evaluative essays
+on the statistics in several fields. The essays now in process
+relate to international migration, internal migration, con-
+sumer expenditure patterns, recreation, religion, minerals,
+domestic trade and services, patents, and colonial statistics.
+
+G. H. E.
+
+LINGUISTICS AND PSYCHOLOGY
+
+James J. Jenkins (chairman), John B. Carroll, Joseph H.
+Greenberg, Alvin M. Liberman, Floyd G. Lounsbury,
+Charles E. Osgood, Thomas A. Sebeok, Rulon S. Wells;
+staff, Joseph B. Casagrande.
+
+The committee has completed plans for a seminar con-
+cerned with research on problems of aphasic speech, to be
+held in the summer of 1958 at the Boston Veterans Ad-
+ministration Hospital, a principal center for the study and
+treatment of aphasia. Support for the seminar has been
+
+granted to the Council by the National Institute of Mental
+Health. Under the chairmanship of Charles E. Osgood, the
+seminar will bring together for six weeks an interdisci-
+plinary group of specialists—psychologists, neurologists,
+and linguists—in an effort to integrate their various ap-
+proaches to the study of aphasia and to develop promising
+lines of new research. It is hoped that the work of the
+seminar will contribute to understanding of normal lan-
+guage behavior as well as to knowledge of aphasic disorders
+and of their differential diagnosis and treatment.
+
+In addition to Messrs. Osgood and Jenkins, senior partici-
+pants in the seminar will include Norman J. Geschwind,
+Research Associate, Department of Biology, Massachusetts
+Institute of Technology; Harold Goodglass, Director of Re-
+search, Clinical Psychology Section, and Fred A. Quadfasel,
+Chief, Neurology Section, Boston Veterans Administration
+Hospital; Wallace E. Lambert, Assistant Professor of Psy-
+chology, McGill University; David L. Olmsted, Assistant
+Professor of Anthropology, University of California,
+Davis; Hildred Schuell, Director, Aphasia Division, Min-
+neapolis Veterans Administration Hospital; Hans-Lukas
+Teuber, Associate Professor (Experimental Psychology),
+Department of Neurology and Psychiatry, New York Uni-
+versity College of Medicine; Uriel Weinrich, Associate Pro-
+fessor of Linguistics, Columbia University. Jean Berko,
+Ph.D. candidate in psychology and linguistics, Harvard
+University, and James McCarthy, Ph.D. candidate in psy-
+chology, University of Illinois, will participate in the semi-
+nar as advanced graduate student members. Several other
+persons actively engaged in research on aphasia and closely
+related problems will be invited to visit the seminar as
+consultants for short periods.
+
+Plans have also been made by the committee to hold
+the fifth in its series of work conferences on various issues
+in the broad field of psycholinguistics. On April 17-19 a
+group of psychologists, linguists, and literary critics will
+meet at Indiana University in a conference on research on
+“individual style,” organized by Thomas A. Sebeok. The
+papers to be discussed at the conference will be circulated
+in advance. They are being prepared by Messrs. Sebeok,
+Carroll, Jenkins, Osgood, and Wells of the committee and
+by the following other participants: Monroe Beardsley of
+Swarthmore College; Roger Brown and Albert Gilman
+of Massachusetts Institute of Technology; Seymour B. Chat-
+man of the University of Pennsylvania; Richard M. Dorson,
+Sol Saporta, Edward Stankiewicz, C. F. Voegelin, and V. J.
+Zeps of Indiana University (the latter with Mr. Sebeok);
+Fred H. Higginson of Kansas State College; John Hollander
+of Connecticut College; Benjamin Hrushovski of Hebrew
+University; Dell Hymes of Harvard University; John
+Lotz of Columbia University; I. A. Richards of Har-
+vard University; and W. K. Wimsatt of Yale University. In
+a final session Roman Jakobson and George A. Miller of
+Harvard University and René Wellek of Yale University
+will summarize the results of the conference from the
+points of view of linguistics, psychology, and literary
+criticism, respectively.
+
+
+NATIONAL SECURITY POLICY RESEARCH
+
+William T. R. Fox (chairman), Herbert Goldhamer,
+Henry A. Kissinger, Richard W. Leopold, G. A. Lincoln,
+John W. Masland, Arthur Smithies, Harold Stein; staff,
+Bryce Wood.
+
+As one way of encouraging research and furthering com-
+munication among scholars concerned with its field, the
+committee has planned a summer seminar, to be held at
+Dartmouth College in July and August 1958, under the
+chairmanship of Laurence I. Radway, Associate Professor
+of Government at Dartmouth. The other participants will
+include Lewis J. Edinger, Assistant Professor of Political
+Science, Michigan State University; Martin R. R. Goldman,
+Educational Specialist, Headquarters Air Force R.O.T.C,,
+Air University; Fred Greene, Assistant Professor of Political
+Science, Williams College; Abbott C. Greenleaf, Depart-
+
+ment of Social Sciences, U. S. Military Academy; Paul Y.
+Hammond, Assistant Professor of Political Science, Yale
+University; Samuel P. Huntington, Assistant Professor of
+Government, Harvard University; William W. Kaufmann,
+RAND Corporation; Louis Morton, Chief, Pacific Section,
+and Deputy Chief Historian, Department of the Army;
+Robert E. Osgood, Assistant Professor of Political Science,
+University of Chicago; and Glenn H. Snyder, Lecturer and
+Research Associate in Public Law and Government,
+Columbia University.
+
+An exploratory discussion of possibilities for advancing
+economic research on national security was held at the
+initiative of the committee in New York on January 31 —
+February 1, under the chairmanship of Klaus Knorr, Pro-
+fessor of Public and International Affairs, Princeton
+University.
+
+PERSONNEL
+
+DIRECTORS OF THE COUNCIL
+
+The following persons have been designated by the seven
+national social science organizations associated with the
+Council to serve as directors of the Council for the three-
+year term 1958-60:
+
+Fred Eggan, University of Chicago, by the American
+Anthropological Association
+
+R. A. Gordon, University of California, by the American
+Economic Association
+
+Louis Gottschalk, University of Chicago, by the Ameri-
+can Historical Association
+
+Earl Latham, Amherst College, by the American Political
+Science Association
+
+Wayne H. Holtzman, University of Texas, by the Ameri-
+can Psychological Association
+
+Conrad Taeuber, Bureau of the Census, by the American
+Sociological Society
+
+Philip J. McCarthy, Cornell University, by the American
+Statistical Association
+
+The credentials of the new members are scheduled for ac-
+ceptance by the board of directors of the Council at its
+spring meeting in New York on March 22-23, 1958.
+
+SENIOR AWARDS FOR RESEARCH
+ON GOVERNMENTAL AFFAIRS
+
+The Committee on Grants for Research on Governmental
+Affairs—William Anderson, Robert E. Cushman, Dean E.
+McHenry, Elmer B. Staats, and Benjamin F. Wright—at its
+meeting on November 19, 1957, made the first awards under
+the new five-year program announced in Items, June 1957.
+Grants providing freedom for self-directed research and
+writing on aspects of governmental affairs of interest to the
+
+individual scholar have been accepted by the following for
+the academic year 1958-59:
+
+Rowland Egger, Chairman, Woodrow Wilson Depart-
+ment of Foreign Affairs, University of Virginia, for
+research on the changing institutional role of the
+Presidency.
+
+Charles McKinley, Professor of Political Science, Reed
+College, for research on public administration of land
+and water resources.
+
+Emmette S. Redford, Professor of Government, University
+of Texas, for research on the decision-making process
+as reflected in regulation of economic enterprise.
+
+Clarence E. Ridley, formerly Executive Director, Interna-
+tional City Managers’ Association, for research on the
+limitations and responsibilities of city managers in
+policy determination.
+
+GRANTS FOR RESEARCH ON THE
+NEAR AND MIDDLE EAST
+
+The Committee on the Near and Middle East—T. Cuyler
+Young (chairman), Hamilton A. R. Gibb, J. C. Hurewitz,
+Majid Khadduri, William D. Schorger, Wilfred C. Smith—
+at its meeting on December 13, 1957, made the first awards
+under the new three-year program of grants for social science
+research in its field to the following 6 persons:
+
+Willard A. Beling, Ph.D. in Near Eastern Studies,
+Princeton University, and Industrial Relations Re-
+search Supervisor, Arabian American Oil Company, for
+research in several Near Eastern countries on the de-
+
+velopment and nature of the labor movement in the
+Arab Near East.
+
+Wayne Dennis, Professor of Psychology, Brooklyn College,
+for research in Lebanon, Egypt, Iraq, and Iran on Near
+Eastern children’s views of the world.
+
+Sydney N. Fisher, Professor of History, Ohio State Uni-
+versity, for research in Turkey on the place and de-
+velopment of democracy in Turkey since 1923.
+
+
+Edwin T. Prothro, Professor of Psychology, American
+University of Beirut, and Visiting Lecturer (1957-58),
+University of Michigan, for research in Lebanon on
+child-rearing practices and motivational patterns in a
+Christian village and in a Moslem village.
+
+Louise E. Sweet, Visiting Assistant Professor of Anthro-
+pology, University of Kansas, for ethnographic study in
+Iraq of an Arab village.
+
+Panayiotis A. Vatikiotis, Assistant Professor of Govern-
+ment, Indiana University, for research in several Middle
+Eastern countries on the role of an occupational group
+in the political process.
+
+GRANTS FOR FIELD STUDIES
+OF POLITICAL GROUPS IN FOREIGN AREAS
+
+The Committee on Comparative Politics—Gabriel A.
+Almond (chairman), Taylor Cole, James S. Coleman, Roy
+C. Macridis, Sigmund Neumann, Guy J. Pauker, Lucian W.
+Pye, Walter R. Sharp—at its meeting on February 21-22
+awarded 5 grants for field studies of political groups in
+foreign areas and named one alternate:
+
+Samuel H. Beer, Professor of Government, Harvard Uni-
+versity, for research in Great Britain on the roles of
+political parties and interest groups in policy making
+in that country since 1945.
+
+Ralph Braibanti, Associate Professor of Political Science,
+Duke University, for research in Pakistan on the
+bureaucracy of that country.
+
+F. C. Engelmann, Associate Professor of Political Science,
+Alfred University, for research on the Austrian political
+system (alternate).
+
+Carl H. Landé, Ph.D. candidate in government, Harvard
+University, postdoctoral award for research in the
+Philippines on political groups.
+
+Gordon K. Lewis, Associate Professor of Social Sciences,
+University of Puerto Rico, for research in the British
+West Indies on the present and emergent political
+groups in the area.
+
+Stanley Spector, Assistant Professor of Far Eastern Affairs,
+Washington University, for research in Malaya and
+Singapore on the role of intellectuals in the formation
+and execution of policies, and in the formation of
+opinion in a Southeast Asian urban community.
+
+GRANTS FOR RESEARCH ON AMERICAN
+GOVERNMENTAL PROCESSES
+
+The Committee on Political Behavior—David B. Truman
+(chairman), Angus Campbell, Robert A. Dahl, Oliver
+Garceau, Alexander Heard, V. O. Key, Jr., Avery Leiserson,
+Dayton D. McKean—at its meeting on November 8-9, 1957
+awarded one new grant for research on American govern-
+mental processes:
+
+John A. Schnittker, Assistant Professor of Agricultural
+Economics, Kansas State College, for research on the
+allocation of authority and responsibility in the ad-
+ministration of public agricultural programs.
+
+Further awards are to be made by the committee at a meet-
+ing on March 1.
+
+INTERNATIONAL CONFERENCE TRAVEL GRANTS
+
+Under the Council's program of international conference
+travel grants, awards have been made to facilitate attend-
+
+ance at four additional international meetings of social
+scientists:
+
+International Association of Applied Psychology
+
+Awards for attendance at the Congress of this Associa-
+tion to be held in Rome on April 9-14, 1958, have been
+made by a subcommittee—Lee J. Cronbach (chairman),
+George A. Kelly, and S. Rains Wallace—of the Committee
+on International Conference Travel Grants, of which Mr.
+Cronbach is a member. The 8 recipients of awards are:
+
+Dorothy C. Adkins, Professor of Psychology, University
+of North Carolina
+
+Edwin A. Fleishman, Associate Professor of Industrial
+Relations and of Psychology, Yale University
+
+Murray Glanzer, Associate Program Director, American
+Institute for Research, Pittsburgh
+
+C. H. Lawshe, Professor of Psychology, Purdue Univer-
+sity
+
+Floyd C. Mann, Program Director, Survey Research
+Center, Institute for Social Research, and Assistant Pro-
+fessor of Psychology, University of Michigan
+
+David G. Ryans, Professor of Educational Psychology,
+University of California, Los Angeles
+
+Donald W. Taylor, Professor of Personnel Administra-
+tion and of Psychology, Yale University
+
+Albert S. Thompson, Professor, Department of Psycho-
+logical Foundations and Services, Teachers College,
+Columbia University
+
+International Conference of Agricultural Economists
+
+Travel grants for this conference, to be held in Mysore,
+India on August 24 — September 4, 1958, have been awarded
+by the following subcommittee: William O. Jones (chair-
+man), George E. Brandow, and Harold G. Halcrow. The
+6 recipients are:
+
+Chester B. Baker, Associate Professor of Farm Manage-
+ment, University of Illinois
+
+Karl Brandt, Professor of Agricultural Economics, Stan-
+ford University
+
+D. Gale Johnson, Professor of Economics, University of
+Chicago
+
+George L. Mehren, Professor of Agricultural Economics,
+University of California, Berkeley
+
+Frederick A. Williams, Dean of the Graduate School,
+Agricultural and Technical College of North Carolina
+
+Lawrence Witt, Professor of Agricultural Economics,
+Michigan State University
+
+International Congress of Americanists
+
+The Congress will be held in San José, Costa Rica, on
+July 20-27, 1958. Travel grants have been awarded by a
+subcommittee consisting of Ralph L. Beals (chairman, and
+member of the Committee on International Conference
+
+9
+
+
+Travel Grants), Howard F. Cline, and John L. Gillin. The
+11 recipients are:
+
+Melville ]. Herskovits, Professor of Anthropology,
+Northwestern University
+
+Oscar Lewis, Professor of Anthropology, University of
+Illinois
+
+James E. McKeown, Professor of Sociology, De Paul Uni-
+versity, Chicago
+
+Donald Robertson, Assistant Professor of Art History,
+Tulane University
+
+Irving Rouse, Professor of Anthropology, Yale Univer-
+sity
+
+Omer C. Stewart, Professor of Anthropology, University
+of Colorado
+
+William Duncan Strong, Professor of American Arche-
+ology, Columbia University
+
+Sol Tax, Professor of Anthropology, University of
+Chicago
+
+Arthur J. Vidich, Assistant Professor of Anthropology,
+University of Connecticut
+
+Charles Wagley, Professor of Anthropology, Columbia
+University
+
+Richard B. Woodbury, Associate Professor of Anthro-
+pology, Columbia University
+
+International Statistical Institute
+
+Travel grants for the meeting of the Institute to be held
+in Brussels on September 3-8, 1958, have been awarded by
+a subcommittee consisting of Mortimer Spiegelman (chair-
+man of the Committee on International Conference Travel
+Grants), Gertrude M. Cox, and Ralph J. Watkins. The 4
+recipients of grants are:
+
+Hendrik S. Houthakker, Professor of Economics, Stanford
+University
+
+Richard C. Kao, Research Associate, Engineering Re-
+search Institute, University of Michigan
+
+William G. Madow, Senior Research Mathematical
+Statistician, Stanford Research Institute, and Consult-
+ing Professor of Statistics, Stanford University
+
+William F. Ogburn, Professor of Sociology, Florida State
+University
+
+SUMMER RESEARCH TRAINING INSTITUTES
+ON ANALYSIS OF ELECTORAL BEHAVIOR
+AND ON THE JUDICIAL PROCESS
+
+Selection of applicants for admission to two research
+training institutes to be conducted during the summer of
+1958, under the auspices of the Committee on Research
+Training, has been made by the following subcommittees:
+for the Institute on Analysis of Electoral Behavior to be
+held at the Survey Research Center, University of Michi-
+gan, June 23 - August 15, Angus Campbell (chairman),
+Samuel J. Eldersveld, and J. Austin Ranney; and for the
+
+Institute on the Judicial Process to be held at the Univer-
+sity of Wisconsin, July 7 — August 22, William M. Beaney
+(chairman), Carl A. Auerbach, and Robert J. Harris. The
+following persons have been invited to participate in the
+respective institutes:
+
+Analysis of Electoral Behavior
+
+Robert P. Boynton, Assistant Professor of Political
+Science, State University of Iowa
+
+David R. Derge, Assistant Professor of Government,
+Indiana University
+
+Herbert Garfinkel, Assistant Professor of Government,
+Dartmouth College
+
+Lester W. Milbrath, Instructor and Research Associate
+in Political Science, Duke University
+
+Herbert D. Rosenbaum, Instructor in Political Science,
+Hofstra College
+
+Lloyd I. Rudolph, Instructor in Government, Harvard
+University
+
+John H. Schaar, Assistant Professor of Political Science,
+University of California, Berkeley
+
+Kenneth N. Vines, Assistant Professor of Political Science,
+Tulane University
+
+Judicial Process
+
+10
+
+Henry J]. Abraham, Associate Professor of Political
+Science, University of Pennsylvania
+
+Harry V. Ball, Assistant Professor of Sociology, Pomona
+College
+
+Burton R. Fisher, Professor of Sociology, University of
+Wisconsin
+
+Houston I. Flournoy, Assistant Professor of Government,
+Pomona College
+
+Gilbert Geis, Assistant Professor of Sociology, Los Angeles
+State College
+
+Martin P. Golding, Instructor in Philosophy, Columbia
+University
+
+Milton Greenberg, Assistant Professor of Political Science,
+Western Michigan University
+
+Ned V. Joy, Associate Professor of Political Science, San
+Diego State College
+
+Samuel Krislov, Assistant Professor of Government, Uni-
+versity of Oklahoma
+
+Arnold Meadow, Associate Professor of Psychology, Uni-
+versity of Buffalo
+
+Chester A. Newland, Assistant Instructor in Political
+Science, University of Kansas
+
+Arthur R. Porter, Jr., Professor of Economics, Hanover
+College, Indiana
+
+John R. Schmidhauser, Assistant Professor of Political
+Science, State University of Iowa
+
+Marcus G. Singer, Assistant Professor of Philosophy, Uni-
+versity of Wisconsin
+
+Jerome H. Skolnick, Research Associate, Sociology and
+Law, Yale Law School
+
+S. Sidney Ulmer, Instructor in Political Science, Michigan
+State University
+
+
+SUMMER RESEARCH TRAINING INSTITUTE
+ON SIMULATION OF COGNITIVE PROCESSES
+
+Selection of applicants for admission to the research train-
+ing institute to be held at the RAND Corporation, Santa
+Monica, California in June-July 1958 (as announced in
+Items, December 1957, page 56) has been made by the
+Committee on Simulation of Cognitive Processes—Carl I.
+Hovland, George A. Miller, and Herbert A. Simon. The
+following persons have been invited to participate in the
+institute:
+
+Robert P. Abelson, Assistant Professor of Psychology,
+
+Yale University
+
+Lawrence T. Alexander, Head, Research Group, System
+Development Corporation, Santa Monica
+
+Richard C. Atkinson, Assistant Professor of Psychology,
+University of California, Los Angeles
+
+William F. Battig, Assistant Professor of Psychology, Uni-
+versity of Virginia
+
+Daniel E. Berlyne, Visiting Associate Professor of Psy-
+chology, University of California, Berkeley
+
+Joseph D. Birch, Assistant Professor of Psychology, Uni-
+versity of Michigan
+
+Jack Block, Associate Professor of Psychology, University
+of California, Berkeley
+
+James S. Coleman, Assistant Professor of Sociology, Uni-
+versity of Chicago
+
+Ward Edwards, Research Associate, Operations Research
+Group, University of Michigan
+
+Bert F. Green, Jr., Staff Member, Lincoln Laboratory,
+Massachusetts Institute of Technology
+
+Robert L. Hamblin, Study Director, Social Science Insti-
+tute, Washington University
+
+Lyle V. Jones, Associate Professor of Psychology, Univer-
+sity of North Carolina
+
+Edmund T. Klemmer, Staff Psychologist, International
+Business Machines Corporation Research Center
+
+Gilbert K. Krulee, Assistant Professor of Psychology, Case
+Institute of Technology
+
+Nissim Levy, Assistant Professor of Psychology, Brown
+University
+
+William N. McPhee, Research Associate, Bureau of Ap-
+plied Social Research, Columbia University
+
+Irwin Pollack, Research Psychologist, Operational Appli-
+
+cations Laboratory, Bolling Air Force Base, Washing-
+ton, D. C.
+
+Theodore Schwartz, Research Fellow, Department of
+Anthropology, American Museum of Natural History
+
+Roger N. Shepard, Research Fellow, Psychological Labo-
+ratories, Harvard University
+
+Gerald H. Shure, Associate Social Scientist, System De-
+velopment Corporation, Santa Monica
+
+Donald W. Taylor, Professor of Personnel Administra-
+tion and of Psychology, Yale University
+
+APPOINTMENTS TO COUNCIL COMMITTEES
+
+Richard M. Cyert of Carnegie Institute of Technology
+has been appointed a member of the Committee on Busi-
+ness Enterprise Research.
+
+The Committee on Mathematical Training of Social
+Scientists was reconstituted in January as the Committee on
+Mathematics in Social Science Research, with the following
+membership: William G. Madow, Stanford University
+(chairman); Sanford M. Dornbusch, Harvard University;
+Arnold C. Harberger, University of Chicago; John G.
+Kemeny, Dartmouth College; James G. March, Carnegie
+Institute of Technology; Philip J. McCarthy, Cornell Uni-
+versity; George A. Miller, Harvard University; Anatol
+Rapoport, University of Michigan.
+
+PUBLICATIONS
+
+NEW CENSUS MONOGRAPHS
+
+These volumes, sponsored by the former Committee on
+Census Monographs in cooperation with the Bureau of the
+Census, are published by John Wiley & Sons, New York:
+
+America’s Children, by Eleanor H. Bernert. February
+1958. 199 pages. Cloth, $6.00.
+
+The Changing Population of the United States, by
+Conrad Taeuber and Irene B. Taeuber. January 1958.
+368 pages. Cloth, $7.75.
+
+Farm Housing, by Glenn H. Beyer and J. Hugh Rose.
+November 1957. 205 pages. Cloth, $6.00.
+
+Residential Finance, 1950, by Richard U. Ratcliff,
+Daniel B. Rathbun, and Junia H. Honnold. October
+1957. 190 pages. Cloth, $6.00.
+
+SOCIAL SCIENCE RESEARCH COUNCIL
+
+230 PARK AVENUE, NEW YORK 17, N. Y.
+
+Incorporated in the State of Illinois, December 27, 1924, for the purpose of advancing research in the social sciences
+
+Directors, 1958: GABRIEL A. ALMOND, TAYLOR COLE, HAROLD F. DORN, FrEpD EcGAN, ROBERT E. L. Faris, R. A. GORDON, Louis GOTTSCHALK,
+PENDLETON HERRING, E. ApaMsoN HoOEBEL, WAYNE H. HortzMAN, LYLE H. LANIER, EARL LATHAM, PHILP J. MCCARTHY, DoucLAs MCGREGOR,
+JouN PERRY MILLER, FREDERICK MosTELLER, FRANK C. NEWMAN, WiLLiam H. Niciorirs, DAvip M. POTTER, CARROLL L. SHARTLE, RICHARD H. SHRYOCK,
+HERBERT A. SIMON, CONRAD TAEUBER, SCHUYLER C. WALLACE, RALPH J. WATKINS, GorboN R. WiLLEY, MALcom M. WiLLEY, RoBIN M. WIiL-
+
+LiAMS, Jr., C. VANN WOODWARD, DoNALD YOUNG
+
+Officers and Staff: PENDLETON HERRING, President; PAUL WEBBINK, Vice-President; ELBRIDGE SIBLEY, Executive Associate; DONALD G. MAR-
+Quis; BRYCE Woop; ELEANOR C. IsBLL; JOSEPH B. CASAGRANDE; CATHERINE V. RONNAN, Financial Secretary
+
+I EE
+
+
+ANNOUNCEMENTS
+
+SUMMER GRANTS FOR FIELD TRAINING
+IN SOCIAL ANTHROPOLOGY, 1958
+
+Grants for supervised field training in social anthro-
+pology and ethnology in the summer of 1958 are offered
+by the Social Science Research Council to students who
+have completed at least one year of graduate work in these
+subjects. Stipends ranging from $175 a month for unmar-
+ried students to $300 a month for students with several de-
+pendents will be awarded for terms of up to 3 months.
+Allowances for the student’s own travel and field expenses
+may be made. Available funds will permit about 5 awards
+in 1958.
+
+Applications for grants should be filed not later than
+April 1, 1958, and it is anticipated that awards can be
+announced about April 15. Applications must give assur-
+ance that the student will accompany an experienced anthro-
+pologist into the field and work under his guidance. It is
+expected that the faculty supervisor will also offer guidance
+in planning the field project and in the analysis of the data
+and the preparation of a report on the summer's work. It is
+anticipated that field work will be undertaken in most
+cases in North or Central America or the Caribbean area,
+but work in other areas will be permissible if the applicant
+is able to provide from other sources for travel expenses in
+excess of $300.
+
+The complete application should include the following,
+of which A, B, and C should be submitted in quadruplicate:
+
+A. From the faculty supervisor: a letter nominating the
+student, including a statement of arrangements for
+the supervision of the student's work and an ap-
+praisal of his abilities and promise as a research
+worker;
+
+B. From the student: a description of plans for the field
+work, the time schedule, an estimated budget (in-
+cluding information about the candidate’s marital
+status and dependents); a brief curriculum vitae, and
+a statement of progress toward the Ph.D. degree;
+
+C. A letter of recommendation from another graduate
+instructor familiar with the student’s qualifications;
+
+D. Transcripts of both undergraduate and graduate aca-
+demic records; or a list of all courses taken in anthro-
+pology and related fields, giving the instructor and
+grade obtained in each.
+
+Applications and inquiries concerning the program should
+be addressed to the Social Science Research Council, 230
+Park Avenue, New York 17, N. Y.
+
+TRAVEL GRANTS: INTERNATIONAL
+CONFERENCES ON SLAVIC AND
+EAST EUROPEAN STUDIES
+
+As a part of the program of the Joint Committee on
+Slavic Studies, of the American Council of Learned So-
+cieties and the Social Science Research Council, travel grants
+are offered to scholars in the humanities and social sciences
+
+for attendance at international conferences and congresses
+of specialists in Slavic and East European studies. ‘These
+awards are made possible by the grant from the Ford
+Foundation reported in Items, September 1957, page 38,
+and are administered by the Joint Committee's Subcom-
+mittee on Grants. It is anticipated that 4 to 6 awards may
+be made in each of the years 1958 and 1959 for travel to
+conferences or congresses held outside North America.
+
+The normal amount of each grant will be equivalent to
+the lowest round-trip tourist class or excursion airplane fare
+between the recipient's home and the place of meeting,
+applicable to the actual period of the conference or congress.
+No allowance will be made for living expenses.
+
+Application forms, which will be supplied on request to
+the Social Science Research Council, 230 Park Avenue,
+New York 17, N. Y., must be filed not later than May lI,
+1958, for meetings to be held in 1958. For meetings to be
+held in 1959, a filing date for applications will be announced
+in the autumn of 1958.
+
+FULBRIGHT GRANTS FOR ADVANCED
+RESEARCH AND UNIVERSITY LECTURING
+IN ASIA, THE PACIFIC, LATIN AMERICA
+
+The Committee on International Exchange of Persons,
+appointed by the Conference Board of Associated Research
+Councils, has announced that in recent months Executive
+Agreements have been signed with Paraguay and Brazil,
+bringing to a total of seven the Latin American Republics
+participating in the Fulbright Educational Exchange Pro-
+gram. Both the Paraguayan and Brazilian programs are ex-
+pected to be inaugurated in 1958, and the committee wel-
+comes inquiries.
+
+The 1959-60 announcement of university lecturing and
+advanced research awards in the Latin American Republics,
+South and Southeast Asia, and the Pacific Area will be issued
+early in March. The closing date for making application is
+April 25, 1958. Awards are offered:
+
+In Latin America: for Argentina, Brazil, Chile, Colombia,
+Ecuador, Paraguay, and Peru
+
+In the Pacific Area: for Australia and New Zealand
+
+In South and Southeast Asia: for Burma, India, Pakistan,
+the Philippines, Thailand.
+
+The same announcement will include a list of openings
+for the academic year 1958-59 under the Educational Ex-
+change Program with Ireland. This Program utilizes Irish
+currency and is generally patterned after exchanges au-
+thorized by the Fulbright Act. Other 1958-59 interim pro-
+grams to be announced are those for Iran and Taiwan, under
+recently reactivated Fulbright Agreements.
+
+Detailed program information and application forms
+may be obtained from the Conference Board of Associated
+Research Councils, Committee on International Exchange
+of Persons, 2101 Constitution Avenue, Washington 25, D. C.
+
+12
+
+
