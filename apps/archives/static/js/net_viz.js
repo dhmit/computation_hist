@@ -1,7 +1,9 @@
+"use strict"
+
 const width = 960;
 const height = 600;
 
-function create_force_layout(nodes, edges) {
+export function create_force_layout(nodes, edges) {
 
     const labelLayout = d3.forceSimulation(nodes);
     labelLayout.force("charge", d3.forceManyBody().strength(-50));
