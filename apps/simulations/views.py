@@ -8,6 +8,8 @@ def simulation(request, simulation_name):
     template = 'simulations/' + simulation_name + '.jinja2'
     return render(request, template, obj_dict)
 
-
 def index_sim(request):
     return render(request, 'simulations/index.jinja2')
+
+def punchcard_sim(request):
+    return render(request, 'simulations/punchcards.jinja2')
