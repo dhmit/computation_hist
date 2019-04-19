@@ -10,7 +10,7 @@ from .settings import *
 
 # Database
 
-# NOTE(ra): This lets us run our tests on Travis on sqlite3, which is ultimately
+# NOTE(ra): This lets us run our tests on sqlite3, which is ultimately
 # not a very good idea -- but works around the fact that our postgres user is readonly.
 
 DATABASES = {
