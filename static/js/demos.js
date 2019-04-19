@@ -99,14 +99,16 @@ export function start_demo(demo_params) {
         renderer.reset(instructions, initial_memory_values);
         renderer.update(instructions, num_code_lines, highlighted_registers);
     });
-    $('#run_button').on('click', async () => {
-        computer.halt = false;
+
+    // jshint... has trouble with async arrow functions...
+    $('#run_button').on('click', async () => { // jshint ignore:line
+        computer.halt = false; // jshint ignore:line
         while (!computer.halt) {
             computer.step();
             renderer.update(instructions, num_code_lines, highlighted_registers);
-            await timer(750);
-        };
-    });
+            await timer(750); // jshint ignore:line
+        }
+    }); // jshint ignore:line
     $('#step_button').on('click', () => {
         computer.halt = false;
         computer.step();
