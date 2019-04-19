@@ -1,0 +1,60 @@
+PRINT, a standard subroutine for printing SAP-formed blocks
+via Fortran
+
+SUBROUTINE  PRINT (C,N)
+
+The dimension of € is a dunmy and can have any value in this
+case
+
+DIMENSION C(10)
+
+Reverse order of storing data to conform
+
+CALL FLIP (C,N)
+
+CALL IO (C,N)
+
+CALL FLIP (C,N)
+
+RETURN
+
+IEND
+
+F'LIP reverces the storage order to.conlform to Fortran's
+storage convention.
+
+SUBROUTING WILI? (C,N)
+
+DIMENSION C¢(10)
+
+N2=N/2
+
+DOSL0T= ]~ N2
+
+TMP = C(T)
+
+K = N=-I+1
+
+C(I) = c(K)
+
+C(K) = TMP
+
+RETURN
+
+ISND
+
+IO outputs the N registers of array -C.
+
+SUBROUTINI TO(
+
+DIMENSTION C(10)
+
+Format statewents same as the one in BUDsheelileation. In
+DAP routine
+
+FORMAT (8H A BLOCK/(7515.8))
+
+WSWURN
+
+VR
+»'Al.’l.>

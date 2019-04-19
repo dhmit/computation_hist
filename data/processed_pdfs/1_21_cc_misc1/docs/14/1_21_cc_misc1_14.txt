@@ -1,0 +1,542 @@
+APPLICATION FOR A RESEARCH GRANT
+
+From: Department of Mathematics
+Dartmouth College
+Hanover, New Hampshire
+
+To: Office of Naval Research
+
+TOPIC: SYMBOLIC WORK ON HIGH SPEED DIGITAL COMPUTERS
+
+    
+
+ 
+ 
+
+ohn G. Kemeny, |
+Mathematics Dep
+
+
+STATEMENT OF THE PROBLEM
+
+High speed computers have augmented man's ability to
+handle numerical data ang to get numerical solutions
+However,
+
+ 
+
+to problems,
+the ability to handle symbols and formulas and to get
+symbolic solutions to problems is even more fundamental to sci-
+entific research,
+
+ 
+
+ 
+
+ 
+
+Relatively little work has been done to study
+the possible uses of high speed computers for such symbolic work.
+
+We are convinced that the present computers have suf-
+ficiently complex logic and are sufficiently adaptable that they
+will be efficient in symbolic work, even though they have not
+been designed for this purpose. We propose
+
+l. to explore the general problem of how a digital
+computer can be used for symbolic work,
+
+2. to develop a machine language in which symbolic
+work can be easily carried out,
+
+3. to write a detailed "flow-diagram! adaptable to
+any high speed machine for the carrying out of
+one Important class of problems,
+
+Lb. to write a program according to this "flow—-diagram!’
+for the IBM 704 and possibly |
+
+5. to make some recommendations for new designs in
+
+computing machines that would adapt them better
+for symbolic work.
+
+For the specific problem to be tackled we propose the
+
+finding of analytic solutions to a wide class of ordinary dif-
+
+ferential equations. This is a sufficiently broad problem so
+
+that one would have to face and solve all the basic issues that
+
+would confront us in doing symbolic work on the high speed
+
+com-
+puters. On the other hand, we are convinced that this problem
+
+
+I  ————— ee ———————
+Ee
+
+1s not so great that we should be unable to show a possible re-
+sult in a year and a half. With reasonable luck we should have
+both the flow-diagram and at least a first version of the code
+completed.
+
+This code would of course have some immediate practical
+use, but much more important would be the lessons we can learn on
+how practical the high speed computers are for solving symbolic
+problems and what is the best way of utilizing them. We propose
+to write a specific code for the IBM 704. because we have ample
+time available to us on such a machine, However, the theoretical
+conclusions, as well as the flow-diagram, would be of use on any
+high speed computer, and even the adaptation of the specific code
+should take much less time than its original writing. Hence, we
+believe that a very wide class of computers would profit from the
+results of this work. Last but not least, we hope that this work
+
+will suggest some improvements in computing machine design.
+
+
+PERSONNEL
+
+The proposed personnel for the project consists of
+seven members of the Dartmouth College Mathematics Department.
+The principal investigator would be John G. Kemeny, Professor
+of Mathematics and Chairman of the Mathematics Department. In
+addition there would be G. L. Thompson, J. McCarthy, and R. Z.
+Norman, Assistant Professors of Mathematics, and R. E. William-
+son, T. E. Kurtz, and J. B. Fraleigh, Instructors of Mathematics.
+Biographies and bibliographies are appended.
+
+TIMING
+
+It is proposed that the project should start on Feb-
+ruary 1, 1958, and run through June 30, 1959. This would in-
+clude three academic semesters and one summer,
+
+The principal investigator and five of the staff mem-
+bers would expect to devote somewhere between 1/4 and 1/3 of
+their time to this project. This figure is an average over the
+year and a half of the duration of the project. It 1s expected
+that Professor McCarthy's contribution will have to be more
+
+limited, due to other commitments of a related nature.
+
+COST
+
+The exact cost of the project 1s somewhat hard to es-
+timate, due to the fact that salary increases are to go into
+effect this coming year at Dartmouth College. The size and ex-—
+tent of these increases has not as yet been announced. However,
+a fairly careful estimate would indicate that the actual cost of
+the project (including both direct and indirect expenses) would
+be in the neighborhood of $30,000.
+
+
+GERALD L. THOMPSON, ASSISTANT PROFESSOR OF MATHEMATICS
+Born: November 25, 1923, in Rolfe, Iowa
+
+Rolfe Public High School
+
+lowa State College: B.S., 194k
+
+Mass, Institute of Technology: S.M., June, 1948
+University of Michigan: Ph.D., June, 1953
+
+Experience
+
+1943-46: Ensign, U.S. Navy, Electronics Officer.
+
+1946-48: Graduate work at Mass. Institute of Technology.
+
+1948-50: ONR Operations Research Project, University of Michigan,
+
+1951-53: Instructor in Mathematics, Princeton University; ONR
+Logistics Research Project; research on theory of games
+under direction of Professor A, We. Tucker.
+
+1952 summer: Attended University of Michigan Summer Seminar,
+Santa Monica, California, on "The Design of Experiments
+on Decision Processes." Worked with R. R. Bush and F.
+Mosteller on their 'learning model! - which has been
+described in a joint paper to be published in the Uni-
+versity of Michigan's volume on the seminar,
+
+1953, March to June: Associated with Behavioral Models Project at
+Columbia University - critical exposition of talks given
+in seminar on "Content and Methods of the Social Sciences,"
+and research on the learning model.
+
+1953—- : Assistant Professor in Mathematics, Dartmouth College.
+
+Flelds
+
+Algebra, Theory of Games, and Mathematical applications in the
+social sciences.
+
+
+JOHN McCARTHY, ASSISTANT PROFESSOR OF MATHEMATICS
+Born: September li, 1927, Boston, Massachusetts
+Education
+
+Belmont High School, Los Angeles
+California Institute of Technology: B.S., 1948
+Princeton University: Ph.D., 1951
+
+Experience
+
+1946-47: U.S. Army,
+
+1949-50: Assistant in Mathematics Department, Princeton Univ.
+
+1950-51: Procter Fellow, Princeton University.
+
+1951-53: Higgins Research Instructor in Mathematics, Princeton
+
+University.
+
+1953-Feb 55: Acting Assistant Professor, Stanford University.
+
+Feb 1955—- =: Assistant Professor, Dartmouth College
+
+Summer 1956: Organized and participated in "Dartmouth Summer Re-
+search Project in Artificial Intelligence." Worked
+on automatic programming in connection with the
+artificial intelligence problem. Taught IBM T70L
+programming at M.I.T. summer school.
+
+1956— : Consultant to IBM and Lincoln Laboratory on Theory of
+
+Automata.
+Sept 1957— : Sloan Fellowship (full time, 1957-58; half time,
+1958-59).
+
+Fields
+
+Differential Equations, Differential Geometry, Theory of Automata,
+Automatic Programming and Applications of Computers.
+
+
+ROBERT Z. NORMAN, ASSISTANT PROFESSOR OF MATHEMATICS
+Born: December 16, 192i, Chicago, Illinois
+Education
+
+Highland Park High School, Highland Park, Ill.
+Swarthmore College, Swarthmore, Penna.: A.B., 1949
+University of Michigan: A.M., 1950
+
+Ph.D., 1954
+
+Experience
+
+Feb.1l9L3-Mar.lj6: U.S. Army Air Force, Electronics Officer.
+
+Sep.19L9-Feb.51: Teaching Fellow, Math. Dept., Unlv. of Mich.
+
+Feb.1951-Aug.51: Research Assistant, Research Center for Group
+Dynamics, Univ. of Michigan.
+
+Sep.1951-June 52: Ford Foundation Fellow for study of applica-
+tions of mathematics to social science.
+
+Sep.1952-June 53: Research Assistant, ONR research project, Univ.
+of Michigan (combinatorial problems).
+
+July 1953-June 54: Research Assistant, Electronic Defense Group,
+
+University of Michigan (operaticns research).
+
+July 195 3-Sep.53:) Research Assistant, Research Center for Group
+
+and ’
+
+Yoynsatos,
+
+Dec.1953-June SL:
+
+Sep.195l—June 56: Instructor in Mathematics, Princeton University;
+ONR Logistics Research Project; research in
+graph theory and combinatorial problems.
+
+1955 Summer: Worked with Dartmouth Mathematical Project on
+applications of mathematics to the social
+sciences.
+
+Sep.1956- Assistant Professor of Mathematics, Dartmouth
+College; Dartmouth Mathematical Project; MAA
+writing group on program for the sophomore year
+math for students primarily interested in the
+social sciences.
+
+Fields
+
+Theory of Graphs, Combinatorial Problems, Linear Programming.
+
+
+RICHARD E. WILLIAMSON, INSTRUCTOR IN MATHEMATICS
+Born: May 23, 1927, Chicago, Illinois
+Education
+Brattleboro (Vermont) Public High School
+Dartmouth College: B.A., 1950
+
+University of Pennsylvania: M.A., 1951
+Ph.D., 1955
+
+Experience
+
+1954-56: Research Assistant, U.S.A.F, sponsored project on
+smoothing operations in analysis, at University of
+Pennsylvania, directed by I. J. Schoenberg.
+
+1956~ : Instructor in Mathematics, Dartmouth College.
+
+Fields
+
+Integral transforms, Theory of approximation.
+
+LUN
+>
+te
+~
+3
+(3
+nN
+
+THOMAS E. KURTZ, INSTRUCTOR IN MATHEMATICS
+Born: February 22, 1928, Oak Park, Illinois
+Education
+
+Arlington Helghts H.S., Arlington Heights, Illinois
+Knox College (Illinois): B.A., 1950
+Princeton University: M.A., 1953
+
+Ph.D. , 19556
+
+Experience
+
+1953-56: Analytical Research Group (Military Systems Analysis)
+Princeton University.
+1956- +: Instructor in Mathematics, Dartmouth College.
+
+
+JOHN B. FRALEIGH, INSTRUCTOR IN MATHEMATICS
+Born: December 18, 1930, Burlington, Vermont
+
+Education
+
+Burlington High School
+University of Vermont: B.A., 1952
+Princeton University: M.A., 1956
+
+Experience
+
+1952-53: National Science Foundation Fellow, Princeton University.
+1952-56: Graduate Study, Princeton University.
+1956— : Instructor in Mathematics, Dartmouth College.
+
+
+10.
+BIBLIOGRAPHICAL DATA
+
+JOHN G. KEMENY
+
+Books:
+
+ 
+
+INTRODUCTION TO FINITE MATHEMATICS (with J. L. Snell and G.
+L. Thompson), Prentice-Hall, Jan. 1957.
+
+A PHILOSOPHER LOOKS AT SCIENCE, Van Nostrand. Forthcoming,
+
+UNIVERSAL MATHEMATICS, PART II. (Co-author of Mathematics
+Association book)
+
+Articles:
+
+"Models of logical systems." Journal of Symbolic Logic, vol.
+13 (March 1948), pp. 16-30.
+
+"Type-theory vs. set theory." Ph.D. thesis, abstract published
+in Journal of Symbolic Logic, March, 1950.
+
+"Carnap on probability." Review of Metaphysics, vol. 5 (Sept.
+1851), pp. 145-156,
+
+"Extension of the methods of inductive logic." Philosophical
+Studies, vol. 3 {April 1952), pp. 38-42.
+
+"A contribution to inductive logic." Philosophy and Phenom-
+enological Research, vol. 13 (March 1353), pp. 371-374.
+
+ 
+
+"A logical measure function." Journal of Symbolic Logic, vol.
+18 (Dec. 1953), pp. 289-308. TER
+
+"Man viewed as a machine." Scientific American, vol, 192
+(April 1955), pp. 58-67. ——————
+
+"Carnap's theory of probabllity and induction." Library of
+Living Philosophers, forthcoming.
+
+"pair bets and inductive probabilities." Journal of Symbolic
+Logic, vol. 20 (Sept. 1955), pp. 263-273.
+
+"Semantics, logical." Encyclopaedia Britannica, 1956 Edition.
+
+"A new approach to Semantics." Journal of Symbolic Logic,
+vol. 21 (March 1956, pp. 1-27, and June 19 .
+
+"A Generalization of the von Neumann Model of an Expanding
+Rconomy," with G. L. Thompson and Oskar Morgenstern.
+Econometrica 24 (1956), pp. 115-135.
+
+"Markov processes in learning theory," with J. L. Snell. To
+appear 1in Psychometrika.
+
+
+11.
+
+JOHN G. KEMENY (Cont. )
+
+Articles:
+
+"Metatheory, " Encyclopaedia Britannica, forthcoming.
+
+"Undecidable problems
+
+Of elementary number theory," Forth-
+coming,
+
+"Symbolic work on the IBM 704," to be published by the RAND
+Corporation,
+
+Plus a number of reviews and various articles on the Philosophy
+of Science.
+
+GERALD L. THOMPSON
+
+Master's Thesis: "On Isotropic Surfaces," M.I.T., 19.8.
+Dissertation: "Projsctive Relations in Modular Lattices," Uni-
+
+versity of Michigan, 1953 (under Professor Thrall).
+
+Papers in the Annals of Mathematics, Study No. 28, Princeton Uni-
+
+versity, 1953:
+
+"The Double Description Method," with T. S. Motzkin, H,
+Ralffa, and R. M. Thrall,
+
+"Bridge and Signaling."
+"Signaling Strategies in n-person Games,"
+A paper in DECISION PROCESSES, John Wiley, 195.
+
+"A Formal Structure for Multiple Choice Situations," with
+R. R. Bush and FF, Mosteller.
+
+Articles:
+
+ation of the von Neumann Model of an Expanding
+on J. G. Kemeny and Oskar Morgenstern.
+J
+
+Econometrica 2 (1956), pp. 115-135,
+
+i i " Linear Ine-
+lution of a Game-Theoretic Problem. :
+malities and Related Systems, Annals of Mathematics Study,
+2 Bl;
+
+No. 38 (1956), pp. 275-
+
+INTRODUCTION TO FINITE MATHEMATICS, Prentice-Hall, New York.
+Jan. 1957. With J. G. Kemeny and 1 L. Snell.
+
+ 
+
+Book:
+
+
+12.
+JOHN McCARTHY
+
+ 
+
+Dissertations:
+i —————————_—.
+
+n 2
+Projection Operators and Partig] Differential Equations,"
+
+Articles:
+
+s PProximations fop Limit Cycles,"
+Titres, Ph, athematics Studies, Study No. 29, Princeton
+3
+
+"Stability Of Invariant Manifolds, Stanford University
+Technical Report, 195g,
+
+aration,
+"The Stability of Social Contracts," In preparation,
+
+"Measures of the Value of Information. " Proceeedings of the
+National Academy of Science, Sept, 1956.
+
+"Aggregation in the Leontief Model." 1p preparation,
+
+"Language and Intelligence in Machines," In Preparation.
+
+ROBERT Z. NORMAN
+
+Articles:
+
+"The dissimilarity characteristic of Husimi trees," with F,
+Harary. Annals of Mathematics, No, 58 (1953), pp. 134-141.
+
+"The dissimilarity characteristic of linear graohs ," with p,
+Harary. Proceedings of the American Mathematical Society,
+
+No. 5 {1957 vp. Zil-135.
+
+"Combinatorial Problems in the Theory of Graphs IL," with gq.
+ar and G, E. Uhlenbeck, Proceedin 8 of the National
+Academy of >clence, U. S.A., No, [2 (T5527, PP. 203-208.
+
+"The human use of information ITI. Signal detection for the
+
+case of an unknown signal parameter," with w. P, Tanner, Jp,
+Transactions I.R.E., PGIT-l (1954), pp. 222-227.
+
+raph: "Graph Theory as a Mathematical Model for the Social
+ce with ¥. Harary, Research Center for Group Dynamics
+
+Monograph No. 2, 1953.
+
+
+RICHARD ERE. WILLIAMSON
+
+Dissertation:
+——__2tlion
+
+13,
+
+ply Monotone fun
+
+Ctiong ang their Laplace transforms,"
+athematjcgay Journaj, 1956,
+
+"Variation
+Preparat ig
+
+diminishing transformations for
+n with 1,
+
+the Circle," ip
+. Schoenberg,
+
+

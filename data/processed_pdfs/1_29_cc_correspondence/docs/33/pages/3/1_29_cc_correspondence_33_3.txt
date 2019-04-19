@@ -1,0 +1,33 @@
+tape input and the inter-job time is reduced
+to some slight tape manipulation by the
+Monitor.
+
+Manuals on FMS and FAP will be made available soon at the Center.
+Because of the attractiveness of the above Fortran-FAP
+monitor system and the effectiveness of the Fortran compiler
+1t 1s expected that a major portion of the users of the Center
+will prefer to use the system for any new work. The Center
+staff will recommend this system to all new programmers who
+seek advice. This will be the case for those if'row
+the New England colleges when distance and debugging inconven-
+ience are a burden., I& is expected that considerable machine
+time will be saved if it is possible to use FMS as the principal
+operating system of the Center.
+The above recommendation of the Center, however, should
+not be viewed as excluding other operating procedures with
+the computer. In particular there are two principal reasons
+for deviation:
+
+l. ease of transition from the 704 to the
+709, and
+
+2. 1nadequacies or weaknesses (from the user's
+point-of-view) in the Fortran-FAP Monitor
+System.
+
+B. SOS System
+As 1s fairly well known, the original discussion of
+the 709 computer stimulated various persons in SHARE to
+develop an entirely new programming system. This system was
+
+to be reasonably compatible with SAP on the 704, be a monitor

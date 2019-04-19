@@ -1,0 +1,478 @@
+Adninistrative Memorandum A-1 | Page 1 of 10
+
+M.X.T. Computation Center
+
+Massachusetts Institute of Technology
+Cambridge 39, Massachusetts
+
+To: Professor P. M. Morse Date: October 27, 1956
+
+From: Dr. Frank M. Verzuh
+
+Subject: JOB DESCRIPTION FOR COMPUTATION CENTER PERSONNEL
+
+Introduction
+
+The purpose of this memorandum is to enumerate the principal categories
+
+of non-staff and staff personnel positions and to provide the job description of
+each. The job descriptions presented in this memorandum must of necessity be
+somewhat general. On the other hand, it is hoped that they are sufficiently detailed
+to assigt in the actual procurement of personnel to fill the respective positions,
+
+An attempt has been made to establish the minimum starting requirements for
+the various positions. However,every effort should be made to obtain candidates whose
+qualifications exceed the minimum requirements.
+
+In order to assist the Personnel Office in their Job of weeding and selecting
+candidates for interviews at the Computation Center, there are at least five (5)
+general qualifications which should be examined prior to arrangement of an interview
+with the Computation Center Personnel Officer. These general qualifications ave:
+
+1. Educational background,
+
+2, Natural ability and aptitude,
+
+3. Previous experience,
+
+4, Technical skills,
+
+5. Demonstrated compatibility -- ability to work with others,
+teamwork, etc.,
+
+6. Physical appearance.
+
+The exact definition of the above five qualifications varies with the particular job
+
+description involved. Hence, succeeding sections of this report will clarify the
+meaning of these terms.
+
+There are many types of jobs available in the M.I.T. Computation Center. The
+following list includes the principal ones:
+
+Administrative personnel ~ personnel officer, project supervisor,
+Office personnel -~ secretary, clerk; typists,
+Tape Room ~ clerk, flexoWriter cperator, supervisor, etc.,
+
+achine Operators —- WWI computer operator, photographer, supsrvisor,
+IBM Caxd Punch operator - key punch operator
+
+uv o
+
+> WM
+°
+
+
+iG.
+11,
+
+12.
+
+Page 2 of 10
+
+IGE Electronic Accounting Machine operator - EAM machine operator,
+
+IBY Machine Room supervisor - EAM supervisor,
+
+EDF Coder - trainee programmer,
+
+Electronic Date Processing Machine programmer — professional Programuex,
+
+Electronic Data Processing Machine Analyst - numerical analyst and
+skilled programmer,
+
+Electronic Data Processing Machine console operator - G50, 704, or
+705 console operator,
+
+Electronic Data Processing Machine assistant operator - assistant
+console and peripheral equipment operator.
+
+Succeeding sections of this memorandum contain one-page job descriptions of the
+various positions available in the M.I.T. Computation Center. Since some of these
+are quite standard ~- cleriesl, typist, secretarial » €tC., no attempt will be made
+to describe these particular positions. However, those positions peculiar to the
+Computation Center will be described in detail.
+
+F. M. Verzuh 4
+
+
+M.X.T. Computation Center Page 3 of 10
+
+Title of Position: IRM CARD PUNCH OPERATOR
+
+~ DUTIES . .
+1. Card Punching: transcribes numeric or alphanumeric data onto punched cards by
+
+2.
+
+operating the Type 011, 024, or 026 Card Punch Machines. By means of the card
+punch machine, the original data is converted from the source document into holes
+din en JBM card. This is a manual operation in which the cperator reads the
+manuscript and, by striking appropriate keys, converts the information into punched
+
+‘holes in the card. This operation is somewhat more sutomatic than that accomplished
+
+by a typist employing the touch system since the mechine feeds, positions, and
+ejects the cards automstically. The operator merely concentrates on striking the
+
+correct key at the right time.
+
+Card Verifying: to insure the accuracy of the key punching, a separate machine is
+available to check the accuracy of the work. This machine is called a Verifier.
+The operation of this machine ig very similar to the key punch (>hysical outward
+appearances are almost identical) and a key punch operator is expected to operate
+the Verifier. A Type 056 Verifier is used in this office to check the accuracy of
+the original key punching. Usually, a second operator verifies the key punching by
+depressing the keys of the Verifier while reading from the original source data.
+
+This is basically the same type of operation as typing or operating the card punch,
+
+Performance: a successful key punch operator is one who can achieve nigh speeds
+
+of operation and at the same time maintain a reasonable degree of accuracy. High
+accuracy naturally will minimize the amount of error-correction effort which must be
+expendod., As a matter of fact, in certain operations the need for verifying is
+eliminated whem avisual check of the listed vesults is made. This implies that
+certain key punch operators soon learn to list cards on the IBM Tabulstor -- merely
+
+‘a push-button operation requiring no knowlwdge of the Tabulator, wiring, operation,
+
+etc. These results are listed and visually inspected for accuracy. (Note: not
+
+all jobs can be handled in this manner.) The important point here is that the key
+punch operator has a definite responsibility for the accuracy of her work. Obviously
+ell succedding machine operations will be of no value if the input key punched
+
+material is in error! Thus a high degree of accuracy is essential in the card
+
+preparation stages of any RDFM operation.
+
+QUALIFICATIONS
+
+i.
+
+6.
+
+Educational Background: high school education or equivalent is a prerequisite.
+
+Natural Ability and Aptitude: a high degree of manual dexterity is desirsble in
+this job and, of course, normal or corrected vision of 20-20 is required.
+
+Previous Experience: knowledge of typing is helpful but not an essential pre-
+requisite for this position.
+
+Technical Skills: an experiencad cord punch operator may qualify for advanced
+salary based on proven previous performance —- a proficient card punch operator
+willl average 10,000 key strokes per hour.
+
+Compatibility: because the work is done on an individusl cassis, compatibilityis
+not of prime importance. On the other hand, there is definite need Zo be able to
+receive work, complete the assignment, and release the product in a graceful and
+friendly manner. Good teamwork is essential.
+
+Physical Appearance: A well-groomed appearance is degirable.
+
+
+M.I.7. Computation Center Page 4 of 10
+
+Title of Position: ELECTRONIC ACCOUNTING MACHINE (EAM) OPERATOR
+
+DUTIES
+The duties include the following:
+
+1. Interpreting cards,
+
+2. Sorting cards,
+
+3. Listing cards,
+
+4. Reproducing cards,
+
+3. Selecting, matching, merging, and checking cavds,
+6. Calculating results.
+
+The above operations have been mechanized on a functional basis by special IBM machines
+known as Interpreters, Sorters, Printers, Reproducers, Collators, and Calculators,
+respectively. Depending on the size of the office, the degree of specialization of
+
+. machine operations varies considerably. For example, a large office may have multiple
+units identified as the Key Punch Unit, the Sorter Unit, the Reproducer and Tabulator
+Unit, and the Collator and Calculator Unit, respectively. In the M.I.¥. Compuiation
+Center, however, the size of the EAM Unit is such that EAM operations are usually
+limited to a two-machine-of-a~type.. As a result, the EAM operators are expecsed to be
+more versatile and able to operate various machines,
+
+Depending upon the type of work flow within the BEAM office, there may be more or less
+need for changing of control panel wiring on certain mechines. Specifically, in the
+operation of a routine nature -~ payroll, registrar, bursar -- the need for changing
+sel ups is limited. Oa the other hand, scientific computation oné research demands
+all skills of machine operators since many different control panels must be wired,
+used occasionally, and dismantled. :
+
+QUALIFICATIONS
+1. Educational Background: high school education or equivalent is required.
+
+2. Natural Ability snd Aptidude: since a machine operator is handling a large number
+cof cards, a certain amount of manual dexterity is required. Specifically, canis
+must not be dropped, nishandied, or abused.
+
+3. Previcus Experience: 1¥ is possible to hire a completely inexperienced individual
+and send him to speciel IBi-offered courses of instruction on machine operation and
+machine wiring, respectively Obviously previous EAM experience is extremely
+valuable since a proficient knowledge of wiring can only be obtain by actual
+experience. The rate of pay, of course, is governed accordingly.
+
+4, Technical Skills: a top-notch EAM operator is capable of wiring the following EAM
+machines: 2) Interpreter Type 552, b) Reproduser Types 913, 5314, 519, 526, and
+928, c¢) Tabulator Types 402, 403, 4056, 407, 4) Collator Tyas 077 a 089,
+
+e) Calculator Types 602, 604, G07, Carn-Trouvenasd Calculator, and 650 Magnesia
+Brum Calculator.
+
+3. Compatibility: it is extremely important that BAM machine operators be able to get
+along with their fellow workers. Teamvork is essentisl since common machines are
+used and continual "rubbing of shoulders’ is a necessary part of this operation.
+
+6. Physical Appearance: a well-groomed individual is likely to produce good work,
+since tabulating work is a precise and exacting operation.
+
+
+Title of Position: IBM MACHINE ROCM SUPERVISOR
+
+DUTIES ;
+1. Scheduling: machine room supervisor is responsible for scheduling work flow
+: through the machines -- this involves scheduling of machines as well as personnel.
+2. Procedures Manual: machine room supervisor is responsible for the preparation
+and maintenance of three levels of manuals: a) general offige manual, b) super-
+vigsor's manual, c) operator 'smenual, respectively.
+3. Job Instruction: preparation of the necessary problem instruction sheets for
+individual jobs. : : | : 3.
+4. New Systems: develops new applications and associated machine procedures.
+So. Progress Reports: establishes and maintains a record of the progress showing time
+spent and progress to date on all jobs.
+6. Work Accuracy: he is responsible for checking and insuring the accuracy of the
+
+QUALIFICATIQNS
+
+i.
+
+a.
+
+is important.
+
+M.I.T. Computation Center Page 5 of 10
+
+work produced in his group.
+
+Educational Background: high school education oy equivalent is required.
+
+ 
+
+Natural Ability and Aptitude: ability to get along with people, thus insuring a
+high output work level.
+
+Previous Experience: supervision of previous EAM groups involving all types of EAM
+machines is a prerequisite.
+
+Technical Skills: an intimate knowledge of wiring all EAM machines is desirable.
+
+Compatibility: since EAM installation is basically a service bureau for other
+groups, it is important that the supervisor be able to contact employees of various
+other departments. Good relations between the EAM office and other groups
+
+Physical Appearance: a well-groomed physicel appearance is an essential requirement
+for this position.
+
+
+M.I.T. Computation Center Page 6 of 10
+Title of Position: ELECTRONIC DATA PROCESSING MACHINE RROGRAMMER
+
+DESCRIPTION
+
+There are several grades of programmers in an electronic dats processing installation.
+The highest or Grade I programmer is referred to as a senior or professional programmer,
+This person may program the most difficult problems or he may formulate block diagrams
+and flow charts from which others may write the instructions or machine code. The
+lower or second-grade position is usually refereed to as a ‘programmer’. The job
+description for programmer is the same as for the prefessional programmer except for
+the degree of competence.
+
+A third-grade level of programmer may be called s& "trainee programmer or coder’ .
+
+This person usually works under the direct supervision of a programmer or a professional
+programmer, respectively. He is expected to write the actual machine instruction for
+
+2 program from the block diagram prepared by the professional programmer
+
+DUTIES
+
+1. Assists in the preparation of the msthematical Statement or systems study of the
+overall problem.
+
+-2. Prepares the logical diagrams of the proposed EDPH procedure.
+
+3. Assists in the review of the logic ~-- this involves a careful study of present and
+proposed procedures with all those currently involved in the present operation.
+
+4, Preperes a machine block diagram which is a statement of the solution of the
+approved logical diagram expressed in machine language.
+
+5. ©odes the procedures in the machine language. In effect, expresses the solution
+of the problem in the particular machine language under consideration.
+
+6. Frepares a test solution which is used in checking the program on an EDPY machine.
+7. Performs the actual machine testing of the EDPM program on the machine.
+
+8. Prepares a complete write-up of the problem -- including machine cperating
+instructions, a list of machine stop codes, and an explicit set of instructions
+for emergency operations.
+
+QUALIFICATIONS
+
+l. Educational Background: high school education or equivalent. Since programming
+is a precise and logical operation, a college education znd a knowledge of
+mathematics is desirable; However, it is not essential. EAM experience is helpful
+but not essential.
+
+2. Natural Ability and Aptitude: a number of aptitude tests have been developed to
+measure the lildihood of success in the programming field. A suitable aptitude
+test will be used to select candidates in this field.
+
+
+Page. 7 of 10
+
+3. Previous Experience: experience ‘has revealed that there are certain professional
+fields that are potential sources for good programmers. Graduates of certain
+colleges, particularly those teaching numerical analysis in the udergraduate
+curriculum, have proven to be en excellent source of programmers.
+
+4. Technical Skills: a training in EAM equipment is desirable but not essential.
+
+9. Compatibility: the need to get along with other individuals outside theo EDFM
+group . is strongly dependent on the mode of operation. In a closed-shop”
+programming operation the programmer accepts a problem statement from the
+originator and carries through the entire analysis, programming, coding, and
+machine solution. It is, therefore, important that a closed-shop programmer
+be able to get along with the problem eriginater.
+
+6. Aczsuracy: the preparation of machine Programs is a costly and expensive operation.
+Obviously a person who can Write accurate machine instructions is extremely
+valuable. For example, a top-notch programmer recently prepared a program of
+6,000 instructions in 34 hours --= containing oziy 1 error. Accuracy is most
+
+Te Bete APpesEanGe: the eal for attractive el egsential,
+
+TRAINING PERIOD
+
+A complete course in the programming field will reguive a minimm of six (6) intensive
+weeks in a training course followed by 4-6 months of actual programming experience
+before one obtains any degree of proficiency.
+
+ 
+
+10/27/56
+
+bm be RE .. Ee —TTTTTT
+
+
+M.I.T. Computation Center Page 8 of 10
+Title of Position: ELECTRONIC DATA PROCESSING ANALYST
+
+DESCRIPTION
+
+An EDPM analyst may have a different background depending upon the particular EDFM
+operation. For example, if the EDPM operation is primarily one of data processing,
+the analyst should be skilled in methods and procedures, work flow methods, flow
+charting techniques, time motion studies, ¢c. On the other hand, a systems analyst
+in a scientific computing center should be well versed in mathematics and numerical
+analysis.
+
+DUTIES
+
+The duties are similar to those of the programmer except that the analyst is expected
+to delve more deeply into the basic mathematical statement -- performing certain
+mathematical researches and developing suitable numerical methods for solution.
+
+QUALIFICATIONS
+
+The qualifications are identical to those of a programmer except that more emphasis
+is given to the basic sciences. Specifically, a knowledge of numerical analysis,
+finite differences, statistical methods, probability theory, operations research,
+methods and procedures, etc.
+
+
+M.1I.T. Computation Cenier Page 9 of 10
+
+Title of Position: ELECTRONIC DATA PROCESSING MACHINE CONSOLE OPERATOR
+
+DUTIES
+
+The console operator operates the Electronic Data Processing Machine (EDFM) including
+the cemtral processing unit (CPU), the console, and all "on-line equipment, such as
+the magnetic tape units, magnetic drum unit, card reader, card punch, and the line
+
+printer, wespectively. He operates the CPU and associated equipment from the
+operator console.
+
+He must recognize the condition of the machine from the display of lights on the
+console and thus interpret the reason for any stoppages which occur during normal
+machine processing. He must be able to take immediate action based on his
+
+interpretation of machine stoppage. He =eeps a record of all stops and causes for
+later diagnosis.
+
+He is in charge of the EDPM operators speciiying which units are to be used, which
+nagnetic tapes are involved, how wesults are To be recorded, etc. Since the 700 series
+machines are extremely expensive devices (rental costs average approximately |
+$12/minute), it is extremely important that the console operator be a qualified man!
+
+QUALIFICATIONS |
+1. Educational Backgrounds "High school education or equivalent is essential,
+
+© 2. Natural Ability and Aptidude: ability to get along with people and direct the
+work of others is essential. He must make rapid decisions since machine time is
+expensive.
+
+3. Previous Bxperience: a knowledge of EAM has pyoven to be extremely helpful.
+It is estimated that a minimum of three months is required to train a good
+console operator.
+
+4, Technical Skills: experience has shown that electyonic technicians, EAM machine
+operators, etc., develop into excellent EDFM console operators.
+
+5. Compatibility: since the EDFM console opeyvator is in charge of all machine
+cperations, it is imperative that he be able to get along with various programmers,
+and other machine users. Depending on the mode of operation, his contacts may be
+with a single scheduler-dispatcher or with many company employses. Perscnal
+compatibility veguirements will vaxy accordingly.
+
+6. Physical Appearance: a well-grcomed appearance is desirable, particularly in the
+© "M.T.T. Computation Center where the equipment will be of a "showplace" cheracter.
+
+7. Accuracy: Errors are extremely costly resulting in major financial losses to
+the company. Hence, they should be minimized.
+
+
+M.I.T. Computation Center
+
+ 
+
+Page 10 of iQ
+Title of Position: ELECTRONIC DATA PROCESSING MACHINE ASSISTANT OPERATOR
+
+DUTIES
+
+The duties of the assistant operator are identical to those of the operator. The
+machine operator should be capable of operating the console as well as the various
+peripheral equipment associated with an EDPM installation. He is usually concerned
+with the card-to-tape, tape-to-card, and tape-to-printer equipment. He frequently
+changes magnetic reels of tape, inserts paper forms inte the printer, feeds cards
+into the machines, changes control plugboards, wires control panels from wiring
+diagrams, and maintains a reasoncble machine-roon atmosphere.
+
+QUALIFICATIONS
+
+The qualifications of the assistant operator are the same as those for the console
+operator,
+
+

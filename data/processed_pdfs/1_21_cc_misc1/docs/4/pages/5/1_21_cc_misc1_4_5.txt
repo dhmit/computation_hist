@@ -1,0 +1,42 @@
+(slightly under 500,000 words in Latin) will be stored on magnetic
+tapes so that many kinds of questions may be propounded to this
+'‘memory', Properly interrogated, the machine will print a com-
+plete alphabetical listing of each word with its immediate context.
+What is more, questions of syntax, of rhetorical structure, of
+meaning itself can be swiftly and directly raised, if the project
+has been duly programmed. Duplicate tapes can be made available
+to interested scholars at cost. The advances in knowledge possible,
+once the magnetic memory is put to use will be remarkable. With
+uncanny speed the computer will search the entire length of the
+Institutes on any point within its grasp raised by the researcher,
+
+III
+
+Although special syntactic and other questions, as has been
+suggested, may be propounded to the resultant tape, the primary
+and general goal of the project is a printed concordance. Concor-
+dances to Latin works vary tremendously in scope and format.
+
+The slightest form is that of an index verborum, wherein the chief
+words are listed with strings of location numbers, but no context.
+Far more useful for the scholar and student, but much more com-
+plicated and costly to produce by conventional methods, is the true
+concordance, wherein each occurrence of each word is printed
+with its context, the four or five neighboring words.
+
+The electronic computer is ideally suited for the production
+of such a concordance, Once the entire text has been encarded and
+transferred to magnetic tape, the computer can be programmed
+to search each word alphabetically and print it with its immediate
+context in proper order. Not only can such a print-out be made on
+conventional paper; duplicating masters can also be made directly
+for multilith or other reproduction. Thus, with a minimum of in-
+termediate steps--hence fewer occasions for error--a very useful
+(if slightly inelegant) concordance can be compiled.
+
+Normally, when such a project is initiated, considerable ef-
+fort must be put into pilot efforts and programming studies. But
+with present knowledge gained from both academic applications and
+varied business uses, it is possible to frame a plan utilizing one of
+the set procedures for sorting offered by the manufactorer of the
+computer to be employed. Certain conventional symbols will have

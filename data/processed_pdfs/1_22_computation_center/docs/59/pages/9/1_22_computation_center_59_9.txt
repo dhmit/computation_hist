@@ -1,0 +1,30 @@
+Adviging the Direetor, in regard to the wWork of
+the Center with regard to MIT, is the Institute Commitgee
+on Numerieal Analysis and Machine Computation, Consisting
+of faculty epresentatives appeinted by the hesds of those
+departments of the Institute with active Interest in machine
+computation. Advising the Director, in regard to the
+Cooperative program st the Center, of the other CoOllieges
+and universities in New England, iz the Cooperative Program
+Coungil, consisting of fapeulty members (called Institutional
+Representatives) eppointed by the Presidents of the
+Cooperating institutions.
+
+Arrangements to have computation done at the
+Center by a student or faculty member of a Cooperating
+inttitution are made through the éppropriate Institutiocnai
+Repr&sentative, by & student or faculty member of MIT
+are made through the appropriate department head. Details
+of' the proeedures are cutliined later in this Report. The
+duties of the staff of the Center are:
+
+1) To earry on researeh in numerical analysis, in
+the logie of eoding and in the development of pProgramming
+technicues.
+
+2) To investigate procedures for recording and
+procesaing of large-quant ity eéxperimental data or operational
+reeoids or other information, and to develop programs for
+the statistical analysls of sueh data and its display or
+
+Presentation in quickly understandable form.

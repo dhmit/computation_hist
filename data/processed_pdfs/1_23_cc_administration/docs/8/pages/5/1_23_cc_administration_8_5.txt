@@ -1,0 +1,63 @@
+. " n \
+Qlcléﬁs
+
+1543)_ HTR (1375)8:
+<
+
+(¢¢A1)8 HTR (2116)8:
+
+(2225)8
+
+(1463)8 HTR (1454)8:
+
+1474
+(um7-)8
+
+(2&36)8 HTR (2375)8:
+
+HTR (1372).:
+
+HTR (2330)8:
+
+HTR (1454)8:
+
+ 
+
+Page 5
+
+Ead of f£ile condition from tepe. DMachine error or no
+
+END card writien on tape. Reassemble.
+Symbol Table has been fillied.
+
+smalleyr Secticns.
+
+Assemble program in
+Library search feiled twice, Press start to try again,
+Wrong Board in printer. Replace with SHARE 72-120
+board and press start. .
+
+Check sum for syambol table is wrong. Probably machine
+
+exrror. Reassemble or press start to contime,
+
+Should occur only during on-line reading of symbolic
+cards (i.e.: sense switch 2 down).
+punched with an illegal (mon-Hollerith) cheracter, or
+
+Indicates a card
+a machine error. Ready the correct card im the reader
+and press start.
+
+BEnd of £ile condition while reading symbolic cards
+on-line, Ready remainder of deck in reader and press
+start.
+
+Bither
+
+Reassemble,
+
+End of f£ile condition while reading tape.
+machine error or 20 END card on tape.
+
+Library seavch failed twice. Press start to try again.

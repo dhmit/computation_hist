@@ -1,0 +1,42 @@
+ENTRY
+
+INTER-PROGRAM COMMUNICATION
+
+The ENTRY pseudo-operation is used in the assembly of sub-
+programs. Its purpose is to identify the subprogram to
+
+the System by its name(s), and to identify the entry point(s)
+of the subprogram. In this way it resembles the SUBROUTINE
+statement in FORTRAN. For example, a trigonometric sub-
+routine might have two entry points: one used when the
+
+sine function is desired, and another which is used when
+
+the cosine is desired. Such a routine might begin as
+
+follows:
+
+LOCATION OP VARIABLE FIELD
+ENTRY SIN
+ENTRY COS
+
+SIN STO ARG
+
+cos STO ARG2
+
+The ENTRY pseudo-operation says to the assembler, ''This
+program is a subprogram, and the name in the variable
+field is a name of this subprogram. Place this name on
+the program card together with the address of the cell
+which bears this name as a location symbol." Each name
+used in the variable field of an ENTRY pseudo-operation
+must appear in the location field of some instruction.
+The location field of the ENTRY pseudo-operation must
+
+be blank. All ENTRY instructions must immediately follow
+the FAP card and precede all other instructions. The
+only exception to this rule is that a card with an asterisk
+
+in column 1 (a ''remarks' card) may appear anywhere in the
+
+-26-

@@ -1,0 +1,5 @@
+6. Constants available start at LO, and run to DNEXT. These include
+0, 1, 2, 1 ficating, etc.
+7. This routine was tested on the 10 X 10 segment of the infamous
+
+Hilbert Matrix, octal cards for which are included, (sece Appendix Iv).

@@ -1,0 +1,59 @@
+January 31, 1958
+
+DSR-#6345
+Countract NSeri-60, Task Ovder I 6915
+
+3. Delete Section (B) in its entirety and substitute im lieu
+thereof the following:
+
+"(B) It is understood and agreed that, alithough Section A refers %o
+four (i) phases of the work in connection with the WHIRLWIND
+Project, no provision hes been made in the estimated cost %o
+cover the third end fourth phases of the work which relate to
+the construction, assembly, housing, cperation or preliminary
+testing of the Flectrouic Computer snd Alveraft Analyser.”
+
+Amendment No. 7 (Restatement of Task (xder I)
+(3/31/:9)
+
+“(A) The work 4o be performed by the Contractor hereunder shall
+consist of combived Phases I and II of four phases of Project
+oho¥-3 (formerly Project RF.12) in accordance with ‘Specifi-
+cations for Preject RB~l2, kaown as WHIRIWIND, daved Octeber
+i, 1945, Revised March 20, 1946,' end any instructions issued
+by the Technical Officer, as follows:
+
+"Combined Phases I and II: The Contractor shall furnish the
+necessary persomnel and fecilities for and shell undertake (i)
+the investigations lnvolving electric eircults, viaeo amplifiers,
+electrostatic storage tubes, electronic switching, mathemetical
+sutdics of digital computation, and the adaptation of problems
+to this method of solution; {ii) the design and construction of
+& Digital Computer and studiss for applylng the computer to an
+Adveyaft Analyzer based oo results obtained frem the foregoing;
+and (iii) shall furnish complete sets of drawings used iu the
+construction of the sbove compubter, veporits setting forth the
+design and operatien of 2ll components of the computers, reports
+setting forth the results of studies of the spplication of the
+
+r to an aircraft anslyzer, and records of results of all
+tests on individual components and assembled components con-
+ducted uwp to June 30, 1949,
+
+ 
+
+"(B) T¢ is understood snd agreed that, although section (A) refers to
+four (4) pbases of the work in connectiomgwith the WHIRLWIND
+Project, no provision has been made ia the egtimated cost o
+cover the third and fourth phases of the work which relate %o the
+construction, assembly, housing, operation or preliminary testing
+of the Electreomic Computer and Aircraft Analyzer.”
+
+Amendment No. ©
+
+(7/1/49) Tt 18 the desirve of the Govermnment and the Contractor that addi-
+tional vesearch on an electronic digital computer and continued
+component research be performed. To accomplish this, there arxe i
+hereby provided an extension in the period of performance of | 1
+Tesk Order I under Contrect WSori-60 and an increase in the es- I
+timated cost thereof.

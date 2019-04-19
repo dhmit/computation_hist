@@ -1,0 +1,61 @@
+DCL~146 - 3 Page 1 of 9
+
+Digital Computer Laborato:
+Massachusetts Iksti 1tc of T enghlng“
+Cambridge 39, Massachusaitis
+
+Tos P. M, Morse
+Froms: Arnold Siegel and Frank Helwig
+Date: October 16, 1956
+
+Subjects A _PROPOSAL FOR AN ALGEBRATC COMPTLER TO BE USED ON THE NIT 70/
+
+Introduction
+
+The essential purpose of any automatic ccding system is to
+simplify the use of the computer for which it is deeignsdo The first
+such systeme were concerned almost exelusively with machine code -
+utilizing mnemonic abbreviations for machine instructions and decimal
+notation for mechine numbers. Later systems introduced such coding
+aide as symbolic addressing, preset parameters and automatic compiling
+end assembly of subroutines, but most of them remained oriented about
+the computer instruction ae the basic coding toole
+
+At best. the instruction code represents an intermediate
+step between the formulation &f a problem and its solutlion on a machine.
+In a computer~oriented coding eystem this step is necessary since the
+computer langusage (or an approximation to it) is the only one accepted
+by the input routines. However, it is not logically a necessary step
+since there exist  other langinages and other notations which are more
+natural to the originator of the problems The use of such a natural
+language is, perhaps, the next step to be taeken in simplifying the use
+of the ccmputer
+
+The use of a language reasonably close to that which would
+
+age
+be employed in a fiow chart is p“opotﬁd for a future INTT conmpilere
+This language Luuld contain mathematical notation, English words and
+actual mechine instruciiont. The compiler will translate any meaning-
+ful sequence o f expressions in this Juﬂg g” into an equivalent se-
+quence of machine instructions and numberg in the computer mcmory
+With reasongble hovghu given to the conxpile:-: it is ;m,i« ipated thab
+
+' T fficient as a program
+
+£ 1 e 3 T ey T e e g 4G - S neos
+
+CNe Tregullting program <an be made at least as eill
+¢ gyergee human coder.
+
+T TTIAL e Sea A0S
+
+The use of mathematical notation and English words presents
+vt least two problems which are not generally present in a compuiser
+instruction ccde. The first of these is the lsck of a suitable al-
+shabet of input symbols. The inasdequacy of presently available input
+preparation devices in this respect i woll known and no attempt 1is
+made to resolve this oblom hexre ome sugegestive notation using the
+
+alphabets of existing Input dewices uill be selected. The sscond prob-
+Lgm is one of ambiguity. In any langusge used by human beings the same

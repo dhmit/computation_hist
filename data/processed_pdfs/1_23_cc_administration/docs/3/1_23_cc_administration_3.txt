@@ -1,0 +1,381 @@
+RIE 13 © cn ue aE Ee
+
+ 
+
+ 
+
+PROPOSAL POR EXTENSION OF NSF GRANT No. NSPG2940
+to June 30, 1958
+
+Proposal
+
+Although our IBM 704 is now delivered and is in storage at
+MIT, delay in completion of the building to house it has delayed
+commencement of the project financed by NSF grant NSF G2940., As
+a result, it is estimated that only about $8,000 will have been
+spent by June 30, 1957. Staff members, which were to have been
+transferred to this project, have been continued on the Whirlwind
+project until the change-over, and most of them will not be trans-
+ferred until summer. It is therefore proposed that the project be
+continued until June 30, 1958, with an additional grant of only
+$13,000, so that in the full year of full operation, July 1957 to
+June 1958, we can operate at the rate of $35,000 a year, as
+estimated in last year's forecast. Estimated details of budget
+are appended, together with excerpts from the original proposal.
+
+Progress to Date
+
+Although the NSF funds have not been used to any extent, work
+on the first aspects of the proposed research has gone forward
+as rapidly as is possible without the 704 being in running condi-
+
+~ tion. A complete utility and a post-mortem program have been
+
+developed, and tested out on borrowed 704 time, a much more
+flexible assembly program than at present avallable has been
+begun, ready for active ceding when our 704 is in operation.
+Discussions have been begun with a view to investigating the
+incorporation of a flexible output equipment utilizing the
+photographic "linotype" equipment called Photon. Many programs
+of importance in physics and engineering have been, or are being
+translated from Whirlwind language to TO4 language, such as the
+work of the Solid State Theory Group under Prof. J. C. Slater
+and the large-shower calculations of Prof. Bruno Rossi. The
+meteorology group under Prof. Charney, recently moved here from
+Princeton where their work was initiated by Von Neumann, is
+planning to use a substantial amount of machine time, and will
+require the advice and help of our staff to program their various
+calculations. We will be assisting the Harvard Observatory staff
+in calculating satellite orbite in preparation for, and during,
+the IGY satellite "shoots". Dr. S. Ulam of Los Alamos, who has
+been a Visiting Fellow to the Center this year, has been assisting
+us develop "Monte Carle” techniques. Prof. John MeCarthy of the
+Dartmouth Mathematics Department (one of the New England colleges
+participating in our program) will be here next year and will be
+interested in developing machine logic and in further investiga-
+tions of the behavior of "automata" by means of simulation pro-
+grams. The staff of the MIT library is interested in exploring
+the possibilities of storing and recovering information by
+machine methods and a project in the MIT Language Department on
+machine translation, supported by the Rockefeller Foundation,
+expects to use our equipment to test out their ideas. Other
+groups, at the 23 participating colleges, are planning further
+work.
+
+
+Extension of NSF G2940 Page 2
+
+Plans for Next Year
+
+ 
+
+All of these projects, and more, will stretch the capabilities
+and energies of the Computation Center staff. We expect to add
+two more senior staff members this summer and hope to persuade two
+men now completing thelr Doctor's degrees to stay on as Junior
+staff members for a year or two. It is certain that most of the
+research subjects outlined in our original proposal to NSF will
+be begun this coming year; it can be expected that the NSF portion
+of support for this work will reach the yearly rate of $35,000
+as indicated earlier, and it is expected that this yearly rate
+will continue at about the same level for several further years,
+as was forecast in our original proposal (see Enclosure B).
+
+We therefore request that Grant NSF G2040 be extended to
+June 30, 1958, with additional funds of $13,000.
+
+Signed
+
+“ v
+
+\
+Philip\M. Morse, Directo
+M.I.T. Computation Center
+
+Principa: Investigator
+
+Approved
+
+Carl F., Ploe
+Assistant Chancellor
+
+Dr. F. L. Foster, Director
+Division of Sponsored Research
+
+Enclosures A and B
+
+— Date
+
+
+Extension of NSF (2940
+
+Salaries
+
+ENCLOSURE A
+Budget for 1957-58
+
+27=20
+
+Practions of salaries of Senior Scientists
+
+Principle Investigator (8 percent of $12,500)
+
+Other Faculty Members (1/3 of $9,000)
+Salaries of Full-Time Staff
+1 Senior Investigator
+
+1 Junior Investigator
+
+1 Technician (computer, programmer)
+
+1 Secretary-Typilst
+
+Total Salaries
+
+Permanent Equipment (desk computers, special
+input or output equipment, etc.)
+
+Expendible equipment and office supplies
+
+Travel
+
+Publication costs
+
+Overheat at 15 percent of Total
+
+Total Yearly Budget
+
+Less Estimated Balance of Funds under
+Grant NSF G2040 as of July 1, 1957
+
+Additional Funds requested for 1957-58
+
+Page 5
+
+1,000
+3,000
+
+8,000
+6,000
+5,000
+5,000
+
+26,000
+
+2,000
+500
+1,100
+800
+
+ 
+
+30,400
+4,560
+
+ 
+
+34.960
+
+22,000
+
+ 
+
+12,960
+
+
+on
+n ¢ | - re lL
+= apd v 2040 rage %
+LEG 21 Ue SV age
+
+   
+
+  
+
+1 ” wr 0 oF IR »
+
+
+Extension of NSP G2940 Page §
+
+Enclosure B, Continued
+
+ 
+
+® 0
+
+21p coordinate the work of the Center and
+of thelr own in machine logic, in tech-
+puta ation, and in specific applications of
+experimental and theoretical problems, thus
+ning the range of applicablilicy of Somputers
+
+d social sciences and in engineering.
+
+om 2 oo
+
+ere and with these facilities, there is an
+nity to do important and basic research in
+© 8 use of digital computers in Botena ce, engineering,
+and business. A central research group, supervised by faculty
+members and staffed by workers picked from Ts in ce students
+of MIT and other colleges, working closely with persons from the
+the
+
+other colleges, will h
+arry on r
+niques of machi
+machine operati
+appreciably
+in the phys
+
+())
+0
+0
+=
+
+a
+B
+
+\
+
+“>
+
+4 ¢
+
+It is appropriate for government agencies to help support
+the research of this central research group. The group's work
+will, in part, provide an expanding basis of knowledge of numeri-
+
+prog
+
+"=
+0
+foe
+&
+E
+5 ®
+
+(
+Ww
+
+techniques, which can be used by the
+enter and will, in part, break ground
+al logic and methods of data processing
+.dn the application of digital computers to
+
+50
+Ce
+®
+>
+Oo
+®
+P=
+:
+fob
+0
+i lp
+Co
+E
+<i
+@
+.
+
+in new fields of ma
+which will be neede
+new tasks.
+
+)
+
+ey
+
+bea
+
+» od
+FET
+
+LN
+al
+
+(0
+Pe
+a
+
+1
+Pend x
+od er
+
+£2
+ct
+
+k
+
+Most of the senior staff for such a research group is
+already assembled at the Institute. Part of it is the group which
+developed Whirlwind I programming; others are in various d departe
+ments of the Institute. From time to time, some of the staff of
+the participating colleges will join it for a semester or a year,
+on leave from their institution, to work full time at the Center.
+
+IBM and the Institute will contribute about a half millio
+odd Se “4 eS a» d ode we Web ob 2 EAL 4 <> BS we & 4 t GD digi & LAL n
+N A a a 9 a. « "
+al lars ea dom one de the eannd nm 144 ¢ mad nd arma rs = ’ a
+dollars a 3 tO provide the equipment, building, maintenance a an
+~ 3 3 Dg © 2%. Mm £ LJ 14 La} fo
+ome, 4 < s ddd ~ 4 Ba om Tare oe oF - nq > 3 ) > ye b f
+operaving staff Ol ©The (enter. We believe that a contribution o
+oS. -— n Os = al < © os " A 2 A ™ ?
+Tol Ek oe 1 My ) ; <Q a 122019 ) | = 1 INS vd > 3 © os of vit 1 o on 4 3 Avy fe 93
+about $120,000 a year will support the activities of the central
+A a "n a » ™ °o. Y < i nD - A 2
+ea SOD TRIM TU ~ CUP © 4 i SAT SY 2% 5 rs PA <h TAFE mir in - 1 a
+researcn group, which will ene rgize and take the lead in the
+a ane. mm moh bo FVzumnts <4 be @ ons oh 3 a
+© DEO % ” P ay YTV £4 # » > ol al FV. 500m 17a ™ a PTF OT nn - d al «© "MAS
+re A Pehl il Sch & 3 o & a ia a 7 Le Wi & alillid Lh Yr a & o 2 { = 9.4 7 a a Ry st WU en’ tS oo Cad 1Q
+A MD Fa 0 TP foe = 9 0 A H 2 A NH x pa - Es ou Q oy
+om - Fay t Nl 9% ™ AS G2 em om, > S AaaN oar vy A £2 ™ W - - 2 Te
+Stall OI pLY and The parcic 4PDALVLINE Ct lleg Se Ie L18ST J1lacer in
+io Be Gy mITLST, 9 0 (FATT ON 2 OO d= Yn ~~ TN AN oh MD 8 OTT 2) " ™ 2m da 4 MM =D o) "D nN The
+this proposal some of the specifie research PIO JEeCT8 we are pre
+Tw -
+n oD =
+- w] a -t f 1 a Gh rn a 4 - mes ow oo 3 onl 5» 2 a o- fou 297" he 9 - TRH
+pared to start on. Other projects will develop naturally from
+“» -
+A 1 = a A A a - °. a rp so ~~ dao | h d=) m~ on fs 1 hh <D 7.7 an] POMS =a Ie
+Fr — 4 TN -m 2 ’ oy = | ) - ff = { Ve PITS
+eNéesSe and 110m he pPIol NaS encounvered oY The ovner worKers av
+3 ~~ ER df 8 Re do
+ene { ol i 10 { atl { 1 C 5 4 | i ¢
+Deo onde ws fF do 1m ~ 2 " ‘ Ae mm Pu 1 > a > NA QAA/ANO
+alc OL CHeSe adi O18 J ul S Ca oe Caled 1 Im CUS
+" - ~~ nN
+fla PRN Co a on -~ | Q fs » 2.95 4 Im ned 1 9 1 CO fo Jn dT. EE. o NT » 2
+PL Lie I'esSealcCll Pro jel NLC Will USe Ne 1aCllivieésS OI tne
+: a : A 2 - HN 2 9 a 2 2
+Coon de m A) dns ~ ” n oR MY MO \ oa | a | po =
+cencer 4 LIOUEN Ghee 2 LI1S AGIILIIC LLOVA] Wwidd IOV VC
+- ® - ’ - 7 col & on Be Yon oa a Yad =
+Cnargeanlieé, mosv 8 : . need { Lom ene Lence 30811 as
+- viEo ew ‘ > = - = - — . e
+aA = — - no ge 3 0 . 1 1 on tan on 4 |, > MT ~ ” Aq vo
+LO DPIreparin LACLY | IS, Will NEC nein 4n de ASU COClin
+- we - - “ - a 9
+a onal |<*° on BN a © - Ye on 9p 2m “ > “TTR vs mq - } “ N™
+ant wiil DPIreld { av! Jl Seal CEaI'T'V OW Hie LIC aCilual
+~ “ - = : ” - A - — 1 1 po | a - Rm ' » Ta rcs = OH
+uns on vine comm ° NLS Will ad LINES Ol 410 badd Lp
+x -t , ~ » = - = om onan 8 A
+or TM : Y = ) Ss Yoda 1c g | a REET Sar: Fk 4 } ol Tor ¢ Ls LR SE - G ) J ¢ IC L 8
+5 &'%4 J an le» bw L \ oe 0 &o “ EUS w OD We we D> 2 a oo =
+~ n a x a A
+2 2D LD - = o G I _y. om de po Pou 09 o
+which can afford thi: ;ra service. Those students and faculty
+. s “ «a =u 9 a ~ —
+NnOMP 2% TNA oS 7 P ow » Py In ™ 29 Y hile =
+i ne 234 3 ay va A ) { od pe WL 3 A pads = al . 5 Vea a sis H&A ¢ =
+- ” Re — au -~ 1 oe 9 a 3 = - : CF 1A >
+18€ the mac 1 . M29 4d © XDeC Lf { Cel [1 COGAN
+
+

@@ -1,0 +1,127 @@
+Page 2 of 3
+
+Note that this time is allocated separately each quarter; no further
+mechine time will be allocated for this problea unless this question-
+naire is answered and returned. Whether you have finished or not,
+the following information concerning your use of the Center would be
+helpful for us.
+
+4. List SBARE subroutines used:
+
+ 
+
+m_mm'-_-——m
+
+a) Are subroutines working correctly?
+
+T A T R R T T T R R A T ST TR T G T s T TR ERS SO Y e TSR e
+
+b) List errors, limitations or changes in subroutines:
+
+P T T TSSO SISt O S ey
+
+-—
+
+W
+
+¢) Vhat modifications have you made?
+d) Vhy were these modifications made?
+
+ 
+
+ 
+
+5. List subroutines which you have written that mey bevdt interest to others:
+W
+6. Coding langusge and operating programs used:
+SHARE FORTRAN
+Other:
+
+ 
+
+W
+
+ 
+
+7. Programming statistics: Please report, as accurately as you can, the total
+personnel hours expended during the past quarter in:
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+a) Math, Formulation e) Assembly & Hach, Testing
+
+b} Numerical Amalysis £) Checking Results 5
+¢c) Programming g) Production Rummning
+
+d) Coding h) Problem Write up
+
+ 
+
+T LTI IR ST L - TIWARRLINL T T
+
+8. Is there any other way in which we can be of help to you?
+
+e e i e
+
+PRI N LT ISR TRy
+
+ 
+
+B e
+
+ 
+
+UL ATENEIE T Qe S
+
+ 
+
+W
+
+O
+°
+
+The sbstract and description of your problem, and the suggested clasgification,
+which you provided for us on Application Form CCF-2, are used in our PFrogress
+nonoTts %o describe yvour work, If these items have changed during the past
+quarter, they should be brought up to date so that we have a correct version
+
+of your present use of the Center. Conseguently, £ill in the Zollowing with
+
+MO CHANGE or with a revised version:
+
+a) For cataloging purposes, how would you index this problem? For
+xemple, mathematics, logic, game, etc, If this is a mathematical
+vroblem, specify type(s) such as, integration, partial differential
+eguations, matrizx theory, etc.
+
+ 
+
+mmmww
+
+k) If this is a mathematical problem, specify numerical methods used,
+such as, Gauss' quadrature method, difference equations, Crout, etc.
+
+ 
+
+O SRS TP Y R L LTI PN e SR DT TR
+
+ 
+
+e e
+
+ 
+
+ 
+
+CCF-8.3
+__——_

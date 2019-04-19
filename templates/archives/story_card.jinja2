@@ -1,10 +1,20 @@
-<div class='card'>
-    <a href="{% url 'story' story %}">
-        <img src="{{ static('img/stories/' + story + '-teaser.png') }}"
+
+<div class="image-container">
+    <a href="{% url 'story' story %}" style="color: black">
+    <img src="{{ static('img/stories/' + story + '-teaser.png') }}"
              class="card-img-top"/>
+    <div class="after">{% block story_teaser %}{% endblock %}</div>
+    <h5>{% block story_title %}{% endblock %}</h5>
     </a>
-    <div class='card-body'>
-        <h5>{% block story_title %}{% endblock %}</h5>
-        {% block story_teaser %}{% endblock %}
-    </div>
+
+
+
+
 </div>
+
+
+
+
+
+
+
