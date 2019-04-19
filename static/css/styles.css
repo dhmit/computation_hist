@@ -1,12 +1,15 @@
 html {
     position: relative;
     min-height: 100%;
+
 }
+
 
 body {
     background-color: bisque;
     font-family: 'Book Antiqua';
     margin-bottom: 120px; /* Margin bottom = footer height */
+    padding-top: 5rem;
 }
 
 h1,h2,h3,h4,h5,h6,.navbar {
