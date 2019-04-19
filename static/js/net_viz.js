@@ -1,15 +1,15 @@
 "use strict";
 
-const width = 960;
-const height = 600;
-const color = d3.scaleOrdinal(d3.schemeCategory10);
+var width = 960;
+var height = 600;
+var color = d3.scaleOrdinal(d3.schemeCategory10);
 
 
 function create_force_layout(nodes, edges) {
-    const graph = {"nodes": nodes, "links": edges};
+    var graph = {"nodes": nodes, "links": edges};
 
     console.log("drawing");
-    const label = {
+    var label = {
         'nodes': [],
         'links': []
     };
@@ -23,11 +23,11 @@ function create_force_layout(nodes, edges) {
         });
     });
 
-    const labelLayout = d3.forceSimulation(label.nodes)
+    var labelLayout = d3.forceSimulation(label.nodes)
         .force("charge", d3.forceManyBody().strength(-50))
         .force("link", d3.forceLink(label.links).distance(0).strength(2));
 
-    const graphLayout = d3.forceSimulation(graph.nodes)
+    var graphLayout = d3.forceSimulation(graph.nodes)
         .force("charge", d3.forceManyBody().strength(-3000))
         .force("center", d3.forceCenter(width / 2, height / 2))
         .force("x", d3.forceX(width / 2).strength(1))
@@ -35,7 +35,7 @@ function create_force_layout(nodes, edges) {
         .force("link", d3.forceLink(graph.links).id(function(d) {return d.id; }).distance(50).strength(1))
         .on("tick", ticked);
 
-    const adjlist = [];
+    var adjlist = [];
 
     graph.links.forEach(function(d) {
         adjlist[d.source.index + "-" + d.target.index] = true;
@@ -47,8 +47,8 @@ function create_force_layout(nodes, edges) {
     }
 
 
-    const svg = d3.select("#viz").attr("width", width).attr("height", height);
-    const container = svg.append("g");
+    var svg = d3.select("#viz").attr("width", width).attr("height", height);
+    var container = svg.append("g");
 
     svg.call(
         d3.zoom()
@@ -56,7 +56,7 @@ function create_force_layout(nodes, edges) {
             .on("zoom", function() { container.attr("transform", d3.event.transform); })
     );
 
-    const link = container.append("g").attr("class", "links")
+    var link = container.append("g").attr("class", "links")
         .selectAll("line")
         .data(graph.links)
         .enter()
@@ -64,7 +64,7 @@ function create_force_layout(nodes, edges) {
         .attr("stroke", "#aaa")
         .attr("stroke-width", "1px");
 
-    const node = container.append("g").attr("class", "nodes")
+    var node = container.append("g").attr("class", "nodes")
         .selectAll("g")
         .data(graph.nodes)
         .enter()
@@ -81,7 +81,7 @@ function create_force_layout(nodes, edges) {
             .on("end", dragended)
     );
 
-    const labelNode = container.append("g").attr("class", "labelNodes")
+    var labelNode = container.append("g").attr("class", "labelNodes")
         .selectAll("text")
         .data(label.nodes)
         .enter()
@@ -105,16 +105,16 @@ function create_force_layout(nodes, edges) {
                 d.x = d.node.x;
                 d.y = d.node.y;
             } else {
-                const b = this.getBBox();
+                var b = this.getBBox();
 
-                const diffX = d.x - d.node.x;
-                const diffY = d.y - d.node.y;
+                var diffX = d.x - d.node.x;
+                var diffY = d.y - d.node.y;
 
-                const dist = Math.sqrt(diffX * diffX + diffY * diffY);
+                var dist = Math.sqrt(diffX * diffX + diffY * diffY);
 
-                const shiftX = b.width * (diffX - dist) / (dist * 2);
+                var shiftX = b.width * (diffX - dist) / (dist * 2);
                 shiftX = Math.max(-b.width, Math.min(0, shiftX));
-                const shiftY = 16;
+                var shiftY = 16;
                 this.setAttribute("transform", "translate(" + shiftX + "," + shiftY + ")");
             }
         });
@@ -128,7 +128,7 @@ function create_force_layout(nodes, edges) {
     }
 
     function focus(d) {
-        const index = d3.select(d3.event.target).datum().index;
+        var index = d3.select(d3.event.target).datum().index;
         node.style("opacity", function(o) {
             return neigh(index, o.index) ? 1 : 0.1;
         });
