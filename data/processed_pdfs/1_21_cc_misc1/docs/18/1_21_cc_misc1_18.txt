@@ -1,0 +1,607 @@
+3 setenv
+
+a MASSACHUSETTS. INSTITUTE OF recHnoLoGY
+ha at ostod OF SPONSORED. RESEARCH fred ad is.
+fi A alee | CAMBRIDGE 39: MASS. Sa AE a ERA,
+
+- A . : ’ ¥ -
+. Ngee INCE A Aly yd ¥ iy h WEE oo
+SEE eS = ks a 5 v: a
+v wy ‘ aA 3 "a i
+. [Jel pm LE 'd 4. 4 + SC ~ = ? Br = : Y —
+a v o- + 55%, als he “3 . wo
+Sain » {Faget - fa — 67 : sn a
+: rt TNE 2 Se ae Awk ES oly 3 i Sa
+OFFICE OF THE DIRECTOR 2 i SRE wi a rr
+FE % 125 EALE 1 0: fei = vo ER
+25 Tad 3 Me RRL, os Tiga pr KS 2
+y . > - AN : o y k . »e - -h
+I ; 3 a § ave Be = Roar nd x ; a3 0,
+3 ! : x > oe Lt Pagt : Pe Ae 0
+ry : I - Ly 0 ie ~ . Ae 3 aoe :
+A J ; ~r 5 Ag zr "i ners y de © Fr 1
+d a ' “3 = Po dF ry Re or a a
+~n = ” & we : ale >,
+t a sr ave a a i Dp fo *
+; 3 oe aT a “pr
+-* “m a = te i 2a) ahr AVE Ek a
+i. «1 ” > is 22, 8 2 Rew) T Da ~~ .
+= : = iia Ho A wv vA a: 3 1 2 v. +3)
+cen Spb ve ho rr “dy a .
+or £5 a on 3 or %. wa WENT -
+Te LN ts 130 AX : a i : al £
+, L » Se % TN be : R .
+tT Gy we i Ee << ph 5 RS
+A £2 3 iA 1 CE Ay
+-— ~ : £8 if Oe a Gd i X
+= F ™ -
+= ’ «tE. = a 2
+National Sstence Foundation i
+yr ” v - "
+ah . “a ng 23 » - ct oar ead cxf Ey fra nk = —d og py vy L- 3
+- x TY SRN » * = 4 a - ee J » eh 3 a oo oN 35 a 3 + ox 1 = ET aL a ¥oF : eg
+BT , i » pi . = “ op v4 Se TY ne = ably - sh RR .
+3 ie br Cag . ‘ To 2 : = phn Te b= Pell ~~ : on (Ty =) $e Fru 37 =o Sadi ha ott pais F 2; X
+s Sag a Fa 2: Ty 2 7 a go . “ " - - am i ARES RE MTRE, oy 2: FX as
+- = - . - ST - - ", y 5 Peg.
+
+7 rv— “Dr. Leon Vs SE cn
+
+Director Mathematical Sciences Brogren .
+
+Se Massachusetts Institute of Toohnology submits, herewith
+“fifteen (15) copies of Pages 1, 2, and 2a and in connection
+_ therewith requests that these ‘pages be substituted for Pages
+‘1 8nd 2 in a proposal forwarded on February 20, 1958; for
+"Research and Education in. Maehine Computation.’
+
+: This proposal was ‘submitted on behalf of Professor ilty
+M. Morse, Direston Computation Center at M.I qo
+
+This nroposed program 1s for SUPPORT oF RESEARCH. AT THE
+
+M.T.T. COMPUTATION CENTER INTO METHODS FOR MAKING HIGH-SPEED
+DIGITAL COMPUTERS EASTER TO ‘USE BY THE OCCASIONAL USER...
+
+As 2 result of this vovision' to the proposal, no change
+{z made in the estimoted cost of the three-year program as
+originally submitted in respect to the substitution submitted
+herewith.
+
+Yory truly yours,
+
+R., P. Webber
+Assistant
+
+RPW:bvt
+Enc,
+
+ge: Prof. P. M., Morse
+
+. 1 ga gh i" " Se » rh »
+ow, A ' Sip i Pig wri I, ”
+by F432 a Jee Pole, oth eb we :
+
+3 o . Ata ‘ : a “ eae
+Trin AL Hg $ $ A ae J ah Ta ad IR I rr)
+v axl Tad * § KT ™ -s ny alt WRAP uC Be ~ L > % Ae EA Se Ts
+. a I Ce Ne BN LW UE. | 3 st -te : =u
+’ 24 . oN aa rh} We fn td , . Ad : OS er VT wt ’ AL 5 . We, Bb Tu 5 ~ Cy » ems I Ne OW 0
+3 ’ i po SiR ah well Pw PA oe 4 hd UT Aer AL ; any Pate Casa § i 1 ar A ie
+dt : & . Br TT nate > med NEA FRETS SET RE a EL eR
+. ay ER A Te ia we a a oy oy fh EI LE WA op CR : : aos me aged LER
+~ ; : . Y - 4 ~~ . A . 4. o = : 5 na
+HAI ON . 0 A TT lr i So nA x Nw ie 1 a Cres at ; 8 : Ea fi —
+- VE Ges ‘0 A Ay = whe ¥ EN » \ fant ie & oa Fas. » >
+2 a. : AS ARBIETR a he NS oe Ri . - - = ~ . . : aw } Lr we
+: > -— Maal ie hen Ca Le rls et? . } J : - ag Al eG .) . <4 TAR ht ry ax nny £4
+x iro \ 2 fa SEE ~~ ¥ NN 3 ) : . = 4 me : : - hd a v Li ry t= Wiis “de «
+3 3 FL x a a WN - a at = . . WoC me
+3 = ain ee : a Ne A, fe or ad INE
+: oy ; hes Me : $ Lol .
+
+
+AT THE M.I.T. COMPUTATION CENTER INTO METHODS FOR
+MAKING HIGH-SPEED DIGITAL COMPUTERS EASIER TO USE
+BY THE OCCASIONAL USER
+
+ 
+
+Statement of the Problem - Large, electronic digital computers
+have great potentialities for advancing research in the many areas
+which require a great deal of drudge calculation, but up to now
+their potential capabilities have been hampered by a "mismatch"
+between machine and possible user. Special input equipment is not
+vet designed to allow masses of experimental data to be fed directly
+to the machine; special output equipment is needed in order to display
+results in compact and easily understandable form; and the present
+. code of instructions to the machine the "machine langauge” is not
+easy to learn or to use.
+
+The basic difficulty is that electronic computers are extremely
+complex pieces of equipment and a great deal of study will be
+required before we can understand its behavior well enough to be
+able to control it effortlessly and flexibly. At present one who
+wishes to use a large computer often has to spend three to five months
+developing, encoding and testing a program to instruct the machine how
+to perform the necessary millions of operations which, at the end, The
+computer will carry through in a few hours. True, these five months
+of preparation plus the few hours of actual computation may be much
+shorter than the several years required to obtain the same results by
+using a desk computer, nevertheless it is obviously desirable to
+devise procedures which will shorten this preparation time, even at
+the expense of additional machine time.
+
+Pro for Research on Machine Capabilities - In order to
+learn how GO make digital computers easier co use one must have a
+
+machine of large capacity, a large supply of possible computations
+
+to be done, drawn from a wide variety of scientific fields, plus a
+staff which thoroughly understands the machine behavior and is
+interested in working with the prospective users in order to simplify
+methods of use, With this combination of equipment and staff it
+should be possible, in a few years, tc work out special operating
+programs, additional input and output equipment and other techniques
+which will considerably reduce the time and effort required to get
+
+a problem solved by the machine,
+
+The M.I.T. Computation Center - The one place in the United
+states where this combination of machine, variety of problems and
+staff already exists 48 at M.I.T. This past year IBM has installed
+a 704, of the most up-to-date capacity for the use of the college
+and universities of New England. M.I.T. has contributed most of the
+
+
+supervisory and faculty staff, the other colleges have also con=
+tributed faculty time. Machine time 1s free, though the user must
+prepare his own coded program. To date faculty and students from
+
+27 colleges and universities have used the facilities and 150 problems
+are being or have been run, representing several dozen different
+scientific, engineering and academic fields, Details of the program are
+are given in the appended Progress Report.
+
+Here is a combination ideally suited for the prosecution of
+research directed toward reducing the "mismatch" between the machine
+and the occasional user. All that is needed to start a vigorous
+program are additional funds to augment the staff, which are at present
+too busy helping individual users to have time to work out the improved
+techniques suggested by thelr present work. No money is needed for
+machine rental or maintenance; this is already supplied by IBM. Nor
+is money needed for ‘machine operators or card-punch operators. The
+additional funds can be used entirely in suppérting the additional
+staff needed to intensify the research on machine behavior and to work
+out the improved techniques for machine use arising therefrom, and in
+purchasing or constructing the special input-output equipment which
+will increase the machine's flexibility.
+
+This special support need not be continued indefinitely. An
+intensive program for three to five years should solve many of the
+outstanding problems and enable the Center to drop back to its present
+level of expenditure, but with a greatly enhanced utility to the
+academic fraternity in New England because of the results of the
+program. The results of the work will be immediately available to
+the several hundred other TO} installations and, with little additional
+modification, to the users of other makes of digital computers.
+Present makes of digital computers have many more properties in common
+than differences, and what is learned on one machine can be carried
+over to the others without much modification.
+
+Development of Utility Programs - In addition to assisting
+individual users in putting their problem on the machine, the Center
+staff have the important task of making the machine easier to use by
+all users. It always takes time, the experience of many users, to
+reveal all the capabilities of any piece of machinery; this 1s
+particularly true of high-speed computers. Because of their speed
+and complexity it may take a dozen years Or more before even the full
+capabilities of our present machines are known, and by that Time
+machines of still more speed and complexity will be built. A computer
+of the size of the TOY has an order of complexity such that its —
+designers literally are not aware of all of its capabilities. Con-
+sequently it is important that research into these capabilities be
+carried on; such research, revealing easier ways of obtaining results
+and new methods of operation, may at times go farther in increasing
+machine serviceability for the general user than can the providing of
+a new machine with increased speed or capacity.
+
+
+2a
+
+L few years ago a machine user had to become familiar with
+binary arithmetic and with all the other idiosyncrasies of the primary
+machine operating code, just as the early auto owner had to be familiar
+with spark and choke and clutch. As Time goes on 1¥ is less and less
+necessary for the occasional user to master all these details in order
+to use the machine, even if he has to devise a program for a new problem.
+Tn the first place, many of the more usual calculations will have been
+already programmed so that, for example, if one wishes to compute a
+Bessel function or to apply the chi-squared test for the fit of a
+formula to a set of data, one need only use the ready-tested program.
+In the second place;—it is possible to provide a heirarchy of "trans-
+lation procedures" -- assembly and operator programs, ete. -- whereby
+the machine itself will translate the desires of the user, expressed
+in language more familiar to him, into the specialized "language" of
+the basic machine code. This may be termed programming at the second
+
+
+PROPOSAL FOR NSF GRANT FOR SUPPORT OF RESEARCH
+AT THE M.I.T. COMPUTATION CENTER INTO METHODS FOR
+MAKING HIGH-SPEED DIGITAL COMPUTERS EASIER TO USE
+
+BY THE OCCASIONAL USER
+
+ 
+
+Statement of the Problem - Large, electronic digital computers
+have great potentialities ror advancing research in the many areas
+which require a great deal of drudge calculation, but up to now
+their potential capabilities have been hampered Dy & mismatch”
+between machine and possible user. Special inpub equipment is not
+yet designed to allow masses of experimental data to be fed directly
+tc the machine; special output equipment is needed in order to display
+results in compact and easily understandable form; and the present
+
+. code of instructions to the machine the "machine langauge" is not
+
+easy to learn or To use.
+The basic difficulty is that electronic computers are extremely
+complex pieces of equipment and a great deal of study will be
+required before we can understand its behavior well encugh to be
+able to control it effortlessly and flexibly. At present one who
+wishes to use a large computer often has to spend three to five months
+developing, encoding and testing a program to instruct the machine how
+to perform the necessary millions of operations which, at the end, the
+computer will carry through in a few hours. True, these five months
+of preparation plus the few hours of actual computation may be much
+shorter than the several years required to obtain the same results by
+using a desk computer, nevertheless it is obviously desirable to
+devise procedures which will shorten this preparation time, even at
+the expense of additional machine time.
+
+Program for Research on Machine Capabilities - In order to
+learn how TO make digital computers easier to use one must have a
+machine of large capacity, a large supply of possible computations
+to be done, drawn from a wide variety of scientific fields, plus a
+staff which thoroughly understands the machine behavior and is
+interested in working with the prospective users in order to simplify
+methods of use. With this combination of equipment and staff it
+should be possible, in a few years, to work out special operating
+programs, additional input and output equipment and other techniques
+whieh will considerably reduce the time and effort required to get
+a problem solved by the machine,
+
+The M.I.T. Computation Center - The one place in the United
+States where this combination of machine, variety of problems and
+staff already exists is at M.I.T. This past year IBM has installed
+a 704, of the most up-to-date capacity for the use of the college
+and universities of New England. M.I.T. has contributed most of the
+
+
+supervisory and faculty staff, the other colleges have also con-
+tributed faculty time. Machine time 1s free, though the user must
+prepare his own coded program. To date faculty and students from
+
+27 colleges and universities have used the facilities and 150 problems
+are being or have been run, representing several dozen different
+scientific, engineering and academic fields. Detalls of the program are
+are given in the appended Progress Report,
+
+Here is a combination ideally suited for the prosecution of
+research directed toward reducing the "mismatch" between the machine
+and the occasional user, All that is needed to start a vigorous
+program are additional funds to augment the staff, which are at present
+too busy helping individual users to have time to work out the lmproved
+techniques suggested by their present work. No money is needed for
+machine rental or maintenance; this is already supplied by IBM. Nor
+is money needed for machine operators or card-punch operators. The
+additional funds can be used entirely in suppérting the additional
+staff needed to intensify the research on machine behavior and to work
+out: the improved techniques for machine use arising therefrom, and in
+purchasing or constructing the special input-output equipment which
+will increase the machine's flexibility.
+
+This special support need not be continued indefinitely. An
+intensive program for three to five years should solve many of the |
+outstanding problems and enable the Center to drop back to its present
+level of expenditure, but with a greatly enhanced utility to the
+academic fraternity in New England because of the results of the
+program. The results of the work will be immediately available to
+the several hundred other TOW installations and, with little additional
+modification, to the users of other makes of digital computers.
+Present makes of digital computers have many more properties in common
+than differences, and what is learned on one machine can be carried
+over to the others without much modification.
+
+Development of Utility Programs - In addition to assisting
+individual users in putting their problem on the machine, the Center
+staff have the important task of making the machine easier to use by
+all users. It always takes time, the experience of many users, to
+reveal all the capabilities of any piece of machinery; this 1s
+particularly true of high-speed computers. Because of their speed
+and complexity it may take a dozen years or more before even the full
+capabilities of our present machines are known, and by that time
+machines of still more speed and complexity will be built. A computer
+of the size of the TO4 has an order of complexity such that its -—
+designers literally are not aware of all of its capabilities. Con-
+sequently it is important that research into these capabilities be
+carried ong such research, revealing easier ways of obtaining results
+and new methods of operation, may at times go farther in increasing
+machine serviceability for the general user than can the providing of
+a new machine with increased speed or capacity.
+
+
+22
+
+A few years ago a machine user had to become familiar with
+binary arithmetic and with all the other idiosyncrasies of the primary
+machine operating code, just as the early auto owner had To be familiar
+with spark and choke and clutch. As Time goes on it is less and less
+necessary for the occasional user to master all these details in order
+to use the machine, even if he has to devise a program for a new problem,
+In the first place, many of the more usual calculations will have been
+already programmed so that, for example, if one wishes to compute a
+Bessel function or to apply the chi-squared test for the fit of a
+formula to a set of data, one need only use The ready-tested program;
+In the second place;—it is possible to provide a helrarchy of “trans-
+lation procedures” -- assembly and operator programs, etc. -- whereby
+the machine itself will translate the desires of the user, expressed
+in language more familiar to him, into the specialized "janguage" of
+the basic machine code. This may be termed programming at The second
+
+
+AT THE M.I.T, COMPUTATION CENTER INTO METHODS FOR
+MAKING HIGH-SPEED DIGITAL COMPUTERS EASIER TO USE
+BY THE OCCASIONAL USER
+
+PROPOSAL FOR NSF GRANT FOR SUPPORT OF RESEARCH
+
+ 
+
+Statement of the Problem - Large, electronic digital computers
+have great potentialities for advancing research in the many areas
+which require a great deal of drudge calculation, but up to now
+their potential capabilities have been hampered by & “mismatch”
+between machine and possible user. Special input equipment is not
+yet designed to allow masses of experimental data to be fed directly
+to the machine; special output equipment is needed in order to display
+results In compact and easily understandable form; and the present
+
+. code of instructions to the machine the "machine langauge” is not
+
+easy to learn or to use.
+
+The basic difficulty is that electronic computers are extremely
+complex pieces of equipment and a great deal of study will be
+required before we can understand its behavior well enough to be
+able to control it effortlessly and flexibly. At present one who
+wishes to use a large computer often has to spend three to five months
+
+developing, encoding and testing a program to instruct the machine how
+
+to perform the necessary millions of operations which, at the end, the
+computer willl carry through in a few hours. True, these five months
+of preparation plus the few hours of actual computation may be much
+shorter than the several years required to obtain the same results by
+using a desk computer, nevertheless it is obviously desirable to
+devise procedures which will shorten this preparation time, even at
+the expense of additional machine time.
+
+Program for Research on Machine Capabilities - In order to
+learn how tO make gital computers easier to use one must have a
+machine of large capacity, a large supply of possible computations
+to be done, drawn from a wide variety of sclentific fields, plus a
+staff which thoroughly understands the machine behavior and is
+interested in working with the prospective users in order to simplify
+methods of use, With this combination of equipment and staff it
+should be possible, in a few years, to work out special operating
+programs, additional input and cutput equipment and other techniques
+which will considerably reduce the time and effort required to get
+a problem solved by the machine.
+
+The M.I.T. Computation Center - The one place in the United
+States where this combination of machine, variety of problems and
+staff already exists is at M.I.T. This past year IBM has installed
+a 704, of the most up-to-date capacity for the use of the college
+
+and universities of New England. M.I.T. has contributed most of the
+
+
+supervisory and faculty staff, the other colleges have also con=
+tributed faculty time. Machine time is free, though the user must
+prepare his own coded program. To date faculty and students from
+
+27 colleges and universities have used the facilities and 150 problems
+are being or have been run, representing several dozen different
+scientific, engineering and academic fields. Detalls of the program are
+are given in the appended Progress Report.
+
+Here is a combination ideally suited for the prosecution of
+research directed toward reducing the' "mismatch" between the machine
+and the occasional user. All that is needed to start a vigorous
+program are additional funds to augment the staff, which are at present
+too busy helping individual users to have time to work out the improved
+techniques suggested by their present work. No money is needed for
+machine rental or maintenance; this 18 already supplied by IBM. Nor
+is money needed for machine operators or card-punch operators, The
+zdditional funds can be used entirely in suppérting the additional
+staff needed to intensify the research on machine behavior and to work
+out the improved techniques for machine use arising therefrom, and in
+purchasing or constructing the special input-output equipment which
+will increase the machine's flexibility.
+
+This special support need not be continued indefinitely. An
+intensive program for three to five years should solve many of the
+outstanding problems and enable the Center to drop back to its present
+level of expenditure, but with a greatly enhanced utility to the
+academic fraternity in New England because of the results of The
+program. The results of the work will be immediately available to
+the several hundred other 704 installations and, with little additional
+modification, to the users of other makes of digital computers.
+Present makes of digital computers have many more properties in common
+than differences, and what is learned on one machine can be carried
+over to the others without much modification.
+
+Development of Utility Programs - In addition to assisting
+individual users in putting their problem on the machine, the Center
+staff have the important task of making the machine easier to use by
+all users, It always takes time, the experience of many users, to
+reveal all the capabilities of any piece of machinery; this is
+particularly true of high-speed computers. Because of their speed
+and complexity it may take a dozen years or more before even the full
+capabilities of our present machines are known, and by that time
+machines of still more speed and complexity will be built. A computer
+of the size of the 704 has an order of complexity such that its —
+designers literally are not aware of all of its capabilities. Con-
+sequently it is important that research into these capabilities be
+carried on: such research, revealing easier ways of obtaining results
+and new methods of operation, may at times go farther in increasing
+machine serviceability for the general user than can the providing of
+a new machine with increased speed or capacity.
+
+
+2a
+
+A few years ago a machine user had to become familiar with
+binary arithmetic and with all the other idiosyncrasies of the primary
+machine operating code, just as the early auto owner had to be familiar
+with spark and choke and clutch. As time goes on it is less and less
+necessary for the occasional user to master all these details in order
+To use the machine, even if he has to devise a program for a new problem.
+In the first place, many of the more usual calculations will have been
+already programmed 80 that, for example, if one wishes to compute a
+Bessel function or to apply the chi-squared teat for the fit of a
+formula to a set of data, one need only use the ready-tested program.
+In the second place;—it is possible to provide a heirarchy of "trans-
+lation procedures” -- assembly and operator programs, ete. -- whereby
+the machine itself will translate the desires of the user, expressed
+in language more ramiliar to him, into the specialized "language" of
+the basic machine code. This may be termed programming at the second
+
+
+PROPOSAL FOR NSF GRANT FOR SUPPORT OF RESEARCH
+AT THE M.I.T. COMPUTATION CENTER INTO METHODS FOR
+MAKING HIGH-SPEED DIGITAL COMPUTERS EASIER TO USE
+
+BY THE OCCASIONAL USER
+
+ 
+
+Statement of the Problem - Large, electronic digital computers
+have great potentialities tor advancing research in the many areas
+which require a great deal of drudge calculation, but up to now
+their potential capabilities have been hampered by a "mismatch"
+between machine and possible user. Special input equipment is not
+vet designed to allow masses of experimental data to be fed directly
+to the machine; special output equipment is needed in order to display
+results in compact and easily understandable form; and the present
+. code of instructions to the machine the "machine langauge" is not
+easy to learn or TO use.
+
+The basic difficulty is that electronic computers are extremely
+complex pieces of equipment and a great deal of study will be
+required before we can understand its behavior well enough To be
+able to control it effortlessly and flexibly. At present one who
+wishes to use a large computer often has to spend three to five months
+developing, encoding and testing a program to instruct the machine how
+to perform the necessary millions of operations which, at the end; The
+computer will carry through in a few hours. True, these five months
+of preparation plus the few hours of actual computation may be much
+shorter than the several years required to obtain the same results by
+using a desk computer, nevertheless it is obviously desirable to
+devise procedures which will shorten this preparation time, even at
+the expense of additional machine time.
+
+Program for Research on Machine Capabilities - In order to
+learn how GO make digital computers easier to use one must have a
+machine of large capacity, a large supply of possible computations
+to be done, drawn from a wide varlety of scientific fields, plus a
+staff which thoroughly understands the machine behavior and is
+interested in working with the prospective users in order to simplify
+methods of use. With this combination of equipment and staff it
+should be possible, in a few years, to work out special operating
+programs, additional input and output equipment and other techniques
+which will considerably reduce the time and effort required to get
+a problem solved by the machine,
+
+The M.I.T. Computation Center - The one place in the United
+States where vhis combination of machine, variety of problems and
+staff already exists 4s at M.I.T. This past year IBM has installed
+a Tok, of the most up-to-date capacity for the use of the college
+and universities of lew England, M.I.T. has contributed most of the
+
+
+supervisory and faculty staff, the other colleges have also con=
+tributed faculty time. Machine time 1s free, though the user must
+prepare his own coded program. To date faculty and students from
+
+27 colleges and universities have used the facilities and 150 problems
+are being or have been run, representing several dozen different
+scientific, engineering and academic fields, Details of the program are
+are given in the appended Progress Report.
+
+Here is a combination ideally suited for the prosecution of
+research directed toward reducing the "mismatch" between the machine
+and the occasional user. All that is needed to start a vigorous
+program are additional funds to augment the staff, which are at present
+too busy helping individual users to have time to work out the improved
+technigues suggested by their present work. No money is needed for
+machine rental or maintenance; this is already supplied by IBM, Nor
+is money needed for machine operators or card-punch operators. The
+additional funds can be used entirely in suppirting the additional
+staff needed to intensify the research on machine behavior and to work
+out the improved techniques for machine use arising therefrom, and in
+purchasing or constructing the special input-output equipment which
+will increase the machine's flexibility.
+
+This special support need not be continued indefinitely. An
+intensive program for three to five years should solve many of the
+outstanding problems and enable the Center to drop back to its present
+level of expenditure, but with a greatly enhanced utility to the
+academic fraternity in New England because of the results of the
+program. The results of the work will be lmmediately avallable to
+the several hundred other TOW} installations and, with little additional
+modification, to the users of other makes of digital computers. ,
+Present makes of digital computers have many more properties in common
+than differences, and what is learned on one machine can be carried
+over to the others without much modification.
+
+Development of Utility Programs - In addition to assisting
+individual users in putting their problem on the machine, the Center
+staff have The lmportant task of making the machine easier to use by
+all users. It always takes time, the experience of many users, to
+reveal all the capabilities of any piece of machinery; this is
+particularly true of high-speed computers. Because of their speed
+
+and complexity it may take a dozen years or more before even the full
+capabilities of our present machines are known, and by that time
+machines of still more speed and complexity will be built. A computer
+of the size of the TO4 has an order of complexity such that its -—
+designers literally are not aware of all of its capabilities. Con-
+sequently it is important that research into these capabilities be
+carried on; such research, revealing easier ways of obtaining results
+and new methods of operation, may at times go farther in increasing
+machine serviceabllity for The general user than can the providing of
+a new machine with increased speed or capacity.
+
+
+za
+
+A few years ago a machine user had to become familiar with
+binary arithmetic and with all the other idiosyncrasies of the primary
+machine operating code s Just as the early auto owner had to be familiar
+with spark and choke and clutch. AS time goes on it is less and less
+necessary for the occasional user to master all these details in order
+to use the machine, even if he has to devise a program for a new problem.
+in the first place s many of the more usual calculations will have been
+already programmed so that, for example, if one wishes to compute a
+Bessel function or to apply the chi-squared test for the fit of a
+formula to a set of data, one need only use the ready-tested program;
+In the second placej;—it is possible to provide a heirarchy of "trans-
+lation procedures" -- assembly and operator programs, ete, -- whereby
+the machine itself will translate the desires of the user, ezpressed
+in language more familiar to him, into the specialized "language" of
+the basic machine code. This may be termed programming at the second
+
+

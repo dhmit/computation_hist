@@ -1,0 +1,39 @@
+Page I,
+
+the most trivial cases, human judgment can be invaluable in
+helping the machine to develop such "common sense" rules for
+particular problems, if the human is in a position to "see what
+1s going on” and to "get a feel for what is important”.
+
+That 18 to say, that as of today at least, people are far
+better equipped to draw on their past experience, recognize
+abstract patterns, to generalize and to unify, whereas a ma-
+chine is in a much better position to quickly seek out, oper-
+ate upon, and turn out information. The best features of both
+have yet to be effectively matched, as a closely meshed team.
+
+b. Large Problems
+
+The latest generation of ultra high speed and capa-
+bility computers was developed for the solution of problems in-
+volving non-linear partial differential equations. Yet even
+these machines are inadequate for several notable classes of
+such problems, such as accurate weather forecasting, many-body
+problems, deslgn problems in systems involving non-linear func-
+tions of space and time, etc. The approach to such problems
+would seem to lie far more in the direction of developing bet-
+ter approximate modelé (based on machine calculation) rather
+than seeking ever-faster and ever-larger computers for solu-
+tions that are essentially "brute force". Here too, on-line
+human decision that can recognize patterns and generalize from
+past experience can hasten the development of such "better"
+models., Large problems, in addition, need to be time shared
+because of themselves they tend to preempt computers for much
+longer periocds of time, and force other ., perhaps quite small
+problems to wait.
+
+c. omall Problems
+
+Many stralightforward, and quite trivial (from the
+point of view of a large computer) computations are charact-
+erlzed primarily by the need for an almost immediate answer,

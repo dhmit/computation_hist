@@ -1,0 +1,46 @@
+5.0
+
+    
+
+S
+
+is recarded on the taps at a density of 200 characters per inch, and a tape speed
+of 75 inches per second ig used formading and writing. The start tims is 10
+milliseconds. A gep of 0,75 inches is used to separate records on tape. For exe
+ampls, an 80-column IBM card mey be recorded on Q.41 inches end this is followed by
+a gap of 0,75 inches, etc. However, the lnter«card gap may be eliminated by msans
+of record marks, |
+
+A redundensy ocheck ias used on the megnetic tape in which both a vertical and
+longitudinal check digit are usede That 1s, & 6=bit code 1s used to represent a
+cherecter and a 7th bit is used an an even count checke. A tepe synchronizer is
+evailsble which handles as many as 10 megnetilc tape unitse
+
+Sarting on the Type 706 machins utilizes 4 magnetic tape units as well as
+the ecoumulator and as such, is 50 per cent faster as it was on the Type 702 machine.
+In the particular method of sorting used, the worst possible cazse is that involving
+data which exists in complete descending order. The following formula relates the
+number of peirs of tepe units (T) and the number of passes required (P):
+
+TP?; R (number of records)
+
+For example, if 8 records were involved and only 2 pairs of tape wnits were used,
+3 passes would be requireds ' |
+
+The usual precaution must be taken in hendling the magnetic tape units. That
+is, the tepe has & certain dimensional instability in so far as humldity and tem-
+peraturd are oonssrnede Specifically, it is recommended that the megnetic tape
+units be operated in.a humidity range of 40 to 60 per cent and in o temperature |
+not exceeding 80%F.. ..
+
+Magnetlo Drum
+
+The magnetioc drum on the Typs 705 is approximately 10" in diameter in contrast
+to the 4" drum used on the Type 650 Drum Caloulator. The drum material on both
+machines is the same3 namely, a drum plating consisting of 80 per cent cobalt ==
+20 per cent nickel is usede The design of the read-=write heads is almost identical,
+although the 700 head has & few more turns of wire.
+
+The drum is capable of storing 60,000 characters. A variable record size is
+employed which admits use of some 300 addresses. Table look-up has been accelerated
+on the Type 705 because of the b=character address which is employed.

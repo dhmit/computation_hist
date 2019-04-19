@@ -1,0 +1,48 @@
+The triclkiest situation arises In converting those 70U
+programs that utilized the {ime between CPY instiructions,
+There are on the 709 maxiwmum allowable times between trans-
+mission commands exactly as there are on the TQ4.
+
+In the following example, 1t vipuld be expected that ﬁhe
+7Oh program would dolay‘on the CPY Instruction and the 709‘
+program would delay on the [oad Channel instruction. (Seé
+109-7090 Reference Manual, p. 24) ‘
+
+Examplé:
+
+RTB 1 RTBY 1
+
+CPY A RCHX  ¥RST -
+
+CLA A 7,0 HK QA The lo2ad channel
+
+ruarantees- that FRST
+
+; 5 has been executed
+
+WGRY "B LCHe - QB guarantees QA
+: . cexecuted and B in core
+' .
+
+EDD B ADD - B
+
+LCHX QC
+
+SUB C SUB
+
+CEN ¢F LCHKX QE brings in F
+CPY ¥ TCOX ¥
+LOD FIRST LEQC T2 A
+
+QA TOET B
+
+ 
+
+IOCT
+10CD
+
+1
+1
+«B LOCT G
+1
+1

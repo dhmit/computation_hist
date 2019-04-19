@@ -1,0 +1,84 @@
+system, have built-in input and output subprograms, allow
+
+macros, have good debugging features and always allow to the
+
+  
+    
+
+user symbolic references to his program. The resultant system,
+
+  
+ 
+
+called S0S, was magnificently ambitilous, sufficiently so, that
+
+the system is Jjust beginning to assume complete and debugged
+
+  
+   
+  
+ 
+
+form over a year after the first 709 was delivered. Many
+
+    
+
+features of S0S are admirable; however, it is the consensus
+
+  
+ 
+
+of opinion at the Center that two serious liabilities have
+
+  
+ 
+
+arisen:
+
+   
+
+1. The improvement in problem formulation
+technique by means of compilers is improving
+rapidly. Programming in overly-detailed
+machine language with no provision for compilers
+is not only an accident-prone procedure but
+requires one to be a machine-language specialist.
+
+      
+ 
+    
+  
+   
+   
+  
+  
+   
+  
+ 
+   
+
+2. The very elaborateness of the SOS system which
+has pleased the expert programmers, has dis-
+couraged the development of brief, concilse
+programming manuals which are also self-contained.
+
+In spite of these objections, the Center plans to have the SOS
+
+system avallable and be prepared to operate it for those who
+
+feel it is a more effective system for their needs. The
+programmer who intends to use this system will find it helpful
+to familarize himself with the following material in the Center
+
+Document Room.
+
+31 JOU Reference Manual - SHARE System for the
+
+e — ———— —
+
+/09 (loose-1eafl)
+
+2. Programmers Manual for the SHARE Operating
+
+System (October 1959) by C. E. Homan, IBM
+and G, ¥, Swindle, SDC

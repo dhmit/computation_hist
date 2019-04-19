@@ -1,0 +1,19 @@
+8. D. 1. Our improved significant-figure check has permitted us to obtain
+data in the two phase case for up to ten parallel servicing facili-
+ties.
+
+2., The constant holding time program is partly checked out, but we
+have discovered a mistake in our numerical analysis which calls
+for further theoretical work before runs are continued.
+
+3. A Share subroutine is included.
+
+E. Nothing short of a 70L, with double precision, would solve this ap-
+
+parently simple mathematical problem.
+
+F. If time for production runs can be obtained, the tables, projected
+publication of which is mentioned in 3. sbove, will be run off, or
+at the esrliest date such time can be made svailable. If such time
+
+carmot be obtained, publication will probsbly have %o be abandoned.

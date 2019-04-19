@@ -1,0 +1,48 @@
+ABSOLUTE
+ASSENBLIES
+
+APPENDIX
+
+An absolute assembly feature has been added so that FAP
+may be used to assemble programs that will be run outside
+
+the FORTRAN Monitor.
+
+Absolute assemblies are specified by the ABS pseudo-
+operation. ABS must appear in the operation field, and
+this card must appear just after the FAP card at the
+
+beginning of the assembly.
+
+In an absolute assembly, the following pseudo-operations
+
+are not permitted: COMION, ENTRY, and CALL.
+
+The following pscudo-operations, not permissible other-
+wise, may be used: ORG, HEAD, HED, and TCD. The form
+of END is modified.
+
+ORG is used to set the next location to be assigned by
+the assembler to a desired value. DBlanks or a symbol
+may appear in the location field, ORG in the operation
+field, and a pre-defined expression in the variable field.
+The symbol in the location field is defined to have the
+value of the expression in the variable field. The value
+of the expression in the variable field is taken by the
+
+assembler to be the next location assigned.
+
+The HEAD and HED pseudo-operations make it possible to
+prefix each symbol of a section of program by a "heading"
+character. Using different heading characters in two
+sections of programs removes any ambiguity as to the
+definition of a symbol. All symbols of 5 characters or
+less following a HEAD or HED pseudo-operation are pre-
+
+'
+
+fixed by the '"heading'' character until another HEAD or
+
+HED is encountered. Six character symbols are immune
+
+=39

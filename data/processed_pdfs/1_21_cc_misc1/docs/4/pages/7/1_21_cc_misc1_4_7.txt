@@ -1,0 +1,50 @@
+Cases will be in the third
+
+and fourth conjugation and irregular
+verbs, where stem chang
+
+€Ss are often great; and also in irregular
+Comparison of certain common adjectives (bonus, melior, optimus)
+and of corresponding adverbs, Even among comparatively regularly
+inflected parts of Speech alphabetic sorting by entire words will do
+violence to conventional paradigmatic order: reference to such a
+common verb as amare will bear this out,
+
+Beyond these lexical peculiarities are to be found matters of
+a higher order of complexity. Many of Calvin's sentences are long
+and hierarchically organized; clauses are often interlaced in such a
+way that the printing of the near context will not reveal the most im-
+portant aspects of a particular construction,
+
+Finally, Latin does not possess a uniform orthography, The
+Barth-Niesel edition of the Institutes and the Corpus Reformatorum
+edition of Calvin's other works pose little problem here, but com-
+parative studies with other authors will be affected by these variant
+spellings, e, g., aeloe, ilj, alv, ct/th, etc. If, at a later stage, a
+concordance to Calvin's French-language writings is decided upon,
+Some conventions with regard to orthography will have to be worked
+out,
+
+ 
+
+Certain arbitrary decisions are here proposed to meet these
+problems of alphabetization:
+
+(1) The irregular principal parts of certain verbs (as
+well as of adjectives, etc. ) will be separately en-
+tered at their normal alphabetic position;
+
+l. The following conventions will be observed in key-punching
+the Barth-Niesel text: a) all material within square brackets in the
+text will be omitted, being replaced by a sign of omission; b) all
+superscripts (letters and numbers) will be disregarded; also all
+parallel lines and marginalia; c) all capitalization will be disre-
+garded; d) all footnotes will be disregarded; e) all non-Latin words
+will be Romanized as pre-edited; f) all words divided between ends
+of line and beginning of next will be carried undivided on first of
+two lines--except when by so doing there is not enough space in
+the first line, in which case the divided word will be typed undivided
+in the second of the two lines; g) all punctuation will be separated
+
+from previous word by no space at all, but from the following by a
+space,

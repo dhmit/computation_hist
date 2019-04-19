@@ -1,0 +1,50 @@
+SUMMARY OF FINAL REPORT TO BE SENT TO NSF ON THE SCIENCE
+FACULTY FELLOWSHIP OF DR. SIFNEY SPITAL
+
+FALL, 1961
+
+Numerical Mathematical Analysis with Dr. Henrici (grade - A)
+Text: none
+
+Computational Aspects of Partial Differential Equations with Dr. Tompkins
+(grade - A)
+Text: Forsythe and Wasow, "Finite Difference Methods for Partial
+Differential Equations"
+
+Applied Complex Analysis I with Dr. Henrici (grade - A)
+Text: Ahlfors, “"Complex Analysis” -
+
+Theory of Games with Dr. Dresher (grade - A)
+Text: Dresher, "Games of Strategy, Theory and Applications"
+
+Statistics I with Dr. Hoel (no grade)
+Text: Hoel, "Introduction to Mathematical Statistics™
+
+Introductory Fortran Programming from Western Data Processing Center, UCLA
+(no grade)
+short course
+
+SPRING, 1962
+
+Numerical Methods in Differential Equations with Dr. Henrici (grade - A)
+Text: Henrici, "Discrete Variable Methods in Ordinary Differential
+Equations”
+
+Numerical Methods in Algebraic Problems with Dr. Hayes (grade - A)
+Text: Fadeeva, "Computational Methods of Linear Algebra”
+
+Applied Complex Analysis II with Dr. Henrici (no grade)
+Texts: Henrici, "Some Applications of the Quotient-Difference Algorithm",
+to appear
+Henrici, "The Quotient Difference Algorithm™, NBS Applied Math
+Series 49
+Erdelyi, "Asymptotic Expansions”
+
+Statistics II with Dr. Hoel. (no grade)
+Texts: Hoel, "Introduction to Mathematical Statistics”
+
+Advanced Fortran Programming from Western Data Processing Center, UCLA (no grade)
+short course
+
+Approximation Theory, independent study (no grade)
+Text: Lanezos notes, "Approximations by Orthogonal Polynomials”

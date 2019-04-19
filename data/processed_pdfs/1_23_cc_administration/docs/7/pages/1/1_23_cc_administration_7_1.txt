@@ -1,0 +1,41 @@
+A PROPOSAL FOR THE USE OF A CONDENSED SYMBOLIC NOTATION ON
+704 TAPES AND FOR THE USE OF CONDENSED SYMBOLIC CARDS
+
+by John McCarthy
+January 3, 1957
+
+l. INTRODUCTION
+
+The SHARE subroutines distributed to date total somse 30,000
+instructions, and routines are being written at an increasing
+rate. It is already impossible to put all the available sub—
+routines on one library tape, and in any case a full library tape
+would lead to excessive assembly time for programs calling for
+routines coming from near the end of the tape.
+
+By using a condensed symbolic notation it is possible to
+store routines on a library tape at 20 to 30 times the present
+density. (A count on a program sslected at random gave a factor
+of 28, though this seemed to be a particularly favorable case, )
+This increase in density is to be achieved by increasing the sigze
+of the records used, trimming the comments from the Instructions,
+omitting most of the REM instructions, and packing the instructions
+continuously on tape with symbols to distinguish where one instruc-
+tion leaves off and another begins. (At present a library tape is
+written in .4 inch 80 character records with » 75 inch inter-record
+gaps. )
+
+Other proposals for library condensation have been made which
+involve writing the instructions in relocatable binary form. We
+think that there are many advantages to preserving a symbolic no-
+tation. These include the fact that symbolic references to posi-
+tions in the subroutines are allowed, and that subroutines with
+program parameters set at the time of assembly can be used.
+
+In addition we propose the use of condensed symbolic cards.
+Programs on condensed symbolic cards will have from one sixth to
+oné tenth the bulk of standard symbolic cards, and in the proposed
+System they can be mixed with standard symbolic cards at assembly.
+The condensed cards cannot conveniently be prepared by hand key-
+punching, and a program to prepare them from standard decks has
+been written.

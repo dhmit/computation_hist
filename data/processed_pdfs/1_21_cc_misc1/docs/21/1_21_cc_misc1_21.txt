@@ -1,0 +1,560 @@
+MIT COMPUTATION CENTER
+Massachusetts Institute of Technology
+Cambridge 39, Massachusetts
+
+ 
+
+MEMORANDUM
+To: Mr, R, P, Webber, D.S.R. February 10, 1958
+From: Director, Computation Center
+
+Subject: Proposal to Extend Contract NSori-g0 without Increase of Funds,
+
+EE Ee ee i ee: nS
+
+1, During the past year the personnel of the Computation Center
+have been using two computing facilities; the Whirlwind I installation
+in the Barta Building and the new IBM 704 installation in the new
+Compton building. The work using Whirlwind bas been supported by
+contract NSori-60 and that using the 704 has been supported by other
+grants, although the nature of the work is closely related. Now that
+the Whirlwind equipment has been turned over to the Lincoln Laboratory,
+the work of the Center uses the 704 equipment exclusively with consequent
+increase in effectiveness because work is now all done at one place,
+using one machine, and duplication of office and machine operations is
+eliminated. :
+
+2, Work as described in task orders of NSori-60 continues to be
+carried out by the Center, though now the 704 is used to try out the
+programs and auxiliary equipment rather than W.W.I. For example,
+Amendment No, 13 (6/28/51) states in part:
+
+"3. On and after 1 July 1951, section (a) shall read as follows:
+
+(A) The Contractor shall furnish the necessary perscmnel and
+facilities for and, in accordance with any instructions
+issued by the Technical Officer or his authorized repre-
+sentative, shall conduct a coordinated research program
+in applied mathematics utilizing facilities in the Center
+for Machine Camputation, including the WHIRLWIND Computer,
+which shall include but not necessarily be limited to the
+following :
+
+(1) research in methods of numerical analysis and the
+formulation of scientific problems for machine solution,
+together with the training of personnel on these methods:
+
+(2) support of the scientific and engineering applications
+group previously associated with Project WHIRLWIND so as
+to make the WHIRLWIND Computer useful and available for
+the above research, including a continuation of the
+construction and improvement of the WHIRLWIND Computer;
+and
+
+(3) an investigation of digital computing machine components."
+
+Work coming under sub-headings (1) and (3) of this amendment is
+being continued by the Center.
+
+
+3,
+ana Anticipating the turning over of Whirlwind to Lincoln, no
+of Sipal puneys were requested for N5ori-60 for this fiscal year. Much
+Veisior vity under this contract has been related to closing out the
+boas 4 part of the work, though some research started on Whirlwind has
+oy Jensieriaa to the 704 in order to reach satisfactory completion of
+2 work. Because of the tapering-off of activity under this contract,
+Now appears that about $30,000 will still be unexpended by June 30,
+1958. It also appears likely that some of the more long-range research
+
+Projects of the sort, supported by this contract in the past, will still
+be going on,
+
+For example, cosmic-ray measurements and particle accelerator
+measurements, carried out in the Laboratory of Nuclear Science, are
+coming to use digital computers to analyze the data, We have been
+cooperating with them to investigate methods whereby such measurements
+can be recorded directly on cards or tape and programmed so that the
+analysis can be carried out directly by the machine without further
+manual transcription of data. This work will continue, as will the
+investigation of various means of displaying the results of the machine
+calculations. Other long-range investigations, such as that on
+artificial intelligence, also come within the scope of the task orders
+for NSori-60.
+
+It is therefore proposed that the Office of Naval Research be
+requested to continue Contract NSori-G0 for the year beginning July 1, 1958,
+without additional funds, to continue support of long-range research of the
+sort described in the Contract’s present task orders until the balance of
+the funds is exhausted. These funds would be used chiefly for personnel
+salaries and might be allocated as follows:
+
+Senior Mathematician (1 year) $ 9,000
+2 Technicians or Programmers 11,000
+
+(at about $5,500 per year each) 20,000
+Overhead, at 45% 9,000
+Travel 500
+Incidentels (production of reports, __S00
+
+office supplies, etc.)
+
+TOTAL $30,000
+
+If the unexpended balance on June 30, 1958, turns out to be less
+or more than the ostimated $30,000, this budget could be modified accordingly
+to run for a shorter or longer time than an additional year,
+
+hilip M. Morse
+Director, Computation Center
+
+
+MIT COMPUTATION CENTER
+Massachusetts Institute of Technology
+Cambridge 392, Massachusetts
+
+ 
+
+MEMORANDUM
+To Mr, R, P, Webber, D.S.R, February 10, 1958
+From: Director, Computation Center
+
+Subject: Proposal to Extend Contract NSori-60 without Increase of Punds,
+
+ 
+
+During the past year the personnel of the Computation Center
+have been using two computing facilities; the Whirlwind I installation
+in the Barta Building and the new IBM 704 installation in the new
+Compton building, The work using Whirlwind bas been supported by
+contract NSori-60 and that using the 704 has been supported by other
+grants, slthough the nature of the work is closely related. Now that
+the Whirlwind equipment has been turned over to the Lincoln Laboratory,
+the work of the Cenier uses the 704 equipment exclusively with consequent
+increase in effectiveness because work is now all done at one place,
+using one machine, and duplication of office and machine operations is
+eliminated,
+
+Work as described in task orders of NSori-60 continues to be
+carried out by the Center, though now the 704 is used to try out the
+programs and auxiliary equipment rather than W.W.I. For example,
+Amendment No, 13 (6/28/51) states in part:
+
+"3. On and after 1 July 1951, section (a) shall read as follows:
+
+(A) The Contractor shall furnish the necessary personnel and
+facilities for and, in accordance with any instructions
+issued by the Technical Officer or his authorized repre-
+sentative, shall conduct a coordinated research program
+in applied mathematics utilizing facilities in the Center
+for Machine Computation, including the WHIRLWIND Computer,
+which shall include but not necessarily be limited to the
+following:
+
+(1) research in methods of numerical analysis and the
+formulation of scientific problems for machine solution,
+together with the training of personnel on these methods;
+
+(2) support of the scientific and engineering applications
+group previously associated with Project WHIRLWIND so as
+to make the WHIRLWIND Computer useful and available for
+the above research, including a continuation of the
+construction and improvement of the WHIRLWIND Computer;
+and
+
+(3) an investigation of digital computing machine components."
+
+Work coming under sub-headings (1) and (3) of this amendment is
+being continued by the Center.
+
+
+4,
+
+ 
+
+Anticipating the turning over of Whirlwind to Lincoln, no
+additional moneys were requested for N5ori-60 for this fiscal year. Much
+of the activity under this contract has been related to closing out the
+Whirlwind part of the work, though some research started on Whirlwind has
+been transferred to the 704 in order to reach satisfactory completion of
+the work. Because of the tapering-off of activity under this contract,
+it now appears that about $30,000 will still be unexpended by June 30,
+1958. It also appears likely that some of the more long-range research
+projects of the sort, supported by this contract in the past, will still
+be going on,
+
+For example, cosmic-ray measurements and particle accelerator
+measurements, carried out in the Laboratory of Nuclear Science, are
+coming to use digital computers to analyze the data. We have been
+cooperating with them to investigate methods whereby such measurements
+can be recorded directly on cards or taps and programmed so that the
+analysis can be carried out directly by the machine without further
+manual transcription of data. This work will continue, as will the
+investigation of various means of displaying the results of the machine
+calculations. Other long-range investigations, such as that on
+artificial intelligence, also come within the scope of the task orders
+for NSori-60.
+
+It is therefore proposed that the Office of Naval Research be
+requested to continue Contract NSori-G60 for the year beginning July 1, 1958,
+without additional funds, to continue support of long-range research of the
+sort described in the Contract’s present task orders until the balance of
+the funds is exhausted. These funds would be used chiefly for personnel
+salaries and might be allocated as follows:
+
+Senior Mathematician (1 year) $ 9,000
+2 Technicians or Programmers 11,000
+
+(at about $5,500 per year each) 20,000
+Overhead, at 45% 9,000
+Travel 500
+Incidentzls (production of reports, __ 900
+
+office supplies, etc.)
+
+TOTAL $30,000
+
+If the unexpended balance on June 30, 1958, turns out to be less
+or more than the ostimated $30,000, this budget could be modified accordingly
+to run for a shorter or longer time than an additional year,
+
+hilip MK. Morse
+Director, Computation Center
+
+
+MIT COMPUTATION CENTER
+Massachusetts Institute of Technology
+Cambridge 39, Massachusetts
+
+ 
+
+MEMORANDUM
+To: Mr, R, P, Webber, D.S.R. February 10, 1958
+From: Director, Computation Center
+
+Subject: Proposal to Extend Contract NSori-60 without Increase of Funds,
+
+During the past year the personnel of the Computation Ceater
+have been using two computing facilities; the Whirlwind I installation
+in the Barta Building and the new IBM 704 installation in the new
+Compton building, The work using Whirlwind has been supported by
+contract NSori=60 and that using the 704 has been supported by other
+grants, although the nature of the work is closely related. Now that
+the Whirlwind equipment has been turned over to the Lincoln Laboratory,
+the work of the Center uses the 704 equipment exclusively with consequent
+increase in effectiveness because work is now all done at one place,
+using one machine, and duplication of office and machine operations is
+eliminated.
+
+Work as doscribed in task orders of NSori-60 continues to be
+carried out by the Center, though now the 704 is used to try out the
+programs and auxiliary equipment rather than W.W.I. For example,
+Amendment No. 13 (6/28/51) states in part:
+
+"3. On and after 1 July 1951, section (a) shall read as follows:
+
+(A) The Contractor shall furnish the necessary perscnnel and
+facilities for and, in accordance with any instructions
+issued by the Technical Officer or his authorized repre-
+sentative, shall conduct a coordinated research program
+in applied mathematics utilizing facilities in the Center
+for Machine Computation, including the WHIRLWIND Computer,
+which shall include but not necessarily be limited to the
+following:
+
+(1) research in methods of numerical analysis and the
+formulation of scientific problems for machine solution,
+together with the training of personnel on these methods ;
+
+(2) support of the scientific and engineering applications
+group previously associated with Project WHIRLWIND so as
+to make the WHIRLWIND Computer useful and available for
+the above research, including a continuation of the
+construction and improvement of the WHIRLWIND Computer;
+and
+
+(3) an investigation of digital computing machine components."
+
+Work coming under sub-headings (1) and (3) of this amendment is
+being continued by the Center.
+
+
+| -2=
+Anticipating the turning over of Whirlwind to Lincoln, no
+additional moneys were requested for NSori-g0 for this fiscal year, Much
+of the activity under this contract has been related to closing out the
+Whirlwind part of the work, though some research started on Whirlwind has
+beer transferred to the 704 in order to reach satisfactory completion of
+yi work. Because of the tapering-off of activity under ‘this contract,
+
+now appears that about $30,000 will still be unexpended by June 30,
+1958, It also appears likely that some of the more long-range research
+
+Projects of the sort, supported by this contract in the past, will still
+be going on. |
+
+For example, cosmic-ray measurements and particle accelerator
+measurements, carried out in the Laboratory of Nuclear Science, are
+coming to use digital computers to analyze the data, We have been
+cooperating with them to investigate methods whereby such measurements
+can be recorded directly on cards or taps and programmed so that the
+analysis can be carried out directly by the machine without further
+manual transcription of data. This work will continue, as will the
+investigation of various means of displaying the results of the machine
+calculations. Other long-range investigations, such as that on
+artificial intelligence, also come within the scope of the task orders
+for NSori-6o0,
+
+It is therefore proposed that the Office of Naval Research be
+requested to continue Contract NSori-60 for the year beginning July 1, 1958,
+without additional funds, to continue support of long-range research of the
+sort described in the Contract’'s present task orders until the balance of
+the funds is exhausted. These funds would be used chiefly for personnel
+salaries and might be allocated as follows:
+
+ 
+
+Senior Mathematician (1 year) $ 9,000
+2 Technicians or Programmers 11,000
+
+(at about $5,500 per year each) 20,000
+Overhead, at 45% 9,000
+Travel 500
+Incidentsls (production of reports, 500
+
+office supplies, etc.)
+
+TOTAL $30,000
+
+If the unexpended balance on June 30, 1958, turns out to be less
+or more than the ostimated $30,000, this budget could be modified accordingly
+to run for a shorter or longer time than an additional year,
+
+hilip M. Morse
+Director, Computation Center
+
+
+MIT COMPUTATION CENTER
+Massachusetts Institute of Technology
+Cambridge 39, Massachusetts
+
+ 
+
+MEMORANDUM
+To: Mr, R, P, Webber, D,S.R, February 10, 1958
+From: Director, Computation Center
+
+Subject: Proposal to Extend Contract NSori-60 without Increase of Funds,
+
+ 
+
+During the past year the personnel of the Computation Ceamter
+have been using two computing facilities; the Whirlwind I installation
+in the Barta Building and the new IBM 704 installation in the new
+Compton building, The work using Whirlwind bas beem supported by
+contract NSori-60 and that using the 704 has been supported by other
+grants, although the nature of the work is closely related. Now that
+the Whirlwind equipment bas been turned over to the Lincoln Laboratory,
+the work of the Center uses the 704 equipment exclusively with consequent
+increase in effectiveness because work is now all done at one place,
+using one machine, and duplication of office and machine operations is
+eliminated. :
+
+Work as described in task orders of NSori-60 continues to be
+carried out by the Center, though now the 704 is used to try out the
+programs and auziliary equipment rather them W.W. I, For example,
+Amendment No, 13 (6/28/51) states in part:
+
+"3, On and after 1 July 1951, section (a) shall read as follows:
+
+(A) The Contractor shall furnish the necessary persciunel and
+facilities for and, in accordance with any instructions
+issued by the Technical Officer or his authorized repre-
+sentative, shall conduct a coordinated research program
+in applied mathematics utilizing facilities in the Center
+for Machine Computation, including the WHIRLWIND Computer,
+which shall include but not necessarily be limited to the
+following:
+
+(1) research in methods of numerical analysis and the
+formulation of scientific problems for machine solution,
+together with the training of personnel on these methods;
+
+(2) support of the scientific and engineering applications
+group previously associated with Project WHIRLWIND so as
+to make the WHIRLWIND Computer useful and available for
+the above research, including a continuation of the
+construction and improvement of the WHIRLWIND Computer;
+and
+
+(3) an investigation of digital computing machine components."
+
+Work coming under sub-headings (1) and (3) of this amendment is
+being continued by the Center,
+
+
+ionay Lticipating the turning over of Whirlwind to Lincoln, no
+Sigg sisal Emags were requested for NSori-60 for this fiscal year. Much
+Whirlwis Vity under this contract has been related to closing out the
+
+Tm part of the work, though some research started on Whirlwind has
+Been Tenstorrey to the 704 in order to reach satisfactory completion of
+Work. Because of the tapering-off of activity under this contract,
+od appears that about $30,000 will still be unexpended by June 30,
+
+» It also appears likely that some of the more long-range research
+
+Projects of the sort, supported by this contract in the past, will still
+be going on, :
+
+For example, cosmic-ray measurements and particle accelerator
+measurements, carried out in the Laboratory of Nuclear Science, are
+coming to use digital computers to analyze ‘the data, We have been
+cooperating with them to investigate methods whereby such measurements
+can be recorded directly on cards or tape and programmed so that the
+analysis can be carried out directly by the machine without further
+manual transcription of data. This work will continue, as will the
+investigation of various means of displaying the results of the machine
+calculations. Other long-range investigations, such as that on
+artificial intelligence, also come within the scope of the task orders
+for NSori-60, :
+
+It is therefore proposed that the Office of Naval Research be
+requested to continue Contract NSori-60 for the year beginning July 1, 1958,
+without additional funds, to continue support of long-range research of the
+sort described in the Coatract's present task orders until the balance of
+the funds is exhausted. These funds would be used chiefly for personnel
+salaries and might be allocated as follows:
+
+Senior Mathematician (1 year) $ 9,000
+2 Technicians or Programmers 11,000
+
+(at about $5,500 per year each) 20,000
+Overhead, at 45% 9,000
+Travel 500
+Incidentzls (production of reports, 900
+
+office supplies, etc.)
+
+TOTAL $30,000
+
+If the unexpended balance on June 30, 1958, turns out to be less
+or more than the ostimated $30,000, this budget could be modified accordingly
+to run for a shorter or longer time than an additional year,
+
+hilip M, Morse
+Director, Computation Center
+
+
+MIT COMPUTATION CENTER
+Massachusetts Institute of Technology
+Cambridge 39, Massachusetts
+
+ 
+
+MEMORANDUM
+To: Mr, R, P, Webber, D.8.R, February 10, 1958
+From: Director, Computation Center
+
+Subject: Proposal to Extend Contract NSori-G0 without Increase of Punds,
+
+ 
+
+During the past year the persommel of the Computation Center
+Rave been using two computing facilities; the Whirlwind I installation
+in the Barta Building and the new IBM 704 installation in the new
+Compton building, The work using Whirlwind bas been supported by
+contract NSori-60 and that using the 704 has been supported by other
+grants, although the nature of the work is closely related. Now that
+the Whirlwind equipment has been turned over to the Lincoln Laboratory,
+the work of the Center uses the 704 equipment exclusively with consequent
+increase in effectiveness because work is now all done at one place,
+using one machine, and duplication of office and machine operations is
+eliminated.
+
+Work as doscribed in task orders of NSori-60 continues to be
+carried out by the Center, though now the 704 is used to try out the
+programs and auxiliary equipment rather than W,W.I, For example,
+Amendment No. 13 (6/28/51) states im part:
+
+"3, On and after 1 July 1951, section (a) shall read as follows:
+
+(A) The Contractor shall furnish the necessary perscunel and
+facilities for and, in accordance with any instructions
+issued by the Technical Officer or his authorized repre-
+sentative, shall conduct a coordinated research program
+in applied mathematics utilizing facilities in the Center
+for Machine Computation, including the WHIRLWIND Computer,
+which shall include but not necessarily be limited to the
+following:
+
+(1) research in methods of numerical analysis and the
+formulation of scientific problems for machine solution,
+together with the training of personnel on these methods;
+
+(2) support of the scientific and engineering applications
+group previously associated with Project WHIRLWIND so as
+to make the WHIRLWIND Computer useful and available for
+the above research, including a continuation of the
+construction and improvement of the WHIRLWIND Computer;
+and
+
+(3) an investigation of digital computing machine components."
+
+Work coming under sub-headings (1) and (3) of this amendment is
+being continued by the Center.
+
+
+additions icipating the turning over of Whirlwind to Lincoln, no
+of 3 vane? : ays were requested for NSori-80 for this fiscal year. Much
+Whirl ¥ under this contract has been related to closing out the
+iar ri Part of the work, though some research started on Whirlwind has
+Tho at erred to the 704 in order to reach satisfactory completion of
+ee Because of the tapering-off of activity under this contract,
+1953 Ppears that about $30,000 will still be unexpended by June 30,
+
+-» It also appears likely that some of the more long-range research
+
+Projects of the sort, supported by this contract in the past, will still
+be going om,
+
+For example, cosmic-ray measurements and particle accelerator
+Measurements, carried out in the Laboratory of Nuclear Science, are
+coming to use digital computers to analyze the data, We have been
+Cooperating with them to investigate methods whereby such measurements
+can be recorded directly on cards or tape and programmed so that the
+analysis can be carried out directly by the machine without further
+manual transcription of data. This work will continue, as will the
+investigation of various means of displaying the results of the machine
+calculations. Other long-range investigations, such as that on
+artificial intelligence, also come within the scope of the task orders
+for NSori-60.
+
+It is therefore proposed that the Office of Naval Research be
+requested to continue Contract NSori-60 for the year beginning July 1, 1988,
+without additional funds, to continue support of long-range research of the
+sort described in the Contract’s present task orders until the balance of
+the funds is exhausted. These funds would be used chiefly for personnel
+salaries and might be allocated as follows:
+
+Senior Mathematician (1 year) $ 9,000
+2 Technicians or Programmers 11,000
+
+{at about $5,500 per year each) 20,000
+Overhead, at 45% 9,000
+Travel 500
+Incidentszls (production of reports, 500
+
+office supplies, ete.)
+
+TOTAL $30,000
+
+If the unexpended balance on June 30, 1958, turns out to be less
+or more than the ostimated $30,000, this budget could be modified accordingly
+to run for a shorter or longer time than an additional year,
+
+1i1ip M, Morse
+
+Director, Computation Center
+
+

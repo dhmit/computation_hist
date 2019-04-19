@@ -1,0 +1,490 @@
+THE HARTFORD SEMINARY FOUNDATION
+55 Elizabeth Street ¢ Hartford, Connecticut 06105
+
+FORD LEWIS BATTLES
+PHILIP SCHAFF PROFESSOR OF
+CHURCH HISTORY
+
+10 July 1964
+
+Director
+
+M.I.T. Computer Center
+Massachusetts Institute of Technology
+Cambridge, Massachusetts
+
+Dear Sir:
+
+As initiators of a project for the preparation by computer of a
+Concordance to the Works of John Calvin, we are writing you both
+t o acquaint you with the project and to appeal for help.
+
+It is our understanding that certain computer facilities at M. I. T.
+are open to approved projects initiated by educational institutions in
+the New England area. The Hartford Seminary Foundation, a long-
+established interdenominational post-graduate theological school,
+through its Board of Trustees has approved the Concordance pro-
+posal and has advanced a small sum to initiate the work. The de-
+tails of the proposal are covered in the enclosed paper.
+
+We should very much appreciate your studying this paper; if
+then you will advise us of the steps to take in requesting help from
+your facility, we shall be indeed grateful.
+
+X
+
+SS gua NO
+Sincerely yours, =>
+
+4 2 ™N ] )
+bom lan, | © =
+
+Ford Lewis Battles
+
+encl. \ \ n XL
+
+
+A CONCORDANCE PROGRAM FOR THE WORKS
+OF JOHN CALVIN
+
+Summary
+
+One of the glories of classical scholarship is an impressive
+array of concordances to ancient Greek and Latin writers, For the
+Scriptures, too, and also for the corpus of Roman law there are
+comparably exhaustive indices to the texts. These concordances
+were compiled with enormous and tedious labor by dedicated re-
+searchers and their assistants. It would be hard in our day to find
+such persons to work thus selflessly for hours and years. Yet we
+have at hand an instrument of truly amazing capabilities, the elec-
+tronic computer, to carry out: research of such fundamental and
+necessary character,
+
+The application of the electronic computer to the immediate
+task, the first concordance in the series, is essentially simple. The
+enormous bulk of the Institutes (slightly under 500, 000 words in
+Latin) will be stored on magnetic tapes so that many kinds of ques-
+tions may be propounded to this 'memory'. Properly interrogated,
+the machine will print a complete alphabetical listing of each word
+with its immediate context. What is more, questions of syntax, of
+rhetorical structure, of meaning itself can be swiftly and directly
+raised, if the project has been duly programmed. Duplicate tapes
+can be made available to interested scholars at cost. The advances
+in. knowledge possible, once the magnetic memory is put to use, will
+be remarkable. With uncanny speed the computer will search the
+entire length of the Institutes on any point within its grasp raised
+by the researcher,
+
+Work on the Institutes Concordance has already begun with
+the help of a small loan from the Hartford Seminary Foundation. To
+complete this first volume and the remaining ones in the proposed
+series will, however, require sponsorship and financial assistance
+from outside sources. It is to this end that the present appeal is
+made,
+
+4 July 1964 Ford Lewis Battles Ph, D.
+Schaff Professor of Church History
+The Hartford Seminary Foundation
+Hartford, Connecticut, U.S. A.
+
+
+A Concordance to the Works of John Calvin
+
+One of the glories of classical scholarship is an impressive
+array of concordances to ancient Greek and Latin writers, For
+the Scriptures, too, and also for thé corpus of Roman law there
+are comparably exhaustive indices to the texts. With such tools,
+
+a wide range of questions can be answered with comparative ease.
+However, when the scholar moves into Christian literature no such
+faithful servants stand at his elbow. How often, for example, have
+historians of Christian thought wished that a complete concordance
+existed for the works of Augustine!
+
+Concordances of classical and biblical authors were compiled
+with enormous and tedious labor by dedicated researchers and
+their assistants, It would be hard in our day to find such persons
+to work thus selflessly for hours and years. Yet we have at hand
+an instrument of truly amazing capabilities, the electronic com-=-
+puter, to carry out research of such fundamental and necessary
+character.
+
+Some limited application of the computer has been made in
+religious thought. Using a computer, John W. Ellison prepared a
+Concordance to the Revised Standard Version of the Bible. An
+Aquinas Concordance is under preparation. Computer technique
+is being applied to problems in Bible translation. Yet efforts such
+as these have barely scratched the surface of the vast possibilities
+of the computer in theological investigation.
+
+The need for such tools is apparent to anyone who has devoted
+years to textual and source study and to translation of religious
+works from one language to another. The translator of Calvin's
+Institutes of the Christian Religion for the Library of Christian
+Classics found it necessary to construct by hand a select word-
+list in order to insure accuracy and consistency of rendering.
+
+But such lexicographic efforts were minimal in character and only
+ancillary to the prime tasks of editing and translating. It was out
+
+of this long and laborious experience that the thought came to pro-
+pose a full concordance to the Institutes, to be followed by concor-
+dances to Calvin's other works. That these efforts could lead to a
+much wider field of concordance activity is quite obvious,
+
+
+Why the Institutes of Calvin? Not only is this perhaps the
+chief Protestant work in the shaping of modern Christian thought;
+it is also a faithful if selective compend of Scriptural, Patristic,
+and Scholastic tradition as well. Thus it is a logical starting point
+in a fresh assessment of the whole of Christian thought. Calvin's
+Latinity spans the Latinity of the Christian era, and his Christian
+humanism embraces both the Greek and Roman past, A Concor-
+dance to the Institutes will lead not only to a completer understand-
+ing of Calvin and the Calvinist tradition, but it will also help to un-
+cover the various substrata of the Reformation itself. Coupled
+with concordances to his tracts, commentaries, letters, and pos =
+sibly sermons--to be compiled subsequently-=-such an instrument
+will be of immense value,
+
+The concrete notion of a Calvin Concordance actually grew
+out of conversations between Professor Otto Weber of the University
+of Goettingen and the present writer in 1963. It is actually a first
+step in the preparation of a definitive Commentary on Calvin's In-
+stitutes, a project long dreamed of by both scholars and now happily
+to be the object of their collaboration. The usefulness of the Con-
+cordance in making the Commentary will be obvious to all.
+
+II
+
+Upon his return to the United States, the present writer be-
+gan to study the feasibility of preparing, by computer, a concordance
+to the Institutes. The area of Hartford, Connecticut, is particularly
+rich in computer installations, both in universities and in business
+firms. Besides considerable correspondence, there has been con-
+sultation with Robert Singleton, Director of Projects for the College
+of Quantitative Studies at Wesleyan University; with Professor W,
+Nelson Francis and collaborators in the American English Syntax
+Project at Brown University; with Philip Chase of the Buxton Leather
+Co. ; and with Russell Leinbach, Vice President in charge of data pro-
+cessing at the Travelers Insurance Company. Through the good
+offices of Mr. Leinbach and of Dr. Thomas Malone, Mr. Leon W.
+Case III of the Travelers has agreed to collaborate with the initiator
+as computer specialist for the project. It is from these preliminary
+studies that the present paper has been written.
+
+The application of the electronic computer to the immediate
+task is essentially simple. The enormous bulk of the Institutes
+
+
+(slightly under 500,000 words in Latin) will be stored on magnetic
+tapes so that many kinds of questions may be propounded to this
+‘memory’, Properly interrogated, the machine will print a com-
+plete alphabetical listing of each word with its immediate context.
+What is more, questions of syntax, of rhetorical structure, of
+meaning itself can be swiftly and directly raised, if the project
+has been duly programmed. Duplicate tapes can be made available
+to interested scholars at cost. The advances in knowledge possible,
+once the magnetic memory is put to use will be remarkable. With
+uncanny speed the computer will search the entire length of the
+Institutes on any point within its grasp raised by the researcher,
+
+III
+
+Although special syntactic and other questions, as has been
+suggested, may be propounded to the resultant tape, the primary
+and general goal of the project is a printed concordance. Concor-
+dances to Latin works vary tremendously in scope and format.
+
+The slightest form is that of an index verborum, wherein the chief
+words are listed with strings of location numbers, but no context.
+Far more useful for the scholar and student, but much more com-
+plicated and costly to produce by conventional methods, is the true
+concordance, wherein each occurrence of each word is printed
+with its context, the four or five neighboring words.
+
+The electronic computer is ideally suited for the production
+of such a concordance, Once the entire text has been encarded and
+transferred to magnetic tape, the computer can be programmed
+to search each word alphabetically and print it with its immediate
+context in proper order. Not only can such a print-out be made on
+conventional paper; duplicating masters can also be made directly
+for multilith or other reproduction. Thus, with a minimum of in-
+termediate steps--hence fewer occasions for error--a very useful
+(if slightly inelegant) concordance can be compiled.
+
+Normally, when such a project is initiated, considerable ef-
+fort must be put into pilot efforts and programming studies. But
+with present knowledge gained from both academic applications and
+varied business uses, it is possible to frame a plan utilizing one of
+the set procedures for sorting offered by the manufactorer of the
+computer to be employed. Certain conventional symbols will have
+
+
+to be agreed upon; it is hoped that these may be based broadly
+enough to apply to a wide range of future concordances, both in
+
+Latin and in other languages, and covering a number of other
+theologians,
+
+The following sections outline (2) some of the anticipated
+problems in preparing a Latin-language concordance by computer,
+and (b) the general technical aspects of constructing such a com-=-
+puter program.
+
+IV
+
+There are certain characteristics of the Latin language which
+impede clear alphabetical sorting and selection of meaningful con-
+texts by machine. In English, plurals of nouns give little trouble,
+except for a few Anglo-Saxon survivals, Certain strong (drink,
+drank, drunk) and irregular verbs (go, went, gone), and the per-
+sonal pronouns afford some alphabetical displacement. The verb
+to be causes problems in western European languages. The Greek
+epsilon, (the imperfect tense prefix) and the general complexity of
+Greek conjugation, for example, would raise greater problems
+probably than Latin, Yet Latin has its share of difficult features.
+
+First of all, word derivation from a common root causes a
+mixing of parts of speech when strict alphabetization is followed.
+This will be an acute difficulty in Calvin because of his fondness
+for the use of related words--verbs, nouns, adjectives, and ad-
+verbs, For example: efficere, effectus, efficax, efficacia;
+appetere, appetitio, appetitus, appetentia. His style abounds in
+abstract nouns (derived mainly from verbs). Thus, in alphabeti-
+cal order one might find:
+
+effectus (noun; perf. pass. s., part. of efficere)
+efficacem (adj. m/f s. accus.)
+
+efficacia (noun, nom or abl. sing.)
+
+efficacibus (adj., dat. /abl. pl.)
+
+efficere (vb. , inf.)
+
+efficiam (vb., 1st s. fut act. ind.)
+
+This example also illustrates in part the anomalies -~alpha-
+betically considered--of the Latin inflectional system. Most acute
+
+
+verbs, where stem changes are often great; and also in irregular
+
+comparison of certain Common adjectives (bonus, melior, optimus)
+and of Corresponding adverbs, Even among comparatively regularly
+inflected parts of Speech alphabetic sorting by entire words will do
+violence to conventional paradigmatic order: reference to such a
+common verb as amare will bear this out.
+
+Beyond these lexical peculiarities are to be found matters of
+a higher order of complexity. Many of Calvin's sentences are long
+and hierarchically organized; clauses are often interlaced in such a
+way that the printing of the near context will not reveal the most im-
+portant aspects of a particular construction,
+
+Finally, Latin does not possess a uniform orthography, The
+Barth-Niesel edition of the Institutes and the Corpus Reformatorum
+edition of Calvin's other works pose little problem here, but com-
+parative studies with other authors will be affected by these variant
+spellings, e.g., ae/oe, i/j, ulv, ct/th, etc. If, at a later stage, a
+concordance to Calvin's French-language writings is decided upon,
+Some conventions with regard to orthography will have to be worked
+out,
+
+Certain arbitrary decisions are here proposed to meet these
+problems of alphabetization:
+
+(1) The irregular principal parts of certain verbs (as
+well as of adjectives, etc. ) will be separately en-
+tered at their normal alphabetic position;
+
+l. The following conventions will be observed in key-punching
+the Barth-Niesel text: a) all material within square brackets in the
+text will be omitted, being replaced by a sign of omission; b) all
+superscripts (letters and numbers) will be disregarded; also all
+parallel lines and marginalia; c) all capitalization will be disre-
+garded; d) all footnotes will be disregarded; e) all non-Latin words
+will be Romanized as pre-edited; f) all words divided between ends
+of line and beginning of next will be carried undivided on first of
+two lines--except when by so doing there is not enough space in
+the first line, in which case the divided word will be typed undivided
+in the second of the two lines; g) all punctuation will be separated
+
+from previous word by no space at all, but from the following by a
+space,
+
+
+(2) Normal paradigmatic order for inflected words
+will not be followed, but each will be listed regard-
+less of form in order of appearance in the Institutes;
+
+(3) Certain common words will be eliminated from the
+Concordance proper, to cult bulk and costs, es-
+pecially machine time and printing.
+
+The computer-influenced portion of our task begins with the
+selection of the character set which will be used in transferring
+the text from its published format to a computer-readable medium.
+The medium selected for this task is that of punched cards. The
+card punch machine imposes certain limitations on the way we may
+transcribe our text to punched cards as it has a rather limited
+character set. This character set includes the twenty-six alpha-
+betic symbols, the ten decimal digits, the period, the space, the
+comma, and a few other business-oriented symbols such as the
+dollar-sign, the percent-sign and the slash,
+
+Symbols found in text materials such as the question mark,
+exclamation point, colon, semi-colon, dash, etc., must be re-
+presented on the punched cards in such a way that they may be en-
+tered into the computer operations and emerge as part of the final
+concordance. Other symbols which do not appear in the Latin
+should not be precluded at this juncture if at all possible. These
+include the hyphen and the normal accents of the western European
+languages.
+
+A scheme has been devised to represent these two categories
+of typographic symbols which may be encountered. The first cate-
+gory is that of punctuation symbols and the second is that of charac-
+ters which are parts of words. By using one of the business-oriented
+symbols as a prefix followed by one of the thirty-six alphanumeric
+characters to represent each of the desired typographic symbols we
+can greatly expand our effective character set. By allocating a
+separate prefixing symbol or symbols to each of the two categories
+mentioned above, we will facilitate subsequent computer processing,
+
+Once the character set has been agreed upon, we proceed to
+the task of prescribing a format for the actual key-punching of the
+
+
+text. To provide protection against misordering the cards durin
+manual processing, each card should have a unique number ated
+into it. This number may be modified during computer processing
+to Provide a cross reference between the concordance and the orig-
+inal text, Again with an eye toward program generality, a ten-digit
+
+card number has been agreed upon. In our present application, the
+digits will be assigned as follows:
+
+Book 1 digit
+Chapter 2 digits
+Section 2 digits
+Page 3 digits
+Line 2 digits
+
+Other punching conventions to be used include the employment of the
+$ to indicate the end of a sentence and the # to indicate an omission.
+Verification of the key-punching is optional and dependent upon the
+reliability of the original key=-puncher,
+
+The next step in processing is to transcribe these cards to
+magnetic tape.
+
+The first computer operation is called the input data edit and
+will perform several functions:
+
+a) Sequence-check the input data on the basis of the ten-
+digit card identifier;
+
+b) Provide notification of any sequence errors and make
+some assumptions (such as, a sequence break indi-
+cates the start of a new sentence) and continue pro-
+cessing;
+
+c) Using the first (five) digits of the sequence number as
+a base, and detecting the beginnings of sentences,
+create a (seven) digit number of the following format:
+
+Book 1 digit
+Chapter 2 digits
+Section 2 digits
+Sentence 2 digits
+
+d) Match each complete word, including rejoined hyphe-
+nated words, against a small dictionary of frequently
+occurring words to be omitted;
+
+e) If the word is not to be omitted, compose a card-length
+record for it by space-filling to the right up to a pre
+
+
+determined size, in this case, twenty characters;
+follow this by the Seven-digit sentence identifier
+being developed; follow this by the context of the word
+Composed of the twenty-five characters Preceding the
+selected word, a Space, the initial letter of the se-
+lected word, a Space and the twenty-five characters
+following the selected word, for a total record size of
+eighty characters. (The 80-character record length
+was chosen because of the frequency of occurrence of
+card length records in Computer applications. This
+will insure that the sorting program normally pro-
+vided by a manufacturer with his computer would be
+usable by our system, eliminating the necessity of
+Creating the most complex program of our system, )
+f) If benefit can be gained by ''batching'' several card-
+length records into each magnetic tape record to hold
+the required number of tapes to a minimum, it would
+be done here and the resultant records be written to
+the output magnetic tape(s).
+
+ 
+
+The next computer operation is the aforementioned sorting,
+whose criterion will be the combination of the selected words and the
+seven-digit sentence identifier. The output from the sorting opera-
+tion will be the basic information for the concordance, a complete
+dictionary, including a frequency count for each word, and a list of
+singly-appearing words for special attention, 2
+
+Printing of the various listings mentioned above would complete
+the computer operations.
+
+It is suggested that Book I of the Institutes be used as a first
+set of data to provide a small-volume representative sample to test
+the whole system. A small list of words to be omitted would serve
+to test that portion of the input edit program as well as to limit the
+volume of data produced and the Computer time necessary to produce
+it.
+
+2. It is possible that words appearing several times within the
+
+text will clarify any such reordering,
+
+
+The project here outlined is a pioneering effort, and cannot
+hope to elicit financial support until at least a representative part
+of the work is done. To this end, the Trustees of the Hartford
+Seminary Foundation have graciously lent a small sum, to be repaid
+as soon as outside aid is forthcoming, to begin work. The under-
+
+signed have drafted the present document after considerable pre-
+liminary studies,
+
+The punching of Book I of the Institutes is currently underway.
+A graduate student in linguistics and history at Hartford Seminary,
+Miss Dora Koundakjian, has been trained in key=-punching technique
+, by the data-processing staff of the Travelers Insurance Co. to do
+this first phase of the task. When this first portion is completed,
+the undersigned will carry out studies looking to the processing of
+the entire book. Plan for future concordance work will be determined
+by the outcome of the present venture.
+
+At the present moment, the undersigned co-workers need the
+following kinds of help: (1) sponsorship and consultation at a high
+ecclesiastical and academic level, (2) financial support for costs
+of key-punching, equipment rental, technical assistance, and sup-
+plies, (3) willingness to donate, or at least to provide at nominal
+cost, computer time, (4) assistance in publishing the concordance.
+No one organization or individual can offer all four sorts of help,
+but all interested can assist in one way or another,
+
+Leon W. Case III, B.A. Ford Lewis Battles, Ph. D.
+Computer Analyst Schaff Professor of Church History
+The Travelers Insurance Co. The Hartford Seminary Foundation
+
+Translator of Calvin's Institutes
+
+4 July 1964
+
+

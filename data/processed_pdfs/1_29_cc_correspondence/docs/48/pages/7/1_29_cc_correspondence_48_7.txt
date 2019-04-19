@@ -1,0 +1,21 @@
+APPENDIX IIX
+
+ONEXT  Solve matrix equation Axe D'y, when Ax< b has been solved by MIDPME.
+1. This routine provides a large s&ving in time when solving for & new
+-a&nd side, Calling sequence is same as for MIDFNE except that X must
+
+contain TSX DNEXT, 4, Resnlto, error stops, etec., are all the asanme s NIDPME,
+
+2+ NIDPME writes {ive records on NI-NINE: @, &,D, N, I-MA. D is the first
+the other letters ere expleained in the main writeup,
+Upon exit from Wes, NMT-NINT is vositioned to read A ss the next rscord.,
+
+fhis is for convenience of user. who &y went to resd in A by BLINS; the
+
+MADS Qe oy : ¥ = a2 e 2w S a adt A» d 2 ;“r\?’u
+..\\\t‘\».a:\ Vil L VI A S W - - s\k‘e .A.11 W S .
+
+reads in I-NA and starts iterating, The paris of NIDPAE thet form nd
+*heck I-AN gre akipped, thus saving considerable time. DNEXT restores C on
+eX1t, Ddut since it uses the bdlook written by MIDRVE, changes in C between
+use o' NIDPNE and DNEXT will be lost,

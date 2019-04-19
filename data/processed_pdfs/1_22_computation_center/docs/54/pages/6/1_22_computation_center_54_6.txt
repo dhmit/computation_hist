@@ -1,0 +1,56 @@
+M.I.T. Computation Center Page 6 of 10
+Title of Position: ELECTRONIC DATA PROCESSING MACHINE HROGRAMMER
+
+DESCRIPTION
+
+There are several grades of programmers in an electronic datas processing installation.
+The highest or Grade I programmer is referred to a&s a senior or professional progranmer.,
+This person may program the most difficult problems or he may formulate block diagrams
+
+and flow charts from which others may write the instructions or machine code. The
+
+lower or second-grade position is usually refereed to as a ‘programmer'’. The job
+description for programmer is the same as for the prefessional programmer except for
+the degree of competence.
+
+A third-grade level of programmer may be called & ''trainee programmer or coder’ .
+
+This person usually works under the direct supervision of a programmer or & professional
+programmer, respectively. He is expected to write the actual machine instruction for
+2 program from the block diagram prepared by the professional programmor
+
+DUTIES
+
+1., Assists in the preparation of the msthematical statemnt or systems study of the
+overall problemn.
+
+-2. Prepares the logical diagrams of the proposed EDPM procedure.
+
+3. Assisis in the review of the logic ~-- this involves a careful study of present and
+propesed procedures with all those currently involved in the present operation.
+
+4, Preperes a machine block diagram which is a statement of the solution of the
+approved logical diagram expressed in machine language.
+
+5. ©odes the procedures in the machine language. In effect s expresses the solution
+of the problem in the particular machine languasge under congideration.
+
+6. Frepares a test solution which 1s used in checking the program on an EDPY machine.
+7. Pexforms the actual machine testing of the EDPM program on the machine.
+
+8. Prepares a complete write-up of the problem -- including machine cperating
+instructions, a list of machine stop codes, and an explicit set of instructions
+for emergency operations.
+
+QUALIFICATIONS
+
+1. Educational Background: high school education or eguivalent. Since programming
+is a precise and logical operation, a college education and a knowledge of
+mathematics is desirable; However, it is not esseniial. EAM experience is helpful
+but not essential.
+
+2. Natural Ability and Aptitude: a number of aptitude tests have been developed to
+measure the lildihood of success in the progz uming field. A suitable aptitude
+test will be used to select candidates in this field.
+
+il

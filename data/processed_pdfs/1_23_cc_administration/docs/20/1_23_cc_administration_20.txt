@@ -1,0 +1,82 @@
+BITCC-6 H.l.T., Computation Center
+Hinutes of March 13, 1956 Meeting
+
+ 
+
+J Persons Present: D. N. Arden G. T. Bunter P. H, Horse
+/@ Ai F. B. Hildebrand  B. Rankin F. H. Verzuh
+
+A brief discussion was held regarding the termination plans of the
+Whirlwind Computer. _ The need for informing current users of Whirlwind of
+the exact date at which the facility will no longer be available to them
+was emphasized. Verzuh discussed the request made by Douglas Ross, Servo-
+mechanisms Laboratory, regarding the need for the Whirlwind Computer with
+particular emphasis on the input-output equipment, such as the intervention
+register, direct {lexowriter keyboard connection, MI instruction, etc.
+
+At The me®ting on Monday, March 12, Ross indicated that two contracts with
+the Air Force (VADC) amounting to.some $500,000 during the nezt fiscal period
+ave entirely dependent on the availability of the Whirlwind Computer. As
+
+a matter of fact, Ross indicated that if the Digital Computer Laboratory were
+to release Whirlwind prior to July, 1967, he would be interested in making
+some arrangement with Lincoln to continue its operation for the M.I.T. family.
+It was agreed that Whirlwind would be available Gizouge June, 1957 on a
+tapering-off basis. 7
+
+Verzuh suggested that the exact date for terminating operations at
+Whirlwind, its utilization by M.I.T. after the 704 arrives, its final
+disposition, etc., be discussed at the next meeting of the Machine Computation
+Commitiee which will be held later this month. In the meantime, Verzuh would
+alert Dr. Forrester regarding this matter in order that more definitive
+answers regarding Whirlwind may be soon forthcoming.
+
+Professor Hildebrand inquired regarding procedures for applicants from
+the Hath. Department for the IBM Research Assistantships. He presented a
+folder from Mr. Paul Abrahams and stated that the Mathematics Department
+considered Abrahams to be an outstanding applicant. It was suggested. that
+Hr. Hershenov and H. J. Weinitschke, currently assistants on Project 6915,
+should apply for the IE Assistantships. Since applications are due on
+
+_,.. JHarch 15, actual decisions regarding appointments will not be made until
+later this month.
+
+ 
+
+ 
+
+Verzuh discussed the status of the floor plans of the M.I.T. Computation
+Center, efc., which were worked on on Wednesday, March 7 -~ Friday, March 9.
+At that time, location of partitions, electrical outlets, blackboards, etc.
+vere submitted to Skidmore, Owings, & Meriill. Mr. Carl Peterson will spend
+Wednesday, March 14, in New York City to obtain answers to some eight critical
+questions regarding the air conditioning equipment, floor substructure,
+power supplies, etc, Dr. G. T. Hunter will algo be in New York at that time
+to present IEM's point.of view on these plans.
+
+Hunter reported that IBM has received 150 applications for the l0-week
+educational program which is. being held in New York City. Obviouslya number of
+rejectionswill have to be made because of the limited possible attendance.
+
+
+HITCC-6 page 2 of 2 pages
+
+Horse stated that the computation center will have considerable
+independent stature since it will be able to appoint research assistant
+and assccicteships without recourse to departmental affiliation -- "it will
+do everything except award degrees’. He briefly described the method of
+financing some of the operations within the center and stated that he had
+submitted a M.1.T. budget to Prof. Stratton for the forthcoming fiscal period.
+
+Since Hunter expects to spend Wednesday, March 14, in New York City,
+Verzuh asked him to check on the availesbility of the Proceedings of the third
+SHARE meeting, Distribution #%s 1 - 11, respectively, as well as other
+information regarding UAC SAP program. |
+
+The next meeting of this group will be hotd in Room 6-109 at 2:00 Pele
+on Tuesday, March 20, 1956.
+
+- . F. M. Verzuh
+FMV:nb March 14, 1956
+
+

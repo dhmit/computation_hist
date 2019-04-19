@@ -1,0 +1,83 @@
+WORDS
+
+ISND
+
+ 
+
+ 
+
+ 
+
+TSX SUBR, 4 TSX
+PZE ARG1 IITHER PZE
+| . —
+PZE ARG2 PZE
+OR y CALL
+
+CLA X CLA
+ToX SIN,4 ———> TSX
+STO SNX STO
+LDQ SNX IL.DQ
+FMP SNX KFMP
+TSX SQRT, 4 ——r—— TSX
+STO SQZ STO
+BCD A > WORDS RBCD
+
+Blank in
+
+columm 12
+
+means SAP
+
+generates
+
+10 words
+DEC 2.0 ) DUP
+DEC 2.5 _QQ DEC
+OCT 226117114332 DEC
+REP 5.2 CCT
+TRA N+1,4 TRA
+Ben 0 .} = SUEND
+1“ND
+
+B¥SUBR,4  where ¥ followed by symbol
+
+ARG indicates ga name that
+should be entered in the
+
+ARG?2 transfer list
+
+SUBR,ARGI,ARGZ SUBR will be entered
+
+in the transfer list
+automatically and
+the proper calling
+Sequence generated
+
+X
+
+SSIN,4 or CALL SIN
+
+SNX
+
+SNX
+
+SNX
+
+ﬁSQRT,M or CALL SQRT
+
+SQZ,
+
+O In FAP a zero in column 12
+1s used to generate 10
+vords
+
+Dl
+
+25
+
+2.5
+
+226117114112
+
+N+1,4

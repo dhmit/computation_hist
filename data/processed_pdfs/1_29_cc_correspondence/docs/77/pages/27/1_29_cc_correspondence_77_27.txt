@@ -1,0 +1,40 @@
+o
+& B
+5 o ¢ /
+5 'é . received had the DUP not occurred, (i.e. the values they
+; % i? have during the first iteration of the DUP), and are not
+multiply defined. When the asterisk is used as a symbol,
+it is redefined during each iteration of the DUP. This
+gives a very powerful method of generating tables. Tor
+example:
+LOCATION OP VARIABLE FIELD
+TL DUP 110
+VFD 20/**100-T1*100,16/T1
+is equivalent to
+DUP 1,10
+Tl VFD 20/%%*100-T1%100,16/T1
+which is equivalent to
+Tl VFD 20/0,16/T1
+VFD 20/100,16/T1
+VFD 20/200,16/T1
+VFD 20/300,16/T1
+VFD 20/400,16/T1
+VFD 20/500,16/T1
+VFD 20/600,16/T1
+VFD 20/700,16/T1
+VFD 20/800,16/T1
+VFD 20/900,16/T1
+REM The REM (remarks) pseudo-operation is used to enter comments
+into the assembly listing. The contents of the REM card are
+copied onto the listing (except for the letters REM which are
+replaced by three blanks) and the card is otherwise ignored
+by the assembler,
+* (Remarks)
+
+A card containing an asterisk in column 1 is taken as a
+
+"remarks' card. Its contents are copied onto the assembly
+
+listing and the card is otherwise ignored by the assembler.
+
+-25-

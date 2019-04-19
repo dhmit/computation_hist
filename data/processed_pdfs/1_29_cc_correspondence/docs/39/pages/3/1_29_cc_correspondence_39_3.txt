@@ -1,0 +1,20 @@
+8. Section D and E
+
+During the second quarter we have completed production runs for the
+following parameters:
+
+M=2 all values of RHO
+
+M= g 0 e "o
+
+=8 M 1" "o
+
+]/2: 3]/2/ 2
+
+for two values of C: 2
+
+ 
+
+We are now trying to modify the program so that the case M = 1 can
+
+be run and the sum of Q be computed analytically.

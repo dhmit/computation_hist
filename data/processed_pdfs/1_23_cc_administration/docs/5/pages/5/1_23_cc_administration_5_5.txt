@@ -1,0 +1,117 @@
+and
+
+AN
+
+DTN 1 [ap o2 o 4 ) BT et N ey i)
+--r)-u' L 1 v..f".. 4 "." 1\.’..’ & v o= .S i\_‘~ L .;' U adL “
+
+o i e
+o h . . e 1 am e ey vy €
+e Tunescion varianlas,
+
+P~
+
+"
+
+r '-‘. N - J—.ﬁ ofe ~ . T 2- 4 - - . o
+afine svatemencs 1 a PIrOoFIT
+
+13‘31} O.: a s
+if and only if each of the function variables con-
+&5
+
+$o the compiler
+structed in the set is uniquely and explicitly defined.
+
+Thus the set
+2
+DFN #f(x) =x + 1
+DIN f£(y) =3 ° ¥
+
+s illegal since £ is not uniquely defined, the set
+
+P
+
+B
+@
+b
+t—:.'
+2,
+{\;‘)
+E,
+T
+b
+0
+€]
+@
+cr
+
+is illegal since f is
+
+2 i 2lis D nmA m > e v
+js illegal since £ and g are 1.mplLicl
+
+r . 9 i 1 “} e ~ ™) oo e s - 1 3 8 e A "o vy b= 3
+The compiler Wil.il teanglate each define svatoment 1hNtO £
+- o - ~ th . - - e B} - - o .: - b - - ! 4 ™
+closed subroutine which will evaluate the funcvion WOSNEVRIT Ly 45
+OF (CHREITITROIN S T
+Lo Ay ™ v A 2 - - & o ded Ve =) “ ~ Ao o e :
+sxecuted, The symbol used to identifly the function, 1c8e, L, Wili
+
+& .
+&= ey - e - b 3 4 - - ™ ofe 2 7 “." ~y “ oy “pe = - -~
+be reserved as a symbolic address designating the entyy poinv OL
+
+OOl
+
+¥
+2
+
+ 
+
+e ~ 1 \ - il - - $e i 9. .1 o " F= o4 - o wrrm 1 oo e
+o, - ”~ - «guln e . - ’ r~ Py - - v la oy w ~ - \ ”~ y - -~ p 1 o
+compiled subroubtlne. LN1s means Lid ha Tunction can & evaludwv
+¢ m
+» - - @ . . &~ — . ~)
+o~ o ~e - - - .-y e o~ . - el e ey
+hy a machine i1nstruculion OL the form
+o
+oy o
+Sih e ‘.’.
+M- ion o3 A mnds wnedahlag TTOlLYVE 2 Zem ha AP to e
+PRCS, =t .‘v..\l-f,e.T."'.' .,‘.l(é. 2L O oA DL LLLY ULV GG LIl ¢ WU SLANLLLOL s
+-
+iy -y e v . .nt -] ': - ~ 0N 1N " e O ~ TV ~~ - N h’i‘ T ote? ~ " ;» -~ '-,C._-‘-\-,?r-} N T /‘1 i -l.—s &1 .‘-,
+L 10 4 ()" WLAL Q0NN po L L0 e AL T)l-'-.(. AR LELrs LOA AT COL LT OV LA, LA
+— "1~ ™. » TS TS OST ..‘_,..‘,..t‘ deon M ”'Ll o 1 Y v ""."'T"V . '7 ATISY T J",.N_".".‘.A oy l
+S .‘ J A .‘.l\: « '__f__'.u - (3 QSIS S /‘T\.I.L e A A W .!,:‘,J.(./L. I‘ i 7 .L. LD UL LANe (l--( P A AN A B & H i) L8 o S8 K ir.
+2 = .
+Pl e AN TR ey vt Fine tha ¢ mhay 19 ¢ o ] (e C1 S o 2
+LG 1 MR nES DY VWL TLILE LIS OYIHIUULLL CGlllis oo
+Wk e - .) o/ . »
+) %
+Lt LTS,
+M - ~ -~ $a s e A 1 T N e - e ola 3o ’ - - . o - 1 L - .l
+pae OXd 'l L1 . ne arguneils i TRAS NOoTALLAOL g e Salie 1
+~ — 2 L et . ot oy - 5 > . g an
+DENE (g 2 el DL nea 1 CLlS L2 L1l L UL LIAL CLLlil LLisS )(
+- g
+y - - Y % 19 ' 1 YY1 ¢ r Y ' " 2 t
+“3 .'-:'“l | 4 | SRR < i 3 il LIV i r -] 18
+& >, . - > e alee . ) B B b
+- . ) -~ R N T 71 o .
+' ( { .: ¥} 051 ’y i1 3 B} 11041 LR { i
+- - - ’
+. - - - ~ ’ - . - ' 1 -
+: \'. L i J » l, v -.‘ - &d ) & - o oe B A ‘
+- -~ "1 ’ , - ) ) 1 Ny 4 { - 1
+e . \ ) y = \ | ) ) 5 J L
+2 r ) -
+-y ! 3 = ] \ 4 . -
+b - - -~
+T - i . .‘ 1 ™ []€ - Y | %
+¥ e
+
+m will be acceptable

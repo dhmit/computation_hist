@@ -1,0 +1,32 @@
+April 20, 1961
+
+Mr. R.D. Magon, Jr.
+
+Operations Evaluation Group
+
+Operations Evaluation Division |
+0ffice of the Chief of Naval operations (OPOJEG)
+Navy Department ' ‘
+Washington 25, D.C.
+
+Dear Mr. Mason:
+
+1 am sending & problem mncation form of the Computation Center at M.I.T.
+When I submitted the test run which 1 am enclosing, it took ebout 6.5 minutes.
+This should .help you to estimate the total time.
+
+‘1 asked the Industrial uaugent Office about seat reservetions. Unfortunate-
+1y tickets for both the Sth and were all gone but, I was informed that we
+may be able Lo £ind vecant seats if we g0 theve early. :
+There is no difference in {nstructions between the 706 and the T09 program
+of the G@S. 7You can make data cards according to the instructions in the
+"mech, Report 15", '
+
+Yours truly,
+
+Shinji Kataocka
+Operations Research Center
+
+8K: sy
+
+Enclosure

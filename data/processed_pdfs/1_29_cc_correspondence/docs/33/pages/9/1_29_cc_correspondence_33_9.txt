@@ -1,0 +1,32 @@
+In addition, the programmer can use the followlng legical
+numbers for perscnal tapes with his program:
+
+S . — - e .-
+
+A5 5 ciidD
+B5 - 10
+
+VI, Case Studies of 704 to 709 Transitions
+To assist programmers in preparing programs for the 709,
+a serieé of the more common situations will be analyzed. These
+case studies which have been prepared by Miss Mar jorie Merwin
+of the Center Staff do not exhaust all the possibilities but
+should serve as a guide to the factors which must be taken into
+account. Any conversion problems that do not appear to be
+covered here may be discussed with Miss Judy oSpall of the Center
+Staff (Room 26-15%, Ext. 4114).
+In the following examples, an arrow indicates a change
+because of the transition.
+A. TFortran Source Language Conversion
+No ma jor difficulties in conversion from the 704 to
+the 709 confront the Fortran user whose decks are completely
+in Fortran Source Language. In general, only a recompillatlon
+1s necessary.
+IFor efficlent running within the FMS Monitor OLystem,
+it is advisable to prepare the proper Monitor cards and revise
+the source program for complete tape-to-tape operation.
+
+1. The present END card should be replaced by
+one with only END on it, and the Monitor
+
+control card LIST shouldiprecede each source

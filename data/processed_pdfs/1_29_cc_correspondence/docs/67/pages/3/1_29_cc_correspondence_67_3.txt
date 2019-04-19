@@ -1,0 +1,44 @@
+¢) On one or two
+as followe:
+
+Section A:
+Section B:
+
+Section C:
+
+ 
+
+ 
+
+CC?"& ° 3
+
+Supervisor's Signature
+
+Page 3 of 3
+
+additional sheets write sections A, B, C, D, E and F
+
+A one-paragraph abstract of Section B and C.
+
+Complete description of problem background which
+should give a2 complete picture to someone well
+acquainted with the relevant field of research.
+Give references to earlier or related work and
+indicate relation to this work.
+
+Description of numerical and computer techniques
+
+used, and justification of their adequacy or indication
+of how adequacy was determined, This description
+should include, when pertinent, the number of signifi-
+cant figures accuracy required at warious stages of the
+calculation and the ranges and values of the quantities
+involved in sufficient detail so that program complexity
+may be ascertained. In additiom, indicate how you
+tested the programs and whether you have test cases
+available.
+
+Signature:
+Ingtitution:
+
+Date:

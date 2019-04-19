@@ -1,0 +1,49 @@
+operations are provided by the assembler for the introduction
+of data words and constants into the program, but often this
+introduction is more easily accomplished by the use of a
+literal. A literal is a subfield of the variable field which
+says to the assembler, "Here is an item of data. Set aside
+
+a memory location at the end of the program, place this item
+in it, and let this portion of this instruction refer to that
+
+t
+
+location.' There are three types of literals: decimal, octal,
+
+and Hollerith.
+
+A decimal literal consists of the character =" followed by
+
+a string of characters which represent a decimal number. (The
+decimal number may be an integer, a fixed-point number, or a
+floating-point number. See the description of the DEC pseudo-
+operation below for the rules of formation for decimal numbers.)
+
+Thus the instruction
+
+LOCATION OP VARIABLE FIELD
+
+MPY ==3
+
+means, 'Multiply the contents of the MQ register by the number
+-3." (I.e., "Multiply the contents of the MQ register by the
+contents of a cell whose contents are 4000000000038.")
+
+An octal literal consists of the character '=", followed by
+
+the letter O, followed by a (signed or unsigned) octal integer.
+
+Thus the instruction
+
+LOCATION OoP VARIABLE FIELD
+
+ANA =037
+
+means, Clear all but the last five bits of the accumulator,
+
+but leave the last five bits unchanged."
+
+A Hollerith literal consists of the character ''='", followed
+
+by the letter H, followed by six characters of Hollerith

@@ -1,0 +1,63 @@
+January 31, 1958
+
+DSR-#6345
+Contract NSori-60, Task Order I 6915
+
+STATEMENT OF WORK
+
+¢ (A) The work to be performed by the Contractor hereunder shall con-
+(6/30/145) sist of Phases 1 and 2 of four (4) phases of the project described
+in "Specifications for Project RF-12; known as WHIFLWIND, dated
+October &, 1945, revised March 20, 1946", as follows:
+
+- Phase 1 - The Contractor shall furnish personnel and facilities
+mmcmswummmmmm-
+gation of electric circuits, Video amplifiers, electrostatic
+storage tubes, electronic mmuummmu
+digital computation and the adaptation of problems to this method
+of seolution.
+
+ 
+
+Phase 2 - mcmmmm-hmm:-pemlu
+mu-umuupmmcueuem aireraft
+analyser based on the results of Phase 1 of this Tesk Order.
+
+(B) It is understood end agreed that, although the cification
+referved to in Section (A) hereof covers four (W hages of
+the work in commection with the WHIRLWIND project, no provision
+has been made in the estimated cost or the fixed sum to cover
+the portion of the specification spplicable to the third and
+fourth phases of the work which relate to the construction,
+aseembly, housing, operation, or preliminory testing of the
+electronic computer and aircraflt analyzer.
+
+Amendment No. %
+
+(1/21/48) 2. Delete Section (A) in ite centirety and substitute in lieu
+thereof the following:
+
+"(4) The work to be performed by the Contractor hereunder ghall
+cousist of combined Phases I and II of four phases of Project
+2heX-3 (formerly Project RF-12) in accordsnce with “Specifi._
+ca.tions for Project RE-12, known as WHIRIWIND, dated October
+
+b, 1045, Revised March 20, 104L6", and eny instructions issued
+by the Technical Officer, as follows:
+
+"Ccaibined Phases I and II: The Contractor shall furnish the
+necessary personnel and fecilities for and shall undertake (i)
+the investigations involving electric circuits, video amplifiers,
+electrostatic storage tubes, electronic switching, mathematical
+studies of digital computation, and the adaptation of problems #8
+
+this method of solution, (ii) the design end construction of
+& Digital Computer and studics for applying the computer to an
+Alrcraft Analyser based on results obtainmed from the foregoing,
+and (iii) shall furnish complete sets of drawings usediin the
+construction of the sbove coamputer, reports setting forth the
+design and gperation of all components of the camputers, reports
+setting forth the results of studies of the application of the
+computer to an airceraft analyzer, and recoxrds of results of all
+tests on individual components and assembled components conducted
+up to April 1, 1949,"

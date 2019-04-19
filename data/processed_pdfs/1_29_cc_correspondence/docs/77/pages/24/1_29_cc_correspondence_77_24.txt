@@ -1,0 +1,55 @@
+BCD
+
+ 
+
+ 
+
+The BCD pseudo-operation is a hold-over from the 704 "SAP"
+assembler and is supplanted here by the BCI pseudo-operation.
+The BCD pseudo-operation is exactly like the BCI except
+
+that the word-count always appears in column 12 and no sep-
+arating comma is used (i.e. the second subfield starts in
+column 13). A zero in column 12 specifies the generation
+
+of ten words.
+
+The VFD (Xgriable field gefinition) pseudo-operation is
+used primarily for the generation of tables for use with
+the 709 ''convert'' operations. Each VFD pseudo-instruction
+generates exactly one machine word, but the subfields of
+the VFD generate variable numbers of bits. Thus the basic
+unit of information in this case is the individual bit,
+The variable field of the VFD pseudo-operation is composed
+of a variable number of subfields separated by commas.
+Each subfield is of one of three types. These are symbolic-
+expression, octal, and Hollerith (i.e. BCD). A symbolic-
+expression subfield consists of a decimal integer giving
+the length (in bits) of the subfield, the character "/"
+and the symbolic expression (possibly a decimal integer)
+whose value is to occupy the bit-positions indicated.
+
+The expression is evaluated according to the rules for
+
+the evaluation of expressions except that only the right
+
+n bits are used, where n is the specified bit-count.
+
+An octal (Boolean). subfield consists of the letter "O",
+followed by a decimal integer specifying the bit-count,
+followed by the character '"/'", followed by the octal integer
+or Boolean expression to occupy the bit-positions indicated.,
+A Hollerith subfield consists of the letter "H' followed
+
+by a decimal integer specifying the bit count, followed
+
+by the character '/", followed by the BCD characters to
+
+be converted (six bits per character) and placed in the
+
+bit positions indicated. Any valid character except comma
+or blank may be used in a Hollerith subfield. The variable
+
+field is terminated, as usual, by the first blank. The
+
+3D

@@ -1,0 +1,72 @@
+January 31, 1958
+
+DSR-7#6345
+
+Contract N5ori-60, Task Order I 6915
+
+STATEMENT OF WORK
+
+Contract:
+
+(6/30/45)
+
+Amendment No. U4
+
+(1/21/48)
+
+(A) The work to be performed by the Contractor hereunder shall con-
+
+(B)
+
+"(A)
+
+sist of Phases 1 and 2 of four (4) phases of the project described
+in "Specifications for Project RF-12; known as WHIRLWIND, dated
+October 4, 1945, revised March 20, 1946", as follows:
+
+Phase 1 - The Contractor shall furnish personnel and facilities
+and shall construct a small digital computer involving investi-
+gation of electric circuits, Video amplifiers, electrostatic
+storage tubes, electronic switching and mathematical studies of
+digital computation and the adaptation of problems to this method
+of solution.
+
+Phase 2 - The Contractor shall furnish hereunder personnel and
+facilities and shall design an electronic computer and alrcraft
+analyser based on the results of Phase 1 of this Task Order.
+
+Tt is understood and agreed that, although the specification
+referred to in Section (A) hereof covers four (4) phases of
+
+the work in connection with the WHIRLWIND project, no provision
+has been made in the estimated cost or the fixed sum to cover
+the portion of the specification applicable to the third and
+fourth phases of the work which relate to the construction,
+assembly, housing, operation, or preliminary testing of the
+electronic computer and aircraft analyzer.
+
+2, Delete Section (A) in its entirety and substitute in lieu
+thereof the following:
+
+The work to be performed by the Contractor hereunder shall
+consist of combined Phases I and II of four phases of Project
+2h.X-3 (formerly Project RF-12) in accordance with "Specifi-_
+cations for Project RE-12, known as WHIRLWIND, dated October
+lk, 1945, Revised March 20, 1946", and any instructions issued
+by the Technical Officer, as follows:
+
+"Combined Phases I and II: The Contractor shall furnish the
+necessary personnel and facilities for and shall undertake (i)
+the investigations involving electric circuits, video amplifiers,
+electrostatic storage tubes, electronic switching, mathematical
+studies of digital computation, and the adaptation of problems to
+this method of solution, (iis the design and construction of
+a Digital Computer and studies for applying the computer to an
+Aircraft Analyser based on results obtained from the foregoing,
+and (iii) shall furnish complete sets of drawings used in the
+construction of the above computer, reports setting forth the
+design and operation of all components of the computers, reports
+setting forth the results of studies of the application of the
+computer to an aircraft analyzer, and records of results of all
+tests on individual components and assembled components conducted
+uw to April 1, 1949,"

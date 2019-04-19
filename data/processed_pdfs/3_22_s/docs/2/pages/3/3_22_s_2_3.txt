@@ -1,0 +1,41 @@
+SUMMER, 1962: NSF INSTITUTE IN NUMERICAL ANALYSIS, UCLA
+
+%ntrgductign to Programming, with Laboratory with Mr. Brown and Prof. Hollander
+grade - A
+
+Texts. "IBM Reference Manual, 709/7090 Fortran"
+McCracken, "A Guide to Fortran Programming”
+
+Elements of Numerical Analysis with Dr. Henrici (grade - A)
+Text: Henrici, "Elementary Numerical Analysis”
+
+Matrix Computation with Dr. Ortega (grade - A)
+Texts: Wilkinson, several papers
+Ortega, lecture notes
+
+Special Studies in Numerical Analysis with Dr. Henrici (grade - A)
+Text: Stiefel, Henrici, Rutishanser, papers from NBS Applied Math.
+Series no. 49
+
+Numerical Methods of Approximation with Dr. Cheney (no grade)
+Text: Cheney, lecture notes
+
+FALL, 1962
+Stochastic Processes with Dr. Babbitt
+
+Text: Parzen, "Stochastic Processes"
+
+Numerical Methods of Approximation with Dr. Lawson
+Text: Hildebrand, "Introduction to Numerical Analysis"
+
+Advanced Calculus I with Dr. Taylor
+Text: Taylor, “"Advanced Calculus"
+
+Probability I with Dr. Steinberg
+Text: Parzen, "Modern Probability Theory and its Applications®
+
+Variational Methods in Engineering with Dr. Kalaba
+Text: Weinstock, "Calculus of Variations"
+
+Ordinary Differential Equations, independent study
+Text: Coddington, "An Introduction to Ordinary Differential Equations”
