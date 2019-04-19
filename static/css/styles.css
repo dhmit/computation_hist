@@ -9,6 +9,14 @@ body {
     margin-bottom: 120px; /* Margin bottom = footer height */
 }
 
+h1,h2,h3,h4,h5,h6,.navbar {
+    font-family: 'Acre-Regular';
+}
+
+h1,h2,h3,h4,h5,h6,.navbar-brand {
+    text-transform: uppercase;
+}
+
 .footer {
     position: absolute;
     bottom: 0;
