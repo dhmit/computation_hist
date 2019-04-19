@@ -1,33 +1,36 @@
-RO TIVETE, 38 T AP W - L O
+Memorandum
 
-. LR T Y
+March 22, 1961
 
-=Wt
+TO: Professor P. . lorse
 
-sxazdteuy aysg o3 diay
-uwotqoedsur eyl3 J0J pealsses oq [1iae Jezdisuy eoyy uodn sweyqead Iuijizes Jo
-poug el oyy pus sgusucdwoo Jeoqndmod [¥N309 O] JO UOTTSNOSTP peliwyel
+FROM: E. e Verzuh
 
-esuoyasotydds xj9Yyy Jo omos
-pus seufyosu (e3Yrp-do(wus JO IpuW eq (1Ia wopjuem ‘Ayywurd <Lxgsnpuy
-Ul pelejungous Ajjuenbes’ esoyy Ljasinojgqaed - - geziysuy (eijueseitd
-eY3 U0 POATOS Tedq SGABY YoTym suweiqesd Jo sedfy eyy Jo owos Jo UWeATH
-®q [ITA UOTESNOSTP ¥ °*Pelsacd a9 1Ts *938 ‘Aoninode erquqoesd ‘uoigstede
-Jo peeds *F*s ‘SUOTLERTWI] PuUB S0T3S8TIe30vaByYD [2018Ayd jueutryteg °peucT]
--usll 84 TIIM *230 ‘sJ039v]elI00 ‘Soulyowu worjenbe snosuvjINWIS oyy €w yons
-s1eynduwed Foywue esodand-7eiveds jo sediy snotaea ‘uUorlIpp® ul e*siszduvue
-18T 0eIa TP Jo seddy snofawa eyjy uwe siswydwe asynotgded ysim uears
+e e,
+N i b w—— ————.
 
-8q 11Ia szegundwoo Jeyeuw Jo sejdroutsd 01e8q Y3 JO WOTSSNOSTP ¥
+BE: e Industrial Liaiaéaﬁccnforonco on lachine ¥ethods of Computation -
 
-«A13snpul Uy SJIejnduo) JOTeUy JO OT0N oui 19731l pesedoay
+Proposed Title: The Role of Anslog Computers in Industry.
 
-“I861 °p A o—
-T Tetagsnpay | md
+A discussion of the basic principles of analog computers will be
+given with particular emphasis on the various types of differential
+anelyzers. In addition, various types of speoisl-purpose analog computers
+such a8 the simunltanecus equation machines, correlators, ete. will be men-
+tioned. Pertiment physiocal characteristics and limitetions, e.g. speed of
+operation, probable agecuracy, ete. will be covered. & disouszion will be
+given of some of the types of problems whlch have been solved on the
+pifferential Anelyzer - - particularly those frequently encountered in
+industry. Finally, mention will be made of snalog-digital machines and
+some of their applicstions.
 
-ynzies °A *A IOHL
+Detailed discus:zion of the mctual computer components and the method
+of setting problems upon the Anslyzer will be reserved for the lnspection
+trip to the Analyzer.
 
-BSJ0) °F *J J0989301J 101
-18681 ‘22 woaxwy
+Sl )Rkl 1)L
 
-N PRSI0
+L
+
+’ o 1" o . B i s At vt
+:.'.;\5})&!‘- o B3 BS54t 3

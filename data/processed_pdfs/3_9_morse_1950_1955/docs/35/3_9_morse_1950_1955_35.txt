@@ -1,38 +1,36 @@
-ERO
+Memorandum
 
-SL ERT ANTS
+March 22, 1961
 
-“Wl
+TO: Professor PF. ll. Morse
 
-sxazATeuy ayy 05 diay
-uotqoedsur oyjy J0J pealsset oq [Iie Jezdisuy eyy unodn sweyqexd Juries Jo
-poug el oyy pus sgusucdwos Jeoqndmoo [¥N30V OY] JO UOTTSNOSTP peyieyel
+FROM: Fe Me Verzuh
 
-ssuotaeor(dde xy79Yyy Jo ouwos
-pus seugyowu (esrdip-loyeus Jo epuw eq (Ta Woyjuem *Ayymuii «Lxgsnpuy
-ul petejuncous Ajjuenbes? esoyy Ljasinoijgaed « « Jeziysuy (eijuesejitd
-Yj U0 POATOS Wey SABY Yorum suweiqesd Jo sedfy eyy JO owos Jo UeATH
-8G [ITA UOTESNOSIP ¥ °Palsadd aq 11a *0q8 ‘Lowanode arqwqoed ‘uoigssede
-Jo peads *F*e ‘SUOTLERTWI] PUB S038 TIe30vaABYD [201sAyd jueurzteg °peucI]
-<uUsW oq TIIM *230 ‘si03vieli00 ‘Souryowu Worjenbe snosuvjINWIS 2yy Sw yYosns
-stejnduwed Joywue esodand-1uiveds jo sedis snotaea ‘uUoplIpp® ul e°sisziysue
-1ST IaZITP Jo sedi] snofasa eyjy ue siswydwe asynotgded yyw wears
+a
+Nt in wt dr w——— ————
 
-oq 1114 sxejndwoo Joyeue Jo sejdroutad oiveq oyl JO WOTSSNOSTP V
+BE: ” Sudusbrial | Liaison Conference on Machine Methods of Computation -
 
-«AI3SNpuU] UY SJIejnduo) JOU JO O10N oui :9731l pesedoay
+Proposed Title: The Role of Anslog Computers in Industry.
 
-“1861 °23 Avy a
-~- wotyeynduo) Jo SPoOYLen SUTUIWH UO Oe 0 ue) WRSTRLY YSLaRsupay J tHE
+A discussion of the basic principles of analog computers will be
+given with particular emphasis on the various types of differential
+analyzers. In addition, various types of special-purpose analog computers
+such as the simultaneous equation machines, correlators, ete. will be men-
+tioned. Pertinent physical characteristics and limitetions, e.g. speed of
+operation, probable agecuracy, ete. will be covered. 4 disocuszion will be
+given of some of the types of problems whlch heve been solved on the
+Differential Anelyzer -~ - particularly those frequently encountered in
+industry. Finally, mention will be made of snalog-digital machines and
+some of their applicstions.
 
-~~
--
+Detailed discussion of the actual computer components snd the method
+of setting problems upon the Analyzer will be reserved for the lnspection
+trip to the Analyzer.
 
-ynzaes *% oq THO
-OS JOY °F °*J J09S9J0LJ 101
+SIL pole
 
-18681 ‘22 uoxey
-
-WN PT RIOWSY
+: i a - ” tay a aloha
+x wo ft anh, rahe tir A U2 Ua Tiles A
 
 
