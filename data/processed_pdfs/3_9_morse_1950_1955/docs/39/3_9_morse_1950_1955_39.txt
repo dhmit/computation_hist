@@ -1,66 +1,79 @@
-TR 1213ueuocdxe oyj3 JO uoTgeIeused yy peoeyo Osi® oy °¢g
-* nd 4 Ox = %8 . %% & BL 3
-(+1) «2 vp
+From: Center of Analysis
 
-:A pus n Jo seniwa 83am] 10] pue
-f 0.8 +X =13 °*Z
+To: Professor P. K. Morse
 
-f ned Bs + lax *1
+ 
 
-:sfan Sut
--80T10J €Y3 UT AceaIncde JOJ SUCTLNIOS 8Y3 JO 118 Peyooud erry of
+Enclosed are the solutions obtained by our new Differential
+Analyzer for the "Kinetic Theory" problem:
 
-*Lyeatjoedsex £-2000% pu® °2000% ‘£000T “x0001 “300001
-t*e°T ‘I UNF UC UMOYS S® oJ8 pUe SUOTIN[CS [1° ut ewes ayj
-o.1%8 og pajeInge) 2y3 oj peridde eq 03 s10308J 9180S aYj Tn *saA £2
-pus ‘z *£ ¢X pejsinge; pus n *saA £ pue n n °sa x pejao1d samy eg
-*4SUOTINIOS JO 3ST, Oyj UT UmOYS S® pesn useq 9ABY
-0
-g 0x4 1 °2/1 0=%
-©
-2°L'0=% I *2/1 ‘1 'C = 4
+OX 2 p « 5 ¢ (1a Y
+= p= (1-77)
 
-isenyea 93 JO SUOTIBATQUOD [IV
+= kx - (1-77)
 
-n
-EC RE EE
+For our convenienge we have let z be:
 
-19Q z 907 9ABY 9M POUSTUHAUOD INO JO
+- a dx
+ex tad ol ta] tp —
+: du P du
 
-(£-0-1) - XA = wh
+All combinetions of the values:
+p=0, 1/4, 1/2, 1 x =0,1, 2
+k=0, 1/2, 1 Yo = 0s 1, 2
+have been used as shown in the "List of Solutions"
+We have plotted X Ve U and y vse u u and tabulated x» Io L Zz, and
 
-np
-(£01) + ¥ ~ d = 55
+ev vse Ue The scale factors to be applied To the tabulated columns are
+the same in 811 solutions and ere as shown on Fun #1, 1.08.3
 
-swoyqoad  Lxoey] oT13euTy, oUyy I0J Ieziysuy
-1873019 J JT] MOU Inc Aq peuUTL3|o SUOTIN] O08 9Yy ode pesoouy
+ 
 
-@8JO} °H °d J08sejJold tO]
+10000t, 1000x, 1000y, 4000z, and 4000e™Y respectively.
 
-gysfyeuy Jo Jeque)d uwWoJI]
+We have checked all of the solutions for accurazy in the follow
+ing ways:
+ls x +y= X, * Yo t Psu 3;
+
+.
+
+2. 2 =kx + 0° ;
+
+ 
+
+and for large values of u and y:
+Se xae~™ £ (1 +p);
+be Yoo > XE, t Yo = Zgp Yt Psu
+
+Oe Vie also checked the generation of the exponential ev,
 
 
-tbr,
+Professor Pe. M. Morse page 2 April 23, 1949
 
-‘yr FL
-e394 »
-en — = ' ‘Va € >
-= s roar TREO ) €2 1
+The time of mechine use on the problem, including setting-up and
+testing, was 52 hours. The total time of operators for planning, testing,
+
+and running was 147 man-hours. 7 loys Lar,
+
+” 2]?
+gt 75 =
+
+76
+wot?
+oC
 /
-J tdvrs ye / “ ¢ |
-y / a Sy + C
-oof - /
--
-J
-
-Zt
-ail
-sha tl 2 FR
-
-aR ‘ ohop lL eg InOY~TW LP] seam Fujuunr pus
-¢Jurqasey ‘Juyuus(d J0J sIojetedo JO ewWTy [8303 YL egJInoy 2G Sem ‘Jurysey
-pus dn-3uggzjes Juipnyouy ‘moTqold oyj UO esSn euTydsW JO Wy] 8Uj
-
-eF61 fog 1tady 2 o3ud @SJI0l °*N °d I0Ssejolyd
+ZL
+co / )
+Ad
+4 &r - ] 05
+—ed |g q
+A . ’
+Lig so lL, XO, 50 ff bes ~ rs.
+& / & 3
+Tol Ace (C,
+{ - eo &
+Che arte An BY
+rf ’ of 77
+<
 
 
