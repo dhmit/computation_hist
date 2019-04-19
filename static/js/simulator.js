@@ -5,8 +5,10 @@
 
 // if number is negative, put a 4 in the beginning: e.g. -0o345 will become 0o4345
 const no_to_operation_b = {
+    0o761: "NOP",
     0o601: "STO",
     0o000: "HTR",
+    0o420: "HPR",
     0o500: "CLA",
     0o400: "ADD",
     0o402: "SUB",
@@ -24,6 +26,8 @@ const no_to_operation_b = {
     0o240: "FDH",
     0o241: "FDP",
     0o020: "TRA",
+    0o100: "TZE",
+    0o4100: "TNZ",
 };
 
 const no_to_operation_a = {
@@ -1233,11 +1237,29 @@ export class IBM_704 {
         }
         return index_register;
     }
-    
+
     // Type B operations
     // Note: the this.storage_register should always be the same value as this.general_memory[address],
     // so the two are interchangeable.
-    
+
+    /**
+     * Emulates the IBM 704 No Operation (NOP) operation.
+     *
+     * The calculator takes the next instruction in sequence (i.e. nothing happens).
+     */
+    NOP() {}
+
+    /**
+     * Emulates the IBM 704 Halt and Proceed (HPR) operation.
+     *
+     * Indicates the computer to halt.  If the computer is continued (on the original machine, pressing
+     * the start key), the computer will begin executing from where it left off.
+     *
+     */
+    HPR() {
+        this.halt = true;
+    }
+
     /**
      * Emulates the IBM 704 Store (STO) operation.
      *
@@ -1592,7 +1614,31 @@ export class IBM_704 {
         this.ilc.update_contents(address);
     }
 
-    // Type A operations
+    /**
+     * Emulates the IBM 704 Transfer on Zero (TZE) operation.  If bits Q-35 of the accumulator are 0,
+     * the Instruction Location Counter jumps to the specified address.  Otherwise, the program continues
+     * to the next instruction.
+     *
+     * @param {number}  address     Address to jump to.
+     */
+    TZE(address) {
+        if (this.accumulator.fixed_point === 0) {
+            this.ilc.update_contents(address);
+        }
+    }
+
+    /**
+     * Emulates the IBM 704 Transfer on No Zero (TZE) operation.  If bits Q-35 of the accumulator are not all 0,
+     * the Instruction Location Counter jumps to the specified address.  Otherwise, the program continues
+     * to the next instruction.
+     *
+     * @param {number}  address     Address to jump to.
+     */
+    TNZ(address) {
+        if (this.accumulator.fixed_point !== 0) {
+            this.ilc.update_contents(address);
+        }
+    }
 
     /**
      * Emulates the IBM 704 Transfer on No Index (TNX) operation.
@@ -1662,4 +1708,3 @@ export class Assembly_Line {
 export function timer(ms) {
     return new Promise(res => setTimeout(res, ms));
 }
-
