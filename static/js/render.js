@@ -31,11 +31,15 @@ export class Renderer {
         const next_instruction_address = this.computer.general_memory[this.computer.ilc.valueOf()].instruction.address;
         general_memory_html.removeClass("next_instruction target_register special_highlight");
         for (let i = 0; i < this.computer.size; i++) {
-            general_memory_html[i].innerHTML = this.computer.general_memory[i].toString();
-            general_memory_html[i].title = "Instruction: " +
-                this.computer.general_memory[i].instruction.toString();
-            general_memory_html[i].title += "\r\nFixed Point: " + this.computer.general_memory[i].fixed_point;
-            general_memory_html[i].title += "\r\nFloating Point: " + this.computer.general_memory[i].floating_point;
+            const new_value = this.computer.general_memory[i].toString();
+            if (new_value !== general_memory_html[i].innerHTML) {
+                general_memory_html[i].innerHTML = new_value;
+                general_memory_html[i].title = "Instruction: " +
+                    this.computer.general_memory[i].instruction.toString();
+                general_memory_html[i].title += "\r\nFixed Point: " + this.computer.general_memory[i].fixed_point;
+                general_memory_html[i].title += "\r\nFloating Point: " + this.computer.general_memory[i].floating_point;
+            }
+
             if (this.highlighting) {
                 if (i === this.computer.ilc.valueOf()) {
                     general_memory_html[i].classList.add("next_instruction");
