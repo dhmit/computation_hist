@@ -1,6 +1,30 @@
 {% extends "base.jinja2" %}
 
 {% block content %}
-<button>this is a button</button>
-<textarea>this is a textarea</textarea>
+    <button id="a_button">A</button>
+    <button id="b_button">B</button>
+    <button id="c_button">C</button>
+    <textarea id="text_input"></textarea>
 {% endblock  %}
+
+{% block scripts %}
+        <script type="module">
+        import { character_to_binary_string } from "{{ static("js/punchcards.js") }}"
+            const textarea = $('#text_input');
+            console.log(textarea.val());
+            $('#a_button').click(() => {
+                textarea.val(textarea.val() + "010\n");
+            });
+             $('#b_button').click(() => {
+                 textarea.val(textarea.val() + "000\n");
+
+            });
+              $('#c_button').click(() => {
+                  textarea.val(textarea.val() + "111\n");
+
+            });
+        </script>
+
+
+
+{% endblock %}
