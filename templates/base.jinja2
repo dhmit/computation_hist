@@ -67,10 +67,9 @@
         </div>
     </nav>
 
-{% block body %}
-{% endblock %}
 
 <main role="main" class="container mb-4">
+
     <div class="starter-template">
         <h1>{% block self %}{% endblock %}</h1>
         <p class="lead">
@@ -78,10 +77,12 @@
             {% endblock %}
         </p>
     </div>
+
     <div>
         {% block content %}
         {% endblock %}
     </div>
+
 </main>
 
 
