@@ -18,7 +18,7 @@ def index(request):
     stories = [
         'debugging',
         'qualifications_for_programmer',
-        'sample_story',
+        'women_in_symbols',
         'sample_story',
         'sample_story',
         'mayowa_story'
