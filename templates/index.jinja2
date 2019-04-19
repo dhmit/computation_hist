@@ -1,55 +1,13 @@
 {% extends "base.jinja2" %}
 
-<!--This is the base page. I want to take the links to the data off of this page and create a data tab that will
-bring people to a webpage that looks like this one currently does. I'm thinking of taking the other tabs off and
-having them all exist under browse. Then, I'd put tabs for other parts of the project, such as the simulations. I
-don't know how to make a new page or change the way these links are set up, though-->
-<!DOCTYPE html>
-{% block extraheader %}
-    <style>
-   @media only screen and (min-width: 1200px) {
 
-
-       h1 {
-           font-size: 24px;
-           font-family: monospace; /* Web-safe typewriter-like font */
-           overflow: hidden; /* Ensures the content is not revealed until the animation */
-           white-space: nowrap; /* Keeps the content on a single line */
-           margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-           letter-spacing: .05em; /* Adjust as needed */
-           animation: typing 5s steps(30, end),
-           blinking-cursor .5s step-end infinite;
-       }
-
-       /* The typing effect */
-       @keyframes typing {
-           from {
-               width: 0
-           }
-           to {
-               width: 100%
-           }
-       }
-
-       /* The typewriter cursor effect */
-       @keyframes blinking-cursor {
-           from, to {
-               border-color: transparent
-           }
-           50% {
-               border-color: lawngreen;
-           }
-       }
-   }
-   </style>
-{% endblock %}
 
 {% block title %}
     Home Page
 {% endblock %}
 
-{% block self %}
-    <h1><tt>Welcome to the Archives of the MIT Computation Center</tt></h1>
+{% block header %}
+    <h1 class="typing"><tt>Welcome to the Archives of the MIT Computation Center</tt></h1>
 {% endblock %}
 
 {% block content %}

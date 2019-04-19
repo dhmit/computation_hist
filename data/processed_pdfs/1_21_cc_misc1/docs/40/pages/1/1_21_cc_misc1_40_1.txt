@@ -1,0 +1,60 @@
+HMASSACHUSETTS INSTITUTE OF TECHNOLOGY
+Cambridge 39, Massachusetts
+
+ 
+
+March 1, 1957
+
+TO: Dx, ?. L. Foster
+Room S5-105 '
+FRQOE: P, M. Morse and F. M. Verzuh
+
+SUBJECT: Continuation of Contract N5ori06001
+
+In accordance with our conversations with the tolloving ONR
+representatives,
+
+Dr. F. Jbachim.weyl, Director of Math Sciences Divisxon,
+_ Washington, D. C.
+
+Dr. Arthur Grad
+
+Dr. Carl F. Mukenhaupt, Chief Scientist, ONR, Boston
+
+we recommend that you apply to ONR for an extension of the existing
+contract (Project 6345) without additional funds for the fiscal periocd
+1957-58.,
+
+Because of the delay in the completion of the new
+
+Earl T. Compton Laboratory, it will be impossible to install the
+IEM Type 704 Electronic Date Processing Machine at M.I.T. on March 1
+as we originelly scheduled. As a result, it will be impossible for us
+
+to release our use of the Whirlwind Computer on June 30, 1957 as
+- originally scheduled. It is very important that we have sdequate time
+To install the 704 and meke the necessary conversion of programs from
+Whirlwind to the 704 language. This means that there will be some period
+of time during which dual operation of both the 704 and Whirlwind Computers
+is in effect. It is difficult to determine in advance the exact termina-
+tion date of our use of the Whirlwind facility. However, as we discussed
+at our meeting, we shall notify you of the termination date as soon as
+this information becomes available.
+
+) Extending the present contrsct without additional funds for the
+above-requested l2-month period will permit us to effect a smooth
+transition from the Whirlwind machine to the 704; furthermore, it will
+provide us with the necessary time to prepare the final summary report
+for this contract.
+
+Since we are not requesting any additiconal funds for this
+extiension, we have not prepared the usual estimated budget reguirements.
+This is, of course, in accordance with our discussions at our meeting
+on Thursday, February 21.
+
+Aiso, in gecord with these discussions, we are currently preparing
+o proposal to be submitted to ONR for o specific roscarch program, which
+would be et up as 8 senpevete proldoct within the new MIT Computatioan Center,
+designed to make moxe e2fective use of the Type 704 mechine. This.
+p*bposal will include réseanrch items of a mathematical nature
+a8 we discussed with Veyl. A separate request for (IR

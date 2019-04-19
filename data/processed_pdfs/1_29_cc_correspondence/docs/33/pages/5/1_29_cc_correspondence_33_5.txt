@@ -1,0 +1,41 @@
+——
+
+3. SHARE distributions: 478, 555, 625, 758
+
+ 
+
+45 ST Ancodn Memorandum No . S-0011, "30sS
+Zlementary Reference Manual," by Roland Silvep
+
+SEQAP 4 °rog
+C. SE9ap iSsembly Program
+
+ 
+
+ 
+
+Symbolic m&chine-language program into binarygcard»format;~.-
+Consequently the user who chooses to Work with SEQAP will have
+to Supply title-log programs, loaders, debugging Programs ang
+usually will Submit his pyuns for on-1line Oberation. This
+
+clumsy procedure of running programs can €asily use two and
+
+ 
+
+one-~haglf minutes of Computer time for g half-minute run. This
+
+estimate is based on the assumption of 30 seconds Set-up, 30
+
+Ooperation, However, a8 a transition Measure SE9AP or its equiv-
+
+alent wily be available at the Center,
+
+2. Other Frogramming systems
+The abovye Set of PIOEramming Systems are the & jor
+ones in general use< In addition, there are Seéveral other
+Systems in use at the Center such as DYNAMO, ISP COMIT, SHADOW,
+and MAC. Each System should be converted to the 709 by those
+who Presently maintain it so that they will have continuity with
+
+their present Operation,

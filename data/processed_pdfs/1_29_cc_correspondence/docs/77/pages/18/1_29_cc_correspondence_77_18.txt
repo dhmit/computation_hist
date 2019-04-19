@@ -1,0 +1,47 @@
+TAPENO
+
+BSS
+
+ 
+
+ 
+
+It usually is desirable to refer to a tape unit symbolically;
+the TAPENO pseudo-operation is used to equate a symbol
+appearing in the location field, with a tape unit, appearing
+in the variable field. The variable-channel tape operations
+enable the programmer to change the tape number, tape channel,
+or both simply by changing the TAPENO pseudo-operation and
+reassembling. When TAPENO is used, the specific channel
+designations A through H need not and should not be used
+
+even in such instructions as RCHo, LCHX, etc.
+
+The symbol appearing in the location field of the TAPENO
+pseudo-operation must be a single letter between I and Z
+inclusive. The variable field contains a channel letter
+(A—H), followed by the tape number, followed by the letter
+B if the tape is to be treated in the binary mode. The
+absence of a terminal B implies the BCD mode.
+
+If X is defined as
+
+X TAPENO A2B,
+
+then the instructions RCHX and RCHA are equivalent. The
+instruction is assembled as if the X in the operation code
+were replaced by the channel-letter A. (The instructions,
+LCHX, SCHX, TCOX, TCNX, TRCX, TEFX, BTTX, and ETTX are
+treated in a similar fashion.)
+
+If the operation code also requires a tape number (such
+as RTDX, RTBX, VTDX, VTBX, WRSX, WEFX, BSRX, BSFX, and
+REWX), then the instruction is assembled with the X re-
+placed by the TAPENO definition. For example, with the
+X as defined above, WTDX, WTBX, WRS X, and VTBA 2 are
+
+equivalent.
+
+Storage Allocation
+
+The BSS (block started by symbol) pscudo-operation is

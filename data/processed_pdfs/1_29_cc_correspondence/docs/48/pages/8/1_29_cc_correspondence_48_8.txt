@@ -1,0 +1,16 @@
+__-oﬂ“',’lf.-‘
+
+—
+izt -
+
+APPENDIX TEF
+
+MIHIL1O Hilbert Matrix of order 10, double-precision in sense of RS005,
+These cerds contain the segment of order ten of the Hilbert metrix, in the
+form of RS005 double-precision numbers, correctly rounded to 18 octal digits.
+They are designed to save the next guy the exercise in decimal-to-octal
+conversion this writer undertook, Note that if the least-significant perts
+of the metrix are sorted out for 8ingle-precision work, the remeining num-
+
+\.!'\rw'
+bers ey be incorrectly rounded in a number of cases,

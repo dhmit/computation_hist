@@ -1,0 +1,52 @@
+PROPOSAL FOR NSF GRANT TO SUPPORT COOPERATIVE PROGRAM
+FOR NEW ENGLAND CCLLEGES
+FOR RESEARCH AND EDUCATION IN MACHINE COMPUTATION
+
+ 
+
+Background -~ Last year 27 colleges and universities in
+New England %egan a cooperative program of training and research in
+digital computer use using the facilities and staff of the Computation
+Cen:er at M.I.T. IBM contributed the machine, a 704, and the main-
+tenance staff, M.IL.T. provided most of the supervisory and faculty
+sta:’f, the other colleges. contributed facully time of various amounts.
+
+The results of this cooperative effort are promlsing. Two
+ful. . -length courses in machine programming (two weeks, 8 hours each
+day have been given, each to classes of 120-150 of students and
+faculty members of the cooperatlng colleges; several shorter courses
+have been given, at M.I.T. and at some of the otfher schools. During
+the 8 months since the 704 has been in operation, problems in the
+fol .owing subjects have been put on the machine:
+
+Aerodynamics Languages
+
+Antropology Mathematics
+
+Astronomy Mechanical Engineering
+Business Problems Medicine
+
+Chemistry Metallurgy
+
+Chemical Engineering Meterology
+
+Civil Engineering Naval Architecture
+Education Nuclear Engineering
+Economics Operations Research
+Electronics Physics
+
+Electrical Engineering Psychology
+
+Geology Public Acmlnls‘ranion
+
+(Details of these problems are given in the latest semi-annual
+vepcrt, of January, 1958)
+
+At present. (February 1958) about 150 problems are active,
+of which about 100 are from M.I.7.. 50 from the other cooperating
+instltutions. The number of active problems is increasing rapidly and
+the oroportion of problems from the other institutions is also
+increasing. At present the single-shift (5 days a week) operation is
+runring at about 80 per cent of capacity. In the near future, Saturdays
+will be made operating days and in the spring we will have to go to
+two-3hift operation.

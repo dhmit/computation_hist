@@ -1,0 +1,57 @@
+The Application of Digital Computers
+fo Soclal and Operational Problems;
+
+Opportunities and Needs
+
+Environment and New Facilities - M.I.T. has long been in the fore-
+front in the development of computing equipment and in developing
+ways whereby this equipment can help solve problems in a wide
+variety of fields. In the mid-30's Vannevar Bush built here the
+first differentlial analyzer and several faculty members, in various
+departments, used 1t to solve problems in engineering, mathematics,
+and physics, which could not otherwise be solved. In the past
+
+four years Whirlwind I, one of the first truly high-speed digital .
+computers to get into operation, has been made available for more
+than 1/3 of its time for the solution of general scientific prob-
+~lems. Problems from many fields, sponsored by members of all the
+different departments at the Institute, have been put on the
+machine. The programming research staff of Whirlwind has gained
+experience in adapting the computer to this variety of problems
+
+and the faculty at the Institute has begun to learn, by actual
+doing, the ways in which the computer can help them solve their
+problems. - '
+
+! Beginning in 1957, the computing facilities at M.I.T.
+will be enlarged and reorganized into a Computation Center, to be
+devoted entirely to unclassified scientific research and education.
+I.B.M. 1s donating one of its new TOY computers with double the
+usual storage units and with appropriate auxiliary equipment, and
+will provide for the maintenance of the equipment; the Center will
+be housed in the new K. T. Compton Laboratory Building according
+to agreement with I.B.M., the equipment will be used ten hours a
+day (on the "midnight shift") by I.B.M., will be available up to
+seven hours a day to faculty members from other colleges in New
+England and the remainder of the time (seven plus hours) will be
+available for use by students and staff of M.I.T. for basic re-
+search. The programming research staff, at present working with
+Whirlwind, will be transferred to the Center, to serve as a nucleus
+for planning wmachine use and for developing new techniques of
+machine application.
+
+Nature of the Research - Exploitation to the full of the potenti-
+alities of a new piece of equipment can most effectively be accom-
+plished by an advance on two fronts: the solving of specific problems
+and the development of techniques. 1In the case of computing machines,
+research workers 1In many fields should learn machine programming
+techniques and then proceed to use the machine to help them solve
+thelir own problems. In many cases they can develop the programs
+
+they will need for thelr work, but in some crucial cases they will
+need the help of those persons interested primarily in machine
+operation, who are interested more in developing machine techniques
+than in solving individual problems.
+
+This division of labor has been necessary in many other
+sclentific advances. The recent great progress in nuclear physics

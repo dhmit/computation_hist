@@ -1,0 +1,17 @@
+22
+
+A few years ago a machine user had to become familiar with
+binary arithmetic and with all the other idiosyncrasies of the primary
+machine operating code, just as the early auto owner had to be familiar
+with spark and choke and clutch. As time goes on it is less and less
+necessary for the occasional user to master all these details in order
+To use the machine, even if he has to devise a program for a new problem.
+In the first place, many of the more usual calculations will have been
+already programmed 80 that, for example, if one wishes to compute a
+Bessel function or to apply the chi-squared teat for the fit of a
+formula to a set of data, one need only use the ready-tested program.
+In the second place;—it is possible to provide a heirarchy of "trans-
+lation procedures™ -- assembly and operator programs, ete. -- whereby
+the machine itself will traaslate the desires of the user, exzpressed
+in language more ramiliar to him, into the specialized "language" of
+the basic machine code. This may be termed programming at the second

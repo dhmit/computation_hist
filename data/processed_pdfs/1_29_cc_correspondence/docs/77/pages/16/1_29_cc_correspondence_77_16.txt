@@ -1,0 +1,45 @@
+INDIRECT
+ADDRESSING
+
+OPERATIONS AND PSEUDO-OPERATIONS
+
+Usually the operation field of an instruction will contain
+a three-letter or four-letter mnemonic code representing
+
+a machine operation. (Complete description of all machine
+operations is to be found in the IBM 709-90 Manual). The
+FAP assembler recognizes all machine-operation mnemonic
+codes given in the 709-90 Manual, including the SCAT ex-
+tended operation codes (such as SWT, WTDA, PTH, etc.)
+given in an appendix. Note that all of these extended
+operations are regarded as 709 machine operations by the
+assembler. The assembler also recognizes the following
+pseudo-operations, which are described in detail below:
+BCD, BCI, BES, BOOL, BSS, CALL, COMMON, DEC, DUP, ENTRY,
+EQU, OCT, REM, ABS, TAPENO, COUNT, ETC, SYN, and VFD.
+
+In addition, the assembler recognizes certain variable-
+
+channel tape operations also described in detail below,
+
+Indirect addressing of a 709 machine operation is indicated
+in internal machine language by the presence of ones in
+bit-positions 12 and 13. Indirect addressing is indicated
+to the assembler by the presence of an asterisk immediately
+following the last character of the mnemonic operation
+
+code in the operation field.
+
+SYIBOL DEFINITION
+
+In the FAP language, EQU and SYN are identical. The purpose
+of the pscudo-operation is to give a value to a symbol which
+represents a program parameter rather than a location in
+memory. Ior example, a symbol may be used to represent the
+number of times a certain iteration is performed. In all
+probability this number will be used in several places
+throughout the program, but if it is always referred to via
+
+a symbol, and the symbol is defined by means of an EQU
+
+"l’l"‘

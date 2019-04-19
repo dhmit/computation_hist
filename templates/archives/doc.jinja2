@@ -1,39 +1,18 @@
 
 <head>
-    <style>
-        .sidenav{
-            height: 100%;
-            width: 12%;
-            position: fixed;
-            z-index: 1;
-            top: 0;
-            right: 0;
-            background-color: aliceblue;
-            overflow-x: hidden;
-            padding-top: 70px;
-        }
 
-        @media (max-width: ) {
-            .sidenav {
-                position: relative;
-                bottom:21%;
-                width:100%;
-                margin-bottom: 20%;
-            }
-}
-    </style>
 </head>
 {% extends "base.jinja2" %}
 
 {% block title %} {{ doc_obj }} {% endblock %}
 
-{% block self %}
+{% block header %}
 
-    <h1>{{ doc_obj }}</h1>
+    {{ doc_obj }}
 
 {% endblock %}
 
-{% block table %}
+{% block content %}
     <div class="container mt-3 flex-wrap">
         <div class="p-2 flex-fill ">
             <iframe src={{ doc_pdf_url }}
@@ -42,40 +21,40 @@
         </div>
         <div class="sidenav">
 
-            <table class="table">
-                <tbody>
+            <div class="table">
 
-                <tr><td>{{ doc_obj.date }}</td></tr>
-                </tbody>
-            </table>
+
+                {{ doc_obj.date }}
+
+            </div>
 
         {% if author_person_objs or author_organization_objs %}
             <p>Written by:</p>
             {% if author_person_objs %}
-                <table class="table">
+                <div class="table">
 
-                    <tbody>
+
                     {% for item in author_person_objs %}
 
-                        <tr>
-                            <td><a href="/archives/person/{{ item.pk }}">{{ item }}</a></td>
-                        </tr>
+
+                            <a href="/archives/person/{{ item.pk }}">{{ item }}</a>
+
                     {% endfor %}
-                    </tbody>
-                </table>
+
+                </div>
             {% endif %}
 
             {% if author_organization_objs %}
-                <table class="table">
+                <div class="table">
 
-                    <tbody>
+
                     {% for item in author_organization_objs %}
-                        <tr>
-                            <td><a href="/archives/organization/{{ item.pk }}">{{ item }}</a></td>
-                        </tr>
+
+                            <a href="/archives/organization/{{ item.pk }}">{{ item }}</a>
+
                     {% endfor %}
-                    </tbody>
-                </table>
+
+                </div>
             {% endif %}
 
         {% endif %}
@@ -83,31 +62,30 @@
         {% if recipient_person_objs or  recipient_organization_objs%}
             <p>Recipient</p>
             {% if recipient_person_objs %}
-                <table class="table">
+                <div class="table">
 
-                    <tbody>
+
                     {% for item in recipient_person_objs %}
-                        <tr>
 
-                            <td><a href="/archives/person/{{ item.pk }}">{{ item }}</a></td>
-                        </tr>
+                            <a href="/archives/person/{{ item.pk }}">{{ item }}</a>
+
                     {% endfor %}
-                    </tbody>
-                </table>
+
+                </div>
             {% endif %}
 
             {% if recipient_organization_objs %}
-                <table class="table">
-                    <tbody>
+                <div class="table">
+
                     {% for item in recipient_organization_objs %}
-                        <tr>
 
 
-                            <td><a href="/archives/organization/{{ item.pk }}">{{ item }}</a></td>
-                        </tr>
+
+                            <a href="/archives/organization/{{ item.pk }}">{{ item }}</a>
+
                     {% endfor %}
-                    </tbody>
-                </table>
+
+                </div>
             {% endif %}
 
         {% endif %}
@@ -116,33 +94,33 @@
             <p>Cced to</p>
 
             {% if cced_person_objs %}
-                <table class="table">
+                <div class="table">
 
-                    <tbody>
+
                     {% for item in cced_person_objs %}
-                        <tr>
 
 
-                            <td><a href="/archives/person/{{ item.pk }}">{{ item }}</a></td>
-                        </tr>
+
+                            <a href="/archives/person/{{ item.pk }}">{{ item }}</a>
+
                     {% endfor %}
-                    </tbody>
-                </table>
+
+                </div>
             {% endif %}
 
             {% if cced_organization_objs %}
-                <table class="table">
+                <div class="table">
 
-                    <tbody>
+
                     {% for item in cced_organization_objs %}
-                        <tr>
 
 
-                            <td><a href="/archives/organization/{{ item.pk }}">{{ item }}</a></td>
-                        </tr>
+
+                            <a href="/archives/organization/{{ item.pk }}">{{ item }}</a>
+
                     {% endfor %}
-                    </tbody>
-                </table>
+
+                </div>
             {% endif %}
 
         {% endif %}

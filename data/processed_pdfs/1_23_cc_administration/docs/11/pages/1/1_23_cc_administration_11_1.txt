@@ -1,0 +1,60 @@
+MIT COMPUTATION CENTER
+Mossachugette Institute of Technology
+Cambridge 39, Massachusetts
+
+ 
+
+ 
+
+MEMORANDUM
+To: Mr. R, P, Webber, D.S.E, February 10, 1958
+From: Director, Computation Center
+
+Subject: Proposal to Extend Contract NSori-g0 withont Increase of Funde,
+WWW
+
+A o During the past year the persomnel of the Computation Center
+have been using two computing facilities; the Vhirlwind I installation
+in the Barte Building and the mew IBM 704 installation in the new
+Compton building, The work using Whirlwind has been supported by
+contract NSori-60 and that using the 704 bas been supported by other
+grants, although the nature of the work is closely related. Now that
+the Whirlwind eguipment has been turned over to the Lincoln Laboratory,
+the work of the Center uses the 704 equipment exclusively with consequent
+inereage in effectiveness because work is now sll done at one place,
+using one machine, and duplication of office and machine operaticns is
+eliminated, :
+
+2, Work a8 doscribed in task orders of N5ori-60 continues to be
+ecarried cut by the Center, though now the 704 is used to try out the
+programs and suxiliazy eguipment rather tham W W.1. For example,
+Anendment No. 13 (6/28/51) etates im part:
+
+"3 On and after 1} July 1951, secticn (a) shall read as follows:
+
+(A) The Contractor shall furnish the necessary perscunel and
+facilities for and, in sccordance with any imstructions
+issued by the Technical Officer or his authorized repre-
+sentative, shall cenduct a coordinated ressarch program
+in applied mathematics utilizing facilities in the Center
+for Machine Computation, including the WHIRLWIND Computer,
+which shall include but not necessarily be limited to the
+following:
+
+ 
+
+(1) research in methods of numerical analysis and the
+formulation of scientific problems for machine solutionm,
+together with tke training of personnel on these methods;
+
+(2) support of the scientific and engineering applications
+group previcusly associated withk Project WHIRLWIND so as
+to make the WHIRLWIND Computer useful and available for
+the above research, including a continuation of the
+congtruction and improvement of the WHIRLWIND Computer;
+and
+
+(3) an investigation of digital computing machine components."”
+
+Work coming under sub-headings (1) and (3) of this amendment is
+being continued by the Center,

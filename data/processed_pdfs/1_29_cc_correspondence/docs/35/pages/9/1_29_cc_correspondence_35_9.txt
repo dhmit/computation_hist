@@ -1,0 +1,33 @@
+In addition, the programmer can use the following logical
+
+numbers for personal tapes with his program:
+- Physlcal-Logical
+A =529
+B5 - 10
+
+VI. Case Studies of 704 to 709 Transitions
+
+To assist programmers in preparing programs for the 709,
+a series of the more common situations will be analyzed. These
+case studies which have been prepared by Miss Marjorie Merwin
+of the Center Staff do not exhaust all the possibilities but
+should serve as a gulde to the factors which must be taken into
+account. Any conversion problems that do not appear to be
+covered here may be discussed with Miss Judy Spall of the Center
+Staff (Room 26-153, Ext. 4114).
+
+In the following examples, an arrow indicates a change
+because of the transition.
+
+No ma jor difficulties in conversion from the 704 to
+the 709 confront the Fortran user whose decks are completely
+in FFortran Source Language. In general, only a recompilation
+is necessary.
+For efficient running within the FMS Monitor System,
+
+it 1s advisable to prepare the proper Monitor cards and revise
+the source program for complete tape-to-tape operation.
+
+1. The present END card should be replaced by
+one with only END on it, and the Monitor
+control card LIST should precede each source

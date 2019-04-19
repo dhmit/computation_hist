@@ -1,0 +1,335 @@
+UCL Memorandum 165 : Page 1 of §
+
+Digital Computer Laboratory
+Massachusetts Institute of Technology
+Cambridge 39, Massachusetts
+
+SUBJECT: SHARE ASSEMBLER OPERATOR'S NOTES FOR INITIAL USE AT THE MIT
+COMPUTATION CENTER
+
+To3 Philip M., Morse
+Prom: Sheldon F, Best
+Dates February 27, 1057
+
+The SHARE ASSEMBLER has been modified so that:
+1) many symbolic programs may be loaded om the zcxme input tape,
+2) many assembly-listings may be obtained or the same output tape,
+3) the assembly program itself may be stored on tape.
+These operating notes should be used at MIT im place of those issued by the
+United Aircraft Corporation om March 7, 1956.
+
+Note to any Programmer reading this:
+
+This ig really a memo to the machine operator and prograzmers will
+rot normally need to know many of the details givem below, All the prograz=er
+norrally will need to do to get his deck assembled is to give it to am opera-
+
+tor along with a filled out request for assembly form, Blank forms will be
+
+available at the Computation Center. On this form he will indicate what kind
+cf binary cards he wants (absolute in the normal case, hut possibly relocatable,
+or rarely 34 words/card) and whether he wants a symbol table or mot, He may
+also indicate whether he wants library subroutines printed on his assembly
+listing. In due course, he will receive an assembly listimg back which he
+should proofread for errors before submitting a request to have his program
+
+wen
+7 WA,
+
+Control Panel Requirements:
+SHARE 72 column reader pemel (1 - 72)
+SHARE 72 column punch pamel (1 - 72)
+SHARE 72 ~ 120 printer panel
+
+
+However,
+
+reader.
+
+logical
+logical
+logical
+logical
+logical
+logical
+
+Logical
+Logical
+Logical
+Logical
+
+ 
+
+ 
+
+Page 2
+
+tape 1: contains the SHARE ASSEMBLER (file protect on)
+tape 2: output tape {off-line assembly listings)
+
+tape 3: library tape
+
+tape 4: secondary input tape
+
+tape 5: binary output tape
+
+tape 6: primary input tape (loaded on off-line reader)
+
+tape 1 will always be required to store the SHARE ASSEMBLER.
+tape 2 is not needed if no off-line output is produced,
+
+tape 3 is not needed if the library is not used.
+
+tape 4 is normally needed for either off-line or on-line input.
+it is not required if the symbolic deck is read twice by the on-line
+
+Logical tape 5 is noi needed if no binary tape is prod ced; that is,
+if binary cards are produced.
+
+Logical tape 6 is not needed for on-line input.
+
+Sense Switches:
+
+1 Up and 2 Up: Input to first pass ig from logical tape 6. (Previously
+
+{rd
+
+tad
+
+Down and
+2 Ups
+
+. Down and
+
+2 Down:
+
+prepared on the off-line reader). Input to secoad pass is
+from logical tape 4, (which is written during first pass).
+Input to first pass is from symbolic cards read on-line.
+Input to the second pass jo from logical tape 4 which (with
+¢his sense switch setting) is written during the £irst pass.
+Input to both passes is from symbolic cards read on-line.
+with this sense switch setting, logical tapes 4 and 6 are
+not used.
+
+Suppress on-line printing,
+
+Agsembly listing is printed on-line.
+
+Any on-line printing is single spaced.
+
+Any on-line printing iS double spaced.
+
+Logical tape 2 is written during the second pass, in order
+
+to permit later off-line printing of assembly listing.
+
+
+Page 3
+5 Downs Suppress preparation of logical tape 2.
+6 Up: Suppress printing of library subroutines.
+6 Dow: Library cibroutines taken from the library tape are printed.
+
+Operator's Check List:
+
+if necessary, mount the library as logical tape 3 and the SHARE AS-
+SEMBLER as logical tape 1.
+
+If the symbolic deck (or decks ) have been writtem on tape, mount
+this tape as logical tape 6,
+
+if any off-line output is desired, set logical tape 2 and rewind it
+manually, |
+
+Kemove all punched cards from the on-line punch.
+
+Load one properly made up calling deck for each assembly to be done.
+(8e¢ paregraph on calling decks).
+
+After the last assembly is done, remove logical tape 2 for off-line
+Printing; that is, if there was any off-line output. (There will be one file
+for cach assembly whose output was off-line). :
+
+Remove the binery decks from the on-line punch, (Blank cards will se-
+
+parate symbol tebles from binary decks and one binary deck from amother).
+
+Calling Pecks:
+The calling deck for an assembly normally consists of three cards:
+MI GET SAP (8Bpecial calling card to read in SAP from tape 1)
+1) UA BAP 150 (Normal first pass transfer card) |
+UA SAP 258 (Normal second pass transfer card)
+If the symbolic deck is to be read on-line, place it between UA SAP 150
+and UA ZAP 258,
+The calling deck 1) above causes absolute binary cards to be punched
+on-line. If relocatable binary cards are desired, replace UA SAP 258 by UA SAP
+2 NQ.
+
+If it is desired to punch 24 words/card, replace UA SAP 258 by UA SAP
+2 EH,
+
+If it is desired to write 2 binary tepe (logical tape 5) rather than
+bunch binary cards, replace UA SAP 258 by UA BAP 2 WT. In this case UA ZCS82
+
+
+>
+J
+J
+0
+63
+®
+Nh
+
+fol} by UA TSB3 would Hornally be loaded as soon 28 the assembly process
+was completed in order to couse immediate execution of the assembled program,
+
+if the symbolic program is to he assembled with reference to a Symbol
+table punched during a previous assembly, place the symbol table from the pPre-
+viol embly between MI GET SAP
+
+  
+ 
+  
+  
+     
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+      
+
+and UA EAP 150.
+If the on-line punching of the symbol table is to be suppressed, place
+UA EAP S5T between MI GRT SAP and UA SAP 150,
+
+8 to be read on-line during the second pass as
+
+jets
+
+if the symbolic deck
+¢ must be piaced immediately following UA
+
+Jule
+
+well as during the first pass,
+SAP 253, (or amy card which replaces UA SAP 258, UA SAP 2 NQ for example). The
+
+he
+
+-
+
+symbolic deck must still be read between UA SAP 150 and UA SAP 258.
+At the end of an assembly, the assembler executes a load card sequence.
+Thus if a number of assemblies are to be done with the same semse switch settings,
+
+time may be saved by Putting the calling decks together in the proper sequence
+
+and loading them into the on-line reader as g single deck.
+
+Putting Symbolic DEcks on Tape with the Off-Line Reader:
+
+AA SHARE 80-84 reader hoard should be used,
+
+The only end-of~file mark should be at the end of the last symbolic
+deck loaded on the input tape.
+
+Zach symbolic deck should be carefully checked to make sure the lagt
+
+card is an ERD card.
+
+First Pags Stops:
+PTE aT AE I Et rE rer
+(437), HTR (400): Should occur only during on-line reading of symbolic
+
+ 
+
+{i.e.: sense switch 1 down). Indicates a card
+with an illegal (non-Hollerith) ckaracter, or
+
+ine error while reading symbolic cards. Ready
+
+ 
+
+vue A amr] es La - an seal eu ade Jy
+Correct card in the reader and press start. T e
+pT. a alr rn velde 2 ame] ered 95 - obs 31x 4
+which the stop occurred will be the third
+
+Te $7 Sun <3 x » de pmwa | a arn +3 dein . oo
+2CK in The stacker after running the cards out
+
+eed,
+y re — — - ~ p- - 2
+ie condition while readin Symbolic cards on-
+
+a
+
+
+(1414), HIR (1372):
+o
+
+(1543) _ HTR (1378):
+
+<Q
+
+(1641), HETR (1550):
+(2i2l)g HTR (2116):
+
+(2225), HIR (2330):
+
+8
+
+Second Pass Stops:
+
+(437 :
+(437)g HTR (200)
+
+(1463), HIR (1454) 4:
+
+8
+
+4 .
+(1474) HTR (1454):
+
+(2456) 4 HTR (2375):
+
+ 
+
+Page 5
+
+End of file condition from tepe. Machine error or no
+END card writien on tape. Reassemble.
+
+Symbol Table has been filled. Assemble program in
+smaller Sectiocas,
+
+Library search foiled twice, Press start to try again,
+Wrong Board in printer, Replace with SHARE 72-120
+board and press siart.
+
+Check sum for symbol table is wrong. Probably machine
+
+error. Reassemble or press start to contime,
+
+Should occur only during on-line reading of symbolic
+cards (i.e.: sense switch 2 down). Indicates a card
+punched with an illegal (mon-Hollerith) cheracter, or
+a machine error. Ready the correct card im the reader
+and press start.
+
+End of file condition while reading symbolic cards
+on-line, Ready remainder of deck in reader and press
+start.
+
+End of file condition while reading tape. Either
+machine error or no END card on tape. Reassemble.
+
+Library seavch failed twice. Press start to try again.
+
+

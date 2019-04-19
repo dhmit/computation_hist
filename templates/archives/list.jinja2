@@ -17,23 +17,24 @@
 
 {% endblock %}
 
-{% block self %}
+{% block header %}
     {% if model_str == 'doc' %}
-        <h1>Here are the list of documents that match your search</h1>
+        Here are the list of documents that match your search
     {% else %}
-        <h1>You're looking at every {{ model_str }}</h1>
+        You're looking at every {{ model_str }}
     {% endif %}
 {% endblock %}
 
-{% block table %}
+{% block content %}
     <br>
-    {% for item in model_objs %}
-        <div class="list-group">
-            <a href="/archives/{{ model_str }}/{{ item.pk }}"
-               class="list-group-item list-group-item-action">
-                {{ item }}
-            </a>
-        </div>
-    {% endfor %}
-
+    <div class="starter-template">
+        {% for item in model_objs %}
+            <div class="list-group">
+                <a href="/archives/{{ model_str }}/{{ item.pk }}"
+                   class="list-group-item list-group-item-action">
+                    {{ item }}
+                </a>
+            </div>
+        {% endfor %}
+    </div>
 {% endblock %}

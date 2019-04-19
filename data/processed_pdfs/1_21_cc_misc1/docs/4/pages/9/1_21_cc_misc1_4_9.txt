@@ -1,0 +1,59 @@
+To provide protection against misordering the cards during
+fnanual processing, each card should have 3 unique number punched
+into it. This number may be modified during computer processing
+1':0 provide a cross reference between the concordance and the orig=-
+inal text, Again with an €ye toward program generality, a ten-digit
+card number has been agreed upon. In our present application, the
+digits will be assigned as follows:
+
+Book 1 digit
+
+Chapter 2 digits
+Section 2 digits
+Page 3 digits
+Line 2 digits
+
+Other punching conventions to be used include the employment of the
+$ to indicate the end of a sentence and the # to indicate an omission.
+Verification of the key-punching is optional and dependent upon the
+reliability of the original key=-puncher,
+
+The next step in processing is to transcribe these cards to
+magnetic tape,
+
+The first computer operation is called the input data edit and
+will perform several functions:
+
+a) Sequence-check the input data on the basis of the ten-
+digit card identifier;
+
+b) Provide notification of any sequence errors and make
+
+some assumptions (such as, a sequence break indi-
+
+cates the start of a new sentence) and continue pro-
+
+cessing;
+
+Using the first (five) digits of the sequence number as
+
+a base, and detecting the beginnings of sentences,
+
+create a (seven) digit number of the following format:
+
+C
+
+S
+
+Book 1 digit
+
+Chapter 2 digits
+Section 2 digits
+Sentence 2 digits
+
+d) Match each complete word, including rejoined hyphe-
+nated words, against a small dictionary of frequently
+occurring words to be omitted;
+
+e) If the word is not to be omitted, compose a card-length
+record for it b-;—space-filling to the right up to a pre-~

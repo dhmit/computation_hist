@@ -2,13 +2,11 @@
 
 {% block title %} {{person_obj.first}} {{ person_obj.last }} {% endblock %}
 
-{% block self %}
-    <h1>
-        {{person_obj.first}} {{person_obj.last}}
-    </h1>
+{% block header %}
+    {{person_obj.first}} {{person_obj.last}}
 {% endblock %}
 
-{% block table %}
+{% block content %}
 
     {% if document_written_objs %}
         <h3>Wrote:</h3>

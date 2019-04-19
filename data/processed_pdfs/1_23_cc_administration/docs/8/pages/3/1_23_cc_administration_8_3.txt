@@ -1,0 +1,44 @@
+Page 3
+& BDowne Buppress preparation of logical tape 2.
+& Up: Suppress printing of library subroutines.
+& Dow: Library cvbroutines taken from the library tape are printed.
+
+Operator's Check List:
+
+if necessary, mount the library as logical tape 3 and the SHARE AS-
+SEMBLER a5 logical tape 1.
+
+If the symbolic deck (or decks ) have beer writtenm on tape, mount
+this tape as logical tape 6,
+
+if any off-line output is desired, set logical tape 2 and rewind it
+Banuaiiy, |
+
+Remove 21l punched cards from the on-line punch.
+
+Load one properly made up calling deck for each assembly to be'donc.
+(8e¢ paregraph on calling decks).
+
+After the last assembly is done, remove logical tape 2 for off-line
+Printing; that is, if there was any off-line output. (There will be one file
+for cach assembly whose output was off-line). :
+
+Remove the binery decks from the on-line punch. (Blank cards will se-
+parate symbol tebles from binary decks and one binary deck from amother).
+
+Calling Pecks:
+The calling deck for an assembly normally consists of three cards:
+MI GET SAP (8Bpecial calling card to read in SAP from tape 1)
+1) UA B8AP 150 (Normsl first pass transfer card) |
+UA SAP 258 (Normal second pass transfer card)
+If the symbolic deck is to be read on-line, place it between UA SAP 150
+and UA AP 258,
+“he calling deck 1) above causes zbsolute binary cards to be punched
+on-line. If relocatable binary cerds are desired, replace UA SAP 258 by UA SAP
+2 NQ.
+
+1f it is desired to punch 24 words/card, replace UA SAP 258 by UA SAP
+2 EH,
+
+If it is desired to write 2 binary tepe (logical tape 5) rather than
+Punch binary cards, repiace UA SAP 258 by UA SBAP 2 WT. In this case UA ZCS82

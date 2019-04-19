@@ -1,0 +1,100 @@
+t
+
+Page 2 of 3
+
+Note that this time is allocated separately each gquarter; no further
+machine time will be allocated for this problem unless this question-
+naire is answered and returned., Whether you have finished or not,
+the following information concerning your use of the Center would be
+helpful for us.
+
+List SHARE subroutines used:
+
+ 
+
+ 
+
+ 
+
+a) Are subroutines working correctly?
+b) List errors, limitations or changes in subroutines:
+
+ 
+
+-
+
+ 
+
+¢) What modifications have you made?
+d) Vhy were these medifications made?
+
+ 
+
+List subroutines which you have written that may be of interest to others:
+
+ 
+
+Coding language and operating programs used:
+SHARE FORTRAN
+Other:
+
+ 
+
+ 
+
+Programming statistics: Please'report, as accurately as you can, the total
+personnel hours sxpended during the past guarter in:
+
+a) Math, Formulation @) Assembly & Mach, Testing
+b} Numerical Analysis £) Checking Results
+¢) Programming g) Production Running
+d) Coding h) Problem Write up
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Is there any other way in which we can be of help to you?
+
+ 
+
+ 
+
+The abstract and description of your problem, and the suggested classification,
+which you provided for us on Application Form CCF-2, are used in our Progress
+Reports to dascribe your work, If these items have changed during the past
+quarter, they should be brought up to date so that we have a corraect version
+of your present use of the Center. Consequently, £ill in the following with
+NO CHANGE or with a revised version:
+
+2) For cataloging purposes, how would you index this problem? For
+example, mathematics, logic, gamae, etc, If this is a mathematical
+problem, specify type(s) such as, integration, partial differential
+eguations, matrix theory, etc.
+
+ 
+
+ 
+
+ 
+
+b) If this is a mathematical problem, specify numerical methods used,
+such as, Gauss' quadrature method, difference equations, Crout, etc.
+
+ 
+
+S TR T —— = LTesn
+
+ 
+
+ 
+
+m?“aa3
