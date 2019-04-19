@@ -115,7 +115,7 @@
                                             {% else %}
                                             {% endif %}
                                         </td>
-                                        <td>{{ author.name }}</td>
+                                        <td>{{ author.name.replace("_"," ")}}</td>
                                     </tr>
                                 {% endfor %}
                             </tbody>
@@ -133,7 +133,7 @@
                                             {% else %}
                                             {% endif %}
                                         </td>
-                                        <td>{{ recipient.name }}</td>
+                                        <td>{{ recipient.name.replace("_"," ") }}</td>
                                     </tr>
                                 {% endfor %}
                             </tbody>
