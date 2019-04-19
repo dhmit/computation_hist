@@ -24,8 +24,7 @@ install:
   - python manage.py migrate
 
 script:
-  - python manage.py populate_from_metadata
-  - python manage.py test
+  - python manage.py test --settings config.settings-test
   - ./.travis-pylint.bash
   - jshint static/js
 

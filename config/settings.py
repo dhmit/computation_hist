@@ -115,12 +115,27 @@ WSGI_APPLICATION = 'config.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
 
+# If you want to work with a local sqlite3 db instead of the 
+# shared readonly db, change the key 'sqlite3' below to 'default
+# and change the key for the postgres backend (currently 'default')
+# to anything else...
+
 DATABASES = {
-    'default': {
+    'sqlite3': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.path.join(DATA_DIR, 'db.sqlite3'),
+    },
+
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'HOST': 'comphist-test-0.cdciclcuqo67.us-west-1.rds.amazonaws.com',
+        'PORT': '5432',
+        'NAME': 'comphist_test',
+        'USER': 'comphist_readonly',
+        'PASSWORD': 'readonly',
     }
 }
+
 
 
 # Password validation
