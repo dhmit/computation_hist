@@ -381,7 +381,7 @@ def net_viz(request):
     from collections import Counter
     import json
 
-    docs = Document.objects.all()
+    docs = Document.objects.prefetch_related('author_person', 'recipient_person')
     node_count = Counter()
     edge_count = Counter()
 
@@ -392,6 +392,7 @@ def net_viz(request):
         for author in authors:
             node_count[str(author)] += 1
             for recipient in recipients:
+                node_count[str(recipient)] += 1
                 edge_count[(str(author), str(recipient))] += 1
 
     # # Filter out uncommon nodes per max_nodes
@@ -412,12 +413,12 @@ def net_viz(request):
     for author in node_count:
         node_list.append({
             'id': author,
-            'value': node_count[author]
+            'group': 1 #node_count[author]
         })
     nodes = json.dumps(node_list)
     edges = json.dumps(edge_list)
 
-    graph_dict = {'nodes': nodes, 'edges': edges}
+    graph_dict = {'nodes': nodes, 'links': edges}
 
     return render(request, 'archives/net_viz.jinja2', graph_dict)
 
