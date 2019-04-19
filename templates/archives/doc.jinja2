@@ -6,13 +6,13 @@
 
 {% block title %} {{ doc_obj }} {% endblock %}
 
-{% block self %}
+{% block header %}
 
     <h1>{{ doc_obj }}</h1>
 
 {% endblock %}
 
-{% block table %}
+{% block content %}
     <div class="container mt-3 flex-wrap">
         <div class="p-2 flex-fill ">
             <iframe src={{ doc_pdf_url }}
