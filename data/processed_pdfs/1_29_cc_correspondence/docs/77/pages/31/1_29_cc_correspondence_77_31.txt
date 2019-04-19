@@ -1,0 +1,27 @@
+"y
+
+Ny ;)‘h
+
+‘h‘h
+
+a subprograin called TABLEl has been assembled and is
+present in the job as a binary deck. The following
+
+instructions might be used to set up a convert operation:
+
+LOCATION OP VARIABLE FIELD
+LXA STABLEL, 4
+SXA *+1,4
+CAQ 0,0,6
+
+Since the transfer-vector cell which had contained the
+
+BCD equivalent of "TABLEl" at assembly time, had been
+replaced by the loading program by a transfer operation
+with the address of the table, this sequence of instructions
+has the effect of getting the address of the table from the
+transfer vector, and storing this address in the address
+
+portion of the CAQ operation.
+
+-29-~

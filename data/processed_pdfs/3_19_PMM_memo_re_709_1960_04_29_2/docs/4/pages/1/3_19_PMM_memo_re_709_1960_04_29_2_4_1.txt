@@ -1,0 +1,55 @@
+D T e
+
+1.
+2e
+
+De
+4,
+
+De
+
+ 
+
+6.
+
+ 
+
+AGENDA
+Meeting of the Computation Center Staff
+May 4, 1960 10:30 a.m.
+
+1. Items to be introduced by Professor Morse
+2. Discussion of staff employment for next year
+a. Summary of Budget details (Corbato)
+b. Application of Miss Hovik for 6-12 months
+e. Application of Dan Scott
+d. Bloom vs. Nourbehect for IBM Research.Asaiatantahlp*
+e. Possible use of research money to support Bloom
+as Research Aaaistant
+5. Discussion, if any.ls noeded, concerning new applications
+for time, time allotmunt, ete.
+Pending Items Items
+1. Preparation of programming memo to programmers for converting
+704 to 709 (Corbato)
+2. Wang offer (MeCarthy)
+
+For your information:
+
+Kudlick accepts ataff position at Center starting August 1.
+
+New policy for distribution of IBM manuals is to ask the
+person requesting one to sign name on sign-up sheet.
+
+Loren Bullock has latest manuals without ma jor erTors, we hope.
+
+IBM Customer Engineering manuals for 700 and 90 have
+arrived and are checkdout to Herb Teager.
+
+Peter Vegner 1s welighing an offer from the Department of
+Social Relations at Harvard
+
+Faculty Workshop for senior engineering professors (ineluding
+three department heads) will be offered May 25-June 3.
+Lirrangements at the Center have been made by Corbato, Miller
+of Civil Engineering is in charge of the Committee and irden
+is nominally directing the course in Fortran programming.

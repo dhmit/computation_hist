@@ -1,0 +1,45 @@
+MAKING HIGH-SPEED DIGITAL COMPUTERS EASIER TO USE
+BY THE OCCASIONAL USER
+
+Statement of the Problem - Large, electronic digital computers
+have great potentialities ror advancing research in the many areas
+which require a great deal of drudge calculation, but up to now
+thelr potential capabilities have been hampered by 2 "mismatch"
+between machine and possible user. Speclal input eguipment is not
+yet designed to allow masses of experimental data to be fed directly
+to the machine; special output equipment is needed in order %o display
+results Iin compact and easily understandable form; and the present
+. ¢ode of instructions %o the maching the "machine langauge" is not
+easy to learn or to use.
+
+The basic difficulty is that electronic computers are extremely
+complex pieces of equipment and a great deal of study will be
+required before we can understand its behavior well enough to be
+able to control it effortlessly and flexibly. At present one who
+wishes to use a large computer often has to spend three to five months
+developing, encoding and testing a program to instruct the machine how
+to perform the necessary millions of opervations which, at the end, the
+computer will carry through in a few hours. True, these five months
+of preparation plus the few hours of actual computation may be much
+shorter than the several years required to obtain the same results by
+using a desk computer, nevertheless it is obviocusly desirable to
+devise procedures which will shorten this preparation time, even at
+the expense of additional machine time.
+
+Program for Research on Machine Capabilities - In order to
+learn how O make UiZital computers easier to use one must have a
+machine of large capacity, a large supply of possible computations
+To be done, drawn from a wide varilety of scientific fields, plus a
+staff which thoroughly understands the machine behavior and is
+interested in working with the prospective users in order to simplify
+methods of use, With this combination of equipment and staff it
+should be possible, in a few years, toc work out special operating
+programs, additional input and output equipment and other techniques
+which will considerably reduce the time and effort required to get
+a problem solved by the machine,
+
+The M.I.T, Computation Center - The one place in the United
+States where this cowbination of machine, variety of problems and
+staff already exists %8 at M.I.T. This past year IBM has installed
+a 704, of the most up-to-date capaclty for the use of the college
+and unlversities of New England., M.I.T. has contributed most of the

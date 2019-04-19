@@ -1,0 +1,40 @@
+INTRODUCTION
+
+This memorandum is based on the FAP Reference Manual (June 1, 1959)
+written at the Western Data Processing Center, U.C.L.A., and has been
+
+updated in accordance with their Reference Manual (February, 1960).,
+
+FAP (the Fortran Assembly Program) was programmed at the Western
+Data Processing Center by David E. Ferguson and Donald P, Moore to satisfy
+the need to produce machine language subprograms for use with 709 FORTRAN.,
+FAP is a fast, versatile general purpose assembler that has the additional
+
+advantage of operating within the FORTRAN-FAP Monitor System,
+
+When assembling FORTRAN subprograms, FAP provides all necessary in-
+formation for direct communication with FORTRAN subprograms, including
+the program card and an appropriate transfer vector, Further, FAP output
+is in the binary card format required by the FORTRAN BSS loader and is
+in proper relocatable form for the BSS control., At the programmer's
+option the assembler will produce binary card output and will always
+produce an off-line assembly listing. The speed of assembly is the time
+required for one pass of the tape containing the program to be assembled
+(on-=line card input is not permitted), plus the time required for output
+
+of the assembly results,
+
+FAP subprograms (which may be main subprograms) may call upon FORTRAN
+subprograms, FORTRAN Library functions, or FAP subprograms, The Monitor
+system and the BSS loader provide the necessary communication, based upon
+information given by the programmer in a set of pseudo-operations (see
+CALL, ENTRY, and COMMON). FAP subprograms written for use with either
+FORTRAN or FAP main subprograms may similarly call other FORTRAN or FAP
+subprograms or Library functions so that an unlimited hierarchy of sub-
+programs may be constructed. The entire hierarchy, provided all programs
+are present, may be assembled, compiled, and executed automatically.
+Because the Monitor accepts programs in either binary or symbolic form,
+all programs need not be assembled or compiled at the same time but may
+be assembled in stages, offering a very powerful tool for preparing and
+
+debugging sections of large programs,

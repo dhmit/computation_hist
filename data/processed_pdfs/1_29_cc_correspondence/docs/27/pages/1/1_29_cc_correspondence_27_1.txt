@@ -1,0 +1,45 @@
+S : —Fm+
+COMPUTATION CENTER
+Massachusetts Institute of Technology
+Combridge 39, Massachusetts
+
+To: ALl Prograumsrs ¥arch 20, 1961
+From: Operations Staff
+
+- Subject: Recent IBM Revisicns and Extensions of the Portran-FAP Homi tor System
+. : =
+
+The Computation Center plans to imtroduce the recent IBM revisions
+and extensions to the Fortran-FAP Momitor System om April 3, 1961, The
+revisions provide a faster operating system; both Fortran compilation and
+BSS loading time have been significantly decreassed, The oxtensions imnelude
+the additional control ecard opticns such as LABEL and LISTR deserided im the
+slightly revised Refersnce Manwal T09/7090 Fortran Programming System (C28-
+6054-2). These chenges are extensive and must be made compatible with our
+existing system. | |
+
+Because these revisions require changes in present prograwning
+practices, the Center is delaying the imclusion of thew in the Systew wmtil
+the cbove date. These changes are:;
+
+1, All gymbolie subprogran decks within a Job or chaim link must
+precede all the bimary subprogram decks for that Jjobb or chaim limk., No
+H llerith cards may appear in a deck between the first bimary card and the
+CHAIN or DATA card. '
+
+2, The faster BES loading program does not allow execution to
+take place if the program loaded (exclusive of COMMON) overlaps the loader
+and its8 tables, Thus a few Jobs charscterized by a large umount of program
+and little COMMON which run under the present system, may not rum im the
+
+3, The Chain tapes have been changed internally to Ad, B2, and
+B3. Thua A4 (logical 8) is the recoumended chain tape amd may not be wsed
+as a scratch tape for chaim Jobs; Bl can be used instead. 8@mmé§_1nmgm&g@
+Compatibility is maintained though, 1i.e., the statement
+
+CALL CHAIN (REC,B1)
+will compile im such a way that physical tape Ad is used instead of B1
+4. The DATE control card will be ignored and treated as a COMmEnt
+
+if used, Im the MIT system, the date on which a job is rum will atomatically
+appear on the page neading .

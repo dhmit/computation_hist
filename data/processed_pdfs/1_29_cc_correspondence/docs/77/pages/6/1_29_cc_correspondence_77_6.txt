@@ -1,0 +1,84 @@
+LOCATION
+FIELD
+
+LOCATION
+COUNTER
+
+COMVON pscudo-operation or has becn mad: the synonym of
+
+4 common cxpression by th: SYN or EQU pseudo-opzration.
+
+Any symbol which is not absolute or common is "'relocatablec."
+
+In particular, a symbol which occurs in the location field
+
+of a 709 machine operation is r:locatabl:.
+
+The location field of an instruction should either be blank
+
+or contain a single symbol, possibly preceded and/or followed
+
+by blanks. Th: normal purpose of using a location symbol is
+
+to give a "name" to tiae instruction with which the location
+
+symbol is associated, so that the instruction may be referred
+
+to by this name in other instructions of the program. Symbols
+
+are also used as the names of locations containing data used
+
+by a program, and as the names of parameters.
+Symbols may be '"defined" in two ways. A symbol may be defined
+
+by placing it in the location field of some instruction, or
+
+it may be defined by identifying it as the name
+
+program,
+
+of a sub-
+Every symbol used in the program must be defined
+
+exactly once. A list of duplicately-defined symbols is
+
+given immediately preceding the program listing, and a 1list
+
+of undefined symbols is
+
+The assembly process consists of two passes. The first
+
+pass involves building a dictionary. This dictionary contains
+
+the numerical value and the type (absolute, common, oOr re-
+
+locatable) of each symbol. The second pass uses this diction-
+
+ary to substitute for cach symbol in the variable field its
+
+value as computed in the first pass. The assembler keceps
+
+track of symbol values by use of the "location counter,"
+
+At the besinning of each pass, the location counter is set
+
+to zero (or the length of the transfer vector--see below).
+
+Each time a machine instruction is encountered, the location
+
+counter is increcased by one. Thus when a symbol appears
+
+in the location field of an instruction, the value assipgned
+
+to that symbol corresponds to the location that instruction
+
+will occupy during execution of the program. Pseudo-operations
+
+e
+
+given at the end of the program listing,
+
+rQ
+; '71U§."55101\b
+
+[4:_\1

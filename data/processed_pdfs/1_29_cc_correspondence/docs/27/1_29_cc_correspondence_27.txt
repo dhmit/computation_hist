@@ -1,0 +1,51 @@
+TE ——
+
+COMPUTATION CENTER
+Massachusetts Institute of Technology
+Cambridge 39, Massachusetts
+
+To: All Prograumsre March 20, 19861
+From: Operations Staff
+
+Subject: Recent JBM Revisions and Extensions of the Portran-FAP Bomftor System
+: a
+
+The Computation Center plans to imtroduce the recent IBM revisions
+and extensions to the Fortran-FAP Momitor System om April 3, 1961, The
+revisions provide a faster operating system; both Fortran compilation and
+BSS loading time have been significantly decreased. The extensions imelude
+the additional control ecard options such as LABEL and LISTS described im the
+slightly revised Reference Manual T08/7090 Fortran Programming System (C28-
+6054-2). These changes are extensive and must be made compatible with our es
+
+> =
+
+existing system,
+
+Because these revisions require changes in present prograwning
+practices, the Center is delaying the imclusion of thew in the System wntil
+the above date. These changes are:
+
+1, All gymbolie subprogram decks within a Job or chain link must
+precede all the binary subprograms decks for that Job or chaim limi. No
+H llerith cards way appear in a deck between the first binary card amd the
+CHAIN or DATA card. |
+
+2, The faster BES loading program does not allow execution to
+take place if the program loaded (exclusive of COMMON) overlaps the losder
+and its tables, Thus a few Jobs characterized by a large umount of Program
+and little COMMON which run under the present system, say mot rum im the
+
+3, The Chain tapes have been changed internally to Ad, BZ, and
+B3. Thua A4 (logical 8) is the recommended chain tape amd may not be used
+as a scratch tape for chaim Jobs; Bl can be used instead. Source language
+Compatibility is maintained though 1.@,, the statenent
+
+CALL CHAIN (REC BI)
+will compile im such a way that physical tape Ad is used instead of Bl.
+4. The DATE control card will be ignored and treated ss a COMmEnt
+
+if vaed, Im the MIT system, the date on which a job is rum will atomatically
+appear on the page tending
+
+

@@ -1,0 +1,46 @@
+the various control cards, source decks (with or without data)
+and object subprograms may be intermixed in the same job-file.
+The different types of job-files may be intermixed on the same
+
+input tape.
+Y DIAGNOSTICS
+FORTRAN compiler diagnostics are indicated by messages on the on-
+line printer. The Monitor has its own diagnostics, independent
+
+of the FORTRAN diagnostic system. On-line operator options for
+
+machine error stops, however, are given in the same way.
+
+I11. STOPS
+
+ 
+
+50g 1-CS stop. Bad library tape or check sum. Depress
+the Start Key to try again.
+
+417 Card-to-tape Simulator stops. Stops with HPR 7777g
+in storage register. Illegal card character code.
+
+4218 Stops with HPR 777778 in storage register. Redundancy
+
+ 
+
+error in writing tape. For the stop at either 4178
+
+or 4215 to re-write the bad record, empty the card
+
+reader hopper, and feed out all cards in the card
+
+ 
+
+reader (followed by the remainder of the deck) in
+the hopper; ready the card reader, and depress the
+Start Key.
+
+258 Stop at object time. Redundancy tape check while
+reading a chain link at object time. Five attempts
+have been made. Location 238 will have tape number
+
+in the address.
+
+e

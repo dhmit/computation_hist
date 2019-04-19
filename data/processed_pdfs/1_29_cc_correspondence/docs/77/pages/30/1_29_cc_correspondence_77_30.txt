@@ -1,0 +1,50 @@
+Reference
+to Subprogram
+via the "'$"
+
+wvhich is a parameter; generate a tagless PZE instruction
+whose address is the value of this expression and do likewise
+for each succeeding subfield until the end of the variable
+
+field has been reached.'
+
+Even when a program is entirely in symbolic language, it
+usually pays to break it up into several subprograms for
+debugging. In this way the component parts may be debugged
+separately, and replaced by binary decks as soon as they
+have been debugged. This procedure minimizes the amount
+of reassembly necessary for each debugging run. If a
+program uses voluminous tables, it is wise to make up a
+separate '"subprogram'" containing only the tables, so
+
+that the tables do not have to be reassembled each time.
+For such purposes as this, it is useful to have a means
+of referring to subroutines other than the CALL pseudo-
+operation. Such means has been provided by the assembler,
+and consists of using the character "$", followed by the
+name of a subprogram, as a symbol in the variable field
+of a 709 machine operation. The "$" in the variable field
+says to the assembler, "The following symbol is the name
+of a subprogram. If this name is not already in the
+transfer vector, place it there and define the symbol as
+a relocatable symbol in this program whose value is the
+address of the transfer-vector cell containing the name.
+Now assemble this instruction in the normal manner, and
+ignore the "$"." The "$" therefore need precede only the
+first reference to the subroutine, and is entirely un-
+necessary if the subroutine name occurs in the first
+subfield of the variable field of a CALL pseudo-operation.
+
+——————————————————————_———————————_—
+
+of any instruction in which it occurs. It may be used
+
+L — L ————————————————.  —— ————————————— ——
+
+in the address subfield of the variable field of any 709
+
+machine operation but must not be used in the variable
+
+—— —— S ————————— ——— ——————
+
+field.2£ a pseudo-operation. As an example, suppose that

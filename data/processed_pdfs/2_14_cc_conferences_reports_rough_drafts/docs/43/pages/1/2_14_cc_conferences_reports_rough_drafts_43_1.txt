@@ -1,0 +1,51 @@
+COMPUTATION CENTER
+Massachusetts Institute of Technology
+Cambridge 39, Massachusetts
+
+BULLETIN Number 15
+December 1, 1960
+
+Index of Share Distributed Programs
+
+The index of Share-distributed programs has become such a large
+document (43 pages the last time) that the usual method of producing and
+distributing it has become impractical. Instead, this index will be kept omn
+file, in pucnhed-card form, as if it were itself a Share-distributed program,
+¥hile at the Center, programmers may request @ listing of or a copy of this
+deck by £illing out a card processing requisition and asking for the "Share
+index". Out-of-town users may request copies by mail to Judy Spall, Room 26-153.
+This card deck will be updated about every three months,
+
+Fortran-Fap System Library
+
+Enclosed with this copy of the Bulletin is a list of the subprograms
+currently on the FMS library tape. Copies of the writeups of these routines,
+as well as extra copies of this 1list, are available in Room 26-153, Judy Speall
+will see that mail requests are answered. "
+
+FMS Notes
+FMS users should be aware of the following items,
+
+1) FLIP cards, which are produced before the punched ocutput of each
+job and before each binary subprogram deck, can be left in the card decks and
+will be ignored during loading. FLIPped around 80O they are readable, they
+serve as teb cards since the corner cuts will be reversed.
+
+2) Starting December 1, 1980, jobs will be terpinated when thelir
+lines of cutput exceeds (by 25%) the "estimated lines of output” specified
+on the ID card, This is a safeguard ageinst wild output loops., To facilitate
+this change, any programmers who have card decks of (STH) and (SPH) should
+exchange then for mew ones. Incidentally, the estimated lines of output
+ghould include any break-point F2Z2PM output.
+
+3) F2PM, the new post-mortem program, is now on the systems tape
+and is part of the "standard” operating procedures. (See CC lMemoranda 187.)
+The following changes have been neccesary.
+
+a) All main subprograms ccompiled by Fortran have two additional
+precompiled instructions - CLA $(F2PM) and STO 7 - to set up the
+manual restart entry point., FAP msin subprograms should also
+contain these two instructions,
+
+b) The subprogram EXIT has been modified to call (F2PM) which
+returns control to the monitor.

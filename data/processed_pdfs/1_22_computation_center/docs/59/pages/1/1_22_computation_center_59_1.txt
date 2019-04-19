@@ -1,0 +1,30 @@
+HISTORICAL SUMMARY
+
+This report is the beginning of a new serles of
+Progress Reports, on the activities of the MIT Computaticn
+Center in education and research in the general area of
+the utilization of high speed digital computing equipment
+in sclience; engineering and management practice.
+
+Previocus Activity at M.I.T. - It is not the first
+Progress Report on the subjeet to have been issued at MIT,
+for the Institute has had a long history of aectivity in
+the construction and utilization of computing equipment.
+Por example, in 1936, the first model of the Bush Differen-
+tial Analyzer was put into use at the Institute; many problems
+in physic¢s and engineering were sclved with its help. In
+(see FV) the more accurate, electronically controlled
+Rockefeller Differential Analyzer was put into use. During
+World Warr II it was of great assistance in solving many
+sclentific problems arising out of war work. In (see WWfiles)
+construction was started on & high-speed digital computer,
+which came to be called Whirlwind I. Desizgn and construction
+was supervised By Dr. J. Forrester and the work was financed
+by the ONR, under Contract No.
+
+Whirlwind I came inte operation in
+Although most of its activity has been in support of the
+Alr Defense Project now consolidated in MIT's Lincoln laborae-
+tory, up to 40% of ites time has been avallable to staff and
+
+students at the Instltute, for general research. The machine

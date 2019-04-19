@@ -1,0 +1,78 @@
+>y
+5
+J
+R
+0
+19
+®
+™
+
+g
+o BN e ) Tame $3 mcIm™mo [— el 2 e Ta i i B B % ” -~ a1 2 -
+rortovwed by UA TSB3 would HoImally be lcaded as soon 28 the assenbly process
+e . warn'd o da 3 dea welmes & 21 3 o ved 3 o L Y s D e 3 £ 21 3
+was apleted in order to cause immediate ezZecucion of the assemblec program,
+
+olic program is to be assembled with reference to 2 sSyabol
+table punched during a previous a
+vious assembly between MI GET SAP and UA SAP 150,
+If the on-line punching of the symbol table is to be suppressed, place
+UA £AF S5T between MI GRT SAP and UA SAP 150,
+
+jeto
+
+if the symbolic deck is to be read on-line during the second pass as
+well as during the first pass, it must be Placed immediately folliowing UA
+SAP 258, (or amy card which replaces UA SAP 258, UA SAP 2 NQ for example). The
+symbolic deck must still be read between UA SAP 150 and UA SAP 258,
+
+At the end of an assembly, the assembler executes a locad card sequence.
+Thus if a number of assemblies are to be done with the same semse switch settings,
+time may be saved by Puttiing the calling decks together in the proper sequence
+
+and loading them into the on-lime reader as g single deck.
+
+Putcigghﬁngolic DEcks on Tape with the Off£-Line Reader:
+
+/A SHARE 80-84 reader board should be used,
+
+The only end-of~file mark should be at the end of the last symbolic
+deck loaded on the input tape.
+
+%ach symbolic deck should be carefully checked to make sure the lagt
+card is an END card,.
+
+First Pags Stopg-:
+S T e s
+
+= e N
+
+gaxapg HTR {40@}8:
+
+[ o
+4
+
+Bhould occur only during on-line reading o:
+
+cards {i.e.: sense switch 1 down). Indicates a card
+
+27 em ) 2 g 21 o 4 “ 17 oo dala § - o de -
+punched with an illegal (non-Hollerith) ckaracter, or
+& machine error while reading symbolic cards., Ready
+B - ra- - - - - - - - - 3 - o . v
+the correct card in the readex and press start. The
+
+o 9 - 22 Tn o3 2 Sl v 9 o8 2319 % e I 4
+carae ior which the stop occurred will be the third
+
+el T > 3 1 - demsa = R el . Oy % 2.
+Carc back in the stacker after running che cards out
+
+”
+Ol Tihe Ieed,
+BT '] BTN e Fovidl A 229 - Al &S e el d 2 roodine cwombhed 3 . . =
+a 4% Q\. ~0iIL) - SO O file CORCUlivion wahlle read LA SYRDOLIC cards on
+o
+
+REadVv rermzindary of deols omnd meoc e £ 2o pede
+aCady remainder of deck <l Press svarxc.

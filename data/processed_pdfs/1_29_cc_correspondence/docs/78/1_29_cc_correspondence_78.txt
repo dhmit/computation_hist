@@ -1,0 +1,60 @@
+CCI - CYL E48 = TR
+
+MIT COMPUTATION CENTER
+Massachusetts Institute of Technology
+Cambridge 39, Massachusetts
+
+PROBLEM APPLICATION PROCEDURE
+
+The information requested in the attached form (CCF-2) is of primary
+importance to the Computation Center for several reasons -- primarily because
+it helps us serve you better. The IBM Corporation and other groups supporting
+our staff wish to hear what types of problems the Center is helping to solve.
+It strengthens our funding requests to indicate the number of government or
+other sponsored projects which are being assisted by the Center.
+
+It enables the Computation Center staff to make an approximate
+forecast of the load on the computer. This helps to prevent making commitments
+for computer time that cannot be met and helps to insure that computer time
+on any current problem will be available on reasonably short notice. In order
+to accomplish these aims, it is necessary to estimate both the amount of time
+required by a problem and its rate of usage. The answers to questions 10 and
+11 help the staff to make these estimates.
+
+However, many users or prospective users of the computer may not be
+able to estimate these times, and in other cases the estimates may be in error
+by as much as a factor of ten. Section C of Item 14 should enable the Center
+staff to check or make the required estimates.
+
+Since our estimates of computer load will be at best approximate,
+problems using a small amount of time, on the order of a half hour to an hour,
+may omit parts B and C of Item 14. However, if the time is extended appreciably
+beyond these limits a more complete description may be subsequently required.
+
+Another purpose of the information required is to help avoid dupli-
+cation of coding effort and to aid communication in the community of 704 users
+and to reduce the amount of descriptive material required in subsequent reports.
+The problem description required in Item 14 will be used by us in various
+reports emanating from the Center. In subsequent requests for additional
+computer time, you need not rewrite Item 14 unless you wish to change it.
+
+In addition, programmers making requests for problems using routines
+developed under other problem numbers may refer to the appropriate problem
+descriptions for details concerning the routines used. Answers to questions
+12 and 13 will help us classify your problem in our Semi-Annual report so other
+machine users can see if your results may be of use to them.
+
+The Center will make every reasonable effort to enable initiated
+problems to be completed within the limits of its policy, as an educational
+and research organization. This policy excludes a large amount of time for
+production runs. Time will be allocated on a quarterly basis. At the end of
+each quarter you will be asked to fill out a short progress report form which
+will include a question as to whether you require additional computer time
+during the next quarter.
+
+F. M. Verzuh
+CCF-2a Assistant Director
+
+020658
+
+

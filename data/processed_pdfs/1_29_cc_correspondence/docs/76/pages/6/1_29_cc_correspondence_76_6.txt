@@ -1,0 +1,50 @@
+IV.
+
+1'
+
+a. The instructions for reading input tape and writing
+output tape must refer to tapes A2 and A3 by their
+respective logical tape numbers,.
+
+b. The STOP and PAUSE statements should not be used.
+Programs must be terminated by a CALL EXIT or CALL
+DUMP statement, or by a READ INPUT TAPE statement
+when there is no more input data.
+
+c. The END card program option controls may be replaced
+by Monitor control cards. The END card itself is
+
+still necessary.
+
+Monitor control card information and diagnostic information,
+
+are printed off-line as well as on-line,
+
+THE CHAIN JOB
+
+In the Chain job, one program, too large to fit into core
+storage, is executed as a sequence of smaller programs,
+Each smaller program, called a link, consists of a main
+program together with all its subprograms and constitutes
+a ''machine-load".
+
+For execution, the links are stacked on any of three pos-
+sible tapes. The first link in the input deck is called
+in first for execution by the Monitor executive routine.
+The other links are executed as they are called by the
+link being executed.
+
+There are two requirements for distinguishing individual
+links: a) the start of each link must be distinguished
+when preparing the input deck, and b) each link must make
+provision for calling the following link during execution
+
+of the chain job.
+
+a. The control card CHAIN (R,T) must precede the physically
+first program (or subprogram) of each chain link, re-
+gardless of whether the link is composed of source or
+
+object programs. In the card CHAIN (R,T), T specifies
+
+=B

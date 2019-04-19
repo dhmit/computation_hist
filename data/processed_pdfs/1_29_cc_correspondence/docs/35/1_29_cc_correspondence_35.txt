@@ -1,0 +1,1130 @@
+CC=157 COMPUTATION CENTER
+Massachusetts Institute of Technology
+Cambridge 39, Massachusetts
+
+TO: Users of the Computation Center May 27, 1960
+
+FROM: Fo J. Corbato, Assistant Director in charge of
+Programming Research
+
+SUBJECT: Programming for the 709 Computer
+
+I. Introduction
+
+As was recently announced the IBM Corporation will soon
+install an IBM 709 computer to replace the present 704 computer
+at the Computation Center. Both of these computers are furnished
+free-of-charge and maintained by the IBM Corporation. The TO4
+will stop operating on June 30, 1960; the 709 is expected to
+be operating by August 1, 1960. The memo which follows is a
+summary of the essential information required for 709 program-
+ming. It is expected that there will be further memos
+clarifying areas which cause difficulty. In addition, a
+"Procedures Handbook" will be developed to codify many of the
+
+details which are described in these transition memos.
+
+II. Machine Configuration
+The 709 computer will have a 32,768 word core memory,
+two channels, about 10 magnetic tape units, an on-line printer,
+an on-line card punch, an on-line card reader, and a viewing
+and photographing cathode ray tube unit. (An additional two
+channels, a direct data entry device and about three tape units
+are reserved for development of a time-sharing project for
+the IBM 7090 due in January 1962.) On all channels there will be
+the data channel trap feature which includes the option of indirect
+
+addressing of channel commands. It should be noted that the 709
+
+
+2
+
+will not have the 8,192 word magnetic drum nor the special half-
+word logic feature which are present on the 704 at the Center.
+As with the present magnetic tape peripheral equipment, there
+will be two 150 line/minute printers, a tape-to-card punch,
+
+and a card-to-tape reader.
+
+II. Programming Systems
+A. Fortran-FAP Monitor System
+
+A large fraction of the present users of the Center
+are using the 704 Fortran programming language. For the 709,
+the Fortran language 15 basically unchanged but there is a
+ma jor improvement in that the compiler is now a part of a
+Monitor System that allows control cards and includes a SAP-
+1ike machine language assembly program called FAP. The control
+cards of the Fortran-FAP Monitor System (hereafter called FMS
+for brevity) allow one in a single run with the computer to:
+
+1. Compile several Fortran subprograms and
+punch relocatable binary decks for them;
+
+2. Assemble several FAP subprograms and punch
+relocatable binary decks which are compatible
+with the Fortran binary subprograms;
+
+3. Run the resulting collection of subprograms
+from (1) and (2) and previously compiled decks
+as a single program in the computer,
+
+IL. Or alternatively run the program as consecutive
+
+"ehain' links of a program otherwise too large
+to fit in memory;
+
+5. Use of the FMS system allows the Center to
+batch jobs on a single input tape; thus on-
+line card reading is replaced by the faster
+
+
+* J9U9
+
+“itey 1
+
+ 
+
+tape input and the inter-job time 1s reduced
+to some slight tape manipulation by the
+Monitor,
+
+Manuals on FMS and FAP will be made available soon at the Center.
+Because of the attractiveness of the above Fortran-FAP
+
+ronitor system and the effectiveness of the Fortran compiler
+
+it 1s expected that a major portion of the users of the Center
+
+will prefer to use the system for any new work. The Center
+
+staff will recommend this system to all new programmers who
+
+seek advice. This will be the case for those irow
+
+the New England colleges when distance and debugging inconven-
+
+ience are a burden. It 1s expected that considerable machine
+
+time will be saved if it 1s possible to use FMS as the principal
+
+operating system of the Center.
+
+ 
+
+The above recommendation of the Center, however, should
+not be viewed as excluding other operating procedures with
+the computer. In particular there are two principal reasons
+for deviation:
+
+1. ease of transition from the 704 to the
+709, and
+
+2. inadequacies or weaknesses (from the user's
+point-of-view) in the Fortran-FAP Monitor
+System.
+
+B. SOS System
+As is fairly well known, the original discussion of
+the 709 computer stimulated various persons in SHARE to
+develop an entirely new programming system. This system was
+
+to be reasonably compatible with SAP on the 704, be a monitor
+
+
+system, have built-in input and output subprograms, allow
+
+macros, have good debugging features and always allow to the
+
+  
+    
+
+user symbolic references to his program. The resultant system,
+
+  
+ 
+
+called SOS, was magnificently ambitious, sufficiently so, that
+
+the system is Just beginning to assume complete and debugged
+
+    
+ 
+
+form over a year after the first 709 was delivered. Many
+
+      
+    
+
+features of S0S are admirable; however, it is the consensus
+
+     
+ 
+
+of opinion at the Center that two serious liabilities have
+
+  
+ 
+
+arisen:
+
+1. The improvement in problem formulation
+technique by means of compilers is improving
+rapidly. Programming in overly-detailed
+machine language with no provision for compilers
+is not only an accident-prone procedure but
+requires one to be a machine-language specialist.
+
+    
+     
+    
+ 
+ 
+   
+  
+  
+  
+   
+ 
+ 
+ 
+   
+
+2. The very elaborateness of the SOS system which
+
+has pleased the expert programmers, has dis-
+
+couraged the development of brief, concilse
+
+programming manuals which are also self-contained.
+In spite of these objections, the Center plans to have the S505
+system avallable and be prepared to operate it for those who
+feel it is a more effective system for their needs. The
+programmer who intends to use this system will find it helpful
+to familarize himself with the following material in the Center
+Document Room.
+
+1. SOS Reference Manual - SHARE System for the
+
+——— ——— a — ——
+
+TBI 709 (loose-lcal)
+
+2. Programmers Manual for the SHARE Operating
+
+System (October 1959) by C. E. Homan, IBM
+and G. F. Swindle, SDC
+
+
+5. SHARE distributions: 478, 555, 625, 758,
+4. Lincoln Memorandum No. S5-0011, "SOS
+Llementary Reference Manual," by Roland Silver
+LC. SE9LP nssembly Program
+OEQAP 1s a SAP-like assembly program which has been
+extended to include the additional instructions for the 709,
+The sole operation it performs is to translate the users
+Symbolic machine-language program into binary card format. ..
+Consequently the user who chooses to work with SEQAP will have
+to supply title-log programs, loaders, debugging programs and
+usually will submit his runs Lop on-line oneration. This
+clumsy procedure of running orograms can easily use two and
+one-half minutes of computer time for a half-minute run... This
+estimate is based on the assumption of %0 seconds set-up, 30
+seconds of on-line card-reading time, 30 seconds operation, 30
+seconds for a manual recording of the console lights, and 30
+seconds termination -- in view of the present shortage of machine
+time, the Center feels it should discourage this form of
+operation. However, as a transition measure SE9AP or its equiv-
+alent will be available at the Center,
+D. Other Programming Systems
+The above set of programming systems are the a jor
+ones in general use. In addition, there are several other
+Systems in use at the Center such as DYNAMO, LISP, COMIT, SHADOW,
+and MAC. Fach system should be converted to the 709 by those
+who presently maintain it so that they will have continuity with
+
+their present operation.
+
+
+w vw r i em rs Pa ' Fh
+IN... fonusls Tov Lic 70S
+—t—etes arenes samsrosnis soem Statens dL il.
+
+-————
+
+The following IBM Manuals will be available at Center
+
+ileadquarters (Room 26-142) to all persons from MIT or the
+
+New Fngland colleges who have an active interest in programming
+
+for the 709. (Some manuals are temporarily unavallable.)
+Inasmuch as these rather expensive manuals are donated by IBM,
+
+the Center feels it is proper to ask each person who wishes a
+
+-
+
+manual to sign for it.
+
+J. 709-7090 Reference Manual (Form A22-650%-1),
+(The basic reference manual for the 709
+and 7090. The somewhat older 709 manual is
+Still essentially correct.)
+
+c. [Fortran Primer (Form F28-6019). (This
+manual, which has been used with the 704 ,
+1S unchanged for the 709.)
+
+WN
+*
+
+199 Fortran Reference Manual (Form C28-6054).
+oince there is essentially no change from
+704 Fortran, this material is simply a con-
+Solidation of the 704 Fortran Reference
+Manual and the 704 Fortran ITI Supplementary
+Manual.)
+
+ 
+
+3, O09 Fortran Monitor Reference Manual (Form
+C28-6065). Ta description of the Fortran-
+FAP Monitor System.)
+
+In addition, the Center wili make available the following
+
+material:
+
+1. A description of the FAP Assembly Program
+
+mn
+
+A Manual of Procedures and Conventions at
+the Center.
+
+V. Conventions and Procedures
+It 1s recommended that:
+
+1. Unless there are reasons Otherwise, the
+
+Fortran-FAP Monitor System should be used.
+
+p 1C
+
+ja
+.cap+
+
+
+2. All binary cards should be in column binary format.
+3. Input/Output operations be Gone. in DroEvame by
+standard subprograms and not be detailed machine coding.
+
+4. The use of Sense Switches should be avoided in FMS
+programs inasmuch as there is no provision. for setting the
+switches for each job in a Monitor run. In addition, the
+Monitor utilizes sense switch 6; the Center expects to
+utilize sense switches 4 and 5 for on-line output control.
+
+A programmer can easily simulate sense switches by reading
+in a pseudo-sense switch data card immediately after starting
+his run.
+
+5. Programs and data should read-in from off-line
+recorded magnetic tape and results should be read-out for
+off-line printing or punching. The use of the on-line printer
+and punch should be avoided whenever possible. In the FMS
+System special versions of the off-line BCD tape writing
+subprogram will be provided such that when sense switch 4 is
+depressed, the tape writing will be monitored at the on-line
+printer. Similarly off-line binary tape writing will be
+monitored at the on-line punch when sense switch 5 is depressed.
+Thus there should be no need for programming on-line output
+since 1f the programmer 1s present, he can have the option.
+
+6, Batches of program-produced off-line punched output
+should be terminated by an end-of-file and preceded by two
+blank cards and identifying cards punched in block letters.
+(Subprograms for this purpose will be provided.)
+
+. In the FMS system, only simplified END statements
+3 ) WY {
+
+
+should be used (i.e. no arguments).
+
+8. In all systems references to tape and channel numbers
+should be symbolic and indirect whenever possible. Thus there
+will be a minimum of inconvenience wnenever tape assignment .
+conventions must be changed.
+
+9. Each run in either the FMS or SOS system should have
+an initial (1.D.) card with a format that will be specified by
+
+the Center.
+
+The physical channels and tapes used by the FMS system
+along with the logical tape numbers to be used in Fortran
+programs are:
+
+~hysical-Loglcal-Function
+
+Al =~ 1 - System
+
+A2  - L - Input
+
+D0 2 - Output for printing
+
+AY = 8 - Fortran Intermediate
+
+Bl - 5 - Binary Input Tape and Primary
+Chain Tape
+
+B2 - 6 - Fortran Intermediate and Secondary
+Chain Tape
+
+B = “nF - Fortran Intermediate and Secondary
+Chain Tape
+
+Bi om - Output for punching
+
+The programmer should not use in his program logical
+tapes 1, 2, ‘3, 4 for other than their designated purposes and
+should not rewind them. Tape 5, 6, 7 can be used without
+restrictions as program scratch tapes if the CHAIN or the CALL
+PDUMP features are not used.
+
+Tape 8 can always be used as a program scratch tape.
+
+ 
+
+B, SC —
+
+
+In addition, the programmer can use the following logical
+
+numbers for personal tapes with his program:
+- Physlcal-lLogical
+AD =
+B5 - 10
+
+VI. Case Studies of 704 to 709 Transitions
+
+To assist programmers in preparing programs for the 709,
+a series of the more common situations will be analyzed. These
+case studies which have been prepared by Miss Marjorie Merwin
+of the Center Staff do not exhaust all the possibilities but
+should serve as a gulde to the factors which must be taken into
+account. Any conversion problems that do not appear to be
+covered here may be discussed with Miss Judy Spall of the Center
+Staff (Room 26-153, Ext. 4114).
+
+In the following examples, an arrow indicates a change
+because of the transition.
+
+No ma jor difficulties in conversion from the 704 to
+the 709 confront the Fortran user whose decks are completely
+in Fortran Source Language. In general, only a recompilation
+is necessary.
+For efficient running within the FMS Monitor System,
+
+it 1s advisable to prepare the proper Monitor cards and revise
+the source program for complete tape-to-tape operation.
+
+l. The present END card should be replaced by
+one with only END on it, and the Monitor
+control card LIST should precede each source
+
+
+90
+
+ 
+
+deck; thus all "rewards" of compilation
+go off-line.
+
+In the source deck, all READ and PRINT
+statements should be replaced by
+
+READ INPUT TAPE and WRITE OUTPUT TAPE."
+All STOP and PAUSE statements should be
+replaced by CALL EXIT or CALL DUMP state-
+ments, so that control can always be
+returned to the Monitor. The computer
+should never be allowed to stop.
+Since sense switch setting and resetting
+is not under programmer control, the use
+of internal program pseudo-sense switches
+
+should replace the true sense switches.
+
+For tape assignments and permissible logical tape units,
+
+see the "Conventions and Procedures" section of this memorandum,
+
+More detailed considerations are:
+
+l.
+
+The 704 feature of machine ‘language
+instructions interspersed with Fortran
+statements is not possible on the 709. The
+other recent extensions of 704 Fortran such
+as the additional Format features, Boolean
+statements, and the use of Function names as
+arguments have been carried over into 709 32K
+Fortran.
+
+Since the floating-point trap mode is normal
+in the 709, Fortran automatically uses a
+routine (comparable to the EFM, LFM 704
+subprogram) that sets underflows to zero and
+overflows to all 1's. When an overflow
+
+occurs, an overflow indicator is set "on",
+
+
+11
+
+B. lNortran Programs Containing SAP-Coded subroutines
+
+SiP-coded subroutines involving no input or output
+are almost directly convertible into FLAP, the Fortran issembly
+Program, since the 704 instructions are (with one exception,
+TQO) a subset of the 709 Instructions, and FAP retains the
+ma jor pseudo-ops of SAP, i.e. 9U, OCT, DEC, BSS, BES, and
+BCD (n.b. the specification of BCD is slightly changed).
+
+several pseudo-ops have been included in FAP that
+make the machine coding of Fortran programs simpler than it
+was in SAP.
+
+Programs that included input-and/or output must
+
+be partially rewritten using the 709 commands.
+
+
+Nl
+
+TING
+Cuil
+il
+
+PPC
+
+“ony
+
+ry,
+\
+
+- 4
+Ty \
+
+re
+
+wP1l
+
+NAME2
+
+converslon:
+
+-
+
+. -
+
+NAME] bt
+
+Entey pseuao-op
+
+concrols program
+card ;
+
+ 
+
+ye; TY Tn
+Pat it 8)
+LoL An Ly
+
+rST™N\" "3 as » ’ " *
+REM Zrogram |
+
+NYS ;
+Jive WD
+
+BEGIN SYN =
+BENTYV SYN =~
+SQRT BCD 1SQRT
+SIN BCD 18IN
+SUBR BCD 10UBR
+ENDTV SYN - X
+
+TR1 P7E Storage for IRl
+
+- 3 - T 1363 2
+
+| IR2 A . LOT? 2 § e or x: ¢ Li ‘ i
+n > } +1) )
+
+Beds 13 ' ) Lon for Vi ‘ Lh { N
+
+NAME BCD NAMELY
+: the name of
+Bel SXD 10h) yi DP N Wi i 1 1) 1} 3 ] the subroutine
+| SXD. IRr2,? sXD IR2,2 and entry
+point mubt
+
+TTY rip ry TRI :
+
+SXD TRE ,A ADT LI 5 correspond in
+nwt - 1 Tf - OAD
+
+Cli 1,4 (OH TEN 1,4 Aa
+
+STH NZ SIA N2
+
+
+WORDS
+
+Q
+
+IND
+
+7
+nsx SUBR, 4 TSX
+PZ ARG1 EITHER PZI
+PZE ARG? ) AL
+OR ; CALL
+CLA X CLA
+TSX SIN, 4 ——— PSX
+STO SNK STO
+IMP SNX MP
+nay SORT, 4 —— PSX
+STO SQ7Z STO
+BCD A —>UWORDS BCD
+Blank in
+coluimm 19
+mesns SAP
+enerates
+10 words
+DEC 2.0 ) DUP
+DEC- 2.5 & DEC
+RUT rhe
+CCT 226117114112 | DEC
+REP 3,2 ce
+
+TRA
+
+-
+
+i“ND
+
+—
+
+N+1,4
+
+0
+Jew
+
+TRA
+
+ND
+
+t ARG?
+
+YSUBR, 4 where # followed by symbol
+ARG1 indicates a name that
+
+should be entered in the
+transfer list
+
+CUBR, ARG1, ARG? SUBR will be entered
+In the transfer list
+automatically and
+the proper calling
+sequence generated
+
+X
+
+ZSIN,4 or CALL SIN
+SNX
+
+SNX
+
+SNX
+
+ZSQRT, 4 or CALL SQRT
+
+SQ,
+
+0 In FAP a zero in column 12
+15 used to generate 10
+words
+
+Dy 2
+2.
+2.5
+
+2261171141212
+
+C
+
+N+1, 4
+
+
+¢. oimple 402 or SAP-Regular Run Conversion bo bi
+
+rhopre are two possibllitles in this case: 1)
+convert the whole sro len nto Roprtron source languaye, ov
+(2) convert certain seevio En BAP subprosring and the ofthc.
+into Portran suopuopiehs,
+Phe LLIST case wey sce airticult at first to
+those who have not used Fortran, put many computational problems
+are described easily in Fortran. inother factor to consider
+for those who have becn using UABDC) for outpul 1s that the
+Tormat soccification in rortran is identical. The nunber of
+mathematical subroutines written for use with Fortran has
+recently increascd greatly; thus, ln many cases the original
+motivation {or using machine language coding has been removed.
+
+in example 1s presented of a simple program that
+
+was SAP-coded on the TON and may ve converted to FAP and
+
+Fortran subprograms for the 709.
+
+
+PRINT
+
+SAP
+REM
+ORG
+
+BSS
+BSS
+BSS
+LXA
+CLA
+
+-
+
+*
+Fy
+AL L ) is
+
+R21
+Lodo id
+
+TRA
+BCD
+
+4
+
+END
+
+M1008-29-1 ]
+M1008-29
+100
+
+—
+
+TART
+20 A
+50 3
+1X6) C
+N, 1 BEGIN
+A+N, 1
+
+PRINT, UABDCl ——>
+A, ,B=1 print A Block-»>
+
+BT.OC]
+4GH A BLOCK (7515.6) p —>
+
+BEG IN ar
+
+FAP
+
+RM
+i'l LA
+
+BS a
+eID
+
+NCO
+BSS
+
+CC
+LIAN)
+
+LAA
+CLA
+
+.
+meoesr
+Lin
+
+PZY
+Pz
+
+TRA
+
+JSND
+
+15
+
+No entry statement
+Siegnilles a main program
+BIGIN
+
+20
+
+50
+
+100
+
+N, 1
+
+A+-N, 1
+
+JPRINT,!
+B=]
+* +2
+X+2
+0,0,B-~A
+
+Remove these Format
+statements and include
+in IO subprog ran
+
+
+(|
+
+o
+
+ 
+
+PRINT, a ctandard subroutine for printing OAP=f{Ormod
+via Porviran
+SUBROUTINE PRINT (C,M)
+
+The dimension of .C is a dummy and can have ony vila
+
+0 >
+lini
+rogTr™y ££" . i" 7
+DIMENSION C(10)
+’ oe / . ! ’/
+bY ¢ © < ' { } ’ he» ’ F} fi
+NVYerSe oraaer oi ws LOI LTY () Lf 2) &2434 1H
+T-3 *¥ Tt ' I
+Ci ny I is] (C,H)
+: f 10 [rs \
+( E J J “/ \ yl )
+CAT RT TD fr if)
+Uhlld, PLAC \U,H/]
+- YT Y -
+A LU: -h
+shel)
+3 ¥ i rs rr
+4 — a ww. ¥ ne ’ , rol f 75. (L771 6) 4 70) (5 }! a !
+J. ” ’ »
+. - ’ IU 4 *
+-— - -— r ‘
+- Jo. /h AY — gre
+T Fr rd / ’
+’ - -—— -t a > s J
+re LL
+ML=N/ 4
+— J -
+— - 7 ge
+- — -_— y+
+SYNE — - { T
+—- a os —
+-p sr —— -
+- —
+tL _— ah _1- 2
+~ ff = re a
+- _— == J -
+’
+
+
+D. Machine Language Programs to be Run with
+
+Compatibility Package
+
+The 709 may be run in a Compatibility Mode for
+the purpose of running 704 programs that only occupy the
+lower half of core (i.e. 16,384 cells). The compatibility
+program, which occuples the upper half of core memory, assumes
+all responsibility for input and output and simulates the 4
+logical drums if they are not present on the 709. This
+simulation may be somewhat inefficient in time.
+
+Only 2 control cards need be added to the binary
+
+deck. The tape assignments are specified by the control
+card; standard control cards will be available at the Center.
+
+The ConpatibLlity Progiomn, IBIOC2, is described in
+SHARE Distribution No. 682 and the method in the IBM 709 Data
+Processing System Bulletin, "704-709 Input/Ouput Compatibility |
+Program - Compatibility II, (Form J-28-6039)",
+
+E. Other Programs for Assisting the 704 to 709 Transition
+
+The following three programs have not been tried
+
+by the Center but are brought to your attention:
+1. RL L349 (Share Dist. No. 678)
+"A binary editor for programmed 704-709
+Compatibility" for use on the 709.
+Properties: a) Reads object program as
+absolute binary cards only and object program
+cannot use trap mode.
+
+b) Editor uses 10,0008 locations and 4000g
+for each logical drum.
+
+c) Debugging features are included in Editor
+which give machine conditions and requests
+that are on control cards (of the NYDS1 type).
+
+An advantage is that the editor will operate in
+conjunction with the SOS system.
+
+
+GA SPOT (Share Dist. No. 482). |
+This is a program which runs on the 709 or
+
+on the 704 with the 709 simulator MIOSIM.
+
+The program only lists locations of all codes
+
+tJ
+
+    
+   
+   
+ 
+
+which are unique to the 704 as read from an
+
+ 
+ 
+
+absolute binary deck of the object program.
+
+   
+    
+
+ 
+
+3%, RL 0209 (Share Dist. No. 557)
+A 704% program which reads a 704 SAP program
+
+        
+    
+
+and converts 1t to a 709 symbolic SCAT program.
+
+    
+      
+
+for the S05 system. For example, RTB is
+
+      
+ 
+
+replaced by a calling sequence to an I-O
+
+routine that will be attached to all programs
+translated by RL 209. All CPY's also go into
+& calling sequence to an 1-0 routine. =
+
+ 
+           
+     
+ 
+ 
+
+Caution: there are restrictlons.
+
+  
+  
+  
+   
+  
+  
+  
+   
+  
+  
+  
+   
+   
+ 
+
+I's Machine Language Programs {o SEQAP
+
+| ———————____ —————————————————____ — ————— ———_r TE ——— | ————— | —————————"
+
+SEQAP 1s an assembler for the 709 that recognizes
+the pseudo-ops of UASAP%-7 and all the machine instructions
+of the 709; no operating system is included. Debugged programs
+and some of the large systems are probably more easily con-
+verted to the 709 via SEOQAP.
+
+To convert, remove all MITAOP commands such as
+PRG OFF, LST, PMR, etc. and replace the 704 input and output
+instructions or subroutines with the comparable 709 routines.
+
+Undebugged programs should probably not be converted
+to SEQAP since the use of the computer outside of a system is
+time consuming: tape set-up and removal time is expended,
+operator check-in and check-out is necessary, and the dumps
+
+are usually more extensive than required since non-system
+
+  
+
+dumps are generally primitive.
+
+
+Fr Se—
+
+ 
+
+19
+
+~G. The Replacement of 704 29py Loops by 709 Commands
+The conversion of Simple writing loops is shown in
+the following €Xample,
+
+ 
+
+LXA CNTR,1 LXA  CNIR,1
+
+WTB 1 | SXD TOA, 1.
+
+CPY. NY WEB, 4
+
+TIX +=) 3,3 RCHX 10a
+
+10D (TCO #) This instruction delays
+
+: the main program until
+. : data commang 1s finisheq.
+‘ . It should pe used if
+CNTR 'PZE nN CNTR ©PzZE N further. computations
+IOA TIocD A, , x % involve 4,
+
+The reading of ga full recorg in a Simple loop may
+
+ 
+
+be converted as in the following €Xample,
+
+LXA Qo,1
+RTE 4 RTB&X 3
+% CPY B RCH T0B
+v TXI x-1,1,-3 (TCO x) Wait for a1} information
+TRA EOF : to reach core
+IOD ROR :
+IOB IORP B,,-1 |
+IOCD 05,0 Disconnect channel
+Q0 PZE © |
+
+Note: 17g read N words of a. record
+Of N or more Words, the above
+program changes only at LOB,
+which becomes
+
+IOB IORP B,,y
+
+
+The trickiest situation arises 1n converting those 704
+
+programs that utilized the time between CPY instructions.
+
+There are on the 709 maximum allowable times between trans-
+
+mission commands exactly as there are on the 704.
+
+In the following example, it would be expected that the
+
+TO4 program would delay on the CPY instruction and the 709
+
+program would delay on the Load Channel instruction. (See
+
+709-7090 Reference Manual, p. 24)
+
+Example:
+
+RTB
+CPY
+CLA
+
+cry
+ADD
+CPY
+SUB
+CPY
+
+CPY
+LOD
+
+1
+A
+A
+
+Is
+
+I
+
+FRST
+QA
+QB
+QC
+QE
+
+RTBX
+
+orice
+ADD
+I.C HX
+SUB
+
+LC HX
+
+TCOX
+
+10CT
+I0CT
+I0CT
+IOCT
+I0CD
+
+Ld
+RCH
+LC HX tas
+
+FRST
+
+QB
+
+B
+
+QC
+
+C
+
+The load channel
+guarantees that IFRST
+has been executed
+
+guarantees QA
+executed and B in core
+
+brings in F
+
+
