@@ -119,5 +119,5 @@ export function start_demo(demo_params) {
     });
     renderer.create_memory_display();
     renderer.reset(instructions, initial_memory_values);
-    renderer.update(instructions, num_code_lines);
+    renderer.update(instructions, num_code_lines, highlighted_registers);
 }
