@@ -9,8 +9,28 @@ Documents over Time
 {% endblock %}
 
 {% block content %}
+<table class="table">
+    <thead class="thead-dark">
+    <tr>
+        <th>Date</th>
+        <th>Title</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% for document in documents %}
+    <tr>
+
+        <td><a href="/archives/doc/{{ document.slug }}">{{ document.date }}</a></td>
+    <td><a href="/archives/doc/{{ document.slug }}">{{ document.title }}</a></td>
+
+    </tr>
+
+    {% endfor %}
+    </tbody>
+</table>
 {% for document in documents %}
     <a href="/archives/doc/{{ document.slug }}">
     {{ document.date }} - {{ document.title }} </a> <br/>
 {% endfor %}
+
 {% endblock %}
