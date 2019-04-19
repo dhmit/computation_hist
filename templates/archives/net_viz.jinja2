@@ -14,18 +14,6 @@
 
 
     <script>
-        {#const nodes = [#}
-        {#    {"id": "Morse", "value": 45, "group": 1},#}
-        {#    {"id": "Verzuh", "value": 25, "group": 1},#}
-        {#    {"id": "Sally", "value": 10, "group": 1}#}
-        {#];#}
-        {#const edges = [#}
-        {#    {"source": "Morse", "target": "Verzuh", "value": 10},#}
-        {#    {"source": "Morse", "target": "Sally", "value": 5},#}
-        {#    {"source": "Sally", "target": "Verzuh", "value": 20},#}
-        {#    {"source": "Sally", "target": "Morse", "value": 15},#}
-        {#];#}
-
         create_force_layout({{ nodes|safe }}, {{ links|safe }});
     </script>
 {% endblock %}
