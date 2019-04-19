@@ -34,4 +34,5 @@ code {
 #available_operations {
     alignment: center;
     font-family: Inconsolata, monospace;
+    text-align: center;
 }
