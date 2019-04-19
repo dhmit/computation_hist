@@ -80,7 +80,7 @@ def populate_from_metadata(metadata_filename=None):
     {count_invalid} had invalid data.\r\n''')
     # display name variants for manual fixing with the help of Ctrl-F
     print(f'''NAME VARIANTS\r\n''')
-    for last_name in names:
+    for last_name in sorted(list(names.keys())):
         if len(names[last_name]) > 1:
             print("Last name:")
             print("\t" + last_name)
