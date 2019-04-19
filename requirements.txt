@@ -12,7 +12,7 @@ numpy
 oauth2client
 pandas
 pdf2image
-plotly
+psycopg2-binary==2.8.2
 pylint
 PyPDF2
 requests

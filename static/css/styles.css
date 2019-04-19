@@ -1,23 +1,44 @@
 html {
     position: relative;
     min-height: 100%;
+
 }
+
 
 body {
     background-color: bisque;
     font-family: 'Book Antiqua';
     margin-bottom: 120px; /* Margin bottom = footer height */
+    padding-top: 5rem;
+}
+
+h1,h2,h3,h4,h5,h6,.navbar {
+    font-family: 'Acre-Regular';
+}
+
+h1,h2,h3,h4,h5,h6,.navbar-brand {
+    text-transform: uppercase;
+}
+
+h1,h2,h3,h4,h5,h6,.navbar {
+    font-family: 'Acre-Regular';
+}
+
+h1,h2,h3,h4,h5,h6,.navbar-brand {
+    text-transform: uppercase;
 }
 
 .footer {
-    position: relative;
-    top: 300px;
+    position: absolute;
     bottom: 0;
     width: 100%;
 }
 
 .footer-img {
      height: 80px;
+     max-height: 10vh;
+     max-width: 20vw;
+     object-fit: contain;
 }
 
 .image-container {
