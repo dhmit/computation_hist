@@ -18,7 +18,7 @@ def index(request):
     # more robust once the story system takes firmer shape.
     stories = [
         'debugging',
-        'announcement_of_the_IBM_704',
+        'qualifications_for_programmer',
         'sample_story',
         'sample_story',
         'sample_story',
