@@ -1,0 +1,48 @@
+19
+
+G. The Replacement of 704 Copy Loops by 709 Commands
+
+The conversion of Simple writing loopsisAshown in
+
+the following €Xample,
+
+ 
+
+LXA CNTR,1 LXA  CNTR,1
+
+WIB 1 | SXD TOA, 1
+
+CPY A4N;1- - WIBSK 4
+
+TIX +=1,1,1 RCHX 10p
+
+I0D (TCO(~ %) This instruction delays
+
+; the main program until
+E : data Command is finisheq,
+| . . It should pe used if
+CNTR 'PZE N CNTR ©PzE N further.computations
+. IOA TocD A, , x % involve 4,
+
+The reading of g full recorg in a Simple loop may
+
+ 
+
+be converteqd as in the following €Xample,
+
+LXA Q0,1
+RTEB 4 RTB«X 3
+e CPY B RCHe TORB
+7 LRI o ) (TCOox ) Wait for a1] information
+TRA EOp : to reach core
+IOD EOR .
+IOB IORP B,,_] _
+. I0CD 050 Disconnect~channel
+Q0 PZE o ‘ ’
+
+Note: 7o read N words of a. record
+Of N or more words, the above
+program changes only at LOB
+Which becomes
+
+IOB IORP B,,y

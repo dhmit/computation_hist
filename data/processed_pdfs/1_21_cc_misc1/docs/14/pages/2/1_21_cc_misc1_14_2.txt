@@ -1,0 +1,56 @@
+STATEMENT OF THE PROBLEM
+
+High speed computers have augmented man's ability to
+handle numerical data ang to get numerical solutions
+However,
+
+ 
+
+to problems,
+the ability to handle symbols and formulas and to get
+symbolic solutions to problems is even more fundamental to sci-
+entific research,
+
+ 
+
+ 
+
+ 
+
+Relatively little work has been done to study
+the possible uses of high speed computers for such symbolic work.
+
+We are convinced that the present computers have suf-
+ficiently complex logic and are sufficiently adaptable that they
+will be efficient in symbolic work, even though they have not
+been designed for this purpose. We propose
+
+l. to explore the general problem of how a digital |
+computer can be used for symbolic work,
+
+2. to develop a machine language in which symbolic
+work can be easily carried out,
+
+3. to write a detailed "flow-diagram! adaptable to
+any high speed machine for the carrying out of
+one Iimportant class of problems,
+
+L. to write a program according to this "flow—-diagram!’
+for the IBM 704 and possibly |
+
+5. to make some recommendations for new designs in
+
+computing machines that would adapt them better
+for symbolic work.
+
+For the specific problem to be tackled we propose the
+
+inding of analytic solutions to a wide class of ordinary dif-
+
+ferential equations. This is a sufficiently broad problem so
+
+that one would have to face and solve all the basic issues that
+
+would confront us in doing symbolic work on the high speed com-
+
+puters. On the other hand, we are convinced that this problem

@@ -1,0 +1,37 @@
+CC=-157 COMPUTATION CENTER
+Massachusetts Institute of Technology
+Cambridge 39, Massachusetts
+
+TO: Users of the Computation Center ‘May 27, 1960
+
+FROM: Ko Js Corbaté; Assistant Director in charge of
+| Programming Research .
+
+SUBJECT: Programming for the 709 Computer
+
+L. Introduction
+
+As was recently announced the IBM Corporation will soon .
+install an IBM 709 computer to replace the present 704 computer
+.at the Computation Center. Both of these computers are furnished
+frée-of—charge and maintained by the IBM Corporation. Thé 70&
+wlll stop operating on June 30, 1960; the 709 is expected to
+be operating by August 1, 1960. The memo which follows is a
+summary of the essential information required for 709 program-
+ming. It is expected that there will be further memos
+clarifying areas which cause difficulty. In addition,~a
+"Procedures Handbook" will be developed to codify many of the
+
+detalls which are described in these transition memos.
+
+Llss <Machiné Configuration
+The 709 computer will have a 32,768 word core memory,
+two channels, about 10 magnetic tape units, an on-line printer,
+an on-line card punch, an on-line card reader, and a viewing
+and photographing cathode ray tube unit. (An additional two
+channels, a direct data entry device and about three tape units
+are reserved for development of a time-sharing project for
+the IBM 7090 due 1n January 1962.) On all channels there will be
+the data channel trap feature which includes the option of indirect
+
+addressing of channel commands. It should be noted that the 709

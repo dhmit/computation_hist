@@ -1,0 +1,85 @@
+PRINT
+
+SAP
+REM
+ORG
+
+BSS
+
+358
+BSS
+LXA
+CLA
+
+L
+TOX
+
+Pl
+NS
+~
+
+TRA
+BCD
+
+M1008-29-1 l
+M100&-29
+100
+
+S
+
+O TART
+-
+
+40 C
+N, 1 BEGIN
+
+PRINT, % UABDCl ——>
+A, ,B=1 print A Block->
+
+BT.OC]
+NGH A BLOCK, (71515.08) p ——
+
+BEG IN P g
+
+FAP
+e
+
+TRA
+
+QO
+]JL)I.)
+
+BSS
+BSS
+LXA
+CLA
+
+JXND
+
+15
+
+No entry statement
+signifies a main program
+BIGIN
+
+20
+
+40
+
+10O
+
+N, 1l
+
+/\H'N,’ 1
+
+FPRINT, )
+13-,
+
+-2
+
+X2
+0,0,B-~A
+
+Remove these Format
+statements and include
+in IO subproyran

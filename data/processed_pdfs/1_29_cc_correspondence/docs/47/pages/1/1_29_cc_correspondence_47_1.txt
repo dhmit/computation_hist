@@ -1,0 +1,43 @@
+i
+
+e
+
+2o
+
+PROCGRAM WRITEUP
+
+MIDPME —- DOUBLE-PHRECISION SOLUTION OF MATRIX EQUATIONS
+
+"R.M. Moroney 9 July 1958
+M.I.T. “Operations Research Project
+
+This routine is dedicated to the proposition that anybody fooling around
+with double-precision numbers is worried about loss of significant figures
+somewhere, and very likely in the solution of a set of linear equations.
+Consequently no computer time is spared in milking the best possible re-
+suits from the coefficient matrix supplied, and an estimateyog the~signi-
+
+ficant figures in the solution vector is computed.
+
+8. This routine requires one tape unit whose logical number ﬁusﬁ be spe=
+cified by a card of the form: NINE EQU X . X is noraally 9.
+
+b. This routine contains a modified version of RS005 which is avéilable
+to the user. Modifications consist only of return to i + 1 instead of
+
+X ¢+ 2 on the two sequences TSX S005, L and TSX S005 + 5 4. This rou-
+
+- T ——
+
+tine contains a tapewriting routine BOUTS? and a tape reading routine
+BLINS, which are available to the user. See Appendix I. This routine
+contains a set of floating-écint checking routines ADDOV, MULTO, and
+DIVCK, which are available tolthe user. See Appendix II.
+
+c.The coefficient matrix and right-hand side must be in normal form for
+RS005, i.e. least-significant part of number in register succeeding
+most-significant part, aggreement in sign between both parts, exponent
+of least-significant part 33 (octal) less than that of most significant |
+part. Error estimates must be normaliged single-register floating-point |
+
+numbers (error estimates will be defined later).

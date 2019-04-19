@@ -1,0 +1,89 @@
+APPENDIX
+
+Monitor Control Cards.
+
+ 
+
+These cards have an '*'" in column 1, and, with the exception of the I.D. Card,
+
+the mnemonics are in columns 7-72,.
+
+columns 2-72.
+
+ 
+
+Card Mnemonics
+152G D) Optional
+2. XEQ
+S DATA
+4. CHAIN(R,T)
+O% END TAPE
+6. LIBE
+
+Position in Deck
+
+Must precede the first card
+
+in a job.
+
+Must follow the I.D. card
+
+of a job to be executed.
+
+Must follow the physically
+last subprogram of a job
+
+to be executed and precedes
+the data, if any, for that
+job.
+
+Must precede the physically
+first subprogram of each
+
+chain link.
+
+Must follow the last file
+
+on the input tape.
+
+Must immediately precede
+source subprogram to which
+
+pertinent.
+
+-20=
+
+The I.D. Card may contain information in
+
+Function
+
+Used for identifying
+and accounting informa-
+tion. Signals beginning
+of a job.
+
+Instructs the Monitor
+that this job is to be
+
+executed.
+
+Signals to Monitor that
+no more subprograms in
+this job follow on the
+
+input tape.
+
+Identifies the Chain link
+by record number, R, and
+
+tape, T.
+
+Signals end of input.
+
+Instructs the Monitor to
+search the FORTRAN
+Library for subroutines
+during compilation and
+to include these with
+
+the object subprogram.

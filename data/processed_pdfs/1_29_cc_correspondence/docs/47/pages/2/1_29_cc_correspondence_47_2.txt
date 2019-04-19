@@ -1,0 +1,40 @@
+5
+
+ 
+
+c. Convergence of step ¢ in L, above is assured because we have
+
+Qk‘: A X, = b
+Rk’lgAxk*l-b-A(I-MA)xk-tAub-b
+
+= (1 - &40R,
+
+and our check of I - A assures convergence in the norm m:x Ixil‘
+
+de. For step d above see Hildebrand Introduction to Numerical Analysis,
+pp. L36 ff.
+
+Calling Sequence: X TSX DMEBE, L
+
+X+ 1 PZE AQD,B
+X+2 PZ GCO0D
+X+ 3 PZE E
+X+l Error return
+X+5 HNormmal Return
+A is the FWA of the coefficient matrix, stored by columns.
+B is the dimension.
+C is the FWi of 2n X n consecutive registers, separated from X,
+A,D and E, which may be used by the program for temporary
+
+workspace. Contents of these registers will be restored.
+
+D is the FWA of the right-hand side.
+
+E is the FWA of a set of B single-register floating-point numbers,
+
+the ith number being an estimste of the maximum magnitude of
+
+error in any element of the ith row of the coefficient matrix.
+These numbers are stored in every second register, and are un-
+
+disturbed.

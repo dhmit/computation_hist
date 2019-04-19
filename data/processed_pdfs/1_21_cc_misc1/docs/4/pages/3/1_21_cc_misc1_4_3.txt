@@ -1,0 +1,44 @@
+A Concordance to the Works of John Calvin
+
+One of the glories of classical scholarship is an impressive
+array of concordances to ancient Greek and Latin writers, For
+the Scriptures, too, and also for thé corpus of Roman law there
+are comparably exhaustive indices to the texts. With such tools,
+
+a wide range of questions can be answered with comparative ease.
+
+However, when the scholar moves into Christian literature no such
+faithful servants stand at his elbow. How often, for example, have
+historians of Christian thought wished that a complete concordance
+existed for the works of Augustine!
+
+Concordances of classical and biblical authors were compiled
+with enormous and tedious labor by dedicated researchers and
+their assistants, It would be hard in our day to find such persons
+to work thus selflessly for hours and years. Yet we have at hand
+an instrument of truly amazing capabilities, the electronic com-=-
+puter, to carry out research of such fundamental and necessary
+character,
+
+Some limited application of the computer has been made in
+religious thought. Using a computer, John W. Ellison prepared a
+Cancordance to the Revised Standard Version of the Bible. An
+Aquinas Concordance is under preparation. Computer technique
+is being applied to problems in Bible translation. Yet efforts such
+as these have barely scratched the surface of the vast possibilities
+of the computer in theological investigation.
+
+The need for such tools is apparent to anyone who has devoted
+years to textual and source study and to translation of religious
+works from one language to another. The translator of Calvin's
+Institutes of the Christian Religion for the Library of Christian
+Classics found it necessary to construct by hand a select word-
+list in order to insure accuracy and consistency of rendering.
+
+But such lexicographic efforts were minimal in character and only
+ancillary to the prime tasks of editing and translating. It was out
+
+of this long and laborious experience that the thought came to pro-
+pose a full concordance to the Institutes, to be followed by concor-
+dances to Calvin's other works. That these efforts could lead to a
+much wider field of concordance activity is quite obvious,

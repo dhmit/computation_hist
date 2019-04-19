@@ -1,0 +1,61 @@
+CC-55-1 Page 3 of 5
+
+The information contained on the attached summary sheets ~-
+Table I and Table II -- was obtained from the 704 Accounting Machine usage
+statistics reports which are prepared on a monthly basis (see Computation
+Center Report CCE-2). The MONTHLY 704 Usage Report contains the following
+
+date:
+1. Problem Number (M = MIT, N = N.E, Univ.)
+2. Date -- monthly period involved
+3. Programmer Number
+4, 704 Machine Time Usage by classification code
+5. 704 Chargeable Machine Time (0.01 hour)
+6. 704 Total Usage Muchine Time (0.01 hour)
+7. Number of entries made into computer.
+
+The classification code special operational tasks contain the
+following items:
+
+1. MOO2 Demonstration of the 704 as part of tours, visits, etc.
+
+2. MO10 Idle Time -- time which the 704 is idle.
+
+3. MOl IBM Cambridge use of MIT time.
+
+4, MO21 SAP -- Share Assembly Program, 704 symbolic language
+
+| routines.
+
+5. MO22 FORTRAN -~ 704 Formula Translation, an algebraic
+language.
+
+6, MO25 Share subroutines -- various utility programs for
+general 704 use.
+
+7. MO3l Magnetic tape testing time.
+
+In conclusion, it must be emphacized that the composition of certain
+categories in Table I are subject to error because the role of the sponsoring
+project appears to cross our classification lines. Many applicants classify
+their problems as faculty or educational research and avoid mention of DSR
+affiliation despite the fact that the programmers are all on DSR payroll.
+
+By calling a number of the individual project leaders, I have attempied %o
+clarify the classifications. This appears to be the best I can do at the
+present time.
+
+ 
+
+l
+FMV:nb Asgistant Director
+
+F. M. Verzuh (/
+
+Copy To: P, V. Cusick
+C. F. Floe
+
+P. M. Morse
+L
+
+. ¥, Foster

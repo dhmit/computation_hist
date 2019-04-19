@@ -1,0 +1,49 @@
+SYMBOLIC
+CARD FORMAT
+
+SYMBOLS
+
+ 
+
+THE FAP LANGUAGE
+
+Symbolic instructions are punched, one per card, in the
+
+SCAT format. This format consists of four major fields:
+
+the location field (always a fixed length of 6 characters),
+the operation field (from 3 through 7 characters in length),
+the variable field (variable length), and the comment field
+(variable length). The fields are separated by the character,
+blank., The location field always begins in column 1 (hence
+ends in column 6), The operation field begins in column 8
+and ends in one of columns 10-14, The variable field begins
+one column after the end of the operation field (hence always
+before column 17) and may extend through column 72, (By
+convention, the variable field usually begins in column 16.)
+The comment field plays no role in the instruction's function
+
+of directing the machine and may always be omitted.
+
+A "symbol" (also referred to as a "location symbol" and
+sometimes as a ''symbolic address'') is a string of one to
+six non-blank characters, at least one of which is non-
+numeric, and none of which is among the following set of
+
+eight characters:
+
++ $
+1
+/ )
+For example,
+A A.l
+1234X (12
+
+are all legal symbols, Four '"types' of symbols are recog-
+nized by the assembler, and each legitimate symbol will
+be of one of those four types. A symbol is "absolute' if
+it refers to a fixed-point number. A symbol is ''common"
+
+if and only if it appears in the location field of a
+
+=3~

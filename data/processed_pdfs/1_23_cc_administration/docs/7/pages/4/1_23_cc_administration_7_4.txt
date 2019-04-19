@@ -1,0 +1,44 @@
+L.
+has been prepared. For the use of this assembly each group of con-
+densed cards must be preceded by a standard symbolic card with CND
+as its operation part. On the first card following the CND card,
+the condensed symbolic instructions need not start in column 1, but
+once started must run continuously from card to card because the as—
+sembly program will interpret the first blank which is superfluous
+from the point of view of condensed symbolic instructions as a sig-
+nal to read another card record and go back to standard symbolic
+notation.
+
+This usage makes it possible to make modifications to a program
+on condensed cards by duplicating the card on which the instruction
+is to be changed up to the point of the change, leaving it blank
+from that point on, then inserting one or more ordinary symbolic
+cards with the changed instructions, following this with a CND
+card and then a copy of the card where the program continues in
+condensed form., This last card may be blank up to a certain point.
+
+Because of the way the condenser interprets an END card, no
+END cards will appear in a condensed deck produced by the program,
+A condensed program will always end in enough blanks to signal a
+return to standard symbolic notation so that standard END card can
+be added.
+
+CAUTION: When inserting standard cards in a condensed deck it
+is necessary to make sure that the last condensed instruction to be
+kept 1s followed by an extra blank to signal the return to standard
+notation., If the last instruction to be kept has its last character
+(usually a blank) in columm 72, it will be necessary to add a blank
+card.
+
+1t 1s not envisaged that condensed symbolic cards will be
+prepared by hand keypunching because the chances for error are too
+great and 1t is not easy to correct an error that makes an instruc-
+tion too short or too long. Instead it is proposed that condensed
+decks be prepared by the condenser program from standard symbolic
+decks.,
+
+A condensed library tape has the following form. The sub-
+routines are in 00 word (2400 character) records, except that the
+last record of a subroutine will usually be shorter than LOO words.,
+
+The first word of the first record of a subroutine is the name of

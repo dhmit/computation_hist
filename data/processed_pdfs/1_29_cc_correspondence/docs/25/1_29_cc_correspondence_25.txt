@@ -1,0 +1,74 @@
+COMPUTATION CENTER
+Massachusetts Institute of Technology
+Cambridge 39, Massachusetts
+
+Quarterly Progress Report
+
+and
+
+Computer Time Request
+
+Dear Sir:
+
+As a user of the Computation Center's facilities, you are asked to file
+a progress report with the Center each quarter. The attached form is meant
+to simplify this task and channel your efforts.
+
+Much of the information requested here is reported in the Center's
+Semi-Annual Report. This report will summarize and classify this data for
+the benefit of present and future users and the sponsors of the Center.
+
+Some other purposes of this report are to:
+
+1) serve as a request form for next quarter's computer time,
+
+2) allow the Center to update its operating records,
+
+3) give the Center a clearer picture of its user's interests and needs.
+
+The completed form should be returned to:
+
+Dr. F. Jd. corbatd, Associate Director
+Computation Center, Room 26-142
+Massachusetts Institute of Technology
+Cambridge 39, Massachusetts
+
+Since this information should appear in our eighth semi-annual report
+which is due in January, 1961, a prompt return of this form would be appreciated.
+
+7). Cts?
+
+Foiido corbatd
+Associate Director
+
+
+Sune 30 rel Ca
+
+ 
+
+Puutig this quer Aries. work Was die ‘the: préparation or a Winass dake
+tape and on ‘Goding programs for analysis of these data. Wills the project ves mot
+completed as originally planned, several advances were made.
+
+oi 1) the Gata tape profusing unting was rewritten 1a sepacablé fuss. to Sliow” Le
+date in a different format to be handled in the same manner as was the origimal set,
+In the process, new types of errors were discovered in the data, so that more ex-
+tensive diagnostics had to be writven. Also, & more aophisticated input and output
+
+Fostine was ineluied in the sepsrable sols, Big JEoETS pa Sox yEolused WU fipst.
+complete data tape. te
+
+2) fe bul or he narrate emits va completed, ond redsmsrasy
+order size ana. ysi Was performed,
+
+er 3) soiaral new programs were written for ing the results of these analyses
+43 Jotyariug The Sescytayiiiey a various wetiels of farsensiis, 354 \hess pvgrans
+have been partially debugged.
+
+Since 1+ was expacted that all production rus vould be made in the quarter
+Just completed; and . computer time was assigned accordingly, a good percentage of
+this time was left unused, The project will be completed in the coming quarter,
+with production runs to be made in this period. A report including suggestions
+made and conclusions “Tearned will be deferred wail the end of this time,
+
+

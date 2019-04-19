@@ -1,0 +1,33 @@
+TIE. AF SE wiki {0 WJINlEENA ¥ Ty »
+. -
+
+ 
+
+ 
+
+March 31, 1958
+
+Section D, Computation Center Quarterly Progress Report
+
+During this guarter we completed our routine for computing
+walting-line probabilities in the case of two-phase
+exponential servicing. When production runs were attempted,
+however, the "significant-figure check” built into our
+routine indicated that the results could not be guaranteed
+to five decimal places on runs with more than five servicing
+facilities. The results may be right, since the check 1s a
+crude lower bound on the number of significant figures, and
+not a precise estimate of the number of significant figures.
+We are trying to devise an independent check on the accuracy
+of our results, with the intention of adding thls check to
+our routine.
+
+We have completed the programming of a computation of
+walting-line probabilities for the case of constant servicing
+time. This program has to be coded and debugged in the next
+quarter, but should not offer any difficulty. A mimeographed
+sheet giving a deseription of this program will be forwarded
+to the Computation Center in two weeks and form an addition
+to Part C.
+
+

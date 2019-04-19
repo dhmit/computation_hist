@@ -1,0 +1,55 @@
+ONR Proposal - 3/57 | Page 2
+
+Nature of the Investigation, continued
+
+ggeuigg: In the field of gueuing, work is proposed in the follow-
+ng two areas:
+
+Tabulations of waiting-line functions. Fairly extenslve tables
+of waiting-line functions for Poisson arrivals and varying distri-
+butions of servicing time will be available to the public within
+the next year. An increasing demand for such tabulations when
+arrivals are not Poisson is being expressed. Methods for calcu=-
+lating such functions have already been developed. As part of
+this research it is proposed to determine and make suitable tabula-
+tio:;rof'theae functions, for publication, on the IBM TO4 computer
+at ° :
+
+Study of transient queuing behavior. Methods have been developed
+for high-speed computation of the short-term behavior of certain
+queuing situations and these have recently been successfully
+applied to a case of alirport operation. Transient situations offer
+serious problems in the successful operation of military, naval and
+civil installations. As part of this research further mathematical
+analysis will be made of these problems with the primary purpose of
+providing practical computational methods. The IBM 704 computer
+will be used to test such methods. '
+
+Budget Proposed
+
+The cost of this work will be primarily for staff salaries,
+since no direct charge is made for time on the 7TO4. The charges
+made by the Computation Center for programming and general service
+in the use of the machine by projects at MIT will average between
+$180 and $200 per hour of use of the machine, so that total compu-
+tation charges will be only about a quarter of the budget.
+
+Approximately $19,700 (see Enclosure A) is estimated as
+required to support this research for a one-=year periocd. Starting
+date is to be July 1, 1957. Past experience of progress in this
+field suggests that a continuation beyond a one-year period can
+be expected to prove worth considering.
+
+Suggrvision
+
+The project, for which the title "Computer Methods in Opera-
+tions Research" is suggested, will be under the general supervision
+of Prof. Philip M. Morse. Direct responsibility for the research
+to be carried out will be assumed by Prof. Dean N. Arden of the
+Department of Electrical Engineering and Dr. Herbert P. Galliher
+of the Institute's Division of Sponsored Research, with an
+assisting staff equivalent to 3 research assistants part time.
+
+Both Prof. Arden and Dr. Galliher have been active in the direction
+of operations research work at the Institute and ln the conduct
+personally of research and computer use in the proposed areas.

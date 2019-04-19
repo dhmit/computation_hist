@@ -1,0 +1,52 @@
+3.
+
+4, -
+
+Anticipating the turning over of Whiriwind to Lincoln, no
+additionasl moneys were requested for NSori-60 for this f£iscal year. Much
+of the gctivity under thia contract has been related to closing out the
+Whiriwind part of the work, though scme research started on Whirlwind has
+been transferred to the 704 in order to reach satiafactory compiletion of
+the work. Because of the tapering-o0ff of activity under this contract,
+it now appears that about $30,000 will still be unaxpendod by June 30,
+1958, It also appears likely that some of the more long-range research
+projects of the sort, supported by this contract in the past will still
+be going on,
+
+For example, cosmic-ray measuréments and particle accelerztor
+measurements, carried out in the Laboratory of Nuclear Science, are
+coming to use digital computers to analyze the data, Ve have been
+cooperating with them to 1nveatigate methoda whereby such.neasurementa
+can be recorded directly om cards or tape and progranmod so that the
+analysis can be carried out directly by the machine without further
+manual transeription of data., This work will continue, as will the
+investigation of various means of displaying the results of the machine
+calculations. Other long-rnnge investigations, such as that on
+artiticial intelligence, also come within the scope of the task orders
+for NSori-60,
+
+it is therefore proposed that the Office of Naval Research be
+requested to continue Contract NSori-g0 for the year beginning July 1, 1938,
+without additional funds, to continue support of long-range research of the
+sort described in the Contract's present task orders until the balance of
+the funds is exhausted. These funds would be used chiefly for persomnel
+galaries and might be allocated as follows:
+
+Senior Mathematician (1 year) : $ 9,000
+2 Technicians or Programmers 11,000
+
+(at about $5,500 per year each) 557335
+Overhead, at 45% 2,000
+Travel 500
+Incidentals (production of reports, 500
+
+office supplies, etc.)
+
+TOTAL $30,000
+
+If the unexpended balance on June 30, 1858, turns out to be less
+or more than the ostimated $30,000, this budget could be modified accordingly
+to run for a shorter or longer time than an additionsl year,
+
+Philip M. Morse
+Director, Computaticn Center

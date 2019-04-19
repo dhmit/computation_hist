@@ -1,0 +1,92 @@
+GA SPOT (Share Dist. No. 482). |
+This is a program which runs on the 709 or
+
+on the 704 with the 709 simulator MIOSIM.
+
+The program only lists locations of all codes
+
+£J
+
+    
+   
+   
+ 
+
+which are unique to the 704 as read from an
+
+ 
+ 
+
+absolute binary deck of the object program.
+
+   
+    
+
+ 
+
+3., RL 0209 (Share Dist. No. 557)
+A 704 program which reads a 704 SAP program
+
+        
+    
+
+and converts it to a 709 symbolic SCA'T' program.
+
+          
+
+for - -the 505 system. For example, RTB is
+
+      
+ 
+
+replaced by a calling sequence to an I-O
+
+routine that will be attached to all programs
+translated by RL 209. All CPY's also go into
+a calling sequence to an I-0 routine, e
+
+ 
+           
+     
+ 
+ 
+
+Caution: there are restrictilions.
+
+  
+  
+  
+   
+  
+  
+  
+   
+  
+  
+  
+   
+  
+  
+  
+
+' Machine Language Programs {o SEQAP
+
+e e ——— | ——————— ettt . St e e et | et e
+
+SEQOAP 1s an assembler for the 709 that recognizes
+the pseudo-ops of UASAP%-7 and all the machine instructions
+of the 709; no operating system is included. Debugged programs
+and some of the large systems are probably more easily con-
+verted to the 709 via SEQAP.
+
+To convert, remove all MITAOP commands such as
+PRG OFF, LST, PMR, etc. and replace the 704 input and output
+instructions or subroutines with the comparable 709 routines.
+
+Undebugged programs should probably not be converted
+to SEQAP since the use of the computer outside of a system is
+time consuming: tape set-up and removal time is expended,
+operator check-in and check-out is necessary, and the dumps
+are usually more extensive than required since non-system
+
+dumps are generally primitive.

@@ -1,0 +1,41 @@
+April 21, 1958
+
+Miss Grace Kohn
+Digital Computer Laboratory
+Princeton University
+
+- Princeton, New Jersey
+
+Dear Miss Kohn:
+
+Professor P. M. Morse has just shown me your letter of April
+9, 1958, to Dr. Seymour Parter, concerning the possibility of your work-
+ing at the M.I. T. computing center. Professor Morse, who is in charge
+of the computing center, tells me that he does not have any openings directly
+just now, but he happened to know that we are looking for a person of your
+qualifications in connection with our Solid-State and Molecular Theory Group.
+L.et me describe the sort of work we do, and the type of opening we are con-
+sidering.
+
+We have a theoretical group consisting of about a dozen persons--
+myself, Professor G. F. Koster, and the rest post-doctorate and graduate
+students. We are working on the theory of atomic, molecular, and solid-
+state structure, using quantum-mechanical methods. We have a large variety
+of problems which we have been solving on the Whirlwind Digital Computer;
+several of the past members of the group programmed these problems, over
+a period of a number of years. Now the Whirlwind is being given up, and we
+are switching to the 704, and it is a very large job to reprogram our work
+for the 704. Some of the present group members are working at this, but
+there is so much to do that we need extra help. We are looking for some-
+one with about your type of experience who would be interested in working
+into the group, and helping with this programming. As I said, several
+present members of the group are familiar with the methods we use, but they
+are busy with other things, and cannot put in enough time to do the program-
+ming themselves. However, they can be of great help in guiding the work.
+Also, we are trying to get an additional senior person, if possible, who is
+familiar with these particular problems, who could work for most of his
+time with a person of your experience.
+
+I notice that you are working on your thesis, and would hope to have
+part of your time free for your own problems. I see no reason why this can-
+not be arranged, provided you could put in a good amount of time helping us.

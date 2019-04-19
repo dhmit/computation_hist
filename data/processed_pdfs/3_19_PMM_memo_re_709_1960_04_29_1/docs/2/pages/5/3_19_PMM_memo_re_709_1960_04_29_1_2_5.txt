@@ -1,0 +1,39 @@
+Page 5.
+
+or at worst a very short delay. Such problems requiring on
+the order of 1-2 minutes of computer time suffer from the de-
+iay which occurs when they are mixed in and batched with the
+longer programs. This situation has led to the acquisition
+of many additional small machines whose principal virtue is
+their accessability, and whose defects are manifold, includ-
+ing a limited computling capacity, much higher cost per compu-
+tation, and a very limited repertiore of "higher" programming
+languages.,
+
+These machines, however, have a very great appeal to
+the average researcher. In part 1t is the same psychological
+appeal that a self-service market has over an old fashioned
+one-clerk store. In addition, however, a researcher knows
+that he can make better use of an instrument if he works and
+tries it out at close range so that he can "understand" it.
+This attitude has produced sufficient progress in the past as
+to be worthy of recognition.
+
+d. Classroom Use as a Teaching Ald
+
+There are many ideas and concepts in sclence and en-
+gineering that when applied to anything beyond the most trivial
+cases become so cumbersome to demonstrate that it 1s hard for
+the student to gain an appreciation, and a "feel"” for what is
+happening. Many problems in field theory, dynamic systems, ma-
+trix analysis, etc. share this barrier to an adequate under-
+standing. On the other hand, 1t does not help if an instructor
+merely presents a solution and says "Here it is."
+
+The student feels uneasy if he cannot see how the
+problem was formulated and solved, and gains a qulcker under-
+standing 1f he can ask to see the effect of a parameter va-
+riation, etc.
+
+Since most problems of thls nature are Increasingly
+being solved by computer, there seems every reason to include

@@ -1,0 +1,60 @@
+DEPARTMENT OF HEALTH, EDUCATION, AND WELFARE
+
+T R ————————————————————
+
+PUBLIC HEALTH SERVICE BETHESDA 14, MD.
+
+ 
+
+NATIONAL INSTITUTES OF HEALTH
+
+November 12, 1957
+
+Professor Philip M. Morse
+
+Compton Computation Laboratory
+Massachusetts Institute of Technology
+Cambridge, Massachusetts
+
+Dear Professor Morse:
+
+I have recently been appointed as an Associate Professor
+in Biophysics and am planning to start . to work at M.I.T. in
+March of 19358.
+
+I have been carrying out X-ray diffraction studies on
+the nucleic acids and other substances of biological importance.
+Many of these are elongated helical molecules, and one part of
+my research program consists of computing the Fourier-Bessel
+transform of various trial structures which are developed to
+interpret the diffraction data. The Fourier-Bessel transform
+has been developed to incorporate the helical symmetry in these
+molecules.
+
+At the present time I am carrying out this computation
+on an IBM-604 at NIH. However, I would like to use the computing
+facilities in the Compton Laboratory when I move to M.I.T. If it
+is at all possible, I would like to develop this computing program
+on the IBM-704 with someone in your laboratory who is familiar
+with programming problems.
+
+I am planning to spend a week or so at Tech some time in
+December and would appreciate it if I could visit you then and
+make arrangements for this computing problem. If it would be
+more convenient, however, I could send you or one of your assis-
+tants the details of the program prior to my visit.
+
+Sincerely yours, ‘
+ooN ! ‘ L | u /
+(\ t : "“—/ Gl CAINALAN
+
+Alexander Rich, M.D.
+Chief, Section on Physical Chemistry
+National Institute of Mental Health
+
+ 
+
+National Cancer Institute National Heart Institute National Institute of Allergy and Infectious Diseases National Institute of Arthritis and Metabolic Diseases
+National Institute of Dental Research National Institute of Mental Health National Institute of Neurological Diseases and Blindness The Clinical Center
+
+Division of Biological Standards Division of Business Operations Division of Research Grants Division of Research Services
