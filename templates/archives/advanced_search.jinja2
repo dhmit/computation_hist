@@ -104,18 +104,18 @@
                         <table class="doc_result_left_table">
                             <tbody>
                                 <tr>
-                                    <td class="td_heading">Date</td><td>{{ doc.date }}</td>
+                                    <td class="td_heading">Date : </td><td>{{ doc.date }}</td>
                                 </tr>
 
                                 {% for author in doc.get_person_list('authors') %}
                                     <tr>
                                         <td class="td_heading">
-                                            {% if loop.index0 == 0 and loop.length == 1 %}Author
-                                            {% elif loop.index0 == 0 and loop.length > 1 %}Authors
+                                            {% if loop.index0 == 0 and loop.length == 1 %}Author :
+                                            {% elif loop.index0 == 0 and loop.length > 1 %}Authors :
                                             {% else %}
                                             {% endif %}
                                         </td>
-                                        <td>{{ author.name }}</td>
+                                        <td>{{ author.name.replace("_"," ")}}</td>
                                     </tr>
                                 {% endfor %}
                             </tbody>
@@ -123,17 +123,17 @@
                         <table class="doc_result_right_table">
                             <tbody>
                                 <tr>
-                                    <td class="td_heading">Folder</td><td>{{ doc.folder }}</td>
+                                    <td class="td_heading">Folder : </td><td>{{ doc.folder }}</td>
                                 </tr>
                                 {% for recipient in doc.get_person_list('recipients') %}
                                     <tr>
                                         <td class="td_heading">
-                                            {% if loop.index0 == 0 and loop.length == 1 %}Recipient
-                                            {% elif loop.index0 == 0 and loop.length > 1 %}Recipients
+                                            {% if loop.index0 == 0 and loop.length == 1 %}Recipient :
+                                            {% elif loop.index0 == 0 and loop.length > 1 %}Recipients :
                                             {% else %}
                                             {% endif %}
                                         </td>
-                                        <td>{{ recipient.name }}</td>
+                                        <td>{{ recipient.name.replace("_"," ")}}</td>
                                     </tr>
                                 {% endfor %}
                             </tbody>
