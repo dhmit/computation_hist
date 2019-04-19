@@ -60,7 +60,7 @@ def populate_from_metadata(metadata_filename=None):
 
             if missing_metadata:
                 print(f'WARNING: Line {line_id+1} is incomplete (skipping).\
-                        \n\tMissing fields: {missing_metadata} - FIX ME in the metadata!')
+                        \n\tMissing fields: {missing_metadata} - FIXME in the metadata!')
                 count_skipped += 1
                 continue
 
@@ -77,7 +77,18 @@ def populate_from_metadata(metadata_filename=None):
     ################################################################################
     Added {count_added} documents from {metadata_filename}.
     Skipped {count_skipped} documents because of incomplete metadata.
-    {count_invalid} had invalid data.''')
+    {count_invalid} had invalid data.\r\n''')
+    # display name variants for manual fixing with the help of Ctrl-F
+    print(f'''NAME VARIANTS\r\n''')
+    for last_name in names:
+        if len(names[last_name]) > 1:
+            print("Last name:")
+            print("\t" + last_name)
+            first_names = sorted(list(names[last_name]), key=lambda name: (name[0] if len(name) > 0 else '', -len(name)))
+            print("First name variants:")
+            for first_name in first_names:
+                print("\t" + first_name)
+            print("")
 
 def add_one_document(csv_line, line_no=None, names={}):
     """
@@ -266,6 +277,14 @@ def interpret_person_organization(field, item_organization, item_person, new_doc
             if last_name == 'unknown':
                 last_name = ''
 
+            # check for duplicate
+            if last_name != '':
+                unfixed_first_name = split_name[1]
+                if last_name not in names_so_far:
+                    names_so_far[last_name] = {unfixed_first_name}
+                else:
+                    names_so_far[last_name].add(unfixed_first_name)
+
             # get first names
             first_name = ''
             if split_name[1].strip().lower() != 'unknown':
@@ -277,25 +296,6 @@ def interpret_person_organization(field, item_organization, item_person, new_doc
                             name += "."
                         first_name += name + " "
                 first_name = first_name.strip()
-
-            # check for duplicate
-            if last_name != '':
-                if last_name not in names_so_far:
-                    if first_name != '':
-                        names_so_far[last_name] = {first_name}
-                else:
-                    first_names = list(names_so_far[last_name])
-                    if first_name != '':
-                        first_names = [name for name in first_names if name != '' and name[0] == first_name[0]]
-                    first_names = sorted(first_names, key=lambda x: len(x), reverse=True)
-                    if len(first_names) > 0:
-                        likely_match = first_names[0]
-                        if len(likely_match) > len(first_name):
-                            print("First name here for last name", last_name, "is", first_name + ".", "Did you mean",
-                                  likely_match +
-                                  "?")
-                    if first_name != '':
-                        names_so_far[last_name].add(first_name)
 
             new_person, _unused_person_created = Person.objects.get_or_create(
                 last=last_name,
