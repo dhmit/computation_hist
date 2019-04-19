@@ -69,16 +69,15 @@
 
 
 <main role="main" class="container mb-4">
-    <h1 >{% block header %}{% endblock %}</h1>
-
     <div class="starter-template">
-        <p class="lead">
-            {% block table %}
-            {% endblock %}
-        </p>
-    </div>
+        <h1 >{% block header %}{% endblock %}</h1>
 
-    <div>
+
+            <p class="lead">
+                {% block table %}
+                {% endblock %}
+            </p>
+
         {% block content %}
         {% endblock %}
     </div>
