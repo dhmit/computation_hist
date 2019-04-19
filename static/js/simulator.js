@@ -1659,7 +1659,7 @@ export class Assembly_Line {
     }
 }
 
-function timer(ms) {
-        return new Promise(res => setTimeout(res, ms));
-    }
+export function timer(ms) {
+    return new Promise(res => setTimeout(res, ms));
+}
 

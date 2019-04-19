@@ -1,6 +1,6 @@
 'use strict';
 
-import { Assembly_Line, IBM_704 } from './simulator.js';
+import { Assembly_Line, IBM_704, timer } from './simulator.js';
 import { DemoRenderer } from './render.js';
 
 export const assembly_addition_demo_params = {
@@ -101,8 +101,11 @@ export function start_demo(demo_params) {
     });
     $('#run_button').on('click', async () => {
         computer.halt = false;
-        computer.run();
-        renderer.update(instructions, num_code_lines, highlighted_registers);
+        while (!computer.halt) {
+            computer.step();
+            renderer.update(instructions, num_code_lines, highlighted_registers);
+            await timer(750);
+        };
     });
     $('#step_button').on('click', () => {
         computer.halt = false;
