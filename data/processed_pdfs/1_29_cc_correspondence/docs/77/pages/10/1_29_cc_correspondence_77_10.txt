@@ -1,0 +1,57 @@
+BOOLEAN
+EXPRESSIONS
+
+ 
+
+instruction
+
+LOCATION OP VARIABLE FIELD
+ALPHA TRA *4+2
+
+is equivalent to
+
+ALPHA TRA ALPHA+2
+
+and represents a transfer to the second location following
+the location containing the transfer instruction. There
+is no ambiguity between this usage of the asterisk and
+
+the use of the asterisk to denote multiplication, since
+the position of the asterisk within the expression always
+makes clear what is meant. Thus "**10" clearly means ''the
+current value of the location counter multiplied by 10."
+("**10" would be a relocation error by itself, but expres-
+sions like "R1*11-%%10" or "**10-R1*10'" are permissible,
+and are often useful in constructing tables.) Note: The
+expressions '**'" and "*-*" are both absolute expressions
+
+whose value is zero.
+
+An expression if Boolean if and only if it forms an '"octal"
+subfield of the variable field of a VFD pseudo-operation,
+forms the variable field of a BOOL pseudo-operation, or
+forms the variable field of a type-D machine operation.
+
+(The type-D machine operations are SIL, SIR, RIL, RIR,
+
+IIL, IIR, LNT, RNT, LFT, and RFT.) In a Boolean expression,
+
+" LA " "
+’
+
+the four operators: + , x" and "/" have Boolean
+
+meanings rather than their usual arithmetical meanings,
+
+as follows:
+
+Y CiorY - "1nelusive oxr', "='" ("exclusive or'", "symmetric
+union'') difference")
+0-(-0:0 0—0‘20
+04l im 1 0=3 =1
+
+—
+
+e e
+
+s

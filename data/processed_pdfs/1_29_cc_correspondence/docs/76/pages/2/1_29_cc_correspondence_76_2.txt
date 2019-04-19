@@ -1,0 +1,39 @@
+PREFACE
+
+The following memorandum is an edited and abbreviated version of
+a Preliminary 709 Monitor Manual (May, 1960) written at IBM. The I'ORTRAN-FAF
+Monitor System consists of three basic programs: a Monitor, a Compiler,
+and an Assembler. The function of the Monitor is to coordinate compiler
+and assembler processing and to simultaneously provide means for initiating
+execution of object subprograms. Thus, continuous machine operation is
+possible regardless of what combinations of source and object subprograms
+
+the Monitor encounters.
+
+The control cards of the FORTRAN-FAP Monitor System allow one in
+
+a single run with the computer to:
+
+1. Compile several FORTRAN subprograms and punch relocatable
+binary decks for them;
+
+2. Assemble several FAP subprograms and punch relocatable binary
+decks that are compatible with the FORTRAN binary subprograms;
+
+3. Run the resulting collection of subprograms from (1) and (2)
+and previously compiled decks as a single program in the
+computer,
+
+4. Or alternatively run the program as consecutive ''chain' links
+
+of a program otherwise too large to fit in memory;
+
+Use of the Monitor system allows the Center to batch Jobs on a
+single input tape; thus on-line card reading is replaced by the faster
+tape input and the inter-job time is reduced to tape manipulation by
+the Monitor. Thus, the Monitor is a supervisory program for FORTRAN,
+FAP, and object subprograms. The Monitor calls in the various pro-
+cessing programs as needed; it is only necessary to inform the Monitor
+what type of processing is to be expected. This memorandum describes
+
+the control cards necessary for Monitor operations.

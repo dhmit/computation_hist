@@ -1,0 +1,34 @@
+Clarification of the FORTRAN-FAP Monitor System
+Description (Memorandum CC-160)
+
+The description of the FORTRAN-FAP Monitor System (FMS), pre-
+sented in CC-1G60, is basically a preliminary version prepared by
+IB with only slight editing by the writers. In order to rapidly
+
+distribute the information, extensive rewriting was not done,
+
+in the interim between typing and reproduction, the following
+changes have been found to improve the clarity of the Description,
+
+P, 1, line 1, word 5: Replace "an" by "a slightly’.
+P., 2, delete entire page except next to last paragraph.
+
+P. 3, delete tables of Execute Job and Non-Execute Job and the
+preceding sentence.
+
+P, 4, line 4: The sentence beginning "The input program...” by
+"The resultant program consists of a subprogram sequence,
+with one main subprogram, which should not be larger than
+the available corc storage; this constitutes a "machine-load”,
+
+P, 5, line 7: Insert at the beginning of the line "if it is
+intended to terminate”.
+
+iine 8: Replace replaced” by “superceded”.
+
+P, 6, line 7: Replace tape input-output” by CHAIN",
+
+P, 19, line 14: Replace "NOT REWOUND BY PROGRAM" by "NOT REWOUND
+BY MONITOR".
+
+

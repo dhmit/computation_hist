@@ -1,0 +1,53 @@
+CC-55~1 Page 1 of §
+MIT COMPUTATION CENTER
+Massachusetts Institute of Techrology
+Cambridge 39, Massachusetts
+MEMORANDUM
+To: P, V. Cusick and C. F. Floe ; Date: January 27, 1958
+Fxrom: F. M. Verzun
+
+Subject: Summary Report of the 704 Usage During 7-Month Period June 17 -
+December 31, 1957.
+
+ 
+
+In accordance with our recent financial discussion concerning the
+operation and usage 0f the 704 computer, I have prepared a 7-month summary
+of the usage of the 704 computer during the period June 17 ~ December 31, 195%7.
+
+This memorandum contains two tables which classify and summarize the
+problems using 704 computer time. Specifically, this information is summarized
+in two tables containing the following information:
+
+TnBLE I: contains a classification of 704 problems groupcd
+according to sponsorship.
+
+TABLE II: contains a classificetion of problems grouped according
+to applicant and ares of his activity.
+
+Table I is of principal concern to MIT administration since it
+indicates the sponsoring groups and therefore provides a means for evaluating
+cost allocation studies. Table I contains the following categories: '
+
+15 bSR project-sponsored problems, :
+
+2. MIT Computation Center-sponsored studies,
+
+3. Grant in aid projects -- School of Industrial Management (SIM),
+IBM research assistants, and other MIT grants,
+
+4, MIT Nuclear Engineering Projects -- Prof. Berezdiet,
+Prof. Thompson, et al,
+
+MIT classroom use,
+MIT student theses,
+Ungponsored rasearch,
+
+NeW England Universities,
+
+O O 1 &
+
+Special gperational task,
+10. IBM Cambridge
+
+11l. Maintenance (IBEM customer engineering)

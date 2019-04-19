@@ -1,0 +1,40 @@
+Page 6.
+
+such computer capability, as well as all it implies, as part
+of ‘a lecture room.
+
+There is a further possibility of substituting com-
+puters for teachers and having the computer "lecture", analyze
+answers, and in effect modify its course of teaching based
+upon a much closer feedback from the student than is possible
+in a large lecture class. Such techniques can be more ad-
+equately evaluated with the proposed time sharing system.
+
+€. Real-Time Experimentation
+
+In some systems, a need 1s developing for on line
+measurement, computation, and feedback in order to more direct-
+ly determine cause and effect. This is becoming increasingly
+important in the area of analysis of neurological signals in
+living animals. In addition, there are synthesis problems of
+importance, for example the compositlion of such art forms as
+music, using a computer as a tremendously flexible musical in-
+strument. For that matter, many other "design" problems, par-
+ticularly large systems are also in the realm of being an
+"art" and can be aided and made into more of & Science by si-
+milar techniques. Here again, however, there 1s a need to
+provide a close feedback between the human and the machine.
+
+The problem areas cited above by no means exhaust
+the range of application for real-time and time-shared com-
+puter usage. They were chosen to bring out both the range of
+diversity of problems where human decision and machine de-
+clsion can be mated very effectively to achieve far more than
+elther by ltself.
+
+Problems Raised by Real Time Computer Usage
+
+Real time computer usage is worthwhile, but it raises a
+host of problems that need solution. These problems lie gener-
+ally in one of four areas, namely, systems, peripheral equip-
+ment development, scheduling, and program development.

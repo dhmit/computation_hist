@@ -71,62 +71,6 @@ def populate_from_metadata(metadata_filename=None):
                 print(f'{e}. Line: {line}.')
 
 
-    print(f'Creating full text search tables...')
-
-    sqlite_path = DATABASES['default']['NAME']
-    db = sqlite3.connect(sqlite_path)
-    cursor = db.cursor()
-
-    # Create full text search table for document text, title, author, recipient, cced
-    # delete old table if exists before populating full text search table.
-    cursor.execute('DROP TABLE IF EXISTS doc_fts;')
-    cursor.execute('CREATE VIRTUAL TABLE doc_fts USING FTS4(id, title, text, author, recipient, cced);')
-
-    # TODO(ra): this should probably be in the inner loop above, so we don't
-    # have to iterate over all of the docs twice
-
-    for d in Document.objects.all():
-        # Create pages
-        if d.last_page != 0:
-            for i in range(1, d.number_of_pages +1):
-                if Page.objects.filter(document=d, page_number=i):
-                    pass
-                else:
-                    new_page = Page(document=d, page_number=i)
-                    new_page.save()
-
-        # Create full text search tables
-
-        # We join together all author names. By default, first and last name are joined by an
-        # underscore -> replace with a space.
-        # sqlite expects quotation marks and apostrophes to be escaped by doubling
-        # them, e.g. he''s. However, the fts table tokenizer splits them up anyway -> it's easier
-        # to just replace them with spaces.
-
-        author = " ".join([p['name'].replace('_', ' ') for p in d.get_person_list('authors')])
-        author = author.replace("'", " ").replace('"', ' ')
-
-        recipient = " ".join([p['name'].replace('_', ' ') for p in d.get_person_list('recipients')])
-        recipient = recipient.replace("'", " ").replace('"', ' ')
-
-        cced = " ".join([p['name'].replace('_', ' ') for p in d.get_person_list('cceds')])
-        cced = cced.replace("'", " ").replace('"', ' ')
-
-        title = d.title.replace("'", " ").replace('"', ' ')
-        text = d.text.replace("'", " ").replace('"', ' ')
-
-        insert_cmd = f'''INSERT INTO doc_fts(id, title, text, author, recipient, cced)
-                                VALUES("{d.pk}", "{title}", "{text}", "{author}", "{recipient}", "{cced}");
-                      '''
-
-        # print(insert_cmd)
-
-        cursor.execute(insert_cmd)
-
-        # commiting only after inserting all documents produced db locked errors -> moved here
-        db.commit()
-
-
     print(f'''\n################################################################################
 IMPORT COMPLETE
 ################################################################################

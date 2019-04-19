@@ -1,0 +1,60 @@
+M.I.T. Computation Centexr Page 4 of 10
+Title of Pos:ltion: m.scmomc ACCOUNTING MACHINE (EAM) OPERATOR
+
+DUTIES
+The duties include the following:
+
+1. Interpreting cards,
+
+2. Sorting cards,
+
+3. Listing caxds,
+
+4. Reproducing cards,
+
+3. Selecting, matching, merging, and checking cavds,
+6. Calculating results.
+
+The above operaticns have been mechanized on a functional kasis by special IBM machines
+known as Interpreters, Sorters, Printers, Reproducers, Collators, and Calculators,
+respeciively. Depending on the size of the office, the degree of specialization of
+.machine operations varies comsiderably. For example, a large office may have multiple
+units identified as the Key Punch Unit, the Sorter Unit, the Reproducer and Tabulator
+Unit, and the Collator and Calculator Unit, respectively. In the M.I.¥. Compuiation
+Center, however; the size of the EAM Unit is such that EAM operations are usually
+limited to a two-machine-of-a~type..  As a result, the EAM operators are expecsed to be
+more versatile and able to operate various machines,
+
+Depending upon the type of work flow within the EAM office, there may be more or less
+need for changing of control panel wiring on certain machines. 8pecifically, in the
+operation of a routine nature -~ payroll, registrar, bursar -~ the need for changing
+sel ups ig limited. Oan the other hand, scientific computation ené research demands
+all skills of machine operators since many dif!erent contxrol panels must be wired,
+used occasionally, and dismantled. :
+
+QUALIFICATIONS
+1. Educational Background: high school education or equivaleant is requited.
+
+2. Natural Ability snd Aptidude: since a machine coperator is handling a large number
+cof cards, a certain amount of manual dexterity is required. Specifically, cands
+must not be dropped, nishandiled, or abused.
+
+S. Previcus Experience: 1t is possible to hire a completely inexperienced individual
+and send him to specirl IBi-offered courses of instructior on machine operation and
+machine wiring, respectively Obviously previous EAM experience is extremely
+valuable since a proficient knowledge of wiring can only be obtain by actual
+experience. The rate of pay, of course, is governed accordingly.
+
+4, Technical Skills: a top-notch EAM operator is capable of wiring the following EAM
+machines: a) Interpreter Type 552, b) Reproduser Types 513, 514, 5192, 526, and
+928, c¢) Tabulator Types 402, 403, 4056, 407, d) Collator Types 077 and 089,
+
+e) Calculator Types 602, 604, G607, Card~Progrqmmed Calculator, and 650 Magnetic
+Brum Calculator.
+
+3. Compatibility: it is extremely important that RBAM machine operator, be able to get
+along with their fe;1ov workers. Teamvork is essentisl since common machines are
+used and continual "rubbing of shoulders' is a necegsary part of this operation.
+
+6. Phyesical Appearance: a well-grocmed individuasl is likely to produce good work,
+since tabulating work is a precise and exacting operation,

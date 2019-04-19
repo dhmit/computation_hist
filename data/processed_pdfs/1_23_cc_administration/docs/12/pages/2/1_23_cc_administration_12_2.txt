@@ -1,0 +1,53 @@
+Need for Support -~ The capacity of the Center to handle
+increasing aemandS'ga~IIbited by lack of full-time staff to aid the
+users in solving their problems and to develop programs and auxiliary
+eguipment to make the machine easier to use. This staff must be of
+high quality, able to teach classes and also to participate in
+
+research in machine logic and numerical analysis. The Center operates
+on the "open-shop" plan, the user doing his own coding and other
+preparation work, but many users need help in finding the most
+
+efficient way to organize their program, and all of them would save
+
+time if more utility programs and more flexible input-output equip-
+
+ment were available. An intensive project for the development of
+techniques and facilities to make the machine easier to use by the
+occasional user has been initiated. This proJject will require financilal
+support if it is to be carried out in time to be of help to users in
+
+the next few years.
+
+Development of Utility Programs - In addition to assisting
+jndividual users in putting EEE problem on the wachine, the Center
+staff have the important task of making the machine easier to use by
+all users. It always takes time, The experience of many users, to
+reveal all the capabilities of any piece of machinery; this 1s partl-
+cularly true of high-speed computers. Because of Their speed and
+complexity it will take a dozen years or more before even the full
+capabilities of our present machines are known, and by that time machines
+of still more speed and complexity will be bullit. A computer of the
+gize of the TO4¥ has an order of complexity such that its designers
+literally are not aware of all of its capabilities. Consequently 1t is
+important that research into these capabilities be carrled on; such
+research, revealing easier ways of obtaining results and new methods of
+operation, may at times go farther in increasing machine serviceability
+for the general user than can the providing of a new machine wifth
+increased speed or capacity.
+
+A few years ago a machine user had to become familiar with
+binary arithmetic and with all the other idioscynerasies of The primary
+machine operating code, just as the early auto owner had to be familiar
+with spark and choke and clutch. As time goes on it is less and less
+necessary for the occasional user to master all these details in order ;
+to use the machine, even if he has to devise a program for a new prodlem.
+In the first place, many of the more usuval calculations will have been
+already programmed so That, for example, if one wishes to compute a
+Bessel function or to apply the chi-squared test for the £it of a
+formula to a set of data, one need only use the ready-tested program.
+In the second place, it is possible to provide a helrarchy of "trans-
+lation procedures" -~ assembly and operator programs, etc. -- whereby
+the machine itself will translate the desires of the user, expressed
+irn language more familiar to him, into the specialized “language" of
+the basic machine code. This may be termed programming at the second

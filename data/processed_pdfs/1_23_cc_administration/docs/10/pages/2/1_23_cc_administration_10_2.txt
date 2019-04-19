@@ -1,0 +1,59 @@
+CC~55~1 Page 2 of §°
+
+It must be emphasized that the breakdown of MIT usage is some-
+what inaccurate. Specifically, many problems are described as faculty
+research, educational theses, and "DSR sponsored” on ome and the same
+problem application form CCF-2. I have called 2 number of the individual
+sponsors seeking a clarification of the classification in order to fit
+the above Table I breakdown. In many -cases I am not certain of the accuracy
+of the breakdown (As I mentioned to you, certain projects emphasize
+
+educational thesis work, thereby hoping to avoid any DSR payments at a later
+date -- if any.) ot »
+
+Table II contains a breakdown of the 704 usage based on class of
+applicant and his area of activity. Specifically, Table II contains the
+following breakdown classifications for the MIT family:
+
+INSTITUTE USE
+1. Ficulty -- ‘gésistant professors, associate professdré}'
+
+2 full professors,
+
+2. Staff -- instructors, research assistants, research
+associates, and lecturers,
+
+3. Students =-- non-paid students doing theses,
+Computation Center staff,
+Other DSR staff,
+
+6. Classroom use -- Subject 6.5638, etc,
+7. Other,
+
+NEW ENGLAND UNIVERSITIES USAGE
+
+1. Faculty,
+2. Theses,
+
+3. Clagses.
+
+IBM CAMBRIDGE USAGE
+
+ 
+
+1. ASC,
+2. WHQ,
+3. Cliéents,
+4. Others.
+MAXINTENANCE
+1. Preventative Maintenance,
+2. Systems Check,
+3. Repairs,
+
+SN
+
+Other.
+
+T
+
+=

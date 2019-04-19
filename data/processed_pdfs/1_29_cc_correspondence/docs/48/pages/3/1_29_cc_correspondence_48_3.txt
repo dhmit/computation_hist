@@ -1,0 +1,48 @@
+and our check of I-AM assures convergence in the norm max ‘XL'.
+C
+
+See, for instancd, Kolmogorov and Fomin Functional Analysis pp 43 £,
+
+d. For step d above see Hildebrand Introduction to Numerical Analysis
+
+pp 436 fr.
+
+D« Calling Sequence: X TSX DMEBE,4
+X+¥l PZE A,O,E
+X+2 PZE C,0,D
+X+> PIZE E
+X+4 Error Return
+| X+5 Normal Return
+Where: A is the FWA of the coefficient matrix, stored by columns,
+
+B is ths dimension.,
+
+C is the FWA of 2n X n consecutive registers, separated from
+X,A,D and E, which msy be used by the program for temporary
+
+"“Qﬁ:ﬁ:éﬁ; Contentes of these registers will be restored.
+
+D is the FWA of the right-hend side.
+
+E is the FWA of a set of B single-register flosting-point numbers,
+the i-th number being an estimate of the meXimum megnitude of
+error in any element of the i-th row of the coefficient matrix,
+Thess numbers are stored in every second register, and are
+undisturbed,
+
+Obe - In addition to thé registérs mentioned above, the 3n+3 registers following
+the coefficient metrix are destroyed, COMMON through COMMON+7 is required,
+
+Dc. Error stops may occur in the following locetions:
+
+SAVET +2 Two tries feiled to produce & readsble record on MT-NINE
+
+SAVEA +2 i '
+
+CORR + 2 o
+
+SAVEM +-2 "
+
+SAVEC 42 B |
+
+' — _ &£ e

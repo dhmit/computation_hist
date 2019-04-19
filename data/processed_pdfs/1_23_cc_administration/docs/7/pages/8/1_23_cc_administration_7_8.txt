@@ -1,0 +1,55 @@
+80
+j, USE OF THE CONDENSER PROGRAM
+
+The condenser program has two purposes and may be used
+for either of them or for both simultaneously as determined by
+gense switches,
+
+The first function is to prepare a condensed library
+tape or to make a new library tape which is a modification of
+an old one with insertions and deletions.
+
+The second function 1s To prepare condensed symbolic
+cards., The use of the sense switches is as follows,.
+
+If a library tape is to be prepared sense switch % 1is up.
+
+If preparation of a library tape is to be suppressed sense
+
+switch 3 is down. A blank tape is mounted as tape 3 1f &
+
+library tape 1s desired.
+
+If the new library tape is to be obtained from an old one by
+insertions and deletions, the old tape is mounted as tape 2 (with
+
+2 blank tape 3 for the new tape) and sense: switch 2 1s up. Lf
+
+there is no old library tape (the condensed library is being startedl
+fpom scratch) sense switch 2 should be down.
+
+If condensed symbolic cards are desired for the new
+subroutines (you can't get them for the ones on the old library
+tape) switch L should be up and a blank tape mounted as tape L.
+If condensed cards are not desired switch li should be down.
+
+The tape li produced by the program is run on the: off line tape
+to cards machine to produce the condensed symbolic cards.,
+
+We shall first describe the preparation of the programs to
+be condensed in the simple case when there is no old library
+tape., First comes a blank card. Then come the subroutines in the
+order in which they are to appear on the library tape. Each
+subroutine is to be preceded by an LIB card with the name of
+the subroutine in the location field, and 1s to be followed by
+and END card. The resulting deck is to be read on the off line
+card to tape machine and followed by an end of file mark. This
+tape is mounted as tape 1.
+
+Finally, the condenser program should be loaded from cards.
+
+The decks to be condensed may include condensed cards
+provided that the same conventions are observed as when condensed
+cards are included in an assembly. Namely, each group of condensed
+
+cards must be preceded by a standard CND card and the group must

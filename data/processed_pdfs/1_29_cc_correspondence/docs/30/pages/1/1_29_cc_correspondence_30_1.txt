@@ -1,0 +1,40 @@
+\
+
+— COMPUTATION CENTER
+Massachusetts Inititution of Technology
+Cambridge 39, Massachusetts
+
+Memorandum To: Problem Applicants Date: July 27, 1960
+From: F. J. Corbato, Associate Director
+
+Subject: Request for 709 computer time for currently active
+problems
+
+The Computation Center is presently in the process of converting
+from an IBM 704 to the more advanced IBM 709. Thke operating time lost
+this quarter due to this conversion, coupled with ambiguities existing
+in the previous Quarterly Progress Report, makes it necessary that we
+ask you to complete and return this questionnaire.
+
+1) Problem Applicant Problem No.
+
+2) Neme of programmor subaitting report:
+
+ 
+
+3) Imstitution: Deperiment: Phone No. _
+
+4} HEeiling address:
+
+ 
+
+ 
+
+5) How much 709 time will you require between September 1, 1260
+and December 31, 192607 minutes (Note extended period.)
+
+@) Pleoase indicate the reel numbers of any magnetic tape reels
+which are assigned to you that you are not finished with.
+
+7) Approzimately how many punched cards do you have stored in
+the Center card files? (Approzimately 1,000 cards per 7 inches.)

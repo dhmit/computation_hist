@@ -1,0 +1,81 @@
+6
+
+IV. lunuals for the 799
+
+o -
+
+The following IBM Manuals willl be availlable at Center
+
+ 
+
+Headquarters (Room 26-142) to all persons from MIT or the
+
+New England colleges who have an active interest in programming
+
+for the 709. (Some manuals are temporarily unavaillable.)
+
+Inasmuch as these rather expensive manuals are donated by 1IBMN,
+
+the Center feels it is proper to ask each person who wishes a
+
+manual to sign for 1it.
+
+1. T709-7090 Reference Manual (Form A22-6503-1).
+
+(The basic reference manual for the 709
+
+and 7090. The somewhat older 709 manual is
+
+still essentially correct.)
+
+2. Fortran Primer (Form F28-6019). (This
+manual, which has been used with the 704,
+
+ 
+
+ 
+
+is unchanged for the 709.)
+
+W
+
+ 
+
+ 
+
+709 Fortran Reference Manual (Form C28-6054).
+Since there is essentially no change from
+704 Fortran, this material is simply a con-
+
+solidation of the 704 Fortran Reference
+
+Manual and the 704 Fortran II Supplementary
+
+Manual.)
+
+4., 709 Fortran Monitor Reference Manual (Form
+C
+
+28-6065). (A description of the Fortran-
+
+FAP Monitor System.)
+
+In addition, the Center will make available the following
+
+material:
+
+l. A description of the FAP Assembly Program
+
+2. A Manual of Procedures and Conventions at
+
+the Center.
+
+V. Conventions and Procedures
+It is recommended that:
+l. Unless there are reasons otherwise,
+
+Fortran-FAP Monitor System should be used.
+
+ 
+
+the

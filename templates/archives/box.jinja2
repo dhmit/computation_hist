@@ -3,29 +3,29 @@ F
 
 {% block title %} Box {{ box_obj.number }} {% endblock %}
 
-{% block self %}
-<h1>Box number {{box_obj.number}}</h1>
+{% block header %}
+Box number {{box_obj.number}}
 {% endblock %}
 
-{% block table %}
+{% block content %}
 
-<table class="table">
-  <thead class="thead-dark">
-    <tr>
-      <th scope="col">#</th>
-      <th scope="col">Folder Name</th>
-    </tr>
-  </thead>
-  <tbody>
-  {% for item in folder_objs %}
-    <tr>
-      <th scope="row">{{ loop.index }} </th>
+    <table class="table">
+      <thead class="thead-dark">
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Folder Name</th>
+        </tr>
+      </thead>
+      <tbody>
+      {% for item in folder_objs %}
+        <tr>
+          <th scope="row">{{ loop.index }} </th>
 
-        <td><a href = "/archives/folder/{{item.pk}}">{{ item }}</a></td>
-    </tr>
-  {% endfor %}
-  </tbody>
-</table>
+            <td><a href = "/archives/folder/{{item.pk}}">{{ item }}</a></td>
+        </tr>
+      {% endfor %}
+      </tbody>
+    </table>
 
 
 {% endblock %}

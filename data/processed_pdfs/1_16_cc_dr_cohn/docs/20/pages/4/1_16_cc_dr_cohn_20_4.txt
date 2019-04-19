@@ -1,0 +1,13 @@
+1946) ALMOST-ALGEBRAIC NUMBERS 1045
+
+By our condition on the order of magnitude of e, it follows from
+(6) and (7) that for some &, | E(c(6))| = | E(oa(6))| — | Ra(8)| >0; and
+o(0) can not satisfy the algebraic equation E(e)=0. Q.E.D.
+
+A simple method of satisfying the conditions on o(x) is to take
+oi(x) =1+at+a+ . . . fxnt ... |x| <1. Then ai(x) and x are
+not both algebraic unless x =0, and indeed, the values of x (#0) for
+which ,(x) is algebraic are some instances of the type of transcen-
+dentals under discussion.
+
+New York City

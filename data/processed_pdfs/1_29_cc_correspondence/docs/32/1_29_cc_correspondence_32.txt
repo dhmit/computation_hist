@@ -1,0 +1,21 @@
+June 13, 1960
+
+Memorandum to Users of the Computation Centers:
+
+It should be emphasized that the TO4 is expected to
+stop operating on July 1, 1960. An eatimated three-week
+period will be required for reworking the computer room
+air conditioning ducts,power outiets and floor plates.
+There will follow a two-week period during which IBM
+engineers will adjust and make possible field modifications
+(e.g. data channel trap) to the 709.
+
+The Center will resume operation with the T00 as soon
+ag these two periods are completed.
+
+71 uf
+
+| | Corbatd
+FJC:RM
+
+

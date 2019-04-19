@@ -1,0 +1,56 @@
+(!
+
+-
+
+ 
+
+'/'0
+
+PRINT, a standard subroutline for printing oAl=f{ormoed blocks
+via PFortran
+SUBROUTINE  PRINT (C,N)
+
+The .dimension of .C 18 a dummy and can have ony valuo in thisn
+
+- cyr T -
+A __x.a. -4
+
+> T .
+
+"5 :
+
+‘Ao
+-
+
+- - . o / ’ vrs / / / / !/
+
+A 205 - - 9 - ” ’ v / / 2. J 4 3 Y} vy "’l Y
+4 ” g .
+. - Js ) o
+
+- - - r
+
+- o/ o — 1,.1/
+
+¥ - ’ , f
+
+/ - - T a“t “ 2
+
+- [
+AL 2 S (o
+
+.
+
+— - 7 s
+- -— ~ T -
+F W E S - - I
+- —_— 7 % - /J
+T »~ - -
+P _ “- -
+- - - -
+
+~ f - - -
+
+- w— N 7 - J
+
+—

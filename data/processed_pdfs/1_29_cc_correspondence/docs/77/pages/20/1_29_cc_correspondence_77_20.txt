@@ -1,0 +1,53 @@
+COMMON
+
+OCT
+
+upper memory in a manner similar to that achieved by the
+
+common counter, which is initially set to 77461,(32561, ),
+
+ 
+
+phase error results. A phase relocation error is also
+possible; the rules for avoiding this error are the same
+
+as for the BSS pseudo-operation.
+
+The COMMON pseudo-operation is used to reserve blocks of
+
+use of DIMENSION and COMMON statements in FORTRAN programs.
+The assembler maintains a special counter, called the
+
+10
+which is the last cell of upper memory available to FORTRAN
+programs during execution. A COMMON pseudo-operation as-
+signs the current value of the common counter to the symbol
+in the location field and then decreases the common counter
+by the value of the expression in the variable field. A
+symbol defined by a COMVION pseudo-operation is a common
+symbol. Note that the symbol in the location field is
+assigned to the last cell of the block reserved (not the
+cell after the last cell of the block as with the BES).
+This usage coincides with the FORTRAN rule that the name
+of an array refers to the logically-first cell of the
+array, which is stored last in memory. All symbols used
+in the variable field of a COMMON pseudo-operation must
+have been previously defined, or a phase error results.
+A phase relocation error is also possible; the rules for
+avoiding this error are the same as for the BSS pseudo-
+
+operation.
+
+Data Generation
+
+Tho assembler provides five pscudo-opzrations (OCT, DEC,
+BCI, BCD, and VFD) which may be used to introduce words
+
+of data into the program at assembly time. Numbers
+introduced in this way are often referred to as ''constants."
+The OCT pseudo-operation says to the assembler, ''take the
+octal integers which are specified, one per subfield from
+
+left to right, in the variable field, convert these integers
+
+=18

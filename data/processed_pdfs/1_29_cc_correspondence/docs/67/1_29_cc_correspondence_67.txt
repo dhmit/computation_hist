@@ -1,0 +1,255 @@
+|
+[
+|
+
+ 
+
+ 
+
+a
+
+NIT COMPUTATION CENTER
+he Magsachusetig Institute of Technology
+: Cambridge 39, Massachusetts
+
+JUARTERLY PROGRESS REPORT
+
+From: Dr. ¥F. 8, Verzuh Date: March 28, 1958
+
+Subject: Quarterly Progress Report for the Period vanuary 1 - Merch 31, 1958
+HERBERT Pe GALLIHER
+
+Appilcant: 10-330
+MeleTe
+M139 WAITING LINE COMPUTATIONS
+
+TIME ALLOTED 0900 HRS TIME USED 11612 HRS AS OF MARCH 14.
+
+1, Name of programmer submitting report:
+
+ 
+
+ 
+
+ 
+
+Institution: Dept.
+Address :
+I I AA FE YA EE Of ERAT NS at
+Phone No.
+
+ 
+
+ 
+
+2. Have you completed your problem?
+© If the answer is YES, how will you employ your results? If results are to
+be published, please indicate: Author, Title, Journal and expected date of
+publication. (Acknowledgement of the help of the Center is requested, as
+well as two copies of the reprint for use at the Center.) If results are
+used in a Thesis, please list the Title, degree sought, Department and
+Granting Institution,
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+if final arrangements for publication of results have not been made, indicate
+your present intentions above and report to us again later when final
+arrangements have veen made,
+
+3, If your answer to 2 is NO, this Report Form will also be your Request Form
+for computsr time for the next quarter and you should answer the following
+questions:
+
+8) How much computer time will be needed to complete this problem?
+
+b) What is the expected completion date?
+
+¢) How much moire machine time will you require for the next quarter for
+thir problem? minutes? :
+
+4) Why?
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ta et + LASSE CERIN EASE CT IIER aT STD AST NO LI SOUS ITNT Dd CARING ed i
+
+ 
+
+CCF-8.3
+
+I  ———
+
+pe ee pt, i - - a
+
+
+Page 2 of 3
+
+Note that this time is allocated separately each quarter; no further
+machine time will be allocated for this problem unless this question-
+naire is answered and returned. Whether you have finished or not,
+the following information concerning your use of the Center would be
+helpful for us.
+
+List SHARE subroutines used:
+
+ 
+
+ 
+
+ 
+
+a) Are subroutines working correctly?
+
+ 
+
+b) List errors, limitations or changes in subroutines:
+
+ 
+
+¢) What modifications have you made?
+d) Vhy were these modifications made?
+
+ 
+
+List subroutines which you have written that may be of interest to others:
+
+ 
+
+Coding language and operating programs used:
+SHARE FORTRAN
+Other:
+
+ 
+
+ 
+
+Programming statistics: Please report, as accurately as you can, the total
+personnel hours sxpended during the past guarter in:
+
+a) Math, Formulation @) Assembly & Mach, Testing
+b) Numerical Analysis £) Checking Results
+¢) Programming g) Production Running
+d) Coding h) Problem Write up
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Is there any other way in which we can be of help to you?
+
+ 
+
+ 
+
+ 
+
+The abstract and description of your problem, and the suggested classification,
+which you provided for us on Application Form CCF-2, are used in our Progress
+Reports to describe your work, If these items have changed during the past
+quarter, they should be brought up te date so that we have a corract version
+of your present use of the Center. Consequently, £ill in the following with
+NO CHANGE or with a revised version:
+
+2) For cataloging purposes, how would you index this problem? For
+example, mathematics, logic, gama, etc, If this is a mathematical
+problem, specify type(s) such as, integration, partial differential
+eguations, matrix theory, etc.
+
+ 
+
+ 
+
+ 
+
+¢
+
+-
+
+kb) If this is a mathematical problem, specify numerical methods used,
+such as, Gauss’ quadrature method, difference equations, Crout, etc.
+
+ 
+
+ASE IARI Re —
+
+ 
+
+ 
+
+ 
+
+CCPF-8 ° a
+
+
+¢c) On one or two
+as follows:
+
+Section A:
+Section B:
+
+Section C:
+
+CCF-8 ° 3
+
+Supervisor's Signature
+
+Page 3 of 3
+
+additional sheets write sections A, B, C, D, E and F
+
+A one-paragraph abstract of Section B and C.
+
+Complete description of problem background which
+should give a complete picture to someone well
+acquainted with the relevant field of research.
+Give references to earlier or related work and
+indicate relation to this work.
+
+Description of numerical and computer techniques
+
+used, and justification of their adequacy or indication
+of how adequacy was determined, This description
+should include, when pertinent, the number of signifi-
+cant figures accuracy required at various stages of the
+calculation and the ranges and values of the quantities
+involved in sufficient detail so that program complexity
+may be ascertained. In addition, indicate how you
+tested the programs and whether you have test cases
+available.
+
+Signature:
+Ingtitution:
+
+Date:
+
+

@@ -1,0 +1,133 @@
+Y
+
+BEGIN
+BGNTV
+SQRT
+SIN
+SUBR
+ENDTV
+
+IR
+IR2
+TRY
+NAME
+EPL
+
+REM
+OnG
+
+FPC
+
+P77
+PZ
+
+b=
+
+PZE
+BCD
+PZE
+BCD
+PZE
+REM
+ORG
+REL
+SYN
+SYN
+BCD
+BCD
+BCD
+SYN
+
+PZL
+PZK
+PZL
+BCD
+SXD
+SAD
+SXD
+CLA
+STA
+
+Rxample of a SAP to FAP conversion:
+
+Program Card
+
+0
+
+“ND-BEGIN, , ENDTV-DGN1LV.
+
+e
+s
+
+NAME1
+EP1
+NAMEZ
+
+TN
+Aos A,
+
+Program
+
+O
+
+_*..
+
+.X.
+1SQRT
+1SIN
+1SUBR
+X..
+
+Storage
+Storage for IR2
+Storage for IR
+INAMEL
+
+IR1,l
+IR2 52
+IR 4
+1,0
+N2
+
+| ENTRY
+-
+
+|
+!
+i
+|
+
+|
+e—
+
+NAMBEL
+| NAME?2
+
+PZE
+PZL
+PZE
+BCD
+SAD
+SXD
+SAD
+CLA
+STA
+
+1INAMEEL
+
+IR1,1
+IR2,?2
+IRN N
+1,M
+N2
+
+Lntry pseudo-0p
+controls program
+card.:
+
+the name of
+the subroutine
+and entry
+point must
+correspond in
+AP
