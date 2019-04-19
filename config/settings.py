@@ -120,6 +120,11 @@ WSGI_APPLICATION = 'config.wsgi.application'
 # and change the key for the postgres backend (currently 'default')
 # to anything else...
 
+# Leaving a password in a config file that is committed to a public repo
+# is generally not a good practice. However, in this case, since the db is
+# readonly and the data publicly available, the only security threat is a
+# denial of service attack.
+
 DATABASES = {
     'sqlite3': {
         'ENGINE': 'django.db.backends.sqlite3',
