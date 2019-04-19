@@ -1,0 +1,188 @@
+—————— — EY ge
+
+ 
+
+Professor H, M, Teager March 30, 1960
+26-261
+
+ 
+
+To: Prof. Hill
+Prof, Morse
+Prof, Wiesner
+Prof, Fano
+
+SUBJECT: LONG RANGE COMPUTATION SYSTEM STUDY GROUP -
+PRELIMINARY OBJECTIVES, ORGANIZATION, AND PLANS
+
+Summary
+
+A group should be set up to study the rele of computation
+at MIT and surrounding research centers in order to recommend a plan
+for future sction of MIT to cover our needs in the next five or more
+years, This study should be completed by winter of 1960.
+
+A plan of approach has been developed, with recommendations
+for staffing and support,
+
+in the light of the past ten years of experience in high-
+speed computation at MIT, it is time for a critical assessment of our
+objectives with regard to computation - its role in our research and
+education, both now and for the next five or more years; our needs
+with respect to computation; and a plan for an orderly development to
+meet those needs, including recommendations for the type of equipment
+that should be obtained, and areas for further research and development
+in carrying out such a plan, Such an appraisal, while primarily based
+upon MIT, would im addition attempt to include the needs of surrounding
+laboratories, to determine the desirability and feasibility of pooling
+the resources of the area to provide a common facility to meet allied
+needs,
+
+it is therefore proposed that a group under the direction of
+Professor Teager be chartered and organized to make this systems study.
+The approach of this group will be divided into three phases:
+
+P
+
+
+Er
+
+PHASE 1, Observation and Fact Finding, There is no single assessaent
+available of t is going on at present at the Institute with respect
+to computation, There are many signe that the usage of computation is
+growing both in magnitude, direction, and additional equipment, but there
+is no clear indication of "Where it is heading” or of its effectiveness
+in research and education, or how its effectiveness could be improved,
+The first phase of this study will therefore attempt to answer the
+following questions by observation and discussion with the major users
+of computation at MIT,
+
+1, What classes of problems are presently being solved by
+some form of mechanized computation at the Institute?
+
+2. How do these problems differ with respect to their com-
+putation requirements, specialized equipment, and computer capacity?
+
+3, What type of equipment is meeting the need at preseamt,
+i.e,, 704, TX-0, 650, analogue, etc?
+
+4. Vhat are the costs in terms of programming time and com-
+puter time to solve this class of problem?
+
+5, How effective is the computer as a tool im this area?
+Can it be made more so by a change in programming systems, techniques,
+equipment, administration, or im the role of user and machine?
+
+6. In what direction (computation-wise) is the problem areas
+headed?
+
+This phase will not be confined to MIT, but should imclude
+a similar study at MIT's defense laboratories, and nearby institutions
+such as A.D, Little, Rarvard, Aveo, ete,
+
+Phase 2, Evaluation, In terms of the fact finding, a study should
+next be undertaken in depth to determine the "state of the art” from
+an equipment and systems viewpoint, The study should attempt to answer
+the following sets of questions:
+
+1, What types of systems are available, and can they meet
+these needs?
+
+2. V%hat is the "state of the art” with respect to such
+possibilities as remote conscles, time-sharing, multiprogramming, large
+associative memories, handwritten input in user language, and programming
+systems,
+
+3. Are the needs of the users consistent with what is
+available, or what can be developed, initerms of user-oriented programming
+systems, input-output devices, and machines?
+
+4, VYhat areas are promising for further research?
+
+
+-3-
+
+Phase 3, stems Des and ification, By this stage, hopefully
+
+a clear picture will have emerged both with regards to needs and
+possible ways of meeting these needs, The group will them go oan to
+
+the crux of the task, namely to the specification of the desired system,
+in terms of its type, administration, and role at MIT (or if it should
+prove desirable, its larger role with respect to the area), The study
+should also attempt to determine what areas deserve future research in
+computer usage and computer system design,
+
+Time-Table
+
+While it is too early to specify exact dates, it is presently
+planned that the group should spend the remaining part of the spring
+term in getting organized, the summer for phase 1, and be prepared to
+submit a final report by early fall of 1560,
+
+Organization and Support
+
+It is clear that responsibility (and suthority) should rest
+totally upon the chairman of this group, and that the Institute should
+back up this position with an expression of support at the highest level;
+otherwise, it may prove impossible to collect all the needed facts, It
+is further clear that this group will need the participation of a widely
+representative group at the Institute, both in terms of guidance and in
+terms of detailed knowledge,
+
+it is therefore suggested that the following people be assigned
+to this group:
+
+ 
+
+a) Senior Consultants: Prof, Morse
+Prof, Fano
+Prof, Hill
+Prof, Wiener
+Prof, Wiesner
+
+b) Working Panel Members (fractiomal time):
+
+Dr, Phyllis Fox Computation Center, full time
+
+Prof, McCarthy E.E, and Artificial Intelligence
+Prof, Minsky Math, and Artificial Intelligence
+Dr, Corbato Physics, Computation Center
+
+Prof, Arthurs E.E,, Information Retrieval
+
+Prof, Arden E.E,, Automata
+
+Prof. Susskind E,E,, Computer Design
+
+Mr, Wesley Clark Lincoln, Neurological Computer Usage
+Dr, Eent Hansen Nuclear
+
+Dr, Michael Barnett Physics, Programming Systems
+Dr, Daniel Goldenberger Instrumentation, Computer Systems
+Prof, Charney Meteorological
+
+Prof, Howard E.E,, Op, Research, Teaching
+(Others may be added.)
+
+
+7 =
+
+The group will pe supported by at least two full-time
+
+research assistant level people, a Secretary, and supplemented by part-
+time student employes,
+
+Support
+
+Financial support will be needed to pay for these people, and
+in addition, space, office Squipment, and supplies will be needed until
+its completion, Moral Support will of course be definitely required,
+
+ 
+
+Respectfully submitted,
+
+/ Herbert M, Teager
+
+

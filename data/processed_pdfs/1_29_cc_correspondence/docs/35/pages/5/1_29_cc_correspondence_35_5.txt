@@ -1,0 +1,31 @@
+5. SHERE distributions: 478, 555, 625, 758.
+4. Lincoln Memorandum No. S=-0011, "SOS
+Llementary Reference Manual," by Roland Silver
+
+C. SE9AP nssembly Program
+
+SE9AP is a SAP-like assembly program which has been
+extended to include the addifional instructions for the 709,
+The sole operation it performs is to translate the users
+symbolic machine-language program into bilnary card format.
+Consequently the user who chooses to work with SEQAP will have
+to supply title-1log programs, loaders, debugging programs and
+usually will subwmit his runs forp on-line operation. This
+clumsy procedure of running orograms can easily use two and
+one-half minutes of computer time for a half-minute runs., This
+estimate i1s based on the assumption of %0 seconds SeE=up, 30
+seconds of on-1line card-reading time, 30 scconds operation, 30
+seconds for a manual recording of the console lights, and 30
+seconds termination -- in view of the present shortage of machine
+time, the Center feels it should discourage this form of
+operation. However, as a transition measure SE9AP or its equiv-
+alent will be available at the Center,
+
+D. Other Programming Systems
+The above set of prrogranmming systems are the G jor
+ones in general use. In addition, there are several other
+Systems in use at the Center such as DYNAMO, LISP, COMIT, SHADOW ,
+and MAC. Each system should be converted to the 709 by those
+who presently maintain it so that they will have continuity with
+
+their present operation.

@@ -1,0 +1,52 @@
+..-= .1=' ~‘==' ‘==’  .
+
+ 
+
+COMPUTATION CENTER
+
+MASSACHUSETTS INSTITUTE’QF<TECHNOLOGY
+’ | S T ,CAMBB_!D'GB.‘ 3'§ MASSACHUSETTS
+
+Nerh 3t 1959
+
+‘Mr. Donald Jortner
+
+Engineering Analysis Section
+Westinghouse Electric Oorporatian sa
+
+~Bettis Site
+
+Pittaburgh 30, Pennsylvania
+
+Dear Mr. Jortner: ,
+Professor Morse has rorwarded to me your letter
+
+| reqneatins—inrornation on the solution of fourth order
+biharmo
+
+nic-type boundary value problems. I do not know anyone
+who is solving such problems at present. However, it is
+quite possible that one of the 500 problems now using maohine
+time does 1nvolve the solution of auch problems,
+
+If you could give me some more detailed information
+
+~as to the source of ﬂns‘work, a rurther 1nvestigation would
+
+be possible.
+
+o I am enclosing a copy of the computation Center's
+semi-annual report which has rather extensive lists of the
+work being done at the present time. This may be or help
+in determining proper references.
+
+Sincerely yours; 5
+
+Dean N. Arden
+
+Assistant Professor
+
+of Electrical Engineering
+DNA:RM
+Enclosure
+Copy to Professor Morse

@@ -1,0 +1,79 @@
+Subprograms on MIT FMS System Tape
+
+(19U)
+
+(FPT)
+
+BRIPIC, DIMPIC
+ERRZR
+
+LDUMP
+
+RANNGF, SETUF
+AXISX, AXISY
+FRAME
+SCPE
+
+CLgCK, TIME, GETTM
+ASINF, AC@SF
+ATANF
+
+EXPF
+
+EXP(1
+
+EXP(2
+
+EXP(3
+
+L@GF
+
+SINF, C@SF
+SQRTF
+
+TANF, COTF
+TANHF
+
+(EXE)
+
+REC@OUP
+
+(SCH)
+
+(CsH), (TSH)
+(SPH), (STH)
+EXIT, EXITM
+
+Input-Output Unit Table
+Floating point trap dispatcher
+Plot point in scope coordinates
+Error subroutine
+Dummy routine called after error in math. subreutines
+Random number generation
+Plot axes on scope
+Change film frame
+Plot point in floating point coordinates on scope
+Get and print time
+Arc sine, arcosine function
+Arc tangent function
+Exponential function
+"
+
+logarithm (base e) function
+Sine, cosine function
+
+Square root function
+
+Tangent, Cotangent function
+Hyperbolic, tangent function
+Input-Output Error routine
+Dummy routine called by (EXE)
+Punch routine,on-1line or off-line
+Read cards or input tape
+
+Write output on tape or printer
+Return control to Monitor
+
+(F2FM) and subsidiary routines Fortran oriented post-mortem routine
+
+

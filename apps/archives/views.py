@@ -4,10 +4,10 @@ from django.db.models import Q
 from django.http import Http404
 from django.shortcuts import get_list_or_404, get_object_or_404, render
 from django.template.loader import TemplateDoesNotExist
+from django.core.exceptions import ObjectDoesNotExist
 
 from utilities.common import get_file_path
 from .models import Person, Document, Box, Folder, Organization, Page
-
 
 def index(request):
     # NOTE(ra): this hardcoded pattern isn't great, but we're since we're using
@@ -16,10 +16,12 @@ def index(request):
     # and load their names dynamically. We'll replace this with something
     # more robust once the story system takes firmer shape.
     stories = [
+        'debugging',
+        'qualifications_for_programmer',
         'sample_story',
         'sample_story',
         'sample_story',
-        'sample_story',
+        'mayowa_story'
     ]
 
     context = {'stories': stories}
@@ -67,18 +69,14 @@ def doc(request, doc_id=None, slug=None):
     author_organization_objs = doc_obj.author_organization.all()
     recipient_person_objs = doc_obj.recipient_person.all()
     recipient_organization_objs = doc_obj.recipient_organization.all()
-    try:
+    if recipient_organization_objs:
         if recipient_organization_objs[0].name == 'unknown':
             recipient_organization_objs = None
-    except:
-        pass
     cced_person_objs = doc_obj.cced_person.all()
     cced_organization_objs = doc_obj.cced_organization.all()
-    try:
+    if cced_organization_objs:
         if cced_organization_objs[0].name == 'unknown':
             cced_organization_objs = None
-    except:
-        pass
     page_objs = doc_obj.page_set.all()
     doc_pdf_url = str(get_file_path(doc_obj.folder.box.number, doc_obj.folder.number,
                                     doc_obj.folder.name, file_type='pdf', path_type='aws',
@@ -117,6 +115,7 @@ def folder(request, folder_id):
         'document_objs': document_objs
     }
     response = render(request, 'archives/folder.jinja2', obj_dict)
+
     return response
 
 
@@ -142,12 +141,12 @@ def page(request, page_id):
     try:
         next_page_number = page_obj.page_number + 1
         next_page = Page.objects.get(document=document_obj, page_number=next_page_number)
-    except:  # TODO: figure out type of exception
+    except ObjectDoesNotExist:
         next_page = None
     try:
         previous_page_number = page_obj.page_number - 1
         previous_page = Page.objects.get(document=document_obj, page_number=previous_page_number)
-    except:  # TODO: figure out type of exception
+    except ObjectDoesNotExist:
         previous_page = None
     obj_dict = {
         'page_obj': page_obj,
@@ -261,23 +260,49 @@ def process_advanced_search(search_params):
     """
 
     docs_qs = Document.objects  # 'qs' for queryset
- 
+    keywords = search_params.get('keyword')
+    if keywords:
+        keywordlst = keywords.split(" ")
+        person_q = Q()
+        for word in keywordlst:
+            person_q |= Q(first__iexact=word)
+            person_q |= Q(last__iexact=word)
+        people_objs = Person.objects.filter(person_q)
+        folder_objs = Folder.objects.filter(full__icontains=keywords)
+        organization_objs = Organization.objects.filter(Q(name__icontains=keywords))
+        doc_Q = Q(title__icontains=keywords)
+        for person in people_objs:
+            doc_Q |= Q(author_person=person)
+            doc_Q |= Q(recipient_person=person)
+        for org in organization_objs:
+            doc_Q |= Q(author_organization=org)
+            doc_Q |= Q(recipient_organization=org)
+        for folder in folder_objs:
+            doc_Q |= Q(folder=folder)
+        docs_qs = docs_qs.filter(doc_Q)
+
     title = search_params.get('title')
     if title:
         docs_qs = docs_qs.filter(Q(title__icontains=title))
 
-    text = search_params.get('text')
+    text = search_params.get('text') # full text search
     if text:
-        # allows quotation marks but only extracts the string in the middle
-        match = re.match(r'^[\'"]?([a-zA-Z\d ]+)[\'"]?$', text)
-        if not match:
-            print(f"WARNING. Could not parse full text search string: {text}.")
-        else:
-            print('Match groups: ', match.groups())
-            raw_docs = Document.objects.raw(f'''SELECT * FROM doc_fts 
-                                                     WHERE text MATCH "{match.groups()[0]}";''')
-            doc_ids = [doc.id for doc in raw_docs]
-            docs_qs = docs_qs.filter(id__in=doc_ids)
+        words_q = Q()
+
+        # handle exact search terms wrapped in " or '
+        exact_searches = re.findall(r'"([^"]+)"', text)
+        if exact_searches:
+            for phrase in exact_searches:
+                print(phrase)
+                words_q &= Q(text__icontains=phrase)
+                text = re.sub(phrase, '', text) # strip exact search search terms out
+
+        # handle all leftover text
+        text = re.sub(r'[\'"]', '', text)
+        words = text.split()
+        for word in words:
+            words_q &= Q(text__icontains=word)
+        docs_qs = docs_qs.filter(words_q)
 
     author = search_params.get('author')
     if author:

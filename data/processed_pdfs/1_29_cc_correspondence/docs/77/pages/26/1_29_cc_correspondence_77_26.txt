@@ -1,0 +1,59 @@
+ETC
+
+DUP
+
+ 
+
+ 
+
+ 
+
+The ETC pseudo-operation is used to extend the variable
+fields of VFD and CALL pseudo-operations. The location
+field of the ETC must be blank; the variable field contains
+
+one or more subfields.
+
+The ETC pseudo-operation may appear only after a VFD, a
+CALL, or an ETC. The ETC must not appear immediately
+after the last instruction in the range of a DUP.
+
+The variable field of the instruction preceding an ETC
+may contain any number of complete subfields that are
+
+terminated by a comma and a blank.
+
+The DUP (duplicate) pseudo-operation is used to cause a
+series of instructions to be duplicated. Its primary use
+
+is the generation of tables. The variable field must
+
+consist of exactly two subfields, each of which is a
+
+symbolic expression all of whose symbols have been previously
+defined (or a phase error results). 'DUP M,N" means,
+"Duplicate the next M instructions N times'. Although
+
+this often results in the generation of MN machine words,
+
+a greater or lesser number of words may be generated if
+pseudo-operations are included among the instructions
+generated. Note that the first subfield is a count of
+assembler instructions (symbolic cards), not of machine
+words, The set of M instructions to be duplicated is
+
+called thelggggg of the DUP pseudo-operation in question.
+
+Any operation or pseudo-operation may occur in the range
+
+of a DUP pseudo-operation except another DUP pseudo-operation,
+or a BSS, BES, or COMMON pseudo-operation which uses asterisk
+as a symbol in its variable field. A symbol in the location
+field of the DUP pseudo-operation is given, as its value,
+
+the current value of the location counter. Symbols in the
+location fields of instructions in the range of the DUP
+
+pseudo-operation are given the values they would have
+
+-24-

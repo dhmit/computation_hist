@@ -1,0 +1,65 @@
+-h .
+
+Jenuary 31, 1958
+
+DSR-#634
+Contract NSori-60, Task Order I 465312
+
+Amendment No. 12 ' |
+
+(11/14/50) It is the desire of the Covermment and the Contractor Ghat additionsl
+research on an electronic digitel computer and componeat research,
+and the aspplication of the computer to military and scientific problems
+be performed. To accomplish this, there are hereby provided an ex-
+tenslon in the peried of performance of Task Order I under Contract
+Worl-t0 and an incresse in the egtimated cost thereof.
+
+Amm?-ﬂb NOe l:)
+
+(6/28/51) It ie the desire of the Goverument and the Contractor thet additional
+resegrch in applied wathematics utilizing fecilities of Contractor's
+
+Center for Machline Computation, and the application o the facilities
+
+to militaxy end scientific problems, be performed. To accomplish this,
+there are hereby provided o restatement of the work to be performed,
+an extension in the period of performance and an increase in the
+estimated cost of Task Order I under Comtract NSori-60.
+
+3. On and after 1 July 1951, section (A) shall read as follows:
+
+“(A) The Contractor shall furnish the necessery persomnel and facilities
+for and, in accordance with any instructions issued by the Technical
+Officer oz his suthorized represeuntative, shall conduct a coordinated
+
+regearch program in gpplied mathematics utulizing facilities in the
+Cente*' for Machine Computation, including the WHIRIWIND Computer,
+which ghall include but not necessarily be limited to the fellmr.lny
+
+(1) ressearch in methods of mumerical snalysis and the formulation of
+gelentific problems for maecline solution, together with the training
+of personnel in these methods;
+
+(2) swpport of the scientific and engineering spplications group pre-
+
+vicusly assoclated with Project WHIRIWIND sc as to made the WHIRLWIND
+
+Computer useful and avallable for the gbove research, including e |
+continuation of the construction and improvement of the WHIRLWIND Computer; and
+
+(3) en investigation of digitalcomputing machine components."
+
+Amendment No. 1% (Ref, DIC 6909)
+
+(6/28/51) It is the desire of the Govermment end the Contractor that the scope
+of resecarch in gpplied mathematics wutiliting facilities in Contractor's
+Center for Machine Computation including the WHIRIWIND computer being
+performed under Tosk Order I of Contract NSori-60 be expanded, such
+expansion to involve theoretical studies and experimental resecarch and
+developwent in comnection with the application of the dlgital computer
+in an eir defense system. To accomplish such additional research there
+are hereby provided an expansion in the scope of work and an increase
+iu the estimated cost of said Task Order.
+
+3. effective 1 July 1951, esection (A) shall include the following
+subparagrsphs

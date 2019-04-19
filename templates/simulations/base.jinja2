@@ -1,8 +1,7 @@
 {% extends "base.jinja2" %}
 
-{% block table %}
+{% block content %}
     {% block extra_stuff_at_top %}{% endblock %}
-    <div class = "col-sm-12 text-center bg-light border border-primary" id = "line_desc"></div>
     <br />
     <div class="container">
         <div class="row">
@@ -39,49 +38,45 @@
                 <br />
             </div>
         </div>
-        <div class = "col-sm-12">
-            <button id="assemble_button">Assemble</button>
-            <button id="step_button">Step</button>
-            <button id="run_button">Run</button>
-            {% if simulation_name == 'general_assembler' %}
-                <button id="clear_button">Clear</button>
-            {% else %}
-            <button id="reset_button">Reset</button>
-            {% endif %}
-            <button id="highlight_button">Turn highlighting on or off</button>
-        </div>
+
+        <div class = "col-sm-12">{% block buttons %}{% endblock %}</div>
     </div>
+    <br>
+    <div class = "col-sm-12 text-center bg-light border border-primary" id = "line_desc"></div>
     <br />
     <div class = "jumbotron text-left">{% block description %}{% endblock %}</div>
     {% endblock %}
 
 {% block scripts %}
-    <script src="{{ static('js/simulator.js')}}"></script>
-    <script></script>
+    <script src="{{ static('js/simulator.js')}}" type="module"></script>
 
     {% if simulation_name == 'general_assembler' %}
-        <script src="{{ static('js/general_assembler.js')}}"></script>
-        <script>$(document).ready(start);</script>
+        <script src="{{ static('js/general_assembler.js')}}" type="module"></script>
+        <script type="module">
+            import { start } from '{{ static('js/general_assembler.js') }}';
+            $(document).ready(start);
+        </script>
     {% else %}
-        <script src="{{ static('js/demos.js')}}"></script>
-        <script>
+        <script src="{{ static('js/demos.js')}}" type="module"></script>
+        <script type="module">
+            import * as Demos from '{{ static('js/demos.js') }}';
             {% if simulation_name == 'assembly_addition' %}
                 $(document).ready(() => {
-                    start_demo(assembly_addition_demo_params);
+                    Demos.start_demo(Demos.assembly_addition_demo_params);
                 });
             {% elif simulation_name == 'floating_point_operations' %}
                 $(document).ready(() => {
-                    start_demo(floating_point_operations_demo_params );
+                    Demos.start_demo(Demos.floating_point_operations_demo_params );
                 });
             {% elif simulation_name == 'looping_with_tix' %}
                 $(document).ready(() => {
-                    start_demo(looping_with_tix_demo_params);
+                    Demos.start_demo(Demos.looping_with_tix_demo_params);
                 });
 
             {% endif %}
 
         </script>
     {% endif %}
-    <script src="{{ static('js/render.js')}}"></script>
+    <script src="{{ static('js/render.js')}}" type="module"></script>
 
 {% endblock %}

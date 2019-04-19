@@ -1,0 +1,47 @@
+COMPUTATION CENTER
+Massachusetts Institute of Technology
+Cambridge 39, Massachusetts
+
+January 4, 1960
+
+Memorandum to Users of the MIT Computation Center 704
+
+Subject: Limitation on Computing Time
+
+‘The requests for time on the 704 have been increasing steadily for
+the past two years. Already the schedule is close enough to saturation
+that processing delays occur at times of peak demand. It is apparent
+that this spring the requested machine time will total more than the time
+alloted to MIT on the Center's 704, According to the ag.eement with IBM
+two shifts are available for educational-research computing, one shift
+for MIT, the other for the other New England colleges. Until recently,
+the other colleges have not used all their shift, so that MIT has had more
+than a single shift available. But the time used by the other colleges
+has increased, so that this year nearly all its time is filled and there
+is less for MIT.
+
+The Center has endeavored to accommodate for the increased load by
+running one Saturday a month (used primarily by the other colleges, the
+correspondingly rcleased week-day time being used by MIT) and by en-
+croaching on the third (IBM) shift when processing delays rose to longer
+than 24 hours. We hope to run two Saturdays a month this spring and to
+encroach on the third shift from time to time, but, even, requested time
+will exceed time available for MIT.
+
+Computing time can be delay-limited or it can be limited in advance
+by imposing quotas, The Center believes it is more appropriate to impose
+quotas, Hereafter problems requiring machine time will be classified as
+follows:
+
+A. For use in conjunction with classroom work.
+
+B. Problems which directly or incidentally develop new programs
+or techniques which will be useful to other machine users,
+
+C. Other problems.
+
+If requested time for MIT problems, per quarter, is larger than
+the estimated time available, allowed times will be reduced proportionately;
+cach class may be reduced by a different fraction. A small amount of time
+
+

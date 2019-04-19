@@ -1,0 +1,65 @@
+L eeme—t— ' Page 1 of B
+& DCL-155
+
+Computation Center e
+Magsachusetts Inatitute of Techmology
+Cambridge 39; Massachusetts
+
+T0: Profe P. il Morse
+
+FROM: S&EC Group
+
+SUBJECT: M.I.T. 704 Post-iortem Routine
+AUTHOR: A. Siegel
+
+DATE: November 26, 1956
+
+The postemortem routine described in this report is being prepared for
+uss on the .I.T. 704 and for SIARE distributions It is a selective memory print-
+out or punch~out routine for use as an aid in trouble-shooting. The registers of
+core memory to be recorded end the form in which the output is to be produced are
+specified using either symbolic request cards or the computer console. The output
+igs in the notation of the SHARE Assembly Program (SAP), including the symbols of
+the ariginal program if they are requested«* The routine is designed for vers
+gatility end consist@ncy with the SAP notation, in order that the coder may get
+
+exactly the inforiuabivic u® wants in exactly the form he wants it.
+
+As described in this report, the symbolic request cards are read and
+translated by the postemortem routine before their exaecution. This translation
+can more efficiently be done by the compiler, and any future Me.I.T. compiler will
+probably do this. It is possible to madify SAP to accept these cards, and there-
+by combine the assembly and post-mortem routines into an efficient service-yroutine
+package. However, the post-mortem routine mey be used as described here, whether
+or not such changes are aade in SAP.
+
+Sggbolic Bostamortmm;Reguests - the PR Card
+
+The SIARE card format (comprising symbol field, operation fisld and
+variable field) is reteined in the request cards. Card requests are identified
+by the letters PilR (Post~Mortem Request) in the operation field. The varieble
+field in the R card contains four expressions separated by conmis and Lermine
+ated by & blank column.
+
+The first two expressions give the initiel und final addresses of tThe
+block in core memory to be printed or punched. These two expressions are of the
+gume form &s expressions in SAP, and may include symbolse. The ¥aird expression
+sndicates the form in which the words are 1o be produced, and consists ol one of
+the following ebbreviati.ns:
+
+FLO Floating-point numbers
+
+FIX Fixed-point numbers, scaled with binary
+exponent x and decimal exponent y (following
+SAP notetion). Jhe scaling information may
+be omitted to obtain BU k0.
+
+INT Fixed-point integors (decinal)
+SR 4% Tnaetructions with symbolic addresscs
+ABS Instruction with absolute addresses
+
+B T A A A S AR ST ST THT AR A AL LRI T D e T A ST L S R SRR TS LIRS P ATT EITY O T A S 1T S AN T B s S W T i ST . T e
+
+nm
+
+=The treatment of the symbol table is described latere.

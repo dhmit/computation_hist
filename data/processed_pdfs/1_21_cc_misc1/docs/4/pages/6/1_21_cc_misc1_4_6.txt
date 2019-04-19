@@ -1,0 +1,46 @@
+to be agreed upon; it is hoped that these may be based broadly
+enough to apply to a wide range of future concordances, both in
+
+Latin and in other languages, and covering a number of other
+theologians,
+
+The following sections outline (a) some of the anticipated
+problems in preparing a Latin-language concordance by computer,
+and (b) the general technical aspects of constructing such a com-=-
+puter program.
+
+IV
+
+There are certain characteristics of the Latin language which
+impede clear alphabetical sorting and selection of meaningful con-
+texts by machine. In English, plurals of nouns give little trouble,
+except for a few Anglo-Saxon survivals, Certain strong (drink,
+drank, drunk) and irregular verbs (go, went, gone), and the per-
+sonal pronouns afford some alphabetical displacement. The verb
+to be causes problems in western European languages, The Greek
+epsilon, (the imperfect tense prefix) and the general complexity of
+Greek conjugation, for example, would raise greater problems
+probably than Latin., Yet Latin has its share of difficult features,
+
+First of all, word derivation from a common root causes a
+mixing of parts of speech when strict alphabetization is followed.
+This will be an acute difficulty in Calvin because of his fondness
+for the use of related words--verbs, nouns, adjectives, and ad-
+verbs, For example: efficere, effectus, efficax, efficacia;
+appetere, appetitio, appetitus, appetentia. His style abounds in
+abstract nouns (derived mainly from verbs). Thus, in alphabeti-
+cal order one might find:
+
+effectus (noun; perf. pass. s, part. of efficere)
+efficacem (adj. m/f s. accus.)
+
+efficacia (noun, nom or abl. sing.)
+
+efficacibus (adj., dat. /abl. pl.)
+
+efficere (vb,, inf.)
+
+efficiam (vb., 1st s. fut act. ind.)
+
+This example also illustrates in part the anomalies--~alpha -
+betically considered--of the Latin inflectional system. Most acute

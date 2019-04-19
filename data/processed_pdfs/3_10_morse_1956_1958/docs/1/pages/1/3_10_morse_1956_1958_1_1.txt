@@ -1,0 +1,50 @@
+DATE:
+
+MEMORANDUM
+Professor P, M., Morse
+F, 8, Verzuh
+
+January 9, 1956
+
+SUBJECT: "Purchased" Time on the WWl Computer during the sixz-month
+
+period July 1 - December 31, 1955.
+
+M
+
+In accordance with our discussions regarding ways and means
+for financing the M.I.T. Computation Center involving the
+704 operation, I have prepared a four-page summary of "purchased"
+time on the WW1l Computer broken down on a project basis.
+
+It should be mentioned that the charge for the use of this
+computer falls into a number of categories:
+
+i. Guarsnteed time charged at an eguivalent rate of
+$3.205/hour of WWi time.
+
+2. Regular charge at a rate of $4.167/hour of WW1l time,
+
+Tom Crane, Research Fiscal Officer, and I will meet to discuss
+a possible revision of the current billing procedure.
+
+During this six-month pericd the "purchased time" usage of
+WW1i breaks down as follovws:
+
+Aero-elastic Allocation Account 1028.1 @ 3,295.05
+Servomechanisms Account 1065.2 3,413.96
+Civil Engineering 480.0 1,538.40
+Instrumentation Allocation Account 1500.0 4,807.50
+leteorology Department 843.0 2,701 .82
+Geology Department 833.1 2,670.08
+Buerger | 287 .4 921.13
+Research Laboratory of Electronics 1080.0 4,500.37
+Misc. non-guaranteed billings : 1209.3 2,039.19
+
+GRAND TOTAL 8326.1 $28,887.50
+
+The attached four~page summary provides a detziled bregkdown
+of the individual projects and sponsors involved. I think it is a
+simple matter to be able to determine which laboratory should
+contribute how much for the 704 operation. I am looking forward to
+discussing this matter at our next meeting on Tuesday, February 14.

@@ -1,0 +1,46 @@
+(6)
+
+H’ gation is in the application of machine techniques to library
+| inventorying, cataloguing, and record-keeping. Although special-
+burpose machines wilj probably be required in the end, many ideas and
+procedures can be developed and checked out on the general-purpose
+machine at the Center with the addition, perhaps, of some specially
+built input ang output equipment. The staff of the M.I.T. Libravy
+
+18 interested in this work, and will contribute its knowledge to
+
+1ts progress. .
+W jank
+
+C. Perhaps the most promising line of advance,Abecause the
+least investigated up till now, is in the field of social science
+experiments, where the computer can be used as recorder, sScorer
+and referee, é@; Tactical situations in warfare are already being
+studied by "gaming techniques" at Rand and in other military operations
+research groups. Similar faesdead problems in various fields of the
+social sciences can also be studied by Simplifying the situation
+down to some sort of "game" with more or less co%aicated rules,
+which can be played by groups of investigators, ﬁo see what are
+the consequences of various strategies. If the "games" are to
+correspond, even distantly, to some actual social situation, the
+rules must be quite complicated and the scoring will require a great
+deal of statistical computation. It has been found that only by
+the use of computing machines can the scoring be speeded up suffi-
+ciently so that enough games can be run through to provide an over-
+
+dl—( 1’:\4’\\6\"\"\ ;‘v\ Am (L'L’\ ‘Ot:\-(ir‘vj ‘ :
+eSeegreopertidess
+
+all grasp ofﬂ"
+
+related to the experiments of Bavelas on the behavior of task-
+
+Such "gaming techniques" are closely
+
+oriented groups. The use of a properly programmed computer would |
+provide such experiments with a powerful and flexible means of
+
+changing, controlling, and analyzing these experiments in social
+psychology. In this field we could work in close collaboration
+
+with the Center for International Studies at M.I.T. and with the

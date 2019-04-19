@@ -1,0 +1,82 @@
+- .. B -
+O o - U : ﬁ-’
+] @ <
+g Qo : = =
+—~ ) € 7
+M~ (? f ,:.
+o o 2 g
+= g £
+o £ »
+2§ £/
+e g 7
+
+ 
+
+ 
+
+used to reserve an area of memory for data storage or
+The expression in the variable field deter-
+
+working space.
+
+mines the length of the block reserved, and the symbol in
+the location field is assigned to the first cell of the
+
+The assembler performs the BSS pseudo-operation
+then increasing
+
+block.
+the current value of the location counter,
+
+by first assigning to the symbol in the location field
+the location counter by the value of the.expression in
+
+the variable field. The symbol in the location field 1is
+a relocatable symbol, All symbols appearing in the variable
+field of a DBSS pseudo-operation must have been previously
+If the expres-
+
+its value is
+
+3
+defined; otherwise a phase error results.
+sion in the variable field is absolute,
+
+computed according to the rules for arithmetical expres-
+sions. If the expression is Boolean, it is computed
+according to the rules for computing Boolean expressions.
+I1f the expression is relocatable, common, or involves a
+relocation error, it is not permitted as the variable
+
+field of a BSS pseudo-operation and its use therein is
+For the purpose of
+
+called a phase relocation error.
+determining whether or not a phase relocation error has
+occurred, symbols defined by SYN and EQU should be replaced
+by their defining expressions. The rules regarding phase
+relocation errors given above for the BSS pseudo-operation
+also apply to the BES and COMVON pseudo-operations.
+The dif-
+
+BES The BES (Elock Ended by Eymbol) pseudo-operation is used
+to reserve storage in much the same way as BSS.
+ference is-this: the symbol in the location field is
+assigned to the first memory cell after the end of the
+If the location field is blank, the BES is exactly
+The assembler perfoirms the BES pseudo-
+
+block.
+like the BSS.
+operation by first increasing the location counter by the
+value of the expression in the variable field, and then
+assigning to the symbol in the location field the new value
+A symbol defined by a BES pseudo-
+Symbols used in the
+
+of the location counter.
+
+operation is a relocatable symbol.
+variable field must have been previously defined, or a
+
+==

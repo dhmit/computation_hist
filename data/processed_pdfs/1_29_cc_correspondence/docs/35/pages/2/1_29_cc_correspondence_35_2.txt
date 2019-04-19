@@ -1,0 +1,40 @@
+2
+
+will not have the 8,192 word magnetic drum nor the special half-
+word logic feature which are present on the 704 at the Center.
+As with the present magnetic tape peripheral equipment, there
+will be two 150 line/minute printers, a tape-to-card punch,
+
+and a card-to-tape reader.
+
+Il Programming Systems
+A. Fortran-FAP Monitor System
+
+A large fraction of the present users of the Center
+are using the 704 Fortran programming language. For the 709,
+the Fortran language 1s pasically unchanged but there is a
+ma jor improvement 1in that the compiler is now a part of a
+Monitor System that allows control cards and includes a SAP-
+1ike machine language assembly program called FAP. The control
+cards of the Fortran-FAP Monitor System (hereafter called FMS
+for brevity) allow one in a single run with the computer to:
+
+1. Compile several Fortran subprograms and
+punch relocatable binary decks for them;
+
+2. Assemble several FAP subprograms and punch
+relocatable binary decks which are compatible
+with the Fortran binary subprograms;
+
+%, Run the resulting collection of subprograms
+from (1) and (2) and previously compiled decks
+as a single program in the computer,
+
+L. Or alternatively run the program as consecutive
+
+"echain' 1links of a program otherwise too large
+to fit in memory;
+
+5. Use of the FMS system allows the Center to
+batch jobs on a single input tape; thus on-
+line card reading is replaced by the faster

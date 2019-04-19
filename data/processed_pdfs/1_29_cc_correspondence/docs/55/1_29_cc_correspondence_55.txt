@@ -1,0 +1,48 @@
+MIT COMPUTATION CENTER
+Massachusetts Institute of Technology
+Cambridge 39, Massachusetts
+
+PROBLEM APPROVAL FORM
+
+Dr. Herbert P., Galliher
+Room 10-339 August 1, 1957
+
+Dear - Dy. Galliher:
+
+This is to inform you that your problem entitled:
+
+Waiting Line Computations
+
+has been allotted 7 hours of 704 computer time for the
+period from Thursday, August 1 to Friday, November 1
+Machine time not used during this period will not be applicable
+to later periods; instead, if additional machine time is needed at
+a later time, a further machine time application must be made
+
+to the scheduling requirements of the Center,
+
+To simplify bookkeeping at the Center, your problem has been
+assigned the number M 139 . The programmers also will have
+identifying numbers as follows:
+
+H, P, Galliher 61
+R. Moroney 62
+E. A, Donovan 16 (staff member)
+
+The general requirement of the 704 computer usage at the Computation
+Center is that the computer work be involved with publishable
+research. All publications arising from the computer work at the
+Center should bear the credit: "This work was done in part at the
+M.I.T. Computation Center, Cambridge, Massachusetts', and the Center
+should be kept informed of all such publications. Use of the computer
+also entails the obligation to submit quarterly progress
+reports upon request.
+
+Sincerely yours,
+
+F. M. Verzuh
+Assistant Director
+
+JCF-3a
+
+

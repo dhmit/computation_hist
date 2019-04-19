@@ -1,0 +1,17 @@
+28,
+
+.2 few years ago a machine user had to become familiar with
+OiNAry arithmetic and with all the other idiosynerasies of the primary
+Bachine operating code, just as the early auto owner had to be familiar
+With spark and choke and cluteh, As time goes on it is less and less
+necessary for the Occasional user to master all these details in order
+to use the machine, even if he has o devise a program for s new problem.
+in The first place, many of the more usual calculations will have been
+aiready programmed so that, for example, if one wishes to compute a
+Bessel function or to apply the chi-squared test for the it of a
+formula to a set of data, one need only use %he ready-tested program;
+In the secong place;—it is possible to provide a heirarchy of "trans-
+lation procedures™ .- assembly and operator programs, ete, —- whereby
+the machine itself will translate the desires of Tthe user, ezpressed
+in language more familiar %o him, into the specialized "language" of
+the basic machine code, This may be termed programming a% the Second

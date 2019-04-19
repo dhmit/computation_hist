@@ -1,0 +1,68 @@
+v
+
+M.I.T. Computation Center
+
+Minutes of February 7, 1858 HMeeting
+Q Persons Present: D. N. Arden P. M. Morse 7. M. Verzuh
+
+G. T. Hunter B. Rankin
+
+Morse read the proposed notice regarding applications for research assistantship
+and research associateship which is to be sent out to New England colleges. It was
+agreed except for a few minor additions that it was correct in its present form and
+would be released in the very near future. Some discussion was devoted to the minimum
+aumber of hours which such gppointees would actually spend on the M,I.T. campus. it
+was suggested that a minimum of 10 hours per week be spent at M.I.T. doing ''service
+type" operations. However, more thought must be given before an equitable arrangement
+can be established for all participanis.
+
+In a discussion of the various training courses on the 704 operastion which are to .
+be held, it was agreed that the previously discussed three-week course should be revised
+to a two-week course given at i§.1.T. - This course would consist of three hours of lectures
+each morning, and three hours of problem sessions (in groups of 10) each afternoon.
+gSince the registration would probably be oversubscribed, it was suggested that it be
+limited to 30 non-MIT participants and 30 MIT participants with preference given to
+asgistants and associates who will be appointed on the 704 prograu. Again, the exact
+
+- method of selection of registranis may vary slightly depending upon the actual registration
+
+tigu:‘éﬁ. _After a brief discussion of teaching staff requirements, it was decided that
+Arden, Verzuh, and perhaps. Kopley from IDM would present the morning lectures, whereas
+
+5 MIT staff and one person from IBM would comstitute the G-man team giving the aftermoon
+problem sessions. It was suggested that preliminary planning for this two-week course
+be initiated in April in order to avoid last-minute rushing. Morse will check on the
+availability of dormitory space during the last two weeks in August -- hoping to set
+the exact date of the course as Soon as possible.
+
+Hunter reported that there will probably be 15 people from participating universities
+attending the 10-week New York training course. Furthermore, it appears that ¥Yale will
+yun its own 704 course since 15 students have already expréssed an interest for such a
+
+- course on campus.
+
+Since ‘Mr. Sheldon Best is currectly on leave of absence from M.I.T. and on loan
+to the 1I.B.M. Corporation preparing FORTRAN subroutines, it was agreed that he should
+be notified to expect to joim the M.i.T. group approximately July 1, 1956 if not soomnsr.
+
+Hunter reported that there were a aumber of revisions in the complement of machines
+
+'which.are to be installed in the M.1.T. Computation Center. For example,. magnetic core
+
+capacity is to be increased to 32,000 words, a Typée 407 with FORTRAN character wheels
+
+is to replace the previocusly-mentioned 402 accounting machine, and the Type 604 is to be
+deleted from the list. Verzuh indicated that s Type 650 Calculator is an essential part
+of such a computation center, and it was suggested that Hunter examine the possibility of
+its inclusion since it is certainly needed in the service bureau for the solution of
+certain types of problems. The 1.B.M. Service Bureau in New York currently has four
+Type 650 machines available and in view of the recent I.B.M. anti-trust decree regarding
+service bureau operation, it seems advisable for us to have a 650 at M.I.T. Hunter will
+prepare a statement regarding the exact machine complement and agsociated equipment which
+igs to be in our 704 installation.
+
+The next meeting of this group will be held in Room 6-109 at 2 p.m. on Tuesday,
+February 14, 1956. '
+
+¥, M. Verzuh
+FHV:nb February 8, 1956

@@ -1,0 +1,51 @@
+VLI
+
+output (see page 9 ) is inserted. Where Ii=2,
+FORTRAN is instructed to interrogate the actual
+sense switch setting. Physical sense switch
+settings, however, are not available under
+Monitor control. The setting of 2, therefore,
+will instruct the Monitor to make its setting
+represent that given on the control card or
+
+by the standard setting, as above.
+
+(2) A Monitor control card for the indicator pre-
+cedes the program. In this case, the setting
+
+prescribed by this card is inserted.
+Dumping During Execution.
+
+The following statement may be used anywhere in the source
+
+program. CALL PDUMP A, B , F ..., A, B, F ) where the
+1 1 1 n n n
+
+maximum n is 20. The argument format for A, B, and F are
+
+the same as those given for the CALL DUMP statement.
+
+The difference between PDUMP and DUMP is that, after PDUMP
+is executed, the machine is restored to its condition upon
+entry, and control is returned to the next executable
+statement. The core dumps appear with any other output
+
+from the job on Tape A3.
+
+PDUMP is a primary name appearing on the program card of
+
+the library subprogram, DUMP.
+
+Restriction on use of PDUMP. Do not use the CALL PDUMP
+
+statement when there is a chain link on tape B2 to be
+executed subsequently. Tape B2 is used by the PDUMP
+program for intermediate storage of the contents of core
+
+storage where PDUMP is loaded.
+
+GENERAL RULES
+
+Monitor Operations.
+
+-] A

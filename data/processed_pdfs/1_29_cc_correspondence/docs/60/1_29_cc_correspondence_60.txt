@@ -1,0 +1,13 @@
+Section D:
+
+1) An improved significant digit check for the 2-phase case was
+obtained in this quarter and furtherimprovement is now promised.
+
+2) The constant~holding time case had been coded.
+
+Section E:
+
+Nothing short of a TOL with double precision would solve this
+apparently simple mathematical problem.
+
+

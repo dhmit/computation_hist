@@ -1,0 +1,57 @@
+ey
+
+s/
+Wy
+
+DEPARTMENT OF AERONAUTICAL ENGINEERING
+
+MoA"S SSATC HIU: S EVERSS= TINSSTELNTUFEE OF - TECHNOLOGY
+
+CA M BRI DG BE 395~ M AT S SoA CH U S BT T S
+
+Room 33-320
+March 20, 1958
+
+Dr. Frank M. Verzuh
+Computation Center
+Room 26-142
+
+Dear Frank:
+
+Many thanks for the cooperation and valuable
+assistance which you and your staff have given in the
+development of our generalized aerothermoelastic plate
+solution. We have developed this program to the point
+where useful and interesting results have been obtained.
+Currently the working control program contains numerous
+binary correction cards. After we return from the
+symposium it will be necessary to consolidate by mak-
+ing all the corrections in the symbolic program and
+then reassembling.
+
+During the last two weeks, in order to obtain
+results for the symposium, we have used considerable machine
+time in excess of that allotted. We regret that we have
+been unable to estimate our machine time requirements more
+accurately. We are grateful for your understanding in
+this matter.
+
+1 am sure that great interest will be generated
+by our presentation of the novel manner in which the IBM
+704 has been used. This aerothermoelastic problem is one
+which must be solved before safe re-entry from satellite
+or near satellite orbits can be accomplished. I will call
+you upon my return from San Diego to inform you of the
+response to this research.
+
+Sincerely yours,
+
+Se==ywe
+
+? 'vm
+
+James W. Mar _.
+Asgistant Professor of
+Aeronautical Engineering
+
+JWM: an

@@ -1,0 +1,52 @@
+— “«y iy oo
+
+COMPUTATION CENTER
+
+MASSACHUSETTS INSTITUTE OF TECHNOLOGY
+| 5 Er CAMBRIDGE 59, MASSACHUSETTS
+
+March 3, 1959
+
+‘Mr. Donald Jortner
+
+Engineering Analysis Section
+Westinghouse Electric Corporation
+
+Bettis Site
+
+Pittsburgh 30, Pennsylvania
+
+Dear Mr. Jortner:
+Professor Morse has forwarded to me your letter
+
+requesting—-information on the solution of fourth order
+-biharmo
+
+nic-type boundary value problems. I do not know anyone
+who is solving such problems at present. However, it is
+quite possible that one of the 500 problems now using machine
+time does involve the solution of such problems.
+
+If you could give me some more detailed information
+
+as to the source of Ws work, a further investigation would
+
+be possible.
+
+- I am enclosing a copy of the Computation Center's
+semi-annual report which has rather extensive lists of the
+work being done at the present time. This may be of help
+in determining proper references.
+
+Sincerely co
+
+Dean N. Arden
+
+Assistant Professor
+
+of Electrical Engineering
+DNA:RM
+Enclosure
+Copy to Professor Morse
+
+

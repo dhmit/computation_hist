@@ -1,0 +1,81 @@
+D"[:j]
+
+ 
+
+Tqe
+
+ 
+
+ 
+
+J¢
+
+are provided which alter the location counter in order
+
+by
+
+In most cases each
+
+to reserve space for storage of data.
+The variable field of an instruction consists of one or
+
+An expression is a
+
+EXPRESSIONS
+more subfields, separated by commas .
+subfield consists of an expression.
+string composed of symbols, integers, and the four oper-
+ators:
++ (addition)
+(subtraction)
+
+ (multiplication)
+
+/
+
+(division)
+
+Except for Boolean expressions, which will be discussed
+
+separately, the four operators have the meanings given
+
+An expression is evaluated as follows: First,
+Then all
+
+above,
+each symbol is replaced by its numerical value.
+multiplications and divisions are performed from left to
+right, in the order in which they occur, yielding a number
+Next the terms
+I1f
+
+of terms separated by plus and minus signs.
+are combined by performing all additions and subtractions
+
+is added to a
+
+from left to right in the order in which they occur.
+the result is negative, it is replaced by its two's
+35
+
+complement. (That is, the number 2
+
+negative result.) Finally, this result is reduced modulo
+
+2 (except in the variable field of a VFD pseudo-operation),
+Grouping of
+
+that is, only the rightmost 15 bits are used.
+
+15
+terms, by use of parentheses or otherwise, is not permitted,
+For instance,
+
+but this restriction may often be circumvented.
+the product of A with the quantity B+C may be expressed as
+A*B+A*C
+
+All integers in non-Boolean expressions are taken as decimal
+If a
+
+and must consist of six of fewer decimal digits.

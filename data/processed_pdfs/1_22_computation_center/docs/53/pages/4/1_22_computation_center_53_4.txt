@@ -1,0 +1,54 @@
+-2
+
+5. A discussion of various miscellaneous items such as, location
+" of the main power switch, rating requirements of circuit
+
+breakers, CFM and air ccnditioning requiremente for the EAN
+area, ik
+
+6. A discussion of the installation problems associated with
+
+the Type 650 Magnetic Drum Calculator as digcussed in Verzuh's
+memo dated November 5. ;
+
+problems Associated With The Removal of Blowers on the 704 Equipment
+
+The four engineers from IBH Poughkeepsie discussed at great
+length the many detailed problems which arose when the blowers in the
+following units: Type 704, Type 733 Drum Unit, the two Type 733 CORE Units,
+the Type 741 Power Unit, and the aecppqygbwgginnit Type 736 were removed,
+
+ The IBM engineers agreed to provide detailed circuit drawings
+and a complete set of specifications regarding the size of the holes which
+ape to be cut in the steel plates, the exact location and type of thermo-
+couples which are to bs located im the various machine units, and the design
+
+‘apd cirveuits for  the INYERLOCE equipment which must be installed for
+
+preventative purpeses. -
+
+Syska & Hennessy personnel indicated that they must stop all work
+on the installation of the under-flcor duct system until they have had an
+opportunity to evaluate the particular desaign degsired to provide the two
+types of outlets which are now required. Specifically, one outlet providing
+air. conditioned air at Opsi and the second one providing alr conditioned air
+at 1 sq. inch psi, respectively.
+
+Resu%ﬁgﬂgﬁ the HHeeting with stka‘g Hennessy Electrical Personnel
+
+Mr. Hick Graham attended this meeting and provided detailed
+information regarding some of the design of the INTERLUCE circuit in the
+besement of the MIT Computation Center, gnd during the course of this
+conversation it was discovered that the main rating for the main circuit
+
+. preaker was only 125 amperes whereas the rating of 400 amperes Was requested
+
+in the specifications which werse submitted to Syska & Hennessy O
+November 11, 1955, This sltuation 18 currently being corrected.
+
+Results 3§ §Eg_Conference at Skidmore, Owings & Merwill - 2:00 p.m.
+Verzuh presented the revised space layout for the cffice area
+
+in Rooms 142, 144, 146, 130 and 152, respectively, which pertains to the
+
+offices and schedule and dispatch areas in the MIT Computation Center,

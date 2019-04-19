@@ -1,0 +1,46 @@
+[ = . /’%{rpc ST DRAFT
+
+Proposal for Development of a Real-Time Computation Facillty
+
+Ob jective: The purpose of thls proposal is to obtain support
+for the research and development of a feasible
+real time (on-line) computation system, time
+shared among many remote users. The system, cen-
+tered around a large general purpose computer,
+would be designed to meet the needs of a diverse
+regsearch and educational activity; 1t would take
+advantage of the possibilities of immedlate ac-
+cess computation using speciallzed remote input-
+output devices as an adjunct to human thought and
+learning.
+
+ 
+
+sSummary
+
+Computers and computation systems have yet to explolt
+many considerable advantages that may be realized with a very
+closely coupled human reasoning - machine inf'ormation proces-
+sing system. |
+
+This 1s particularly the case 1ln very large information
+processing problems such as large systems of non-linear par-
+tial differential equations, heuristic programs, etc. where
+properly applied human faclllitles of insight, pattern recog-
+nition, reasoning, etc. may be the only feasible way of di-
+recting an otherwise "overwhelmed" computer whose speed and
+capaclty are as yet no match for a large combinatorial problem.
+
+To make such a mode of usage a workable reallty, existing
+computers must be modified to allow time-sharing among many
+users.
+
+Such system modification include the addltion of backup
+random access memories, and an "exchange" for the dispatch of
+
+ 
+
+devices and appropriate languages must be developed to bridge
+
+|
+| messages to and from the remote devices. Speclal input-output

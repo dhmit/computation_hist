@@ -100,7 +100,7 @@ class Document(models.Model):
     cced_person = models.ManyToManyField(Person, related_name='cced_person', blank=True)
     cced_organization = models.ManyToManyField(Organization, related_name='cced_organization',
                                                blank=True)
-    notes = models.CharField(max_length=191, blank=True)
+    notes = models.TextField(blank=True)
     file_name = models.CharField(max_length=191, unique=True)
     text = models.TextField(blank=True)
 
@@ -126,7 +126,7 @@ class Document(models.Model):
 
     @property
     def url(self):
-        return f'/archives/doc/{self.pk}'
+        return f'/archives/doc/{self.slug}'
 
     def get_person_list(self, list_type):
         """

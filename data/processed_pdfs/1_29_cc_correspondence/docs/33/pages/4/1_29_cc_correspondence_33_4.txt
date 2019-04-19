@@ -1,0 +1,48 @@
+programs, allow
+
+system, have built-in input and output sub
+
+features and always allow to the
+
+macros, have good debugging
+
+t system
+user symbolic references to hils program. “Lne resultan ystem,
+
+called SOS, was magnificently ambitious, sufficiently S0, that
+
+the system is just beginning to assume complete and debugged
+form over a year after the first 709 was delivered. Many
+features of SOS are admirable; however, it 1s the consensus
+
+of opinion at the Center that tTWO serious liabilities have
+
+arisen:
+
+5 The 1mprovement in problem formulation
+technique by means of compillers is improving
+p@pidly. Programming in overly-detailed
+machine language with no provision for compilers
+is not only an accident-prone procedure but
+requires one to be a machine language specialist.
+
+2. The Very elaborateness of the SOS system which
+has pleased the expert programmers, has dis-
+couraged the development of brief, concilse
+programming manuals which are also self-contained.
+
+In spite of these objections, the Center plans to have the 505
+system available and be prepared to operate it for those who
+feel it is a more effective system for their needs. The
+programmer who intends to use this system will find it helpful
+to familarize himself with the following material in the Center
+Document Room. |
+
+1. SO0S Reference Manual - SHARE System for the
+
+TBM 709 (loose-leaf)
+
+2. Programmers Manual for the SHARE Operating
+
+System (October 1959) by C. E, Homan, IBM
+and G. F. Swindle, SDC

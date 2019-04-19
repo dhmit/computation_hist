@@ -1,0 +1,44 @@
+This consists of the following:
+
+a. The output tape, A3, contains the information which
+comprises the first two files of a compilation in the
+single compile mode; that is, the source program and the
+map of object program storage.
+
+b. The object program in relocatable binary is stacked on
+tape B4 for peripheral punching without the required
+
+library subroutines.
+
+The different Monitor control cards and their effects are:
+
+a. CARDS ROW. (Not recommended.) This card instructs the
+.Monitor to punch on-line standard FORTRAN relocatable
+row binary cards, preceded by a BSS loader if a main
+
+program.
+
+b. CARDS COLUMN. (Not recommended for normal use.) This
+card instructs the Monitor to punch on-line columnar
+binary relocatable cards (no loader), and do not stack
+
+binary output on tape B4 for peripheral punching.
+
+Note that CARDS ROW and CARDS COLUMN cannot be used with
+
+the same source programs.
+
+¢c. LIST. This card instructs the Monitor to list on the
+output tape following the core storage map, the object
+program in FAP-type language.
+
+d. LIBE. (Not recommended for normal use.) This card in-
+structs the Monitor to search the FORTRAN library for
+subroutines during compilation of each subprogram and
+include these with the object subprogram. This control
+card is normally not recommended inasmuch as, when
+compiling several subprograms, multiple copies of library
+subroutines may be punched. Moreover, during a compile-
+and-execute job the loader of the object program auto-
+
+matically searches the library for missing subprograms.

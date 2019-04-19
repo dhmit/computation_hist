@@ -1,0 +1,34 @@
+A et 2 S - ———— e R RRERRREEEEE———
+e e A B TSR R e T AT AR e AN S PN s S LIRSS :
+
+ 
+
+   
+
+Operations Rhesearch Project
+Room 6-218
+
+December 5, 1957
+
+ 
+
+ 
+
+ 
+
+Room 26-1116
+
+ 
+
+Dear Frank:
+
+This is a request for additional 70l time for problem 139,
+our waiting-line computation. The program for this problem has just
+been changed to use single-precision arithmetic, after a certain
+stage, in order to shorten the computing time. Approximately
+one hour of time trials and de-bugging is needed now, after which
+& separate request will be made for time for the production runs
+implied in my memo of November 8.
+
+Herbert P. Galliher
+Assistant Director

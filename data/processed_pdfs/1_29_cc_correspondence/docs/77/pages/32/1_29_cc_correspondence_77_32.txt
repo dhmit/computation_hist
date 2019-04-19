@@ -1,0 +1,55 @@
+SYSTEM CONTROL
+
+Program
+
+Identification Lvery symbolic program or subprogram must contain a
+FAP card as its first card. This card indicates to
+the Monitor that what follows is a symbolic program
+to be assembled (rather than a FORTRAN source program
+to be compiled). The FAP card contains the letters
+"FAP" in the field defined between columns 7-72 and
+an asterisk in column 1. The remainder of the FAP
+
+card must be blank. Note that no comments are permit-
+
+ted on the FAP card.
+
+ 
+
+ 
+
+COUNT The COUNT pseudo-operation gives an estimate of the
+number of cards in the symbolic deck. The assembler
+uses this estimate to place half the intermediate
+
+information on one tape and half on another. Thus,
+
+ 
+
+one of these tapes is in use while the other is re-
+winding. In order to know when half the information
+has been processed, the assembler must know the
+
+symbolic card count.
+
+The COUNT pseudo-operation follows the FAP card; its
+location field is blank and its variable field contains
+a decimal integer, an estimate of the number of cards
+
+in the symbolic deck.
+
+If no COUNT card is included, the assembler assumes a
+
+card count of 60,
+
+Program
+Termination Every symbolic program must be terminated by the pseudo-
+operation END, punched in the operation field. Comments
+
+may be punched in columns 17-80 only.
+
+The Program
+
+Listing The assembler prepares a listing of the program which
+
+= 30=
