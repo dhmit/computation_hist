@@ -1,77 +1,78 @@
-‘soutyosm Jodwis puw (g9 9Y) WO AUOP IO FO SUMTOA YL (P
+July 6, 1955
 
-"POL W1 ®O pesn SWl] o1q¥eIvYd-uUOU pelosuods JO JUNOWE OYL (g
+TO: Professor P. M. Morse
+FROM: F. M. Versuh
 
-"$0L OY3 WO pojonpuod yosewesas Sujded-uou puw syseyl jJo junowe YL (B
-"POL O3 JO UOTIBBTITIN  UOTINITISUF JOILTS, JO IUNOWS oyl (T
+RE: Pro!gscd IBM cn-gntigg contcr'gg_lxr
 
-{SUCTIBPUSEEODS
-facqe 9y3 aduenTut A13U0J}S YOTHA SIO10V] UTBIIOOUN JO JSQENU ¥ 2J¥ SIYL
+The purpose of thismemorandum is to comsider some of the factors involved in
+operating a new MIT computing center containing a Type 704 EDPM machines and
+other auxiliary IBM machines. It is assumed that the 704 will be used four
+shifts; however, only two of these are to be used by MIT. The following cost
+estimates are therefore confined to a two-shift mode of operation (80 hrs/wk).
 
-'000°882$ 30
-103png pPelvEWI}Se 943 JOA009X 03 POZTIves oq jsnm (°I4/0828 3%) aumyl 21quwelawyo pO.
-Jo *Say 0g0' I 39yl 51eeAed 103pnq POqTIOSSP-SA0QSE 9Y3 JO UOTIBIIPTSUOD ¥
+INSTALLATION OF 704 MACHINE
 
-‘890TAJ9E TBOTISTIVIG Y] ui Fupppuvy LA[juszind 9Jv oA sweyqoad rews
+2,400 sq. ft,
 
-JO SOSEBIO UTNIISD SATOF 03 POSn eq TITA 3] °*JOIBINOTR) wnig o1ioulel ggg odAl
+125 kw
 
-v £q pederdex oq (OdD PU® $09) seurgoem yeioads juesead 243 318yl peisofins
+25 tons
 
-8T 3I *(00°861°L1$) uorrvradoadds eajiviistujupe [snsn ey ALq porsoddns eq
+S+ 65 = 10 people
 
-TIFA SedTAJeg TEOT3I8TILIZ 21 U souryomm LM ITxns juesoad oyl eyl puv ougyosw
-¥0L ©dAL mAI 2y} JO7 S23JeYD SUTUOEW OU 8q [TTA 9J°U3 18Y3 POUMSSE ST 1]
+704 Space Requirement
 
-LU0ddNS TVIONVNIZ 40 SNVIN FT91I8S0d
+Power Requirement
 
-W . . - 2 . " o . ° o ° e ® e . . e . . e S
-PP°600°c82S TVIOL
+Air Conditioning
 
- 
+Operation & Maintenance Staff
+(2 shift operation)
 
-PP °£66°6L8 910°SLT$
-00°9.¢ 62 (OdD + $09) TeIuUly SUTHO®H
-19L°28 = pBeyILAQ JId
-( 190°'t = sofawyd 32199J1q
-00°000°'21 ( ©weg’e = 8917ddng § syorIel®N
-( o000°‘¢ = 19ARIL
-4 A RT3 0982218 = sode) § soTavIeS
+Total<2zggg_r=guir¢lents for analysts, programmers, operatore, and administra-
+tive personnel, auxiliary maclines, 704, etec. = 7,000 s8q. ft. minimum.
 
-T T S e i S A I S IR ST s e T Sy
-Sa0TAJeR [eOTISTIVIS dnoxp zeindwo) 183 19Fq
+ESTIMATED BUDGET REQUIREMENTS FOR 12-MONTH PERIOD
 
-JOI¥Ed HINOW-ZT HOJ SINIWTYINONY laDaNg QILVWILSE
-
-‘WNUIUIH °33 ‘DS 0007L = °929 ‘PoL ‘soupovm Lxeriixne ‘[ouuossed aAy3
-~RIISTUTWP® pue ‘sioywiedo ‘ssewmeaBoxd ‘sisiysue Jo7 €1UdWeITNDeL 209AS 18301
-
-(uorjexedo 31774Ys g)
-
-otdoad Q0T = ¢ + ¢ = JJ®l§ OOUBUSIUTEN W uoTIvIdy
-Suo} gg = SuUTUOTITPUOD ITY
-
-ay gg1 = jusweITnbay Jomod
-
-*3F *be gop'‘zg = juewostnbay oowds po2
-
-ENIHOVR P0. 40 NOILVITVISNI
-
-*(Aa/8aq 0g) uoriwredo JO OPOW 1ITHS-OM] B O PIUTIUOD @J03J2J9Yy)} I8 S9IVEIISO
-3802 BujaolioF oyl °LIN £q pesn 2q 03 aJw eseyl Jo oAl Lfuc ‘Jessmoy {833ITUS
-oz pasn oq [ITA H0L Oyl 3By} poumss® ST 3] °SOUTYOSE WET AIeTTixXns I9Y30
-Pu® SoUTUOH WJAFE $0L odAL ® Supurwiuwen sejuweo Jurindwoo LIy Meu ® Jutiresedo
-
-UT PSATOAUT 8J039B7 3y} JO 2WOS JOPISUCD O3 ST WNPUBIOWIM STY2 Jo ssodand oy,
-
-LIN 3¢ Jejue) Jujindmo) MEI pesodoig 19y
-nBISA W °d  NOMI
-O8JOR W °'4d JO889J0Xd 0L
-
-G861 ‘9 Anp
+Digital Couguter Groug Statistical Rervices
 
  
 
-._;‘.‘ .'-'—— "t..ddlu“’ E i;'-b'é-_,..’rill uu .é!‘-‘“.. ':‘. 22 A0 1
+Salaries & Wages = $122,360 $38,617.44
 
-FLess
+Travel = 5,000 )
+
+Materiels & Supplies = 8,834 ) 12,000,00
+
+Direct Charges = 1,061 )
+
+DIC Overhead = 37,761
+
+Machine Rental (604 + CPC) 29,376,00
+$175,016 $79,993.44
+
+mu “ . . - . - e ° . . ® 3 - - - ~ € ° . . szss I009044
+
+POSSIBLE MEANS OF FINANCIAL SUPPORT
+
+It is assumed that there will be no machine charges for the IBM Type 704
+machine and that the present auxilixry machines in the Statistical Services will
+be supported by the usual administrative appropriation ($17,198.00). It is
+suggested that the present special machines (604 and CPC) be replaced by a
+Type 650 Magnetic Drum Calculator. It will be used to solve certain classes of
+small problems we are currently handling in the Statistical Services.
+
+A consideration of the above-described budget reveals that 1,020 hrs, of
+704 chargeable time (at $250/hr.) must be realized to recover ihe estimated budget
+of $255,000,
+
+There are a number of uncertein factors which strongly influence the above
+recommendations:
+
+1) The amount of "sister imstitution” utilization of the 704.
+
+2) The amount of thesis and non-paying research conducted on the 7C4.
+3) The amount of sponsored non-chargeable time used on the 704.
+
+4) The volume of work done on the 650 and simpler machines.
