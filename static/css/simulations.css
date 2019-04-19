@@ -30,3 +30,8 @@ code {
 .special_highlight {
     background-color: mediumseagreen;
 }
+
+#available_operations {
+    alignment: center;
+    font-family: Inconsolata, monospace;
+}
