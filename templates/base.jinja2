@@ -15,7 +15,6 @@
     <link rel="stylesheet" href="{{ static('css/styles.css') }}" type="text/css">
     <link rel="stylesheet" href="{{ static('css/acre_font.css') }}" type="text/css">
     <title>{% block title %} Computational History {% endblock %} - MIT Computation Center Archives</title>
-    <link href="https://getbootstrap.com/docs/4.2/examples/starter-template/starter-template.css" rel="stylesheet">
 
     {%  block extraheader %}{% endblock %}
 </head>
@@ -67,13 +66,14 @@
         </div>
     </nav>
 
-
 <main role="main" class="container mb-4">
-    <div class="starter-template">
+    <div class="text-center">
         <h1 >{% block header %}{% endblock %}</h1>
-        {% block content %}
-        {% endblock %}
     </div>
+
+    {% block content %}
+    {% endblock %}
+
 </main>
 
 
