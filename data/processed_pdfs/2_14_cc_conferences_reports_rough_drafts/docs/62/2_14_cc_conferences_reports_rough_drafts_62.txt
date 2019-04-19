@@ -1,0 +1,83 @@
+he 0
+
+Tos Herbert Teager “0 Dates March 15, 1961
+From: John McCarthy
+
+Sub jects Suggestions Inspired by your January 3 Report on the
+HES Time-Sharing Project ;
+
+ 
+
+1 £inally got around to reading your January peporst on the
+time-sharing project. All your short range plans seem quite
+feasible to me. AF. Lo ihe a natial :.
+
+However, I have some suggestions that might peduce the com-
+plexity of the modifications to the T0990 that are required. The
+programneing scheme is similar to that outlined in your report,
+
+7 and the idea, which avoids full boundary registers, occurred to
+me after reading the report. ; ; io
+
+EE —
+
+1. Machine modifications, We add 2 node of operation,t-mode,
+which can ve entered and left bY sultable instructions. It has
+two submodes, hi and 10. When the machine is in t-mode, the high
+opder bit of the memory address register 1s fixed to be either
+1 or 0 according to the hi or 10 submode and cannot be changed by
+instructions. Thus the program operates in high or low memory
+regardless of how jt is written. In addition, a speclal circult
+formas the or of bits 2 thru 5 and traps if this has value 0. This
+and all other traps turn off t-mode.
+
+ 
+
+2, Time-sharing systems. The effect of this hardware 18 that
+3096 words (2048 at the beginning of memory and 2048 in the middle)
+ape preserved for the cime~sharing system. The rest of memory is
+divided into Two plocks of 14336 registers. At any moment one of
+these blocks is being used by a user's program or by a compller
+working for a user and the other 1s being swapped with disk file.
+
+All programs except the time-sharing system are compiled
+
+between registers 2048 and 16383 but can actually run either in
+low or high memory secording to lo or ni submode. The Uime-
+sharing system handling all input-outpulb and traps occuples
+0-2047 and 16384-18431. Having it divided into two blocks is a
+mild inconveneince but allows the trap condition to be & gimple
+or circulb.
+
+
+2a
+
+3. Disc file requirement. Unless we have enough disc file
+heads, some time will be lost in seeking in this System. The X=
+change of Programs requires two heads, ye allow the heaq that is
+reading out one dise revolution head start, It would be nige if
+two other heads wepe avallable to work on the currently running
+Program as S00n as it was cut off, Also, the time-sharing
+
+€xecutive may need a head or two for when its input op output
+buffers £111 Up or empty, | |
+
+4, Programming Systems, Concerning the advanced Programming
+languages, I have no comment, 7 ¢an only wish you goog luck,
+
+Your idea of segmenting the eonventional Programming
+Systems is certainly feasible but may be Unnecessary, I bet that
+| 14, eglsters including working
+storage, and I am pretty sure that we ean shoe-~horn a version of
+LISP into the space that will be adequate for subroutine debugging
+
+and student work. Our blg LISP System will then be reserved for
+overnight runs,
+
+pai
+
+Carbon copies: P., M. Morse
+Fo J. Corbatos
+M. L. Minsky
+
+

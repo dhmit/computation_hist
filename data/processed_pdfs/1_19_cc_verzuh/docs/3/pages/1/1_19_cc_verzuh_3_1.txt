@@ -1,0 +1,43 @@
+Room 20C-206
+
+ 
+
+November 7, 1956
+
+Dr, G, T. Hunter
+
+I, B, M. Corporation
+
+363 Third Street
+
+Cambridge 39, Massachusetts
+
+Dear Truman:
+
+1 have completed the floor layout plans of the EAM room
+in the basement of Bldg. 26 and now realiZe that we probably do not
+have an adequate number of verffiers in our plans for the Computation
+Center. You will recall that the original decision regarding EAM
+complement was made by Messrs. Hurd and Mason prior to your appoint-
+ment as educational representative, and at that time we had: one key
+punch and one verifier in the installation. During the summer you
+and I discussed the key punching requirements and increased the
+number to the present total of six.
+
+ 
+
+At the present timc in our opsralion of Whirlwind, we have
+the fellowing equipment:
+
+Group Equipment
+Professional Group 3 Flexowriters
+3 Verifiers
+| 1 Comparator
+Self-Service Unit 3 Tape Perferators
+3 Verifiers
+
+1 Comparator
+
+If we were to attempt to extrapolate from the Whirlwind operation, it
+would appear that we need more verifiers. 1In view of the delivery of
+verifiers, I would like to suggest that we place an order for two (2)

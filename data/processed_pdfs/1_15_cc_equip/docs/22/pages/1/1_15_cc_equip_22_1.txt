@@ -1,0 +1,41 @@
+l",
+
+ 
+
+September 24, 1956
+
+Prof. Frank M. Verzuh
+
+20C-206
+
+Massachusetts Institute of Technology
+77 Massachusetis Avenue
+
+Cambridge, Massachusetts
+
+Dear Prof. Verzuh:
+
+I am listing below the punch card machines which we are furnish-
+ing in connection with the 704 installation. With each machine I am listing
+any special features it will have as well as the number of control panels of
+the manual or fixed setup type or the dual purpose type.
+
+Machine Fixed Control Manual Control Dual
+Type Panels Panels Purpose
+077 Standard 6 R
+519 Standard 10
+407 FORTRAN Printing Arrangement 10
+552 Standard 8 2
+024 )
+026 i :
+066 ) FORTRAN Key Top and Punching
+068 ) Arrangement
+082 Sorter - Additional Feature is the Auxiliary
+Card Counter
+010 Standard
+Yours very truly,
+‘//‘. J n(,,;ut,.»x VAL A i \\?;('U,,». \.('('5"'
+G. Truman Hunter
+GTH/ jeh Educational Co-ordinator
+
+cc: Prof. P. M. Morse“

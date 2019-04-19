@@ -1,0 +1,309 @@
+1.0
+
+2,0
+
+MEMORANDUM
+
+Hovember 30, 1856
+
+Mr, P. V. Cusick
+F, MN, Verzuh
+Separation of Administretive and Statistical Services
+
+Introduction
+
+in accordance with your request, I have prepared this
+memorandum~--the purpose of which is to define the functions and opera-
+tions to be performed by the new OFFICE OF ADMINISTRATIVE SERVICES °
+As a result of creating the new MIT Computation Center, the scientific
+computing activities, teaching, educational training, research in
+nachine computation, ete, currently performed by the Office of
+Statistical Services will, in the future, be performed by my group in
+the new MIT Computation Center, Succeeding sections of thig report
+define the character and structure of the new OFFICE OF ADMINISTRATIVE
+SERVICES, including a definition of the IBM machine complement required,
+the estimated personnel requirements, and a possible method of cost
+allocation, | |
+
+Function of Administrative Services
+
+The purpose of the Office of Administrative Services is to
+continue processing the work currently performed in comnection with the
+administrative offices of the Institute, Specifically, these include
+the following offices and cperaticna:
+
+Work Performed for Administrative Offices
+es | M——————————- | ——. at —————————.———_— ny | Crs To NH
+
+A number of previous reporis have been issued which deseriba
+the activities performed by the Office of Statistical Services for the
+various administrative offices at HIT. Briefly, these activities in-
+
+clude the following:
+
+1) ADNISSIONS OFFICE
+owls Emre
+
+ 
+
+on of pre-admission cards, computation of predicted
+Ran performance marks, preparation of adnigsion cards,
+and performance of Btatistics during the freshman year,
+
+ 
+
+Preparation of nama cards, roll cards, master subject cards,
+registration certificates, student enrollment cards, draft
+rating eards, alphabetic lists, class lists, grade sheets,
+grade reports, and various enrollment statistics,
+
+
+Memo - P, V. Cusick - 11/30/56 os
+
+3)
+
+4)
+
+5)
+
+6)
+
+7)
+
+8)
+
+10)
+
+11)
+
+BURSAR'S QFFICE
+
+The work performed for the Bursar'’s Office includes reconcilia-
+tion of the MIT vouchers, preparation of student insurance cards,
+preparation of Bursar’s Accounting cards, maintenance of student
+dining records, maintenance of student dormitory records, prepara-
+tion and maintenance of Bursar's Loan Fund Account
+
+ALUMNI PLACEMENT OFFICE
+
+Preparation and maintenance of the MIT Alumni company affiliation
+cards and the individual personnel placement cards,
+
+MEDICAL DEPARTMENT
+
+Preparation of lists of students enrolled in the EIT Insurance
+Plan,
+
+SUPT. BLDG, AND POWER OFFICE
+Preparation of Supt. Bldg and Power cards,
+ALUMKI OFFICE
+
+Preparation and maintenance of Alumni name and address files,
+maintenance of Alumni Fund contribution records and statistics,
+preparation of all Alumni mailing snd newletter distributiom,
+preparation of address labels for mailing of Technology Review ,
+
+HISC, ADMINISTRATIVE FUNCTIONS
+
+Preparation and mailing of many miscellaneous publications for
+HIT departments, administrative offices, student groups, ete,
+
+SPECIAL REPORTS
+
+Preparation of enrollment statistics for various academic
+departments, financial statistics for the Bursar’s Office,
+financial statistics for the Accounting Office, etc,
+
+NIT LIBRARIES
+
+There are a number of minor tasks performed for the Director of
+Libraries, such as siudent library cards, ete,
+
+Finally, there are certain card counting compilations prepared
+for the Center of International Studies and various other
+departments at the Institute,
+
+
+Memo = P, V, Cusick - 11/30/56 =F
+
+Rd 3,0 Organization of Administrative Services
+
+The present plan is to separate the Administrative Services
+portion of the Statistical Services from the Scientific Computing portion
+and to leave the Administrative Services' machines and personnel in
+Building 20 to Zunction as the new Office of Administrative Services,
+when the Scientific Computing portion of machines and personnel move to
+the new MIT Compultion Center,
+
+: The following sections indicate the machine complement and
+estimated personnel requirements for the Administrative Services,
+
+3.1 EAM Machine Complement for Administrative Services
+
+An examination of the utilization of the EAM equipment in
+the Office of Statistical Services reveals that the following machines
+will be esdeguate to perform the work currently done for the administra-
+tive offices,
+
+ 
+
+TABLE I
+
+Proposed Machine Complement for Administrative Services |
+
+ 
+
+type--the
+basis,
+utilization o
+preogess other ad
+
+LE
+403
+Cn th
+
+0
+a Sr I
+x 11
+
+st:
+
+duc, Discount + 10% kfg, Bxecise Tax
+
+in cases, the above list has two machines of the same
+ator, Zor exzample--which are
+
+and, the work Zor the Alumni Office requires full
+eed machine, hence a second 403 is required to
+ative office work from time to time,
+
+used on 2 full-time
+
+When the new budget is submitted in February, the above list
+will have to be carefully examined to ascerigin that sufficient machines
+
+7
+
+re available to handle the propose expanded Administrative Services
+operations,
+
+\J i Basic Net Net
+donthly Monthly Annual
+Type Description Rental Rental® - Rental
+0Z8-11458 Printing Card Punch 55.00 48 ,40 $ 580.80
+026~13511 Printing Card Puach 55.00 48,40 580.8¢C
+0568-27034 Verifier 45,00 39 ,60 475,20
+075-124569 Card Counting Sorter 50,00 44 00 328.00
+0797-27043 Collator 87 .50 76,40 £16 ,80
+QB82~20680 Electronic Sor.er 80,00 02,80 633.60 |
+403-10432 ° -° Alph; Accounting Hachine 500.00 440,00 5,280.00 |
+4023-11409. - Alph, Accounting Machine 485,00 406 ,40 4,876 ,80 |
+8514-20454 Reproducing Punch 125,00 110,00 1,320.00
+552-159656 interpreter (Alph,) 75.00 66,00 792.00
+- $1,517 50 $1,332.00 $15,984.00
+
+
+3.2
+
+Memo - P, V., Cusick - 11/30/58 | 4
+
+Estimated Personnel Requirements for Administrative Services
+Again, a consideration of the work distribution currently
+performed by the Office of Statistical Services reveals that the following
+personnel complement is reguired to process the Administrative Services’
+Jobs, :
+TALE. IX
+
+Personnel Reguired for Administrative Services
+
+Present Present
+
+Monthly Annual
+
+Name Pogition Salary Salary
+Messy, June Key Punch & Verifier Cp. $ 225.00 $2,700,00
+Corcoran, Barbara ” 3 " ” 280.00  3,380,00
+Holladay, Donald EAM Machine Operator a78.,00 3,200,00
+Hensel, C, EAM Machine Operator 225 ,00 2,700,00
+Supervisor 400.00 4,800.00
+Secretary 225.00 3,700.00
+Eowllecik, T. Administrator 641 ,00 7,700.00
+
+ 
+
+92271,60 $27,252.00
+
+Employee requisitions are now in the MIT Personnel (Office for persons
+to £111 the following vacant positions, namely, EAM Machine Im, Supervisor
+and Secretary.
+
+Method of Cost Allocation
+
+The attached rate schedule completely describes the present
+method of cost assessment for services performed by the Statistical
+Services Mr, Cusick has suggested that this same method for recovering
+operating costs be continued under thse Administrative Services. This
+method has certain advantages and a number of ‘disadvantages which I
+would like to discuss prior to formal adoption,
+
+Conclusion
+
+The above brief description of the orgamization for the
+Administrative Services must, of course, be reviewed and discussed with
+Mr, Cusick, Every attempt should be made to determine the future
+activity of the Admimistrative Services, thus defining the areas in
+which new work is to be imitieted. This would, in turn, influence the
+meber of persons and the machine complement involved,
+
+  
+   
+
+ 
+ 
+
+F, NM, Verzuh
+Hevember 30, 1858
+
+
+Mossachusetts Institute of Technology
+
+OFFICE OF STATISTICAL SERVICES
+
+Schedule of Rates for Use of Punched-Card Bquipment and Personnel
+
+Effective July 1, 1855
+
+Bonthly charges for the use of the punched-card machines
+will be prepared in accordance with the rates shown below,
+
+MACHINE CHARGE
+
+Type of Machine Hourly Rate
+
+Key Punch vows $ 0,50
+Verifier sous $ 0.30
+interpreter : coon $ 0,50
+Reproducer cies $ 0,70
+
+Sorter oon $ 0.40
+Collator csoo $ 0,40
+_Tabulator | voles $ 2.50
+
+604 Calculator ea | $ 7.50
+
+Card Programmed Calculator Sleios $15 ,00
+
+650 Magnetic Drum Calculator vyos $36 ,00
+
+LABOR CHARGE
+
+Machine Operators are charged for at their actual hourly rate, plus 10%.
+
+MATERIAL CHARGES
+
+Cards, forms, and other materials used during the month will be charged
+at the menufacturer’'s list price in effect at the time of use, plus 10%.
+
+-
+
+

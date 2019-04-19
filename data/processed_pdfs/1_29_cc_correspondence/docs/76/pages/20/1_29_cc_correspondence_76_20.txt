@@ -1,0 +1,53 @@
+-
+
+~
+e <% -Q QQ %\“
+
+D ANOVN
+
+PART III.
+
+SYSTEM NOTES
+————t D
+
+the 709 FORTRAN Moni tor,
+
+The following is given as supplementary informa
+
+the FORTRAN System tape pl
+
+tion on the Ooperation of
+The Moni tor proper occupies the first file of
+45
+
+us records 42 and 43 of the second file,.
+Tapes used
+
+by the 709 FORTRAN Monitor system,
+Al - SYSTEM
+
+A2 - INPUT (NOT REWOUND By MONI TOR)
+A
+
+3 - OUTPUT (NOT REWOUND BRY MONITOR)
+A4 - FORTRAN INTERMEDIATE
+
+Bl - MONITOR INTERMEDIATE (NOT NEEDED UNLESS EXECUTION IS
+REQUIRED)
+
+B2 - FORTRAN INTERMEDIATE
+
+B3 - FORTRAN
+
+INTERMEDIATE AND BINARY OUTPUT
+
+NEEDED IF ALL PROGRAMS
+
+B4 - STACKED BINARY OUTPUT (NOT REWOUND By PROGRAWM) .
+CARDS, OR
+
+NOT
+CALL FOR PUNCHING COLUMNAR BINARY
+IF SENSE SWITCH 6 IS DOwWN,
+
+-]19-

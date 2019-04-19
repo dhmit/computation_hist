@@ -1,0 +1,53 @@
+wiiE
+
+the experiment or the scientist can go on to the next step and
+request the next computation in tura. On the 704 this would
+reguire the exclusive use of the machine, though only a fraction
+of the 704 speed would be used;. obviously again, time-sharing
+techniques are needed, |
+
+These, and many other programs now in progress, such as
+the character-recognition studies ~~. . _ - , the research
+on economic forecasting end on operational behavior using large-
+scale simulation techmniques, should be of particular interest to
+LB, for they have direct bearing on the progress of computer
+design and utilizs cion. hey represent the sort of cooperative
+research between experts in different fields which .KEIT does so
+effectively, and they involve the combination of research and
+education for which ilIT 18 pre-eminent. This work deserves
+support by IBi, in addition to the educational activities which
+are already being supported by the present contribution of the 704,
+They can most effectlve1yw%y the installation of a 7090, replacing
+the 704, in the near fubture; IMIT will then be able to provide
+the «aS=eme ancillary equipment to push ahead with dispatch.
+Because of the "inter-connectedness" of much of this research,
+it can best be carried out (perhaps it can only be carried out)
+in the atmosphere of mutual cooperation amd exchange of infor-
+nation provided by the Computation Ca}'ser.@
+
+Qutlook for the Future = The activities mentioned above are
+rch, at NIT and at the associated instit-
+
+only a part of the resea
+
+   
+
+ies of the Computation
+
+- e = — =T~ —— - . > o 5 1'\ - -
+iZities or 'the Center néed not, and probably should
+
+aot, satisfy all the demands. A much more realistic task would
+
+M 4 ‘ v dean ey dea aen AT A S - -
+be to concentrate aungeinuwaJAOﬂ“W vasks, which will be supple-
+
+Als e’ 1 P - » - ™ C j '] P Al - —]—13 'v-'—’j A\ T T‘T (’\',1[ 5 -."‘- "j-., o 'r", r"‘
+menGe vO Cthe On=Ccolpus small machines for the othner New mns oG
+colleges and which. for the HIT class eds. can be improved in
+CULLE 23(;.—.3 Alld WAl i g LUK LIIC L4 DO Eet s Loil VO L oved &Ll
+
+Lo - am A 3 -~ = oo A \
+:::/‘-J-‘J‘.LC:‘—LJI‘C ¥ })t‘/, 21 TN y-‘} ~'f:'.) U /L? o4 ; 4-JIJ02J017 ‘i‘ l—‘___, 1w _:C\Se "'C 1 “l‘]d)o.’.q ,‘ﬁ
+those aspec®hs of research which asdvance the deslign, programaing
+and utLiity of The compuii in new fields, £Research programs in

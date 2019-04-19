@@ -1,0 +1,83 @@
+However,
+
+reader.
+
+logical
+logical
+logical
+logical
+logical
+logical
+
+Logical
+Logical
+Logical
+Logical
+it is not required if the symbolic deck is read twice by the on-line
+
+ 
+
+ 
+
+Page 2
+
+tape 1: contains the SHARE ASSEMBLIER (£ile protect on)
+tape 2: output tape {of£-1ine assembly 1istings)
+
+tape 3: library tape
+
+tape 4: secondary input tape
+
+tape 5: binary output tape
+
+tape 6: primary input tape (loaded on off-line reader)
+
+tepe 1 will always be required to store the SHARE ASSEMBLER.
+tape 2 is not needed if no off-line output is produced,
+
+tape 3 is not needed if the library is not used.
+
+tape 4 is normally needed for either off-line or on-line iwmput.
+
+Logical tape 5 is not needed if no binary tape is prod ced; that is,
+if bhinary cards are produced.
+
+Logical tape 6 is not needed for onr-line input.
+
+Sense Switches:
+
+1 Up and 2 Up: Input to first pass is from logical tape 6. (Previously
+
+frd
+
+> W W
+
+€t
+
+Dowvn and
+2 Ups
+
+. Down and
+
+2 Down:
+
+prepared on the off-line reader). Input to secoad pass is
+¢yom logical tape 4, (which is written during first pass).
+Input to first pass is from symbolic cards read on-line.
+Iinput to the second pass jo from logical tape 4 which (with
+¢his sense switch setting) is written during the £irst pass.
+Input to both passes is from symbolic cards read on-line.
+Wwith this sense switch setting, logical tapes 4 and 6 are
+not used.
+
+Suppress on-line printing,
+
+Agsembly listing is printed on-line.
+
+Any on-line printing is single spaced.
+
+Any on-line printing isS double spaced.
+
+Logical tape 2 is written during the second pass, in order
+
+to permit later off-line printing of assembly listing.

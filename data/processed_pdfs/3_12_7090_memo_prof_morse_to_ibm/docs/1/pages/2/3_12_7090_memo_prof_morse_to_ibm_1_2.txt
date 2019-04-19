@@ -1,0 +1,84 @@
+e
+
+but its expansion willl be hampered by the limitations of access
+
+to the 704, as will be discussed later.
+
+The use of the machine by the other colleges has expanded
+rapldly until nearly a full shift is now occupied with their worl
+(including their class exercises). But this use tends to be self-
+limiting for, as soon as a college faculty begins fully to apprec-
+late the possibilities in education and research of computers, the
+pressure builds up for a machine of their own on their own campus.
+By now at least eight of the cooperating institutions have machines
+of Their cwn. These are smaller machines, of the 650 type, {with
+some larger machines projected), so these institutions still come
+to The Center to use the TO4 for their bigger “jobs: but it does
+
+L
+mean that the use of the Center by the other New England colleges
+will Tend to level off to a reasonable load (about one shift, 46
+
+now appears) rather than growing continuously, as the MIT usage is
+doing. Thils result, of course, is in accord with our conviction
+chat computers should be as prevalent as chemistry laboratories,
+
+In contrast, the MIT use of the TO4 Por research into new
+applications has grown so that now we are not able to satisfy all
+requests for machine time for such work, let alone routine Dro ject
+calculations of the "production-run" type (important as these often
+are) even when we encroach on the third machine shift, which has
+herevofore been reserved for IBM use. In addition to the researech
+in golid-state theory, in meteorology and oceanography, which now
+depend completely on machine computation and could already use more
+
+time than we can allot them, there are a number of vesearch pPro jects
+
+10
+which are basic to the development of new uses for computers, and,
+inteed, to the development of computers chemselves, which are alre ad
+handicapped by shortage of machine time and limitazion of TO4
+capacities. To mention a few:
+
+Programming Development. The Center staff has already
+
+ 
+
+o en e SR :". ,: — . R Ga e e e e e 8 > 3 T 1 v e t.‘; -'-: -~
+aeve.oped an automatic operator routine which is being adopted by
+J-',A - -7(‘! - " N P~ - - - - ot - = -~ - ‘..’
+otner 704 users. More general assembly programs: such as the
+Linking Segwment Subprogram Loader, whicl combines Fortran, SLP armd
+
+other special codes; COMIT, which enables the 70! to be used on
+
+language translation problems; and LISP, which enables the machine
+o handle non-numerical logic, such a8 algebraic and other symbolic
+manipulation, are being developed and tested. The work at MIT in
+this field, since Whirlwind days, is well known.
+
+ma. ~ r("\ T . 2 - - o . - spres, Mo .99 S - 3
+rime—sharing Techniques. We already have a typewriter
+connected to the 70%, which works on a time-sharing basis wit ur
+( -
+
+regular operator routine, so new programs can be debugged
+
+N
+Ci
+D O - %
+'
+¢ o !
+3> ® O
+
+~ e . . 1" - . = - —~- oA, A d. = - o e o - ..' = o o g -
+Same cime vthat regular cowputations are being carried out on other
+-3 b o o L e oy P o vl 1 7 my? g s 2~ VTN P g L e = IR N Y ey v =
+problems, for example: The (04 cannot effectively accommoda? moze
+P - - = do o v s ® e LS. " i 3 = Py N e d= g 2V - .,
+chan one or two Such satelite channels, but the Center staff is nov
+
+\
+
+\
+L

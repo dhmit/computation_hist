@@ -1,0 +1,140 @@
+April 26, 1261
+
+MEMORANDUM FOR DR, PLOE
+
+With the letter of March 30, 1961, signed
+by Professors Fano, Morse and myself, we enclosed a
+copy of Professor Teager's report, but not the final
+copy of the report, reflecting more accurately the
+majority opinion. I am transmitting this report to
+you herewith, I believe that this concludes the
+documents which I shall forward to you.
+
+I can assure you that my opinion concerning
+the need for strengthening computer facilities at M.I1.T.
+has been enhanced during the past few weeks, Although
+there is a split in the Committee's report, I again
+suggest that their agreements are much more important
+to the problems of M.I.T. than are their disagreements,
+
+I think M.I.T. should strive very hard to
+realize the establishment of a computation center much
+greater than our present facilities with the 709 and
+with the to-be-expected 7090.
+
+I have suggested to the members of the original
+study group that copies of all reports be distributed to
+a group of about twenty-to-thirty people at M,I.T., who
+have a deep interest in and appreciation of these problems.
+I would also suggest that other copies of the report be
+put on file in the RLE headquarters for distribution upon
+request. I have made these statements clear to as many
+of the original study group as I could find, and I think
+they understand them very clearly, and to some extent go
+along with them.
+
+The above statements are strictly my own and
+not those of Professors Fano, Morse or Wiesner. I believe
+that they will not disagree with me but if they should so
+choose, I trust they will write to you directly.
+
+With the distribution of this report to a select
+group, and the establishment of a distribution center in
+the RLE headquarters, I trust my task as Chairman of the
+Committee has ended.
+
+
+MEMORANDUM FOR DR. PLOE Page Two
+
+ 
+
+I should like to request that we both send
+a letter of thanks and acknowledgement to the following
+persons, who were the principal members of the working
+group. I am enclosing copies of the Suggested letter
+signed by me,
+
+Professor Dean N. Arden
+RLE and EE Department
+Professor Michael P, Barnett
+Solid State Physics Group
+Professor Jules Charney
+Meteorology Department
+Wesley Clark
+Lincoln Laboratory
+Dr. Fernando J. Corbato
+Computation Center
+Professor Jack B. Dennis
+RLE and EE Department
+Dr, Phyllis A. Fox
+Computation Center
+Dr. Daniel Goldenberg
+Instrumentation Laboratory
+Professor Ronald A, Howard
+EE Department
+Professor John McCarthy
+Computation Center, RLE and EE Department
+Professor Marvin L. Minsky
+Computation Center, RLE, Math, Department
+Professor Norman A. Phillips
+Meteorology Department
+Alexander L. Pugh, III
+Industrial Dynamics Group
+Douglas T. Ross
+Electronics Systems Laboratory
+Professor Herbert Teager (Chairman)
+Computation Center, RLE and EE Department
+Professor Victor H. Yngve
+Department of Modern Languages and RLE
+
+I am also enclosing a written Transcript of a
+conversation I had with Professor Charney during the
+Centennial. I believe this underlines the needs of M.I.T.
+in the big computer field. To paraphrase the written word,
+I say that it creeps up on you.
+
+Sincerely yours,
+
+AGH: bl A, G. Hill
+ce: Profs. Fano and Morse
+
+Dr. Wiesner
+Enclosures
+
+
+Transcript of conversation held between Dr. Hill
+"and Professor Charney during M.l.T. Centennial
+
+ 
+
+Hill: How big a computer could you use, all by
+yourself, twenty-four hours a day, to
+pursue meteorological problems? Assume
+that you have all the operational help
+you need.
+
+CHARNEY: I probably could use a 7030 if : I wanted
+to devote all of my time to it - which
+I do not, I would like about cone hour
+per day on a 7090 for everyday use and
+indefinite time on a Stretch Type
+occasionally.
+
+Hill: For instance, say you were willing to
+devote all your time. Would the above
+statements change?
+
+CHARNEY: Yes.
+Hill: How?
+
+CHARNEY: The 7080 now, Stretch later, say in five
+years.
+
+4/26/61
+
+AGH: bl
+
+cc: Profs. Fano and rse
+Dr, Wiessner
+
+

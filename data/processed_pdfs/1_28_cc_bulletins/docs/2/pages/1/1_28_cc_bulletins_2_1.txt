@@ -1,0 +1,46 @@
+COMPUTATION CENTER
+Massachusetts Institute of Technology
+Cambridge, Masgachusetts 02139
+
+TO: C.F. Floe and P.V. Cusick
+FROM: A.M. Madden, Administrative Assgistant to the Director
+
+SUBJECT: Summary of 7094 Computer Usage During the Period
+January 1965 Through March 1965,
+
+This report for the first quarter of 1965 accounts for 2, 223
+hours of computer usage including 63 hours of time used on Project MAC's
+computer run as background to the time-sharing system, using time which
+would otherwise be unused, and 393 hours used by IBM for preventive
+maintenance and/ or as part of normal scheduled usge.
+
+A total of 1, 152 hours of chargeable time to users, represent-
+ing a decrease of 28 hours from hours charged in the fourth gquarter of
+1964, was experienced.
+
+Significantly 290 hours were used by departments for time-
+sharing {an increase of 106 hours) demonstrating continued growth in
+this area.
+
+SUMMARY OF USAGE
+
+projects from 19 departments, one departmental laboratory, five inter-
+departmentazl laboratories or centers, and five administrative offices.
+It consisted of 30,567 computer rung of 976 hours (an average of 54 runs
+of 1.9 minutes per problem) repregenting 575 hours used by research
+
+problems and 401 hours of thesis and class problems.
+
+New England Colleges used 175 hours with 120 active
+problems for a total of 4, 797 runs (an average of 40 runs of 2. 18 minutes
+
+per problem) and were represenied by 26 of the 50 participants.
+
+The total 689 active problems are broken down in the
+
+[
+
+following tables and figures according to the usual clessifications. Ax
+verage ¢f 1.67 hours per problem and 35,364 computer rung were
+
+experienced.

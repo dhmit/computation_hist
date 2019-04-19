@@ -1,0 +1,51 @@
+Page U4
+
+CC-180 Computation Center Version of the
+
+Fortran[EAP Monitor System -
+September 15, 1961, A 1list of
+differences between the manual
+and the system at use at the
+Center,
+
+CC~181 The Use of MAD in the MIT Version
+of the FMS System -~ August 29, 1961,
+A l1list of differences between
+the manual and the version of
+MAD at the Center,
+
+CC-182 Common Programming Errors -
+September, 1961, A 1list of
+common errors made by users of
+FMS,
+
+New FMS Subprograms
+
+Recent additions to the FMS Subprogram flle
+include:
+
+1. LAGIN - A FAP version of the subroutine
+GE LAG, a Lagranglan Interpolation routine.
+
+2. RCC 1 and 2 - Two routines for converting
+Row binary cards to Column binary card
+images on tape, Column binary cards can be
+punched from these tapes,
+
+%, ACLl1 - An absolute column binary card on-line
+loader,
+
+None of these routines are on the library tape.
+
+The 7090 -~ Things to Start Thinking About
+
+Although the 7090 is, in most respects, compatible
+with the 709, there are a few points you should
+remember:
+
+1, Tape Density - The Centerts 7090 willl have all
+Mod IV 729 tape drives (the high-speed drivesy,
+The normal mode for these drives wlll be high-
+density. Tapes that you have now are low- -
+density and, though we don't propose you re-
+wrilte your tapes, you must be careful to note

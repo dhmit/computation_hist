@@ -1,0 +1,47 @@
+COMMITTEE ON MACHINE METHODS OF COMPUTATION
+‘ Minutes of the Third Meeti
+Academic Year '52-753
+
+Persons Present: C. W. Adams, S. H. Caldwell, H. Feshbach,
+' J. R. Forrester, J. A. Hrones, C. C. Lin,
+P. M. Morss, E. Reissner, and W. W. Seifert.
+
+ 
+
+The subJect of the discussion at this meeting was the
+organization of courses in the machine computation field. Forregster
+indicated that there were several types of course: _a this field,
+one set primarily of interest to the builders of machines. sSugh
+courses have arisen naturally ot the Institute, chiefly in the .
+Electrical Engineering Department, and there seems ©to be no problem
+concerning theilr presentation or planning. On the other hand, there
+'is a growing need for courses for persons who wish to use machines.
+Here a certain small amount of material on what is inside the "black
+boxes" is needed, but the primar emphagis should be on the operating
+characteristice and on the use of the machine, : . |
+
+. Morse pointed cut that the Mathematics Department now had
+a course in the mathematics fundamental to machine caleulation. There
+was some discussion as to the advisability of increasing the materiel
+on numerical computation in M351 and on perhaps including a small ,
+amount of material in M22. o definite agreement was reached on these
+matters, however.
+
+ 
+
+After some discussion there seemed to be n general agreement
+on the need for a course a2t the senior level which would involve a
+survey of machines and their properties, somewhat along the lines
+gilven on pages 1 and 2 of the appended memorandum from Adams. It was
+agreed that the number of Elactrical Engineering pre-requisites for
+this course should be kept o2t a minimum in order to attract students
+from as wide a variety of ficlds as possible. The ¢ xact details of
+Ry the material included could not a% present be agreet upon, but the
+; genaral scope of the material as given in Adams' outline wag felt to
+| be correct. Hrones and Reissner and Feshbach indicated asgreement
+| that some such course would be a useful addition.
+
+There was not time for g general discussion of the more
+
+advanced professional courses for professional users of the machines
+or builders of machines. Though a-certain amount of @iscussion was

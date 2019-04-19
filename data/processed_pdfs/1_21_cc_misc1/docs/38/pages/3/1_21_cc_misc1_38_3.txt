@@ -1,0 +1,68 @@
+January 31, 1958
+
+DSR-#6345
+
+Contract NSori-60, Task Order I 6915
+
+Amendment No. 11
+
+(6/29/56)
+
+"(A)
+
+"(B)
+
+Tt is the desire of the Government and the Contractor that addi-
+
+tional research on an electronic digital computer and continued component
+research be performed, and that the scope of the work be expanded
+
+to include theoretical studies and experimental research and development in
+connection with the application of the digital computer in an air defense
+system in which information is transmitted from remote radar stations
+
+and processed by a computer, and the application of the computer to
+important scientific problems. To accomplish this, there are hereby
+provided an expansion in the scope of work, an extension in the period
+
+of performance and an increase in the estimated cost of Task Order I
+under Contract NSori-60.
+
+4, On and after 1 July 1950, section (A) shall read as follows:
+
+The Contractor shall furnish the necessary personnel and facilities
+for and, in accordance with any instructions issued by the Technical
+Officer or his authorized representative, shall conduct research to
+include the following:
+
+(1) investigations in connection with combined Phases I and II of
+four phases of Project 24-X-3 (Formerly Project RF-12) in accordance
+with ?Specifications for Project RF-12, known as WHIRLWIND, dated
+
+4 October 1945, revised 20 March 1946,' and to include (i) investi-
+gations involving electric circuits, video amplifiers, electrostatic
+storage tubes, electronic switching, mathematical solution; (ii) the
+design and construction of a Digital Computer and the studies for
+applying the computer to an Aircraft Analyzer based on results ob-
+tained from the foregoing; and (iii) shall furnish complete sets of
+drawings used in the construction of the above computers, reports
+setting forth the design and operation of all components of the
+computers, reports setting forth the results of studies of the
+application of the computer to an aireraft analyzer, and records of
+results of all tests on individual components and assembled compon-
+ents conducted up to 15 November 1950;
+
+(2) theoretical studies and experimental research and development
+in connection with the application of digital computers in an air
+defense system in which information is transmitted to WHIRLWIND from
+remote radsy stations and processed by the computer, and
+
+(3) application of the computer to important scientific problems."
+5. On and after 1 July 1950, section (B) shall read as follows:
+
+Tt is understood and agreed that, although section (A) §1) refers to
+four (4) phases of the work in connection with the WHIRLWIND Project
+no provision has been made in the estimated cost to cover the third
+and fourth phases of the work which relate to the construction,
+assembly, housing, operation or preliminary testing of the Electronic
+Computer and Aircraft Analyzer,"

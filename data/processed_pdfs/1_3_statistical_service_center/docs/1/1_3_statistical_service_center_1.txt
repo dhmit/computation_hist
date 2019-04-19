@@ -1,0 +1,598 @@
+MEMORANDUM TO: Mrs Joseph Snyder
+
+FROM: He Re Boyd
+DATE: November 7, 1952
+SUBJECT: Rockefeller Differential an er (RDA
+
+ABSTRACT
+
+A request for clarification of responsibility in the
+future use of the RDA by the Instrumentation Laboratory.
+Included are statements of the Instrumentation Labora=
+tory need for RDA for at least two years to satisfy
+obligations to government sponsors; a summary of use
+during the past two years and recommendations for
+future usage. Appendices include details of usage and
+fiscal charges for the past two years; a list of future
+work to be done; a technical description of the calibra=
+tion problem and copies of pertinent memoranda,
+
+Section 1,0 INTRODUCTION
+
+This memorandum is addressed to you in the belief that your
+current responsibilities include the RDAs I have taken the liberty of
+sending copies to Prof. Floe, Prof, Morse, Dr. F. L. Foster, Mr. J. Little
+and Mr, F, Watriss, with whom I have recently discussed the situation.
+Several factors indicate that now is an appropriate time to ask for a
+clarification of responsibility in the future use of the RDA, These
+factors include Mr. Verzuh's desire to clarify his position, the resigna-
+tion of Mrs. Hogan, veteran operator of the RDA, differences in opinion
+on the charging for non-Instrumentation Laboratory usage, and the current
+interest in the Statistical Services of Mr. Little and Mr, Watriss,
+
+Section 2,0 RESPONSIBILITY!
+
+Instrumentation Laboratory members believe that they assumed
+complete responsibility for RDA operation on October 1, 1950, This situa
+tion was the result of the Institute's decision to close down the RDA
+permanently in June of 1950, Since the Instrumentation Laboratory had
+work requiring the analyzer which Dr, Draper felt obligated to carry on,
+we assumed all costs. This included transferring 3 machinists, 1 techni=
+cian, and the Chief Operator, Mrs, Hogan, to our Payroll; and purchasing
+
+ 
+
+——————————————————————————————— —————————— — a ——————————————————————————————————— CS ———
+
+1 The following statement is extracted from the Provost's memo of January 1,
+
+1951, establishing the Committee on Machine Methods of Computation: "This
+year the Department of Aeronautical Engineering through the Instrumentation
+Laboratory has assumed responsibility for the operation of the Differential
+Analyzer,"
+
+
+a
+
+all machine shop stock and RDA spare parts (total cost $2970). We alse
+agreed to finish a vector table to complete RDA obligations to another
+Air Force contract. However, we have never handled all of the charges
+
+to noneInstrumentation Laboratory users because of limited understanding
+of our authority. Both Prof. Morse's Committee on Computation and Mr.
+Verzuh have worked most coeperatively with us in making decisions, but
+
+we have not pressed our views where honest differences of opinion existed,
+The RDA performance of our work has been so excellent and Mr. Verzuh has
+worked so hard in our interest that it would have been very unfair to have
+done otherwise, However, there is still some confusion in our minds as te
+the proper charging for non-Instrumentation Laboratory usage. Also, Mrs.
+Hogan's resignation and Mr, Verzuh's possible shift of responsibility are
+additional factors that make it necessary to understand the responsibility
+clearly so that changes can be made as needed and approved by the proper
+persons. Unclear separation between RDA and Statistical Services and con-
+tinued use of the old Electrical Engineering Department account #2349 for
+RDA would seem to be the basis for any differences of opinion that exist
+on fiscal matters.
+
+Section 3,0 INSTRUMENTATION LABORATORY REGUIREMENTS FOR RDA
+
+Calibration for new ammunitions and tactics of sights designed by
+Dre Draper and now in service require use of the RDA, In addition, our
+current contract calls for development of improved sights, and the solution
+of the kinematic equations involved require use of RDA,
+
+The machine is unique in its demonstrated capability, and all
+proposed alternatives have either failed to handle the problem or are yet
+to be demonstrated, Past efforts have been made with Harvard's Computation
+Laboratory; current efforts are attempting to apply Whirlwind to the problem.
+Instrumentation Laboratory is devoting the effort of two full-time engineers
+to devising and testing other machine methods,
+
+In the meantime, we feel that in order to execute our current
+obligations, we must have the continued use of the RDA, In the absence of
+& definite proven alternate, we are very anxious to be assured of the use
+of the analyzer for at least two years. It is further suggested that the
+situation be reviewed at the end of the year, at which time more information
+on alternate methods should be available, Appendix C contains a more detailed
+description of the technical phases of the calibration problem.
+
+Section 4.0 RECOMMENDATIONS FOR FUTURE USE
+
+1, Reassign primary responsibility to the Instrumentation Laboratory.
+
+2e Have Mr, Po Cusick approve fiscal arrangements for non-Instrumenta=-
+tion Laboratory work. Proper billing can be handled very simply.
+All Instrumentation Laboratory persons are now charged te DIC #6346
+and allocated out at the end of the month, according to information
+
+La
+BE ——..., i.-
+
+
+wien |
+
+supplied on each time sheet. Time sheet statements regarding ; |
+non-Instrumentation Laboratory usage could be used by our budget
+section as the basis for billing other users, Our authority for a
+such charges would come from purchase orders submitted to either |
+our pre ject or DIC, :
+
+3, Continue the current arrangement of having Prof. Morse advise us
+on the types of non-Instrumentation Laboratory work, which should
+be performed on RDA from a technical standpoint.
+
+ 
+
+ 
+
+Le Continue present practice of having all RDA personnel considered
+an Instrumentation Laboratory responsibility. Thus, Instrumenta=
+tion Laboratory is clearly responsible for assigning these people
+to other work if the analyzer is temporarily or permanently shut !
+
+down, |
+
+Section 5,0 SUMMARY OF RDA USE |
+;
+
+The following is a brief summary of the usage and fiscal arrange- ;
+
+| ments given in more detail in Appendix A and B for the period from October 1, i
+) 1950 = October 1, 1952: :
+
+: Percentage of Estimated Cost |
+SIS wemiO EET :
+
+Instrumentation Lab. usage 55% $50,000 #*
+Non-Instrumentation Lab, usage 33% g,700 * |
+(charges reimbursed) 's
+Non=Instrumentation Lab. usage 12% 0 §
+(free usage for Institute 2
+academic activity) |
+
+# Estimates include overhead at 42%
+
+During this period, the RDA has been used in connection with three ;
+doctorate theses, totaling nearly four months of RDA time, Dr. Seaman's 3
+thesis is listed as part of the Instrumentation Laboratory work while
+Dr, Tung's thesis is included in the time of the Mechanical Engineering
+Dept. This thesis work, plus the time given to Institute departments, shows
+that 25% or more of the RDA operation has been in fundamental research. The
+charges to other DIC projects are satisfactory but the credits on work out-
+side of MIT have seemed too low. For 57.5 days work for Stevens Institute,
+Air Force Cambridge Research Laboratory, Bendix and the U of Pa,, we have
+received a credit of approximately $2375, This figure plus overhead amounts
+to $3375, which is far less than the $7500 that we would have charged these
+companies under DIC policy, Of this $7500, $1500 would have been for the
+industrial fund,
+
+Seetion 6.0 CONCLUSIONS
+
+As this memorandum indicates, we are currently dependent on the use
+of both the RDA and Statistical Services for solving our calibration problems,
+
+
+lym
+
+I hope you will find it possible to allow us to use the analyzer for at
+least two years and that the fiscal arrangements suggested will be satise
+factory. To correct any possible false impressions, I would like to re-
+emphasize the excellent cooperation of both Mr, Verzuh and Prof, Morse's
+Committees In general, we have been very happy in our use of the analyzers
+Our concern for clarifying responsibility and future use took a sharp up-
+turn when Dr. Stratton mentioned a few weeks ago that the Institute was
+considering giving the machine to the University of Texas, presumably
+because we did not wish to continue supporting it, This was clearly a
+misunderstanding, and we are anxious to avoid repetition of this type of
+concern,
+
+He R. Boyd
+
+Attachments
+
+ce:
+Prof, Ce Floe
+Prof. P, Morse
+Dre. CoS. Draper
+Mr, F, Watriss
+Mr, J, Little
+Dre, F.L, Foster
+Mr. F; Verzuh
+
+Jmp
+
+
+Bt ni SN —
+I—————— " o Ra.
+= c—————————— ~
+
+APPENDIX A
+SUMMARY OF RDA USE FOR PAST TWO YEARS
+
+Machine Shop
+
+July 1 = October 1, 1950
+3 machinists repaired RDA and finished vector table
+
+October 1, 1950 = present
+
+Average of 1/2 machinist maintains RDA, Average of 2 1/2
+machinists make precision parts for Instrumentation Laboratery
+non-RDA uses
+
+RDA Operation
+
+July 1 «= September 30, 1950
+2 engineers paid by MIT; Mrs. Hogan and part of Mr. Verzuh's time
+charged to RDA account 2349.
+
+ 
+
+ 
+
+User No, of Days
+AMC contract 2365
+Acoustics Lab 2
+Prof, Waugh 9
+Instrumentation Lab, 21e5
+Oct. 1950 Instrumentation Lab. Te5
+Stevens Inst, 14.5
+Nov. 1950 Instrumentation Lab, 20
+Deco 1950 Instrumentation Lab, 7
+Stevens Inst. 6
+Jan, 1951 Instrumentation Lab, 13
+AF, Cambridge Research Lab. 3
+Feb, 1951 Instrumentation Lab, 12
+AF. Cambridge Research Lab, 6
+March 1951 Instrumentation Labs 5
+AF, Cambridge Research Lab, 17
+April 1951 Instrumentation Lab, 13.5
+Mr. Verzuh LoS
+Metallurgy Dept, 3
+May 1951 Instrumentation Lab,
+
+2
+Mr, Verzuh 13
+Maintenance 7
+21
+21
+
+June 1951 Instrumentation Lab,
+
+July 1951 Meteor
+
+
+August 1951
+
+September 1951
+
+Octo 1951
+
+Dec. 1951
+
+Jan, 1952
+
+Feb a 1952
+
+March 1952
+
+April 1952
+
+May 1952
+
+June 1952
+
+July 1952
+
+August 1952
+
+September 1952
+
+APPENDIX A (CONT.)
+
+‘Instrumentation Lab,
+
+ME. Dept. (Prof. Kaye)
+
+Instrumentation Lab.
+M.E. Dept. (Prof. Kaye)
+Bendix (Dr. Michel)
+
+U, of Pa, (Dr. Chance)
+
+Instrumentation Lab,
+M,E. Dept. (Prof. Kaye)
+
+Instrumentation Lab.
+M.E. Depto (Prof. Kaye)
+
+Instrumentation Lab,
+Mr. Verzuh's thesis
+
+Instrumentation Lab.
+Stevens Inst.
+Mr. Verzuh'!s thesis
+
+Instrumentation Lab.
+Stevens Inst.
+
+Instrumentation Lab.
+Maintenance
+
+Instrumentation Lab,
+Physics Depts (Dr. Finkelstein)
+(Free)
+
+Instrumentation Lab,
+
+Instrumentation Lab,
+Mro Verzuh's thesis
+
+Instrumentation Lab,
+
+Mr, Verzuh'!s thesis
+
+E.E. Dept. (Prof. Lyons)
+(Free)
+
+Instrumentation lab.
+Meteor
+
+Meteor
+
+Fo wh 98 web WF WE Bo mosw aB
+
+
+APPENDIX A (CONT,)
+SUMMARY OF RDA USAGE
+
+ 
+
+No, of Days
+
+Instrumentation Lab, ! 239
+
+Meteor 60
+
+Stevens Inst. of Technology 3645
+
+Mr, Verzuh 345 = No charge
+
+M.E. Dept. | 34 10 days no charge
+
+E.E. Dept, 11.5 No charge
+
+AoF, Cambridge Hesearch Lab, 11
+
+Bendix 6
+
+U, of Pa, 2
+
+Metallurgy Dept, 3 No charge
+| Physics Dept, 1 No charge
+
+ER Cn —— GD
+
+43845
+
+Figures in Appendix A were supplied by Miss Tamm for Instrumentation Lab.
+budget purposes, Accuracy was not needed for this purpose for the most
+part and records may show some slight discrepancies,
+
+
+APPENDIX B
+SUMMARY OF FISCAL CHARGES
+
+It has been our desire to operate the RDA for others on a non=-
+
+loss, no=gain basis. To do this requires a credit of $100 = $120/day
+
+for other work, We have also agreed to give up to 10% total time on thesis
+or academic work free, The following is a summary of actual credits and
+charges for non-Instrumentation Laboratory use:
+
+1.
+
+2e
+
+3a
+
+be
+
+be
+
+During the period July 1950 = September 1950, we paid RDA
+account no. 2349 $1732.15, based on the old method of charging,
+even though we were paying two engineers and three machinists
+for operation during this period. I believe that the proper
+charge should have been about $815, This estimate is based on
+the time of Mrs. Hogan, Mr. Goos, and one third of the time of
+Mr, Versuh and Miss Tamm for one month « we used the machine
+21.5 dayse : -
+
+Since October 1951, Stevens Institute of Technology has used the
+machine a total of 36.5 days. I believe a credit of approximately
+$4000 should have been made to DIC 6783 (I.L. Air Force account
+number for RDA)s Up until now, we have been credited with only
+$2610, Another point is that billed at 100% industrial overhead
+rate, the charge to Stevens would have contributed about $1500
+
+to the Industrial fund,
+
+Air Force Cambridge Research Laboratory
+13 days of work done in January to March 1951
+Desired credit $1500; actual credit $330.
+
+Mechanical Engineering Dept. (Prof. Kaye and Dr, Tung)
+
+34 days - August « November 1951
+
+Desired charge about $3700; actual credit $2610
+
+This difficulty was our own fault, We received some free con=
+sultation from Prof. Kaye and the remainder was considered a
+contribution to Dr, Tung'!s thesis.
+
+Project Meteor
+
+27 days = July = August 1950 = correctly charged by Instrumentation
+Lab, requesting DIC te transfer all salaries and wages for this
+month to Meteor.
+
+Credit $2008.53 plus 42% ($2850)
+
+39 days « August = September 1952 « charges now in process of
+clarification. No difficulty anticipated.
+
+Mr, Verzuh
+34.5 days = thesis
+
+
+~J
+
+APPENDIX B (CONT, )
+
+Other uses:
+
+Bendix «= Dr. Michel
+Ve of Pa, == Dre Chance
+Physics Dept.
+
+Metallurgy Depts
+
+No. of
+Days
+
+Ww = nn oo
+
+Credit
+
+ 
+
+303.
+86,
+
+Desired
+
+Credit
+
+672.
+
+22h.
+C
+0
+
+
+Dr. Laning, who is in charge of the Instrumentation Laboratory
+fatnematics work, has given the following discussion of the use of the
+1D solving the gunsight calibration problem:
+
+ala and Statistical Servi
+
+a
+
+J
+Mh
+oO
+fede
+=
+
+instrumentation Laboratory Use of RDA and MIT Statistical Services
+EE ————————————————————————————————————————————————————————t ts. h LN Le SD
+
+The Rockefeller Differential Analyzer and MIT Statistical
+Services groups currently perform a large volume of work for the Instrumen—
+tation Laboratory, most of which relates to the calibration of fighter
+alrcraft sights, To clarify our present and anticipated future needs for
+these services, I present herewith a resume of the nature of the calibration
+problem and the contributing role of these groups.
+
+In our type of sight there are several variable parameters (e.g.
+torques, currents) that must be functionally related, automatically and
+continuously, to such measureable variables as the range of the target and
+its time rate of change, the air dersity, and the aircraft anguler velocity.
+
+The process of deriving the necessary relationships in a practical form is
+called calibration,
+
+The first step in calibration is to comrute the ideal fighter
+flight paths which are such that a round fired at any instant along the
+path is theoretically a hit. Since the projectile is aimed by pointing the
+alrcraft itself, these equations necessarily involve aircraft dynamics, The
+result is a complicated set of non-linear differential equations sontaining
+alreraft performance, ballistics of the projectile, and rather intricate
+geometric and kinematic calculations. The solution to these is currently
+carried out by RDA, The second step is the reduction of these solutions to
+usable form; i.es, the preparation of tabulations of the sight parameters to
+be calibrated against the variables to be used in their calibration, This
+step involves quite complex kinematic calculations that are currently
+carried out on punched card equipment by MIT Statistical Services, The
+last step is that of finding suitable empirical approximations to these data
+in a form that can be instrumented. Since the data depend upon many more
+parameters that can be utilized in practice, engineering judgment and exe
+perience are the important factors in selecting the proper form for these
+approximations. This part of the task involves relatively little computation,
+and is carried out in the Instrumentation Laboratory.
+
+The first two parts of this task are suited, in principle, to
+solution by a large scale digital computing facility, and a program is in
+progress to explore the feasibility of a completely digital approach. The
+important and unknown factors are those of speed, accuracy, machine capacity,
+and cost, as well as machine availability. Relief from our present dependence
+upon RDA and Statistical Services can be expected, if at all, only after
+completion of a major exploratory program with other facilities.
+
+
+A "NT = te Ter >
+— —-— - i, RT TY EE - i ETT EY mm —
+= 3 3 oo =. ga = pe ——— — RES. PET TT A a dh
+: 5 RS Rr rE a a Fo, A, 32
+pa A
+~ — ER un Ne "3 1% x :: = 5 3
+= i ek ES = A p—
+Fae ~ x a pas ei
+=e z 2 = : ; ; 2
+oh # = =
+on 5% RR a EE 2 Bad 5 =F z i:
+: a = a — SRE ee 2 = Cn =
+E- - - -~ > ~ - 3 = b &
+— athe vr ¥ re RNS 2 =z
+; - Eo Ry ) Ha yes = = Pat! 3 Eng re
+= ta = = = ; nd Pa! ¥ =
+att i AE v EEE a Po a = TN Ee wh
+= = x = aE x or | Fidos oe AL
+3 fo B a Fd x = NBs Sa
+— - =~ J C2 y Cat to
+= = Sa oe a - 35 = =A
+3 v 5 a = Rais x 2 = SE ms
+-- Ic w TERR TR 7 yo Sie Sead Ai = u Pr ii
+~ = es 5 A - = gt ya tL
+
+3 LIST OF FUTURE USAGE FOR RDA
+
+ 
+
+2 7; Estimated No. of
+
+Es 1. Cunval = special calibrations for 20
+Es ordnance evaluation
+
+Ee 2. Curved course basic runs 1
+0 3, Three-dimensional basic runs 4O
+lL, MAir-to-ground rocket fire w/range 9
+
+5, New research based on outline of work 100
+bods in Ttems 1 = 4
+
+6. Investigate effect of I,, on gunfire and 15
+es rocket
+
+aE 7. Solution of mechanism equations for certain 36 |
+SH typical runs aaa |
+
+Aol | Total 234
+
+ae Approximately one year
+
+

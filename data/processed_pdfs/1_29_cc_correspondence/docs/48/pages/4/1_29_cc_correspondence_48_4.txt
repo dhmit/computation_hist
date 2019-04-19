@@ -1,0 +1,36 @@
+widy
+
+NOCON Iterstion wiHd diverge (ill-conditioned matrix)
+RESTT 2 Two attempts to read MT=NINE failed
+
+DNEXT 7 -
+
+DNEX1 4 i
+
+The following additionel error indications ere provided:
+Sense light 1 on at exit mesns that the routine, which slakes pert of {
+its thirst for temporary storage by writing over itself, has failed b
+return to é@é—éﬁiiiﬁh condition, DMEBE will contsin HTR O,
+Sense light 2 on at exit mesns that the possible error in sonie element
+of the solution vector is grester than the megnitude of the elsment.
+ADDOV, MULTO end DIVCK also contain error stops.
+
+The error return indicetes:
+
+&, With AC=0, a loss of bits in core memory.
+
+- i
+
+b. With AC non-zero, an overflow in the double-precision arithmetic, i
+
+|
+: Al A R n¥n)
+5de On normal return, the solution vector is stored in D, register ORT’;;h G M
+every second register following contain integers representing the app- M
+poximete number of significent binery digits in each elemént of the
+solution vector. A is the next record on MT-NINE,
+6. Constants available start &t LO, and run to DNEXT. These include
+0, 1, 2, 1 floating, 'etc.
+7. This routine wes tested on the 107X 10 segment "of thé'infamoqs Hilbert
+
+Metrix, octal cards for which ere includcd(;%&a. Cﬁfde%;.IE.).

@@ -1,0 +1,220 @@
+TRIP REPORT
+on
+I, B, M, Corporation
+
+580 Madison Avenue
+New York 22, New York
+
+November 14, 1956
+
+FF. ¥M. Verzuh
+
+zy
+November 17, 1956
+
+
+TABLE OF CONTENTS
+
+1 DO introduction ° o - * 4 o » . a ® ° < ° ° ° v wv ° ° o o ® o 2 1
+
+2.0 Problens fAopocliated with the Removal of Blowers on the
+704 Equipment > o a ° 0 e e * ° et < > 2? v 2 ° * % ° ° & > a 2
+
+3,0 Results of the Meoting with Syska & Hennessy Electrical
+Personnel 9 2 - < ? © ° "© 3 5 ° 2 a MN <° - ° ° ° ° ° 0 ° ° 0 2
+
+4.0 Results of the Comference at Skidmore, Owings & Merrill . oe
+5.0 Results of the Meeting at the Hilitary Providence Division, 3
+6.0 Conference On Transceiver Requirements at 520 Madison Ave.. 3
+
+7 0 Conclugion . ? © eo ? + 2? 2 ° ° a ° ® ° » 2 ° ° > 2 ° a * eo 2 3
+
+
+? TRIP REPORT
+
+Place Visited: I, B, M, Corporation
+580 Madison Avenue
+Wew York 22, New York Tel: Plaza 3-1800
+
+Date of Visit: Wednesday, November 14, 1956
+Visited By: Dr. F. M, Verzuh and Mr. Richard Collins
+Individuals Contacted:
+
+Robert Riley, IBM EDPM Sales Engineer = 23 Wo8 st, |
+George Travato, IBM EDPM Sales Engineer ~ Jay Thorpe Bldg. (6th floor)
+L. ¥, LaRosa, RPQ, EDPM Sales Engineer - Jay Thorpe Bldg. | :
+Newcomb Noell, IBM- Poughkeepsie
+. Ed Matthews, IBN ~- Poughkeepsie Engineering Div,
+- Robert Burns, IBN - Poughkeepsie Engineering Div.
+.* Richard Cobb, IBY ~- Poughkeepsie Engineering Div,
+
+Fred Gans, Skidmore, Owings & Merrill, 575 Madison Ave. (Pl 89-2123)
+Saul Haber, 2 P > " "(MU 6-1960)
+Ed J. Benesch, Syska & Hennessy, 144 E39 Street (MU 9-2320)
+
+Jim Church, Syska & Hennessy, Pe TY 5
+
+Nick Graham, Syska & Hennessy Electrical Division
+
+# % & % * $$ H Pp FT &
+
+1.0 Introduction
+
+This meeting was held on the second floor of the iB¥ World
+Headquarters (WHQ) at 580 Madison Avenue. Although many items were discussed
+during the course of the meeting, the following principal areas were covered:
+
+1. IRM engineering changes and modifications which must be made
+on the five 704 machine units prior to installation at the
+MIT Computation Center,
+
+2. A discussion of the revision im the duct work requied in
+the air conditioning equipment as 2 result of the removal of the
+blowers,
+
+3. A discussion of the thermo-couple location amd imstallation
+for humidity control,
+
+4, A discussion of the design of the INTERLOCE circuitry location
+and installational problems,
+
+
+Be
+
+5. A discussion of various miscellaneous items such as, location
+"of the main power switch, rating requirements of circuit
+
+breakers, CFM and air conditioning requirements for the EAN
+area, en
+
+6. A discussion of the installation problems associated with
+
+the Type 650 Magnetic Drum Calculator as discussed in Verzuh's
+memo dated November 5. :
+
+problems Associated With The Removal of Blowers on the 704 Bquipment
+
+The four engineers from IBN Poughkeepsie discussed at great
+length the many detailed problems which arose when the blowers in the
+following units: Type 704, Type 733 Drum Unit, the two Type 733 CORE Units,
+the Type 741 Power Unit, and the second Power Unit Type 736 were removed,
+
+The IBM engineers agreed to provide detailed circuit drawings
+and a complete set of specifications regarding the size of the holes which
+ope to be cut in the steel plates, the exact location and type of thermo-
+couples which are to bs located im the various machine units, and the design
+
+‘apd circuits for the INYERLOCE equipment which must be installed for
+
+preventative purposes. -
+
+Syska & Hennessy personnel indicated that they must stop all work
+on the installation of the under-flcor duct system until they have had an
+opportunity te evaluate the particular design desired to provide the two
+types of outlets which are now required. Specifically, one outlet providing
+air. conditioned air at Opsi and the second one providing alr conditioned air
+at 1 sq. inch psi, respectively.
+
+Results of the HHeeting with Syska & Hennessy Electrical Personnel
+
+Mr, Nick Graham attended this meeting and provided detailed
+information regarding some of the design of the INTERLOCE circuit in the
+basement of the MIT Computation Center, and during the course of this
+conversation it was discovered that the main rating for the main circuit
+
+.preaker was only 125 amperes whereas the rating of 400 amperes Was requested
+
+in the specifications which were submitted to Syska & Hennessy OR
+November 11, 1955, This situation is currently being corrected,
+
+Results gf the Conference at Skidmore, Owings & Merrill ~ 2:00 p.m.
+Verzuh presented the revised space layout for the cffice area
+
+in Rooms 142, 144, 146, 150 and 132, respectively, which pertains to the
+
+offices and schedule and dispatch areas in the MIT Computation Center.
+
+
+7.0
+
+Conclusion
+
+Bezults of the Hesting at the Military Providence Division - 545 Eadison Ave.
+
+ 
+
+¥r, Tom Daley and Er, Bill Feulin-Fegner were appointed by
+Er, Pecyson Hunter to discuss the squipment requirements which IBN is to
+provide in the new HIT Computation Center. Verzuh presented a 13-point
+checklist Zor consideration Dy ¥essrs. Daley and Neunlin-Fagner, respectively,
+These gentlement indicated that they would arrange to visit EIT the last
+week in Hovember to prepare smon-the-spot list of equipz=snt needed for the
+Computation Center. It must be e=phasized that this list is the list of
+equipment which IBM will be providing in the 704 room, reception room,
+customer engineering room, EAM area, dark room, IBE-N.E. assistantship and
+associateship area, IBM office ares, etc. :
+
+Conference cn Transcelver Requirements at 580 Madison Avenue
+
+Verzuh inspected the two ¢{ransceivers which were instailed at
+590 Hadison Avenue for the HBC transceiver nation-wide hookup. Based on
+this inspection, it was apparent that we should request that a 4-wire
+Bell System circuit be installed in the MIT Computation Center to provide
+the necessary telephone connection between Cambridge, Poughkespsie, and
+Hew York, respectively. A detailed specification of the transceiver required
+has been given both to Dr, Truman Eunter, Cambridge, and the Poughkeepsie
+and Bell Tele hone representatives, respectively,
+
+v
+
+The IBM engineering representatives from Poughkeepsie indicated
+that they needed several weeks to study and design the necessary double
+£langers, etc., circuits which are needed on the six 704 units. As soon as
+they have completed this study, they will arrange to contact Syska & Hennessy
+in New York, have the 8 & E Group visit Poughkeepsie to definitely insure
+that there is no misunderstanding regarding the commitments of either party
+as far ag installation of the equipment is concerned. In this connection,
+the IBM representatives indicated that they estimate a 10 db reduction in the
+noise level in the 704 room if the blowers are removed. RT
+
+ 
+
+Inspection of the detailed floor plans of the 704 revealed that
+there were a number of emors in the dimensions of the holes underneath the
+key units, Specifically, in certain areas the dimensions were so indicated
+that if the steel plates were cut, certain units would fall into the steel
+floor. As a result of this discovery, Collins notified Cambridge to immediately
+stop cutting plates to avoid any errors im hole size and dimension, respectively,
+
+
+ols
+
+Syska & Hennessy indicated that they would re-design the new duct
+equipment and submit their findings to IBM as soon as they have completed
+their study. It was impossible to determine how much of a delay in
+installation was occasioned by this re-evaluation.
+
+it ie estimated that eight (8) thermo-couples must be installed
+on the individual machines to provide adequate protection in case of break-
+down of motor snd other aiy conditioning equipment, Similarly, iil was
+estimated that a fairly-elaborate INTERLOCK control circuit using microswitch-
+operated dampers for control purposes, etc., must be installed and power
+removed on an emergency power off" basis to protect the equipment,
+
+Mr. Benesch indicated that although the present air conditioning
+requirements of the MIT Computation Center appeared te be in the vicinity
+of 76.5 tons, Syska & Hennessy intends to imtall a single, 100-ton unit
+for the MIT Computation Center. He indicated that it was not feasible to
+inatall two separate 50-ton units es originally requested by Messrs, Verzuh
+and Peterson, respectively.
+
+Finally, considerable discussion was made of the possible completion
+date of the building and a revised re-scheduling was suggested to insure that
+the glass, sluminum, etic,, neaded for the Computation Center part of Bldg. 36
+would be available prior to January 1 to insure installation of the 704 as
+per present schedule date of February, 1357.
+
+F. M. Versuh
+nb November 17, 1956
+
+

@@ -1,0 +1,47 @@
+Object program or Sourcez...
+
+Object program or Sourcen...
+
+DATA Card
+
+Data deck, if any
+
+END-OF-FILE card if input from cards on-line
+
+Chain Job. Input to a chain job consists of the Chain
+link decks to be compiled and executed together with their
+data decks. The chain link deck contains a main program
+together with all its subprograms, where any or all of
+these may be source or object decks. The Link deck then,
+
+in the order listed, contains:
+
+CHAIN (R,T) for this particular link
+Object program or Source program,, preceded by
+relevant output option control cards
+Object program or Sourcez...as above
+Object program or Sourcen...
+The input deck to a Chain job in the order listed, contains:
+I1.D. Card
+XEQ Card
+Link deck1 see contents listed above
+
+Link deck2
+
+Link deckn
+DATA Card
+Data decks, if any
+
+END-OF~-FILE Card if input from cards on-line.
+
+There is no restriction on ordering of the Link decks in
+the Chain deck, but it is most economical of execution
+time if links are stacked in the order in which they are
+
+called.
+
+Since the Monitor checks the type of cards and ''looks for"
+
+ 
+
+=T

@@ -1,0 +1,6 @@
+Detection of an assembly error does not stop the assembly but does
+suppress card punching and execution, Diagnostic information is given
+
+in the assembly listing.
+
+s

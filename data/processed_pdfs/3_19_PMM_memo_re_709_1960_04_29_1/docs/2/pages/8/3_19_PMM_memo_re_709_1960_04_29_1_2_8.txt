@@ -1,0 +1,38 @@
+Page 8.
+
+2) A set of consoles that are equipped in addition with both
+a visual display device and a means of communicating hand
+drawn shapes. Neither of these devices exists in a suitable
+form at present for this usage. Display devices such as
+OScilloscopes have of course been used with computers for
+Some time, but most of these require an inordinate amount of
+machine time to develop and maintaln a display. Similarly,
+devices such as "light pens" for entering information suffer
+from the same defects of machine time requirements as the pre-
+sent oscilloscopes. A good, low input data rate, self-main-
+taining display will have to be developed, as well as a form
+of ”drawing pad" for entering information. Much larger ver-
+sions of these same devices will then be used to equip one or
+two lecture halls which will be tied into the system. This
+by no means exhausts the possibilities, Having provided for
+remote input-output Stations, many experiments such as cross
+connecting with a smaller computer, testing out "spoken" in-
+put languages, etec. become feasible.
+
+ocheduling
+
+A computer system is basically a job shop whose business
+is computation. It has many different processing equipments
+within it, such as its high speed memory, disc files, arith-
+metlc units, etc. Not all of these are needed at any one time,
+for any one problem. To maximize its output, i.e. to do as
+much information processlng as possible, the computer must
+schedule "how much of what problem it does when". That 1s, the
+computer must be able to rapidly solve its own " Job Shop
+Scheduling Problem" in order to efficiently overlap many di-
+verse jobs. This problem has yet to be adequately solved.
+
+Programming
+
+Each of the aspects already mentioned will have an effect
+on the final set of programming systems and programming

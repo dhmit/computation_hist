@@ -1,0 +1,1924 @@
+CC-161
+
+DESCRIPTION OF THE FAP ASSEMBLY PROGRAM
+USED WITH THE FORTRAN MONITOR SYSTEM
+
+ 
+
+FOR THE 709 COMPUTER
+
+To: All Programmers
+
+From: M. L. Merwin and F. J. Corbato
+
+Date: June, 1960
+
+Table of Contents
+
+INTRODUCTION
+
+THE FAP LANGUAGE
+
+Symbolic Card Format
+Symbols
+
+Location Field
+Location Counter
+Expressions
+
+Types of Expressions
+Relocation
+
+"x" as a Symbol
+Boolean Expressions
+Variable Field
+Literals
+
+OPERATIONS AND PSEUDO-OPERATIONS
+
+Indirect Addressing
+Symbol Definition
+BOOL
+TAPENO
+Storage Allocation
+BSS
+BES
+COMMON
+Data Generation
+OCT
+DEC
+BCI
+BCD
+VFD
+ETC
+DUP
+REM
+* (Remarks)
+
+Ww
+
+HOON U de hw
+
+—
+
+14
+
+14
+14
+14
+15
+16
+16
+16
+17
+18
+18
+18
+19
+21
+22
+22
+24
+24
+25
+25
+
+
+Table of Contents (Continued)
+
+Inter-Program Communication
+
+ENTRY
+CALL
+Reference to Subprogram via the
+
+SYSTEM CONTROL
+
+Program Identification
+COUNT
+
+Program Termination
+The Program Listing
+Binary Output
+
+APPENDIX
+
+Absolute Assemblies
+TCD
+END
+
+1" 1"
+3
+
+26
+26
+27
+238
+
+30
+
+30
+30
+30
+30
+32
+
+33
+
+33
+34
+34
+
+
+INTRODUCTION
+
+This memorandum is based on the FAP Reference Manual (June 1, 1959)
+written at the Western Data Processing Center, U.C.L.A., and has been
+
+updated in accordance with their Reference Manual (February, 1960).
+
+FAP (the Fortran Assembly Program) was programmed at the Western
+Data Processing Center by David E. Ferguson and Donald P, Moore to satisfy
+the need to produce machine language subprograms for use with 709 FORTRAN.
+FAP is a fast, versatile general purpose assembler that has the additional
+
+advantage of operating within the FORTRAN-FAP Monitor System,
+
+When assembling FORTRAN subprograms, FAP provides all necessary in-
+formation for direct communication with FORTRAN subprograms, including
+the program card and an appropriate transfer vector, Further, FAP output
+is in the binary card format required by the FORTRAN BSS loader and is
+in proper relocatable form for the BSS control. At the programmer's
+option the assembler will produce binary card output and will always
+produce an off-line assembly listing. The speed of assembly is the time
+required for one pass of the tape containing the program to be assembled
+(on-line card input is not permitted), plus the time required for output
+
+of the assembly results.
+
+FAP subprograms (which may be main subprograms) may call upon FORTRAN
+subprograms, FORTRAN Library functions, or FAP subprograms, The Monitor
+system and the BSS loader provide the necessary communication, based upon
+information given by the programmer in a set of pseudo-operations (see
+CALL, ENTRY, and COMMON). FAP subprograms written for use with either
+FORTRAN or FAP main subprograms may similarly call other FORTRAN or FAP
+subprograms or Library functions so that an unlimited hierarchy of sub-
+programs may be constructed. The entire hierarchy, provided all programs
+are present, may be assembled, compiled, and executed automatically.
+Because the Monitor accepts programs in either binary or symbolic form,
+all programs need not be assembled or compiled at the same time but may
+be assembled in stages, offering a very powerful tool for preparing and
+
+debugging sections of large programs,
+
+
+Detection of an assembly error does not stop the assembly but does
+suppress card punching and execution, Diagnostic information is given
+
+in the assembly listing.
+
+i
+
+
+SYMBOLIC
+CARD FORMAT
+
+SYMBOLS
+
+ 
+
+THE FAP LANGUAGE
+
+Symbolic instructions are punched, one per card, in the
+
+SCAT format. This format consists of four major fields:
+
+the location field (always a fixed length of 6 characters),
+the operation field (from 3 through 7 characters in length),
+the variable field (variable length), and the comment field
+(variable length). The fields are separated by the character,
+blank. The location field always begins in column 1 (hence
+ends in column 6), The operation field begins in column 8
+and ends in one of columns 10-14, The variable field begins
+one column after the end of the operation field (hence always
+before column 17) and may extend through column 72, (By
+convention, the variable field usually begins in column 16.)
+The comment field plays no role in the instruction's function
+
+of directing the machine and may always be omitted.
+
+A "symbol" (also referred to as a "location symbol" and
+sometimes as a ''symbolic address'') is a string of one to
+six non-blank characters, at least one of which is non-
+numeric, and none of which is among the following set of
+
+eight characters:
+
++ $
+1
+/ ,
+For example,
+A A.l
+1234X (12
+
+are all legal symbols, Four '"types' of symbols are recog-
+nized by the assembler, and each legitimate symbol will
+be of one of those four types. A symbol is "absolute" if
+it refers to a fixed-point number. A symbol is ''common"
+
+if and only if it appears in the location field of a
+
+-3~-
+
+
+LOCATION
+FIELD
+
+LOCATION
+COUNTER
+
+COMMON pscudo-operation or has been mad: the synonym of
+
+4 common cxpression by th: SYN or EQU pseudo-opzration.
+
+Any symbol which is not absolute or common is "relocatable."
+
+In particular, a symbol which occurs in the location field
+
+of a 709 machine operation is r:locatabl:.
+
+The location field of an instruction should either be blank
+
+or contain a single symbol,
+
+by blanks.
+
+possibly preceded and/or followed
+
+The normal purpose of using a location symbol is
+
+to give a "name" to tae instruction with which the location
+
+symbol is associated, so that the instruction may be referred
+
+to by this name in other instructions of the program. Symbols
+are also used as the names of locations containing data used
+
+by a program, and as the names of parameters.
+
+Symbols may be "defined" in two ways. A symbol may be defined
+
+by placing it in the location field of some instruction, or
+
+it may be defined by identifying it as the name of a sub-
+
+program. [Every symbol used in the program must be defined
+
+exactly once. A list of duplicately-defined symbols is
+
+given immediately preceding the program listing, and a list
+
+of undefined symbols is
+
+The assembly process consists of two passes. The first
+
+pass involves building a dictionary. This dictionary contains
+
+the numerical value and the type (absolute, common, Or re-
+
+locatable) of each symbol. The second pass uses this diction-
+
+ary to substitute for cach symbol in the variable field its
+
+value as computed in the first pass. The assembler keeps
+
+track of symbol values by use of the "location counter,"
+
+At the besinning of each pass, the location counter is set
+
+to zero (or the length of the transfer vector--see below).
+
+Bach time a machine instruction is encountered, the location
+
+counter is increased by one. Thus when a symbol appears
+
+in the location field of an instruction, the value assigned
+
+to that symbol corresponds to the location that instruction
+
+will occupy during execution of the program. Pseudo-operations
+
+id]
+
+given at the end of the program listing,
+
+, »RESS IONS
+
+XI
+
+
+Pa;
+
+“Tq
+
+by
+
+Je
+
+EXPRESSIONS
+
+ 
+
+ 
+
+are provided which alter the location counter in order
+
+to reserve space for storage of data.
+
+The variable field of an instruction consists of one or
+more subfields, separated by commas, In most cases each
+subfield consists of an expression. An expression is a
+string composed of symbols, integers, and the four oper-
+
+ators:
+
++ (addition)
+- (subtraction)
+(multiplication)
+
+/ (division)
+
+Except for Boolean expressions, which will be discussed
+separately, the four operators have the meanings given
+
+above. An expression is evaluated as follows: First,
+
+each symbol is replaced by its numerical value. Then all
+multiplications and divisions are performed from left to
+right, in the order in which they occur, yielding a number
+of terms separated by plus and minus signs. Next the terms
+are combined by performing all additions and subtractions
+from left to right in the order in which they occur. If
+
+the result is negative, it is replaced by its two's
+complement. (That is, the number 235 is added to a
+
+negative result.) Finally, this result is reduced modulo
+gis (except in the variable field of a VFD pseudo-operation),
+that is, only the rightmost 15 bits are used. Grouping of
+terms, by use of parentheses or otherwise, is not permitted,
+but this restriction may often be circumvented. For instance,
+
+the product of A with the quantity B+C may be expressed as
+AXB+A*C
+
+All integers in non-Boolean expressions are taken as decimal
+
+and must consist of six of fewer decimal digits. If a
+
+
+TYPES OF
+EXPRESSIONS
+
+ 
+
+multiplication or division sign is immediately followed
+
+0" "Te 11
+
+by a", va or the end of the expression, multiplication
+or division by zero is assumed. In division, the integral
+part of the quotient is retained, and the remainder (which
+has the same sign as the quotient) is discarded. Division
+
+by zero is equivalent to division by one and does not
+
+cause an assembly error.
+
+Before discussing the precise rules for determining the
+type of a non-Boolean instruction, some examples will be
+considered. Suppose that Rl and R2 are relocatable symbols,
+Al and A2 are absolute symbols, and Kl and K2 are common
+symbols. Then 0, 123, -123, Al, Al+99, 6%Al1+A2*Al, R1l-R2,
+K1-K2+3, Al/2 are all '"absolute'' expressions. The expressions
+Rl, R1+3, R1-7, R1+K1-K2+1, R1*5-R2*4, R2-Al*A2 are all
+"relocatable', and Kl, K1+3, K1-7, K1+R1-R2+1l, K1*5-K2%4,
+K2-A1*A2 are all '"common''. The precise rule for determining
+the type of an expression is as follows: replace each
+relocatable symbol by the letter r, each common symbol by
+the letter k, and each absolute symbol by its numerical
+value. This gives a new expression involving only numbers
+and the two letters, r and k. If any term of this new
+expression (the ''terms' are separated by plus and minus
+signs) contains two letters or two occurrences of the same
+letter, the original expression is illegal. Also, if a
+
+"/" occurs in a term following the occurrence of a letter,
+the original expression is illegal. After checking for
+
+a violation of these rules, evaluate the new expression
+
+by first performing all indicated multiplications and
+divisions, then the additions and subtractions. If the
+result is a number, the original expression is absolute.
+
+If the result is r, or r plus a number, or r minus a number,
+the original expression is relocatable. If the result is
+
+k, or k plus a number, or Kk minus a number, the original
+expression is common. If the result is not one of these
+
+(e.g. if the result is r+k, or 2k, or -r), the original
+
+Ge
+
+SX R 2
+Taw vo
+ey > o
+KR =
+
+pe
+
+Oo
+
+~
+
+B=
+
+3
+
+2
+
+
+151A 1g
+U3 Tm ) 2
+
+=o
+S
+
+1
+t
+
+Duy
+n May
+
+expression is illegal. Hence the expressions -Rl, -Kl,
+2%R1, R1%*2/2, R1*0*Rl, R1+R2, R1/R1l, R1+Kl are all illegal.
+An expression which is illegal by virtue of these rules
+
+is called a ''relocation error''.
+
+RELOCATION Every program or subprogram produced by the FORTRAN
+Monitor System begins in cell zero. Since a job to be
+executed may contain several subprograms, it is obvious
+that they may not all be loaded into cells starting with
+cell zero. In fact, no program is ever loaded beginning
+at cell zero, but each program is relocated. The first
+program or subprogram is loaded into a starting cell.
+Successive subprograms are then loaded into memory, each
+beginning with the cell after the last cell of lower memory
+used by the preceding subprogram. The main program is
+loaded in the same way. Consider a particular subprogram
+which has been loaded. The address into which the first
+cell of the subprogram is loaded is called its load
+address. Then the address actually occupied by a cell
+of the subprogram will be the address assigned at assembly
+time plus the load address. To keep the subprogram self-
+consistent, the load address must be added to the addresses
+and decrements of many (but not all) of the instructions.
+This process of conditionally adding the load address is
+performed by the loading program just prior to execution
+and is called relocation. In relocating instructions,
+the loading program is guided by relocation indicator bits
+which were inserted when the subprogram was compiled or
+assembled. In the case of programs assembled by FAP, the
+load address will be added to just those addresses and
+
+decrements which correspond to relocatable expressions.
+
+Wye 1? AS A
+SYMBOL The asterisk may be used as a symbol. When used in this
+
+way, it is regarded as a relocatable symbol whose value is
+
+the current value of the location counter. Thus the
+
+
+BOOLEAN
+EXPRESSIONS
+
+ 
+
+instruction
+
+LOCATION OP VARIABLE FIELD
+ALPHA TRA *+2
+
+is equivalent to
+
+ALPHA TRA ALPHA +2
+
+and represents a transfer to the second location following
+the location containing the transfer instruction. There
+is no ambiguity between this usage of the asterisk and
+
+the use of the asterisk to denote multiplication, since
+the position of the asterisk within the expression always
+makes clear what is meant. Thus '"**10'" clearly means ''the
+current value of the location counter multiplied by 10."
+("**10" would be a relocation error by itself, but expres-
+sions like "R1*11-%%10" or "**10-R1*10'" are permissible,
+and are often useful in constructing tables.) Note: The
+expressions '**'" and "*-*" are both absolute expressions
+
+whose value is zero.
+
+An expression if Boolean if and only if it forms an "octal"
+subfield of the variable field of a VFD pseudo-operation,
+forms the variable field of a BOOL pseudo-operation, or
+forms the variable field of a type-D machine operation.
+
+(The type-D machine operations are SIL, SIR, RIL, RIR,
+
+IIL, IIR, LNT, RNT, LFT, and RFT.) In a Boolean expression,
+the four operators: "+", "=", "x", and '"/" have Boolean
+meanings rather than their usual arithmetical meanings,
+
+as follows:
+
+"+" ("or", "inclusive or", "=" ("exclusive or", "symmetric
+union’) difference")
+0+0 = 0 0-0 =O
+0+1 = 1 0-1 = 1
+
+Emre
+
+=
+
+re
+= as
+
+
+140 = 0 1-0
+
+ 
+
+ 
+
+141 = 1 1-1 =
+"x" ("and", "intersection") '"/" ("complement", ''ones complement",
+"not')
+0x0 = 0 /0 =
+0x1 = 0 /1 = 0
+10 = 0
+1x1 = 1
+
+Although "/" is usually an operation involving only one term,
+by convention "A/B" is taken to mean A*/B. Thus the table for
+
+"/" as a two-term operation is
+
+0/0 = 0
+0/1 = 0
+1/0 = 1
+1/1 = 0
+Other conventions are:
++A = A+ = A
+-A = A- = A
+A = A* = 0 (one operand missing)
+A/ =A
+‘=
+=0 (both operands missing)
+[l= JT71777777777
+
+8
+
+The above tables define the four Boolean operations for one-
+bit quantities. The operations are extended to 36-bit
+quantities by the rule that each bit-position is treated
+independently. Note that the leftmost 18 bits will either
+
+be all zeros or all ones. A Boolean expression is evaluated
+
+
+VARIABLE
+FIELD
+
+as follows: First, all integers are taken as octal and
+must be less than 25, The operations '*" and "/" are
+carried out from left to right, all quantities being
+
+regarded as having 36 bits, and then "+" and are carried
+out from left to right, all quantities again regarded as
+having 36 bits. The rightmost 18 bits are preserved and
+
+the remaining bits discarded; in the variable field of a
+VFD pseudo-operation, the number of bits preserved may
+
+vary from 1 to 36. Any use of a non-Boolean symbol in a
+
+Boolean expression constitutes a Boolean error and is
+
+illegal.
+
+To specify completely a 709 machine operation, the pro-
+grammer can, and sometimes must, specily certain combinations
+of address, tag, and decrement (or count). For example, a
+TIX operation requires an address, tag, and decrement; LXA
+requires an address and tag, but should not have a decrement;
+CLA requires an address and may have an (operative) tag, but
+should not have a decrement; PXA requires a tag, should not
+have a decrement, but may have an (inoperative) address; and
+CLM should not have any address, tag, or decrement. The
+
+address, and/or tag, and/or decrement, of an instruction are
+
+specified in that instruction's variable field, in that order.
+(Note that this is the reverse of the internal machine order,
+
+which is decrement, tag, address.) The subfields are separated
+
+by commas, e.g.:
+
+LOCATION OP VARIABLE FIELD
+
+TIX ALPHA,4,1
+
+specifies an address of ALPHA, a tag of 4, and a decrement
+of 1. The end of the variable field (except in BCI, BCD,
+and literals, see below) is signalled by the occurrence of
+the first blank character in scanning from left to right.
+Hence there must be no blanks between subfields or within
+subfields of the variable field. For those operations which
+
+require a tag but no address, the address zero should be
+
+-10-
+
+
+oe DDD IEL
+
+»
+IZ lr
+
+LITERALS
+
+used, e.g.:
+
+LOCATION OP VARIABLE FIELD
+LOCATION op YAnIABLE FIELD
+PXA 0,4
+
+which may also
+
+be written PXA , 4
+
+The second example above typifies the rule that when a
+
+subfield is to be zero, the character "0" may be omitted,
+
+leaving only the separating comma(s). Also, if one or
+
+more subfields at the right-hand end of the variable field
+
+are to be zero, these subfields may be omitted entirely,
+
+together with their separating commas. Thus
+
+LOCATION OP VARIABLE FIELD
+
+TXH 0,0,1
+
+may be written TXH srl
+
+and I0CD ALPHA, 0,1
+
+may be written I0CD ALPHA,,1
+
+and TXH ALPHA,0,0
+
+may be written TXH ALPHA
+
+and PXA 0,0
+
+may be written PXA
+
+Any valid expression may appear in any subfield of the
+
+variable field, and will be evaluated according to the
+
+rules given for the evaluation of expressions (with
+
+exceptions in the case of certain pseudo-operations, see
+
+below) except that after an expression in the tag subfield
+
+has been evaluated, only the rightmost three bits will be
+
+used. (I.e., the tag is reduced modulo 8.)
+
+Often a programmer wishes to refer to a cell containing
+
+a constant. For example, if he wishes to add the number
+
+one to the contents of the accumulator he must have some-
+
+where in memory a cell containing the number one. Pseudo~-
+
+-]1J =
+
+
+operations are provided by the assembler for the introduction
+of data words and constants into the program, but often this
+
+introduction is more easily accomplished by the use of a
+
+literal. A literal is a subfield of the variable field which
+
+says to the assembler, "Here is an item of data. Set aside
+a memory location at the end of the program, place this item
+in it, and let this portion of this instruction refer to that
+
+t
+
+location.' There are three types of literals: decimal, octal,
+
+and Hollerith.
+
+A decimal literal consists of the character ''=" followed by
+
+a string of characters which represent a decimal number. (The
+decimal number may be an integer, a fixed-point number, or a
+floating-point number. See the description of the DEC pseudo-
+operation below for the rules of formation for decimal numbers.)
+
+Thus the instruction
+
+LOCATION OP VARIABLE FIELD
+
+MPY ==3
+
+means, ''Multiply the contents of the MQ register by the number
+-3." (I.e., "Multiply the contents of the MQ register by the
+contents of a cell whose contents are 400000000003g +")
+
+An octal literal consists of the character '=", followed by
+the letter O, followed by a (signed or unsigned) octal integer.
+
+Thus the instruction
+
+LOCATION OP VARIABLE FIELD
+
+ANA =037
+
+means, 'Clear all but the last five bits of the accumulator,
+
+but leave the last five bits unchanged."
+
+A Hollerith literal consists of the character "=", followed
+
+by the letter H, followed by six characters of Hollerith
+
+
+Ua
+
+ 
+
+ST
+
+Ue
+3
+
+data. Thus after the execution of the instruction
+
+LOCATION OP VARIABLE FIELD
+LDQ =H12AB
+
+the contents of the MQ register would be 010221226060, .
+
+A literal may occur only as the address subfield of the
+variable field of a 709 machine operation. This means
+that when the character "=" is used, it must be the first
+character of the variable field, that this character may
+not appear in the variable field of a pseudo-operation,
+and finally that a subfield which contains a literal must
+consist solely of that literal. Other subfields may be
+present following a literal subfield, in which case the
+separating comma is used in the usual manner, except in
+the case of a Hollerith literal, where the separating
+comma would be the eighth character following the equal
+sign and intervening commas or blanks would be taken as
+data and would not have their usual function of determin-
+
+ing the variable field.
+
+A literal may not appear in the variable field of a type-
+
+D operation.
+
+The number of data words generated by literals in a
+
+program may not exceed 1000.
+
+-)3=
+
+
+INDIRECT
+ADDRESSING
+
+EAU
+
+SYN
+
+OPERATIONS AND PSEUDO-OPERATIONS
+
+Usually the operation field of an instruction will contain
+a three-letter or four-letter mnemonic code representing
+
+a machine operation. (Complete description of all machine
+operations is to be found in the IBM 709-90 Manual). The
+FAP assembler recognizes all machine-operation mnemonic
+codes given in the 709-90 Manual, including the SCAT ex-
+tended operation codes (such as SWT, WTDA, PTH, etc.)
+given in an appendix. Note that all of these extended
+operations are regarded as 709 machine operations by the
+assembler. The assembler also recognizes the following
+pseudo-operations, which are described in detail below:
+BCD, BCI, BES, BOOCL, BSS, CALL, COMMON, DEC, DUP, ENTRY,
+EQU, OCT, REM, ABS, TAPENO, COUNT, ETC, SYN, and VFD.
+
+In addition, the assembler recognizes certain variable-
+
+channel tape operations also described in detail below,
+
+Indirect addressing of a 709 machine operation is indicated
+in internal machine language by the presence of ones in
+bit-positions 12 and 13. Indirect addressing is indicated
+to the assembler by the presence of an asterisk immediately
+following the last character of the mnemonic operation
+
+code in the operation field.
+
+SYIIBOL DEFINITION
+
+In the FAP language, EQU and SYN are identical. The purpose
+of the pscudo-operation is to give a value to a symbol which
+represents a program parameter rather than a location in
+memory. Jor example, a symbol may be used to represent the
+number of times a certain iteration is performed. In all
+probability this number will be used in several places
+throughout the program, but if it is always referred to via
+
+a symbol, and the symbol is defined by means of an EQU
+
+-14~-
+
+
+“4 go
+
+ 
+
+ 
+
+qT-
+
+Uy
+Len,
+“Jue
+
+BOOL
+
+ 
+
+instruction, then the number of iterations to be performed
+may be altered simply by changing this one card and re-
+assembling. The assembler performs the EQU pseudo-operation
+as follows. The symbol in the location field is given the
+value of the expression in the variable field. The value
+
+of the location counter remains unchanged. A symbol defined
+by an, EQU pseudo-operation is absolute, relocatable, or
+common according as the expression in the variable field is
+absolute, relocatable, or common. However, the expression
+in the variable field must be a valid expression. In
+addition, all symbols appearing in the variable field of
+
+an EQU pseudo-operation must have been previously defined,
+i.e. the cards defining the symbols used in the variable
+field of the EQU pseudo-operation must procede that EQU
+
+card in the program deck. A violation of this restriction
+is called a phase error. Note that the requirement that
+symbols be previously defined, which applies to several
+
+of the pseudo-operations, does not apply to an expression
+
+in the variable field of a 709 machine operation.
+
+The symbol in the location field of the BOOL pseudo-op-
+eration is given the value of the expression in the variable
+field, computed as a Boolean expression. (In particular,
+all integers are octal, but see the section "Boolean
+Expressions'' above.) The value of the location counter
+remains unchanged. A symbol defined by the BOOL pseudo-
+operation is a Boolean symbol. All symbols appearing in
+the variable field of a BOOL pseudo-operation must be
+Boolean and must have been previously defined. The ap-
+pearance of a non-Boolean symbol in the variable field
+
+of a BOOL pseudo-operation is a Boolean error; the appear-
+ance of a symbol which was not previously defined is a
+phase error. The BOOL pseudo-operation is useful for
+defining program parameters which are most meaningful
+
+when expressed in octal, such as a tape address or the
+
+mask of a type-D machine operation.
+
+=] 5=
+
+
+TAPENO
+
+BSS
+
+ 
+
+ 
+
+It usually is desirable to refer to a tape unit symbolically;
+the TAPENO pseudo-operation is used to equate a symbol
+appearing in the location field, with a tape unit, appearing
+in the variable field. The variable-channel tape operations
+enable the programmer to change the tape number, tape channel,
+or both simply by changing the TAPENO pseudo-operation and
+reassembling. When TAPENO is used, the specific channel
+designations A through H need not and should not be used
+
+even in such instructions as RCHo, LCHX, etc.
+
+The symbol appearing in the location field of the TAPENO
+pseudo-operation must be a single letter between I and Z
+inclusive. The variable field contains a channel letter
+(A—H), followed by the tape number, followed by the letter
+B if the tape is to be treated in the binary mode. The
+absence of a terminal B implies the BCD mode.
+
+If X is defined as
+
+X TAPENO A2B,
+
+then the instructions RCHX and RCHA are equivalent. The
+instruction is assembled as if the X in the operation code
+were replaced by the channel-letter A. (The instructions,
+LCHX, SCHX, TCOX, TCNX, TRCX, TEFX, BTTX, and ETTX are
+treated in a similar fashion.)
+
+If the operation code also requires a tape number (such
+as RTDX, RTBX, WTDX, WTBX, WRSX, WEFX, BSRX, BSFX, and
+REWX), then the instruction is assembled with the X re-
+placed by the TAPENO definition. For example, with the
+X as defined above, WTDX, WTBX, WRS X, and WTBA 2 are
+
+equivalent.
+
+Storage Allocation
+
+The BSS (block started by symbol) psceudo-operation is
+
+
+used to reserve an area of memory for data storage or
+The expression in the variable field deter-
+
+working space.
+
+mines the length of the block reserved, and the symbol in
+the location field is assigned to the first cell of the
+
+The assembler performs the BSS pseudo-operation
+then increasing
+
+block.
+the current value of the location counter,
+
+the location counter by the value of the.expression in
+The symbol in the location field is
+
+by first assigning to the symbol in the location field
+All symbols appearing in the variable
+
+the variable field.
+a relocatable symbol.
+field of a BSS pseudo-operation must have been previously
+defined; otherwise a phase error results. If the expres-
+sion in the variable field is absolute, its value is
+computed according to the rules for arithmetical expres-
+If the expression is Boolean, it is computed
+
+sions.
+according to the rules for computing Boolean expressions.
+If the expression is relocatable, common, or involves a
+relocation error, it is not permitted as the variable
+field of a BSS pseudo-operation and its use therein is
+called a phase relocation error. For the purpose of
+determining whether or not a phase relocation error has
+occurred, symbols defined by SYN and EQU should be replaced
+by their defining expressions. The rules regarding phase
+relocation errors given above for the BSS pseudo-operation
+also apply to the BES and COMMON pseudo-operations.
+The dif-
+
+BES The BES (block ended by symbol) pseudo-operation is used
+to reserve storage in much the same way as BSS.
+ference is-this: the symbol in the location field is
+assigned to the first memory cell after the end of the
+If the location field is blank, the BES is exactly
+The assembler performs the BES pseudo-
+
+block.
+operation by first increasing the location counter by the
+
+like the BSS.
+value of the expression in the variable field, and then
+assigning to the symbol in the location field the new value
+A symbol defined by a BES pseudo-
+Symbols used in the
+
+of the location counter.
+
+operation is a relocatable symbol.
+variable field must have been previously defined, or a
+
+-]T =
+
+
+COMMON
+
+OCT
+
+upper memory in a manner similar to that achieved by the
+
+common counter, which is initially set to 77461,(32561, ),
+
+ 
+
+phase error results. A phase relocation error is also
+possible; the rules for avoiding this error are the same
+
+as for the BSS pseudo-operation.
+
+The COMMON pseudo-operation is used to reserve blocks of
+
+use of DIMENSION and COMMON statements in FORTRAN programs.
+The assembler maintains a special counter, called the
+
+10
+which is the last cell of upper memory available to FORTRAN
+programs during execution. A COMMON pseudo-operation as-
+signs the current value of the common counter to the symbol
+in the location field and then decreases the common counter
+by the value of the expression in the variable field. A
+symbol defined by a COMION pseudo-operation is a common
+symbol, Note that the symbol in the location field is
+assigned to the last cell of the block reserved (not the
+cell after the last cell of the block as with the BES).
+This usage coincides with the FORTRAN rule that the name
+of an array refers to the logically-first cell of the
+array, which is stored last in memory. All symbols used
+in the variable field of a COMMON pseudo-operation must
+have been previously defined, or a phase error results.
+A phase relocation error is also possible; the rules for
+avoiding this error are the same as for the BSS pseudo-
+
+operation.
+
+Data Generation
+
+The assembler provides five pscudo-opzerations (OCT, DEC,
+BCI, BCD, and VFD) which may be used to introduce words
+
+of data into the program at assembly time. Numbers
+introduced in this way are often referred to as ''constants."
+The OCT pseudo-operation says to the assembler, ''take the
+octal integers which are specified, one per subfield from
+
+left to right, in the variable field, convert these integers
+
+-18-
+
+
+DEC
+
+ 
+
+ 
+
+to binary, and assign them to successive storage locations
+starting with the current value of the location counter.
+
+But, first, if there is a symbol in the location field,
+
+enter this symbol in the dictionary as a relocatable symbol
+having as its value the current value of the location counter,
+so that the first octal integer in the variable field may
+
+be referred to by this symbol." For example, suppose the
+
+location counter reads 3900, and the assembler encounters
+
+the instruction:
+
+LOCATION OP VARIABLE FIELD
+
+DATA OCT TIT 1I7T777, ~71, 66, 55, -44
+
+The effect of this instruction is to enter the symbol DATA
+into the dictionary as a relocatable symbol whose value is
+3900, and to convert the five integers to binary and assign
+them to locations 3900-3904, leaving the location counter
+
+at 3905. The five numbers convert to the 36-bit numbers:
+
+277 177 777 177
+400 000 000 077
+000 000 000 066
+000 00C 000 055
+400 000 000 044
+
+Any number of subfields, separated by commas, may be used;
+the last subfield must be terminated by a blank. Consecutive
+commas cause the number zero to be generated, as does a
+
+comma followed by a blank. Hence the number of words of
+
+data generated is always one more than the number of commas
+
+in the variable field.
+
+The DEC pseudo-operation says to the assembler: ''Take the
+decimal numbers which are specified, one per subfield from
+left to right in the variable field, convert these numbers
+
+to binary, and assign them to successive locations starting
+
+-10-
+
+
+with the current value of the location counter. But first,
+if there is a symbol in the location field, enter this
+symbol in the dictionary as a relocatable symbol having
+
+as its value the current value of the location counter,
+
+so that the first decimal number in the variable field
+
+may be referred to by this symbol." The total number of
+binary words generated is one more than the number of
+commas in the variable field. There are three types of
+decimal numbers which can be specified in the variable
+field of a DEC pseudo-operation. These are integers,
+
+fixed point numbers, and floating point numbers. Any
+combination of these three types may appear in the variable
+field of one DEC pseudo-operation. An integer is repre-
+sented by a string of eleven or fewer digits, possibly
+preceded by a minus sign. An integer is converted to a
+
+rt
+
+35-bit binary number with sign. Thus '"'-31" would convert
+to 400 000 000 037,. A fixed point number or a floating
+point number may have a decimal point and/or a signed
+decimal scale factor. If the decimal point is missing,
+
+it is assumed to be at the right-hand end of the principal
+part of the number. The scale factor is signalled by the
+character E, and follows the principal part of the number.
+Thus "3.14159", ''314159.E-5", "314159E-5", and ".314159E1"
+all represent the same number. A number is fixed point
+
+if its representation contains the letter B. The letter
+
+B is followed by a signed decimal integer which specifies
+the location of the binary point in the binary word which
+results from the conversion of the decimal number. The
+
+B- integer is the number of integral places in final result.
+Thus a B-value of 0 specifies a 35-bit binary fraction,
+while a binary integer results from a B-value of 35. A
+3-value of minus one specifies that the binary point is
+located one place outside the left-hand end of the word.
+If a fixed point number has an E-part as well as a B-part,
+then both must appear after the principal part of the
+
+number, but their relative order is unimportant. Hence
+
+
+BCI
+
+ 
+
+ 
+
+'"31415.9E-4B2" and ''31415.9B2E-4'" are both acceptable and
+represent the same number. Note that it is possible to
+
+lose significant bits off either end of the word. In fact,
+since many terminating decimals have non-terminating binary
+representations, loss of bits to the right is often unavoid-
+able. If bits are lost, no error will be indicated. A
+number which is not an integer (i.e. written with either
+
+a decimal point or an E) and is not fixed point (no B)
+
+is floating point. A floating point number will be converted
+to standard 709 floating point binary (i.e. sign bit, 8-bit
+characteristic, and 27-bit fraction). The numbers "3.14159",
+'"314159.E-5", ''314159 E-5", and '".314159El" all represent
+
+the same floating point number,
+
+The BCI (binary coded information) pseudo-operation is
+used to generate data in the 709 BCD character code. One
+to ten words of six characters each may be generated by
+means of one BCI instruction. The variable field of the
+BCI pseudo-operation is divided into two subfields. The
+first subfield is a single decimal digit, followed by a
+separating comma, which specifies the number of words to
+be generated. By convention, a comma in column 12 (with
+no preceding count) indicates that ten words are to be
+generated. Since the length of the second subfield is
+determined by the count in the first subfield, any valid
+character (including comma or blank) may occur in the
+second subfield. The BCI pseudo-operation is an exception
+to the rule that the variable field is terminated the
+first occurrence of a blank. If there is a symbol in the
+location field, it is a relocatable symbol which refers
+
+to the first word of the data generated. Thus the
+
+instruction
+LOCATION OP VARIABLE FIELD
+ALPHA BCI 3, THIS IS A BCI
+
+is exactly equivalent
+
+to the instruction
+ALPHA OCT 633031626031 ,626021602223, 3160606
+06060
+-D] =
+
+
+BCD
+
+ 
+
+ 
+
+The BCD pseudo-operation is a hold-over from the 704 "SAP"
+assembler and is supplanted here by the BCI pseudo-operation.
+The BCD pseudo-operation is exactly like the BCI except
+
+that the word-count always appears in column 12 and no sep-
+arating comma is used (i.e. the second subfield starts in
+column 13). A zero in column 12 specifies the generation
+
+of ten words.
+
+The VFD (variable field definition) pseudo-operation is
+used primarily for the generation of tables for use with
+the 709 ''convert'' operations. Each VFD pseudo-instruction
+generates exactly one machine word, but the subfields of
+the VFD generate variable numbers of bits. Thus the basic
+unit of information in this case is the individual bit,
+The variable field of the VFD pseudo-operation is composed
+of a variable number of subfields separated by commas.
+Each subfield is of one of three types. These are symbolic-
+expression, octal, and Hollerith (i.e. BCD). A symbolic-
+expression subfield consists of a decimal integer giving
+the length (in bits) of the subfield, the character "/"
+and the symbolic expression (possibly a decimal integer)
+whose value is to occupy the bit-positions indicated.
+
+The expression is evaluated according to the rules for
+
+the evaluation of expressions except that only the right
+
+n bits are used, where n is the specified bit-count.
+
+An octal (Boolean). subfield consists of the letter "0",
+followed by a decimal integer specifying the bit-count,
+followed by the character '/'", followed by the octal integer
+or Boolean expression to occupy the bit-positions indicated.
+A Hollerith subfield consists of the letter "H' followed
+
+by a decimal integer specifying the bit count, followed
+
+by the character '/'", followed by the BCD characters to
+
+be converted (six bits per character) and placed in the
+
+bit positions indicated. Any valid character except comma
+or blank may be used in a Hollerith subfield. The variable
+
+field is terminated, as usual, by the first blank. The
+
+2D
+
+
+subfields of the variable field are evaluated consecutively
+from left to right. If n, is the bit count of the first
+subfield then the value of that field is placed in the
+leftmost ny bits of the machine word generated. If n, is
+less than the length of the data, only the rightmost ny
+
+bits of the data are used. If ny is greater than the length
+of the data, then the data is placed in the rightmost bit-
+positions of the set of n, bits and the left-hand bits
+
+are all made zeros. The value of the second subfield is
+
+placed in the n_st through (n,+ny-1)st bit positions
+
+(counting the er bit as bit-position O, in a similar
+manner). The total of all the bit-counts must not exceed
+36. If this total is less than 36, the right-hand bits
+left over are made zeros. If a symbolic-expression sub-
+field contains a relocatable or common expression, that
+subfield must be placed so that its rightmost bit is the
+17-th bit (i.e. the right-hand bit of the decrement-
+
+portion) or the last bit (i.e. the right-hand bit of the
+
+ 
+
+address-portion) of the word. As an example, suppose
+the programmer would like to break up a single 36-bit
+
+word into four parts as follows:
+
+1. Positions 0 - 9: the binary equivalent of the
+decimal integer 895.
+
+2. Positions 10 - 14: the binary equivalent of the
+octal integer 37.
+
+3. Positions 15 - 20: the binary coded value for
+
+the' character ''C'".
+
+4, Positions 21 - 35: the(binary) value of the
+symbol ALPHA.
+
+Then he may simply write:
+
+LOCATION 0) VARIABLE FIELD
+
+VFD 10/895,05/37,H6/C,15/ALPHA
+
+i
+
+
+ETC
+
+DUP
+
+ 
+
+ 
+
+ 
+
+The ETC pseudo-operation is used to extend the variable
+fields of VFD and CALL pseudo-operations. The location
+field of the ETC must be blank; the variable field contains
+
+one or more subfields.
+
+The ETC pseudo-operation may appear only after a VFD, a
+CALL, or an ETC. The ETC must not appear immediately
+after the last instruction in the range of a DUP.
+
+The variable field of the instruction preceding an ETC
+may contain any number of complete subfields that are
+
+terminated by a comma and a blank.
+
+The DUP (duplicate) pseudo-operation is used to cause a
+series of instructions to be duplicated. Its primary use
+
+is the generation of tables. The variable field must
+
+consist of exactly two subfields, each of which is a
+
+symbolic expression all of whose symbols have been previously
+defined (or a phase error results). 'DUP M,N" means,
+"Duplicate the next M instructions N times'. Although
+
+this often results in the generation of MN machine words,
+
+a greater or lesser number of words may be generated if
+pseudo-operations are included among the instructions
+generated. Note that the first subfield is a count of
+assembler instructions (symbolic cards), not of machine
+words, The set of M instructions to be duplicated is
+
+called the range of the DUP pseudo-operation in question.
+
+Any operation or pseudo-operation may occur in the range
+
+of a DUP pseudo-operation except another DUP pseudo-operation,
+or a BSS, BES, or COMMON pseudo-operation which uses asterisk
+as a symbol in its variable field. A symbol in the location
+field of the DUP pseudo-operation is given, as its value,
+
+the current value of the location counter. Symbols in the
+location fields of instructions in the range of the DUP
+
+pseudo-operation are given the values they would have
+
+Dd -
+
+
+o
+3S 5 /
+yo /
+5 5 Z received had the DUP not occurred, (i.e. the values they
+: e : have during the first iteration of the DUP), and are not
+multiply defined. When the asterisk is used as a symbol,
+it is redefined during each iteration of the DUP. This
+gives a very powerful method of generating tables. Tor
+example:
+LOCATION OP VARIABLE FIELD
+Tl DUP },10
+VFD 20/**100-T1%*100,16/T1
+is equivalent to
+DUP 1,10
+Tl VFD 20/%%*100-T1%100,16/T1
+which is equivalent to
+Ti VFD 20/0,16/T1
+VFD 20/100,16/T1
+VFD 20/200,16/T1
+VFD 20/300,16/T1
+VFD 20/400,16/T1
+VFD 20/500,16/T1
+VFD 20/600,16/T1
+VFD 20/700,16/T1
+VFD 20/800,16/T1
+VFD 20/900,16/T1
+REM The REM (remarks) pseudo-operation is used to enter comments
+into the assembly listing. The contents of the REM card are
+copied onto the listing (except for the letters REM which are
+replaced by three blanks) and the card is otherwise ignored
+by the assembler.
+* (Remarks) A card containing an asterisk in column 1 is taken as a
+
+"remarks' card. Its contents are copied onto the assembly
+
+listing and the card is otherwise ignored by the assembler.
+
+-25-
+
+
+ENTRY
+
+INTER-PROGRAM COMMUNICATION
+
+The ENTRY pseudo-operation is used in the assembly of sub-
+programs. Its purpose is to identify the subprogram to
+
+the System by its name(s), and to identify the entry point(s)
+of the subprogram. In this way it resembles the SUBROUTINE
+statement in FORTRAN. For example, a trigonometric sub-
+routine might have two entry points: one used when the
+
+sine function is desired, and another which is used when
+
+the cosine is desired. Such a routine might begin as
+
+follows:
+
+LOCATION OP VARIABLE FIELD
+ENTRY SIN
+ENTRY CoS
+
+SIN STO ARG
+
+COS STO ARG2
+
+The ENTRY pseudo-operation says to the assembler, "This
+program is a subprogram, and the name in the variable
+field is a name of this subprogram. Place this name on
+the program card together with the address of the cell
+which bears this name as a location symbol." Each name
+used in the variable field of an ENTRY pseudo-operation
+must appear in the location field of some instruction.
+The location field of the ENTRY pseudo-operation must
+
+be blank. All ENTRY instructions must immediately follow
+the FAP card and precede all other instructions. The
+only exception to this rule is that a card with an asterisk
+
+in column 1 (a "remarks card) may appear anywhere in the
+
+-26-
+
+
+oo y rf %
+0 0 £
+o B F uo FE
+AE 2 oo y ZF
+| nn TE + 0 0 © i
+oD TM ry ~
+Q oD te oo ~ ~
+J 0 ~~ ZL
+Ef Lr Err
+5 ~ - u »
+® § 5 5 / program. A program containing no ENTRY instructions is
+7 a main program.
+CALL The CALL pseudo-operation is used to transfer control to
+
+a subprogram outside the program being assembled. Said
+subprogram may be in the System library, or may be present
+in the job, in FORTRAN, symbolic, or binary form. To
+understand the workings of the CALL pseudo-operation, it
+is necessary to understand the philosophy of FORTRAN II
+subprogram cross-reference, To fix ideas, suppose the
+program being assembled is a main program which refers
+to two subprograms called SUBRT1 and SUBRT2. Since the
+location in memory of these two subprograms is not known
+at assembly time, a provision has been made for symbolic
+cross-reference. At the beginning of the main program
+is a set of two cells which is called the "transfer
+vector''. (In general there are as many cells in the
+transfer vector as there are different subroutine names
+referenced in the calling program.) At assembly time
+
+these two cells contain, respectively, the BCD representa-
+
+ 
+
+tions of '""'SUBRT1" and '"SUBRT2'. References to these sub--
+routines in the body of the program will be translated
+
+by the assembler to reference to the appropriate cell in
+
+the transfer vector, After all the subprograms and the
+
+main program have been loaded, the loading program replaces
+
+the BCD data in the transfer vector(s) by transfer instructions
+
+to the subroutine-entry-points named.
+
+The CALL pseudo-operation says to the assembler, "The first
+subfield of the variable field is a name of a subprogram,
+If this name is not already in the transfer vector, place
+it there and define the name as a relocatable symbol in
+this program, whose value is the address of the transfer-
+vector-cell containing the name. In any case, generate
+
+a TSX operation whose address is the transfer-vector Cell
+containing the name, and whose tag is 4. The second
+
+subfield (if it exists) contains a symbolic expression
+
+-27-
+
+
+Reference
+to Subprogram
+via the "'$"
+
+which is a parameter; generate a tagless PZE instruction
+whose address is the value of this expression and do likewise
+for each succeeding subfield until the end of the variable
+
+field has been reached."
+
+Even when a program is entirely in symbolic language, it
+usually pays to break it up into several subprograms for
+debugging. In this way the component parts may be debugged
+separately, and replaced by binary decks as soon as they
+have been debugged. This procedure minimizes the amount
+of reassembly necessary for each debugging run. If a
+program uses voluminous tables, it is wise to make up a
+separate '"subprogram' containing only the tables, so
+
+that the tables do not have to be reassembled each time.
+For such purposes as this, it is useful to have a means
+of referring to subroutines other than the CALL pseudo-
+operation. Such means has been provided by the assembler,
+and consists of using the character "$", followed by the
+name of a subprogram, as a symbol in the variable field
+of a 709 machine operation. The "$'" in the variable field
+says to the assembler, "The following symbol is the name
+of a subprogram. If this name is not already in the
+transfer vector, place it there and define the symbol as
+a relocatable symbol in this program whose value is the
+address of the transfer-vector cell containing the name.
+Now assemble this instruction in the normal manner, and
+ignore the "$"." The "$" therefore need precede only the
+first reference to the subroutine, and is entirely un-
+necessary if the subroutine name occurs in the first
+subfield of the variable field of a CALL pseudo-operation.
+
+FE SN SD mmm ee— mt oss— ———— — —— ——————————
+
+of any instruction in which it occurs. It may be used
+
+—_ ———— LL ——————————————.  —— ————————————  —
+
+in the address subfield of the variable field of any 709
+
+machine operation but must not be used in the variable
+
+field of a pseudo-operation. As an example, suppose that
+
+
+. yy
+
+“ue
+
+a subprograin called TABLEl has been assembled and is
+present in the job as a binary deck. The following
+
+instructions might be used to set up a convert operation:
+
+LOCATION OP VARIABLE FIELD
+LXA STABLEL, 4
+SXA *+1,4
+CAQ 0,0,6
+
+Since the transfer-vector cell which had contained the
+
+BCD equivalent of "TABLEl" at assembly time, had been
+replaced by the loading program by a transfer operation
+with the address of the table, this sequence of instructions
+has the effect of getting the address of the table from the
+transfer vector, and storing this address in the address
+
+portion of the CAQ operation.
+
+-20-~
+
+
+SYSTEM CONTROL
+
+Program
+
+Identification Every symbolic program or subprogram must contain a
+FAP card as its first card. This card indicates to
+the Monitor that what follows is a symbolic program
+to be assembled (rather than a FORTRAN source program
+to be compiled). The FAP card contains the letters
+"FAP" in the field defined between columns 7-72 and
+an asterisk in column 1, The remainder of the FAP
+
+card must be blank. Note that no comments are permit-
+
+ 
+
+ 
+
+ted on the FAP card.
+
+COUNT The COUNT pseudo-operation gives an estimate of the
+number of cards in the symbolic deck. The assembler
+uses this estimate to place half the intermediate
+
+information on one tape and half on another. Thus,
+
+ 
+
+one of these tapes is in use while the other is re-
+winding. In order to know when half the information
+has been processed, the assembler must know the
+
+symbolic card count.
+
+The COUNT pseudo-operation follows the FAP card; its
+location field is blank and its variable field contains
+a decimal integer, an estimate of the number of cards
+
+in the symbolic deck.
+
+If no COUNT card is included, the assembler assumes a
+
+card count of 60,
+
+Program
+Termination Every symbolic program must be terminated by the pseudo-
+operation END, punched in the operation field. Comments
+
+may be punched in columns 17-80 only.
+
+The Program
+
+Listing The assembler prepares a listing of the program which
+
+30m
+
+
+contains the symbolic instructions in the order given
+together with the octal representation of the binary
+words generated. Errors detected by the assembler
+result in error flags. An error flag is a code letter
+placed in the left margin of the line containing the
+
+offending instruction. The code is as follows:
+
+Phase error or phase relocation error
+Reference to an undefined symbol
+Reference to a duplicately-defined symbol
+Undefined code in the operation field
+
+WO SCE ny
+
+Boolean error (non-Boolean symbol in a Boolean
+field)
+
+Relocation error
+
+Error in a data-generating pseudo-operation
+(DEC, OCT, BCl, BCD, or VFD)
+
+L Error in a literal
+
+Several features have been added to FAP to improve the
+assembly listing. If the card immediately following
+
+the COUNT card contains an asterisk in column 1, the
+contents of column 2-72 of this card will be printed at
+the top of each page of the listing, together with the
+page number, If the card following the COUNT card does
+not contain an asterisk in column 1, it will be treated as
+a normal operation or pseudo-operation, and only the page
+
+number will appear at the top of each page of the listing.
+
+The list-control pseudo-operations SPACE, EJECT, UNLIST,
+
+LIST, TITLE, and DETAIL have been added to the assembler.
+
+The SPACE pseudo-operation causes blank lines to appear in
+
+the listing. The value of the variable field is the number
+
+of blank lines to appear, except that if the value of the
+variable field is zero, one blank line will appear. The
+
+EJECT pseudo-operation causes the assembler to begin a new
+page. The UNLIST pseudo-operation causes the assembler to
+suspend listing until a subsequent LIST pseudo-operation is
+encountered. When UNLIST is in effect, any line which contains
+
+an assembly error will
+he
+
+
+BINARY
+OUTPUT
+
+ 
+
+ 
+
+be listed. The LIST pseudo-operation causcs listing
+
+to be resumed after an UNLIST,; if UNLIST is not in
+2offect, the LIST causes one blank line to appear, but
+
+has no other zffect. Normally, and after a DETAIL
+pszudo-opzration, all the machine cards generated by
+
+the generative pseudo-operations will be listed. (The
+gencrative pscudo-operations include BCD, BCI, DEC, OCT,
+DUP, and CALL.) The TITLE pseudo-operation causes
+suspension of listing of the words, other than the first
+word, generated by these pseudo-operations until a DETAIL
+pseudo-operation is oncountered. That is, when TITLE
+
+is in effect, only those lines will be listed which cor-
+respond to cards in the symbolic program deck. Note that
+
+DETAIL is the normal mode.
+
+Thz location field of a list-control psceudo-operation
+is ignored as in the variable field except in the case
+of SPACE. The list-control pseudo-operations are not
+
+themselves listed except for UNLIST.
+
+The normal mode of output for a relocatable (FORTRAN-type)
+assembly is column-binary cards that will be punched off-
+line. No off-line binary output for a relocatable assembly
+
+is produced if an error has been detected.
+
+In an absolute assembly, binary output is produced even
+
+if errors have been detected.
+
+Row-binary and column-binary cards may be produced on-
+line if appropriate FORTRAN Monitor Control Cards precede
+
+the FAP Monitor Control Card.
+
+As
+3
+J
+
+La
+
+
+ABSOLUTE
+ASSEMBLIES
+
+APPENDIX
+
+An absolute assembly feature has been added so that FAP
+may be used to assemble programs that will be run outside
+
+the FORTRAN Monitor.
+
+Absolute assemblies are specified by the ABS pseudo-
+operation. ABS must appear in the operation field, and
+this card must appear just after the FAP card at the
+
+beginning of the assembly.
+
+In an absolute assembly, the following pseudo-operations
+
+are not permitted: COMION, ENTRY, and CALL.
+
+The following pscudo-operations, not permissible other-
+wise, may be used: ORG, HEAD, HED, and TCD. The form
+of END is modified.
+
+ORG is used to set the next location to be assigned by
+the assembler to a desired value. DBlanks or a symbol
+may appear in the location field, ORG in the operation
+field, and a pre-defined expression in the variable field.
+The symbol in the location field is defined to have the
+value of the expression in the variable field. The value
+of the expression in the variable field is taken by the
+
+assembler to be the next location assigned.
+
+The HEAD and HED pseudo-operations make it possible to
+prefix each symbol of a section of program by a "heading"
+character. Using different heading characters in two
+sections of programs removes any ambiguity as to the
+definition of a symbol. All symbols of 5 characters or
+less following a HEAD or HED pseudo-operation are pre-
+
+fixed by the '"heading' character until another HEAD or
+
+HED is encountered. Six character symbols are immune
+
+33
+
+
+from heading.
+
+The form of the HEAD pseudo-operation is: blanks in the
+location field, HEAD in the Operation field, and a single
+
+character (letter Or digit) in the variable field.
+
+The form of the HED pseudo-operation is: the heading
+character (lettor Or digit) in column 1 of the card, HED
+
+in the operation field. The variable field is ignored,
+
+For both HEAD and HED pseudo-operations, a blank heading
+character on the card is taken by the FAP assembler to
+
+be the heading character zero,
+
+The dollar sign, "$", is used in a special way in order
+to make references from one headed section of a program
+to another headed section. The dollar sign separates the
+heading reference from the symbol; no heading reference
+is needed when referring to a zero, or unheaded, section,
+For example, A$X refers to the symbol x in the A-headed
+
+section, and $X refers to X in the unheaded Section,
+
+The TCD Pseudo-operation is used to cause the punching
+of a binary transfer card before the end of the binary
+deck. TCD must appear in the Operation field, and a
+symbolic expression designating the point of transfer
+
+must appear in the variable field,
+
+and for absolute assemblies cause the punching of a binary
+transfer card. END appears in the operation field and a
+symbolic expression representing the point of traisfer in
+
+the variable field.
+
+-34-
+
+

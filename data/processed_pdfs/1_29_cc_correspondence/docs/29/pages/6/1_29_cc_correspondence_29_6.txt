@@ -1,0 +1,59 @@
+—_—_——
+
+ 
+
+,ding and "debugging" are not completed, can you give an
+_imated date of completion?
+
+ 
+
+Lf the program has been "debugged" has the output been com-
+pared with field test data? [ |Yes| |No
+
+(a) If yes are program results valid? [:]Yés [:]No
+
+(b) If the computer results have not been tested,
+do you intend to carry out a testing program at
+some later date? E__]Yes l:)No If yes, when?
+
+Is a writeup of the computer program available? | lYes ‘ ’No
+(If yes, please enclose a copy with this questionnaire.)
+
+Have the results of the field testing been written up?
+i lves| INo (If yes, please enclose a copy.)
+
+Do you plan to initiate further research in highway traffic
+simulation? I___lYes |__{No
+
+If yes, please describe briefly.
+
+ 
+
+ 
+
+ 
+
+On the next page are the agencies to whom this questionnaire
+has been submitted. If there are other agencies which might
+be writing traffic simulation programs please add the names
+and addresses in the blanks below:
+
+Name Address
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Thank you for your cooperation.
+
+ 
+
+_ 4 e R L

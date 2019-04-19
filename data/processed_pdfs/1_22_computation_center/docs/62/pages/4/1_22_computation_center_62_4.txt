@@ -1,0 +1,66 @@
+oy
+
+in devising algorithms for the solution of problems of game
+theory, also of potential importance in these areas.
+
+2. General studies of the use of machines in the
+i By storage and translation of information have already been started
+iy R at M.I.T. A project in wachine translation has already been set
+
+A AT s
+
+up, under the direction of Professor Locke of the Language Depart-
+ment. As it develops, it will need the help of machine programming
+specialists and will need the use of a machine to test its ideas.
+The translation project 1s already supported by the Rockefeller
+Foundation, but parallel work by the Computation Center on tech-
+niques for rapid access to large-quantity data would help this work
+as well as others. For example, a study of the use and operation
+of the M.I.T. libraries was begun last year. At present, the study
+is concerned with the ways the library is being used at present,
+
+but it 18 expected to move on to the consideration of possible im-
+provement of library operation and extension of it3 use as a re-
+search tool In science and engineering. One promising direction
+
+of investigation is in the application of machine techniques to
+library inventorying, cataloguing, and record-keeping. Although
+speclal-purpose machines will probably be required in the end, many
+ldeas and procedures can be developed and checked out on the general-
+purpose machine at the Center with the addition, perhaps, of some
+specially built input and output equipment. The staff of the M.I.T.
+Library is interested in this work, and will contribute its knowl-
+
+edge to its progress.
+
+3. A digital computer can be used as an integral part
+
+of many experiments in the soclal sciences. It can be used to
+simulate certain operational situations and thus to provide data
+rapidly and under controlled conditions. [IFor example, automoblle
+traffic distributes itself through the streets of a town according
+to some minimization principle, on the average. It should be
+possible to simulate this flow on the computer, trying different
+assumptions as to the effective "street resistances" and measuring
+the resulting flow under various trafflic stresses to see how closely
+the results check with measurements made in the Boston streets by
+the Traffic Study Group already in operation in the Civil Engineering
+Department at M.I.T. Tactical situations 1n warfare are already
+being studied by "gaming techniques" at Rand and in other military
+operations research groups. JSimilar tactical problems in various
+fields of the social scilences can also be studled by simplifying
+the situation down to some sort of "game," with more or less com-
+licated rules, which can be played by groupg of investigators, to
+see what are the consequences of various strategies. If the “"games"
+are to correspond, even distantly, to some actual soclal situation,
+the rules must be gquite complicated and the scoring will require
+a great deal of statistical computation. It has been found that
+only by the use of computing machines can the scoring be speeded
+
+Ffficiently so that enough games can be run through to provide
+
+up suiirilicliencd
+
+{‘
+
+&

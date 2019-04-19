@@ -1,0 +1,52 @@
+PART I. PROGRAMMING NOTES
+
+ 
+
+ 
+
+I. INTRODUCTION
+
+The FORTRAN-FAP Lionitor for the 709 is an extension of the 709 FORTRAN
+system and can do more than compile and assemble. It permits the
+
+following operations:
+
+1. FORTRAN compiling.
+
+2 FAP (FORTRAN Assembly Program) assemnbling.
+
+3. ELxecution of object programs.
+
+4 Execution of programs in links—a procedure necessary
+where the total program is too large to fit into storage
+and a link is a section of it which does fit into
+
+storage.
+
+Input to the lonitor System consists not only of FORTRAN subprograms
+
+but may include the following as well:
+
+1 Monitor control cards.
+
+2 FAP symbolic subprograms.
+
+3. Object subprogramnm binary cards.
+4
+
+. Data cards.
+
+The relative order of a series of different types of input (exclusive
+of data cards) does not matter provided that each separate deck, whether
+source program, object program, etc., is preceded by the appropriate
+
+control cards.
+
+The FORTRAN compiler proper may be considercd a subsection of the
+Monitor. Under FORTRAN control, a single source subprogram may be
+compiled. Nothing further, including execution, can be done. 1f
+multiple-compilation of a series of FORTRAN source prograims is desired,
+
+Monitor control 1s required.
+
+0D

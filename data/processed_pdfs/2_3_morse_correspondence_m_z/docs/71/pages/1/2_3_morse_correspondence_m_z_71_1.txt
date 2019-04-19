@@ -1,0 +1,49 @@
+e 3 :v,——,.n"_vu-n Y - ’mw” N - T ety - VL. WEN TR - -~
+3 X
+
+ 
+
+w \‘ \é J" &_&vg‘ o e i e
+
+31 August 1956
+
+Dr. Edwin Eopley
+
+International Business Maschines Corporation
+590 Madison Avenue
+
+New York 22, New York
+
+Dear fd:
+
+During the 70L course here at M.I.T., 1 discussed with Dr. Hunter and
+yourself the possibility of a fellowship and computer time being available
+to Mr. Pleter Wiersema, graduate etudent at the University of Utrecht in
+the Netherlands. I spent the academic year 1954<55 at Utrecht at the
+invidetion of Professor J. The G, Overbesk, setting up a program of digital
+computer applications in the field of Colloid Science. During this year,
+Wiersems was my assistant, end after my departure, he has carried on the
+research as part of his FPhoD. program. He is one of the first Dutech
+scientists not himself on the stalf of a computer center to learn coding
+and to apply the compuier to his field, the computer used being the ARRA
+of the Mathematical Center in Amsterdam. It would be to Wiersema's advantage
+to spend a year here at M.I.7. getiing acquainted with more advanced computers,
+specifically with the 70L. In turn, I.B.M. would benefit from the training
+a Buropean scientist could get here in applying a 704 to his problem.
+Haturally, this communication is a preliminayy oneg I would have to check
+with Professor (verbeek as to whether he would approve of having Wiersema
+do part of his Ph.D. work at M.I.T. I imow that in the past he has been
+happy to make such arrvangersnis. As & member of {he Electrical Ingineering
+Faculiy, I would be very agreeable Lo supervise the work done here. In
+oxder to spare him possible dissppointment, though, I will not apprvach
+Wergsema until I hear from you regarding the feasibility of a fellowship.
+
+Srieily, the prcblems involved concern ths sclution of a considerabls
+number of simultaneous differential equations, some non-linear, by relaxation
+methods. The physical system congists of a highly charged collcoid particle
+surrounded by an electrolytic solution, the whole being subjected %o an
+external elegiric field. When the veloeity of a colloid partiecle in such an
+enviroment is measured, the stability of the colddal system can in principle
+be predicted, but the caleulastion invelvad is too complex to be perfoemsd
+without electronic computers. The first phsse of the program, namely the
+caleulation of the potential and chargey distribution around the partisle

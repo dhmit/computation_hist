@@ -1,0 +1,41 @@
+¢, Race
+
+d, Relatiomship to household head
+
+e, MNarital status
+In February of each year, om the other hand, work experience
+during the previous year is recorded and in March income and
+the characteristics of the individual's family are recorded,
+Last March, education was recorded for the first time,
+
+2, Not only are the February and March questionnaires richer
+
+individually, especially the questiomnaires of 1957, but
+the informatiom on the three quarters of the sample which
+persists between successive months is collated so that we
+have work experiemce, education, and income as well as an
+extended list of demographic variables for about 60,000
+individuals 14 or over,
+
+The fourth aspect of the investigation is the statistiecal
+techanique to be used, This is to consist primarily of what is essentially
+an analysis of variamce, though the actual computational procedure is a
+form of multiple regressioa which does not assume linearity or additivity,
+The procedure is being programmed for the IBM 704, Purther description
+and an illustration are givem om pages 31-33 of the attached paper,
+Professor Orcutt has consented to provide advice on statistical matters,
+
+Because of the nom-disclosure regulations governing the Bureau of
+the Census, it is not possible to obtaim copies of the 1957 Curremt Popula-
+tion Survey tapes referred to abowve, However, the Bureau has indicated
+willingness to pumnch cards from these tapes according to our specificatioans
+and to cross classify these by various desired combinatioms of seven or
+eight variebles, Simultaneous cross-classification by more tham this
+number of variables would result in too many empty cells, The major
+disadvantage of this limitation may be mitigated, however, by judiciously
+selecting the combimations of variables so that those betweea which we
+suspect sigaificaat interactiens may be treated simultaneously, In this
+way we may aveid the necessity of assuming additivity of effects where
+the assumption appears clearly unwarranted, It is hoped that the imves-
+tigation of the data referred to on pages 22-27 of the attached paper,
+which is currently underway, will throw some light on the relative significaace

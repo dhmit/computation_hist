@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- favicon --> 
+    <!-- ... currently nothing! this is just here to keep the browser from looking for a favicon and getting a 404 -->
+    <link rel="icon" />
+
+    <!-- bootstrap styling -->
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ static('css/styles.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ static('css/acre_font.css') }}" type="text/css">
+    <title>{% block title %} Computational History {% endblock %} - MIT Computation Center Archives</title>
+    <link href="https://getbootstrap.com/docs/4.2/examples/starter-template/starter-template.css" rel="stylesheet">
+
+    {%  block extraheader %}{% endblock %}
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="/">Computational History</a>
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
+                data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="navbar-collapse collapse" id="navbarsExampleDefault" style="">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white" href="#"
+                       id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                       aria-expanded="false">
+                        Archives
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item"
+                           href="/archives/browse"><span
+                                class="dropdown-link">Browse</span></a>
+                        <a class="dropdown-item"
+                           href="/archives/list/person"><span
+                                class="dropdown-link">People</span></a>
+                        <a class="dropdown-item"
+                           href="/archives/list/folder"><span
+                                class="dropdown-link">Folders</span></a>
+                        <a class="dropdown-item"
+                           href="/archives/list/organization"><span
+                                class="dropdown-link">Organizations</span></a>
+                    </div>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/simulations">Simulations</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/archives/advanced_search">Advanced Search</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0" action="/archives/search_results">
+                <input class="form-control mr-sm-2" type="text"
+                       placeholder="Search"
+                       aria-label="Search" name="q">
+                <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+<main role="main" class="container mb-4">
+    <div class="starter-template">
+        <h1 >{% block header %}{% endblock %}</h1>
+        {% block content %}
+        {% endblock %}
+    </div>
+</main>
+
+
+<!-- js -->
+{% block footer %}
+<footer class="footer bg-white text-dark text-center">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-4 py-3">
+                <a href="https://digitalhumanities.mit.edu/">
+                    <img src="{{ static('img/dh_logo.png') }}"
+                         class='footer-img'
+                         alt='Digital Humanities at MIT Logo'/>
+                </a>
+            </div>
+            <div class="col-4 py-3">
+                <a href="https://www.mit.edu/">
+                    <img src="{{ static('img/mit_logo.svg') }}"
+                         class='footer-img'
+                         alt='MIT Logo'/>
+                </a>
+            </div>
+            <div class="col-4 py-3">
+                <a href="https://www.mellon.org/">
+                    <img src="{{ static('img/mellon_logo.svg') }}"
+                         class='footer-img'
+                         alt="Mellon Foundation Logo"/>
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+{% endblock %}
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+    {%  block scripts %}{% endblock %}
+</body>
+</html>

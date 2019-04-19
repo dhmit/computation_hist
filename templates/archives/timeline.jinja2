@@ -1,0 +1,16 @@
+{% extends "base.jinja2" %}
+
+{% block title %}
+Timeline
+{% endblock %}
+
+{% block self %}
+Documents over Time
+{% endblock %}
+
+{% block content %}
+{% for document in documents %}
+    <a href="/archives/doc/{{ document.slug }}">
+    {{ document.date }} - {{ document.title }} </a> <br/>
+{% endfor %}
+{% endblock %}

@@ -1,0 +1,30 @@
+— L G R
+
+cC-28 Pagé ;
+Similarly for all the other progranms. e it
+goes into = prog » The Jjth program
+1400 + 3T L
+8 i=]1 i
+et seq.
+
+It will be left as an eéxercise for the reader to
+devise ways to use this loader to load programs not nominally
+starting at 0. We offer only these cryptic remarks:
+
+l. One may put Two or more control cards together
+With no intervening information cards.
+
+2. Negative addresses are 2's complements.
+
+5. The amount by which the program followi the
+next control card will be relocated is stored iIn 1368 and may
+be changed by a suitable absolute binary information card.
+
+4. An annotated copy of the loader is available for
+inspection at the author's office, Room 26-261.
+
+Signed: A
+
+eldon I, S
+
+SFB:n

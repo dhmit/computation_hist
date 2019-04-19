@@ -1,0 +1,47 @@
+<html>
+<head>
+    <title>Developer Sheet</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="floatpoint.css" />
+    <script src="floatpoint.js"></script>
+</head>
+<body>
+    <h1>Floating Point Numbers</h1>
+    <p>Computers such as the IBM-704 store real numbers in a format called floating-point.
+        The floating point format allows computers to store and perform arithmetic upon
+        numbers of diverse magnitudes with appreciable precision. A floating point system is
+        defined by two numbers: the Base and the Precision (The base is sometimes called the
+        radix).</p>
+    <p>A real number represented as a floating point itself has two parts: a Significand and
+        an Exponent. </p>
+    <p>To demonstrate, let us examine how a number is represented with Base 10 and Precision 3</p>
+
+    <h3>Please input a number and hit "Load Number":</h3>
+
+
+    <input type="number" id="inputNum" value="0">
+
+    <button id="load_number_operation" class="btn-lg btn-primary">Load Number</button>
+
+    <h4>Your number is: <br> <span class="loadedNumber" id="loadedNumber_0"></span></h4>
+
+    <p>This number would be stored as a floating point with Significand <span class="significand"
+                                                           id="significand_0"></span> and
+        Exponent <span class="exponent" id="exponent_0"></span>.</p>
+
+    <p>This floating point corresponds to the number: <span class="reconstructedNumber"
+                                             id="reconstructedNumber_0"></span></p>
+
+    <p>(Note that there may be a discrepancy between your actual number and how it's represented.
+        There is an error of the size: <span
+            class="loadedNumber" id="loadedNumber_1"></span> - <span
+            class="reconstructedNumber" id="reconstructedNumber_1"></span> = <span
+            id="error"></span>)</p>
+
+
+
+</body>
+</html>

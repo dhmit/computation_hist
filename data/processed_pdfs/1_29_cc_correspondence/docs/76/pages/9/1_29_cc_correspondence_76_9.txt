@@ -1,0 +1,46 @@
+——
+
+V. MONITOR CONTROL CARDS
+
+All Monitor control cards must have an "*" in column 1. With the
+exception of the I. D. card, the specific control instruction of
+the card is punched in columns 7-72. Punching may be done accord-
+
+ing to normal FORTRAN rules, which means that blanks are ignored.
+
+1. Governing the Job as a Whole; Type 1 Control Cards.
+
+a. I. D. Card. This card must always be the first card of
+any job. It may have anything in columns 2-72 that the
+installation's Sign-On Record is prepared to process.
+
+b. XEQ. This card must follow the I. D. card of a job which
+is to be executed.
+
+c. DATA. This card must be placed at the end of the physically
+last program of a job to be executed, preceding the data,
+if any, for that job. It is not needed for non-execution
+jobs.
+
+d. CHAIN (R,T). This card is used to separate links within
+a single Chain job, by specifying the tape on which the
+link object program is to be stored for execution. It
+must precede the physically first program (or subprogram)
+of each chain link, regardless of whether the program is
+a source or object program. R is a fixed point number
+greater than O but less than 32768 denoting an identifying
+label for the tape record which contains the link. Thus
+R is the record indicator on a tape designated by T literally
+
+either Bl, B2, or B3, (hot the logical tape units).
+
+2. Governing Compilation of Individual Programs; Type 2 Control Cards.
+The END statement for programs to be compiled by the Monitor need
+not have options specified following the word END. It should be
+only
+
+END.
+If no specifications are given in the END statement or in Monitor
+Control Cards for a FORTRAN compilation, a standard output is
+
+produced.

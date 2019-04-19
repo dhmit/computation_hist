@@ -1,0 +1,36 @@
+repeatedly while the others are executed once only, then
+it should be on a separate tape to minimize tape backspace
+and search time. If one tape only is desired for chain
+links, we suggest it be Bl, since all links go onto Bl
+
+first as a result of Monitor processing.
+
+4, Programming for Chain Problems.
+
+a. Data and Common. Data may be passed from one link to
+another by means of COMMON. Therefore, when it is
+intended that data be used by the programs of two or
+more links, the appropriate COMMON and EQUIVALENCE
+statements must be written. If a link, A, in cores
+is overwritten by the next link in sequence, the next
+time link A is read in for execution, it will be in
+the same form it was before its first execution. This
+means that any program modification or storage of non-
+COMMON data resulting from the first execution will
+not exist for the second execution. In this connection,
+it should be mentioned that FORTRAN compiled programs
+
+do not cause program modifications.
+
+ 
+
+b. Relative Constants. (For a description of this term,
+see 709 FORTRAN Reference Manual.) As in the case of
+main programs and subprograms within a link, relative
+constant values may be passed on from one link to
+another merely by placing them in COMMON. This means
+that if I is used as a subscript in one link and its
+value is defined in another, the appropriate COMMON
+entries will assure the proper subscript values at
+
+the time the subscript is used.

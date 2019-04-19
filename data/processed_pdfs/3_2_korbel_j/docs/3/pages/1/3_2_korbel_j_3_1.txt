@@ -1,0 +1,42 @@
+Proposal for a Statistical Investigation of Labor Force Participationm
+and Mobility to be completed by September 30, 18358,
+
+This request is for $23,805 to finamce a study of the labor force
+participation responses of imdividuals, The object would be to estimate
+the probabilities that individuals would emter, remain in, depart from
+or remain out of the labor force under various combimations of circum-
+stances or inputs, The inputs to be considered would include the demow
+graphic and economic characteristics of the individual and his family;
+his past status with respect to labor force participation; aad certain
+characteristics of his environment such as region, urbanization and the
+state of labor demand,
+
+These estimates would be used to implement the Momte Carlo type
+gsimulation of the United States social-economic system proposed by Orcutt.1
+Such a simulation requires large numbers of parameters or sets of operating
+characteristics describing the behavior of the imdividual decision-making
+components of the system, These operating characteristics are the
+probabilities of various types of response or ~outputs’ under various sets
+of prior circumstances, stimuli or "imputs’,
+
+Besides serving the Orcutt model, such & multivariate statistical
+investigation would also have valuable by-products, Due to the simul taneous
+action of the variables referred to above upon labor force participation and
+turnover, it has beem extremely difficult to disenangle their iafluemces,
+Published tabulatioms relating to labor force participation and gross flows
+into and out of the labor force have not beem sufficiently cross-classified
+to sustain the necessary statistical analysis, The funds being requested
+would be used primarily for covering the expense of finer cross classifications
+of Curremt Population Survey results tham have heretofore been carried out,
+Multivariate statistical analysis applied to such cross-classifications
+would isolate the several influences and their interactioms so as to
+alleviate the necessity for coming to comclusiomns such as the following:
+"whether the well-educated woman who marries and has childrem is more or less
+
+likely to be employed than the mother who has less educatiom is mot knovn."2
+e e e e
+
+1 Guy H, Orcutt, "A New Type of Model of a Socio-Economic Systea,” Review
+of Economics and Statistics, May 1837,
+
+2 Vomanpower, National Manpower Council, p, 73,

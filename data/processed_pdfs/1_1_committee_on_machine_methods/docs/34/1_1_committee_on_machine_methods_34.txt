@@ -1,0 +1,53 @@
+Te
+
+ 
+
+COMMITTEE ON MACHINE METHODS OF COMPUTATION
+Minutes of the Fourth Meeti
+Academic Year 52-53
+
+Persons Present: G. S. Brown, S. H. Caldwell, J. W. Forrester,
+ERT C. C. Lin, P. M. Morse, and F. Verzuh.
+
+The meeting began with the discussion of the case of
+Mp. Benington, who appears to desire to transfer from Mathematics
+to Electrical Engineering.
+
+On Professor Brown's arrival, the talk then turned to
+the problem of courses in machine computation in the Electrical
+Engineering Department. After some discussion there was fairly
+general agreement that there was need for several "service courses”
+which would acquaint men who did not intend to design machines with
+enough details about machine properties for them to be able to use
+machines. The feeling was that more detail was needed in such a
+service course than could be given in one term. The suggestion was
+that perhaps the proposed one-term course of Scott-Adams-Verzuh
+be expanded into & two-term course available for seniors and graduate
+students, which would include enough material on punch card equip-
+ment to constitute a good introduction to this subject, as well as
+an introduction to the properties of analogue and digital computers.
+This course plus the eventual one-year course in the Mathematics
+Department on numerical analysis should provide a solid background
+for the use of machines or as preparation to more advanced courses
+on machine design.
+
+The more advanced courses on machine design were not dis-
+cussed in any detail: it was considered that such courses were
+primarily the problem of the Electrical Engineering Department and
+that this depertment had them well in hand.
+
+at
+3 p.m. The suggested agenda would be a discussion oi the present
+assistantship program and a consideration of possible modification
+
+in next year's program.
+TEN Mgvas
+
+Chairman
+
+The next meeting will be Wednesday, Janus 1 ?
+
+PMM: 8b
+12-3-52 (Meeting)
+
+

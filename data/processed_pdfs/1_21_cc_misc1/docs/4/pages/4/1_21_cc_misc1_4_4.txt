@@ -1,0 +1,42 @@
+Why the Institutes of Calvin? Not only is this perhaps the
+chief Protestant work in the shaping of modern Christian thought;
+it is also a faithful if selective compend of Scriptural, Patristic,
+and Scholastic tradition as well. Thus it is a logical starting point
+in a fresh assessment of the whole of Christian thought. Calvin's
+Latinity spans the Latinity of the Christian era, and his Christian
+humanism embraces both the Greek and Roman past, A Concor-
+dance to the Institutes will lead not only to a completer understand-
+ing of Calvin and the Calvinist tradition, but it will also help to un-
+cover the various substrata of the Reformation itself., Coupled
+with concordances to his tracts, commentaries, letters, and pos-
+sibly sermons--to be compiled subsequently-=-such an instrument
+will be of immense value,
+
+The concrete notion of a Calvin Concordance actually grew
+out of conversations between Professor Otto Weber of the University
+of Goettingen and the present writer in 1963. It is actually a first
+step in the preparation of a definitive Commentary on Calvin's In-
+stitutes, a project long dreamed of by both scholars and now ha:;pily
+to be the object of their collaboration. The usefulness of the Con-
+cordance in making the Commentary will be obvious to all.
+
+I1
+
+Upon his return to the United States, the present writer be-
+gan to study the feasibility of preparing, by computer, a concordance
+to the Institutes. The area of Hartford, Connecticut, is particularly
+rich in computer installations, both in universities and in business
+firms. Besides considerable correspondence, there has been con-
+sultation with Robert Singleton, Director of Projects for the College
+of Quantitative Studies at Wesleyan University; with Professor W,
+Nelson Francis and collaborators in the American English Syntax
+Project at Brown University; with Philip Chase of the Buxton Leather
+Co.; and with Russell Leinbach, Vice President in charge of data pro-
+cessing at the Travelers Insurance Company. Through the good
+offices of Mr. Leinbach and of Dr. Thomas Malone, Mr. Leon W.
+Case III of the Travelers has agreed to collaborate with the initiator
+as computer specialist for the project. It is from these preliminary
+studies that the present paper has been written.
+
+The application of the electronic computer to the immediate
+task is essentially simple. The enormous bulk of the Institutes

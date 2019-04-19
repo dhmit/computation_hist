@@ -1,0 +1,31 @@
+Suggested catalog description for first course: Numerical Analysis I:
+
+Theory and practice in polynomial approximation,
+interpolation, numericsl differertlation, numerical integration,
+and approximate solution of ordirary differential equations,
+Including error snalysis, with perticular emphasis on methods
+adaptable to digital computing mechines. Prevrequisite: M351
+
+Tentative description of possible second course: Numerical Analysis II:
+
+selected topies relative to applications of finite-
+difference methods, and related rethods, to partial differential
+equations, especially to second-order equations of elliptie,
+parabolic, and hyperboliec type, with particular emphasis on
+problems of convergence, stability, and error estimation.
+Prerequisite: NA I, M39
+
+Topics suitable for inclusinn in second gourse:
+
+Inversion of matrices of high order (convergence of
+iterative methods of various types). Convergence of iterative
+difference methods applied %o elliptie differential equations;
+error estimates; use of sub- and superhermonic functions on a
+net; numerical methods applied teo conformal mapping and use of
+orthogonal functions. Stability and convergence of difference-
+equation approximations to linear and quasi-lineayr parabolic
+equations. Convergence problems and use of characteristics in
+connection with hyperbelic eqguations. "Rardom wall" problems
+"Monte . Cario® methods.
+
+°

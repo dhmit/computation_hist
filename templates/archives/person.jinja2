@@ -1,0 +1,80 @@
+{% extends "base.jinja2" %}
+
+{% block title %} {{person_obj.first}} {{ person_obj.last }} {% endblock %}
+
+{% block header %}
+    {{person_obj.first}} {{person_obj.last}}
+{% endblock %}
+
+{% block content %}
+
+    {% if document_written_objs %}
+        <h3>Wrote:</h3>
+        <br>
+        <table class="table">
+            <thead class="thead-dark">
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Document Name</th>
+
+            </tr>
+            </thead>
+            <tbody>
+            {% for item in document_written_objs %}
+                <tr>
+                    <th scope="row">{{ loop.index }} </th>
+
+                    <td><a href="/archives/doc/{{ item.pk }}">{{ item }}</a></td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    {% endif %}
+
+    {% if document_received_objs %}
+        <h3>Received:</h3>
+        <br>
+        <table class="table">
+            <thead class="thead-dark">
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Document Name</th>
+
+            </tr>
+            </thead>
+            <tbody>
+            {% for item in document_received_objs %}
+                <tr>
+                    <th scope="row">{{ item.id }} </th>
+
+                    <td><a href="/archives/doc/{{ item.pk }}">{{ item }}</a></td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    {% endif %}
+
+    {% if document_cced_objs %}
+        <h3>Cced on:</h3>
+        <br>
+        <table class="table">
+            <thead class="thead-dark">
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Document Name</th>
+
+            </tr>
+            </thead>
+            <tbody>
+            {% for item in document_cced_objs %}
+                <tr>
+                    <th scope="row">{{ item.id }} </th>
+
+                    <td><a href="/archives/doc/{{ item.pk }}">{{ item }}</a></td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    {% endif %}
+
+{% endblock %}

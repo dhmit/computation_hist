@@ -1,0 +1,26 @@
+page 6
+
+Instructop in charge; Hildebrang
+
+PrerequiSite: M351-Adv, Cale. for
+gineers
+
+practioe 11 polynomig] approximation, interpolation,
+Numericg] integration, and approximation
+nary differential ®Quations, including error analysis,
+
+with Particular €mphasis on methods adaptable tq digita] computing
+machines,
+
+   
+ 
+
+R.215 Numerica] Analvysis Instructor in charge: g.H. Crandall
+hours: 3-0=Q (=3 units) Prerequisite: M352-adv. Cale. for
+Engineers or M37-
+
+ics, electrie networks, vibrations, heat transfer, elaétioity,
+ﬁgggigiigy: acoustics, electro-magnetisms.COmPr?SSible fluid flow, etc.
+Study of iteration, relaxation, pep ciopation, finite difference o
+variational metlods., Brief description of >omPuting equipment with
+inspection tours of large-scale computing machines,

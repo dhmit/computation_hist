@@ -1,5 +1,5 @@
 dh_testers
-django>=2.1
+django==2.1.8 
 django_jinja>=2.4.1
 google-api-python-client
 ipython
@@ -11,11 +11,13 @@ numpy
 oauth2client
 pandas
 pdf2image
+psycopg2-binary==2.8.2
 pylint
 PyPDF2
 requests
 scipy
 seaborn
+selenium
 pytesseract
 opencv-contrib-python
 Pillow

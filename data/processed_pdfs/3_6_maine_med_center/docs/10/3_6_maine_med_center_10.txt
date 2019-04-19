@@ -1,0 +1,251 @@
+= Lf on fiTaid Jeheipro fo pois ad fh AIEE IRE." T5A
+_— Hiriehlis Hov. (754
+
+A MULTI-CHANNEL ANALYZER FOR HEART POTENTIALS
+
+CeVe Nelson, Ph.D.
+A.F. Wilkinson
+and
+LeW. Bowles, MeSe
+
+Cardiology Research Laboratory, Maine Medical Center, Portland, Maine; and Dept. of
+Electrical Engineering, University of Maine, Orono, Maine.
+
+A concept frequently used in electrocardiology is that of the "heart-vector”,
+"his may be defined as the resultant vector of all the individual current sources and
+sinks in the heart. Another concept is that of the "equivalent dipole", which, as we
+understand it, is the single dipole which could be substituted for the heart genera-
+tor without altering the potential distribution on the body surface. From this point
+of view, the resultant dipole is not necessarily synonymous with the equivalent di-
+poles That is, although there may not always be an equivalent dipole, there must
+always be a resultant dipole, by definition. If the sources and sinks, or groups of
+these, are too widely dispersed throughout the heart volume, the resultant dipole
+may not have much physiological significance, but it must exist, nevertheless,
+
+It has been shown (1) that the resultant dipole moment M of a system
+of sources and sinks inside a volume conductor can be found by an integration over
+the bounding surface of the conductor. In the general case, one has the sum of the
+integrals of potential and of normal current. If the surface is metal, potential V
+is constant, and normal current only is integrated. If the surface is insulating,
+however, ln=c, and it is necessary to integrate potential only. The latter case ob-
+
+viously applies to the human body, and we have
+
+f1=-Jhvy ds (1)
+
+     
+
+#Established Investigator of the American Heart Asscciation. This project is
+
+supported by grant no. H=2590 from the National Heart Institute, U.S. Public Health
+Service.
+
+
+waere n is a unit normal vector, and /5 is an element of surface. The theory
+holds for a volume of any shape, but simplifications can sometimes be obtained if
+a geometrical figure is used. For the human body, if we assume that the trunk has
+the shape of a right cylinder of elliptical or any other cross-section, then Mx
+
+and My are given by integrations over the walls only, and Mz by an integration over
+
+the top and bottom surfaces. We have then
+
+Mx = A JTV dy dt 2d [JV iw MSE (2)
+My coh [Vide dz = 4 J) vac 682 (3)
+
+Me = & Jf V de dy (+)
+
+So far we are unable to find Mz by this method, since the head and legs
+are poor approximations to parallel plane surfaces. In order to determine Mz with
+MX and My given, it is only necessary to find the vertical angle of the vector, and
+
+this can be found approximately by means of Kinthoven's equation or by some similar
+
+vector method.
+
+FIGURE 1
+
+ 
+
+For a cylinder, equation (2) can be evaluated by measuring the potential
+distribution around the cylinder at a given horizontal level. © is the angle between
+the normal to the surface and the #X axis. The integral of V ces @ Jf is evaluated
+for a number of horizontal levels and these values are plotted against Z . The
+area under this curve is the required double integral, M is found from eq. (3)
+
+in a similar manner,
+
+
+In carrying out this procedure we use a belt containing 20 chlorided
+silver electrodes, each 1 cm in diameter. The belt is fastened around the sub-
+Jects! chest at a given horizontal level, and the electrocardiograms taken. We
+use dual-beam oscilloscope display and a Grass camera, so have adequate sensitivity,
+resolution, and frequency response in the records. A standard lead, such as limb
+lead 1I, is taken simultaneously with each chest lead. If 5 different levels are
+measured, we end up with 100 records. It is then necessary to choose a certain in-
+stant of time, such as that corresponding to the peak of the R wave of the standard
+lead, and to measure the deflections from all the records at this time. From these
+data, the curves are plotted and the integrations performed. This process gives
+values of Mx and My for one instant of time. We then have to choose other points
+on the standard lead and repeat the whole process in order to get a complete pic=-
+ture of Mx and My during the cardiac cycle. The situation is actually even worse
+than this, because there will be slight differences between successive electrocar-
+diograms from the same lead, and one should take the average of 3 readings for
+greater accuracy.
+
+We are also using the method to determine the heart-vector of animal
+nearts suspended in a spherical plastic chamber. A rabbit heart, for example, is
+suspended in the sphere on the end of a perfusion cannula. &lectrodes are mounted
+on the inner surface of the sphere at 30° intervals. The sphere is also filled with
+fluid, and the entire assembly is immersed in another lucite chamber which has pro-
+vision for circulating fluid for temperature control. By measuring electrocardiograms
+from all 62 electrodes, we can find the three-dimensional heart-vector in magnitude
+and angle. By using the 2nd moment, and taking another surface integration, the
+
+location of the resultant dipole can also be found.
+
+
+It is evident that some form of multi-channel analyzer or computer would
+be helpful in this project, to say the least. Analyzers for bioelectric potentials
+have been developed by others (2-L), but we decided to design our own to suit the
+particular requirements of the method described. In addition, we wished to use a
+different type of data display. A block diagram of the analyzer is shown in Figure
+2. Twenty circumferential leads are connected to individual balanced preamplifiers.
+The amplified signals are then applied to an electronic commutator with a scanning
+rate of 1 KC or a sampling rate of 20 KCo A 20 KC crystal-controlled master oscillator
+is used to drive the commutator. The composite commutator output is applied to a
+broadband amplifier and thence to an FM tape-recorder (Ampex FR-1100). A 2nd transe
+pert is used in order to get a playback-to-record ratio of 1/128. The data is then
+sufficiently slowed down so that it car be applied to a cathode-ray oscilloscope
+and photographed. Our final result then consists of 1000 graphs per second of poten-
+tial as a function of electrode distance. These graphs canhot only be used in de=-
+termining the resultant dipole moment, but also show details of the heart's electrical
+activity as it appears on the chest wall. Eventually we hope to add circuits which
+will multiply the potentials by the contour factor, such as ¢€¢5 © and sin €, and
+also perform the integrations. The front end of this system is similar to a telemetry
+system. The main difference, however, is that our final result is the amplified and
+filtered signal output from the commutator; we have no need to recover the original
+signals fron. each electrode.
+
+The commutator consists of 20 transmission gates (5) each of which is
+controlled by a transistor binary. The binaries are connected in a ring in such a
+way that only one gate is open to transmission at a time. The input signal is
+connected through the open gate to a common line and applied to the broadband ampli-
+fier. Each trigger applied through the switching stage causes the open gate
+
+condition to move sequentially from gate to gate. The unit is essentially a transis-
+
+
+torized version of a twenty-channel electronic multiplexer reported by the Naval
+Ordnance Laboratory (6).
+
+Each diode gate and its associated counter stage are Ce on a
+LU" x 6" plug-in printed circuit board. The interstage circuit of the counter is
+also mounted on this board. 20 such identical boards plus L additional boards for
+the trigger circuits comprise the entire commutator exclusive of the power supply.
+Power requirements are #50V and -50V at 1C ma each and #1CV and -20V at 100 ma
+sachs The ring counter is made up of 20 binary stages using 2NL39NPN transistors.
+These individual stages are coupled together by diode-capacitor interstages to
+close the ring. Although no clamping circuits were used in the individual binary
+stages, the rise and fall time of the collector pulses were less than 2 microseconds.
+Diode clamping was added to the switching stage itself to improve the stepping action
+of the ring. The input impedance that is seen by the signal source when the gate is
+open is the back resistance of two diodes in parallel. Silicon junction diodes are
+used to keep this impedance high. Tests made on the diode gates indicate a trans-
+mission gain of 0.996 for the open gate with a linearity of 0.5% from 10 millivolts
+to 5 volts for both positive and negative signals, With the gate closed, input
+
+signals were attenuated more than 60 db,
+
+
+1.
+
+2e
+
+3e
+
+Le
+
+Se
+
+6.
+
+ 
+
+REFERENCES
+
+Gabor, De. & Nelson, C.Ve: Determination of the resultant dipole of the
+heart from measurements on the body surface.
+Jo. Appl. Physics 25, L13, 1954
+
+Lilly, J.Cet A method of recording the moving electrical potential grad-
+.ients in the brain: the 25-channel Bavatron
+and electroiconograms. Conf. on Elect. Inst.
+in Nucleonics and Meds N.Y. 1949
+
+Goldman, S., Santelman, W., Williams, C., and Alexander, F.:
+The area display of the electrical activity of
+the heart. M.I.T. Research Lab. of Electronics,
+Tech, Report Né. 121, Nov. 15, 1950.
+
+Barus, Ce A low-level high speed switching system for brain mapping.
+I.R.E. Trans. on Med. Electronics, P.G.M.E.=T7,
+Dec. 1956
+
+Millman, J. & Puckett, T.H. Accurate linear bidirectional gates. Proc.
+I.R.E. L3, 27=37, 1955
+
+Berns, K.L. & Bishop, B.E.: Twenty-channel electronic multiplexer. NAVORD
+Report L648, NOLC Report LO3, Naval Ordnance
+Laboratory, Corona, April, 1958.
+
+
+*RVHOVIA 400718 *HOLVLAAAOS OINONLOTIZ
+
+Jedeyg oy 02
+J07 yng J ETTT2S0
+ord I} Sen
+
+    
+
+Sug Indu JeyTrdwy uowwon
+
+
+WVYOVIA AD0TI “SIVIINTIOL IVYAH NOJ YAZAT/NY TANNVIID- IL IAN
+
+3C02SOT[125)
+
+    
+
+  
+
+Oc#
+
+ 
+
+ 
+        
+ 
+
+02
+JTF Id wos
+oeqle 1g
+£7
+JaTJ Tuwesdd “ €
+gop Jona 28 {J Coy ;
+[1 puegozodyg J0}e , NLLOY
+11 QUILL 0) Dios TH
+eH
+D ¢
+JIT] FTCmeaay
+|& yr. 0X
+JIT] TIGR ax]
+S8poJI323TTq
+
+   
+
+$3TOOJ TD
+
+Aunty
+
+

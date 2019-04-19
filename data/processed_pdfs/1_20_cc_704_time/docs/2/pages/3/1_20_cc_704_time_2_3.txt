@@ -1,0 +1,58 @@
+CC-16 COMPUTATION CENTER
+
+Magsachusetts Ingtitute of Technology
+Cambridge 39, Massachugetts
+
+~ MEMORARDUM
+To: Department Heads Date: April 10, 1957
+From: | P, M, Morge, Director
+
+Subject: Approval of Requests for Computation Time at the Center
+
+ 
+
+1. The Center has get up the rule that all research workers,
+faculty or students, who wish to use the equipment of the Center in the
+course of their research, must apply for approval of their computing plans
+and for assignment of mechine time, using the forms encloged., Machine time
+for umclassified research, connected with graduate education, is free, but
+we need the formalism of an application s0 ag to have the chance to look
+over computation plans before they are started, to see whether they are
+feasible and to see whether we can allocate the required time., (¥o classified
+work will be done at the Center,)
+
+2, The Center is asking that éach Department Head approve each such
+application which involves elther faculty members or students in his department,
+before the application comes to us. We feel thisg added requirement is desirable
+
+because:
+
+1. It gives you a chance to gee what use your department is
+naking of' the Center (you may wish to l@ep a record of the forms you
+have OK.do)
+
+2. It gives us the benefit of your judgement of the value of
+the proposed research to the sducational activities carried on by
+MIT. We do not ask you to judge the feasibility of putting the
+problem on a computing machine (we will do that); we do ask that
+you approve only those requests which represent useful research in
+the field of your department and which contribute non-trivially to
+the education of one or more students.
+
+3. We do not ask that you approve requests for machine tims
+from DSR projects, involving only DSR staff members in the prosecution
+of the research of their project. Such purely project computation,
+usually of a more routine nature, will have lower priority in machine
+time assignments, will be expected to contribute finaneially to the
+support of the Center, if time is assigned, and arrangements for
+this work will be discussed between the Center and the Project
+Supervisor directly, without needing to bother you, In any case, the
+work must be publishablie.
+
+4. To approve an application, you should sign in the box on the
+right-hand columm, marked "Inst. Rep, Approval', circled in red in the enclosed
+sample. We will not accept an application without guch a gignature,
+
+5. If you have auny questions about these procedures please call or
+
+see wme or Frank Verzuh.

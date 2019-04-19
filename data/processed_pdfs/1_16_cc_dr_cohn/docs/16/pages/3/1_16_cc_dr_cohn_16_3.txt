@@ -1,0 +1,121 @@
+HARVEY COHN
+
+548 [Augu“
+2 b1w1
+Ql = 1)
+ay
+
+.
+
+ 
+
+ 
+
+bzlﬁ: basws
++
+
+ 
+
+92 = ’
+(2) a,d» as
+)
+bdlw; bd2wz bddwd
+2; = T -
+‘ a9 * - * Qg4 az * * * Qq ay
+
+where the a; and bi; are integers satisfying the conditions:
+
+=,
+(2a) or >0, b =1, l bri/ay. - a,l = ~2— &y =
+and =
+(2b) @s -+ g = d.
+
+This result is due to Minkowski [4, p. 189]; we therefore simply
+note some special aspects of the lemma which tie in with familiar
+results. In case there are more than d vectors (and their negatives)
+on the surface, let us choose (w;") so as to produce a minimal positive
+determinant. Then for d=2 the basis can always be chosen as
+(wr, wy) itself, while for d=3 it can be chosen as (w;, w;, w;) or
+(wr, @y, (wy +w; +w;)/2), as was known to Minkowski [3, p. 101]. If
+K is specialized to an ellipsoid, then for d £3 only the basis (w;)
+will occur.
+
+3. Reduction to finiteness. In the search for critical lattices, we
+first restrict the K-admissible lattices to the subclass having d inde-
+pendent vectors on the surface of K. This is no restriction since every
+K-admissible lattice can be contracted to a K-admissible lattice with
+the further property. We then let (w;") be such a set of d independent
+vectors. By the finite bases lemma, the lattice has as its basis a set
+() chosen from among the finite collection in (2).
+
+Then the conditions (1), subsidiary to the minimizing of the de-
+terminant of the @, can be rewritten as d( Zp,- Q) =1, where (p:)
+are still all integral lattice points, not the origin and where equality
+is achieved when the argument of ® is one of the vectors .
+= Z}-, a:;Q;", from (2). Now the convex body K determines a conjugate
+convex body Kj in the p-space by means of the inequality in the p::
+®( ZP:‘ ) £1. Furthermore K, contains the 2¢-hedron determined
+by the vectors +(ay, 0, 0, - - - Z0) taa G 0 0), =
+
+\
+
+ 
+
+ 
+
+1951] ON THE FINITE DETERMINATION OF CRITICAL LATTICES 549
+t (@i, @az, @as, * * -, @aa). But these 29-hedra are finite in number
+one for each basis, and they contain the origin and hence a hyper-’
+sphere of radius p4, depending on d alone. To be more specific, using
+the estimates a - - - 244 <d!and g;;2 ay;| for £>; (an easy conse-
+quence of (2a)), we find that for instance Pa=d=12(d1)~¥2, Hence
+by the main theorem of the companion paper [1], % will contain no
+p-integral lattice points, other than the origin, in its interior if it
+fails to contain those in a hypersphere of radius Capg—(d-D,
+
+Thus the system of inequalities (1) can now be replaced by the
+finite collection of the finite systems (one system for each basis)
+
+k
+‘I’( Z (I;;;Q;) - 1, 1
+
+ie=1
+
+k
+
+1A
+A
+
+d»
+(1a)
+
+1 ,
+- 2 1/2 =
+d’( > f’iQi) 21, for0 < (35 p) < Cae (#: integral).
+
+1]
+
+In principle, of course, we select the basis whose system gives the
+smallest determinant; and in each system we would have had to
+change some inequalities to equality and to ignore many more.
+When d> 3, however, there seems to be no easy way to determine a
+minimal system.
+
+BIBLIOGRAPHY
+
+1. Harvey Cohn, On finiteness conditions for a convex body, Proceedings of the
+American Mathematical Society vol. 2 (1951) pp. 544-546.,
+
+2. K. Mahler, On lattice points in n-dimensional star bodies, Proc. Roy. Soc.
+London. Ser. A vol. 187 (1946) pp. 151-187.
+
+3. H. Minkowski, Diophantische Approximationen, Leipzig, 1907.
+
+4, , Geometrie der Zahlen, Leipzig, 1910. :
+
+5. H. Weyl, C. L. Siegel, and K. Mahler, Geomelry of numbers, mimeographe
+seminar notes, Princeton, 1949,
+
+ 
+
+WAYNE UNIVERSITY

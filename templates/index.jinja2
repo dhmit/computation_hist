@@ -1,0 +1,28 @@
+{% extends "base.jinja2" %}
+
+<!--This is the base page. I want to take the links to the data off of this page and create a data tab that will
+bring people to a webpage that looks like this one currently does. I'm thinking of taking the other tabs off and
+having them all exist under browse. Then, I'd put tabs for other parts of the project, such as the simulations. I
+don't know how to make a new page or change the way these links are set up, though-->
+<!DOCTYPE html>
+{% block extraheader %}
+    <style>
+
+   </style>
+{% endblock %}
+
+{% block title %}
+    Home Page
+{% endblock %}
+
+{% block header %}
+    <h1 class="typing"><tt>Welcome to the Archives of the MIT Computation Center</tt></h1>
+{% endblock %}
+
+{% block content %}
+<div class='card-deck'>
+    {% for story in stories %}
+        {% include 'archives/stories/' + story + '-teaser.jinja2' %} 
+    {% endfor %}
+</div>
+{% endblock %}

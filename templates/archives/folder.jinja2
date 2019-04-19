@@ -1,0 +1,31 @@
+
+{% extends "base.jinja2" %}
+
+{% block title %} {{ folder_obj.full }} {% endblock %}
+
+{% block header %}
+    {{folder_obj.full}}
+    <h2>Folder number {{folder_obj.number}}</h2>
+{% endblock %}
+
+{% block content %}
+    <table class="table">
+      <thead class="thead-dark">
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col"; align="left">Document Name</th>
+
+        </tr>
+      </thead>
+      <tbody>
+      {% for item in document_objs %}
+        <tr>
+          <th scope="row">{{ loop.index }} </th>
+
+          <td><a href = "/archives/doc/{{item.pk}}">{{ item }}</a></td>
+        </tr>
+      {% endfor %}
+      </tbody>
+    </table>
+
+{% endblock %}

@@ -1,0 +1,288 @@
+HISTORICAL SUMMARY
+
+This report is the beginning of a new series of
+Progress Reports, on the activities of the MIT Computation
+Center in education and research in the general area of
+the utilization of high speed digital computing equipment
+in science; engineering and management practice.
+
+Previous Activity at M.I.T. - It is not the first
+Progress Report on the subject to have been issued at MIT,
+for the Institute has had a long history of activity in
+the construction and utilization of computing equipment.
+Por example, in 1936, the first model of the Bush Differen-
+tial Analyzer was put Into use at the Institute; many problems
+in physi¢s and engineering were sclved with its help. In
+(see FV) the more accurate, electronically controlled
+Rockefeller Differential Analyzer was put inte use. During
+World Warr II it was of great assistance in solving many
+scientific problems arising out of war work. In (see WWfiles)
+construction was started on a high-speed digital computer,
+which came to be called Whirlwind I. Design and construction
+was supervised By Dr. J. Forrester and the work was financed
+by the ONR, under Contract No.
+
+Whirlwind I came inte operation in
+Although most of its activity has been in support of the
+Alr Defense Project now consolidated in MIT's Lincoln Labora
+tory, up to 40% of ite time has been available to staff and
+
+students at the Instltute, for general research. The machine
+
+
+has ploneered a number of major new developments in machine
+design and use. It was the first general purpose computer
+to have magnetic core memory in routine use and its Pro-
+gramming research staff was the first to develop techniques
+for making the machine do its bookkeeping and program
+checking, by making avallable, for the general user a set
+of utility assembly and post-mortern programs.
+
+The Office of Naval Research supported this
+development of ways to make Whirlwind easier to use and
+of programs for the use of the computer in a wide variety
+of applications. Research Assistants, from nearly all
+the departments at the Institute, worked with the fulle
+time staff to make this broad advance possible. The
+Guarterly Progress Reports, Published by the Whirlwind
+
+Project from to the end of this year, give
+the details of the work.
+
+Increase in Research and Educational Needs - To
+supervise the general research and educational use of
+Whirlwind I, the Institute set up in 1952 a working Committee
+on Numerical Analysis and Machine Computation, composed
+of faculty members from interested departments. This
+committee has reviewed the instructional courses, offered
+at MIT, in this general field, and has recommended others
+in order to widen the coverage. It undertakes to supervise
+graduate thesis in this general fleld, if requested Ry a
+department or a student and it has helped the Whirlwind
+
+
+staff set priorities and general policies of operation,
+for that portion of machine time available for general
+use. With its support and encouragement the use of Whirl-
+wind by staff and students has grown phenomenally in the
+past three or four years. By now the majority of the Ph.D.
+thesis in theoretical physics, in applied mathematics, in
+operations research and in theory of structures add many of
+the thesis in radiation theory, in aerodynamic theory and
+in chemical engineering design use machine computation as
+a matter of course. When one adds the research projects
+carried on by faculty members, it is not surprising that
+the demands had outgrown the time available on Whirlwind.
+What was needed was 2 machine planned, installed
+and run primarily for research and education use. With
+the very rapid increase in the number of large computers
+(more than a hundred large ones to be installed in 1957 alone!)
+every scientist and graduate engineer, in the future,
+would have to know how to use one in his work. MIT would
+have to have a computation center, supplied with a variety
+of computing machines of the most up-to-date type, operated
+by persons who could teach operating techniques and super-
+vised by a research and educational staff interested in
+working cut better methods of machine utilization and in
+research on the basic lozic of machine programming .
+The staff, in addition to machine specialists,
+should include scientists and engineers, of a variety of
+
+backgrounds, who could work with various students and
+
+
+faculty members who desired to use the equipment for
+research in their own special fields. This researche-
+educational-consulting staff should provide the "impedance
+mateh” between the machines znd the research worker in
+any of the fields of the physical or social gsclences, of
+engineering or of administrative practice. And the machine
+and staff must be set up and financed in a way so that
+access to the machine and to the advice of the stall will
+be free to those students and faculty members who have a
+worth-whlle research problem which requires computational
+assistance appropriate for machine aclution.
+
+Arrangements with I.B.M. Corporation ~ Discussions
+with Dr. Cuthbert Hurd of the International Bue iness
+Machines Corporation (IBM) and, later, with Mr. Thomas J.
+Watson, Jr., President of the Corporation, showed that
+IBM was aware of these educational problems and was willing
+to contribute toward their solution. With their enlight-
+ened and forward-looking aid a contract was nego¢iated
+between IBM and MIT by whieh:
+
+1) An IBM 70% plus its auxiliary equipment is given,
+rent free to MIT, to be installed in the new Compton
+Laboratories at the Institute, IBM to provide maintenance
+and two operators per shift. On the average, one shift
+will be for the use of students and staff of MIT, one
+shift for the use of other colleges and universities in
+New England, cooperating in the use of the equipment
+(the cooperating institutions) and, for the time being, the
+
+
+third shift for the use of IBM for some basic research of
+its own.
+
+2) IBM provides up to B00,000 per year for the
+appointment of Research Assistants and Associates to spend
+part of their time learning to use the equipment and then
+helping their colleagues tc use the equipment. Half of
+these funds will go for appointments made among graduate
+students or staff at MIT and the other half goes for
+similar appointments made to graduate students or staff
+at the various cooperating institutions in New England.
+
+3) MIT will provide the educational and research
+staff of the Center, in part by assignment of regular
+faculty to part-time duty at the Center, in part by sollcli-
+ting funds from other sources for research into machine use
+and in part by contributions {rom other research projects
+at MIT, whieh will use the equipment in thelr educational
+and research activities.
+
+4) IBM will reimburse MIT for additional expenses
+involved in making the equipment available to the cogpera=
+ting institutions.
+
+5) No classified research is to be carried out on the
+
+equipment. Every computation done during the two (MIT and
+
+cooperatinz institutions) Shifts must be a part of some
+research which may be published in some sc¢ientifile journal
+
+or be apart of some regular educational activity of MIT or
+the cooperating inatitutions, open to regular students of
+these institutions. Since no charge will be made for machine
+
+
+time the oriterion for allocating machine time to publish
+able research or educational projects will be the importance
+of the objectives, the appropriateness of machine use to the
+attainment of these objectives and the degree to which
+
+this use will contribute to the education of students or
+faculty in the most effective use of computing equipment.
+This allocation will be made by the Director of the Center,
+wlth the advice of the MIT Committee on Numerical Analysis
+and Machine Computation, for the MIT shift, and of a
+Committee of the Official Representatives of the Cooperating
+| Institutions, for the cooperating New England Institutions
+
+shift.
+Formation of the Computation Center This generous
+
+and constructive contribution has made it possible to
+establish a Computation Center at MIT, with some of the
+characteristics of = Department, to implement the contract
+and to serve as a center for researeh into new and better
+ways of utilizing high speed computers and for educat ion
+
+in these new and better ways. During the year covered by
+this contraet, since the equipment was not yet installed,
+&ctivity has been largely confined to ergainlzing the
+Center, setting up the communication links with the cooper
+ating Institutions, arranging for the additional support
+
+for the staff and planning for training courses ang research
+activities, though a certain amount of research has actually
+been started. Eaen of these aspects of activity will be
+
+
+reported in detall, later in this Report .
+
+Future issues of thease Progreas Reports, which will
+be published twice a year, will of course be devoled more
+to accomplishments than to plans, more to resulis than
+to organization. The present Report in expected to
+serve a3 an introductory description of organization,
+policies and initial plans, which will be referred tO
+vy later Reports. succeeding Reports will, in the main,
+discuss the sducat ional activities of the cocperating
+institutions in the field of computer use and will report
+
+on each of the research problems which used machine time.
+
+
+ORGANIZATION
+
+The Computation Center at the Institute is
+an interdepartmental and inter-divisional activity with
+a Director, who reporis to the Chancellor of the Institute.
+The Center does not offer regular gourges of instruction
+nor dees it give degrees, but it has an academic budget
+and academic appointments, with the rank of Visiting
+Fellow, Research Asscclate or Researeh Assistant may be
+assigned to it. Part of its staff are also faeulity members
+of various academic departments, who teach courges in
+various aspects of computing machine utilization ang
+operavion; offered by their departments. The Center alse
+offers special courses of training, without regular
+academic eredit, from time to time, to Persons from the
+Cooperating instituticns and from industry. It alsc
+Sponsors special conferences en various aspects of machine
+computation.
+
+Reporting to the Director of the Center is an
+Assistant Director for Operations, who is responsible for
+the day-by-day operation of the equipnent,; the scheduling
+of machine runs and other administrative agtivitlies;: and
+two Assistants tc the Diregtor, one in charge of the
+Programming Research staff and the other in charge of the
+18M Research Assistants and Associates. Members of the
+staff of the Center, part or full time, report to one or
+
+the other of these three officers.
+
+
+Advising the Director, in regard to the Work of
+the Center with regard to MIT, is the institute Committee
+on Numerical Analysis and Machine Computation, Consisting
+of faculty representatives appointed by the hesds of Licse
+departments of the Institute with active interest in machine
+computation. Advising the Director, in regard to the
+Cooperative program st the Center, of the other Colleges
+énd universities in New England, is the Cooperative Program
+Council, consisting of faeulty members (called Institutional
+Representatives) eppointed by the Presidents of the
+Cooperating institutions.
+
+Arrangements to have computation done at the
+Center by a student Or faculty member of a cooperating
+inttitution are made through the appropriate Institutional
+Representative, by & student or faculty member of MIT
+are made through the appropriate department head. Details
+of' the proeedures are cutiined later in this Report. The
+duties of the staff of the Center are;
+
+1) To carry on research in numerical analysis, in
+the logie of coding and in the deve lopment of programming
+techniques.
+
+2) To investigate procedures for recording and
+processing of large~quantity experimental datas or operational
+regords or other information, and to develop programs for
+the statistical analysis of such data and its display or
+
+presentation in quickly understandable form.
+
+
+3) Teo aid in instrueting students and others in
+these subjects, and to help supervise student research
+in thease [{lelids.
+
+4) To build up a library of useful sub-routines for
+the aclution of often-encountered problems, to prepare
+instruction manuals, lists of routines, tables of functions,
+ete., which will improve and extend the utilization of
+computing equipment at MIT and elsewhere. |
+
+5) To participate in conferences and other joint
+activities with staffs of other computation centers, so that
+knowledge of this rapidly chenging field e¢an be exchanged
+
+with other workers.
+
+

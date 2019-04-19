@@ -1,0 +1,403 @@
+Revised Rete Structure for the
+Office of Statistical Services for the
+Fiscal Period 1852-1953
+
+F. Mi, Verguh
+Cetober 27, 1032
+
+
+introduction
+
+The purpose of this memorandum is to present a pevised
+rate structure for the Office of Statistical Services which
+is to be effective during the fiscal period 1952-1933,
+
+On October 1, 1952 a report was issued entitled “Rate
+Structure for the Office of Statistical Services during the
+Fiscal Period 19521553" which presented a proposed rate
+structure for that perlod. At two meetings held on
+October 17th and 21st attended by Messrs, John A, Little
+and F, ¥, Verzuh, this proposed rate structure was discussed
+and evaluated, The method of cost allocation for the labor
+charge and the materiel charges was considered acceptable;
+however, the proposed machine charges were not approved,
+
+The machine charge is designed to compensate for cere
+tain operational or overhead expenses incurred in this office,
+1t was decided that a considerection of the following items
+would facilitate the formulation of sn equitable machine
+charge!
+
+1. A definition of the actual Items which comprise
+
+the overhead charges.
+
+Z« The determination of a fair method for allocating
+
+the overhead charges on a machine utilization basis,
+
+3, The distribution of & portion of the overhead
+
+charges to the underwriters ¢f the 804 [lectronic
+Calculutor and the Card Progremmed Calculator.
+Since the latter two machines are not supported by
+the adeinistration, they are hereafter referred to
+as the "Special" computers,
+
+4, The formulation of an slternative method for under=
+
+writing the rental costs of the Special computers.
+
+Definition of Overhead Charges
+
+Since sll the underwritere ¢f the special machines are
+DiC projects, Mr, P, V, Cusick was consulted to determine
+whether he concurred with the basic proposal for allocating
+
+
+i.
+
+Re
+
+Se
+
+ 
+
+ 
+
+a portion of the overhead charges to the underwriters. With
+hig approval, the following plan was formulated.
+
+The supervision and administrative costs amounting
+to $7864 on an annual basis, (See page 5 of the
+Rate Structure Report of October 1, 1952)
+
+The capltal-ecuipment cosis associated with machine
+operation, e.g. machine plugboards, card files,
+fans, typewriter, desk calculator, etc, During
+the fiscal period 15511952, the capital equipment
+costs amounted to $2770.72. Admittedly, some of
+these costs are of a8 non-recurrent nature, and
+
+an estimate of such charges is given in & later
+section,
+
+The miscellaneoussoperating expenses consist of
+office supplies, express charges, reference texts,
+travel expense, nachine rlbbons, and other misc.
+expenses, During the fiscal perfed 1951-1852 the
+
+miscellaneous operating expenses amounted te 1145.04,
+
+Distribution of Overhead Costs
+
+The fellowing tabulation is an gstiimate of the distribu-
+tien of the components of the overhead charge between the
+regular and special machines.
+
+
+3.
+
+Table 1
+Estimated Distribution of Overhead Costs
+
+Regular Special
+HYachines Machines
+
+Supervision 8 Administration:
+
+Lesser (50-50) i 525.00 § 825,
+Thurston (90-10) 012,80 101.40
+Verzuh 50w25e25) 2850,00 D850,
+Tamm 7525) 1500.00 500,
+$5787.60 $2076.40 = 7864,
+Mise. Operating Charge: 1000,00 200.00 = 1200.
+
+Capital Equipment:
+
+ 
+
+€ - 605 plugboards at 78, 468 ,00
+
+1 « Control board cabinet 34,75
+
+4 = Card file cabinets at £167.50= 335.00 335.00
+
+1 = Typewriter 162,75
+| 678.28 1797.75 = 2676.03
+3 other {tems 200,00
+876.28 11,740.08
+
+7665,88 4074.15
+
+ 
+
+£11,740,08
+
+
+4.
+
+Allocation of Overhead Costs on 8 Machine Utilization Basis
+
+It must be emphasized that the distribution of the
+
+overhead costs given in Table I is at best a very rough
+
+stimate, This is particularly true of the supervision and
+administration costs, The principal reason for the rough-
+ness of the estimate is the lack of operational experlence
+with the Card Programmed Calculator. However, if the above
+distribution {s nccepted as & basis for cost allocation, the
+following procedure may be used:
+
+1, Distribute the overhead ccats for the spacial Mie
+chines among the underwriters on a percentage
+basis «= the percentage is te be based on the
+monthly rental cost of the machine. Specifically,
+
+Undar- Percent- Monthly
+
+writing Monthly (age of Overhead
+Project Fercentage | Machine | Rental Spec, Mach, | Charge
+NSL | 608 | $565.40 | 25,06 $126.92
+Meteor Proj. (40%) CPC 648, | 23.62 144,81
+Aeronautic Engg. | (40%) CPC 848, | 8,62. 144,81
+Verzuh Research | (20%) CPC 322,50 | 14.80 72.36
+5177.90 100% $480 80
+
+The column labslled "Monthly Overhead Charge” is obtained by
+distribuling 4074.,15/8.333-5408 ,90 per month (the estimated
+overhead charges associated with special machines) on & per=-
+centage basis, The percentage is, of course, determined by
+the monthly rental cost of the machine,
+
+This overhead cost 1s to be billed to each of these
+projects each menth aleng with the associated menthly rental
+cost of the particular machine,
+
+2, The overhead costs appearing in Table I in the
+column labelled Regular Machines is to be distributed
+in accordance with the established formulae which
+employ the machine utilization factor. (see pp.7«%
+of the report dated October 1, 19852).
+
+
+5.
+
+The hourly machine charge given In Table il is
+determined as follows. Let R represent the desired
+hourly machine rate where
+
+monthly rental of 1 4 .
+R= { each machine ) ak (ge) (Monthly opera,
+total monthly ne AVG MONLRIY NPS. Fy’ ‘tional costs
+
+{ chine rental
+
+where
+total monthly mach, rental = 173] ,40«116,80 = 1612.80
+menthly operationsl chge, = 76635.,82/12 = 838.82
+
+and Kg, represents the fraction of the time 2 particular
+machine was used during the fiscal period 1951-1952,
+
+Example (602A calculating Funch hourly rote)
+E5520 1 1
+R= ( (638.62)
+Teiz.e0) ‘tev! Hp
+= 280 AC
+
+{ 00R4Y5898)
+
+m 51.436
+
+
+Table 11
+Evaluation of Machine Charges or an Heurly
+Total Mrs, Used in |
+Machine i Monthly | 2080 hours
+Type Rental Rete
+
+    
+
+  
+
+ 
+
+Rey Punch 3101.20" | 2410.5 386
+Verifier 30.80 | 473.25 +220
+sorter | 86.80" | 1208, .578
+Collator | 70 +40 1018, JAE
+Tabulater | 781,000 | 1450.25 349
+Reproducer | 110.00 785, 377
+Interoreter C6 «OU 315.5 | 152
+Calc, Punch | 235.20 214.3 « 540
+Car datyne 101 420 283.5 +138 |
+Special Machines
+604 565.40 263.5 473
+CEC 1612 ,50 ? S(1)
+
+ 
+
+|
+
+# more than one machine
+
+ 
+  
+    
+     
+
+       
+   
+
+|
+|
+
+9.15
+
+124,68
+
+Basis
+
+R
+Hourly | Machine
+
+«20
+
+5,00
+
+10,00
+
+
+~~
+$
+3
+
+7.
+Rate Structure for the 604 snd cPe Calculators
+
+the twe spseiat mRchines require a different type of
+rete structure for two reasens:
+
+1. The machine charge must recover the rental cost
+of the machine,
+
+Z., The machine charge must provide the underwriter
+with 2 credit for any overhead collected on these
+machines for use by groups other then the undere
+writers. The maximum credit which a particular
+underwriter is to receive will never exceed the
+combined rental and overhead cost which they pay
+each month, e.g. NSL pays $583.40 + 126,92 = $692.32,
+
+“ith these objectives in mind, & new rate structure may be
+formulated for the 804 and CPC caleculetors, Eafe
+
+Aye = 1612.50 + 361,98 (she) = 524.68
+
+Discussion ef Billing Procedure
+
+The present method of maintaining individual daily
+persornel end machine time sheets cn so minimum 1/4 hour
+entry basis is to be continued, Monthly statements will be
+issued to each client in the established manner, The fol-
+lowing billing procedure wii} be emploved,
+
+1. All mechine rental charges are to be debited to
+the Statistical Services Machine Account 1954,
+
+Ze The machine rental charges for the 604 and the CPC
+calculators wili be debited to the sponser ing
+“IC preject and credited to the Machine Account 1954,
+The monthly rental charges will include the special
+machine overhead charge previously described.
+
+
+3
+
+"3 :
+a
+bs |
+ag ML
+
+ 
+
+8.
+
+3. The under : i
+writing DIC Project will pe credited
+
+for all use of the 604 op CPC calculators at
+the hourly rate given in Table il. 3
+4. All operating expenses are to be debited to the
+Statistical Services Operating Account No, 2935,
+5. All Perating income is ico be credited to the
+Statistical Services Operating Account No, R235,
+
+ 
+
+Conclusion
+
+This revised report differs from the proposed rate
+structure report of Uctober 1, 1952 primarily in the mane
+ner in which the machine charges are determined, The
+present report redefines the Overhead charges and dis
+tributes them between the regular ang special machines,
+and the resulting rate structure has been approved by
+Messrs, Little and Cusick, Correspondingly, the bills
+for services rendered Since July 1 are now to be issued
+using this new rate structure,
+
+A few remarks should be made concerning the new rate
+structure, First, the machine charges are reduced to a
+"rock bottom" level, i.,e., the operating overhead charges
+for the next fiscal period will be recovered only if the
+machines experience the Jame number of hours of use during
+the forthcoming fiscal peride as they did during the past
+fiscal period, If the machine use is reduced, then the
+fixed overhead costs will not be recovered and an operating
+deficit will result, The Administration should recognize
+this Possibility and he prepared to cover the deficit should
+it arise,
+
+In the past (perhaps for Psychological reasons) I have
+insisted that a factor of safety be included in the rate
+structure, That is to say, the rates were set slightly
+higher than the minimum required to meet the estimated
+operating expenses. Correspondingly, the overall operation
+
+
+for the past fiscal Pericd sh
+important thought behind th
+the evaluation of an
+
+Owed a credit balance, The
+
+ls discussion is the fact that
+equi table rate structure does involve
+variables whose magnitudes must pe estimated. Since they
+estimated in advance, there is a
+Possibility eof error. For example, the estimated distribu-
+
+tion of overhead COSis given in Table | is subject to error,
+Since there is
+
+carnot be accurately
+
+ne previous operailing experience available
+for the CPC, the estimated distribution of supervision and
+administration charges may be in error. (It should further-
+more belnoted that the $1797.75 cost of capital equipment
+
+Is a one-time charge associated with the CPC),
+
+In conclusion, it is evident that a close check on the
+operation must be made and at the end of, 58y, six months,
+the rate may be readjusted if the observed Operational
+conditions indicate that this is necessary,
+
+F. M, Verzuh
+November J, 1952
+
+

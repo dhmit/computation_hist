@@ -1,0 +1,17 @@
+Interlinking the two languages
+
+Each algebraic instruction (numerical or iogical) gives rise in
+the final program to a2 Sequence of generated machine instructions. The
+length of this sequence and ite location in storage are unimown to the
+coder, HNonetheless, he RSy tag an algebraic instruction with 2 gywbolic
+addrogs, just as Lo would a machine instruction, A symbolic address 80
+assigned is always agsociated with the Iirst generated instruction, S0
+that control 'may pe transferred (possibly by use of 2 machine instraction)
+to the start of the generated sequence. Sgually important, the constanis
+and variables sppearing in the slgebraic ingtructions may also be referred
+to in the machine-language portions of the program, A storage location is
+automatically agsigned for each of these guantities during input, and 2
+syubolic address is siso assigned at the same time, Thus, the variable X
+will always be stored at sysbolic address X, and the constant 34 at syabolic
+sddress (24). The intermixing of algebraic and machine languege is, in this
+waY , facilitated, and efficient programns conbining the two are made possible,

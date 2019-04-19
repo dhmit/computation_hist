@@ -1,0 +1,54 @@
+of punched output and all output from PRINT or WRIIE AUTPUT TAPE
+statements should be with the estimate of printed output,
+
+The Interval Timer
+
+The Center's 7090 includesé an interval storage clock and
+interval timer, Because programming and integrating the use of
+this device is fairly complex and because the Center feels. its
+use should be standardized as much as possible, a routine MITMR
+has been written and will be integrated into Version 2 of the
+system., This routine will be used to stop jobs which are
+exceeding their time estimates, It may be used by the programmer
+in many ways to time sections of his program., CC-193, available
+in Room 26-142, is a complete description and write-up of this
+routine, Programs which exceed the maximum time estimate on
+the I.D, card will be automatically terminated, without operator
+intervention, When the maximum estimate is reached, (F2PM)
+will be called automatically. At this time any (F2PM) request
+cards will be processed, even though the maximum time has been
+reached, and control will then be returned to the system,
+
+FAP
+
+A new version of FAP has been added to the FORTRAN Monitor
+
+System, The following new pseudo-operations have been added
+to FAP:
+
+SDN
+SDL
+SDH
+- RIC
+RUN
+The scope instructions WIVA and CFFA have been added to FAP also,
+
+FMS Library Changes and Additions
+
+(FPT). The subprogram (FPT), floating-point trap, has been
+changed such that the subprogram MPVIE), rather than ERR@R, is
+used for tracing., There is a resulting speed up in operation,
+The error message now written on logical tape 2 should be of
+more aid to a programmer. For a more detailed description, one
+should obtain a one-page write=-up in Room 26-153.
+
+SCOPE Routines. The following scope subroutines have been
+added to the library tape:
+
+1, AXISX, AXISY
+2, ‘BRIPIC, DIMPIC
+3. FRAME
+
+4, SCID, SCID1
+
+<ly=

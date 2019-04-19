@@ -1,0 +1,73 @@
+JOINT COMPUTING GROUP
+
+TIME RECORD
+MAY 1960
+July 26, 1960
+Hours Total
+Prob. Yo. Lab Requested by In May Hours
+1083 RLE E. Baghdady 11 207
+1088 ~~ OR H. CGalliher 79 2160
+1133 LHS L. Delves 49 722
+1135 RLE A. Helgesson 3% 195
+1137 LNS W. Turchinetz 56 390
+1138 RLE K. Homland 28 164
+1141 LHS R. Frecman 8 104
+1143 LNS A. Tubis 87 626
+1146 RLE G. Bekefi 45 Ch
+1148 RLE Jo Coccoli 23 22°
+1150 LNS W. Buechner 36 05
+1151 1S J. Linsley 71 227
+1153 RLE T. Bigier 2% 155
+1156 RLE P. Latour 126 126
+1157 LHS G. Schappert & &
+1158 RLE M., Edelstein 17 17
+1159 ERLE J. Hershfield 16 16
+TIME DISTRIBUTION
+
+Laboratory RLE LLNS S8 oR
+Hours Employed 504 252 0 84
+Hours Used
+
+Computing 324 309 0 79
+
+Overhead 50 0 7
+
+sick Leave 0 0 0
+
+Vacation 0 0 0
+
+Classes 7 a
+
+Total
+
+Hours Hot Used
+Boers Ovarian
+Cumulative Hours Not Used
+Cumulative Hours Cvezdravn
+
+
+Page = 2
+
+ICP - 30 Time Record
+
+Total
+
+Lab User Hours Hours Use by Laboratories
+
+RE———— mmm EE  —— —————
+LYS Re Scharenberg 17.0 Total
+LHS P. Demos 26.25 Lab Hours Hours
+LNS H., Lutg 7.25 L
+LNS M. Deutsch 6.0 LNS 36,5 711.5
+RLE A, Helgessen 3.25
+RLE G. Bekefi 6.25 RLE 60.75 220.25
+RIE J. Coccoli 4,25
+RLE T, Higier 16.25
+RLE P. Latour 31.25
+RLE J. Hershfield 2
+Testing Act Reutine 19,75
+Down Time 20.0
+
+Total 160.0
+
+

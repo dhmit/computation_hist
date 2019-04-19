@@ -1,0 +1,53 @@
+ol vm
+
+Detailed infermation rogazding the sbove nine experimenis was given
+to the students by means of a writion set of notes (230 pages) which were
+written as reference notes zund experiment notes, respectively. In sdditien to
+‘the sabove nine oxperiments, twe laboratory experiments were devoted to the uge
+of punched card eguipment. Specifically, one on the card punch, sorter, and
+tabulator, and the second on the Card Programmed Calculator, respectively. The
+class lectures were primarily devoted to a discussion of basic construction of
+digital computers, and their use in the solution of scientific computations
+sncountered in the solution of simultaneous algebraic eguations, inversion of
+matrices, solution of ordimary differential equations, etc.
+
+Beccuse of the availability of the Type 650 Magnetic Drum Calculator,
+it was decided that the subject conteat of 6.538 should be revised considerably.
+AcCordingly, during the Spring Term 1956 all of the above-mentioned electrounic
+oxperiments were deleted from the subject content and the subject was devoted
+entirely to the application and use of digitel computing equipment. The
+students were taught the basic principles of digital computers by performing
+experimonts on card punches, sorters, accounting machines, the Card Programmed
+Calculator, and the Type 650 Magnetic Drum Cslculator. The principle emphasis
+was actugslly devoted to a study of the use of the 650 machine in the solution
+of "scientific and business data processing problems
+
+Students were taught to program the CH0 by becoming familiar with
+the basic 650 language. After the basic language was understood, they were
+taught the tollow:l.ng interpretive syston&~
+
+1. MITSS MIT Selective Systen
+- 2. MITILIAC FLOATIRG DECIMAL Interpretive-mmemonic coding (1600)
+
+3. NOPX Fixed and Floating Interpretive-numeric coding (G00)
+4, SOAP Symbolic Optimal Assembly Program
+
+5. FLIMSY Floating Interpretive Matyrixz System (815)
+
+G. BTL Fixed and Floating Interpretive-numeric coding (1000)
+
+It is obvious that the students wexe not able to become completely familiay with
+211l of the above systems. All students instructed now understand the 6350
+langusge, MITSS, and MITILAC. However, only certain students became fLamiliar .
+with each of the other systens depending upon their particular intersst.
+
+The following ligt of homewnrk and experinents were performed during
+this subject:
+
+i. Problem 1 - Laboratory use of the Type 026 Card Punch and
+Type 082 Sortier
+
+The student spends two hours in the laboratory using the .
+cayd punch and sorter to prepare and sort several hundred
+IB8 punched cards, thus insuring complete familiarity with
+these two machines. :

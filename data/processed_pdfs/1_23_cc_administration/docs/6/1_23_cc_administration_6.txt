@@ -1,0 +1,340 @@
+smm————— EE
+2 PR ro Page 1 of B
+DCL-155
+
+Computation Center ;
+Massachusetts Institute of Technology
+Cambridge 39; Massachusetts
+
+ 
+
+T0: Prof. P. il. Morse
+
+FROM: S&EC Group
+
+SUBJECT: M.I.T. 704 Post-ilortem Routine
+AUTHOR: A. Siegel
+
+DATE: November 26, 1956
+
+The post-mortem routine described in this report is being prepared for
+uss on the J.I.T. 704 and for SIARE distributions It is a selective memory print-
+out or punch~out routine for use as an aid in trouble-shooting. The registers of
+core memory to be recorded and the form in which the output is to be produced ere
+specified using either symbolic request cards or the computer console. The ovtput
+igs in the notation of the SHARE Assembly Program (SAP), including the symbols of
+the original program if they are requested. The routine is designed for vere
+gatility end consist@ncy with the SAP notation, in order that the coder may get
+
+exactly the infor.ubivi: u» wants in exactly the form he wants it.
+
+As described in this report, the symbolic request cards are read and
+translated by the postemortem routine before their exacution. This translation
+can more efficiently be done by the compiler, and any future Me.I.T. compiler will
+probably do this. It is possible to modify SAP to accept these cards, and there-
+by combine the assembly and post-mortem routines into an efficient service-yroutine
+package. However, the post-mortem routine may be used as described here, whether
+or not such changes ure aade in SAP.
+
+Symbolic Post-mortem Requests « the PAR Card
+
+The SUARE card format (comprising symbol field, operation fisld and
+variable field) is reteined in the request cards. Card requests are identified
+by the letters PilR (Post=Mortem Request) in the operation field. The varieble
+field in the UR card contains four expressions separated by commus and Lermine
+ated by & blank column.
+
+The first two expressions give the initial und final addresses of the
+block in core memory to be printed or punched. These two expressions are of the
+sume form es expressions in SAP, and may include symbols. The ¥aird expression
+indicates the form in which the words are 10 be produced, and consists ol one of
+the following ebbreviati.nsg:
+
+FLO Floating-point numbers
+
+FIX Fixed-point numbers, scaled with binary
+exponent x and decimal exponent y (following
+SAP notation). lhe scaling information may
+be omitted to obtain BU EO.
+
+Fixed-point integors (decinnl)
+
+SREY Tnetructions with symbolic addresscs
+
+ABS Instruction with absolute uddresser
+
+SA EAA AAA BA dh FIR EA RAGED SES STEAM LRA re a ES TD 2 Na SRN CELIA Te AX ITE ET CE Er TAO IE TA ANAL FHA IT SANT ERA SS WE TAR A ET EE
+
+nT. ~
+
+The treatment of the symbol toble is described later.
+
+
+————————
+
+ 
+
+ 
+
+r Page 2
+oo detal Latgers
+ww srary-ecded decimal
+a. inary eards .
+
+De fourth GRprwinlon @eeifies Whe output device to to used, and must be one of
+we Tolling:
+
+- On-line pubsh |
+J Off -Lipe privter i
+oo. Off lise punch
+
+The four eXpreaslens, taken togsl.er, completely specify a single output request.
+As an example , the card
+
+PIR SABCHT ,SXYZ=2 4F1.0,FPU
+
+|
+will cause the post-mortem routine to record the contente of registera SABCHT |
+through SXYZe2, as floating-point numbers, om the :nagnetic tepe designated for
+use with the off-line card punch. After obeying this request the routine will, |
+in the absence of manual intervention, proceed Uo obey the next card in sequence. |
+
+Remarke~-the Pid Card
+
+Following the four expressions in the variable field of the FLR card
+and separated from them by at least one blank column, there may appear any alpha-
+mmerical comment. This comment will be reproduced by the post-mortem routine,
+and will appear immediately preceding the first line of output resulting fron the
+PUR card. In the case of punched output, the comment will appear as an REI
+card, which is ignored dy SAP.
+
+In addition, REM cards themselves will be read by the post-mortem
+routine, and will be treated in the same way as comments in the variable field.
+ach RE! ecard will be recorded jusb before the nest following PiR card 13 obeyed.
+Thie facility provides the user with a method for labelling the post-mortem
+output and identifying his results.
+
+Terminating the Post-mortem--the TRA, TTR, and HTR Cards
+
+puR and RE! cards will be read in sequence until a card terminating tae {
+sequence is encountered. This terminating card must contain one of the operati.ns
+TRA, TTR, or HIR in its operation field; the variatle field expresses an address
+exactly as it does in SAP. In response TO one of these terminating instructions,
+the contents of core memory und of the arithmetic element will be restored and tae
+terminating instruction will be executed. This permits eitiier resuming computation
+
+or halting the computer after the completion of the posv-mortem request sequence.
+
+The Symb ol Table
+
+: The use of synlols by the post-mortem routine implies thai the symbol
+table will be mude accessible to ite. With the SHARE Assembly Program in its
+
+present form, this is most conveniently accomplished by using the binary symbol-
+table deck provided by the asscmbler. ¥ % ya
+
+fr If any symbols at all appear in the request curds, this binary deck must
+be inserted in the curd reader together with the roguest curds. No binary louder
+should be used, for the synbol table will be read by the post-mortem routine to
+
+2 core memory location which does not necessarily coincide with tne location
+
+
+‘
+»
+Comune
+—
+
+. ¢ _— S "Reis, will be tralbele bed, ME Sa
+
+wh
+
+sre mK : th aN balls! vn
+
+it f rect’ mall ’
+’ ) . ore i | in x
+
+CLUNOrY CREe » PU 80 1712 LIC “an Pr opr 14Te 1 LH J
+) Sole with the post-norten in position for loadin:, will
+« Alternatively, the usgor ay obtain automatic call-in
+il soquence into his program. If the post-mortem
+: \
+
+~ALLOY 1cature combined with the IRA card described
+
+i )ANT” overation.
+’ T1162 ! 9 dbs om x “tom will he fb dean
+. “wi LAUD Jl The DOB U0} GOI Will ME JI L118
+
+" " » rd dw > - we — Be at vet ) - n
+s VOLIOYO loadir WE the POBT=MOre Ly GA@® rouvine
+
+- bw Ja 1 RD 2 aun ole ~ A ade ? 5 ma a
+. ddd 0 ediun di Contents of all I'Crl8Gors
+Ra y wa : = . » 4 LY % .
+oli in JILL\YVY cr UIC =O "S18 oaras 0) 4 nippy Le
+| ’ a 1  COrC-NMono; Y Fetliesiorsg JU LI ougn va
+; Pl 2a INP fs 5 Rae ‘aap madd Br a tlm
+i RY 0 OV enais NX OQe As. A8 WAS .jent 10n8d earlier s the
+Lol iil I'OSTOE Lae ikl tial Con LEUration \8XCce LC 10r
+4 “SO 3 ae » h ~~ Jor fe 2 Ae
+- 4 a C8 Wilpel il OJ IAD COmpu 7 \ C102 &
+“mm
+r
+Aa - dhe a _ fe _ - . nr i. " VN
+0 a eR 8nga uhe =QIIL'yY button. the o HOTA Or RY
+10¢C : ISe=noytem FOUTIiNG [10 NAV overr ide Ci 18 OUT
+ut ) (LE . tthar +. mitor + utnout ow + all wr
+5 : « WILT ; WAOERL LOT Va dN VL ) aL 2 LO Al. JU
+.
+
+. . ou » q 2 v - - = - “ f A +} Be I. 9 "oN
+Yl LlDnen LALIUTS 0 JILVY ingearc Adaicional rr
+. :
+; !
+i : . .
+
+ 
+
+"TPOoOvIcdmd « 4 Oo © ve | Yr 3 +a 1 “ ol-3 M10 od ira lr
+PIOVIiaed th 4S8lreq QAresses I'C Xnown in octal / OF BK1p request 8 9nciy ely ©
+', 3 1 %1110 1 ys od o - f ary ? : _— Ae " " - = - . . Ta Te rin 3 antars 112
+“iid IER LILA, Uueae QL operat 102 1 wo Of FTOateT C¢ aveniendce Bi wilQ COOeS Wil 18 unw) LJ Lac
+5 SEA LL LUN
+CoO ” CEAYITIO at 1 yy 6 lL l “ao " 8t tle malt yO 19 = TTT Oe 1a 14 AANA » Tf MT
+viJ 9 . ALATA bd wd JR LT 118 MUS L-IIOXFTOCm CULlrems v3 LAG VALVOQIMACIC ( Al l=0C0N=-
+2 " » - »
+if 3 - TIONS 6 } § rear 9 NY 919 vm 5 ! ) A" 13 a " ¢ be 10% oe - 1 ~ “ 1a ' y Nr pe
+wi 0Ll0G mode, however, minimizeg vLQ=Wasting thoug .t at the console ard promotes
+- 1 Le _~ . = M2 le 1M
+i LOH vv OVeI'ridalne th Upped wm
+J
+Fa n ole
+3 USL LB (O SGliecCy AGL QPOIrated: thev
+A ] ) 0 sf ) Wr tm ! f |
+J Il WAAR OL CAN PW ALLGIIEE “ LOULLOWS
+- od ~ -~ - dee gL - ™ ]
+9 ul CD 1G Beal * 151 'M m Oara
+] 4
+( " 11] == |
+L ' 1 . G Ld
+A y : } «
+L " J LL o Nal i
+RN . aa ' “2
+L ) { ) L ] = J A
+
+
+} Ls S31 uw
+Tred) <Q
+3 5 4 at
+~T
+: . =
+wll 1neo
+CL
+che cu
+
+Une 1117S
+w sey \
+
+{, \ lm J
+
+ula
+
+Puneh
+
+   
+
+- ry \
+\ 3
+- {25 -
+. \
+Ul vial ve
+~— f 22
+’
+i"
+\ \ 21 ? 8 ON
+- v2 A
+Ja 2
+HQ
+WA AA
+~ -
+eo A
+Eh
+Spedll
+3
+
+CON
+
+The
+
+In all cases,
+
+} {
+
+; ay - 3
+(= J oO Ll \G r wl ISO
+ig © 1 AE
+
+1.8 WC QL LO LE [ °
+
+A ’ -—m
+computation,
+
+A.
+
+[NUL
+
+wk IP
+
+computer i
+
+of stoppinge
+
+nol ah ZA
+
+Ing rouviis
+
+LAL
+
+HTR
+
+.
+o> -
+A 0
+f a = .
+mm (digits
+- 3 - » Sou
+'
+. | { \Y {
+, -
+i { 1
+
+LcCche
+
+DOL OT
+
+ 
+
+) - "MN
+J 1
+=’
+J
+
+mo A ~
+1 tu
+
+A" or
+
+oJ
+
+Lilon
+
+ 
+
+tte
+p=
+
+
+~~"
+
+

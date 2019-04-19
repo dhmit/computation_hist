@@ -1,0 +1,170 @@
+CC~-147 MIT COMPUTATION CENTER
+Massachusetts Institute of Technology
+Cambridge 39, Massachusetts
+
+To: 704 programmers December 21, 19592
+From: Dr. F. M., Verzuh, Assistant Director
+
+Subject: FORTRAN Modifications and Additional Format Features
+
+eet ee a ———
+
+Introduction
+
+Periodically corrections for Fortran II are issued by the IBM
+Applied Programming Graip in New York City. As soon as these corrections |
+are received by the Center, they are incorporated into our FORTRAN Library
+Tape. Occasionally, however, modifications are released which are of
+considerable interest to the Fortran users. For example, on December 21
+we received a memorandum which contains a number of interesting modifications
+to Fortran, The following sections of this memorandum contain a verbatim
+statement of these changes as released by the IBM Applied Programming Unit.
+
+FORTRAN MODIFICATIONS/ADDITIONAL FORMAT FEATURES
+
+Format facilities have been expanded, in the new Input-Output
+Hollerith Routine (IOH), as follows:
+
+1. The control character X; written nX, where 04 n £120.
+
+a) I0H, on input, will interpret this to mean that the fol-
+lowing n characters of input should be skipped.
+
+Coos READ 1, K, A
+1 FORMAT (12X, 12, 8X, F8.3)
+
+This will cause cols. 1-12 to be skipped, cols. 13-14 (EK) to be read,
+colz., 15-22 to be skipped, and cols. 23-30 (A) to be read.
+
+b) IOH, on output, will interpret this to mean that the fol-
+lowing n characters of output should bes blanks.
+
+Oo: PRINT 1, K, A
+(1 as in the above example)
+
+This will print E, preceded by 12 blanks, and A, preceded by 8 blanks.
+
+
+MN Lr
+CC~147
+
+control character §;
+
+Page 2
+
+J
+
+viitten nw, where 0 < n*w < 120.
+
+2) ICH, om input, will interpret this to mean that the fol-
+lowing n successive fields of w characters each 2 re to be converted from
+octal to binary. If w is greater than 12, only the 12 right-most characters
+will be significant, If w is less than 12, the number will be right-
+adjusted and filled out with zeros. leading blanks will be treated as zeros.
+
+i [ a i Ae
+Where A 8s 27, punc oh od in Cols Deo 14-15,
+preceded 1 oe 3 blanks; and C is -12345,
+A will be 000000000027, B will be
+
+following n
+
+su
+
+ 
+
+b 2
+ry
+cCcoss
+
+READ
+
+on output,
+fields of
+
+will in
+Ww chara a5 1 t
+
+"
+
+«
+
+1, A, B,
+
+FORMAT (2015, $9)
+
+preceded by 13 blanks; B is 777777777777,
+preceded by 3 blanks; then, in memory
+17T777777g, and C: 4000000123455.
+
+re
+8»
+
+EPeg ep
+
+oy
+gd 7
+
+dd
+
+nterpret this to mean that the
+8s each of output are to be the
+
+2
+
+result of conversion from binary to octal. If w exceeds 12, the excess will
+De Dlanks, and the rem lt will be right-adijusted. If-w is leas than 13; -only
+the w rightmost digits will be significant. Leading zeros will be converted
+to a and the number will be signed if negative. However, 12 or more
+signi fi igits will be unsigned.
+Qo: PRINT 1, A, B, C
+(1 as in the above example with same data)
+
+< wld Up
+
+ 
+
+Sul
+
+t Li preceded by 13 blanks, 777777777777 preceded by 3 blanks,
+nr) Ine « Bal non Ey
+'& C Oy 9 Dianks,
+he control character A; written nAw, where 0% n*w <€ 120.
+a) IOH, on input, will interpret this to mean that the following
+elds of Ww characters eoch gre to ve stored in memory as BCD
+{ w is greater than 6, only the 6 rightmost characters will be
+f wis less than 6, the characters will be left-adjusted, and the
+with blank
+CBo: READ LL SREU ORD (I), I = 1, 13)
+FORMAT (11A6, A4, 02)
+n ti 70 characters of ti ard being stored in the
+isoclate ith the array RECORD" he last 2 characters of th
+blank B tel IL and 72% uld | onverted from octal
+01 right-adjusted in the 13th word. An appropriate
+or. oT A AL
+L hay mad "RECORD"
+y cutout 13 terre to mean that the following
+V ctor: sh of tou | be th psult of
+i DIY nut onversion, If w « gs 6, only 6 characters
+2 288i CT preceded by w-6 blanks 1X £ 88 than 6, the
+[1 word will be transmitted.
+
+
+CC=147 Page 3
+
+4. Format Statements read in at object time.
+
+FORTRAN will accept a variable Format address. This
+provides the facility of describing a List at object time.
+
+e.g: DIMENSION FMT (12)
+1 FORMAT (12A6)
+READ 1, (FMT (I), I = 1, 12)
+READ FMT A, B, (C(I), I = 1,5)
+
+Thus A, B, and C would be converted and stored according to the
+Format Specification read into the array, FMT, at object time.
+
+LAR BE BE BE
+
+

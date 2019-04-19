@@ -1,0 +1,42 @@
+AY 19506
+
+ 
+
+Dr. Philin M, Morse
+
+Prof'easor of FPhysics
+
+Massachugetts Tnstitnte of Technology
+Cambridge, Massachueetts
+
+Dear Dr. torse:
+
+For some time this Center has been interested in the
+apnlication of certain methemetical and statistical models,
+such ag game theory, to the nroblems of personnel utiliza=
+tion in the military service. We are concerned with a
+variety of problems which may be attacked with the use of
+certain of these medels.
+
+An exammle of the sort of problem which we have in
+mind is one of minimizing the cost of training Air Force
+technicians. There are available nsychological tests
+which give a zood indication of a man's nrobable success in
+technical school training. 7These tests give differential
+predictions for different kinds of training with concomitant
+different probabilities of success. With these probabilities
+and with good estimates of the cost to train men in each of
+the several specialties, it is hoped that a minimizing »ro=-
+cedure night be used to indicate the most economical way of
+assigning individuals to technical training, while at the
+same time taking a minimum risk of not meeting the Air Force
+requirements,
+
+e are also interested in the application of general
+nurnose commuters to the nroblems of personnel utilization,
+particularly the solutions of mathematical models which might
+be aporopriate for personnel classification and training, es-
+pecially methods of managing very large masses of data, which
+considered separately have 1ittle predictive wvalue, but whiech
+considered as 8 whole, permit good estimates of future per=
+formancs.

@@ -1,0 +1,67 @@
+-3~
+
+Phase 3, stems Des and ification, By this stage, hopefully
+
+2 clear picture will have emerged both with regards to needs and
+possible ways of meeting these needs, The group will them go on to
+
+the crux of the task, namely to the specification of the desired system,
+in terms of its type, administration, and role at MIT (or if it should
+prove desirable, its larger role with respect to the area), The study
+should also attempt to determine what areas deserve future research in
+computer usage and computer system design,
+
+Time-Table
+
+¥hile it is too early to specify exact dates, it is presently
+planned that the group should spend the remaining part of the spring
+term in getting organized, the summer for phase 1, and be prepared to
+submit a final report by early fall of 1860,
+
+Organization and Support
+
+It is clear that responsibility (and suthority) should rest
+totally upon the chairman of this group, and that the Institute should
+back up this position with an expression of support at the highest level;
+otherwise, it may prove impossible to collect all the needed facts, It
+is further clear that this group will need the participation of a widely
+representative group at the Institute, both in terms of guidance and in
+terms of detailed knowledge,
+
+it is therefore suggested that the following people be assigned
+to this group:
+
+ 
+
+ 
+
+a) Senior Consultants: Prof, Morse
+Prof, Fano
+Prof, Hill
+Prof, Wiener
+Prof, Wiesner
+
+b) VWorking Panel Members (fractiomal time):
+
+Dr, Phyllis Fox Computation Center, full time
+
+Prof, McCarthy E.E, and Artificial Intelligence
+Prof, Minsky Math, and Artificial Intelligence
+Prof, Howard E,E,, Op, Research, Teaching
+
+Dr, Corbato Physics, Computation Center
+
+Prof, Arthurs E.E,, Information Retrieval
+
+Prof, Arden E.E,, Automata
+
+Prof, Susskind E,BE,, Computer Design
+
+Mr, Wesley Clark Lincoln, Neurological Computer Usage
+Dr, Eent Hansen Nuclear
+
+Dr, Michael Barnett Physice, Programming Systems
+Dr, Daniel Goldenberger Instrumentation, Computer Systems
+Prof, Charney Meteorological
+
+(Others may be added,)

@@ -1,0 +1,144 @@
+Problem No. Laboratory
+701 LNS
+729 CMM
+798 LNS
+819 CMM
+852 JCS
+888 ICS
+206 RLE
+910 RLE
+916 LNS
+917 LINS
+018 AL
+919 RLE
+920 RLE
+Laboratory
+
+Hours Employed
+
+Hours Used
+
+Computing
+Overhead
+
+Sick Leave
+Vacation
+Classes
+
+Total
+
+Hours Not Used
+Hours Overdrawn
+
+Cumulative Hours Not Used
+Cumulative Hours Overdrawn
+
+ 
+
+Joint Computing Group
+Time Record
+
+August 1956
+
+Requested by
+
+EF. Eppling
+L. Sartori
+H. Feshbach
+P. Morse
+
+T. Schultz
+L. Allen
+
+M. Ie a
+
+A. Bers
+
+P. Sargent
+
+I. Russell
+
+R. Prager
+
+S. Buchsbaum
+M. Cenillo
+
+Time Distribution
+
+RLE
+92 539
+8 321
+2 6
+0 16
+0 128
+0 80
+10 951
+82 4
+
+386
+1303
+
+Hours in
+August
+17
+22
+38
+223
+2
+305
+CaO
+112
+83
+8
+8
+S
+39
+LNS CS
+460 92
+146 307
+6 2
+4 0
+0 12
+0 40
+156 361
+304
+269
+294 327
+
+Total hours
+
+to date
+
+1389
+1691
+2567
+1596
+523
+359
+349
+112
+83
+
+8
+
+8
+
+S
+
+39
+
+CMM
+184
+
+245
+12
+40
+
+305
+
+121
+1038
+
+Elizabeth Campbell
+
+

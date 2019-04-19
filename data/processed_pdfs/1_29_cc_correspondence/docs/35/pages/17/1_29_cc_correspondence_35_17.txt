@@ -1,0 +1,43 @@
+D. Machine Language Programs to be Run with
+
+Compatibility Package
+
+The 709 may be run in a Compatibillty Mode for
+the purpose of running 704 programs that only occupy the
+lower half of core (i.e. 16,384 cells).  The compatibility
+program, which occuples the upper half of core memory, assumes
+all responsibility for input and output and simulates the 4
+logical drums 1if they are not present on the 709. This
+simulation may be somewhat 1néfficient in €ime.
+
+L Only 2 control cards need be added to the binary
+
+deck. The tape assignments are specified by the control
+card; standard control cards will be available at the Center.
+
+The Compatibility'Program, IBIOC2, is described in
+SHARE Distribution No. 682 and the method in the IBM 709 Data
+Processing System Bulletin, "704-709 Input/Ouput Compatibility .
+Program - Compatibility II, (Form J-28-6039)".
+
+E. Other Programs for Assisting the 704 to 709 Transition
+
+The following three programs have not been tried
+
+by the Center but are brought to your attention:
+1. RL L349 (Share Dist. No. 678)
+"A binary editor for programmed 704-709
+Compatibility" for use on the 709,
+Properties: a) Reads object program as
+.absolute binary cards only and object program
+cannot use trap mode.
+
+b) Editor uses 10,0008 locations and 4000g
+for each logical drum.
+
+c) Debugging features are included in Editor
+which give machine conditions and requests
+that are omn control cards (of the NYDS1 type).
+
+An advantage is that the editor will operate in
+conjunction with the SOS system.

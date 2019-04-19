@@ -1,0 +1,163 @@
+i
+
+4
+
+3
+
+&
+
+4
+
+.
+
+Qe
+
+e
+
+S
+e
+
+c?‘%iﬁift;
+CLEAS
+
+<z
+
+S
+
+N 5
+
+~
+
+ 
+
+ 
+  
+
+STABLE LATTICES
+PART II
+
+HARVEY COHN
+
+10. Introsiuction t(.> Part II. The most interesting cases of stable lattices
+introduced in an earlier volume of this journal (12), were the (algebraic) mod-
+ules of stablfz norm, or modu‘les whose ratio of minimum absolute non-zero
+norm to lattlc;e determinant (1.e.., to the square root of module-discriminant)
+is a local maximum for small variations of the basis. We soon found that these
+modules were perhaps more numerous than we should have desired if we were
+interested only in finding an absolute maximum. Nevertheless stable lattices
+acquire a certain amount of intrinsic interest once we reach the stage where the
+continuous variable concept of “neighborhood of a lattice” leads to algebraic
+criteria of stability. In both these respects the situation displays some similarity
+to the more classical subject of extremal (quadratic) forms (2).
+
+[f the module in question is the module of all integers (i.e., the so-called
+integer-module) of a totally real field of degree n, then the criterion of stability
+depends on the relative signs of the conjugates of the units. This is a specializa-
+tion, (weaker when n > 3), of the classical concept of ‘‘(maximum) signature
+rank 2%,"" used by Weber (13) for instance. We shall merely show, as a significant
+illustration, that the integer-module of the totally real field Ky = R (cos 27/N),
+over the rationals R, has stable norm (except for a few small V).
+
+If we consider fields that are not totally real, the classical problem of signature
+rank becomes vacuous for the imaginary (conjugate) fields while the stability
+criterion that we use becomes more complicated. We shall, however, demon-
+strate a refinement of the ‘“unit star’’ method of Part I (12; p. 265), to obtain a
+criterion that can be readily used to test more general modules. We shall carry
+this through the cubic case.
+
+The big difficulty arises when “too many’ roots of unity occur. We shall,
+therefore, consider as a final example the integer-module of the cyclotomic
+field K¥ = R(exp 2wi/N). This module turns out to have a stable norm if and
+only if N is square-free. This result, which essentially uses the presence or ab-
+sence of a normal basis for KV, should further attest to the algebraic aspect of
+stability.
+
+11. A totally-real illustration. If we specialize somewhat to integer-
+modules of a totally real normal field K, then the criterion of stability (of the
+
+Received September 29, 1953. Presented to the American Mathematical Society September
+2, 1952. Research sponsored by the Office of Ordnance Research, U.S. Army, under contract
+DA-20-018-ORD-12332.
+
+The bibliographical items and section he
+Part I, otherwise referred to as (12).
+
+adings are numbered consecutively with items in
+
+265
+
+-
+T
+
+A S
+S
+
+   
+   
+
+  
+
+AN
+. - « L~
+SEAARAR A ARDS
+
+e 3
+TR ARAAS
+
+e T e
+
+R
+
+e
+
+e
+
+ 
+
+ 
+
+-
+-
+Ly
+
+N . v
+
+ 
+
+ 
+
+ 
+
+   
+
+      
+  
+
+o
+
+-
+- ~
+S
+
+-
+
+\
+™
+I
+
+e
+el e e
+.:"I‘V,Vq(
+'0 l(q
+4
+
+f o fy -( b
+;' Ty ois
+% Y I TS T L3
+e e e e ]
+
+e
+
+eV
+
+ATy

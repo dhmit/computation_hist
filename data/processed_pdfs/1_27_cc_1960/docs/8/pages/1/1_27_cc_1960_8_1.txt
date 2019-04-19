@@ -1,0 +1,36 @@
+COMPUTATION CENTER
+‘Massachusetts Institute of Technology
+
+January 15, 1960
+
+M.I.T. Computation Growth
+A by :
+Professor Herbert M. Teager
+
+M.I1.T's needs for compucatioﬁ“have already outgrown the
+available capacity of the 704. The underlying causes for
+this disparity give every reason to expect that the situation
+will worsen at an'inoreasing rate in the future. The outward
+manifestations of the situation are threefold: first, a queue
+
+l of programmers awalting a chance to run their problems on the
+I TO4 has developed with a one to two day waiting time for
+short runsj second, longer, more ambitious problems requiring
+five to s8ix hours of straight running time cannot be easily
+fitted into the tight schedule and are thus discouraged;
+thirdly, in an attempt to minimize the lengthening queue
+which adversely affects programmer productivity as well asto
+equitably divide up a fixed amount of machine time among re-
+quests which are as of now approximately 30 per cent above
+avallable time, the center has resorted to a system of pri-
+oritlies and percentage cutbacks in time allocations. That
+this 1s not healthy cannot be denied, but there appears to
+
+be no long range solution other than to provide more computa-
+tional capacity, both through improved equipment and more
+efficient programming systems.
+
+The available time of the M.I.T. Computation Center must,
+of course, be shared with the other New England Colleges, with
+one shift of machine time nominally assigned to the other Uni-
+versities. In the past, M.I.T. has been able to "spill over"

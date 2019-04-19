@@ -1,0 +1,204 @@
+vr
+i in sacl
+i
+
+Date of
+Request
+
+29 0 54
+
+29 0 5h
+1NS54
+
+1K 54
+
+8 N 54
+10 N 54
+
+12 BK 54
+16 N 54
+17 RB 54
+18 § 54
+23 N 54
+
+ 
+
+ 
+
+Proposed
+By
+K.Vozoff
+Geology
+
+and
+Geophysics
+
+T.Y.Toong
+Mech.Eng.
+
+Endorsed
+By
+
+P.M. Hurley
+Geol. &
+Geophysics
+
+J. Kaye
+Mech.Eng.
+
+J. H.Laning Jr same
+Instrumentation Lab.
+
+¥M. Rotenberg
+
+CHMMC
+
+CREDIT ALLOWANCE
+
+Description
+
+Analysis of surface electrical measurements in terms of
+subsurface distributions of conductive materials
+
+Dispersion in surface wave trains
+Heat transfer for supersonic flow &f air in a tube
+
+Algebraic transletion routines: an interpretive program
+
+J. Stark Servo response to z ccsine pulse
+
+Instrument.Lab.
+
+G. Koster J.C.Slater Tight Binding @alculations in crystals
+
+SS&HT Physics
+
+M. Saffren J.C.Slater An augmehfied plane wave method as applied to sodium
+SS&MT :
+
+A, Meckler J.C.8later Study of the ammonia molecule
+
+SS&MT :
+
+A. Meckler J.C.Slater Electron lattice interaction in solids
+
+SS&ENMT :
+
+R. Nesbet J.C.Slater Transformation of integrals for diatomic molecules
+SS&MT
+
+B.D.CGavril A .H.Shapiro The aerothermopressor
+
+Mech. Eng. Mech. Eng.
+XY, Shulman R.L.Bisplinghoff Helicopter rotor stability
+
+Aero-elastic Aero. Eng.
+
+Lab,
+
+B.Campbell F.J.Eppling Determination of phase shifts from experimental cross-
+Lab for Nuclear Science sections
+
+T.P.Coodman J.B.Reswick Industrial process control studies
+
+Mech.Eng. Mech.Eng. |
+
+R.G.Mills P.M. Morse Crosscorrelation of blast furnace input-output data
+Elect.Eng. Physics
+
+L. Sartori P.M .Morse Neutron-deuteron scattering
+
+Physics Physics
+
+J. Oretsky
+
+A. Temkin P.M.Horse Coulomb Wave Functions
+
+L, Sa¥tori Physics
+
+Problem Time
+
+Nos.
+
+123
+
+212
+199
+108
+211
+2)
+194
+201 -
+205 |
+218 |
+120
+
+222
+
+162
+213
+180
+
+225
+
+122
+
+Requested
+
+7 hrs
+
+6.5 hrs
+
+15-20 hrs
+
+15 min/wk
+
+5 hrs/wk
+
+80 hours
+
+2 hrs
+
+5 hrs
+2 hours
+2 hours
+
+5 hours
+
+20 hours
+
+Time
+Allotted
+
+7 hrs
+
+6.5 hrs
+
+15 hours:
+
+5 hours:
+
+55 hours
+
+30 hours
+
+2 hrs
+
+5 brs
+2 hours
+2 hours
+
+5 hours
+
+20 hours
+
+
+Credit Allowance continued
+
+23 N 54 A. Tubis P.M.Morse Variation-perturbation of atomic wave function and energies 217 30 min 30 min
+CMMC Physics
+29 N 54 A.T.Ling S.H.Crandall Evaluation of explicit and implicit difference formulas for 228 1 hour 1 hour
+
+CMMC Mech. Eng. the diffusion equation
+
+

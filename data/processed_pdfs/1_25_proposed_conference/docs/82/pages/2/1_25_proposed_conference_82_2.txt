@@ -1,0 +1,52 @@
+Dr. Grad -2 July 13, 1959
+
+ 
+
+myself as chalrman, Professor Walter Freiberger of the Depart-
+ment of Mathematics at Brown University as secretary, and other
+members as noted in the enclosed announcement. It was agreed
+that some time in the next year or two it would be most helpful,
+particularly for the smaller newer centers, to have a confer-
+ence of two or three days on problems of particular interest to
+college computing centers. The discussions could focus around
+four general areast
+
+1. Budget and administration: What are good and bad ways of
+financling centers? What fraction of time can be "sold" and
+what fraction should be free?
+
+2. Computer-oriented research: What are the areas, of real
+intellectual challenge, for research in the use of machines?
+What are the opportunities for theses in these fields, how are
+such theses to be supervised and how are degrees to be granted
+on the basgis of these theses?
+
+3. Curriculum and instruction: What sort of courses should be
+offered? Should courses on machine coding be given for credit
+or as short courses without credit or as parts of other appro-
+priate courses? What advanced courses wlith real intellectual
+content, intimately inveolving computing machines, are belng
+given and in what departments?
+
+4., Computing service to university departments: Who in the
+college should be glven "free time"? What priority system can
+be set up in case of over-demand? How does one distinguish
+between free and paying users? What are appropriate forms for
+interdepartmental supervisory committees to administer such a
+service program?
+
+It was felt that a conference on these four subjects,
+to be held some time next spring or summer, which would result
+in a report embodylng suggestions and mutual agreements on these
+matters, would be of very great help to many directors of college
+computing centers, particularly those just beginning or planning
+to begin. It would seem to me that NSF would also be interested
+in the results of such a conference. Certainly the question of
+how college computing centers fit into their academic structure
+and how they can help more completely to educate scientists and
+engineers is something which has been a subject of discussion in
+various parts of NSF to my knowledge. My question to you, there-
+fore, is an exploratory one: Is NSF interested in such a confere
+ence? Is 1t interested enough to finance it in part or in whole?
+There are at present 85 college computing centers, according to
+the latest list of Professor Reeves of Ohlo State. We had thought

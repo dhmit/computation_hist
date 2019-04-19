@@ -1,0 +1,32 @@
+) L‘r :
+
+c. oimple 402 or SAP-Regular Run Conversion to i
+rhepre are two possibllitiles in thils case: &)
+
+convert the whole sroblen Anto Woprtron source languaye, ov
+
+(2) cofivert centain seetiniy Lo AP Subprowrans and the othc.
+
+into Portran Suvpragicihs,
+
+Phe- flrsc casce mey scen difficult at first to
+
+those who have not used Fortran, put many computatlonal problems
+
+are described easily in lFortran. inother factor to consilder
+
+for those who have becn using UABDCY for output is that the
+
+Tormat soccification in Portran is identical. The nunber of
+
+mathematical subroutines written for use with Fortran has
+
+recently increascd ereatly; thus, in many cases the original
+
+motivation for using machine language coding has been removed.
+
+in example 1s presented of a simple program that
+
+was SAP-coded on the Ol and may be converted to FiP and
+
+Fortran subnrograms for the '709.

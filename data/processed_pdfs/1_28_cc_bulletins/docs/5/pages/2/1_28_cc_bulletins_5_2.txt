@@ -1,0 +1,40 @@
+-9
+
+CC-176-1 Octal Correction Cards Within the FMS
+System. n update of the description
+o% octal correction cards.
+
+EQUIPMENT CHANGES
+
+About the middle of August, the Center will install
+an IBM 1301 Disk File as a high-speed auxiliary memory
+device replacing the tape units on channel C of the 7090,
+The installation of the Disk File should take several
+days; the 7090 will not be in operation at this time.
+
+Since proper use of this file by many users requires
+a standard executive program, this device may become
+available only on a limited basis and then only after the
+Center is satisfied that the necessary subprograms are
+available and checked out.
+TIME ESTIMATES
+
+The following is a revision of time estimates from
+those published in BULLETIN 20: '
+
+FORTRAN
+.2 + .004n =‘miqutes/compilation
+MAD olan
+.1 + .0016n = minutes/compilation
+FAP
+.0004n = minutes/assembly
+where n is the number of cards. When several compilations
+
+in the same language are being done in one job, add the
+following amounts to the calculations. For every additional
+
+FORTRAN .07 minutes
+MAD .1 minutes
+FAP .04 minutes
+
+Loading time for binary decks is 6000 cards/minute.

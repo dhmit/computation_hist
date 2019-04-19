@@ -1,0 +1,139 @@
+February 27, 1957
+
+Dr, J. B. Robertson, Chairman
+ACM Program Committee
+University of Illinois
+Urbana, Illinois
+
+Dear Dr. Robertson:
+
+Enclosed in quadruplicate are copies of an abstract
+and a summary of a proposed paper entitled "The M.I.T. Auto-
+matic Coding System for the I,B.M, 704, to be given at the
+June meeting of the ACM,
+
+The paper describes work which was carried out
+jointly by the staff of the M.1.T. Computation Center, and, if
+accepted, will be read by one of the undersigned.
+
+Sincerely yours,
+A, Biegel
+
+¥F, C, Helwig
+
+8S, PF. Best
+
+AS:gn
+Enclosures
+
+
+SUNBARY
+THE B.I.T, AUTOMATIC CODING SYSTEM POR
+THE 1.B.M, 704
+
+Abstract
+
+An automatic coding system, which, it is hoped, will
+be useful te novice and expert coders alike, is being developed
+for use on the I.B.M, 704 at the M.1.7, Computation Center. The
+system is not yet in operation, but its underiying philosophy is
+alveady clear, It is felt that the new developments embodied in
+the M.I.T. system will be of interest to others ai this time,
+The principal features of this system are:
+
+1} The inclusion of an advanced algebraic language and
+of elementary machine code in oe comprehensive coding system,
+
+2) The provision for defining functions {i.,e., sub-
+routines) at will within the algebraic language, and the separa
+tion of the defining process frem the computing process,
+
+3) The use of symbolic addreasing to facilitate the
+interliaking of the algebraic and machine languages,
+
+
+Digital Computer laboratory
+Hassachusetis Institute of Technology
+Cambridge 39, Massachusetts
+
+Summary
+
+THE MIT AUTOMATIC CODING SYSTEM FOR THE IBM 704
+
+ 
+
+The objective of automatic coding is to simplify the process of
+solving problems using s digital computer. This is commonly done by pro-
+viding the programmer with a coding language which is easier for him to
+use than the computer's own instruction code. Automatic coding can be ap-
+proached on many levels~-early systems (and meny later ones) employ a lan-
+guage cloge to the machine language (machine-like), whereas more elsborate
+recently-developed systems offer a coding language that approximates more
+or less successfully ordinary slgebraic notation (human-like).
+
+For obvious reasons, = human-like coding language is more ac
+ceptable to the average coder than is a machine-like one, It has the
+virtue of familiarity; there is little new to be learned, and the re-
+organization of thought made necessary by the computer is kept to a mini-
+mum, Nopnetheless, proficient coders often prefer to use a machine-like
+language, objecting that the human-like ones sre so far removed from the
+details of the machine that the full capabilities of the computer cannot
+be exploited, OUGiten, therefore, the most advanced automatic coding sys-
+tems are used by inexperienced coders, while the experts choose to uti
+lize their intimate Enowledge of the computer in ways permitted only in
+machine code.
+
+An autematic coding system, which, it is hoped, will be useful
+to novice and expert coders elike, ig being developed for use on the I BM.
+704 at the H.E.T, Computation Center. The system is not yet in operation,
+but its underlying philosophy is already clear, It is felt that the new
+developments embodied in the HM.I.7. system will be of interest to others
+et this time, The principal features of this system are:
+
+1) The inclusion of an advanced human-like language and of an
+elementary machine~like language in one comprehensive coding system,
+
+
+oie
+
+    
+
+a 73 > 2) The PEOViS ian Lop Gefinggg functiong gy, q . Subroutineg) at
+or Will wiengy the algebraje languagy “nd the Separation of the Sefining pr.
+
+Baching nsiractiogg Walch exepyge CEputationg descrived ip thie language,
+Le muchige code itoeig, bowever, Wiil alge be pare of the ing: languege
+SNC & couplote Bietonie ang Symbolic Mlehine- language assemble will ne
+included Within the Coding System, xo “Rphasig will pe Placed op @ithey
+language; SGth wila La Sgualiy Sceeptadle, sad the Coder mgy Yev¥ert from
+
+“Rreutines witan gq 4 the “£ebrate language
+
+fabrout ine Ldbrapy This jg done Blmply by Eiviag the Coding needed go
+@valuage the function, using the lgebraie and Baching language Rotation
+“ployed gop the rege ef the Progra, ihe Coding thas define , function,
+however, is dletinguigneg from othe, Coding uring input and ig Feneratey
+in the form of Closeq Bubrouting in this Vay, the familia, Rotion of
+function introdueeg Subroutingg inte the elgehraye language “nd Bageg bog
+Bible wmope “Cfidiens Geding
+
+
+Interlinking the two languages
+
+Bach algebraic instruction (numerical or logical) gives rise in
+the final program to a sequence of generated machine instructions. The
+length of this sequence and its location in storage are unknown to the
+coder, Nonetheless, he msy tag an algebralc instruction with 2 symbolic
+address, just as ho would a machine instruction, A symbolic address so
+assigned is always associated with the first generated instruction, so
+that control nay be transferred (possibly by use of a2 machine instruction)
+to the start of the generated sequence, Hgually important, the constants
+and variables appearing in the algebraic instructions may also be referred
+to in the machine-lasngusge portions of the program, A storage location is
+automatically assigned for each of these quantities during input, and a
+symbolic address is algo assigned at the same time, Thus, the variable X
+will always be stored at symbolic address X, and the constant 34 at syabolic
+address (24). The intermizing of algebraic and machine language is, in this
+way, facilitated, and efficient programs combining the two are made possible,
+
+

@@ -1,0 +1,47 @@
+February 12, 1957
+
+Professor FF. M. Verzuh
+
+Room 20C-206
+
+Massachusetts Institute of Technology
+77 Massachusetts Avenue
+
+Cambridge, Massachusetts
+
+Dear Professor Verzuh:
+
+This is to confirm our conversation of yesterday concerning the
+special devices being ordered for the 704. If you will refer to my letters of
+August 9, 1956 and September 25, 1956, they enumerate all the special de-
+vices which have been considered for the 704.
+
+I have now been informed that the instruction Back Space Fileis
+still being engineered and we do not have any estimate of when it will be
+available for installation. The instruction for Modification of Read-Write
+Check is still under discussion as a result of the last Share meeting and there
+is no definite decision on the availability of this. The two modifications for
+Overflow Indicators and Floating Point Trap have been revised in terms of a
+newly announced feature called Floating Point Tra Device and this device
+has been ordered and should be available by August 1957.
+
+The Ribbon Inking Device is not particularly essential for operation
+
+of the 704. This is also being re-engineered and may be available at some
+later date.
+
+To the best of my knowledge all other devices are either on the 704
+
+at this time or will be installed when the machine is physically installed at
+MIT in April,
+
+Sincerely yours,
+
+a5 Ee CAAA ANAA AA
+
+G. Truman Hunter
+GTH/ jeh
+
+cc: Prof. P. M. Morse ,
+
+

@@ -1,0 +1,177 @@
+_V.‘\‘. S
+Saiite
+L 3N
+
+o
+
+,\\
+2
+..\\'\
+a >
+
+3 §§ 2
+
+-
+>
+
+L
+
+e
+AL S
+R
+AL -
+
+S
+S
+
+\"-
+X
+
+e ateay
+B
+
+3
+ég
+3
+
+e
+»
+-
+s
+-
+
+Fees
+
+|
+3
+
+b
+
+X
+A
+
+A
+AT
+-
+.‘.“
+
+% "“-'-_\
+
+Sy
+)
+S
+\ PSS Y
+.
+
+o
+
+ 
+
+5
+
+ 
+ 
+
+A
+oy
+
+1S
+
+o N
+
+ 
+
+T
+-
+
+ 
+ 
+ 
+ 
+
+>
+o
+b-‘
+
+o
+C\
+-~
+
+»
+
+   
+  
+  
+   
+ 
+ 
+ 
+  
+ 
+ 
+
+... >
+
+ 
+
+ANNALS OF MATHEMATICS
+Vol. 61, No. 1, January, 1955
+Printed in U.S.A.
+
+APPROACH TO MARKOFF’S MINIMAL FORMS
+THROUGH MODULAR FUNCTIONS
+
+By Harvey Conn!
+
+(Received March 26, 1954)
+
+1. Introduction
+
+In 1879, Markoff (7, 3]" derived, by means of continued fractions, an infinite
+sequence of integral indefinite binary quadratic forms whose minima are greater
+in absolute value than one-third the square root of the diseriminant. The method
+of continued fractions provides probably the most direct approach and was
+used even more intensively as the subject of diophantine approximations de-
+veloped [6]. Nevertheless, a parallel development was started by Frobenius
+[5, 2] in 1913, using properties of quadratic forms. In between, however, in
+1896, Fricke [4] had considered groups of substitution matrices generating
+fundamental domains of genus one in the upper half plane. In setting up group
+generators, Fricke had made use of identities of the type:
+
+(1.1) S(A) + &(B)’ + S(4AB)’ = S(4)S(B)S(AB) + S(ABA'B™") + 2
+and
+(1.2) S(BAB) + ©(4) = S(B)S(AB),
+
+where A and B are real unimodular matrices and & is the trace. The verifica-
+tion of these identities is straightforward, (compare (1, pp. 472, 481]), yet the
+close resemblance of these identities with Markoff’s equation and its recursion
+formula, (equations (5.5) and (5.3 bis) below), seems to have somehow escaped
+notice.
+
+In this treatment, we give a new derivation of Markoff’s minimal forms, char-
+acterized by arithmetic restrictions on Fricke’s problem.
+
+ 
+
+ 
+
+ 
+
+2. Fundamental Domain
+We start with a fundamental domain of genus one in the z-plane belonging to
+some group G with a specific representation in r »al unimodular linear substitu-
+tion matrices, denoted as follows:
+
+ay a2 , b1y bye
+A= 5 B = , etc.,
+(2.1 ) a Q22 bay b
+Ay Aoy — A12021 = ], ()11 l)-_)-_g = ’)13 b;n = 1, etc.
+
+ 
+
+! Presented to the American Mathematical Society, April 24, 1953. Research sponsored
+
+by the U. S. Army Office of Ordnance l{es'c:u.‘ch under contract No. DA-20-018-ORD-12332.
+2 Numbers in brackets refer to the bibliography at the end.
+
+1

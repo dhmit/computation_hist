@@ -1,0 +1,34 @@
+Transcript of conversation held between Dr. Hill
+~and Professor Charney during M.l.T. Centennial
+
+ 
+
+Hilil: How big a computer could you use, all by
+yourselif, twenty-four hours a day, to
+pursue meteorological problems? Assume
+that you have all the operational help
+you need,
+
+CHARNEY: I probably could use a 70350 if I wanted
+to devote all of my time to it - which
+I do not., I would like about cne hour
+per day on a 7090 for everyday use and
+indefinite time on a Stretech Type
+occasionally.
+
+Hill: For instance, say you were willing to
+devote all your time, Would the above
+statements change?
+
+CHARNEY: Yes.
+Hill: How?
+
+CHARNEY: The 7080 now, Stretch later, say in five
+years.
+
+4/26/61
+
+AGH: bl
+
+¢cc: Profs. Fano and rse
+Dr, Wiesner

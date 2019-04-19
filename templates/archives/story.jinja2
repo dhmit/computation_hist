@@ -1,0 +1,13 @@
+{% extends "base.jinja2" %}
+
+{% block title %}
+{% block story_title %}{% endblock %}
+{% endblock %}
+
+{% block header %}
+{{ self.title() }}
+{% endblock %}
+
+{% block content %}
+{% block story_body %}{% endblock %}
+{% endblock %}

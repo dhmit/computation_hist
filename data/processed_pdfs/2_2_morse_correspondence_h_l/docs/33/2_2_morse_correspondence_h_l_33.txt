@@ -1,0 +1,751 @@
+Conductance and Relaxation Time of Electrons in Gold Blacks from Transmission
+. and Reflection Measurements in the Far Infrared
+
+Louis HARRIS AND ARTHUR L. LOEB
+
+Reprinted from JOURNAL OF THE OPTICAL SOCIETY OF AMERICA, Vol. 43, No. 11, pp. 1114-1118, November, 1953
+
+
+Reprinted from JourNAL oF THE OPTICAL SoCIETY OF AMERICA, Vol. 43, No. 11, 1114-1118, November, 1953
+Printed in U. S. A.
+
+Conductance and Relaxation Time of Electrons in Gold Blacks from Transmission
+and Reflection Measurements in the Far Infrared*
+
+Louis HARRIS AND ARTHUR L. LOEB
+Department of Chemistry, Massachusetls Institute of Technology, Cambridge, Massachusetls
+
+(Received July 3, 1953)
+
+The electrical conductivity of gold blacks is evaluated from reflection and transmission measurements in
+the far infrared. For sufficiently thin samples and sufficiently large wavelengths a closed expression is derived,
+relating the electrical conductivity of the gold black directly to the absorption and transmission coefficients.
+It is found that the electrical conductivity varies with wavelength, and for wavelengths larger than 105
+microns this variation is attributed to a relaxation effect. The relaxation time of electrons in gold blacks is
+
+found to agree closely with that in bulk gold.
+
+INTRODUCTION
+
+ETAL blacks have been found! to have a very low
+density, and yet they conduct a direct current.
+This has led to the conclusion that their structure is
+yarn-like, with conducting strands spaced relatively
+far apart. Maxwell's theory of electromagnetic radia-
+tion has been applied to correlate the optical (infrared)
+and electrical properties of the blacks. When radiation is
+incident on a black, a rapidly alternating field acts on
+the electrons in the black, and the conductivity ex-
+presses the response of the electrons to the imposed
+electrical field. Several factors may make the conductiv-
+ity dependent on the wavelength.
+
+(A) Gaps in the metal strands consisting of either
+insulating impurities or air, do not pass a direct current,
+but may act as condensers. Since the impedance of a
+branch of an electrical network containing a condenser
+depends on the frequency, the apparent conductivity of
+interrupted strands in gold black changes with the
+frequency of the incident infrared radiation. Thus the
+“optical conductivity’’ computed from transmission and
+reflection data is actually an admittivity. With increas-
+ing frequency of the incident radiation more strands
+become capable of conducting current. Therefore this
+“condenser effect” causes the optical conductivity to
+decrease with increasing wavelength of the incident
+radiation.
+
+(B) According to Drude? and Zener? electrons have a
+finite relaxation time, which causes them to lag behind
+the imposed emf. This lag increases with increasing
+frequency of the imposed field. This “relaxation effect”
+causes the effective conductivity to increase with in-
+creasing wavelength of the incident radiation.
+
+(C) At resonance frequencies the optical absorptivity,
+and hence the conductivity computed from optical
+measurements, passes through a maximum.
+
+For gold blacks the effects of the three factors (A),
+(B), and (C) appear to predominate in different wave-
+
+ 
+
+* This work supported in part under contract with the U. S.
+Office of Naval Research.
+
+1 T,. Harris and J. K. Beasley, J. Opt. Soc. Am. 42, 134 (1952).
+
+2 P. Drude, The Theory of Optics (Longmans, Greene and Com-
+pany, New York, 1902).
+
+3 C. Zener, Nature 132, 968 (1933).
+
+length regions. Resonance frequencies lie mostly in the
+visible and near infrared regions. For wavelengths
+greater than 100 microns only those strands appear to
+conduct which can conduct direct current. Conductivity
+across gaps only occurs appreciably for wavelengths
+shorter than 100 microns, as will be shown below. Since
+the measurements reported in this paper were all made
+with radiation of wavelength greater than 100 microns,
+the relaxation effect is the dominant one to be con-
+sidered here.
+
+THEORY, PART I. CONDUCTIVITY AS A FUNCTION OF
+ABSORPTION AND TRANSMISSION
+
+Harris, Beasley, and Loeb* have derived expressions
+for the reflection and transmission of radiation by thin
+conducting films as functions of the optical constants,
+n and k, of the film, the thickness of the film, the index
+of refraction of a nonabsorbing backing for the film, and
+the wavelength of the incident radiation. The backings
+used for the gold blacks under consideration here were
+examined separately in the far infrared, and were ob-
+served to be 100 percent transmitting. Their index of
+refraction is therefore effectively unity, so that Case III
+of the above reference! applies here:
+
+| (Zoa—Zao)t sink a |?
+|2 cosKaa—1(ZoatZ a0) sink oa|*
+4
+T= :
+|2 cosK sa—i(Zoat Zao) sinK,a |?
+
+ 
+
+(1)
+
+ 
+
+(2)
+
+where R=fraction of incident radiation reflected,
+T=fraction of incident radiation transmitted, Zoa
+—=n+ik, n=index of refraction of conducting film,
+k=absorption coefficient of conducting film, Zao
+=1/Zoa, i=A/—1, Ko= (27/\) (n+1k), \=wavelength
+of incident radiation, and a= thickness of conducting
+film. The optical constants are related to the conductiv-
+ity and permittivity of the media by the relations
+
+nk=2Yucea(\/ma), (3)
+
+n*—k*= (ue/ woo), (4)
+i Harris, Beasley, and Loeb, J. Opt. Soc. Am. 41, 604 (1951).
+
+1114
+
+
+Vol.
+1115 L. HARRIS AND A L..LOEB ol. 43
+
+where o= conductivity of the conducting film, e=per-
+mittivity of the conducting film, go= permittivity of
+vacuum, w= permeability of the conducting film,
+uo= permeability of vacuum, and ¢= velocity of radia-
+tion in vacuum. The quantity ucoa is dimensionless, and
+is called “reduced conductivity per square” of conduct-
+ing film. As will be seen below, it is directly related to
+the optical properties of films.
+
+The inverse relations of Egs. (3) and (4) are given by
+Eqs. (5) and (6):
+
+n= Luec[ {+ (ucoa)* (vec: 2ra/N Hc] (5)
+k= tuec[ {+ (ucoa)* (nec 2ra/N) 2} —c] (6)
+
+|i2ra/NM (ue/ moto) — 1} + 3tucoa (\/ma)|*
+
+gi 20 1— (2m%a?/N){ (we/ ozo) + iucoa (\/ra)) ]—i(2ma/N){ (we/ woe) + 1+ 3iucoe (\/ma)} |*
+4
+
+EE te IE er a TEE
+
+pee |2[1— (2n%a%/N2){ (we/ moro) + 2iucaa(N/ ra)} ]—i(2ra/N){ (ue/ wero) + 1+ 310000 (\/ma)} |?
+
+Defining the absorption coefficient 4 as
+A=1—R-T
+
+and substituting for R and 7 the expressions given in
+Eqs. (7) and (8) produces
+
+A/T = (zwa/N)*(ucoa)*+ {1+ (2n%a*/\?) } ucoa. (9)
+
+Equation (9) is very useful for applications in the infra-
+red, for it relates the electrical conductivity of the film
+directly to the absorption per unit transmission of the
+film. The only condition to its application is that the
+ratio of film thickness to wavelength be sufficiently
+small. While reflection and transmission are themselves
+extremely complicated functions of both conductivity
+and permittivity of the film as demonstrated by Egs.
+(7) and (8), the right hand side of Eq. (9) is independent
+of the permittivity of the film, and is a simple quadratic
+function of the reduced conductivity per square of film.
+As the ratio a/\ approaches zero, ucoa approaches A/T
+asymptotically, and ceases to depend explicitly on a/A.
+Thus, for thin films, the explicit dependence of ucea on
+film thickness is only very slight. This is very important
+when the conductivity per square film of metal blacks
+is to be determined from experimental data on A/T, for
+the density and consequently the thickness of the blacks
+are not easily found accurately. The expression 4/7 =
+(1—7T—R)/T depends for metal blacks largely on the
+transmission, and less so on reflection. This is because
+blacks have rather indistinct surfaces and hence small
+reflectivity. This reflectivity may be somewhat diffuse
+rather than completely specular, a fact not recognized
+when the measurements reported here were made. The
+
+® When the wavelength is small compared to the film thickness
+the optical density (logiol/T) is directly proportional to coq,
+For long wavelengths interference effects must be taken into
+account as is done in this paper.
+
+aper the reduced conductivity is con-
+rail than the optical constants.
+However, the optical constants can be calculated, where
+desired, by the use of Egs. (5) and (6). When the wave-
+length is large compared to the {hicknoss of the gold
+black, the expression | (n+ ik)2ma/ A|%is small,® for # and
+k rarely exceed 3.5. The following approximations may
+be used when | (n+ik)2ma/N|*<K1:
+
+sink .0=2K qa,
+cosK .a=21—% (Kqa)*
+
+Substitution of these expressions and Egs. (3) and (4)
+into Eqs. (1) and (2) produces:
+
+(7)
+
+(8)
+
+value for the reflection used may therefore be somewhat
+low, but this error does not affect the value of A/T very
+much.
+
+RESULTS, PART I
+
+Table I lists the results of reflection and transmission
+measurements made at The Johns Hopkins University
+on four gold black samples at three different wave-
+
+TagLE I8. Observed reflection and transmission of gold black
+deposits at different wavelengths; calculated ra/\ values for the
+deposits, assuming different densities.
+
+ 
+
+_—
+
+A R T wa /N\ wa/N\
+Sample microns percent x=150 x =500
+53 105 13.0 25.5 0.295 0.984b
+345 16.2 25 0.0900 0.300
+455 19.5 21.6 0.0682 0.227
+57 105 10.7 41.2 0.162 0.539
+345 7.8 40.8 0.0492 0.164
+455 8.8 37.1 0.0373 0.124
+58 105 10.1 304 0.196 0.653
+345 9.7 36.8 0.0597 0.199
+455 8.8 34.1 0.0452 0.151
+S52 105 2.2 73.4 0.0693 0.231
+345 2.6 09 0.0211 0.0703
+455 5 67 0.0160 0.0533
+
+I  —
+
+_— —
+
+* Reliability of data is ~1 percent.
+b Equation (9) not applicable. :
+x is the ratio of the density of bulk gold to that of the gold black deposit.
+
+lengths in the far infrared. The density of these samples
+is 300 to 500 times as small as that of bulk gold.! Table
+I also contains values of wa/\ for all samples and wave-
+lengths, computed from the weight per unit area 0
+sample, using for the ratio of the density of bulk gold to
+that of the gold black the values x= 150 and a= 3500.
+Equation (9) is not applicable to all cases enumerated in
+Table I, particularly for x= 500 because the requirement
+
+| (nik) 2ma/N 21 is certainly not satisfied when
+wa/\~1.
+
+ 
+
+ 
+
+November 1953 GOLD BLACKS TRANSMISSION REFLECTION IN FAR INFRARED 1116
+
+The cases where Eq. (9) applies were solved first, and
+by extrapolation from the results thus obtained first
+estimates were made for the other cases. This procedure
+thus yielded twenty-four values for ucoa, namely one for
+each of four samples at three wavelengths, assuming
+two values of the density ratio of bulk gold to gold black.
+Of these twenty-four values most were assumed to be
+good approximations because they were obtained from
+Eq. (9) under conditions where this equation is pre-
+sumably applicable. The remainder were considered
+only first estimates in a series of successive approxima-
+tions. The entire set of values was subjected to the
+following test which served both as a check on the
+approximate method, and as part of a successive ap-
+proximation method where the need for more accurate
+computations was indicated.
+
+From the estimate of ucsa the optical constants » and
+k were calculated, using Eqs. (5) and (6). For these
+calculations a knowledge of & and wu is required. The
+latter quantity can, for non-magnetic films, be set equal
+to that of vacuum, i.e. w=wuo. The permittivity of a
+mixture is a linear combination of the permittivities of
+the components, each component being weighted by its
+relative concentration. Gold blacks consist of only a
+fraction of a volume percent of gold; their permittivity
+can therefore be approximated by that of air e~go. It
+should be emphasized that this approximation is only
+used in testing the applicability of Eq. (9), but never
+to obtain results when Eq. (9) does apply.
+
+Setting u=wuo and e=g, in Eqs. (5) and (6) enables
+one to obtain # and k. When zn and % are known, R and 7°
+can be calculated from Eqs. (1) and (2); this computa-
+tion was carried out on Whirlwind I, the electronic
+digital computer at the Massachusetts Institute of
+Technology. From the values of R and 7 thus obtained
+A/T was calculated and compared with the observed
+value. The values of ucoa leading to computed values of
+A/T in agreement with the observed ones are listed in
+Table II together with the observed and calculated
+values of 4/7. Two interesting observations can be
+
+TasLe II. Reduced conductivity per square, and absorption per
+unit transmission for different densities of gold black deposits.
+
+ 
+
+ 
+
+Sample A Wcoa A/T
+calculated observed
+x =500 x=150 x =500
+
+Il
+ot
+wu
+<
+
+microns x
+
+105
+345
+
+4)
+os
+ind
+=~
+ro
+pa
+
+Nn
+
+~1
+
+Ra —
+
+oo
+
+won
+Pt et bh "BODO NO
+EE laa
+
+I
+
+4
+bo
+’ —
+OS
+Jt
+—
+[7
+(IN
+
+0.41
+0.42
+
+= i Goo nt 1 0 i 0 DO Tl
+
+bo —
+
+wn
+
+oe
+
+rk
+
+=
+
+wn
+OOS rt = = POO
+OO a = BONO
+Ha He Go ~T On bo nn Le = STW
+
+to —
+OO Dr DONO
+
+bo =
+CS
+iS
+p—
+
+x is the ratio of the density of bulk gold to that of the gold black deposit.
+Mcoa is the reduced conductivity per square of deposit.
+
+A is the fraction absorbed.
+
+1 is the fraction transmitted.
+
+TasLE III. The dc conductivity for gold blacks
+
+Ucodca*
+By extrapolation in Fig. 1b From resistance
+Sample x =150 x =500 measurements
+33 2.6 2.3 1.8
+57 1.4 14 0.96
+58 1.6 1.5 1.2
+52 0.44 0.44 0.38
+
+a Ucodca is the reduced dc conductivity per square of film,
+b x is the ratio of the density of bulk gold to that of the gold black deposit.
+
+made in Table II, namely that for the thinnest sample
+(sample 52) wcoa= A/T within the accuracy reported
+and that the results for the two extreme values of the
+density ratio assumed are not very different. Only two
+digits are experimentally significant.
+
+THEORY, PART II: RELAXATION TIME OF ELECTRONS
+IN METAL BLACKS
+
+The experimental results indicate that the conduc-
+tivity at 455u is consistently higher than at 105g.
+Harris and Beasly' have indicated a decreasing conduc-
+tivity as the wavelength increases form 7u to 15u, this
+conductivity being about 1.75 times their dc conduc-
+tivity and about twice the value reported in Table II
+for 105u. Thus the conductivity goes through a mini-
+mum between 7p and 455u. The increase of conductivity
+with increasing wavelength on the long-wavelength side
+of the minimum indicates that the relaxation effect
+predominates here. The decrease of the conductivity
+with increasing wavelength on the short-wavelength
+side of the minimum indicates that here the condenser
+effect predominates. The relaxation effect therefore
+appears to predominate in at least the major portion of
+the wavelength region 105u <A <4355y, though the exact
+position of the minimum is not known. The following
+analysis shows, at least semiquantitatively, that the
+condenser effect may be neglected in the wavelength
+region \> 105u.
+
+The admittance of a system of strands can be esti-
+mated by an equivalent electrical circuit containing
+condensers and resistors. The fact that blacks conduct
+direct currents indicates that there are uninterrupted
+conducting paths in the black. These paths may be
+quite devious and much longer than the shortest
+distance between the electrodes used to measure direct
+current conductivity; they are represented in the net-
+work by a series of resistances. There may be shorter
+paths between the electrodes which pass through gaps
+or through nonconducting impurities in the strands.
+Such gaps are represented by shunt condensers in the
+equivalent circuit. The admittance of these condensers is
+zero for direct current, but increases with increasing
+frequencies. Therefore an increasing number of paths
+participate in passing current as the frequency increases,
+so that the conductivity will increase appreciably when
+the wave ength becomes less than a critical value Ac. At
+this critical wavelength the admittance of the shunt
+
+
+1117 L. HARRIS AN
+
+condenser at least equals that of the shunted resistance,
+ie. Cw.=G, where w.=2mc/\c, where ¢ 15 the velocity
+of radiation in vacuo, C the capacitance of the condenser
+and G the conductance of the shunted resistance.
+Therefore A\.=2mcC/G. The conductance and capacl-
+tance can be expressed in terms of the conductivity of a
+metal strand, o,; the permittivity of a gap, ¢; the cross-
+sectional area of a strand, which is also the plate area
+of the condenser, 4 ; the length of a strand, /; and the
+total length, d, of all the gaps in the strand:
+
+G=0,4/l and C= (ed)/ (4rd).
+Therefore,
+
+N= 1dcle/ (0d).
+
+When the permittivity of the gaps equals that of
+vacuum, ce= (376.7)~" mho. For bulk gold the conduc-
+tivity is of the order of 10° mho/cm; this value 1s an
+upper limit for the conductivity of a strand. Denoting
+the ratio of the conductivity of a gold strand to that of
+bulk gold by “kh” one obtains ,~10% mho/cm,
+0<h<1. Therefore A\:~1.33X107" l/dh microns. The
+assumption that the condensers do not contribute ap-
+preciably to the conductivity of the black 1s justified if
+
+\<100u, ie. if dh/I>1.33X107".
+
+As conservative estimates, let /# be not more than 107%,
+and let the total length of gapsina strand add up to not
+more than 1 percent of the length of the strand. These
+values would lead to a lower limit of dh/l, namely
+dh/I~10~4, which still exceeds 1.33X 107% by a large
+factor. Therefore it may be concluded that A,< 100g, so
+that the condenser effect need not be considered in the
+wavelength region A> 100g.
+
+The relaxation effect is therefore very suitably studied
+by means of radiation of wavelength greater than 100g.
+Drude? and Zener® have considered forces acting on the
+electrons that are proportional and opposite in direction
+to their velocity, hence frictional in nature. They
+derived the following expression for the conductivity:
+
+2 Noe TA?
+
+o=—, (10)
+47%’ r*+N
+
+where o= conductivity, 7o= concentration of electrons,
+¢= electronic charge, 7=time necessary for average
+velocity to drop to a fraction 1/e times its original value
+(relaxation time), c= velocity of radiation in vacuo, and
+\= wavelength of radiation. Letting A go to infinity in
+Eq. (10) produces
+
+Odc= limg = 2we* nor. (11)
+Dividing Eq. (11) by Eq. (10) gives
+(ucoaca/ucoa)=1+7*(2wc/N)> (12)
+
+From Eq. (11) it is seen that dc measurements only
+give information about the product of the electron
+concentration and the relaxation time. Eq. (12) shows
+
+ 
+
+PD A. L. LOEB Vol. 43
+that measurement of the conductivity at various wave-
+lengths can produce data from which to derive the
+relaxation time independently. It 1s hoped that a series
+of Hall effect measurements Now being performed will
+yield independent information about the electron
+
+concentration.
+RESULTS, PART II
+The dc Conductivity
+
+Equation (12) can be used to determine the relaxation
+time if the reduced conductivity per square, ucoqca, is
+known. This value was found by plotting, in Fig. 1,
+(ucoa)~ vs (2m/N)% using as experimental values those
+reported in Table II. Extrapolating this curve, which
+theoretically should be a straight line, gives as the
+ordinate intercept (ucoaca)™, for the ordinate axis
+represents A= ©. Harris and Beasley! have reported
+values of dc conductivity obtained by direct electrical
+measurements, which are applicable to the samples
+described here. Table IIT lists the values of uco ca deter-
+mined both by extrapolation of the data of Table IT and
+by direct measurements performed on these samples
+prior to the long-wavelength measurements. The extra-
+polated values do not agree very closely with those
+obtained by direct measurement. The discrepancy is
+believed to be the result of slight sintering of the samples
+as a result of the measurements with long wavelengths.
+While the samples did not appear to the eye to be sin-
+tered, and while the transmission at 7 was found to be
+practically unchanged after the longer wavelength
+measurements had been made, slight sintering does not
+affect the optical properties equally at all wavelengths.
+The physical reason is that sintering removes some of
+those gaps that prevent current flow through inter-
+rupted strands at wavelengths greater than 100u. Thus
+the dc conductivity and the conductivity for very long
+wavelengths increase on sintering. At 7u the admittance
+of the gaps is so much larger that they do not inhibit
+current flow; on this basis the higher conductivity at
+7u as compared with that at 100u was explained above.
+The removal of gaps therefore does not increase the
+conductivity at 7u nearly as much as that at 100g. It has
+been observed that a sample that sintered sufficiently so
+that a brownish cast was observed, had at least a three-
+fold increase in dc conductivity. Since the discrepancy
+between the values obtained by the two measurements
+reported in Table III is much less than threefold, the
+amount of sintering that would account for the dc
+discrepancy is not nearly enough to alter the appearance
+of the sample in visible radiation. For the same reason
+the measured values at 7 are not nearly as sensitive t0
+sintering as those made in the wavelenegth region beyond
+100x and with direct current.
+
+The Relaxation Time
+
+From the slopes and intercepts of the curves drawn in
+Fig. 1 the relaxation time is computed. The results are
+
+—
+
+S— et]
+
+November 1953 GOLD BLACKS TRANSMISSION REFLECTION IN FAR INFRARED 1118
+
+3.0
+
+—— TITTY
+——— maT
+a ——— Te
+———
+
+ 
+
+0 1.0 2.0 3.0 x 10%%5ec”?
+
+2mwe 2
+{i
+
+Fic. 1. (Reduced conductivity per square, ucoa)™ vs. (wave-
+length/2r¢)~2 of four gold black samples. x is the ratio of the
+density of bulk gold to gold black.
+
+listed in Table IV, and agree remarkably well with each
+other and with the value 7~10~" sec reported® for bulk
+metal. The agreement between the values calculated
+assuming different values of the density ratio is reassur-
+ing. Thus a relaxation time of electrons in gold blacks
+of the same order of magnitude as that of electrons in
+bulk gold can account for the wavelength dependence
+of the conductivity observed for four gold black samples.
+The choice of wavelengths A=345y and A=455u was
+made before the theoretical analysis was performed.
+In Fig. 1 these two values are seen to be so close together
+for the study of relaxation times as hardly to represent
+independent measurements. It is hoped that the results
+presented here may stimulate further measurements in
+the region 105u<\<345u in order to check the linear
+dependence of the reciprocal reduced conductivity per
+square on the square of the reciprocal wavelength.
+
+CONCLUSIONS AND SUMMARY
+
+The range of wavelengths larger than 105. appears
+very useful for the investigation of the behavior of
+
+«electrons in metal blacks and their absorptive power.
+
+While dc conductivity measurements only give the
+product of electron concentration and relaxation time,
+the determination of the conductivity by optical means
+at various wavelengths provides an independent means
+of determining the relaxation time.
+
+The relaxation time of electrons in blacks was found
+to be of the same order of magnitude as that in bulk gold.
+This would indicate that the amplitude of oscillation of
+the electrons is so small that the fine state of division of
+gold in a black does not hinder the response of the elec-
+trons to radiation of wavelength greater than 100g.
+
+6 Frederick Seitz, The Modern Theory of Solids (McGraw-Hill
+Book Company, Inc., New York, 1940), first edition, p. 639.
+
+A closed expression was derived for finding the con-
+ductivity of thin films at large wavelengths in terms of
+the observed transmission and absorption of any film,
+whether a black deposit or a bright film. It has been
+shown that the reduced conductivity per square of film
+is a very fundamental property of metal films and a very
+useful one because (A) it determines directly the optical
+behavior of the film and at long wavelengths approaches
+the absorption per unit transmission asymptotically,
+(B) it is dimensionless, and (C) it can be determined
+an a very accurate knowledge of the density of the
+
+m.
+
+The optical constants are not nearly as useful because
+they are strongly dependent on the density of the black.
+While it was originally thought that they had to be
+determined first from optical measurements in order to
+find the conductivity, it now turns out that by means of
+Eq. (9) the conductivity is found much more easily than
+are the optical constants.
+
+The following conclusions can be drawn from the pres-
+ent investigation about the structure of metal blacks.
+
+TaeLE IV. Relaxation time of electrons in gold black deposits.
+
+ 
+
+ 
+
+Relaxation time (sec)
+
+ 
+
+Sample x=150 x =500
+53 3.3%i0H 45X10
+57 2.53X 10-1 3.7X10™4
+58 3.2X101¢ 41X10
+52 3.2X 1074 3.2X10™1
+
+—
+
+ 
+
+a x is the ratio of the density of bulk gold to that of the gold black deposit.
+
+As the blacks have an extremely low density and yet
+conduct direct current, they probably consist of yarn-
+like strands relatively far apart. The dc conductance
+of metal blacks is about 10~° times that of bright
+deposits of comparable weight per unit area. This
+low ratio is due both to the longer conducting path in
+blacks and to the lower concentration of electrons in the
+blacks. This comparatively low concentration has two
+causes, namely the low concentration of metal in blacks,
+and the low concentration of electrons in the metal
+strands.
+
+ACKNOWLEDGMENTS
+
+We gratefully acknowledge the assistance of Mr.
+William E. Krag who prepared the samples and of
+Professor John Strong and Dr. W. M. Sinton of The
+Johns Hopkins University who made the far infrared
+measurements.
+
+We are also grateful to Professor Charles W. Adams,
+Miss Donna Neeb, and Mr. Hrand Saxenian of the
+MIT Digital Computer Laboratory for their assistance
+in the use of the Whirlwind I computer.
+
+
+
+
+
+a
+LANCASTER PRESS, INC., LANCASTER, PA.
+
+

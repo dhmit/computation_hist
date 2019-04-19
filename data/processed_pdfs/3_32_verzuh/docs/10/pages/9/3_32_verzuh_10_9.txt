@@ -1,0 +1,50 @@
+‘ TABLE I
+
+l DISTRIBUTION OF THE ROCKEFELLER DIFFERENTIAL ANALYZER
+
+i Purdue University Prof. Geldmacher Integrator, Setting Mechanism, 6
+
+. T Servo Panel & associated equip.,
+
+| Independent Variable Control
+
+l Circuit , 1
+4=ghaft Adding Units & Servos 2
+OQutput Table & Servo Panels 1
+Digit-Decade Differentials 2
+
+l Counters & Servomechanisms 6
+Main Power Supply, Oscillator,eto} 4
+
+Univ. of Connectisut Prof. J. L. C. LBf Integrator, Setting Mechanism
+B Setting Mechanism Relays
+‘ S=Shaft Differential
+
+>
+
+S+
+
+Miscellanesous Relays
+
+l Museum of Science Mr. Bradford Washburn Integrators & Setting Mechanism
+
+Franklin Institute Mr. A. Co Carlton Integrator & Setting Mechanism
+| Four=Shaft Unit
+
+Graphic Arts Research
+| oundetlon Prof. S. Ho Caldwell Integrators 3
+
+B e ey
+
+S3=Shaft Unit
+Western Electric Relays
+Malticontactors
+
+| Elec. Engg. Dept. Prof. S. Ho Caldwell New Automatic Electric Relays
+Used Western Electric Relays
+
+Crossbar Switches (10 vert.6 pt)
+
+M A " (20 vert.6 pt)
+
+Multicontactors

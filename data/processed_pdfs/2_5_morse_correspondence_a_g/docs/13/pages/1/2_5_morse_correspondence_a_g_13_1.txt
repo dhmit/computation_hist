@@ -1,0 +1,47 @@
+VS“XK&»tb‘kﬁﬂLng
+Cb?wv?ﬁﬁX} ;K&
+Approximations for Digital Computers : .\
+
+Cecil Hastinazs, Jr. © 136 Kuuala Street Lanikai, Hawaii
+
+Note-17
+
+APPROXIMATION NEWSLETTER
+(Late edition--very)
+
+After a long hiatus, we finally present
+another installment of our cartoon strip
+adventures,
+
+The Converging P Method (Part V}
+
+Let us glance back at the Bart IV install-—
+ment. We finished there with a deviation
+decreasing cycle in which the greatest
+érror of approximation was reduced to
+€=.558. In the initial portion of the next
+cycle, deviations of magnitude (.358)(.385)=
+- 504 are imposed 8t i=1 and i=2, with the
+result given in (2) after 'Compute Error
+Data.,' Here «295%.358 and this cycle turns
+out to be a 'p Increasing Cycle' as indi-
+cated in (3).
+
+The calculation
+
+(1) pR= L =CORE RN
+
+takes place.
+
+The more delicate touch that is applied in
+the next cycle thru use of p=.925 becomes
+évident in (4). Note that (.358)(.925)=,33]
+and that .3317.307., as a result .3%33] is
+imposed at i=1 and .507 is imposed at 1=2,
+Because of the situation achieved in ;
+memory B in (4), the control now shifts to
+deviations i=0 and i=] as pPictured in (5),
+
+This is the situation that we have been
+Trying to achieve; nothing now stands in
+the way of Successful convergence.

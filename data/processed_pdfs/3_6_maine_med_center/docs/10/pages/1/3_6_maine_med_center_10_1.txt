@@ -1,0 +1,41 @@
+Z:L4e'w\‘p2273£u/>2ﬁ;4~ﬁ}«~9 2 e licesy 4541’A;d4229/ : A IEE, /IRE. A
+— Peoricflio  FHov, (757
+
+A MULTI-CHANNEL ANALYZER FOR HEART POTENTIALS
+
+CeVe Nelson,3 Ph.De
+A.F. Wilkinson
+and
+LeW. Bowles, MeSe
+
+Cardiology Research Laboratory, Maine Medical Center, Portland, Maine; and Dept. of
+Electrical Engineering, University of Maine, Orono, Maine.
+
+A concept frequently used in electrocardiology is that of the "heart-vector”,
+"his may be defined as the resultant vector of all the individual current sources and
+sinks in the heart. Another concept is that of the "éguivalent dipole", which, as we
+understand it, is the single dipole which could be substituted for the heart genera-
+tor without altering the potential distribution on the body surface. From this point
+of view, the resultant dipole is not necessarily synonymous with the equivalent di-
+poles That is, although there may not always be an equivalent dipole, there must
+always be a resultant dipole, by definition. If the sources and sinks, or groups of
+these, are too widely dispersed throughout the heart volume, the resultant dipole
+may not have much physiological significance, but it must exist, nevertheless,
+
+It has been shown (1) that the resultant dipole moment M of a system
+of sources and sinks inside a volume conductor can be found by an integration over
+the bounding surface of the conductor. In the general case, one has the sum of the
+integrals of potential and of normal current. If the surface is metal, potential V
+is constant, and normal current only is integrated. If the surface is insulating,
+however, in-C, and it is necessary to integrate potential only. The latter case ob-
+
+viously applies to the human body, and we have
+
+[j"—{f"fl o3 (1)
+
+     
+
+#Established Investigator of the American Heart Association. This project is
+
+supported by grant no. 4=-2590 from the National Heart Institute, U.S. Public Health
+Service.

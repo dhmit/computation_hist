@@ -1,0 +1,41 @@
+B
+
+ 
+
+ 
+
+ 
+
+2. All binary cards should be in column binary format.
+
+3. Input/Output operations be done in programs by
+standard subprograms and not be detailed machine coding.
+
+4. The use of Sense Switches should be avoided in FMS
+programs inasmuch as there is no provision for setting the
+switches for each job in a Monitor run. In addition, the
+Monitor utilizes sense switch 6; the Center expects to
+utilize sense switches 4 and 5 for on-line output control.
+
+A programmer can easlly simulate sense switches by reading
+in a pseudo-sense switch data card immediately after starting
+his run.
+
+5. Programs and data should read-in from off-1line
+recorded magnetic tape and results should be read-out for
+off-1line printing or punchingf The use of the on-line printer
+and punch should be avoided whenever possible. In the FMS
+System sbecial versions of the off-line BCD tape writing
+subprogram will be provided such that when sense switch 4 is
+depressed, the tape writing will be monitored at the on-line
+printer. OSimilarly off-line blnary tape writing will be
+monitored at the on-line punch when sense switch 5 is depressed.
+Thus there should be no need for programming on-line output
+since 1f the programmer 1is present, he can have the option.
+
+6. Batches of program-produced off-line punched output
+should be terminated by an end-of-file and preceded by two
+blank cards and identifying cards punched in block letters.
+(Subprograms for this purpose will be provided.)
+
+T. In the FMS system, only simplified END statements

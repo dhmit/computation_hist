@@ -1,0 +1,109 @@
+Minutes of Meeting of Committee
+on
+Wachine Methods of Computation
+November 29, 1950
+
+Members Present: H. Feshbach, J. W. Forrester, 4. Kopal,
+P. M. Morse and E. Kelssner
+
+Professors Kopal and Forrester presented the Commlttee
+with the general subjects which are included in the Electrical
+Engineering general doctor's examination. They come under
+nine general headings:
+
+Circult Theory
+
+Power Machinery
+Magnetic Clrcuits
+Engineering Electronics
+VT Circuits
+
+Electrical Measurements
+Transmission Lines
+Basic Physics 1
+
+Basic Physics IX
+
+a =
+
+O 08 3 CNUs
+
+After considerable discussion the Committee felt that probably
+a man taking a doctor's degree in the E. E. Department, with
+specialization in computing macuines, shoulda be required to
+pass en examination in the mz jority of taese subjects, but
+tnat perhaps one-third of them could be dropped &nd in their
+place more material on Mathematics and Theoretical Physics
+could be required. It was suggested tentatively that power
+machinery and electrical measurements umignt be dropped, and
+that in their place questions coulda be asked on differential
+equations, complex variables, algebra and numerical analysis,
+corresponding to about the length and deptn of the questions
+on the two omitted subjects. In adaition, it was felt that
+Basic Physics II could be somewhat remodeled to include more
+of Theoretical Physics, particularly of electromagnetic theory
+then is given to most of the E. BE. candidates. 1t was felt
+that the Committee should discuss this with Professor Brown
+
+at its next meeting, Lf Professor Brown were zble to attend.
+
+The Committee then went on to discuss the four E. E.
+doctor's candidates who nuve already teéken their qualifying
+examinations and are beginning, or are gbout to begin, thelr
+thesis research. It was reported that Mr. Salzer already has
+a supervisory committee consisting of Professors Kopal, Hazen
+and Linville, This was felt to be an appropriate committee
+and there was no suggestion to make any change here. In the
+
+
+fiinutes of Meeting of Coummittee
+on Machine betnods of Computation -2-
+November 29, 1950
+
+other three cases - Hzmu, Verzuh and Dolansky - it was felt
+that we should talk the matter of specific appointments for
+
+supervisory committees over with Professor Brown at the next
+meeting.
+
+It was suggested that the qualifying examination in
+Mathematics be examined; in tine suaue way that the Electrical
+Engineering examination was discussed, at the next meeting of
+this Committee. Consequently, the subject of the qualifying
+examination for persons coming in to this field from the
+Mathematics Department 1s to be the first subject of dis-
+cussion at the meeting on December 6. It is hoped that Pro-
+fessor Brown can come in to discuss the E. E. questions after
+ten o'clock.
+
+Another subject for future discussion is the guestion of
+a Summer Symposium. Mr, Forrester reported that, in his
+opinion, thls coming Summer would be & little too early to
+put on & full-fledged Summer scunedule on macinine computation.
+On the other nand, it was felt that there was a possibility
+that a one~, two-, or three-day session or symposium on the
+subject could be held. ©Since this does not require the
+elaborate preparation which & full-fledged Sumuer Session re-
+quires, it was decided tnat we should not reacin & decision at
+this meeting but should bring it up from time to time in the
+next several months. It was also decided that the question of
+the courses on machine computation, which are given at present
+at tiie Institute and the possibilities of other courses which
+snould be given, would be taken up in the near future, perhaps
+at the December 13th meeting. Anotiner subject of considerable
+importance which would nave to be taken up at that time or
+later wlll be the listing of the various computing machines
+at present operating and under construction at the Institute,
+and a survey of their availability for training and general
+research use, This sort of survey will be necessary befors
+general policy on this question can be discussed,
+
+The next meeting of the Committee will be at 9:30,
+December 6, in Room 6-109.
+
+\ Cac NW S$.
+Se —
+
+Chairman
+
+
