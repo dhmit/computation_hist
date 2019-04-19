@@ -79,6 +79,7 @@ def populate_from_metadata(metadata_filename=None):
     Skipped {count_skipped} documents because of incomplete metadata.
     {count_invalid} had invalid data.\r\n''')
     # display name variants for manual fixing with the help of Ctrl-F
+    # may be too long to fit in PyCharm terminal, so you may have to write to file
     print(f'''NAME VARIANTS\r\n''')
     for last_name in sorted(list(names.keys())):
         if len(names[last_name]) > 1:
@@ -255,15 +256,15 @@ def page_image_to_doc(folder_name, pdf_path, image_directory):
 
 def interpret_person_organization(field, item_organization, item_person, new_doc, line_no=None, names_so_far={}):
     # Adds people and organizations as an author, recipient, or CC'ed.
-    field_split = field.split('; ')
+    field_split = [person_or_organization.strip() for person_or_organization in field.split(';')]
 
     for person_or_organization in field_split:
-        if len(person_or_organization.split(', ')) == 1:
+        if len(person_or_organization.split(',')) == 1:
             new_org, _unused_org_created = Organization.objects.get_or_create(name=field_split[0])
             bound_attr = getattr(new_doc, item_organization)
             bound_attr.add(new_org)
         else:
-            split_name = person_or_organization.split(', ')
+            split_name = person_or_organization.split(',')
 
             # check for commas
             if len(split_name) > 2:
@@ -279,7 +280,7 @@ def interpret_person_organization(field, item_organization, item_person, new_doc
 
             # check for duplicate
             if last_name != '':
-                unfixed_first_name = split_name[1]
+                unfixed_first_name = split_name[1].strip()
                 if last_name not in names_so_far:
                     names_so_far[last_name] = {unfixed_first_name}
                 else:
