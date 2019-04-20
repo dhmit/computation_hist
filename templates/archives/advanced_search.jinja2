@@ -99,13 +99,11 @@
                 <div class="col-lg-9 col-md-9 col-sm-12">
 
                 {% for doc in results %}
+
                     <div class="doc_result">
                         <h4><a href="{{ doc.url }}">{{ doc.title }}</a></h4>
                         <table class="doc_result_left_table">
                             <tbody>
-                                <tr>
-                                    <td class="td_heading">Date : </td><td>{{ doc.date }}</td>
-                                </tr>
 
                                 {% for author in doc.get_person_list('authors') %}
                                     <tr>
@@ -118,13 +116,7 @@
                                         <td>{{ author.name.replace("_"," ")}}</td>
                                     </tr>
                                 {% endfor %}
-                            </tbody>
-                        </table>
-                        <table class="doc_result_right_table">
-                            <tbody>
-                                <tr>
-                                    <td class="td_heading">Folder : </td><td>{{ doc.folder }}</td>
-                                </tr>
+
                                 {% for recipient in doc.get_person_list('recipients') %}
                                     <tr>
                                         <td class="td_heading">
@@ -136,6 +128,20 @@
                                         <td>{{ recipient.name.replace("_"," ")}}</td>
                                     </tr>
                                 {% endfor %}
+
+                            </tbody>
+                        </table>
+                        <table class="doc_result_right_table">
+                            <tbody>
+
+                                <tr>
+                                    <td class="td_heading">Folder : </td><td>{{ doc.folder }}</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="td_heading">Date : </td><td>{{ doc.date }}</td>
+                                </tr>
+
                             </tbody>
                         </table>
                     </div>
