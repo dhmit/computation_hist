@@ -384,47 +384,14 @@ def story(request, slug):
 
 
 def net_viz(request):
-    from collections import Counter
     import json
+    from pathlib import Path
 
-    docs = Document.objects.prefetch_related('author_person', 'recipient_person')
-    node_count = Counter()
-    edge_count = Counter()
+    network = Path('static', 'json', 'network.json')
+    with open(network, 'r') as file:
+        graph = file.read()
 
-    # Count instances of each author/recipient
-    for document in docs:
-        authors = document.author_person.all()
-        recipients = document.recipient_person.all()
-        for author in authors:
-            node_count[str(author)] += 1
-            for recipient in recipients:
-                node_count[str(recipient)] += 1
-                edge_count[(str(author), str(recipient))] += 1
-
-    # # Filter out uncommon nodes per max_nodes
-    # node_count = node_count.most_common(max_nodes)
-    # for edge in edge_count:
-    #     if not all(name in list(node_count) for name in edge):
-    #         del edge_count[edge]
-
-    # Convert node and edges into json strings
-    edge_list = list()
-    for letter in edge_count:
-        edge_list.append({
-            'source': letter[0],
-            'target': letter[1],
-            'value': edge_count[letter]
-        })
-    node_list = list()
-    for author in node_count:
-        node_list.append({
-            'id': author,
-            'group': 1 #node_count[author]
-        })
-    nodes = json.dumps(node_list)
-    edges = json.dumps(edge_list)
-
-    graph_dict = {'nodes': nodes, 'links': edges}
+    graph_dict = json.loads(graph)
 
     return render(request, 'archives/net_viz.jinja2', graph_dict)
 
