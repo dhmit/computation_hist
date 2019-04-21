@@ -81,7 +81,7 @@ function create_force_layout(nodes, edges) {
             .on("end", dragended)
     );
 
-    let labelNode = container.append("g").attr("class", "labelNodes")
+    const labelNode = container.append("g").attr("class", "labelNodes")
         .selectAll("text")
         .data(label.nodes)
         .enter()
@@ -112,7 +112,7 @@ function create_force_layout(nodes, edges) {
 
                 const dist = Math.sqrt(diffX * diffX + diffY * diffY);
 
-                const shiftX = b.width * (diffX - dist) / (dist * 2);
+                let shiftX = b.width * (diffX - dist) / (dist * 2);
                 shiftX = Math.max(-b.width, Math.min(0, shiftX));
                 const shiftY = 16;
                 this.setAttribute("transform", "translate(" + shiftX + "," + shiftY + ")");
