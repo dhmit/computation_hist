@@ -264,3 +264,52 @@ def interpret_person_organization(field, item_organization, item_person, new_doc
 
             bound_attr = getattr(new_doc, item_person)
             bound_attr.add(new_person)
+
+
+def network_json(output_path=None):
+    """
+    Writes a JSON file to /static/json (or otherwise specified location) listing the nodes,
+    edges, and weights of each person in the network
+    :param output_path:
+    :return:
+    """
+
+    from collections import Counter
+    from pathlib import Path, PurePath
+    import json
+
+    if output_path is None:
+        output_path = Path('static', 'json', 'network.json')
+
+    docs = Document.objects.prefetch_related('author_person', 'recipient_person')
+    node_count = Counter()
+    edge_count = Counter()
+
+    # Count instances of each author/recipient
+    for document in docs:
+        authors = document.author_person.all()
+        recipients = document.recipient_person.all()
+        for author in authors:
+            node_count[str(author)] += 1
+            for recipient in recipients:
+                node_count[str(recipient)] += 1
+                edge_count[(str(author), str(recipient))] += 1
+
+    edge_list = list()
+    for letter in edge_count:
+        edge_list.append({
+            'source': letter[0],
+            'target': letter[1],
+            'value': edge_count[letter]
+        })
+
+    node_list = list()
+    for author in node_count:
+        node_list.append({
+            'id': author,
+            'weight': node_count[author]
+        })
+
+    graph_dict = {'nodes': node_list, 'links': edge_list}
+
+    output_path.write_text(json.dumps(graph_dict))
