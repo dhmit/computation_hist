@@ -130,6 +130,7 @@ def split_folder_to_doc(folder_pdf_path, foldername_short, box_no, folder_no):
         if doc_pdf_file_path.exists():
             continue
         else:
+            print(f'OCRing {doc_pdf_file_path}.')
 
             # make all the necessary parents directories of the doc_pdf
             doc_pdf_file_path.parent.mkdir(parents=True, exist_ok=True)
