@@ -1240,14 +1240,15 @@ export class IBM_704 {
             const label_field = line[0].replace(/\s/g, '');
             if (label_field.length) {
                 const label_list = label_field.split(",");
-                for (const label in label_list) {
-                    if (Object.prototype.hasOwnProperty.call(label_list, label)) {
-                        labels[label] = register;
+                for (const i in label_list) {
+                    if (Object.prototype.hasOwnProperty.call(label_list, i)) {
+                        labels[label_list[i]] = register;
                     }
                 }
             }
             register++;
         }
+        // console.log(labels);
 
         const label_names = Object.keys(labels).slice(0);
         label_names.sort( (a, b) => { return b.length - a.length } ); // sort from longest to shortest to ensure
@@ -1259,15 +1260,17 @@ export class IBM_704 {
                 continue;
             }
             const line = code_lines[line_no];
+            // console.log(line);
             let address_part = line[2];
-            for (const label in label_names) {
-                if (Object.prototype.hasOwnProperty.call(label_names, label)) {
+            for (const i in label_names) {
+                if (Object.prototype.hasOwnProperty.call(label_names, i)) {
+                    const label = label_names[i];
                     address_part = address_part.replace(new RegExp(label, 'g'), labels[label].toString());
                 }
             }
-            line[2] = address_part;
+            code_lines[line_no][2] = address_part;
         }
-
+        // console.log(code_lines);
         // actually assemble the program
         register = 0;
         for (let line_no in code_lines) {
