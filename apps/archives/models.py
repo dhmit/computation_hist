@@ -51,7 +51,7 @@ class Person(models.Model):
 
     @property
     def fullname(self):
-        return self.first + "_" + self.last
+        return self.first + " " + self.last
 
     @property
     def url(self):

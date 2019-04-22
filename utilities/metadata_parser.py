@@ -192,9 +192,6 @@ def add_one_document(csv_line, line_no=None, names={}):
         pass
 
 
-
-
-
 def pdf_to_image_split(pdf_path, image_directory, folder_name):
     """
     Splits a each page of a pdf into an image.
