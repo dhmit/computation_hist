@@ -11,6 +11,10 @@
                     {% if simulation_name == 'general_assembler' %}
                         <textarea class="form-control" id="code_box" spellcheck="false"
                                   placeholder="Code here!"></textarea>
+                        <textarea class="form-control" id="code_box" spellcheck="false"
+                                  placeholder="Code here!"></textarea>
+                        <textarea class="form-control" id="code_box" spellcheck="false"
+                                  placeholder="Code here!"></textarea>
                     {% endif %}
                 </div>
             <br />
@@ -39,7 +43,7 @@
             </div>
         </div>
 
-        <div class = "col-sm-12">{% block buttons %}{% endblock %}</div>
+        <div class = "col-sm-12 sim_buttons">{% block buttons %}{% endblock %}</div>
     </div>
     <br>
     <div class = "col-sm-12 text-center bg-light border border-primary" id = "line_desc"></div>
