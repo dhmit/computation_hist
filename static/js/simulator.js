@@ -1069,7 +1069,6 @@ export class IBM_704 {
             this.step();
         }
     }
-
     /**
      * Resets the IBM 704 so all registers are 0.
      */
@@ -1660,5 +1659,7 @@ export class Assembly_Line {
     }
 }
 
-
+export function timer(ms) {
+    return new Promise(res => setTimeout(res, ms));
+}
 

@@ -2,13 +2,11 @@
 
 {% block title %} {{ org_obj }} {% endblock %}
 
-{% block self %}
-    <h1>
-        {{org_obj}}
-    </h1>
+{% block header %}
+    {{org_obj}}
 {% endblock %}
 
-{% block table %}
+{% block content %}
 
     {% if document_written_objs %}
         <h3>This organization wrote:</h3>
