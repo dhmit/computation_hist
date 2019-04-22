@@ -19,6 +19,7 @@ def index(request):
         'debugging',
         'qualifications_for_programmer',
         'time_records',
+        'women_in_symbols',
         'sample_story',
         'sample_story',
         'mayowa_story'
