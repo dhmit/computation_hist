@@ -124,3 +124,7 @@ h1,h2,h3,h4,h5,h6,.navbar-brand {
     width: 50%;
     margin-left:5px;
 }
+
+.sim_buttons {
+    text-align:center;
+}
