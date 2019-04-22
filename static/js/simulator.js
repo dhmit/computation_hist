@@ -1216,7 +1216,7 @@ export class IBM_704 {
 
     assemble(code_lines) {
         this.clear();
-        code_lines = code_lines.clone();
+        code_lines = code_lines.slice(0);
 
         // get labels and determine what they point to
         let labels = {};
@@ -1246,9 +1246,10 @@ export class IBM_704 {
                     }
                 }
             }
+            register++;
         }
 
-        const label_names = labels.keys().clone();
+        const label_names = Object.keys(labels).slice(0);
         label_names.sort( (a, b) => { return b.length - a.length } ); // sort from longest to shortest to ensure
         // replacing doesn't conflict
 
@@ -1257,13 +1258,14 @@ export class IBM_704 {
             if (!Object.prototype.hasOwnProperty.call(code_lines, line_no)) {
                 continue;
             }
-            let address_part = line_no[2];
+            const line = code_lines[line_no];
+            let address_part = line[2];
             for (const label in label_names) {
                 if (Object.prototype.hasOwnProperty.call(label_names, label)) {
                     address_part = address_part.replace(new RegExp(label, 'g'), labels[label].toString());
                 }
             }
-            line_no[2] = address_part;
+            line[2] = address_part;
         }
 
         // actually assemble the program
@@ -1272,7 +1274,7 @@ export class IBM_704 {
             if (!code_lines.hasOwnProperty(line_no)) {
                 continue;
             }
-            let line = code_lines[line_no];
+            const line = code_lines[line_no];
             console.log(line);
             if (isNaN(register) || register >= this.size || register < 0) {
                 alert("Error: Tried to program to invalid register " + register + "on line " +
@@ -1284,9 +1286,9 @@ export class IBM_704 {
             //     alert("Error: Cannot parse instruction on line " + (parseInt(line_no) + 1) + ".");
             //     throw INVALID_INSTRUCTION_EXCEPTION;
             // }
-            let operation = line[1];
-            let rest_of_line = line[2];
-            let numbers = rest_of_line.split(",");
+            const operation = line[1];
+            const rest_of_line = line[2];
+            const numbers = rest_of_line.split(",");
             try {
                 if (operation === "ORG") { // ORG pseudoinstruction lets you program to different location
                     register = Number(numbers[0]);
@@ -1320,16 +1322,16 @@ export class IBM_704 {
                     }
                 } else {
                     if (numbers[2] !== undefined) {
-                        let decrement = Number(numbers[2]);
-                        let tag = Number(numbers[1]);
-                        let address = Number(numbers[0]);
+                        const decrement = Number(numbers[2]);
+                        const tag = Number(numbers[1]);
+                        const address = Number(numbers[0]);
                         this.assemble_line(register, operation, address, tag, decrement);
                     } else if (numbers[1] !== undefined) {
-                        let tag = Number(numbers[1]);
-                        let address = Number(numbers[0]);
+                        const tag = Number(numbers[1]);
+                        const address = Number(numbers[0]);
                         this.assemble_line(register, operation, address, tag);
                     } else if (numbers[0] !== "") {
-                        let address = Number(numbers[0]);
+                        const address = Number(numbers[0]);
                         this.assemble_line(register, operation, address);
                     } else {
                         this.assemble_line(register, operation);

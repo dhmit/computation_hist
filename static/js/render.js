@@ -93,7 +93,7 @@ export class Renderer {
         for (let i = 0; i < instructions.length; i++) {
             instruction_text.push(instructions[i].instruction);
         }
-        this.computer.assemble(0, instruction_text);
+        this.computer.assemble(instruction_text);
 
         if (memory_value_pairs !== undefined) {
             for (const [memory_index, value] of memory_value_pairs) {
