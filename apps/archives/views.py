@@ -19,7 +19,7 @@ def index(request):
     stories = [
         'debugging',
         'qualifications_for_programmer',
-        'sample_story',
+        'women_in_symbols',
         'sample_story',
         'sample_story',
         'mayowa_story'
@@ -30,7 +30,13 @@ def index(request):
 
 
 def person(request, person_id):
-    person_obj = get_object_or_404(Person, pk=person_id)
+    person_obj = get_object_or_404(
+        Person.objects.prefetch_related(
+            'author_person',
+            'recipient_person',
+            'cced_person',
+        ),
+        pk=person_id)
     document_written_objs = person_obj.author_person.all()
     document_received_objs = person_obj.recipient_person.all()
     document_cced_objs = person_obj.cced_person.all()
