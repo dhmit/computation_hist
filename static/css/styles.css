@@ -121,5 +121,6 @@ h1,h2,h3,h4,h5,h6,.navbar-brand {
 }
 
 .in_story_image {
-    width: 500px;
+    width: 50%;
+    margin-left:5px;
 }
