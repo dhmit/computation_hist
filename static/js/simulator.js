@@ -1102,12 +1102,10 @@ export class IBM_704 {
      * Converts an array of strings that contain lines of SHARE assembly into numerical code that is
      * placed in general memory.
      *
-     * Currently missing most operations, including all Type A operations and pseudo-operations.
-     *
      * @param {number} origin        Where to start storing the program.
      * @param {Array}  code_lines    Array of lines of code.
      */
-    assemble(origin, code_lines) {
+    old_assemble(origin, code_lines) {
         this.clear();
         let register = origin;
         for (let line_no in code_lines) {
@@ -1213,6 +1211,140 @@ export class IBM_704 {
             this.general_memory[register].instruction_a = new Instruction_A(operation, address, tag, decrement);
         } else {
             throw UNDEFINED_OPERATION_EXCEPTION;
+        }
+    }
+
+    assemble(code_lines) {
+        this.clear();
+        code_lines = code_lines.clone();
+
+        // get labels and determine what they point to
+        let labels = {};
+        let register = 0;
+        for (let line_no in code_lines) {
+            if (!Object.prototype.hasOwnProperty.call(code_lines, line_no)) {
+                continue;
+            }
+            const line = code_lines[line_no];
+            const operation = line[1];
+            // jump to ORG location
+            if (operation === "ORG") {
+                if (isNaN(register)) {
+                    alert("Error: Cannot parse ORG instruction on line " + (parseInt(line_no) + 1) + ".");
+                    throw NAN_EXCEPTION;
+                }
+                register = Number(line[2]);
+                continue;
+            }
+            // else check address for label
+            const label_field = line[0].replace(/\s/g, '');
+            if (label_field.length) {
+                const label_list = label_field.split(",");
+                for (const label in label_list) {
+                    if (Object.prototype.hasOwnProperty.call(label_list, label)) {
+                        labels[label] = register;
+                    }
+                }
+            }
+        }
+
+        const label_names = labels.keys().clone();
+        label_names.sort( (a, b) => { return b.length - a.length } ); // sort from longest to shortest to ensure
+        // replacing doesn't conflict
+
+        // replace labels with actual numbers
+        for (let line_no in code_lines) {
+            if (!Object.prototype.hasOwnProperty.call(code_lines, line_no)) {
+                continue;
+            }
+            let address_part = line_no[2];
+            for (const label in label_names) {
+                if (Object.prototype.hasOwnProperty.call(label_names, label)) {
+                    address_part = address_part.replace(new RegExp(label, 'g'), labels[label].toString());
+                }
+            }
+            line_no[2] = address_part;
+        }
+
+        // actually assemble the program
+        register = 0;
+        for (let line_no in code_lines) {
+            if (!code_lines.hasOwnProperty(line_no)) {
+                continue;
+            }
+            let line = code_lines[line_no];
+            console.log(line);
+            if (isNaN(register) || register >= this.size || register < 0) {
+                alert("Error: Tried to program to invalid register " + register + "on line " +
+                    (parseInt(line_no) + 1) + "!  Register must be integer between 0 and " + (this.size - 1) + ".");
+                throw INVALID_REGISTER_EXCEPTION;
+            }
+            // let parsed_command = regex_line_parser.exec(line);
+            // if (parsed_command === null) { //if parsed command is null, throw error, not a valid command.
+            //     alert("Error: Cannot parse instruction on line " + (parseInt(line_no) + 1) + ".");
+            //     throw INVALID_INSTRUCTION_EXCEPTION;
+            // }
+            let operation = line[1];
+            let rest_of_line = line[2];
+            let numbers = rest_of_line.split(",");
+            try {
+                if (operation === "ORG") { // ORG pseudoinstruction lets you program to different location
+                    register = Number(numbers[0]);
+                    if (isNaN(register)) {
+                        throw NAN_EXCEPTION;
+                    }
+                    continue;
+                } else if (operation === "DEC") { // DEC psuedoinstruction lets you program fixed and floating point numbers
+                    let number = Number(numbers[0]);
+                    if (isNaN(number)) {
+                        throw NAN_EXCEPTION;
+                    }
+                    if (numbers[0].includes(".")) {
+                        if (number > MAX_FLOATING_POINT || number < -MAX_FLOATING_POINT) {
+                            alert("Error: Floating point value " + number + " at line " + (Number(line_no) + 1) +
+                                " is too large! Floating point numbers must be between " + MAX_FLOATING_POINT +
+                                " and " + -(MAX_FLOATING_POINT) + "."
+                            );
+                            throw FLOAT_OVERFLOW_EXCEPTION;
+                        }
+                        this.general_memory[register].floating_point = number;
+                    } else {
+                        if (number > MAX_FIXED_POINT || number < -MAX_FIXED_POINT) {
+                            alert("Error: Fixed point value " + number + " at line " + (Number(line_no) + 1) +
+                                " is too large! Fixed point numbers must be between " + MAX_FIXED_POINT +
+                                " and " + -(MAX_FIXED_POINT) + "."
+                            );
+                            throw FIXED_OVERFLOW_EXCEPTION;
+                        }
+                        this.general_memory[register].fixed_point = number;
+                    }
+                } else {
+                    if (numbers[2] !== undefined) {
+                        let decrement = Number(numbers[2]);
+                        let tag = Number(numbers[1]);
+                        let address = Number(numbers[0]);
+                        this.assemble_line(register, operation, address, tag, decrement);
+                    } else if (numbers[1] !== undefined) {
+                        let tag = Number(numbers[1]);
+                        let address = Number(numbers[0]);
+                        this.assemble_line(register, operation, address, tag);
+                    } else if (numbers[0] !== "") {
+                        let address = Number(numbers[0]);
+                        this.assemble_line(register, operation, address);
+                    } else {
+                        this.assemble_line(register, operation);
+                    }
+                }
+            }
+            catch (err) {
+                if (err === UNDEFINED_OPERATION_EXCEPTION) {
+                    alert("Error: Undefined operation in line " + (parseInt(line_no) + 1) + "!");
+                } else if (err === NAN_EXCEPTION) {
+                    alert("Error: Invalid number in line " + (parseInt(line_no) + 1) + "!");
+                }
+                throw err;
+            }
+            register++;
         }
     }
 
@@ -1642,20 +1774,59 @@ export class Assembly_Line {
     /**
      * Constructor for class.  See demos.js for example.
      *
-     * @param {string}             instruction              The text in the line.
+     * @param {Array}              instruction              The text in the line.
      * @param {string}             description              Short description of line to be displayed at top of page.
      */
     constructor(instruction, description = undefined) {
         this.description = description;
-        this.instruction = instruction;
+        if (instruction.length === 2) {
+            this.instruction = [""].concat(instruction);
+        } else {
+            this.instruction = instruction;
+        }
     }
 
     /**
-     * String representation that looks like this: 0: CLA 4
+     * String representation that looks like this: LABEL: CLA 4
      * @returns {string}
      */
     toString() {
-        return this.instruction;
+        let result = "";
+        if (this.instruction[0] !== "") {
+            result += this.instruction[0];
+            result += ": ";
+        }
+        result += this.instruction[1];
+        result += " ";
+        result += this.instruction[2];
+        return result;
+    }
+
+    /**
+     * Label part of line.
+     *
+     * @returns {string}
+     */
+    get label() {
+        return this.instruction[0];
+    }
+
+    /**
+     * Operation part of line.
+     *
+     * @returns {string}
+     */
+    get operation() {
+        return this.instruction[1];
+    }
+
+    /**
+     * Address, tag, decrement part of line.
+     *
+     * @returns {string}
+     */
+    get atd() {
+        return this.instruction[2];
     }
 }
 
