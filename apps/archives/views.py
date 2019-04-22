@@ -19,7 +19,7 @@ def index(request):
         'debugging',
         'qualifications_for_programmer',
         'women_in_symbols',
-        'sample_story',
+        'announcement_of_the_IBM_704',
         'sample_story',
         'mayowa_story'
     ]
