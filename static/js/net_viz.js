@@ -70,7 +70,7 @@ function create_force_layout(nodes, edges) {
         .enter()
         .append("circle")
         .attr("r", 5)
-        .attr("fill", function(d) { return color(d.group); })
+        .attr("fill", function(d) { return color(d.weight); })
 
     node.on("mouseover", focus).on("mouseout", unfocus);
 

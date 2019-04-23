@@ -350,4 +350,4 @@ def network_json(output_path=None):
 
     graph_dict = {'nodes': node_list, 'links': edge_list}
 
-    output_path.write_text('graph=' + json.dumps(graph_dict))
+    output_path.write_text(json.dumps(graph_dict))
