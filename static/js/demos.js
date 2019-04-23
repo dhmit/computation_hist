@@ -60,18 +60,16 @@ export const looping_with_tix_demo_params = {
     initial_memory_values: [[7, 1]],
     instructions: [
         new Assembly_Line(['LXA', 'EXPONENT, 1'], "This example is relatively complicated, so you might want to read" +
-            " the" +
-            " long description at the bottom first.<br />" +
-        "<code>LXA 5, 1: </code> Load the word at address 5 (which corresponds to PZE 5 as the" +
-        " fifth line of code) and store its address into the index register corresponding to 1, which is index register A." +
-        "  Basically, index register A now has the value of general memory register 5"),
+            " the long description at the bottom first.<br />" +
+        "<code>LXA EXPONENT, 1: </code> Load the word at address EXPONENT (which corresponds to PZE 5) and store its " +
+            "address into the index register corresponding to 1, which is index register A."),
         new Assembly_Line('CLA 7'.split(" "), "<code>CLA 7: </code> Stores the value at address 7 into the accumulator."),
         new Assembly_Line(["LOOP", "ADD", "7"], "<code>ADD 7: </code> Adds the value at address 7 to the" +
             " accumulator."),
         new Assembly_Line("STO 7".split(" "), "<code>STO 7: </code> Stores the value of the accumulator to address 7.  What's the value of address 7 after you" +
         " press step?"),
-        new Assembly_Line(['TIX', 'LOOP, 1, 1'], "<code>TIX 1, 1, 1: </code> The computer will compare the value of" +
-            " index register A to the decrement, 1.  If the" +
+        new Assembly_Line(['TIX', 'LOOP, 1, 1'], "<code>TIX LOOP, 1, 1: </code> The computer will compare the value" +
+            " of index register A to the decrement, 1.  If the" +
         " index register is greater than the decrement, then we subtract the decrement from the index register and jump\n" +
         "    to the general memory 1, otherwise we continue.  What's the value of index register A after you press Step?"),
         new Assembly_Line(["EXPONENT", "PZE", "5"]),

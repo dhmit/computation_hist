@@ -34,23 +34,23 @@
         times.&nbsp;<code>PZE </code>is a pseudoinstruction similar to&nbsp;<code>DEC</code>, except essentially it can
         only store fixed point numbers and can only store values up to 8191.&nbsp;&nbsp;So you can imagine our
         instructions are set-up in memory like this:</p>
-    <p><code>0: LXA 5, 1</code></p>
+    <p><code>0: LXA EXPONENT, 1</code></p>
     <p><code>1: CLA 7</code></p>
-    <p><code>2: ADD 7</code></p>
+    <p><code>LOOP: ADD 7</code></p>
     <p><code>3: STO 7</code></p>
-    <p><code>4: TIX 1, 1, 1</code></p>
-    <p><code>5: 5</code></p>
+    <p><code>4: TIX LOOP, 1, 1</code></p>
+    <p><code>EXPONENT: 5</code></p>
     <p><code>7: 1</code></p>
-    <p><code>LXA 5, 1</code><code></code>&nbsp;still targets the register with address 5.&nbsp; What the second number
-        in an instruction (called the <strong>tag</strong>) refers to is the targeted index register, in this case Index
+    <p><code>LXA EXPONENT, 1</code><code></code>&nbsp;still targets the register with address 5.&nbsp; What the second
+        number in an instruction (called the <strong>tag</strong>) refers to is the targeted index register, in this case Index
         Register A.&nbsp; (B corresponds to 2, and C corresponds to 4).&nbsp; So what will happen is that index register
         A will gain the value of register 5, which is 5.&nbsp; This is analogous to&nbsp;<code>a = 5</code>.&nbsp;&nbsp;
     </p>
     <p>The next three steps,&nbsp;<code>CLA 7</code>,&nbsp;<code>ADD 7</code>, and&nbsp;<code>STO 7</code>, essentially
         amount to&nbsp;<code>x = x + x</code>, except performed with the accumulator as we are required to.&nbsp;&nbsp;
     </p>
-    <p>The last part,&nbsp;<code>TIX 1, 1, 1</code>, is the trickiest to understand.&nbsp;&nbsp;<code>TIX</code> stands
-        for Transfer on Index.&nbsp; Again, first number is the targeted address in general memory (register 1), and the
+    <p>The last part,&nbsp;<code>TIX LOOP, 1, 1</code>, is the trickiest to understand.&nbsp;&nbsp;<code>TIX</code>
+        stands for Transfer on Index.&nbsp; Again, first number is the targeted address in general memory (register 1), and the
         second number is the targeted index register (Index Register A).&nbsp; The third number is called
         the&nbsp;<strong>decrement</strong>.&nbsp; What will happen is that the computer will compare the values in the
         specified index register with the decrement.&nbsp; If the index register is greater than the decrement (in this
