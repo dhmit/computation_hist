@@ -7,13 +7,17 @@
 {% endblock %}
 
 {% block header %}
-    <h1 class="typing"><tt>Welcome to the Archives of the MIT Computation Center</tt></h1>
+    <h1 class="typing">Welcome to the Archives of the MIT Computation Center</h1>
 {% endblock %}
 
 {% block content %}
-<div class='card-deck'>
-    {% for story in stories %}
-        {% include 'archives/stories/' + story + '-teaser.jinja2' %} 
-    {% endfor %}
+<div class="container">
+    <div class="row">
+        {% for story in stories %}
+            <div class='col-md-4'>
+                {% include 'archives/stories/' + story + '-teaser.jinja2' %}
+            </div>
+        {% endfor %}
+    </div>
 </div>
 {% endblock %}

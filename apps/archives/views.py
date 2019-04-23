@@ -18,10 +18,7 @@ def index(request):
     stories = [
         'debugging',
         'qualifications_for_programmer',
-        'sample_story',
-        'sample_story',
-        'sample_story',
-        'mayowa_story'
+        'mayowa_story',
     ]
 
     context = {'stories': stories}
