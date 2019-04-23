@@ -1,3 +1,7 @@
+.changed {
+    color: white;
+}
+
 code {
     font-family: Inconsolata, monospace;
 }

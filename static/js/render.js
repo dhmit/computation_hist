@@ -1,5 +1,13 @@
 'use strict';
 
+import { timer } from "./simulator.js";
+
+async function flash_text(element) {
+    element.classList.add("blink");
+    await timer(200);
+    element.classList.remove("blink");
+}
+
 export class Renderer {
     constructor(computer) {
         this.computer = computer; // an IBM_704 instance
@@ -29,10 +37,14 @@ export class Renderer {
     update_computer_display(highlighted_registers = []) {
         const general_memory_html = $(".general_memory");
         const next_instruction_address = this.computer.general_memory[this.computer.ilc.valueOf()].instruction.address;
-        general_memory_html.removeClass("next_instruction target_register special_highlight");
+        general_memory_html.removeClass("next_instruction target_register special_highlight changed");
         for (let i = 0; i < this.computer.size; i++) {
             const new_value = this.computer.general_memory[i].toString();
             if (new_value !== general_memory_html[i].innerHTML) {
+                if (this.highlighting && general_memory_html[i].innerHTML !== "") {
+                    general_memory_html[i].classList.add("changed");
+                }
+
                 general_memory_html[i].innerHTML = new_value;
                 general_memory_html[i].title = "Instruction: " +
                     this.computer.general_memory[i].instruction.toString();
