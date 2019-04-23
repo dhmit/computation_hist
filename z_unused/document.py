@@ -60,7 +60,7 @@ class DocumentCollection():
 
 class Document:
     """
-    The Document class loads and holds the metadata and text fore one archival document
+    The Document class loads and holds the metadata and text foe one archival document
     Currently, it is only a stub for further development
 
     TODO: This may not be needed as a class but might get ported to a Django model.
