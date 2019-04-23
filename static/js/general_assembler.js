@@ -1,7 +1,7 @@
 'use strict';
 
 import { GeneralAssemblerRenderer } from './render.js';
-import { IBM_704, operation_a_to_no, operation_b_to_no } from './simulator.js';
+import { IBM_704, operation_a_to_no, operation_b_to_no, timer } from './simulator.js';
 
 /**
  * Attaches an event listener to a textarea that allows it to dynamically resize as you type in it.
@@ -64,11 +64,14 @@ export function start() {
         computer.clear();
         renderer.update();
     });
-    $('#run_button').on('click', () => {
-        computer.halt = false;
-        computer.run();
-        renderer.update();
-    });
+    $('#run_button').on('click', async () => {
+        computer.halt = false; // jshint ignore:line
+        while (!computer.halt) {
+            computer.step();
+            renderer.update();
+            await timer(300); // jshint ignore:line
+        }
+    }); // jshint ignore:line
     $('#step_button').on('click', () => {
         computer.halt = false;
         computer.step();
