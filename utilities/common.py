@@ -4,8 +4,9 @@ from config.settings import DATA_DIR
 
 PROCESSED_PDFS_PATH = Path(DATA_DIR, "processed_pdfs")
 
-def get_file_path(box: int, folder: int, foldername_short:str, file_type:str,
-                  doc_id:int = None, page_id:int = None, path_type='relative'):
+
+def get_file_path(box: int, folder: int, foldername_short: str, file_type: str,
+                  doc_id: int = None, page_id: int = None, path_type='relative'):
     """
     Returns the path to a page, doc, or folder file based on box, folder, name, filetype, docid
     Note: will return a Posix or Windows path depending on the OS. Below, all paths are cast
