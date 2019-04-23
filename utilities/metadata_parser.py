@@ -74,7 +74,7 @@ def populate_from_metadata(metadata_filename=None):
 
     print(f'''\n################################################################################
     IMPORT COMPLETE
-    ################################################################################
+################################################################################
     Added {count_added} documents from {metadata_filename}.
     Skipped {count_skipped} documents because of incomplete metadata.
     {count_invalid} had invalid data.\r\n''')
