@@ -23,6 +23,7 @@ class Person:
         self.last = last
         self.first = first
         self.middle = middle
+        # list of other names of this person, e.g. ['Verzuh, F. M.', 'Verzuh Frank M.']
         self.aliases = aliases
         self.count = count
 
