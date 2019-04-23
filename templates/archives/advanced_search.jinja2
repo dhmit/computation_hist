@@ -92,13 +92,32 @@
         </div>
         </div>
 
-    {# Display results only if a search has been processed #}
-    {% if results is defined  %}
 
+    {% if docs is defined and not (docs or people) %}
+        {# displayed only if a search has been processed but with no results #}
+        <h3>There are no documents or people that match your search.</h3>
+    {% endif %}
+
+    {% if people %}
+        <h3>People that match your search</h3>
+            <div class="row" id="results_container">
+                <div class="col-lg-9 col-md-9 col-sm-12">
+                {% for person in people %}
+                    <div class="person_result">
+                        <h4><a href="{{ person.url }}">{{ person.fullname }}</a></h4>
+                    </div>
+                {% endfor %}
+                </div>
+            </div>
+    {% endif %}
+
+
+    {% if docs %}
+        <h3>Documents that match your search</h3>
             <div class="row" id="results_container">
                 <div class="col-lg-9 col-md-9 col-sm-12">
 
-                {% for doc in results %}
+                {% for doc in docs %}
 
                     <div class="doc_result">
                         <h4><a href="{{ doc.url }}">{{ doc.title }}</a></h4>
@@ -147,12 +166,13 @@
                     </div>
                 {% endfor %}
 
-                {% if not results %}
-                    <h3>There are no documents that match your search.</h3>
-                {% endif %}
+
             </div>
             </div>
 
     {% endif %}
+
+
+
 {%  endblock %}
 
