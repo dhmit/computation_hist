@@ -2,13 +2,19 @@
 
 const width = 960;
 const height = 600;
-const color = d3.scaleOrdinal(d3.schemeCategory10);
+const color = d3.scaleSequential(d3.interpolateBrBG);
 
 
 function create_force_layout(nodes, edges) {
     const graph = {"nodes": nodes, "links": edges};
+    let max_weight = 0;
+    graph.nodes.forEach(function(d){
+        if (d.weight > max_weight){
+            max_weight = d.weight;
+        }
+    });
+    console.log(max_weight);
 
-    console.log("drawing");
     const label = {
         'nodes': [],
         'links': []
@@ -70,7 +76,7 @@ function create_force_layout(nodes, edges) {
         .enter()
         .append("circle")
         .attr("r", 5)
-        .attr("fill", function(d) { return color(d.weight); })
+        .attr("fill", function(d) { return color(d.weight/max_weight); });
 
     node.on("mouseover", focus).on("mouseout", unfocus);
 
@@ -177,3 +183,4 @@ function create_force_layout(nodes, edges) {
         d.fy = null;
     }
 }
+
