@@ -9,6 +9,7 @@ from django.core.exceptions import ObjectDoesNotExist
 from utilities.common import get_file_path
 from .models import Person, Document, Box, Folder, Organization, Page
 
+
 def index(request):
     # NOTE(ra): this hardcoded pattern isn't great, but we're since we're using
     # jinja2 templates as a data source for the stories, it gets us to a usable
@@ -94,7 +95,7 @@ def doc(request, doc_id=None, slug=None):
         'author_person_objs': author_person_objs,
         'author_organization_objs': author_organization_objs,
         'recipient_person_objs': recipient_person_objs,
-        'recipient_orgaization_objs': recipient_organization_objs,
+        'recipient_organization_objs': recipient_organization_objs,
         'cced_person_objs': cced_person_objs,
         'cced_organization_objs': cced_organization_objs,
         'page_objs': page_objs,
@@ -208,7 +209,7 @@ def search_results(request):
     user_input = request.GET['q']
 
     people_objs = Person.objects.filter(Q(last__contains=user_input) |
-                                        Q( first__contains=user_input))
+                                        Q(first__contains=user_input))
     document_objs = Document.objects.filter(title__contains=user_input)
     folder_objs = Folder.objects.filter(full__contains=user_input)
     organization_objs = Organization.objects.filter(Q(name__contains=user_input) |
@@ -291,7 +292,7 @@ def process_advanced_search(search_params):
     if title:
         docs_qs = docs_qs.filter(Q(title__icontains=title))
 
-    text = search_params.get('text') # full text search
+    text = search_params.get('text')  # full text search
     if text:
         words_q = Q()
 
