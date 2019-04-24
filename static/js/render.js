@@ -16,7 +16,7 @@ export class Renderer {
             const register = document.createTextNode(i.toString()+": ");
             para.appendChild(register);
             const span = document.createElement("span");
-            span.setAttribute("class", "general_memory");
+            span.setAttribute("class", "general_memory number");
             span.setAttribute("id", "general_memory" + i.toString());
             para.appendChild(span);
             general_memory_display.appendChild(para);
@@ -29,24 +29,25 @@ export class Renderer {
     update_computer_display(highlighted_registers = []) {
         const general_memory_html = $(".general_memory");
         const next_instruction_address = this.computer.general_memory[this.computer.ilc.valueOf()].instruction.address;
+        general_memory_html.removeClass("next_instruction target_register special_highlight");
         for (let i = 0; i < this.computer.size; i++) {
-            general_memory_html[i].innerHTML = this.computer.general_memory[i].toString();
-            general_memory_html[i].title = "Instruction: " +
-                this.computer.general_memory[i].instruction.toString();
-            general_memory_html[i].title += "\r\nFixed Point: " + this.computer.general_memory[i].fixed_point;
-            general_memory_html[i].title += "\r\nFloating Point: " + this.computer.general_memory[i].floating_point;
+            const new_value = this.computer.general_memory[i].toString();
+            if (new_value !== general_memory_html[i].innerHTML) {
+                general_memory_html[i].innerHTML = new_value;
+                general_memory_html[i].title = "Instruction: " +
+                    this.computer.general_memory[i].instruction.toString();
+                general_memory_html[i].title += "\r\nFixed Point: " + this.computer.general_memory[i].fixed_point;
+                general_memory_html[i].title += "\r\nFloating Point: " + this.computer.general_memory[i].floating_point;
+            }
+
             if (this.highlighting) {
                 if (i === this.computer.ilc.valueOf()) {
-                    general_memory_html[i].style.backgroundColor = "deepskyblue";
-                } else if (i === next_instruction_address && !this.computer.halt) {
-                    general_memory_html[i].style.backgroundColor = "#ff0066";
+                    general_memory_html[i].classList.add("next_instruction");
+                } else if (i === next_instruction_address) {
+                    general_memory_html[i].classList.add("target_register");
                 } else if (highlighted_registers.includes(i)) {
-                    general_memory_html[i].style.backgroundColor = "mediumseagreen";
-                } else {
-                    general_memory_html[i].style.backgroundColor = "transparent";
+                    general_memory_html[i].classList.add("special_highlight");
                 }
-            } else {
-                general_memory_html[i].style.backgroundColor = "transparent";
             }
         }
 
@@ -107,13 +108,11 @@ export class Renderer {
 export class DemoRenderer extends Renderer {
     update(instructions, num_code_lines, highlighted_registers = []) {
         const code_html = $(".symbolic_code");
+        code_html.removeClass("next_instruction");
         const code_line = Math.min(this.computer.ilc.valueOf(), num_code_lines-1);
         if (code_html.length !== 0) {
-            for (let line = 0; line < num_code_lines; line++) {
-                code_html[line].style.backgroundColor = "white";
-            }
             if (this.highlighting) {
-                code_html[code_line].style.backgroundColor = "deepskyblue";
+                code_html[code_line].classList.add("next_instruction");
             }
         }
 

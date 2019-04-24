@@ -2,6 +2,7 @@ import csv
 
 from config.settings import METADATA_CSV
 
+
 def contribution_counter(metadata=None):
     """
     This function returns a list of people who have contributed metadata.
@@ -37,6 +38,7 @@ def contribution_counter(metadata=None):
             del number_contributions[not_member]
 
     return sorted(number_contributions.items(), key=lambda kv: -kv[1])
+
 
 if __name__ == "__main__":
     from pprint import pprint
