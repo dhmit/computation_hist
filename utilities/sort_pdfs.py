@@ -11,8 +11,8 @@ from apps.archives.models import Folder
 from .common import get_file_path, PROCESSED_PDFS_PATH
 from .ocr import ocr_pdf
 
-def main_function(test_run=True):
 
+def main_function(test_run=True):
     """
     Iterates over all Folder Objects, downloads the folder pdf from aws and stores it in its
     designated directory.
@@ -64,14 +64,18 @@ def download_raw_folder_pdf_from_aws(box_no: int, folder_no: int, foldername_sho
             with open(abs_path, 'wb') as pdf_file:
                 shutil.copyfileobj(response, pdf_file)
     except urllib.error.HTTPError:
-        raise(FileNotFoundError(f'{url} is not available from our AWS bucket. For a list of '
-                                     f'available files, see aws_available_files.md in the '
-                                     f'computation_hist/data directory.'))
+        raise(FileNotFoundError(
+                f'{url} is not available from our AWS bucket. For a list of '
+                f'available files, see aws_available_files.md in the '
+                f'computation_hist/data directory.'))
     print(abs_path)
     return abs_path
 
 
-def split_doc_to_page(doc_pdf_path, foldername_short: str, box_no: int, folder_no: int,
+def split_doc_to_page(doc_pdf_path,
+                      foldername_short: str,
+                      box_no: int,
+                      folder_no: int,
                       doc_no: int):
     """
     split each document into pages and save it's png file and stores it
@@ -89,13 +93,19 @@ def split_doc_to_page(doc_pdf_path, foldername_short: str, box_no: int, folder_n
 
     for page in range(1, len(pages)+1):
         # find parent directories and make them
-        page_png_file_path = get_file_path(box_no, folder_no, foldername_short, file_type='png',
-                                 doc_id=doc_no, page_id=page, path_type='absolute')
-        page_txt_file_path = get_file_path(box_no, folder_no, foldername_short, file_type='txt',
-                                 doc_id=doc_no, page_id=page, path_type='absolute')
+        page_png_file_path = get_file_path(box_no, folder_no, foldername_short,
+                                           file_type='png',
+                                           doc_id=doc_no,
+                                           page_id=page,
+                                           path_type='absolute')
+        page_txt_file_path = get_file_path(box_no, folder_no, foldername_short,
+                                           file_type='txt',
+                                           doc_id=doc_no,
+                                           page_id=page,
+                                           path_type='absolute')
         page_png_file_path.parent.mkdir(parents=True, exist_ok=True)
         # create png files
-        pages[page-1].save(page_png_file_path, 'PNG')
+        pages[page - 1].save(page_png_file_path, 'PNG')
         # create text file
         with open(page_txt_file_path, 'w') as out:
             text = pytesseract.image_to_string(pages[page - 1])
@@ -130,6 +140,7 @@ def split_folder_to_doc(folder_pdf_path, foldername_short, box_no, folder_no):
         if doc_pdf_file_path.exists():
             continue
         else:
+            print(f'OCRing {doc_pdf_file_path}.')
 
             # make all the necessary parents directories of the doc_pdf
             doc_pdf_file_path.parent.mkdir(parents=True, exist_ok=True)
