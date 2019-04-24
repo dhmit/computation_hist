@@ -126,12 +126,12 @@ WSGI_APPLICATION = 'config.wsgi.application'
 # denial of service attack.
 
 DATABASES = {
-    'default': {
+    'sqlite3': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.path.join(DATA_DIR, 'db.sqlite3'),
     },
 
-    'sqlite3': {
+    'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'HOST': 'comphist-test-0.cdciclcuqo67.us-west-1.rds.amazonaws.com',
         'PORT': '5432',
