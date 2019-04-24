@@ -2,12 +2,6 @@
 
 import { timer } from "./simulator.js";
 
-async function flash_text(element) {
-    element.classList.add("blink");
-    await timer(200);
-    element.classList.remove("blink");
-}
-
 export class Renderer {
     constructor(computer) {
         this.computer = computer; // an IBM_704 instance
@@ -34,7 +28,7 @@ export class Renderer {
     /**
      * Update the display of the computer's memory.
      */
-    update_computer_display(highlighted_registers = []) {
+    async update_computer_display(highlighted_registers = []) { // jshint ignore:line
         const general_memory_html = $(".general_memory");
         const next_instruction_address = this.computer.general_memory[this.computer.ilc.valueOf()].instruction.address;
         general_memory_html.removeClass("next_instruction target_register special_highlight changed");
@@ -64,39 +58,99 @@ export class Renderer {
         }
 
         const instruction_location_counter_element = $("#instruction_location_counter")[0];
+        if (parseInt(instruction_location_counter_element.innerHTML, 2) !== this.computer.ilc.valueOf() - 1 && instruction_location_counter_element.innerHTML !== "" && this.highlighting) {
+            instruction_location_counter_element.classList.add("changed");
+        } else {
+            instruction_location_counter_element.classList.remove("changed");
+        }
         instruction_location_counter_element.innerHTML = this.computer.ilc.toString();
         instruction_location_counter_element.title = "Location: " + this.computer.ilc.valueOf();
-
-        $("#instruction_register")[0].innerHTML = this.computer.instruction_register.toString();
-        $("#instruction_register")[0].title = "Operation: " + this.computer.instruction_register.get_instruction_str();
+        
+        const instruction_register_element = $("#instruction_register")[0];
+        if (instruction_register_element.innerHTML !== this.computer.instruction_register.toString()) {
+            instruction_register_element.innerHTML = this.computer.instruction_register.toString();
+            instruction_register_element.title = "Operation: " + this.computer.instruction_register.get_instruction_str();
+        }
 
         const storage_register_element = $("#storage_register")[0];
-        storage_register_element.innerHTML = this.computer.storage_register.toString();
-        storage_register_element.title = "Instruction: " + this.computer.storage_register.instruction.toString();
-        storage_register_element.title += "\r\nFixed Point: " + this.computer.storage_register.fixed_point;
-        storage_register_element.title += "\r\nFloating Point: " + this.computer.storage_register.floating_point;
+        if (storage_register_element.innerHTML !== this.computer.storage_register.toString()) {
+            storage_register_element.innerHTML = this.computer.storage_register.toString();
+            storage_register_element.title = "Instruction: " + this.computer.storage_register.instruction.toString();
+            storage_register_element.title += "\r\nFixed Point: " + this.computer.storage_register.fixed_point;
+            storage_register_element.title += "\r\nFloating Point: " + this.computer.storage_register.floating_point;
+        }
 
         const accumulator_element = $("#accumulator")[0];
-        accumulator_element.innerHTML = this.computer.accumulator.toString();
-        accumulator_element.title = "Fixed Point: " + this.computer.accumulator.fixed_point;
-        accumulator_element.title += "\r\nFloating Point: " + this.computer.accumulator.floating_point;
+        if (accumulator_element.innerHTML !== this.computer.accumulator.toString()) {
+            if (this.highlighting && accumulator_element.innerHTML !== "") {
+                accumulator_element.classList.add("changed");
+            } else {
+                accumulator_element.classList.remove("changed");
+            }
+            accumulator_element.innerHTML = this.computer.accumulator.toString();
+            accumulator_element.title = "Fixed Point: " + this.computer.accumulator.fixed_point;
+            accumulator_element.title += "\r\nFloating Point: " + this.computer.accumulator.floating_point;
+        } else {
+            accumulator_element.classList.remove("changed");
+        }
 
         const mq_register_element = $("#mq_register")[0];
-        mq_register_element.innerHTML = this.computer.mq_register.toString();
-        mq_register_element.title = "Fixed Point: " + this.computer.mq_register.fixed_point;
-        mq_register_element.title += "\r\nFloating Point: " + this.computer.mq_register.floating_point;
+        if (mq_register_element.innerHTML !== this.computer.mq_register.toString()) {
+            if (this.highlighting && mq_register_element.innerHTML !== "") {
+                mq_register_element.classList.add("changed");
+            } else {
+                mq_register_element.classList.remove("changed");
+            }
+            mq_register_element.innerHTML = this.computer.mq_register.toString();
+            mq_register_element.title = "Fixed Point: " + this.computer.mq_register.fixed_point;
+            mq_register_element.title += "\r\nFloating Point: " + this.computer.mq_register.floating_point;
+        } else {
+            mq_register_element.classList.remove("changed");
+        }
 
         const index_a_element = $("#index_a")[0];
-        index_a_element.innerHTML = this.computer.index_a.toString();
-        index_a_element.title = "Value: " + this.computer.index_a.valueOf();
+        if (index_a_element.innerHTML !== this.computer.index_a.toString()) {
+            if (this.highlighting && index_a_element.innerHTML !== "") {
+                index_a_element.classList.add("changed");
+            } else {
+                index_a_element.classList.remove("changed");
+            }
+            index_a_element.innerHTML = this.computer.index_a.toString();
+            index_a_element.title = "Value: " + this.computer.index_a.valueOf();
+        } else {
+            index_a_element.classList.remove("changed");
+        }
 
         const index_b_element = $("#index_b")[0];
-        index_b_element.innerHTML = this.computer.index_b.toString();
-        index_b_element.title = "Value: " + this.computer.index_b.valueOf();
+        if (index_b_element.innerHTML !== this.computer.index_b.toString()) {
+            if (this.highlighting && index_b_element.innerHTML !== "") {
+                index_b_element.classList.add("changed");
+            } else {
+                index_b_element.classList.remove("changed");
+            }
+            index_b_element.innerHTML = this.computer.index_b.toString();
+            index_b_element.title = "Value: " + this.computer.index_b.valueOf();
+        } else {
+            index_b_element.classList.remove("changed");
+        }
 
         const index_c_element = $("#index_c")[0];
-        index_c_element.innerHTML = this.computer.index_c.toString();
-        index_c_element.title = "Value: " + this.computer.index_c.valueOf();
+        if (index_c_element.innerHTML !== this.computer.index_c.toString()) {
+            if (this.highlighting && index_c_element.innerHTML !== "") {
+                index_c_element.classList.add("changed");
+            } else {
+                index_c_element.classList.remove("changed");
+            }
+            index_c_element.innerHTML = this.computer.index_c.toString();
+            index_c_element.title = "Value: " + this.computer.index_c.valueOf();
+        } else {
+            index_c_element.classList.remove("changed");
+        }
+
+        const changed_registers = $(".changed");
+        changed_registers.addClass("blink");
+        await timer(500); // jshint ignore:line
+        changed_registers.removeClass("blink");
     }
 
 
