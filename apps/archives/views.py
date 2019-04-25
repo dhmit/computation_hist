@@ -10,6 +10,7 @@ from django.core.exceptions import ObjectDoesNotExist
 from utilities.common import get_file_path
 from .models import Person, Document, Box, Folder, Organization, Page
 
+
 # NOTE(ra): this hardcoded pattern isn't great, but we're since we're using
 # jinja2 templates as a data source for the stories, it gets us to a usable
 # prototype without having to, e.g., read the folder of story templates
@@ -24,8 +25,6 @@ STORIES = [
     'time_records',
     'women_in_symbols',
 ]
-
-
 
 
 def index(request):
