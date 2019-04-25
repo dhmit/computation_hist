@@ -25,6 +25,7 @@ from config.settings import DATA_DIR
 # Note: We're using tessdata_best (https://github.com/tesseract-ocr/tessdata_best)
 OCR_LSTM_NET_PATH = Path(DATA_DIR, 'ocr_lstm_net')
 
+
 def ocr_pdf(input_pdf_path, return_type='text', output_pdf_path=None):
     """
     OCRs a pdf using Tesseract through the pytesseract module
