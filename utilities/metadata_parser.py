@@ -289,7 +289,7 @@ def interpret_person_organization(field, item_organization, item_person, new_doc
 
                 #            # add first name, last name pair to names
                 if last_name != '':
-                    #                    unfixed_first_name = split_name[1].strip()
+#                    unfixed_first_name = split_name[1].strip()
                     if last_name not in names_so_far:
                         names_so_far[last_name] = {first_name}
                     else:
