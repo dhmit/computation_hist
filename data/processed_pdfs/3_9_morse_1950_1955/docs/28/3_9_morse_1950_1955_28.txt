@@ -1,54 +1,48 @@
-ULF 3 fp
+INDUSTRIAL LIAISON OFFICE
 
-Lo UNSIBA Hd
-: SuNpY "HM "0 0D
-BIBIVIA
+April 21, 1952
 
-UOSTIIV "1 *A
+Professor P. M. Morse
+CE of the Computer Committee
+-109
 
-77H
+Dear Professor Morse:
 
-fganof LT2I30UTS
+On a visit to three of M.I.T.'s computing facilities Thursday
+the wide difference in policy as to charge for machine-time was
+made apparent to me.
 
-sgatonedasostp 2823 J07 uotavuBTdxe TRucTam: © atdoad
-JOS ng I} JBIJO 03 STAR J0U EBA I JTUPR ETM I hq ‘993 TUmOD
-nod £q mBuST 19 PRIIPTSUCD UR] SSATAANOP SABY SJ0108F W1UJ,
+Three gentlemen were up from the Du Pont company to get some
+assistance in solving 250 solutions of a couple of simultaneous
+non-linear differential equations. We started at Whirlwind where
+the present policy calls for no charge in solving an acceptable
 
-fen um
-227 Led sou qemu ‘xedoxd Joejey woxy FIO ITds Sutasy “TIVE BUI
-3287 9U3 OSTR ST IBY °TRYZ 99TVINOOUL JIVE PUTATITUM U3 ‘807
--aJeu) ‘pus quemdoreadp 897 ur Jurpre Lrqmumsaad age smeTqold 2TqBL
--daoow aga) pre padoysasp ATTN ef g0u ST PUY JSC AY UO PULA
-Tatum £Lo170d 8,70V0 UT Les SW0s SABY OF PATJIY SB 2ouvulpay Lfuay
-JI0 JDUVUTPI) JO mmRANG BU durdewy I pe st2andmod snoLIes 28979
-Jo diysaosuods ayy 03 anp L7yred Q8eT 12 ST SOURILIZTID STUL
+roblem. The next stop was the Differential Analyzer where the
 
-*ax0dax TOUT © Jo uopyeaedead pre FupmmerSoad oul SPNIOUT SOP
-GOTYA SUWTR~SUTUIBW 20 Inoy Jed Q0°00Ld Jo #8xeuyd ® JoF erye Log
-~Tod JueIIND Ou AIsyA TTOWI UT Jegndimon enSoTeuy 9U3 SBA DOLAISTA
+160.00 a day charge seemed reasonable enough. The last facility
+vigited was the Analogue Computer in DACL where the current pol-
+icy calle for a charge of $300.00 per hour of mechine-time which
+does include the programming and preparation of a finsl report.
 
-£37T708F 989T yl cuSnous aTQRUOS®EI paoes afaeyd Lep 00°0ST
-eu) aXsuA JIZATVUY TRTUSISDIITQ oul sea doje Xu Jf ‘WATQO
-oTqede00® ue JupaTos ut a8xeud ou Io STIR? Logrod quessad oun
+This difference ie &t least partly due to the sponsorship of
+these various computers and I imagine that Bureau of Ordinance or
+Army Ordinance has tried to have some say ia DACL's policy. Whirl-
+wind on the other hand is not yet fully developed and these accep-
+table problems are presumably aiding in its development and, there-
+fore, the Whirlwind staff encourages them. There is also the fact
+that DACL, having split off from Meteor proper, must now pay its
+own WEY.
 
-SISA PUTMTITUM 98 PagaBle a) *suojqends TBIUSISIJTP JBRUTT-uoUu
+These factors have doubtless been considered at length by your
+comuitiee, but I must admit I was not able to offer the Du Pont
+pecple a rational explanation for these discrepancies.
 
-SnoauBTImTE JO oTdnod ® JO BuOTANIOB O42 SUTATOS UT 20URISTESE®
+Sincerely yours,
+We Ls Allison
+WIA:efe
+CC: C. W. Adans
 
-swos 998 04 Avedmod quod ng ayy moar dn aan USURTIULE Soll
-
-am 09 juessdde apwu
-SBN SWII~SUTUPWW JI0F BI\y2 03 88 LOTT0d UT SVULIRIIIP ITA 2U3
-Aepsanyy SATTTTORF Suranduod ,°J IH JO 29aug 03 2TSTA ® WQ
-
-128JI0p X0889J0Id Jeed
-€0T~9
-
-29 TUMOY JIOANAWO) YY JO UBHITET)
-SBICH °W °d Jossejolg
-
-3C6T ‘12 Trady
-
-321440 NOSIVIT TVIHLSNANI
+P. M, Verzuh
+Js Ce Kern
 
 
