@@ -1,0 +1,52 @@
+2 " M- Bv® - o w . s ARSI — e TR e e 1 s >
+T A P L g T SR ST N L 0 L ey
+
+ 
+
+ 
+
+February 7, 1958
+
+Professor Courtney Coleman
+Department of Mathematics
+Wesleyan University
+Middletown, Connecticut
+
+Dear Professor Coleman:
+
+Professor Morse has shown me your letter of February 3
+wherein you inquire of the summer &oding course for the 7Ok .
+Although the dates are not set defiinitely at this time, it is
+quite probable the course will be held here at M.I.T. during the
+last two weeks of August as it was in 1956 and 1957.
+
+In addition, there will be a course given here at the
+Center during the spring term under the direction of Dr. Verzuh.
+Obviously this will only be most convenient to those in the
+immediate area of Cambridge. If there is any desire to use 704
+time during the spring vacation for the coding course which
+might be given by the I.B.M. representatives, prior arrangements
+should be madé with Dr. Verzuh who is in charge of machine operation.
+
+As reference material on coding, I would recommend a book
+entitled DIGITAL COMPUTER PROGRAMMING by D. D. MeCracken, John
+Wiley, 1957. 1In addition the notes which were prepared by the
+staff here at the Center for the 1957 eourse entitled CODING FOR
+THE M.I.T.-I.B.M. 704 COMPUTER are now on sale through the Technology
+Press here at M.I.T. and locally at the Technology Store. Finally,
+1f the coding course is to be limited to the use of FORTRAN, I
+would like to point out that in addition to the usual brown-colored
+reference manual, there is now a tomato-eolored programmer's primer.
+
+I hope this has answered the questions in your letter;
+and if I can be of any further assistance, please feel free to write.
+
+Sincerely,
+
+Fo '@ Corbaté
+Assistant to the Director
+FJC:R I.B.M. Research Appointment Program
+ce: VProf. P. M., Morse
+Prof. D. N. Arden
+Dr. F, M. Verzuh
+Dr. J. Blackburn

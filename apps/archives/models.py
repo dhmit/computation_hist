@@ -31,7 +31,7 @@ class Person(models.Model):
 
     def __str__(self):
         if self.last and self.first:
-            return self.last + ' ' + str(self.first)[0]
+            return self.last + ', ' + self.first
         elif self.last:
             return self.last
         elif self.first:
@@ -51,7 +51,7 @@ class Person(models.Model):
 
     @property
     def fullname(self):
-        return self.first + "_" + self.last
+        return self.first + " " + self.last
 
     @property
     def url(self):
@@ -100,9 +100,12 @@ class Document(models.Model):
     cced_person = models.ManyToManyField(Person, related_name='cced_person', blank=True)
     cced_organization = models.ManyToManyField(Organization, related_name='cced_organization',
                                                blank=True)
-    notes = models.CharField(max_length=191, blank=True)
-    file_name = models.CharField(max_length=191, blank=True, unique=True)
+    notes = models.TextField(blank=True)
+    file_name = models.CharField(max_length=191, unique=True)
     text = models.TextField(blank=True)
+
+    #  https://docs.djangoproject.com/en/2.1/ref/utils/#django.utils.text.slugify
+    slug = models.SlugField(max_length=191, unique=True)
 
     def __str__(self):
         return self.title
@@ -123,7 +126,7 @@ class Document(models.Model):
 
     @property
     def url(self):
-        return f'/archives/doc/{self.pk}'
+        return f'/archives/doc/{self.slug}'
 
     def get_person_list(self, list_type):
         """
@@ -167,6 +170,7 @@ class Page(models.Model):
                                  doc_id=self.document.doc_id, page_id=int(self.page_number),
                                  path_type='aws')
         return png_path
+
 
 class Text(models.Model):
     page = models.OneToOneField(Page, on_delete=models.SET(None), blank=True)

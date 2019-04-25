@@ -1,0 +1,44 @@
+3
+2. CONDENSED SYMBOLIC NOTATION
+
+Condensed symbolic notation 1s a variant of the notation read
+by the SHARE aszembly program UASAP, with which the reader is as-
+sumed to be familiar, and which we shall refer to as standard
+symbolic notation.
+
+The first character of a condensed symbolic instruction is a
+digit from 1 to 8. If the digit d is between 1 and 6 it indicates
+a SHARE symbolic instruction in which the first non blank column
+is column d, If the digit is 7 the location field is blank and
+the first non blank is in column 8. If the digit is 8 the first
+non blank is in column 12. The instruction is then written con-
+tinuously with no gaps. For all instructions and pseudo-instruc-
+tions except BCD and REM the condensed instruction ends with the
+first blank and the next instruction follows immediately,
+
+EXAMPLE: The program A CLA X
+STO ¥
+TSX FN,L
+3
+would be condensed to 6ACLAX T7STOY T7TSXFN,lL 83.
+
+In the case of a BCD instruction there is no blank at the
+end since the digit in column 12 tells when the instruction ends.
+REM instructions are ordinarily suppressed by the condensation
+program., However, the programmer can insist that an REM instruc-
+tion be Included by putting a digit d or an X in column 6, in
+which case d six character words of remark will be included in
+the condensed symbolic program, where X denotes 10,
+
+Another feature of the condenser program is that for all
+instructions but the HED instruction, if the location field is
+less than 6 characters it is pushed as far to the right as pos-
+sible to save space in the condensed program.
+
+Condensed symbolic programs can be produced in two forms -
+as cards and as library programs on a tape. In the card form
+the condensed instructions run continuously through columns 1
+to 72 of the card. An instruction may have part of it on one
+card and part on the next. A revision of UASAP which will read
+
+condensed symbolic cards together with standard symbolic cards

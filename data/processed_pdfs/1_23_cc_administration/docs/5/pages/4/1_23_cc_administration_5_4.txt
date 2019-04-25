@@ -1,0 +1,85 @@
+DCL-148
+
+-l
+
+employed %0 resgolve ambiguities. Numb 8Tg 1 e Wr =n in the usual
+
+decimal form, with oy without a deeimsl point. Vari 3&35 (wpgwh may be
+
+headed) will conaist of u’phaﬂunwric olezacte*a not ald of which ars
+
+numbers. functione (and, indesd, symboli
+4
+
+rid adgd 'w*ll hnve the sane
+foym as variables; dist netions will be made by by
+
+L3 o iy g
+
+We now desceribe each of the pseudo-instructions in greater
+detail.
+
+The Define Statement
+
+Define statements are used to construet function verisbles
+and have the general form
+
+DEN £ [V(E}] ==
+where I denctes an algebraic expression iuvolving scalars and variables,
+T denotes the function variable being defined and V(E) denofes sny
+ordered listing of the distinet independent varizables occurring in E,
+For example, if '
+
+2
+E=x +y°2
+
+then |
+VAE) = X. 7.2 O ¥,X,Z2 OF ses
+
+and a suitable define statement is the following
+DI f(xgy,z} =~ x 4+ v o g
+
+The compiler will accept a defline statement only 1
+be constructed by repeated applications of the following rules
+
+.
+
+i
+
+3n P
+
+it can
+
+Rule J: If & is an expression invelving only numbers ar
+Jndsp ent qarwaJlesp then £, where
+
+DE
+
+Pt
+
+v £ [V(E)] =
+
+&
+
+18 a funetion variabdle.
+
+; < . Y P — e - Wl S i ney ot Foierp i LA . : o Pt ~
+Rule 21 If E is an expression inveliving only numbers d
+.y re—asey ,‘ ‘1 - ” » o
+! N A e e oy > o T . - - e e oy S S i P . o e "~ o~ . .
+N2 alal 1 DaNGally vairia bleg ax 161, denotves the SR LC SS1L.00N o048 loed e 4L
+1 e T o S o' & 4" - e - o5 ! Iy 9 w7 - enre -~ Y o v s .
+by Teplacing an indepsndent variable in I by any expression (involvin
+<3 : e A o~ e et e o P
+numb: 318, 'LU'~1J°'('”Y' iﬁlrlxauliéb and funection variaples). Then T 2
+. ok
+T T ) \ £ = N
+1 ’ '\\ f vy (7 ) ¢ = T(
+- * 4 ‘
+o o - - e
+15 a f NICTAL00 v .-b 2
+'
+- -~ i ~ = 1 ~ e o~n Y-
+;,X’(_‘ { (R 5 57,' ) ", 0 Jﬂ’j: | x;’: 5 ‘,'_y} <|r.jj‘ ( ) T‘\P .) AL cL! : T L : \ l L
+
+‘. \.«‘.'. e O

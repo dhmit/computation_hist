@@ -1,0 +1,87 @@
+—_——
+
+ 
+
+THE RAND CORPORATION :
+
+1700 Main Street. Sante Monica California
+
+27 March 1961 1-639
+
+My. Shinji Ksieocka
+
+Operations Research Center
+Massachusetts Institute of Technology
+Cambridge 39, Massachusetts :
+
+Dear Me. Rateoka:
+
+Under separate cover I have sent you a copy of the GQS progzam for the
+709 (or T7090), together with an asgenbly listing. IT you would like the
+symbolic progism cards, please let me know.
+
+The TOO version operates essentially the ssme as the TOk version. I have
+made only the changes which were necessary to have the old program operate
+on the new machine. The new program has been designed to operate within the
+standurd T09 FORTRAN Monitor system which is, I believe, in operation there
+at M.I.T. Specifically, you should note the following points sbout the
+
+T09 version:
+
+1. The input tape is A2;
+The output tzpe is AJ:
+Tape AL is used during execution of the program:
+No sense switches are used.
+
+2. The program loads into location 400 (decimsl) and
+above. (An absolute loader is loaded by the
+a ta the ebsolute loader then loads
+Gas.
+
+3. The on-line clock is not used; therefore the REALT
+(real time) LENGTH option is no longer allowed.
+
+Lh, The PUNCH card is no longer used and the non-
+stationary-input procedure has been changed. To
+use the non-stationary feature, the following steps
+are necessary:
+
+a) make an initial run to determine parameter
+locations;
+
+
+Mr. Shinji Kataoka =D 3-27-61
+L-6349
+
+‘The complete operation deck format has been changed, of course,
+to conform to the requirements of the TOQ FORTRAN Monitor.
+
+I have included a small test data set with the prograi, to-
+gether with the wesults of the ron using the test data.
+
+If you have any further questions, please let me know,
+
+GWA:ah
+
+b)
+c)
+
+a)
+
+xeypianch the non-gtationary date cards;
+
+precede the deck of non-gtationary data cards
+vith a card punched NONSTA in columns 1 through
+
+2
+
+place the resulting won-stationary deck Just
+before the IERGTE card in the data deck and
+run the new deck.
+
+Sincerely,
+
+George W. Armerding
+Computer Sciences Department
+
+

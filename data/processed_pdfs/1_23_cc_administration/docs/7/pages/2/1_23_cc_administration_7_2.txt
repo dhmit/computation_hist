@@ -1,0 +1,23 @@
+2o
+
+In the following sections we describe the condensed symbolic
+notation, the use ol the revised library system, the use of con-
+densed symboifc cards with assembly, and the use of the program
+which prepares the condensed library tapes and the condensed sym-—
+bolic cardse
+
+The modification TO the assembly program 1is written except
+for the section of sbout 100 additional instructions which will
+provide for the reading of condensed cards. The program for the
+preparation of library tapes and the preparation of condensed
+cards is completely written., Neither of the programs has yet bee
+punched Upe.
+
+A number of desirable features, designed TO protect against
+human and machine error, nave not been incorporated in the pres—
+ent system for lack of time.
+
+The features described herein are tentative and subject TO
+modification by persons willing to argue and TO program thelr
+
+proposals.

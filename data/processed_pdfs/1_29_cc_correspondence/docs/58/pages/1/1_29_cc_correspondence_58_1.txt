@@ -1,0 +1,56 @@
+MIT COMPUTATION CENTER
+Massachusetis Institute of Technology
+Cambridge 39, Massachusettis
+
+QUARTERLY PROGRESS REPORT
+To: Users of Computation Center Facilities Date: June 2, 1958
+
+From: F. M, Verzuh
+Subject: Quarierly Progress Report for the Pericd April 1 - June 30, 1958
+
+ 
+
+It is again time for the MIT Computation Center to report to its
+sponsors on the use of the Center facilities, the nature of problems using
+the machine, their progress towards solution, and a description of the results
+thus obtainad. We are about to prepare the third Semi-Annual Report originating
+from the Center and want very much to include your progress report.
+
+T 7o help us meet the deadline on the semi-annual report, will you
+
+- kindly fill out the attached PROGRESS REPORT FORM and return it to:
+
+ 
+
+Dr. F. M. Verzuh
+MIT Computation Center
+Room 26-142
+
+on or bofore Friday, June 13, 19838,
+
+Your progress report should be typewritten in EXACT FORM for
+direct inclusion in the SEMI-ANNUAL Report. In the case of a completed
+problem ~- those in which the programmer has completed use of the 704
+computer -~ the Center must receive a FINAL report from the programmer,
+
+In the accordance with the terms of the PROBLEM FORM (CCF-3a),
+which you have received, the 704 machine time is allocated separately for .
+each quarter; no further machine time will be allocated for this problem
+untll this questionnaire is answered and returned on time. Please fill
+out the attached questionnaire indicating the amount of time desired, if
+any, during the forthcoming quarter July 1 - September 30, 1958. Since all
+present machine time allotments expire on June 30, it is important that we
+hear from you before Jume 13, 1958,
+
+Sincerely yours,
+
+m. 7
+
+o M, Verzuh
+Assistant Director
+
+FMV:nb
+
+Enclosure: Quarterly Report Questionnaire
+
+FORM CCP-8.4

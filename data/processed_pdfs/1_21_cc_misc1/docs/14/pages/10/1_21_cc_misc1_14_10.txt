@@ -1,0 +1,60 @@
+10,
+BIBLIOGRAPHICAL DATA
+
+JOHN G. KEMENY
+
+Books:
+
+ 
+
+INTRODUCTION TO FINITE MATHEMATICS (with J. L. Snell and G.
+L. Thompson), Prentice-Hall, Jan. 1957.
+
+A PHILOSOPHER LOOKS AT SCIENCE, Van Nostrand. Forthcoming,
+
+UNIVERSAL MATHEMATICS, PART II. (Co-author of Mathematics
+Association book)
+
+Articles:
+
+"Models of logical systems." Journal of Symbolic Logic, vol.
+13 (March 1948), pp. 16-30. — ;
+
+"Type-theory vs. set theory." Ph.D. thesis, abstract published
+in Journal of Symbolic Logic, March, 1950.
+
+"Carnap on probability." Review of Metaphysics, vol. 5 (Sept.
+1951), pp. 145-156.
+
+"Extension of the methods of inductive logic." Philosophical
+Studies, vol. 3 (April 1952), pp. 38-L42.
+
+"A contribution to inductive logic." Philosophy and Phenom-
+enological Research, vol. 13 (March 1953), pp. 371-37L.
+
+ 
+
+"A logical measure function." Journal of Symbolic Logic, vol,
+18 (Dec. 1953), pp. 289-308. o
+
+"Man viewed as a machine.," Scientific American, vol., 192
+
+(April 1955), pp. 58-67.
+
+"Carnap's theory of probability and induction." Library of
+Living Philosophers, forthcoming.
+
+"Fair bets and inductive probabilities." Journal of Symbolic
+Logic, vol. 20 (Sept. 1955), pp. 263-273.
+
+"Semantics, logical." Encyclopaedia Britannica, 1956 Edition.
+
+"A new approach to Semantics." Journal of Symbolic Logic,
+vol. 21 (March 1956, pp. 1-27, and June 19 ;
+
+"A Generalization of the von Neumann Model of an Expanding
+Rconomy," with G. L. Thompson and Oskar Morgenstern.
+Reconometrica 2L (1956), pp. 115-135.
+
+"Markov processes in learning theory," with J. L. Snell. To
+appear 1in Psychometrika.

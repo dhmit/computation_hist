@@ -1,14 +1,30 @@
+# only run travis on pushes to master, pull requests, or if the branch
+# name contains the case insensitive substring 'travis'
+branches:
+  only:
+  - master
+  - /.*(?i:travis).*$/
+
+addons:
+  chrome: stable
+
 language: python
 python:
   - "3.6"
 
 before_install:
   - export DJANGO_SETTINGS_MODULE='config.settings'
+  - wget https://chromedriver.storage.googleapis.com/74.0.3729.6/chromedriver_linux64.zip
+  - unzip chromedriver_linux64.zip -d /home/travis/virtualenv/python3.6.3/bin/
+  - export CHROME_BIN=chromium-browser
+  - npm install -g jshint
 
 install:
   - pip install -r requirements.txt
   - python manage.py migrate
 
 script:
-  - python manage.py populate_from_metadata
-    # - python manage.py runserver
+  - python manage.py test --settings config.settings-test
+  - ./.travis-pylint.bash
+  - jshint static/js
+

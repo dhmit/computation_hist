@@ -2,13 +2,12 @@
 
 {% block title %}IBM 704 Assembly Addition{% endblock %}
 
-{% block self %}IBM 704 Assembly Addition{% endblock %}
+{% block header %}IBM 704 Assembly Addition{% endblock %}
 
-{% block code %}
-    <p class="symbolic_code" id = "symbolic_code0">CLA 4</p>
-    <p class="symbolic_code" id = "symbolic_code1">ADD 5</p>
-    <p class="symbolic_code" id = "symbolic_code2">STO 6</p>
-    <p class="symbolic_code" id = "symbolic_code3">HTR</p>
+{% block buttons %}
+    <button id="step_button">Step</button>
+    <button id="run_button">Run</button>
+    <button id="reset_button">Reset</button>
 {% endblock %}
 
 {% block description %}

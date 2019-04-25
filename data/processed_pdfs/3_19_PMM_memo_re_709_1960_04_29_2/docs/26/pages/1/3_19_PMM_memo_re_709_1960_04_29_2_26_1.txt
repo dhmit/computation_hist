@@ -1,0 +1,51 @@
+COMPUTATION CENTER
+Massachusetts Institute of Teghnology
+Cambridge 39, Massachusetts
+
+April 29, 1960
+
+Memorandum to Users of the Computation Center:
+
+We are pleazsed to announce that in July 1960 an IBM T09
+ gomputer will replace the IBM 704 presently at the Center; —
+furthermore, in January 1962 an IBM 7090 computer is scheduled to
+replace the 709. These changes should represent appreciable increases
+in machine capacity.
+
+All of these computers are furnished free-of-charge and
+maintained by the International Business Machines Corporation. As
+in the present arrangement, cne shift of computer time will be
+for the Cooperating New England Colleges and Universities, one
+shift will be for MIT, and one shift will be retained for its own
+use by the IBM Corporation.
+
+The IBM 709 will have thirteen tape units on-line attached to
+three input-output channels and a direct data entry device attached
+to a fourth channel. Two of the channels and the direct data entry
+device have been furnished specially for preparation of a time-
+sharing system for the T090. (IBM has also granted additional
+computer time to the Center for this project.) As with the 704,
+the Cathode Ray Tube ocutput unit will be attached to the 709 but
+there will be no magnetic drum storage or half-word logic. In other
+respects the equipment will be the same as it is at present. It is
+expected that installation of the 709 will require the entire month
+of July.
+
+The instructicn codes for the 704X a2nd 709 computers are guite-
+gsimilar. The principal changes of the 700 are either extensions
+and improvements or changes in the input-output logic. With the
+exception of input-output instructions all 704 instructions will
+operate correctly on the 709, so that most 704 programs will require
+only minor modifications to work on the 709. The Center is preparing
+for distribution shortly a further memorandum describing the
+available 709 programming systems, appropriate manuals which can be
+obtained from the Center, and advice on the conversion of old programs.
+A meeting on these subjects for interested prograwmers is also planned
+within the next month.
+
+Sincerely,
+
+Philfp ¥. Morse
+Directol
+
+PMM: RM

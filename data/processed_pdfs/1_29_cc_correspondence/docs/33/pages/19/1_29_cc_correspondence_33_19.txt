@@ -1,0 +1,43 @@
+19
+G. The Replacement of 704 Copy Loops by 709 Commands
+
+The conversion of simple wrlting loops is shown in
+
+the following example.
+
+IXA CNTR,1 LXA CNTR,1
+
+WTB 1 SHD o : . IOA, 1
+
+CPY A+N,1l WIBRE. 4
+
+MK end .ot RCHX IOA
+
+I0D (TGO " %) This instruction delays
+
+the main, program until
+data command is finished.
+: " It should be used 1if
+CNTR PZE N CNTR PZE N further computations
+JOA IOCD A,,x% involve A.
+
+The reading of a full record in a simple loop may
+
+be converted as in the followling example.
+
+IXA Q0,1
+RTB 1 RTBX i
+CEY =B RCH®, 10B
+TXI ¥<1,1 =1 (TCoRc ) Wait for all information
+TRA EOF 3 . to reach core
+IOD EOR .
+I0B TORP B, -1
+I0CD O, ,0 Disconnect channel
+Q0 PZE O
+
+: it s Note: To read. N words. of & record
+¢f N or -more. words, the above
+program changes only at I1I0B,
+which becomes
+
+IOB IORP B,,N

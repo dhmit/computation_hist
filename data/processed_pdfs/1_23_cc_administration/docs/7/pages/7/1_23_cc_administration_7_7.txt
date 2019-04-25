@@ -1,0 +1,37 @@
+Te
+No two subroutines
+called for may have the same name even if they are to come from
+
+the subroutine. (X is the digit for tape 10).
+
+different tapes, though a subroutine called for may have the same
+
+name as one on a different tape which is not called for.
+
+EXAMPIE: In this example two subroutines are taken from the public
+library tape, and one $s taken from tape 5. The latter 1is inserted
+in the program in two places.
+
+cl LIB
+PH1 LIB
+01 LIB 5
+LIB
+ORG 1024
+SPART @ o & ik
+JMCO001 LIB
+JMC001 LIB
+2 5w e
+1 e
+oaiialolie s
+UABDC1 LIB
+UASPH1 LIB
+END START
+
+Operational features of the revised assembly.
+
+The public library tape should be mounted aa tape L, a blank
+tape mounted as tape mounted as tape 3, and any private library
+tapes requested mounted Wwith the numbers requested. These numbers
+must be from 5 to 10. Otherwise the procedure is the same as
+
+described in the UASAP writeup.

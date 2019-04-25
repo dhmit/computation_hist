@@ -1,0 +1,37 @@
+Professor H, M, Teager March 30, 1960
+26-261
+
+To: Prof. Hill
+Prof, Morse
+Prof, Wiesner
+Prof, Fano
+
+SUBJECT: LONG RANGE COMPUTATION SYSTEM STUDY GROUP -
+PRELIMINARY OBJECTIVES, ORGANIZATION, AND PLANS
+
+Summary
+
+A group should be set up to study the reole of computation
+at MIT and surrounding research centers in order to recommend a plan
+for future action of MIT to cover our needs in the next five or more
+years, This study should be completed by winter of 1960,
+
+A plan of approach has been developed, with recommendations
+for staffing and support,
+
+in the light of the past ten years of experience in high-
+speed computation at MIT, it is time for a critical assessment of our
+objectives with regard to computation - its role in our research and
+education, both now and for the next five or more years; our needs
+with respect to computation; and a plan for an orderly development to
+meet those needs, including recommendations for the type of equipment
+that should be obtained, and areas for further research and development
+in carrying out such a plan, Such an appraisal, while primarily based
+upon MIT, would im addition attempt to include the needs of surrounding
+laboratories, to determine the desirability and feasibility of pooling
+the resources of the area to provide a common facility to meet allied
+needs,
+
+it i therefore proposed that a group under the direction of
+Professor Teager be chartered and organized to make this systems study,
+The approach of this group will be divided into three phases: ()\\

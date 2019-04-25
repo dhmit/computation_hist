@@ -1,0 +1,78 @@
+=r Te n-ne Be ATI TREN rr £7 he UD Th. We TOR. -
+. \
+
+ 
+
+Lg : IT pdt vee eben
+
+31 August 1956
+
+Dy. Edwin Eopley
+
+International Business Machines Corporation
+590 Madison Avenue
+
+New York 22, New York
+
+Dear fd:
+
+During the 70L course here at M.I.T.; I discussed with Dr. Hunter and
+yourself the possibility of a fellowship and computer time being available
+to Mr. Pleter Wiersema, graduate etudent at the University of Utrecht in
+the Netherlands. I spent the academic year 1954<55 at Utrecht at the
+invidetion of Professor J. The G. Overbeek, setting up a program of digital
+computer applications in the field of Colloid Science. During this year,
+Wiersems was my assistant, end after my departure, he has carried on the
+research as part of his Phe. program. He is one of the first Dutch
+scientists not himself on the staff of a computer center to learn coding
+and to apply the computer to his field, the computer used being the AREA
+of the Mathematical Center in Amsterdam. It would be to Wiersema's advantage
+to spend a year here at M.I.T. getting acquainted with more mivenced computers,
+specifically with the 70h. In turn, I.B.M. would benefit from the training
+a Buropean scientist could get here in applying a 70L to his problem.
+Haturally, this communication is a preliminayy oney I would have to check
+with Professor (Overbeek as to whether he would approve of having Wiersema
+do part of his PhoDe work at MeleTe I know that in the past he has been
+happy to make such arrvangersnis. 4s a member of {he Electrical Engineering
+Faguliy, I would be very agreeable to supervise the work done here. In
+order to spare him possible dissppointment, though, I will not apprvach
+Werseoma until I hear from you regarding the feasibility of a fellowship.
+
+Briefly, the prcblems involved concern the sclution of a considerable
+number of simultaneous differential equations, some non-linear, by relaxation
+methods. The physical system consists of a highly charged colleid particles
+surrounded by an electrolytic solution, the whole being subjected 0 an
+external electric field. When the velocity of a colloid particle in such an
+enviroment is measured, the stability of the colddal system can in principle
+be predicted, but the calculation invelvad is too complex to be perfoemsd
+without electronic computers. The first phase of the program, namely the
+calculation of the potential and charge distribution around the particle
+
+
+Rp
+
+—
+
+=
+
+Dr. Edwin Kopley
+Page 2.
+31 August 1956
+for a wide range of particle radii and potentials in the absence of an
+external electric field, has been completed on the ARRA., Subsequent
+stapes will strain the facilities of computers of the ARRA class; for a
+really significant advance in this field we definitely need a faster and
+larger computers
+
+T look forward to hearing whether you believe my proposal feasible.
+With kindest regards, as over
+
+Sincerely yours,
+
+Arthur Le. loeb
+
+All/ef
+cat Profil G.5. Srowm
+Prof. P.Y. Morse
+
+

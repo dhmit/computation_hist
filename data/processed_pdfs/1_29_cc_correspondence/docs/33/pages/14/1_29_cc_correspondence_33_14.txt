@@ -1,0 +1,23 @@
+C. Simple A0P or SAP-Regular Run Conversion to KMo
+
+There are two possibilities in this case: (1)
+convert the whole problem into lMortran source languiage, or
+(2) lconvent -certain seetions to AP subhprogramns and the otheis
+intoe Fortransuhprograms .
+
+The first case wmay seem dliflficult at first to
+those who have not used Fortran, but many computational problems
+are described easily in Fortran. Another factor to consilder
+for those who have been using UABDCl for output 1s that the
+Format specification in Fortran is identical. The number of
+mathematical subroutines written for use with Fortran has
+recently lnecreased greatly; thus, in many cases the original
+motivation for using machine language coding has been removed.
+
+in example 1is presented of a simple program that
+
+"
+
+was SAP-coded on the 704 and may be converted to FAP and
+
+Fortran subprograms for the 709.

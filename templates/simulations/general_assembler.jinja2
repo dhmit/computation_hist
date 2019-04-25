@@ -2,11 +2,14 @@
 
 {% block title %}IBM 704 Assembler{% endblock %}
 
-{% block self %}IBM 704 Assembler{% endblock %}
+{% block header %}IBM 704 Assembler{% endblock %}
 
-{% block code %}
-    <textarea class="form-control" id="code_box" spellcheck="false"
-                      placeholder="Code here!"></textarea>
+{% block buttons %}
+    <button id="step_button">Step</button>
+    <button id="run_button">Run</button>
+    <button id="clear_button">Clear</button>
+    <button id="assemble_button">Assemble</button>
+    <button id="highlight_button">Turn highlighting on or off</button>
 {% endblock %}
 
 {% block description %}
@@ -18,5 +21,5 @@
     But aside from that, it's just like the real thing!</p>
     <br />
     <h3 align = "center">Currently Implemented Operations</h3><br />
-    <p id = "available_operations" align = "center"></p>
+    <p id="available_operations"></p>
 {% endblock %}

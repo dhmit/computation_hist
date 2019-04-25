@@ -1,0 +1,77 @@
+MASSACHUSETTS INSTITUTE OF TECHNOLOGY
+Cambridge 39, Massachusetts
+
+March 1, 1957
+
+Dx, F. L. Foster
+Room 5-105
+
+P., M. Morse and F. M. Verzuh
+Continuation of Contract NSori06001
+
+ 
+
+In accordance with our conversations with the following ONR
+representatives,
+
+Dr. F. Joatuin Heyl, Director of Math Sciences Bivision;
+| Washington, D. C.
+
+Dr. Arthur Grad
+
+Dr. Carl F. Mukenhaupt, Chief Scientist, ONR, Boston
+
+we recommend that you apply to ONR for an extension of the existing
+contract (Project 6345) without additional funds for the fiscal period
+1957-58.
+
+Becauge of the delay in the completion of the new
+
+Earl T. Compton Laboratory, it will be impossible to install the
+IBM Type 704 Electronic Data Processing Machine at M.I.T. on March 1
+as we originelly scheduled. As a result, it will be impossible for us
+
+to release our use of the Whirlwind Computer on June 30, 1957 as
+originally scheduled. It is very important that we have adequate time
+fo install the 704 and make the necessary conversion of programs from
+Whirlwind to the 704 language. This means that there will be some period
+of time during which dual operation of both the 704 and Whirlwind Computers
+is in effect. It is difficult to determine in advance the exact termina-
+tion date of our use of the Whirlwind facility. However, as we discussed
+at our meeting, we shall notify you of the termination date as soon as
+this information becomes available.
+
+Extending the present contract without additional funds for the
+above-requested lZ-month period will permit us to effect a smooth
+transition from the Whirlwind machine to the 704; furthermore, it will
+provide us with the necessary time to prepare the final summary report
+for this contract.
+
+Since we are not requesting any additional funds for this
+exiension, we have not prepared the usual estimated budget requirements.
+This is, of course, in accordance with our discussions at our meeting
+on Thursday, February 21.
+
+Aliso, in gecord with these discussions, we are currently preparing
+ao proposal to be submitted to ONR for a specific roscarch program, which
+would be set up as 8 sepevete project within the new MIT Computation Center,
+designed to make more e2fective use of the Type 704 machine. This
+prbposal will include résenrch items of a mathematical nature
+a8 we discussed with Weyl. A separate request for ONR
+
+
+=D
+
+funds will be made gt Soue later date at our mutual convenience. It is
+our intention to terminate the present ONR project effective June 30, 1958,
+and any new Programs with the MIT Computation Center will be set up as a
+Separate and completely new project.
+
+On Janusry 31, 1957 the unexpended balance in Project 6345 was
+$87,339. jr We assume that the present average monthly expenditure of
+$10,000 Continues, there will be an unsxpended balance of $27,000 in thig
+account on June 30, 1957. This is sufficient to allow us to complete the
+above-mentioned task orders during the succeeding figeal period--with the
+much reduced complement of personnel.
+
+

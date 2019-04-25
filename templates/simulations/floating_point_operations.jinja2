@@ -2,16 +2,12 @@
 
 {% block title %}Floating-Point Operations{% endblock %}
 
-{% block self %}Floating-Point Operations{% endblock %}
+{% block header %}Floating-Point Operations{% endblock %}
 
-{% block code %}
-    <p class="symbolic_code" id = "symbolic_code0">CLA 10</p>
-    <p class="symbolic_code" id = "symbolic_code1">FAD 11</p>
-    <p class="symbolic_code" id = "symbolic_code2">STO 12</p>
-    <br />
-    <p class="symbolic_code" id = "symbolic_code3">ORG 10</p>
-    <p class="symbolic_code" id = "symbolic_code4">DEC -2.54</p>
-    <p class="symbolic_code" id = "symbolic_code5">DEC 6.98</p>
+{% block buttons %}
+    <button id="step_button">Step</button>
+    <button id="run_button">Run</button>
+    <button id="reset_button">Reset</button>
 {% endblock %}
 
 {% block description %}

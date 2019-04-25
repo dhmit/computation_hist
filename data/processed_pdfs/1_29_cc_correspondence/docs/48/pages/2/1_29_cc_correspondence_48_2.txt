@@ -1,0 +1,38 @@
+gimultaneous eumations are solved &s follows:
+
+a. An approximste inverse (M) of the coefficient metrix (A) is ob-
+teined by en elimination method pirated from NYDMEIL.
+
+b. An initial estimete of theisolution vector is taken as Mb, where
+b ies the right-hand side.
+
+¢, An "itersting matrix" I-MA is formed and the solution is improved by
+the formula Xye, = (I-MA)x, + MD until no decreese in
+the length of the error vector Ax-b is obtained. The routine also ‘
+checks that the asbove method will converge by forming I-AM and checking
+that the sum of the magnitudes of the elements in eny row is less than
+one, |
+
+d. The approximete inverse, and a set of estimates of the meximum error
+in each row of the coefficient metrix, the latter supplied by the
+user, are-used to compute & bound on the meximum error in each element
+of the solution vector.
+
+e. Solution of many sets of equations with the same coefficient matrix
+is expedited by the subroutine DNEXT (see Appendix III) which takes
+adventege of the fact thet A, M, I-MA, and the "workspace" (see below)
+
+ere saved on MT-NINE.
+
+4pa. 8, Assuming the approximate inverse is good eno#gh to assure convergence
+of the iterstive method, this routine should supply the best results
+obteinabtle with double-precision arithmetic.
+b. The routine cen hendle any matrix up to 80 X 80, depending on the
+size of core memory available,
+
+c. Oonvergence of step ¢ in 4 gbove is assured because we have
+
+Rez Axe - b
+Beris B ilea=b = 4 (r-mA)xe +Ahb b=
+
+= (T-AmM)Rk

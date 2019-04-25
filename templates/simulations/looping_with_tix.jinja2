@@ -2,17 +2,12 @@
 
 {% block title %}Looping with TIX{% endblock %}
 
-{% block self %}Looping with TIX{% endblock %}
+{% block header %}Looping with TIX{% endblock %}
 
-{% block code %}
-    <p class="symbolic_code" id="symbolic_code0">LXA 5, 1</p>
-    <p class="symbolic_code" id="symbolic_code1">CLA 7</p>
-    <p class="symbolic_code" id="symbolic_code2">ADD 7</p>
-    <p class="symbolic_code" id="symbolic_code3">STO 7</p>
-    <p class="symbolic_code" id="symbolic_code4">TIX 1, 1, 1</p>
-    <p class="symbolic_code" id="symbolic_code5">PZE 5</p>
-    <p class="symbolic_code" id="symbolic_code6">ORG 7</p>
-    <p class="symbolic_code" id="symbolic_code5">DEC 1</p>
+{% block buttons %}
+    <button id="step_button">Step</button>
+    <button id="run_button">Run</button>
+    <button id="reset_button">Reset</button>
 {% endblock %}
 
 {% block description %}

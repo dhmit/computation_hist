@@ -1,3 +1,8 @@
+'use strict';
+
+import { GeneralAssemblerRenderer } from './render.js';
+import { IBM_704, operation_a_to_no, operation_b_to_no } from './simulator.js';
+
 /**
  * Attaches an event listener to a textarea that allows it to dynamically resize as you type in it.
  * From https://stackoverflow.com/questions/37629860/automatically-resizing-textarea-in-bootstrap.
@@ -16,12 +21,15 @@ function display_operations() {
     const operations = new Set();
 
     for (const operation in operation_b_to_no) {
+        if (!Object.prototype.hasOwnProperty.call(operation_b_to_no, operation)) { continue; }
         operations.add(operation);
     }
 
     for (const operation in operation_a_to_no) {
+        if (!Object.prototype.hasOwnProperty.call(operation_a_to_no, operation)) { continue; }
         operations.add(operation);
     }
+
     const operations_str = Array.from(operations).join(", ");
     const place = document.getElementById("available_operations");
     place.innerText = operations_str;
@@ -38,37 +46,39 @@ function assemble_from_code_box(computer) {
     }
 }
 
-function update(computer) {
-    let line_desc = "Next Instruction to be Executed: ";
-    line_desc += computer.general_memory[computer.ilc.valueOf()].instruction.toString();
-    $('#line_desc')[0].innerHTML = line_desc;
-    update_computer_display(computer)
-}
 
 /**
  * Runs scripts to initialize page.
  */
-function start() {
+export function start() {
     const computer = new IBM_704();
-    common_start(computer, []);
+    const renderer = new GeneralAssemblerRenderer(computer);
+
+    renderer.create_memory_display();
+
     $('#assemble_button').on('click', () => {
         assemble_from_code_box(computer);
-        update(computer);
+        renderer.update();
     });
     $('#clear_button').on('click', () => {
         computer.clear();
-        update(computer);
+        renderer.update();
     });
     $('#run_button').on('click', () => {
+        computer.halt = false;
         computer.run();
-        update(computer);
-
+        renderer.update();
     });
     $('#step_button').on('click', () => {
+        computer.halt = false;
         computer.step();
-        update(computer);
+        renderer.update();
+    });
+    $('#highlight_button').on('click', () => {
+        renderer.highlighting = !renderer.highlighting;
+        renderer.update();
     });
     expand_text_area("code_box");
     display_operations();
-    update(computer);
+    renderer.update();
 }

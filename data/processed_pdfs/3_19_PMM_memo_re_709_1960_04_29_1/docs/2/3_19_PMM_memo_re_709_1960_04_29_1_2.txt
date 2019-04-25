@@ -1,0 +1,471 @@
+¥.
+
+/Z, Morse DRAFT
+
+Proposal for Development of a Real-Time Computation Facility
+
+Ob jective: The purpose of this proposal is to obtain support
+for the research and development of a feasible
+real time (on-line) computation system, time
+shared among many remote users. The system, cen-
+tered around a large general purpose computer,
+would be designed to meet the needs of a diverse
+research and educational activity; 1t would take
+advantage of the possibilities of immedlate ac-
+cess computation using specialized remote input-
+output devices as an adjunct to human thought and
+learning.
+
+Summary
+
+Computers and computation systems have yet to explolt
+many considerable advantages that may be realized with a very
+closely coupled human reasoning - machine information proces-
+sing system. |
+
+This 1s particularly the case ln very large information
+processing problems such as large systems of non-linear par-
+tial differential equations, heuristic programs, etc. where
+properly applied human facllltles of insight, pattern recog-
+nition, reasoning, etc. may be the only feasible way of dil-
+recting an otherwise "overwhelmed" computer whose speed and
+capacity are as yet no match for a large combinatorial problem.
+
+To make such a mode of usage a workable reallty, existing
+
+computers must be modified to allow time-sharing amnong many
+users.
+
+Such system modification include the addltion of backup
+random access memories, and an "exchange" for the dispatch of
+messages to and from the remote devices. Special input-output
+devices and appropriate languages must be developed to bridge
+
+
+Page 2.
+
+the communication gap between man and machine.
+
+Of no less importance are questions of internal schedul-
+ing of the computer among many users, and the development of
+programming systems to implement the scheduling, access,
+translation and running of the many diverse user programs.
+
+The ground work for the proposed research ls well es-
+tablished at the M.I.T. Computation Center, which has already
+had experience in developing prototype techniques for an IBM
+704 system.
+
+It 18 expected that a grant of approximately $51,000 for
+the first year and $76,000 for the second year will be suffi-
+cient for the manpower requirement for research and develop-
+ment of a feasible system utilizing an IBM 7090 computer.
+Such funding will cover the development of prototype equip-
+ment, not the installation of the full scale system.
+
+Background
+
+The normal mode of computer usage, particularly with the
+larger installations, has been to physically separate the ma-
+chinery from the man who intends to use it; the researcher is
+kept from the research tool; the programmer from the running
+ofhis program. In the past this has made good sense. After
+all, a computer's time can be quite expensive, and if there ar
+a large number of people who need 1lts services, then lt can
+serve them far more efficiently 1f they state clearly exactly
+what they want in advance, and their requests (programs) are
+put in with a batch of similar requests to be serviced at the
+earliest moment. Further, there seemed to be no compelling
+reason why the user should need to get any closer to the equip-
+ment. For that matter even if the need could be proved, there
+was no feasible way to allow him (plus many others llke him)
+to have such an immediate access and association wlthout a
+hopeless loss in efficiency of the computational system.
+
+
+Page 3.
+
+In part, this philosophy stemmed from the belief that al-
+most any problem that could be stated or programmed could be
+solved by a computer without any further outside assistance.
+
+Almost none of the above generalizations are true today.
+As will be shown, there are very compelling reasons for bring-
+ing a computer and the human user into much closer contact.
+There 18 every reason to believe that it will result ln a more
+efficient system; the latest generation of computers can be
+multiprogrammed and time-shared among many different simulta-
+neous users; and there is a large class of computer usage that
+1s impossilble in any other mode than real time.
+
+There are still a host of research and development prob-
+lems to be solved involving systems, input-output devices, and
+computer programming before a large machine can be effectively
+used in such a manner, but the goal is within reach. The ob-
+ject of the proposed research program is to bring it about.
+Let us examine more carefully the basic needs that are to be
+served by the proposed system.
+
+Computer Usage Problems
+a. Artificial Intelligence
+
+The most compelling reason for achieving a closer
+contact and cooperation between human and machine is that there
+1s a growing class of problems that cannot be handled effective-
+ly by either alone. Work in "Artificial Intelligence", i.e.
+abstract problem solving by machine is tending in the direction
+of heuristic programming; that is, instead of seeking to solve
+combinatorial problems exhaustively (an impossible task in most
+cases of interest) "common sense" or heuristic techniques for
+avolding the exploration of the majority of possible solutions
+
+to a problem Solving situation are being developed. In all but
+
+
+Page I,
+
+the most trivial cases, human judgment can be invaluable in
+helping the machine to develop such "common sense" rules for
+particular problems, if the human is in a position to "see what
+1s going on” and to "get a feel for what is important”.
+
+That 18 to say, that as of today at least, people are far
+better equipped to draw on their past experience, recognize
+abstract patterns, to generalize and to unify, whereas a ma-
+chine is in a much better position to quickly seek out, oper-
+ate upon, and turn out information. The best features of both
+have yet to be effectively matched, as a closely meshed team.
+
+bk. Large Problems
+
+The latest generation of ultra high speed and capa-
+bility computers was developed for the solution of problems in-
+volving non-linear partial differential equations. Yet even
+these machines are inadequate for several notable classes of
+such problems, such as accurate weather forecasting, many-body
+problems, design problems in systems involving non-linear func-
+tions of space and time, etc. The approach to such problems
+would seem to lie far more in the direction of developing bet-
+ter approximate models (based on machine calculation) rather
+than seeking ever-faster and ever-larger computers for solu-
+tions that are essentially "brute force". Here too, on-line
+human decision that can recognize patterns and generalize from
+past experience can hasten the development of such "better"
+models. Large problems, in addition, need to be time shared
+because of themselves they tend to preempt computers for much
+longer periods of time, and force other , perhaps qulte small
+problems to wait.
+
+c. Small Problems
+
+Many straightforward, and quite trivial (from the
+point of view of a large computer) computations are charact-
+erized primarily by the need for an almost immediate answer,
+
+
+Page 5.
+
+or at worst a very short delay. Such problems requiring on
+the order of 1-2 minutes of computer time suffer from the de-
+lay which occurs when they are mixed in and batched with the
+longer programs. This situation has led to the acquisition
+of many additional small machines whose principal virtue is
+their accessability, and whose defects are manifold, includ-
+ing a limited computing capacity, much higher cost per compu-
+tation, and a very limited repertiore of "higher" programming
+languages.
+
+These machines, however, have a very great appeal to
+the average researcher. In part 1t 1s the same psychological
+appeal that a self-service market has over an old fashioned
+one-clerk store. In addition, however, a researcher knows
+that he can make better use of an instrument if he works and
+tries it out at close range so that he can "understand" it.
+This attitude has produced sufficient progress in the past as
+to be worthy of recognition.
+
+d. Classroom Use as a Teaching Ald
+
+There are many ideas and concepts in sclence and en-
+gineering that when applied to anything beyond the most trivial
+cases become so cumbersome to demonstrate that it 1s hard for
+the student to gain an appreciation, and a "feel" for what is
+happening. Many problems in field theory, dynamic systems, ma-
+trix analysis, etc. share this barrier to an adequate under-
+standing. On the other hand, 1t does not help if an instructor
+merely presents a solution and says "Here it is."
+
+The student feels uneasy if he cannot see how the
+problem was formulated and solved, and gains a qulcker under-
+standing 1f he can ask to see the effect of a parameter va-
+riation, etc.
+
+Since most problems of thls nature are Increasingly
+being solved by computer, there seems every reason to include
+
+
+Page 6.
+
+such computer capability, as well as all it implies, as part
+of ‘a lecture room.
+
+There is a further possibility of substituting com-
+puters for teachers and having the computer "lecture", analyze
+answers, and in effect modify its course of teaching based
+upon a much closer feedback from the student than is possible
+in a large lecture class. Such techniques can be more ad-
+equately evaluated with the proposed time sharing system.
+
+e. Real-Time Experimentation
+
+In some systems, a need 18 developing for on line
+measurement, computation, and feedback in order to more direct-
+ly determine cause and effect. This is becoming increasingly
+important in the area of analysis of neurological signals in
+living animals. In addition, there are synthesis problems of
+importance, for example the composition of such art forms as
+music, using a computer as a tremendously flexible musical in-
+strument. For that matter, many other "design" problems, par-
+ticularly large systems are also in the realm of being an
+"art" and can be aided and made into more of a Science by si-
+milar techniques. Here again, however, there is a need to
+provide a close feedback between the human and the machine.
+
+The problem areas cited above by no means exhaust
+the range of application for real-time and time-shared com-
+puter usage. They were chosen to bring out both the range of
+diversity of problems where human decision and machine de-
+cision can be mated very effectively to achieve far more than
+elther by ltself.
+
+Problems Raised by Real Time Computer Usage
+
+Real time computer usage is worthwhile, but it raises a
+host of problems that need solution. These problems lie gener-
+ally in one of four areas, namely, systems, peripheral equip-
+ment development, scheduling, and program development.
+
+
+Page 7.
+a. Systems
+
+Taking these in order, let us first consider some of
+the ramifications on the basic computer system. If many people
+are Co be glven a real time access to a computer, the computer
+must be capable of being time shared among remote user "consoles"
+or sub-stations. It must equably divide up its time among the
+users, and be able to quickly shift from one problem to the net,
+So that each user is in effect using a slower machine, but one
+which is not blocked off by other users. These remote units
+must be connected to the main computer over low cost communi-
+cation links.
+
+To save time, programs must be allowed to coexist
+within the same machine without mutual interference, and pro-
+grams must be readily accessable via a large backup memory so
+that any user can work in any available computer language of
+his choice.
+
+Our plans are to adapt an existing computer system
+for time sharing. The implications of this set of require-
+ments on the system are the following. First, in order to al-
+low running programs to coexlst, changes wlll have to be made
+in internal logical design to provide barriers in memory to
+prevent unwanted access or change. Second, an "exchange" buf-
+fer will have to be developed to service from 15-30 remote
+stations, and provide for a pre-selected distribution of
+available time among the remote units. A large memory such
+as disc filles will also have to be linked into the system.
+
+b. Peripheral Equipment
+
+At present, 1t is envisioned that there will be two
+basic types of remote consoles and connecting lines required.
+These are: 1) A set of specially modified electric typewriters
+and low-data-rate connections to the main computer for most re-
+mote console stations. Thus, for these stations, the electric
+typewriter would be the only communication to the computer.
+
+
+2) A set of consoles that gre equipped in addition with both
+
+a visual display device and a means of communicating hand
+drawn shapes. Neither of these devices exists in a suitable
+form at present for this usage. Display devices such as
+Oscilloscopes have of course beep used with computers for
+Some time, but most of these require an inordinate amount of
+machine time to develop and maintaln a display. Similarly,
+devices such as "light pens" for entering information suffer
+from the same defects of machine time requirements as the pre-
+sent oscilloscopes. A good, low input data rate, self-main-
+taining display will have to be developed, as well as a form
+of "drawing pad” for entering information. Much larger ver-
+sions of these same devices will then be used to equip one or
+two lecture halls which will be tied into the system. This
+by no means exhausts the posgibilities, Having provided for
+remote input-output Stations, many experiments such as cross
+connecting with a smaller computer, testing out "spoken" in-
+put languages, etc. become feasible.
+
+ochedul ing
+
+A computer system is basically a job shop whose business
+is computation. It has many different processing equipments
+within it, such ag its high speed memory, disc files, arith-
+metlc units, etc. Not all of these are needed at any one time,
+for any one problem. To maximize its output, i.e. to do as
+much information processing as possible, the computer must
+schedule "how much of what problem it does when". That is, the
+computer must be able to rapidly solve its own "Job Shop
+Scheduling Problem” in order to efficiently overlap many di-
+verse jobs. This problem has yet to be adequately solved.
+
+Programming
+
+Bach of the aspects already mentioned will have an effect
+on the final set of programming systems and programming
+
+
+Page 9,
+
+languages developed for the overall system.
+
+"
+The "scheduling" aspect will have its effect on a super-
+
+visory routine; each type of peripheral device will require its
+
+own input-output routines. Alsc dispatching and monitoring
+
+routines will have to be developed for the system.
+
+Progress to Date
+
+Time sharing and multiprogramming are not new techniques
+to the M.I.T. Computation Center. Since early in 1959, an
+electric typewriter has been connected to our IBM 704, and has
+been used in a time sharing mode for a variety of purposes
+including monitoring and modifying heuristic programs, analyz-
+ing and debugging programs, and running programs in a variety
+of specialized languages. Special programming systems have
+been devised to assure that when the 704 is multiprogrammed,
+the programs can coexist and run independently.
+
+In addition, the Center has developed and installed
+many special purpose devices such 28 an "alarm clock" to test
+cout the feasibility of equitably dividing time among users
+and accounting for 1lts usage.
+
+Plan of Approach
+
+The overall direction of this project is under Professor
+Herbert M. Teager of the Electrical Engineering Faculty and
+Computation Center Staff. Assoclated with the project will
+he Professor John MeCarthy, and Dr. Fernando J. Corbatd and
+Dr. Michael Barnett of the M.I.T. Computation Center Staff.
+
+Additional personnel will be recruited for the project
+from che M.I.T. Staff.
+
+Although 1¥ is difficult to completely specify the
+
+exact schedule of when the various research phases of the
+project wlll be completed, 1t ls expected that the timing
+will be about as follows:
+
+
+Page 10,
+
+Phase I-Overall System Design-6 months starting September 1960
+2xai bing oeptember 196o
+
+Objective: Determine modifications to compute system for time
+sharing, overall input
+
+programming objectives
+
+-output systems design, lay out multi-
+, develop Scheduling techniques.
+
+ 
+  
+ 
+    
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+  
+
+Personnel:
+
+1 1/2 full time engineers (including overhead) $7500.00
+1 1/2 full time programmers 6000.00
+1/2 time senior supervisor 4000.00
+1/2 time among senior consultants 4000.00
+Clerical costs, electronics, 3000.00
+
+Total $24500.00
+Phase II-Detailed Subsystem Design-6 months starting March 1960
+Objective: Develop design of data transmission links and
+input-output "exchanges"; develop programming systems for dis-
+patching, monltoring, maintaining program files, ete.
+
+Personnel:
+
+1 1/2 full time engineers $7500.00
+1 1/2 full time programmers 6000.00
+1/2 time senior supervisor 4000.00
+1/2 time among senior staff consultants 4000.00
+Clerical costs, electronic supplies 5000.00
+
+Total $26500.00
+Phase IlI-Detalled Subsystem Development, Test and Evaluation
+
+——————
+starting in September 1961-liyear
+Objective: Bulld prototype equipment for system, complete de-
+talled programming systems, evaluate system in actual use, De-
+velop and test specialized input output equipment.
+
+ 
+
+Personnel:
+
+2 full time engineers $20000.00
+4 full time programmers 30000.00
+1/2 time senior supervisor 8000.00
+1/2 time among senior consultants 8000.00
+Clerical costs, electronics 10000.00
+
+——————
+
+  
+
+Total $76000.00
+
+
+Page 11.
+
+It is thus estimated that the funding support required
+
+for personnel and prototype equipment wlll be approximately
+
+$51,000 the first year and $76,000 for the second year in
+order to carry out this project.
+
+HMT': MBW
+
+

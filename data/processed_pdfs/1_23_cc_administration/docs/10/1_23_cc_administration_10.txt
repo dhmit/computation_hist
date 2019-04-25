@@ -1,0 +1,733 @@
+CL-55~-1 Page 1 of §
+MIT COMPUTATION CENTER
+Massachusetts Institute of Techrology
+Cambridge 39, Massachusetts
+MEMORANDUM
+To: P, V. Cusick and C. F. Floe Date: January 27, 1958
+From: F. M. Verzuhn
+
+Subject: Summary Report of the 704 Usage During 7-Month Period June 17 -
+December 31, 1957.
+
+ 
+
+In accordance with our recent financial discussion concerning the
+operation and usage of the 704 computer, I have prepared a 7-month summary
+of the usage of the 704 computer during the period June 17 ~ December 31, 19857.
+
+This memorandum contains two tables which classify and summarize the
+problems using 704 computer time. Specifically, this information is summarized
+in two tables containing the following information:
+
+TABLE x: contains a classification of 704 problems groupcd
+according to sponsorship.
+
+TABLE II: contains a classificetion of problems grouped according
+to applicant and ares of his activity.
+
+Table I is of principal concern to MIT administration since it
+indicates the sponsoring groups and therefore provides a means for evaluating
+cost allocation studies. Table I contains the following categories:
+
+1, DSR project-sponsored problems, :
+
+2. MIT Computation Center-sponsored studies,
+
+3. Grant in ald projects -- School of Industrial Management (SIM),
+IBM research assistants, and other MIT grants,
+
+4. MIT Nuclear Engineering Projects -- Prof. Bersdict,
+Prof. Thompson, et al,
+
+MIT classroom use,
+MIT student theses,
+Ungponsored research,
+
+NeW England Universities,
+
+0 WOW «1 & On
+
+Special operational task,
+10. IBM Cambridge
+
+11. Maintenance (IBM customer engineering)
+
+
+CC~55~1 Page 2 of §°
+
+It must be emphasized that the breakdown of MIT usage is some-
+what inaccurate. Specifically, many problems are described as faculty
+research, educational theses, and "DSR sponsored” on one and the same
+problem application form CCF~-2. I have called a number of the individual
+sponsors seeking a clarification of the classification in order to fit
+the above Table I breakdown. In many cases I am not certain of the accuracy
+of the breakdown (As I mentioned to you, certain projects emphasize
+
+educational thesis work, thereby hoping to avoid any DSR payments at a later
+date -- if any.) 0
+
+Table II contains a breakdown of the 704 usage based on class of
+applicant and his area of activity. Specifically, Table II contains the
+following breakdown classifications for the MIT family:
+
+. ip
+
+INSTITUTE USE
+1. Faicully -- gésistant professors, associate professors,
+full professors,
+
+2. Staff -- instructors, research assistants, research
+associates, and lecturers,
+
+3. Students -- non-paid students doling theses,
+Computation Center staff,
+
+Other DSR staff,
+
+Classroom use -- Subject 6.538, ete,
+
+. Other.
+
+SN 0 OB
+
+NEW ENGLAND UNIVERSITIES USAGE
+
+1. Faculty,
+2. Theses,
+
+3. Clagses.
+
+IBM CAMBRIDGE USAGE
+
+1. ASC,
+2. WHQ,
+3. Clients,
+4. Others.
+MAINTENANCE
+1. Preventative Maintenance,
+2, Systems Check,
+3. Repairs,
+
+ES
+
+Other.
+
+
+CC-55~1 Page 3 of 5
+
+The information contained on the attached summary sheets --
+Table I and Table II -- was obtained from the 704 Accounting Machine usage
+statistics reports which are prepared on a monthly basis (see Computation
+Center Report CCR-2). The MONTHLY 704 Usage Report contains the following
+date:
+
+1. Problem Number (M = MIT, N = N.E. Univ.)
+
+2. Date -- monthly period involved
+
+3. Programmer Number
+
+4, 704 Machine Time Usage by classification code
+
+5. 704 Chargeable Machine Time (0.01 hour)
+
+6. 704 Total Usage Muchine Time (0.01 hour)
+
+7. Number of entries made into computer.
+
+The classification code special operational tasks contain the
+following items:
+
+1. M002 Demonstration of the 704 as part of tours, visits, etc.
+
+2. M010 Idle Time -- time which the 704 is idle.
+
+3. MO1l IBM Cambridge use of MIT time.
+
+4, MO21 ~~ SAP -- Share Assembly Program, 704 symbolic language
+
+routines.
+
+5. MO22 FORTRAN ~~ 704 Formula Translation, an algebraic
+language.
+
+6, MO25 Share subroutines -- various utility programs for
+general 704 use.
+
+7. MO3l Magnetic tape testing time.
+
+In conclusion, it must be emphasized that the composition of certain
+categories in Table I are subject to error because the role of the sponsoring
+project appears to cross our classification lines. Many applicants classify
+their problems as faculty or educational research and avoid mention of DSR
+affiliation despite the fact that the programmers are all on DSR payroll.
+
+By calling a number of the individual project leaders, I have attempted to
+clarify the classifications. This appears to be the best I can do at the
+present time.
+
+ 
+
+! FP. M. Verzuh (/
+
+FMV:nb Assistant Director
+Copy To: P, V. Cusick
+
+Cc. FP. Floce
+
+P. M. Morse
+
+L. ¥. Foster
+
+
+Page 4 of 5
+
+£€% 9S8I
+
+00° ESP
+0G EL
+0E°99
+08°21IE
+
+ 
+
+09° 018
+
+LS VBC
+89°69
+67 6ST
+9¢°91E
+
+ 
+
+G6° 09
+ELE
+GZ LY
+
+88° 0E¢
+11° 2v1
+68°11
+el’2T
+88° 6E
+8c" €e
+LT OV
+v8 82g
+68° CES
+
+ 
+
+TVIOL
+
+ 
+
+ 
+
+19°01€
+
+ 
+
+09° %0T
+
+LS 67
+c0°T
+
+09°61
+ge’ ve
+
+ 
+
+LS° LT
+ves
+A
+
+ 
+
+ve BTL
+
+0g" 8E
+91°
+ge'v
+GL'G
+96°'T
+04°01
+€6° 1
+eT’ 1S
+
+ 
+
+ 
+
+oe
+
+ 
+
+LS6GT
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+v
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+66° S62 18° SPP 66°02  2S°0LZ £2° 291 82°96 SUNOH TVIOL
+08°09 oF * 00T 06° 89 02° BL 0L° GP 06°82 T210% qnS
+— — re ie — -— SI8T10
+08°C ov LI ove 01° Ct OL°TIT 06°¢ sateday
+0S°0T 08°€1 00°01 ‘08°6 05° 4 0S°v oo) smoishyg
+0S 9p ‘02°69 0S° 0S 09 ° GP 0S° 0g 0S° 02 ‘Ute 9A[3ILIUIADIG
+2OUBUSI UTE
+08° TIT  02°01Z 0G°STT  O00°TZT  0S5°S6 00° 70 T2303, qns
+8% 02 09° ¥€ 20°18 9C° GS 86° G9 19°Cy SXON30
+u £e°Q £701 PI 12 ZL'6 P0°T E3USTID
+80° 2% co ° ZY 1° 3E 7°02 8c" ere BHA
+PZ GY ‘28° 221 68° Ge G2 GE Z5° LT ge°g 29Y
+eSpraque) - MEY
+Gee P2°PT PLP 16°€ LS°9 LS" T 123.0% qng
+80°€ 80°% mae -s e9°2 CPL sosoql, 2
+22°01 81°21 PIV TI6° 2 C6'¢ 98° £3 Tnond
+| soy YsIoATUR °F °N ©
+v0" 801 LV 0BY Ch 28 18°12 96° LT 18° TT 12305 ns
+GC" ve 16° 6¥ 16°81 re —— | - BUC} eAsdy [eroads
+4 A ) oT’ 10° - - Yoxeosey paxosuodsuf}
+PG I 2° T gL" 1 6E°2 98° $0" gesey) Juepnis
+¥6'S vI°Q L6°1 29°¢1 ZT" es S8[] WOOIEEBTD
+$0°'G -68'9 02°S 82°9 89°T 2% gaooforg °*38uw xeeToOny
+£1°6 8S°'6G OL V £9°'6G eH” re sjoofoxd PTY-UT-jueId
+6z'e LL T TL°6 1£°01 Gz 1 0G" Jo3ue) Uo TIvINdmod
+68° OF P1°9V 71° 0% LG" IE %9°' eT 86°S poxosuodg USA
+a3n3 73suj
+“AON ° 2900 *adeg *gny Ang ang JdNoud
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+‘Tp soquooeq - Li Sung poyxed Surind o3esf xoIndwod HOL 30 Axvumumg
+dIHSHOSNOIS 03 SuTpI0oOdy umopieoxg sweyqord $0. I HIEVL
+
+YALNID NOILVINAINOD LIN
+
+
+eT J
+
+CC~55~1
+
+Page § of 5
+
+eb’ geet
+
+00° ESy
+
+a ae ———
+
+06°egL
+0€° 99
+og‘eie
+
+co2°018
+
+IEEE re
+
+LS °V82
+89° ev
+
+69° 6ST
+95° 21¢
+
+6°09
+
+CETTE uAmm—"
+
+ELECT
+ea" Ly
+
+88°0¢€¢
+78°68
+ve se
+v.°801
+ve’ LZ
+vp 82
+2S CEI
+i8°gg
+SE°6L
+
+19°01¢
+
+0T°0L
+
+CITE Lean.
+
+08°81
+
+0S°0T
+00° 9%
+
+09° %0T
+
+LS° BY
+20°T
+
+92° GY
+SE° PE
+
+LS LY
+vZ°'s
+€E°2Y
+
+ 
+
+66° E62
+
+08°09
+
+ 
+
+08'€
+
+08°01
+0S’ 9%
+
+08° 111
+
+8% °nzZ
+20° 2%
+
+ve 6p
+ge’ eT
+
+80°E
+L2°0T
+
+0
+
+Q
+
+ei Da
+<M
+Cl «Ud 0
+
+r=]
+
+0
+
+co
+0 ~~
+
+ID t= ©
+MN ©
+~ ~ ON
+
+I
+
+‘AON
+
+ 
+
+L867 ‘0 Iequedeq - L7 ounp
+
+TE° Cov
+
+0%° 001
+
+ 
+
+07° LT
+08°¢
+03°69
+
+0a°01e
+02° ve
+cE’¢
+£e°2v
+29°21
+
+ 
+
+ 
+
+ 
+
+“3190
+
+66° 0.2
+
+06°29
+
+ 
+
+cy" 8
+00°01
+0S° 0%
+
+0G°STT
+
+L0° TE
+€7°0C1
+1e° 9
+€2°6E
+
+ 
+
+4 4
+
+ 
+
+PLP
+
+Sve
+€8°C1
+
+ 
+
+LS ET
+SE
+€C°6
+vi°gg
+61°82
+0L°CT
+
+*ndag
+
+ 
+
+2S°0LE
+
+02° v4
+
+ 
+
+i
+
+°g
+‘6
+‘6
+
+® 8S
+
+00° 121
+
+ 
+
+28°6¢
+vi 12
+9°02
+63°6C
+
+18°¢
+
+ 
+
+18°E
+
+I8° IL
+
+ 
+
+31°6
+O91° 11
+€9°¢6
+LT’ LT
+05°01
+LT°%1
+
+————
+
+‘3ny
+
+ 
+
+dutang o3esn xoindmol FOL 10
+NACORVYIHE XLIAILOV 20 YauV GNV INVOI"IddY
+
+YALNAD NOILVINAIIOD LIN
+
+ 
+
+€L° Lo
+
+0L° GV
+0L° 11
+0c’ 2
+
+0S° OF.
+
+ 
+
+0S°€6
+
+3€° 59
+GL" 6
+
+ 
+
+ono
+. Ne
+
+av LAT
+
+ 
+
+ 
+
+82°96
+
+06° 82
+
+ 
+
+06°¢
+0S’ Pv
+0G° 03
+
+00°%9
+19°¢H
+v0°g
+
+gE’
+
+8°11
+
+ 
+
+12°
+
+18°11
+
+ 
+
+vil'8
+
+og°
+
+.2°2
+ve’
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+SHNOH "TV.LOL
+
+[2205 qng
+
+610
+
+BI tedoy
+qvey] suwolsedg
+"UTE 9AT3IRIUSADII
+
+ 
+
+ 
+
+Sxodutduy xswolsnd)
+
+18101 4qng
+
+219930
+81USTTID
+
+OHM
+JSY
+
+ 
+
+23pTIque) ~ WHI
+
+[e830], qng
+
+SIBERTD
+S{son],
+L£3Tnoen
+
+ 
+
+ 
+
+SOTIT8IOATUN ‘Hd °N
+
+18201 ng
+
+OTOR
+LION
+
+~ B91PI
+- SV
+
+I2Toedg
+mOOISERTY)
+Ie3ue) °‘dwo)
+JFe38 ¥pa xeY3lQ
+
+A
+
+o3n3 718u]
+
+ 
+
+Axeummg
+
+‘II TEV
+
+g8eny,
+3 Noes
+
+ 
+
+d10Ed
+
+

@@ -1,0 +1,20 @@
+June 13%, 1960
+
+Memorandum to Users of the Computation Center:
+
+It should be emphasized that the TOL is expected to
+stop operating on July 1, 1960. An estimated three-week
+period will be required for reworking the computer room
+alr conditioning ducts, power outlets and floor plates.
+There will follow a two-week period during which IBM
+engineers will adjust and make possible fleld modifications
+(e.g. data channel trap) tc the 709.
+
+The Center will resume operation with the 709 as
+Soon as these two periods are completed.
+
+VANS
+
+P. a Corbatd
+
+

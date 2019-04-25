@@ -1,0 +1,254 @@
+i
+
+‘e
+
+Qe
+
+PROGRAM WRITEUP
+
+MIDPME «= DOUBLE-PHRECISION SOLUTION OF MATRIX LQUATIONS
+
+‘R.M. Moroney 9 July 1958
+M.I.T, “Operations Research Project
+
+This routine is dedicated to the proposition that anybody fooling around
+with double~precision numbers is worried about loss of significant figures
+somewhere, and very likely in the solution of a set of linear equations.
+Consequently no computer time is spared in milking the best possible re-
+suits from the coefficient matrix supplied, and an estimate of the signi-
+
+ficant figures in the solution vector is computed.
+
+a. This routine requires one tape unit whose logical number ant be spe=
+cified by a card of the form: NINE EQU X . X is normally 9.
+
+b. This routine contains a modified version of RS005 which is available
+to the user. Modifications consist only of return to x + 1 instead of
+
+X + 2 on the two sequences TSX S005, L and TSX S005 + Ss 4. This rou-
+
+REE ei.
+
+tine contains a tapewriting routine BOUTS, and a tape reading routine
+BLINS, which are available to the user. See Appendix I. This routine
+contains a set of float ingwnelat chscking routines ADDOV, MULTO, and
+DIVCK, which are available i the user. See Appendix II.
+
+c. The coefficient matrix and right-hand side must be in normal form for
+RS005, i.e. least-significant part of number in register succeeding
+most-significant part, aggreement in sign between both parts, exponent
+of least-significant part 33 (octal) less than that of most significant |
+part. Error estimates must be normaliged single-register floating-point |
+
+numbers (error estimates will be defined later).
+
+
+c. Convergence of step c¢ in lL, above is assured because we have
+
+BR. 2 A x, = b
+Rep 24% =b=AI~il)x + Mb-D
+= (I - &0R
+and our check of I - Ad assures convergence in the norm atx |x, | .
+
+de. For step d above see Hildebrand Introduction to Numerical Analysis,
+
+pp. L436 ff.
+
+5. Calling Sequence: X TSX DMEBE, I
+| X+1 PZE AQ,B
+X+2 PZECOD
+X + 3 PZE E
+X +) Error return
++5 Normal Return
+Where: A is the FWA of the coefficient matrix, stored by columns.
+
+B is the dimension.
+
+C is the FW. of 2n X n consecutive registers, separated from X,
+A,D snd E, which may be used by the program for temporary
+workspace. Contents of these registers will be restored.
+
+D is the FWA of the right-hand side.
+
+E is the FWA of a set of B single-register floating-point numbers,
+the 8 number being an estimate of the maximum magnitude of
+error in any element of the Wb row of the coefficient matrix.
+These numbers are stored in every second register, and are un-
+
+disturbed.
+
+
+5b.
+
+Sc.
+
+5d,
+
+In addition to the regigters mentioned above, the Jn + 3 registers fol.
+lowing the Coefficient matrix are destroyed, COMUON though COMMON «+ 7 is
+
+required,
+
+SAVET + 2 Two tries failed to produce a readable record on MT-NINE
+
+SAVE A + 2 LB |
+CORR + 2 »
+
+SAVEM + 2 ’
+
+SEVEC + 2 "
+
+NOCON Iteration nay diverge (111-condiioneg matrix)
+RESTT Two attempts to read MI-NINE failed
+
+DNEXT he
+
+DNEX3 "
+
+The following additional eppor indications ape provided:
+Sense light 1 on 8% exit meang that the routine, which slakes part
+of its thirst fop temporary storage by writing over itself, has failed
+to return to its initial condition. pkg will contain HIR 0,
+Sense light 2 on at exit means that the Posgible errop in some element
+of the solution vector ig greater than the Magnitude of the element,
+ADDOV, MuLTO and DIVCK aigo ®@ntain erpor stops,
+
+The error retum indicateg;
+2. With AC = 0, a loss of bits in cope mnenory,
+
+b. With Ac Non-gero, ap Overflow in the double~precigiop arithmetic
+
+On nomyay return, the Solution vectop is stored ip D, register ORT, which
+is A +(2nx n) + 2, and €Very second register following contain integers
+Tépresent ing the approximate number of Significant binary digits in each
+
+element of the Solution vecopp, A is the next record on MT-NINE:
+
+
+6. Constants available start at LO, and run to DNEXT. These include
+0, 1, 2, 1 ficating, etc.
+7. This routine was tested om the 10 X 10 segment of the infamous
+
+Hilbert Matrix, octal cards for which are included, (sce Appendix Iv).
+
+
+APPENDIX I
+
+BOUTS TAPE WRITING ROUTINE
+
+Calling sequence: TSX BOUTS,L
+
+PZE §, 0, FWA
+
+Error Return
+
+SLW (normal return)
+This routine writes the block of N words starting at FWA on MT-NINE and
+computes the CAD checksum. Tape is then backspsced and reread to check
+for a legible record. Failure of the check causes a second writing and
+check, failure of which causes error return. On nomal return, CAD
+checksum ig in AC to be stored for later use with BLINS. Index 1 is
+
+destroyed.
+
+BLINS TAPE READING ROUTINE
+
+Calling sequence: CAL (pickup checksum for this block)
+
+TSX BLINS,L4
+
+PZE N, 0, FWA
+
+Error Return
+
+Normal Return
+This routine reads the next block of N words from MI-NINE into core memory
+starting at location FWA, A CAD checksum is compared with the contents of
+AC at entry. On disggreement, tape is backspaced and a second attempt at
+reading is made. Failure of this attempt results in an error return. Pre-
+sence of an end-of-file or end-oferecord before N words sre read also initiates
+
+the error procedure. Index 1 is destroyed.
+
+Vd Ee EE RAY wo Nye
+
+
+APPENDIX II
+
+ADDOV Check lights after floating-point addition.
+Calling Sequence: FAD
+ISX ADDOV, L
+
+If lights indicate en overflow, error stop occurs at ADDOV + 4. On AC under
+
+flow AC is set to zero.
+
+MULTO Check lights after floating-point multiplication.
+Calling Sequence: FuP
+TSX MULTO,
+Ovefflow causes error stop in MULTO + 3 or MULTO + 6. AC underflow gives AC
+
+Gero
+
+DIVCK Check lights after floating-point division.
+Calling sequence: FDP
+TSX DIVCK,L
+Divide check light causes error stop in DIVCK + 1. MQ set to zero on MQ
+
+underflow. MQ overflow causes error stop in DIVCK + 1l.
+
+All routines normally return to X + 1.
+
+
+APPENDIX IIT
+
+RB)
+(1
+
+2}
+DNEXT Solve matrix equation A x £ b", when £ x = b has been solved by MIDPUE.
+
+1. This routine provides a Large saying in time when solving for a new
+fight-hend side. Calling sequence is same as for MIDPME except that X
+must contain TSX DNEXT,L. Resulth, error stops, etc. are &ll the same
+as MIDPE. ’ | \
+
+a
+
+>.  WIDPYE writes five records on MT-NINE: O, A, D, M, I - MA. D is the
+first 6n instructions of MIDME, the other letters are explained in the
+main writeup. Upon exit from MIDME, MT-NINE is positioned to read A as
+‘the next record. This is for convenience of user, who may want to read
+
+in A by BLINS; the necessary CAD checksum is stored in SuCK A,
+
+DNEXT spaces down to M and reads it into memory to form Mb'. It then
+
+ 
+
+ 
+
+reads in I - lA and starts iterating. The parts of MIDPiE that form M and
+check I = AM are skipped, thus saving considerable time. DNEXT restores
+C on exit, but since it uses the block written by HIDPME, changes in C
+
+hetween use of MIDPME and DNEXT will be lost.
+
+Ea tS a ————————
+
+|
+
+
+APPENDIX IV
+
+MIHIL1O Hilbert Matrix of order 10, double~precision in sense of RS005.
+
+These cards contain the segment of order ten of the Hilbert matrix, in the
+form of RSO0S double-precision numbers, correctly rounded to 18 octal digits.
+They are designed to save the next guy the exercise in decimal~to=octal con=-
+version this writer undertook. Note that if the least~significant parts of
+the matrix sre sorted out for single~precision work, the remaining numbers
+
+will be incorrectly rounded in = number of cases,
+
+

@@ -1,0 +1,98 @@
+B
+
+Machine lLanguage Programs to be Run with
+
+Compatibility Packagpge
+
+the purpose of running 7
+
+lower half
+
+The 709 may be run in a Compatibllity Mode for
+
+Ot programs that only occupy the
+
+of core (i.e. 16,%34 ceclls)., The compatibility
+
+program, which occupies the uppcr half of corec memory, astumes
+
+all responsibility for input and output and simulates the 4
+
+logical drums if they are not present on the 709.
+
+simulation
+
+card; stand
+
+Thni.e
+may be somewhzat inefflicient in Cime,
+
+Only 2 control cards need be added to the binary
+
+specified by the control
+
+-
+
+trol cards will be available at the Center,
+
+patibility Program, IBIOCZ, is described in
+
+-~ 20 . . -
+TP EATYIT > & . o~ - s ,? » 4’ -~ "4 ’ /. ’ ‘7[
+~ =2 P b = ' ﬂﬂb? : s ~ 7 ’r" T2 . ~ " v ro L | #2y o
+S S AE Lo U‘.c Ve - 'J'J-'-}bL 0£~I. ‘—IC a u" Ir‘« v ‘IR BNINA L'l o’ ;‘.I A . / }/’1 ./d
+- - P - T 3 .’" ) ~ - - ) : ¢ v j? ‘ - 'l £
+“rocessinz ~wxtom i z 4—11 eyt 70 (v-«;}f { -,y-(-[)‘? (/rlf % 1 ’ P41t
+- - L -l e -~ e ENA L L b > E N+ e s /'/:l ‘. s rl}/‘l AW hohew S,
+~ # < 1 A
+S roCTan CAarrmastint 1Sy TT (P J=286045}"
+- - ‘C- oS o - — T ——— 4,’ -— L -~ ~ wr s - J-\JJ//) »
+> "
+— -~ - - = - e L - rr - -~ » B
+= +har Prnrniornama or LlaafafFtrmge g /’j),., T 71YC TMomnnss$ s 00
+— - e - - T T d e pwenD - - LA N BNl P T ! ' v s g »a GOV v by v A
+— | —— ——— A — A ik e i M M s b
+—_—— - - y . 1 .
+.f.,:.' = - e ~r T . 2L P A Ny P /;_/’ v :,"_', o ‘,/’
+-0 BN - -o..-v‘o,,--—_—_ e o - /f_’- e Lz - sy - e T NS
+-
+T = -, §~ < - e o~ r
+" o g — SMT T NIIT ZT°& BT rornmt ~N TrOETY = P v
+-,‘ - e - — - — - A - ')' i A - - SIS
+- — - £ - T T ”
+= TS P o W i
+— -> - — — 7 - - - — o » oSy @ - - )
+e < - - I
+. N O i ey X o o . - - o~ “rfff" ‘,"" 5 ‘ol £
+- -'..—-4-“’ e . S P -~ o - il =
+T ———— . ot T ¥ ~o~;' :4‘/4, - - i o ',‘F. e da (’
+o A il W A e o o L — - . ” o - e
+Speymye e T e - - Lo ~y T ot At e
+- L - - - - - - - I,)" - - ”~ o LA o
+o — ——— "I.';o",, - s — - e - o
+i — - et " ot i i - Z ” - -
+. s nd
+~ o~ o N r -
+— - - - -~ - - -l - s - - - -
+— e— ——————
+- - - I O
+p— e — - -~ Al R T P
+- . - -
+- Al e i . 2 ol B B N e A " A ”
+- ot
+- -
+g — - T e - - - < -
+— - e A s Al i o - _ahd
+- — — > . - - ’ - ¥ A
+= et Comtrrted ST - 5 9 LS
+- — M Tt — ——— i - N SN - - -
+’’’’’’ - — AT e A i e K b K g 7 .
+¥ st e " e P S Sl 3 —— B A o \ D i S T (L~ o A e
+— - = - - v - .-
+— g - - e - o g - - o~ o /
+. i — - i - - - o~ B Al o A S . ” e
+- - , »
+— A —— A - ———" — — e g~ - - -t K - o A S AL, - < ~
+2T ST GG LS G0 e L Wils OO0 RA
+- ——— --!- - — — =T - —— —
+‘.-__‘.——.—‘-‘ - e e Sl i e g — e b} -

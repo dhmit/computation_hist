@@ -1,0 +1,48 @@
+I1I.
+
+DEFINITION OF JCB
+
+A job may be considered as the basic unit being processed by the
+Monitor at any one time; it consists of one or more subprograms.
+A job is either an Execute or non-execute job. An Execute job
+is one to be executed immediately after whatever processing is
+required; thus, the subprograms of the job are related to each
+other. A non-execute job contains subprograms that need not be
+dependent. Each program is processed as the control cards for
+the job specify. The ''processing' that is given a subprogram
+
+is one of the following:
+
+EXECUTE Job Non-Execute Job
+1. FORTRAN Compilation 1. FORTRAN Compilation
+2. FAP Assembly 2. TFAP Assembly
+3. Relocation of object (object program input
+
+program input is simply ignored)
+o
+
+ 
+
+4, For jobs divided into
+links, treatments of
+chain links
+
+A job may be considered as falling into one of the following
+
+five types:
+
+1. One or more FORTRAN source subprograms to be compiled.
+This is simply multiple-compilation.
+
+2. One or more I'AP symbolic subprograms to be assembled.
+
+3. An intermixture of job types 1 and 2. This results in
+multiple compilation and assembly of FORTRAN and FAP
+source subprograms producing object subprogram output
+for each source subprogram input. There may be any
+
+combination of main programs and subprograns.
+
+Execute Jobs
+
+4. A sequence of input subprograms for immediate execution.

@@ -1,0 +1,42 @@
+UTL lemorandum 165 | Page 1 of §
+
+Digital Cemputer Laboratory
+Magsachusetts Institute of Techunology
+Cambridge 39, Massachusettis
+
+SUBJSECT: SHARE ASSEMBLER OPERATOR'S NOTES FOR INITIAL USE AT THE MIT
+COMPUTATION CENTER
+
+To: Philip M, Morse
+Prom: Sheldon F, Best
+Date: February 27, 1057
+
+The SHARE ASSEMBLER has been modified so that:
+1) many symbolic prograus may be loaded om the zcme imput tape,
+2) many sssembly-listings may be obtained or the same output tape,
+3) the a2ssembly program itself may be stored on tape.
+These operating notes should be used at MIT im place of those issued by the
+United Aircraft Corporation on March 7, 1956.
+
+Note ©o any Programmer reading this:
+
+This is really a memo to the machine operator and prograzmers will
+ot normally need to kanow many of the details givem below., All the prograz=er
+norraally will need to do to get his deck assembled is to give it to am opera-
+
+tor along with a filled out request for assembly form. Blank forms will be
+
+available at the Computation Center. On this form he will indicate what kind
+cf binary cards he wants (absclute in the normal case, but possibly relocatable,
+or ravely 24 words/card) and whether he wants a2 symbol table or mot., He may
+aiso indicate whether he wvants library subroutines printed om his assembly
+listing, In due course, he will receive an assembly listimg back which ke
+should proofread for erroxrs before submittiag a request to have his program
+
+weuv
+7 WA °
+
+Control Panel Regquirements:
+SHARE 72 columm reader permel (L - 72)
+SHARE 72 column punch pamel (1 - 72)
+SHARE 72 -~ 120 printer panel
