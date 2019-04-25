@@ -1,3 +1,32 @@
+/*
+ * Global Text Styles
+ */
+
+h1,h2,h3,h4,h5,h6,.navbar {
+    font-family: 'Acre-Regular';
+}
+
+h1,h2,h3,h4,h5,h6,.navbar-brand {
+    text-transform: uppercase;
+}
+
+h1,h2,h3,h4,h5,h6,.navbar {
+    font-family: 'Acre-Regular';
+}
+
+h1,h2,h3,h4,h5,h6,.navbar-brand {
+    text-transform: uppercase;
+}
+
+h5 {
+    text-align: center;
+}
+
+
+/*
+ * Base styles
+ */
+
 html {
     position: relative;
     min-height: 100%;
@@ -8,22 +37,6 @@ body {
     font-family: 'Book Antiqua';
     margin-bottom: 120px; /* Margin bottom = footer height */
     padding-top: 5rem;
-}
-
-h1,h2,h3,h4,h5,h6,.navbar {
-    font-family: 'Acre-Regular';
-}
-
-h1,h2,h3,h4,h5,h6,.navbar-brand {
-    text-transform: uppercase;
-}
-
-h1,h2,h3,h4,h5,h6,.navbar {
-    font-family: 'Acre-Regular';
-}
-
-h1,h2,h3,h4,h5,h6,.navbar-brand {
-    text-transform: uppercase;
 }
 
 .footer {
@@ -38,6 +51,66 @@ h1,h2,h3,h4,h5,h6,.navbar-brand {
      max-width: 20vw;
      object-fit: contain;
 }
+
+
+/*
+ * Index page 
+ */
+
+/* index page special effect typing header */
+@media only screen and (min-width: 1200px) {
+   .typing {
+       font-size: 24px;
+        /* Web-safe typewriter-like font */
+       overflow: hidden; /* Ensures the content is not revealed until the animation */
+       white-space: nowrap; /* Keeps the content on a single line */
+       margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+       letter-spacing: .05em; /* Adjust as needed */
+       animation: typing 5s steps(30, end),
+       blinking-cursor .5s step-end infinite;
+   }
+
+   /* The typing effect */
+   @keyframes typing {
+       from {
+           width: 0
+       }
+       to {
+           width: 100%
+       }
+   }
+
+   /* The typewriter cursor effect */
+   @keyframes blinking-cursor {
+       from, to {
+           border-color: transparent
+       }
+       50% {
+           border-color: lawngreen;
+       }
+   }
+}
+
+.story-title {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.story-teaser {
+    font-size: .9em;
+}
+
+.story-teaser-img {
+    width: 100%;
+    height: 160px;
+    max-height: 33vh;
+    object-fit: cover;
+}
+
+
+/*
+ * DOCUMENT PAGE
+ */
 
 .sidenav{
     height: 100%;
@@ -54,55 +127,10 @@ h1,h2,h3,h4,h5,h6,.navbar-brand {
 
 @media (max-width: 1000PX) {
     .sidenav {
-    position: relative;
-    bottom:21%;
-    width:100%;
-    margin-bottom: 20%;
+        position: relative;
+        bottom:21%;
+        width:100%;
+        margin-bottom: 20%;
     }
-}
-
-@media only screen and (min-width: 1200px) {
-       .typing {
-           font-size: 24px;
-            /* Web-safe typewriter-like font */
-           overflow: hidden; /* Ensures the content is not revealed until the animation */
-           white-space: nowrap; /* Keeps the content on a single line */
-           margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-           letter-spacing: .05em; /* Adjust as needed */
-           animation: typing 5s steps(30, end),
-           blinking-cursor .5s step-end infinite;
-       }
-
-       /* The typing effect */
-       @keyframes typing {
-           from {
-               width: 0
-           }
-           to {
-               width: 100%
-           }
-       }
-
-       /* The typewriter cursor effect */
-       @keyframes blinking-cursor {
-           from, to {
-               border-color: transparent
-           }
-           50% {
-               border-color: lawngreen;
-           }
-       }
-}
-
-.image-container {
-    padding-top: 20%;
-}
-
-h5{
-    text-align: center;
-}
-
-.story-title{
-    height: 50px;
 }
 

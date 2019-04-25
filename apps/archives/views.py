@@ -20,8 +20,6 @@ def index(request):
         'debugging',
         'qualifications_for_programmer',
         'mayowa_story',
-        'women_in_symbols',
-        'announcement_of_the_IBM_704',
     ]
 
     context = {'stories': stories}

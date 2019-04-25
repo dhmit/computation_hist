@@ -1,23 +1,19 @@
 {% extends "base.jinja2" %}
 
-
-
 {% block title %}
-    Home Page
+Home Page
 {% endblock %}
 
 {% block header %}
-    <h1 class="typing">Welcome to the Archives of the MIT Computation Center</h1>
+<h1 class="typing">Welcome to the Archives of the MIT Computation Center</h1>
 {% endblock %}
 
 {% block content %}
-<div class="container">
-    <div class="row">
-        {% for story in stories %}
-            <div class='col-md-4'>
-                {% include 'archives/stories/' + story + '-teaser.jinja2' %}
-            </div>
-        {% endfor %}
+<div class="row mt-4">
+    {% for story in stories %}
+    <div class='col-md-4 my-4 my-md-0'>
+        {% include 'archives/stories/' + story + '-teaser.jinja2' %}
     </div>
+    {% endfor %}
 </div>
 {% endblock %}
