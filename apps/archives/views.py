@@ -1,3 +1,4 @@
+import random
 import re
 
 from django.db.models import Q
@@ -10,22 +11,25 @@ from utilities.common import get_file_path
 from .models import Person, Document, Box, Folder, Organization, Page
 
 
-def index(request):
-    # NOTE(ra): this hardcoded pattern isn't great, but we're since we're using
-    # jinja2 templates as a data source for the stories, it gets us to a usable
-    # prototype without having to, e.g., read the folder of story templates
-    # and load their names dynamically. We'll replace this with something
-    # more robust once the story system takes firmer shape.
-    stories = [
-        'debugging',
-        'qualifications_for_programmer',
-        'women_in_symbols',
-        'announcement_of_the_IBM_704',
-        'sample_story',
-        'mayowa_story'
-    ]
+# NOTE(ra): this hardcoded pattern isn't great, but we're since we're using
+# jinja2 templates as a data source for the stories, it gets us to a usable
+# prototype without having to, e.g., read the folder of story templates
+# and load their names dynamically. We'll replace this with something
+# more robust once the story system takes firmer shape.
 
-    context = {'stories': stories}
+STORIES = [
+    'announcement_of_the_IBM_704',
+    'debugging',
+    'mayowa_story',
+    'qualifications_for_programmer',
+    'time_records',
+    'women_in_symbols',
+]
+
+
+def index(request):
+    story_selection = random.sample(STORIES, 3)
+    context = {'stories': story_selection}
     return render(request, 'index.jinja2', context)
 
 
@@ -359,8 +363,9 @@ def process_advanced_search(search_params):
 
 
 def story(request, slug):
-    template = f'archives/stories/{slug}.jinja2'
-    try:
-        return render(request, template)
-    except TemplateDoesNotExist:
+    if not slug in STORIES:
         raise Http404('A story with this slug does not exist.')
+
+    template = f'archives/stories/{slug}.jinja2'
+    return render(request, template)
+
