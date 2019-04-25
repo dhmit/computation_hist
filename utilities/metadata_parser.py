@@ -278,43 +278,30 @@ def interpret_person_organization(field, item_organization, item_person, new_doc
             split_name = person_or_organization.split(',')
             # check for commas
             if len(split_name) > 2:
-                print("There seem to be too many commas in this name", split_name, "in line", line_no)
+                print("There seem to be too many commas in this name", split_name, "in line",
+                      line_no)
+            else:
+                last_name, first_name = aliases_to_full_name_dict[person_or_organization].split(',')
+                if last_name == 'unknown':
+                    last_name = ''
+                if first_name == 'unknown':
+                    first_name = ''
 
-            # get last name
-            last_name = split_name[0].strip()
-            if len(last_name) == 1:
-                print("Missing period after last initial", last_name, "in line", line_no)
-                last_name += "."
-            if last_name == 'unknown':
-                last_name = ''
+                #            # add first name, last name pair to names
+                if last_name != '':
+                    #                    unfixed_first_name = split_name[1].strip()
+                    if last_name not in names_so_far:
+                        names_so_far[last_name] = {first_name}
+                    else:
+                        names_so_far[last_name].add(first_name)
 
-            # add first name, last name pair to names
-            if last_name != '':
-                unfixed_first_name = split_name[1].strip()
-                if last_name not in names_so_far:
-                    names_so_far[last_name] = {unfixed_first_name}
-                else:
-                    names_so_far[last_name].add(unfixed_first_name)
+                new_person, _unused_person_created = Person.objects.get_or_create(
+                    last=last_name,
+                    first=first_name,
+                )
 
-            # get first names
-            first_name = ''
-            if split_name[1].strip().lower() != 'unknown':
-                first_and_middle_names = split_name[1].strip()
-                first_and_middle_names_list = ".".join(first_and_middle_names.split(' ')).split(".")
-                for name in first_and_middle_names_list:
-                    if name != "":
-                        if len(name) == 1:
-                            name += "."
-                        first_name += name + " "
-                first_name = first_name.strip()
-
-            new_person, _unused_person_created = Person.objects.get_or_create(
-                last=last_name,
-                first=first_name,
-            )
-
-            bound_attr = getattr(new_doc, item_person)
-            bound_attr.add(new_person)
+                bound_attr = getattr(new_doc, item_person)
+                bound_attr.add(new_person)
 
 
 def network_json(output_path=None):
