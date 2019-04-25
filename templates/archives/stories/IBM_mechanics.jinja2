@@ -1,0 +1,31 @@
+{% extends 'archives/story.jinja2' %}
+
+{% block story_title %}
+A Brief Journey inside the IBM 704
+    <h6>By: Montse Garza</h6>
+{% endblock %}
+
+{% block story_teaser %} 
+Here are between 140-280ish characters that can go on the front page about this story, including these other characters that can go on the front page about this story. Think about the length to twice the length of a tweet.
+{% endblock %}
+
+{% block story_body %}
+    <p>Much of the below information is based on the <a href="http://www.bitsavers.org/pdf/ibm/704/24-6661-2_704_Manual_1955.pdf">IBM 704 Manual of Operations</a> written
+        in 1954. Check it out for a more detailed and complete overview.</p>
+<b>What is the IBM 704 anyways?</b>
+    <p> In the words of the manual, "the IBM 704 Electronic Data-Processing Machine is a large-scale, high-speed
+        electronic calculator controlled by an internally stored program of the single address type." Let's break that down.
+        How it was unique compared to other machines, look <a href="https://www.ibm.com/ibm/history/exhibits/mainframe/mainframe_PP704.html">here</a></p>
+
+<figure class="figure float-right">
+    <img src="{{ static('img/stories/IBM_mechanics_bigger.png') }}"
+         class="class="figure-img img-fluid rounded" 
+         alt="The IBM fills an entire room" />
+    <figcaption class="figure-caption">Image taken from the IBM 704 manual.</figcaption>
+</figure>
+<b>Why is it important to MIT's history?</b>
+    <p><a href="https://videogamehistorian.wordpress.com/tag/ibm-704/">Useful Resource</a></p>
+
+<b>Breakdown of components</b>
+{% endblock %}
+
