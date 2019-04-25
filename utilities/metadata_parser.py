@@ -22,6 +22,9 @@ from apps.archives.models import (
 )
 from .common import get_file_path
 
+from .name_parser import PeopleDatabase
+
+
 
 def populate_from_metadata(metadata_filename=None):
     '''
@@ -40,6 +43,12 @@ def populate_from_metadata(metadata_filename=None):
 
     if metadata_filename is None:
         metadata_filename = METADATA_CSV
+
+    # the aliases_to_full_name_dict maps from raw (csv) names to authoritative full names, e.g.
+    # e.g. 'Corbatò, F. J.' -> 'Corbató, Fernando J.'
+    people_db = PeopleDatabase()
+    people_db.extract_names_from_metadata_sheet()
+    aliases_to_full_name_dict = people_db.get_aliases_to_full_name_dict()
 
     with open(metadata_filename) as file:
         csv_file = csv.DictReader(file)
@@ -65,7 +74,7 @@ def populate_from_metadata(metadata_filename=None):
                 continue
 
             try:
-                add_one_document(line, line_id+1, names)
+                add_one_document(line, aliases_to_full_name_dict, line_id+1, names)
                 count_added += 1
             except ValidationError as e:
                 count_invalid += 1
@@ -91,7 +100,7 @@ def populate_from_metadata(metadata_filename=None):
                 print("\t" + first_name)
             print("")
 
-def add_one_document(csv_line, line_no=None, names={}):
+def add_one_document(csv_line, aliases_to_full_name_dict, line_no=None, names={}):
     """
     Processes one line from a metadata csv file and add it to the database.
     Note: This function does not check if the metadata is complete. It is only supposed to be
@@ -170,22 +179,25 @@ def add_one_document(csv_line, line_no=None, names={}):
                                       "author_organization",
                                       "author_person",
                                       new_doc,
+                                      aliases_to_full_name_dict,
                                       line_no,
-                                      names
+                                      names,
                                       )
         interpret_person_organization(csv_line['recipients'],
                                       "recipient_organization",
                                       "recipient_person",
                                       new_doc,
+                                      aliases_to_full_name_dict,
                                       line_no,
-                                      names
+                                      names,
                                       )
         interpret_person_organization(csv_line['cced'],
                                       "cced_organization",
                                       "cced_person",
                                       new_doc,
+                                      aliases_to_full_name_dict,
                                       line_no,
-                                      names
+                                      names,
                                       )
         new_doc.save()
     except IntegrityError:
@@ -251,7 +263,9 @@ def page_image_to_doc(folder_name, pdf_path, image_directory):
             pass
 
 
-def interpret_person_organization(field, item_organization, item_person, new_doc, line_no=None, names_so_far={}):
+def interpret_person_organization(field, item_organization, item_person, new_doc,
+                                  aliases_to_full_name_dict, line_no=None, names_so_far={}):
+
     # Adds people and organizations as an author, recipient, or CC'ed.
     field_split = [person_or_organization.strip() for person_or_organization in field.split(';')]
 
@@ -262,7 +276,6 @@ def interpret_person_organization(field, item_organization, item_person, new_doc
             bound_attr.add(new_org)
         else:
             split_name = person_or_organization.split(',')
-
             # check for commas
             if len(split_name) > 2:
                 print("There seem to be too many commas in this name", split_name, "in line", line_no)

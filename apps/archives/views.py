@@ -19,10 +19,7 @@ def index(request):
     stories = [
         'debugging',
         'qualifications_for_programmer',
-        'women_in_symbols',
-        'sample_story',
-        'sample_story',
-        'mayowa_story'
+        'mayowa_story',
     ]
 
     context = {'stories': stories}
@@ -86,7 +83,7 @@ def doc(request, doc_id=None, slug=None):
         # reach this branch, something has gone awry.
 
         # TODO(ra): implement this branch
-        # 1. add a url pattern that matches 
+        # 1. add a url pattern that matches
         # 2. then do something sensible here... (probably a redirect)
         raise RuntimeError('This branch should be unreachable!')
 
