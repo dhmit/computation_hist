@@ -20,6 +20,7 @@ export class Renderer {
             const span = document.createElement("span");
             span.setAttribute("class", "general_memory number");
             span.setAttribute("id", "general_memory" + i.toString());
+            span.setAttribute("data-toggle", "tooltip");
             para.appendChild(span);
             general_memory_display.appendChild(para);
         }

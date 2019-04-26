@@ -84,4 +84,5 @@ export function start() {
     expand_text_area("code_box");
     display_operations();
     renderer.update();
+    $('[data-toggle="tooltip"]').tooltip();
 }
