@@ -381,6 +381,13 @@ def net_viz(request):
 
     graph_dict = json.loads(graph)
 
+    nodes = graph_dict['nodes']
+    links = graph_dict['links']
+    nodes = sorted(nodes, key=lambda i: i['weight'], reverse=True)[:100]
+    node_list = [i['id'] for i in nodes]
+    links = [i for i in links if i['source'] in node_list and i['target'] in node_list]
+
+    graph_dict = {'nodes': nodes, 'links': links}
     return render(request, 'archives/net_viz.jinja2', graph_dict)
 
     
