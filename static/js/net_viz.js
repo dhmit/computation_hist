@@ -13,7 +13,6 @@ function create_force_layout(nodes, edges) {
             max_weight = d.weight;
         }
     });
-    console.log(max_weight);
 
     const label = {
         'nodes': [],

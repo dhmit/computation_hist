@@ -383,8 +383,12 @@ def net_viz(request):
 
     nodes = graph_dict['nodes']
     links = graph_dict['links']
+
+    # Sorts out everything but the top 100 nodes
     nodes = sorted(nodes, key=lambda i: i['weight'], reverse=True)[:100]
     node_list = [i['id'] for i in nodes]
+
+    # Removes all links that connect to nodes that no longer exist
     links = [i for i in links if i['source'] in node_list and i['target'] in node_list]
 
     graph_dict = {'nodes': nodes, 'links': links}
