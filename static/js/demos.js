@@ -121,4 +121,5 @@ export function start_demo(demo_params) {
     renderer.reset(instructions, initial_memory_values);
     renderer.update(instructions, num_code_lines, highlighted_registers);
     $('[data-toggle="tooltip"]').tooltip();
+    $("#loading").hide();
 }

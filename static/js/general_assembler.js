@@ -85,4 +85,5 @@ export function start() {
     display_operations();
     renderer.update();
     $('[data-toggle="tooltip"]').tooltip();
+    $("#loading").hide();
 }
