@@ -1,32 +1,55 @@
-"use strict"
+"use strict";
 
 const width = 960;
 const height = 600;
+const color = d3.scaleSequential(d3.interpolateBrBG);
 
-export function create_force_layout(nodes, edges) {
 
-    const labelLayout = d3.forceSimulation(nodes);
-    labelLayout.force("charge", d3.forceManyBody().strength(-50));
-    labelLayout.force("link", d3.forceLink(edges).id(function(node) {return node.id;})
-        .distance(0).strength(2));
+function create_force_layout(nodes, edges) {
+    const graph = {"nodes": nodes, "links": edges};
+    let max_weight = 0;
+    graph.nodes.forEach(function(d){
+        if (d.weight > max_weight){
+            max_weight = d.weight;
+        }
+    });
+    console.log(max_weight);
 
-    const graphLayout = d3.forceSimulation(nodes)
+    const label = {
+        'nodes': [],
+        'links': []
+    };
+
+    graph.nodes.forEach(function(d, i) {
+        label.nodes.push({node: d});
+        label.nodes.push({node: d});
+        label.links.push({
+            source: i * 2,
+            target: i * 2 + 1
+        });
+    });
+
+    const labelLayout = d3.forceSimulation(label.nodes)
+        .force("charge", d3.forceManyBody().strength(-50))
+        .force("link", d3.forceLink(label.links).distance(0).strength(2));
+
+    const graphLayout = d3.forceSimulation(graph.nodes)
         .force("charge", d3.forceManyBody().strength(-3000))
         .force("center", d3.forceCenter(width / 2, height / 2))
         .force("x", d3.forceX(width / 2).strength(1))
         .force("y", d3.forceY(height / 2).strength(1))
-        .force("link", d3.forceLink(edges).id(function(d) {return d.id; }).distance(50).strength(1))
+        .force("link", d3.forceLink(graph.links).id(function(d) {return d.id; }).distance(50).strength(1))
         .on("tick", ticked);
 
     const adjlist = [];
 
-    edges.forEach(function(d) {
+    graph.links.forEach(function(d) {
         adjlist[d.source.index + "-" + d.target.index] = true;
         adjlist[d.target.index + "-" + d.source.index] = true;
     });
 
     function neigh(a, b) {
-        return a == b || adjlist[a + "-" + b];
+        return a === b || adjlist[a + "-" + b];
     }
 
 
@@ -41,7 +64,7 @@ export function create_force_layout(nodes, edges) {
 
     const link = container.append("g").attr("class", "links")
         .selectAll("line")
-        .data(edges)
+        .data(graph.links)
         .enter()
         .append("line")
         .attr("stroke", "#aaa")
@@ -49,11 +72,11 @@ export function create_force_layout(nodes, edges) {
 
     const node = container.append("g").attr("class", "nodes")
         .selectAll("g")
-        .data(nodes)
+        .data(graph.nodes)
         .enter()
         .append("circle")
         .attr("r", 5)
-        .attr("fill", function(d) { return color(d.group); })
+        .attr("fill", function(d) { return color(d.weight/max_weight); });
 
     node.on("mouseover", focus).on("mouseout", unfocus);
 
@@ -66,7 +89,7 @@ export function create_force_layout(nodes, edges) {
 
     const labelNode = container.append("g").attr("class", "labelNodes")
         .selectAll("text")
-        .data(nodes)
+        .data(label.nodes)
         .enter()
         .append("text")
         .text(function(d, i) { return i % 2 == 0 ? "" : d.node.id; })
@@ -95,7 +118,7 @@ export function create_force_layout(nodes, edges) {
 
                 const dist = Math.sqrt(diffX * diffX + diffY * diffY);
 
-                const shiftX = b.width * (diffX - dist) / (dist * 2);
+                let shiftX = b.width * (diffX - dist) / (dist * 2);
                 shiftX = Math.max(-b.width, Math.min(0, shiftX));
                 const shiftY = 16;
                 this.setAttribute("transform", "translate(" + shiftX + "," + shiftY + ")");
@@ -144,7 +167,7 @@ export function create_force_layout(nodes, edges) {
 
     function dragstarted(d) {
         d3.event.sourceEvent.stopPropagation();
-        if (!d3.event.active) graphLayout.alphaTarget(0.3).restart();
+        if (!d3.event.active) {graphLayout.alphaTarget(0.3).restart();}
         d.fx = d.x;
         d.fy = d.y;
     }
@@ -155,9 +178,9 @@ export function create_force_layout(nodes, edges) {
     }
 
     function dragended(d) {
-        if (!d3.event.active) graphLayout.alphaTarget(0);
+        if (!d3.event.active) {graphLayout.alphaTarget(0);}
         d.fx = null;
         d.fy = null;
     }
-
 }
+

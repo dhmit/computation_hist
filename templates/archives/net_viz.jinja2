@@ -1,21 +1,17 @@
 {% extends "base.jinja2" %}
 
+{%  block extraheader %}
+    <script src='https://d3js.org/d3.v5.min.js'></script>
+    <script src="{{ static('js/net_viz.js')  }}"></script>
+{%  endblock %}
+
+
 {% block content %}
 
-    <script src="{{ static('js/d3.js')  }}"></script>
-    <script src="{{ static('js/net_viz.js')  }}"></script>
+    <svg id="viz"></svg>
+
+
     <script>
-        const nodes = [
-            {"id": "Morse", "value": 45},
-            {"id": "Verzuh", "value": 25},
-            {"id": "Sally", "value": 10}
-        ];
-        const edges = [
-            {"source": "Morse", "target": "Verzuh", "value": 10},
-            {"source": "Morse", "target": "Sally", "value": 5},
-            {"source": "Sally", "target": "Verzuh", "value": 20},
-            {"source": "Sally", "target": "Morse", "value": 15},
-        ];
-        create_force_layout(nodes, edges);
+        create_force_layout({{ nodes|safe }}, {{ links|safe }});
     </script>
 {% endblock %}

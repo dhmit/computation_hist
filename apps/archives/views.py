@@ -1,3 +1,4 @@
+import random
 import re
 
 from django.db.models import Q
@@ -9,41 +10,28 @@ from django.core.exceptions import ObjectDoesNotExist
 from utilities.common import get_file_path
 from .models import Person, Document, Box, Folder, Organization, Page
 
+
+# NOTE(ra): this hardcoded pattern isn't great, but we're since we're using
+# jinja2 templates as a data source for the stories, it gets us to a usable
+# prototype without having to, e.g., read the folder of story templates
+# and load their names dynamically. We'll replace this with something
+# more robust once the story system takes firmer shape.
+
+STORIES = [
+    'announcement_of_the_IBM_704',
+    'debugging',
+    'mayowa_story',
+    'qualifications_for_programmer',
+    'time_records',
+    'digital_humanities',
+    'women_in_symbols',
+]
+
+
 def index(request):
-    # NOTE(ra): this hardcoded pattern isn't great, but we're since we're using
-    # jinja2 templates as a data source for the stories, it gets us to a usable
-    # prototype without having to, e.g., read the folder of story templates
-    # and load their names dynamically. We'll replace this with something
-    # more robust once the story system takes firmer shape.
-    stories = [
-        'debugging',
-        'qualifications_for_programmer',
-        'sample_story',
-        'sample_story',
-        'sample_story',
-        'mayowa_story'
-    ]
-
-    context = {'stories': stories}
+    story_selection = random.sample(STORIES, 3)
+    context = {'stories': story_selection}
     return render(request, 'index.jinja2', context)
-
-
-def network_viz(request):
-    from .common import DJWEB_PATH
-    import csv
-    import json
-
-    with open(Path(DJWEB_PATH, 'static', 'csv', 'nodes.csv')) as node_file:
-        nodes = [n for n in csv.DictReader(node_file)]
-    with open(Path(DJWEB_PATH, 'static', 'csv', 'edges.csv')) as edge_file:
-        edges = [n for n in csv.DictReader(edge_file)]
-
-    obj_dict = {
-        'nodes': json.dumps(nodes),
-        'edges': json.dumps(edges)
-    }
-
-    return render(request, 'network_viz.jinja2', obj_dict)
 
 
 def person(request, person_id):
@@ -85,7 +73,7 @@ def doc(request, doc_id=None, slug=None):
         # reach this branch, something has gone awry.
 
         # TODO(ra): implement this branch
-        # 1. add a url pattern that matches 
+        # 1. add a url pattern that matches
         # 2. then do something sensible here... (probably a redirect)
         raise RuntimeError('This branch should be unreachable!')
 
@@ -112,7 +100,7 @@ def doc(request, doc_id=None, slug=None):
         'author_person_objs': author_person_objs,
         'author_organization_objs': author_organization_objs,
         'recipient_person_objs': recipient_person_objs,
-        'recipient_orgaization_objs': recipient_organization_objs,
+        'recipient_organization_objs': recipient_organization_objs,
         'cced_person_objs': cced_person_objs,
         'cced_organization_objs': cced_organization_objs,
         'page_objs': page_objs,
@@ -224,13 +212,13 @@ def search_results(request):
     # key
 
     user_input = request.GET['q']
+    people_objs = Person.objects.filter(Q(last__icontains=user_input) |
+                                        Q(first__icontains=user_input))
+    document_objs = Document.objects.filter(title__icontains=user_input)
+    folder_objs = Folder.objects.filter(full__icontains=user_input)
+    organization_objs = Organization.objects.filter(Q(name__icontains=user_input) |
+                                                    Q(location__icontains=user_input))
 
-    people_objs = Person.objects.filter(Q(last__contains=user_input) |
-                                        Q( first__contains=user_input))
-    document_objs = Document.objects.filter(title__contains=user_input)
-    folder_objs = Folder.objects.filter(full__contains=user_input)
-    organization_objs = Organization.objects.filter(Q(name__contains=user_input) |
-                                                    Q(location__contains=user_input))
 
     obj_dict = {
         'people_objs': people_objs,
@@ -309,7 +297,7 @@ def process_advanced_search(search_params):
     if title:
         docs_qs = docs_qs.filter(Q(title__icontains=title))
 
-    text = search_params.get('text') # full text search
+    text = search_params.get('text')  # full text search
     if text:
         words_q = Q()
 
@@ -376,54 +364,28 @@ def process_advanced_search(search_params):
 
 
 def story(request, slug):
-    template = f'archives/stories/{slug}.jinja2'
-    try:
-        return render(request, template)
-    except TemplateDoesNotExist:
+    if not slug in STORIES:
         raise Http404('A story with this slug does not exist.')
+
+    template = f'archives/stories/{slug}.jinja2'
+    return render(request, template)
 
 
 def net_viz(request):
-    from collections import Counter
     import json
+    from pathlib import Path
 
-    docs = Document.objects.all()
-    node_count = Counter()
-    edge_count = Counter()
+    network = Path('static', 'json', 'network.json')
+    with open(network, 'r') as file:
+        graph = file.read()
 
-    # Count instances of each author/recipient
-    for document in docs:
-        authors = document.author_person.all()
-        recipients = document.recipient_person.all()
-        for author in authors:
-            node_count[str(author)] += 1
-            for recipient in recipients:
-                edge_count[(str(author), str(recipient))] += 1
-
-    # # Filter out uncommon nodes per max_nodes
-    # node_count = node_count.most_common(max_nodes)
-    # for edge in edge_count:
-    #     if not all(name in list(node_count) for name in edge):
-    #         del edge_count[edge]
-
-    # Convert node and edges into json strings
-    edge_list = list()
-    for letter in edge_count:
-        edge_list.append({
-            'source': letter[0],
-            'target': letter[1],
-            'value': edge_count[letter]
-        })
-    node_list = list()
-    for author in node_count:
-        node_list.append({
-            'id': author,
-            'value': node_count[author]
-        })
-    nodes = json.dumps(node_list)
-    edges = json.dumps(edge_list)
-
-    graph_dict = {'nodes': nodes, 'edges': edges}
+    graph_dict = json.loads(graph)
 
     return render(request, 'archives/net_viz.jinja2', graph_dict)
+
+    
+def stories(request):
+    template = 'archives/stories.jinja2'
+    context = {'stories': STORIES}
+    return render(request, template, context)
 

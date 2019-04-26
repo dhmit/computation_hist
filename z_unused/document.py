@@ -3,7 +3,7 @@ from pathlib import Path
 
 import pandas as pd
 
-from common import BASE_PATH
+from computation_hist.common import BASE_PATH
 
 
 class DocumentCollection():
@@ -60,7 +60,7 @@ class DocumentCollection():
 
 class Document:
     """
-    The Document class loads and holds the metadata and text fore one archival document
+    The Document class loads and holds the metadata and text foe one archival document
     Currently, it is only a stub for further development
 
     TODO: This may not be needed as a class but might get ported to a Django model.
@@ -133,10 +133,10 @@ class Document:
         # check date formatting
         if self.date == 'None':
             self.date = None
-        # else:
-        #     if not re.match(r'19\d{2}-\d{2}-\d{2}', self.date):
-        #         raise ValueError('Invalid date format. Please enter the date in the metadata as '
-        #                          f'YYYY-MM-DD. The set date is {self.date}.')
+        else:
+            if not re.match(r'19\d{2}-\d{2}-\d{2}', self.date):
+                raise ValueError('Invalid date format. Please enter the date in the metadata as '
+                                 f'YYYY-MM-DD. The set date is {self.date}.')
 
         # Load text if it wasn't passed as a metadata key
         if not hasattr(self, 'text'):
