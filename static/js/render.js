@@ -53,12 +53,15 @@ export class Renderer {
             instruction_location_counter_element.classList.remove("changed");
         }
         instruction_location_counter_element.innerHTML = this.computer.ilc.toString();
-        instruction_location_counter_element.title = "Location: " + this.computer.ilc.valueOf();
+        const ilc_text = "Location: " + this.computer.ilc.valueOf();
+        instruction_location_counter_element.title = ilc_text;
+        instruction_location_counter_element.setAttribute("data-original-title", ilc_text);
         
         const instruction_register_element = $("#instruction_register")[0];
         if (instruction_register_element.innerHTML !== this.computer.instruction_register.toString()) {
             instruction_register_element.innerHTML = this.computer.instruction_register.toString();
             instruction_register_element.title = "Operation: " + this.computer.instruction_register.get_instruction_str();
+            instruction_register_element.setAttribute("data-original-title", instruction_register_element.title);
         }
 
         const storage_register_element = $("#storage_register")[0];
@@ -67,6 +70,7 @@ export class Renderer {
             storage_register_element.title = "Instruction: " + this.computer.storage_register.instruction.toString();
             storage_register_element.title += "\r\nFixed Point: " + this.computer.storage_register.fixed_point;
             storage_register_element.title += "\r\nFloating Point: " + this.computer.storage_register.floating_point;
+            storage_register_element.setAttribute("data-original-title", storage_register_element.title);
         }
 
         const accumulator_element = $("#accumulator")[0];
@@ -79,6 +83,7 @@ export class Renderer {
             accumulator_element.innerHTML = this.computer.accumulator.toString();
             accumulator_element.title = "Fixed Point: " + this.computer.accumulator.fixed_point;
             accumulator_element.title += "\r\nFloating Point: " + this.computer.accumulator.floating_point;
+            accumulator_element.setAttribute("data-original-title", accumulator_element.title);
         } else {
             accumulator_element.classList.remove("changed");
         }
@@ -93,6 +98,7 @@ export class Renderer {
             mq_register_element.innerHTML = this.computer.mq_register.toString();
             mq_register_element.title = "Fixed Point: " + this.computer.mq_register.fixed_point;
             mq_register_element.title += "\r\nFloating Point: " + this.computer.mq_register.floating_point;
+            mq_register_element.setAttribute("data-original-title", mq_register_element.title);
         } else {
             mq_register_element.classList.remove("changed");
         }
@@ -106,6 +112,7 @@ export class Renderer {
             }
             index_a_element.innerHTML = this.computer.index_a.toString();
             index_a_element.title = "Value: " + this.computer.index_a.valueOf();
+            index_a_element.setAttribute("data-original-title", index_a_element.title);
         } else {
             index_a_element.classList.remove("changed");
         }
@@ -119,6 +126,7 @@ export class Renderer {
             }
             index_b_element.innerHTML = this.computer.index_b.toString();
             index_b_element.title = "Value: " + this.computer.index_b.valueOf();
+            index_b_element.setAttribute("data-original-title", index_b_element.title);
         } else {
             index_b_element.classList.remove("changed");
         }
@@ -132,6 +140,7 @@ export class Renderer {
             }
             index_c_element.innerHTML = this.computer.index_c.toString();
             index_c_element.title = "Value: " + this.computer.index_c.valueOf();
+            index_c_element.setAttribute("data-original-title", index_c_element.title);
         } else {
             index_c_element.classList.remove("changed");
         }
