@@ -211,12 +211,12 @@ LOGGING = {
             'formatter': 'db_queries'
         },
     },
-    # 'loggers': {
-    #    'django.db.backends': {
-    #        'level': 'DEBUG',
-    #        'handlers': ['console_db'],
-    #        'propagate': False,
-    #    },
-    # },
+    'loggers': {
+#       'django.db.backends': {
+#           'level': 'DEBUG',
+#           'handlers': ['console_db'],
+#           'propagate': False,
+#       },
+    },
 }
 
