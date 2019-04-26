@@ -21,6 +21,7 @@ export class Renderer {
             span.setAttribute("class", "general_memory number");
             span.setAttribute("id", "general_memory" + i.toString());
             span.setAttribute("data-toggle", "tooltip");
+            // span.setAttribute("selector", "true");
             para.appendChild(span);
             general_memory_display.appendChild(para);
         }
@@ -38,10 +39,10 @@ export class Renderer {
                     general_memory_html[i].classList.add("changed");
                 }
                 general_memory_html[i].innerHTML = new_value;
-                general_memory_html[i].title = "Instruction: " +
-                    this.computer.general_memory[i].instruction.toString();
-                general_memory_html[i].title += "\r\nFixed Point: " + this.computer.general_memory[i].fixed_point;
-                general_memory_html[i].title += "\r\nFloating Point: " + this.computer.general_memory[i].floating_point;
+                let title_text = "Instruction: " + this.computer.general_memory[i].instruction.toString();
+                title_text += "\r\nFixed Point: " + this.computer.general_memory[i].fixed_point;
+                title_text += "\r\nFloating Point: " + this.computer.general_memory[i].floating_point;
+                general_memory_html[i].setAttribute("data-original-title", title_text);
             }
         }
 
@@ -153,6 +154,7 @@ export class Renderer {
                 }
             }
         }
+    // $('[data-toggle="tooltip"]').tooltip("fixTitle");
     }
 
 
