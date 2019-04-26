@@ -30,30 +30,17 @@ export class Renderer {
      */
     async update_computer_display(highlighted_registers = []) { // jshint ignore:line
         const general_memory_html = $(".general_memory");
-        const next_instruction_address = this.computer.general_memory[this.computer.ilc.valueOf()].instruction.address;
-        general_memory_html.removeClass("next_instruction target_register special_highlight changed");
         for (let i = 0; i < this.computer.size; i++) {
             const new_value = this.computer.general_memory[i].toString();
             if (new_value !== general_memory_html[i].innerHTML) {
                 if (this.highlighting && general_memory_html[i].innerHTML !== "") {
                     general_memory_html[i].classList.add("changed");
                 }
-
                 general_memory_html[i].innerHTML = new_value;
                 general_memory_html[i].title = "Instruction: " +
                     this.computer.general_memory[i].instruction.toString();
                 general_memory_html[i].title += "\r\nFixed Point: " + this.computer.general_memory[i].fixed_point;
                 general_memory_html[i].title += "\r\nFloating Point: " + this.computer.general_memory[i].floating_point;
-            }
-
-            if (this.highlighting) {
-                if (i === this.computer.ilc.valueOf()) {
-                    general_memory_html[i].classList.add("next_instruction");
-                } else if (i === next_instruction_address) {
-                    general_memory_html[i].classList.add("target_register");
-                } else if (highlighted_registers.includes(i)) {
-                    general_memory_html[i].classList.add("special_highlight");
-                }
             }
         }
 
@@ -151,6 +138,20 @@ export class Renderer {
         changed_registers.addClass("blink");
         await timer(500); // jshint ignore:line
         changed_registers.removeClass("blink");
+
+        general_memory_html.removeClass("next_instruction target_register special_highlight changed");
+        const next_instruction_target = this.computer.general_memory[this.computer.ilc.valueOf()].instruction.address;
+        if (this.highlighting) {
+            for (let i = 0; i < this.computer.size; i++) {
+                if (i === this.computer.ilc.valueOf()) {
+                    general_memory_html[i].classList.add("next_instruction");
+                } else if (i === next_instruction_target) {
+                    general_memory_html[i].classList.add("target_register");
+                } else if (highlighted_registers.includes(i)) {
+                    general_memory_html[i].classList.add("special_highlight");
+                }
+            }
+        }
     }
 
 
@@ -172,7 +173,10 @@ export class Renderer {
 
 
 export class DemoRenderer extends Renderer {
-    update(instructions, num_code_lines, highlighted_registers = []) {
+    async update(instructions, num_code_lines, highlighted_registers = []) {
+
+        await this.update_computer_display(highlighted_registers);
+
         const code_html = $(".symbolic_code");
         code_html.removeClass("next_instruction");
         const code_line = Math.min(this.computer.ilc.valueOf(), num_code_lines-1);
@@ -181,8 +185,6 @@ export class DemoRenderer extends Renderer {
                 code_html[code_line].classList.add("next_instruction");
             }
         }
-
-        this.update_computer_display(highlighted_registers);
 
         // update line descriptions
         let line_desc = "";
