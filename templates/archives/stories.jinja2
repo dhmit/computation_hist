@@ -11,9 +11,7 @@ Stories from the Archives
 {% block content %}
 <div class="row mt-4">
     {% for story in stories %}
-    <div class='col-md-4 my-4 my-md-0'>
         {% include 'archives/stories/' + story + '-teaser.jinja2' %}
-    </div>
     {% endfor %}
 </div>
 {% endblock %}
