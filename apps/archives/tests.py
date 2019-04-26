@@ -41,6 +41,7 @@ class ArchivesTestCase(SeleniumTestCase):
         self.check_log_for_errors()
 
     def test_advanced_search_with_keyword(self):
+        """ Test that the advanced search is accessible through basic search """
         self.driver.get(self.live_server_url + '/archives/search_results/?q=test')
         self.driver.find_element_by_link_text('advanced search').click()
         self.check_log_for_errors()
