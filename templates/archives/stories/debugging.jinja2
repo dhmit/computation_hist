@@ -18,7 +18,7 @@
         <figcaption class="figure-caption">Part of source for the Fortran II compiler.</figcaption>
     </figure>
     <br />
-    One major problem that Morse identified was the input and output.  Computers back then didn’t have a screen and a
+    One major problem that Morse identified was the input and output, as computers back then didn’t have a screen and a
     keyboard.  Programs had to be converted to punch card by human, which is bound to introduce errors.  And
     if the output required more than printing a few numbers, the results would have to be printed to magnetic tape
     (which blocked the computer), then converted to punched paper tape by a slow mechanical device, and then
@@ -27,20 +27,20 @@
     legible form.<br />
     <br />
     This input/output issue was especially problematic for debugging.  In modern times, one of the first things the
-    beginner CS student learns is to inject <code>print</code> statements all throughout their code to figure
-    out where things break down.  For the more advanced, debugging is simplified by tools like gdb that allow one to
-    insert breakpoints and view the entire state of the program as it runs.  Not so in the 1950’s.  The only way to
-    figure out what was happening inside a defective program was to halt the program prematurely and slowly wait for
-    the computer to print out all the values, and hope that one of them will point to the origin of the bug.  For
-    those not familiar with coding, this is a little like trying to figure out what's wrong with a car without
+    beginner computer science student learns is to inject <code>print</code> statements all throughout their code to
+    figure out where things break down.  For the more advanced, debugging is simplified by tools that allow
+    one to insert breakpoints and view the entire state of the program as it runs.  Not so in the 1950’s.  The only
+    way to figure out what was happening inside a defective program was to halt the program prematurely and slowly
+    wait for the computer to print out all the values, and hope that one of them will point to the origin of the bug.
+    For those not familiar with coding, this is a little like trying to figure out what's wrong with a car without
     lifting the hood up. The logical thing to do would be to write the program in sections, but computer time was
     expensive and highly on demand, as everyone on campus had to share the same computer, and nobody would tolerate
     someone holding up the queue as they spent several hours writing the next segment of code while the computer idled.
     Thus, it was recommended that one write the entire program in "one continuous unit" (printing out few
     values, which might be helpful for debugging, due to the slow output).  This is a little like trying to
     build a car without testing any of the components until the entire car has been assembled. And all of this was
-    done in assembly language, the most low-level and difficult of coding languages to use, only one step from the 1's
-    and 0's used by the computer itself.<br />
+    done in assembly language, the most low-level and difficult of coding languages to use, and without the aid of
+    even a basic text editor like Vim.<br />
     <br />
     Thus, to quote Philip Morse (emphasis mine), <br />
     <br />
@@ -56,7 +56,10 @@
     tremendous and humanly impossible of calculations.  Although Morse thought that the problem was "inherent in
     the very nature of the machine," the immense cost of debugging was one of the motivations for
     the development of Fortran, one of the first compiled languages, which would greatly reduce the difficulty of
-    programming solely in assembly.  <br />
+    programming solely in assembly.  Today, as computers have changed from complex machines operated only by
+    specialists to devices intended for the nontechnical, user interfaces have become their own field, and entire
+    companies have risen up around developing <a href="https://en.wikipedia.org/wiki/Integrated_development_environment">IDE's</a>
+    to aid programmers with development.<br />
     <br />
     <a href="/archives/doc/3_11_on_the_use_of_digital_computers_pm_morse_1">Original document here.</a>
 {% endblock %}
