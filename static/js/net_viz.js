@@ -92,7 +92,7 @@ function create_force_layout(nodes, edges) {
         .data(label.nodes)
         .enter()
         .append("text")
-        .text(function(d, i) { return i % 2 == 0 ? "" : d.node.id; })
+        .text(function(d, i) { return i % 2 === 0 ? "" : d.node.id; })
         .style("fill", "#555")
         .style("font-family", "Arial")
         .style("font-size", 12)
@@ -107,7 +107,7 @@ function create_force_layout(nodes, edges) {
 
         labelLayout.alphaTarget(0.3).restart();
         labelNode.each(function(d, i) {
-            if(i % 2 == 0) {
+            if(i % 2 === 0) {
                 d.x = d.node.x;
                 d.y = d.node.y;
             } else {
@@ -142,7 +142,7 @@ function create_force_layout(nodes, edges) {
           return neigh(index, o.node.index) ? "block": "none";
         });
         link.style("opacity", function(o) {
-            return o.source.index == index || o.target.index == index ? 1 : 0.1;
+            return o.source.index === index || o.target.index === index ? 1 : 0.1;
         });
     }
 

@@ -89,7 +89,8 @@
 
     // Custom Globals
     "globals"       : {
-        "$": false
+        "$": false,
+        "d3": true
     }        // additional predefined global variables
 }
 
