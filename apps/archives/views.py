@@ -23,6 +23,7 @@ STORIES = [
     'mayowa_story',
     'qualifications_for_programmer',
     'time_records',
+    'digital_humanities',
     'women_in_symbols',
 ]
 
@@ -211,13 +212,13 @@ def search_results(request):
     # key
 
     user_input = request.GET['q']
+    people_objs = Person.objects.filter(Q(last__icontains=user_input) |
+                                        Q(first__icontains=user_input))
+    document_objs = Document.objects.filter(title__icontains=user_input)
+    folder_objs = Folder.objects.filter(full__icontains=user_input)
+    organization_objs = Organization.objects.filter(Q(name__icontains=user_input) |
+                                                    Q(location__icontains=user_input))
 
-    people_objs = Person.objects.filter(Q(last__contains=user_input) |
-                                        Q(first__contains=user_input))
-    document_objs = Document.objects.filter(title__contains=user_input)
-    folder_objs = Folder.objects.filter(full__contains=user_input)
-    organization_objs = Organization.objects.filter(Q(name__contains=user_input) |
-                                                    Q(location__contains=user_input))
 
     obj_dict = {
         'people_objs': people_objs,
@@ -368,4 +369,10 @@ def story(request, slug):
 
     template = f'archives/stories/{slug}.jinja2'
     return render(request, template)
+
+
+def stories(request):
+    template = 'archives/stories.jinja2'
+    context = {'stories': STORIES}
+    return render(request, template, context)
 

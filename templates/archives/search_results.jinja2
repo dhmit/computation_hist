@@ -15,7 +15,7 @@
     Searches for: {{ query }}
 {% endblock %}
 {% block content %}
-    Need a more <a href="/archives/advanced_search/?keyword={{ query }}">advanced search?</a>
+    Need a more <a href="/archives/advanced_search/?keyword={{ query }}">advanced search</a>?
     <br>
 
     {% set searches = False %}
@@ -37,7 +37,7 @@
         <a class="anchor" id="doc"></a>
         <h3 id="document_search_anchor">Documents that match your search</h3>
         {% for item in document_objs %}
-            <a href="/archives/doc/{{ item.pk }}">{{ item.title }}</a>
+            <a href="/archives/doc/{{ item.slug }}">{{ item.title }}</a>
             <br>
         {% endfor %}
     {% endif %}
