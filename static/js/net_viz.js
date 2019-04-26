@@ -1,4 +1,5 @@
 "use strict";
+/* exported create_force_layout */
 
 const width = 960;
 const height = 600;
