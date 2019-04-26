@@ -1,0 +1,11 @@
+table{
+    border: solid thin;
+}
+
+td, th, tbody, tr{
+    border-top: 1px black !important;
+}
+
+.clickable-row:hover{
+    cursor: pointer
+}

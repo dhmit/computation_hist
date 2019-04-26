@@ -4,33 +4,46 @@
 Timeline
 {% endblock %}
 
+{% block extraheader %}
+    <link rel="stylesheet" href="{{ static('css/timeline.css') }}" type="text/css">
+
+{% endblock %}
+
+{% block scripts %}
+<script>
+jQuery(document).ready(function($) {
+    $(".clickable-row").click(function() {
+        window.location = $(this).data("href");
+    });
+});
+</script>
+{% endblock %}
+
 {% block self %}
 Documents over Time
 {% endblock %}
 
+
 {% block content %}
-<table class="table">
-    <thead class="thead-dark">
-    <tr>
-        <th>Date</th>
-        <th>Title</th>
-    </tr>
-    </thead>
-    <tbody>
-    {% for document in documents %}
-    <tr>
-
-        <td><a href="/archives/doc/{{ document.slug }}">{{ document.date }}</a></td>
-    <td><a href="/archives/doc/{{ document.slug }}">{{ document.title }}</a></td>
-
-    </tr>
-
-    {% endfor %}
-    </tbody>
-</table>
-{% for document in documents %}
-    <a href="/archives/doc/{{ document.slug }}">
-    {{ document.date }} - {{ document.title }} </a> <br/>
+{% for year in documents_by_year %}
+    <h1>{{ year }}</h1>
+    <table class="table">
+        <thead>
+        <col width = "20%">
+        <col width = "80%">
+        <tr>
+            <th>Date</th>c
+            <th>Title</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for document in documents_by_year[year] %}
+            <tr class='clickable-row' data-href="{{ document.url }}">
+                <td>{{ document.date }}</td>
+                <td>{{ document.title }}</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
 {% endfor %}
-
 {% endblock %}
