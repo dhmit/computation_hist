@@ -21,7 +21,6 @@ export class Renderer {
             span.setAttribute("class", "general_memory number");
             span.setAttribute("id", "general_memory" + i.toString());
             span.setAttribute("data-toggle", "tooltip");
-            // span.setAttribute("selector", "true");
             para.appendChild(span);
             general_memory_display.appendChild(para);
         }
@@ -163,7 +162,6 @@ export class Renderer {
                 }
             }
         }
-    // $('[data-toggle="tooltip"]').tooltip("fixTitle");
     }
 
 
