@@ -17,8 +17,7 @@ from apps.archives.models import (
     Person,
     Box,
     Folder,
-    Document,
-    Page,
+    Document
 )
 from .common import get_file_path
 
@@ -152,7 +151,10 @@ def add_one_document(csv_line, aliases_to_full_name_dict, line_no=None, names={}
 
     # Folder 
     box_num = csv_line['box']
-    new_box, _unused_box_exist = Box.objects.get_or_create(number=box_num)
+    new_box, _unused_box_exist = Box.objects.get_or_create(
+        number=box_num,
+        slug=slugify(box_num)
+    )
 
     folder_name = csv_line['foldername_short']
 
@@ -162,7 +164,9 @@ def add_one_document(csv_line, aliases_to_full_name_dict, line_no=None, names={}
             'box': new_box,
             'number': csv_line['folder_number'],
             'full': csv_line['foldername_full'],
-        }
+        },
+        slug=slugify((box_num, csv_line['folder_number'], folder_name))
+
     )
 
     new_doc.folder = new_folder
@@ -271,7 +275,10 @@ def interpret_person_organization(field, item_organization, item_person, new_doc
 
     for person_or_organization in field_split:
         if len(person_or_organization.split(',')) == 1:
-            new_org, _unused_org_created = Organization.objects.get_or_create(name=field_split[0])
+            new_org, _unused_org_created = Organization.objects.get_or_create(
+                name=field_split[0],
+                slug=slugify(field_split[0])
+            )
             bound_attr = getattr(new_doc, item_organization)
             bound_attr.add(new_org)
         else:
@@ -298,6 +305,7 @@ def interpret_person_organization(field, item_organization, item_person, new_doc
                 new_person, _unused_person_created = Person.objects.get_or_create(
                     last=last_name,
                     first=first_name,
+                    slug=slugify((first_name, last_name))
                 )
 
                 bound_attr = getattr(new_doc, item_person)
