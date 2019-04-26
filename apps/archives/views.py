@@ -369,3 +369,9 @@ def story(request, slug):
     template = f'archives/stories/{slug}.jinja2'
     return render(request, template)
 
+
+def stories(request):
+    template = 'archives/stories.jinja2'
+    context = {'stories': STORIES}
+    return render(request, template, context)
+

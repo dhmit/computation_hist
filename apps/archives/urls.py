@@ -12,9 +12,9 @@ urlpatterns = [
     path('organization/<int:org_id>', views.organization, name='organization'),
     path('search_results/', views.search_results, name='search_results'),
     path('advanced_search/', views.advanced_search, name='advanced_search'),
-    # Todo: Slugify at a much later time?
     path('list/<str:model_str>', views.list_obj, name='list'),
     path('page/<int:page_id>', views.page, name='page'),
     path('browse/', views.browse, name='browse'),
-    path('story/<str:slug>', views.story, name='story')
+    path('story/<str:slug>', views.story, name='story'),
+    path('stories/', views.stories, name='stories')
 ]
