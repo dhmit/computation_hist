@@ -58,7 +58,7 @@ function create_force_layout(nodes, edges) {
 
     svg.call(
         d3.zoom()
-            .scaleExtent([.1, 4])
+            .scaleExtent([0.1, 4])
             .on("zoom", function() { container.attr("transform", d3.event.transform); })
     );
 
@@ -129,11 +129,11 @@ function create_force_layout(nodes, edges) {
     }
 
     function fixna(x) {
-        if (isFinite(x)) return x;
+        if (isFinite(x)) {return x;}
         return 0;
     }
 
-    function focus(d) {
+    function focus() {
         const index = d3.select(d3.event.target).datum().index;
         node.style("opacity", function(o) {
             return neigh(index, o.index) ? 1 : 0.1;
