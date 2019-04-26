@@ -15,5 +15,6 @@ urlpatterns = [
     # Todo: Slugify at a much later time?
     path('list/<str:model_str>', views.list_obj, name='list'),
     path('browse/', views.browse, name='browse'),
-    path('story/<str:slug>', views.story, name='story')
+    path('story/<str:slug>', views.story, name='story'),
+    path('stories/', views.stories, name='stories')
 ]
