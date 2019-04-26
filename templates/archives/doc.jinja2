@@ -19,7 +19,7 @@
                 <!--space for bottom hyperlinks to click to neighbouring documents -->
             </div>
         </div>
-        <div class="col-sm-2" style="background-color: #343a40; color: #eeeeee;">
+        <div class="col-sm-2 info_bar"  style="background-color: #343a40; color: #eeeeee;">
             <h3> About this Document: </h3>
             {% if author_person_objs or author_organization_objs %}
                 <h5>Written by:</h5>
@@ -65,7 +65,20 @@
                         {% endfor %}
                 {% endif %}
             {% endif %}
-
+            <h5> Type: </h5>
+                {{ doc_obj.type }}
+            <h5> Box No:</h5>
+                <a href="/archives/box/{{ doc_obj.folder.box }}" > {{ doc_obj.folder.box }}</a>
+            <h5> Folder: </h5>
+                <a href="/archives/folder/{{ doc_obj.folder.id }}"> {{ doc_obj.folder }} </a>
+            <br>
+            <div class="row">
+                    {% if doc_obj.doc_id != 1 %}
+                    <a href="doc_obj" class="btn btn-primary btn-block"
+                       role="button">Previous Doc</a>
+                    {% endif %}
+                    <button type="button" class="btn btn-primary btn-block">Next Document</button>
+            </div>
         </div>
     </div>
 

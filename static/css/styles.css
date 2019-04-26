@@ -12,6 +12,8 @@ body {
     padding-top: 5rem;
 }
 
+
+
 h1,h2,h3,h4,h5,h6,.navbar {
     font-family: 'Acre-Regular';
 }
@@ -76,7 +78,11 @@ h1,h2,h3,h4,h5,h6,.navbar-brand {
     color: #eeeeee;
 }
 
-
+div.info_bar h5{
+    margin-bottom: 0px;
+    margin-top: 10px;
+    'line-height: 10px;
+}
 @media (max-width: 1000PX) {
     .sidenav {
     position: relative;
