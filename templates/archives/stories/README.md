@@ -8,4 +8,4 @@ templates/archives/stories/STORY_SLUG-teaser.jinja2
 static/img/stories/STORY_SLUG-teaser.png
 ```
 
-... and add an entry to the list in ```apps.archives.views.index```.
+... and add an entry to the list ```STORIES``` in ```apps.archives.views```.

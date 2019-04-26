@@ -1,3 +1,4 @@
+import random
 import re
 
 from django.db.models import Q
@@ -9,22 +10,27 @@ from django.core.exceptions import ObjectDoesNotExist
 from utilities.common import get_file_path
 from .models import Person, Document, Box, Folder, Organization, Page
 
-def index(request):
-    # NOTE(ra): this hardcoded pattern isn't great, but we're since we're using
-    # jinja2 templates as a data source for the stories, it gets us to a usable
-    # prototype without having to, e.g., read the folder of story templates
-    # and load their names dynamically. We'll replace this with something
-    # more robust once the story system takes firmer shape.
-    stories = [
-        'debugging',
-        'qualifications_for_programmer',
-        'digital_humanities',
-        'sample_story',
-        'sample_story',
-        'mayowa_story'
-    ]
 
-    context = {'stories': stories}
+# NOTE(ra): this hardcoded pattern isn't great, but we're since we're using
+# jinja2 templates as a data source for the stories, it gets us to a usable
+# prototype without having to, e.g., read the folder of story templates
+# and load their names dynamically. We'll replace this with something
+# more robust once the story system takes firmer shape.
+
+STORIES = [
+    'announcement_of_the_IBM_704',
+    'debugging',
+    'mayowa_story',
+    'qualifications_for_programmer',
+    'time_records',
+    'digital_humanities',
+    'women_in_symbols',
+]
+
+
+def index(request):
+    story_selection = random.sample(STORIES, 3)
+    context = {'stories': story_selection}
     return render(request, 'index.jinja2', context)
 
 
@@ -67,7 +73,7 @@ def doc(request, doc_id=None, slug=None):
         # reach this branch, something has gone awry.
 
         # TODO(ra): implement this branch
-        # 1. add a url pattern that matches 
+        # 1. add a url pattern that matches
         # 2. then do something sensible here... (probably a redirect)
         raise RuntimeError('This branch should be unreachable!')
 
@@ -94,7 +100,7 @@ def doc(request, doc_id=None, slug=None):
         'author_person_objs': author_person_objs,
         'author_organization_objs': author_organization_objs,
         'recipient_person_objs': recipient_person_objs,
-        'recipient_orgaization_objs': recipient_organization_objs,
+        'recipient_organization_objs': recipient_organization_objs,
         'cced_person_objs': cced_person_objs,
         'cced_organization_objs': cced_organization_objs,
         'page_objs': page_objs,
@@ -206,13 +212,13 @@ def search_results(request):
     # key
 
     user_input = request.GET['q']
-
     people_objs = Person.objects.filter(Q(last__icontains=user_input) |
                                         Q(first__icontains=user_input))
     document_objs = Document.objects.filter(title__icontains=user_input)
     folder_objs = Folder.objects.filter(full__icontains=user_input)
     organization_objs = Organization.objects.filter(Q(name__icontains=user_input) |
                                                     Q(location__icontains=user_input))
+
 
     obj_dict = {
         'people_objs': people_objs,
@@ -291,7 +297,7 @@ def process_advanced_search(search_params):
     if title:
         docs_qs = docs_qs.filter(Q(title__icontains=title))
 
-    text = search_params.get('text') # full text search
+    text = search_params.get('text')  # full text search
     if text:
         words_q = Q()
 
@@ -358,9 +364,15 @@ def process_advanced_search(search_params):
 
 
 def story(request, slug):
-    template = f'archives/stories/{slug}.jinja2'
-    try:
-        return render(request, template)
-    except TemplateDoesNotExist:
+    if not slug in STORIES:
         raise Http404('A story with this slug does not exist.')
+
+    template = f'archives/stories/{slug}.jinja2'
+    return render(request, template)
+
+
+def stories(request):
+    template = 'archives/stories.jinja2'
+    context = {'stories': STORIES}
+    return render(request, template, context)
 
