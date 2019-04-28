@@ -20,6 +20,9 @@
         <button class="btn btn-secondary my-2 my-sm-0" type="submit" id="node_submit">
             Search
         </button>
+    {% if  len(links) == 0 %}
+        No Nodes Found
+    {% endif %}
     </form>
 
 {% endblock %}
