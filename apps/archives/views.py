@@ -384,7 +384,10 @@ def net_viz(request):
     nodes = graph_dict['nodes']
     links = graph_dict['links']
 
-    search_node = request.GET['node'].lower()
+    if 'node' in request.GET:
+        search_node = request.GET['node'].lower()
+    else:
+        search_node = None
 
     # if no search is specified, sort out top 100 nodes
     if not search_node:
@@ -397,16 +400,20 @@ def net_viz(request):
 
         graph_dict = {'nodes': nodes, 'links': links}
 
+    # Otherwise, find applicable nodes and edges
     else:
         # Remove links that don't include the relevant node
-        links = [i for i in links if search_node == i['source'].lower() or
-                 search_node == i['target'].lower()]
-        valid_nodes = None
+        links = [i for i in links if search_node in i['source'].lower() or
+                 search_node in i['target'].lower()]
+        valid_nodes = []
+        for link in links:
+            valid_nodes.append(link['source'])
+            valid_nodes.append(link['target'])
 
         # Removes nodes that aren't in the list of links
         nodes = [i for i in nodes if i['id'] in valid_nodes]
 
-        graph_dict = {'nodes': nodes, 'links': links}
+        graph_dict = {'nodes': nodes, 'links': links, 'old_query': search_node}
 
     return render(request, 'archives/net_viz.jinja2', graph_dict)
 
