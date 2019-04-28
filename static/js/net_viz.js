@@ -1,5 +1,6 @@
 "use strict";
 /* exported create_force_layout */
+/* exported name_legend */
 
 const width = 960;
 const height = 600;
@@ -79,6 +80,9 @@ function create_force_layout(nodes, edges) {
         .attr("fill", function(d) { return color(d.weight/max_weight); });
 
     node.on("mouseover", focus).on("mouseout", unfocus);
+    // node.on("click", function() {
+    //     window.location.assign("/archives/"+node.id)
+    // });
 
     node.call(
         d3.drag()
@@ -182,5 +186,39 @@ function create_force_layout(nodes, edges) {
         d.fx = null;
         d.fy = null;
     }
+}
+
+function name_legend(nodes){
+    //body reference
+    let body = document.getElementsByTagName("body")[0];
+
+    // create elements <table> and a <tbody>
+    let tbl = document.createElement("table");
+    let tblBody = document.createElement("tbody");
+
+    // cells creation
+    for (let j = 0; j < nodes.length; j++) {
+        // table row creation
+        let row = document.createElement("tr");
+
+        // create element <td> and text node
+        //Make text node the contents of <td> element
+        // put <td> at end of the table row
+        let cell = document.createElement("td");
+        let cellText = document.createTextNode(nodes[j].id);
+
+        cell.appendChild(cellText);
+        row.appendChild(cell);
+
+        //row added to end of table body
+        tblBody.appendChild(row);
+    }
+
+    // append the <tbody> inside the <table>
+    tbl.appendChild(tblBody);
+    // put <table> in the <body>
+    body.appendChild(tbl);
+    // tbl border attribute to
+    tbl.setAttribute("border", "2");
 }
 

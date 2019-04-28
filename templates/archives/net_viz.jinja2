@@ -10,6 +10,9 @@
 
     <svg id="viz"></svg>
 
+    <script>
+        name_legend({{ nodes|safe }});
+    </script>
 
     <script>
         create_force_layout({{ nodes|safe }}, {{ links|safe }});
@@ -21,7 +24,7 @@
             Search
         </button>
     {% if  len(links) == 0 %}
-        No Nodes Found
+        No Person "{{ old_query|safe }}" Found
     {% endif %}
     </form>
 
