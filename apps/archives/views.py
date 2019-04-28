@@ -380,19 +380,35 @@ def net_viz(request):
         graph = file.read()
 
     graph_dict = json.loads(graph)
-
     nodes = graph_dict['nodes']
     links = graph_dict['links']
 
-    # Sorts out everything but the top 100 nodes
-    nodes = sorted(nodes, key=lambda i: i['weight'], reverse=True)[:100]
-    node_list = [i['id'] for i in nodes]
+    search_node = request.GET['node'].lower()
 
-    # Removes all links that connect to nodes that no longer exist
-    links = [i for i in links if i['source'] in node_list and i['target'] in node_list]
+    # if no search is specified, sort out top 100 nodes
+    if not search_node:
+        # Sorts out everything but the top 100 nodes
+        nodes = sorted(nodes, key=lambda i: i['weight'], reverse=True)[:100]
+        node_list = [i['id'] for i in nodes]
 
-    graph_dict = {'nodes': nodes, 'links': links}
+        # Removes all links that connect to nodes that no longer exist
+        links = [i for i in links if i['source'] in node_list and i['target'] in node_list]
+
+        graph_dict = {'nodes': nodes, 'links': links}
+
+    else:
+        # Remove links that don't include the relevant node
+        links = [i for i in links if search_node == i['source'].lower() or
+                 search_node == i['target'].lower()]
+        valid_nodes = None
+
+        # Removes nodes that aren't in the list of links
+        nodes = [i for i in nodes if i['id'] in valid_nodes]
+
+        graph_dict = {'nodes': nodes, 'links': links}
+
     return render(request, 'archives/net_viz.jinja2', graph_dict)
+
 
     
 def stories(request):

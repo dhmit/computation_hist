@@ -9,14 +9,17 @@
 {% block content %}
 
     <svg id="viz"></svg>
-{#    <button class="searchbutton" type="submit">#}
-{#        <i class="fa fa-search"></i>#}
-{#    </button>#}
-{#    <input class="searchfield" id="searchbox" name="q" type="text" placeholder="Search">#}
-
 
 
     <script>
         create_force_layout({{ nodes|safe }}, {{ links|safe }});
     </script>
+
+    <form id="node_search_form">
+        <input class="searchfield" id="node" name="node" type="text" placeholder="Find a node...">
+        <button class="btn btn-secondary my-2 my-sm-0" type="submit" id="node_submit">
+            Search
+        </button>
+    </form>
+
 {% endblock %}
