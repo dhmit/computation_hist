@@ -32,6 +32,7 @@ const no_to_operation_b = {
     0o4120: "TMI",
     0o140: "TOV",
     0o4140: "TNO",
+    0o162: "TQP",
 };
 
 const no_to_operation_a = {
@@ -1675,7 +1676,7 @@ export class IBM_704 {
      * @param {number}  address     Address to jump to.
      */
     TPL(address) {
-        if (this.accumulator.contents[Accumulator.Sign] !== 1) {
+        if (this.accumulator.contents[Accumulator.Sign] === "0") {
             this.ilc.update(address, this.size);
         }
     }
@@ -1690,7 +1691,7 @@ export class IBM_704 {
      * @param {number}  address     Address to jump to.
      */
     TMI(address) {
-        if (this.accumulator.contents[Accumulator.Sign] === 1) {
+        if (this.accumulator.contents[Accumulator.Sign] === "1") {
             this.ilc.update(address, this.size);
         }
     }
@@ -1725,6 +1726,21 @@ export class IBM_704 {
             this.ilc.update(address, this.size);
         }
         this.ac_overflow = false;
+    }
+
+    /**
+     * Emulates the IBM 704 Transfer on MQ Plus (TQP) operation.
+     *
+     * If the sign bit of the MQ is positive, the calculator takes the next instruction from location Y and
+     * proceeds from there. If the sign bit of the MQ is negative, the calculator proceeds to the
+     * next instruction in sequence.
+     *
+     * @param {number}  address     Address to jump to.
+     */
+    TQP(address) {
+        if (this.mq_register.contents[0] === "0") {
+            this.ilc.update(address, this.size);
+        }
     }
 
     /**
