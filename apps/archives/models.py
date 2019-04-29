@@ -31,7 +31,7 @@ class Person(models.Model):
 
     def __str__(self):
         if self.last and self.first:
-            return self.last + ' ' + str(self.first)[0]
+            return self.last + ', ' + self.first
         elif self.last:
             return self.last
         elif self.first:

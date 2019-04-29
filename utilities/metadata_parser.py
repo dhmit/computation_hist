@@ -22,6 +22,9 @@ from apps.archives.models import (
 )
 from .common import get_file_path
 
+from .name_parser import PeopleDatabase
+
+
 
 def populate_from_metadata(metadata_filename=None):
     '''
@@ -40,6 +43,12 @@ def populate_from_metadata(metadata_filename=None):
 
     if metadata_filename is None:
         metadata_filename = METADATA_CSV
+
+    # the aliases_to_full_name_dict maps from raw (csv) names to authoritative full names, e.g.
+    # e.g. 'Corbatò, F. J.' -> 'Corbató, Fernando J.'
+    people_db = PeopleDatabase()
+    people_db.extract_names_from_metadata_sheet()
+    aliases_to_full_name_dict = people_db.get_aliases_to_full_name_dict()
 
     with open(metadata_filename) as file:
         csv_file = csv.DictReader(file)
@@ -65,7 +74,7 @@ def populate_from_metadata(metadata_filename=None):
                 continue
 
             try:
-                add_one_document(line, line_id+1, names)
+                add_one_document(line, aliases_to_full_name_dict, line_id+1, names)
                 count_added += 1
             except ValidationError as e:
                 count_invalid += 1
@@ -91,7 +100,7 @@ def populate_from_metadata(metadata_filename=None):
                 print("\t" + first_name)
             print("")
 
-def add_one_document(csv_line, line_no=None, names={}):
+def add_one_document(csv_line, aliases_to_full_name_dict, line_no=None, names={}):
     """
     Processes one line from a metadata csv file and add it to the database.
     Note: This function does not check if the metadata is complete. It is only supposed to be
@@ -170,22 +179,25 @@ def add_one_document(csv_line, line_no=None, names={}):
                                       "author_organization",
                                       "author_person",
                                       new_doc,
+                                      aliases_to_full_name_dict,
                                       line_no,
-                                      names
+                                      names,
                                       )
         interpret_person_organization(csv_line['recipients'],
                                       "recipient_organization",
                                       "recipient_person",
                                       new_doc,
+                                      aliases_to_full_name_dict,
                                       line_no,
-                                      names
+                                      names,
                                       )
         interpret_person_organization(csv_line['cced'],
                                       "cced_organization",
                                       "cced_person",
                                       new_doc,
+                                      aliases_to_full_name_dict,
                                       line_no,
-                                      names
+                                      names,
                                       )
         new_doc.save()
     except IntegrityError:
@@ -251,7 +263,9 @@ def page_image_to_doc(folder_name, pdf_path, image_directory):
             pass
 
 
-def interpret_person_organization(field, item_organization, item_person, new_doc, line_no=None, names_so_far={}):
+def interpret_person_organization(field, item_organization, item_person, new_doc,
+                                  aliases_to_full_name_dict, line_no=None, names_so_far={}):
+
     # Adds people and organizations as an author, recipient, or CC'ed.
     field_split = [person_or_organization.strip() for person_or_organization in field.split(';')]
 
@@ -262,43 +276,78 @@ def interpret_person_organization(field, item_organization, item_person, new_doc
             bound_attr.add(new_org)
         else:
             split_name = person_or_organization.split(',')
-
             # check for commas
             if len(split_name) > 2:
-                print("There seem to be too many commas in this name", split_name, "in line", line_no)
+                print("There seem to be too many commas in this name", split_name, "in line",
+                      line_no)
+            else:
+                last_name, first_name = aliases_to_full_name_dict[person_or_organization].split(',')
+                if last_name == 'unknown':
+                    last_name = ''
+                if first_name == 'unknown':
+                    first_name = ''
 
-            # get last name
-            last_name = split_name[0].strip()
-            if len(last_name) == 1:
-                print("Missing period after last initial", last_name, "in line", line_no)
-                last_name += "."
-            if last_name == 'unknown':
-                last_name = ''
+                #            # add first name, last name pair to names
+                if last_name != '':
+#                    unfixed_first_name = split_name[1].strip()
+                    if last_name not in names_so_far:
+                        names_so_far[last_name] = {first_name}
+                    else:
+                        names_so_far[last_name].add(first_name)
 
-            # add first name, last name pair to names
-            if last_name != '':
-                unfixed_first_name = split_name[1].strip()
-                if last_name not in names_so_far:
-                    names_so_far[last_name] = {unfixed_first_name}
-                else:
-                    names_so_far[last_name].add(unfixed_first_name)
+                new_person, _unused_person_created = Person.objects.get_or_create(
+                    last=last_name,
+                    first=first_name,
+                )
 
-            # get first names
-            first_name = ''
-            if split_name[1].strip().lower() != 'unknown':
-                first_and_middle_names = split_name[1].strip()
-                first_and_middle_names_list = ".".join(first_and_middle_names.split(' ')).split(".")
-                for name in first_and_middle_names_list:
-                    if name != "":
-                        if len(name) == 1:
-                            name += "."
-                        first_name += name + " "
-                first_name = first_name.strip()
+                bound_attr = getattr(new_doc, item_person)
+                bound_attr.add(new_person)
 
-            new_person, _unused_person_created = Person.objects.get_or_create(
-                last=last_name,
-                first=first_name,
-            )
 
-            bound_attr = getattr(new_doc, item_person)
-            bound_attr.add(new_person)
+def network_json(output_path=None):
+    """
+    Writes a JSON file to /static/json (or otherwise specified location) listing the nodes,
+    edges, and weights of each person in the network
+    :param output_path:
+    :return:
+    """
+
+    from collections import Counter
+    from pathlib import Path, PurePath
+    import json
+
+    if output_path is None:
+        output_path = Path('static', 'json', 'network.json')
+
+    docs = Document.objects.prefetch_related('author_person', 'recipient_person')
+    node_count = Counter()
+    edge_count = Counter()
+
+    # Count instances of each author/recipient
+    for document in docs:
+        authors = document.author_person.all()
+        recipients = document.recipient_person.all()
+        for author in authors:
+            node_count[str(author)] += 1
+            for recipient in recipients:
+                node_count[str(recipient)] += 1
+                edge_count[(str(author), str(recipient))] += 1
+
+    edge_list = list()
+    for letter in edge_count:
+        edge_list.append({
+            'source': letter[0],
+            'target': letter[1],
+            'value': edge_count[letter]
+        })
+
+    node_list = list()
+    for author in node_count:
+        node_list.append({
+            'id': author,
+            'weight': node_count[author]
+        })
+
+    graph_dict = {'nodes': node_list, 'links': edge_list}
+
+    output_path.write_text(json.dumps(graph_dict))
