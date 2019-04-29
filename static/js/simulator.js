@@ -1006,6 +1006,21 @@ class Index_Register extends Word {
     constructor(contents) {
         super(contents, 13);
     }
+
+
+    /**
+     * Update value of index register.
+     *
+     * @param {number}  value           New value of index register.
+     * @param {number}  computer_size   Size of computer.
+     */
+    update(value, computer_size) {
+        if (value < 0) {
+            this.update_contents((value % computer_size) + computer_size);
+        } else {
+            this.update_contents(value);
+        }
+    }
 }
 
 /**
@@ -1363,7 +1378,7 @@ export class IBM_704 {
     LXA(address, tag) {
         let index_register = this.get_tag(tag);
         let address_to_store = this.storage_register.address;
-        index_register.update_contents(address_to_store);
+        index_register.update(address_to_store, this.size);
     }
 
     /**
@@ -1662,7 +1677,7 @@ export class IBM_704 {
         if (index_register.valueOf() <= decrement) {
             this.ilc.update(address, this.size);
         } else {
-            index_register.update_contents(index_register.valueOf() - decrement);
+            index_register.update(index_register.valueOf() - decrement, this.size);
         }
     }
 
@@ -1680,7 +1695,7 @@ export class IBM_704 {
     TIX(address, tag, decrement) {
         let index_register = this.get_tag(tag);
         if (index_register.valueOf() > decrement) {
-            index_register.update_contents(index_register.valueOf() - decrement);
+            index_register.update(index_register.valueOf() - decrement, this.size);
             this.ilc.update(address, this.size);
         }
     }
