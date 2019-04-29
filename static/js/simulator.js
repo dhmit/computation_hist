@@ -30,6 +30,8 @@ const no_to_operation_b = {
     0o4100: "TNZ",
     0o120: "TPL",
     0o4120: "TMI",
+    0o140: "TOV",
+    0o4140: "TNO",
 };
 
 const no_to_operation_a = {
@@ -1691,6 +1693,38 @@ export class IBM_704 {
         if (this.accumulator.contents[Accumulator.Sign] === 1) {
             this.ilc.update(address, this.size);
         }
+    }
+
+    /**
+     * Emulates the IBM 704 Transfer on Overflow (TOV) operation.
+     *
+     * If the AC overflow indicator and light are on as the result of a previous operation, the indicator and light
+     * are turned off and the calculator takes the next instruction from location Y and proceeds from there.
+     * If the indicator and light are off, the calculator proceeds to the next instruction in sequence.
+     *
+     * @param {number}  address     Address to jump to.
+     */
+    TOV(address) {
+        if (this.ac_overflow) {
+            this.ilc.update(address, this.size);
+        }
+        this.ac_overflow = false;
+    }
+
+    /**
+     * Emulates the IBM 704 Transfer on No Overflow (TOV) operation.
+     *
+     * If the AC overflow indicator and light are off, the calculator takes the next instruction from location Y and
+     * proceeds from there. If the indicator and light are on, the calculator proceeds to the next instruction in
+     * sequence after turning off the indicator and light.
+     *
+     * @param {number}  address     Address to jump to.
+     */
+    TNO(address) {
+        if (!this.ac_overflow) {
+            this.ilc.update(address, this.size);
+        }
+        this.ac_overflow = false;
     }
 
     /**
