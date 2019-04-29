@@ -971,20 +971,26 @@ class Instruction_Location_Register extends Word {
     }
 
     /**
-     * Increases the instruction location register by value.  Note that the ILC can overflow and
-     * go back to zero.
+     * Update Instruction Location Register value.
      *
-     * @param {number} value    The amount that the instruction location register increases by.
+     * @param {number} value            New location.
+     * @param {number} computer_size    Size of computer.
      */
-    skip(value) {
-        this.update_contents(this.valueOf() + value);
+    update(value, computer_size) {
+        if (value < 0) {
+            this.update_contents((value % computer_size) + computer_size);
+        } else {
+            this.update_contents(value % computer_size);
+        }
     }
 
     /**
      * Increment the instruction location register by 1.
+     *
+     * @param {number} computer_size    Size of computer.
      */
-    increment() {
-        this.skip(1);
+    increment(computer_size) {
+        this.update(this.valueOf() + 1, computer_size);
     }
 }
 
@@ -1026,7 +1032,7 @@ export class IBM_704 {
         }
         let instruction_word = this.general_memory[this.ilc.valueOf()];
         this.instruction_register.store_instruction(instruction_word);
-        this.ilc.increment();
+        this.ilc.increment(this.size);
         let effective_address = instruction_word.address;
         let instruction = instruction_word.instruction;
         if (instruction.indexable()) {
@@ -1282,7 +1288,7 @@ export class IBM_704 {
      */
     HTR(address) {
         this.halt = true;
-        this.ilc.update_contents(address);
+        this.ilc.update(address, this.size);
     }
 
     /**
@@ -1611,7 +1617,7 @@ export class IBM_704 {
      * @param {number}  address     Address to jump to.
      */
     TRA(address) {
-        this.ilc.update_contents(address);
+        this.ilc.update(address, this.size);
     }
 
     /**
@@ -1623,7 +1629,7 @@ export class IBM_704 {
      */
     TZE(address) {
         if (this.accumulator.fixed_point === 0) {
-            this.ilc.update_contents(address);
+            this.ilc.update(address, this.size);
         }
     }
 
@@ -1636,7 +1642,7 @@ export class IBM_704 {
      */
     TNZ(address) {
         if (this.accumulator.fixed_point !== 0) {
-            this.ilc.update_contents(address);
+            this.ilc.update(address, this.size);
         }
     }
 
@@ -1654,7 +1660,7 @@ export class IBM_704 {
     TNX(address, tag, decrement) {
         let index_register = this.get_tag(tag);
         if (index_register.valueOf() <= decrement) {
-            this.ilc.update_contents(address);
+            this.ilc.update(address, this.size);
         } else {
             index_register.update_contents(index_register.valueOf() - decrement);
         }
@@ -1675,7 +1681,7 @@ export class IBM_704 {
         let index_register = this.get_tag(tag);
         if (index_register.valueOf() > decrement) {
             index_register.update_contents(index_register.valueOf() - decrement);
-            this.ilc.update_contents(address);
+            this.ilc.update(address, this.size);
         }
     }
 }
