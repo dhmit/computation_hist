@@ -268,14 +268,14 @@ def process_advanced_search(search_params):
     """
 
     docs_qs = Document.objects  # 'qs' for queryset
-    people_qs = Person.objects 
+    people_qs = Person.objects.none()
 
     keywords = search_params.get('keyword')
     if keywords:
-        keywordlst = keywords.split(" ")
+        keywordlist = keywords.split(" ")
 
         person_q = Q()
-        for word in keywordlst:
+        for word in keywordlist:
             person_q |= Q(first__iexact=word)
             person_q |= Q(last__iexact=word)
         people_qs = Person.objects.filter(person_q)
@@ -360,6 +360,7 @@ def process_advanced_search(search_params):
     # prevents template from hitting the db
     docs_qs = docs_qs.prefetch_related('author_person', 'author_organization', 'folder',
                                        'recipient_person', 'recipient_organization')
+
 
     return docs_qs, people_qs
 

@@ -54,7 +54,7 @@ input[type="number"]{
 
 /* Search Results */
 
-.doc_result{
+.doc_result, .person_result{
     background-color: #eee;
     overflow: hidden;
     margin: 1em 0 2em;
@@ -73,4 +73,11 @@ input[type="number"]{
 .doc_result_left_table{
     float:left;
     width: 30%;
+}
+.results_container{
+    padding-top: 30px;
+}
+.results_col{
+    padding-left: 0px;
+    margin-bottom:-35px;
 }

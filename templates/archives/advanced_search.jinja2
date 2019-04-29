@@ -99,9 +99,10 @@
     {% endif %}
 
     {% if people %}
-        <h3>People that match your search</h3>
-            <div class="row" id="results_container">
-                <div class="col-lg-9 col-md-9 col-sm-12">
+        <div class="row results_container">
+
+            <h3>People that match your search</h3>
+                <div class="col-lg-9 col-md-9 col-sm-12 results_col">
                 {% for person in people %}
                     <div class="person_result">
                         <h4><a href="{{ person.url }}">{{ person.fullname }}</a></h4>
@@ -110,12 +111,10 @@
                 </div>
             </div>
     {% endif %}
-
-
     {% if docs %}
-        <h3>Documents that match your search</h3>
-            <div class="row" id="results_container">
-                <div class="col-lg-9 col-md-9 col-sm-12">
+        <div class="row results_container">
+            <h3>Documents that match your search</h3>
+                <div class="col-lg-9 col-md-9 col-sm-12 results_col">
 
                 {% for doc in docs %}
 
