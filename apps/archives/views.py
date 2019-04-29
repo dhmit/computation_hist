@@ -344,6 +344,30 @@ def story(request, slug):
     return render(request, template)
 
 
+def net_viz(request):
+    import json
+    from pathlib import Path
+
+    network = Path('static', 'json', 'network.json')
+    with open(network, 'r') as file:
+        graph = file.read()
+
+    graph_dict = json.loads(graph)
+
+    nodes = graph_dict['nodes']
+    links = graph_dict['links']
+
+    # Sorts out everything but the top 100 nodes
+    nodes = sorted(nodes, key=lambda i: i['weight'], reverse=True)[:100]
+    node_list = [i['id'] for i in nodes]
+
+    # Removes all links that connect to nodes that no longer exist
+    links = [i for i in links if i['source'] in node_list and i['target'] in node_list]
+
+    graph_dict = {'nodes': nodes, 'links': links}
+    return render(request, 'archives/net_viz.jinja2', graph_dict)
+
+    
 def stories(request):
     template = 'archives/stories.jinja2'
     context = {'stories': STORIES}

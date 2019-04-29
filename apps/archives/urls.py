@@ -16,5 +16,6 @@ urlpatterns = [
     path('list/<str:model_str>', views.list_obj, name='list'),
     path('browse/', views.browse, name='browse'),
     path('story/<str:slug>', views.story, name='story'),
+    path('net_viz', views.net_viz, name='net_viz'),
     path('stories/', views.stories, name='stories')
 ]
