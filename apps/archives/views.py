@@ -205,7 +205,7 @@ def browse(request):
     return render(request, 'archives/browse.jinja2')
 
 
-def advanced_search(request):
+def search(request):
     """
     Searches database based on specific search queries and parameters given by user.
     :param request:
@@ -222,21 +222,21 @@ def advanced_search(request):
     # if no search_params, that means we're just loading the search page
     search_params = request.GET
     if not search_params:
-        return render(request, 'archives/advanced_search.jinja2', {'doc_types': doc_types})
+        return render(request, 'archives/search.jinja2', {'doc_types': doc_types})
 
-    docs_result, people_result = process_advanced_search(search_params)
+    docs_result, people_result = process_search(search_params)
     search_objs = {
         'docs': docs_result,
         'people': people_result,
         'search_params': search_params,
         'doc_types': doc_types
     }
-    return render(request, 'archives/advanced_search.jinja2', search_objs)
+    return render(request, 'archives/search.jinja2', search_objs)
 
 
-def process_advanced_search(search_params):
+def process_search(search_params):
     """
-    Processes one advanced search request and returns the search_results as a queryset
+    Processes one search request and returns the search_results as a queryset
 
     :param search_params:
     :return:
