@@ -10,8 +10,7 @@ export const assembly_addition_demo_params = {
     initial_memory_values: [[4, 12], [5, 30]],
     instructions: [
         new Assembly_Line(
-            "CLA 4", "<b>CLA 4: </b> Clears the accumulator and stores the value at address 4 (which" +
-            " you'll see if you mouseover is 12) into accumulator."
+            "CLA 4", "<b>CLA 4: </b> Clears the accumulator and stores the value at address 4 (12) into accumulator."
         ),
         new Assembly_Line(
             "ADD 5", "<b>ADD 5: </b> Adds the value at address 5 (30) to the accumulator."
