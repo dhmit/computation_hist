@@ -23,11 +23,6 @@ class ArchivesTestCase(SeleniumTestCase):
         self.driver.get(self.live_server_url + '/archives/advanced_search/')
         self.check_log_for_errors()
 
-    def test_simulations(self):
-        """ Test that the standard search renders correctly with no input """
-        self.driver.get(self.live_server_url + '/simulations/')
-        self.check_log_for_errors()
-
     def test_search(self):
         """ Test that the search bar works correctly"""
         self.driver.get(self.live_server_url)
@@ -45,3 +40,13 @@ class ArchivesTestCase(SeleniumTestCase):
         self.driver.get(self.live_server_url + '/archives/search_results/?q=test')
         self.driver.find_element_by_link_text('advanced search').click()
         self.check_log_for_errors()
+
+    def test_a_story(self):
+        """ Test that a story on the index page can be loaded without issue"""
+        self.driver.get(self.live_server_url)
+        self.assertIn('Home Page', self.driver.title)
+        story = self.driver.find_elements_by_class_name("row story-teaser-img-container")[0]
+        story.find_element_by_xpath('..').click()
+        self.check_log_for_errors()
+
+
