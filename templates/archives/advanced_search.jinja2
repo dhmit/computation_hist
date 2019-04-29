@@ -1,6 +1,6 @@
 {% extends "base.jinja2" %}
 
-{% block title %}Advanced Search{% endblock %}
+{% block title %}Search{% endblock %}
 {% block extraheader %}
     <link rel="stylesheet" href="{{ static('css/search.css') }}"/>
 {% endblock %}
@@ -34,9 +34,20 @@
                 'max_year': 1970,
                 'doc_types': []
             } %}
+        {%  elif len(search_params.keys())==1 %} {# nothing in the search field #}
+            {% set search_params = {
+                'keyword': '',
+                'title': '',
+                'text': '',
+                'author': '',
+                'recipient': '',
+                'min_year': 1945,
+                'max_year': 1970,
+                'doc_types': []
+            } %}
         {% endif %}
 
-        <form id="adv_search" method="get" action="/archives/advanced_search">
+        <form id="adv_search" method="get" action="/archives/search">
 
             <h2>Advanced Search</h2>
 

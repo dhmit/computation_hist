@@ -51,17 +51,22 @@
                     </div>
                 </li>
                 <li class="nav-item active">
+                    <a class="nav-link" href="{% url 'stories' %}">Stories</a>
+                </li>
+
+                <li class="nav-item active">
                     <a class="nav-link" href="/simulations">Simulations</a>
                 </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="/archives/advanced_search">Advanced Search</a>
-                </li>
             </ul>
-            <form class="form-inline my-2 my-lg-0" action="/archives/advanced_search">
+            <form class="form-inline my-2 my-lg-0" action="/archives/search"
+                  id="basic_search_form">
                 <input class="form-control mr-sm-2" type="text"
+                       id="basic_search"
                        placeholder="Search"
                        aria-label="Search" name="keyword">
-                <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+                <button class="btn btn-secondary my-2 my-sm-0"
+                        id="basic_search_submit_button"
+                        type="submit">Search</button>
             </form>
         </div>
     </nav>
