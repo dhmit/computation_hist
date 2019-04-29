@@ -33,6 +33,7 @@ const no_to_operation_b = {
     0o140: "TOV",
     0o4140: "TNO",
     0o162: "TQP",
+    0o074: "TSX",
 };
 
 const no_to_operation_a = {
@@ -1067,6 +1068,10 @@ export class IBM_704 {
                 effective_address -= this.index_a.valueOf();
             }
         }
+        effective_address %= this.size;
+        if (effective_address < 0) {
+            effective_address += this.size;
+        }
         this.storage_register.update_contents(this.general_memory[effective_address]);
         if (instruction_word.is_typeB()) {
             instruction = instruction_word.instruction_b;
@@ -1741,6 +1746,23 @@ export class IBM_704 {
         if (this.mq_register.contents[0] === "0") {
             this.ilc.update(address, this.size);
         }
+    }
+
+    /**
+     * Emulates the IBM 704 Transfer and Set Index (TSX) operation.
+     *
+     * Not indexable. This instruction places the 2’s complement of the location of this instruction
+     * in the specified index register. The calculator takes the next instruction from location Y
+     * and proceeds from there.
+     *
+     * @param {number}  address     Address to jump to.
+     * @param {number}  tag         Specifies index register to store value into.
+     */
+    TSX(address, tag) {
+        const index_register = this.get_tag(tag);
+        index_register.update(-(this.ilc.valueOf()-1), this.size); // we subtract one from the ILC because actually
+        // already incremented it in step() before calling the operation
+        this.ilc.update(address, this.size);
     }
 
     /**
