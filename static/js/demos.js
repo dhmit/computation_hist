@@ -5,7 +5,7 @@ import { DemoRenderer } from './render.js';
 
 export const assembly_addition_demo_params = {
     computer_size: 7,
-    num_code_lines: 4,
+    num_code_lines: 3,
     highlighted_registers: [6],
     initial_memory_values: [[4, 12], [5, 30]],
     instructions: [
@@ -18,9 +18,6 @@ export const assembly_addition_demo_params = {
         ),
         new Assembly_Line(
             "STO 6", "<b>STO 6: </b> Stores the value of the accumulator into the register at address 6."
-        ),
-        new Assembly_Line(
-            "HTR", "<b>HTR: </b> Tells the computer to stop."
         ),
     ],
 };
