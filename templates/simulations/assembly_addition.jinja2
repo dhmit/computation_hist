@@ -5,10 +5,42 @@
 {% block header %}IBM 704 Assembly Addition{% endblock %}
 
 {% block description %}
-    Here's what's happening here:<br />
-    <b>CLA 4: </b> Clears the accumulator and stores the value at address 4 (which you'll see if you mouseover is 12) into the accumulator.<br />
-    <b>ADD 5: </b> Adds the value at address 5 (30) to the accumulator.<br />
-    <b>STO 6: </b> Stores the value of the accumulator into the register at address 6.<br />
-    <b>HTR: </b> Tells the computer to stop.<br />
-    If you run this, you'll see that register 6 has a fixed point value of 42.  The answer to life, the universe, and everything.  Everything as it should be.<br />
+    Welcome to the IBM 704 simulator!  Here we have a simple example to introduce you how it works.<br/>
+    <br/>
+    In the middle column we have the general memory of our computer.  This is where all the data comprising our program
+    lives.  The general memory is broken into 8192 <b>words</b>, or <b>registers</b>, of 36 bits each (although here we
+    only show 6 words).  On the right we have some special registers that hold data while the program is executed.
+    Now, reading binary is rather difficult, so we’ve allowed you to see the possible interpretations of a word by
+    mousing over it. Note that the computer doesn’t know how to interpret words automatically-- it is up to the
+    programmer to tell the computer how to interpret each word.  If you mess up, you can end up using your program as
+    data, or trying to execute numbers as instructions!<br/>
+    <br/>
+    In the left column we have the code that comprises our program.  For this simulator, the code is written in
+    <b>assembly language</b>.  Assembly language is coding language that is very “low-level”, in programming terms: this means
+    that it more closely resembles machine code.  For example, in the IBM 704 assembly language, each line of code,
+    called an <b>instruction</b>, corresponds to a single word in memory, a simple 1-to-1 correspondence you wouldn't
+    see in a higher level programming language like C.  You can see that one of the instructions and one of the words
+    in general memory are highlighted in blue; these are the same instruction, which you can verify by mousing over the
+    word.<br/>
+    <br/>
+    Now to analyze the code section on the left. Each instruction is denoted by a three-letter code followed by a number
+    that corresponds to the register number in the General Memory that you want to perform that operation on.  For those
+    coming from a coding background in modern languages, this should be emphasized: there are no variables that hold
+    values.  Instead, everything is referred to by address.  For example, <code>CLA</code>(Clear and Add)
+    <code>4</code> , clears the <b>accumulator</b> on the right and places the value found at register number 4 into
+    it.  You should see register 0 highlighted in blue and register 4 highlighted in pink.  If you mouse over
+    register 4, you should see it contains 12 as a fixed point value.  If you press the step button, you will execute
+    the instruction highlighted in blue.  You should see the accumulator on the right change value to 12 as well.
+    You’ll also see the Instruction Location Counter increase by 1 as you move to the next instruction.<br/>
+    <br/>
+    Now another strange thing: you cannot simply add two numbers from two registers together (something that even modern
+    assembly languages allow).  Instead you must use the special accumulator register to do addition.  The next
+    operation, <code>ADD 5</code>, adds the value at register number 5, which is 30, to the value of the accumulator.
+    Press the step button again to see the accumulator change again.  Finally, STO 6, which is short for Store 6,
+    stores the number in the accumulator into register number 6.  Mouse over register 6 and you’ll see that it is
+    <code>12 + 30 = 42</code>, the <a href="https://en.wikipedia.org/wiki/42_(number)#The_Hitchhiker's_Guide_to_the_Galaxy">
+    Answer to Life, the Universe, and Everything</a>.  All that just to do some simple addition!<br/>
+    <br/>
+    Want to see the whole program run at once?  Press the reset button to reset the demo and click run!
+
 {% endblock %}
