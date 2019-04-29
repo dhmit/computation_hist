@@ -28,6 +28,8 @@ const no_to_operation_b = {
     0o020: "TRA",
     0o100: "TZE",
     0o4100: "TNZ",
+    0o120: "TPL",
+    0o4120: "TMI",
 };
 
 const no_to_operation_a = {
@@ -1657,6 +1659,36 @@ export class IBM_704 {
      */
     TNZ(address) {
         if (this.accumulator.fixed_point !== 0) {
+            this.ilc.update(address, this.size);
+        }
+    }
+
+    /**
+     * Emulates the IBM 704 Transfer on Plus (TPL) operation.
+     *
+     * If the sign bit of the AC is positive, the calculator takes the next instruction from location Y and
+     * proceeds from there. If the sign bit of the AC is negative, the calculator proceeds to the
+     * next instruction in sequence.
+     *
+     * @param {number}  address     Address to jump to.
+     */
+    TPL(address) {
+        if (this.accumulator.contents[Accumulator.Sign] !== 1) {
+            this.ilc.update(address, this.size);
+        }
+    }
+
+    /**
+     * Emulates the IBM 704 Transfer on Minus (TMI) operation.
+     *
+     * If the sign bit of the AC is negative, the calculator takes the next instruction from location Y and
+     * proceeds from there. If the sign bit of the AC is positive, the calculator proceeds to the
+     * next instruction in sequence.
+     *
+     * @param {number}  address     Address to jump to.
+     */
+    TMI(address) {
+        if (this.accumulator.contents[Accumulator.Sign] === 1) {
             this.ilc.update(address, this.size);
         }
     }
