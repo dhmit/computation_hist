@@ -24,7 +24,6 @@ from .common import get_file_path
 from .name_parser import PeopleDatabase
 
 
-
 def populate_from_metadata(metadata_filename=None):
     '''
     :param metadata_filename: is a path to a csv file (relative or actual)
@@ -98,6 +97,7 @@ def populate_from_metadata(metadata_filename=None):
             for first_name in first_names:
                 print("\t" + first_name)
             print("")
+
 
 def add_one_document(csv_line, aliases_to_full_name_dict, line_no=None, names={}):
     """
@@ -206,65 +206,6 @@ def add_one_document(csv_line, aliases_to_full_name_dict, line_no=None, names={}
         new_doc.save()
     except IntegrityError:
         pass
-
-
-def pdf_to_image_split(pdf_path, image_directory, folder_name):
-    """
-    Splits a each page of a pdf into an image.
-    pdf_path is the location of pdf (C:\Documents\rockefeller.pdf)
-    image_directory is the location of image folder (C:\Documents\png_pages\)
-    folder_name is the names of the object of the folder(rockefeller)
-    """
-    pages = convert_from_path(pdf_path)
-    images_in_pdf = []
-
-    for page in range(len(pages)):
-        page_path = image_directory + folder_name + '_' + str(page + 1) + '.png'
-        pages[page].save(page_path, 'PNG')
-        images_in_pdf.append((page_path, page +1))
-
-    return images_in_pdf
-
-
-def page_image_to_doc(folder_name, pdf_path, image_directory):
-    """
-    Utilizes pdf_to_image_split in order to create images of Pages from a pdf, create Page
-    objects, and assign those page objects to Document.
-    Splits a each page of a pdf into an image.
-    pdf_path is the location of pdf (C:\Documents\rockefeller.pdf)
-    image_directory is the location of image folder (C:\Documents\png_pages\)
-    folder_name is the names of the object of the folder(rockefeller)
-    Example: page_image_to_doc('rockefeller', 'C:\Documents\1_08_raw_rockefeller.pdf',
-    'C:\Documents\png_pages\') returns images of Pages in png_pages directory and Page objects
-    of each page.
-    """
-    images_in_pdf = pdf_to_image_split(pdf_path, image_directory, folder_name)
-    folder = Folder.objects.get(name=folder_name)
-    documents_unsort = folder.document_set.all()
-    documents_sort = sorted(documents_unsort, key=lambda x: x.first_page)
-    document_place = 0
-    page_num = 1
-
-    for page in images_in_pdf:
-        if documents_sort[document_place].first_page <= page[1] <= documents_sort[ \
-                document_place].last_page:
-            # this means that this is the same document as last page
-            page_obj = Page(document=documents_sort[document_place], page_number=page_num)
-            page_obj.image_path.name = folder_name + '_' + str(page[1]) + '.png'
-            page_obj.save()
-            page_num += 1
-        elif documents_sort[document_place +1].first_page <= page[1] <= documents_sort[ \
-                document_place +1].last_page:
-            # this means this is a new document
-            document_place += 1
-            page_num = 1
-            page_obj = Page(document=documents_sort[document_place], page_number=page_num)
-            page_obj.image_path.name = folder_name + '_' + str(page[1]) + '.png'
-            page_obj.save()
-            page_num += 1
-        else:
-            # This means that the page isn't associated with a document
-            pass
 
 
 def interpret_person_organization(field, item_organization, item_person, new_doc,
