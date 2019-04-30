@@ -97,12 +97,12 @@ function convert_to_binary(number, digits) {
  * @returns {number}
  */
 function eval_math(expression) {
-    if (expression.search(/[^\d+\- .]+/g) !== -1) {
+    if (expression.search(/[^\d+\- .]+/g) !== -1) { // return NaN if letters or other weird symbols in expression
         return NaN;
     }
     let result = 0;
     const s = expression.match(/[+\-]*(\.\d+|\d+(\.\d+)?)/g) || [];
-    while(s.length){
+    while (s.length){
         result += Number(s.shift());
     }
     return result;
@@ -1270,7 +1270,7 @@ export class IBM_704 {
         // console.log(labels);
 
         const label_names = Object.keys(labels).slice(0);
-        label_names.sort( (a, b) => { return b.length - a.length } ); // sort from longest to shortest to ensure
+        label_names.sort( (a, b) => { return b.length - a.length; } ); // sort from longest to shortest to ensure
         // replacing doesn't conflict
 
         // replace labels with actual numbers
