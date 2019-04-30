@@ -90,6 +90,25 @@ function convert_to_binary(number, digits) {
 }
 
 /**
+ * Evaluates math expressions which only contain + and -. Based off of solution from
+ * https://stackoverflow.com/questions/2276021/evaluating-a-string-as-a-mathematical-expression-in-javascript.
+ *
+ * @param {string}  expression      Expression to be evaluated.
+ * @returns {number}
+ */
+function eval_math(expression) {
+    if (expression.search(/[^\d+\- .]+/g) !== -1) {
+        return NaN;
+    }
+    let result = 0;
+    const s = expression.match(/[+\-]*(\.\d+|\d+(\.\d+)?)/g) || [];
+    while(s.length){
+        result += Number(s.shift());
+    }
+    return result;
+}
+
+/**
  * A class representing a fixed-width word in the IBM 704.
  */
 export class Word {
@@ -1229,7 +1248,7 @@ export class IBM_704 {
             const operation = line[1];
             // jump to ORG location
             if (operation === "ORG") {
-                if (isNaN(register)) {
+                if (register % 1 !== 0 || isNaN(register)) {
                     alert("Error: Cannot parse ORG instruction on line " + (parseInt(line_no) + 1) + ".");
                     throw NAN_EXCEPTION;
                 }
@@ -1278,7 +1297,6 @@ export class IBM_704 {
                 continue;
             }
             const line = code_lines[line_no];
-            console.log(line);
             if (isNaN(register) || register >= this.size || register < 0) {
                 alert("Error: Tried to program to invalid register " + register + "on line " +
                     (parseInt(line_no) + 1) + "!  Register must be integer between 0 and " + (this.size - 1) + ".");
@@ -1291,7 +1309,14 @@ export class IBM_704 {
             // }
             const operation = line[1];
             const rest_of_line = line[2];
-            const numbers = rest_of_line.split(",");
+            const expressions = rest_of_line.split(",");
+            const numbers = Array();
+            for (const i in expressions) {
+                if (Object.prototype.hasOwnProperty.call(expressions, i)) {
+                    numbers.push(eval_math(expressions[i]));
+                }
+            }
+            console.log(numbers);
             try {
                 if (operation === "ORG") { // ORG pseudoinstruction lets you program to different location
                     register = Number(numbers[0]);
@@ -1304,7 +1329,7 @@ export class IBM_704 {
                     if (isNaN(number)) {
                         throw NAN_EXCEPTION;
                     }
-                    if (numbers[0].includes(".")) {
+                    if (expressions[0].includes(".")) {
                         if (number > MAX_FLOATING_POINT || number < -MAX_FLOATING_POINT) {
                             alert("Error: Floating point value " + number + " at line " + (Number(line_no) + 1) +
                                 " is too large! Floating point numbers must be between " + MAX_FLOATING_POINT +
