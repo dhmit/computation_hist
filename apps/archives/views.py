@@ -224,7 +224,12 @@ def search(request):
     if not search_params:
         return render(request, 'archives/search.jinja2', {'doc_types': doc_types})
 
-    docs_result, people_result = process_search(search_params)
+    search_result = process_search(search_params)
+    if search_result:
+        docs_result, people_result = search_result
+    else: # search was run with no params
+        return render(request, 'archives/search.jinja2', {'doc_types': doc_types})
+
     search_objs = {
         'docs': docs_result,
         'people': people_result,
@@ -242,10 +247,20 @@ def process_search(search_params):
     :return:
     """
 
-    docs_qs = Document.objects  # 'qs' for queryset
-    people_qs = Person.objects.none()
-
     keywords = search_params.get('keyword')
+    title = search_params.get('title')
+    text = search_params.get('text')
+    author = search_params.get('author')
+    recipient = search_params.get('recipient')
+    min_year = search_params.get('min_year')
+    max_year = search_params.get('max_year')
+
+    if not (keywords or title or text or author or recipient or min_year or max_year):
+        return None
+    else:
+        docs_qs = Document.objects.all()
+        people_qs = Person.objects.none()
+
     if keywords:
         keywordlist = keywords.split(" ")
 
@@ -269,12 +284,10 @@ def process_search(search_params):
             doc_Q |= Q(folder=folder)
         docs_qs = docs_qs.filter(doc_Q)
 
-    title = search_params.get('title')
     if title:
         docs_qs = docs_qs.filter(Q(title__icontains=title))
 
-    text = search_params.get('text')  # full text search
-    if text:
+    if text: # full text search
         words_q = Q()
 
         # handle exact search terms wrapped in " or '
@@ -292,7 +305,6 @@ def process_search(search_params):
             words_q &= Q(text__icontains=word)
         docs_qs = docs_qs.filter(words_q)
 
-    author = search_params.get('author')
     if author:
         author_names = author.split(" ")
         author_q = Q()
@@ -302,7 +314,6 @@ def process_search(search_params):
             author_q |= Q(author_organization__name__icontains=name)
         docs_qs = docs_qs.filter(author_q)
 
-    recipient = search_params.get('recipient')
     if recipient:
         recipient_names = recipient.split(" ")
         recipient_q = Q()
@@ -318,19 +329,17 @@ def process_search(search_params):
     if doc_types:
         docs_qs = docs_qs.filter(type__in=doc_types)
 
-    min_year = search_params.get('min_year')
-    max_year = search_params.get('max_year')
-    if min_year == '':
+    if not min_year:
         min_year = 1900
-    if max_year == '':
+    if not max_year:
         max_year = 2000
-    if min_year and max_year:
-        # TODO: this will break if we can't cast these to int - fine for now
-        # bc we validate in the frontend
-        min_year = int(min_year)
-        max_year = int(max_year)
-        docs_qs = docs_qs.filter(Q(date__year__gte=min_year) &
-                                 Q(date__year__lte=max_year))
+
+    # TODO: this will break if we can't cast these to int - fine for now
+    # bc we validate in the frontend
+    min_year = int(min_year)
+    max_year = int(max_year)
+    docs_qs = docs_qs.filter(Q(date__year__gte=min_year) &
+                             Q(date__year__lte=max_year))
 
     # prevents template from hitting the db
     docs_qs = docs_qs.prefetch_related('author_person', 'author_organization', 'folder',

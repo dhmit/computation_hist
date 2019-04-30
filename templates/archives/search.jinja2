@@ -18,8 +18,8 @@
                 'text': '',
                 'author': '',
                 'recipient': '',
-                'min_year': 1945,
-                'max_year': 1970,
+                'min_year': '',
+                'max_year': '',
                 'doc_types': []
             } %}
         {# If the only entry in search_params is a keyword #}
@@ -29,9 +29,9 @@
                 'title': '',
                 'text': '',
                 'author': '',
-                'recipient': '',
-                'min_year': 1945,
-                'max_year': 1970,
+                'recipient':'',
+                'min_year': '',
+                'max_year': '',
                 'doc_types': []
             } %}
         {%  elif len(search_params.keys())==1 %} {# nothing in the search field #}
@@ -40,9 +40,9 @@
                 'title': '',
                 'text': '',
                 'author': '',
-                'recipient': '',
-                'min_year': 1945,
-                'max_year': 1970,
+                'recipient':'',
+                'min_year': '',
+                'max_year': '',
                 'doc_types': []
             } %}
         {% endif %}
