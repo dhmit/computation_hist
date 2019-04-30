@@ -1,9 +1,5 @@
 # python
 import csv
-import sqlite3
-
-# ext
-from pdf2image import convert_from_path
 
 # django
 from django.db import IntegrityError
@@ -77,7 +73,6 @@ def populate_from_metadata(metadata_filename=None):
             except ValidationError as e:
                 count_invalid += 1
                 print(f'{e}. Line: {line}.')
-
 
     print(f'''\n################################################################################
     IMPORT COMPLETE
@@ -215,13 +210,27 @@ def interpret_person_organization(field, item_organization, item_person, new_doc
     field_split = [person_or_organization.strip() for person_or_organization in field.split(';')]
 
     for person_or_organization in field_split:
+
+        # skip useless / empty values
+        if person_or_organization in {'', 'none', 'None', 'unknown',
+                                      'Multiple', 'copy of above'}:
+            continue
+
+        # if no comma -> likely organization
         if len(person_or_organization.split(',')) == 1:
+
+            # spell out ONR for the different offices
+            person_or_organization = person_or_organization.replace('ONR', 'Office of Naval '
+                                                                           'Research')
+
             new_org, _unused_org_created = Organization.objects.get_or_create(
                 name=field_split[0],
                 slug=slugify(field_split[0])
             )
             bound_attr = getattr(new_doc, item_organization)
             bound_attr.add(new_org)
+
+        # else: likely a person
         else:
             split_name = person_or_organization.split(',')
             # check for commas
