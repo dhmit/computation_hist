@@ -1316,7 +1316,7 @@ export class IBM_704 {
                     numbers.push(eval_math(expressions[i]));
                 }
             }
-            console.log(numbers);
+            // console.log(numbers);
             try {
                 if (operation === "ORG") { // ORG pseudoinstruction lets you program to different location
                     register = numbers[0];
@@ -1325,7 +1325,7 @@ export class IBM_704 {
                     }
                     continue;
                 } else if (operation === "DEC") { // DEC psuedoinstruction lets you program fixed and floating point numbers
-                    let number = numbers[0];
+                    let number = Number(expressions[0]);
                     if (isNaN(number)) {
                         throw NAN_EXCEPTION;
                     }
