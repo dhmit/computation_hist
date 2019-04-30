@@ -1245,11 +1245,11 @@ export class IBM_704 {
                 continue;
             }
             const line = code_lines[line_no];
-            const operation = line[1];
+            const operation = line[1].trim();
             // jump to ORG location
             if (operation === "ORG") {
                 if (register % 1 !== 0 || isNaN(register)) {
-                    alert("Error: Cannot parse ORG instruction on line " + (parseInt(line_no) + 1) + ".");
+                    alert("Error: Cannot parse ORG instruction on line " + parseInt(line_no) + ".");
                     throw NAN_EXCEPTION;
                 }
                 register = Number(line[2]);
@@ -1319,13 +1319,13 @@ export class IBM_704 {
             console.log(numbers);
             try {
                 if (operation === "ORG") { // ORG pseudoinstruction lets you program to different location
-                    register = Number(numbers[0]);
+                    register = numbers[0];
                     if (isNaN(register)) {
                         throw NAN_EXCEPTION;
                     }
                     continue;
                 } else if (operation === "DEC") { // DEC psuedoinstruction lets you program fixed and floating point numbers
-                    let number = Number(numbers[0]);
+                    let number = numbers[0];
                     if (isNaN(number)) {
                         throw NAN_EXCEPTION;
                     }
@@ -1350,16 +1350,16 @@ export class IBM_704 {
                     }
                 } else {
                     if (numbers[2] !== undefined) {
-                        const decrement = Number(numbers[2]);
-                        const tag = Number(numbers[1]);
-                        const address = Number(numbers[0]);
+                        const decrement = numbers[2];
+                        const tag = numbers[1];
+                        const address = numbers[0];
                         this.assemble_line(register, operation, address, tag, decrement);
                     } else if (numbers[1] !== undefined) {
-                        const tag = Number(numbers[1]);
-                        const address = Number(numbers[0]);
+                        const tag = numbers[1];
+                        const address = numbers[0];
                         this.assemble_line(register, operation, address, tag);
                     } else if (numbers[0] !== "") {
-                        const address = Number(numbers[0]);
+                        const address = numbers[0];
                         this.assemble_line(register, operation, address);
                     } else {
                         this.assemble_line(register, operation);
