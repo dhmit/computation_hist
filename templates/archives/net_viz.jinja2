@@ -1,0 +1,22 @@
+{% extends "base.jinja2" %}
+
+{%  block extraheader %}
+    <script src='https://d3js.org/d3.v5.min.js'></script>
+    <script src="{{ static('js/net_viz.js')  }}"></script>
+{%  endblock %}
+
+
+{% block content %}
+
+    <svg id="viz"></svg>
+{#    <button class="searchbutton" type="submit">#}
+{#        <i class="fa fa-search"></i>#}
+{#    </button>#}
+{#    <input class="searchfield" id="searchbox" name="q" type="text" placeholder="Search">#}
+
+
+
+    <script>
+        create_force_layout({{ nodes|safe }}, {{ links|safe }});
+    </script>
+{% endblock %}
