@@ -29,7 +29,7 @@ STORIES = [
 
 
 def index(request):
-    story_selection = random.sample(STORIES, 3)
+    story_selection = random.sample(STORIES, 6)
     context = {'stories': story_selection}
     return render(request, 'index.jinja2', context)
 
