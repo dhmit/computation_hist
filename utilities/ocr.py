@@ -14,6 +14,7 @@ import cv2
 import PyPDF2
 import pdf2image
 import pytesseract
+import pdftotext
 import numpy as np
 from PIL import Image
 from scipy.ndimage import interpolation as inter
@@ -220,5 +221,25 @@ def fix_pil(doc, doc_path):
     return pages
 
 
+def txt_from_pdf(file_path=None):
+    """
+    Takes file path to a ocr'ed pdf file and pulls the text from it to ensure the same text
+    appears in each place
+
+    :param file_path: str or Path object
+    :return: str
+    """
+
+    if isinstance(file_path, str):
+        file_path = Path(file_path)
+
+    with open(file_path, 'rb') as doc:
+        pdf = pdftotext.PDF(doc)
+
+    text = '/n/n/n'.join(pdf)
+
+    return text
+
+
 if __name__ == '__main__':
-    pass
+    print(txt_from_pdf('data/sample_docs/3_32_verzuh_1.pdf'))
