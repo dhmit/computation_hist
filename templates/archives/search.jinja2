@@ -179,10 +179,48 @@
 
             </div>
             </div>
-
+        
     {% endif %}
 
 
+    {% if search_facets is defined %}
+    <div class="col-3">
+        <label class="text_label" for="title">Author</label>
+        {% for facet in search_facets["authors"]%}
+            {{facet[0]}} ({{ facet[1]}})</br>
+        {% endfor %}
+
+        <label class="text_label" for="title">Author Organizations</label>
+        {% for facet in search_facets["author organizations"]%}
+            {{facet[0]}} ({{ facet[1]}})</br>
+        {% endfor %}
+
+        <label class="text_label" for="title">Recipient</label>
+        {% for facet in search_facets["recipients"]%}
+            {{facet[0]}} ({{ facet[1]}})</br>
+        {% endfor %}
+
+        <label class="text_label" for="title">Recipient Organization</label>
+        {% for facet in search_facets["recipient organizations"]%}
+            {{facet[0]}} ({{ facet[1]}})</br>
+        {% endfor %}
+
+        <label class="text_label" for="title">Cceds:</label>
+        {% for facet in search_facets["cceds"]%}
+            {{facet[0]}} ({{ facet[1]}})</br>
+        {% endfor %}
+
+        <label class="text_label" for="title">Cced Organizations:</label>
+        {% for facet in search_facets["cced organizations"]%}
+            {{facet[0]}} ({{ facet[1]}})</br>
+        {% endfor %}
+
+        <label class="text_label" for="title">Years:</label>
+        {% for facet in search_facets["years"]%}
+            {{facet[0]}} ({{ facet[1]}})</br>
+        {% endfor %}
+    </div>
+    {% endif %}
 
 {%  endblock %}
 

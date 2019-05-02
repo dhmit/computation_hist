@@ -1,5 +1,6 @@
 import random
 import re
+from collections import Counter
 
 from django.db.models import Q
 from django.http import Http404
@@ -8,7 +9,7 @@ from django.template.loader import TemplateDoesNotExist
 from django.core.exceptions import ObjectDoesNotExist
 
 from utilities.common import get_file_path
-from .models import Person, Document, Box, Folder, Organization, Page
+from .models import Person, Document, Box, Folder, Organization
 
 
 # NOTE(ra): this hardcoded pattern isn't great, but we're since we're using
@@ -29,19 +30,19 @@ STORIES = [
 
 
 def index(request):
-    story_selection = random.sample(STORIES, 3)
+    story_selection = random.sample(STORIES, 6)
     context = {'stories': story_selection}
     return render(request, 'index.jinja2', context)
 
 
-def person(request, person_id):
+def person(request, slug):
     person_obj = get_object_or_404(
         Person.objects.prefetch_related(
             'author_person',
             'recipient_person',
             'cced_person',
         ),
-        pk=person_id)
+        slug=slug)
     document_written_objs = person_obj.author_person.all()
     document_received_objs = person_obj.recipient_person.all()
     document_cced_objs = person_obj.cced_person.all()
@@ -81,6 +82,7 @@ def doc(request, doc_id=None, slug=None):
     author_organization_objs = doc_obj.author_organization.all()
     recipient_person_objs = doc_obj.recipient_person.all()
     recipient_organization_objs = doc_obj.recipient_organization.all()
+
     if recipient_organization_objs:
         if recipient_organization_objs[0].name == 'unknown':
             recipient_organization_objs = None
@@ -89,7 +91,6 @@ def doc(request, doc_id=None, slug=None):
     if cced_organization_objs:
         if cced_organization_objs[0].name == 'unknown':
             cced_organization_objs = None
-    page_objs = doc_obj.page_set.all()
     doc_pdf_url = str(get_file_path(doc_obj.folder.box.number, doc_obj.folder.number,
                                     doc_obj.folder.name, file_type='pdf', path_type='aws',
                                     doc_id=doc_obj.doc_id))
@@ -103,14 +104,13 @@ def doc(request, doc_id=None, slug=None):
         'recipient_organization_objs': recipient_organization_objs,
         'cced_person_objs': cced_person_objs,
         'cced_organization_objs': cced_organization_objs,
-        'page_objs': page_objs,
         'doc_pdf_url': doc_pdf_url,
     }
     return render(request, 'archives/doc.jinja2', obj_dict)
 
 
-def box(request, box_id):
-    box_obj = get_object_or_404(Box, pk=box_id)
+def box(request, slug):
+    box_obj = get_object_or_404(Box, slug=slug)
     folder_objs = box_obj.folder_set.all()
     obj_dict = {
         'box_obj': box_obj,
@@ -119,8 +119,8 @@ def box(request, box_id):
     return render(request, 'archives/box.jinja2', obj_dict)
 
 
-def folder(request, folder_id):
-    folder_obj = get_object_or_404(Folder, pk=folder_id)
+def folder(request, slug):
+    folder_obj = get_object_or_404(Folder, slug=slug)
     document_objs = folder_obj.document_set.all()
     obj_dict = {
         'folder_obj': folder_obj,
@@ -131,8 +131,8 @@ def folder(request, folder_id):
     return response
 
 
-def organization(request, org_id):
-    org_obj = get_object_or_404(Organization, pk=org_id)
+def organization(request, slug):
+    org_obj = get_object_or_404(Organization, slug=slug)
     document_written_objs = org_obj.author_organization.all()
     document_received_objs = org_obj.recipient_organization.all()
     document_cced_objs = org_obj.cced_organization.all()
@@ -143,31 +143,6 @@ def organization(request, org_id):
         'document_cced_objs': document_cced_objs
     }
     response = render(request, 'archives/organization.jinja2', obj_dict)
-    return response
-
-
-def page(request, page_id):
-    page_obj = get_object_or_404(Page, pk=page_id)
-    document_obj = page_obj.document
-    png_url_amz = page_obj.png_url
-    try:
-        next_page_number = page_obj.page_number + 1
-        next_page = Page.objects.get(document=document_obj, page_number=next_page_number)
-    except ObjectDoesNotExist:
-        next_page = None
-    try:
-        previous_page_number = page_obj.page_number - 1
-        previous_page = Page.objects.get(document=document_obj, page_number=previous_page_number)
-    except ObjectDoesNotExist:
-        previous_page = None
-    obj_dict = {
-        'page_obj': page_obj,
-        'document_obj': document_obj,
-        'next_page': next_page,
-        'previous_page': previous_page,
-        'png_url_amz': png_url_amz,
-    }
-    response = render(request, 'archives/page.jinja2', obj_dict)
     return response
 
 
@@ -226,13 +201,14 @@ def search(request):
 
     search_result = process_search(search_params)
     if search_result:
-        docs_result, people_result = search_result
+        docs_result, people_result, search_facets = search_result
     else: # search was run with no params
         return render(request, 'archives/search.jinja2', {'doc_types': doc_types})
 
     search_objs = {
         'docs': docs_result,
         'people': people_result,
+        'search_facets': search_facets,
         'search_params': search_params,
         'doc_types': doc_types
     }
@@ -343,10 +319,57 @@ def process_search(search_params):
 
     # prevents template from hitting the db
     docs_qs = docs_qs.prefetch_related('author_person', 'author_organization', 'folder',
-                                       'recipient_person', 'recipient_organization')
+                                       'recipient_person', 'recipient_organization', 'cced_person','cced_organization')
 
 
-    return docs_qs, people_qs
+    search_facets = generate_search_facets(docs_qs)
+    return docs_qs, people_qs, search_facets
+
+
+def generate_search_facets(doc_objs):
+    """
+    Creates a dictionary of facets with keys of each of the different facets and values that are a list of tuples that
+     contain the top 10 most common instances of the facet and how many times these instances occur.
+    :param doc_objs:
+    :return: dict_facets
+    """
+
+    counter_authors = Counter()
+    counter_dates = Counter()
+    counter_author_organizations = Counter()
+    counter_recipients = Counter()
+    counter_recipient_organizations = Counter()
+    counter_cceds = Counter()
+    counter_cced_organizations = Counter()
+
+    for document in doc_objs.all():
+        # Some dates are None --> Skip those documents
+        if document.date:
+            counter_dates[document.date.year] += 1
+        for author in document.author_person.all():
+            counter_authors[author.fullname] += 1
+        for org in document.author_organization.all():
+            counter_author_organizations[org.name] += 1
+        for recipient in document.recipient_person.all():
+            counter_recipients[recipient.fullname] += 1
+        for org in document.recipient_organization.all():
+            counter_recipient_organizations[org.name] += 1
+        for cc in document.cced_person.all():
+            counter_cceds[cc.fullname] += 1
+        for org in document.cced_organization.all():
+            counter_cced_organizations[org.name] += 1
+
+    dict_facets = {
+        "authors": counter_authors.most_common(10),
+        "author organizations": counter_author_organizations.most_common(10),
+        "recipients": counter_recipients.most_common(10),
+        "recipient organizations": counter_recipient_organizations.most_common(10),
+        "cceds": counter_cceds.most_common(10),
+        "cced organizations": counter_cced_organizations.most_common(10),
+        "years": counter_dates.most_common(10),
+    }
+    return dict_facets
+
 
 
 def story(request, slug):

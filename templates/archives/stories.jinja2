@@ -9,7 +9,7 @@ Stories from the Archives
 {% endblock %}
 
 {% block content %}
-<div class="row mt-4">
+<div class="row my-4">
     {% for story in stories %}
         {% include 'archives/stories/' + story + '-teaser.jinja2' %}
     {% endfor %}
