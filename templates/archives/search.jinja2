@@ -7,8 +7,8 @@
 
 
 {%  block content %}
-        <div class="row" id = "search_container">
-            <div class="col-lg-9 col-md-12 col-sm-12">
+<div class="row" id="search_container">
+    <div class="col-lg-9 col-md-12 col-sm-12">
 
         {# If a previous search was executed, show the query values. Else set default values #}
         {% if search_params is not defined %}
@@ -48,7 +48,6 @@
         {% endif %}
 
         <form id="adv_search" method="get" action="/archives/search">
-
             <h2>Advanced Search</h2>
 
             <p class="search-type">
@@ -100,18 +99,19 @@
             </p>
                 <input type="submit" id="search_submit_button" class="btn btn-primary" value="Submit">
         </form>
-        </div>
-        </div>
+    </div>
+</div>
 
 
-    {% if docs is defined and not (docs or people) %}
-        {# displayed only if a search has been processed but with no results #}
-        <h3>There are no documents or people that match your search.</h3>
-    {% endif %}
+{% if docs is defined and not (docs or people) %}
+    {# displayed only if a search has been processed but with no results #}
+    <h3>There are no documents or people that match your search.</h3>
 
-    {% if people %}
+{% else %}
+<div class="row">
+    <div class="col-10">
+        {% if people %}
         <div class="row results_container">
-
             <h3>People that match your search</h3>
                 <div class="col-lg-9 col-md-9 col-sm-12 results_col">
                 {% for person in people %}
@@ -121,69 +121,56 @@
                 {% endfor %}
                 </div>
             </div>
-    {% endif %}
-    {% if docs %}
+        {% endif %}
+
+        {% if docs %}
         <div class="row results_container">
             <h3>Documents that match your search</h3>
-                <div class="col-lg-9 col-md-9 col-sm-12 results_col">
+            <div class="col-lg-9 col-md-9 col-sm-12 results_col">
+            {% for doc in docs %}
+                <div class="doc_result">
+                    <h4><a href="{{ doc.url }}">{{ doc.title }}</a></h4>
+                    <table class="doc_result_left_table">
+                        <tbody>
+                            {% for author in doc.get_person_list('authors') %}
+                            <tr>
+                                <td class="td_heading">
+                                    {% if loop.index0 == 0 and loop.length == 1 %}Author
+                                    {% elif loop.index0 == 0 and loop.length > 1 %}Authors
+                                    {% else %}
+                                    {% endif %}
+                                </td>
+                                <td>{{ author.name }}</td>
+                            </tr>
+                            {% endfor %}
 
-                {% for doc in docs %}
-
-                    <div class="doc_result">
-                        <h4><a href="{{ doc.url }}">{{ doc.title }}</a></h4>
-                        <table class="doc_result_left_table">
-                            <tbody>
-
-                                {% for author in doc.get_person_list('authors') %}
-                                    <tr>
-                                        <td class="td_heading">
-                                            {% if loop.index0 == 0 and loop.length == 1 %}Author
-                                            {% elif loop.index0 == 0 and loop.length > 1 %}Authors
-                                            {% else %}
-                                            {% endif %}
-                                        </td>
-                                        <td>{{ author.name }}</td>
-                                    </tr>
-                                {% endfor %}
-
-                                {% for recipient in doc.get_person_list('recipients') %}
-                                    <tr>
-                                        <td class="td_heading">
-                                            {% if loop.index0 == 0 and loop.length == 1 %}Recipient
-                                            {% elif loop.index0 == 0 and loop.length > 1 %}Recipients
-                                            {% else %}
-                                            {% endif %}
-                                        </td>
-                                        <td>{{ recipient.name }}</td>
-                                    </tr>
-                                {% endfor %}
-
-                            </tbody>
-                        </table>
-                        <table class="doc_result_right_table">
-                            <tbody>
-
-                                <tr>
-                                    <td class="td_heading">Folder </td><td>{{ doc.folder }}</td>
-                                </tr>
-
-                                <tr>
-                                    <td class="td_heading">Date </td><td>{{ doc.date }}</td>
-                                </tr>
-
-                            </tbody>
-                        </table>
-                    </div>
-                {% endfor %}
-
-
+                            {% for recipient in doc.get_person_list('recipients') %}
+                            <tr>
+                                <td class="td_heading">
+                                    {% if loop.index0 == 0 and loop.length == 1 %}Recipient
+                                    {% elif loop.index0 == 0 and loop.length > 1 %}Recipients
+                                    {% else %}
+                                    {% endif %}
+                                </td>
+                                <td>{{ recipient.name }}</td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                    <table class="doc_result_right_table">
+                        <tbody>
+                            <tr><td class="td_heading">Folder </td><td>{{ doc.folder }}</td></tr>
+                            <tr><td class="td_heading">Date </td><td>{{ doc.date }}</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            {% endfor %}
             </div>
-            </div>
-        
-    {% endif %}
+        </div>
+        {% endif %}
+    </div>
 
-
-    {% if search_facets is defined %}
+    {% if search_facets %}
     <div class="col-3">
         <label class="text_label" for="title">Author</label>
         {% for facet in search_facets["authors"]%}
@@ -221,6 +208,10 @@
         {% endfor %}
     </div>
     {% endif %}
+
+</div>
+{% endif %}
+
 
 {%  endblock %}
 
