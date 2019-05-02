@@ -28,9 +28,10 @@
 {% block content %}
     <br>
     <div class="starter-template">
-        {% for item in model_objs %}
+        {% for item in model_objs|sort(attribute='slug') %}
             <div class="list-group">
-                <a href="/archives/{{ model_str }}/{{ item.pk }}"
+{#                {% if model_str == '' %}#}
+                <a href="{{ item.url }}"
                    class="list-group-item list-group-item-action">
                     {{ item }}
                 </a>

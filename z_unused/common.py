@@ -2,11 +2,7 @@ import gzip
 import os
 import pickle
 import sys
-import pdf2image
-import PyPDF2
-import pytesseract
 from pathlib import Path
-
 import pandas as pd
 
 

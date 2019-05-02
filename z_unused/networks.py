@@ -1,7 +1,8 @@
 import matplotlib.pyplot as plt
 
-from computation_hist.common import get_metadata_google_sheet
-from computation_hist.document import Document
+# from common import get_metadata_google_sheet
+from document import Document
+import csv
 
 
 class Network:
@@ -31,7 +32,7 @@ class Network:
     >>> network.visualize_network(no_nodes=20)
     """
 
-    def __init__(self, return_empty_network=False):
+    def __init__(self, return_empty_network=False, debug=False):
 
         # nodes and edges are dicts that map from node_name to a Node object
         # and from (edge_author, edge_recipient) to an Edge object.
@@ -41,9 +42,16 @@ class Network:
 
         # initialize network using the available metadata
         if not return_empty_network:
-            metadata = get_metadata_google_sheet(return_type='list_of_dicts')
-            for document_metadata in metadata:
-                self._add_document_to_network(document_metadata)
+
+            # For debugging purposes
+            if debug:
+                with open('computation_hist/data/sample_docs/verzuh_metadata.csv', 'r') as file:  #
+                    metadata = csv.DictReader(file)
+                    for document_metadata in metadata:
+                        self._add_document_to_network(document_metadata)
+            else:
+                metadata = get_metadata_google_sheet(return_type='list_of_dicts')
+                self._add_document_to_network(metadata)
 
     def __repr__(self):
         return f'Network with {len(self.nodes)} nodes and {len(self.edges)} edges'
@@ -75,7 +83,7 @@ class Network:
             author = document.author
             recipients = document.recipients
             for name in recipients:
-                if not name in self.nodes:
+                if name not in self.nodes:
                     self.nodes[name] = Node(name)
             for recipient in recipients:
                 if (author, recipient) not in self.edges:
@@ -83,7 +91,6 @@ class Network:
                     recipient_node = self.nodes[recipient]
                     self.edges[(author, recipient)] = Edge(author_node, recipient_node)
                 self.edges[(author, recipient)].add_document(document)
-
 
     def visualize_network(self, no_nodes=20):
         """
@@ -110,7 +117,7 @@ class Network:
 
         nx.draw_circular(graph,
                          labels=labels,
-                         node_size = [len(node) * 100 for node in self.nodes.values()],
+                         node_size=[len(node) * 100 for node in self.nodes.values()],
                          width=[len(edge) for edge in self.edges.values()]
                          )
         plt.show()
@@ -175,5 +182,12 @@ class Edge:
 
 
 if __name__ == '__main__':
-    n = Network()
+    n = Network(debug=True)
+    for i in n.nodes:
+        print(n.nodes[i], len(n.nodes[i]))
+
+    for i in n.edges:
+        print(n.edges[i], len(n.edges[i]))
+
+    print('Number of Nodes:', len(n.nodes))
     n.visualize_network()
