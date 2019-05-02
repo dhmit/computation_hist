@@ -8,7 +8,7 @@ from django.template.loader import TemplateDoesNotExist
 from django.core.exceptions import ObjectDoesNotExist
 
 from utilities.common import get_file_path
-from .models import Person, Document, Box, Folder, Organization, Page
+from .models import Person, Document, Box, Folder, Organization
 
 
 # NOTE(ra): this hardcoded pattern isn't great, but we're since we're using
@@ -29,19 +29,19 @@ STORIES = [
 
 
 def index(request):
-    story_selection = random.sample(STORIES, 3)
+    story_selection = random.sample(STORIES, 6)
     context = {'stories': story_selection}
     return render(request, 'index.jinja2', context)
 
 
-def person(request, person_id):
+def person(request, slug):
     person_obj = get_object_or_404(
         Person.objects.prefetch_related(
             'author_person',
             'recipient_person',
             'cced_person',
         ),
-        pk=person_id)
+        slug=slug)
     document_written_objs = person_obj.author_person.all()
     document_received_objs = person_obj.recipient_person.all()
     document_cced_objs = person_obj.cced_person.all()
@@ -89,7 +89,6 @@ def doc(request, doc_id=None, slug=None):
     if cced_organization_objs:
         if cced_organization_objs[0].name == 'unknown':
             cced_organization_objs = None
-    page_objs = doc_obj.page_set.all()
     doc_pdf_url = str(get_file_path(doc_obj.folder.box.number, doc_obj.folder.number,
                                     doc_obj.folder.name, file_type='pdf', path_type='aws',
                                     doc_id=doc_obj.doc_id))
@@ -103,14 +102,13 @@ def doc(request, doc_id=None, slug=None):
         'recipient_organization_objs': recipient_organization_objs,
         'cced_person_objs': cced_person_objs,
         'cced_organization_objs': cced_organization_objs,
-        'page_objs': page_objs,
         'doc_pdf_url': doc_pdf_url,
     }
     return render(request, 'archives/doc.jinja2', obj_dict)
 
 
-def box(request, box_id):
-    box_obj = get_object_or_404(Box, pk=box_id)
+def box(request, slug):
+    box_obj = get_object_or_404(Box, slug=slug)
     folder_objs = box_obj.folder_set.all()
     obj_dict = {
         'box_obj': box_obj,
@@ -119,8 +117,8 @@ def box(request, box_id):
     return render(request, 'archives/box.jinja2', obj_dict)
 
 
-def folder(request, folder_id):
-    folder_obj = get_object_or_404(Folder, pk=folder_id)
+def folder(request, slug):
+    folder_obj = get_object_or_404(Folder, slug=slug)
     document_objs = folder_obj.document_set.all()
     obj_dict = {
         'folder_obj': folder_obj,
@@ -131,8 +129,8 @@ def folder(request, folder_id):
     return response
 
 
-def organization(request, org_id):
-    org_obj = get_object_or_404(Organization, pk=org_id)
+def organization(request, slug):
+    org_obj = get_object_or_404(Organization, slug=slug)
     document_written_objs = org_obj.author_organization.all()
     document_received_objs = org_obj.recipient_organization.all()
     document_cced_objs = org_obj.cced_organization.all()
@@ -143,31 +141,6 @@ def organization(request, org_id):
         'document_cced_objs': document_cced_objs
     }
     response = render(request, 'archives/organization.jinja2', obj_dict)
-    return response
-
-
-def page(request, page_id):
-    page_obj = get_object_or_404(Page, pk=page_id)
-    document_obj = page_obj.document
-    png_url_amz = page_obj.png_url
-    try:
-        next_page_number = page_obj.page_number + 1
-        next_page = Page.objects.get(document=document_obj, page_number=next_page_number)
-    except ObjectDoesNotExist:
-        next_page = None
-    try:
-        previous_page_number = page_obj.page_number - 1
-        previous_page = Page.objects.get(document=document_obj, page_number=previous_page_number)
-    except ObjectDoesNotExist:
-        previous_page = None
-    obj_dict = {
-        'page_obj': page_obj,
-        'document_obj': document_obj,
-        'next_page': next_page,
-        'previous_page': previous_page,
-        'png_url_amz': png_url_amz,
-    }
-    response = render(request, 'archives/page.jinja2', obj_dict)
     return response
 
 
