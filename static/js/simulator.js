@@ -15,6 +15,7 @@ const no_to_operation_b = {
     0o4400: "SBM",
     0o401: "ADM",
     0o534: "LXA",
+    0o4534: "LXD",
     0o300: "FAD",
     0o302: "FSB",
     0o560: "LDQ",
@@ -1380,7 +1381,8 @@ export class IBM_704 {
     /**
      * Emulates the IBM 704 Load Index from Address (LXA) operation.
      *
-     * Stores the address of the word at the specified address
+     * Stores the address of the word at the specified address into the specified index register.
+     * Not indexable.
      *
      * @param {number}  address     Address of register to extract address from.
      * @param {number}  tag         Specifies the index register to be changed.
@@ -1389,6 +1391,21 @@ export class IBM_704 {
         let index_register = this.get_tag(tag);
         let address_to_store = this.storage_register.address;
         index_register.update(address_to_store, this.size);
+    }
+
+    /**
+     * Emulates the IBM 704 Load Index from Decrement (LXD) operation.
+     *
+     * Stores the decrement of the word at the specified address into the speicified index register.
+     * Not indexable.
+     *
+     * @param {number}  address     Address of register to extract address from.
+     * @param {number}  tag         Specifies the index register to be changed.
+     */
+    LXD(address, tag) {
+        let index_register = this.get_tag(tag);
+        let decrement_to_store = this.storage_register.decrement;
+        index_register.update(decrement_to_store, this.size);
     }
 
     /**
