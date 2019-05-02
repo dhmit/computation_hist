@@ -1,9 +1,5 @@
 # python
 import csv
-import sqlite3
-
-# ext
-from pdf2image import convert_from_path
 
 # django
 from django.db import IntegrityError
@@ -17,13 +13,11 @@ from apps.archives.models import (
     Person,
     Box,
     Folder,
-    Document,
-    Page,
+    Document
 )
 from .common import get_file_path
 
 from .name_parser import PeopleDatabase
-
 
 
 def populate_from_metadata(metadata_filename=None):
@@ -80,7 +74,6 @@ def populate_from_metadata(metadata_filename=None):
                 count_invalid += 1
                 print(f'{e}. Line: {line}.')
 
-
     print(f'''\n################################################################################
     IMPORT COMPLETE
 ################################################################################
@@ -99,6 +92,7 @@ def populate_from_metadata(metadata_filename=None):
             for first_name in first_names:
                 print("\t" + first_name)
             print("")
+
 
 def add_one_document(csv_line, aliases_to_full_name_dict, line_no=None, names={}):
     """
@@ -152,7 +146,10 @@ def add_one_document(csv_line, aliases_to_full_name_dict, line_no=None, names={}
 
     # Folder 
     box_num = csv_line['box']
-    new_box, _unused_box_exist = Box.objects.get_or_create(number=box_num)
+    new_box, _unused_box_exist = Box.objects.get_or_create(
+        number=box_num,
+        slug=slugify(box_num)
+    )
 
     folder_name = csv_line['foldername_short']
 
@@ -162,7 +159,9 @@ def add_one_document(csv_line, aliases_to_full_name_dict, line_no=None, names={}
             'box': new_box,
             'number': csv_line['folder_number'],
             'full': csv_line['foldername_full'],
-        }
+        },
+        slug=slugify((box_num, csv_line['folder_number'], folder_name))
+
     )
 
     new_doc.folder = new_folder
@@ -204,65 +203,6 @@ def add_one_document(csv_line, aliases_to_full_name_dict, line_no=None, names={}
         pass
 
 
-def pdf_to_image_split(pdf_path, image_directory, folder_name):
-    """
-    Splits a each page of a pdf into an image.
-    pdf_path is the location of pdf (C:\Documents\rockefeller.pdf)
-    image_directory is the location of image folder (C:\Documents\png_pages\)
-    folder_name is the names of the object of the folder(rockefeller)
-    """
-    pages = convert_from_path(pdf_path)
-    images_in_pdf = []
-
-    for page in range(len(pages)):
-        page_path = image_directory + folder_name + '_' + str(page + 1) + '.png'
-        pages[page].save(page_path, 'PNG')
-        images_in_pdf.append((page_path, page +1))
-
-    return images_in_pdf
-
-
-def page_image_to_doc(folder_name, pdf_path, image_directory):
-    """
-    Utilizes pdf_to_image_split in order to create images of Pages from a pdf, create Page
-    objects, and assign those page objects to Document.
-    Splits a each page of a pdf into an image.
-    pdf_path is the location of pdf (C:\Documents\rockefeller.pdf)
-    image_directory is the location of image folder (C:\Documents\png_pages\)
-    folder_name is the names of the object of the folder(rockefeller)
-    Example: page_image_to_doc('rockefeller', 'C:\Documents\1_08_raw_rockefeller.pdf',
-    'C:\Documents\png_pages\') returns images of Pages in png_pages directory and Page objects
-    of each page.
-    """
-    images_in_pdf = pdf_to_image_split(pdf_path, image_directory, folder_name)
-    folder = Folder.objects.get(name=folder_name)
-    documents_unsort = folder.document_set.all()
-    documents_sort = sorted(documents_unsort, key=lambda x: x.first_page)
-    document_place = 0
-    page_num = 1
-
-    for page in images_in_pdf:
-        if documents_sort[document_place].first_page <= page[1] <= documents_sort[ \
-                document_place].last_page:
-            # this means that this is the same document as last page
-            page_obj = Page(document=documents_sort[document_place], page_number=page_num)
-            page_obj.image_path.name = folder_name + '_' + str(page[1]) + '.png'
-            page_obj.save()
-            page_num += 1
-        elif documents_sort[document_place +1].first_page <= page[1] <= documents_sort[ \
-                document_place +1].last_page:
-            # this means this is a new document
-            document_place += 1
-            page_num = 1
-            page_obj = Page(document=documents_sort[document_place], page_number=page_num)
-            page_obj.image_path.name = folder_name + '_' + str(page[1]) + '.png'
-            page_obj.save()
-            page_num += 1
-        else:
-            # This means that the page isn't associated with a document
-            pass
-
-
 def interpret_person_organization(field, item_organization, item_person, new_doc,
                                   aliases_to_full_name_dict, line_no=None, names_so_far={}):
 
@@ -270,12 +210,29 @@ def interpret_person_organization(field, item_organization, item_person, new_doc
     field_split = [person_or_organization.strip() for person_or_organization in field.split(';')]
 
     for person_or_organization in field_split:
-        if len(person_or_organization.split(',')) == 1:
-            new_org, _unused_org_created = Organization.objects.get_or_create(name=field_split[0])
+
+        # skip useless / empty values
+        if person_or_organization in {'', 'none', 'None', 'unknown',
+                                      'Multiple', 'copy of above'}:
+            continue
+
+        split_name = person_or_organization.split(',')
+        # if no comma -> likely organization
+        if len(split_name) == 1:
+            org_name = split_name[0]
+
+            # spell out ONR for the different offices
+            org_name = org_name.replace('ONR', 'Office of Naval Research')
+
+            new_org, _unused_org_created = Organization.objects.get_or_create(
+                name=org_name,
+                slug=slugify(org_name)
+            )
             bound_attr = getattr(new_doc, item_organization)
             bound_attr.add(new_org)
+
+        # else: likely a person
         else:
-            split_name = person_or_organization.split(',')
             # check for commas
             if len(split_name) > 2:
                 print("There seem to be too many commas in this name", split_name, "in line",
@@ -298,9 +255,57 @@ def interpret_person_organization(field, item_organization, item_person, new_doc
                 new_person, _unused_person_created = Person.objects.get_or_create(
                     last=last_name,
                     first=first_name,
+                    slug=slugify((first_name, last_name))
                 )
 
                 bound_attr = getattr(new_doc, item_person)
                 bound_attr.add(new_person)
 
 
+def network_json(output_path=None):
+    """
+    Writes a JSON file to /static/json (or otherwise specified location) listing the nodes,
+    edges, and weights of each person in the network
+    :param output_path:
+    :return:
+    """
+
+    from collections import Counter
+    from pathlib import Path, PurePath
+    import json
+
+    if output_path is None:
+        output_path = Path('static', 'json', 'network.json')
+
+    docs = Document.objects.prefetch_related('author_person', 'recipient_person')
+    node_count = Counter()
+    edge_count = Counter()
+
+    # Count instances of each author/recipient
+    for document in docs:
+        authors = document.author_person.all()
+        recipients = document.recipient_person.all()
+        for author in authors:
+            node_count[str(author)] += 1
+            for recipient in recipients:
+                node_count[str(recipient)] += 1
+                edge_count[(str(author), str(recipient))] += 1
+
+    edge_list = list()
+    for letter in edge_count:
+        edge_list.append({
+            'source': letter[0],
+            'target': letter[1],
+            'value': edge_count[letter]
+        })
+
+    node_list = list()
+    for author in node_count:
+        node_list.append({
+            'id': author,
+            'weight': node_count[author]
+        })
+
+    graph_dict = {'nodes': node_list, 'links': edge_list}
+
+    output_path.write_text(json.dumps(graph_dict))

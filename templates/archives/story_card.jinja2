@@ -1,7 +1,8 @@
-<div class="px-1">
+<div class='col-md-6 col-lg-4 my-4 pr-5'><div class="px-1">
     <a href="{% url 'story' story %}" style="color: black">
         <div class="row story-teaser-img-container">
-            <img src="{{ static('img/stories/' + story + '-teaser.png') }}"/
+            <img src="{{ static('img/stories/' + story + '-teaser.png') }}"
+                 alt="Teaser image for {{ story }}"
                  class="story-teaser-img"/>
         </div>
         <div class="row">
@@ -9,4 +10,5 @@
             <span class="story-teaser">{% block story_teaser %}{% endblock %}</span>
         </div>
     </a>
-</div>
+</div></div>
+
