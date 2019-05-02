@@ -80,9 +80,9 @@ function create_force_layout(nodes, edges) {
         .attr("fill", function(d) { return color(d.weight/max_weight); });
 
     node.on("mouseover", focus).on("mouseout", unfocus);
-    // node.on("click", function() {
-    //     window.location.assign("/archives/"+node.id)
-    // });
+    node.on('click', function(d) {
+        window.location.assign("/archives/person/" + d.slug);
+    });
 
     node.call(
         d3.drag()
@@ -103,6 +103,7 @@ function create_force_layout(nodes, edges) {
         .style("pointer-events", "none"); // to prevent mouseover/drag capture
 
     node.on("mouseover", focus).on("mouseout", unfocus);
+    node.on("click", click);
 
     function ticked() {
 
@@ -186,6 +187,10 @@ function create_force_layout(nodes, edges) {
         d.fx = null;
         d.fy = null;
     }
+
+    function click(d) {
+        window.location.assign("/archives/person/"+d.slug);
+    }
 }
 
 function name_legend(nodes){
@@ -204,11 +209,14 @@ function name_legend(nodes){
         // create element <td> and text node
         //Make text node the contents of <td> element
         // put <td> at end of the table row
+        let person = document.createElement("a");
+        person.setAttribute('href', '/archives/person/' + nodes[j].slug);
         let cell = document.createElement("td");
         let cellText = document.createTextNode(nodes[j].id);
 
         cell.appendChild(cellText);
-        row.appendChild(cell);
+        person.appendChild(cell);
+        row.appendChild(person);
 
         //row added to end of table body
         tblBody.appendChild(row);
