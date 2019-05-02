@@ -30,16 +30,16 @@ O 08 3 CNUs
 
 After considerable discussion the Committee felt that probably
 a man taking a doctor's degree in the E. E. Department, with
-specialization in computing macuines, shoulda be required to
-pass en examination in the mz jority of taese subjects, but
+specialization in computing machines, shoulda be required to
+pass en examination in the majority of these subjects, but
 tnat perhaps one-third of them could be dropped &nd in their
 place more material on Mathematics and Theoretical Physics
 could be required. It was suggested tentatively that power
 machinery and electrical measurements umignt be dropped, and
 that in their place questions coulda be asked on differential
 equations, complex variables, algebra and numerical analysis,
-corresponding to about the length and deptn of the questions
-on the two omitted subjects. In adaition, it was felt that
+corresponding to about the length and depth of the questions
+on the two omitted subjects. In addition, it was felt that
 Basic Physics II could be somewhat remodeled to include more
 of Theoretical Physics, particularly of electromagnetic theory
 then is given to most of the E. BE. candidates. 1t was felt
@@ -48,8 +48,8 @@ that the Committee should discuss this with Professor Brown
 at its next meeting, Lf Professor Brown were zble to attend.
 
 The Committee then went on to discuss the four E. E.
-doctor's candidates who nuve already teéken their qualifying
-examinations and are beginning, or are gbout to begin, thelr
+doctor's candidates who have already taken their qualifying
+examinations and are beginning, or are about to begin, thelr
 thesis research. It was reported that Mr. Salzer already has
 a supervisory committee consisting of Professors Kopal, Hazen
 and Linville, This was felt to be an appropriate committee

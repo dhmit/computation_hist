@@ -1,19 +1,25 @@
 {% extends "base.jinja2" %}
 
-
-
 {% block title %}
-    Home Page
+Home Page
 {% endblock %}
 
 {% block header %}
-    <h1 class="typing"><tt>Welcome to the Archives of the MIT Computation Center</tt></h1>
+<h1 class="typing">Archival History of Computing at MIT, 1950–62</h1>
+    <div class="row my-2">
+    <div class="col-md-12 text-center acre">
+    The MIT Digital Humanities Programs, together with the MIT Libraries Archives
+        and Special Collections, have digitized and contextualized the majority
+        of archived documents relating to the history of the <b>MIT Computation Center</b>
+        from the&nbsp;1950s&nbsp;and&nbsp;early&nbsp;1960s.
+    </div>
+    </div>
 {% endblock %}
 
 {% block content %}
-<div class='card-deck'>
+<div class="row my-4">
     {% for story in stories %}
-        {% include 'archives/stories/' + story + '-teaser.jinja2' %} 
+        {% include 'archives/stories/' + story + '-teaser.jinja2' %}
     {% endfor %}
 </div>
 {% endblock %}

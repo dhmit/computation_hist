@@ -1,3 +1,4 @@
+import random
 import re
 from collections import Counter
 
@@ -8,35 +9,40 @@ from django.template.loader import TemplateDoesNotExist
 from django.core.exceptions import ObjectDoesNotExist
 
 from utilities.common import get_file_path
-from .models import Person, Document, Box, Folder, Organization, Page
+from .models import Person, Document, Box, Folder, Organization
+
+
+# NOTE(ra): this hardcoded pattern isn't great, but we're since we're using
+# jinja2 templates as a data source for the stories, it gets us to a usable
+# prototype without having to, e.g., read the folder of story templates
+# and load their names dynamically. We'll replace this with something
+# more robust once the story system takes firmer shape.
+
+STORIES = [
+    'announcement_of_the_IBM_704',
+    'debugging',
+    'mayowa_story',
+    'qualifications_for_programmer',
+    'time_records',
+    'digital_humanities',
+    'women_in_symbols',
+]
+
 
 def index(request):
-    # NOTE(ra): this hardcoded pattern isn't great, but we're since we're using
-    # jinja2 templates as a data source for the stories, it gets us to a usable
-    # prototype without having to, e.g., read the folder of story templates
-    # and load their names dynamically. We'll replace this with something
-    # more robust once the story system takes firmer shape.
-    stories = [
-        'debugging',
-        'qualifications_for_programmer',
-        'women_in_symbols',
-        'sample_story',
-        'sample_story',
-        'mayowa_story'
-    ]
-
-    context = {'stories': stories}
+    story_selection = random.sample(STORIES, 6)
+    context = {'stories': story_selection}
     return render(request, 'index.jinja2', context)
 
 
-def person(request, person_id):
+def person(request, slug):
     person_obj = get_object_or_404(
         Person.objects.prefetch_related(
             'author_person',
             'recipient_person',
             'cced_person',
         ),
-        pk=person_id)
+        slug=slug)
     document_written_objs = person_obj.author_person.all()
     document_received_objs = person_obj.recipient_person.all()
     document_cced_objs = person_obj.cced_person.all()
@@ -68,7 +74,7 @@ def doc(request, doc_id=None, slug=None):
         # reach this branch, something has gone awry.
 
         # TODO(ra): implement this branch
-        # 1. add a url pattern that matches 
+        # 1. add a url pattern that matches
         # 2. then do something sensible here... (probably a redirect)
         raise RuntimeError('This branch should be unreachable!')
 
@@ -85,7 +91,6 @@ def doc(request, doc_id=None, slug=None):
     if cced_organization_objs:
         if cced_organization_objs[0].name == 'unknown':
             cced_organization_objs = None
-    page_objs = doc_obj.page_set.all()
     doc_pdf_url = str(get_file_path(doc_obj.folder.box.number, doc_obj.folder.number,
                                     doc_obj.folder.name, file_type='pdf', path_type='aws',
                                     doc_id=doc_obj.doc_id))
@@ -96,17 +101,16 @@ def doc(request, doc_id=None, slug=None):
         'author_person_objs': author_person_objs,
         'author_organization_objs': author_organization_objs,
         'recipient_person_objs': recipient_person_objs,
-        'recipient_orgaization_objs': recipient_organization_objs,
+        'recipient_organization_objs': recipient_organization_objs,
         'cced_person_objs': cced_person_objs,
         'cced_organization_objs': cced_organization_objs,
-        'page_objs': page_objs,
         'doc_pdf_url': doc_pdf_url,
     }
     return render(request, 'archives/doc.jinja2', obj_dict)
 
 
-def box(request, box_id):
-    box_obj = get_object_or_404(Box, pk=box_id)
+def box(request, slug):
+    box_obj = get_object_or_404(Box, slug=slug)
     folder_objs = box_obj.folder_set.all()
     obj_dict = {
         'box_obj': box_obj,
@@ -115,8 +119,8 @@ def box(request, box_id):
     return render(request, 'archives/box.jinja2', obj_dict)
 
 
-def folder(request, folder_id):
-    folder_obj = get_object_or_404(Folder, pk=folder_id)
+def folder(request, slug):
+    folder_obj = get_object_or_404(Folder, slug=slug)
     document_objs = folder_obj.document_set.all()
     obj_dict = {
         'folder_obj': folder_obj,
@@ -127,8 +131,8 @@ def folder(request, folder_id):
     return response
 
 
-def organization(request, org_id):
-    org_obj = get_object_or_404(Organization, pk=org_id)
+def organization(request, slug):
+    org_obj = get_object_or_404(Organization, slug=slug)
     document_written_objs = org_obj.author_organization.all()
     document_received_objs = org_obj.recipient_organization.all()
     document_cced_objs = org_obj.cced_organization.all()
@@ -139,31 +143,6 @@ def organization(request, org_id):
         'document_cced_objs': document_cced_objs
     }
     response = render(request, 'archives/organization.jinja2', obj_dict)
-    return response
-
-
-def page(request, page_id):
-    page_obj = get_object_or_404(Page, pk=page_id)
-    document_obj = page_obj.document
-    png_url_amz = page_obj.png_url
-    try:
-        next_page_number = page_obj.page_number + 1
-        next_page = Page.objects.get(document=document_obj, page_number=next_page_number)
-    except ObjectDoesNotExist:
-        next_page = None
-    try:
-        previous_page_number = page_obj.page_number - 1
-        previous_page = Page.objects.get(document=document_obj, page_number=previous_page_number)
-    except ObjectDoesNotExist:
-        previous_page = None
-    obj_dict = {
-        'page_obj': page_obj,
-        'document_obj': document_obj,
-        'next_page': next_page,
-        'previous_page': previous_page,
-        'png_url_amz': png_url_amz,
-    }
-    response = render(request, 'archives/page.jinja2', obj_dict)
     return response
 
 
@@ -208,13 +187,13 @@ def search_results(request):
     # key
 
     user_input = request.GET['q']
+    people_objs = Person.objects.filter(Q(last__icontains=user_input) |
+                                        Q(first__icontains=user_input))
+    document_objs = Document.objects.filter(title__icontains=user_input)
+    folder_objs = Folder.objects.filter(full__icontains=user_input)
+    organization_objs = Organization.objects.filter(Q(name__icontains=user_input) |
+                                                    Q(location__icontains=user_input))
 
-    people_objs = Person.objects.filter(Q(last__contains=user_input) |
-                                        Q( first__contains=user_input))
-    document_objs = Document.objects.filter(title__contains=user_input)
-    folder_objs = Folder.objects.filter(full__contains=user_input)
-    organization_objs = Organization.objects.filter(Q(name__contains=user_input) |
-                                                    Q(location__contains=user_input))
 
     obj_dict = {
         'people_objs': people_objs,
@@ -338,7 +317,7 @@ def process_advanced_search(search_params):
     if title:
         docs_qs = docs_qs.filter(Q(title__icontains=title))
 
-    text = search_params.get('text') # full text search
+    text = search_params.get('text')  # full text search
     if text:
         words_q = Q()
 
@@ -404,9 +383,39 @@ def process_advanced_search(search_params):
 
 
 def story(request, slug):
-    template = f'archives/stories/{slug}.jinja2'
-    try:
-        return render(request, template)
-    except TemplateDoesNotExist:
+    if not slug in STORIES:
         raise Http404('A story with this slug does not exist.')
+
+    template = f'archives/stories/{slug}.jinja2'
+    return render(request, template)
+
+
+def net_viz(request):
+    import json
+    from pathlib import Path
+
+    network = Path('static', 'json', 'network.json')
+    with open(network, 'r') as file:
+        graph = file.read()
+
+    graph_dict = json.loads(graph)
+
+    nodes = graph_dict['nodes']
+    links = graph_dict['links']
+
+    # Sorts out everything but the top 100 nodes
+    nodes = sorted(nodes, key=lambda i: i['weight'], reverse=True)[:100]
+    node_list = [i['id'] for i in nodes]
+
+    # Removes all links that connect to nodes that no longer exist
+    links = [i for i in links if i['source'] in node_list and i['target'] in node_list]
+
+    graph_dict = {'nodes': nodes, 'links': links}
+    return render(request, 'archives/net_viz.jinja2', graph_dict)
+
+    
+def stories(request):
+    template = 'archives/stories.jinja2'
+    context = {'stories': STORIES}
+    return render(request, template, context)
 

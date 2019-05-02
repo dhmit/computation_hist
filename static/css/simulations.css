@@ -1,0 +1,55 @@
+.tooltip-inner {
+    white-space: pre-wrap;
+}
+
+.tooltip {
+  pointer-events: none;
+}
+
+.blink {
+    color: white;
+    font-weight: bold;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+code {
+    font-family: Inconsolata, monospace;
+}
+
+.symbolic_code {
+    background-color: white;
+    font-family: Inconsolata, monospace;
+}
+
+#general_memory_div {
+    font-family: Acre-Regular, monospace;
+}
+
+#other_registers {
+    font-family: Acre-Regular, monospace;
+}
+
+.number {
+    font-family: Inconsolata, monospace;
+}
+
+.next_instruction {
+    background-color: deepskyblue;
+}
+
+.target_register {
+    background-color: #ff0066;
+}
+
+.special_highlight {
+    background-color: mediumseagreen;
+}
+
+#available_operations {
+    alignment: center;
+    font-family: Inconsolata, monospace;
+    text-align: center;
+}
