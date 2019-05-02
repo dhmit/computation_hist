@@ -5,15 +5,16 @@
 {% block header %}IBM 704 Assembly Addition{% endblock %}
 
 {% block description %}
-    Welcome to the IBM 704 simulator!  Here we have a simple example to introduce you how it works.<br/>
+    Welcome to the IBM 704 simulator!  To learn how it works, we'll walk through an example. <br/>
     <br/>
     In the middle column we have the general memory of our computer.  This is where all the data comprising our program
     lives.  The general memory is broken into 8192 <b>words</b>, or <b>registers</b>, of 36 bits each (although here we
-    only show 6 words).  On the right we have some special registers that hold data while the program is executed.
+    only show 6 words).  Each word represents a single, complete unit of data representing either a number, or an
+    instruction.  On the right we have some special registers that hold data while the program is executed.
     Now, reading binary is rather difficult, so we’ve allowed you to see the possible interpretations of a word by
     mousing over it. Note that the computer doesn’t know how to interpret words automatically-- it is up to the
-    programmer to tell the computer how to interpret each word.  If you mess up, you can end up using your program as
-    data, or trying to execute numbers as instructions!<br/>
+    programmer to tell the computer how to interpret each word.  If one makes a mistake, they could end up using the
+    program as data, or trying to execute numbers as instructions!<br/>
     <br/>
     In the left column we have the code that comprises our program.  For this simulator, the code is written in
     <b>assembly language</b>.  Assembly language is coding language that is very “low-level”, in programming terms: this means
