@@ -28,7 +28,7 @@
         <a class="anchor" id="people"></a>
         <h3>People that match your search</h3>
         {% for item in people_objs %}
-            <a href="/archives/person/{{ item.pk }}">{{ item.last }} {{ item.first }}</a>
+            <a href="{{ item.url }}">{{ item.last }} {{ item.first }}</a>
             <br>
         {% endfor %}
     {% endif %}
@@ -37,7 +37,7 @@
         <a class="anchor" id="doc"></a>
         <h3 id="document_search_anchor">Documents that match your search</h3>
         {% for item in document_objs %}
-            <a href="/archives/doc/{{ item.slug }}">{{ item.title }}</a>
+            <a href="{{ item.url }}">{{ item.title }}</a>
             <br>
         {% endfor %}
     {% endif %}
@@ -46,7 +46,7 @@
         <a class="anchor" id="folder"></a>
         <h3>Folders that match your search</h3>
         {% for item in folder_objs %}
-            <a href="/archives/folder/{{ item.pk }}">{{ item.full }}</a>
+            <a href="{{ item.url }}">{{ item.full }}</a>
             <br>
         {% endfor %}
     {% endif %}
@@ -55,7 +55,7 @@
         <a class="anchor" id="org"></a>
         <h3>Organizations that match your search</h3>
         {% for item in organization_objs %}
-            <a href="/archives/organization/{{ item.pk }}">{{ item.name }}</a>
+            <a href="{{ item.url }}">{{ item.name }}</a>
             <br>
         {% endfor %}
     {% endif %}
