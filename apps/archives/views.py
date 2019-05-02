@@ -276,7 +276,7 @@ def advanced_search(request):
     results, facets = process_advanced_search(search_params)
     search_objs = {
         'results': results,  # = doc_objs
-        'facets': facets,
+        'search_facets': facets,
         'search_params': search_params,
         'doc_types': doc_types
     }
