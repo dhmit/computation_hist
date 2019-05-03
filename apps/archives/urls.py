@@ -15,5 +15,6 @@ urlpatterns = [
     path('browse/', views.browse, name='browse'),
     path('story/<str:slug>', views.story, name='story'),
     path('net_viz', views.net_viz, name='net_viz'),
-    path('stories/', views.stories, name='stories')
+    path('stories/', views.stories, name='stories'),
+    path('team', views.team, name='team')
 ]

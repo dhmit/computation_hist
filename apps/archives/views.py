@@ -250,3 +250,7 @@ def stories(request):
     context = {'stories': STORIES}
     return render(request, template, context)
 
+
+def team(request):
+    return render(request, 'archives/contributors_page.jinja2')
+
