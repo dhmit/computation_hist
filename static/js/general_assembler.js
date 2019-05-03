@@ -3,19 +3,6 @@
 import { GeneralAssemblerRenderer } from './render.js';
 import { IBM_704, operation_a_to_no, operation_b_to_no, timer } from './simulator.js';
 
-/**
- * Attaches an event listener to a textarea that allows it to dynamically resize as you type in it.
- * From https://stackoverflow.com/questions/37629860/automatically-resizing-textarea-in-bootstrap.
- *
- * @param {string} id   Id of textarea to attach event listener to.
- */
-function expand_text_area(id) {
-    document.getElementById(id).addEventListener('keyup', function() {
-        this.style.overflow = 'hidden';
-        this.style.height = this.scrollHeight + 'px';
-    }, false);
-}
-
 function display_operations() {
     const operations = new Set();
 
@@ -86,7 +73,7 @@ export function start() {
     $('#remove_line').on('click', () => {
         renderer.remove_code_line();
     });
-    // expand_text_area("code_box");
+
     display_operations();
     renderer.add_code_line();
     renderer.update();
