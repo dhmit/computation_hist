@@ -67,12 +67,15 @@ class Person:
             name_raw = f'{match.groups()[0]}, {match.groups()[2]}. {match.groups()[1]}.'
 
         name = HumanName(name_raw)
-        name.capitalize(force=True)
 
         # If first and middle initials have periods but not spaces -> separate, e.g. "R.K. Teague"
         if re.match('[a-zA-Z]\.[a-zA-Z]\.', name.first):
             name.middle = name.first[2]
             name.first = name.first[0]
+
+        # Capitalize after splitting joined initials, otherwise R.K. becomes R.k. (i.e. middle
+        # inital is interpreted as lower case)
+        name.capitalize(force=True)
 
         name.last = name.last
         name.first = name.first.strip('.')
