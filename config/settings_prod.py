@@ -10,7 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/2.1/ref/settings/
 """
 
-from .settings-base import *
+from .settings_base import *
 
 # TODO(ra): replace this a fileread or env variable
 SECRET_KEY = '9^vt7gzj#x_234%96*+-(a%j#h3($&s@(lrt-e)mhb=w#*56vz'
