@@ -16,6 +16,7 @@ const no_to_operation_b = {
     0o401: "ADM",
     0o534: "LXA",
     0o4534: "LXD",
+    0o4634: "SXD",
     0o300: "FAD",
     0o302: "FSB",
     0o560: "LDQ",
@@ -475,13 +476,24 @@ class General_Word extends Word {
     }
 
     /**
-     * Gets the decrement from the word as interpreted as Type B instruction.
+     * Gets the decrement from the word as interpreted as Type A instruction.
      *
      * @returns {number}
      */
     get decrement() {
-        let decrement = this.contents.substring(3, 18);
+        const decrement = this.contents.substring(3, 18);
         return parseInt(decrement, 2);
+    }
+
+    /**
+     * Set decrement of word to new value.
+     *
+     * @param {number} new_decrement
+     */
+    set decrement(new_decrement) {
+        const new_str = convert_to_binary(new_decrement, 15);
+        const new_contents = replaceAt(this.contents, 3, new_str);
+        this.update_contents(new_contents);
     }
 
     /**
@@ -1403,9 +1415,28 @@ export class IBM_704 {
      * @param {number}  tag         Specifies the index register to be changed.
      */
     LXD(address, tag) {
-        let index_register = this.get_tag(tag);
-        let decrement_to_store = this.storage_register.decrement;
+        const index_register = this.get_tag(tag);
+        const decrement_to_store = this.storage_register.decrement;
         index_register.update(decrement_to_store, this.size);
+    }
+
+    /**
+     * Emulates the IBM 704 Store Index in Decrement (SXD) operation.
+     *
+     * Not indexable. The C(Y)[3:17] are cleared and the number in the specified index register replaces the decrement
+     * part of the c(Y). The c(Y)[1,2,18:35] are unchanged. The contents of the index register are unchanged if one
+     * index register is specified.
+     *
+     * In the actual machine, if a multiple tag is specified, the “logical or” of the contents of these index
+     * registers will replace the C(Y)[3:17] and will also replace the contents of the specified index registers.
+     * Not implemented yet.
+     *
+     * @param {number} address  Address of word to change.
+     * @param {number} tag      Specifies index register to get value from.
+     */
+    SXD(address, tag) {
+        const index_register = this.get_tag(tag);
+        this.general_memory[address].decrement = index_register.valueOf();
     }
 
     /**
