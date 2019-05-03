@@ -21,7 +21,7 @@ Box number {{box_obj.number}}
         <tr>
           <th scope="row">{{ loop.index }} </th>
 
-            <td><a href = "/archives/folder/{{item.pk}}">{{ item }}</a></td>
+            <td><a href = "{{ item.url }}">{{ item }}</a></td>
         </tr>
       {% endfor %}
       </tbody>
