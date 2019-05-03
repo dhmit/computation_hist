@@ -160,7 +160,7 @@ def list_obj(request, model_str):
     elif model_str == "person":
         model_objs = get_list_or_404(Person)
     elif model_str == "folder":
-        model_objs = get_list_or_404(Folder)
+        model_objs = get_list_or_404(Folder.objects.prefetch_related('box'))
     elif model_str == "box":
         model_objs = get_list_or_404(Box)
     else:
