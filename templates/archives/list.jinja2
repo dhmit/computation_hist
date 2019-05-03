@@ -28,7 +28,7 @@
 {% block content %}
     <br>
     <div class="starter-template">
-        {% for item in model_objs|sort(attribute='slug') %}
+        {% for item in model_objs %}
             <div class="list-group">
 {#                {% if model_str == '' %}#}
                 <a href="{{ item.url }}"
