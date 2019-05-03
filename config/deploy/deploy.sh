@@ -1,6 +1,7 @@
 #!/bin/bash
 
 source /home/ubuntu/venv/bin/activate
+export DJANGO_SETTINGS_MODULE='config.settings_prod'
 
 echo 'Be sure to run with sudo'
 
