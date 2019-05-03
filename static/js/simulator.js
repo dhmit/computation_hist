@@ -18,6 +18,7 @@ const no_to_operation_b = {
     0o4534: "LXD",
     0o4634: "SXD",
     0o734: "PAX",
+    0o4734: "PDX",
     0o300: "FAD",
     0o302: "FSB",
     0o560: "LDQ",
@@ -856,6 +857,16 @@ class Accumulator extends Word {
         const str_address = this.contents.substr(-15);
         return parseInt(str_address, 2);
     }
+
+    /**
+     * Gets the decrement from the word as interpreted as Type A instruction.
+     *
+     * @returns {number}
+     */
+    get decrement() {
+        const decrement = this.contents.substring(5, 20);
+        return parseInt(decrement, 2);
+    }
 }
 Accumulator.Sign = 0;
 Accumulator.Q = 1;
@@ -1457,12 +1468,26 @@ export class IBM_704 {
      * Stores the address of the accumulator into the specified index register.
      * Not indexable.
      *
-     * @param {number}  address     Address of register to extract address from.
+     * @param {number}  address     unused
      * @param {number}  tag         Specifies the index register to be changed.
      */
     PAX(address, tag) {
         const index_register = this.get_tag(tag);
         index_register.update(this.accumulator.address, this.size);
+    }
+
+    /**
+     * Emulates the IBM 704 Place Decrement in Index (PDX) operation.
+     *
+     * Stores the decrement of the accumulator into the specified index register.
+     * Not indexable.
+     *
+     * @param {number}  address     unused
+     * @param {number}  tag         Specifies the index register to be changed.
+     */
+    PDX(address, tag) {
+        const index_register = this.get_tag(tag);
+        index_register.update(this.accumulator.decrement, this.size);
     }
 
     /**
