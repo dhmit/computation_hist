@@ -144,3 +144,39 @@ body {
 .sim_buttons{
     text-align:center;
 }
+
+.team-member.team-member-lg img {
+  width: 200px;
+  height: 200px;
+  border: 7px solid #fff;
+}
+.team-member.former img {
+    width: 80px;
+    height: 80px;
+    border-width: 3px;
+}
+
+@media (min-width: 768px) {
+  .team-member {
+    margin-bottom: 50px;
+  }
+  .team-member h4 {
+    margin-top: 25px;
+  }
+  .team-member.former {
+    font-size: 90%;
+  }
+  .team-member.former h4 {
+    font-size: 90%;
+  }
+  .team-member:not(.team-member-lg) img {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #fff;
+  }
+  .team-member.former img {
+    width: 100px;
+    height: 100px;
+    border-width: 4px;
+  }
+}
