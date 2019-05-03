@@ -78,11 +78,55 @@ export const looping_with_tix_demo_params = {
 
 
 function populate_code(instructions) {
-    let codeHTML = "";
+    // let codeHTML = "";
+    // for (let i = 0; i < instructions.length; i++) {
+    //     codeHTML += `<p class="symbolic_code" id="symbolic_code${i}">${instructions[i].toString()}</p>\r\n`;
+    // }
+    // $('#code')[0].innerHTML = codeHTML;
+    const code = document.getElementById("code");
     for (let i = 0; i < instructions.length; i++) {
-        codeHTML += `<p class="symbolic_code" id="symbolic_code${i}">${instructions[i].toString()}</p>\r\n`;
+        const line = document.createElement("div");
+        line.classList.add("row");
+        line.classList.add("code_line");
+        line.setAttribute("id", "code_line_" + i.toString());
+        const line_no = document.createElement("p");
+        line_no.classList.add("line_no_text");
+        const line_no_text = document.createTextNode((i + 1) + ". ");
+        line_no.appendChild(line_no_text);
+        line.appendChild(line_no);
+
+        const label = document.createElement("div");
+        label.classList.add("col-sm");
+        label.classList.add("padding-5");
+        label.classList.add("code_label");
+        label.classList.add("symbolic_code");
+        label.setAttribute("id", "code_label_" + i.toString());
+        const label_text = document.createTextNode(instructions[i].label);
+        label.appendChild(label_text);
+        line.appendChild(label);
+
+        const operation = document.createElement("div");
+        operation.classList.add("col-sm");
+        operation.classList.add("padding-5");
+        operation.classList.add("code_operation");
+        operation.classList.add("symbolic_code");
+        operation.setAttribute("id", "code_operation_" + i.toString());
+        const operation_text = document.createTextNode(instructions[i].operation);
+        operation.appendChild(operation_text);
+        line.appendChild(operation);
+        
+        const numbers = document.createElement("div");
+        numbers.classList.add("col-sm");
+        numbers.classList.add("padding-5");
+        numbers.classList.add("code_numbers");
+        numbers.classList.add("symbolic_code");
+        numbers.setAttribute("id", "code_numbers_" + i.toString());
+        const numbers_text = document.createTextNode(instructions[i].numbers);
+        numbers.appendChild(numbers_text);
+        line.appendChild(numbers);
+
+        code.appendChild(line);
     }
-    $('#code')[0].innerHTML = codeHTML;
 }
 
 export function start_demo(demo_params) {

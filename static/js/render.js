@@ -187,7 +187,7 @@ export class DemoRenderer extends Renderer {
 
         await this.update_computer_display(highlighted_registers);
 
-        const code_html = $(".symbolic_code");
+        const code_html = $(".code_line");
         code_html.removeClass("next_instruction");
         const code_line = Math.min(this.computer.ilc.valueOf(), num_code_lines-1);
         if (code_html.length !== 0) {

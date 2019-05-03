@@ -28,9 +28,17 @@ code {
     line-height: 1;
 }
 
-.symbolic_code {
+.code_line {
     background-color: white;
+}
+
+.next_instruction {
+    background-color: deepskyblue;
+}
+
+.symbolic_code {
     font-family: Inconsolata, monospace;
+    border: 1px black;
 }
 
 .line_no_text {
@@ -51,10 +59,6 @@ code {
 
 .number {
     font-family: Inconsolata, monospace;
-}
-
-.next_instruction {
-    background-color: deepskyblue;
 }
 
 .target_register {

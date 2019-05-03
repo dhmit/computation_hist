@@ -1906,7 +1906,7 @@ export class Assembly_Line {
      *
      * @returns {string}
      */
-    get atd() {
+    get numbers() {
         return this.instruction[2];
     }
 }
