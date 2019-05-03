@@ -200,6 +200,17 @@ function name_legend(nodes){
     // create elements <table> and a <tbody>
     let tbl = document.createElement("table");
     let tblBody = document.createElement("tbody");
+    tblBody.setAttribute('display', 'block');
+    let tblHead = document.createElement('thead');
+    tblHead.setAttribute('display', 'block');
+    let head = document.createElement('tr');
+    let headcol = document.createElement('th');
+    let header = document.createTextNode('Authors');
+    headcol.appendChild(header);
+    head.appendChild(headcol);
+    tblHead.appendChild(head);
+    tbl.appendChild(tblHead);
+
 
     // cells creation
     for (let j = 0; j < nodes.length; j++) {
@@ -214,9 +225,9 @@ function name_legend(nodes){
         let cell = document.createElement("td");
         let cellText = document.createTextNode(nodes[j].id);
 
-        cell.appendChild(cellText);
-        person.appendChild(cell);
-        row.appendChild(person);
+        person.appendChild(cellText);
+        cell.appendChild(person);
+        row.appendChild(cell);
 
         //row added to end of table body
         tblBody.appendChild(row);

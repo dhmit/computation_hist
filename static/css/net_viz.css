@@ -1,0 +1,21 @@
+table {
+    float: left;
+    width: 10%
+
+}
+
+.viz {
+    float: left;
+    width: 55%;
+    margin-right: 2%;
+}
+
+/*.fixed_header tbody{*/
+/*  display:block;*/
+/*  overflow:auto;*/
+/*  height:200px;*/
+/*  width:100%;*/
+/*}*/
+/*.fixed_header thead tr{*/
+/*  display:block;*/
+}
