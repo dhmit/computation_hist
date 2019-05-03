@@ -104,29 +104,26 @@
 
 
 {% if docs is defined and not (docs or people) %}
+
     {# displayed only if a search has been processed but with no results #}
     <h3>There are no documents or people that match your search.</h3>
 
 {% else %}
+
 <div class="row">
-    <div class="col-10">
+    <div class="col-12 col-sm-9 pl-0 pr-0 pr-sm-4 pt-4"> <!-- results col -->
+
         {% if people %}
-        <div class="row results_container">
-            <h3>People that match your search</h3>
-                <div class="col-lg-9 col-md-9 col-sm-12 results_col">
-                {% for person in people %}
-                    <div class="person_result">
-                        <h4><a href="{{ person.url }}">{{ person.fullname }}</a></h4>
-                    </div>
-                {% endfor %}
-                </div>
+        <h3>People that match your search</h3>
+        {% for person in people %}
+            <div class="col-xs-auto person_result">
+                <h4><a href="{{ person.url }}">{{ person.fullname }}</a></h4>
             </div>
+        {% endfor %}
         {% endif %}
 
         {% if docs %}
-        <div class="row results_container">
             <h3>Documents that match your search</h3>
-            <div class="col-lg-9 col-md-9 col-sm-12 results_col">
             {% for doc in docs %}
                 <div class="doc_result">
                     <h4><a href="{{ doc.url }}">{{ doc.title }}</a></h4>
@@ -165,47 +162,41 @@
                     </table>
                 </div>
             {% endfor %}
-            </div>
-        </div>
         {% endif %}
-    </div>
+    </div> <!-- end results col -->
 
     {% if search_facets %}
-    <div class="col-3">
-        <label class="text_label" for="title">Author</label>
-        {% for facet in search_facets["authors"]%}
-            {{facet[0]}} ({{ facet[1]}})</br>
-        {% endfor %}
+    <div class="col-3 d-none d-sm-block text-right search_facets">
+    <h5>Refine your search</h5>
+    <table class='table'>
+        <thead><tr><th>Author</th></tr></thead>
+        <tbody>
+            {% for facet in search_facets["authors"]%}
+                <tr><td>{{facet[0]}} ({{ facet[1]}})</td></tr>
+            {% endfor %}
+        </tbody>
 
-        <label class="text_label" for="title">Author Organizations</label>
-        {% for facet in search_facets["author organizations"]%}
-            {{facet[0]}} ({{ facet[1]}})</br>
-        {% endfor %}
+        <thead><tr><th>Recipient</th></tr></thead>
+        <tbody>
+            {% for facet in search_facets["recipients"]%}
+                <tr><td>{{facet[0]}} ({{ facet[1]}})</tr></td>
+            {% endfor %}
+        </tbody>
 
-        <label class="text_label" for="title">Recipient</label>
-        {% for facet in search_facets["recipients"]%}
-            {{facet[0]}} ({{ facet[1]}})</br>
-        {% endfor %}
+        <thead><tr><th>CCed</th></tr></thead>
+        <tbody>
+            {% for facet in search_facets["cceds"]%}
+                <tr><td>{{facet[0]}} ({{ facet[1]}})</tr></td>
+            {% endfor %}
+        </tbody>
 
-        <label class="text_label" for="title">Recipient Organization</label>
-        {% for facet in search_facets["recipient organizations"]%}
-            {{facet[0]}} ({{ facet[1]}})</br>
-        {% endfor %}
-
-        <label class="text_label" for="title">Cceds:</label>
-        {% for facet in search_facets["cceds"]%}
-            {{facet[0]}} ({{ facet[1]}})</br>
-        {% endfor %}
-
-        <label class="text_label" for="title">Cced Organizations:</label>
-        {% for facet in search_facets["cced organizations"]%}
-            {{facet[0]}} ({{ facet[1]}})</br>
-        {% endfor %}
-
-        <label class="text_label" for="title">Years:</label>
-        {% for facet in search_facets["years"]%}
-            {{facet[0]}} ({{ facet[1]}})</br>
-        {% endfor %}
+        <thead><tr><th>Year</th></tr></thead>
+        <tbody>
+            {% for facet in search_facets["years"]%}
+                <tr><td>{{facet[0]}} ({{ facet[1]}})</tr></td>
+            {% endfor %}
+        </tbody>
+    </table>
     </div>
     {% endif %}
 

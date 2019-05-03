@@ -54,30 +54,24 @@ input[type="number"]{
 
 /* Search Results */
 
-.doc_result, .person_result{
+.doc_result, .person_result, .search_facets {
     background-color: #eee;
     overflow: hidden;
     margin: 1em 0 2em;
     padding: 1em 1em;
     box-shadow:0 1px 1px rgba(0,0,0,0.3);
 }
-.doc_result table{
+
+.doc_result table {
     padding-left: 20px;
 }
 
-.td_heading{
+.td_heading {
     font-weight: bold;
 }
 
-
-.doc_result_left_table{
+.doc_result_left_table {
     float:left;
     width: 30%;
 }
-.results_container{
-    padding-top: 30px;
-}
-.results_col{
-    padding-left: 0px;
-    margin-bottom:-35px;
-}
+

@@ -33,7 +33,7 @@ def process_search(search_params):
 
         person_q = Q()
         for word in keywordlist:
-            person_q |= Q(first__iexact=word)
+            person_q |= Q(first__icontains=word) # contains bc first field has both first name AND initials...
             person_q |= Q(last__iexact=word)
         people_qs = Person.objects.filter(person_q)
 
@@ -140,23 +140,20 @@ def generate_search_facets(doc_objs):
         for author in document.author_person.all():
             counter_authors[author.fullname] += 1
         for org in document.author_organization.all():
-            counter_author_organizations[org.name] += 1
+            counter_authors[org.name] += 1
         for recipient in document.recipient_person.all():
             counter_recipients[recipient.fullname] += 1
         for org in document.recipient_organization.all():
-            counter_recipient_organizations[org.name] += 1
+            counter_recipients[org.name] += 1
         for cc in document.cced_person.all():
             counter_cceds[cc.fullname] += 1
         for org in document.cced_organization.all():
-            counter_cced_organizations[org.name] += 1
+            counter_cceds[org.name] += 1
 
     dict_facets = {
         "authors": counter_authors.most_common(10),
-        "author organizations": counter_author_organizations.most_common(10),
         "recipients": counter_recipients.most_common(10),
-        "recipient organizations": counter_recipient_organizations.most_common(10),
         "cceds": counter_cceds.most_common(10),
-        "cced organizations": counter_cced_organizations.most_common(10),
         "years": counter_dates.most_common(10),
     }
     return dict_facets
