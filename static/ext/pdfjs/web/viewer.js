@@ -1561,8 +1561,8 @@ var validateFileURL = void 0;
           origin = _ref14.origin,
           protocol = _ref14.protocol;
 
-      if (origin !== viewerOrigin && protocol !== 'blob:') {
-        throw new Error('file origin does not match viewer\'s');
+      if (origin !== 'https://s3.amazonaws.com') {
+          throw new Error('Cannot show PDFs except from this project\'s content.');
       }
     } catch (ex) {
       var message = ex && ex.message;
