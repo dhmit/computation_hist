@@ -2,12 +2,13 @@
 /* exported create_force_layout */
 /* exported name_legend */
 
-const width = 960;
-const height = 600;
-const color = d3.scaleSequential(d3.interpolateBrBG);
-
-
 function create_force_layout(nodes, edges) {
+    const width = document.getElementById("visualizations").clientWidth;
+    const height = document.getElementById("visualizations").clientHeight;
+    // const width = 960;
+    // const height = 600;
+
+const color = d3.scaleSequential(d3.interpolateBrBG);
     const graph = {"nodes": nodes, "links": edges};
     let max_weight = 0;
     graph.nodes.forEach(function(d){

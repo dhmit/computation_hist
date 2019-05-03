@@ -9,11 +9,14 @@
 
 {% block content %}
 
-    <svg id="viz"></svg>
+    <div id="visualizations">
+        <svg id="viz"></svg>
+    </div>
 
     <script>
         name_legend({{ nodes|safe }});
     </script>
+
 
     <script>
         create_force_layout({{ nodes|safe }}, {{ links|safe }});
