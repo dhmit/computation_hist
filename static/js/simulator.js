@@ -18,6 +18,7 @@ const no_to_operation_b = {
     0o4534: "LXD",
     0o4634: "SXD",
     0o734: "PAX",
+    0o4754: "PXD",
     0o4734: "PDX",
     0o300: "FAD",
     0o302: "FSB",
@@ -859,13 +860,24 @@ class Accumulator extends Word {
     }
 
     /**
-     * Gets the decrement from the word as interpreted as Type A instruction.
+     * Gets the decrement from the accumulator as interpreted as Type A instruction.
      *
      * @returns {number}
      */
     get decrement() {
         const decrement = this.contents.substring(5, 20);
         return parseInt(decrement, 2);
+    }
+
+    /**
+     * Set decrement of accumulator to new value.
+     *
+     * @param {number} new_decrement
+     */
+    set decrement(new_decrement) {
+        const new_str = convert_to_binary(new_decrement, 15).substr(-15);
+        const new_contents = replaceAt(this.contents, 5, new_str);
+        this.update_contents(new_contents);
     }
 }
 Accumulator.Sign = 0;
@@ -1488,6 +1500,24 @@ export class IBM_704 {
     PDX(address, tag) {
         const index_register = this.get_tag(tag);
         index_register.update(this.accumulator.decrement, this.size);
+    }
+
+    /**
+     * Emulates the IBM 704 Place Index in Decrement (PXD) operation.
+     *
+     * Not indexable. The AC is cleared and the number in the specified index register is placed in the decrement
+     * part of the AC. The contents of the index register are unchanged if one index register is specified.
+     *
+     * In the real machine, if a multiple tag is specified, the “logical or” of the contents of these index
+     * registers will replace the C(AC)[3:17] and will also replace the contents of the specified index registers.
+     *
+     * @param {number}  address     unused
+     * @param {number}  tag         Specifies the index register to get decrement from.
+     */
+    PXD(address, tag) {
+        const index_register = this.get_tag(tag);
+        this.accumulator.update_contents(0);
+        this.accumulator.decrement = index_register.valueOf();
     }
 
     /**
