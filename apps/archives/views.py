@@ -165,7 +165,7 @@ def list_obj(request, model_str):
         model_objs = get_list_or_404(Organization)
     elif model_str == "person":
         model_objs = get_list_or_404(Person)
-        model_objs.sort(key=lambda current_person: person_unknown_filter(current_person))
+        model_objs.sort(key=person_unknown_filter)
     elif model_str == "folder":
         model_objs = get_list_or_404(Folder)
     elif model_str == "box":
