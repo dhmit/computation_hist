@@ -78,11 +78,6 @@ export const looping_with_tix_demo_params = {
 
 
 function populate_code(instructions) {
-    // let codeHTML = "";
-    // for (let i = 0; i < instructions.length; i++) {
-    //     codeHTML += `<p class="symbolic_code" id="symbolic_code${i}">${instructions[i].toString()}</p>\r\n`;
-    // }
-    // $('#code')[0].innerHTML = codeHTML;
     const code = document.getElementById("code");
     for (let i = 0; i < instructions.length; i++) {
         const line = document.createElement("div");

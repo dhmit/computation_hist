@@ -28,14 +28,14 @@ code {
     line-height: 1;
 }
 
-.next_instruction {
-    background-color: deepskyblue;
-}
-
 .symbolic_code {
     font-family: Inconsolata, monospace;
     border: 1px solid black;
-    background-color: white;
+    background-color: inherit;
+}
+
+.next_instruction {
+    background-color: deepskyblue;
 }
 
 .line_no_text {
@@ -75,4 +75,8 @@ code {
 #class_buttons {
     text-align: center;
     margin: auto;
+}
+
+#code_heading {
+    text-align: center;
 }

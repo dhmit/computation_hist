@@ -8,9 +8,16 @@
     <div class="container">
         <p id="loading">Loading...</p>
         <div class="row">
-            <div class="col-sm-3">
+            <div class="col-sm-4">
                 <h3>Code</h3>
-                <div id="code"></div>
+                <div id="code">
+                    <div id="code_heading" class="row">
+                        <p>  </p>
+                        <div class="col-sm padding-5" >Lbl</div>
+                        <div class="col-sm padding-5">Op</div>
+                        <div class="col-sm padding-5">ATD</div>
+                    </div>
+                </div>
                 {% if simulation_name == 'general_assembler' %}
                     <div id="class_buttons">
                         <button type="button" id="add_line">+</button>
@@ -24,7 +31,7 @@
             <p>Mouse over words (the binary numbers) to see how they could be interpreted.</p>
             <br />
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-5">
                 <h3>General Memory</h3>
                 <div class="pre-scrollable" id="general_memory_div"></div>
                 <br />
