@@ -107,7 +107,7 @@ export function start_demo(demo_params) {
         while (!computer.halt) {
             computer.step();
             renderer.update(instructions, num_code_lines, highlighted_registers);
-            await timer(750); // jshint ignore:line
+            await timer(600); // jshint ignore:line
         }
     }); // jshint ignore:line
     $('#step_button').on('click', () => {
@@ -121,5 +121,7 @@ export function start_demo(demo_params) {
     });
     renderer.create_memory_display();
     renderer.reset(instructions, initial_memory_values);
-    renderer.update(instructions, num_code_lines);
+    renderer.update(instructions, num_code_lines, highlighted_registers);
+    $('[data-toggle="tooltip"]').tooltip();
+    $("#loading").hide();
 }
