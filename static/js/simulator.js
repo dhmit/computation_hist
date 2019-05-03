@@ -17,6 +17,7 @@ const no_to_operation_b = {
     0o534: "LXA",
     0o4534: "LXD",
     0o4634: "SXD",
+    0o734: "PAX",
     0o300: "FAD",
     0o302: "FSB",
     0o560: "LDQ",
@@ -426,8 +427,14 @@ class General_Word extends Word {
      * @returns {number}    Address that instruction is directed at.
      */
     get address() {
-        let str_address = this.contents.substr(-15);
+        const str_address = this.contents.substr(-15);
         return parseInt(str_address, 2);
+    }
+
+    set address(value) {
+        const str_address = convert_to_binary(value, 15).substr(-15);
+        const new_contents = replaceAt(this.contents, 21, str_address);
+        this.update_contents(new_contents);
     }
 
     /**
@@ -491,7 +498,7 @@ class General_Word extends Word {
      * @param {number} new_decrement
      */
     set decrement(new_decrement) {
-        const new_str = convert_to_binary(new_decrement, 15);
+        const new_str = convert_to_binary(new_decrement, 15).substr(-15);
         const new_contents = replaceAt(this.contents, 3, new_str);
         this.update_contents(new_contents);
     }
@@ -843,6 +850,11 @@ class Accumulator extends Word {
         new_contents += this.contents[1] + this.contents[2];
         new_contents += word.contents.substring(1);
         this.update_contents(new_contents);
+    }
+
+    get address() {
+        const str_address = this.contents.substr(-15);
+        return parseInt(str_address, 2);
     }
 }
 Accumulator.Sign = 0;
@@ -1437,6 +1449,20 @@ export class IBM_704 {
     SXD(address, tag) {
         const index_register = this.get_tag(tag);
         this.general_memory[address].decrement = index_register.valueOf();
+    }
+
+    /**
+     * Emulates the IBM 704 Place Address in Index (PAX) operation.
+     *
+     * Stores the address of the accumulator into the specified index register.
+     * Not indexable.
+     *
+     * @param {number}  address     Address of register to extract address from.
+     * @param {number}  tag         Specifies the index register to be changed.
+     */
+    PAX(address, tag) {
+        const index_register = this.get_tag(tag);
+        index_register.update(this.accumulator.address, this.size);
     }
 
     /**
