@@ -19,8 +19,25 @@ code {
     font-family: Inconsolata, monospace;
 }
 
+.padding-5 {
+    padding: 5px !important;
+}
+
+.code_box {
+    resize: none !important;
+    line-height: 1;
+}
+
 .symbolic_code {
     background-color: white;
+    font-family: Inconsolata, monospace;
+}
+
+.line_no_text {
+    vertical-align: center;
+}
+
+#code {
     font-family: Inconsolata, monospace;
 }
 

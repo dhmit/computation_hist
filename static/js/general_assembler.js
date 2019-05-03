@@ -16,7 +16,6 @@ function expand_text_area(id) {
     }, false);
 }
 
-
 function display_operations() {
     const operations = new Set();
 
@@ -81,8 +80,9 @@ export function start() {
         renderer.highlighting = !renderer.highlighting;
         renderer.update();
     });
-    expand_text_area("code_box");
+    // expand_text_area("code_box");
     display_operations();
+    renderer.add_code_line();
     renderer.update();
     $('[data-toggle="tooltip"]').tooltip();
     $("#loading").hide();
