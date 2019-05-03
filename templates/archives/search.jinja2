@@ -172,28 +172,44 @@
         <thead><tr><th>Author</th></tr></thead>
         <tbody>
             {% for facet in search_facets["authors"]%}
-                <tr><td>{{facet[0]}} ({{ facet[1]}})</td></tr>
+                <tr><td>
+                <a href='#' id='refine_author:{{ facet[0] }}'>
+                    {{ facet[0] }} ({{ facet[1]}})
+                </a>
+                </td></tr>
             {% endfor %}
         </tbody>
 
         <thead><tr><th>Recipient</th></tr></thead>
         <tbody>
             {% for facet in search_facets["recipients"]%}
-                <tr><td>{{facet[0]}} ({{ facet[1]}})</tr></td>
+                <tr><td>
+                <a href='#' id='refine_recipient:{{ facet[0] }}'>
+                    {{ facet[0] }} ({{ facet[1]}})
+                </a>
+                </td></tr>
             {% endfor %}
         </tbody>
 
         <thead><tr><th>CCed</th></tr></thead>
         <tbody>
             {% for facet in search_facets["cceds"]%}
-                <tr><td>{{facet[0]}} ({{ facet[1]}})</tr></td>
+                <tr><td>
+                <a href='#' id='refine_cced:{{ facet[0] }}'>
+                    {{ facet[0] }} ({{ facet[1]}})
+                </a>
+                </td></tr>
             {% endfor %}
         </tbody>
 
         <thead><tr><th>Year</th></tr></thead>
         <tbody>
             {% for facet in search_facets["years"]%}
-                <tr><td>{{facet[0]}} ({{ facet[1]}})</tr></td>
+                <tr><td>
+                <a href='#' id='refine_year:{{ facet[0] }}'>
+                    {{ facet[0] }} ({{ facet[1]}})
+                </a>
+                </td></tr>
             {% endfor %}
         </tbody>
     </table>
@@ -206,3 +222,9 @@
 
 {%  endblock %}
 
+{% block scripts %}
+<script type="module">
+    import { setup_refine_search } from "{{ static('js/search.js') }}"
+    setup_refine_search();
+</script>
+{% endblock %}
