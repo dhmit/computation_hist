@@ -25,6 +25,7 @@ STORIES = [
     'time_records',
     'digital_humanities',
     'women_in_symbols',
+    'whirlwind',
 ]
 
 
