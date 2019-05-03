@@ -14,7 +14,14 @@ const no_to_operation_b = {
     0o402: "SUB",
     0o4400: "SBM",
     0o401: "ADM",
+    0o622: "STD",
+    0o621: "STA",
     0o534: "LXA",
+    0o4534: "LXD",
+    0o4634: "SXD",
+    0o734: "PAX",
+    0o4754: "PXD",
+    0o4734: "PDX",
     0o300: "FAD",
     0o302: "FSB",
     0o560: "LDQ",
@@ -28,11 +35,20 @@ const no_to_operation_b = {
     0o020: "TRA",
     0o100: "TZE",
     0o4100: "TNZ",
+    0o120: "TPL",
+    0o4120: "TMI",
+    0o140: "TOV",
+    0o4140: "TNO",
+    0o162: "TQP",
+    0o074: "TSX",
 };
 
 const no_to_operation_a = {
     0b110: "TNX",
     0b010: "TIX",
+    0b001: "TXI",
+    0b011: "TXH",
+    0b111: "TXL",
     0b000: "PZE", // hack for pseudoinstruction PZE
 };
 export const operation_b_to_no = {};
@@ -437,8 +453,14 @@ class General_Word extends Word {
      * @returns {number}    Address that instruction is directed at.
      */
     get address() {
-        let str_address = this.contents.substr(-15);
+        const str_address = this.contents.substr(-15);
         return parseInt(str_address, 2);
+    }
+
+    set address(value) {
+        const str_address = convert_to_binary(value, 15).substr(-15);
+        const new_contents = replaceAt(this.contents, 21, str_address);
+        this.update_contents(new_contents);
     }
 
     /**
@@ -487,13 +509,24 @@ class General_Word extends Word {
     }
 
     /**
-     * Gets the decrement from the word as interpreted as Type B instruction.
+     * Gets the decrement from the word as interpreted as Type A instruction.
      *
      * @returns {number}
      */
     get decrement() {
-        let decrement = this.contents.substring(3, 18);
+        const decrement = this.contents.substring(3, 18);
         return parseInt(decrement, 2);
+    }
+
+    /**
+     * Set decrement of word to new value.
+     *
+     * @param {number} new_decrement
+     */
+    set decrement(new_decrement) {
+        const new_str = convert_to_binary(new_decrement, 15).substr(-15);
+        const new_contents = replaceAt(this.contents, 3, new_str);
+        this.update_contents(new_contents);
     }
 
     /**
@@ -844,6 +877,32 @@ class Accumulator extends Word {
         new_contents += word.contents.substring(1);
         this.update_contents(new_contents);
     }
+
+    get address() {
+        const str_address = this.contents.substr(-15);
+        return parseInt(str_address, 2);
+    }
+
+    /**
+     * Gets the decrement from the accumulator as interpreted as Type A instruction.
+     *
+     * @returns {number}
+     */
+    get decrement() {
+        const decrement = this.contents.substring(5, 20);
+        return parseInt(decrement, 2);
+    }
+
+    /**
+     * Set decrement of accumulator to new value.
+     *
+     * @param {number} new_decrement
+     */
+    set decrement(new_decrement) {
+        const new_str = convert_to_binary(new_decrement, 15).substr(-15);
+        const new_contents = replaceAt(this.contents, 5, new_str);
+        this.update_contents(new_contents);
+    }
 }
 Accumulator.Sign = 0;
 Accumulator.Q = 1;
@@ -990,20 +1049,26 @@ class Instruction_Location_Register extends Word {
     }
 
     /**
-     * Increases the instruction location register by value.  Note that the ILC can overflow and
-     * go back to zero.
+     * Update Instruction Location Register value.
      *
-     * @param {number} value    The amount that the instruction location register increases by.
+     * @param {number} value            New location.
+     * @param {number} computer_size    Size of computer.
      */
-    skip(value) {
-        this.update_contents(this.valueOf() + value);
+    update(value, computer_size) {
+        if (value < 0) {
+            this.update_contents((value % computer_size) + computer_size);
+        } else {
+            this.update_contents(value % computer_size);
+        }
     }
 
     /**
      * Increment the instruction location register by 1.
+     *
+     * @param {number} computer_size    Size of computer.
      */
-    increment() {
-        this.skip(1);
+    increment(computer_size) {
+        this.update(this.valueOf() + 1, computer_size);
     }
 }
 
@@ -1018,6 +1083,21 @@ class Index_Register extends Word {
      */
     constructor(contents) {
         super(contents, 13);
+    }
+
+
+    /**
+     * Update value of index register.
+     *
+     * @param {number}  value           New value of index register.
+     * @param {number}  computer_size   Size of computer.
+     */
+    update(value, computer_size) {
+        if (value < 0) {
+            this.update_contents((value % computer_size) + computer_size);
+        } else {
+            this.update_contents(value);
+        }
     }
 }
 
@@ -1045,7 +1125,7 @@ export class IBM_704 {
         }
         let instruction_word = this.general_memory[this.ilc.valueOf()];
         this.instruction_register.store_instruction(instruction_word);
-        this.ilc.increment();
+        this.ilc.increment(this.size);
         let effective_address = instruction_word.address;
         let instruction = instruction_word.instruction;
         if (instruction.indexable()) {
@@ -1059,6 +1139,10 @@ export class IBM_704 {
             if (tag_str[2] === "1") {
                 effective_address -= this.index_a.valueOf();
             }
+        }
+        effective_address %= this.size;
+        if (effective_address < 0) {
+            effective_address += this.size;
         }
         this.storage_register.update_contents(this.general_memory[effective_address]);
         if (instruction_word.is_typeB()) {
@@ -1449,7 +1533,7 @@ export class IBM_704 {
      */
     HTR(address) {
         this.halt = true;
-        this.ilc.update_contents(address);
+        this.ilc.update(address, this.size);
     }
 
     /**
@@ -1514,9 +1598,32 @@ export class IBM_704 {
     }
 
     /**
+     * Emulates the IBM 704 Store Decrement (STD) operation.
+     *
+     * Stores decrement of accumulator into word at address.
+     *
+     * @param {number}  address     The address of the word to change the decrement of.
+     */
+    STD(address) {
+        this.general_memory[address].decrement = this.accumulator.decrement;
+    }
+
+    /**
+     * Emulates the IBM 704 Store Address (STA) operation.
+     *
+     * Stores address of accumulator into word at address.
+     *
+     * @param {number}  address     The address of the word to change the decrement of.
+     */
+    STA(address) {
+        this.general_memory[address].address = this.accumulator.address;
+    }
+
+    /**
      * Emulates the IBM 704 Load Index from Address (LXA) operation.
      *
-     * Stores the address of the word at the specified address
+     * Stores the address of the word at the specified address into the specified index register.
+     * Not indexable.
      *
      * @param {number}  address     Address of register to extract address from.
      * @param {number}  tag         Specifies the index register to be changed.
@@ -1524,7 +1631,87 @@ export class IBM_704 {
     LXA(address, tag) {
         let index_register = this.get_tag(tag);
         let address_to_store = this.storage_register.address;
-        index_register.update_contents(address_to_store);
+        index_register.update(address_to_store, this.size);
+    }
+
+    /**
+     * Emulates the IBM 704 Load Index from Decrement (LXD) operation.
+     *
+     * Stores the decrement of the word at the specified address into the speicified index register.
+     * Not indexable.
+     *
+     * @param {number}  address     Address of register to extract address from.
+     * @param {number}  tag         Specifies the index register to be changed.
+     */
+    LXD(address, tag) {
+        const index_register = this.get_tag(tag);
+        const decrement_to_store = this.storage_register.decrement;
+        index_register.update(decrement_to_store, this.size);
+    }
+
+    /**
+     * Emulates the IBM 704 Store Index in Decrement (SXD) operation.
+     *
+     * Not indexable. The C(Y)[3:17] are cleared and the number in the specified index register replaces the decrement
+     * part of the c(Y). The c(Y)[1,2,18:35] are unchanged. The contents of the index register are unchanged if one
+     * index register is specified.
+     *
+     * In the actual machine, if a multiple tag is specified, the “logical or” of the contents of these index
+     * registers will replace the C(Y)[3:17] and will also replace the contents of the specified index registers.
+     * Not implemented yet.
+     *
+     * @param {number} address  Address of word to change.
+     * @param {number} tag      Specifies index register to get value from.
+     */
+    SXD(address, tag) {
+        const index_register = this.get_tag(tag);
+        this.general_memory[address].decrement = index_register.valueOf();
+    }
+
+    /**
+     * Emulates the IBM 704 Place Address in Index (PAX) operation.
+     *
+     * Stores the address of the accumulator into the specified index register.
+     * Not indexable.
+     *
+     * @param {number}  address     unused
+     * @param {number}  tag         Specifies the index register to be changed.
+     */
+    PAX(address, tag) {
+        const index_register = this.get_tag(tag);
+        index_register.update(this.accumulator.address, this.size);
+    }
+
+    /**
+     * Emulates the IBM 704 Place Decrement in Index (PDX) operation.
+     *
+     * Stores the decrement of the accumulator into the specified index register.
+     * Not indexable.
+     *
+     * @param {number}  address     unused
+     * @param {number}  tag         Specifies the index register to be changed.
+     */
+    PDX(address, tag) {
+        const index_register = this.get_tag(tag);
+        index_register.update(this.accumulator.decrement, this.size);
+    }
+
+    /**
+     * Emulates the IBM 704 Place Index in Decrement (PXD) operation.
+     *
+     * Not indexable. The AC is cleared and the number in the specified index register is placed in the decrement
+     * part of the AC. The contents of the index register are unchanged if one index register is specified.
+     *
+     * In the real machine, if a multiple tag is specified, the “logical or” of the contents of these index
+     * registers will replace the C(AC)[3:17] and will also replace the contents of the specified index registers.
+     *
+     * @param {number}  address     unused
+     * @param {number}  tag         Specifies the index register to get decrement from.
+     */
+    PXD(address, tag) {
+        const index_register = this.get_tag(tag);
+        this.accumulator.update_contents(0);
+        this.accumulator.decrement = index_register.valueOf();
     }
 
     /**
@@ -1778,7 +1965,7 @@ export class IBM_704 {
      * @param {number}  address     Address to jump to.
      */
     TRA(address) {
-        this.ilc.update_contents(address);
+        this.ilc.update(address, this.size);
     }
 
     /**
@@ -1790,7 +1977,7 @@ export class IBM_704 {
      */
     TZE(address) {
         if (this.accumulator.fixed_point === 0) {
-            this.ilc.update_contents(address);
+            this.ilc.update(address, this.size);
         }
     }
 
@@ -1803,8 +1990,102 @@ export class IBM_704 {
      */
     TNZ(address) {
         if (this.accumulator.fixed_point !== 0) {
-            this.ilc.update_contents(address);
+            this.ilc.update(address, this.size);
         }
+    }
+
+    /**
+     * Emulates the IBM 704 Transfer on Plus (TPL) operation.
+     *
+     * If the sign bit of the AC is positive, the calculator takes the next instruction from location Y and
+     * proceeds from there. If the sign bit of the AC is negative, the calculator proceeds to the
+     * next instruction in sequence.
+     *
+     * @param {number}  address     Address to jump to.
+     */
+    TPL(address) {
+        if (this.accumulator.contents[Accumulator.Sign] === "0") {
+            this.ilc.update(address, this.size);
+        }
+    }
+
+    /**
+     * Emulates the IBM 704 Transfer on Minus (TMI) operation.
+     *
+     * If the sign bit of the AC is negative, the calculator takes the next instruction from location Y and
+     * proceeds from there. If the sign bit of the AC is positive, the calculator proceeds to the
+     * next instruction in sequence.
+     *
+     * @param {number}  address     Address to jump to.
+     */
+    TMI(address) {
+        if (this.accumulator.contents[Accumulator.Sign] === "1") {
+            this.ilc.update(address, this.size);
+        }
+    }
+
+    /**
+     * Emulates the IBM 704 Transfer on Overflow (TOV) operation.
+     *
+     * If the AC overflow indicator and light are on as the result of a previous operation, the indicator and light
+     * are turned off and the calculator takes the next instruction from location Y and proceeds from there.
+     * If the indicator and light are off, the calculator proceeds to the next instruction in sequence.
+     *
+     * @param {number}  address     Address to jump to.
+     */
+    TOV(address) {
+        if (this.ac_overflow) {
+            this.ilc.update(address, this.size);
+        }
+        this.ac_overflow = false;
+    }
+
+    /**
+     * Emulates the IBM 704 Transfer on No Overflow (TOV) operation.
+     *
+     * If the AC overflow indicator and light are off, the calculator takes the next instruction from location Y and
+     * proceeds from there. If the indicator and light are on, the calculator proceeds to the next instruction in
+     * sequence after turning off the indicator and light.
+     *
+     * @param {number}  address     Address to jump to.
+     */
+    TNO(address) {
+        if (!this.ac_overflow) {
+            this.ilc.update(address, this.size);
+        }
+        this.ac_overflow = false;
+    }
+
+    /**
+     * Emulates the IBM 704 Transfer on MQ Plus (TQP) operation.
+     *
+     * If the sign bit of the MQ is positive, the calculator takes the next instruction from location Y and
+     * proceeds from there. If the sign bit of the MQ is negative, the calculator proceeds to the
+     * next instruction in sequence.
+     *
+     * @param {number}  address     Address to jump to.
+     */
+    TQP(address) {
+        if (this.mq_register.contents[0] === "0") {
+            this.ilc.update(address, this.size);
+        }
+    }
+
+    /**
+     * Emulates the IBM 704 Transfer and Set Index (TSX) operation.
+     *
+     * Not indexable. This instruction places the 2’s complement of the location of this instruction
+     * in the specified index register. The calculator takes the next instruction from location Y
+     * and proceeds from there.
+     *
+     * @param {number}  address     Address to jump to.
+     * @param {number}  tag         Specifies index register to store value into.
+     */
+    TSX(address, tag) {
+        const index_register = this.get_tag(tag);
+        index_register.update(-(this.ilc.valueOf()-1), this.size); // we subtract one from the ILC because actually
+        // already incremented it in step() before calling the operation
+        this.ilc.update(address, this.size);
     }
 
     /**
@@ -1821,9 +2102,9 @@ export class IBM_704 {
     TNX(address, tag, decrement) {
         let index_register = this.get_tag(tag);
         if (index_register.valueOf() <= decrement) {
-            this.ilc.update_contents(address);
+            this.ilc.update(address, this.size);
         } else {
-            index_register.update_contents(index_register.valueOf() - decrement);
+            index_register.update(index_register.valueOf() - decrement, this.size);
         }
     }
 
@@ -1839,10 +2120,61 @@ export class IBM_704 {
      * @param {number}  decrement   Amount to decrement by.
      */
     TIX(address, tag, decrement) {
-        let index_register = this.get_tag(tag);
+        const index_register = this.get_tag(tag);
         if (index_register.valueOf() > decrement) {
-            index_register.update_contents(index_register.valueOf() - decrement);
-            this.ilc.update_contents(address);
+            index_register.update(index_register.valueOf() - decrement, this.size);
+            this.ilc.update(address, this.size);
+        }
+    }
+
+    /**
+     * Emulates the IBM 704 Transfer on Index (TXI) operation.
+     *
+     * Not indexable. Contains a decrement part. This instruction adds the decrement to the number in the specified
+     * index register and replaces the number in the index register with this sum. The calculator takes the next
+     * instruction from location Y and proceeds from there.
+     *
+     * @param {number}  address     Address to jump to.
+     * @param {number}  tag         Specifies desired index register to increment.
+     * @param {number}  decrement   Amount to increment by.
+     */
+    TXI(address, tag, decrement) {
+        const index_register = this.get_tag(tag);
+        index_register.update(index_register.valueOf() + decrement, this.size);
+        this.ilc.update(address, this.size);
+    }
+
+    /**
+     * Emulates the IBM 704 Transfer on Index High (TXH) operation.
+     *
+     * If the number in the specified index register is greater than the decrement, the calculator takes the next instruction
+     * from specified address and proceeds from there.  Not indexable.
+     *
+     * @param {number}  address     Address to jump to if index register is greater than decrement.
+     * @param {number}  tag         Specifies desired index register.
+     * @param {number}  decrement   Value to compare index register to.
+     */
+    TXH(address, tag, decrement) {
+        const index_register = this.get_tag(tag);
+        if (index_register.valueOf() > decrement) {
+            this.ilc.update(address, this.size);
+        }
+    }
+
+    /**
+     * Emulates the IBM 704 Transfer on Index Low (TXL) operation.
+     *
+     * If the number in the specified index register is less than or equal to the decrement, the calculator takes the
+     * next instruction from specified address and proceeds from there.  Not indexable.
+     *
+     * @param {number}  address     Address to jump to if index register is greater than decrement.
+     * @param {number}  tag         Specifies desired index register.
+     * @param {number}  decrement   Value to compare index register to.
+     */
+    TXL(address, tag, decrement) {
+        const index_register = this.get_tag(tag);
+        if (index_register.valueOf() <= decrement) {
+            this.ilc.update(address, this.size);
         }
     }
 }
