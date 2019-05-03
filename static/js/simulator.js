@@ -45,6 +45,7 @@ const no_to_operation_a = {
     0b110: "TNX",
     0b010: "TIX",
     0b001: "TXI",
+    0b011: "TXH",
     0b000: "PZE", // hack for pseudoinstruction PZE
 };
 export const operation_b_to_no = {};
@@ -1949,6 +1950,23 @@ export class IBM_704 {
         const index_register = this.get_tag(tag);
         index_register.update(index_register.valueOf() + decrement, this.size);
         this.ilc.update(address, this.size);
+    }
+
+    /**
+     * Emulates the IBM 704 Transfer on Index High (TXH) operation.
+     *
+     * If the number in the specified index register is greater than the decrement, the calculator takes the next instruction
+     * from specified address and proceeds from there.  Not indexable.
+     *
+     * @param {number}  address     Address to jump to if index register is greater than decrement.
+     * @param {number}  tag         Specifies desired index register.
+     * @param {number}  decrement   Value to compare index register to.
+     */
+    TXH(address, tag, decrement) {
+        const index_register = this.get_tag(tag);
+        if (index_register.valueOf() > decrement) {
+            this.ilc.update(address, this.size);
+        }
     }
 }
 
