@@ -1,0 +1,70 @@
+{% extends 'archives/story.jinja2' %}
+
+{% block story_title %}
+The Rise and Fall of Project Whirlwind
+{% endblock %}
+
+{% block story_credit %}
+Meesue Kim
+{% endblock %}
+
+
+{% block story_body %}
+<p>
+    Arguably the first large-scale and high-speed computer, the Whirlwind was developed by the MIT Servomechanisms
+    Laboratory in a project directed by
+    <a href="/archives/person/jay-w-forrester">
+        Jay Forrester
+    </a>
+    for the United States Navy. When the project started in 1944, it
+    was initially meant to design an aircraft simulator during World War II, but researchers soon realized that the
+    system was too slow and inaccurate. As a result of this, the simulation did not give a realistic enough feel for it
+    to be used as a proper training method for pilots. A key part of this project was the replacement of electrostatic
+    storage tubes with
+    <a href="https://infinitehistory.mit.edu/video/edward-murrows-see-it-now%E2%80%94jay-forrester-and-whirlwind-computer-1951">
+        magnetic core memory,
+    </a>
+    which allowed for high speeds and reliability, just not enough for the computer to function properly as a
+    universal flight simulator. Because of the use of the magnetic core memory, Whirlwind became a fully functioning
+    computer that had the potential to be
+    <a href="/archives/doc/1_2_project_proposal_contract_2">
+        "utilized, together with other computing equipment at Technology, in a coordinated research and training program."
+    </a>
+</p>
+
+<figure class="figure float-right">
+    <img src="{{ static('img/stories/whirlwind.jpg') }}"
+         class="class="figure-img img-fluid rounded"
+         alt="Photo of part of the Whirlwind computer" />
+    <figcaption class="figure-caption">Photo: MIT Cardinali for MIT Museum</figcaption>
+</figure>
+
+<p>
+    The development of Whirlwind served as a milestone in the history of computation at MIT, but it all came at a steep
+    cost. The expected cost of the project was initially "$300,000 per annum" (the expected costs can be seen
+    <a href="/archives/doc/1_2_project_proposal_contract_4">
+        here
+    </a>
+    ), and it was projected to take approximately two years to finish. Although with any project there is always the
+    inevitability of going over budget and taking more time than expected, the Whirlwind Project went over the
+    projections far more than other computer projects of that time.
+</p>
+
+<p>
+    Starting in 1947, the Whirlwind Project received funding from the Office of Naval Research (ONR). A huge problem
+    with this project was the sheer amount of resources going into it. The research team consisted of more than one
+    hundred people, and the budget was close to $3 million (this is approximately equivalent to $32 million today).
+    This alone took up 20% of the ONR’s total research budget. As time progressed, more and more money was being
+    invested into this project, and the “ONR confidence in Project Whirlwind had reached its lowest point”
+    (Campbell-Kelly, Aspray, pg. 147). By the 1950s, critics thought that the extreme amount of money going into this
+    project was simply not worth the outcomes the team was producing.
+    <a href="https://history.barnard.edu/sites/default/files/rozee_thesis.pdf">
+        Even MIT faculty members thought that Whirlwind was “too expensive” and “poorly designed.”
+    </a>
+    This led to the ONR cutting funds to the project. Project Whirlwind ended up taking a total of 8 years to develop,
+    and it ended up costing $8 million. Although the project stopped receiving funding in the early 1950s, Whirlwind
+    continued working as a digital computer until it was officially shut down on May 29, 1959.
+</p>
+
+
+{% endblock %}

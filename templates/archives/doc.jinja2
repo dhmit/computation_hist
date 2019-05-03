@@ -13,7 +13,9 @@
     <div class="row">
         <div class="col-sm-10">
             <div class="row" >
-                <iframe src={{ doc_pdf_url }} height="900" width="90%"> </iframe>
+                <iframe src="{{ static('ext/pdfjs/web/viewer.html') }}?file={{ doc_pdf_url }}"
+                        height="900"
+                        width="90%"/>
             </div>
             <div class="row">
                 <!--space for bottom hyperlinks to click to neighbouring documents -->
@@ -25,12 +27,12 @@
                 <h5>Written by:</h5>
                 {% if author_person_objs %}
                         {% for item in author_person_objs %}
-                                <a href="/archives/person/{{ item.pk }}">{{ item }}</a>
+                                <a href="{{ item.url }}">{{ item }}</a>
                         {% endfor %}
                 {% endif %}
                 {% if author_organization_objs %}
                         {% for item in author_organization_objs %}
-                                <a href="/archives/organization/{{ item.pk }}">{{ item }}</a>
+                                <a href="{{ item.url }}">{{ item }}</a>
                         {% endfor %}
                 {% endif %}
             {% endif %}
@@ -42,12 +44,12 @@
                 <h5>Written to:</h5>
                 {% if recipient_person_objs %}
                         {% for item in recipient_person_objs %}
-                                <a href="/archives/person/{{ item.pk }}">{{ item }}</a>
+                                <a href="{{ item.url }}">{{ item }}</a>
                         {% endfor %}
                 {% endif %}
                 {% if recipient_organization_objs %}
                         {% for item in recipient_organization_objs %}
-                                <a href="/archives/organization/{{ item.pk }}">{{ item }}</a>
+                                <a href="{{ item.url }}">{{ item }}</a>
                         {% endfor %}
                 {% endif %}
             {% endif %}
@@ -56,12 +58,12 @@
                 <h5>Cced to:</h5>
                 {% if cced_person_objs %}
                         {% for item in cced_person_objs %}
-                                <a href="/archives/person/{{ item.pk }}">{{ item }}</a>
+                                <a href="{{ item.url }}">{{ item }}</a>
                         {% endfor %}
                 {% endif %}
                 {% if cced_organization_objs %}
                         {% for item in cced_organization_objs %}
-                                <a href="/archives/organization/{{ item.pk }}">{{ item }}</a>
+                                <a href="{{ item.url }}">{{ item }}</a>
                         {% endfor %}
                 {% endif %}
             {% endif %}
