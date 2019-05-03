@@ -1,7 +1,0 @@
-A method of computation for spherieal Bessel functions
-of real and imaginary avgument is given which is especlally
-suitable for digital computers. The method involves the use of
-resurrence relations with unnormalized values of the functlon.
-The accuracy and convergence are examined and criterion foramulas
-are given. A procedure based on the Wronskian 1s used to simplify
-the final normalization.
