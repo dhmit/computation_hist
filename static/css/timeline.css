@@ -8,5 +8,13 @@ td, th, tbody, tr{
 
 .clickable-row:hover{
     cursor: pointer;
-    background-color: whitesmoke;
+    background-color: #e0e0e0;
+}
+
+#timeline-title{
+    text-align: center;
+}
+
+#date-title{
+    font-size: 2rem;
 }

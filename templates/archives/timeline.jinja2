@@ -25,8 +25,9 @@ Documents over Time
 
 
 {% block content %}
+    <h1 id="timeline-title">Documents by Date</h1>
 {% for year in documents_by_year %}
-    <h1>{{ year }}</h1>
+    <h1 id="date-title">{{ year }}</h1>
     <table class="table">
         <thead>
         <col width = "20%">
