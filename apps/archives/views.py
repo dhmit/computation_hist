@@ -167,7 +167,7 @@ def list_obj(request, model_str):
         model_objs = get_list_or_404(Person)
         model_objs.sort(key=person_unknown_filter)
     elif model_str == "folder":
-        model_objs = get_list_or_404(Folder)
+        model_objs = get_list_or_404(Folder.objects.prefetch_related('box'))
     elif model_str == "box":
         model_objs = get_list_or_404(Box)
     else:
