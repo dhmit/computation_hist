@@ -271,4 +271,13 @@ export class GeneralAssemblerRenderer extends Renderer {
         code.appendChild(line);
         this.num_lines++;
     }
+
+    remove_code_line() {
+        if (this.num_lines > 0) {
+            const last_line_no = this.num_lines - 1;
+            const last_line = document.getElementById("code_line_" + last_line_no.toString());
+            last_line.remove();
+            this.num_lines--;
+        }
+    }
 }
