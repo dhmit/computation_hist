@@ -44,6 +44,7 @@ const no_to_operation_b = {
 const no_to_operation_a = {
     0b110: "TNX",
     0b010: "TIX",
+    0b001: "TXI",
     0b000: "PZE", // hack for pseudoinstruction PZE
 };
 export const operation_b_to_no = {};
@@ -1926,11 +1927,28 @@ export class IBM_704 {
      * @param {number}  decrement   Amount to decrement by.
      */
     TIX(address, tag, decrement) {
-        let index_register = this.get_tag(tag);
+        const index_register = this.get_tag(tag);
         if (index_register.valueOf() > decrement) {
             index_register.update(index_register.valueOf() - decrement, this.size);
             this.ilc.update(address, this.size);
         }
+    }
+
+    /**
+     * Emulates the IBM 704 Transfer on Index (TXI) operation.
+     *
+     * Not indexable. Contains a decrement part. This instruction adds the decrement to the number in the specified
+     * index register and replaces the number in the index register with this sum. The calculator takes the next
+     * instruction from location Y and proceeds from there.
+     *
+     * @param {number}  address     Address to jump to.
+     * @param {number}  tag         Specifies desired index register to increment.
+     * @param {number}  decrement   Amount to increment by.
+     */
+    TXI(address, tag, decrement) {
+        const index_register = this.get_tag(tag);
+        index_register.update(index_register.valueOf() + decrement, this.size);
+        this.ilc.update(address, this.size);
     }
 }
 
