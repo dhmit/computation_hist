@@ -6,6 +6,7 @@ from utilities.common import get_file_path
 class Organization(models.Model):
     location = models.CharField(max_length=191, blank=True)
     name = models.CharField(max_length=191, blank=True)
+    slug = models.SlugField(max_length=191, unique=True)
 
     def __str__(self):
         if self.name:
@@ -21,13 +22,17 @@ class Organization(models.Model):
 
     @property
     def url(self):
-        return f'/archives/organization/{self.pk}'
+        return f'/archives/organization/{self.slug}'
+
+    class Meta:
+        ordering = ['name']
 
 
 class Person(models.Model):
     first = models.CharField(max_length=191, blank=True)
     last = models.CharField(max_length=191, blank=True)
     organization = models.ManyToManyField(Organization, blank=True)
+    slug = models.SlugField(max_length=191, unique=True)
 
     def __str__(self):
         if self.last and self.first:
@@ -55,11 +60,16 @@ class Person(models.Model):
 
     @property
     def url(self):
-        return f'/archives/person/{self.pk}'
+        return f'/archives/person/{self.slug}'
+
+    class Meta:
+        ordering = ['last', 'first']
 
 
 class Box(models.Model):
     number = models.IntegerField(default=0)
+    slug = models.SlugField(max_length=191, unique=True)
+
 
     def __str__(self):
         return str(self.number)
@@ -67,18 +77,33 @@ class Box(models.Model):
     def __repr__(self):
         return f"<Box {self.number}>"
 
+    @property
+    def url(self):
+        return f'/archives/box/{self.slug}'
+
+    class Meta:
+        ordering = ['number']
+
 
 class Folder(models.Model):
     name = models.CharField(max_length=191)
     box = models.ForeignKey(Box, on_delete=models.CASCADE)
     full = models.CharField(max_length=191)
     number = models.IntegerField(default=0)
+    slug = models.SlugField(max_length=191, unique=True)
 
     def __str__(self):
         return self.full
 
     def __repr__(self):
         return f"<Folder {self.full} - {self.number}>"
+
+    @property
+    def url(self):
+        return f'/archives/folder/{self.slug}'
+
+    class Meta:
+        ordering = ['full']
 
 
 class Document(models.Model):
@@ -151,26 +176,3 @@ class Document(models.Model):
                                  cceds as params but not {list_type}.''')
 
         return pl
-
-
-class Page(models.Model):
-    document = models.ForeignKey(Document, on_delete=models.CASCADE)
-    page_number = models.IntegerField(default=0)
-
-    def __str__(self):
-        return "Page " + str(self.page_number) + " of " + str(self.document)
-
-    def __repr__(self):
-        return f"<Page {self.page_number} of {self.document}"
-
-    @property
-    def png_url(self):
-        png_path = get_file_path(self.document.folder.box.number, self.document.folder.number,
-                                 self.document.folder.name, file_type='png', 
-                                 doc_id=self.document.doc_id, page_id=int(self.page_number),
-                                 path_type='aws')
-        return png_path
-
-
-class Text(models.Model):
-    page = models.OneToOneField(Page, on_delete=models.SET(None), blank=True)
