@@ -19,17 +19,18 @@ def process_search(search_params):
     text = search_params.get('text')
     author = search_params.get('author')
     recipient = search_params.get('recipient')
+    cced = search_params.get('cced')
     min_year = search_params.get('min_year')
     max_year = search_params.get('max_year')
 
-    if not (keywords or title or text or author or recipient or min_year or max_year):
+    if not (keywords or title or text or author or recipient or cced or min_year or max_year):
         return None
     else:
         docs_qs = Document.objects.all()
         people_qs = Person.objects.none()
 
     if keywords:
-        keywordlist = keywords.split(" ")
+        keywordlist = keywords.split()
 
         person_q = Q()
         for word in keywordlist:
@@ -73,7 +74,7 @@ def process_search(search_params):
         docs_qs = docs_qs.filter(words_q)
 
     if author:
-        author_names = author.split(" ")
+        author_names = author.split()
         author_q = Q()
         for name in author_names:
             author_q |= Q(author_person__first__icontains=name)
@@ -82,13 +83,23 @@ def process_search(search_params):
         docs_qs = docs_qs.filter(author_q)
 
     if recipient:
-        recipient_names = recipient.split(" ")
+        recipient_names = recipient.split()
         recipient_q = Q()
         for name in recipient_names:
             recipient_q |= Q(recipient_person__first__icontains=name)
             recipient_q |= Q(recipient_person__last__icontains=name)
             recipient_q |= Q(recipient_organization__name__icontains=name)
         docs_qs = docs_qs.filter(recipient_q)
+
+    if cced:
+        cced_names = cced.split()
+        print(cced_names)
+        cced_q = Q()
+        for name in cced_names:
+            cced_q |= Q(cced_person__first__icontains=name)
+            cced_q |= Q(cced_person__last__icontains=name)
+            cced_q |= Q(cced_organization__name__icontains=name)
+        docs_qs = docs_qs.filter(cced_q)
 
     doc_types = search_params.getlist('doc_type')
     # if a key points to a list of values, querydict.get() just returns the last item in the list!
@@ -138,15 +149,15 @@ def generate_search_facets(doc_objs):
         if document.date:
             counter_dates[document.date.year] += 1
         for author in document.author_person.all():
-            counter_authors[author.fullname] += 1
+            counter_authors[str(author)] += 1
         for org in document.author_organization.all():
             counter_authors[org.name] += 1
         for recipient in document.recipient_person.all():
-            counter_recipients[recipient.fullname] += 1
+            counter_recipients[str(recipient)] += 1
         for org in document.recipient_organization.all():
             counter_recipients[org.name] += 1
         for cc in document.cced_person.all():
-            counter_cceds[cc.fullname] += 1
+            counter_cceds[str(cc)] += 1
         for org in document.cced_organization.all():
             counter_cceds[org.name] += 1
 

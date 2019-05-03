@@ -18,6 +18,7 @@
                 'text': '',
                 'author': '',
                 'recipient': '',
+                'cced': '',
                 'min_year': '',
                 'max_year': '',
                 'doc_types': []
@@ -30,6 +31,7 @@
                 'text': '',
                 'author': '',
                 'recipient':'',
+                'cced':'',
                 'min_year': '',
                 'max_year': '',
                 'doc_types': []
@@ -41,6 +43,7 @@
                 'text': '',
                 'author': '',
                 'recipient':'',
+                'cced':'',
                 'min_year': '',
                 'max_year': '',
                 'doc_types': []
@@ -76,11 +79,19 @@
             </p>
 
             <p class="search-type">
+                <label class="text_label" for="recipient">CCed</label>
+                <input id="cced" type="text" name="cced"
+                       value="{{ search_params['cced'] }}">
+            </p>
+
+
+
+            <p class="search-type">
                 <label class="text_label" for="min_year">Years</label>
-                <input type="number" name="min_year" min="1900" max="2000"
+                <input type="number" name="min_year" id="min_year" min="1900" max="2000"
                        value="{{ search_params['min_year'] }}">
                 <label for="max_year">To</label>
-                <input type="number" name="max_year" min="1900" max="2000"
+                <input type="number" name="max_year" id="max_year" min="1900" max="2000"
                        value="{{ search_params['max_year'] }}">
             </p>
 
