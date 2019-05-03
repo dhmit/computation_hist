@@ -11,7 +11,7 @@ pip install -q -r /home/ubuntu/computation_hist/requirements.txt
 echo '** Collecting static'
 python /home/ubuntu/computation_hist/manage.py collectstatic --noinput || exit 1
 
-echo '** Stopping artusi'
+echo '** Stopping computation_hist'
 supervisorctl stop computation_hist
 
 echo '** Copying nginx.conf to /etc'
