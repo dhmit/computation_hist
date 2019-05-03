@@ -15,6 +15,7 @@ const no_to_operation_b = {
     0o4400: "SBM",
     0o401: "ADM",
     0o622: "STD",
+    0o621: "STA",
     0o534: "LXA",
     0o4534: "LXD",
     0o4634: "SXD",
@@ -1432,12 +1433,23 @@ export class IBM_704 {
     /**
      * Emulates the IBM 704 Store Decrement (STD) operation.
      *
-     * Stores decrement of accumulator into address.
+     * Stores decrement of accumulator into word at address.
      *
      * @param {number}  address     The address of the word to change the decrement of.
      */
     STD(address) {
         this.general_memory[address].decrement = this.accumulator.decrement;
+    }
+
+    /**
+     * Emulates the IBM 704 Store Address (STA) operation.
+     *
+     * Stores address of accumulator into word at address.
+     *
+     * @param {number}  address     The address of the word to change the decrement of.
+     */
+    STA(address) {
+        this.general_memory[address].address = this.accumulator.address;
     }
 
     /**
