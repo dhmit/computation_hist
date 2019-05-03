@@ -209,7 +209,7 @@ export class DemoRenderer extends Renderer {
 export class GeneralAssemblerRenderer extends Renderer {
     constructor(computer) {
         super(computer);
-        this.num_lines = 1;
+        this.num_lines = 0;
     }
 
     update() {
@@ -228,7 +228,7 @@ export class GeneralAssemblerRenderer extends Renderer {
         line.setAttribute("id", "code_line_" + this.num_lines.toString());
         const line_no = document.createElement("p");
         line_no.classList.add("line_no_text");
-        const line_no_text = document.createTextNode(this.num_lines.toString()+". ");
+        const line_no_text = document.createTextNode((this.num_lines + 1)+". ");
         line_no.appendChild(line_no_text);
         line.appendChild(line_no);
 

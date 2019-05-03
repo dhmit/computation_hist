@@ -80,6 +80,9 @@ export function start() {
         renderer.highlighting = !renderer.highlighting;
         renderer.update();
     });
+    $('#add_line').on('click', () => {
+        renderer.add_code_line();
+    });
     // expand_text_area("code_box");
     display_operations();
     renderer.add_code_line();

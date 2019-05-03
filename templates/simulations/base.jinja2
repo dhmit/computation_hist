@@ -10,29 +10,13 @@
         <div class="row">
             <div class="col-sm-3">
                 <h3>Code</h3>
-                <div id="code">
-                    {% if simulation_name == 'general_assembler' %}
-{#                        <div class="row code_line">0:#}
-{#                            <div class="col-sm padding-5" ><textarea class="form-control code_box code_label"#}
-{#                               rows="1"></textarea></div>#}
-{#<div class="col-sm padding-5"><textarea class="form-control code_box operation"#}
-{#                               rows="1"></textarea></div>#}
-{#<div class="col-sm padding-5"><textarea class="form-control code_box code_numbers"#}
-{#                              rows="1"></textarea></div>#}
-{#                        </div>#}
-{#                        <div class="row code_line">1:#}
-{#                            <div class="col-sm padding-5" ><textarea class="form-control code_box code_label"#}
-{#                               rows="1"></textarea></div>#}
-{#<div class="col-sm padding-5"><textarea class="form-control code_box operation"#}
-{#                               rows="1"></textarea></div>#}
-{#<div class="col-sm padding-5"><textarea class="form-control code_box code_numbers"#}
-{#                              rows="1"></textarea></div>#}
-{#                        </div>#}
-{#                        <textarea class="form-control" id="code_box" spellcheck="false"#}
-{#                                  placeholder="Code here!"></textarea>#}
-
-                    {% endif %}
-                </div>
+                <div id="code"></div>
+                {% if simulation_name == 'general_assembler' %}
+                    <div id="class_buttons">
+                        <button type="button" id="add_line">+</button>
+                        <button type="button" id="remove_line">-</button>
+                    </div>
+                {% endif %}
             <br />
             <h4>Help</h4>
             <p>Instruction to be executed next is highlighted in <span class="next_instruction">blue</span>.</p>

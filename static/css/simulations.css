@@ -70,3 +70,8 @@ code {
     font-family: Inconsolata, monospace;
     text-align: center;
 }
+
+#class_buttons {
+    text-align: center;
+    margin: auto;
+}
