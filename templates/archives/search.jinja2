@@ -47,14 +47,16 @@
             } %}
         {% endif %}
 
-        <form id="adv_search" method="get" action="/archives/search">
-            <h2>Advanced Search</h2>
+        <form id="search" method="get" action="/archives/search">
+            <h2>Search</h2>
 
             <p class="search-type">
                 <label class="text_label" for="keyword">Keyword</label>
                 <input id="keyword" type="text" name="keyword" value="{{ search_params['keyword'] }}">
-            </p>
+                <a href='#' id='show_advanced_search'>Advanced search</a>
+            </p> 
 
+            <div id="advanced_search">
             <p class="search-type">
                 <label class="text_label" for="title">Document Title</label>
                 <input id="title" type="text" name="title" value="{{ search_params['title'] }}">
@@ -97,7 +99,9 @@
                     {% endfor %}
                 </select>
             </p>
-                <input type="submit" id="search_submit_button" class="btn btn-primary" value="Submit">
+            </div>
+
+            <input type="submit" id="search_submit_button" class="btn btn-primary" value="Submit">
         </form>
     </div>
 </div>
@@ -224,7 +228,7 @@
 
 {% block scripts %}
 <script type="module">
-    import { setup_refine_search } from "{{ static('js/search.js') }}"
-    setup_refine_search();
+    import { start } from "{{ static('js/search.js') }}"
+    start();
 </script>
 {% endblock %}

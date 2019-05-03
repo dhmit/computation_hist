@@ -1,5 +1,16 @@
 'use strict';
 
+export function start() {
+    const advanced_search = $('#advanced_search');
+    const adv_search_link = $('#show_advanced_search');
+    advanced_search.hide();
+    adv_search_link.click(() => {
+        advanced_search.show();
+        adv_search_link.remove();
+    });
+    setup_refine_search();
+}
+
 export function setup_refine_search() {
 
     const refine_author = $("a[id^='refine_author:']"); // elements whose id starts with 'refine_author'
