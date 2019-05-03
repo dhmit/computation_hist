@@ -256,4 +256,5 @@ def stories(request):
     template = 'archives/stories.jinja2'
     context = {'stories': STORIES}
     return render(request, template, context)
-
+def our_team(request):
+    return render(request, 'archives/our_team.jinja2')
