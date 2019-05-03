@@ -43,7 +43,7 @@ input[type="number"]{
 
 /* Search Results */
 
-.doc_result, .person_result, .search_facets {
+.doc_result, .person_result, .search_facets, .no_results {
     background-color: #eee;
     overflow: hidden;
     margin: 1em 0 2em;

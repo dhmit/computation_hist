@@ -3,11 +3,32 @@
 export function start() {
     const advanced_search = $('#advanced_search');
     const adv_search_link = $('#show_advanced_search');
-    advanced_search.hide();
+
+    // Only show advanced search fields if one of them has been filled in
+    let advanced_search_fields_all_empty = true;
+    for (const field of ['#title', '#text', '#author', '#recipient', '#cced',
+                         '#min_year', '#max_year', '#doc_type_selector']) {
+
+        if (field === '#doc_type_selector') {
+            if (($(field).val()).length) {
+                advanced_search_fields_all_empty = false;
+            }
+        } else if ($(field).val()) {
+            advanced_search_fields_all_empty = false;
+        }
+    }
+
+    if (advanced_search_fields_all_empty) {
+        advanced_search.hide();
+    } else {
+        adv_search_link.remove();
+    }
+
     adv_search_link.click(() => {
         advanced_search.show();
         adv_search_link.remove();
     });
+
     setup_refine_search();
 }
 

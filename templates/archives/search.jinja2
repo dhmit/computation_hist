@@ -119,14 +119,18 @@
 </div>
 
 
-{% if docs is defined and not (docs or people) %}
 
+<div class="row">
+
+{% if docs is defined and not (docs or people) %}
     {# displayed only if a search has been processed but with no results #}
-    <h3>There are no documents or people that match your search.</h3>
+    <div class='col no_results'>
+        <h3 class='pt-4'>There are no documents or people that match your search.</h3>
+    </div>
 
 {% else %}
 
-<div class="row">
+
     <div class="col-12 col-sm-9 pl-0 pr-0 pr-sm-4 pt-4"> <!-- results col -->
 
         {% if people %}
