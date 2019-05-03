@@ -24,6 +24,9 @@ class Organization(models.Model):
     def url(self):
         return f'/archives/organization/{self.slug}'
 
+    class Meta:
+        ordering = ['name']
+
 
 class Person(models.Model):
     first = models.CharField(max_length=191, blank=True)
@@ -59,6 +62,9 @@ class Person(models.Model):
     def url(self):
         return f'/archives/person/{self.slug}'
 
+    class Meta:
+        ordering = ['last', 'first']
+
 
 class Box(models.Model):
     number = models.IntegerField(default=0)
@@ -75,6 +81,9 @@ class Box(models.Model):
     def url(self):
         return f'/archives/box/{self.slug}'
 
+    class Meta:
+        ordering = ['number']
+
 
 class Folder(models.Model):
     name = models.CharField(max_length=191)
@@ -83,17 +92,18 @@ class Folder(models.Model):
     number = models.IntegerField(default=0)
     slug = models.SlugField(max_length=191, unique=True)
 
-
     def __str__(self):
         return self.full
 
     def __repr__(self):
         return f"<Folder {self.full} - {self.number}>"
 
-
     @property
     def url(self):
         return f'/archives/folder/{self.slug}'
+
+    class Meta:
+        ordering = ['full']
 
 
 class Document(models.Model):

@@ -153,16 +153,12 @@ def list_obj(request, model_str):
     """
     if model_str == "organization":
         model_objs = get_list_or_404(Organization)
-        model_objs.sort(key=lambda x: x.name)
     elif model_str == "person":
         model_objs = get_list_or_404(Person)
-        model_objs.sort(key=lambda x: x.last)
     elif model_str == "folder":
         model_objs = get_list_or_404(Folder)
-        model_objs.sort(key=lambda x: x.full)
     elif model_str == "box":
         model_objs = get_list_or_404(Box)
-        model_objs.sort(key=lambda x: x.number)
     else:
         raise ValueError("Cannot display this model. Can only display organization, person, "
                          "folder, or box")
