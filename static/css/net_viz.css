@@ -3,6 +3,7 @@ table {
     width: 10%;
     text-align: center;
     margin-right: 2%;
+    display: table;
 
 }
 
@@ -10,6 +11,7 @@ table {
     float: left;
     width: 70%;
     margin-right: 2%;
+    display: inline;
 }
 #node_search_form {
     float: left;
