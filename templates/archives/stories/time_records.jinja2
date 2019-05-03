@@ -1,11 +1,18 @@
 {% extends 'archives/story.jinja2' %}
 
 {% block story_title %}
-Cost of a Supercomputer
+Cost of a Using Supercomputer
+{% endblock %}
+
+{% block story_credit %}
+Felix Tran & Stephan Risi
 {% endblock %}
 
 {% block story_body %}
-<p>How much does it cost to run a computer? And who gets access to this limited resource? In the 1950s, it cost as much as $250 to purchase one hour of compute time on MIT’s Whirlwind 1. Adjusted for inflation in 2019, that’s almost $2400. In other words, for one hour of Whirlwind time, you can buy a very expensive laptop with over 1.2 million times more computing power.</p>
+<p>How much does it cost to run a computer? And who gets access to this limited resource? In the
+    1950s, it cost as much as $250 to purchase one hour of compute time on MIT’s Whirlwind 1.
+    Adjusted for inflation in 2019, that’s almost $2400. In other words, for one hour of Whirlwind
+    time, you can buy a very expensive laptop with over 1.2 million times more computing power.</p>
 
 <figure class="figure float-right">
     <img src="{{ static('img/stories/time_records-teaser.png') }}"
@@ -16,11 +23,33 @@ Cost of a Supercomputer
 
 <p>
     With the Whirlwind 1, MIT was not just figuring out how to use computers but also how to
-    distribute and manage time between dozens of researchers. On one hand, MIT’s accounting of computer usage was extremely meticulous. Whirlwind usage for each individual project was tracked and billed by the seconds. Researchers regularly received letters that informed them how many minutes they have used. On the other hand, they couldn’t figure out how to evenly allocate computer time for everyone. Take the case of Jack L. Uretsky. In 1955, Uretsky was a physics Ph.D. student,  working on a thesis on “Scattering of Zero-Energy Neutrons by a Spheroidal Square Well.”	MIT had allocated a total of 5,929.6 minutes for the lab that he was apart of. Out of those 5929.6 minutes, Uretsky alone used over 64% of the minutes. This is actually a common theme among <a href=”/archives/doc/1_9_cc_proposal_history_15”>the given time records</a>. It seems that most people, while they understood the potential of Whirlwind 1’s computational power, they were not sure how to apply it. Writing up a program to solve problems for them took a lot of time and people thinking to use the computer had to figure out if it was worth it to write the program out or to just do calculations by hand. This gave rise to a new rule with using the Whirlwind 1, the <a href=”/story/debugging”>three man months</a>. Uretsky took advantage of other people’s hesitance to use the allocated computer time for his own benefit.
-</p>
-
-
-
-<p>During Uretsky’s research, he received a <a href=”/archives/doc/1_5_whirlwind_time_77”>letter from F. M. Verzuh</a>. It reveals that he had spent over 4,351.5 minutes. At the average rate of $250/hour, he would be charged a total of $18,132.70. This comes out to around $191,260.11 in 2019! Luckily, Uretsky doesn’t have to pay that. MIT has given each lab a certain amount of computer time so they are essentially giving money to each lab and each lab ends up spending that money on computer time, essentially giving the money back to MIT. This is just some of the perks of working at a lab with a supercomputer in the 1950s.
+    distribute and manage time between dozens of researchers. On one hand, MIT’s accounting of
+    computer usage was extremely meticulous. Whirlwind usage for each individual project was tracked
+    and billed by the second. Researchers regularly received letters that informed them how many
+    minutes they have used. On the other hand, they stuggled with how to evenly allocate
+    computer time for everyone. Take the case of Jack L. Uretsky. In 1955, Uretsky was a physics
+    Ph.D. student,  working on a thesis on “Scattering of Zero-Energy Neutrons by a Spheroidal
+    Square Well.”	MIT had allocated a total of 5,929.6 minutes for the lab that he was a part of.
+    Out of this time allotment, Uretsky alone used over 64% of the minutes. This is actually a
+    common theme among <a href=”/archives/doc/1_9_cc_proposal_history_15”>the given time
+    records</a>. It seems that many researchers, while they understood the potential of Whirlwind
+    1’s computational power, they were not sure how to apply it. Writing up a program to solve problems
+     was time consuming and people who considered using the computer had to decide if it was
+    worth the time to write the program out or to just do calculations by hand. This gave rise to a
+    new rule with using the Whirlwind 1, the <a href=”/story/debugging”>three man months</a>.
+    Philip Morse, the director of the Computation Center suggested that it was only worth to use
+    a computer if calculation by hand would take more than three man months.
+    Uretsky, it seems, took advantage of other people’s hesitance to use the allocated computer
+    time for his own project.</p>
+<p>
+    It was only towards the end of his thesis research that Frank Verzuh, the Assistant Director of
+    the Computation Center, who kept track of the time records, realized that Uretsky's project
+    had become "quite expensive:" Over the previous 14 months, he had used up $18,132.70. This comes
+    out to around $191,260.11 in 2019! Luckily, Uretsky doesn’t have to pay that. MIT had given each
+    lab a certain amount of computer time. The $250 "regular rate,"
+    Verzuh informed him in <a href=”/archives/doc/1_5_whirlwind_time_77”>a letter,</a> didn't
+    apply in his case. Being a gradute student at MIT in the 1950s had its perks.
+    Being a graduate students at MIT always had its perks. In the 1950s, for a lucky few, access
+    to supercomputers was one of them.
 </p>
 {% endblock %}
