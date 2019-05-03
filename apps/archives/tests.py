@@ -18,9 +18,9 @@ class ArchivesTestCase(SeleniumTestCase):
         self.driver.get(self.live_server_url + '/archives/stories/')
         self.check_log_for_errors()
 
-    def test_advanced_search_without_input(self):
+    def test_search_without_input(self):
         """ Test that the advanced/document search renders correctly with no input """
-        self.driver.get(self.live_server_url + '/archives/advanced_search/')
+        self.driver.get(self.live_server_url + '/archives/search/')
         self.check_log_for_errors()
 
     def test_simulations(self):
@@ -40,8 +40,7 @@ class ArchivesTestCase(SeleniumTestCase):
         self.driver.find_element_by_id('basic_search_submit_button').click()
         self.check_log_for_errors()
 
-    def test_advanced_search_with_keyword(self):
-        """ Test that the advanced search is accessible through basic search """
-        self.driver.get(self.live_server_url + '/archives/search_results/?q=test')
-        self.driver.find_element_by_link_text('advanced search').click()
+    def test_search_with_keyword(self):
+        """ Test that the search is accessible through basic search """
+        self.driver.get(self.live_server_url + '/archives/search/?keyword=test')
         self.check_log_for_errors()

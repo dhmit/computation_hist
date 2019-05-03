@@ -10,19 +10,25 @@
 {% endblock %}
 
 {% block content %}
-    <p class="lead"> Unsure of what you're looking for? Browse through our datasets. </p>
+    <p class="lead" style="font-size: 25px"> Unsure of what you're looking for? Browse through our
+        datasets.
+    </p>
     <div class="list-group">
         <a href="/archives/list/person" class="list-group-item list-group-item-action">
-            <h2>People</h2>
+            <h5>people involved with the MIT Computation Center</h5>
         </a>
         <a href="/archives/list/folder" class="list-group-item list-group-item-action">
-            <h2>Folders</h2>
+            <h5>archival folders of the computation archives</h5>
         </a>
         <a href="/archives/list/organization" class="list-group-item list-group-item-action">
-            <h2>Organizations</h2>
+            <h5>organizations associated with the MIT Computation Center</h5>
         </a>
+        <!--
         <a href="/archives/list/box" class="list-group-item list-group-item-action">
             <h2>Boxes</h2>
         </a>
+        This code is commented out because boxes are not that useful of a category in this
+        project, future projects may have a use for boxes.
+        //-->
     </div>
 {% endblock %}
