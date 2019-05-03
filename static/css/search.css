@@ -41,11 +41,6 @@ input[type="number"]{
     width: 96%;
 }
 
-#search_submit_button{
-    margin-left: 9.75em;
-}
-
-
 /* Search Results */
 
 .doc_result, .person_result, .search_facets {
