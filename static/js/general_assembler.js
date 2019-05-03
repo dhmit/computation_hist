@@ -22,13 +22,24 @@ function display_operations() {
 }
 
 function assemble_from_code_box(computer) {
+    const assembly_lines = [];
+    const code_labels = $(".code_label");
+    const code_operations = $(".code_operation");
+    const code_numbers =  $(".code_numbers");
+    const num_lines = code_labels.length;
+    for (let i = 0; i < num_lines; i++) {
+        const assembly_line = [
+            code_labels[i].value.trim(),
+            code_operations[i].value.trim(),
+            code_numbers[i].value.trim()
+        ];
+        assembly_lines.push(assembly_line);
+    }
     try {
-        const code = document.getElementById("code_box").value;
-        const newline_regex = /\r\n|[\n\v\f\r\x85\u2028\u2029]/;
-        const code_lines = code.split(newline_regex);
-        computer.assemble(0, code_lines);
+        computer.assemble(assembly_lines);
     } catch (err) {
         computer.clear();
+        throw err;
     }
 }
 

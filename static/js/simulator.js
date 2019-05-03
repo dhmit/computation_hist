@@ -1237,6 +1237,11 @@ export class IBM_704 {
         }
     }
 
+    /**
+     * Assembles program and places into memory.
+     *
+     * @param {Array}   code_lines  Array of Assembly_Line objects.
+     */
     assemble(code_lines) {
         this.clear();
         code_lines = code_lines.slice(0);
