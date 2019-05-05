@@ -7,15 +7,33 @@ About the Lab
     <div align="center" class="typing" style="font-size:50px">
         Welcome to Digital Humanities Lab
     </div>
+     &nbsp
+     &nbsp
 {% endblock %}
 
+
 {% block content %}
+
+    {% block subheader %}
+        <div class="page-subheader">
+        About Us
+        </div>
+    {% endblock %}
+    &nbsp
+    {% block subsection %}
+        <div class="page-subsection">
+         In the works......................... Is there any way to spread the members out
+        more so it covers most of the length of the page?
+        </div>
+    {% endblock %}
+
+
     <div align=p"center">
         <p class="text-info" style="font-size:25px; text-align:center">Staff</p>
     </div>
 
     <div class="row">
-        <div class="col-sm-6 text-center text-center">
+        <div class="col-sm-6 text-center">
             <div class="team-member team-member-lg">
               <img class="mx-auto rounded-circle" src="{{ static("img/team/Cuthbert_Michael.jpg") }}" alt="Michael Cuthbert">
                 <h4><b>Michael Cuthbert</b></h4>
