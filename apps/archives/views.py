@@ -239,11 +239,14 @@ def net_viz(request):
     graph_dict = json.loads(graph)
     nodes = graph_dict['nodes']
     links = graph_dict['links']
+    print(request.GET)
 
     if 'node' in request.GET:
-        search_node = request.GET['node'].lower()
+        old_query = request.GET['node']
+        search_node = old_query.lower()
     else:
         search_node = None
+        old_query = None
 
     # if no search is specified, sort out top 100 nodes
     if not search_node:
@@ -253,8 +256,6 @@ def net_viz(request):
 
         # Removes all links that connect to nodes that no longer exist
         links = [i for i in links if i['source'] in node_list and i['target'] in node_list]
-
-        graph_dict = {'nodes': nodes, 'links': links}
 
     # Otherwise, find applicable nodes and edges
     else:
@@ -269,12 +270,10 @@ def net_viz(request):
         # Removes nodes that aren't in the list of links
         nodes = [i for i in nodes if i['id'] in valid_nodes]
 
-        graph_dict = {'nodes': nodes, 'links': links, 'old_query': search_node}
-
+    graph_dict = {'nodes': nodes, 'links': links, 'old_query': old_query}
     return render(request, 'archives/net_viz.jinja2', graph_dict)
 
 
-    
 def stories(request):
     template = 'archives/stories.jinja2'
     context = {'stories': STORIES}

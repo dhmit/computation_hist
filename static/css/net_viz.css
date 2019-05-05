@@ -1,18 +1,42 @@
-table {
-    float: right;
-    width: 10%;
-    text-align: center;
-    margin-right: 2%;
-    display: table;
-
+#node_table a {
+    text-decoration: none;
+    color: black;
 }
+
+#node_table a:hover {
+    color: darkgray;
+}
+
+#node_table table, #node_table th, #node_table td {
+    border: 1px solid black;
+    text-align: center;
+    width: 15%;
+}
+
+#node_table table {
+    float: right;
+}
+
+#node_table th {
+    background-color: black;
+    color: white;
+}
+
+#node_table tbody {
+    display: block;
+    overflow: auto;
+    height: 640px;
+    width: 100%;
+}
+
 
 #visualizations {
     float: left;
     width: 70%;
+    height: 640px;
     margin-right: 2%;
-    display: inline;
 }
+
 #node_search_form {
     float: left;
     width: 70%;

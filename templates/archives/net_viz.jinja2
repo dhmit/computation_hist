@@ -11,25 +11,41 @@
 
     <div id="visualizations">
         <svg id="viz"></svg>
+        <script>
+            create_force_layout({{ nodes|safe }}, {{ links|safe }});
+        </script>
     </div>
 
-    <script>
-        name_legend({{ nodes|safe }});
-    </script>
-
-
-    <script>
-        create_force_layout({{ nodes|safe }}, {{ links|safe }});
-    </script>
 
     <form id="node_search_form">
         <input class="searchfield" id="node" name="node" type="text" placeholder="Find a node...">
         <button class="btn btn-secondary my-2 my-sm-0" type="submit" id="node_submit">
             Search
         </button>
-    {% if  len(links) == 0 %}
-        No Person "{{ old_query|safe }}" Found
-    {% endif %}
+        <button class="btn btn-secondary my-2 my-sm-0" type="submit" id="node_clear"
+                name="node" value="">
+            Clear
+        </button>
+        {% if  len(links) == 0 %}
+            No Person "{{ old_query|safe }}" Found
+        {% endif %}
     </form>
+
+    <table id="node_table">
+        <thead>
+        <tr>
+            <th>Nodes</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for node in nodes %}
+            <tr>
+                <td> <a href="/archives/person/{{ node['slug'] }}">
+                    {{ node['id'] }}
+                </a></td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
 
 {% endblock %}
