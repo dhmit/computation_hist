@@ -228,13 +228,13 @@ export class GeneralAssemblerRenderer extends Renderer {
                   <p class="line_no_text">
                           ${this.num_lines + 1}.
                   </p>
-                  <div class="col-sm px-2 code_label" id="code_label_${this.num_lines}">
+                  <div class="col-sm px-2" id="code_label_${this.num_lines}">
                          <textarea class="form-control code_box code_label" rows="1"></textarea>
                   </div>
-                  <div class="col-sm px-2 code_operation" id="code_operation_${this.num_lines}">
+                  <div class="col-sm px-2" id="code_operation_${this.num_lines}">
                          <textarea class="form-control code_box code_operation" rows="1"></textarea>
                   </div>
-                  <div class="col-sm px-2 code_numbers" id="code_numbers_${this.num_lines}">
+                  <div class="col-sm px-2" id="code_numbers_${this.num_lines}">
                          <textarea class="form-control code_box code_numbers" rows="1"></textarea>
                   </div>
            </div>
