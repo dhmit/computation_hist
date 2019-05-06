@@ -57,17 +57,13 @@
                 <li class="nav-item active">
                     <a class="nav-link" href="/simulations">Simulations</a>
                 </li>
-
-                <li class="nav-item active">
-                    <a class="nav-link" href="/archives/advanced_search">Advanced Search</a>
-                </li>
             </ul>
-            <form class="form-inline my-2 my-lg-0" action="/archives/search_results"
+            <form class="form-inline my-2 my-lg-0" action="/archives/search"
                   id="basic_search_form">
                 <input class="form-control mr-sm-2" type="text"
                        id="basic_search"
                        placeholder="Search"
-                       aria-label="Search" name="q">
+                       aria-label="Search" name="keyword">
                 <button class="btn btn-secondary my-2 my-sm-0"
                         id="basic_search_submit_button"
                         type="submit">Search</button>
@@ -91,21 +87,28 @@
 <footer class="footer bg-white text-dark text-center">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-4 py-3">
+            <div class="col-md-3 col-6 py-3">
                 <a href="https://digitalhumanities.mit.edu/">
                     <img src="{{ static('img/dh_logo.png') }}"
                          class='footer-img'
                          alt='Digital Humanities at MIT Logo'/>
                 </a>
             </div>
-            <div class="col-4 py-3">
+            <div class="col-md-3 col-6 py-3">
                 <a href="https://www.mit.edu/">
                     <img src="{{ static('img/mit_logo.svg') }}"
                          class='footer-img'
                          alt='MIT Logo'/>
                 </a>
             </div>
-            <div class="col-4 py-3">
+            <div class="col-md-3 col-6 py-3">
+                <a href="https://libraries.mit.edu/">
+                    <img src="{{ static('img/library_logo.png') }}"
+                         class='footer-img'
+                         alt="MIT Libraries Logo"/>
+                </a>
+            </div>
+            <div class="col-md-3 col-6 py-3">
                 <a href="https://www.mellon.org/">
                     <img src="{{ static('img/mellon_logo.svg') }}"
                          class='footer-img'
