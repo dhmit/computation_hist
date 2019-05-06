@@ -74,32 +74,34 @@ def process_search(search_params):
         docs_qs = docs_qs.filter(words_q)
 
     if author:
-        author_names = author.split()
-        author_q = Q()
-        for name in author_names:
-            author_q |= Q(author_person__first__icontains=name)
-            author_q |= Q(author_person__last__icontains=name)
-            author_q |= Q(author_organization__name__icontains=name)
-        docs_qs = docs_qs.filter(author_q)
+        for names in author.split(" AND "):
+            author_q = Q()
+            for name in names.split():
+                if len(name) > 2:
+                    author_q |= Q(author_person__first__icontains=name)
+                    author_q |= Q(author_person__last__icontains=name)
+                    author_q |= Q(author_organization__name__icontains=name)
+            docs_qs = docs_qs.filter(author_q)
 
     if recipient:
-        recipient_names = recipient.split()
-        recipient_q = Q()
-        for name in recipient_names:
-            recipient_q |= Q(recipient_person__first__icontains=name)
-            recipient_q |= Q(recipient_person__last__icontains=name)
-            recipient_q |= Q(recipient_organization__name__icontains=name)
-        docs_qs = docs_qs.filter(recipient_q)
+        for names in recipient.split(" AND "):
+            rec_q = Q()
+            for name in names.split():
+                if len(name) > 2:
+                    rec_q |= Q(recipient_person__first__icontains=name)
+                    rec_q |= Q(recipient_person__last__icontains=name)
+                    rec_q |= Q(recipient_organization__name__icontains=name)
+            docs_qs = docs_qs.filter(rec_q)
 
     if cced:
-        cced_names = cced.split()
-        print(cced_names)
-        cced_q = Q()
-        for name in cced_names:
-            cced_q |= Q(cced_person__first__icontains=name)
-            cced_q |= Q(cced_person__last__icontains=name)
-            cced_q |= Q(cced_organization__name__icontains=name)
-        docs_qs = docs_qs.filter(cced_q)
+        for names in cced.split(" AND "):
+            cced_q = Q()
+            for name in names.split():
+                if len(name) > 2:
+                    cced_q |= Q(cced_person__first__icontains=name)
+                    cced_q |= Q(cced_person__last__icontains=name)
+                    cced_q |= Q(cced_organization__name__icontains=name)
+            docs_qs = docs_qs.filter(cced_q)
 
     doc_types = search_params.getlist('doc_type')
     # if a key points to a list of values, querydict.get() just returns the last item in the list!

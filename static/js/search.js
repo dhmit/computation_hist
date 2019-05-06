@@ -38,7 +38,18 @@ export function setup_refine_search() {
     for (const el of refine_author) {
         $(el).click(() => {
             const author = el.id.split(":")[1];
-            $('#author').val(author);
+            const old_author = $('#author').val();
+            let new_author = "";
+            if (!old_author){
+                new_author = author;
+            }
+            else if (old_author.includes(author)){
+                new_author = old_author;
+            }
+            else{
+                new_author = author + " AND " + old_author;
+            }
+            $('#author').val(new_author);
             $('#search').submit();
         });
     }
@@ -47,7 +58,18 @@ export function setup_refine_search() {
     for (const el of refine_recipient) {
         $(el).click(() => {
             const recipient = el.id.split(":")[1];
-            $('#recipient').val(recipient);
+            const old_recipients = $('#recipient').val();
+            let new_recipients = "";
+            if (!old_recipients){
+                new_recipients = recipient;
+            }
+            else if (old_recipients.includes(recipient)){
+                new_recipients = old_recipients;
+            }
+            else{
+                new_recipients = recipient + " AND " + old_recipients;
+            }
+            $('#recipient').val(new_recipients);
             $('#search').submit();
         });
     }
@@ -56,7 +78,18 @@ export function setup_refine_search() {
     for (const el of refine_cced) {
         $(el).click(() => {
             const cced = el.id.split(":")[1];
-            $('#cced').val(cced);
+            const old_cced = $('#cced').val();
+            let new_cced = '';
+            if (!old_cced){
+                new_cced = cced;
+            }
+            else if (old_cced.includes(cced)){
+                new_cced = old_cced;
+            }
+            else{
+                new_cced = cced + " AND " + old_cced;
+            }
+            $('#cced').val(new_cced);
             $('#search').submit();
         });
     }
