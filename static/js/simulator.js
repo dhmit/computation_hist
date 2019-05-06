@@ -727,7 +727,9 @@ class General_Word extends Word {
 
 let max_word = new General_Word("011111111111111111111111111111111111");
 const MAX_FIXED_POINT = max_word.fixed_point;
+const MIN_FIXED_POINT = -MAX_FIXED_POINT;
 const MAX_FLOATING_POINT = max_word.floating_point;
+const MIN_FLOATING_POINT = -MIN_FIXED_POINT;
 
 /**
  * Class representing the accumulator on the IBM 704.  The accumulator consists of 38 bits: a
@@ -1148,7 +1150,8 @@ export class IBM_704 {
         if (instruction_word.is_typeB()) {
             instruction = instruction_word.instruction_b;
             if (typeof instruction.operation === "undefined") {
-                alert("Halting on unrecognized operation!");
+                $("#dialog_text").html("Halting on unrecognized operation!");
+                $("#error_message").dialog();
                 this.halt = true;
                 throw INVALID_INSTRUCTION_RUNTIME;
             }
@@ -1156,7 +1159,8 @@ export class IBM_704 {
         } else {
             instruction = instruction_word.instruction_a;
             if (typeof instruction.operation === "undefined") {
-                alert("Halting on unrecognized operation!");
+                $("#dialog_text").html("Halting on unrecognized operation!");
+                $("#error_message").dialog();
                 this.halt = true;
                 throw INVALID_INSTRUCTION_RUNTIME;
             }
@@ -1225,13 +1229,15 @@ export class IBM_704 {
               continue;
             }
             if (isNaN(register) || register >= this.size || register < 0) {
-                alert("Error: Tried to program to invalid register " + register + "on line " +
-                    (parseInt(line_no) + 1) + "!  Register must be integer between 0 and " + (this.size - 1) + ".");
+                $("#dialog_text").html(`Error: Tried to program to invalid register ${register} on line ` +
+                    `${parseInt(line_no) + 1}!  Register must be integer between 0 and ${this.size-1}.`);
+                $("#error_message").modal('show');
                 throw INVALID_REGISTER_EXCEPTION;
             }
             let parsed_command = regex_line_parser.exec(line);
             if (parsed_command === null) { //if parsed command is null, throw error, not a valid command.
-                alert("Error: Cannot parse instruction on line " + (parseInt(line_no) + 1) + ".");
+                $("#dialog_text").html("Error: Cannot parse instruction on line " + (parseInt(line_no) + 1) + ".");
+                ("#error_message").modal('show');
                 throw INVALID_INSTRUCTION_EXCEPTION;
             }
             let operation = parsed_command[1];
@@ -1251,19 +1257,21 @@ export class IBM_704 {
                     }
                     if (numbers[0].includes(".")) {
                         if (number > MAX_FLOATING_POINT || number < -MAX_FLOATING_POINT) {
-                            alert("Error: Floating point value " + number + " at line " + (Number(line_no) + 1) +
-                                " is too large! Floating point numbers must be between " + MAX_FLOATING_POINT +
-                                " and " + -(MAX_FLOATING_POINT) + "."
+                            $("#dialog_text").html(`Floating point value ${number} at line ${(Number(line_no) + 1)}` +
+                                ` is too large! Floating point numbers must be between ${MAX_FLOATING_POINT}` +
+                                ` and ${MIN_FLOATING_POINT}.`
                             );
+                            $("#error_message").modal('show');
                             throw FLOAT_OVERFLOW_EXCEPTION;
                         }
                         this.general_memory[register].floating_point = number;
                     } else {
                         if (number > MAX_FIXED_POINT || number < -MAX_FIXED_POINT) {
-                            alert("Error: Fixed point value " + number + " at line " + (Number(line_no) + 1) +
-                                " is too large! Fixed point numbers must be between " + MAX_FIXED_POINT +
-                                " and " + -(MAX_FIXED_POINT) + "."
+                            $("#dialog_text").html(`Floating point value ${number} at line ${(Number(line_no) + 1)}` +
+                                ` is too large! Floating point numbers must be between ${MAX_FIXED_POINT}` +
+                                ` and ${MIN_FIXED_POINT}.`
                             );
+                            $("#error_message").modal('show');
                             throw FIXED_OVERFLOW_EXCEPTION;
                         }
                         this.general_memory[register].fixed_point = number;
@@ -1288,9 +1296,11 @@ export class IBM_704 {
             }
             catch (err) {
                 if (err === UNDEFINED_OPERATION_EXCEPTION) {
-                    alert("Error: Undefined operation in line " + (parseInt(line_no) + 1) + "!");
+                    $("#dialog_text").html("Undefined operation in line " + (parseInt(line_no) + 1) + "!");
+                    $("#error_message").modal('show');
                 } else if (err === NAN_EXCEPTION) {
-                    alert("Error: Invalid number in line " + (parseInt(line_no) + 1) + "!");
+                    $("#dialog_text").html("Invalid number in line " + (parseInt(line_no) + 1) + "!");
+                    $("#error_message").modal('show');
                 }
                 throw err;
             }
@@ -1342,7 +1352,8 @@ export class IBM_704 {
             // jump to ORG location
             if (operation === "ORG") {
                 if (register % 1 !== 0 || isNaN(register)) {
-                    alert("Error: Cannot parse ORG instruction on line " + parseInt(line_no) + ".");
+                    $("#dialog_text").html(`Cannot parse ORG instruction on line ${parseInt(line_no)}.`);
+                    $("#error_message").modal('show');
                     throw NAN_EXCEPTION;
                 }
                 register = Number(line[2]);
@@ -1382,7 +1393,7 @@ export class IBM_704 {
             }
             code_lines[line_no][2] = address_part;
         }
-        // console.log(code_lines);
+
         // actually assemble the program
         register = 0;
         for (let line_no in code_lines) {
@@ -1391,15 +1402,11 @@ export class IBM_704 {
             }
             const line = code_lines[line_no];
             if (isNaN(register) || register >= this.size || register < 0) {
-                alert("Error: Tried to program to invalid register " + register + "on line " +
-                    (parseInt(line_no) + 1) + "!  Register must be integer between 0 and " + (this.size - 1) + ".");
+                $("#dialog_text").html(`Tried to program to invalid register ${register} on line ` +
+                    `${parseInt(line_no) + 1}!  Register must be integer between 0 and ${this.size - 1}.`);
+                $("#error_message").modal('show');
                 throw INVALID_REGISTER_EXCEPTION;
             }
-            // let parsed_command = regex_line_parser.exec(line);
-            // if (parsed_command === null) { //if parsed command is null, throw error, not a valid command.
-            //     alert("Error: Cannot parse instruction on line " + (parseInt(line_no) + 1) + ".");
-            //     throw INVALID_INSTRUCTION_EXCEPTION;
-            // }
             const operation = line[1];
             const rest_of_line = line[2];
             const expressions = rest_of_line.split(",");
@@ -1409,7 +1416,7 @@ export class IBM_704 {
                     numbers.push(eval_math(expressions[i]));
                 }
             }
-            // console.log(numbers);
+
             try {
                 if (operation === "ORG") { // ORG pseudoinstruction lets you program to different location
                     register = numbers[0];
@@ -1424,19 +1431,21 @@ export class IBM_704 {
                     }
                     if (expressions[0].includes(".")) {
                         if (number > MAX_FLOATING_POINT || number < -MAX_FLOATING_POINT) {
-                            alert("Error: Floating point value " + number + " at line " + (Number(line_no) + 1) +
-                                " is too large! Floating point numbers must be between " + MAX_FLOATING_POINT +
-                                " and " + -(MAX_FLOATING_POINT) + "."
+                            $("#dialog_text").html(`Floating point value ${number} at line ${(Number(line_no) + 1)}` +
+                                ` is too large! Floating point numbers must be between ${MAX_FLOATING_POINT}` +
+                                ` and ${MIN_FLOATING_POINT}.`
                             );
+                            $("#error_message").modal('show');
                             throw FLOAT_OVERFLOW_EXCEPTION;
                         }
                         this.general_memory[register].floating_point = number;
                     } else {
                         if (number > MAX_FIXED_POINT || number < -MAX_FIXED_POINT) {
-                            alert("Error: Fixed point value " + number + " at line " + (Number(line_no) + 1) +
-                                " is too large! Fixed point numbers must be between " + MAX_FIXED_POINT +
-                                " and " + -(MAX_FIXED_POINT) + "."
+                            $("#dialog_text").html(`Floating point value ${number} at line ${(Number(line_no) + 1)}` +
+                                ` is too large! Floating point numbers must be between ${MAX_FIXED_POINT}` +
+                                ` and ${MIN_FIXED_POINT}.`
                             );
+                            $("#error_message").modal('show');
                             throw FIXED_OVERFLOW_EXCEPTION;
                         }
                         this.general_memory[register].fixed_point = number;
@@ -1461,9 +1470,11 @@ export class IBM_704 {
             }
             catch (err) {
                 if (err === UNDEFINED_OPERATION_EXCEPTION) {
-                    alert("Error: Undefined operation in line " + (parseInt(line_no) + 1) + "!");
+                    $("#dialog_text").html("Undefined operation in line " + (parseInt(line_no) + 1) + "!");
+                    $("#error_message").modal('show');
                 } else if (err === NAN_EXCEPTION) {
-                    alert("Error: Invalid number in line " + (parseInt(line_no) + 1) + "!");
+                    $("#dialog_text").html("Invalid number in line " + (parseInt(line_no) + 1) + "!");
+                    $("#error_message").modal('show');
                 }
                 throw err;
             }

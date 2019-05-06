@@ -48,6 +48,7 @@ function assemble_from_code_box(computer) {
  * Runs scripts to initialize page.
  */
 export function start() {
+    $("#error_message").modal('hide');
     const computer = new IBM_704();
     const renderer = new GeneralAssemblerRenderer(computer);
 

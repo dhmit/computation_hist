@@ -56,7 +56,26 @@
     <div class = "col-sm-12 text-center bg-light border border-primary" id = "line_desc"></div>
     <br />
     <div class = "jumbotron text-left">{% block description %}{% endblock %}</div>
-    {% endblock %}
+
+    <div class="modal" tabindex="-1" role="dialog" id="error_message">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Error!</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p id="dialog_text">Modal body text goes here.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+{% endblock %}
 
 {% block scripts %}
     <script src="{{ static('js/simulator.js')}}" type="module"></script>
@@ -89,5 +108,4 @@
         </script>
     {% endif %}
     <script src="{{ static('js/render.js')}}" type="module"></script>
-
 {% endblock %}
