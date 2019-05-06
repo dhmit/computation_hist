@@ -1244,7 +1244,7 @@ export class IBM_704 {
         // get labels and determine what they point to
         let labels = {};
         let register = 0;
-        for (let line_no in code_lines) {
+        for (const line_no in code_lines) {
             if (!Object.prototype.hasOwnProperty.call(code_lines, line_no)) {
                 continue;
             }
@@ -1277,7 +1277,7 @@ export class IBM_704 {
         // replacing doesn't conflict
 
         // replace labels with actual numbers
-        for (let line_no in code_lines) {
+        for (const line_no in code_lines) {
             if (!Object.prototype.hasOwnProperty.call(code_lines, line_no)) {
                 continue;
             }
@@ -1292,7 +1292,7 @@ export class IBM_704 {
 
         // actually assemble the program
         register = 0;
-        for (let line_no in code_lines) {
+        for (const line_no in code_lines) {
             if (!code_lines.hasOwnProperty(line_no)) {
                 continue;
             }
