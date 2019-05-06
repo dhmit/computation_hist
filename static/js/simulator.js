@@ -1363,10 +1363,8 @@ export class IBM_704 {
             const label_field = line[0].replace(/\s/g, '');
             if (label_field.length) {
                 const label_list = label_field.split(",");
-                for (const i in label_list) {
-                    if (Object.prototype.hasOwnProperty.call(label_list, i)) {
-                        labels[label_list[i]] = register;
-                    }
+                for (const label of label_list) {
+                    labels[label] = register;
                 }
             }
             register++;
@@ -1385,11 +1383,8 @@ export class IBM_704 {
             const line = code_lines[line_no];
             // console.log(line);
             let address_part = line[2];
-            for (const i in label_names) {
-                if (Object.prototype.hasOwnProperty.call(label_names, i)) {
-                    const label = label_names[i];
-                    address_part = address_part.replace(new RegExp(label, 'g'), labels[label].toString());
-                }
+            for (const label of label_names) {
+                address_part = address_part.replace(new RegExp(label, 'g'), labels[label].toString());
             }
             code_lines[line_no][2] = address_part;
         }
@@ -1411,10 +1406,8 @@ export class IBM_704 {
             const rest_of_line = line[2];
             const expressions = rest_of_line.split(",");
             const numbers = Array();
-            for (const i in expressions) {
-                if (Object.prototype.hasOwnProperty.call(expressions, i)) {
-                    numbers.push(eval_math(expressions[i]));
-                }
+            for (const expression of expressions) {
+                numbers.push(eval_math(expression));
             }
 
             try {
