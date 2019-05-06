@@ -234,7 +234,7 @@ export class GeneralAssemblerRenderer extends Renderer {
 
         const label = document.createElement("div");
         label.classList.add("col-sm");
-        label.classList.add("padding-5");
+        label.classList.add("px-2");
         const label_area = document.createElement("textarea");
         label_area.classList.add("form-control");
         label_area.classList.add("code_box");
@@ -246,7 +246,7 @@ export class GeneralAssemblerRenderer extends Renderer {
         
         const operation = document.createElement("div");
         operation.classList.add("col-sm");
-        operation.classList.add("padding-5");
+        operation.classList.add("px-2");
         const operation_area = document.createElement("textarea");
         operation_area.classList.add("form-control");
         operation_area.classList.add("code_box");
@@ -258,7 +258,7 @@ export class GeneralAssemblerRenderer extends Renderer {
         
         const numbers = document.createElement("div");
         numbers.classList.add("col-sm");
-        numbers.classList.add("padding-5");
+        numbers.classList.add("px-2");
         const numbers_area = document.createElement("textarea");
         numbers_area.classList.add("form-control");
         numbers_area.classList.add("code_box");

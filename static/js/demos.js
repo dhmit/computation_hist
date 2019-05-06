@@ -92,7 +92,7 @@ function populate_code(instructions) {
 
         const label = document.createElement("div");
         label.classList.add("col-sm");
-        label.classList.add("padding-5");
+        label.classList.add("px-2");
         label.classList.add("code_label");
         label.classList.add("symbolic_code");
         label.setAttribute("id", "code_label_" + i.toString());
@@ -102,7 +102,7 @@ function populate_code(instructions) {
 
         const operation = document.createElement("div");
         operation.classList.add("col-sm");
-        operation.classList.add("padding-5");
+        operation.classList.add("px-2");
         operation.classList.add("code_operation");
         operation.classList.add("symbolic_code");
         operation.setAttribute("id", "code_operation_" + i.toString());
@@ -112,7 +112,7 @@ function populate_code(instructions) {
         
         const numbers = document.createElement("div");
         numbers.classList.add("col-sm");
-        numbers.classList.add("padding-5");
+        numbers.classList.add("px-2");
         numbers.classList.add("code_numbers");
         numbers.classList.add("symbolic_code");
         numbers.setAttribute("id", "code_numbers_" + i.toString());
