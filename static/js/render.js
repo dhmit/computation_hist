@@ -222,51 +222,23 @@ export class GeneralAssemblerRenderer extends Renderer {
 
     add_code_line() {
         const code = document.getElementById("code");
-        const line = document.createElement("div");
-        line.classList.add("row");
-        line.classList.add("code_line");
-        line.setAttribute("id", "code_line_" + this.num_lines.toString());
-        const line_no = document.createElement("p");
-        line_no.classList.add("line_no_text");
-        const line_no_text = document.createTextNode((this.num_lines + 1)+". ");
-        line_no.appendChild(line_no_text);
-        line.appendChild(line_no);
 
-        const label = document.createElement("div");
-        label.classList.add("col-sm");
-        label.classList.add("px-2");
-        const label_area = document.createElement("textarea");
-        label_area.classList.add("form-control");
-        label_area.classList.add("code_box");
-        label_area.classList.add("code_label");
-        label_area.setAttribute("rows", "1");
-        label_area.setAttribute("id", "code_label_" + this.num_lines.toString());
-        label.appendChild(label_area);
-        line.appendChild(label);
-        
-        const operation = document.createElement("div");
-        operation.classList.add("col-sm");
-        operation.classList.add("px-2");
-        const operation_area = document.createElement("textarea");
-        operation_area.classList.add("form-control");
-        operation_area.classList.add("code_box");
-        operation_area.classList.add("code_operation");
-        operation_area.setAttribute("rows", "1");
-        operation_area.setAttribute("id", "code_operation_" + this.num_lines.toString());
-        operation.appendChild(operation_area);
-        line.appendChild(operation);
-        
-        const numbers = document.createElement("div");
-        numbers.classList.add("col-sm");
-        numbers.classList.add("px-2");
-        const numbers_area = document.createElement("textarea");
-        numbers_area.classList.add("form-control");
-        numbers_area.classList.add("code_box");
-        numbers_area.classList.add("code_numbers");
-        numbers_area.setAttribute("rows", "1");
-        numbers_area.setAttribute("id", "code_numbers_" + this.num_lines.toString());
-        numbers.appendChild(numbers_area);
-        line.appendChild(numbers);
+        const line = $(`
+            <div class="row code_line" id="code_line_${this.num_lines}">
+                  <p class="line_no_text">
+                          ${this.num_lines + 1}.
+                  </p>
+                  <div class="col-sm px-2 code_label" id="code_label_${this.num_lines}">
+                         <textarea class="form-control code_box code_label" rows="1"></textarea>
+                  </div>
+                  <div class="col-sm px-2 code_operation" id="code_operation_${this.num_lines}">
+                         <textarea class="form-control code_box code_operation" rows="1"></textarea>
+                  </div>
+                  <div class="col-sm px-2 code_numbers" id="code_numbers_${this.num_lines}">
+                         <textarea class="form-control code_box code_numbers" rows="1"></textarea>
+                  </div>
+           </div>
+        `)[0];
 
         code.appendChild(line);
         this.num_lines++;
