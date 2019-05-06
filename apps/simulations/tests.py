@@ -38,10 +38,15 @@ class SimulationsTestCase(SeleniumTestCase):
     def test_general_assembler(self):
         """ Test that the general assembler works and that the buttons function """
         self.driver.get(self.live_server_url + '/simulations/general_assembler')
-        self.driver.find_element_by_id('code_box').send_keys("ADD 5, 1")  # fill in code box
+        # fill in code boxes
+        self.driver.find_element_by_class_name('code_label').send_keys("LABEL")
+        self.driver.find_element_by_class_name('code_operation').send_keys("ADD")
+        self.driver.find_element_by_class_name('code_numbers').send_keys("LABEL+1, 3")
         self.driver.find_element_by_id('assemble_button').click()  # assemble code
         self.driver.find_element_by_id('step_button').click()  # test the step button
         self.driver.find_element_by_id('run_button').click()  # test the run button
         self.driver.find_element_by_id('highlight_button').click()  # test the highlight toggle
         self.driver.find_element_by_id('clear_button').click()  # test the clear button
+        self.driver.find_element_by_id('add_line').click()  # test adding line
+        self.driver.find_element_by_id('remove_line').click()  # test removing line
         self.check_log_for_errors()
