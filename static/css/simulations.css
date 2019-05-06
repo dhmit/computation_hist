@@ -28,6 +28,16 @@ code {
     font-family: Inconsolata, monospace;
     border: 1px solid black;
     background-color: inherit;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.code_line {
+    flex-wrap: nowrap;
+}
+
+#code_heading {
+    flex-wrap: nowrap;
 }
 
 .next_instruction {
