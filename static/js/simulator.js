@@ -74,10 +74,7 @@ const INVALID_REGISTER_EXCEPTION = "Tried to program to invalid register!";
 const FIXED_OVERFLOW_EXCEPTION = "Fixed point number too large!";
 const FLOAT_OVERFLOW_EXCEPTION = "Floating point number too large!";
 const NAN_EXCEPTION = "Expected number, but it was me, Dio!";
-const INVALID_INSTRUCTION_EXCEPTION = "Cannot parse instruction!";
 const INVALID_INSTRUCTION_RUNTIME = "Cannot run instruction!";
-
-const regex_line_parser = new RegExp('^([A-Z]+)\\s*(.*)');
 
 /**
  * Function to create a new string with the character at index replaced by a new character.

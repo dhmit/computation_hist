@@ -38,6 +38,8 @@ class SimulationsTestCase(SeleniumTestCase):
     def test_general_assembler(self):
         """ Test that the general assembler works and that the buttons function """
         self.driver.get(self.live_server_url + '/simulations/general_assembler')
+        self.driver.find_element_by_id('add_line').click()  # test adding line
+        self.driver.find_element_by_id('remove_line').click()  # test removing line
         # fill in code boxes
         self.driver.find_element_by_class_name('code_label').send_keys("LABEL")
         self.driver.find_element_by_class_name('code_operation').send_keys("ADD")
@@ -47,6 +49,4 @@ class SimulationsTestCase(SeleniumTestCase):
         self.driver.find_element_by_id('run_button').click()  # test the run button
         self.driver.find_element_by_id('highlight_button').click()  # test the highlight toggle
         self.driver.find_element_by_id('clear_button').click()  # test the clear button
-        self.driver.find_element_by_id('add_line').click()  # test adding line
-        self.driver.find_element_by_id('remove_line').click()  # test removing line
         self.check_log_for_errors()
