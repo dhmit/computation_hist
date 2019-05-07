@@ -176,3 +176,6 @@ class Document(models.Model):
                                  cceds as params but not {list_type}.''')
 
         return pl
+
+    class Meta:
+        ordering = ['file_name']
