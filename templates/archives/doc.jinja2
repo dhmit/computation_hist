@@ -75,6 +75,16 @@
             <h5> Folder: </h5>
                 <a href="/archives/folder/{{ doc_obj.folder.id }}"> {{ doc_obj.folder }} </a>
             <br>
+            <div class="row">
+                    {% if prev_doc != False %}
+                    <a href="{{ doc_obj.url }}" class="btn btn-primary btn-block"
+                       role="button">Previous Doc</a>
+                    {% endif %}
+                    {% if next_doc != False %}
+                    <a href="{{ next_doc.url }}" class="btn btn-primary btn-block"
+                       role="button">Next Doc</a>
+                    {% endif %}
+            </div>
         </div>
     </div>
 
