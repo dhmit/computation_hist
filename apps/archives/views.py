@@ -62,23 +62,22 @@ def get_neighbouring_doc(doc_obj):
     :return: tuple that holds (previous_doc, next_doc) - if doc doesn't exist return False instead
     """
     filename_list = doc_obj.file_name.split("_")
+
     filename_list[-1] = str ( int(filename_list[-1]) - 1 ) #turns the last number in the filename
+    previous_doc_file_name = "_".join(filename_list)
+
+    filename_list[-1] = str(int(filename_list[-1]) + 2)  # looks at file 2 larger
+    next_doc_file_name = "_".join(filename_list)
     # and decreases it by 1
 
     try:
-        previous_doc = Document.objects.get(file_name = "_".join(filename_list))
-
-
-    except:
+        previous_doc = Document.objects.get(file_name=previous_doc_file_name )
+    except ObjectDoesNotExist:
         previous_doc = False
 
-
-    filename_list[-1] = str(int(filename_list[-1]) + 2) #looks at file 2 larger
-
     try:
-        next_doc = Document.objects.get(file_name="_".join(filename_list))
-
-    except:
+        next_doc = Document.objects.get(file_name=next_doc_file_name)
+    except ObjectDoesNotExist:
         next_doc = False
 
 
