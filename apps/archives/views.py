@@ -56,33 +56,35 @@ def person(request, slug):
     }
     return render(request, 'archives/person.jinja2', obj_dict)
 
-def get_neighbouring_doc(doc_obj):
+
+def get_neighboring_docs(doc_obj):
     """
     :param doc_obj:
     :return: tuple that holds (previous_doc, next_doc) - if doc doesn't exist return False instead
     """
-    filename_list = doc_obj.file_name.split("_")
 
-    filename_list[-1] = str ( int(filename_list[-1]) - 1 ) #turns the last number in the filename
-    previous_doc_file_name = "_".join(filename_list)
+    filename_split = doc_obj.file_name.split("_")
 
-    filename_list[-1] = str(int(filename_list[-1]) + 2)  # looks at file 2 larger
-    next_doc_file_name = "_".join(filename_list)
-    # and decreases it by 1
+    doc_number = int(filename_split[-1])
+
+    previous_doc_number = doc_number - 1
+    next_doc_number = doc_number + 1
+
+    filename_split[-1] = str(previous_doc_number)
+    previous_doc_file_name = "_".join(filename_split)
+
+    filename_split[-1] = str(next_doc_number)
+    next_doc_file_name = "_".join(filename_split)
 
     try:
-        previous_doc = Document.objects.get(file_name=previous_doc_file_name )
+        previous_doc = Document.objects.get(file_name=previous_doc_file_name)
     except ObjectDoesNotExist:
-        previous_doc = False
+        previous_doc = None
 
     try:
         next_doc = Document.objects.get(file_name=next_doc_file_name)
     except ObjectDoesNotExist:
-        next_doc = False
-
-
-
-    #TODO: add code so doesn't allways return no document, finds previous and next document
+        next_doc = None
 
     return previous_doc, next_doc
 
@@ -126,9 +128,7 @@ def doc(request, doc_id=None, slug=None):
                                     doc_obj.folder.name, file_type='pdf', path_type='aws',
                                     doc_id=doc_obj.doc_id))
 
-    print(doc_pdf_url)
-    print(doc_obj.date)
-    prev_doc, next_doc = get_neighbouring_doc(doc_obj)
+    prev_doc, next_doc = get_neighboring_docs(doc_obj)
 
     obj_dict = {
         'doc_obj': doc_obj,
