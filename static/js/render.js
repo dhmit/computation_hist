@@ -189,8 +189,8 @@ export class DemoRenderer extends Renderer {
 
         const code_html = $(".symbolic_code");
         code_html.removeClass("next_instruction");
-        const code_line = Math.min(this.computer.ilc.valueOf(), num_code_lines-1);
-        if (code_html.length !== 0) {
+        const code_line = this.computer.ilc.valueOf();
+        if (code_line < num_code_lines && code_html.length !== 0) {
             if (this.highlighting) {
                 code_html[code_line].classList.add("next_instruction");
             }
