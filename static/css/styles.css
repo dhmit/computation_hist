@@ -114,6 +114,11 @@ body {
     object-fit: cover;
 }
 
+.story_in_text_link{
+    text-decoration: underline;
+    color: black;
+}
+
 
 /*
  * DOCUMENT PAGE
