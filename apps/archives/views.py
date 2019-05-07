@@ -56,6 +56,21 @@ def person(request, slug):
     }
     return render(request, 'archives/person.jinja2', obj_dict)
 
+def get_neighbouring_doc(doc_obj):
+    """
+    :param doc_obj:
+    :return: tuple that holds (previous_doc, next_doc) - if doc doesn't exist return False instead
+    """
+    if doc_obj.doc_id ==1:
+        previous_doc = False
+
+    #TODO: add code so doesn't allways return no document, finds previous and next document
+
+
+    previous_doc = False
+    next_doc = False
+    return previous_doc, next_doc
+
 
 def doc(request, doc_id=None, slug=None):
     """
@@ -65,7 +80,6 @@ def doc(request, doc_id=None, slug=None):
     :param slug:
     :return:
     """
-
     if doc_id:
         doc_obj = get_object_or_404(Document, pk=doc_id)
     elif slug:
@@ -96,8 +110,11 @@ def doc(request, doc_id=None, slug=None):
     doc_pdf_url = str(get_file_path(doc_obj.folder.box.number, doc_obj.folder.number,
                                     doc_obj.folder.name, file_type='pdf', path_type='aws',
                                     doc_id=doc_obj.doc_id))
+
     print(doc_pdf_url)
     print(doc_obj.date)
+    prev_doc, next_doc = get_neighbouring_doc(doc_obj)
+
     obj_dict = {
         'doc_obj': doc_obj,
         'author_person_objs': author_person_objs,
@@ -107,6 +124,8 @@ def doc(request, doc_id=None, slug=None):
         'cced_person_objs': cced_person_objs,
         'cced_organization_objs': cced_organization_objs,
         'doc_pdf_url': doc_pdf_url,
+        'prev_doc': prev_doc,
+        'next_doc': next_doc,
     }
     return render(request, 'archives/doc.jinja2', obj_dict)
 
