@@ -148,6 +148,12 @@ def organization(request, slug):
     return response
 
 
+def person_unknown_filter(person):
+    if person.last == "":
+        person.last = "Unknown"
+    return person.last
+
+
 def list_obj(request, model_str):
     """
     Displays sorted list of Organizations, People, Folders, or Boxes
@@ -159,8 +165,9 @@ def list_obj(request, model_str):
         model_objs = get_list_or_404(Organization)
     elif model_str == "person":
         model_objs = get_list_or_404(Person)
+        model_objs.sort(key=person_unknown_filter)
     elif model_str == "folder":
-        model_objs = get_list_or_404(Folder)
+        model_objs = get_list_or_404(Folder.objects.prefetch_related('box'))
     elif model_str == "box":
         model_objs = get_list_or_404(Box)
     else:
