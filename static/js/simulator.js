@@ -1247,17 +1247,22 @@ export class IBM_704 {
             }
             const line = code_lines[line_no];
             const operation = line[1].trim();
+            // check valid register
+            if (register % 1 !== 0 || isNaN(register)) {
+                $("#dialog_text").html(`Tried to program to invalid register! Check line ${parseInt(line_no)+1}.`);
+                $("#error_message").modal('show');
+                throw NAN_EXCEPTION;
+            }
             // jump to ORG location
             if (operation === "ORG") {
-                if (register % 1 !== 0 || isNaN(register)) {
-                    $("#dialog_text").html(`Cannot parse ORG instruction on line ${parseInt(line_no)}.`);
-                    $("#error_message").modal('show');
-                    throw NAN_EXCEPTION;
-                }
                 register = Number(line[2]);
                 continue;
             }
-            // else check address for label
+            // allocate space for BES (label points to right after allocated space)
+            if (operation === "BES") {
+                register += Number(line[2]);
+            }
+            // check address for label
             const label_field = line[0].replace(/\s/g, '');
             if (label_field.length) {
                 const label_list = label_field.split(",");
@@ -1265,9 +1270,14 @@ export class IBM_704 {
                     labels[label] = register;
                 }
             }
-            register++;
+            // allocate space for BSS (label points to start of allocated space)
+            if (operation === "BSS") {
+                register += Number(line[2]);
+            }
+            if (operation !== "BES" && operation !== "BSS") {
+                register++;
+            }
         }
-        // console.log(labels);
 
         const label_names = Object.keys(labels).slice(0);
         label_names.sort( (a, b) => { return b.length - a.length; } ); // sort from longest to shortest to ensure
@@ -1279,7 +1289,6 @@ export class IBM_704 {
                 continue;
             }
             const line = code_lines[line_no];
-            // console.log(line);
             let address_part = line[2];
             for (const label of label_names) {
                 address_part = address_part.replace(new RegExp(label, 'g'), labels[label].toString());
@@ -1315,8 +1324,15 @@ export class IBM_704 {
                         throw NAN_EXCEPTION;
                     }
                     continue;
-                } else if (operation === "DEC") { // DEC psuedoinstruction lets you program fixed and floating point numbers
-                    let number = Number(expressions[0]);
+                } else if (operation === "BSS" || operation === "BES") { // skip allocated space
+                    const number = Number(expressions[0]);
+                    if (isNaN(number)) {
+                        throw NAN_EXCEPTION;
+                    }
+                    register += number;
+                    continue;
+                } else if (operation === "DEC" || operation === "SYN" || operation === "EQU") {
+                    const number = Number(expressions[0]);
                     if (isNaN(number)) {
                         throw NAN_EXCEPTION;
                     }
@@ -1393,7 +1409,7 @@ export class IBM_704 {
 
     // Type B operations
     // Note: the this.storage_register should always be the same value as this.general_memory[address],
-    // so the two are interchangeable.
+    // so the two are interchangeable for loads.
 
     /**
      * Emulates the IBM 704 No Operation (NOP) operation.
