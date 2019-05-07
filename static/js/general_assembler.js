@@ -91,4 +91,9 @@ export function start() {
     renderer.update();
     $('[data-toggle="tooltip"]').tooltip();
     $("#loading").hide();
+    const title = document.getElementById("main_header");
+    title.setAttribute("data-intro", "Welcome to the IBM 704 simulator!");
+    title.setAttribute("data-step", "1");
+    title.setAttribute("data-position", "bottom");
+    introJs().start();
 }
