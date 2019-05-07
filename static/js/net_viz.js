@@ -7,7 +7,7 @@ function create_force_layout(nodes, edges) {
     let height = document.getElementById("visualizations").clientHeight;
 
 
-const color = d3.scaleSequential(d3.interpolateBrBG);
+    const color = d3.scaleSequential(d3.interpolateRdBu);
     const graph = {"nodes": nodes, "links": edges};
     let max_weight = 0;
     graph.nodes.forEach(function(d){
@@ -77,7 +77,7 @@ const color = d3.scaleSequential(d3.interpolateBrBG);
         .enter()
         .append("circle")
         .attr("r", 5)
-        .attr("fill", function(d) { return color(d.weight/max_weight); });
+        .attr("fill", function(d) { return color(1 - d.weight/max_weight); });
 
     node.on("mouseover", focus).on("mouseout", unfocus);
     node.on('click', function(d) {
@@ -193,51 +193,4 @@ const color = d3.scaleSequential(d3.interpolateBrBG);
     }
 }
 
-// function name_legend(nodes){
-//     //body reference
-//     let body = document.getElementsByTagName("body")[0];
-//
-//     // create elements <table> and a <tbody>
-//     let tbl = document.createElement("table");
-//     let tblBody = document.createElement("tbody");
-//     tblBody.setAttribute('display', 'block');
-//     let tblHead = document.createElement('thead');
-//     tblHead.setAttribute('display', 'block');
-//     let head = document.createElement('tr');
-//     let headcol = document.createElement('th');
-//     let header = document.createTextNode('Authors');
-//     headcol.appendChild(header);
-//     head.appendChild(headcol);
-//     tblHead.appendChild(head);
-//     tbl.appendChild(tblHead);
-//
-//
-//     // cells creation
-//     for (let j = 0; j < nodes.length; j++) {
-//         // table row creation
-//         let row = document.createElement("tr");
-//
-//         // create element <td> and text node
-//         //Make text node the contents of <td> element
-//         // put <td> at end of the table row
-//         let person = document.createElement("a");
-//         person.setAttribute('href', '/archives/person/' + nodes[j].slug);
-//         let cell = document.createElement("td");
-//         let cellText = document.createTextNode(nodes[j].id);
-//
-//         person.appendChild(cellText);
-//         cell.appendChild(person);
-//         row.appendChild(cell);
-//
-//         //row added to end of table body
-//         tblBody.appendChild(row);
-//     }
-//
-//     // append the <tbody> inside the <table>
-//     tbl.appendChild(tblBody);
-//     // put <table> in the <body>
-//     body.appendChild(tbl);
-//     // tbl border attribute to
-//     tbl.setAttribute("border", "2");
-// }
 
