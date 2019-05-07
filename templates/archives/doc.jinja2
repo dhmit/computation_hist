@@ -76,11 +76,11 @@
                 <a href="{{  doc_obj.folder.url }}">{{  doc_obj.folder }}</a>
             <br>
             <div class="row mt-3" >
-                    {% if prev_doc != False %}
+                    {% if prev_doc %}
                     <a href="{{ prev_doc.url }}" class="btn btn-primary btn-block "
                        role="button">Previous Doc</a>
                     {% endif %}
-                    {% if next_doc != False %}
+                    {% if next_doc %}
                     <a href="{{ next_doc.url }}" class="btn btn-primary btn-block"
                        role="button">Next Doc</a>
                     {% endif %}
