@@ -74,10 +74,7 @@ const INVALID_REGISTER_EXCEPTION = "Tried to program to invalid register!";
 const FIXED_OVERFLOW_EXCEPTION = "Fixed point number too large!";
 const FLOAT_OVERFLOW_EXCEPTION = "Floating point number too large!";
 const NAN_EXCEPTION = "Expected number, but it was me, Dio!";
-const INVALID_INSTRUCTION_EXCEPTION = "Cannot parse instruction!";
 const INVALID_INSTRUCTION_RUNTIME = "Cannot run instruction!";
-
-const regex_line_parser = new RegExp('^([A-Z]+)\\s*(.*)');
 
 /**
  * Function to create a new string with the character at index replaced by a new character.
@@ -107,6 +104,25 @@ function convert_to_binary(number, digits) {
         result = "0" + result;
     }
     return result.toString();
+}
+
+/**
+ * Evaluates math expressions which only contain + and -. Based off of solution from
+ * https://stackoverflow.com/questions/2276021/evaluating-a-string-as-a-mathematical-expression-in-javascript.
+ *
+ * @param {string}  expression      Expression to be evaluated.
+ * @returns {number}
+ */
+function eval_math(expression) {
+    if (expression.search(/[^\d+\- .]+/g) !== -1) { // return NaN if letters or other weird symbols in expression
+        return NaN;
+    }
+    let result = 0;
+    const s = expression.match(/[+\-]*(\.\d+|\d+(\.\d+)?)/g) || [];
+    while (s.length){
+        result += Number(s.shift());
+    }
+    return result;
 }
 
 /**
@@ -708,7 +724,9 @@ class General_Word extends Word {
 
 let max_word = new General_Word("011111111111111111111111111111111111");
 const MAX_FIXED_POINT = max_word.fixed_point;
+const MIN_FIXED_POINT = -MAX_FIXED_POINT;
 const MAX_FLOATING_POINT = max_word.floating_point;
+const MIN_FLOATING_POINT = -MIN_FIXED_POINT;
 
 /**
  * Class representing the accumulator on the IBM 704.  The accumulator consists of 38 bits: a
@@ -1129,7 +1147,8 @@ export class IBM_704 {
         if (instruction_word.is_typeB()) {
             instruction = instruction_word.instruction_b;
             if (typeof instruction.operation === "undefined") {
-                alert("Halting on unrecognized operation!");
+                $("#dialog_text").html("Halting on unrecognized operation!");
+                $("#error_message").dialog();
                 this.halt = true;
                 throw INVALID_INSTRUCTION_RUNTIME;
             }
@@ -1137,7 +1156,8 @@ export class IBM_704 {
         } else {
             instruction = instruction_word.instruction_a;
             if (typeof instruction.operation === "undefined") {
-                alert("Halting on unrecognized operation!");
+                $("#dialog_text").html("Halting on unrecognized operation!");
+                $("#error_message").dialog();
                 this.halt = true;
                 throw INVALID_INSTRUCTION_RUNTIME;
             }
@@ -1187,101 +1207,6 @@ export class IBM_704 {
     }
 
     /**
-     * Converts an array of strings that contain lines of SHARE assembly into numerical code that is
-     * placed in general memory.
-     *
-     * Currently missing most operations, including all Type A operations and pseudo-operations.
-     *
-     * @param {number} origin        Where to start storing the program.
-     * @param {Array}  code_lines    Array of lines of code.
-     */
-    assemble(origin, code_lines) {
-        this.clear();
-        let register = origin;
-        for (let line_no in code_lines) {
-            if (!code_lines.hasOwnProperty(line_no)) {
-                continue;
-            }
-            let line = code_lines[line_no];
-            console.log(line);
-            if (!line.replace(/\s/g, '').length) {
-              continue;
-            }
-            if (isNaN(register) || register >= this.size || register < 0) {
-                alert("Error: Tried to program to invalid register " + register + "on line " +
-                    (parseInt(line_no) + 1) + "!  Register must be integer between 0 and " + (this.size - 1) + ".");
-                throw INVALID_REGISTER_EXCEPTION;
-            }
-            let parsed_command = regex_line_parser.exec(line);
-            if (parsed_command === null) { //if parsed command is null, throw error, not a valid command.
-                alert("Error: Cannot parse instruction on line " + (parseInt(line_no) + 1) + ".");
-                throw INVALID_INSTRUCTION_EXCEPTION;
-            }
-            let operation = parsed_command[1];
-            let rest_of_line = parsed_command[2];
-            let numbers = rest_of_line.split(",");
-            try {
-                if (operation === "ORG") { // ORG pseudoinstruction lets you program to different location
-                    register = Number(numbers[0]);
-                    if (isNaN(register)) {
-                        throw NAN_EXCEPTION;
-                    }
-                    continue;
-                } else if (operation === "DEC") { // DEC psuedoinstruction lets you program fixed and floating point numbers
-                    let number = Number(numbers[0]);
-                    if (isNaN(number)) {
-                        throw NAN_EXCEPTION;
-                    }
-                    if (numbers[0].includes(".")) {
-                        if (number > MAX_FLOATING_POINT || number < -MAX_FLOATING_POINT) {
-                            alert("Error: Floating point value " + number + " at line " + (Number(line_no) + 1) +
-                                " is too large! Floating point numbers must be between " + MAX_FLOATING_POINT +
-                                " and " + -(MAX_FLOATING_POINT) + "."
-                            );
-                            throw FLOAT_OVERFLOW_EXCEPTION;
-                        }
-                        this.general_memory[register].floating_point = number;
-                    } else {
-                        if (number > MAX_FIXED_POINT || number < -MAX_FIXED_POINT) {
-                            alert("Error: Fixed point value " + number + " at line " + (Number(line_no) + 1) +
-                                " is too large! Fixed point numbers must be between " + MAX_FIXED_POINT +
-                                " and " + -(MAX_FIXED_POINT) + "."
-                            );
-                            throw FIXED_OVERFLOW_EXCEPTION;
-                        }
-                        this.general_memory[register].fixed_point = number;
-                    }
-                } else {
-                    if (numbers[2] !== undefined) {
-                        let decrement = Number(numbers[2]);
-                        let tag = Number(numbers[1]);
-                        let address = Number(numbers[0]);
-                        this.assemble_line(register, operation, address, tag, decrement);
-                    } else if (numbers[1] !== undefined) {
-                        let tag = Number(numbers[1]);
-                        let address = Number(numbers[0]);
-                        this.assemble_line(register, operation, address, tag);
-                    } else if (numbers[0] !== "") {
-                        let address = Number(numbers[0]);
-                        this.assemble_line(register, operation, address);
-                    } else {
-                        this.assemble_line(register, operation);
-                    }
-                }
-            }
-            catch (err) {
-                if (err === UNDEFINED_OPERATION_EXCEPTION) {
-                    alert("Error: Undefined operation in line " + (parseInt(line_no) + 1) + "!");
-                } else if (err === NAN_EXCEPTION) {
-                    alert("Error: Invalid number in line " + (parseInt(line_no) + 1) + "!");
-                }
-                throw err;
-            }
-            register++;
-        }
-    }
-
-    /**
      * Stores an instruction into general memory as a number.  Currently doesn't handle Type A
      * operations or tags.
      *
@@ -1301,6 +1226,150 @@ export class IBM_704 {
             this.general_memory[register].instruction_a = new Instruction_A(operation, address, tag, decrement);
         } else {
             throw UNDEFINED_OPERATION_EXCEPTION;
+        }
+    }
+
+    /**
+     * Assembles program and places into memory.
+     *
+     * @param {Array}   code_lines  Array of Assembly_Line objects.
+     */
+    assemble(code_lines) {
+        this.clear();
+        code_lines = code_lines.slice(0);
+
+        // get labels and determine what they point to
+        let labels = {};
+        let register = 0;
+        for (const line_no in code_lines) {
+            if (!Object.prototype.hasOwnProperty.call(code_lines, line_no)) {
+                continue;
+            }
+            const line = code_lines[line_no];
+            const operation = line[1].trim();
+            // jump to ORG location
+            if (operation === "ORG") {
+                if (register % 1 !== 0 || isNaN(register)) {
+                    $("#dialog_text").html(`Cannot parse ORG instruction on line ${parseInt(line_no)}.`);
+                    $("#error_message").modal('show');
+                    throw NAN_EXCEPTION;
+                }
+                register = Number(line[2]);
+                continue;
+            }
+            // else check address for label
+            const label_field = line[0].replace(/\s/g, '');
+            if (label_field.length) {
+                const label_list = label_field.split(",");
+                for (const label of label_list) {
+                    labels[label] = register;
+                }
+            }
+            register++;
+        }
+        // console.log(labels);
+
+        const label_names = Object.keys(labels).slice(0);
+        label_names.sort( (a, b) => { return b.length - a.length; } ); // sort from longest to shortest to ensure
+        // replacing doesn't conflict
+
+        // replace labels with actual numbers
+        for (const line_no in code_lines) {
+            if (!Object.prototype.hasOwnProperty.call(code_lines, line_no)) {
+                continue;
+            }
+            const line = code_lines[line_no];
+            // console.log(line);
+            let address_part = line[2];
+            for (const label of label_names) {
+                address_part = address_part.replace(new RegExp(label, 'g'), labels[label].toString());
+            }
+            code_lines[line_no][2] = address_part;
+        }
+
+        // actually assemble the program
+        register = 0;
+        for (const line_no in code_lines) {
+            if (!code_lines.hasOwnProperty(line_no)) {
+                continue;
+            }
+            const line = code_lines[line_no];
+            if (isNaN(register) || register >= this.size || register < 0) {
+                $("#dialog_text").html(`Tried to program to invalid register ${register} on line ` +
+                    `${parseInt(line_no) + 1}!  Register must be integer between 0 and ${this.size - 1}.`);
+                $("#error_message").modal('show');
+                throw INVALID_REGISTER_EXCEPTION;
+            }
+            const operation = line[1];
+            const rest_of_line = line[2];
+            const expressions = rest_of_line.split(",");
+            const numbers = Array();
+            for (const expression of expressions) {
+                numbers.push(eval_math(expression));
+            }
+
+            try {
+                if (operation === "ORG") { // ORG pseudoinstruction lets you program to different location
+                    register = numbers[0];
+                    if (isNaN(register)) {
+                        throw NAN_EXCEPTION;
+                    }
+                    continue;
+                } else if (operation === "DEC") { // DEC psuedoinstruction lets you program fixed and floating point numbers
+                    let number = Number(expressions[0]);
+                    if (isNaN(number)) {
+                        throw NAN_EXCEPTION;
+                    }
+                    if (expressions[0].includes(".")) {
+                        if (number > MAX_FLOATING_POINT || number < -MAX_FLOATING_POINT) {
+                            $("#dialog_text").html(`Floating point value ${number} at line ${(Number(line_no) + 1)}` +
+                                ` is too large! Floating point numbers must be between ${MAX_FLOATING_POINT}` +
+                                ` and ${MIN_FLOATING_POINT}.`
+                            );
+                            $("#error_message").modal('show');
+                            throw FLOAT_OVERFLOW_EXCEPTION;
+                        }
+                        this.general_memory[register].floating_point = number;
+                    } else {
+                        if (number > MAX_FIXED_POINT || number < -MAX_FIXED_POINT) {
+                            $("#dialog_text").html(`Floating point value ${number} at line ${(Number(line_no) + 1)}` +
+                                ` is too large! Floating point numbers must be between ${MAX_FIXED_POINT}` +
+                                ` and ${MIN_FIXED_POINT}.`
+                            );
+                            $("#error_message").modal('show');
+                            throw FIXED_OVERFLOW_EXCEPTION;
+                        }
+                        this.general_memory[register].fixed_point = number;
+                    }
+                } else {
+                    if (numbers[2] !== undefined) {
+                        const decrement = numbers[2];
+                        const tag = numbers[1];
+                        const address = numbers[0];
+                        this.assemble_line(register, operation, address, tag, decrement);
+                    } else if (numbers[1] !== undefined) {
+                        const tag = numbers[1];
+                        const address = numbers[0];
+                        this.assemble_line(register, operation, address, tag);
+                    } else if (numbers[0] !== "") {
+                        const address = numbers[0];
+                        this.assemble_line(register, operation, address);
+                    } else {
+                        this.assemble_line(register, operation);
+                    }
+                }
+            }
+            catch (err) {
+                if (err === UNDEFINED_OPERATION_EXCEPTION) {
+                    $("#dialog_text").html("Undefined operation in line " + (parseInt(line_no) + 1) + "!");
+                    $("#error_message").modal('show');
+                } else if (err === NAN_EXCEPTION) {
+                    $("#dialog_text").html("Invalid number in line " + (parseInt(line_no) + 1) + "!");
+                    $("#error_message").modal('show');
+                }
+                throw err;
+            }
+            register++;
         }
     }
 
@@ -2020,20 +2089,59 @@ export class Assembly_Line {
     /**
      * Constructor for class.  See demos.js for example.
      *
-     * @param {string}             instruction              The text in the line.
+     * @param {Array}              instruction              The text in the line.
      * @param {string}             description              Short description of line to be displayed at top of page.
      */
     constructor(instruction, description = undefined) {
         this.description = description;
-        this.instruction = instruction;
+        if (instruction.length === 2) {
+            this.instruction = [""].concat(instruction);
+        } else {
+            this.instruction = instruction;
+        }
     }
 
     /**
-     * String representation that looks like this: 0: CLA 4
+     * String representation that looks like this: LABEL: CLA 4
      * @returns {string}
      */
     toString() {
-        return this.instruction;
+        let result = "";
+        if (this.instruction[0] !== "") {
+            result += this.instruction[0];
+            result += ": ";
+        }
+        result += this.instruction[1];
+        result += " ";
+        result += this.instruction[2];
+        return result;
+    }
+
+    /**
+     * Label part of line.
+     *
+     * @returns {string}
+     */
+    get label() {
+        return this.instruction[0];
+    }
+
+    /**
+     * Operation part of line.
+     *
+     * @returns {string}
+     */
+    get operation() {
+        return this.instruction[1];
+    }
+
+    /**
+     * Address, tag, decrement part of line.
+     *
+     * @returns {string}
+     */
+    get numbers() {
+        return this.instruction[2];
     }
 }
 
