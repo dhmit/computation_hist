@@ -7,7 +7,7 @@ function create_force_layout(nodes, edges) {
     let height = document.getElementById("visualizations").clientHeight;
 
 
-    const color = d3.scaleSequential(d3.interpolateRdBu);
+    const color = d3.scaleSequential(d3.interpolateBlues);
     const graph = {"nodes": nodes, "links": edges};
     let max_weight = 0;
     graph.nodes.forEach(function(d){
@@ -76,8 +76,8 @@ function create_force_layout(nodes, edges) {
         .data(graph.nodes)
         .enter()
         .append("circle")
-        .attr("r", 5)
-        .attr("fill", function(d) { return color(1 - d.weight/max_weight); });
+        .attr("r", function (d) {return Math.max(Math.pow(d.weight, 1/3), 5);})
+        .attr("fill", function(d) { return color(0.5 + (Math.pow(d.weight/max_weight, 1/2))/2); });
 
     node.on("mouseover", focus).on("mouseout", unfocus);
     node.on('click', function(d) {
