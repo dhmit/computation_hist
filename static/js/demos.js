@@ -5,22 +5,18 @@ import { DemoRenderer } from './render.js';
 
 export const assembly_addition_demo_params = {
     computer_size: 7,
-    num_code_lines: 4,
+    num_code_lines: 3,
     highlighted_registers: [6],
     initial_memory_values: [[4, 12], [5, 30]],
     instructions: [
         new Assembly_Line(
-            "CLA 4", "<b>CLA 4: </b> Clears the accumulator and stores the value at address 4 (which" +
-            " you'll see if you mouseover is 12) into accumulator."
+            "CLA 4", "<b>CLA 4: </b> Clears the accumulator and stores the value at address 4 (12) into accumulator."
         ),
         new Assembly_Line(
             "ADD 5", "<b>ADD 5: </b> Adds the value at address 5 (30) to the accumulator."
         ),
         new Assembly_Line(
             "STO 6", "<b>STO 6: </b> Stores the value of the accumulator into the register at address 6."
-        ),
-        new Assembly_Line(
-            "HTR", "<b>HTR: </b> Tells the computer to stop."
         ),
     ],
 };
