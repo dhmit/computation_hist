@@ -258,6 +258,3 @@ def stories(request):
     return render(request, template, context)
 
 
-def team(request):
-    return render(request, 'archives/contributors_page.jinja2')
-
