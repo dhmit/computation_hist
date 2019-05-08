@@ -43,6 +43,7 @@ const no_to_operation_b = {
     0o140: "TOV",
     0o4140: "TNO",
     0o162: "TQP",
+    0o040: "TLQ",
     0o074: "TSX",
 };
 
@@ -2033,6 +2034,20 @@ export class IBM_704 {
      */
     TQP(address) {
         if (this.mq_register.contents[0] === "0") {
+            this.ilc.update(address, this.size);
+        }
+    }
+
+    /**
+     * Emulates the IBM 704 Transfer on Low MQ (TLQ) operation.
+     *
+     * If the MQ is less than the AC, the computer takes the next instruction from location Y and
+     * proceeds from there.
+     *
+     * @param {number}  address     Address to jump to.
+     */
+    TLQ(address) {
+        if (this.mq_register.fixed_point < this.accumulator.fixed_point) {
             this.ilc.update(address, this.size);
         }
     }
