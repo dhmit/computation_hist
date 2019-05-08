@@ -7,6 +7,7 @@
 const no_to_operation_b = {
     0o761: "NOP",
     0o601: "STO",
+    0o602: "SLW",
     0o000: "HTR",
     0o420: "HPR",
     0o500: "CLA",
@@ -1439,6 +1440,17 @@ export class IBM_704 {
     STO(address) {
         this.general_memory[address].fixed_point = this.accumulator.fixed_point; // ensures correct
         // copying of sign bit but not P or Q bits
+    }
+
+    /**
+     * Emulates the IBM 704 Store Logical Word (SLW) operation.
+     *
+     * The C(AC)P,1-35 replace the C(Y)S,1-35. The C(AC) are unchanged.
+     *
+     * @param {number}  address     Address to store value to.
+     */
+    SLW(address) {
+        this.general_memory[address].update_contents(this.accumulator.contents.substr(-36));
     }
 
     /**
