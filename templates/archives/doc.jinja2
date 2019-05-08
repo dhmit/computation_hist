@@ -12,7 +12,7 @@
         {% endif %}
         </h3>
 
-        {{ doc_obj.type }}
+        {{ doc_obj.type|capitalize }}
         {% if author_person_objs or author_organization_objs %}
             by
             {% if author_person_objs %}
