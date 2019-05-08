@@ -11,6 +11,7 @@ const no_to_operation_b = {
     0o000: "HTR",
     0o420: "HPR",
     0o500: "CLA",
+    0o4500: "CAL",
     0o400: "ADD",
     0o402: "SUB",
     0o4400: "SBM",
@@ -1476,6 +1477,18 @@ export class IBM_704 {
     CLA() {
         this.accumulator.clear();
         this.accumulator.store_general_word(this.storage_register);
+    }
+
+    /**
+     * Emulates the IBM 704 Clear and Add Logical Word (CAL) operation.
+     *
+     * This instruction replaces the C(AC)P,1-35 with the C(Y). Thus the sign of the C(Y) appears in position
+     * P of the AC,and the S and Q bits are cleared. The C(Y) are unchanged.
+     *
+     */
+    CAL() {
+        this.accumulator.clear();
+        this.accumulator.update_contents(this.storage_register.contents);
     }
 
     /**
