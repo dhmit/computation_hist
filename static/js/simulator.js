@@ -35,6 +35,7 @@ const no_to_operation_b = {
     0o240: "FDH",
     0o241: "FDP",
     0o020: "TRA",
+    0o340: "CAS",
     0o100: "TZE",
     0o4100: "TNZ",
     0o120: "TPL",
@@ -1909,6 +1910,28 @@ export class IBM_704 {
      */
     TRA(address) {
         this.ilc.update(address, this.size);
+    }
+
+    /**
+     * Emulates the IBM 704 Compare Accumulator with Storage (CAS) operation.
+     *
+     * If the C(Y) are algebraically less than the C(AC), the calculator takes the next instruction in sequence. If
+     * the C(Y) are algebraically equal to the C(AC), the calculator skips the next instruction and proceeds from
+     * there. If the C(Y) are algebraically greater than the C(AC), the calculator skips the next two instructions
+     * and proceeds from there. Two numbers are algebraically equal when the magnitude of the numbers and the sign are both equal.
+     * A plus zero is algebraically larger than a minus zero.
+     *
+     */
+    CAS() {
+        if (this.accumulator.fixed_point === this.storage_register.fixed_point) {
+            if (this.accumulator.contents[0] === '1' && this.storage_register.contents === '0') {
+                this.ilc.increment(this.size);
+            }
+            this.ilc.increment(this.size);
+        } else if (this.storage_register.fixed_point > this.accumulator.fixed_point) {
+            this.ilc.increment(this.size);
+            this.ilc.increment(this.size);
+        }
     }
 
     /**
