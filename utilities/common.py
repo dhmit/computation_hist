@@ -83,7 +83,7 @@ def get_file_path(box: int, folder: int, foldername_short: str, file_type: str,
     elif path_type == 'absolute':
         return Path(PROCESSED_PDFS_PATH, path)
     elif path_type == 'aws':
-        return Path("https://s3.amazonaws.com/comp-hist/docs/", path)
+        return 'https://s3.amazonaws.com/comp-hist/docs/' + str(PurePosixPath(path))
     else:
         raise NotImplementedError('Only path_type relative, absolute, and aws are implemented.')
 

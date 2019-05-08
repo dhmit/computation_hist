@@ -124,12 +124,13 @@ def doc(request, doc_id=None, slug=None):
     if cced_organization_objs:
         if cced_organization_objs[0].name == 'unknown':
             cced_organization_objs = None
+
     doc_pdf_url = str(get_file_path(doc_obj.folder.box.number, doc_obj.folder.number,
                                     doc_obj.folder.name, file_type='pdf', path_type='aws',
                                     doc_id=doc_obj.doc_id))
 
     prev_doc, next_doc = get_neighboring_docs(doc_obj)
-
+    
     obj_dict = {
         'doc_obj': doc_obj,
         'author_person_objs': author_person_objs,
@@ -142,6 +143,7 @@ def doc(request, doc_id=None, slug=None):
         'prev_doc': prev_doc,
         'next_doc': next_doc,
     }
+
     return render(request, 'archives/doc.jinja2', obj_dict)
 
 
