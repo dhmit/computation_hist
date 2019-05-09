@@ -114,6 +114,11 @@ body {
     object-fit: cover;
 }
 
+.story_in_text_link{
+    text-decoration: underline;
+    color: black;
+}
+
 
 /*
  * DOCUMENT PAGE
@@ -132,6 +137,21 @@ body {
     color: #eeeeee;
 }
 
+div.info_bar h5{
+    margin-bottom: 0px;
+    margin-top: 10px;
+    'line-height: 10px
+
+}
+div.info_bar {
+    -moz-hyphens:auto;
+    -ms-hyphens:auto;
+    -webkit-hyphens: auto;
+    hyphens:auto;
+    word-wrap: break-word;
+}
+
+
 @media (max-width: 1000PX) {
     .sidenav {
         position: relative;
@@ -141,3 +161,6 @@ body {
     }
 }
 
+.sim_buttons{
+    text-align:center;
+}
