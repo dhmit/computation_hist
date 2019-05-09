@@ -57,6 +57,38 @@ def person(request, slug):
     return render(request, 'archives/person.jinja2', obj_dict)
 
 
+def get_neighboring_docs(doc_obj):
+    """
+    :param doc_obj:
+    :return: tuple that holds (previous_doc, next_doc) - if doc doesn't exist return False instead
+    """
+
+    filename_split = doc_obj.file_name.split("_")
+
+    doc_number = int(filename_split[-1])
+
+    previous_doc_number = doc_number - 1
+    next_doc_number = doc_number + 1
+
+    filename_split[-1] = str(previous_doc_number)
+    previous_doc_file_name = "_".join(filename_split)
+
+    filename_split[-1] = str(next_doc_number)
+    next_doc_file_name = "_".join(filename_split)
+
+    try:
+        previous_doc = Document.objects.get(file_name=previous_doc_file_name)
+    except ObjectDoesNotExist:
+        previous_doc = None
+
+    try:
+        next_doc = Document.objects.get(file_name=next_doc_file_name)
+    except ObjectDoesNotExist:
+        next_doc = None
+
+    return previous_doc, next_doc
+
+
 def doc(request, doc_id=None, slug=None):
     """
     Puts a document on the screen
@@ -65,7 +97,6 @@ def doc(request, doc_id=None, slug=None):
     :param slug:
     :return:
     """
-
     if doc_id:
         doc_obj = get_object_or_404(Document, pk=doc_id)
     elif slug:
@@ -96,8 +127,9 @@ def doc(request, doc_id=None, slug=None):
     doc_pdf_url = str(get_file_path(doc_obj.folder.box.number, doc_obj.folder.number,
                                     doc_obj.folder.name, file_type='pdf', path_type='aws',
                                     doc_id=doc_obj.doc_id))
-    print(doc_pdf_url)
-    print(doc_obj.date)
+
+    prev_doc, next_doc = get_neighboring_docs(doc_obj)
+
     obj_dict = {
         'doc_obj': doc_obj,
         'author_person_objs': author_person_objs,
@@ -107,6 +139,8 @@ def doc(request, doc_id=None, slug=None):
         'cced_person_objs': cced_person_objs,
         'cced_organization_objs': cced_organization_objs,
         'doc_pdf_url': doc_pdf_url,
+        'prev_doc': prev_doc,
+        'next_doc': next_doc,
     }
     return render(request, 'archives/doc.jinja2', obj_dict)
 
