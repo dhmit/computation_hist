@@ -11,12 +11,13 @@
     <div class="container">
         <p id="loading">Loading...</p>
         <div class="row">
-            <div class="col-sm-4">
+            <div class="col-sm-4" data-step="2" data-intro="This is where you can see the IBM 704 Assembly Language
+            code as it would be entered into a Symbolic Coding Form before being converted to punch card format.">
                 <h3>Code</h3>
-                <div id="code" data-step="2" data-intro="box 2">
+                <div id="code">
                     <div id="code_heading" class="row">
                         <p>  </p>
-                        <div class="col-sm px-2" >Lbl</div>
+                        <div class="col-sm px-2">Lbl</div>
                         <div class="col-sm px-2">Op</div>
                         <div class="col-sm px-2">ATD</div>
                     </div>
@@ -34,22 +35,34 @@
             <p>Mouse over words (the binary numbers) to see how they could be interpreted.</p>
             <br />
             </div>
-            <div class="col-sm-5" data-step="3" data-intro="box 3">
+            <div class="col-sm-5" data-step="3" data-intro="This is the display of the data in the computer's general
+             memory.  Mouse over a register to see the possible interpretations of the binary.">
                 <h3>General Memory</h3>
                 <div class="pre-scrollable" id="general_memory_div"></div>
                 <br />
             </div>
-            <div class="col-sm-3" id="other_registers" data-step="4" data-intro="box 4">
+            <div class="col-sm-3" id="other_registers" data-step="4" data-intro="These are special registers for
+            storage and operations.  You can mouse over these registers as well.">
                 <h3>Other Registers: </h3>
-                <p data-step="5" data-intro="box 5">Instruction Location Counter: <span
-                        id="instruction_location_counter" class="number" data-toggle="tooltip"></span></p>
+                
+                <p data-step="5" data-intro="This is the instruction location counter, which determines the address of
+                 the instruction that the computer will execute.  When the computer is stopped, it shows the address
+                 of the next instruction to be executed.">Instruction Location Counter: <span id="instruction_location_counter" class="number" data-toggle="tooltip"></span></p>
+
                 <p>Instruction Register: <span id="instruction_register" class="number" data-toggle="tooltip"></span></p>
+
                 <p>Storage Register: <span id="storage_register" class="number" data-toggle="tooltip"></span></p>
-                <p data-step="6" data-intro="box 6">Accumulator: <span id="accumulator" class="number"
-                                                                       data-toggle="tooltip"></span></p>
-                <p data-step="7" data-intro="box 7">Multiplier-Quotient Register: <span id="mq_register" class="number"
-                                                        data-toggle="tooltip"></span></p>
-                <div data-step="8" data-intro="box 8">
+
+                <p data-step="6" data-intro="This is the accumulator, which is used for addition and
+                subtraction operations.">Accumulator: <span id="accumulator" class="number"
+                                                            data-toggle="tooltip"></span></p>
+
+                <p data-step="7" data-intro="This is the Multiplier-Quotient register, which is
+                used for multiplication and division operations.">Multiplier-Quotient Register: <span
+                        id="mq_register" class="number" data-toggle="tooltip"></span></p>
+
+                <div data-step="8" data-intro="These are the index registers, which are used for address modification
+                 and control flow.">
                     <p>Index Register A: <span id="index_a" class="number" data-toggle="tooltip"></span></p>
                     <p>Index Register B: <span id="index_b" class="number" data-toggle="tooltip"></span></p>
                     <p>Index Register C: <span id="index_c" class="number" data-toggle="tooltip"></span></p>
