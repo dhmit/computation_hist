@@ -171,7 +171,7 @@ export class Renderer {
         for (let i = 0; i < instructions.length; i++) {
             instruction_text.push(instructions[i].instruction);
         }
-        this.computer.assemble(0, instruction_text);
+        this.computer.assemble(instruction_text);
 
         if (memory_value_pairs !== undefined) {
             for (const [memory_index, value] of memory_value_pairs) {
@@ -187,7 +187,7 @@ export class DemoRenderer extends Renderer {
 
         await this.update_computer_display(highlighted_registers);
 
-        const code_html = $(".symbolic_code");
+        const code_html = $(".code_line");
         code_html.removeClass("next_instruction");
         const code_line = this.computer.ilc.valueOf();
         if (code_line < num_code_lines && code_html.length !== 0) {
@@ -207,11 +207,49 @@ export class DemoRenderer extends Renderer {
 
 
 export class GeneralAssemblerRenderer extends Renderer {
+    constructor(computer) {
+        super(computer);
+        this.num_lines = 0;
+    }
+
     update() {
         const computer = this.computer;
         let line_desc = "Next Instruction to be Executed: ";
         line_desc += computer.general_memory[computer.ilc.valueOf()].instruction.toString();
         $('#line_desc')[0].innerHTML = line_desc;
         this.update_computer_display();
+    }
+
+    add_code_line() {
+        const code = document.getElementById("code");
+
+        const line = $(`
+            <div class="row code_line" id="code_line_${this.num_lines}">
+                  <p class="line_no_text">
+                          ${this.num_lines + 1}.
+                  </p>
+                  <div class="col-sm px-2" id="code_label_${this.num_lines}">
+                         <textarea class="form-control code_box code_label" rows="1"></textarea>
+                  </div>
+                  <div class="col-sm px-2" id="code_operation_${this.num_lines}">
+                         <textarea class="form-control code_box code_operation" rows="1"></textarea>
+                  </div>
+                  <div class="col-sm px-2" id="code_numbers_${this.num_lines}">
+                         <textarea class="form-control code_box code_numbers" rows="1"></textarea>
+                  </div>
+           </div>
+        `)[0];
+
+        code.appendChild(line);
+        this.num_lines++;
+    }
+
+    remove_code_line() {
+        if (this.num_lines > 0) {
+            const last_line_no = this.num_lines - 1;
+            const last_line = document.getElementById("code_line_" + last_line_no.toString());
+            last_line.remove();
+            this.num_lines--;
+        }
     }
 }
