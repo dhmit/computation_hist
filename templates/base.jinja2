@@ -5,15 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- favicon --> 
-    <!-- ... currently nothing! this is just here to keep the browser from looking for a favicon and getting a 404 -->
-    <link rel="icon" />
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="{%  static 'img/favicon/apple-touch-icon.png' %}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{%  static 'img/favicon/favicon-32x32.png' %}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{%  static 'img/favicon/favicon-16x16.png' %}">
+    <link rel="manifest" href="{%  static 'img/favicon/site.webmanifest' %}">
 
     <!-- bootstrap styling -->
     <link rel="stylesheet"
           href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" href="{{ static('css/styles.css') }}" type="text/css">
     <link rel="stylesheet" href="{{ static('css/acre_font.css') }}" type="text/css">
+
+
     <title>{% block title %} Computational History {% endblock %} - MIT Computation Center Archives</title>
 
     {%  block extraheader %}{% endblock %}
@@ -36,18 +40,24 @@
                         Archives
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item"
-                           href="/archives/browse"><span
-                                class="dropdown-link">Browse</span></a>
-                        <a class="dropdown-item"
-                           href="/archives/list/person"><span
-                                class="dropdown-link">People</span></a>
-                        <a class="dropdown-item"
-                           href="/archives/list/folder"><span
-                                class="dropdown-link">Folders</span></a>
-                        <a class="dropdown-item"
-                           href="/archives/list/organization"><span
-                                class="dropdown-link">Organizations</span></a>
+                        <a class="dropdown-item" href="/archives/browse">
+                            <span class="dropdown-link">Browse</span>
+                        </a>
+                        <a class="dropdown-item" href="/archives/list/person">
+                            <span class="dropdown-link">People</span>
+                        </a>
+                        <a class="dropdown-item" href="/archives/list/folder"><span
+                                class="dropdown-link">Folders</span>
+                        </a>
+                        <a class="dropdown-item" href="/archives/list/organization"><span
+                                class="dropdown-link">Organizations</span>
+                        </a>
+                        <a class="dropdown-item" href="/archives/net_viz"><span
+                                class="dropdown-link">Network Visualization</span>
+                        </a>
+                        <a class="dropdown-item" href="/archives/timeline">
+                            <span class="dropdown-link">Timeline</span>
+                        </a>
                     </div>
                 </li>
                 <li class="nav-item active">
@@ -57,17 +67,13 @@
                 <li class="nav-item active">
                     <a class="nav-link" href="/simulations">Simulations</a>
                 </li>
-
-                <li class="nav-item active">
-                    <a class="nav-link" href="/archives/advanced_search">Advanced Search</a>
-                </li>
             </ul>
-            <form class="form-inline my-2 my-lg-0" action="/archives/search_results"
+            <form class="form-inline my-2 my-lg-0" action="/archives/search"
                   id="basic_search_form">
                 <input class="form-control mr-sm-2" type="text"
                        id="basic_search"
                        placeholder="Search"
-                       aria-label="Search" name="q">
+                       aria-label="Search" name="keyword">
                 <button class="btn btn-secondary my-2 my-sm-0"
                         id="basic_search_submit_button"
                         type="submit">Search</button>
@@ -91,21 +97,28 @@
 <footer class="footer bg-white text-dark text-center">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-4 py-3">
+            <div class="col-md-3 col-6 py-3">
                 <a href="https://digitalhumanities.mit.edu/">
                     <img src="{{ static('img/dh_logo.png') }}"
                          class='footer-img'
                          alt='Digital Humanities at MIT Logo'/>
                 </a>
             </div>
-            <div class="col-4 py-3">
+            <div class="col-md-3 col-6 py-3">
                 <a href="https://www.mit.edu/">
                     <img src="{{ static('img/mit_logo.svg') }}"
                          class='footer-img'
                          alt='MIT Logo'/>
                 </a>
             </div>
-            <div class="col-4 py-3">
+            <div class="col-md-3 col-6 py-3">
+                <a href="https://libraries.mit.edu/">
+                    <img src="{{ static('img/library_logo.png') }}"
+                         class='footer-img'
+                         alt="MIT Libraries Logo"/>
+                </a>
+            </div>
+            <div class="col-md-3 col-6 py-3">
                 <a href="https://www.mellon.org/">
                     <img src="{{ static('img/mellon_logo.svg') }}"
                          class='footer-img'
