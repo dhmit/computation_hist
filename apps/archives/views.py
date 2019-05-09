@@ -124,12 +124,13 @@ def doc(request, doc_id=None, slug=None):
     if cced_organization_objs:
         if cced_organization_objs[0].name == 'unknown':
             cced_organization_objs = None
+
     doc_pdf_url = str(get_file_path(doc_obj.folder.box.number, doc_obj.folder.number,
                                     doc_obj.folder.name, file_type='pdf', path_type='aws',
                                     doc_id=doc_obj.doc_id))
 
     prev_doc, next_doc = get_neighboring_docs(doc_obj)
-
+    
     obj_dict = {
         'doc_obj': doc_obj,
         'author_person_objs': author_person_objs,
@@ -142,6 +143,7 @@ def doc(request, doc_id=None, slug=None):
         'prev_doc': prev_doc,
         'next_doc': next_doc,
     }
+
     return render(request, 'archives/doc.jinja2', obj_dict)
 
 
@@ -313,3 +315,19 @@ def stories(request):
     context = {'stories': STORIES}
     return render(request, template, context)
 
+
+def timeline(request):
+    documents = (Document.objects.order_by('date').exclude(date=None))
+    last_year = documents.last().date.year
+    documents_by_year = {}
+    documents_by_year["1945-1949"] = []
+    for i in range(1950, last_year + 1):
+        documents_by_year[i] = []
+    for document in documents:
+        year = document.date.year
+        if year < 1950:
+            documents_by_year["1945-1949"].append(document)
+        else:
+            documents_by_year[year].append(document)
+    context = {'documents_by_year': documents_by_year}
+    return render(request, 'archives/timeline.jinja2', context)
