@@ -37,8 +37,30 @@
     margin-right: 2%;
 }
 
+#visualizations img {
+    float: left;
+    width: 2%;
+    height: 75%;
+    margin-top: 12%;
+    margin-right: 2%;
+}
+
+#visualizations svg {
+    float: left;
+    width: 95%;
+    height: 100%;
+}
 #node_search_form {
     float: left;
     width: 70%;
     margin-right: 2%;
+}
+
+#description p {
+    text-align: center;
+}
+
+#description {
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
