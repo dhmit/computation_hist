@@ -18,10 +18,6 @@ h1,h2,h3,h4,h5,h6,.navbar-brand {
     text-transform: uppercase;
 }
 
-h5 {
-    text-align: center;
-}
-
 .acre {
     font-family: "Acre-Regular";
     text-transform: uppercase;
@@ -114,6 +110,11 @@ body {
     object-fit: cover;
 }
 
+.story_in_text_link{
+    text-decoration: underline;
+    color: black;
+}
+
 
 /*
  * DOCUMENT PAGE
@@ -132,6 +133,15 @@ body {
     color: #eeeeee;
 }
 
+div.info_bar {
+    -moz-hyphens:auto;
+    -ms-hyphens:auto;
+    -webkit-hyphens: auto;
+    hyphens:auto;
+    background-color: #343a40;
+    color: white;
+}
+
 @media (max-width: 1000PX) {
     .sidenav {
         position: relative;
@@ -141,6 +151,11 @@ body {
     }
 }
 
-.sim_buttons{
+.doc_metadata {
+    white-space: nowrap;
+}
+
+.sim_buttons {
     text-align:center;
 }
+
