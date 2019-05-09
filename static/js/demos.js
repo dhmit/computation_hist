@@ -161,5 +161,12 @@ export function start_demo(demo_params) {
     title.setAttribute("data-intro", "Welcome to the IBM 704 simulator!");
     title.setAttribute("data-step", "1");
     title.setAttribute("data-position", "bottom");
-    introJs().start();
+    if (localStorage.getItem("demo_run_before") === null) {
+        if (localStorage.getItem("general_assembler_run_before") === null) {
+            introJs().start(); // jshint ignore:line
+        } else {
+            introJs().goToStepNumber(11).start(); // jshint ignore:line
+        }
+        localStorage.setItem("demo_run_before", "true");
+    }
 }
