@@ -89,17 +89,14 @@ def get_neighboring_docs(doc_obj):
     return previous_doc, next_doc
 
 
-def doc(request, doc_id=None, slug=None):
+def doc(request, slug=None):
     """
     Puts a document on the screen
     :param request:
-    :param doc_id:
     :param slug:
     :return:
     """
-    if doc_id:
-        doc_obj = get_object_or_404(Document, pk=doc_id)
-    elif slug:
+    if slug:
         doc_obj = get_object_or_404(Document, slug=slug)
     else:
         # NOTE(ra): the case in which both slug and doc_id are both None
@@ -123,15 +120,10 @@ def doc(request, doc_id=None, slug=None):
     cced_organization_objs = doc_obj.cced_organization.all()
     cced = list(cced_person_objs) + list(cced_organization_objs)
 
-    doc_pdf_url = str(get_file_path(doc_obj.folder.box.number, doc_obj.folder.number,
-                                    doc_obj.folder.name, file_type='pdf', path_type='aws',
-                                    doc_id=doc_obj.doc_id))
-
     prev_doc, next_doc = get_neighboring_docs(doc_obj)
     
     obj_dict = {
         'doc_obj': doc_obj,
-        'doc_pdf_url': doc_pdf_url,
         'authors': authors,
         'recipients': recipients,
         'cced': cced,
@@ -309,6 +301,7 @@ def stories(request):
     template = 'archives/stories.jinja2'
     context = {'stories': STORIES}
     return render(request, template, context)
+
 
 def our_team(request):
     return render(request, 'archives/our_team.jinja2')

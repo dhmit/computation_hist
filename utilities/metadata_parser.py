@@ -119,7 +119,9 @@ def add_one_document(csv_line, aliases_to_full_name_dict, line_no=None, names={}
     number_of_pages = int(csv_line['last_page']) - int(csv_line['first_page']) + 1
     file_name = csv_line['filename']
     slug = slugify(file_name)
+    doc_id = csv_line['doc_id']
     new_doc = Document(number_of_pages=number_of_pages,
+                       doc_id=doc_id,
                        title=csv_line['title'],
                        type=csv_line['doc_type'],
                        notes=csv_line['notes'],
@@ -130,7 +132,7 @@ def add_one_document(csv_line, aliases_to_full_name_dict, line_no=None, names={}
 
     txt_path = get_file_path(box=int(csv_line['box']), folder=int(csv_line['folder_number']),
                              foldername_short=csv_line['foldername_short'],
-                             doc_id=csv_line['doc_id'], path_type='absolute', file_type='txt')
+                             doc_id=doc_id, path_type='absolute', file_type='txt')
     try:
         with open(txt_path, 'r', encoding='utf8') as f:
             new_doc.text = f.read()
