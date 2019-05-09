@@ -273,25 +273,51 @@ def net_viz(request):
         graph = file.read()
 
     graph_dict = json.loads(graph)
-
     nodes = graph_dict['nodes']
     links = graph_dict['links']
+    print(request.GET)
 
-    # Sorts out everything but the top 100 nodes
-    nodes = sorted(nodes, key=lambda i: i['weight'], reverse=True)[:100]
-    node_list = [i['id'] for i in nodes]
+    if 'node' in request.GET:
+        old_query = request.GET['node']
+        search_node = old_query.lower()
+    else:
+        search_node = None
+        old_query = None
 
-    # Removes all links that connect to nodes that no longer exist
-    links = [i for i in links if i['source'] in node_list and i['target'] in node_list]
+    # if no search is specified, sort out top 100 nodes
+    if not search_node:
+        # Sorts out everything but the top 100 nodes
+        nodes = sorted(nodes, key=lambda i: i['weight'], reverse=True)[:100]
+        node_list = [i['id'] for i in nodes]
 
-    graph_dict = {'nodes': nodes, 'links': links}
+        # Removes all links that connect to nodes that no longer exist
+        links = [i for i in links if i['source'] in node_list and i['target'] in node_list]
+
+    # Otherwise, find applicable nodes and edges
+    else:
+        # Remove links that don't include the relevant node
+        links = [i for i in links if search_node in i['source'].lower() or
+                 search_node in i['target'].lower()]
+        valid_nodes = []
+        for link in links:
+            valid_nodes.append(link['source'])
+            valid_nodes.append(link['target'])
+
+        # Removes nodes that aren't in the list of links
+        nodes = [i for i in nodes if i['id'] in valid_nodes]
+
+    graph_dict = {'nodes': nodes, 'links': links, 'old_query': old_query}
     return render(request, 'archives/net_viz.jinja2', graph_dict)
 
-    
+
 def stories(request):
     template = 'archives/stories.jinja2'
     context = {'stories': STORIES}
     return render(request, template, context)
+
+def our_team(request):
+    return render(request, 'archives/our_team.jinja2')
+
 
 def our_team(request):
     return render(request, 'archives/our_team.jinja2')

@@ -1,12 +1,13 @@
 "use strict";
 /* exported create_force_layout */
-
-const width = 960;
-const height = 600;
-const color = d3.scaleSequential(d3.interpolateBrBG);
-
+/* exported name_legend */
 
 function create_force_layout(nodes, edges) {
+    let width = document.getElementById("visualizations").clientWidth;
+    let height = document.getElementById("visualizations").clientHeight;
+
+
+    const color = d3.scaleSequential(d3.interpolateBlues);
     const graph = {"nodes": nodes, "links": edges};
     let max_weight = 0;
     graph.nodes.forEach(function(d){
@@ -75,10 +76,13 @@ function create_force_layout(nodes, edges) {
         .data(graph.nodes)
         .enter()
         .append("circle")
-        .attr("r", 5)
-        .attr("fill", function(d) { return color(d.weight/max_weight); });
+        .attr("r", function (d) {return Math.max(Math.pow(d.weight, 1/3), 5);})
+        .attr("fill", function(d) { return color(0.5 + (Math.pow(d.weight/max_weight, 1/2))/2); });
 
     node.on("mouseover", focus).on("mouseout", unfocus);
+    node.on('click', function(d) {
+        window.location.assign("/archives/person/" + d.slug);
+    });
 
     node.call(
         d3.drag()
@@ -99,6 +103,7 @@ function create_force_layout(nodes, edges) {
         .style("pointer-events", "none"); // to prevent mouseover/drag capture
 
     node.on("mouseover", focus).on("mouseout", unfocus);
+    node.on("click", click);
 
     function ticked() {
 
@@ -182,5 +187,10 @@ function create_force_layout(nodes, edges) {
         d.fx = null;
         d.fy = null;
     }
+
+    function click(d) {
+        window.location.assign("/archives/person/"+d.slug);
+    }
 }
+
 
