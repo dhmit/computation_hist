@@ -1,75 +1,71 @@
 
 {% extends "base.jinja2" %}
 
-{% block title %} {{ doc_obj }} {% endblock %}
-
-{% block header %}
-
-    {{ doc_obj }}
-
-{% endblock %}
+{% block title %}{{ doc_obj.title }}{% endblock %}
 
 {% block content %}
+<div class="row">
+    <div class="col">
+        <h3>{{ doc_obj.title }}
+        {% if doc_obj.date %}
+            ({{ doc_obj.date }})
+        {% endif %}
+        </h3>
+
+        {{ doc_obj.type|capitalize }}
+        {% if authors %}
+            by
+            {% for item in authors %}
+                {% if loop.last and not loop.first %} and {% endif %}
+                <a class="doc_metadata" href="{{ item.url }}">{{ item }}</a>
+                {% if not loop.last and authors|length != 2%};{% endif %}
+            {% endfor %}
+        {% endif %}
+
+        {% if recipients %}
+            to
+            {% for item in recipients %}
+                {% if loop.last and not loop.first %} and {% endif %}
+                <a class="doc_metadata" href="{{ item.url }}">{{ item }}</a>
+                {% if not loop.last and recipients|length != 2%};{% endif %}
+            {% endfor %}
+        {% endif %}
+
+        {% if cced %}
+            cced to
+            {% for item in cced %}
+                {% if loop.last and not loop.first %} and {% endif %}
+                <a class="doc_metadata" href="{{ item.url }}">{{ item }}</a>
+                {% if not loop.last and cced|length != 2%};{% endif %}
+            {% endfor %}
+        {% endif %}
+
+    </div>
+</div>
+<div class="row d-none d-md-inline">
+    <div class="col text-center">
+        {% if prev_doc %}
+            <a href="{{ prev_doc.url }}" class="btn btn-outline-secondary float-left"
+               role="button">&laquo; Previous</a>
+        {% endif %}
+
+        <a href="{{ doc_obj.folder.box.url }}">Box #{{ doc_obj.folder.box }}</a> | <a href="{{ doc_obj.folder.url }}">Folder: {{ doc_obj.folder }}</a>
+
+        {% if next_doc %}
+            <a href="{{ next_doc.url }}" class="btn btn-outline-secondary btn-small float-right"
+               role="button">Next &raquo;</a>
+        {% endif %}
+    </div>
+</div>
+
     <div class="row">
-        <div class="col-sm-10">
-            <div class="row" >
-                <iframe src="{{ static('ext/pdfjs/web/viewer.html') }}?file={{ doc_pdf_url }}"
-                        height="900"
-                        width="90%">
-                </iframe>
-            </div>
-            <div class="row">
-                <!--space for bottom hyperlinks to click to neighbouring documents -->
-            </div>
+        <div class="col">
+            <iframe src="{{ static('ext/pdfjs/web/viewer.html') }}?file={{ doc_pdf_url }}"
+                    height="900"
+                    width="100%">
+            </iframe>
         </div>
-        <div class="col-sm-2" style="background-color: #343a40; color: #eeeeee;">
-            <h3> About this Document: </h3>
-            {% if author_person_objs or author_organization_objs %}
-                <h5>Written by:</h5>
-                {% if author_person_objs %}
-                        {% for item in author_person_objs %}
-                                <a href="{{ item.url }}">{{ item }}</a>
-                        {% endfor %}
-                {% endif %}
-                {% if author_organization_objs %}
-                        {% for item in author_organization_objs %}
-                                <a href="{{ item.url }}">{{ item }}</a>
-                        {% endfor %}
-                {% endif %}
-            {% endif %}
 
-            <h5> Written on: </h5>
-            {{ doc_obj.date }}
-
-            {% if recipient_person_objs or recipient_organization_objs%}
-                <h5>Written to:</h5>
-                {% if recipient_person_objs %}
-                        {% for item in recipient_person_objs %}
-                                <a href="{{ item.url }}">{{ item }}</a>
-                        {% endfor %}
-                {% endif %}
-                {% if recipient_organization_objs %}
-                        {% for item in recipient_organization_objs %}
-                                <a href="{{ item.url }}">{{ item }}</a>
-                        {% endfor %}
-                {% endif %}
-            {% endif %}
-
-            {% if cced_person_objs or cced_organization_objs %}
-                <h5>Cced to:</h5>
-                {% if cced_person_objs %}
-                        {% for item in cced_person_objs %}
-                                <a href="{{ item.url }}">{{ item }}</a>
-                        {% endfor %}
-                {% endif %}
-                {% if cced_organization_objs %}
-                        {% for item in cced_organization_objs %}
-                                <a href="{{ item.url }}">{{ item }}</a>
-                        {% endfor %}
-                {% endif %}
-            {% endif %}
-
-        </div>
     </div>
 
 {% endblock %}

@@ -3,20 +3,6 @@
 import { GeneralAssemblerRenderer } from './render.js';
 import { IBM_704, operation_a_to_no, operation_b_to_no, timer } from './simulator.js';
 
-/**
- * Attaches an event listener to a textarea that allows it to dynamically resize as you type in it.
- * From https://stackoverflow.com/questions/37629860/automatically-resizing-textarea-in-bootstrap.
- *
- * @param {string} id   Id of textarea to attach event listener to.
- */
-function expand_text_area(id) {
-    document.getElementById(id).addEventListener('keyup', function() {
-        this.style.overflow = 'hidden';
-        this.style.height = this.scrollHeight + 'px';
-    }, false);
-}
-
-
 function display_operations() {
     const operations = new Set();
 
@@ -36,13 +22,24 @@ function display_operations() {
 }
 
 function assemble_from_code_box(computer) {
+    const assembly_lines = [];
+    const code_labels = $(".code_label");
+    const code_operations = $(".code_operation");
+    const code_numbers =  $(".code_numbers");
+    const num_lines = code_labels.length;
+    for (let i = 0; i < num_lines; i++) {
+        const assembly_line = [
+            code_labels[i].value.trim(),
+            code_operations[i].value.trim(),
+            code_numbers[i].value.trim()
+        ];
+        assembly_lines.push(assembly_line);
+    }
     try {
-        const code = document.getElementById("code_box").value;
-        const newline_regex = /\r\n|[\n\v\f\r\x85\u2028\u2029]/;
-        const code_lines = code.split(newline_regex);
-        computer.assemble(0, code_lines);
+        computer.assemble(assembly_lines);
     } catch (err) {
         computer.clear();
+        throw err;
     }
 }
 
@@ -51,6 +48,7 @@ function assemble_from_code_box(computer) {
  * Runs scripts to initialize page.
  */
 export function start() {
+    $("#error_message").modal('hide');
     const computer = new IBM_704();
     const renderer = new GeneralAssemblerRenderer(computer);
 
@@ -81,8 +79,15 @@ export function start() {
         renderer.highlighting = !renderer.highlighting;
         renderer.update();
     });
-    expand_text_area("code_box");
+    $('#add_line').on('click', () => {
+        renderer.add_code_line();
+    });
+    $('#remove_line').on('click', () => {
+        renderer.remove_code_line();
+    });
+
     display_operations();
+    renderer.add_code_line();
     renderer.update();
     $('[data-toggle="tooltip"]').tooltip();
     $("#loading").hide();
