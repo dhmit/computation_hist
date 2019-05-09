@@ -288,3 +288,19 @@ def stories(request):
     context = {'stories': STORIES}
     return render(request, template, context)
 
+
+def timeline(request):
+    documents = (Document.objects.order_by('date').exclude(date=None))
+    last_year = documents.last().date.year
+    documents_by_year = {}
+    documents_by_year["1945-1949"] = []
+    for i in range(1950, last_year + 1):
+        documents_by_year[i] = []
+    for document in documents:
+        year = document.date.year
+        if year < 1950:
+            documents_by_year["1945-1949"].append(document)
+        else:
+            documents_by_year[year].append(document)
+    context = {'documents_by_year': documents_by_year}
+    return render(request, 'archives/timeline.jinja2', context)

@@ -39,7 +39,7 @@ def get_file_path(box: int, folder: int, foldername_short: str, file_type: str,
 
     To generate an aws path, use path_type='aws'
     >>> get_file_path(1, 8, 'rockefeller', file_type='raw_pdf', path_type='aws')
-    PosixPath('https:/s3.amazonaws.com/comp-hist/docs/1_8_rockefeller/raw_pdf/1_8_rockefeller_raw.pdf')
+    'https://s3.amazonaws.com/comp-hist/docs/1_8_rockefeller/raw_pdf/1_8_rockefeller_raw.pdf'
 
     :param box: int
     :param folder: int

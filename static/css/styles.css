@@ -110,6 +110,11 @@ body {
     object-fit: cover;
 }
 
+.story_in_text_link{
+    text-decoration: underline;
+    color: black;
+}
+
 
 /*
  * DOCUMENT PAGE
@@ -146,10 +151,11 @@ div.info_bar {
     }
 }
 
+.doc_metadata {
+    white-space: nowrap;
+}
+
 .sim_buttons {
     text-align:center;
 }
 
-.doc_metadata {
-    white-space: nowrap;
-}
