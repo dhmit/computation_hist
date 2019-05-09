@@ -177,4 +177,4 @@ class Document(models.Model):
         return pl
 
     class Meta:
-        ordering = ['file_name']
+        ordering = ['doc_id']
