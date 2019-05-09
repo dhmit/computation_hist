@@ -322,3 +322,14 @@ def timeline(request):
             documents_by_year[year].append(document)
     context = {'documents_by_year': documents_by_year}
     return render(request, 'archives/timeline.jinja2', context)
+
+
+def all_docs(request):
+    """ We're not going to show this publically (probably) -- this is for metadata cleaning """
+    docs = (Document.objects.all()
+                           .order_by('folder__box__number', 'folder__number', 'doc_id')
+                           .prefetch_related('folder', 'folder__box'))
+
+    return render(request, 'archives/all_docs.jinja2', {'docs': docs})
+
+

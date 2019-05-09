@@ -103,7 +103,7 @@ class Folder(models.Model):
         return f'/archives/folder/{self.slug}'
 
     class Meta:
-        ordering = ['full']
+        ordering = ['box__number', 'number', 'full']
 
 
 class Document(models.Model):
