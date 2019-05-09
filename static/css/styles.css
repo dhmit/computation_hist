@@ -18,10 +18,6 @@ h1,h2,h3,h4,h5,h6,.navbar-brand {
     text-transform: uppercase;
 }
 
-h5 {
-    text-align: center;
-}
-
 .acre {
     font-family: "Acre-Regular";
     text-transform: uppercase;
@@ -137,20 +133,14 @@ body {
     color: #eeeeee;
 }
 
-div.info_bar h5{
-    margin-bottom: 0px;
-    margin-top: 10px;
-    'line-height: 10px
-
-}
 div.info_bar {
     -moz-hyphens:auto;
     -ms-hyphens:auto;
     -webkit-hyphens: auto;
     hyphens:auto;
-    word-wrap: break-word;
+    background-color: #343a40;
+    color: white;
 }
-
 
 @media (max-width: 1000PX) {
     .sidenav {
@@ -161,6 +151,54 @@ div.info_bar {
     }
 }
 
-.sim_buttons{
+.doc_metadata {
+    white-space: nowrap;
+}
+
+.sim_buttons {
     text-align:center;
+}
+
+.team-member.team-member-lg img {
+  width: 250px;
+  height: 250px;
+  border: 7px solid #fff;
+}
+.team-member.former img {
+    width: 80px;
+    height: 80px;
+    border-width: 3px;
+}
+
+@media (min-width: 768px) {
+  .team-member {
+    margin-bottom: 50px;
+  }
+  .team-member h4 {
+    margin-top: 25px;
+  }
+  .team-member.former {
+    font-size: 90%;
+  }
+  .team-member.former h4 {
+    font-size: 90%;
+  }
+  .team-member:not(.team-member-lg) img {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #fff;
+  }
+  .team-member.former img {
+    width: 100px;
+    height: 100px;
+    border-width: 4px;
+  }
+}
+.page-subheader{
+    font-size:35px;
+}
+.page-subsection{
+    font-size:20px;
+    font-align:center;
+
 }

@@ -113,17 +113,15 @@ def doc(request, doc_id=None, slug=None):
 
     author_person_objs = doc_obj.author_person.all()
     author_organization_objs = doc_obj.author_organization.all()
+    authors = list(author_person_objs) + list(author_organization_objs)
+
     recipient_person_objs = doc_obj.recipient_person.all()
     recipient_organization_objs = doc_obj.recipient_organization.all()
+    recipients = list(recipient_person_objs) + list(recipient_organization_objs)
 
-    if recipient_organization_objs:
-        if recipient_organization_objs[0].name == 'unknown':
-            recipient_organization_objs = None
     cced_person_objs = doc_obj.cced_person.all()
     cced_organization_objs = doc_obj.cced_organization.all()
-    if cced_organization_objs:
-        if cced_organization_objs[0].name == 'unknown':
-            cced_organization_objs = None
+    cced = list(cced_person_objs) + list(cced_organization_objs)
 
     doc_pdf_url = str(get_file_path(doc_obj.folder.box.number, doc_obj.folder.number,
                                     doc_obj.folder.name, file_type='pdf', path_type='aws',
@@ -133,13 +131,10 @@ def doc(request, doc_id=None, slug=None):
     
     obj_dict = {
         'doc_obj': doc_obj,
-        'author_person_objs': author_person_objs,
-        'author_organization_objs': author_organization_objs,
-        'recipient_person_objs': recipient_person_objs,
-        'recipient_organization_objs': recipient_organization_objs,
-        'cced_person_objs': cced_person_objs,
-        'cced_organization_objs': cced_organization_objs,
         'doc_pdf_url': doc_pdf_url,
+        'authors': authors,
+        'recipients': recipients,
+        'cced': cced,
         'prev_doc': prev_doc,
         'next_doc': next_doc,
     }
@@ -314,6 +309,9 @@ def stories(request):
     template = 'archives/stories.jinja2'
     context = {'stories': STORIES}
     return render(request, template, context)
+
+def our_team(request):
+    return render(request, 'archives/our_team.jinja2')
 
 
 def timeline(request):
