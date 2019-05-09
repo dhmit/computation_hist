@@ -67,6 +67,12 @@ def populate_from_metadata(metadata_filename=None):
                 count_skipped += 1
                 continue
 
+            # NOTE(ra) 2019-05-09: we don't know what's going on with this folder,
+            # so we're skipping adding these until Erica has a chance to go see it 
+            # in person on Monday 5/13
+            if line['foldername_short'] == 'morse_1956_1958_rikita':
+                continue
+
             try:
                 add_one_document(line, aliases_to_full_name_dict, line_id+1, names)
                 count_added += 1
