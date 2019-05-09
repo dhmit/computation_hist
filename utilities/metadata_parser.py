@@ -280,6 +280,7 @@ def network_json(output_path=None):
     docs = Document.objects.prefetch_related('author_person', 'recipient_person')
     node_count = Counter()
     edge_count = Counter()
+    slugs = dict()
 
     # Count instances of each author/recipient
     for document in docs:
@@ -287,9 +288,13 @@ def network_json(output_path=None):
         recipients = document.recipient_person.all()
         for author in authors:
             node_count[str(author)] += 1
+            if str(author) not in slugs:
+                slugs[str(author)] = author.slug
             for recipient in recipients:
                 node_count[str(recipient)] += 1
                 edge_count[(str(author), str(recipient))] += 1
+                if str(recipient) not in slugs:
+                    slugs[str(recipient)] = recipient.slug
 
     edge_list = list()
     for letter in edge_count:
@@ -303,7 +308,8 @@ def network_json(output_path=None):
     for author in node_count:
         node_list.append({
             'id': author,
-            'weight': node_count[author]
+            'weight': node_count[author],
+            'slug': slugs[author]
         })
 
     graph_dict = {'nodes': node_list, 'links': edge_list}
