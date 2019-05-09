@@ -19,8 +19,36 @@ code {
     font-family: Inconsolata, monospace;
 }
 
+.code_box {
+    resize: none !important;
+    line-height: 1;
+}
+
 .symbolic_code {
-    background-color: white;
+    font-family: Inconsolata, monospace;
+    border: 1px solid black;
+    background-color: inherit;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.code_line {
+    flex-wrap: nowrap;
+}
+
+#code_heading {
+    flex-wrap: nowrap;
+}
+
+.next_instruction {
+    background-color: deepskyblue;
+}
+
+.line_no_text {
+    vertical-align: center;
+}
+
+#code {
     font-family: Inconsolata, monospace;
 }
 
@@ -36,10 +64,6 @@ code {
     font-family: Inconsolata, monospace;
 }
 
-.next_instruction {
-    background-color: deepskyblue;
-}
-
 .target_register {
     background-color: #ff0066;
 }
@@ -51,5 +75,14 @@ code {
 #available_operations {
     alignment: center;
     font-family: Inconsolata, monospace;
+    text-align: center;
+}
+
+#class_buttons {
+    text-align: center;
+    margin: auto;
+}
+
+#code_heading {
     text-align: center;
 }

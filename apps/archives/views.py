@@ -57,6 +57,38 @@ def person(request, slug):
     return render(request, 'archives/person.jinja2', obj_dict)
 
 
+def get_neighboring_docs(doc_obj):
+    """
+    :param doc_obj:
+    :return: tuple that holds (previous_doc, next_doc) - if doc doesn't exist return False instead
+    """
+
+    filename_split = doc_obj.file_name.split("_")
+
+    doc_number = int(filename_split[-1])
+
+    previous_doc_number = doc_number - 1
+    next_doc_number = doc_number + 1
+
+    filename_split[-1] = str(previous_doc_number)
+    previous_doc_file_name = "_".join(filename_split)
+
+    filename_split[-1] = str(next_doc_number)
+    next_doc_file_name = "_".join(filename_split)
+
+    try:
+        previous_doc = Document.objects.get(file_name=previous_doc_file_name)
+    except ObjectDoesNotExist:
+        previous_doc = None
+
+    try:
+        next_doc = Document.objects.get(file_name=next_doc_file_name)
+    except ObjectDoesNotExist:
+        next_doc = None
+
+    return previous_doc, next_doc
+
+
 def doc(request, doc_id=None, slug=None):
     """
     Puts a document on the screen
@@ -65,7 +97,6 @@ def doc(request, doc_id=None, slug=None):
     :param slug:
     :return:
     """
-
     if doc_id:
         doc_obj = get_object_or_404(Document, pk=doc_id)
     elif slug:
@@ -93,11 +124,13 @@ def doc(request, doc_id=None, slug=None):
     if cced_organization_objs:
         if cced_organization_objs[0].name == 'unknown':
             cced_organization_objs = None
+
     doc_pdf_url = str(get_file_path(doc_obj.folder.box.number, doc_obj.folder.number,
                                     doc_obj.folder.name, file_type='pdf', path_type='aws',
                                     doc_id=doc_obj.doc_id))
-    print(doc_pdf_url)
-    print(doc_obj.date)
+
+    prev_doc, next_doc = get_neighboring_docs(doc_obj)
+    
     obj_dict = {
         'doc_obj': doc_obj,
         'author_person_objs': author_person_objs,
@@ -107,7 +140,10 @@ def doc(request, doc_id=None, slug=None):
         'cced_person_objs': cced_person_objs,
         'cced_organization_objs': cced_organization_objs,
         'doc_pdf_url': doc_pdf_url,
+        'prev_doc': prev_doc,
+        'next_doc': next_doc,
     }
+
     return render(request, 'archives/doc.jinja2', obj_dict)
 
 
@@ -258,3 +294,20 @@ def stories(request):
     return render(request, template, context)
 def our_team(request):
     return render(request, 'archives/our_team.jinja2')
+
+
+def timeline(request):
+    documents = (Document.objects.order_by('date').exclude(date=None))
+    last_year = documents.last().date.year
+    documents_by_year = {}
+    documents_by_year["1945-1949"] = []
+    for i in range(1950, last_year + 1):
+        documents_by_year[i] = []
+    for document in documents:
+        year = document.date.year
+        if year < 1950:
+            documents_by_year["1945-1949"].append(document)
+        else:
+            documents_by_year[year].append(document)
+    context = {'documents_by_year': documents_by_year}
+    return render(request, 'archives/timeline.jinja2', context)
