@@ -314,9 +314,6 @@ def our_team(request):
     return render(request, 'archives/our_team.jinja2')
 
 
-def our_team(request):
-    return render(request, 'archives/our_team.jinja2')
-
 def timeline(request):
     documents = (Document.objects.order_by('date').exclude(date=None))
     last_year = documents.last().date.year
