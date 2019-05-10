@@ -1280,7 +1280,6 @@ export class IBM_704 {
                 continue;
             }
             const line = code_lines[line_no];
-            // console.log(line);
             let address_part = line[2];
             for (const label of label_names) {
                 address_part = address_part.replace(new RegExp(label, 'g'), labels[label].toString());
