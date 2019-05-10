@@ -44,7 +44,7 @@ def populate_from_metadata(metadata_filename=None):
     people_db.extract_names_from_metadata_sheet()
     aliases_to_full_name_dict = people_db.get_aliases_to_full_name_dict()
 
-    with open(metadata_filename) as file:
+    with open(metadata_filename, encoding='utf-8') as file:
         csv_file = csv.DictReader(file)
         count_added = 0
         count_skipped = 0
