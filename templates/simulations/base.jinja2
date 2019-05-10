@@ -11,8 +11,8 @@
     <div class="container">
         <p id="loading">Loading...</p>
         <div class="row">
-            <div class="col-sm-4" data-step="2" data-intro="This is where you can see the IBM 704 Assembly Language
-            code as it would be entered into a Symbolic Coding Form before being converted to punch card format.">
+            <div class="col-sm-4" data-step="2" data-intro="This is where the IBM 704 Assembly Language
+            code is displayed as it would be entered into a Symbolic Coding Form.">
                 <h3>Code</h3>
                 <div id="code">
                     <div id="code_heading" class="row">
@@ -75,11 +75,10 @@
     </div>
     <br>
     <div class="col-sm-12 text-center bg-light border border-primary" id = "line_desc" data-step="9" data-intro=
-    "This shows the next operation to be executed in the assembler."></div>
+    "This is a brief description of the next operation to be executed."></div>
     <br />
-    <div class="jumbotron text-left" data-step="10" data-intro="This is the in-depth explanation for how the assembler operates
-     and how this specific code runs."
-    >{% block description %}{% endblock %}</div>
+    <div id="description" class="jumbotron text-left" data-step="10" data-intro="This is a long, in-depth explanation
+     for the operation of this simulation.">{% block description %}{% endblock %}</div>
 
     <div class="modal" tabindex="-1" role="dialog" id="error_message">
       <div class="modal-dialog" role="document">
