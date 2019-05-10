@@ -1,17 +1,11 @@
 import random
-import re
-from collections import Counter
 
-from django.db.models import Q
-from django.http import Http404
-from django.shortcuts import get_list_or_404, get_object_or_404, render
-from django.template.loader import TemplateDoesNotExist
 from django.core.exceptions import ObjectDoesNotExist
+from django.http import Http404
+from django.shortcuts import get_object_or_404, render
 
-from utilities.common import get_file_path
 from .models import Person, Document, Box, Folder, Organization
 from .search import process_search
-
 
 # NOTE(ra): this hardcoded pattern isn't great, but we're since we're using
 # jinja2 templates as a data source for the stories, it gets us to a usable
@@ -181,44 +175,21 @@ def person_unknown_filter(person):
 def list_obj(request, model_str):
 
     obj_list = []
-    if model_str == 'people':
-        author_counter = Counter()
-        recipient_counter = Counter()
-        for doc in Document.objects.all():
-            for author in doc.author_person.all():
-                name = f'{author.last},{author.first}'
-                author_counter[name] += 1
-            for recipient in doc.recipient_person.all():
-                name = f'{recipient.last},{recipient.first}'
-                recipient_counter[name] += 1
-            for recipient in doc.cced_person.all():
-                name = f'{recipient.last},{recipient.first}'
-                recipient_counter[name] += 1
 
+    if model_str == 'people':
         for person in Person.objects.all():
             name = f'{person.last},{person.first}'
             obj_list.append({
                 'name': f'<a href="{person.url}">{name}</a>',
-                'docs_authored': author_counter[name],
-                'docs_received': recipient_counter[name],
+                'docs_authored': person.author_person.count(),
+                'docs_received': person.recipient_person.count() + person.cced_person.count()
             })
-
     elif model_str == 'organizations':
-        author_counter = Counter()
-        recipient_counter = Counter()
-        for doc in Document.objects.all():
-            for author in doc.author_organization.all():
-                author_counter[str(author)] += 1
-            for recipient in doc.recipient_organization.all():
-                recipient_counter[str(recipient)] += 1
-            for recipient in doc.cced_person.all():
-                recipient_counter[str(recipient)] += 1
-
         for org in Organization.objects.all():
             obj_list.append({
                 'name': f'<a href="{org.url}">{str(org)}</a>',
-                'docs_authored': author_counter[str(org)],
-                'docs_received': recipient_counter[str(org)],
+                'docs_authored': org.author_organization.count(),
+                'docs_received': org.recipient_organization.count() + org.cced_organization.count()
             })
     elif model_str == 'folders':
         for folder in Folder.objects.all():
