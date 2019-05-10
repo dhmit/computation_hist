@@ -18,3 +18,7 @@ td, th, tbody, tr{
 #date-title{
     font-size: 2rem;
 }
+
+.text-color{
+    color: #007bff;
+}
