@@ -303,8 +303,8 @@ def stories(request):
     return render(request, template, context)
 
 
-def about_us(request):
-    return render(request, 'archives/our_team.jinja2')
+def about(request):
+    return render(request, 'archives/about.jinja2')
 
 
 def timeline(request):

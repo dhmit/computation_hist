@@ -16,6 +16,6 @@ urlpatterns = [
     path('timeline/', views.timeline, name='timeline'),
     path('net_viz', views.net_viz, name='net_viz'),
     path('stories/', views.stories, name='stories'),
-    path('about_us/', views.about_us, name='about_us'),
+    path('about/', views.about, name='about'),
     path('all_docs/', views.all_docs) # for metadata checking
 ]
