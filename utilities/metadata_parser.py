@@ -44,7 +44,7 @@ def populate_from_metadata(metadata_filename=None):
     people_db.extract_names_from_metadata_sheet()
     aliases_to_full_name_dict = people_db.get_aliases_to_full_name_dict()
 
-    with open(metadata_filename) as file:
+    with open(metadata_filename, encoding='utf-8') as file:
         csv_file = csv.DictReader(file)
         count_added = 0
         count_skipped = 0
@@ -65,6 +65,12 @@ def populate_from_metadata(metadata_filename=None):
                 print(f'WARNING: Line {line_id+1} is incomplete (skipping).\
                         \n\tMissing fields: {missing_metadata} - FIXME in the metadata!')
                 count_skipped += 1
+                continue
+
+            # NOTE(ra) 2019-05-09: we don't know what's going on with this folder,
+            # so we're skipping adding these until Erica has a chance to go see it 
+            # in person on Monday 5/13
+            if line['foldername_short'] == 'morse_1956_1958_rikita':
                 continue
 
             try:
@@ -119,7 +125,9 @@ def add_one_document(csv_line, aliases_to_full_name_dict, line_no=None, names={}
     number_of_pages = int(csv_line['last_page']) - int(csv_line['first_page']) + 1
     file_name = csv_line['filename']
     slug = slugify(file_name)
+    doc_id = csv_line['doc_id']
     new_doc = Document(number_of_pages=number_of_pages,
+                       doc_id=doc_id,
                        title=csv_line['title'],
                        type=csv_line['doc_type'],
                        notes=csv_line['notes'],
@@ -130,7 +138,7 @@ def add_one_document(csv_line, aliases_to_full_name_dict, line_no=None, names={}
 
     txt_path = get_file_path(box=int(csv_line['box']), folder=int(csv_line['folder_number']),
                              foldername_short=csv_line['foldername_short'],
-                             doc_id=csv_line['doc_id'], path_type='absolute', file_type='txt')
+                             doc_id=doc_id, path_type='absolute', file_type='txt')
     try:
         with open(txt_path, 'r', encoding='utf8') as f:
             new_doc.text = f.read()

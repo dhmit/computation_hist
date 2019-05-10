@@ -103,21 +103,23 @@ class Folder(models.Model):
         return f'/archives/folder/{self.slug}'
 
     class Meta:
-        ordering = ['full']
+        ordering = ['box__number', 'number', 'full']
 
 
 class Document(models.Model):
-    author_person = models.ManyToManyField(Person, related_name='author_person', blank=True)
-    author_organization = models.ManyToManyField(Organization,
-                                                 related_name='author_organization', blank=True)
-    folder = models.ForeignKey(Folder, on_delete=models.CASCADE)
     title = models.CharField(max_length=191)
-    type = models.CharField(max_length=191, blank=True)
-    # TODO: turn type into choices- note that choices needs to be able to grow
+    file_name = models.CharField(max_length=191, unique=True)
+    folder = models.ForeignKey(Folder, on_delete=models.CASCADE)
+    doc_id = models.IntegerField() # sequence in the folder
+    type = models.CharField(max_length=191, blank=True) # TODO: turn type into choices- note that choices needs to be able to grow
     number_of_pages = models.IntegerField(default=1)
     first_page = models.IntegerField(default=0)
     last_page = models.IntegerField(default=0)
     date = models.DateField(auto_now_add=False, auto_now=False, blank=True, null=True)
+
+    author_person = models.ManyToManyField(Person, related_name='author_person', blank=True)
+    author_organization = models.ManyToManyField(Organization,
+                                                 related_name='author_organization', blank=True)
     recipient_person = models.ManyToManyField(Person, related_name='recipient_person', blank=True)
     recipient_organization = models.ManyToManyField(Organization,
                                                     related_name='recipient_organization',
@@ -125,8 +127,8 @@ class Document(models.Model):
     cced_person = models.ManyToManyField(Person, related_name='cced_person', blank=True)
     cced_organization = models.ManyToManyField(Organization, related_name='cced_organization',
                                                blank=True)
+
     notes = models.TextField(blank=True)
-    file_name = models.CharField(max_length=191, unique=True)
     text = models.TextField(blank=True)
 
     #  https://docs.djangoproject.com/en/2.1/ref/utils/#django.utils.text.slugify
@@ -139,19 +141,16 @@ class Document(models.Model):
         return f"<Document {self.title}>"
 
     @property
-    def doc_id(self):
-        id_num = []
-        file = str(self.file_name)
-        for char in reversed(range(len(file))):
-            if file[char] != "_":
-                id_num.append(file[char])
-            else:
-                break
-        return int(''.join(reversed(id_num)))
-
-    @property
     def url(self):
         return f'/archives/doc/{self.slug}'
+
+    @property
+    def pdf_url(self):
+        """ The url of the pdf on our AWS S3 bucket """
+        base_url = 'https://s3.amazonaws.com/comp-hist/docs/'
+        folder = f'{self.folder.box.number}_{self.folder.number}_{self.folder.name}'
+        pdf_url = base_url + folder + '/docs/' + str(self.doc_id) + '/' + self.file_name + '.pdf'
+        return pdf_url
 
     def get_person_list(self, list_type):
         """
@@ -178,4 +177,4 @@ class Document(models.Model):
         return pl
 
     class Meta:
-        ordering = ['file_name']
+        ordering = ['doc_id']
