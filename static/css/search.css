@@ -12,6 +12,19 @@ p.search-type {
     width: 100%;
 }
 
+.result_title {
+    display: inline;
+}
+
+.metadata_header {
+    text-align: right;
+    font-weight: bold;
+}
+
+.metadata_entry {
+    white-space: nowrap;
+}
+
 .text_label {
     display: table-cell;
     width: 9.75em;
