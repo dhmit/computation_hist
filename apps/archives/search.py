@@ -125,7 +125,6 @@ def process_search(search_params):
     docs_qs = docs_qs.prefetch_related('author_person', 'author_organization', 'folder',
                                        'recipient_person', 'recipient_organization', 'cced_person','cced_organization')
 
-
     search_facets = generate_search_facets(docs_qs)
     return docs_qs, people_qs, search_facets
 
@@ -140,11 +139,8 @@ def generate_search_facets(doc_objs):
 
     counter_authors = Counter()
     counter_dates = Counter()
-    counter_author_organizations = Counter()
     counter_recipients = Counter()
-    counter_recipient_organizations = Counter()
     counter_cceds = Counter()
-    counter_cced_organizations = Counter()
 
     for document in doc_objs.all():
         # Some dates are None --> Skip those documents
