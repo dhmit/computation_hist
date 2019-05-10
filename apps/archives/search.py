@@ -30,44 +30,50 @@ def process_search(search_params):
         people_qs = Person.objects.none()
 
     if keywords:
-        keywordlist = keywords.split()
+        # construct keyword list, extracting exact search phrases 
+        keywordlist = []
+        exact_searches = re.findall(r'"([^"]+)"', keywords)
+        if exact_searches:
+            for phrase in exact_searches:
+                keywords = re.sub(f'"{phrase}"', '', keywords)  # strip exact search search terms out
+        keywordlist.extend(exact_searches)
+        keywordlist.extend(keywords.split())
 
-        person_q = Q()
+        temp_people_Q = Q()
         for word in keywordlist:
-            person_q |= Q(first__icontains=word) # contains bc first field has both first name AND initials...
-            person_q |= Q(last__iexact=word)
-        people_qs = Person.objects.filter(person_q)
+            temp_people_Q |= Q(first__icontains=word)
+            temp_people_Q |= Q(last__iexact=word)
+            people_qs = Person.objects.filter(Q(first__icontains=word) | Q(last__iexact=word))
+            organization_objs = Organization.objects.filter(Q(name__icontains=word))
 
-        folder_objs = Folder.objects.filter(full__icontains=keywords)
-        organization_objs = Organization.objects.filter(Q(name__icontains=keywords))
-        doc_Q = Q(title__icontains=keywords)
+            doc_Q = Q(title__icontains=word)
+            for person in people_qs:
+                doc_Q |= Q(author_person=person)
+                doc_Q |= Q(recipient_person=person)
+                doc_Q |= Q(cced_person=person)
+            for org in organization_objs:
+                doc_Q |= Q(author_organization=org)
+                doc_Q |= Q(recipient_organization=org)
+                doc_Q |= Q(cced_organization=org)
 
-        for person in people_qs:
-            doc_Q |= Q(author_person=person)
-            doc_Q |= Q(recipient_person=person)
-        for org in organization_objs:
-            doc_Q |= Q(author_organization=org)
-            doc_Q |= Q(recipient_organization=org)
-        for folder in folder_objs:
-            doc_Q |= Q(folder=folder)
-        docs_qs = docs_qs.filter(doc_Q)
+            docs_qs = docs_qs.filter(doc_Q)
+
+        people_qs = Person.objects.filter(temp_people_Q)
 
     if title:
         docs_qs = docs_qs.filter(Q(title__icontains=title))
 
-    if text: # full text search
+    if text:  # full text search
         words_q = Q()
 
         # handle exact search terms wrapped in " or '
         exact_searches = re.findall(r'"([^"]+)"', text)
         if exact_searches:
             for phrase in exact_searches:
-                print(phrase)
                 words_q &= Q(text__icontains=phrase)
-                text = re.sub(phrase, '', text) # strip exact search search terms out
+                text = re.sub(f'"{phrase}"', '', text)  # strip exact search search terms out
 
         # handle all leftover text
-        text = re.sub(r'[\'"]', '', text)
         words = text.split()
         for word in words:
             words_q &= Q(text__icontains=word)
@@ -123,7 +129,10 @@ def process_search(search_params):
 
     # prevents template from hitting the db
     docs_qs = docs_qs.prefetch_related('author_person', 'author_organization', 'folder',
-                                       'recipient_person', 'recipient_organization', 'cced_person','cced_organization')
+                                       'recipient_person', 'recipient_organization',
+                                       'cced_person','cced_organization')
+
+    docs_qs.order_by('date')
 
     search_facets = generate_search_facets(docs_qs)
     return docs_qs, people_qs, search_facets
