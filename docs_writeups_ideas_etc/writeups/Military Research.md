@@ -23,7 +23,7 @@ This was a nonprofit research institute designed to attract scientists to create
 could be used for war. This effort was lead by James R. Killian who was an advisor to the Dwight 
 Eisenhower Administration.
 
-[The obiturary of James Killian](From <http://articles.latimes
+[The obituary of James Killian](From <http://articles.latimes
 .com/1988-01-31/news/mn-39551_1_james-killian>) can provide information on MIT's links to the war
  effort. James Killian was the president of MIT from 1949 to 1959 and in this time he also had a 
  role in government helping with the war effort. He was the first White House Science Advisor 
