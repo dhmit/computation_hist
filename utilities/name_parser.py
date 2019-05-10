@@ -67,14 +67,19 @@ class Person:
             name_raw = f'{match.groups()[0]}, {match.groups()[2]}. {match.groups()[1]}.'
 
         name = HumanName(name_raw)
+
         # If first and middle initials have periods but not spaces -> separate, e.g. "R.K. Teague"
         if re.match('[a-zA-Z]\.[a-zA-Z]\.', name.first):
             name.middle = name.first[2]
             name.first = name.first[0]
 
-        name.last = name.last.capitalize()
-        name.first = name.first.strip('.').capitalize()
-        name.middle = name.middle.strip('.').capitalize()
+        # Capitalize after splitting joined initials, otherwise R.K. becomes R.k. (i.e. middle
+        # inital is interpreted as lower case)
+        name.capitalize(force=True)
+
+        name.last = name.last
+        name.first = name.first.strip('.')
+        name.middle = name.middle.strip('.')
 
         last_name_replacements = [
             ('Corbato', 'Corbató'),
@@ -138,7 +143,7 @@ class PeopleDatabase:
 
         # parse all of the names (not orgs) and add them to a counter
         names_counter = Counter()
-        with open(METADATA_CSV) as file:
+        with open(METADATA_CSV, encoding='utf-8') as file:
             csv_file = csv.DictReader(file)
 
             for line in csv_file:

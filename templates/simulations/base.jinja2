@@ -8,14 +8,22 @@
     <div class="container">
         <p id="loading">Loading...</p>
         <div class="row">
-            <div class="col-sm-3">
+            <div class="col-sm-4">
                 <h3>Code</h3>
                 <div id="code">
-                    {% if simulation_name == 'general_assembler' %}
-                        <textarea class="form-control" id="code_box" spellcheck="false"
-                                  placeholder="Code here!"></textarea>
-                    {% endif %}
+                    <div id="code_heading" class="row">
+                        <p>  </p>
+                        <div class="col-sm px-2" >Lbl</div>
+                        <div class="col-sm px-2">Op</div>
+                        <div class="col-sm px-2">ATD</div>
+                    </div>
                 </div>
+                {% if simulation_name == 'general_assembler' %}
+                    <div id="class_buttons">
+                        <button type="button" id="add_line">+</button>
+                        <button type="button" id="remove_line">-</button>
+                    </div>
+                {% endif %}
             <br />
             <h4>Help</h4>
             <p>Instruction to be executed next is highlighted in <span class="next_instruction">blue</span>.</p>
@@ -23,7 +31,7 @@
             <p>Mouse over words (the binary numbers) to see how they could be interpreted.</p>
             <br />
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-5">
                 <h3>General Memory</h3>
                 <div class="pre-scrollable" id="general_memory_div"></div>
                 <br />
@@ -42,13 +50,32 @@
             </div>
         </div>
 
-        <div class = "col-sm-12">{% block buttons %}{% endblock %}</div>
+        <div class = "col-sm-12 sim_buttons">{% block buttons %}{% endblock %}</div>
     </div>
     <br>
     <div class = "col-sm-12 text-center bg-light border border-primary" id = "line_desc"></div>
     <br />
     <div class = "jumbotron text-left">{% block description %}{% endblock %}</div>
-    {% endblock %}
+
+    <div class="modal" tabindex="-1" role="dialog" id="error_message">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Error!</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p id="dialog_text">Modal body text goes here.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+{% endblock %}
 
 {% block scripts %}
     <script src="{{ static('js/simulator.js')}}" type="module"></script>
@@ -80,5 +107,4 @@
         </script>
     {% endif %}
     <script src="{{ static('js/render.js')}}" type="module"></script>
-
 {% endblock %}
