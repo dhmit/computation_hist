@@ -45,6 +45,7 @@ def process_search(search_params):
             temp_people_Q |= Q(last__iexact=word)
             people_qs = Person.objects.filter(Q(first__icontains=word) | Q(last__iexact=word))
             organization_objs = Organization.objects.filter(Q(name__icontains=word))
+
             doc_Q = Q(title__icontains=word)
             for person in people_qs:
                 doc_Q |= Q(author_person=person)
@@ -54,8 +55,9 @@ def process_search(search_params):
                 doc_Q |= Q(author_organization=org)
                 doc_Q |= Q(recipient_organization=org)
                 doc_Q |= Q(cced_organization=org)
-            key_results = Document.objects.filter(doc_Q)
-            docs_qs = key_results.intersection(docs_qs)
+
+            docs_qs = docs_qs.filter(doc_Q)
+
         people_qs = Person.objects.filter(temp_people_Q)
 
     if title:
@@ -127,7 +129,10 @@ def process_search(search_params):
 
     # prevents template from hitting the db
     docs_qs = docs_qs.prefetch_related('author_person', 'author_organization', 'folder',
-                                       'recipient_person', 'recipient_organization', 'cced_person','cced_organization')
+                                       'recipient_person', 'recipient_organization',
+                                       'cced_person','cced_organization')
+
+    docs_qs.order_by('date')
 
     search_facets = generate_search_facets(docs_qs)
     return docs_qs, people_qs, search_facets
