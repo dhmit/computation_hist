@@ -1,0 +1,33 @@
+{% extends "base.jinja2" %}
+
+{% block title %}All Documents{% endblock %}
+
+{% block header %}
+    <h2>All Documents</h2>
+{% endblock %}
+
+{% block content %}
+    <table class="table">
+      <thead class="thead-dark">
+        <tr>
+          <th scope="col">Box</th>
+          <th scope="col">Folder</th>
+          <th scope="col">Doc ID</th>
+          <th scope="col">Filename</th>
+          <th scope="col">Title</th>
+        </tr>
+      </thead>
+      <tbody>
+      {% for doc in docs %}
+        <tr>
+          <td>{{ doc.folder.box.number }}</td>
+          <td>{{ doc.folder.number }}</td>
+          <td>{{ doc.doc_id }}</td>
+          <td>{{ doc.file_name }}</td>
+          <td><a href="{{ doc.url }}">{{ doc.title }}</a></td>
+        </tr>
+      {% endfor %}
+      </tbody>
+    </table>
+
+{% endblock %}
