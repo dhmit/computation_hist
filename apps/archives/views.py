@@ -303,7 +303,7 @@ def stories(request):
     return render(request, template, context)
 
 
-def our_team(request):
+def about_us(request):
     return render(request, 'archives/our_team.jinja2')
 
 
