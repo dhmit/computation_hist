@@ -205,10 +205,6 @@ def list_obj(request, model_str):
     return response
 
 
-def browse(request):
-    return render(request, 'archives/browse.jinja2')
-
-
 def search(request):
     """
     Searches database based on specific search queries and parameters given by user.
