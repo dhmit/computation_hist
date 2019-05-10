@@ -39,7 +39,7 @@
 
 #visualizations img {
     float: left;
-    width: 2%;
+    width: 5%;
     height: 75%;
     margin-top: 12%;
     margin-right: 2%;
@@ -47,7 +47,7 @@
 
 #visualizations svg {
     float: left;
-    width: 95%;
+    width: 93%;
     height: 100%;
 }
 #node_search_form {
