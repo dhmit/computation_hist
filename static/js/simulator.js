@@ -14,7 +14,14 @@ const no_to_operation_b = {
     0o402: "SUB",
     0o4400: "SBM",
     0o401: "ADM",
+    0o622: "STD",
+    0o621: "STA",
     0o534: "LXA",
+    0o4534: "LXD",
+    0o4634: "SXD",
+    0o734: "PAX",
+    0o4754: "PXD",
+    0o4734: "PDX",
     0o300: "FAD",
     0o302: "FSB",
     0o560: "LDQ",
@@ -28,11 +35,20 @@ const no_to_operation_b = {
     0o020: "TRA",
     0o100: "TZE",
     0o4100: "TNZ",
+    0o120: "TPL",
+    0o4120: "TMI",
+    0o140: "TOV",
+    0o4140: "TNO",
+    0o162: "TQP",
+    0o074: "TSX",
 };
 
 const no_to_operation_a = {
     0b110: "TNX",
     0b010: "TIX",
+    0b001: "TXI",
+    0b011: "TXH",
+    0b111: "TXL",
     0b000: "PZE", // hack for pseudoinstruction PZE
 };
 export const operation_b_to_no = {};
@@ -58,10 +74,7 @@ const INVALID_REGISTER_EXCEPTION = "Tried to program to invalid register!";
 const FIXED_OVERFLOW_EXCEPTION = "Fixed point number too large!";
 const FLOAT_OVERFLOW_EXCEPTION = "Floating point number too large!";
 const NAN_EXCEPTION = "Expected number, but it was me, Dio!";
-const INVALID_INSTRUCTION_EXCEPTION = "Cannot parse instruction!";
 const INVALID_INSTRUCTION_RUNTIME = "Cannot run instruction!";
-
-const regex_line_parser = new RegExp('^([A-Z]+)\\s*(.*)');
 
 /**
  * Function to create a new string with the character at index replaced by a new character.
@@ -91,6 +104,25 @@ function convert_to_binary(number, digits) {
         result = "0" + result;
     }
     return result.toString();
+}
+
+/**
+ * Evaluates math expressions which only contain + and -. Based off of solution from
+ * https://stackoverflow.com/questions/2276021/evaluating-a-string-as-a-mathematical-expression-in-javascript.
+ *
+ * @param {string}  expression      Expression to be evaluated.
+ * @returns {number}
+ */
+function eval_math(expression) {
+    if (expression.search(/[^\d+\- .]+/g) !== -1) { // return NaN if letters or other weird symbols in expression
+        return NaN;
+    }
+    let result = 0;
+    const s = expression.match(/[+\-]*(\.\d+|\d+(\.\d+)?)/g) || [];
+    while (s.length){
+        result += Number(s.shift());
+    }
+    return result;
 }
 
 /**
@@ -418,8 +450,14 @@ class General_Word extends Word {
      * @returns {number}    Address that instruction is directed at.
      */
     get address() {
-        let str_address = this.contents.substr(-15);
+        const str_address = this.contents.substr(-15);
         return parseInt(str_address, 2);
+    }
+
+    set address(value) {
+        const str_address = convert_to_binary(value, 15).substr(-15);
+        const new_contents = replaceAt(this.contents, 21, str_address);
+        this.update_contents(new_contents);
     }
 
     /**
@@ -468,13 +506,24 @@ class General_Word extends Word {
     }
 
     /**
-     * Gets the decrement from the word as interpreted as Type B instruction.
+     * Gets the decrement from the word as interpreted as Type A instruction.
      *
      * @returns {number}
      */
     get decrement() {
-        let decrement = this.contents.substring(3, 18);
+        const decrement = this.contents.substring(3, 18);
         return parseInt(decrement, 2);
+    }
+
+    /**
+     * Set decrement of word to new value.
+     *
+     * @param {number} new_decrement
+     */
+    set decrement(new_decrement) {
+        const new_str = convert_to_binary(new_decrement, 15).substr(-15);
+        const new_contents = replaceAt(this.contents, 3, new_str);
+        this.update_contents(new_contents);
     }
 
     /**
@@ -675,7 +724,9 @@ class General_Word extends Word {
 
 let max_word = new General_Word("011111111111111111111111111111111111");
 const MAX_FIXED_POINT = max_word.fixed_point;
+const MIN_FIXED_POINT = -MAX_FIXED_POINT;
 const MAX_FLOATING_POINT = max_word.floating_point;
+const MIN_FLOATING_POINT = -MIN_FIXED_POINT;
 
 /**
  * Class representing the accumulator on the IBM 704.  The accumulator consists of 38 bits: a
@@ -825,6 +876,32 @@ class Accumulator extends Word {
         new_contents += word.contents.substring(1);
         this.update_contents(new_contents);
     }
+
+    get address() {
+        const str_address = this.contents.substr(-15);
+        return parseInt(str_address, 2);
+    }
+
+    /**
+     * Gets the decrement from the accumulator as interpreted as Type A instruction.
+     *
+     * @returns {number}
+     */
+    get decrement() {
+        const decrement = this.contents.substring(5, 20);
+        return parseInt(decrement, 2);
+    }
+
+    /**
+     * Set decrement of accumulator to new value.
+     *
+     * @param {number} new_decrement
+     */
+    set decrement(new_decrement) {
+        const new_str = convert_to_binary(new_decrement, 15).substr(-15);
+        const new_contents = replaceAt(this.contents, 5, new_str);
+        this.update_contents(new_contents);
+    }
 }
 Accumulator.Sign = 0;
 Accumulator.Q = 1;
@@ -971,20 +1048,26 @@ class Instruction_Location_Register extends Word {
     }
 
     /**
-     * Increases the instruction location register by value.  Note that the ILC can overflow and
-     * go back to zero.
+     * Update Instruction Location Register value.
      *
-     * @param {number} value    The amount that the instruction location register increases by.
+     * @param {number} value            New location.
+     * @param {number} computer_size    Size of computer.
      */
-    skip(value) {
-        this.update_contents(this.valueOf() + value);
+    update(value, computer_size) {
+        if (value < 0) {
+            this.update_contents((value % computer_size) + computer_size);
+        } else {
+            this.update_contents(value % computer_size);
+        }
     }
 
     /**
      * Increment the instruction location register by 1.
+     *
+     * @param {number} computer_size    Size of computer.
      */
-    increment() {
-        this.skip(1);
+    increment(computer_size) {
+        this.update(this.valueOf() + 1, computer_size);
     }
 }
 
@@ -999,6 +1082,21 @@ class Index_Register extends Word {
      */
     constructor(contents) {
         super(contents, 13);
+    }
+
+
+    /**
+     * Update value of index register.
+     *
+     * @param {number}  value           New value of index register.
+     * @param {number}  computer_size   Size of computer.
+     */
+    update(value, computer_size) {
+        if (value < 0) {
+            this.update_contents((value % computer_size) + computer_size);
+        } else {
+            this.update_contents(value);
+        }
     }
 }
 
@@ -1026,7 +1124,7 @@ export class IBM_704 {
         }
         let instruction_word = this.general_memory[this.ilc.valueOf()];
         this.instruction_register.store_instruction(instruction_word);
-        this.ilc.increment();
+        this.ilc.increment(this.size);
         let effective_address = instruction_word.address;
         let instruction = instruction_word.instruction;
         if (instruction.indexable()) {
@@ -1041,11 +1139,16 @@ export class IBM_704 {
                 effective_address -= this.index_a.valueOf();
             }
         }
+        effective_address %= this.size;
+        if (effective_address < 0) {
+            effective_address += this.size;
+        }
         this.storage_register.update_contents(this.general_memory[effective_address]);
         if (instruction_word.is_typeB()) {
             instruction = instruction_word.instruction_b;
             if (typeof instruction.operation === "undefined") {
-                alert("Halting on unrecognized operation!");
+                $("#dialog_text").html("Halting on unrecognized operation!");
+                $("#error_message").dialog();
                 this.halt = true;
                 throw INVALID_INSTRUCTION_RUNTIME;
             }
@@ -1053,7 +1156,8 @@ export class IBM_704 {
         } else {
             instruction = instruction_word.instruction_a;
             if (typeof instruction.operation === "undefined") {
-                alert("Halting on unrecognized operation!");
+                $("#dialog_text").html("Halting on unrecognized operation!");
+                $("#error_message").dialog();
                 this.halt = true;
                 throw INVALID_INSTRUCTION_RUNTIME;
             }
@@ -1103,101 +1207,6 @@ export class IBM_704 {
     }
 
     /**
-     * Converts an array of strings that contain lines of SHARE assembly into numerical code that is
-     * placed in general memory.
-     *
-     * Currently missing most operations, including all Type A operations and pseudo-operations.
-     *
-     * @param {number} origin        Where to start storing the program.
-     * @param {Array}  code_lines    Array of lines of code.
-     */
-    assemble(origin, code_lines) {
-        this.clear();
-        let register = origin;
-        for (let line_no in code_lines) {
-            if (!code_lines.hasOwnProperty(line_no)) {
-                continue;
-            }
-            let line = code_lines[line_no];
-            console.log(line);
-            if (!line.replace(/\s/g, '').length) {
-              continue;
-            }
-            if (isNaN(register) || register >= this.size || register < 0) {
-                alert("Error: Tried to program to invalid register " + register + "on line " +
-                    (parseInt(line_no) + 1) + "!  Register must be integer between 0 and " + (this.size - 1) + ".");
-                throw INVALID_REGISTER_EXCEPTION;
-            }
-            let parsed_command = regex_line_parser.exec(line);
-            if (parsed_command === null) { //if parsed command is null, throw error, not a valid command.
-                alert("Error: Cannot parse instruction on line " + (parseInt(line_no) + 1) + ".");
-                throw INVALID_INSTRUCTION_EXCEPTION;
-            }
-            let operation = parsed_command[1];
-            let rest_of_line = parsed_command[2];
-            let numbers = rest_of_line.split(",");
-            try {
-                if (operation === "ORG") { // ORG pseudoinstruction lets you program to different location
-                    register = Number(numbers[0]);
-                    if (isNaN(register)) {
-                        throw NAN_EXCEPTION;
-                    }
-                    continue;
-                } else if (operation === "DEC") { // DEC psuedoinstruction lets you program fixed and floating point numbers
-                    let number = Number(numbers[0]);
-                    if (isNaN(number)) {
-                        throw NAN_EXCEPTION;
-                    }
-                    if (numbers[0].includes(".")) {
-                        if (number > MAX_FLOATING_POINT || number < -MAX_FLOATING_POINT) {
-                            alert("Error: Floating point value " + number + " at line " + (Number(line_no) + 1) +
-                                " is too large! Floating point numbers must be between " + MAX_FLOATING_POINT +
-                                " and " + -(MAX_FLOATING_POINT) + "."
-                            );
-                            throw FLOAT_OVERFLOW_EXCEPTION;
-                        }
-                        this.general_memory[register].floating_point = number;
-                    } else {
-                        if (number > MAX_FIXED_POINT || number < -MAX_FIXED_POINT) {
-                            alert("Error: Fixed point value " + number + " at line " + (Number(line_no) + 1) +
-                                " is too large! Fixed point numbers must be between " + MAX_FIXED_POINT +
-                                " and " + -(MAX_FIXED_POINT) + "."
-                            );
-                            throw FIXED_OVERFLOW_EXCEPTION;
-                        }
-                        this.general_memory[register].fixed_point = number;
-                    }
-                } else {
-                    if (numbers[2] !== undefined) {
-                        let decrement = Number(numbers[2]);
-                        let tag = Number(numbers[1]);
-                        let address = Number(numbers[0]);
-                        this.assemble_line(register, operation, address, tag, decrement);
-                    } else if (numbers[1] !== undefined) {
-                        let tag = Number(numbers[1]);
-                        let address = Number(numbers[0]);
-                        this.assemble_line(register, operation, address, tag);
-                    } else if (numbers[0] !== "") {
-                        let address = Number(numbers[0]);
-                        this.assemble_line(register, operation, address);
-                    } else {
-                        this.assemble_line(register, operation);
-                    }
-                }
-            }
-            catch (err) {
-                if (err === UNDEFINED_OPERATION_EXCEPTION) {
-                    alert("Error: Undefined operation in line " + (parseInt(line_no) + 1) + "!");
-                } else if (err === NAN_EXCEPTION) {
-                    alert("Error: Invalid number in line " + (parseInt(line_no) + 1) + "!");
-                }
-                throw err;
-            }
-            register++;
-        }
-    }
-
-    /**
      * Stores an instruction into general memory as a number.  Currently doesn't handle Type A
      * operations or tags.
      *
@@ -1217,6 +1226,150 @@ export class IBM_704 {
             this.general_memory[register].instruction_a = new Instruction_A(operation, address, tag, decrement);
         } else {
             throw UNDEFINED_OPERATION_EXCEPTION;
+        }
+    }
+
+    /**
+     * Assembles program and places into memory.
+     *
+     * @param {Array}   code_lines  Array of Assembly_Line objects.
+     */
+    assemble(code_lines) {
+        this.clear();
+        code_lines = code_lines.slice(0);
+
+        // get labels and determine what they point to
+        let labels = {};
+        let register = 0;
+        for (const line_no in code_lines) {
+            if (!Object.prototype.hasOwnProperty.call(code_lines, line_no)) {
+                continue;
+            }
+            const line = code_lines[line_no];
+            const operation = line[1].trim();
+            // jump to ORG location
+            if (operation === "ORG") {
+                if (register % 1 !== 0 || isNaN(register)) {
+                    $("#dialog_text").html(`Cannot parse ORG instruction on line ${parseInt(line_no)}.`);
+                    $("#error_message").modal('show');
+                    throw NAN_EXCEPTION;
+                }
+                register = Number(line[2]);
+                continue;
+            }
+            // else check address for label
+            const label_field = line[0].replace(/\s/g, '');
+            if (label_field.length) {
+                const label_list = label_field.split(",");
+                for (const label of label_list) {
+                    labels[label] = register;
+                }
+            }
+            register++;
+        }
+        // console.log(labels);
+
+        const label_names = Object.keys(labels).slice(0);
+        label_names.sort( (a, b) => { return b.length - a.length; } ); // sort from longest to shortest to ensure
+        // replacing doesn't conflict
+
+        // replace labels with actual numbers
+        for (const line_no in code_lines) {
+            if (!Object.prototype.hasOwnProperty.call(code_lines, line_no)) {
+                continue;
+            }
+            const line = code_lines[line_no];
+            // console.log(line);
+            let address_part = line[2];
+            for (const label of label_names) {
+                address_part = address_part.replace(new RegExp(label, 'g'), labels[label].toString());
+            }
+            code_lines[line_no][2] = address_part;
+        }
+
+        // actually assemble the program
+        register = 0;
+        for (const line_no in code_lines) {
+            if (!code_lines.hasOwnProperty(line_no)) {
+                continue;
+            }
+            const line = code_lines[line_no];
+            if (isNaN(register) || register >= this.size || register < 0) {
+                $("#dialog_text").html(`Tried to program to invalid register ${register} on line ` +
+                    `${parseInt(line_no) + 1}!  Register must be integer between 0 and ${this.size - 1}.`);
+                $("#error_message").modal('show');
+                throw INVALID_REGISTER_EXCEPTION;
+            }
+            const operation = line[1];
+            const rest_of_line = line[2];
+            const expressions = rest_of_line.split(",");
+            const numbers = Array();
+            for (const expression of expressions) {
+                numbers.push(eval_math(expression));
+            }
+
+            try {
+                if (operation === "ORG") { // ORG pseudoinstruction lets you program to different location
+                    register = numbers[0];
+                    if (isNaN(register)) {
+                        throw NAN_EXCEPTION;
+                    }
+                    continue;
+                } else if (operation === "DEC") { // DEC psuedoinstruction lets you program fixed and floating point numbers
+                    let number = Number(expressions[0]);
+                    if (isNaN(number)) {
+                        throw NAN_EXCEPTION;
+                    }
+                    if (expressions[0].includes(".")) {
+                        if (number > MAX_FLOATING_POINT || number < -MAX_FLOATING_POINT) {
+                            $("#dialog_text").html(`Floating point value ${number} at line ${(Number(line_no) + 1)}` +
+                                ` is too large! Floating point numbers must be between ${MAX_FLOATING_POINT}` +
+                                ` and ${MIN_FLOATING_POINT}.`
+                            );
+                            $("#error_message").modal('show');
+                            throw FLOAT_OVERFLOW_EXCEPTION;
+                        }
+                        this.general_memory[register].floating_point = number;
+                    } else {
+                        if (number > MAX_FIXED_POINT || number < -MAX_FIXED_POINT) {
+                            $("#dialog_text").html(`Floating point value ${number} at line ${(Number(line_no) + 1)}` +
+                                ` is too large! Floating point numbers must be between ${MAX_FIXED_POINT}` +
+                                ` and ${MIN_FIXED_POINT}.`
+                            );
+                            $("#error_message").modal('show');
+                            throw FIXED_OVERFLOW_EXCEPTION;
+                        }
+                        this.general_memory[register].fixed_point = number;
+                    }
+                } else {
+                    if (numbers[2] !== undefined) {
+                        const decrement = numbers[2];
+                        const tag = numbers[1];
+                        const address = numbers[0];
+                        this.assemble_line(register, operation, address, tag, decrement);
+                    } else if (numbers[1] !== undefined) {
+                        const tag = numbers[1];
+                        const address = numbers[0];
+                        this.assemble_line(register, operation, address, tag);
+                    } else if (numbers[0] !== "") {
+                        const address = numbers[0];
+                        this.assemble_line(register, operation, address);
+                    } else {
+                        this.assemble_line(register, operation);
+                    }
+                }
+            }
+            catch (err) {
+                if (err === UNDEFINED_OPERATION_EXCEPTION) {
+                    $("#dialog_text").html("Undefined operation in line " + (parseInt(line_no) + 1) + "!");
+                    $("#error_message").modal('show');
+                } else if (err === NAN_EXCEPTION) {
+                    $("#dialog_text").html("Invalid number in line " + (parseInt(line_no) + 1) + "!");
+                    $("#error_message").modal('show');
+                }
+                throw err;
+            }
+            register++;
         }
     }
 
@@ -1282,7 +1435,7 @@ export class IBM_704 {
      */
     HTR(address) {
         this.halt = true;
-        this.ilc.update_contents(address);
+        this.ilc.update(address, this.size);
     }
 
     /**
@@ -1347,9 +1500,32 @@ export class IBM_704 {
     }
 
     /**
+     * Emulates the IBM 704 Store Decrement (STD) operation.
+     *
+     * Stores decrement of accumulator into word at address.
+     *
+     * @param {number}  address     The address of the word to change the decrement of.
+     */
+    STD(address) {
+        this.general_memory[address].decrement = this.accumulator.decrement;
+    }
+
+    /**
+     * Emulates the IBM 704 Store Address (STA) operation.
+     *
+     * Stores address of accumulator into word at address.
+     *
+     * @param {number}  address     The address of the word to change the decrement of.
+     */
+    STA(address) {
+        this.general_memory[address].address = this.accumulator.address;
+    }
+
+    /**
      * Emulates the IBM 704 Load Index from Address (LXA) operation.
      *
-     * Stores the address of the word at the specified address
+     * Stores the address of the word at the specified address into the specified index register.
+     * Not indexable.
      *
      * @param {number}  address     Address of register to extract address from.
      * @param {number}  tag         Specifies the index register to be changed.
@@ -1357,7 +1533,87 @@ export class IBM_704 {
     LXA(address, tag) {
         let index_register = this.get_tag(tag);
         let address_to_store = this.storage_register.address;
-        index_register.update_contents(address_to_store);
+        index_register.update(address_to_store, this.size);
+    }
+
+    /**
+     * Emulates the IBM 704 Load Index from Decrement (LXD) operation.
+     *
+     * Stores the decrement of the word at the specified address into the speicified index register.
+     * Not indexable.
+     *
+     * @param {number}  address     Address of register to extract address from.
+     * @param {number}  tag         Specifies the index register to be changed.
+     */
+    LXD(address, tag) {
+        const index_register = this.get_tag(tag);
+        const decrement_to_store = this.storage_register.decrement;
+        index_register.update(decrement_to_store, this.size);
+    }
+
+    /**
+     * Emulates the IBM 704 Store Index in Decrement (SXD) operation.
+     *
+     * Not indexable. The C(Y)[3:17] are cleared and the number in the specified index register replaces the decrement
+     * part of the c(Y). The c(Y)[1,2,18:35] are unchanged. The contents of the index register are unchanged if one
+     * index register is specified.
+     *
+     * In the actual machine, if a multiple tag is specified, the “logical or” of the contents of these index
+     * registers will replace the C(Y)[3:17] and will also replace the contents of the specified index registers.
+     * Not implemented yet.
+     *
+     * @param {number} address  Address of word to change.
+     * @param {number} tag      Specifies index register to get value from.
+     */
+    SXD(address, tag) {
+        const index_register = this.get_tag(tag);
+        this.general_memory[address].decrement = index_register.valueOf();
+    }
+
+    /**
+     * Emulates the IBM 704 Place Address in Index (PAX) operation.
+     *
+     * Stores the address of the accumulator into the specified index register.
+     * Not indexable.
+     *
+     * @param {number}  address     unused
+     * @param {number}  tag         Specifies the index register to be changed.
+     */
+    PAX(address, tag) {
+        const index_register = this.get_tag(tag);
+        index_register.update(this.accumulator.address, this.size);
+    }
+
+    /**
+     * Emulates the IBM 704 Place Decrement in Index (PDX) operation.
+     *
+     * Stores the decrement of the accumulator into the specified index register.
+     * Not indexable.
+     *
+     * @param {number}  address     unused
+     * @param {number}  tag         Specifies the index register to be changed.
+     */
+    PDX(address, tag) {
+        const index_register = this.get_tag(tag);
+        index_register.update(this.accumulator.decrement, this.size);
+    }
+
+    /**
+     * Emulates the IBM 704 Place Index in Decrement (PXD) operation.
+     *
+     * Not indexable. The AC is cleared and the number in the specified index register is placed in the decrement
+     * part of the AC. The contents of the index register are unchanged if one index register is specified.
+     *
+     * In the real machine, if a multiple tag is specified, the “logical or” of the contents of these index
+     * registers will replace the C(AC)[3:17] and will also replace the contents of the specified index registers.
+     *
+     * @param {number}  address     unused
+     * @param {number}  tag         Specifies the index register to get decrement from.
+     */
+    PXD(address, tag) {
+        const index_register = this.get_tag(tag);
+        this.accumulator.update_contents(0);
+        this.accumulator.decrement = index_register.valueOf();
     }
 
     /**
@@ -1611,7 +1867,7 @@ export class IBM_704 {
      * @param {number}  address     Address to jump to.
      */
     TRA(address) {
-        this.ilc.update_contents(address);
+        this.ilc.update(address, this.size);
     }
 
     /**
@@ -1623,7 +1879,7 @@ export class IBM_704 {
      */
     TZE(address) {
         if (this.accumulator.fixed_point === 0) {
-            this.ilc.update_contents(address);
+            this.ilc.update(address, this.size);
         }
     }
 
@@ -1636,8 +1892,102 @@ export class IBM_704 {
      */
     TNZ(address) {
         if (this.accumulator.fixed_point !== 0) {
-            this.ilc.update_contents(address);
+            this.ilc.update(address, this.size);
         }
+    }
+
+    /**
+     * Emulates the IBM 704 Transfer on Plus (TPL) operation.
+     *
+     * If the sign bit of the AC is positive, the calculator takes the next instruction from location Y and
+     * proceeds from there. If the sign bit of the AC is negative, the calculator proceeds to the
+     * next instruction in sequence.
+     *
+     * @param {number}  address     Address to jump to.
+     */
+    TPL(address) {
+        if (this.accumulator.contents[Accumulator.Sign] === "0") {
+            this.ilc.update(address, this.size);
+        }
+    }
+
+    /**
+     * Emulates the IBM 704 Transfer on Minus (TMI) operation.
+     *
+     * If the sign bit of the AC is negative, the calculator takes the next instruction from location Y and
+     * proceeds from there. If the sign bit of the AC is positive, the calculator proceeds to the
+     * next instruction in sequence.
+     *
+     * @param {number}  address     Address to jump to.
+     */
+    TMI(address) {
+        if (this.accumulator.contents[Accumulator.Sign] === "1") {
+            this.ilc.update(address, this.size);
+        }
+    }
+
+    /**
+     * Emulates the IBM 704 Transfer on Overflow (TOV) operation.
+     *
+     * If the AC overflow indicator and light are on as the result of a previous operation, the indicator and light
+     * are turned off and the calculator takes the next instruction from location Y and proceeds from there.
+     * If the indicator and light are off, the calculator proceeds to the next instruction in sequence.
+     *
+     * @param {number}  address     Address to jump to.
+     */
+    TOV(address) {
+        if (this.ac_overflow) {
+            this.ilc.update(address, this.size);
+        }
+        this.ac_overflow = false;
+    }
+
+    /**
+     * Emulates the IBM 704 Transfer on No Overflow (TOV) operation.
+     *
+     * If the AC overflow indicator and light are off, the calculator takes the next instruction from location Y and
+     * proceeds from there. If the indicator and light are on, the calculator proceeds to the next instruction in
+     * sequence after turning off the indicator and light.
+     *
+     * @param {number}  address     Address to jump to.
+     */
+    TNO(address) {
+        if (!this.ac_overflow) {
+            this.ilc.update(address, this.size);
+        }
+        this.ac_overflow = false;
+    }
+
+    /**
+     * Emulates the IBM 704 Transfer on MQ Plus (TQP) operation.
+     *
+     * If the sign bit of the MQ is positive, the calculator takes the next instruction from location Y and
+     * proceeds from there. If the sign bit of the MQ is negative, the calculator proceeds to the
+     * next instruction in sequence.
+     *
+     * @param {number}  address     Address to jump to.
+     */
+    TQP(address) {
+        if (this.mq_register.contents[0] === "0") {
+            this.ilc.update(address, this.size);
+        }
+    }
+
+    /**
+     * Emulates the IBM 704 Transfer and Set Index (TSX) operation.
+     *
+     * Not indexable. This instruction places the 2’s complement of the location of this instruction
+     * in the specified index register. The calculator takes the next instruction from location Y
+     * and proceeds from there.
+     *
+     * @param {number}  address     Address to jump to.
+     * @param {number}  tag         Specifies index register to store value into.
+     */
+    TSX(address, tag) {
+        const index_register = this.get_tag(tag);
+        index_register.update(-(this.ilc.valueOf()-1), this.size); // we subtract one from the ILC because actually
+        // already incremented it in step() before calling the operation
+        this.ilc.update(address, this.size);
     }
 
     /**
@@ -1654,9 +2004,9 @@ export class IBM_704 {
     TNX(address, tag, decrement) {
         let index_register = this.get_tag(tag);
         if (index_register.valueOf() <= decrement) {
-            this.ilc.update_contents(address);
+            this.ilc.update(address, this.size);
         } else {
-            index_register.update_contents(index_register.valueOf() - decrement);
+            index_register.update(index_register.valueOf() - decrement, this.size);
         }
     }
 
@@ -1672,10 +2022,61 @@ export class IBM_704 {
      * @param {number}  decrement   Amount to decrement by.
      */
     TIX(address, tag, decrement) {
-        let index_register = this.get_tag(tag);
+        const index_register = this.get_tag(tag);
         if (index_register.valueOf() > decrement) {
-            index_register.update_contents(index_register.valueOf() - decrement);
-            this.ilc.update_contents(address);
+            index_register.update(index_register.valueOf() - decrement, this.size);
+            this.ilc.update(address, this.size);
+        }
+    }
+
+    /**
+     * Emulates the IBM 704 Transfer on Index (TXI) operation.
+     *
+     * Not indexable. Contains a decrement part. This instruction adds the decrement to the number in the specified
+     * index register and replaces the number in the index register with this sum. The calculator takes the next
+     * instruction from location Y and proceeds from there.
+     *
+     * @param {number}  address     Address to jump to.
+     * @param {number}  tag         Specifies desired index register to increment.
+     * @param {number}  decrement   Amount to increment by.
+     */
+    TXI(address, tag, decrement) {
+        const index_register = this.get_tag(tag);
+        index_register.update(index_register.valueOf() + decrement, this.size);
+        this.ilc.update(address, this.size);
+    }
+
+    /**
+     * Emulates the IBM 704 Transfer on Index High (TXH) operation.
+     *
+     * If the number in the specified index register is greater than the decrement, the calculator takes the next instruction
+     * from specified address and proceeds from there.  Not indexable.
+     *
+     * @param {number}  address     Address to jump to if index register is greater than decrement.
+     * @param {number}  tag         Specifies desired index register.
+     * @param {number}  decrement   Value to compare index register to.
+     */
+    TXH(address, tag, decrement) {
+        const index_register = this.get_tag(tag);
+        if (index_register.valueOf() > decrement) {
+            this.ilc.update(address, this.size);
+        }
+    }
+
+    /**
+     * Emulates the IBM 704 Transfer on Index Low (TXL) operation.
+     *
+     * If the number in the specified index register is less than or equal to the decrement, the calculator takes the
+     * next instruction from specified address and proceeds from there.  Not indexable.
+     *
+     * @param {number}  address     Address to jump to if index register is greater than decrement.
+     * @param {number}  tag         Specifies desired index register.
+     * @param {number}  decrement   Value to compare index register to.
+     */
+    TXL(address, tag, decrement) {
+        const index_register = this.get_tag(tag);
+        if (index_register.valueOf() <= decrement) {
+            this.ilc.update(address, this.size);
         }
     }
 }
@@ -1688,20 +2089,59 @@ export class Assembly_Line {
     /**
      * Constructor for class.  See demos.js for example.
      *
-     * @param {string}             instruction              The text in the line.
+     * @param {Array}              instruction              The text in the line.
      * @param {string}             description              Short description of line to be displayed at top of page.
      */
     constructor(instruction, description = undefined) {
         this.description = description;
-        this.instruction = instruction;
+        if (instruction.length === 2) {
+            this.instruction = [""].concat(instruction);
+        } else {
+            this.instruction = instruction;
+        }
     }
 
     /**
-     * String representation that looks like this: 0: CLA 4
+     * String representation that looks like this: LABEL: CLA 4
      * @returns {string}
      */
     toString() {
-        return this.instruction;
+        let result = "";
+        if (this.instruction[0] !== "") {
+            result += this.instruction[0];
+            result += ": ";
+        }
+        result += this.instruction[1];
+        result += " ";
+        result += this.instruction[2];
+        return result;
+    }
+
+    /**
+     * Label part of line.
+     *
+     * @returns {string}
+     */
+    get label() {
+        return this.instruction[0];
+    }
+
+    /**
+     * Operation part of line.
+     *
+     * @returns {string}
+     */
+    get operation() {
+        return this.instruction[1];
+    }
+
+    /**
+     * Address, tag, decrement part of line.
+     *
+     * @returns {string}
+     */
+    get numbers() {
+        return this.instruction[2];
     }
 }
 

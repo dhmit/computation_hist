@@ -37,25 +37,21 @@ def get_file_path(box: int, folder: int, foldername_short: str, file_type: str,
     > get_file_path(1, 8, 'rockefeller', file_type='txt', doc_id=4, page_id=20, path_type='absolute)
     PosixPath('/home/code/computation_hist/computation_hist/data/web_test_set/1_8_rockefeller/docs/4/pages/20/1_8_rockefeller_4_20.txt')
 
-    To generate an aws path, use path_type='aws'
-    >>> get_file_path(1, 8, 'rockefeller', file_type='raw_pdf', path_type='aws')
-    PosixPath('https:/s3.amazonaws.com/comp-hist/docs/1_8_rockefeller/raw_pdf/1_8_rockefeller_raw.pdf')
-
     :param box: int
     :param folder: int
     :param foldername_short: str
     :param doc_type: 'pdf', 'txt', 'png', or 'raw_pdf' raw_pdf is the un-ocred folder-level pdf
     :param doc_id: int
     :param page_id: int
-    :param path_type: 'relative', 'absolute', or 'aws'
+    :param path_type: 'relative' or 'absolute'
     :return: Path
     """
 
     if file_type not in ['pdf', 'txt', 'png', 'raw_pdf']:
         raise ValueError(f'doc_type has to be pdf, txt, png, or raw_pdf but not {file_type}.')
 
-    if path_type not in ['relative', 'absolute', 'aws']:
-        raise ValueError(f'path_type has to be relative, absolute, or aws but not {path_type}.')
+    if path_type not in ['relative', 'absolute']:
+        raise ValueError(f'path_type has to be relative or absolute but not {path_type}.')
 
     if file_type == 'raw_pdf' and (doc_id or page_id):
         raise ValueError(f'doc_type raw_pdf returns the path to the un-ocred folder pdf. However, '
@@ -82,9 +78,7 @@ def get_file_path(box: int, folder: int, foldername_short: str, file_type: str,
         return path
     elif path_type == 'absolute':
         return Path(PROCESSED_PDFS_PATH, path)
-    elif path_type == 'aws':
-        return Path("https://s3.amazonaws.com/comp-hist/docs/", path)
     else:
-        raise NotImplementedError('Only path_type relative, absolute, and aws are implemented.')
+        raise NotImplementedError('Only path_type relative and absolute are implemented.')
 
 

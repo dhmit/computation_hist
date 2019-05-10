@@ -1,0 +1,53 @@
+{% extends "base.jinja2" %}
+
+{%  block extraheader %}
+    <script src='https://d3js.org/d3.v5.min.js'></script>
+    <script src="{{ static('js/net_viz.js')  }}"></script>
+    <link rel="stylesheet" href="{{ static('css/net_viz.css') }}" type="text/css">
+{%  endblock %}
+
+{% block title %} Network Visualization {% endblock %}
+{% block header %} Network Visualization {% endblock %}
+
+{% block content %}
+
+    <div id="visualizations">
+        <svg id="viz"></svg>
+        <script>
+            create_force_layout({{ nodes|safe }}, {{ links|safe }});
+        </script>
+    </div>
+
+
+    <form id="node_search_form">
+        <input class="searchfield" id="node" name="node" type="text" placeholder="Find a node...">
+        <button class="btn btn-secondary my-2 my-sm-0" type="submit" id="node_submit">
+            Search
+        </button>
+        <button class="btn btn-secondary my-2 my-sm-0" type="submit" id="node_clear"
+                name="node" value="">
+            Clear
+        </button>
+        {% if  len(links) == 0 %}
+            No Person "{{ old_query|safe }}" Found
+        {% endif %}
+    </form>
+
+    <table id="node_table">
+        <thead>
+        <tr>
+            <th>Nodes</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for node in nodes %}
+            <tr>
+                <td> <a href="/archives/person/{{ node['slug'] }}">
+                    {{ node['id'] }}
+                </a></td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+{% endblock %}
