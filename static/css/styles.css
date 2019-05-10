@@ -23,6 +23,10 @@ h1,h2,h3,h4,h5,h6,.navbar-brand {
     text-transform: uppercase;
 }
 
+* {
+  border-radius: 0 !important;
+}
+
 
 /*
  * Base styles
@@ -97,6 +101,15 @@ body {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 1.1em;
+    color: #007bff;
+}
+
+.story-title:hover{
+     font-family: 'Acre-Regular';
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #0056b3;
 }
 
 .story-teaser {
@@ -201,4 +214,18 @@ div.info_bar {
     font-size:20px;
     font-align:center;
 
+}
+
+.btn-secondary {
+    color: #fff;
+    background-color: #007bff;
+}
+
+.btn-secondary:hover {
+    color: #fff;
+    background-color: #0056b3;
+}
+
+.teaser-img img{
+    border: 7px solid #fff
 }

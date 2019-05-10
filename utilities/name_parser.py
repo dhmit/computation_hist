@@ -143,7 +143,7 @@ class PeopleDatabase:
 
         # parse all of the names (not orgs) and add them to a counter
         names_counter = Counter()
-        with open(METADATA_CSV) as file:
+        with open(METADATA_CSV, encoding='utf-8') as file:
             csv_file = csv.DictReader(file)
 
             for line in csv_file:
