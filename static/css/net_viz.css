@@ -1,12 +1,3 @@
-#node_table a {
-    text-decoration: none;
-    color: black;
-}
-
-#node_table a:hover {
-    color: darkgray;
-}
-
 #node_table table, #node_table th, #node_table td {
     border: 1px solid black;
     text-align: center;
