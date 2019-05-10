@@ -2,7 +2,7 @@
 /* Search Input Container */
 
 #search_container {
-    background-color: #eee;
+    background-color: #FFFFFF;
     padding-top: 30px;
     padding-bottom: 20px;
 }
@@ -10,6 +10,19 @@
 p.search-type {
     display: table;
     width: 100%;
+}
+
+.result_title {
+    display: inline;
+}
+
+.metadata_header {
+    text-align: right;
+    font-weight: bold;
+}
+
+.metadata_entry {
+    white-space: nowrap;
 }
 
 .text_label {
@@ -44,7 +57,7 @@ input[type="number"]{
 /* Search Results */
 
 .doc_result, .person_result, .search_facets, .no_results {
-    background-color: #eee;
+    background-color: #FFFFFF;
     overflow: hidden;
     margin: 1em 0 2em;
     padding: 1em 1em;

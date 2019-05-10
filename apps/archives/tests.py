@@ -8,11 +8,6 @@ class ArchivesTestCase(SeleniumTestCase):
         self.assertIn('Home Page', self.driver.title)
         self.check_log_for_errors()
 
-    def test_browse(self):
-        """ Test that archives/browse renders correctly """
-        self.driver.get(self.live_server_url + '/archives/browse/')
-        self.check_log_for_errors()
-
     def test_stories(self):
         """ Test that archives/stories render correctly """
         self.driver.get(self.live_server_url + '/archives/stories/')

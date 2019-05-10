@@ -28,7 +28,8 @@ STORIES = [
     'digital_humanities',
     'women_in_symbols',
     'IBM_mechanics',
-    'whirlwind'
+    'whirlwind',
+    'network_story',
 ]
 
 
@@ -205,10 +206,6 @@ def list_obj(request, model_str):
     return response
 
 
-def browse(request):
-    return render(request, 'archives/browse.jinja2')
-
-
 def search(request):
     """
     Searches database based on specific search queries and parameters given by user.
@@ -263,7 +260,6 @@ def net_viz(request):
     graph_dict = json.loads(graph)
     nodes = graph_dict['nodes']
     links = graph_dict['links']
-    print(request.GET)
 
     if 'node' in request.GET:
         old_query = request.GET['node']
