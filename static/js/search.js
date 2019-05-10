@@ -37,7 +37,7 @@ export function setup_refine_search() {
 
     const refine_author = $("a[id^='refine_author:']"); // elements whose id starts with 'refine_author'
     for (const el of refine_author) {
-        $(el).click(() => {
+        $(el).click(() => { // jshint ignore:line
             const new_author = el.id.split(":")[1];
             const existing_authors = $('#author').val();
             const updated_authors = add_facet(existing_authors, new_author);
@@ -50,7 +50,7 @@ export function setup_refine_search() {
 
     const refine_recipient = $("a[id^='refine_recipient:']"); // elements whose id starts with 'refine_recipient'
     for (const el of refine_recipient) {
-        $(el).click(() => {
+        $(el).click(() => { // jshint ignore:line
             const new_recipient = el.id.split(":")[1];
             const existing_recipients = $('#recipient').val();
             const updated_recipients = add_facet(existing_recipients, new_recipient);
@@ -63,7 +63,7 @@ export function setup_refine_search() {
 
     const refine_cced = $("a[id^='refine_cced:']"); // elements whose id starts with 'refine_cced'
     for (const el of refine_cced) {
-        $(el).click(() => {
+        $(el).click(() => { // jshint ignore:line
             const new_cced = el.id.split(":")[1];
             const existing_cced = $('#cced').val();
             const updated_cced = add_facet(existing_cced, new_cced);
@@ -76,7 +76,7 @@ export function setup_refine_search() {
 
     const refine_year = $("a[id^='refine_year:']"); // elements whose id starts with 'refine_year'
     for (const el of refine_year) {
-        $(el).click(() => {
+        $(el).click(() => { // jshint ignore:line
             const year = parseInt(el.id.split(":")[1]);
             $('#min_year').val(year);
             $('#max_year').val(year);
