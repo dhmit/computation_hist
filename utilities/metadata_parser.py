@@ -67,6 +67,12 @@ def populate_from_metadata(metadata_filename=None):
                 count_skipped += 1
                 continue
 
+            # NOTE(ra) 2019-05-09: we don't know what's going on with this folder,
+            # so we're skipping adding these until Erica has a chance to go see it 
+            # in person on Monday 5/13
+            if line['foldername_short'] == 'morse_1956_1958_rikita':
+                continue
+
             try:
                 add_one_document(line, aliases_to_full_name_dict, line_id+1, names)
                 count_added += 1
@@ -119,7 +125,9 @@ def add_one_document(csv_line, aliases_to_full_name_dict, line_no=None, names={}
     number_of_pages = int(csv_line['last_page']) - int(csv_line['first_page']) + 1
     file_name = csv_line['filename']
     slug = slugify(file_name)
+    doc_id = csv_line['doc_id']
     new_doc = Document(number_of_pages=number_of_pages,
+                       doc_id=doc_id,
                        title=csv_line['title'],
                        type=csv_line['doc_type'],
                        notes=csv_line['notes'],
@@ -130,7 +138,7 @@ def add_one_document(csv_line, aliases_to_full_name_dict, line_no=None, names={}
 
     txt_path = get_file_path(box=int(csv_line['box']), folder=int(csv_line['folder_number']),
                              foldername_short=csv_line['foldername_short'],
-                             doc_id=csv_line['doc_id'], path_type='absolute', file_type='txt')
+                             doc_id=doc_id, path_type='absolute', file_type='txt')
     try:
         with open(txt_path, 'r', encoding='utf8') as f:
             new_doc.text = f.read()
@@ -280,6 +288,7 @@ def network_json(output_path=None):
     docs = Document.objects.prefetch_related('author_person', 'recipient_person')
     node_count = Counter()
     edge_count = Counter()
+    slugs = dict()
 
     # Count instances of each author/recipient
     for document in docs:
@@ -287,9 +296,13 @@ def network_json(output_path=None):
         recipients = document.recipient_person.all()
         for author in authors:
             node_count[str(author)] += 1
+            if str(author) not in slugs:
+                slugs[str(author)] = author.slug
             for recipient in recipients:
                 node_count[str(recipient)] += 1
                 edge_count[(str(author), str(recipient))] += 1
+                if str(recipient) not in slugs:
+                    slugs[str(recipient)] = recipient.slug
 
     edge_list = list()
     for letter in edge_count:
@@ -303,7 +316,8 @@ def network_json(output_path=None):
     for author in node_count:
         node_list.append({
             'id': author,
-            'weight': node_count[author]
+            'weight': node_count[author],
+            'slug': slugs[author]
         })
 
     graph_dict = {'nodes': node_list, 'links': edge_list}
