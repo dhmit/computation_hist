@@ -28,6 +28,7 @@ STORIES = [
     'digital_humanities',
     'women_in_symbols',
     'whirlwind',
+    'network_story',
 ]
 
 
@@ -262,7 +263,6 @@ def net_viz(request):
     graph_dict = json.loads(graph)
     nodes = graph_dict['nodes']
     links = graph_dict['links']
-    print(request.GET)
 
     if 'node' in request.GET:
         old_query = request.GET['node']
