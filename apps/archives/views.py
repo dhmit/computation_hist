@@ -178,28 +178,63 @@ def person_unknown_filter(person):
 
 
 def list_obj(request, model_str):
-    """
-    Displays sorted list of Organizations, People, Folders, or Boxes
-    :param request:
-    :param model_str:
-    :return:
-    """
-    if model_str == "organization":
-        model_objs = get_list_or_404(Organization)
-    elif model_str == "person":
-        model_objs = get_list_or_404(Person)
-        model_objs.sort(key=person_unknown_filter)
-    elif model_str == "folder":
-        model_objs = get_list_or_404(Folder.objects.prefetch_related('box'))
-    elif model_str == "box":
-        model_objs = get_list_or_404(Box)
+
+    obj_list = []
+    if model_str == 'people':
+        author_counter = Counter()
+        recipient_counter = Counter()
+        for doc in Document.objects.all():
+            for author in doc.author_person.all():
+                name = f'{author.last},{author.first}'
+                author_counter[name] += 1
+            for recipient in doc.recipient_person.all():
+                name = f'{recipient.last},{recipient.first}'
+                recipient_counter[name] += 1
+            for recipient in doc.cced_person.all():
+                name = f'{recipient.last},{recipient.first}'
+                recipient_counter[name] += 1
+
+        for person in Person.objects.all():
+            name = f'{person.last},{person.first}'
+            obj_list.append({
+                'name': f'<a href="{person.url}">{name}</a>',
+                'docs_authored': author_counter[name],
+                'docs_received': recipient_counter[name],
+            })
+
+    elif model_str == 'organizations':
+        author_counter = Counter()
+        recipient_counter = Counter()
+        for doc in Document.objects.all():
+            for author in doc.author_organization.all():
+                author_counter[str(author)] += 1
+            for recipient in doc.recipient_organization.all():
+                recipient_counter[str(recipient)] += 1
+            for recipient in doc.cced_person.all():
+                recipient_counter[str(recipient)] += 1
+
+        for org in Organization.objects.all():
+            obj_list.append({
+                'name': f'<a href="{org.url}">{str(org)}</a>',
+                'docs_authored': author_counter[str(org)],
+                'docs_received': recipient_counter[str(org)],
+            })
+    elif model_str == 'folders':
+        for folder in Folder.objects.all():
+            obj_list.append({
+                'folder_name': f'<a href="{folder.url}">{str(folder)}</a>',
+                'folder_number': '<a href="{}">Box: {}. Folder: {:02d}</a>'.format(folder.url,
+                                                                               folder.box.number,
+                                                                               folder.number)
+            })
     else:
-        raise ValueError("Cannot display this model. Can only display organization, person, "
-                         "folder, or box")
+        raise NotImplementedError(f'List view is not implemented for {model_str} model.')
+
     obj_dict = {
-        'model_objs': model_objs,
         'model_str': model_str,
+        'obj_list': obj_list
     }
+
     response = render(request, 'archives/list.jinja2', obj_dict)
     return response
 
