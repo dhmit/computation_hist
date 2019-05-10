@@ -30,16 +30,17 @@ def process_search(search_params):
         people_qs = Person.objects.none()
 
     if keywords:
+        # construct keyword list, extracting exact search phrases 
         keywordlist = []
-        temp_people_Q = Q()
         exact_searches = re.findall(r'"([^"]+)"', keywords)
         if exact_searches:
             for phrase in exact_searches:
                 keywords = re.sub(f'"{phrase}"', '', keywords)  # strip exact search search terms out
         keywordlist.extend(exact_searches)
         keywordlist.extend(keywords.split())
+
+        temp_people_Q = Q()
         for word in keywordlist:
-            print(word)
             temp_people_Q |= Q(first__icontains=word)
             temp_people_Q |= Q(last__iexact=word)
             people_qs = Person.objects.filter(Q(first__icontains=word) | Q(last__iexact=word))
@@ -56,6 +57,7 @@ def process_search(search_params):
             key_results = Document.objects.filter(doc_Q)
             docs_qs = key_results.intersection(docs_qs)
         people_qs = Person.objects.filter(temp_people_Q)
+
     if title:
         docs_qs = docs_qs.filter(Q(title__icontains=title))
 
@@ -66,7 +68,6 @@ def process_search(search_params):
         exact_searches = re.findall(r'"([^"]+)"', text)
         if exact_searches:
             for phrase in exact_searches:
-                print(phrase)
                 words_q &= Q(text__icontains=phrase)
                 text = re.sub(f'"{phrase}"', '', text)  # strip exact search search terms out
 

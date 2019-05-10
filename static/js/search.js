@@ -32,6 +32,7 @@ export function start() {
     setup_refine_search();
 }
 
+
 export function setup_refine_search() {
 
     const refine_author = $("a[id^='refine_author:']"); // elements whose id starts with 'refine_author'
@@ -40,8 +41,10 @@ export function setup_refine_search() {
             const new_author = el.id.split(":")[1];
             const existing_authors = $('#author').val();
             const updated_authors = add_facet(existing_authors, new_author);
-            $('#author').val(updated_authors);
-            $('#search').submit();
+            if (updated_authors) {
+                $('#author').val(updated_authors);
+                $('#search').submit();
+            }
         });
     }
 
@@ -51,8 +54,10 @@ export function setup_refine_search() {
             const new_recipient = el.id.split(":")[1];
             const existing_recipients = $('#recipient').val();
             const updated_recipients = add_facet(existing_recipients, new_recipient);
-            $('#recipient').val(updated_recipients);
-            $('#search').submit();
+            if (updated_recipients) {
+                $('#recipient').val(updated_recipients);
+                $('#search').submit();
+            }
         });
     }
 
@@ -62,8 +67,10 @@ export function setup_refine_search() {
             const new_cced = el.id.split(":")[1];
             const existing_cced = $('#cced').val();
             const updated_cced = add_facet(existing_cced, new_cced);
-            $('#cced').val(updated_cced);
-            $('#search').submit();
+            if (updated_cced) {
+                $('#cced').val(updated_cced);
+                $('#search').submit();
+            }
         });
     }
 
@@ -79,14 +86,16 @@ export function setup_refine_search() {
 }
 
 
-add_facet(existing_facets, new_facet) {
+function add_facet(existing_facets, new_facet) {
     // When the user clicks on a search facet to refine their search
-    // this appends that new facet to the existing facets
+    // this appends that new facet to the existing facets.
+    // Returns false if the new facet isn't actually new, so we can
+    // check for false above and not actually submit a new search.
     
     if (!existing_facets) {
         return new_facet;
     } else if (existing_facets.includes(new_facet)) {
-        return existing_facets;
+        return false;
     } else {
         return existing_facets + " AND " + new_facet;
     }
