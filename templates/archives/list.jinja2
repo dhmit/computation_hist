@@ -32,15 +32,15 @@
             <div class="list-group">
 
                 <a href="{{ item.url }}" class="list-group-item list-group-item-action">
+                    {{ item }}
+
                     {% if model_str == 'folder' %}
                         &nbsp;&nbsp;
                         <b>
                         Box {{  item.box.number }}, Folder {{ item.number }}: 
                         </b>
-                    {{ item }}
 
                     {% endif %}
-
                 </a>
 
             </div>
