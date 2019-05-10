@@ -34,3 +34,9 @@ class SeleniumTestCase(StaticLiveServerTestCase):
         if error_messages:
             all_msgs = "\n".join(error_messages)
             self.fail(f'Errors found on page: \n {all_msgs}')
+
+    def scroll_to(self, dom_element):
+        """
+        Scroll to a particular dom_element until it is in view.
+        """
+        self.driver.execute_script('arguments[0].scrollIntoView(true);', dom_element)
