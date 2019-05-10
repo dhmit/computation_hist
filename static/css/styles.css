@@ -55,7 +55,7 @@ body {
 
 
 /*
- * Index page 
+ * Index page
  */
 
 /* index page special effect typing header */
@@ -202,3 +202,6 @@ div.info_bar {
     font-align:center;
 
 }
+
+.figure {
+    margin: 10px;
