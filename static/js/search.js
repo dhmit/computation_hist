@@ -32,43 +32,72 @@ export function start() {
     setup_refine_search();
 }
 
+
 export function setup_refine_search() {
 
     const refine_author = $("a[id^='refine_author:']"); // elements whose id starts with 'refine_author'
     for (const el of refine_author) {
-        $(el).click(() => {
-            const author = el.id.split(":")[1];
-            $('#author').val(author);
-            $('#search').submit();
+        $(el).click(() => { // jshint ignore:line
+            const new_author = el.id.split(":")[1];
+            const existing_authors = $('#author').val();
+            const updated_authors = add_facet(existing_authors, new_author);
+            if (updated_authors) {
+                $('#author').val(updated_authors);
+                $('#search').submit();
+            }
         });
     }
 
     const refine_recipient = $("a[id^='refine_recipient:']"); // elements whose id starts with 'refine_recipient'
     for (const el of refine_recipient) {
-        $(el).click(() => {
-            const recipient = el.id.split(":")[1];
-            $('#recipient').val(recipient);
-            $('#search').submit();
+        $(el).click(() => { // jshint ignore:line
+            const new_recipient = el.id.split(":")[1];
+            const existing_recipients = $('#recipient').val();
+            const updated_recipients = add_facet(existing_recipients, new_recipient);
+            if (updated_recipients) {
+                $('#recipient').val(updated_recipients);
+                $('#search').submit();
+            }
         });
     }
 
     const refine_cced = $("a[id^='refine_cced:']"); // elements whose id starts with 'refine_cced'
     for (const el of refine_cced) {
-        $(el).click(() => {
-            const cced = el.id.split(":")[1];
-            $('#cced').val(cced);
-            $('#search').submit();
+        $(el).click(() => { // jshint ignore:line
+            const new_cced = el.id.split(":")[1];
+            const existing_cced = $('#cced').val();
+            const updated_cced = add_facet(existing_cced, new_cced);
+            if (updated_cced) {
+                $('#cced').val(updated_cced);
+                $('#search').submit();
+            }
         });
     }
 
     const refine_year = $("a[id^='refine_year:']"); // elements whose id starts with 'refine_year'
     for (const el of refine_year) {
-        $(el).click(() => {
+        $(el).click(() => { // jshint ignore:line
             const year = parseInt(el.id.split(":")[1]);
             $('#min_year').val(year);
             $('#max_year').val(year);
             $('#search').submit();
         });
     }
-
 }
+
+
+function add_facet(existing_facets, new_facet) {
+    // When the user clicks on a search facet to refine their search
+    // this appends that new facet to the existing facets.
+    // Returns false if the new facet isn't actually new, so we can
+    // check for false above and not actually submit a new search.
+    
+    if (!existing_facets) {
+        return new_facet;
+    } else if (existing_facets.includes(new_facet)) {
+        return false;
+    } else {
+        return existing_facets + " AND " + new_facet;
+    }
+}
+

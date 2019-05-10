@@ -41,7 +41,7 @@ Documents over Time
         {% for document in documents_by_year[year] %}
             <tr class='clickable-row' data-href="{{ document.url }}">
                 <td>{{ document.date }}</td>
-                <td>{{ document.title }}</td>
+                <td class="text-color">{{ document.title }}</td>
             </tr>
         {% endfor %}
         </tbody>

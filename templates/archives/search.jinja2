@@ -51,6 +51,7 @@
         {% endif %}
 
         <form id="search" method="get" action="/archives/search">
+            <h2>Search</h2>
             <p class="search-type">
                 <label class="text_label" for="keyword">Keyword</label>
                 <input id="keyword" type="text" name="keyword" value="{{ search_params['keyword'] }}">
@@ -83,8 +84,6 @@
                 <input id="cced" type="text" name="cced"
                        value="{{ search_params['cced'] }}">
             </p>
-
-
 
             <p class="search-type">
                 <label class="text_label" for="min_year">Years</label>
@@ -145,42 +144,40 @@
         {% if docs %}
             <h3>Documents that match your search</h3>
             {% for doc in docs %}
-                <div class="doc_result">
-                    <h4><a href="{{ doc.url }}">{{ doc.title }}</a></h4>
-                    <table class="doc_result_left_table">
-                        <tbody>
-                            {% for author in doc.get_person_list('authors') %}
-                            <tr>
-                                <td class="td_heading">
-                                    {% if loop.index0 == 0 and loop.length == 1 %}Author
-                                    {% elif loop.index0 == 0 and loop.length > 1 %}Authors
-                                    {% else %}
-                                    {% endif %}
-                                </td>
-                                <td>{{ author.name }}</td>
-                            </tr>
-                            {% endfor %}
+                <div class="row doc_result"><div class="col-12">
+                    <h5 class="result_title"><a href="{{ doc.url }}">{{ doc.title }}</a></h5>
+                    ({{ doc.date }})<br/>
 
-                            {% for recipient in doc.get_person_list('recipients') %}
-                            <tr>
-                                <td class="td_heading">
-                                    {% if loop.index0 == 0 and loop.length == 1 %}Recipient
-                                    {% elif loop.index0 == 0 and loop.length > 1 %}Recipients
-                                    {% else %}
-                                    {% endif %}
-                                </td>
-                                <td>{{ recipient.name }}</td>
-                            </tr>
-                            {% endfor %}
-                        </tbody>
-                    </table>
-                    <table class="doc_result_right_table">
-                        <tbody>
-                            <tr><td class="td_heading">Folder </td><td>{{ doc.folder }}</td></tr>
-                            <tr><td class="td_heading">Date </td><td>{{ doc.date }}</td></tr>
-                        </tbody>
-                    </table>
-                </div>
+                    {% set authors = doc.get_person_list('authors') %}
+                    {% if authors %}
+                    <div class="row">
+                        <div class="col-2 metadata_header">Author{% if authors|length > 1 %}s{% endif %}</div>
+                        <div class="col-10 pl-0">{% for author in authors %}{{ author.name }}{% if not loop.last %}, {% endif %}{% endfor %}</div>
+                    </div>
+                    {% endif %}
+
+                    {% set recipients = doc.get_person_list('recipients') %}
+                    {% if recipients %}
+                    <div class="row">
+                        <div class="col-2 metadata_header">Recipient{% if recipients|length > 1 %}s{% endif %}</div>
+                        <div class="col-10 pl-0">{% for recipient in recipients %}{{ recipient.name }}{% if not loop.last %}, {% endif %}{% endfor %}</div>
+                    </div>
+                    {% endif %}
+
+                    {% set cceds = doc.get_person_list('cceds') %}
+                    {% if cceds %}
+                    <div class="row">
+                        <div class="col-2 metadata_header">CCed</div>
+                        <div class="col-10 pl-0">{% for cced in cceds %}<span class="metadata_entry">{{ cced.name }}</span>{% if not loop.last %}, {% endif %}{% endfor %}</div>
+                    </div>
+                    {% endif %}
+
+                    <div class="row">
+                        <div class="col-2 metadata_header">Folder</div>
+                        <div class="col-10 pl-0">{{ doc.folder }}</div>
+                    </div>
+                </div></div>
+
             {% endfor %}
         {% endif %}
     </div> <!-- end results col -->
