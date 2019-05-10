@@ -1247,6 +1247,7 @@ export class IBM_704 {
             }
             const line = code_lines[line_no];
             const operation = line[1].trim();
+
             // jump to ORG location
             if (operation === "ORG") {
                 if (register % 1 !== 0 || isNaN(register)) {
@@ -1300,8 +1301,12 @@ export class IBM_704 {
                 $("#error_message").modal('show');
                 throw INVALID_REGISTER_EXCEPTION;
             }
-            const operation = line[1];
-            const rest_of_line = line[2];
+            const operation = line[1].trim();
+            if (operation === "") {
+                register++;
+                continue;
+            }
+            const rest_of_line = line[2].trim();
             const expressions = rest_of_line.split(",");
             const numbers = Array();
             for (const expression of expressions) {
