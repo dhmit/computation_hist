@@ -28,6 +28,7 @@ STORIES = [
     'digital_humanities',
     'women_in_symbols',
     'whirlwind',
+    'network_story',
 ]
 
 
