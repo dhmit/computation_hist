@@ -52,6 +52,10 @@
     background-color: grey;
 }
 
+#node_search_form #node_clear:hover {
+    background-color: #565759;
+}
+
 #description p {
     text-align: center;
 }
