@@ -11,7 +11,6 @@ urlpatterns = [
     path('folder/<str:slug>', views.folder, name='folder'),
     path('organization/<str:slug>', views.organization, name='organization'),
     path('list/<str:model_str>', views.list_obj, name='list'),
-    path('browse/', views.browse, name='browse'),
     path('story/<str:slug>', views.story, name='story'),
     path('timeline/', views.timeline, name='timeline'),
     path('net_viz', views.net_viz, name='net_viz'),
