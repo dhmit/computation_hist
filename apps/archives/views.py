@@ -29,6 +29,7 @@ STORIES = [
     'women_in_symbols',
     'whirlwind',
     'network_story',
+    'about_us_story'
 ]
 
 
