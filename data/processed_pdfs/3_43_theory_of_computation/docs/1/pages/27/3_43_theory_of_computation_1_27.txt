@@ -1,0 +1,152 @@
+and which is unc
+
+ghow that ¥f £ 1s i@
+
+  
+
+  
+
+, (1
+C <% succ,¢eq
+
+ 
+
+~
+
+ha
+
+ve to
+
+/ N
+
+< - s : ® '9;-® x
+| h ()\l ) xll)j/\ hz (0, xl ’ ) n £,
+where FHEEN /
+
+o
+
+\ . |
+\ llz(y’xl/,~. . -)Xrl) - (f(y,xl, .. .Xh) — 0 ""/y,T o——)e
+NG i
+
+» by gy AIIN
+
+The conversce statoernent that all functions in
+-—) . - \' o “
+C anxxhcxl arce partial recursive, 1s presumably
+. / N\
+also true but not quite so casy to prove. \
+
+It is our opinion that the recursive function_
+
+£Sérmalis based on conditional  expressions
+'brosontcd in this paper 1s better than the for-
+malisms which have heretofore been used in
+recursive function theory both for practicdl and
+theoretical purposcs. rFirst of all, particular
+functions in which onc may be interested are more
+casily written down and the resulting expressions
+arc briefer and more understandable. This has
+been obscrved in the cases Ve have looked at and
+there scems to be a fundamental reason why this 1is
+so. This is that both the original Church-Klecne
+formalism and the formalism using the minimaliza-
+tion operation usc integer calculations to control
+the flow of the calculations. That this can be
+done is noteworthy, but controlling the flow in.
+this way is less natural than using conditional
+expressions which control the flow directly.
+
+A similar objection applies to basing the
+theory oif conputation on Turing machincs. Turing
+machines are not conceptually different from the
+automatic computers in general use, but they are
+very poor in thelr control structure. Any pro-
+
+cgranmner who has also had to write down Turing
+machines to compute functicns will obscrve that
+one has to invent a few art i fices and that con-
+structing Turing machines 3.8 like programming. Of
+course, most of the theory f computability deals
+
+with questions which arc not concerned with the
+
+K=o ic h. But h may be defined Dby
+
+"
+
+7=
+
+\
+\
+
+N\
+
+. lump all“the variables into a single state vector
+! ,
+
+'
+
+2l :'.
+I e Sl T e
+
+makes generators easy to write.
+
+  
+
+ 
+   
+  
+ 
+  
+
+B . ; 4 5 X e T ——— ' 3 1\ 2T T 3
+=this kind of ca culation. articular
+va gggeffaéfbeen that it is casy to write
+
+'ggcursiVe functions‘;hat tyansform/brogram which
+
+s o
+
+The rb%atiqn'between recursive functions aid
+
+the description/of flow contfql by flow chartis 1s
+described in Reference 7. An ALGOL program.cgh\
+be describcd by, 2 recursive function provided e
+‘having all the va}iables as components. If the
+nunber of components 1is large and nost of the
+operations pcrformod‘involve only a ‘Tew of them,
+it is necessary to have separate names for the
+components. This mcangﬂthat a programning "
+language should include both récursive functioh
+definitions and_ALGOL—likéista@emonts. ﬁqyé%cr,
+a theory of compufdtioncortainly must have
+techniques for proving algorithms equivalent and
+so far it has seemed easier to develop proof
+technigues like recursion induction for recursive
+functions than for ALGOL-1like programs.
+
+References
+B e
+
+1. Church, A., The Calculi of Lambda-Conversion,
+Annals of md?ﬁzﬁaffag‘gtﬁafggi‘ﬁa;‘GT“‘"‘““
+pPrinceton, 1941, Princeton University Press.
+
+9 Churceh; “Aa; Introduction to iMlathematical Logic, -
+Princeton, 1952, Princeton University Press.
+
+3. Davis, M., Computability and Unsolvability,
+New York, 1938, McGraw-Hill.
+
+4. Ershov, A.P., On Opecrator Algorithms (Russian),
+Doklady Akademii Nauk, vol. 122, no. 6,
+pp. 967-970.
+
+5. Kleene, S.C., Recursive Predicates and Quan-
+tifiers, Transactions of the AmericEH“Mathe—
+atical Society, vol. 53, 1933, P. 41
+
+6. McCarthy, J., letter to the cditor,
+communications of the Association for Com-
+puting Machinery, vol. 2, August, 1939, p. 2.

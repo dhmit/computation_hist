@@ -1,0 +1,116 @@
+MACHINE CONFIGURATION
+ee eet eee et eee ey SA 1 MIN
+
+Present
+MAIN FRAME 709 System 7090 System
+Name Type # Rental Type # Rental
+Central Processing Unit 709 $10, 000 7100 $19, 275
+Console Control —-— - 7151 1,225
+Card Reader 711-2 800 711-2 800
+Printer 716 1,200 716 1,200
+Card Punch 721 600 721 600
+Magnetic Core 738 19,700 7302 17,500
+Power Supply 736 1,100 -— -—
+Power Supply 741 1,400 7608 700
+Power Distributor 746 1, 300 7618 900
+CRT Recorder 740 2,450 —— -—
+CRT Display 780 400 -—— -—
+Tape Control (3)755 4,500
+Data Synchronizer (2) 766 7,200
+Multiplexor 7606 3,900
+Data Channel 7607-1 4,275
+Data Channel (3)7607-2 9, 825
+Data Channel Console (4)7617-1 900
+Magnetic Tape Units (13) 729-1 9, 100 (15)729-4 13,500
+Direct Data 290
+Device
+Data Channel 555
+
+Trap
+
+
+PERIPHERATI, OFF-LINE
+tet mete AN
+
+Name Type # Rental Rental
+Card Reader 714 $1,735
+Card Read Control 759 900
+Card Punch 722 1, 160
+Punch Control 758 650
+Printer 117 1,410
+Printer 717 1,460
+Printer Control 757 700
+Printer Control 157 650
+Magnetic Tape Units (4) 729-1 2, 800
+
+1401 System #1
+
+1401 Processing Unit (Model C-3) 4000 core storage position $2,680
+
+ 
+
+1402 Card Read Punch 550
+1403 Printer (132 Print position) 775
+(4) 729 Tape Units (Model 4) 3,600
+Special features (Column Binary, High-Low-Equal 875
+Compare, Multiply -Divide, Print Storage)
+$ 8, 480
+1401 System #2
+1401 Processing Unit (Model C-3) 4000 core storage position 2,680
+1402 Card Read Punch 550
+1403 Printer (132 Print positions) 715
+(1) 729 Tape Unit (Model 4) 900
+Special features (Column Binary, High-Low-Equal 875
+Compare, Multiply -Divide, Print Storage)
+
+$ 5,780
+
+
+PUNCHED CARD EQUIPMEN T
+
+Name
+Card Punch
+Card Punch
+Card Punch
+Verifier
+Collator
+Sorter
+Accounting Machine
+Reproducer
+
+Interpreter
+
+8/29/60
+
+Type #
+
+(2) 010
+(10) 026
+(2) 024
+056
+077
+082
+407
+519
+557
+
+ 
+
+Rental
+
+600
+90
+50
+
+100
+60
+
+800
+
+146
+
+175
+
+$2,041]
+
+

@@ -1,0 +1,118 @@
+1026 Annals New York Academy of Sciences
+
+  
+   
+
+SOUNDARY=DISTRIBUTION
+DIPOLES AT O® AND 22°
+
+VOLTS +ZR° +8
+
+   
+
+TR I Ve
+
+CM. ALONG BOUNDARY
+
+LEFT
+
+135° 90°
+BOUNDARY-DISTRIBUTION
+
+€
+DIPOLES AT 90° AND 180° = +2VOLTS/CM.
+
+ 
+
+137¢
+
+BOUNDARY=DISTRIBUTION
+
+ 
+
+C RIGHT LEFY
+FIGURE 8. Boundary-potential distributions with separate dnpgle.s locat%d = rllg(};g.-\;nd
+
+tricular and left-ventricular areas. In a the B angles are 0° and 22°; in b, 90 ar}?b i
+
+in ¢, 137° and —130°. -The vector diagrams show the vector that would result l'thothose =t
+
+ponent vectors were located at the same point. A comparison of these curyelel
+
+FIGURE 6 shows the degree of departure from the corresponding resultant dipole.
+
+ 
+
+Nelson: Human Thorax Potentials 1027
+Distributed Source in T horax Section
+
+It was previously shown? that the field of two half shells in an infinite me-
+dium was equivalent to a dipole field at remote points. When the distributed
+source was in the thorax section in the heart area, the distance between its
+front surface and the nearest point on the boundary was only 3 cm. Even
+under these conditions, however, it was found that the boundary-potential
+distribution was very similar to that of the equivalent dipole.
+
+Application of Method of Images to Study of Effects of Regions
+of High or Low Resistivity*
+
+When the potential of a source in a volume conductor enclosed by an in-
+sulating boundary is considered,? the ratio of resistivities of the media con-
+cerned is infinite. The method of images can also be used when the resistivity
+ratio is finite. Using the method of calculation of Hague, the image system
+for a current source in the vicinity of a circular disk of finite resistivity has been
+derived. It has been found that four image systems are required, depending
+on whether the current source and sink are inside or outside the disk, and
+whether potentials are required inside or outside the disk.
+
+(1) Source and sink inside disk: polentials inside disk. 1If in the thorax sec-
+tion the heart area is considered circular in shape, then this case would be
+analogous to the case of potentials inside the heart due to the heart electro-
+motive force (E.M.F.) taken as a dipole, or point source and sink. For this
+and the other three cases, the following symbols are used:
+
+o
+
+; = potential at a point P inside the disk.
+
+potential at a point P outside the disk.
+
+= resistivity of disk.
+
+resistivity of medium surrounding disk.
+/
+
+I
+
+I
+
+£ = resistivity ratio.
+p
+
+= current.
+
+depth of electrolyte (assumed constant).
+= distance from sink to center of disk.
+
+= distance from source to center of disk.
+distance from P to sink.
+
+= distance from P to source.
+
+distance from P to image of sink.
+
+= distance from P to image of source.
+
+B SR QU Y ® O <
+Il Il
+
+S
+I
+
+2L
+2wd
+
+The sink and source are located at distances ¢ and b from the center of the
+
+*The term “image” as used here should not be confused with the “image surface” of
+Burger and van Milaan®*-¢ or with “mirror-image” electrocardiograms on the chest wall.

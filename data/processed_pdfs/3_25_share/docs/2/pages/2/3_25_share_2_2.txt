@@ -1,0 +1,53 @@
+.
+Mr, Walter Ramshaw July 31, 1958
+East Hartford, Connecticut Page two
+
+The next idea that comes to mind is essentially one that was
+used at the last ACM meeting, where there was an open discussion of com-
+puters which not only did arithmetic but also carried along an indication
+of the accuracy of the numbers which were stored, BEven at the ACM
+meeting, the notion of error propagation being treated in better than an
+abstract way seemed novel to some of the participants, The specific items
+which should be brought out are procedures carrying along probable error
+(an unsure compromise), Z procedurescarrying along maximum error (this
+usually says that the results have mo significance), and finaslly, the
+procedure of range numbers, wherein the number being calculated is con-
+tained in the range of the two values, It should be brought out that, in
+contrast to the first two procedures which indicate nothing about the con-
+vergence of the process, the range method faithfully refleects numerically
+convergent (and divergeamt) procedures, Of course, all of the above remarks
+should be prefaced by the suggestion that the various procedures can be
+gsimulated and warraant further study.,
+
+It might be an interesting novelty to those persons who like to
+listen better than they like to read, to have a lecture or two on mew computing
+machines, in the sense that a discussion of the features and specifications
+be made, Inasmuch as I.B.M, does not make all machines, there are clearly
+political overtones to this suggestion,
+
+Finally, to enter into the blue-sky realm, it would be nice if
+anyone had interesting things to say about the use of real-time inter-
+vention and interaction with computers, In particular, I am thinking of
+such devices as light guns, analog computers, and, in the field of data
+processing, parallel operations by, say, n clerks using 1 computer with
+intimate feedback, This subject leads maturally into the discussion of
+blue-sky hardware and I wonder if any more could be said about such ideas
+of machine design as multi-control computers with control hierarchies
+under fixed and/or computer-set priorities (the TX-2 Computer of Linececln
+Laboratory, built under the supervision of Wes Clark, is a start in this
+direction),
+
+I consider the above to be a sketch of ideas which I hope will
+help the Executive Board think of better ones, ¥You will note that I have
+not mentioned compilers or FORTRAN, primarily because I am sure they will
+be talked about anyway by the logquacious set, I really am interested in
+both subjects and consequently it makes me feel like a killjoy to suggest
+some of the SHARE gabble is hot air, Constructive discussion is welcome,
+
+Hope this helps,
+
+Sincerely,
+
+F, J, Corbato
+Aspistant to the Director
+I1.B.,M, Research Appointment Progranm

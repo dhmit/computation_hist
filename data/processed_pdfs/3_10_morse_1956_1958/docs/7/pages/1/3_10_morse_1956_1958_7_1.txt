@@ -1,57 +1,43 @@
-ey
+HET COMPUTATICH CBNTER
+Massachugetts Institute of Technology
 
-s/
-Wy
+ 
 
-DEPARTMENT OF AERONAUTICAL ENGINEERING
+To: Professor P. M. Morse Date: February 6, 1957
+From: F. H. Verzuh
 
-MoA"S SSATC HIU: S EVERSS= TINSSTELNTUFEE OF - TECHNOLOGY
+Subject: Purchased Time on the Whirlwind Computer during the O-Honth Period
 
-CA M BRI DG BE 395~ M AT S SoA CH U S BT T S
+April 1 - December 31.'1956.
 
-Room 33-320
-March 20, 1958
+in order to agssist us with our meeting with the proposed users of
+the 704 Calculator, I have prepared two 3-page summaries of "purchased"” time
+usage of the Whirlwind Computer broken down on a project basig., The attached
+sumnary contains two paris: '
 
-Dr. Frank M. Verzuh
-Computation Center
-Room 26-142
+1. A 3-month summary -- April 1 - June 30, 1836,
+2. A 6-month summary == July 1 - December 31, 1936.
 
-Dear Frank:
+During this S-month period the "purchased" time usage of Whirlwind breaks
+down 88 follows:
 
-Many thanks for the cooperation and valuable
-assistance which you and your staff have given in the
-development of our generalized aerothermoelastic plate
-solution. We have developed this program to the point
-where useful and interesting results have been obtained.
-Currently the working control program contains numerous
-binary correction cards. After we return from the
-symposium it will be necessary to consolidate by mak-
-ing all the corrections in the symbolic program and
-then reassembling.
+Hinutes Dollars
+Aero-elastic Allocation Account 5024 .7 $192,148,.,12
+Civil Engineering 2009.7 3,7892.26
+Instrunentation Laboratory 1767 .3 8,963.50
+Meteorology Department 4435.0 14,949.60
+Geology Department 1391.2 | 5,595.31
+Servomechanisms Aceount 2236.7 9,077.08
+Miscellaneous 3873,.8 14,896.55
 
-During the last two weeks, in order to obtain
-results for the symposium, we have used considerable machine
-time in excess of that allotted. We regret that we have
-been unable to estimate our machine time requirements more
-accurately. We are grateful for your understanding in
-this matter.
+GRAND TOTAL. o o 20738.4 $76,41.8.42
+The attached six pages of summary sheets provide a detailed breskdown of the
+individual projects and the sponsorship involved. These statistics provide us
 
-1 am sure that great interest will be generated
-by our presentation of the novel manner in which the IBM
-704 has been used. This aerothermoelastic problem is one
-which must be solved before safe re-entry from satellite
-or near satellite orbits can be accomplished. I will call
-you upon my return from San Diego to inform you of the
-response to this research.
+with the information we need for our forthcoming meeting of "scheduled usage of
+the 704 computer'' on Thursday, February 7, 1957,
 
-Sincerely yours,
+,j
+3 \ F. EE VerzuhL
 
-Se==ywe
-
-? 'vm
-
-James W. Mar _.
-Asgistant Professor of
-Aeronautical Engineering
-
-JWM: an
+nb

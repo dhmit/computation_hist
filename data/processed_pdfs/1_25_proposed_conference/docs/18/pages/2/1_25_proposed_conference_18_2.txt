@@ -1,0 +1,59 @@
+10.
+
+11.
+
+=0
+
+. Is there research in the computer area itself? If so, is it in circuits,
+
+Logic design, programming, numerical analysis, information retrieval,
+or in mechanisms and systems? Or is it in tangent areas like linguistics,
+psychology, human engineering, systems engineering, or business admini-
+
+stration?
+
+. Is there both research in the area and service to others? If so, is the service
+
+open or closed-shop ?
+
+Is automatic coding available ?
+
+Do the customers need analogue to digital conversion ?
+
+Is the education on computer use restricted to specially designated courses
+or do many courses scattered around the university include computer usage?
+Is the computer education for undergraduates as well as graduates?
+
+Is a special curriculum with special degrees evolving? Are they already in
+existence?
+
+It is most likely that we will agree only if each recommendation has explicitly
+stated boundary conditions with respect to these variables, and will be unable
+
+to agree on completely general blanket recommendations.
+
+With these variables in mind, then, the following problems can be discussed:
+
+L What conditions may the supporting agency impose, explicitly or implicitly,
+
+2.
+
+on priority and charge policy ?
+
+Should the support be
+
+a. part of general university overhead?
+
+b. Block support for computing
+bl: education, including curriculum development, texts, etc.
+b2: research?
+b3: programming service?
+b4: machine time?
+b5: facility administration ?
+
+c. individual support in a project
+cl: programming personnel on the project ?
+c2: programming service from the facility ?
+c3: machine time:
+
+c4: general computer overhead?

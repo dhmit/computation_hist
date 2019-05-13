@@ -1,0 +1,38 @@
+MASSACHUSETTS INSTITUTE OF TECHNOLOGY
+RESEARCH LABORATORY OF ELECTRONICS
+
+CAMBRIDGE 29, MASS,
+
+June 15, 1959
+
+Professor Philip M. Morse
+Director, Computation Center
+Massachusetts Institute of Technology
+
+Dear Professor Morse:
+
+We wish to thank you for making available for problem M226 sufficient
+time on the IBM 704 for a limited series of runs. This series pointed up
+nicely the accuracy of the particular perturbation method used and also sug-
+gested a slightly different method of approach.
+
+The expected termination date on problem M226 is July 31, 1959, and
+time has already been requested for the month of July to enable completion
+of the desired computations. These final computations involve a few minor
+changes for the more accurate determination of the inflection points of the
+computed curves.
+
+It has occurred to us that the additional computations would be simpli-
+fied if some testing time were available for the computer (Mrs. Joan Steckler)
+during the alteration period. Consequently, we are asking whether or not some
+additional time might be made available in the remaining two weeks of June.
+
+Sincerely,
+{ /e 2 - = ; ‘.\
+Wt B Gl
+
+William P. Allis
+
+Sanborn C. Brown
+
+Lymann Mower

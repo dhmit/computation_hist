@@ -1,0 +1,114 @@
+COMPUTATION CENTER ©
+Massachusetts Institute of Technology
+Cambridge 32, Massachusetis
+
+ 
+
+Dear Sir,
+
+Enclosed is the summary of computer ussge at the Center for
+your depertment for the month of January. It should be noted = ch
+~that this report covers only the brief period January 22 to
+January 31 since the Center did not start recording operations
+with the 7090 until January 22, 1862.
+
+Because the Center's new computer the 7890 is, on typical
+problems, three times faster than the 709, the last figure reported
+for cack problea "Total 7090 Use” includes only the time for this
+poriod. It is felt that combining 709 time and 7080 time would
+produce 2 meaningleas figure.
+
+Except for these differences the form of the report is
+similar to those you hed received earlier. Any suggestions or
+comments you have concerning this report will be welcomed by
+either Mr, Steinberg, the Operations anager or myself.
+
+As additional information we are also enclosing a copy of
+Computation Center Bulletin No. 20 which presents & precise
+description of the Center's operating policies for the 7030.
+
+Sincerely,
+
+7) 64H
+
+F. 9. corbatd
+Associate Director
+FIC: ets
+Enc.
+
+
+UNIV DEPL APPLICANT
+
+MIT UR GALLIHER H.P.
+
+RoR wh 2% FF XTUTALS
+
+Bi
+wo —
+——
+ee
+a i —
+a ———
+a
+tS A A ASA
+a aa.
+a  ——————
+
+I
+
+I ——
+
+er
+J
+
+- a i a
+— fp - i
+
+QUART.
+
+REQUEST
+
+8
+
+« 00
+
+pa
+pn
+
+ 
+
+QUART.
+GRANT
+
+4.00
+
+QUART.
+USAGE
+
+ 
+
+PAGE 1
+
+MONTH.
+
+TOTAL
+
+USAGE 7090 USE
+
+
+SUMMARY CF COMPUTER USAGE BY SCHOUL AND DEPARTMENT
+JANUARY 22,1962 - JANUARY 31,1962
+MeI«T. OPERATIONS RESEARCH CENTER
+
+PROFESSOR P.M.MORSE, ROOM 6-107
+
+PROB NO PROBLEM TITLE U
+
+M1339 COMPARISON OF METHODS OF FORECASTING MI
+CUSTOMER DEMAND FOR PRODUCTS
+
+SUMMARY * ¥% & =x NO. OF PRUBLEMS IE REE es
+
+END OF SUMMARY FOR UPERATIONS RESEARCH CENTER
+
+

@@ -1,0 +1,112 @@
+p. /
+GOVERNMENT RELATIONS PANEL
+S. Gorn-Panel Chairman June 2, 1960
+
+Problems concerning government relations to university computer activities will
+vary with the variety of supporting agencies within the government, but will also
+depend on the varieties of universities and their computer activities.
+The variables to be considered in the government agencies are:
+1. are their funds earmarked for production, development, basic research,
+or education?
+2. Are they supporting the computer activity directly, or only indirectly
+as explicitly budgeted service for individual projects, or indirectly as
+overhead to individual projects?
+3. Is their support one-shop or continuing?, year by year or for a number
+of years? Do they recognize that an initial capital support entails a
+commitment to year-in-year-out operating expenses thenceforth? Is
+provision made for the hidden overhead of obsolescence and replacement ?
+It should be recognized that the very variety of supporting agencies or variety of
+policies among divisions of the same agency can cause loss of support because
+each can expect another to pick up the responsibility.
+This is probably one of the main reasons for this conference.
+The variables among universities are
+1. state supported vs. privately endowed
+2. generalized vs. specialized (e. g. to technology)
+3. new in computers vs. already deeply involved;
+In either case, how much need is there for analogue facilities and conversion facilities ?
+4. owning vs. renting vs. building
+5. small, medium, or large machines; contracted or local maintenance;
+are trained operators required?
+6. Computer activity centralized or decentralized? If decentralized, is it only
+within the university or involving a number of universities?
+7. If centralized, is it university-wide, under the mathematics department,
+the physics department, statistics, business school, engineering, or under
+
+the comptroller ?
+
+
+10.
+
+11;
+
+=o.
+
+. Is there research in the computer area itself? If so, is it in circuits,
+
+Logic design, programming, numerical analysis, information retrieval,
+or in mechanisms and systems? Or is it in tangent areas like linguistics,
+psychology, human engineering, systems engineering, or business admini-
+
+stration?
+
+. Is there both research in the area and service to others? If so, is the service
+
+open or closed-shop ?
+
+Is automatic coding available ?
+
+Do the customers need analogue to digital conversion ?
+
+Is the education on computer use restricted to specially designated courses
+or do many courses scattered around the university include computer usage?
+Is the computer education for undergraduates as well as graduates?
+
+Is a special curriculum with special degrees evolving? Are they already in
+existence?
+
+It is most likely that we will agree only if each recommendation has explicitly
+stated boundary conditions with respect to these variables, and will be unable
+
+to agree on completely general blanket recommendations.
+
+With these variables in mind, then, the following problems can be discussed:
+
+L What conditions may the Supporting agency impose, explicitly or implicitly,
+
+2.
+
+on priority and charge policy ?
+
+Should the support be
+
+a. part of general university overhead?
+
+b. Block support for computing
+bl: education, including curriculum development, texts, etc.
+b2: research?
+b3: programming service?
+b4: machine time?
+b5: facility administration ?
+
+¢. individual support in a project
+cl: programming personnel on the project ?
+c2: programming service from the facility ?
+c3: machine time:
+
+c4: general computer overhead?
+
+
+=35
+
+In discussing these questions it is necessary to investigate whether certain
+combinations of these policies can exist in steady state together. For example-
+
+a charge policy of the form: 'those who can pay get first priority and those who
+
+cannot get second priority’ cannot exist in steady state with a facility which is bedgeted
+to break even==(example). In general economic laws will cause cheaper services to
+drive more expensive ones out of circulation, and Gresham's law will similarly
+
+favor lower standards against high quality.
+
+

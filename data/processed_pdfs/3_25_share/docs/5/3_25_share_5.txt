@@ -1,0 +1,157 @@
+WRT
+
+Sl SEAT
+
+= a
+TTT
+
+Wages
+.
+
+IRR
+
+rl TR a
+
+Alda
+
+ne JPR
+Nm di EL AR
+é {
+
+oy
+
+dol
+
+St
+Na
+
+: : wy
+: EY
+. , athe
+RE - alt
+EE ee eB Ee
+
+AP Sr T— -
+. La y ¥ ETE § it a . »
+\ : ms 1 Ie) . to.
+4 ho
+¥ ' X . ) TA% u CoE ‘
+} . » : 1 SE FU A
+
+re
+iN
+
+Tm
+
++ A Su "i A
+RCSL an Al INT ER
+
+ 
+
+February 3, 1956
+
+Mr. Fletcher Jones
+
+Secretary, SHARE
+
+North American Aviation, Inc.
+International Airport
+
+Los Angeles 45, California
+
+Dear Mr. Jones:
+
+ 
+
+Today I received the "final tentative agenda” of the fourth meeting
+of SHARE, and I would like to make the following comments by letter since
+we will pot be repvesented in person:
+
+ 
+
+ 
+
+1. The MIT senior programming staff are currently giving some thought
+to the development of an interpretive algebraic sysiem -- it is too
+early to make definite statements regarding specifications. However,
+it is quite obvious that the key punches and interpreters ghould have
+a number of modifications which will increase the utility of their
+system, We concur with the UAC proposal of December 30 regarding
+modifications to key punches and interpreters.
+
+3, Since we at MIT are hoping to use the UAC system, we are very
+interested in Ramshaw's "new 704 instructions and hardward" as
+described in his letter of December 23. Although we have not had
+time to make s thorough evaluation of the 30 additional instruction,
+we gee no arvoas of disagreement. We are very much in favor of the
+suggestion yvegarding the RPG on automatic carriage control as stated
+in Ramshaw's letter of January 10.
+
+3. Your task assignments of the subcommittee on programming, ete.,
+appear very satisfactory. We hope we can "set into the act” before
+too iong.
+
+4, in connection with the "eonfiguration of the computer of the next
+seminar at MIT on March 1 and 2 dealing with Microprogramming. 5 ES |
+
+has promised to issue proceedings of this meeting, hence interested
+parties may get copies of them, ™ i
+
+5. Since the number of 704's in the field is limited, it appears to us |
+that IEM should be able to notify SHARE membership of individual RPQ's.
+
+6. We are very much interested in the SHARE decision regarding obligations, |
+ote. Presumably this matter will be decided at the meeting. |
+
+
+Mr, Fletcher Jones a February 3, 1956
+
+7. SHARE activities during the balance of 1956 are of considerable
+interest to us, I think Parageaph 2 of the January 10 tentative
+agenda is substantially correct, and I would like to know how we
+may best participate in order to avoid "slacking off" operations.
+
+I imagine there will be an'intensification of local activities in
+
+New England, New York, Los Angeles, and other areas. If past
+experience is a basis for decision, we would very much like to see
+
+2 monthly check sheet since it would tend to integrate a 704 operation.
+
+8. 1 am enclosing the machine delivery date and configuration check list
+which you sent to me. As you know, this information is subject to
+change by IBM. I believe the succeeding items on this agenda can best
+be handled in discussions at the meeting.
+
+Mr. Douglas Ross, who is speaking at the Western Joint Computer Conference,
+has agreed to attend the SHARE meeting as a “listener” to bring back information
+to MIT. However, since he is not a member of the Digital Computer Laboratory,
+he will not be prepared to express the opinions of the Digital Computer
+Laboratory group.
+
+In regard to the SHARE address list, I hesitate to mention this, but there
+are a few errors in my particular listing. I have indicated below the preferred
+mailing address and associated telephone number,
+
+Dr, Frank M. Verzuh UN 4-8900, Ext, 637
+Kassachugetts Institute of Technology
+
+77 Massachusetts Avenue
+
+Canlwidge 36, Massachusetts
+
+Perhaps you can enclose the correct listing in the proceedings of the fourth
+meeting, or in your next revision of this mailing list.
+
+I am sorry that my plans do not permit ne ito attend the San Fransisco
+meeting. However, I wish you the best of luck for a noble undertaking.
+
+Sincerely yours,
+
+F. BM. Verzuh
+Director
+
+FMV:nb
+Enclosure
+
+

@@ -1,0 +1,40 @@
+COPY
+
+June 19, 1956
+
+Professor Carl F. Floe
+Room 3-240, Me 1.7.
+
+Dear Carl:
+
+The more I see of 701 and 70% installations, the more
+I'm convinced that quieting the air conditioning 1s not a minor
+problem but a really serious one, that it will require careful
+treating of the ducts and probably also the individual machines
+if the words "demonstration area” and "instructional purposes"
+are to be other than a mockery. I also hear that the architects
+have not yet consulted with Bolt, Beranek and Newman about this
+problem, in spite of the fact that Peterson suggested this two
+wonths age.
+
+If the main computer roow ends up like the ones I've
+seen, with poorly designed duct-work and no treatment around the
+units giving rise to 70-90 db background, I'm golng to refuse to
+accept the installation until it is fixed--and fixing badly designed
+ducts ig always expensive!
+
+Can you see whether B, B and N can be called in before
+it is too late?
+
+Tours,
+
+Philip HM. Morse, Director
+M.X.T, Computation Center
+PMM: JP
+
+Copy to Dr. Hunter
+Mr. Newman
+Mr. Peterson
+Dr. Verguh
+
+

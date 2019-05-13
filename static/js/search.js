@@ -32,76 +32,72 @@ export function start() {
     setup_refine_search();
 }
 
+
 export function setup_refine_search() {
 
     const refine_author = $("a[id^='refine_author:']"); // elements whose id starts with 'refine_author'
     for (const el of refine_author) {
-        $(el).click(() => {
-            const author = el.id.split(":")[1];
-            const old_author = $('#author').val();
-            let new_author = "";
-            if (!old_author){
-                new_author = author;
+        $(el).click(() => { // jshint ignore:line
+            const new_author = el.id.split(":")[1];
+            const existing_authors = $('#author').val();
+            const updated_authors = add_facet(existing_authors, new_author);
+            if (updated_authors) {
+                $('#author').val(updated_authors);
+                $('#search').submit();
             }
-            else if (old_author.includes(author)){
-                new_author = old_author;
-            }
-            else{
-                new_author = author + " AND " + old_author;
-            }
-            $('#author').val(new_author);
-            $('#search').submit();
         });
     }
 
     const refine_recipient = $("a[id^='refine_recipient:']"); // elements whose id starts with 'refine_recipient'
     for (const el of refine_recipient) {
-        $(el).click(() => {
-            const recipient = el.id.split(":")[1];
-            const old_recipients = $('#recipient').val();
-            let new_recipients = "";
-            if (!old_recipients){
-                new_recipients = recipient;
+        $(el).click(() => { // jshint ignore:line
+            const new_recipient = el.id.split(":")[1];
+            const existing_recipients = $('#recipient').val();
+            const updated_recipients = add_facet(existing_recipients, new_recipient);
+            if (updated_recipients) {
+                $('#recipient').val(updated_recipients);
+                $('#search').submit();
             }
-            else if (old_recipients.includes(recipient)){
-                new_recipients = old_recipients;
-            }
-            else{
-                new_recipients = recipient + " AND " + old_recipients;
-            }
-            $('#recipient').val(new_recipients);
-            $('#search').submit();
         });
     }
 
     const refine_cced = $("a[id^='refine_cced:']"); // elements whose id starts with 'refine_cced'
     for (const el of refine_cced) {
-        $(el).click(() => {
-            const cced = el.id.split(":")[1];
-            const old_cced = $('#cced').val();
-            let new_cced = '';
-            if (!old_cced){
-                new_cced = cced;
+        $(el).click(() => { // jshint ignore:line
+            const new_cced = el.id.split(":")[1];
+            const existing_cced = $('#cced').val();
+            const updated_cced = add_facet(existing_cced, new_cced);
+            if (updated_cced) {
+                $('#cced').val(updated_cced);
+                $('#search').submit();
             }
-            else if (old_cced.includes(cced)){
-                new_cced = old_cced;
-            }
-            else{
-                new_cced = cced + " AND " + old_cced;
-            }
-            $('#cced').val(new_cced);
-            $('#search').submit();
         });
     }
 
     const refine_year = $("a[id^='refine_year:']"); // elements whose id starts with 'refine_year'
     for (const el of refine_year) {
-        $(el).click(() => {
+        $(el).click(() => { // jshint ignore:line
             const year = parseInt(el.id.split(":")[1]);
             $('#min_year').val(year);
             $('#max_year').val(year);
             $('#search').submit();
         });
     }
-
 }
+
+
+function add_facet(existing_facets, new_facet) {
+    // When the user clicks on a search facet to refine their search
+    // this appends that new facet to the existing facets.
+    // Returns false if the new facet isn't actually new, so we can
+    // check for false above and not actually submit a new search.
+    
+    if (!existing_facets) {
+        return new_facet;
+    } else if (existing_facets.includes(new_facet)) {
+        return false;
+    } else {
+        return existing_facets + " AND " + new_facet;
+    }
+}
+

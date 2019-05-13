@@ -1,0 +1,142 @@
+e
+
+  
+ 
+ 
+ 
+ 
+
+P S
+
+ 
+
+ 
+
+/ \ - : S ‘\\\‘. : ;.
+e v v X /.
+
+T a a
+r b b
+u u u
+b a a
+r b b
+u’ u u
+e a a
+F b b
+u u u
+u a u
+u b u
+u u u z
+u a u
+u a u
+u u u
+
+uuT u u u a u
+
+uuf u u u b u
+
+uuu u u u u u
+
+ 
+
+According to thc table ((p—~>q,r) — a,b)
+and (p-»»(q->a,b),(r->a,b)) are strongly
+cquivalent.
+
+For weak equivalence the u case can be
+t out of the table. Consider the table
+
+T AL
+-
+
+. .
+
+ 
+
+ 
+
+ 
+
+- — - ] e
+- p—— I e NNl e B s thénoc N P <L
+"'_—":JW’#——‘F—F{ 5 T ,_"‘r——\ -2 f —V_" : \ - ; - &> W '7 £y adhary YN - :'-,' oA et
+
+\ Or weak equivalénce .and in fac
+
+- \\‘ )
+AN Weak equivalence corresponds n
+
+a
+
+  
+   
+
+ 
+  
+ 
+
+     
+
+   
+
+ 
+
+B R Tt T is sub-cexpressidon of
+
+SERENAaNd S5 1S Tthe result of replacing an oc¢currénce
+vy s ’ s
+ofZ~ iy~ by‘an occfirrence of , theny-=
+
+This 1s callea the Trule of replaccuent,
+“These rules arc applicable to either strong,
+
+f & ct to tuch’more
+
+'(//general”situations. N\ / N
+
+: \ \ lore cldsely
+
+to equivalence of truth functions in propositional
+
+calculué than does strong\equivalencef
+
+g V,Consider'tho equations\\
+
+) e a By = R
+3) (F-—»a,b) "-—_:—_sb
+) P—=+1,P =
+5) (p— (p-—a,b),c) ’:‘_‘—s(p ~ 8,0)
+6) (p—a,(p- b,C))—Es(p =8, e)
+
+7) ((p—‘fq,r)—-»é,b)—-_—_:_’s(pw (q—>a,b),
+(r—a,b))
+8) ((P“" (q e a)b))(q “ﬁ'C,d)):’_’?‘_S
+(q—" (p-a,c),(p-—> b)d))
+
+V
+All are strong equivalence except the first and | |
+can be proved by truth tables,
+
+an be used as axions
+
+These eight equations c
+to transform an gbf into any weakly equivalent |
+one using substitution and replacement. In fact, |
+any gbf into a
+
+they can be used to transform
+This canonical form is the
+
+canonical fornm. |
+following. Let pl,...,pn be the variables of the- . '
+
+gbf a taken in an arbitrary order. Then
+be transformed into the form
+)8 e )
+(P, —aj,a,
+
+where each al has the forn
+
+a can
+
+8y =Py = 2 58 7)

@@ -1,0 +1,52 @@
+6.
+
+SUMMARY OF THIS PROJECT:
+(Should begin with a brief statement of the over-all purpose and also
+
+include a statement of the work performed since the last Directory as well
+28 the future work planned. Should be about 100 words in length with allow-
+
+. ance for the size of the particular project, and should be written in
+
+" " language wvhich is meaningful to technical people who are not specialists
+
+in this particular field. The Industrial Liaison Office will modify this
+summary as necessary for editorial consistency with other projects described
+in the book and will return it to the person in charge for approval.)
+
+The Machine Methods of Computation and Numerical Analysis projeect has Been
+terminated as of June 30, 1956. A complete set of terminating reports deseribing
+the actiwities of this project is contained in Quarterly Report No. 47.
+
+The new M.I;T. Computation Center was set up effective July 1, 1956 having
+as the principal objective the establishment of an outstanding oomputing center
+at the Institute. The objeectives of this Center are three-fold:
+
+1. To teaeh and train students and staff from the participatingfl.l.
+educational institutions the most effective 704 machine methods of
+computation.
+
+2. To perform research in the field of machine utilization with specific
+
+emphasis on sciemtifie emgineering, business, finance, and the social
+sciences.
+
+3. To develop new peripheral equipment (or new machines) in order to handle
+the large-scale problems which exist in our new present-day technology.
+For example, in the fields of social sciences, nuclear research, ete.
+
+It should be emphasized that the work in the Computation Ceuter is to be
+devoted exclusively to non-classified research in which the results are expected
+to be incorporated in a publication. It is impomant to reeognize that the
+Computation Center is to provide the basic tools for the education, research, and
+devédopment, and not to be considered as a service bureau installation competing
+with industrial concerns for reutine computational tasks.
+
+The I.B.M. Corporation is comntributing the 704 installatioan and the cost of
+maintaining this facility on the M.I.T. campus. Ia additiom, it is providing
+funds for the appointment of approximately 36 research assistants at M.I.T. and
+the various partieipating universities. The Natiomal Science Foundation has
+contributed funds to the operation of the Center. ‘However, additional funds
+
+must be raised to set up the first-rate research and operating staff required in
+this installation. |

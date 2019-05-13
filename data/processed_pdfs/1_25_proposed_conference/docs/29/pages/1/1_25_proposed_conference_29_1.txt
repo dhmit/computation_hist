@@ -1,0 +1,56 @@
+A Proposal that the American Mathematical Society Sponsor a National
+Science Foundation Supported Symposium of University Computing
+Center Representatives to be held in Conjuction with the Society
+Meeting at the University of Chicago, April 22-23, 1960.
+
+The purpose of this meeting would be to investigate problems
+
+peculiar to University Computing Centers and publish a report
+emboding the findings. It is suggested that the meeting occupy
+three full days to be allocated approximately as follows.
+
+On the first day the group of representatives, which might
+
+number perhaps 85 or so, would divide itself into five subgroups,
+each discussing one of the following questions:
+
+1)
+
+2)
+
+39
+
+L)
+
+5)
+
+Budget and administration: What are good and bad ways of
+financing centers? What fraction of time can be "sold" and
+what fraction should be free?
+
+Computer-oriented research: What are the areas, of real
+intellectual challenge, for research in the use of machines?
+What are the opportunities for theses in these fields, how are
+such theses to be supervised and how are degrees to be granted
+on the basis of these theses?
+
+Curriculum and instruction: What sort of courses should be
+
+of fered? Should courses on machine coding be given for credit
+or as short courses without credit or as parts of other appro-
+priate courses? What advanced courses with real intellectual
+content, intimately involving computing machines, are being
+given and in what departments?
+
+Computing service to university departments: Who in the college
+should be given "free time"? What priority system can be set up
+
+in case of over-demand? How does one distinguish between free
+
+and paying users? What are appropriate forms for interdepartmental
+supervisory committees to administer such a service program?
+
+Government relations: How should work done under government
+contracts be charged? Would it be feasible to establish a
+uniform scale of charges for the various machines and services
+throughout the Country.
