@@ -23,7 +23,7 @@
     </div>
 
     <div id="visualizations">
-        <img src={{ static('img/stories/network_scale.png') }} alt="Network Scale">
+        <img src="{{ static('img/stories/network_scale.png') }}" alt="Network Scale" />
         <svg id="viz"></svg>
         <script>
             create_force_layout({{ nodes|safe }}, {{ links|safe }});
@@ -36,7 +36,7 @@
         <button class="btn btn-secondary my-2 my-sm-0" type="submit" id="node_submit">
             Search
         </button>
-        <button class="btn btn-secondary my-2 my-sm-0" type="submit" id="node_clear"
+        <button class="btn btn-secondary" type="submit" id="node_clear"
                 name="node" value="">
             Clear
         </button>
