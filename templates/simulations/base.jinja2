@@ -10,7 +10,7 @@
         <div class="row">
             <div class="col-sm-4">
                 <h3>Code</h3>
-                <div id="code" class="overflow-auto">
+                <div id="code">
 {#                    Todo: figure out how to make this scroll without obscuring numbers#}
                     <div id="code_heading" class="row">
                         <p>  </p>
@@ -103,7 +103,10 @@
                 $(document).ready(() => {
                     Demos.start_demo(Demos.looping_with_tix_demo_params);
                 });
-
+            {% elif simulation_name == 'subroutine' %}
+                $(document).ready(() => {
+                    Demos.start_demo(Demos.subroutine_demo_params);
+                });
             {% endif %}
 
         </script>

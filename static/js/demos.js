@@ -97,7 +97,7 @@ export const looping_with_tix_demo_params = {
 export const subroutine_demo_params = {
     computer_size: 32,
     num_code_lines: 15,
-    highlighted_registers: [],
+    highlighted_registers: [27],
     initial_memory_values: [],
     instructions: [
         new Assembly_Line(
