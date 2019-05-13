@@ -1,0 +1,51 @@
+July 31, 1958
+
+Mr, Walter Ramshaw
+Computation Laboratory
+United Aircraft Corporation
+400 Main Street
+
+East Hartford, Comnecticut
+
+Dear Walter:
+
+In response to your call of July 2lst, I have the following
+comments from M.I.,T, concerning the agenda for the next SHARE meeting,
+Not all of these ideas are equally valid, nor do some of them merit
+any further consideration, However, I'll put them down just so the
+Executive Board may be able to see & better approach to another topic
+for the agenda,
+
+ 
+
+It isn't clear to me 'hesher everyone realizes how to use in
+
+an ordinary way the undor—overtlo;/\ﬁq after it is installed in the 704,
+
+In particular, there are two cases, that of Fortran and that of SAP,
+
+On one hand, this seems pretty trivial; on the other hand, people are
+
+continuing to do rather foolish things, gHow about some wise sage (such
+
+as Walter Ramshaw) getting up and discussing in a philosophical way the
+| usually unmentionable subject of errors - in particular, machine, coding,
+! and formulation, I find in personal discussions that people have their
+nose so close to one type of problem that they have never considered the
+larger question that all computing ventures represent a calculated risk,
+Therefore, the sophisticated user knows of a whole sequence of precaufion-
+ary steps which may be taken, although he only uses as many as he feels
+the importance of the approach warrants, The extreme solution is when
+the Russians and the Americans do the same job simultanecusly,
+
+ 
+
+Another topic which might be a2 forum or one or two individuals,
+but which would require preparation on the part of the participants, is,
+How does one teach a beginning programmer to use the 709 computer im all
+of its glory? Obviously, one can teach the 704 first and them suggest
+that there are a few more things one can do on the 709, but this isn't
+very helpful, 8Specific items that come to mind are, Does one try to
+teach a subset of instructions and operational procedures and, if so,
+along what lines? and finally, Would D, McCracken be a good man to have
+as an invited speaker?

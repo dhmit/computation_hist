@@ -1,17 +1,11 @@
 import random
-import re
-from collections import Counter
 
-from django.db.models import Q
-from django.http import Http404
-from django.shortcuts import get_list_or_404, get_object_or_404, render
-from django.template.loader import TemplateDoesNotExist
 from django.core.exceptions import ObjectDoesNotExist
+from django.http import Http404
+from django.shortcuts import get_object_or_404, render
 
-from utilities.common import get_file_path
 from .models import Person, Document, Box, Folder, Organization
 from .search import process_search
-
 
 # NOTE(ra): this hardcoded pattern isn't great, but we're since we're using
 # jinja2 templates as a data source for the stories, it gets us to a usable
@@ -22,12 +16,13 @@ from .search import process_search
 STORIES = [
     'announcement_of_the_IBM_704',
     'debugging',
-    'mayowa_story',
+    'beginnings_of_cs_at_mit',
     'qualifications_for_programmer',
-    'time_records',
+    'cost_of_using_a_supercomputer',
     'digital_humanities',
     'women_in_symbols',
     'whirlwind',
+    'network_story',
 ]
 
 
@@ -178,34 +173,42 @@ def person_unknown_filter(person):
 
 
 def list_obj(request, model_str):
-    """
-    Displays sorted list of Organizations, People, Folders, or Boxes
-    :param request:
-    :param model_str:
-    :return:
-    """
-    if model_str == "organization":
-        model_objs = get_list_or_404(Organization)
-    elif model_str == "person":
-        model_objs = get_list_or_404(Person)
-        model_objs.sort(key=person_unknown_filter)
-    elif model_str == "folder":
-        model_objs = get_list_or_404(Folder.objects.prefetch_related('box'))
-    elif model_str == "box":
-        model_objs = get_list_or_404(Box)
+
+    obj_list = []
+
+    if model_str == 'people':
+        for person in Person.objects.all():
+            name = f'{person.last},{person.first}'
+            obj_list.append({
+                'name': f'<a href="{person.url}">{name}</a>',
+                'docs_authored': person.author_person.count(),
+                'docs_received': person.recipient_person.count() + person.cced_person.count()
+            })
+    elif model_str == 'organizations':
+        for org in Organization.objects.all():
+            obj_list.append({
+                'name': f'<a href="{org.url}">{str(org)}</a>',
+                'docs_authored': org.author_organization.count(),
+                'docs_received': org.recipient_organization.count() + org.cced_organization.count()
+            })
+    elif model_str == 'folders':
+        for folder in Folder.objects.all():
+            obj_list.append({
+                'folder_name': f'<a href="{folder.url}">{str(folder)}</a>',
+                'folder_number': '<a href="{}">Box: {}. Folder: {:02d}</a>'.format(folder.url,
+                                                                               folder.box.number,
+                                                                               folder.number)
+            })
     else:
-        raise ValueError("Cannot display this model. Can only display organization, person, "
-                         "folder, or box")
+        raise NotImplementedError(f'List view is not implemented for {model_str} model.')
+
     obj_dict = {
-        'model_objs': model_objs,
         'model_str': model_str,
+        'obj_list': obj_list
     }
+
     response = render(request, 'archives/list.jinja2', obj_dict)
     return response
-
-
-def browse(request):
-    return render(request, 'archives/browse.jinja2')
 
 
 def search(request):
@@ -262,7 +265,6 @@ def net_viz(request):
     graph_dict = json.loads(graph)
     nodes = graph_dict['nodes']
     links = graph_dict['links']
-    print(request.GET)
 
     if 'node' in request.GET:
         old_query = request.GET['node']
@@ -303,8 +305,8 @@ def stories(request):
     return render(request, template, context)
 
 
-def our_team(request):
-    return render(request, 'archives/our_team.jinja2')
+def about(request):
+    return render(request, 'archives/about.jinja2')
 
 
 def timeline(request):

@@ -1,0 +1,122 @@
+£ X o o o9 —
+1 Zpseme X des oo
+
+£ X svon X =) e
+1 n
+
+k
+
+k
+
+must contain only
+l’...’fk.
+Suppose that the ranges of the functions are to be
+
+vl,...,Vk respectively; then we further require
+
+that the expressions e
+
+The expressions e,j)¢..,€
+
+1 k
+knovn functions and the functions f
+
+l,...ek be associated with
+
+these spaces respcectively, given that within
+el,...ek the f's are taken as having the V's as
+
+ranges. This is a consistency condition,
+fi(xi,-ooxk ) is to be evaluated for given
+
+values of the x's as follows.
+1oL c, is a conditional form then the p's
+
+are to be cvaluated in thec prescribed order
+stopping when a true p and the corresponding e
+have been cvaluated,
+
+2o X Ci has the foorm g(ci,...,e§) then
+
+c{,...,e* are to be evoluated and then the func-
+m
+
+g applied.
+3. If any expression fi(oi,...e*) occurs it
+n,
+
+is to be evaluated from the defining equation,
+4, Any subexpressions of e, that have to be
+
+evaluated are cvaluated according to the same
+rules,
+o. Variables occurring as subexpressions are
+evaluated by giving thcem the assigned values.
+There is no guarantee that the evaluation
+process will terminate in any given case., If for
+particular arguments the process does not ter—
+
+R oy e Y e R i S il okt et B o et el Vet el Ak M on va dela A~
+
+11l COINSYELST] 1) O i 31 oL owaend ‘
+
+Let I be the set of non-negative integers
+0,1,2,..;} and .denote the successor of an
+integer by n' and denote the equality of
+
+integers n and n2 by nlznz. If we define
+
+functions succ and eq by
+
+ 
+
+succ(n) = n'
+
+eq(nl,nz) =pe 1 nl =n,
+
+=1t ny 7 n,
+
+then we write Cz; &= succ,eq} . We are interested
+in- C g’f? . Clearly all functions in C({’?y
+will havé either integers or truth values as
+values,
+
+First we dofine the predecessor function
+pred (not defined for n=0) by
+
+pred(n) = pred2(n,0)
+
+pred2(n,m) = (wm'=n — m.T— pred2(n,mn')).
+We shall denote pred(n) by n~
+
+Now we define the sum
+
+.
+
+min = (n=0 —m,T — m"+n"),
+tho product 3
+
+mxn = (n=0 — 0,T -~ m+mxn")
+the differcnce
+
+m-n = (n=0-=>n,T = m—-n")
+
+which is defined only for m?Z n, the inequality
+m<n = (n=0) v (v(n=0)A (m" < n )
+the strict inequality
+m<n = (n<n) 4~ (m=n)
+the integer valued quotient
+m/n = (m<n--0,T— ((m-n)/n)"'),
+the remainder
+rem(m/n) = (n < n-—m,T— rem(m-n/n))
+and the divisibility of a number n by a number
+m
+m'n = (n:O)\/(Oan0/1(m[(n—m))).
+The primeness of a number is defined by
+prime(n) = (n£0) /] (n£l) Aprine 2(n,?2
+where 1
+prime2(m,n) = (m=n)\ ((L:%:1)/13)riauﬂ3(n,1a'))
+
+D 5o | T o - aiv B
+
+N —— e

@@ -1,0 +1,155 @@
+RS o sy s
+v e " = q - B -
+0&.:.;9 :'.).a"& .on )
+
+% ;3\:\’
+
+B .
+e L
+
+‘We ‘st.’u‘t WJ.t;v 'Ll\ln basic icﬁzntities
+
+ 
+ 
+
+xXky [null[ }- ¥ T'~\cons[ca1[x]
+Our Ilrst objcctive is
+
+catenation is associative.
+
+Cdl‘[k } y] ]
+
+to show that con-
+
+T™Th 11l., [x*y] ¥Z = .\'*[y*z ]
+Proof .
+3 nul.[ *y] ;rnﬂj.[[null[x]-ﬂ-y;T-ﬂ-coné:car[x ]:
+cdrl x *y
+_[null[\]-a-nulﬂ:y],T-ﬂ null[cons car
+J ;carlxxyl ]
+=[hui[x ]— null[y],T-‘*P]
+= null[x ] null [y ]
+car[x*y ] :Hnull[x]"*Cxu{y];T~»*car[cons[car
+> - crhf[ ]Fy
+nall x ] - car [v] ;
+
+. X o-cal{x ]]
+cd x*y ] r{nnll[ve-w-cdrfT T~v dr [cons[car
+
+A cdr
+
+[11’]1[\’]~“ C(nl{ y],T-~‘ cdr [.\]‘f=y]
+
+-
+
+ 
+
+ 
+
+A [null[ ]-»fj(é
+whlch also satis
+
+. car [cons[ ::;y]] R | o
+N cdr[cons[x;3] |\= y NET N/
+atom([x ] [COHS[Cdi ﬁj:cdr[x]//: X 4 \\
+ atou[ cons[ x;v 7 A X
+/ al) x| - qu'VIL]‘ 1/’ \ A
+Let us de Ilno the co: thcnation 'fyioi\twp
+llg{éAh and y by thc formula Ep sen g
+
+nullf =]
+
+;->
+
+ 
+
+ 
+
+y T —r cons car' x]
+the equatlon. \
+Next we conolder\the Iunctlbn revniis/' \
+
+  
+
+ 
+ 
+  
+
+ 
+
+defined by 2
+
+reverse [x] ﬁlull [x] < NIL - orie rov/orsc{ cdr [x] ]
+
+f >cons[car[x] IIL]]
+& It is not difficult to prove by recursion
+\
+‘Ainduction that e
+\ /" reversel iy se 14 x
+\ /  Eeverselxiyl = reverse [x|% 1ovcrse1k_~'“A'w “seoat o2
+rand -
+
+revorso[rcverse[i’] Xe
+
+Many other elementary results in the cle-
+mentary theory of numbers and in the clementary
+theory of symbolic ex {pressions are provable in
+the same strai.- shtforward way as the above, In
+number thcory onec gets as far as the theorem that
+if a prime p divides ab, then it divides either
+
+B oY b, Howcver to formulate the unique
+iactorl/atlon theorem requires a notation for
+dealing with sets of integers. Wilson's theorem,
+
+a moderatcly deep result, can be oxprossod in this
+formalism but apparently cannot be proved by
+recursion induction.
+
+One of the most immediate problems in ex-
+tending this theory is to devclop better techniques
+for proving that a re ecursively defined function
+converges. Ve hope to find some based on ambiguous
+functions. lowvever, Godel's theorem disallows any
+
+hope that a compnlete set of such rules can be
+formed.
+
+The
+
+L/ALL L
+
+relevance to a theory of computation of
+
+number theory is that the
+
+mathematical problems involved in developing rules
+for the valence of algorithus
+Rccursion induc which
+sidering
+applicablo
+CXPress
+
+this sion into
+
+proving equi
+ction
+
+1
+nmiper
+
+A‘V‘-
+
+wids <iscovered by con-
+Lhco-vtlc problems turns out to be
+
+wvithout change to functlon of syibolic
+ions.
+
+ACIINI TILONS AU ALUUILTLLAE D LA LCIICIL LD o RANLION;\o ¥ N
+
+AT
+
+  
+
+T ———

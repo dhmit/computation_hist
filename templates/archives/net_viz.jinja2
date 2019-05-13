@@ -10,8 +10,20 @@
 {% block header %} Network Visualization {% endblock %}
 
 {% block content %}
+    <div id="description">
+        <p>
+            This visualization shows the top 100 contributors in the Computation Center Archives. To
+            filter out unwanted nodes, search for the desired name. To get more information on an
+            individual, click on their node or on their name in the table.
+        </p>
+        <p>
+            The larger the node, the more influence a person has had. Additionally, dragging
+            each node enables you to see that person's "pull" on the network.
+        </p>
+    </div>
 
     <div id="visualizations">
+        <img src="{{ static('img/stories/network_scale.png') }}" alt="Network Scale" />
         <svg id="viz"></svg>
         <script>
             create_force_layout({{ nodes|safe }}, {{ links|safe }});
@@ -24,7 +36,7 @@
         <button class="btn btn-secondary my-2 my-sm-0" type="submit" id="node_submit">
             Search
         </button>
-        <button class="btn btn-secondary my-2 my-sm-0" type="submit" id="node_clear"
+        <button class="btn btn-secondary" type="submit" id="node_clear"
                 name="node" value="">
             Clear
         </button>

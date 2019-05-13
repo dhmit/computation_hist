@@ -1,14 +1,15 @@
-<div class='col-md-6 col-lg-4 my-4 pr-5'><div class="px-1">
+<div class='col-md-6 col-lg-4 my-2 px-4'><div class="px-1">
     <a href="{% url 'story' story %}" style="color: black">
         <div class="row story-teaser-img-container">
             <img src="{{ static('img/stories/' + story + '-teaser.png') }}"
                  alt="Teaser image for {{ story }}"
                  class="story-teaser-img"/>
-        </div>
+        </div></a>
+
         <div class="row">
-            <span class="story-title">{% block story_title %}{% endblock %}</span>
-            <span class="story-teaser">{% block story_teaser %}{% endblock %}</span>
+            <a href="{% url 'story' story %}" style="color: black"><span class="story-title">{% block story_title %}{% endblock %}</span></a>
+            <a href="{% url 'story' story %}" style="color: black"><span class="story-teaser">{% block story_teaser %}{% endblock %}</span></a>
         </div>
-    </a>
+
 </div></div>
 

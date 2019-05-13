@@ -1,0 +1,108 @@
+120d
+
+/‘\!r",f~
+{1
+
+WOOY 1IN3IWN
+
+ 
+
+A BASIS FOR A MATHEMATICAL THEORY OF COMPUTATION, PRELIMINARY REPORT
+John McCarthy
+
+e
+
+M.I.,T, Computation Center
+
+Cambridge, Mas
+
+Abstract: Prograins that lcarn to modify their
+
+cvm bechaviors require a way of representing
+algorithms so that interesting properties and in-
+teresting transformations of algorithms are simply
+represented. Theories of computability have been
+based on Turing machines, recursive functions of
+integers and computer programs. Each of these has
+artificialities which make it difficult to mani-
+pulate algorithis or to prove things about them.
+The present paper presents a formalism based on
+conditional forms and reccursive functions whereby
+the functions computable in terimis of certain base
+functions can be simply expressed. We also de-
+scribe some of the formal properties of conditional
+forms, and a method called recursion induction for
+proving facts about algorithms.
+
+Computation is sure to become one of the
+most important of the sciences, This is because
+it is the science of how machines can be made to
+carry out intellectual processes, We know that
+any intellectual process that can be carried out
+mechanically can be performed by a general pur-
+pose digital computer, Moreover, the limitations
+on what we have been able to make computers do so
+far seem to come far more from our weakness as
+programmers than from the intrinsic limitations
+of the machines, VWe hope that these limitations
+can be greatly reduced by developing a mathe-
+matical science of computation,
+
+There are three established directions of
+mathematical research relevant to a science of
+computation, The first and oldest of these is
+numerical analysis, Unfortunately, its subject
+matter is too narrow to be of much help in
+forming a general theory, and it has only re-
+cently begun to be affected by the existence of
+
+~mmntation
+
+sachusetts
+
+The present paper is an attempt to create a
+basis for a mathematical theory of computation,
+Before mentioning what is in the paper, we shall
+discuss briefly what practical results can be
+hoped for from a suitable mathematical theory,
+This paper contains direct contributions towards
+only a few of the goals to be mentioned, but we
+list additional goals in order to encourage a
+
+~ gold rush,
+
+1., To develop a universal programming
+language, We believe that this goal has been
+written off prematurely by a number of people,
+Our opinion of the present situation is that
+ALGOL is on the right track but mainly lacks the
+ability to describe different kinds of data,
+that COBOL is a step up a blind alley on account
+of its orientation towards English which is not
+well suited to the formal description of pro-
+cedures, and that UNCOL is an exercise in group
+wishful thinking, The formalism for describing
+computations in this paper is not presented as
+a candidate for a universal programming language
+because it lacks a number of features, mainly
+syntactic, which are necessary for convenient
+use,
+
+2. To define a theory of the equivalence
+of computation processes, With such a theory
+we can define equivalence preserving transfor-
+mations, Such transformations can be used to
+take an algorithm from a form in which it is
+easily seen to give the right answers to an
+equivalent form guarantced to give the same an-
+swers but which has other advantages such as
+speed, economy of storage, or the incorporation
+of auxiliary processes, '
+
+4, To represent algorithms by symbolic ex-
+pressions in such a way that significant changes
+in the behkavior represented by the algorithms
+
+Ya2s —~ - 99
+
+120 Yoy noostad

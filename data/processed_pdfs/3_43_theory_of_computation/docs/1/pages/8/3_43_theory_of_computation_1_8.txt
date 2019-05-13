@@ -1,0 +1,134 @@
+some of the remarks about functions might not
+hold if we tried to consider equality a single
+predicate defined on all spaces at once,
+
+A form with values in T such as
+x <y,x=y, or prime(x) is called a propositional
+form, e
+
+Prop031tiona1 forms constructed directly
+from predicates such as prime(x) or x <y may be
+
+called simple, Compound propositional forms can
+be constructed from the single ones by means of
+the propositional connectives A \/;L,Q,u We
+shall assume that the reader is familiar with the
+use of these connectives,
+
+Condxtional Forms or Conditional Expressions,
+Conditional forms require a little more careful
+treatment than was given above in connection
+with the example, The value of the conditional
+form (Dl-*-el.---pn"*'e )
+is the value of the e corresponding to the
+first p that has value T; if all p's have value
+then the value of the conditional form is not
+defined. This rule is complete provided all the
+pP's and e's have defined values, but we need to
+make provision for the possibility that some of
+the p's or e's are undefined. The rule is as
+follows
+
+IT an undefined p occurs before a true p
+O AL 1" b are false oF if the -5 corres -
+jro:ﬁiﬁghto_tﬁe first truo—~p*_i§_§ndgfincd then
+the form is undefined M—F?ho;wigg —IHE_;ETGG of
+the aoe. 001zespond1ng to
+
+ 
+
+i
+° 1
+=t
+
+ 
+
+ 
+
+ 
+
+ 
+
+thn fwrm 1s thc value of the e
+the 1|1st tlue P
+
+fud'l illustrate
+lditional examples:
+
+definition by
+
+(2] =l 2 > —+3) = 3
+
+(J. < 2 - l “’ 2 — 3) = 4
+
+(2> ,l,L>’1 —>3) is undefined
+
+(0/0< 1 =1, 1< 2 =*>3) is undefined
+undefined
+
+C1EsSE2 -0/0 1<2— 1) is
+
+/‘_rcv “y 7/'\
+
+N S, e e A ———— . s s e — et e—— ——— e —— A — e -
+- ——— - - - —
+
+1t 1s natural to ask if a function cond
+
+of 2n variables can be defined so that
+
+(pl —)el,...pn _)en) ~— Condn(pl,ooo,pn,
+
+l,...’e)
+
+This is not possible unless we extend our notion
+of function because normally one requires all
+the arguments of a function to be given before
+the function is computed, However, as we shall
+shortly see, it is important that a conditional
+form be con51dered defined when, for example,
+
+p1 is true and € is deflned and all the
+
+other p's and e's are undefined, The re-
+quired extension of the concept of function would
+have the property that functions of several ;
+variables could no longer be identified with f
+one-variable functions defined on product spaces,
+We shall not pursue this possibility further
+here,
+
+We now want to extend our notion of forms
+to include conditional forms, Suppose
+
+pl,...,pn are forms associated with the space
+
+et T —
+
+l
+i
+|
+|
+
+of truth values and € ,...e are forms i
+
+associated with the same space V. Suppose
+further that each variable xi occurring in
+
+p pn and el,...en is associated with the
+
+l)...
+
+with the space U, Then (pl —+el,...,pn —+en)
+
+is a form associated with V,
+
+We believe that conditional forms will
+eventually come to be generally used in mathe-
+matics whenever functions are defined by con-
+sidering cases, Their introduction is the same
+kind of innovation as vector notation, Nothing
+can be proved with them that could not also be
+proved without them, HHowever, their formal
+
+DYraono ‘1 e varly 4 i v 3 )

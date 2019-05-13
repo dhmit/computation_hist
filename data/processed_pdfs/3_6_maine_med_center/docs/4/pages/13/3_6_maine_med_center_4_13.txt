@@ -1,0 +1,79 @@
+1036 Annals New York Academy of Sciences
+
+PArT II: THREE-DIMENSIONAL STUDIES
+
+In order to compare the two-dimensional measurements with those made in
+three dimensions, the cross section of the deep tank had the shape of the
+ellipse of FIGURE 1. The tank, shown in FIGURE 13, consisted of plastic
+elliptical cylinder, 18 in. in depth, with the major axis of the cross section 12.6
+in. (32.1 cm.) and minor axis 10.1 in. (25.7 cm.). The length of the periphery
+was, therefore, 35.9 in. (91.3 cm.). Although models fashioned after a human
+thorax**. 3 are more accurate for the specific subject, it was thought that
+in view of the wide variations in body build between individuals, the ellipticai
+tank would be sufficiently accurate for most purposes. Also, it has been shown
+that the detailed shape of the torso is relatively unimportant. T found, how-
+ever, that it was necessary to retain the elliptical cross section, since a circle
+used to represent the thorax section gave less accurate results.
+
+The measuring equipment was similar to that used with the flat tank ? ex-
+cept that a new type of differential amplifier was designed to couple between
+the search and reference electrodes and an oscilloscope. Two current elec-
+trodes were mounted in the tank in a position corresponding to that of the
+heart in the body, that is, nearer to the front and top of the tank. These
+electrodes were mounted on insulated arms that were suspended from a cali-
+brated disk. The disk was rotatable about both the horizontal and vertical
+axes, so that any angle in space could be obtained. The measuring probe
+consisted of platinum wire soldered to the end of a length of stainless-steel
+
+RS
+
+T e T, ¥
+b, .
+
+e T
+e T A. 550
+S e s S0
+
+ 
+
+FIGUrRe 13. Deep tank and measuring equipment.
+
+Nelson: Human Thorax Potentials 1037
+
+hypodermic-needle tubing. This assembly was inserted into a glass tube, and
+the glass was sealed off around the platinum wire, leaving only the end ex-
+posed. By means of a sliding-rod mechanism, the search probe could be
+motor-driven around the periphery of the ellipse, giving the boundary-potential
+distribution very quickly. The reference electrode was a piece of platinum
+foil cemented to the bottom of the tank at the back.
+
+The 500-cycle search and reference voltages from the tank were connected
+to inputs 1 and 2 of the differential amplifier (FIGURE 14a). The voltages were
+amplified by the two pentodes and applied to the primary of a transformer.
+The output of the unit consisted of a voltage the magnitude of which, with
+respect to ground, was proportional to the difference in voltage between the
+search and reference electrodes. This voltage was applied to the Phase-Sensi-
+tive Rectifier (FIGURE 14b). After passing through an attenuator, the signal
+was amplified by the 6J7 and rectified by the 6H6 tube. The resulting DC
+voltage was passed through a two-section filter and applied to the vertical
+input of a cathode-ray oscilloscope. In order to provide polarity information,
+
+S K.
+
+    
+
+ 
+
+0 400V.
+
+Qutput to
+Phase sensitive
+Rectitier
+
+ 
+
+From 1| RS 6H6GT/a
+coupiing. '_mﬁ ”
+unit i
+
+FIGURE 14. Measuring circuits used with the deep tank.

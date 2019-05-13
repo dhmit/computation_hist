@@ -23,6 +23,10 @@ h1,h2,h3,h4,h5,h6,.navbar-brand {
     text-transform: uppercase;
 }
 
+* {
+  border-radius: 0 !important;
+}
+
 
 /*
  * Base styles
@@ -97,6 +101,15 @@ body {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 1.1em;
+    color: #007bff;
+}
+
+.story-title:hover{
+     font-family: 'Acre-Regular';
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #0056b3;
 }
 
 .story-teaser {
@@ -194,14 +207,52 @@ div.info_bar {
     border-width: 4px;
   }
 }
-.page-subheader{
-    font-size:35px;
+.btn-secondary {
+    color: #fff;
+    background-color: #007bff;
 }
-.page-subsection{
-    font-size:20px;
-    font-align:center;
 
+.btn-secondary:hover {
+    color: #fff;
+    background-color: #0056b3;
+}
+
+.teaser-img img{
+    border: 7px solid #fff
+}
+
+
+/*
+ * Search loader widget
+ */
+
+/* Center the loader */
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 300px;
+  z-index: 9999;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
 }
 
 .figure {
     margin: 10px;
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

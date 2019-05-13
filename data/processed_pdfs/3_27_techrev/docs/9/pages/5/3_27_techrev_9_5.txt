@@ -1,0 +1,134 @@
+is big enough and fast enough to begin to be able to
+compute the fantastically complex motions of air
+masses over the country, so as to predict what they
+will do tomorrow from what they are doing today. A
+member of the Applied Mathematics Department at
+Brown University is making more accurate calcula-
+tions of the electron distribution in complex atoms.
+Members of the Nuclear Engineering Division of the
+Chemical Engineering Department have used the
+computer to help design neutron shielding for the
+new M.LT. nuclear reactor, and will use it again to
+help determine the reactor’s operating characteristics.
+
+Each of these problems has required months of
+planning and coding before it was ready to be put on
+the machine. This pioneer work will help future
+users; many of the tricks of machine use and routines
+for computing various functions, developed for these
+programs, will be useful in other problems. An im-
+portant task of the staff of the Center is to collect
+useful parts of successful programs, and to simplify
+and codity them so they can be used by others on
+similar problems. As time goes on, the task of pro-
+gramming will thus become easier.
+
+In addition to computing, the machine can perform
+speeded-up or simulated experiments. For example,
+the probable behavior of a line of cars in a vehicular
+tunnel has been programmed. The machine is given
+the probable reaction of a driver to the behavior of
+the car ahead of him, as it speeds up or slows down
+or comes too close. These reactions have some random
+elements, so a preset randomness also is programmed
+into the instructions. Using these instructions, the
+machine then records the positions and speeds of each
+of the several hundred cars in turn and determines
+the position and speed each will have a second later.
+Going thus step-wise, the machine can work out the
+trafic flow pattern, indicating when hold-ups will
+occur and computing other over-all characteristics.
+In other words, the machine will simulate the actual
+traffic flow, will combine the assumed behavior of the
+individual units (the cars) to obtain the statistical
+pattern characteristic of the ensemble.
+
+The procedure has many uses. If the statistical
+pattern coincides with measured data on actual traf-
+fic flow, we can be fairly sure our assumptions as to
+individual behavior are correct. Or we can vary the
+rules for individual behavior and thus see whether
+changes in speed limits, or required car spacing, or
+other unit behavior will improve the dynamics of the
+whole.
+
+The M.L.T. Operations Research Group is also set-
+ting up a program to simulate the inventory system
+of a large industrial concern having hundreds of dit-
+ferent stock items, several warehouses and with the
+usual variability of demand and supply. Here one
+can determine how various policies for stock reorder
+and shipment influence the probabilities of. st.00k
+shortages, or the cost of inventory and of distribu-
+tion, for example. New stock control policies can.bc
+tested in the laboratory, so to speak, instead of using
+the organization itself as the subject of the experi-
+ment.
+
+A group in the Economics Department at Harvard
+is working out an ambitious program to snmulat.e the
+economic history of a segment of the population —
+
+____————
+
+ 
+
+the growth of a small town, for example. Working
+from the statistical behavior of individuals (their
+probability of salary raise, of buying a house, of mar-
+riage, and so on) as a function of age, salary, actions
+of others, and so on (including the inevitable random
+factors as well) they are programming the machine
+to work out the entire economic interdependence,
+the group dynamics of the selected population. To
+follow the histories of from 3,000 to 5,000 persons
+will take all the facilities of the 704, and very caretful
+programming at that, to get answers in a reasonable
+time.
+
+Although we can easily understand or specify the
+component parts of a complex system, we do not
+always (or, indeed, often) foresee all of the capabili-
+ties of the assembled system. This failing on our
+part makes necessary the job of the test pilot and
+explains why new automobile models are not always
+the wonderful performers they were expected to be.
+Chemists and physicists have long been aware that
+the understanding of the behavior of aggregations of
+atoms required more than a knowledge of the be-
+havior of individual atoms. Gibbs, one of this coun-
+try’s foremost scientists, spent his life developing the
+theory of such large aggregates, called statistical
+mechanics.
+
+Usually the mathematical techniques required to
+predict the characteristics of large aggregates are
+more difficult than the mathematics required to de-
+scribe each part. Certainly, at present, mathematical
+techniques are inadequate to go back and forth from
+the characteristics of individuals (their preferences,
+capabilities, and interactions) as studied by the psy-
+
+PHYSICAL PROCESS
+
+RECOGNITION OF BASIC PROBLEM
+
+MATHEMATICAL STATEMENT
+NUMERICAL ANALYSIS
+FLOW CHARTS
+MACHINE DIAGRAM
+CODING SHEET
+
+TEST SOLUTION
+
+MACHINE TESTING
+
+ACTUAL MACHINE SOLUTION
+
+OPERATOR INSTRUCT. OPERATOR'S
+MANUAL
+
+A schematic flow chart indicating the steps to be taken in
+getting the computer to solve a problem.,
+
+3

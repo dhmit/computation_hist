@@ -1,0 +1,141 @@
+- —— —— i — - —— . — . " —— — —— v —— . —— o — ——
+
+Th 6, (Qam)+p = m+(n+p)
+Proof. (a+n)+p = (m+p)-n Th' 3
+= (p-) 4n Th 5
+= (p4n) +m Th 3
+= m+(n+p) Th 5 twice
+Th 7. m0 =0 _
+Proof. m'0'= (0=0—0,T — m4n-0 )
+=0
+Th 8. O0-n=710"
+Proof. Lzt f(n) = (n=0—0, T — £(n- ))
+Omn = (n=0 — 0,T-> 0+0°n")
+0 = (11:0 T O,T -y 0)
+T™h 9% ‘mn' = mimn
+Proof. mn' = (n'= 0—0,T—m+m*(n')7)
+= M+inn axioms 1 and 2
+Th 10. wm(n+p) = mn+mp
+proof. Let f£(m,n,p) = (p=0 — mn,T — £(m,n’',p7))
+
+m(n+p) = m(p=0 = n,T—n'+p ))
+
+4
+
+application of: recur
+
+NCOI'Cs
+
+th the LISP formalism
+J . = 4 - : \
+
+= (p=0 — mn,T— m(n'+p7))
+
+mp = mn+(p=0 — 0,T — m4mp~)
+
+(p=0 — mn--0,T -~ nn+(n-+#p=))
+(p=0 — mn,T — (mn+m)+mp~)
+= (p:O-—rnnljr~ﬁ1m1‘+mp')
+
+we shall give some examples of the
+
+sion induction to proving
+about functions oi symbolic expiessions,
+rest of the: cnd on
+
+Now
+
+~ ,
+- REOOLES QP
+- A
+
+~ t e sic ntities,
+
+car [consl x;31] = x
+
+r ~[m..{:;;}] =y
+ol ] [Cf, !—.""““. | ‘ f] = X
+e
+
+nulf ::} = eql ;‘.’T.L]
+
+Th 12,
+
+an acquaintance
+
+ 
+
+ 
+
+=[ nu11f x*y ] 2; T — cons[ cayf x*y];
+cdr{ xxy ]z
+
+—[null[ ]->[null[y]-">z T — cons
+
+[cay{ x*y ]; cdr [x¥y]*z ]] T— cons
+[caif x*y J;cdr[xky] *z] ] |
+{null[ x] = [null] y] ~ z; T —> cons [car
+y J;cdr[y Jfz T — cons [car[x Hicdr =
+[xFy)*2]11] ;
+=[null x] — y*z;T — cons[ car [X]  [cdr |
+[ *y J+z ]] e
+Now let » i
+i x;y;2z] =] n]ull [x %—]-.\]y*z;T —- cons [car[x]; f cdr .
+)Y’ j
+From the above steps we see that [x*y]*z satisfies
+the equation for f. On the other hand :
+xt[ y*z ] = [null[x ]— y*z;T — cons[car k]; [cdr |-
+[ H y#2 1] |
+
+satisfies the cquation directly
+
+ 
+   
+  
+   
+   
+    
+  
+  
+ 
+
+NIL*X = X {
+x*¥NIL = |
+Proof. NIL¥X = [nu11 NIL]— x;T — cons [car [NIL]
+cdr [NIL]*x ]]
+— {
+XENIL = [null k J- NIL;T — cons car[x } |
+cdr [x] *NIL ]] f
+Let £(x) = [null[ x] —> NIL; T —- con<{car [x] f[cdr
+
+x ]
+2*NIL satisfies this equation.
+for any list x
+
+X fnull[x]-—»x;T-ﬂ-x]
+= [null[ ::] = N T = cons[ car [*{] : cdr[ x] ] ]
+which also satisfies the equation.
+Next we consider the LUHCLlOn reverse X
+defined Dby
+rovorseEﬂ
+
+We can also write
+
+I
+
+ 
+
+il [ — NIL;T -+ reversd cdr [¥] ]
+corV‘[cax[ ] NIIJ]]
+
+It is not difficult to prove by recursion !
+induction that
+
+  
+ 
+
+. X .y
+Y 3 \ ‘
+\ Vo L O\
+
+\-' —_— YNNI Y Y r\v1 o1 NN BN NN r--'] A ‘}Ji

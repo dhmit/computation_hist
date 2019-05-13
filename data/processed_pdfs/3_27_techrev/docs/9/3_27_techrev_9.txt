@@ -1,0 +1,774 @@
+Teaching Machines to Reckon
+
+by PHILIP M. MORSE
+
+Preprinted from
+THE TeEcHNoLOGY REVIEW
+
+VOLUME 60, NUMBER 6 APRIL, 1958
+
+MASSACHUSETTS INSTITUTE OF TECHNOLOGY
+
+ 
+
+CAMBRIDGE 39. MASSACHUSETTS
+
+Copyright, 1958, The Technology Review
+
+
+
+
+
+Fo
+
+View of the machine area in the Computation Center. In the foreground from right to left are tabulator unit
+trol board, and cathode ray visual output. In the background are the magnetic tape units and the “off
+
+eaching Machines to R
+
+Computers can count, and can store and cc
+But man must program and direct the mac
+to take advantage of its lightning-speed
+
+Vi to the new Karl Taylor Compton Labora-
+tories building seem to like to pause for a moment to
+look through the “store front” windows separating
+the first-floor corridor from the reception room and
+operating area of the new Computation Center which
+houses the various units of the recently installed
+[.LB.M. 704 digital computer, made by the Interna-
+tional Business Machines Corporation. Most days the
+scene in the air-conditioned interior displays activity,
+if not hectic animation. In the reception area nearest
+the corridor a half-dozen or more students and Fac-
+ulty members will be dispersed, some hastily check-
+ing over operating instructions for the problem they
+wish the machine to solve, some poring over an-
+swers the machine has printed out on standard 15-
+inch wide report sheets, some awaiting their turn to
+use the computer, and some talking to colleagues or
+to a member of the Center staff.
+
+Beyond the plush-cord line dividing the reception
+area from the operating area, the visitor can see the
+machine operator inserting decks of instruction cards
+in the card input unit or pushing buttons in response
+to the dancing red lights on the control console.
+Often the person whose problem is being run will be
+
+by PHIL
+
+watching the lines of printed results
+from the tabulation unit, eager to se
+or dejectedly scanning evidence that
+gone wrong with the program. In th
+behind the card and tabulator units,
+magnetic tape units. In some units
+spinning, either to feed more data or i
+the machine or to record results. In o
+reels are being changed by an assista
+far left corner another group may be
+“off-line-printer” transcribe from a tap
+an earlier run.
+
+Pushing through the door to the 1
+it he wins approval of the receptions
+visitor will perceive that the activity
+noisy; voices do not have to be raise
+conversational level except on occas
+“on-line-printer” is particularly activi
+aware of the faint hiss of the air condit
+not-so-taint whir of the magnetic drum
+one acquainted with the deafening r
+other computer installations will be
+pleased at the comparative quiet he
+came not by chance. Each unit in a mo
+
+
+Fay Foto Service, Inc.
+
+View of control panel of the 704 computer. Colored buttons
+on the panel provide general operating controls, such as stop
+or start, read card, etc. Detailed instructions of the machine
+program are read from punched cards into the memory unit
+and from thence exercise high-speed control of the details of
+each computation. Buttons on the lower right-hand part of
+the panel may be programmed to provide other external con-
+trols as needed. Neon lights on the central part of the panel
+indicate the operation of various parts of the circuitry.
+
+generates quantities of heat, which must be carried
+away or the machine would overheat in a few min-
+utes. In most installations the cooling is achieved by
+flooding the area with cool air, then sucking this air
+into each unit as it comes by, and blowing it over the
+hot elements by means of a fan — a rather unimagina-
+tive method and a noisy one, for the unit fans cause
+95 per cent of the noise! In the installation at the
+Institute the cooled air, at a slight excess pressure,
+is ducted directly to each machine so that no unit
+tans are needed, and the unit elements run actually
+cooler than in the usual installation. Fans have been
+eliminated from all major units except the magnetic
+drum, which now generates more noise than all the
+rest. As soon as arrangements can be made to remove
+the tans from this unit, the area will be as quiet as
+some of the libraries or other intellectual work areas
+at the Institute.
+
+[f the visitor finds his way down the stairs to the
+preparation room below, he will see more activity.
+Machine users are preparing cards by operating the
+typewriter keyboards of the card-punch machines,
+are duplicating cards from some standard-routine
+deck to insert in their own pile, or are running their
+cards through a sorter. In these various ways they
+vet together (in the form of a set of holes punched in
+a deck of cards) the instructions, definitions, and data
+which tell the machine how to do their problem. If
+the dozen to a hundred holes are punched right on
+
+J
+
+ 
+
+cach card and if the 20 to 500 cards are in the right
+order, then the machine will translate the instructions
+and data into meaningful electronic activity, and will
+solve the posed problem in a hurry. The card deck is
+the user's means of telling the machine what he wants
+in a language the machine can understand.
+
+But there is a long history of activity before the
+cards are punched and fed to the machine, which is
+not as apparent to the casual visitor as 1s the orderly
+bustle in the machine room. Some of it is being car-
+ried out all over the Institute as M.LT. Faculty
+members translate their mathematical equations into
+instructions to punch onto cards, and as students
+struggle to state their thesis problems in a language
+appropriate for machine calculation. Some activity
+is being carried out, by visitors from other New Eng-
+land colleges, in the offices across the hall from the
+machine room, for the equipment at the Center has
+been donated by the International Business Machines
+Corporation for the use of all the colleges in New
+England.
+
+At present, some two dozen New England colleges
+and universities are actively participating in a large-
+scale program aimed at introducing the use of elec-
+tronic computers into the college curriculum. Each
+August a special two-weeks’ course in coding is given
+by the Center staff to interested students and faculty
+members from all these schools. Those who have
+taken the course go back to their institutions and
+teach others how to use the equipment. At present,
+of the 150-odd problems being run by the machine,
+about 40 are from New England colleges other than
+M.L.T. The relative number is increasing, despite the
+greater difficulty out-of-towners experience in using
+the facilities, and it is hoped that eventually half the
+problems on the machine at any time will be from
+the other institutions.
+
+Already the machine is busy helping to solve prob-
+lems in a wide variety of fields of science, including
+anthropology, astronomy, chemistry, economics, en-
+gineering, geology, industrial management, mathe-
+matics, metallurgy, meteorology, modern languages,
+operations research, physics, and psychology. For ex-
+ample, as was reported in the newspapers, as soon as
+accurate visual sightings were reported, the orbits
+of the Russian satellites were computed by the ma-
+chine; the results checked closely with those com-
+puted in Washington from radar sightings. In another
+case, the computer has been used to help establish
+the origin of peculiar glasslike fragments called tek-
+tites, which are found in various parts of the world,
+but do not appear to be of terrestrial origin. It has
+been suggested that tektites may be extraterrestrial
+particles that have been splashed off the moon by
+supermeteoric collisions, and peppered the earth mil-
+lennia ago. The possible orbits of such particles have
+been calculated by the computer; the results seem
+to check with the distribution of tektites on the
+earth, though this does not prove their lunar origin.
+The Sputnik and the tektite problems have origi-
+nated with the Harvard Observatory and the Smith-
+sonian Institution,
+
+To mention a few more examples, the M.1.T. De-
+partment of Meteorology has several large problems
+running concerned with weather prediction; the 704
+
+
+is big enough and fast enough to begin to be able to
+compute the fantastically complex motions of air
+masses over the country, so as to predict what they
+will do tomorrow from what they are doing today. A
+member of the Applied Mathematics Department at
+Brown University is making more accurate calcula-
+tions of the electron distribution in complex atoms.
+Members of the Nuclear Engineering Division of the
+Chemical Engineering Department have used the
+computer to help design neutron shielding for the
+new ML.LT. nuclear reactor, and will use it again to
+help determine the reactor’s operating characteristics.
+
+Each of these problems has required months of
+planning and coding before it was ready to be put on
+the machine. This pioneer work will help future
+users; many of the tricks of machine use and routines
+for computing various functions, developed for these
+programs, will be useful in other problems. An im-
+portant task of the staff of the Center is to collect
+useful parts of successful programs, and to simplify
+and codify them so they can be used by others on
+similar problems. As time goes on, the task of pro-
+gramming will thus become easier.
+
+In addition to computing, the machine can perform
+speeded-up or simulated experiments. For example,
+the probable behavior of a line of cars in a vehicular
+tunnel has been programmed. The machine is given
+the probable reaction of a driver to the behavior of
+the car ahead of him, as it speeds up or slows down
+or comes too close. These reactions have some random
+elements, so a preset randomness also is programmed
+into the instructions. Using these instructions, the
+machine then records the positions and speeds of each
+of the several hundred cars in turn and determines
+the position and speed each will have a second later.
+Going thus step-wise, the machine can work out the
+traffic flow pattern, indicating when hold-ups will
+occur and computing other over-all characteristics.
+In other words, the machine will simulate the actual
+traffic flow, will combine the assumed behavior of the
+individual units (the cars) to obtain the statistical
+pattern characteristic of the ensemble.
+
+The procedure has many uses. If the statistical
+pattern coincides with measured data on actual traf-
+fic flow, we can be fairly sure our assumptions as to
+individual behavior are correct. Or we can vary the
+rules for individual behavior and thus see whether
+changes in speed limits, or required car spacing, or
+other unit behavior will improve the dynamics of the
+whole.
+
+The M.L.T. Operations Research Group is also set-
+ting up a program to simulate the inventory system
+of a large industrial concern having hundreds of dif-
+ferent stock items, several warehouses and with the
+usual variability of demand and supply. Here one
+can determine how various policies for stock reorder
+and shipment influence the probabilities of stock
+shortages, or the cost of inventory and of distribu-
+tion, for example. New stock control policies can be
+tested in the laboratory, so to speak, instead of using
+the organization itself as the subject of the experi-
+ment.
+
+A group in the Economics Department at Harvard
+is working out an ambitious program to simulate the
+economic history of a segment of the population —
+
+CL
+
+ 
+
+the growth of a small town, for example. Working
+from the statistical behavior of individuals (their
+probability of salary raise, of buying a house, of mar-
+riage, and so on) as a function of age, salary, actions
+of others, and so on (including the inevitable random
+factors as well) they are programming the machine
+to work out the entire economic interdependence,
+the group dynamics of the selected population. To
+follow the histories of from 3,000 to 5,000 persons
+will take all the facilities of the 704, and very careful
+programming at that, to get answers in a reasonable
+time.
+
+Although we can easily understand or specify the
+component parts of a complex system, we do not
+always (or, indeed, often) foresee all of the capabili-
+ties of the assembled system. This failing on our
+part makes necessary the job of the test pilot and
+explains why new automobile models are not always
+the wonderful performers they were expected to be.
+Chemists and physicists have long been aware that
+the understanding of the behavior of aggregations of
+atoms required more than a knowledge of the be-
+havior of individual atoms. Gibbs, one of this coun-
+try’s foremost scientists, spent his life developing the
+theory of such large aggregates, called statistical
+mechanics.
+
+Usually the mathematical techniques required to
+predict the characteristics of large aggregates are
+more difficult than the mathematics required to de-
+scribe each part. Certainly, at present, mathematical
+techniques are inadequate to go back and forth from
+the characteristics of individuals (their preferences,
+capabilities, and interactions) as studied by the psy-
+
+PHYSICAL PROCESS
+
+RECOGNITION OF BASIC PROBLEM
+
+MATHEMATICAL STATEMENT
+NUMERICAL ANALYSIS
+FLOW CHARTS
+MACHINE DIAGRAM
+CODING SHEET
+
+TEST SOLUTION
+
+MACHINE TESTING
+
+ACTUAL MACHINE SOLUTION
+
+OPERATOR INSTRUCT. OPERATOR'S
+MANUAL
+
+ 
+
+A schematic flow chart indicating the steps to be taken in
+getting the computer to solve a problem.
+
+3
+
+
+chologist and social scientist, on the one hand, to
+the economic and political behavior of large groups
+as measured by the Census Bureau or reported by
+historians, on the other hand. The use of machine
+simulation will be a powerful means of establishing
+such connections, of developing the statistical me-
+chanics of social groups. Here the experimental tech-
+niques so useful in physics and chemistry are not
+possible; we cannot make a five-year experiment on
+a large group of people—at least not in this country.
+Computing machines, carefully and imaginatively
+programmed, may be able to take the place of the
+live group to an extent sufficient for the experiment,
+and the test may be run through in five hours instead
+of five years. The procedure has its pitfalls and
+difficulties, of course, but it is a promising one.
+
+Machine simulation may also help shed light in
+the science of psychology. The human brain is a
+highly complex aggregate of nerve cells, each of
+which has fairly simple properties. How does such
+an aggregate remember, learn, or decide? Perhaps
+machine simulation studies — studies of the behavior
+of aggregates of simplified neuron responses — can
+help answer these questions even though the largest
+present computer has too few elements to simulate
+the complexity of a bird's brain, let alone man’s.
+Some members of the Institute's Department of
+Mathematics are interested in these questions and
+plan to use the 704 to test some of their ideas.
+
+But we have left our visitor unescorted. with some
+of his questions unanswered. What is this versatile
+gadget which is turning out to be so useful in so
+many scientific problems? Is it going to take over
+our thinking for us, as the automobile has substi-
+tuted for our legs? To fear that eventuality is to
+misunderstand the functioning of an electronic com-
+puter. A machine like the 704 can really do only a
+few very simple things: it can count; it can remem-
+ber; and it can compare. It can do these things much
+faster and more accurately than we can, of course,
+
+4
+
+The tabulator unit is
+one of the channels by
+which the 704 unit re-
+ports its results, in this
+case as letters, words, or
+numbers printed on a
+sheet of paper. Other
+direct output channels
+are the visual imagges
+produced on a cathode-
+ray screen, indirect out-
+put or input channels
+are the card-punch unit
+(opposite page) and the
+magnetic tape units.
+Two tabulator units are
+provided, one connected
+directly to the machine
+(on line) which is used
+for problems with a
+small amount of final
+answer.
+
+M.1.T. Photographic Service
+
+but that is all it can do. In three minutes it can do
+as much straight calculation — adding, multiplying,
+and the like — as would require a human computer
+(using a desk calculator) a month to do. It can store
+10-digit numbers in its core memory, and retrieve
+them on demand in a forty-thousandth of a second,
+and do this several billion times without an error.
+And it can make the simplest sort of judgment —
+tell whether one number is larger or smaller than
+another — and base its next actions on the result.
+
+It can do these things speedily and dependably,
+but this is all it can do. All the complex procedures
+of the calculations mentioned earlier must be built
+up laboriously by the programmer using these simple
+elements. And every action must be spelled out in
+detail. “Get this piece of data from storage register
+113 and add it to what you have already; put the
+answer back in storage register 267; get the next
+piece of data from register 114, multiply it by two;
+if the result is larger than the number in register
+1243, add it to the result in register 267; if not, re-
+turn it and get the next number” — and so on, in
+endless and meticulous detail. Every possibility must
+be thought of; every time a division is ordered, the
+machine must be told what to do if the devisor is
+zero, for example. It is easy to see why it usually
+takes three months for a beginner to program a
+problem that the machine may run through in less
+than an hour.
+
+It does not do to take a chance or to ask the ma-
+chine to stop while you figure out what to do next.
+Machine time is too valuable for that; a minute's
+hold-up is equivalent to asking a human computer
+to wait a week while you make up your mind; the
+machine could be halfway through someone elses
+problem while you are figuring out what went wrong.
+Things do go wrong, of course. Many programs
+have “bugs” in them when they are first tried out.
+In this case the machine is instructed to print out
+where it was and what it was doing and then make
+
+EE ——————.
+
+
+View of the machine
+which punches data and
+machine data instruc-
+tions onto standard
+cards. The deck of
+cards, punched out vig
+the keyboard shown
+here, is the basic form
+in which the user pre-
+sents his problem to the
+704; it is the visible re-
+sult of his weeks of pro-
+gramming and coding,
+The on-line card reader
+translates the pattern of
+holes in each card into
+patterns of electrical
+pulses which are stored
+in the core memory for
+use in the next problem.
+
+M.1.T. Photographic Service
+
+itself ready for another problem, The unhappy pro-
+grammer must take this “post-mortem” off to his
+office for diagnosis and come back later.
+
+The digital computer is an immensely skillful, in-
+credibly rapid booby, which will do exactly what
+it is told, but which has absolutely no judgment. It
+will carry out the intellectual drudge jobs for the
+user, but it cannot do his thinking. Any “reasoning”
+it is expected to do in a problem must be laid out in
+the programming. So the drudge work of computing
+is exchanged for the drudge work of programming
+—of laying out the steps of the computation, of
+translating the steps into the detailed orders, ex-
+pressed in “machine language” and in punching these
+orders onto a deck of cards. No wonder only “tough”
+problems are put on the machine — problems for
+which the work of computing will be more tedious
+than the work of programming.
+
+But this is putting the dilemma too strongly. For,
+if told to do so, the machine itself can do much of
+the drudge work of the programming. It can de-
+termine where in the memory it should store items
+of data and the intermediate results of its calcula-
+tions; it can be told how to analyze program errors
+and how to print out “post-mortems” so the user
+can find his mistake more easily, and so on. Pro-
+grams which tell the machine how to carry out
+much of the detailed bookkeeping of a finished
+program are called compiler programs. Members
+of the staff of the Center are busy devising better
+compilers to ease the work of the user. Their devis-
+ing requires considerable logical subtlety and an
+intimate knowledge of machine behavior. After all,
+we are just learning what a machine of the com-
+plexity of the 704 can do.
+
+For the computing machine itself also is a large
+and complex aggregate of fairly simple parts; it also
+displays characteristics which are hard to foresee,
+which require considerable study to understand
+fully and which thus are not yet employed as profit-
+
+ 
+
+TY
+hp kB %
+Ng
+EL :
+y ol
+5 EAE Te
+
+ably as they could be. The language the machine
+“understands,” the set of coded orders punched on
+cards, has a vocabulary and syntax which is trouble-
+some to learn — though it is far simpler than any
+“human” language. The “words” and the “grammar”
+are imposed by the electrical and mechanical fea-
+tures of its design as much as by the logical re-
+quirements of what it is to do. It would be easier for
+the occasional user to be able to formulate his in-
+structions in more familiar terms, closer to the
+language of usual mathematics, for example. As a
+matter of fact, it is possible to get the machine to
+do this translation.
+
+The 704 has a complex program called “Fortran”
+(formula translation) which takes instructions in a
+more familiar language and translates them into
+instructions in “machine language.” Instructions in
+Fortran require two machine actions to get an
+answer. First, the punched-card deck in “Fortran
+language” must be translated by the 704 into a
+proper program in “machine language,” which is
+either recorded on tape or on a new deck of cards;
+this program is then fed back to the machine to get
+it to compute the problem itself and get the answer.
+Thus the machine does more work, but the machine
+user has an easier time of it.
+
+Parenthetically, the logical procedure useful in
+getting the machine to translate instructions from
+“Fortran language” to “machine language” is ana-
+logous to the procedures which would have to be
+followed if the machine were to be asked to trans-
+late a paragraph of Russian into English. Using a
+computer to translate from one “human” language
+to another is an immensely difficult task, and the
+results cannot be expected to be literature. But if
+machines can help translate into English the quan-
+tity of scientific articles which come out in other
+languages, the reduction of man-hours now spent
+in trying to understand what others have done will
+far overweigh the occasional clumsy phrasing of the
+
+—
+
+9
+
+
+machine translation. Members of the staff of the
+Computation Center are co-operating with a group
+in the Institute’s Department of Modern Languages
+to test some basic parts of this ambitious project.
+
+Fortran has its limitations and drawbacks. There
+are some problems for which it is inadequate, for
+which it is best to use “machine language” directly.
+But we will be able to make improvements as we
+learn more of the 704’s behavior patterns. Machine
+psychology is a popular field of research at the
+Center just now. Some of the staff of the Computa-
+tion Center and some of the Electrical Engineering
+Department staff are co-operating to improve
+sensory and memory ability of the 704. The oscillo-
+scope output, attached to the machine, will be con-
+nected, via a photocell, back to the machine memory
+again to see whether such an optical feed-back loop
+will make it possible for the machine to read a blue-
+print, or a page of type, for example.
+
+Some of the ways of learning how the computer
+behaves are by programming it to play games. The
+704 has been programmed to play ticktacktoe and
+also checkers against a human adversary; it is now
+being programmed to play chess, the Japanese game,
+go, and to run off several problems of business,
+athletic, or military competition which have struc-
+tures similar to games. Such game-playing programs
+are of two kinds. The simpler, and less interesting,
+are for those games which are simple enough so
+that the consequences of every move and counter-
+move can be foreseen. In these cases — the ticktack-
+toe is an example — all possible combinations are
+stored in the memory and the program instructs the
+machine which move to make in each possible situa-
+tion. In these cases the machine is infallible — it
+always makes the best possible move — simply be-
+cause the human programmer has included the
+complete situation, obtained by game theory or
+otherwise, in the program. The machine just has to
+work out the successive game theory solutions, as its
+adversary makes each successive move.
+
+The more interesting problems are found in those
+cases for which the game is too complex for com-
+plete analysis and when game theory is consequently
+inapplicable. Here a different approach must be
+used, the investigation of which may have conse-
+quences of interest in many fields. Each possible
+
+ 
+     
+   
+  
+
+    
+
+CORE STORAGE
+8192 words
+
+   
+
+MAGNETIC DRUMS
+8192 words
+
+MAGNETIC TAPES
+107 words
+
+   
+
+   
+
+    
+     
+ 
+ 
+    
+  
+  
+ 
+
+10,000 2,500
+
+WORDS WORDS
+
+PER PER
+SECOND SECOND
+
+   
+  
+  
+       
+ 
+
+CONTROL — — —{ ARITHMETIC REGISTERS CARD READER
+
+20,000” oy,
+OPERATIONS WORDS
+PER PER
+SECOND SECOND
+5 a0
+WORDS WORDS
+
+PER PER
+SECOND SECOND
+
+CATHODE
+RAY TUBE
+
+PRINTER
+
+   
+
+CARD. PUNCH
+
+Schematic diagram of the functional parts of the 704 computer.
+
+6
+
+situation in the game, each configuration of pieces
+on the board in checkers or chess, for example, is
+initially evaluated with regard to its future advan-
+tage to the machine or player. This can be done
+fairly accurately for chess or checkers; experts at
+the game can rank-order the configurations in terms
+of chance of victory. The program then instructs the
+machine to move to the next possible configuration
+which has the greatest potential value.
+
+Moreover, the machine can be programmed to
+improve on the initial evaluation by working out
+several moves of the game “in its mind” before it
+actually makes its next move. The opponent’s possi-
+ble countermove to the various moves it might make,
+then its possible next moves and the opponent's fol-
+lowing countermoves for several steps in advance,
+may all be “thought out” in advance by the machine.
+It can then be programmed to choose that move
+which shows the greatest chance of reaching an
+advantageous configuration one, two, or more steps
+in the future. The present 704 can be programmed to
+explore three steps in the future in chess; when more
+core memory is installed next summer it may be
+able to look four steps ahead. Chess experts claim
+to look five or more steps ahead, so the machine
+cannot yet beat the champions, but it can usually
+beat the tyro.
+
+In addition, the machine can be programmed to
+improve its game — to modify its program in the
+light of experience. The amount of learning possible
+at present is quite limited, but various improvements
+have already been suggested. Teaching the machine
+to improve its performance, on the basis of its own
+experience, has great promise, both practical and
+theoretical.
+
+The process of looking ahead several steps in a
+process, of evaluating possible next steps in terms
+of expected future benefits, is called dynamic pro-
+gramming. It is a new branch of applied mathe-
+matics. Some of the basic mathematical theory has
+been worked out, but to speed up further develop-
+ments a number of examples must be worked out
+in detail. Most such problems are too complex to
+work out by hand; they must be computed by
+machine. The techniques of dynamic programming
+will have wide application in industrial and military
+planning, as well as in the playing of chess and
+checkers. At present, members of the M.I.T. Opera-
+tions Research Group are developing machine
+programs for various simple industrial situations in-
+volving the planning for purchase of raw material
+and subsequent manufacture, in the face of fluctuat-
+ing prices and demands, for example.
+
+Our visitor may conclude, at the end of his trip
+through the Computation Center, that in the near
+future an electronic computing machine will be
+considered to be as necessary to a university as a
+chemistry laboratory; ability to program for a com-
+puter will be as important a requirement for the
+B.S. candidate as ability to use a slide rule is now.
+Donation by I.B.M. of the facilities at the Computa-
+tion Center has put M.LT. and the co-operating
+institutions in New England in the forefront of edu-
+cation and research in the use of these new instru-
+mentalities.
+
+

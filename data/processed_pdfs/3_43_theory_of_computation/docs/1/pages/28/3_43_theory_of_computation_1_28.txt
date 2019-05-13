@@ -1,0 +1,55 @@
+10,
+
+1.
+
+ 
+
+ 
+
+ 
+
+lMcCarthy, J., Reccursive TFunctions of Symbolic
+Expressions and Their Computation by lMachine,
+
+Part I, Communications of the ACM, vol. 3,
+April, 1960, pp. 184-195.
+McCarthy, J., The LISP Programmer's Manual,
+
+M.I.T. Computation Center, 1960,
+
+lloscow, 1954, USSR Academy of Sciences,
+Steklov Mathematical Institute.
+
+Naur, P., et al., Report on the Algorithmic
+
+Markov, A.A., Theory of Algorithms (Russian),
+
+Language ALGOL GO,Communications of the ACM,
+
+vol., 3, llay 1960,
+
+)
+Application to the Entscheidungs Problem,
+
+et et . e e Al et ettt e et e e et - ———
+
+Turing, A.il., On Computable Numbers with an
+
+Procececdings of the London lMathematical Society,
+
+ser. 2, vol, 43, 1937, p. 230} correction,
+ibid, vol. 43, 1937, pP.544,
+
+      
+
+ 
+
+   
+
+ 
+
+—— ———— ) —— —— — ———— i — — ——— e . ——— s —. ————. -~y S———
+
+o« !
+
+O ———— ——

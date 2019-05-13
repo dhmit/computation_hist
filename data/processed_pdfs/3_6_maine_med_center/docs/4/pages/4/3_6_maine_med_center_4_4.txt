@@ -1,0 +1,52 @@
+1018 Annals New York Academy of Sciences
+
+| = dVvV AV
+
+B
+dv
+dL signifying the derivative of potential with respect to distance along the
+boundary L, and being equal to the slope of the curve of V against /. In
+practice, E was computed by taking the ratio of small incrementsof V and L,and
+
+AV and AL. E could also be found by moving a pair of closely spaced elec-
+trodes around the boundary, but this would be no more accurate than cal-
+
+A : = = g . ;
+culating Kg Since ? = kE, where 7 is the current-intensity vector and p is
+
+o =0° B=0°30°60°90°
+
+B8=0°
+
+  
+  
+
+Distance around tank
+
+ 
+
+Potential
+
+FIGURE 4. Potential distribution around the boundary of a deep tank at the level of the
+
+dipole. The vertical angle is 0°, the horizontal angle 0°, 30°, 60°, and 90°. Compare with
+FIGURES 5 and 6.
+
+Nelson: Human Thorax Potentials 1019
+
+ 
+
+ 
+
+FIGURE 5. Field- and boundary-potential distributions in a 2-dimensional thorax section
+for a g angle of 90°. Figure @ shows the homogeneous section; in b the spine and sternum
+sections are completely insulating, and the lungs havea resistivity ratio of 4 and in ¢ the lung
+sections are also completely insulating. The broken curves in the right-hand illustrations
+show the distribution of potential gradient around the boundary.
+
+the conductivity, the potential-gradient curves also are proportional to the
+variation of current intensity along the boundary. As is obvious from FIGURE
+Sa, E is greatest near the center of the front of the section.
+
+FIGURE 5b shows the field when insulating spine and sternum sections and
+lung sections with a resistivity four times as great as that of the main body of

@@ -1,0 +1,142 @@
+e The rule of replacement can be extended in
+the case of ‘conditional expressions. Suppose o~
+is an occurrence of a sub-expression of an ex-
+pression . We define a certain propositional
+expression T called the premise of &~in B as
+follows:
+
+1) The premnisc Of~ind~is T.
+
+2) . The premisc of Bin f(xl,...,
+
+-
+T e — T — = -
+
+     
+ 
+
+ 
+
+ey
+n n
+
+where Sis part ofcA is the premise of o in [? .
+3) The premisc of J in .
+e e 0 e 2999 -— e )
+Sy el T e e P T B
+
+where [Zoccurs in e, , and the premise ofg=~ in e,
+i 3
+is I o wed) CAD y A .
+18 T, /Upl /) li-—lﬁli
+4) The premise¢ of B in
+
+“> € 5e00 o o e -~>e )
+(pl x pi g pn n
+
+where p’occurs in p., and the premise of &~~in p_
+i i
+is T, is wp A cee NP, AT,
+
+The extcension of the rule of replacement is
+that an occurrence ofs/A in)y may be replaced by ¢¢°
+12 (T )= (Tr—eL ') where T is the premise of
+
+=8
+
+c£\in‘ﬁ’. Thus in a subcase one nccd only prove
+equivalence under the premise of the subcase.
+
+S. Recursion Induction :
+Suppose a function £ 1is defined recursively
+
+1) f(xl,...,xn) :E’} xl,...xn,fj
+whcreéf is an expression that in general contains
+£f. Suppose that ¢ is the sct of n-tuplets
+Txl,...,xn) for.which £ is defined. Now let g and
+
+Dy
+
+ 
+
+\ . h be twvo other functions with the same domain as T
+| —
+
+and which are definced for all n-tuplets incl .
+Suppose further that g and h satisfy the cquation
+
+1 which defined £. e assert that
+| st s ek, )= (00 is siae )
+B e n’ gvl 2N
+
+  
+
+L —— — o 4 e e . ——— S ——— o 1 £ 1 e~ B A 3 3
+
+e T
+P
+.
+
+  
+
+O —— ——————— . — - - - -
+
+lm and n and hence is defined by th: equation. e
+
+(min)' = (=0 —>m,T->m'+n")"
+= (n=0 = m', T— (m"'+n")"')
+
+min_ - =-(m=0—m',T~ (m*)+n~)
+It is casily seen that the functions g and h
+defined by the cquations g(m,n) = (m+H)' and
+h(m,n) = m'+n both satisfy the equation f. For
+example, it is clear that g(m',n™) = (m'+a™)" and
+h(m',n”) = (m')'+n~. Therefore, by the principle
+
+of recuwrsion induction h and g are equivalent
+functions on the domain of where f is dofined,
+but this is the set of all pairs of integers.
+
+The fact that f(m,n) converges for all m and
+n is a case of the fact that all functions defined
+by equations of the form
+
+f(Il_X_,...x ? = (H:O i g()&loooxn),T'-}Il(.r(ll—,ri
+
+ol
+(xl’..I.Xn),.'.lll(xl...xn))’...’
+o= o K
+f(ll ’rl(xl’.."xll)’...,l
+
+n
+(X s Yl B ook )
+n n
+
+1
+converyge., We shall postpone discussing formal ‘
+piroofs of convergence, '
+
+In presefiting further proofs we shall be J
+more tersec. ‘
+
+X
+
+Th 3. ((min)+p = (m+p)+n
+Proof., LJt f(m,n,p) = (p=0 — m4n,T— £(n',n,p”))
+Again f converges for all m,n,p. We have
+(mm)+p = (p=0 — m+n,T — (m+n) ' +p~)
+“(P=0 —> m+n, T — (m'+n)+p~) using Th 2.
+(m+p)+n = (P=0 — m, T — m'+p~) N
+= (p=0 — m+n, T — (m'+p~)+n)
+Each of these forms satisfics the equation for 3
+f(n,n,p).
+Setting m=0 in Th 3 gives |-
+(On)+4+p = (0+p)+n
+so that if we had O+m = m we would have - .
+commutativity of addition,
+In fact, we cannot prove O+m = m withou£4
+making some assumptions that take into account
+
+I
+
+A W N e DN B A TOANS — RO Pl N Nyt NIy J<~1 s
