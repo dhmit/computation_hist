@@ -109,9 +109,9 @@
             </div>
 
             <p class="search-type">
-            <label class="text_label"></label><!-- hack for alignment -->
-            <input type="submit" id="search_submit_button" class="btn btn-primary mr-2" value="Search">
-            <button id="show_advanced_search" class="btn btn-secondary">Show Advanced Search</button>
+                <label class="text_label"></label><!-- hack for alignment -->
+                <input type="submit" id="search_submit_button" class="btn btn-primary mr-2" value="Search">
+                <button id="show_advanced_search" class="btn btn-secondary">Show Advanced Search</button>
             </p>
         </form>
     </div>
@@ -243,5 +243,8 @@
 <script type="module">
     import { start } from "{{ static('js/search.js') }}"
     start();
+    $('#search_submit_button').click(() => {
+        $("#loader").show();
+    });
 </script>
 {% endblock %}
