@@ -5,5 +5,42 @@
 {% block header %}Subroutines{% endblock %}
 
 {% block description %}
-    TODO: fill description
+    <p>In the last example, we wrote a program that computes 2 to the power of x.&nbsp; So what if we wanted to reuse
+        this code in another program that required us to compute powers of 2?&nbsp; We could copy the code into each
+        part of the program that required it, but this would be tedious and cumbersome-- especially working in a time
+        before text editors!&nbsp; This is where the concept of&nbsp;<strong>subroutines</strong> comes in: a piece of
+        code that can be "called" when necessary to perform some smaller task within a larger program. In C we can do
+        something as simple as&nbsp;<code>y = func(x);</code>&nbsp;but in assembly, this is a bit more complicated.&nbsp;&nbsp;
+    </p>
+    <p>In the code, you can see at the top the main body of code that seeks to compute 2<sup>3</sup> + 2<sup>4</sup>.&nbsp;
+        Below that is a modified version of the looping example labeled with <code>POW</code>, and below that some space
+        allocated for constants.&nbsp; We use the accumulator to pass arguments and return, placing our desired exponent
+        into the accumulator and then retrieiving the product from it afterwards.&nbsp; You might think, why don't we
+        just jump to&nbsp;<code>POW</code>?&nbsp; But the problem is that then, after running the subroutine, how we
+        would get back to where we left off.</p>
+    <p>The most important parts of doing this properly are the <code>TSX</code> operations in the main body and the
+        <code>TRA</code> operation in the subroutine. <code>TSX</code> is a special, <strong>nonindexable</strong>
+        operation, which stores the negative of the current instruction location counter into the index register
+        designated by the tag before transferring control to the target address. Why is this useful? Because if any
+        instruction with an <strong>indexable</strong> operation and a tag is performed, the target address of the
+        operation is modified by the index register.&nbsp; Specifically, we subtract the value of the index register
+        from the target address.&nbsp; This is how we can call the subroutine wherever we want: first we run <code>TSX
+            POW, 4</code> to store the negative of the current instruction location counter (<code>-C(ILC)</code>)into
+        index register 4, and then jump to where <code>POW</code> is.&nbsp; Then, after the subroutine is done, we run
+        <code>TRA 1,4</code>, which subtracts the value of index register 4 from 1 as the address to transfer to. But
+        the value of index register 4 was previously set to <code>-C(ILC)</code>, so then the address becomes <code>1-(-C(ILC))
+            = C(ILC) + 1</code>-- the instruction that comes right after <code>TSX POW, 4</code> where we left off.</p>
+    <p>One last detail: You'll notice that in the main body, we run <code>SXD SAVE, 4</code> at the beginning and <code>LXD
+        SAVE, 4</code> at the end.&nbsp; This is because we use index register 4 for calling the subroutine, so if we
+        wanted to preserve index register 4's value for some other purpose later in the program, we need to store it to
+        a register and then load it later.&nbsp; <code>S(tore)XD</code> and <code>L(oad)XD</code> allow us to do exactly
+        that. On the other hand, in the subroutine, we save the value of index register 1 before running through our
+        loop which would modify it, and then reload it before returning to the main program.&nbsp; In actual practice,
+        the user of a subroutine would not necessarily be the person who wrote it.&nbsp; Large libraries of subroutines
+        to compute functions like sin and cosine existed on magnetic tapes to be used in other programs.&nbsp; Thus,
+        because the user of a subroutine would not necessarily know what registers would be modified by the subroutine,
+        it is the responsibility of the subroutine's author to store and restore any modified registers so that the user
+        can simply assume that these registers will not be changed.&nbsp; A similar process is used to call subroutines
+        in the modern&nbsp;<a href="https://riscv.org/wp-content/uploads/2015/01/riscv-calling.pdf">RISC-V calling
+            convention</a>.</p>
 {% endblock %}
