@@ -4,9 +4,6 @@ source /home/ubuntu/venv/bin/activate
 
 echo 'Be sure to run with sudo'
 
-echo '** Pulling latest version'
-git pull
-
 echo '** Installing changed pip packages'
 pip install -q -r /home/ubuntu/computation_hist/requirements.txt
 
