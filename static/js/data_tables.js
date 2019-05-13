@@ -1,9 +1,8 @@
 "use strict";
-/* exported create_datatable */
 
-function create_datatable(list_type, obj_list){
-    // uses datatables.js to display an interactive table of people, organizations,
-    // or folders.
+export function create_datatable(list_type, obj_list) {
+    // uses datatables.js to display an interactive table
+    // of people, organizations, or folders.
 
     const column_defs = {
         'people': [
