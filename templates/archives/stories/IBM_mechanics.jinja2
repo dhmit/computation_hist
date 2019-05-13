@@ -1,0 +1,83 @@
+{% extends 'archives/story.jinja2' %}
+
+{% block story_title %}
+A Brief Journey inside the IBM 704
+{% endblock %}
+
+{% block story_teaser %} 
+Here are between 140-280ish characters that can go on the front page about this story, including these other characters that can go on the front page about this story. Think about the length to twice the length of a tweet.
+{% endblock %}
+
+{% block story_body %}
+    <br>
+    <p>Much of the below information is based on the <a href="http://www.bitsavers.org/pdf/ibm/704/24-6661-2_704_Manual_1955.pdf">IBM 704 Manual of Operations</a> written
+        in 1954. Check it out for a more detailed and complete overview.</p>
+<b>What is the IBM 704 anyways?</b>
+    <p> In the words of the manual, "the IBM 704 Electronic Data-Processing Machine is a large-scale, high-speed
+        electronic calculator controlled by an internally stored program of the single address type." Let's break that down:
+        <br>
+    As depicted in the below photograph, the IBM 704 was clearly large-scale in size, but it was also extensive in its
+        usage. The 704 was designed to solve complex problems in large-scale settings, including science, business, government,
+        and industry. (You sure wouldn't find this computer in anyone's living room!) These complex problems require high-speed
+        computational power and versatility. To achieve both, every function of the machine is controlled by a stored
+        program, which can be built by the customer. On most problems, the IBM 704 could execute 40,000 instructions per second.
+        <br>
+        <br>
+<b>Why is it important to MIT's history?</b>
+        <br>
+        <p>The IBM 704 was not the first computer at MIT; that honor goes to Whirlwind. However, Project Whirlwind was introduced during
+        World War II and thus, primarily used for war-related research. By 1950, Project Whirlwind became well-known and soon
+        MIT administration began considering the introduction of a computer for public use among MIT faculty and staff. The provost
+        created a committee for this issue, and it was chaired by none other than Phillip M. Morse. In a few years, the committee
+        succeeded in establishing a Computation Center in building 26 housing an IBM 704, which Morse recommended and obtained for the Institute.
+        <br>
+        The 704 was MIT's first public computer. Since then, MIT has grown as a digital hotspot and changed communities near and far
+        with the technologies that stemmed from the introduction of the IBM 704. This
+        <a href="https://videogamehistorian.wordpress.com/tag/ibm-704/">article</a> explores how the IBM 704 contributed to
+        the rise of video games within the MIT community.
+        <p>
+<figure class="figure float-right">
+    <img src="{{ static('img/stories/IBM_mechanics_bigger.png') }}"
+         class="class="figure-img img-fluid rounded" 
+         alt="The IBM fills an entire room" />
+    <figcaption class="figure-caption">Image taken from the IBM 704 manual. Copyright 1954, 1955. Copyright renewal not found.</figcaption>
+</figure>
+        <b>How was it better than previous models?</b>
+        Several IBM models before the 704 incorporated a stored program to control the machine's operation. However, the 704
+        introduces high-speed magnetic cores for storage or memory, while previous models used electostatic or cathode ray tubes.
+        Another important advancement is the ability to perform floating-point arithmetic.
+        <br>
+        Visit this <a href="https://www.ibm.com/ibm/history/exhibits/mainframe/mainframe_PP704.html">article</a> on
+        IBM's website to find more information on the 704 data processing system and how it differs from earlier machines.
+        </p>
+    <br>
+
+<b>A High-Level Breakdown of Components:</b>
+    <ul>
+    <li><i>Magnetic Core Storage</i></li>
+        <p>    This is the feature that sets the IBM 704 apart. Individual magnetic cores looked like pinhead-sized doughnuts and
+        were strung together on a complex of wires. The main advantage of this storage over others is the very small time needed
+        to extract information from the cores. This storage is analogous to RAM; information cannot be retained when power
+        is off.</p>
+        <li><i>Magnetic Drum</i></li>
+        <p>    When the magnetic core storage is not enough, the magnetic drums are used to hold and supply large amounts
+        of information for quick access. The 704 had eight drums, each of which could hold 2048 words. Because accessing
+        individual bits of information from the drums was slow, it was more efficient to reserve their usage for large blocks of
+        data. Contrary to magnetic cores, drums retained information when power is off, analogous to ROM storage.</p>
+        <li><i>Magnetic Tape Units</i></li>
+        <p>    Turns out those huge drums often did not provide enough memory, so the ten magnetic tape units
+        provided another place to store programs. Even larger quantities of information (as many as 900,000 words)
+        could be stored in each tape and then could be removed from the machine later. The tapes provided a compact and
+        convenient medium to store programs for future use.</p>
+        <li><i>Card Punch and Card Reader</i></li>
+        <p>But how do you store programs on the magnetic core, drums, or tapes? Well, that's where the punch cards come in!
+        The desired instructions would be key punched on cards using the card punch, and then they would be read into the
+            machine with the card reader. The punch cards are how humans interacted with these giant computers.</p>
+        <li><i>Central Processing Unit</i></li>
+            <p>As with modern computers, this is where the magic happens. The CPU performs all calculations, including
+            addition, multiplication, logical arithmetic, etc. The IBM 704's CPU was special because
+            it could perform floating point arithmetic.</p>
+    </ul>
+    <p>Evidently, storage/memory was a primary concern for early computers. We sure have come a long way since the 1950's! </p>
+{% endblock %}
+
