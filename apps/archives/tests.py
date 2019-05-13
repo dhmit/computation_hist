@@ -21,9 +21,6 @@ class ArchivesTestCase(SeleniumTestCase):
     def test_search(self):
         """ Test that the search bar works correctly"""
         self.driver.get(self.live_server_url)
-        # chromedriver defaults to a collapsed display, hence needing to click the toggler
-        self.driver.find_element_by_class_name('navbar-toggler').click()
-        self.driver.implicitly_wait(5)
         search = self.driver.find_element_by_id('basic_search')
         search.clear()
         search.send_keys('test')
