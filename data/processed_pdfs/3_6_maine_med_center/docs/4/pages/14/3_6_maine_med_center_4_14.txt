@@ -1,0 +1,123 @@
+1038 Annals New York Academy of Sciences
+
+a constant 500-cycle reference voltage E, was applied to the in
+tube in series with the tank voltage E,. The oscilloscope co
+justed so that when E, equalled 0 the spot was centered v
+screen. Depending on the position of the search probe in
+reference electrode in the deep tank, E, was either in phase with E th
+adding to it, or out of phase with E, and subtracting from it. In trh,is wereby
+“plus” or “minus” voltage in the tank would result in an upward or down?’ 3
+deflection of the oscilloscope spot. The switch S2 and the 4.5-v. battery sh 5
+in FIGURE 14b were used to obtain additional DC bias for the oscillosco .
+but should not be needed with most commercial oscilloscopes.
+
+For horizontal positioning of the oscilloscope spot, fine copper wire wa
+wound on an elliptical form having the same eccentricity as the tank cross sec?
+tion. A DC voltage was applied across this ellipse and, as the search probe
+traveled around the tank periphery, a spring contact tapped off a portion of
+this voltage and applied it to the horizontal plates of the oscilloscope. Thus
+as the search probe moved around the tank the oscilloscope spot traveled fron;
+left to right across the screen, and its vertical position was proportional to the
+potential produced by the dipole. To obtain a record, it was necessary to
+keep the camera shutter open for only a single revolution of the probe.
+
+put of the 6]7
+ntrols were ad-
+ertically on the
+relation to the
+
+pe used,
+
+Tank Results
+
+Using this system, the potential around the tank wall was measured at 12
+horizontal levels for each dipole angle in space. This was done for all
+possible spatial-dipole angles at 30° intervals.
+
+The data obtained from the tank can be used in two ways:
+
+(1) Since potentials at all points on the thorax model are available for a
+given dipole orientation, any system of vectorcardiography can be tested. It
+is now generally agreed that the limbs have the same potential as adjoining
+points on the thorax, so systems involving limb leads can be included. In
+addition, points on the thorax not included in one of the 12 levels can be ob-
+tained by interpolation. In this way Einthoven’s triangle and a modification
+thereof have been tested.®
+
+(2) By making similar measurements of the distribution of potential aroupd
+the thorax for human subjects at a fixed instant of time during the cardiac
+cycle, the spatial-dipole angle of the heart vector can be estimated by deter-
+mining which of the model distributions fits most closely. FIGURE 15 shows
+the distribution of potential around the thorax at 7 horizontal levels for a
+normal male subject at the time corresponding to the peak of the R wave In
+lead II. The levels were measured in centimeters above (+) or below (—) the
+center of excitation, which is taken as 5 cm. below the nipple line. The levels
+shown were taken at Z = +20, +16.5, +12, +8.2, +1.8, —352, and —9.2. f
+
+FIGURE 16 shows the tank data for a dipole & angle of —60° and 8 angle 0
+
+—30°. The « angle is defined as the angle between the spatial vector and the
+
+- : Teon’ ion, i t between
+horizontal plane. The B angle, following Wilson’s notation, l-{s-}t{ha;xis e
+
+jecti izont d the
+the projection of the vector on the horlzontz%l plane an . s
+frontal plane. We use the term ar for the Einthoven angle, that1s, the ang
+
+ 
+
+Nelson: Human Thorax Potentials 1039
+
+between the projection of the vector on the frontal plane and the +X axis, in
+order to emphasize the fact that this angle is a “projected” one.® With this
+system the spatial angle of the vector can be visualized easily. The vector is
+assumed to lie parallel to the frontal plane, pointing to the left side of the body,
+and parallel to the horizontal plane, that is, both @ and 8 angles of 0°. Tt is
+then simply rotated through the angle 8 and tipped up or down through the
+angle a. Comparing the distributions of FIGURE 16 with corresponding levels
+in FIGURE 15, it is evident that there is a general agreement between the
+curves. The curves of FIGURE 15 actually lie somewhere between the graphs
+of FIGURE 15 and those in which both « and B angles are —30°. We can there-
+fore conclude that the spatial angle corresponding to FIGURE 15 is approxi-
+mately an o angle of —45° and a 8 angle of —30°. Both a and 8 should be
+correct to within 2210°.  The curves of FIGURE 15 show evidence of the presence
+of local excitation processes, or more than one effective dipole in the heart.
+
+FIGURrE 16 is a typical tank data sheet. The drawings show the projections
+of the vector on the horizontal, frontal, and sagittal planes. With the system
+used, the horizontal-plane projection shows the true angle 3, but the angles in
+the other two projections are not generally equal to a. It has, in fact, been
+shown?®® that
+
+ 
+
+t =
+an ar = — (19)
+
+Other relationships that hold in the system used are:
+
+ 
+
+gt ina (20)
+sin
+A; = A cos a cos B (21)
+A, = A cosasinf (22)
+A; = A sina (23)
+Ay = A=V A2+ A2 = Acosa (24)
+
+A= Ay = \/AZ2 + A2 = AV1 — cos? asin® B (25)
+Ay = A, = /A, + 4.2 = AV/1 — cos? a cos? B (26)
+
+In these equations A is the magnitude of the vector in space, and Ax, 4y,
+and A, are the horizontal, frontal, and sagittal projections, respectively. Itis
+evident that it is necessary to find both « and 8 for a complete determination
+of the heart vector.
+
+FIGURE 17 shows the boundary-potential and potential-gradient curves for
+another subject, also taken at the peak of the R wave in lead II. Comparing
+these curves with the tank charts, it can be determined that the a angle is
+—15° and the 8 angle is 0°. Ficure 18 shows the tank data for « and 8
+angles of 0°. An accurate mathematical treatment of the potential due to a
+source and sink in a finite elliptical cylinder is very difficult. A solution can
+be approached by considering an infinite series of dipole images obtained by

@@ -1,22 +1,50 @@
-MASSACHUSETTS INSTITUTE OF TECHNOLOGY
+January 15, 1957
 
-Memo to
+Dr. R. S. Mulliken
+Department of Physics
 
-If you are interested, you may keep
-the program. Return covering letter
+The University of Chicago
+Chicago 37, Illinois
 
-to P. M. Morse.
-Would Hildebrand be interested?
+Dear Bob:
+In answer to your four questions of January 23
 
-/
+1. There is some spare time right now on Whirlwind but I
+imagine that the demand for time will get greater and greater
+the nearer we approach the middle of June. If tThere is any
+possibllity of your actually using 352 hours or more, you
+should plan to use as much of 1t before March ags you can. In
+fact, we urge you to get started lmmediately.
 
-£e -
-Torreslcr S
+5., ONR is the reason that we are having to charge for Whirl-
+wind time. For several years the Mathematics Division of ONR
+supported Whirlwind directly and we were able to provide
+machine time to users as a result. Last year the other divi-
+sions of ONR decided that they would not cooperate any longer
+with the Mathematics Division and that they preferred to have
+their projects pay for Whirlwind time directly rather than
+indirectly as was done before. Consequently, it is ONR's
+decision that we charge 250 an hour for machine time. The
+other divisions of ONR have agreed to provide the necessary
+funds to the projects on the budgets. Thils 1ls the reason we
+are having to turn Whirlwind back to Lincoln.
 
-T Yoo
+3, It is very clear that there willl be no spare Whirlwlind
+time next year. Lincoln is going to use 1t for a concentrated
+text, which will probably use the full time, and when this
+text is finished the machine probably will be scrapped.
 
-= Faypa - Hl . e o
+4. We can arrange for you to get Whirlwind time on a straight
+purchase order. I am enclosing the necessary forms and
+instructions.
 
-B R
+We hope to hear from you soon concerning your plans.
 
-MURAN BOSTON
+Yours,
+
+PMM s LWH Philip M. Morse
+ce: Dr. Verzuh
+
+Prof. Slater
+
+B Tagdan 9 R RIS sl

@@ -1,0 +1,111 @@
+=x “9 = G62
+
+RUN-TIME CHART
+
+(From Wth Ovarter 1958 to Date)
+
+Date No. Runs Time Calculated
+from Auto. Cperato
+, Runs :
+(minutes)
+
+10/2 3 17
+
+10/3 1 16
+
+10/6 1 Y?
+
+10/7 2 12
+
+10/9 2 5
+
+10/10 2 5
+
+10/11 1 2
+
+10416 1 3
+
+10/17 1 3
+
+10/20 1 2
+
+10/23 1 2
+
+10/24 1 3
+
+10/27 1 5
+
+10/28 1 2
+
+11/3 1 2
+
+11/L 1 2
+
+11/5 1 3
+
+11/6 2 ly
+
+11/7 2 5
+
+11/12 2 in
+
+Totals: 28 115
+
+ 
+
+~ 1'ms Caleulated
+
+from Scheduler
+minutes) .
+
+20.4
+16.2
+18,6
+2746
+3.6
+6e6
+3.0
+
+24h
+13.2
+3¢6
+3.0
+11.4
+10.8
+6.0
+2.1
+Sely
+15.6
+646
+L.8
+_3.0
+18L.2
+
+
+= G2
+
+ 
+
+Note:
+
+(1.)
+
+(3.)
+
+ 
+
+the Time Caleulated from Operator Runs is the time noted ON-LINE
+by the ¥,I,%. Automatic Operator Program.
+er is the time noted on the daily
+
++he Time “alculated from Schedu
+
+   
+
+listings by program number of the time used.
+1 -
+Bel SH - cout
+
+variation =
+
+

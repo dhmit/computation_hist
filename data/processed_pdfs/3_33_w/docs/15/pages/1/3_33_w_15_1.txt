@@ -1,0 +1,31 @@
+MASSACHUSETTS INSTITUTE OF TECHNOLOGY CAMBRIDGE 39, MASSACHUSETTS
+
+26 = LI5S
+March 11, 1958
+
+Professor Philip M, Morse
+6-107
+
+Dear Phil:
+
+- This is to confirm our conversation concern=-
+ing the use of punched paper tape in handling experimental data, and
+the possibility of subsequently using such tape with the 70h. It seems
+clear that paper tape is the cheapest and most convenient way to record
+high-cutput experiments. In fact, the Nuclear Lab already has one such
+arrangement in operation at the linear accelerator. The Cosmic Ray
+Group is now in the process of buying a "Commercial Controls" tape puncher
+to use with its large monitor. As you know, with the help of Dr. E., M.
+Piore we were able to obtain good delivery time on an IBM key punch type
+026 and are now modifying this to accept the output from a data analyzer.
+However, in general this type of application could be handled more con-
+veniently, I am sure, by punched tape. I therefore should like to add
+my voice to those who are recommending that the Computation Center provide
+itself with a facility for handling paper tape,
+
+Robert W, Williams
+
+RWW/an
+
+cc: Dr, Rossi
+Dr, Deutsch

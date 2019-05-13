@@ -1,0 +1,50 @@
+Prof. M, Rubinoff
+
+Moore School of E.E,.
+University of Penna
+Philadelphia 4, Penna, USA
+
+Prof, Leon Iukaszewicz ,
+Instytut Maszyn Matematycznych PAN
+Warsaw, Koszykowa 79, Poland
+
+at the Technical University of Warsaw. My doctor thesis dealt with
+the theory of errors in electronic differential equation analysers.
+In 1954 I was appointed as docent, and in 1962 - as Professor.
+
+I am Director of the Institute of Mathematical Machines of the
+Polish Academy of Sciences since 1957.
+
+I am member of the Polish Mathematical Society and the
+American Association for Computing Machinery. I also am delegate
+of Poland to the International Federation for Information
+Processing IFIP,
+
+In 1949 I started working at the Mathematical Institute.
+My first more important work resulted in the general design
+and supervision of the construction of an electronic analyser.
+for differential equations. The analyser was completed in 1953
+and it had worked till 1960.
+
+-In 1956 I guided a group, the task of which was to construct
+the first Polish electronic digital computer. The computer was
+accomplished in 1958 and named XYZ. On its basis the ZAM-2 computer
+has been build, now being produced in Poland,
+
+In 1956 I organized in the Institute of Mathematical Machines
+of the Pplish Academy of Sciences the first Polish Computation
+and Programming Office, using the XYZ and next the ZAM-2 computer,
+
+In 1958 I initiated and personally conducted work on an
+automatic programming system for XYZ and ZAM-2 computers. This,
+when completed in 1961, got the name "SAKO" and it was such first
+system elaborated in the socialistic countries. The SAKO language
+is in many respects similar to the American FORTRAN-II,
+
+In 1960-62 I personally guided a group designing a semiconducts
+computer for data processing - ZAM-41. Simultaneously I conducted
+a group which elaborated an automatic programming system for ZAM-41,
+The optimum fitting of the machine design for the assumed program-—-
+ming systems was the problem I especially kept busy with.
+
+— S

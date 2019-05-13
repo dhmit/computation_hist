@@ -1,0 +1,418 @@
+—- ov
+
+Name and Address of Institution: Massachusetts Institute of
+Technology, Cambridge 39, Mass.
+
+a ——r i ————————————
+
+and Utilization--investigation into
+the patterns of operation of electronic digital computers and the
+methods whereby they can be used in mathematical and experimental
+research: including studies of numerical analysis and machine pro-
+gramming methods, investigation of the possibllitles of the complete
+mechanization of the sequence of recording, processing, analysis
+and presentation of experimental data and the working out of such
+specific applications of machine techniques to problems in science,
+engineering, and administration as will clarify the basic research
+and suggest new points of view.
+
+Title of Proposed Research: Research on Digital Computer Operation
+
+Desired Starting Date: July 1, 1956
+
+Time Period: Three years, with a reassessment during the fall of
+1959 to determine whether further support is advisable.
+
+Proposed Research; Background Information: We are organizing what
+should be one of the most fruitful centers for research related to
+the use of electronic computers in this country. IBM is contributing
+one of its 704 machinés, maintained and equipped with appropriate
+auxiliary equipment. IBM and MIT are providing the building, part
+of the new Compton Laboratory, and MIT is contributing some of the
+staff from 1ts departments of mathematics, electrical engineering,
+physics, and industrial management. The machine will be available,
+35 or more hours a week, free of machine time charge, to MIT staff
+and students for non-classified and non-routine research. MIT
+research in the Center will be coordinated by the Institute Machine
+Computation Committee (see Appendix A for names).
+
+In addition, the Center will be available, up to 35 hours
+a week, on the same basis, to other colleges in New England. Already
+23 institutions have indicated thelr Interest in participating and
+have appointed faculty members to be thelr Institutional Representa-
+tive (list of participating colleges and representatives given in
+Appendix A). These representatives will coordinate the research
+done on the machine by students and staff of their institution.
+IBM is providing some funds for stipends for graduate students who
+wish to learn machine use by helping with some of this research.
+
+In this atmosphere and with these facilities, there 1s an
+unparalleled opportunity to do important and baslc research in all
+phases of the use of digital computers in science, englneering,
+and business. A central research group, supervised by faculty
+members and staffed by workers picked from the graduate students
+of MIT and other colleges, working closely with persons from the
+other colleges, will help coordinate the work of the Center and
+will carry on research of thelr own in machine logic, in techniques
+of machine computation, and in specific applications of machine
+
+
+ey
+
+operation to experimental and theoretical problems, thus appreciably
+broadening the range of applicability of computers in the physical
+and social Sclences and in engineering.
+
+It is appropriate for government agencies to help support
+the research of this central Ir'ésearch group, The group's work will,
+In part, provide dn expanding basis of knowledge of numerical
+analysis ang Programming techniques, which can be used by the other
+participants at the Center and will, in part, break ground in new
+fields of mathematical logic and methods of data processing which
+Will be needed in the application of digital computers to new tasks.
+
+Most of the Senior staff fop Such a research group is
+already assembled at the Institute, Part of it is the group whieh
+developed Whirlwing I Programming: others are in various departments
+of the Institute, From time to time, some of the staff of the
+Participating colleges would Join it for a Semester or a year, on
+leave from their institution, to work full-time at the Center,
+
+IBM and the Institute will contribute about a half million
+dollars a year to provide the equipment, building, maintenance, and
+operating staff of the Center. Ve believe that a contribution of
+about 100,000 a year will support the activities of the central
+résearch group, which Will energize and take the lead in the re-
+Search carried on at the Computation Center by Students and staff
+of MIT and the participating colleges. Ve ligt later in this
+Proposal some of the 8pecific research Projects we are preparad to
+start on. Other Projects will develop naturally from these ang
+from the problems encountered by the other workers at the Computation
+Center.
+
+The project would not start at full 8trength. The 7014 will
+not be installed until January or February 1957, though analytic
+Work can be started before the machine is installed, The present
+Whirlwind computing research group can be Supported by the present
+ONR contract until December 1956, but a few new staff members must
+be brought in in September in order to get ready for the new machine
+installation. We estimate that a totaj budget of £60,000 would
+Suffice for the next academic year, 290,000 for 1957-58 and £100,000
+for 1958-59. Details are glven later in this Proposal. At the
+beginning of 1959 the Program should be re-evaluated to determine
+needs beyond that time.
+
+After conversations with the scientific directors and
+division chiefs of ONR and NSF, we are requesting financial Support i
+from both dgeticles, an equal Share from each, We believe the work |
+can be divided so “hat “eharate contracts ean be written. Some of
+the proposed taske would be Alfferent, though some of the broader
+Yields of Investig ticn oulg overlap. We would hope that we could
+
+[=
+
+
+=H
+
+put out a combined progress report. In some published papers,
+credit could be given to one organization alone; in others, credit
+would go to both. Bookkeeping would be somewhat more complicated,
+but since most of the expense would be for salaries, little for
+permanent equipment, this could be done. It probably would be
+necessary to have the usual government overhead for both contracts.
+
+The proposed budget asked of each agency for 1956-57 is
+given below. The corresponding amounts for the following two years
+would be gi5,000 for 1957-58 and $50,000 for 1058-59, as indicated
+above,
+
+Proposed Research; Possible Initial Directions of Investigation:
+
+1. Investigation of Structure and Syntax of input
+languages; the possibilities of coding directly in mathematical,
+logical or business language.
+
+2. Development of routines capable of translating from
+algebraic notation to computer code and vice versa, including
+possibly automatic selection of numerical techniques and automatic
+error analysis. :
+
+3, Development of numerical analytic techniques particu-
+larly suitable for use by digital computers; such as more general
+expansions, truncated Chebyshev polynomlals sums for simulating
+standard functions by a common block of instructions but small
+separate blocks of coefficients and cycle counters and methods of
+automatic determination of best grid spacing, by trial plus
+Richardson extrapolation or other means,
+
+i, Investigation of Monte Carlo techniques for large
+problems. |
+
+5. Extension and/or improvement of present techniques
+for communication between machine and operator and for the more
+flexible control of machine operation, including possible lmprove-
+ments in input-output equipment.
+
+
+6.
+
+lf -
+
+Investigation of new techniques and applications of
+
+linear programming, including procedures analogous to the methods
+of steepest descent developed by Hestenes and Stiefel for the
+solution of linear equations.
+
+7
+(a)
+
+(b)
+
+(e)
+
+(a)
+
+Computations of interest in pure mathematics:
+
+Character table of selected characters of the
+symmetric group.
+
+Checking congruences of interest in algebraic
+number theory. 5
+
+Further extension of factor tables and prime
+number lists past 1012 via the sieve of Erastosthenes
+utilizing, say, Corbato's new factoring program.
+
+Coding of Tarski's declsion method for elementary
+algebra and geometry. Tarski has shown that ele-
+mentary algebra and geometry can be decided by a
+computer. To implement this would be a task of
+considerable magnitude, but it would illustrate the
+logical capabilities of a computer to a degree not
+heretofore done.
+
+8. Techniques for achieving fully automatic computer
+operation and logging. These will be investigated as an integral
+part of the computing system.
+
+
+=H
+
+Facilities: The MIT Computation Center will have a Type TOW
+Electronic Data Processing Machine with the following machine
+complement: 12 magnetic tape units, 2 magnetic CORE storage unlts
+containing a total of 8,000 words, 1 magnetic drum unit containing
+4,000 words of storage, the usual on-line punched card reader,
+alphabetic printer, and punched card recorder as well as the 3
+off-line magnetic tape controlled printer, magnetic tape controlled
+card punch, and punched card-to-magnetic tape converter, respectively.
+In addition to the 704, there will be 10 auxiliary punched card
+machines including card punches, collators, sorters, reproducers,
+interpreters, and the Type 407 Accounting Machine. The aggregate
+Bacins rental, in excess of 250,000 per month, will be donated by
+
+ 
+
+ 
+
+" The Type 70% EDPM unit is one of the fastest large-scale
+commercial computers available today. Since the MIT installation
+will be but one of many in the field, techniques, programs, and =
+numerical procedures developed for this machine will be of use to
+others having access to 704 equipment.
+
+Personnel: Supervisory and Administrative Personnel Associated with
+he Project
+
+Principal Investigator to be Professor Philip M. Morse,
+Director of the Computation Center. He has been in contact with
+computing problems during his career in theoretical physics since
+1930, and with the use of computing equipment since the first Bush
+differential analyzer was available at MIT in 1936. He got his
+Ph.D. in physics at Princeton in 1929 and has been at MIT since
+1931, with occasional leaves of absence. His publications include
+the books "Quantum Mechanics" (with E. U. Condon) 1930, "Vibration
+and Sound" 1936, "Methods of Operations Research" (with G. E. Kimball)
+1950, and "Methods of Theoretical Physics” (with Herman Feshbach)
+1953, and about 2a hundred journal articles, many of which glve re-
+sults obtained from machine computation. For further bilographilc
+details, see "Who's Who." Only a fraction of his salary will be
+charged to the Project.
+
+ 
+
+Professor F. B. Hildebrand has been teaching and conducting
+research in numerical analysis in the Mathematics Department at MIT
+since 1938. He got his Ph.D. in Mathematics from MIT in 1G40. He
+18 the author of three texts: "Advanced Calculus for Engineers”
+(1949), "Methods of Applied Mathematics" (1952) and "Introduction
+to Numerical Analysis" (1956) as well as a number of articles in
+various research journals. Only a fraction of his salary will be
+charged to the Project.
+
+Dean N. Arden, who has been a member of the Whirlwind
+Programming Research Group for three years, has been head of the
+group since July 1955 and who will head Ghe programming research
+
+
+Oa
+
+group in the new Computation Center. He obtained his B.S. in
+Electrical Engineering at Michigan, spent four
+work in Mathematics at Purdue and is
+
+and with Whirlwind I. His Salary will
+
+connected with the Operation of MIT computational work since 1840,
+In this capaclty he has hag considerable experience with the
+utilization of various analogue Computing equipment--differentiaj
+analyzers, etec., as well a8 a complete line of digital machines
+
+Denver in 1940, a M.S. degree in Electrical Engineering from MIT
+in 1946, and a Sc.D, degree in Electrical Engineering from MIT in
+1952. None of his Salary will be charged to the Project.
+
+In addition, the members of the MIT Machine Computation
+Committee and of the Computation Center's Advisory Committee on
+the cooperative program of the Center (see Appendix A) will be
+available for advice and cooperation. From time to time, 1f one
+
+of them can supervise a part of the Project, part of his salary may
+be charged to the Project.
+
+ 
+
+ 
+
+Full-Time Members of the Pro ject
+
+These will Include some former members of the Whirlwind
+programming research group, such as Frank Helwlg and Sheldon Best,
+and others. Some of the best of the IBM research assistants at the
+Center will be taken on the Project, for appropriate periods, at
+
+full time, after they have finished their graduate work and relinquished
+their assistantships,
+
+
+“7 -
+
+Budget for 1956-1957
+
+(ONR and nNgp combined, 1/2 to pe charged to each)
+
+Salaries
+
+Fractions of Salaries of Senior Scientists
+
+Pri
+
+neipal Investigator (8 per cent or
+$12,500)
+
+Other Faculty Members
+(1/3 of $9,000 and 1/3 of 27,500)
+
+3
+Salaries of Full-time Starr
+5 Senior Investigators (at 87,500)
+Junior Investigators (at 26,000)
+
+ecretary~Typist (at $3,000)
+
+2
+
+—
+
+S
+
+n (computer, programmer )
+
+-~
+LA
+
+Total Salary
+Overhead (see note at end of budget)
+Permanent Equipment
+
+(desk computers
+ete.)
+
+>» Special input equipment,
+Expendable Equipment
+
+Travel
+
+Publication Costs
+
+Total Yearly Budget
+See note on next pag
+
+3 2,000
+
+5,500
+
+22,500
+12,000
+3,000
+5,000
+$50,000
+20,000
+
+6,000
+1,000
+2,000
+
+_1,000
+
+$80,000
+e)
+
+
+
+
+
+APPENDIX A
+
+MEMBERSHIP OF M.XI.T. MACHINE COMPUTATION COMMITTEE
+Prof. Philip M. Morse, Chairman
+
+Physics
+Prof. Samuel H. Caldwell Electrical Engineering
+Prof. Herman Feshbach Physics 0
+Dr. Jay W. Forrester Electrical Engineering ;
+Prof. Francis B. Hildebrand Mathematics
+Prof. Chia-Chiao Lin Mathematics
+
+Prof. James B, Reswick Mechanical Engineering
+
+PARTICIPATING UNIVERSITIES AND INSTITUTE REPRESENTATIVES
+
+Bates College, Prof. Karl S. Woodcock, Head, Department of Physics
+Bennington College, President Frederick Burkhardt
+Boston College, Rev. William G. Guindon, Head, Department of Physics
+Boston University, Dean Duncan E. Macdonald, Graduate School
+Bowdoin College, Prof. Reinhard L. Korgen, Dept. of Mathematics
+Brandeis University, Prof. David Falkoff, Dept. of Physics
+Brown University, Prof. William Prager, Chairman, Physical Sciences Coun,
+Dartmouth College, Prof. John McCarthy, Dept. of Math. and Astronomy
+Harvard University, Prof. Guy H. Orcutt, Dept. of Economics
+Middlebury College, Dean John G. Bowker, Prof. of Mathematics
+Northeastern University, Prof. Martin W, Essigmann, Head, Dept. of E.E.
+Tufts University, Dean Leonard C. Mead, Graduate School
+Unlv. of Connecticut, Prof. Ralph J. Kochenberger, Dept. of Engineering
+Unive. of Maine, Dean Ashley S. Campbell, College of Technology
+Univ. of Mass., Prof. John H. Karlson, Dept. of Elec. Eng.
+Univ. of N. H., Prof. Robert B. Davis, Dept. of Mathematics
+
+2 Ri: JI. effet TET eyer, eT rn es pr TT -
+a 2 vermont, Prof. Ivan R. Hershner, Chalrman, Dept. of Math.
+Wellesley College, Prof. Janet Guernsey, Dept. of Physics
+Wesleyan University, Prof. Hing Tong, Dept. of Mathematics
+Williams College, Prof. Donald E. Richmond, Chairman, Dept. of Math.
+Worcester Polytechnic Inst., Prof. Richard N. Cobb, Dept. of Math.
+Yale University, Prof. A. J. J. van Woerkum, Dept. of Astronomy
+
+

@@ -1,0 +1,33 @@
+P .
+
+   
+
+{Many coulerees fali that such an inter-departmental advisory committee is always
+
+a desideratam.} Ia general it was agreed that clasercom use of the machine should have
+firat priority {within certain limits, of course) and that priorities on research time
+should not favor the paylng users, if there are any.
+
+it alse wos generally agreed that university computing centers should run, 28
+far as possible, on an "open-shop" basis, i.e., that the users should program and code
+their own problems and, as far as in appropriate with the equipment, should participate
+in running the problem on the machine. The task of the center stafl, therefore, should
+not be to encode problems for machine users, but should be to instruct in coding and
+advise on programming, to maintain a lbrary of standard programs and sub-routines
+and te develop machine and programming techaigues which will make the computer
+more effective and easier to use., In exchange for their use of the machine, the users
+should be expected to document the new programs which they have developed, eo they
+can be incorperated into the program library, being lested and re-written by the ceanter
+staff, it important enough. It should be smphasized that this tagk of instructing,
+advising, improving utility of the machine and keeping the program library up~to-date,
+requires staff time of senior academic calibre, as well as machine time.
+
+G. Instruction and Research - Nearly 90 percent of the directors atitending the
+conference had academic tenure. This is appropriate, for much of the task of the
+computing ceater in 2 university is related to instruction, either in teaching new users
+the elements of coding, or ia advising how to program difficult problems or in teaching
+or helping to teach courses related to computer science. The elements of coding are
+now simple enough so that an under-graduate, with little more than high-school mathe-
+matics can begin to use a particular machine after a few hours of instruction (after which
+
+he continues to learn additionz] instruction and practice, of course.) Many ceanters give

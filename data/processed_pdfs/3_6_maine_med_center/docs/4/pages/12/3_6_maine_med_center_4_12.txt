@@ -1,0 +1,122 @@
+1034 Annals New York Academy of Sciences
+and sink located anywhere inside the ellipse is given by:
+
+= cosh (o + #”) — cos (v + 'v”)_]
+o= 0 cosh (#g + #’) — cos (v + v') |
+
+[cosh (wo — 4”) — cos (v — 'L’”):'
+
+cosh (o — u’) — cos (v — ?')
+
+" > ” (12)
+[cosh (Buo — ) — cos (v + 2")
+cosh (3uy — u') — cos (v +2)
+
+cosh (3us + #') — cos (v — ')
+
+[M + %") — cos (v — v”)]
+
+where
+
+Vs = potential at a point on the boundary of the ellipse.
+I e : :
+
+A = %i’ and p = resistivity of the internal medium.
+™
+
+uy, v = elliptical coordinates of a point on the boundary.
+
+u', v = elliptical coordinates of the source.
+
+u”, v" = elliptical coordinates of the sink.
+
+The elliptical coordinates of a point can be found from?!
+
+ 
+
+ 
+
+7 + 79
+hu = :
+cosh u 3C (13)
+7 V7S
+COS U = — ~ (14)
+
+where 7; and 7, are the distances from the foci of the ellipse to the point in
+question, and 2C is the distance hetween the foci. In FIGURE 2 the circles
+represent values of potential measured around the boundary of the thorax
+section fora B angle of 0°, and the crosses are values calculated from EQUATION
+12. For values of 8 equal to 30°, 60°, and 90° the agreement was not quite
+as good as this, but it was still within 10 per cent. The shapes of the measured
+and calculated curves agreed very closely, but the curves were shifted relative
+to each other. This may signify that the reference electrode was not exactly
+at zero potential. The field due to any number of sources and sinks can be
+obtained from EQUATION 12 by superposition.
+
+The equation for the potential at any point inside the ellipse due to a source
+and sink at any two points is more complicated than EQuaTION 12, but is still
+expressed in finite form. Thus the potential due to a source alone is given by
+
+V.= —4 In [cosh (u + #') — cos (v + v')] [cosh (¥ — %) — cos (v — v')]
+2
+
+[cosh (2ug — u + u’) — cos (v + v')] [cosh (2uo — u — u’) — cos (v — )]
+[cosh (2uy + u — u’) — cos (v + v')] [cosh (2uo + u + u’) — cos (v — )]
+[cosh (4uy — u — ') — cos (v + v')] [cosh (4uo — u + u') — cos (v — v')]
+
+(15)
+
+ 
+
+Nelson: Human Thorax Potentials 1035
+
+In this equation, # and v are the coordinates of the point for which the potential
+is required. A similar expression holds for the sink, using #”, and v” instead
+of #' and 7.
+
+To illustrate the use of EQuATION 12 and the method of finding % and v, the
+potential expression is derived for the conditions of FIGURE 1. To ﬁnd’ the
+value of u, , any point on the boundary can be used. Taking the point x =
++A4 = 16.5 and using EQUATION 13,
+
+26 + 7
+h = eee— =
+cosh g T 1.74
+%o = 1.15
+
+Since from the definition of an ellipse, 7, + 7, = constant, the same value of
+uo would be obtained for any other point on the boundary. For the source,
+
+h# = =
+cosh % 0 1.185
+' = 0.60
+and from EQuATION 14
+e
+oSy — ST 0.174
+v = —80°
+
+The minus sign for v* is explained by the fact that the range of v is approxi-
+mately the same as the corresponding polar angle. Thus in FIGURE 1, v has a
+value between 0° and 90° in the first quadrant of the x, y plane, between 90°
+and 180° in the second quadrant,etc. Since the source is in the fourth quad-
+rant, it must lie in the range of 0° to —90°. For the sink,
+
+u” = 0.60
+v = —100° = —(r + ?)
+Substituting the values in EQuaTION 12, with 4 = 1.0,
+Vit [2.96 + cos (v + 80°):| [1.16 + cos (v — 80°)]
+2.96 — cos (» — 80°) 1.16 — cos (v + 80°)
+867 + cos (v + 80°)] [28.7 + cos (v — 80°):|
+8.67 — cos (v — 80°) 28.7 — cos (v + 80°)
+
+To find V, for any point, v is found from EQUATION 14 and used in EQUATION
+16. Thus, forx = +A4,v = 0°. Then V, = In 1.59 = 0.46 v. The meas-
+ured value of potential at this point is 0.47 v.
+
+Two other equations that are useful in converting between elliptical and
+rectangular coordinates are
+
+(16)
+
+x = C cosh % cos v (17)
+y = C sinh % sin v (18)

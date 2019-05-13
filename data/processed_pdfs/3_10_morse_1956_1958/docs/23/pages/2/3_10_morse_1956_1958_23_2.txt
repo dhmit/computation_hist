@@ -1,0 +1,62 @@
+8.
+
+DL
+
+Learn how to use effectively the 704 computer.
+Acquire a general knowledge of numerical analysis.
+Attend the weekly seminar as frequently as possible.
+(First meeting: Tuesday, September 25, 3:00 p.m.,
+Room 2-239, M.I.T.)
+
+Get acquainted with the staff members of the Computa-
+tion Center and the other assistants and associates.
+Work on projects which will be periodically assigned
+by the Center. These projects may range over as
+varied a 1list as: writing subroutines, technical
+writing for Computation Center reports, assisting
+numerical analysis courses (on-campus assistants),
+giving seminars on computers at your respective
+schools (off-campus assistants), and assisting in
+the operation of the Center.
+
+Submlt a "progress report" at the end of each M.I.T.
+semester (deadlines will be announced later). These
+reports may be brief but should describe the status
+of your work at the Center. Each report should have
+a short abstract summarizing the contents of the re-
+port. R The reports may contain all or part of the
+write-up for "thesis reps:ts.™ If more than one
+problem has been wrked on, separate reports should
+be submitted. Finally it should be emphasized that
+these reports are to be written at the level of an
+expert in your professional speclalty and not for a
+"common denominator" of the Computation Center.
+
+The individual reports of the assistants and associ-
+ates will be edited and published a month or two
+after they are submitted. These printed progress
+reports will be distributed to scientific centers
+about the country.
+
+Give references (for inclusion in the next printed
+progress report) of your publications concerning
+problems which were done, in part or wholly, at the
+Computation Center. These references may be sub-
+mitted at any time and should include f'or complete-
+ness publicatlons which arise after an assiztantohio
+may have ended. This would apply especially to
+theses and subsequent Journal articles.
+
+Keep the Center and your institutional represcenta-
+tive informed of your current address and telephone
+number,
+
+Without the 704 machine available {(expected arrival at
+the end of February 1957), your immediate plans should be primarily
+concerned with study of the 704 and getting acquainted with the
+
+staff members.
+
+For the purpose of 704 study, a set of notes were
+
+issued to all attending the 704 programming course at M.I.T.

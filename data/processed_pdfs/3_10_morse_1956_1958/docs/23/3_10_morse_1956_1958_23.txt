@@ -1,0 +1,177 @@
+September 17, 1956
+Memo to: I.B.M. Research Assistants and Associates
+
+Discussions with the assistants and associates attending
+the 704 programming course indicate that there is some uncertainty
+concerning the duties and opportunities involved in the assistant-
+ship program you have now joined. With assistance from Professor
+Hildebrand of the M.I.T. Mathematics Department, I will be your
+advisor and supervisor at the Computation Center; at your respec-
+tive schools your institutional representative will perform a
+similar role. While we can help you get started, and can suggest
+some things to be done, it will be up to you to make the most of
+the opportunities offered by the Computation Center.
+
+The approximate time which you will be expected to spend
+on the program is at the rate of 36 hours per week for a full-time
+assistantship. Although fluctuations are reasonable, some schedule
+of systematic use of your time should be maintained. In particu-
+lar, some of your time should be spent at the Computation Center.
+Those off-campus should spend a complete day every few weeks rather
+than waste time with excessive traveling. Initially this time at
+the Center will be mainly for guidance; ultimately you will have
+to adjust these visits to match the work you will be doing at the
+Center.
+
+The purpose of the I.B.M. assistantship program is to
+give the opportunity of learning modern computing techniques in
+both a broad and detailed sense. In other words, you should
+attempt to acquire a general background in digital computers and
+perspective of the problems which lend themselves to computation.
+In particular this should range from a knowledge of numerical
+analysis and the theory of programming to an ability to code in
+detail explicit problems for the 704 computer. In short, the
+objective 18 to become a computer expert and thus complement your
+already chosen professional specialty. A long-range objective is
+to spread and encourage interest in digital computers in your re-
+spective schools and departments. As a short-range objective,
+though, you should be concerned with exploring past and future
+computer applications within your professional specialty. This
+should lead to research projects of your own which should have the
+approval of your thesis advisor and/or department and of your
+institutional representative. Furthermore, it should be clear that
+you are expected to give freely of advice and discussion to persons
+at your college interested in computing; you are not expected to
+become an errand boy for your respective schools or department
+although your institutional representative may assign you various
+service projects.
+
+The detalled duties of the ascistantship program may be
+summarized in the following list:
+
+
+8.
+
+ee
+
+Learn how to use effectively the 704 computer.
+Acquire a general knowledge of numerical analysis.
+Attend the weekly seminar as frequently as possible.
+(First meeting: Tuesday, September 25, 3:00 p.m.,
+Room 2-239, M.I.T.)
+
+Get acquainted with the staff members of the Computa-
+tion Center and the other assistants and associates.
+Work on projects which will be periodically assigned
+by the Center. These projects way range over as
+varied a list as: writing subroutines, technical
+writing for Computation Center reports, assisting
+numerical analysis courses (on-campus assistants),
+giving seminars on computers at your respective
+schools (off-campus assistants), and assisting in
+the operation of the Center.
+
+Submlt a "progress report" at the end of each M.I.T.
+semester (deadlines will be announced later). These
+reports may be brief but should describe the status
+of your work at the Center. Each report should have
+a short abstract summarizing the contents of the re-
+port. The reports may contain all or part of the
+write-up for "thesis reports." If more than one
+problem has been wrked on, separate reports should
+be submitted. Finally it should be emphasized that
+these reports are to be written at the level of an
+expert in your professional speclalty and not for a
+"common denominator" of the Computation Center.
+
+The individual reports of the assistants and associ-
+ates will be edited and published a month or two
+after they are submitted. These printed progress
+reports will be distributed to scientific centers
+about the country.
+
+Give references (for inclusion in the next printed
+progress report) of your publications concerning
+problems which were done, in part or wholly, at the
+Computation Center. These references may be sub-
+mitted at any time and should include for complete-
+ness publications which arise after an assiztantohio
+may have ended. This would apply especially to
+theses and subsequent Journal articles.
+
+Keep the Center and your institutional representa-
+tive informed of your current address and telephone
+number.
+
+Without the 70% machine available (expected arrival at
+the end of February 1957), your immediate plans should be primarily
+concerned with study of the 704 and getting acquainted with the
+
+staff members.
+
+For the purpose of 704 study, a set of notes were
+
+issued to all attending the 704 programming course at M.I.T.
+
+
+(Additional copies are available for assistants and assoclates who
+were unable to attend the course.) Particular attention should be
+paid to the distinction between the computer proper, the SHARE
+compiler (SAP), and FORTRAN. In addition the value of working out
+the programming exercises should be emphasized.
+
+As further exercises, it is suggested that closed sub-
+routines be written for generating
+
+x and eX. The variable x, which
+1s specified on entry into the subroutines, may be considered a
+normalized floating point number of either single or double regis-
+ter precision. In elther case use the following numerical tech-
+niques. For the square root subroutine, Newton's method should be
+employed. You should verify that this reduces to the iterative
+
+formula:
+(V3), = Ho + 07%),
+
+Give alarms (i.e., stop the computer) if x is negative or un-
+normalized. For the exponential subroutine, a number y should be
+found such that 0 y<1, and
+
+(e¥Y) = e*. Compute the exponential
+of y by the power series expansion and then raise to the n th
+power. Give alarms if x is unnormalized or if e overflows or
+underflows the floating point range. In writing all subroutines,
+use the conventions of the SHARE compiler. Finally, make estimates
+of the accuracy and operating times of these subroutines.
+
+The current headquarters of the Computation Center are
+at the M.I.T. Digital Computer Laboratory located in the Barta
+Building at 211 Massachusetts Avenue, Cambridge 39, Mass. I will
+have an office at this address and can always be contacted through
+either of two secretaries there, Miss Mary Reilly (Telephone exten-
+sion 3764) and Miss Georgia Negis{rsiaphons extension 3762). The
+M.I.T. telephone number is UNiversity 44-6900.
+
+Due to the presence of classified work (Project Lincoln)
+in a portion of the Barta Building, there is a securlty guard at
+the door. All persons entering and leaving the building have to
+8ign in-and-out and have an identification badge. On your first
+visit to the Center, ask at the desk for Mary Rellly or Georgia
+Nagle, who wlll see that you are issued an identiflcation badge.
+
+In general it will not be necessary to inform the Center
+in advance of your visits. However, if you wish to see a particu-
+lar staff member, then an appointment should be made. In addition,
+you should inform me of your first visit so that I will be sure to
+be available. This first visit should be at your earliest convenience
+after the beginning of your fall semester.
+
+ole Corbato
+
+Research Associate
+
+ 
+
+FT un JN pm A a RE a i — ——777
+
+

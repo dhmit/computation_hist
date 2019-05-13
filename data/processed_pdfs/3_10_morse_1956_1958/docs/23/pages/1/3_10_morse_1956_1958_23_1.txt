@@ -1,0 +1,50 @@
+September 17, 1956
+Memo to: I.B.M. Research Assistants snd Associates
+
+Discussions with the assistants and associates attending
+the 704 programming course indicate that there is some uncertainty
+concerning the duties and opportunities involved in the assistant-
+ship program you have now joined. With assistance from Professor
+Hildebrand of the M.I.T. Mathematics Department, I will be your
+advisor and supervisor at the Computation Center; at your respec-
+tive schools your institutional representative will perform a
+similar role. While we can help you get started, and can suggest
+some things to be done, it will be up to you to make the most of
+the opportunities offered by the Computation Center.
+
+The approximate time which you will be expected to spend
+on the program is at the rate of 36 hours per week for a full-time
+assistantship. Although fluctuations are reasonable, some s8chedule
+of systematic use of your time should be maintained. In particu-
+lar, some of your time should be spent at the Computation Center.
+Those off-campus should spend a complete day every few weeks rather
+than waste time with excessilve traveling. Initlally this time at
+the Center will be mainly for guidance; ultimately you will have
+to ad just these visits to match the work you will be doing at the
+Center. A
+
+The purpose of the I.B.M. assistantship program is to
+give the opportunity of learning modern computing techniques in
+both a broad and detailed sense. In other words, you should
+attempt to acquire a general background in digital computers and
+perspective of the problems which lend themselves to computation.
+In particular this should range from a knowledge of numerical
+analysis and the theory of programming to an ability to code in
+detail explicit problems for the 704 computer. In short, the
+objective 18 to become a computer expert and thus complement your
+already chosen professional specialty. A long-range objective is
+to spread and encourage interest in digital computers in yocur re-
+spective schools and departments. As a short-range obJective,
+though, you should be concerned with exploring past and future
+computer applications within your professional speclalty. This
+should lead to research projects of your own which should have the
+approval of your thesis advisor and/or department and of your
+institutional representative. Furthermore, it should be clear that
+you are expected to give freely of advice and discussion to persons
+at your college interested in computing; you are not expecfed to
+become an errand boy for your respective schools or department
+although your institutional representative may assign you various
+service projects. '
+
+The detalled duties of the ascistantship program may be
+summarized in the following list:

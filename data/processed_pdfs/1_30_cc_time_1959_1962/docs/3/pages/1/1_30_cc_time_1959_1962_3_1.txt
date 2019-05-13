@@ -1,0 +1,37 @@
+COMPUTATION CENTER (D
+Massachusetts Institute of Technology
+Cambridge 32, Massachusetis
+
+ 
+
+Dear Sir,
+
+Enclosed is the summary of computer ussge at the Ceanter for
+your depertment for the month of January. It should be noted < Sl
+~that this report covers only the brief pericd January 22 to
+January 31 since the Center did not start recording oporations
+with the 7090 until January 22, 1862.
+
+Because the Center's new cosputer the 7890 is, on typical
+problems, three times faster than the 709, the last figure reported
+for cack problea "Total 7090 Use” includes only the time for this
+period. It is felt that combining 709 time and 7080 time would
+produce a meaningleas figure.
+
+Except for these differences the form of the report is
+similar to those you hed received earlier. Any suggestions or
+comments you have concerning this report will be welcomed by
+either Mr, Steinberg, the Operations Kanager or myself.
+
+As additional information we are also enclosing & copy of
+Computation Center Bulletin No. 20 which presents & precise
+description of the Center's operating policies for the 7090.
+
+Sincerely,
+
+| 1) 64
+
+F. 9. corbatd
+Associate Director
+FJC:ets
+Enc,

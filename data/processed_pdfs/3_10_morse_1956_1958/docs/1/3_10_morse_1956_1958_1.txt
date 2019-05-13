@@ -1,52 +1,34 @@
-DATE:
+pi
++A
+MASSACHUSETTS INSTITUTE OF TECHNOLOGY 10 J
 
-MEMORANDUM
-Professor P. M., Morse
-F, 8, Verzuh
+DEPARTMENT OF PHYSICS
+CAMBRIDGE 39, MASSACHUSETTS
 
-January 9, 1956
+July 22, 1957
 
-SUBJECT: "Purchased" Time on the WWl Computer during the six-month
+Professor P. M. Morse
+Room 6-109
+M. I. T.
 
-period July 1 - December 31, 1955.
+Dear Phil:
 
-a — ————————————— ———— a eee Ne eg rete A EPS At
+Perhaps you remember that on June 3, 1957, I called you re-
+garding Dr. George Karreman, of the Institute of Muscle Research,
+Marine Biological Laboratory, Woods Hole, Massachusetts. Dr. Karreman
+was visiting me, and telling me about the molecular orbital calculations
+which he is carrying out, and for which he needs computing facilities. As
+I told you, these calculations seem to me to be the sort which our goup is
+interested in, and I should welcome seeing them carried on on the 704.
+As I understand it, the arrangement by which New England universities
+can make use of the 704 would not apply to Dr. Karreman, since his Institute
+is not a university. However, it is a non-profitmaking research institute,
+and it seems to me that it would be suitable, if it could be worked out, for
+him to have the privilege of making use of 704 time. _
 
-In accordance with our discussions regarding ways and means
-for financing the M.I.T. Computation Center involving the
-704 operation, I have prepared a four-page summary of "purchased"
-time on the WW1 Computer broken down on a project basis.
+ 
 
-It should be mentioned that the charge for the use of this
-computer falls into a number of categories:
-
-i. Guaranteed time charged at an equivalent rate of
-$3.205/hour of WW1 time.
-
-2. Regular charge at a rate of $4.167/hour of WW1l time.
-
-Tom Crane, Research Fiscal Officer, and I will meet to discuss
-a possible revision of the current billing procedure.
-
-During this six-month pericd the "purchased time" usage of
-WW1i breaks down as follows:
-
-Aero-elastic Allocation Account 1028.1 § 3,295.05
-Servomechanisms Account 1065.2 3,413.96
-Civil Engineering 480.0 1,538.40
-Instrumentation Allocation Account 1500.0 4,807.50
-Keteorology Department 843.0 2,701.82
-Geology Department 833.1 2,670.08
-Buerger 287 .4 921.13
-Research Laboratory of Electronics 1080.0 4,500.37
-Misc. non-guaranteed billings 1209.3 2,039.19
-
-GRAND TOTAL 8326.1 $28,887.50
-
-The attached four-page summary provides a detailed bregkdown
-of the individual projects and sponsors involved. I think it is a
-simple matter to be able to determine which laboratory should
-contribute how much for the 704 operation. I om looking forward to
-discussing this matter at our next meeting on Tuesday, February 14.
+JCS: sl
+cc: Dr. George Karreman
 
 

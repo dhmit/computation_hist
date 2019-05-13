@@ -1,0 +1,67 @@
+o
+
+v/‘ffléfoDro Ieon LUkaSZGWicz
+
+¥
+i
+
+Brief scientific biography
+g of/ |
+Problems which I am most interested in are first all connected
+with electronic computer programming and designing. Lately I took
+
+interest in problems of computer application to business data
+processing. ‘
+
+1 was born in Warsaw, 1923. In 1948 I graduated from the
+Gdansk /Dantzig/ Technical University, Department of Electronics.
+While studying I was appointed as assistant in mathematics at the
+above University. In 1950 I graduated from the Warsaw University,
+Department of Mathematics. In 1952 I obtained the Doctor degree
+at the Technical University of Warsaw. My doctor thesis dealt with
+the theory of errors in electronic differential equation analysers.
+In 1954 I was appointed as docent, and in 1962 - as Professor.
+
+I am Director of the Institute of Mathematical Machines of the
+Polish Academy of Sciences since 1957.
+
+1 am member of the Polish Mathematical Society and the
+American Association for Computing Machinery. I also am delegate
+of Poland to the International Federation for Information
+Processing IFIP,
+
+In 1949 I started working at the Mathematical Institute.
+My first more importent work resulted in the general design
+and supervision of the construction of an electronic analyser.
+for differential equations. The analyser was completed in 1953
+and it had worked till 1960.
+
+In 1956 I guided a group, the task of which was to construct
+the first Polish electronic digital computer. The computer was
+accomplished in 1958 and named XYZ., On its basis the ZAM-2 computer
+has been build, now being produced in Poland,
+
+In 1956 I organized in the Institute of Mathematical Machines
+of the Pplish Academy of Sciences the first Polish Computation
+and Programming Office, using the XYZ and next the ZAM-2 computer.
+
+ 
+
+In 1958 T initiated and personally conducted work on an
+automatic programming system for XYZ and ZAM-2 computers. This,
+when completed in 1961, got the name "SAKO" and it was such first
+system elaborated in the socialistic countries. The SAKO language
+1s in many respects similar to the American FORTRAN-II.
+
+ 
+
+In 1960-62 I personally guided a group designing a semiconductsr
+computer for data processing - ZAM-41. Simultaneously I conducted |
+a group which elaborated an automatic programming system for ZAM-41,
+The optimum fitting of the machine design for the assumed program- |
+ming systems was the problem I especially kept busy with.
+
+N
+
+"\.) .
+\'\L\,¥

@@ -1,0 +1,44 @@
+WOODS HOLE OCEANOGRAPHIC INSTITUTION
+WOODS HOLE, MASSACHUSETTS
+
+September 22, 1958
+
+Professor Philip McC. Morse
+
+Director of the Computation Center
+Massachusetts Institute of Technology
+Cambridge 39, Massachusetts
+
+Dear Professor Morse:
+
+This letter is to inquire about the use of the computation center by the
+Woods Hole Oceanographic Institution. Close contact with the meteorology
+department and others at M.I.T. over a period of years, through joint semi-
+nars on ocean and atmospheric circulations, have suggested that machine
+computation could be extremely important in oceanographic research.
+
+There are two principal categories of machine problems under consideration
+here. The first consists of numerical investigation of theoretical models of
+ocean circulations, tidal oscillations and processes in which the atmosphere
+and ocean interact with one another. The second category is to explore methods
+of using a machine for statistical analysis of surface and deep water oceanogra-
+phic data.
+
+A limited amount of work with automatic computation is already going on
+here, but a more rapid expansion is being held up in part by a lack of experi-
+ence in the field. In this respect participation by personnel here in working
+with the M.I.T. computing center would be particularly valuable.
+
+In particular Dr. Kirk Bryan, Jr., who has recently joined our staff, is
+developing some specific problems in meteorology and oceanography that
+appear to require the use of a large machine. He would like to visit with your
+group in the near future to see if arrangements can be made for use of an M.I.T.
+computer.
+
+Sincerely yours,
+‘/- e / e § & L
+
+Paul M. Fye
+Director
+
+PMF/jmb
