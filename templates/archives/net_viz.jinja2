@@ -3,20 +3,63 @@
 {%  block extraheader %}
     <script src='https://d3js.org/d3.v5.min.js'></script>
     <script src="{{ static('js/net_viz.js')  }}"></script>
+    <link rel="stylesheet" href="{{ static('css/net_viz.css') }}" type="text/css">
 {%  endblock %}
 
+{% block title %} Network Visualization {% endblock %}
+{% block header %} Network Visualization {% endblock %}
 
 {% block content %}
+    <div id="description">
+        <p>
+            This visualization shows the top 100 contributors in the Computation Center Archives. To
+            filter out unwanted nodes, search for the desired name. To get more information on an
+            individual, click on their node or on their name in the table.
+        </p>
+        <p>
+            The larger the node, the more influence a person has had. Additionally, dragging
+            each node enables you to see that person's "pull" on the network.
+        </p>
+    </div>
 
-    <svg id="viz"></svg>
-{#    <button class="searchbutton" type="submit">#}
-{#        <i class="fa fa-search"></i>#}
-{#    </button>#}
-{#    <input class="searchfield" id="searchbox" name="q" type="text" placeholder="Search">#}
+    <div id="visualizations">
+        <img src="{{ static('img/stories/network_scale.png') }}" alt="Network Scale" />
+        <svg id="viz"></svg>
+        <script>
+            create_force_layout({{ nodes|safe }}, {{ links|safe }});
+        </script>
+    </div>
 
 
+    <form id="node_search_form">
+        <input class="searchfield" id="node" name="node" type="text" placeholder="Find a node...">
+        <button class="btn btn-secondary my-2 my-sm-0" type="submit" id="node_submit">
+            Search
+        </button>
+        <button class="btn btn-secondary" type="submit" id="node_clear"
+                name="node" value="">
+            Clear
+        </button>
+        {% if  len(links) == 0 %}
+            No Person "{{ old_query|safe }}" Found
+        {% endif %}
+    </form>
 
-    <script>
-        create_force_layout({{ nodes|safe }}, {{ links|safe }});
-    </script>
+    <table id="node_table">
+        <thead>
+        <tr>
+            <th>Nodes</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for node in nodes %}
+            <tr>
+                <td> <a href="/archives/person/{{ node['slug'] }}">
+                    {{ node['id'] }}
+                </a></td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
 {% endblock %}

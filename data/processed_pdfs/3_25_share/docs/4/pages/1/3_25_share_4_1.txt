@@ -1,0 +1,46 @@
+Room 200-206
+
+Januery 18, 1958
+
+Pr. John Greenstadt
+
+Data Processing Center
+Ap:1ied Belence Division
+I.B.Ms Corporation
+
+B0 Madison Avenue
+
+New York, New York
+
+Dsar Dr. Greenstadt:
+Several days ago [ received the following SHARE pubiloavionst
+
+1. 761 - = ~-mbolie Assembly Program (b pages ) which
+originated at North Ameriean,
+
+2. The BA F112, Exponential ~- floating point program
+( 7 pages) from Boeing,
+
+§, The UA 8+C 1 Sine and Cosine Bubroutine from United
+Airoraft (3 pagee).
+
+We very mueh appreciate receiving this material for the SHARE
+progrem end hope before too long we will be able to contribute
+gome ourselvea.
+
+e recent letter I received from Fletcher Jones, he ipforme
+me that there are Proceedings for the three preceding SHARE meetings
+and indicates that I should ask you for ooples of these. Last week
+fruman Hunter was up here and he also fell that you migh® bs aktls ¢o
+help use I wonder whether yqu have any copies of these Proceedings
+available which you could send to us? I wonder if you have any
+®aistribution list® of SHARE literature, subroutines, programs, eto.,
+which we might have in order to eateh up with your rapidlyemoving
+activity?
+
+Aoy essistance you ean glve us will be very much eppreciated.
+
+8ineerely yours,
+
+Fo M, Versuh
+FiMV snd Director

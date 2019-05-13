@@ -1,0 +1,66 @@
+#node_table table, #node_table th, #node_table td {
+    border: 1px solid black;
+    text-align: center;
+    width: 15%;
+}
+
+#node_table table {
+    float: right;
+}
+
+#node_table th {
+    background-color: black;
+    color: white;
+}
+
+#node_table tbody {
+    display: block;
+    overflow: auto;
+    height: 640px;
+    width: 100%;
+}
+
+
+#visualizations {
+    float: left;
+    width: 70%;
+    height: 640px;
+    margin-right: 2%;
+}
+
+#visualizations img {
+    float: left;
+    width: 5%;
+    height: 80%;
+    margin-top: 9%;
+    margin-right: 2%;
+}
+
+#visualizations svg {
+    float: left;
+    width: 93%;
+    height: 100%;
+}
+#node_search_form {
+    float: left;
+    width: 70%;
+    margin-right: 2%;
+}
+
+#node_search_form #node_clear {
+    color: white;
+    background-color: grey;
+}
+
+#node_search_form #node_clear:hover {
+    background-color: #565759;
+}
+
+#description p {
+    text-align: center;
+}
+
+#description {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}

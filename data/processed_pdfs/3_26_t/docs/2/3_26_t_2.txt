@@ -1,0 +1,47 @@
+December 10, 1958
+
+Professor A. H. Taub
+Digital Computer Laboratory
+University of Illinois
+Urbana, Illinois
+
+Dear Abe:
+
+As the work on our 704 expands, we find it necessary to
+help set up programs for a fair number of new and interesting
+problems. This means that we are having to expand the programming
+staff of the Computation Center here, and it cccurs to me that
+you may know of Some younger person who would be interested in
+such a position. We are not looking for someone who necessarily
+has had a large experience in programming but are looking for
+someone who has had a good background in mathematics (a bachelor's
+or master's degree) and who 18 interested in computing machine
+applications. The person who comes would have a chance to take
+a course or So and could go to various seminars around the place.
+If, for example, he wanted to eventually get a doctor's degree,
+he could work at the Center for a year or so and then take a
+part-time job while working for his degree.
+
+We have a wide range of problems from those of language
+translation to those of calculations of nuclear characteristics.
+We do not code the usual problem which comes to us, so these
+persons would be engaged mainly in the special and interesting
+
+roblems and in writing out programs rather than detailed coding,
+although there may be exceptions).
+
+I would appreciate it if you could let me know of any
+person who might be interested in taking such a position either
+this spring or next summer, or in suggesting that such people
+should write me directly. The salary we would offer would be
+normal to universities; not as high as industrial positions, but
+the man would have the opportunity of further class work and would
+have contact with a wider variety of problems than in industry.
+
+Sincerely,
+
+Philip M. Morse
+Director
+PMM: RM
+
+

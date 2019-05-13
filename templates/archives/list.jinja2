@@ -14,28 +14,55 @@
         Documents
     {% endif %}
 
-
-{% endblock %}
-
-{% block header %}
-    {% if model_str == 'doc' %}
-        Documents that match your search:
-    {% else %}
-        Every {{ model_str }} in the archive:
-    {% endif %}
 {% endblock %}
 
 {% block content %}
-    <br>
-    <div class="starter-template">
-        {% for item in model_objs|sort(attribute='slug') %}
-            <div class="list-group">
-{#                {% if model_str == '' %}#}
-                <a href="{{ item.url }}"
-                   class="list-group-item list-group-item-action">
-                    {{ item }}
-                </a>
-            </div>
-        {% endfor %}
+
+    <div class="row">
+        <div class="col-12 text-center">
+            <h1>
+                {% if model_str == 'people' %}
+                    People in the Collection
+                {% elif model_str == 'organizations' %}
+                    Organizations in the Collection
+                {% elif model_str == 'folders' %}
+                    Folders in the Collection
+                {% endif %}
+            </h1>
+        </div>
     </div>
+
+    <div class="row" id="data_table_row">
+        <div class="col-12">
+            <table id="data_table" class="display" cellspacing="0" width="100%">
+            <thead>
+                <tr>
+                    {% if model_str == 'people' %}
+                        <th>Name</th>
+                        <th>Documents Authored</th>
+                        <th>Documents Received</th>
+                    {% elif model_str == 'organizations' %}
+                        <th>Name</th>
+                        <th>Documents Authored</th>
+                        <th>Documents Received</th>
+                    {% elif model_str == 'folders' %}
+                        <th>Folder Number</th>
+                        <th>Folder Name</th>
+                    {% endif %}
+                </tr>
+            </thead>
+        </table>
+        </div>
+    </div>
+
+{% endblock %}
+
+{% block scripts %}
+    <link rel="stylesheet" href="{{ static('css/data_tables.css') }}" type="text/css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.18/datatables.min.css"/>
+    <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.18/datatables.min.js"></script>
+    <script type="module"> 
+        import { create_datatable } from "{{ static('js/data_tables.js') }}";
+        create_datatable("{{ model_str|safe }}", {{ obj_list|safe }});
+    </script>
 {% endblock %}

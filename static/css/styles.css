@@ -18,13 +18,13 @@ h1,h2,h3,h4,h5,h6,.navbar-brand {
     text-transform: uppercase;
 }
 
-h5 {
-    text-align: center;
-}
-
 .acre {
     font-family: "Acre-Regular";
     text-transform: uppercase;
+}
+
+* {
+  border-radius: 0 !important;
 }
 
 
@@ -101,6 +101,15 @@ body {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 1.1em;
+    color: #007bff;
+}
+
+.story-title:hover{
+     font-family: 'Acre-Regular';
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #0056b3;
 }
 
 .story-teaser {
@@ -112,6 +121,11 @@ body {
     height: 160px;
     max-height: 33vh;
     object-fit: cover;
+}
+
+.story_in_text_link{
+    text-decoration: underline;
+    color: black;
 }
 
 
@@ -132,6 +146,15 @@ body {
     color: #eeeeee;
 }
 
+div.info_bar {
+    -moz-hyphens:auto;
+    -ms-hyphens:auto;
+    -webkit-hyphens: auto;
+    hyphens:auto;
+    background-color: #343a40;
+    color: white;
+}
+
 @media (max-width: 1000PX) {
     .sidenav {
         position: relative;
@@ -139,5 +162,62 @@ body {
         width:100%;
         margin-bottom: 20%;
     }
+}
+
+.doc_metadata {
+    white-space: nowrap;
+}
+
+.sim_buttons {
+    text-align:center;
+}
+
+.team-member.team-member-lg img {
+  width: 250px;
+  height: 250px;
+  border: 7px solid #fff;
+}
+.team-member.former img {
+    width: 80px;
+    height: 80px;
+    border-width: 3px;
+}
+
+@media (min-width: 768px) {
+  .team-member {
+    margin-bottom: 50px;
+  }
+  .team-member h4 {
+    margin-top: 25px;
+  }
+  .team-member.former {
+    font-size: 90%;
+  }
+  .team-member.former h4 {
+    font-size: 90%;
+  }
+  .team-member:not(.team-member-lg) img {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #fff;
+  }
+  .team-member.former img {
+    width: 100px;
+    height: 100px;
+    border-width: 4px;
+  }
+}
+.btn-secondary {
+    color: #fff;
+    background-color: #007bff;
+}
+
+.btn-secondary:hover {
+    color: #fff;
+    background-color: #0056b3;
+}
+
+.teaser-img img{
+    border: 7px solid #fff
 }
 

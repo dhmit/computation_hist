@@ -1,0 +1,55 @@
+@ 7 w
+
+5, Instruction, Nearly 90 percent of %he directors atten-
+ding the Conference had acadenic appointuments, Thibs is appro-
+priate; for much of the task of the Computing Center in a
+tniversity is related to instruction, either in teaching new
+isers the elements of coding, or in advising bow to pProgram
+lifficult problems or in teaching or helping to teach courses
+r2lated o computer science. The essentviale of coding are now
+simple onoush so that an under-graduate, with little mois than
+hipgh=scliooi mathematics can begin to use s rarticular macoine
+after 4 Go © hours of lectures (after which he continues %
+learn ty using, of course). llany Centers give such short cciing
+course:) three or four times a year, for no acadenic credit, ay
+an hour which does not interfere with regnlar cisses, Persons
+lesir’ng to use the machine are usually required to take such
+a course. Other Centers insert the half-dozen lectures on coding
+in one or more regular subjects given for creiit, such as a
+sourse on general principles of programming for all machines, or
+a course in applied nathematics, or a beginning course in theore
+etical science or engineering( any course in which the student
+mny need to use the computex)
+
+Subjects, given for credit, which are being taught by staff
+
+nembers of some Centers, are:
+
+Introduction to Digltal Computation - Principles of
+brogramming and of machine structure. Turing machines and =
+other logical foundations, A freshman or sohhomore subject.
+
+~ Advanced Course in Programning - Maéhiﬁe7languages,*
+theory of compilers, 'information processing, simulation,enh
+A senlor or graduate svhieet.
+
+Toeory of Auvomasa = Hachine 19822105, provlen S01Ving,
+
+game playing, etec. A graduate subject,
+_ llachine Design - Components, logizal design, switching
+theory, ete, A graduvate subject.,
+redafe . Yo 3 some : .
+Otheghsubnects, =2 which N Center staffs are contributing new
+ideas and points of view, include
+
+Appligf) Mathematics
+
+Nunerical Analysisg
+
+Information Theoxry
+
+Operations Research
+Systems Analysis
+
+Students may be attracthed to Computer Science by taking one or
+more of these courses; their further traingng in the field can

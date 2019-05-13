@@ -30,20 +30,22 @@ def process_search(search_params):
         people_qs = Person.objects.none()
 
     if keywords:
+        # construct keyword list, extracting exact search phrases 
         keywordlist = []
-        temp_people_Q = Q()
         exact_searches = re.findall(r'"([^"]+)"', keywords)
         if exact_searches:
             for phrase in exact_searches:
                 keywords = re.sub(f'"{phrase}"', '', keywords)  # strip exact search search terms out
         keywordlist.extend(exact_searches)
         keywordlist.extend(keywords.split())
+
+        temp_people_Q = Q()
         for word in keywordlist:
-            print(word)
             temp_people_Q |= Q(first__icontains=word)
             temp_people_Q |= Q(last__iexact=word)
             people_qs = Person.objects.filter(Q(first__icontains=word) | Q(last__iexact=word))
             organization_objs = Organization.objects.filter(Q(name__icontains=word))
+
             doc_Q = Q(title__icontains=word)
             for person in people_qs:
                 doc_Q |= Q(author_person=person)
@@ -53,9 +55,11 @@ def process_search(search_params):
                 doc_Q |= Q(author_organization=org)
                 doc_Q |= Q(recipient_organization=org)
                 doc_Q |= Q(cced_organization=org)
-            key_results = Document.objects.filter(doc_Q)
-            docs_qs = key_results.intersection(docs_qs)
+
+            docs_qs = docs_qs.filter(doc_Q)
+
         people_qs = Person.objects.filter(temp_people_Q)
+
     if title:
         docs_qs = docs_qs.filter(Q(title__icontains=title))
 
@@ -66,7 +70,6 @@ def process_search(search_params):
         exact_searches = re.findall(r'"([^"]+)"', text)
         if exact_searches:
             for phrase in exact_searches:
-                print(phrase)
                 words_q &= Q(text__icontains=phrase)
                 text = re.sub(f'"{phrase}"', '', text)  # strip exact search search terms out
 
@@ -126,7 +129,10 @@ def process_search(search_params):
 
     # prevents template from hitting the db
     docs_qs = docs_qs.prefetch_related('author_person', 'author_organization', 'folder',
-                                       'recipient_person', 'recipient_organization', 'cced_person','cced_organization')
+                                       'recipient_person', 'recipient_organization',
+                                       'cced_person','cced_organization')
+
+    docs_qs.order_by('date')
 
     search_facets = generate_search_facets(docs_qs)
     return docs_qs, people_qs, search_facets

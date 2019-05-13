@@ -1,0 +1,24 @@
+table{
+    border: solid thin;
+}
+
+td, th, tbody, tr{
+    border-top: 1px black !important;
+}
+
+.clickable-row:hover{
+    cursor: pointer;
+    background-color: #e0e0e0;
+}
+
+#timeline-title{
+    text-align: center;
+}
+
+#date-title{
+    font-size: 2rem;
+}
+
+.text-color{
+    color: #007bff;
+}

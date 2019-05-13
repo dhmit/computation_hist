@@ -1,0 +1,198 @@
+1048 Annals New York Academy of Sciences
+
+dipole. If one dipole was located in the left vgntricular area and the other in
+the right ventricular area, the effect qf each dipole could.usgally be observed
+on the anterior wall of the thorax section. These results. indicate that vector-
+cardiograms should be supplemented with chest leads in order to obtain as
+complete information about the heart excitation as possible.
+
+The external field of two half shells in the heart area in the thorax section
+was very similar to that of the resultant d.ipqle. .
+
+Since the thorax section was almost elliptical in shape, mathematical ex-
+pressions were developed for the potential due to a source and sink inside an
+ellipse. A much simpler equation resulted for potentials on the outer bound-
+ary of the ellipse. .
+
+The distribution of potential araund the outer wall of the three-dimensional
+thorax model was obtained at about twelve horizontal levels for all possible
+spatial angles of the dipole at 30° intervals. By compgring §imilar human
+thorax-potential distributions with the tank charts, a rapid estimate could be
+made of the heart-vector orientation.
+
+Since such distributions give the potential at all points on the thorax, they
+make it possible, together with the limb leads, to test any system of vector-
+cardiography. Equations are given for the projections of a spatial dipole in
+terms of its absolute magnitude and of its horizontal and vertical angles.
+
+Using a circumferential chest belt with small, closely spaced electrodes,
+evidence of local excitation in the chest-lead diagram can often be seen. It is
+pointed out that the amount of local-excitation effect recorded depends on the
+size, number, and spacing of electrodes, on the recorder amplification, on the
+individual studied, and on the instant of time during the cardiac cycle.
+
+Acknowledgment
+
+I am indebted to the late Samson Wright and to W. F. Floyd of the Physi-
+ology Department, Middlesex Hospital Medical School, London, England, for
+the frequent conversations that gave me an insight into certain aspects of
+physiology that could have been acquired in no other way. Thanks are due
+also to members of the staff of the Electrical Engineering Department, Imperial
+College of Science, London, particularly to Willis Jackson and to Dennis
+Gabor, Colin Cherry, and A. R. Boothroyd, and to Allan Gordon of the Mathe-
+matics Department for advice on the problem of the ellipse. I also thank
+Hans H. Hecht for his cooperation in more recent phases of the project.
+
+References
+
+1. NeLson, C. V. 1952. Electric field measurements in a two-dimensional conductivity-
+tank model of the human heart and thorax. J. Physiol. 116: 15P.
+
+. NELsoN, C. V. 1955. The effect of the finite boundary on the potential distribution in
+volume conductors. Circulation Research. 3: 236.
+
+. Hacug, B. 1929. Experimental methods for determining the distribution of electric
+and magnetic fields. Electrician. 102: 185.
+
+. BEWLEY, L. V. 1948. Two-dimensional Fields in Electrical Engineering. Macmil-
+lan. New York, N.Y.
+
+. McFEE, R, R. M. Stow & F. D. Jounston. 1952, Graphic representation of electro-
+cardiographic leads by means of fluid mappers. Circulation. 6: 21.
+
+- Bropy, D. A. & W. E. Romans. 1954. Validity of several types of vector-cardiographic
+
+= W o
+
+wn
+
+ 
+
+7.
+8.
+9.
+10.
+11.
+12.
+13.
+
+14.
+15.
+
+16.
+17.
+
+18.
+19.
+20.
+21.
+
+Nelson: Human Thorax Potentials 1049
+
+leads as tested on a two-dimensional model of the human body. J. Appl. Physiol.
+: 745. .
+
+Kf’l‘z, L. N. 1937. Concerning a new concept of the genesis of the electrocardiogram.
+Am. Heart J. 13: 17. .
+
+LEPESCHKIN, Ivli:d 1951. Modern Electrocardiography. : 55. Williams & Wilkins.
+Baltimore, ;
+
+BUrGER, H. C. & J. B. vAN MILAAN. 1943. Measurement of the specific resistance of
+the human body to direct current. Acta Med. Scand. 114: 584.
+
+LinDNER, E. & L. N. Katz. 1939. The relative conductivity of tissues in contact with
+the heart. Am. J. Physiol. 126: 625.
+
+Hess, W. 1935. Modellversuche iiber den Verlauf der Potentiallinien des Herzens im
+transversalen Brustkorbquerschnitt. Z. Kreislaufforsch. 27: 433.
+
+ScuaErFER, K. E.  1935. Versuche iiber neue Moglichkeiten, die Richtung der Aktion-
+spole im Herzen zu bestimmen. Z. Kreislaufforsch. 27: 439.
+
+NeLson, C. V. & H. H. HEcur. 1955. Investigation of horizontal component of heart-
+vector by means of circumferential chest leads at midventricular level. Federation
+Proc. 14: 107. :
+
+LepescHkIN, E. 1951. Modern Electrocardiography. : 49. Williams & Wilkins.
+Baltimore, Md.
+
+Frank, E. & C. F. Kay. 1953. A reference potential for unipolar electrocardiographic
+measurements on models. Am. Heart J. 46: 195.
+
+Sucr, Y. 1940. Studies on the origin of the injury potential of muscle. Japan. J. Med.
+Sci. ITI. 6: 293, 331.
+
+KaurmaN, W. & F. D. Jounston. 1943. The electrical conductivity of the tissues near
+the heart and its bearing on the distribution of the cardiac action currents. Am. Heart
+
+. 26: 42.
+
+Sc{{WAN, H. P. & F. C. Kay. 1956. The conductivity of living tissues. Ann. N. Y.
+Acad. Sci. 66 (6): 1007.
+
+BeLEHRADEK, J. & A. K. M. Novons. 1923. L’électrocardiogramme du coeur perfusé
+au glucose. Compt. rend. soc. biol. 88: 621.
+
+StraUB, H. 1910. Zur Analyse des Elektrokardiogramms nach Versuchen am isolier-
+ten Froschherzens. Z. Biol. 53: 499.
+
+Katz, L. N., E. SiomanN, I. GutMaN & F. H. Ocko. 1936. The effect of good electrical
+.conductors introduced near the heart on the electrocardiogram. Am. J. Physiol. 116:
+343.
+
+22a. BurceEr, H. C. & J. B. vaN I\’.IILAAN. 1946. Heart vector and leads.Part 1. Brit.
+
+Heart J. 8: 157.
+
+22b. BUrGER, H. C. & J. B. vaN MiraaN. 1947. Heart vector and leads.Part II. Brit.
+
+Heart J. 9: 154.
+
+22c. BURGER, H. C. & J. B. vAN MirLAAN. 1948. Heart vector and leads.Part III. Brit.
+
+23.
+
+24,
+25.
+26.
+27.
+28.
+29.
+30.
+31.
+32.
+33.
+
+Heart J. 10: 229.
+
+Lewis, T. 1925. The Mechanism and Graphic Registration of the Heart Beat. The
+duality of the normal electrocardiogram. : 104. Shaw & Sons. 3rd ed. London.
+England.
+
+RijLant, P.  1933. L’oscillogramme cathodique du coeur humain. Compt. rend. soc.
+biol. 114: 546.
+
+Hacue, B. 1929. Electromagnetic Problems in Electrical Engineering. Oxford
+Univ. Press. Oxford, England.
+
+HT;SS’ W. M. 1880. On the motion of two spheres in a fluid. Trans. Roy. Soc. 171:
+
+Luprorp, G. S. S., J. MArTINEK & G. C. K. YEH. 1955. The sphere theorem in po-
+tential theory. Proc. Cambridge Phil. Soc. 51: 389.
+
+Bisuor, G. H.” 1937. La théorie des circuits locaux permet-elle de prévoir la forme du
+potential d’action? Arch. intern. physiol. 4b: 273.
+
+Pruitt, R. D. & F. VALENCIA. 1948. The immediate electrocardiographic effects of
+circumscribed myocardial injuries: an experimental study. Am. Heart J. 36: 101.
+HI§21§7$, W. M. 1881. On functional images in ellipses. Quart J. pure appl. Math. 17:
+WEBER, Ernst. 1950. The Electromagnetic Field. 1. Mapping of Fields. Wiley.
+
+New York, N. Y.
+
+Frank, E., C. F. Kay, G. E. SEipEN & R. A. KEisMAN. 1955. A new quantitative
+basis for electrocardiographic theory: the normal QRS complex. Circulation. 12: 4()().
+
+NELson, C. V. & H. H. HEcur. 1955. A test of the Einthoven triangle and a modi-
+fication which corrects for the lateral eccentricity of the heart. Circulation. 12: 752.

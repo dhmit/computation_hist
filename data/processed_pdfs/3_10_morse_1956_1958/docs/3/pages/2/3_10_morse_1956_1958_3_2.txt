@@ -1,0 +1,18 @@
+However, for the excited states as e.g. the lowest triplet level
+which Dr. Szent-Gyorgyi thinks is most important for biology, we will
+have to apply more sophisticated methods, using self-consistent molecu-
+1ar orbitals and configuration interaction as Dr. Pariser has done
+recently for some simpler molecules. Dr. Pariser, who is at the Jackson
+Laboratory of E. I. duPont de Nemours and Company in Wilmington, Delaware,
+is very much interested in the sbove-mentioned applications. However,
+these applications can only be made with the use of digital computers,
+which is the reason I am looking for computational facilities and I wonder
+if there is a possibility at M.I.T.
+
+Looking forward to your answer,
+Very sincerely yours,
+
+Gy Narrmn
+
+George Karreman
+GK:vb

@@ -1,0 +1,81 @@
+= s ====Z==ZEENEN
+_— EAaE. B EA B & am a2 an on | _ | ;
+5. A way of defining new data spaces in Here pl,...,pn are propositional expressions
+T bas and of - -
+t?rms OfiElycn base spac?s 280 deflning Tance taking the values T of F standing for truth and
+tions on the new spaces in terms of functions on :
+_ ; : falsity respectively,
+the base spaces, Lack of such a formalism is one The waliie of (p— e —a-)
+of the main weaknesses of ALGOL, but the business p{/// Yo =%Coyis sieyP o 5
+data processing languages such as FLOWMATIC and is the value of the-¢ corresponding to the first ///////
+s COBOL have made a start in this dlrectlon even p that has value T, Thus >
+though this start is hampered by conce551ons to (4<:3f;+7 2>3 — 8, hiz —9, 4< 5 =) ~19,
+;he presumed prejudices of/bu51ness men ,
+
+The second part of ﬁhe paper contains a few ; Some examples of the conditional oxp1c551ons
+mathematical results about the properties of the for ‘well known functions are ’/f/ //////
+formalisms introduced in the first part, Spe- A y ?
+
+S s : : [x] = (x<0 —»-x,x720 —X) e ;
+cifically, we describe the following: Sla e (et 1 i;'-+0) //// ,
+
+ier “The formal properties of conditional = =J » 1 7J P /
+expression§(/ and the triangular function whose graph is given
+
+2, A method called recursion induction for in figure 1 is represented by the conditional
+proving ‘the equivalence of recursively defined expression \\\v///’ ///;
+funcflons Moo o e o |
+
+-— L ‘ = —
+S ‘Some relations between the formalisms EELCE) (x = 2,250 —+x+1 2N e,
+
+introduced in this paper and other formalisms
+current in recursive function theory and in
+programming,
+
+‘ We hope that the reader will not be angry
+about the contrast between the great expectations
+of a mathematical theory of computation and the
+meager results presented in this paper,
+
+FORMALISMS FOR DESCRIBING COMPUTABLE FUNCTIONS
+AND RELATED ENTITIES
+
+In this part we describe a number of new
+formalisms for expressing computable functions
+and related entities, The most important section
+is 1, the subject matter of which is fairly well
+understood, The other sections give formalisms
+which we hope will be useful in constructing com-
+putable functions and in proving theorems about
+them,
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+x>»1 —0)
+
+y
+
+    
+
+(-1,0) (1:0)
+
+Figure 1
+Now we are ready to use conditional ex-
+
+pressions to define functions recur51ve1y.
+example, we have
+
+(n-0 —1,nA —n.(n-1)!)
+
+For

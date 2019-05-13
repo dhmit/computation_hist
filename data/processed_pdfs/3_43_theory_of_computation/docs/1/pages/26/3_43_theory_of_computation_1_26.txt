@@ -1,0 +1,131 @@
+9. Relations to Other TFormalisms
+
+Our characterization of C ¥¥7as the set of
+functions computable in terms of the base func-
+tions in%} cannot be independently verified in
+ireneral since there is no other concept with
+which 1t can be compared. However, it is not
+hard to show that all partial recursive functiong
+in the gense of Church and Kleene are in
+C égsucc,oqj} . In order to prove this we shall
+usc thzs definition of partial recursive functions
+given by DavisS, If we modify definition 1.1 of
+pace 41 of Davis3 to owmit reference to oracles
+we have the following: A function is partial
+recursive if it can be obtained by a finite
+number of applications of composition and
+
+minimalization beginning with the' functions
+
+on the following list: 1l)x', Q)U?(x ,...xn) =
+X,,11in, 3)x+y, 4) x*y = (x-y 20— %X-y,T — 0),
+S)Xy." |
+All the above functions are in Cgsucc,eqj ‘
+Any C‘Z?Z3 is closed under composition so all
+that remains is to show that C succ, eq is
+closed under the mimalization operation.” This
+operation is defined as follows: The operation of
+minimalization associates with eachh total function
+I(y,x,,...xl) tne function h(x ,...xn) wvhose value
+for given xl,...,xn is the least y. for which
+
+f(y,xl.---,x ) = 0, and wvhich is undefined if no
+n
+
+such y exists. Ve have to show that if £ 4is in
+
+C‘% succ, cq so is h. But h may
+11 :' C— ;< ) = 11 O :{ D) X )
+1 n 2( ] Ty
+
+vihere
+}1 (y 7.¢ " ) ('f(w W e ) '\’ e Lo A 'I‘ —
+‘L ) ~ §. @ Te el pidN J}" 9 9-19 "9 N . J
+2 L 1 : 1 n
+vl o~ e
+}13(J e ""'31))
+The converce statemnent that all functions in
+. = : R .
+G f:xvxqu'> are partial recursive is presumably
+also true but not quite so casy to prove.
+Jt is ouxr opninion that the recursive function
+3 L ]
+
+< . o
+1 3 v P iesenels 2y e S S S oy
+
+o
+€):1°
+
+  
+
+b R e — i — e A s 8 A —— S — - N o e N
+
+he delined by
+
+- P
+. .
+AR 3 -
+-.'. 4 & : .‘ s =y r./ f‘\‘,‘ “317
+» Al 1 ! \ ¥
+X 3 3 - 7 ‘ / VY (sl \s) }- -
+5 . ‘f‘. ' <
+! ] / . \ 5 1-4
+
+particular ways computations are represented. It T
+is sufficient that computable functions be ’
+represented sonechow by symbolic expressions, e.g,.
+numbers, and that functions computable in terms
+of given functions be somchow represented by ex-
+pressions computable in terms of the expressions
+representing the original functions. However, a
+practical theory of computation must be appli-~
+cable to particular algorithms. The same objec- |
+tion applies to basing a theory of computation on |
+Markov's9 normal algorithms as applies to basing
+it on properties of the integers; namely flow of
+control is descllbed awkwardly,
+
+The first attempt to give a formalism for
+describing computations that allows computations
+with entities from arbitrary spaces was made by
+A. P. Ershov?. IJowever, computations with the |
+symbolic expressions representing program steps
+are also necessarily involved. ; ;
+
+We now discuss the relation between our for- |
+malism and computer programming languages. The
+formalism has been used as the basis for the LISP
+programming system for computing with symbolic
+expressions and has turned out to be quite prac-
+tical for this kind of calculation. A particular .
+advantage has been that it is easy to write i
+recursive functions that transform program which
+makes generators easy to write.
+
+The relation between recursive functions amd
+the description of flow control by flow charts is
+described in Reference 7. An ALGOL program can
+be described by a recursive function provided we
+Iump all the variables into a single state vector
+having all the variables as components. If the
+number of components is large and most of the
+opcerations performed involve only a few of them,
+it is necessary to have separate names for the
+components. This means that a programming
+language should include both recursive function |
+defini tions and ALGOL-like statements. [Towever,
+
+e Suts S e & e
+
+-
+
+ 
+
+A L S A3 R
+
+el
+
+ 
+
+e ——————

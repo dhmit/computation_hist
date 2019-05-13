@@ -1,0 +1,104 @@
+1046 Annals New York Academy of Sciences
+
+there were only one dipole acting in the heart area, there cquld be only one
+“hositive” maximum and one “negative-” maximum of potential on the thorax
+wall, and that the variation of potential between any two points would be
+continuous. The same conditions would hold for the variation of potential
+around the thorax at any horizontal level. If S}lCh graphs. are not smooth
+curves, or if there is more than one potential maximum or minimum, then one
+must conclude that the leads are recording the effects of more than 1 dipole.
+Whether one observes one or more dipoles depends on the number, size, and
+location of the electrodes; the amount of amplification used; the individual
+being tested; and the instant of time during the cardiac cycle. I have found
+
+    
+     
+  
+ 
+
+Potential V
+mv.
+Right bundle-branch block
+line g-40 msec ofter peak of
+R-(Lead II)
+
+Distance along chest=CM.
+
+RIGHT LEFT
+
+Ficure 21. Potential distribution around the thorax at the mid-ventricular level of a
+subject with right bundle-branch block. The presence of 2 simultaneous potential maxima
+is indicative of 2 effective dipoles in the heart (E. P. 2/18/55).
+
+that in the majority of cases one major dipole component can be observed. It
+should be noted that the method of integrating the potential over the thorax®®
+gives the resullant dipole regardless of whether or not local excitation processes
+are observed in the chest leads.
+
+FIGURE 21 shows the chest-lead diagram for a case of right bundle-branch
+block at a time corresponding to 40 msec. after the peak of R in lead 2. The
+presence of two positive and negative maxima indicates the presence of 2
+effective dipoles. Presumably the excitation has spread into the right ven-
+tricle and is also active in the left ventricle.
+
+If data on the potential distribution over the thorax, displayed in other
+ways,* 4 are plotted by the method described in this paper, similar results are
+obtained; that is, there is usually one major dipole, but evidence of additional
+dipoles can occasionally be seen.
+
+Nelson: Human Thorax Potentials 1047
+
+Summary
+
+The distribution of potential around the boundary of a three-dimensional
+electrolytic tank model of the human thorax at the level of the dipole center
+s similar to the potential distribution around a similar flat tank if the vertical
+angle of the dipole is within the range of 30°. Two-dimensional thorax
+models can, therefore, provide information about the horizontal components
+of heart excitation.
+
+Using such a flat tank, an artificial dipole was set up in the heart area, and
+potential distributions were measured for the following four cases: (1) an
+insulating boundary having a homogeneous interior and shaped for the outline of
+the thorax cross section; (2) insulating spine and sternum areas inserted, and
+lung sections having a resistivity four times that of the main body of elec-
+trolyte; (3) the same as (2), except that the heart area was made more con-
+ducting; and (4) the same as (2), except that the lung sections were made
+completely insulating.
+
+For each case, the potential and potential gradient along the periphery of the
+model were plotted as a function of distance.
+
+The effect of the highly conducting heart section was uniformly to scale down
+potentials external to the heart. The effect of increasing the relative re-
+sistivity of the lung sections depended on (1) the dipole angle, and (2) the
+particular field point under consideration. It is not possible to make a general
+statement about the effect of increased lung resistance since, for certain dipole
+angles, the potential was increased at some points in the field and decreased at
+others.
+
+For any dipole angle, the differences between potentials on the outer bound-
+ary for cases 1 and 2 were not large. The conductivity of the heart section
+had a greater effect on the boundary potentials than did the conductivities of
+the lungs, sternum, and spine sections. A much larger effect was found if the
+lung sections were made completely insulating. The effect of inhomogeneous
+areas on the potentials was greater in the interior of the section than on the
+boundary.
+
+For dipole angles of 0° to 60° the main peak of the potential-gradient curve
+was opposite the center of the dipole. For a dipole angle of 90° the potential-
+gradient curve on the boundary was diphasic, and the point of zero potential
+gradient was opposite the dipole center.
+
+Image systems were developed for sources and sinks in two media of finite
+resistivities separated by straight-line and circular boundaries. For the latter,
+four systems were required, depending on whether the source and sink were
+inside or outside the circle, and whether potentials were required inside or
+outside the circle. If we represent the heart area by a circle, the theory
+showed that the effect of increased heart conductivity should cause the external
+potentials to be reduced, uniformly, but that the endocardial potentials would
+be changed in a complicated way. The image theory showed that increased
+lung resistivity would also have a complicated effect on field potentials.
+
+Tests with two dipoles showed that if both dipoles had the same center, the
+external field distribution was equivalent to that produced by the resultant

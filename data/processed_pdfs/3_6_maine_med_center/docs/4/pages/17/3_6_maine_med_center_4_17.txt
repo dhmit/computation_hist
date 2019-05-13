@@ -1,0 +1,84 @@
+1044 Annals New York Academy of Sciences
+
+reflections in the top and bottom surfaces.** The image solution must then
+be combined with the potential distribution on the wall of an infinite elliptical
+cylinder. e R
+
+The method of showing the potential distribution over the thorax described
+above is, in my opinion, preferable to plotting the equipotentials on the thorax.
+The former method is much easier and quicker and it provides as much infor-
+mation as the latter. In addition, the errors of measurement tend to be
+averaged out by drawing a smooth curve through the points. Furthermore,
+when one has the distribution of potential at several levels around the thorax,
+one has in hand a large part of the data necessary to obtain the horizontal
+component of the resultant dipole moment of the heart.** Tt is necessary only
+to multiply the potential at each point on the thorax by a factor proportional
+to the chest contour at that point and then to integrate the product around
+the chest. The curve obtained by plotting potential against distance along
+the chest has been calied the “chest-lead diagram.”® This type of display is
+deservedly becoming more popular;*’** since time is fixed and “space” or dis-
+tance is used as the variable.
+
+By using a chest belt with a number of small electrodes (1 cm. diameter)
+close together (FIGURE 19) and high amplification and resolution in the record-
+ing equipment, it is often possible to obtain evidence of local excitation, or
+additional dipole components, in the chest-lead diagrams.®® FIGURE 20 shows
+the potential distributions around the chest of a normal male subject at the
+mid-ventricular level for three different instants of time during the QRS com-
+plex. The time 0.5 R would correspond to the peak of the R wave in lead 2.
+Local excitation processes are shown by lack of smoothness of these curves or
+by the presence of dips and peaks in the curves. The potential-gradient
+curves are particularly sensitive to local processes. The bottom curves show
+a marked second-dipole component.
+
+From the tank data and from theoretical considerations one can say that, if
+
+ 
+
+F}GURE 19. Eleqtrode belt. The electrodes are chlorided silver, 1 cm. in diameter. The
+spacing at the front is 2.5 cm. between centers.
+
+ 
+
+Nelson: Human Thorax Potentials 1045
+
+   
+   
+
++1.2
+Time=.I8R Potential V
+
++.6 Potential Gradient E
+mvzem.
+
+  
+ 
+ 
+
+TIME=.40R
+
+ 
+   
+ 
+
+RIGHT
+
+   
+
+00 775°
+Distance around chest—CM.,
+
+      
+
+-50 -40 : +io 95—
+% 0
+
++1.5T+.3 Potential Grodient E
+
+Potential V mWecm,
+Time =1.0R mv,
+
+ 
+
+- FIGure 20. Potential distribution around the thorax at the mid-ventricular level at 3
+different instants of time (G. B. 10/7/51).

@@ -1,0 +1,88 @@
+1030 Annals New York Academy of Sciences
+
+A promising analytic approach is the extension of the_ image system for. a
+source in an insulating sphere®®: 2.7 to that for a source in a Sph.er'e of finite
+conductivity immersed in an infinite medl.um ?f c.hffer.ent conductivity. |
+
+(3) Source and sink oulside disk:. p_otentwls ms.zde disk (FIGURE 11). Again
+there are no images. For each position oé the dipole, however, there must be
+added a constant potential of value : TG In %. The potential equation is
+
+2G rn  1-—-G a:l
+i - In -
+V‘—A[l Gln72+1 clng (5)
+
+(4) Source and sink oulside disk: polentials oulside disk (FIGURE 12). Ifasa
+first approximation the lung sections are represented by circles, this case would
+
+ 
+
+ 
+
+Ficure 11. Image system for potential at P inside the disk due to the source (+7) and
+sink (—=1) oulside the disk.
+
+give qualitative information about the effect of the lungs on the heart E.M.F.
+The sink and source are located at distances of @ and b from the center of the
+
+disk. Images of strength g_—-i:—: I are located inside the disk at distances of
+— and > from the center. The potential equation is
+71 G — 1 73
+Vo =A = b = n— 6
+2+ 6=t ©)
+
+Assuming that the lungs have a resistivity four times that of the surrounding
+medium, this becomes
+
+V, = A[ln'—‘ +0.61nf-“]
+7o 74
+
+which can be compared with EQuaTION 3.
+
+ 
+
+Nelson: Human Thorax Potentials 1031
+
+EQUATION 0 indicates that the magnitude of the effect of the increased re-
+sistivity of the lung for a fixed-dipole orientation must depend on (a) the loca-
+tion of the field point at which the potential is required and (5) the dipole
+angle. For example, consider that the heart E.M.F. and a lung can be repre-
+sented by a dipole on the X axis and a disk whose center also lies on the X axis.
+If the dipole angle is 0°, the image dipole inside the disk will have an angle of
+180° and will be oppositely directed to the real dipole. This means that the
+potential in the region between the real dipole and the image dipole (near side
+of the disk) will be more positive than in the case of a homogeneous medium.
+The region on the far side of the disk will now be less positive, however, because
+the image-dipole potential partly offsets that due to the real dipole. Phys-
+ically, these effects are caused by the current-shielding properties of the disk.
+
+Vinf=A In—r-'—
+rz
+saliadt ¢ 5G=F =3
+v Alznerr GHlE '4]
+ST
+2Td
+
+ 
+
+FiGure 12. Image system for potential at P ouiside the disk due to the source (4-7) and
+sink (—1) outside the disk.
+
+If the real dipole angle is 90°, however, the image dipole angle will also be
+90°. Since both dipoles have the same transverse axis, the location of the
+zero-potential line is unchanged. Potentials will now be increased on both the
+near and far sides of the disk, since the real and image dipoles reinforce each
+other. Thus it is not possible to make a general statement about the over-all
+effect of the higher resistivity of the lungs.
+
+In the thorax model, conditions are considerably different from the artificial
+case of a dipole outside a disk. The lung sections are not circular, and they
+surround the heart area more completely. There is also an additional shield-
+ing action caused by the spine and sternum sections. It is therefore necessary
+to go by the model measurements, although the image concept helps in inter-
+preting the results. If the main portions of the lung sections are represented
+by circles, images inside the circles can be found for each source and sink
+location. This approximation will help in understanding the results of TABLE
+1. Tt should be noted that for lung resistivity ratios of 1, 4, and infinity, the
+
+term ((,;—-{-_i in EQUATION 6 has the values 0, 0.6, and 1.0. Thus as the re-

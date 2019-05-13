@@ -1,0 +1,176 @@
+I e e e ettt S . o et ‘et e —
+
+. ——— S —— e ——
+
+X such that 7(x) is true. Unless there is such
+an x and it is unique € ((x) ,m(x)) is undefined.
+
+In the case of the integers((((x),m(x)) can be
+defined in terms of the wniversal quantifier using
+conditional expressions, but this does not seem to
+be the case in domains which are not cffectively
+cnumerable, and one may not wish to do so in
+domains where enumeration is unnatural,
+
+The next step is to allow quantification over
+functions. This gets us to Klecne's® analytic
+hierarchy and presumably allows the functions used
+in analysis. Two facts are worth noting, First
+‘d((f), ¢(£)) refers to all functions on the
+domain and not just the computable ones, If we
+restrict quantification to computable functions,
+we get different results. Secondly, if we allow
+Tunctions which can take themselves as arguments,
+it is difficult to assign a meaning to the
+quantification, In fact, we are apparently con-
+fronted with the paradoxes of naive set theory,
+
+-
+
+o9. Ambiguous Functions
+
+Ambiguous functions are not really functions,
+For cach prescription of values to the arguments
+the ambiguous function has a collection of possible
+values, An example of an ambiguous function is
+less(n) defined for all positive integer values
+of n, Every non-negative integer less thah n is
+>
+
+2 possible value of less(n). If we define a basic
+
+ambiguity operator anb(x,y) whose possible values
+are x and y when both are defined otherwise which-
+ever is defined, w
+
+e
+
+¢ can define less(n) by
+less(n) = anb(n-1 . ]osss(n-l.)“)“:h
+less(n) has the property that if we define
+ult(n) = (nnO-ﬂ-O,T-ﬁ-ult(lcss(n)))
+
+then .
+
+7 ( () ultM)=0) = 9.
+
+There are a number of important kinds of
+mathematical arcivients whose conveni.ent formaliza-
+
+: Iﬂ"'.nr : :l‘ VS Tnv ¢ 1ve Yy » (e
+L33CC @ NALT consigstinc of an olomaenidt ol
+
+e —— T e — AL
+
+For some purposes functions of two variables
+
+1s the union of
+of which is in 1-1 corve
+othexr with B,
+n (A@B) =
+The elements of
+
+A or B subscripted with the set Lfrom which they
+comes =1 e sra SmorShits]
+A ==
+
+ 
+
+ 
+
+i i e s o s e e e S — ————————
+
+s e gt s Al O s
+
+—— ————-
+
+6. Recursive Definitions of Sets R o
+
+In the previous sections on recursive defi-
+nition of functions the domains and ranges of the
+basic functions were prescribed and the defined
+functions had the same domains and ranges.
+
+In this section we shall consider the defi-
+nition of new sets and the basic functions on
+them. TFirst we shall consider some operations
+whereliv. " The’ Tat- AR Be pq%{ Ut AxB of two sets A | -+
+and B is the set of all ordered pairs (a.b) with 5
+aéA and beB. If A and B are finite sets and 7
+
+'n(A) and n(B) denote the numbers of members of
+
+and B respectively then 11(AxR=n(A)*
+A8 Assocldted w1tR’tne palg'ol é%égl\gikb
+
+   
+ 
+ 
+ 
+
+|
+f
+!
+f
+|
+|
+'
+
+are
+two canonical mappings
+WA B:AxB->A defined by WA B((a-b)) = a
+.@.’ :AXB — B defined b = a.b = b
+i . | yQA gt(a:b))
+
+)
+The word ''c
+
+anonical" refers to the fact that;
+and t%
+
+= are defined by the sets A and B
+
+T e ——
+
+m
+A,B
+
+and do not depend on knowing anything about the
+members of A and B.
+
+The next canonical function X/is a function
+of two variables };’B:A,B-ﬂ~AxB defined by
+
+YA,B(a,b) = (a-+b)
+
+)
+
+N
+
+e
+
+ 
+
+e b
+
+X%
+from A and y from B can he identified with func-
+tions of one variable defined on AxB.
+
+‘ 2. The direct union A®B of the sets A and B
+WO non-intersecting subsets one
+spondence with A and the
+If A and B are finite, then
+n(A)in(3) even if A and B intersect,
+
+ 
+
+- . . - - e
+R g
+
+ARD nmay be written as elements of
+
+4
+The canonical mappinzs ascociated with the
+
+Ay~ TR T S e Tl A ANy o3

@@ -1,0 +1,119 @@
+1022 Annals New York Academy of Sciences
+
+In measurements of the distribution of potential around the chest at the mid-
+ventricular level® the peak of the potential-gradient curve was usually from
+3 to 8 cm. to the left of the mid-sternal line. FIGURE Sb shows, however, that
+if the dipole angle is 90°, the potential-gradient curve is biphasic, with positive
+and negative maxima equally spaced about the dipole center. 1In this case the
+potential gradient at the point on thg b.oundfary nearest the dipole center is
+zero. The points of zero gradient coincide with points of maximum or mipj.
+mum potential, since at these points the curve of potential against distance
+must have zero slope. Changes of reference potential would have absolutely
+no effect on the potential-gradient curves and would cause only an upward or
+downward shift of the entire potential curve.
+
+Because of this fact no attempt was made to find an exact zero reference
+potential. The reference electrode was placed either midway between the
+poles of the dipole or at a remote point of the tank. It would have been
+possible to use the reference potential at the junction point of two resistors, 4. 15
+but this would have necessitated precautions to avoid any polarization of the
+current electrodes. Frank and Kay'® have discussed the problems involved
+with the above two types of reference systems. A more elaborate method is
+that of Sugi,'® who put three electrolytic tanks “in series” by means of wicks
+and put his reference electrode in a neutral tank. Experiments are now in
+progress in this laboratory to adapt the double-layer tank® to measurements
+in which a finite boundary is present in the upper layer. The technique is to
+leave a very narrow gap in the boundary and to use the bottom layer electrode
+as the reference point. The gap should have a negligible effect on the potential
+distribution inside the boundary.
+
+The effect of increasing the resistivity of the lung sections was also studied
+for other dipole angles. The results are given in TABLE 1.
+
+Dipole 0°. The only significant changes between the homogeneous section
+and the section in which the lung areas had a resistivity ratio of 4 was that the
+maximum potential-gradient increased by 12 per cent, and the potential
+maxima on the boundary shifts in location by about 1 cm. When the ratio
+increased from 4 to infinity the magnitudes of both positive and negative po-
+tential maxima decreased, and the lateral-wall potentials also decreased. The
+potential maxima were located much nearer the front of the section. These
+effects may be explained by the increased shielding action of the lung sections.
+
+Dipole 30°. As the resistivity ratio was changed from 1 to infinity the mag-
+nitude of the maximum negative potential on the right side increased, but the
+maximum positive potential on the left side fell. The side-wall potentials
+varied in the same way. The left-side maximum potential dropped to about
+one third of its original value, whereas the increase in right-side maximum
+potential was only 13 per cent. The locations of the potential maxima anfi
+zero points on the boundary did not change to any great extent. The maxi-
+mum potential gradient increased in value as the resistivity ratio increased
+from 1 to 4, and then decreased again as the ratio increased from 4 to infinity.
+As the resistivity of the lung sections increased, the right lung tended to chann§l
+the current toward the front of the thorax, and this caused the potential in this
+region to increase. At the same time, however, the left lung impeded the flow
+
+ 
+
+ 
+
+ 
+
+Nelson: Human Thorax Potentials 1023
+TABLE 1
+EFFECT OF CHANGES IN RELATIVE RESISTIVITY OF LunGc SEcTIONS
+1 2 3 4 5 6 7 8
+Vmgx. Vmax, Viero VvV
+magnitude location location lateral wall,
+; Res. volts cm. | cm, Ex Enq volts
+ratio S h e | mafmtude location
+volts/cm. cm.
+
+R L R 1% R —25 +25
+C cm
+0° —.68|.68/—10.2{10.4/ 0 |49.5 214 0 — .45 45
+4 —.09/.68| —9.2| 9.2 0 |49.5 244 +40.5 —.46 | .46
+0 —.60/.54| —5.8| 5.8/— 0.1/49.5 250 0 —.30 24
+30° 1 —.77(.60| —5 |18.4|—40.1| 2.5 196 +0.5 —.22 57
+4 —.86[.51| —4 |18.4|—42.4| 2.1 223 —0.4 —.29 | .49
+0 —.89(.21| —4 |17 |—48 2.6 20 0 —-.33 20
+60° 1 —.87|.53] —2 |31 |—22.8| 6.8 150 +1.1 0065752
+4 —.88/.51| —4 (32 |-—25.6| 7 .142 —0.4 —.02 | .49
+© —1.03/.09( —3.6/40 |—47 |23 .132 +0.4 —.30 | .03
+90° 1 —1 92 0.2/49.5|—13.6{14.1| +.115 +2.6 34 | .34
+4 —.77|.47 0 [49.5|—15.2(15.3] +.075 +5.2 S 3l e § |
+%0 —.88/.03 0 [|49.5|—42 |42 +.040 +5 —.201| .20
+
+—*—%
+
+Column 1 is the dipole angle. Column 2 shows the resistivity ratio of the lung sections
+(resistivity ratio 1 is the homogeneous section, and for ratios of 4 and infinity the insulating
+spine and sternum sections were also in the tank). Columns 3 and 4 give the magnitude and
+location of points of maximum positive and negative potential on the thorax boundary. Col-
+umn 5 shows the location of the points of zero potential. Columns 6 and 7 show the magni-
+tude and location of the peak of the potential-gradient curve on the boundary. Column 8
+gives the potential at points on the right and left lateral walls of the thorax section, at dis-
+tances from the mid-sternal line of —25 cm. and 425 cm.
+
+of current to the left side of the thorax, and the potential in this region was
+decreased.
+
+Dipole 60°. Again, with increasing lung-resistivity ratio, the magnitude of
+the maximum negative potential on the right side was increased, and the
+maximum positive potential on the left side decreased. The location of the
+potential maxima and the zero points showed a marked change. The maxi-
+mum potential gradient showed a steady decrease, and the side-wall potentials
+were considerably altered. The shape of the potential-gradient curve also
+
+changed. At 46 cm. on the boundary, for example, the value of E changed
+from 0.06 v./cm. to 0.03 v./cm. This means that the slope of the potential
+curve is smaller, and the curve is more spread out, as found. It is possible,
+however, that the increased negativity of the entire curve may be partly due
+to a change in the reference potential.
+
+Dipole 90°. The complete set of charts for the dipole at 90° is shown in
+FIGURE 5, and it has been previously discussed. The complicated effect of
+the inhomogeneous areas can again be emphasized by noting that as the lung-
+resistivity ratio increased, the maximum negative -potential on the boundary
+changed from —1.0 v. to —0.77 v. and back to —0.88 v. The fact that the
+posterior sides and back were not more positive may possibly be due to the
+shielding action of the spine section.

@@ -8,11 +8,6 @@ class ArchivesTestCase(SeleniumTestCase):
         self.assertIn('Home Page', self.driver.title)
         self.check_log_for_errors()
 
-    def test_browse(self):
-        """ Test that archives/browse renders correctly """
-        self.driver.get(self.live_server_url + '/archives/browse/')
-        self.check_log_for_errors()
-
     def test_stories(self):
         """ Test that archives/stories render correctly """
         self.driver.get(self.live_server_url + '/archives/stories/')
@@ -21,11 +16,6 @@ class ArchivesTestCase(SeleniumTestCase):
     def test_search_without_input(self):
         """ Test that the advanced/document search renders correctly with no input """
         self.driver.get(self.live_server_url + '/archives/search/')
-        self.check_log_for_errors()
-
-    def test_simulations(self):
-        """ Test that the standard search renders correctly with no input """
-        self.driver.get(self.live_server_url + '/simulations/')
         self.check_log_for_errors()
 
     def test_search(self):
@@ -44,3 +34,17 @@ class ArchivesTestCase(SeleniumTestCase):
         """ Test that the search is accessible through basic search """
         self.driver.get(self.live_server_url + '/archives/search/?keyword=test')
         self.check_log_for_errors()
+
+    def test_a_story(self):
+        """ Test that a story on the index page can be loaded without issue"""
+        self.driver.get(self.live_server_url)
+        self.assertIn('Home Page', self.driver.title)
+        story = self.driver.find_elements_by_class_name("story-teaser-img-container")[0]
+        story.find_element_by_xpath('..').click()
+        self.check_log_for_errors()
+
+    def test_about(self):
+        """ Test that about renders correctly """
+        self.driver.get(self.live_server_url + '/archives/about/')
+        self.check_log_for_errors()
+

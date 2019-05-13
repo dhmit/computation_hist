@@ -1,0 +1,109 @@
+HUMAN THORAX POTEN TIALS*
+
+Dedes: = By Clifford v NelsonT
+cpartment of Interpay Medicine University of 1/
+’ lal oive
+Sall Lake ¢ 2y; U{(;’}{ ai College of pr edicine,
+
+tive dipole ip the heart,
+
+< :
+thlefdni‘ii’;’fé’,f;’fiie‘é’{iﬁyi?f kol of s o Ptential i v
+clectroly uman thorax, and of meas-
+urements of the distribution of thorax potentials in hymap sui)jects In the
+two-di_mensional studies! the resistivities of the lungs, sternym Spine, and the
+heart 1t§elf were taken into account, but the three-dimension’al stu<iies were
+made with 3 homogeneoys medium. In order to study analytically the effects
+O.f electrical inhomogeneities, image systems were developed for 4 source and
+sink in the vicinity of a disk of finite conductivity Surrounded by an infinite
+medium having a different conductivity. Since the anatomical thorax crosg
+section closely resembled an ellipse, an éxpression was developed for the po-
+tential due to a source and sink inside an ellipse. The measuring equipment
+used in the two-dimensiona] studies has been described previously 2
+
+and
+
+PARrT I: TWO-DIMENSIONAL STUDIES
+Validity of T wo-Dimensional Field Studies
+
+Making measurements in sectional models of three-dimensional systems has
+been a technique used in engineering for many years.®* Where the system is
+uniform along the vertical axis, such measurements g1Ve very accurate results.
+In many cases where such vertical uniformity does not exist, sectional studijes
+still give surprisingly good results. ¢ Recently, sectional models of the human
+body have been used to study the leads used in electrocardiograpliy and vector-
+cardiography.5 6 [t is very much easier to make measurements In two dimen-
+sions, and it is, therefore, important to determine to what extent such meas-
+urements are of value.
+
+To test this point with reference to the horizontal plane, measurements were
+also made in a three-dimensional thorax model. As the outline of the ana-
+tomical thorax cross section appeared to resemble an ellipse, an effort waT
+made to draw the true ellipse that would most closely correspond to the actua
+
+i in thi vas done during the years 1949 to 1953 in the Physiolog_y
+De;;‘:);;(;tkhgiesgﬁl;:;i i;]otsl;;istii)? i\)'fg(iiélal School, Logn_dmlil, E(?g]ands’o?:gpt}il:sglf)(ittr}i?]l)rE(:)?egclt-
+neering Department, Imperia |.Colletg e(())‘f g(t::ilncsezil;tlllsf;ll(re Ci)tr;',o[?t.ah. The work has been sup-
+iifii"tiaii)(if; gi')ziiiiglflf:r:tt}tile]eB[r{irii:lfr;ie{iical Res’earch Council, London, England, and the Amer-
+
+; ¢ H-2072 and H-2590 from the
+1 iation, New York, N. Y., and by Grants Nos. : : e
+i\cizrt]itiilizzirltngsislzcti;ti)ofnltlea‘ith, Public Health Service, Department of Health, Education, an
+
+' s I i ciation, New
+wef”?{l:s,egrecti? el?‘glaii)w and Established Investigator of the American Heart Asso
+
+) s g)’ I C t’ d n b )
+
+ 
+
+Nelson: Human Thorax Poten tials 1015
+
+   
+     
+
+APPROXIMATION OF
+THORAX BOUNDARY
+BY AN ELLIPSF
+
+  
+    
+   
+
+=0
+ELLIPSE  x2, y2 _
+
+      
+   
+   
+
+A g
+A= 16.5 - J3
+B=13% 9.
+C= A2-82=9~5
+
+ 
+
+=8
+Ficure 1. Approximation of the thorax boundary by an ellipse.
+
+section. The tank js described further in PART II of thjs article, and is shown
+In FIGURE 13,
+
+FIGURE 2 shows the distribution of potential around the boundary of the
+homogeneous thorax section, with a dipole angle g8 of (°, The left-hand edge
+of this graph corresponds to the center of the back of the thorax section. Dis-
+tances from the Jeft edge to the center correspond to distances going from the
+back around the right side of the chest to the front. Zero corresponds to the
+mid-sternal line. Distances to the right on the graph go around the eft side
+of the chest to the back, and the right-hand edge of FIGURE 2 again corresponds
+to the back of the section. FIGURE 3 shows similar boundary distributions
+taken in the deep tank at the leve] of the dipole center for the same horizontal
+angle of the dipole, 8 = 0°. From top to bottom the curves are for angles of
+the dipole with the horizontal plane (@) of 4-90° to —90°. Ty is seen that for
+vertical dipole angles of +30°, 0° and —30° the shapes of the curves for the
+boundary potentia] are very similar to the two-dimensional curves. As the
+reference electrode was located at the bottom of the deep tank, these potentials
+are similar to body potentials using the left leg as reference. Use of any other
+reference point would merely cause an upward or downward deflection of the
+entire curve without changing its shape (the amount of the shift depending on

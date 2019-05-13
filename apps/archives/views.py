@@ -1,17 +1,11 @@
 import random
-import re
-from collections import Counter
 
-from django.db.models import Q
-from django.http import Http404
-from django.shortcuts import get_list_or_404, get_object_or_404, render
-from django.template.loader import TemplateDoesNotExist
 from django.core.exceptions import ObjectDoesNotExist
+from django.http import Http404
+from django.shortcuts import get_object_or_404, render
 
-from utilities.common import get_file_path
 from .models import Person, Document, Box, Folder, Organization
 from .search import process_search
-
 
 # NOTE(ra): this hardcoded pattern isn't great, but we're since we're using
 # jinja2 templates as a data source for the stories, it gets us to a usable
@@ -27,6 +21,8 @@ STORIES = [
     'time_records',
     'digital_humanities',
     'women_in_symbols',
+    'whirlwind',
+    'network_story',
 ]
 
 
@@ -56,18 +52,46 @@ def person(request, slug):
     return render(request, 'archives/person.jinja2', obj_dict)
 
 
-def doc(request, doc_id=None, slug=None):
+def get_neighboring_docs(doc_obj):
+    """
+    :param doc_obj:
+    :return: tuple that holds (previous_doc, next_doc) - if doc doesn't exist return False instead
+    """
+
+    filename_split = doc_obj.file_name.split("_")
+
+    doc_number = int(filename_split[-1])
+
+    previous_doc_number = doc_number - 1
+    next_doc_number = doc_number + 1
+
+    filename_split[-1] = str(previous_doc_number)
+    previous_doc_file_name = "_".join(filename_split)
+
+    filename_split[-1] = str(next_doc_number)
+    next_doc_file_name = "_".join(filename_split)
+
+    try:
+        previous_doc = Document.objects.get(file_name=previous_doc_file_name)
+    except ObjectDoesNotExist:
+        previous_doc = None
+
+    try:
+        next_doc = Document.objects.get(file_name=next_doc_file_name)
+    except ObjectDoesNotExist:
+        next_doc = None
+
+    return previous_doc, next_doc
+
+
+def doc(request, slug=None):
     """
     Puts a document on the screen
     :param request:
-    :param doc_id:
     :param slug:
     :return:
     """
-
-    if doc_id:
-        doc_obj = get_object_or_404(Document, pk=doc_id)
-    elif slug:
+    if slug:
         doc_obj = get_object_or_404(Document, slug=slug)
     else:
         # NOTE(ra): the case in which both slug and doc_id are both None
@@ -81,32 +105,27 @@ def doc(request, doc_id=None, slug=None):
 
     author_person_objs = doc_obj.author_person.all()
     author_organization_objs = doc_obj.author_organization.all()
+    authors = list(author_person_objs) + list(author_organization_objs)
+
     recipient_person_objs = doc_obj.recipient_person.all()
     recipient_organization_objs = doc_obj.recipient_organization.all()
+    recipients = list(recipient_person_objs) + list(recipient_organization_objs)
 
-    if recipient_organization_objs:
-        if recipient_organization_objs[0].name == 'unknown':
-            recipient_organization_objs = None
     cced_person_objs = doc_obj.cced_person.all()
     cced_organization_objs = doc_obj.cced_organization.all()
-    if cced_organization_objs:
-        if cced_organization_objs[0].name == 'unknown':
-            cced_organization_objs = None
-    doc_pdf_url = str(get_file_path(doc_obj.folder.box.number, doc_obj.folder.number,
-                                    doc_obj.folder.name, file_type='pdf', path_type='aws',
-                                    doc_id=doc_obj.doc_id))
-    print(doc_pdf_url)
-    print(doc_obj.date)
+    cced = list(cced_person_objs) + list(cced_organization_objs)
+
+    prev_doc, next_doc = get_neighboring_docs(doc_obj)
+    
     obj_dict = {
         'doc_obj': doc_obj,
-        'author_person_objs': author_person_objs,
-        'author_organization_objs': author_organization_objs,
-        'recipient_person_objs': recipient_person_objs,
-        'recipient_organization_objs': recipient_organization_objs,
-        'cced_person_objs': cced_person_objs,
-        'cced_organization_objs': cced_organization_objs,
-        'doc_pdf_url': doc_pdf_url,
+        'authors': authors,
+        'recipients': recipients,
+        'cced': cced,
+        'prev_doc': prev_doc,
+        'next_doc': next_doc,
     }
+
     return render(request, 'archives/doc.jinja2', obj_dict)
 
 
@@ -147,38 +166,49 @@ def organization(request, slug):
     return response
 
 
+def person_unknown_filter(person):
+    if person.last == "":
+        person.last = "Unknown"
+    return person.last
+
+
 def list_obj(request, model_str):
-    """
-    Displays sorted list of Organizations, People, Folders, or Boxes
-    :param request:
-    :param model_str:
-    :return:
-    """
-    if model_str == "organization":
-        model_objs = get_list_or_404(Organization)
-        model_objs.sort(key=lambda x: x.name)
-    elif model_str == "person":
-        model_objs = get_list_or_404(Person)
-        model_objs.sort(key=lambda x: x.last)
-    elif model_str == "folder":
-        model_objs = get_list_or_404(Folder)
-        model_objs.sort(key=lambda x: x.full)
-    elif model_str == "box":
-        model_objs = get_list_or_404(Box)
-        model_objs.sort(key=lambda x: x.number)
+
+    obj_list = []
+
+    if model_str == 'people':
+        for person in Person.objects.all():
+            name = f'{person.last},{person.first}'
+            obj_list.append({
+                'name': f'<a href="{person.url}">{name}</a>',
+                'docs_authored': person.author_person.count(),
+                'docs_received': person.recipient_person.count() + person.cced_person.count()
+            })
+    elif model_str == 'organizations':
+        for org in Organization.objects.all():
+            obj_list.append({
+                'name': f'<a href="{org.url}">{str(org)}</a>',
+                'docs_authored': org.author_organization.count(),
+                'docs_received': org.recipient_organization.count() + org.cced_organization.count()
+            })
+    elif model_str == 'folders':
+        for folder in Folder.objects.all():
+            obj_list.append({
+                'folder_name': f'<a href="{folder.url}">{str(folder)}</a>',
+                'folder_number': '<a href="{}">Box: {}. Folder: {:02d}</a>'.format(folder.url,
+                                                                               folder.box.number,
+                                                                               folder.number)
+            })
     else:
-        raise ValueError("Cannot display this model. Can only display organization, person, "
-                         "folder, or box")
+        raise NotImplementedError(f'List view is not implemented for {model_str} model.')
+
     obj_dict = {
-        'model_objs': model_objs,
         'model_str': model_str,
+        'obj_list': obj_list
     }
+
     response = render(request, 'archives/list.jinja2', obj_dict)
     return response
-
-
-def browse(request):
-    return render(request, 'archives/browse.jinja2')
 
 
 def search(request):
@@ -233,23 +263,75 @@ def net_viz(request):
         graph = file.read()
 
     graph_dict = json.loads(graph)
-
     nodes = graph_dict['nodes']
     links = graph_dict['links']
 
-    # Sorts out everything but the top 100 nodes
-    nodes = sorted(nodes, key=lambda i: i['weight'], reverse=True)[:100]
-    node_list = [i['id'] for i in nodes]
+    if 'node' in request.GET:
+        old_query = request.GET['node']
+        search_node = old_query.lower()
+    else:
+        search_node = None
+        old_query = None
 
-    # Removes all links that connect to nodes that no longer exist
-    links = [i for i in links if i['source'] in node_list and i['target'] in node_list]
+    # if no search is specified, sort out top 100 nodes
+    if not search_node:
+        # Sorts out everything but the top 100 nodes
+        nodes = sorted(nodes, key=lambda i: i['weight'], reverse=True)[:100]
+        node_list = [i['id'] for i in nodes]
 
-    graph_dict = {'nodes': nodes, 'links': links}
+        # Removes all links that connect to nodes that no longer exist
+        links = [i for i in links if i['source'] in node_list and i['target'] in node_list]
+
+    # Otherwise, find applicable nodes and edges
+    else:
+        # Remove links that don't include the relevant node
+        links = [i for i in links if search_node in i['source'].lower() or
+                 search_node in i['target'].lower()]
+        valid_nodes = []
+        for link in links:
+            valid_nodes.append(link['source'])
+            valid_nodes.append(link['target'])
+
+        # Removes nodes that aren't in the list of links
+        nodes = [i for i in nodes if i['id'] in valid_nodes]
+
+    graph_dict = {'nodes': nodes, 'links': links, 'old_query': old_query}
     return render(request, 'archives/net_viz.jinja2', graph_dict)
 
-    
+
 def stories(request):
     template = 'archives/stories.jinja2'
     context = {'stories': STORIES}
     return render(request, template, context)
+
+
+def about(request):
+    return render(request, 'archives/about.jinja2')
+
+
+def timeline(request):
+    documents = (Document.objects.order_by('date').exclude(date=None))
+    last_year = documents.last().date.year
+    documents_by_year = {}
+    documents_by_year["1945-1949"] = []
+    for i in range(1950, last_year + 1):
+        documents_by_year[i] = []
+    for document in documents:
+        year = document.date.year
+        if year < 1950:
+            documents_by_year["1945-1949"].append(document)
+        else:
+            documents_by_year[year].append(document)
+    context = {'documents_by_year': documents_by_year}
+    return render(request, 'archives/timeline.jinja2', context)
+
+
+def all_docs(request):
+    """ We're not going to show this publically (probably) -- this is for metadata cleaning """
+    docs = (Document.objects.all()
+                           .order_by('folder__box__number', 'folder__number', 'doc_id')
+                           .prefetch_related('folder', 'folder__box'))
+
+    return render(request, 'archives/all_docs.jinja2', {'docs': docs})
+
 

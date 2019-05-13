@@ -1,0 +1,53 @@
+o=
+
+cperation to €xXperimental ang theoretical problems, thus appreclably
+broadening the range of applicability of computers in the physical
+and social Sclences and in éngineering.
+
+It 1is appropriate for government agencies to help support
+the research of this central r'ésearch group. The group’s work will,
+In part, provide dn expanding basis of knowledge of numerical
+analysis and Programming techniques, which can be used by the other
+participants at the Center and will, in part, break ground in new
+fields of mathematical loglic and methods of data processing which
+wWill be needed in the application of digital computers to new tasks.,
+
+Most of the Senior staff fop Such a research group is
+already assembled at the Institute, Part of 1t 1is the group which
+developed Whirlwing I programming: others are in various departments
+of the Institute, From time to time, some of the staff of the
+Participating colleges would Join it for 3 Semester or a year, on
+leave from their institution, to work full-time at the Center,
+
+IBM and the Institute will contribute about g half million
+dollars g year to provide the equipnment, building, maintenance, and
+operating staff of the Center. Ve believe that a contribution of
+about 100,000 a year will support the activities of the central
+research group, which will énergize and take the lead in the re-
+Search carried on at the Computation Center by Students and staff
+of MIT and the participating colleges., Ve list later in this
+proposal some of the 8pecific research Projects we are preparad to
+start on. Other Projects will develop naturally from these ang
+from the problems encountered by the other workers at the Computation
+Center,
+
+The project would not start at rfull 8trength. The 704 wil)
+not be installed until January or February 1957, though analytiec
+work can be started before the machine is installed, The present
+Whirlwind computing research group can be Supported by the present
+ONR contract until December 1956, but a few new staff members must
+be brought in in September in order to get ready for the new machine
+installation. Ve eStimate that a totaj budget of $60,000 would
+Suffice for the next academic year, g90,000 for 1957-58 ang 3100, 000
+for 1958-59. Details are glven later in this pProposal. At the
+beginning of 1959 the pProgram should bpe re-evaluated to determine
+needs beyond that time.
+
+S e ——————es
+
+After conversations with the scientific directors and
+division chiefs of ONR and NSF, we are requesting financial sSupport ;
+from both dgeéticies, an equal share from each. We believe the work |
+can be divided so “hat “eharate contracts ean be written. Some of L
+the proposed taske would be flffar:rt, though some of the broader
+Yields of investig ticn oulg overlap. Ue would hope that we could |
