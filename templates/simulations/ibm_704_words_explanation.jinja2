@@ -15,7 +15,7 @@
 
     <p>There are two kinds of instructions: Type A and Type B.  Each instruction consists of the
     operation, the address, the tag, and in the case of Type A instructions, a decrement, with each
-    of these things occupying a different set of bits.  </p>
+    of these occupying a different set of bits.  </p>
 
     <p>The address describes which register in the general memory that the operation will target.  </p>
 
@@ -48,14 +48,14 @@
 
     <h3 id="typebinstructions">Type B Instructions</h3>
 
-    <p>Most instructions are Type B instructions.  All Type B instructions have bits 1 and 2 equal to 0
-    .  The first 12 bits represent the  operation, while the tag and address occupy the same location as in Type A
+    <p>Most instructions are Type B instructions.  All Type B instructions have bits 1 and 2 equal to 0.  The first
+        12 bits represent the  operation, while the tag and address occupy the same location as in Type A
         instructions (18-20 and 21-35 respectively).  Bits 12-17 aren't used. </p>
 
     <p><img class="img-fluid" src="{{ static('img/simulations/Type_B_Instruction_Structure.png') }}" alt="Diagram illustrating use of
     bits in IBM 704 Type B instruction" /></p>
 
-    <p>Note that the operation has a sign bit.  For whatever reason, it is conventional to refer to
+    <p>Note that the operation has a sign bit.  In the manual, it is conventional to refer to
     operations octal values as signed.  Thus, <code>100101000000</code> would not be <code>4500</code> in octal but <code>-0500</code>.  </p>
 
     <h2 id="numbers">Numbers</h2>
