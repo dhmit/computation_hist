@@ -1,0 +1,53 @@
+o
+
+Facilities: The MIT Computation Center will have a Type TO4
+Electronic Data Processing Machine with the following machine
+complement: 12 magnetic tape units, 2 magnetic CORE storage units
+containing a total of 8,000 words, 1 magnetic drum unit contalning
+4,000 words of storage, the usual on-line punched card reader,
+alphabetic printer, and punched card recorder as well as the 3
+off-line magnetic tape controlled printer, magnetic tape controlled
+card punch, and punched card-to-magnetic tape converter, respectively.
+In addition to the 704, there will be 10 auxiliary punched card
+machines including card punches, collators, sorters, reproducers,
+interpreters, and the Type 407 Accounting Machine. The aggregate
+
+?achine rental, in excess of $50,000 per month, will be donated by
+BM.
+
+" The Type 704 EDPM unit is one of the fastest large-scale
+commercial computers available today. Since the MIT installation
+will be but one of many in the field, techniques, programs, and e
+numerical procedures developed for this machine will be of use to
+others having access to 704 equipment.
+
+Personnel: Superviso and Administrative Personnel Asscociated with
+the Froject
+
+Principal Investigator to be Professor Philip M. Morae,
+Director of the Computation Center. He has been in contact wilth
+computing problems during his career in theoretical physics since
+1930, and with the use of computing equipment since the first Bush
+differential analyzer was available at MIT in 1936. He got his
+Ph.D. in physics at Princeton in 1929 and has been at MIT asince
+1931, with occasional leaves of atsence. His publications include
+the booke "Quantum Mechanics® (with E. U. Condon) 1930, "Vibration
+and Sound” 1936, "Methods of Operations Research” (with G. E. Kimball)
+1950, and "Methods of Theoretical Physics" (with Herman Feshbach)
+1953, and about a hundred journal articles, many of which glve re-
+sults obtained from machine cowputation. For further biographic
+detalls, see "Who's Who." Only a fraction of his salary will be
+charged to the Project. z
+
+Professor F. B. Hildebrand has been teachling and conducting
+research in numerical analysis in the Hathematics Department at MIT
+since 1938, He got his Ph.D. in Mathematics from MIT ln 1940, He
+is the author of three texts: "Advanced Calculus for Engineers”
+(1949), "Methods of APplied Mathematics" (1952) and "Introductlon
+to Numerical Analysis" (1956) as well as a number of articles in
+various research Jjournals. Only a fraction of his salary will be
+charged to the ProJject.
+
+Dean N. Arden, who has been a member of the Whirlwind
+Programming Research Group for three years, has been head of the
+group since July 1955 and who will head the prograuming research

@@ -1,0 +1,116 @@
+Fay Foto Service, Inc.
+
+View of control panel of the 704 computer. Colored buttons
+on the panel provide general operating controls, such as stop
+or start, read card, etc. Detailed instructions of the machine
+program are read from punched cards into the memory unit
+and from thence exercise high-speed control of the details of
+each computation. Buttons on the lower right-hand part of
+the panel may be programmed to provide other external con-
+trols as needed. Neon lights on the central part of the panel
+indicate the operation of various parts of the circuitry.
+
+generates quantities of heat, which must be carried
+away or the machine would overheat in a few min-
+utes. In most installations the cooling is achieved by
+flooding the area with cool air, then sucking this air
+into each unit as it comes by, and blowing it over the
+hot elements by means of a fan — a rather unimagina-
+tive method and a noisy one, for the unit fans cause
+95 per cent of the noise! In the installation at the
+[nstitute the cooled air, at a slight excess pressure,
+is ducted directly to each machine so that no unit
+fans are needed, and the unit elements run actually
+cooler than in the usual installation. Fans have been
+eliminated from all major units except the magnetic
+drum, which now generates more noise than all the
+rest. As soon as arrangements can be made to remove
+the tans from this unit, the area will be as quiet as
+some of the libraries or other intellectual work areas
+at the Institute.
+
+[f the visitor finds his way down the stairs to the
+preparation room below, he will see more activity.
+Machine users are preparing cards by operating the
+typewriter keyboards of the card-punch machines,
+are duplicating cards from some standard-routine
+deck to insert in their own pile, or are running their
+cards through a sorter. In these various ways they
+cet together (in the form of a set of holes punched in
+a deck of cards) the instructions, definitions, and data
+which tell the machine how to do their problem. If
+the dozen to a hundred holes are punched right on
+
+9
+
+ 
+
+cach card and if the 20 to 500 cards are in the rf'ght
+order, then the machine will translate the instructun’ns
+and data into meaningful electronic activity, and wn.ll
+solve the posed problem in a hurry. The card deck is
+the user’s means of telling the machine what he wants
+in a language the machine can understand.
+
+But there is a long history of activity beforf: th.c
+cards are punched and fed to the mach.me, which is
+not as apparent to the casual visitor as 1s the'order]y
+bustle in the machine room. Some of it is being car-
+ried out all over the Institute as M.LT. Faculty
+members translate their mathematical equations into
+instructions to punch onto cards, and as students
+struggle to state their thesis probl.ems in a langt.la.ge
+appropriate for machine calculation. Some activity
+is being carried out, by visitors from other New Eng-
+land colleges, in the offices across the hall from the
+machine room, for the equipment at the Center has
+been donated by the International Business Machines
+Corporation for the use of all the colleges in New
+England.
+
+At present, some two dozen New England colleges
+and universities are actively participating in a large-
+scale program aimed at introducing the use of elec-
+tronic computers into the college curriculum. Each
+August a special two-weeks’ course in coding is given
+by the Center staff to interested students and faculty
+members from all these schools. Those who have
+taken the course go back to their institutions and
+teach others how to use the equipment. At present,
+of the 150-odd problems being run by the machine,
+about 40 are from New England colleges other than
+M.L.T. The relative number is increasing, despite the
+greater difficulty out-of-towners experience in using
+the facilities, and it is hoped that eventually half the
+problems on the machine at any time will be from
+the other institutions.
+
+Already the machine is busy helping to solve prob-
+lems in a wide variety of fields of science, including
+anthropology, astronomy, chemistry, economics, en-
+gineering, geology, industrial management, mathe-
+matics, metallurgy, meteorology, modern languages,
+operations research, physics, and psychology. For ex-
+ample, as was reported in the newspapers, as soon as
+accurate visual sightings were reported, the orbits
+of the Russian satellites were computed by the ma-
+chine; the results checked closely with those com-
+puted in Washington from radar sightings. In another
+case, the computer has been used to help establish
+the origin of peculiar glasslike fragments called tek-
+tites, which are found in various parts of the world,
+but do not appear to be of terrestrial origin. It has
+been suggested that tektites may be extraterrestrial
+particles that have been splashed off the moon by
+supermeteoric collisions, and peppered the earth mil-
+lennia ago. The possible orbits of such particles have
+been calculated by the computer; the results seem
+to check with the distribution of tektites on the
+earth, though this does not prove their lunar origin.
+The Sputnik and the tektite problems have origi-
+nat?d with the Harvard Observatory and the Smith-
+sonian Institution,
+
+To mention a few more examples, the M.I.T. De-
+partment of Meteorology has several large problems
+running concerned with weather prediction; the 704

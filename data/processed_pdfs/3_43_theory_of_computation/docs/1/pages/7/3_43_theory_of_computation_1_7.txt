@@ -1,0 +1,152 @@
+- .
+
+W T T T -
+
+in the set V, It is customary to describe this
+situation by writ@ng
+
+N >
+N J:U XU XL L XU =V
+
+2
+The set le,..xUn of n-tuplets (xl,:..,xn) is
+
+called the domain of £,
+the range of\f, :
+Forms and Functions, In order to make
+propcerly the definitions that follow, we will
+dis%inﬁuish between functions and expressions
+Following Church™ the
+
+and the set V ie\called
+
+ 
+
+1nvolv1n<r variables,
+,flattez are called forms.,
+: £f,g,h, etc, or sequences. of letters such as sin
+s are used to denote funcélons _
+as f(x y) f(g(x),y) x +y are called forms, In
+partlcular we may refer to the function £
+~defined by f(x,y)=x +y. Our definitions will be
+written as though all forms involving functions
+were written f(,.,..,) although we will use
+expressions like x+y with infixes like % in
+examples,
+
+Composition, Now we shall describe the ways
+
+in which new functions are defined from old,
+
+The first way may be called (generalized) com-
+position and involves the use of forms, We e shall
+use the letters x,y,... (sometimes with sub-
+scripts) for variables and will suppose that
+there is a notation for constants that does not
+'make'expressions ambiguous, (Thus, the decimal
+notation is allowed for constants when we are
+dealing with integers,)
+
+Tihe class of forms is defined recursively
+as follows:
+
+i) A variable x with an associatcd space U
+is a form,
+A constant in a space U is a form and we also
+associate U with this form,
+
+T Cl""’en are forms associated with
+the spaces Ul)...,v_ respectively, then
+f(e er)—is o form associated with the space
+Il
+
+V., In th way the form (£(g(x,y),x) is
+
+Single letters such as
+
+and with this form we also associate U.’
+
+- P
+tak g ts - ‘. O ) ;
+
+\,\A .
+
+Expressions suehw”"h
+
+‘\pertlal function which 1
+n-tuplets, ﬁ;>&\
+
+nraone
+
+    
+
+b-‘c‘ -,‘
+
+ 
+
+doma is called a
+
+We adm-t the imiting case of a
+S no{/defined for any S
+
+ 
+
+pl
+total function,
+
+“The n-tuplets for which a function de-
+
+scribed by composition’is defined is determlneg////
+in an obvious way from the sets of n tuplet r
+which the functlons entering the comp051t12p/;
+are deflned If all the functions occurring i
+a composition are total functions, the new func-
+tion is also a“total function, but the ‘other
+processes for defining functlons are not so kind
+to totality, When the work "function" is used
+from here on, we shell mean partial funcfion
+
+- Having to introduce partial functions\ls a
+~nuisance, but an unavoi able one, The rules for
+defining computable functions sometimes give
+computation processes that never terminate, and
+when the computation process fails to terminate
+the result is undefined, It has been shown that
+there is no effective general way of deciding
+whether a process will terminate,
+
+Predicates and Propositional Forms
+The space 77 of truth values whose only
+
+elements are T (for truth) and F (for falsity)
+has a special role in our theory, A function
+whose range is 77 is called a predicate, Ex-
+
+amples of predicates on the integers are prime
+defined by
+
+ 
+
+ 
+
+T if x is prime
+prime(x)
+xF otherwise
+and less defined by
+
+(Tif-x<y
+less(x,y) i
+F otherwise
+We shall, of course, write x<y instead of
+
+less(x,y), For any space U there is a predi-
+cate eqU of two arguments defined by
+!T if x=y
+eq, (x,y) =
+(F otherwise
+We shall write x=y instead of
+
+a6, bt
+
+a'.
+2O w1 o ey 1) v~ Pl il e o et e = 1 4 - w9

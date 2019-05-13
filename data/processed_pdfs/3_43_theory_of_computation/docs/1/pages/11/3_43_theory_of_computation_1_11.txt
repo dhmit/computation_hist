@@ -1,0 +1,131 @@
+‘@' GYS17 > < Ao
+
+o be evaluated and then the func—-
+
+      
+
+g‘ applied. : S
+3. f any expression” f (e ...e*) occurs‘lt
+
+is to be evaluqtcd from the defining equatlon.
+
+; 7
+\,,4. Any subexp ‘essions of e1 that hgye to be
+/\ P
+evaluated are cvnluatod\accordlng to the same
+rules, > - \
+
+S. Variables occurrlng as suboxpr0551ons are
+valuated by giving them the assigned values’ N
+
+There is no guarantee that the evaluation N
+
+process will terminate in any given case. 1T for
+particular arguments the process docs not ter-
+minate, then the function is undefined for these
+arguments, The possibility of termination
+
+depends on the presence of conditional ex-
+pressions in the e, 's.
+
+The class of functions C ggZ:;computable in
+terms of the given base functions “~ is defined
+to consist of the functions which can be defined
+by repeated applications of the above recursive
+definition process.
+
+2. Recursive Functions of the Integers
+
+In Reference 7 we dZVéTEE the recursive func-
+tions of a class of symbolic expressions in terms
+of the conditional expression and recursive func-
+tion formalism,
+
+As an example of the use of recursive func-
+tion definitions, we shall give recursive defi-
+nitions of a numbor of functions over the integers,
+We do this for three reasons: to help the reader
+familiarize himself with recursive definition, to
+show how much simpler in practice our methods of
+recursive definition are than either Turing
+machines or Klecne's formalism, and to prove that
+any partial recursive function (Kloene) on the
+non-necgative integers is in C where <~ con-
+tains onl} the successor functlon and the
+predicate equality,
+
+-,
+
+Ll .j/ \\
+
+\‘
+
+X prime(n)
+
+—— N prime2(n, n)
+
+   
+        
+
+- 5 I,T T --)‘i .
+
+which is defino only for m n"the ine
+
+.m <=n (m70)/v (A (n=0) A (m )
+the strict 1nequality e :
+
+m< n (m< n) /Iru(rn..n) \
+the. 1nte"er valued quotient
+m/ (mn < n-0,T — ((m-n)/n) )
+//<the remainder \~‘ :
+rem(m/n) = (m < n‘ﬂ-m » T = rem(m-n/n)) :
+and. the divisibility of a numbcr n by a number
+m \\ ,/ \\\
+m'n\z (n= O)\/((n,/m)/1(m[(n—m))) /// N
+The primeness of a number-is defined- byl .
+
+< (111.’0) /1 (n/l)/]prlme 2(n 2) /_/
+
+N where / /-
+(m n)\/((nr%n)/1pr1mc?(n m')))
+The Buclidean algorithm defines the
+greatest common divisor if we write
+ged(n,n) (m > n — gcd(n,n), rem(n/m)
+— m,T>gcd(ren(m/m),mn))
+and we can define Euler's(} —=function by
+
+?(n) - ?2(n,n)
+?2(1),111)
+
+ 
+
+-
+
+where
+
+(m=1 — 1, gcd(n,n)
+
+T =—> E’Z(n,m"))
+
+The above shows that our form of recursion
+1s a convenient way of defi ning arithmetical
+functions. Ve shall see how the properties of
+the arithmetical functions can conveniently be
+derived in this formalism in a later section,
+
+3. Computable Functionals
+
+The formalism prosfgﬁsly described enables
+us to define functions that have functions as
+arguments. Tor example,
+
+i_a
+
+1=In
+can be regarded as a functlon of the numbers m
+and n and the scquence akj If we rezard the
+scquence as a function f we can write the
+
+recursive definition
+
+1->@2(n,m")",

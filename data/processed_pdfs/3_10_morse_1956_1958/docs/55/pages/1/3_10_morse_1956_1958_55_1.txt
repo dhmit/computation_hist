@@ -1,0 +1,40 @@
+T o4
+Heeting, Jaauayry 30, 1856
+
+-~ . 2 T o - o « 3 . - .
+List of Ideas for Research Projects
+“~M““O~MW~-
+
+T ——— —
+
+ 
+
+ 
+
+1. Algebraic and logical compiler
+
+Pevelopment of a routine capable of transliating to and fron
+compuier coding and algekraic notation,
+
+Possible including some automatic selection of numerical
+techniques and automatic errcy analysis.,
+
+4, Investigation of Structure and Syntax of possible input lenguages
+
+1
+A
+
+J. Coding of Tarski's decision method for elenentary slgebra and geon
+
+» -
+
+e =n
+Qb-’-ya
+
+4. Investigation of microprogramming and other methods for increasing the
+
+w2 <0
+£ - o - oz A o N - N s
+fiexibility of computer @esign,
+2 Traer o e % opom & o8 L : St G ety \turl ANl T Aot An £ : 4 ' 4
+o. Investigation of new cechniques and applications of linear programini

@@ -1,186 +1,42 @@
-June 7, 1957
+INTERNATIONAL BUSINESS MACHINES CORPORATION
 
-Memorandum to: Mr. J. Blackburn
-Cambridge Office
+363 THIRD STREET CAMBRIDGE 42, MASSACHUSETTS UNIVERSITY 4-699 0
 
-Enclosed please find program entitled Data Processing Seminar for
-University Professors - August 5th - August 9th, 1957 - Endicott.
+January 14, 1957
 
-We would like to have some one from M.I.T. give a talk the after-
-noon of August 6th on the University Computing Curriculum. It is
-felt that M,I.T. could most aptly contribute on this topic.
+Prof. P. M. Morse
 
-Please let us know the person you select to give the talk, and
-advise him that it would be helpful that he provide a write up on
-his talk, or an outline, providing 60 copies for distribution to
-the audience, and providing a multilith master for later dis-
-tribution of the proceedings.
+Massachusetts Institute of Technology
+77 Massachusetts Avenue
 
-We also enclose a copy of those professors who have enrolled for
-the Seminar, U4 people, and those we expect to enroll, 27 people.
+Cambridge, Massachusetts
 
-We would appreciate it if you would follow up on those names on
-the list and others so that we are assured of a quality attendance,
+Dear Prof. Morse:
 
-as well as quantity participation.
+I have discussed with Dr, C, R. DeCarlo the question of
+helping defray some of the costs of semi annual reports from the
+Computation Center. We would like to have your best estimate of all
+the costs that would be involved.
 
-M. A. Shader
+We would particularly like this separate so that the
+actual printing costs can be determined by the number of copies to
+be printed. As soon as I have this information, I think we can reach
+a decision on this matter.
 
-MAS :mm
-Encl.
-cc: Dr. Homer Givin
+Sincerely yours,
 
-Mr. D. Wall
-Mr. Ralph Partington
+CAA An An”
 
+G. Truman Hunter
+Educational Co-ordinator
+GTH/ jeh
+cc: Prof. FF. M. Verzuh
 
-re .
-, >
-' ’ -
-'
-* .
-»
-» * . .
-A . >
-\ BD -— v
-fh v » -
-» ‘ - " r &
-- - o - ~ - - -—
-’ ’ '
-i » - - -
-
-
-IBM UNIVERSITY PROGRAM
-
-BASIS FOR SELECTION OF PARTICIPANTS
-——— SRL NTY
+YORK 22, N.Y., TELEPHONE PLAZA 3-1900
 
  
 
-Data Processing Seminar for University Professors - August 5th -
-August 9th, 1957 - Endicott, New York:
-
-The purpose of this Seminar is to bring together
-professors and instructors who are currently
-responsible for courses in the Business Data
-Processing field, It is intended that those in
-attendance will be able to discuss the content of
-existing courses, new applications, and new
-courses,
-
-Introduction to Data Processing for University Professors - August 19th
-to August 23rd, 1957 - Endicott, New York:
-
-The purpose of this class is to introduce professors
-and instructors to the problem of teaching and
-organizing classes in Business Data Processing.
-
-
-8/5 9
-10
-1l
-
-IBM UNIVERSITY PROGRAM
-PRELIMINARY PROGRAM
-
-DATA PROCESSING SEMINAR FOR UNIVERSITY PROFESSORS
-
-August 5 - August 9, 1957 - Endicott, N.Y.
-
-10 Welcome
-311 Objectives and Outline of Seminar
-12 IBM University Program
-+ Afternoon Panel Discussion
-2 + Objectives of a University Computing Center
-
-« Organization and Operation of a Univ.
-Computing Center
-4 + Role of Data Processing in a University
-Computing Center
-
-10 + Business Data Processing
-
-1% Data Processing in the Social Services
-
-12 Data Processing of the Future
-Afternoon Panel Discussion
-
-2 University Computing Curriculum
-
-L Watson Laboratory "Grass Roots"
-
-- 650 Instruction Program
-
-12 Operations Research - Present and Future
-Afternoon Panel Discussion
-2 Present O/R Courses
-3 Research in Data Processing
-L Plant Tour
-10 Data Processing Machines of Today
-1) Future Data Processing Machines
-12 Future University Computer Requirements
-2 650 System Demonstration
-Afternoon Panel Discussion
-3 Future Data Processing Courses
-L Future Data Processing Courses
-10 Future Data Processing Research
-11 Educational Aids and Material
-
-12 Conclusion
-
-
-IBM UNIVERSITY PROGRAM
-PRELIMINARY PROGRAM
-
-INTRODUCTION TO DATA PROCESSING FOR UNIVERSITY PROFESSORS
-—— SR son Ir FUR UNLIVERSLIY PROFESSORS
-
-August 19 - August 23, 1957 - Endicott, N.Y.
-
- 
-
-Monday 9:00 - 10:00 Welcome and Introduction to Course
-8/19 10:00 - 10:30 Intent & Purpose of University Program
-10:30 = 10:45 BREAK
-10:45 - 11:30 Definition of Data Processing
-11:30 - 12:00 Role of University in Data Processing
-1:00 - “3:00 Watson Laboratory "Grass Roots"
-650 Instruction Program
-
-3:00 - 3:00 Information Handling (Introduction)
-(Punched card record keeping, compiling,
-selecting, calculating, summarizing
-interpreting machines and functions)
-
-Tuesday 9:00 - 10:00 Watson Laboratory "Grass Roots"
-8/20 650 Instruction Program
-10:00 - 12:00 Information Handling (Introduction)
-tt (Punched card record keeping, compiling,
-. selecting, calculating, summarizing,
-| interpreting machines and functions)
-1:00 Lv 00 Features & Functions of the Type 650
-Wednesday 9:00 - 12:00 Programming the 650 (General description
-8/21 of machine logic, language, introduction
-to coding...
-
-1:00 4:00 Programming the 650 (Flow-charting,
-problem organization, Interpretive
-systems, SOAP...
-
-Thursday 9:00 - 10:30 Data Processing Courses in Universities
-8/22 10:45 - 11:15. Conclusions of Previous Advanced Class
-
-11:15 12:00 Operations Research
-
-1:00 2:45 Plant Tour
-
-3:00 4:00 Machine Demonstrations
-
-Friday 9:00 - 10:00 Present Data Processing Machines
-8/23 Small, Intermediate, Large
-
-10:00 10:30 A Iook Into the Future Machines
-
-10:45 - 12:00 General Summary and Discussion
+<
+WORLD HEADQUARTERS: 590 MADISON hop. HW
 
 

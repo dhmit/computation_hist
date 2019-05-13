@@ -1,0 +1,60 @@
+(Additional copies are available for assistants and assoclates who
+were unable to attend the course.) Particular attention should be
+paid to the distinction between the computer proper, the SHARE
+compiler (SAP), and FORTRAN. 1In addition the value of working out
+the programming exercises should be emphasized.
+
+As further exercises, 1t 1is suggested that closed sub-
+routines be written for generating
+
+fi-and eX. The variable x, which
+i1s specified on entry into the subroutines, may be considered a
+normalized floating point number of either single or double regis-
+ter precision. In elther case use the following numerical tech-
+nigques. For the square root subroutine, Newton's method should be
+employed. You should verify that this reduces to the iterative
+
+formula:
+(V) %[W%'{ > ur'i)J
+
+Give alarms (i.e., stop the computer) i{ x is negative or un-
+normalized. For the exponential subroutine, & number y should be
+found such that 0L y<1, and ‘
+
+v (eY) = e*. Compute the exponential
+of y by the power series expansion and then raise_to the n th
+power. Give alarms if x is unnormalized or if e overflows or
+underflows the floating point range. In writing all subroutines,
+use the conventlons of the SHARE compller. Finally, make estimates
+of the accuracy and operating times of these subroutines.
+
+The current headquarters of the Computation Center are
+at the M.I.T. Digital Computer Laboratory located in the Barta
+Building at 211 Massachusetts Avenue, Cambridge 39, Mass. I will
+have an office at this address and can always be contacted through
+either of two secretaries there, Miss Mary Reilly (Telephone exten-
+sion 3764) and Miss Georgia Nagle(TeleEhone extension 3762). The
+M.I.T. telephone number is UNiversity 4-6900.
+
+Due to the presence of classified work (Project Lincoln)
+in a portion of the Barta Building, there 1s a securlty guard at
+the door. All persons entering and leaving the building have to
+8ign in-and-out and have an identification badge. On your first
+visit to the Center, ask at the desk for Mary Rellly or Georgia
+Nagle, who willl see that you are issued an identiflcation badge.
+
+In general it will not be necessary to inform the Center
+in advance of your visits. However, if you wish to see a particu-
+lar staff member, then an appointment should be made. In additim,
+you should inform me of your first vicit so that I will be sure to
+be available. This first visit should be at your earliest convenience
+after the beginning of your fall semester.
+
+Gl
+; =
+. J. Corbato
+Research Assoclate
+
+ 
+
+oy PP N g - - R e g 4—

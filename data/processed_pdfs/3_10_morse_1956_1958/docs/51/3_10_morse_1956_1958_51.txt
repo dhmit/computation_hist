@@ -1,0 +1,183 @@
+RECEIVED
+
+MASSACHUSETTS INSTITUTE OF TECHNOLOGY JAN 2 68 1956
+DIVISION OF INDUSTRIAL COOPERATION
+CAMBRIDGE 39, MASS. ~ F. M. VERZUH
+
+January 23, 1956
+
+oFFicE PEO ROTOR io DIC-#6345
+#6915
+
+Office of Naval Research
+Loy Summer Street
+Boston, Massachusetts
+
+Reference: Contract N5ori-06001
+
+Dear Sir:
+
+The Massachusetts Institute of Technology submits
+herewith a revised proposal for extension of the reference contract
+to June 30, 1957 at an additional estimated cost of $20,960.00,
+
+We understand that this proposal has been the subject of dlsous-
+gions between Professor P. M., Morse of MIT and Mr. A, J. Wise
+
+of ONR=-MIT, Dr. Carl F, Mukenhaupt of ONR-Bogton, and Dr. F. J.
+Weyl of ONR--Waghington.,
+
+There follows a summary of expenditures and funds
+remaining on the two projects, Whirlwind Operation and Machine
+Methods of Computation, which are currently active under the
+reference contract:
+
+Project #6345 (Whirlwind Operation) has an unexpended
+balance of $97,000 as of November 30, 1955, The current expend-
+itures are approximstely $10,000 per month, The average "income"
+received for Whirlwind usage is approximately $3,000 per month =-
+a net expenditure of $7,000 per month. If it is assumed that the
+present level of income ($3,000 per month) is maintalhed during
+the nineteen-month period December 1, 1955 to June 30, 1957, a
+minimum amount, assuming some tapering off, of $119,000 will be
+required during this period.
+
+However, for the purpose of establishing an estimate of
+unexpended funds on this project as of June 30, 1956, it is esti-
+mated that a higher level of income will exist during the remaining
+seven months. This may average something abové $4,000 a month, On
+this basis we estimate that $57,000 of the $97,000 mentioned above
+will remain unexpended as of June 30, 1956, An mdditional factor
+affecting the budget shown on page L 4s the estimated Computer
+Income for the one-year period ending June 30, 1957. For this period
+only $18,000 in Computer Income has been estimated, Thig is in-
+fluenced by two factors: one being an expected tapering=-off of the
+use of the Whirlwind machine by other projects, and secondly the
+expected beginning of operations under the IBM Type 704 machines,
+
+Project #6915 (Machine Methods of Computation) has an
+unexpended balance of $71,000 as of November 30, 1955. The current
+expenditures are approximately $7,000 per month, If it is assumed
+that the present expénditures remain constant, there will be a balance
+of approximately $22,000 on June 30, 1956, In accordance with our
+present plang’ for terminating the ONR support of this project on
+Juhe 30, 1956, there will be certain additional costs extimated at
+$7,000 associated with the closing out of this project including such
+
+
+2
+
+Office of Naval Research January 23, 1956
+Reference: Contract N50ri-06001 DIC-#6345, #6915
+
+items as the preparation of summary reports on the program of
+Machine Methods of Computation.
+
+This summary 1s based on estimates prepared by Prof-
+egsor P. M. Morse.
+
+Professor Morse further advises that the expected
+arrival of an IBM Type 704 Electronic Data Processing Machine a®
+MIT about January 1, 1957 will create a definlte need for addl-
+tional funds--to finance the conversion of exlsting Whlrlwind
+programs to Type 704 programs.
+
+Under the proposed plan submitted herewlth, Project
+#6345 (Whirlwind Operation) would terminate on June 30, 1957.
+The task order for this period would include the usual Whirlwind
+project activities: |
+
+1. Research in methods of numerical analysis and
+the formulation of sclentific problema for machlne
+solution, together with the training of personnel
+in these methods.
+
+2. Support of the Scientific and Engineering Appllca-
+tiong Group of Project Whirlwind so as to meke the
+computer useful and available for the above-mentioned
+research,
+
+In addition, it is proposed that the following task
+order arlging in connection with the Type 704 EDPM be included:
+
+3, The development of a suitable interpretive program
+and asgsociated coding techniques to permit effectlve
+implementation of the Type 704 machine,
+
+It is anticipated that a separate project will be sel
+up to handle the Type 704 utilization within the MIT Computation
+Center, and a separate request to the ONR for support of this work
+wlll be made in the near future, In this respect certain
+experienced programmers could be made avalleble for transfer to
+this new task as of Januery 1, 1957. Thig entlcipated transfer
+hee been taken into sccount in the budget proposed for Project #6345.
+
+The foregoing proposal does not take into congideration
+termination costs which may be assoclated with the close out of
+this contract and the possible disposition of the Whirlwind Computer.
+It is proposed to delay the submittal of any budget for this matter
+until such %ime as disposition of the Whirlwind Computer ls
+determined,
+
+
+Office of Naval Research January 23, 1956
+Reference: Contract NSori-06001 DIC=-#6345, #6915
+
+The estimated budget for the period July 1, 1956 to
+June 30, 1957 is attached herewith as page 4,
+
+Very truly yours,
+
+L. E, Beckley
+Asgistant Director
+
+LEB/dmb
+In quintuplicate
+ce: ONR/Boston
+ONR/MIT
+ONR/Wash.,, Adv, cc: Mr, F. A. Glroux
+Pr. C. FP. Floe
+Prof, P. M. Morse
+Dr. FPF, M. Verzuh
+
+
+then
+
+Estimated Budget for DIC Projects 6345 and 6915
+(Figeal Period July 1, 1956 - June 30, 1957)
+
+Salaries and Wages
+
+ 
+
+ 
+
+Administrative Supervision $ 5,500
+Technical Supervision 3,000
+2 Research Assistants @ $3,000 6,000
+I Mathematicians @ $6,000 (6 mos, ) 12,000
+2 Analyste and Programmers © $5,000 10,000
+2 Geeretaries 6,500
+4 Typists and Clerks (Tape Preparation) 12,000
+li Computer Operators 13,200
+1 Photo Lab. Assistant 3,200
+§ 71,400
+overhead - Estimated at LO% 28, 560
+Travel 5,000
+Materials and Services 6,000
+$110,960
+
+Reports and other closing out costs
+for Project 6915 7,000
+$117,960
+
+ratimated Unexpended funds in 6345 - $57,000
+Fatimated Unexpended funds 1n 6915 = 22,000
+Estimated Computer Income
+
+- if ono
+
+Minimum Amount TO be Requested of :
+ONR for 1956-1957. © ¢ ° 0° ° ° © ° ° 0 o o ° © ° o $ 20,960
+
+

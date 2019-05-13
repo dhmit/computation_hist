@@ -1,0 +1,95 @@
+1024 Annals New York Academy of Sciences
+
+Effect of Greater Conductivity of the Heart Areq
+
+In the experiments discussed so far -
+ductivity of the heart!®: 17. 18 que to th,etl:})ﬁc?g (Lcatsobfezz}rllenl:l?tlye]y greater con.
+test this point the thorax model was rearranged so that tE: idt: dt‘h In order to
+trolyte was made greater over the heart area. This was done b P o el.ec‘
+a piece the shape of the heart cross section id- : Y merely cutting
+: (at mid-ventricular level) out of
+pla§t1c base of the model. The resistivity is best expressed in ter of =
+resistivity ratio, G, which is defined as the ratio of the resistivity of ::18 o
+that of the main body of the electrolyte. The bottom diagram of mzrea t(7)
+shows the boundary distributions for the following conditions: dipole g aIiRg%o,
+G for the heart area, 0.45; G for the lung section, 4; and G for the spine anci
+sternum section, infinite. A comparison of this with the top curve, in which
+the heart area G is 1.0, showed that the boundary distributions are,similar in
+shape, but that there is an over-all reduction in amplitude with the highly
+
+      
+   
+    
+   
+  
+
+=80 T ~40—g—o0-30, 0 + 40 + 50
+
+DIPOLE 90°
+LUNG RR:=4
+HEART RR.=0,45
+
+- — O
+
+> ~O.
+i B N CM. ALONG BOUNDARY
+
+LEFT
+
+al distribution for a B angle of 907,
+
+MGU 7 ndary-potenti Shie
+Ficure 7. Bou y-l f increased conductivity (b).
+
+area (a) and with a heart area 0O
+
+with a uniform heart
+
+Nelson: Human Thorax Potentials 1025
+
+conductive heart area. The positions of the zero points and potential maxima
+remain unchanged. This is in agreement with physiological experiments in
+which it was concluded that the effect of the relatively greater conductivity of
+the heart was uniformly to scale down the electrocardiographic potentials,!?
+and that increased filling of the frog heart reduced the electrical response.2?
+A reduction in external potentials was also observed when good electrical con-
+ductors were placed on the ventricle of the dog heart.?® Such effects have
+been attributed to the “shunting’ action of the blood 2?22
+
+Effect of Two Dipoles Acting Simullaneously
+
+Lewis* and others have considered that the left and right ventricles may
+have individual effects on the electrocardiogram, at least in the chest leads.
+In 1933 Rijlant,* using a cathode-ray oscilloscope with an amplification of
+about 3 cm./mv. and a film speed of about 250 mm./sec., found notching not
+only in the R wave, but also in the P and S waves. He attributed his results
+to the simultaneous recording of two or more activities. In order to study the
+effect of independent regions of excitation of the heart on chest potentials,
+experiments were carried out with two separate dipoles in the heart area of the
+thorax section simultaneously. It was found that if the centers of the two
+dipoles were located at the same point the boundary-potential distribution
+was identical with that produced by a single dipole that was the vector sum
+of the two separate dipoles. If the centers of the two dipoles did not coincide,
+however, the effect of each dipole could be seen. In the experiments of FIGURE
+8, two dipoles were located in the ventricular area about 2.5 cm. to the right
+and left of the mid-sternal line. In FIGURE 8a, the right ventricular dipole 8
+angle was 0°, and the left heart dipole 8 angle was 22°. The only noticeable
+effect was the dip in the potential-gradient curve. In FIGURE 8b the values of
+B were 90° for the right ventricle and 180° for the left ventricle. Although the
+potential curve was similar to one that would be obtained from a single dipole,
+the presence of the extra dipole was indicated by the change in slope of the
+potential curve and the corresponding dip in the potential gradient. In the
+model experiments with a single dipole, smooth curves were obtained for the
+variation of potential and gradient around the boundary. In FIGURE 8c the
+B angle was 137° for the right ventricle and —130° for the left ventricle. In
+this case the distributions are complicated, and they could not be taken for a
+single dipole curve. In the three cases shown, the peaks of the potential-
+gradient curves do nof accurately indicate the locations of the dipoles. This
+method of finding the dipole location can, therefore, be used only when there is
+a single effective dipole in action. It is evident that the greater the physical
+separation between the two dipoles, the greater will be the individual effect of
+each dipole on the surface potential. These experiments indicate that whereas
+the vectorcardiogram taken at remote points will give the resultant dipole,
+chest leads near the heart should also be taken to obtain information about
+local excitation of the heart. The two types of measurement provide comple-
+mentary data.

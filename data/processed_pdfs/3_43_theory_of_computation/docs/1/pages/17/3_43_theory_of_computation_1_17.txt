@@ -1,0 +1,76 @@
+,1;w§¢an ;ical‘opcrations
+1. We have
+
+oA .,:‘""fv- "~ 5 o . ;
+S | P ,N,.‘IA‘: At -
+P SR Vo S P
+W . " <
+s - A A el o
+- a O e et o~ 5 ‘
+R il S Oy )
+
+ 
+  
+
+lon
+
+ 
+
+                 
+
+2 AtAX...xXA terms, associate to- left by
+corivention) PROPERTIES OF COMPUTABLE FUNCTIO;Q\
+Suppose we’ write the recursive equation > The first part of thi's paper was solely
+S-= 4¢\$‘§XS /// q\\\ _concerned with presenting descriptive fornmllsms,
+we can interpret this as dcfining the set of /* In this part we shall establish a few of the
+soquenccs of elements of A as, Tollows: X
+
+properties of the entities we previously in-~
+
+A Intcrprct)“-as dCHOLlD” the null scquuuc troduced. The most important section is th
+Then the null scqu“ncc (strlctly an image of 1L) 4 second dcaling witp recursion induction. Q\\\
+is ay element of S. \\// / ~_ : PREE » N
+./ 2. Since a pair consisting of an elenént of 7. Formal Properties 9£_93§ﬂ33332§l‘£g£2§.4-~~~*~w~“——
+A and an element of S is an element of S,a pair The theory of conditional expressions
+
+(a,A) is an element of S. So,then,are corresponds to analysis by cases in mathematics
+al-(a234)) and al-(az-(asvf))) etc. and is only a mild generalization of propositional
+
+|
+: 5 calculus. :
+Thus S consists of all sequencces oi elements of A
+
+ 
+
+\
+Ve start idering ex i |
+including the null sequence. \e. tart by considering expressions called
+generalized Boolean forms (gbf) formed as follows:
+EppoEe W SUDStltUtcéf ‘3 MRS 1 Variables are divided into pro itional
+for S in the right side of GAxS. We get I R Pl giSl et
+g = O,\\(g kOf\.xS) X . etcp yqd,T, C. and § ral variables
+I1f we agaln ubstitute for S and expand bv thc 112y S ; !
+; 2. We shall write (p — x,y) Ior i
+GLELELUEING 00 y3 o r o ; (Pp—=x,T—y). (p— Xx,y) is called an elementar ]
+E e —/LB@XXAX .EJL Frecy cgnditlf.onalyform I()ec:f),cs)l:f:‘ whi ; D5k d | r 4 |
+which if “we¢”denoté the set becones . R CAL Py Xy BR0 Y ASE
+S = 1GAOA“OAZQ called the premise, conclusion and the
+‘which is another way of writing the set of .31333%3£1§3’arésgi°t?vely'bf e j
+sequences. We shall denote the set of sequences ¢ A Variaple is a gul and aliicls e |
+propositional variable it is called a pf 4]
+of elements of A by seq(A). R : A
+B : : : (propositional form). |
+Another uscful recursive construction 1is i
+S = ABSxS | 4. If mis a pf and «and B are gbfs, then i |
+= =\ biE s g add A i 1
+Its elements have the forms a or (a.- &) or ( , P) is a gbi. 1If, in addition, Sand B |
+L)) are pfs SO is (W*~:a¢,¢7). i
+((al-a2)°a3) or (al‘(az'as)) etc. Thus we have The value of a gbf =< for given values
+- : . Y . (T,F or undefined) oif the propositional variables
+the set of S-expressions on the alphabet A which : = :
+: b L R e e will be T or T in case o is a pf or a general
+we may denote by sexp(A). This set is the subject _ ; '
+: ; _ : : R o variable otherwise, This value is determined for
+matter of Reference 7 and the following paragraph et
+Slmvade a gbf Cu-ﬂbg.tjg) according to the table
+refers to this paper.  — :

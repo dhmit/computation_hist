@@ -1,0 +1,57 @@
+—Frof.Dp,
+
+ 
+
+ 
+
+Leon Tukaszewicy
+
+Brief scientific biography
+of/
+
+Problems Which IT ap most interested in are first all connected
+with electronic Computer programming ang designing, Lately I took
+interest in problems of computer application to business data
+Processing,
+
+I was born in Warsaw, 1923, In 1948 T graduated fron the
+Gdansk /Dantzig/ Technical University, Department of Electronics.
+While stud yi I was 8ppointed ag assistant in mathematics at the
+
+OT 0
+I am Director of the Institute of Mathematiog, Machines of the
+Polish Academy of Sciences since 1957.
+
+T
+American Association for Computing Machinery, I also an dele gate
+of Poland to the Internationa] Federation for Information
+Processing IFIP,
+
+In 1949 1 started working at the Mathematical Institute,
+My first more important Work resulted in the genera) design
+02 th
+
+and it hag worked til] 1960.
+
+In 1956 1 guided g group, the taglk of which was to construct
+the first Polish electronic digital computer, The Computer wag
+accomplished in 1958 and named XYZ, On its basis the ZAM=2 computer
+has been build, now being broduced in Poland,
+
+In 1956 1 organized in the Institute of Mathematical Machines
+Of the P,ligh Academy of Sciences the first Polish Computation
+and Programming Office, using the Xv7 and next the ZAM~2 computer,
+
+In 1988 71 initiated ang Personally conducted work op an
+automatic Programming System for Xvy and ZAM-2 computers, This,
+when completed in 1961, got the name "SAKO" and it Was such firgt
+system elaborated in the 8oclialistie countries, The SAKO language
+is in Dany respects similar to the American FORTRAN-TT.
+
+In 1960-62 7 Personally guided a& group designing 8 semiconducty
+Computer for data processing ~ ZAM--41, Simultaneously I conducteqd
+& group which elaborated gn automatic Programming sygten for ZAM-41,
+e optimum fitting of the machine design for the assumeqd Program
+ming systems was the problem T especially kept busy with,
+
+

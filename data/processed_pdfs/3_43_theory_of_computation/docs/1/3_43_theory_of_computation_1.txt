@@ -1,0 +1,3466 @@
+A BASIS FOR A MATHEMATICAL THEORY
+OF COMPUTATION, PRELIMINARY REPORT
+
+John McCarthy
+MIT Computation Center
+
+1961
+
+ 
+
+MIT CON PUTATIUI N CENTER
+DOCUMENT ROOM
+
+ 
+
+I A X 2
+
+-—
+|
+NO
+
+195 1 i
+190
+
+eT) -
+
+= Fo ) - TT
+
+——————— i.
+
+
+00d
+
+: 4
+
+Al rR
+1 i
+
+WOOY INI
+
+ 
+
+ate
+
+A BASIS FOR A MATHEMATICAL THEORY OF COMPUTATION, PRELIMINARY REPORT
+John McCarthy
+
+M.I.T., Computation Center
+
+Cambridge, Massachusetts
+
+Abstract: Prograins that lcarn to modify their The present paper is an attempt to create a
+
+cvm behaviors require a way of representing basis for a mathematical theory of computation,
+algorithms so that interesting properties and in- Before mentioning what is in the paper, we shall
+teresting transformations of algorithms are simply discuss briefly what practical results can be
+represented. Theories of computability have been hoped for from a suitable mathematical theory,
+based on Turing machines, recursive functions of This paper contains direct contributions towards
+integers and computer programs. Each of these has only a few of the goals to be mentioned, but we
+artificialities which make it difficult to mani- list additional goals in order to encourage a
+pulate algorithiis or to prove things about them. gold rush, :
+
+The present paper presents a formalism based on 1, To develop a universal programming
+conditional forms and recursive functions whereby language, We believe that this goal has been
+the functions computable in teriis of certain base written off prematurely by a number of people,
+functions can be simply expressed. We also de- Our opinion of the present situation is that
+scribe some of the formal properties of conditional ALGOL is on the right track but mainly lacks the
+forms, and a method called recursion induction for ability to describe different kinds of data,
+
+proving facts about algorithms. that COBOL is a step up a blind alley on account
+of its orientation towards English which is not
+
+well suited to the formal description of pro-
+
+Computation is sure to become one of the cedures, and that UNCOL is an exercise in group
+most important of the sciences, This is because wishful thinking, The formalism for describing
+it is the science of how machines can be made to computations in this paper is not presented as
+carry out intellectual processes, We know that a candidate for a universal programming language
+any intellectual process that can be carried out because it lacks a number of features, mainly
+mechanically can be performed by a general pur- syntactic, which are necessary for convenient
+pose digital computer, Moreover, the limitations use,
+on what we have been able to make computers do so 2. To define a theory of the equivalence
+far seem to come far more from our weakness as of computation processes, With such a theory
+programmers than from the intrinsic limitations we can define equivalence preserving transfor-
+of the machines, We hope that these limitations mations, Such transformations can be used to
+can be greatly reduced by developing a mathe- take an algorithm from a form in which it is
+matical science of computation, easily seen to give the right answers to an
+
+There are three established directions of equivalent form guarantced to give the same an-
+mathematical research relevant to a science of swers but which has other advantages such as
+computation, The first and oldest of these is speed, economy of storage, or the incorporation
+numerical analysis, Unfortunately, its subject of auxiliary processes,
+matter is too narrow to be of much help in 4, To represent algorithms by symbolic ex-
+forming a general theory, and it has only re- pressions in such a way that significant changes
+
+YN
+
+cently begun to be affected by the existence of in the behkavior represented by the algorithms
+
+AM in i a are yon noostad Ya es ~ =,
+
+
+em EERO. R
+
+proving facts about algorithms.
+
+/
+/
+/
+
+/ 7
+gst
+
+=
+————————— a ———
+
+ 
+
+Computation is sure to become one of the
+most important of the sciences, This is because
+it is the science of how machines can be made to
+carry out intellectual processes, We know that
+any intellectual process that can be carried out
+mechanically can be performed by a general pur-
+pose digital computer, Moreover, the limitations
+on what we have been able to make computers do so
+far seem to come far more from our weakness as
+programmers than from the intrinsic limitations
+of the machines, We hope that these limitations
+can be greatly reduced by developing a mathe-
+matical science of computation,
+
+Thére are three established directions of
+mathematical research relevant to a’science of
+computation, The first and oldest of these is
+numerical analysis, Unfortunately, its subject
+matter is too narrow to be of much help in >
+forming a general theory, and it has only re-
+cently begun to be affected by the existence of
+automatic computation; <
+
+’
+rd
+
+~
+
+——————
+
+ 
+
+—————
+
+The second relevant direction 2 OF ToRSaTeR—
+is the theory of computability as a branch of
+recursive function theory, The results of the
+basic work in this theory including the existence
+
+~ of universal machines and the existence of un-
+solvable problems have established a framework
+
+in which any theory of computation must fit,
+Unfortunately, the general trend of research in
+this field has been to establish more and better
+unsolvability theorems, and there has been very
+little attention paid to positive results amd
+none to establishing the properties of the kinds
+of algorithms that are actually used, Perhaps
+for this reason the formalisms for describing
+algorithms are too cumbersome to be used to de-
+scribe actual algorithms,
+
+The third direction of mathematical research
+is the theory of finite automata, Results which
+use the finiteness of the number of states tend
+not to be very useful in dealing with present
+computers which have so many states that it is
+impossible for them to go through a substantial
+fraction of them in a reasonable time,
+
+~
+
+-
+
+JR oR - ro a
+
+# um _- a ER cof on a’
+iy n = erent kinds of data,
+
+in COOL, is a step up a blind alley on acsount
+of its orientation towards English which is not
+well suited to the formal description of pro-.
+cedures, and that UNCOL is an exercise in group
+wishful’ thinking. The formalism for describing
+computations in this paper is not presented as
+
+a candidate for a universal programming language
+because it lacks a number of features, mainly
+syntactic, which are necessary for convenient
+use, ro
+
+2. To define a theory of the equivalence
+of computation processes, With such a theory
+we can define equivalence preserving transfor-
+mations, Such transformations can be used to
+take ‘an algorithm from a form in which it is J
+easily seen to give the right answers to an 7
+equivalent form guaranteed to give the same an- 7
+swers but which has other advantages such as
+speed, economy of storage, or the incorporation”
+of auxilidry processes, /
+
+27 To represent algorithms by symbolié ex-
+pressions in such a way that significant changes
+in the behavior represented by the algorithms "
+are represented by simple changes in the symbolic
+‘expressions, Programs that are supposed to learn
+from experience change their behavior by chang-
+ing the contents of the registers that represent
+the modifiable aspects of their behavior, From
+a certain point of view having a convenient
+representation of one's behavior available for
+modification is what is meant by consciousness,
+
+9. To represent computers as well as
+computations in a formalism that permits a
+treatment of the relation between a computation
+and the computer that carries out the
+computation,
+
+6. To give a quantitative theory of com-
+putation, There ought to be a quantitative
+measure of the size of a computation analogous
+to Shannon's measure of information, The
+present paper contains no information about this,
+
+The present paper is divided into two
+sections, The first contains several descrip-
+tive formalisms with a few examples of their
+use, and the second contains what little theory
+we have that enables us to prove the equivalence
+
+4 renee on ou w=) 1 ‘ 3 ying
+
+gs es
+
+
+of computations expressed in these formalisms,
+The formalisms treated are the following:
+
+1. A way of describing the functions that
+are computable in terms of given base functions
+using conditional expressions and recursive func-
+tion definitions, This formalism differs from
+those of recursive function theory in that it is
+not based on the integers or any other fixed
+domain,
+
+2, Computable functionals, i,e, functions
+with functions as arguments,
+
+3. Non-computable functions, By adjoining
+
+quantifiers to the computable function formalism,
+
+we obtain a wider class of functions which are
+not a priori computable, However, such functions
+can often be shown to be equivalent to computable
+functions, In fact, the mathematics of computa-
+tion may have as one of its major aspects rules
+which permit us to transform functions from a
+non-computable form into a computable form,
+
+4, Ambiguous functions, Functions whose
+values are incompletely specified may be useful
+in proving facts about functions where certain
+details are irrelevant to the statement being
+proved,
+
+5. A way of defining new data spaces in
+terms of given base spaces and of defining func-
+tions on the new spaces in terms of functions on
+the base spaces, Lack of such a formalism is one
+of the main weaknesses of ALGOL, but the business
+data processing languages such as FLOWMATIC and
+COBOL have made a start in this direction, even
+tho zh this start is hampered by concessions to
+the presumed prejudices of business men ,
+
+The second part of the paper contains a few
+mathematical results about the properties of the
+formalisms introduced in the first part, Spe-
+cifically, we describe the following:
+
+1, The formal properties of conditional
+
+expressions,
+
+ 
+
+2. A method called recursion induction for
+proving the equivalence of recursively defined
+
+functions
+-
+
+—— — - -— — Le ————— —————— a ————————— a  D————— — — ——
+
+1, Functions Computable in Terms of Given Base
+Functions
+
+Suppose we are given a base collection F
+of functions having certain domains and ranges,
+
+‘
+!
+
+'
+
+In the case of the non-negative integers, we may
+have the successor function and the predicate of |
+
+equality, and in the case of the S-expressions
+discussed in (7), we have the five basic opera-
+tions, r object is to define a class of func-
+tions C 6 which we shall call the class of
+functions computable in terms of CF =
+Before developing C : formally, we wish
+to give an example, and In order to give the
+example, we first need the concept of conditional
+expression, In our notation a conditional ex-
+
+~ pression has the form
+
+(Dy 85,05 255...8, =e)
+which corresponds to the ALGOL 60 reference
+language (5) expression
+
+iT Py then e, else if Py then e_,,..else if
+
+2
+Pp then e
+
+Here P1seee,P are propositional expressions
+
+taking the values T of F standing for truth and
+falsity respectively,
+The value of (p,— €1sPg ey, .,P =e.)
+
+|
+|
+|
+
+|
+:
+i
+|
+|
+|
+|
+|
+i
+|
+
+|
+
+is the value of the e corresponding to the first |
+
+Thus
+(4<3 —7,2>3 —8,2<3 —9,4<5 —7) = 9
+
+p' that has value T,
+
+Some examples of the conditional expressions
+for well known functions are
+
+Ix] = (x< 0 —-x,x20 =x)
+31) = (i=j —1,i/j —0)
+and the triangular function whose graph is given
+
+in figure 1 is represented by the conditional
+expression
+
+% | =
+J 4 M Tr
+yr ,
+7] ¢ ¢ a | J.
+f } 5 ’ » 4
+> I / - Ta - - .
+
+
+=== = == EEEN
+— BAPE. BR HE 5 dal 2a aE aa -— !
+5. A way of defining new data spaces in Here PyseeesP are propositional expressions
+ern ng of given base poe ang. of dof ining func, taking the values T of F standing for truth and
+tions on the new spaces in terms of functions on :
+3 : falsity respectively,
+the base spaces, Lack of such a formalism is one The value of (p.— ec p Pp re)
+of the main weaknesses of ALGOL, but the business 1 PP" %grersPy, n
+data processing languages such as FLOWMATIC and is the value of the-¢ corresponding to the first Sp
+? COBOL have made a start in this direction, even p that has value T, Thus =
+though this start is hampered by concessions to (4< 357, 2> 3 — 8, ae 3 9, acs vn) ho
+the presumed prejudices of business men,
+: The second part of the paper contains a few : Foe examples of the conditional expressions
+mathematical results about the properties of the for well known functions are CL -
+formalisms introduced in the first part, Spe- / 3 rt
+Sian ow ; Ix] = (x< 0 —»-x,x720 —x) ~ St :
+cifically, we describe the following: S15 = (=) ~+1,17 eg of
+1, The formal properties of conditional /
+expressions” and the triangular function whose graph is given
+2, A method called recursion induction for in figure 1 is represented by the conditional
+proving ‘the equivalence of recursively, defined expression NS eat ei
+functions, = NT eb e——— NE
+ey ono Tololions between the formalisms i rity) = (x§-1 =0,2 50 — x+1 21 1-2
+introduced in this paper and other formalisms y Fr —+0)
+current in recursive function theory and in
+programming,
+We hope that the reader will not be angry
+about the contrast between the great expectations
+of a mathematical theory of computation and the
+meager results presented in this paper, |
+FORMALISMS FOR DESCRIBING COMPUTABLE FUNCTIONS Cl. 0% (1.0) x
+AND RELATED ENTITIES ’ ’
+r Figure 1
+
+In this part we describe a number of new
+formalisms for expressing computable functions
+and related entities, The most important section
+is 1, the subject matter of which is fairly well
+understood, The other sections give formalisms
+which we hope will be useful in constructing com-
+putable functions and in proving theorems about
+them,
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+    
+
+Now we are ready to use conditional ex-
+pressions to define functions recursively,
+example, we have
+
+(n-0 —1,nA —n.(n-1)!)
+
+For
+
+
+Let us evaluate 2! according to this definition,
+We have
+
+2:4
+
+(2=0 —+1,2/0 —22-(2-1)})
+2.1!
+
+2(1=0 —>1,140 —1.(1-1)%)
+
+= 2.1.0!
+
+2.1.(0=0 —1,040 —0-+(0-1)!)
+2.1.1
+
+2 = 2
+
+The recader who has followed these simple
+examples is ready for the construction of C EF
+which is a straightforward generalization of the
+above together with a tying up of a few loose
+ends,
+
+Some Notation, Let F be a collection
+(finite in the examples we shall give) of func-
+tions whose domains and ranges are certain sets,
+C EF5 will be a class of functions involving the
+same sets which we shall call computable in terms
+of ZF.
+
+Suppose f is a function of n variables and
+suppose that if we write y=£(x;,...,x J, each Xs
+
+ 
+
+takes values in the set Uy and y takes its value
+
+in the set V, It is customary to describe this
+situation by writing
+
+f:U. xU X...xU -—Y
+a 2 n
+
+] xX — es 0g” S
+The set Ux... uo of n-tuplets (x, yx.) i
+
+the range of
+“Forms and Functions, In order to make
+properly the definitions that follow, we will
+distinguish between functions and expressions
+io Following Church” the
+latter are called forms, Single letters such as
+S quences of letters such as sin
+
+3 y . \ - “Wlnne
+involving variables,
+
+ 
+
+70} re \ .
+29520 lc, o1
+
+- - a ———————— — ——— ——————————— a — -— ———— Co —————————————— a — a ————— ——— ———
+
+built from the forms g(x,y) and x and the func-
+tion ff,
+
+If all the variables occurring in a form
+€ are among Xp geeX we can define a function.
+
+h by writing h(x, eeu, ) = e, We shall
+
+assume that the reader knows how to compute the
+values of a function defined in this way, If
+
+free are all the functions occurring in
+
+e we shall say that the function h is defined
+
+by composition from free t The class of
+
+functions definable from given functions by com-
+position only is narrower than the class of
+functions computable in terms of the given
+functions,
+Partial Functions, In the theory of com-
+putation it is necessary to deal with partial
+
+functions which are not defined for all n-
+
+tuplets in their domains, Thus we have the
+partial function minus, defined by ay
+minus (x,y)=x-y, which is defined on those pairs
+
+(x,y) of positive integers for which x is
+
+greater than y, A function which is defined
+
+for all n-tuplets in its domain is called a
+
+total function, We admit the limiting case of a
+
+partial function which is not defined for any
+n-tuplets,
+
+The n-tuplets for which a function de-
+scribed by composition is defined is determined
+in an obvious way from the sets of n-tuplets for
+which the functions entering the composition
+are defined, If all the functions occurring in
+a composition are total functions, the new func-
+tion is also a total function, but the other
+processes for defining functions are not so kind
+
+to totality, When the work "function" is used
+from here on, we shall mean partial function,
+
+Having to introduce partial functions is a
+
+§ 8s AREY gv 3) y=! 1 edd aw aa LY LJ 4 > iy
+
+
+a :
+Wc To.
+in the set V, It is customary to describe this
+situation by writing
+DN
+NG: XU —rV
+JU xu x. L
+
+The set \U x,..xU of n-tuplets (x), 000,%) is
+
+called the domain of f, and the set V 1g called
+the range off, \
+Forms and Functions, In order to make
+properly the definitions that follow, we wild,
+distinguish between functions and expressions
+ihvolving variables, Following Church” the
+“latter are called forms,
+f,g,h, etc, or sequences, of letters such as sin
+
+/ sys
+/
+
+/ are used to denote funcgions.
+
+ 
+
+particular we may refer to the function f£
+“defined by f(x,y)=x +y. Our definitions will be
+written as though all forms involving functions
+were written f(,.,..,) although we will use
+expressions like x+y with infixes like * in
+examples,
+Composition, Now we shall describe the ways
+in which new functions are defined from old,
+The first way may be called (generalized) com-
+position and involves the use of forms, We e shall
+use the letters Xx,y,... (sometimes with sub-
+scripts) for variables and will suppose that
+there is a notation for constants that does not
+make expressions ambiguous, (Thus, the decimal
+notation is allowed for constants when we are
+dealing with integers.)
+The class of forms is defined recursively
+as follows:
+i) A variable x with an associatcd space U
+
+is a form, and with this form we also associate U.’
+
+A constant in a space U is a form and we also
+associate U with this form.
+
+ii) I1f e,,...,e are forms associated with
+! n z en
+the spaces Ups oerhU respectively, then
+£(2 ee )-is-a fern associated with the space
+I
+
+V. dn ents way the form (L(g(x,y),X) is
+
+-_ WE
+I
+
+partial function which heen for any Rs
+
+Single letters such as
+
+Expressions such
+as 10s, y), fete), yy), X +Y are called forms, In
+
+  
+
+  
+
+ 
+
+doma is called a
+
+We admit Ne Et case of a
+
+ 
+
+pl
+total function,
+
+n-tuplets,
+
+~The n-tuplets for which a function de-
+scribed by composition is defined is setornined
+in an obvious way from the sets of n tuplet r
+which the functions entering the composition
+are defined IL all the functions occurring i
+a composition are total functions, the new func-
+tion is also a total function, but the’ ‘other
+processes for defining functions are not so kind
+to totality, When the work "function" is used
+from here on, we shall mean partial function,
+
+Having 4 introduce partial functions is a
+~huisance, but an unavoi able one, The rules for
+defining computable functions sometimes give
+computation processes that never terminate, and
+when the computation process fails to terminate,
+the result is undefined, It has been shown that
+there is no effective general way of deciding
+whether a process will terminate,
+
+Predicates and Propositional Forms
+
+The space 77 of truth values whose only
+elements are T (for truth) and F (for falsity)
+has a special role in our theory, A function
+whose range is 77 is called a predicate, Ex-
+
+amples of predicates on the integers are prime
+defined by
+
+ 
+
+ 
+
+(T if x is prime
+prime(x) =
+F otherwise
+and less defined by
+(T if x<y
+less(x,y)
+F otherwise
+We shall, of course, write x<y instead of
+less(x,y). For any space U there is a predi-
+cate eq, of two arguments defined by
+(T if x=y
+eq, (x,y) =
+L otherwise
+We shall write x=y instead of eq, (x,y), but
+
+i
+NAO rIrios which ad 111 Inn Yl yee ae oe ena YY 4 " : wu
+
+
+some of the remarks about functions might not
+hold if we tried to consider equality a single
+predicate defined on all spaces at once,
+
+A form with values in TT such as
+x <y,x=y, or prime(x) is called a propositional
+form, ~
+
+Propositional forms constructed directly
+from predicates such as prime(x) or x <y may be
+
+called simple, Compound propositional forms can
+be constructed from the single ones by means of
+the propositional connectives A Vn. We
+shall assume that the reader is familiar with the
+use of these connectives,
+
+Conditional Forms or Conditional Expressions,
+Conditional forms require a little more careful
+treatment than was given above in connection
+with the example, The value of the conditional
+form (Dy =o, r00aD =e )
+is the value of the e corresponding to the
+first p that has value T; if all p's have value
+then the value of the conditional form is not
+defined. This rule is complete provided all the
+P's and e's have defined values, but we need to
+make provision for the possibility that some of
+the p's or e's are undefined. The rule is as
+follows
+
+IT an undefined p occurs before a true p
+or if all p's dre false oF 3% ihe eo corre.
+spording to the first true p is undefined, then
+the form is undefined, Otherwise, the yale of
+the 5 © corresponding to
+
+ 
+
+Ty
+re
+
+ 
+
+ 
+
+ 
+
+ 
+
+—— — —— — Ho ———————— ——
+
+the form is the value of the e
+(he (irst true P.
+
+or shall illustrate
+QC xamples y
+
+definition by
+
+al
+(2< 1 1,251 =3) = 3
+(1<2 —4,1<2 ~3) = 4
+(2>1 »1,32 1 —3) is undefined
+(0/0 1 =+1,1< 2 —=3) is undefined
+(1:2 undefined
+
+- 0/0, 1< 2 —1) is
+
+~ ’ -
+(1.<2 2. 1< —
+
+A ——— ————————————————————— — — a —
+- ~~ EE  — ee —————————————————————
+
+1t is natural to ask if a function cond |
+
+of 2n variables can be defined so that
+
+(p, ey’ swaP =e ) — cond (p,, sees Pp)
+
+sees)
+
+This is not possible unless we extend our notion
+of function because normally one requires all
+the arguments of a function to be given before
+the function is computed, However, as we shall
+shortly see, it is important that a conditional
+form be considered defined when, for example,
+
+Py is true and el is defined’ and all the
+
+other p's and e's are undefined, The re-
+quired extension of the concept of function would
+have the property that functions of several |
+variables could no longer be identified with |
+one-variable functions defined on product spaces,
+We shall not pursue this possibility further |
+here, i
+
+We now want to extend our notion of forms
+to include conditional forms, Suppose
+
+Pyseve,P are forms associated with the space
+
+ —— —————
+
+of truth values and ),...e are forms
+
+associated with the same space V. Suppose
+further that each variable X, occurring in
+
+Prise PP and Boxee is associated with the
+
+with the space U, Then (p, =>@, yieer,D ~*e.)
+
+is a form associated with V,
+
+We believe that conditional forms will
+eventually come to be generally used in mathe-
+matics whenever functions are defined by con-
+sidering cases, Their introduction is the same
+kind of innovation as vector notation, Nothing
+can be proved with them that could not also be
+proved without them, However, their formal
+
+NnNIranortioc whi A 3) No :
+
+- + — - - >
+—————————————— A ———————————————
+
+
+_ Wm
+—— — t
+
+Iic—p's or—els arc un is—es—
+follows
+If spfundesined p occurs before a true p
+
+W— — —
+
+or if all p's are false or if the e. corre-
+
+rE een
+
+ 
+
+sponding to the first true’ p is undefined, then
+
+emt —— i S——
+
+the form is undefined, “Otherwise, the valine of
+“the form is the value of the e corresponding to
+
+— | ——— — W—— S—— —  a— —
+
+. the first true p, Xe
+“We shall illustrate this definition by x
+additional examples: Ne
+
+(2<1 ~41,2>1—+3) = 3 Nn
+
+(<2 —4,1<2 —3) = 4 2
+
+(2>1 —1,3>1 —3) is“undefined
+
+(0/0< 1 —1, 12-3) is undefined
+
+(12 — 0/0, 1< 2 1) is aii
+
+(1<2 —2, 1<3 80/0) = 2 °°
+
+~ The truth value T can os used to simplify
+certain conditional forms, Thus, instead of
+
+xl = (x<0 —-x,Xx7%0 — x)
+we shall write
+
+Ix] = (x< 0 — ~x,T— x)
+
+The propositional connectives can be defined
+by conditional forms as follows,
+
+pAq —q,T — F)
+
+pvq = {(p —T,T —q)
+
+~Pp = (p—>F,T —T)
+
+pcq = (p —q,T —T)
+
+Considerations of truth tables shows that these
+formulas give the same results as the usual defi-
+nitions, However, in order to treat partial
+functions we must consider the possibility that
+Pp or q may be undefined,
+
+Suppose that p is false and q is un-
+defined; then according to the conditional form
+definition pAq is false and qAp is un-
+defined, This unsymmetry in the propositional
+
+tlm —— —
+
+I
+~
+oO
+
+connectives turns out to be appropriate in the
+theory of computation since if a calculation of
+
+Pp gives F as a result q need not be computed
+to evaluate pAq, but if the calculation of p
+does not terminate, we never get around to com-
+puting p.
+
+SG —— ‘wm -
+EE a = m=
+: er ed —rhc < i cS Be.
+
+      
+
+— — EK \
+
+~~
+
+ow - =
+
+] 2.
+associated with the same space V,
+further that each variable x,
+
+Suphose
+occurring in
+
+PyseeP and G2 e€ is associated with the
+
+Then (p,. repre sPy oe)
+
+is a forn associated with A \ on
+We believe that conditional forms wv 11
+
+eventually come to be generally used in i
+matics whenever functions are defined by con-
+
+sidering cases, Their introductién is the same \
+kind of IR TOvat Lon as vector notation, Nothing
+can be proved with them that could not also be”
+proved without them, \ However their formal
+properties, which will “ue discussed later,” will
+reduce many case- analysis verbal arguments to
+
+with the space U,
+
+calculation,
+Definition of Functions by Recursion, The
+definition
+
+n' m= (n=0 —1,T —n-+(n-1)"')
+is an example of definition by recursion, Con-
+sider the computation of 0!
+
+0) = (0=0 —*1,T —0+(0-1)"')
+We now see that it is important to provide that
+the conditional form is defined even if a term
+beyond the one that gives the value is undefined,
+In this case (0-1)! is undefined,
+
+Note also that if we consider a wider
+domain than the non-negative integers, n! as
+
+“defined above becomes a partial function, since
+
+|
+unless n is a non-negative integer, the
+recursion process does not terminate,
+
+In general, we can either define single |
+functions by recursion or define several func-
+tions together by simultaneous recursion, the
+former being a particular case of the lasrter,
+To define simultaneously functions
+£5005, ve write equations
+
+
++ X “oe —
+Hr X im ey
+
+.
+.
+*
+
+20x eves X 2) e
+1 n
+
+k
+
+k
+
+must contain only
+17 Eye
+Suppose that the ranges of the functions are to be
+
+VyrtooaYy, respectively; then we further require
+
+that the expressions e
+
+The expressions e,j)s..,€
+
+1 k
+Kknovn functions and the functions f
+
+1" ox be associated with
+
+these spaces respectively, given that within
+©1128 the f£'s are taken as having the V's as
+
+ranges. This is a consistency condition.
+£, (X00 0uX ) is to be evaluated for given
+
+values of the x's as follows.
+1. If e, is a conditional form then the p's
+
+are to be cvaluated in the prescribed order
+stopping when a true p and the corresponding e
+have been cvaluated,
+
+2. IT ec has the form let, ...,e%) then
+
+SF rvair, 0% are to be evoluated and then the func-
+mn
+
+g applied.
+3. If any expression (8%, 0%) occurs it
+n,
+
+is to be evaluated from the defining equation.
+4, Any subexpressions of ey that have to be
+
+evaluated are cvaluated according to the same
+rules,
+vo. Variables occurring as subexpressions are
+evaluated by giving them the assigned values.
+There is no guarantee that the evaluation
+process will terminate in any given case. If for
+particular arguments the process does not ter—
+
+Beaty adhe am hale noe Va a an dd amin 0 raat dar mY mm of a aw ema] No SP dela A.A
+
+- - . ru - . ‘ ey - l \ |
+Dg CONSISTED (Yi 213 OV Sac {
+
+gris > =~ -— - .
+a Ef { $3 3)
+« » “ LI. hy - -
+
+Let I be the set of non-negative integers
+00a and denote the successor of an
+integer by n' and denote the equality of
+
+integers n and n, by R sh. If we define
+
+functions succ and eq by
+
+ 
+
+succ(n) n'
+
+eq(n,,n,) ml of n, = n,
+
+P-3f ny 7 n,
+
+then we write i = succ, eq } . We are interested
+in C £7 . Clearly all functions in Cc E73
+will have either integers or truth values as
+values,
+
+First we dofine the predecessor function
+pred (not defined for n=0) by
+
+pred(n) = pred2(n,0)
+
+pred2(n,m) = (m'=n — m.T— pred2(n,m')).
+We shall denote pred(n) by n~
+
+Now we define the sum
+
+.
+
+m+n = (n1=0 —m,T — m"+n"7),
+tho product ”
+
+mxn = (n=0 —- 0,T ~~ m+mxn")
+the difference
+
+m-n = (n=0--+n,T—> n—-n")
+
+which is defined only for m7 n, the inequality
+m<n = (n=0) v (v(n=0)A (m"< n-))
+the strict inequality
+m<n = (n<n) 4 (=n)
+the integer valued quotient
+m/n = (m < n-=0,T— ((m-n)/n)') ;
+the remainder
+ren(im/n) = (n < n-—-m,T— rem(@n-n/n))
+and the divisibility of a number n by a number
+m
+nin = (n=0) V((hZm)A (n[(n-n))).
+The primeness of a number is defined by
+prime(n) = (n£0) / (nl) Aprine 2(n,?2
+where
+prime2(m,n) = (m=n) \ (( ¥n) A prime2(n,n'))
+
+To “.'} TD ane - ad ut
+
+EC — ——
+
+
+g’ applied. : ~~
+
+ne 3. Tf any expression’ f, (e vo e®) occurs it
+: qe x
+Ne Be Sk >
+. is to be evaluated {Bod the defining equation. 5
+4. Any subexpressions of e
+
+i
+oN oi
+evaluated are evaluated according to the same
+
+rules. N\
+
+that have to be
+™
+
+S. Variables occurring as Sas predaion are
+valuated by giving them the assigned values’, ™~
+
+There is no guarantee that the evaluation
+process will terminate in any given casc, If for
+particular arguments the process. does” not ter-
+minate, then the function is undefined for these
+arguments, The possibility of termination
+depends on the presence of conditional ex-
+pressions in the e,'s.
+
+The class of functions C LFS comainnie in
+terms of the given base functions “+ is defined
+to consist of the functions which can be defined
+by repeated applications of the above recursive
+definition process.
+
+2. Recursive Functions of the Integers
+
+In Reference 7 we develop the recursive func-
+tions of a class of symbolic expressions in terms
+of the conditional expression and recursive func-
+tion formalism,
+
+As an example of the use of recursive func-
+tion definitions, we shall give recursive defi-
+nitions of a numbor of functions over the integers,
+We do this for three reasons: to help the reader
+familiarize himself with recursive definition, to
+show how much simpler in practice our methods of
+recursive definition are than either Turing
+machines or Klecne's formalism, and to prove that
+any partial recursive function (Kleene) on the
+non-negative integers is in C f+ 7? where “= con-
+tains only the successor function and the
+predicate cquality,
+
+ 
+ 
+
+\\ prime(n)
+
+—  prime(m, Yt
+
+  
+
+which is Ae only for m ae ine TE
+
+m=n = (m=0Y vy (A (n=0)A (n= n~)
+
+the strict inequality vs
+
+mS na (n< <n) 4 ~ (=n) Es : AN
+
+the integer valued quotient ™~ yl \
+
+m/n = (mn < n->0,T — ((m=n)/n) Y,
+
+Pe remainder NS ,
+rem(m/n) = (mn < n= m » T = rem(m-n/n)) E
+
+and the divisibility of a mubep n by a number
+
+m NL / x
+nln = (n= 0) VI ZI tal tn)) i MN
+
+The primeness of a number is defined: by” 7
+
+= (040) A (nfl) Nprine 2(n, 2) 7”
+
+ying -
+
+/
+
+ie Yn SA prints, m'))
+
+The Luclidean algorithm defines the
+greatest common divisor if we write
+ged (n,n) (m > n = ged(n,n), rem(n/m)
+
+=m, T>gecd(ren(m/m),m))
+and we can define Euler's @ -function by
+
+(0) = E2(n,n)
+¢ 2(n,m)
+
+-
+
+where
+(m=1— 1, gecd(n,m) 1 —»2(n,m") !
+T => Fg2(n,m7))
+The above shows that our form of re cursion
+is a convenient way of defi ning arithmetical
+functions. We shall see how the properties of
+
+the arithmetical functions can conveniently be
+derived in this formalism in a later section,
+
+a
+
+3. Computable Functionals
+
+The formalism previously described enables
+us to define functions that have functions as
+arguments. Tor example,
+
+n
+Tho
+can ve er as a Twietion of the numbers m
+
+and n and the sequence a If we rezard the
+
+scquence as a function f we can write the
+recursive definition
+
+
+sum(m,n, f) (an >n—0,T— £(n) + sum
+
+(m+l,n,£))
+or in terms of the conventional notation
+n )
+s fi) = (ma > n—-0,T — £(n) te £(3))
+i=m iL =mm+l
+
+Functions with functions as arguments are called
+functionals.
+
+Another example is the functional least (p)
+which gives the least integer n such that p(n) for
+a predicate p. We have =
+
+least(p) = lcast2(p,0)
+where
+
+lcast2(p,n) = (p(n) — n,T— least2(p,n+l))
+
+In order to use functionals it is necessary
+to have a notation for naming functions. We use
+Church's! lambda notation. Suppose we have a
+function ff defined by an equation f(x prea ) =¢
+where e 1s soe expression in REAR w=
+
+The name of this function is A(x ‘oe vk ),e) « Tor
+
+f defined by
+\7/e have
+
+example, the name of the function
+~ 2 : A , Oy
+(x,y) = x°+y is A((x,y),x%+y).
+A((x,y),x2+¥) (3,4) = 13 but
+Ally, x) ,%2+y) (3,4) = 19.
+The variables cccurring in a2 definition are
+dumny or bound variables and can be replaced by
+others without changing the function provided
+the replacement is done SoatIsteia: For ex-
+ample, the SZ prossions Al, YY, x2 +y) and
+2 (Cu, Vv), u? “vv: and a ((y,x),y? +X) all represent
+the same function. Ney
+: 5s 12
+In the notation ;
+
+i is represented by
+suri(1,n, nlCiy. 1° 2yy
+
+and the least integer n for
+which n% > 50 is represented by
+least( A ((n),n> > 30) |
+‘hen the functions with which we are dealing
+are defined rccursively, a difficulty arises.
+For example, consider factorial defined by
+focterial (ih) (n=0 -= 1,T — n+factoria al i-=13
+
+vy - . - .n of re ro vy " -
+JAY 1 CONSTESIET NY Oi nan nlloyacand "
+
+— —— EE  — a — ———————. ——— 1 a. . ————————— Ee —————— ER
+
+level 2 we have functionals taking functions of = ~~
+level 1 as arguments, At level 3 are functionals
+taking functionals of level 2 as arguments etc.
+Actually functionals of several variables can be
+of mixed type.
+However, this hierarchy does not exhaust
+the possibilities, and if we allow functions
+which can take themselves as arguments we can
+eliminate the use of label in naming recursive
+functions. Suppose that we have a function Ff
+defined by -
+f(x) = £(x,1)
+where £(x, {) is some expression in
+function variable ff.
+named =
+
+X and the
+This function can be
+
+label(f, 3 ((0),&(x,0))) i
+
+ilowever, supposc we define a function 8 Db
+
+g(x, &) — Eo (x, = ((x) FC)
+2x, (2), Gx,8))) J
+
+ee —————————————————
+
+or
+= Ax, @,£
+We then al §.£
+£(x) = g(x,g)
+since g(x,g) satisfies the equation |
+g(x,8) = E(x, 3((x),5(x,8)))
+
+Now we can write ff as :
+
+f= 30x), 5((y, & L(y, D((n), &(u, £0
+(x, A (Cy, FE, 2 (uv), :
+
+Hu, “©)))
+
+This eliminates label at what scems to be an
+excessive cost, “Namely, the expression gets
+quite complicated and we must admit functionals
+capable of taking themselves as arguments thus
+escaping our orderly hierarchy of functionals.
+4.  Non- Computable I'unctions and Functionals
+“1% might “be s supposed that in a mathematical
+theory of couputation one necd only consider
+computable functions. However, mathematical
+physics is carried out in teras of rcal valued
+
+rune {-4 ons whicel 1 a0 not committal a nr 4- AN Tar
+
+;
+4s
+7 TRAY eT The on oa eam a Pir vie . . 4
+
+
+A ——— ET ———
+
+ 
+
+ 
+
+  
+
+he Jepressions 2
+x)
+
+iy.
+rr (Gy See and
+Vv), u2+v) and J (( 4
+
+,y2+x) all represent
+¢ function.
+pl notation”
+
+<2 =
+“sun(l,n 2031), 129) and the least integer n fo
+which n?
+
+\. least(.2 ((n)
+‘When the functions
+
+oy
+
+0
+
+n
+- pre]
+
+Tepresentad b
+
+> 50) 7X 7
+with which we are dealing
+are defined recursively,” a difficulty arises’,
+For example, consider factorial defined by”
+
+factorial(n) = + (n= D=yl,T-n* factorial(n-1))
+The expression
+
+A((n), (n=0 — 1,T —> n-factorial(n-1)))
+cannot serve as a name for this function because
+it is not clear that the occurrence of "factorial
+in the expression refers to the function defined
+by the expression as a whole. Therefore, for
+recursive functions we adopt an additional con-
+vention. Namely,
+
+label(f, 3 ((x;,«++X ),e))
+
+stands for the function
+equation
+
+F xX coo
+
+( 1’ 2
+
+f defined by the
+
+where any occurrences of the function letter I
+‘within e stand for the function being defined.
+The letter f also serves as a dummy variable.
+The factorial function then has the name
+
+label (factorial, X((n), (n=0 — 1,T ~» n*
+factorial(n-1))))
+
+: and since factorial and n are dummy variables
+
+the expression
+
+label(g, A ((r), (r=0 — 1,T — r.g(r-1))))
+represents the same function.
+
+If we start with a base domain for our
+variables, it is possible to consider a hierarchy
+of functionals, At level 1 we have functions
+whose arguments are in the base domain, At
+
+~escaplng our orderly hierarchy of functionals. V
+/ 7
+
+>'50 1s Ea hy } \
+
+computable functions,
+
+functions which ard not computable’ but. only
+
+ 
+
+ 
+
+   
+
+ 
+
+“Cu, ©)
+
+    
+
+ 
+
+N This clin hate label at what seems to be a =
+
+excessive cost. “Namely ~ the expression get
+quite complicated and Me must admit. functional
+~~
+capable of taking themselves as arguments thus
+
+~ =r
+4, Non-Computable Functions and Functiondls”
+It might be supposcd that : in a mathematical
+theory of “computation one need only consider
+. However, mathematical bo
+phys ics is carried out in teri of real valued
+
+approximable by computable functions,
+“We shall consider several successive ex-
+tensions of the class C F +. First we adjoin
+the universal quantifier YY” to the operations uscd
+to define new functions, Suppose e is a form
+in a variable x and other variables associated |
+with the space 7 of truth values. Then |
+Y((x),e) | |
+is a new form in the remaining variables also |
+associated with TT. WV ((x), e) has the value T
+for given values of the remaining variables if |
+for all values of X, e ra the value T. |
+Y ((x), e) has the Sel F if for at least one
+value of Xx, e has the hs F. In the
+remaining case, i.e. for some values of X ee has
+the value T and for all others e is undefined,
+V((x),e) is undefined,
+If we allow the use of the universal
+quantifier to form new propositional forms for
+use in conditional forms, we get a class of func-
+tions Ila £73 which may well be called the class
+of functions hyper-arithmetic over 7 since in |
+the case where = = successor, equality on the |
+integers, Ha § 73 consists of Klecne's® hyper- |
+arithmetic functions.
+Our next step is to allow the description
+operator iC . L(x), T(x)) stands for the unique
+
+
+-— ———————
+
+X such that 7(x) is true. Unless there is such
+an x and it is unique C ((x) ,m(x)) is undefined.
+
+In the case of the integers (((x),m(x)) can be
+defined in terms of the universal quantifier using
+conditional expressions, but this does not seem to
+be the case in domains which are not cffectively
+cnumerable, and one may not wish to do so in
+domains where enumeration is unnatural,
+
+The next step is to allow quantification over
+functions. This gets us to Klecne's® analytic
+hierarchy and presumably allows the functions used
+in analysis. Two facts are worth noting. First
+VY (1), ¢(f)) refers to all functions on the
+domain and not just the computable ones. If we
+restrict quantification to computable functions,
+we get different results. Secondly, if we allow
+functions which can take themselves as arguments,
+it is difficult to assicn a meaning to the
+quantification, In fact, we are apparently con-
+fronted with the paradoxes of naive set theory.
+
+=
+
+oO. Ambiguous Functions
+
+Ambiguous functions are not really functions.
+For cach prescription of values to the arguments
+the ambiguous function has a collection of possible
+values. An example of an ambiguous function is
+less(nn) defined for all positive integer values
+of n. Ivery non-negative integer less than n is
+a”
+
+2 possible value of less(n). If we define a basic
+
+anbiguity operator aib(x,y) whose possible values
+are x and y when both are defined otherwise which-
+ever is defined, we can define less(n) by
+
+less(n) = amb{n-1, less(n-1Y).
+less(n) has the property that if we define
+ult(n) = (n=0 — 0, T—r ult(less(n)))
+
+pL
+
+then .
+
+7 ( (n),ult{n)=0) = 71.
+
+There are a number of important kinds of
+mathematical arcivients whose convenient formaliza-
+
+1,» or 1
+: PAY FOL NTA Ta ¢ Ye As » (oi
+a = nn a nn ee ay ap : A rh ~
+CU ad PALLY conNSIEsSI Ine of an ol oaent nd
+
+Zz TAA Dove
+
+ 
+
+ct ii. 4 Ahi ch i et ee ————————— ————
+
+th ete 8 A. A 3 anes ———— ——
+
+"6. Recursive Definitions of Sets |
+In the previous sections on recursive defi-
+
+nition of functions the domains and ranges of the
+
+basic functions were prescribed and the defined
+
+functions had the same domains and ranges.
+In this section we shall consider the defi-
+
+nition of new sets and the basic functions on
+
+them. First we shall consider some operations
+
+where new scts can be defined. : :
+. The Cartesian product AXB of two sets A | i
+
+and B is the set of all ordered pairs (a.b) with
+A€A and beB. If A and B are finite sets and !
+-n(A) and n(B) denote the numbers of members of |
+
+and, B respectively then 11(AxB=n(A) * oh
+LE ASsocldted WITh Tho pair oi 8: (By, are ti
+
+two canonical mappings
+
+Ty giae = A defined by p{ (3D) = a
+.Q,.2 :AXB + B defined b hi a.b = b
+Cin | y % 354 ))
+
+J)
+
+The word "canonical" refers to the fact that
+
+T and @ are defined by the sets A and B
+A,B A,B Y .
+
+and do not depend on knowing anything about the
+members of A and B.
+The next canonical function Y is a function
+of two variables VY, 5A = Axp defined by
+)
+YL p@) = (ab)
+For some purposes functions of two variables x
+
+from A and y from B can he identified with func-
+tions of one variable defined on AxB.
+
+2. The direct union AB of the sets A and B
+1s the union of two non-intersecting subsets one
+of which is in 1-1 coi'respondence with A and the
+other with B., If A and B are finite, then
+n(A®B) = n(A)+in(B) cven if A and B intersect.
+
+The elements of A@DR nay be written as elements of
+A or B subscripted wiih the set from which they
+come, ‘i.e. a. ox bh,
+
+A 3
+
+The canonical mappings associated with tho
+
+A manila ~ ~~ -
+
+- a —
+A ———
+A
+
+ 
+
+ 
+
+St Se ——
+
+———— EE NN.
+
+et
+A el
+
+ 
+
+4
+1
+
+
+ble vi If we define a bas:
+aly operator ai (x,y) whose possibl values
+and y when both are defined otherwise which-
+
+ever is defined, w can define less(n) by
+
+less(n) = anf (n-1, less (n-13), > ;
+less(n) has the property that if we define
+; ult(n) < (0 = 0,T — ult(less()))
+
+7 ~~ = Q
+
+VY ((n),ult(n)=0) = |
+
+There are a number of important kinds of
+mathematical arguments whose convenient formaliza-
+tion may involve anbi guous functions. In order to
+give an example, we nced two definitions, If f
+and g are two ambiguous functions, we shall say
+that ff is a descendant of E 1 for each x every
+possible value of f(x) is also a possible value of
+g(x). Secondly, we shall say that a property of
+ambiguous functions is hereditary if whenever it
+is possessed by a function g it is also possessed
+by all descendants of g. The broperty that itera-
+tion of an integer valued function eventually
+gives O is hereditary and the function less has
+this property. 50, therefore, do all its
+descendants. Thus any function, however, com-
+plicated which always reduces a number will if
+iterated sufficiently always give 0,
+
+This example is onc of our reasons for hoping
+
+that ambiguous functions will turn out to be
+useful,
+
+ 
+   
+
+     
+
+     
+
+ 
+
+are:
+
+ 
+
+then
+
+With just the operation amb defined above
+. . . 4.1 “de ———— =
+adjoined to tlicse used to generate C $F
+
+we
+
+’
+
+can extend “* to the class C §° which may be
+
+called the computably ambiguous functions. A
+—er oY, ep DUB iUMCLIONS
+
+wider class of ambiguous functions if formed using
+
+the operator An(x,m(x)) whose values are all
+x's satisfying T(x).
+all C00 <3 a3: (Yi 13 { 1 wean f
+
+    
+
+.
+
+Q
+
+ti
+
+“other with B.
+
+   
+
+from B identified i
+
+variable defined on AxB. =r
+
+S - The direct union AGB of the sets A and B
+
+is the union of two non-intersecting subsets one
+
+of which is in 1-1 correspondence wi th A and. the
+If A and B are finite, then NR
+
+n (AGB) = n(A)4n(D) cven if A and B intersect.
+
+The elements of AOB may be writtén as elements of"
+
+A or B subscripted v
+
+‘ith the set from which they”
+come, i,e¢. a_or b . is
+A B
+
+  
+
+ons of éne
+
+”
+”
+
+z ~N id
+The canonical mappings associated with the
+kta shards CC eat
+EY ve vr defined by i: (2) = a
+A,B Y 25,58) =n
+j :B > AGB defined by j b) =
+Ian, B iined by Ja, p¢ ) b,,
+
+tAOB — TT defined b Ss
+PAB define y Py g® T if and
+
+only if x comes from A,
+AGB 2 Tr defined b X) = Tif and
+UY p y %Y 5 )
+only if x
+There
+tions r
+
+comes from B
+
+are also two canonical partial func-
+tA@CB —> A which is defined only for
+elements ¢oming from A and satisfies
+
+r a))=a, Similarl —_— i ;
+A,¢ a,5¢ )) milarly Sp, hoB >B satisfies
+S j b =b.
+A,844 pS )) |
+3. The power set AP is the sot of all
+
+mappings f:B —» A.
+
+A
+
+A,B
+
+The canonical mapping
+:APXB — A is define by oN (ED) = £(b)
+’
+
+Canonical Mappings
+
+We will not regard the
+(AXB)XC as the same,
+mapping between then
+: (AxB) XC ~~ Ax(5xC)
+
+sets Ax(BxC) and
+but there is a canonical 1-1
+
+5A,3,C
+
+of
+
+
+defined by
+
+or u) = rT
+
+%2,2,6" = 83, ey 7,
+mT
+
+QC A,B AXB
+
+i/e shall write
+
+to express the fact that these sets ar
+
+(AxB) xc ZAx(BxC)
+
+canonically isomorphic,
+Gther canonical isomorphisms are
+1. -t :AXB => BXA defined by
+
+clements) by O and the set cons
+integers from 1 to n by n.
+
+A,B
+
+(Beg)
+C
+
+)
+t = <
+
+(u) 5.4" mm
+2. d, :Ax(BCC) — AXBOAXC
+3. a :{ACBYCC —>A
+
+2 . .
+4. 4, LC ~ (AXB)
+5. a: APxd — FOC
+
+G. S,: (ABC . BxC
+
+We shall denote the null
+
+AO 022A
+AQ 020
+AX12A
+
+0), 7, 0)
+
+e
+
+ 
+
+set (containing no
+isting of the
+
+We have
+
+AX22\CA (n terms, associate to loft by
+convention)
+
+A% (by convention)
+
+3 AA
+a
+
+A Ax, 3A (n terms, associate to left by
+
+convention)
+
+Suppose we write the recursive equation
+
+is fn) OAXS
+
+interpret this ag defining the set of
+
+clouent of OS.
+TCC +L Dai I
+
+consiagii
+
+VY
+
+~
+Ya
+
+uences of elements of A ag follows:
+L.. Interpret Nag denoting the null
+nthe null sequence (strictly
+
+a
+
+‘
+
+~] Siac i
+
+sequence,
+an image of it)
+
+Ni
+
+Ey Tt ph cg — rt ti ys
+
+SE. dtp tg 4 teagan
+
+When sets are formed by this kind of
+
+recursive definition, the canonical mappings
+associated with the direct sum and Cartesian
+
+Consider,
+
+product operations have significance,
+for example, sexp(A).
+
+- —
+
+We can define the basic operations of LISP,
+
+i.e, atom, eq, car, cdr and cons by the equations
+
+X
+Pa, xs’ ) -
+
+eq(x,y) = (7 5s = axe)
+
+atom(x)
+
+assuming that equality is defined on the space A
+
+car(x) = 7s,5% 5x5*)?
+cdr (x) Co, 6 aus OP
+cons(x,y) = Ia, 5x59, C50)
+
+Definition of the set of integers,
+
+Il
+
+Let denote the null sct ang 7 3
+
+set whose sole element is the null set,
+define the set of integers I by
+I = E13 05/3 XI
+
+its elements are then
+
+be the
+We can
+
+A, A. 4, (A, $A, 4), A, A, N,4))) ete.
+
+which we shall denote by 0,1,2.3 ate,
+
+'
+|
+1
+
+|
+
+The successor and predecessor functions are then
+definable in terms of the canonical operations
+
+of the defining equation. We have
+
+suce(n) = a3 “0
+pred(n) = ¢@
+
+(oa ~~ (n))
+A ’ I 7 XI
+in} fr)
+
+PROPERTIES OF COMPUTABLE FUNCTIONS
+
+The first part of this paper was solely
+concerned with presenting deseriptive formalisms,
+
+In this part we shall establish a few of
+properties of the entities we previously
+troduced, The most important section is
+second dealing with recursion induction,
+
+the
+in-
+the
+
+-—— -——— —
+
+|
+1
+
+—— — . .
+.
+
+ 
+
+—
+
+ey
+
+
+e canc ni co operations
+‘We have
+
+        
+
+   
+
+ 
+   
+
+ATAX. . XA
+
+ 
+
+ 
+
+terms, associate tos left by
+convention) PROPE TIES OF COMPUTABLE es
+Suppo 2 write the recursive’ equation “The first part of this paper was solely
+S = £4 L0AXS / = concerned with presenting descriptive Jormalisms,
+we can interpret this as definig the set of rd In this part we shall establish a few of the
+SEdNgnaeyo of elements of A as, follows: ™~ : properties of the entities we previously in-
+1. / Interpret as denofing the null sequenced troduced. The most important section is th
+Then the null sequence (strictly an image of it) second dcaling with recursion induction, ~
+is ay element of S. NN 7 oe / SN — / NN
+/ 2. Since a pair consisting of an clenént of 7. Formal Properties of Conditional Forms... m——rr——rm—i———
+‘A and a an element of S is an element of S,a pair The theory of conditional expressions
+(a,A) is an element of S. So,then,are corresponds to analysis by cases in mathematics
+a; (ay NM) and a (a, (az) etc. and is only a mild generalization of propositional |
+: calculus. |
+Thus S consists of all sequences oi elements of A : ; ; 3
+: We start by considering expressions called
+including the null sequence. : : -
+generalized Boolean forms (gbf) formed as follows:
+Suppose we Seti tate A 3 @AXS : Fs : Rn
+: 1, Variables are divided into propositional
+for 8 in > right side of CAXS. We get varighles r, etc. and general variables
+S = Aon SA Sons) wp Se 4s ¥s + and § iable
+¢ or and expand bv the dl > |
+11 we ol ubstiiute’ J PB. P 2. We shall write (p— x,y) for 8
+distributive law we get | : |}
+Bons a — (p—x,T—y). (p— X,y) is called an elementary |
+S =$4% ©Ax AXA z Fives Se ;
+: conditional form (ecf) of which p,x, and y are
+which if “we” denotc¢ the set becomes : : |
+5 16A0AZON2 20 called the premise, conclusion and the 8
+a a ; alternative, respectively. :
+which is another way of writing the set of re rial le i bE dif it 1
+sequences. We shall denote the set of sequences ee ables a gor and JX 1x 15 @ q
+propositional variable it is called a pf |
+of elements of A by seq(A). TT, |
+Another uscful recursive construction is (propositional form). Wi
+wok AGSXS : > 4, 12 TT is a pf and and 3 are gbfs, then i
+= wo, BB) is a gbf If, in addition, A and 8 |
+: : a or (a. a) or i
+Its elements have the forms a or ( 1 ,) ave pis so 18 (fot, i) §
+((a LP or (a, “le 2. )) etc. Thus we have | The value of a ghf 24 _ for given values
+2 : Yo idl . (T,F or undefined) of the propositional variables
+the set of S—-expressions on the alphabet A which : h >
+rs era fine will be T or I in case ok is a pf or a general
+we may denote by sexp(A). This set is the subject : % :
+sa variable otherwise, This value is determined for
+matter of Reference 7 and the following paragraph a gbf (ir rete ) according to ti tabl
+refers to this paper. SOL viet 7 BI) ES ig hae
+
+
+value a) | value ((r—«, 0)
+—— AT y8))
+
+T value (cA)
+F value (g) |
+undefined undefined
+
+We shall say that two gbfs are strongly
+equivalent if they have the same value for all
+values of the propositional variables in them in-
+cluding the case of undefined Propositional
+variables. They arc weakly equivalent if they
+have the same values for all values of the
+propositional variables when these are restricted
+Oo. T and FF,
+
+The equivalence of gbfs can be tested by a
+method of truth tables identical to that of
+propositional calculus. The table for
+
+((p —q,r) — a,b) and (P+ (q+ 2a,b)(r ~+a,b)) is
+
+ 
+
+ 
+
+_
+0
+3 0)
+i ig
+~~ |
+~ ~ ~ ~ 1 |
+3 - Q Q
+- oO - > oN
+o' a a ad ~~
+: [ a A A
+I 0
+jo ~~ ct ~ 2
+: par | p— Nr Nt No 7
+TTT T a a a a
+TTR T a a b a
+TTu T a a u a
+TET Ir b b a b
+TF Fr b b b b
+TFu Oy b b u 5)
+TuT u u u a u
+Tul u u u b u
+Tuu u u u u u
+-~ ew [ . - - iE
+
+ 
+
+ 
+
+Hin Ep
+
+oO — —— ey ee eet—— tt ——m— et tS i
+
+ 
+
+WE ———— —
+
+~~ ~~
+25 03
+d © da
+Z2iS| tile io) ty |
+- - oo | - 2, no,
+io) 0 ow <lag 0 - <
+I I I | 1 I
+o ot a, fo) 0, o*
+Pq pL A Ns ~ Ll ~
+TT a Cc a a bh a
+TF b d b a b b i
+FT a Cc C C d C |
+TT b d d Cc d d
+
+which proves that Pp ~ (qa, (g~re,d)) and
+(q+ (p= 2,8),(0 = 5,4) are weakly equivalent,
+They are also strongly equivalent, le shall
+write BE and ==. for the relations of
+
+Strong and weal equivalence.
+
+There are two rules whereby an equivalence
+can be used to generate other equivalences,
+
+. If A= p and ok, = B 1 1s the
+result of Substituting any gbf for any variable
+» thonee , = Zi This is called
+the rule or substitution,
+
+Dv IT oi = 0 and os. is sub-expression of
+7» and 6 1s the result of replacing an occurrence
+ofA in ‘by an occurrence of g , theny-= g
+This is called the rule of replacement,
+
+These rules are applicable to elther strong
+Or weak equivalence and in fact to much more
+general situations,
+
+Weak equivalence corresponds more closely
+to equivalence of truth functions in Propositional
+calculus than does strong equivalence,
+
+Consider the cquations
+
+1) (p may DB ;
+
+2) (T =~» a _h) a
+
+
+p y \ ; N . z
+WN — 4 4 . We
+T a a
+Ir b b
+u u u
+T a a
+F b b
+u’ u u
+T a a
+F b b
+u u u
+u a a u
+u a b u
+u a u u §
+ufrFT u u b a u
+urr u u b a u
+ulffu u u b u u
+uuT u u u a u
+uuf u u u b u
+uuu u u u u u
+According to the
+
+table ((p — q,r) — a + D)
+and (5 = (g=r a, b),(r—a,b)) are strongly
+cquivalent.
+
+PR
+
+case can be
+
+For weak equivalence the u
+t Consider the table
+
+-—
+
++L out of
+
+ve \L
+
+he table,
+
+ 
+
+ 
+
+\
+
+~ they can be used to tr
+
+vhere te 2
+
+a
+
+        
+
+=p ana is sub-expressi
+the result o cplacing an occurr
+
+yv~ Dbytan ee of B , theny=
+This. 1s called the - ‘rule of replaccuent.,
+
+“These rules arc applicable to either strong,
+or weak equivalence" and in fact to uch’ .more
+~ general situations, ™N / \
+
+Weak equivalence corr
+
+to equivalence of truth functions in PFoposi tional
+calculus than does strong equivalence
+
+Consider the equations
+1) (p->a,a) = a
+
+ee Le Ee . —
+2) KT ~>a,b) — =
+3) (F-—ra,b) Ee?
+
+of
+ce
+
+    
+
+\
+
+esponds more closely
+
+is
+
+1) (p—T,F) EP
+
+   
+
+9) (p— (p— a,b),c) =. ~~ .C)
+6) (p~—a,(p->b,e)) =_( ~> a,c)
+
+> ————
+ft - iis a Pl eh iim SBR BA EB
+- AN ALS EER EEE ,M I L
+
+7 ((p—q,r)— ob — (a4 a,b),
+(r— 2,b))
+
+8) ((p—~ (qr a,b), (q +c, d))=
+
+tr b,d)) |
+All are strong equivalence except the first and |
+can be proved by truth tables
+
+These eight cquations can be used as axions
+
+to transform an ght into any weakly equivalent
+one using substitution and replacement. In fact,
+ansform any gbf into a
+This canonical torn is the
+Let PysevesP, be the variables of the
+
+canonical form.
+following.
+
+gbf a taken in an arbitrary order. Then
+be transformed into the form
+
+(p, E=> 83725)
+
+has the forn
+
+PT — -
+
+-—
+
+a can
+
+=P, —a,,a,,)
+
+
+Fiat rar a sri they Sa at —— A. Son ———
+
+ 
+
+-—
+a
+
+. —~ ~ p—- ——
+
+and in general for cach k = 1,n-1
+
+Been, = (p, a eesy »0,a HE 1)
+i, i i+1 i i Ly iy
+and each 8, 1+++», lis a truth value or a general
+
+1 *n
+variable,
+For example, the canonical form of
+((p—q,r) — a,b)
+with the variables taken in the order r,q,p is
+(rr — (q.~ (p—> a,a),(p = b,a)), (q = {Dp —> a,b),
+; (p= b,b)))
+In this canonical form, the 2 cases of the truth
+or falsity of Put vend, are explicitly exhibited.
+An expression may be transformed into
+canonical form as follows:
+
+1) Axiom 7 is uscd repeatedly until in
+every sub-expression the 7 in (7 =f DB ) consists
+
+of a single propositional variable,
+2) The variable Py is moved to the front by
+
+repeated application of axiom 8. There are three
+cases: (q — (Dy F240), {p, =+2,d)) to which axiom
+8 is directly applicable,
+
+(a= a,(p, —>2,d)) where axiom 8 becomes applicable
+
+Qfter axiom 1 is used to make it
+Lg ==> (py => 2,8), (p, ~ 2,0) and then axiom 8 is
+
+applied, the case (q =p, ~+a,b),c) is handled
+Similarly,
+
+Once the main cxpression has the form
+(p, 27,2) we nove any p's which occur in oe
+
+and # to the front and clininate them using axioms
+© and 6. ‘We then bring p_ to the front of o~and &
+using axiom 1 if nceessary to guarantee at
+least one occurrciace of P,, in each of «~ and £ :
+The process
+
+is continued until the canonical for
+is achieved,
+
+I
+
+There is also a canonical form for stron
+
+ 
+
+replacement on formulas we need the
+axioms
+
+(9) (p+ (q->a,b),c) =. => {q+ (p — a,a),
+(p — b,b)),c)
+
+additional
+
+and
+
+(10) (p ~ a, (q — b,e)) = (p —>a,(q-+ (p~b,b),
+
+(p->g,0)))
+Suppose there is an occurrence of p. in the
+conclusion; we want to replace it by T. To do
+this, we usc axioms 9 and 10 to move in a py
+
+until the objectionable Py occurs as the inner
+
+Py of one of the forms
+
+(p, wb (p, -+a,b),¢)
+or
+(p, wi a, (py -20,CY).
+
+In either case, the objectionable P; can be
+
+removed by axiom 5 or 6 and the p's that were
+
+moved in can be moved out again,
+
+Thus we have (Pp; ~ 75,3) with P, missing
+frome~ and /7
+
+4) Inevitable variables are then brought to
+the front of ~4and_# and so forth,
+
+Two gbfs are equivalent (weakly or strongly)
+if and only if they have the same (weak or strong)
+canonical fori, One way this is easy to prove;
+if two gbfs-have the Same canonical form they
+can be transformed into cach other via the
+canonical form, Suppose two gbfs have different
+weak canonical forms when the variables are taken
+in the same order, Then values can be chosen
+for the p's giving different values for the form
+proving non-cquivalence., In the strong case,
+Suppose that two gbfs do not have the same in-
+evitable propositional variables, I.et p be in-
+evitable in a but not in b. Then if the other
+
+variables are assigned suitable values b will
+
+
+On e the main expression has the
+
+— A ) we move any
+45 RB yD."
+
+and 4 to the. front and eliminate them using axioms
+
+5 and 6, - Ve then bring p_ to the front of /~and §
+using axiom 1 31 7 Te 0 guarantee at
+
+least one occurrence of p, in each of «~and & .
+
+-
+
+orm :
+s which occur in o~
+
+N
+
+The process is continued until the canonical form \
+
+is achieved.
+
+There is also a canonical form for strong
+equivalence. Any ght a is strongly equivalent
+to one of the form (py SB), where and 4
+
+do not contain Py and are themselves in canonical
+
+form. However, the variable Py may not be chosen
+
+arbitrarily but must be an inevitable propositional
+variable of the original gbf and can be chosen to
+be any inevitable variable. An inevitable
+variable of a ght (77 —o~, 8) is defined to be
+either the first propositional variable or else
+an inevitable variable of both and 3 .
+
+A gbf a may be put in strong canonical form
+as follows:
+
+1) Use axiom 7 to get all premises as
+propositional variables.
+
+2) Choose any inevitable. variable, say Py»
+
+and put a in the form (p ~~ B) by using
+
+axiom 8.
+
+La]
+
+3 The next step 1s
+
+of Py in A and [3
+
+to eliminate occurrences
+This can be done by the
+
+general rule that in any ecf occurrences of the
+premise in the conclusion can be replaced by T
+and occurrences in the alternative by F.
+Hlowever, if we wish to usc substitution and
+
+ 
+
+vari iables are
+
+and onl; they t |
+
+anon ical Fo, ne vay. this is asy to prove;
+if two _gbfs have the same canonical form they”
+can be transformed ito cach other via the ~
+canonical form. ‘Suppose two gbfs have different
+weak canonical forms when the variables are taken
+in the same ‘order. Then values can be chosen |
+for the p's giving different values for the form
+TTR non-cquivalence., In the strong case,
+suppose that two gbfs do not have the same in-
+igs propositional variables. Let p be ink
+evitable in a but not in b. Then if the other ©
+assigned suitable values b will \
+defined with p undefined. lHHowever, a will be
+undefined since p is inevitable in a which proves
+non-cquivalence, Therefore, strongly equivalent
+ghfs have the same inevitable variables, so let
+one of them be put in front of both aie. The
+process is then repeated in the conclusion and
+alternative etc. :
+
+The general kind of conditional expression
+
+(py “2 8 5vanisD, 0)
+
+  
+
+   
+
+can be regarded as having the form
+- eS e CEE) J —t VU) ese
+(py 1 P, gt (P LW eed)
+where u is a special undefined variable and
+
+their properties can be derived from those of
+ece's.,
+
+The relation of functions to conditional
+expressions is given hy | the distributive law
+
+L(x 5000 X, 4 » (py rk 8 ten D =the,
+
+ar
+(0 = B00 ees rr gO att reser ® YyvneyD >
+EOn snes ®, CR rE)
+
+
+The yale. of ronTAEeTont can be extendod in
+
+The cane of condition] expressions. Suppose =~
+is an occurrence of a sub-cxpression of an ex-
+Preas . We define a certain propositional
+expression T called the premise of &~in B as
+follows:
+1) The prenisc of-~inod~is T.
+
+2) . The premise of Bin £(x; yi Lee )
+
+n
+where Bis part ofcoA is the nremise of «< in I$ .
+3) The premisc of J in
+
+——) eo 0 ——yc CC) -e )
+Oy el Ree,
+
+where [3 occurs in e,, and the premise ofg< in e,
+i i
+is 7, is up A cee Nap,
+
+4) The promise « oe B in
+
+“ee os 0 -— a
+kp, ~®, Py ®y Pa 2
+
+vhere p occurs in 5 , and the premise of o~in p_
+i
+
+As
+The extension of the rule of replacement is
+
+that an occurrence Of in may be replaced by ¢Zf
+if (rr =) = JE oL where Tm is the premise of
+
+din PB . he in a subcase one nccd only prove
+equivalence under the premise of the subcase.
+
+Ar.
+il
+
+is 7, is wp, A ve inp,
+
+S. Recursion Induction
+
+Suppose a function £ is defined recursively
+
+J =f hn rea ~X 13
+n
+vhere & is an expression in in general contains
+f£f. Supposc that ¢ is the sct of n-tuplets
+Geyrev aX) for which % 15 defined, Now let g and
+
+Dy
+1) L(x y vee X
+
+oO
+
+h be two other functions with the same domain as ff
+and which are defincd for all n-tuplets incl. =
+Suppose further that g and h satisfy the cquation
+which defined £. Ve assert that
+
+(x Sarees) -_ a,
+
+m and n and hence is defined by th: equation.
+
+(m4) ! — (n=0 — m,T — m' +n") 1
+= (n=0 —» m',T~ (m'+n~)")
+m--n = (n=0 ~m', Tr (n')+n")
+
+It is casily sco
+defined oY the
+
+en that the functions g and h
+cquations (m,n) = (msn)' and
+
+we n) = +n both satisfy the equation f. For
+Si ot is clear that olm'® . am) (m'+n~)' and
+him! ,n") (m')'4+n~. Therefore, by the principle
+
+of recursion induction h and g are equivalent
+functions on the domain of where ff is dafined,
+but this is the set of all pairs of integers.
+
+The fact that f(m,n) converges for all m and
+n is a case of the fact that all functions defined
+by equations of the form
+FQLX. 3 seaX ) (n=0 —> g(x) roo X ), » T= h(L(n”, ry
+
+(x, yreeX 3, nemo eee YY siwwny
+fn" Kx you bovigiX Ys eng #1
+(x, oe, ))
+
+converge. We shall has discussing formal
+proofs of convergence,
+In presefiting further proofs we shall be
+more tersec.
+Th 3. (nin)i4p = (m4p)+n
+Proof, LJt L(n,n,p) p=) nin, 20 SPT)
+Again f converges for all m,n,p. We have
+(mm)+p = (p=0 — m+n,T — i +p”)
+“(p=0 —> mn, T — (n'+n)+p~) using Th 2.
+(m+p) +n = (5-0 —> 1. > +p”)
+= (p=0 — m+n, T ~~ (m' +p”) +n)
+Each of these forms satisfies the equation for
+f(n,n,p).
+Setting m=0 in Th 3 gives
+(On) +p = (0+p)+n
+so that if we had Om = m we would have -
+commutativity of addition, .
+In fact, we cannot prove O+m = m without.
+making some assumptions that take into account
+
+soe X LX
+
+H
+
+— a Wl he ha BATE ar ATES — ICENIOYNCHO IRF ME yates e a I~
+
+ ———
+
+3 eee ete Poip———
+
+
+O11
+
+wg an e: or cssion a in Coat contains 7
+
+£. Suppose hat 1h the set of n-tuplets
+Tr), ) fox. which x is defined.
+
+s,s
+
+Now let g and
+N 7
+“with the same domain as I
+
+all n-tuplets inl.
+Suppose further at 3 and h satisfy the cquation
+
+h be tvo os fonctions
+and which are defined for
+
+which defined f. Ve asse rt that Zz =
+E(x, ) een Xy ) — h(x,» reed) ~7 \
+
+for : all 5s seees®, J) in ql This is so simply
+because equation ip uniquely determines the value
+that any function satisfying it has for argunents
+in A which in turn follows from the fact that
+
+1) can be used to compute £(x 500 0sX) for
+
+(x yee eX ) in Lb
+2
+
+We al call this method of proving two
+functions equivalent by the name of recursion
+induction.
+
+We shall develop some of the properties of
+the elementary functions of integers in order to
+illustrate proof by recursion induction,
+the definitions
+
+min = (N=0 — m,T—> m'+4n")
+
+We recall
+
+mn = (n=0— 0,T + mi4mm")
+Th 1. mi0 = m Fa
+Proof m40 = (0=0 — n,T > m'+07)
+= mM
+
+Only the definition of
+
+addition and the properties
+of conditional
+
+xpressions were used in this proof
+
+Th 2 (Gn4n)' = m'4n
+
+Proof Define (m,n) (n=0 — m',T— £(m,n"))
+
+it is easily scen that f(m,n) converges for all
+
+s defined recursively
+
+Th 4. O4n = n
+
+Th 5H, m+n = n-am
+
+Proof. By 3 and 4 as remarked
+
+ 
+
+Again’ nvotaes or all A
+
+(mm) +p = (p= =0 — m:n ,T — (unin) '+p7)
+37 = (p=0 — on Tr (ni'+n)4p” Y using “Th 2
+$ (p= =0 — m, T — m'4p = AN os
+(p=0Q + Fie ==> Cr +P ~)4n)
+Each of these forms satisfies the equation for
+
+   
+
+(m4p) -m
+
+I
+
+“£ (n,n, pp). ™N / C7
+\_ Setting m=0 in\ Th” 3 cives
+(Oin)4ip = (04 p) in FX
+so that if we had 0-4 = m we would have \ ls
+commutativity of addition. : NC
+In fact, ‘we cannot prove 0. = Mm wi thot
+
+making some assumptions that take into account _
+
+that we are dealing with the integers
+
+ers, For
+supposc our space consisted of the vertices of
+
+the binary tirce where m!
+
+is the vertex just above
+and to thc left and mm
+
+is the vertex just below
+and 0 is the bottom of the
+tree. m+n can be defined as
+above and of course satisfies
+Theorcms 1, 2 and 3 but does
+not satisfy O+m = m.
+
+—_—
+
+ 
+
+We shall make the following assumptions:
+
+1. wt AO
+Ze XY) =m
+3. (AOS Cm") =m)
+
+which embody all of P=zano's axioms except the
+induction axiom,
+
+Proof. Let f(n) (n=0 — 0,T~> £f(n")"')
+On = (n=0—>0,T-—>0' +17)
+= (n=0-+0,T~> (04+n7)"')
+n = (h=0—>n,T-rn)
+© = (n=0 = O,T— (n")") axio:qn 3
+
+“/
+
+above
+
+ 
+
+AAAS — P-L LAYTON Ar) 2X
+
+wont onary aed . A
+
+Ls,
+
+
+Th 6. @Gan)+p = m+(M-+p)
+Proof. (Gisn)+p = (+p) in T™h 3
+= (pid) +n Th - 5
+= (pn) +m Th 3
+= m+(Mm4+p) Th 5 twice
+
+Th 1. m0 - 0 =
+Proof. m0 = (0=0—0,T— mn+07)
+= 0
+
+Th 8. On =70"
+Proof. Lzt I(n) = (n=0—0, T— £(n~ yy
+On = (n=0— 0,T~->0+0*n")
+0 = (n=0~—0,T~>0)
+
+T™h: 9. mn' = m4mn
+Proof. mn' = (a'= 0— 0, T—nmwm+(n')7)
+n+inn axioms 1 and 2
+
+Th 10. wm(n+p) = m+mp
+Proof. Let f(m,n,p) = (p=0-— mn,T — £(m,n’ sD °))
+mMm+p) = m(p=0 = n,T—n'+p’))
+= (p=0 — nn, T— mn(n'+p~))
+mmamp = mn+(p=0 — 0, T — m+up~)
+= (p=0 — mn-+0,T ~— nn+(m-+Hap~))
+(p=0 — mn, T — (mn+m)+mp~)
+= (p=0 — mn, T — nn'+mp~)
+
+ 
+
+Now we shall give some examples of the
+application of: recursion induction to proving
+symbolic exXpiessions.,
+rest of these proofs depend on an acquaintance
+with the LISP formalism
+
+theorems aout functions ox
+
+' a deol hou
+Jo G4 1G CLCS
+
+ 
+
+™h 12.
+
+=[ nu1lf ty ]— 2; T — cons[ cay x*y];
+cdr{ xxy lz
+=[null[ x] ~ [nul] y] => z;T — cons
+[car x*y }; cdr [xxy]*z 11 T--- cons
+[cay x+y ]; car [x¥y] xz] ]
+fl x] = [null] y] ~ z;T —> cons [car
+y J;cdr[y Jfz T — cons fear [x Y{car i
+[x Fy]*2]]]
+=[nullf x] — y*z;T — cong[ car [X] [cdr
+[d *y Jz ]] Foor]
+Now let | |
+I x;y;2] =] Cg [x ye —- cons [car[ x]; f cdr.
+y V1 4
+From the above steps we see that [xxy} xz satisfies
+the equation for £f. On the other hand
+xt y*z ] = [null[x ]— y*z;T — cons[car k]; [cdr |-
+[x }{y*z]]] |
+
+satisfies the ecquation directly
+
+NIL*X =
+X*NIL
+Proof. NIL*Xx
+
+X
+
+X
+
+[ nui1 fiIL ]— x;T — cons kar [NIL];
+cdr [NIL ]*x 1]
+
+Il
+
+ 
+
+XNIL
+
+I
+
+cdr [x] *NIL ]]
+[ nu1a x] -—> NIL; T — cond car [4 ; f [cdr
+
+Fret fk }- NIL; T — cons [car[x } |
+| |
+=111] Em
+
+Let f(x) =
+
+.
+A ee BE CR ey
+
+NIL satisfies this equation. Ve can also write’
+for any list x
+Xo Ltn) = rai]
+
+= [nu1if x] - NIL; T — cons[ car [x] ; cdif x]]] L
+which also satisfies the equation. ii
+Next we consider the function reverse Xx
+defined by
+reverse [x] = [hull — Nin; T => reversd cdr [¥] ]
+scons [car] x Js Nin] |
+
+It is not difficult to prove by recursion i!
+
+induction that |
+
+fg a /
+
+ye x “ug
+NV CMI
+
+
+e tart wi th the basic identitios.
+x car [consl > my =
+
+ 
+
+Be
+
+“null x] = el itn) 7 \ i
+
+Let us de fine the co 1catonation x
+
+isis x and y by the formula
+Xky = [naa x I y; =x cons [car[x];
+Our fist objcctive is
+catenation is associative.
+
+cry of two
+
+Mc a
+
+cdr [x Jry]]
+
+to show that con-
+
+™ 11. [ xy) #2 = x#[ y*z ]
+Proof .
+. nul. | sy) = null [lhwilx = y;7 — cond car [x ]:
+cdr x ky)
+[p(x J maf 5] 3 T = nulll cons car
+Jd car xy] |
+
+[hull [x ]— nui y]
+null{x ] ink fy ]
+carl xy ] Bf |; can {y)T— car[cons| car
+
+x 3 ar [x key
+ro ot In 1]
+
+naa] X ] --3 car
+car cons[car
+
+: [1];
+cd x*y ] 5 yp Ts
+- cd r[ X J v])
+
+; TF)
+
+I
+
+IX) car
+: [nui] x ] ol y];T wes?
+
+ 
+
+NN
+Q.
+ND
+
+ 
+
+x / \ % ai
+
+N edrfcons[ x;5] |\= y \ A NS
+
+“atom[x ] [cons[ car [d:car[x] 4 x 7 N
+“atou| cons x;y ]] 7 / X
+
+pt .-
+
+ 
+ 
+ 
+ 
+
+] =x;
+= [nul] x ¢] hs i yo D—>
+which also satis
+
+SN
+
+ 
+
+\
+carfx]; car x]]]
+| the equatign.,
+
+Next we ot ae) the ee A
+
+ 
+ 
+
+ 
+ 
+
+\
+
+[hu11 [] “NIL; Toor Severs cdr [x] }
+scons [car[x J; NIL] ] X
+
+defined by
+reverse [x]
+
+It is not difficult to prove. by recursion
+‘induction that pe ;
+\ / reverse xy) _E royerse [v] w__Ireverse [x eit Ea
+Fang = T=
+
+reverse[ reverse [ ] Xe.
+
+Many other elementary results in the cle-
+mentary theory of numbers and in the clementary
+theory of symbolic expressions are provable in :
+the same straightforward way as the above, In : :
+number thcory onc gets as far as the theorem that
+if a prime Pp divides ab, then it divides either i
+& or Db, However, to Formulate the unique / |
+factorization theorem requires a notation for
+
+dealing with sets of integers. Wilson's theorem,
+a moderately deep result, can be expressed in this
+
+formalism but apparently cannot be proved by : |
+recursion induction. |
+
+One of the most immediate problems in ex-
+tending this theory is to develop better
+for proving that a recu:
+converges. We hope
+functions. However,
+hope that a complete
+formed.
+
+The
+
+CHCur
+
+ 
+
+ 
+
+techniques
+"sively defined function
+
+to find some based on ambiguous
+Godel's theorem disallows any
+set of such rules can be
+
+ 
+
+relevance to a theory of computation of
+
+into number theory is that the
+problems involved in developing rules
+the valence of algorithus.
+
+lction which w
+
+™ vy Ia Te
+
+)
+Nr ~~
+
+this Sion
+mathematical
+for
+Recursion indu
+sidering
+Applicable
+CXDress
+
+proving equi
+
+4s <iscovered by con-
+mgd problems turns out to be
+without change to functions of symbolic
+
+ 
+
+ 
+
+ 
+
+ions.
+
+deirni tions lid LAGU ING OL CL LIS I
+
+LINZ WY wv Aa y
+
+
+9. Relations to Other TFormalisms
+
+— | —— ————
+
+Our characterization of C $F tas the set of
+functions computable in terms of the base func-
+tions in} cannot be independently verified in
+reneral since there is no other concept with
+which it can be compared. However, it is not
+hard to show that all partial recursive functions,
+in the gense of Church and Kleene are in
+C £ suce,cq 3 . In order to prove this we shall
+usc th2 definition of partial recursive functions
+given DY Davis3, If we modify definition 1.1 of
+page 41 of Davis3 to onit reference to oracles
+we have the following: A function is partial
+recursive if it can be obtained by a finite
+number of applications of composition and
+
+minimalization beginning with the functions
+
+on the following list: 1)x', 2) Ul (x peeeX) =
+X.,11n, 3)x+y, 4) xy = (x-y 20 — %X~-y,T -> 0),
+SIxXy.™
+All the above functions are in CE suce,eq3 :
+Any e773 is closed under composition so all
+
+that remains is to show that C succ, eq is
+closed under the mimalization operation.” This
+operation is defined as follows: The operation of
+minimalization associates with each total function
+2LY, Xv 0003) tne function h(x vee) whose value
+for given ByeronaX is the leaSt y for which
+
+£(Y, Xp 0000 X ) = 0, and vhich is undefined if no
+n
+
+such y exists. Ve have to show that if ff dis’ in
+C Ss suce, eq so 1s h., But h may he defined by
+BOR. oe eX) = NR (0X Hes X DO)
+(xy Nn 2 a day
+
+‘
+11:14 1* 0D
+wilC lL C
+
+h (y x NG ) CF (y 3 A ) N Frid h —
+: i ” - . J ~ ) Fro A J
+ger En : $=) n ’
+vl a oe
+h,, (3 ) 1! CE ’ x J)
+The converse statement that all functions in
+. > : 3 :
+C 2 Bsuce, cq. arc partial cursive presumably
+
+also true but nol quite so casy to prove,
+fune tion
+
+- . . PS zd. | ~ ~ ot *. .
+LLCs Oust oninion chat the EEC SEVEe
++ °
+Coy } 5 4 } Yar oe 1 { ey YA nl
+
+ 
+
+ 
+
+a Ea Rated EO CNONTDNT
+3 - , { / Fa hin J 4 -
+
+oY
+;
+fh A”
+
+et. ae. ———— A———— i —— ———————— — ————————————— ————— ——— ———
+- —-— - a - — -
+
+particular ways computations are represented,
+is sufficient that computable functions be
+represented somehow by symbolic expressions, e.g.
+numbers, and that functions computable in terms
+of given functions be somchow represented by ex-
+pressions computable in terms of the expressions
+representing the original functions. However, a
+practical theory of computation must be appli-
+cable to particular algorithms, The same objec- |
+tion applies to basing a theory of computation on |
+Markov's9 normal algorithms as applies to basing
+1t on properties of the integers; namely flow of |
+control is descllbed awkwardly, |
+
+The first attempt to give a formalism for |
+describing computations that allows computations
+with entities from arbitrary spaces was made by
+A. P. Ershov?. IJTowever, computations with the |
+symbolic expressions representing program steps
+are also necessarily involved.
+
+We now discuss the relation between our for~ |
+malism and computer programming languages. The
+formalism has been used as the basis for the LISP
+programming system for computing with symbolic
+expressions and has turned out to be quite prac-
+tical for this kind of calculation. A particular.
+advantage has been that it is easy to write
+recursive functions that transform program which
+makes generators easy to write.
+
+The relation between recursive functions amd
+the description of flow control by flow charts is
+described in Reference 7. An ALGOL program can
+be described by a recursive function provided we
+lump all the variables into a single state vector
+having all the variables as components. If the
+number of components is large and most of the
+operations performed involve only a few of them,
+it is necessary to have separate names for the
+components. This means that a programming
+language should include both recursive function
+definitions and ALGOL-like statements. [lowever,
+
+ti
+
+eg
+
+Sr —,
+
+
+this kind of en culation. A particular
+am age has becn that it is easy to write
+AR ra pe = : !
+
+   
+     
+  
+
+   
+  
+
+   
+
+   
+
+    
+  
+
+L - ph po oa . hh ~N . : b 3
+Ye or a mdoringd LF No recursive functions that transform prograi which
+Bh and which is undefined .£_no : - i /
+%0, and which is unde fakes generators easy to write.
+Ble St! Er nei . 7 \ ; 7 a Be , iy
+ee ach vy oxis We have to show that if £ is in = The relation between recursive functions ard
+= en -
+
+C succ,eq 3° sO ig h. But h may be defined “by” the description of flow control by flow chart
+
+is
+s Z Bex, 0» 72K) By (0,80 oh described in Reference 7. An ALGOL pregran ea)
+7 = wy Ne be described by, a recursive function provided Wwe
+Wicre : £ i NY = Or AT “lump all “the variables into a single state vector
+™~ CTE SPEER, z= (3,55 +» = = ‘having all the variables as components. IT the
+\
+
+~ h, (y's a BIN number of components is large and nost of the
+: N/ operations performed involve only 2a few of them,
+it is necessary to have separate names for the
+
+\
+
+The converse ctaternent that all functions in
+“7 - - § A Ne -
+
+C 7 succ,eq arc partial recursive, 1s presumably
+N
+
+\ Me nat quits to components. This means' that a programming ”
+also true but not quite so casy 10 rove. \ \ X ; : :
+gi soi 3 . 2 ' y P 2 x language should include both recursive function
+
+It is our opinion that the recursive function ”
+
+. . . . \ i \
+; re ie : : definitions and ALGCOL-like\ statements. However,
+formalise based on conditional expressions ee TE — nN
+~ . ; ni ror thon the fo) a theory of computation certainly must have
+
+esonted in this paper is betier -han the Ior- : ;
+prose : Pant 2 i techniques for proving algorithms equivalent and
+nalisms which have heretoiore been used 1n Te :
+
+t ©) both f tical and so far it has seemed easicr to develop proof
+
+~ecursive 3on theory both for practice n : : : : ;
+ys Si i > t of i. 3 Cay techniques like recursion induction for recursive
+» etical rposes. rirst oi 2 articular : :
+thooretug . pu PO 2 ® ; » a functions than for ALGOL-1like programs.
+functions in which onc may be interested are more
+
+caslily written down and the resulting expressions
+
+ 
+
+ 
+
+; References
+are briefer and nore understandable. This has —_—
+been obscrved in the cases We have looked at and 1. Church, A., The Calculi of I,ambda-Conversion,
+there scems to be a fundamental reason why this is Annals of 2 oTEonEion BINdLes, 10. Oy
+so. This is that both the original Church-Klecne Princeton, 1941, Princeton University Press.
+formalism and the formalism using the minimaliza- 92. Church, A., Introduction to ilathematical Logic, -
+{ion operation usc integer calculations to control Princeton, 1952, Princeton University Press.
+the flow of the calculations. That this can be 3. Davis, M., computability and Unsolvability,
+done is noteworthy, but controlling the flow in New York, 1938, McGraw-Hill.
+this way is less natural than using conditional 4. Ershov, A.P., On Operator Algorithms (Russian),
+expressions which control the flow directly. Doklady Akademii Nauk, vol. 122, no. 6,
+: A similar objection applies to basing the pp. 967-970.
+theory of conputation on Turing machincs. Turing 5. Kleene, S.C., Recursive Predicates and Quan-
+machines are not conceptually different from the tifiers, Transactions of the American Mathe-
+automatic computers in general use, but they are . Tatiocal Society, vol. 53, 1953, p. 41
+very poor in their control structure. Any pro- 6. McCarthy, J., letter to the cditor,
+crammner who has also had to write down Turing communications of the Association for Com-
+machines to compute functions will observe that puting Machinery, vol. 2, August, 1959, p. 2.
+
+ 
+
+onc has to invent a fow artifices and that con-
+
+ 
+
+structing Turing machines 3.8 like programming. OI
+course, most of the theory f computability deals
+
+ 
+
+with questions which arc not concerned with the
+
+ 
+
+ah
+
+
+7. licCarthy, J., Recursive Tunctions of Symbolic
+Expressions and Their Computation by lMachine,
+Part I, Commumications of the ACM, vol. 3,
+April, 1960, pp. 154-195,
+
+3. McCarthy, J., The LISP Programmer's Manual,
+M.1.T. Computation Center, 1960,
+
+9, Markov, A.A., Theory of Algorithms (Russian),
+loscow, 1954, USSR Academy of Sciences,
+
+Steklov Mathematical Institute.
+
+10. Naur, P., ct al., Report on the Algorithmic
+Language ALCGOL GO,Comimunications of the ACM,
+vol. 3, lay 1960,
+
+11. Turing, A.il., On Computable Numbers with an
+Application to the Entscheidungs Problem,
+Proceedings of the London Mathematical Society,
+ser. 2, vol, 43, 1937, p. 230; correction,
+
+ibid, vol. 43, 1937, p.544.
+
+  
+
+ 
+
+a — — —— ——— ——— ———— —  ————— ——. ———— ——————————————— . —————.. —————. wy ——
+
+ 
+ 
+ 
+ 
+ 
+
+W———————
+
+
+WEIN ely aA (ES
+CE LTO a e -
+
+» " I . -—
+
+
+
+
+

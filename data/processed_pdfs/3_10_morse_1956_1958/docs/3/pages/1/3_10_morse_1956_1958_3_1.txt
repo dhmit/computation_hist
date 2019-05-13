@@ -1,50 +1,55 @@
-Assistantships in Machlne Computation
+LABORATORY OF THE
 
-This memo is to remind you that the "Machine Committee"
-Assistantships which have been available to graduate students at
-M.I.T. during the past four years, from the ONR-Whirlwind Project,
-will terminate at the end of this academic year. There will be
-available a smaller number of I.B.M. Assistantships, paying approxi-
-mately the same amounts, however. The enclosed sheet gives a
-description of the duties involved.
+INSTITUTE FOR MUSCLE RESEARCH : --\;.;.-_,:,\/ =
+AT THE MARINE BIOLOGICAL LABORATORY ‘ L
+WooDs HOLE, MASSACHUSETTS ﬁ’g-t/;fifi'-r*4,14+’/
+TELEPHONE FALMOUTH 630 W \ ‘:\CJ :/,-”ﬂ
+Director ‘\gi;pf
+ALBERT SZENT-GYORGYI, M. D., PH. D. ‘-
+TEL: FALMOUTH 2233 W May 1, 1957
 
-Note that applications must be in my hands by March 15.
-They should include a.) a letter from the applicant, giving his
-experience in mathematics and computing practice and giving his
-reasons for being interested in the work of the Computation Center
-b.) a letter (sent directly to me) from the applicant®s department,
-recommending the applicant's appointment to the assistantship,
-indicating how the applicant can aid the department better to
-utilize digital computing aids in 1its research, and indicatling the
-stipend pald to assistants in the department. |
+Dr. P. M. Morse
+Massachusetts Institute of Technology
+Cambridge, Massachusetts
 
-Awards will be wade, as before, by the Institute Committee
-on Machine Computation (names appear below). Please see me or
-other members of the Committee if you have further questions con-
-cerning applications or dutiles.
+Dear Dr. Morse,
 
-Philip M. Morse, Director
-M.I.T. Computation Center
-Enclosure
+Last Friday, when I approached Mr. Bruce 0ldfield at the I.B.M.
+in New York to discuss my research project, I was advised also to
+contact you to inquire about the possibility of computational facili-
+ties on the I.B.M. 704 at M.I.T.
 
-MEMBERSHIP OF M.I.T. MACHINE COMPUTATION COMMITTEE
+I am an associate of Dr. Albert Szent-Gyorgyi in his Institute
+which is a non-profit organization with limited funds. We are very
+much interested in the development of a completely new field, quan-
+tumbiology, which we think will be very important for a whole new era
+of biology as shown by Dr. Szent-Gyorgyi in his recent paper "Bioener-
+getics" in Science (Nov. 2, 1956, vol. 124, pages 873-875), and in his
+new book "Bioenergetics" (Acad. Press 1957) which is concerned with the
+study of phosphorescence and triplet state energies of biologically
+important molecules like carcinogens, purines, nucleic acids, vitamins,
+hormones and their interactions (as well as e.g. their interaction with
+the biologically,of courseyalso fundamental oxygen molecule).
 
-Philip M. Morse, Chairman Physics
+Experimental results recently obtained in this laboratory are most
+promising. In connection with these experimental studies we think that
+it is imperative to study biologically important molecules along the
+lines of quantumchemistry which field is presently developing at a rapid
+rate. I would like to draw your attention also to the medically important
+results about carcinogens obtained in the Department of Theoretical Chemis-
+try of the University of Paris, France, by Drs. A. and B. Pullman as shown
+in their book "Cancerisation par les substances Chimiques et Structure
+Moléculaire" Paris: Masson 1955.
 
-Samuel H. Caldwell Electrical Enginesring .
-Herman Feshbach Physics :
+I have calculated on a desk calculator quantummechanically with the
+L.C.A.O0.M.0., method the ground state of the biologically important mole-
+cule adenine and have obtained results in complete agreement with those
+gptained by Drs. A. and B. Pullman and G. Berthier ("Recherches sur la structure
+electronique des composes actifs en chimotherapie du cancer". Compt. Rend.
+Acad.Sci. 243, 380-382, 1956) with electronic computers in Paris. At the
+moment, I am working also on the ground state of riboflavin (yitamin B,).
 
-Jay W. Forrester Electrical Engineering
-
-Francis B. Hildebrand Mathematics
-
-Chia-Chiao Lin - Mathematics
-
-James B. Reawick Mechanical Engineering
-
-March 7, 1956
-
-RoollVieED
-b 153 1956
-
-F. M. VERZUi'i
+I might add that I am in correspondence with Dr. B. Pullman, who is so much
+interested in a suggestion which I have recently made that he is at present
+making calculations about this idea with electronic computers in Paris,
+France.

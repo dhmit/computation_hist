@@ -1,0 +1,359 @@
+| :
+e
+& :
+
+B e
+&:3 =N
+ey
+
+ 
+ 
+
+- much the same.
+
+~ Now automatic business
+
+at the university are showing
+over the job of figuring, zipping through
+long columns of numbers in split seconds,
+
+giving the right answers immediately.
+
+Farmers can get latest tests back within 10
+days. %
+, The university ﬁeeps records for 238 herds
+
+on & demonstration basis and 1s proving 4t
+
+practical. How far IBM will go now toward
+keeping more records and better records is
+up to dairymen themselves.
+
+Some explorations are being made to see
+if a co-op can be set up to do the job. So
+‘far nothing definite has appeared. The uni-
+versity'’s demonstration project is scheduled
+to end this summer. :
+
+“Maybe the time has come 'to review the
+entire testing program and see if we can
+devise a better one,” says E. E. Helzer, head
+of dairy husbandry.
+
+The way is long but it leads upward.
+Wisconsin has 13.9 percent of its cows on
+test, compared to 10.4 percent'\in 1955.
+
+[From Systems Magazine for March—April
+
+g : 1958] :
+
+~ ELECTRONIC EVALUATION OF ANTIBIOTICS
+(By Ben Kruse)
+
+Machine accounting methods,are playing
+an important role in a “series of medical
+studies designed to speed sclentific evalua-
+tion of the so-called “wonder"” drugs.
+
+The efficiency of these medical marvels has ;
+
+been proven beyond dispute, but it is cer-
+tainly common knowledge that penicillin, as
+one example, does not work equally well
+against all bacterlological infections and
+that streptomycin is highly effective in some
+cases, less effective in others. If reliable sta-
+tistics could be developed covering experi-
+ence with each drug in a variety of circum-
+stances, medical sclence would take a big
+step forward.
+
+One man, believed to be the first medical
+researcher in the country to apply electronic
+data-processing methods to the evaluation of
+antibiotics, is making a strong ‘effort to pro-
+vide these statistics. He is Dr, Sol Haber-
+man, head of the Bacteriology and Immu-
+nology Laboratories of the Department of
+Pathology at Baylor University Hospital, Dal~
+las, Tex.
+
+Dr. Haberman has already enjoyed a good
+deal of success with his techniques. The
+basis of his work is a continuing series of
+studies covering all patients with bodily in-
+fections either admitted to Baylor Hospital
+
+,or treated in its clinics.
+
+Specimens are taken from the patient,
+from which a culture of bacteria is grown
+in Dr. Haberman's Laboratory. Spread
+across a clear plastic plate containing nu-
+trient agar, the growth of bacteria can be
+observed by the technicians.
+
+Onto this agar surface are then pressed
+a series of tiny, round paper dlscs impreg-
+nated with the 13 basic antibiofic drugs
+that could be prescribed by physicians. The
+reading of the test is fairly simple—the drug
+specimen which develops the zones of inhi-
+bition is doing the best job of killing the
+germs,
+
+VALUE OF TESTS ESTABLISHED
+
+The value of such tests, which Dr. Haber-
+man's department completes within 36 hours
+after a patient is examined, has been proved
+beyond any doubt. A series of control sta-
+tistics were kept from 1951 to 1953. During
+this time, the death rate was approximately
+75 percent lower for patients treated on the
+basis of these findings than for other cases.
+
+From this, Dr. Haberman has gone on to
+projects aimed at carrying these benefits
+several steps further. Through the years,
+the Baylor Hospital staff has performed more
+than 6,500 such tests, enough to serve as
+a valuable statistical sampling. Obviously,
+
+-
+
+.
+
+- CONGRESSIONAL RECORD — SENATE > . May
+T4 \ » . / t \ . A : AN 2 . o - ,
+ welgh a day & month. Basic methods remain  if charts could be developed showing thea SOUTH AMERICAN GOOD-‘\~_1; NILL
+
+& TOUR OF THE NEW YORK PHIL-
+
+degree of effectiveness of 13 different anti-
+
+(IBM) blotic drugs on the 29 deadliest bacteria
+ey can take known,
+
+they could be used as a guide by
+doctors anywhere.
+
+“Before these charts could be created, how-
+
+ever, Dr. Haberman was faced with a dis-
+tressingly practical problem—there simply
+wasn’t time to do the necessary arithmetic.
+Obviously, the counting and sorting problem
+is enormous, as witness just one phase of
+the work:
+' Dr. Haberman is studying 29 separate types
+of bacteria. These have to be evaluated for
+13 drugs, resulting in 377 calculations. Then,
+for each drug,.there are 4 different degrees
+of effectiveness, bringing the calculations to
+1,408. To trace seasonal patterns, it is ad-
+visable to compute the effects for each
+month (16,896). Breakdowns should also be
+made for illnesses among men and women,
+for different parts of the body, and accord-
+ing to the age of the patient. The compu-
+tations runeasily into the hundreds of thou-
+sands and even into millions.
+To try to do this work by conyventional
+methods s all but unthinkable, especially
+when the medical value of the staff people
+who would have to tie up their time is con-
+sidered. - More than that, the work would
+require years of effort. By the time any
+figures could  be developed, they would be
+outdated by new. bacteriological reactions,
+and new drugs which would be developed.
+To be truly effective, the job must be done
+quickly as well as accurately.
+
+Dr. Haberman consulted with data-process=-
+ing specialists from Remington Rand's
+Univac punched-card record services office
+in Dallas. With their help, he developed a
+
+- system whicH promises to bring the valuable
+
+charts into being in the near future.
+
+Figures compiled in'the laboratory are
+sent to the P-CRS office, where they are
+punched into cards. A counting sorter in
+his own office enables Dr. Haberman to sort
+the cards at high speed into any desired
+sequence. Computations can also be made
+at high speed by P-CRS as necessary, reduc-
+ing the mountain of statistics to manageable
+proportions.
+
+This work could well lead to an effective
+method for monitoring the health of the
+entire Nation. It offers twofold benefits:
+
+1. It serves to keep score of diseases with
+which mankind is currently plagued.
+
+2. It will help alert the medical profession
+to the influx of new germs before they multi-
+ply to the point where they are dangerous..
+
+National authorities who have reviewed Dr.
+Haberman’s methods are greatly encouraged
+by the beginning he has made. He has con-
+sulted with 3 good friend and associate, Dr.
+Charles Cotterman of the Wadley Research
+Institute, whose specialties are genetics and
+statistics. They have worked out a plan
+under which the work could go forward at a
+greatly accelerated pace.
+
+- PLAN TO USE COMPUTER
+
+The doctors envisage working out the more
+complex figures on the Univac 120 punched-
+card electronic computer at the service bu-
+reau. Preliminary discussions have already
+established that the problems involved could
+be worked out in short order, Dr. Haberman
+has, little doubt that the Univac could sig-
+nificantly speed his work, to the benefit of
+the Nation as a whole.
+
+Spurred by the proven success of his work
+at Baylor Hospital, Dr. Haberman is making
+every effort to bring his long-sought compre-
+hensive charts to reality. The only thing
+that could stop him is the chronic shortage
+of funds characteristic of almost every hos-
+pital, and most research efforts. Given the
+proper financial backing, however, he is con-
+fident that he could make available a set of
+vital statistics which would soon be reflected
+in the speedier recovery of dndividuals in
+every State of the Union, from a variety of
+often baflling diseases.
+
+¢
+
+S
+
+   
+
+HARMONIC ORCHESTRA
+
+Mr. KEFAUVER. Mr. President, the
+luckless visit of the Vice President to'
+South America has received so much
+attention in the press that most Amer-
+icans are unaware of the present South
+American goodwill tour of the New York
+Philharmonic Orchestra and its con-
+ductor, Leonard Bernstein. :
+
+In contrast to the difficulties which
+beset Mr. Nixon, the Philharmonic Or=-
+chestra has been received with out-
+standing acclaim. It is interesting to
+note that some of its greatest successes
+have been achieved in cities in which
+Mr. NixoN had the most violent of his
+troubles. :
+
+The New York Times on May 25 car-
+ried an article by Carlos Moseby on the
+Philharmonic’s mission. I ask unani-
+
+- mous consent that this thought-provok-
+
+ing article be printed in the RECORD.
+
+There being no objection, the article
+was ordered to be printed in the RECORD,
+as follows: ;
+
+THE PHILHARMONIC HATH CHARMS—IT Has
+PROVED ITSELF A CULTURAL EMISSARY IN
+LATIN AMERICA
+
+(By Carlos Moseley) \
+
+LaAPaAZ, Borivia—The first of the special
+DC-6's transporting the New York Philhar-
+monic swept down over the lower reaches
+of Lake Titicaca past 20,000-foot snow-cov=
+ered peaks to the world’s highest commercial
+airport ot La Paz, which has an elevation
+comparable to Lhasa in Tibet. Several hun-
+dred Aymara and Quechua Indians broke
+away from the thousands at the airfield
+awaiting the return of the former President
+and surrounded the orchestra men, shouting
+welcome.
+
+Immediately a loudspeaker asked that no
+shots be fired in greeting, lest crowds lining
+the roadway leading to the city below might
+think the airport was involved in the ex-
+pected political uprising. Even before the
+second Philharmonic plane arrived, the re-
+volt flared. The Government declared a
+state of siege and put La Paz under martial
+law. Business came to a complete standstill.
+
+Schools were closed and several citiés fell 2
+
+temporarily into revolutionary hands.
+
+In one spot, however, activity went on
+uninterruptedly at a feverish pace. The Mu-
+nicipal Theater was in the final stages of-
+being rebuilt by the city for the Philhar-
+monic’s visit. The plaza before it was paved
+and the lamp posts were installed and cov-
+ered with silver the next day. The opening
+concert took place on schedule before a
+packed, noisily applauding house, with the
+President of the Republic, Hernan Siles Zu-
+azo, in the center box.
+
+This incident was another dramatic illus-
+tration of the extraordinary journey of the
+Philharmonic through South America where,
+often coinciding with local disturbances or
+tensions, the orchestra has been treated as
+an’ emissary transcending strife; as one of
+the most, if not the most important cultural
+events of recent times, not to be missed for
+any reason, and as an indelible bond be-
+tween the countries visited and the United
+States.
+
+MILITARY RECEPTION
+
+In Bogota, as another instance, the or-
+chestra arrived on election day. It was the
+first free election in a decade. Two days
+after the crushing of a police revolt and the
+release of Kidnaped members of the gov=-
+erning junta, the Philharmonic stage crew,
+instruments and baggage, were met at the
+theater by bayonets and machine guns as
+
+fpart of the aftermath., Despite the stress
+
+o~
+
+ 
+
+<
+
+g
+
+L / o
+
+o bt n A BN

@@ -1,0 +1,150 @@
+of computations expressed in these formalisms,
+The formalisms treated are the following:
+
+1, A way of describing the functions that
+are computable in terms of given base functions
+using conditional expressions and recursive func-
+tion definitions, This formalism differs from
+those of recursive function theory in that it is
+not based on the integers or any other fixed
+domain,
+
+2, Computable functionals, i,e, functions
+with functions as arguments,
+
+3. Non-computable functions, By adjoining
+quantifiers to the computable function formalism,
+we obtain a wider class of functions which are
+not a priori computable, However, such functions
+can often be shown to be equivalent to computable
+functions, 1In fact, the mathematics of computa-
+tion may have as one of its major aspects rules
+which permit us to transform functions from a
+non-computable form into a computable form,
+
+4, Ambiguous functions, Functions whose
+values are incompletely specified may be useful
+in proving facts about functions where certain
+details are irrelevant to the statement being
+broved.
+
+5. A way of defining new data spaces in
+terms of given base spaces and of defining func-
+tions on the new spaces in terms of functions on
+the base spaces, Lack of such a formalism is one
+of the main weaknesses of ALGOL, but the business
+data processing languages such as FLOWMATIC and
+COBOL have made a start in this direction, even
+tho'zh this start is hampered by concessions to
+the presumed prejudices of business men ,
+
+The second part of the paper contains a few
+mathematical results about the properties of the
+formalisms introduced in the first part, Spe- |
+cifically, we describe the following:
+
+1, The formal properties of conditional
+expressions,
+
+2, A method called recursion induction for
+
+ 
+
+proving the equivalence of recursively defined
+
+funections
+-
+
+D
+
+- - — - -
+
+o2 gl R
+o3 T ' 4 j» = :-\
+Ve Pnd
+
+- . A ot
+
+1, Functions Computable in Terms of Given Base
+Functions
+
+Suppose we are given a base collection ;:
+of functions having certain domains and ranges,
+
+— e —— . —
+
+i
+1
+
+'
+
+In the case of the non-negative integers, we may '
+
+have the successor function and the predicate of
+equality, and in the case of the S-expressions
+discussed in (7), we have the five basic opera-
+tions, r object is to define a class of func-
+tions Ctgm which we shall call the class of
+
+functions computable in terms of 7 ,
+
+Before developing C ‘ formally, we wish
+to give an example, and In order to give the
+example, we first need the concept of conditional
+expression, In our notation a conditional ex-
+
+- pression has the form
+
+By €15P;~* €,,...p —te )
+which corresponds to the ALGOL 60 reference
+language (5) expression
+
+L P, then e1 else if Py then e_,,,.else if
+
+2
+pn then en
+
+ Here pl,...,pn are propositional expressions
+
+taking the values T of F standing for truth and
+falsity respectively,
+The value of (p1—+ €1sPg ey, u,P —+en)
+
+|
+
+|
+|
+|
+
+|
+|
+
+|
+I
+
+is the value of the e corresponding to the firsti
+
+Thus
+(4<3 —7,2>3 —8,2<3 =9 4<5 —7) = 9
+
+p' that has value T,
+
+Some examples of the conditional expressions
+for well known functions are
+
+Ix] =
+S
+
+(x< 0 SR =X 70 — x)
+(i=j =Rl s =—r )
+and the triangular function whose graph is given
+
+in figure 1 is represented by the conditional
+expression
+
+[ . : !
+
+‘.‘ # - —— =
+-y ‘. X
+7St )1y
+’ ! /- L - 2 v

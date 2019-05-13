@@ -1,0 +1,118 @@
+zz THE UNIVERSITY OF WISCONSIN
+/ MADISON 6
+
+DEPARTMENT OF ECONOMICS
+
+STERLING HALL May 18, 1959
+
+ 
+
+ 
+
+Professor Philip M, Morse, Director
+Computation Center
+
+Magsachusetts Institute of Technology
+Cambridge, Massachusetts
+
+Dear Phils
+
+During the past three years Martin Greemberger, John Korbel, Alice
+Rivlin, and I have been engaged in developing a new approach to the analysis
+and prediction of the behavior of soclo-sconomic systems, We have given many
+tens of talks on our works, Three theses at Harvard have consisted of major
+pieces of it, We have prepared many papers and several of these have either
+been published or are in the process of being published, The most extensive
+write-up of our work is Decision<Unit Models and Simmlation of the United
+States Economy. I have emclosed a copy of this dralte Excerpts from
+
+appear section 1.3 of the January 1958 report on Research and Educational
+Activities of the Cooperating Colleges of New England,
+
+Our work, in which the M,I,T, Computation Center has played such a
+central role, has consisted up to this point of developing the gemeral
+framework of this new kind of a model of a social economys of extensive work
+on various pieces needed in such models; of development work on computer
+techniques needed in estimating pieces of such models and in simlating
+such models; and in writing and debugging a large-scale, specific program for
+simulating a concrete demographic model of the United States household sector,
+
+We are now at a critical juncture in our worke We are under contract
+with Harpers to publish a book on our work and I have agreed to do a piece for
+Scientific American, We had originally hoped to have this book completed by
+Yast fall, but due to unforeseen programming difficulties, my move to Wisconsin,
+and Alice Rivlin's joining the full-time staff of Brookings Institution, we have
+been slowed up, We are extremely anxious to have our volume ready for the
+printer by the end of the summer, This book, of which I enclose a slightly
+out of date table of contents, is nearly completely written, The major remaining
+gap is a critical one and consists of the chapter or chapters describing the
+results obtained by a simmlation study of our demographic model, The specific
+model itself is largely the work of Alice Rivlin and is our first really selfe
+contained model of the United States Economy The specific computer program
+for simulating this model was written and debugged by Martin Greenberger and the
+group of three or four that worked under him, As far as we can tell, the
+program is in good working order, What we need to complete this major phase
+of our work is enough production runs to align our model with aggregative time
+series datas to investigate some of its more important properties; and to use
+it for making at least one or two runs for a few years beyond 1959, We estimate
+that to do this on a satisfactory minimal basis will require approximately 100
+hours of 70h computing times
+
+
+Page 2 -Morsee May 18, 1959
+
+We recognize that in asking you for 100 hours of time on the I.B.M. Toh =
+
+Al - ~
+
+computer at M.I.T. we are making a very substantial request, We hope that in
+considering this request and ways in which it can be met that you will take
+into account the enormous amount of work which we have put into this project,
+At the very least this is a real indication of how much we believe in its long
+run significance to the social sciences, We also hope that you will take into
+account the many close and I think mutually beneficial connections that Martin
+Greenberger, John Korbel, and I have had with the Computation Center at M.I.Te
+and its development as the leading research center of its type, We also hope
+that you will take account of the significant amount of attention and recognition
+that is being given to the importance of work of the type that we have been
+ploneeringe My appointment at the University of Wisconsin and the present
+development of a large-scale Social Systems Research Institute here is just ome
+concrete piece of evidence on this pointe
+
+For purposes of testing the adequacy of our demographic model, aligning
+it with aggregative time series data, carrying out sensitivity experiments,
+and making limited projection runs we need about eight seven or eight year
+runs and about two tem year runs, Since our ratio of machine time to real time
+is just under 1,2 hours per year of real time this means that we need about
+100 hours of machins time.
+
+Enclosed you will find an internal memorandum of mine which discusses
+the problem of studying and aligning models such as ours by simulation
+techniques, It is entitled "Alignment of Model With Observed Aggregative
+Time Series." The runs needed to carry out the described procedure will also
+provide us with a critical set of sensitivity experiments.
+
+Our hope is that the requested machine time can be made available to wus
+in June end in July, Martin Greenberger would be incharge of our actual use
+of the machine, but Korbel and I also would be in Cambridge and devote our full
+efforts to successfully carrying to completion this work and in assisting Martin
+in any feasible way.
+
+We will be glad to have access to the machine at any time of the day or night
+or on week-ends, We also would be glad to cover up to a thousand or so dollars
+any extra costs that might be involved in operating the 704 on an extra shift
+for a period of time,
+
+Martin Greemberger and Johm Korbel will be available to help work out a
+mtually satisfactory way of meeting our request, if yom wish to call upon thems
+and if there is anything else that I can do to facilitate this matter, I am
+anxious to do 80,
+
+With best regardse
+Sincerely yoursy
+
+Guy Crcutt
+GHO/hp Professor of Economics
+Incse
+
+
