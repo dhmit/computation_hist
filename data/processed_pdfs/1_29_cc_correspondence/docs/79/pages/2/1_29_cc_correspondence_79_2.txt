@@ -1,0 +1,60 @@
+Page 2 of 2
+
+7. What is the purpose of this work?
+
+(e.g., educational, faculty research, thesis,
+sponsored research, grant) Specify:
+
+e
+
+e
+
+8. Where do you intend to publisq the results? (e.g., thesis, name of periodical, etc.)
+
+e
+
+et ettt et e e et e el
+
+9. When will program testing probably start?
+
+——————————————————————————————————————————————————————————————————
+
+10. Estimate of machine hours required for testing program:
+
+11. Estimate of machine hours to complete production runs from tested program;:
+
+ 
+
+12. For cataloging purposes, how would you index this problem? For example, mathematics,
+logic, game, etc. If this is a mathematical problem, specify type(s) such as
+integration, partial differential equations, matrix theory, etc.
+
+ 
+
+ 
+
+13. If this is a mathematical problem, specify numerical methods used, such as Gauss'
+quadrature method, difference equations, Crout, etc.
+
+. ———
+
+14. On one or two additional sheets write sections A, B, and C as follows:
+
+Section A: A one-paragraph abstract describing the nature of problem and listing
+the particular mathematical, logical and numerical' techniques used.
+
+Section B: A description of problem background in sufficient detail so that a
+person well acquainted with the relevent field of research can
+understand the problem. References to related work should be given
+with an indication of the relation to this problem.
+
+Section C: A description of the particular mathematical, logical and numerical
+techniques used. Describe any expected difficulties in formulation
+of the problem and solution on the computer. This description should
+include, when appropriate, no. of significant figures desired, ranges
+and values of parameters to be tested and number of cases to be
+studied in sufficient detail so that the computer time required can
+be at least approximately estimated. Plans for testing the computer
+program should be described.
+
+CCF-2

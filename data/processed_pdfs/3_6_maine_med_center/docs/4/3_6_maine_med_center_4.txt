@@ -1,0 +1,1923 @@
+HUMAN THORAX POTENTIALS
+By
+Clifford V. Nelson
+
+ 
+
+Reprinted from
+ANNALS OF THE NEW YORK ACADEMY OF SCIENCES
+Volume 65, Article 6, Pages 1014-1050
+August 9, 1957
+
+
+HUMAN THORAX POTEN TIALS*
+
+By Clifford V. Nels
+Departmen; of Internal M edicine, oa)
+
+Universiy of Ula) C oy
+Salt Lake City, oy ait College of M edicine,
+
+tive dipole ip the heart,
+
+The ex erimental work lal j
+Te a Sa of measurements of potential in two-
+electroly NK models of the human thorax and of meas.
+urements of the distribution of thorax potentials in human subjects In the
+two-dimensional studies! the resistivities of the lungs, sternum, spine, and the
+heart Itself were taken into account, but the three-dimensjona] studies were
+made with a homogeneous medium. In order to study analytically the effects
+of electrical inhomogeneities, Image systems were developed for 4 source and
+sink in the vicinity of a disk of finite conductivity Surrounded by an infinite
+medium having a different conductivity, Since the anatomic] thorax cross
+section closely resembled an ellipse, an expression was developed for the po-
+tential due to a source and sink inside an ellipse. The measuring equipment
+used in the two-dimensional studies has been described previously 2
+
+and
+
+PART I: Two-DIMENSIONAL STUDIES
+Validity of T wo-Dimensional Field Studies
+
+Making measurements in sectional models of three-dimensional systems has
+been a technique used in engineering for many years.® Where the system is
+uniform along the vertical axis, such measurements give very accurate results.
+In many cases where such vertical uniformity does not exist, sectional studies
+still give surprisingly good results. Recently, sectional models of the human
+body have been used to study the leads used in electrocardiography and vector-
+cardiography.5 6 Tt is very much easier to make measurements In two dimen-
+sions, and it is, therefore, important to determine to what extent such meas-
+urements are of value. :
+
+To test this point with reference to the horizontal plane, measurements were
+also made in a three-dimensional thorax model. As the outline of the ana-
+tomical thorax cross section appeared to resemble an ellipse, an effort Ts
+made to draw the true ellipse that would most closely correspond to the actua
+
+. : : i 9 to 1953 in the Ph siology
+2 The wor) Served H hens Medical Semon eo the Electrical Engi-
+1 ospita , london, ; ;
+
+Depa: deel College of Science, also in London. oe pass o Sei
+pn Ee continued at the University of Utah, Salt Lake City, Utah. Sor on sup-
+Per by grants from the British Medical Research Gone London, Fag! H.2500 from the
+: 3 : New York, N. y an y ra . = ” . d
+Welfare, Bethesda, Md. . . {os f the American Heart Association, New
+: ? > “stablished Investigator of the / : 1, Me.
+
+Y J Bosenrch id ial oR Department, Maine Medical Center, Portlanc
+
+or ) ’ .
+
+1014
+
+ 
+
+Nelson: Human Thorax Potentials 1015
+
+   
+     
+
+APPROXIMATION OF
+THORAX BOUNDARY
+BY AN ELLIPSE
+
+  
+    
+   
+
+=70
+ELLIPSE 32, 2 _
+
+      
+   
+   
+
+A B
+A= Ig5 -J3
+B= 135 o
+C= /a2-p2=95
+
+ 
+
+-8
+Ficure 1. Approximation of the thorax boundary by an ellipse.
+
+section. The tank js described further in PART II of this article, and is shown
+In FIGURE 13,
+
+FIGURE 2 shows the distribution of potential around the boundary of the
+homogeneous thorax section, with a dipole angle 8 of 0°, The left-hand edge
+of this graph corresponds to the center of the back of the thorax section. Dis-
+tances from the left edge to the center correspond to distances going from the
+back around the right side of the chest to the front. Zero corresponds to the
+mid-sternal line. Distances to the right on the graph go around the eft side
+of the chest to the back, and the right-hand edge of FIGURE 2 again corresponds
+to the back of the section. FIGURE 3 shows similar boundary distributions
+taken in the deep tank at the level] of the dipole center for the same horizontal
+angle of the dipole, 8 = (°. From top to bottom the curves are for angles of
+the dipole with the horizontal plane (@) of 490° to — 90°, It is seen that for
+vertical dipole angles of 130% 0° and —30° the shapes of the curves for the
+boundary potential are very similar to the two-dimensional curves, As the
+reference electrode was located at the bottom of the deep tank, these potentials
+are similar to body Potentials using the left leg as reference. Use of any other
+reference point would merely cause an upward or downward deflection of the
+entire curve without changing its shape (the amount of the shift depending on
+
+
+1016 Annals New York Academy of Sciences
+
+the spatial dipole angle). A similar correspondence exists between t
+three-dimensional boundary distributions with other horizontal di Eo os
+[t is, therefore, possible to draw the following conclusion: Bosc angles.
+If the vertical angle a of a dipole in a cylindrical volume conductor is not
+than about 230°, the distribution of potential around the boundary of the oulsg,
+al the level of the dipole center will be similar in shape, for the same Wy
+dipole angles, to the potential distribution around the boundary of a Eien
+conductor having the shape of a cross section through the cylinder.
+It follows from this that two-dimensional measurements can be used to ob-
+tain information about the horizontal component of the spatial vector. FIGURE
+4 gives further evidence of this. These charts show the distribution of po-
+
+ 
+    
+  
+   
+   
+
+©V MEASURED
+
++0.6 XV CALCULATED
+POTENTIAL
+
+v
+VOLTS
+
+         
+
++10 +20 +430 +40
+DISTANCE ALONG BOUNDARY
+
+CM.
+
++ 50
+
+FIGURE 2. Potential distribution around the boundary of a homogeneous thorax cross
+section. The dipole angle is 0°. The calculated values are according to EQUATION 12.
+
+tential around the periphery of the deep tank at the level of the dipole center
+for horizontal angles (8) of 0°, 30°, 60°, and 90°, and for a vertical angle (a) of
+0°. Comparison with FIGURES 5 and 6 for the same horizontal angles in the
+two-dimensional thorax section shows that the shapes of the potential dis-
+tribution curves in the two cases are very similar.
+
+Effect of Electrical Inhomogeneily on the Potential Field
+
+The nature of the distortions of the electrical field caused by a finite boundary
+and by the introduction of good and poor conductors was shown in the model
+studies of Katz’ and discussed by Lepeschkin.® The effect of inhomogeneous
+areas can best be shown by a comparison with the field of the dipole in a homo-
+geneous medium. The charts of FIGURE 5 are all for a 8 angle of 90° (in this
+paper, positive angles are taken counterclockwise in accordance with long-
+established mathematical conventions). In FIGURE 5a the section 1s homo-
+
+Nelson: Human Thorax Potentials 1017
+oc
+
+=90°
+
+ 
+
+—————————— EE —————————
+
+ 
+
+=60°
+
+30°
+
+0°
+
+==-30°
+
+PPP
+
+ 
+
+=-90°
+tS I
+
+FiGure 3. Potential distribution around the boundary of a deep tank at the level of the
+dipole. The horizontal angle is 0°, and the vertical angle is 4+90° to —90° at 30° intervals.
+Compare with FIGURE 2.
+
+geneous, and the departure of the field distribution from that of a dipole in an
+infinite medium is due solely to the effect of the boundary. The curves shown
+are the equipotentials, with values as marked. The curves on the right show
+the variation of potential around the boundary as before. The broken curves
+show the potential gradient along the boundary. This is defined as
+
+
+1018 Annals New York Academy of Sciences
+
+| 5 4V AY
+
+B= =r
+dv
+dL signifying the derivative of potential with respect to distance along the
+boundary L, and being equal to the slope of the curve of V against J. In
+practice, E was computed by taking the ratio of small incrementsof V and L,and
+
+AV and AL. E could also be found by moving a pair of closely spaced elec.
+trodes around the boundary, but this would be no more accurate than cal-
+
+culating ar Since 7 = kE, where 7 is the current-intensity vector and ig
+
+o =0° B=0° 30°60°90°
+
+B=0°
+
+  
+  
+
+Distance around tank
+
+ 
+
+Potential
+
+FIGURE 4. Potential distribution around the boundary of a deep tank at the level of the
+
+dipole. The vertical angle is 0°, the horizontal angle 0°, 30°, 60°, and 90°. Compare with
+FIGURES 5 and 6.
+
+Nelson: Human Thorax Potentials 1019
+
+ 
+
+  
+
+FiGure §. Field- and boundary-potential distributions in a 2-dimensional thorax section
+for a 8 angle of 90°. Figure a shows the homogeneous section; in b the spine and sternum
+sections are completely insulating, and the lungs havea resistivity ratio of 4 and in ¢ the lung
+sections are also completely insulating. The broken curves in the right-hand illustrations
+show the distribution of potential gradient around the boundary.
+
+the conductivity, the potential-gradient curves also are proportional to the
+variation of current intensity along the boundary. As is obvious from FIGURE
+Sa, E is greatest near the center of the front of the section.
+
+FIGURE 5b shows the field when insulating spine and sternum sections and
+lung sections with a resistivity four times as great as that of the main body of
+
+
+1020 Annals New York Academy of Sciences
+
+the electrolyte have been added. This is the value of relative lung resistivity
+found by Burger and van Milaan.? In this case the internal field is not greatly
+altered, although the 1-v. equipotentials are changed. The shape of the
+boundary-potential distribution curve is similar to that of the homogeneous
+section, except that the maximum negative potential is now —0.77 v. instead
+of —1 v. This potential reduction may be due to a shielding action of the
+sternum, which is directly in line with the dipole axis. Also, the potential-
+gradient peaks are lower in amplitude and more widely separated from each
+other. In FIGURE 5c, the lung, sternum, and spine sections are completely
+insulating. These conditions were also tried on the basis of the experiments
+of Lindner and Katz,'* in which it was concluded that the lungs are completely
+insulating. Also, if completely insulating lung models did not have too much
+effect, then lower values of resistivity would be unimportant. In this case,
+however, the internal field is considerably altered. The +1-v. equipotential is
+altered in shape, and the zero-potential line is shifted toward the back. The
+potential distribution between the lung and spine sections is completely differ-
+ent. The bounddry-potential distribution curve is similar in its general shape
+to the curves of FIGURES 5a and Sb, but the potentials are negative over nearly
+the entire boundary. It might be argued that the changes in boundary po-
+tential were due merely to shifts in the voltage of the reference electrode.
+Although the reference-probe potential probably did change slightly, a com-
+parison of the potential-gradient curves, which are independent of the reference
+potential, shows that the changes in potential are due mainly to the change in
+internal conditions. In FIGURES Sa to Sc, for example, the maximum slope
+values are approximately 0.12, 0.08, and 0.04 v./cm. Due to conditions
+of symmetry that exist with 8 angles of 90° the potential maxima (M) are
+located at the ends of the extended dipole axis.
+
+Potential distributions were also measured for other dipole angles, and in
+each case it was found that there was not a great deal of difference between
+the cases a and b, that is, between the homogeneous section and the section
+using lungs with a resistivity ratio of 4. The completely insulating lungs
+caused a considerable distortion of the field, however. FIGURE 6 shows the
+distributions obtained in the sections using dipole angles (8) of 0°, 30°, and 60°,
+with a lung resistivity ratio of 4. Ficure Sb, with a 8 angle of 90°, can be
+considered part of this series.
+
+As the dipole rotates, the field pattern changes markedly. The zero-potential
+points remain fairly close to the dipole transverse axis, but the points of maxi-
+mum positive and negative potential (M) do not remain at the ends of the
+dipole axis. As Hess" and Schaefer? pointed out, when the dipole is not at
+the center of the section the points of maximum potential lie along a curved
+arc passing through the poles of the dipole. It is interesting to note, however,
+that a line joining the maxima is roughly parallel to the dipole axis. The loca-
+tion of the zero-potential points depends upon the reference electrode’s being a
+true null point. On the other hand, the location of the potential maxima is
+independent of the reference potential, since a change in the reference potential
+would be added to or subtracted from the potential of every point in the field.
+
+FIGURES 6 and 5b also show how the distribution of potential around the
+
+Nelson: Human Thorax Potentials 1021
+
+   
+   
+
+ny Pp “ \/
+
+FiGure 6. Field- and boundary-potential distributions in a 2-dimensional thorax section
+for 8 angles of 0° (a), 30° (b), and 60° (¢). In all cases the lungs have a resistivity ratio of 4,
+and the spine and sternum sections are completely insulating. FiGURE Sb forms part of this
+series for a B angle of 90°.
+
+boundary changes as the dipole rotates. For 8 angles of 0°, 30°, and 60° the
+potential gradient is maximum at the point on the boundary nearest to the
+dipole center (0 cm.). This illustrates a possible method of finding the loca-
+tion of the resultant dipole of the heart from measurements on the chest wall.
+
+
+1022 Annals New York Academy of Sciences
+
+In measurements of the distribution of potential around the chest at the mjq.
+ventricular level® the peak of the potential-gradient curve was usually from
+3 to 8 cm. to the left of the mid-sternal line. FIGURE Sb shows, however, that
+if the dipole angle is 90°, the potential-gradient curve is biphasic, with positive
+and negative maxima equally spaced about the dipole center. In this case the
+potential gradient at the point on the boundary nearest the dipole center is
+zero. The points of zero gradient coincide with points of maximum or mini.
+mum potential, since at these points the curve of potential against distance
+must have zero slope. Changes of reference potential would have absolutely
+no effect on the potential-gradient curves and would cause only an upward or
+downward shift of the entire potential curve.
+
+Because of this fact no attempt was made to find an exact zero reference
+potential. The reference electrode was placed either midway between the
+poles of the dipole or at a remote point of the tank. It would have been
+possible to use the reference potential at the junction point of two resistors, 18
+but this would have necessitated precautions to avoid any polarization of the
+current electrodes. Frank and Kay! have discussed the problems involved
+with the above two types of reference systems. A more elaborate method is
+that of Sugi,'® who put three electrolytic tanks “in series” by means of wicks
+and put his reference electrode in a neutral tank. Experiments are now in
+progress in this laboratory to adapt the double-layer tank® to measurements
+in which a finite boundary is present in the upper layer. The technique is to
+leave a very narrow gap in the boundary and to use the bottom layer electrode
+as the reference point. The gap should have a negligible effect on the potential
+distribution inside the boundary.
+
+The effect of increasing the resistivity of the lung sections was also studied
+for other dipole angles. The results are given in TABLE 1.
+
+Dipole 0°. The only significant changes between the homogeneous section
+and the section in which the lung areas had a resistivity ratio of 4 was that the
+maximum potential-gradient increased by 12 per cent, and the potential
+maxima on the boundary shifts in location by about 1 cm. When the ratio
+increased from 4 to infinity the magnitudes of both positive and negative po-
+tential maxima decreased, and the lateral-wall potentials also decreased. The
+potential maxima were located much nearer the front of the section. These
+effects may be explained by the increased shielding action of the lung sections.
+
+Dipole 30°. As the resistivity ratio was changed from 1 to infinity the mag-
+nitude of the maximum negative potential on the right side increased, but the
+maximum positive potential on the left side fell. The side-wall potentials
+varied in the same way. The left-side maximum potential dropped to about
+one third of its original value, whereas the increase in right-side maximum
+potential was only 13 per cent. The locations of the potential maxima and
+zero points on the boundary did not change to any great extent. The maxi-
+mum potential gradient increased in value as the resistivity ratio increased
+from 1 to 4, and then decreased again as the ratio increased from 4 to infinity.
+As the resistivity of the lung sections increased, the right lung tended to channel
+the current toward the front of the thorax, and this caused the potential in this
+region to increase. At the same time, however, the left lung impeded the flow
+
+ 
+
+ 
+
+ 
+
+Nelson: Human Thorax Potentials 1023
+TABLE 1
+EFFECT OF CHANGES IN RELATIVE RESISTIVITY OF Lunc SecTIONS
+1 2 3 4 5 6 7 8
+Vmax. Vmax, Viero Vv
+magnitude location location lateral wall,
+; Res. volts cm. cm, Ex Ey volts
+ratio magnitude location
+volts/cm cm
+
+R L R L R —25 +25
+Cl cm
+0° —.68|.68/—10.2{10.4/ 0 [49.5 214 0 —.45 45
+4 —.069/.68| —9.2| 9.2 0 [49.5 244 40.5 —.46 | .46
+© —.60[.54| —5.8| 5.8(— 0.1/49.5 250 0 —.30 24
+30° 1 — 771.60 —5 |18.4|—40.1| 2.5 196 40.5 —.22 57
+4 —.86[.51| —4 |18.4|—42.4| 2.1 223 —-0.4 —.29 | .49
+0 —.89(.21| —4 |17 |—48 2.6 20 0 —-.33 20
+60° 1 —.87|.53] —2 [31 |—22.8]| 6.8 L150 +1.1 06 | .52
+4 —.88/.51| —4 [32 |-—25.6| 7 .142 —0.4 —.02 | .49
+© —1.03/.09( —3.6/40 |—47 |23 L132 +0.4 —-.30 | .03
+90° 1 —1 “352 0.2/49.5|—13.6/14.1| + .115 +2.6 34 | L34
+4 —.77|.47 0 [49.5|—15.2(15.3] +.075 +5.2 ok 31
+0 —.88/.03 0 [|49.5|—42 |42 + .040 +5 —-.20 1] .20
+
+_ ee
+
+Column 1 is the dipole angle. Column 2 shows the resistivity ratio of the lung sections
+(resistivity ratio 1 is the homogeneous section, and for ratios of 4 and infinity the insulating
+spine and sternum sections were also in the tank). Columns 3 and 4 give the magnitude and
+location of points of maximum positive and negative potential on the thorax boundary. Col-
+umn 5 shows the location of the points of zero potential. Columns 6 and 7 show the magni-
+tude and location of the peak of the potential-gradient curve on the boundary. Column 8
+gives the potential at points on the right and left lateral walls of the thorax section, at dis-
+tances from the mid-sternal line of —25 cm. and +25 cm.
+
+of current to the left side of the thorax, and the potential in this region was
+decreased.
+
+Dipole 60°. Again, with increasing lung-resistivity ratio, the magnitude of
+the maximum negative potential on the right side was increased, and the
+maximum positive potential on the left side decreased. The location of the
+potential maxima and the zero points showed a marked change. The maxi-
+mum potential gradient showed a steady decrease, and the side-wall potentials
+were considerably altered. The shape of the potential-gradient curve also
+
+changed. At +6 cm. on the boundary, for example, the value of E changed
+from 0.06 v./cm. to 0.03 v./cm. This means that the slope of the potential
+curve is smaller, and the curve is more spread out, as found. It is possible,
+however, that the increased negativity of the entire curve may be partly due
+to a change in the reference potential.
+
+Dipole 90°. The complete set of charts for the dipole at 90° is shown in
+FIGURE 5, and it has been previously discussed. The complicated effect of
+the inhomogeneous areas can again be emphasized by noting that as the lung-
+resistivity ratio increased, the maximum negative -potential on the boundary
+changed from —1.0 v. to —0.77 v. and back to —0.88 v. The fact that the
+posterior sides and back were not more positive may possibly be due to the
+shielding action of the spine section.
+
+
+1024 Annals New York Academy of Sciences
+Effect of Greater Conductivity of the Heart Area
+
+In the experiments discussed so f :
+ductivity of the heart!®: 17. 18 que to de 0 In rte greater con-
+test this point the thorax model was rearranged so that re - e oxderto
+trolyte was made greater over the heart area. This was done b 2 : l oy Sec
+a piece the shape of the heart cross section (at mid-ventricular level) yong
+plastic base of the model. The resistivity is best expressed in he 5 he
+resistivity ratio, G, which is defined as the ratio of the resistivity of 5h
+that of the main body of the electrolyte. The bottom diagram of a i
+shows the boundary distributions for the following conditions: dipole g at oo
+G for the heart area, 0.45; G for the lung section, 4; and G for the spine and
+sternum section, infinite. A comparison of this with the top curve, in which
+the heart area G is 1.0, showed that the boundary distributions are similar in
+shape, but that there is an over-all reduction in amplitude with the highly
+
+       
+  
+    
+    
+
+~-50° © =40—g—9-30 0 +40 +50
+
+DIPOLE 90°
+LUNG RR:=4
+HEART RR.=0,45
+
+i — 0)
+
+~O.
+js 3 N CM. ALONG BOUNDARY
+
+LEFT
+
+8 angle of 90°,
+
+potential distribution for a B. !
+Cog f increased conductivity (b).
+
+FIGURE 7. |
+area (a) and with a heart area 0
+
+with a uniform heart
+
+Nelson: Human Thorax Potentials 1025
+
+conductive heart area. The positions of the zero points and potential maxima
+remain unchanged. This is in agreement with physiological experiments in
+which it was concluded that the effect of the relatively greater conductivity of
+the heart was uniformly to scale down the electrocardiographic potentials,!?
+and that increased filling of the frog heart reduced the electrical response.2?
+A reduction in external potentials was also observed when good electrical con-
+ductors were placed on the ventricle of the dog heart? Such effects have
+been attributed to the “shunting” action of the blood 2222
+
+Effect of Two Dipoles Acting Simullaneously
+
+Lewis* and others have considered that the left and right ventricles may
+have individual effects on the electrocardiogram, at least in the chest leads.
+In 1933 Rijlant,* using a cathode-ray oscilloscope with an amplification of
+about 3 cm./mv. and a film speed of about 250 mm./sec., found notching not
+only in the R wave, but also in the P and S waves. He attributed his results
+to the simultaneous recording of two or more activities. In order to study the
+effect of independent regions of excitation of the heart on chest potentials,
+experiments were carried out with two separate dipoles in the heart area of the
+thorax section simultaneously. It was found that if the centers of the two
+dipoles were located at the same point the boundary-potential distribution
+was identical with that produced by a single dipole that was the vector sum
+of the two separate dipoles. If the centers of the two dipoles did not coincide,
+however, the effect of each dipole could be seen. In the experiments of FIGURE
+8, two dipoles were located in the ventricular area about 2.5 cm. to the right
+and left of the mid-sternal line. In FIGURE 8a, the right ventricular dipole 3
+angle was 0°, and the left heart dipole 8 angle was 22°. The only noticeable
+effect was the dip in the potential-gradient curve. In FIGURE 8b the values of
+8 were 90° for the right ventricle and 180° for the left ventricle. Although the
+potential curve was similar to one that would be obtained from a single dipole,
+the presence of the extra dipole was indicated by the change in slope of the
+potential curve and the corresponding dip in the potential gradient. In the
+model experiments with a single dipole, smooth curves were obtained for the
+variation of potential and gradient around the boundary. In FIGURE 8c the
+B angle was 137° for the right ventricle and —130° for the left ventricle. In
+this case the distributions are complicated, and they could not be taken for a
+single dipole curve. In the three cases shown, the peaks of the potential
+gradient curves do not accurately indicate the locations of the dipoles. This
+method of finding the dipole location can, therefore, be used only when there is
+a single effective dipole in action. It is evident that the greater the physical
+separation between the two dipoles, the greater will be the individual effect of
+each dipole on the surface potential. These experiments indicate that whereas
+the vectorcardiogram taken at remote points will give the resultant dipole,
+chest leads near the heart should also be taken to obtain information about
+local excitation of the heart. The two types of measurement provide comple-
+mentary data.
+
+
+1026 Annals New York Academy of Sciences
+
+  
+   
+
+Nelson: Human Thorax Potentials 1027
+SOUNDARY-DISTRIBUTION rh :
+Ais TRIBUTION Ee 22% oe Distributed Source in Thorax Section
+VOLTS TE Vo —_— It was previously shown? that the field of two half shells in an infinite me-
+
+2 ; . :
+voLTs  +20PR+8 dium was equivalent to a dipole field at remote points. When the distributed
+
+source was in the thorax section in the heart area, the distance between its
+front surface and the nearest point on the boundary was only 3 cm. Even
+under these conditions, however, it was found that the boundary-potential
+
+aL +30 +40 450 | distribution was very similar to that of the equivalent dipole.
+
+   
+
++10
+
+Application of Method of Images to Study of Effects of Regions
+LEFT of High or Low Resistivity*
+
+When the potential of a source in a volume conductor enclosed by an in-
+sulating boundary is considered,? the ratio of resistivities of the media con-
+cerned is infinite. The method of images can also be used when the resistivity
+
+: ratio is finite. Using the method of calculation of Hague 2? the image system
+BOUNDARY-DISTRIBUTION Circa 3s 90° for a current source in the vicinity of a circular disk of finite resistivity has been
+DIPOLES AT 90"aNDISO* +2 : derived. It has been found that four Image systems are required, depending
+on whether the current source and sink are inside or outside the disk, and
+whether potentials are required inside or outside the disk.
+
+(1) Source and sink inside disk: polentials inside disk. If in the thorax sec-
+tion the heart area is considered circular in shape, then this case would be
+analogous to the case of potentials inside the heart due to the heart electro-
+motive force (E.M.F.) taken as a dipole, or point source and sink. For this
+and the other three cases, the following symbols are used:
+
+ 
+
+~
+
+; = potential at a point P inside the disk.
+
+potential at a point P outside the disk.
+
+= resistivity of disk.
+
+= resistivity of medium surrounding disk.
+/
+
+Sc
+l
+
+ 
+
+ 
+
+L = resistivity ratio.
+p
+
+current.
+
+depth of electrolyte (assumed constant).
+= distance from sink to center of disk.
+
+= distance from source to center of disk.
+distance from P to sink.
+
+= distance from P to source.
+
+= distance from P to image of sink.
+distance from P to image of source.
+
+137°
+
+BOUNDARY=DISTRIBUTION
+
+8 AN Q OO
+Il
+
+Xxx
+I I
+
+pL
+2wd
+
+ 
+
+RIGHT LEFT
+
+Cc
+
+FIGURE 8. Boundary-potential distributions with separate dipoles located in right-ven- The sink and source are located at distances a and b from the center of the
+
+o
+: oft. : ; are 0° and 22°; in b, 90° and 180°; and : “
+rich pond Is IL ventricular ihe) ho Bane a” would result if both com- * The term “image” as used here should not be confused with the image surface” of
+
+i i 0 ilaan??s—e ith “mirror-image” electrocardiograms on the chest wall.
+ponent vectors were located at the same point. A comparison of these cneves ith those Burger and van Milaan or with “I g g
+FIGURE 6 shows the degree of departure from the corresponding resultant dipole.
+
+
+1028 Annals New York Academy of Sciences
+
+disk (FIGURE 9). The images are located along the radii extended at distances
+2 2
+
+from the center x and = where R is the radius of the disk. The potential at
+
+a point P inside the disk is then
+
+V, = mn 128 on]
+2
+
+© 2nd y 14+G br,
+-Ga[m2 4126), on 0
+= ro 14Gb;
+
+If it 1s assumed that the average resistivity of the heart is one half that of the
+surrounding region, then from EQUATION 1
+
+A ary
+
+AL 5 1
+V:, = 2 5 + 3 In - (2)
+
+The potential of the source and sink in a homogeneous medium of resistivity p
+would be
+
+V=dAh2 3)
+
+7
+
+The lower resistivity in the heart area, therefore, has a complicated effect on
+the internal potentials.
+
+(2) Source and sink inside disk— potentials outside disk (FIGURE 10). In this
+case there are no images outside the disk, but the original source and sink, +7
+
+r
+Vinf.zA In —
+rz
+is ry 1=6f 13 9
+Vi=GA ng +222 +1 ¢)
+_ AI
+A=>Td
+
+ 
+
+FIGURE 9. Tmage system for potential at P inside the disk due to the source (+7) and
+sink (—1) inside the disk.
+
+Nelson: Human Thorax Potentials 1029
+
+and —7, are replaced by a source of strength toe (I) and a sink of strength
+
+2G ;
+TT (I). The potential at any external point is then
+
+2G 71
+V, = N———— i.
+1 += G 4 In 79 (4)
+and for a resistivity ratio of 0.5,
+5 2 71
+V, = 3 A In 7
+
+The effect of the lower heart resistivity is, therefore, uniformly to scale down
+
+r
+Vinf.= A Int
+rz
+
+{26\ x. l0
+Vo 25) In rs
+
+ 
+
+ 
+
+FIGURE 10. Image system for potential at P outside the disk due to the source (417) and
+sink (—1I) inside the disk.
+
+all external potentials. This agrees with the experimental results quoted
+previously. Schwan'® has presented evidence that the blood has one tenth
+the resistivity of the tissues surrounding the heart. Using a resistivity ratio
+of 0.1 in EQUATION 4,
+
+V, = 0184 nm
+2
+
+Further work is necessary in three dimensions to test the tentative conclu-
+sion that the effect of the highly conducting blood inside the heart is uniformly
+to scale down the surface electrocardiograms. If this proves to be correct it
+will be necessary to multiply the observed magnitude of the heart vector by a
+factor that depends on the ratio of the resistivity of the tissues surrounding
+the heart to the resistivity of the blood.*
+
+* Subsequent to the presentation of this article, experiments with dog hearts* have indi-
+
+cated that the reduction is uniform at remote points, but is variable in the vicinity of the
+heart.
+
+
+1030 Annals New York Academy of Sciences
+
+A promising analytic approach is the extension of the image system for a
+source in an insulating sphere®®: 2 to that for a source in a sphere of finite
+conductivity immersed in an infinite medium of different conductivity. :
+
+(3) Source and sink oulside disk: potentials inside disk (FIGURE 11). Again
+there are no images. For each position o the dipole, however, there must be
+added a constant potential of value TC In 5 The potential equation is
+
+2G 71 1-—-G a
+: 1
+=a; gale Ltr] (5)
+
+(4) Source and sink oulside disk: polentials oulside disk (FIGURE 12). Ifasa
+first approximation the lung sections are represented by circles, this case would
+
+ 
+
+ 
+
+Ficure 11. Image system for potential at P inside the disk due to the source (+7) and
+sink (=1) outside the disk.
+
+give qualitative information about the effect of the lungs on the heart E.M.F.
+The sink and source are located at distances of a and b from the center of the
+
+disk. Images of strength oe I are located inside the disk at distances of
+= and 5 from the center. The potential equation is
+n  G—1, nr;
+Vo =A = In= 6
+[m2 +6 tn] (©)
+
+Assuming that the lungs have a resistivity four times that of the surrounding
+medium, this becomes
+
+Vo, = an” +06m” |
+79 74
+
+which can be compared with EQuaTION 3.
+
+ 
+
+Nelson: Human Thorax Potentials 1031
+
+EQUATION 6 indicates that the magnitude of the effect of the increased re-
+sistivity of the lung for a fixed-dipole orientation must depend on (a) the loca-
+tion of the field point at which the potential is required and (b) the dipole
+angle. For example, consider that the heart E.M.F. and a lung can be repre-
+sented by a dipole on the X axis and a disk whose center also lies on the X axis.
+If the dipole angle is 0°, the image dipole inside the disk will have an angle of
+180° and will be oppositely directed to the real dipole. This means that the
+potential in the region between the real dipole and the image dipole (near side
+of the disk) will be more positive than in the case of a homogeneous medium.
+The region on the far side of the disk will now be less positive, however, because
+the image-dipole potential partly offsets that due to the real dipole. Phys-
+ically, these effects are caused by the current-shielding properties of the disk.
+
+Vinf=A Int
+rz
+And) OF 3
+Vo Anes GT] In |
+21
+21d
+
+ 
+
+FiGure 12. Image system for potential at P ouiside the disk due to the source (47) and
+sink (—1) outside the disk.
+
+If the real dipole angle is 90°, however, the image dipole angle will also be
+90°. Since both dipoles have the same transverse axis, the location of the
+zero-potential line is unchanged. Potentials will now be increased on both the
+near and far sides of the disk, since the real and image dipoles reinforce each
+other. Thus it is not possible to make a general statement about the over-all
+effect of the higher resistivity of the lungs.
+
+In the thorax model, conditions are considerably different from the artificial
+case of a dipole outside a disk. The lung sections are not circular, and they
+surround the heart area more completely. There is also an additional shield-
+ing action caused by the spine and sternum sections. It is therefore necessary
+to go by the model measurements, although the image concept helps in inter-
+preting the results. If the main portions of the lung sections are represented
+by circles, images inside the circles can be found for each source and sink
+location. This approximation will help in understanding the results of TABLE
+1. Tt should be noted that for lung resistivity ratios of 1, 4, and infinity, the
+
+term ig in EQUATION 6 has the values 0, 0.6, and 1.0. Thus as the re-
+
+
+1032 Annals New York Academy of Sciences
+
+sistivity ratio increases the strength of the images increases, and the lung sec-
+tions have relatively more effect on the field distribution.
+
+EquaTions 1, 4, 5, and 6 were tested experimentally in the double-layer tank
+by using disks of various thickness in the electrolyte. In this way some errors
+were found and corrected; this illustrates another use for the tank.
+
+As a further check, the potential distributions for cases a and & above
+were calculated by the conventional method of potential theory, that is, by
+expanding the potential in an infinite series using polar coordinates and finding
+a solution of Laplace’s equation that satisfies the boundary conditions. The
+results were identical to those found by using Hague’s simplified method.
+
+Simultaneous Effect of Lower-Heart and Higher-Lung Resistivities
+
+Again we make the approximation of representing the heart and lung sec-
+tions by circles. The heart E.M.F. is represented by +7 and —7. If we let
+G, equal the heart resistivity ratio, then it is seen from EQUATION 4 that the
+
+ 
+
+ 
+
+sous on 2G, 1
+inhomogeneous heart area can be eliminated by substituting + 1 7 C for +1
+1
+and = La I for —I. Substituting these values in EQUATION 6, with G,
+1
+
+equal to the lung-resistivity ratio, the potential at any point outside both the
+heart and lung areas is
+
+2G, 71 G, — 1 73
+ik 2 7
+Vo afm Et] )
+
+with G; = 0.5, and G; = 4, EQUATION 7 becomes
+
+ 
+
+l= d [2 + 061” |
+3 70 74
+
+This shows that in addition to the potential changes caused by the lung sec-
+tions as expressed by the second term inside the bracket, there is also an over-all
+reduction of potentials by two thirds. Ficure 7 shows that the actual reduc-
+tion is about one half, but that the observed reduction is uniform (the equa-
+tions derived above are accurate only for a disk immersed in an infinite me-
+dium). Thus, the effects of the higher resistivity of the lungs and the lower
+resistivity of the heart tend to counteract each other in some areas and to be
+additive in others, since the effect of the lung sections is to incrcasc the po-
+tential at some points and to decrease it at others.
+
+Straighi-Line Boundaries Belween Regions Having Finile Resistivities
+
+With straight-line boundaries, two image systems are necessary, depending
+on which side of the boundary potentials are measured. Consider a sink —/
+and a source 4/ immersed in a conducting medium having resistivity p’,
+which is separated from a medium of resistivity p by an infinite straight line.
+For the measurement of potentials within the medium in which the source and
+
+So
+
+—
+
+ 
+
+Nelson: Human Thorax Potentials 1033
+
+sink are located, images must be added in the other medium
+tance from the boundary. Then
+
+’ '7 r 1 — G r
+VV =Pr Am ei a
+27d in 79 + 1 he G In J (8)
+
+at an equal dis-
+
+/
+where again G = 2
+
+For potentials in the other medium there are no images, but +7 and —7
+
+ 
+
+2 2
+must be replaced by + 1+G I and “110 I. Then
+/
+hn I 2 71
+71 1EC "7% 9)
+
+In these equations, it is assumed that all space has the resistivity p’. Dia-
+grams of image systems for straight-line boundaries as applied to nerve con-
+duction were given by Bishop. A paper by Pruitt and Valencia,?® to which
+reference was previously made,” gives the image system for plane boundaries
+and applies the method to a problem involving myocardial injury.
+
+Potential Due lo a Source and Sink Inside an Ellipse: Mathematical Expression
+
+Since the thorax cross section so closely resembles an ellipse, an attempt has
+been made to find an image system for a source inside an ellipse, but this has
+not been successful. Hicks® described an image system involving a line-source
+and line-doublet distribution between the foci of the ellipse, but the evaluation
+of the potential was difficult. Therefore it was necessary to expand the po-
+tential in an infinite series of elliptical harmonics, using elliptical coordinates,
+and to put in the boundary conditions that the potential V and its first deriva-
+tive were everywhere continuous inside the ellipse (except at the source itself)
+and that the normal derivative was zero at the boundary. By making an
+approximation leading to an error of about 1 per cent, the infinite series ex-
+pansion was reduced to finite form.
+
+It can be shown® that the relation between the elliptical coordinates # and
+v and the rectangular coordinates x and y is given by the equations:
+
+2 2
+x pl Tey (10)
+
+(? cosh? u (? sinh? u
+cos? v + sin?v = 1 (11)
+
+Then the curves # = constant are a family of ellipses with major axes on the
+X axis and minor axes on the Y axis. FIGURE 1 shows the parameters for the
+ellipse chosen to represent the thorax section. For this ellipse, # = #,. A
+line between the foci would represent the limiting ellipse, # = 0. The lines
+v = constant represent a system of orthogonal, confocal hyperbolas.
+
+The potential distribution around the periphery of the ellipse due to a source
+
+
+1034 Annals New York Academy of Sciences
+and sink located anywhere inside the ellipse is given by:
+> cosh (uo + #”) — cos (v + 2") |
+Vei=AIln| — FF ————— =
+cosh (#9 + #') — cos (v + 2’) |
+for (wo — 4”) — cos (v — 2”)
+cosh (uy — uu’) — cos (v — 7’)
+
+jo Buo — 4”) — cos (v + | (12)
+
+cosh (Bug — #’) — cos (v +2)
+
+cosh (Bug + #’) — cos (v — ?)
+
+Joost + 4”) — cos (v — 7]
+
+where
+
+Vs = potential at a point on the boundary of the ellipse.
+I ro : :
+
+A = = and p = resistivity of the internal medium.
+m™
+
+uy, v = elliptical coordinates of a point on the boundary.
+
+u', v = elliptical coordinates of the source.
+
+u”, v” = elliptical coordinates of the sink.
+
+The elliptical coordinates of a point can be found from?!
+
+ 
+
+ 
+
+=F] + 72
+
+cosh u 2C (13)
+aT
+
+COS ¥v = oC (14)
+
+where 7; and 7; are the distances from the foci of the ellipse to the point in
+question, and 2C is the distance hetween the foci. In FIGURE 2 the circles
+represent values of potential measured around the boundary of the thorax
+section fora 8 angle of 0°, and the crosses are values calculated from EQUATION
+12. For values of 8 equal to 30° 60° and 90° the agreement was not quite
+as good as this, but it was still within 10 per cent. The shapes of the measured
+and calculated curves agreed very closely, but the curves were shifted relative
+to each other. This may signify that the reference electrode was not exactly
+at zero potential. The field due to any number of sources and sinks can be
+obtained from EQUATION 12 by superposition.
+
+The equation for the potential at any point inside the ellipse due to a source
+and sink at any two points is more complicated than EQuaTION 12, but is still
+expressed in finite form. Thus the potential due to a source alone is given by
+
+V.= —4 In [cosh (# + %’') — cos (v + v')] [cosh (¥ — «’) — cos (v — v')]
+2
+
+[cosh (2ug — u + «’) — cos (v + v')] [cosh (2uo — u — u’) — cos (v — v)]
+[cosh (2ug + u — u’) — cos (v + v')] [cosh (2uo + u + wu’) — cos (v — ?¥)]
+[cosh (duo — u — wu’) — cos (v + ©')] [cosh (duo — u + 2’) — cos (v — ¥')]
+
+(15)
+
+ 
+
+Nelson: Human Thorax Potentials 1035
+
+In this equation, # and » are the coordinates of the point for which the potential
+is required. A similar expression holds for the sink, using #”, and ©” instead
+of #' and 7’.
+
+To illustrate the use of EQUATION 12 and the method of finding « and », the
+potential expression is derived for the conditions of FIGURE 1. To find the
+value of #o , any point on the boundary can be used. Taking the point x =
++A = 16.5 and using EQUATION 13,
+
+~ 2047 =
+cosh #y = eT 1.74
+Uy = 1.15
+
+Since from the definition of an ellipse, r;, + 7, = constant, the same value of
+uo would be obtained for any other point on the boundary. For the source,
+
+hu = =
+cosh u T 1.185
+uw = 0.60
+and from EQUATION 14
+ro. 129-96"
+COS ? = = 0.174
+o = —80°
+
+The minus sign for ©’ is explained by the fact that the range of v is approxi-
+mately the same as the corresponding polar angle. Thus in FIGURE 1, v has a
+value between 0° and 90° in the first quadrant of the x, y plane, between 90°
+and 180° in the second quadrant, etc. Since the source is in the fourth quad-
+rant, it must lie in the range of 0° to —90°. For the sink,
+
+uw” = 0.60
+v = —100° = — (7 + 7)
+Substituting the values in EQUATION 12, with 4 = 1.0,
+Vim ln [22 + cos (v + | [136 + cos (v — we]
+2.96 — cos (» — 80°) 1.16 — cos (» + 80°)
+8.67 + cos (v + ] [x + cos (v — |
+8.67 — cos (v — 80°) |.28.7 — cos (v + 80°)
+
+To find V, for any point, v is found from EQUATION 14 and used in EQUATION
+16. Thus, forx = +4,v = 0°. Then V, = In 1.59 = 0.46 v. The meas-
+ured value of potential at this point is 0.47 v.
+
+Two other equations that are useful in converting between elliptical and
+rectangular coordinates are
+
+(16)
+
+x = C cosh u cos v (17)
+vy = C sinh % sin v (18)
+
+
+1036 Annals New York Academy of Sciences
+
+PART II: THREE-DIMENSIONAL STUDIES
+
+In order to compare the two-dimensional measurements with those made in
+three dimensions, the cross section of the deep tank had the shape of the
+ellipse of FIGURE 1. The tank, shown in FIGURE 13, consisted of a plastic
+elliptical cylinder, 18 in. in depth, with the major axis of the cross section 12.6
+in. (32.1 cm.) and minor axis 10.1 in. (25.7 cm.). The length of the periphery
+was, therefore, 35.9 in. (91.3 cm.). Although models fashioned after a human
+thorax®e**. # are more accurate for the specific subject, it was thought that
+in view of the wide variations in body build between individuals, the elliptical
+tank would be sufficiently accurate for most purposes. Also, it has been shown
+that the detailed shape of the torso is relatively unimportant? I found, how-
+ever, that it was necessary to retain the elliptical cross section, since a circle
+used to represent the thorax section gave less accurate results.
+
+The measuring equipment was similar to that used with the flat tank ? ex-
+cept that a new type of differential amplifier was designed to couple between
+the search and reference electrodes and an oscilloscope. Two current elec-
+trodes were mounted in the tank in a position corresponding to that of the
+heart in the body, that is, nearer to the front and top of the tank. These
+electrodes were mounted on insulated arms that were suspended from a cali-
+brated disk. The disk was rotatable about both the horizontal and vertical
+axes, so that any angle in space could be obtained. The measuring probe
+consisted of platinum wire soldered to the end of a length of stainless-steel
+
+ 
+
+FIGURE 13. Deep tank and measuring equipment.
+
+Nelson: Human Thorax Potentials 1037
+
+hypodermic-needle tubing. This assembly was inserted into a glass tube, and
+the glass was sealed off around the platinum wire, leaving only the end ex-
+posed. By means of a sliding-rod mechanism, the search probe could be
+motor-driven around the periphery of the ellipse, giving the boundary-potential
+distribution very quickly. The reference electrode was a piece of platinum
+foil cemented to the bottom of the tank at the back.
+
+The 500-cycle search and reference voltages from the tank were connected
+to inputs 1 and 2 of the differential amplifier (r1cGUrRE 14a). The voltages were
+amplified by the two pentodes and applied to the primary of a transformer.
+The output of the unit consisted of a voltage the magnitude of which, with
+respect to ground, was proportional to the difference in voltage between the
+search and reference electrodes. This voltage was applied to the Phase-Sensi-
+tive Rectifier (FIGURE 14b). After passing through an attenuator, the signal
+was amplified by the 6J7 and rectified by the 6H6 tube. The resulting DC
+voltage was passed through a two-section filter and applied to the vertical
+input of a cathode-ray oscilloscope. In order to provide polarity information,
+
+S K.
+
+    
+
+ 
+
+0 400V.
+
+Set gain
+
+Cutput to
+Phase sensitive
+Rectifier
+
+ 
+
+From | RS 6H6GT/a
+coupling. mY So
+unit bh
+
+FIGURE 14. Measuring circuits used with the deep tank.
+
+
+1038 Annals New York Academy of Sciences
+
+a constant 500-cycle reference voltage E, was applied to the in
+tube in series with the tank voltage E,. The oscilloscope co
+justed so that when E, equalled 0 the spot was centered vertical
+
+screen. Depending on the position of the search probe in et So
+reference electrode in the deep tank, E, was either in phase with E > fo the
+adding to it, or out of phase with E, and subtracting from it. In this hershey
+“plus” or “minus” voltage in the tank would result in an upward or ns ) a
+deflection of the oscilloscope spot. The switch S2 and the 4.5-v. batter ey
+in FIGURE 14b were used to obtain additional DC bias for the onions 5
+but should not be needed with most commercial oscilloscopes.
+
+For horizontal positioning of the oscilloscope spot, fine copper wire w
+wound on an elliptical form having the same eccentricity as the tank cross
+tion. A DC voltage was applied across this ellipse and, as the search probe
+traveled around the tank periphery, a spring contact tapped off a portion of
+this voltage and applied it to the horizontal plates of the oscilloscope. Thus
+as the search probe moved around the tank the oscilloscope spot traveled from
+left to right across the screen, and its vertical position was proportional to the
+potential produced by the dipole. To obtain a record, it was necessary to
+keep the camera shutter open for only a single revolution of the probe.
+
+put of the 637
+ntrols were ad-
+
+pe used,
+
+Tank Results
+
+Using this system, the potential around the tank wall was measured at 12
+horizontal levels for each dipole angle in space. This was done for all
+possible spatial-dipole angles at 30° intervals.
+
+The data obtained from the tank can be used in two ways:
+
+(1) Since potentials at all points on the thorax model are available for a
+given dipole orientation, any system of vectorcardiography can be tested. It
+is now generally agreed that the limbs have the same potential as adjoining
+points on the thorax, so systems involving limb leads can be included. In
+addition, points on the thorax not included in one of the 12 levels can be ob-
+tained by interpolation. In this way Einthoven’s triangle and a modification
+thereof have been tested.®
+
+(2) By making similar measurements of the distribution of potential around
+the thorax for human subjects at a fixed instant of time during the cardiac
+cycle, the spatial-dipole angle of the heart vector can be estimated by deter-
+mining which of the model distributions fits most closely. FIGURE 15 shows
+the distribution of potential around the thorax at 7 horizontal levels for a
+normal male subject at the time corresponding to the peak of the R wave In
+lead II. The levels were measured in centimeters above (4) or below (—) the
+center of excitation, which is taken as 5 cm. below the nipple line. The levels
+shown were taken at Z = +20, +16.5, +12, +8.2, 41.3, —3.2, and —9.2.
+
+FIGURE 16 shows the tank data for a dipole « angle of —60° and 8 angle 0
+
+—30°. The « angle is defined as the angle between the spatial vector and the
+
+i l ilson’s notation, is that between
+horizontal plane. The 3 angle, following Wilson hn os
+
+the projection of the vector on the horizontal plane and the
+frontal plane. We use the term ar for the Einthoven angle, that 1s,
+
+ 
+
+Nelson: Human Thorax Potentials 1039
+
+between the projection of the vector on the frontal plane and the +X axis, in
+order to emphasize the fact that this angle is a “projected” one. With this
+system the spatial angle of the vector can be visualized easily. The vector is
+assumed to lie parallel to the frontal plane, pointing to the left side of the body,
+and parallel to the horizontal plane, that is, both « and 8 angles of 0°. It is
+then simply rotated through the angle 8 and tipped up or down through the
+angle «. Comparing the distributions of FIGURE 16 with corresponding levels
+in FIGURE 15, it is evident that there is a general agreement between the
+curves. The curves of FIGURE 15 actually lie somewhere between the graphs
+of FIGURE 15 and those in which both « and 8 angles are —30°. We can there-
+fore conclude that the spatial angle corresponding to FIGURE 15 is approxi-
+mately an a angle of —45° and a 8 angle of —30°. Both « and 8 should be
+correct to within 210°. The curves of FIGURE 15 show evidence of the presence
+of local excitation processes, or more than one effective dipole in the heart.
+
+FIGURE 16 is a typical tank data sheet. The drawings show the projections
+of the vector on the horizontal, frontal, and sagittal planes. With the system
+used, the horizontal-plane projection shows the true angle 8, but the angles in
+the other two projections are not generally equal to a. It has, in fact, been
+shown?®® that
+
+ 
+
+t =
+an ap = — (19)
+
+Other relationships that hold in the system used are:
+
+ 
+
+tan «a
+tan a; = nA (20)
+A; = A cosa cos fB (21)
+A, = A cosasin fp (22)
+A: = A sina (23)
+Ay = Adi =V A2 + A2 = A cosa (24)
+
+A= A; = AZ + 4.2 = AV1 — cos? asin’ B (25)
+Ady: = A, = VA: + 42 = AV1 — cos? a cos? (26)
+
+In these equations A is the magnitude of the vector in space, and 4x, 4y,
+and A, are the horizontal, frontal, and sagittal projections, respectively. Itis
+evident that it is necessary to find both « and 8 for a complete determination
+of the heart vector.
+
+FIGURE 17 shows the boundary-potential and potential-gradient curves for
+another subject, also taken at the peak of the R wave in lead II. Comparing
+these curves with the tank charts, it can be determined that the a angle is
+—15° and the 8 angle is 0°. Ficure 18 shows the tank data for « and S
+angles of 0°. An accurate mathematical treatment of the potential due to a
+source and sink in a finite elliptical cylinder is very difficult. A solution can
+be approached by considering an infinite series of dipole images obtained by
+
+
+ER ers se rr =
+
+1040 Annals New York Academy of Sciences
+
+Z—cm,
+
++20
+
+ 
+
++ 16,5
+
+ 
+
++12
+
++:8.2
+
+ 
+
+ 
+
+ 
+
+FIGURE 15. Potential distribution around the thorax of a tall, thin subject at 7 horizontal
+levels at a time corresponding to the peak of the R wave in lead II (E. M. 6/12/51).
+
+ 
+
+ 
+
+ 
+
+   
+   
+
+: TOP VIEW
+X= =60 i
+3= - 30 3
+Z— cm.
+12.7
+RIGHT LEFT
+-X 0 +X
+10.2
+-Y
+7.6
+FRONT VIEW
++z Xr =-63.4
+5.1
+
+43.5
+
+  
+
+2.5 =X Ne
+0
+
+Ref LiL
+-2.5 G -Z |
+Potential 32.1 tan of = Q
+
+ 
+
+ 
+
+no
+3
+Distance around cos
+tank wall
+-5.1
+LEFT SIDE VIEW
+X .=—106.1"
+—-7.6
+—10.2
+—152
+—20.3 :
+; _ tan
+fone y= sin 13
+-29.7 e257
+Right Left Dimensions in cm.
+Back Front Back
+
+FIGURE 16. Potential distribution around the wall of a deep tank at 13 different hori-
+zontal levels. The dipole angles are («) —60° and (8) —30°. Projections of the spatial
+dipole on the horizontal, frontal, and sagittal planes are shown to the right. The angle a 1s
+the angle of the dipole with the horizontal plane, and B is the angle between the projection of
+the vector on the horizontal plane and the +X axis.
+
+1041
+
+
+1042
+
+Ficure 17.
+
+6/26/51).
+
+Potential distribution around the thorax of
+build at 4 horizontal levels at a time corresponding to the pe
+
+Annals New York Academy of Sciences
+
+      
+  
+
+GB 6/26/%
+Z* +6.5cm.
+
+       
+
+OFF 90 +40
+
+Distance oround chest=CM.
+
+GB 7/10/51
+Zs» Ocm. Vv +164++08 E
+
+ 
+
+G.B. 7/10/51
+Z=-5¢cm,
+
+ 
+
+G.B. 7/31/51
+Z+-12cm,
+
+ 
+
+a normal male subject of medium
+
+ak of the R wave in
+
+ 
+
+TOP VIEW
++¥Y
+
+ 
+
+7.6
+5 | FRONT VIEW
++7 °
+F=0
+25
+-X +X
+43.5
+0
+
+  
+
+Potential
+Distance around
+tank wall
+-25 32.1
+
+LEFT SIDE VIEW
+
+Ey iS -7.6 -Y 0 +Y
+
+-1.4 FRONT BACK
+
+| -2
+-20.3 rid
+
+Dimensions in cm.
+
+Back
+
+Figure 18. Potential distribution
+B angles are 0°.
+
+around the wall of a deep tank when both the a and
+
+1043
+
+
+1044 Annals New York Academy of Sciences
+
+reflections in the top and bottom surfaces.** The image solution must then
+be combined with the potential distribution on the wall of an infinite elliptical
+cylinder. nT Sho
+
+The method of showing the potential distribution over the thorax described
+above is, in my opinion, preferable to plotting the equipotentials on the thorax.
+The former method is much easier and quicker and it provides as much infor-
+mation as the latter. In addition, the errors of measurement tend to be
+averaged out by drawing a smooth curve through the points. Furthermore,
+when one has the distribution of potential at several levels around the thorax,
+one has in hand a large part of the data necessary to obtain the horizontal
+component of the resultant dipole moment of the heart.?® It is necessary only
+to multiply the potential at each point on the thorax by a factor proportional
+to the chest contour at that point and then to integrate the product around
+the chest. The curve obtained by plotting potential against distance along
+the chest has been calied the “chest-lead diagram.”® This type of display is
+deservedly becoming more popular;*’** since time is fixed and “space” or dis-
+tance is used as the variable.
+
+By using a chest belt with a number of small electrodes (1 cm. diameter)
+close together (FIGURE 19) and high amplification and resolution in the record-
+ing equipment, it is often possible to obtain evidence of local excitation, or
+additional dipole components, in the chest-lead diagrams.’®* Ficure 20 shows
+the potential distributions around the chest of a normal male subject at the
+mid-ventricular level for three different instants of time during the QRS com-
+plex. The time 0.5 R would correspond to the peak of the R wave in lead 2.
+Local excitation processes are shown by lack of smoothness of these curves or
+by the presence of dips and peaks in the curves. The potential-gradient
+curves are particularly sensitive to local processes. The bottom curves show
+a marked second-dipole component.
+
+From the tank data and from theoretical considerations one can say that, if
+
+ 
+
+FIGURE 19. Electrode belt. The electrodes are chlorided silver, 1 cm. in diameter. The
+spacing at the front is 2.5 cm. between centers.
+
+ 
+
+Nelson: Human Thorax Potentials 1045
+
++1.2-++.6 Potential Gradient E
+Time=.I8R Potential V MV/cm.
+
+  
+ 
+ 
+ 
+
+TIME=.40R
+
+   
+
+RIGHT
+
+    
+   
+
+_—
+
+CO _ +30 —
+0
+
+  
+ 
+ 
+
++40 +50
+
+around chest—CM,
+
+ 
+
+Distanc
+
+a
+
+  
+
++1.5T+.3 Potential Grodient E
+
+Potential V Mm¥ecm,
+Time = |.OR mv,
+
+ 
+
+FIGURE 20. Potential distribution around the thorax at the mid-ventricular level at 3
+different instants of time (G. B. 10/7/51).
+
+
+1046 Annals New York Academy of Sciences
+
+there were only one dipole acting in the heart area, there could be only one
+“positive” maximum and one “negative” maximum of potential on the thorax
+wall, and that the variation of potential between any two points would be
+continuous. The same conditions would hold for the variation of potential
+around the thorax at any horizontal level. If such graphs are not smooth
+curves, or if there is more than one potential maximum or minimum, then one
+must conclude that the leads are recording the effects of more than 1 dipole.
+Whether one observes one or more dipoles depends on the number, size, and
+location of the electrodes; the amount of amplification used; the individual
+being tested; and the instant of time during the cardiac cycle. I have found
+
+   
+     
+  
+ 
+
+Potential V
+mv.
+Right bundle-branch block
+line g-40 msec ofter peak of
+R-(Lead II)
+
+Distance along chest-CM.
+
+RIGHT LEFT
+
+Figure 21. Potential distribution around the thorax at the mid-ventricular level of a
+subject with right bundle-branch block. The presence of 2 simultaneous potential maxima
+is indicative of 2 effective dipoles in the heart (E. P. 2/18/53).
+
+that in the majority of cases one major dipole component can be observed. It
+should be noted that the method of integrating the potential over the thorax®®
+gives the resullant dipole regardless of whether or not local excitation processes
+are observed in the chest leads.
+
+FIGURE 21 shows the chest-lead diagram for a case of right bundle-branch
+block at a time corresponding to 40 msec. after the peak of R in lead 2. The
+presence of two positive and negative maxima indicates the presence of 2
+effective dipoles. Presumably the excitation has spread into the right ven-
+tricle and is also active in the left ventricle.
+
+If data on the potential distribution over the thorax, displayed in other
+ways,’ 4 are plotted by the method described in this paper, similar results are
+obtained; that is, there is usually one major dipole, but evidence of additional
+dipoles can occasionally be seen.
+
+Nelson: Human Thorax Potentials 1047
+
+Summary
+
+The distribution of potential around the boundary of a three-dimensional
+electrolytic tank model of the human thorax at the level of the dipole center
+is similar to the potential distribution around a similar flat tank if the vertical
+angle of the dipole is within the range of 30°. Two-dimensional thorax
+models can, therefore, provide information about the horizontal components
+of heart excitation.
+
+Using such a flat tank, an artificial dipole was set up in the heart area, and
+potential distributions were measured for the following four cases: (1) an
+insulating boundary having a homogeneous interior and shaped for the outline of
+the thorax cross section; (2) insulating spine and sternum areas inserted, and
+Jung sections having a resistivity four times that of the main body of elec-
+trolyte; (3) the same as (2), except that the heart area was made more con-
+ducting; and (4) the same as (2), except that the lung sections were made
+completely insulating.
+
+For each case, the potential and potential gradient along the periphery of the
+model were plotted as a function of distance.
+
+The effect of the highly conducting heart section was uniformly to scale down
+potentials external to the heart. The effect of increasing the relative re-
+sistivity of the lung sections depended on (1) the dipole angle, and (2) the
+particular field point under consideration. It is not possible to make a general
+statement about the effect of increased lung resistance since, for certain dipole
+angles, the potential was increased at some points in the field and decreased at
+others.
+
+For any dipole angle, the differences between potentials on the outer bound-
+ary for cases 1 and 2 were not large. The conductivity of the heart section
+had a greater effect on the boundary potentials than did the conductivities of
+the lungs, sternum, and spine sections. A much larger effect was found if the
+lung sections were made completely insulating. The effect of inhomogeneous
+areas on the potentials was greater in the interior of the section than on the
+boundary.
+
+For dipole angles of 0° to 60° the main peak of the potential-gradient curve
+was opposite the center of the dipole. For a dipole angle of 90° the potential-
+gradient curve on the boundary was diphasic, and the point of zero potential
+gradient was opposite the dipole center.
+
+Image systems were developed for sources and sinks in two media of finite
+resistivities separated by straight-line and circular boundaries. For the latter,
+four systems were required, depending on whether the source and sink were
+inside or outside the circle, and whether potentials were required inside or
+outside the circle. If we represent the heart area by a circle, the theory
+showed that the effect of increased heart conductivity should cause the external
+potentials to be reduced, uniformly, but that the endocardial potentials would
+be changed in a complicated way. The image theory showed that increased
+lung resistivity would also have a complicated effect on field potentials.
+
+Tests with two dipoles showed that if both dipoles had the same center, the
+external field distribution was equivalent to that produced by the resultant
+
+
+1048 Annals New York Academy of Sciences
+
+dipole. If one dipole was located in the left ventricular area and the other in
+the right ventricular area, the effect of each dipole could usually be observed
+on the anterior wall of the thorax section. These results indicate that vector-
+cardiograms should be supplemented with chest leads in order to obtain as
+complete information about the heart excitation as possible.
+
+The external field of two half shells in the heart area in the thorax section
+was very similar to that of the resultant dipole.
+
+Since the thorax section was almost elliptical in shape, mathematical ex-
+pressions were developed for the potential due to a source and sink inside an
+ellipse. A much simpler equation resulted for potentials on the outer bound-
+ary of the ellipse.
+
+The distribution of potential araund the outer wall of the three-dimensional
+thorax model was obtained at about twelve horizontal levels for all possible
+spatial angles of the dipole at 30° intervals. By comparing similar human
+thorax-potential distributions with the tank charts, a rapid estimate could be
+made of the heart-vector orientation.
+
+Since such distributions give the potential at all points on the thorax, they
+make it possible, together with the limb leads, to test any system of vector-
+cardiography. Equations are given for the projections of a spatial dipole in
+terms of its absolute magnitude and of its horizontal and vertical angles.
+
+Using a circumferential chest belt with small, closely spaced electrodes,
+evidence of local excitation in the chest-lead diagram can often be seen. It is
+pointed out that the amount of local-excitation effect recorded depends on the
+size, number, and spacing of electrodes, on the recorder amplification, on the
+individual studied, and on the instant of time during the cardiac cycle.
+
+Acknowledgment
+
+I am indebted to the late Samson Wright and to W. F. Floyd of the Physi-
+ology Department, Middlesex Hospital Medical School, London, England, for
+the frequent conversations that gave me an insight into certain aspects of
+physiology that could have been acquired in no other way. Thanks are due
+also to members of the staff of the Electrical Engineering Department, Imperial
+College of Science, London, particularly to Willis Jackson and to Dennis
+Gabor, Colin Cherry, and A. R. Boothroyd, and to Allan Gordon of the Mathe-
+matics Department for advice on the problem of the ellipse. I also thank
+Hans H. Hecht for his cooperation in more recent phases of the project.
+
+References
+
+1. NeLsoN, C. V. 1952. Electric field measurements in a two-dimensional conductivity-
+tank model of the human heart and thorax. J. Physiol. 116: 15P.
+
+. NELSON, C. V. 1955. The effect of the finite boundary on the potential distribution in
+volume conductors. Circulation Research. 3: 236.
+
+. HAGUE, B. 1929. Experimental methods for determining the distribution of electric
+and magnetic fields. Electrician. 102: 185.
+
+. BEWLEY, L. V. 1948. Two-dimensional Fields in Electrical Engineering. Macmil-
+lan. New York, N.Y. |
+
+. MCcFEE, R., R. M. Stow & F. D. JounstoN. 1952. Graphic representation of electro-
+cardiographic leads by means of fluid mappers. Circulation. 6: 21.
+
+. Bropy, D. A. & W. E. Romans. 1954. Validity of several types of vector-cardiographic
+
+w= Ww No
+
+wn
+
+ 
+
+7.
+8.
+9.
+10.
+11.
+12.
+13.
+
+14.
+15.
+16.
+17.
+
+18.
+19.
+20.
+2.
+
+Nelson: Human Thorax Potentials 1049
+
+leads as tested on a two-dimensional model of the human body. J. Appl. Physiol.
+: 745. }
+
+Re L.N. Loss. (oT eming a new concept of the genesis of the electrocardiogram.
+Am. Heart J. 13: 1/.
+
+LEpESCHKIN, E. 1951. Modern Electrocardiography. : 55. Williams & Wilkins.
+Baltimore, Md.
+
+BurGER, H. C. & J. B. vAN MILAAN. 1943. Measurement of the specific resistance of
+the human body to direct current. Acta Med. Scand. 114: 584.
+
+LINDNER, E. & L. N. Karz. 1939. The relative conductivity of tissues in contact with
+the heart. Am. J. Physiol. 126: 625.
+
+Hess, W. 1935. Modellversuche iiber den Verlauf der Potentiallinien des Herzens im
+transversalen Brustkorbquerschnitt. Z. Kreislaufforsch. 27: 433.
+
+ScuAErFER, K. E. 1935. Versuche iiber neue Moglichkeiten, die Richtung der Aktion-
+spole im Herzen zu bestimmen. Z. Kreislaufforsch. 27: 439.
+
+NEeLson, C. V. & H. H. HEcut. 1955. Investigation of horizontal component of heart-
+vector by means of circumferential chest leads at midventricular level. Federation
+Proc. 14: 107.
+
+LepescukiN, E. 1951. Modern Electrocardiography. : 49. Williams & Wilkins.
+Baltimore, Md.
+
+Frank, E. & C. F. Kay. 1953. A reference potential for unipolar electrocardiographic
+measurements on models. Am. Heart J. 46: 195.
+
+Suet, Y. 1940. Studies on the origin of the injury potential of muscle. Japan. J. Med.
+Sci. III. 6: 293, 331.
+
+KaurMmaN, W. & F. D. JounsToN. 1943. The electrical conductivity of the tissues near
+the heart and its bearing on the distribution of the cardiac action currents. Am. Heart
+
+. 26: 42.
+
+one H. P. & F. C. Kay. 1956. The conductivity of living tissues. Ann. N. Y.
+Acad. Sci. 66 (6): 1007.
+
+BeLenrADEK, J. & A. K. M. Novons. 1923. L’électrocardiogramme du coeur perfusé
+au glucose. Compt. rend. soc. biol. 88: 621.
+
+StraUB, H. 1910. Zur Analyse des Elektrokardiogramms nach Versuchen am isolier-
+ten Froschherzens. Z. Biol. 53: 499.
+
+Karz, L. N., E. SiomaN, I. Gutman & F. H. Ocko. 1936. The effect of good electrical
+conductors introduced near the heart on the electrocardiogram. Am. J. Physiol. 116:
+343.
+
+22a. BurceEr, H. C. & J. B. vaN MiLAAN. 1946. Heart vector and leads.Part I. Brit.
+
+Heart J. 8: 157.
+
+22b. BurGer, H. C. & J. B. vaN MiLaaN. 1947. Heart vector and leads.Part II. Brit.
+
+Heart J. 9: 154.
+
+22c. BURGER, H. C. & J. B. vAN MiLAAN. 1948. Heart vector and leads.Part III. Brit.
+
+23.
+
+24.
+25.
+26.
+27.
+28.
+29.
+30.
+31.
+32.
+33.
+
+Heart J. 10: 229.
+
+Lewis, T. 1925. The Mechanism and Graphic Registration of the Heart Beat. The
+duality of the normal electrocardiogram. : 104. Shaw & Sons. 3rd ed. London.
+England.
+
+RijLanT, P. 1933. L’oscillogramme cathodique du coeur humain. Compt. rend. soc.
+biol. 114: 546.
+
+Hacue, B. 1929. Electromagnetic Problems in Electrical Engineering. Oxford
+Univ. Press. Oxford, England.
+
+krress W. M. 1880. On the motion of two spheres in a fluid. Trans. Roy. Soc. 171:
+
+Luprorp, G. S. S., J. MArRTINEK & G. C. K. YEH. 1955. The sphere theorem in po-
+tential theory. Proc. Cambridge Phil. Soc. 51: 389.
+
+Bisnor, G. H.” 1937. La théorie des circuits locaux permet-elle de prévoir la forme du
+potential d’action? Arch. intern. physiol. 4b: 273.
+
+Pruitt, R. D. & F. VALENCIA. 1948." The immediate electrocardiographic effects of
+circumscribed myocardial injuries: an experimental study. Am. Heart J. 3b: 161.
+Higks, W. M. 1881. On functional images in ellipses. Quart J. pure appl. Math. 17:
+WEBER, Ernst. 1950. The Electromagnetic Field. 1. Mapping of Fields. Wiley.
+
+New York, N. Y.
+
+Frank, E., C. F. Kay, G. E. SEipEN & R. A. KEisMAN. 1955. A new quantitative
+basis for electrocardiographic theory: the normal QRS complex. Circulation. 12: 400.
+
+NELson, C. V. & H. H. HEcur. 1955. A test of the Einthoven triangle and a modi-
+fication which corrects for the lateral eccentricity of the heart. Circulation. 12.752.
+
+
+1050 Annals New York Academy of Sciences
+
+34
+
+35.
+36.
+37.
+38.
+39.
+40.
+41.
+
+42.
+
+BUrGER, H. C., H. A. ToLHOEK & F. G. BACKBIER. 1954. The potential distributi
+on the body surface caused by a heart vector. Am. Heart J. 48: 29 distribution
+
+GABOR, D. & C. V. NELsoN. 1954. Determination of the resultant dipole of the h
+from measurements on the body surface. J. Appl. Phys. 25: 413. eart
+
+LepescHKIN, E. 1951. Modern Electrocardiography. : 83. Williams & Wilkins
+
+Baltimore, Md.
+BonNING, A., L. N. Katz & R. LANGENDORF. 1941. The distribution of surface
+tential on the Shest in Intrerenizichiar block. Am. Heart J. 22: 778. po-
+Simonson, E. 1952. e distribution of cardiac potentials around th :
+normal men. Circulation. 6: 201. nd the chest in 103
+Girimany, H. 1952. Differenzierung der formgestaltenden Krifte d :
+Brustwandableitungen. Cardiologia. 20: 314. alte der unipolaren
+OsHER, H. L. & L. Worrr. 1953. Electrocardiographic pattern simulati
+Ce Med, Sci 226: 541. PIED mulating acute myo-
+Sikanp, R. S., A. Mauro & L. H. Nanum. 1952. Instantaneous distribution of th
+electrocardiographic potential on the body surface of the normal on 0] tie
+interval. J. Appl. Physiol. 4: 916. al man during the T
+NeLsoN, C. V., R. L. LANGE, H. H. HECHT, R. P. CARLISLE & A. S. Ruy. 1956. Eff
+of intracardiac blood and of fluids of different conductiviti : £01
+surface vectors. Circulation. 14: 977. les on the magnitude of
+
+

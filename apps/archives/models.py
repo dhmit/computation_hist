@@ -1,8 +1,5 @@
 from django.db import models
 
-from utilities.common import get_file_path
-
-
 class Organization(models.Model):
     location = models.CharField(max_length=191, blank=True)
     name = models.CharField(max_length=191, blank=True)

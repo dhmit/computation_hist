@@ -43,4 +43,8 @@ class ArchivesTestCase(SeleniumTestCase):
         story.find_element_by_xpath('..').click()
         self.check_log_for_errors()
 
+    def test_about(self):
+        """ Test that about renders correctly """
+        self.driver.get(self.live_server_url + '/archives/about/')
+        self.check_log_for_errors()
 

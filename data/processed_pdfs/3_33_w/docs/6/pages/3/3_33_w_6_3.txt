@@ -1,0 +1,387 @@
+>
+>
+-
+-
+’
+
+&"‘
+
+" S T
+
+V‘,lagnet the signals sped into the machine
+~ and, according to a preset circuit, they were
+- routed to radio tubes, tapes, magnets, and a
+
+thousand other parts of the giant electronic
+"brain. 3
+
+- human'task; a task that ordinarily takes at
+
+o
+
+- CONC SIGNK
+
+_ stem. He pﬁshed‘ a butr.on
+and the tz pe%esﬁnté spin.
+- As the tape whirred under the plckup
+
+ 
+
+100 ,000 multiplicatlons a second. ‘Univac
+can print 600 lines of answers on paper every
+minute complete with carbon copies. &
+
+When such feats are compared with the
+abilities of humans, it’s enough to give man
+an inferiority complex. An IBM machine in
+the @overnment’s vast social security head-
+quarters in Baltimore is managed by f
+dozen clerks; it does in 214, hours what
+100 of them use to do in three 8-hour shifts.
+The Univac-Larc will duplicate in 2 min-
+utes the lifetime output of a man using a
+good desk calculator. 2
+_That is the drama of the computer revo-
+lIution. It's the reason atomic scientists
+at Oak Ridge can perform rapid ‘calcula-
+tions previously not possible at all. The
+machines are even computing the amount
+cows should be fed to produce a maximum
+quantity of milk. And right now Eastern
+Airlines is installing a Univac that will store
+information on a million seats for 3 months
+ahead. It will arrange for 60,000 reserva-
+tions a day.
+
+Three minutes later, the machine’s auto-
+matic typewriter started clicking. At high
+speed it typed out four sentences. Those
+four statements represented the gist of the
+article. The machine had made an abstract.
+
+HOW DOES IT DO IT?
+How did the machine de this impossibly
+
+least a half-hour of hard work by a skilled
+abstractor? -Is the machine human? Is
+there a mlidget hiding inside that does all
+the work?
+
+Far from it. The humanity of the ma-
+chine was built into it by Dr. Luhn and his
+many colleagues at I. B. M. Whatever think-
+ing the machines did, the men did it in ad-
+vance. But the machine has the capacity for
+speeding up thought patterns by using radio
+tubes that act with the speed of light.
+
+[From Sclence News Letter for March 1, 1958]
+" IDENTIFICATION BY EEG
+
+Use of an eletronic computer to identify
+individuals by their brain wave patterns was
+described to the Blophysical Society meet-
+ing in Cambridge, Mass. “The computer is
+programed to describe numefically the
+compplex wave forms found in electroenceph-
+alograms or EEG's. t
+
+Although it has long been recognized that
+each person has his own brain wave signa-
+ture, a characteristic EEG pattern that ap-
+pears when he is awake and resting under
+standard conditions, there has been no ex-
+act or quantitative way of describing it.
+Judgments of which characteristics of the
+EEG wave form change significantly from
+person to person have had to depend in the
+past on the skill of experienced EEG tec -
+nicians.
+
+Now, in the study made by a team of
+Massachusetts Institute of Technology scien-
+tists, the Lincoln TX-O electronic computer
+has been used to measure a number of the
+characteristics of EEG wave forms and their
+yariability. Primary attention was paid to
+the behavior of “bursts of alpha activity,” as
+they were defined by the computer program.
+
+ 
+
+[From Science News Letter for June 7, 1958]
+ELECTRONIC LIBRARIAN
+
+An electronic librarian was described by
+Dr. H. P. Luhn of the International Business
+Machines Corp.
+
+The business intelligence system, reported
+to the conference of communication scien-
+tists, would- be able to match documents to
+readers.
+
+Dr. Luhn envisions a centralized service
+using a large-scale computing machine that
+would combine information retrieval with
+a notification service to the users of the
+information.
+
+In Dr. Luhn's system the potential user
+would first write a description of his back-
+ground and work. Thls would be analyzed
+by machine to determine a profile of the
+subjects in which the user would b
+interested.
+
+At the same time, documents fed into th
+machine would also be analyzed and standard
+abstracts prepared.
+
+“The information analysis of each docu-
+ment would then be matched by the machine
+with the interest profile of each user,” Dr.
+Luhn said.
+
+The user would be given a selected list of
+titles by the machine, if the machine's
+matching showed that the user should re-
+ceive the new information. From these titles
+the user could then select abstracts and from
+the abstracts, full papers that he would want
+to read.
+
+In the final step, the machlne would note
+which documents the user selected and the
+machine would revise the user’'s profile im-
+mediately. In this way the machine would
+always have an up-to-date picture of in-
+terests of each of its users.
+
+Direct requests\for information made by
+the user could also be reflected in his profile.
+
+[From the New York Times of May 27, 1958]
+" (By Elizabeth M. Fowler)
+
+The graduate of a liberal arts women'’s col-
+lege often finds she needs a fast secretarial-
+typing course as a job clincher. Now Vassar
+College offers some of its mathematically in-
+clined students a new job getter—unders,
+graduate training in the use of electronic
+computers.
+
+For several years lndustry has been urglng
+colleges to offer such courses. The one at
+Vassar was proposed by Jane Johnson of the
+college vocational bureau, who said:
+
+“If math students could have a good
+course in numerical analysis and some ori-
+entation in programming [translating
+
+~ mathematical problems into machine lan-
+guage| for electronic computers, students
+would then have instant value upon gradua-
+tion.”
+
+The course was begun quietly and when
+it proved successful was repeated this semes-
+ter. The International-Business Machines
+Corp., which operates a plant in Vassar’s home
+town of Poughkeepsie, N. Y. provides a
+model 650 computer (a magnetic drum data-
+processing machine) and donates the services
+of Dr. Fred P. Brooks, a graduate of Duke
+University and a Harvard doctor of phi=-
+losophy, to lecture three times a week. Cata-
+loged as Mathematics 385b (Principles of
+Digital Computation), the course carries 8
+hours of credit for the semester. Texts are
+Introduction to Numerical Analysis by
+Francis B. Hildebrand and Digital Computer
+Programming by D. D. McCracken.
+
+ 
+
+[From Pageant for March 1958]
+ELECTRONIC BRAINS MEAN JOBsS FOR YOU
+(By Harold Mehling)
+
+“Competition is keen right now for spe-
+cialists who can make the computers work
+faster,” says Edmund Berkeley, publisher of
+the periodical Computers and Automation.
+The most conservative estimate holds that
++ 100,000 men and women will be ministering
+to computers within 10 years. Other esti-
+mates run as high as 180,000.
+
+Today’'s outpouring of electronic com-
+puters represents the Iastest technical revo-
+lution in history.
+
+* * * * *
+
+The Univac-Larc, which the United States
+Census Bureau will use in 1960, will do over
+
+' 'CORD 'AFPENDIX
+
+‘which about 40 companies are competing.
+
+  
+
+    
+  
+
+   
+  
+   
+       
+     
+     
+   
+   
+ 
+   
+    
+   
+ 
+ 
+ 
+   
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+  
+
+S
+L LA
+?;.-..Q..:,mn.,;
+
+s v ) B 4
+vy o BT Y e e
+
+      
+
+“The important thing from the students'
+viewpoint,” Dr. Brooks sald, “Is that this is
+a branch of mathematics not included in the =~ =
+curriculum but very important for the ap-x 27 N
+plication of the advanced ma.thematlclan. ,
+whether he or she uses a computer, desk s
+calculator or pen and pencll A0 | i
+[From the New York World-Telegram & Sun .
+
+of June 4, 1958] T
+
+ELECTRONIC BRAINS CALL FOR BIG 'I‘Umon. -‘f-'. -:
+(By Charles M. Sievert) W
+
+Growth: It takes a big tuition, as Minne-
+apolis Honeywells president, Paul B. Wish-
+art, puts it, to get into the manufacture o
+data processlng machines, but it's a promis- . 4
+ing field for corporate growth and this plo~
+neer in automatic control is in it to stay.
+
+Latest marvel in its electronic brain de-
+velopment is the Orthotronic Control and
+this system monitors the Datamatic 1000, =
+which can read 8,000 words a second, agalnst ko
+errors. Something like cops watching cops.
+
+An Annapolis graduate, Paul Wishart ad-
+mits that his company has plunged, not
+waded, into- electronic brain field, but he/
+says Minneapolis ‘Honeywell will digest the
+huge chunk it now has in research and de- =
+velopment without putting more into brick R
+and mortar for the present. '
+
+‘As' with other promising fields of manu-
+facture in postwar year, such as television
+and air conditioning, Paul admits that the
+computer and bookkeeping robots have at-
+tracted many. But the fiield is crowded in
+the low-price ($50,000-$75,000) bracket in
+
+L g Ry L T
+
+.n:f;d- S‘l
+
+RS
+
+A AL
+e
+
+] -'l'}'-t-, 1Y
+
+The high-price bracket, such as the $2.5 °
+million processing machinery being readied
+for our Tredsury Department by Honeywell's
+Datamatic division, apparently is wide open
+for the ambitious. This is'the area requiring
+the big tuition, meaning milllons for just
+research and development,
+
+ 
+
+Aviation Safety
+
+EXTENSION OF REMARKS
+
+OF . e
+
+HON. A. S. MIKE MONRONEY
+
+OF OKLAHOMA ]
+IN THE SENATE OF THE UNITED STATES o
+Monday, June 9, 1958 - B
+
+Mr. MONRONEY. Mr. President, the
+Nation’s attention recently has been
+focused on air safety and the fact that
+our present law is not adequate for the SRt
+jet age. Mr. Scott Sutton, a newscaster S
+for WTOP, did an excellent job of pulling
+together in a brief broadcast of less than
+5 minutes the problem, with details of re-
+cent crashes, and an explanation of the
+types of air traffic control now in use :
+along with an exposition of the bill, S.
+
+3880, which 32 of my colleagues joined
+
+me in cosponsoring. As an example of
+
+good radio reporting, I commend it to my =5
+colleagues and ask unanimous consent to Dl
+have it printed in the Appendix of the e
+RECORD,
+
+There being no objection, the broad-
+cast was ordered to be printed in the
+RECORD. <
+
+(See exhibit A.) ' §
+
+Mr. MONRONEY. Mr. President, re- |
+cently I spoke at a meeting of the Avia=
+
+tion Writers’ Association at Houston, ‘
+
+Tex. Another speaker was Jerome
+Lederer, director of the Flight Safety -
+Foundation, Inc., and Cornell-Guggen-
+heim Aviation Safety Center, who was,

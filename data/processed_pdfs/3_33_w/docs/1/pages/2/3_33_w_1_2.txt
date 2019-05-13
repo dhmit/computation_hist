@@ -1,0 +1,56 @@
+Page 2 -Morse= May 18, 1959
+
+We recognize that in asking you for 100 hours of time on the IB.M. T0h
+
+Y i s, s A
+
+computer at M.I.T, we are making a very substantial request, We hope that in
+considering this request and ways in which it can be met that you will take
+into account the enormous amount of work which we have put into this project,
+At the very least this is a real indication of how much we believe in its long
+run significance to the social sciences, We also hope that you will take into
+account the many close and I think mutually beneficial connections that Martin
+Greenberger, John Korbel, and I have had with the Computation Center at M.I.Te
+and its development as the leading research center of its type, We also hope
+that you will take account of the significant amount of attention and recognition
+that is being given to the importance of work of the type that we have beemn
+ploneeringe My appointment at the University of Wisconsin and the present
+development of a large-scale Social Systems Research Institute here is just ome
+concrete piece of evidence on this pointe
+
+For purposes of testing the adequacy of our demographic model, aligning
+it with aggregative time series data, carrying out sensitivity experiments,
+and making limited projection runs we need about eight seven or eight year
+runs and about two tem year rums, Since our ratio of machine time to real time
+is just under 1,2 hours per year of real time this means that we need about
+100 hours of machins time.
+
+Enclosed you will find an internal memorandum of mine which discusses
+the problem of studying and aligning models such as ours by simulation
+techniques, It is entitled "Alignment of Model With Observed Aggregative
+Time Series." The runs needed to carry out the described procedure will also
+provide us with a critical set of sensitivity experimentse
+
+Our hope is that the requested machine time can be made available to us !
+in June end in July, Martin Greenberger would be incharge of our actual use
+of the machine, but Korbel and I also would be in Cambridge and devote our full
+efforts to successfully carrying to completion this work and in assisting Martin
+in any feasible waye.
+
+We will be glad to have access to the machine at any time of the day or night
+or on week-ends, We also would be glad to cover up to a2 thousand or so dollars
+any extra costs that might be involved in operating the 704 on an extra shift
+for a period of timee
+
+Martin Greemberger and Johm Korbel will be available to help work out a
+mtually satisfactory way of meeting our request, if you wish to call upon themg
+and if there is anything else that I can do to facilitate this matter, I am
+anxious to do 80,
+
+With best regardse
+
+Sincerely yoursy
+
+Cuy Crcutt
+GHO/hp Professor of Economics
+Inese

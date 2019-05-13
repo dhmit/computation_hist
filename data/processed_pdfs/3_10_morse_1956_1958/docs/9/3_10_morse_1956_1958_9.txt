@@ -1,4 +1,4 @@
-engl
+fhe wh pT ae
 
  
 
@@ -6,124 +6,47 @@ engl
 
  
 
-OU
-
-DEPARTMENT OF THE NAVY
-OFFICE OF NAVAL RESEARCH
-WASHINGTON 25, D.C. IN REPLY REFER TO
-
-ONR: 405 :FIW:al
-
-Professor P. M. Morse, Director
-Computation Center
-
+MIT COMPUTATION CENTER
 Massachusetts Institute of Technology
-Cambridge 39, Mass.
-
-Dear Professor Morse:
-
-The Commander, Naval Proving Ground, Dahlgren, Virginia, has
-recently formed an Advisory Board of outstanding scientists to assist the
-Proving Ground's Computation and Exterior Ballistics Laboratory in the
-formulation and conduct of its program. To date the following have agreed
-to serve on this Board: Dr. S. N. Alexander, Director of the Data
-Processing Division, National Bureau of Standards; Dr. C. C. Bramble,
-Director-emeritus of the Dahlgren Ballistics Laboratory and now a consultant
-to the Bureau of Ordnance Special Projects Group; Dr. Mina Rees, Dean of
-the Faculty, Hunter College; and myself as the Board's chairman. Speaking
-for the Naval Proving Ground as well as for myself I should like to extend
-you our most cordial invitation to join the Board, hoping very much that
-you will consent to round out its membership. The Naval Proving Ground
-will promptly follow through with appropriate formal arrangements should
-you be willing to serve.
-
-Of the three Proving Ground Laboratories, Computation and Ballistics
-has scientifically the most variegated and challenging scope. As manager,
-in particular, of the NORC facility it is developing activities which mesh
-its work with Naval problems on a broadening front. Particular emphasis
-is currently being given to expansion of the scope of the Laboratory's
-program in three directions: Mathematical and computational work in connection
-with missile trajectories and satellite orbits, the methods and practice of
-handling massive management data, and quantitative war games simulation.
-
-The Laboratory's staff is looking to the Board for advice on the
-technical substance of these evolving programs as regards emphasis, approach,
-and orientation. The Board itself will meet about twice a year, generally
-at Dahlgren unless its work should necessitate meetings elsewhere. In
-addition, individual members might occasionally wish to visit the Proving
-Ground to assist with problems in which they have a particular personal
-interest. The next meeting is scheduled for Monday, 21 April, at Dahlgren,
-and I am enclosing a copy of the tentative agenda to give you an impression
-of the sort of discussions in which you would find yourself participating.
-
-
-Looking forward to hearing from you that you find it possible to
-accept this invitation, with best regards
-
-Sincerely yours,
-#
-
-Enclosure
 
  
 
-Copy to:
-Commander, NPG
-(Mr. R. A. Nilmann) (w/o encl)
+To: Professor P. M. Horse Pate: February 6, 1957
+From: P. BK. Verzuh
 
+Subject: Summary Report of FREE Time Usage of the Whirlwind Computer during
+the 12-lionth Period January 1 - December 31, 18066.
 
-II.
+In accoxdance with our discussions concerning the expected usage
+of the 704 Calculator, I have prepared 2 12-month summary of FREE time usage
+of the Whirlwind Computer during the period January 1 ~ December 31, 1956.
 
-III.
+It is of interest to note that ONB's "free time" usage of Whirlwind
+breaks down as follows:
 
-IV.
+Minutes Dollar
+Used Valuation
+Machine Computation Committee 1,309.6 $.60,639.
+Solid State and Molecular
+Theory (Slater) 25,181 .4 103,417.
+Miscellandous Projects 24,928.5 78,924 $212,979.
+
+The total machine usage during this 12-month period for thiz type of work
+was 51.319.5 minutes or approximately 855. _ 835.3 hours. I believe the
+detailed breakdown contained on the attached hed summarizing table == problen
+vumber, title, programmer, supervisor, DSR contract, government contrect,
+minutes used, and dollar value, provide useful statistics. The dollar value
+igs based on an assumed rate of $250/hour --~ obviously we have not collected
+this money since it is "free tine" usage.
+
+0 1
+
+F. ¥. Verzuh
+
+   
 
  
 
-EXTERIOR BALLISTICS AND COMPUTATION LABORATORY
-
-U.S. NAVAL PROVING GROUND, DAHLGREN
-
-Meeting of 21 April 1958
-
-Tentative Agenda
-
-The Naval Proving Ground Program and its Management
-Recommendations of Board to BuOrd
-Program Review
-
-(=) Improvement of Facilities
-b) Ballistics Missiles Work
-(c) Management Data Processing
-(a) Other
-
-Program Development
-
-(a) War Geme Simulation
-
-(b) East Coast Facility for Missile Test Data
-Reduction
-
-(c¢) Satellite Computations
-
-(d) Miscellaneous
-
-Program Management
-
-(a) Navy-wide use of NORC
-(b) Long-range Computer Planning
-
-Committee Deliberation
-
-30 min.
-15 min.
-
-45 min.
-
-90 min.
-
-45 min.
-
-60 min.
+nk
 
 

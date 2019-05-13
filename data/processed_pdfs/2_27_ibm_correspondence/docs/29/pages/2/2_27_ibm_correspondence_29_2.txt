@@ -1,0 +1,35 @@
+PERIPHERATI, OFF-LINE
+e e~ ~LINE
+
+Name Type # Rental Rental
+Card Reader 714 $ 1,735
+Card Read Control 759 900
+Card Punch 722 1, 160
+Punch Control 758 650
+Printer LT 1,410
+Printer 717 1,460
+Printer Control 57 700
+Printer Control 757 650
+Magnetic Tape Units (4) 729-1 2, 800
+
+1401 System #1
+
+1401 Processing Unit (Model C-3) 4000 core storage position $2,680
+
+ 
+
+1402 Card Read Punch 550
+1403 Printer (132 Print position) 175
+(4) 729 Tape Units (Model 4) 3,600
+Special features (Column Binary, High-Low-Equal 875
+Compare, Multiply -Divide, Print Storage)
+$ 8, 480
+1401 System #2
+1401 Processing Unit (Model C-3) 4000 core storage position 2,680
+1402 Card Read Punch 550
+1403 Printer (132 Print positions) 175
+(1) 729 Tape Unit (Model 4) 900
+Special features (Column Binary, High-—Low-Equal 875
+Compare, Multiply-Divide, Print Storage)
+
+$ 5,780

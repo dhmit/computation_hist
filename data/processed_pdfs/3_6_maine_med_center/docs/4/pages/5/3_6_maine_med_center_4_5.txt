@@ -1,0 +1,66 @@
+1020 Annals New York Academy of Sciences
+
+the electrolyte have been added. This is. the value of relative lung resistivity
+found by Burger and van Milaan..9 In Fhls case the internal field is not greatly
+altered, although the 1-v. equipotentials are changed. The shape of the
+boundary-potential distribution curve is similar to that of the homogeneous
+section, except that the maximum negative potential is now —0.77 v. instead
+of —1 v. This potential reduction may be due to a shielding action of the
+sternum, which is directly in line with the dipole axis. Also, the potential-
+gradient peaks are lower in amplitude and more widely separated from each
+other. In FIGURE 5c, the lung, sternum, and spine sections are completely
+insulating. These conditions were also tried on the basis of the experiments
+of Lindner and Katz,'* in which it was concluded that the lungs are completely
+insulating. Also, if completely insulating lung models did not have too much
+effect, then lower values of resistivity would be unimportant. In this case,
+however, the internal field is considerably altered. The +1-v. equipotential is
+altered in shape, and the zero-potential line is shifted toward the back. The
+potential distribution between the lung and spine sections is completely differ-
+ent. The bounddry-potential distribution curve is similar in its general shape
+to the curves of FIGURES Sa and Sb, but the potentials are negative over nearly
+the entire boundary. It might be argued that the changes in boundary po-
+tential were due merely to shifts in the voltage of the reference electrode.
+Although the reference-probe potential probably did change slightly, a com-
+parison of the potential-gradient curves, which are independent of the reference
+potential, shows that the changes in potential are due mainly to the change in
+internal conditions. In FIGURES Sa to Sc, for example, the maximum slope
+values are approximately 0.12, 0.08, and 0.04 v./cm. Due to conditions
+of symmetry that exist with g angles of 90° the potential maxima (M) are
+located at the ends of the extended dipole axis.
+
+Potential distributions were also measured for other dipole angles, and in
+each case it was found that there was not a great deal of difference between
+the cases a and b, that is, between the homogeneous section and the section
+using lungs with a resistivity ratio of 4. The completely insulating lungs
+caused a considerable distortion of the field, however. FI1GURrE 6 shows the
+distributions obtained in the sections using dipole angles (8) of 0°, 30°, and 60°,
+with a lung resistivity ratio of 4. Ficure 5b, with a 8 angle of 90°, can be
+considered part of this series.
+
+As the dipole rotates, the field pattern changes markedly. The zero-potential
+points remain fairly close to the dipole transverse axis, but the points of maxi-
+mum positive and negative potential (M) do not remain at the ends of the
+dipole axis. As Hess" and Schaefer'? pointed out, when the dipole is not at
+the center of the section the points of maximum potential lie along a curved
+arc passing through the poles of the dipole. It is interesting to note, however,
+that a line joining the maxima is roughly parallel to the dipole axis. The loca-
+tion of the zero-potential points depends upon the reference electrode’s being a
+.lrue null point. On the other hand, the location of the potential maxima is
+independent of the reference potential, since a change in the reference potential
+would be added to or subtracted from the potential of every point in the field.
+
+FIGURES 6 and 5b also show how the distribution of potential around the
+
+ 
+
+Nelson: Human Thorax Potentials 1021
+
+FiGure 6. Field- and boundary-potential distributions in a 2-dimensional thorax section
+for 8 angles of 0° (a), 30° (b), and 60° (¢). In all cases the lungs have a resistivity ratio of 4,
+and the spine and sternum sections are completely insulating. FiGURE Sb forms part of this
+series for a 8 angle of 90°.
+
+boundary changes as the dipole rotates. For 8 angles of 0°, 30°, and 60° the
+potential gradient is maximum at the point on the boundary nearest to the
+dipole center (0 cm.). This illustrates a possible method of finding the loca-
+tion of the resultant dipole of the heart from measurements on the chest wall.

@@ -1,602 +1,86 @@
-MIT DIGITAL COMPUTING EQUIPMENT REQUIREMENTS
+INTERNATIONAL BUSINESS MACHINES CORPORATION
 
- 
+APPLIED SCIENCE BESEARCH
 
-A. Statistical Services
+678 MASSA MUSE ~ . MN ; AM NN » rv MA SSACHMUUSEY ISS - » » “oe Jaan
 
-1.
+March 22, 1957
 
-2.
+Dr. Philip Morse
 
-4.
+Director, Computation Center
+Building 6-109
 
-’
+Massachusetts Institute of Technology
+Cambridge 39, Massachusetts
 
-The Card Programmed Calculator (CPC) has been used a total @
-of 3708 hours during the period January 1 - Rovember 15, 1954.
+Dear Dr. Morse:
 
-(Average = 81 hours per week).
+The purpose of this letter is to set down on paper some of the
+thoughts expressed and decisions reached in past meetings with Dr. Verzuh
+and Dr. Arden. The attached table is the final schedule drafted and mutually
+approved last month. It is based on three-shift operation. The machine
+times of MIT and the other New England schools are lumped together as
+UNIV, with the implicit understanding that this time is to be distributed
+equitably between the two groups on a share-desirable-hours basis. One
+morning and one late evening period of 3.5 hours duration each enable
+them to make lengthy production runs. ASR designates the IBM Applied
+Science Research usage, while PM represents the approximate time anti-
+cipated for preventive maintenance.
 
-The CPC has been used 629 hours during this period on a "free
-time" basis. \ A
-All work performed by Statistical Services prsonnel is charged OH
-to the customer. £ |
+During the early weeks of the installation, it appears likely that the
+work load will be modest enough to permit two-shift operation. In this event,
+our suggestion would be to suspend machine usage at midnight and pool the :
+ASR time with the time allotted as above to the New England schools. Under eo ,
+this plan, 6 hours are retained by MIT, 3 hours are conservatively reserved
+for preventive maintenance, and the remaining 7.5 hours are shared by the
+other two groups.
 
-The CPC maintenance, down, and service time during this period
-was 346 hours, or about 9% of the available time.
+It has been agreed that two 704 operators will be employed for each
+of the shifts. In the ultimate three-shift operation, the four operators
+rn ———
+working on the first two shifts are to be hired by MIT through IBM funds,
+while the two operators for the last shift are part of the Applied Science
+Research staff. The two sets of MIT operators will work from 8:30 a.m.
 
-The CPC machine usage charge is $15.00 per hour.
 
-Approximately 50% of the CPC programming is done on a self-
-service basis.
+Dr. Philip Morse -L- March 22, 1957
 
-A second CPC was inetalled at the Instrumentation Laboratory
-(for their own use) on June 1, 1954, and it has since been
-used exclusively for their work.
+to 11:30 p.m. The ASR operators will work from 11:00 P.m. to 7:45 a. m.,
+thus covering a portion of the UNIV machine time. This permits the MIT
+operators to leave before midnight and make their transportation connections.
+For the preliminary two-shift operation, it is suggested that the first shift
 
-A Type 650 Magnetic Drum Calculator was ordered in December, 19563,
-and it is to be delivered to the Instrumentation Laboratory (for
-their exclusive use) in June, 1955 unless the Administration
-decides otherwise before that time.
+be manned by MIT operators and the second shift by ASR operators, so that
+full MIT employment can be postponed for the time being.
 
-B. Whirlwind Project (WWl)
+To facilitate efficient usage of the 704, as well as to promote close
+cooperation among the groups concerned, we recommend that the atia« hed
+schedule be used only to establish a top priority for any given period. Hence,
+if one group is not able to fully utilize its available 704 time, a secard grog
+standing by will be able to go on the machine.
 
-1.
+In closing, we wish to express our desire that regular meetings of
+the ASR and UNIV groups be scheduled to discuss common interests in the
+operation of the MIT Computation Center.
 
-All WWl machine time has been free during the same period
-(January 1 - November 15, 1954); however, it has now been
-placed on a partial pay-as-you-go plan effective November 15th.
+Very truly yours,
 
-An hourly machine usage rate of $250 per hour has been established.
+Parl) Arad.
 
-WWl supervision, administration and some programming service is
-still free.
+Martin Greenberger
 
-WWl Scientific and Engineering Applications Group consists
-of 34 people, representing annual salary cost of $134,000.
+) A AT Cade ty 7
 
-Wil users are expected to program their own problems whenever
-possible.
+J. F. Blackburn
 
+MG: jn
+Attachment
 
-Mee y
-
-Vi Ea £ ae The  eempItetional activities’ porforned on wn
-
-  
-  
-
-   
-
-‘and Statistical
-
- 
-
-     
-  
-
- 
-
- 
-
-     
-
- 
-
-5 : SE oi opin during the past year serve. as a basis for a ae
-el Institute. 3 ¢ following tabulation
-Ries { cu! i iS
-aa ty oi | Faculty and General Educatinnal Research BE F200
-~~ | Thesis Research (Sponsored) Sse -e ho
-PR ¢ Sponsored Projects oe rk, HE as BE od Tah
-Fo By Classroom Teaching A iin RTE ne et
-: ow 1A : oe $3 Eas
-| pi & wo
- Fote: Table I does not reflect any of the ‘analogue computer activity at
-2 ‘M.I.T. When DACL, etc. sre no longer available, the digital computer |
-i requirements will naturally increase. Cla : 3
-ir The following four subjects are the only Institute subjects which mske
-5 3 active use of electronic digital computers for classroom teaching: Hem
-
-6.25 Machine -Aided Analysis
-
-6.535 Introduction to Digital Computer Coding and Logie
-6.8386 Electronic Computational Laboratory
-
-16.91 Aeroelasticity |
-
-A proposed subject in Management Information Systems is to be given in the
-
-School of Industrial Management (8.I.M.) for the first time in the Spring
-
-Term 1955. This subject will illustrate the use of digital computers as a
-
-tool of business managment. A list of related subjects which make occasional
-
-use of the facilities is given in Appendix (page v). Naturally, such participa-
-. tion would be materially increased if equipment were available on a gratis basis.
-
-
-iO NR AT
-ar
-
-             
-
-a 7
-
- 
-
- 
- 
-
- 
-
- 
- 
-
- 
-
- 
-
-  
-
- 
-
- 
-
-  
-
- 
-
- 
-
- 
-
-», NE ‘ e :
--y :
-= ait :
-one -
-’ . ’
-v : f ¥
-. 1 2 > ’ .
-8 au
-¥¥adlia’s . 3 :
-8 : ;
-A i ai .
-’ ’ - 3
-i
-i" t . ’
-:
-’ -
-a "
-is ’
-. £8
-) ’ .
-3 :
-' .
-” : © - -
-oy
-? |
-r ‘
-49
-. .
-: ~
-hy ,
-3 +
-" %
-V ¢ 3 > be
-X peary ] -
-CE it a
-. ” . . ' " i 3
-el oe ’ 4 .
-hy ; i - ! wl 3
-5 0 a wt nN ~ .
-3 . | : y - . -
-» : 5 - he
-. * 5 > 3 1
-is a : A 14) : i + 1
-ve ; gs i Es : : o =
-: “Jal nti Od £4 3 ¥ i .
-rt Ie k dT r ’ . 4 SE y
-ANT ai) ols : : | ' . .
-be : ’ et . BB .
-§ Hien } gh ahd i INE : y Ba y
-: d eo AR -
-eh =. =
-deans ut Jat : & i
-53 7 20 : : .
-rl ‘ ‘ : Mi d
-So andi Maris : a; .
-, v i! 'T > 1 ) P x
-: SR =
-or a : : Ive 3.1
-: - wo At y od . : -
-ta Lh RES a .
-» a» ] "MN BE
-Wr as * -)
-rar) 2) . .
-IH i ' : " . i
-: . Bis eat 3 “ay “ v .
-3 . ul I i. i wr : : " 3
-3 |. ’ : } : |
-i # ! Er
-| ie, Is t - | 5 y ’
-i Fat 1 3 wa
-LL : 1 i . t
-: pil y : Ei |
-ab : - . |
-La 2 Shh : \ E So “ y . 4 =
-5 " ‘ : 5 p
-~1 Bok HAE : fs : 0)
-| Lis : : 1s
-| } : . i ;
-2 . Mm
-era . l 3 ; ; oo.
-HB reat ‘ v wr
-a a
-by :
-} . 3 ow)
-: ; ‘
-. - N »
-4, - ' . .
-Fy g k ) « Tig : .
-: “ aly 4 id 4 | - :
-‘ } ¢ . ) hg ps ca i" -
-: Sik 4 ; yi le * - Th = or
-: ~ x . h : ; 3 ath
-y
-y tN oh ! : : : \ . .
-: AN td [2 yn 8 '
-* ? ' “ : “ :
-43 J 5 » * ) &
-oe one A : Ta
-; - at : » -
-°) . . “; : | { ;
-x to ’ . ; )
-» ' } . i 3
-r i ] .
-: \ y -
-¢ + A “a 3!
-Yd { .
-Tis
-A | . : i 3
-; i ‘ <
-Hovarads i »
-oti : : : ; 1 4
-on ’
-_ v
-: ; >
-
-
-Fu
-
-a.
-
-54
-
-Wh
-
-Yrs
-
-Smee
-
-{ah
-
-Ph
-= ur
-
-figs
-
-»
-
-“
-
->
-
-+
-
- 
-
-16
-
-ly
-
-M. Verzuh
-
-12/1/54
-
-F.
-
- 
-
-delivery rate of IBM equipment is about 15 months; hence, action along
-
-lines must be initiated immediately.
-
-*Ihe
-
-
-1
-
-a]
-
- 
-
- 
-
- 
-
- 
-
-  
-
- 
-
- 
-
-.
-
- 
-
-at
-
- 
-
- 
-
-» 5
-CE
-» ’
-
-1 at $500.
-
-Tabulator
-
-Reproducer
-
-$125.
-
-1 at
-
-
-
-
-
-ah x 4
-
-
-is availa
-
- 
-
-Either Electrostatic
-
- 
-
-8888 22
-sgggal £8
-
-at $500.
-1 at $1235.
-
-3 at $355.
-1 at $60.
-1 at $80.
-1
-
-1
-
-Card Punch
-Card Sorter
-Card Collator
-
-Tabulator
-Reproducer
-
-iin —
-
-F. M. Verzuh
-13-1-54
-
-
-: “MM
-AAA
-
-by $e]
-
- 
-
-tion and Control
-trical Engineering
-
- 
-
-1
-
- 
-
- 
- 
-
- 
-
-   
-
-and II
-
-   
-
-ity
-
-< ) > ia
-nstrumentatio
-Methods
-isms |
-tial Equations
-Problems
-Elastic
-in Elec
-
-Theoret
-
-of Inst
-
-tons Res
-thematical Logic
-
- 
-
- 
-  
-
- 
-
- 
-
->
-
-in Ins:
-
-2
-
-v
-
- 
-
-y
-
-tical and Applied
-
-Network Theor
-
-:
-
-ystem Engineering
-
-Control 8
-Principles of Pulse Circuits
-Electronic-Circuit Theory
-
-Transistors
-
-ical
-
-in Theory of Sdids (I & II)
-
-7»
-
-Two-dimensional Pields
-
-Semiconductors and Metals
-
-wv
-L
-
-:
-
-.
-
-is of
-lytical Tre:
-
-astic
-ied Statis
-
-al Equations
-racteristic Vel
-Theory of Probabilit
-
-Diffe
-
-etical
-
-ecr
-
-Insulators,
-Physical Electronics
-
-Advanced Feedback Control Theory
-Feedback
-Selected Topics
-
-Th
-
-8.791 ,2 od
-10.3:
-16.31
-16.38
-16.37
-~ 16.98
-‘1501 ,3
-MR
-N
-H6ol
-H76
-
-Prine
-Maths
-In
-Calculus
-Charac
-
-   
-
- 
-
-Aly, © ails - . $b . : :
-
- 
-
-2
-4
-
- 
-
-9
-6.561 ,2
-6.587
-6
-6
-
-7
-i
-
-.606
-6.623
-33
-
-SCIHA
-DOPOD
-
- 
-
-M781
-
- 
-
- 
-
- 
-
- 
-
-N
-w
-ay 3
-Dr i ‘
-yo od 3 13 ;
-1 s r : -.
-» Ar - . » =
-re he i : 4
-EH WM a
-5 Lo i .
-v ee | .
-' 3 a : -
-. . ad &
-x & {
-. d 5 Week
-a a. . - - »
-bo aa din 3s g 3
-- - 1, ho IN aa Peis TY a heat
+cc Dr, Dean Arden
+Dr. C. R. DeCarlo
+Dr. Mel Shader
+Mr. D. T. Spaulding
+Dr, Frank Verzuh
 
 

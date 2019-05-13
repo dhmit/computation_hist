@@ -1,0 +1,116 @@
+On e the maln expr0551on has the
+
+— A ) we move any
+(p1 B y D"
+
+andjg to the.front and eliminate them using axioms
+
+5 and 6. We then bring p_ to the front o;e*-andl?
+using axiom 1 lI nocosgary t& guarantee at
+
+least one occurrcice of p_ in each of +~and & .
+
+-
+
+‘orm ;
+s which occur in o~
+
+The process is continued until the canonical form
+is achiecved, \\
+
+There is also a canonical form for strong
+equivalence. Any gbf a is strongly cqu1va]ent
+to one of the form (pl — &, &), where c~and &
+
+do not contain pl and are themselves in canonical
+
+form. However, the variable Py may not be chosen
+
+arbitrarily but must be an inevitable propositional
+variable of the oripin al gbf and can be chosen to
+be any inevitable variable. An inevitable
+
+variable of a gbf (I —¢— F ) is defined to be
+either the first propositional variable or else
+
+an inevitable variable of both« and .
+
+A gbf a may be put in strong canonical form
+as follows:
+
+1) Use axiom 7 to get all premlses as
+propositional variables,.
+2) Choose any inevitable variable, say Py
+
+and put a2 in the form (p '~Q%3‘B) by using
+
+axiom 8.
+-
+
+3 The next step is to eliminate occurrences
+of p incf\andl3 .. This can be done by the
+=k
+
+ 
+
+general rule that in any ecf occurrences of the
+premise in the conclusion can be replaced by T
+and occurrences in the alternative by F.
+However, if we wish to usc substitution and
+
+ 
+
+ 
+  
+
+N\
+. vari iables ar
+
+    
+   
+  
+
+     
+
+ical Iorm. One way this is asy to prove,
+1f tw gbfs have the same canonical form they//
+can be transformed 1nto cach other v1a the ~
+canonicai‘form Supp se two gbfs have different
+weak canonlcal formns whcn the variables are taken
+in the same ordex. Then values can be cnogcn
+for the p 's ‘giving different values for the form
+pfbying non-cquivalence. In the strong casc,
+suppose that two gbfs do not have the same 1n-
+evitable propositional variables: Let p be in-
+evitable 1n a but not in b Then if the other
+a5%1ﬁncd suitable valﬁbs b will \
+‘defined with p undefined. HHowever, a will be
+undefined since p is inevitable in a which proves
+non-cquivalence, Therefore, stron*fy cquivalent
+ghbfs have the same inevitable variables, so let
+one of them be put in front of both gbfs. The
+process is then repeated in the conclusion and
+alternative etc. '
+
+The general kind of conditional expression
+
+(pl e L S en)
+
+    
+
+can be regarded as having the form
+— e e - e U)eoo
+(p, 1 (P, o (p_ LW eeed)
+where u is a special undefined variable and
+
+their properties can be derived from those of
+ece's,
+
+The relation of functions to conditional
+expressions is given by the distributive law
+
+f(xl,...,xl ,(p 1,...,pn-—-:~en),
+
+B )
+(p1~4-f(xl,...xi_l,el,x.* ,...,xn),...,pn-+
+f(xl,...,xi+l,cn,x_-l,...,xn))

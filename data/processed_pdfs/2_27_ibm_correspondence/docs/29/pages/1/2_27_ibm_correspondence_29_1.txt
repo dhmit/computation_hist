@@ -1,0 +1,29 @@
+MACHINE CONFIGURATION
+e S AN S STV IR L LN
+
+Present
+MAIN FRAME 709 System 7090 System
+Name Type # Rental Type # Rental
+Central Processing Unit 709 $10, 000 7100 $19, 275
+Console Control - - 7151 1,225
+Card Reader 711-2 800 711-2 800
+Printer 716 1,200 716 1,200
+Card Punch Tl 600 721 600
+Magnetic Core 738 19, 700 7302 17,500
+Power Supply 736 1,100 -— -
+Power Supply 741 1,400 7608 700
+Power Distributor 746 1, 300 7618 900
+CRT Recorder 740 2,450 - -
+CRT Display = 780 400 e -
+Tape Control (3)755 4,500
+Data Synchronizer (2)766 5200
+Multiplexor 7606 3,900
+Data Channel 7607-1 4,275
+Data Channel (3)7607~2 9, 825
+Data Channel Console (4)7617-1 900
+Magnetic Tape Units (13) 729-1 9, 100 (15)729-4 13,500
+Direct Data 290
+Device
+Data Channel 555
+
+Trap

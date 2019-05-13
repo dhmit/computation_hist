@@ -1,0 +1,132 @@
+sum(m,n, f) (m>n—0,T— £(m) + sum
+
+(111'}'1 ) n ? f) )
+or in terms of the conventional notation
+n )
+EE f(i) = (m > n~— 0,T — £(n) 4-2:' £(1))
+i=m 1L=m+l
+
+Functions with functions as arguments are called
+functionals.
+
+Another example is the functional least(p)
+which gives the least integer n such that p(n) for
+a predicate p. e have 5
+
+least(p) = least2(p,0)
+where
+
+least2(p,n) = (p(n) =+ n,T— least2(p,n+l))
+
+In order to use functionals it is necessary
+to have a notation for naming functions. We use
+Church's! lanbda notation. Suppose we have a
+function £ defined by an equation f(x ,...,x =0
+where e 1is soie expression in xl,..., 8
+
+The name of this function is 2((}{1, .o oxn).e) o LOPr
+
+f defined by
+\/e have
+
+example, the name of the function
+- 2 : : 2
+£(x,y) = x“+y is A ((x,y),%x%+y).
+A(x,y),x2+y) (3,4) = 13 but
+AUy, %) ,%%4+y) (3,4) = 19.
+The variables occurring in a2 definition are
+dumny or bound variables and can be replaced by
+others without changing the function provided
+the replacement is done conblstcntly. For ex-
+ample, the C“ple5101o 7y (Cas, y),“ +y) and
+2((u,v), “+v) and A ((y,x),y2+x) all represent
+the same function. Tisir=2
+: s i2
+In the notation .
+
+=t
+
+sum(l,n} A1) 1“)) and the lcast integer n for
+which n% > 50 is represented by
+
+least( D ((n),n)‘ >S90
+
+‘hen the functions with which we are dealing
+are defined rccursively, a difficulty arises,
+I'or example, consider factorial dofjruml by
+
+factesial () n=0=—=1 "t~ n-Pactoria 1(11-]))
+
+PALLE CONSIGTN N Ol an ooloyvacind P
+
+ 
+
+is represented by
+
+e et S e, s € M S S S e e
+
+level 2 we have functionals taking functions of = =~ —
+level 1 as arguments, At level 3 are functionals'
+
+taking functionals of level 2 as argunents etec,
+Actually functionals of several variables can be
+of mixed type.
+
+However, this hierarchy does not exhaust
+the possibilities, and if we allow functions
+which can take themselves as arguments we can ;
+eliminate the use of label in naming recursive |
+functions., Suppose that we have a function f !
+defined by =
+
+f(x) = £(x,£)
+where £(x,f) is some expression in
+function variable £,
+named o
+
+This function can be
+
+label(f, 7 ((x), 2 (%)) . i
+
+ilowever, supposc we define a function g by
+
+g(X) (p) = 6 (X, /7(()() ;?(X:g)))
+
+(%, A((x) :8’(’* ?))))
+we Lhen have v
+
+f(x) = g(x,g)
+since g(x,g) satisfies the equation |
+g(x,8) = £(x, 3((x),e(x,8))) '
+Now we can write f as 3
+Pe=b F6x) 5 ClY; {?) Ly, 2((u), &(u, 5‘/*))))
+(x, A ((y, 8”é§(y Aet(u)i =5
+
+eﬂth “))))
+
+This eliminates label at what scems to be an
+excessive cost. Namely, the expression gets
+quitc complicated and we must admit functionals
+capable of taking themselves as arguments thus
+escaping our orderly hierarchy of functionals,
+
+X and the 5 ‘
+|
+|
+
+or
+
+= A ((x, @), E
+
+1t might be s oupposod that in a mathematical
+thecory of computation one need only consider
+computable functions., However, mathematical
+physics is carried out in tcrms of rcal valued
+
+,U,u "'1(‘)]1"; U']’](\ 1 are not commatahla Ihanvt: Andlye
+
+e - - Ao Al . - “s ' ¢ v
+ol
+7 A Y SN P e : = 4
+
+4.- - Noh= Computable I'unctions and Functionals

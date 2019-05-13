@@ -207,15 +207,6 @@ div.info_bar {
     border-width: 4px;
   }
 }
-.page-subheader{
-    font-size:35px;
-}
-.page-subsection{
-    font-size:20px;
-    font-align:center;
-
-}
-
 .btn-secondary {
     color: #fff;
     background-color: #007bff;
@@ -229,3 +220,4 @@ div.info_bar {
 .teaser-img img{
     border: 7px solid #fff
 }
+

@@ -1,0 +1,55 @@
+Research Proposal
+
+Problem: Find a direct deductive method for the determination of
+sub-surface geological structures.
+
+At present, sub-surface geology 1s a fine art. Structures are
+inferred by extrapolation from surface maps. Direct methods of
+investigating the sub-surface (drill-holes, mine shafts) are often
+uneconomic and limited. Saéismic investigstion is a semi-direct
+method which is again limited in aprlicability and frequently
+uneconomic. Indirect methods of sub-surface resezrch such as
+measurements of gravitational and magnetic potential are translated
+into geologically meaningful information only by the exercise of
+keen geological insight and lengthy mathematical cut and try proced-
+ures.
+
+If a generalized program for a computer would be prepared to
+take over the mathematical calculstions associated with the analysis
+of potentisl measurements, we would be very close to a direct,
+deductive procedure. Reasonable exercise of geological judgement
+plus a gravimeter plus this ideal computer program would yield a
+geologicslly satisfactory interpretation of subsurface structure.
+The combination could be a totally new and extremely powerful tool
+for geological research.
+
+Required: I believe that I can do something on this in a summer if
+
+I can devote my full time to it. Gravimetric measurements are avail-
+able in abundance (with satisfactory geological interpretation). As
+I near a program, I should require some secretarial assistance in
+preparing punch cards and later somey machine time.
+
+Background: Ph.D.,Cornell, 1954 (Geology Dept., Mineralogy, Economic
+Geology, and History of Science); one gravity profile run over an
+area previously mapped by me; one week of introduction to the I.B.M.
+650 at Portsmouth Navy Yard; one rough course of lectures on the
+
+704 at the University of New Hampshire; one and one half years as
+mining geologist in Peru.
+
+General: This is actually part of a larger program that I have in
+mind. My concern is with methods in geological science which have
+for a long time been largely descriptive. With new tools and new
+methods such as the computer, I should hope that we could become
+more analytic znd less positivistic. I should like to demonstrate
+the possibility of & new tool and a new direction in geologicsal
+thinking by successfully apulying the computer to this problen.
+
+Cecil J. Schneer, Assistant Professor of Geology
+University of New Hampshire
+Durham, New Hampshire
+
+January 13, 1258
+
+

@@ -1,0 +1,131 @@
+=== = Tif,
+
+» - . - - ode on =~ - - - = Ca - on o
+StL Meeting, January 30, 185€
+
+-; a ro od Tl) o - 0D # 3 J . = Co ry
+List of Ideas for Research Projects
+EE HT —— A A A Cs a rT
+
+EE Et —
+
+° 1. Algebraic and logical compiler
+
+Revelopment of a routine capable of trens
+
+computer coding and algekraic notation,
+
+Pt
+2
+or
+
++0 ang fron
+
+Possible including some automatic selection of numerical
+
+techniques and automatic errcy analysis,
+
+Mu 2. Investigation of Structure and Syntax of possible input languages
+
+3. Coding of Tarski's decision method for elemen
+
+J
+
+4. Investigation of microprogramming and
+flexibility of computer design,
+
+‘ = Bn wre 0 gon als 2B. pan avy oe od pam oO ! i a PN Te a a, ns nn od \ on
+\ oJ Qe investigation of new tech AGUS and ap
+
+5
+
+en an ia ld
+plications 0
+
+Ty algebra and geometry.
+
+BTA my es Yat we en
+linear programbing,
+
+
+WV
+
+mental analysis and control using date transmitted directly
+
+Ee
+FS ae lc
+
+»
+L -—e- .
+a Ltda bd eh aiiilc id
+
+between coipuier and experiment,
+
+\-
+
+7. Computations of interest in pure mathematics:
+
+e.g., character table oF selected characters of the symmetric group
+
+3. Investigation of Monte Carlo techniques for large problems. —
+
+9. Extension and/or impromement of present techniques for communication
+o |
+between computers and humans and control of computers by humans
+
+. J
+
+{including input and output media invoived).
+
+J
+Computer estimation of problem zime.
+
+10,
+\ \
+11, Technigues for achieving fully automatic computer operation and
+
+logging.
+
+
+ow
+44
+oA
+oD
+bid
+9
+“
+-d
+by
+ad
+@
+Hi
+|
+
+ry
+
+ 
+
+ 
+
+- ‘ogy ed kalvie Fam
+i ly Suis DLC LA 2
+
+igues particularly
+
+(
+U
+'
+
+t of numerics
+Toy wer = 3 1 -T) aed com 3 A
+JV 8 DLgO~sPC Bl
+
+e
+
+- ' - oy -
+5 a1 -sy pes
+ne Coli ’
+
+zor intercommunication AMONE
+
+

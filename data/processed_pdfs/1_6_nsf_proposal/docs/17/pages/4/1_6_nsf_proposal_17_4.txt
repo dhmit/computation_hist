@@ -1,0 +1,42 @@
+6.
+
+S
+
+Investigation of new techniques and applications of
+
+linear programming, including procedures analogous to the methods
+of steepest descent developed by Hestenes and Stiefel for the
+solution of linear equations.
+
+T,
+(2)
+
+(v)
+
+(c)
+
+(d)
+
+Computations of interest in pure mathematics:
+
+Character table of selected characters of the
+symmetric group. |
+
+Checking congruences of interest in algebraic
+number theory.
+
+Further extension of factor tables and prime
+number 1ists past 1012 via the sieve of Erastosthenes,
+utilizing, say, Corbaté's new factoring program.
+
+Coding of Tarski's decision method for elementary
+algebra and geometry. Tarskl has shown that ele-
+mentary algebra and geometry can be decided by a
+computer. To implement this would be a task of
+considerable magnitude, but 1t would 1llustrate the
+logical capabilities of a computer to a degree not
+heretofore done.
+
+8. Techniques for achieving fully automatic computer
+operation and logging. These will be investigated as an integral
+part of the computing system. |

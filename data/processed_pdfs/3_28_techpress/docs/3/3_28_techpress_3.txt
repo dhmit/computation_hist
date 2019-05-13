@@ -1,0 +1,15 @@
+Inventory of 1957 IBM 704 Course Notes as of September 30, 1957
+
+1, Introduction (In with Chapters 4-10) 550
+Chapters 1-3 526
+Chapters 4-10 650
+Chapters 11-12 570
+
+2, CC-33-1 Post-mortem write-up (In with Chapters 550
+
+4-10)
+3, SAP Description 270
+
+4, 704 Instruction Sheet 450
+
+

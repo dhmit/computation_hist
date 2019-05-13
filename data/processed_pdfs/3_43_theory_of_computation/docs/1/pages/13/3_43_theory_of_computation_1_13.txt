@@ -1,0 +1,124 @@
+e S —— e
+
+ 
+
+  
+
+ 
+
+. ,.‘;’”‘”‘ | Ty o~
+
+,~the exprcsgiozs /;(X,Y) x2+y) and
+
+v) u?+v) and F) { ), y2+x) all represent
+e function.
+
+\Ghe notation is rqBresented b
+
+\sum(l,n 2((1) 12)) and the least 1nte~er n fo
+2 >'90 1is rcprcqcntcd by bV
+
+which n D
+least( A((n),n” > 50)
+Uhen the functions
+
+s
+with whfch we are dealln0~
+are defined recursively,” a difficulty arlses
+For example, consider factorial defined by
+factorial(n) = (n Q= 1o~ Iactor al(n-l))
+The expression =il
+2((n),(n:0-">1,T-ﬂ~n-factorial(n—l)))
+camnot serve as a name for this function because
+it is not clear that the occurrence of "factorial
+in the expression refers to the function defined
+by the expression as a whole. Therefore, for
+recursive functions we adopt an additional con-
+vention, Nanely,
+label(f, 3 ((x;,«++X ),e))
+
+stands for the function f defined by the
+equation
+
+f(xl,...xn)
+
+»
+
+where any occurrences of the function letter I
+‘within e stand for the function being defined.
+The letter £ also serves as a dummy variable,
+The factorial function then has the name
+label(factorial, A((n), (n=0 - 1,T ~» n*
+factorial(n-1))))
+and since factorial and n are dummy variables
+
+the expression '
+
+1abOl(G, A ((1‘) ) (1‘:0 25 13T = r'g(r"l))))
+represents the same function.
+
+If we start with a base domain for our
+variables, it is possible to consider a hierarchy
+of functionals., At level 1 we have functions
+whose arguments are in the base domain, At
+
+lehis elin hate
+
+@
+
+~eéscaplng our orderly hierarchy of functionals., >
+. \
+
+ computab1o functions,
+
+_functions whi.ch arc not computable’ ‘but. onlyﬁg_;;nmmha-
+
+      
+
+“(u, ©)))
+
+1abel at what seems to be ai
+excessive cost. \ngely ~the expression get
+qulsé/compllcatcd and e must admit functfanals\\
+
+ 
+
+>
+capable of taking thqpselves as arguments thus
+
+N\ e
+g, Non-Computable Puuctions and Punctlonals//
+It m1(ht be suppoch that in a mathematical
+theory of computatlon one nceg only consider\
+Howcver math“matlcal\\\\\
+phy 1cs is carried out in tcrms Q* real valued
+
+e e e e—
+
+approximable by computable functions,
+“'e shall consider several successive ex-
+tensions of the class C '7D « First we adjoin
+the universal quantlllel‘v to the operations uscd ,
+to define new functions. Suppose e is a form |
+8 variable X and other variables associated }
+with the space T of truth values. Then |
+V((x),e) ' |
+is a new form in the remaining variables also
+associated with 1. W/((x) e) has the value T ;
+for given values of the remaining variables if : |
+for all values of X, e has the value T. ' : '
+\f((x) e) has the val F 1if for at least one
+value of X, e has the value F. In the
+remalnlnv case i.e. for some values of x ¢ has
+the value T and for all others e is undeflned
+YV ((x),e) is undefined,.
+If we allow the use of the universal
+quantifier to form new propositional forms for
+use in conditional forms, we get a class of func-
+tions Ila f‘?j which may well be called the class
+of functions h/per-arlthmetlc over 7- since in F
+the case where 7= = successor, equality on the
+integers Iklfgﬁﬁ consists of Klecne's® hyper- |
+arithmetic functions.
+Our next step is to allow the description
+operator lf . L((x),m(x)) stands for the unique ]

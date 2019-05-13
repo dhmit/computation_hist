@@ -1,0 +1,98 @@
+Your Department or Laboratory: MIT Computation Center Information Worksheet
+DIRECTORY OF CUTUENT RESEARCH
+
+yrojecis: New X (please check one) Industrial Lialson Office
+Contiming Due Date: October 17, 1956
+Terminated
+
+ 
+
+1f project is continuing or terninated, it is only necessary to fill in the
+project nwiber (es listed in the 1955-1956 Directory of Current Recearch - see
+previous worksheet) and Item (5) below, listing any publications that do not appear
+oi a previous worksheet and that would be of interest to industrial people on the
+subject.
+
+lew Projects
+LT the project is new, would you please fill out this entire form (both sides
+of sheet) with the exception of Item (1) below.
+
+ 
+
+1. IUMBER OF PROJECT: (On new projects number will be assigned by the ILO)
+
+no
+
+NAME OF PROJECT: MIT Computation Center, a new interdepartmental laboratory.
+
+3. PERSONNEL: In Charge: (state whether faculty or senior DIC staff member)
+Prof, P. M. Morse, Director
+Dr. F. M, Verzuh, Assistant Director
+Others: (Indicate whether DIC, thesis student, Research Associate, etc.)
+See attached sheet
+
+4. SPONSORSHIP (if any): Agency or Company:
+
+M.I.T., I.B.M. Corporation, National Science Foundation
+
+5. PUBLICATIONS OF THIS PROJECT:
+Please include theses, technical reports, and journal articles (with
+appropriate references) which lo not eppear on a previous worksheet.
+A complete list of the reports issued by certain of the individuals who
+were formerly in the Machine Methods of Computati@am group appears in the
+Quarterly Progress Report No, 47 (July, August, September, 1956)
+
+
+6.
+
+SUMMARY OF THIS PROJECT:
+(Should begin with a brief statement of the over-all purpose and also
+
+include a statement of the work performed since the last Directory as well
+28 the future work planned. Should be about 100 words in length with allow-
+
+_.ance for the size of the particular project, and should be written in
+
+" language vhich is meaningful to technical people who are not specialists
+in this particular field. The Industrial Liaison Office will modify this
+summary as necessary for editorial consistency with other projects described
+in the book and will return it to the person in charge for approval.)
+
+The Machine Methods of Computation and Numerical Analysis project has been
+terminated as of June 30, 1956. A complete set of terminating reports deseribing
+the activities of this project is contained in Quarterly Report No. 47.
+
+The new M.I;T. Computation Center was set up effective July 1, 1956 having
+as the principal objective the establishment of an outstanding oomputing cemter
+at the Institute. The objectives of this Center are three-fold:
+
+1. To teach and train students and staff from the participating N.E.
+educational institutions the most effective 704 machine methods of
+computation.
+
+2. To perform research in the field of machine utilization with specific
+
+emphasis on scientific emgineering, business, finance, and the social
+sciences.
+
+3. To develop new peripheral equipment (or new machines) in order to handle
+the large-scale problems which exist in our new present-day technology.
+For example, in the fields of social sciences, nuclear research, ete.
+
+It should be emphasized that the work in the Computation Center is to be
+devoted exclusively to non-classified research in which the results are expected
+to be incorporated in a publication. It is impomant to recognize that the
+Computation Center is to provide the basic tools for the education, research, and
+devédopment, and not to be considered as a service bureau installation competing
+with industrial concerns for reutine computational tasks.
+
+The I.B.M. Corporation is contributing the 704 installation and the cost of
+maintaining this facility on the M.I.T. campus. Ia addition, it is providing
+funds for the appointment of approximately 36 research assistants at M.I.T. and
+the various partieipating universities. The National Science Foundation has
+contributed funds to the operation of the Center. ‘However, additional funds
+
+must be raised to set up the first-rate research and operating staff required in
+this installation. |
+
+

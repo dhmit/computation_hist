@@ -1,0 +1,130 @@
+1032 Annals New York Academy of Sciences
+
+sistivity ratio increases the strength of the ima.ges.incr.eases, and the lung sec-
+tions have relatively more effect on the field distribution.
+
+EquaTions 1, 4, 5, and 6 were tested experimentally in the.double-layer tank
+by using disks of various thickness in the electrolyte. In this way some errors
+were found and corrected; this illustrates another use for the tank.
+
+As a further check, the potential distributions for cases @ and & above
+were calculated by the conventional method of potential t}}eory, that is, by
+expanding the potential in an infinite series using polar coordmate§ and finding
+a solution of Laplace’s equation that satisfies the boundary conditions. The
+results were identical to those found by using Hague’s simplified method.
+
+Simultaneous Effect of Lower-Heart and Higher-Lung Resistivities
+
+Again we make the approximation of representing the heart and lung sec-
+tions by circles. The heart E.M.F. is represented by +7 and —7. If we let
+G, equal the heart resistivity ratio, then it is seen from EQUATION 4 that the
+
+ 
+
+ 
+
+o o, 2G, 1
+inhomogeneous heart area can be eliminated by substituting + i +1 C for +1
+1
+and =1 i_GIG I for —I. Substituting these values in EQUATION 6, with G,
+1
+
+equal to the lung-resistivity ratio, the potential at any point outside both the
+heart and lung areas is
+
+5y 261 71 Gz—l 7_3
+V°—1+GIA[ln-7_2+G2+1lnr4] (7)
+
+with G; = 0.5, and G. = 4, EQUATION 7 becomes
+
+ 
+
+ 
+
+G [m'—‘ + 0.61n9]
+3 7o 74
+
+This shows that in addition to the potential changes caused by the lung sec-
+tions as expressed by the second term inside the bracket, there is also an over-all
+reduction of potentials by two thirds. Ficure 7 shows that the actual reduc-
+tion is about one half, but that the observed reduction is uniform (the equa-
+tions derived above are accurate only for a disk immersed in an infinite me-
+dium). Thus, the effects of the higher resistivity of the lungs and the lower
+resistivity of the heart tend to counteract each other in some areas and to be
+additive in others, since the effect of the lung sections is to incrcasc the po-
+tential at some points and to decrease it at others.
+
+Straight-Line Boundaries Belween Regions Having Finile Resistivities
+
+With straight-line boundaries, two image systems are necessary, depending
+on which side of the boundary potentials are measured. Consider a sink —/
+and a source 4/ immersed in a conducting medium having resistivity p’,
+which is separated from a medium of resistivity p by an infinite straight line.
+For the measurement of potentials within the medium in which the source and
+
+S——
+
+N — —_
+
+ 
+
+Nelson: Human Thorax Potentials 1033
+
+sink are located, images must be added in the other medium
+tance from the boundary. Then
+
+’ ,I r 1 — G r
+B closp x Tt i
+27|'d [ln 79 + 1 + G ln 74] (8)
+
+at an equal dis-
+
+/
+where again G = 2
+
+For potentials in the other medium there are no images, but +7 and —7J
+
+ 
+
+2 2
+must be replaced by + 1+ G I and B I. Then
+/
+=P I 2 "
+21+ 6 1 )
+
+In these equations, it is assumed that all space has the resistivity p’. Dia-
+grams of image systems for straight-line boundaries as applied to nerve con-
+duction were given by Bishop.”® A paper by Pruitt and Valencia,?® to which
+reference was previously made,” gives the image system for plane boundaries
+and applies the method to a problem involving myocardial injury.
+
+Potential Due to a Source and Sink Inside an Ellipse: Mathematical Expression
+
+Since the thorax cross section so closely resembles an ellipse, an attempt has
+been made to find an image system for a source inside an ellipse, but this has
+not been successful. Hicks® described an image system involving a line-source
+and line-doublet distribution between the foci of the ellipse, but the evaluation
+of the potential was difficult. Therefore it was necessary to expand the po-
+tential in an infinite series of elliptical harmonics, using elliptical coordinates,
+and to put in the boundary conditions that the potential V and its first deriva-
+tive were everywhere continuous inside the ellipse (except at the source itself)
+and that the normal derivative was zero at the boundary. By making an
+approximation leading to an error of about 1 per cent, the infinite series ex-
+pansion was reduced to finite form.
+
+It can be shown® that the relation between the elliptical coordinates # and
+v and the rectangular coordinates x and y is given by the equations:
+
+2 2
+* e A Nene (10)
+
+(? cosh? u (? sinh? u
+cos?v + sin2v = 1 (11)
+
+Then the curves # = constant are a family of ellipses with major axes on the
+X axis and minor axes on the Y axis. FIGURE 1 shows the parameters for the
+ellipse chosen to represent the thorax section. For this ellipse, # = #,. A
+line between the foci would represent the limiting ellipse, # = 0. The lines
+v = constant represent a system of orthogonal, confocal hyperbolas.
+
+The potential distribution around the periphery of the ellipse due to a source

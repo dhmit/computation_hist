@@ -1,0 +1,146 @@
+S 1."!
+x S —
+
+ 
+
+ 
+
+    
+
+‘Elllb““qlllk”‘]ll[‘“ﬁiiiﬁﬁlqlli*y/g!!! bU===§*
+‘ o ed:——whe, - i :
+
+thie—p's or—<ls arc-un
+
+follows
+LE an-undefined p occurs before a true p
+
+W — a—
+
+or if all p's are false or-if the e. corre-
+
+— S— ———— — — —_._——_——_
+
+ 
+
+sponding to the first true” pis undeflned then
+
+v———-——.———-——————_—.—
+
+the fo1m 1s undefined, Otherwise the value of
+
+“the form is the value of the e corxespondlng to
+
+T — | ———— —— —— ————  —  e—
+
+.the first true P \
+“We shall illustrate th1s def1nit10n by \\\
+additional examples: \\
+
+(<1 =212 51 -3) =3 \ 7~
+
+(<2 —4,1<2 —3) = 4 23
+
+(2> 1 —41,3>1 —+3) is“undefined
+
+(0/6<1 —+1 1 <i2=3) is undefined
+
+Q<2 —+0/0 1< 2 —1) is undef1ned
+
+(1<2 —2, 1<u—+0/0) T
+
+~ The tluth value T can be‘used to S1mplify
+certain conditional forms, Thus, instead of
+
+Xl = (x<0 —--x,x70 —x)
+we shall write
+
+Ix] = (x< 0 —-x, T x)
+
+The propositional connectives can be defined
+by conditional forms as follows,
+
+pAq —q,T — F)
+
+PvVq:=(p —*T,T =+q)
+
+AP = (p —+F,T'—>T)
+
+pcq = (p—q, T —T)
+
+> £ — -
+
+I
+~
+T
+
+Considerations . of truth tables shows that these
+
+formulas give the same results as the usual defi-
+nitions, However, in order to treat partial
+functions we must consider the possibility that
+
+P or q may be undefined,
+
+Suppose that p is false and q is un-
+defined; then according to the conditional form
+definition pAq 1is false and qAp is un-
+defined, This unsymmetry in the propositional
+
+connectives turns out to be appropriate in the
+theory of computation since if a calculation of
+
+P gives F as a result q need not be computed
+to evaluate pAq, but if the calculation of p
+does not terminate, we never get around to com-
+puting p.
+
+~“associated with the same space V,
+
+ 
+
+Suppose
+occurring in
+
+further that each variable X
+pl,...pn Aend el,...en is associated With the
+
+Then (p '—)'el’ ooo,p —’er)/
+
+is a foxm associated with V. \ {///
+~ We believe that conditional forms will )\
+eventually come to be generally used in math\\\\
+matics whenever functions are dcflncd by con-
+sidering cases, Their introductién is the same‘\
+kind of innovation as vector notatlon. Nothing |
+can be proved with them that could not also be”
+proved without them, However their formal
+properties, which w111 be/diecusscd latery” will
+reduce many case- analys1s verbal arguments to
+calculation,
+Definition of Functions by Recursion, The
+definition
+ni = (H:O -*l,T —*n-(n—l):)
+is an example of definition by recursion, Con-
+sider the computation of 0!
+(0=0 —1,T —0+(0-1)"')
+We now see that it is important to provide that
+the conditional form is defined even if a term
+beyond the one that gives the value is undefined,
+In this case (0-1)! is undefined,
+Note also that if we consider a wider
+domain than the non-negative 1ntevers nd -as
+
+with the“Space U,
+
+“defined above becomes a partial functlon since
+
+unless n 1is a non-negative integer, the
+recursion process does not terminate.
+
+In general, we can either define single
+functions by recursion or define several func-
+tions together by simultaneous recursion, the
+former being a particular case of the latter
+_ To define simultaneously functions
+fl""fk’ ve write equations
