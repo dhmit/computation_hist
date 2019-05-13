@@ -1,0 +1,126 @@
+i
+
+PROPOSAL FOR RESEARCH ON DIGITAL COMPUTER OPERATION 1”
+Hap’ UTILIZATION AT THE ‘NEW MIT COMPUTATION CENTER /
+
+. : Ne is "a 4 &
+
+We are organizing what should be one of the most fruitful
+centérs for research related to the use of electronic computers
+in ‘this country. IBM is contributing one of its TOM machines,
+maintained and equipped with appropriate auxiliary equipment. =
+IBM and MIT are providing the building, part of the new Compton
+Laboratory, and MIT is contributing some of thé staff from its
+departments of mathematics, electrical engineering, physics, and
+industrial management. The machine willl be available, 35 or more
+hours a week, free of machine time charge, to MIT staff and students
+for non-classified and non-routine research, MIT research in the
+Center will be coordinated by the Institute Machine Soupeation®
+Committee (see Appendix A for names).
+
+In addition, the Center will be available, up to 35 hours a
+week, on the same basis, to other colleges in New England. Already
+23 institutions have indicated their interest in participating and
+have appointed faculty members to be their Institutional Representa-
+tive (list of participating colleges and representatives given in
+Appendix 4). These representatives willl coordinate the research
+done on the machine by students and staff of their institution.
+
+IBM is providing some funds for stipends for graduate students who
+wish to learn machine use by helping with some of this research.
+
+In this atmosphere and with these facilities, there is an
+unparalleled opportunity to do important and basic research in all
+
+phases of the use of digital computers in science, engineering,
+
+
+«2
+
+ 
+
+A, business. A ain ‘research group, ehatoed, by faculty meubers,
+SAA als t
+
+Lg
+
+pik : Tha } ae (v1 col bo ct fd
+
+‘graduate Yotudente cof MITy: ‘working closely with persons from
+
+ 
+
+the other colleges, will help coordinate the work of the Center
+and will carry on research of their own in machine logic, in tech-
+niques of machine computation, and in specific applications of
+machine operation to experimental and theoretical problems, thus
+appreciably broadening the range of applicability of computers in
+the physical and social sclences and in engineering.
+
+It is appropriate for government agencies to help support the’
+research of this central research group. The group's work will,
+in part, provide an expanding basis of *Rowledgs of numerical
+analysis and programming techniques, which can be used by the other
+participants at the Center and will, in part, break ground in new
+fields of mathematical logic and methods of data processing which
+will be needed in the application of digital computers to new tasks.
+
+Most of the senlor staff for such a research group is already
+assembled at the Institute. Part of it is the group which developed
+Whirlwind I programming; others are in various departments of the
+Institute. From time to time, some of the staff of the participating
+colleges would Join it for a semester or a year, on leave from their
+institution, to work full-time at the Center. The fames of some ef
+the staffs. and thelr sxperience;-are listed dn Aprentift —. .
+
+IBM and the Institute will contribute about a half million
+dollars a year to provide the equipment, building, maintenance, and
+operating staff of the Center. We believe that a contribution of
+about $100,000 a year will support the activities of the central
+
+
+“Be
+research group, which will energize and take the lead in the re-
+search carried on at the Computation Center by: students ans Blatt
+of MIT and the participating colleges. We list in anit, vos
+of the specific research projects we are prepared Sod toth es
+Other projects will develop naturally from these and from the
+problems encountered by the other workers at the Computation
+Center
+
+The project would not start at full strength. The 704 will
+not be installed untll January or February 1957, though analytic
+work can be started before the machine is installed. The present
+Whirlwind computing research group can be supported by the present
+ONR contract until December 1956, but a few new staff members must
+be brought in in September in order to get ready for the new machine
+installation. We estimate that a total budget of $60,000 would
+suffice for the next academic year, $90,000 for 1957-58 and $100,000
+
+DAs ane contin Rea. Xan Willy 2 Qn Aa,
+for 1958-59. , At re beginning of 1959 the program should be re-
+evaluated to determine needs beyond that time.
+
+After conversations with the scientific directors and division
+chiefs of ONR and NSF, we are requesting financial support from
+both agencies, an equal share from each. We believe the work can
+be divided so that separate contracts can be written. Some of the
+proposed tasks would be different, though some of the broader
+fields of investigation would overlap. We would hope that we could
+put out a combined progress report. In some published papers,
+credit could be given to one organization alone; in others, credit
+
+would go to both. Bookkeeping would be somewhat more complicated,
+
+
+he
+but since most of the .eXxpense would be. for or salaries, 1 1ittle for pin
+permanent equipment, this could be done, It probably would be i
+necessary to have the ‘usual government overhead for both contracts. Sl
+| The proposed budget asked of ‘each agency for 1956-57 1s siven Sn
+inippeRa tii The corresponding amounts for. the following two 8
+
+years would be $45,000 for 1957-58 and #50, 000 for 1956-59, ¢ as
+indicated ‘above. vot FELL
+
+

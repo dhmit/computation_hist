@@ -1,0 +1,178 @@
+smputation APPLICATION FORM FOR COMPUTER USAGE Page 1 of 2
+MIT
+Center (To be submitted to Institutional Representative or
+MIT Department Head for Approval. Please type)
+
+ 
+
+1. Applicant: (Originator of problem who will write thesis or report based (Not to be filled
+
+ 
+
+on calculations) in by applicant)
+Name:
+Title or academic status: Prob. No.
+Institution: Department: Programmer's No.
+Address:
+Phone No:
+
+ 
+
+2. Problem Title
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Ge Init. Date:
+3. Programmer(s): (if applicant, write "applicant'; append supplementary
+sheet if necessary) Term. Date:
+a. Name:
+Title or academic status: Computation Center
+Programming experience Approval
+on high speed machines:
+Address: Computation Center
+Phone No: Estimates
+b. Name:
+ee ee era Ee ae a I
+Title or academic status:
+Programming experience
+on high speed machines:
+Address: Publications:
+
+ 
+
+Phone No:-
+
+————-pdihbkkbhN:u:SCS SzIIIN
+
+ 
+
+ 
+
+ 
+
+4. Sponsor: Check one: faculty advisor [ ], thesis supervisor |__| ’
+project leader | | , other i
+
+Name and title:
+
+ 
+
+If the results of this work are to be written up in any government
+or otherwise-financed project, please give the DSR Project No. or
+other descriptive title:
+
+ 
+
+ 
+
+-
+o
+or
+w
+pt
+0
+>
+p=
+=
+®
+J
+[os
+3
+®
+
+5. Signature of Sponsor signifying approval of this work: Used:
+0 ll CF hd,
+6. Institutional Representative or MIT Department Head Approval:
+
+Net tle ond J
+
+ 
+
+ 
+
+CCF-2
+
+
+Page 2 of 2
+
+7. What is the purpose of this work?
+
+(e.g., educational, faculty research, thesis,
+sponsored research, grant) Specify:
+
+———————————————————————————————e eens A teen TA
+
+ee ————————e eee eee
+
+8. Where do you intend to publish the results? (e.g., thesis, name of periodical, etc.)
+
+——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+EE  ——————————————————————————————————————————  ————————————————————————————————————————————————————————————————————————————————————————————————
+
+9. When will program testing probably start?
+
+————————————— ————————————————————————————————————————————————————————————————————————————————
+
+10. Estimate of machine hours required for testing program:
+
+11. Estimate of machine hours to complete production runs from tested program:
+
+ 
+
+12. For cataloging purposes, how would you index this problem? For example, mathematics,
+logic, game, etc. If this is a mathematical problem, specify type(s) such as
+integration, partial differential equations, matrix theory, etc.
+
+EE ————————— i ————————————————————_ ———— — ——— — —————————— ——————————
+
+ 
+
+13. If this is a mathematical problem, specify numerical methods used, such as Gauss'
+quadrature method, difference equations, Crout, etc.
+
+RN — ——
+
+14. On one or two additional sheets write sections A, B, and C as follows:
+
+Section A: A one-paragraph abstract describing the nature of problem and listing
+the particular mathematical, logical and numerical techniques used.
+
+Section B: A description of problem background in sufficient detail so that a
+person well acquainted with the relevent field of research can
+understand the problem. References to related work should be given
+with an indication of the relation to this problem.
+
+Section C: A description of the particular mathematical, logical and numerical
+techniques used. Describe any expected difficulties in formulation
+of the problem and solution on the computer. This description should
+include, when appropriate, no. of significant figures desired, ranges
+and values of parameters to be tested and number of cases to be
+studied in sufficient detail so that the computer time required can
+be at least approximately estimated. Plans for testing the computer
+program should be described.
+
+CCF-2
+
+

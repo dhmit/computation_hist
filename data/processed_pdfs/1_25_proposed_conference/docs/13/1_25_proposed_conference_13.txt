@@ -1,0 +1,542 @@
+REPORT
+on
+A CONFERENCE OF
+UNIVERSITY COMPUTING CENTER DIRECTORS
+
+June 2 to 4, 1960
+
+(Second draft, July 19)
+
+BACKGROUND
+
+In the past ten years the number of university computing centers has
+increased {rom about & dozen to more than a hundred. As the directors of these
+centers have struggled with the problems of introducing new facilities and
+intellectual disciplines into their schools it has become clear -- to them, if not
+to others -- that the tasks of university computing centers ara: spacial ones, different
+from those of other computing centers, and peculiarly important {or the develop-
+ment of computer science in this country. Many directors came to feel that there
+was a need for a conference at which experience could be interchanged regarding
+these tasks and a concensus could be reached regarding desirable methods for their
+accomplishm ent.
+
+Advantage was taken of the meeting of many university computing ceater
+directors at an IBM Seminar at Poughkeepsie, N. Y., June 22-26, 1959, to form
+a committee to investigate further the advisability of such 2 conference and, if
+
+found desirable, to organize one and project its program. The committee, in its
+
+final form, comprised
+
+Philip M. Morse, MIT, Chairman
+
+Walter Freiberger, Brown University, Secretary
+Local Plans: Alex Orden, University of Chicago
+
+J. W.T. Youngs, Indiana University
+Frogram: E,L. Buell, Worcester Foly. Int
+
+5. Gorn, University of Pennsylvania
+
+L.A, Keenan, University of Rochester
+
+WwW. B, Kehl, University of Fittsburgh
+
+A.J. Ferlis, Garnegie Inst. of Tech.
+
+H. RB. Rymer, Northwestern University
+
+
+RAE Rms Ae
+~ ois 3 i ba Be A “5 5  —.
+NP Taga
+oR Be cm a WC REN of
+2 os « gi A Re a
+i 3 ¥ . x 7 Bo: ;
+g ok ~ 5 2 i
+EN > 3
+i : 2 »
+i oi A fab : . a. a 0 i > : ~~ 2 -
+ha . ; “2 a : | ‘ i | : ? 1 _~
+oH Wo a Ni 0. kk. Shreve, Oklahoma State University
+he SE ‘uk : 4 : 42 > . FY emi 4 ™] 2 3 (
+: g Lia WEA pd @w. J. Viavant, University of Oklahoma
+Me Yi hig w. H. Wells, Geor gia State University
+IRE gal, © Oh | A. WW. Wymors University of Arizons
+je k- *) :
+gy hair oof % : The existence of thie report is an indication that sufficient interest was aroused
+di ho *3 tO GTRAaniae, finance and hold the proposed Conference.
+
+fathematical Society mace available the staff of iis central
+
+t
+
+ba 5
+
+" TY
+and Amat 1 Laid
+
+i i 2 |
+Aled A, Eg Y, ; y . ~ br -# . ” . ; : pr ] i RR
+| : affice in Providence, 2. 1., headed by it8 puecutive Director, Gordon L. Walker,
+
+3 ' C0 3
+4 Fe % Ee EE My
+| to handle tae administrative and financial matters. with their efficient aid, the
+
+National Science Foundation wad enlisted to finance travel and editorial expenses,
+
+the Shoreland dotel in Chicago, {il., was choaen far the location and Jane 2 ~ 4 19640
+
+ 
+
+for the date of the Conference. Appendix A 18 an excerpt of the proposal sent to the
+
+National Science Foundation, which wal approved and thus enabled the Conference to
+
+he held.
+
+ 
+
+peri A spss By 059 {ge A SEH Ty
+ah Tr mL hah nd ANE FASE INE 3
+
+i r g : 28 mensd aed Phy » r wT ay fon an gl esti an ata
+A total of 98 par ticipants attended the Conierents, 26 frou the NOT theastera
+
+BR 7 i < . \ % Eosnrn ine 1 _ 2 a 3% watt $F ove TN ge nr iat a
+gtales, 1% sven the sgutheast, 21 yom Las riddle w agt, © ITOYD tae an fthwesy, 13
+
+¢ 5 ame kn i 2 mens Canada an 3 rene tha Nethé wal
+of JER tne Ww ef CORO i irom ot Gn TRAD Ld cLiils i Irom Lr AN etherlandas.
+
+{rom the southwest, 9 3%
+|
+
+* 3 A 2 , : a 8 4 - Po - on on & 2 ny amg g - J ~~ x Pl . > - $ see a » on
+EN Lens w oo i8 4 list 0% these pariics anid. AG of thes ax ® in Caar ie 3 centers with
+. ™
+
+, $ . 3 Ee eat “lh onus wr uff EO} fond Atwaltors 2 Yonge pid cond Sous 2 11 enter rr EAE
+egipm@ nt ene size OL | LIEGE ©2U, Bal Gis ectors Ok ABT ECT and SMalaTs centers « aT «
+on = Se
+
+sosent., Lhus the conference Was TopRuE all parts ol the country a8 |
+|
+
+a & “a ok -mx Ft CMT 3 Lae pease B08 .
+ny ell le vob Qi ad & SLECS di © pE3 pati ny CELE L Wa
+|
+
+un  aemda fF tl Bt T+ $ or OF
+Fhe agenia OL the meehing, HAV Sal
+
+-
+Sones
+
+1
+)
+Fr
+~~
+a
+
+be
+
+’
+
+or
+
+¥-
+
+O
+
+’
+
+i
+
+vy
+
+' >»
+oe -l
+a
+
+ks
+
+ 
+
+p< 254 o 4 we hd i ¢ C yy
+=% nar 21 ie use SLO Fd eA 3 3 SN Ho rr Li? 35. = La interest oh 0 Rt Sed fe Lo a |
+
+£ d
+$ - 3 ™ oo i 2 : be Fu Ox as oP oo eh 8 mS y > o we ol £ Sg - t£} .
+{acussion ify BS aall ¢ STroul 2. paring was IAT OL hy agate SINISE © =a YeLACROLN on Ac
+
+- ”
+’
+igcussed in nc later 2€s581008 41 ve division OX these LOpICH
+
+
+3
+
+J——
+
+-
+
+second day the conference split into these five Panels:
+1. Com puter-oriented Research {what are the areas, of real intellectual
+
+challenge, for research in the Use of computing machines? How are students to be
+
+“¥
+
+attracted (0 toe8e areas 7} Fanel Chalrman, Ww. #. Kehl, Univer sity of Pittsburgh,
+co-chairman, H. RX. Rymer, sorthiwvestern Univer sity.
+
+2. Curriculum and {instruction (what sort of courses are being offered in
+
+cena
+
+“
+
+Computer Science and what others should be offered 3 Panel Chalrman, A. WW, Wymore,
+
+University of Arizona; Co-chairman, BE. ba. Buell, Worcester Polytechnic Institute.
+
+3, Budget and Administration {how should 2 center he finance and what should
+
+   
+
+ins
+
+be its place in the aniversity administration?) panel Chairman, W. J. Viavaat,
+University of Oklahoma; co-chairman, W. Ho © ells, Georgia State College.
+
+roa qT
+
+4, Computing Service to the Unive: sity (how can a computing center be a
+
+pa
+
+r
+
+% 3 of 2 yr <x
+OA NITMam BETVAS
+
+¢ to the research and education activilies of a woiversity; what sort
+
+’ LR ani Sey id pa ti 3 9% a canal Sem al mssled 5% Dye 0 Pe oe a
+of a priority system should be set up and OW should it be administered 'y Panel
+
+mag
+
+PR a § ayn 8 8 5 3 5 TO OR 8 rh mnt mmbar: Lo ralturan. DD. RB. Shre
+Reitman, &4- Leenan, SHINVo: SitY ©% & LOCReRLel ; Ow CRE TINA, J, hh. SAT ave,
+Ciieial mh 5 Wel Tapa 1% hg oa he
+
+OkianGinsg oleae University.
+
+So TN « . - A» a - T= é : oy - at ey 0 he 2 t 4 ye Re HE ; 2 478 wet 2 2 on aoa i a, en fhe 4 3 Re 3 4
+%, LOVE ent Aeliiions {ho ww Should gover gment ag SNClCe 1s af supe rt univer aiy
+rec A ————— E — o> n
+
+ET
+
+_ a ’ _.S 5 ty 1 "Te ~ a y ad Re Ee wr aa Toot uw” dn “x Bon Fa y UY “ = is a di % =i. .
+compuling centers ¢ § Panel Lhailr resin), wo. SOT Univer say of Penns yivarnis, (sw CREEL ~
+
+"ns pi ‘ . ; . vy »
+nm ¥ arlis { oh deed & ir Senbe vt Teoh
+ITs SL ee ad 4 ~ 523 L399, wo re & negLe NELITULES LAA J eile
+- _— — a Meas by - % y - i Be <a 4 + 39 -
+In the Svening af the 2eConG ¢ LY ad on the LRLTae Jy 25CHR £2 yea | LAT IGA
+
+L007" " i> oi oa | Ty 3 | M “ oh ' . w a » ” “. TN - “1 4 — _ wh SN Ve L ais Bt bt " —_— - Ea —
+epoTLTa sal A anel's CO nCluBsions tO the Whlnae onierance, OL farther COMING fit;
+5s 3 > 3 - - : v A 3 - . ™ A L = . : i - -~ a kk »
+modiil CRLION wan POS le raliflCaliuii. L =1 Snel YORE rea } réod 8 of the QS CULE 810%
+I. - py #9 - £4 3 2% 4 - . - T Te v
+£ saS inal i SRATY 8C S8ions ar BAC 0 AIL ppendic «fF 2 to H AllAce
+
+ 
+
+ 
+
+|
+|
+|
+
+|
+|
+|
+
+
+i -
+
+GENERAL CONCLUSIONS
+
+Computer science is & new scientific field and computing centers are recent
+
+ 
+
+additions to institutes of higher learning. This was the first conference to discuss in
+detail curricula related to computer science, as well as the administrative and financial
+problems of computing centers in universities. Undoubtedly the greasteat value of the
+meeting was in the interchange of ideas between the participants, each learning how
+others had solved their problems. Of course, there were many different points of view
+and many disagreements on details. Some of these points of view are reported in
+Appendices D to HL.
+
+On a number of basic policy questions, however, there was virteal unanimity.
+Since these agreed-on conclusions represent the combined experience of the majority
+of the directors of university computing centers in this country, they are set down here,
+in fhe hope that they will be useful to other directors, and also to univereity and
+governmental authorities who are involved in creating new and supporting existing
+computing centers. The following two paragraphs summarize the concensus in general
+terms; details are given in Appendices ID to I.
+
+High speed computing equipment has already become & necessary part of the
+educational and research facilities of mest U. 5. aniversities and ae such should be
+supported by the university on the same bagle as other equivalent equipment. General
+knowledge of the use of computers is even OW expected of student in many felds ef
+science and engineering; Within the next ten years these machines will become a8
+integral a part of the educational equipment of a scientific curviculum as is & chemistry
+laboratory at present. Decauve of ite potentialities in non-scientific fields {puch as in
+
+commerce and linguistics) as well 28 in scientific ones, 2 university computing center should
+
+be administered and financed as an institution-wide facility, in some respects analogous
+
+
+5a
+in role to a university library.
+
+Though elementary computer coding is quickly taught, even to those with little
+mathematics, the problems associated with exploiting fully the potentialities of present
+and projected computers are difficult and intellectually challenging, are demanding
+the active participation of specialists {rom a wide variety of fields and, in turn, are
+stimulating new developments in many existing fields. Experts in the field of computing
+science are in very short supply; the shortage will remain acute until more colleges
+train more of them, Graduate students, from several intellectual disciplines, can
+profitably participate in this research, thereby improving their placement potential,
+even in their initial discipline. Knowledge already gained justifies the creation of
+several undergraduate and graduate courses of instruction, and the granting of degrees
+
+for studies in computer science.
+
+RECOMMENDATIONS
+
+From theee general conclusions, a number of more specific recommendations
+and suggestions arise as correlaries. The more specific the suggestion, the less
+complete was the agreement among the conference participants, of course, because of
+the wide variety of educational lastitutions and of machine installations which were
+represented. Nevertheless, a large majority of conferses supported the following:
+
+A. Finsacing - 4 university or college should be able to support the basic
+operating costs of its computing center from its operating funds, though it may need
+epecial aid for the initial cost. Under some circumstances it may be advisable to sell
+"second- shift time’ to research projects {or nearby industrial or ganizations) which can
+afford to pay; however, this sold time should never Le more than half the total available
+
+computing time and it must never interfere with the educational and unsponsored researe
+
+activities of the canter.
+
+Some university computing ceaters recover a portion of their
+
+
+IIE
+
+oly
+
+operating cOBLS irom the overhead which is part of the budget of all governmentally
+and industrially supported research projects at the university. Others obtain partial
+support irom long-term grants made directly for the center. In these two cases the
+center makes no direct charge for any machine time used by any aniversity faculty
+member, studsni OF ragsearch project and no time is granted to any outside organization.
+
+In cases where direct charges musi bemade for machine time io those who can
+afford to pay, itis important that the charges be realistic, that they include costs of
+staff and administration of the Center, amortization charges for the machine and of the
+installation, for example, and not just machine rental costs. A computing center
+which is forced to sell the majority of its time in order to survive is an anomaly on &
+
+university campus. {Less than ten percent of the conferees represented centers which
+
+ 
+
+sold more than 30 percent of their machine time). Whether the financial support for
+operating the center comes from educational funds, overhead or from long-term grants
+from industry or governraent, this support should enable the center to carry on its basic
+educational and research activities, even if support from sold time is cut off. Most
+conferees felt the center should have a separate budget.
+
+8. Service to the University - Because of its potential asefulness to nearly all
+intellectual activities, all departments of the university should have easy access to the
+computing center {as with the univer gity library). in many institutions the center has
+
+been established as an interdepartmental and interschool facility, with separate budget
+and staff, though some of the staff may have joint appointments ¢o the center and to some
+
+appropriate department. In these cases the director of the center should report to an
+appropriate scademic authority, such as a Dean or Provost, uot to a purely administra
+tive puthority, such as 2 registrar or treasurer. In cases where the center is
+
+administered by a particular academic department, 2 committee, with representation
+
+ 
+
+from other participating departments, should be set up to advise on policies and procedures.
+
+
+yr
+
+   
+
+(Many couleress {elf that such an inter-departmental advisory committee ie always
+a desideratam.} Ia general it was agreed that classroom use of the machine should have
+firat priority {within certain limits, of course} and that priorities on research time
+should not favor the paying users, if there are any.
+
+it alee wos generally agreed that university computing centers should run, 28
+far as possible, om an "open-shop" basis, i.e., that the users should program and code
+their own problems and, as far as in appropriate with the equipment, should participate
+in running the problem on the machine. The task of the center stall, therefore, should
+not be to encode probleme for machine users, but should be to instruct in coding and
+advise on programming, to maintain a library of standard programs and sub-routines
+and to develop machine and programming techaigues which will make the computer
+more effective and cagier to use, In exchange for their use of the machine, the users
+should be expected to document the new programs which they have developed, eo they
+can be incorperated into the program library, being lested and re-written by the center
+staff, it important enough. It should be emphasized that thie task of instructing,
+advising, improving utility of the machine and keeping the program library up-to-date,
+requires staff time of senior academic calibre, as well as machine time.
+
+G. Instruction and Research - Nearly 90 percent of the directors attending the
+conference had academic tenure. This is appropriate, for much of the task of the
+
+computing center in 2 university is related to instruction, either in teaching new users
+the elements of coding, or ia advising how to program difficult problems or in teaching
+
+or helping to teach courses related to computer science. The elements of coding are
+now simple enough so that an under-graduate, with little move than high-school mathe-
+matics can begin to use a particular machine after a few hours of instruction (after which
+
+he continues to learn additional instruction and practice, of course.) Many centers give
+
+
+ghort coding cous GOs
+desiring tO BSE the machine
+
+doren oF 89 jectures on coding ar
+
+theo etical 8c fence
+
+< ’y —— “1 Ew ry
+{or all machines.
+
+ 
+
+ 
+
+-B-
+
+three or fous Himes 4 year, for no academic credit. Persons
+
+are usually required to take such a Course. Often & half
+o included in one OF more regular subjects, gven
+mathematics, OF a begloning course in
+
+Aneerving, oF course on general principles of programming
+
+gych 48 & course in applied
+
+credit,
+
+or eng
+
+(Any course in which the student may ased to use the computer. }
+
+Guhiects, given for credit, which are being ganght LY gtafi members of some
+
+center S, are.
+
+ 
+
+ 
+
+ramming and of
+
+introduction ID Digital Computation = principles of prog
+
+machine stractars. Turning machines and other logical foundations. A
+
+freshman OF sophomore gubject.
+schine Languages theory of compilers,
+
+Advanced Course io Programming «- M
+sduate subject.
+
+information processing, signulation, tC. Agenior oF EFS
+Theory of Automata - Machine learning. problem solving, game playing etc.
+
+A gradeate subject.
+
+joal desig, switching theorYs ete.
+
+siachine Design ~ Components, 10g
+
+n, graduate gabject.
+os recontributing new ideas and points
+
+Cthar pelated cOUr ses tO which eome center stalls
+
+of view, include
+
+pplied Mathematics
+OF bericel Analysis
+Taformation Theory
+Operations Research
+
+Systems analysis
+
+New courses are heing & sdded aac year, o8 the field 12 developing rapidly.
+
+Students May Le attracted to «OF npuler science BY taking one OF more of these
+
+courses; theiv turther training in the field can be supported financicily if the center has
+
+
+J sands for a namber of student assistantshipe.
+
+Computer scieace is 2 discipline in its owa right; research in this Held should
+be indged on its own terms and student work should be recognized by advanced degrees.
+Nevertheless, there was no concensus as to whether 2 computation cemter should, now
+or eventually, develop into a separate department. One university will soon have such
+
+a department, in some others it is a part of & department of Applied Mathematics. Some
+
+|
+
+directors believe that the subject will eventually develop so a depariment status would
+become appropriate. However, maay others felt that the contact of the computer was
+sith so many intellectual disciplines that the center should continue to be inter-depart-
+mental, so that students could be drawn from, and faculty appointments could be made
+jointly with, several departments.
+
+Details of these recommendations, aad a resume of the discussions regarding
+
+them, are to be found in Appendices D to H.
+
+ 
+
+FUTURE PLANS
+At the final plenary session it was voted that the coramittee, listed on page 1
+of this report, continue in existence {0 prepare a Report of this Conference, to collect
+and exchange curricula of courses given in Computer Science, to act as a clearing
+house for suggestions and problems related to University Computing Centers and to
+arrange for further Conierences of this sort in the future, if and when the occasion
+warrants it. The Headquarters Office of the American Mathematical Society has agreed
+
+to arrange {or the necessary stail work to implement these possible actions.
+
+

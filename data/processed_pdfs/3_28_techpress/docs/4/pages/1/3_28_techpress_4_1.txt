@@ -1,0 +1,50 @@
+Supplement I %o Errata
+for
+Notes for 704 Programming Course
+1957
+October 1, 1957
+
+Course Notes
+M__
+
+P. I-8, line 8: should reaq "numerical addresses whenever, ., "
+instead of "numerical address whenever. .. "
+
+P. V-8, line 6 from bottom: there should be no blanks after the
+commas, so that it should read:
+B DEC 23178195,-251,+251,48
+
+p. XII-7, line 12: should read "AMTST TQO¥+1" instead of
+"AMTST TQO +1"
+
+P. XII-10, last line: should read "reenter the trapping mode again after
+the transfer." instead of "reenterp the
+trapping mode." : -
+
+Appendix 6
+D2 The following instruction should be inserted between "Store
+Logical Word" (line 9) and "Store Left-Half MQ"
+Instruction: Store Zero
+Mnemonic Code: STZ T, p
+Octal Value: +0600
+AC . At=A
+MQ : M'=M
+IRE : I'=T
+R . W'=0
+
+(no comments)
+D.3 7th entry in column headed "mnemonic code" should be "CAD«,g ™
+instead of "CPAw,p " .
+
+1l4th entry in column headed "Octal Value" should be +0761
+instead of -0761
+
+p.4 The following instruction should be inserted between "Leave
+Trapping Mode" -(1ine 3 from bottom) and "Redundancy Tape Test"
+Instruction: End of Tape Test
+
+Mnemonic Code: ETT
+Octal Value: -0760...011
+
+Comments : L'=I+2 1T tape indicator is off, tape must still
+be selected.

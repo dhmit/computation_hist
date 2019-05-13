@@ -1,0 +1,46 @@
+PUNCHED CARD EQUIPMENT
+
+Name
+Card Punch
+Card Punch
+Card Punch
+Verifier
+Collator
+Sorter
+Accounting Machine
+Reproducer
+
+Interpreter
+
+8/29/60
+
+Type #
+
+(2) o010
+(10) 026
+(2) 024
+056
+077
+082
+407
+519
+557
+
+ 
+
+Renta]
+
+600
+90
+50
+
+100
+60
+
+800
+
+146
+
+175
+
+$2,04]

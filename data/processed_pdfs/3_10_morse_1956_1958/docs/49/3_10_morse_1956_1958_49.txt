@@ -1,0 +1,104 @@
+Minutes of Meeting, January 9, 1956
+
+of
+Institutional Representatives with IBM and MIT Staff,
+to Discuss Plans for the Computation Center.
+
+(Appended sheet gives list of attendees.)
+
+1. Morse and Hurd gave the background of the projected
+installation of the IBM 704 and the Computation Center to adminlster
+it. They emphasized that the Center was set up primarily to provide
+instruction in the use of high speed computers in science, engineering,
+and business and that both operating procedures and financial support
+will be planned to further this aim. Each participating school will
+be expected to contribute on three levels: one senior faculty
+Institutional Representative, who would act as official coordinator
+
+etween his stitution and the Computation Center on policy and
+financial matters; one or more faculty members who have an active
+interest in learning about machine techniques, who would carry on
+research at the Center and training in machine use at his college and
+who would be appointed a Research Assoclate of the Center (some of
+these would be financed, In part, by the 18M Research Fund of the
+
+Center, others would be supported by other projects by thelr colleges);
+
+and one or more Research Assistants, graduate students who would spend
+part of thelr time at the Center helping program and run off problems
+and who usually, though not necessarily, would recelve stipends from
+the IBM Research Fund, via their college. The yearly amount for
+awards for Research Associateships and Research Assistantships for
+
+the participating institutions is #30,000, an equal amount 1s for
+
+MIT, These awards will be made by the Center, after consultation
+with the Liaison Committee, which will be made up of some of the
+Institutional Representatives, each serving for 2 limited time, so
+
+as to have rotation of representation.
+
+2. Verzuh and Hunter described the installation, which ls
+expected to be placed in the new Compton Laboratory the first part
+of 1957.
+
+3. Morse passed around proposed drafts of notices concerning
+the opportunities for Research Assistantships and Associateships,
+which the Institutional Representatives could distribute to the
+interested departments in their institution. It is hoped that
+
+decisions could be made, this spring, for appointments beginning
+next fall,
+
+
+4. Hurd and Mason discussed three sorts of training courses
+in 704 use which would be available this summer; a special course,
+given the latter part of the summer, of two weeks AST
+week at IBM in New York (tuition-free but living expenses to be paid
+by the participants) open to any of the three classes of participants
+mentioned in paragraph 1; several regular three-week traini rograms
+given by IBM in New York during the summer and next fall, W oo could
+be taken by those participants who could not attend the special MIT-
+IBM course; a ten-week summer program at IBM in New York, involving
+training and also assisting in machine operation, the participants
+being paid a modest stipend for the ten weeks' work (participants in
+this program will be chosen by IBM from those Research Associates
+and Assistants applying.)
+
+~~ 5. Morse said the Liaison Committee would be formed before the
+end of February. It was suggested that it would be desirable to
+have one more meeting of all of the Institutional Representatives
+this spring, in addition to whatever meetings of the smaller Liaison
+Committee might be necessary.
+
+6. Morse asked the Representatives present to write him, within
+3 week, to . comment on the following subjects:
+
+a. Suggestions for wording the Announcements of Assistant-
+ships and Associateships (see paragraph 3) to be printed up soon,
+which could best fit the situation in their own college. Estimates
+of thé number of such announcements they would need for use in their
+college. |
+
+Be Estimates as to possible applications for Assistantships 3
+and Associateships which might come from their college this spring.
+
+. ¢. Estimates as to how many from their college who would
+be interested in each of the three training programs (mentioned 1n
+paragraph 4) which are planned for this summer:
+
+d. Any other suggestions for procedures or activities which
+would further the educational aims of the Computation Center.
+
+7. Pamphlets relating to the operation of the 704 machines
+and concerning programming codes for the 704 were distributed to
+those present. Truman Hunter, who 1s to be the IBM representative
+in Cambridge to work with the Center, said extra copies and other
+material could be obtained by writing him at the IBM Office, 363 Third
+St., Cambridge, Mass. Morse said that he and Hunter would be glad to
+visit the participating colleges this spring, to discuss the program
+further, if this is considered desirable.
+
+REN Ne
+
+

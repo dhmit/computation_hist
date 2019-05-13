@@ -1,0 +1,40 @@
+—35 ¥ &= 6@
+
+ 
+
+INTEROFFICE MEMORANDUM
+
+TOs Dr. F. M, Verzuh
+FROMg Dr. Arthur L. Losb
+DATE: November 1, 1958
+
+SUBJFCT: Allocation of Machine Time.
+
+Problem number M2L1 has used ils allotted time for the fourth
+quarter of 1958 in testing and debugging the basic program. This is just
+about completed.
+
+As the program is designed for general use as a service program
+for our laboratory, the specific solutions vsed have yet to be tested.
+Furthermore, the final form of the program has not been assembled, nor
+have any production runs been attempted,
+
+In view of these continued demands on the computer, I will need
+an additional 100 minutes (1.5 hours) to complete the work outlined. 2241,
+according to the scheduler's records, has overrun its time by 1.47 hours;
+according to the Auto Oper. Records, it has overrun by 0.25 hours. The
+discrerancy is demonstrated in the enclosed chart by Philip Friend. 1
+will request 180 minutes (3.0 hours) additional time to insure sufficient
+time to complete this work.
+
+T also request that programmer number 165 be transferred from
+
+Lehel Nagy-Kovendy to Philip Friend.
+
+WM
+L ol Yagqanr | f )
+r \I}IUL ol o IAIO‘;b
+A e T SE -
+ASSisbant froiassorxr
+
+Llectrical Fnginserin

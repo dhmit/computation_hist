@@ -1,0 +1,79 @@
+S g et —— it S s S S e ——cwene T —— . — — - -
+-~ - —— -— - — -
+
+ 
+
+RS} St ——
+)
+
+defined by | Vhen sets are formed Dy this kind of , e
+
+o Ay T recursive definiti I i APDi
+"JX,B,C( ) JTA,DXC( A,B m 3 : e 011,’ the canonical mappings
+( Cir (1)) (W) associated with the direct sum and Cartesian
+‘3 ’ : product operations have significance, Consider, |
+
+/e shall write for example, sexp(A), |
+(AxB)xcﬁYAx(BxC) R We can define the basic operations of LISP, f
+to express the fact that these sets are ! 1.¢e, atom, eq, car, cdr and cons by the equations |
+canonically isomorphic, == atom(x) = pA SxS(x) |
+Other canonical isomorphisms are o E i
+Lis tA B:AxB->BxA def;ned by calx,y) = (?A,st(x) =‘LA,3xs(Y)) _ ;
+’ assuming that cquality is defined on the space A |
+t(u) = a/13,1\(611‘,13(11)’7rA,13(u)) Gar(x) =, S - () i
+2. d. :Ax(BCC) — AXBGAXC : A4 8X8 |
+1 cdr(x) = . S({x)SxS(x)) |
+d« & :(AGB)GC-—>A®(B®C) 4 > ’ |
+s A PERED) = I st SGa ) |
+& dz: T -ﬁ-FAXB) Definition of the set of integers, : |
+5. d_:APxA” — AT"GC Let_A_ denote the null set and ?ﬂ} be the | H
+5 3'(AB{3~~~APXC set whose sole element is the null set.” We can | ' |
+£ Sl' ; ' define the set of integers I by el
+|
+
+1= 544 05713 xI1
+
+its elements aré then ;
+
+|
+
+. /1:(/';4):(/’:(/l;/{)),(/{,(/f,(ﬂ,ﬂ))) etc. l !
+which we shall denote by 0,1,2,3 etc. ? 5
+
+e shall denote the null et (containing no
+clements) by O and the set consisting of the
+integers from 1 to n by n. We have
+
+ 
+
+l&o Oﬁ‘A ~ -
+5 The successor and pPredecessor functions are then
+AO 020 < 2 2
+i definable in terms of the canonical operations
+St et : S of the defining equation. e have
+Ax2ZZAGA (n terms,associate to left by A
+i succ(n) = y— U ,n) | g
+convention) 243,1 .
+A° (by convention) pred(n) =@ I(AL/ -I(n))
+s X
+..-l/\JAs . f/’} g {A%}
+A AX. .. XA (n terms, associate to left by /
+convention) PROPERTIES OF COMPUTABLE FUNCTIONS
+Suppose we write the recursive equation The first part of this paper was solely
+‘3:‘5;F}‘1\“S concerned with presenting descriptive formalisms,
+ve can interpret this as defining the sct of In this part we shall establish a few of the
+sequences of elements of A as follows: properties of the entities We prcviously in-
+L. Interpret A-as denoting the null sequence, troduced., The most important scction is the
+Then the null sequence (strictly an image of it) second dealing with recursion induction,
+
+- - . -
+N clenent of S'e
+- RS es, ';.'_‘:.]. L rCHITSY Stine O17T an ol ot o '7 Aaasiaa Do va e g ® - ~ o~
+
+ 
+
+e
+
+ 
+
+= Pr

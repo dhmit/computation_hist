@@ -1,0 +1,97 @@
+1028 Annals New York Academy of Sciences
+
+disk (FIGURE 9). The images are located along the radii extended at distanceg
+2 2
+
+from the center ZZ— and ]—z—, where R is the radius of the disk. The potential at
+
+a point P inside the disk is then
+
+Vi —”Gll:ln’—‘-l-—_l . Gln‘-’ﬁ]
+2
+
+Bl on L6
+—w{mﬁ+1—cm% -
+= 7o 1 +G -IE
+
+If it 1s assumed that the average resistivity of the heart is one half that of the
+surrounding region, then from EQuATION 1
+
+s A 71 1 ars
+V,—z—[lnr—2+§ln5r—4] (2)
+
+The potential of the source and sink in a homogeneous medium of resistivity p
+would be
+
+V=AhZ 3)
+
+7o
+
+The lower resistivity in the heart area, therefore, has a complicated effect on
+the internal potentials.
+
+(2) Source and sink inside disk—potentials outside disk (FIGURE 10). In this
+case there are no images outside the disk, but the original source and sink, +7
+
+r
+Vinf.=AIn—l
+rz
+ot Fo L 1=6f 03 0 g
+Vi=GA Inr—2+H_G<|nr4+ln bﬂ
+_ Al
+A=5Td
+
+ 
+
+FIGURE 9. Tmage system for potential at P inside the disk due to the source (+7) and
+sink (—1) inside the disk.
+
+Nelson: Human Thorax Potentials 1029
+
+and —7, are replaced by a source of strength +1?I-—GG (D) and a sink of strength
+
+2G :
+=TT e (7). The potential at any external point is then
+
+2G r
+Vo= —— 24
+TR G g )
+and for a resistivity ratio of 0.5,
+2k 2 71
+Vo = g A ln ;2
+
+The effect of the lower heart resistivity is, therefore, uniformly to scale down
+
+r
+Vinf.= A In ——
+rz
+
+(26N iy
+Vo -(H_G)A In rz
+
+ 
+
+ 
+
+FIGURE 10. Image system for potential at P outside the disk due to the source (4+7) and
+sink (—1I) inside the disk.
+
+all external potentials. This agrees with the experimental results quoted
+previously. Schwan'® has presented evidence that the blood has one tenth
+the resistivity of the tissues surrounding the heart. Using a resistivity ratio
+of 0.1 in EQUATION 4,
+
+V, =0184 In 2
+72
+
+Further work is necessary in three dimensions to test the tentative conclu-
+sion that the effect of the highly conducting blood inside the heart is uniformly
+to scale down the surface electrocardiograms. If this proves to be correct it
+will be necessary to multiply the observed magnitude of the heart vector by a
+factor that depends on the ratio of the resistivity of the tissues surrounding
+the heart to the resistivity of the blood.*
+
+* Subsequent to the presentation of this article, experiments with dog hearts* have indi-
+
+cated that the reduction is uniform at remote points, but is variable in the vicinity of the
+heart.

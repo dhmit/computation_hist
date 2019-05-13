@@ -1,0 +1,59 @@
+/-‘-' THE UNIVERSITY OF WISCONSIN
+7 MADISON 6 T
+
+DEPARTMENT OF ECONOMICS
+
+STERLING HALL m 18’ 1959
+
+ 
+
+ 
+
+Professor Philip M, Morse, Director
+Computation Center
+
+Magsachusetts Institute of Technology
+Cambridge, Massachusetts
+
+Dear Phil:
+
+» During the past three years Martin Greemberger, John Korbel, Alice
+Rivlin, and I have been engaged in developing a new approach to the analysis
+and prediction of the behavior of soclo-sconomic systems, We have given many
+tens of talks on our worke Three theses at Harvard have consisted of major
+pieces of it, We have prepared many papers and several of these have either
+been published or are in the process of being published, The most extensive
+write-up of our work is Decision<Unit Models and Simmlation of the United
+States Foonomy. I have emclosed a copy of this dralte Excerpts
+
+appear section 1.3 of the January 1958 report on Research and Educational
+Activities of the Cooperating Colleges of New England,
+
+Our work, in which the M,I,T, Computation Center has played such a
+central role, has consisted up to this point of developing the gemeral
+Pramework of this new kind of a model of a social economys of extensive work
+on various pieces needed in such models; of development work on computer
+techniques needed in estimating pieces of such models and in simlating
+such models; and in writing and debugging a large-scale, specific program for
+similating a concrete demographic model of the United States household sector,
+
+We are now at a critical juncture in our worke We are under contract
+with Harpers to publish a book on our work and I have agreed to do a piece for
+Scientific American, We had originally hoped to have this book completed by
+Tast fall, but due to unforeseen programming difficulties, my move to Wiscensin,
+and Alice Rivlin's joining the full-time staff of Brookings Institution, we have
+been slowed up, We are extremely amxious to have our volume ready for the
+printer by the end of the summer, This book, of which I enclose a slightly
+out of date table of contents, is nearly completely written, The major remaining
+gap is a critical one and consists of the chapter or chapiers describing the
+results obtained by a simmlation study of owr demographic model, The specific
+model itself is largely the work of Alice Rivlin and is our first really selfe
+contained model of the United States Economye The specific computer program
+for similating this model was written and debugged by Martin Greenberger and the
+group of three or four that worked under him, As far as we can tell, the
+program is in good working order, What we need to complete this major phase
+of our work is enough production runs to align our model with aggregative time
+series datas to investigate some of its more important properties; and to use
+it for making at least one or two runs for a few years beyond 1959, We estimate
+that to do this on a satisfactory minimal basis will require approximately 100
+hours of 70h computing timee

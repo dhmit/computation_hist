@@ -1,0 +1,169 @@
+value (m) |
+L
+F
+
+undefined
+
+We shall say that two gbfs ar
+equivalent if they have the s
+values of the propositional var
+
+   
+ 
+
+Valtue Cor— «  5))
+Y2 e (T~ , §))
+
+value (eA)
+value (3 )
+
+undefined
+
+cluding the case of undefined Propositional
+
+variables,
+
+They arec weakly ¢
+
+have the sanme values for all values of the
+
+propositional vari
+%0 T and - F,
+
+The equivalence of g
+
+ables when these are r
+
+method of truth tables identical to that of
+
+pPropositional calculus.
+((p — q,r) — a,b) and (p
+
+ 
+
+=
+Q
+o
+i
+~
+~ ~
+5y -
+O': o'
+Pt
+o, ~s
+, BT e
+TTT T a
+TIF T a
+TTu T a
+TFT F b
+TR F b
+TFu T b
+TuT u u
+Tul® u u
+Tuu u u
+
+% =iz =2l 18
+
+ 
+
+The table for
+
+o~
+Q 0
+d o
+A
+~~
+~ ~ i
+- - o' N
+o ad ~
+-\ A S
+{ | |
+o ~ Q,
+NS N N\
+a a a
+a b a
+a u a
+b a b
+b b b
+b u b
+u a u
+u b u
+u u u
+
+¢ strongly
+
+ame value for all
+iables in them in-
+quivalent if they
+
+estricted
+
+bfs can be tested by a
+
+-w~(q~»-a,b)(r-w»a,b)) is
+
+ 
+
+ 
+
+  
+ 
+
+o SR R e T
+AN \'3-.-‘ ST P
+
+AN\ PP s
+
+Bt A Tty
+
+T TN i ety s wes
+
+T —— e e +
+
+: -~~~ IS,
+17 2% 50
+; d o S a :
+(s Els e f g
+@ o & r a e
+I I I I 1 I
+pa el ele fofal o
+=T a c a a b a f
+T F b d b a b b i
+T a Cc C C d C |
+T T b d d C d d
+
+which proves that (p-—>(q-—>a,b),(q->c,d)) and
+(q-ﬁ-(p-ﬂ'a,c),(p->b,d)) are weakly equivalent,
+They are also strongly equivalent, e shall
+write EEES and -EETW for the relations of
+
+Strong and weal equivalence.
+There are two rules whereby an equivalence
+can be used to generate other equivalences,
+1. Ifd_:-—:—_g anda&l = B, is the
+result of substituting any gbf for any variable
+ineA = B thona<l P 1+ This is called
+the rule or substitution,
+
+D If oA = B and o is sub-expression of
+% and & 1s the result of replacing an occurrence
+ofin - by an occurrence of B -, theny-= g
+This is calleq the rule of r'eplacement,
+
+These rules are applicable to either strong
+Or weak equivalence and in fact to nuch more
+general situations, _
+
+Weak equivalence corresponds more closely
+to equivalence of truth functions in PYopositional
+calculus than does strong equivalence,
+
+Consider the cquations
+
+1) (P e a)a) Wa ;
+
+_a
+
+11 11)
+
+2) (T ->a_h)

@@ -1,0 +1,36 @@
+= /\‘DP H
+/ /
+GOVERNMENT RELATIONS PANEL
+S. Gorn-Panel Chairman June 2, 1960
+
+Problems concerning government relations to university computer activities will
+vary with the variety of supporting agencies within the government, but will also
+depend on the varieties of universities and their computer activities.
+The variables to be considered in the government agencies are:
+1. are their funds earmarked for production, development, basic research,
+or education?
+2. Are they supporting the computer activity directly, or only indirectly
+as explicitly budgeted service for individual projects, or indirectly as
+overhead to individual projects?
+3. Is their support one-shop or continuing?, year by year or for a number
+of years? Do they recognize that an initial capital support entails a
+commitment to year-in-year-out operating expenses thenceforth? Is
+provision made for the hidden overhead of obsolescence and replacement ?
+It should be recognized that the very variety of supporting agencies or variety of
+policies among divisions of the same agency can cause loss of support because
+each can expect another to pick up the responsibility.
+This is probably one of the main reasons for this conference.
+The variables among universities are
+1. state supported vs. privately endowed
+2. generalized vs. specialized (e. g. to technology)
+3. new in computers vs. already deeply involved;
+In either case, how much need is there for analogue facilities and conversion facilities ?
+4. owning vs. renting vs. building
+5. small, medium, or large machines; contracted or local maintenance;
+are trained operators required?
+6. Computer activity centralized or decentralized? If decentralized, is it only
+within the university or involving a number of universities?
+7. If centralized, is it university-wide, under the mathematics department,
+the physics department, statistics, business school, engineering, or under
+
+the comptroller ?

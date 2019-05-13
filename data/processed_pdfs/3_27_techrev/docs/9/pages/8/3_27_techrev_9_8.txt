@@ -1,0 +1,206 @@
+machine translation. Members of the staff of the
+Computation Center are co-operating with a group
+in the Institute’s Department of Modern Languages
+to test some basic parts of this ambitious project.
+
+Fortran has its limitations and drawbacks. There
+are some problems for which it is inadequate, for
+which it is best to use “machine language” directly.
+But we will be able to make improvements as we
+learn more of the 704’s behavior patterns. Machine
+psychology is a popular field of research at the
+Center just now. Some of the staff of the Computa-
+tion Center and some of the Electrical Engineering
+Department staff are co-operating to improve
+sensory and memory ability of the 704. The oscillo-
+scope output, attached to the machine, will be con-
+nected, via a photocell, back to the machine memory
+again to see whether such an optical feed-back loop
+will make it possible for the machine to read a blue-
+print, or a page of type, for example.
+
+Some of the ways of learning how the computer
+behaves are by programming it to play games. The
+704 has been programmed to play ticktacktoe and
+also checkers against a human adversary; it is now
+being programmed to play chess, the Japanese game,
+go, and to run off several problems of business,
+athletic, or military competition which have struc-
+tures similar to games. Such game-playing programs
+are of two kinds. The simpler, and less interesting,
+are for those games which are simple enough so
+that the consequences of every move and counter-
+move can be foreseen. In these cases — the ticktack-
+toe is an example — all possible combinations are
+stored in the memory and the program instructs the
+machine which move to make in each possible situa-
+tion. In these cases the machine is infallible — it
+always makes the best possible move — simply be-
+cause the human programmer has included the
+complete situation, obtained by game theory or
+otherwise, in the program. The machine just has to
+work out the successive game theory solutions, as its
+adversary makes each successive move.
+
+The more interesting problems are found in those
+cases for which the game is too complex for com-
+plete analysis and when game theory is consequently
+inapplicable. Here a different approach must be
+used, the investigation of which may have conse-
+quences of interest in many fields. Each possible
+
+ 
+  
+
+      
+  
+ 
+  
+  
+
+CORE STORAGE
+B192 words
+
+   
+
+MAGNETIC DRUMS
+8192 words
+
+MAGNETIC TAPES
+107 words
+
+   
+
+   
+
+   
+ 
+
+   
+  
+ 
+ 
+   
+    
+ 
+
+10,000
+WORDS
+
+2,500
+WORDS
+
+PER PER
+SECOND SECOND
+
+   
+  
+  
+       
+ 
+
+    
+
+CONTROL ==
+
+20,000~
+OPERATIONS
+PER
+
+ARITHMETIC REGISTERS CARD READER
+
+|00)
+WORDS
+
+ 
+ 
+
+PER
+SECOND SECOND
+15 40
+WORDS WORDS
+PER PER
+SECOND SECOND
+
+CATHODE
+RAY TUBE
+
+PRINTER
+
+   
+
+CARD. PUNCH
+
+Schematic diagram of the functional parts of the 704 computer.
+
+6
+
+situation in the game, each configuration of pieces
+on the board in checkers or chess, for example, is
+initially evaluated with regard to its future advan-
+tage to the machine or player. This can be done
+fairly accurately for chess or checkers; experts at
+the game can rank-order the configurations in terms
+of chance of victory. The program then instructs the
+machine to move to the next possible configuration
+which has the greatest potential value.
+
+Moreover, the machine can be programmed to
+improve on the initial evaluation by working out
+several moves of the game “in its mind” before it
+actually makes its next move. The opponent’s possi-
+ble countermove to the various moves it might make,
+then its possible next moves and the opponent’s fol-
+lowing countermoves for several steps in advance,
+may all be “thought out” in advance by the machine.
+It can then be programmed to choose that move
+which shows the greatest chance of reaching an
+advantageous configuration one, two, or more steps
+in the future. The present 704 can be programmed to
+explore three steps in the future in chess; when more
+core memory is installed next summer it may be
+able to look four steps ahead. Chess experts claim
+to look five or more steps ahead, so the machine
+cannot yet beat the champions, but it can usually
+beat the tyro. |
+
+In addition, the machine can be programmed to
+improve its game —to modify its program in the
+light of experience. The amount of learning possible
+at present is quite limited, but various improvements
+have already been suggested. Teaching the machine
+to improve its performance, on the basis of its own
+experience, has great promise, both practical and
+theoretical.
+
+The process of looking ahead several steps in a
+process, of evaluating possible next steps in terms
+of expected future benefits, is called dynamic pro-
+gramming. It is a new branch of applied mathe-
+matics. Some of the basic mathematical theory has
+been worked out, but to speed up further develop-
+ments a number of examples must be worked out
+in detail. Most such problems are too complex to
+work out by hand; they must be computed by
+machine. The techniques of dynamic programming
+will have wide application in industrial and military
+planning, as well as in the playing of chess and
+checkers. At present, members of the M.I.T. Opera-
+tions Research Group are developing machine
+programs for various simple industrial situations in-
+volving the planning for purchase of raw material
+and subsequent manufacture, in the face of fluctuat-
+ing prices and demands, for example.
+
+Our visitor may conclude, at the end of his trip
+through the Computation Center, that in the near
+future an electronic computing machine will be
+considered to be as necessary to a university as a
+chemistry laboratory; ability to program for a com-
+puter will be as important a requirement for the
+B.S. candidate as ability to use a slide rule is now.
+Donation by I.B.M. of the facilities at the Computa-
+tion Center has put M.LT. and the co-operating
+institutions in New England in the forefront of edu-
+cation and research in the use of these new instru-
+mentalities.

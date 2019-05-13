@@ -1,0 +1,35 @@
+A\ )
+
+ 
+
+Erxperimentel anelysis and control using date transaitted directly
+hetween compuier and experiment,
+
+7. Computations of intewrest in pure mathematics:
+
+e.g., character tabie oF selected characters of the symmeiric group
+
+8. Investigation of MNonte Cario technigues for large problems. —
+
+9. =Extension and/or impromsment of present techniques for communication |
+between computers and humans and comtrol of computers by humans - |
+
+. )
+
+{including input and output media invoived). 3
+
+Y
+10, Computer estimation of problem time.t/
+
+N
+
+o0
+-t
+i
+-
+
+bde
+
+: 3 o) : o
+Techniques for achieving fully automatic compuier Operatioil
+logging.
