@@ -241,8 +241,10 @@
 
 {% block scripts %}
 <script type="module">
-    document.getElementById("search_submit_button").addEventListener("click",load);
     import { start } from "{{ static('js/search.js') }}"
     start();
+    $('#search_submit_button').click(() => {
+        $("#loader").show();
+    });
 </script>
 {% endblock %}

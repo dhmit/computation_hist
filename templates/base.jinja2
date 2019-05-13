@@ -21,35 +21,6 @@
     <title>{% block title %} Computational History {% endblock %} - MIT Computation Center Archives</title>
 
     {%  block extraheader %}{% endblock %}
-<style>
-/* Center the loader */
-#loader {
-  position: absolute;
-  left: 50%;
-  top: 300px;
-  z-index: 9999;
-  width: 150px;
-  height: 150px;
-  margin: -75px 0 0 -75px;
-  border: 16px solid #f3f3f3;
-  border-radius: 50%;
-  border-top: 16px solid #3498db;
-  width: 120px;
-  height: 120px;
-  -webkit-animation: spin 2s linear infinite;
-  animation: spin 2s linear infinite;
-}
-
-@-webkit-keyframes spin {
-  0% { -webkit-transform: rotate(0deg); }
-  100% { -webkit-transform: rotate(360deg); }
-}
-
-@keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
-}
-</style>
 
 </head>
 <body>
@@ -113,7 +84,8 @@
             </form>
         </div>
     </nav>
-    <div id="loader" style="display:none"></div>
+
+    <div id="loader" style="display: none"></div>
 
 <main role="main" class="container mb-4">
     <div class="text-center">
@@ -168,10 +140,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
     <script>
-        const load = function(){
-            document.getElementById("loader").style.display = "block";
-        }
-        document.getElementById("basic_search_submit_button").addEventListener("click",load);
+        $('#basic_search_submit_button').click(() => {
+            $("#loader").show();
+        });
     </script>
     {%  block scripts %}{% endblock %}
 </body>
