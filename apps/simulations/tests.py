@@ -13,6 +13,8 @@ class SimulationsTestCase(SeleniumTestCase):
         self.driver.get(self.live_server_url + '/simulations/assembly_addition/')
         self.driver.implicitly_wait(5)
         self.driver.find_element_by_class_name('introjs-skipbutton').click()
+        self.driver.implicitly_wait(5)
+        self.scroll_to(self.driver.find_element_by_id('step_button'))
         self.driver.find_element_by_id('step_button').click()  # test the step button
         self.driver.find_element_by_id('reset_button').click()  # test the reset button
         self.driver.find_element_by_id('run_button').click()  # test the run button
@@ -23,6 +25,8 @@ class SimulationsTestCase(SeleniumTestCase):
         self.driver.get(self.live_server_url + '/simulations/floating_point_operations/')
         self.driver.implicitly_wait(5)
         self.driver.find_element_by_class_name('introjs-skipbutton').click()
+        self.driver.implicitly_wait(5)
+        self.scroll_to(self.driver.find_element_by_id('step_button'))
         self.driver.find_element_by_id('step_button').click()  # test the step button
         self.driver.find_element_by_id('reset_button').click()  # test the reset button
         self.driver.find_element_by_id('run_button').click()  # test the run button
@@ -33,6 +37,8 @@ class SimulationsTestCase(SeleniumTestCase):
         self.driver.get(self.live_server_url + '/simulations/looping_with_tix/')
         self.driver.implicitly_wait(5)
         self.driver.find_element_by_class_name('introjs-skipbutton').click()
+        self.driver.implicitly_wait(5)
+        self.scroll_to(self.driver.find_element_by_id('step_button'))
         self.driver.find_element_by_id('step_button').click()  # test the step button
         self.driver.find_element_by_id('reset_button').click()  # test the reset button
         self.driver.find_element_by_id('run_button').click()  # test the run button
@@ -43,12 +49,16 @@ class SimulationsTestCase(SeleniumTestCase):
         self.driver.get(self.live_server_url + '/simulations/general_assembler')
         self.driver.implicitly_wait(7)
         self.driver.find_element_by_class_name('introjs-skipbutton').click()
+        self.driver.implicitly_wait(5)
+        self.scroll_to(self.driver.find_element_by_id('add_line'))
         self.driver.find_element_by_id('add_line').click()  # test adding line
         self.driver.find_element_by_id('remove_line').click()  # test removing line
         # fill in code boxes
+        self.scroll_to(self.driver.find_element_by_class_name('code_label'))
         self.driver.find_element_by_class_name('code_label').send_keys("LABEL")
         self.driver.find_element_by_class_name('code_operation').send_keys("ADD")
         self.driver.find_element_by_class_name('code_numbers').send_keys("LABEL+1, 3")
+        self.scroll_to(self.driver.find_element_by_id('assemble_button'))
         self.driver.find_element_by_id('assemble_button').click()  # assemble code
         self.driver.find_element_by_id('step_button').click()  # test the step button
         self.driver.find_element_by_id('run_button').click()  # test the run button
