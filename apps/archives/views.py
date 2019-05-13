@@ -1,6 +1,7 @@
 import random
 
 from django.core.exceptions import ObjectDoesNotExist
+from django.db.models import Count, Prefetch
 from django.http import Http404
 from django.shortcuts import get_object_or_404, render
 
@@ -177,22 +178,28 @@ def list_obj(request, model_str):
     obj_list = []
 
     if model_str == 'people':
-        for person in Person.objects.all():
+        for person in Person.objects.annotate(Count('author_person', distinct=True),
+                                              Count('recipient_person', distinct=True),
+                                              Count('cced_person', distinct=True):
             name = f'{person.last},{person.first}'
             obj_list.append({
                 'name': f'<a href="{person.url}">{name}</a>',
-                'docs_authored': person.author_person.count(),
-                'docs_received': person.recipient_person.count() + person.cced_person.count()
+                'docs_authored': person.author_person__count,
+                'docs_received': person.recipient_person__count + person.cced_person__count
             })
+
     elif model_str == 'organizations':
-        for org in Organization.objects.all():
+        for org in Organization.objects.annotate(Count('author_organization', distinct=True),
+                                              Count('recipient_organization', distinct=True),
+                                              Count('cced_organization', distinct=True):
             obj_list.append({
                 'name': f'<a href="{org.url}">{str(org)}</a>',
-                'docs_authored': org.author_organization.count(),
-                'docs_received': org.recipient_organization.count() + org.cced_organization.count()
+                'docs_authored': org.author_organization__count,
+                'docs_received': org.recipient_organization__count + org.cced_organization__count
             })
+
     elif model_str == 'folders':
-        for folder in Folder.objects.all():
+        for folder in Folder.objects.prefetch_related('box'):
             obj_list.append({
                 'folder_name': f'<a href="{folder.url}">{str(folder)}</a>',
                 'folder_number': '<a href="{}">Box: {}. Folder: {:02d}</a>'.format(folder.url,
