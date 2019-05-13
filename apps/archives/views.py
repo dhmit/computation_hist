@@ -18,7 +18,7 @@ STORIES = [
     'debugging',
     'beginnings_of_cs_at_mit',
     'qualifications_for_programmer',
-    'time_records',
+    'cost_of_using_a_supercomputer',
     'digital_humanities',
     'women_in_symbols',
     'whirlwind',
