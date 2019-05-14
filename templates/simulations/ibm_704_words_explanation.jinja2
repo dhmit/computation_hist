@@ -1,0 +1,92 @@
+{% extends "base.jinja2" %}
+
+{% block title %}IBM 704 Words{% endblock %}
+
+{% block header %}About Words in the IBM 704{% endblock %}
+
+{% block content %}
+
+    <p>The IBM 704's general memory was composed of 36-bit words.  Words could be either instructions or
+    numbers, but there was nothing in the word that indicated which it would be.  It was the role of
+    the programmer to separate the memory for the program's instructions and the data it was
+    manipulating.  </p>
+
+    <h2 id="instructions">Instructions</h2>
+
+    <p>There are two kinds of instructions: Type A and Type B.  Each instruction consists of the
+    operation, the address, the tag, and in the case of Type A instructions, a decrement, with each
+    of these occupying a different set of bits.  </p>
+
+    <p>The address describes which register in the general memory that the operation will target.  </p>
+
+    <p>The operation describes the specific action that the computer will take; for example, <code>CLA 100</code>
+    will take the contents of register 100 and replace the accumulator with that value.  Of course,
+    in the machine, the operation wouldn't be represented by <code>CLA</code>, it would be <code>000101000000</code> in
+    memory, or <code>+0500</code> in octal as it is often written in the manuals.  </p>
+
+    <p>The tag is three bits corresponding to the A, B, and C index registers of the IBM 704.  For
+    example <code>100</code> would refer to the A register, <code>010</code> to the B register, and <code>110</code> to both the A
+    and B register.  It is also possible to leave the tag as <code>000</code>, which is like an imaginary
+    register which always has a value of 0.  The effect of the tag is to decrement the target address by
+    whatever is stored in that index register.  For example if index register B (IRB) contains 10,
+    <code>CLA 100, 2</code> would cause <code>CLA</code> to act on register 90 instead of register 100.  (Remember that 2
+    in decimal is 010 in binary).</p>
+
+    <h3 id="typeainstructions">Type A Instructions</h3>
+
+    <p>There are only five Type A instructions.  For these, the first three bits represent the
+    operation.  Type A instructions are distinguished by the computer by the fact that bits 1 and 2
+    are not both 0 (note that bit 1 is the second bit, as bit 0 is the first bit).  Bits 3 - 17
+    contain the numerical value of the decrement, bits 18 - 20 contain the tag, and the remaining
+    bits 21-35 contain the address.  </p>
+
+    <p><img class="img-fluid" src="{{ static('img/simulations/Type_A_Instruction_Structure.png') }}" alt="" /></p>
+
+    <p>If the value of the index register specified by the tag is greater than the decrement, then the
+    index register is reduced by the decrement.  Otherwise, the computer will go back to the address specified.
+    This allows for looping.  </p>
+
+    <h3 id="typebinstructions">Type B Instructions</h3>
+
+    <p>Most instructions are Type B instructions.  All Type B instructions have bits 1 and 2 equal to 0.  The first
+        12 bits represent the  operation, while the tag and address occupy the same location as in Type A
+        instructions (18-20 and 21-35 respectively).  Bits 12-17 aren't used. </p>
+
+    <p><img class="img-fluid" src="{{ static('img/simulations/Type_B_Instruction_Structure.png') }}" alt="Diagram illustrating use of
+    bits in IBM 704 Type B instruction" /></p>
+
+    <p>Note that the operation has a sign bit.  In the manual, it is conventional to refer to
+    operations octal values as signed.  Thus, <code>100101000000</code> would not be <code>4500</code> in octal but <code>-0500</code>.  </p>
+
+    <h2 id="numbers">Numbers</h2>
+
+    <h3 id="fixedpoint">Fixed Point</h3>
+
+    <p>The first bit of the word in a fixed point number is the sign.  If the sign bit is <code>1</code>, then the
+    number is negative, and if it is <code>0</code>, the number is positive.  The remaining bits constitute the
+    magnitude of the number.  The computer has no encoding for the binary point (basically decimal
+    point for binary numbers).  However, in theory one can imagine it to be wherever
+    one wants, creating a convention that the binary point will always be between the n and n+1-th
+    bit for a program.  </p>
+
+    <p><img class="img-fluid" src="{{ static('img/simulations/Fixed_Point_Structure.png') }}" alt="Diagram illustrating use of bits in
+    IBM 704 fixed point number" /></p>
+
+    <h3 id="floatingpoint">Floating Point</h3>
+
+    <p>Similarly to a fixed point number, the first bit of the word in a floating point number is the sign.
+      If the sign bit is <code>1</code>, then the
+    number is negative, and if it is <code>0</code>, the number is positive.  </p>
+
+    <p>A floating point number is represented as <code>B×2ᵇ</code></p>
+
+    <p>Bits 9 - 35 represent the
+    magnitude of <code>B</code>, with the binary point to the left of bit 9, and are called the
+    fraction.  Bits 1-8 are called the characteristic, and have the value of <code>b+128</code>.  This allows
+    <code>b</code> to be negative, allowing for values less than one-half.  </p>
+
+    <p><img class="img-fluid" src="{{ static('img/simulations/Floating_Point_Structure.png') }}" alt="Diagram illustrating use of bits in
+    IBM 704 floating point number" /></p>
+
+    <p>For more information, check out <a href="http://bitsavers.org/pdf/ibm/704/24-6661-2_704_Manual_1955.pdf">the IBM 704 manual</a>.  </p>
+{% endblock %}
