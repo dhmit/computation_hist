@@ -48,7 +48,7 @@
     <div class="row">
         <div class="col">
             Citation:
-            <button onclick="hide_citation()" id="citation_button">[show]</button>
+            <button id="citation_button">[show]</button>
             <p id="citation" style="display:none">
                 "Records of the Massachusetts Institute of Technology Computation Center
                 AC.0062, Department of Distinctive Collections."
@@ -86,9 +86,9 @@
 
 {% block scripts %}
     <script>
-        function hide_citation() {
-            let citation = document.getElementById('citation');
-            let button = document.getElementById('citation_button');
+        function toggle_citation() {
+            const citation = document.getElementById('citation');
+            const button = document.getElementById('citation_button');
             if (citation.style.display === 'none') {
                 citation.style.display = 'block';
                 button.innerText = '[hide]';
@@ -97,5 +97,6 @@
                 button.innerText = '[show]';
             }
         }
+        $('#citation_button').click(toggle_citation);
     </script>
 {% endblock %}
