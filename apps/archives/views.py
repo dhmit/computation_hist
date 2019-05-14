@@ -180,7 +180,7 @@ def list_obj(request, model_str):
     if model_str == 'people':
         for person in Person.objects.annotate(Count('author_person', distinct=True),
                                               Count('recipient_person', distinct=True),
-                                              Count('cced_person', distinct=True):
+                                              Count('cced_person', distinct=True)):
             name = f'{person.last},{person.first}'
             obj_list.append({
                 'name': f'<a href="{person.url}">{name}</a>',
@@ -191,7 +191,7 @@ def list_obj(request, model_str):
     elif model_str == 'organizations':
         for org in Organization.objects.annotate(Count('author_organization', distinct=True),
                                               Count('recipient_organization', distinct=True),
-                                              Count('cced_organization', distinct=True):
+                                              Count('cced_organization', distinct=True)):
             obj_list.append({
                 'name': f'<a href="{org.url}">{str(org)}</a>',
                 'docs_authored': org.author_organization__count,
