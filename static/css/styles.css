@@ -59,7 +59,7 @@ body {
 
 
 /*
- * Index page 
+ * Index page
  */
 
 /* index page special effect typing header */
@@ -164,12 +164,12 @@ div.info_bar {
     }
 }
 
-.doc_metadata {
-    white-space: nowrap;
+.figure {
+    margin: 10px;
 }
 
-.sim_buttons {
-    text-align:center;
+.doc_metadata {
+    white-space: nowrap;
 }
 
 .team-member.team-member-lg img {

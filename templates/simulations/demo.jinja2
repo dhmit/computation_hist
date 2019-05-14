@@ -1,7 +1,9 @@
 {% extends "simulations/base.jinja2" %}
 
 {% block buttons %}
-    <button id="step_button">Step</button>
-    <button id="run_button">Run</button>
-    <button id="reset_button">Reset</button>
+    <button id="step_button" data-step="10" data-intro="Press this button to execute the next instruction
+    .">Step</button>
+    <button id="run_button" data-step="11" data-intro="Press this button to run the program.">Run</button>
+    <button id="reset_button" data-step="12" data-intro="Press this button to reset the computer to its initial state
+    .">Reset</button>
 {% endblock %}

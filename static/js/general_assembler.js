@@ -91,4 +91,17 @@ export function start() {
     renderer.update();
     $('[data-toggle="tooltip"]').tooltip();
     $("#loading").hide();
+
+    const title = document.getElementById("main_header");
+    title.setAttribute("data-intro", "Welcome to the IBM 704 simulator!");
+    title.setAttribute("data-step", "1");
+    title.setAttribute("data-position", "bottom");
+    if (localStorage.getItem("general_assembler_run_before") === null) {
+        if (localStorage.getItem("demo_run_before") === null) {
+            introJs().start(); // jshint ignore:line
+        } else {
+            introJs().goToStepNumber(10).start(); // jshint ignore:line
+        }
+        localStorage.setItem("general_assembler_run_before", "true");
+    }
 }
