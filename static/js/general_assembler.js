@@ -100,7 +100,7 @@ export function start() {
         if (localStorage.getItem("demo_run_before") === null) {
             introJs().start(); // jshint ignore:line
         } else {
-            introJs().goToStepNumber(11).start(); // jshint ignore:line
+            introJs().goToStepNumber(10).start(); // jshint ignore:line
         }
         localStorage.setItem("general_assembler_run_before", "true");
     }
