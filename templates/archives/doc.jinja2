@@ -1,5 +1,8 @@
 
 {% extends "base.jinja2" %}
+{% block extraheader %}
+    <link rel="stylesheet" href="{{ static('css/doc.css') }}" type="text/css">
+{% endblock %}
 
 {% block title %}{{ doc_obj.title }}{% endblock %}
 
