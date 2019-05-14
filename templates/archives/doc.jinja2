@@ -1,5 +1,8 @@
 
 {% extends "base.jinja2" %}
+{% block extraheader %}
+    <link rel="stylesheet" href="{{ static('css/doc.css') }}" type="text/css">
+{% endblock %}
 
 {% block title %}{{ doc_obj.title }}{% endblock %}
 
@@ -42,6 +45,16 @@
 
     </div>
 </div>
+    <div class="row">
+        <div class="col">
+            Citation:
+            <button id="citation_button">[show]</button>
+            <p id="citation" style="display:none">
+                "Records of the Massachusetts Institute of Technology Computation Center
+                AC.0062, Department of Distinctive Collections."
+            </p>
+        </div>
+    </div>
 
 <div class="row d-none d-md-inline">
     <div class="col text-center">
@@ -69,4 +82,21 @@
 
     </div>
 
+{% endblock %}
+
+{% block scripts %}
+    <script>
+        function toggle_citation() {
+            const citation = document.getElementById('citation');
+            const button = document.getElementById('citation_button');
+            if (citation.style.display === 'none') {
+                citation.style.display = 'block';
+                button.innerText = '[hide]';
+            } else {
+                citation.style.display = 'none';
+                button.innerText = '[show]';
+            }
+        }
+        $('#citation_button').click(toggle_citation);
+    </script>
 {% endblock %}

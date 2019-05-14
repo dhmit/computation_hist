@@ -1,0 +1,12 @@
+#citation_button {
+    background-color: Transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    color: #007bff;
+}
+
+#citation_button:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
