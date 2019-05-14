@@ -100,11 +100,10 @@ def populate_from_metadata(metadata_filename=None):
                 print("\t" + first_name)
             print("")
 
-    create_new_people_orgs_folders_list_pickles()
+    pickle_for_list_views()
 
 
-
-def create_new_people_orgs_folders_list_pickles():
+def pickle_for_list_views():
     """
     We need a list of people with number of documents authored and received.
     However, doing that for each query with the orm is obscenely slow.
@@ -144,7 +143,6 @@ def create_new_people_orgs_folders_list_pickles():
                                                                                folder.number)
         })
     store_pickle(folder_list, 'folders_list')
-
 
 
 def add_one_document(csv_line, aliases_to_full_name_dict, line_no=None, names={}):
