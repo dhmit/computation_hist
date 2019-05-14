@@ -1,3 +1,5 @@
+import pickle
+import gzip
 from pathlib import Path, PurePosixPath
 
 from config.settings import DATA_DIR
@@ -81,4 +83,40 @@ def get_file_path(box: int, folder: int, foldername_short: str, file_type: str,
     else:
         raise NotImplementedError('Only path_type relative and absolute are implemented.')
 
+
+def store_pickle(obj, filename):
+    """
+    Store a compressed "pickle" of the object in the "pickle_data" directory
+    and return the full path to it.
+    The filename should not contain a directory or suffix.
+    Example in lieu of Doctest to avoid writing out a file.
+        my_object = {'a': 4, 'b': 5, 'c': [1, 2, 3]}
+        gender_novels.common.store_pickle(my_object, 'example_pickle')
+    :param obj: Any Python object to be pickled
+    :param filename: str | Path
+    :return: Path
+    """
+
+    filepath = Path(DATA_DIR, 'pickle_data', str(filename) + '.pgz')
+    with gzip.GzipFile(filepath, 'w') as fileout:
+        pickle.dump(obj, fileout)
+    return filename
+
+
+def load_pickle(filename):
+    """
+    Load the pickle stored at filename where filename does not contain a
+    directory or suffix.
+    Example in lieu of Doctest to avoid writing out a file.
+        my_object = gender_novels.common.load_pickle('example_pickle')
+        my_object
+        {'a': 4, 'b': 5, 'c': [1, 2, 3]}
+    :param filename: str | Path
+    :return: object
+    """
+
+    filepath = Path(DATA_DIR, 'pickle_data', str(filename) + '.pgz')
+    with gzip.GzipFile(filepath, 'r') as filein:
+        obj = pickle.load(filein)
+    return obj
 
