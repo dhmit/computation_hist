@@ -44,8 +44,12 @@
 </div>
     <div class="row">
         <div class="col">
-            Citation: "Records of the Massachusetts Institute of Technology Computation Center
-            AC.0062, Department of Distinctive Collections."
+            Citation:
+            <button onclick="hide_citation()" id="citation_button">[show]</button>
+            <p id="citation" style="display:none">
+                "Records of the Massachusetts Institute of Technology Computation Center
+                AC.0062, Department of Distinctive Collections."
+            </p>
         </div>
     </div>
 
@@ -75,4 +79,20 @@
 
     </div>
 
+{% endblock %}
+
+{% block scripts %}
+    <script>
+        function hide_citation() {
+            let citation = document.getElementById('citation');
+            let button = document.getElementById('citation_button');
+            if (citation.style.display === 'none') {
+                citation.style.display = 'block';
+                button.innerText = '[hide]'
+            } else {
+                citation.style.display = 'none';
+                button.innerText = '[show]'
+            }
+        }
+    </script>
 {% endblock %}
