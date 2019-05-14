@@ -228,7 +228,7 @@ export class GeneralAssemblerRenderer extends Renderer {
                   <div class="col-sm-1 px-2 line_no_text">
                          <p>${this.num_lines + 1}.</p>
                   </div>
-                  <div class="col-sm-4 px-2" id="code_label_${this.num_lines}">
+                  <div class="col-sm-3 px-2" id="code_label_${this.num_lines}">
                          <textarea class="form-control code_box code_label" rows="1"></textarea>
                   </div>
                   <div class="col-sm-3 px-2" id="code_operation_${this.num_lines}">

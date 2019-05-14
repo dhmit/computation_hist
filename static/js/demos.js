@@ -65,9 +65,9 @@ export const looping_with_tix_demo_params = {
     initial_memory_values: [[7, 1]],
     instructions: [
         new Assembly_Line(
-            ['LXA', 'EXPONENT, 1'],
+            ['LXA', 'EXP, 1'],
             "This example is relatively complicated, so you might want to read the long description at the bottom" +
-            " first.<br /> <code>LXA EXPONENT, 1</code>: Load the word at address EXPONENT (which corresponds to" +
+            " first.<br /> <code>LXA EXP, 1</code>: Load the word at address EXP (which corresponds to" +
             " PZE 5) and store its address into the index register corresponding to 1, which is index register A."
         ),
         new Assembly_Line(
@@ -90,7 +90,7 @@ export const looping_with_tix_demo_params = {
             " register and jump to the general memory 1, otherwise we continue.  What's the value of index" +
             " register A after you press Step?"
         ),
-        new Assembly_Line(["EXPONENT", "PZE", "5"]),
+        new Assembly_Line(["EXP", "PZE", "5"]),
     ],
 };
 
@@ -227,16 +227,16 @@ function populate_code(instructions) {
     for (let i = 0; i < instructions.length; i++) {
         const line = $(`
             <div class="row code_line" id="code_line_${i}">
-                  <p class="line_no_text">
-                          ${i + 1}.
-                  </p>
-                  <div class="col-sm px-2 code_label symbolic_code" id="code_label_${i}">
+                  <div class="col-sm-2 line_no_text">
+                         <p>${i + 1}.</p>
+                  </div>
+                  <div class="col-sm-3 px-2 code_label symbolic_code" id="code_label_${i}">
                          ${instructions[i].label}
                   </div>
-                  <div class="col-sm px-2 code_operation symbolic_code" id="code_operation_${i}">
+                  <div class="col-sm-3 px-2 code_operation symbolic_code" id="code_operation_${i}">
                          ${instructions[i].operation}
                   </div>
-                  <div class="col-sm px-2 code_numbers symbolic_code" id="code_numbers_${i}">
+                  <div class="col-sm-4 px-2 code_numbers symbolic_code" id="code_numbers_${i}">
                          ${instructions[i].numbers}
                   </div>
            </div>
