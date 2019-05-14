@@ -5,9 +5,10 @@ import csv
 from django.db import IntegrityError
 from django.core.exceptions import ValidationError
 from django.utils.text import slugify
+from django.db.models import Count, Prefetch
 
 # project
-from config.settings import METADATA_CSV, DATABASES
+from config.settings import METADATA_CSV, DATABASES, DATA_DIR
 from apps.archives.models import (
     Organization,
     Person,
@@ -15,7 +16,7 @@ from apps.archives.models import (
     Folder,
     Document
 )
-from .common import get_file_path
+from .common import get_file_path, store_pickle
 
 from .name_parser import PeopleDatabase
 
@@ -98,6 +99,52 @@ def populate_from_metadata(metadata_filename=None):
             for first_name in first_names:
                 print("\t" + first_name)
             print("")
+
+    create_new_people_orgs_folders_list_pickles()
+
+
+
+def create_new_people_orgs_folders_list_pickles():
+    """
+    We need a list of people with number of documents authored and received.
+    However, doing that for each query with the orm is obscenely slow.
+    The data doesn't change after the update -> just create it on import and
+    load it when requested.
+
+    :return:
+    """
+
+    person_list = []
+    for person in Person.objects.annotate(Count('author_person', distinct=True),
+                                          Count('recipient_person', distinct=True),
+                                          Count('cced_person', distinct=True)):
+        name = f'{person.last},{person.first}'
+        person_list.append({
+            'name': f'<a href="{person.url}">{name}</a>',
+            'docs_authored': person.author_person__count,
+            'docs_received': person.recipient_person__count + person.cced_person__count
+        })
+    store_pickle(person_list, 'people_list')
+
+    org_list = []
+    for org in Organization.objects.all():
+        org_list.append({
+            'name': f'<a href="{org.url}">{str(org)}</a>',
+            'docs_authored': org.author_organization.count(),
+            'docs_received': org.recipient_organization.count() + org.cced_organization.count()
+        })
+    store_pickle(org_list, 'organizations_list')
+
+    folder_list = []
+    for folder in Folder.objects.all():
+        folder_list.append({
+            'folder_name': f'<a href="{folder.url}">{str(folder)}</a>',
+            'folder_number': '<a href="{}">Box: {}. Folder: {:02d}</a>'.format(folder.url,
+                                                                               folder.box.number,
+                                                                               folder.number)
+        })
+    store_pickle(folder_list, 'folders_list')
+
 
 
 def add_one_document(csv_line, aliases_to_full_name_dict, line_no=None, names={}):
