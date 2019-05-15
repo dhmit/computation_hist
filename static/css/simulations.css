@@ -60,6 +60,11 @@ body {
     font-family: Acre-Regular, monospace;
 }
 
+#general_memory_div p {
+    margin-bottom: .25em;
+
+}
+
 #other_registers {
     font-family: Acre-Regular, monospace;
 }
