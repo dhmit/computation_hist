@@ -90,9 +90,12 @@
 
     <!-- main content -->
     <main role="main" class="container my-sm-1 px-sm-0 flex-fill">
+        {% if not no_header %}
+        {# pass the template a context item called 'no_header' to disable the header #}
         <div class="row header text-center mb-2 p-2"><div class="col">
             <h1 class="my-0" id="main_header">{% block header %}{% endblock %}</h1>
         </div></div>
+        {% endif %}
         {% block content %}
         {% endblock %}
     </main>
