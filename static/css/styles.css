@@ -27,6 +27,16 @@ h1,h2,h3,h4,h5,h6,.navbar-brand {
   border-radius: 0 !important;
 }
 
+@media (max-width: 320px) {
+    /*
+     * Shrink header text for folks who still love small phones
+     * (long live the iPhone SE)
+     */
+    .navbar-brand {
+        font-size: 1em;
+    }
+
+}
 
 /*
  * Base styles
@@ -34,18 +44,21 @@ h1,h2,h3,h4,h5,h6,.navbar-brand {
 
 html {
     position: relative;
-    min-height: 100%;
+}
+
+wrapper {
+    min-height: 100vh;
 }
 
 body {
+    min-height: 100vh; 
     background-color: #d8d8d8;
     font-family: 'Book Antiqua';
-    margin-bottom: 120px; /* Margin bottom = footer height */
     padding-top: 5rem;
 }
 
 .footer {
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
 }
@@ -55,6 +68,20 @@ body {
      max-height: 10vh;
      max-width: 20vw;
      object-fit: contain;
+}
+
+.btn {
+    border: 0 0 0 0;
+}
+
+.btn-secondary {
+    color: #fff;
+    background-color: #007bff;
+}
+
+.btn-secondary:hover {
+    color: #fff;
+    background-color: #0056b3;
 }
 
 
@@ -172,49 +199,14 @@ div.info_bar {
     white-space: nowrap;
 }
 
-.team-member.team-member-lg img {
-  width: 250px;
-  height: 250px;
-  border: 7px solid #fff;
-}
-.team-member.former img {
-    width: 80px;
-    height: 80px;
-    border-width: 3px;
-}
+/*
+ * About Us page
+ */
 
-@media (min-width: 768px) {
-  .team-member {
-    margin-bottom: 50px;
-  }
-  .team-member h4 {
-    margin-top: 25px;
-  }
-  .team-member.former {
-    font-size: 90%;
-  }
-  .team-member.former h4 {
-    font-size: 90%;
-  }
-  .team-member:not(.team-member-lg) img {
-    width: 150px;
-    height: 150px;
+.team-member img {
+    max-width: 150px;
+    max-height: 150px;
     border: 5px solid #fff;
-  }
-  .team-member.former img {
-    width: 100px;
-    height: 100px;
-    border-width: 4px;
-  }
-}
-.btn-secondary {
-    color: #fff;
-    background-color: #007bff;
-}
-
-.btn-secondary:hover {
-    color: #fff;
-    background-color: #0056b3;
 }
 
 .teaser-img img{
