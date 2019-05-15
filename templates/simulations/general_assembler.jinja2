@@ -5,11 +5,15 @@
 {% block header %}IBM 704 Assembler{% endblock %}
 
 {% block buttons %}
-    <button id="step_button">Step</button>
-    <button id="run_button">Run</button>
-    <button id="clear_button">Clear</button>
-    <button id="assemble_button">Assemble</button>
-    <button id="highlight_button">Turn highlighting on or off</button>
+    <button id="step_button" data-step="10" data-intro="Press this button to execute the next instruction
+    .">Step</button>
+    <button id="run_button" data-step="11" data-intro="Press this button to run the program.">Run</button>
+    <button id="clear_button" data-step="12" data-intro="Press this button to clear the computer's
+    memory.">Clear</button>
+    <button id="assemble_button" data-step="13" data-intro="Press this button to put the program
+    inputted on the left into the computer's memory.  You need to do this before running.">Assemble</button>
+    <button id="highlight_button" data-step="14" data-intro="Press this button to turn the highlighting on or off
+    .">Toggle Highlighting</button>
 {% endblock %}
 
 {% block description %}
@@ -21,6 +25,14 @@
     But aside from that, it's just like the real thing!</p>
     <br />
     <h3 align = "center">Currently Implemented Operations</h3><br />
-    <p id="available_operations"></p>
-    <a href="http://bitsavers.org/pdf/ibm/704/24-6661-2_704_Manual_1955.pdf" target="_blank">Operations Manual</a>
+    <p id="available_operations"></p><br />
+    <h6>Resources</h6>
+    <ul>
+        <li><a href="http://bitsavers.org/pdf/ibm/704/24-6661-2_704_Manual_1955.pdf" target="_blank">IBM 704
+            Manual of Operation</a></li>
+        <li><a href="http://bitsavers.org/pdf/mit/computer_center/Coding_for_the_MIT-IBM_704_Computer_Oct57.pdf"
+               target="_blank">Coding for the MIT IBM 704 Computer (by the MIT Computation Center)</a></li>
+        <li><a href="http://dome.mit.edu/bitstream/handle/1721.3/48791/DTMB_1960_1368.pdf?sequence=1"
+               target="_blank">Training Manual on Programming for the IBM 704</a></li>
+    </ul>
 {% endblock %}
