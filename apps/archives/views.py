@@ -204,26 +204,28 @@ def search(request):
                         "floor plan", "program", "pamphlet", "payroll sheet", "time record",
                         "summary", "table", "telegram"])
 
+    context = {'no_header': True, 'doc_types': doc_types}
+
     # if no search_params, that means we're just loading the search page
     search_params = request.GET
     if not search_params:
-        return render(request, 'archives/search.jinja2', {'doc_types': doc_types})
+        return render(request, 'archives/search.jinja2', context) 
 
     search_result = process_search(search_params)
     if search_result:
         docs_result, people_result, search_facets = search_result
     else: # search was run with no params
-        return render(request, 'archives/search.jinja2', {'doc_types': doc_types})
+        return render(request, 'archives/search.jinja2', context)
 
     search_objs = {
         'docs': docs_result,
         'people': people_result,
         'search_facets': search_facets,
         'search_params': search_params,
-        'doc_types': doc_types,
-        'no_header': True
     }
-    return render(request, 'archives/search.jinja2', search_objs)
+    context = {**context, **search_objs}
+
+    return render(request, 'archives/search.jinja2', context)
 
 
 def story(request, slug):
