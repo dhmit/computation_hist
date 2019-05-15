@@ -220,7 +220,8 @@ def search(request):
         'people': people_result,
         'search_facets': search_facets,
         'search_params': search_params,
-        'doc_types': doc_types
+        'doc_types': doc_types,
+        'no_header': True
     }
     return render(request, 'archives/search.jinja2', search_objs)
 
