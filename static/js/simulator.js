@@ -7,9 +7,11 @@
 const no_to_operation_b = {
     0o761: "NOP",
     0o601: "STO",
+    0o602: "SLW",
     0o000: "HTR",
     0o420: "HPR",
     0o500: "CLA",
+    0o4500: "CAL",
     0o400: "ADD",
     0o402: "SUB",
     0o4400: "SBM",
@@ -33,6 +35,7 @@ const no_to_operation_b = {
     0o240: "FDH",
     0o241: "FDP",
     0o020: "TRA",
+    0o340: "CAS",
     0o100: "TZE",
     0o4100: "TNZ",
     0o120: "TPL",
@@ -40,6 +43,7 @@ const no_to_operation_b = {
     0o140: "TOV",
     0o4140: "TNO",
     0o162: "TQP",
+    0o040: "TLQ",
     0o074: "TSX",
 };
 
@@ -1247,17 +1251,22 @@ export class IBM_704 {
             }
             const line = code_lines[line_no];
             const operation = line[1].trim();
+            // check valid register
+            if (register % 1 !== 0 || isNaN(register)) {
+                $("#dialog_text").html(`Tried to program to invalid register! Check line ${parseInt(line_no)+1}.`);
+                $("#error_message").modal('show');
+                throw NAN_EXCEPTION;
+            }
             // jump to ORG location
             if (operation === "ORG") {
-                if (register % 1 !== 0 || isNaN(register)) {
-                    $("#dialog_text").html(`Cannot parse ORG instruction on line ${parseInt(line_no)}.`);
-                    $("#error_message").modal('show');
-                    throw NAN_EXCEPTION;
-                }
                 register = Number(line[2]);
                 continue;
             }
-            // else check address for label
+            // allocate space for BES (label points to right after allocated space)
+            if (operation === "BES") {
+                register += Number(line[2]);
+            }
+            // check address for label
             const label_field = line[0].replace(/\s/g, '');
             if (label_field.length) {
                 const label_list = label_field.split(",");
@@ -1265,9 +1274,14 @@ export class IBM_704 {
                     labels[label] = register;
                 }
             }
-            register++;
+            // allocate space for BSS (label points to start of allocated space)
+            if (operation === "BSS") {
+                register += Number(line[2]);
+            }
+            if (operation !== "BES" && operation !== "BSS") {
+                register++;
+            }
         }
-        // console.log(labels);
 
         const label_names = Object.keys(labels).slice(0);
         label_names.sort( (a, b) => { return b.length - a.length; } ); // sort from longest to shortest to ensure
@@ -1279,7 +1293,6 @@ export class IBM_704 {
                 continue;
             }
             const line = code_lines[line_no];
-            // console.log(line);
             let address_part = line[2];
             for (const label of label_names) {
                 address_part = address_part.replace(new RegExp(label, 'g'), labels[label].toString());
@@ -1300,8 +1313,12 @@ export class IBM_704 {
                 $("#error_message").modal('show');
                 throw INVALID_REGISTER_EXCEPTION;
             }
-            const operation = line[1];
-            const rest_of_line = line[2];
+            const operation = line[1].trim();
+            if (operation === "") {
+                register++;
+                continue;
+            }
+            const rest_of_line = line[2].trim();
             const expressions = rest_of_line.split(",");
             const numbers = Array();
             for (const expression of expressions) {
@@ -1315,8 +1332,15 @@ export class IBM_704 {
                         throw NAN_EXCEPTION;
                     }
                     continue;
-                } else if (operation === "DEC") { // DEC psuedoinstruction lets you program fixed and floating point numbers
-                    let number = Number(expressions[0]);
+                } else if (operation === "BSS" || operation === "BES") { // skip allocated space
+                    const number = Number(expressions[0]);
+                    if (isNaN(number)) {
+                        throw NAN_EXCEPTION;
+                    }
+                    register += number;
+                    continue;
+                } else if (operation === "DEC" || operation === "SYN" || operation === "EQU") {
+                    const number = Number(expressions[0]);
                     if (isNaN(number)) {
                         throw NAN_EXCEPTION;
                     }
@@ -1393,7 +1417,7 @@ export class IBM_704 {
 
     // Type B operations
     // Note: the this.storage_register should always be the same value as this.general_memory[address],
-    // so the two are interchangeable.
+    // so the two are interchangeable for loads.
 
     /**
      * Emulates the IBM 704 No Operation (NOP) operation.
@@ -1426,6 +1450,17 @@ export class IBM_704 {
     }
 
     /**
+     * Emulates the IBM 704 Store Logical Word (SLW) operation.
+     *
+     * The C(AC)P,1-35 replace the C(Y)S,1-35. The C(AC) are unchanged.
+     *
+     * @param {number}  address     Address to store value to.
+     */
+    SLW(address) {
+        this.general_memory[address].update_contents(this.accumulator.contents.substr(-36));
+    }
+
+    /**
      * Emulates the IBM 704 Halt and Transfer (HTR) operation.
      *
      * Indicates the computer to halt.  If the computer is continued (on the original machine, pressing
@@ -1448,6 +1483,18 @@ export class IBM_704 {
     CLA() {
         this.accumulator.clear();
         this.accumulator.store_general_word(this.storage_register);
+    }
+
+    /**
+     * Emulates the IBM 704 Clear and Add Logical Word (CAL) operation.
+     *
+     * This instruction replaces the C(AC)P,1-35 with the C(Y). Thus the sign of the C(Y) appears in position
+     * P of the AC,and the S and Q bits are cleared. The C(Y) are unchanged.
+     *
+     */
+    CAL() {
+        this.accumulator.clear();
+        this.accumulator.update_contents(this.storage_register.contents);
     }
 
     /**
@@ -1871,6 +1918,28 @@ export class IBM_704 {
     }
 
     /**
+     * Emulates the IBM 704 Compare Accumulator with Storage (CAS) operation.
+     *
+     * If the C(Y) are algebraically less than the C(AC), the calculator takes the next instruction in sequence. If
+     * the C(Y) are algebraically equal to the C(AC), the calculator skips the next instruction and proceeds from
+     * there. If the C(Y) are algebraically greater than the C(AC), the calculator skips the next two instructions
+     * and proceeds from there. Two numbers are algebraically equal when the magnitude of the numbers and the sign are both equal.
+     * A plus zero is algebraically larger than a minus zero.
+     *
+     */
+    CAS() {
+        if (this.accumulator.fixed_point === this.storage_register.fixed_point) {
+            if (this.accumulator.contents[0] === '1' && this.storage_register.contents === '0') {
+                this.ilc.increment(this.size);
+            }
+            this.ilc.increment(this.size);
+        } else if (this.storage_register.fixed_point > this.accumulator.fixed_point) {
+            this.ilc.increment(this.size);
+            this.ilc.increment(this.size);
+        }
+    }
+
+    /**
      * Emulates the IBM 704 Transfer on Zero (TZE) operation.  If bits Q-35 of the accumulator are 0,
      * the Instruction Location Counter jumps to the specified address.  Otherwise, the program continues
      * to the next instruction.
@@ -1969,6 +2038,20 @@ export class IBM_704 {
      */
     TQP(address) {
         if (this.mq_register.contents[0] === "0") {
+            this.ilc.update(address, this.size);
+        }
+    }
+
+    /**
+     * Emulates the IBM 704 Transfer on Low MQ (TLQ) operation.
+     *
+     * If the MQ is less than the AC, the computer takes the next instruction from location Y and
+     * proceeds from there.
+     *
+     * @param {number}  address     Address to jump to.
+     */
+    TLQ(address) {
+        if (this.mq_register.fixed_point < this.accumulator.fixed_point) {
             this.ilc.update(address, this.size);
         }
     }

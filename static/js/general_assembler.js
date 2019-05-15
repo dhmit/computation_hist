@@ -16,6 +16,13 @@ function display_operations() {
         operations.add(operation);
     }
 
+    operations.add("DEC");
+    operations.add("ORG");
+    operations.add("BSS");
+    operations.add("BES");
+    operations.add("EQU");
+    operations.add("SYN");
+
     const operations_str = Array.from(operations).join(", ");
     const place = document.getElementById("available_operations");
     place.innerText = operations_str;

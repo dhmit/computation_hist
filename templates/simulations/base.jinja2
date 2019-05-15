@@ -14,12 +14,13 @@
             <div class="col-sm-4" data-step="2" data-intro="This is where the IBM 704 Assembly Language
             code is displayed as it would be entered into a Symbolic Coding Form.">
                 <h3>Code</h3>
-                <div id="code">
+                <div class="pre-scrollable" id="code">
+{#                    Todo: figure out how to make this scroll without obscuring numbers#}
                     <div id="code_heading" class="row">
-                        <p>  </p>
-                        <div class="col-sm px-2">Lbl</div>
-                        <div class="col-sm px-2">Op</div>
-                        <div class="col-sm px-2">ATD</div>
+                        <div class="col-sm-1 px-2">#</div>
+                        <div class="col-sm-3 px-2" >Lbl</div>
+                        <div class="col-sm-3 px-2">Op</div>
+                        <div class="col-sm-4 px-2">ATD</div>
                     </div>
                 </div>
                 {% if simulation_name == 'general_assembler' %}
@@ -127,7 +128,10 @@
                 $(document).ready(() => {
                     Demos.start_demo(Demos.looping_with_tix_demo_params);
                 });
-
+            {% elif simulation_name == 'subroutine' %}
+                $(document).ready(() => {
+                    Demos.start_demo(Demos.subroutine_demo_params);
+                });
             {% endif %}
 
         </script>
