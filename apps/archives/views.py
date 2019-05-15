@@ -23,6 +23,7 @@ STORIES = [
     'women_in_symbols',
     'whirlwind',
     'network_story',
+    'location',
 ]
 
 

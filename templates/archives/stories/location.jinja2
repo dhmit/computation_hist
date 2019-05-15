@@ -1,0 +1,23 @@
+{% extends 'archives/story.jinja2' %}
+
+{% block story_title %}
+Computation on Campus
+{% endblock %}
+
+{% block story_credit %}
+Michael Scott Cuthbert
+{% endblock %}
+
+{% block story_body %}
+MIT's campus has been transformed in the last half century, but
+    physical traces of the computation revolutions of the 1950s
+    and '60s remain.
+
+<figure class="figure float-right teaser-img col-md-4">
+    <img src="{{ static('img/stories/women_in_symbols.png') }}"
+         class="figure-img img-fluid"
+         alt="A letter subscript (FMV:nb) above the cc line detailing those involved in its writing" />
+    <figcaption class="figure-caption">Nanny B.'s initials on <a href="/archives/doc/1_15_cc_equip_15">one of Frank Verzuh's letters.</a></figcaption>
+</figure>
+
+{% endblock %}
