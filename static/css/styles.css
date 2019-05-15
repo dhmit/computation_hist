@@ -35,7 +35,6 @@ h1,h2,h3,h4,h5,h6,.navbar-brand {
     .navbar-brand {
         font-size: 1em;
     }
-
 }
 
 /*
@@ -57,6 +56,19 @@ body {
     padding-top: 5rem;
 }
 
+.header {
+    background-color: white;
+}
+
+.panel {
+    background-color: white;
+}
+
+.story-card-panel {
+    height: 100%;
+}
+
+
 .footer {
     position: relative;
     bottom: 0;
@@ -71,17 +83,11 @@ body {
 }
 
 .btn {
-    border: 0 0 0 0;
+    border-style: none;
 }
 
-.btn-secondary {
-    color: #fff;
-    background-color: #007bff;
-}
-
-.btn-secondary:hover {
-    color: #fff;
-    background-color: #0056b3;
+#basic_search {
+    border-style: none;
 }
 
 
@@ -123,6 +129,16 @@ body {
    }
 }
 
+@media (min-width: 768px) {
+    .story-row {
+        /* hack to flush right align the columns with the header
+         * for medium and larger layouts
+         * */
+
+        margin-right: -23px;
+    }
+}
+
 .story-title {
     font-family: 'Acre-Regular';
     text-transform: uppercase;
@@ -132,10 +148,6 @@ body {
 }
 
 .story-title:hover{
-     font-family: 'Acre-Regular';
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 1.1em;
     color: #0056b3;
 }
 
@@ -148,6 +160,9 @@ body {
     height: 160px;
     max-height: 33vh;
     object-fit: cover;
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
 }
 
 .story_in_text_link{
@@ -203,14 +218,14 @@ div.info_bar {
  * About Us page
  */
 
+.team-member {
+    max-width: 190px;
+}
+
 .team-member img {
     max-width: 150px;
     max-height: 150px;
     border: 5px solid #fff;
-}
-
-.teaser-img img{
-    border: 7px solid #fff
 }
 
 
@@ -222,14 +237,14 @@ div.info_bar {
 #loader {
   position: absolute;
   left: 50%;
-  top: 300px;
+  top: 50%;
   z-index: 9999;
   width: 150px;
   height: 150px;
   margin: -75px 0 0 -75px;
-  border: 16px solid #f3f3f3;
+/* border: 16px solid #f3f3f3; */
   border-radius: 50%;
-  border-top: 16px solid #3498db;
+  border: 16px solid #3498db;
   width: 120px;
   height: 120px;
   -webkit-animation: spin 2s linear infinite;

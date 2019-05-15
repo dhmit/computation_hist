@@ -16,14 +16,14 @@ from utilities.common import load_pickle
 
 STORIES = [
     'announcement_of_the_IBM_704',
-    'debugging',
     'beginnings_of_cs_at_mit',
-    'qualifications_for_programmer',
     'cost_of_using_a_supercomputer',
     'digital_humanities',
+    'network_story',
+    'qualifications_for_programmer',
+    'three_man_months',
     'women_in_symbols',
     'whirlwind',
-    'network_story',
 ]
 
 
