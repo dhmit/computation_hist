@@ -32,6 +32,10 @@ code {
     overflow-wrap: break-word;
 }
 
+body {
+    scrollbar-color: dark;
+}
+
 .code_line {
     flex-wrap: nowrap;
 }
