@@ -125,6 +125,7 @@ def doc(request, slug=None):
         'cced': cced,
         'prev_doc': prev_doc,
         'next_doc': next_doc,
+        'no_header': True
     }
 
     return render(request, 'archives/doc.jinja2', obj_dict)
