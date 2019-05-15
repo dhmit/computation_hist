@@ -32,10 +32,7 @@
             to
             {% for item in recipients %}
                 {% if loop.last and not loop.first %} and {% endif %}
-                <a class="doc_metadata" href="{{ item.url }}">
-                
-                
-                </a>{% if not loop.last and recipients|length != 2%};{% endif %}
+                <a class="doc_metadata" href="{{ item.url }}">{% if item.fullname is defined %}{{ item.fullname }}{% else %}{{ item }}{% endif %}</a>{% if not loop.last and recipients|length != 2%};{% endif %}
             {% endfor %}
         {% endif %}
 
