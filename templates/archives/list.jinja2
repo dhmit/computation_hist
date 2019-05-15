@@ -1,7 +1,6 @@
 {% extends "base.jinja2" %}
 
 {% block title %}
-
     {% if model_str == 'organization' %}
         Organizations
     {% elif model_str == 'person'%}
@@ -13,28 +12,21 @@
     {% elif model_str == 'doc' %}
         Documents
     {% endif %}
+{% endblock %}
 
+{% block header %}
+    {% if model_str == 'people' %}
+        People in the Collection
+    {% elif model_str == 'organizations' %}
+        Organizations in the Collection
+    {% elif model_str == 'folders' %}
+        Folders in the Collection
+    {% endif %}
 {% endblock %}
 
 {% block content %}
-
-    <div class="row">
-        <div class="col-12 text-center">
-            <h1>
-                {% if model_str == 'people' %}
-                    People in the Collection
-                {% elif model_str == 'organizations' %}
-                    Organizations in the Collection
-                {% elif model_str == 'folders' %}
-                    Folders in the Collection
-                {% endif %}
-            </h1>
-        </div>
-    </div>
-
-    <div class="row" id="data_table_row">
-        <div class="col-12">
-            <table id="data_table" class="display" cellspacing="0" width="100%">
+    <div class="row" id="data_table_row"><div class="col">
+        <table id="data_table" class="display" cellspacing="0" width="100%">
             <thead>
                 <tr>
                     {% if model_str == 'people' %}
@@ -52,9 +44,7 @@
                 </tr>
             </thead>
         </table>
-        </div>
-    </div>
-
+    </div></div>
 {% endblock %}
 
 {% block scripts %}

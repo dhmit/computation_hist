@@ -10,6 +10,7 @@
 {% block header %} Network Visualization {% endblock %}
 
 {% block content %}
+<div class="row"><div class="col mb-2 panel">
     <div id="description">
         <p>
             This visualization shows the top 100 contributors in the Computation Center Archives. To
@@ -21,8 +22,10 @@
             each node enables you to see that person's "pull" on the network.
         </p>
     </div>
+</div></div>
 
-    <div id="visualizations">
+<div class="row"><div class="col p-4 mb-2 panel">
+    <div class="mb-2" id="visualizations">
         <img src="{{ static('img/stories/network_scale.png') }}" alt="Network Scale" />
         <svg id="viz"></svg>
         <script>
@@ -32,14 +35,16 @@
 
 
     <form id="node_search_form">
-        <input class="searchfield" id="node" name="node" type="text" placeholder="Find a node...">
-        <button class="btn btn-secondary my-2 my-sm-0" type="submit" id="node_submit">
+    <div class="input-group ">
+        <input class="searchfield mr-2" id="node" name="node" type="text" placeholder="Find a node...">
+        <button class="btn btn-primary my-2 my-sm-0 mr-2" type="submit" id="node_submit">
             Search
         </button>
         <button class="btn btn-secondary" type="submit" id="node_clear"
                 name="node" value="">
             Clear
         </button>
+    </div>
         {% if  len(links) == 0 %}
             No Person "{{ old_query|safe }}" Found
         {% endif %}
@@ -61,5 +66,7 @@
         {% endfor %}
         </tbody>
     </table>
+
+</div></div>
 
 {% endblock %}

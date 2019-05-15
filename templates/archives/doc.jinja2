@@ -1,24 +1,30 @@
 
 {% extends "base.jinja2" %}
+{% block extraheader %}
+    <link rel="stylesheet" href="{{ static('css/doc.css') }}" type="text/css">
+{% endblock %}
 
 {% block title %}{{ doc_obj.title }}{% endblock %}
 
 {% block content %}
-<div class="row">
-    <div class="col">
+<div class="row mb-2">
+    <div class="col p-4 panel">
         <h3>{{ doc_obj.title }}
         {% if doc_obj.date %}
             ({{ doc_obj.date }})
         {% endif %}
         </h3>
 
+        <div class="float-right">
+            <a href="{{ doc_obj.folder.box.url }}">Box #{{ doc_obj.folder.box }}</a> | <a href="{{ doc_obj.folder.url }}">Folder: {{ doc_obj.folder }}</a>
+        </div>
+
         {{ doc_obj.type|capitalize }}
         {% if authors %}
             by
             {% for item in authors %}
                 {% if loop.last and not loop.first %} and {% endif %}
-                <a class="doc_metadata" href="{{ item.url }}">{{ item }}</a>
-                {% if not loop.last and authors|length != 2%};{% endif %}
+                <a class="doc_metadata" href="{{ item.url }}">{% if item.fullname is defined %}{{ item.fullname }}{% else %}{{ item }}{% endif %}</a>{% if not loop.last and authors|length != 2%};{% endif %}
             {% endfor %}
         {% endif %}
 
@@ -26,8 +32,10 @@
             to
             {% for item in recipients %}
                 {% if loop.last and not loop.first %} and {% endif %}
-                <a class="doc_metadata" href="{{ item.url }}">{{ item }}</a>
-                {% if not loop.last and recipients|length != 2%};{% endif %}
+                <a class="doc_metadata" href="{{ item.url }}">
+                
+                
+                </a>{% if not loop.last and recipients|length != 2%};{% endif %}
             {% endfor %}
         {% endif %}
 
@@ -35,38 +43,65 @@
             cced to
             {% for item in cced %}
                 {% if loop.last and not loop.first %} and {% endif %}
-                <a class="doc_metadata" href="{{ item.url }}">{{ item }}</a>
-                {% if not loop.last and cced|length != 2%};{% endif %}
+                <a class="doc_metadata" href="{{ item.url }}">{% if item.fullname is defined %}{{ item.fullname }}{% else %}{{ item }}{% endif %}</a>{% if not loop.last and cced|length != 2%};{% endif %}
             {% endfor %}
         {% endif %}
+    <div class="row">
+        <div class="col">
+            Citation:
+            <button id="citation_button">[show]</button>
+            <p id="citation" style="display:none">
+                "Records of the Massachusetts Institute of Technology Computation Center
+                AC.0062, Department of Distinctive Collections."
+            </p>
+        </div>
+    </div>
 
     </div>
 </div>
 
-<div class="row d-none d-md-inline">
-    <div class="col text-center">
+
+<div class="row">
+    <div class="col-12 panel pb-4">
+
+
+    <div class="text-center d-none d-md-block mt-2">
         {% if prev_doc %}
             <a href="{{ prev_doc.url }}" class="btn btn-outline-secondary float-left"
                role="button">&laquo; Previous</a>
         {% endif %}
 
-        <a href="{{ doc_obj.folder.box.url }}">Box #{{ doc_obj.folder.box }}</a> | <a href="{{ doc_obj.folder.url }}">Folder: {{ doc_obj.folder }}</a>
 
         {% if next_doc %}
             <a href="{{ next_doc.url }}" class="btn btn-outline-secondary btn-small float-right"
                role="button">Next &raquo;</a>
         {% endif %}
     </div>
+
+
+
+        <iframe src="{{ static('ext/pdfjs/web/viewer.html') }}?file={{ doc_obj.pdf_url }}"
+                height="900"
+                width="100%">
+        </iframe>
+    </div>
 </div>
 
-    <div class="row">
-        <div class="col">
-            <iframe src="{{ static('ext/pdfjs/web/viewer.html') }}?file={{ doc_obj.pdf_url }}"
-                    height="900"
-                    width="100%">
-            </iframe>
-        </div>
+{% endblock %}
 
-    </div>
-
+{% block scripts %}
+    <script>
+        function toggle_citation() {
+            const citation = document.getElementById('citation');
+            const button = document.getElementById('citation_button');
+            if (citation.style.display === 'none') {
+                citation.style.display = 'block';
+                button.innerText = '[hide]';
+            } else {
+                citation.style.display = 'none';
+                button.innerText = '[show]';
+            }
+        }
+        $('#citation_button').click(toggle_citation);
+    </script>
 {% endblock %}

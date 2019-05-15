@@ -23,7 +23,9 @@
     {%  block extraheader %}{% endblock %}
 
 </head>
-<body>
+<body><wrapper class='d-flex flex-column'>
+
+    <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <a class="navbar-brand" href="/">Computation Archives</a>
         <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
@@ -69,70 +71,74 @@
                     <a class="nav-link" href="/archives/about">About</a>
                 </li>
             </ul>
-            <form class="form-inline my-2 my-lg-0" action="/archives/search"
-                  id="basic_search_form">
-                <input class="form-control mr-sm-2" type="text"
+            <form class="form-inline my-2 my-lg-0" action="/archives/search" id="basic_search_form">
+            <div class="input-group">
+                <input class="form-control mr-2" type="text"
                        id="basic_search"
                        placeholder="Search"
                        aria-label="Search" name="keyword">
-                <button class="btn btn-secondary my-2 my-sm-0"
-                        id="basic_search_submit_button"
-                        type="submit">Search</button>
+                <br>
+                    <button class="btn btn-primary"
+                            id="basic_search_submit_button"
+                            type="submit">Search</button>
             </form>
         </div>
     </nav>
 
+    <!-- hidden loader div for searches -->
     <div id="loader" style="display: none"></div>
 
-<main role="main" class="container mb-4">
-    <div class="text-center">
-        <h1 >{% block header %}{% endblock %}</h1>
-    </div>
+    <!-- main content -->
+    <main role="main" class="container my-sm-3 px-sm-0 flex-fill">
+        {% if not no_header %}
+        {# pass the template a context item called 'no_header' to disable the header #}
+        <div class="row header text-center mb-2 p-2"><div class="col">
+            <h1 class="my-0" id="main_header">{% block header %}{% endblock %}</h1>
+        </div></div>
+        {% endif %}
+        {% block content %}
+        {% endblock %}
+    </main>
 
-    {% block content %}
-    {% endblock %}
 
-</main>
-
-
-<!-- js -->
-{% block footer %}
-<footer class="footer bg-white text-dark text-center">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-3 col-6 py-3">
-                <a href="https://digitalhumanities.mit.edu/">
-                    <img src="{{ static('img/dh_logo.png') }}"
-                         class='footer-img'
-                         alt='Digital Humanities at MIT Logo'/>
-                </a>
-            </div>
-            <div class="col-md-3 col-6 py-3">
-                <a href="https://www.mit.edu/">
-                    <img src="{{ static('img/mit_logo.svg') }}"
-                         class='footer-img'
-                         alt='MIT Logo'/>
-                </a>
-            </div>
-            <div class="col-md-3 col-6 py-3">
-                <a href="https://libraries.mit.edu/">
-                    <img src="{{ static('img/library_logo.png') }}"
-                         class='footer-img'
-                         alt="MIT Libraries Logo"/>
-                </a>
-            </div>
-            <div class="col-md-3 col-6 py-3">
-                <a href="https://www.mellon.org/">
-                    <img src="{{ static('img/mellon_logo.svg') }}"
-                         class='footer-img'
-                         alt="Mellon Foundation Logo"/>
-                </a>
+    {% block footer %}
+    <footer class="footer bg-white text-dark text-center">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3 col-6 py-3">
+                    <a href="https://digitalhumanities.mit.edu/">
+                        <img src="{{ static('img/dh_logo.png') }}"
+                             class='footer-img'
+                             alt='Digital Humanities at MIT Logo'/>
+                    </a>
+                </div>
+                <div class="col-md-3 col-6 py-3">
+                    <a href="https://www.mit.edu/">
+                        <img src="{{ static('img/mit_logo.svg') }}"
+                             class='footer-img'
+                             alt='MIT Logo'/>
+                    </a>
+                </div>
+                <div class="col-md-3 col-6 py-3">
+                    <a href="https://libraries.mit.edu/">
+                        <img src="{{ static('img/library_logo.png') }}"
+                             class='footer-img'
+                             alt="MIT Libraries Logo"/>
+                    </a>
+                </div>
+                <div class="col-md-3 col-6 py-3">
+                    <a href="https://www.mellon.org/">
+                        <img src="{{ static('img/mellon_logo.svg') }}"
+                             class='footer-img'
+                             alt="Mellon Foundation Logo"/>
+                    </a>
+                </div>
             </div>
         </div>
-    </div>
-</footer>
-{% endblock %}
+    </footer>
+    {% endblock %}
 
+    <!-- js -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
@@ -142,5 +148,6 @@
         });
     </script>
     {%  block scripts %}{% endblock %}
-</body>
+
+</wrapper></body>
 </html>

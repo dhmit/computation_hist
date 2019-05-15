@@ -5,8 +5,7 @@ Timeline
 {% endblock %}
 
 {% block extraheader %}
-    <link rel="stylesheet" href="{{ static('css/timeline.css') }}" type="text/css">
-
+<link rel="stylesheet" href="{{ static('css/timeline.css') }}" type="text/css">
 {% endblock %}
 
 {% block scripts %}
@@ -19,14 +18,13 @@ jQuery(document).ready(function($) {
 </script>
 {% endblock %}
 
-{% block self %}
-Documents over Time
+{% block header %}
+Documents by Date
 {% endblock %}
 
-
 {% block content %}
-    <h1 id="timeline-title">Documents by Date</h1>
 {% for year in documents_by_year %}
+<div class="row"><div class="col panel pt-2 mb-2">
     <h1 id="date-title">{{ year }}</h1>
     <table class="table">
         <thead>
@@ -46,5 +44,6 @@ Documents over Time
         {% endfor %}
         </tbody>
     </table>
+</div></div>
 {% endfor %}
 {% endblock %}
