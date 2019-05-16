@@ -341,9 +341,21 @@ def timeline(request):
 
 def all_docs(request):
     """ We're not going to show this publically (probably) -- this is for metadata cleaning """
-    docs = (Document.objects.all()
-                           .order_by('folder__box__number', 'folder__number', 'doc_id')
-                           .prefetch_related('folder', 'folder__box'))
+    docs = Document.objects.prefetch_related('author_person', 'author_organization')
+    doc_list = []
+    for doc in docs:
+        author_person_objs = doc.author_person.all()
+        author_organization_objs = doc.author_organization.all()
+        author_people_names = [author.fullname for author in author_person_objs]
+        author_org_names = [org.name for org in author_organization_objs]
+        authors_str = ' '.join(author_people_names + author_org_names)
 
-    return render(request, 'archives/all_docs.jinja2', {'docs': docs})
+        doc_list.append({
+            'date': str(doc.date) if doc.date else 'Unknown',
+            'title': doc.title,
+            'author': authors_str,
+            'type': doc.type,
+        })
+
+    return render(request, 'archives/all_docs.jinja2', {'doc_list': doc_list})
 

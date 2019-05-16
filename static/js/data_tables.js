@@ -25,7 +25,15 @@ const column_defs = {
         {data: 'doc_id'},
         {data: 'document_date'},
         {data: 'document_title'},
-    ]
+    ],
+    'documents': [
+        {data: 'date'},
+        {data: 'title'},
+        {data: 'author'},
+        {data: 'type'},
+    ],
+
+
 };
 
 // which column (from column_defs) to sort by default and in what direction
@@ -35,6 +43,7 @@ const order_defs = {
     'folders': [[0, 'asc']],
     'person_or_org': [[0, 'asc']],
     'folder': [[0, 'asc']],
+    'documents': [[0, 'asc']],
 };
 
 
