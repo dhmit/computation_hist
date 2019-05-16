@@ -1,12 +1,10 @@
-
 {% extends "base.jinja2" %}
 
-{% block title %} {{ folder.full }} {% endblock %}
+{% block title %}Folder {{ folder.number }}: {{ folder.full }}{% endblock %}
 
 {% block header %}
     Folder {{ folder.number }}: {{ folder.full }}
 {% endblock %}
-
 
 {% block content %}
     <div class="row" id="data_table_row"><div class="col">

@@ -1,16 +1,12 @@
 {% extends "base.jinja2" %}
 
 {% block title %}
-    {% if model_str == 'organization' %}
+    {% if model_str == 'organizations' %}
         Organizations
-    {% elif model_str == 'person'%}
+    {% elif model_str == 'people'%}
         People
-    {% elif model_str == 'folder' %}
+    {% elif model_str == 'folders' %}
         Folders
-    {% elif model_str == 'box' %}
-        Boxes
-    {% elif model_str == 'doc' %}
-        Documents
     {% endif %}
 {% endblock %}
 
