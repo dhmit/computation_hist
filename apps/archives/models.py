@@ -35,7 +35,7 @@ class Person(models.Model):
         if self.last and self.first:
             return self.last + ', ' + self.first
         elif self.last:
-            return self.last
+            return self.last + ', [first name unknown]'
         elif self.first:
             return self.first
         else:
@@ -53,7 +53,14 @@ class Person(models.Model):
 
     @property
     def fullname(self):
-        return self.first + " " + self.last
+        if self.last and self.first:
+            return self.first + " " + self.last
+        elif self.last:
+            return '[first name unknown] ' + self.last
+        elif self.first:
+            return self.first + ' [last name unknown]'
+        else:
+            return "No name"
 
     @property
     def url(self):

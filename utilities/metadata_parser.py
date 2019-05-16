@@ -117,7 +117,7 @@ def pickle_for_list_views():
     for person in Person.objects.annotate(Count('author_person', distinct=True),
                                           Count('recipient_person', distinct=True),
                                           Count('cced_person', distinct=True)):
-        name = f'{person.last},{person.first}'
+        name = str(person) # __repr__ is smart about unknown names 
         person_list.append({
             'name': f'<a href="{person.url}">{name}</a>',
             'docs_authored': person.author_person__count,
