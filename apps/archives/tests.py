@@ -5,7 +5,6 @@ class ArchivesTestCase(SeleniumTestCase):
     def test_index(self):
         """ Test that the index page renders correctly """
         self.driver.get(self.live_server_url)
-        self.assertIn('Home Page', self.driver.title)
         self.check_log_for_errors()
 
     def test_stories(self):
