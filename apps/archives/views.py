@@ -6,23 +6,19 @@ from django.shortcuts import get_object_or_404, render
 
 from .models import Person, Document, Box, Folder, Organization
 from .search import process_search
+from utilities.common import load_pickle
 
-# NOTE(ra): this hardcoded pattern isn't great, but we're since we're using
-# jinja2 templates as a data source for the stories, it gets us to a usable
-# prototype without having to, e.g., read the folder of story templates
-# and load their names dynamically. We'll replace this with something
-# more robust once the story system takes firmer shape.
 
 STORIES = [
     'announcement_of_the_IBM_704',
-    'debugging',
     'beginnings_of_cs_at_mit',
-    'qualifications_for_programmer',
     'cost_of_using_a_supercomputer',
     'digital_humanities',
+    'network_story',
+    'qualifications_for_programmer',
+    'three_man_months',
     'women_in_symbols',
     'whirlwind',
-    'network_story',
 ]
 
 
@@ -32,6 +28,31 @@ def index(request):
     return render(request, 'index.jinja2', context)
 
 
+def stories(request):
+    template = 'archives/stories.jinja2'
+    context = {'stories': STORIES}
+    return render(request, template, context)
+
+
+def about(request):
+    return render(request, 'archives/about.jinja2')
+
+
+def create_doc_list(doc_qs):
+    """ Helper function for person() and organization() """
+    doc_list = []
+    for doc in doc_qs:
+        doc_list.append({
+            'document_date': str(doc.date) if doc.date else 'Unknown',
+            'document_title': f'<a href="{doc.url}">{doc.title}</a>',
+        })
+    return doc_list
+
+# TODO(ra): person and organization should be one view, but they can't be
+# compressed right now because the 'related_name' field on Document
+# is different. They should share related names, which would simplify this
+# view logic.
+
 def person(request, slug):
     person_obj = get_object_or_404(
         Person.objects.prefetch_related(
@@ -40,16 +61,50 @@ def person(request, slug):
             'cced_person',
         ),
         slug=slug)
-    document_written_objs = person_obj.author_person.all()
-    document_received_objs = person_obj.recipient_person.all()
-    document_cced_objs = person_obj.cced_person.all()
+
+    docs_written_qs = person_obj.author_person.all()
+    docs_written_list = create_doc_list(docs_written_qs)
+
+    docs_received_qs = person_obj.recipient_person.all()
+    docs_received_list = create_doc_list(docs_received_qs)
+
+    docs_cced_qs = person_obj.cced_person.all()
+    docs_cced_list = create_doc_list(docs_cced_qs)
+
     obj_dict = {
-        'person_obj': person_obj,
-        'document_written_objs': document_written_objs,
-        'document_received_objs': document_received_objs,
-        'document_cced_objs': document_cced_objs
+        'person': person_obj,
+        'docs_written_list': docs_written_list,
+        'docs_received_list': docs_received_list,
+        'docs_cced_list': docs_cced_list,
     }
-    return render(request, 'archives/person.jinja2', obj_dict)
+    return render(request, 'archives/person_or_org.jinja2', obj_dict)
+
+
+def organization(request, slug):
+    org = get_object_or_404(
+        Organization.objects.prefetch_related(
+            'author_organization',
+            'recipient_organization',
+            'cced_organization',
+        ),
+        slug=slug)
+
+    docs_written_qs = org.author_organization.all()
+    docs_written_list = create_doc_list(docs_written_qs)
+
+    docs_received_qs = org.recipient_organization.all()
+    docs_received_list = create_doc_list(docs_received_qs)
+
+    docs_cced_qs = org.cced_organization.all()
+    docs_cced_list = create_doc_list(docs_cced_qs)
+
+    obj_dict = {
+        'org': org,
+        'docs_written_list': docs_written_list,
+        'docs_received_list': docs_received_list,
+        'docs_cced_list': docs_cced_list,
+    }
+    return render(request, 'archives/person_or_org.jinja2', obj_dict)
 
 
 def get_neighboring_docs(doc_obj):
@@ -124,6 +179,7 @@ def doc(request, slug=None):
         'cced': cced,
         'prev_doc': prev_doc,
         'next_doc': next_doc,
+        'no_header': True
     }
 
     return render(request, 'archives/doc.jinja2', obj_dict)
@@ -140,65 +196,29 @@ def box(request, slug):
 
 
 def folder(request, slug):
-    folder_obj = get_object_or_404(Folder, slug=slug)
-    document_objs = folder_obj.document_set.all()
+    folder = get_object_or_404(Folder, slug=slug)
+    doc_qs = folder.document_set.all()
+    doc_list = []
+    for doc in doc_qs:
+        doc_list.append({
+            'doc_id': doc.doc_id,
+            'document_date': str(doc.date) if doc.date else 'Unknown',
+            'document_title': f'<a href="{doc.url}">{doc.title}</a>',
+        })
+
     obj_dict = {
-        'folder_obj': folder_obj,
-        'document_objs': document_objs
+        'folder': folder,
+        'doc_list': doc_list,
     }
     response = render(request, 'archives/folder.jinja2', obj_dict)
 
     return response
 
 
-def organization(request, slug):
-    org_obj = get_object_or_404(Organization, slug=slug)
-    document_written_objs = org_obj.author_organization.all()
-    document_received_objs = org_obj.recipient_organization.all()
-    document_cced_objs = org_obj.cced_organization.all()
-    obj_dict = {
-        'org_obj': org_obj,
-        'document_written_objs': document_written_objs,
-        'document_received_objs': document_received_objs,
-        'document_cced_objs': document_cced_objs
-    }
-    response = render(request, 'archives/organization.jinja2', obj_dict)
-    return response
-
-
-def person_unknown_filter(person):
-    if person.last == "":
-        person.last = "Unknown"
-    return person.last
-
-
 def list_obj(request, model_str):
 
-    obj_list = []
-
-    if model_str == 'people':
-        for person in Person.objects.all():
-            name = f'{person.last},{person.first}'
-            obj_list.append({
-                'name': f'<a href="{person.url}">{name}</a>',
-                'docs_authored': person.author_person.count(),
-                'docs_received': person.recipient_person.count() + person.cced_person.count()
-            })
-    elif model_str == 'organizations':
-        for org in Organization.objects.all():
-            obj_list.append({
-                'name': f'<a href="{org.url}">{str(org)}</a>',
-                'docs_authored': org.author_organization.count(),
-                'docs_received': org.recipient_organization.count() + org.cced_organization.count()
-            })
-    elif model_str == 'folders':
-        for folder in Folder.objects.all():
-            obj_list.append({
-                'folder_name': f'<a href="{folder.url}">{str(folder)}</a>',
-                'folder_number': '<a href="{}">Box: {}. Folder: {:02d}</a>'.format(folder.url,
-                                                                               folder.box.number,
-                                                                               folder.number)
-            })
+    if model_str in ['people', 'organizations', 'folders']:
+        obj_list = load_pickle(f'{model_str}_list')
     else:
         raise NotImplementedError(f'List view is not implemented for {model_str} model.')
 
@@ -225,25 +245,28 @@ def search(request):
                         "floor plan", "program", "pamphlet", "payroll sheet", "time record",
                         "summary", "table", "telegram"])
 
+    context = {'no_header': True, 'doc_types': doc_types}
+
     # if no search_params, that means we're just loading the search page
     search_params = request.GET
     if not search_params:
-        return render(request, 'archives/search.jinja2', {'doc_types': doc_types})
+        return render(request, 'archives/search.jinja2', context) 
 
     search_result = process_search(search_params)
     if search_result:
         docs_result, people_result, search_facets = search_result
     else: # search was run with no params
-        return render(request, 'archives/search.jinja2', {'doc_types': doc_types})
+        return render(request, 'archives/search.jinja2', context)
 
     search_objs = {
         'docs': docs_result,
         'people': people_result,
         'search_facets': search_facets,
         'search_params': search_params,
-        'doc_types': doc_types
     }
-    return render(request, 'archives/search.jinja2', search_objs)
+    context = {**context, **search_objs}
+
+    return render(request, 'archives/search.jinja2', context)
 
 
 def story(request, slug):
@@ -299,16 +322,6 @@ def net_viz(request):
     return render(request, 'archives/net_viz.jinja2', graph_dict)
 
 
-def stories(request):
-    template = 'archives/stories.jinja2'
-    context = {'stories': STORIES}
-    return render(request, template, context)
-
-
-def about(request):
-    return render(request, 'archives/about.jinja2')
-
-
 def timeline(request):
     documents = (Document.objects.order_by('date').exclude(date=None))
     last_year = documents.last().date.year
@@ -333,5 +346,4 @@ def all_docs(request):
                            .prefetch_related('folder', 'folder__box'))
 
     return render(request, 'archives/all_docs.jinja2', {'docs': docs})
-
 

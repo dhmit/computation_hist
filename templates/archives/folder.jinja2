@@ -1,31 +1,34 @@
 
 {% extends "base.jinja2" %}
 
-{% block title %} {{ folder_obj.full }} {% endblock %}
+{% block title %} {{ folder.full }} {% endblock %}
 
 {% block header %}
-    {{folder_obj.full}}
-    <h2>Folder number {{folder_obj.number}}</h2>
+    Folder {{ folder.number }}: {{ folder.full }}
 {% endblock %}
+
 
 {% block content %}
-    <table class="table">
-      <thead class="thead-dark">
-        <tr>
-          <th scope="col">#</th>
-          <th scope="col"; align="left">Document Name</th>
-
-        </tr>
-      </thead>
-      <tbody>
-      {% for item in document_objs %}
-        <tr>
-          <th scope="row">{{ loop.index }} </th>
-
-          <td><a href = "{{item.url}}">{{ item }}</a></td>
-        </tr>
-      {% endfor %}
-      </tbody>
-    </table>
-
+    <div class="row" id="data_table_row"><div class="col">
+        <table id="data_table" class="display" cellspacing="0" width="100%">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Date</th>
+                    <th>Title</th>
+                </tr>
+            </thead>
+        </table>
+    </div></div>
 {% endblock %}
+
+{% block scripts %}
+    <link rel="stylesheet" href="{{ static('css/data_tables.css') }}" type="text/css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.18/datatables.min.css"/>
+    <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.18/datatables.min.js"></script>
+    <script type="module"> 
+        import { create_datatable } from "{{ static('js/data_tables.js') }}";
+        create_datatable("data_table", "folder", {{ doc_list|safe }});
+    </script>
+{% endblock %}
+

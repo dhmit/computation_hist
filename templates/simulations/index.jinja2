@@ -3,16 +3,18 @@
 {% block title %} Simulations of Computing {% endblock %}
 
 {% block header %}
-    Simulations of Computing from the Archives
-    <br><br>
+    Simulations of Computers from the Archives
 {% endblock %}
 
 {% block content %}
-    <p class="lead">
+
+<div class="row"><div class="col p-0">
+    <div class="panel mb-2 p-4">
         These links give the experience of performing basic programming
         operations on the IBM 704 computer using a simulation of some of the
         704 operations written in JavaScript.
-    </p>
+    </div>
+
     <div class="list-group">
         <a href="/simulations/assembly_addition" class="list-group-item list-group-item-action">
             <h2>Assembly Addition</h2>
@@ -20,15 +22,20 @@
         </a>
         <a href="/simulations/floating_point_operations" class="list-group-item list-group-item-action">
             <h2>Floating Point Operations</h2>
-            <h5>The Power of Fractions</h5>
+            <h5>The Power of Fractions.</h5>
         </a>
         <a href="/simulations/looping_with_tix" class="list-group-item list-group-item-action">
             <h2>Looping with TIX</h2>
             <h5>Calculate a power of 2 with a loop in assembly.</h5>
+        </a>
+        <a href="/simulations/subroutine" class="list-group-item list-group-item-action">
+            <h2>Subroutines</h2>
+            <h5>Reduce, reuse, and recycle your code.</h5>
         </a>
         <a href="/simulations/general_assembler" class="list-group-item list-group-item-action">
             <h2>General Assembler</h2>
             <h5>Play around and write your own code here!</h5>
         </a>
     </div>
+</div></div>
 {% endblock %}

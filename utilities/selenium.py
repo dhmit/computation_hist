@@ -12,9 +12,12 @@ class SeleniumTestCase(StaticLiveServerTestCase):
 
         options = webdriver.ChromeOptions()
         options.add_argument('--headless')
+        options.add_argument('--window-size=1920,1080')
 
         self.driver = webdriver.Chrome(desired_capabilities=desires,
                                        chrome_options=options)
+
+        self.driver.implicitly_wait(5)
         super().setUp()
 
     def tearDown(self):
