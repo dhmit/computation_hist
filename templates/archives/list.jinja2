@@ -16,11 +16,11 @@
 
 {% block header %}
     {% if model_str == 'people' %}
-        People in the Collection
+        People in the Archives
     {% elif model_str == 'organizations' %}
-        Organizations in the Collection
+        Organizations in the Archives
     {% elif model_str == 'folders' %}
-        Folders in the Collection
+        Folders in the Archives
     {% endif %}
 {% endblock %}
 
@@ -38,8 +38,8 @@
                         <th>Documents Authored</th>
                         <th>Documents Received</th>
                     {% elif model_str == 'folders' %}
-                        <th>Folder Number</th>
-                        <th>Folder Name</th>
+                        <th>#</th>
+                        <th>Name</th>
                     {% endif %}
                 </tr>
             </thead>
@@ -53,6 +53,6 @@
     <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.18/datatables.min.js"></script>
     <script type="module"> 
         import { create_datatable } from "{{ static('js/data_tables.js') }}";
-        create_datatable("{{ model_str|safe }}", {{ obj_list|safe }});
+        create_datatable("data_table", "{{ model_str|safe }}", {{ obj_list|safe }});
     </script>
 {% endblock %}
