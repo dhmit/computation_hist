@@ -17,9 +17,10 @@
     <link rel="stylesheet" href="{{ static('css/styles.css') }}" type="text/css">
     <link rel="stylesheet" href="{{ static('css/acre_font.css') }}" type="text/css">
 
-    <title>{% block title %} Computational History {% endblock %} - MIT Computation Center Archives</title>
+    <title>{% block title %}{% endblock %}{% if self.title() %} - {% endif %}
+           Archival History of Computing at MIT</title>
 
-    {%  block extraheader %}{% endblock %}
+    {% block extraheader %}{% endblock %}
 
 </head>
 <body><wrapper class='d-flex flex-column'>
