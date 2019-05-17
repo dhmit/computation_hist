@@ -41,8 +41,8 @@ def process_search(search_params):
 
         temp_people_Q = Q()
         for word in keywordlist:
-            temp_people_Q |= Q(first__icontains=word)
-            temp_people_Q |= Q(last__iexact=word)
+            temp_people_Q &= (Q(first__icontains=word) | Q(last__iexact=word))
+
             people_qs = Person.objects.filter(Q(first__icontains=word) | Q(last__iexact=word))
             organization_objs = Organization.objects.filter(Q(name__icontains=word))
 
