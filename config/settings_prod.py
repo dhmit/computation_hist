@@ -12,14 +12,12 @@ https://docs.djangoproject.com/en/2.1/ref/settings/
 
 from .settings_base import *
 
-SECRET_KEY = os.environ['DJANGO_SECRET_KEY'] # currently set in venv
-
-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['comphist-test.digitalhumanitiesmit.org']
+SECRET_KEY = os.environ['DJANGO_SECRET_KEY'] # currently set in venv
 
+ALLOWED_HOSTS = ['comphist.digitalhumanitiesmit.org']
 
 # TODO(ra): production loggers to file / Sentry
 
