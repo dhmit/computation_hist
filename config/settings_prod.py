@@ -12,6 +12,8 @@ https://docs.djangoproject.com/en/2.1/ref/settings/
 
 from .settings_base import *
 
+print('reading production settings!')
+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
@@ -19,41 +21,14 @@ SECRET_KEY = os.environ['DJANGO_SECRET_KEY'] # currently set in venv
 
 ALLOWED_HOSTS = ['comphist.digitalhumanitiesmit.org']
 
-# TODO(ra): production loggers to file / Sentry
+ADMINS = ['rahmed@mit.edu'] # Django will email Ryaan on internal server errors
 
-LOGGING = {
-    'version': 1,
-    'disable_existing_loggers': False,
-    'root': {
-        'level': 'WARNING',
-        'handlers': ['console'],
-    },
-    'formatters': {
-        'verbose': {
-            'format': '%(levelname)s %(asctime)s %(module)s '
-                      '%(process)d %(thread)d %(message)s'
-        },
-        'db_queries': {
-            'format': '\nDB Query - %(asctime)s: %(message)s'
-        },
-    },
-    'handlers': {
-        'console': {
-            'class': 'logging.StreamHandler',
-            'formatter': 'verbose'
-        },
-        'console_db': {
-            'level': 'DEBUG',
-            'class': 'logging.StreamHandler',
-            'formatter': 'db_queries'
-        },
-    },
-    'loggers': {
-#        'django.db.backends': {
-#            'level': 'DEBUG',
-#            'handlers': ['console_db'],
-#            'propagate': False,
-#        },
-    },
-}
+
+# logging via sentry
+import sentry_sdk
+from sentry_sdk.integrations.django import DjangoIntegration
+sentry_sdk.init(
+    dsn="https://7e07eb1932794acb815991163d9195b5@sentry.io/1462136",
+    integrations=[DjangoIntegration()]
+)
 
