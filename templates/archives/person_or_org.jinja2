@@ -1,0 +1,87 @@
+{% extends "base.jinja2" %}
+
+{% block title %}
+    {% if person is defined %}
+        {{ person.fullname }}
+    {% elif org is defined %}
+        {{ org.name }}
+    {% endif %}
+{% endblock %}
+
+{% block header %}
+    {{ self.title() }}
+{% endblock %}
+
+{% block content %}
+<ul class="nav nav-tabs acre" role="tablist">
+  <li class="nav-item">
+    <a class="nav-link active" id="docs-written-tab" data-toggle="tab" href="#docs-written"
+       role="tab" aria-controls="home" aria-selected="true">Documents Written ({{ docs_written_list|length }})</a>
+  </li>
+
+  <li class="nav-item">
+    <a class="nav-link" id="docs-received-tab" data-toggle="tab" href="#docs-received"
+       role="tab" aria-controls="profile" aria-selected="false">Documents Received ({{ docs_received_list|length }})</a>
+  </li>
+
+  <li class="nav-item">
+    <a class="nav-link" id="docs-cced-tab" data-toggle="tab" href="#docs-cced"
+       role="tab" aria-controls="contact" aria-selected="false">Documents CCed ({{ docs_cced_list|length }})</a>
+  </li>
+</ul>
+
+
+<div class="tab-content">
+    <div class="tab-pane fade show active" role="tabpanel" id="docs-written" aria-labelledby="docs-written-tab">
+    <div class="row" id="data_table_row"><div class="col">
+        <table id="docs_written_datatable" class="display" cellspacing="0" width="100%">
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Document</th>
+                </tr>
+            </thead>
+        </table>
+    </div></div>
+    </div>
+
+    <div class="tab-pane fade" role="tabpanel" id="docs-received" aria-labelledby="docs-received-tab">
+    <div class="row" id="data_table_row"><div class="col">
+        <table id="docs_recieved_datatable" class="display" cellspacing="0" width="100%">
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Document</th>
+                </tr>
+            </thead>
+        </table>
+    </div></div>
+    </div>
+
+    <div class="tab-pane fade" role="tabpanel" id="docs-cced" aria-labelledby="docs-cced-tab">
+    <div class="row" id="data_table_row"><div class="col">
+        <table id="docs_cced_datatable" class="display" cellspacing="0" width="100%">
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Document</th>
+                </tr>
+            </thead>
+        </table>
+    </div></div>
+    </div>
+</div>
+{% endblock %}
+
+
+{% block scripts %}
+    <link rel="stylesheet" href="{{ static('css/data_tables.css') }}" type="text/css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.18/datatables.min.css"/>
+    <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.18/datatables.min.js"></script>
+    <script type="module"> 
+        import { create_datatable } from "{{ static('js/data_tables.js') }}";
+        create_datatable('docs_written_datatable', 'person_or_org', {{ docs_written_list|safe }});
+        create_datatable('docs_recieved_datatable', 'person_or_org', {{ docs_received_list|safe }});
+        create_datatable('docs_cced_datatable', 'person_or_org', {{ docs_cced_list|safe }});
+    </script>
+{% endblock %}

@@ -1,0 +1,15 @@
+#data_table_row {
+    background: #eee;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+th, label {
+    font-family: 'Acre-Regular';
+    text-transform: uppercase;
+}
+
+th {
+    padding-left: 5px;
+}
+

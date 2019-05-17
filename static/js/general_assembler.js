@@ -16,6 +16,13 @@ function display_operations() {
         operations.add(operation);
     }
 
+    operations.add("DEC");
+    operations.add("ORG");
+    operations.add("BSS");
+    operations.add("BES");
+    operations.add("EQU");
+    operations.add("SYN");
+
     const operations_str = Array.from(operations).join(", ");
     const place = document.getElementById("available_operations");
     place.innerText = operations_str;
@@ -91,4 +98,17 @@ export function start() {
     renderer.update();
     $('[data-toggle="tooltip"]').tooltip();
     $("#loading").hide();
+
+    const title = document.getElementById("main_header");
+    title.setAttribute("data-intro", "Welcome to the IBM 704 simulator!");
+    title.setAttribute("data-step", "1");
+    title.setAttribute("data-position", "bottom");
+    if (localStorage.getItem("general_assembler_run_before") === null) {
+        if (localStorage.getItem("demo_run_before") === null) {
+            introJs().start(); // jshint ignore:line
+        } else {
+            introJs().goToStepNumber(10).start(); // jshint ignore:line
+        }
+        localStorage.setItem("general_assembler_run_before", "true");
+    }
 }

@@ -225,16 +225,16 @@ export class GeneralAssemblerRenderer extends Renderer {
 
         const line = $(`
             <div class="row code_line" id="code_line_${this.num_lines}">
-                  <p class="line_no_text">
-                          ${this.num_lines + 1}.
-                  </p>
-                  <div class="col-sm px-2" id="code_label_${this.num_lines}">
+                  <div class="col-sm-1 px-2 line_no_text">
+                         <p>${this.num_lines + 1}.</p>
+                  </div>
+                  <div class="col-sm-3 px-2" id="code_label_${this.num_lines}">
                          <textarea class="form-control code_box code_label" rows="1"></textarea>
                   </div>
-                  <div class="col-sm px-2" id="code_operation_${this.num_lines}">
+                  <div class="col-sm-3 px-2" id="code_operation_${this.num_lines}">
                          <textarea class="form-control code_box code_operation" rows="1"></textarea>
                   </div>
-                  <div class="col-sm px-2" id="code_numbers_${this.num_lines}">
+                  <div class="col-sm-4 px-2" id="code_numbers_${this.num_lines}">
                          <textarea class="form-control code_box code_numbers" rows="1"></textarea>
                   </div>
            </div>

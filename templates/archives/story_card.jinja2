@@ -1,15 +1,24 @@
-<div class='col-md-6 col-lg-4 my-4 pr-5'><div class="px-1">
-    <a href="{% url 'story' story %}" style="color: black">
-        <div class="row story-teaser-img-container">
-            <img src="{{ static('img/stories/' + story + '-teaser.png') }}"
-                 alt="Teaser image for {{ story }}"
-                 class="story-teaser-img"/>
-        </div></a>
+<div class='col-12 col-md-6 col-lg-4
+            mb-2
+            p-0'>
 
-        <div class="row">
-            <a href="{% url 'story' story %}" style="color: black"><span class="story-title">{% block story_title %}{% endblock %}</span></a>
-            <a href="{% url 'story' story %}" style="color: black"><span class="story-teaser">{% block story_teaser %}{% endblock %}</span></a>
+    <div class='panel story-card-panel mr-md-2'>
+        <a href="{% url 'story' story %}" style="color: black">
+            <div class="row story-teaser-img-container">
+                <div class="col">
+                    <img src="{{ static('img/stories/' + story + '-teaser.jpg') }}"
+                         alt="Teaser image for {{ story }}"
+                         class="story-teaser-img"/>
+                </div>
+            </div>
+        </a>
+
+        <div class="row p-2">
+            <div class="col" style="height: 100%;">
+                <a href="{% url 'story' story %}" style="color: black"><span class="story-title">{% block story_title %}{% endblock %}</span></a>
+                <a href="{% url 'story' story %}" style="color: black"><span class="story-teaser">{% block story_teaser %}{% endblock %}</span></a>
+            </div>
         </div>
 
-</div></div>
-
+    </div>
+</div>
