@@ -150,7 +150,15 @@ class Document(models.Model):
             TODO: handle authors and date correctly
             see format at: https://dal.ca.libguides.com/archivalresearch/citation/APA 
         """
-        cite = f'<i>{self.title}</i>. Records of the Massachusetts Institute of Technology Computation Center (AC.0062, Box {self.folder.box.number}, Folder {self.folder.number}). MIT Libraries Department of Distinctive Collections, Massachusetts Institute of Technology."'
+        author_names = ''
+        for author in self.author_person.all():
+            author_names += author.last + ', ' + author.first + ';'
+
+        # Removes last semicolon from author list
+        author_names = author_names[:-1]
+
+        cite = f'{author_names} ({self.date}). <i>{self.title}</i>. Records of the Massachusetts ' \
+            f'Institute of Technology Computation Center (AC.0062, Box {self.folder.box.number}, Folder {self.folder.number}). MIT Libraries Department of Distinctive Collections, Massachusetts Institute of Technology.'
         return cite
 
     @property
