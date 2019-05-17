@@ -1,28 +1,29 @@
 {% extends "base.jinja2" %}
 
 {% block title %}
-About the Lab
+About
 {% endblock %}
 
+{% block header %}
+About the Project
+{% endblock %}
+
+
 {% block content %}
-
-    <div align="center">
-    <h1>About the Project</h1>
-    </div>
-    <br>
-
+<div class="row"><div class="panel mb-4 p-4">
     <p>The Archival History of Computing project began in November, 2018 with an undergraduate cohort of students under the mentorship of the staff of the Digital Humanities program at MIT. Every member of the team has contributed to the project's design, development, implementation, and maintenance.</p>
     <p>Undergraduates participated by visiting the archives, digitizing documents, creating metadata, building the website, and conducting analyses. These students created all the data visualizations and stories present on this website. Every individual contribution, along with work done in small teams, was integral to this digitization and contextualization of the MIT Computation Center's Archives.</p>
     <p>You can learn more about <a href="https://digitalhumanities.mit.edu/">the Digital Humanities program at MIT</a> and check out our last project <a href="http://gendernovels.digitalhumanitiesmit.org/">Gender/Novels</a>. As part of our commitment to open source, you can download the code we created for this project on <a href="https://github.com/dhmit/computation_hist">Github</a>.</p>
     <p><a href="https://libraries.mit.edu/archives/"> MIT Archives</a></p>
+</div></div>
 
-    <br>
+<div class="row"><div class="col p-0">
 
     <div class="text-center">
 
-    <h2 class='mb-4'><a href="http://uaap.mit.edu/research-exploration/urop">UROP</a> Members</h2>
+    <h2 class='panel mb-2'><a href="http://uaap.mit.edu/research-exploration/urop">UROP</a> Members</h2>
     
-    <div class="row">
+    <div class="row mb-4">
         <div class="col team-member">
             <img class="mx-auto" src="{{ static("img/team/Abreu_Alan.jpg") }}" alt="Alan Abreu">
             <h4 class="pt-1"><b>Alan Abreu</b></h4>
@@ -38,7 +39,7 @@ About the Lab
         <div class="col team-member">
             <img class="mx-auto" src="{{ static("img/team/Atia_Dina.jpg") }}" alt="Dina Atia">
             <h4 class="pt-1"><b>Dina Atia</b></h4>
-            <p class="text-muted"></p>
+            <p class="text-muted">Race and Gender Specialist</p>
         </div>
 
         <div class="col team-member">
@@ -50,7 +51,7 @@ About the Lab
         <div class="col team-member">
             <img class="mx-auto" src="{{ static("img/team/Boal_Elena.jpg") }}" alt="Elena Boal">
             <h4 class="pt-1"><b>Elena Boal</b></h4>
-            <p class="text-muted"></p>
+            <p class="text-muted">Metadata Specialist</p>
         </div>
 
         <div class="col team-member">
@@ -111,6 +112,12 @@ About the Lab
             <img class="mx-auto" src="{{ static("img/team/York_Samantha.jpg") }}" alt="Samantha York">
             <h4 class="pt-1"><b>Samantha York</b></h4>
             <p class="text-muted">OCR and Network Visualizations</p>
+        </div>
+
+        <div class="col team-member pt-5">
+
+            <h4 class="pt-1">Fall <br>Members</h4>
+            <p class="text-muted"></p>
         </div>
 
         <div class="col team-member">
@@ -186,7 +193,7 @@ About the Lab
         </div>
     </div>
 
-    <h2 class="mb-4">Staff</h2>
+    <h2 class="panel mb-2">Staff</h2>
 
     <div class="row">
         <div class="col team-member">
@@ -226,6 +233,7 @@ About the Lab
         </div>
     </div>
     </div><!-- end text-center -->
+</div>
 </div>
 
 {% endblock %}

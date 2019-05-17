@@ -7,78 +7,94 @@
 
 {% block content %}
     {% block extra_stuff_at_top %}{% endblock %}
-    <br />
-    <div class="container">
+    <div class="row"><div class="col">
         <h6 id="loading">Loading...</h6>
-        <div class="row">
-            <div class="col-sm-4" data-step="2" data-intro="This is where the IBM 704 Assembly Language
+
+        <div class="row mb-2">
+            <div class="col-sm-6 p-0 mb-2 mb-sm-0" data-step="2" data-intro="This is where the IBM 704 Assembly Language
             code is displayed as it would be entered into a Symbolic Coding Form.">
+            <div class="panel p-4 mr-2" style="height: 100%">
                 <h3>Code</h3>
-                <div id="code">
+                <div class="pre-scrollable mb-2" id="code"> {# TODO: make sure this doesn't obscure the line numbers #}
                     <div id="code_heading" class="row">
-                        <p>  </p>
-                        <div class="col-sm px-2">Lbl</div>
-                        <div class="col-sm px-2">Op</div>
-                        <div class="col-sm px-2">ATD</div>
+                        <div class="col-sm-1 px-2">#</div>
+                        <div class="col-sm-3 px-2" >Lbl</div>
+                        <div class="col-sm-3 px-2">Op</div>
+                        <div class="col-sm-4 px-2">ATD</div>
                     </div>
                 </div>
                 {% if simulation_name == 'general_assembler' %}
-                    <div id="class_buttons">
-                        <button type="button" id="add_line">+</button>
-                        <button type="button" id="remove_line">-</button>
+                    <div class="mb-2" id="class_buttons">
+                        <button class="btn btn-primary btn-small" type="button" id="add_line">+</button>
+                        <button class="btn btn-primary btn-small" type="button" id="remove_line">-</button>
                     </div>
                 {% endif %}
-            <br />
-            <h4>Help</h4>
-            <p>Instruction to be executed next is highlighted in <span class="next_instruction">blue</span>.</p>
-            <p>Target address of instruction to be executed next is highlighted in <span class="target_register">pink</span>.</p>
-            <p>Mouse over words (the binary numbers) to see how they could be interpreted.</p>
-            <br />
+                <div class="sim_buttons mb-2 text-center">{% block buttons %}{% endblock %}</div>
+                <div class="col-sm-12 text-center bg-light border border-primary" id = "line_desc" data-step="9"
+                     data-intro="This is a brief description of the next operation to be executed."></div>
+
             </div>
-            <div class="col-sm-5" data-step="3" data-intro="This is the display of the data in the computer's general
+            </div>
+
+            <div class="col-sm-6 panel text-center" data-step="3" data-intro="This is the display of the data in the computer's general
              memory.  Mouse over a register to see the possible interpretations of the binary.">
                 <h3>General Memory</h3>
-                <h6><a href="../ibm_704_words_explanation">About Interpreting Words</a></h6>
-                <div class="pre-scrollable" id="general_memory_div"></div>
-                <br />
-            </div>
-            <div class="col-sm-3" id="other_registers" data-step="4" data-intro="These are special registers for
-            storage and operations.  You can mouse over these registers as well.">
-                <h3>Other Registers: </h3>
-
-                <p data-step="5" data-intro="This is the instruction location counter, which determines the address of
-                 the instruction that the computer will execute.  When the computer is stopped, it shows the address
-                 of the next instruction to be executed.">Instruction Location Counter: <span id="instruction_location_counter" class="number" data-toggle="tooltip"></span></p>
-
-                <p>Instruction Register: <span id="instruction_register" class="number" data-toggle="tooltip"></span></p>
-
-                <p>Storage Register: <span id="storage_register" class="number" data-toggle="tooltip"></span></p>
-
-                <p data-step="6" data-intro="This is the accumulator, which is used for addition and
-                subtraction operations.">Accumulator: <span id="accumulator" class="number"
-                                                            data-toggle="tooltip"></span></p>
-
-                <p data-step="7" data-intro="This is the Multiplier-Quotient register, which is
-                used for multiplication and division operations.">Multiplier-Quotient Register: <span
-                        id="mq_register" class="number" data-toggle="tooltip"></span></p>
-
-                <div data-step="8" data-intro="These are the index registers, which are used for address modification
-                 and control flow.">
-                    <p>Index Register A: <span id="index_a" class="number" data-toggle="tooltip"></span></p>
-                    <p>Index Register B: <span id="index_b" class="number" data-toggle="tooltip"></span></p>
-                    <p>Index Register C: <span id="index_c" class="number" data-toggle="tooltip"></span></p>
-                </div>
-                <br />
+                <div class="pre-scrollable mb-2" id="general_memory_div"></div>
+                <h6><a href="../ibm_704_words_explanation">What does this mean?</a></h6>
             </div>
         </div>
 
-        <div class="col-sm-12 sim_buttons">{% block buttons %}{% endblock %}</div>
+        <div class="row mb-2">
+            <div class="col-sm-3 mr-sm-2 mb-2 mb-sm-0 panel">
+                <h4>Help</h4>
+                    <p>Instruction to be executed next is highlighted in <span class="next_instruction">blue</span>.</p>
+                    <p>Target address of instruction to be executed next is highlighted in <span class="target_register">pink</span>.</p>
+                    <p>Mouse over words (the binary numbers) to see how they could be interpreted.</p>
+            </div>
+            <div class="col" id="other_registers" data-step="4" data-intro="These are special registers for
+             storage and operations.  You can mouse over these registers as well.">
+                <div class="row panel" style="height: 100%">
+                <div class="col">
+                <h3>Other Registers: </h3>
+                    <p data-step="5" data-intro="This is the instruction location counter, which determines the address of
+                         the instruction that the computer will execute.  When the computer is stopped, it shows the address
+                         of the next instruction to be executed.">Instruction Location Counter<br/>
+                     <span id="instruction_location_counter" class="number" data-toggle="tooltip"></span></p>
+                    <p>Instruction Register<br/>
+                    <span id="instruction_register" class="number" data-toggle="tooltip"></span></p>
+                    <p>Storage Register<br/>
+                       <span id="storage_register" class="number" data-toggle="tooltip"></span></p>
+                </div>
+                <div class="col">
+                        <p data-step="6" data-intro="This is the accumulator, which is used for addition and
+                            subtraction operations.">Accumulator<br/>
+                            <span id="accumulator" class="number" data-toggle="tooltip"></span>
+                        </p>
+
+                        <p data-step="7" data-intro="This is the Multiplier-Quotient register, which is
+                            used for multiplication and division operations.">Multiplier-Quotient Register: <span
+                            id="mq_register" class="number" data-toggle="tooltip"></span></p>
+                </div>
+                <div class="col" data-step="8" data-intro="These are the index registers, which are used for address modification
+                 and control flow.">
+                        <p>Index Register A<br/><span id="index_a" class="number" data-toggle="tooltip"></span></p>
+                        <p>Index Register B<br/><span id="index_b" class="number" data-toggle="tooltip"></span></p>
+                        <p>Index Register C<br/><span id="index_c" class="number" data-toggle="tooltip"></span></p>
+                </div>
+                </div>
+            </div>
+        </div>
+
+    </div></div>
+
+
     </div>
-    <br>
-    <div class="col-sm-12 text-center bg-light border border-primary" id = "line_desc" data-step="9" data-intro=
-    "This is a brief description of the next operation to be executed."></div>
-    <br />
-    <div id="description" class="jumbotron text-left">{% block description %}{% endblock %}</div>
+
+
+
+    <div class="row">
+        <div id="description" class="col panel">{% block description %}{% endblock %}</div>
+    </div>
 
     <div class="modal" tabindex="-1" role="dialog" id="error_message">
       <div class="modal-dialog" role="document">
@@ -127,7 +143,10 @@
                 $(document).ready(() => {
                     Demos.start_demo(Demos.looping_with_tix_demo_params);
                 });
-
+            {% elif simulation_name == 'subroutine' %}
+                $(document).ready(() => {
+                    Demos.start_demo(Demos.subroutine_demo_params);
+                });
             {% endif %}
 
         </script>

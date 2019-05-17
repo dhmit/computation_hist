@@ -35,7 +35,7 @@ class Person(models.Model):
         if self.last and self.first:
             return self.last + ', ' + self.first
         elif self.last:
-            return self.last
+            return self.last + ', [first name unknown]'
         elif self.first:
             return self.first
         else:
@@ -53,7 +53,14 @@ class Person(models.Model):
 
     @property
     def fullname(self):
-        return self.first + " " + self.last
+        if self.last and self.first:
+            return self.first + " " + self.last
+        elif self.last:
+            return '[first name unknown] ' + self.last
+        elif self.first:
+            return self.first + ' [last name unknown]'
+        else:
+            return "No name"
 
     @property
     def url(self):
@@ -136,6 +143,15 @@ class Document(models.Model):
 
     def __repr__(self):
         return f"<Document {self.title}>"
+
+    @property
+    def citation(self):
+        """ return a properly formatted citation as a string of HTML
+            TODO: handle authors and date correctly
+            see format at: https://dal.ca.libguides.com/archivalresearch/citation/APA 
+        """
+        cite = f'<i>{self.title}</i>. Records of the Massachusetts Institute of Technology Computation Center (AC.0062, Box {self.folder.box.number}, Folder {self.folder.number}). MIT Libraries Department of Distinctive Collections, Massachusetts Institute of Technology."'
+        return cite
 
     @property
     def url(self):

@@ -55,7 +55,6 @@ class SimulationsTestCase(SeleniumTestCase):
         self.driver.find_element_by_class_name('code_label').send_keys("LABEL")
         self.driver.find_element_by_class_name('code_operation').send_keys("ADD")
         self.driver.find_element_by_class_name('code_numbers').send_keys("LABEL+1, 3")
-        self.scroll_to(self.driver.find_element_by_id('assemble_button'))
         self.driver.find_element_by_id('assemble_button').click()  # assemble code
         self.driver.find_element_by_id('step_button').click()  # test the step button
         self.driver.find_element_by_id('run_button').click()  # test the run button

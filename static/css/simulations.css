@@ -4,6 +4,7 @@
 
 .tooltip {
   pointer-events: none;
+  z-index: 99999999; /* so these show up over introjs */
 }
 
 .blink {
@@ -32,6 +33,10 @@ code {
     overflow-wrap: break-word;
 }
 
+body {
+    scrollbar-color: dark;
+}
+
 .code_line {
     flex-wrap: nowrap;
 }
@@ -54,6 +59,11 @@ code {
 
 #general_memory_div {
     font-family: Acre-Regular, monospace;
+}
+
+#general_memory_div p {
+    margin-bottom: .25em;
+
 }
 
 #other_registers {

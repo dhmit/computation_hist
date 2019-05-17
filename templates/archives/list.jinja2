@@ -1,40 +1,28 @@
 {% extends "base.jinja2" %}
 
 {% block title %}
-
-    {% if model_str == 'organization' %}
+    {% if model_str == 'organizations' %}
         Organizations
-    {% elif model_str == 'person'%}
+    {% elif model_str == 'people'%}
         People
-    {% elif model_str == 'folder' %}
+    {% elif model_str == 'folders' %}
         Folders
-    {% elif model_str == 'box' %}
-        Boxes
-    {% elif model_str == 'doc' %}
-        Documents
     {% endif %}
+{% endblock %}
 
+{% block header %}
+    {% if model_str == 'people' %}
+        People in the Archives
+    {% elif model_str == 'organizations' %}
+        Organizations in the Archives
+    {% elif model_str == 'folders' %}
+        Folders in the Archives
+    {% endif %}
 {% endblock %}
 
 {% block content %}
-
-    <div class="row">
-        <div class="col-12 text-center">
-            <h1>
-                {% if model_str == 'people' %}
-                    People in the Collection
-                {% elif model_str == 'organizations' %}
-                    Organizations in the Collection
-                {% elif model_str == 'folders' %}
-                    Folders in the Collection
-                {% endif %}
-            </h1>
-        </div>
-    </div>
-
-    <div class="row" id="data_table_row">
-        <div class="col-12">
-            <table id="data_table" class="display" cellspacing="0" width="100%">
+    <div class="row" id="data_table_row"><div class="col">
+        <table id="data_table" class="display" cellspacing="0" width="100%">
             <thead>
                 <tr>
                     {% if model_str == 'people' %}
@@ -46,15 +34,13 @@
                         <th>Documents Authored</th>
                         <th>Documents Received</th>
                     {% elif model_str == 'folders' %}
-                        <th>Folder Number</th>
-                        <th>Folder Name</th>
+                        <th>#</th>
+                        <th>Name</th>
                     {% endif %}
                 </tr>
             </thead>
         </table>
-        </div>
-    </div>
-
+    </div></div>
 {% endblock %}
 
 {% block scripts %}
@@ -63,6 +49,6 @@
     <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.18/datatables.min.js"></script>
     <script type="module"> 
         import { create_datatable } from "{{ static('js/data_tables.js') }}";
-        create_datatable("{{ model_str|safe }}", {{ obj_list|safe }});
+        create_datatable("data_table", "{{ model_str|safe }}", {{ obj_list|safe }});
     </script>
 {% endblock %}

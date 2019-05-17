@@ -5,7 +5,6 @@ class ArchivesTestCase(SeleniumTestCase):
     def test_index(self):
         """ Test that the index page renders correctly """
         self.driver.get(self.live_server_url)
-        self.assertIn('Home Page', self.driver.title)
         self.check_log_for_errors()
 
     def test_stories(self):
@@ -35,7 +34,6 @@ class ArchivesTestCase(SeleniumTestCase):
     def test_a_story(self):
         """ Test that a story on the index page can be loaded without issue"""
         self.driver.get(self.live_server_url)
-        self.assertIn('Home Page', self.driver.title)
         story = self.driver.find_elements_by_class_name("story-teaser-img-container")[0]
         story.find_element_by_xpath('..').click()
         self.check_log_for_errors()
