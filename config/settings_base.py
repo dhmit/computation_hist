@@ -131,6 +131,7 @@ DATABASES = {
         'NAME': 'comphist_test',
         'USER': 'comphist_readonly',
         'PASSWORD': 'readonly',
+        'CONN_MAX_AGE': 60 * 10, # allow db connections to persist for 10 minutes to speed up doc browsing
     }
 }
 
