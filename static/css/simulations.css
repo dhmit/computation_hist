@@ -4,6 +4,7 @@
 
 .tooltip {
   pointer-events: none;
+  z-index: 99999999; /* so these show up over introjs */
 }
 
 .blink {
