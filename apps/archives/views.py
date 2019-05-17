@@ -10,6 +10,7 @@ from utilities.common import load_pickle
 
 
 STORIES = [
+    'project_history',
     'announcement_of_the_IBM_704',
     'beginnings_of_cs_at_mit',
     'cost_of_using_a_supercomputer',
