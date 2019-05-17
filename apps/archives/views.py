@@ -14,11 +14,12 @@ STORIES = [
     'beginnings_of_cs_at_mit',
     'cost_of_using_a_supercomputer',
     'digital_humanities',
+    'IBM_mechanics',
     'network_story',
     'qualifications_for_programmer',
     'three_man_months',
-    'women_in_symbols',
     'whirlwind',
+    'women_in_symbols',
 ]
 
 
