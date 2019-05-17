@@ -150,7 +150,7 @@ class Document(models.Model):
             TODO: handle authors and date correctly
             see format at: https://dal.ca.libguides.com/archivalresearch/citation/APA 
         """
-        cite = f'<i>{self.title}</i>. Records of the Massachusetts Institute of Technology Computation Center (AC.0062, Box {self.folder.box.number}, Folder {self.folder.number}). MIT Libraries Department of Distinctive Collections, Massachusetts Institute of Technology."'
+        cite = f'<i>{self.title}</i>. Records of the Massachusetts Institute of Technology Computation Center (AC.0062, Box {self.folder.box.number}, Folder {self.folder.number}). MIT Libraries Department of Distinctive Collections, Massachusetts Institute of Technology.'
         return cite
 
     @property
