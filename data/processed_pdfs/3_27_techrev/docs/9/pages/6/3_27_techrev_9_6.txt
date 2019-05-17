@@ -1,0 +1,114 @@
+chologist and social scientist, on the one hand, to
+the economic and political behavior of large groups
+as measured by the Census Bureau or reported by
+historians, on the other hand. The use of machine
+simulation will be a powerful means of establishing
+such connections, of developing the statistical me-
+chanics of social groups. Here the experimental tech-
+niques so useful in physics and chemistry are not
+possible; we cannot make a five-year experiment on
+a large group of people—at least not in this country.
+Computing machines, carefully and imaginatively
+programmed, may be able to take the place of the
+live group to an extent sufficient for the experiment,
+and the test may be run through in five hours instead
+of five years. The procedure has its pitfalls and
+difficulties, of course, but it is a promising one.
+
+Machine simulation may also help shed light in
+the science of psychology. The human brain is a
+highly complex aggregate of nerve cells, each of
+which has fairly simple properties. How does such
+an aggregate remember, learn, or decide? Perhaps
+machine simulation studies — studies of the behavior
+of aggregates of simplified neuron responses — can
+help answer these questions even though the largest
+present computer has too few elements to simulate
+the complexity of a bird’s brain, let alone man’s.
+Some members of the Institute’s Department of
+Mathematics are interested in these questions and
+plan to use the 704 to test some of their ideas.
+
+But we have left our visitor unescorted. with some
+of his questions unanswered. What is this versatile
+cgadget which is turning out to be so useful in so
+many scientific problems? Is it going to take over
+our thinking for us, as the automobile has substi-
+tuted for our legs? To fear that eventuality is to
+misunderstand the functioning of an electronic com-
+puter. A machine like the 704 can really do only a
+few very simple things: it can count; it can remem-
+ber; and it can compare. It can do these things much
+faster and more accurately than we can, of course,
+
+4
+
+The tabulator unit is
+one of the channels by
+which the 704 unit re-
+ports its results, in this
+case as letters, words, or
+numbers printed on a
+sheet of paper. Other
+direct output channels
+are the wvisual imgges
+produced on a cathode-
+ray screen, indirect out-
+put or input channels
+are the card-punch unit
+(opposite page) and the
+magnetic tape  units.
+Two tabulator units are
+provided, one connected
+directly to the machine
+(on line) which is used
+for problems with a
+small amount of final
+answer.
+
+M.I.T. Photographic Service
+
+but that is all it can do. In three minutes it can do
+as much straight calculation — adding, multiplying,
+and the like — as would require a human computer
+(using a desk calculator) a month to do. It can store
+10-digit numbers in its core memory, and retrieve
+them on demand in a forty-thousandth of a second,
+and do this several billion times without an error.
+And it can make the simplest sort of judgment —
+tell whether one number is larger or smaller than
+another — and base its next actions on the result.
+
+It can do these things speedily and dependably,
+but this is all it can do. All the complex procedures
+of the calculations mentioned earlier must be built
+up laboriously by the programmer using these simple
+elements. And every action must be spelled out in
+detail. “Get this piece of data from storage register
+113 and add it to what you have already; put the
+answer back in storage register 267; get the next
+piece of data from register 114, multiply it by two;
+if the result is larger than the number in register
+1243, add it to the result in register 267; if not, re-
+turn it and get the next number” — and so on, in
+endless and meticulous detail. Every possibility must
+be thought of; every time a division is ordered, the
+machine must be told what to do if the devisor is
+zero, for example. It is easy to see why it usually
+takes three months for a beginner to program a
+problem that the machine may run through in less
+than an hour.
+
+It does not do to take a chance or to ask the ma-
+chine to stop while you figure out what to do next.
+Machine time is too valuable for that; a minute’s
+hold-up is equivalent to asking a human computer
+to wait a week while you make up your mind; the
+machine could be halfway through someone else’s
+problem while you are figuring out what went wrong.
+Things do go wrong, of course. Many programs
+have “bugs” in them when they are first tried out.
+In this case the machine is instructed to print out
+where it was and what it was doing and then make
+
+e E—————E

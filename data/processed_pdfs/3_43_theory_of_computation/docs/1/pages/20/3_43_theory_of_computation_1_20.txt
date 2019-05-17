@@ -1,0 +1,148 @@
+SRR TSN,
+
+  
+  
+  
+ 
+  
+
+  
+
+ 
+
+ 
+
+- N S e ey .| G et 2t . S g
+- - N o — - =
+
+c e e gy e T 2 " .
+
+= = > g
+
+— It
+
+-
+
+ 
+
+- ——
+-
+
+-
+
+‘and in general for cach k = 1,n-1
+
+   
+     
+    
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+  
+  
+    
+     
+  
+    
+  
+   
+  
+   
+  
+ 
+
+replacement on formulas we need the additional ‘ PR
+B e =D 8 e FOLa = i ) axioms
+i +1 g A
+Py ey ey 1y Stk (9) (p-+(q->a,b),ec) = (0= (q— (p—a,a),
+and each ai ,...,i is a truth value or a general (p-ﬁ-b’b))’c)
+1 n
+
+and
+variable,
+
+(10) (p — a,(q — b,e)) =, (P = a,(q - (p— b,b),
+For example, the canonical form of |
+((p->qfr)->a,b) . g - Suppose there is an occurrence of p. in the
+with the variables taken in the order r,q,p is i _ .
+conclusion; we want to replace it by T. To do
+(r — (q i (p _ a:a)’(p e b)a)); (q = (p m— a:b);
+
+this, we usc axioms 9 and 10 to move in ga
+z (p = b,b))) ; Py
+In this canonical form, the 2 cases of the truth
+
+or falsity of pl,...,pn are explicitly exhibited.
+
+(b~ ¢,c)))
+
+until the objectionable P, occurs as the inner-
+
+pl of one of the forms
+An expression may be transformed into
+
+— —>
+canonical form as follows: \ .or (pl (pl ,b),c)
+1) Axiom 7 is used repeatedly until in | . (. =58, (B e 255 . |
+every sub-expression the 7 in (W~ﬂ1%~}3 ) consists 1 iy ’
+o : In either case,
+of a single propositional variable,
+
+the objectionable p; can be
+2) The variable Py is moved to the front by removed by axiom 5 or 6 and the pl's that were ;
+repeated application of axiom 8. There are three ‘moved in can be moved out again, ' |
+cases: (q— (pl-ﬁ-a,b),(pl-ﬂ'c,d)) to which axiom Thus we have (pl-—>¢“1£?) with pl missing |
+fromesand /7
+
+4) Inevitable variables ar
+
+8 is direcctly applicable,
+(q-—>a,(pl-—>c,d)) wiaere axiom 3 becomes applicable
+
+e then brought to
+after axiom 1 is used to make it the front of s<and £ and so forth,
+(q_q_(pl_ﬁ.a,a),(pl.ﬁ_c’d)) and then axiom 8 is Two gbfs are equilvalent (woakly or strongly)
+
+if and only if they have the same (weak or strong) I
+applied, the case (q-ﬁ»(pl'“>a,b),C) is handled canonical form, One way this is easy to prove;
+if two gbfs-have the sane canonic
+
+ 
+
+similarly,
+
+al form they
+: . can be transformed into each other via the
+. mmn - o siiles Khe form canonical form Suppose two gbfs hav lifferent
+® ° o ~ -~ 12 +f C £ . -
+(p1"+c*,}9) we move any P;'s which occur in o« : 0 PP a8 s drife
+
+weak canonical forns when the variables are taken
+
+in the same order, Then values can be chosen
+
+for the p's giving different values for the form
+proving non-cquivalence, In the strong case,
+
+Suppose that two gbfs do not have the same in-
+
+5 = d e i e evitable propositional variables, Iet p be in-
+
+S continuediuntdl the seliohieal sform evitable in a but not in b, Then if the other s
+Stron =y variables.afg assigned suitable values b will
+
+and 4 to the front and elininate them using axioms
+© and 6. We then bring p_ to the front of ~and &
+using axiom 1 if nceessary to guarantee at
+least one occurrcnce of p2 in each of</~anqi? -
+The process
+is achieved,
+
+: N There is also a canonical form for

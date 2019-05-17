@@ -1,0 +1,165 @@
+mhcec
+
+     
+
+(5 y)
+
+ 
+
+“&
+
+ﬁ,‘d-s sibl
+
+ 
+
+- are % and ¢
+Ebér_is defined, we”can define less(n) by
+= \lgss(n) = axﬁkn—l}less(n-l))t// :
+less(n) has the property that if Ave define .
+‘ ult(n)_é/(n:O-ﬂ-O,T-ﬂ<ult(less(n)))
+then s 7%
+‘V'((n),ixlt(n)::O) = T, |
+
+JThere are a number &F important kinds of
+mathematical argunents whose convenient formaliza-
+gigpmmaywinyolvc a@biguous functionstilin,orQOr to
+give an example, we nced two definitions., If f
+and g are two ambiguous functions, we shall sd§
+that f is a descendant of g 1T for o
+
+ach x every
+possible value of f(x) is also a possible value of
+
+Secondly, we shall say that a property of
+ambiguous functions is hereditary if whenever it
+is possessed by a function g it is also possessed
+by all descendants of g. The property that itera-
+tion of an integer valued function eventually
+gives O is hereditary and the function less has
+this property. 50, therefore, do all its
+descendants., Thus any function, however, com-
+plicated which always reduces a number will if
+iterated sufficiently always give 0,
+
+This example is one of our reasons for hoping
+
+that ambiguous functions will turn out to be
+useful, '
+
+whose' “values
+
+ 
+
+ 
+
+ 
+
+g(x)
+L NENF »
+st s
+
+With just the opcration amb defined above
+. . . 4.1 Tia T — =
+adjoined to thiese used to generate C £/ % | we
+can extend “F to the class C*g’ which may be
+
+called the computably ambiguous functions. A
+. —*‘"—”"““-—’—‘"“_—— ST .
+wider class of ambiguous functions if formed using
+
+the operator An(x,m(x)) whose values are all
+x's satisfying T(x).
+
+. . . ~ - - v 4 \ o
+NALY consistin 07 AN olonent A
+
+   
+
+, o el - tions of one variable d
+y Whénw%o@V are defined otherwise which-
+
+diroctunignﬁAQDare*g \
+
+tions r
+
+KB BB
+S j b =b.
+A,B(JA,B( ))
+
+.74 :ABXB — A is defined by a<
+
+Q
+
+       
+
+be identified wi
+efined on AxB. . =
+3 - The direct union AGB of the sets A and B
+is the union of tWo\non—intersecting subscis one
+of which is in 1-1 correspondence wi th A and. the
+other with B. Lf<A andlB are finitq, then i
+n (A@R) =‘n(A)+n(B) cven if A and B intersect.
+The elements of AoB |
+A or B subscripted with the set froi
+come, 1,6, a_ or b . =
+, A B
+
+om 1
+
+N
+N\
+
+1 which they”
+\\ 2 =N P
+3 -
+
+- - 5 .\ - 2
+
+The canonical nappings associated with the
+
+iz T
+
+i :A > AGB defined b I aY o
+A,B y A,B( )
+
+I
+o
+
+:B > A@B define '
+JA,B ©B defined by JA,B(b)
+:AOB — T defined b =
+pA,B definec y pA,B(X) T if and
+only if x comes from A,
+tAOB - T defined b X) =T if and
+Y g y qA’B( ) n
+
+only if x comes from B
+
+There are also two canonical partial func-
+
+:A@B — A  which is defined only for
+
+elements ¢oming from A and satisfies
+
+( (a))=a, Similarly sA BAOB->B satisfies
+
+)
+
+3. _The power set AP is the set of all
+mappings f:B — A. The canonical mapping
+
+£ b)) -=.£Ch
+A,B A,B( 2 £¢n)
+
+Canonical Mappings
+We will not regard the sets Ax(BxC) and
+(AXxB)XC as the same, but there is a canonical 1-1
+
+mapping between then
+
+24 - 1(AXB)XC~€-AX LxC
+A,B,C (BxC)
+
+     
+
+1y be'writtén as elements of ~

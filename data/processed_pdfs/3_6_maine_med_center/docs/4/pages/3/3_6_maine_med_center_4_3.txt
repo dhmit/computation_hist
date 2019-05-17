@@ -1,0 +1,85 @@
+1016 Annals New York Academy of Sciences
+
+the spatial dipole angle). A similar correspondence exists between t
+three-dimensional boundary distributions with other horizontal di lWo- and
+[t 1s, therefore, possible to draw the following conclusion: oS
+If the vertical angle a of a dipole in a cylindrical volume conductor is not gy
+than aboul +30°, the distribution of potential around the boundary of the cgl .eaéer
+al the level of the dipole center will be similar in shape, for the same hor?zfz:::zte;
+dipole angles, lo the potential distribution around the boundary of a lwo-dimensional
+conduclor having the shape of a cross section through the cylinder. :
+It follows from this that two-dimensional measurements can be used to ob-
+tain information about the horizontal component of the spatial vector. FiGure
+4 gives further evidence of this. These charts show the distribution of po-
+
+ 
+    
+  
+   
+   
+
+©V MEASURED
+
+108 X V. CALCULATED
+POTENTIAL
+
+v
+VOLTS
+
+         
+
++10 +20 +30 +40
+DISTANCE ALONG  BOUNDARY
+
+CM.
+
++ 50
+
+FIGURE 2. Potential distribution around the boundary of a homogeneous thorax cross
+section. The dipole angle is 0°. The calculated values are according to EQUATION 12.
+
+tential around the periphery of the deep tank at the level of the dipole center
+for horizontal angles (8) of 0°, 30°, 60°, and 90°, and for a vertical angle («) of
+0°. Comparison with FIGURES 5 and 6 for the same horizontal angles in the
+two-dimensional thorax section shows that the shapes of the potential dis-
+tribution curves in the two cases are very similar.
+
+Effect of Electrical Inhomogeneity on the Potential Field
+
+The nature of the distortions of the electrical field caused by a finite boundary
+and by the introduction of good and poor conductors was shown in the model
+studies of Katz” and discussed by Lepeschkin.® The effect of inhomogeneous
+areas can best be shown by a comparison with the field of the dipole in a .hom{)-
+geneous medium. The charts of FIGURE 5 are all for a 8 angle of 90‘.’ (in this
+paper, positive angles are taken counterclockwise in accordance wgth long-
+established mathematical conventions). In FIGURE 5a the section i1s homo-
+
+Nelson: Human Thorax Potentials 1017
+oc
+
+=90°
+
+ 
+
+A
+
+ 
+
+=60°
+
+30°
+
+ 
+
+=-90°
+L SN T s e
+
+Ficure 3. Potential distribution around the boundary of a deep tank at the level of the
+dipole. The horizontal angle is 0°, and the vertical angle is +90° to —90° at 30° intervals.
+Compare with FIGURE 2.
+
+geneous, and the departure of the field distribution from that of a dipole in an
+infinite medium is due solely to the effect of the boundary. The curves shown
+are the equipotentials, with values as marked. The curves on the right show
+the variation of potential around the boundary as before. The broken curves
+show the potential gradient along the boundary. This is defined as

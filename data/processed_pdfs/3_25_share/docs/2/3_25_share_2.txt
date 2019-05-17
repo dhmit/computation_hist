@@ -1,0 +1,113 @@
+July 31, 1958
+
+Mr, Walter Ramshaw
+Computation Laboratory
+United Aircraft Corporation
+400 Main Street
+
+Bast Hartford, Connecticut
+
+Dear Walter:
+
+In response to your call of July 21st, I have the following
+comments from M.I.,T, concerning the agenda for the next SHARE meeting,
+Not all of these ideas are equally valid, nor do some of them merit
+any further consideration, However, I'll put them down just so the
+Executive Board may be able to see a better approach to another topic
+for the agenda,
+
+ 
+
+It isn’t clear to me whether everyone realizes how to use in
+
+an ordinary way the under-overflow SQ after it is installed in the 704,
+
+In particular, there are two cases, that of Fortran and that of SAP,
+
+On one hand, this seems pretty trivial; on the other hand, people are
+
+continuing to do rather foolish things, g How about some wise sage (such
+
+as Walter Ramshaw) getting up and discussing in a philosophical way the
+| usually unmentionable subject of errors - in particular, machine, coding,
+and formulation, I find in personal discussions that people have their
+nose so close to one type of problem that they have never considered the
+larger question that all computing ventures represent a calculated risk,
+Therefore, the sophisticated user knows of a whole sequence of precaufion-
+ary steps which may be taken, although he only uses as many as he feels
+the importance of the approach warrants, The extreme solution is when
+the Russians and the Americans do the same job simultanecusly,
+
+ 
+
+Another topic which might be a forum or ome or two individuals,
+but which would require preparation on the part of the participants, is,
+How does one teach a beginning programmer to use the 709 computer im all
+of its glory? Obviously, one can teach the 704 first and them suggest
+that there are a few more things one can do on the 709, but this isn't
+very helpful, Specific items that come to mind are, Does one try to
+teach a subset of instructions and operational procedures and, if so,
+along what lines? and finally, Would D, McCracken be a good man to have
+as an invited speaker?
+
+
+, ’ ay,
+SO
+¥ :
+
+ 
+
+Mr, Walter Ramshaw July 31, 1958
+East Hartford, Connecticut Page two
+
+The next idea that comes to mind is essentially one that was
+used at the last ACM meeting, where there was an open discussion of com-
+puters which not only did arithmetic but also carried along an indication
+of the accuracy of the numbers which were stored, Even at the ACM
+meeting, the notion of error propagation being treated in better than an
+abstract way seemed novel to some of the participants, The specific items
+which should be brought out are procedures carrying along probable error
+(an unsure compromise), # procedurescarrying along maximum error (this
+usually says that the results have mo significance), and finally, the
+procedure of range numbers, wherein the number being calculated is con-
+tained in the range of the two values, It should be brought out that, in
+contrast to the first two procedures which indicate nothing about the con-
+vergence of the process, the range method faithfully reflects numerically
+convergent (and divergemt) procedures, Of course, all of the above remarks
+should be prefaced by the suggestion that the various procedures can be
+simulated and warrant further study,
+
+It might be an interesting novelty to those persons who like to
+listen better than they like to read, to have a lecture or two on mew computing
+machines, in the sense that a discussion of the features and specifications
+be made, Inasmuch as I.,B.,M, does not make all machines, there are clearly
+political overtones to this suggestion,
+
+Finally, to enter into the blue-sky realm, it would be nice if
+anyone had interesting things to say about the use of real-time inter-
+vention and interaction with computers, In particular, I am thinking of
+such devices as light guns, analog computers, and, in the field of data
+processing, parallel operations by, say, n clerks using 1 computer with
+intimate feedback, This subject leads naturally into the discussion of
+blue-sky hardware and I wonder if any more could be said about such ideas
+of machine design as multi-control computers with control hierarchies
+under fixed and/or computer-set priorities (the TX-2 Computer of Lincecln
+Laboratory, built under the supervision of Wes Clark, is a start in this
+direction),
+
+I consider the above to be a sketch of ideas which I hope will
+help the Executive Board think of better ones, You will note that I have
+not mentioned compilers or FORTRAN, primarily because I am sure they will
+be talked about anyway by the loquacious set, I really am interested in
+both subjects and consequently it makes me feel like a killjoy to suggest
+some of the SHARE gabble is hot air, Constructive discussion is welcome,
+
+Hope this helps,
+
+Sincerely,
+
+F, J, Corbato
+Assistant to the Director
+I1.B.,M, Research Appointment Program
+
+

@@ -1,0 +1,165 @@
+~
+
+MASSACHUSETTS INSTITUTE OF TECHNOLOGY
+DIVISION OF INDUSTRIAL COOPERATION
+
+& CAMBRIDGE 39. MASS. ) TIN
+OFFICE OF THE DIRECTOR so ud
+Director ~~ DIC-#6345
+Office of Naval Research #6915
+
+Log Summer Street
+Boston, Massachusetts
+
+Reference: Contract N5ori-06001
+
+Dear Sir:
+
+The Massachusetts Institute of Technology submits
+herewlth a proposal for extension of the reference contract to
+June 30, 1957 at an additional estimated cost of $20,960.00.
+
+We understand that this proposdl has been the subject of discus-
+glong between Professor P. M. Morse of MI? and Mr, A. J. Wise
+
+of ONR-MIT, Dr. Carl F. Mukenhaupt of ONR-Boston, and Dr. F. J.
+Weyl of ONR--Vashington.
+
+There follows & summary of expenditures and funds
+remaining on the two projects, Whirlwind Operation and Machine
+Methods of Computation, which are currently active under the
+
+@ reference contract:
+
+ 
+
+Project #6345 (Whirlwind Operation) hes an unexpended
+balance of $97,000 as of November 30, 1955. The current expend-
+{tures are approximately $10,000 per month. The average "income"
+received for Whirlwind ugage is approximately $3,000 per month —-
+a net expenditure of $7,000 per month. If it 1s assumed that the
+present level of income ($3,000 per month) is maintained during
+the nineteen-month period Decembsr 1, 1955 to June 30, 1957, a
+minimum amount, assuming some tapering off, of $119,000 will be
+required during this perlod.
+
+Project #6915 (Machine Methods of Computation) has an
+unexpended balance of $71,000 as of November 30, 1955. The current
+expenditures are approximately $7,000 per month. If it assumed
+thet the present expendi tures remain constant, there will be a
+balance of epproximately $22,000 on June 30, 1956. In accordance
+with our present plans for terminating the ONR support of this
+project on June 30, 1956, there will be certain additional term-
+inating expenditures. It is estimated that $7,000 will be
+expended for termination purposes.
+
+This summary is based on estimates prepared by Prof-
+essor P. M. Morse.
+
+& Professor Morse further advises that the expected
+arrival of an IBM Type 704 Electronlc Data Processing Machine at
+MIT about January 1, 1957 willl create a definite need for addl-
+tional funds--to finance the conversion of existing Vhirlwind
+programa to Type 704 programs.
+
+
+—p
+
+Office of Naval Research January 18, 1956
+Reference: Contract N5ori-06001 DIC-#63L45, #6915
+
+Under the proposed plan submitted herewith, Project
+#6345 (Whirlwind Operation) would terminate on June 30, 1957.
+The task order for this period would include the usval Whirlwind
+project activities:
+
+1. Research in methods of numerical analysis and
+the formulation of scientific problems for machine
+solution, together with the training of personnel
+in these methods.
+
+2. Support of the Sclentific and Engineering Applica-
+tions Group of Project Whirlwind so ag to make the
+computer useful and avallable for the above-mentioned
+regearch. |
+In addition, 1% is proposed that the following task
+order arising in connection with the Type 704 EDPM be included:
+
+3. The development of a sultable interpretive program
+and agsoclated coding technidues to permit effective
+implementation of the Type 704 machine.
+
+It is ans oupateg that a separate project will be set
+up to handle the Type 704 utilization within the MIT Computation
+Center, and a separate request to the ONR for support of this work
+will be made in the near future. In this respect certein
+experienced programmers could be made available for tranafer to
+
+this new task as of January 1, 1957. This anticipated transfer
+
+has been taken into account in the budget proposed for Project #6345.
+
+The foregoing proposal does not take into consideration
+termination costs which may be associated with the close out of
+this contract and the possible disposltion of the Whirlwind Computer.
+I% 1s propozed to delay the submittal of any budget for this matter
+untill such time as disposition of the Whirlwind Computer is
+determined.
+
+The estimated budget for the period July 1, 1956 to
+June 30, 1957 1s attached herewith as page 3.
+
+Very truly youre,
+
+LEB/dmb
+
+In quintuplicate L. E. Beckley
+
+ce: ONR/Boston Assistant Director
+ONR/MIT
+
+ONR/Wash., Adv. ce: Mr. F. A. Giroux
+Dr, C. FP. Floe
+Ppof. P, M. Morse
+
+ro Fo M. Verzuh
+
+
+3
+
+Egtimated Budget for DIC Projecte 6345 and 6915
+(Fiscal Period July 1, 1956 - June 30, 1957)
+
+Salaries end Wages
+
+Administrative Supervision $ 5,500
+Technical Supervision 3,000
+2 Research Assistants @ $3,000 6,000
+4, Mathematicians @ $6,000 (6 mos.) 12,000
+2 Analysts and Programmers @ $5,000 10,000
+2 Secretaries 6,500
+
+4 Typists and Clerks (Tape Preparation) 12,000
+
+4 Computer Operators 13,200
+1 Photo Lab. Assistant 3,200
+$71, 400
+
+Overhead .
+TTT = Tstinated at LON 28,560
+Travel 5,000
+Materials and Services 6,000
+$110, 960
+Termination Cost for Project 6915 7,000
+$117, 960
+
+Estimated Unexpended funds in 6345 - $57,000
+Fstimated Unexpended funds in 6915 - 22,000
+Estimated Computer INCOME - 18,000
+
+$ 97,000
+
+Minimum Amount to be Requested of
+ONR for 1956-1957. ° ° ° © ° © ° ° © o 0 ° ° & 20,960
+
+

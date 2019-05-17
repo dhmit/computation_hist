@@ -1,64 +1,44 @@
-MIT DIGITAL COMPUTING EQUIPMENT REQUIREMENTS
+INTERNATIONAL BUSINESS MACHINES CORPORATION
 
- 
+APPLIED SCIENCE RESEARCH
 
-A. Statistical Services
+678 MASSALC MUSE T ~ . M ' A M NN v ! T v MASSACHUYUSETYYS - "o .o~ 2440
 
-1.
+March 22, 1957
 
-2.
+Dr. Philip Morse
 
-4,
+Director, Computation Center
+Building 6-109
 
-’
+Massachusetts Institute of Technology
+Cambridge 39, Massachusetts
 
-The Card Programmed Calculator (CPC) has been used a total @
-of 3708 hours during the period Jmmyl-mu, 1954.
+Dear Dr, Morse:
 
-(Average = 81 hours per week).
+The purpose of this letter is to set down on paper some of the
+thoughts expressed and decisions reached in past meetings with Dr. Verzuh
+and Dr. Arden. The attached table is the final schedule drafted and mutually
+approved last month. It is based on three-shift operation. The machine
+times of MIT and the other New England schools are lumped together as
+UNIV, with the implicit understanding that this time is to be distributed
+equitably between the two groups on a share-desirable-hours basis. One
+morning and one late evening period of 3.5 hours duration each enable
+them to make lengthy production runs. ASR designates the IBM Applied
+Science Research usage, while PM represents the approximate time anti-
+cipated for preventive maintenance.
 
-The CPC has been used 629 hours during this period on a "tri,_o 3 &
-time" basis. B
+During the early weeks of the installation, it appears likely that the
+work load will be modest enough to permit two-shift operation. In this event,
+our suggestion would be to suspend machine usage at midnight and pool the g
+ASR time with the time allotted as above to the New England schools. Under o
+this plan, 6 hours are retained by MIT, 3 hours are conservatively reserved
+for preventive maintenance, and the remaining 7.5 hours are shared by the
+other two groups.
 
-All work performed by Statistical Services prsonnel is chu-ud g
-to the customer. |
-
-The CPC maintenance, down, and service time during this period
-was 346 hours, or about 9% of the available time.
-
-The CPC machine usage charge is $15.00 per hour.
-
-Approximately 50% of the CPC programming is done on a self-
-service basis.
-
-A second CPC was inetalled at the Imnstrumentation Laboratory
-(for their own use) on June 1, 1954, and it has since been
-used exclusively for their work.
-
-A Type 650 Magnetic Drum Calculator was ordered in December, 19563,
-and it is to be delivered to the Instrumentation Laboratory (for
-their exclusive use) in June, 1955 unless the Administration
-decides otherwise before that time.
-
-B. Whirlwind Project (Wwl)
-
-1.
-
-All WW1 machine time has been free during the same period
-(January 1 - Kovember 15, 1954); however, it has now been
-placed on a partial pay-as-you-go plan effective November 15th.
-
-An hourly machine usage rate of $250 per hour has been established.
-
-WWl supervision, administration and some programming service is
-still free.
-
-WWl Scientific and Engineering Applications Group consists
-of 34 people, representing annual salary cost of $134,000.
-
-WWl users are expected to program their own problems whenever
-possible.
-
-Vsl
-LRl L i
-LA g, a b LIS
+It has been agreed that two 704 operators will be employed for each
+of the shifts. In the ultimate three-shift operation, the four operators
+S e et
+working on the first two shifts are to be hired by MIT through IBM funds,
+while the two operators for the last shift are part of the Applied Science
+Research staff. The two sets of MIT operators will work from 8:30 a.m.

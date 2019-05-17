@@ -1,0 +1,123 @@
+e RN,
+
+proving facts about algorithms.
+
+ 
+
+ 
+
+=
+
+Computation is sure to become one of the
+most important of the sciences, ,This is because
+it is the science of how machines can be made to
+carry out intellectual processes, We know that
+any intellectual process that can be carried out
+mechanically can be performed by a general pur-
+pose digital computer, Moreover, the limitations
+on what we have been able to make computers do so
+far seem to come far more from our weakness as
+programmers than from the intrinsic limitations
+of the machines, We hope that these limitations.
+can be greatly reduced by developing a mathe-
+matical science of computation, .
+
+Thére are three established directions of
+matheﬁatical research relevant to a’sc1ence of
+computation The first and oldesf’of these is
+numerical analysis, Unfortunately, its subgect
+matter is too narrow to be of much help in
+forming a general theory, and it has only re- \\\\
+cently begun to be affected by the existence of \
+automatic computation '
+" The second fElevantﬂdlrectionAoi\;eseaFEH‘“
+is the theory of computability as a branch of
+recursive function theory, The results of the
+basic work in this theory including the existence
+
+S
+s
+
+ 
+
+~of universal machines and the existence of un-
+- solvable problems have established a framework
+
+in which any theory of computation must £it,
+Unfortunately, the general trend of research in
+this field has been to establish more and better
+unsolvability theorems, and there has been very
+little attention paid to positive results amnd
+none to establishing the properties of the kinds
+of algorithms that are actually used, Perhaps
+for this reason the formalisms for describing
+algorithms are too cumbersome to be used to de-
+scribe actual algorithms,
+
+The third direction of mathematical research
+is the theory of finite automata, Results which
+use the finiteness of the number of states tend
+not to be very useful in dealing with present
+computers which have so many states that it is
+impossible for them to go through a substantial
+fraction of them in a reasonable time,
+
+““'“’expre551ons Programs that are supposed to learn
+
+-~ g » i A Lt = A
+ct)*cal”xccm ﬂhct on'- a ty desﬁb %rcnt kilrl:;sgdata. ! !
+
+that COBOL is a step up a blind alley on account
+of its orientation towards English which is not
+well suited’ to'the formal description of pro-.
+cedures, and that UNCOL is an exercise in group
+wishful thinking, The formalism for describing
+computations in this paper is not presented as
+a candidate for a universal programming language
+because it lacks a number of features, mainly
+syntactic, which are necessary for convenient
+use, | R
+2, To define a theory of the equivalence
+of computation processes, With such a theory
+we can define equivalence preserving transfor-
+mations, Such transformations can be used to
+take ‘an algorithm from a form in which it is )
+ea51ly seen to give the right answers to an 7
+equlvalent form guaranteed to give the same an- ’//
+swers but which has other advantages such as
+speed, economy of storage or the 1ncorporation/
+of auxiliary processes, . _ / ,
+
+4.' To\represent algorithms by symbolic ex-
+pressions in such a way that 51gn1ficant changes
+in the behavior ;Epresented by the algorithms y
+.are represented by simple changes in the symbolic
+
+e —
+
+from experience change their behavior by chang-
+ing the contents of the registers that represent
+the modifiable aspects of their behavior, From
+a certain point of view having a convenient
+representation of one's behavior available for
+modification is what is meant by consciousness,
+
+9. To represent computers as well as
+computations in a formalism that permits a
+treatment of the relation between a computation
+and the computer that carries out the
+computation, .
+
+6. To give a quantitative theory of com-
+putation, There ought to be a quantitative
+measure of the size of a computation analogous
+to Shannon's measure of information, The
+present paper contains no information about this,
+
+The present paper is divided into two
+sections, The first contains several descrip-
+tive formalisms with a few examples of their
+use, and the second contains what little theory
+we have that enables us to prove the equivalence
+
+I 4 /S no e v vo = Y 1 4 B2 TN

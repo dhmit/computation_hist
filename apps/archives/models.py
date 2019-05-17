@@ -1,8 +1,5 @@
 from django.db import models
 
-from utilities.common import get_file_path
-
-
 class Organization(models.Model):
     location = models.CharField(max_length=191, blank=True)
     name = models.CharField(max_length=191, blank=True)
@@ -38,7 +35,7 @@ class Person(models.Model):
         if self.last and self.first:
             return self.last + ', ' + self.first
         elif self.last:
-            return self.last
+            return self.last + ', [first name unknown]'
         elif self.first:
             return self.first
         else:
@@ -56,7 +53,14 @@ class Person(models.Model):
 
     @property
     def fullname(self):
-        return self.first + " " + self.last
+        if self.last and self.first:
+            return self.first + " " + self.last
+        elif self.last:
+            return '[first name unknown] ' + self.last
+        elif self.first:
+            return self.first + ' [last name unknown]'
+        else:
+            return "No name"
 
     @property
     def url(self):

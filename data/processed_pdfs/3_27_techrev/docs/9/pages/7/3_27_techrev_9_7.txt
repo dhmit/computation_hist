@@ -1,0 +1,115 @@
+View of the machine
+which punches data and
+machine data instruc-
+tions onto  standard
+cards. The deck of
+cards, punched out viqg
+the keyboard shown
+here, is the basic form
+in which the user pre-
+sents his problem to the
+704; it is the visible re-
+sult of his weeks of pro-
+gramming and coding.
+The on-line card reader
+translates the pattern of
+holes in each card into
+patterns  of electrical
+pulses which are stored
+in the core memory for
+use in the next problem.
+
+M.1.T. Photographic Service
+
+itself ready for another problem, The unhappy pro-
+grammer must take this “post-mortem” off to his
+office for diagnosis and come back later.
+
+Th.e digital computer is an immensely skillful, in-
+?1‘e(]11)ly rapid booby, which will do exactly what
+it is told, but which has absolutely no judgment. It
+will carry out the intellectual drudge jobs for the
+user, but it cannot do his thinking. Any “reasoning”
+it is expected to do in a problem must be laid out in
+the programming. So the drudge work of computing
+is exchanged for the drudge work of programming
+—of laying out the steps of the computation, of
+translating the steps into the detailed orders, ex-
+pressed in “machine language” and in punching these
+orders onto a deck of cards. No wonder only “tough”
+problems are put on the machine — problems for
+which the work of computing will be more tedious
+than the work of programming.
+
+But this is putting the dilemma too strongly. For,
+if told to do so, the machine itself can do much of
+the drudge work of the programming. It can de-
+termine where in the memory it should store items
+of data and the intermediate results of its calcula-
+tions; it can be told how to analyze program errors
+and how to print out “post-mortems” so the user
+can find his mistake more easily, and so on. Pro-
+grams which tell the machine how to carry out
+much of the detailed bookkeeping of a finished
+program are called compiler programs. Members
+of the staff of the Center are busy devising better
+compilers to ease the work of the user. Their devis-
+ing requires considerable logical subtlety and an
+intimate knowledge of machine behavior. After all,
+we are just learning what a machine of the com-
+plexity of the 704 can do.
+
+For the computing machine itself also is a large
+and complex aggregate of fairly simple parts; it also
+displays characteristics which are hard to foresee,
+which require considerable study to understax.}d
+fully and which thus are not yet employed as profit-
+
+ 
+
+ably as they could be. The language the machine
+“understands,” the set of coded orders punched on
+cards, has a vocabulary and syntax which is trouble-
+some to learn — though it is far simpler than any
+“human” language. The “words” and the “grammar”
+are imposed by the electrical and mechanical fea-
+tures of its design as much as by the logical re-
+quirements of what it is to do. It would be easier for
+the occasional user to be able to formulate his in-
+structions in more familiar terms, closer to the
+language of usual mathematics, for example. As a
+matter of fact, it is possible to get the machine to
+do this translation.
+
+The 704 has a complex program called “Fortran”
+(formula translation) which takes instructions in a
+more familiar language and translates them into
+instructions in “machine language.” Instructions in
+Fortran require two machine actions to get an
+answer. First, the punched-card deck in “Fortran
+language” must be translated by the 704 into a
+proper program in “machine language,” which is
+either recorded on tape or on a new deck of cards;
+this program is then fed back to the machine to get
+it to compute the problem itself and get the answer.
+Thus the machine does more work, but the machine
+user has an easier time of it.
+
+Parenthetically, the logical procedure useful in
+getting the machine to translate instructions from
+“Fortran language” to “machine language” is ana-
+logous to the procedures which would have to be
+followed if the machine were to be asked to trans-
+late a paragraph of Russian into English. Using a
+computer to translate from one “human” language
+to another is an immensely difficult task, and the
+results cannot be expected to be literature. But if
+machines can help translate into English the quan-
+tity of scientific articles which come out in other
+languages, the reduction of man-hours now spent
+in trying to understand what others have done will
+far overweigh the occasional clumsy phrasing of the
+
+—
+
+9

@@ -1,0 +1,125 @@
+,’/ i .o-o 4 = * e ,"f/
+
+/, 1) i‘(xl, g; X, ?‘n’ } /_/
+Jhereéf‘ls an e: Drc ;sion that in 0cnqyal contalnsr,”
+£. . Suppose that,Cils Lhe set of n-tuplets
+
+(\l,---,kl) for. \hlch L is dCLlnGd
+/
+
+h be two other functions
+and whiclhh are defined for ¢
+Suppose further that 2 and
+
+how let g-and
+\ 7
+w1th the same dom%xn as 1
+all n-tuplets in €,
+
+h satisfy the cquation
+
+which defined f. Ve a ert thag ’,*/ \\\\
+b(h ,...,x ) = h(xl"'°xn)j\\%;m-_" | "
+iof Qiiw(h ,...,Y ) in C( This is so sinply
+
+because equqtlon l) uniquely determines the value
+that any function satisfying it has for arguments
+in A which in turn follows from the fact that
+
+1) can be used to compute f(xl,...,xn) for
+
+(xl,...xn) in S .
+
+we shall call this method of proving two
+functions equivalent by the name of recursion
+induction,
+
+e shall develop some of the properties of
+the elementary functions of integers in order to
+illustrate proof by recursion induction.
+
+WVe recall
+the definitions
+
+xioms except the
+e = (n=0 <k, Tr—satnT) induction axiom,
+
+mn = (n=0 — 0,T - m4wm" ) T™h- 4 "0 ="n
+Th 1. m40 = m e Proof. Let f(n) (n=0 — 0,T~> f(n")"')
+Proof m4+0 = (0=0 — n,T - m'+07) O4n = (=0 —>0,T = 0'4n")
+
+= m = (n=0 - 0,T ~*> (0+n~)"')
+
+Only the definition of addition and the ploOperties o= (h=0 —=m; T~+n)
+of conditional exprecssions were used in this proof s (00 T ()Y o2
+
+Th 2 (in4n)' = m'4n
+
+pProof Define f(m,n) = (=0 — m',T— £(m,n7))
+
+It is easily scen that f£(m,n) converges for 2ll
+
+Th S. m+n = n4m
+Proof. By 3
+
+ 
+
+   
+
+”Again/f Cohverges for all m, ,p. “We
+
+_(m-+m) +p \(p O-ﬂfﬂun T — (min)' +P” =
+¥ = (p=0~»—m-n T-ﬁ-(m'an)ap ) using Th 2 S
+. (m4p)-m = (p\O-ﬂ-m T — m'4p )tn S
+(p=Q -~ m4n,T — (m'4p )?n)
+
+Each of these forms satisfics the equation for
+“f(m,n,p). / )
+
+\
+
+‘\\ Setting m=0 in Th’g cives }j/
+. (04n)4+p = (O'p)Yn A =%
+so that if we had O'm‘= m we would have \ | -~
+commutat1v1ty of addltion. X \\////
+In fact, ‘we cannot p10v~ O+m = m withoyt
+
+).
+take
+
+making some assumptlons that into account
+
+that we are dealing with the intege:
+
+n(_xl‘s. For
+supposc our space consisted of the vertices of
+
+the binary trcce where m' is the vertex just above
+
+ 
+
+and to the left and m~ is the vertex just below
+
+and O is the bottom of the
+trec. m+4n can be defined as
+above and of course satisfies
+Theorcms 1, 2 and 3 but does
+not satisify O+m = m,
+
+We shall make the following assumptions:
+
+3. - Wt 0
+
+P ook TN Y-
+
+3. . (MZ0) D CLm )" =m)
+
+which embody all of Pzano's ¢
+
+and 4 as remarked above
+
+ 
+
+PN LAYy ) 2 R
+
+| Sy
