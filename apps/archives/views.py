@@ -21,6 +21,7 @@ STORIES = [
     'three_man_months',
     'whirlwind',
     'women_in_symbols',
+    'geo_timeline',
 ]
 
 
