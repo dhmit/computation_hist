@@ -11,7 +11,6 @@ def search_terms_to_list(search_string):
         extracting terms surrounded by double quotes as separate items """
 
     search_terms = []
-    search_terms = []
     exact_searches = re.findall(r'"([^"]+)"', search_string)
     if exact_searches:
         for phrase in exact_searches:
@@ -45,7 +44,6 @@ def process_search(search_params):
         people_qs = Person.objects.none()
 
     if keywords:
-        # construct keyword list, extracting exact search phrases 
         keywordlist = search_terms_to_list(keywords)
 
         temp_people_Q = Q()
@@ -71,8 +69,10 @@ def process_search(search_params):
             fulltext_Q &= Q(text__icontains=word)
 
             if i == num_keywords - 1:
+                # on last iteration, actually filter the documents
                 docs_qs = docs_qs.filter(full_doc_Q | fulltext_Q)
             else:
+                # otherwise, keep building the Q object
                 full_doc_Q &= this_keyword_doc_Q
 
         people_qs = Person.objects.filter(temp_people_Q)
