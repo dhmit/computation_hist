@@ -6,6 +6,21 @@ from django.db.models import Q
 from .models import Person, Document, Folder, Organization
 
 
+def search_terms_to_list(search_string):
+    """ takes a search query string, returns a list of terms to search on,
+        extracting terms surrounded by double quotes as separate items """
+
+    search_terms = []
+    search_terms = []
+    exact_searches = re.findall(r'"([^"]+)"', search_string)
+    if exact_searches:
+        for phrase in exact_searches:
+            search_string = re.sub(f'"{phrase}"', '', search_string)  # strip exact search search terms out
+    search_terms.extend(exact_searches)
+    search_terms.extend(search_string.split())
+    return search_terms
+
+
 def process_search(search_params):
     """
     Processes one search request and returns the search_results as a queryset
@@ -31,32 +46,34 @@ def process_search(search_params):
 
     if keywords:
         # construct keyword list, extracting exact search phrases 
-        keywordlist = []
-        exact_searches = re.findall(r'"([^"]+)"', keywords)
-        if exact_searches:
-            for phrase in exact_searches:
-                keywords = re.sub(f'"{phrase}"', '', keywords)  # strip exact search search terms out
-        keywordlist.extend(exact_searches)
-        keywordlist.extend(keywords.split())
+        keywordlist = search_terms_to_list(keywords)
 
         temp_people_Q = Q()
-        for word in keywordlist:
+        fulltext_Q = Q()
+        full_doc_Q = Q()
+        num_keywords = len(keywordlist)
+        for i, word in enumerate(keywordlist):
             temp_people_Q &= (Q(first__icontains=word) | Q(last__iexact=word))
 
             people_qs = Person.objects.filter(Q(first__icontains=word) | Q(last__iexact=word))
             organization_objs = Organization.objects.filter(Q(name__icontains=word))
 
-            doc_Q = Q(title__icontains=word)
+            this_keyword_doc_Q = Q(title__icontains=word)
             for person in people_qs:
-                doc_Q |= Q(author_person=person)
-                doc_Q |= Q(recipient_person=person)
-                doc_Q |= Q(cced_person=person)
+                this_keyword_doc_Q |= Q(author_person=person)
+                this_keyword_doc_Q |= Q(recipient_person=person)
+                this_keyword_doc_Q |= Q(cced_person=person)
             for org in organization_objs:
-                doc_Q |= Q(author_organization=org)
-                doc_Q |= Q(recipient_organization=org)
-                doc_Q |= Q(cced_organization=org)
+                this_keyword_doc_Q |= Q(author_organization=org)
+                this_keyword_doc_Q |= Q(recipient_organization=org)
+                this_keyword_doc_Q |= Q(cced_organization=org)
 
-            docs_qs = docs_qs.filter(doc_Q)
+            fulltext_Q &= Q(text__icontains=word)
+
+            if i == num_keywords - 1:
+                docs_qs = docs_qs.filter(full_doc_Q | fulltext_Q)
+            else:
+                full_doc_Q &= this_keyword_doc_Q
 
         people_qs = Person.objects.filter(temp_people_Q)
 
@@ -64,20 +81,11 @@ def process_search(search_params):
         docs_qs = docs_qs.filter(Q(title__icontains=title))
 
     if text:  # full text search
-        words_q = Q()
-
-        # handle exact search terms wrapped in " or '
-        exact_searches = re.findall(r'"([^"]+)"', text)
-        if exact_searches:
-            for phrase in exact_searches:
-                words_q &= Q(text__icontains=phrase)
-                text = re.sub(f'"{phrase}"', '', text)  # strip exact search search terms out
-
-        # handle all leftover text
-        words = text.split()
-        for word in words:
-            words_q &= Q(text__icontains=word)
-        docs_qs = docs_qs.filter(words_q)
+        search_terms = search_terms_to_list(text)
+        fulltext_q = Q()
+        for term in search_terms:
+            fulltext_q &= Q(text__icontains=term)
+        docs_qs = docs_qs.filter(fulltext_q)
 
     if author:
         for names in author.split(" AND "):
