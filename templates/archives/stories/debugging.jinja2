@@ -8,9 +8,9 @@
 
 {% block story_body %}
     Given the emphasis now placed on the speed of computers and the incredible gains of <a href="https://en.wikipedia.org/wiki/Moore%27s_law">
-    Moore’s Law</a>, one might presume that the primary issue with computers of the 1950’s was that they were
-    slow. Computers were already much faster and more reliable than any human being could hope to be. Lack of
-    processing power was not necessarily the bottleneck here.  <br />
+    Moore’s Law</a>, one might presume the primary issue with computers of the 1950’s was that they were
+    slow. Yet computers were already much faster and more reliable than any human being could hope to be. Lack of
+    processing power was not necessarily the bottleneck.  <br />
     <figure class="figure float-right" style="height:25%;width:25%">
         <img src="{{ static('img/stories/debugging.png') }}"
             class="figure-img img-fluid rounded"
@@ -18,23 +18,23 @@
         <figcaption class="figure-caption">Part of source for the Fortran II compiler.</figcaption>
     </figure>
     <br />
-    One major problem Morse identified was the input and output, as computers of that time did not have a screen and a
-    keyboard. Programs had to be converted to punch cards by humans, which is bound to introduce errors. And
-    if the output required printing more than a few numbers, the results would have to be printed to magnetic tape
+    One major problem Morse identified concerned input and output, as computers of that time did not have a screen and a
+    keyboard. Programs had to be converted to punch cards by humans, which is bound to introduce errors.
+    If the output required printing more than a few numbers, the results would have to be printed to magnetic tape
     (which blocked the computer), then converted to punched paper tape by a slow mechanical device, and then
-    converted into human-readable format by an automatic typewriter. Alternately, one could display the results on a
-    cathode-ray tube, take photographs of each screen, and then manually transcribe the photographs by hand to a more
+    converted to human-readable format by an automatic typewriter. Alternately, one could display results on a
+    cathode-ray tube, take photographs of each screen, and then transcribe the photographs by hand to a more
     legible form.<br />
     <br />
     This input/output issue was especially problematic for debugging. In modern times, one of the first things
-    beginner computer science students learn is to inject <code>print</code> statements throughout their code to
-    figure out where things break down.  For the more advanced, debugging is simplified by tools that allow
+    beginning computer science students learn is to inject <code>print</code> statements throughout their code to
+    determine where things break down. For the more advanced, debugging is simplified by tools that allow
     one to insert breakpoints and view the entire state of the program as it runs. Not so in the 1950s. The only
     way to figure out what was happening inside a defective program was to halt the program prematurely and slowly
     wait for the computer to print out all the values, while hoping that one would point to the bug's origin.
     For those not familiar with coding, this is a little like trying to figure out what's wrong with a car without
-    lifting up the hood. The logical thing to do would be to write the program in sections, but computer time was
-    expensive and highly on demand, as everyone on campus had to share the same computer, and nobody would tolerate
+    lifting the hood. The logical thing to do would be to write the program in sections, but computer time was
+    expensive and highly on-demand, as everyone on campus had to share the same computer, and nobody would tolerate
     someone holding up the queue as they spent several hours writing the next segment of code while the computer idled.
     Thus it was recommended that one write the entire program in "one continuous unit" (printing out few
     values, which might be helpful for debugging, due to the slow output).  This is a little like trying to
@@ -42,7 +42,7 @@
     done in assembly language--the most low-level and difficult of coding languages to use--without the aid of
     even a basic text editor like Vim.<br />
     <br />
-    Thus, to quote Philip Morse (emphasis mine), <br />
+    Thus, to quote Philip Morse (emphasis mine): <br />
     <br />
     <i>
     “At present, the writing of a program for a large computational problem, checking it out and determining the
@@ -52,14 +52,14 @@
     programmed for Whirlwind. We have found by experience that the answers to such problems can usually be obtained
     quicker by hand, because a new program, for a tough problem, can easily take more than three man-months to perfect.”</i><br />
     <br />
-    So no using the computer to do your math homework. The machines at MIT were reserved for only the most
+    So: no using the computer to do your math homework. The machines at MIT were reserved for only the most
     tremendous and humanly impossible of calculations. Although Morse thought that the problem was "inherent in
     the very nature of the machine," the immense cost of debugging was one of the motivations for
     the development of Fortran, one of the first compiled languages, which would greatly reduce the difficulty of
     programming solely in assembly. Today, as computers have changed from complex machines operated only by
     specialists to devices intended for the nontechnical, user interfaces have become their own field, and entire
-    companies have risen up around developing <a href="https://en.wikipedia.org/wiki/Integrated_development_environment">IDE's</a>
-    to aid programmers with development.<br />
+    companies have risen up around development <a href="https://en.wikipedia.org/wiki/Integrated_development_environment">IDE's</a>
+    to aid programmers with these issues.<br />
     <br />
     <a href="/archives/doc/3_11_on_the_use_of_digital_computers_pm_morse_1">See Morse's "On the Use of Digital Computers" here.</a>
 {% endblock %}
