@@ -1,4 +1,6 @@
 from django.db import models
+from django.contrib.postgres.indexes import GinIndex
+from django.contrib.postgres.search import SearchVectorField
 
 class Organization(models.Model):
     location = models.CharField(max_length=191, blank=True)
@@ -26,8 +28,8 @@ class Organization(models.Model):
 
 
 class Person(models.Model):
-    first = models.CharField(max_length=191, blank=True)
-    last = models.CharField(max_length=191, blank=True)
+    first = models.CharField(max_length=191, blank=True, db_index=True)
+    last = models.CharField(max_length=191, blank=True, db_index=True)
     organization = models.ManyToManyField(Organization, blank=True)
     slug = models.SlugField(max_length=191, unique=True)
 
@@ -111,7 +113,7 @@ class Folder(models.Model):
 
 
 class Document(models.Model):
-    title = models.CharField(max_length=191)
+    title = models.CharField(max_length=191, db_index=True)
     file_name = models.CharField(max_length=191, unique=True)
     folder = models.ForeignKey(Folder, on_delete=models.CASCADE)
     doc_id = models.IntegerField() # sequence in the folder
@@ -134,6 +136,7 @@ class Document(models.Model):
 
     notes = models.TextField(blank=True)
     text = models.TextField(blank=True)
+    text_search_vector = SearchVectorField(blank=True) # for speeding up full text search
 
     #  https://docs.djangoproject.com/en/2.1/ref/utils/#django.utils.text.slugify
     slug = models.SlugField(max_length=191, unique=True)
@@ -199,3 +202,6 @@ class Document(models.Model):
 
     class Meta:
         ordering = ['doc_id']
+        indexes = [
+            GinIndex(fields=['text_search_vector']),
+        ]

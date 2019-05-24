@@ -66,7 +66,7 @@ def process_search(search_params):
                 this_keyword_doc_Q |= Q(recipient_organization=org)
                 this_keyword_doc_Q |= Q(cced_organization=org)
 
-            fulltext_Q &= Q(text__icontains=word)
+            fulltext_Q &= Q(text_search_vector=word)
 
             if i == num_keywords - 1:
                 # on last iteration, actually filter the documents
@@ -84,7 +84,7 @@ def process_search(search_params):
         search_terms = search_terms_to_list(text)
         fulltext_q = Q()
         for term in search_terms:
-            fulltext_q &= Q(text__icontains=term)
+            fulltext_q &= Q(text_search_vector=term)
         docs_qs = docs_qs.filter(fulltext_q)
 
     if author:
