@@ -7,6 +7,7 @@ branches:
 
 addons:
   chrome: stable
+  postgresql: "10"
 
 language: python
 python:
@@ -21,6 +22,9 @@ before_install:
 
 install:
   - pip install -r requirements.txt
+
+before_script:
+  - psql -c 'create database comphistl' -U postgres
 
 script:
   - python manage.py test --settings config.settings_test
