@@ -253,8 +253,9 @@ def search(request):
     search_params = request.GET
     if not search_params:
         return render(request, 'archives/search.jinja2', context) 
-
+    
     search_result = process_search(search_params)
+
     if search_result:
         docs_result, people_result, search_facets = search_result
     else: # search was run with no params
@@ -325,18 +326,8 @@ def net_viz(request):
 
 
 def timeline(request):
-    documents = (Document.objects.order_by('date').exclude(date=None))
-    last_year = documents.last().date.year
-    documents_by_year = {}
-    documents_by_year["1945-1949"] = []
-    for i in range(1950, last_year + 1):
-        documents_by_year[i] = []
-    for document in documents:
-        year = document.date.year
-        if year < 1950:
-            documents_by_year["1945-1949"].append(document)
-        else:
-            documents_by_year[year].append(document)
+    """ Displays documents by year; which we have pickled so this goes fast """
+    documents_by_year = load_pickle('documents_by_year')
     context = {'documents_by_year': documents_by_year}
     return render(request, 'archives/timeline.jinja2', context)
 

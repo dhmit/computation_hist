@@ -35,6 +35,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django.contrib.postgres', # enables postgres-only full text search queries
 
     # 3rd party apps
     'django_jinja',  # we use Jinja2 templates, not pure django.
@@ -119,18 +120,28 @@ WSGI_APPLICATION = 'config.wsgi.application'
 # denial of service attack.
 
 DATABASES = {
-    'sqlite3': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(DATA_DIR, 'db.sqlite3'),
-    },
-
-    'default': {
+    'default': { # production postgres server
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'HOST': 'comphist-test-0.cdciclcuqo67.us-west-1.rds.amazonaws.com',
         'PORT': '5432',
         'NAME': 'comphist_test',
         'USER': 'comphist_readonly',
         'PASSWORD': 'readonly',
+        'CONN_MAX_AGE': 60 * 10, # allow db connections to persist for 10 minutes to speed up doc browsing
+    },
+
+    'sqlite3': { # sqlite3 for lightweight local dev
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(DATA_DIR, 'db.sqlite3'),
+    },
+
+    'local_postgres': { # local postgres
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'HOST': 'localhost',
+        'PORT': '5432',
+        'NAME': 'comphist',
+        'USER': 'comphist',
+        'PASSWORD': '',
         'CONN_MAX_AGE': 60 * 10, # allow db connections to persist for 10 minutes to speed up doc browsing
     }
 }

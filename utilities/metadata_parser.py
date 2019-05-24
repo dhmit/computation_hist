@@ -2,10 +2,11 @@
 import csv
 
 # django
-from django.db import IntegrityError
+from django.contrib.postgres.search import SearchVector
 from django.core.exceptions import ValidationError
-from django.utils.text import slugify
+from django.db import IntegrityError
 from django.db.models import Count, Prefetch
+from django.utils.text import slugify
 
 # project
 from config.settings import METADATA_CSV, DATABASES, DATA_DIR
@@ -81,6 +82,9 @@ def populate_from_metadata(metadata_filename=None):
                 count_invalid += 1
                 print(f'{e}. Line: {line}.')
 
+    print('Adding search vectors...')
+    Document.objects.update(text_search_vector=SearchVector('text'))
+
     print(f'''\n################################################################################
     IMPORT COMPLETE
 ################################################################################
@@ -100,7 +104,29 @@ def populate_from_metadata(metadata_filename=None):
                 print("\t" + first_name)
             print("")
 
+    print('Pickling data for list views and timeline...')
     pickle_for_list_views()
+    pickle_docs_by_year()
+    print('Done!')
+
+def pickle_docs_by_year():
+    """
+    The timeline view shows all documents, grouped into year ranges.
+    We pickle this here for speed.
+    """
+    documents = (Document.objects.order_by('date').exclude(date=None))
+    last_year = documents.last().date.year
+    documents_by_year = {}
+    documents_by_year["1945-1949"] = []
+    for i in range(1950, last_year + 1):
+        documents_by_year[i] = []
+    for document in documents:
+        year = document.date.year
+        if year < 1950:
+            documents_by_year["1945-1949"].append(document)
+        else:
+            documents_by_year[year].append(document)
+    store_pickle(documents_by_year, 'documents_by_year')
 
 
 def pickle_for_list_views():
@@ -252,6 +278,10 @@ def add_one_document(csv_line, aliases_to_full_name_dict, line_no=None, names={}
                                       names,
                                       )
         new_doc.save()
+
+    
+
+
     except IntegrityError:
         pass
 
