@@ -24,7 +24,7 @@ chmod 777 $RUNDIR
 exec gunicorn ${DJANGO_WSGI_MODULE}:application \
 --name $NAME \
 --workers $NUM_WORKERS \
---log-level=debug \
+--log-level=warning \
 --log-file=$LOGFILE \
 --bind=unix:$SOCKFILE
 # --bind 0:8080  # run directly without nginx for testing
