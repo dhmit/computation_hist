@@ -225,7 +225,7 @@ export class GeneralAssemblerRenderer extends Renderer {
 
         const line = $(`
             <div class="row code_line" id="code_line_${this.num_lines}">
-                  <div class="col-sm-1 px-2 line_no_text">
+                  <div class="col-sm-1 pl-3 pr-2 line_no_text">
                          <p>${this.num_lines + 1}.</p>
                   </div>
                   <div class="col-sm-3 px-2" id="code_label_${this.num_lines}">
