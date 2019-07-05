@@ -1,3 +1,12 @@
+button {
+    font-family: Acre-Regular;
+}
+
+.general_memory {
+    float: left;
+    text-align: left;
+}
+
 .tooltip-inner {
     white-space: pre-wrap;
 }
@@ -51,6 +60,7 @@ body {
 
 .line_no_text {
     vertical-align: center;
+    font-family: Courier, monospace;
 }
 
 #code {
