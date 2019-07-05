@@ -17,7 +17,7 @@ export class Renderer {
             let element = $(`
                 <div class="row general_memory_row">
                       <div class="col-2">
-                             <p class="text-right float-right line_no_text">${i.toString()}: </p>
+                             <p class="line_no_text">${i.toString()}: </p>
                       </div>
                       <div class="col-10">
                              <span class="general_memory number" id="general_memory_${i.toString()}" 
