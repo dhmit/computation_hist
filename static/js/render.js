@@ -14,15 +14,18 @@ export class Renderer {
     create_memory_display() {
         const general_memory_display = document.getElementById("general_memory_div");
         for (let i = 0; i < this.computer.size; i++) {
-            const para = document.createElement("p");
-            const register = document.createTextNode(i.toString()+": ");
-            para.appendChild(register);
-            const span = document.createElement("span");
-            span.setAttribute("class", "general_memory number");
-            span.setAttribute("id", "general_memory" + i.toString());
-            span.setAttribute("data-toggle", "tooltip");
-            para.appendChild(span);
-            general_memory_display.appendChild(para);
+            let element = $(`
+                <div class="row general_memory_row">
+                      <div class="col-2">
+                             <p class="line_no_text">${i.toString()}: </p>
+                      </div>
+                      <div class="col-10">
+                             <span class="general_memory number" id="general_memory_${i.toString()}" 
+                             data-toggle="tooltip"></span>
+                      </div>
+               </div>
+            `)[0];
+            general_memory_display.appendChild(element);
         }
     }
 
@@ -225,7 +228,7 @@ export class GeneralAssemblerRenderer extends Renderer {
 
         const line = $(`
             <div class="row code_line" id="code_line_${this.num_lines}">
-                  <div class="col-sm-1 px-2 line_no_text">
+                  <div class="col-sm-1 pl-3 pr-2 line_no_text">
                          <p>${this.num_lines + 1}.</p>
                   </div>
                   <div class="col-sm-3 px-2" id="code_label_${this.num_lines}">
