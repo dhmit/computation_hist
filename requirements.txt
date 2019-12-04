@@ -1,5 +1,5 @@
 dh_testers
-django==2.2.4 
+django==2.2.8 
 django_jinja>=2.4.1
 google-api-python-client
 gunicorn==19.9.0
