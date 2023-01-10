@@ -19,7 +19,10 @@ DEBUG = False
 
 SECRET_KEY = os.environ['DJANGO_SECRET_KEY'] # currently set in venv
 
-ALLOWED_HOSTS = ['comphist.digitalhumanitiesmit.org']
+ALLOWED_HOSTS = [
+    'comphist.digitalhumanitiesmit.org',
+    'comphist.dhlab.mit.edu',
+]
 
 ADMINS = ['rahmed@mit.edu'] # Django will email Ryaan on internal server errors
 

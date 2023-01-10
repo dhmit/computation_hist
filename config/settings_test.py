@@ -16,5 +16,6 @@ DATABASES = {
         'PORT': '5432',
         'NAME': 'comphist',
         'USER': 'postgres',
+        'PASSWORD': '',
     }
 }

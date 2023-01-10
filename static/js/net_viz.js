@@ -6,7 +6,6 @@ function create_force_layout(nodes, edges) {
     let width = document.getElementById("visualizations").clientWidth;
     let height = document.getElementById("visualizations").clientHeight;
 
-
     const color = d3.scaleSequential(d3.interpolateBlues);
     const graph = {"nodes": nodes, "links": edges};
     let max_weight = 0;
