@@ -20,7 +20,7 @@ requests
 scipy
 seaborn
 selenium
-sentry-sdk==1.14.0
+sentry-sdk==1.45.1
 pytesseract
 opencv-contrib-python
 Pillow
