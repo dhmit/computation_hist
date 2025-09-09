@@ -2,7 +2,7 @@ dh_testers
 django>=2.2.8
 django_jinja>=2.4.1
 google-api-python-client
-gunicorn==19.9.0
+gunicorn==23.0.0
 ipython
 jinja2-django-tags
 matplotlib
